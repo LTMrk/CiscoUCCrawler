@@ -26074,6 +26074,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/ct567b/Cisco-Desk-Camera-1080p-release-notes": {
+      "content_sha": "48e3bcf965c0045099d98c8e6d659cbae9863b58828519feee2f0ea5f35378a1",
+      "doc_id": "help-webex-com-en-us-article-ct567b-cisco-desk-camera-1080p-release-notes-fd5b87639c",
+      "etag": "\"27e74-LLHo+APf8UbpYcaw8fbXPP3gYaQ\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:08:36.816025+00:00",
+      "last_changed": "2026-09-01T20:08:36.816025+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:08:36.816025+00:00",
+      "next_check": "2026-09-02T20:08:36.816025+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes": {
+      "content_sha": "6e73b8edd3aa448521c3030c507dd073510b3ba303d0516448d4d6fdcddc5f5b",
+      "doc_id": "help-webex-com-en-us-article-ml8pm7-cisco-desk-camera-4k-release-notes-3291ab76ca",
+      "etag": "\"30b28-RvuxfDMxeiYLh2bn4pD2KmysSRk\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:08:41.621394+00:00",
+      "last_changed": "2026-09-01T20:08:41.621394+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:08:41.621394+00:00",
+      "next_check": "2026-09-02T20:08:41.621394+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/n5wdm6c/Device-Integration-Guide-for-Webex-for-Cisco-BroadWorks": {
       "content_sha": "72734a925288f1eeb636b0340a98729a8e0f8351dc5798746434ba66fe2e2c42",
       "doc_id": "help-webex-com-en-us-article-n5wdm6c-device-integration-guide-for-webex-for-cisco-broadworks-5ff8c53979",
@@ -28900,10 +28926,10 @@
       "first_seen": "2026-08-21T12:43:53.872052+00:00",
       "last_changed": "2026-08-21T12:43:53.872052+00:00",
       "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
-      "last_seen": "2026-08-24T05:02:05.561899+00:00",
-      "next_check": "2026-08-26T05:02:05.561899+00:00",
+      "last_seen": "2026-09-01T20:08:41.852878+00:00",
+      "next_check": "2026-09-05T20:08:41.852878+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_26": {
       "content_sha": "52adfed932528beb7599db0234544ddbcfea565c77a78c28882782503df6e908",
@@ -31551,10 +31577,10 @@
       "first_seen": "2026-08-21T12:48:52.437402+00:00",
       "last_changed": "2026-08-21T12:48:52.437402+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:03:39.326541+00:00",
-      "next_check": "2026-08-26T05:03:39.326541+00:00",
+      "last_seen": "2026-09-01T20:10:11.258888+00:00",
+      "next_check": "2026-09-05T20:10:11.258888+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html": {
       "content_sha": "ef58f54bddb460db13bc2951fc05739441e791ce9d27c00b03e37d84c6c53f9b",
@@ -31564,10 +31590,10 @@
       "first_seen": "2026-08-21T12:48:43.832554+00:00",
       "last_changed": "2026-08-21T12:48:43.832554+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:03:43.683517+00:00",
-      "next_check": "2026-08-26T05:03:43.683517+00:00",
+      "last_seen": "2026-09-01T20:08:33.122040+00:00",
+      "next_check": "2026-09-05T20:08:33.122040+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html": {
       "content_sha": "d325688f861ebedb1b7c5f0484b96eb13d075f6a76ace374885f93aa92cbf009",
@@ -31707,10 +31733,10 @@
       "first_seen": "2026-08-21T12:39:21.672446+00:00",
       "last_changed": "2026-08-21T12:39:21.672446+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:06:20.038332+00:00",
-      "next_check": "2026-08-26T05:06:20.038332+00:00",
+      "last_seen": "2026-09-01T20:10:07.182742+00:00",
+      "next_check": "2026-09-05T20:10:07.182742+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html": {
       "content_sha": "da5a62e79a03fde1b7eb56d923076045fedbf77eb2bada890ca5f191dd554bed",
@@ -45965,10 +45991,10 @@
       "first_seen": "2026-08-21T14:00:13.073999+00:00",
       "last_changed": "2026-08-21T14:00:13.073999+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:43.027036+00:00",
-      "next_check": "2026-08-26T05:55:43.027036+00:00",
+      "last_seen": "2026-09-01T20:08:29.564579+00:00",
+      "next_check": "2026-09-05T20:08:29.564579+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1/english/CLI_guide/guide/CER_BK_C70FA646_00_cisco-emergency-responder-user-guide-1151/CER_BK_C70FA646_00_cisco-emergency-responder-user-guide-1151_chapter_01.html": {
       "content_sha": null,
@@ -112965,10 +112991,10 @@
       "first_seen": "2026-08-21T13:33:15.024596+00:00",
       "last_changed": "2026-08-21T13:33:15.024596+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:46:22.379640+00:00",
-      "next_check": "2026-08-26T12:46:22.379640+00:00",
+      "last_seen": "2026-09-01T20:05:24.089167+00:00",
+      "next_check": "2026-09-05T20:05:24.089167+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.html": {
       "content_sha": "33ee2dfc070bda83ab63de48b67a7eb4672f3085ee00d7ab55dd5ccadff9142f",
@@ -112978,10 +113004,10 @@
       "first_seen": "2026-08-21T13:33:06.523330+00:00",
       "last_changed": "2026-08-21T13:33:06.523330+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:46:26.402199+00:00",
-      "next_check": "2026-08-26T12:46:26.402199+00:00",
+      "last_seen": "2026-09-01T20:05:15.617621+00:00",
+      "next_check": "2026-09-05T20:05:15.617621+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.html": {
       "content_sha": "ae75d3e8569a13a8975c27abde07ef08a580315d3ba00da4fbc570de08da064c",
@@ -112991,10 +113017,10 @@
       "first_seen": "2026-08-21T13:33:10.391030+00:00",
       "last_changed": "2026-08-21T13:33:10.391030+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:46:30.399864+00:00",
-      "next_check": "2026-08-26T12:46:30.399864+00:00",
+      "last_seen": "2026-09-01T20:05:20.203559+00:00",
+      "next_check": "2026-09-05T20:05:20.203559+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.html": {
       "content_sha": "f88ebd63a573aa989744d974533c681ecc851c4159c34d108ae95ac92f450e77",
@@ -113004,10 +113030,10 @@
       "first_seen": "2026-08-21T13:32:42.572664+00:00",
       "last_changed": "2026-08-21T13:32:42.572664+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:46:36.765670+00:00",
-      "next_check": "2026-08-26T12:46:36.765670+00:00",
+      "last_seen": "2026-09-01T20:04:32.847375+00:00",
+      "next_check": "2026-09-05T20:04:32.847375+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8800_series_chapter_010010.html": {
       "content_sha": "000a2a78818b5c91dff2b766bb30ae871cf02b5b2a56395bfae71e1943a22b76",
@@ -113225,10 +113251,10 @@
       "first_seen": "2026-08-21T13:32:46.231031+00:00",
       "last_changed": "2026-08-21T13:32:46.231031+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:47:48.855893+00:00",
-      "next_check": "2026-08-26T12:47:48.855893+00:00",
+      "last_seen": "2026-09-01T20:04:38.189563+00:00",
+      "next_check": "2026-09-05T20:04:38.189563+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/user-guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide/P881_BK_C3A802A0_00_cisco-ip-phone-8800-user_guide_chapter_00.html": {
       "content_sha": "381dfb10aca43cae48f2109f6dd0ed6d90a4d7b62fbabc39a428c923643e8970",
@@ -113342,10 +113368,10 @@
       "first_seen": "2026-08-21T13:32:37.327551+00:00",
       "last_changed": "2026-08-21T13:32:37.327551+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:27.174920+00:00",
-      "next_check": "2026-08-26T12:48:27.174920+00:00",
+      "last_seen": "2026-09-01T20:04:28.444493+00:00",
+      "next_check": "2026-09-05T20:04:28.444493+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-7-1/Release_Notes/p881_b_8800-release-notes-for-1171.html": {
       "content_sha": "daa59784d10953951b35fa92980fecc2365649b67b5951e61bbda7032bf4357f",
@@ -113355,10 +113381,10 @@
       "first_seen": "2026-08-21T13:32:28.572194+00:00",
       "last_changed": "2026-08-21T13:32:28.572194+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:31.227460+00:00",
-      "next_check": "2026-08-26T12:48:31.227460+00:00",
+      "last_seen": "2026-09-01T20:04:20.275724+00:00",
+      "next_check": "2026-09-05T20:04:20.275724+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-0-1-SR1/releasenotes/p881_b_8800-series-RN-for-12_0_1_SR1.html": {
       "content_sha": "b5146be86dcd7e895c30138a0937372554ed5f20be8d5b79c6342599a6907837",
@@ -113368,10 +113394,10 @@
       "first_seen": "2026-08-21T13:32:24.311672+00:00",
       "last_changed": "2026-08-21T13:32:24.311672+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:35.526621+00:00",
-      "next_check": "2026-08-26T12:48:35.526621+00:00",
+      "last_seen": "2026-09-01T20:04:16.487448+00:00",
+      "next_check": "2026-09-05T20:04:16.487448+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-0-1/release_notes/p881_b_8800-series-RN-for_12_0_1.html": {
       "content_sha": "432a8689a376ff9d188dd05ad90411bb45878637c4fdacbfdf295f4561e005ad",
@@ -113381,10 +113407,10 @@
       "first_seen": "2026-08-21T13:32:20.147774+00:00",
       "last_changed": "2026-08-21T13:32:20.147774+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:39.540154+00:00",
-      "next_check": "2026-08-26T12:48:39.540154+00:00",
+      "last_seen": "2026-09-01T20:04:12.023858+00:00",
+      "next_check": "2026-09-05T20:04:12.023858+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-1-1-SR1/releasenotes/p881_b_8800-series-release-notes-1211SR1.html": {
       "content_sha": "02207b5823608effef5c21747f18a276ac1fedb36ecf4604809708ccafb55273",
@@ -113394,10 +113420,10 @@
       "first_seen": "2026-08-21T13:32:15.827307+00:00",
       "last_changed": "2026-08-21T13:32:15.827307+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:43.620906+00:00",
-      "next_check": "2026-08-26T12:48:43.620906+00:00",
+      "last_seen": "2026-09-01T20:04:07.854626+00:00",
+      "next_check": "2026-09-05T20:04:07.854626+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-1-1/releasenotes/p881_b_8800-series-release-notes-1211.html": {
       "content_sha": "5254905b3e41d699482efc977fe80024ba6686eaf36facee336d50e72f727882",
@@ -113407,10 +113433,10 @@
       "first_seen": "2026-08-21T13:32:11.955348+00:00",
       "last_changed": "2026-08-21T13:32:11.955348+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:47.733245+00:00",
-      "next_check": "2026-08-26T12:48:47.733245+00:00",
+      "last_seen": "2026-09-01T20:04:03.712268+00:00",
+      "next_check": "2026-09-05T20:04:03.712268+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-5-1SR2/releasenotes/p881_b_synergy-lite-1251sr2.html": {
       "content_sha": "7c4d64d3d4023f15421f1c08503c307ff9b5f1b500669d4918a42b64ccb7d6b4",
@@ -113420,10 +113446,10 @@
       "first_seen": "2026-08-21T13:32:07.910218+00:00",
       "last_changed": "2026-08-21T13:32:07.910218+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:52.090157+00:00",
-      "next_check": "2026-08-26T12:48:52.090157+00:00",
+      "last_seen": "2026-09-01T20:03:59.250112+00:00",
+      "next_check": "2026-09-05T20:03:59.250112+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-5-1SR3/releasenotes/p881_b_8800-release-notes-1251sr3.html": {
       "content_sha": "c0d181d3555388b090930a17f49c11ebda8db705e96c3ac23ccd59581ee105fe",
@@ -113433,10 +113459,10 @@
       "first_seen": "2026-08-21T13:32:03.455647+00:00",
       "last_changed": "2026-08-21T13:32:03.455647+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:48:56.295305+00:00",
-      "next_check": "2026-08-26T12:48:56.295305+00:00",
+      "last_seen": "2026-09-01T20:03:54.938562+00:00",
+      "next_check": "2026-09-05T20:03:54.938562+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-6-1-sr1/p881_b_8800-release-notes-1261sr1.html": {
       "content_sha": "6dd8109d47e098fcea46a7ee7dc4766ebe8b97ca558454cdb90daa68b694a32d",
@@ -113446,10 +113472,10 @@
       "first_seen": "2026-08-21T13:32:58.081899+00:00",
       "last_changed": "2026-08-21T13:32:58.081899+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:49:00.318240+00:00",
-      "next_check": "2026-08-26T12:49:00.318240+00:00",
+      "last_seen": "2026-09-01T20:05:07.040170+00:00",
+      "next_check": "2026-09-05T20:05:07.040170+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-6-1/releasenotes/p881_b_8800-release-notes-1261.html": {
       "content_sha": "b2076283ba96d6253606d39d25e3304924cbf38fdaa5c5016130113f1709ada9",
@@ -113459,10 +113485,10 @@
       "first_seen": "2026-08-21T13:31:59.269855+00:00",
       "last_changed": "2026-08-21T13:31:59.269855+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:35.416097+00:00",
-      "next_check": "2026-08-26T12:51:35.416097+00:00",
+      "last_seen": "2026-09-01T20:03:50.649209+00:00",
+      "next_check": "2026-09-05T20:03:50.649209+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-7-1/releasenotes/p881_b_rns-8800-1271.html": {
       "content_sha": "cdefae64317da2e95eb44bf9fcb9249f1696bfaa3dec1fdd1fbf9924f6e47974",
@@ -113472,10 +113498,10 @@
       "first_seen": "2026-08-21T13:31:55.129091+00:00",
       "last_changed": "2026-08-21T13:31:55.129091+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:39.499296+00:00",
-      "next_check": "2026-08-26T12:51:39.499296+00:00",
+      "last_seen": "2026-09-01T20:03:46.638504+00:00",
+      "next_check": "2026-09-05T20:03:46.638504+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-7-1SR1/p881_b_rns-8800-1271sr1.html": {
       "content_sha": "8d9667161c5b5a1c245318d880be88d8298392256fd9adfff0da9be23e4c9cb6",
@@ -113485,10 +113511,10 @@
       "first_seen": "2026-08-21T13:29:55.134808+00:00",
       "last_changed": "2026-08-21T13:29:55.134808+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:43.527822+00:00",
-      "next_check": "2026-08-26T12:51:43.527822+00:00",
+      "last_seen": "2026-09-01T20:03:42.450198+00:00",
+      "next_check": "2026-09-05T20:03:42.450198+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1-SR1/p881_b_rns-8800-1281sr1.html": {
       "content_sha": "da9869246d00b64bbf305da0230e67564697b9657799ec5cc3fea6070f880949",
@@ -113498,10 +113524,10 @@
       "first_seen": "2026-08-21T13:29:46.510766+00:00",
       "last_changed": "2026-08-21T13:29:46.510766+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:47.849946+00:00",
-      "next_check": "2026-08-26T12:51:47.849946+00:00",
+      "last_seen": "2026-09-01T20:03:34.003257+00:00",
+      "next_check": "2026-09-05T20:03:34.003257+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1-SR2/p881_b_release-notes-1281sr2.html": {
       "content_sha": "5c1ef4ea6a6b1148c6341ad7808dee66dfde12c999382598b42e91867cd081a1",
@@ -113511,10 +113537,10 @@
       "first_seen": "2026-08-21T13:32:54.132602+00:00",
       "last_changed": "2026-08-21T13:32:54.132602+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:52.235883+00:00",
-      "next_check": "2026-08-26T12:51:52.235883+00:00",
+      "last_seen": "2026-09-01T20:05:02.667650+00:00",
+      "next_check": "2026-09-05T20:05:02.667650+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1/p881_b_rns-8800-1281.html": {
       "content_sha": "b45b7d32c243a4a054ceb0f53366861a7111738400e98206c43fa6f29b41d024",
@@ -113524,10 +113550,10 @@
       "first_seen": "2026-08-21T13:29:50.845804+00:00",
       "last_changed": "2026-08-21T13:29:50.845804+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:51:56.771094+00:00",
-      "next_check": "2026-08-26T12:51:56.771094+00:00",
+      "last_seen": "2026-09-01T20:03:38.399843+00:00",
+      "next_check": "2026-09-05T20:03:38.399843+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1/cs88_b_cisco-ip-conference-phone-8832.html": {
       "content_sha": "f9592084c55c9f052351cf9caab7f6a2f962e890e98eaba6eede9c0719e85be1",
@@ -113550,10 +113576,10 @@
       "first_seen": "2026-08-21T13:29:33.889542+00:00",
       "last_changed": "2026-08-21T13:29:33.889542+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:52:04.828276+00:00",
-      "next_check": "2026-08-26T12:52:04.828276+00:00",
+      "last_seen": "2026-09-01T20:03:21.637214+00:00",
+      "next_check": "2026-09-05T20:03:21.637214+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1sr2/cs88_b_8832-rn-1411sr2.html": {
       "content_sha": "948a1e3cf1e776b2bf3be65e59f84adb129bc67cb6580fdf5ce1cd4238f3a45b",
@@ -113576,10 +113602,10 @@
       "first_seen": "2026-08-21T13:29:29.859785+00:00",
       "last_changed": "2026-08-21T13:29:29.859785+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:52:12.882229+00:00",
-      "next_check": "2026-08-26T12:52:12.882229+00:00",
+      "last_seen": "2026-09-01T20:03:17.392058+00:00",
+      "next_check": "2026-09-05T20:03:17.392058+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1.html": {
       "content_sha": "d2b3ff530bd299cb20f4f55bfc4b79efa39ce1fcec583c3c2225396cf9203cbb",
@@ -113758,10 +113784,10 @@
       "first_seen": "2026-08-17T01:11:46.844326+00:00",
       "last_changed": "2026-08-17T01:11:46.844326+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:11.709883+00:00",
-      "next_check": "2026-08-28T12:53:11.709883+00:00",
+      "last_seen": "2026-09-01T20:04:54.287986+00:00",
+      "next_check": "2026-09-09T20:04:54.287986+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR2/cs88_b_8832-rn-1441sr2.html": {
       "content_sha": "9288d8efe35df1688bac7b967f7bf584bd4cdfff20b32e570d1848c5c5e519c2",
@@ -113784,10 +113810,10 @@
       "first_seen": "2026-08-17T01:11:38.136089+00:00",
       "last_changed": "2026-08-17T01:11:38.136089+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:19.898714+00:00",
-      "next_check": "2026-08-28T12:53:19.898714+00:00",
+      "last_seen": "2026-09-01T20:04:50.077435+00:00",
+      "next_check": "2026-09-09T20:04:50.077435+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/cs88_b_8832-rn-1441sr3.html": {
       "content_sha": "aea2829fd1f242278403009807ad663808d77749488016e5174c19927bc78e6b",
@@ -113803,17 +113829,30 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/p881_b_8800-rn-1441sr3.html": {
-      "content_sha": "0cf0cabcf15c119133ee10dcff0fdf80deffcbd20df69a8201c83ec12ebb2a68",
+      "content_sha": "dc0e0c670f3820376286ef0b096cea48d3b47e0e5e48a0570e7ceff6436085b2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr3-p881-b-8800-rn-1441sr3-html-c6c584f4d0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T01:11:29.954330+00:00",
-      "last_changed": "2026-08-17T01:11:29.954330+00:00",
+      "last_changed": "2026-09-01T20:04:45.675990+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:28.158731+00:00",
-      "next_check": "2026-08-28T12:53:28.158731+00:00",
+      "last_seen": "2026-09-01T20:04:45.675990+00:00",
+      "next_check": "2026-09-02T20:04:45.675990+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR4/p881_b_8800-rn-1441sr4.html": {
+      "content_sha": "baedfc85cccc4af8147bc582699bf2f06323ceec0cb9dae8c04a75ea8edc637a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr4-p881-b-8800-rn-1441sr4-html-1676c265fe",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:04:41.507319+00:00",
+      "last_changed": "2026-09-01T20:04:41.507319+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:04:41.507319+00:00",
+      "next_check": "2026-09-02T20:04:41.507319+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4/cs88_b_8832-rn-1441.html": {
       "content_sha": "788e5c5c37014f760620fa0ea11bce89be0d4e54ccf565925af2390ccc3dcfdf",
@@ -113849,10 +113888,10 @@
       "first_seen": "2026-08-21T13:29:42.270113+00:00",
       "last_changed": "2026-08-21T13:29:42.270113+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:40.939865+00:00",
-      "next_check": "2026-08-26T12:53:40.939865+00:00",
+      "last_seen": "2026-09-01T20:03:29.904709+00:00",
+      "next_check": "2026-09-05T20:03:29.904709+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR1/p881_b_release-notes-1401sr1.html": {
       "content_sha": "8eb3a939e1310273f57a295550b3dc50f65607373d0e25c717eab2cd6a07fb83",
@@ -113862,10 +113901,10 @@
       "first_seen": "2026-08-21T13:32:50.179714+00:00",
       "last_changed": "2026-08-21T13:32:50.179714+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:44.996000+00:00",
-      "next_check": "2026-08-26T12:53:44.996000+00:00",
+      "last_seen": "2026-09-01T20:04:58.228663+00:00",
+      "next_check": "2026-09-05T20:04:58.228663+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR2/p881_b_cisco-ip-phone-8800-release.html": {
       "content_sha": "a62595a5ab538f56ba48f67e4575c9c33a918e773bf367739fbc8e4b62257f8f",
@@ -113875,10 +113914,10 @@
       "first_seen": "2026-08-21T13:29:37.999387+00:00",
       "last_changed": "2026-08-21T13:29:37.999387+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:49.205188+00:00",
-      "next_check": "2026-08-26T12:53:49.205188+00:00",
+      "last_seen": "2026-09-01T20:03:25.824232+00:00",
+      "next_check": "2026-09-05T20:03:25.824232+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/releasenotes/p881_b_cisco-ip-phone-8800-series.html": {
       "content_sha": "7f0b52033d52130fd5a8bbaec7c90830dc936764de1542248d6ba7a1c6e6ec21",
@@ -113888,10 +113927,10 @@
       "first_seen": "2026-08-21T13:32:32.965940+00:00",
       "last_changed": "2026-08-21T13:32:32.965940+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:56.035355+00:00",
-      "next_check": "2026-08-26T12:53:56.035355+00:00",
+      "last_seen": "2026-09-01T20:04:24.240055+00:00",
+      "next_check": "2026-09-05T20:04:24.240055+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2.html": {
       "content_sha": "0aece7a0532f8305706bc657da76fe5a2f0d3a4fdc712ac3dc1f106cd4b3f982",
@@ -113901,10 +113940,10 @@
       "first_seen": "2026-08-21T13:33:23.305056+00:00",
       "last_changed": "2026-08-21T13:33:23.305056+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:53:59.259987+00:00",
-      "next_check": "2026-08-26T12:53:59.259987+00:00",
+      "last_seen": "2026-09-01T20:05:31.906182+00:00",
+      "next_check": "2026-09-05T20:05:31.906182+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2_chapter_00.html": {
       "content_sha": "cd1efb4aaa56e93d66a81f2bb34c41569df8cb5897586cb417b8ae267b17bdf0",
@@ -113940,10 +113979,10 @@
       "first_seen": "2026-08-21T13:33:19.239443+00:00",
       "last_changed": "2026-08-21T13:33:19.239443+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:54:03.939990+00:00",
-      "next_check": "2026-08-26T12:54:03.939990+00:00",
+      "last_seen": "2026-09-01T20:05:28.172052+00:00",
+      "next_check": "2026-09-05T20:05:28.172052+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix.html": {
       "content_sha": "5cdffe40016016ab6fb3e9dcaabf2d15ebf72e72963f6253319679f2cb8cdafc",
@@ -114343,10 +114382,10 @@
       "first_seen": "2026-08-21T13:35:43.163127+00:00",
       "last_changed": "2026-08-21T13:35:43.163127+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:19.207517+00:00",
-      "next_check": "2026-08-26T12:56:19.207517+00:00",
+      "last_seen": "2026-09-01T20:07:58.427546+00:00",
+      "next_check": "2026-09-05T20:07:58.427546+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR2/w88x_b_cisco-8821-rns-110002sr2.html": {
       "content_sha": "d42cce668f17bfef0bd54276072620f0962270fd2de2ed367bd0b901477220f7",
@@ -114356,10 +114395,10 @@
       "first_seen": "2026-08-21T13:36:03.988558+00:00",
       "last_changed": "2026-08-21T13:36:03.988558+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:23.296029+00:00",
-      "next_check": "2026-08-26T12:56:23.296029+00:00",
+      "last_seen": "2026-09-01T20:08:20.656268+00:00",
+      "next_check": "2026-09-05T20:08:20.656268+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2/w882_b_cisco-8821-rns-110002.html": {
       "content_sha": "5c561e220872ce8a002a48c42cc2faf045829a65aa76d114f3e74e9c8475fea7",
@@ -114369,10 +114408,10 @@
       "first_seen": "2026-08-21T13:35:38.978496+00:00",
       "last_changed": "2026-08-21T13:35:38.978496+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:27.728216+00:00",
-      "next_check": "2026-08-26T12:56:27.728216+00:00",
+      "last_seen": "2026-09-01T20:07:54.422015+00:00",
+      "next_check": "2026-09-05T20:07:54.422015+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR1/w881_b_cisco-8821-rns-110003sr1.html": {
       "content_sha": "8d494403d042612570ac2757ddb1ecd5b8deb0e2a9a7ceb25cdf81cfde6f7a9c",
@@ -114382,10 +114421,10 @@
       "first_seen": "2026-08-21T13:35:59.941277+00:00",
       "last_changed": "2026-08-21T13:35:59.941277+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:31.704843+00:00",
-      "next_check": "2026-08-26T12:56:31.704843+00:00",
+      "last_seen": "2026-09-01T20:08:15.528227+00:00",
+      "next_check": "2026-09-05T20:08:15.528227+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR2/w881_b_cisco-8821-rns-110003sr2.html": {
       "content_sha": "b65b087b4e880a4da0cd66af43fbfabf06e847815aa99d4ee1182135b697fa61",
@@ -114395,10 +114434,10 @@
       "first_seen": "2026-08-21T13:35:55.703883+00:00",
       "last_changed": "2026-08-21T13:35:55.703883+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:36.183843+00:00",
-      "next_check": "2026-08-26T12:56:36.183843+00:00",
+      "last_seen": "2026-09-01T20:08:12.105373+00:00",
+      "next_check": "2026-09-05T20:08:12.105373+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR3/w881_b_cisco-8821-rns-110003sr3.html": {
       "content_sha": "5e96b387fbf2274b873eaef85fd22aeb9bb0ae56b8f9b6539788be7afb427088",
@@ -114408,10 +114447,10 @@
       "first_seen": "2026-08-21T13:35:51.723901+00:00",
       "last_changed": "2026-08-21T13:35:51.723901+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:41.816977+00:00",
-      "next_check": "2026-08-26T12:56:41.816977+00:00",
+      "last_seen": "2026-09-01T20:08:07.747831+00:00",
+      "next_check": "2026-09-05T20:08:07.747831+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR4/w881_b_cisco-8821-rns-110003sr4.html": {
       "content_sha": "11401db62a7c782e3d953f3593a0d9206c4b26abe4212812f799289606c707d4",
@@ -114421,10 +114460,10 @@
       "first_seen": "2026-08-21T13:35:35.140191+00:00",
       "last_changed": "2026-08-21T13:35:35.140191+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:45.263066+00:00",
-      "next_check": "2026-08-26T12:56:45.263066+00:00",
+      "last_seen": "2026-09-01T20:07:50.634992+00:00",
+      "next_check": "2026-09-05T20:07:50.634992+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR5/w881_b_cisco-8821-rns-110003sr5.html": {
       "content_sha": "76d1c51a6acbef2fa074df4464ce0760b6f180e8acc130e6d0a801fdc0e45c4d",
@@ -114434,10 +114473,10 @@
       "first_seen": "2026-08-21T13:35:26.683200+00:00",
       "last_changed": "2026-08-21T13:35:26.683200+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:49.704899+00:00",
-      "next_check": "2026-08-26T12:56:49.704899+00:00",
+      "last_seen": "2026-09-01T20:07:42.583476+00:00",
+      "next_check": "2026-09-05T20:07:42.583476+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR6/w881_b_cisco-8821-rns-110003sr6.html": {
       "content_sha": "64029bd3029f7d5d2fff5665445c78f67c7bc650201f31881cf05b8062c4643a",
@@ -114447,10 +114486,10 @@
       "first_seen": "2026-08-21T13:35:30.932905+00:00",
       "last_changed": "2026-08-21T13:35:30.932905+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:53.701288+00:00",
-      "next_check": "2026-08-26T12:56:53.701288+00:00",
+      "last_seen": "2026-09-01T20:07:46.423369+00:00",
+      "next_check": "2026-09-05T20:07:46.423369+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3/w881_b_cisco-8821-rns-110003.html": {
       "content_sha": "53ead9c023b3b6636b1ebd395bf501fd7f9c0c92962db658dedec09798d3615c",
@@ -114460,10 +114499,10 @@
       "first_seen": "2026-08-21T13:35:47.531961+00:00",
       "last_changed": "2026-08-21T13:35:47.531961+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:56:57.649484+00:00",
-      "next_check": "2026-08-26T12:56:57.649484+00:00",
+      "last_seen": "2026-09-01T20:08:03.170618+00:00",
+      "next_check": "2026-09-05T20:08:03.170618+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr1/w881_b_wireless-8821-rns-110004sr1.html": {
       "content_sha": "36ce7a7d367289ef179fd62c604bb6f59e6331cd4897052efe1e28e2e927c4de",
@@ -114473,10 +114512,10 @@
       "first_seen": "2026-08-21T13:35:18.244575+00:00",
       "last_changed": "2026-08-21T13:35:18.244575+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:01.952952+00:00",
-      "next_check": "2026-08-26T12:57:01.952952+00:00",
+      "last_seen": "2026-09-01T20:07:33.862671+00:00",
+      "next_check": "2026-09-05T20:07:33.862671+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.html": {
       "content_sha": "35a311b27f55144bce46a926512861903c6d635a9621674960ee4c58a6ecd78a",
@@ -114486,10 +114525,10 @@
       "first_seen": "2026-08-21T13:35:14.186430+00:00",
       "last_changed": "2026-08-21T13:35:14.186430+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:06.083864+00:00",
-      "next_check": "2026-08-26T12:57:06.083864+00:00",
+      "last_seen": "2026-09-01T20:07:29.760553+00:00",
+      "next_check": "2026-09-05T20:07:29.760553+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr3/w881_b_wireless-8821-rns-110004sr3.html": {
       "content_sha": "6ad934ba6b794b639e2d5aca403bbfc1ba0f5d197825e9eb50caded2c09ff16f",
@@ -114499,10 +114538,10 @@
       "first_seen": "2026-08-21T13:35:09.901500+00:00",
       "last_changed": "2026-08-21T13:35:09.901500+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:10.308257+00:00",
-      "next_check": "2026-08-26T12:57:10.308257+00:00",
+      "last_seen": "2026-09-01T20:07:25.300658+00:00",
+      "next_check": "2026-09-05T20:07:25.300658+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4/w881_b_wireless-8821-rns-110004.html": {
       "content_sha": "4520c7446cd79552f8675b06d73cd42100372d9f0bfa8e74370ec4c44fafe907",
@@ -114512,10 +114551,10 @@
       "first_seen": "2026-08-21T13:35:22.753737+00:00",
       "last_changed": "2026-08-21T13:35:22.753737+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:14.413111+00:00",
-      "next_check": "2026-08-26T12:57:14.413111+00:00",
+      "last_seen": "2026-09-01T20:07:38.033458+00:00",
+      "next_check": "2026-09-05T20:07:38.033458+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5-SR3/w881_b_wireless-8821-rns-110005sr3.html": {
       "content_sha": "7e2f840ec120beaf078b90b9651b5e95b194a09b87fd4f56f617f5fea18dbf6b",
@@ -114525,10 +114564,10 @@
       "first_seen": "2026-08-21T13:34:52.728935+00:00",
       "last_changed": "2026-08-21T13:34:52.728935+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:18.307256+00:00",
-      "next_check": "2026-08-26T12:57:18.307256+00:00",
+      "last_seen": "2026-09-01T20:07:08.606198+00:00",
+      "next_check": "2026-09-05T20:07:08.606198+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.html": {
       "content_sha": "b841648847ac7aadac75670cfd17880d995d4304b0638c1c914c9642a0bdbd02",
@@ -114538,10 +114577,10 @@
       "first_seen": "2026-08-21T13:35:05.865152+00:00",
       "last_changed": "2026-08-21T13:35:05.865152+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:22.803532+00:00",
-      "next_check": "2026-08-26T12:57:22.803532+00:00",
+      "last_seen": "2026-09-01T20:07:21.380613+00:00",
+      "next_check": "2026-09-05T20:07:21.380613+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.html": {
       "content_sha": "f581e9a7473d2a4c85a88498c2ee5491f1f8252ed992af954176f2f90651349a",
@@ -114551,10 +114590,10 @@
       "first_seen": "2026-08-21T13:34:57.070573+00:00",
       "last_changed": "2026-08-21T13:34:57.070573+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:26.584098+00:00",
-      "next_check": "2026-08-26T12:57:26.584098+00:00",
+      "last_seen": "2026-09-01T20:07:13.192588+00:00",
+      "next_check": "2026-09-05T20:07:13.192588+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.html": {
       "content_sha": "4178ce69191e4494bf6bbe6cd7efa74dacc81c2d443f347d9d59f226a0362758",
@@ -114564,10 +114603,10 @@
       "first_seen": "2026-08-21T13:35:01.301092+00:00",
       "last_changed": "2026-08-21T13:35:01.301092+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:30.649719+00:00",
-      "next_check": "2026-08-26T12:57:30.649719+00:00",
+      "last_seen": "2026-09-01T20:07:17.090814+00:00",
+      "next_check": "2026-09-05T20:07:17.090814+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.html": {
       "content_sha": "65c8444b64d580e3567bc638a435acbe792ee1ca71054e4ae5dbdb61c9db1307",
@@ -114577,10 +114616,10 @@
       "first_seen": "2026-08-21T13:34:43.996091+00:00",
       "last_changed": "2026-08-21T13:34:43.996091+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:34.809479+00:00",
-      "next_check": "2026-08-26T12:57:34.809479+00:00",
+      "last_seen": "2026-09-01T20:07:00.674886+00:00",
+      "next_check": "2026-09-05T20:07:00.674886+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.html": {
       "content_sha": "953658cd8f8e8399e553275349be9ba1a73ef277366174c2c7ded0b37354c8d3",
@@ -114590,10 +114629,10 @@
       "first_seen": "2026-08-21T13:34:39.959363+00:00",
       "last_changed": "2026-08-21T13:34:39.959363+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:39.138926+00:00",
-      "next_check": "2026-08-26T12:57:39.138926+00:00",
+      "last_seen": "2026-09-01T20:06:56.510778+00:00",
+      "next_check": "2026-09-05T20:06:56.510778+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR4/w881-b-wireless-8821-rln-1106sr4.html": {
       "content_sha": "5aa8bf9db14077b6c7019f5a3dd2952f0d9f2a12cd62642ac0b9d4b1db808e8a",
@@ -114603,10 +114642,10 @@
       "first_seen": "2026-08-21T13:34:35.683161+00:00",
       "last_changed": "2026-08-21T13:34:35.683161+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:43.690004+00:00",
-      "next_check": "2026-08-26T12:57:43.690004+00:00",
+      "last_seen": "2026-09-01T20:06:52.273547+00:00",
+      "next_check": "2026-09-05T20:06:52.273547+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR5/w881-b-wireless-8821-rln-1106sr5.html": {
       "content_sha": "4cd5723553b974f0a980db96acc6392a23761564a6e0b2a831d0da84a4bea392",
@@ -114616,10 +114655,10 @@
       "first_seen": "2026-08-21T13:34:31.616471+00:00",
       "last_changed": "2026-08-21T13:34:31.616471+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:47.546427+00:00",
-      "next_check": "2026-08-26T12:57:47.546427+00:00",
+      "last_seen": "2026-09-01T20:06:47.886040+00:00",
+      "next_check": "2026-09-05T20:06:47.886040+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR6/w881-b-wireless-8821-rln-1106sr6.html": {
       "content_sha": "02f1c6830d7cd02ce0c2b2176cb979b7cc424ec0c1ab3d453ad833791e042a6b",
@@ -114629,10 +114668,10 @@
       "first_seen": "2026-08-17T01:12:20.750155+00:00",
       "last_changed": "2026-08-17T01:12:20.750155+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:51.666729+00:00",
-      "next_check": "2026-08-28T12:57:51.666729+00:00",
+      "last_seen": "2026-09-01T20:06:43.641327+00:00",
+      "next_check": "2026-09-09T20:06:43.641327+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-sr7/w881_b_wireless-8821-rln1106sr7.html": {
       "content_sha": "016d26c0898bc2b0e6f6eb292e5caae3c3974d0e4a63acd6d8609fac8dc38504",
@@ -114642,10 +114681,23 @@
       "first_seen": "2026-08-17T01:11:59.784875+00:00",
       "last_changed": "2026-08-17T01:11:59.784875+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:57:55.883826+00:00",
-      "next_check": "2026-08-28T12:57:55.883826+00:00",
+      "last_seen": "2026-09-01T20:06:39.494792+00:00",
+      "next_check": "2026-09-09T20:06:39.494792+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-sr8/w881_b_wireless-8821-rln1106sr8.html": {
+      "content_sha": "144794b19aa5204322e5db5965ba4ac1e77ef68a4c6a14718b364e386054b70d",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-firmware-11-0-6-sr8-w881-b-wireless-8821-rln1106sr8-html-db04047599",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:06:35.251154+00:00",
+      "last_changed": "2026-09-01T20:06:35.251154+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:06:35.251154+00:00",
+      "next_check": "2026-09-02T20:06:35.251154+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.html": {
       "content_sha": "3f73103a49dc1efaa7ce78ca029194887c8cf7888f9a55111c098717faa143a4",
@@ -114655,10 +114707,10 @@
       "first_seen": "2026-08-21T13:34:48.452405+00:00",
       "last_changed": "2026-08-21T13:34:48.452405+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:58:00.430294+00:00",
-      "next_check": "2026-08-26T12:58:00.430294+00:00",
+      "last_seen": "2026-09-01T20:07:04.642710+00:00",
+      "next_check": "2026-09-05T20:07:04.642710+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01010.html": {
       "content_sha": "06cbd2601c6b61f77afe438b003e7354a1dcb10dd6679c41bd5c915618711fce",
@@ -114997,6 +115049,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9-3-4-SR1/release-notes/8831-3pcc-934sr1-rn.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-sr1-release-notes-8831-3pcc-934sr1-rn-html-f323f02ba9",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:06:17.932279+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T20:06:17.932291+00:00",
+      "next_check": "2026-09-02T20:06:17.932291+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-release-notes-list.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag.html": {
       "content_sha": "291ff67c46bdae131f840d3be7cfccd4ed35d7cca8372e373548000170a3f083",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-html-fd663dae84",
@@ -115148,10 +115212,10 @@
       "first_seen": "2026-08-21T13:34:13.563660+00:00",
       "last_changed": "2026-08-21T13:34:13.563660+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:03:08.830692+00:00",
-      "next_check": "2026-08-26T13:03:08.830692+00:00",
+      "last_seen": "2026-09-01T20:06:22.513566+00:00",
+      "next_check": "2026-09-05T20:06:22.513566+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning.html": {
       "content_sha": "75365e52841593500821ffa2f174e2369290c412e904e5424a51c8eefae3a62b",
@@ -115291,10 +115355,10 @@
       "first_seen": "2026-08-21T13:34:05.143416+00:00",
       "last_changed": "2026-08-21T13:34:05.143416+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:03:56.065812+00:00",
-      "next_check": "2026-08-26T13:03:56.065812+00:00",
+      "last_seen": "2026-09-01T20:06:14.627919+00:00",
+      "next_check": "2026-09-05T20:06:14.627919+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr1/english/release-notes/CS38_BK_826679D6_00_8831-rns-10_3_1sr1.html": {
       "content_sha": "d9a0f24845526f2e9e465a319e3df312bf46db8fee4ed6bb145d2fdad0901c9b",
@@ -115304,10 +115368,10 @@
       "first_seen": "2026-08-21T13:33:52.614829+00:00",
       "last_changed": "2026-08-21T13:33:52.614829+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:03:59.617101+00:00",
-      "next_check": "2026-08-26T13:03:59.617101+00:00",
+      "last_seen": "2026-09-01T20:06:01.851310+00:00",
+      "next_check": "2026-09-05T20:06:01.851310+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr2/english/release-notes/cs38_b_phone-8831-release-notes-1031sr2.html": {
       "content_sha": "6ccad5bfc5a97a6c9af7866e24cd60078cfc57637f195a02ab65a43f868a520f",
@@ -115317,10 +115381,10 @@
       "first_seen": "2026-08-21T13:33:48.521333+00:00",
       "last_changed": "2026-08-21T13:33:48.521333+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:04.070601+00:00",
-      "next_check": "2026-08-26T13:04:04.070601+00:00",
+      "last_seen": "2026-09-01T20:05:57.481972+00:00",
+      "next_check": "2026-09-05T20:05:57.481972+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.html": {
       "content_sha": "8cfa9ab4b19c819f3cdf2f0a8d32807585981aad839031c36f65522123f06498",
@@ -115330,10 +115394,10 @@
       "first_seen": "2026-08-21T13:33:44.170513+00:00",
       "last_changed": "2026-08-21T13:33:44.170513+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:08.736783+00:00",
-      "next_check": "2026-08-26T13:04:08.736783+00:00",
+      "last_seen": "2026-09-01T20:05:53.527701+00:00",
+      "next_check": "2026-09-05T20:05:53.527701+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.html": {
       "content_sha": "56828defe6a50e9f125ae8c0699c5dfa8b62a7384ff07f8943ac412427b4b7ce",
@@ -115343,10 +115407,10 @@
       "first_seen": "2026-08-21T13:33:40.125941+00:00",
       "last_changed": "2026-08-21T13:33:40.125941+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:12.872218+00:00",
-      "next_check": "2026-08-26T13:04:12.872218+00:00",
+      "last_seen": "2026-09-01T20:05:49.585559+00:00",
+      "next_check": "2026-09-05T20:05:49.585559+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.html": {
       "content_sha": "5e26a3a5e5f617581fce1d78b0607532c4257de3d3a60f2da3be7a5ebf79aec7",
@@ -115356,10 +115420,10 @@
       "first_seen": "2026-08-21T13:33:36.115541+00:00",
       "last_changed": "2026-08-21T13:33:36.115541+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:17.973512+00:00",
-      "next_check": "2026-08-26T13:04:17.973512+00:00",
+      "last_seen": "2026-09-01T20:05:44.930947+00:00",
+      "next_check": "2026-09-05T20:05:44.930947+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr6/cs38_b_rns-8831-1031sr6.html": {
       "content_sha": "3d46d168b68c779f7bb2a0cced5d64f3e65a1d342175eb0ea6607e6f4f08416a",
@@ -115369,10 +115433,10 @@
       "first_seen": "2026-08-21T13:33:31.901818+00:00",
       "last_changed": "2026-08-21T13:33:31.901818+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:21.484855+00:00",
-      "next_check": "2026-08-26T13:04:21.484855+00:00",
+      "last_seen": "2026-09-01T20:05:41.319579+00:00",
+      "next_check": "2026-09-05T20:05:41.319579+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.html": {
       "content_sha": "f767568374128b67a392b9786c21f858bd83d5636d8be6dacc77ffabbdb892b6",
@@ -115382,10 +115446,10 @@
       "first_seen": "2026-08-21T13:33:56.789643+00:00",
       "last_changed": "2026-08-21T13:33:56.789643+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:25.687266+00:00",
-      "next_check": "2026-08-26T13:04:25.687266+00:00",
+      "last_seen": "2026-09-01T20:06:06.011401+00:00",
+      "next_check": "2026-09-05T20:06:06.011401+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1sr7/releasenotes/cs38_b_cisco-unified-ip-conference-phone.html": {
       "content_sha": "cd6ddf0909bf6cdb6abaf4ae06c80925d63a0fbdaf58014683e6ea2b3c4fdd22",
@@ -115395,10 +115459,10 @@
       "first_seen": "2026-08-21T13:33:27.801938+00:00",
       "last_changed": "2026-08-21T13:33:27.801938+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:29.818390+00:00",
-      "next_check": "2026-08-26T13:04:29.818390+00:00",
+      "last_seen": "2026-09-01T20:05:36.655288+00:00",
+      "next_check": "2026-09-05T20:05:36.655288+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.html": {
       "content_sha": "b7607cac60d5cdb9094902bb51137197ad68fdc1bdb13e7b97ef862160cfda24",
@@ -115408,10 +115472,10 @@
       "first_seen": "2026-08-21T13:34:17.652909+00:00",
       "last_changed": "2026-08-21T13:34:17.652909+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:04:33.694793+00:00",
-      "next_check": "2026-08-26T13:04:33.694793+00:00",
+      "last_seen": "2026-09-01T20:06:26.850572+00:00",
+      "next_check": "2026-09-05T20:06:26.850572+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_2-8831_chapter_00.html": {
       "content_sha": "6645bd6f2bb1dc03340ed504bb554ae8b81b7da0a7b01431e903fa065f2db665",
@@ -115889,10 +115953,10 @@
       "first_seen": "2026-08-21T13:33:02.252144+00:00",
       "last_changed": "2026-08-21T13:33:02.252144+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:07:00.990993+00:00",
-      "next_check": "2026-08-26T13:07:00.990993+00:00",
+      "last_seen": "2026-09-01T20:05:11.409620+00:00",
+      "next_check": "2026-09-05T20:05:11.409620+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861_chapter_00.html": {
       "content_sha": "44d15b7be878318b0609deb063f31db7b96ade9298137d421eaa17758d75fc4e",
@@ -115929,6 +115993,18 @@
       "last_seen": "2026-09-01T14:47:04.395690+00:00",
       "next_check": "2026-09-02T14:47:04.395690+00:00",
       "redirect_to": "https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Unified-CM",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/release_notes/p875_m_8875-release-notes.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8875-8875nr-release-notes-p875-m-8875-release-notes-html-6e9f551281",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:06:29.900278+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T20:06:29.900291+00:00",
+      "next_check": "2026-09-02T20:06:29.900291+00:00",
+      "redirect_to": "https://help.webex.com/landing/ld-np2dxyq-CiscoVideoPhone8875/Get-started",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -120570,10 +120646,10 @@
       "first_seen": "2026-08-21T13:34:00.851583+00:00",
       "last_changed": "2026-08-21T13:34:00.851583+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:38:20.359342+00:00",
-      "next_check": "2026-08-26T13:38:20.359342+00:00",
+      "last_seen": "2026-09-01T20:06:09.904010+00:00",
+      "next_check": "2026-09-05T20:06:09.904010+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_appendix_010011.html": {
       "content_sha": "518742f6604d84ff55b4d6dfb7c9a599ced2f3e6da079c7cada93c9db3e2cbb2",
@@ -171398,10 +171474,10 @@
       "first_seen": "2026-08-22T00:57:31.447949+00:00",
       "last_changed": "2026-08-22T00:57:31.447949+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:33:42.573084+00:00",
-      "next_check": "2026-08-27T01:33:42.573084+00:00",
+      "last_seen": "2026-09-01T20:09:28.705360+00:00",
+      "next_check": "2026-09-05T20:09:28.705360+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023/DX00_BK_RB889E3E_00_release-notes-dx-series-1023.html": {
       "content_sha": "ca3191dca27ed097c7036ccb56015a0844eae69c30abcccc94b2a2c80b52cbad",
@@ -171411,10 +171487,10 @@
       "first_seen": "2026-08-20T20:37:19.875640+00:00",
       "last_changed": "2026-08-20T20:37:19.875640+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:33:46.178082+00:00",
-      "next_check": "2026-08-27T01:33:46.178082+00:00",
+      "last_seen": "2026-09-01T20:09:20.471067+00:00",
+      "next_check": "2026-09-05T20:09:20.471067+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023sr1/DX00_BK_R1761000_00_release-notes-dx-series-1023sr.html": {
       "content_sha": "ef978f08a65e638fec1d63d346df774417061d00bf002dfe4656dd20c77cace8",
@@ -171424,10 +171500,10 @@
       "first_seen": "2026-08-22T00:57:26.936603+00:00",
       "last_changed": "2026-08-22T00:57:26.936603+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:33:50.088041+00:00",
-      "next_check": "2026-08-27T01:33:50.088041+00:00",
+      "last_seen": "2026-09-01T20:09:24.331957+00:00",
+      "next_check": "2026-09-05T20:09:24.331957+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024/DX00_BK_RF53F53D_00_release-notes-dx-series-1024.html": {
       "content_sha": "7b56b3ca1556d315ef3d14ede4802816cb4209989e54655cfbfa18d32e94d750",
@@ -171437,10 +171513,10 @@
       "first_seen": "2026-08-22T00:57:18.481030+00:00",
       "last_changed": "2026-08-22T00:57:18.481030+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:33:54.315669+00:00",
-      "next_check": "2026-08-27T01:33:54.315669+00:00",
+      "last_seen": "2026-09-01T20:09:11.718972+00:00",
+      "next_check": "2026-09-05T20:09:11.718972+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024sr/DX00_BK_R548EF3A_00_release-notes-dx-series-1024sr.html": {
       "content_sha": "808b3b66fa68ca5f39edd76b5aa33c34f32fa4d17ec722f21e76e12b991a5c92",
@@ -171450,10 +171526,10 @@
       "first_seen": "2026-08-22T00:57:22.787250+00:00",
       "last_changed": "2026-08-22T00:57:22.787250+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:33:58.530608+00:00",
-      "next_check": "2026-08-27T01:33:58.530608+00:00",
+      "last_seen": "2026-09-01T20:09:16.246081+00:00",
+      "next_check": "2026-09-05T20:09:16.246081+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025/dx00_b_release-notes-dx-series-1025.html": {
       "content_sha": "8a9120e55e8f274c57d199be08b087df1055a396decf91265606662737ebd323",
@@ -171463,10 +171539,10 @@
       "first_seen": "2026-08-22T00:56:53.361960+00:00",
       "last_changed": "2026-08-22T00:56:53.361960+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:03.026228+00:00",
-      "next_check": "2026-08-27T01:34:03.026228+00:00",
+      "last_seen": "2026-09-01T20:08:47.452751+00:00",
+      "next_check": "2026-09-05T20:08:47.452751+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025es/dx00_b_release-notes-dx-series-1025es.html": {
       "content_sha": "75d0b06e4bf62bc8dde46191818972a7014f3e98adedce9aaa378e4c30b83800",
@@ -171476,10 +171552,10 @@
       "first_seen": "2026-08-22T00:56:57.430812+00:00",
       "last_changed": "2026-08-22T00:56:57.430812+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:06.887897+00:00",
-      "next_check": "2026-08-27T01:34:06.887897+00:00",
+      "last_seen": "2026-09-01T20:08:51.151544+00:00",
+      "next_check": "2026-09-05T20:08:51.151544+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr/dx00_b_release-notes-dx-series-1025sr.html": {
       "content_sha": "da14cafb4548eb2569ae10ddaab8bb8f0361e306f38b5023e7115ea422c0a0b7",
@@ -171489,10 +171565,10 @@
       "first_seen": "2026-08-22T00:57:01.658295+00:00",
       "last_changed": "2026-08-22T00:57:01.658295+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:11.224444+00:00",
-      "next_check": "2026-08-27T01:34:11.224444+00:00",
+      "last_seen": "2026-09-01T20:08:55.160579+00:00",
+      "next_check": "2026-09-05T20:08:55.160579+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr2/dx00_b_release-notes-dx-series-1025sr2.html": {
       "content_sha": "7a598d89334244297581119af17e568b1e0ba3cf2bd26be2676ffb10c7df9d4d",
@@ -171502,10 +171578,10 @@
       "first_seen": "2026-08-22T00:57:14.238845+00:00",
       "last_changed": "2026-08-22T00:57:14.238845+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:15.320893+00:00",
-      "next_check": "2026-08-27T01:34:15.320893+00:00",
+      "last_seen": "2026-09-01T20:09:07.631338+00:00",
+      "next_check": "2026-09-05T20:09:07.631338+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr3/dx00_b_release-notes-dx-series-1025sr3.html": {
       "content_sha": "e4c0c4966162758b600b04abb667ce0d0d09297c5cc543ba822c32a179e073cc",
@@ -171515,10 +171591,10 @@
       "first_seen": "2026-08-22T00:57:10.113791+00:00",
       "last_changed": "2026-08-22T00:57:10.113791+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:19.777444+00:00",
-      "next_check": "2026-08-27T01:34:19.777444+00:00",
+      "last_seen": "2026-09-01T20:09:03.668506+00:00",
+      "next_check": "2026-09-05T20:09:03.668506+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr4/dx00_b_release-notes-dx-series-1025sr4.html": {
       "content_sha": "4cfdad7c02837a4608442feb51609a994ade78766bbb22e48472b76a313a603d",
@@ -171528,10 +171604,10 @@
       "first_seen": "2026-08-22T00:57:05.593643+00:00",
       "last_changed": "2026-08-22T00:57:05.593643+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:34:27.495242+00:00",
-      "next_check": "2026-08-27T01:34:27.495242+00:00",
+      "last_seen": "2026-09-01T20:08:59.467930+00:00",
+      "next_check": "2026-09-05T20:08:59.467930+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0-1/exwy_b_cisco-expressway-administrator-guide-x14-0-1/exwy_m_applications.html": {
       "content_sha": "c3bae088921e5eaa5fb5d688d283c7ca220748e8b2a4c472cb7c2975255a0692",
@@ -194551,5 +194627,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T19:58:12.429773+00:00"
+  "updated_at": "2026-09-01T20:10:11.342306+00:00"
 }

@@ -1,22 +1,22 @@
 ---
-doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr3-p881-b-8800-rn-1441sr3-html-c6c584f4d0
-source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/p881_b_8800-rn-1441sr3.html
-retrieved_at: 2026-09-01T20:04:45.676069+00:00
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr4-p881-b-8800-rn-1441sr4-html-1676c265fe
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR4/p881_b_8800-rn-1441sr4.html
+retrieved_at: 2026-09-01T20:04:41.507478+00:00
 ---
 
-Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR3
+Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR4
 
-# Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR3
+# Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR4
 
 ### Download Options
 
-Updated: July 2, 2026
+Updated: August 28, 2026
 
-First Published: July 2, 2026
+First Published: August 28, 2026
 
-# Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR3
+# Cisco IP Phone 8800 Release Notes for Firmware Release 14.4(1)SR4
 
-These release notes support the Cisco IP Phone 8811, 8841, 8851, 8851NR, and 8861 running SIP Firmware Release 14.4(1)SR3.
+These release notes support the Cisco IP Phone 8845 and 8865 running SIP Firmware Release 14.4(1)SR4.
 
 The following table lists the support compatibility for the Cisco IP Phones.
 
@@ -24,7 +24,7 @@ Cisco IP Phone
 
 Support Requirements
 
-8811, 8841, 8851, 8851NR, and 8861
+8845 and 8865
 
 Cisco Unified Communications Manager 8.5(1) and later
 
@@ -33,10 +33,6 @@ Cisco Unified Communications Manager DST Olsen version D or later
 SRST 8.0 (IOS load 15.1(1)T) and above
 
 Cisco Expressway 8.7
-
-8811, 8841, 8851, 8851NR, and 8861
-
-CME 10.0 (IOS load 15.3(3)M)
 
 For information about phone hardware versions and the minimum firmware versions, see https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/compatibility/p881_b_phone-8800-series-compatibility.html .
 
@@ -98,13 +94,13 @@ Choose Session Initiation Protocol (SIP) Software .
 
 Step 4
 
-In the Latest Release folder, choose 14.4(1)SR3 .
+In the Latest Release folder, choose 14.4(1)SR4 .
 
 Step 5
 
 Select the firmware file, click the Download or Add to cart button, and follow the prompts:
 
-The firmware filename is cmterm-88xx-sip.14-4-1-0301-6.k4.cop.sha512 depending on the model you choose.
+The firmware filename is cmterm-8845_65-sip.14-4-1-0401-1.k4.cop.sha512 depending on the model you choose.
 
 If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All .
 
@@ -123,7 +119,7 @@ Follow the instructions in the readme file to install the firmware.
 ### Install the Firmware Zip Files
 
 If a Cisco Unified Communications Manager is not available to load the installer program, the following .zip file is available
-                        to load the firmware cmterm-88xx.14-4-1-0301-6.zip.
+                        to load the firmware cmterm-8845_65.14-4-1-0401-1.zip.
 
 Firmware upgrades over the WLAN interface may take longer than upgrades using a wired connection. Upgrade times over the WLAN
                         interface may take more than an hour, depending on the quality and bandwidth of the wireless connection.
@@ -150,13 +146,13 @@ Choose Session Initiation Protocol (SIP) Software .
 
 Step 4
 
-In the Latest Releases folder, choose 14.4(1)SR3 .
+In the Latest Releases folder, choose 14.4(1)SR4 .
 
 Step 5
 
 Select the firmware file, click the Download or Add to Cart button, and follow the prompts.
 
-The firmware file name is cmterm-88xx.14-4-1-0301-6.zip.
+The firmware file name is cmterm-8845_65.14-4-1-0401-1.zip.
 
 Step 6
 
@@ -256,11 +252,11 @@ Step 1
 
 Perform one of the following actions:
 
-Use this URL for all caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=anfr&svr=3nH&bt=custV
+Use this URL for all caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=anfr&svr=3nH&bt=custV
 
-Use this URL for all open caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=afr&sts=open&svr=3nH&bt=custV
+Use this URL for all open caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=afr&sts=open&svr=3nH&bt=custV
 
-Use this URL for all resolved caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=fr&sts=fd&svr=3nH&bt=custV
+Use this URL for all resolved caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=fr&sts=fd&svr=3nH&bt=custV
 
 Step 2
 
@@ -273,7 +269,7 @@ Step 3
 ## Open Caveats
 
 The following list contains severity 1, 2, and 3 defects that are open for the Cisco IP Phone 8800 Series for Firmware Release
-                     14.4(1)SR3.
+                     14.4(1)SR4.
 
 For more information about an individual defect, access the Bug Search toolkit and search for the defect using the Identifier.
                      You must be a registered Cisco.com user to access this online information.
@@ -281,25 +277,17 @@ For more information about an individual defect, access the Bug Search toolkit a
 Because defect status continually changes, the list reflects a snapshot of the defects that were open at the time this report
                      was compiled. For an updated view of open defects, access Bug Toolkit as described in View Caveats .
 
-CSCvp34626: No Wi-Fi icon displayed at the upper right corner of LCD after Wi-Fi connection done.
-
-CSCvq55980: Network name still displayed SSID when no Wi-Fi radio available.
-
 CSCwa00308: Failed to reject second incoming call on Cisco 530 headset.
 
 ## Resolved Caveats
 
 This release resolves the following issues:
 
-CSCwu68826 - 78xx/88xx series phone 802.1Q authentication (EAP-TLS) fails when EC LSC certificate is installed
+CSCwu56543 - Stack buffer overflow - bigeasy-video
 
-CSCwu46872 - Cisco IP Phone 8800 series stack buffer overflow in SIP
+CSCwu56544 - Denial of service at SIP - bigeasy-video
 
-CSCwu46981 - Heap based buffer overflow in LLDP
-
-CSCwu46942 - An exploitable memory leak can be found in SIP
-
-CSCwv80693 - 78xx/88xx series phone does not refresh MRA token after local router outage for an extended period
+CSCwu56576 - Heap based buffer overflow - bigeasy-video
 
 ## Application Programming Interface
 
@@ -360,8 +348,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 
 | Cisco IP Phone | Support Requirements |
 |---|---|
-| 8811, 8841, 8851, 8851NR, and 8861 | Cisco Unified Communications Manager 8.5(1) and later Cisco Unified Communications Manager DST Olsen version D or later SRST 8.0 (IOS load 15.1(1)T) and above Cisco Expressway 8.7 |
-| 8811, 8841, 8851, 8851NR, and 8861 | CME 10.0 (IOS load 15.3(3)M) |
+| 8845 and 8865 | Cisco Unified Communications Manager 8.5(1) and later Cisco Unified Communications Manager DST Olsen version D or later SRST 8.0 (IOS load 15.1(1)T) and above Cisco Expressway 8.7 |
 
 | Note | If your Cisco Unified
                                     				Communications Manager doesn't have the required device package to support this firmware release, the firmware may not work correctly. |
@@ -371,8 +358,8 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 |---|---|
 | Step 2 | Choose your phone model. |
 | Step 3 | Choose Session Initiation Protocol (SIP) Software . |
-| Step 4 | In the Latest Release folder, choose 14.4(1)SR3 . |
-| Step 5 | Select the firmware file, click the Download or Add to cart button, and follow the prompts: The firmware filename is cmterm-88xx-sip.14-4-1-0301-6.k4.cop.sha512 depending on the model you choose. Note If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All . | Note | If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All . |
+| Step 4 | In the Latest Release folder, choose 14.4(1)SR4 . |
+| Step 5 | Select the firmware file, click the Download or Add to cart button, and follow the prompts: The firmware filename is cmterm-8845_65-sip.14-4-1-0401-1.k4.cop.sha512 depending on the model you choose. Note If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All . | Note | If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All . |
 | Note | If you added firmware to the cart, when you are ready to download the files, click the Cart and then click Download All . |
 | Step 6 | Click the + next to the firmware file name in the Download Cart section to access more information about this file. |
 | Step 7 | Click the Readme link to open the installation instructions for the firmware. |
@@ -392,12 +379,12 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 |---|---|
 | Step 2 | Choose your phone model. |
 | Step 3 | Choose Session Initiation Protocol (SIP) Software . |
-| Step 4 | In the Latest Releases folder, choose 14.4(1)SR3 . |
-| Step 5 | Select the firmware file, click the Download or Add to Cart button, and follow the prompts. The firmware file name is cmterm-88xx.14-4-1-0301-6.zip. |
+| Step 4 | In the Latest Releases folder, choose 14.4(1)SR4 . |
+| Step 5 | Select the firmware file, click the Download or Add to Cart button, and follow the prompts. The firmware file name is cmterm-8845_65.14-4-1-0401-1.zip. |
 | Step 6 | Unzip the files. |
 | Step 7 | Manually copy the unzipped files to the directory on the TFTP server. For more information about how to manually copy the firmware files to the server, see the Cisco Unified Communications Operating System Administration Guide . |
 
-| Step 1 | Perform one of the following actions: Use this URL for all caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=anfr&svr=3nH&bt=custV Use this URL for all open caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=afr&sts=open&svr=3nH&bt=custV Use this URL for all resolved caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&rls=14.4(1)SR3&sb=fr&sts=fd&svr=3nH&bt=custV |
+| Step 1 | Perform one of the following actions: Use this URL for all caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=anfr&svr=3nH&bt=custV Use this URL for all open caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=afr&sts=open&svr=3nH&bt=custV Use this URL for all resolved caveats: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&rls=14.4(1)SR4&sb=fr&sts=fd&svr=3nH&bt=custV |
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search for field, then press Enter . |

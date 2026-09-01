@@ -1,16 +1,21 @@
 {
-  "run_at": "2026-09-01T19:58:12.604257+00:00",
+  "run_at": "2026-09-01T20:10:11.504570+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "help-webex-com-en-us-article-ct567b-cisco-desk-camera-1080p-release-notes-fd5b87639c",
+    "help-webex-com-en-us-article-ml8pm7-cisco-desk-camera-4k-release-notes-3291ab76ca",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr4-p881-b-8800-rn-1441sr4-html-1676c265fe",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-firmware-11-0-6-sr8-w881-b-wireless-8821-rln1106sr8-html-db04047599"
+  ],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-3-1-sr3-cs78-b-7832-rn-1431sr3-html-6626f5b4d0",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-cs78-b-7832-rn-1441sr3-html-39d554f77e",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-p2ad-b-7800-rn-1441sr3-html-aee9c4b562",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr3-cs88-b-8832-rn-1441sr3-html-681e4f4162"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr3-p881-b-8800-rn-1441sr3-html-c6c584f4d0"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 92,
-  "redirected": [],
+  "unchanged_count": 84,
+  "redirected": [
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9-3-4-SR1/release-notes/8831-3pcc-934sr1-rn.html -> https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-release-notes-list.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/release_notes/p875_m_8875-release-notes.html -> https://help.webex.com/landing/ld-np2dxyq-CiscoVideoPhone8875/Get-started"
+  ],
   "semillas_encoladas": 20
 }
