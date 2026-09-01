@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-211425-perform-a-hard-factory-reset-on-a-54e68fa166
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.html
-retrieved_at: 2026-08-17T01:02:17.794156+00:00
+retrieved_at: 2026-09-01T17:19:36.759587+00:00
 ---
 
 Perform a Hard Factory Reset on an 8831 Series IP Phone
@@ -65,3 +65,13 @@ Video Player is loading.
 LIVE
 
 0:00
+
+### Contributed by Cisco Engineers
+
+Sankalp Jain
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- IP Phone 8800 Series
