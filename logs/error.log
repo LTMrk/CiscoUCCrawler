@@ -19058,3 +19058,16 @@
 [2026-09-01T09:01:49.148893] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-nat/cvrf/cisco-sa-20130327-nat_cvrf.xml
 [2026-09-01T09:01:53.248799] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-smartinstall/cvrf/cisco-sa-20130327-smartinstall_cvrf.xml
 [2026-09-01T09:01:57.565712] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-cce/cvrf/cisco-sa-20130327-cce_cvrf.xml
+[2026-09-01T09:05:38.722120] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T09:05:42.769013] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T09:06:53.561136] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T09:06:54.470648] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-ike/cvrf/cisco-sa-20130327-ike_cvrf.xml
+[2026-09-01T09:06:58.154711] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-pt/cvrf/cisco-sa-20130327-pt_cvrf.xml
+[2026-09-01T09:07:02.398767] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130327-rsvp/cvrf/cisco-sa-20130327-rsvp_cvrf.xml
+[2026-09-01T09:07:06.487323] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130410-fwsm/cvrf/cisco-sa-20130410-fwsm_cvrf.xml
+[2026-09-01T09:07:10.634708] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130410-mp/cvrf/cisco-sa-20130410-mp_cvrf.xml
+[2026-09-01T09:07:14.921813] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130406-CVE-2013-1174/cvrf/Cisco-SA-20130406-CVE-2013-1174_cvrf.xml
+[2026-09-01T09:07:19.216710] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130402-CVE-2013-1163/cvrf/Cisco-SA-20130402-CVE-2013-1163_cvrf.xml
+[2026-09-01T09:07:23.454449] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130401-CVE-2013-1171/cvrf/Cisco-SA-20130401-CVE-2013-1171_cvrf.xml
+[2026-09-01T09:07:27.562522] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130327-CVE-2013-1142/cvrf/Cisco-SA-20130327-CVE-2013-1142_cvrf.xml
+[2026-09-01T09:07:31.954142] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130319-CVE-2013-1161/cvrf/Cisco-SA-20130319-CVE-2013-1161_cvrf.xml
