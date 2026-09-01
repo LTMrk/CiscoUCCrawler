@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130802-CVE-2013-3451/cvrf/Cisco-SA-20130802-CVE-2013-3451_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130802-CVE-2013-3442/cvrf/Cisco-SA-20130802-CVE-2013-3442_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130802-CVE-2013-3450/cvrf/Cisco-SA-20130802-CVE-2013-3450_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130801-CVE-2013-1190/cvrf/Cisco-SA-20130801-CVE-2013-1190_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130801-CVE-2013-3448/cvrf/Cisco-SA-20130801-CVE-2013-3448_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130731-cm/cvrf/cisco-sa-20130731-cm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130731-waascm/cvrf/cisco-sa-20130731-waascm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130731-CVE-2012-3913/cvrf/Cisco-SA-20130731-CVE-2012-3913_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130725-CVE-2013-3445/cvrf/Cisco-SA-20130725-CVE-2013-3445_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130725-CVE-2013-3414/cvrf/Cisco-SA-20130725-CVE-2013-3414_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130724-vsm/cvrf/cisco-sa-20130724-vsm_cvrf.xml",
     "depth": 2
   },
