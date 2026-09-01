@@ -19891,3 +19891,17 @@
 [2026-09-01T14:17:32.117850] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu18179
 [2026-09-01T14:17:32.304215] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe/csaf/cisco-sa-sdwan-infodis-SPuJBDCe.json
 [2026-09-01T14:17:36.444847] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-sdwan-faLcR3K/csaf/cisco-sa-hardening-sdwan-faLcR3K.json
+[2026-09-01T14:20:13.029392] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T14:20:16.956189] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T14:21:36.556492] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T14:21:40.989389] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/csaf/cisco-sa-hardening-iosxe-V8NMuMZJ.json
+[2026-09-01T14:21:53.419485] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2/csaf/cisco-sa-onprem-fmc-authbypass-5JPp45V2.json
+[2026-09-01T14:21:57.584649] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-snmp-dos-ZAqNm4MD/csaf/cisco-sa-iosxe-snmp-dos-ZAqNm4MD.json
+[2026-09-01T14:22:01.807508] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd/csaf/cisco-sa-iosxe-bing-MGHrFAkd.json
+[2026-09-01T14:22:05.827971] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t/csaf/cisco-sa-ios-xmcp-thbAr34t.json
+[2026-09-01T14:22:17.112514] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu57141
+[2026-09-01T14:22:21.202649] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu57142
+[2026-09-01T14:22:21.421834] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU/csaf/cisco-sa-cimc-arg-inject-upSHdMfU.json
+[2026-09-01T14:22:21.558614] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286331621/type/286331613/release/HUU%204.3.6-260054
+[2026-09-01T14:22:22.560384] HTTP 599 o DOM vacío. | https://cscrdr.cloudapps.cisco.com/cscrdr/security/center/files/Cisco_PSIRT_PGP_Public_Key.asc
+[2026-09-01T14:22:30.171529] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/home

@@ -1,89 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-mltvnps2-JxpWm7R",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/csaf/cisco-sa-hardening-iosxe-V8NMuMZJ.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv93265",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwr96008",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt95974",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-onprem-fmc-authbypass-5JPp45V2/csaf/cisco-sa-onprem-fmc-authbypass-5JPp45V2.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws90638",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-snmp-dos-ZAqNm4MD/csaf/cisco-sa-iosxe-snmp-dos-ZAqNm4MD.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu46548",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-iosxe-bing-MGHrFAkd/csaf/cisco-sa-iosxe-bing-MGHrFAkd.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu20827",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ios-xmcp-thbAr34t/csaf/cisco-sa-ios-xmcp-thbAr34t.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt16342",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt45063",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu57141",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu57142",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU/csaf/cisco-sa-cimc-arg-inject-upSHdMfU.json",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286331621/type/286331613/release/HUU%204.3.6-260054",
-    "depth": 2
-  },
-  {
-    "url": "https://cscrdr.cloudapps.cisco.com/cscrdr/security/center/files/Cisco_PSIRT_PGP_Public_Key.asc",
-    "depth": 2
-  },
-  {
-    "url": "http://sec.cloudapps.cisco.com/security/center/rss.x",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/home",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/resources/cisco_bug_bounty_faq.html",
     "depth": 2
   },
@@ -7374,5 +7290,9 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/security/defense-center/series.html",
     "depth": 3
+  },
+  {
+    "url": "https://sec.cloudapps.cisco.com/security/center/rss.x",
+    "depth": 2
   }
 ]
