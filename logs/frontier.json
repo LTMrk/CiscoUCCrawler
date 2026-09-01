@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110525-spcdn/cvrf/cisco-sa-20110525-spcdn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110525-iosxrspa/cvrf/cisco-sa-20110525-iosxrspa_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110525-CVE-2011-1647/cvrf/Cisco-SA-20110525-CVE-2011-1647_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110518-CVE-2011-0959/cvrf/Cisco-SA-20110518-CVE-2011-0959_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110518-CVE-2011-0961/cvrf/Cisco-SA-20110518-CVE-2011-0961_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110518-CVE-2011-0962/cvrf/Cisco-SA-20110518-CVE-2011-0962_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110427-cucm/cvrf/cisco-sa-20110427-cucm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110427-wlc/cvrf/cisco-sa-20110427-wlc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110427-CVE-2011-1610/cvrf/Cisco-SA-20110427-CVE-2011-1610_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110420-CVE-2011-0808/cvrf/Cisco-SA-20110420-CVE-2011-0808_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110330-CVE-2011-0951/cvrf/Cisco-SA-20110330-CVE-2011-0951_cvrf.xml",
     "depth": 2
   },
