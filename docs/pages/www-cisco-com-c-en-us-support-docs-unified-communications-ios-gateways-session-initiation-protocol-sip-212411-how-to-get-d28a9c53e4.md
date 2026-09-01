@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-212411-how-to-get-d28a9c53e4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html
-retrieved_at: 2026-08-16T15:56:57.352251+00:00
+retrieved_at: 2026-09-01T22:13:59.076922+00:00
 ---
 
 How to Get Packet Capture from VXML Gateway for Signal and Voice Analysis
@@ -98,6 +98,14 @@ These debug commands can be typed on the VXML gateway for additional diagnosis.
 debug ccsip mess debug ccsip error debug voip ccapi inout debug voip dialpeer inout debug http client all debug voip application script debug voip application vxml debug voip rtp session named-events debug voip rtp sess nse debug voip rtp
 ```
 
+### Revision History
+
+1.0
+
+02-Nov-2017
+
+Initial Release
+
 ### Contributed by Cisco Engineers
 
 Ricardo Mancera
@@ -108,6 +116,8 @@ Edited by Natalia Fuentes Fuentes
 
 ### This Document Applies to These Products
 
-- IOS Gateways with Session Initiation Protocol (SIP)
-
 - Unified Border Element
+
+| Revision | Publish Date | Comments |
+|---|---|---|
+| 1.0 | 02-Nov-2017 | Initial Release |

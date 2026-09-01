@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-212649-troubleshoot-cube-sp-rejects-int-f6bc578c1a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.html
-retrieved_at: 2026-08-16T15:56:53.236287+00:00
+retrieved_at: 2026-09-01T22:13:54.879444+00:00
 ---
 
 Troubleshoot CUBE SP Rejects Internal Call which is Fowarded to a PSTN Number
@@ -249,6 +249,14 @@ Max-Forwards: 69
 Content-Length: 0
 ```
 
+### Revision History
+
+1.0
+
+17-Jan-2018
+
+Initial Release
+
 ### Contributed by Cisco Engineers
 
 Mingze Yan
@@ -257,6 +265,8 @@ Cisco TAC Engineer
 
 ### This Document Applies to These Products
 
-- IOS Gateways with Session Initiation Protocol (SIP)
-
 - Unified Border Element
+
+| Revision | Publish Date | Comments |
+|---|---|---|
+| 1.0 | 17-Jan-2018 | Initial Release |

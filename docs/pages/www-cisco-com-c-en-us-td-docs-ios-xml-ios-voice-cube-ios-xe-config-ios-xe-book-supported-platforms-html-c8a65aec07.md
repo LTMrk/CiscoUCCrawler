@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-ios-xe-config-ios-xe-book-supported-platforms-html-c8a65aec07
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/supported-platforms.html
-retrieved_at: 2026-08-16T15:44:39.756121+00:00
+retrieved_at: 2026-09-01T22:13:00.513869+00:00
 ---
 
 Cisco Unified Border Element Configuration Guide - Cisco IOS XE 17.6 Onwards
@@ -430,8 +430,7 @@ vCUBE qualification for Catalyst 8000V on Nutanix AHV
 
 Cisco IOS XE 26.1.1
 
-vCUBE is qualified on Cisco Catalyst 8000V running on Nutanix AHV, enabling administrators to deploy and validate virtualized
-                                             voice gateway services on Nutanix infrastructure.
+vCUBE is qualified on Cisco Catalyst 8000V running on Nutanix AHV.
 
 vCUBE in Microsoft Azure
 
@@ -449,25 +448,15 @@ vCUBE in Amazon Web Services (AWS)
 
 ### Hardware
 
-The vCUBE is qualified on Cisco Catalyst 8000V virtual machines in the Nutanix AHV hypervisor. For more details on installation prerequisites,
-                                    supported configurations, various deployment methods, see Install Cisco Catalyst 8000V in Nutanix AHV Hypervisor .
-
-The vCUBE features are part of the Cisco virtual router software and is deployed in VMware ESXi virtualized environments. For more
-                                    information on how to deploy Cisco virtualized routers in VMware ESXi environments, see Install the Cisco CSR 1000V in VMware ESXi Environments and https://www.cisco.com/c/en/us/products/routers/catalyst-8000v-edge-software/index.html .
+The vCUBE features are supported as part of the Cisco Catalyst 8000V router platform in both Nutanix AHV and VMware ESXi virtualized
+                                    environments. For supported hardware and hypervisors, see Install Cisco Catalyst 8000V in Nutanix AHV Hypervisor , Install the Cisco CSR 1000V in VMware ESXi Environments , and Cisco Catalyst 8000V Edge Software .
 
 For information on the best practices for setting ESXi host BIOS parameters for performance, see BIOS Settings .
 
-Virtual CUBE is supported on the CSR 1000V and C8000V platforms.
+vCUBE is supported in both AWS and Microsoft Azure. Use the AWS Marketplace or Azure Marketplace product listing for the virtual
+                                    CUBE, as applicable. For more information, see the Cisco CSR 1000V Series Cloud Services Router Deployment Guide for Amazon Web Services , Cisco C8000V Router Deployment Guide for Amazon Web Services , and Deploying Cisco Catalyst 8000V Edge Software on Microsoft Azure .
 
-vCUBE is  supported in AWS. You must use the AWS Marketplace product listing for virtual CUBE.
-
-For more information about the Cisco CSR 1000V and C8000V in AWS, see Cisco CSR 1000V Series Cloud Services Router Deployment Guide for Amazon Web Services and Cisco C8000V Router Deployment Guide for Amazon Web Services .
-
-vCUBE is also supported in Microsoft Azure. You must use the Azure Marketplace product listing for virtual CUBE.
-
-For more information about C8000V in Microsoft Azure, see Deploying Cisco Catalyst 8000V Edge Software on Microsoft Azure.
-
-The CSR1000V and Catalyst 8000V products may be used in several different public and private cloud environments. However,
+The Cisco Catalyst 8000V router platform may be used in several different public and private cloud environments. However,
                                                 vCUBE is only supported when deployed on VMware ESXi, AWS, and Microsoft Azure platforms currently.
 
 When you use a consolidated (.bin) image to upgrade a CSR 1000V medium configuration (2 vCPU, 4 GB RAM) to Catalyst 8000V,
@@ -484,6 +473,13 @@ In AWS platform, only Bring Your Own License (BYOL) is supported for vCUBE . Pay
 In Microsoft Azure platform, only Bring Your Own License (BYOL) is supported for vCUBE . Pay as You Go (Subscription) versions of the C8000V are not supported. Make sure you choose the vCUBE Azure Marketplace product listing. Refer to Cisco Virtual CUBE-BYOL for details.
 
 For more information about Cisco virtual routers, see CSR 1000V Data Sheet and Catalyst 8000V Data Sheet.
+
+## Supported instance types for Amazon Web Services and Microsoft Azure
+
+vCUBE on Cisco Catalyst 8000V running on Amazon Web Services (AWS) or Microsoft Azure supports VM with 4 vCPU 8 GB RAM, and
+                              8 vCPU 16 GB RAM instance types.
+
+The c5.xlarge (AWS), and Standard D4lds v5 (Azure) instance types are validated.
 
 ## Features Supported
 
@@ -678,17 +674,19 @@ To troubleshoot Virtual Machine (VM) issues, see Cisco CSR 1000V Series Cloud Se
 
 | Feature Name | Releases | Feature Information |
 |---|---|---|
-| vCUBE qualification for Catalyst 8000V on Nutanix AHV | Cisco IOS XE 26.1.1 | vCUBE is qualified on Cisco Catalyst 8000V running on Nutanix AHV, enabling administrators to deploy and validate virtualized
-                                             voice gateway services on Nutanix infrastructure. |
+| vCUBE qualification for Catalyst 8000V on Nutanix AHV | Cisco IOS XE 26.1.1 | vCUBE is qualified on Cisco Catalyst 8000V running on Nutanix AHV. |
 | vCUBE in Microsoft Azure | Cisco IOS XE Bengaluru 17.6.3a | vCUBE offer is introduced in Microsoft Azure for Cisco Catalyst 8000V Edge Software (Catalyst 8000V). |
 | vCUBE Catalyst 8000V Edge Software (Catalyst 8000V) | Cisco IOS XE Bengaluru 17.4.1a | vCUBE introduced for Cisco Catalyst 8000V Edge Software (Catalyst 8000V) in VMware ESXi environments and AWS environment. |
 | vCUBE in Amazon Web Services (AWS) | Cisco IOS XE Gibraltar 16.12.4a | vCUBE offer introduced in AWS for Cisco CSR 1000v Series Cloud Services Router |
 
-| Note | The CSR1000V and Catalyst 8000V products may be used in several different public and private cloud environments. However,
+| Note | The Cisco Catalyst 8000V router platform may be used in several different public and private cloud environments. However,
                                                 vCUBE is only supported when deployed on VMware ESXi, AWS, and Microsoft Azure platforms currently. When you use a consolidated (.bin) image to upgrade a CSR 1000V medium configuration (2 vCPU, 4 GB RAM) to Catalyst 8000V,
                                                 you must change the virtual machine vRAM allocation to at least 5 GB to ensure advertised performance. When deploying in AWS
                                                 environments, boot the router using individual packages rather than a consolidated image without the need for extra memory.
                                                 Refer to Installing Subpackages from a Consolidated Package for details. |
+|---|---|
+
+| Note | The c5.xlarge (AWS), and Standard D4lds v5 (Azure) instance types are validated. |
 |---|---|
 
 | Note | From Cisco IOS XE Cupertino
