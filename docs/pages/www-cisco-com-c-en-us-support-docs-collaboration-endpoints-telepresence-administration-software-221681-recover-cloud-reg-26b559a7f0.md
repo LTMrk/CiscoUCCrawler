@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221681-recover-cloud-reg-26b559a7f0
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.html
-retrieved_at: 2026-08-21T12:39:54.658170+00:00
+retrieved_at: 2026-09-01T19:35:09.141258+00:00
 ---
 
 Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
@@ -147,22 +147,6 @@ Activating User Accounts on Cloud Registered Devices
 15-Feb-2024
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Petros Sitaras
-
-Technical Consulting Engineer
-
-### Customers Also Viewed
-
-- How do I upgrade and downgrade Cloud-Registered Cisco Endpoints on Room OS?
-
-- Console Access for WebEx Room Series Devices and Quad Camera
-
-### This Document Applies to These Products
-
-- Room Series
 
 | Revision | Publish Date | Comments |
 |---|---|---|

@@ -1,14 +1,16 @@
 {
-  "run_at": "2026-09-01T19:24:04.254946+00:00",
+  "run_at": "2026-09-01T19:35:21.683684+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-977133773f",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-ucce-compatibility-matrix-contact-8a9d66254e"
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-h-eb06fdf0c6",
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221681-recover-cloud-reg-26b559a7f0",
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a",
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-215671-console-access-for-webex-room-series-8d9025d604"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 80,
+  "unchanged_count": 59,
   "redirected": [],
   "semillas_encoladas": 20
 }

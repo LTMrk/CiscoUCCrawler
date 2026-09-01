@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-h-eb06fdf0c6
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html
-retrieved_at: 2026-08-21T12:39:59.025297+00:00
+retrieved_at: 2026-09-01T19:35:13.257884+00:00
 ---
 
 Troubleshoot Video Endpoint Shut Down Due to High Temperature
@@ -139,6 +139,14 @@ Initial Release
 Jagatbir Singh Jaijee
 
 Technical Consulting Engineer
+
+### Customers Also Viewed
+
+- How do I upgrade and downgrade Cloud-Registered Cisco Endpoints on Room OS?
+
+- Console Access for WebEx Room Series Devices and Quad Camera
+
+- Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
 
 ### This Document Applies to These Products
 

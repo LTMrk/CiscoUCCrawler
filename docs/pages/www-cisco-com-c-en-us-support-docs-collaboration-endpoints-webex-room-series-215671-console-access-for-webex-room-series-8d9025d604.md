@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-215671-console-access-for-webex-room-series-8d9025d604
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.html
-retrieved_at: 2026-08-21T12:39:41.551622+00:00
+retrieved_at: 2026-09-01T19:34:56.193977+00:00
 ---
 
 Console Access for WebEx Room Series Devices and Quad Camera
@@ -87,24 +87,6 @@ Step 14. Enter the Password. The default password is cisco .
 23-Jun-2020
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Seeta Rama Raju K
-
-Cisco TAC Engineer
-
-### Customers Also Viewed
-
-- How do I upgrade and downgrade Cloud-Registered Cisco Endpoints on Room OS?
-
-- Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
-
-### This Document Applies to These Products
-
-- Conferencing Cameras
-
-- Room Series
 
 | Revision | Publish Date | Comments |
 |---|---|---|
