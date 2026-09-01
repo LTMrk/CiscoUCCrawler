@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120810-CVE-2012-1339/cvrf/Cisco-SA-20120810-CVE-2012-1339_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120810-CVE-2012-1344/cvrf/Cisco-SA-20120810-CVE-2012-1344_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120810-CVE-2012-1342/cvrf/Cisco-SA-20120810-CVE-2012-1342_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120809-CVE-2012-2498/cvrf/Cisco-SA-20120809-CVE-2012-2498_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120809-CVE-2012-1346/cvrf/Cisco-SA-20120809-CVE-2012-1346_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120809-CVE-2012-2500/cvrf/Cisco-SA-20120809-CVE-2012-2500_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120809-CVE-2012-2499/cvrf/Cisco-SA-20120809-CVE-2012-2499_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20120809-CVE-2012-2474/cvrf/Cisco-SA-20120809-CVE-2012-2474_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20120711-ctrs/cvrf/cisco-sa-20120711-ctrs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20120404-webex/cvrf/cisco-sa-20120404-webex_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20111026-webex/cvrf/cisco-sa-20111026-webex_cvrf.xml",
     "depth": 2
   },
