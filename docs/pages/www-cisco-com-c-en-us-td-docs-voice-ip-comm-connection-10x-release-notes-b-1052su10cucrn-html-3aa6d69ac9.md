@@ -1,16 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-10x-release-notes-b-1052su10cucrn-html-3aa6d69ac9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/release/notes/b_1052su10cucrn.html
-retrieved_at: 2026-08-16T18:49:44.084524+00:00
+retrieved_at: 2026-09-01T21:06:06.231968+00:00
 ---
 
 Readme for Cisco Unity Connection Release 12.5(1) Service Update 7
 
 # Readme for Cisco Unity Connection Release 12.5(1) Service Update 7
-
-- 12.5(1)
-
-- 12.5(1)
 
 ### Download Options
 
