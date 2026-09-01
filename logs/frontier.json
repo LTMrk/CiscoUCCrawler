@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140403-CVE-2014-2114/cvrf/Cisco-SA-20140403-CVE-2014-2114_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140403-CVE-2014-2117/cvrf/Cisco-SA-20140403-CVE-2014-2117_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140401-CVE-2014-2137/cvrf/Cisco-SA-20140401-CVE-2014-2137_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140401-CVE-2014-2138/cvrf/Cisco-SA-20140401-CVE-2014-2138_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140401-CVE-2014-2125/cvrf/Cisco-SA-20140401-CVE-2014-2125_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140331-CVE-2014-2131/cvrf/Cisco-SA-20140331-CVE-2014-2131_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140326-sip/cvrf/cisco-sa-20140326-sip_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140327-CVE-2014-2118/cvrf/Cisco-SA-20140327-CVE-2014-2118_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140326-ikev2/cvrf/cisco-sa-20140326-ikev2_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140326-nat/cvrf/cisco-sa-20140326-nat_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140326-RSP72010GE/cvrf/cisco-sa-20140326-RSP72010GE_cvrf.xml",
     "depth": 2
   },
