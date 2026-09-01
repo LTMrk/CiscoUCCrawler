@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-39372c2461
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_0101.html
-retrieved_at: 2026-08-24T07:33:17.899335+00:00
+retrieved_at: 2026-09-01T15:33:36.053484+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -408,7 +408,7 @@ Interaction
 
 Shared Line handling
 
-In a setup where you have a shared desk phone with a CMC RD and Spark RD associated , when a user calls from an enterprise
+In a set up where you have a shared desk phone with a CMC RD and Spark RD associated , when a user calls from an enterprise
                                                       phone to a CMC Device DN, all the three - CMC RD, Spark RD and the Shared desk phone rings.
 
 Answering from any of the remote destinations displays the message “Remote in Use” on the shared desk phone.
@@ -417,18 +417,18 @@ Answering from any of the shared desk phone disconnects both remote destination 
 
 CMC Device to work in Call Manager Group (CMG) Setup
 
-When a CMC device is associated with a Call Manager group, it always runs on the primary server and runs on the next active
-                                                      secondary server of the Call Manager Group only if the primary server is down.
+When a CMC device is associated with a Call Manager group, it always runs on primary server and runs on the next active secondary
+                                                      server of the Call Manager Group only if the primary server is down.
 
 If the primary server goes down mid call, then the ongoing call is still preserved and after the call ends, the CMC device
-                                                      registers to the secondary server.
+                                                      registers to secondary server.
 
-When the call is in preserved mode, media between the phones remains active, but no other actions can be performed except
+When the call is in preserved mode, media between the phones still remains active, but no other actions can be performed except
                                                                   disconnecting the call.
 
-If the Primary server was down initially and the call was initiated while the CMC device was registered to Secondary server
-                                                      and then the Primary server comes up during ongoing call, the call will go into preservation mode and after the call ends
-                                                      the CMC device registers to Primary server.
+If the Primary server was down initially and call was initiated while the CMC device was registered to Secondary server and
+                                                      then the Primary server comes up during ongoing call, the call will go into preservation mode and after the call ends the
+                                                      CMC device registers to Primary server.
 
 Call Anchoring
 
@@ -451,15 +451,9 @@ The incoming calls from Remote Destination and the outbound Number to Remote Des
 
 If there is shared desk phone with the CMC device and if the Enable Single Number Reach checkbox is unchecked, then the call gets extended to the shared desk phone but not to the CMC RD.
 
-The following limitation is only applicable until Release 15SU2.
-
 If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered.
 
-User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer.
-
-Important
-
-From Release 15SU3 onwards, Unified Communications Manager supports call conference and call transfer (redirection) when the Single Number Reach Voicemail Policy is set to user control .
+User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. This Note is only applicable until Release 15SU2.
 
 Call Routing based on Time of Day (ToD)
 
@@ -524,11 +518,11 @@ When called from an Enterprise phone to CMC number, if the shared line answers t
 When called from Enterprise phone to CMC number, the shared line rings and if the calling party disconnects the call before
                                                             five seconds, the call do not get extended to Remote Destination.
 
-Any call from Enterprise phone to CMC number alerts the Remote Destination and the shared line at the same time.
+Any call from Enterprise phone to CMC number will alert the Remote Destination and the shared line at the same time.
 
 Bulk Administration Tool (BAT) Support
 
-BAT support is provided for CMC device.
+BAT support is provided for CMC device
 
 #### CMC RD Feature Restriction
 
@@ -955,24 +949,23 @@ From the Related Links drop-down list, choose the CAPF
 
 | Feature | Interaction |
 |---|---|
-| Shared Line handling | In a setup where you have a shared desk phone with a CMC RD and Spark RD associated , when a user calls from an enterprise
+| Shared Line handling | In a set up where you have a shared desk phone with a CMC RD and Spark RD associated , when a user calls from an enterprise
                                                       phone to a CMC Device DN, all the three - CMC RD, Spark RD and the Shared desk phone rings. Answering from any of the remote destinations displays the message “Remote in Use” on the shared desk phone. Answering from any of the shared desk phone disconnects both remote destination phones (CMC RD and Spark RD phones). |
-| CMC Device to work in Call Manager Group (CMG) Setup | When a CMC device is associated with a Call Manager group, it always runs on the primary server and runs on the next active
-                                                      secondary server of the Call Manager Group only if the primary server is down. If the primary server goes down mid call, then the ongoing call is still preserved and after the call ends, the CMC device
-                                                      registers to the secondary server. Note When the call is in preserved mode, media between the phones remains active, but no other actions can be performed except
-                                                                  disconnecting the call. If the Primary server was down initially and the call was initiated while the CMC device was registered to Secondary server
-                                                      and then the Primary server comes up during ongoing call, the call will go into preservation mode and after the call ends
-                                                      the CMC device registers to Primary server. | Note | When the call is in preserved mode, media between the phones remains active, but no other actions can be performed except
+| CMC Device to work in Call Manager Group (CMG) Setup | When a CMC device is associated with a Call Manager group, it always runs on primary server and runs on the next active secondary
+                                                      server of the Call Manager Group only if the primary server is down. If the primary server goes down mid call, then the ongoing call is still preserved and after the call ends, the CMC device
+                                                      registers to secondary server. Note When the call is in preserved mode, media between the phones still remains active, but no other actions can be performed except
+                                                                  disconnecting the call. If the Primary server was down initially and call was initiated while the CMC device was registered to Secondary server and
+                                                      then the Primary server comes up during ongoing call, the call will go into preservation mode and after the call ends the
+                                                      CMC device registers to Primary server. | Note | When the call is in preserved mode, media between the phones still remains active, but no other actions can be performed except
                                                                   disconnecting the call. |
-| Note | When the call is in preserved mode, media between the phones remains active, but no other actions can be performed except
+| Note | When the call is in preserved mode, media between the phones still remains active, but no other actions can be performed except
                                                                   disconnecting the call. |
 | Call Anchoring | All the basic incoming calls from the CMC device and Number to Remote Destination calls are anchored in the enterprise network. When the CMC Remote Device is configured, users can place and receive calls from their mobile device with all calls being
                                                 anchored to the enterprise: A user can dial directly to a CMC Remote destination from an Enterprise number.The call is anchored in the enterprise network.
                                                       In this scenario, the desk phone(shared line of CMC device) does not ring, but remains in Remote in Use state. A user can dial from CMC Remote destination to any Enterprise number. The call is anchored. In this scenario, the desk phone
                                                       (shared line of CMC device) remains in Remote in Use state. |
-| Single Number Reach | In the Remote Destination configuration page, if the Enable Single Number Reach checkbox is unchecked, the call do not get extended to the CMC RD and the call gets rejected. The incoming calls from Remote Destination and the outbound Number to Remote Destination calls do not get affected irrespective of the Enable Single Number Reach checkbox selection. If there is shared desk phone with the CMC device and if the Enable Single Number Reach checkbox is unchecked, then the call gets extended to the shared desk phone but not to the CMC RD. Note The following limitation is only applicable until Release 15SU2. If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. Important From Release 15SU3 onwards, Unified Communications Manager supports call conference and call transfer (redirection) when the Single Number Reach Voicemail Policy is set to user control . | Note | The following limitation is only applicable until Release 15SU2. If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. | Important | From Release 15SU3 onwards, Unified Communications Manager supports call conference and call transfer (redirection) when the Single Number Reach Voicemail Policy is set to user control . |
-| Note | The following limitation is only applicable until Release 15SU2. If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. |
-| Important | From Release 15SU3 onwards, Unified Communications Manager supports call conference and call transfer (redirection) when the Single Number Reach Voicemail Policy is set to user control . |
+| Single Number Reach | In the Remote Destination configuration page, if the Enable Single Number Reach checkbox is unchecked, the call do not get extended to the CMC RD and the call gets rejected. The incoming calls from Remote Destination and the outbound Number to Remote Destination calls do not get affected irrespective of the Enable Single Number Reach checkbox selection. If there is shared desk phone with the CMC device and if the Enable Single Number Reach checkbox is unchecked, then the call gets extended to the shared desk phone but not to the CMC RD. Note If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. This Note is only applicable until Release 15SU2. | Note | If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. This Note is only applicable until Release 15SU2. |
+| Note | If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. This Note is only applicable until Release 15SU2. |
 | Call Routing based on Time of Day (ToD) | You can use the Time of Day configurations for the Remote Destination to set up a ring schedule (for example, you can configure
                                                       specific times such as Monday - Friday between 9 am and 5 pm). Calls will only be redirected to your Remote Destination at
                                                       those times. Call from the Enterprise phone to CMC number gets routed based on the Ring Schedule fixed in the Remote Destination configuration
@@ -991,17 +984,14 @@ From the Related Links drop-down list, choose the CAPF
 | CMC Remote Destination call extention based on delay before ringer timer configured in Database | If delay before ringing timer in DB is configured as 5000 When called from an Enterprise phone to CMC number, the shared line rings and the call reaches the Remote Destination after
                                                             five seconds. When called from an Enterprise phone to CMC number, if the shared line answers the call before five seconds, the call do not
                                                             get extended to Remote Destination. When called from Enterprise phone to CMC number, the shared line rings and if the calling party disconnects the call before
-                                                            five seconds, the call do not get extended to Remote Destination. If delay before ringing timer in DB is configured as 0 Any call from Enterprise phone to CMC number alerts the Remote Destination and the shared line at the same time. |
-| Bulk Administration Tool (BAT) Support | BAT support is provided for CMC device. |
+                                                            five seconds, the call do not get extended to Remote Destination. If delay before ringing timer in DB is configured as 0 Any call from Enterprise phone to CMC number will alert the Remote Destination and the shared line at the same time. |
+| Bulk Administration Tool (BAT) Support | BAT support is provided for CMC device |
 
-| Note | When the call is in preserved mode, media between the phones remains active, but no other actions can be performed except
+| Note | When the call is in preserved mode, media between the phones still remains active, but no other actions can be performed except
                                                                   disconnecting the call. |
 |---|---|
 
-| Note | The following limitation is only applicable until Release 15SU2. If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. |
-|---|---|
-
-| Important | From Release 15SU3 onwards, Unified Communications Manager supports call conference and call transfer (redirection) when the Single Number Reach Voicemail Policy is set to user control . |
+| Note | If the Single Number Reach Voicemail Policy is set to user control the mobility destination number will NOT be triggered in the event of a Blind transfer to the primary extension. Only the primary extension will be triggered. User control setting supports consult transfers. Timer Control Voice mail avoidance policy supports both Consult and Blind transfer. This Note is only applicable until Release 15SU2. |
 |---|---|
 
 | Note | At any point of time, only Allowed access list or Blocked access list can be used. |

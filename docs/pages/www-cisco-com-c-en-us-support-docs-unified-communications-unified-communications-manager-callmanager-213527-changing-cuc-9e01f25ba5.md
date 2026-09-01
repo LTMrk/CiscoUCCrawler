@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213527-changing-cuc-9e01f25ba5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass.html
-retrieved_at: 2026-08-16T18:01:21.234229+00:00
+retrieved_at: 2026-09-01T15:33:18.561149+00:00
 ---
 
 Reset or Change CUCM OS Admin and Security Password
@@ -10,7 +10,7 @@ Reset or Change CUCM OS Admin and Security Password
 
 ### Download Options
 
-Updated: September 12, 2024
+Updated: August 27, 2026
 
 Document ID: 213527
 
@@ -54,11 +54,11 @@ Please ensure that the security password on the publisher is changed first. The 
 
 ### To Reset OS Admin or Security Password
 
-Step 1. From Vsphere client, log in to CUCM console through this username and password: pwrecovery/pwreset . You get this screen, as shown in the image:
+Step 1. From Vsphere client, log in to CUCM console through this username and password: pwrecovery/pwreset . You get this screen, as shown in the image:
 
 Step 2. In order to connect to cd/dvd drive, you can select any iso image from datastore. This does not re-image your CUCM, but this is just to check CUCM connectivity with vm client.
 
-Step 3. After the iso image is selected, it asks you to press any key. Once it is tested, then you get a prompt to remove the iso.
+Step 3. After the iso image is selected, it asks you to press any key . Once it is tested, then you get a prompt to remove the iso.
 
 Step 4. Press any key to continue. You get the option to reset OS Admin password ( enter a ) or Security password ( enter s ).
 
@@ -77,6 +77,12 @@ Note : Take fresh backup after Security password is changed to avoid any backup/
 There is currently no specific information available to troubleshoot this configuration.
 
 ### Revision History
+
+4.0
+
+27-Aug-2026
+
+Recertification - Updated Alt Formatting.
 
 3.0
 
@@ -99,6 +105,7 @@ Initial Release
 
 | Revision | Publish Date | Comments |
 |---|---|---|
+| 4.0 | 27-Aug-2026 | Recertification - Updated Alt Formatting. |
 | 3.0 | 12-Sep-2024 | Updated Alt Text and Formatting. |
 | 2.0 | 11-Jul-2022 | Content of this recert article is ok.
 Updated title and formatting, style requirements, gerunds, etc. to meet Cisco guidelines. |
