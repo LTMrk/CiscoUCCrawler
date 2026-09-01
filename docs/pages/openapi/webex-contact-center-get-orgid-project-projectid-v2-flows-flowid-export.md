@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.150456+00:00
+retrieved_at: 2026-09-01T15:03:57.715329+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/flows/{flowId}:export
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-31T18:15:55.150456+00:00
 Export a Flow
 
 ## Descripción
-Export a flow as a flow document for backup, migration, or version control.
+Export a flow as a flow document for backup, migration, or version control. The exported payload includes `associatedChannels` metadata to preserve channel-specific activity behavior (for example, `customMessaging`) during re-import. If `associatedChannels` is missing or empty, the flow is treated as telephony.
 
 Scope: `cjp:config_read`
 

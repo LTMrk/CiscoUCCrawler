@@ -10,7 +10,7 @@ tags: Agent Summaries
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.044629+00:00
+retrieved_at: 2026-09-01T15:03:57.624758+00:00
 ---
 
 # POST /generated-summaries/search

@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.147830+00:00
+retrieved_at: 2026-09-01T15:03:57.713181+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/flows/{flowId}:publish
@@ -51,7 +51,7 @@ curl -X POST '/<orgId>/project/<projectId>/flows/<flowId>:publish' \
 
 ## Respuestas correctas
 **200**: OK
-- `associatedChannels` (array): Channels associated with the flow.
+- `associatedChannels` (array): Channels associated with the flow. If associatedChannels key is missing or empty, it will be treated as telephony flow.
   - `channelType` (string): Channel type associated with the flow version.
   - `id` (string): Identifier of the associated channel.
   - `name` (string): Display name of the associated channel.

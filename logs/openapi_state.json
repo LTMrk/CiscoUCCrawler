@@ -1303,10 +1303,10 @@
     "sha": "3af740a24fc2225d678cf219249e427e6efbb709"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-08-31T18:15:55.225915+00:00",
+    "actualizado": "2026-09-01T15:03:57.781796+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "f65034187fa06232c1c8cddf6ebcfe3b9a054a696a64162722800c773f9b646d",
+    "content_sha": "454976a70def27f3cc04079d385556eb2fc879f5e96ac05bb64b7322fb73dc42",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1734,6 +1734,7 @@
       "POST /v1/tasks/{taskId}/accept": "webex-contact-center-post-v1-tasks-taskid-accept",
       "POST /v1/tasks/{taskId}/assign": "webex-contact-center-post-v1-tasks-taskid-assign",
       "POST /v1/tasks/{taskId}/conference/exit": "webex-contact-center-post-v1-tasks-taskid-conference-exit",
+      "POST /v1/tasks/{taskId}/conference/participants/{participantId}/drop": "webex-contact-center-post-v1-tasks-taskid-conference-participants-participantid-drop",
       "POST /v1/tasks/{taskId}/consult": "webex-contact-center-post-v1-tasks-taskid-consult",
       "POST /v1/tasks/{taskId}/consult/accept": "webex-contact-center-post-v1-tasks-taskid-consult-accept",
       "POST /v1/tasks/{taskId}/consult/conference": "webex-contact-center-post-v1-tasks-taskid-consult-conference",
@@ -1811,7 +1812,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "334d9636a6579182b3e33b36386e0b208dec972c"
+    "sha": "dd40fe81e6761d2847ee3c7a057d0b525523cbf4"
   },
   "webex-device.json": {
     "actualizado": "2026-08-18T23:45:44.215661+00:00",

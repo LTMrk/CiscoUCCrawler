@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.149692+00:00
+retrieved_at: 2026-09-01T15:03:57.714676+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/v2/flows/{flowId}
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-31T18:15:55.149692+00:00
 Save a Flow Draft
 
 ## Descripción
-Save a complete flow document as the current draft, replacing the existing draft. Pass `expectedVersion` as a query parameter to enable optimistic locking; the request fails with `409 Conflict` if the server-side version does not match. Omit `expectedVersion` to skip the check.
+Save a complete flow document as the current draft, replacing the existing draft. Submitted `associatedChannels` values are not persisted on save; the draft preserves the existing stored channel metadata. Omitting `associatedChannels` does not default an existing flow to telephony. Pass `expectedVersion` as a query parameter to enable optimistic locking; the request fails with `409 Conflict` if the server-side version does not match. Omit `expectedVersion` to skip the check.
 
 Scope: `cjp:config_write`
 

@@ -10,7 +10,7 @@ tags: Generated Summaries
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.053037+00:00
+retrieved_at: 2026-09-01T15:03:57.631959+00:00
 ---
 
 # PUT /organization/{orgid}/generated-summaries/{id}

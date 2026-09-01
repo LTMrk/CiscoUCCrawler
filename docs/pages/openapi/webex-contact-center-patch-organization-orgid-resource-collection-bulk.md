@@ -10,7 +10,7 @@ tags: Resource Collection
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.105123+00:00
+retrieved_at: 2026-09-01T15:03:57.677997+00:00
 ---
 
 # PATCH /organization/{orgid}/resource-collection/bulk

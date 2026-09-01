@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.147042+00:00
+retrieved_at: 2026-09-01T15:03:57.712429+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/flows
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-31T18:15:55.147042+00:00
 List Flows or Subflows
 
 ## Descripción
-Returns a list of flows in response. Channel-based filtering can be applied with the `searchBy` query parameter (for example, `channelType|telephony`, `channelType|workItem`, `channelType|customMessaging`, `channelType|genericAction`). Channel visibility may be constrained by organization feature flags.
+Returns a list of flows in response. Channel-based filtering can be applied with the `searchBy` query parameter (for example, `channelType|telephony`, `channelType|workItem`, `channelType|customMessaging`, `channelType|genericAction`). Channel visibility may be constrained by organization feature flags. If associatedChannels key is missing or empty, it will be treated as telephony flow.
 
 Scope: `cjp:config_read`. Roles: [`Organizational Full Admin`, `Supervisor`, `Contact Center Service Admin`, `User Admin`]
 

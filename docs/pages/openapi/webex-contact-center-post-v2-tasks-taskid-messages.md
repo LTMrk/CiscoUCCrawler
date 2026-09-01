@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.145888+00:00
+retrieved_at: 2026-09-01T15:03:57.711542+00:00
 ---
 
 # POST /v2/tasks/{taskId}/messages

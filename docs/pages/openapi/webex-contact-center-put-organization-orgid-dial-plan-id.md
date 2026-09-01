@@ -10,7 +10,7 @@ tags: Dial Plan
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.092314+00:00
+retrieved_at: 2026-09-01T15:03:57.667670+00:00
 ---
 
 # PUT /organization/{orgid}/dial-plan/{id}

@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.149976+00:00
+retrieved_at: 2026-09-01T15:03:57.714933+00:00
 ---
 
 # PATCH /{orgId}/project/{projectId}/v2/flows/{flowId}
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-31T18:15:55.149976+00:00
 Patch a Flow Draft
 
 ## Descripción
-Apply partial updates to an existing flow draft without replacing the entire document. The patch body is a Patch Draft Contract — server-side merge, idempotent, and re-validated after the merge. The patch is rejected if the merged document fails validation, so the draft is never left in a broken state. The body may also include top-level overrides such as `name` and `description`.
+Apply partial updates to an existing flow draft without replacing the entire document. The patch body is a Patch Draft Contract — server-side merge, idempotent, and re-validated after the merge. The patch is rejected if the merged document fails validation, so the draft is never left in a broken state. The body may also include top-level overrides such as `name` and `description`. Submitted `associatedChannels` values are not persisted on patch; the draft preserves the existing stored channel metadata.
 
 Pass `expectedVersion` as a query parameter to enable optimistic locking; the request fails with `409 Conflict` if the server-side version does not match. Omit `expectedVersion` to skip the check.
 

@@ -10,7 +10,7 @@ tags: Site
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.109075+00:00
+retrieved_at: 2026-09-01T15:03:57.681202+00:00
 ---
 
 # GET /organization/{orgid}/v2/site

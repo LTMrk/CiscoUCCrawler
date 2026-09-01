@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-226128-remove-voicemails-to-clean-up-space-in-721e36bd4b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/226128-remove-voicemails-to-clean-up-space-in.html
-retrieved_at: 2026-08-16T18:57:15.107551+00:00
+retrieved_at: 2026-09-01T15:07:43.746454+00:00
 ---
 
 Remove Voicemails to Clean Up Space in Unity Connection
@@ -89,16 +89,6 @@ Once the voicemails have been deleted, wait for 30 minutes. If the issue persist
 08-Jul-2026
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Yani Saavedra Chimal
-
-Technical Consulting Engineer
-
-### This Document Applies to These Products
-
-- Unity Connection
 
 | Revision | Publish Date | Comments |
 |---|---|---|

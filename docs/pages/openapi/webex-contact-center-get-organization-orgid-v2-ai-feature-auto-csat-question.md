@@ -10,7 +10,7 @@ tags: AI Feature
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.049243+00:00
+retrieved_at: 2026-09-01T15:03:57.629381+00:00
 ---
 
 # GET /organization/{orgid}/v2/ai-feature/auto-csat/question

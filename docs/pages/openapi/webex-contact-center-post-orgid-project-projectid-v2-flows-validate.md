@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T18:15:55.148539+00:00
+retrieved_at: 2026-09-01T15:03:57.713761+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/v2/flows:validate
@@ -23,7 +23,7 @@ retrieved_at: 2026-08-31T18:15:55.148539+00:00
 Validate a Flow
 
 ## Descripción
-Dry-run validate a flow definition without persisting it. Use this to check correctness before importing.
+Dry-run validate a flow definition without persisting it. Use this to check correctness before importing. Include `associatedChannels` to preserve the channel metadata that import and export payloads round-trip. Validation requests where `associatedChannels` is missing or empty are treated as telephony flows, and dry-run validation does not derive the effective channel from `associatedChannels`.
 
 Note: validation is more lenient than import. A flow that passes `:validate` can still be rejected by `:import` (for example, a missing start activity), so a successful validation does not guarantee a successful import.
 

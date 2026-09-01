@@ -1,36 +1,37 @@
 ---
-doc_id: webex-contact-center-post-v1-tasks-taskid-conference-exit
+doc_id: webex-contact-center-post-v1-tasks-taskid-conference-participants-participantid-drop
 source: webex-openapi-specs/public-spec/webex-contact-center.json
 api: Webex Contact Center
 api_version: 1.0.0
 method: POST
-path: /v1/tasks/{taskId}/conference/exit
-operation_id: exitConferenceRoute
+path: /v1/tasks/{taskId}/conference/participants/{participantId}/drop
+operation_id: dropConferenceParticipantsRoute
 tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.710510+00:00
+retrieved_at: 2026-09-01T15:03:57.710607+00:00
 ---
 
-# POST /v1/tasks/{taskId}/conference/exit
+# POST /v1/tasks/{taskId}/conference/participants/{participantId}/drop
 
 **API:** Webex Contact Center
 **Área:** Tasks
-**operationId:** `exitConferenceRoute`
+**operationId:** `dropConferenceParticipantsRoute`
 
 ## Resumen
-Exit Conference Task
+Drop Participant From Conference
 
 ## Descripción
-Access this endpoint when the user wants to exit from a conference call. Requires one of the following scopes 'cjp:user' or 'cloud-contact-center:pod_conv' for authorization. For a list of possible response messages, see the [Call Control API Guide](/docs/contact-control-apis).
+Access this endpoint when the user needs to drop a specific participant from an active conference associated with a task. This operation removes only the targeted participant while keeping the remaining parties in the conference. Requires `cjp:user` scope for  authorization. For a list of possible response messages, see the [Call Control API Guide](/docs/contact-control-apis)
 
 ## Parámetros
 - `taskId` [path] (string/UUID) (**requerido**): The taskId represents the task that the user is currently working on. It will be generated automatically during the creation of a new task.
+- `participantId` [path] (string) (**requerido**): The ID of the participant ( Agent / DN / Entry Point DN / Customer) to be dropped from the conference, maximum length 36 characters.
 
 ## Ejemplo de invocación
 ```bash
-curl -X POST '/v1/tasks/<taskId>/conference/exit' \
+curl -X POST '/v1/tasks/<taskId>/conference/participants/<participantId>/drop' \
   -H 'Authorization: Bearer <TOKEN>'
 ```
 
@@ -39,8 +40,8 @@ curl -X POST '/v1/tasks/<taskId>/conference/exit' \
 
 ## Respuestas de error
 - **401**: Unauthorized, Token is Invalid
-- **402**: Not Found
 - **403**: Forbidden Request
+- **429**: Too many requests
 - **500**: Internal Server Error
 - **503**: Service Unavailable
 
