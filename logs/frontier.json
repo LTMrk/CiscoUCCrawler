@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020409-aironet-telnet/cvrf/cisco-sa-20020409-aironet-telnet_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020403-zlib-double-free/cvrf/cisco-sa-20020403-zlib-double-free_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020403-acs-win-web/cvrf/cisco-sa-20020403-acs-win-web_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020327-cm-ctifw-leak/cvrf/cisco-sa-20020327-cm-ctifw-leak_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020227-ios-cef/cvrf/cisco-sa-20020227-ios-cef_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020212-snmp-msgs/cvrf/cisco-sa-20020212-snmp-msgs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020211-snmp-msgs-non-ios/cvrf/cisco-sa-20020211-snmp-msgs-non-ios_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020207-acs-nds-auth/cvrf/cisco-sa-20020207-acs-nds-auth_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020129-catos-telrcv/cvrf/cisco-sa-20020129-catos-telrcv_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020109-sn-vulnerabilities/cvrf/cisco-sa-20020109-sn-vulnerabilities_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011128-ios-cbac-dynacl/cvrf/cisco-sa-20011128-ios-cbac-dynacl_cvrf.xml",
     "depth": 2
   },
