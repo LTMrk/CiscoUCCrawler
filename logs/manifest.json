@@ -26009,6 +26009,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/article/nxz79m5": {
+      "content_sha": "a1538933eefba30e68f622f9ca49234e03d06265932d4e810bb0cfc9afb18ad6",
+      "doc_id": "help-webex-com-article-nxz79m5-fb8cb73400",
+      "etag": "\"3b99f-53XJ9im83A0pLld9U31YyN4WZE4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:40.441326+00:00",
+      "last_changed": "2026-09-01T20:26:40.441326+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:40.441326+00:00",
+      "next_check": "2026-09-02T20:26:40.441326+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/article/rvjm4i": {
       "content_sha": "c4ad496831a93013fc4e99d9ec8d0d07af6f43bef71fcc99e2fee96a418a678a",
       "doc_id": "help-webex-com-article-rvjm4i-682aa629a4",
@@ -26071,6 +26084,45 @@
       "last_modified": null,
       "last_seen": "2026-09-01T18:31:13.973581+00:00",
       "next_check": "2026-09-02T18:31:13.973581+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/WBX000023766": {
+      "content_sha": "e8d91f9aa04dde22f6935bc34dc3c40e40b2ba684a8ddbd8511c73b5d7ca6c22",
+      "doc_id": "help-webex-com-en-us-article-wbx000023766-41c76862a1",
+      "etag": "\"265a40-pWvrywPvRPRcbAdlwUH5ljh+7Do\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:20.540117+00:00",
+      "last_changed": "2026-09-01T20:26:20.540117+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:20.540117+00:00",
+      "next_check": "2026-09-02T20:26:20.540117+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/WBX000026120": {
+      "content_sha": "c179559efc1954dcfb1908f04000d51692fa5df4d63566cb9f3f67060dbf93b3",
+      "doc_id": "help-webex-com-en-us-article-wbx000026120-9fd63c5c1b",
+      "etag": "\"1c95a2-Dstr41Sn/JTELYGKBbi4soWlHrA\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:24.760573+00:00",
+      "last_changed": "2026-09-01T20:26:24.760573+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:24.760573+00:00",
+      "next_check": "2026-09-02T20:26:24.760573+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/cfaso1": {
+      "content_sha": "3513ee7d8b5fb66175f83b71c04a953f328fa950f426bba65753fd4975263ebb",
+      "doc_id": "help-webex-com-en-us-article-cfaso1-7ff420caf9",
+      "etag": "\"29771-xMeDu3jr0Nupl/o7RrTi3Smg+u4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:07.095622+00:00",
+      "last_changed": "2026-09-01T20:26:07.095622+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:07.095622+00:00",
+      "next_check": "2026-09-02T20:26:07.095622+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -26204,6 +26256,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nme40aeb": {
+      "content_sha": "d843e12ad955cd615af87152302cae610c409853722c3632127f97224099acf0",
+      "doc_id": "help-webex-com-en-us-article-nme40aeb-8ff11513ea",
+      "etag": "\"2ce19-4CJRo0CsrJjCRRzc8ZIbD/K6JAA\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:36.433028+00:00",
+      "last_changed": "2026-09-01T20:26:36.433028+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:36.433028+00:00",
+      "next_check": "2026-09-02T20:26:36.433028+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide": {
       "content_sha": "6c6a186866d48fce6e97389202e433c16e6496e2869696029ec5fdbc387063b3",
       "doc_id": "help-webex-com-en-us-article-no4dlj3-webex-for-cisco-broadworks-solution-guide-d19828304e",
@@ -26214,6 +26279,19 @@
       "last_modified": null,
       "last_seen": "2026-09-01T17:20:39.230742+00:00",
       "next_check": "2026-09-02T17:20:39.230742+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nqvsbmq": {
+      "content_sha": "0e207433e49c6d746ed8acc3333f5ae80b4538807b937d31d6a5a0daf4775160",
+      "doc_id": "help-webex-com-en-us-article-nqvsbmq-c331e8194c",
+      "etag": "\"36a24-Fw3VDJKtOKe2shkXN4lUgkYvUOc\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:44.556064+00:00",
+      "last_changed": "2026-09-01T20:26:44.556064+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:44.556064+00:00",
+      "next_check": "2026-09-02T20:26:44.556064+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -26230,6 +26308,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nsjpi6h/SAML-Auto-Account-Creation-and-Update-for-Control-Hub": {
+      "content_sha": "9bb320fb5b8c900257e30a8870e46e8d70d2aa224f3c3a9b46fff8ae312eb6da",
+      "doc_id": "help-webex-com-en-us-article-nsjpi6h-saml-auto-account-creation-and-update-for-control-hub-0d93e98385",
+      "etag": "\"35ddb-0xrG8SX4krx/HtbwM8wFFc/YtO8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:12.220429+00:00",
+      "last_changed": "2026-09-01T20:26:12.220429+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:12.220429+00:00",
+      "next_check": "2026-09-02T20:26:12.220429+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nv7ydfv": {
+      "content_sha": "d20607c1f8d602ae2206af6ee35b2a65dbcff87a940810788605fc6c19ad1840",
+      "doc_id": "help-webex-com-en-us-article-nv7ydfv-3d1c9bb3ce",
+      "etag": "\"2f612-23+w+qxLMiIAnLOigeEJlPFZ8e0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:16.172892+00:00",
+      "last_changed": "2026-09-01T20:26:16.172892+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:16.172892+00:00",
+      "next_check": "2026-09-02T20:26:16.172892+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nxxey0cb/Get-started-with-your-Cisco-Headset-730": {
       "content_sha": "f842541084119b55f5256eeed6339c107c11cc7c28317b0a622f643724ac9c12",
       "doc_id": "help-webex-com-en-us-article-nxxey0cb-get-started-with-your-cisco-headset-730-8c082ad5b6",
@@ -26240,6 +26344,19 @@
       "last_modified": null,
       "last_seen": "2026-09-01T17:20:48.386598+00:00",
       "next_check": "2026-09-02T17:20:48.386598+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nxz79m5": {
+      "content_sha": "a1538933eefba30e68f622f9ca49234e03d06265932d4e810bb0cfc9afb18ad6",
+      "doc_id": "help-webex-com-en-us-article-nxz79m5-d8e2b0ac10",
+      "etag": "\"3b99f-INq4cc4YTLvolT5muo5EcN/luTM\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:26:28.773089+00:00",
+      "last_changed": "2026-09-01T20:26:28.773089+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:26:28.773089+00:00",
+      "next_check": "2026-09-02T20:26:28.773089+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -33097,10 +33214,10 @@
       "first_seen": "2026-08-20T21:10:03.594304+00:00",
       "last_changed": "2026-08-20T21:10:03.594304+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:12:25.105681+00:00",
-      "next_check": "2026-08-26T05:12:25.105681+00:00",
+      "last_seen": "2026-09-01T20:27:08.325175+00:00",
+      "next_check": "2026-09-05T20:27:08.325175+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html": {
       "content_sha": "35efd0bb1652ee002a6268f2bfbf46c801e8251f847cad888a8891bde0e36ae1",
@@ -51314,10 +51431,10 @@
       "first_seen": "2026-08-16T22:59:20.521324+00:00",
       "last_changed": "2026-08-16T22:59:20.521324+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:31:11.857943+00:00",
-      "next_check": "2026-08-28T06:31:11.857943+00:00",
+      "last_seen": "2026-09-01T20:27:20.610807+00:00",
+      "next_check": "2026-09-09T20:27:20.610807+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_0100.html": {
       "content_sha": "f55ad32eebe4dc05c14780dc366b63aaadd197173ca7931475b7a3092cd99e48",
@@ -194666,5 +194783,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T20:21:38.502093+00:00"
+  "updated_at": "2026-09-01T20:27:34.219672+00:00"
 }

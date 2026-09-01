@@ -1,0 +1,35 @@
+---
+doc_id: help-webex-com-en-us-article-cfaso1-7ff420caf9
+source_url: https://help.webex.com/en-us/article/cfaso1
+retrieved_at: 2026-09-01T20:26:07.095832+00:00
+---
+
+## Overview
+
+People Insights profiles may contain publicly available information, similar to what can be found in search engine results for a person’s name. Users have control over any public information that appears on their profiles . Administrators can choose to show or hide that public information from users within their organization.
+
+It may take up to 48 hours for your users to see People Insights profiles after this is enabled.
+
+## Show or Hide Public Information from Users in your Organization
+
+People Insights profiles are available to see by default, but you can choose to hide public information from users in your organization.
+
+From the customer view in https://admin.webex.com , go to Organization Settings and scroll down to the People Insights section.
+
+Toggle the switch on to show or off to hide public information in Public Insights profiles under Show Public Data .
+
+What to do next
+
+To display your organization’s Active Directory information within People Insights profiles, enable directory synchronization .
+
+After directory synchronization is enabled, the following Active Directory fields will populate People Insights profiles:
+
+Address : City and country are required to display the time zone and weather.
+
+Title : Improves the quality of public information displayed in profiles.
+
+Manager : Ensures that your internal reporting structure displays to users within your organization.
+
+| 1 | From the customer view in https://admin.webex.com , go to Organization Settings and scroll down to the People Insights section. |
+|---|---|
+| 2 | Toggle the switch on to show or off to hide public information in Public Insights profiles under Show Public Data . |

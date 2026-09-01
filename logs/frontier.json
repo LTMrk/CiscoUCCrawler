@@ -1,101 +1,5 @@
 [
   {
-    "url": "https://admin.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/cfaso1",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nsjpi6h/SAML-Auto-Account-Creation-and-Update-for-Control-Hub",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nv7ydfv",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/WBX000023766",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/WBX000026120",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nxz79m5",
-    "depth": 2
-  },
-  {
-    "url": "https://idbroker.webex.com/idb/profile",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nme40aeb",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/article/nxz79m5",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nqvsbmq",
-    "depth": 2
-  },
-  {
-    "url": "https://cloudconnector.webex.com/SynchronizationService-v1_0",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_010.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.mobi",
-    "depth": 3
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/products-field-notices-list.html",
     "depth": 3
   },
@@ -35002,5 +34906,105 @@
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_0_1/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90_chapter_011.html",
     "depth": 3
+  },
+  {
+    "url": "https://meeting-infohub.cisco.com/faq/category/55/lync_skype-for-business_office-365-integration.html",
+    "depth": 1
+  },
+  {
+    "url": "https://meeting-infohub.cisco.com/faq/category/25/cisco-meeting-server.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-programming-reference-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-programming-reference-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "depth": 1
   }
 ]
