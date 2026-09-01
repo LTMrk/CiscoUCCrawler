@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011128-ios-cbac-dynacl/cvrf/cisco-sa-20011128-ios-cbac-dynacl_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011115-ios-arp-overwrite/cvrf/cisco-sa-20011115-ios-arp-overwrite_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011114-gsr-acl/cvrf/cisco-sa-20011114-gsr-acl_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011114-gsr-unreachable/cvrf/cisco-sa-20011114-gsr-unreachable_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20011003-pix-firewall-auth-flood/cvrf/cisco-sa-20011003-pix-firewall-auth-flood_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010926-pix-firewall-smtp-filter/cvrf/cisco-sa-20010926-pix-firewall-smtp-filter_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010912-ssl-j/cvrf/cisco-sa-20010912-ssl-j_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010906-intrusion-detection/cvrf/cisco-sa-20010906-intrusion-detection_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010823-cbos-webserver/cvrf/cisco-sa-20010823-cbos-webserver_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010720-code-red-worm/cvrf/cisco-sa-20010720-code-red-worm_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010712-pptp/cvrf/cisco-sa-20010712-pptp_cvrf.xml",
     "depth": 2
   },
