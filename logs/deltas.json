@@ -1,19 +1,22 @@
 {
-  "run_at": "2026-09-01T21:20:54.458545+00:00",
+  "run_at": "2026-09-01T21:29:55.071443+00:00",
   "modo": "incremental",
-  "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-html-10fbab52ef",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-119432-config-jabber-00-html-4e9ec22a17"
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-mib-reference-guide-srst34-srst34mb-srst-mib-html-76b6ab1b9f",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-mib-reference-guide-srst34-srst34mb-srstpref-html-2ed4d8e29b"
   ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 64,
+  "unchanged_count": 33,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/integration/guide/cucm_sip/b_cucintcucmsip/b_cucintcucmsip_chapter_011.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/10_0_1/ipchange/CUCM_BK_C3782AAB_00_change-ipaddress-hostname-100/CUCM_BK_C3782AAB_00_change-ipaddress-hostname-100_chapter_011.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/port/10_0_1/CUCM_BK_T537717B_00_tcp-port-usage-guide-100/CUCM_BK_T537717B_00_tcp-port-usage-guide-100_chapter_01.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/fieldNotice/cucm_b_fn-secure-ldap-mandatory-ad.html -> https://www.cisco.com/c/en/us/support/docs/field-notices/705/fn70548.html"
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118771-configure-samlsso-00.mobi -> https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118771-configure-samlsso-00.mobi/index.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/8x/administration/guide/8xcucsagx/8xcucsag115.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/8x/integration/guide/cucm_sccp/cucintcucmskinny/cucintcucmskinny070.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/8x/integration/guide/cucm_sip/cucintcucmsip/cucintcucmsip060.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_5_1/ccmcfg/bccm-851-cm/b03txpat.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_6_1/ccmcfg/bccm-861-cm/b03meet.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_6_1/ccmsys/accm-861-cm/a05confb.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
   ],
   "semillas_encoladas": 20
 }
