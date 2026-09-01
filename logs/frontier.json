@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020918-smb-dos/cvrf/cisco-sa-20020918-smb-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020905-vpnclient-vulnerability/cvrf/cisco-sa-20020905-vpnclient-vulnerability_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020903-vpn3k-vulnerability/cvrf/cisco-sa-20020903-vpn3k-vulnerability_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020812-vpnclient-vulnerability/cvrf/cisco-sa-20020812-vpnclient-vulnerability_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020807-vpn5k-radius-pap/cvrf/cisco-sa-20020807-vpn5k-radius-pap_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020807-solaris-mgc/cvrf/cisco-sa-20020807-solaris-mgc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020730-ioc-tftp-lfn/cvrf/cisco-sa-20020730-ioc-tftp-lfn_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020724-solaris-cachefs/cvrf/cisco-sa-20020724-solaris-cachefs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020702-acsunix-acmeweb/cvrf/cisco-sa-20020702-acsunix-acmeweb_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020627-ssh-scan/cvrf/cisco-sa-20020627-ssh-scan_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20020619-ons-tos/cvrf/cisco-sa-20020619-ons-tos_cvrf.xml",
     "depth": 2
   },
