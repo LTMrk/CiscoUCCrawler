@@ -7199,6 +7199,12 @@
     "ultima_vez": "2026-08-17T04:55:37.959905+00:00",
     "veces": 1
   },
+  "https://www.webex.com/content/webex/c/en_US/index/collaboration-devices.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:31:50.386084+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/customers.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -7211,6 +7217,12 @@
     "ultima_vez": "2026-08-25T04:35:05.905471+00:00",
     "veces": 1
   },
+  "https://www.webex.com/gp/hybrid-work-research-global-2024.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:31:30.207833+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/gp/webex-platform-advantage.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -7221,6 +7233,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:34:49.137806+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/industries/government-fedramp.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:31:59.697329+00:00",
     "veces": 1
   },
   "https://www.webex.com/industries/sports-entertainment.html": {
@@ -7251,6 +7269,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-09-01T18:23:40.083910+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/resources/whats-new.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:32:52.904765+00:00",
     "veces": 1
   },
   "https://www.webex.com/screen-sharing.html": {
@@ -7301,6 +7325,24 @@
     "ultima_vez": "2026-09-01T18:21:35.591027+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/customers/mclaren": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:31:16.261208+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/customers/t-mobile.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:32:27.383854+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/devices/accessories/ultra-high-speed-hdmi-cables-by-cisco.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:30:25.589812+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/us/en/devices/headsets.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -7311,6 +7353,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T23:37:09.913776+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:30:21.194353+00:00",
     "veces": 1
   },
   "https://www.webex.com/us/en/devices/room-devices.html": {
@@ -7329,6 +7377,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:35:35.182752+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/gp/workplace-design-for-it-hr-facilities.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:31:25.845708+00:00",
     "veces": 1
   },
   "https://www.webex.com/us/en/products/customer-experience.html": {
@@ -7415,10 +7469,40 @@
     "ultima_vez": "2026-09-01T18:22:04.813301+00:00",
     "veces": 1
   },
+  "https://www.webex.com/us/en/workspaces/executive-boardroom.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:29:00.276706+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/workspaces/frontline.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:29:58.097305+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/workspaces/medium-meeting-room.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:28:45.453054+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/us/en/workspaces/personal-desk.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:29:29.951362+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/video-conferencing.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-17T04:55:08.794675+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/webex-legislate.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:32:04.091963+00:00",
     "veces": 1
   },
   "https://www.webex.com/webinar.html": {
@@ -7431,6 +7515,12 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-09-01T18:23:33.838383+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/workspaces/explore.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-01T18:32:15.078037+00:00",
     "veces": 1
   }
 }

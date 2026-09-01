@@ -22108,6 +22108,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cart.webex.com/sign-uphttps://cart.webex.com/sign-up": {
+      "content_sha": null,
+      "doc_id": "cart-webex-com-sign-uphttps-cart-webex-com-sign-up-bad8f38052",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:33.784172+00:00",
+      "http_status": 308,
+      "last_seen": "2026-09-01T18:31:33.784183+00:00",
+      "next_check": "2026-09-02T18:31:33.784183+00:00",
+      "redirect_to": "https://signup.webex.com/sign-up",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://cdetsng.cisco.com/summary": {
       "content_sha": null,
       "doc_id": "cdetsng-cisco-com-summary-cbda7da0cd",
@@ -22250,6 +22262,18 @@
       "last_seen": "2026-08-25T12:37:26.297078+00:00",
       "next_check": "2026-08-26T12:37:26.297078+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://cpaas.webex.com/solutions/healthcare": {
+      "content_sha": null,
+      "doc_id": "cpaas-webex-com-solutions-healthcare-11d2106ead",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:43.495905+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:31:43.495917+00:00",
+      "next_check": "2026-09-02T18:31:43.495917+00:00",
+      "redirect_to": "https://www.webex.com/us/en/products/customer-experience/cpaas.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -25998,6 +26022,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/7sw4gab/Cisco-collaboration-devices-certification-program": {
+      "content_sha": "4aa64f3cb809fd28d556dd1bf9d1faf935ed25579a05e10bbe08c376bd7e9765",
+      "doc_id": "help-webex-com-en-us-article-7sw4gab-cisco-collaboration-devices-certification-program-3ac7a79900",
+      "etag": "\"4f19a-6vZZZuu9ATdNZOkNf+FMWm0JQqg\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:13.973581+00:00",
+      "last_changed": "2026-09-01T18:31:13.973581+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T18:31:13.973581+00:00",
+      "next_check": "2026-09-02T18:31:13.973581+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/n5wdm6c/Device-Integration-Guide-for-Webex-for-Cisco-BroadWorks": {
       "content_sha": "72734a925288f1eeb636b0340a98729a8e0f8351dc5798746434ba66fe2e2c42",
       "doc_id": "help-webex-com-en-us-article-n5wdm6c-device-integration-guide-for-webex-for-cisco-broadworks-5ff8c53979",
@@ -26060,6 +26097,19 @@
       "last_modified": null,
       "last_seen": "2026-09-01T17:20:39.230742+00:00",
       "next_check": "2026-09-02T17:20:39.230742+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nqzpeei/Show-real-time-translation-and-transcription-in-meetings-and-webinars": {
+      "content_sha": "6a898c5eb1cabb4215e2b8d301391ed32f2a9d24cad7db03a88587a74f1df668",
+      "doc_id": "help-webex-com-en-us-article-nqzpeei-show-real-time-translation-and-transcription-in-meetings-and-webinars-059490f2b9",
+      "etag": "\"4a898-sObu7s7aWjGE7txhJ9/1jKYlLVs\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:32:37.790011+00:00",
+      "last_changed": "2026-09-01T18:32:37.790011+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T18:32:37.790011+00:00",
+      "next_check": "2026-09-02T18:32:37.790011+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -28596,8 +28646,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T04:53:28.216689+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T04:53:28.216699+00:00",
-      "next_check": "2026-08-26T04:53:28.216699+00:00",
+      "last_seen": "2026-09-01T18:32:57.171449+00:00",
+      "next_check": "2026-09-02T18:32:57.171449+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -29204,15 +29254,15 @@
       "unchanged_runs": 0
     },
     "https://sec.cloudapps.cisco.com/security/center/publicationListing.x": {
-      "content_sha": "f142c1d9efa8f0e28204d28d5f244864c3cbd2fa84b9c5f57b0f2a7f0ac95d13",
+      "content_sha": "67ed17f977e34020059f0da78111ccfad089eb02803b2ece98666a2a8ae877cc",
       "doc_id": "sec-cloudapps-cisco-com-security-center-publicationlisting-x-6806cd1506",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:05:33.574142+00:00",
-      "last_changed": "2026-08-24T05:02:22.206135+00:00",
+      "last_changed": "2026-09-01T18:32:49.898453+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:02:22.206135+00:00",
-      "next_check": "2026-08-25T05:02:22.206135+00:00",
+      "last_seen": "2026-09-01T18:32:49.898453+00:00",
+      "next_check": "2026-09-02T18:32:49.898453+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -43870,10 +43920,10 @@
       "first_seen": "2026-08-21T12:51:40.849190+00:00",
       "last_changed": "2026-08-21T12:51:40.849190+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:04.890240+00:00",
-      "next_check": "2026-08-26T05:47:04.890240+00:00",
+      "last_seen": "2026-09-01T18:33:01.493330+00:00",
+      "next_check": "2026-09-05T18:33:01.493330+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/installing-the-voice-gateway-software.html": {
       "content_sha": "e402cc2ab57c0ad2e2a83caa77ed356ba418943ea673be1a35b70e62eb4ca73f",
@@ -43883,10 +43933,10 @@
       "first_seen": "2026-08-22T01:15:05.449147+00:00",
       "last_changed": "2026-08-22T01:15:05.449147+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:09.531268+00:00",
-      "next_check": "2026-08-26T05:47:09.531268+00:00",
+      "last_seen": "2026-09-01T18:33:09.397919+00:00",
+      "next_check": "2026-09-05T18:33:09.397919+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/m_selinux.html": {
       "content_sha": "6d42d64552867e9bffd1b195ec7dd60f84447eaf141672a91992e2b41c4bc1cf",
@@ -43896,10 +43946,10 @@
       "first_seen": "2026-08-22T01:15:17.857587+00:00",
       "last_changed": "2026-08-22T01:15:17.857587+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:13.370481+00:00",
-      "next_check": "2026-08-26T05:47:13.370481+00:00",
+      "last_seen": "2026-09-01T18:33:21.765823+00:00",
+      "next_check": "2026-09-05T18:33:21.765823+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/preface-reuse-routing.html": {
       "content_sha": "72e708ecd4516e8c5b848db38165bd67071640440c0ec56f464be5b5eb7af3de",
@@ -43909,10 +43959,10 @@
       "first_seen": "2026-08-22T01:14:56.983338+00:00",
       "last_changed": "2026-08-22T01:14:56.983338+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:17.538519+00:00",
-      "next_check": "2026-08-26T05:47:17.538519+00:00",
+      "last_seen": "2026-09-01T18:33:04.912869+00:00",
+      "next_check": "2026-09-05T18:33:04.912869+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_00.html": {
       "content_sha": "cb6d9a0b33ac56d966bec6b51374aa2522d365f9b45a4dc54bf1437a81f7ef1c",
@@ -43935,10 +43985,10 @@
       "first_seen": "2026-08-22T01:15:10.000427+00:00",
       "last_changed": "2026-08-22T01:15:10.000427+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:26.226138+00:00",
-      "next_check": "2026-08-26T05:47:26.226138+00:00",
+      "last_seen": "2026-09-01T18:33:13.620006+00:00",
+      "next_check": "2026-09-05T18:33:13.620006+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_010.html": {
       "content_sha": "015e7d55f0ab02fe0cfeb8abbe16d976dca0cb6d44da18f223a9349414fd2703",
@@ -43948,10 +43998,10 @@
       "first_seen": "2026-08-22T01:15:13.946010+00:00",
       "last_changed": "2026-08-22T01:15:13.946010+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:47:30.303504+00:00",
-      "next_check": "2026-08-26T05:47:30.303504+00:00",
+      "last_seen": "2026-09-01T18:33:17.692687+00:00",
+      "next_check": "2026-09-05T18:33:17.692687+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/116/collbcvd.html": {
       "content_sha": null,
@@ -65014,10 +65064,10 @@
       "first_seen": "2026-08-21T08:06:56.791832+00:00",
       "last_changed": "2026-08-21T08:06:56.791832+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:07.586502+00:00",
-      "next_check": "2026-08-26T07:14:07.586502+00:00",
+      "last_seen": "2026-09-01T18:33:29.851026+00:00",
+      "next_check": "2026-09-05T18:33:29.851026+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html": {
       "content_sha": "6646257e56291e668595bdb2afeb42e5799818d80df31676cdd50d94cb3a796b",
@@ -65040,10 +65090,10 @@
       "first_seen": "2026-08-21T08:07:01.003650+00:00",
       "last_changed": "2026-08-21T08:07:01.003650+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:15.891360+00:00",
-      "next_check": "2026-08-26T07:14:15.891360+00:00",
+      "last_seen": "2026-09-01T18:33:33.911354+00:00",
+      "next_check": "2026-09-05T18:33:33.911354+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0100.html": {
       "content_sha": "7c02f14ef23fc63de861cb75b732f7e09881b1b1db35bcc6b4842f0ef89b788e",
@@ -65053,10 +65103,10 @@
       "first_seen": "2026-08-21T08:07:09.445990+00:00",
       "last_changed": "2026-08-21T08:07:09.445990+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:20.242597+00:00",
-      "next_check": "2026-08-26T07:14:20.242597+00:00",
+      "last_seen": "2026-09-01T18:33:42.330293+00:00",
+      "next_check": "2026-09-05T18:33:42.330293+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0101.html": {
       "content_sha": "6535cfef8da44921d87e89ce1c96b631fe23a5d860e878a52018e7c384ca050b",
@@ -65066,10 +65116,10 @@
       "first_seen": "2026-08-21T08:07:13.929756+00:00",
       "last_changed": "2026-08-21T08:07:13.929756+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:24.574929+00:00",
-      "next_check": "2026-08-26T07:14:24.574929+00:00",
+      "last_seen": "2026-09-01T18:33:46.662644+00:00",
+      "next_check": "2026-09-05T18:33:46.662644+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_011.html": {
       "content_sha": "0327bc4a50ed31ac0e920044e385a4d179e1d252fa6e7c6882ed71d973e32871",
@@ -65079,10 +65129,10 @@
       "first_seen": "2026-08-21T08:07:05.406011+00:00",
       "last_changed": "2026-08-21T08:07:05.406011+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:28.828460+00:00",
-      "next_check": "2026-08-26T07:14:28.828460+00:00",
+      "last_seen": "2026-09-01T18:33:38.408593+00:00",
+      "next_check": "2026-09-05T18:33:38.408593+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0110.html": {
       "content_sha": "c8d9e273f0ad4fb6c0bb2a9db1f419ca2d968dbe31df3f9c8c2c82357e3d33a7",
@@ -65092,10 +65142,10 @@
       "first_seen": "2026-08-21T08:07:18.219510+00:00",
       "last_changed": "2026-08-21T08:07:18.219510+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:32.957947+00:00",
-      "next_check": "2026-08-26T07:14:32.957947+00:00",
+      "last_seen": "2026-09-01T18:33:51.365514+00:00",
+      "next_check": "2026-09-05T18:33:51.365514+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0111.html": {
       "content_sha": "4e2d52b2b78f6a5c03bd216dc032db8bcff8ec75bbea675eabb3ac831ae19d73",
@@ -65105,10 +65155,10 @@
       "first_seen": "2026-08-21T08:07:22.469405+00:00",
       "last_changed": "2026-08-21T08:07:22.469405+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:14:37.275433+00:00",
-      "next_check": "2026-08-26T07:14:37.275433+00:00",
+      "last_seen": "2026-09-01T18:33:55.330940+00:00",
+      "next_check": "2026-09-05T18:33:55.330940+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/compatibility/matrix/b_cucclientmtx.html": {
       "content_sha": "7027a1a5abb971fb46bb520dd5f9b747ba350086e5e42fe6948549a84c9ffc1c",
@@ -80622,10 +80672,10 @@
       "first_seen": "2026-08-16T14:16:32.098633+00:00",
       "last_changed": "2026-08-20T14:41:05.924365+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T08:47:55.287696+00:00",
-      "next_check": "2026-08-26T08:47:55.287696+00:00",
+      "last_seen": "2026-09-01T18:34:03.895529+00:00",
+      "next_check": "2026-09-05T18:34:03.895529+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_b_system-configuration-guide-14_chapter_0100.html": {
       "content_sha": "1ec65bff6d5c930066d87126f1b18ee7d587f63d7547ff23529226ebab301643",
@@ -81103,10 +81153,10 @@
       "first_seen": "2026-08-16T14:16:27.738262+00:00",
       "last_changed": "2026-08-20T14:43:50.811418+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T08:50:31.879197+00:00",
-      "next_check": "2026-08-26T08:50:31.879197+00:00",
+      "last_seen": "2026-09-01T18:34:12.275010+00:00",
+      "next_check": "2026-09-05T18:34:12.275010+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/8_6_1/ccmcfg/bccm-861-cm/b06phtmp.html": {
       "content_sha": null,
@@ -81414,10 +81464,10 @@
       "first_seen": "2026-08-16T14:16:22.878553+00:00",
       "last_changed": "2026-08-20T14:45:27.203999+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T08:54:13.444128+00:00",
-      "next_check": "2026-08-26T08:54:13.444128+00:00",
+      "last_seen": "2026-09-01T18:34:07.695349+00:00",
+      "next_check": "2026-09-05T18:34:07.695349+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/cucm_b_feature-configuration-guide-for-15/cucm_m_new-and-changed-information.html": {
       "content_sha": "1f9638d77d712477b27c082cf7e5ce32ce59e2aac6758628c2b362ffe96bad29",
@@ -93951,10 +94001,10 @@
       "first_seen": "2026-08-16T14:16:40.707851+00:00",
       "last_changed": "2026-08-20T15:20:03.865300+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:21:13.726913+00:00",
-      "next_check": "2026-08-26T10:21:13.726913+00:00",
+      "last_seen": "2026-09-01T18:34:33.532379+00:00",
+      "next_check": "2026-09-05T18:34:33.532379+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_010100.html": {
       "content_sha": "05f575df350a8e97e5088a072ecc5cd6fdac352b014c6b3e30ae49ae1e225078",
@@ -94237,10 +94287,10 @@
       "first_seen": "2026-08-16T14:14:47.157114+00:00",
       "last_changed": "2026-08-20T15:21:36.204037+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:22:47.189589+00:00",
-      "next_check": "2026-08-26T10:22:47.189589+00:00",
+      "last_seen": "2026-09-01T18:34:15.748012+00:00",
+      "next_check": "2026-09-05T18:34:15.748012+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251/cup0_m_manage-external-database.html": {
       "content_sha": "357f1da0f2d25ec2520c332d0859819eada5ea8e9c2b10840aea2d4d583e3b73",
@@ -94341,10 +94391,10 @@
       "first_seen": "2026-08-16T14:14:58.292871+00:00",
       "last_changed": "2026-08-20T15:22:10.175837+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:23:20.517367+00:00",
-      "next_check": "2026-08-26T10:23:20.517367+00:00",
+      "last_seen": "2026-09-01T18:34:24.581958+00:00",
+      "next_check": "2026-09-05T18:34:24.581958+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251su1/cup0_m_manage-external-database.html": {
       "content_sha": "1a38e14c398d89741b845cca885c49b1b5334afac29d8535c3155fcb0b0df9d3",
@@ -94445,10 +94495,10 @@
       "first_seen": "2026-08-16T14:14:51.985748+00:00",
       "last_changed": "2026-08-20T15:22:44.166448+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:23:54.481148+00:00",
-      "next_check": "2026-08-26T10:23:54.481148+00:00",
+      "last_seen": "2026-09-01T18:34:20.137390+00:00",
+      "next_check": "2026-09-05T18:34:20.137390+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/database_setup/12_5_1/cup0_b_database-setup-guide-1251su2/cup0_m_manage-external-database.html": {
       "content_sha": "bea1d05c9e0132c821f771004ba22cd959351338bf867fac738c8e2c23394f0e",
@@ -94757,10 +94807,10 @@
       "first_seen": "2026-08-16T14:15:40.666626+00:00",
       "last_changed": "2026-08-20T15:26:49.443638+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:25:37.045901+00:00",
-      "next_check": "2026-08-26T10:25:37.045901+00:00",
+      "last_seen": "2026-09-01T18:34:28.497646+00:00",
+      "next_check": "2026-09-05T18:34:28.497646+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/12_5_1/cup0_b_ms-outlook-calendar-integration-1251/cup0_b_ms-outlook-calendar-integration-1251_index.html": {
       "content_sha": "dbae6d4e40379eb69108570762eef747462817984edd875d0f27c972f335898d",
@@ -96681,10 +96731,10 @@
       "first_seen": "2026-08-16T14:15:36.116815+00:00",
       "last_changed": "2026-08-20T15:39:26.204737+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T10:38:13.817191+00:00",
-      "next_check": "2026-08-26T10:38:13.817191+00:00",
+      "last_seen": "2026-09-01T18:34:37.249432+00:00",
+      "next_check": "2026-09-05T18:34:37.249432+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/lync_integration/12_5_1/cup0_b_rcc-lync-server-integration-1251/cup0_b_rcc-lync-server-integration-1251_chapter_00.html": {
       "content_sha": "9666ff9fcdc229f8706522c4ef62ca6c24ae44c28bec4aba8debb35e1287ea79",
@@ -99565,10 +99615,10 @@
       "first_seen": "2026-08-16T14:16:19.258431+00:00",
       "last_changed": "2026-08-20T15:56:40.000757+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T11:01:13.835214+00:00",
-      "next_check": "2026-08-26T11:01:13.835214+00:00",
+      "last_seen": "2026-09-01T18:34:42.406870+00:00",
+      "next_check": "2026-09-05T18:34:42.406870+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_010.html": {
       "content_sha": "659dd8ca972ef2fb8544d11e069be29e5fa8dfcc647491dde1109e9835972d44",
@@ -105409,10 +105459,10 @@
       "first_seen": "2026-08-16T14:16:56.449208+00:00",
       "last_changed": "2026-08-20T16:12:26.406634+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T11:44:27.076398+00:00",
-      "next_check": "2026-08-26T11:44:27.076398+00:00",
+      "last_seen": "2026-09-01T18:34:45.622094+00:00",
+      "next_check": "2026-09-05T18:34:45.622094+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sip_msg/line_std/12_0_1/cucm_b_sip-line-messaging-standard-1201/cucm_b_sip-line-messaging-standard-1201_chapter_00.html": {
       "content_sha": "4eb20375bf6ad89087e86978107684e6dfdbf679af80390d3de68797ec016538",
@@ -109192,10 +109242,10 @@
       "first_seen": "2026-08-21T08:13:25.479484+00:00",
       "last_changed": "2026-08-21T08:13:25.479484+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:22:58.797977+00:00",
-      "next_check": "2026-08-26T12:22:58.797977+00:00",
+      "last_seen": "2026-09-01T18:35:53.404646+00:00",
+      "next_check": "2026-09-05T18:35:53.404646+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/Unified_CME_Platform_Protocol_Compatibility_Matrix.html": {
       "content_sha": "c5f7318d7aedc7dc4072c0975367928097711da55b33cd36846e338a9c3b6c74",
@@ -123793,10 +123843,10 @@
       "first_seen": "2026-08-21T02:48:58.421453+00:00",
       "last_changed": "2026-08-21T02:48:58.421453+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:00:53.407758+00:00",
-      "next_check": "2026-08-26T14:00:53.407758+00:00",
+      "last_seen": "2026-09-01T18:35:01.598146+00:00",
+      "next_check": "2026-09-05T18:35:01.598146+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_41.html": {
       "content_sha": "50e1632f8fcaa13d4988aa2b57953c2b78d0c05970237e41dddaee21b63bd68f",
@@ -123806,10 +123856,10 @@
       "first_seen": "2026-08-21T02:49:06.721996+00:00",
       "last_changed": "2026-08-21T02:49:06.721996+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:00:57.429953+00:00",
-      "next_check": "2026-08-26T14:00:57.429953+00:00",
+      "last_seen": "2026-09-01T18:35:09.532472+00:00",
+      "next_check": "2026-09-05T18:35:09.532472+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_appendix_a_.html": {
       "content_sha": "6a5ca702a69d418b50f365348819ed683e531a0fa2fa3f89830b0665900eba75",
@@ -123819,10 +123869,10 @@
       "first_seen": "2026-08-21T02:49:43.422271+00:00",
       "last_changed": "2026-08-21T02:49:43.422271+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:01.048857+00:00",
-      "next_check": "2026-08-26T14:01:01.048857+00:00",
+      "last_seen": "2026-09-01T18:35:45.383984+00:00",
+      "next_check": "2026-09-05T18:35:45.383984+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_appendix_b_.html": {
       "content_sha": "4a6150386aa9acee2428fce1723e272b77068cad6f410eb5dffda314eb4472c9",
@@ -123832,10 +123882,10 @@
       "first_seen": "2026-08-21T02:49:48.016626+00:00",
       "last_changed": "2026-08-21T02:49:48.016626+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:06.017417+00:00",
-      "next_check": "2026-08-26T14:01:06.017417+00:00",
+      "last_seen": "2026-09-01T18:35:49.980810+00:00",
+      "next_check": "2026-09-05T18:35:49.980810+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_call_handling.html": {
       "content_sha": "c8465f9e55fde242df70b3ef29c03886eee618328b6705ce0037a2981b59ba73",
@@ -123845,10 +123895,10 @@
       "first_seen": "2026-08-21T02:49:20.940592+00:00",
       "last_changed": "2026-08-21T02:49:20.940592+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:11.920958+00:00",
-      "next_check": "2026-08-26T14:01:11.920958+00:00",
+      "last_seen": "2026-09-01T18:35:23.967721+00:00",
+      "next_check": "2026-09-05T18:35:23.967721+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_monitoring_and_maintaining.html": {
       "content_sha": "144d83730ba1bcb5cec4e6b880befd237499345d283e7d23cd2e38395502af0e",
@@ -123858,10 +123908,10 @@
       "first_seen": "2026-08-21T02:49:39.020154+00:00",
       "last_changed": "2026-08-21T02:49:39.020154+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:15.406455+00:00",
-      "next_check": "2026-08-26T14:01:15.406455+00:00",
+      "last_seen": "2026-09-01T18:35:41.235790+00:00",
+      "next_check": "2026-09-05T18:35:41.235790+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html": {
       "content_sha": "18badbf25faeab996f63491f337cae1041a2d7c196edd9473651fefcf6e46246",
@@ -123884,10 +123934,10 @@
       "first_seen": "2026-08-21T02:48:47.584536+00:00",
       "last_changed": "2026-08-21T02:48:47.584536+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:25.112584+00:00",
-      "next_check": "2026-08-26T14:01:25.112584+00:00",
+      "last_seen": "2026-09-01T18:34:51.699404+00:00",
+      "next_check": "2026-09-05T18:34:51.699404+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_secure_sccp_and_sip.html": {
       "content_sha": "b4b1e24957fe35c1f35377be1fd92163565384097a3c9968a6297dda7e65d9c0",
@@ -123897,10 +123947,10 @@
       "first_seen": "2026-08-21T02:49:26.818433+00:00",
       "last_changed": "2026-08-21T02:49:26.818433+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:30.664942+00:00",
-      "next_check": "2026-08-26T14:01:30.664942+00:00",
+      "last_seen": "2026-09-01T18:35:29.282511+00:00",
+      "next_check": "2026-09-05T18:35:29.282511+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_setting_up_the_network.html": {
       "content_sha": "83e5b3f0ec2d4212df02d9e0d18f0c3d657e05a5baf10cd73ce47926b0df3e4b",
@@ -123910,10 +123960,10 @@
       "first_seen": "2026-08-21T02:49:02.576612+00:00",
       "last_changed": "2026-08-21T02:49:02.576612+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:34.591968+00:00",
-      "next_check": "2026-08-26T14:01:34.591968+00:00",
+      "last_seen": "2026-09-01T18:35:05.267065+00:00",
+      "next_check": "2026-09-05T18:35:05.267065+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_setting_up_using_sccp.html": {
       "content_sha": "ea0f671f63a56a6f01eb7a0088973ded23a282c4ac7a54586f3a9a6741281a73",
@@ -123923,10 +123973,10 @@
       "first_seen": "2026-08-21T02:49:10.988895+00:00",
       "last_changed": "2026-08-21T02:49:10.988895+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:39.653929+00:00",
-      "next_check": "2026-08-26T14:01:39.653929+00:00",
+      "last_seen": "2026-09-01T18:35:14.230029+00:00",
+      "next_check": "2026-09-05T18:35:14.230029+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_setting_up_using_sip.html": {
       "content_sha": "ce91cd495720afe525834991d1e6ebf14ce25badec7d93fbad4aacb99220219d",
@@ -123936,10 +123986,10 @@
       "first_seen": "2026-08-21T02:49:15.169995+00:00",
       "last_changed": "2026-08-21T02:49:15.169995+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:43.886626+00:00",
-      "next_check": "2026-08-26T14:01:43.886626+00:00",
+      "last_seen": "2026-09-01T18:35:18.389568+00:00",
+      "next_check": "2026-09-05T18:35:18.389568+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_sip_isr4000.html": {
       "content_sha": "4de2b47997b27c17709753ddbf680541fae0ee6103599fc5d110b4cac51f98bc",
@@ -123949,10 +123999,10 @@
       "first_seen": "2026-08-21T02:48:53.608983+00:00",
       "last_changed": "2026-08-21T02:48:53.608983+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:49.593866+00:00",
-      "next_check": "2026-08-26T14:01:49.593866+00:00",
+      "last_seen": "2026-09-01T18:34:56.968103+00:00",
+      "next_check": "2026-09-05T18:34:56.968103+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_sip_trunking.html": {
       "content_sha": "bb55ff7aec8391253465e2ce449b3c42941fe04829e9966437eacdf64918fa60",
@@ -123975,10 +124025,10 @@
       "first_seen": "2026-08-21T02:49:34.959247+00:00",
       "last_changed": "2026-08-21T02:49:34.959247+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:01:57.671948+00:00",
-      "next_check": "2026-08-26T14:01:57.671948+00:00",
+      "last_seen": "2026-09-01T18:35:37.283579+00:00",
+      "next_check": "2026-09-05T18:35:37.283579+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_voicemail.html": {
       "content_sha": "9a50af674dfb21238c1b035dcdcea6c9d5c609bae9ed991f19ff6a8368ac882c",
@@ -123988,10 +124038,10 @@
       "first_seen": "2026-08-21T02:49:31.316278+00:00",
       "last_changed": "2026-08-21T02:49:31.316278+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:02:02.575268+00:00",
-      "next_check": "2026-08-26T14:02:02.575268+00:00",
+      "last_seen": "2026-09-01T18:35:33.771314+00:00",
+      "next_check": "2026-09-05T18:35:33.771314+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/command/reference/srstcr.html": {
       "content_sha": "fa1b17dc47c45ab420e8f8266c37563a2e493ce32e84317725ba240f9cafe066",
@@ -126432,10 +126482,10 @@
       "first_seen": "2026-08-16T14:10:06.353599+00:00",
       "last_changed": "2026-08-20T16:42:27.500802+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:18:04.974704+00:00",
-      "next_check": "2026-08-26T14:18:04.974704+00:00",
+      "last_seen": "2026-09-01T18:35:57.316345+00:00",
+      "next_check": "2026-09-05T18:35:57.316345+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/configuration/guide/rcct_b_1251port-utilization-guide-ccx/rcct_b_1251port-utilization-guide-ccx_chapter_01.html": {
       "content_sha": "507951d69109a7ab0dd89d6d1323bfe056f41efdc2eca2f07ac3e45a1db7967b",
@@ -128382,10 +128432,10 @@
       "first_seen": "2026-08-16T14:10:14.339441+00:00",
       "last_changed": "2026-08-20T16:58:09.240201+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:34:21.866846+00:00",
-      "next_check": "2026-08-26T14:34:21.866846+00:00",
+      "last_seen": "2026-09-01T18:36:01.555980+00:00",
+      "next_check": "2026-09-05T18:36:01.555980+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/configuration/guide/rcct_b_1251su1_port-utilization-guide-ccx/rcct_b_1251port-utilization-guide-ccx_chapter_01.html": {
       "content_sha": "61254b079f1874fff0306e0359887f6c70e8a8d6d4bd0ffddc383bd2e1adf0c7",
@@ -130085,10 +130135,10 @@
       "first_seen": "2026-08-16T14:10:10.437674+00:00",
       "last_changed": "2026-08-20T17:09:56.870892+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:46:54.587478+00:00",
-      "next_check": "2026-08-26T14:46:54.587478+00:00",
+      "last_seen": "2026-09-01T18:36:06.015810+00:00",
+      "next_check": "2026-09-05T18:36:06.015810+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/configuration/guide/rcct_b_1251su2_port-utilization-guide-ccx/rcct_b_1251port-utilization-guide-ccx_chapter_01.html": {
       "content_sha": "06e8c144df9b5c1a367cf244fc816c8fe96d1f64bc7695e98573eb9c8aae9a52",
@@ -192944,6 +192994,16 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/content/webex/c/en_US/index/collaboration-devices.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-content-webex-c-en-us-index-collaboration-devices-html-019b4a18b2",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:31:50.386119+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:31:50.386123+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/control-hub.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-control-hub-html-ffb54a4524",
@@ -192978,6 +193038,43 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/de/index.html": {
+      "content_sha": "da113fa2072c95efc4e979d502e6ebe3be5de630109b5c8f63582da7d7229d43",
+      "doc_id": "www-webex-com-de-index-html-2313a51a32",
+      "etag": "\"45f17-65a62b3feaf2d-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:04.529068+00:00",
+      "last_changed": "2026-09-01T18:28:04.529068+00:00",
+      "last_modified": "Tue, 01 Sep 2026 02:30:33 GMT",
+      "last_seen": "2026-09-01T18:28:04.529068+00:00",
+      "next_check": "2026-09-02T18:28:04.529068+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/dg/maximize-satisfaction-minimize-costs-healthcare.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-dg-maximize-satisfaction-minimize-costs-healthcare-html-f8cc0359c2",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:40.412244+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:31:40.412258+00:00",
+      "next_check": "2026-09-02T18:31:40.412258+00:00",
+      "redirect_to": "https://www.webex.com/us/en/dg/maximize-satisfaction-minimize-costs-healthcare.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/dg/webex-for-nonprofits-request.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-dg-webex-for-nonprofits-request-html-c8aa564c53",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:32:08.458348+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:32:08.458357+00:00",
+      "next_check": "2026-09-02T18:32:08.458357+00:00",
+      "redirect_to": "https://www.webex.com/us/en/dg/webex-for-nonprofits-request.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/downloads.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-downloads-html-0ea09610b5",
@@ -192986,6 +193083,19 @@
       "http_status": 403,
       "last_seen": "2026-08-25T04:35:05.905525+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/es/index.html": {
+      "content_sha": "e71a613b223273957eb60142bd34bd2c0dfdc39e9bf038ee526e65b1465028b4",
+      "doc_id": "www-webex-com-es-index-html-1537c81d58",
+      "etag": "\"41d12-65a600c4f8232-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:21.055951+00:00",
+      "last_changed": "2026-09-01T18:28:21.055951+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:20:30 GMT",
+      "last_seen": "2026-09-01T18:28:21.055951+00:00",
+      "next_check": "2026-09-02T18:28:21.055951+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://www.webex.com/fr/index.html": {
@@ -192998,6 +193108,42 @@
       "last_modified": "Tue, 01 Sep 2026 07:42:41 GMT",
       "last_seen": "2026-09-01T18:23:45.289435+00:00",
       "next_check": "2026-09-02T18:23:45.289435+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/gp/hybrid-work-research-global-2024.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-gp-hybrid-work-research-global-2024-html-5560a20829",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:31:30.207869+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:31:30.207874+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/gp/hybrid-work-research.html": {
+      "content_sha": "5e7e685f55ddd5854ea74e61c44c3473ddda68fbd70a1bbef101d2622c47e67e",
+      "doc_id": "www-webex-com-gp-hybrid-work-research-html-72c63618d9",
+      "etag": "W/\"31c34-65a61956a74c9-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:32:20.037205+00:00",
+      "last_changed": "2026-09-01T18:32:20.037205+00:00",
+      "last_modified": "Tue, 01 Sep 2026 01:10:25 GMT",
+      "last_seen": "2026-09-01T18:32:20.037205+00:00",
+      "next_check": "2026-09-02T18:32:20.037205+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/gp/solving-hybrid-work-divide-csuite-program.html": {
+      "content_sha": "ea32e995b48374e80ad4a819359381c2322466976027b75a3151a36501fa5dea",
+      "doc_id": "www-webex-com-gp-solving-hybrid-work-divide-csuite-program-html-f10ca71f87",
+      "etag": "W/\"1a530-65a7023a8cda7-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:32:24.403665+00:00",
+      "last_changed": "2026-09-01T18:32:24.403665+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:32:21 GMT",
+      "last_seen": "2026-09-01T18:32:24.403665+00:00",
+      "next_check": "2026-09-02T18:32:24.403665+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -193066,6 +193212,16 @@
       "first_seen": "2026-08-25T04:34:49.137851+00:00",
       "http_status": 403,
       "last_seen": "2026-08-25T04:34:49.137858+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/industries/government-fedramp.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-industries-government-fedramp-html-d86f20940c",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:31:59.697363+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:31:59.697368+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193138,6 +193294,44 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/it/index.html": {
+      "content_sha": "f6a060897f6046ed18daf21d45480aa037276f434dafeb66c928413d79dffc11",
+      "doc_id": "www-webex-com-it-index-html-f1d0e3dd48",
+      "etag": "\"4f424-65a66d7b4bc98-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:08.875004+00:00",
+      "last_changed": "2026-09-01T18:28:08.875004+00:00",
+      "last_modified": "Tue, 01 Sep 2026 07:26:52 GMT",
+      "last_seen": "2026-09-01T18:28:08.875004+00:00",
+      "next_check": "2026-09-02T18:28:08.875004+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/ja/index.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-ja-index-html-700b5736a5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:11.318835+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:28:11.318846+00:00",
+      "next_check": "2026-09-02T18:28:11.318846+00:00",
+      "redirect_to": "https://www.webex.com/jp/ja.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/ko/index.html": {
+      "content_sha": "b5c4832283bd154d2cce07acd264ac009cde7059db8e1b4912587a98d047dd19",
+      "doc_id": "www-webex-com-ko-index-html-aaa296e4fa",
+      "etag": "\"48763-65a683c430761-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:16.635462+00:00",
+      "last_changed": "2026-09-01T18:28:16.635462+00:00",
+      "last_modified": "Tue, 01 Sep 2026 09:06:34 GMT",
+      "last_seen": "2026-09-01T18:28:16.635462+00:00",
+      "next_check": "2026-09-02T18:28:16.635462+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/learn/webinars-demos.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-learn-webinars-demos-html-df26210732",
@@ -193172,13 +193366,14 @@
       "content_sha": "7c4c21af0336438dec789cbc2f73671cee485e4a579da8008f33621cbf97f32c",
       "doc_id": "www-webex-com-resources-whats-new-html-22fc4442de",
       "etag": "\"2bdb4-659cf8f0fe8f0-gzip\"",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T04:35:31.872145+00:00",
+      "http_status": 403,
       "last_changed": "2026-08-25T04:35:31.872145+00:00",
       "last_modified": "Mon, 24 Aug 2026 18:57:33 GMT",
-      "last_seen": "2026-08-25T04:35:31.872145+00:00",
+      "last_seen": "2026-09-01T18:32:52.904819+00:00",
       "next_check": "2026-08-26T04:35:31.872145+00:00",
-      "status": "active",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://www.webex.com/screen-sharing.html": {
@@ -193200,6 +193395,18 @@
       "last_seen": "2026-08-25T04:33:53.973878+00:00",
       "next_check": "2026-08-26T04:33:53.973878+00:00",
       "redirect_to": "https://www.webex.com/us/en/solutions/cross-platform/security.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/solutions/control-hub-cisco-devices.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-solutions-control-hub-cisco-devices-html-0a1c6dd27a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:48.471598+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:30:48.471610+00:00",
+      "next_check": "2026-09-02T18:30:48.471610+00:00",
+      "redirect_to": "https://www.webex.com/us/en/solutions/control-hub-cisco-devices.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -193282,6 +193489,18 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/sustainability.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-sustainability-html-ad24d3e6d4",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:59.331360+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T18:30:59.331371+00:00",
+      "next_check": "2026-09-02T18:30:59.331371+00:00",
+      "redirect_to": "https://www.webex.com/us/en/solutions/sustainability.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/team-collaboration.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-team-collaboration-html-18c780ad07",
@@ -193309,6 +193528,52 @@
       "first_seen": "2026-09-01T18:21:35.591076+00:00",
       "http_status": 403,
       "last_seen": "2026-09-01T18:21:35.591079+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/customers/burrell-behavioral-health.html": {
+      "content_sha": "4b0c7ea4f59d88fe1075860117f2e14b91ee4f846319430cf6fea69ed375a32c",
+      "doc_id": "www-webex-com-us-en-customers-burrell-behavioral-health-html-61b53996ba",
+      "etag": "W/\"1ca00-65a591b495b1f-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:48.101700+00:00",
+      "last_changed": "2026-09-01T18:31:48.101700+00:00",
+      "last_modified": "Mon, 31 Aug 2026 15:03:36 GMT",
+      "last_seen": "2026-09-01T18:31:48.101700+00:00",
+      "next_check": "2026-09-02T18:31:48.101700+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/customers/mclaren": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-customers-mclaren-b972f4e5b6",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:31:16.261243+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:31:16.261247+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/customers/one-world-surgery.html": {
+      "content_sha": "215ba5ce21ed3d132d8225f2a283f9066f574150371533733bd421571eb11b12",
+      "doc_id": "www-webex-com-us-en-customers-one-world-surgery-html-27382835ec",
+      "etag": "\"19eca-65a43a062b3fb-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:57.403803+00:00",
+      "last_changed": "2026-09-01T18:31:57.403803+00:00",
+      "last_modified": "Sun, 30 Aug 2026 13:26:00 GMT",
+      "last_seen": "2026-09-01T18:31:57.403803+00:00",
+      "next_check": "2026-09-02T18:31:57.403803+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/customers/t-mobile.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-customers-t-mobile-html-ce747fd973",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:32:27.383892+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:32:27.383897+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193348,6 +193613,29 @@
       "last_modified": "Tue, 01 Sep 2026 12:06:00 GMT",
       "last_seen": "2026-09-01T18:22:41.784389+00:00",
       "next_check": "2026-09-02T18:22:41.784389+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/accessories/ultra-high-speed-hdmi-cables-by-cisco.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-accessories-ultra-high-speed-hdmi-cables-by-cisco-html-72dcc7eeb0",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:30:25.589857+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:30:25.589863+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/devices/board-series/cisco-board-pro.html": {
+      "content_sha": "d55bdc82a7bda976b688f89fa61ece44facb48fe09af83769193bfb5643b1b3a",
+      "doc_id": "www-webex-com-us-en-devices-board-series-cisco-board-pro-html-180f6e8400",
+      "etag": "W/\"2f084-65a58577b2900-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:18.916146+00:00",
+      "last_changed": "2026-09-01T18:30:18.916146+00:00",
+      "last_modified": "Mon, 31 Aug 2026 14:08:51 GMT",
+      "last_seen": "2026-09-01T18:30:18.916146+00:00",
+      "next_check": "2026-09-02T18:30:18.916146+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -193462,6 +193750,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/devices/phone-series/cisco-wireless-phone.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-devices-phone-series-cisco-wireless-phone-html-783c5bc43e",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:30:21.194389+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:30:21.194394+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/devices/room-devices.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-devices-room-devices-html-6a4fd79218",
@@ -193516,6 +193814,29 @@
       "last_seen": "2026-09-01T18:23:31.505978+00:00",
       "next_check": "2026-09-02T18:23:31.505978+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/gp/IDC-Marketscape-Video-Devices-2025.html": {
+      "content_sha": "d3edfeafdafa467ab29afeb7cdf163f548ca4bd1f701d6fdd836f9e9bce57077",
+      "doc_id": "www-webex-com-us-en-gp-idc-marketscape-video-devices-2025-html-1eee38d057",
+      "etag": "\"1c3b7-65a4473b4f206-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:31:23.553652+00:00",
+      "last_changed": "2026-09-01T18:31:23.553652+00:00",
+      "last_modified": "Sun, 30 Aug 2026 14:25:05 GMT",
+      "last_seen": "2026-09-01T18:31:23.553652+00:00",
+      "next_check": "2026-09-02T18:31:23.553652+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/gp/workplace-design-for-it-hr-facilities.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-gp-workplace-design-for-it-hr-facilities-html-897b5735c8",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:31:25.845746+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:31:25.845750+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://www.webex.com/us/en/products/customer-experience.html": {
@@ -193607,6 +193928,19 @@
       "last_modified": "Tue, 01 Sep 2026 18:23:06 GMT",
       "last_seen": "2026-09-01T18:23:12.962264+00:00",
       "next_check": "2026-09-02T18:23:12.962264+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/solutions/camera-intelligence-cisco-devices": {
+      "content_sha": "014b1a5666a908bceba56045e60ca4d5bd8b1a4e33f2e6909553262922a764fb",
+      "doc_id": "www-webex-com-us-en-solutions-camera-intelligence-cisco-devices-87b6d0cdf6",
+      "etag": "W/\"22133-65a607aa9751a-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:38.381454+00:00",
+      "last_changed": "2026-09-01T18:30:38.381454+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:51:21 GMT",
+      "last_seen": "2026-09-01T18:30:38.381454+00:00",
+      "next_check": "2026-09-02T18:30:38.381454+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -193787,6 +194121,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/solutions/return-to-office": {
+      "content_sha": "446347b432ea686062f4a3cf8c9048941aae9f0487649afa1f7f6aa548ac0c53",
+      "doc_id": "www-webex-com-us-en-solutions-return-to-office-4c3b3e2dc4",
+      "etag": "W/\"2569d-65a701d8c75a7-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:46.118900+00:00",
+      "last_changed": "2026-09-01T18:30:46.118900+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:30:38 GMT",
+      "last_seen": "2026-09-01T18:30:46.118900+00:00",
+      "next_check": "2026-09-02T18:30:46.118900+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/solutions/return-to-office.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-solutions-return-to-office-html-656058b461",
@@ -193817,6 +194164,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/solutions/zoom-rooms-devices-cisco.html": {
+      "content_sha": "fcd25fe3012f06777ac955a7733d89c27aa4674d90a4e2b2d120bf8439733e4b",
+      "doc_id": "www-webex-com-us-en-solutions-zoom-rooms-devices-cisco-html-fd018abad7",
+      "etag": "\"250d5-65a6bbc9b1550-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:30:09.665617+00:00",
+      "last_changed": "2026-09-01T18:30:09.665617+00:00",
+      "last_modified": "Tue, 01 Sep 2026 13:17:12 GMT",
+      "last_seen": "2026-09-01T18:30:09.665617+00:00",
+      "next_check": "2026-09-02T18:30:09.665617+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/us/en/workspaces.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-us-en-workspaces-html-cf31c8e9dc",
@@ -193827,6 +194187,202 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/us/en/workspaces/auditorium.html": {
+      "content_sha": "c90010d226e9295d9d5a26db57bc0bd0591e73efc3f36b620e885e5aadc8d996",
+      "doc_id": "www-webex-com-us-en-workspaces-auditorium-html-56e6fae5b3",
+      "etag": "\"243cb-65a5fdcb66721-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:14.261154+00:00",
+      "last_changed": "2026-09-01T18:29:14.261154+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:07:11 GMT",
+      "last_seen": "2026-09-01T18:29:14.261154+00:00",
+      "next_check": "2026-09-02T18:29:14.261154+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/contact-center.html": {
+      "content_sha": "607b8c927102c9cadf7580042eb9da309b4e541fc232ac684636d86d721770c5",
+      "doc_id": "www-webex-com-us-en-workspaces-contact-center-html-5aba7e3c14",
+      "etag": "W/\"1fc14-65a5fdd0dc656-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:55.804932+00:00",
+      "last_changed": "2026-09-01T18:29:55.804932+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:07:17 GMT",
+      "last_seen": "2026-09-01T18:29:55.804932+00:00",
+      "next_check": "2026-09-02T18:29:55.804932+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/executive-boardroom.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-workspaces-executive-boardroom-html-009cf3e484",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:29:00.276749+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:29:00.276754+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/focus-room.html": {
+      "content_sha": "75c1a03dc611a73331869f8253271ebc503059db2f651435cdfb35d64235ea50",
+      "doc_id": "www-webex-com-us-en-workspaces-focus-room-html-b1f9f7daa3",
+      "etag": "W/\"208fa-65a7018f3bbf2-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:27.672638+00:00",
+      "last_changed": "2026-09-01T18:29:27.672638+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:29:21 GMT",
+      "last_seen": "2026-09-01T18:29:27.672638+00:00",
+      "next_check": "2026-09-02T18:29:27.672638+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/frontline.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-workspaces-frontline-html-92ca6b5841",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:29:58.097347+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:29:58.097352+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/hallway.html": {
+      "content_sha": "2fe51dfa2d67b511f47d3d27b58b0716cb6b490caa1877b908a7a2fd74629ac3",
+      "doc_id": "www-webex-com-us-en-workspaces-hallway-html-dab171b13c",
+      "etag": "W/\"1c869-65a607850812f-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:44.960739+00:00",
+      "last_changed": "2026-09-01T18:29:44.960739+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:50:42 GMT",
+      "last_seen": "2026-09-01T18:29:44.960739+00:00",
+      "next_check": "2026-09-02T18:29:44.960739+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/hot-desk.html": {
+      "content_sha": "6c9f7c37757c6da197e917c24400625d4cd4a2aa8e1a5b30a5e5fa2af77509dd",
+      "doc_id": "www-webex-com-us-en-workspaces-hot-desk-html-5e5f670009",
+      "etag": "W/\"21cc9-65a701567af60-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:27.167510+00:00",
+      "last_changed": "2026-09-01T18:28:27.167510+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:28:22 GMT",
+      "last_seen": "2026-09-01T18:28:27.167510+00:00",
+      "next_check": "2026-09-02T18:28:27.167510+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/huddle-room.html": {
+      "content_sha": "6e842cec2a4d7de31fac861c82d4321860f05802e7f2caa07bdcc815103284c2",
+      "doc_id": "www-webex-com-us-en-workspaces-huddle-room-html-c9ea23adf6",
+      "etag": "W/\"36265-65a58d3ae44dc-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:36.334106+00:00",
+      "last_changed": "2026-09-01T18:28:36.334106+00:00",
+      "last_modified": "Mon, 31 Aug 2026 14:43:35 GMT",
+      "last_seen": "2026-09-01T18:28:36.334106+00:00",
+      "next_check": "2026-09-02T18:28:36.334106+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/ideation-space.html": {
+      "content_sha": "d2b9cf8b21e1dd3b51d38713b200724f5be5ca0390c086f3424a41bc04a15901",
+      "doc_id": "www-webex-com-us-en-workspaces-ideation-space-html-1e7a5a513c",
+      "etag": "W/\"251a8-65a6fdab300ed-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:21.057407+00:00",
+      "last_changed": "2026-09-01T18:29:21.057407+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:11:57 GMT",
+      "last_seen": "2026-09-01T18:29:21.057407+00:00",
+      "next_check": "2026-09-02T18:29:21.057407+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/large-meeting-room.html": {
+      "content_sha": "b1a13c130a57832147eff8c8a7d156feb9a02398ac6867ad3c136db79f3018a0",
+      "doc_id": "www-webex-com-us-en-workspaces-large-meeting-room-html-9fb4a0a545",
+      "etag": "\"3e295-65a55cb0d941d-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:57.986663+00:00",
+      "last_changed": "2026-09-01T18:28:57.986663+00:00",
+      "last_modified": "Mon, 31 Aug 2026 11:06:25 GMT",
+      "last_seen": "2026-09-01T18:28:57.986663+00:00",
+      "next_check": "2026-09-02T18:28:57.986663+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/lobby.html": {
+      "content_sha": "bfb1d0f15e1b120702d2e0b0f658431c264f0006d039a2e4c4b8416ad9c0f62c",
+      "doc_id": "www-webex-com-us-en-workspaces-lobby-html-03602f0c06",
+      "etag": "W/\"1d4ea-65a607e6eb6d5-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:50.716991+00:00",
+      "last_changed": "2026-09-01T18:29:50.716991+00:00",
+      "last_modified": "Mon, 31 Aug 2026 23:52:24 GMT",
+      "last_seen": "2026-09-01T18:29:50.716991+00:00",
+      "next_check": "2026-09-02T18:29:50.716991+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/medium-meeting-room.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-workspaces-medium-meeting-room-html-9e89ee4ba9",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:28:45.453089+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:28:45.453093+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/open-flexible-space.html": {
+      "content_sha": "79881c3281ef850e01a0391e8310fcbdaf72e07a2e74c2ced718d5ac2bcc9e07",
+      "doc_id": "www-webex-com-us-en-workspaces-open-flexible-space-html-3d694ada38",
+      "etag": "\"223c5-65a5b9fc30a55-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:39.739870+00:00",
+      "last_changed": "2026-09-01T18:29:39.739870+00:00",
+      "last_modified": "Mon, 31 Aug 2026 18:03:49 GMT",
+      "last_seen": "2026-09-01T18:29:39.739870+00:00",
+      "next_check": "2026-09-02T18:29:39.739870+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/personal-desk.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-us-en-workspaces-personal-desk-html-420d14ea44",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:29:29.951404+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:29:29.951410+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/small-meeting-room.html": {
+      "content_sha": "c556a4103356388495c2466a641e190d021c5df1abf39f864e805d676bb4dc9c",
+      "doc_id": "www-webex-com-us-en-workspaces-small-meeting-room-html-c6b0e26d24",
+      "etag": "W/\"226b1-65a701646b509-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:28:43.177739+00:00",
+      "last_changed": "2026-09-01T18:28:43.177739+00:00",
+      "last_modified": "Tue, 01 Sep 2026 18:28:36 GMT",
+      "last_seen": "2026-09-01T18:28:43.177739+00:00",
+      "next_check": "2026-09-02T18:28:43.177739+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/us/en/workspaces/training-room.html": {
+      "content_sha": "a1f61f93b776513d94403b705b545fd0cb9ed58a838c31e3afbffb2c6e72afe4",
+      "doc_id": "www-webex-com-us-en-workspaces-training-room-html-2be057d1fb",
+      "etag": "\"26316-65a696c47e188-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:29:08.283989+00:00",
+      "last_changed": "2026-09-01T18:29:08.283989+00:00",
+      "last_modified": "Tue, 01 Sep 2026 10:31:34 GMT",
+      "last_seen": "2026-09-01T18:29:08.283989+00:00",
+      "next_check": "2026-09-02T18:29:08.283989+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/video-conferencing.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-video-conferencing-html-b298ee10db",
@@ -193834,6 +194390,16 @@
       "first_seen": "2026-08-17T04:55:08.794716+00:00",
       "http_status": 403,
       "last_seen": "2026-08-17T04:55:08.794723+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/webex-legislate.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-webex-legislate-html-8b4c81f5a3",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:32:04.091996+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:32:04.092000+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193847,6 +194413,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/what-is-hybrid-work.html": {
+      "content_sha": "f487b9b9bf7376046978ffb326e9001ba2742a890fc438435ab07c36eb9aa0cf",
+      "doc_id": "www-webex-com-what-is-hybrid-work-html-7d544dfad2",
+      "etag": "W/\"3208e-65a5bec782fbf-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T18:32:33.307678+00:00",
+      "last_changed": "2026-09-01T18:32:33.307678+00:00",
+      "last_modified": "Mon, 31 Aug 2026 18:25:16 GMT",
+      "last_seen": "2026-09-01T18:32:33.307678+00:00",
+      "next_check": "2026-09-02T18:32:33.307678+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/whats-new": {
       "content_sha": null,
       "doc_id": "www-webex-com-whats-new-b038cb9cf8",
@@ -193854,6 +194433,16 @@
       "first_seen": "2026-09-01T18:23:33.838425+00:00",
       "http_status": 403,
       "last_seen": "2026-09-01T18:23:33.838430+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/workspaces/explore.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-workspaces-explore-html-18fb9598eb",
+      "fail_count": 1,
+      "first_seen": "2026-09-01T18:32:15.078072+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-01T18:32:15.078076+00:00",
       "status": "blocked",
       "unchanged_runs": 0
     },
@@ -193871,5 +194460,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T18:23:45.623647+00:00"
+  "updated_at": "2026-09-01T18:36:06.331259+00:00"
 }
