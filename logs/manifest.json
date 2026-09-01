@@ -23138,6 +23138,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/curri/documents/latest-version/faqs.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-faqs-html-6497c7f5dd",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:41:58.255271+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:41:58.255305+00:00",
+      "next_check": "2026-09-02T17:41:58.255305+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/faqs.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/curri/documents/latest-version/format.html": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-site-curri-documents-latest-version-format-html-2e710ba05f",
@@ -23330,6 +23342,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/curri/documents/latest-version/unified_response_parse_respons.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-unified-response-parse-respons-html-4d4c8ef618",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:41:49.846702+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:41:49.846713+00:00",
+      "next_check": "2026-09-02T17:41:49.846713+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/unified_response_parse_respons.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/curri/documents/latest-version/united_cm_timeout_awaiting_res.html": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-site-curri-documents-latest-version-united-cm-timeout-awaiting-res-html-7bb2284055",
@@ -23351,6 +23375,18 @@
       "last_seen": "2026-09-01T17:37:25.543867+00:00",
       "next_check": "2026-09-02T17:37:25.543867+00:00",
       "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/web_service_connection_failure.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/web_service_evaluation_request.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-web-service-evaluation-request-html-8109abdc45",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:41:54.035921+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:41:54.035932+00:00",
+      "next_check": "2026-09-02T17:41:54.035932+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/web_service_evaluation_request.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -23388,6 +23424,19 @@
       "last_modified": "Tue, 09 Jun 2026 08:36:13 GMT",
       "last_seen": "2026-08-25T21:04:55.265699+00:00",
       "next_check": "2026-08-26T21:04:55.265699+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/learn/how-to/": {
+      "content_sha": "552373227561f09428288da6903cf5cb62ffda44290e6d99f781c9415bad4dae",
+      "doc_id": "developer-cisco-com-site-curri-learn-how-to-b477da5859",
+      "etag": "W/\"362dd87c57a7e7d959fc8d0e7d536e1a\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:03.071390+00:00",
+      "last_changed": "2026-09-01T17:45:03.071390+00:00",
+      "last_modified": "Tue, 09 Jun 2026 08:28:01 GMT",
+      "last_seen": "2026-09-01T17:45:03.071390+00:00",
+      "next_check": "2026-09-02T17:45:03.071390+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -23515,6 +23564,19 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/extension-mobility/discover/getting-started/": {
+      "content_sha": "bfc459b6ae04493bacd1f06ec850dae9ec9340f38d2ab0bcde9fa313b198c36a",
+      "doc_id": "developer-cisco-com-site-extension-mobility-discover-getting-started-998e1c26b3",
+      "etag": "W/\"e948502342593d67508fd188ff40b1e0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:07.697452+00:00",
+      "last_changed": "2026-09-01T17:45:07.697452+00:00",
+      "last_modified": "Tue, 09 Jun 2026 16:47:44 GMT",
+      "last_seen": "2026-09-01T17:45:07.697452+00:00",
+      "next_check": "2026-09-02T17:45:07.697452+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/extension-mobility/discover/what-is-extension-mobility/": {
       "content_sha": "c973260aa8f8ae86db0a9319d1443cce7626f625da5966208548acf872b981e0",
       "doc_id": "developer-cisco-com-site-extension-mobility-discover-what-is-extension-mobility-8af7d2e8d1",
@@ -23525,6 +23587,19 @@
       "last_modified": "Mon, 08 Jun 2026 15:34:37 GMT",
       "last_seen": "2026-08-25T21:05:04.759978+00:00",
       "next_check": "2026-08-26T21:05:04.759978+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/extension-mobility/documents/": {
+      "content_sha": "e77a0b3a46dc67e5705c9b7ffd9b2f6240a330551af7921dfda3ad7ce56f08fc",
+      "doc_id": "developer-cisco-com-site-extension-mobility-documents-6ed37f2af0",
+      "etag": "W/\"8a03276b13810fca41eeabe9557f4b25\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:16.720735+00:00",
+      "last_changed": "2026-09-01T17:45:16.720735+00:00",
+      "last_modified": "Mon, 08 Jun 2026 05:52:22 GMT",
+      "last_seen": "2026-09-01T17:45:16.720735+00:00",
+      "next_check": "2026-09-02T17:45:16.720735+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -23554,6 +23629,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/extension-mobility/learn/sample-apps/": {
+      "content_sha": "db87d9667bb15deff026d382bdea8ed844ead5d0c0b26a6074df5144fb06120d",
+      "doc_id": "developer-cisco-com-site-extension-mobility-learn-sample-apps-2b63b6d8d1",
+      "etag": "W/\"20f14e8a959eb8669605390970e34bb8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:12.326351+00:00",
+      "last_changed": "2026-09-01T17:45:12.326351+00:00",
+      "last_modified": "Mon, 08 Jun 2026 03:35:07 GMT",
+      "last_seen": "2026-09-01T17:45:12.326351+00:00",
+      "next_check": "2026-09-02T17:45:12.326351+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/finesse/": {
       "content_sha": "38baf7e9fccbc8b00470406940c7dd4147d1e16f98bbf18bc28b060c71e19d49",
       "doc_id": "developer-cisco-com-site-finesse-0a4d41be3c",
@@ -23577,6 +23665,45 @@
       "next_check": "2026-08-25T22:14:17.985651+00:00",
       "redirect_to": "https://developer.cisco.com/site/hcs/overview/",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/discover/learn-about-hcs/": {
+      "content_sha": "a91092416a29b1144696253945dacf3c65139cdafbd43a751a358f06a73935d1",
+      "doc_id": "developer-cisco-com-site-hcs-discover-learn-about-hcs-49b6aaeedf",
+      "etag": "W/\"2cb73c43ab7bd8a16ae1b0d67d165d3d\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:21.178822+00:00",
+      "last_changed": "2026-09-01T17:45:21.178822+00:00",
+      "last_modified": "Mon, 08 Jun 2026 19:26:21 GMT",
+      "last_seen": "2026-09-01T17:45:21.178822+00:00",
+      "next_check": "2026-09-02T17:45:21.178822+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/documents/latest-version/": {
+      "content_sha": "108067e148a8fdb7674c178b6fc941293afbbe8c5dc7cb63a6aa6061ec1ba312",
+      "doc_id": "developer-cisco-com-site-hcs-documents-latest-version-f6cf51b7cd",
+      "etag": "W/\"09ebb3fc1a2c80ea12ca337732412570\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:25.547628+00:00",
+      "last_changed": "2026-09-01T17:45:25.547628+00:00",
+      "last_modified": "Wed, 10 Jun 2026 16:41:57 GMT",
+      "last_seen": "2026-09-01T17:45:25.547628+00:00",
+      "next_check": "2026-09-02T17:45:25.547628+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/help/faqs/": {
+      "content_sha": "5fac661cac7602e5197fed8e1c79a67bd71cc1ce372e8faaa595e9ed119dbf58",
+      "doc_id": "developer-cisco-com-site-hcs-help-faqs-cd45244f77",
+      "etag": "W/\"0deff97ab78d5a4272209c57ef254827\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:29.829448+00:00",
+      "last_changed": "2026-09-01T17:45:29.829448+00:00",
+      "last_modified": "Fri, 12 Jun 2026 08:04:52 GMT",
+      "last_seen": "2026-09-01T17:45:29.829448+00:00",
+      "next_check": "2026-09-02T17:45:29.829448+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/hcs/overview/": {
@@ -23605,6 +23732,84 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/caxl_overview/": {
+      "content_sha": "48e0af867badf6da25758aef7e54d7e1f20b443eed3472a74cbbf1a04aacff76",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-caxl-overview-b4edee4ae0",
+      "etag": "W/\"73a96e805d474d6ed36e42bc96ff4f7c\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:43.073084+00:00",
+      "last_changed": "2026-09-01T17:45:43.073084+00:00",
+      "last_modified": "Mon, 22 Jun 2026 10:54:04 GMT",
+      "last_seen": "2026-09-01T17:45:43.073084+00:00",
+      "next_check": "2026-09-02T17:45:43.073084+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/client_config_web_service/": {
+      "content_sha": "00ebf8c1aeed4ccb6e864f1fe6d03081e317d86665d0e5fbfeac5e71dbb01c1c",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-client-config-web-service-04d7ed0411",
+      "etag": "W/\"dea3176e957e87f7b5b225f36bdbe480\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:47.417906+00:00",
+      "last_changed": "2026-09-01T17:45:47.417906+00:00",
+      "last_modified": "Mon, 08 Jun 2026 09:13:05 GMT",
+      "last_seen": "2026-09-01T17:45:47.417906+00:00",
+      "next_check": "2026-09-02T17:45:47.417906+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/platform_soap_service/": {
+      "content_sha": "f38c040dfd0063f91c25e44a8c5d3666c7ffd5b9c91584059e99b14bac50c141",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-platform-soap-service-9bf9d24a24",
+      "etag": "W/\"cb930ebe2618abb91782b4ac480ac8f1\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:56.252030+00:00",
+      "last_changed": "2026-09-01T17:45:56.252030+00:00",
+      "last_modified": "Mon, 08 Jun 2026 06:50:49 GMT",
+      "last_seen": "2026-09-01T17:45:56.252030+00:00",
+      "next_check": "2026-09-02T17:45:56.252030+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/presence_web_service/": {
+      "content_sha": "c7a6a8cde9d5758f661cebc9b0f8ad7cddc22077827ca59df83fc862f5d227f7",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-presence-web-service-0f3b2a6e8c",
+      "etag": "W/\"6bfc9334a630e6785e3859a6923d9791\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:51.871316+00:00",
+      "last_changed": "2026-09-01T17:45:51.871316+00:00",
+      "last_modified": "Mon, 08 Jun 2026 08:02:28 GMT",
+      "last_seen": "2026-09-01T17:45:51.871316+00:00",
+      "next_check": "2026-09-02T17:45:51.871316+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/sip-simple_overview/": {
+      "content_sha": "88b8f2d4b142dd5e3b54ddd1aefe3490724b53f9fd24b0a8bc536c08ecbf75e4",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-sip-simple-overview-2837d9d5f8",
+      "etag": "W/\"1df299860de466103bc3609055503f1d\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:34.372346+00:00",
+      "last_changed": "2026-09-01T17:45:34.372346+00:00",
+      "last_modified": "Mon, 08 Jun 2026 10:55:29 GMT",
+      "last_seen": "2026-09-01T17:45:34.372346+00:00",
+      "next_check": "2026-09-02T17:45:34.372346+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/xmpp_overview/": {
+      "content_sha": "3a95a8bc90070ac28e2b8277a3ee82911a03a4abb8bc1d9fa492fb023c18e22c",
+      "doc_id": "developer-cisco-com-site-im-and-presence-discover-api-overviews-xmpp-overview-d2c1909c80",
+      "etag": "W/\"e2005658f6d8ec793db90993807bdfbc\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:38.708900+00:00",
+      "last_changed": "2026-09-01T17:45:38.708900+00:00",
+      "last_modified": "Mon, 08 Jun 2026 13:24:55 GMT",
+      "last_seen": "2026-09-01T17:45:38.708900+00:00",
+      "next_check": "2026-09-02T17:45:38.708900+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/im-and-presence/discover/getting_started/": {
       "content_sha": "9dc58e6a5aef4e878013cc7e46b953320bef2690a809769128b07ba986acb508",
       "doc_id": "developer-cisco-com-site-im-and-presence-discover-getting-started-7f59f07b60",
@@ -23628,6 +23833,32 @@
       "last_modified": "Mon, 22 Jun 2026 15:24:04 GMT",
       "last_seen": "2026-08-25T21:05:33.144602+00:00",
       "next_check": "2026-08-26T21:05:33.144602+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/documents/": {
+      "content_sha": "72d39f88e9d5a07503d9a661d34585c6af497fb3da9b4b5b13b56383fc84b7d2",
+      "doc_id": "developer-cisco-com-site-im-and-presence-documents-06e28117b7",
+      "etag": "W/\"e0945315588bb3cc43412d01a56d64c0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:04.404535+00:00",
+      "last_changed": "2026-09-01T17:46:04.404535+00:00",
+      "last_modified": "Mon, 22 Jun 2026 23:46:14 GMT",
+      "last_seen": "2026-09-01T17:46:04.404535+00:00",
+      "next_check": "2026-09-02T17:46:04.404535+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/im-and-presence/documents/developer-cookbook-v10-5/": {
+      "content_sha": "8c84db6f30d38e606b712b869d585d1b116b3f9eff1f120cb3aff6e71b6d8249",
+      "doc_id": "developer-cisco-com-site-im-and-presence-documents-developer-cookbook-v10-5-edb8f041c5",
+      "etag": "W/\"064ae484317385cd6d165bb972d07aed\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:09.887502+00:00",
+      "last_changed": "2026-09-01T17:46:09.887502+00:00",
+      "last_modified": "Tue, 09 Jun 2026 11:57:48 GMT",
+      "last_seen": "2026-09-01T17:46:09.887502+00:00",
+      "next_check": "2026-09-02T17:46:09.887502+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -23708,6 +23939,396 @@
       "next_check": "2026-09-04T10:50:43.015623+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_0_2-10_6_8/": {
+      "content_sha": "74714787920fd85b25d20f8c570aa5df3369d66af2041a2a0d08c5e07d3adee3",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-guest-server-api-v10-0-2-10-6-8-66af407dcd",
+      "etag": "W/\"fea5bab6d13517d7b84709b19d328597\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:22.802378+00:00",
+      "last_changed": "2026-09-01T17:46:22.802378+00:00",
+      "last_modified": "Mon, 22 Jun 2026 10:54:00 GMT",
+      "last_seen": "2026-09-01T17:46:22.802378+00:00",
+      "next_check": "2026-09-02T17:46:22.802378+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_6_9/": {
+      "content_sha": "7cdf1d2879fdda37599d1427d4ebe25370e4b7030bcaffa172e95f0b8ddc8ee5",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-guest-server-api-v10-6-9-0abd1e0982",
+      "etag": "W/\"93b84b8c6c9ff4c025aa324f1fa28714\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:18.609892+00:00",
+      "last_changed": "2026-09-01T17:46:18.609892+00:00",
+      "last_modified": "Mon, 08 Jun 2026 06:00:55 GMT",
+      "last_seen": "2026-09-01T17:46:18.609892+00:00",
+      "next_check": "2026-09-02T17:46:18.609892+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_5_3/": {
+      "content_sha": "0084825a288f3f4890ba408af5adb6b3a0e16021d8e9e807d659e008c1a10f57",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-10-5-3-4bf71974e5",
+      "etag": "W/\"efd1ea59a579499c75771f6f76e4fc37\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:19.256522+00:00",
+      "last_changed": "2026-09-01T17:47:19.256522+00:00",
+      "last_modified": "Wed, 10 Jun 2026 16:01:41 GMT",
+      "last_seen": "2026-09-01T17:47:19.256522+00:00",
+      "next_check": "2026-09-02T17:47:19.256522+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_10/": {
+      "content_sha": "ee8b8ca5c15f5c58d81a00f544d205b6dc5acb572d69ba7fb268514fd6c6f89f",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-10-6-10-5418bef9ce",
+      "etag": "W/\"561bd9e642c6c8ab6ba9fce8737f4429\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:06.080659+00:00",
+      "last_changed": "2026-09-01T17:47:06.080659+00:00",
+      "last_modified": "Sat, 13 Jun 2026 21:09:10 GMT",
+      "last_seen": "2026-09-01T17:47:06.080659+00:00",
+      "next_check": "2026-09-02T17:47:06.080659+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_11/": {
+      "content_sha": "5c295ff844b7a9d3b0befd6f2493ae8f110c4772a8bd343cb00f85d14354e03f",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-10-6-11-d9227c3802",
+      "etag": "W/\"d3f53be9d05742965acce1b7d2064699\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:01.647052+00:00",
+      "last_changed": "2026-09-01T17:47:01.647052+00:00",
+      "last_modified": "Mon, 15 Jun 2026 01:33:27 GMT",
+      "last_seen": "2026-09-01T17:47:01.647052+00:00",
+      "next_check": "2026-09-02T17:47:01.647052+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_7/": {
+      "content_sha": "a4a165fadd8eef5e76bded8b0bc6d63d882e300b8a41fc7068f0fd9ff4d498a3",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-10-6-7-e5e765f5db",
+      "etag": "W/\"fd9c0c4e48880e750bcfff14311af117\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:14.880371+00:00",
+      "last_changed": "2026-09-01T17:47:14.880371+00:00",
+      "last_modified": "Sun, 14 Jun 2026 02:47:38 GMT",
+      "last_seen": "2026-09-01T17:47:14.880371+00:00",
+      "next_check": "2026-09-02T17:47:14.880371+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_9/": {
+      "content_sha": "64f72b43baf0a4c54b9a70d7e7320e16f16253b7b8399c79735a5f37bbb24a87",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-10-6-9-e990631fd0",
+      "etag": "W/\"02c1cfc4890e5b97f8825a52bbcee60b\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:10.438970+00:00",
+      "last_changed": "2026-09-01T17:47:10.438970+00:00",
+      "last_modified": "Mon, 08 Jun 2026 13:56:45 GMT",
+      "last_seen": "2026-09-01T17:47:10.438970+00:00",
+      "next_check": "2026-09-02T17:47:10.438970+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_0/": {
+      "content_sha": "9c591232ee14fa3e33ee22e57ddde69dccf62184894896d54c0ff381bc47d07e",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-0-0-f713254462",
+      "etag": "W/\"98191b4ed3e5d97d3dbb2e5945113070\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:57.256943+00:00",
+      "last_changed": "2026-09-01T17:46:57.256943+00:00",
+      "last_modified": "Tue, 09 Jun 2026 00:28:59 GMT",
+      "last_seen": "2026-09-01T17:46:57.256943+00:00",
+      "next_check": "2026-09-02T17:46:57.256943+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_1/": {
+      "content_sha": "6a3c2921ac62c7b5608cee5196cc8ad90124bc2e4be7a54aadd0e3bccd5ff7e9",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-0-1-0c9ebfd050",
+      "etag": "W/\"a3c8cb61e2f497fd563d7c476946d533\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:52.875632+00:00",
+      "last_changed": "2026-09-01T17:46:52.875632+00:00",
+      "last_modified": "Wed, 10 Jun 2026 23:22:09 GMT",
+      "last_seen": "2026-09-01T17:46:52.875632+00:00",
+      "next_check": "2026-09-02T17:46:52.875632+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_2/": {
+      "content_sha": "71d8eea6357f61018c0309509a3fbb21d110688d2faca1908a97524bd641294f",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-0-2-713070ccf5",
+      "etag": "W/\"3642bece9e364b6ab5704881db39ff1c\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:48.529931+00:00",
+      "last_changed": "2026-09-01T17:46:48.529931+00:00",
+      "last_modified": "Wed, 10 Jun 2026 21:43:17 GMT",
+      "last_seen": "2026-09-01T17:46:48.529931+00:00",
+      "next_check": "2026-09-02T17:46:48.529931+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_0/": {
+      "content_sha": "40746969f29ad12ed783d90898b520205b38956ed44c215c5910c7007744b612",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-1-0-030d9d5e17",
+      "etag": "W/\"2b02fde97a4222685ed934e71a70d020\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:44.267749+00:00",
+      "last_changed": "2026-09-01T17:46:44.267749+00:00",
+      "last_modified": "Tue, 09 Jun 2026 02:02:08 GMT",
+      "last_seen": "2026-09-01T17:46:44.267749+00:00",
+      "next_check": "2026-09-02T17:46:44.267749+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_3/": {
+      "content_sha": "8e290bfad10fe1db5a79c2869cab8aeab87f4c2d0b7aaf130ee90714fec75dd8",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-1-3-a1233b7da6",
+      "etag": "W/\"2f61f38628f3fca839ec2e38c65d82b2\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:35.709652+00:00",
+      "last_changed": "2026-09-01T17:46:35.709652+00:00",
+      "last_modified": "Fri, 12 Jun 2026 00:52:53 GMT",
+      "last_seen": "2026-09-01T17:46:35.709652+00:00",
+      "next_check": "2026-09-02T17:46:35.709652+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_2_0/": {
+      "content_sha": "f665bcf6911990792ce71e3de3e07f28b48d0ab18803be1c7630352a4c74a423",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-android-11-2-0-283e74bc22",
+      "etag": "W/\"ed5a2c558e1cf7fd8d003d7629c95a8f\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:46:31.393267+00:00",
+      "last_changed": "2026-09-01T17:46:31.393267+00:00",
+      "last_modified": "Tue, 09 Jun 2026 10:23:24 GMT",
+      "last_seen": "2026-09-01T17:46:31.393267+00:00",
+      "next_check": "2026-09-02T17:46:31.393267+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_5_4/": {
+      "content_sha": "8fc71f08ec5be3cd8da8aba5c9ada14b72a3d0ebdf59305b44c11f112d49d600",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-5-4-bee2444726",
+      "etag": "W/\"fc1922112c95a4d064b6b08fc007abce\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:33.092641+00:00",
+      "last_changed": "2026-09-01T17:48:33.092641+00:00",
+      "last_modified": "Mon, 15 Jun 2026 01:28:53 GMT",
+      "last_seen": "2026-09-01T17:48:33.092641+00:00",
+      "next_check": "2026-09-02T17:48:33.092641+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_10/": {
+      "content_sha": "fa967f85f41f3ef297322f72f60d97d93e29c6dc3707d65aed77f95e266b11e9",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-6-10-7a6a43019d",
+      "etag": "W/\"ecd05364233da33476b7792ff61ca673\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:15.590100+00:00",
+      "last_changed": "2026-09-01T17:48:15.590100+00:00",
+      "last_modified": "Sat, 13 Jun 2026 03:18:40 GMT",
+      "last_seen": "2026-09-01T17:48:15.590100+00:00",
+      "next_check": "2026-09-02T17:48:15.590100+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_11/": {
+      "content_sha": "508d034acb04709fe1ff182fde19c6ab19814faf471e9a2591cbfbd4b81c58d0",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-6-11-42983ac126",
+      "etag": "W/\"afffd1a8426303440256903e5a838f85\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:11.154916+00:00",
+      "last_changed": "2026-09-01T17:48:11.154916+00:00",
+      "last_modified": "Mon, 15 Jun 2026 01:51:50 GMT",
+      "last_seen": "2026-09-01T17:48:11.154916+00:00",
+      "next_check": "2026-09-02T17:48:11.154916+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_7/": {
+      "content_sha": "8f32d8b87962b1d55a9adfc0125951c3658c10d05ed5465414e276e9f0bc8356",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-6-7-0e12a1453d",
+      "etag": "W/\"cbafe9949f6bb82ab7ca506d7697c114\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:28.687166+00:00",
+      "last_changed": "2026-09-01T17:48:28.687166+00:00",
+      "last_modified": "Fri, 12 Jun 2026 07:24:16 GMT",
+      "last_seen": "2026-09-01T17:48:28.687166+00:00",
+      "next_check": "2026-09-02T17:48:28.687166+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_8/": {
+      "content_sha": "4a10310bcc01c10ec0eb1ba9aa3bcf4a1da811442da0581ae3b0bf7ff2440791",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-6-8-96841e0cc2",
+      "etag": "W/\"56be02ef053ba1eff5aa0b2c1e282663\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:24.383731+00:00",
+      "last_changed": "2026-09-01T17:48:24.383731+00:00",
+      "last_modified": "Sat, 13 Jun 2026 09:21:10 GMT",
+      "last_seen": "2026-09-01T17:48:24.383731+00:00",
+      "next_check": "2026-09-02T17:48:24.383731+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_9/": {
+      "content_sha": "1d375988a11af4c9b6c004233dac042cde7b759cc7f5e47db95d6a140beff9af",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-10-6-9-198b76f904",
+      "etag": "W/\"527f236d717074c2d19e729e7a8477f7\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:20.008509+00:00",
+      "last_changed": "2026-09-01T17:48:20.008509+00:00",
+      "last_modified": "Sat, 13 Jun 2026 17:11:06 GMT",
+      "last_seen": "2026-09-01T17:48:20.008509+00:00",
+      "next_check": "2026-09-02T17:48:20.008509+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_0/": {
+      "content_sha": "5add513a71be752352c79dbe5ec3173285af694cdb8b2284f629e52d02568870",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-0-0-8638373414",
+      "etag": "W/\"cfaeae9cc4deecc30c3f5dcce11e7d41\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:06.791227+00:00",
+      "last_changed": "2026-09-01T17:48:06.791227+00:00",
+      "last_modified": "Fri, 12 Jun 2026 23:11:16 GMT",
+      "last_seen": "2026-09-01T17:48:06.791227+00:00",
+      "next_check": "2026-09-02T17:48:06.791227+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_1/": {
+      "content_sha": "100f2da4765a8efafcd5aab5feda7ad84b8bcdc0f7a23973ef7a5734ee631b46",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-0-1-314a42ba60",
+      "etag": "W/\"06985fd32cea3c67b75993515ee829ad\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:02.445400+00:00",
+      "last_changed": "2026-09-01T17:48:02.445400+00:00",
+      "last_modified": "Wed, 10 Jun 2026 19:43:30 GMT",
+      "last_seen": "2026-09-01T17:48:02.445400+00:00",
+      "next_check": "2026-09-02T17:48:02.445400+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_2/": {
+      "content_sha": "1dc17647ee51c492314553b22a3d7b9cf77db140cc0c0069fb4fa4e98c10facb",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-0-2-4b1453ccd9",
+      "etag": "W/\"247c0e4a1566986176976ef0bfc304f0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:58.101531+00:00",
+      "last_changed": "2026-09-01T17:47:58.101531+00:00",
+      "last_modified": "Thu, 11 Jun 2026 08:12:42 GMT",
+      "last_seen": "2026-09-01T17:47:58.101531+00:00",
+      "next_check": "2026-09-02T17:47:58.101531+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_0/": {
+      "content_sha": "17b93da9d145ef8cb993ce9616dd3726931e356f8f0959ee2998671b4f59125e",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-1-0-a83c9c0b1b",
+      "etag": "W/\"24b5b3e7770fb0628a6b9f12a7d6a978\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:53.808285+00:00",
+      "last_changed": "2026-09-01T17:47:53.808285+00:00",
+      "last_modified": "Mon, 08 Jun 2026 18:37:10 GMT",
+      "last_seen": "2026-09-01T17:47:53.808285+00:00",
+      "next_check": "2026-09-02T17:47:53.808285+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_1/": {
+      "content_sha": "64cbc0dc7e624522efb541cafe0b9222c5a9be785ab35666953aee98fe3f1e44",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-1-1-d8b7ecbd68",
+      "etag": "W/\"a13d87862bc8142dee08ac4e5eb102c5\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:49.535131+00:00",
+      "last_changed": "2026-09-01T17:47:49.535131+00:00",
+      "last_modified": "Thu, 18 Jun 2026 20:56:58 GMT",
+      "last_seen": "2026-09-01T17:47:49.535131+00:00",
+      "next_check": "2026-09-02T17:47:49.535131+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3/": {
+      "content_sha": "b27f9a7efee2752d0c575038ade087ebe53fa672cace3fadd92cad02b3360327",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-1-3-449a897437",
+      "etag": "W/\"84f9715167f2cd8931e092c6ac128e30\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:45.219843+00:00",
+      "last_changed": "2026-09-01T17:47:45.219843+00:00",
+      "last_modified": "Fri, 19 Jun 2026 23:20:40 GMT",
+      "last_seen": "2026-09-01T17:47:45.219843+00:00",
+      "next_check": "2026-09-02T17:47:45.219843+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3_233/": {
+      "content_sha": "e89abd1756eb2766907c1c962fc858ef9f659aa39dd5c65f1104529b3fe8b7ca",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-1-3-233-e66f02c283",
+      "etag": "W/\"67609241e94a1be683eba3402ee76911\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:40.775761+00:00",
+      "last_changed": "2026-09-01T17:47:40.775761+00:00",
+      "last_modified": "Sat, 13 Jun 2026 02:00:54 GMT",
+      "last_seen": "2026-09-01T17:47:40.775761+00:00",
+      "next_check": "2026-09-02T17:47:40.775761+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_1/": {
+      "content_sha": "3147bc1bb50c4ecc7f2d93522b0c16eed860e984ca5e682b284912f5b3772893",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-2-1-ad32e4990a",
+      "etag": "W/\"c623eac1aeadf0543d80564706f265e4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:36.458353+00:00",
+      "last_changed": "2026-09-01T17:47:36.458353+00:00",
+      "last_modified": "Mon, 15 Jun 2026 06:05:34 GMT",
+      "last_seen": "2026-09-01T17:47:36.458353+00:00",
+      "next_check": "2026-09-02T17:47:36.458353+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_2/": {
+      "content_sha": "da3872eb231cba842bf1df29c075166612f34993ca2896bdc8f0e15ee5a81b6b",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-2-2-96e0ecc66f",
+      "etag": "W/\"603c226bf148aaeb6593b1b4df4b8dfd\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:32.192951+00:00",
+      "last_changed": "2026-09-01T17:47:32.192951+00:00",
+      "last_modified": "Fri, 19 Jun 2026 23:19:01 GMT",
+      "last_seen": "2026-09-01T17:47:32.192951+00:00",
+      "next_check": "2026-09-02T17:47:32.192951+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_3/": {
+      "content_sha": "e7d70f490006ef8333b180713d33ddba8aa4789203371c8f485c6e61ee1fb1aa",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-2-3-7fd61a8f4c",
+      "etag": "W/\"a9faacda529b7a594cc2ac1bab1cb086\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:27.880666+00:00",
+      "last_changed": "2026-09-01T17:47:27.880666+00:00",
+      "last_modified": "Thu, 11 Jun 2026 20:48:38 GMT",
+      "last_seen": "2026-09-01T17:47:27.880666+00:00",
+      "next_check": "2026-09-02T17:47:27.880666+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_4/": {
+      "content_sha": "bf1ea29b4dd1d34d80ceb3e7e8227061e95774b0158620acc7e5adbc0f82993f",
+      "doc_id": "developer-cisco-com-site-jabber-guestsdk-documents-release-notes-ios-11-2-4-c9043845dc",
+      "etag": "W/\"afc5bb063fc3a99cd5814609fde53625\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:47:23.496588+00:00",
+      "last_changed": "2026-09-01T17:47:23.496588+00:00",
+      "last_modified": "Tue, 09 Jun 2026 06:53:46 GMT",
+      "last_seen": "2026-09-01T17:47:23.496588+00:00",
+      "next_check": "2026-09-02T17:47:23.496588+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/jabber-guestsdk/guestsdk/": {
       "content_sha": "0107ba38c7745ed61575d1df94b18a09800e81a6e0c0953ecefbdd93d7c04b6d",
@@ -23900,6 +24521,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://developer.cisco.com/site/paws/discover/getting-started/": {
+      "content_sha": "c3df259913cdea300eeecb0429b97431ca84292ad0d783de20a38f26dd3eb088",
+      "doc_id": "developer-cisco-com-site-paws-discover-getting-started-fd08345311",
+      "etag": "W/\"de6b0b8246fba58a2a5a92d7d34c3f6c\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:37.539440+00:00",
+      "last_changed": "2026-09-01T17:48:37.539440+00:00",
+      "last_modified": "Thu, 11 Jun 2026 15:58:42 GMT",
+      "last_seen": "2026-09-01T17:48:37.539440+00:00",
+      "next_check": "2026-09-02T17:48:37.539440+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/paws/discover/what-is-paws/": {
       "content_sha": "a892706590c5e5c893633e66ddd46adea02e0bb223f75abe5fdb6c3ae64aaa3b",
       "doc_id": "developer-cisco-com-site-paws-discover-what-is-paws-d063516938",
@@ -24014,6 +24648,84 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/sxml/discover/overview/cdr-on-demand/": {
+      "content_sha": "90b0b447746fc7a60f666a5625ccf8fc127a153b8623571af074ef78452051b1",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-cdr-on-demand-bd6dd9ed7e",
+      "etag": "W/\"c13c80d85af1b5152a69a4731b26b7bb\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:05.121088+00:00",
+      "last_changed": "2026-09-01T17:49:05.121088+00:00",
+      "last_modified": "Tue, 01 Sep 2026 02:19:10 GMT",
+      "last_seen": "2026-09-01T17:49:05.121088+00:00",
+      "next_check": "2026-09-02T17:49:05.121088+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/discover/overview/log-collection/": {
+      "content_sha": "dc8023314a85ee50a81ddc155657a378cb2c13346698412b2c207d4630f53f30",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-log-collection-5d7dbd0bc1",
+      "etag": "W/\"8369bde88406e53e4f5d18c64698da8d\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:09.413483+00:00",
+      "last_changed": "2026-09-01T17:49:09.413483+00:00",
+      "last_modified": "Mon, 31 Aug 2026 08:36:19 GMT",
+      "last_seen": "2026-09-01T17:49:09.413483+00:00",
+      "next_check": "2026-09-02T17:49:09.413483+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/discover/overview/perfmon/": {
+      "content_sha": "24957d4b94c8d08b6d804afce0a102d2f3ec70b708dd4c28914c27f9e02ae9c9",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-perfmon-b5305f24b5",
+      "etag": "W/\"b11d1241b62470249278dd0962e25565\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:56.825010+00:00",
+      "last_changed": "2026-09-01T17:48:56.825010+00:00",
+      "last_modified": "Tue, 18 Aug 2026 02:01:12 GMT",
+      "last_seen": "2026-09-01T17:48:56.825010+00:00",
+      "next_check": "2026-09-02T17:48:56.825010+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/discover/overview/risport/": {
+      "content_sha": "058d1cca83aaf83e58c62fc0b46547bb6ea4cca7004ddd2c90ad17f6e122f359",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-risport-25d67ee4be",
+      "etag": "W/\"7e4f6c372ad0d567386995df9ccd5ca4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:48:52.738668+00:00",
+      "last_changed": "2026-09-01T17:48:52.738668+00:00",
+      "last_modified": "Sun, 23 Aug 2026 10:46:50 GMT",
+      "last_seen": "2026-09-01T17:48:52.738668+00:00",
+      "next_check": "2026-09-02T17:48:52.738668+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/discover/overview/service-control/": {
+      "content_sha": "5a8e5995edf4d9e6e78969d1ec8ddea52ed1ebc4b6f7aa18fdcc5adb3bcee6fb",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-service-control-6b026d69ac",
+      "etag": "W/\"32e602a7d7cc3830a70cfaf3924d0a5a\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:01.086123+00:00",
+      "last_changed": "2026-09-01T17:49:01.086123+00:00",
+      "last_modified": "Sun, 23 Aug 2026 10:49:54 GMT",
+      "last_seen": "2026-09-01T17:49:01.086123+00:00",
+      "next_check": "2026-09-02T17:49:01.086123+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/discover/overview/snmp/": {
+      "content_sha": "f7eb9225808dd74c438e9973aaa09df148cf30a1f28fa194f193130780492591",
+      "doc_id": "developer-cisco-com-site-sxml-discover-overview-snmp-69ce45148d",
+      "etag": "W/\"2d77ce150765836137cb6a0f928112f4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:13.708707+00:00",
+      "last_changed": "2026-09-01T17:49:13.708707+00:00",
+      "last_modified": "Mon, 08 Jun 2026 14:32:53 GMT",
+      "last_seen": "2026-09-01T17:49:13.708707+00:00",
+      "next_check": "2026-09-02T17:49:13.708707+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/sxml/downloads/sample-app/": {
       "content_sha": "f13d6fc1292aef105a636ff308128c6bcc16bb57dcb7972f651237a5572e110b",
       "doc_id": "developer-cisco-com-site-sxml-downloads-sample-app-ab666931f0",
@@ -24024,6 +24736,19 @@
       "last_modified": "Mon, 08 Jun 2026 11:04:58 GMT",
       "last_seen": "2026-08-25T21:10:38.784296+00:00",
       "next_check": "2026-08-26T21:10:38.784296+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/sxml/learn/soap-ui-tutorial/": {
+      "content_sha": "2b121327caa5da27c6b86798be968444cda6138188e7eaf433e43dd516c719e3",
+      "doc_id": "developer-cisco-com-site-sxml-learn-soap-ui-tutorial-88d24b59f9",
+      "etag": "W/\"f22f6355ca77ab61802403c10d2f8d5d\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:21.934562+00:00",
+      "last_changed": "2026-09-01T17:49:21.934562+00:00",
+      "last_modified": "Mon, 22 Jun 2026 13:20:33 GMT",
+      "last_seen": "2026-09-01T17:49:21.934562+00:00",
+      "next_check": "2026-09-02T17:49:21.934562+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -24167,6 +24892,19 @@
       "last_modified": "Mon, 08 Jun 2026 13:04:51 GMT",
       "last_seen": "2026-08-25T21:11:00.001252+00:00",
       "next_check": "2026-08-26T21:11:00.001252+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/uc-express-services/documents/sdk/": {
+      "content_sha": "f465145383b294d939c1b36a822ca107b3460ff74da7bc43c7146375df31f4a4",
+      "doc_id": "developer-cisco-com-site-uc-express-services-documents-sdk-abc354ed3b",
+      "etag": "W/\"f8c57d507e0ae2bf676e398a9afc5ac4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:30.860611+00:00",
+      "last_changed": "2026-09-01T17:49:30.860611+00:00",
+      "last_modified": "Sat, 13 Jun 2026 03:06:27 GMT",
+      "last_seen": "2026-09-01T17:49:30.860611+00:00",
+      "next_check": "2026-09-02T17:49:30.860611+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -24350,6 +25088,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/user-data-services/discover/getting-started/": {
+      "content_sha": "ec9640f6d92500ac3472f9e1ac0505cebfb5265801449e3dec5a9b7b99c8a7f1",
+      "doc_id": "developer-cisco-com-site-user-data-services-discover-getting-started-d39b6f3740",
+      "etag": "W/\"8453f215b7246cc6749367ca5e22e565\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:39.167303+00:00",
+      "last_changed": "2026-09-01T17:49:39.167303+00:00",
+      "last_modified": "Tue, 09 Jun 2026 12:13:46 GMT",
+      "last_seen": "2026-09-01T17:49:39.167303+00:00",
+      "next_check": "2026-09-02T17:49:39.167303+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/user-data-services/discover/how-does-uds-work/": {
+      "content_sha": "4c02ef6f170dfe2eedff9f66de2692b2c2e4517432847f108f98eb5d7ebad8d1",
+      "doc_id": "developer-cisco-com-site-user-data-services-discover-how-does-uds-work-9dd9877f3b",
+      "etag": "W/\"fe28dc0c9347256a0bc5faa8bb75d0ca\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:43.454102+00:00",
+      "last_changed": "2026-09-01T17:49:43.454102+00:00",
+      "last_modified": "Mon, 22 Jun 2026 18:23:59 GMT",
+      "last_seen": "2026-09-01T17:49:43.454102+00:00",
+      "next_check": "2026-09-02T17:49:43.454102+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/user-data-services/discover/what-is-uds/": {
       "content_sha": "902b4a17ba04b4b07b8eb6d60f289da46f87ed41499b718a60584d5dc6a7cd4f",
       "doc_id": "developer-cisco-com-site-user-data-services-discover-what-is-uds-e3ee98babf",
@@ -24505,6 +25269,18 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/webdialer/documents/developer-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-webdialer-documents-developer-guide-00bfbe759e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:48.302666+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:49:48.302677+00:00",
+      "next_check": "2026-09-02T17:49:48.302677+00:00",
+      "redirect_to": "https://developer.cisco.com/docs/webdialer/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/webdialer/documents/latest-version/": {
       "content_sha": "12e87603b2bebcd194e74e82fcaab091fa7ea102737957fa6ed1ef48fe98549d",
       "doc_id": "developer-cisco-com-site-webdialer-documents-latest-version-b93162e059",
@@ -24541,6 +25317,32 @@
       "last_modified": "Mon, 08 Jun 2026 08:09:41 GMT",
       "last_seen": "2026-08-25T21:12:03.482238+00:00",
       "next_check": "2026-08-26T21:12:03.482238+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/webdialer/learn/sample-apps/html-sample-app/": {
+      "content_sha": "30e82b80b42f9edffd34ef26479a00395acf64f1d24e98e96814fe575abc5eae",
+      "doc_id": "developer-cisco-com-site-webdialer-learn-sample-apps-html-sample-app-65e4ba786e",
+      "etag": "W/\"57726b505de5cdbe458426cd611ad083\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:52.911120+00:00",
+      "last_changed": "2026-09-01T17:49:52.911120+00:00",
+      "last_modified": "Mon, 22 Jun 2026 19:11:31 GMT",
+      "last_seen": "2026-09-01T17:49:52.911120+00:00",
+      "next_check": "2026-09-02T17:49:52.911120+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/webdialer/learn/sample-apps/soap-hello-world/": {
+      "content_sha": "9e1f0d09cf81550574bc502fd07d003c87e9b3064e88f87beab4bdca57048bf3",
+      "doc_id": "developer-cisco-com-site-webdialer-learn-sample-apps-soap-hello-world-202a9e2dcc",
+      "etag": "W/\"311e0c2c39d098823d48a31bf63e8083\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:57.433069+00:00",
+      "last_changed": "2026-09-01T17:49:57.433069+00:00",
+      "last_modified": "Tue, 09 Jun 2026 08:14:58 GMT",
+      "last_seen": "2026-09-01T17:49:57.433069+00:00",
+      "next_check": "2026-09-02T17:49:57.433069+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -27333,6 +28135,18 @@
       "next_check": "2026-09-09T15:24:54.875343+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://marketplace.cisco.com/home": {
+      "content_sha": null,
+      "doc_id": "marketplace-cisco-com-home-59033f3b19",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:45:59.858781+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:45:59.858792+00:00",
+      "next_check": "2026-09-02T17:45:59.858792+00:00",
+      "redirect_to": "https://marketplace.cisco.com/en-US/home",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://mycase.cloudapps.cisco.com/case": {
       "content_sha": null,
@@ -33258,10 +34072,10 @@
       "first_seen": "2026-08-16T15:40:56.446008+00:00",
       "last_changed": "2026-08-16T15:40:56.446008+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T07:51:00.008369+00:00",
-      "next_check": "2026-08-25T07:51:00.008369+00:00",
+      "last_seen": "2026-09-01T17:51:26.551733+00:00",
+      "next_check": "2026-09-09T17:51:26.551733+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.html": {
       "content_sha": "7eaf2eeb299989ceceff025afd9e463eda947eba0efee5add544c15301ebc99f",
@@ -33583,10 +34397,10 @@
       "first_seen": "2026-08-16T15:38:08.995856+00:00",
       "last_changed": "2026-08-16T15:38:08.995856+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:45:09.043795+00:00",
-      "next_check": "2026-08-25T17:45:09.043795+00:00",
+      "last_seen": "2026-09-01T17:51:16.988054+00:00",
+      "next_check": "2026-09-09T17:51:16.988054+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217748-upload-the-root-and-intermediate-certifi.html": {
       "content_sha": "61bbf675f58a384aa4c84d8ef0af468fd018d955dceb94010d811aa2335e3fb1",
@@ -43562,6 +44376,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/ts_register_vcs_kb_450.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-telepresence-infrastructure-articles-ts-register-vcs-kb-450-html-5f213b3d2d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:51:38.606752+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:51:38.606764+00:00",
+      "next_check": "2026-09-02T17:51:38.606764+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/products-tech-notes-list.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/vcs_benefits_placing_expressway_dmz_not_public_internet_kb_196.html": {
       "content_sha": "3fa754eff016ae9bee2ad9154f107d4ad2f2411209771cc99a18e17b0d967f1a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-telepresence-infrastructure-articles-vcs-benefits-placing-expressway-dmz-not-public-intern-8e0dafc949",
@@ -50031,10 +50857,10 @@
       "first_seen": "2026-08-16T15:37:48.029482+00:00",
       "last_changed": "2026-08-16T15:37:48.029482+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T14:58:50.705137+00:00",
-      "next_check": "2026-08-25T14:58:50.705137+00:00",
+      "last_seen": "2026-09-01T17:50:01.342899+00:00",
+      "next_check": "2026-09-09T17:50:01.342899+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide/cmgt_b_spark-hybrid-message-deployment-guide_chapter_01.html": {
       "content_sha": "6428e3d5a993e7b83ce1a4881f930c288a4685af7ab7a89050a56d9fb50fd59a",
@@ -50044,10 +50870,10 @@
       "first_seen": "2026-08-16T15:37:52.063312+00:00",
       "last_changed": "2026-08-16T15:37:52.063312+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T15:01:07.920708+00:00",
-      "next_check": "2026-08-25T15:01:07.920708+00:00",
+      "last_seen": "2026-09-01T17:50:05.387117+00:00",
+      "next_check": "2026-09-09T17:50:05.387117+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide/cmgt_b_spark-hybrid-message-deployment-guide_chapter_010.html": {
       "content_sha": "8783d20173c0e09ce7f164012689c450c71eac36f4e004fca84bb7063de7b1a1",
@@ -50057,10 +50883,10 @@
       "first_seen": "2026-08-16T15:37:56.429915+00:00",
       "last_changed": "2026-08-16T15:37:56.429915+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T15:01:12.236889+00:00",
-      "next_check": "2026-08-25T15:01:12.236889+00:00",
+      "last_seen": "2026-09-01T17:50:09.605484+00:00",
+      "next_check": "2026-09-09T17:50:09.605484+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/messageservice/cmgt_b_spark-hybrid-message-deployment-guide/cmgt_b_spark-hybrid-message-deployment-guide_chapter_011.html": {
       "content_sha": "9a9e052ee68c971825b954a0037e5916d1d676f9595adb7041d568f00e78a7bb",
@@ -50070,10 +50896,10 @@
       "first_seen": "2026-08-16T15:38:00.578631+00:00",
       "last_changed": "2026-08-16T15:38:00.578631+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T15:01:15.666887+00:00",
-      "next_check": "2026-08-25T15:01:15.666887+00:00",
+      "last_seen": "2026-09-01T17:50:13.522996+00:00",
+      "next_check": "2026-09-09T17:50:13.522996+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_00.html": {
       "content_sha": "a34c390701b5056da05bb3180d8a7d12b69a24d8bbd10809b49d0b25b193395f",
@@ -65801,6 +66627,18 @@
       "next_check": "2026-08-25T13:51:14.196739+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_0_1/ccmcfg/CUCM_BK_C95ABA82_00_admin-guide-100/CUCM_BK_C95ABA82_00_admin-guide-100_chapter_01001000.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-10-0-1-ccmcfg-cucm-bk-c95aba82-00-admin-guide-100-cucm-bk-c95aba8-1293c5519a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:49:17.635740+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:49:17.635751+00:00",
+      "next_check": "2026-09-02T17:49:17.635751+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_0_1/ccmfeat/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100/CUCM_BK_F3AC1C0F_00_cucm-features-services-guide-100_chapter_010111.html": {
       "content_sha": null,
@@ -120553,6 +121391,18 @@
       "http_status": 301,
       "last_seen": "2026-09-01T14:48:36.318322+00:00",
       "next_check": "2026-09-02T14:48:36.318322+00:00",
+      "redirect_to": "https://help.webex.com/en-us/products",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/adminguide/wdpv_b_webex-desk-camera-ag.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-adminguide-wdpv-b-webex-desk-camera-ag-html-2510916817",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:51:07.692854+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:51:07.692866+00:00",
+      "next_check": "2026-09-02T17:51:07.692866+00:00",
       "redirect_to": "https://help.webex.com/en-us/products",
       "status": "redirect",
       "unchanged_runs": 0
@@ -192105,5 +192955,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T17:37:38.153936+00:00"
+  "updated_at": "2026-09-01T17:51:49.954786+00:00"
 }
