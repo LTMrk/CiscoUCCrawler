@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150722-CVE-2015-4285/cvrf/Cisco-SA-20150722-CVE-2015-4285_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20150722-mp/cvrf/cisco-sa-20150722-mp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20150722-apic/cvrf/cisco-sa-20150722-apic_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20150722-tftp/cvrf/cisco-sa-20150722-tftp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150721-CVE-2015-4284/cvrf/Cisco-SA-20150721-CVE-2015-4284_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150721-CVE-2015-4281/cvrf/Cisco-SA-20150721-CVE-2015-4281_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150720-CVE-2015-4283/cvrf/Cisco-SA-20150720-CVE-2015-4283_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150716-CVE-2015-4280/cvrf/Cisco-SA-20150716-CVE-2015-4280_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150715-CVE-2015-4276/cvrf/Cisco-SA-20150715-CVE-2015-4276_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150715-CVE-2015-4274/cvrf/Cisco-SA-20150715-CVE-2015-4274_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150715-CVE-2015-4278/cvrf/Cisco-SA-20150715-CVE-2015-4278_cvrf.xml",
     "depth": 2
   },
