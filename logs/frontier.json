@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130318-type4/cvrf/cisco-sa-20130318-type4_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130306-CVE-2013-1153/cvrf/Cisco-SA-20130306-CVE-2013-1153_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130306-CVE-2013-1154/cvrf/Cisco-SA-20130306-CVE-2013-1154_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130304-CVE-2013-1140/cvrf/Cisco-SA-20130304-CVE-2013-1140_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130227-cups/cvrf/cisco-sa-20130227-cups_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130227-hcs/cvrf/cisco-sa-20130227-hcs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130227-cucm/cvrf/cisco-sa-20130227-cucm_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130219-CVE-2013-1125/cvrf/Cisco-SA-20130219-CVE-2013-1125_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130218-CVE-2013-1129/cvrf/Cisco-SA-20130218-CVE-2013-1129_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20130129-upnp/cvrf/cisco-sa-20130129-upnp_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20130213-CVE-2013-1131/cvrf/Cisco-SA-20130213-CVE-2013-1131_cvrf.xml",
     "depth": 2
   },
