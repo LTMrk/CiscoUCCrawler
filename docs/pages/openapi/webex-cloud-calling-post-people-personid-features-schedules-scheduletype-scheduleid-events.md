@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.331149+00:00
+retrieved_at: 2026-09-01T07:56:51.758473+00:00
 ---
 
 # POST /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events

@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.268932+00:00
+retrieved_at: 2026-09-01T07:56:51.697873+00:00
 ---
 
 # GET /telephony/config/queues/agents/{id}
@@ -53,16 +53,20 @@ curl -X GET '/telephony/config/queues/agents/<id>?max=<max>&start=<start>' \
   - `lastName` (string): last name for the call queue agent.
   - `phoneNumber` (string): Primary phone number of the call queue agent.
   - `extension` (string): Primary phone extension of the call queue agent.
+  - `routingPrefix` (string): Routing prefix of the location of the call queue agent.
   - `esn` (string): Routing prefix + extension of a agent.
   - `location` (object) (**requerido**): The location information.
     - `name` (string) (**requerido**): The location name where the call queue agent resides.
     - `id` (string) (**requerido**): ID of location for call queue agent.
   - `type` (string) (**requerido**): The type of the call queue agent.
+  - `agentACDState` (string): The Automatic Call Distribution (ACD) state of the call queue agent.  * `SIGN_IN` - Agent has signed in.  * `SIGN_OUT` - Agent has signed out.  * `AVAILABLE` - Agent is available.  * `UNAVAILABLE` - Agent is unavailable.  * `WRAP_UP` - Agent has wrapped up. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
 - `queues` (array) (**requerido**):
   - `id` (string) (**requerido**): Unique identifier of the call queue.
   - `name` (string) (**requerido**): Unique name for the call queue.
   - `phoneNumber` (string): Primary phone number of the call queue.
-  - `routingPrefix` (string) (**requerido**): The routing prefix for the call queue.
+  - `extension` (string): Primary phone extension of the call queue.
+  - `routingPrefix` (string): The routing prefix for the call queue.
+  - `esn` (string): Routing prefix + extension of the call queue.
   - `locationId` (string) (**requerido**): The location identifier of the call queue.
   - `locationName` (string) (**requerido**): The location name where the call queue resides.
   - `joinEnabled` (boolean) (**requerido**): Whether or not the call queue is enabled.

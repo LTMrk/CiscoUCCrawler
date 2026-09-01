@@ -10,7 +10,7 @@ tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.301447+00:00
+retrieved_at: 2026-09-01T07:56:51.729294+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/internalDialing

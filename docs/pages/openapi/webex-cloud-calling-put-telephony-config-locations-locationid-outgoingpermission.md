@@ -10,7 +10,7 @@ tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.302560+00:00
+retrieved_at: 2026-09-01T07:56:51.730422+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/outgoingPermission

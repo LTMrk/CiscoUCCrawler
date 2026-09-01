@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.364413+00:00
+retrieved_at: 2026-09-01T07:56:51.790020+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/voicemail/passcode

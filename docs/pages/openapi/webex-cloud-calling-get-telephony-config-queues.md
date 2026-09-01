@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.260011+00:00
+retrieved_at: 2026-09-01T07:56:51.689047+00:00
 ---
 
 # GET /telephony/config/queues
@@ -57,12 +57,15 @@ curl -X GET '/telephony/config/queues' \
 - `queues` (array) (**requerido**): Array of call queues.
   - `id` (string) (**requerido**): A unique identifier for the call queue.
   - `name` (string) (**requerido**): Unique name for the call queue.
-  - `hasCxEssentials` (boolean) (**requerido**): Denotes if the call queue has Customer Assist license.
+  - `hasCxEssentials` (boolean): Denotes if the call queue has Customer Assist license.
   - `locationName` (string) (**requerido**): Name of location for call queue.
   - `locationId` (string) (**requerido**): ID of location for call queue.
   - `phoneNumber` (string): Primary phone number of the call queue.
   - `extension` (string): Primary phone extension of the call queue.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of the call queue.
   - `enabled` (boolean) (**requerido**): Whether or not the call queue is enabled.
+  - `tollFreeNumber` (boolean): Indicate if the number is toll free.
   - `department` (object): The department information.
     - `id` (string): Unique identifier of the department.
     - `name` (string): Name of the department.
@@ -79,7 +82,11 @@ curl -X GET '/telephony/config/queues' \
       "locationName": "WXCSIVDKCPAPIC4S1",
       "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
       "enabled": true,
+      "phoneNumber": "+15558675309",
       "extension": "8000",
+      "routingPrefix": "1234",
+      "esn": "12348000",
+      "tollFreeNumber": false,
       "department": {
         "id": "Y2lzY29zcGFyazovL3VzL1NDSU1fR1JPVVAvZjA2ZWRiOGMtMjMxNC00ZTcxLWIzNzgtZTdiMmQwNjk3OTliOjk2YWJjMmFhLTNkY2MtMTFlNS1hMTUyLWZlMzQ4MTljZGM5YQ",
         "name": "HR"

@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.366962+00:00
+retrieved_at: 2026-09-01T07:56:51.792205+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/faxMessage/availableNumbers

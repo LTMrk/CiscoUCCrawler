@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.134856+00:00
+retrieved_at: 2026-09-01T07:56:51.565999+00:00
 ---
 
 # GET /telephony/config/premisePstn/dialPlans/{dialPlanId}

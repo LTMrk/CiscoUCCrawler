@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.261480+00:00
+retrieved_at: 2026-09-01T07:56:51.690740+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}
@@ -48,17 +48,23 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>' \
 **200**: OK
 - `id` (string) (**requerido**): A unique identifier for the call queue.
 - `name` (string) (**requerido**): Unique name for the call queue.
-- `hasCxEssentials` (boolean) (**requerido**): Denotes if the call queue has Customer Assist license.
+- `hasCxEssentials` (boolean): Denotes if the call queue has Customer Assist license.
 - `enabled` (boolean) (**requerido**): Whether or not the call queue is enabled.
 - `language` (string): Language for call queue.
 - `languageCode` (string): Language code for call queue.
-- `firstName` (string): First name to be shown when calls are forwarded out of this call queue. Defaults to ".".
-- `lastName` (string): Last name to be shown when calls are forwarded out of this call queue. Defaults to the phone number if set, otherwise defaults to call group name.
+- `firstName` (string): First name to be shown when calls are forwarded out of this call queue. Defaults to `.`. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
+- `lastName` (string): Last name to be shown when calls are forwarded out of this call queue. Defaults to the `phoneNumber` if set, otherwise defaults to call group name. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `timeZone` (string): Time zone for the call queue.
 - `phoneNumber` (string): Primary phone number of the call queue.
 - `numberUsageType` (string): Number type of primary number assigned to queue.  * `PSTN_NUMBER` - Public Switched Telephone Network (PSTN) number.  * `MOBILE_NUMBER` - Mobile number.  * `SERVICE_NUMBER` - A number used in high-volume service.  * `ELIN` - Emergency Location Identification Number (ELIN), numbers can be used to place emergency calls from a location. Valores: PSTN_NUMBER, MOBILE_NUMBER, SERVICE_NUMBER, ELIN.
 - `businessTextingEnabled` (boolean): Indicates whether business texting is enabled for the primary number assigned to the queue. This field is read-only and cannot be modified through the queue APIs.
 - `extension` (string): Extension of the call queue.
+- `routingPrefix` (string): Routing prefix of location.
+- `esn` (string): Routing prefix + extension of the call queue.
+- `tollFreeNumber` (boolean): Indicate if the number is toll free.
+- `phoneNumberForOutgoingCallsEnabled` (boolean): When true, indicates that the agent's configuration allows them to use the queue's Caller ID for outgoing calls.
+- `callingLineIdPolicy` (string): Which type of Calling Line ID Policy Selected for Call Queue.  * `DIRECT_LINE` - Calling Line ID Policy will show the caller's direct line number.  * `LOCATION_NUMBER` - Calling Line ID Policy will show the main number for the location.  * `CUSTOM` - Calling Line ID Policy will show the value from the `callingLineIdPhoneNumber` field. Valores: DIRECT_LINE, LOCATION_NUMBER, CUSTOM.
+- `callingLineIdPhoneNumber` (string): Calling line ID Phone number which will be shown if CUSTOM is selected.
 - `alternateNumberSettings` (object) (**requerido**): The alternate numbers feature allows you to assign multiple phone numbers or extensions to a call queue. Each number will reach the same greeting and each menu will function identically to the main number. The alternate numbers option enables you to have up to ten (10) phone numbers ring into the call queue.
   - `distinctiveRingEnabled` (boolean) (**requerido**): Distinctive Ringing selected for the alternate numbers in the call queue overrides the normal ringing patterns set for Alternate Number.
   - `alternateNumbers` (array) (**requerido**): Allows up to 10 numbers, each with an optional distinctive ring setting override.
@@ -77,9 +83,10 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>' \
   - `distinctiveRing` (object) (**requerido**): Whether or not the call queue has the distinctive ring option enabled.
     - `enabled` (boolean) (**requerido**): Whether or not the distinctive ring is enabled.
     - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
+  - `routingType` (string): * `PRIORITY_BASED` - Default routing type which directly uses the routing policy to dispatch calls to the agents.  * `SKILL_BASED` - This option uses skill level as the criteria to route calls to agents. When there is more than one agent with the same skill level, the selected `policy` helps dispatch the calls to the agents. Valores: PRIORITY_BASED, SKILL_BASED.
 - `queueSettings` (object) (**requerido**):
   - `queueSize` (number) (**requerido**): The maximum number of calls for this call queue. Once this number is reached, the overflow settings are triggered.
-  - `callOfferToneEnabled `true`` (boolean): Play ringing tone to callers when their call is set to an available agent.
+  - `callOfferToneEnabled` (boolean): Play ringing tone to callers when their call is set to an available agent.
   - `resetCallStatisticsEnabled` (boolean): Reset caller statistics upon queue entry.
   - `overflow` (object) (**requerido**): Settings for incoming calls exceed queueSize.
     - `action` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `PERFORM_BUSY_TREATMENT` - The caller hears a fast-busy tone.  * `PLAY_RINGING_UNTIL_CALLER_HANGS_UP` - The caller hears ringing until they disconnect.  * `TRANSFER_TO_PHONE_NUMBER` - Number where you want to transfer overflow calls. Valores: PERFORM_BUSY_TREATMENT, PLAY_RINGING_UNTIL_CALLER_HANGS_UP, TRANSFER_TO_PHONE_NUMBER.
@@ -90,22 +97,15 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>' \
     - `playOverflowGreetingEnabled` (boolean): Indicate overflow audio to be played, otherwise callers will hear the hold music until the call is answered by a user.
     - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
     - `audioFiles` (array): Array of announcement file name strings to be played as overflow greetings. These files are from the list of announcements files associated with this call queue.
-- `allowCallWaitingForAgentsEnabled` (boolean): Flag to indicate whether call waiting is enabled for agents.
-- `agents` (array) (**requerido**): People, including workspaces, that are eligible to receive calls.
-  - `id` (string) (**requerido**): ID of person or workspace.
-  - `firstName` (string): First name of person or workspace.
-  - `lastName` (string): First name of person or workspace.
-  - `phoneNumber` (string): Phone number of person or workspace.
-  - `extension` (string): Extension of person or workspace.
-  - `weight` (string): Weight of person or workspace. Only applied when call policy is `WEIGHTED`.
-- `department` (object): The department information.
-  - `id` (string): Unique identifier of the department.
-  - `name` (string): Name of the department.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
-- `dialByName` (string): The name to be used for dial by name functions.
-- `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
+  - `welcomeMessage` (object): Play a message when callers first reach the queue. For example, “Thank you for calling. An agent will be with you shortly.” It can be set as mandatory. If the mandatory option is not selected and a caller reaches the call queue while there is an available agent, the caller will not hear this announcement and is transferred to an agent. The welcome message feature is enabled by default.
+    - `enabled` (boolean): If enabled play entrance message. The default value is `true`.
+    - `alwaysEnabled` (boolean): Mandatory entrance message. The default value is `false`.
+    - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
+    - `audioAnnouncementFiles` (array): Array of announcement files to be played as `welcomeMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
+      - `id` (string) (**requerido**): Unique identifier of the Announcement file.
+      - `name` (string) (**requerido**): Name of the announcement file.
+      - `mediaFileType` (string) (**requerido**): Media file type of announcement file.
+      - `level` (string) (**requerido**): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
 
 ### Ejemplo — respuesta 200
 ```json

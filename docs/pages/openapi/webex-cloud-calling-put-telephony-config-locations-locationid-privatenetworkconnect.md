@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.296486+00:00
+retrieved_at: 2026-09-01T07:56:51.724497+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/privateNetworkConnect

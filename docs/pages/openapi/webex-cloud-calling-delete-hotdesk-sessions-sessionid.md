@@ -10,7 +10,7 @@ tags: Hot Desk
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.292703+00:00
+retrieved_at: 2026-09-01T07:56:51.720883+00:00
 ---
 
 # DELETE /hotdesk/sessions/{sessionId}

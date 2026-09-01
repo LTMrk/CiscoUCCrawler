@@ -10,7 +10,7 @@ tags: User Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.326560+00:00
+retrieved_at: 2026-09-01T07:56:51.753969+00:00
 ---
 
 # GET /telephony/config/people/{personId}/monitoring/speedDials/availableMembers

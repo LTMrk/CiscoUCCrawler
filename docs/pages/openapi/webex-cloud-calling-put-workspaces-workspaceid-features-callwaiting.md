@@ -10,7 +10,7 @@ tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.371693+00:00
+retrieved_at: 2026-09-01T07:56:51.796343+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/callWaiting

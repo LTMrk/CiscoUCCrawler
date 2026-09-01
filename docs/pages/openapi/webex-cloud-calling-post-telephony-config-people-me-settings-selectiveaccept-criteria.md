@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.162130+00:00
+retrieved_at: 2026-09-01T07:56:51.593235+00:00
 ---
 
 # POST /telephony/config/people/me/settings/selectiveAccept/criteria

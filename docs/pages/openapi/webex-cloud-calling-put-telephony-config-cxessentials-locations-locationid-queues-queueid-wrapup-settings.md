@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.278349+00:00
+retrieved_at: 2026-09-01T07:56:51.707051+00:00
 ---
 
 # PUT /telephony/config/cxEssentials/locations/{locationId}/queues/{queueId}/wrapup/settings

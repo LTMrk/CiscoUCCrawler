@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.265773+00:00
+retrieved_at: 2026-09-01T07:56:51.694815+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/strandedCalls

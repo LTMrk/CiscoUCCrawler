@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.361688+00:00
+retrieved_at: 2026-09-01T07:56:51.787752+00:00
 ---
 
 # DELETE /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns/{digitPatternId}

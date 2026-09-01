@@ -10,7 +10,7 @@ tags: Features: Call Recording
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.275110+00:00
+retrieved_at: 2026-09-01T07:56:51.703842+00:00
 ---
 
 # GET /telephony/config/jobs/callRecording/{jobId}/errors

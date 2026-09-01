@@ -10,7 +10,7 @@ tags: Device Call Settings With Device Dynamic Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.237222+00:00
+retrieved_at: 2026-09-01T07:56:51.666710+00:00
 ---
 
 # POST /telephony/config/lists/devices/dynamicSettings/actions/getSettings/invoke

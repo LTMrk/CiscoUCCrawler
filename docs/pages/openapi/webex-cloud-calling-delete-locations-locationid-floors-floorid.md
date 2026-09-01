@@ -10,7 +10,7 @@ tags: Locations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.311907+00:00
+retrieved_at: 2026-09-01T07:56:51.739458+00:00
 ---
 
 # DELETE /locations/{locationId}/floors/{floorId}

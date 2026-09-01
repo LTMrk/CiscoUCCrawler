@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 5
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-31T10:47:27.141848+00:00
+retrieved_at: 2026-09-01T07:56:51.573048+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/personalAssistant
