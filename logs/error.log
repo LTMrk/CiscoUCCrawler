@@ -19553,3 +19553,16 @@
 [2026-09-01T12:08:08.914186] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070228-mpls/cvrf/cisco-sa-20070228-mpls_cvrf.xml
 [2026-09-01T12:08:13.076814] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070221-supplicant/cvrf/cisco-sa-20070221-supplicant_cvrf.xml
 [2026-09-01T12:08:17.392721] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070221-phone/cvrf/cisco-sa-20070221-phone_cvrf.xml
+[2026-09-01T12:12:06.184014] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T12:12:10.093226] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T12:13:32.805816] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T12:13:33.549725] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0960/cvrf/Cisco-SA-20070214-CVE-2007-0960_cvrf.xml
+[2026-09-01T12:13:37.451578] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0961/cvrf/Cisco-SA-20070214-CVE-2007-0961_cvrf.xml
+[2026-09-01T12:13:41.587912] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0959/cvrf/Cisco-SA-20070214-CVE-2007-0959_cvrf.xml
+[2026-09-01T12:13:45.687921] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0962/cvrf/Cisco-SA-20070214-CVE-2007-0962_cvrf.xml
+[2026-09-01T12:13:49.896137] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0966/cvrf/Cisco-SA-20070214-CVE-2007-0966_cvrf.xml
+[2026-09-01T12:13:54.116320] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070214-CVE-2007-0964/cvrf/Cisco-SA-20070214-CVE-2007-0964_cvrf.xml
+[2026-09-01T12:13:58.359196] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070214-fwsm/cvrf/cisco-sa-20070214-fwsm_cvrf.xml
+[2026-09-01T12:14:02.510653] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070214-pix/cvrf/cisco-sa-20070214-pix_cvrf.xml
+[2026-09-01T12:14:06.848584] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070213-iosips/cvrf/cisco-sa-20070213-iosips_cvrf.xml
+[2026-09-01T12:14:11.014781] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070131-sip/cvrf/cisco-sa-20070131-sip_cvrf.xml
