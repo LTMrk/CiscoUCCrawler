@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140507-webex/cvrf/cisco-sa-20140507-webex_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140507-CVE-2014-2191/cvrf/Cisco-SA-20140507-CVE-2014-2191_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140507-CVE-2014-2190/cvrf/Cisco-SA-20140507-CVE-2014-2190_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140507-CVE-2014-2181/cvrf/Cisco-SA-20140507-CVE-2014-2181_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140506-CVE-2014-0685/cvrf/Cisco-SA-20140506-CVE-2014-0685_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140506-CVE-2014-0684/cvrf/Cisco-SA-20140506-CVE-2014-0684_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140430-mxp/cvrf/cisco-sa-20140430-mxp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140430-tcte/cvrf/cisco-sa-20140430-tcte_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140430-CVE-2014-2172/cvrf/Cisco-SA-20140430-CVE-2014-2172_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140430-CVE-2014-2186/cvrf/Cisco-SA-20140430-CVE-2014-2186_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140429-CVE-2014-2180/cvrf/Cisco-SA-20140429-CVE-2014-2180_cvrf.xml",
     "depth": 2
   },
