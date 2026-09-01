@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140924-sip/cvrf/cisco-sa-20140924-sip_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140924-nat/cvrf/cisco-sa-20140924-nat_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140923-CVE-2014-3380/cvrf/Cisco-SA-20140923-CVE-2014-3380_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140922-CVE-2014-3367/cvrf/Cisco-SA-20140922-CVE-2014-3367_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140919-CVE-2014-3378/cvrf/Cisco-SA-20140919-CVE-2014-3378_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140919-CVE-2014-3376/cvrf/Cisco-SA-20140919-CVE-2014-3376_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140919-CVE-2014-3377/cvrf/Cisco-SA-20140919-CVE-2014-3377_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140919-CVE-2014-3379/cvrf/Cisco-SA-20140919-CVE-2014-3379_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140915-CVE-2014-3342/cvrf/Cisco-SA-20140915-CVE-2014-3342_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140911-CVE-2014-3363/cvrf/Cisco-SA-20140911-CVE-2014-3363_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20140911-CVE-2014-3362/cvrf/Cisco-SA-20140911-CVE-2014-3362_cvrf.xml",
     "depth": 2
   },
