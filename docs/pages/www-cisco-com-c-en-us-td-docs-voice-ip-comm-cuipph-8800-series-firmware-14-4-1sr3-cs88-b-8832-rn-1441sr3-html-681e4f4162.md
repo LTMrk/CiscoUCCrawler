@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-4-1sr3-cs88-b-8832-rn-1441sr3-html-681e4f4162
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/cs88_b_8832-rn-1441sr3.html
-retrieved_at: 2026-08-17T01:11:34.175755+00:00
+retrieved_at: 2026-09-01T19:55:58.183886+00:00
 ---
 
 Cisco IP Conference Phone 8832 Release Notes for Firmware Release 14.4(1)SR3
@@ -306,6 +306,8 @@ CSCwu46872 - Cisco IP Phone 8800 series stack buffer overflow in SIP
 CSCwu46981 - Heap based buffer overflow in LLDP
 
 CSCwu46942 - An exploitable memory leak can be found in SIP
+
+CSCwv80693 - 78xx/88xx series phone does not refresh MRA token after local router outage for an extended period
 
 ## Application Programming Interface
 

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-p2ad-b-7800-rn-1441sr3-html-aee9c4b562
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR3/p2ad_b_7800-rn-1441sr3.html
-retrieved_at: 2026-08-17T01:07:18.713205+00:00
+retrieved_at: 2026-09-01T19:53:14.747712+00:00
 ---
 
 Cisco IP Phone 7800 Release Notes for Firmware Release 14.4(1)SR3
@@ -267,6 +267,8 @@ CSCwu46872 - Cisco IP Phone 8800 series stack buffer overflow in SIP
 CSCwu46981 - Heap based buffer overflow in LLDP
 
 CSCwu46942 - An exploitable memory leak can be found in SIP
+
+CSCwv80693 - 78xx/88xx series phone does not refresh MRA token after local router outage for an extended period
 
 ## Application Programming Interface
 
