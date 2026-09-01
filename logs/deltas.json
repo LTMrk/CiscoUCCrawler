@@ -1,25 +1,14 @@
 {
-  "run_at": "2026-09-01T19:00:00.655306+00:00",
+  "run_at": "2026-09-01T19:11:46.185747+00:00",
   "modo": "incremental",
-  "added": [
-    "help-webex-com-article-rvjm4i-682aa629a4",
-    "help-webex-com-article-tajemk-074c486f19",
-    "help-webex-com-article-utqcm7-38c6563268",
-    "help-webex-com-en-us-article-nbmvb4-cisco-accessory-hub-desktop-app-release-notes-3a3dfde657",
-    "help-webex-com-en-us-article-rvjm4i-cisco-headset-500-series-release-notes-c7ad5c710a"
-  ],
+  "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216030-enable-activecontrol-over-mra-expressway-htm-46dd039ece",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-bea8b16488",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c4b20ec332",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c74b02e2ec",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-fbc4850858"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-2c9ec8652d",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-f89281a021"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 84,
-  "redirected": [
-    "https://mycase.cloudapps.cisco.com/case -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "unchanged_count": 97,
+  "redirected": [],
   "semillas_encoladas": 20
 }
