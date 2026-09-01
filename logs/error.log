@@ -19305,3 +19305,16 @@
 [2026-09-01T10:36:28.881153] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110427-wlc/cvrf/cisco-sa-20110427-wlc_cvrf.xml
 [2026-09-01T10:36:33.064733] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110427-CVE-2011-1610/cvrf/Cisco-SA-20110427-CVE-2011-1610_cvrf.xml
 [2026-09-01T10:36:37.317132] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110420-CVE-2011-0808/cvrf/Cisco-SA-20110420-CVE-2011-0808_cvrf.xml
+[2026-09-01T10:39:26.243788] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T10:39:30.259290] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T10:40:40.739986] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T10:40:41.738649] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20110330-CVE-2011-0951/cvrf/Cisco-SA-20110330-CVE-2011-0951_cvrf.xml
+[2026-09-01T10:40:45.184824] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110330-nac/cvrf/cisco-sa-20110330-nac_cvrf.xml
+[2026-09-01T10:40:49.317772] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110330-acs/cvrf/cisco-sa-20110330-acs_cvrf.xml
+[2026-09-01T10:40:53.525054] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-telepresence-cts/cvrf/cisco-sa-20110223-telepresence-cts_cvrf.xml
+[2026-09-01T10:40:57.749554] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-asa/cvrf/cisco-sa-20110223-asa_cvrf.xml
+[2026-09-01T10:41:01.795138] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-telepresence-ctms/cvrf/cisco-sa-20110223-telepresence-ctms_cvrf.xml
+[2026-09-01T10:41:06.022015] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-fwsm/cvrf/cisco-sa-20110223-fwsm_cvrf.xml
+[2026-09-01T10:41:10.274118] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-telepresence-ctrs/cvrf/cisco-sa-20110223-telepresence-ctrs_cvrf.xml
+[2026-09-01T10:41:14.287911] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110223-telepresence-ctsman/cvrf/cisco-sa-20110223-telepresence-ctsman_cvrf.xml
+[2026-09-01T10:41:18.387627] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20110216-csa/cvrf/cisco-sa-20110216-csa_cvrf.xml
