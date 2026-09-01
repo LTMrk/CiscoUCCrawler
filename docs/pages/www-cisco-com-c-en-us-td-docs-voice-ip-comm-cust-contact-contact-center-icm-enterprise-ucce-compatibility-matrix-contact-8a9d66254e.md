@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-ucce-compatibility-matrix-contact-8a9d66254e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_15_0.html
-retrieved_at: 2026-08-16T14:53:01.242480+00:00
+retrieved_at: 2026-09-01T19:21:05.391531+00:00
 ---
 
 Contact Center Enterprise Solution Compatibility Matrix, Release 15.0(1)
@@ -787,6 +787,14 @@ IOS XE 17.12
 IOS XE 17.15
 
 IOS XE 17.18
+
+Cisco 8300 Series Secure Routers (C8375-E-G2)
+
+IOS XE 17.18.2
+
+Yes
+
+Yes
 
 Notes
 
@@ -2084,7 +2092,7 @@ Yes
 
 ■ Unified CCE and Administration Client, installs .NET version 4.8.
 
-■ Unified CVP automatically installs .NET version 3.5 by default on Microsoft Windows Server 2019, as this version comes pre-installed.
+■ Install the Microsoft .NET Framework 3.5 feature using Windows Server Manager before deploying any Cisco Unified CVP component on Windows Server 2019 to prevent installation failures.
 
 ■ Unified CVP automatically installs .NET version 4.8 by default on Microsoft Windows Server 2022.
 
@@ -2278,7 +2286,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and
 
 ## Cisco Copyright (all documentation)
 
-© 2025 Cisco Systems, Inc. All rights reserved.
+© 2026 Cisco Systems, Inc. All rights reserved.
 
 [1] For more information, check the Release Notes at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-release-notes-list.html .
 
@@ -2344,6 +2352,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and
 | IOS XE 17.12 |
 | IOS XE 17.15 |
 | IOS XE 17.18 |
+| Cisco 8300 Series Secure Routers (C8375-E-G2) | IOS XE 17.18.2 | Yes | Yes |
 
 | Endpoint | Voice & Finesse Desktop | Video | Unified CM Silent Monitor | BIB-based recording | Agent Greeting | Whisper Announcements | Finesse IP Agent Phone | IPv6 SCCP (UCCE Only) | IPv6 SIP | MRA |
 |---|---|---|---|---|---|---|---|---|---|---|
