@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010712-pptp/cvrf/cisco-sa-20010712-pptp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010711-sn-kernel/cvrf/cisco-sa-20010711-sn-kernel_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010627-ssh/cvrf/cisco-sa-20010627-ssh_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010627-ios-http-level/cvrf/cisco-sa-20010627-ios-http-level_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010614-nrp2-telnet/cvrf/cisco-sa-20010614-nrp2-telnet_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010531-arrowpoint-webmgmt/cvrf/cisco-sa-20010531-arrowpoint-webmgmt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010524-ios-tcp-scanner-reload/cvrf/cisco-sa-20010524-ios-tcp-scanner-reload_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010522-cbos/cvrf/cisco-sa-20010522-cbos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010517-arrowpoint-ftp/cvrf/cisco-sa-20010517-arrowpoint-ftp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010510-ios-bgp-attr/cvrf/cisco-sa-20010510-ios-bgp-attr_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010413-cat5k-8021x/cvrf/cisco-sa-20010413-cat5k-8021x_cvrf.xml",
     "depth": 2
   },
