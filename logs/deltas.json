@@ -1,35 +1,13 @@
 {
-  "run_at": "2026-09-01T21:41:53.667132+00:00",
+  "run_at": "2026-09-01T21:53:02.420633+00:00",
   "modo": "incremental",
-  "added": [
-    "help-webex-com-article-e2okky-a567015859",
-    "help-webex-com-article-lk7294-6505c7ea8f",
-    "help-webex-com-article-nt815zm-a1f460250b",
-    "help-webex-com-article-nwtulzs-b77906a46e",
-    "help-webex-com-en-us-article-1mqb9cb-f8f6d3021f",
-    "help-webex-com-en-us-article-341eud-1b1903e194",
-    "help-webex-com-en-us-article-cvyza2-162a196b13",
-    "help-webex-com-en-us-article-m2az0i-9c853a8db4",
-    "help-webex-com-en-us-article-mwka5l-3d5cb0b141",
-    "help-webex-com-en-us-article-niqovwv-e772c512a6",
-    "help-webex-com-en-us-article-niqovwv-hybrid-calendar-service-with-microsoft-365-integration-reference-0c9c8b6651",
-    "help-webex-com-en-us-article-nj34yk2-6fb72a001f",
-    "help-webex-com-en-us-article-nktq4w4-21c5630051",
-    "help-webex-com-en-us-article-nv5p67g-dcd85aace9",
-    "help-webex-com-en-us-article-nwtulzs-ae90f9db75",
-    "help-webex-com-en-us-article-ruyceab-78aacb70e7",
-    "help-webex-com-en-us-article-uuhc6x-132dc6695e",
-    "help-webex-com-en-us-article-wbx000028782-c9b4168b12"
-  ],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-117554-technote-restrictiontable-00-html-f6e1aa6d36"
-  ],
+  "added": [],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 65,
+  "unchanged_count": 91,
   "redirected": [
-    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/118772-configure-ucxn-00.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-configuration-examples-list.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/9x/administration/guide/9xcucsagx/9xcucsag040.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/QSG/p875_m_quick-started-guide.html -> https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Get-started"
   ],
   "semillas_encoladas": 20
 }
