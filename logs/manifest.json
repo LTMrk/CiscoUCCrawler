@@ -40593,6 +40593,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wvdi/wvdi-b-admin-guide/wvdi-b-admin-guide_chapter_01.html": {
+      "content_sha": "23da6000fc4eea50d2c37cea4b8a59d772d1ba78f603169fc539fb714f6db0eb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-collaboration-meeting-center-wvdi-wvdi-b-admin-guide-wvdi-b-admin-guide-chapter-01-html-edbc807013",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:32:26.488062+00:00",
+      "last_changed": "2026-09-01T20:32:26.488062+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:32:26.488062+00:00",
+      "next_check": "2026-09-02T20:32:26.488062+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wvdi/wvdi-b-admin-guide/wvdi-b-admin-guide_chapter_010.html": {
+      "content_sha": "1a8d5a41fbae70f9d4597432d98647851da0a2d295810889172d5e8d429f01be",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-collaboration-meeting-center-wvdi-wvdi-b-admin-guide-wvdi-b-admin-guide-chapter-010-html-008ddf25b9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:32:22.608092+00:00",
+      "last_changed": "2026-09-01T20:32:22.608092+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:32:22.608092+00:00",
+      "next_check": "2026-09-02T20:32:22.608092+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvn81865.html": {
       "content_sha": "a0334f588f38f6dd11a50cfe2eda11955164320b5452948738b0f73453b589cc",
       "doc_id": "www-cisco-com-c-en-us-td-docs-conferencing-advisories-sw-advisory-cscvn81865-html-2ffe829d5b",
@@ -194783,5 +194809,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T20:27:34.219672+00:00"
+  "updated_at": "2026-09-01T20:32:57.032949+00:00"
 }
