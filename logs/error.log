@@ -19814,3 +19814,16 @@
 [2026-09-01T13:48:33.812732] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010227-ios-snmp-ilmi/cvrf/cisco-sa-20010227-ios-snmp-ilmi_cvrf.xml
 [2026-09-01T13:48:38.033381] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010131-arrowpoint-cli-fs/cvrf/cisco-sa-20010131-arrowpoint-cli-fs_cvrf.xml
 [2026-09-01T13:48:42.387887] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001213-catalyst-ssh-mismatch/cvrf/cisco-sa-20001213-catalyst-ssh-mismatch_cvrf.xml
+[2026-09-01T13:51:34.110628] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T13:51:38.078703] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T13:52:50.709177] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T13:52:51.472005] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001206-catalyst-memleak/cvrf/cisco-sa-20001206-catalyst-memleak_cvrf.xml
+[2026-09-01T13:52:55.368919] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001204-cbos/cvrf/cisco-sa-20001204-cbos_cvrf.xml
+[2026-09-01T13:52:59.572042] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001026-vco4k-password/cvrf/cisco-sa-20001026-vco4k-password_cvrf.xml
+[2026-09-01T13:53:03.667779] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001025-ios-http-server-query/cvrf/cisco-sa-20001025-ios-http-server-query_cvrf.xml
+[2026-09-01T13:53:08.040391] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000927-pix-firewall-smtp-filter/cvrf/cisco-sa-20000927-pix-firewall-smtp-filter_cvrf.xml
+[2026-09-01T13:53:12.052602] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000921-secure-acs-nt/cvrf/cisco-sa-20000921-secure-acs-nt_cvrf.xml
+[2026-09-01T13:53:16.060791] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000803-grs-acl-bypass-dos/cvrf/cisco-sa-20000803-grs-acl-bypass-dos_cvrf.xml
+[2026-09-01T13:53:20.293276] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000711-pix-tcp-reset/cvrf/cisco-sa-20000711-pix-tcp-reset_cvrf.xml
+[2026-09-01T13:53:24.437636] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000514-ios-http-server/cvrf/cisco-sa-20000514-ios-http-server_cvrf.xml
+[2026-09-01T13:53:28.479496] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000420-ios-telnet/cvrf/cisco-sa-20000420-ios-telnet_cvrf.xml

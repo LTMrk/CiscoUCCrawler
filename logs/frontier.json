@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001206-catalyst-memleak/cvrf/cisco-sa-20001206-catalyst-memleak_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001204-cbos/cvrf/cisco-sa-20001204-cbos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001026-vco4k-password/cvrf/cisco-sa-20001026-vco4k-password_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001025-ios-http-server-query/cvrf/cisco-sa-20001025-ios-http-server-query_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000927-pix-firewall-smtp-filter/cvrf/cisco-sa-20000927-pix-firewall-smtp-filter_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000921-secure-acs-nt/cvrf/cisco-sa-20000921-secure-acs-nt_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000803-grs-acl-bypass-dos/cvrf/cisco-sa-20000803-grs-acl-bypass-dos_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000711-pix-tcp-reset/cvrf/cisco-sa-20000711-pix-tcp-reset_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000514-ios-http-server/cvrf/cisco-sa-20000514-ios-http-server_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000420-ios-telnet/cvrf/cisco-sa-20000420-ios-telnet_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20000419-catos-enable-bypass/cvrf/cisco-sa-20000419-catos-enable-bypass_cvrf.xml",
     "depth": 2
   },
