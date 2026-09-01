@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118744-technote-cuc-4b5f3158ac
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118744-technote-cucm-00.html
-retrieved_at: 2026-08-16T17:59:53.149253+00:00
+retrieved_at: 2026-09-01T19:46:31.864835+00:00
 ---
 
 Implement CUCM Versions 8.X/9.X/10.X Time Zone and DST Changes
@@ -222,16 +222,6 @@ recertification
 17-Feb-2015
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Leszek Wojnarski
-
-Mateusz Korab
-
-### This Document Applies to These Products
-
-- Unified Communications Manager (CallManager)
 
 | Revision | Publish Date | Comments |
 |---|---|---|

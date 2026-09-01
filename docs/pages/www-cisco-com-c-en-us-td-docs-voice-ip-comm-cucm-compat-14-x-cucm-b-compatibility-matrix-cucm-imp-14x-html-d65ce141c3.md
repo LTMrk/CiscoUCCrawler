@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-compat-14-x-cucm-b-compatibility-matrix-cucm-imp-14x-html-d65ce141c3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/14_x/cucm_b_compatibility-matrix-cucm-imp-14x.html
-retrieved_at: 2026-08-16T17:51:06.636903+00:00
+retrieved_at: 2026-09-01T19:40:44.418828+00:00
 ---
 
 Compatibility Matrix for Cisco Unified Communications Manager and the IM and Presence Service, Release 14x
@@ -10,7 +10,7 @@ Compatibility Matrix for Cisco Unified Communications Manager and the IM and Pre
 
 ### Download Options
 
-Updated: March 18, 2026
+Updated: August 26, 2026
 
 # Compatibility Matrix for Cisco Unified Communications Manager and the IM and Presence Service
 
@@ -681,6 +681,9 @@ Cisco Desk Phone 9851
 Cisco Desk Phone 9861
 
 Cisco Desk Phone 9871
+
+In Unified Communications Manager Release 14 systems running Device Pack 14.0.1.16076-1, the Cisco 9871 phone icon will not
+                                                display correctly in the Cisco Unified CM Administration interface.
 
 Cisco Desk Phone 9800 Key Expansion Module (KEM)
 
@@ -1940,7 +1943,11 @@ AES128-SHA:
 | Cisco IP Phone 8800 Series | Cisco IP Phone 8811, 8831, 8841, 8845, 8851, 8851NR, 8861, 8865, 8865NR Cisco Wireless IP Phone 8821, 8821-EX— EOL Notice Cisco Unified IP Conference Phone 8831— EOS Notice Cisco IP Conference Phone 8832 Cisco Video Phone 8875 Cisco Video Phone 8875NR |
 | Cisco Unified IP Phone 8900 Series | Cisco Unified IP Phone 8945— EOS Notice Cisco Unified IP Phone 8961— EOS Notice |
 | Cisco Unified IP Phone 9900 Series | Cisco Unified IP Phone 9951— EOS Notice Cisco Unified IP Phone 9971— EOS Notice |
-| Cisco Desk Phone 9800 Series | Cisco Desk Phone 9811 Cisco Desk Phone 9841 Cisco Desk Phone 9851 Cisco Desk Phone 9861 Cisco Desk Phone 9871 Cisco Desk Phone 9800 Key Expansion Module (KEM) |
+| Cisco Desk Phone 9800 Series | Cisco Desk Phone 9811 Cisco Desk Phone 9841 Cisco Desk Phone 9851 Cisco Desk Phone 9861 Cisco Desk Phone 9871 Note In Unified Communications Manager Release 14 systems running Device Pack 14.0.1.16076-1, the Cisco 9871 phone icon will not
+                                                display correctly in the Cisco Unified CM Administration interface. Cisco Desk Phone 9800 Key Expansion Module (KEM) | Note | In Unified Communications Manager Release 14 systems running Device Pack 14.0.1.16076-1, the Cisco 9871 phone icon will not
+                                                display correctly in the Cisco Unified CM Administration interface. |
+| Note | In Unified Communications Manager Release 14 systems running Device Pack 14.0.1.16076-1, the Cisco 9871 phone icon will not
+                                                display correctly in the Cisco Unified CM Administration interface. |
 | Cisco Jabber | Cisco Jabber for Android Cisco Jabber for iPhone and iPad Cisco Jabber for Mac Cisco Jabber for Windows Cisco Jabber Softphone for VDI - Windows (formerly Cisco Virtualization Experience Media Edition for Windows) Cisco Jabber Guest Cisco Jabber Software Development Kit Cisco Jabber for Tablet |
 | Cisco Headset Series | Cisco Headset 320 Cisco Headset 520 Cisco Headset 530 Cisco Headset 560 Cisco Headset 720 Cisco Headset 730 |
 | Cisco IP Communicator | Cisco IP Communicator— EOS Notice |
@@ -1953,6 +1960,10 @@ AES128-SHA:
 | Cisco TelePresence EX Series | Cisco TelePresence System EX90— EOS Notice |
 | Cisco TelePresence MX Series | Cisco TelePresence MX200 G2— EOS Notice Cisco TelePresence MX300 G2— EOS Notice Cisco TelePresence MX700D— EOS Notice Cisco TelePresence MX800S— EOS Notice Cisco TelePresence MX800D— EOS Notice |
 | Cisco TelePresence SX Series | Cisco TelePresence SX10— EOS Notice Cisco TelePresence SX20— EOS Notice Cisco TelePresence SX80— EOS Notice |
+
+| Note | In Unified Communications Manager Release 14 systems running Device Pack 14.0.1.16076-1, the Cisco 9871 phone icon will not
+                                                display correctly in the Cisco Unified CM Administration interface. |
+|---|---|
 
 | Cisco Endpoints at End of Support |
 |---|

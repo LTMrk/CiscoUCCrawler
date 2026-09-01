@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214381-smart-licens-9619fa5242
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi.html
-retrieved_at: 2026-08-16T18:00:01.400792+00:00
+retrieved_at: 2026-09-01T19:46:40.210790+00:00
 ---
 
 Enable Specific License Reservation for CUCM Version 12.5
@@ -10,7 +10,7 @@ Enable Specific License Reservation for CUCM Version 12.5
 
 ### Download Options
 
-Updated: June 3, 2026
+Updated: August 27, 2026
 
 Document ID: 214381
 
@@ -70,15 +70,15 @@ admin:license smart reservation enable
        P:UCM,S:cc920,U:e53fc968-0253-4d61-a355-ba908a6cc920   -->   UDI
 ```
 
-Step 3. Log in to Cisco License Central and enter the reservation code.
+Step 3. Log in to Cisco License Central and enter the reservation code .
 
-Step 4. Select the licenses that have to be purchased, and you want to reserve for this device.
+Step 4. Select the licenses that have to be purchased, and that you want to reserve for this device.
 
 Step 5. An authorization code is generated which contains a list of entitlement tags and counts that are allowed to be used on the product instance.
 
 Step 6. Take this authorization code back to the product instance and use the CLI to install it.
 
-admin:license smart reservation install
+admin: license smart reservation install
 
 ```
 license smart reservation install "<specificPLR><authorizationCode><flag>A</flag><version>C</version><piid>6ca07f56-145c-4ace-bdc2-40417fd49d47</piid><timestamp>1552292522579</timestamp><entitlements><entitlement><tag>regid.2017-02.com.cisco.UCM_CUWL,12.0_cc59375a-1cd8-4b36-8366-6f4d2abba965</tag><count>5</count><startDate></startDate><endDate></endDate><licenseType>PERPETUAL</licenseType><displayName>UC Manager CUWL License (12.X)</displayName><tagDescription>UC Manager CUWL License (12.X)</tagDescription><subscriptionID></subscriptionID></entitlement><entitlement><tag>regid.2016-07.com.cisco.UCM_EnhancedPlus,12.0_d8372792-588c-4caa-b279-8587e5ce2f82</tag><count>5</count><startDate></startDate><endDate></endDate><licenseType>PERPETUAL</licenseType><displayName>UC Manager Enhanced Plus License (12.x)</displayName><tagDescription>UC Manager Enhanced Plus License</tagDescription><subscriptionID></subscriptionID></entitlement><entitlement><tag>regid.2016-07.com.cisco.UCM_Essential,12.0_25f9c396-c67c-4519-aa98-d4b3ad18f805</tag><count>5</count><startDate></startDate><endDate></endDate><licenseType>PERPETUAL</licenseType><displayName>UC Manager Essential License (12.x)</displayName><tagDescription>UC Manager Essential License</tagDescription><subscriptionID></subscriptionID></entitlement><entitlement><tag>regid.2016-07.com.cisco.UCM_Basic,12.0_ef827a2f-f4ae-4ebb-887f-052737063d3a</tag><count>5</count><startDate></startDate><endDate></endDate><licenseType>PERPETUAL</licenseType><displayName>UC Manager Basic License (12.x)</displayName><tagDescription>UC Manager Basic License</tagDescription><subscriptionID></subscriptionID></entitlement><entitlement><tag>regid.2016-07.com.cisco.UCM_Enhanced,12.0_66d0d1cf-4863-4761-91d0-d01d3eb1949a</tag><count>5</count><startDate></startDate><endDate></endDate><licenseType>PERPETUAL</licenseType><displayName>UC Manager Enhanced License (12.x)</displayName><tagDescription>UC Manager Enhanced License</tagDescription><subscriptionID></subscriptionID></entitlement></entitlements></authorizationCode><signature>MEYCIQChzdzDxXMoQZ7WofeNaOP2DYaEP3bxaxea1o5U027VYgIhAKDBRmIZhoQvmphYR1DJAmxaOAjLIcGWcBPF5ERCIxYc</signature><udi>P:UCM, S:cc920,U:e53fc968-0253-4d61-a355-ba908a6cc920</udi></specificPLR>"
@@ -98,35 +98,35 @@ license smart reservation install "<specificPLR><authorizationCode><flag>A</flag
 
 In this image, you get to see CUCM GUI with Smart License Reservation enabled.
 
-Note : De-register of product instance cannot work in case of Smart License Reservation Feature. You can always return the license with the commands listed here, depending upon the scenarios.
+Note : De-registering of product instance cannot work in case of Smart License Reservation Feature. You can always return the license with the commands listed here, depending upon the scenarios.
 
 ### Remove Licenses or Product Instance
 
 When licenses are reserved on a Product Instance (Unified Communications Manager), there are two ways to remove the product from the smart account and release all the licenses that are reserved for that Product Instance (Unified Communications Manager).
 
-Product Instance is operational (graceful removal):You can return the Specific License Reservation authorization by creating a Reservation Return code on the Product Instance (which removes the Authorization Code) and then enter the Reservation Return code into Cisco License Central.
+Product Instance is operational (graceful removal): You can return the Specific License Reservation authorization by creating a Reservation Return code on the Product Instance (which removes the Authorization Code) and then enter the Reservation Return code into Cisco License Central.
 
-Product Instance is not operational (failure/RMA or due to the VM/container destroyed):You must contact TAC, who can remove the Product Instance from their smart account.
+Product Instance is not operational (failure/RMA or due to the VM/container destroyed): You must contact TAC, who can remove the Product Instance from their smart account.
 
-admin:license smart reservation return
+admin: license smart reservation return
 
 Use this procedure to generate a return code that must be entered into Cisco License Central to return the licenses to the virtual account pool, and remove the product instance from Cisco License Central.
 
-- From Cisco Unified CM Admin Console, execute the license smart reservation return command.
+- From Cisco Unified CM Admin Console , execute the license smart reservation return command.
 
-- Copy the reservation return code to Cisco License Central and remove the product instance.
+- Copy the reservation return code to Cisco License Central and remove the product instance .
 
 license smart reservation return-authorization <authorization-code>
 
 Use this procedure to generate a return code for the authorization code not installed yet. The return code must be entered into Cisco License Central to return the licenses to the virtual account pool and remove the product instance from Cisco License Central.
 
-- From Cisco Unified CM Admin Console, execute the license smart reservation return-authorization <authorization-code> command.
+- From Cisco Unified CM Admin Console , execute the license smart reservation return-authorization <authorization-code> command.
 
-- Copy the reservation return code to Cisco License Central and remove the product instance.
+- Copy the reservation return code to Cisco License Central and remove the product instance .
 
 ## Troubleshoot
 
-In case of any issue, you need to collect these logs :
+In case of any issue, you need to collect these logs:
 
 - Smart agent logs are a part of slm.log (activelog/cm/trace/slm/log4j/slm.log)
 
@@ -141,6 +141,12 @@ In case of any issue, you need to collect these logs :
 - Technical Support & Documentation - Cisco Systems
 
 ### Revision History
+
+5.0
+
+27-Aug-2026
+
+Recertification - Updated Formatting
 
 4.0
 
@@ -170,6 +176,7 @@ Initial Release
 
 | Revision | Publish Date | Comments |
 |---|---|---|
+| 5.0 | 27-Aug-2026 | Recertification - Updated Formatting |
 | 4.0 | 03-Jun-2026 | Replace references to "Cisco Smart Software Manager (SSM)" with "Cisco License Central." |
 | 3.0 | 05-Sep-2024 | Dismissed False Positive CCW Alert
 Reviewed for formatting and grammar |
