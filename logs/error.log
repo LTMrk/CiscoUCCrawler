@@ -19878,3 +19878,16 @@
 [2026-09-01T14:11:56.702394] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt51262
 [2026-09-01T14:11:58.452741] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5/csaf/cisco-sa-cuic-sql-inject-2qbfWSm5.json
 [2026-09-01T14:12:02.796911] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d/csaf/cisco-sa-notice-LDquvx5d.json
+[2026-09-01T14:14:52.282281] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T14:14:56.233670] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T14:16:06.971816] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T14:16:37.225636] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26/csaf/cisco-sa-clamav-WuuvVd26.json
+[2026-09-01T14:17:09.433871] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cisco.com/bugsearch/bug/CSCwu59475
+[2026-09-01T14:17:13.787110] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cisco.com/bugsearch/bug/CSCwu65985
+[2026-09-01T14:17:17.912877] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cisco.com/bugsearch/bug/CSCwu99410
+[2026-09-01T14:17:21.968079] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh/csaf/cisco-sa-fmc-static-cred-BET3Cjh.json
+[2026-09-01T14:17:24.290821] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwv96220
+[2026-09-01T14:17:26.361833] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF/csaf/cisco-sa-asaftd-vpn-dos-dzv4mQFF.json
+[2026-09-01T14:17:32.117850] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu18179
+[2026-09-01T14:17:32.304215] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe/csaf/cisco-sa-sdwan-infodis-SPuJBDCe.json
+[2026-09-01T14:17:36.444847] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-sdwan-faLcR3K/csaf/cisco-sa-hardening-sdwan-faLcR3K.json

@@ -1,105 +1,5 @@
 [
   {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu34288",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu59475",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu65985",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu78432",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu99410",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwv57797",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-WuuvVd26/csaf/cisco-sa-clamav-WuuvVd26.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv87285",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv87286",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv87283",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv91588",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwu34288",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwv57797",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwu78432",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwu59475",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwu65985",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cisco.com/bugsearch/bug/CSCwu99410",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt95997",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh/csaf/cisco-sa-fmc-static-cred-BET3Cjh.json",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwv96220",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-vpn-dos-dzv4mQFF/csaf/cisco-sa-asaftd-vpn-dos-dzv4mQFF.json",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/security/defense-center/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu18179",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-infodis-SPuJBDCe/csaf/cisco-sa-sdwan-infodis-SPuJBDCe.json",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-sdwan-faLcR3K/csaf/cisco-sa-hardening-sdwan-faLcR3K.json",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-mltvnps2-JxpWm7R",
     "depth": 2
   },
@@ -7470,5 +7370,9 @@
   {
     "url": "https://sec.cloudapps.cisco.com/security/center/home.x",
     "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/defense-center/series.html",
+    "depth": 3
   }
 ]
