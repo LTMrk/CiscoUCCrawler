@@ -5732,6 +5732,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuz48341": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuz48341-f97c077ef2",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:42:39.947630+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T20:42:39.947643+00:00",
+      "next_check": "2026-09-02T20:42:39.947643+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuz97687": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuz97687-6549e0d42e",
@@ -34044,10 +34056,10 @@
       "first_seen": "2026-08-21T02:50:40.969088+00:00",
       "last_changed": "2026-08-21T02:50:40.969088+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:57.244865+00:00",
-      "next_check": "2026-08-26T05:13:57.244865+00:00",
+      "last_seen": "2026-09-01T20:42:43.914416+00:00",
+      "next_check": "2026-09-05T20:42:43.914416+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211578-Install-and-Configure-the-Shibboleth-Ide.html": {
       "content_sha": "f91d237f2acef6e0525c0ac8788c4e5a5a85f913254589c2c96094157fcdf88b",
@@ -34161,10 +34173,10 @@
       "first_seen": "2026-08-21T06:52:00.925816+00:00",
       "last_changed": "2026-08-21T06:52:00.925816+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:14:14.368644+00:00",
-      "next_check": "2026-08-26T05:14:14.368644+00:00",
+      "last_seen": "2026-09-01T20:43:45.573433+00:00",
+      "next_check": "2026-09-05T20:43:45.573433+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/116178-technote-cvp-00.html": {
       "content_sha": "0c3d162b3b1a5c5e10245d3635c4f0e95310559a0b86af28b9098f1cbf4de71c",
@@ -34746,10 +34758,10 @@
       "first_seen": "2026-08-21T13:38:47.982343+00:00",
       "last_changed": "2026-08-21T13:38:47.982343+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:16:55.449470+00:00",
-      "next_check": "2026-08-26T05:16:55.449470+00:00",
+      "last_seen": "2026-09-01T20:45:30.798693+00:00",
+      "next_check": "2026-09-05T20:45:30.798693+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200918-Install-a-Cisco-Expressway-Series-Releas.html": {
       "content_sha": "6aef8f1d101ec7b8c9b86baa3adfe752d1e99f68450cecf9e43ff115eb664068",
@@ -34759,10 +34771,10 @@
       "first_seen": "2026-08-16T15:42:11.858638+00:00",
       "last_changed": "2026-08-16T15:42:11.858638+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:00.723668+00:00",
-      "next_check": "2026-08-25T13:39:00.723668+00:00",
+      "last_seen": "2026-09-01T20:45:44.870927+00:00",
+      "next_check": "2026-09-09T20:45:44.870927+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200923-Install-an-Expressway-Series-Option-Key.html": {
       "content_sha": "6bdfefceabfb42d1dab186883663fac0c1235ebc44a0c5b7af3ddcf5ecb59cd5",
@@ -34772,10 +34784,10 @@
       "first_seen": "2026-08-21T13:38:52.277124+00:00",
       "last_changed": "2026-08-21T13:38:52.277124+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:16:59.514526+00:00",
-      "next_check": "2026-08-26T05:16:59.514526+00:00",
+      "last_seen": "2026-09-01T20:45:36.425235+00:00",
+      "next_check": "2026-09-05T20:45:36.425235+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/214390-expressway-vcs-screencast-video-list.html": {
       "content_sha": null,
@@ -34836,10 +34848,10 @@
       "first_seen": "2026-08-16T15:41:46.498869+00:00",
       "last_changed": "2026-08-16T15:41:46.498869+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:40:07.493325+00:00",
-      "next_check": "2026-08-25T13:40:07.493325+00:00",
+      "last_seen": "2026-09-01T20:46:57.600855+00:00",
+      "next_check": "2026-09-09T20:46:57.600855+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/225482-prepare-expressway-for-client.html": {
       "content_sha": "f35ad83ec230fcf64e0fe2b3a448cc59e690b1319ad3466f783cebe7c8f38323",
@@ -34855,17 +34867,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.html": {
-      "content_sha": "7eaf2eeb299989ceceff025afd9e463eda947eba0efee5add544c15301ebc99f",
+      "content_sha": "05b11a9d9d5b0aa24cee26071cc38317b0cded20b9a5ceb0c58cd8a1f774e8d7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:43:19.404433+00:00",
-      "last_changed": "2026-08-16T15:43:19.404433+00:00",
+      "last_changed": "2026-09-01T20:49:30.491589+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:37.115364+00:00",
-      "next_check": "2026-08-25T17:46:37.115364+00:00",
+      "last_seen": "2026-09-01T20:49:30.491589+00:00",
+      "next_check": "2026-09-02T20:49:30.491589+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200198-Configuring-Dial-via-Office-Reverse-to-W.html": {
       "content_sha": "7b240355d387b621731da7edfe0c61141ab6d0f484217d7585929cd5420c9ac4",
@@ -34875,10 +34887,10 @@
       "first_seen": "2026-08-16T21:58:12.418958+00:00",
       "last_changed": "2026-08-16T21:58:12.418958+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:40:03.553102+00:00",
-      "next_check": "2026-08-25T13:40:03.553102+00:00",
+      "last_seen": "2026-09-01T20:46:53.350205+00:00",
+      "next_check": "2026-09-09T20:46:53.350205+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200928-Jabber-SIP-URI-calls-over-MRA.html": {
       "content_sha": "b7aaeaeda32ee5458918586a94f26612ed36aaabe0d0c7c6974f8c40ffb1a446",
@@ -34888,10 +34900,10 @@
       "first_seen": "2026-08-21T13:39:51.340001+00:00",
       "last_changed": "2026-08-21T13:39:51.340001+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:17:03.729191+00:00",
-      "next_check": "2026-08-26T05:17:03.729191+00:00",
+      "last_seen": "2026-09-01T20:46:40.399728+00:00",
+      "next_check": "2026-09-05T20:46:40.399728+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.html": {
       "content_sha": "135a47f37b4f15e8dc21eed4c64923f5d416e760860cf24e469efe36a358a85b",
@@ -34901,10 +34913,10 @@
       "first_seen": "2026-08-21T13:39:43.060701+00:00",
       "last_changed": "2026-08-21T13:39:43.060701+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:17:09.989801+00:00",
-      "next_check": "2026-08-26T05:17:09.989801+00:00",
+      "last_seen": "2026-09-01T20:46:32.098131+00:00",
+      "next_check": "2026-09-05T20:46:32.098131+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.html": {
       "content_sha": "00feeb358d74325cd19516f8a0037e59826411b4566269bae26e3f3c652b6808",
@@ -34927,10 +34939,10 @@
       "first_seen": "2026-08-21T07:05:32.902746+00:00",
       "last_changed": "2026-08-21T07:05:32.902746+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:17:17.585472+00:00",
-      "next_check": "2026-08-26T05:17:17.585472+00:00",
+      "last_seen": "2026-09-01T20:46:26.848742+00:00",
+      "next_check": "2026-09-05T20:46:26.848742+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.html": {
       "content_sha": "82b4fc3eaf56950af99948531561dcb2af454aa98584dace905a64ee16493a1c",
@@ -34940,10 +34952,10 @@
       "first_seen": "2026-08-21T13:39:46.891646+00:00",
       "last_changed": "2026-08-21T13:39:46.891646+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:17:22.240387+00:00",
-      "next_check": "2026-08-26T05:17:22.240387+00:00",
+      "last_seen": "2026-09-01T20:46:36.539657+00:00",
+      "next_check": "2026-09-05T20:46:36.539657+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.html": {
       "content_sha": "ccdf4958c87fc47ab3703f0155915c3a443504cac287a2d96b4c6896d8fad77f",
@@ -34992,10 +35004,10 @@
       "first_seen": "2026-08-16T15:41:58.869155+00:00",
       "last_changed": "2026-08-16T15:41:58.869155+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:17.330061+00:00",
-      "next_check": "2026-08-25T13:39:17.330061+00:00",
+      "last_seen": "2026-09-01T20:46:01.124046+00:00",
+      "next_check": "2026-09-09T20:46:01.124046+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213865-configure-and-troubleshoot-xmpp-federati.html": {
       "content_sha": "0fee4dec87b72c56a35288d6f2ae587cab40df54bb8c963a196d26d65c3e53a2",
@@ -35005,10 +35017,10 @@
       "first_seen": "2026-08-16T15:42:24.461416+00:00",
       "last_changed": "2026-08-16T15:42:24.461416+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:38.099654+00:00",
-      "next_check": "2026-08-25T13:39:38.099654+00:00",
+      "last_seen": "2026-09-01T20:46:22.656054+00:00",
+      "next_check": "2026-09-09T20:46:22.656054+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213872-configure-and-troubleshoot-collaboration.html": {
       "content_sha": "fb596205d59ea1a227ea46807acb63741b00f2d9e94683bdaeaf38c9e8253c0c",
@@ -35018,10 +35030,10 @@
       "first_seen": "2026-08-16T15:42:03.244483+00:00",
       "last_changed": "2026-08-16T15:42:03.244483+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:21.600816+00:00",
-      "next_check": "2026-08-25T13:39:21.600816+00:00",
+      "last_seen": "2026-09-01T20:46:05.805250+00:00",
+      "next_check": "2026-09-09T20:46:05.805250+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215405-how-to-generate-new-expressway-certifica.html": {
       "content_sha": "baa21493c953ee6a6714fc3288c420ae23f95f441ee2ef323b779e6abbd12ecb",
@@ -35031,10 +35043,10 @@
       "first_seen": "2026-08-16T15:42:20.240738+00:00",
       "last_changed": "2026-08-16T15:42:20.240738+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:33.982550+00:00",
-      "next_check": "2026-08-25T13:39:33.982550+00:00",
+      "last_seen": "2026-09-01T20:46:18.420838+00:00",
+      "next_check": "2026-09-09T20:46:18.420838+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215633-configuring-smart-licensing-on-cisco-exp.html": {
       "content_sha": "3e4e443be96098830084aa591ab37472a2b7aaa2c78c95652ed4d1b98dcbc14c",
@@ -35044,10 +35056,10 @@
       "first_seen": "2026-08-16T15:41:42.680017+00:00",
       "last_changed": "2026-08-16T15:41:42.680017+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:04.825743+00:00",
-      "next_check": "2026-08-25T13:39:04.825743+00:00",
+      "last_seen": "2026-09-01T20:45:48.857294+00:00",
+      "next_check": "2026-09-09T20:45:48.857294+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215670-generate-csr-and-upload-signed-certifica.html": {
       "content_sha": "d15d01b13bccb8998c553193ef883850b3e10dcde1be03085ace5d92da67f267",
@@ -35057,10 +35069,10 @@
       "first_seen": "2026-08-16T15:42:16.107512+00:00",
       "last_changed": "2026-08-16T15:42:16.107512+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:29.779049+00:00",
-      "next_check": "2026-08-25T13:39:29.779049+00:00",
+      "last_seen": "2026-09-01T20:46:13.982636+00:00",
+      "next_check": "2026-09-09T20:46:13.982636+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html": {
       "content_sha": "3cba0173a75015c482658ae8c02d760c47f726870708981a53737f6a2de3ee27",
@@ -35148,10 +35160,10 @@
       "first_seen": "2026-08-16T15:42:07.860819+00:00",
       "last_changed": "2026-08-16T15:42:07.860819+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:25.753413+00:00",
-      "next_check": "2026-08-25T13:39:25.753413+00:00",
+      "last_seen": "2026-09-01T20:46:09.804547+00:00",
+      "next_check": "2026-09-09T20:46:09.804547+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217660-troubleshoot-cisco-expressway-let-s-encr.html": {
       "content_sha": "5fe327995a2c3896668f7f2d322562716e2ee745c8947056c4c3108a8d74095f",
@@ -35187,10 +35199,10 @@
       "first_seen": "2026-08-16T15:43:23.400962+00:00",
       "last_changed": "2026-08-16T15:43:23.400962+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:41.153629+00:00",
-      "next_check": "2026-08-25T17:46:41.153629+00:00",
+      "last_seen": "2026-09-01T20:49:34.252957+00:00",
+      "next_check": "2026-09-09T20:49:34.252957+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217871-troubleshoot-expressway-connector-host-h.html": {
       "content_sha": "100a444c8859f31872c2ab611bb01665429562c23425445f48a05949d71e29a6",
@@ -35213,10 +35225,10 @@
       "first_seen": "2026-08-16T15:43:27.605841+00:00",
       "last_changed": "2026-08-16T15:43:27.605841+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T07:51:08.045268+00:00",
-      "next_check": "2026-08-25T07:51:08.045268+00:00",
+      "last_seen": "2026-09-01T20:49:38.768898+00:00",
+      "next_check": "2026-09-09T20:49:38.768898+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218034-renew-expressway-certificate.html": {
       "content_sha": "969248b95828eebc89e85e6895c8b5dc7e3a3bb9e786c88538e2eff06be84e47",
@@ -35226,10 +35238,10 @@
       "first_seen": "2026-08-16T15:43:15.176066+00:00",
       "last_changed": "2026-08-16T15:43:15.176066+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T07:51:03.594341+00:00",
-      "next_check": "2026-08-25T07:51:03.594341+00:00",
+      "last_seen": "2026-09-01T20:49:25.928072+00:00",
+      "next_check": "2026-09-09T20:49:25.928072+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220315-troubleshoot-expressway-upgrade-error.html": {
       "content_sha": "54fb3679f15f1b7a76770978eb001acea612cfd54af71b683b99ac96d6e8dceb",
@@ -35265,10 +35277,10 @@
       "first_seen": "2026-08-16T15:41:51.014504+00:00",
       "last_changed": "2026-08-16T15:41:51.014504+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:09.227053+00:00",
-      "next_check": "2026-08-25T13:39:09.227053+00:00",
+      "last_seen": "2026-09-01T20:45:53.179395+00:00",
+      "next_check": "2026-09-09T20:45:53.179395+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222176-understand-regex-on-expressway.html": {
       "content_sha": "8a70ce5430df8519a502e6312b3b8b404b00cc2098659edfc9d1a23b30412399",
@@ -35278,10 +35290,10 @@
       "first_seen": "2026-08-16T15:41:54.682323+00:00",
       "last_changed": "2026-08-16T15:41:54.682323+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:39:13.332200+00:00",
-      "next_check": "2026-08-25T13:39:13.332200+00:00",
+      "last_seen": "2026-09-01T20:45:57.436035+00:00",
+      "next_check": "2026-09-09T20:45:57.436035+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.html": {
       "content_sha": "16e5fdb09ce7339433e48b41f77174cd71cdf78cfe4f130e3ae264493d04cffa",
@@ -35291,10 +35303,10 @@
       "first_seen": "2026-08-16T15:43:31.553240+00:00",
       "last_changed": "2026-08-16T15:43:31.553240+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:45.226014+00:00",
-      "next_check": "2026-08-25T17:46:45.226014+00:00",
+      "last_seen": "2026-09-01T20:49:42.863212+00:00",
+      "next_check": "2026-09-09T20:49:42.863212+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00.html": {
       "content_sha": "61cee553af7ffc6e7b02edd72023f063db71559b04a135a5900304771cfc6501",
@@ -36252,23 +36264,23 @@
       "first_seen": "2026-08-16T22:09:08.418332+00:00",
       "last_changed": "2026-08-16T22:09:08.418332+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T21:40:42.480662+00:00",
-      "next_check": "2026-08-25T21:40:42.480662+00:00",
+      "last_seen": "2026-09-01T20:47:06.825335+00:00",
+      "next_check": "2026-09-09T20:47:06.825335+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html": {
-      "content_sha": "cdea0df45f3e3899693dcd4b3885fd1c1d00639c5412404dfc8619c22089af08",
+      "content_sha": "c31fc4132bbf98e2a471d879c6c9fce26f359d2f3cefa8d13a9ef53c7781208b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T22:47:48.346189+00:00",
-      "last_changed": "2026-08-16T22:47:48.346189+00:00",
+      "last_changed": "2026-09-01T20:45:40.706652+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:38:56.595626+00:00",
-      "next_check": "2026-08-25T13:38:56.595626+00:00",
+      "last_seen": "2026-09-01T20:45:40.706652+00:00",
+      "next_check": "2026-09-02T20:45:40.706652+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.html": {
       "content_sha": "e00c0cd7d108f4b9fc0a2461d0eb2fc25fcaeac7f8b9d7c67f55b0adaebbce07",
@@ -36278,10 +36290,10 @@
       "first_seen": "2026-08-21T13:39:55.325218+00:00",
       "last_changed": "2026-08-21T13:39:55.325218+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:21:22.864758+00:00",
-      "next_check": "2026-08-26T05:21:22.864758+00:00",
+      "last_seen": "2026-09-01T20:46:44.563049+00:00",
+      "next_check": "2026-09-05T20:46:44.563049+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/119398-configure-mra-00.html": {
       "content_sha": "410523f34c39f6ac0c00eeabea13460fd3af3a6b6775ce6f94fe45bd158cb4b4",
@@ -36291,10 +36303,10 @@
       "first_seen": "2026-08-21T13:39:59.230016+00:00",
       "last_changed": "2026-08-21T13:39:59.230016+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:21:26.836917+00:00",
-      "next_check": "2026-08-26T05:21:26.836917+00:00",
+      "last_seen": "2026-09-01T20:46:48.923042+00:00",
+      "next_check": "2026-09-05T20:46:48.923042+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
       "content_sha": "2607956e50ac9c6b07c9af0fc1f0aff5145dc666444f5240022dbaf2e2c5960a",
@@ -38544,17 +38556,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.html": {
-      "content_sha": "66ed7b27cd8cb6b79824b4de406c4d0c5c9f82e9ff5383f69442a4845d515d47",
+      "content_sha": "817f0cc131f58af5600503095966c110c1e9250de86e2dd852824760d7f43834",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:50:36.757700+00:00",
-      "last_changed": "2026-08-21T06:50:36.757700+00:00",
+      "last_changed": "2026-09-01T20:43:02.562302+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:29:47.322162+00:00",
-      "next_check": "2026-08-26T05:29:47.322162+00:00",
+      "last_seen": "2026-09-01T20:43:02.562302+00:00",
+      "next_check": "2026-09-02T20:43:02.562302+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-00.html": {
       "content_sha": "b20a322a7f75b551fe215f1576571235833ca224ae624e93aa64a63812e65ec7",
@@ -45510,10 +45522,10 @@
       "first_seen": "2026-08-22T01:11:35.113738+00:00",
       "last_changed": "2026-08-22T01:11:35.113738+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:02.210646+00:00",
-      "next_check": "2026-08-26T05:52:02.210646+00:00",
+      "last_seen": "2026-09-01T20:44:19.635549+00:00",
+      "next_check": "2026-09-05T20:44:19.635549+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-1SR2/release_notes/at91_b_release-notes-for-ata-191.html": {
       "content_sha": "4bb8fb2ac1129744e148b992eeb07e11aadecd3e63a5fe0a076e3e61807bbc3d",
@@ -45523,10 +45535,10 @@
       "first_seen": "2026-08-22T01:11:26.101468+00:00",
       "last_changed": "2026-08-22T01:11:26.101468+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:05.889927+00:00",
-      "next_check": "2026-08-26T05:52:05.889927+00:00",
+      "last_seen": "2026-09-01T20:44:10.795978+00:00",
+      "next_check": "2026-09-05T20:44:10.795978+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-1SR3/release_notes/at91_b_release_notes_for_ata191_12_0_1_sr3.html": {
       "content_sha": "710bd6b015e8e18203d156958dc7f10e3bcc5054a08fdca08230e4f00a99dbae",
@@ -45536,10 +45548,10 @@
       "first_seen": "2026-08-22T01:11:21.284762+00:00",
       "last_changed": "2026-08-22T01:11:21.284762+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:10.034798+00:00",
-      "next_check": "2026-08-26T05:52:10.034798+00:00",
+      "last_seen": "2026-09-01T20:44:06.582865+00:00",
+      "next_check": "2026-09-05T20:44:06.582865+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-1SR4/at91_b_cisco-ata-191-rn-1201sr4.html": {
       "content_sha": "a186baf7097bc280807fba2891beb4191a47a8a19985a389eb2ad5c5305372f6",
@@ -45549,10 +45561,10 @@
       "first_seen": "2026-08-21T12:50:30.008634+00:00",
       "last_changed": "2026-08-21T12:50:30.008634+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:14.132316+00:00",
-      "next_check": "2026-08-26T05:52:14.132316+00:00",
+      "last_seen": "2026-09-01T20:44:02.280030+00:00",
+      "next_check": "2026-09-05T20:44:02.280030+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-2/at91_b_cisco-ata-191-1202.html": {
       "content_sha": "99a594be0dd59c13db26f0a0a50c2ba6505057aa628b93becacbf3c703642e61",
@@ -45562,10 +45574,10 @@
       "first_seen": "2026-08-21T12:50:09.011185+00:00",
       "last_changed": "2026-08-21T12:50:09.011185+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:18.532681+00:00",
-      "next_check": "2026-08-26T05:52:18.532681+00:00",
+      "last_seen": "2026-09-01T20:43:58.070943+00:00",
+      "next_check": "2026-09-05T20:43:58.070943+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-3-sr1/at91_b_cisco-ata-191-1203sr1.html": {
       "content_sha": "e3477ea62095b7f79693b28a5ad79f1804d9f51953ac840a915cd68f50093037",
@@ -45575,10 +45587,10 @@
       "first_seen": "2026-08-21T12:49:52.085564+00:00",
       "last_changed": "2026-08-21T12:49:52.085564+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:23.039210+00:00",
-      "next_check": "2026-08-26T05:52:23.039210+00:00",
+      "last_seen": "2026-09-01T20:43:49.690822+00:00",
+      "next_check": "2026-09-05T20:43:49.690822+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-0-3/at91_b_cisco-ata-191-1203.html": {
       "content_sha": "1fc34f8427a8bb41cb1872a0625b17320bb8005b5497bf8e42ba4bc659341c18",
@@ -45588,10 +45600,10 @@
       "first_seen": "2026-08-21T12:49:56.296541+00:00",
       "last_changed": "2026-08-21T12:49:56.296541+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:27.115049+00:00",
-      "next_check": "2026-08-26T05:52:27.115049+00:00",
+      "last_seen": "2026-09-01T20:43:54.236152+00:00",
+      "next_check": "2026-09-05T20:43:54.236152+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-1-1SR1/release_notes/at91_b_ata-1201sr1.html": {
       "content_sha": "87adf7d93a0d385269690976cc1f03f3b143a0214f0364839785971d5c8c9264",
@@ -45601,10 +45613,10 @@
       "first_seen": "2026-08-22T01:11:30.573095+00:00",
       "last_changed": "2026-08-22T01:11:30.573095+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:52:31.277471+00:00",
-      "next_check": "2026-08-26T05:52:31.277471+00:00",
+      "last_seen": "2026-09-01T20:44:15.345939+00:00",
+      "next_check": "2026-09-05T20:44:15.345939+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_00.html": {
       "content_sha": "0ec268396c5c289d0e59a72c71a479fbcb7c169e69cab1b0acbf30f2ff2f5e64",
@@ -45991,10 +46003,10 @@
       "first_seen": "2026-08-22T01:11:45.737488+00:00",
       "last_changed": "2026-08-22T01:11:45.737488+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:54:41.951222+00:00",
-      "next_check": "2026-08-26T05:54:41.951222+00:00",
+      "last_seen": "2026-09-01T20:45:09.775457+00:00",
+      "next_check": "2026-09-05T20:45:09.775457+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-0SR3/releasenotes/at92_b_ata-191-and-192-release.html": {
       "content_sha": "2b18e71442d5bde4c97389beb71d1ead6055ed898de62f9a2781021eb29f2e13",
@@ -46004,10 +46016,10 @@
       "first_seen": "2026-08-22T01:11:40.383044+00:00",
       "last_changed": "2026-08-22T01:11:40.383044+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:54:46.165350+00:00",
-      "next_check": "2026-08-26T05:54:46.165350+00:00",
+      "last_seen": "2026-09-01T20:45:05.359773+00:00",
+      "next_check": "2026-09-05T20:45:05.359773+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-0SR4/releasenotes/at92_b_ata-191_192_rn-1110msr4.html": {
       "content_sha": "82e4a219347e6ae4eac3b457f57002611f9f2828a3997119986336c4715287af",
@@ -46017,10 +46029,10 @@
       "first_seen": "2026-08-21T12:50:38.145889+00:00",
       "last_changed": "2026-08-21T12:50:38.145889+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:54:50.531902+00:00",
-      "next_check": "2026-08-26T05:54:50.531902+00:00",
+      "last_seen": "2026-09-01T20:45:01.184669+00:00",
+      "next_check": "2026-09-05T20:45:01.184669+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1/release_notes/at92_b_cisco-ata-191-and-192.html": {
       "content_sha": "3b8fe28ebe0a1ed659c3809555ef1a2c6a54b601328310dfa7d980452b5e78d7",
@@ -46030,10 +46042,10 @@
       "first_seen": "2026-08-22T01:11:56.148208+00:00",
       "last_changed": "2026-08-22T01:11:56.148208+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:54:54.625594+00:00",
-      "next_check": "2026-08-26T05:54:54.625594+00:00",
+      "last_seen": "2026-09-01T20:45:18.014941+00:00",
+      "next_check": "2026-09-05T20:45:18.014941+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-1-1SR1/releasenotes/at92_b_mpp-release-1110sr1-ata-191.html": {
       "content_sha": "0143a649832f187a1d78fdbd7f657dd3201e2238b1f71dda83775b2065eceb1d",
@@ -46043,10 +46055,10 @@
       "first_seen": "2026-08-22T01:11:50.570641+00:00",
       "last_changed": "2026-08-22T01:11:50.570641+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:54:58.950274+00:00",
-      "next_check": "2026-08-26T05:54:58.950274+00:00",
+      "last_seen": "2026-09-01T20:45:14.137951+00:00",
+      "next_check": "2026-09-05T20:45:14.137951+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-1/releasenotes/at9x_b_ata-191_192-rn-1121.html": {
       "content_sha": "e9b772e7df91ff79b1b0ab21cd54d53dd0765ac87775a4d0542c666111389080",
@@ -46056,10 +46068,10 @@
       "first_seen": "2026-08-21T12:50:33.997626+00:00",
       "last_changed": "2026-08-21T12:50:33.997626+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:03.439421+00:00",
-      "next_check": "2026-08-26T05:55:03.439421+00:00",
+      "last_seen": "2026-09-01T20:44:57.289495+00:00",
+      "next_check": "2026-09-05T20:44:57.289495+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-2/releasenotes/at9x_b_ata-191_192-rn-1122.html": {
       "content_sha": "6757544824931ef721dbd1246c9a391f201232323ac44720fd9f3233c325292a",
@@ -46069,10 +46081,10 @@
       "first_seen": "2026-08-21T12:50:26.074024+00:00",
       "last_changed": "2026-08-21T12:50:26.074024+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:07.334626+00:00",
-      "next_check": "2026-08-26T05:55:07.334626+00:00",
+      "last_seen": "2026-09-01T20:44:52.928149+00:00",
+      "next_check": "2026-09-05T20:44:52.928149+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-3/ATA-Release-Notes-for-MPP-11-2-3.html": {
       "content_sha": "12246e4733bb915489576874404022d18452078754f7540b8c9472d6be30832d",
@@ -46082,10 +46094,10 @@
       "first_seen": "2026-08-21T12:50:17.630172+00:00",
       "last_changed": "2026-08-21T12:50:17.630172+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:11.898772+00:00",
-      "next_check": "2026-08-26T05:55:11.898772+00:00",
+      "last_seen": "2026-09-01T20:44:44.581172+00:00",
+      "next_check": "2026-09-05T20:44:44.581172+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-4/releasenotes/at9x_b_ata-191_192-rn-1124.html": {
       "content_sha": "c731561e1c208e692d8977778573900bfeb8efbd70887ca7e97bb8766cdfcd53",
@@ -46095,10 +46107,10 @@
       "first_seen": "2026-08-21T12:50:13.442501+00:00",
       "last_changed": "2026-08-21T12:50:13.442501+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:16.168236+00:00",
-      "next_check": "2026-08-26T05:55:16.168236+00:00",
+      "last_seen": "2026-09-01T20:44:40.443121+00:00",
+      "next_check": "2026-09-05T20:44:40.443121+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-5/releasenotes/at9x_b_ata-191_192-rn-1125.html": {
       "content_sha": "5cf6cd3c2668609d75058fba48e567d697be49e596b279d724e495a43eafd1a8",
@@ -46108,10 +46120,10 @@
       "first_seen": "2026-08-21T12:50:04.832128+00:00",
       "last_changed": "2026-08-21T12:50:04.832128+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:20.091257+00:00",
-      "next_check": "2026-08-26T05:55:20.091257+00:00",
+      "last_seen": "2026-09-01T20:44:36.160439+00:00",
+      "next_check": "2026-09-05T20:44:36.160439+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-1/releasenotes/at9x_b_ata-191_192-rn-1131.html": {
       "content_sha": "28314c2d376e4dcfbffd211fff9d70cc294d19ee8b06d2d964a9e86266c78823",
@@ -46121,10 +46133,10 @@
       "first_seen": "2026-08-21T12:50:00.595687+00:00",
       "last_changed": "2026-08-21T12:50:00.595687+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:23.987403+00:00",
-      "next_check": "2026-08-26T05:55:23.987403+00:00",
+      "last_seen": "2026-09-01T20:44:32.332478+00:00",
+      "next_check": "2026-09-05T20:44:32.332478+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2/releasenotes/at9x_b_ata-191_192-rn-1132.html": {
       "content_sha": "87b052c1be91806ca54b75907a558149e62025dcec92bebfa24e9e1933999ec0",
@@ -46134,10 +46146,10 @@
       "first_seen": "2026-08-21T12:49:47.762062+00:00",
       "last_changed": "2026-08-21T12:49:47.762062+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:28.325666+00:00",
-      "next_check": "2026-08-26T05:55:28.325666+00:00",
+      "last_seen": "2026-09-01T20:44:27.697819+00:00",
+      "next_check": "2026-09-05T20:44:27.697819+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-3-2SR1/releasenotes/at9x_b_ata-191_192-rn-1132sr1.html": {
       "content_sha": "b5f244726615ba9a51e1bb73f4644887f4a71792b23ce833bc2d132bef54efae",
@@ -46147,10 +46159,10 @@
       "first_seen": "2026-08-21T12:49:43.343828+00:00",
       "last_changed": "2026-08-21T12:49:43.343828+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:32.743965+00:00",
-      "next_check": "2026-08-26T05:55:32.743965+00:00",
+      "last_seen": "2026-09-01T20:44:23.297583+00:00",
+      "next_check": "2026-09-05T20:44:23.297583+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/12-2-2SR1/releasenotes/at9x_b_ata-191-192-rn_11_2_2_sr1.html": {
       "content_sha": "b2d8d9e1a17005c8677ba37d82396ff227e1a80b7d67509e5632d7bba2293332",
@@ -46160,10 +46172,10 @@
       "first_seen": "2026-08-21T12:50:21.824204+00:00",
       "last_changed": "2026-08-21T12:50:21.824204+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:55:36.930549+00:00",
-      "next_check": "2026-08-26T05:55:36.930549+00:00",
+      "last_seen": "2026-09-01T20:44:48.947060+00:00",
+      "next_check": "2026-09-05T20:44:48.947060+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cdce/dx600/compliance/rcsi-cdce.html": {
       "content_sha": "fab57422dc45c635584a0c88bb09beb2ab6c82d1fbb220dbaf6a1012b297085b",
@@ -141945,10 +141957,10 @@
       "first_seen": "2026-08-21T06:53:25.008215+00:00",
       "last_changed": "2026-08-21T06:53:25.008215+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:28.260751+00:00",
-      "next_check": "2026-08-26T16:09:28.260751+00:00",
+      "last_seen": "2026-09-01T20:42:50.449751+00:00",
+      "next_check": "2026-09-05T20:42:50.449751+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-icm-configuration.html": {
       "content_sha": "7819b98781b66b7b247af4bc2e0f21e6efeb773bcde41b4ba94bc0ee97aa41fb",
@@ -142062,10 +142074,10 @@
       "first_seen": "2026-08-16T20:53:59.228185+00:00",
       "last_changed": "2026-08-16T20:53:59.228185+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:10:08.900079+00:00",
-      "next_check": "2026-08-28T16:10:08.900079+00:00",
+      "last_seen": "2026-09-01T20:43:07.072874+00:00",
+      "next_check": "2026-09-09T20:43:07.072874+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-admin-guide-for-cisco-unified-customer-voice-portal_chapter_01.html": {
       "content_sha": "8ac4caa27a6c870d6af2fa4f0310e94b7e521f24d586e8db7bd9520632f2d96f",
@@ -142192,10 +142204,10 @@
       "first_seen": "2026-08-21T06:50:28.042516+00:00",
       "last_changed": "2026-08-21T06:50:28.042516+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:11:00.611762+00:00",
-      "next_check": "2026-08-26T16:11:00.611762+00:00",
+      "last_seen": "2026-09-01T20:42:54.247046+00:00",
+      "next_check": "2026-09-05T20:42:54.247046+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide/ccvp_b_1261-element-specifications-guide_index.html": {
       "content_sha": "8eaf6132282f5bff2be1c107116bc61ceeb235358924274cec865e93997948b2",
@@ -143024,10 +143036,10 @@
       "first_seen": "2026-08-21T06:50:49.425060+00:00",
       "last_changed": "2026-08-21T06:50:49.425060+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:18:11.030742+00:00",
-      "next_check": "2026-08-26T16:18:11.030742+00:00",
+      "last_seen": "2026-09-01T20:43:15.564427+00:00",
+      "next_check": "2026-09-05T20:43:15.564427+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/featureguide/ccvp_b_1261-feature-guide-writing-scripts-for-cisco/ccvp_b_1252-feature-guide-writing-scripts-for-cisco_chapter_00.html": {
       "content_sha": "9dd834596dcb75d00168264da40acdc1d9341872927ce3a36d5b44a404ebc7dd",
@@ -143076,10 +143088,10 @@
       "first_seen": "2026-08-21T06:50:31.943980+00:00",
       "last_changed": "2026-08-21T06:50:31.943980+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:18:32.422697+00:00",
-      "next_check": "2026-08-26T16:18:32.422697+00:00",
+      "last_seen": "2026-09-01T20:42:58.046295+00:00",
+      "next_check": "2026-09-05T20:42:58.046295+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/installandupgrade/guide/ccvp_b_1261-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal_chapter_01.html": {
       "content_sha": "8f60a56ca3860983567c3550fa633f30fb3dd340a5673dd457b706eeb90b3b07",
@@ -143180,10 +143192,10 @@
       "first_seen": "2026-08-21T06:51:56.440785+00:00",
       "last_changed": "2026-08-21T06:51:56.440785+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:19:05.921623+00:00",
-      "next_check": "2026-08-26T16:19:05.921623+00:00",
+      "last_seen": "2026-09-01T20:43:32.498171+00:00",
+      "next_check": "2026-09-05T20:43:32.498171+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/operations/guide/ccvp_b_1261-operations-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal_chapter_01.html": {
       "content_sha": "ceffe73cc2385f51898ac4809581a6e51b6c598aec1bd3a107af68141dc9f94c",
@@ -143479,10 +143491,10 @@
       "first_seen": "2026-08-16T20:54:07.498152+00:00",
       "last_changed": "2026-08-16T20:54:07.498152+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:20:42.963679+00:00",
-      "next_check": "2026-08-28T16:20:42.963679+00:00",
+      "last_seen": "2026-09-01T20:43:10.966770+00:00",
+      "next_check": "2026-09-09T20:43:10.966770+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/reporting/ccvp_b_1261-reportingguide-cvp/ccvp_b_1261-reportingguide-cvp_chapter_00.html": {
       "content_sha": "e0cddaa7d323e750b896b748a31e0787d10ea22bd54668dc0c4312d53550bb6f",
@@ -143570,10 +143582,10 @@
       "first_seen": "2026-08-21T06:51:52.178392+00:00",
       "last_changed": "2026-08-21T06:51:52.178392+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:21:14.886263+00:00",
-      "next_check": "2026-08-26T16:21:14.886263+00:00",
+      "last_seen": "2026-09-01T20:43:36.792932+00:00",
+      "next_check": "2026-09-05T20:43:36.792932+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/sayitsmart/guide/ccvp_b_1261-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/ccvp_b_1251-say-it-smart-specifications-for-cisco-unified-customer-voice-portal_chapter_00.html": {
       "content_sha": "0c21d5d66c691ab80485f7ae4cc475cfb1879367132d0b567f68ad3481d4b33a",
@@ -143765,10 +143777,10 @@
       "first_seen": "2026-08-21T06:51:44.151689+00:00",
       "last_changed": "2026-08-21T06:51:44.151689+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:22:18.079063+00:00",
-      "next_check": "2026-08-26T16:22:18.079063+00:00",
+      "last_seen": "2026-09-01T20:43:41.315343+00:00",
+      "next_check": "2026-09-05T20:43:41.315343+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/user/guide/ccvp_b_1261-user-guide-for-cisco-unified-cvp-vxml-server-and-call-studio/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_appendix_01001.html": {
       "content_sha": "fa6b318b54c113d6a80169b8e5c7788f5b3f266193d543a4db7dcb52ac3124aa",
@@ -143934,10 +143946,10 @@
       "first_seen": "2026-08-21T06:51:48.182270+00:00",
       "last_changed": "2026-08-21T06:51:48.182270+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:23:12.568310+00:00",
-      "next_check": "2026-08-26T16:23:12.568310+00:00",
+      "last_seen": "2026-09-01T20:43:28.263811+00:00",
+      "next_check": "2026-09-05T20:43:28.263811+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/user/guide/ccvp_b_1261-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1261/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_appendix_01001.html": {
       "content_sha": "28baabcbbf9ef1e883fc5bfeaa9d0aecb35bba9c84a43dc90eca691360887098",
@@ -179456,10 +179468,10 @@
       "first_seen": "2026-08-16T15:41:00.071103+00:00",
       "last_changed": "2026-08-16T15:41:00.071103+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:43:09.182018+00:00",
-      "next_check": "2026-08-29T02:43:09.182018+00:00",
+      "last_seen": "2026-09-01T20:47:57.543809+00:00",
+      "next_check": "2026-09-09T20:47:57.543809+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_front-panel-layout.html": {
       "content_sha": "2b0a8932e55377ec7d0ff489dc96d0b86f859fae9a1ec26ffeaeb2d9310cd8e3",
@@ -179586,10 +179598,10 @@
       "first_seen": "2026-08-16T15:41:29.546276+00:00",
       "last_changed": "2026-08-16T15:41:29.546276+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:43:51.047622+00:00",
-      "next_check": "2026-08-29T02:43:51.047622+00:00",
+      "last_seen": "2026-09-01T20:48:26.314419+00:00",
+      "next_check": "2026-09-09T20:48:26.314419+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_access-the-expressway-user-interface.html": {
       "content_sha": "16c87caf761191b28e4c36d1863e8fdac122dd99dd5086751984c21d5814ff1e",
@@ -180015,10 +180027,10 @@
       "first_seen": "2026-08-16T15:41:04.234849+00:00",
       "last_changed": "2026-08-16T15:41:04.234849+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:50:13.910508+00:00",
-      "next_check": "2026-08-29T02:50:13.910508+00:00",
+      "last_seen": "2026-09-01T20:48:01.516127+00:00",
+      "next_check": "2026-09-09T20:48:01.516127+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-3-1/CE1300/exwy_b_cisco-expressway-ce1300-appliance-installation-guide-x1431/exwy_m_access-the-expressway-user-interface.html": {
       "content_sha": "fe37ad88ca367eb8c6a2b7260b421ea6abc1e062821918a447850a0046ea43f0",
@@ -181159,10 +181171,10 @@
       "first_seen": "2026-08-16T15:38:51.096455+00:00",
       "last_changed": "2026-08-16T15:38:51.096455+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:56:24.097039+00:00",
-      "next_check": "2026-08-29T02:56:24.097039+00:00",
+      "last_seen": "2026-09-01T20:47:41.375352+00:00",
+      "next_check": "2026-09-09T20:47:41.375352+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-0-11/exwy_b_cisco-expressway-release-note-x14011.html": {
       "content_sha": "d19da3b52b23240d9650894f51eeebfd692ba9290ccee710201b86cbbaaf2f4d",
@@ -181172,10 +181184,10 @@
       "first_seen": "2026-08-16T15:38:38.156408+00:00",
       "last_changed": "2026-08-16T15:38:38.156408+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:56:28.715435+00:00",
-      "next_check": "2026-08-29T02:56:28.715435+00:00",
+      "last_seen": "2026-09-01T20:47:28.105085+00:00",
+      "next_check": "2026-09-09T20:47:28.105085+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-0-2/exwy_b_cisco-expressway-release-note-x1402.html": {
       "content_sha": "10375856276cfd39789a6e5201318918b3ee2001a9d91e146404412a48b87cb8",
@@ -181289,10 +181301,10 @@
       "first_seen": "2026-08-16T15:40:48.213285+00:00",
       "last_changed": "2026-08-16T15:40:48.213285+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T02:57:08.044152+00:00",
-      "next_check": "2026-08-29T02:57:08.044152+00:00",
+      "last_seen": "2026-09-01T20:47:49.349621+00:00",
+      "next_check": "2026-09-09T20:47:49.349621+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-0/expressway/exwy_b_cisco-expressway-release-note-x14-0.html": {
       "content_sha": "7d73fda011f419affebad483e8593bd83f0eeeba415f5a1aa23cbf76efb6ab64",
@@ -181315,10 +181327,10 @@
       "first_seen": "2026-08-16T15:40:44.224902+00:00",
       "last_changed": "2026-08-16T15:40:44.224902+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:28.599519+00:00",
-      "next_check": "2026-08-29T03:01:28.599519+00:00",
+      "last_seen": "2026-09-01T20:47:45.383694+00:00",
+      "next_check": "2026-09-09T20:47:45.383694+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-2/exwy_b_cisco-expressway-and-telepresence-release-note-x1422.html": {
       "content_sha": "f27e041e1eb6e7ea33a2465a462db24df68374470a3f808a539dd5a3aa95ce30",
@@ -181328,10 +181340,10 @@
       "first_seen": "2026-08-16T15:38:47.207132+00:00",
       "last_changed": "2026-08-16T15:38:47.207132+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:32.894152+00:00",
-      "next_check": "2026-08-29T03:01:32.894152+00:00",
+      "last_seen": "2026-09-01T20:47:37.055873+00:00",
+      "next_check": "2026-09-09T20:47:37.055873+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-5/Expressway-Select/exwy_b_cisco-expressway-select-release-note-x1425.html": {
       "content_sha": "a17c80e52f39f7fdd13d1e68fe76726056b11a56a79d243810aa3400e63f9e55",
@@ -181341,10 +181353,10 @@
       "first_seen": "2026-08-16T15:38:30.315744+00:00",
       "last_changed": "2026-08-25T03:01:36.927954+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:36.927954+00:00",
-      "next_check": "2026-08-26T03:01:36.927954+00:00",
+      "last_seen": "2026-09-01T20:47:20.014354+00:00",
+      "next_check": "2026-09-03T20:47:20.014354+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-5/Expressway/exwy_b_cisco-expressway-release-note-x1425.html": {
       "content_sha": "81583ea9421745a73048344ce58403932b91278c08a3d900361209b7478cbeb5",
@@ -181354,10 +181366,10 @@
       "first_seen": "2026-08-16T15:38:42.688574+00:00",
       "last_changed": "2026-08-16T15:38:42.688574+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:41.109336+00:00",
-      "next_check": "2026-08-29T03:01:41.109336+00:00",
+      "last_seen": "2026-09-01T20:47:32.734048+00:00",
+      "next_check": "2026-09-09T20:47:32.734048+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-6/Expressway-Select/exwy_b_cisco-expressway-select-release-note-x1426.html": {
       "content_sha": "c27894f601bb4d99806c7ec977f58ebd2d0db3bbd456b6abe3a4e44734303b6d",
@@ -181367,10 +181379,10 @@
       "first_seen": "2026-08-16T15:38:26.154258+00:00",
       "last_changed": "2026-08-16T15:38:26.154258+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:45.217123+00:00",
-      "next_check": "2026-08-29T03:01:45.217123+00:00",
+      "last_seen": "2026-09-01T20:47:15.502495+00:00",
+      "next_check": "2026-09-09T20:47:15.502495+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-6/exwy_b_cisco-expressway-release-note-x1426.html": {
       "content_sha": "12bf93cfb15b3f942cf27b0685a77c6e12f4efcb1be14c0a6fecd1453df81ffa",
@@ -181380,10 +181392,10 @@
       "first_seen": "2026-08-16T15:38:34.359272+00:00",
       "last_changed": "2026-08-16T15:38:34.359272+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:49.260561+00:00",
-      "next_check": "2026-08-29T03:01:49.260561+00:00",
+      "last_seen": "2026-09-01T20:47:24.120776+00:00",
+      "next_check": "2026-09-09T20:47:24.120776+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-7/exwy_b_cisco-expressway-and-cisco-expressway-select-release-note-x1427.html": {
       "content_sha": "a96ebca0b417893788730b64e99f9818db321904979205ef96e56126bbfb3bca",
@@ -181393,10 +181405,10 @@
       "first_seen": "2026-08-16T15:38:22.121945+00:00",
       "last_changed": "2026-08-16T15:38:22.121945+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:01:53.464336+00:00",
-      "next_check": "2026-08-29T03:01:53.464336+00:00",
+      "last_seen": "2026-09-01T20:47:11.244918+00:00",
+      "next_check": "2026-09-09T20:47:11.244918+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2/exwy_b_cisco-expressway-and-telepresence-release-note-x142.html": {
       "content_sha": "453952529c18e18eda7c794bd5ddeabd4defa0719267080ee1424782f21c68e3",
@@ -194809,5 +194821,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T20:37:54.790377+00:00"
+  "updated_at": "2026-09-01T20:49:42.992395+00:00"
 }

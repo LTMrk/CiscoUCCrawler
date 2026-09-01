@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.html
-retrieved_at: 2026-08-21T06:50:36.757800+00:00
+retrieved_at: 2026-09-01T20:43:02.562391+00:00
 ---
 
 Configure Customer Voice Portal (CVP) Reporting Server Database User Password
@@ -177,6 +177,16 @@ Solution: Confirm the password meets the CVP Reporting Server and local machine 
 30-Jan-2023
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Binu Santhakumaran
+
+TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Customer Voice Portal 12.6(1)
 
 | Revision | Publish Date | Comments |
 |---|---|---|

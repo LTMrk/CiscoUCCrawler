@@ -1,11 +1,17 @@
 {
-  "run_at": "2026-09-01T20:37:54.971459+00:00",
+  "run_at": "2026-09-01T20:49:43.178399+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 1,
-  "redirected": [],
+  "unchanged_count": 72,
+  "redirected": [
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuz48341 -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.html
-retrieved_at: 2026-08-16T15:43:19.404513+00:00
+retrieved_at: 2026-09-01T20:49:30.491680+00:00
 ---
 
 Resolve Collaboration Edge Most Common Issues
@@ -419,6 +419,16 @@ recertification
 04-Feb-2015
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Luis Garcia
+
+Technical Marketing Engineering Technical Leader
+
+### Customers Also Viewed
+
+- Troubleshoot Expressway Certificates
 
 | Revision | Publish Date | Comments |
 |---|---|---|

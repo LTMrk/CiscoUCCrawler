@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html
-retrieved_at: 2026-08-16T22:47:48.346286+00:00
+retrieved_at: 2026-09-01T20:45:40.706748+00:00
 ---
 
 VCS Series or Expressway Series Xconfig and Xstatus Output Collection with PuTTY
@@ -115,12 +115,6 @@ Initial Release
 Michael Jason Wall and Adam Wamsley
 
 Cisco TAC Engineers.
-
-### Customers Also Viewed
-
-- Troubleshoot Expressway Certificates
-
-- Troubleshoot Media Failure for Calls Over Expressways When SIP Inspection Is Turned On
 
 ### This Document Applies to These Products
 
