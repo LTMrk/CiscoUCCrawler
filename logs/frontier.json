@@ -1,601 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/resources/cisco_bug_bounty_faq.html",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-vwL7b0S7/csaf/cisco-sa-notice-vwL7b0S7.json",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-configuration-examples-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062",
-    "depth": 2
-  },
-  {
-    "url": "https://learninglabs.cisco.com:8867/modules/cisco-meeting-server",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/ucce_b_ucce-features-guide-12_5.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cisco-mediasense-end-of-life-faq/ta-p/3636105",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-configuration-examples-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nve6qddb/Webex-Contact-Center-Business-Rules-Engine-User-Guide",
-    "depth": 1
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nrkcquf/Webex-Contact-Center-Campaign-Manager-Reports-Manual",
-    "depth": 1
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/ngtxjux/Webex-Contact-Center-Campaign-Manager-User-Guide",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Voiceonboarding2/wcc-voice-onboarding-2-book.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/technical_paper/b_webexcc-arch-doc.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/desktop_20/webexcc_b_20-desktop-user-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-desktop-app-release-notes.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1-SR1/release-notes-for-2-3sr1.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1/n500_b_cisco-headset-release-231.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-2-1/n500_b_cisco-headset-500-series-release.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-0-1/n500_b_500-series-release-notes-for.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-1-1/n500_b_rns-500-211.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/1-5-0/releasenotes/h500_b_500-series-150-release-notes.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-hub-desktop-app-ug_hs.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/services-knowledge-base/video-series-getting-started-with-cisco-iq/ta-p/5559481",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-catalyst-center-expert-insights-series/ta-p/5149125",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-standalone-c-series-huu-utilities/ta-p/3638543",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cisco-unified-communications-manager-call-recording-and-silent/ta-p/3140565",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-monitoring-resource-handbook/ta-p/3646478",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cisco-uc-certificates-renewal-guide/ta-p/4077131",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/spa50xg-ip-phone-recovery-utility-sos-mode-recovery/ta-p/3294366",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/uc500-software-download-cisco-smart-business-communication/ta-p/3293614",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/upgrade-downgrade-firmware-of-specific-ip-phone/ta-p/3137526",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-configure-freeftpd-for-unified-communications/ta-p/3115265",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/55/lync_skype-for-business_office-365-integration.html",
-    "depth": 1
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/25/cisco-meeting-server.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-programming-reference-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-programming-reference-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-nfvis-for-unified-communication-manager/ta-p/5343267",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-review-the-changes-made-on-cucm-10-x/ta-p/3157127",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-generating-lsc-certificates-for-secure-phones/ta-p/3119717",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-spaces-in-practice-what-no-one-tells-you/ta-p/5569619",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/security-knowledge-base/ise-byod-flow-using-entra-id/ta-p/4400675",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-spaces-design-guide-architecture-sizing-amp-ap-placement/ta-p/5550331",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-bar-pro/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-kit-mini/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-usb/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eqx/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-kit-pro/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-pro-g2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-panorama/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-security-advisories-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-technical-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-maintenance-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/the-smart-hospital-revolution-cisco-spaces-for-healthcare/ta-p/5555129",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/Welcome/Welcome",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/TechDocs",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/Features",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/UseCases",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/MTR",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/UsefulLinks/Resources",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_10",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_26",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesCloud",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/ucs-platform-emulator-downloads-ucspe-4-2-2a-ucspe-4-1-2c/ta-p/3648177",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-compute-hyperconverged-with-nutanix-ism-field-guide/ta-p/5101084",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-standalone-c-series-host-update-utility-usb-image-utility/ta-p/3638625",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/QSG/p875_m_quick-started-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/user_guide/p875_m_8875-user-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/admin_guide/p875_m_8875-administration-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/282933048/type/282074288/release/9.3%25281%2529SR3",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/282933048/type/282074289/release",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283734772/type/282074288/release/9.4%25281%2529SR4",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/14.3%25281.5000%2529",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/12.0%25281.1000%2529",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.7%25281.1000%2529",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/283734772/type/282074291/release/11.5%25281%2529",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-configuration-overview-for-integrating-with-nice-recording/ta-p/3153787",
-    "depth": 2
-  },
-  {
-    "url": "https://roomos.cisco.com",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/meraki-migration-information/meraki-community-migration-where-d-it-go/ta-p/5369775",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/smart-licensing-enterprise-agreements-saas-knowledge-base/enterprise-agreement-educational-tutorials/ta-p/4923461",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-mini/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-pro-g2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eq/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/dx80/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/desktop_app/cisco-accessory-hub-desktop-app-release-notes.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_1080p-RN-dummy-cco.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/firmware/2-4-1/wdpv_b_camera-rn-241.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-command-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_camera-1080p-dummy-ag.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/additional-resources-technology-and-support-events/apjc-expert-insights-series/ta-p/5314645",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/how-to-configure-port-monitoring-span-on-a-catalyst-2940-2950/ta-p/3132032",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-learning-hub-content/introducing-meraki-smart-camera-setup/ta-p/5475098",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Share/adminguide/english/wbxs_b_administration-guide-for-cisco-webex.html",
-    "depth": 2
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286330202/type/286326861/release/RECOVERY",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-13",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-12",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-11",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-10",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-9",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-8",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/olh/meeting-management/3-7",
-    "depth": 2
-  },
-  {
-    "url": "https://meeting-infohub.cisco.com/faq/category/46/cisco-meeting-management.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-catalyst-and-meraki-better-together-in-a-cloud-managed/ta-p/5567790",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/cisco-remanufactured-equipment-knowledge-base/telia-case-study/ta-p/4571243",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-programming-reference-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/understanding-dial-plan-and-call-routing-on-cisco-meeting-server/ta-p/4777896",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/featured-video/video/6403727947112",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/featured-video/video/6403678606112",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/featured-video/video/6403987499112",
-    "depth": 2
-  },
-  {
-    "url": "https://video.cisco.com/detail/videos/featured-video/video/6403770882112",
-    "depth": 2
-  },
-  {
     "url": "https://video.cisco.com/detail/videos/featured-video/video/6403770083112",
     "depth": 2
   },
@@ -7294,5 +6698,2973 @@
   {
     "url": "https://sec.cloudapps.cisco.com/security/center/rss.x",
     "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/all-products",
+    "depth": 0
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvo51143.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/conferencing/Advisories/SW_Advisory_CSCvn81865.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-field-notices-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217658-configure-csr-for-cms-with-openssl-for-e.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-2000/222767-configure-port-mirroring-or-port-span-on.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/225405-configure-recorder-on-cms-server.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/217203-how-to-configure-blast-dial-for-cms-spac.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/216271-how-to-configure-ldap-import-on-cms-vers.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217205-how-to-configure-meeting-title-displayed.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217204-how-to-configure-in-meeting-chat-for-cms.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217201-how-to-customize-content-security-policy.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/218117-configure-and-troubleshoot-meetingapps-f.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212298-cisco-meeting-server-acano-tms-integ.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213812-cisco-meeting-server-basic-api-functions.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221776-configure-av1-feature-on-cms.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217365-configure-cisco-meeting-server-ldap-inte.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210800-configure-cms-webrtc-proxy-over-expressw.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217320-configure-cisco-meeting-server-cms-ver.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213820-configure-cisco-meeting-server-and-cucm.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221687-configure-dtmf-sequences-in-cisco-meetin.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221729-configure-example-of-cms-edge.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213481-configure-verify-and-troubleshoot-multi.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/202722-Configure-Recorder-in-CMS-Acano-Call-Bri.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213479-configure-xmpp-resiliency.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213821-configure-and-integrate-cms-single-combi.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/211261-Configure-and-Troubleshoot-CMS-live-stre.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213552-configure-and-troubleshoot-guest-and-hos.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221044-configure-and-troubleshoot-survey-featur.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221573-configure-and-troubleshoot-the-webapp-ss.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215910-configuring-ldap-users-on-cisco-meeting.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215421-disband-cisco-meeting-server-cms-datab.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210441-H-323-SIP-on-CMS-Acano-Call-Bridge.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217249-how-to-move-web-app-users-from-spaces-me.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212580-overview-on-cms-presentation-sharing-wit.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212326-step-by-step-guide-for-multiparty-licens.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-field-notices-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/200266-Configure-Fetch-Audio-Feature-to-Reduce.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211579-Install-and-Configure-the-OpenAM-Identit.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210528-Understand-ECDSA-certificates-in-an-UCCX.html",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/article/d7hvc2",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/article/utqcm7",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/article/tajemk",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nbmvb4/Cisco-Accessory-Hub-desktop-app-release-notes",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/article/rvjm4i",
+    "depth": 2
+  },
+  {
+    "url": "https://mycase.cloudapps.cisco.com/case",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/conferencing/ciscoMeetingServer/Installation/virtualization-cisco-meeting-server.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214620-upgrade-downgrade-cms-server.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/222766-troubleshoot-common-issues-regarding-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214745-ip-routing-rules-on-acano-and-cisco-meet.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214744-call-routing-logic-on-cisco-meeting-serv.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/221698-enable-secure-communication-between-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/218141-troubleshoot-cisco-smart-licensing-cloud.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217375-disable-maximum-transmission-unit-check.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215666-expected-behaviour-when-using-the-maxpee.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214623-analysis-of-callbridge-and-xmpp-connecti.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/214392-cms-screencast-video-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_preface.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_configuration-overview.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_routing-a-call.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_unified-cce-administration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_configuration-manager.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_multiple-record-configuration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_routing-clients.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_peripherals-and-trunk-groups.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_skill-targets.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_routing-and-routing-targets.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_software-configuration-for-integrated-applications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_unified-cce-user-integration-for-unified-intelligence-center.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_configuring-variables.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_network-ivrs-vrus.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_peripheral-terminology.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/ucce_m_1501_preface-port.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_system-services.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/ucce_m_1501_contact-center-enterprise.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_cisco-cloud-connect-port-utilization.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_cvp.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501-port-utilization-in-unifiedvvb.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_finesse.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_social-miner.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/ucce_m_1501_unified-intelligence-center.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/ucce_m_preface_15_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/your_security_strategy_and_unified_cce.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/encryption_support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/ipsec_and_nat_support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/unified_contact_center_security_wizard.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/window_server_firewall_configuration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/sql_server_hardening.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/certificate_management_for_secured_connections.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/auditing.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/general_antivirus_guidelines.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/remote_administration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/security_considerations_for_mobile_agent_deployments.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/other_security_considerations.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/windows_security_hardening.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cce_orchestration_windows_openssh_hardening.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/ucce_m_preface_15_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/product_architecture.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/monitoring_snmp_health.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/understanding_snmp_notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/syslog_message_interface.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/services_and_processes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/contact_center_trace_levels.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/performance_counters.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/capacity_planning.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/diagnostic_tools.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/serviceability_for_vos_based_contact_center_applications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cloud_connect_serviceability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/live_data_serviceability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cisco_identity_service_serviceability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cce_serviceability_and_monitoring_using_appdynamics.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/mib_results_example.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/unified_icm_unified_cce_snmp_notifications.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_preface.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-configuration-overview.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-routing-call-ucce-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-unified-cceadmin-for-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-configuration-manager-ucce-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-multiple-record-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-routing-clients-ucce-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-peripheral-trunk-groups-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/skill-groups-12-6-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-routing-route-targets-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-software-config-integrated-apps.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-cce-user-integration-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-configuring-variables-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-network-ivrs-vrus-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_configuration-guide-for-cisco-unified-icm-enterprise_release_1262/ucce_m_1261-peripheral-terminology-config.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/rcct_m_1262_cisco-cloud-connect-port-utilization.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_preface.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_your-security-strategy-and-unified-cce.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_encryption-support.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_ipsec-and-nat-support-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_unified-contact-center-security-wizard.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_ipsec-and-nat-support-2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_window-server-firewall-configuration.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_sql-server-hardening.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_certificate-management-for-secured-connections_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_auditing_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_general-antivirus-guidelines_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_remote-administration_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_other-security-considerations_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce_m_windows-security-hardening_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_enterprise_release_1262/ucce-m-cce-orchestration-windows-openssh-hardening-126.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_preface_01111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/rcct_m_cloud-connect-serviceability.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_62/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_preface_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/configuration-guide-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/ucce_b_1251-configuration-guide-unified-cce_chapter_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/rcct_m_cloud_connect_port_utilization.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_port_utilization_12_6_1/ucce_b_port-utilization_12_5_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_preface_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_appendix_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce-m-cce-orchestration-windows-openssh-hardening-126.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_preface_01111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_appendix_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_preface_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_chapter_01100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_125-security-guide/ucce_b_125-security-guide_appendix_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_preface_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_chapter_01100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_m_serviceabilityforcloudconnect125.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_appendix_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified12_5/ucce_b_serviceability-guide-for-cisco-unified12_5_appendix_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_preface_00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_0101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01101.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_1251-configuration-guide-unified-cce/ucce_b_1251-configuration-guide-unified-cce_chapter_01110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_01.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_0110.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_011.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_01000.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_01001.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_port-utilization_12_5/ucce_b_port-utilization_12_5_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125-database-schema-handbook-for/ucce_b_125-database-schema-handbook-for_chapter_010.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_15_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1262/ucce_m_all-tables_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_12_6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202607.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202511.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-for-es.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct_b_1501_cce-solutions-rns.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/release/guide/pcce_b_1252_pcce-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_2/release/guide/ucce_b_1252-ucce-release-notes-.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/release/guide/ucce_b_1251-ucce-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/release/guide/rcct_b_cisco_ucce_documentation_guide_12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/ucce_b_documentation_guide_1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/release/guide/ucce_b_documentation_guide_1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/release/guide/ucce_b_documentation_guide_1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_6_2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/reference/guide/ucce_b_database-schema-handbook_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125-database-schema-handbook-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125cti-server-message-reference-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-technical-reference-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/design/guide/ucce_b_ucce_soldg-for-unified-cce-1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/design/guide/ucce_b_ucce_soldg-for-unified-cce-1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/design/guide/ucce_b_ucce_soldg-for-unified-cce-1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/rcct-b-cce-es-installation-guide--release-15_01_es.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/rcct_b_vpn-less-finesse.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_stagingguide_release_15_0_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/installation/guide/ucce_b_install_upgrade_guide_1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_12_6_1-install_upgrade_guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_1261_staging-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_cti-os-system-manager-guide12-6-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_cti-os-system-manager-guide12-5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_1251-staging-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_features-guide-1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/ucce_b_cisco-unified-contact-center-enterprise-developer-reference-release-15-0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/program/guide/ucce_b_cisco-ucce_developer_guide-12-6-2-.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/program/guide/ucce_b_cisco-ucce_developer_guide-12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/program/guide/ucce_b_ctios-developer-guide_12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/program/guide/ucce_b_cisco-contact-center-gateway-deployment12_6_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/program/guide/ucce_b_cisco-unified-contact-center-enterprise_developer_guide_12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/program/guide/ucce_b_ctios-developer-guide_12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/program/guide/ucce_b_cisco-contact-center-gateway-deployment12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_scripting-and-media-routing-guide_1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/ucce_b_1262_outbound_options_guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/digital-channels/user/guide/rcct_b_manage-digital-channels.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/ucce_b_150_outbound-option-guide-for-unified.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_ucce_b_outbound-option-guide-for-unified_1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_125-outbound-option-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/reporting-concepts-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/user/guide/cfin_b_1262_cisco-desktop-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/administration/guide/ucce_b_150_administration-guide-for-cisco-unified-contact-center-enterprise.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/administration/guide/administration-guide-for-cisco-unified-contact-center-enterprise-release-1262.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/administration/guide/ucce_b_administration-guide-for-cisco-unified_1261.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/administration/guide/ucce_b_administration-guide-for-cisco-unified12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-express-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-express-15-0/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_compatibility/matrix/Unified_CCX_Software_Compatibility_Matrix_for_1501.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1reporting-user-guide/uccx_b_1252reporting-user-guide_chapter_0111.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_compatibility/matrix/Unified_CCX_Software_Compatibility_Matrix_for_1251_SU3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_compatibility/matrix/Unified_CCX_Software_Compatibility_Matrix_for_1251_SU1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_compatibility/matrix/Unified_CCX_Software_Compatibility_Matrix_for_1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/release/guide/uccx_b_1501_solution-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/ES_Releases/guide/html/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/release/guide/uccx_b_1251su3_solution-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/release/guide/uccx_b_1251su2_solution-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/release/guide/uccx_b_1251su1solution-release-notes.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/release/guide/uccx_b_uccx-solution-release-notes-125.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/ES_Releases/guide/uccx_b_uccx-es-releases.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/documentation/guide/uccx_b_1501_documentation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/documentation/guide/ccp_b_125_documenation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/documentation/guide/uccx_b_1251su3_documentation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/documentation/guide/ccp_b_1251su2_documentation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/documentation/guide/uccx_b_1251su2_documentation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/documentation/guide/uccx_b_1251su1documentation-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/documentation/guide/uccx_b_documentation-guide-125.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/reference/guide/uccx_b_1501_dbschema-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/reference/guide/uccx_b_1251su1db-schema-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/reference/guide/uccx_b_125db-schema-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/reference/guide/uccx_b_125report-developers-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/design/guide/uccx_b_1501_solution-design-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/design/guide/html/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/design/guide_new/html/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/design/guide/uccx_b_1251su2_solution-design-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/design/guide_new/uccx_b_1251su1solution-design-gude.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/ccp_b_installation-and-upgrade-guide-release-150.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/uccx_b_150_install-and-upgrade-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/install/guide/uccx_b_1251su3_install-and-upgrade-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/install/guide/uccx_b_1251su2_install-and-upgrade-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusm/express_12_5_1_SU1/install/guide/ccp_b_1251su1install-and-upgrade.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/install/guide/uccx_b_1251su1install-and-upgrade-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/ccp_b_125install-and-upgrade.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/uccx_b_125install-and-upgrade-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/uccx_b_125getting-started-ip-ivr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/features/guide/uccx_b_1501_features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/features/guide/uccx_b_1251su3_features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/features/guide/uccx_b_1251su2_features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/features/guide/uccx_b_125features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/features/guide/uccx_b_1251su1features-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_finesse-agent-and-supervisor-desktop-user-guide-release-150.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_reporting_user_guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/user/guide/uccx_b_1251su2_finesse-agent-supervisor-desktop-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1reporting-user-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_125finesse-agent-supervisor-desktop-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1finesse-agent-supervisor-desktop-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_unified-ccx-reporting-user-guide-125.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/maintain_and_operate/guide/uccx_b_1501_admin-and-operations-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-1251su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-1251su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/maintain_and_operate/guide/uccx_b_1251su3_admin-and-operations-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/maintain_and_operate/guide/uccx_b_1251su2_admin-and-operations-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/maintain_and_operate/guide/uccx_b_1251su1admin-and-operations-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/maintain_and_operate/guide/uccx_b_1251su1unified-ccx-operating-system.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-125.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_uccx-125admin-and-operations-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2/b_cc-release-2_chapter_0100.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-field-notices-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_planning-the-upgrade-15.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device/Cisco_Unified_Communications_Manager_Device_Package_Installation_and_Administration.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-field-notices-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://roomos.cisco.com/print/WhatsNew/ReleaseNotesRoomOS_10",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-command-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/cucm_b_compatibility-matrix-cucm-imp-15x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sustaining/cucm_b_readme-15su4a.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/15/cucm_b_install-guide-cucm-imp-15/cucm_m_planning-the-installation.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_upgrade-tasks.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/14_0_1/fieldNotices/cucm_b_deprecation-of-32-bit-windows-plugin-support-tapi-cucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/14_0_1/fieldNotices/cucm_b_deprecation-of-mobile-voice-access-via-h323_sip-vxml-gateways-cucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/15/fieldNotices/cucm_b_deprecation-of-app-policy-infrastructure_cum.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/15/fieldNotices/cucm_b_deprecated-rcc-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/15_x/Localization/cucm_b_compatibility-matrix-cucm-imp-15x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/15/fieldNotices/cucm_b_deprecated-h323-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/14_x/cucm_b_compatibility-matrix-cucm-imp-14x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/12_x/cucm_b_compatibility-matrix-cucm-imp-125x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/14_0_1/fieldNotices/cucm_b_deprecated-phones-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/14_0_1/fieldNotices/cucm_b_dep-phones-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/search/cscucm.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14SU6/cucm_b_pcd-rns_14SU6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/SU6/cucm_b_release-notes-for-cucm-imp-14su6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/15/SU4/cucm_b_release-notes-for-cucm-imp-15su4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU4/cucm_b_pcd-rns_15su4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14SU5/cucm_b_pcd-rns_14SU5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/SU5/cucm_b_release-notes-for-cucm-imp-14su5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/15/SU3/cucm_b_release-notes-for-cucm-imp-15su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU3/cucm_b_pcd-rns_15su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/15/cucm_b_release-notes-for-cucm-imp-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/cucm_b_release-notes-for-cucm-imp-14_0_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/15/SU1/cucm_b_release-notes-for-cucm-imp-15su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU2/cucm_b_pcd-rns_15su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU9/cucm_b_release-notes-for-cucm-imp-1251su9.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/SU4/cucm_b_release-notes-for-cucm-imp-14su4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU7/cucm_b_cli_reference-guide_release1251SU7.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU6/cucm_b_cli_reference-guide_release1251SU6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU5/cucm_b_cli_reference-guide_release1251SU5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU4/cucm_b_command-line-interface-reference-guide-125su4.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU3/cucm_b_command-line-interface-reference-guide_1251su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU2/cucm_b_command-line-interface-reference-guide-1251Su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU1/cucm_b_command-line-interface-reference-guide-1251Su1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/docguide/15/cucm_b_documentation-guide-cucm-imp-release-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/docguide/14/cucm_b_documentation-guide-cucm-imp-release-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/docguide/12_5_1/cucm_b_documentation-guide-cucm_imp_1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/os_license/cucm_lic.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/14_0_1/cucm_b_upgrade-and-migration-guide_14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/14_0_1/cucm_b_upgrade-and-migration-guide_14su3.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/14_0_1/cucm_b_install-guide-cucm-imp-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/14_SU2/cucm_b_install-guide-cucm-imp-14su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-125x.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/cucm_b_install-guide-cucm-imp-1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1SU6/cucm_b_install-guide-cucm-imp-1251su6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1SU5/cucm_b_install-guide-cucm-imp-1251su5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su7.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/212641-reinstall-procedure-for-im-presence-cl.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200788-Call-Recording-Basic-Configuration-and-T.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211453-Cisco-Emergency-Responder-Integration-wi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200581-Procedure-to-Adjust-WaterMark-in-RTMT-of.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212883-cucm-smart-licensing-mediated-model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212915-configure-cucm-smart-licensing-direct.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221069-rebuild-cucm-publisher-from-subscriber.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/configExamples/cucm_b_recording-use-cases.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217138-regeneration-of-cucm-ca-signed-certifica.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/225039-encrypt-and-decrypt-im-p-compliance.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/224887-configure-visual-voicemail-for-jabber.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-configuration-examples-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/15/cucm_b_self-care-guide-for-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/cucm_b_self-care-guide-for-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_selfcare-user-guide-1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_cisco-unified-communications-self-care_125SU1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cvlt/2_3_1/english/user/guide/xlog231.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/15/cucm_b_reporting-billing-administration-guide-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15/cucm_b_pcd-admin-guide-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide-1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14/cucm_b_pcd-admin-guide-1401.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/15/cucm_b_saml-sso-deployment-guide-release-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/14/cucm_b_saml-sso-deployment-guide-Release-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215013-how-to-perform-a-health-check-of-cucm-da.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/err_msgs/15_x/ccmalarms15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/err_msgs/14_x/ccmalarms14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/err_msgs/12_x/ccmalarms1251.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118744-technote-cucm-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200860-Q-A-for-CUCM-PHONE-CERTIFICATES-LSC-MIC.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/225746-troubleshoot-common-issues-with.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118699-technote-directory-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/225040-troubleshoot-jabber-sip-call-issues.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221038-troubleshoot-full-common-partition-in-cu.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222878-troubleshoot-issues-when-tftp-reaches-ma.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221910-troubleshoot-memory-allocation-failed-du.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222020-troubleshoot-e911-location-with-webex-uc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221657-demonstrate-ip-phone-migration-from-secu.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211351-Collect-Communication-Manager-Logs-via-t.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR3/cs78_b_7832-rn-1441sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR2/cs78_b_7832-rn-1441sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR1/cs78_b_7832-rn-1441sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR3/cs78_b_7832-rn-1431sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-sr2/cs78_b_7832-rn-1431sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR1/cs78_b_7832-rn-1431sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1/cs78_b_7832-rn-1431.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_2_1SR1/Cisco-IP-Conference-Phone-7832-Release-Notes-for-Firmware-14-2-1SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_2_1/Cisco-IP-Conference-Phone-7832-Release-Notes-for-Firmware-14-2-1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/14-1-1sr2/cs78_b_7832-rn-1411sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/cs78_b_cisco-ip-conference-phone-7832.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_0_1/14_0_1SR2/cs78_b_cisco-ip-phone-7832-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_0_1/cs78_b_release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-8-1-sr1/cs78_b_7832-release-notes-1281sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-8-1/cs78_b_rns-7832-1281.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-7-1/releasenotes/cs78_b_rns-7832-1271.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-6-1-sr1/cs78_b_7832-release-notes-1261sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-5-1SR3/releasenotes/cs78_b_7832-release-notes-1251sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-5-1SR2/releasenotes/cs78_b_conference-7832-rn-1251sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-1-1/cs78_b_conference-7832-rn-for-12_1_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-0-1/cs78_b_conference-7832-rns-12_00_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832-mpp/11-0-1/firmware/releasenotes/cs78_b_7832-mpp-rn.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14-4/cs78_b_7832-rn-1441.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-6-1/releasenotes/cs78_b_7832-release-notes-1261.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR3/p2ad_b_7800-rn-1441sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR2/p2ad_b_7800-rn-1441sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR1/p2ad_b_7800-rn-1441sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4/pa2d_b_7800-rn-1441.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR3/p2ad_b_7800-rn-1431sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1SR2/p2ad_b_7800-rn-1431sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR1/p2ad_b_7800-rn-1431sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1/p2ad_b_7800-rn-1431.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-2-1-SR4/p2ad_b_7800-rn-1421sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_2_1SR2/Cisco-IP-Phone-7800-Release-Notes-for-Firmware-14-2-1-SR2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_2_1SR1/Cisco-IP-Phone-7800-Release-Notes-for-Firmware-14-2-1SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_2_1/Cisco-IP-Phone-7800-Release-Notes-for-Firmware-14-2-1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/14-1-1sr2/pa2d_b_7800-rn-1411sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/14-1-1sr1/pa2d_b_cisco-ip-phone-7800-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/pa2d_b_cisco-ip-confernce-phone-7800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14-0-1SR3/pa2d_b_cisco-ip-phone-7800-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_0_1SR2/pa2d_b_cisco-ip-phone-7800-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_0_1/pa2d_b_release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-8-1-sr1/pa2d_b_7800-release-notes-1281sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-8-1/pa2d_b_rns-7800-1281.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-7-1/releasenotes/pa2d_b_rns-7800-1271.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-6-1-sr1/pa2d_b_7800-release-notes-1261sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-5-1SR2/releasenotes/pa2d_b_release-notes-1251sr2-7800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-5-1SR3/releasenotes/pa2d_b_7800-release-notes-1251sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-1-1SR1/releasenotes/pa2d_b_synlite-1211sr1-release-notes-7800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-1-1/releasenotes/pa2d_b_7800-release-notes-for-firmware.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-0-1/release_notes/pa2d_b_7800-release-notes-for-1201.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/11-7-1/release_notes/pa2d_b_7800-release-notes-for-1171.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/11-5-1-SR1/release_notes/pa2d_b_release-notes-for-7800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/releasenotes/pa2d_b_cisco-ip-phone-7800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/11-0-1/releasenotes/pa2d_b_cisco-ip-phone-7800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-3-1/english/releasenotes/PA2D_BK_70AD4CFB_00_7811_7821_7841_7861-rn-1031.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/10-2-1-SR1/english/releasenotes/PA2D_BK_741D8CED_00_7800-series-rn-1021sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_C93ADAA2_00_cisco-unified-ip-phone-7821.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10-1-1SR2/english/releasenotes/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10_1_1/english/release_notes/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/3pcc/11-0-1/english/firmware/releasenotes/pa2d_b_ip-phone-7800-release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/3pcc/11-0-0/english/release-notes/pa2d_b_7800-mpp-1101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/cs88_b_8832-rn-1441sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR2/cs88_b_8832-rn-1441sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR1/cs88_b_8832-rn-1441sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4/cs88_b_8832-rn-1441.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR3/cs88_b_8832-rn-1431sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR2/cs88_b_8832-rn-1431sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR1/cs88_b_8832-rn-1431sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1/cs88_b_8832-rn-1431.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14_2_1SR2/Cisco-IP-Conference-Phone-8832-Release-Notes-for-Firmware-14-2-1-SR2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14_2_1SR1/Cisco-IP-Conference-Phone-8832-Release-Notes-for-Firmware-14-2-1SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14_2_1/Cisco-IP-Conference-Phone-8832-Release-Notes-for-Firmware-14-2-1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1sr2/cs88_b_8832-rn-1411sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1/cs88_b_cisco-ip-conference-phone-8832.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14-0-1SR2/cs88_b_cisco-ip-phone-8832-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/firmware/14_0_1/cs88_b_release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1/cs88_b_rns-8832-1281.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-8-1-SR1/cs88_b_rns-8832-1281sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1SR1/cs88_b_rns-8832-1271sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-7-1/releasenotes/cs88_b_rns-8832-1271.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-6-1/releasenotes/cs88_b_8832-release-notes-1261.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR3/releasenotes/cs88_b_8832-release-notes-1251sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR2/releasenotes/cs88_b_conference-8832-rn-1251sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-1-1/cs88_b_conference-8832-rn-for-12_1_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-0-1-SR3/cs88_b_conference-8832-rn-for-12_0_1_sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4/p881_b_8800-rn-1441.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR3/p881_b_8800-rn-1431sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR2/p881_b_8800-rn-1431sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR1/p881_b_8800-rn-1431sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1/p881_b_8800-rn-1431.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1SR3/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1-SR3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1SR2/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1-SR2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1SR1/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1sr2/p881_b_8800-rn-1411sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-1-1/p881_b_cisco-ip-conference-phone-8800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR2/p881_b_cisco-ip-phone-8800-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1/p881_b_release-notes-for-140.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1-SR1/p881_b_rns-8800-1281sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1/p881_b_rns-8800-1281.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-7-1SR1/p881_b_rns-8800-1271sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-7-1/releasenotes/p881_b_rns-8800-1271.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-6-1/releasenotes/p881_b_8800-release-notes-1261.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-5-1SR3/releasenotes/p881_b_8800-release-notes-1251sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-5-1SR2/releasenotes/p881_b_synergy-lite-1251sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-1-1/releasenotes/p881_b_8800-series-release-notes-1211.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-1-1-SR1/releasenotes/p881_b_8800-series-release-notes-1211SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-0-1/release_notes/p881_b_8800-series-RN-for_12_0_1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-0-1-SR1/releasenotes/p881_b_8800-series-RN-for-12_0_1_SR1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-7-1/Release_Notes/p881_b_8800-release-notes-for-1171.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/releasenotes/p881_b_cisco-ip-phone-8800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/11-5-1-SR1/release_notes/p881_b_release-notes-8800-series-1151sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/11-0-1/releasenotes/p881_b_cisco-ip-phone-8800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR4/p881_b_8800-rn-1441sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/p881_b_8800-rn-1441sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR2/p881_b_8800-rn-1441sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR1/p881_b_8800-rn-1441sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR1/p881_b_release-notes-1401sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1-SR2/p881_b_release-notes-1281sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-6-1-sr1/p881_b_8800-release-notes-1261sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8841_8851_8861/firmware/10-2-1/english/ReleaseNotes/P881_BK_R7A58C22_00_rn-10_2_1-8841-8851-8861.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-0/english/release-notes/p881_b_8800-mpp-1101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-3-1/releasenotes/P881_BK_CA4C768A_00_cisco-ip-phone-8800-series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1sr7/releasenotes/cs38_b_cisco-unified-ip-conference-phone.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr6/cs38_b_rns-8831-1031sr6.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr2/english/release-notes/cs38_b_phone-8831-release-notes-1031sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr1/english/release-notes/CS38_BK_826679D6_00_8831-rns-10_3_1sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8831/firmware/9-3-4-sr3/cs38_b_phone-8831-mpp-release-934sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/firmware/9-3-4-sr2/cs38_b_phone-8831-3pcc-release-934sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9-3-4-SR1/release-notes/8831-3pcc-934sr1-rn.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/release-notes/8831-3pcc-934-rn.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/release_notes/p875_m_8875-release-notes.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-sr8/w881_b_wireless-8821-rln1106sr8.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-sr7/w881_b_wireless-8821-rln1106sr7.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR6/w881-b-wireless-8821-rln-1106sr6.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR5/w881-b-wireless-8821-rln-1106sr5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR4/w881-b-wireless-8821-rln-1106sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5-SR3/w881_b_wireless-8821-rns-110005sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr3/w881_b_wireless-8821-rns-110004sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr1/w881_b_wireless-8821-rns-110004sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4/w881_b_wireless-8821-rns-110004.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR5/w881_b_cisco-8821-rns-110003sr5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR6/w881_b_cisco-8821-rns-110003sr6.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR4/w881_b_cisco-8821-rns-110003sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2/w882_b_cisco-8821-rns-110002.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR1/w88x_b_cisco-8821-rns-110002sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3/w881_b_cisco-8821-rns-110003.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR3/w881_b_cisco-8821-rns-110003sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR2/w881_b_cisco-8821-rns-110003sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR1/w881_b_cisco-8821-rns-110003sr1.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR2/w88x_b_cisco-8821-rns-110002sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cdce/dx600/compliance/rcsi-cdce.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ct567b/Cisco-Desk-Camera-1080p-release-notes",
+    "depth": 2
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025/dx00_b_release-notes-dx-series-1025.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025es/dx00_b_release-notes-dx-series-1025es.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr/dx00_b_release-notes-dx-series-1025sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr4/dx00_b_release-notes-dx-series-1025sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr3/dx00_b_release-notes-dx-series-1025sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr2/dx00_b_release-notes-dx-series-1025sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024/DX00_BK_RF53F53D_00_release-notes-dx-series-1024.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024sr/DX00_BK_R548EF3A_00_release-notes-dx-series-1024sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023/DX00_BK_RB889E3E_00_release-notes-dx-series-1023.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023sr1/DX00_BK_R1761000_00_release-notes-dx-series-1023sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1022/DX00_BK_R515C747_00_release-notes-dx-series-1022.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-technical-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-bar/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-plus/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-55/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-55-dual/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-70/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-g2/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-panorama/model.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html",
+    "depth": 3
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n3kkl4v/Deploy-your-Webex-Share",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-installation-and-configuration-guides-list.html",
+    "depth": 3
   }
 ]

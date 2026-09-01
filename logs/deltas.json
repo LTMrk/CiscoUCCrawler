@@ -1,27 +1,41 @@
 {
-  "run_at": "2026-09-01T14:22:30.390780+00:00",
+  "run_at": "2026-09-01T14:49:13.651029+00:00",
   "modo": "incremental",
   "added": [
-    "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-sdwan-mltvnps2-jxpwm7r-a234bf4b01"
+    "roomos-cisco-com-doc-usefullinks-resources-1370f46412",
+    "roomos-cisco-com-doc-welcome-welcome-345e02cac2",
+    "roomos-cisco-com-doc-whatsnew-releasenotesroomos-10-1c4c26e61d",
+    "roomos-cisco-com-doc-whatsnew-releasenotesroomos-26-2e3de3a736",
+    "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-catc-file-read-wlh2vf8x-b09ba61bc2",
+    "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-clamav-88cfyyxr-c4d4643c67",
+    "sec-cloudapps-cisco-com-security-center-resources-cisco-bug-bounty-faq-html-294cc59804"
   ],
   "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwu57141-35779ca504",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscwu57142-c45e6901ee",
-    "bst-cloudapps-cisco-com-home-b6195a99b2"
-  ],
+  "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "http://sec.cloudapps.cisco.com/security/center/rss.x -> https://sec.cloudapps.cisco.com/security/center/rss.x",
-    "https://bst.cisco.com/bugsearch/bug/CSCwv93265 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwr96008 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws90638 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt16342 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt45063 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt95974 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu20827 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwu46548 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10 -> https://roomos.cisco.com/print/WhatsNew/ReleaseNotesRoomOS_10",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/admin_guide/p875_m_8875-administration-guide.html -> https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Unified-CM",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/user_guide/p875_m_8875-user-guide.html -> https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Get-started",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/1-5-0/releasenotes/h500_b_500-series-150-release-notes.html -> https://help.webex.com/article/rvjm4i",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-0-1/n500_b_500-series-release-notes-for.html -> https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-1-1/n500_b_rns-500-211.html -> https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-2-1/n500_b_cisco-headset-500-series-release.html -> https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1-SR1/release-notes-for-2-3sr1.html -> https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1/n500_b_cisco-headset-release-231.html -> https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-desktop-app-release-notes.html -> https://help.webex.com/en-us/article/nbmvb4/Cisco-Accessory-Hub-desktop-app-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-hub-desktop-app-ug_hs.html -> https://help.webex.com/en-us/products",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_1080p-RN-dummy-cco.html -> https://help.webex.com/en-us/article/ct567b/Cisco-Desk-Camera-1080p-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_camera-1080p-dummy-ag.html -> https://help.webex.com/en-us/products",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/desktop_app/cisco-accessory-hub-desktop-app-release-notes.html -> https://help.webex.com/en-us/article/nbmvb4/Cisco-Accessory-Hub-desktop-app-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/firmware/2-4-1/wdpv_b_camera-rn-241.html -> https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Share/adminguide/english/wbxs_b_administration-guide-for-cisco-webex.html -> https://help.webex.com/en-us/article/n3kkl4v/Deploy-your-Webex-Share",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/ucce_b_ucce-features-guide-12_5.html -> https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp.html -> https://help.webex.com/article/tajemk",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Voiceonboarding2/wcc-voice-onboarding-2-book.html -> https://help.webex.com/article/d7hvc2",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/desktop_20/webexcc_b_20-desktop-user-guide.html -> https://help.webex.com/en-us/landing/ld-xsu6ys-ContactCenter/Agent",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/technical_paper/b_webexcc-arch-doc.html -> https://help.webex.com/article/utqcm7"
   ],
   "semillas_encoladas": 20
 }

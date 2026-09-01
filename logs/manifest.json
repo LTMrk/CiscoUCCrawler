@@ -22505,6 +22505,45 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://roomos.cisco.com/doc/UsefulLinks/Resources": {
+      "content_sha": "cff1e27a742f8ae08dd46b554297736db84aaedcc6062bdebb4eef06d65972d7",
+      "doc_id": "roomos-cisco-com-doc-usefullinks-resources-1370f46412",
+      "etag": "W/\"35a-19f033af3d8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:45:48.117446+00:00",
+      "last_changed": "2026-09-01T14:45:48.117446+00:00",
+      "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
+      "last_seen": "2026-09-01T14:45:48.117446+00:00",
+      "next_check": "2026-09-02T14:45:48.117446+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://roomos.cisco.com/doc/Welcome/Welcome": {
+      "content_sha": "1baac8ccfc1bb217d6bf865b47d1f97c8da94bfdd07bee6dc57746d91c25b74c",
+      "doc_id": "roomos-cisco-com-doc-welcome-welcome-345e02cac2",
+      "etag": "W/\"35a-19f033af3d8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:45:27.541042+00:00",
+      "last_changed": "2026-09-01T14:45:27.541042+00:00",
+      "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
+      "last_seen": "2026-09-01T14:45:27.541042+00:00",
+      "next_check": "2026-09-02T14:45:27.541042+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_10": {
+      "content_sha": "b704939a51e2e34574f547354a5de3eb71f78ae25fb4bb2e6d4bd653a31e589b",
+      "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-10-1c4c26e61d",
+      "etag": "W/\"35a-19f033af3d8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:45:52.825364+00:00",
+      "last_changed": "2026-09-01T14:45:52.825364+00:00",
+      "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
+      "last_seen": "2026-09-01T14:45:52.825364+00:00",
+      "next_check": "2026-09-02T14:45:52.825364+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11": {
       "content_sha": "10c39a9873817dd8699c1ac9d1f3e9acb91fd4150f5ca8b544691c900f9b9167",
       "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-11-0fb8b628ac",
@@ -22517,6 +22556,31 @@
       "next_check": "2026-08-26T05:02:05.561899+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_26": {
+      "content_sha": "52adfed932528beb7599db0234544ddbcfea565c77a78c28882782503df6e908",
+      "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-26-2e3de3a736",
+      "etag": "W/\"35a-19f033af3d8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:45:56.725859+00:00",
+      "last_changed": "2026-09-01T14:45:56.725859+00:00",
+      "last_modified": "Fri, 26 Jun 2026 09:20:23 GMT",
+      "last_seen": "2026-09-01T14:45:56.725859+00:00",
+      "next_check": "2026-09-02T14:45:56.725859+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10": {
+      "content_sha": null,
+      "doc_id": "roomos-cisco-com-print-releasenotes-roomos-10-0d386f31fc",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:45:08.218497+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T14:45:08.218507+00:00",
+      "next_check": "2026-09-02T14:45:08.218507+00:00",
+      "redirect_to": "https://roomos.cisco.com/print/WhatsNew/ReleaseNotesRoomOS_10",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://sec.cloudapps.cisco.com/security/center/Search.x": {
       "content_sha": "ec85ab250c589e1ff8e0a8345e9dfbbd4189357b4bf0a0cb068ba48f96d3dcfa",
@@ -22557,6 +22621,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-catc-file-read-wLH2vf8X": {
+      "content_sha": "7bd9d8c6d958ccd3e8de518db185a6818ba406cdcb56da003e93da9081d3d97d",
+      "doc_id": "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-catc-file-read-wlh2vf8x-b09ba61bc2",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:27:11.567724+00:00",
+      "last_changed": "2026-09-01T14:27:11.567724+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T14:27:11.567724+00:00",
+      "next_check": "2026-09-02T14:27:11.567724+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cimc-arg-inject-upSHdMfU": {
       "content_sha": "72c143c3fa5850851546ace06a16b80fce1c641e3a8b319ac068b3e236bbbcff",
       "doc_id": "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-cimc-arg-inject-upshdmfu-b06f6bb0f0",
@@ -22567,6 +22644,19 @@
       "last_modified": null,
       "last_seen": "2026-08-25T04:47:21.800309+00:00",
       "next_check": "2026-08-26T04:47:21.800309+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-clamav-88cFYyxR": {
+      "content_sha": "fef72bbdc3ff1c7c1bdd6a8f281d880dfd517404046e0998a764a43157549819",
+      "doc_id": "sec-cloudapps-cisco-com-security-center-content-ciscosecurityadvisory-cisco-sa-clamav-88cfyyxr-c4d4643c67",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:27:15.773056+00:00",
+      "last_changed": "2026-09-01T14:27:15.773056+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T14:27:15.773056+00:00",
+      "next_check": "2026-09-02T14:27:15.773056+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -22981,6 +23071,19 @@
       "last_modified": null,
       "last_seen": "2026-09-01T14:11:15.118303+00:00",
       "next_check": "2026-09-02T14:11:15.118303+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://sec.cloudapps.cisco.com/security/center/resources/cisco_bug_bounty_faq.html": {
+      "content_sha": "6a8ab1f5435a8d9b543700dd0b3385bbfb35f771076d0b5cd4be1a8649b6621d",
+      "doc_id": "sec-cloudapps-cisco-com-security-center-resources-cisco-bug-bounty-faq-html-294cc59804",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:27:02.413738+00:00",
+      "last_changed": "2026-09-01T14:27:02.413738+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T14:27:02.413738+00:00",
+      "next_check": "2026-09-02T14:27:02.413738+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -107950,6 +108053,30 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/admin_guide/p875_m_8875-administration-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8875-8875nr-admin-guide-p875-m-8875-administration-guide-html-53d7617f7c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:47:04.395680+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:47:04.395690+00:00",
+      "next_check": "2026-09-02T14:47:04.395690+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Unified-CM",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8875_8875NR/user_guide/p875_m_8875-user-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8875-8875nr-user-guide-p875-m-8875-user-guide-html-34d973751c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:46:58.170428+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:46:58.170439+00:00",
+      "next_check": "2026-09-02T14:46:58.170439+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-np2dxyq-CiscoVideoPhone8875/Get-started",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/9971_9951_8961/10_0/english/adminguide/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0/P567_BK_A27DADFD_00_adminguide-8961-9951-9971-10_0_chapter_010100.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-9971-9951-8961-10-0-english-adminguide-p567-bk-a27dadfd-00-adminguide-dc6e297ea4",
@@ -108475,6 +108602,102 @@
       "next_check": "2026-08-26T13:09:26.345333+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/1-5-0/releasenotes/h500_b_500-series-150-release-notes.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-1-5-0-releasenotes-h500-b-500-series-150-release-no-20c2359a6d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:42:31.197615+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:42:31.197626+00:00",
+      "next_check": "2026-09-02T14:42:31.197626+00:00",
+      "redirect_to": "https://help.webex.com/article/rvjm4i",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-0-1/n500_b_500-series-release-notes-for.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-2-0-1-n500-b-500-series-release-notes-for-html-830a1940ff",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:42:09.061415+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:42:09.061426+00:00",
+      "next_check": "2026-09-02T14:42:09.061426+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-1-1/n500_b_rns-500-211.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-2-1-1-n500-b-rns-500-211-html-7f10c3ea53",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:42:12.585046+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:42:12.585056+00:00",
+      "next_check": "2026-09-02T14:42:12.585056+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-2-1/n500_b_cisco-headset-500-series-release.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-2-2-1-n500-b-cisco-headset-500-series-release-html-b0e8a411bc",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:41:26.913615+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:41:26.913625+00:00",
+      "next_check": "2026-09-02T14:41:26.913625+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1-SR1/release-notes-for-2-3sr1.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-2-3-1-sr1-release-notes-for-2-3sr1-html-33f48e72d1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:49.870127+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:49.870138+00:00",
+      "next_check": "2026-09-02T14:40:49.870138+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/2-3-1/n500_b_cisco-headset-release-231.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-2-3-1-n500-b-cisco-headset-release-231-html-82226c4883",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:54.144795+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:54.144806+00:00",
+      "next_check": "2026-09-02T14:40:54.144806+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/rvjm4i/Cisco-Headset-500-Series-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-desktop-app-release-notes.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-desktop-app-cisco-accessory-desktop-app-release-not-fd19fd9a3b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:41.838527+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:41.838537+00:00",
+      "next_check": "2026-09-02T14:40:41.838537+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nbmvb4/Cisco-Accessory-Hub-desktop-app-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/firmware/desktop_app/cisco-accessory-hub-desktop-app-ug_hs.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-firmware-desktop-app-cisco-accessory-hub-desktop-app-ug-hs-h-5dc70c06fc",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:42:51.327054+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:42:51.327065+00:00",
+      "next_check": "2026-09-02T14:42:51.327065+00:00",
+      "redirect_to": "https://help.webex.com/en-us/products",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_appendix_010011.html": {
       "content_sha": "25038d46ac583bb32aa3e09c174c212c6dc278519e0e0005b277556cceb1802d",
@@ -113544,6 +113767,66 @@
       "next_check": "2026-08-28T13:48:22.796273+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_1080p-RN-dummy-cco.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-desk-camera-1080p-wdpv-m-1080p-rn-dummy-cco-html-ec5d06c468",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:48:16.385926+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:48:16.385936+00:00",
+      "next_check": "2026-09-02T14:48:16.385936+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/ct567b/Cisco-Desk-Camera-1080p-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/Desk-Camera-1080p/wdpv_m_camera-1080p-dummy-ag.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-desk-camera-1080p-wdpv-m-camera-1080p-dummy-ag-html-443bf4ca7d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:48:36.318311+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:48:36.318322+00:00",
+      "next_check": "2026-09-02T14:48:36.318322+00:00",
+      "redirect_to": "https://help.webex.com/en-us/products",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/desktop_app/cisco-accessory-hub-desktop-app-release-notes.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-desktop-app-cisco-accessory-hub-desktop-app-release--4f24a75bf3",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:48:12.345988+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:48:12.345998+00:00",
+      "next_check": "2026-09-02T14:48:12.345998+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nbmvb4/Cisco-Accessory-Hub-desktop-app-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Deskcamera/firmware/2-4-1/wdpv_b_camera-rn-241.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-deskcamera-firmware-2-4-1-wdpv-b-camera-rn-241-html-833ddf7d35",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:48:19.908466+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:48:19.908477+00:00",
+      "next_check": "2026-09-02T14:48:19.908477+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Share/adminguide/english/wbxs_b_administration-guide-for-cisco-webex.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-webex-share-adminguide-english-wbxs-b-administration-guide-for-cisco--7bc1f7f733",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:48:44.889530+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:48:44.889540+00:00",
+      "next_check": "2026-09-02T14:48:44.889540+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/n3kkl4v/Deploy-your-Webex-Share",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/regulatory_compliance/english/install/guide/iphrcsi3.html": {
       "content_sha": "af20e4819ef37c7c1a9d3a54deb886368aec8f1d3ff1046688e73fad693585e4",
@@ -139183,6 +139466,18 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/ucce_b_ucce-features-guide-12_5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-configurati-7b84e450b1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:37:22.231664+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:37:22.231673+00:00",
+      "next_check": "2026-09-02T14:37:22.231673+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/design/guide/ucce_b_soldg-for-unified-cce-12_5/ucce_b_soldg-for-unified-cce-12_5_chapter_01.html": {
       "content_sha": "365653b2036b3b41178a3bb8bf4a89d79290bf00e9addbd521ab7ae877971186",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-design-guid-7a95e865a9",
@@ -161670,6 +161965,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Analyzer_2/b_analyzeronloinehelp.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-analyzer-2-b-analyzeronloinehelp-html-a0587ddaf5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:31.492515+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:31.492524+00:00",
+      "next_check": "2026-09-02T14:40:31.492524+00:00",
+      "redirect_to": "https://help.webex.com/article/tajemk",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/SetupandAdministrationGuide_2/b_mp-release-2.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-setupandadministrationguide-2-b-mp-relea-7de1c56f5b",
@@ -161971,6 +162278,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/Voiceonboarding2/wcc-voice-onboarding-2-book.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-voiceonboarding2-wcc-voice-onboarding-2--25e46fbc2b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:39:51.605931+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:39:51.605943+00:00",
+      "next_check": "2026-09-02T14:39:51.605943+00:00",
+      "redirect_to": "https://help.webex.com/article/d7hvc2",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/bre_20/wcc_b_cisco-webex-contact-center-business.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-bre-20-wcc-b-cisco-webex-contact-center--45ca66a827",
@@ -162007,6 +162326,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/desktop_20/webexcc_b_20-desktop-user-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-desktop-20-webexcc-b-20-desktop-user-gui-2da6ff27b1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:35.647867+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:35.647878+00:00",
+      "next_check": "2026-09-02T14:40:35.647878+00:00",
+      "redirect_to": "https://help.webex.com/en-us/landing/ld-xsu6ys-ContactCenter/Agent",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/developer_20/webexcc_b_20-desktop-developer-guide-.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-developer-20-webexcc-b-20-desktop-develo-2e15fcfdd0",
@@ -162016,6 +162347,18 @@
       "last_seen": "2026-08-25T04:53:13.580356+00:00",
       "next_check": "2026-08-26T04:53:13.580356+00:00",
       "redirect_to": "https://developer.webex-cx.com/documentation/guides/desktop",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/webexcc/technical_paper/b_webexcc-arch-doc.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-webexcc-technical-paper-b-webexcc-arch-doc-html-39df7c563d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T14:40:29.382830+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T14:40:29.382840+00:00",
+      "next_check": "2026-09-02T14:40:29.382840+00:00",
+      "redirect_to": "https://help.webex.com/article/utqcm7",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -184861,5 +185204,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T14:22:30.228317+00:00"
+  "updated_at": "2026-09-01T14:49:13.482196+00:00"
 }
