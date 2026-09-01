@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-ios-xe-config-ios-xe-book-m-voi-cube-multi-vrf-html-028a4c241b
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/m_voi-cube-multi-vrf.html
-retrieved_at: 2026-08-16T15:53:17.098161+00:00
+retrieved_at: 2026-09-01T22:25:03.981988+00:00
 ---
 
 Cisco Unified Border Element Configuration Guide - Cisco IOS XE 17.6 Onwards
@@ -153,6 +153,8 @@ VRF aware matching is applicable only for inbound dial-peer matching and not for
 Invoking TCL scripts through a dial-peer is not supported with the Multi-VRF.
 
 Multi-VRF using global routing table or default routing table (VRF 0) with virtual interfaces is not supported.
+
+SCCP based media resources and analog endpoints are not supported with Multi-VRF.
 
 Multi-VRF configured in media flow-around mode is supported only for intra-VRF calls. The following are not supported with
                                  Multi-VRF configured in media flow-around mode:
