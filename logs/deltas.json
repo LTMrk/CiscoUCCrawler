@@ -1,11 +1,13 @@
 {
-  "run_at": "2026-09-01T10:50:41.290107+00:00",
+  "run_at": "2026-09-01T10:55:33.014455+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
-  "semillas_encoladas": 20
+  "redirected": [
+    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html -> https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html"
+  ],
+  "semillas_encoladas": 21
 }
