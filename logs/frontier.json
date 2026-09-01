@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070124-crafted-ip-option/cvrf/cisco-sa-20070124-crafted-ip-option_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070124-IOS-IPv6/cvrf/cisco-sa-20070124-IOS-IPv6_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070124-crafted-tcp/cvrf/cisco-sa-20070124-crafted-tcp_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070118-CVE-2007-0397/cvrf/Cisco-SA-20070118-CVE-2007-0397_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070118-certs/cvrf/cisco-sa-20070118-certs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070110-CVE-2007-0198/cvrf/Cisco-SA-20070110-CVE-2007-0198_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070110-jtapi/cvrf/cisco-sa-20070110-jtapi_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070110-dlsw/cvrf/cisco-sa-20070110-dlsw_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070105-CVE-2006-4097/cvrf/Cisco-SA-20070105-CVE-2006-4097_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20070105-CVE-2006-4098/cvrf/Cisco-SA-20070105-CVE-2006-4098_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20070105-csacs/cvrf/cisco-sa-20070105-csacs_cvrf.xml",
     "depth": 2
   },
