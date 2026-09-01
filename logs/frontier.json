@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150402-CVE-2014-8015/cvrf/Cisco-SA-20150402-CVE-2014-8015_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140926-bash/cvrf/cisco-sa-20140926-bash_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20150401-cuc/cvrf/cisco-sa-20150401-cuc_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150331-CVE-2015-0685/cvrf/Cisco-SA-20150331-CVE-2015-0685_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150331-CVE-2015-0683/cvrf/Cisco-SA-20150331-CVE-2015-0683_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150331-CVE-2015-0684/cvrf/Cisco-SA-20150331-CVE-2015-0684_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150331-CVE-2015-0682/cvrf/Cisco-SA-20150331-CVE-2015-0682_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20141222-ntpd/cvrf/cisco-sa-20141222-ntpd_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20140605-openssl/cvrf/cisco-sa-20140605-openssl_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150327-CVE-2015-0680/cvrf/Cisco-SA-20150327-CVE-2015-0680_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150327-CVE-2015-0658/cvrf/Cisco-SA-20150327-CVE-2015-0658_cvrf.xml",
     "depth": 2
   },
