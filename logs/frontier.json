@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20151005-ios-radius/cvrf/cisco-sa-20151005-ios-radius_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20151006-vcs/cvrf/cisco-sa-20151006-vcs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20151005-aironet/cvrf/cisco-sa-20151005-aironet_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20100210-ironport/cvrf/cisco-sa-20100210-ironport_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20151002-CVE-2015-6310/cvrf/Cisco-SA-20151002-CVE-2015-6310_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20151002-CVE-2015-6311/cvrf/Cisco-SA-20151002-CVE-2015-6311_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150930-CVE-2015-6308/cvrf/Cisco-SA-20150930-CVE-2015-6308_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150930-CVE-2015-6309/cvrf/Cisco-SA-20150930-CVE-2015-6309_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150925-CVE-2015-6307/cvrf/Cisco-SA-20150925-CVE-2015-6307_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150113-CVE-2015-0204/cvrf/Cisco-SA-20150113-CVE-2015-0204_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/Cisco-SA-20150923-CVE-2015-6306/cvrf/Cisco-SA-20150923-CVE-2015-6306_cvrf.xml",
     "depth": 2
   },
