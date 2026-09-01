@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-connection-117554-technote-restrictiontable-00-html-f6e1aa6d36
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/117554-technote-restrictiontable-00.html
-retrieved_at: 2026-08-17T03:56:54.851135+00:00
+retrieved_at: 2026-09-01T21:35:12.373997+00:00
 ---
 
 Unity Connection: Restriction Tables Effect on 'Transfer to Alternate Contact Number' Feature
@@ -150,16 +150,6 @@ EU           null            2           2226
 27-Mar-2014
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Anirudh Mavilakandy
-
-Cisco TAC Engineer.
-
-### This Document Applies to These Products
-
-- Unity Connection
 
 | Revision | Publish Date | Comments |
 |---|---|---|
