@@ -17671,6 +17671,19 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://cfnng.cisco.com/error-messages": {
+      "content_sha": "73034bf1b9cd934ed55bc57bf794356f2e11b19370fae267024c165151439838",
+      "doc_id": "cfnng-cisco-com-error-messages-dd55126cf5",
+      "etag": "W/\"87e3-19f1382a588\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:19:43.345953+00:00",
+      "last_changed": "2026-09-01T15:19:43.345953+00:00",
+      "last_modified": "Mon, 29 Jun 2026 13:12:37 GMT",
+      "last_seen": "2026-09-01T15:19:43.345953+00:00",
+      "next_check": "2026-09-02T15:19:43.345953+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://cisco.com": {
       "content_sha": null,
       "doc_id": "cisco-com-89bb66337a",
@@ -17839,6 +17852,18 @@
       "next_check": "2026-08-25T22:33:45.450911+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://cway.cisco.com/go/sa": {
+      "content_sha": null,
+      "doc_id": "cway-cisco-com-go-sa-bf3e2d2f73",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:39.465299+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:39.465310+00:00",
+      "next_check": "2026-09-02T15:24:39.465310+00:00",
+      "redirect_to": "https://cway.cisco.com/cli",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://cway.cisco.com/tools/CollaborationSolutionsAnalyzer": {
       "content_sha": null,
@@ -19827,10 +19852,10 @@
       "first_seen": "2026-08-17T01:42:59.393012+00:00",
       "last_changed": "2026-08-17T01:42:59.393012+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T07:40:49.583906+00:00",
-      "next_check": "2026-08-25T07:40:49.583906+00:00",
+      "last_seen": "2026-09-01T15:24:42.595516+00:00",
+      "next_check": "2026-09-09T15:24:42.595516+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://engage2demand.cisco.com/LP=6097": {
       "content_sha": "e26c1b5eba3599f279756b96ea0099b4760f1d11bead458d6b320766bad2ab5a",
@@ -19989,6 +20014,19 @@
       "next_check": "2026-08-26T09:53:51.830237+00:00",
       "redirect_to": "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=A06E9C48F80F055162834C5442B8EAA7",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=A06E9C48F80F055162834C5442B8EAA7": {
+      "content_sha": "dda8b6b62d8b8c1f182fdccacd8ec13828075f416515573eb1622f317c4942aa",
+      "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-fb6653a10a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:59.159946+00:00",
+      "last_changed": "2026-09-01T15:24:59.159946+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T15:24:59.159946+00:00",
+      "next_check": "2026-09-02T15:24:59.159946+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://logadvisor.cisco.com/logadvisor/collaboration/unifiedcommunications/mra": {
@@ -22414,10 +22452,10 @@
       "first_seen": "2026-08-16T19:25:47.045455+00:00",
       "last_changed": "2026-08-16T19:25:47.045455+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:12:00.198528+00:00",
-      "next_check": "2026-08-25T10:12:00.198528+00:00",
+      "last_seen": "2026-09-01T15:24:54.875343+00:00",
+      "next_check": "2026-09-09T15:24:54.875343+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://mycase.cloudapps.cisco.com/case": {
       "content_sha": null,
@@ -23898,6 +23936,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx650/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx650-model-html-4f04be0a34",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:09.649009+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:09.649021+00:00",
+      "next_check": "2026-09-02T15:22:09.649021+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-headset-500-series-tsd-products-support-series-home-html-20c516d043",
@@ -23919,6 +23969,18 @@
       "last_seen": "2026-08-25T14:13:13.269415+00:00",
       "next_check": "2026-08-26T14:13:13.269415+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-700-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-communicator/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-ip-communicator-tsd-products-support-series-home-html-8ebc774711",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:54.116046+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:54.116057+00:00",
+      "next_check": "2026-09-02T15:23:54.116057+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -23966,6 +24028,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T23:33:46.566921+00:00",
       "next_check": "2026-08-26T23:33:46.566921+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-ix5000-model-html-f073e637b1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:36.999848+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:36.999859+00:00",
+      "next_check": "2026-09-02T15:22:36.999859+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -24030,6 +24104,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precision-cameras/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-precision-cameras-tsd-products-support-series-home-ht-5a7b2c4298",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:57.641908+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:57.641918+00:00",
+      "next_check": "2026-09-02T15:22:57.641918+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precision-cameras/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-profile-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-profile-series-tsd-products-support-series-home-html-1861a831c9",
@@ -24054,6 +24140,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-speaker-track-60-tsd-products-support-series-home-htm-982c9893b7",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:52.193205+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:52.193216+00:00",
+      "next_check": "2026-09-02T15:22:52.193216+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-1100/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-1100-tsd-products-support-series-home-html-9168c9a8b8",
@@ -24063,6 +24161,42 @@
       "last_seen": "2026-08-25T23:34:03.900864+00:00",
       "next_check": "2026-08-26T23:34:03.900864+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-1300-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-1300-series-tsd-products-support-series-home-h-2ddd5ab9d1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:42.035032+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:42.035043+00:00",
+      "next_check": "2026-09-02T15:22:42.035043+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-500-32/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-500-32-model-html-4db9ecc345",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:20.662048+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:20.662059+00:00",
+      "next_check": "2026-09-02T15:22:20.662059+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-telepresence-system-500-32.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-500-37/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-system-500-37-model-html-e564872d7c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:31.831713+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:31.831725+00:00",
+      "next_check": "2026-09-02T15:22:31.831725+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24087,6 +24221,30 @@
       "last_seen": "2026-08-25T23:19:44.229789+00:00",
       "next_check": "2026-08-26T23:19:44.229789+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-system-ex-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-touch/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-touch-tsd-products-support-series-home-html-abaed058d6",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:02.429843+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:02.429854+00:00",
+      "next_check": "2026-09-02T15:23:02.429854+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-touch/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-tx1300-47/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-tx1300-47-model-html-d7d430bb73",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:46.906701+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:46.906712+00:00",
+      "next_check": "2026-09-02T15:22:46.906712+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24126,6 +24284,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-7900-series-tsd-products-support-series-home-html-d9b08526ec",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:12.580555+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:12.580566+00:00",
+      "next_check": "2026-09-02T15:23:12.580566+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-8800-series-tsd-products-support-series-home-html-c94ca8fcdf",
@@ -24150,6 +24320,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phones-9900-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phones-9900-series-tsd-products-support-series-home-htm-daab3cdf8e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:16.884543+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:16.884553+00:00",
+      "next_check": "2026-09-02T15:23:16.884553+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-sip-phone-3900-series-tsd-products-support-series-home-htm-5ee45ae8bc",
@@ -24159,6 +24341,30 @@
       "last_seen": "2026-08-25T11:50:32.178334+00:00",
       "next_check": "2026-08-26T11:50:32.178334+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3905/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-sip-phone-3905-model-html-133e731875",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:08.803099+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:08.803110+00:00",
+      "next_check": "2026-09-02T15:23:08.803110+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-sip-phone-3900-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine-windows/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-virtualization-experience-media-engine-windows-model-html-5e9e4e6def",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:37.627183+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:37.627193+00:00",
+      "next_check": "2026-09-02T15:23:37.627193+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24210,6 +24416,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr-cloud/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-cmr-cloud-tsd-products-support-series-home-html-275b7b28b5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:43.668547+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:43.668558+00:00",
+      "next_check": "2026-09-02T15:21:43.668558+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-cmr/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-cmr-products-installation-and-configuration-guide-b1de58e2bf",
@@ -24219,6 +24437,18 @@
       "last_seen": "2026-08-25T10:46:50.166707+00:00",
       "next_check": "2026-08-26T10:46:50.166707+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/collaboration-meeting-rooms-hybrid/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-collaboration-meeting-rooms-hybrid-model-html-7c05d63e05",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:54.187721+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:54.187731+00:00",
+      "next_check": "2026-09-02T15:21:54.187731+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24246,6 +24476,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/show-share/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-show-share-tsd-products-support-series-home-html-972ed63cb5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:22:02.860987+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:22:02.860998+00:00",
+      "next_check": "2026-09-02T15:22:02.860998+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/telepresence-conductor/products-maintenance-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-conductor-products-maintenance-guides-list-html-4678db6d70",
@@ -24266,6 +24508,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T23:33:13.157036+00:00",
       "next_check": "2026-08-26T23:33:13.157036+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-content-server/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-content-server-tsd-products-support-series-home-html-fa3920e455",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:02.448939+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:02.448952+00:00",
+      "next_check": "2026-09-02T15:21:02.448952+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-exchange-system/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-exchange-system-tsd-products-support-series-home-html-276ac4e259",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:32.773968+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:32.773979+00:00",
+      "next_check": "2026-09-02T15:21:32.773979+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -24294,6 +24560,66 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-manager/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-manager-tsd-products-support-series-home-html-738bfeadab",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:45.029651+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:45.029662+00:00",
+      "next_check": "2026-09-02T15:20:45.029662+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-4200-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-4200-series-tsd-products-support-series-home-html-05db4e689f",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:07.610166+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:07.610177+00:00",
+      "next_check": "2026-09-02T15:21:07.610177+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-4500-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-4500-series-tsd-products-support-series-home-html-5b492b0929",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:15.303124+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:15.303135+00:00",
+      "next_check": "2026-09-02T15:21:15.303135+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-5300-series/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-5300-series-tsd-products-support-series-home-html-dafe4932f8",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:20.076317+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:20.076328+00:00",
+      "next_check": "2026-09-02T15:21:20.076328+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-mse-8420/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-mse-8420-model-html-448d9dcc9f",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:26.073213+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:26.073223+00:00",
+      "next_check": "2026-09-02T15:21:26.073223+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/telepresence-mcu-mse-8510/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-mcu-mse-8510-model-html-4fead85957",
@@ -24302,6 +24628,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T23:22:24.986605+00:00",
       "next_check": "2026-08-26T23:22:24.986605+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-server-on-multiparty-media-820/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-server-on-multiparty-media-820-model-html-4ca5c59ac4",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:57.976345+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:57.976355+00:00",
+      "next_check": "2026-09-02T15:20:57.976355+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-server-on-virtual-machine/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-server-on-virtual-machine-model-html-c8f0b4be2e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:51.268026+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:51.268038+00:00",
+      "next_check": "2026-09-02T15:20:51.268038+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -24330,6 +24680,30 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/unified-meetingplace/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-unified-meetingplace-tsd-products-support-series-home-html-0836821bb1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:37.925496+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:37.925508+00:00",
+      "next_check": "2026-09-02T15:20:37.925508+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meeting-center-tsd-products-support-series-home-html-3726e2404a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:21:38.839679+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:21:38.839689+00:00",
+      "next_check": "2026-09-02T15:21:38.839689+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/webex-meetings-server/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meetings-server-tsd-products-support-series-home-html-506ead5fff",
@@ -24339,6 +24713,18 @@
       "last_seen": "2026-08-25T23:33:16.637520+00:00",
       "next_check": "2026-08-26T23:33:16.637520+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/webex-meetings/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meetings-tsd-products-support-series-home-html-727ff30c93",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:58.727808+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:58.727818+00:00",
+      "next_check": "2026-09-02T15:23:58.727818+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24423,6 +24809,18 @@
       "last_seen": "2026-08-25T18:47:06.193167+00:00",
       "next_check": "2026-08-26T18:47:06.193167+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/jabber-iphone-ipad/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-jabber-iphone-ipad-tsd-products-support-series-home-html-d20997c7fa",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:25.206824+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:25.206836+00:00",
+      "next_check": "2026-09-02T15:23:25.206836+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/jabber-iphone-ipad/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24615,6 +25013,54 @@
       "last_seen": "2026-08-25T21:12:33.067966+00:00",
       "next_check": "2026-08-26T21:12:33.067966+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligent-contact-management-enterprise/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-intelligent-contact-management-enterprise-tsd-products-supp-e4cea89e21",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:18.931501+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:18.931513+00:00",
+      "next_check": "2026-09-02T15:20:18.931513+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-ip-interactive-voice-response-ivr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-ip-interactive-voice-response-ivr-tsd-products-support-seri-93361a386e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:14.003338+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:14.003350+00:00",
+      "next_check": "2026-09-02T15:20:14.003350+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-ip-interactive-voice-response-ivr/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-web-interaction-manager/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-web-interaction-manager-tsd-products-support-series-home-ht-10b547568d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:26.969089+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:26.969100+00:00",
+      "next_check": "2026-09-02T15:20:26.969100+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/contact-center/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-workforce-optimization/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-workforce-optimization-tsd-products-support-series-home-htm-28a94db496",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:32.124338+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:32.124349+00:00",
+      "next_check": "2026-09-02T15:20:32.124349+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/contact-center/webex-workforce-optimization/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -24898,10 +25344,10 @@
       "first_seen": "2026-08-17T01:09:17.389007+00:00",
       "last_changed": "2026-08-18T23:47:30.706136+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:04:13.366164+00:00",
-      "next_check": "2026-08-28T05:04:13.366164+00:00",
+      "last_seen": "2026-09-01T15:25:15.239782+00:00",
+      "next_check": "2026-09-09T15:25:15.239782+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html": {
       "content_sha": "fb2ad4ffa148e5a0a87fd2f35dda96febc907a312e7ab0b231be207b1e79fc8c",
@@ -32981,6 +33427,78 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/routers/2800-series-integrated-services-routers-isr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-2800-series-integrated-services-routers-isr-tsd-products-support-series-home-html-add62cd763",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:17.664159+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:17.664170+00:00",
+      "next_check": "2026-09-02T15:24:17.664170+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-2900-series-integrated-services-routers-isr-tsd-products-support-series-home-html-a1beb3e46b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:25.011540+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:25.011550+00:00",
+      "next_check": "2026-09-02T15:24:25.011550+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/2900-series-integrated-services-routers-isr/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/routers/3800-series-integrated-services-routers-isr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-3800-series-integrated-services-routers-isr-tsd-products-support-series-home-html-92a82b7bf8",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:20.690269+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:20.690281+00:00",
+      "next_check": "2026-09-02T15:24:20.690281+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-3900-series-integrated-services-routers-isr-tsd-products-support-series-home-html-750258f6df",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:28.959791+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:28.959803+00:00",
+      "next_check": "2026-09-02T15:24:28.959803+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/3900-series-integrated-services-routers-isr/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-4000-series-integrated-services-routers-isr-tsd-products-support-series-home-html-2638321702",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:33.725533+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:33.725544+00:00",
+      "next_check": "2026-09-02T15:24:33.725544+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/4000-series-integrated-services-routers-isr/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-routers-asr-1000-series-aggregation-services-routers-tsd-products-support-series-home-html-45e4b3f8d5",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:12.266536+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:12.266547+00:00",
+      "next_check": "2026-09-02T15:24:12.266547+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/routers/asr-1000-series-aggregation-services-routers/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/switches/catalyst-6500-series-switches/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-switches-catalyst-6500-series-switches-tsd-products-support-series-home-html-4cc8f34400",
@@ -33002,6 +33520,30 @@
       "last_seen": "2026-08-25T23:22:09.871207+00:00",
       "next_check": "2026-08-26T23:22:09.871207+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/ata-180-series-analog-telephone-adaptors/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-ata-180-series-analog-telephone-adaptors-tsd-products-support-serie-523a61840e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:02.777126+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:02.777137+00:00",
+      "next_check": "2026-09-02T15:24:02.777137+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-ata-190-series-analog-telephone-adapters-tsd-products-support-serie-553ccab52a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:07.490080+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:07.490098+00:00",
+      "next_check": "2026-09-02T15:24:07.490098+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -33125,6 +33667,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-android-tsd-products-support-series-home-html-25ded57f1c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:21.295595+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:21.295605+00:00",
+      "next_check": "2026-09-02T15:23:21.295605+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/jabber-guest/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-guest-series-html-a69abc4f4e",
@@ -33134,6 +33688,54 @@
       "last_seen": "2026-08-25T21:05:58.734477+00:00",
       "next_check": "2026-08-26T21:05:58.734477+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-guest/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-guest-tsd-products-support-series-home-html-f4ea0f9414",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:46.120839+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:46.120849+00:00",
+      "next_check": "2026-09-02T15:23:46.120849+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-mac-tsd-products-support-series-home-html-fa22b22a87",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:29.328948+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:29.328959+00:00",
+      "next_check": "2026-09-02T15:23:29.328959+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-software-development-kit/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-software-development-kit-tsd-products-support-series-home-ht-45fbbbc52b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:50.232613+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:50.232625+00:00",
+      "next_check": "2026-09-02T15:23:50.232625+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-software-development-kit/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-windows-tsd-products-support-series-home-html-8c4a99f563",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:33.426379+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:33.426392+00:00",
+      "next_check": "2026-09-02T15:23:33.426392+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -33269,6 +33871,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/tsd-products-support-series-home.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-presence-tsd-products-support-series-home-html-c427ca1707",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:20:09.333606+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:20:09.333617+00:00",
+      "next_check": "2026-09-02T15:20:09.333617+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-sip-proxy-software-tsd-products-support-series-home-html-4ae49f0dda",
@@ -33386,6 +34000,30 @@
       "last_seen": "2026-08-25T23:34:24.543827+00:00",
       "next_check": "2026-08-26T23:34:24.543827+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/category.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/virtualization-experience-media-edition-suse-linux/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-virtualization-experience-media-edition-suse-linux-model-html-c4da38ae1b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:23:41.751831+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:23:41.751842+00:00",
+      "next_check": "2026-09-02T15:23:41.751842+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling-app/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-webex-calling-app-series-html-bf4bd2cee4",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:24:50.836408+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:24:50.836419+00:00",
+      "next_check": "2026-09-02T15:24:50.836419+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -39017,6 +39655,18 @@
       "http_status": 301,
       "last_seen": "2026-09-01T14:59:58.940422+00:00",
       "next_check": "2026-09-02T14:59:58.940422+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1su9/english/release_notes/guide/cer0_b_cisco-emergency-responder-version-1151su9.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-11-5-1su9-english-release-notes-guide-cer0-b-cisco-emergency-responder-v-05d2ca2333",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T15:25:19.475483+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T15:25:19.475493+00:00",
+      "next_check": "2026-09-02T15:25:19.475493+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -184702,10 +185352,10 @@
       "first_seen": "2026-08-16T18:26:26.685265+00:00",
       "last_changed": "2026-08-16T18:26:26.685265+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:31:08.168539+00:00",
-      "next_check": "2026-08-29T04:31:08.168539+00:00",
+      "last_seen": "2026-09-01T15:25:11.014522+00:00",
+      "next_check": "2026-09-09T15:25:11.014522+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/ucstart.html": {
       "content_sha": null,
@@ -185849,5 +186499,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T15:13:11.825664+00:00"
+  "updated_at": "2026-09-01T15:25:19.566458+00:00"
 }

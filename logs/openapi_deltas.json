@@ -1,11 +1,7 @@
 {
-  "run_at": "2026-09-01T15:03:57.784598+00:00",
-  "added": [
-    "Webex Contact Center: POST /v1/tasks/{taskId}/conference/participants/{participantId}/drop"
-  ],
+  "run_at": "2026-09-01T15:15:38.056666+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-contact-center.json"
-  ]
+  "specs_cambiados": []
 }
