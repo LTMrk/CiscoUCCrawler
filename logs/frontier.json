@@ -1,429 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Solution_Design_Guide/hcscc_b_soldg-for-hcs-cc-120.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/series.html",
-    "depth": 2
-  },
-  {
-    "url": "http://docwiki.cisco.com/wiki/Packaged_CCE",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Solution_Release_Notes/hcscc_b_solution-release-notes_12_0.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/200743-Unable-to-Add-CVP-CallServer-in-the-CVP.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-15-0-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/packaged-contact-center-enterprise/211291-Packaged-Contact-Center-Enterprise-PCCE.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/services-knowledge-base/uncovered-assets-faq/ta-p/5547367",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/config-guide-thousandeyes-sso-w-cisco-identity-amp-azure-entra/ta-p/5366178",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/troubleshooting-certificate-issues-amp-ssl-errors-on-catalyst/ta-p/5366951",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Install_Upgrade_Guide/hcs-cc_b_installing-and-upgrading-guide-12-0.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/cc_landing_page_poc/index.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Config_Guide/hcs-cc_b_cisco-hcs-for-config-guide_12_5.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Config_Guide/hcscc_b_configuration_guide_12_0.html",
-    "depth": 2
-  },
-  {
-    "url": "https://devhub-download.cisco.com/ui",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200614-Configure-and-Troubleshoot-Enterprise-CA.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-5-1/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Unified-CCE-Engineering-Specials-for-Release-12-5.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-programming-reference-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200755-Configure-HTTPS-Access-for-UCCE-Diagnost.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-contact-center-enterprise-12-6-2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/customer-collaboration-platform-dev-guide/",
-    "depth": 2
-  },
-  {
-    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/2b2b399d-1527-4a6e-9756-3c4ce7fc3131",
-    "depth": 2
-  },
-  {
-    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/3249d041-476a-422d-baff-2d753d86da20",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/defining-unified-ccx-cti-messages/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/how-a-clientserver-connection-is-managed/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/managing-configuration-data/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/managing-agent-states/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/open_req/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/open_conf/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/reference-section/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/close_req/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/close_conf/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/scripting-overview/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/contact-center-express/faqs/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/finesse/rest-api-dev-guide/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/finesse/faqs/",
-    "depth": 2
-  },
-  {
-    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/3db9337a-efd9-484c-a63f-b459b16f989e",
-    "depth": 2
-  },
-  {
-    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/8bdeb202-ccda-4c4a-8325-99bff7983e19",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01101.html",
-    "depth": 2
-  },
-  {
-    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/25b1844a-03b0-4904-9033-7582ef2e6b89",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/task-routing/task-routing-overview/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/packaged-contact-center/overview/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/task-routing/task-creation-apis/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/docs/task-routing/creating-script-selector/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/",
-    "depth": 1
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/sso/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/configure-http-sessions/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/community-and-support/faq/",
-    "depth": 2
-  },
-  {
-    "url": "http://tools.cisco.com/support/downloads/go/Redirect.x",
-    "depth": 2
-  },
-  {
-    "url": "http://tools.cisco.com/E-Learning-IT/LPCM/LpcmLLController",
-    "depth": 2
-  },
-  {
-    "url": "http://solutionpartner.cisco.com/webavc/documentation",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/overview/how-does-curri-work/",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/overview.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/development_guidelines.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/new_and_changed_information.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/new_apis.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/example_use_cases.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/hello_world.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/security.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/description.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/format.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/parameters.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/example.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/xacml_request_schema.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request2.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/description2.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/format2.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/parameter.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_format.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_parameter.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/example2.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/xacml_response_schema.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_schema.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/keep_alive_message.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/message_timer.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/connections.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/multiple_connections.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/redundant_web_services.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/persistent_connection_and_keep.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/redirection.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/error_handling.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/web_service_connection_failure.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/united_cm_timeout_awaiting_res.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/unified_cm_parse_response_erro.html",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.cisco.com/site/curri/documents/latest-version/error_response_from_web_servic.html",
-    "depth": 2
-  },
-  {
     "url": "https://developer.cisco.com/site/curri/documents/latest-version/unified_response_parse_respons.html",
     "depth": 2
   },
@@ -23182,5 +22758,1485 @@
   {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/configuring-cisco-built-in-bridge-recording-with-calabrio/ta-p/5564186",
     "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/200743-Unable-to-Add-CVP-CallServer-in-the-CVP.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/200743-Unable-to-Add-CVP-CallServer-in-the-CVP.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/preface.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/ccvp_m_1501-customer-voice-portal-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/ccvp_m_1262_customer-voice-portal-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/m_1261-customer-voice-portal-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/m_1251-customer-voice-portal-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1501_virtualized-voice-browser-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1262_virtualized-voice-browser-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1261_virtualized-voice-browser-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1251_virtualized-voice-browser-engineering-specials-for-release.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials_index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/61856/tech-tip-collecting-mivr-logs-uccx-ip-ivr-8x-later",
+    "depth": 3
+  },
+  {
+    "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/RTMT_Ids.jpg",
+    "depth": 3
+  },
+  {
+    "url": "http://cbabu-wiki.cisco.com:8080/download/thumbnails/93796945/metrics_image.jpg",
+    "depth": 3
+  },
+  {
+    "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/ADFS_Location.jpg",
+    "depth": 3
+  },
+  {
+    "url": "http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/Flow_Diagram.jpg",
+    "depth": 3
+  },
+  {
+    "url": "http://ids-standalone-load-45-161.cisco.com",
+    "depth": 3
+  },
+  {
+    "url": "http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_Packaged_CCE",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_11_5_1/installation/guide/PCCE_BK_P92E0088_00_pcce-install-upgrade-11-5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/211306-In-Depth-Explanation-of-Cisco-IOS-and-IO.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/h323/14081-voip-debugcalls.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/118647-technote-sip-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/dtmf-relay.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/media.html",
+    "depth": 2
+  },
+  {
+    "url": "https://search.cisco.com/search",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/trunks.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/221645-configure-high-availability-ha-on-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://tools.cisco.com/bugsearch/bug/CSCwe66293",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/ios-firewall/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.epub",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.mobi",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-field-notices-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-security-advisories-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Preface-for-Unified-CCE-Engineering-Specials.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Unified-CCE-Engineering-Specials-for-Release-12-6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Unified-CCE-Engineering-Specials-for-Release-12-0.html",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/78d767fdcaef134c02a5ba2df07286a8",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/88dc5ecdf812a21b71a96409cfab0f3f",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm45006",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/531f232074f6bb71e65d2eae64810388",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/37fde0aa7635fb3bfb5fd0217dac919d",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs64183",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt01048",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs77949",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs85018",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7e6d630d015293e29e2636d26fdb4039",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs39240",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c99e7d45ba710ddbb71bf5f1f2410751",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs56604",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f75646a06aa34bc087b706128846fd47",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2484c19d61cc64234e46bd19881be731",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu76997",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b33fd08b6b42a752b87584ad5d68e4bb",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs67053",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/48b61239e8df442be7590985e8a70b20",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu96298",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7e104f6d0aac995f3a46f475bbbb6553",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvr51665",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs59785",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c5b0fa7156d68cfbbe5de8e225d915e9",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/a4c41c450b5e539927a8574686d2861e",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt60447",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/e4bc235a2849c9351d90255f4e042168",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt74130",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv12160",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu91063",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0669b1e9e376369830570bd4f76bcf6a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2f49a23bbbda397591fb611d1ffb4915",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs46900",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/04cc97299fcf92cf9e463a152dedafb9",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/20e0988b130cff8d100708793f42d851",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7b9463aaaca9c8d79ed2eced587813af",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/87ae8b45cfd01d45151a9e9b48f67b07",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4fcff72866b40449a9e6ace594daea90",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ce5b1707aaffbbaa9b3cfad16b7b2e5b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/d5d24c8837a3f686f64526560a0ba76f",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/86250de80def7dbdd86e89294ba5908c",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv53307",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu91011",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ad8499b1296103da582da3eb8d06dcc7",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv86000",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/3ea416f6139f6196d88a755a29df47aa",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw23695",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/03ddc180c7aff4656d7d05a30db6febc",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f47e785ecfeb7ce725d1d1709ed24ec4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b5ff9073cabe33792bfff6d53f3970eb",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw90640",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/18d80d16b1a10c1738f650e8c6f5868b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/5c69744c95c642f6f10bb1bc631598da",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/60d00e0075ee8f8a5a66a19a419347b7",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw80256",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c2cc5696fa49465d071d5a711bd78508",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx13801",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/933f6a9d8040f7b77d2296816a7b7ebb",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/34ae7566ffff5437f84d75a857dca6aa",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/52fa7ed6717172da1f6d33d57be7666f",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/daf650ee8ff98a50636a7b750e05b5ee",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/09c05768fda2d3cb0f52adf1f9b5bd0f",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c5b78f6f2886d0ccac0a2deff528901b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/22b069366e68cbeb7ee3359cd74759bc",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/94078ff37510d344a3fb644720609f31",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f0300ab013c95c86abdfdc6db7e69130",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/6c5d1c20901854531ee09fa365d00807",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2970bc594f27833762821a4c290c3d61",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp83424",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7d54134349273e9479f5e13a9e42a8bd",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4be2f01c9b0a9ef82de23d8a692097b5",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0684e69a90f7c43002f5f6f0bed933a6",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/da59f205cca6c3c973e6fe177908ef5a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c30401dc15160ff83ad3cad3f1f81629",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/581ae848c327dbdecd76458076f8cea4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/598456f389afe84c041e142b2a3be69e",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ff74880dd03e3709dbf320a59d8a391d",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx95438",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2a9d96193a976bbbbd7b54532df863ec",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7d8f185f8d8c8fce3a17ff2864afaec9",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy25525",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/428fb9990e59c67e895ee17a96e4a747",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy08809",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f659cb486144c2d6dfa2567d9b3c464c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/8a4ce3688dae59623fb1832e6f3b366d",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy52494",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/6ea09a85711d40d24d9804238e2a41cd",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0aab225ecde522734cc6c6491ad1eb42",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c466b5944a2b6656c4fe41b330cd6a41",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw25714",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/5868354d69178440b02fc61408e876c9",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq11852",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/67d17b83f8523b066bdf535d792000d2",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw14730",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7e80a9dedb30b3f7db29d2300a94815d",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu25431",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/73d76d9b691a163b7c6b8ff53767f759",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2c3254631c64d434a55525684f221f3b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/9fe90d30b3cc005a6d03c2562857eee4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/1714341bb9182a59a05e1986a7434419",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ff3dcdfff50ebe38ab82428f5bc49660",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/8352ba0255c1255d9ea609d5af0c91f2",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/50cd44201ab8db1c634ba1082aa9dd8e",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/928ab2bb7e4ff7331e75732976cda9ba",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa47274",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/56b0f3a35fc4a95873b7a743ec46db0e",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvy35697",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ea25b8d4c5548af4794bef2402590993",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/1278818cf80ff7916305337623978de8",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz53823",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/786503837bdbe2b6e22822ccf05466aa",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/440fb8c463688d48cd9fb2e80449ccf2",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0c97c7c5b93f6a6e5ca4d979ef745200",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7c73398ee5e95033f5fa75d55ab94e8c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/a17f5543c661de0a87de9cafe78e0c31",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs68020",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/8fdca69fa4cf6a95a3684ab5e2add373",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa41830",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0d171b97862b806a2d00b5038c53a7a6",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa31735",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ccb048d69276c92bf865809f1d898a70",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ea84ca6eae9d3aa07bc4da87c5a65690",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx81758",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4cd9c0ba000b91dfece760db1109501c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/943ab09708a0ae58d4b8a99199c50b1b",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb54683",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/15be616a5978dab6013777324a03389c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/d82c2efc4fdbd9310ce2d930531dce4c",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwb94921",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/0ae9d02c36c51e43ef39b872a5947a34",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/6c7472ca0bbcf75a89fcc56b73df7232",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/091efc59589d142d152601971a127897",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc04257",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/e99acd604f60c9745453aa5d286b69c1",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/49ec0a5e2792011dd265ce68da7b02e3",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvu85364",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7fe72d9936329d714907661fd2f79e72",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/3a94c6a9d9e6646676b43df3bcf44e30",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/e0a329def1c1ef82c2abae77a675eeff",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/de0960ab37d1c0498ba338df2f53c715",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f2e3fbafbc45e06708ed0d8f0dc04c4e",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f7d5659f4d0dd77ffcf1ec0188b57416",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/e45ce3d04942503166c64a4c44b558f8",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c64c5b19ee8aa51ce55325e35bb313f4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/home/268439622/type/280840583/release/12.5(1)",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/66acc6cfa6f9c6e29a3d9b6adfdb1d7d",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/fe102f0ee895669b43ac73d0013f669c",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/c8b87c4768a9277306d3780f07f4a45d",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b2d103ffdd163e250974cbf10a2d282e",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7ed550a352c2dfd92ce9bdeceb015aaf",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/64346d3dad40d06dc76cd39b2dc673a7",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc63341",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/3823ca003fe8ca68cac6a67c4b9d3a18",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc98312",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/244ea5de74a12ad679f161922fa9ab12",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc66875",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b5c414405380d22334beff46bd73aaff",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd31324",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4f1abfda2edbec1c03621427fb8894c4",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/49464856486b9054551d058bf4b16be7",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd47981",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd50358",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/2db89e92094d0403290db259080878a2",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc18363",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/9d7ef00b322bc00bf0cc1061e5c7d04b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/5887e06ee608c3ce620a86836017f40b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/524072884364c72bc7b0963d37ce2d2b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/d1bbffa832fe75281e81f8bb52d5cecb",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/23ebe509b73504671295d3c0d5f33bd8",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/418306f9330dd52cefe90a45ad274012",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/003556301f74712a7bb2b4a5e54f0d30",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f1cac4ab3395786ac89cfe3d71270c04",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/f54ab678281738104e2c6ae1ca0c85cf",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/01900c4291205bfca374008c19e26fbc",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/ff2cae967827d376eba9117cf24ba5af",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/fc16adf724cee4cc0d561bd030d6ca8b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/83372f630aaa71a857c0f1430c97334a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7d7f08db908211ba971db0845e40d0ce",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b87037bc4769825ad352508cafa1ed98",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7c543df93420e94584531e529a4d3260",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwe46792",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf76534",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf17667",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/09854d438f867a9657cd860e1fbf34cd",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4e2e41f0e9c228d98346693d27277635",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf83954",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/e4970f6b633335931b10aca41938674c",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwh14516",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/67f72ccde0f3484a8c5f0ae57a6121d3",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi76535",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/a3d362644f90ae703e988df233766f81",
+    "depth": 2
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi55776",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/88bf9995cba134f02754efbf75f98b3e",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/241930edd6cf0a085b47094ad73ebb81",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/4124f8ce44fb46b9382e6f330d031f9b",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/df965faed53ab7f46238c2198bc62bb9",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/7f3e62de5170a6fa8d0a7c6ec94ab641",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/fe402e02c62819f80becefdf14b77145",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/1ad0bb90155b45846b1441905279977a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/cde62d3f9fc78e944f764081c0d54a3a",
+    "depth": 2
+  },
+  {
+    "url": "https://software.cisco.com/download/specialrelease/b666878b4778f884c302fba1b681f017",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-release-notes-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-technical-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-installation-and-configuration-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/ise-byod-flow-using-entra-id/ta-p/4400675",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/secure-firewall-success-capsules-video-series/ta-p/5268785",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-ise-success-capsules-video-series/ta-p/5270514",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/secure-access-announcements/announcement-ga-release-of-cisco-sase-with-meraki/ta-p/5550365",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/enterprise-chat-email-12-5-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/enterprise-chat-email-12-6-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/enterprise-chat-email-15-0-1/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/cisco-enterprise-chat-email/products-maintenance-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.html",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/building-a-voice-infrastructure-risk-and-resiliency-dashboard/ta-p/5564920",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/measuring-contact-center-performance-beyond-asa-in-cisco-ucce/ta-p/5563870",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/smart-call-home-knowledge-base/overview-of-smart-call-home-and-device-diagnostics-faq-from-live/ta-p/3125384",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/services-knowledge-base/overview-of-smart-call-home-and-device-diagnostics-faq-from-live/ta-p/3125384",
+    "depth": 3
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/threat-centric-nac-service-integrate-cisco-ise-with-tenable-sc/ta-p/5141349",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/installation/guide/pcce_b_1262_cisco_pcce_installationandupgrade_guide/pcce_b_cisco_pcce_installationandupgrade_guide_12_5_2_appendix_01010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/design/guide/pcce_b_soldg-for-packaged-cce-12_6_2/pcce_b_soldg-for-packaged-cce-12_6_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/roadmap/guide/pcce_b_documentation_guide_1262.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/design/guide/pcce_b_soldg-for-packaged-cce-12_6_2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/installation/guide/pcce_b_1262_cisco_pcce_installationandupgrade_guide.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/rcct_b_contact-center-ai-gadgets.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1262.html",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/the-unified-ccx-cti-server-in-a-high-availability-unified-ccx-system/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/reasons-for-a-connection-to-fail/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/how-a-session-is-maintained/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/two-client-modes-for-connecting-with-unified-ccx/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/cti-service-masks/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/unsolicited-call-event-message-masks/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/agent-state-masks/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/configuration-information-masks/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/what-is-an-agent-state/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/error-e-status-codes/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/scripting-and-development-guide/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/getting-started/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/cti-protocol-overview/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/configuration-api-overview/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/cisco-identity-service-client-sdk-overview/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/cti-protocol-dev-guide/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/configuration-api-dev-guide/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/finesse-overview/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/javascript-library/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/previous-documentation-pdfs/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/cisco-finesse-desktop-apis/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/cisco-finesse-configuration-apis/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/cisco-finesse-serviceability-apis/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/single-sign-on/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/cors-support-for-finesse-rest-apis/",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-installation-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_user-guide-1261/cuic_b_user-guide-1205_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/getting-started/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/client-integration/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/single-sign-on%e2%80%94get-user-authentication-mode/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/single-sign-on%e2%80%94fetch-access-token/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/site/cti-protocol/documentation/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/user%e2%80%94change-agent-state/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/environment-and-tools/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/about-cisco-finesse-notifications/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/managing-notifications-in-third-party-applications/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/connect-to-xmpp-over-tcp/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/connect-to-xmpp-over-http-boshwebsocket-using-finesse-eventtunnel/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/sample-gadgets/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/enable-or-reset-3rdpartygadget-account/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/upload-third-party-gadgets/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/request-handlers/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/gadget-caching/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/finesse/loading-indicator-feature/",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_preface_00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_0101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_010100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01000.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01001.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_010101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/ucce_b_ucce-features-guide-12_5_chapter_01111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_appendix_010001.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_m_do-not-call-table.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_appendix_010010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://software.cisco.com/download/home/270569179",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/task-routing/task-routing-dev-guide/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/docs/task-routing/getting-started/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/site/packaged-contact-center/",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/uds-hello-world/",
+    "depth": 2
+  },
+  {
+    "url": "https://developer.cisco.com/site/user-data-services/develop-and-test/api-reference/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/site/user-data-services/develop-and-test/get-started/",
+    "depth": 3
+  },
+  {
+    "url": "https://communities.cisco.com/community/developer/collaboration/management/user-data-services",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/site/curri/learn/how-to/curri-hello-world/",
+    "depth": 3
+  },
+  {
+    "url": "https://developer.cisco.com/site/curri/develop-and-test/get-started/",
+    "depth": 3
   }
 ]

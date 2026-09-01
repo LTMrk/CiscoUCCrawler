@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-220378-configure-zone-based-firewall-zb-9e933332f5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.html
-retrieved_at: 2026-08-16T15:55:59.778079+00:00
+retrieved_at: 2026-09-01T17:31:59.049732+00:00
 ---
 
 Configure Zone-Based Firewall (ZBFW) co-located with Cisco Unified Border Element (CUBE) Enterprise
@@ -310,6 +310,16 @@ Similar logic for service-engine zone-pair mapping can be used for Hardware PVDM
 10-Apr-2023
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Kyzer Davis
+
+### This Document Applies to These Products
+
+- IOS Firewall
+
+- Unified Border Element
 
 | Source | Destination | Usage |
 |---|---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200662-adfs-ids-troubleshooting-da9468a049
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.html
-retrieved_at: 2026-08-16T19:22:28.269171+00:00
+retrieved_at: 2026-09-01T17:30:46.377291+00:00
 ---
 
 ADFS/IdS Troubleshooting and Common Problems
@@ -687,6 +687,24 @@ This is related to the configuration of Identity Provider described in the artic
 - https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200612-Configure-the-Identity-Provider-for-UCCX.html
 
 - Technical Support & Documentation - Cisco Systems
+
+### Contributed by Cisco Engineers
+
+Arundeep N
+
+Cisco TAC Engineer
+
+Joji George
+
+Cisco Engineering
+
+### This Document Applies to These Products
+
+- Packaged Contact Center Enterprise
+
+- Unified Contact Center Enterprise
+
+- Unified Contact Center Express
 
 | Product | Deployment |
 |---|---|

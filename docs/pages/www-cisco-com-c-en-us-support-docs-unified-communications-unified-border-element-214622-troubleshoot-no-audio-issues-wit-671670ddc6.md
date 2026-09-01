@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-214622-troubleshoot-no-audio-issues-wit-671670ddc6
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.html
-retrieved_at: 2026-08-16T15:55:51.056490+00:00
+retrieved_at: 2026-09-01T17:32:03.058889+00:00
 ---
 
 Troubleshoot No-way Audio Issue with Hairpin Calls on CUBE
@@ -218,6 +218,16 @@ This can be done on the dial-peer used to rerceive the call from ITSP or dial-pe
 19-Jul-2023
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Rajarshee Dhar
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Border Element
 
 | Revision | Publish Date | Comments |
 |---|---|---|

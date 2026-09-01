@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-217922-configure--e60ca26a0e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html
-retrieved_at: 2026-08-16T15:56:03.593806+00:00
+retrieved_at: 2026-09-01T17:31:46.403809+00:00
 ---
 
 Configure SIP Local Gateway with Audio Codecs Only for WebEx Calling
@@ -200,8 +200,6 @@ Leonardo Correa
 Cisco TAC Engineer
 
 ### This Document Applies to These Products
-
-- IOS Gateways with Session Initiation Protocol (SIP)
 
 - Unified Border Element
 

@@ -22154,6 +22154,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/docs/contact-center-express/close_conf/": {
+      "content_sha": "17314da29b19d454eabd23c3cbf9200fc5eb30a6882350a50286d2d2240ed1dc",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-close-conf-00fc0fc503",
+      "etag": "W/\"ae91e095c3d4ad2b9a358ce27b1f80f2\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:33:56.089668+00:00",
+      "last_changed": "2026-09-01T17:33:56.089668+00:00",
+      "last_modified": "Wed, 24 Jun 2026 22:09:25 GMT",
+      "last_seen": "2026-09-01T17:33:56.089668+00:00",
+      "next_check": "2026-09-02T17:33:56.089668+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/contact-center-express/close_req/": {
+      "content_sha": "883bdc28a813d804afb9617369e57a7b7f269a00763c9f8d211969a248abfab4",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-close-req-32130a14e6",
+      "etag": "W/\"3710da4ae4fd6a48c8d69c2874ba6416\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:33:51.640291+00:00",
+      "last_changed": "2026-09-01T17:33:51.640291+00:00",
+      "last_modified": "Thu, 11 Jun 2026 04:05:47 GMT",
+      "last_seen": "2026-09-01T17:33:51.640291+00:00",
+      "next_check": "2026-09-02T17:33:51.640291+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/docs/contact-center-express/cti-protocol-overview/": {
       "content_sha": "2b64865ab8574f36e5714bcaa030b4636706d8694a1ad9904b9446376390714b",
       "doc_id": "developer-cisco-com-docs-contact-center-express-cti-protocol-overview-7c8061aa3c",
@@ -22167,6 +22193,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/docs/contact-center-express/faqs/": {
+      "content_sha": "4cf8d39c290ac55fd9f4397e7f12d59c10318bcfae3fc3d11cf27df9c941c5fb",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-faqs-e4a9fab26b",
+      "etag": "W/\"f6d24bb4185a03e1a363429fcbc35427\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:05.392347+00:00",
+      "last_changed": "2026-09-01T17:34:05.392347+00:00",
+      "last_modified": "Mon, 08 Jun 2026 04:26:09 GMT",
+      "last_seen": "2026-09-01T17:34:05.392347+00:00",
+      "next_check": "2026-09-02T17:34:05.392347+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/docs/contact-center-express/getting-started/": {
       "content_sha": "453f50fc708456fd46db83d5853188ce4af48c4d37c8391846bfbf2b46675c6e",
       "doc_id": "developer-cisco-com-docs-contact-center-express-getting-started-f3eb08e300",
@@ -22177,6 +22216,58 @@
       "last_modified": "Mon, 22 Jun 2026 11:09:58 GMT",
       "last_seen": "2026-08-25T21:01:55.929084+00:00",
       "next_check": "2026-08-26T21:01:55.929084+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/contact-center-express/how-a-clientserver-connection-is-managed/": {
+      "content_sha": "04a188d76662b9652682fe2d70f73c962a6c182a164d660d1db13e0651ec5147",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-how-a-clientserver-connection-is-managed-3125fbad71",
+      "etag": "W/\"339c97ff6b2cba54203d64e02b378bb8\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:33:24.667244+00:00",
+      "last_changed": "2026-09-01T17:33:24.667244+00:00",
+      "last_modified": "Mon, 08 Jun 2026 12:04:00 GMT",
+      "last_seen": "2026-09-01T17:33:24.667244+00:00",
+      "next_check": "2026-09-02T17:33:24.667244+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/contact-center-express/open_conf/": {
+      "content_sha": "244c7c79a7f959aaa7e4821c40e764f86d4d26c318db678650b845f2a48c8e85",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-open-conf-78f0d5ded4",
+      "etag": "W/\"9851aa1c179105b99b359e853db422da\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:33:42.682005+00:00",
+      "last_changed": "2026-09-01T17:33:42.682005+00:00",
+      "last_modified": "Mon, 08 Jun 2026 09:34:54 GMT",
+      "last_seen": "2026-09-01T17:33:42.682005+00:00",
+      "next_check": "2026-09-02T17:33:42.682005+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/contact-center-express/open_req/": {
+      "content_sha": "4b71bf2b31195277bd347cdb042e752317fba00575f668bdeb51ada20251c99b",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-open-req-aac0f6d673",
+      "etag": "W/\"2a4d3e39880ee7afd572cd2242bb1b00\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:33:38.185015+00:00",
+      "last_changed": "2026-09-01T17:33:38.185015+00:00",
+      "last_modified": "Wed, 10 Jun 2026 06:35:33 GMT",
+      "last_seen": "2026-09-01T17:33:38.185015+00:00",
+      "next_check": "2026-09-02T17:33:38.185015+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/contact-center-express/scripting-overview/": {
+      "content_sha": "40a01fe8f9ac6ba2ecfd5ec59abf2a87cb2963b57135eb6b4133d263cf9b025a",
+      "doc_id": "developer-cisco-com-docs-contact-center-express-scripting-overview-f6a92e4794",
+      "etag": "W/\"bc3bf90028e338e6b2e5739cbed1edb9\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:00.815027+00:00",
+      "last_changed": "2026-09-01T17:34:00.815027+00:00",
+      "last_modified": "Mon, 22 Jun 2026 10:58:15 GMT",
+      "last_seen": "2026-09-01T17:34:00.815027+00:00",
+      "next_check": "2026-09-02T17:34:00.815027+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -22257,6 +22348,19 @@
       "next_check": "2026-09-04T10:48:43.534122+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://developer.cisco.com/docs/finesse/faqs/": {
+      "content_sha": "e3896eeacc2bc495919eccae8836caaaaabc11662014d6c86851b303f668ffb5",
+      "doc_id": "developer-cisco-com-docs-finesse-faqs-1f7366da6a",
+      "etag": "W/\"473b3f4abae36d50cc319bb5bd708bad\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:14.031169+00:00",
+      "last_changed": "2026-09-01T17:34:14.031169+00:00",
+      "last_modified": "Mon, 22 Jun 2026 11:54:20 GMT",
+      "last_seen": "2026-09-01T17:34:14.031169+00:00",
+      "next_check": "2026-09-02T17:34:14.031169+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/docs/finesse/finesse-overview/": {
       "content_sha": "d784961a9ecabb16a6c7c7e9bbd2b1d23528848bccf5e6977e1f06ccb85a34b5",
@@ -22466,6 +22570,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://developer.cisco.com/docs/task-routing/creating-script-selector/": {
+      "content_sha": "9a7d27ee95d118ea2c5705e877af394f842307ec018697329355f0d1c00967cf",
+      "doc_id": "developer-cisco-com-docs-task-routing-creating-script-selector-c6f28226d2",
+      "etag": "W/\"34a3ba5094819b481aea061884f75e01\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:53.419067+00:00",
+      "last_changed": "2026-09-01T17:34:53.419067+00:00",
+      "last_modified": "Mon, 08 Jun 2026 21:06:18 GMT",
+      "last_seen": "2026-09-01T17:34:53.419067+00:00",
+      "next_check": "2026-09-02T17:34:53.419067+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/docs/task-routing/getting-started/": {
       "content_sha": "3aff221b4cd7f556d2f86910c591e3eb6b3ae89271d8918547680171eec1b302",
       "doc_id": "developer-cisco-com-docs-task-routing-getting-started-134eddfbcc",
@@ -22489,6 +22606,19 @@
       "last_modified": "Tue, 09 Jun 2026 01:12:17 GMT",
       "last_seen": "2026-08-25T21:02:50.877936+00:00",
       "next_check": "2026-08-26T21:02:50.877936+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/docs/task-routing/task-routing-overview/": {
+      "content_sha": "969e63687b97da7539bd22cedd1878fb13e8f0dc7d2a64522dec84a99b6b1235",
+      "doc_id": "developer-cisco-com-docs-task-routing-task-routing-overview-ca08b7d524",
+      "etag": "W/\"d9d9132a068b05503c7dcc2a932cbb70\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:40.404711+00:00",
+      "last_changed": "2026-09-01T17:34:40.404711+00:00",
+      "last_modified": "Mon, 08 Jun 2026 12:51:09 GMT",
+      "last_seen": "2026-09-01T17:34:40.404711+00:00",
+      "next_check": "2026-09-02T17:34:40.404711+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -22840,6 +22970,414 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-call-routing-request-html-3a4aa1868c",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:50.274453+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:50.274463+00:00",
+      "next_check": "2026-09-02T17:35:50.274463+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request2.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-call-routing-request2-html-c0b1402a66",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:15.178418+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:15.178431+00:00",
+      "next_check": "2026-09-02T17:36:15.178431+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request2.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/cixml_format.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-cixml-format-html-f7a68dacd8",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:31.831155+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:31.831166+00:00",
+      "next_check": "2026-09-02T17:36:31.831166+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_format.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/cixml_parameter.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-cixml-parameter-html-26c5427a71",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:35.934904+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:35.934914+00:00",
+      "next_check": "2026-09-02T17:36:35.934914+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_parameter.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/cixml_schema.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-cixml-schema-html-7561ba0f50",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:48.383879+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:48.383891+00:00",
+      "next_check": "2026-09-02T17:36:48.383891+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/cixml_schema.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/connections.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-connections-html-4d5960b2a1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:00.789920+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:00.789930+00:00",
+      "next_check": "2026-09-02T17:37:00.789930+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/connections.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/description.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-description-html-12ccfb2027",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:54.425052+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:54.425064+00:00",
+      "next_check": "2026-09-02T17:35:54.425064+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/description.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/description2.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-description2-html-94970b3249",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:19.335106+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:19.335119+00:00",
+      "next_check": "2026-09-02T17:36:19.335119+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/description2.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/development_guidelines.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-development-guidelines-html-1f2dbfbc4a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:24.958669+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:24.958679+00:00",
+      "next_check": "2026-09-02T17:35:24.958679+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/development_guidelines.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/error_handling.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-error-handling-html-c9bcb9abbd",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:21.397366+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:21.397378+00:00",
+      "next_check": "2026-09-02T17:37:21.397378+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/error_handling.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/error_response_from_web_servic.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-error-response-from-web-servic-html-9577f7f56a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:38.057534+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:38.057548+00:00",
+      "next_check": "2026-09-02T17:37:38.057548+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/error_response_from_web_servic.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/example.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-example-html-b8c1d7b5d0",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:06.617693+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:06.617703+00:00",
+      "next_check": "2026-09-02T17:36:06.617703+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/example.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/example2.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-example2-html-bf531ad4c1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:40.093580+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:40.093592+00:00",
+      "next_check": "2026-09-02T17:36:40.093592+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/example2.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/example_use_cases.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-example-use-cases-html-58fed76003",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:37.623368+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:37.623379+00:00",
+      "next_check": "2026-09-02T17:35:37.623379+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/example_use_cases.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/format.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-format-html-2e710ba05f",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:58.602653+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:58.602665+00:00",
+      "next_check": "2026-09-02T17:35:58.602665+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/format.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/format2.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-format2-html-a8e04688bf",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:23.573606+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:23.573617+00:00",
+      "next_check": "2026-09-02T17:36:23.573617+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/format2.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/hello_world.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-hello-world-html-9b0ff5b9ff",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:41.795532+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:41.795545+00:00",
+      "next_check": "2026-09-02T17:35:41.795545+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/hello_world.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/keep_alive_message.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-keep-alive-message-html-ab5f4ed459",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:52.569863+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:52.569873+00:00",
+      "next_check": "2026-09-02T17:36:52.569873+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/keep_alive_message.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/message_timer.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-message-timer-html-0b62fa1677",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:56.683342+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:56.683354+00:00",
+      "next_check": "2026-09-02T17:36:56.683354+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/message_timer.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/multiple_connections.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-multiple-connections-html-e2a31bb418",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:04.939639+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:04.939649+00:00",
+      "next_check": "2026-09-02T17:37:04.939649+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/multiple_connections.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/new_and_changed_information.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-new-and-changed-information-html-5b4ca0c17f",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:29.131204+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:29.131214+00:00",
+      "next_check": "2026-09-02T17:35:29.131214+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/new_and_changed_information.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/new_apis.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-new-apis-html-4e2b9e7447",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:33.344945+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:33.344958+00:00",
+      "next_check": "2026-09-02T17:35:33.344958+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/new_apis.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/overview.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-overview-html-7021de16d9",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:20.639736+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:20.639748+00:00",
+      "next_check": "2026-09-02T17:35:20.639748+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/overview.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/parameter.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-parameter-html-5e01df18fd",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:27.666911+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:27.666921+00:00",
+      "next_check": "2026-09-02T17:36:27.666921+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/parameter.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/parameters.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-parameters-html-91226e4f7a",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:02.739581+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:02.739594+00:00",
+      "next_check": "2026-09-02T17:36:02.739594+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/parameters.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/persistent_connection_and_keep.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-persistent-connection-and-keep-html-c9307d013e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:13.174605+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:13.174617+00:00",
+      "next_check": "2026-09-02T17:37:13.174617+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/persistent_connection_and_keep.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/redirection.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-redirection-html-e590ecf076",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:17.287228+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:17.287237+00:00",
+      "next_check": "2026-09-02T17:37:17.287237+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/redirection.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/redundant_web_services.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-redundant-web-services-html-2eb7074b40",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:09.062063+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:09.062073+00:00",
+      "next_check": "2026-09-02T17:37:09.062073+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/redundant_web_services.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/security.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-security-html-53dfb1f48d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:46.105189+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:35:46.105202+00:00",
+      "next_check": "2026-09-02T17:35:46.105202+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/security.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/unified_cm_parse_response_erro.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-unified-cm-parse-response-erro-html-3a02c03767",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:33.888683+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:33.888694+00:00",
+      "next_check": "2026-09-02T17:37:33.888694+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/unified_cm_parse_response_erro.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/united_cm_timeout_awaiting_res.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-united-cm-timeout-awaiting-res-html-7bb2284055",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:29.708293+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:29.708304+00:00",
+      "next_check": "2026-09-02T17:37:29.708304+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/united_cm_timeout_awaiting_res.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/web_service_connection_failure.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-web-service-connection-failure-html-d1bb059957",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:37:25.543856+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:37:25.543867+00:00",
+      "next_check": "2026-09-02T17:37:25.543867+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/web_service_connection_failure.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/xacml_request_schema.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-xacml-request-schema-html-0cb6103821",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:10.987687+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:10.987700+00:00",
+      "next_check": "2026-09-02T17:36:10.987700+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/xacml_request_schema.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/documents/latest-version/xacml_response_schema.html": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-curri-documents-latest-version-xacml-response-schema-html-66591b34c1",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:36:44.198944+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:36:44.198955+00:00",
+      "next_check": "2026-09-02T17:36:44.198955+00:00",
+      "redirect_to": "https://developer.cisco.com/site/curri/documents/latest-version/xacml_response_schema.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/curri/help/faqs/": {
       "content_sha": "7920594f29336b7f22bcd17de7be1db015371caa974841a9eae6367193055208",
       "doc_id": "developer-cisco-com-site-curri-help-faqs-793779cec4",
@@ -22850,6 +23388,19 @@
       "last_modified": "Tue, 09 Jun 2026 08:36:13 GMT",
       "last_seen": "2026-08-25T21:04:55.265699+00:00",
       "next_check": "2026-08-26T21:04:55.265699+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/curri/overview/how-does-curri-work/": {
+      "content_sha": "6aa21e79338d0f7ec789316938aabbe97ef096f03341648cee94fa5c3a2484db",
+      "doc_id": "developer-cisco-com-site-curri-overview-how-does-curri-work-e6e09ccd95",
+      "etag": "W/\"c2249fb159bdf329816e232013c3dfec\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:16.391962+00:00",
+      "last_changed": "2026-09-01T17:35:16.391962+00:00",
+      "last_modified": "Tue, 23 Jun 2026 15:32:40 GMT",
+      "last_seen": "2026-09-01T17:35:16.391962+00:00",
+      "next_check": "2026-09-02T17:35:16.391962+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -23324,6 +23875,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/packaged-contact-center/overview/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-site-packaged-contact-center-overview-78891da931",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:45.008123+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:34:45.008136+00:00",
+      "next_check": "2026-09-02T17:34:45.008136+00:00",
+      "redirect_to": "https://developer.cisco.com/site/packaged-contact-center/",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/paws/": {
       "content_sha": "ac18d2ac680746c5cbe4b75a684c347f10b79dc7238941b9254d3606b615d70b",
       "doc_id": "developer-cisco-com-site-paws-012d6a50a0",
@@ -23774,6 +24337,19 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://developer.cisco.com/site/user-data-services/community-and-support/faq/": {
+      "content_sha": "44afe38200ae2c8684ccb1a537dcf3ce12bd8c619357ff575d5ea1e4643ff3a0",
+      "doc_id": "developer-cisco-com-site-user-data-services-community-and-support-faq-9e9411ef74",
+      "etag": "W/\"892b2d2ed80f5ff73b7c76a8fecca961\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:11.149269+00:00",
+      "last_changed": "2026-09-01T17:35:11.149269+00:00",
+      "last_modified": "Mon, 08 Jun 2026 07:25:49 GMT",
+      "last_seen": "2026-09-01T17:35:11.149269+00:00",
+      "next_check": "2026-09-02T17:35:11.149269+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/user-data-services/discover/what-is-uds/": {
       "content_sha": "902b4a17ba04b4b07b8eb6d60f289da46f87ed41499b718a60584d5dc6a7cd4f",
       "doc_id": "developer-cisco-com-site-user-data-services-discover-what-is-uds-e3ee98babf",
@@ -23813,6 +24389,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/user-data-services/learn/how-to/configure-http-sessions/": {
+      "content_sha": "d480f78965e1b2ff946dfa45e4d3a067d7fec24a64ade06ccf99cf17f0f10f1e",
+      "doc_id": "developer-cisco-com-site-user-data-services-learn-how-to-configure-http-sessions-625d334ed6",
+      "etag": "W/\"25c21cec034327adbf207cf5132a8f68\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:06.881075+00:00",
+      "last_changed": "2026-09-01T17:35:06.881075+00:00",
+      "last_modified": "Mon, 08 Jun 2026 22:11:25 GMT",
+      "last_seen": "2026-09-01T17:35:06.881075+00:00",
+      "next_check": "2026-09-02T17:35:06.881075+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/": {
+      "content_sha": "81ad4507ef2b3ff17485ec3695538ffd727c28a4d70732115603c6e24102512b",
+      "doc_id": "developer-cisco-com-site-user-data-services-learn-how-to-explore-uds-apis-2e30904023",
+      "etag": "W/\"c4ee18e0a1d19e1982dc829f59257bcd\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:58.109782+00:00",
+      "last_changed": "2026-09-01T17:34:58.109782+00:00",
+      "last_modified": "Mon, 22 Jun 2026 11:24:19 GMT",
+      "last_seen": "2026-09-01T17:34:58.109782+00:00",
+      "next_check": "2026-09-02T17:34:58.109782+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/index.gsp": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-site-user-data-services-learn-how-to-explore-uds-apis-index-gsp-72822962b0",
@@ -23835,6 +24437,19 @@
       "last_modified": "Mon, 08 Jun 2026 09:33:53 GMT",
       "last_seen": "2026-08-25T21:03:04.164273+00:00",
       "next_check": "2026-08-26T21:03:04.164273+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/user-data-services/sso/": {
+      "content_sha": "0705f23d3b14b2e59a47effe3abbdad11804332649ba9b96cfef001656d8288b",
+      "doc_id": "developer-cisco-com-site-user-data-services-sso-8bc5022705",
+      "etag": "W/\"30ad2583b1ec0f3b1eed2ef9e23b1956\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:35:02.635150+00:00",
+      "last_changed": "2026-09-01T17:35:02.635150+00:00",
+      "last_modified": "Mon, 22 Jun 2026 16:53:40 GMT",
+      "last_seen": "2026-09-01T17:35:02.635150+00:00",
+      "next_check": "2026-09-02T17:35:02.635150+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -31502,10 +32117,10 @@
       "first_seen": "2026-08-16T19:22:32.599727+00:00",
       "last_changed": "2026-08-16T19:22:32.599727+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:13:09.103823+00:00",
-      "next_check": "2026-08-25T10:13:09.103823+00:00",
+      "last_seen": "2026-09-01T17:30:49.692213+00:00",
+      "next_check": "2026-09-09T17:30:49.692213+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200422-Integrate-SocialMiner-with-Cisco-Unified.html": {
       "content_sha": "6569f4434455842d873f594badd46f0e8070e34b6e5ef5300ec8b41e9b56bb35",
@@ -31553,10 +32168,10 @@
       "first_seen": "2026-08-16T19:21:37.570873+00:00",
       "last_changed": "2026-08-16T19:21:37.570873+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:13:17.880462+00:00",
-      "next_check": "2026-08-25T10:13:17.880462+00:00",
+      "last_seen": "2026-09-01T17:30:58.331505+00:00",
+      "next_check": "2026-09-09T17:30:58.331505+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200286-Unified-CCE-Solution-Procedure-to-Obtai.html": {
       "content_sha": "9619f9980009fa4e6de33888fe28783b5e71cbe9cd60043dea64642c8ab968f9",
@@ -31631,10 +32246,10 @@
       "first_seen": "2026-08-16T15:01:20.958093+00:00",
       "last_changed": "2026-08-16T15:01:20.958093+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T11:52:56.803828+00:00",
-      "next_check": "2026-08-25T11:52:56.803828+00:00",
+      "last_seen": "2026-09-01T17:32:36.136189+00:00",
+      "next_check": "2026-09-09T17:32:36.136189+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE.html": {
       "content_sha": "7e559d9ecf9a16e2b53c74cc70b92976d319af653ec244e77d32685a4202fb1a",
@@ -31670,10 +32285,10 @@
       "first_seen": "2026-08-16T19:21:46.080572+00:00",
       "last_changed": "2026-08-16T19:21:46.080572+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:13:13.544186+00:00",
-      "next_check": "2026-08-25T10:13:13.544186+00:00",
+      "last_seen": "2026-09-01T17:30:54.013460+00:00",
+      "next_check": "2026-09-09T17:30:54.013460+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.html": {
       "content_sha": "b357f808685955593662ef283d5f350449ee5b6513c9a7a233dd73c1bc3fe9f6",
@@ -31766,17 +32381,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.html": {
-      "content_sha": "94326876806f44a37a060295e999e41e3e11ba45c046c4a5d4301de502ab555f",
+      "content_sha": "1c2e90e5f7bce7bf3e393595d84d5d26d1584bab148b37a960d457379f7581fd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200662-adfs-ids-troubleshooting-da9468a049",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T19:22:28.269059+00:00",
-      "last_changed": "2026-08-16T19:22:28.269059+00:00",
+      "last_changed": "2026-09-01T17:30:46.377207+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:13:05.587290+00:00",
-      "next_check": "2026-08-25T10:13:05.587290+00:00",
+      "last_seen": "2026-09-01T17:30:46.377207+00:00",
+      "next_check": "2026-09-02T17:30:46.377207+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.html": {
       "content_sha": "543f6afb37be84a292fd7e17d8d274af44f30473601469df9130563210a20b01",
@@ -32020,10 +32635,10 @@
       "first_seen": "2026-08-16T19:24:23.278694+00:00",
       "last_changed": "2026-08-16T19:24:23.278694+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T10:11:22.796829+00:00",
-      "next_check": "2026-08-25T10:11:22.796829+00:00",
+      "last_seen": "2026-09-01T17:30:33.035059+00:00",
+      "next_check": "2026-09-09T17:30:33.035059+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/200744-Understand-Voice-Extensible-Markup-Langu.html": {
       "content_sha": "535ae04c6b45bcca16fa7995827d01f6cf02321b1ec99445ccac14bf52189523",
@@ -33234,17 +33849,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html": {
-      "content_sha": "071a51daab842e2af3912fbae607ea8909848cf761d89d942810982760eb7d8a",
+      "content_sha": "e00aa57a988d33d040930dc64521742ec62cd25a9fc8fc2d77d83f9c6e7066c7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-217922-configure--e60ca26a0e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:56:03.593712+00:00",
-      "last_changed": "2026-08-16T15:56:03.593712+00:00",
+      "last_changed": "2026-09-01T17:31:46.403733+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:56.535978+00:00",
-      "next_check": "2026-08-25T19:56:56.535978+00:00",
+      "last_seen": "2026-09-01T17:31:46.403733+00:00",
+      "next_check": "2026-09-02T17:31:46.403733+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ip-manager-assistant-cisco-unified-callmanager-40/200159-Configure-and-Troubleshoot-Cisco-IP-Mana.html": {
       "content_sha": "4487c6b36d8c359a14d3e6cdecccda88f9e2cefde35ca6d08546545622131d37",
@@ -34176,10 +34791,10 @@
       "first_seen": "2026-08-16T15:55:55.482026+00:00",
       "last_changed": "2026-08-16T15:55:55.482026+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:48.169572+00:00",
-      "next_check": "2026-08-25T19:56:48.169572+00:00",
+      "last_seen": "2026-09-01T17:31:34.117781+00:00",
+      "next_check": "2026-09-09T17:31:34.117781+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200614-Configure-and-Troubleshoot-Enterprise-CA.html": {
       "content_sha": "927b75344e7c42b7a4fb4e8adc91b9e109900fa3fa48f5f686f5b0001cf21000",
@@ -34189,10 +34804,10 @@
       "first_seen": "2026-08-16T15:56:15.982280+00:00",
       "last_changed": "2026-08-16T15:56:15.982280+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:57:05.081637+00:00",
-      "next_check": "2026-08-25T19:57:05.081637+00:00",
+      "last_seen": "2026-09-01T17:31:21.174915+00:00",
+      "next_check": "2026-09-09T17:31:21.174915+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212090-Configure-SIP-TLS-between-CUCM-CUBE-CUBE.html": {
       "content_sha": "72e5ca59d6529107cfe1fa96395df396189925f837e1627823247ba0abe986cc",
@@ -34202,10 +34817,10 @@
       "first_seen": "2026-08-16T15:56:20.306434+00:00",
       "last_changed": "2026-08-16T15:56:20.306434+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:57:09.299111+00:00",
-      "next_check": "2026-08-25T19:57:09.299111+00:00",
+      "last_seen": "2026-09-01T17:31:29.732891+00:00",
+      "next_check": "2026-09-09T17:31:29.732891+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.html": {
       "content_sha": "c2a6ccd2abb74c461363d8aa15abcabf0681e419cbb39f4b75b0050358c302b9",
@@ -34247,17 +34862,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214622-troubleshoot-no-audio-issues-with-hairpi.html": {
-      "content_sha": "98d19d47dc9c90594d4c52f6657cc9c3671c3ad246880a7ec108b13b7d226af3",
+      "content_sha": "ffe995e1474be7d6030140be8c2e906b2ed0a4314612e2e57aedfdb96ba86f03",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-214622-troubleshoot-no-audio-issues-wit-671670ddc6",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:55:51.056377+00:00",
-      "last_changed": "2026-08-16T15:55:51.056377+00:00",
+      "last_changed": "2026-09-01T17:32:03.058811+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:43.855405+00:00",
-      "next_check": "2026-08-25T19:56:43.855405+00:00",
+      "last_seen": "2026-09-01T17:32:03.058811+00:00",
+      "next_check": "2026-09-02T17:32:03.058811+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.html": {
       "content_sha": "0b26e26fee045d705fe0af37d1778fabf0f6f7db64043315a6db8ca2261246fe",
@@ -34273,17 +34888,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.html": {
-      "content_sha": "9a894cc760f4b18965a13a4844e7c738b2b1ba6e6e4d597e45b4f2e7ce1fe414",
+      "content_sha": "f76d93f4aab80bfd4cde3ef0722aa83d8ac18a87eff7bd403a84df664fd41880",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-215208-configure-debug-collection-for-u-33c2120447",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:55:42.972799+00:00",
-      "last_changed": "2026-08-16T15:55:42.972799+00:00",
+      "last_changed": "2026-09-01T17:31:38.116120+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:35.991737+00:00",
-      "next_check": "2026-08-25T19:56:35.991737+00:00",
+      "last_seen": "2026-09-01T17:31:38.116120+00:00",
+      "next_check": "2026-09-02T17:31:38.116120+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.html": {
       "content_sha": "74aa1aa2dd1769048f9ec53a216403ca73e05fb945f2d5299436e3bb3359c692",
@@ -34293,10 +34908,10 @@
       "first_seen": "2026-08-16T15:56:07.713431+00:00",
       "last_changed": "2026-08-16T15:56:07.713431+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:57:00.971218+00:00",
-      "next_check": "2026-08-25T19:57:00.971218+00:00",
+      "last_seen": "2026-09-01T17:31:50.374481+00:00",
+      "next_check": "2026-09-09T17:31:50.374481+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/217860-troubleshooting-busyout-dial-peers-on-cu.html": {
       "content_sha": "e4685454871960885b0e3164059c9c1717b62da9ebd4293b84f9c03d315e4890",
@@ -34312,17 +34927,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220378-configure-zone-based-firewall-zbfw-co.html": {
-      "content_sha": "cf3fb4c7badac95f50f1214350b50be8e44de105b42560a307365c43482eb077",
+      "content_sha": "253f7e58e83147c3165f0ef54e09458af6c636de31acc62aa5ba02170be6ed08",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-220378-configure-zone-based-firewall-zb-9e933332f5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:55:59.777985+00:00",
-      "last_changed": "2026-08-16T15:55:59.777985+00:00",
+      "last_changed": "2026-09-01T17:31:59.049653+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:52.194736+00:00",
-      "next_check": "2026-08-25T19:56:52.194736+00:00",
+      "last_seen": "2026-09-01T17:31:59.049653+00:00",
+      "next_check": "2026-09-02T17:31:59.049653+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/220380-cisco-guide-to-harden-cisco-unified-bord.html": {
       "content_sha": "2acf79fc28268b59d5fd399e68ed66cc8174dd36c4f1b6fba20f427b8e269afb",
@@ -34345,10 +34960,10 @@
       "first_seen": "2026-08-16T15:55:17.802331+00:00",
       "last_changed": "2026-08-16T15:55:17.802331+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:31.620768+00:00",
-      "next_check": "2026-08-25T19:56:31.620768+00:00",
+      "last_seen": "2026-09-01T17:31:42.537308+00:00",
+      "next_check": "2026-09-09T17:31:42.537308+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/222548-configure-srtp-rtp-interworking-on-cube.html": {
       "content_sha": "434f19b491c992b83e74067d8ae650a4cf2e39066e4f3c1a5c8133707e91c507",
@@ -34358,10 +34973,10 @@
       "first_seen": "2026-08-16T15:55:46.996415+00:00",
       "last_changed": "2026-08-16T15:55:46.996415+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:56:39.934387+00:00",
-      "next_check": "2026-08-25T19:56:39.934387+00:00",
+      "last_seen": "2026-09-01T17:31:54.579213+00:00",
+      "next_check": "2026-09-09T17:31:54.579213+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html": {
       "content_sha": "6cc3e3ddf421408effe5934830463bea1d05cae3cec5aa4ae5521b0e1b66de5d",
@@ -37579,10 +38194,10 @@
       "first_seen": "2026-08-16T15:56:28.384354+00:00",
       "last_changed": "2026-08-16T15:56:28.384354+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T19:57:13.665258+00:00",
-      "next_check": "2026-08-25T19:57:13.665258+00:00",
+      "last_seen": "2026-09-01T17:31:25.616900+00:00",
+      "next_check": "2026-09-09T17:31:25.616900+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/118647-technote-sip-00.html": {
       "content_sha": "24779ede6f3217a3d407bb5bb579c6d2c94e46673ed4093841ea25421db365ca",
@@ -37915,6 +38530,18 @@
       "last_seen": "2026-08-25T21:26:47.250044+00:00",
       "next_check": "2026-08-26T21:26:47.250044+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-hosted-collaboration-solution-contact-center-series-html-0b20a3dda4",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:30:24.211901+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:30:24.211912+00:00",
+      "next_check": "2026-09-02T17:30:24.211912+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -143710,6 +144337,66 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Config_Guide/hcscc_b_configuration_guide_12_0.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-0-1-config-guide-hcscc-b-configuration-418f138af4",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:31:14.741029+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:31:14.741039+00:00",
+      "next_check": "2026-09-02T17:31:14.741039+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Install_Upgrade_Guide/hcs-cc_b_installing-and-upgrading-guide-12-0.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-0-1-install-upgrade-guide-hcs-cc-b-ins-89a114aa00",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:31:01.986132+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:31:01.986143+00:00",
+      "next_check": "2026-09-02T17:31:01.986143+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Solution_Design_Guide/hcscc_b_soldg-for-hcs-cc-120.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-0-1-solution-design-guide-hcscc-b-sold-5604282c56",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:30:20.621257+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:30:20.621267+00:00",
+      "next_check": "2026-09-02T17:30:20.621267+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Solution_Release_Notes/hcscc_b_solution-release-notes_12_0.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-0-1-solution-release-notes-hcscc-b-sol-c8b04fdbf9",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:30:28.168280+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:30:28.168291+00:00",
+      "next_check": "2026-09-02T17:30:28.168291+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Config_Guide/hcs-cc_b_cisco-hcs-for-config-guide_12_5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-5-1-config-guide-hcs-cc-b-cisco-hcs-fo-f31947d04e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:31:10.264662+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:31:10.264672+00:00",
+      "next_check": "2026-09-02T17:31:10.264672+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_5_1/Install_Upgrade_Guide/hcs-cc_b_installing-and-upgrading-guide_12_5.html": {
       "content_sha": "a426e4d0f28be3d9c6ab5caadf133e6aedbb30bdcb0245acf7861392fde9e061",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-hcs-cc-12-5-1-install-upgrade-guide-hcs-cc-b-ins-cfc4b15267",
@@ -144472,10 +145159,10 @@
       "first_seen": "2026-08-21T03:12:58.879070+00:00",
       "last_changed": "2026-08-21T03:12:58.879070+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:45:31.548993+00:00",
-      "next_check": "2026-08-26T16:45:31.548993+00:00",
+      "last_seen": "2026-09-01T17:32:12.716225+00:00",
+      "next_check": "2026-09-05T17:32:12.716225+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/EngineeringSpecials/index/Unified-CCE-Engineering-Specials-for-Release-12-6.html": {
       "content_sha": "0d66050d5aff42ffa877a736cefc9c8b4de84837a24621510461f9a3a401fdcf",
@@ -144502,6 +145189,18 @@
       "next_check": "2026-08-26T16:45:39.120564+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/cc_landing_page_poc/index.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-cc-landing-page-poc-index-html-712ac9407b",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:31:06.380995+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T17:31:06.381006+00:00",
+      "next_check": "2026-09-02T17:31:06.381006+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/retired.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_11_5_1/Design/Guide/ucce_b_soldg-for-unified-cce.html": {
       "content_sha": null,
@@ -164072,6 +164771,19 @@
       "next_check": "2026-08-27T00:50:56.429377+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01101.html": {
+      "content_sha": "a2e3e3b8da440ae0b3afee0da93aaa21aa3ff7ea2e16cc91b78d53bc95d4ef50",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-5946ab717e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T17:34:31.547511+00:00",
+      "last_changed": "2026-09-01T17:34:31.547511+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T17:34:31.547511+00:00",
+      "next_check": "2026-09-02T17:34:31.547511+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_appendix_010001.html": {
       "content_sha": "cf01ac63dd154d8dc4272cdfab03b34f1538e482e2eb5dddad6b63bbaf23a5c1",
@@ -191393,5 +192105,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T17:26:23.458191+00:00"
+  "updated_at": "2026-09-01T17:37:38.153936+00:00"
 }
