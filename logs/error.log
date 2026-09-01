@@ -19853,3 +19853,28 @@
 [2026-09-01T14:03:28.514064] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19980513-wccp-auth/cvrf/cisco-sa-19980513-wccp-auth_cvrf.xml
 [2026-09-01T14:03:32.744970] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19980122-aaapair/cvrf/cisco-sa-19980122-aaapair_cvrf.xml
 [2026-09-01T14:03:36.764508] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19971216-pw-buffer/cvrf/cisco-sa-19971216-pw-buffer_cvrf.xml
+[2026-09-01T14:06:54.325212] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-01T14:06:58.305807] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-01T14:08:11.720562] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-01T14:08:12.458001] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19971121-land/cvrf/cisco-sa-19971121-land_cvrf.xml
+[2026-09-01T14:08:16.193487] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19971117-ld-pass/cvrf/cisco-sa-19971117-ld-pass_cvrf.xml
+[2026-09-01T14:08:20.590100] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19971001-chap/cvrf/cisco-sa-19971001-chap_cvrf.xml
+[2026-09-01T14:08:24.619161] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19950731-acl-packet-bypass/cvrf/cisco-sa-19950731-acl-packet-bypass_cvrf.xml
+[2026-09-01T14:08:28.876441] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-19950601-key-packet-bypass/cvrf/cisco-sa-19950601-key-packet-bypass_cvrf.xml
+[2026-09-01T14:08:35.777421] Markdown insuficiente tras sanitizar (75 chars). | https://sec.cloudapps.cisco.com/security/center/viewErp.x
+[2026-09-01T14:08:53.107386] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/resources/corp_network_security_incident
+[2026-09-01T14:08:53.107481] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/viewErp.x
+[2026-09-01T14:08:53.107512] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/resources/prod_svc_info_log4j.html
+[2026-09-01T14:08:53.140722] Omitida: excluida por robots.txt | http://tools.cisco.com/security/center/viewErp.x
+[2026-09-01T14:08:53.140806] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/resources/prod_svc_info_kaseya.html
+[2026-09-01T14:08:53.140834] Omitida: excluida por robots.txt | https://tools.cisco.com/security/center/resources/solarwinds_orion_event_response
+[2026-09-01T14:11:20.521633] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh/csaf/cisco-sa-hardening-crosswork-UzDTU9Vh.json
+[2026-09-01T14:11:24.592342] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-csw1-shSvndWP/csaf/cisco-sa-hardening-csw1-shSvndWP.json
+[2026-09-01T14:11:29.485766] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt/csaf/cisco-sa-bworks-xxe-uwUd7CEt.json
+[2026-09-01T14:11:33.530382] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ucce-pcce-ssrf-TghHxD/csaf/cisco-sa-ucce-pcce-ssrf-TghHxD.json
+[2026-09-01T14:11:37.834742] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-roomos-bof-vTMANZgu/csaf/cisco-sa-roomos-bof-vTMANZgu.json
+[2026-09-01T14:11:41.825278] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-uxq86Lnx/csaf/cisco-sa-ie1k-uxq86Lnx.json
+[2026-09-01T14:11:54.146153] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-NgXUFF52/csaf/cisco-sa-ie1k-NgXUFF52.json
+[2026-09-01T14:11:56.702394] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt51262
+[2026-09-01T14:11:58.452741] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5/csaf/cisco-sa-cuic-sql-inject-2qbfWSm5.json
+[2026-09-01T14:12:02.796911] HTTP 599 o DOM vacío. | https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-LDquvx5d/csaf/cisco-sa-notice-LDquvx5d.json
