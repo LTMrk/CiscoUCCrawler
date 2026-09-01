@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-fbc4850858
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/cce_serviceability_and_monitoring_using_appdynamics.html
-retrieved_at: 2026-08-25T00:02:17.564482+00:00
+retrieved_at: 2026-09-01T18:59:19.981852+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -181,6 +181,8 @@ Add the calculated totals from all components to determine the final license req
 Only components selected for monitoring need to be included in the calculation. It is not required to include the nodes which
                                           are not planned to be instrumented in the deployment.
 
+For end user monitoring on Finesse, you must procure AppDynamics ENUM license.
+
 ### Licensing Model Considerations
 
 The preceding calculation applies to AppDynamics Agent-Based Licensing (ABL). If AppDynamics Infrastructure-Based Licensing
@@ -191,6 +193,8 @@ The preceding calculation applies to AppDynamics Agent-Based Licensing (ABL). If
 Machine Agent (Release 20.11 or later) is required on each host for accurate CPU core detection; if Machine Agent is not present
                                           or CPU count cannot be detected, a default of 4 CPU cores per host is assumed for APM-monitored hosts.
 
+Refer to Agent License Considerations section for additional details.
+
 ## Prerequisites
 
 ### Application Group and Agent Licenses
@@ -198,10 +202,6 @@ Machine Agent (Release 20.11 or later) is required on each host for accurate CPU
 Before the applications can be configured for performance monitoring, ensure that an AppDynamics application group is created
                               and the required number of agent licenses are procured and allocated. An access key is generated for the application group.
                               This access key is required later during the configuration procedure.
-
-For details on how to acquire agent licenses, please contact appd_ucce_sales@cisco.com . If your AppDynamics agents are prior to 25.4.0 version, refer to Getting Started , else refer to Agent License Considerations .
-
-For end user monitoring on Finesse, you must procure AppDynamics ENUM license.
 
 ### Cloud Connect
 
@@ -1217,11 +1217,14 @@ Performance monitoring for ECE, CCP and Cloud Connect is currently not supported
                                           are not planned to be instrumented in the deployment. |
 |---|---|
 
+| Note | For end user monitoring on Finesse, you must procure AppDynamics ENUM license. |
+|---|---|
+
 | Note | Machine Agent (Release 20.11 or later) is required on each host for accurate CPU core detection; if Machine Agent is not present
                                           or CPU count cannot be detected, a default of 4 CPU cores per host is assumed for APM-monitored hosts. |
 |---|---|
 
-| Note | For end user monitoring on Finesse, you must procure AppDynamics ENUM license. |
+| Note | Refer to Agent License Considerations section for additional details. |
 |---|---|
 
 | Component | ES/COP 15.0(1) | ES/COP 12.6(2) |

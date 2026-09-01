@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-bea8b16488
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_port-utilization/rcct_m_1501_system-services.html
-retrieved_at: 2026-08-20T18:55:18.060343+00:00
+retrieved_at: 2026-09-01T18:56:35.960927+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1)
@@ -359,7 +359,10 @@ TCP 8005
 
 —
 
-Used for receiving shutdown requests, which would halt all applications within Tomcat
+Used for receiving shutdown requests, which would halt all applications within Tomcat.
+
+The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
+                                                      SMS Agent Host will result in a service conflict.
 
 Tomcat (HTTP)
 
@@ -477,9 +480,17 @@ Access to the ports are always authenticated with the Username and Password auth
 | System Service | TCP 5007 | — | — | Bidirectional | SOAP Monitor - a troubleshooting tool for SOAP infrastructure |
 | Cisco Identity Service Data Grid | TCP 5702 | Intra-cluster communication | 5702 Note: The Cisco IdS server node in the cluster connects to this port. | Bidirectional | Data or Service grid to manage Cisco IdS cluster nodes. |
 | DBMON (CN) | TCP 8001 | Intracluster communication | — | Bidirectional | DB change notification port. |
-| Tomcat | TCP 8005 | — | — | — | Used for receiving shutdown requests, which would halt all applications within Tomcat |
+| Tomcat | TCP 8005 | — | — | — | Used for receiving shutdown requests, which would halt all applications within Tomcat. Note The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
+                                                      SMS Agent Host will result in a service conflict. | Note | The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
+                                                      SMS Agent Host will result in a service conflict. |
+| Note | The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
+                                                      SMS Agent Host will result in a service conflict. |
 | Tomcat (HTTP) | TCP 8080 | Client Browser | — | Bidirectional | - Client browser trying to access any of the Administration interfaces or User Options interface. - Web services client using RTMT, configuration APIs, and mobile supervisor applications. - Data replication for call recording server - OAMP for Live Data - CRM Connector for SAP (adjustable through registry) |
 | Tomcat (HTTPS) | TCP 8443 | Client Browser | — | Bidirectional | - Client browser trying to access any of the Administration interfaces or User Options interface. - Web services client using RTMT, configuration APIs, and mobile supervisor applications. - DB access via SOAP; Tomcat forwards the SOAP request to AXL. |
 | IPSec Manager daemon | TCP 8500 | — | — | Bidirectional | Connectivity testing. Uses a proprietary protocol. |
 | IPSec Manager daemon | UDP 8500 | — | — | Bidirectional | Cluster replication of platform data (hosts) certificates etc. Uses a proprietary protocol. |
 | Cisco Identity Service ( Cisco IdS ) 1 | TCP 8553 | — | — | — | HTTPS for Cisco IdS |
+
+| Note | The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
+                                                      SMS Agent Host will result in a service conflict. |
+|---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c74b02e2ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/live_data_serviceability.html
-retrieved_at: 2026-08-20T18:59:05.572826+00:00
+retrieved_at: 2026-09-01T18:59:11.409026+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1101,6 +1101,12 @@ The event
                                                 					 description of administrative action that may be necessary to correct the
                                                 					 condition that caused the event to occur.
 
+#### Live Data (ICM Reporting) alert notifications
+
+Condition
+
+Notifications
+
 #### Live Data MIB
                               	 Notifications
 
@@ -1810,6 +1816,18 @@ New
                                                 					 the generated event, component state information, and potentially a brief
                                                 					 description of administrative action that may be necessary to correct the
                                                 					 condition that caused the event to occur. |
+
+| Condition | Notifications |
+|---|---|
+| An ActiveMQ or JMS publisher connection becomes unavailable or recovers. | Syslog message and SNMP trap are raised or cleared. |
+| Monitoring-bean initialization or registration fails or subsequently succeeds. | Syslog message and SNMP trap are raised or cleared. |
+| CCE connection, protocol processing, controller, request, heartbeat, or sequence synchronization fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
+| Camel service, spout, ZooKeeper, endpoint configuration, or deactivation processing fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
+| Live Data topology, cluster, state-machine, ActiveMQ, or NetBridge processing fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
+| CCE or CCMDB database access, runtime, configuration, or version validation fails. | Syslog message and SNMP trap are raised. |
+| Live Data interval runtime or processing fails. | Syslog message and SNMP trap are raised. |
+| REST authentication, token, snapshot, request handling, property, AWDB configuration, cluster-warning, invalid-tuple, publishing,
+                                          command, latency, or batch-delay messages occur. | Syslog message only, unless the event is explicitly paired with SNMP alerting. |
 
 | Object Name | Description |
 |---|---|

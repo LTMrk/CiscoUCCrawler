@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216030-enable-activecontrol-over-mra-expressway-htm-46dd039ece
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html
-retrieved_at: 2026-08-18T23:58:39.112407+00:00
+retrieved_at: 2026-09-01T18:55:02.231733+00:00
 ---
 
 Enable ActiveControl over MRA/Expressway
@@ -247,20 +247,6 @@ In the image, you can see that the connection is secure until the Expressway-C a
 21-Sep-2020
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Steven Janssens
-
-Cisco TAC Engineer
-
-Bruno Van Turnhout
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Meeting Server
 
 | Revision | Publish Date | Comments |
 |---|---|---|
