@@ -1,269 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220620-collect-logs-for-mra-phone-service-failu.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213360-collect-expressway-vcs-diagnostic-log-fo.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220315-troubleshoot-expressway-upgrade-error.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220220-troubleshoot-expressway-intermediate-dig.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217871-troubleshoot-expressway-connector-host-h.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217660-troubleshoot-cisco-expressway-let-s-encr.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217415-what-to-do-on-expressway-on-dst-root-ca.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/services-knowledge-base/video-series-getting-started-with-cisco-iq/ta-p/5559481",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-catalyst-center-expert-insights-series/ta-p/5149125",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-standalone-c-series-huu-utilities/ta-p/3638543",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/secure-access-announcements/youtube-com-bot-warning-message-for-secure-access-swg/ta-p/5229828",
-    "depth": 3
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/looking-for-info-on-cisco-collab-solutions/ta-p/3649062",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286281672/type/286230484/release/UTILITIES",
-    "depth": 3
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286329084/type/286230484/release/UTILITIES",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_change-history-140-doc-guide.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_documentation-changes.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_soluion-level-documentation.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_functional-level-documentation.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_related-component-level-documentaion.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-14-0/model.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_preface_00.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_01.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_010.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_011.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_0100.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-12-5/model.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_preface_0110.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_00.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_01.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_010.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0100.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0110.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0101.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_preface_00.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_010.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_011.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0100.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0101.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0110.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0111.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01000.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01001.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01010.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01011.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01101.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://apidocs-prod.cisco.com",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/Support/CLILookup/cltSearchAction.do",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.mobi",
-    "depth": 3
-  },
-  {
-    "url": "http://tools.cisco.com/Support/CLILookup/cltSearchAction.do",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.mobi",
-    "depth": 3
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.epub",
     "depth": 3
   },
@@ -36065,6 +35801,146 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220620-collect-logs-for-mra-phone-service-failu.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220620-collect-logs-for-mra-phone-service-failu.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213360-collect-expressway-vcs-diagnostic-log-fo.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213360-collect-expressway-vcs-diagnostic-log-fo.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220315-troubleshoot-expressway-upgrade-error.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220315-troubleshoot-expressway-upgrade-error.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx35891",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220220-troubleshoot-expressway-intermediate-dig.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220220-troubleshoot-expressway-intermediate-dig.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217871-troubleshoot-expressway-connector-host-h.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217871-troubleshoot-expressway-connector-host-h.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217660-troubleshoot-cisco-expressway-let-s-encr.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217660-troubleshoot-cisco-expressway-let-s-encr.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217415-what-to-do-on-expressway-on-dst-root-ca.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217415-what-to-do-on-expressway-on-dst-root-ca.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_appendix_01111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com/video/6154771820001",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com/video/5809964179001",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com/video/6154775607001",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com/video/5810050375001",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com/video/6039539294001",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/117890-technote-cucm-00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvw49110",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
     "depth": 3
   }
 ]

@@ -1460,6 +1460,18 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://apidocs-prod.cisco.com": {
+      "content_sha": null,
+      "doc_id": "apidocs-prod-cisco-com-bb624d6c8e",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:57:26.196611+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-01T20:57:26.196621+00:00",
+      "next_check": "2026-09-02T20:57:26.196621+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://apps.cisco.com": {
       "content_sha": null,
       "doc_id": "apps-cisco-com-50b6d891ee",
@@ -34809,10 +34821,10 @@
       "first_seen": "2026-08-16T15:43:57.219601+00:00",
       "last_changed": "2026-08-16T15:43:57.219601+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:10.461828+00:00",
-      "next_check": "2026-08-25T17:47:10.461828+00:00",
+      "last_seen": "2026-09-01T20:54:26.587744+00:00",
+      "next_check": "2026-09-09T20:54:26.587744+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/220620-collect-logs-for-mra-phone-service-failu.html": {
       "content_sha": "da0deb5b1e9ddcf6cc6af9de7e1e6b4662372e6e13d1f310ee415452eba58914",
@@ -34822,23 +34834,23 @@
       "first_seen": "2026-08-16T15:43:40.077341+00:00",
       "last_changed": "2026-08-16T15:43:40.077341+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:53.538829+00:00",
-      "next_check": "2026-08-25T17:46:53.538829+00:00",
+      "last_seen": "2026-09-01T20:54:09.777608+00:00",
+      "next_check": "2026-09-09T20:54:09.777608+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.html": {
-      "content_sha": "a8d10894bb49a5a08b6a54579d2b313c22f2e88dff4fd19688292ecef581a024",
+      "content_sha": "ef0b7488a85785540a7a3cd5baa04ed6ce45ae4230b1bb4a89eccc4b165698c4",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-series-222186-customize-the-expressway-ssl-cipher-c-7ec45d965b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:43:35.950115+00:00",
-      "last_changed": "2026-08-16T15:43:35.950115+00:00",
+      "last_changed": "2026-09-01T20:54:05.891196+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:49.498775+00:00",
-      "next_check": "2026-08-25T17:46:49.498775+00:00",
+      "last_seen": "2026-09-01T20:54:05.891196+00:00",
+      "next_check": "2026-09-02T20:54:05.891196+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/223293-configure-endpoint-registration.html": {
       "content_sha": "220d8cf87117549781791d8a16efb8fc4e283861501056ecaaf21bf747e82a56",
@@ -34978,10 +34990,10 @@
       "first_seen": "2026-08-16T15:43:44.496661+00:00",
       "last_changed": "2026-08-16T15:43:44.496661+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:46:58.118818+00:00",
-      "next_check": "2026-08-25T17:46:58.118818+00:00",
+      "last_seen": "2026-09-01T20:54:13.919443+00:00",
+      "next_check": "2026-09-09T20:54:13.919443+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.html": {
       "content_sha": "bffcca3146acfeb4df84ab855c2d66e28f35d4188e5dafbc4c69362caf658d22",
@@ -35108,10 +35120,10 @@
       "first_seen": "2026-08-16T15:44:22.034486+00:00",
       "last_changed": "2026-08-16T15:44:22.034486+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:49:12.273737+00:00",
-      "next_check": "2026-08-25T17:49:12.273737+00:00",
+      "last_seen": "2026-09-01T20:54:51.677108+00:00",
+      "next_check": "2026-09-09T20:54:51.677108+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217230-what-is-expressway-cluster-and-how-it-wo.html": {
       "content_sha": "b6339cfb867201f0f6764b5019597851a6c888b2e9393ff4e242514f2c279892",
@@ -35121,10 +35133,10 @@
       "first_seen": "2026-08-16T15:44:18.106922+00:00",
       "last_changed": "2026-08-16T15:44:18.106922+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:49:08.655649+00:00",
-      "next_check": "2026-08-25T17:49:08.655649+00:00",
+      "last_seen": "2026-09-01T20:54:47.348062+00:00",
+      "next_check": "2026-09-09T20:54:47.348062+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217244-mobile-and-remote-access-phone-services.html": {
       "content_sha": "228c7732d59eab09a07e996830f82835dd902286ffb7f63742ae655dd02ff97d",
@@ -35134,10 +35146,10 @@
       "first_seen": "2026-08-16T15:44:13.743864+00:00",
       "last_changed": "2026-08-16T15:44:13.743864+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:27.547781+00:00",
-      "next_check": "2026-08-25T17:47:27.547781+00:00",
+      "last_seen": "2026-09-01T20:54:43.019010+00:00",
+      "next_check": "2026-09-09T20:54:43.019010+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217415-what-to-do-on-expressway-on-dst-root-ca.html": {
       "content_sha": "e39b5be22ab550a09c6f54d9f79a8fd9969af90aecaaab8245190824c3f80df7",
@@ -35147,10 +35159,10 @@
       "first_seen": "2026-08-16T15:44:09.533152+00:00",
       "last_changed": "2026-08-16T15:44:09.533152+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:23.115193+00:00",
-      "next_check": "2026-08-25T17:47:23.115193+00:00",
+      "last_seen": "2026-09-01T20:54:39.374787+00:00",
+      "next_check": "2026-09-09T20:54:39.374787+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217659-configure-ldap-on-expressway-for-web-ap.html": {
       "content_sha": "66f97e8b5cc06cdb7fb60c9ae228d655a7ad62803e5f01a91219f04a65290ca7",
@@ -35173,10 +35185,10 @@
       "first_seen": "2026-08-16T15:44:05.355945+00:00",
       "last_changed": "2026-08-16T15:44:05.355945+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:18.881077+00:00",
-      "next_check": "2026-08-25T17:47:18.881077+00:00",
+      "last_seen": "2026-09-01T20:54:35.029311+00:00",
+      "next_check": "2026-09-09T20:54:35.029311+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217743-upgrade-of-video-communication-server-v.html": {
       "content_sha": "b6d329336fd75062d6b2fee1ddeb250883f2c5d6f169f677076008657d0cd749",
@@ -35212,10 +35224,10 @@
       "first_seen": "2026-08-16T15:44:01.398683+00:00",
       "last_changed": "2026-08-16T15:44:01.398683+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:14.511029+00:00",
-      "next_check": "2026-08-25T17:47:14.511029+00:00",
+      "last_seen": "2026-09-01T20:54:30.849597+00:00",
+      "next_check": "2026-09-09T20:54:30.849597+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218018-troubleshoot-expressway-traffic-server-c.html": {
       "content_sha": "a78cbd9bb7a4dcef7a47b1eebc08e96f7bdf5cbc0bd8ac416feed987cb1f6986",
@@ -35251,10 +35263,10 @@
       "first_seen": "2026-08-16T15:43:52.974113+00:00",
       "last_changed": "2026-08-16T15:43:52.974113+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:06.236201+00:00",
-      "next_check": "2026-08-25T17:47:06.236201+00:00",
+      "last_seen": "2026-09-01T20:54:22.005806+00:00",
+      "next_check": "2026-09-09T20:54:22.005806+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.html": {
       "content_sha": "ac910955d460497ef1039633a38f704524fe237e7d5178003a748e4234dda2a0",
@@ -35264,10 +35276,10 @@
       "first_seen": "2026-08-16T15:43:48.603198+00:00",
       "last_changed": "2026-08-16T15:43:48.603198+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T17:47:02.161619+00:00",
-      "next_check": "2026-08-25T17:47:02.161619+00:00",
+      "last_seen": "2026-09-01T20:54:18.300582+00:00",
+      "next_check": "2026-09-09T20:54:18.300582+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/221017-configure-and-troubleshoot-expressway-sm.html": {
       "content_sha": "3402dec59f789c0ff9bef30052d105eea3a1619de89887ab332a0a138fcab6e6",
@@ -40180,6 +40192,30 @@
       "http_status": 301,
       "last_seen": "2026-08-25T18:48:22.948569+00:00",
       "next_check": "2026-08-26T18:48:22.948569+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-12-5/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-hosted-collaboration-solution-version-12-5-model-html-0029ae8801",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:52.726094+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T20:55:52.726105+00:00",
+      "next_check": "2026-09-02T20:55:52.726105+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-14-0/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-hosted-collaboration-solution-version-14-0-model-html-41b0516b5d",
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:27.369891+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-01T20:55:27.369902+00:00",
+      "next_check": "2026-09-02T20:55:27.369902+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -181448,6 +181484,240 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_01.html": {
+      "content_sha": "d546eebfc47140696abc12b3a1bd888a53876f3977734bde1673398a0e222519",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-1ffa847a75",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:35.228054+00:00",
+      "last_changed": "2026-09-01T20:55:35.228054+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:35.228054+00:00",
+      "next_check": "2026-09-02T20:55:35.228054+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_010.html": {
+      "content_sha": "830759d7799f807fe7af79445fd6dee53d18f4d18f1a81547c95d8799821a675",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-51e9b815ad",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:39.317133+00:00",
+      "last_changed": "2026-09-01T20:55:39.317133+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:39.317133+00:00",
+      "next_check": "2026-09-02T20:55:39.317133+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_0100.html": {
+      "content_sha": "6b520d3304c3607e8f9996292a53b9c3285d6e0b6fb42fadef9d64c45d7b4a86",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-6dfa890c7d",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:48.027461+00:00",
+      "last_changed": "2026-09-01T20:55:48.027461+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:48.027461+00:00",
+      "next_check": "2026-09-02T20:55:48.027461+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_011.html": {
+      "content_sha": "d68fc760d6d74279d67e35159d0453293421c04e1ca25441637265ab1298bf2c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-f63caf548b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:43.712392+00:00",
+      "last_changed": "2026-09-01T20:55:43.712392+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:43.712392+00:00",
+      "next_check": "2026-09-02T20:55:43.712392+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_preface_00.html": {
+      "content_sha": "12790b93c2f0caa0415a93514bb1ad89e19e7db7823f3131fcdf0b16b8edf983",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-c3ac25547c",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:30.679560+00:00",
+      "last_changed": "2026-09-01T20:55:30.679560+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:30.679560+00:00",
+      "next_check": "2026-09-02T20:55:30.679560+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01.html": {
+      "content_sha": "a385e29cc47e4da82f9d077a5159c720aac132284ff789bfd037a15208f893d4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-420a9df66b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:30.549651+00:00",
+      "last_changed": "2026-09-01T20:56:30.549651+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:30.549651+00:00",
+      "next_check": "2026-09-02T20:56:30.549651+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_010.html": {
+      "content_sha": "4d4929f9c0064cc91d0b461064af9d2e047a24225eab84dbf4622ff7901cd663",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b568f8d751",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:35.025596+00:00",
+      "last_changed": "2026-09-01T20:56:35.025596+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:35.025596+00:00",
+      "next_check": "2026-09-02T20:56:35.025596+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0100.html": {
+      "content_sha": "515bb65e62ce0ae3d82104cbe0f892845240c59aa93d99368079ccad2edbd491",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-aa2c4d28dc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:43.507004+00:00",
+      "last_changed": "2026-09-01T20:56:43.507004+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:43.507004+00:00",
+      "next_check": "2026-09-02T20:56:43.507004+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01000.html": {
+      "content_sha": "d94ccd2b4bc6c2be008fdc4941fc0d72e48068ee0a5f7dfb29e2ccbabeaaa05f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-eb69b0849f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:59.908213+00:00",
+      "last_changed": "2026-09-01T20:56:59.908213+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:59.908213+00:00",
+      "next_check": "2026-09-02T20:56:59.908213+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01001.html": {
+      "content_sha": "fcc395d5c044c609ae164f05e2c3c9692f34f69a5075a840cf771c5882e00feb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-c0fbddba64",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:57:03.591283+00:00",
+      "last_changed": "2026-09-01T20:57:03.591283+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:57:03.591283+00:00",
+      "next_check": "2026-09-02T20:57:03.591283+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0101.html": {
+      "content_sha": "977e3e06e8211f1cb04950e9b647db908cb68246ffc5b5386073760378cbfe2a",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-7e41112076",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:47.615002+00:00",
+      "last_changed": "2026-09-01T20:56:47.615002+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:47.615002+00:00",
+      "next_check": "2026-09-02T20:56:47.615002+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01010.html": {
+      "content_sha": "0d8685213a0c16f856520e096bd2f3a888754747670f9c1db00e060f376e47b7",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-a903afcc9a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:57:08.451106+00:00",
+      "last_changed": "2026-09-01T20:57:08.451106+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:57:08.451106+00:00",
+      "next_check": "2026-09-02T20:57:08.451106+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01011.html": {
+      "content_sha": "80702ebeef3089280b608604387a7047adccba539c3c8fbc67ca4645c9af09d4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-4b1b70b70a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:57:12.283242+00:00",
+      "last_changed": "2026-09-01T20:57:12.283242+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:57:12.283242+00:00",
+      "next_check": "2026-09-02T20:57:12.283242+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_011.html": {
+      "content_sha": "c95990b074a1e28bce60f2f022c56b4638d02d0d2c68f786d5700b1c6ac01f78",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-02e93af3a9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:39.049943+00:00",
+      "last_changed": "2026-09-01T20:56:39.049943+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:39.049943+00:00",
+      "next_check": "2026-09-02T20:56:39.049943+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0110.html": {
+      "content_sha": "70bccb31334efd29d6c528b2a5184ef30e3fe21698714795cd527040b323d213",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b01dd195ac",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:52.228728+00:00",
+      "last_changed": "2026-09-01T20:56:52.228728+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:52.228728+00:00",
+      "next_check": "2026-09-02T20:56:52.228728+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01101.html": {
+      "content_sha": "1a4c3a862da428027464a843c602240f1440a0d57275c3f8e60d7020fac0a62b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-123ebd556f",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:57:16.637605+00:00",
+      "last_changed": "2026-09-01T20:57:16.637605+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:57:16.637605+00:00",
+      "next_check": "2026-09-02T20:57:16.637605+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0111.html": {
+      "content_sha": "7cc047d9c967f89947457b5e7388b2bcf97530328ea49399866000383c72f4c4",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-0a8b8b8291",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:55.690932+00:00",
+      "last_changed": "2026-09-01T20:56:55.690932+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:55.690932+00:00",
+      "next_check": "2026-09-02T20:56:55.690932+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_preface_00.html": {
+      "content_sha": "5af99e2f2245b4a99fd859bb0781b43ce15a5b8e469ac6fb7aefe9f3d138ac0f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-3ccd43494a",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:26.024772+00:00",
+      "last_changed": "2026-09-01T20:56:26.024772+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:26.024772+00:00",
+      "next_check": "2026-09-02T20:56:26.024772+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide.html": {
       "content_sha": "5e5cbd65ca66c9cf828c1aae102138d106c91838eb78d3eaa359906266103ed5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-7845b87124",
@@ -181461,6 +181731,97 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_00.html": {
+      "content_sha": "ff5fd169169c6008a4d71cc42afc9c51eef77613a226640580550ae4a5235b51",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-096beb45e9",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:00.717873+00:00",
+      "last_changed": "2026-09-01T20:56:00.717873+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:00.717873+00:00",
+      "next_check": "2026-09-02T20:56:00.717873+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_01.html": {
+      "content_sha": "a6dc80470f6d0dce97d585647b92e37547658c4c652d8cf982d7053b4458ec9e",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-874b1a2e16",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:05.586770+00:00",
+      "last_changed": "2026-09-01T20:56:05.586770+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:05.586770+00:00",
+      "next_check": "2026-09-02T20:56:05.586770+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_010.html": {
+      "content_sha": "564765b1093aaf4d44f4d32818f0f64e8a008a4e23114961f97c580160615855",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-2a696dbb56",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:10.260349+00:00",
+      "last_changed": "2026-09-01T20:56:10.260349+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:10.260349+00:00",
+      "next_check": "2026-09-02T20:56:10.260349+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0100.html": {
+      "content_sha": "b05ecd4fc05d768d349dbeeae7a625b5b2d97ab78cfdd1f879c4304f0966dd0b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-318046b860",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:13.770429+00:00",
+      "last_changed": "2026-09-01T20:56:13.770429+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:13.770429+00:00",
+      "next_check": "2026-09-02T20:56:13.770429+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0101.html": {
+      "content_sha": "12782428cb935e33d4b20dae6bbb2491c2004c44f1b96a67f34939f7c0d5e175",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-25daf7711b",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:22.696765+00:00",
+      "last_changed": "2026-09-01T20:56:22.696765+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:22.696765+00:00",
+      "next_check": "2026-09-02T20:56:22.696765+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0110.html": {
+      "content_sha": "ab29ee9ee1bd1c2875edb9f2eeb3e72b1d519f5f89f6b59ba7e8b7adc359f098",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-5bf5bbb5a4",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:56:17.947688+00:00",
+      "last_changed": "2026-09-01T20:56:17.947688+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:56:17.947688+00:00",
+      "next_check": "2026-09-02T20:56:17.947688+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_preface_0110.html": {
+      "content_sha": "e2db5cf02f8d47c61f0c9c0ce4839af61e401609249b95943afaa4e55928390b",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-e850d37843",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:56.752409+00:00",
+      "last_changed": "2026-09-01T20:55:56.752409+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:56.752409+00:00",
+      "next_check": "2026-09-02T20:55:56.752409+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide.html": {
       "content_sha": "7342a57ec6984b2931f6d528e9beda549a3220d94b0f09397016ba6725be9147",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-2e3779e7ca",
@@ -181471,6 +181832,71 @@
       "last_modified": null,
       "last_seen": "2026-09-01T14:58:05.315750+00:00",
       "next_check": "2026-09-02T14:58:05.315750+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_change-history-140-doc-guide.html": {
+      "content_sha": "b0fdec6f7589085abbc89f21d5287af7ff7389bd42efec572df84d9c6746f779",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-c35d2a28ac",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:04.058776+00:00",
+      "last_changed": "2026-09-01T20:55:04.058776+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:04.058776+00:00",
+      "next_check": "2026-09-02T20:55:04.058776+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_documentation-changes.html": {
+      "content_sha": "8e1162b5a31f9ac54f909e8e81d07d2c37664abf2de385b8b6dc16190f2f70de",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-db7ac7b071",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:08.413488+00:00",
+      "last_changed": "2026-09-01T20:55:08.413488+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:08.413488+00:00",
+      "next_check": "2026-09-02T20:55:08.413488+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_functional-level-documentation.html": {
+      "content_sha": "724bfbe910d09cc347389c5ea4e0ce890e47f8abd5099c3ffdc91f1ec8ed0efb",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-23f64f87b1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:16.308810+00:00",
+      "last_changed": "2026-09-01T20:55:16.308810+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:16.308810+00:00",
+      "next_check": "2026-09-02T20:55:16.308810+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_related-component-level-documentaion.html": {
+      "content_sha": "4ac6e10b0ef0c9b4761a711b218065d87c50664daeb725d78ced1e1490a20987",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-a321ca3ffe",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:20.667767+00:00",
+      "last_changed": "2026-09-01T20:55:20.667767+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:20.667767+00:00",
+      "next_check": "2026-09-02T20:55:20.667767+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_soluion-level-documentation.html": {
+      "content_sha": "50916786c1e6fdba15cfb38537cbafbf4f50bf5f2d6a7b03dc08b3edd90fd67c",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-ec85216439",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-01T20:55:12.865686+00:00",
+      "last_changed": "2026-09-01T20:55:12.865686+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-01T20:55:12.865686+00:00",
+      "next_check": "2026-09-02T20:55:12.865686+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -194821,5 +195247,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-01T20:49:42.992395+00:00"
+  "updated_at": "2026-09-01T20:57:58.031841+00:00"
 }

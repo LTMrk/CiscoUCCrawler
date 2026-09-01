@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-series-222186-customize-the-expressway-ssl-cipher-c-7ec45d965b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.html
-retrieved_at: 2026-08-16T15:43:35.950204+00:00
+retrieved_at: 2026-09-01T20:54:05.891266+00:00
 ---
 
 Customize the Expressway SSL Cipher Configuration
@@ -195,10 +195,6 @@ Initial Release
 Fabio Achi
 
 Technical Consulting Engineer
-
-### Customers Also Viewed
-
-- Cisco Expressway Administrator Guide (X15.0) --- Managing Security
 
 ### This Document Applies to These Products
 

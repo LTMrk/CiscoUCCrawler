@@ -1,17 +1,48 @@
 {
-  "run_at": "2026-09-01T20:49:43.178399+00:00",
+  "run_at": "2026-09-01T20:57:58.207928+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-1ffa847a75",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-51e9b815ad",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-6dfa890c7d",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-c3ac25547c",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-f63caf548b",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-02e93af3a9",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-0a8b8b8291",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-123ebd556f",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-3ccd43494a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-420a9df66b",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-4b1b70b70a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-7e41112076",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-a903afcc9a",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-aa2c4d28dc",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b01dd195ac",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b568f8d751",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-c0fbddba64",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-eb69b0849f",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-096beb45e9",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-25daf7711b",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-2a696dbb56",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-318046b860",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-5bf5bbb5a4",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-874b1a2e16",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-e850d37843",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-23f64f87b1",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-a321ca3ffe",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-c35d2a28ac",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-db7ac7b071",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-ec85216439"
+  ],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188"
+    "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-series-222186-customize-the-expressway-ssl-cipher-c-7ec45d965b"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 72,
+  "unchanged_count": 11,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuz48341 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://apidocs-prod.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-12-5/model.html -> https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-version-14-0/model.html -> https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html"
   ],
   "semillas_encoladas": 20
 }
