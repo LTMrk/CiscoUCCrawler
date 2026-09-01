@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010413-cat5k-8021x/cvrf/cisco-sa-20010413-cat5k-8021x_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010412-vpn3kipoptions/cvrf/cisco-sa-20010412-vpn3kipoptions_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010404-arrowpoint-usr-accnt-bug/cvrf/cisco-sa-20010404-arrowpoint-usr-accnt-bug_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010328-vpn3k-telnet/cvrf/cisco-sa-20010328-vpn3k-telnet_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010307-aironet340/cvrf/cisco-sa-20010307-aironet340_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010301-ios-tcp-isn-random/cvrf/cisco-sa-20010301-ios-tcp-isn-random_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010228-ios-snmp-community/cvrf/cisco-sa-20010228-ios-snmp-community_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010227-ios-snmp-ilmi/cvrf/cisco-sa-20010227-ios-snmp-ilmi_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20010131-arrowpoint-cli-fs/cvrf/cisco-sa-20010131-arrowpoint-cli-fs_cvrf.xml",
-    "depth": 2
-  },
-  {
-    "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001213-catalyst-ssh-mismatch/cvrf/cisco-sa-20001213-catalyst-ssh-mismatch_cvrf.xml",
-    "depth": 2
-  },
-  {
     "url": "https://sec.cloudapps.cisco.com/security/center/contentxml/CiscoSecurityAdvisory/cisco-sa-20001206-catalyst-memleak/cvrf/cisco-sa-20001206-catalyst-memleak_cvrf.xml",
     "depth": 2
   },
