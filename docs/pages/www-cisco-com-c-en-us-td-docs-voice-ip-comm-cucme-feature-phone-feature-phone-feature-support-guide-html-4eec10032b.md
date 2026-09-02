@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-phone-feature-phone-feature-support-guide-html-4eec10032b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/phone_feature/phone_feature_support_guide.html
-retrieved_at: 2026-08-21T09:47:35.077410+00:00
+retrieved_at: 2026-09-02T01:47:45.049016+00:00
 ---
 
 Phone Feature Support Guide for Unified CME, Unified SRST, Unified E-SRST, and Unified Secure SRST
@@ -20103,10 +20103,6 @@ Cisco Unified Communications Manager Express Phone Feature Support
 © 2019 Cisco Systems, Inc. All Rights reserved.
 
 NOTE: Works with document’s Advanced Properties “Last Updated” property. Click File | Properties | Advanced Properties | Custom .
-
-### This Document Applies to These Products
-
-- Unified Communications Manager Express
 
 | Convention | Description |
 |---|---|

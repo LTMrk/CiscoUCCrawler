@@ -1,421 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/phone_feature/phone_feature_support_guide.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/TrustedFW.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/EnhancedTrustedFirewallControll.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/TrustedFirewallControll.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/tapi/developer/guide/tapidev.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/xml/developer/guide/xmldev.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/roadmap/cucme_phone_roadmap.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/troubleshooting/guide/ts_phreg.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/211257-CUCME-Configuration-Best-Practices.html",
-    "depth": 3
-  },
-  {
-    "url": "https://software.cisco.com/download/home/286327511/type/282786567/release/14.1",
-    "depth": 3
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/block-incoming-call-based-on-the-caller-id-using-translation/ta-p/4767042",
-    "depth": 3
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/after-hours-call-blocking-on-cme/ta-p/3118480",
-    "depth": 3
-  },
-  {
-    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/basics-of-globalized-call-routing/ta-p/3121674",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/products-installation-and-configuration-guides-list.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-configuration-examples-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/212061-How-To-Make-A-Cisco-IP-Phone-Console-Cab.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/systemConfig/cucm_b_system-configuration-guide-1251su1.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/9-1-1/CUIP_BK_P82B3B16_00_phones-services-application-development-notes.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/15/cucm_b_cisco-unified-jtapi-developers-guide-15.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/15/cucm_b_tapi-dev-guide-15.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/14_0_1/cucm_b_cisco-unified-jtapi-developers-guide-14.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/14/cucm_b_tapi-dev-guide-14.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/12_5_1/cucm_b_cisco-unified-jtapi-developers-guide-1251.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/12_5_1/cucm_b_tapi-dev-guide-1251.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/12_5_1/cucm_b_troubleshooting-guide-1251.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucm_sccp/b_15cucintcucmskinny.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/pimg/b_15cucintpimg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/guide/b_15cucsecx.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/srsv/guide/b_14cucsrsvx.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/cucm_sccp/b_14cucintcucmskinny.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/pimg/b_14cucintpimg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/security/guide/b_14cucsecx.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucm_sccp/b_12xcucintcucmskinny.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/pimg/b_12xcucintpimg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/timg/b_12xcucinttimg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/srsv/guide/b_15cucsrsvx.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/timg/b_15cucinttimg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/software-configuration/cisco-vg420-configuration-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_1/english/configuration/guide/sw_confg.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder-15/model.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_m_cisco-emergency-responder-administration-installation.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0100.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0111.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/products-security-advisories-list.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su4/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU4.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su6/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU6.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su5/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU5.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su1/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su7.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su6/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su6.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su1/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su4/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU4.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su9/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su9.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/products-release-notes-list.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-15.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-14.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-14su1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251su3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251su1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/openssl_license/cer_ssllic.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215123-configure-tertiary-redundancy-for-cisco.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-15.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security-guide-15.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-1401.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security-guide-1401.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premises-guide-1251.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su8.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su5/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su5.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su4/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su4.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su7.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su6/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su6.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_southwest_bell/user/guide/user_swb.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_ameritech/user/guide/user_ame.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_pacbell/user/guide/user_sbc.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/verizon/user/guide/user_ver.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_preface.html",
-    "depth": 3
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_config.html",
     "depth": 3
   },
@@ -31582,5 +31166,97 @@
   {
     "url": "https://community.cisco.com/t5/security-knowledge-base/ise-berg/ta-p/5041171",
     "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/44376/packet-capture-cucm-appliance-model",
+    "depth": 3
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/44741/collecting-packet-capture-cisco-ip-phone",
+    "depth": 3
+  },
+  {
+    "url": "https://supportforums.cisco.com/document/126666/collecting-cucm-traces-cucm-862-tac-sr",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://supportforums.cisco.com/t5/collaboration-voice-and-video/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-12-5/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-phone-9800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-14/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-version-15/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/collaboration-systems-release-12-5/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/collaboration-systems-release-14/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/collaboration-systems-release-15/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/CSR-Compatibility-Matrix-InteractiveHTML.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/secure-access-announcements/announcing-cisco-secure-access-skills-in-ai-canvas-in-cloud/ta-p/5569455",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/secure-access-announcements/announcement-ga-release-of-client-endpoint-diagnostic-tool/ta-p/5565830",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection-version-15/model.html",
+    "depth": 2
   }
 ]
