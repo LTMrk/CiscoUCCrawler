@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-express-211258-configure-and-troubleshoot-cue-mwi-mecha--50612c15b4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-express/211258-Configure-and-Troubleshoot-CUE-MWI-Mecha.html
-retrieved_at: 2026-08-21T09:47:13.211991+00:00
+retrieved_at: 2026-09-02T01:43:18.587825+00:00
 ---
 
 Configure and Troubleshoot CUE MWI Mechanisms
@@ -1175,6 +1175,20 @@ session target ipv4:10.10.202.2 incoming called-number 399[89].... dtmf-relay si
 23-May-2017
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Jose Valverde
+
+Cisco TAC Engineer
+
+Michael Mendoza
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager Express
 
 | Revision | Publish Date | Comments |
 |---|---|---|

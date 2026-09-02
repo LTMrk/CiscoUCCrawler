@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-f31fd541fd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html
-retrieved_at: 2026-08-21T20:46:25.277037+00:00
+retrieved_at: 2026-09-02T01:39:50.690034+00:00
 ---
 
 Configure NFVIS-for-UC OVS
@@ -104,13 +104,9 @@ Ben Wollak
 
 Technical Consulting Engineering Technical Leader
 
-### Customers Also Viewed
+Brent Huff
 
-- Configure NFVIS-for-UC Management Network
-
-- Upgrade ESXi for a Business Edition (BE6K/7K) via vKVM
-
-- UC on UCS: Hardware Replacement for BE6K, BE7K, MM400v, MM410V, CMS1000, CMS2000, TCS
+Technical Consulting Engineer
 
 ### This Document Applies to These Products
 
