@@ -1,11 +1,16 @@
 {
-  "run_at": "2026-09-07T17:32:37.333306+00:00",
+  "run_at": "2026-09-07T17:44:19.559993+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-313b117fcc",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-46a4cd0126",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-78c94437fd",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-ucce-b-2689eb0c43"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 95,
+  "unchanged_count": 96,
   "redirected": [],
   "semillas_encoladas": 20
 }

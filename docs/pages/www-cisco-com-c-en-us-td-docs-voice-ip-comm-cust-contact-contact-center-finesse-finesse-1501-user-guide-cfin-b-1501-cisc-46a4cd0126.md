@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-46a4cd0126
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1261-ip-phone-agent-tasks.html
-retrieved_at: 2026-08-16T20:31:21.943947+00:00
+retrieved_at: 2026-09-07T17:43:06.794628+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -307,6 +307,10 @@ The Simplified New Call UI is currently not supported in Finesse IPPA. Enabling 
 Finesse IPPA is not supported on VPN.
 
 When Finesse IPPA phone is powered off or reset, you will be logged out of the physical device.
+
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
 
 | Task | Steps |
 |---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-ucce-b-2689eb0c43
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/ucce_b_1262_outbound_options_guide/ucce_m_1262_preface.html
-retrieved_at: 2026-08-16T20:32:26.970982+00:00
+retrieved_at: 2026-09-07T17:44:10.449885+00:00
 ---
 
 Outbound Option Guide for Unified Contact Center Enterprise, Release 12.6(2)
@@ -108,7 +108,7 @@ To get the business results you’re looking for with the technologies that matt
 
 To submit a service request, visit Cisco Support .
 
-To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco DevNet .
+To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco Marketplace .
 
 To obtain general networking, training, and certification titles, visit Cisco Press .
 
@@ -116,8 +116,8 @@ To find warranty information for a specific product or product family, access Ci
 
 ### Cisco Bug Search Tool
 
-Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of
-                              defects and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
+Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of defects
+                              and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
                               and software.
 
 ## Field Notice

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-78c94437fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_cisco-finesse-desktop-interface.html
-retrieved_at: 2026-08-20T17:38:27.516865+00:00
+retrieved_at: 2026-09-07T17:42:53.628054+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -1409,6 +1409,10 @@ The navigation group shortcuts are limited to nine shortcut keys, ranging from C
 If you are using Mac keyboard, then press Option instead of Alt . For example, to access the keyboard shortcuts list press Control–Option–F .
 
 If you are using Mac machine running Firefox browser, then set the Full Keyboard Access to All controls ( System Preferences > Keyboard > Shortcuts ) to shift the keyboard focus to all controls.
+
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
 
 | Note | Cisco Finesse has undergone a user experience refresh in release 12.0(1). |
 |---|---|

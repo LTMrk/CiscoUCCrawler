@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-313b117fcc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_supervisor-tasks.html
-retrieved_at: 2026-08-16T20:31:17.595522+00:00
+retrieved_at: 2026-09-07T17:43:02.472070+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -326,6 +326,10 @@ The rate at which messages (create/delete) are published to the teams involved, 
 
 As there are no individual limitations on supervisors, either one or all supervisors can broadcast messages up to the maximum
                                           active messages limit.
+
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
 
 | Step 1 | In the Team Performance gadget, you can view the details of the team selected by default in the Team Name drop-down. A list of agents for the selected team with their current state, time in state, extension, and action appears. Click the headers
                                           of the columns to sort by Agent Name, State, Time in State, or Extension. Note For the Time in State to appear for logged out and Not Ready agents, the agent state must have changed at least once post
