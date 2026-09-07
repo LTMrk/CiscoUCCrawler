@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-survivable-remote-site-telephony-213805-configure-secu-3ad9c8cc06
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/213805-configure-secure-sip-srst-on-isr4000.html
-retrieved_at: 2026-08-21T21:29:39.441138+00:00
+retrieved_at: 2026-09-07T11:55:12.627377+00:00
 ---
 
 Configure Secure SIP SRST on ISR4000
@@ -240,6 +240,14 @@ There is currently no specific troubleshooting information available for this co
 
 - Technical Support & Documentation - Cisco Systems
 
+### Revision History
+
+1.0
+
+11-Oct-2018
+
+Initial Release
+
 ### Contributed by Cisco Engineers
 
 Ankush Vijay
@@ -248,6 +256,8 @@ Cisco TAC Engineer
 
 ### This Document Applies to These Products
 
-- IOS Gateways with Session Initiation Protocol (SIP)
-
 - Unified Survivable Remote Site Telephony
+
+| Revision | Publish Date | Comments |
+|---|---|---|
+| 1.0 | 11-Oct-2018 | Initial Release |
