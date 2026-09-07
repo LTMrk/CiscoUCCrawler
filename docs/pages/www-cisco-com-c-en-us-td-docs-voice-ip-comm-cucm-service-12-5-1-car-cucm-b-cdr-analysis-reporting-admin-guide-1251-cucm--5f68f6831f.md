@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--5f68f6831f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_01.html
-retrieved_at: 2026-08-21T01:33:25.787577+00:00
+retrieved_at: 2026-09-07T21:10:33.938842+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -581,10 +581,6 @@ Cisco Unified Communications Manager Call Detail Records
                                        				  Administration Guide
 
 Data Migration Assistant User Guide
-
-### Customers Also Viewed
-
-- Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1) --- CDR Analysis and Reporting Tool
 
 | Note | CAR does not handle iDivert calls (feature that diverts calls to a
                                     		  voice-messaging system) and treats them as normal calls. The part of the call
