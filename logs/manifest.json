@@ -32645,6 +32645,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://video.cisco.com/detail/video/5828832832001/resolving-port-conflict-issues-for-mra-phone-registrations": {
+      "content_sha": null,
+      "doc_id": "video-cisco-com-detail-video-5828832832001-resolving-port-conflict-issues-for-mra-phone-registrations-8cb61a7667",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T22:56:10.930105+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T22:56:10.930115+00:00",
+      "next_check": "2026-09-08T22:56:10.930115+00:00",
+      "redirect_to": "https://video.cisco.com",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://video.cisco.com/detail/video/5835977589001/jabber---how-to-clear-cache": {
       "content_sha": null,
       "doc_id": "video-cisco-com-detail-video-5835977589001-jabber-how-to-clear-cache-adc4737245",
@@ -38309,6 +38321,18 @@
       "next_check": "2026-09-09T20:49:42.863212+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/_sip_6212@appmtltel02": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-sip-6212-appmtltel02-0f2d1b7535",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T22:56:06.295569+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T22:56:06.295581+00:00",
+      "next_check": "2026-09-08T22:56:06.295581+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/_sip_6212@appmtltel02/index.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00.html": {
       "content_sha": "61cee553af7ffc6e7b02edd72023f063db71559b04a135a5900304771cfc6501",
@@ -176548,10 +176572,10 @@
       "first_seen": "2026-08-16T22:44:26.469460+00:00",
       "last_changed": "2026-08-16T22:44:26.469460+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:29.039424+00:00",
-      "next_check": "2026-08-29T01:44:29.039424+00:00",
+      "last_seen": "2026-09-07T22:55:17.060671+00:00",
+      "next_check": "2026-09-15T22:55:17.060671+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_bandwidth-control.html": {
       "content_sha": "eb906088dae966fcca3ef72d070488bf94b63c45e643c1b4d969e4dacb69bcc0",
@@ -176561,10 +176585,10 @@
       "first_seen": "2026-08-16T22:44:21.952081+00:00",
       "last_changed": "2026-08-16T22:44:21.952081+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:32.777158+00:00",
-      "next_check": "2026-08-29T01:44:32.777158+00:00",
+      "last_seen": "2026-09-07T22:55:12.477141+00:00",
+      "next_check": "2026-09-15T22:55:12.477141+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_clustering-and-peers.html": {
       "content_sha": "4d0f3449b372fb5891142d5445443da4e1838c009a4d48eea5a96a28f36e5fef",
@@ -176574,10 +176598,10 @@
       "first_seen": "2026-08-16T22:44:11.484820+00:00",
       "last_changed": "2026-08-16T22:44:11.484820+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:36.913993+00:00",
-      "next_check": "2026-08-29T01:44:36.913993+00:00",
+      "last_seen": "2026-09-07T22:55:02.415057+00:00",
+      "next_check": "2026-09-15T22:55:02.415057+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_device-authentication.html": {
       "content_sha": "22b7a3d26247f8ae3c4c9eff31473052147cb118ea5282a27b92e5a180c85cba",
@@ -176587,10 +176611,10 @@
       "first_seen": "2026-08-16T22:44:02.198638+00:00",
       "last_changed": "2026-08-16T22:44:02.198638+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:40.860658+00:00",
-      "next_check": "2026-08-29T01:44:40.860658+00:00",
+      "last_seen": "2026-09-07T22:54:52.908142+00:00",
+      "next_check": "2026-09-15T22:54:52.908142+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_diagnostics-and-troubleshooting.html": {
       "content_sha": "789580eaba56249637078c5b0c23c2ba66c8cb3bd5a4e870fcb41c15f1a74b54",
@@ -176600,10 +176624,10 @@
       "first_seen": "2026-08-16T22:44:43.874493+00:00",
       "last_changed": "2026-08-16T22:44:43.874493+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:45.463100+00:00",
-      "next_check": "2026-08-29T01:44:45.463100+00:00",
+      "last_seen": "2026-09-07T22:55:34.044008+00:00",
+      "next_check": "2026-09-15T22:55:34.044008+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_dial-plan-and-call-processing.html": {
       "content_sha": "fbdf3c678de8cd32d614e1dd3830b2caaff0c4bc794c549477532188425e8d0c",
@@ -176613,10 +176637,10 @@
       "first_seen": "2026-08-16T22:44:18.025378+00:00",
       "last_changed": "2026-08-16T22:44:18.025378+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:44:51.966035+00:00",
-      "next_check": "2026-08-29T01:44:51.966035+00:00",
+      "last_seen": "2026-09-07T22:55:08.577397+00:00",
+      "next_check": "2026-09-15T22:55:08.577397+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_expressway-capacity-and-sizing.html": {
       "content_sha": "215a4cfbaea069a88645a8e1238e8b99c0d129c5f53b035925d9f27fb7916243",
@@ -176652,10 +176676,10 @@
       "first_seen": "2026-08-16T22:43:46.275847+00:00",
       "last_changed": "2026-08-16T22:43:46.275847+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:04.544472+00:00",
-      "next_check": "2026-08-29T01:45:04.544472+00:00",
+      "last_seen": "2026-09-07T22:54:36.421432+00:00",
+      "next_check": "2026-09-15T22:54:36.421432+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_introduction.html": {
       "content_sha": "63045d3b00247b8964a3436f403c60ed19236cd8cb6c4509d53304afd3b7d5f5",
@@ -176678,10 +176702,10 @@
       "first_seen": "2026-08-16T22:44:39.120639+00:00",
       "last_changed": "2026-08-16T22:44:39.120639+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:12.521426+00:00",
-      "next_check": "2026-08-29T01:45:12.521426+00:00",
+      "last_seen": "2026-09-07T22:55:29.808750+00:00",
+      "next_check": "2026-09-15T22:55:29.808750+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_managing-licensing.html": {
       "content_sha": "a0a5f5744f75c65b21b1a27881703123118ccc47ff43fa5d41815740448f3dfe",
@@ -176691,10 +176715,10 @@
       "first_seen": "2026-08-16T22:43:27.770307+00:00",
       "last_changed": "2026-08-16T22:43:27.770307+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:17.783675+00:00",
-      "next_check": "2026-08-29T01:45:17.783675+00:00",
+      "last_seen": "2026-09-07T22:54:18.852463+00:00",
+      "next_check": "2026-09-15T22:54:18.852463+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_managing-security.html": {
       "content_sha": "5038e0888d098b5d0f47d0685721e556ce52c0581d269cf54a4c81bba456b364",
@@ -176704,10 +176728,10 @@
       "first_seen": "2026-08-16T22:43:32.356088+00:00",
       "last_changed": "2026-08-16T22:43:32.356088+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:22.276535+00:00",
-      "next_check": "2026-08-29T01:45:22.276535+00:00",
+      "last_seen": "2026-09-07T22:54:23.436151+00:00",
+      "next_check": "2026-09-15T22:54:23.436151+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_network-and-system-settings.html": {
       "content_sha": "f69837e523583e4ac2ad0c511a48693c4d84ef3cd5d15a17867f8afaa13456a3",
@@ -176717,10 +176741,10 @@
       "first_seen": "2026-08-16T22:43:41.947799+00:00",
       "last_changed": "2026-08-16T22:43:41.947799+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:26.950517+00:00",
-      "next_check": "2026-08-29T01:45:26.950517+00:00",
+      "last_seen": "2026-09-07T22:54:32.581705+00:00",
+      "next_check": "2026-09-15T22:54:32.581705+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_preface-ag.html": {
       "content_sha": "69843c05c7cd7512fe46ca8f2fa0f02f46986a0e8e46928525e03b5f346a0ef1",
@@ -176743,10 +176767,10 @@
       "first_seen": "2026-08-16T22:43:54.549054+00:00",
       "last_changed": "2026-08-16T22:43:54.549054+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:34.972856+00:00",
-      "next_check": "2026-08-29T01:45:34.972856+00:00",
+      "last_seen": "2026-09-07T22:54:45.292477+00:00",
+      "next_check": "2026-09-15T22:54:45.292477+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_reference-material.html": {
       "content_sha": "33211bdb84d14a96b6f6fb49ec9ce92697952201653367e4f9657cf4fc111685",
@@ -176756,10 +176780,10 @@
       "first_seen": "2026-08-16T22:44:56.829940+00:00",
       "last_changed": "2026-08-16T22:44:56.829940+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:47.526632+00:00",
-      "next_check": "2026-08-29T01:45:47.526632+00:00",
+      "last_seen": "2026-09-07T22:55:46.631207+00:00",
+      "next_check": "2026-09-15T22:55:46.631207+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_registration-control.html": {
       "content_sha": "05700694f1ff811d80d08a6675742b122b5653853f680418dbdf44bb26ea0260",
@@ -176769,10 +176793,10 @@
       "first_seen": "2026-08-16T22:43:58.193454+00:00",
       "last_changed": "2026-08-16T22:43:58.193454+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:51.458700+00:00",
-      "next_check": "2026-08-29T01:45:51.458700+00:00",
+      "last_seen": "2026-09-07T22:54:48.822964+00:00",
+      "next_check": "2026-09-15T22:54:48.822964+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_serviceability-logging-monitoring-and-metrics.html": {
       "content_sha": "9067c0bdece235e3c0506628fd3ddac67a9ae97384d0920634740102844ad76c",
@@ -176782,10 +176806,10 @@
       "first_seen": "2026-08-16T22:43:36.915164+00:00",
       "last_changed": "2026-08-16T22:43:36.915164+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:45:56.242328+00:00",
-      "next_check": "2026-08-29T01:45:56.242328+00:00",
+      "last_seen": "2026-09-07T22:54:27.773014+00:00",
+      "next_check": "2026-09-15T22:54:27.773014+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_status-and-system-information.html": {
       "content_sha": "f2f90a54739188173d516c71f9bf37d903713d13b8711b537c0fad96ec2525ad",
@@ -176795,10 +176819,10 @@
       "first_seen": "2026-08-16T22:44:35.323302+00:00",
       "last_changed": "2026-08-16T22:44:35.323302+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:46:00.653250+00:00",
-      "next_check": "2026-08-29T01:46:00.653250+00:00",
+      "last_seen": "2026-09-07T22:55:26.036601+00:00",
+      "next_check": "2026-09-15T22:55:26.036601+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_unified-communications.html": {
       "content_sha": "7ca25715ebcd9824bc14396b6bced86084d713abd290dd7baa0b2585364a2397",
@@ -176808,10 +176832,10 @@
       "first_seen": "2026-08-16T22:43:50.500724+00:00",
       "last_changed": "2026-08-16T22:43:50.500724+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:46:04.504598+00:00",
-      "next_check": "2026-08-29T01:46:04.504598+00:00",
+      "last_seen": "2026-09-07T22:54:40.840644+00:00",
+      "next_check": "2026-09-15T22:54:40.840644+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_user-accounts.html": {
       "content_sha": "c3a176e5f7001e46c6573829cac0ec46e1b0df67cee114258873bfcf4bd22e9b",
@@ -176821,10 +176845,10 @@
       "first_seen": "2026-08-16T22:44:30.631574+00:00",
       "last_changed": "2026-08-16T22:44:30.631574+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:46:09.062853+00:00",
-      "next_check": "2026-08-29T01:46:09.062853+00:00",
+      "last_seen": "2026-09-07T22:55:21.411425+00:00",
+      "next_check": "2026-09-15T22:55:21.411425+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_whats-new-in-this-version.html": {
       "content_sha": "95bacbaae3e8bb2d0352ca7dea4b0844637adb78afc21744b1e068b7982082f2",
@@ -176847,10 +176871,10 @@
       "first_seen": "2026-08-16T22:44:07.643754+00:00",
       "last_changed": "2026-08-16T22:44:07.643754+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:46:17.979975+00:00",
-      "next_check": "2026-08-29T01:46:17.979975+00:00",
+      "last_seen": "2026-09-07T22:54:58.345931+00:00",
+      "next_check": "2026-09-15T22:54:58.345931+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-2/exwy_b_cisco-expressway-administrator-guide-x142/exwy_m_applications-x142.html": {
       "content_sha": "7767a6e2e93226fb86c8aec4b6c1ed2641e8a3f7259a46b577034de8e9343f00",
@@ -199428,5 +199452,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T22:49:49.392147+00:00"
+  "updated_at": "2026-09-07T22:59:34.098621+00:00"
 }

@@ -1,169 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_managing-licensing.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_managing-security.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_serviceability-logging-monitoring-and-metrics.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_network-and-system-settings.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_firewall-traversal.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_unified-communications.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_protocols.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_registration-control.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_device-authentication.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_zones-and-neighbors.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_clustering-and-peers.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_dial-plan-and-call-processing.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_bandwidth-control.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_applications.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_user-accounts.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_status-and-system-information.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_maintenance.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_diagnostics-and-troubleshooting.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/admin_guide/X14-0/exwy_b_cisco-expressway-administrator-guide/exwy_m_reference-material.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218034-renew-expressway-certificate.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218034-renew-expressway-certificate.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo83458",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo82526",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/_sip_6212@appmtltel02",
-    "depth": 3
-  },
-  {
-    "url": "https://video.cisco.com/detail/video/5828832832001/resolving-port-conflict-issues-for-mra-phone-registrations",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCua72781",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCuo54489",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCun30200",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCul05131",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217748-upload-the-root-and-intermediate-certifi.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217748-upload-the-root-and-intermediate-certifi.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218018-troubleshoot-expressway-traffic-server-c.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/218018-troubleshoot-expressway-traffic-server-c.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCwa25108",
-    "depth": 3
-  },
-  {
-    "url": "https://tools.cisco.com/bugsearch/bug/CSCwa12905",
-    "depth": 3
-  },
-  {
-    "url": "https://www1.cisco.com",
-    "depth": 3
-  },
-  {
-    "url": "https://cway.cisco.com/csa-new",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.epub",
-    "depth": 3
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/222547-enable-shared-lines-and-multi-lines-for.mobi",
     "depth": 3
   },
@@ -12594,5 +12430,13 @@
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
     "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/_sip_6212@appmtltel02/index.html",
+    "depth": 3
+  },
+  {
+    "url": "https://video.cisco.com",
+    "depth": 3
   }
 ]
