@@ -1,54 +1,18 @@
 {
-  "run_at": "2026-09-07T12:44:36.702973+00:00",
+  "run_at": "2026-09-07T12:55:37.104611+00:00",
   "modo": "incremental",
-  "added": [
-    "bwks-uap-webex-com-assets-public-combinedcertchain2023-txt-324dd419a8",
-    "help-webex-com-article-f84hzbb-ccbc9ab363",
-    "help-webex-com-en-us-article-2rbeqt-16efabeaa2",
-    "help-webex-com-en-us-article-2y8qmt-partner-administrator-roles-for-webex-for-broadworks-and-wholesale-rtm-0c08cdfbc0",
-    "help-webex-com-en-us-article-32bbhq-get-started-with-the-cisco-headset-500-series-584010028c",
-    "help-webex-com-en-us-article-f84hzbb-d069f36ffc",
-    "help-webex-com-en-us-article-mch9vl-d4e377c56d",
-    "help-webex-com-en-us-article-n0cswhcb-configure-advanced-branding-customizations-94d4c64832",
-    "help-webex-com-en-us-article-n0h4eh4-webex-for-cisco-broadworks-solution-guide-3e0393053e",
-    "help-webex-com-en-us-article-n6r7p3m-fd7165a808",
-    "help-webex-com-en-us-article-n9hika3-6a4c6bb6fa",
-    "help-webex-com-en-us-article-nadqbhab-799ca438ba",
-    "help-webex-com-en-us-article-npfm5s-2db4a9caef",
-    "help-webex-com-en-us-article-ntip1k0-analytics-for-webex-for-wholesale-and-webex-for-broadworks-packages-in-partner-hub-e3d96cbbc9",
-    "help-webex-com-en-us-article-nu5w9x3-webex-app-7c-schedule-a-meeting-from-a-space-4addc8c4c8",
-    "help-webex-com-en-us-article-nuh0amab-list-of-time-zones-for-wholesale-provisioning-d27786c44d",
-    "help-webex-com-en-us-article-nul0wut-webex-personal-rooms-in-webex-meetings-690478692e",
-    "help-webex-com-en-us-article-nv3xgxg-1b6a9047a1",
-    "help-webex-com-en-us-article-oybc4fb-faf0bad729",
-    "help-webex-com-en-us-article-risde3-77f0fb37b0",
-    "status-webex-com-34282c56ab",
-    "www-webex-com-es-webexfromserviceproviders-downloads-html-1bc640b083",
-    "www-webex-com-fr-webexfromserviceproviders-downloads-html-9252d6aa9a",
-    "www-webex-com-pt-webexfromserviceproviders-downloads-html-3f6bc6b945",
-    "www-webex-com-webexfromserviceproviders-downloads-html-72164ba721"
-  ],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--fa64b7dd08",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--6ea81aebda",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--8945383ca9",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-969a81e1d5",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-aeab858b62",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-0-2-releasenotes-p680-b-6800-mpp-rns-110002-html-4e1068e70f"
-  ],
+  "added": [],
+  "modified": [],
   "removed": [],
-  "blocked": [
-    "www-webex-com-de-webexfromserviceproviders-downloads-html-94233b8188",
-    "www-webex-com-it-webexfromserviceproviders-downloads-html-ccf3fb63dd",
-    "www-webex-com-ja-webexfromserviceproviders-downloads-html-d63df906ce",
-    "www-webex-com-ko-webexfromserviceproviders-downloads-html-2c8f65e145"
-  ],
-  "unchanged_count": 39,
+  "blocked": [],
+  "unchanged_count": 73,
   "redirected": [
-    "https://activate.cisco.com/clc -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://activate.cisco.com/software/smart-licensing/alerts -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://activate.cisco.com/software/swift/lrp -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://activate.cisco.com/software/pnp/devices -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cisco.com/go/phonefirmwaresupport -> https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.html",
+    "https://webapps.cisco.com/clc -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://webapps.cisco.com/software/pnp/devices -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://webapps.cisco.com/software/smart-licensing/alerts -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://webapps.cisco.com/software/swift/lrp -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
