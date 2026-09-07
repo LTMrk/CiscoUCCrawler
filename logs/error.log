@@ -22493,3 +22493,19 @@
 [2026-09-07T23:33:14.265738] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq04781
 [2026-09-07T23:33:18.581711] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn40541
 [2026-09-07T23:33:22.939337] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj81250
+[2026-09-07T23:36:15.656625] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-07T23:36:19.881707] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-07T23:37:32.545719] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-07T23:37:40.766907] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx.html
+[2026-09-07T23:37:49.263602] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail.html
+[2026-09-07T23:37:53.630644] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/serv_administration/b_12xcucservag.html
+[2026-09-07T23:37:58.898785] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201su1cucopnsrc.epub
+[2026-09-07T23:38:03.170267] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201su1cucopnsrc.mobi
+[2026-09-07T23:38:07.209569] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201cucopnsrc.epub
+[2026-09-07T23:38:11.365708] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201cucopnsrc.mobi
+[2026-09-07T23:43:04.092695] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/283062758/type/282074348/release
+[2026-09-07T23:43:47.259981] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Unified_Communications_in_a_Virtualized_Environment
+[2026-09-07T23:43:47.260064] Omitida: excluida por robots.txt | https://software.cisco.com/download/release.html
+[2026-09-07T23:43:51.275034] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Cisco_Unity_Connection_on_UCSE
+[2026-09-07T23:43:51.340828] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/supported_platforms/chapter.xml
+[2026-09-07T23:43:55.568585] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_MediaSense
