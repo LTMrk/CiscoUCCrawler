@@ -42941,6 +42941,30 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-html-b9fe0b9feb",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:40:06.115410+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T13:40:06.115420+00:00",
+      "next_check": "2026-09-08T13:40:06.115420+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/dtmf-relay.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-dtmf-relay-html-94a7761d28",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:40:01.639913+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T13:40:01.639925+00:00",
+      "next_check": "2026-09-08T13:40:01.639925+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/multiple-outbound-dial-peer.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-configuration-cube-book-multiple-outbound-dial-peer-html-ab68b393f7",
@@ -108314,6 +108338,30 @@
       "last_seen": "2026-08-25T08:23:35.605357+00:00",
       "next_check": "2026-08-26T08:23:35.605357+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/media.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-8x-uc8x-media-html-81e8d4ca7e",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:40:10.294151+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T13:40:10.294162+00:00",
+      "next_check": "2026-09-08T13:40:10.294162+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/trunks.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-srnd-8x-uc8x-trunks-html-44c1d04e3a",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:40:14.696088+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T13:40:14.696099+00:00",
+      "next_check": "2026-09-08T13:40:14.696099+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -197894,5 +197942,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T13:35:42.288925+00:00"
+  "updated_at": "2026-09-07T13:40:53.512027+00:00"
 }

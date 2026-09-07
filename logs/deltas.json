@@ -1,13 +1,16 @@
 {
-  "run_at": "2026-09-07T13:35:42.467639+00:00",
+  "run_at": "2026-09-07T13:40:53.727816+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 5,
+  "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_11_5_1/installation/guide/PCCE_BK_P92E0088_00_pcce-install-upgrade-11-5.html -> https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html"
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/dtmf-relay.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/media.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/trunks.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
   ],
   "semillas_encoladas": 20
 }
