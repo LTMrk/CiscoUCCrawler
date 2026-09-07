@@ -1,17 +1,13 @@
 {
-  "run_at": "2026-09-07T19:17:08.118145+00:00",
+  "run_at": "2026-09-07T19:28:46.756208+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "developer-cisco-com-site-tapi-supported-windows-os-8bd444a087"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 90,
+  "unchanged_count": 92,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCva12833 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi85184 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_sequencing-rules-time-requirements-15.html -> https://cisco.login.duosecurity.com/email_first"
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU2/cucm_b_pcd-rns_15su2.html -> https://cisco.login.duosecurity.com/email_first"
   ],
   "semillas_encoladas": 20
 }
