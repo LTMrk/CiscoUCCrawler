@@ -41901,10 +41901,10 @@
       "first_seen": "2026-08-16T23:24:52.221578+00:00",
       "last_changed": "2026-08-16T23:24:52.221578+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:33:13.263947+00:00",
-      "next_check": "2026-08-28T05:33:13.263947+00:00",
+      "last_seen": "2026-09-07T13:35:24.392932+00:00",
+      "next_check": "2026-09-15T13:35:24.392932+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/h323/14368-plar-config.html": {
       "content_sha": "6d5ae689381f23b94ea25300ac8d20d08e93551499531e570cddf7d8cf4c9af1",
@@ -41979,10 +41979,10 @@
       "first_seen": "2026-08-16T23:07:49.215483+00:00",
       "last_changed": "2026-08-16T23:07:49.215483+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T20:31:38.889965+00:00",
-      "next_check": "2026-08-25T20:31:38.889965+00:00",
+      "last_seen": "2026-09-07T13:35:20.417558+00:00",
+      "next_check": "2026-09-15T13:35:20.417558+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-voice-over-ip-voip/212133-In-Depth-Analysis-of-Ringback-for-all-Vo.html": {
       "content_sha": "2c7d34c3d8b3bed9130f7555da5fb68402d0aa9ac8680c6408d343371ae0361b",
@@ -42018,10 +42018,10 @@
       "first_seen": "2026-08-16T23:27:10.328117+00:00",
       "last_changed": "2026-08-16T23:27:10.328117+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:33:43.039551+00:00",
-      "next_check": "2026-08-28T05:33:43.039551+00:00",
+      "last_seen": "2026-09-07T13:35:32.685180+00:00",
+      "next_check": "2026-09-15T13:35:32.685180+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.html": {
       "content_sha": "a2ddc41c8717f9eb1a52a60b97ac869081c23fbeed024541f3062481b737f038",
@@ -42044,10 +42044,10 @@
       "first_seen": "2026-08-16T23:25:00.665203+00:00",
       "last_changed": "2026-08-16T23:25:00.665203+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:33:47.160813+00:00",
-      "next_check": "2026-08-28T05:33:47.160813+00:00",
+      "last_seen": "2026-09-07T13:35:37.924301+00:00",
+      "next_check": "2026-09-15T13:35:37.924301+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu.html": {
       "content_sha": "71f88e8921f52c5c86a99b4e711fdc5ebe202618b49166b9b6aac71f702221dc",
@@ -42057,10 +42057,10 @@
       "first_seen": "2026-08-16T23:24:56.618214+00:00",
       "last_changed": "2026-08-16T23:24:56.618214+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:33:51.680041+00:00",
-      "next_check": "2026-08-28T05:33:51.680041+00:00",
+      "last_seen": "2026-09-07T13:35:28.369587+00:00",
+      "next_check": "2026-09-15T13:35:28.369587+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/118646-technote-sccp-00.html": {
       "content_sha": "ce9e9117ab35ba54c3725df2e904dfcb15f2c154b196dd0a8e8c0644ac6f3b97",
@@ -168136,6 +168136,18 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_11_5_1/installation/guide/PCCE_BK_P92E0088_00_pcce-install-upgrade-11-5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-11-5-1-installation-guide-pcce-bk-p92e-5539aad122",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:34:50.134710+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-07T13:34:50.134721+00:00",
+      "next_check": "2026-09-08T13:34:50.134721+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_appendix_010010.html": {
       "content_sha": "8be04aa1f09e947d6c4b5b663e714b513bb44c380308c6beb969e75b4003a5b5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-46303a8b3c",
@@ -197882,5 +197894,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T13:30:38.607694+00:00"
+  "updated_at": "2026-09-07T13:35:42.288925+00:00"
 }

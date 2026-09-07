@@ -21573,3 +21573,16 @@
 [2026-09-07T13:30:30.147383] HTTP 599 o DOM vacío. | http://cbabu-wiki.cisco.com:8080/download/thumbnails/93796945/metrics_image.jpg
 [2026-09-07T13:30:34.510037] HTTP 599 o DOM vacío. | http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/ADFS_Location.jpg
 [2026-09-07T13:30:38.499745] HTTP 599 o DOM vacío. | http://cbabu-wiki.cisco.com:8080/download/attachments/93796945/Flow_Diagram.jpg
+[2026-09-07T13:33:29.136184] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-07T13:33:33.103297] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-07T13:34:45.554684] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-07T13:34:45.688131] HTTP 599 o DOM vacío. | http://ids-standalone-load-45-161.cisco.com
+[2026-09-07T13:34:45.830708] HTTP 599 o DOM vacío. | http://docwiki.cisco.com/wiki/Virtualization_for_Cisco_Packaged_CCE
+[2026-09-07T13:34:51.009984] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.epub
+[2026-09-07T13:34:55.206331] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212337-troubleshoot-unified-contact-center-ente.mobi
+[2026-09-07T13:34:59.540545] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.epub
+[2026-09-07T13:35:03.785961] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.mobi
+[2026-09-07T13:35:07.876497] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.epub
+[2026-09-07T13:35:12.117616] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/116086-configure-cube-cucm-sip-00.mobi
+[2026-09-07T13:35:38.081532] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.epub
+[2026-09-07T13:35:42.187734] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200412-DTMF-Relay-and-Interworking-on-CUBE.mobi

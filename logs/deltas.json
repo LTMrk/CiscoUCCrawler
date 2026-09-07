@@ -1,16 +1,13 @@
 {
-  "run_at": "2026-09-07T13:30:38.823936+00:00",
+  "run_at": "2026-09-07T13:35:42.467639+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 9,
+  "unchanged_count": 5,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq74727 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuu78331 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd23158 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm82335 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_11_5_1/installation/guide/PCCE_BK_P92E0088_00_pcce-install-upgrade-11-5.html -> https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html"
   ],
   "semillas_encoladas": 20
 }
