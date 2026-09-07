@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-html-f01b6435e0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html
-retrieved_at: 2026-08-21T07:05:49.563332+00:00
+retrieved_at: 2026-09-07T14:16:26.995629+00:00
 ---
 
 Troubleshoot Jabber Audio Issues with Wireshark
@@ -109,20 +109,6 @@ Network block, FW policies, Nat issues
 01-Oct-2025
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Fernando Garrido Tapia
-
-Technical Consulting Engineer
-
-Jeremy Martinez
-
-Technical Consulting Engineer
-
-### This Document Applies to These Products
-
-- Jabber
 
 | Issue | Symptoms | Common Causes |
 |---|---|---|

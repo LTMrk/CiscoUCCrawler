@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-html-e1a801483e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html
-retrieved_at: 2026-08-16T22:06:25.859290+00:00
+retrieved_at: 2026-09-07T14:21:00.708253+00:00
 ---
 
 Troubleshooting Guide for Cisco Webex Hybrid Call Service Connect
@@ -2003,10 +2003,6 @@ Note : Currently, the Expressway/VCS diagnostic log bundle does not contain info
 Paul Stojanovski
 
 Cisco TAC Engineer
-
-### Customers Also Viewed
-
-- Deployment guide for Hybrid Calendar --- Known Issues with Hybrid Calendar Service
 
 ### This Document Applies to These Products
 

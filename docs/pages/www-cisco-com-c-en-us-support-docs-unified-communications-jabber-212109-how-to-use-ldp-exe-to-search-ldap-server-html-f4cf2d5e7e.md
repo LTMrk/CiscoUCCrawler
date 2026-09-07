@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212109-how-to-use-ldp-exe-to-search-ldap-server-html-f4cf2d5e7e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html
-retrieved_at: 2026-08-20T22:13:58.909855+00:00
+retrieved_at: 2026-09-07T14:16:52.225808+00:00
 ---
 
 How to Use ldp.exe to Search LDAP Servers
@@ -373,20 +373,6 @@ Manager can update members
 managerCanUpdateMembers
 
 You can also check out the Micrsoft Search Filter Syntax Page for more insight on the syntax.
-
-### Contributed by Cisco Engineers
-
-Fareed Warrad
-
-Cisco TAC Engineer
-
-Edited by Deepak Kumar
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Jabber
 
 | CN=users,DC=farewarr,DC=com |
 |---|
