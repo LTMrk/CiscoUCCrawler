@@ -21418,3 +21418,24 @@
 [2026-09-07T12:21:11.889379] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuj79787
 [2026-09-07T12:21:16.002640] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuj79986
 [2026-09-07T12:21:20.315767] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuj82581
+[2026-09-07T12:24:39.853577] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
+[2026-09-07T12:24:43.932530] Markdown insuficiente tras sanitizar (154 chars). | https://developer.cisco.com/docs/sxml/
+[2026-09-07T12:25:54.182600] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API.html
+[2026-09-07T12:26:23.257732] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/200770-How-to-Collect-a-Collaboration-Endpoint.epub
+[2026-09-07T12:26:27.375175] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/200770-How-to-Collect-a-Collaboration-Endpoint.mobi
+[2026-09-07T12:26:27.561786] Omitida: excluida por robots.txt | https://community.cisco.com/t5/collaboration-knowledge-base/how-to-login-to-a-cisco-ip-phone-to-set-debug-level/ta-p/3111075
+[2026-09-07T12:27:38.713557] Omitida: excluida por robots.txt | https://software.cisco.com/download/home/286311392
+[2026-09-07T12:27:41.079738] HTTP 403: en cuarentena, sin reintento automático. | https://bst.cloudapps.cisco.com/bugsearch/search
+[2026-09-07T12:31:20.671732] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/12-0-5/p880_b_8800mpp-rn-1205.html
+[2026-09-07T12:31:29.206626] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/12-0-4/p880_b_8800mpp-rn-1204.html
+[2026-09-07T12:31:37.819919] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/12-0-3/p880_b_8800mpp-rn-1203.html
+[2026-09-07T12:31:42.176766] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/220134-delete-user-password-saved-in-mpp-device.epub
+[2026-09-07T12:31:46.610554] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/220134-delete-user-password-saved-in-mpp-device.mobi
+[2026-09-07T12:32:02.504780] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning.html
+[2026-09-07T12:32:06.790135] Omitida: excluida por robots.txt | https://community.cisco.com/t5/security-knowledge-base/cisco-identity-training/ta-p/4782361
+[2026-09-07T12:32:06.790205] Omitida: excluida por robots.txt | https://community.cisco.com/t5/secure-access-announcements/generative-ai-content-category/ta-p/5257734
+[2026-09-07T12:32:07.754932] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.epub
+[2026-09-07T12:32:12.044161] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214218-configure-options-ping-between-cucm-and.mobi
+[2026-09-07T12:32:12.228922] Omitida: excluida por robots.txt | https://supportforums.cisco.com/t5/collaboration-voice-and-video/packet-capture-on-cucm-appliance-model/ta-p/3118507
+[2026-09-07T12:32:20.363732] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.epub
+[2026-09-07T12:32:24.640879] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.mobi
