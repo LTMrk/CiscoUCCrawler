@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--f971e653e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_010111.html
-retrieved_at: 2026-08-17T00:37:15.889317+00:00
+retrieved_at: 2026-09-07T11:18:15.867887+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: October 31, 2025
+Updated: August 31, 2026
 
 Chapter: Services
 
@@ -1157,25 +1157,15 @@ In
 Tip
 
 Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
-                                                      Manager Find/List window in Cisco Unified Communications Manager Administration . If the server does not display, add the Unified Communications Manager server before you activate this service.
+                                                      Manager Find/List window in Cisco Unified Communications Manager Administration. If the server does not display, add the Unified
+                                                      Communications Manager server before you activate this service.
 
-For information on how to
-                                                      						add a server, see the System Configuration Guide for Cisco Unified Communications
-                                                         						  Manager .
+For information on how to add a server, see the System Configuration Guide.
 
 Cisco Messaging Interface
 
 Activate only if using an SMDI integration to a third-party Voicemail system
                                           					 using a server-attached USB-to-serial adapter.
-
-Cisco Unified Mobile Voice Access Service
-
-For
-                                          					 mobile voice access to work, you must activate this service on the first node
-                                          					 in the cluster after you configure the H.323 gateway to point to the first VXML
-                                          					 page. In addition, make sure that the Cisco CallManager and the Cisco TFTP
-                                          					 services run on one server in the cluster, not necessarily the same server
-                                          					 where the Cisco Unified Mobile Voice Access Service runs.
 
 Cisco IP Voice Media Streaming App
 
@@ -1236,8 +1226,9 @@ If
 
 Cisco Dialed Number Analyzer
 
-If you are planning to use Unified Communications Manager Dialed Number Analyzer , activate this service. This service may consume a lot of resources, so only activate this service on the node with the least
-                                          amount of call-processing activity or during off-peak hours.
+If you are planning to use Unified Communications Manager Dialed Number Analyzer, activate this service. This service may
+                                          consume a lot of resources, so only activate this service on the node with the least amount of call-processing activity or
+                                          during off-peak hours.
 
 Cisco TFTP
 
@@ -1260,15 +1251,10 @@ CTI
 
 Cisco IP Manager Assistant
 
-If
-                                          					 you are planning to use Cisco Unified Communications
-                                             						Manager Assistant , activate this service on any two servers (Primary
-                                          					 and Backup) in the cluster. Ensure that Cisco CTI Manager service is activated
-                                          					 in the cluster.
+If you are planning to use Cisco Unified Communications Manager Assistant, activate this service on any two servers (Primary
+                                          and Backup) in the cluster. Ensure that Cisco CTI Manager service is activated in the cluster.
 
-See the Feature Configuration Guide for Cisco Unified Communications
-                                                						  Manager for more details on Cisco IP Manager
-                                          					 Assistant.
+See the Feature Configuration Guide for more details on Cisco IP Manager Assistant.
 
 Cisco WebDialer Web Service
 
@@ -1295,7 +1281,7 @@ You can activate the Cisco SOAP-CDROnDemand Service only on the
 
 For Unified Communications Manager Release 12.x and later releases, CDR onDemand Service is not enabled by default. If you
                                           want to enable the CDR onDemand service, the service should be activated manually. Execute the following command at the root
-                                          level to activate the CDR onDemand service: /usr/local/cm/bin/soapservicecontrol2.shCDRonDemandServiceCDRonDemanddeploy8443 .
+                                          level to activate the CDR onDemand service: /usr/local/cm/bin/soapservicecontrol2.shCDRonDemandService CDRonDemanddeploy8443 .
 
 Cisco CAR Web Service
 
@@ -1320,10 +1306,8 @@ Based on your needs, you
 
 Cisco Bulk Provisioning Service
 
-You can activate the Cisco Bulk Provisioning Service only on the
-                                          					 first node. If you use the Bulk Administration
-                                             						Tool (BAT) to administer phones and users, you must activate this
-                                          					 service.
+You can activate the Cisco Bulk Provisioning Service only on the first node. If you use BAT to administer phones and users,
+                                          you must activate this service.
 
 Cisco UXL
                                           					 Web Service
@@ -1352,7 +1336,9 @@ You must
 
 Cisco TAPS Service
 
-Before you can use the Cisco Unified Communications Manager Auto-Register Phone Tool , you must activate this service on the first node. When you create pseudo MAC addresses for the Cisco Unified Communications Manager Auto-Register Phone Tool , ensure that the Cisco Bulk Provisioning Service is activated on the same node.
+Before you can use the Cisco Unified Communications Manager Auto-Register Phone Tool, you must activate this service on the
+                                          first node. When you create pseudo MAC addresses for the Cisco Unified Communications Manager Auto-Register Phone Tool, ensure that the Cisco Bulk Provisioning
+                                          Service is activated on the same node.
 
 Performance and Monitoring Services
 
@@ -1794,24 +1780,15 @@ You must start and stop most services from Control Center in the serviceability 
 | Cisco CallManager | This service supports Unified Communications Manager. In
                                           					 the Control Center - Network Services, ensure that the Cisco RIS Data Collector
                                           					 service and Database Layer Monitor service are running on the node. Tip Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
-                                                      Manager Find/List window in Cisco Unified Communications Manager Administration . If the server does not display, add the Unified Communications Manager server before you activate this service. For information on how to
-                                                      						add a server, see the System Configuration Guide for Cisco Unified Communications
-                                                         						  Manager . | Tip | Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
-                                                      Manager Find/List window in Cisco Unified Communications Manager Administration . If the server does not display, add the Unified Communications Manager server before you activate this service. For information on how to
-                                                      						add a server, see the System Configuration Guide for Cisco Unified Communications
-                                                         						  Manager . |
+                                                      Manager Find/List window in Cisco Unified Communications Manager Administration. If the server does not display, add the Unified
+                                                      Communications Manager server before you activate this service. For information on how to add a server, see the System Configuration Guide. | Tip | Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
+                                                      Manager Find/List window in Cisco Unified Communications Manager Administration. If the server does not display, add the Unified
+                                                      Communications Manager server before you activate this service. For information on how to add a server, see the System Configuration Guide. |
 | Tip | Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
-                                                      Manager Find/List window in Cisco Unified Communications Manager Administration . If the server does not display, add the Unified Communications Manager server before you activate this service. For information on how to
-                                                      						add a server, see the System Configuration Guide for Cisco Unified Communications
-                                                         						  Manager . |
+                                                      Manager Find/List window in Cisco Unified Communications Manager Administration. If the server does not display, add the Unified
+                                                      Communications Manager server before you activate this service. For information on how to add a server, see the System Configuration Guide. |
 | Cisco Messaging Interface | Activate only if using an SMDI integration to a third-party Voicemail system
                                           					 using a server-attached USB-to-serial adapter. |
-| Cisco Unified Mobile Voice Access Service | For
-                                          					 mobile voice access to work, you must activate this service on the first node
-                                          					 in the cluster after you configure the H.323 gateway to point to the first VXML
-                                          					 page. In addition, make sure that the Cisco CallManager and the Cisco TFTP
-                                          					 services run on one server in the cluster, not necessarily the same server
-                                          					 where the Cisco Unified Mobile Voice Access Service runs. |
 | Cisco IP Voice Media Streaming App | If
                                           					 you have more than one node in the cluster, activate on one or two servers per
                                           					 cluster. You may activate on a node that is dedicated specifically for music on
@@ -1845,8 +1822,9 @@ You must start and stop most services from Control Center in the serviceability 
 | Cisco Dialed Number Analyzer Server | If
                                           					 you have more than one node in the cluster, activate this service on one node
                                           					 that is dedicated specifically for the Cisco Dialed Number Analyzer service. |
-| Cisco Dialed Number Analyzer | If you are planning to use Unified Communications Manager Dialed Number Analyzer , activate this service. This service may consume a lot of resources, so only activate this service on the node with the least
-                                          amount of call-processing activity or during off-peak hours. |
+| Cisco Dialed Number Analyzer | If you are planning to use Unified Communications Manager Dialed Number Analyzer, activate this service. This service may
+                                          consume a lot of resources, so only activate this service on the node with the least amount of call-processing activity or
+                                          during off-peak hours. |
 | Cisco TFTP | If
                                           					 you have more than one node in the cluster, activate this service on one node
                                           					 that is dedicated specifically for the Cisco TFTP service. Configure Option 150
@@ -1864,13 +1842,8 @@ You must start and stop most services from Control Center in the serviceability 
                                                       activated when you enable the Cisco Headset service. Deactivate the Cisco CallManager service if you do not need it. |
 | CTI
                                           					 Services |
-| Cisco IP Manager Assistant | If
-                                          					 you are planning to use Cisco Unified Communications
-                                             						Manager Assistant , activate this service on any two servers (Primary
-                                          					 and Backup) in the cluster. Ensure that Cisco CTI Manager service is activated
-                                          					 in the cluster. See the Feature Configuration Guide for Cisco Unified Communications
-                                                						  Manager for more details on Cisco IP Manager
-                                          					 Assistant. |
+| Cisco IP Manager Assistant | If you are planning to use Cisco Unified Communications Manager Assistant, activate this service on any two servers (Primary
+                                          and Backup) in the cluster. Ensure that Cisco CTI Manager service is activated in the cluster. See the Feature Configuration Guide for more details on Cisco IP Manager Assistant. |
 | Cisco WebDialer Web Service | Activate on one node per cluster. |
 | Self-Provisioning IVR | To enable
                                           					 the Self-Provisioning IVR service, you must also enable the Cisco CTI Manager
@@ -1883,7 +1856,7 @@ You must start and stop most services from Control Center in the serviceability 
                                           					 first server, and it requires that the Cisco CDR Repository Manager and Cisco
                                           					 CDR Agent services are running on the same server. For Unified Communications Manager Release 12.x and later releases, CDR onDemand Service is not enabled by default. If you
                                           want to enable the CDR onDemand service, the service should be activated manually. Execute the following command at the root
-                                          level to activate the CDR onDemand service: /usr/local/cm/bin/soapservicecontrol2.shCDRonDemandServiceCDRonDemanddeploy8443 . |
+                                          level to activate the CDR onDemand service: /usr/local/cm/bin/soapservicecontrol2.shCDRonDemandService CDRonDemanddeploy8443 . |
 | Cisco CAR Web Service | You can activate the Cisco CAR Web Service only on the first
                                           					 server, and it requires that the Cisco CAR Scheduler service is activated and
                                           					 running on the same server and that the CDR Repository Manager service also is
@@ -1896,10 +1869,8 @@ You must start and stop most services from Control Center in the serviceability 
                                           					 such as Unified Provisioning Manager. Based on your needs, you
                                           					 can activate or deactivate the service on specific subscriber nodes in Cisco
                                           					 Unified Serviceability under Feature Services. |
-| Cisco Bulk Provisioning Service | You can activate the Cisco Bulk Provisioning Service only on the
-                                          					 first node. If you use the Bulk Administration
-                                             						Tool (BAT) to administer phones and users, you must activate this
-                                          					 service. |
+| Cisco Bulk Provisioning Service | You can activate the Cisco Bulk Provisioning Service only on the first node. If you use BAT to administer phones and users,
+                                          you must activate this service. |
 | Cisco UXL
                                           					 Web Service | This
                                           					 service performs authentication and user authorization checks. The TabSync
@@ -1917,7 +1888,9 @@ You must start and stop most services from Control Center in the serviceability 
                                           					 communication between the Call Manager and Prime Collaboration Deployment
                                           					 (PCD). If you have more than one node in the cluster, you must activate this
                                           					 service on each server in the cluster. |
-| Cisco TAPS Service | Before you can use the Cisco Unified Communications Manager Auto-Register Phone Tool , you must activate this service on the first node. When you create pseudo MAC addresses for the Cisco Unified Communications Manager Auto-Register Phone Tool , ensure that the Cisco Bulk Provisioning Service is activated on the same node. |
+| Cisco TAPS Service | Before you can use the Cisco Unified Communications Manager Auto-Register Phone Tool, you must activate this service on the
+                                          first node. When you create pseudo MAC addresses for the Cisco Unified Communications Manager Auto-Register Phone Tool, ensure that the Cisco Bulk Provisioning
+                                          Service is activated on the same node. |
 | Performance and Monitoring Services |
 | Cisco Serviceability Reporter | Activate on only the first node. Note The
                                                       						service only generates reports on the first node even if you activate the
@@ -1936,9 +1909,8 @@ You must start and stop most services from Control Center in the serviceability 
 | Cisco DirSync | Activate only on the first node. |
 
 | Tip | Before you activate this service, verify that the Unified Communications Manager server displays in the Unified Communications
-                                                      Manager Find/List window in Cisco Unified Communications Manager Administration . If the server does not display, add the Unified Communications Manager server before you activate this service. For information on how to
-                                                      						add a server, see the System Configuration Guide for Cisco Unified Communications
-                                                         						  Manager . |
+                                                      Manager Find/List window in Cisco Unified Communications Manager Administration. If the server does not display, add the Unified
+                                                      Communications Manager server before you activate this service. For information on how to add a server, see the System Configuration Guide. |
 |---|---|
 
 | Note | Cisco Headset service should be activated on all the Unified Communications Manager nodes wherever Cisco CallManager service

@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--40635c7cb8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_01111.html
-retrieved_at: 2026-08-17T00:37:53.350206+00:00
+retrieved_at: 2026-09-07T11:18:54.304701+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: October 31, 2025
+Updated: August 31, 2026
 
 Chapter: Manage Certificates
 
@@ -118,23 +118,20 @@ Cisco
                                  		  chain in PEM format. For all certificate types except certificate authority proxy function (CAPF), you must obtain and
                                  		  upload a certificate authority root certificate and an application certificate on each node.
 
-For CAPF,
-                                 		  obtain and upload a certificate authority root certificate and an application certificate only on
-                                 		  the first node. CAPF and Unified Communications Manager CSRs include extensions that you must include in your request
-                                 		  for an application certificate from the certificate authority. If your certificate authority does not support the
-                                 		  ExtensionRequest mechanism, you must enable the X.509 extensions, as follows:
+For CAPF, obtain and upload a certificate authority root certificate and an application certificate only on the first node.
+                                 CAPF and Unified Communications Manager CSRs include extensions that you must include in your request for an application certificate from the certificate authority.
+                                 If your certificate authority does not support the ExtensionRequest mechanism, you must enable the X.509 extensions, as follows:
 
 The CAPF CSR uses the following extensions:
 
 ```
 X509v3 Extended Key Usage: 
-TLS Web Server Authentication 
+TLS Web Server Authentication, TLS Web Client Authentication 
 X509v3 Key Usage: 
 Digital Signature, Certificate Sign
 ```
 
-The CSRs for 
-                                       				 Tomcat and Tomcat-ECDSA, use the following extensions:
+The CSRs for Tomcat and Tomcat-ECDSA use the following extensions:
 
 Tomcat or Tomcat-ECDSA does not require the key agreement or IPsec end system key usage.
 
@@ -163,7 +160,7 @@ X509v3 Key Usage:
 Digital Signature, Key Encipherment, Data Encipherment, Key Agreement
 ```
 
-The CSRs for the IM and Presence Service  cup and cup-xmpp certificates use the following extensions:
+The CSRs for the IM and Presence Service cup and cup-xmpp certificates use the following extensions:
 
 ```
 X509v3 Extended Key Usage: 
@@ -173,12 +170,288 @@ Digital Signature, Key Encipherment, Data Encipherment, Key Agreement,
 ```
 
 You can generate a CSR for your certificates and have them signed by a third party certificate authority with a SHA256 signature.
-                                             You can then upload this signed certificate back to Unified Communications Manager , allowing Tomcat and other certificates to  support SHA256.
+                                             You can then upload this signed certificate back to Unified Communications Manager , allowing Tomcat and other certificates to support SHA256.
 
 ### Certificate Signing Request Key Usage Extensions
 
 The following tables display key usage extensions for Certificate Signing Requests (CSRs) for both Unified Communications
                                  Manager and the IM and Presence Service CA certificates.
+
+Important
+
+The following table is applicable only until Release 15SU4.
+
+Multi server
+
+Extended Key Usage
+
+Key Usage
+
+Server Authentication
+
+(1.3.6.1.5.5.7.3.1)
+
+Client Authentication
+
+(1.3.6.1.5.5.7.3.2)
+
+IP security end system
+
+(1.3.6.1.5.5.7.3.5)
+
+Digital Signature
+
+Key Encipherment
+
+Data Encipherment
+
+Key Cert Sign
+
+Key Agreement
+
+CallManager
+
+CallManager-ECDSA
+
+Y
+
+Y
+
+Y
+
+Y
+
+N
+
+Y
+
+CAPF (publisher only)
+
+N
+
+Y
+
+Y
+
+Y
+
+N
+
+Y
+
+ipsec
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+tomcat
+
+tomcat-ECDSA
+
+Y
+
+Y
+
+Y
+
+Y
+
+N
+
+Y
+
+TVS
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Important
+
+The following table is applicable only until Release 15SU4.
+
+Ensure that ‘Data Encipherment’ bit is not changed or removed as part of the CA-signing certificate process.
+
+Multi server
+
+Extended Key Usage
+
+Key Usage
+
+Server Authentication
+
+(1.3.6.1.5.5.7.3.1)
+
+Client Authentication
+
+(1.3.6.1.5.5.7.3.2)
+
+IP security end system
+
+(1.3.6.1.5.5.7.3.5)
+
+Digital Signature
+
+Key Encipherment
+
+Data Encipherment
+
+Key Cert Sign
+
+Key Agreement
+
+cup
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+cup-ECDSA
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+N
+
+N
+
+cup-xmpp
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+cup-xmpp-ECDSA
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+N
+
+N
+
+cup-xmpp-s2s
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+cup-xmpp-s2s-ECDSA
+
+N
+
+Y
+
+N
+
+N
+
+ipsec
+
+N
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+tomcat
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+Y
+
+tomcat-ECDSA
+
+Y
+
+Y
+
+Y
+
+Y
+
+N
+
+N
 
 ## Show Certificates
 
@@ -341,8 +614,8 @@ We recommend that you regenerate certificates before they expire. You will recei
                               email notification when the certificates are about to expire.
 
 However, you can also regenerate an expired certificate. Perform this task after business hours, because you must restart
-                              the the phones and reboot the services. You can regenerate only a certificate that is listed as type “cert” in Cisco Unified
-                              OS Administration
+                              the phones and reboot the services. You can regenerate only a certificate that is listed as type “cert” in Cisco Unified OS
+                              Administration
 
 Caution
 
@@ -999,8 +1272,39 @@ After the certificate exchange is complete, restart Cisco Tomcat on each affecte
 |---|---|
 
 | Note | You can generate a CSR for your certificates and have them signed by a third party certificate authority with a SHA256 signature.
-                                             You can then upload this signed certificate back to Unified Communications Manager , allowing Tomcat and other certificates to  support SHA256. |
+                                             You can then upload this signed certificate back to Unified Communications Manager , allowing Tomcat and other certificates to support SHA256. |
 |---|---|
+
+| Important | The following table is applicable only until Release 15SU4. |
+|---|---|
+
+|  | Multi server | Extended Key Usage | Key Usage |
+|---|---|---|---|
+| Server Authentication (1.3.6.1.5.5.7.3.1) | Client Authentication (1.3.6.1.5.5.7.3.2) | IP security end system (1.3.6.1.5.5.7.3.5) | Digital Signature | Key Encipherment | Data Encipherment | Key Cert Sign | Key Agreement |
+| CallManager CallManager-ECDSA | Y | Y | Y |  | Y | N | Y |  |  |
+| CAPF (publisher only) | N | Y | Y |  | Y | N |  | Y |  |
+| ipsec | N | Y | Y | Y | Y | Y | Y |  |  |
+| tomcat tomcat-ECDSA | Y | Y | Y |  | Y | N | Y |  |  |
+| TVS | N | Y | Y |  | Y | Y | Y |  |  |
+
+| Important | The following table is applicable only until Release 15SU4. |
+|---|---|
+
+| Note | Ensure that ‘Data Encipherment’ bit is not changed or removed as part of the CA-signing certificate process. |
+|---|---|
+
+|  | Multi server | Extended Key Usage | Key Usage |
+|---|---|---|---|
+| Server Authentication (1.3.6.1.5.5.7.3.1) | Client Authentication (1.3.6.1.5.5.7.3.2) | IP security end system (1.3.6.1.5.5.7.3.5) | Digital Signature | Key Encipherment | Data Encipherment | Key Cert Sign | Key Agreement |
+| cup | N | Y | Y | Y | Y | Y | Y |  |  |
+| cup-ECDSA | N | Y | Y | Y | Y | N | N |  |  |
+| cup-xmpp | N | Y | Y | Y | Y | Y | Y |  |  |
+| cup-xmpp-ECDSA | N | Y | Y | Y | Y | N | N |  |  |
+| cup-xmpp-s2s | N | Y | Y | Y | Y | Y | Y |  |  |
+| cup-xmpp-s2s-ECDSA | N | Y |  |  |  | N | N |  |  |
+| ipsec | N | Y | Y | Y | Y | Y | Y |  |  |
+| tomcat | Y | Y | Y |  | Y | Y | Y |  |  |
+| tomcat-ECDSA | Y | Y | Y |  | Y | N | N |  |  |
 
 | Step 1 | From Cisco Unified OS Administration, choose Security > Certificate Management . The Certificate List page appears. |
 |---|---|
@@ -1182,18 +1486,14 @@ After the certificate exchange is complete, restart Cisco Tomcat on each affecte
                                        			 file to upload by performing one of the following steps: In the Upload File text box, enter the path to the file. Click Browse , navigate to the file, and then click Open . |
 | Step 5 | To upload the
                                        			 file to the server, click Upload
-                                          				File . Note Restart the affected service after uploading the certificate.
-                                                      				  When the server comes back up you can access the CCMAdmin or CCMUser GUI to
-                                                      				  verify your newly added certificates in use. | Note | Restart the affected service after uploading the certificate.
-                                                      				  When the server comes back up you can access the CCMAdmin or CCMUser GUI to
-                                                      				  verify your newly added certificates in use. |
-| Note | Restart the affected service after uploading the certificate.
-                                                      				  When the server comes back up you can access the CCMAdmin or CCMUser GUI to
-                                                      				  verify your newly added certificates in use. |
+                                          				File . Note Restart the affected service after uploading the certificate. When the server comes back up you can access the CCMAdmin or
+                                                   CCMUser GUI to verify your newly added certificates in use. | Note | Restart the affected service after uploading the certificate. When the server comes back up you can access the CCMAdmin or
+                                                   CCMUser GUI to verify your newly added certificates in use. |
+| Note | Restart the affected service after uploading the certificate. When the server comes back up you can access the CCMAdmin or
+                                                   CCMUser GUI to verify your newly added certificates in use. |
 
-| Note | Restart the affected service after uploading the certificate.
-                                                      				  When the server comes back up you can access the CCMAdmin or CCMUser GUI to
-                                                      				  verify your newly added certificates in use. |
+| Note | Restart the affected service after uploading the certificate. When the server comes back up you can access the CCMAdmin or
+                                                   CCMUser GUI to verify your newly added certificates in use. |
 |---|---|
 
 |  | Command or Action | Purpose |

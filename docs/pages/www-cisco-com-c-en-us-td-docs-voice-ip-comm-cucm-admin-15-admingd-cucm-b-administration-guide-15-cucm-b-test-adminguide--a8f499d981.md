@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--a8f499d981
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_011000.html
-retrieved_at: 2026-08-17T00:37:20.719202+00:00
+retrieved_at: 2026-09-07T11:18:20.313295+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: October 31, 2025
+Updated: August 31, 2026
 
 Chapter: Trace
 
@@ -322,36 +322,29 @@ Unified Communications Manager
 CM
                                           				  Services
 
-- Cisco CTIManager
+Cisco CTIManager
 
-- Cisco CallManager
+Cisco CallManager
 
-- Cisco CallManager Cisco IP
-                                             					 Phone Service
+Cisco CallManager Cisco IP Phone Service
 
-- Cisco DHCP Monitor Service
+Cisco DHCP Monitor Service
 
-- Cisco Dialed Number
-                                             					 Analyzer
+Cisco Dialed Number Analyzer
 
-- Cisco Dialed Number
-                                             					 Analyzer Server
+Cisco Dialed Number Analyzer Server
 
-- Cisco Extended Functions,
-                                             					 Cisco Extension Mobility
+Cisco Extended Functions, Cisco Extension Mobility
 
-- Cisco Extension Mobility
-                                             					 Application
+Cisco Extension Mobility Application
 
-- Cisco IP Voice Media
-                                             					 Streaming App
+Cisco IP Voice Media Streaming App
 
-- Cisco Messaging Interface
+Cisco Messaging Interface
 
-- Cisco TFTP
+Cisco TFTP
 
-- Cisco Unified Mobile Voice
-                                             					 Access Service
+Cisco Unified Mobile Voice Access Service
 
 For
                                           				  most services in the CM Services group, you run trace for specific components,
@@ -363,10 +356,9 @@ Unified Communications Manager
 CTI
                                           				  Services
 
-- Cisco IP Manager Assistant
+Cisco IP Manager Assistant
 
-- Cisco Web Dialer Web
-                                             					 Service
+Cisco Web Dialer Web Service
 
 For
                                           				  these services, you can run trace for specific components, instead of enabling
@@ -377,14 +369,13 @@ Unified Communications Manager
 CDR
                                           				  Services
 
-- Cisco Unified Communications Manager CDR Analysis and Reporting Scheduler
+Cisco Unified Communications Manager CDR Analysis and Reporting Scheduler
 
-- Cisco Unified Communications Manager CDR Analysis and Reporting Web Service
+Cisco Unified Communications Manager CDR Analysis and Reporting Web Service
 
-- Cisco CDR Agent
+Cisco CDR Agent
 
-- Cisco CDR Repository
-                                             					 Manager
+Cisco CDR Repository Manager
 
 You
                                           				  enable all trace for each service, instead of running trace for specific
@@ -405,124 +396,104 @@ In Cisco Unified Communications Manager CDR Analysis and Reporting, when reports
 
 IM and Presence Services
 
-- Cisco Client Profile Agent
+Cisco Client Profile Agent
 
-- Cisco Config Agent
+Cisco Config Agent
 
-- Cisco Intercluster Sync
-                                             					 Agent
+Cisco Intercluster Sync Agent
 
-- Cisco Login Datastore
+Cisco Login Datastore
 
-- Cisco OAM Agent
+Cisco OAM Agent
 
-- Cisco Presence Datastore
+Cisco Presence Datastore
 
-- Cisco Presence Engine
+Cisco Presence Engine
 
-- Cisco IM and Presence Data Monitor
+Cisco IM and Presence Data Monitor
 
-- Cisco Route Datastore
+Cisco Route Datastore
 
-- Cisco SIP Proxy
+Cisco SIP Proxy
 
-- Cisco SIP Registration
-                                             					 Datastore
+Cisco SIP Registration Datastore
 
-- Cisco Server Recovery
-                                             					 Manager
+Cisco Server Recovery Manager
 
-- Cisco Sync Agent
+Cisco Sync Agent
 
-- Cisco XCP Authentication
-                                             					 Service
+Cisco XCP Authentication Service
 
-- Cisco XCP Config Manager
+Cisco XCP Config Manager
 
-- Cisco XCP Connection
-                                             					 Manager
+Cisco XCP Connection Manager
 
-- Cisco XCP Directory Service
+Cisco XCP Directory Service
 
-- Cisco XCP Message Archiver
+Cisco XCP Message Archiver
 
-- Cisco XCP Router
+Cisco XCP Router
 
-- Cisco XCP SIP Federation
-                                             					 Connection Manager
+Cisco XCP SIP Federation Connection Manager
 
-- Cisco XCP Text Conference
-                                             					 Manager
+Cisco XCP Text Conference Manager
 
-- Cisco XCP Web Connection
-                                             					 Manager
+Cisco XCP Web Connection Manager
 
-- Cisco XCP XMPP Federation
-                                             					 Connection Manager
+Cisco XCP XMPP Federation Connection Manager
 
 See topics
                                           				  related to feature and network services in Cisco Unified IM and Presence Serviceability for a
                                           				  description of these services.
 
-- For these services, you
-                                             					 should enable all trace for the service, instead of running trace for specific
-                                             					 components.
+For these services, you should enable all trace for the service, instead of running trace for specific components.
 
 Database and Admin Services
 
 Unified Communications Manager and Cisco Unity Connection:
 
-- Cisco AXL Web Service
+Cisco AXL Web Service
 
-- Cisco CCM DBL Web Library
+Cisco CCM DBL Web Library
 
-- Cisco CCMAdmin Web Service
+Cisco CCMAdmin Web Service
 
-- Cisco CCMUser Web Service
+Cisco CCMUser Web Service
 
-- Cisco Database Layer
-                                             					 Monitor
+Cisco Database Layer Monitor
 
-- Cisco UXL Web Service
+Cisco UXL Web Service
 
 Unified Communications Manager
 
-- Cisco Bulk Provisioning
-                                             					 Service
+Cisco Bulk Provisioning Service
 
-- Cisco GRT Communications
-                                             					 Web Service
+Cisco GRT Communications Web Service
 
-- Cisco Role-based Security
+Cisco Role-based Security
 
-- Cisco TAPS Service
+Cisco TAPS Service
 
-- Cisco Unified Reporting Web
-                                             					 Service
+Cisco Unified Reporting Web Service
 
 IM and
                                           				  Presence Services:
 
-- Cisco AXL Web Service
+Cisco AXL Web Service
 
-- Cisco Bulk Provisioning
-                                             					 Service
+Cisco Bulk Provisioning Service
 
-- Cisco CCMUser Web Service
+Cisco CCMUser Web Service
 
-- Cisco Database Layer
-                                             					 Monitor
+Cisco Database Layer Monitor
 
-- Cisco GRT Communications
-                                             					 Web Service
+Cisco GRT Communications Web Service
 
-- Cisco IM and Presence Admin
+Cisco IM and Presence Admin
 
-- Cisco Unified Reporting Web
-                                             					 Service
+Cisco Unified Reporting Web Service
 
-- Platform Administrative
-                                             					 Web Service
+Platform Administrative Web Service
 
 Choosing the Cisco CCM DBL Web Library option activates the
                                           				  trace for database access for Java applications. For database access for C++
@@ -543,45 +514,42 @@ Performance and Monitoring Services
 
 Unified Communications Manager and Cisco Unity Connection:
 
-- Cisco AMC Service
+Cisco AMC Service
 
-- Cisco CCM NCS Web Library
+Cisco CCM NCS Web Library
 
-- CCM PD Web Service
+CCM PD Web Service
 
-- Cisco CallManager SNMP
-                                             					 Service
+Cisco CallManager SNMP Service
 
-- Cisco Log Partition
-                                             					 Monitoring Tool
+Cisco Log Partition Monitoring Tool
 
-- Cisco RIS Data Collector
+Cisco RIS Data Collector
 
-- Cisco RTMT Web Service
+Cisco RTMT Web Service
 
-- Cisco Audit Event Service
+Cisco Audit Event Service
 
-- Cisco RisBean Library
+Cisco RisBean Library
 
 Unified Communications Manager:
 
-- Cisco CCM PD Web Service
+Cisco CCM PD Web Service
 
 IM and
                                           				  Presence Services:
 
-- Cisco AMC Service
+Cisco AMC Service
 
-- Cisco Audit Event Service
+Cisco Audit Event Service
 
-- Cisco Log Partition
-                                             					 Monitoring Tool
+Cisco Log Partition Monitoring Tool
 
-- Cisco RIS Data Collector
+Cisco RIS Data Collector
 
-- Cisco RTMT Web Service
+Cisco RTMT Web Service
 
-- Cisco RisBean Library
+Cisco RisBean Library
 
 Choosing the Cisco CCM NCS Web Library option activates trace
                                           				  for database change notification for the Java client.
@@ -594,13 +562,11 @@ Unified Communications Manager
 
 Security Services
 
-- Cisco CTL Provider
+Cisco CTL Provider
 
-- Cisco Certificate
-                                             					 Authority Proxy Function
+Cisco Certificate Authority Proxy Function
 
-- Cisco Trust Verification
-                                             					 Service
+Cisco Trust Verification Service
 
 You enable all trace for each service, instead of running trace
                                           				  for specific components.
@@ -617,9 +583,9 @@ You enable all trace for this service, instead of running trace
 
 Backup and Restore Services
 
-- Cisco DRF Local
+Cisco DRF Local
 
-- Unified Communications Manager and Cisco Unity Connection only: Cisco DRF Master
+Unified Communications Manager and Cisco Unity Connection only: Cisco DRF Master
 
 You enable all trace for each service, instead of running trace
                                           				  for specific components.
@@ -628,26 +594,20 @@ System Services
 
 Unified Communications Manager:
 
-- Cisco CCMRealm Web
-                                             					 Service
+Cisco CCMRealm Web Service
 
-- Cisco CCMService Web
-                                             					 Service
+Cisco CCMService Web Service
 
-- Cisco Common User
-                                             					 Interface
+Cisco Common User Interface
 
-- Cisco Trace Collection
-                                             					 Service
+Cisco Trace Collection Service
 
 IM and
                                           				  Presence Services:
 
-- Cisco CCMService Web
-                                             					 Service
+Cisco CCMService Web Service
 
-- Cisco Trace Collection
-                                             					 Service
+Cisco Trace Collection Service
 
 Choosing the Cisco CCMRealm Web Service option activates trace
                                           				  for login authentication.
@@ -666,9 +626,9 @@ You enable all trace for each option/service, instead of running
 
 SOAP Services
 
-- CiscoSOAP Web Service
+Cisco SOAP Web Service
 
-- CiscoSOAPMessage Service
+Cisco SOAPMessage Service
 
 Choosing the Cisco SOAP Web Service option activates the trace
                                           				  for the AXL Serviceability API.
@@ -1992,25 +1952,16 @@ After you select the Reset button, the window refreshes and the service check bo
 | Service Group | Services and Trace Libraries | Notes |
 |---|---|---|
 | Unified Communications Manager CM
-                                          				  Services | Cisco CTIManager Cisco CallManager Cisco CallManager Cisco IP
-                                             					 Phone Service Cisco DHCP Monitor Service Cisco Dialed Number
-                                             					 Analyzer Cisco Dialed Number
-                                             					 Analyzer Server Cisco Extended Functions,
-                                             					 Cisco Extension Mobility Cisco Extension Mobility
-                                             					 Application Cisco IP Voice Media
-                                             					 Streaming App Cisco Messaging Interface Cisco TFTP Cisco Unified Mobile Voice
-                                             					 Access Service | For
+                                          				  Services | Cisco CTIManager Cisco CallManager Cisco CallManager Cisco IP Phone Service Cisco DHCP Monitor Service Cisco Dialed Number Analyzer Cisco Dialed Number Analyzer Server Cisco Extended Functions, Cisco Extension Mobility Cisco Extension Mobility Application Cisco IP Voice Media Streaming App Cisco Messaging Interface Cisco TFTP Cisco Unified Mobile Voice Access Service | For
                                           				  most services in the CM Services group, you run trace for specific components,
                                           				  instead of enabling all trace for the service. The Trace field descriptions
                                           				  lists the services for which you can run trace for specific components. |
 | Unified Communications Manager CTI
-                                          				  Services | Cisco IP Manager Assistant Cisco Web Dialer Web
-                                             					 Service | For
+                                          				  Services | Cisco IP Manager Assistant Cisco Web Dialer Web Service | For
                                           				  these services, you can run trace for specific components, instead of enabling
                                           				  all trace for the service; see the Trace field descriptions. |
 | Unified Communications Manager CDR
-                                          				  Services | Cisco Unified Communications Manager CDR Analysis and Reporting Scheduler Cisco Unified Communications Manager CDR Analysis and Reporting Web Service Cisco CDR Agent Cisco CDR Repository
-                                             					 Manager | You
+                                          				  Services | Cisco Unified Communications Manager CDR Analysis and Reporting Scheduler Cisco Unified Communications Manager CDR Analysis and Reporting Web Service Cisco CDR Agent Cisco CDR Repository Manager | You
                                           				  enable all trace for each service, instead of running trace for specific
                                           				  components. In Cisco Unified Communications Manager CDR Analysis and Reporting, when reports are run that call stored procedures, Cisco
                                           Unified Communications Manager CDR Analysis and Reporting checks the configured debug trace level for the Cisco Unified Communications
@@ -2024,31 +1975,11 @@ After you select the Reset button, the window refreshes and the service check bo
                                           procedure logging: Gateway Utilization report, Route and Line Group Utilization report, Route/Hunt List Utilization report,
                                           Route Pattern/Hunt Pilot Utilization report, Conference Call Details report, Conference Call Summary report, Conference Bridge
                                           Utilization report, Voice Messaging Utilization report, and the CDR Search report. |
-| IM and Presence Services | Cisco Client Profile Agent Cisco Config Agent Cisco Intercluster Sync
-                                             					 Agent Cisco Login Datastore Cisco OAM Agent Cisco Presence Datastore Cisco Presence Engine Cisco IM and Presence Data Monitor Cisco Route Datastore Cisco SIP Proxy Cisco SIP Registration
-                                             					 Datastore Cisco Server Recovery
-                                             					 Manager Cisco Sync Agent Cisco XCP Authentication
-                                             					 Service Cisco XCP Config Manager Cisco XCP Connection
-                                             					 Manager Cisco XCP Directory Service Cisco XCP Message Archiver Cisco XCP Router Cisco XCP SIP Federation
-                                             					 Connection Manager Cisco XCP Text Conference
-                                             					 Manager Cisco XCP Web Connection
-                                             					 Manager Cisco XCP XMPP Federation
-                                             					 Connection Manager | See topics
+| IM and Presence Services | Cisco Client Profile Agent Cisco Config Agent Cisco Intercluster Sync Agent Cisco Login Datastore Cisco OAM Agent Cisco Presence Datastore Cisco Presence Engine Cisco IM and Presence Data Monitor Cisco Route Datastore Cisco SIP Proxy Cisco SIP Registration Datastore Cisco Server Recovery Manager Cisco Sync Agent Cisco XCP Authentication Service Cisco XCP Config Manager Cisco XCP Connection Manager Cisco XCP Directory Service Cisco XCP Message Archiver Cisco XCP Router Cisco XCP SIP Federation Connection Manager Cisco XCP Text Conference Manager Cisco XCP Web Connection Manager Cisco XCP XMPP Federation Connection Manager | See topics
                                           				  related to feature and network services in Cisco Unified IM and Presence Serviceability for a
-                                          				  description of these services. For these services, you
-                                             					 should enable all trace for the service, instead of running trace for specific
-                                             					 components. |
-| Database and Admin Services | Unified Communications Manager and Cisco Unity Connection: Cisco AXL Web Service Cisco CCM DBL Web Library Cisco CCMAdmin Web Service Cisco CCMUser Web Service Cisco Database Layer
-                                             					 Monitor Cisco UXL Web Service Unified Communications Manager Cisco Bulk Provisioning
-                                             					 Service Cisco GRT Communications
-                                             					 Web Service Cisco Role-based Security Cisco TAPS Service Cisco Unified Reporting Web
-                                             					 Service IM and
-                                          				  Presence Services: Cisco AXL Web Service Cisco Bulk Provisioning
-                                             					 Service Cisco CCMUser Web Service Cisco Database Layer
-                                             					 Monitor Cisco GRT Communications
-                                             					 Web Service Cisco IM and Presence Admin Cisco Unified Reporting Web
-                                             					 Service Platform Administrative
-                                             					 Web Service | Choosing the Cisco CCM DBL Web Library option activates the
+                                          				  description of these services. For these services, you should enable all trace for the service, instead of running trace for specific components. |
+| Database and Admin Services | Unified Communications Manager and Cisco Unity Connection: Cisco AXL Web Service Cisco CCM DBL Web Library Cisco CCMAdmin Web Service Cisco CCMUser Web Service Cisco Database Layer Monitor Cisco UXL Web Service Unified Communications Manager Cisco Bulk Provisioning Service Cisco GRT Communications Web Service Cisco Role-based Security Cisco TAPS Service Cisco Unified Reporting Web Service IM and
+                                          				  Presence Services: Cisco AXL Web Service Cisco Bulk Provisioning Service Cisco CCMUser Web Service Cisco Database Layer Monitor Cisco GRT Communications Web Service Cisco IM and Presence Admin Cisco Unified Reporting Web Service Platform Administrative Web Service | Choosing the Cisco CCM DBL Web Library option activates the
                                           				  trace for database access for Java applications. For database access for C++
                                           				  applications, activate trace for Cisco Database Layer Monitor, as described in
                                           				  the Cisco Extended Functions trace fields. Choosing the Cisco Role-based Security option, which supports Unified Communications Manager, activates trace for user-role
@@ -2057,31 +1988,20 @@ After you select the Reset button, the window refreshes and the service check bo
                                           				  specific components. For Cisco Database Layer Monitor, you can run trace for
                                           				  specific components. Note You can control logging for services in the Cisco Unified IM and Presence Serviceability UI. To change the log level, select the System Services group and Cisco CCMService Web Service. | Note | You can control logging for services in the Cisco Unified IM and Presence Serviceability UI. To change the log level, select the System Services group and Cisco CCMService Web Service. |
 | Note | You can control logging for services in the Cisco Unified IM and Presence Serviceability UI. To change the log level, select the System Services group and Cisco CCMService Web Service. |
-| Performance and Monitoring Services | Unified Communications Manager and Cisco Unity Connection: Cisco AMC Service Cisco CCM NCS Web Library CCM PD Web Service Cisco CallManager SNMP
-                                             					 Service Cisco Log Partition
-                                             					 Monitoring Tool Cisco RIS Data Collector Cisco RTMT Web Service Cisco Audit Event Service Cisco RisBean Library Unified Communications Manager: Cisco CCM PD Web Service IM and
-                                          				  Presence Services: Cisco AMC Service Cisco Audit Event Service Cisco Log Partition
-                                             					 Monitoring Tool Cisco RIS Data Collector Cisco RTMT Web Service Cisco RisBean Library | Choosing the Cisco CCM NCS Web Library option activates trace
+| Performance and Monitoring Services | Unified Communications Manager and Cisco Unity Connection: Cisco AMC Service Cisco CCM NCS Web Library CCM PD Web Service Cisco CallManager SNMP Service Cisco Log Partition Monitoring Tool Cisco RIS Data Collector Cisco RTMT Web Service Cisco Audit Event Service Cisco RisBean Library Unified Communications Manager: Cisco CCM PD Web Service IM and
+                                          				  Presence Services: Cisco AMC Service Cisco Audit Event Service Cisco Log Partition Monitoring Tool Cisco RIS Data Collector Cisco RTMT Web Service Cisco RisBean Library | Choosing the Cisco CCM NCS Web Library option activates trace
                                           				  for database change notification for the Java client. Choosing the Cisco Unity RTMT Web Service option activates trace
                                           				  for the Unity RTMT servlets; running this trace creates the server-side log for
                                           				  Unity RTMT client queries. |
-| Unified Communications Manager Security Services | Cisco CTL Provider Cisco Certificate
-                                             					 Authority Proxy Function Cisco Trust Verification
-                                             					 Service | You enable all trace for each service, instead of running trace
+| Unified Communications Manager Security Services | Cisco CTL Provider Cisco Certificate Authority Proxy Function Cisco Trust Verification Service | You enable all trace for each service, instead of running trace
                                           				  for specific components. |
 | Unified Communications Manager Directory Services | Cisco
                                           				  DirSync | You enable all trace for this service, instead of running trace
                                           				  for specific components. |
 | Backup and Restore Services | Cisco DRF Local Unified Communications Manager and Cisco Unity Connection only: Cisco DRF Master | You enable all trace for each service, instead of running trace
                                           				  for specific components. |
-| System Services | Unified Communications Manager: Cisco CCMRealm Web
-                                             					 Service Cisco CCMService Web
-                                             					 Service Cisco Common User
-                                             					 Interface Cisco Trace Collection
-                                             					 Service IM and
-                                          				  Presence Services: Cisco CCMService Web
-                                             					 Service Cisco Trace Collection
-                                             					 Service | Choosing the Cisco CCMRealm Web Service option activates trace
+| System Services | Unified Communications Manager: Cisco CCMRealm Web Service Cisco CCMService Web Service Cisco Common User Interface Cisco Trace Collection Service IM and
+                                          				  Presence Services: Cisco CCMService Web Service Cisco Trace Collection Service | Choosing the Cisco CCMRealm Web Service option activates trace
                                           				  for login authentication. Choosing the Cisco Common User Interface option activates trace
                                           				  for the common code that multiple applications use; for example, Cisco Unified
                                           				  Operating System Administration and Cisco Unified
@@ -2089,7 +2009,7 @@ After you select the Reset button, the window refreshes and the service check bo
                                           				  for the Cisco Unified
                                              					 Serviceability web application (GUI). You enable all trace for each option/service, instead of running
                                           				  trace for specific components. |
-| SOAP Services | CiscoSOAP Web Service CiscoSOAPMessage Service | Choosing the Cisco SOAP Web Service option activates the trace
+| SOAP Services | Cisco SOAP Web Service Cisco SOAPMessage Service | Choosing the Cisco SOAP Web Service option activates the trace
                                           				  for the AXL Serviceability API. You enable all trace for this service, instead of running trace
                                           				  for specific components. |
 | Platform Services | Cisco Unified OS Admin Web Service | The Cisco Unified OS Admin Web Service supports Cisco Unified

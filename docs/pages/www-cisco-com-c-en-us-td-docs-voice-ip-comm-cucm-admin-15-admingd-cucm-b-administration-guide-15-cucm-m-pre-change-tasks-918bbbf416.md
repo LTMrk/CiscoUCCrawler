@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-m-pre-change-tasks-918bbbf416
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_m_pre-change-tasks.html
-retrieved_at: 2026-08-17T00:38:09.630921+00:00
+retrieved_at: 2026-09-07T11:19:10.280445+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: October 31, 2025
+Updated: August 31, 2026
 
 Chapter: Pre-Change Tasks and System Health Checks
 

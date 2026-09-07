@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--1f7551c76c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_0101.html
-retrieved_at: 2026-08-17T00:36:37.862063+00:00
+retrieved_at: 2026-09-07T11:17:37.774437+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: October 31, 2025
+Updated: August 31, 2026
 
 Chapter: Manage Phones
 
@@ -743,7 +743,7 @@ Step 1
 
 Choose Device > Phone .
 
-The Find and List Phones window displays. Records from an active (prior) query may also display in the window.
+The Find and List Phones window displays. Records from an active (prior) query may also be displayed on the window.
 
 Step 2
 
@@ -1102,7 +1102,7 @@ From the Related Links drop-down list, choose the CAPF
                                           				
                                           		  Click Wipe . A Device Lock/Wipe Status section appears, with information about the most recent request, whether it is pending, and the most recent acknowledgment. |
 
-| Step 1 | Choose Device > Phone . The Find and List Phones window displays. Records from an active (prior) query may also display in the window. |
+| Step 1 | Choose Device > Phone . The Find and List Phones window displays. Records from an active (prior) query may also be displayed on the window. |
 |---|---|
 | Step 2 | Select the Phone Lock/Wipe Report from the Related Links drop-down list in the upper right corner of the window and click Go . |
 | Step 3 | To find all remotely locked or remotely wiped device records in the database, ensure that the text box is empty; go to Step
