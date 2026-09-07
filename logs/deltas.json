@@ -1,16 +1,30 @@
 {
-  "run_at": "2026-09-07T13:40:53.727816+00:00",
+  "run_at": "2026-09-07T13:47:27.012150+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 0,
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvr51665-d48da264df",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvs46900-6d6b28f495",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvs59785-50616ae6dd",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvs67053-9e9cf56cda",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt60447-a571a7969d",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvt74130-8d1e15f725",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu76997-917504e785",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu91063-4e0cf646b1",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvu96298-e990f7cd24",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv12160-28003255e8"
+  ],
+  "unchanged_count": 3,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/dtmf-relay.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/media.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/srnd/8x/uc8x/trunks.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm45006 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs39240 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs56604 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs64183 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs77949 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs85018 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvt01048 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
