@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200599-enable-uc-se-ec4a398059
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200599-Enable-UC-servers-for-Extension-Mobility.html
-retrieved_at: 2026-08-21T13:55:09.302780+00:00
+retrieved_at: 2026-09-07T19:39:54.658087+00:00
 ---
 
 Enable UC servers for Extension Mobility Cross Cluster (EMCC)
@@ -365,6 +365,20 @@ CSCvs39175 CM 12.0(1) Feature Configuration Guide doesn't mention ITLRecovery ce
 29-Jul-2016
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Sivakumar Shanmugam
+
+Cisco TAC
+
+Patrick Kinane
+
+Cisco TAC
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
 
 | Revision | Publish Date | Comments |
 |---|---|---|

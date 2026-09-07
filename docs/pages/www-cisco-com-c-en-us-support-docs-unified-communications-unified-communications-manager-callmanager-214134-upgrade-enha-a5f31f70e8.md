@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214134-upgrade-enha-a5f31f70e8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214134-upgrade-enhancements-in-cisco-unified-c.html
-retrieved_at: 2026-08-21T01:42:45.410157+00:00
+retrieved_at: 2026-09-07T19:43:08.122337+00:00
 ---
 
 Upgrade Enhancements in Cisco Unified Communications Manager(CUCM) 12.5
@@ -203,6 +203,16 @@ The upgrade can fail at different stages and to correct that related checks need
 16-Sep-2021
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Chandra Mishra
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
 
 | Revision | Publish Date | Comments |
 |---|---|---|

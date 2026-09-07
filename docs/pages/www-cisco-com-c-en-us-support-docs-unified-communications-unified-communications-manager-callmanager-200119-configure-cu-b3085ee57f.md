@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200119-configure-cu-b3085ee57f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200119-Configure-CUCM-TFTP-for-Jabber-Automatic.html
-retrieved_at: 2026-08-21T13:54:22.719271+00:00
+retrieved_at: 2026-09-07T19:39:07.383544+00:00
 ---
 
 Configure CUCM TFTP for Jabber Automatic Update
@@ -82,3 +82,13 @@ In Wireshark, the HTTP protocol requests jabber-update.xml via TCP port 6970 as 
 ## Troubleshoot
 
 There is currently no specific troubleshooting information available for this configuration.
+
+### Contributed by Cisco Engineers
+
+Daniel Ohnesorge
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)

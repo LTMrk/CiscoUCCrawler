@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214291-implement-ge-75a2046b21
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214291-implement-geolocation-across-cucm-cluste.html
-retrieved_at: 2026-08-21T13:58:59.384672+00:00
+retrieved_at: 2026-09-07T19:43:04.048524+00:00
 ---
 
 Implement GeoLocation across CUCM Clusters
@@ -503,6 +503,16 @@ Corner case of CBarge/Barge - When the connected party is a conference bridge du
 ## Related Information
 
 - Technical Support & Documentation - Cisco Systems
+
+### Contributed by Cisco Engineers
+
+Aravind Krishna Murthy
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
 
 | Device type | Policy | Device Type | Policy | Result |
 |---|---|---|---|---|

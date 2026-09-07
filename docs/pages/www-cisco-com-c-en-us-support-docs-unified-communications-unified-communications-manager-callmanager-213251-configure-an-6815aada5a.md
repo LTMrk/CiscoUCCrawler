@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213251-configure-an-6815aada5a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213251-configure-and-troubleshoot-extension-mob.html
-retrieved_at: 2026-08-21T13:57:22.485419+00:00
+retrieved_at: 2026-09-07T19:41:56.129432+00:00
 ---
 
 Configure and Troubleshoot Extension Mobility for Log Analysis
@@ -985,13 +985,3 @@ https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/trouble/8_6_1/trbl861/t
 This document describes common errors along with their fix:
 
 https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/18772-extension-mobility.html
-
-### Contributed by Cisco Engineers
-
-Prerna Bagga
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Unified Communications Manager (CallManager)

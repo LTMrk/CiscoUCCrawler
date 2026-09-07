@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200477-urgent-prior-fdd7f9f90e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200477-Urgent-Priority-Configuration-on-Directo.html
-retrieved_at: 2026-08-21T13:55:26.274329+00:00
+retrieved_at: 2026-09-07T19:40:06.567427+00:00
 ---
 
 Urgent Priority Configuration on Directory Number
@@ -111,3 +111,13 @@ There is currently no verification procedure available for this configuration.
 ## Troubleshoot
 
 There is currently no specific troubleshooting information available for this configuration
+
+### Contributed by Cisco Engineers
+
+Somnath Gupta
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)

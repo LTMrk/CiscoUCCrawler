@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200181-configure-co-277ae19c8a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM.html
-retrieved_at: 2026-08-21T13:54:27.797688+00:00
+retrieved_at: 2026-09-07T19:39:12.322434+00:00
 ---
 
 Configure Conference Now Feature on CUCM 11
@@ -161,17 +161,3 @@ Video Player is loading.
 LIVE
 
 0:00
-
-### Contributed by Cisco Engineers
-
-Aravind Krishna Murthy
-
-Cisco TAC Engineer
-
-Shenbagarajan K
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Unified Communications Manager (CallManager)
