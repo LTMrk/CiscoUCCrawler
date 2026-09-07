@@ -1,27 +1,11 @@
 {
-  "run_at": "2026-09-07T10:38:11.317417+00:00",
+  "run_at": "2026-09-07T10:49:55.948137+00:00",
   "modo": "incremental",
-  "added": [
-    "help-webex-com-article-2r5gv7-4bea9d3c7c",
-    "help-webex-com-en-us-article-19qt9v-deployment-guide-for-webex-app-for-virtual-desktop-infrastructure-vdi-a14628d9b9",
-    "help-webex-com-en-us-article-2ktojz-a44274751d",
-    "help-webex-com-en-us-article-2yohov-b227f6e408",
-    "help-webex-com-en-us-article-9sjyh2-f9e73db3a6",
-    "help-webex-com-en-us-article-ftwt1b-37159b644d",
-    "help-webex-com-en-us-article-jgobq2-c45466a80d",
-    "help-webex-com-en-us-article-jja499-19d95f9c08",
-    "help-webex-com-en-us-article-n3os7m7-95d3757c69",
-    "help-webex-com-en-us-article-n5hs5mg-deployment-guide-for-webex-hybrid-data-security-b4c7e40304",
-    "help-webex-com-en-us-article-nec4qs7-1002cfa517",
-    "help-webex-com-en-us-article-nt815zm-82e618fff5",
-    "help-webex-com-en-us-article-uhgvzi-415668627a"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 84,
-  "redirected": [
-    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html -> https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html"
-  ],
-  "semillas_encoladas": 74
+  "unchanged_count": 100,
+  "redirected": [],
+  "semillas_encoladas": 20
 }

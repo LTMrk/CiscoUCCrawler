@@ -1,17 +1,7 @@
 {
-  "run_at": "2026-09-07T10:28:39.476660+00:00",
-  "added": [
-    "Webex Cloud Calling: GET /telephony/config/cxEssentials/agents/availableAgents"
-  ],
+  "run_at": "2026-09-07T10:40:57.927201+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-admin.json",
-    "webex-cloud-calling.json",
-    "webex-contact-center.json",
-    "webex-device.json",
-    "webex-meeting.json",
-    "webex-messaging.json",
-    "webex-ucm.json"
-  ]
+  "specs_cambiados": []
 }
