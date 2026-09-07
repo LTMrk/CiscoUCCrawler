@@ -1,13 +1,21 @@
 {
-  "run_at": "2026-09-07T15:31:17.175074+00:00",
+  "run_at": "2026-09-07T15:42:58.344198+00:00",
   "modo": "incremental",
-  "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-param-reference-for-jabber141-cjab-b-parameter-reference--64d4e664f3"
+  "added": [
+    "help-webex-com-en-us-article-1ois7l-your-cisco-room-phone-42297b8f2d",
+    "help-webex-com-en-us-article-6wcs7c-what-s-new-for-cisco-room-phone-9974b251ae",
+    "help-webex-com-en-us-article-p7ybst-install-your-cisco-room-phone-6fe94d6ce0"
   ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 99,
-  "redirected": [],
+  "unchanged_count": 68,
+  "redirected": [
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvk25632 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp53045 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp53311 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp64224 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvq00090 -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }
