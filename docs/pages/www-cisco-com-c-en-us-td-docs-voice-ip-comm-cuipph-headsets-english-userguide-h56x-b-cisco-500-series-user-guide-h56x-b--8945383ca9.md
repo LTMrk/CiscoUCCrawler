@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--8945383ca9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0100.html
-retrieved_at: 2026-08-21T12:40:33.358161+00:00
+retrieved_at: 2026-09-07T12:39:44.325204+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -544,6 +544,10 @@ Pull the old ear pad away from the speaker.
 Push the new ear pad toward the speaker.
 
 Rotate the new ear pad clockwise.
+
+### Customers Also Viewed
+
+- Cisco Headset Compatibility Guide --- Cisco IP Phone 7800 Series
 
 | Note | If the headset does not have the most recent software load, the headset will begin to update. |
 |---|---|

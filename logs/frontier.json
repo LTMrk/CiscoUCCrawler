@@ -1,461 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-5/p680_b_6800mpp-rn-1205.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-4sr1/p680_b_6800mpp-rn-1204sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-4/p680_b_6800mpp-rn-1204.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-3/p680_b_6800mpp-rn-1203.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-2/p680_b_6800mpp-rn-1202.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-1/p680_b_6800mpp-rn-1201.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/ReleaseNotes/cisco-mpp-6800-series-rn-11-3-7-sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-7/p680_b_6800mpp-rn-1137.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-6/p680_b_6800mpp-rn-1136.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-5/p680_b_6800mpp-rn-1135.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-4/p680_b_6800mpp-rn-1134.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3sr2/p680_b_6800mpp-rn-1133sr2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3sr1/p680_b_6800mpp-rn-1133sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3/p680_b_6800mpp-rn-1133.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-2/p680_b_6800mpp-rn-1132.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr3/p680_b_6800mpp-rn-1131sr3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr2/p680_b_6800mpp-rn-1131sr2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr1/p680_b_6800mpp-rn-1131sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1_6871/ip67_b_6871-rn-1131.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1/p680_b_6800mpp_rn-1131.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-4/ip66_b_release-notes-6861mpp-1124.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-3sr1/p680_b_6800-mpp-rn-1123sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-3/p680_b_11_2_3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-1/p680_b_rn-1121.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-2sr1/p680_b_release-notes-for-6800mpp-1112sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-2/p680_b_6800-mpp-rn-1112.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr3/p680_b_release-notes-for-6800mpp-1111sr3.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr2/p680_b_release-notes-for-6800mpp-1111sr2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr1/p680_b_release_notes_for_6800mpp_110101sr1.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1/releasenotes/p680_b_6800-mpp-rns-110101.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-0-2/releasenotes/p680_b_6800-mpp-rns-110002.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-3sr2/p680_b_6800mpp-rn-1203sr2.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11--3-1sr4/p680_b_6800mpp-rn-1131sr4.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-320/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_00.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0100.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_011.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/compatibility_matrix/n500_b_headset-serviceability-matrix.html",
-    "depth": 3
-  },
-  {
-    "url": "https://help.webex.com/article/f84hzbb",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/f84hzbb",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_00.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0101.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/tpcc_b_xml-command-ref.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6800_series/p680_b_accessibility-features-6800.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new.html",
-    "depth": 2
-  },
-  {
-    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-platform-emulator-4-2-2ape1/ta-p/4618767",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-mini/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-pro/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-pro-g2/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eq/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eqx/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-limited-edition/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/dx80/model.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-release-notes-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-command-reference-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-installation-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-installation-and-configuration-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-maintenance-guides-list.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series",
-    "depth": 1
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nu5w9x3/Webex-App-%7C-Schedule-a-Meeting-from-a-Space",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/oybc4fb",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/changelog",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/n0h4eh4/Webex-for-Cisco-BroadWorks-Solution-Guide",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/n51sjms",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/l2belbb/Bring-Your-Own-PSTN-Solution",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/2y8qmt/Partner-Administrator-Roles-for-Webex-for-BroadWorks-and-Wholesale-RTM",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/guides/webex-for-broadworks-developers-guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-subscribers",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/n0cswhcb/Configure-Advanced-Branding-Customizations",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-subscribers/update-a-broadworks-subscriber",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/ko/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/fr/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/pt/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/ja/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/es/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/de/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.webex.com/it/webexfromserviceproviders-downloads.html",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nv3xgxg",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/n6r7p3m",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/0cbcpl/Webex-for-Cisco-BroadWorks-Configuration-Guide",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-device-provisioning/remove-a-broadworks-workspace",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-subscribers/remove-a-broadworks-subscriber",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/people/delete-a-person",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/people/list-people",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-enterprises/update-directory-sync-for-a-broadworks-enterprise",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/organizations/delete-organization",
-    "depth": 2
-  },
-  {
-    "url": "http://admin.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/api/v1/broadworks-subscribers/provision-a-broadworks-subscriber",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/ntip1k0/Analytics-for-Webex-for-Wholesale-and-Webex-for-Broadworks-packages-in-Partner-Hub",
-    "depth": 2
-  },
-  {
-    "url": "https://status.webex.com",
-    "depth": 2
-  },
-  {
-    "url": "https://developer.webex.com/docs/integrations",
-    "depth": 2
-  },
-  {
-    "url": "https://bwks-uap.webex.com/assets/public/CombinedCertChain2023.txt",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-series-multiplatform-firmware/products-programming-reference-guides-list.html",
-    "depth": 3
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/n9hika3",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/mch9vl",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/nadqbhab",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/2rbeqt",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/npfm5s",
-    "depth": 2
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/risde3",
-    "depth": 2
-  },
-  {
-    "url": "https://activate.cisco.com/clc",
-    "depth": 2
-  },
-  {
-    "url": "https://activate.cisco.com/software/smart-licensing/alerts",
-    "depth": 2
-  },
-  {
-    "url": "https://software-stage.cisco.com/download/home",
-    "depth": 2
-  },
-  {
-    "url": "https://activate.cisco.com/software/swift/lrp",
-    "depth": 2
-  },
-  {
-    "url": "https://ccw-cstg.cisco.com/software/ea/agreements",
-    "depth": 2
-  },
-  {
     "url": "https://activate.cisco.com/software/pnp/devices",
     "depth": 2
   },
@@ -28340,10 +27884,6 @@
     "depth": 1
   },
   {
-    "url": "https://help.webex.com/en-us/all-products",
-    "depth": 0
-  },
-  {
     "url": "https://mycase.cloudapps.cisco.com/case",
     "depth": 3
   },
@@ -28409,6 +27949,414 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/tpcc_b_xml-command-ref.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/xml_ref_guide/tpcc_b_xml-command-ref.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6800_series/p680_b_accessibility-features-6800.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6800_series/p680_b_accessibility-features-6800.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_cisco-ip-phone-hardware.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_new-changed-info-8800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_provisioning-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_provisioning-methods-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_reference.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_scripting.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_access-control-config-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_tpcc-call-control-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_cisco-ip-phone-security.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_phone-feature-setup-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_phone-info-and-display-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_calling-features-config-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_audo-configuration-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_vido-configuration-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_voice-mail-configuration-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_directory-setup.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_key-expansion-module-8800_6800.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_ip-phone-installation-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_troubleshooting-mpp.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_monitoring-phone-systems-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_maintenance-1131.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_technical-details_deskphone-1201.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_b_8800-mpp-ag_new_appendix_010110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_00.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_0100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_0101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_0110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_0111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01000.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01001.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01100.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01101.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_m_6800-kem-1112.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01111.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_010000.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_010001.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_010010.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_appendix_010011.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_appendix_010110.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cdce/dx600/compliance/rcsi-cdce.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/endpoint/desk-series/compliance-safety-guide/RCSI-0430-book.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-installation-and-configuration-guides-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html",
+    "depth": 3
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11",
+    "depth": 3
+  },
+  {
+    "url": "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025/dx00_b_release-notes-dx-series-1025.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025es/dx00_b_release-notes-dx-series-1025es.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr/dx00_b_release-notes-dx-series-1025sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr4/dx00_b_release-notes-dx-series-1025sr4.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr3/dx00_b_release-notes-dx-series-1025sr3.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr2/dx00_b_release-notes-dx-series-1025sr2.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024/DX00_BK_RF53F53D_00_release-notes-dx-series-1024.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1024sr/DX00_BK_R548EF3A_00_release-notes-dx-series-1024sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023/DX00_BK_RB889E3E_00_release-notes-dx-series-1023.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023sr1/DX00_BK_R1761000_00_release-notes-dx-series-1023sr.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1022/DX00_BK_R515C747_00_release-notes-dx-series-1022.html",
+    "depth": 3
+  },
+  {
+    "url": "https://roomos.cisco.com",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-technical-reference-list.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.epub",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024.html",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022.html",
     "depth": 3
   }
 ]

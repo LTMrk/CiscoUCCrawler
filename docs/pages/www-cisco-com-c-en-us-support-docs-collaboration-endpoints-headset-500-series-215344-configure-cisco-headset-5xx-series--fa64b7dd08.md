@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--fa64b7dd08
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html
-retrieved_at: 2026-08-21T09:51:12.704231+00:00
+retrieved_at: 2026-09-07T12:39:48.593029+00:00
 ---
 
 Configure Cisco Headset 5xx Series
@@ -369,6 +369,18 @@ Visit Cisco IP Phone 8800 supported accessories for more information on the head
 20-Mar-2020
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Victor Gutierrez Luna
+
+### Customers Also Viewed
+
+- Cisco Headset Compatibility Guide --- Cisco Desk Phone 9800 Series
+
+### This Document Applies to These Products
+
+- Headset 500 Series
 
 | Headset Model | Connectors | 7800/8800 Support Non-USB | 7800/8800 Support USB | 7800/8800 Phone Firmware | Jabber Version | DX70/80 |
 |---|---|---|---|---|---|---|

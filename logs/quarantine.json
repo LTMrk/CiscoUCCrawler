@@ -7457,6 +7457,12 @@
     "ultima_vez": "2026-09-01T18:23:24.865856+00:00",
     "veces": 1
   },
+  "https://www.webex.com/de/webexfromserviceproviders-downloads.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-07T12:43:21.692956+00:00",
+    "veces": 1
+  },
   "https://www.webex.com/downloads.html": {
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
@@ -7497,6 +7503,24 @@
     "codigo": 403,
     "detalle": "Rechazado por el WAF de origen",
     "ultima_vez": "2026-08-25T04:34:57.515895+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/it/webexfromserviceproviders-downloads.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-07T12:43:25.928965+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/ja/webexfromserviceproviders-downloads.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-07T12:43:13.192458+00:00",
+    "veces": 1
+  },
+  "https://www.webex.com/ko/webexfromserviceproviders-downloads.html": {
+    "codigo": 403,
+    "detalle": "Rechazado por el WAF de origen",
+    "ultima_vez": "2026-09-07T12:43:00.828300+00:00",
     "veces": 1
   },
   "https://www.webex.com/learn/webinars-demos.html": {

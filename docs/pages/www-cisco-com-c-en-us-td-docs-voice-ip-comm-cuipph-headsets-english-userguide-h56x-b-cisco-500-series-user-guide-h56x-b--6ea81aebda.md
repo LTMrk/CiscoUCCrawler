@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--6ea81aebda
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_011.html
-retrieved_at: 2026-08-21T12:40:37.157685+00:00
+retrieved_at: 2026-09-07T12:39:52.684022+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -254,6 +254,10 @@ Optional: Click Test to hear the volume at its current setting.
 You can use the volume and mic sensitivity sliders to adjust your speaker volume and mic sensitivity.
 
 Click Ok .
+
+### Customers Also Viewed
+
+- Cisco Headset 500 Series User Guide --- Troubleshooting and Maintenance
 
 | Step 1 | Press Applications . |
 |---|---|

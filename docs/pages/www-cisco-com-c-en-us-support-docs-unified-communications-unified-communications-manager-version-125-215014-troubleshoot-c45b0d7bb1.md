@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html
-retrieved_at: 2026-08-21T23:10:59.221997+00:00
+retrieved_at: 2026-09-07T12:39:56.908719+00:00
 ---
 
 Troubleshoot Cisco Headset 5XX Series
@@ -549,6 +549,20 @@ Visit Cisco IP Phone 8800 supported accessories for more information on the head
 31-Oct-2019
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Victor Gutierrez Luna
+
+Cisco TAC Engineer
+
+### Customers Also Viewed
+
+- Collect Trace Data from a CUCM Cluster
+
+### This Document Applies to These Products
+
+- Unified Communications Manager Version 12.5
 
 | Revision | Publish Date | Comments |
 |---|---|---|

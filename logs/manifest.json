@@ -1449,6 +1449,42 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://activate.cisco.com/clc": {
+      "content_sha": null,
+      "doc_id": "activate-cisco-com-clc-05a40b74da",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:28.142129+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T12:44:28.142139+00:00",
+      "next_check": "2026-09-08T12:44:28.142139+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://activate.cisco.com/software/smart-licensing/alerts": {
+      "content_sha": null,
+      "doc_id": "activate-cisco-com-software-smart-licensing-alerts-5e7a18f41e",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:32.116919+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T12:44:32.116930+00:00",
+      "next_check": "2026-09-08T12:44:32.116930+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://activate.cisco.com/software/swift/lrp": {
+      "content_sha": null,
+      "doc_id": "activate-cisco-com-software-swift-lrp-620e1a891c",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:36.138177+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T12:44:36.138193+00:00",
+      "next_check": "2026-09-08T12:44:36.138193+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://activate.cisco.com:443/software/edos/callhome/rc": {
       "content_sha": null,
       "doc_id": "activate-cisco-com-443-software-edos-callhome-rc-376c17ca56",
@@ -22864,6 +22900,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bwks-uap.webex.com/assets/public/CombinedCertChain2023.txt": {
+      "content_sha": "5e3eae18e7b2d4f1107eed8b73de38107e12e77911178a090319678997f478fe",
+      "doc_id": "bwks-uap-webex-com-assets-public-combinedcertchain2023-txt-324dd419a8",
+      "etag": "\"b1ef95eb97dc9faaeca29aadab5fc80c\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:54.822932+00:00",
+      "last_changed": "2026-09-07T12:43:54.822932+00:00",
+      "last_modified": "Mon, 13 Jul 2026 08:59:47 GMT",
+      "last_seen": "2026-09-07T12:43:54.822932+00:00",
+      "next_check": "2026-09-08T12:43:54.822932+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://cart.webex.com/sign-up": {
       "content_sha": null,
       "doc_id": "cart-webex-com-sign-up-47512e7d9e",
@@ -26816,6 +26865,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/article/f84hzbb": {
+      "content_sha": "64d7cc714aca2705dd042279a70bd5303bfd56f62b6d2467d1cd62bb5131944b",
+      "doc_id": "help-webex-com-article-f84hzbb-ccbc9ab363",
+      "etag": "\"53aec-dYJVpZnTdui/52edXlYejet8sD0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:40:05.436939+00:00",
+      "last_changed": "2026-09-07T12:40:05.436939+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:40:05.436939+00:00",
+      "next_check": "2026-09-08T12:40:05.436939+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/article/lk7294": {
       "content_sha": "c3aa81652984a267fefb86b8b096947a8a2ff76069e8b16d2720b7f87cd8bd00",
       "doc_id": "help-webex-com-article-lk7294-6505c7ea8f",
@@ -26972,6 +27034,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/2rbeqt": {
+      "content_sha": "15851b5ff2f25f73bb304e3fe27364bfdd5b69d2bc0acb220ec36dc0df053089",
+      "doc_id": "help-webex-com-en-us-article-2rbeqt-16efabeaa2",
+      "etag": "\"387c4-avYLz3DXBaYVtCubnIFV6XrATQY\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:15.087316+00:00",
+      "last_changed": "2026-09-07T12:44:15.087316+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:15.087316+00:00",
+      "next_check": "2026-09-08T12:44:15.087316+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/2y8qmt/Partner-Administrator-Roles-for-Webex-for-BroadWorks-and-Wholesale-RTM": {
+      "content_sha": "80a6a0d93923530b6fa4ecd0861409127c3b0d719d3c9a46ccdc0f8bfe9a9c9e",
+      "doc_id": "help-webex-com-en-us-article-2y8qmt-partner-administrator-roles-for-webex-for-broadworks-and-wholesale-rtm-0c08cdfbc0",
+      "etag": "\"4f7bb-DZSk57AomgVjL56vQwQ22YP8tFU\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:49.768805+00:00",
+      "last_changed": "2026-09-07T12:42:49.768805+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:49.768805+00:00",
+      "next_check": "2026-09-08T12:42:49.768805+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/2yohov": {
       "content_sha": "f4dbc904772636e03a5aad4147c4fc5a7141afca056b8a00f0f6b0e081ba3d4d",
       "doc_id": "help-webex-com-en-us-article-2yohov-b227f6e408",
@@ -26982,6 +27070,19 @@
       "last_modified": null,
       "last_seen": "2026-09-07T10:37:21.144691+00:00",
       "next_check": "2026-09-08T10:37:21.144691+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series": {
+      "content_sha": "540fa2dcac64bb6accf1f7d62b9ddb7ac492419066904f3f2312c7a0c389e052",
+      "doc_id": "help-webex-com-en-us-article-32bbhq-get-started-with-the-cisco-headset-500-series-584010028c",
+      "etag": "\"4d240-A+Du2O2vsBXVjMSphKVyMAUxWHg\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:41:56.045128+00:00",
+      "last_changed": "2026-09-07T12:41:56.045128+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:41:56.045128+00:00",
+      "next_check": "2026-09-08T12:41:56.045128+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -27102,6 +27203,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/f84hzbb": {
+      "content_sha": "64d7cc714aca2705dd042279a70bd5303bfd56f62b6d2467d1cd62bb5131944b",
+      "doc_id": "help-webex-com-en-us-article-f84hzbb-d069f36ffc",
+      "etag": "\"53aec-yN1DvkhthWwKqVqhb/4AjBUdrDY\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:40:10.908135+00:00",
+      "last_changed": "2026-09-07T12:40:10.908135+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:40:10.908135+00:00",
+      "next_check": "2026-09-08T12:40:10.908135+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/ftwt1b": {
       "content_sha": "9ff05ea93d1d5696d751ade6752bc7632fa1e8a9fe90208908478386b317abe6",
       "doc_id": "help-webex-com-en-us-article-ftwt1b-37159b644d",
@@ -27154,6 +27268,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/mch9vl": {
+      "content_sha": "e4b36a80f3da70c2aa24cd145da4b23925335b162e2041ae14b65e2c3206756b",
+      "doc_id": "help-webex-com-en-us-article-mch9vl-d4e377c56d",
+      "etag": "\"26a3c-tSljBKLtxS+oWjOlx3vWNH9cFnA\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:06.154059+00:00",
+      "last_changed": "2026-09-07T12:44:06.154059+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:06.154059+00:00",
+      "next_check": "2026-09-08T12:44:06.154059+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/ml8pm7/Cisco-Desk-Camera-4K-release-notes": {
       "content_sha": "6e73b8edd3aa448521c3030c507dd073510b3ba303d0516448d4d6fdcddc5f5b",
       "doc_id": "help-webex-com-en-us-article-ml8pm7-cisco-desk-camera-4k-release-notes-3291ab76ca",
@@ -27177,6 +27304,32 @@
       "last_modified": null,
       "last_seen": "2026-09-01T21:39:15.274815+00:00",
       "next_check": "2026-09-02T21:39:15.274815+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n0cswhcb/Configure-Advanced-Branding-Customizations": {
+      "content_sha": "daea53d84d45c2f65592dfcc8c83c3027bf9d3d716e3c65c964e6f8b47987c7d",
+      "doc_id": "help-webex-com-en-us-article-n0cswhcb-configure-advanced-branding-customizations-94d4c64832",
+      "etag": "\"62250-Ics/XIiisG0Sf15I0OWMgFwxPds\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:54.236679+00:00",
+      "last_changed": "2026-09-07T12:42:54.236679+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:54.236679+00:00",
+      "next_check": "2026-09-08T12:42:54.236679+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n0h4eh4/Webex-for-Cisco-BroadWorks-Solution-Guide": {
+      "content_sha": "6c6a186866d48fce6e97389202e433c16e6496e2869696029ec5fdbc387063b3",
+      "doc_id": "help-webex-com-en-us-article-n0h4eh4-webex-for-cisco-broadworks-solution-guide-3e0393053e",
+      "etag": "\"2a0ddd-oGXE5qsRqmLrctwNoG2guw5CnNs\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:18.689812+00:00",
+      "last_changed": "2026-09-07T12:42:18.689812+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:18.689812+00:00",
+      "next_check": "2026-09-08T12:42:18.689812+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -27242,6 +27395,45 @@
       "last_modified": null,
       "last_seen": "2026-09-01T15:08:44.695022+00:00",
       "next_check": "2026-09-02T15:08:44.695022+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n6r7p3m": {
+      "content_sha": "4ab7f0ac4fdd98bc9243b2f9bb1be45b914d3f127d829feca8f3e90b08f95f4f",
+      "doc_id": "help-webex-com-en-us-article-n6r7p3m-fd7165a808",
+      "etag": "\"41286-QRjUiIGthOhWGftUh1AO79fPPLs\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:34.314491+00:00",
+      "last_changed": "2026-09-07T12:43:34.314491+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:43:34.314491+00:00",
+      "next_check": "2026-09-08T12:43:34.314491+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n9hika3": {
+      "content_sha": "a7890655b4201785a124c900416720763f1b4ec2a6cbfb3b9d4568ab57aa9f9b",
+      "doc_id": "help-webex-com-en-us-article-n9hika3-6a4c6bb6fa",
+      "etag": "\"2666d-RuiE+M/Nat+07ZhvqBHcz8REYZw\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:01.775498+00:00",
+      "last_changed": "2026-09-07T12:44:01.775498+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:01.775498+00:00",
+      "next_check": "2026-09-08T12:44:01.775498+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nadqbhab": {
+      "content_sha": "ad41f5ac8c67a88fd5f9444b781faf81372053f66bf0e4935a68657d3c04569a",
+      "doc_id": "help-webex-com-en-us-article-nadqbhab-799ca438ba",
+      "etag": "\"26a90-OWGIeY3ZHq6J+vAPd1HTOTbVxoc\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:10.460988+00:00",
+      "last_changed": "2026-09-07T12:44:10.460988+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:10.460988+00:00",
+      "next_check": "2026-09-08T12:44:10.460988+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -27401,6 +27593,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/npfm5s": {
+      "content_sha": "a89ead9a526c38ab2636e2b1bfcf65becfe9ef77a020c14109c03ce9fbfd30c6",
+      "doc_id": "help-webex-com-en-us-article-npfm5s-2db4a9caef",
+      "etag": "\"29753-nk57XmhmCvryMkvQZXLcKPzBRUY\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:18.938782+00:00",
+      "last_changed": "2026-09-07T12:44:18.938782+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:18.938782+00:00",
+      "next_check": "2026-09-08T12:44:18.938782+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nqvsbmq": {
       "content_sha": "0e207433e49c6d746ed8acc3333f5ae80b4538807b937d31d6a5a0daf4775160",
       "doc_id": "help-webex-com-en-us-article-nqvsbmq-c331e8194c",
@@ -27450,6 +27655,71 @@
       "last_modified": null,
       "last_seen": "2026-09-07T10:37:24.989723+00:00",
       "next_check": "2026-09-08T10:37:24.989723+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/ntip1k0/Analytics-for-Webex-for-Wholesale-and-Webex-for-Broadworks-packages-in-Partner-Hub": {
+      "content_sha": "832e3f4218625387dc3c0adba93fdf61277c27c3af3dab10245f92dcefe54dcc",
+      "doc_id": "help-webex-com-en-us-article-ntip1k0-analytics-for-webex-for-wholesale-and-webex-for-broadworks-packages-in-partner-hub-e3d96cbbc9",
+      "etag": "\"35ed9-ZDkx6TTg1BHpAgJQt8S+GKugvB4\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:48.554490+00:00",
+      "last_changed": "2026-09-07T12:43:48.554490+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:43:48.554490+00:00",
+      "next_check": "2026-09-08T12:43:48.554490+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nu5w9x3/Webex-App-%7C-Schedule-a-Meeting-from-a-Space": {
+      "content_sha": "28dd3b3b556fb45fc2c4bc9a78a1a6ee04b8e2ca92d77528b1891954251719c4",
+      "doc_id": "help-webex-com-en-us-article-nu5w9x3-webex-app-7c-schedule-a-meeting-from-a-space-4addc8c4c8",
+      "etag": "\"4d241-ngmegM6rdxGlVJmT1vqvpJEUM5E\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:00.135187+00:00",
+      "last_changed": "2026-09-07T12:42:00.135187+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:00.135187+00:00",
+      "next_check": "2026-09-08T12:42:00.135187+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning": {
+      "content_sha": "45dfb1c63506ce160f8c74ca859a051b03eea457dd135f46092b842cbcaf5fd4",
+      "doc_id": "help-webex-com-en-us-article-nuh0amab-list-of-time-zones-for-wholesale-provisioning-d27786c44d",
+      "etag": "\"31658-Ii8uomF3vGh2uSWcaLb2ZeX4nS0\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:44.200310+00:00",
+      "last_changed": "2026-09-07T12:43:44.200310+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:43:44.200310+00:00",
+      "next_check": "2026-09-08T12:43:44.200310+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings": {
+      "content_sha": "440d45a5855110865ee50921219e425b0dfcb879236562c8c5b340bbcafe943d",
+      "doc_id": "help-webex-com-en-us-article-nul0wut-webex-personal-rooms-in-webex-meetings-690478692e",
+      "etag": "\"28bcc-u0TBsQBDR+mQPhixxLJ+icAXl8Y\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:04.760977+00:00",
+      "last_changed": "2026-09-07T12:42:04.760977+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:04.760977+00:00",
+      "next_check": "2026-09-08T12:42:04.760977+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nv3xgxg": {
+      "content_sha": "18bee7a78d12333defed0bf212357ed36185b724f801df5ef20f933dab15d06b",
+      "doc_id": "help-webex-com-en-us-article-nv3xgxg-1b6a9047a1",
+      "etag": "\"5385a-uxQjBPB4MOk+yPjpP0mlXdsEkQY\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:30.216376+00:00",
+      "last_changed": "2026-09-07T12:43:30.216376+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:43:30.216376+00:00",
+      "next_check": "2026-09-08T12:43:30.216376+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -27515,6 +27785,32 @@
       "last_modified": null,
       "last_seen": "2026-09-01T20:26:28.773089+00:00",
       "next_check": "2026-09-02T20:26:28.773089+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/oybc4fb": {
+      "content_sha": "7a5470a04c2c9df464d78aa724dfe7a109df6b5ff5b6394f557e32368e728e81",
+      "doc_id": "help-webex-com-en-us-article-oybc4fb-faf0bad729",
+      "etag": "\"3cb43-MltFqLLUIkkAtctahEGYJUY/hcs\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:08.777804+00:00",
+      "last_changed": "2026-09-07T12:42:08.777804+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:42:08.777804+00:00",
+      "next_check": "2026-09-08T12:42:08.777804+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/risde3": {
+      "content_sha": "3e1066f6f1647b0dc8242a34faf6707bff1d66a3a44902f15d5ca1a1bb1761f3",
+      "doc_id": "help-webex-com-en-us-article-risde3-77f0fb37b0",
+      "etag": "\"6e3c7-G5DGavvU/SNYh/utBO51byJrWnA\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:44:24.126534+00:00",
+      "last_changed": "2026-09-07T12:44:24.126534+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-07T12:44:24.126534+00:00",
+      "next_check": "2026-09-08T12:44:24.126534+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -31293,6 +31589,19 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://status.webex.com": {
+      "content_sha": "8008b15c97383c534c59b6a53135c579fca62ecebc0b7043476680fde6314b95",
+      "doc_id": "status-webex-com-34282c56ab",
+      "etag": "\"dc559db287d223e5378689f415cfbbe3\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:51.832866+00:00",
+      "last_changed": "2026-09-07T12:43:51.832866+00:00",
+      "last_modified": "Fri, 08 May 2026 10:05:26 GMT",
+      "last_seen": "2026-09-07T12:43:51.832866+00:00",
+      "next_check": "2026-09-08T12:43:51.832866+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://trust.cisco.com": {
       "content_sha": null,
       "doc_id": "trust-cisco-com-37ae6f6f35",
@@ -32774,23 +33083,23 @@
       "first_seen": "2026-08-21T12:45:00.015018+00:00",
       "last_changed": "2026-08-21T12:45:00.015018+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:03:22.534695+00:00",
-      "next_check": "2026-08-26T05:03:22.534695+00:00",
+      "last_seen": "2026-09-07T12:41:43.429399+00:00",
+      "next_check": "2026-09-11T12:41:43.429399+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html": {
-      "content_sha": "eb2c9d4e703b3ce903634fa5d1e67bc4fce5a1f9d4c20fe8487d9b72217e1616",
+      "content_sha": "32667c7596739512023d146c4d8601816889a50cd1fc1f9b5cb1ab153f0affb1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--fa64b7dd08",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T09:51:12.704129+00:00",
-      "last_changed": "2026-08-21T09:51:12.704129+00:00",
+      "last_changed": "2026-09-07T12:39:48.592929+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:03:26.842681+00:00",
-      "next_check": "2026-08-26T05:03:26.842681+00:00",
+      "last_seen": "2026-09-07T12:39:48.592929+00:00",
+      "next_check": "2026-09-08T12:39:48.592929+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200850-Troubleshoot-Cisco-Phone-7800-8800-Serie.html": {
       "content_sha": "6a77173ec63183de690686b1db2c22f7c2557ea4ce9f4183375fc80651c79b99",
@@ -39675,17 +39984,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html": {
-      "content_sha": "1596504fb4fd87089775c5aa255a35c18f51ffc24fe00178aa9d7cb61b35f0c2",
+      "content_sha": "c6ee079d2eef2c459069275d2e5169c265c1d2e5db909f7df6a181783b7b7969",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T23:10:59.221810+00:00",
-      "last_changed": "2026-08-21T23:10:59.221810+00:00",
+      "last_changed": "2026-09-07T12:39:56.908627+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:29:35.053051+00:00",
-      "next_check": "2026-08-26T05:29:35.053051+00:00",
+      "last_seen": "2026-09-07T12:39:56.908627+00:00",
+      "next_check": "2026-09-08T12:39:56.908627+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.html": {
       "content_sha": "1ee5a165f6c489e2da576c2c5abe4fd38a049ffaa30119cc3f74e8b0c090003b",
@@ -117745,10 +118054,10 @@
       "first_seen": "2026-08-17T01:06:31.809985+00:00",
       "last_changed": "2026-08-17T01:06:31.809985+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:07:09.698701+00:00",
-      "next_check": "2026-08-28T13:07:09.698701+00:00",
+      "last_seen": "2026-09-07T12:40:35.553179+00:00",
+      "next_check": "2026-09-15T12:40:35.553179+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6901-6911/P691_BK_A900284C_00_accessibility-features-6901-6911.html": {
       "content_sha": "a14fc89a2983dc9108923cc6977f0ca4baa2df951ba2bfdd8f380376744f8e2a",
@@ -118144,10 +118453,10 @@
       "first_seen": "2026-08-21T12:41:36.163949+00:00",
       "last_changed": "2026-08-21T12:41:36.163949+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:09:03.272901+00:00",
-      "next_check": "2026-08-26T13:09:03.272901+00:00",
+      "last_seen": "2026-09-07T12:40:00.692125+00:00",
+      "next_check": "2026-09-11T12:40:00.692125+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide.epub": {
       "content_sha": null,
@@ -118193,23 +118502,23 @@
       "first_seen": "2026-08-21T12:40:28.910761+00:00",
       "last_changed": "2026-08-21T12:40:28.910761+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:09:07.890924+00:00",
-      "next_check": "2026-08-26T13:09:07.890924+00:00",
+      "last_seen": "2026-09-07T12:39:39.922696+00:00",
+      "next_check": "2026-09-11T12:39:39.922696+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0100.html": {
-      "content_sha": "ae9a4555a36b10d3c42eb911607831d287a5daa170e9181d81c13a6459b20e27",
+      "content_sha": "6b98f5bc454e56f811cf1be57fd8cabf345990455f08610c707a5dbad9ebf476",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--8945383ca9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:40:33.358056+00:00",
-      "last_changed": "2026-08-21T12:40:33.358056+00:00",
+      "last_changed": "2026-09-07T12:39:44.325103+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:09:11.979893+00:00",
-      "next_check": "2026-08-26T13:09:11.979893+00:00",
+      "last_seen": "2026-09-07T12:39:44.325103+00:00",
+      "next_check": "2026-09-08T12:39:44.325103+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0101.html": {
       "content_sha": "1a2f2cba8186da3e5fef68481f8c1017a89581ab96533333a91cc8eb7635a0b7",
@@ -118225,17 +118534,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_011.html": {
-      "content_sha": "c44c4f4b465d5844d087540303abf3b96a352f8a0a2d39495e7f15b7eedc6a5e",
+      "content_sha": "ceec0b2ddac7d550b977ce5354232564b8617f81d9c9d0f72eef6d308846b171",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--6ea81aebda",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:40:37.157576+00:00",
-      "last_changed": "2026-08-21T12:40:37.157576+00:00",
+      "last_changed": "2026-09-07T12:39:52.683927+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:09:21.107531+00:00",
-      "next_check": "2026-08-26T13:09:21.107531+00:00",
+      "last_seen": "2026-09-07T12:39:52.683927+00:00",
+      "next_check": "2026-09-08T12:39:52.683927+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0110.html": {
       "content_sha": "2fde0fcd07b911fb1618d22d0c558e7e47796b64b03407afb18e0a05159dba98",
@@ -118640,10 +118949,10 @@
       "first_seen": "2026-08-17T01:06:35.435753+00:00",
       "last_changed": "2026-08-17T01:06:35.435753+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:11:21.918639+00:00",
-      "next_check": "2026-08-28T13:11:21.918639+00:00",
+      "last_seen": "2026-09-07T12:40:39.252861+00:00",
+      "next_check": "2026-09-15T12:40:39.252861+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0101.html": {
       "content_sha": "e66abd3f89a9dfddade9ae8435a44867afe4643d9cd4a89f4f6bc3b32667c6fe",
@@ -118757,23 +119066,23 @@
       "first_seen": "2026-08-17T01:06:39.888916+00:00",
       "last_changed": "2026-08-17T01:06:39.888916+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:14:37.735051+00:00",
-      "next_check": "2026-08-28T13:14:37.735051+00:00",
+      "last_seen": "2026-09-07T12:40:43.398403+00:00",
+      "next_check": "2026-09-15T12:40:43.398403+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_00.html": {
-      "content_sha": "4c0d17bb7ec11788f6dc7a2af838a13212aa133a72bd4b3852c6d319e57983e6",
+      "content_sha": "802201f1380c029122b11a5cc35170b7f8484b68d0a09081a3acee84583505a7",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-aeab858b62",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T01:02:59.369255+00:00",
-      "last_changed": "2026-08-17T01:02:59.369255+00:00",
+      "last_changed": "2026-09-07T12:40:16.936701+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:14:44.849351+00:00",
-      "next_check": "2026-08-28T13:14:44.849351+00:00",
+      "last_seen": "2026-09-07T12:40:16.936701+00:00",
+      "next_check": "2026-09-08T12:40:16.936701+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_01.html": {
       "content_sha": "77152554979aa3691f553c35650338e204c9149f780b3bed3f4a715ba8dc3c2f",
@@ -118815,17 +119124,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0101.html": {
-      "content_sha": "277694885c4e21e9f00777879a1173deb78dcf53e6e8a82a8d211db1cc227df0",
+      "content_sha": "27ced18ee5cff6d71ac0b67d2a943da2eb03bfe9b612a24d53c30270456cd2b0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-969a81e1d5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T01:05:16.212622+00:00",
-      "last_changed": "2026-08-17T01:05:16.212622+00:00",
+      "last_changed": "2026-09-07T12:40:22.708009+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:04.700091+00:00",
-      "next_check": "2026-08-28T13:15:04.700091+00:00",
+      "last_seen": "2026-09-07T12:40:22.708009+00:00",
+      "next_check": "2026-09-08T12:40:22.708009+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_011.html": {
       "content_sha": "87a886cfbaa79af76dfb3408d665e7dea7fc66c3cc9adf58a978d918b7f1d86d",
@@ -118874,21 +119183,21 @@
       "first_seen": "2026-08-21T23:14:57.708734+00:00",
       "last_changed": "2026-08-21T23:14:57.708734+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:22.964711+00:00",
-      "next_check": "2026-08-26T13:15:22.964711+00:00",
+      "last_seen": "2026-09-07T12:39:30.933913+00:00",
+      "next_check": "2026-09-11T12:39:30.933913+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-0-2/releasenotes/p680_b_6800-mpp-rns-110002.html": {
-      "content_sha": "835eb7de1463d46462bc7a8d2be7b575cbda116e2a7f4517d697f6c9aad113b9",
+      "content_sha": "4cc91bff9ef8cd45a05644b2607c3ac6b47be760f5b8ad6941097abc5dfd6c9b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-0-2-releasenotes-p680-b-6800-mpp-rns-110002-html-4e1068e70f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T23:14:53.660656+00:00",
-      "last_changed": "2026-08-24T13:15:27.548167+00:00",
+      "last_changed": "2026-09-07T12:39:22.560707+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:27.548167+00:00",
-      "next_check": "2026-08-25T13:15:27.548167+00:00",
+      "last_seen": "2026-09-07T12:39:22.560707+00:00",
+      "next_check": "2026-09-08T12:39:22.560707+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -118900,10 +119209,10 @@
       "first_seen": "2026-08-21T23:14:50.359973+00:00",
       "last_changed": "2026-08-21T23:14:50.359973+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:31.354946+00:00",
-      "next_check": "2026-08-26T13:15:31.354946+00:00",
+      "last_seen": "2026-09-07T12:39:18.461138+00:00",
+      "next_check": "2026-09-11T12:39:18.461138+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr1/p680_b_release_notes_for_6800mpp_110101sr1.html": {
       "content_sha": "ef8950cd6a7a75d0af2eaee70dce11ff92a9488645477c8b5a6fd9a615092885",
@@ -118913,10 +119222,10 @@
       "first_seen": "2026-08-21T23:14:41.835719+00:00",
       "last_changed": "2026-08-21T23:14:41.835719+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:35.355778+00:00",
-      "next_check": "2026-08-26T13:15:35.355778+00:00",
+      "last_seen": "2026-09-07T12:39:14.387169+00:00",
+      "next_check": "2026-09-11T12:39:14.387169+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr2/p680_b_release-notes-for-6800mpp-1111sr2.html": {
       "content_sha": "6aa737caa0b160d78b83c7e37ad0247d7945df5a01b07ad900221dc5fb01a5be",
@@ -118926,10 +119235,10 @@
       "first_seen": "2026-08-21T23:14:37.573026+00:00",
       "last_changed": "2026-08-21T23:14:37.573026+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:39.522446+00:00",
-      "next_check": "2026-08-26T13:15:39.522446+00:00",
+      "last_seen": "2026-09-07T12:39:10.539439+00:00",
+      "next_check": "2026-09-11T12:39:10.539439+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-1sr3/p680_b_release-notes-for-6800mpp-1111sr3.html": {
       "content_sha": "4aaf2fd67c7370c41a47b094ce0e91420fedf4c169edb56d23baba3878093223",
@@ -118939,10 +119248,10 @@
       "first_seen": "2026-08-21T23:14:33.500185+00:00",
       "last_changed": "2026-08-21T23:14:33.500185+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:45.008605+00:00",
-      "next_check": "2026-08-26T13:15:45.008605+00:00",
+      "last_seen": "2026-09-07T12:39:06.141205+00:00",
+      "next_check": "2026-09-11T12:39:06.141205+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-2/p680_b_6800-mpp-rn-1112.html": {
       "content_sha": "86246440f343628ea4dc978a7eb72030536c07fcaf8c60353c32806c70abad4e",
@@ -118952,10 +119261,10 @@
       "first_seen": "2026-08-21T23:14:29.337400+00:00",
       "last_changed": "2026-08-21T23:14:29.337400+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:48.904120+00:00",
-      "next_check": "2026-08-26T13:15:48.904120+00:00",
+      "last_seen": "2026-09-07T12:39:02.061025+00:00",
+      "next_check": "2026-09-11T12:39:02.061025+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-1-2sr1/p680_b_release-notes-for-6800mpp-1112sr1.html": {
       "content_sha": "ab8f7ee3f4a6003177604fc807801a3d8333c11878a29d35abead17c3d43183c",
@@ -118965,10 +119274,10 @@
       "first_seen": "2026-08-21T23:14:25.140186+00:00",
       "last_changed": "2026-08-21T23:14:25.140186+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:52.975164+00:00",
-      "next_check": "2026-08-26T13:15:52.975164+00:00",
+      "last_seen": "2026-09-07T12:38:57.789713+00:00",
+      "next_check": "2026-09-11T12:38:57.789713+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-1/p680_b_rn-1121.html": {
       "content_sha": "c7c7b4e8348ad4d9c4ef479f1c275e48bcd4ee161d52d618031759567ce03466",
@@ -118978,10 +119287,10 @@
       "first_seen": "2026-08-21T23:14:21.096395+00:00",
       "last_changed": "2026-08-21T23:14:21.096395+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:15:56.916759+00:00",
-      "next_check": "2026-08-26T13:15:56.916759+00:00",
+      "last_seen": "2026-09-07T12:38:53.814108+00:00",
+      "next_check": "2026-09-11T12:38:53.814108+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-3/p680_b_11_2_3.html": {
       "content_sha": "cc7463e87ccf4b010db924a85554b4f913a9ec71c734413368c001e59ae9cd52",
@@ -118991,10 +119300,10 @@
       "first_seen": "2026-08-21T23:14:16.778939+00:00",
       "last_changed": "2026-08-21T23:14:16.778939+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:00.849651+00:00",
-      "next_check": "2026-08-26T13:16:00.849651+00:00",
+      "last_seen": "2026-09-07T12:38:49.744773+00:00",
+      "next_check": "2026-09-11T12:38:49.744773+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-3sr1/p680_b_6800-mpp-rn-1123sr1.html": {
       "content_sha": "7deb47253050889d91ed07196ce5a28956ea9338c89abc5b2ca173f838b37b63",
@@ -119004,10 +119313,10 @@
       "first_seen": "2026-08-21T23:14:12.325865+00:00",
       "last_changed": "2026-08-21T23:14:12.325865+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:05.021305+00:00",
-      "next_check": "2026-08-26T13:16:05.021305+00:00",
+      "last_seen": "2026-09-07T12:38:45.344428+00:00",
+      "next_check": "2026-09-11T12:38:45.344428+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-4/ip66_b_release-notes-6861mpp-1124.html": {
       "content_sha": "3087b701f5eea5aeaa66e1e0844cf43c01efab572945c120001c252ba6093b16",
@@ -119017,10 +119326,10 @@
       "first_seen": "2026-08-21T23:14:08.321690+00:00",
       "last_changed": "2026-08-21T23:14:08.321690+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:09.217269+00:00",
-      "next_check": "2026-08-26T13:16:09.217269+00:00",
+      "last_seen": "2026-09-07T12:38:41.165355+00:00",
+      "next_check": "2026-09-11T12:38:41.165355+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1/p680_b_6800mpp_rn-1131.html": {
       "content_sha": "a913df4bb0f899e6172168627dfb6ee59d09eb822986dcb5266bacf0aba02ed6",
@@ -119030,10 +119339,10 @@
       "first_seen": "2026-08-21T23:14:04.370692+00:00",
       "last_changed": "2026-08-21T23:14:04.370692+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:16.015217+00:00",
-      "next_check": "2026-08-26T13:16:16.015217+00:00",
+      "last_seen": "2026-09-07T12:38:36.952818+00:00",
+      "next_check": "2026-09-11T12:38:36.952818+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1_6871/ip67_b_6871-rn-1131.html": {
       "content_sha": "497fd94389177948419f0960b6e1544eefd9a603037b440f17633b9732998e85",
@@ -119043,10 +119352,10 @@
       "first_seen": "2026-08-21T23:13:59.932314+00:00",
       "last_changed": "2026-08-21T23:13:59.932314+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:20.233540+00:00",
-      "next_check": "2026-08-26T13:16:20.233540+00:00",
+      "last_seen": "2026-09-07T12:38:32.712106+00:00",
+      "next_check": "2026-09-11T12:38:32.712106+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr1/p680_b_6800mpp-rn-1131sr1.html": {
       "content_sha": "d3af22a399a3de800fec03e16b55419d684334460398cbe5ce18aa64ec667f1e",
@@ -119056,10 +119365,10 @@
       "first_seen": "2026-08-21T23:13:55.628268+00:00",
       "last_changed": "2026-08-21T23:13:55.628268+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:24.595390+00:00",
-      "next_check": "2026-08-26T13:16:24.595390+00:00",
+      "last_seen": "2026-09-07T12:38:28.331057+00:00",
+      "next_check": "2026-09-11T12:38:28.331057+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr2/p680_b_6800mpp-rn-1131sr2.html": {
       "content_sha": "90949361dffcee19a63aabc982548cbc533b2308a35aceab39409069528afb90",
@@ -119069,10 +119378,10 @@
       "first_seen": "2026-08-21T23:13:51.650068+00:00",
       "last_changed": "2026-08-21T23:13:51.650068+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:29.378498+00:00",
-      "next_check": "2026-08-26T13:16:29.378498+00:00",
+      "last_seen": "2026-09-07T12:38:24.139466+00:00",
+      "next_check": "2026-09-11T12:38:24.139466+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-1sr3/p680_b_6800mpp-rn-1131sr3.html": {
       "content_sha": "16a9325bcfe026c9566fb07d307d4b270886a7eec30da83d26a6bf1127b10633",
@@ -119082,10 +119391,10 @@
       "first_seen": "2026-08-21T23:13:47.462866+00:00",
       "last_changed": "2026-08-21T23:13:47.462866+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:34.502492+00:00",
-      "next_check": "2026-08-26T13:16:34.502492+00:00",
+      "last_seen": "2026-09-07T12:38:20.027124+00:00",
+      "next_check": "2026-09-11T12:38:20.027124+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-2/p680_b_6800mpp-rn-1132.html": {
       "content_sha": "ba28759fba5a3fe0ef07e3d1fadd43c71c18e73e33304bee7cb0ef23882a7dff",
@@ -119095,10 +119404,10 @@
       "first_seen": "2026-08-21T23:13:43.522381+00:00",
       "last_changed": "2026-08-21T23:13:43.522381+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:38.738177+00:00",
-      "next_check": "2026-08-26T13:16:38.738177+00:00",
+      "last_seen": "2026-09-07T12:38:16.050417+00:00",
+      "next_check": "2026-09-11T12:38:16.050417+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3/p680_b_6800mpp-rn-1133.html": {
       "content_sha": "c73bf56f068ab56625840d0b33e695a3f8d9d154fe7645a7349682cb9934be47",
@@ -119108,10 +119417,10 @@
       "first_seen": "2026-08-21T23:13:39.163810+00:00",
       "last_changed": "2026-08-21T23:13:39.163810+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:44.642204+00:00",
-      "next_check": "2026-08-26T13:16:44.642204+00:00",
+      "last_seen": "2026-09-07T12:38:11.859673+00:00",
+      "next_check": "2026-09-11T12:38:11.859673+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3sr1/p680_b_6800mpp-rn-1133sr1.html": {
       "content_sha": "34122e614612c3e9f5779b251830489594d638ee6d5040b28c1d3b10f6d2a3af",
@@ -119121,10 +119430,10 @@
       "first_seen": "2026-08-21T23:13:35.052054+00:00",
       "last_changed": "2026-08-21T23:13:35.052054+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:50.538592+00:00",
-      "next_check": "2026-08-26T13:16:50.538592+00:00",
+      "last_seen": "2026-09-07T12:38:07.209215+00:00",
+      "next_check": "2026-09-11T12:38:07.209215+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-3sr2/p680_b_6800mpp-rn-1133sr2.html": {
       "content_sha": "31be36170f2f6f91e4a709433ea2122b6b545789d006077cc2c47b4b675da285",
@@ -119134,10 +119443,10 @@
       "first_seen": "2026-08-21T23:13:30.551259+00:00",
       "last_changed": "2026-08-21T23:13:30.551259+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:54.425451+00:00",
-      "next_check": "2026-08-26T13:16:54.425451+00:00",
+      "last_seen": "2026-09-07T12:38:02.947969+00:00",
+      "next_check": "2026-09-11T12:38:02.947969+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-4/p680_b_6800mpp-rn-1134.html": {
       "content_sha": "d6c070101b7c38c1b83392f65f797f0db1a362cf22fa5a41687db10642c577a8",
@@ -119147,10 +119456,10 @@
       "first_seen": "2026-08-21T23:13:26.631005+00:00",
       "last_changed": "2026-08-21T23:13:26.631005+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:16:58.373356+00:00",
-      "next_check": "2026-08-26T13:16:58.373356+00:00",
+      "last_seen": "2026-09-07T12:37:58.680325+00:00",
+      "next_check": "2026-09-11T12:37:58.680325+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-5/p680_b_6800mpp-rn-1135.html": {
       "content_sha": "29736abe8bb2d1ce9c5711a6fbcb2114637c3d40c7bf937d5d276135d46190f9",
@@ -119160,10 +119469,10 @@
       "first_seen": "2026-08-21T23:13:22.632296+00:00",
       "last_changed": "2026-08-21T23:13:22.632296+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:03.341855+00:00",
-      "next_check": "2026-08-26T13:17:03.341855+00:00",
+      "last_seen": "2026-09-07T12:37:55.064155+00:00",
+      "next_check": "2026-09-11T12:37:55.064155+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-6/p680_b_6800mpp-rn-1136.html": {
       "content_sha": "71cfdd82341f55fcd00afafa6286146292515c14c631892b3c3f424fd9bde528",
@@ -119173,10 +119482,10 @@
       "first_seen": "2026-08-21T23:11:11.468786+00:00",
       "last_changed": "2026-08-21T23:11:11.468786+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:07.528559+00:00",
-      "next_check": "2026-08-26T13:17:07.528559+00:00",
+      "last_seen": "2026-09-07T12:37:50.569261+00:00",
+      "next_check": "2026-09-11T12:37:50.569261+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-3-7/p680_b_6800mpp-rn-1137.html": {
       "content_sha": "3986e33f3ad28a19b64cb2f1ec2d50d41e690df56fc6ed2c5644ba9165cfb394",
@@ -119186,10 +119495,10 @@
       "first_seen": "2026-08-21T23:11:07.436629+00:00",
       "last_changed": "2026-08-21T23:11:07.436629+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:12.674113+00:00",
-      "next_check": "2026-08-26T13:17:12.674113+00:00",
+      "last_seen": "2026-09-07T12:37:46.621139+00:00",
+      "next_check": "2026-09-11T12:37:46.621139+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-1/p680_b_6800mpp-rn-1201.html": {
       "content_sha": "7370bc2e63e2c6152de5e1541f070b5e38c304056ead9b42a4bda66721967ebe",
@@ -119199,10 +119508,10 @@
       "first_seen": "2026-08-17T01:06:18.939145+00:00",
       "last_changed": "2026-08-17T01:06:18.939145+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:18.135396+00:00",
-      "next_check": "2026-08-28T13:17:18.135396+00:00",
+      "last_seen": "2026-09-07T12:37:37.698300+00:00",
+      "next_check": "2026-09-15T12:37:37.698300+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-2/p680_b_6800mpp-rn-1202.html": {
       "content_sha": "08c47aee6850b01c4f2f40bc307c686e0a297188adbcf999a6ee8a10155d6f19",
@@ -119212,10 +119521,10 @@
       "first_seen": "2026-08-17T01:06:15.211079+00:00",
       "last_changed": "2026-08-17T01:06:15.211079+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:21.879783+00:00",
-      "next_check": "2026-08-28T13:17:21.879783+00:00",
+      "last_seen": "2026-09-07T12:37:33.720781+00:00",
+      "next_check": "2026-09-15T12:37:33.720781+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-3/p680_b_6800mpp-rn-1203.html": {
       "content_sha": "f782ed9f497fff6a79af51bc90788a80495a4057777bde1bf40b7dc47982052c",
@@ -119225,10 +119534,10 @@
       "first_seen": "2026-08-17T01:06:10.523209+00:00",
       "last_changed": "2026-08-17T01:06:10.523209+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:26.162426+00:00",
-      "next_check": "2026-08-28T13:17:26.162426+00:00",
+      "last_seen": "2026-09-07T12:37:29.155917+00:00",
+      "next_check": "2026-09-15T12:37:29.155917+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-3sr2/p680_b_6800mpp-rn-1203sr2.html": {
       "content_sha": "10418814ad3dc139793cc63f372c1a8f627a01f8123674b14cef61d03c5077c3",
@@ -119238,10 +119547,10 @@
       "first_seen": "2026-08-17T01:05:49.363517+00:00",
       "last_changed": "2026-08-17T01:05:49.363517+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:29.966385+00:00",
-      "next_check": "2026-08-28T13:17:29.966385+00:00",
+      "last_seen": "2026-09-07T12:39:26.613182+00:00",
+      "next_check": "2026-09-15T12:39:26.613182+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-4/p680_b_6800mpp-rn-1204.html": {
       "content_sha": "0558fa77a581e42871093fb002f0aa4e5bd454de4056b2e04cb3ab8e7e5d2599",
@@ -119251,10 +119560,10 @@
       "first_seen": "2026-08-17T01:06:06.605994+00:00",
       "last_changed": "2026-08-17T01:06:06.605994+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:36.232982+00:00",
-      "next_check": "2026-08-28T13:17:36.232982+00:00",
+      "last_seen": "2026-09-07T12:37:24.864115+00:00",
+      "next_check": "2026-09-15T12:37:24.864115+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-4sr1/p680_b_6800mpp-rn-1204sr1.html": {
       "content_sha": "7ff782cf4cb2675d762dd033321d3ea1a290f1a175a81111f637555856e43a2f",
@@ -119264,10 +119573,10 @@
       "first_seen": "2026-08-17T01:06:02.394727+00:00",
       "last_changed": "2026-08-17T01:06:02.394727+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:39.722560+00:00",
-      "next_check": "2026-08-28T13:17:39.722560+00:00",
+      "last_seen": "2026-09-07T12:37:20.651167+00:00",
+      "next_check": "2026-09-15T12:37:20.651167+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-5/p680_b_6800mpp-rn-1205.html": {
       "content_sha": "cb214a49316083ba5cec1653a0bca16d8e32c6d5ba01a9d8f03c0f8adbe199ce",
@@ -119277,10 +119586,10 @@
       "first_seen": "2026-08-17T01:05:57.985658+00:00",
       "last_changed": "2026-08-17T01:05:57.985658+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:17:45.658027+00:00",
-      "next_check": "2026-08-28T13:17:45.658027+00:00",
+      "last_seen": "2026-09-07T12:37:16.402570+00:00",
+      "next_check": "2026-09-15T12:37:16.402570+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/12-0-5sr1/p680_b_6800mpp-rn-1205sr1.html": {
       "content_sha": "499bf3f40de170278d7948c0ac5708dd4ae6c2b53f144918e43d9d1c5f634da8",
@@ -119381,10 +119690,10 @@
       "first_seen": "2026-08-17T01:06:22.906006+00:00",
       "last_changed": "2026-08-17T01:06:22.906006+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:18:20.070043+00:00",
-      "next_check": "2026-08-28T13:18:20.070043+00:00",
+      "last_seen": "2026-09-07T12:37:42.647414+00:00",
+      "next_check": "2026-09-15T12:37:42.647414+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800-mpp-ag-11_chapter_00.html": {
       "content_sha": "5bbfeb8a9c12eda97c6662eacf20ae1a7e1610ffe6a72ce786a27984a35a5584",
@@ -123657,10 +123966,10 @@
       "first_seen": "2026-08-17T01:06:58.020053+00:00",
       "last_changed": "2026-08-17T01:06:58.020053+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T13:48:22.796273+00:00",
-      "next_check": "2026-08-28T13:48:22.796273+00:00",
+      "last_seen": "2026-09-07T12:40:31.589367+00:00",
+      "next_check": "2026-09-15T12:40:31.589367+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Webex/Conference/firmware/1-1-0/releasenotes/cswb_b_cisco-webex-room-phone-release.html": {
       "content_sha": null,
@@ -195242,6 +195551,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/de/webexfromserviceproviders-downloads.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-de-webexfromserviceproviders-downloads-html-94233b8188",
+      "fail_count": 1,
+      "first_seen": "2026-09-07T12:43:21.693003+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-07T12:43:21.693010+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/dg/maximize-satisfaction-minimize-costs-healthcare.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-dg-maximize-satisfaction-minimize-costs-healthcare-html-f8cc0359c2",
@@ -195289,6 +195608,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/es/webexfromserviceproviders-downloads.html": {
+      "content_sha": "6407413e67f0fd4789a285e03df87cc11668ba03d434fc0806f960b12b72de0f",
+      "doc_id": "www-webex-com-es-webexfromserviceproviders-downloads-html-1bc640b083",
+      "etag": "W/\"20a54-65ad2fff22bef-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:18.292438+00:00",
+      "last_changed": "2026-09-07T12:43:18.292438+00:00",
+      "last_modified": "Sun, 06 Sep 2026 16:29:03 GMT",
+      "last_seen": "2026-09-07T12:43:18.292438+00:00",
+      "next_check": "2026-09-08T12:43:18.292438+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/fr/index.html": {
       "content_sha": "f4b07afd3a30e14d877ea934e1c62a2819eb17399308f5309af4ca6851ee2212",
       "doc_id": "www-webex-com-fr-index-html-2452734c76",
@@ -195299,6 +195631,19 @@
       "last_modified": "Tue, 01 Sep 2026 07:42:41 GMT",
       "last_seen": "2026-09-01T18:23:45.289435+00:00",
       "next_check": "2026-09-02T18:23:45.289435+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/fr/webexfromserviceproviders-downloads.html": {
+      "content_sha": "3d2c30e04c63f185a82859134138aae8572ae1d4800b1d806a86194075e565b2",
+      "doc_id": "www-webex-com-fr-webexfromserviceproviders-downloads-html-9252d6aa9a",
+      "etag": "W/\"20b23-65ae3f57c4083-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:05.599811+00:00",
+      "last_changed": "2026-09-07T12:43:05.599811+00:00",
+      "last_modified": "Mon, 07 Sep 2026 12:43:02 GMT",
+      "last_seen": "2026-09-07T12:43:05.599811+00:00",
+      "next_check": "2026-09-08T12:43:05.599811+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -195498,6 +195843,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/it/webexfromserviceproviders-downloads.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-it-webexfromserviceproviders-downloads-html-ccf3fb63dd",
+      "fail_count": 1,
+      "first_seen": "2026-09-07T12:43:25.929004+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-07T12:43:25.929008+00:00",
+      "status": "blocked",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/ja/index.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-ja-index-html-700b5736a5",
@@ -195508,6 +195863,16 @@
       "next_check": "2026-09-02T18:28:11.318846+00:00",
       "redirect_to": "https://www.webex.com/jp/ja.html",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/ja/webexfromserviceproviders-downloads.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-ja-webexfromserviceproviders-downloads-html-d63df906ce",
+      "fail_count": 1,
+      "first_seen": "2026-09-07T12:43:13.192508+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-07T12:43:13.192516+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://www.webex.com/ko/index.html": {
@@ -195521,6 +195886,16 @@
       "last_seen": "2026-09-01T18:28:16.635462+00:00",
       "next_check": "2026-09-02T18:28:16.635462+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/ko/webexfromserviceproviders-downloads.html": {
+      "content_sha": null,
+      "doc_id": "www-webex-com-ko-webexfromserviceproviders-downloads-html-2c8f65e145",
+      "fail_count": 1,
+      "first_seen": "2026-09-07T12:43:00.828350+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-07T12:43:00.828357+00:00",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://www.webex.com/learn/webinars-demos.html": {
@@ -195551,6 +195926,19 @@
       "http_status": 403,
       "last_seen": "2026-09-01T18:23:40.083963+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://www.webex.com/pt/webexfromserviceproviders-downloads.html": {
+      "content_sha": "857d72c2b6002fbd34686b7a3109743f272f3221dc9dd6fbad6ba0b5b753a8d3",
+      "doc_id": "www-webex-com-pt-webexfromserviceproviders-downloads-html-3f6bc6b945",
+      "etag": "W/\"20a1b-65ae3f5bb5cb7-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:43:09.706539+00:00",
+      "last_changed": "2026-09-07T12:43:09.706539+00:00",
+      "last_modified": "Mon, 07 Sep 2026 12:43:07 GMT",
+      "last_seen": "2026-09-07T12:43:09.706539+00:00",
+      "next_check": "2026-09-08T12:43:09.706539+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://www.webex.com/resources/whats-new.html": {
@@ -196594,6 +196982,19 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://www.webex.com/webexfromserviceproviders-downloads.html": {
+      "content_sha": "31cf79abef36208b3057bd0d3efa16c88a97efad9f15546727cc0ec881060c3b",
+      "doc_id": "www-webex-com-webexfromserviceproviders-downloads-html-72164ba721",
+      "etag": "\"20d03-65ae2eddb6167-gzip\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T12:42:57.531581+00:00",
+      "last_changed": "2026-09-07T12:42:57.531581+00:00",
+      "last_modified": "Mon, 07 Sep 2026 11:29:19 GMT",
+      "last_seen": "2026-09-07T12:42:57.531581+00:00",
+      "next_check": "2026-09-08T12:42:57.531581+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.webex.com/webinar.html": {
       "content_sha": null,
       "doc_id": "www-webex-com-webinar-html-7ed110cc20",
@@ -196651,5 +197052,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T12:32:57.864048+00:00"
+  "updated_at": "2026-09-07T12:44:36.456038+00:00"
 }
