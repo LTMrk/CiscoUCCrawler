@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-6277ef99c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_call-transcription.html
-retrieved_at: 2026-08-25T00:15:48.032359+00:00
+retrieved_at: 2026-09-07T17:17:12.815158+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -177,10 +177,30 @@ To enable regionalized media support, refer to the Regional Media Data Center Re
 
 ## Contact Center AI Configuration
 
-In the Unified CCE Administration console, the Contact Center AI feature tab allows administrators to view the Default Configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) with all the call types (default configuration). Upon associating a configuration with a specific call type, the default
-                              configuration (if any) gets overridden for the specific call type.
+Contact Center AI configuration sets up and manages AI capabilities for customer and agent interactions. It defines integrations, virtual-agent
+                              behavior, routing, knowledge sources, and access controls.
+
+Contact Center AI configuration is created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ).
+
+You can associate the Contact Center AI configuration with all call types or a specific call type. Upon associating Contact Center AI configuration with a specific call type, the default configuration (if any) gets overridden for the specific call type.
 
 To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register.
+
+In the Unified CCE Administration Console, navigate to Overview > Features > Contact Center AI. Select Cisco-billed AI Features . The following tabs appear:
+
+Overview tab: Displays the following details in a table format:
+
+The available AI features enabled across configured agents.
+
+The type of connectors and their corresponding call types.
+
+The Contact Center AI configurations used for different call types, along with their associated connector types.
+
+Contact Center AI Configs tab: Displays the default configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) along with all other available Contact Center AI configurations, each showing its corresponding connector type. Click the Sync button to retrieve the latest configuration from the Control Hub and show them in CCE. The last synced time gets updated.
+                                    For more information, see the Sync Contact Center AI Global Configuration section in this Guide.
+
+To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                          in Control Hub. For more information, see the Initial Configuration for Cloud Connect section in the Administration Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-maintenance-guides-list.html .
 
 ### Associate Contact Center AI Configuration with All Call Types
 
@@ -210,6 +230,9 @@ This sync button displays the latest AI configuration and updates the last synce
 ### Associate Contact Center AI Configuration with a Call Type
 
 You can view, update, or delete the Contact Center AI configuration associated with a specific call type.
+
+If a Contact Center AI configuration associated with a call type is deleted or recreated, the system displays an error message.
+                                          Re-associate the affected call types with a new configuration.
 
 #### View Contact Center AI Configuration
 
@@ -1486,9 +1509,17 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | Note | To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register. |
 |---|---|
 
+| Note | To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                          in Control Hub. For more information, see the Initial Configuration for Cloud Connect section in the Administration Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-maintenance-guides-list.html . |
+|---|---|
+
 | Step 1 | In the Unified CCE Administration , navigate to Overview > Features > Contact Center AI . |
 |---|---|
 | Step 2 | In the Contact Center AI Configuration , the Sync button is located on the right side of the screen. Click the Sync button to view the sync status. This sync button displays the latest AI configuration and updates the last synced time. |
+
+| Note | If a Contact Center AI configuration associated with a call type is deleted or recreated, the system displays an error message.
+                                          Re-associate the affected call types with a new configuration. |
+|---|---|
 
 | Note | Only one configuration can be associated with a call type. |
 |---|---|
