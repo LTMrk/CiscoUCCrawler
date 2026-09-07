@@ -1,42 +1,11 @@
 {
-  "run_at": "2026-09-07T14:22:06.309968+00:00",
+  "run_at": "2026-09-07T14:34:01.505631+00:00",
   "modo": "incremental",
-  "added": [
-    "developer-cisco-com-site-curri-learn-how-to-generate-call-routing-response-300fc14f27",
-    "developer-cisco-com-site-curri-learn-how-to-monitor-performance-5917697414",
-    "developer-cisco-com-site-extension-mobility-discover-build-a-development-lab-7522667f31",
-    "developer-cisco-com-site-extension-mobility-learn-how-to-de78d1449a",
-    "developer-cisco-com-site-extension-mobility-learn-how-to-hw-login-0cd28be3a8",
-    "developer-cisco-com-site-hcs-discover-get-started-fulfillment-08521dc7c1",
-    "developer-cisco-com-site-hcs-discover-hcs-functional-overview-7cba84e766",
-    "developer-cisco-com-site-hcs-discover-sdr-ws-2f1ffc7378",
-    "developer-cisco-com-site-hcs-documents-previous-versions-4593941469",
-    "developer-cisco-com-site-im-and-presence-downloads-caxl-downloads-aef016d5ad",
-    "developer-cisco-com-site-ip-phone-services-overview-ee9499149f",
-    "developer-cisco-com-site-paws-discover-getting-started-paws-hello-world-6cd5f1bc65",
-    "developer-cisco-com-site-paws-documents-api-reference-7db07208f4",
-    "developer-cisco-com-site-paws-documents-developer-guide-9e2844718a",
-    "developer-cisco-com-site-paws-learn-how-to-fc72e147c3",
-    "developer-cisco-com-site-sxml-learn-mibs-9c1708ce2f",
-    "developer-cisco-com-site-user-data-services-discover-build-a-development-lab-601b940810",
-    "developer-cisco-com-site-user-data-services-documents-developer-guide-e0e7a01eea",
-    "developer-cisco-com-site-user-data-services-downloads-schemas-d37fd4807c",
-    "developer-cisco-com-site-user-data-services-learn-how-to-a3fc0ebf4e",
-    "developer-cisco-com-site-user-data-services-learn-sample-app-547555db09"
-  ],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-html-fa526c467b",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212109-how-to-use-ldp-exe-to-search-ldap-server-html-f4cf2d5e7e",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-html-f01b6435e0",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-html-e1a801483e"
-  ],
+  "added": [],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 61,
-  "redirected": [
-    "https://developer.cisco.com/site/collaboration/labs/ -> https://developer.cisco.com/learning/search/",
-    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/200958-IM-and-Presence-Server-High-Availability.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/10_0_1/ccmcfg/CUCM_BK_C95ABA82_00_admin-guide-100.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
-  ],
+  "unchanged_count": 71,
+  "redirected": [],
   "semillas_encoladas": 20
 }
