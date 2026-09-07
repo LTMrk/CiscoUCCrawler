@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f72e0d0a43
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/rcct_m_migration_vmware_to_nutanix_chapter.html
-retrieved_at: 2026-08-16T19:56:37.755754+00:00
+retrieved_at: 2026-09-07T17:02:27.982761+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -111,7 +111,7 @@ Finesse
 
 15.0(1) SU2
 
-12.6(2) ES 07
+12.6(2) ES 08
 
 Cisco VVB
 
@@ -301,6 +301,28 @@ IP and Hostname Strategy: Decide whether to reuse existing IP addresses and host
 Impact on Workflow: The decision to use the same or different IP addresses and hostnames will dictate specific additional steps required during
                                     the migration process as detailed in the respective component sections of this guide.
 
+### Mixed-Hypervisor Support
+
+Cisco recommends fully migrating CCE to a single hypervisor rather than operating in a mixed-hypervisor state long-term. Mixed-hypervisor
+                                 configurations are supported only as a temporary condition during migration, not as a permanent deployment model.
+
+During migration, the following guidance applies to a CCE application cluster (for example, a Cisco Finesse cluster consisting
+                                 of primary and secondary nodes):
+
+Single Application Cluster: All nodes in the cluster must run the same software version and reside on the same hypervisor. A single cluster cannot be
+                                       split across VMware and Nutanix; for example, running a Cisco Finesse primary node on Nutanix and its corresponding secondary
+                                       node on VMware is not supported.
+
+Multiple Clusters of the Same Application: These may reside on different hypervisors temporarily. For example, one Cisco Finesse cluster can run on Nutanix while another
+                                       Cisco Finesse cluster runs on VMware.
+
+Different Applications: These may also reside on different hypervisors temporarily. For example, Cisco VVB can run on Nutanix while Cisco Unified
+                                       Intelligence Center can run on VMware.
+
+This approach enables a phased, cluster-by-cluster migration to Nutanix AHV. The mandatory requirement is that an individual
+                                 application cluster must never be split across two hypervisors. Once all clusters have been migrated, the environment should
+                                 converge on a single hypervisor.
+
 ### Nutanix Move Migration
 
 Nutanix Move migrates virtual machines (VMs) from VMware ESXi to Nutanix AHV with minimal downtime.
@@ -427,9 +449,9 @@ Download Unified CCE OVAs
 
 UCCE_15.0.1_Nutanix_v3.0_OVAs.ova.zip
 
-Starting with OVA version 2.0, Nutanix Rogger, Router, Logger, AW, PG OVAs use UEFI BIOS with Secure Boot enabled. This introduces
-                           a one-time user interaction during the initial VM power-on. When the VM is powered on, the console displays a "Press any key
-                           to continue" prompt before the operating system installation begins.
+Starting with OVA version 3.0, the Nutanix Rogger, Router, Logger, AW, and PG OVAs use UEFI BIOS with Secure Boot enabled.
+                           This introduces a one-time user interaction during the initial VM power-on. When the VM is powered on, the console displays
+                           a "Press any key to continue" prompt before the operating system installation begins.
 
 If the key press is not registered (for example, due to console latency), use Ctrl + Alt + Delete from the VM console to restart the VM, and press any key when the prompt appears again.
 
@@ -1187,6 +1209,9 @@ You do not need to shut down all secondary VMs in the cluster together. Shut dow
 
 To perform a Fresh Install with Import for a standalone, primary, or secondary node, complete the following steps:
 
+Fresh Install with Data Import does not support domain-name changes. The domain name on the destination node must match the
+                                             domain name on the source node.
+
 Fresh Install with Import Using an Answer File
 
 To perform a Fresh Install with Import for a VOS-based component by using an answer file, open the Cisco Unified Communications Answer File Generator . In Software Location of Data to Import , select Configure Software Location of Data to Import , enter the remote SFTP server and export-data directory details, and generate the answer file for the destination component.
@@ -1277,8 +1302,6 @@ CA-signed certificates, including root and intermediate CA certificates
 
 Component certificates uploaded to the Tomcat trust store
 
-Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
-
 Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname.
 
@@ -1334,35 +1357,9 @@ To check the dbreplication state, run the following command and if the replicati
 Not applicable for single-node publisher-only systems. If the command is run on these systems, the following error message
                                                    will be displayed:
 
-To check the system history and validate if the import is successful, run the following CLI command:
+To check the system history and validate that the import was successful, run the following CLI command:
 
-If the import is successful, the command output will display the following (the highlighted line indicates a successful import
-                                       and shows the version numbers of the source and the destination):
-
-The following output is from Cisco Unified Intelligence Center (CUIC). Output details vary by VOS-based component and release.
-
-```
-admin:show version active
-Active Master Version: 15.0.1.10100-41
-Active Version Installed Software Options:
-No Installed Software Options Found.
-admin:file view install system-history.log
-
-=======================================
-Product Name - Cisco Unified Intelligence Center with Live Data and IdS
-Product Version - 15.0.1.10100-41
-Kernel Image - 4.18.0-553.22.1.el8_10.x86_64
-=======================================
-02/23/2026 13:21:59 | root: Install 15.0.1.10100-41 Start
-02/23/2026 13:33:28 | root: Boot 15.0.1.10100-41 Start
-02/23/2026 14:20:09 | root: Import during Install 15.0.1.10000-196-to-15.0.1.10100-41 Success
-02/23/2026 14:20:09 | root: Product Version 15.0.1.10100-41
-02/23/2026 14:20:09 | root: Kernel Image 4.18.0-553.22.1.el8_10.x86_64
-02/23/2026 14:20:09 | root: Restart 15.0.1.10100-41 Start
-02/23/2026 14:21:46 | root: Boot 15.0.1.10100-41 Start
-02/23/2026 14:22:42 | root: Restart 15.0.1.10100-41 Start
-02/23/2026 14:24:27 | root: Boot 15.0.1.10100-41 Start
-```
+Verify that the Import during Install entry ends with Success and that the displayed product version corresponds to the installed release.
 
 Verify and restore customized security settings
 
@@ -1484,10 +1481,6 @@ For more information, see the Migration from VMware to Nutanix
 
 As Technology Refresh is not supported for the Administration Client, perform a fresh installation of the Administration Client
                                  version 15.0(1) on Nutanix and then install ES202607 or later on Administration Client installed on Nutanix.
-
-Microsoft Visual C++ Redistributable is a prerequisite to install Administration Client on Windows VM deployed on Nutanix.
-                                             The latest version of Visual C++ Redistributable can be downloaded from Microsoft, also same is available in AdminClientInstaller
-                                             folder.
 
 For more information, see the Install Unified CCE Administration Client section in the Installation chapter.
 
@@ -1734,6 +1727,28 @@ Step 8
 After validation is complete, return to the Nutanix Move dashboard and continue with cutover when you are ready to migrate to the production environment.
 
 When you proceed with cutover, Nutanix Move removes the test VM that was created on the Nutanix cluster.
+
+##### Restore the Source VM After Migration Failure
+
+Use this procedure to restore the source VM if migration fails.
+
+The source VMware virtual machine is powered off, and its network interface is changed to a disconnected state.
+
+Step 1
+
+Log in to VMware vCenter and locate the source virtual machine used for migration.
+
+Step 2
+
+Edit the VM settings and update the network adapter.
+
+Set the network adapter to Connected .
+
+Select Connect At Power On .
+
+Step 3
+
+Power on the virtual machine.
 
 ### Unified CVP- Migration from VMware to Nutanix
 
@@ -2146,8 +2161,6 @@ IPsec and IPsec trust certificates
 CA-signed certificates, including root and intermediate CA certificates
 
 Component certificates uploaded to the Tomcat trust store
-
-Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
 
 Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname.
@@ -3275,6 +3288,8 @@ For more information, see the Shut down in the Source VM(s) section in this guid
 #### Fresh Install VM with Import option on Nutanix Using Exported Platform Data
 
 For more information, see the Fresh Install VM with Import option on Nutanix Using Exported Platform Data section in this guide.
+
+Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
 
 #### Import Unified Intelligence Center Data from the Remote Server to the Destination VM (Publisher)
 
@@ -4440,28 +4455,6 @@ It is necessary to regenerate the SAML certificate in Cisco IdS and establish tr
 
 of Cisco Unified Contact Center Enterprise Features Guide.
 
-### Restore the Source VM After Migration Failure
-
-Use this procedure to restore the source VM if migration fails.
-
-The source VMware virtual machine is powered off, and its network interface is changed to a disconnected state.
-
-Step 1
-
-Log in to VMware vCenter and locate the source virtual machine used for migration.
-
-Step 2
-
-Edit the VM settings and update the network adapter.
-
-Set the network adapter to Connected .
-
-Select Connect At Power On .
-
-Step 3
-
-Power on the virtual machine.
-
 ## Caveats
 
 This section contains caveats that are specific to data migration from VMware to Nutanix.
@@ -4497,7 +4490,7 @@ No functional impact
 |  | Supported 15.0(1) VMware source version | Supported 12.6(2) VMware source version |
 | CCE VOS-based Components |
 | Cloud Connect | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 04 | 15.0(1) SU2 |
-| Finesse | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 07 |
+| Finesse | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |
 | Cisco VVB | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |
 | Unified Intelligence Center Cisco Live Data Cisco Identity Service (Cisco IdS) | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |  |
 | CCE Windows-based Components |
@@ -4732,6 +4725,10 @@ No functional impact
                                                 performing a fresh installation with import (migration) . |
 |---|---|
 
+| Note | Fresh Install with Data Import does not support domain-name changes. The domain name on the destination node must match the
+                                             domain name on the source node. |
+|---|---|
+
 | Step 1 | Create a Virtual Machine using the OVA Template. Mount the 15.0(1) SU2 bootable image to the Virtual Machine (VM) and power
                                              on the VM. For more information, see the following sections in this guide: Upload OVA to Nutanix Upload Images to Nutanix Create a Virtual Machine from the OVA on Nutanix |
 |---|---|
@@ -4751,14 +4748,14 @@ No functional impact
 | Step 14 | Enter the SFTP server IP address, the complete path to the exported platform-data directory, the login ID, and the password.
                                           Specify the platform-data directory in the following format: cluster-<source-primary-IP-address> Then click OK . |
 | Step 15 | Provide the organization information on the Certificate Information page and click OK . Note During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Step 16 | For a standalone node such as Cisco VVB, skip this step. In the First Node Configuration screen, specify whether you are configuring the first node based on the following: If you are installing the primary node, click Yes under First Node Configuration . If you are installing the secondary node, click No under First Node Configuration . A warning message states that you must configure the first node before continuing. If the first node is already configured,
@@ -4768,16 +4765,13 @@ No functional impact
 | Step 19 | On the Platform Configuration Confirmation page, click OK . |
 
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 |---|---|
 
 | Note | Not applicable for single-node publisher-only systems. If the command is run on these systems, the following error message
                                                    will be displayed: Runtime state cannot be performed on a cluster with a single active node; aborting operation |
-|---|---|
-
-| Note | The following output is from Cisco Unified Intelligence Center (CUIC). Output details vary by VOS-based component and release. |
 |---|---|
 
 |  | Task |
@@ -4814,11 +4808,6 @@ No functional impact
 | Install Microsoft Windows Server on the virtual machines deployed for CCE components | Install Microsoft Windows Server |
 | Install Microsoft SQL Server for Rogger, Logger and Administration & Data Server VM(s) | Install Microsoft SQL Server |
 | Install Microsoft Windows 11 for Administration Client | Install Microsoft Windows 11 for Administration Client |
-
-| Note | Microsoft Visual C++ Redistributable is a prerequisite to install Administration Client on Windows VM deployed on Nutanix.
-                                             The latest version of Visual C++ Redistributable can be downloaded from Microsoft, also same is available in AdminClientInstaller
-                                             folder. |
-|---|---|
 
 | Sequence | Task |
 |---|---|
@@ -4879,6 +4868,11 @@ No functional impact
 
 | Note | When you proceed with cutover, Nutanix Move removes the test VM that was created on the Nutanix cluster. |
 |---|---|
+
+| Step 1 | Log in to VMware vCenter and locate the source virtual machine used for migration. |
+|---|---|
+| Step 2 | Edit the VM settings and update the network adapter. Set the network adapter to Connected . Select Connect At Power On . |
+| Step 3 | Power on the virtual machine. |
 
 | Sequence | Task |
 |---|---|
@@ -4984,14 +4978,14 @@ admin: |
 | Step 14 | Provide the SFTP server IP address, login ID, and password. For the directory, specify the cluster directory containing the
                                              exported platform data. Use the following format: <Export-Data-Directory>/cluster-<source-publisher-IP-address> For example: /cloudconnect-export/cluster-10.10.10.20 Use this cluster directory when installing both the destination publisher and subscriber. |
 | Step 15 | Enter the organization information on the Certificate Information page, and click OK . Note During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Step 16 | In the First Node Configuration screen, specify whether you are configuring the first node based on the following: If you are installing a primary node, then click Yes under the First Node Configuration. If you are installing a secondary node, then click No and provide the hostname and IP address of the destination publisher. A warning message states that you must configure the first node before continuing. If the first node is already configured,
@@ -5001,7 +4995,7 @@ admin: |
 | Step 19 | On the Platform Configuration Confirmation page, click OK . |
 
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 |---|---|
@@ -5215,6 +5209,9 @@ admin: |
 | Step 6 | Enter "yes" when prompted to proceed with the export. The data export begins . |
 | Step 7 | Monitor the data export progress in the log by running the file tail command available on the CLI interface. |
 | Step 8 | To check the data export status, run the following command: utils component datamigration status |
+
+| Note | Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. |
+|---|---|
 
 | Step 1 | Log in to the Unified Intelligence Center publisher CLI using administrator credentials. |
 |---|---|
@@ -5471,11 +5468,6 @@ admin: |
 | Cisco IdS-to-IdP trust failure | It is necessary to regenerate the SAML certificate in Cisco IdS and establish trust between Cisco IdS and the IdP. 
                                           
                                           For more information, see the Configure an Identity Provider section in the Cisco IdS for Single Sign-On chapter of Cisco Unified Contact Center Enterprise Features Guide. |
-
-| Step 1 | Log in to VMware vCenter and locate the source virtual machine used for migration. |
-|---|---|
-| Step 2 | Edit the VM settings and update the network adapter. Set the network adapter to Connected . Select Connect At Power On . |
-| Step 3 | Power on the virtual machine. |
 
 | Component | Description | Any Impact |
 |---|---|---|

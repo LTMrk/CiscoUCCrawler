@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/common_upgrade_tasks.html
-retrieved_at: 2026-08-25T00:09:31.514909+00:00
+retrieved_at: 2026-09-07T17:02:50.677769+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -520,7 +520,11 @@ Create certificate internally. Do the following:
 
 Set up Microsoft Certificate Server for Windows Server
 
+Download the CA-signed certificate on each component server. Do the following:
+
 Open the CA server certificate page ( https://<CA-server-address>/certsrv ).
+
+Click Request a Certificate and then click advanced certificate request . Then do the following:
 
 Copy the Certificate Request content in the Base-64-encoded certificate request box.
 
@@ -531,6 +535,8 @@ Click Submit .
 Choose Base 64 encoded .
 
 Click Download certificate and save it to the desired destination folder.
+
+On the CA server certificate page, click Download a CA Certificate, Certificate Chain, or CRL , and then do the following:
 
 Select the Encoding method as Base 64 .
 
@@ -851,7 +857,7 @@ Copy the certificate to a location in AW Machine.
 
 Step 5
 
-Run the following command at the AW machine terminal:
+Run the following keytool command at the AW machine terminal:
 
 ```
 cd %CCE_JAVA_HOME%\bin
@@ -882,28 +888,6 @@ Important
 
 The certificate CommonName (CN) must match the Fully Qualified Domain Name (FQDN) provided for the respective component servers
                                                 in the CCE Inventory.
-
-### SUMMARY STEPS
-
-- Sign in to the Cisco Unified Operating System Administration on the source component server using the URL ( https://<FQDN of the Component server>:8443/cmplatform ).
-
-- From the Security menu, select Certificate Management .
-
-- Click Find .
-
-- Do one of the following:
-
-- Download the self-signed certificate that contains hostname of the primary server.
-
-- Copy the certificate to a location in the target server.
-
-- Run the following command as an administrator at the target server (machine terminal):
-
-- Enter the truststore password when prompted.
-
-- Go to Services and restart Apache Tomcat.
-
-### DETAILED STEPS
 
 Step 1
 
@@ -1596,7 +1580,7 @@ GO Note For example, <SQL Server TempDB path> = C:\Program Files\Microsoft SQL S
 | Step 2 | From the Unified CCE Tools, open the Diagnostic Framework Portico. |
 | Step 3 | Download the Diagnostic Framework (Portico) self-signed certificate from the browser. URL: https://<FQDN>:<port_number>/icm-dp/rest/DiagnosticPortal Ensure you download the certificate in .pem or .crt format. |
 | Step 4 | Copy the certificate to a location in AW Machine. |
-| Step 5 | Run the following command at the AW machine terminal: cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the CCE component Server> -keystore <ICM install dir>\ssl\cacerts Note The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
+| Step 5 | Run the following keytool command at the AW machine terminal: cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of the CCE component Server> -keystore <ICM install dir>\ssl\cacerts Note The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
                                                                self-signed certificate. | Note | The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's
                                                                self-signed certificate. |
 | Note | The alias name of the CCE component server must be different from the alias name given while creating the CCE component server's

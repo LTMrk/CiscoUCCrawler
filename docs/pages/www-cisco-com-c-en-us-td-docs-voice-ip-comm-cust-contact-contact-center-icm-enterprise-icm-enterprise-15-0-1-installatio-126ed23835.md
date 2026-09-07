@@ -1,12 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-126ed23835
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/rcct-b-cce-es-installation-guide--release-15_01_es/rcct-m-manual-es-installation.html
-retrieved_at: 2026-08-16T19:57:44.335584+00:00
+retrieved_at: 2026-09-07T17:03:33.582651+00:00
 ---
 
-Cisco Unified Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1)
+Cisco Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1)
 
-# Cisco Unified Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1)
+# Cisco Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1)
 
 Book Contents
 
@@ -200,6 +200,12 @@ Reboot the machine.
 Call Studio ES Installation : Ensure that you install the ES for Call Studio only after completing the ES installation on all other CVP servers and removing
                                     any existing installations. To proceed, run the Call Studio ISO installer and complete the installation. Then reboot the computer.
 
+Ensure that the Unified CVP VXML Server and Unified Call Studio are on the same ES version, then re-deploy all VXML Server
+                                                applications containing the VAV element using the latest Call Studio by importing the application, selecting the appropriate
+                                                Connector Type (Webex CCAI, Integration, or Service App) and Agent Type (Scripted or Autonomous) in the VAV settings, saving
+                                                and re-deploying to the latest VXML Server, and finally restarting the VXML Server or running updateApp.bat to complete the
+                                                update.
+
 Ensure that all services are up and running after the patch is installed.
 
 Ensure that the audio folder is created under \Cisco\CVP\VXMLServer\Tomcat\webapps\CVP
@@ -274,9 +280,12 @@ After the installation of the engineering special, if the Unified CCE services a
 
 To uninstall Unified CCE ES, follow the steps:
 
+Before you uninstall CCE 15.0(1) SU1/ES202603 or a later cumulative Engineering Special (ES), disable secure communication
+                                             between all CCE components. Otherwise, Peripheral Gateways cannot connect to the Router after you uninstall the ES.
+
 Step 1
 
-Go to Control Panel
+Go to Control Panel .
 
 Step 2
 
@@ -340,6 +349,13 @@ Remove patches in the reverse order of their installation. For example, if you i
 | Step 2 | Run the patch installer. |
 | Step 3 | Reboot the machine. |
 
+| Note | Ensure that the Unified CVP VXML Server and Unified Call Studio are on the same ES version, then re-deploy all VXML Server
+                                                applications containing the VAV element using the latest Call Studio by importing the application, selecting the appropriate
+                                                Connector Type (Webex CCAI, Integration, or Service App) and Agent Type (Scripted or Autonomous) in the VAV settings, saving
+                                                and re-deploying to the latest VXML Server, and finally restarting the VXML Server or running updateApp.bat to complete the
+                                                update. |
+|---|---|
+
 | Step 1 | Go to Control Panel . |
 |---|---|
 | Step 2 | Select Add or Remove Programs . |
@@ -364,7 +380,11 @@ Remove patches in the reverse order of their installation. For example, if you i
 | Step 3 | After the installation of the engineering special, if the Unified CCE services are set to manual, start all the services using
                                        Unified CCE Service Control. |
 
-| Step 1 | Go to Control Panel |
+| Note | Before you uninstall CCE 15.0(1) SU1/ES202603 or a later cumulative Engineering Special (ES), disable secure communication
+                                             between all CCE components. Otherwise, Peripheral Gateways cannot connect to the Router after you uninstall the ES. |
+|---|---|
+
+| Step 1 | Go to Control Panel . |
 |---|---|
 | Step 2 | Select Add or Remove Programs . |
 | Step 3 | Find the installed patch and click Remove . |
