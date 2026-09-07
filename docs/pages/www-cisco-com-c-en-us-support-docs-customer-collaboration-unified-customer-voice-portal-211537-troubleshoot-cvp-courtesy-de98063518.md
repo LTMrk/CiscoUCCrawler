@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-211537-troubleshoot-cvp-courtesy-de98063518
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html
-retrieved_at: 2026-08-20T21:16:37.496532+00:00
+retrieved_at: 2026-09-07T13:23:38.012856+00:00
 ---
 
 Troubleshoot CVP Courtesy Callback (CCB) Gateway Capacity Validation Failure
@@ -243,6 +243,24 @@ Step 2. From the output, ensure that the Delete from command is executed.
 12-Sep-2017
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Ramiro Amaya
+
+Cisco TAC Engineers
+
+Dan Lazich
+
+Cisco TAC Engineers
+
+Raghu Guvvala
+
+Cisco TAC Engineers
+
+### This Document Applies to These Products
+
+- Unified Customer Voice Portal
 
 | Revision | Publish Date | Comments |
 |---|---|---|

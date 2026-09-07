@@ -6300,6 +6300,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur70829": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur70829-1e33ba8f19",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:23:22.196589+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:23:22.196603+00:00",
+      "next_check": "2026-09-08T13:23:22.196603+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur84461": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur84461-6db167229b",
@@ -35272,10 +35284,10 @@
       "first_seen": "2026-08-20T21:16:22.359016+00:00",
       "last_changed": "2026-08-20T21:16:22.359016+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:06.529828+00:00",
-      "next_check": "2026-08-26T05:13:06.529828+00:00",
+      "last_seen": "2026-09-07T13:23:25.691150+00:00",
+      "next_check": "2026-09-11T13:23:25.691150+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200859-Troubleshoot-Cisco-VOS-Based-Finesse-Ser.html": {
       "content_sha": "c1c4416dd2dd45182281ef31a5cabc937f5febfcb561aa1853583e635b976869",
@@ -35466,10 +35478,10 @@
       "first_seen": "2026-08-16T20:54:36.773615+00:00",
       "last_changed": "2026-08-16T20:54:36.773615+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T23:44:25.797543+00:00",
-      "next_check": "2026-08-25T23:44:25.797543+00:00",
+      "last_seen": "2026-09-07T13:23:46.621580+00:00",
+      "next_check": "2026-09-15T13:23:46.621580+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116165-trouble-ucce-trace-00.html": {
       "content_sha": "c5e43f33fb57a6a1a64f678812214bc75663aac9c9ab33d17a56f00ba77013d4",
@@ -35952,17 +35964,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html": {
-      "content_sha": "520f38912fe372010e750975758fc0c870d8b696406abdc2ef2f1197e0daa8e1",
+      "content_sha": "1ca5d79c49f08550c8202048a964ffc7f0a47b04db8ea71f291d47896cde7647",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-211537-troubleshoot-cvp-courtesy-de98063518",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T21:16:37.496426+00:00",
-      "last_changed": "2026-08-20T21:16:37.496426+00:00",
+      "last_changed": "2026-09-07T13:23:38.012748+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:14:23.149469+00:00",
-      "next_check": "2026-08-26T05:14:23.149469+00:00",
+      "last_seen": "2026-09-07T13:23:38.012748+00:00",
+      "next_check": "2026-09-08T13:23:38.012748+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/212334-how-to-deploy-and-configure-with-the-tru.html": {
       "content_sha": "4f388c7113c76d6f18972d2bb264594767f6410658a424e8ae4f5bd29cd117e9",
@@ -39738,10 +39750,10 @@
       "first_seen": "2026-08-20T21:33:35.494344+00:00",
       "last_changed": "2026-08-20T21:33:35.494344+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:27:40.217986+00:00",
-      "next_check": "2026-08-26T05:27:40.217986+00:00",
+      "last_seen": "2026-09-07T13:24:07.193102+00:00",
+      "next_check": "2026-09-11T13:24:07.193102+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213517-configure-sso-for-os-admin-and-drs-in-cu.html": {
       "content_sha": "f8339d7baefee22c20d33fb563601602d07598e44528f50e322c4be3bf0fe652",
@@ -166160,10 +166172,10 @@
       "first_seen": "2026-08-16T19:33:51.186105+00:00",
       "last_changed": "2026-08-16T19:33:51.186105+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:25:53.250720+00:00",
-      "next_check": "2026-08-29T00:25:53.250720+00:00",
+      "last_seen": "2026-09-07T13:23:12.750183+00:00",
+      "next_check": "2026-09-15T13:23:12.750183+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_b_admin-console-user-guide-1205_appendix_01011.html": {
       "content_sha": "7b5ea0cbef4fb672ff6f12d2532388601a3eb12597be2a70b90b832bc63d4048",
@@ -166745,10 +166757,10 @@
       "first_seen": "2026-08-16T20:54:44.897263+00:00",
       "last_changed": "2026-08-16T20:54:44.897263+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:33:03.343368+00:00",
-      "next_check": "2026-08-29T00:33:03.343368+00:00",
+      "last_seen": "2026-09-07T13:23:08.555085+00:00",
+      "next_check": "2026-09-15T13:23:08.555085+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/maintain_and_operate/guide/cuic_b_1261-admin-console-user-guide/cuic_b_1261-admin-console-user-guide_chapter_0101.html": {
       "content_sha": "1c7b84a8f59b6c927fe0d88e2908d9dfbe949a6e21ad74e9dad40d7e233262a0",
@@ -167330,10 +167342,10 @@
       "first_seen": "2026-08-16T20:54:40.808872+00:00",
       "last_changed": "2026-08-16T20:54:40.808872+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:36:16.330806+00:00",
-      "next_check": "2026-08-29T00:36:16.330806+00:00",
+      "last_seen": "2026-09-07T13:23:04.160787+00:00",
+      "next_check": "2026-09-15T13:23:04.160787+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/maintain_and_operate/guide/cuic_b_1262-admin-console-user-guide/cuic_m_1261-cluster-configuration.html": {
       "content_sha": "c80f6e922e69757a4d79c78fc6d3dc42e415a86bcafff4ea62a429f77e59bdf8",
@@ -167668,10 +167680,10 @@
       "first_seen": "2026-08-16T19:25:04.980970+00:00",
       "last_changed": "2026-08-16T19:25:04.980970+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:38:08.453395+00:00",
-      "next_check": "2026-08-29T00:38:08.453395+00:00",
+      "last_seen": "2026-09-07T13:23:00.134805+00:00",
+      "next_check": "2026-09-15T13:23:00.134805+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/admin_user_mgmt_drawer.html": {
       "content_sha": "d7f9a6396f003acb6b778d25d9d5bbc10e234c9f020952e64cfb97ef19b04bf3",
@@ -197822,5 +197834,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T13:18:28.560703+00:00"
+  "updated_at": "2026-09-07T13:24:12.579832+00:00"
 }
