@@ -1,14 +1,19 @@
 {
-  "run_at": "2026-09-07T11:01:36.124554+00:00",
+  "run_at": "2026-09-07T11:13:24.289931+00:00",
   "modo": "incremental",
-  "added": [],
-  "modified": [],
+  "added": [
+    "developer-cisco-com-site-webdialer-develop-and-test-documentation-operations-by-release-ebf75eb663"
+  ],
+  "modified": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-version-14--2c00e562c0",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--2ece287529",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-m-new-and-changed--90b6e13ae4"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 62,
+  "unchanged_count": 89,
   "redirected": [
-    "http://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/Coresidency/11-x/CUCM_BK_CFECD4DF_00_cisco-be6k-and-cisco-be7k-coresidency-policy.html -> https://cisco.login.duosecurity.com/email_first",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/10_0_1/secugd/CUCM_BK_C68276B4_00_cucm-security-guide-100/CUCM_BK_C68276B4_00_cucm-security-guide-100_chapter_01010.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://cisco.com -> https://www.cisco.com"
   ],
   "semillas_encoladas": 20
 }

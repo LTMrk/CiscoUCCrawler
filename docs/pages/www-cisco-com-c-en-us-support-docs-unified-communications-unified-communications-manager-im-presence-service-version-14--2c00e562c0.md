@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-version-14--2c00e562c0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220329-troubleshoot-im-and-presence-server-with.html
-retrieved_at: 2026-08-16T23:40:20.911027+00:00
+retrieved_at: 2026-09-07T11:11:33.454450+00:00
 ---
 
 Troubleshoot IM and Presence Server with Synchronization Issues
@@ -137,16 +137,6 @@ Note : This behavior is described in the the present defect on IM and Presence:
 31-Mar-2023
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Mario Aguilar Olea
-
-Cisco TAC Escalation Engineer
-
-### This Document Applies to These Products
-
-- Unified Communications Manager IM and Presence Service Version 14
 
 | Revision | Publish Date | Comments |
 |---|---|---|
