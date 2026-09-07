@@ -1,11 +1,14 @@
 {
-  "run_at": "2026-09-07T10:49:55.948137+00:00",
+  "run_at": "2026-09-07T11:01:36.124554+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 100,
-  "redirected": [],
+  "unchanged_count": 62,
+  "redirected": [
+    "http://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/Coresidency/11-x/CUCM_BK_CFECD4DF_00_cisco-be6k-and-cisco-be7k-coresidency-policy.html -> https://cisco.login.duosecurity.com/email_first",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/10_0_1/secugd/CUCM_BK_C68276B4_00_cucm-security-guide-100/CUCM_BK_C68276B4_00_cucm-security-guide-100_chapter_01010.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+  ],
   "semillas_encoladas": 20
 }
