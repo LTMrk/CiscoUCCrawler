@@ -2104,6 +2104,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtz23710": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-csctz23710-b2336155d5",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:11:42.853363+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:11:42.853375+00:00",
+      "next_check": "2026-09-08T13:11:42.853375+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCtz40373": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-csctz40373-0bc23751ef",
@@ -35286,10 +35298,10 @@
       "first_seen": "2026-08-21T06:43:02.823137+00:00",
       "last_changed": "2026-08-21T06:43:02.823137+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:11.040473+00:00",
-      "next_check": "2026-08-26T05:13:11.040473+00:00",
+      "last_seen": "2026-09-07T13:16:51.823837+00:00",
+      "next_check": "2026-09-11T13:16:51.823837+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/201006-How-To-Configure-Precision-Queue-Live-Da.html": {
       "content_sha": "fafe5e119bd2afb6715c80757307af488ca054df2a55eb8a7efcaf1ac51223af",
@@ -35312,10 +35324,10 @@
       "first_seen": "2026-08-21T06:42:58.426135+00:00",
       "last_changed": "2026-08-21T06:42:58.426135+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:15.329153+00:00",
-      "next_check": "2026-08-26T05:13:15.329153+00:00",
+      "last_seen": "2026-09-07T13:16:47.491702+00:00",
+      "next_check": "2026-09-11T13:16:47.491702+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html": {
       "content_sha": "9a15d90e2ec3b2dd5c79e4dc225acd49bf6266b7a2062ca26ff1c7a52736725d",
@@ -35325,10 +35337,10 @@
       "first_seen": "2026-08-20T21:16:26.625952+00:00",
       "last_changed": "2026-08-20T21:16:26.625952+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:19.462219+00:00",
-      "next_check": "2026-08-26T05:13:19.462219+00:00",
+      "last_seen": "2026-09-07T13:17:00.166625+00:00",
+      "next_check": "2026-09-11T13:17:00.166625+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212684-troubleshoot-finesse-mobile-agent.html": {
       "content_sha": "69a95b9dec908eeaae288b87587c39d8417dd7875e3f77409ca504f77198e54c",
@@ -35338,10 +35350,10 @@
       "first_seen": "2026-08-21T06:43:06.898099+00:00",
       "last_changed": "2026-08-21T06:43:06.898099+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:23.669602+00:00",
-      "next_check": "2026-08-26T05:13:23.669602+00:00",
+      "last_seen": "2026-09-07T13:16:56.022014+00:00",
+      "next_check": "2026-09-11T13:16:56.022014+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I.html": {
       "content_sha": "b57b992155d339dade65258cc676f7d321914676c8b2cd25ebfcb4353821c9a5",
@@ -35351,10 +35363,10 @@
       "first_seen": "2026-08-21T06:41:55.195981+00:00",
       "last_changed": "2026-08-21T06:41:55.195981+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:13:27.944781+00:00",
-      "next_check": "2026-08-26T05:13:27.944781+00:00",
+      "last_seen": "2026-09-07T13:15:39.738358+00:00",
+      "next_check": "2026-09-11T13:15:39.738358+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/packaged-contact-center-enterprise/200323-Cisco-Packaged-Contact-Center-Enterprise.html": {
       "content_sha": "8889ac1cb9138a14dd6f8af5da8841b66977594369938864d81ed594b3ef60b5",
@@ -36168,10 +36180,10 @@
       "first_seen": "2026-08-21T06:49:04.174568+00:00",
       "last_changed": "2026-08-21T06:49:04.174568+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:14:26.896527+00:00",
-      "next_check": "2026-08-26T05:14:26.896527+00:00",
+      "last_seen": "2026-09-07T13:13:23.298045+00:00",
+      "next_check": "2026-09-11T13:13:23.298045+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/applications-cisco-unified-application-environment/220161-troubleshoot-customer-voice-portal-cvp.html": {
       "content_sha": "64236d85c680f1f775972485d11f55cec18cd4168d895d4596f112831e06aa1a",
@@ -127403,10 +127415,10 @@
       "first_seen": "2026-08-21T06:46:28.316828+00:00",
       "last_changed": "2026-08-21T06:46:28.316828+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:05:05.200352+00:00",
-      "next_check": "2026-08-26T14:05:05.200352+00:00",
+      "last_seen": "2026-09-07T13:12:45.287254+00:00",
+      "next_check": "2026-09-11T13:12:45.287254+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/configuration/guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide_chapter_001.html": {
       "content_sha": "2b8468fabf6e36827869963ed9337e4c3bda23b18deca3e88e8b98981d7000f3",
@@ -127455,10 +127467,10 @@
       "first_seen": "2026-08-21T06:46:11.504055+00:00",
       "last_changed": "2026-08-21T06:46:11.504055+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:05:22.431500+00:00",
-      "next_check": "2026-08-26T14:05:22.431500+00:00",
+      "last_seen": "2026-09-07T13:12:28.814275+00:00",
+      "next_check": "2026-09-11T13:12:28.814275+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/installation/guide/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_chapter_01.html": {
       "content_sha": "2a55957b9f7655b715af8c3402a2a382ac917815b85c2eaf06adbffcaccb5ec9",
@@ -127585,10 +127597,10 @@
       "first_seen": "2026-08-21T06:46:07.394964+00:00",
       "last_changed": "2026-08-21T06:46:07.394964+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:06:04.839207+00:00",
-      "next_check": "2026-08-26T14:06:04.839207+00:00",
+      "last_seen": "2026-09-07T13:12:24.540558+00:00",
+      "next_check": "2026-09-11T13:12:24.540558+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/installation/guide/vvb_b_install-and-upgrade-guide-12-5/vvb_b_install-and-upgrade-guide-12-5_chapter_01.html": {
       "content_sha": "fc5202cf8378b41d3dab661ff655884cd3e8aefc2b9688cbf3aac7a4ba158dd1",
@@ -127663,10 +127675,10 @@
       "first_seen": "2026-08-21T06:47:02.322558+00:00",
       "last_changed": "2026-08-21T06:47:02.322558+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:06:30.260370+00:00",
-      "next_check": "2026-08-26T14:06:30.260370+00:00",
+      "last_seen": "2026-09-07T13:13:19.293354+00:00",
+      "next_check": "2026-09-11T13:13:19.293354+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-ccvb-operations-guide-for-cisco-vvb/ccvp_b_1251-ccvb-operations-guide-for-cisco-vvb_appendix_010.html": {
       "content_sha": "0cc82bfefebfb0f5cbf0eea3cfbb7bc6b66a806332685fa329b26e65d4b33dc8",
@@ -127728,10 +127740,10 @@
       "first_seen": "2026-08-21T06:46:58.139225+00:00",
       "last_changed": "2026-08-21T06:46:58.139225+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:06:51.473103+00:00",
-      "next_check": "2026-08-26T14:06:51.473103+00:00",
+      "last_seen": "2026-09-07T13:13:15.144402+00:00",
+      "next_check": "2026-09-11T13:13:15.144402+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide_chapter_010.html": {
       "content_sha": "6b10e5410866b0559463b363e30440e81fee44a4158fd59afdda1a9d5ed43c65",
@@ -127832,10 +127844,10 @@
       "first_seen": "2026-08-21T06:46:53.951888+00:00",
       "last_changed": "2026-08-21T06:46:53.951888+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:07:24.618311+00:00",
-      "next_check": "2026-08-26T14:07:24.618311+00:00",
+      "last_seen": "2026-09-07T13:13:10.671743+00:00",
+      "next_check": "2026-09-11T13:13:10.671743+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_00.html": {
       "content_sha": "9a33b3a51615850c21da7684d92826582c98229ae759f16a6bd8fd7efec72567",
@@ -127962,10 +127974,10 @@
       "first_seen": "2026-08-21T06:45:37.458512+00:00",
       "last_changed": "2026-08-21T06:45:37.458512+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:08:06.764433+00:00",
-      "next_check": "2026-08-26T14:08:06.764433+00:00",
+      "last_seen": "2026-09-07T13:11:58.900455+00:00",
+      "next_check": "2026-09-11T13:11:58.900455+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_0/installation/guide/cvvp_b_migration-guide-1201.html": {
       "content_sha": "b48c562f7a9c1cf22db513f6aa4342b60fb0186c370ba8143bf05a3dcbd9c732",
@@ -127975,10 +127987,10 @@
       "first_seen": "2026-08-21T06:46:15.740751+00:00",
       "last_changed": "2026-08-21T06:46:15.740751+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:08:11.258286+00:00",
-      "next_check": "2026-08-26T14:08:11.258286+00:00",
+      "last_seen": "2026-09-07T13:12:32.529008+00:00",
+      "next_check": "2026-09-11T13:12:32.529008+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_0/installation/guide/cvvp_b_migration-guide-1201/cvvp_b_migration-guide-1201_chapter_01.html": {
       "content_sha": "a19fc7f1465aab1319968ef5058fc6b9e8552a42238e51be3b49dac8ad6c2efe",
@@ -128105,10 +128117,10 @@
       "first_seen": "2026-08-21T06:46:24.163662+00:00",
       "last_changed": "2026-08-21T06:46:24.163662+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:11:29.425969+00:00",
-      "next_check": "2026-08-26T14:11:29.425969+00:00",
+      "last_seen": "2026-09-07T13:12:40.729557+00:00",
+      "next_check": "2026-09-11T13:12:40.729557+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/configuration/ccvb_b_1261-ciscovvb-administrationconfiguration-guide/appendix-1.html": {
       "content_sha": "6ecc00f03c368ed2f912258f3a064022a070594a722faf8847005132160a650e",
@@ -128183,10 +128195,10 @@
       "first_seen": "2026-08-21T06:46:49.499637+00:00",
       "last_changed": "2026-08-21T06:46:49.499637+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:11:55.789979+00:00",
-      "next_check": "2026-08-26T14:11:55.789979+00:00",
+      "last_seen": "2026-09-07T13:13:06.156428+00:00",
+      "next_check": "2026-09-11T13:13:06.156428+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/cucosadmin/ccvp_b_1261-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_00.html": {
       "content_sha": "4e22f95b737a614a3efe9530bcf310e7eeef07a3dfe2bddbb3032ab639b3032f",
@@ -128313,10 +128325,10 @@
       "first_seen": "2026-08-21T06:45:58.799471+00:00",
       "last_changed": "2026-08-21T06:45:58.799471+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:12:37.538438+00:00",
-      "next_check": "2026-08-26T14:12:37.538438+00:00",
+      "last_seen": "2026-09-07T13:12:15.712807+00:00",
+      "next_check": "2026-09-11T13:12:15.712807+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/installation/vvb_b_install-and-upgrade-guide-12-6/vvb_b_install-and-upgrade-guide-12-5_chapter_01.html": {
       "content_sha": "0584d0a14d563158836bc1f20e67502cb26e87285339f71e048659d9f0bd09fc",
@@ -128391,10 +128403,10 @@
       "first_seen": "2026-08-21T06:46:03.192618+00:00",
       "last_changed": "2026-08-21T06:46:03.192618+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:13:02.482259+00:00",
-      "next_check": "2026-08-26T14:13:02.482259+00:00",
+      "last_seen": "2026-09-07T13:12:20.079241+00:00",
+      "next_check": "2026-09-11T13:12:20.079241+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/migration/ccvp_b_1261-migration-guide-for-cisco-virtualized-voice-browser-release/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_chapter_01.html": {
       "content_sha": "e2c59348afd202ee17afc060e02c342dbcff735e899bcca007dd72e958559710",
@@ -128521,10 +128533,10 @@
       "first_seen": "2026-08-21T06:46:45.338201+00:00",
       "last_changed": "2026-08-21T06:46:45.338201+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:13:44.044685+00:00",
-      "next_check": "2026-08-26T14:13:44.044685+00:00",
+      "last_seen": "2026-09-07T13:13:02.031330+00:00",
+      "next_check": "2026-09-11T13:13:02.031330+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/operations/ccvp_b_1261-operations-guide-for-cisco-virtualized-voice-browser/ccvp_b_1252-operations-guide-for-cisco-virtualized-voice-browser_appendix_010.html": {
       "content_sha": "b9e237fae67f9a7df742d01d3447996e68d41a0fccd1116b2a78b536dd1eb834",
@@ -128573,10 +128585,10 @@
       "first_seen": "2026-08-21T06:45:33.318877+00:00",
       "last_changed": "2026-08-21T06:45:33.318877+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:14:01.764599+00:00",
-      "next_check": "2026-08-26T14:14:01.764599+00:00",
+      "last_seen": "2026-09-07T13:11:54.597290+00:00",
+      "next_check": "2026-09-11T13:11:54.597290+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/adminconfig/guide/ccvb_b_1262-ciscovvb-administrationconfiguration-guide.html": {
       "content_sha": "854c1084e5c34b727d989382d33e1ec7c29fa2532d05d763855e905d6be26e61",
@@ -128586,10 +128598,10 @@
       "first_seen": "2026-08-21T06:46:19.916312+00:00",
       "last_changed": "2026-08-21T06:46:19.916312+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:14:05.773552+00:00",
-      "next_check": "2026-08-26T14:14:05.773552+00:00",
+      "last_seen": "2026-09-07T13:12:36.771295+00:00",
+      "next_check": "2026-09-11T13:12:36.771295+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/adminconfig/guide/ccvb_b_1262-ciscovvb-administrationconfiguration-guide/appendix-1.html": {
       "content_sha": "007576d17096a16776195a53931450021118defdb177ba9f31a75d14b702d6ca",
@@ -128664,10 +128676,10 @@
       "first_seen": "2026-08-21T06:45:29.364170+00:00",
       "last_changed": "2026-08-21T06:45:29.364170+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:14:32.537903+00:00",
-      "next_check": "2026-08-26T14:14:32.537903+00:00",
+      "last_seen": "2026-09-07T13:11:50.368908+00:00",
+      "next_check": "2026-09-11T13:11:50.368908+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/installandupgrade/guide/vvb_b_install-and-upgrade-guide-12-62.html": {
       "content_sha": "ed2e6098fc10053b77d57c996babc98a4d86c260dbb56f73bd98226dbe07ac1a",
@@ -128677,10 +128689,10 @@
       "first_seen": "2026-08-21T06:45:50.266459+00:00",
       "last_changed": "2026-08-21T06:45:50.266459+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:14:36.427484+00:00",
-      "next_check": "2026-08-26T14:14:36.427484+00:00",
+      "last_seen": "2026-09-07T13:12:07.500702+00:00",
+      "next_check": "2026-09-11T13:12:07.500702+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/installandupgrade/guide/vvb_b_install-and-upgrade-guide-12-62/vvb_b_install-and-upgrade-guide-12-5_chapter_01.html": {
       "content_sha": "96a854778a2e1613cb84447b897e84be8aeb599dfea1f6bb8346cb5e720d2e3e",
@@ -128755,10 +128767,10 @@
       "first_seen": "2026-08-21T06:45:54.705228+00:00",
       "last_changed": "2026-08-21T06:45:54.705228+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:15:02.038779+00:00",
-      "next_check": "2026-08-26T14:15:02.038779+00:00",
+      "last_seen": "2026-09-07T13:12:11.830037+00:00",
+      "next_check": "2026-09-11T13:12:11.830037+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/migration/guide/ccvp_b_1262-migration-guide-for-cisco-virtualized-voice-browser-release/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_chapter_01.html": {
       "content_sha": "aa11100fed0df5741fce99057c18ed76041f278a4e21fa7c46cf99f117e2aeaf",
@@ -128885,10 +128897,10 @@
       "first_seen": "2026-08-21T06:46:41.126771+00:00",
       "last_changed": "2026-08-21T06:46:41.126771+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:15:43.959210+00:00",
-      "next_check": "2026-08-26T14:15:43.959210+00:00",
+      "last_seen": "2026-09-07T13:12:57.658304+00:00",
+      "next_check": "2026-09-11T13:12:57.658304+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/operations/guide/ccvp_b_1262-operations-guide-for-cisco-virtualized-voice-browser/ccvb_m_preface-1262.html": {
       "content_sha": "29fd12729d3f4b515a5ec3480304e70c1203fd28526328ee30503be78699740f",
@@ -128937,10 +128949,10 @@
       "first_seen": "2026-08-21T06:46:32.470055+00:00",
       "last_changed": "2026-08-21T06:46:32.470055+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:16:01.190139+00:00",
-      "next_check": "2026-08-26T14:16:01.190139+00:00",
+      "last_seen": "2026-09-07T13:12:49.603928+00:00",
+      "next_check": "2026-09-11T13:12:49.603928+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/adminconfig/guide/ccvb_b_150_cisco-virtualized-voice-browser-administration-and-configuration-guide/appendix-1.html": {
       "content_sha": "4935820638e8bd766b5144a25a53b8daa5ddcea4bcf82ca530605db0692d6e72",
@@ -129015,10 +129027,10 @@
       "first_seen": "2026-08-21T06:45:41.764694+00:00",
       "last_changed": "2026-08-21T06:45:41.764694+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:16:27.567807+00:00",
-      "next_check": "2026-08-26T14:16:27.567807+00:00",
+      "last_seen": "2026-09-07T13:11:46.121174+00:00",
+      "next_check": "2026-09-11T13:11:46.121174+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/installandupgrade/guide/vvb_b_1501_install-and-upgrade-guide.html": {
       "content_sha": "ada96498337003d1d672bb74f1e07090d4386acea1aa2e83673c6162048d5f11",
@@ -129028,10 +129040,10 @@
       "first_seen": "2026-08-21T06:45:46.048272+00:00",
       "last_changed": "2026-08-21T06:45:46.048272+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:16:31.715762+00:00",
-      "next_check": "2026-08-26T14:16:31.715762+00:00",
+      "last_seen": "2026-09-07T13:12:03.185857+00:00",
+      "next_check": "2026-09-11T13:12:03.185857+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/installandupgrade/guide/vvb_b_1501_install-and-upgrade-guide/cisco_vvb_installation.html": {
       "content_sha": "e71c92e1b417db56e31f0c9a2496b6f5365cec20691112b74936c2cfb2465f7f",
@@ -129106,10 +129118,10 @@
       "first_seen": "2026-08-21T06:46:36.832074+00:00",
       "last_changed": "2026-08-21T06:46:36.832074+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:16:56.592065+00:00",
-      "next_check": "2026-08-26T14:16:56.592065+00:00",
+      "last_seen": "2026-09-07T13:12:53.781300+00:00",
+      "next_check": "2026-09-11T13:12:53.781300+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/opsguide/guide/ccvp_b_1501-operations-guide-for-cisco-virtualized-voice-browser/ccvb_m_preface-1501.html": {
       "content_sha": "1a2a676c055488924d3262fe20b9b047a9b2542e4b4894a507ba66ff3e4f142b",
@@ -130054,10 +130066,10 @@
       "first_seen": "2026-08-16T21:46:34.330866+00:00",
       "last_changed": "2026-08-16T21:46:34.330866+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T14:24:39.749941+00:00",
-      "next_check": "2026-08-28T14:24:39.749941+00:00",
+      "last_seen": "2026-09-07T13:11:34.322878+00:00",
+      "next_check": "2026-09-15T13:11:34.322878+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_uccx-125admin-and-operations-guide/uccx_b_uccx-125admin-and-operations-guide_appendix_011011.html": {
       "content_sha": "c93a8a45f84f1b9b4c12df6f6209d0c70731f6d1210155b9fe941b6b32cceaf6",
@@ -144167,10 +144179,10 @@
       "first_seen": "2026-08-21T06:54:06.070039+00:00",
       "last_changed": "2026-08-21T06:54:06.070039+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:07:44.213225+00:00",
-      "next_check": "2026-08-26T16:07:44.213225+00:00",
+      "last_seen": "2026-09-07T13:15:22.926915+00:00",
+      "next_check": "2026-09-11T13:15:22.926915+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/appendix-3.html": {
       "content_sha": "6be2f0993d5bddb6149d22efc758c94cf9f081bdbf361d48ac28d802e082b87c",
@@ -144180,10 +144192,10 @@
       "first_seen": "2026-08-21T06:54:10.129085+00:00",
       "last_changed": "2026-08-21T06:54:10.129085+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:07:48.323613+00:00",
-      "next_check": "2026-08-26T16:07:48.323613+00:00",
+      "last_seen": "2026-09-07T13:15:27.193352+00:00",
+      "next_check": "2026-09-11T13:15:27.193352+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_1261-java-runtime-environment-minor-update.html": {
       "content_sha": "6d970813a185689f0d3735801c9cff2c40fffc77c48b6b6dd2ac581637b7dcc0",
@@ -144193,10 +144205,10 @@
       "first_seen": "2026-08-21T06:53:48.961748+00:00",
       "last_changed": "2026-08-21T06:53:48.961748+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:07:52.608156+00:00",
-      "next_check": "2026-08-26T16:07:52.608156+00:00",
+      "last_seen": "2026-09-07T13:15:05.862920+00:00",
+      "next_check": "2026-09-11T13:15:05.862920+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal_index.html": {
       "content_sha": "bf5df0e71bb4ffb587b3d5dc585b54259825827591df2fed249a125ac249e91d",
@@ -144206,10 +144218,10 @@
       "first_seen": "2026-08-21T06:54:14.096292+00:00",
       "last_changed": "2026-08-21T06:54:14.096292+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:07:56.977492+00:00",
-      "next_check": "2026-08-26T16:07:56.977492+00:00",
+      "last_seen": "2026-09-07T13:15:31.376214+00:00",
+      "next_check": "2026-09-11T13:15:31.376214+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-call-server-configuration.html": {
       "content_sha": "48b8c15bfe6bb0138de84fd8295fa66d07358e9014b790680c8f7f380d56ba04",
@@ -144219,10 +144231,10 @@
       "first_seen": "2026-08-21T06:52:28.708423+00:00",
       "last_changed": "2026-08-21T06:52:28.708423+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:02.536810+00:00",
-      "next_check": "2026-08-26T16:08:02.536810+00:00",
+      "last_seen": "2026-09-07T13:13:46.014458+00:00",
+      "next_check": "2026-09-11T13:13:46.014458+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-cisco-vvb-configuration.html": {
       "content_sha": "1c8392b66916fe0f19db918e0d418cd51e59b27b5254f8804a67103870e6daa5",
@@ -144232,10 +144244,10 @@
       "first_seen": "2026-08-21T06:53:05.697235+00:00",
       "last_changed": "2026-08-21T06:53:05.697235+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:07.609568+00:00",
-      "next_check": "2026-08-26T16:08:07.609568+00:00",
+      "last_seen": "2026-09-07T13:14:27.893692+00:00",
+      "next_check": "2026-09-11T13:14:27.893692+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-configure-high-availability-for-unified.html": {
       "content_sha": "96285303a86ce979d46da0effbe8fc91989a9e2ef797169475140b9a816e507c",
@@ -144245,10 +144257,10 @@
       "first_seen": "2026-08-21T06:53:37.072625+00:00",
       "last_changed": "2026-08-21T06:53:37.072625+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:11.465430+00:00",
-      "next_check": "2026-08-26T16:08:11.465430+00:00",
+      "last_seen": "2026-09-07T13:14:53.633666+00:00",
+      "next_check": "2026-09-11T13:14:53.633666+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-ipv6-configuration.html": {
       "content_sha": "771bdab314b277404031709dd5469ab830194399b93fe4c62008b49a68bad927",
@@ -144258,10 +144270,10 @@
       "first_seen": "2026-08-21T06:53:41.155067+00:00",
       "last_changed": "2026-08-21T06:53:41.155067+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:15.533757+00:00",
-      "next_check": "2026-08-26T16:08:15.533757+00:00",
+      "last_seen": "2026-09-07T13:14:57.615165+00:00",
+      "next_check": "2026-09-11T13:14:57.615165+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-media-server-configuration.html": {
       "content_sha": "fcfbfa54b41d643562799207fd5f5866dd31c905859b65cdd835841f250122f8",
@@ -144271,10 +144283,10 @@
       "first_seen": "2026-08-21T06:52:51.436137+00:00",
       "last_changed": "2026-08-21T06:52:51.436137+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:22.536988+00:00",
-      "next_check": "2026-08-26T16:08:22.536988+00:00",
+      "last_seen": "2026-09-07T13:14:13.644102+00:00",
+      "next_check": "2026-09-11T13:14:13.644102+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-network-based-recording-configuration.html": {
       "content_sha": "8112d741cfaacc71d1637432b9c5319cda175b32d27a7f9b95dfbe1006b50f47",
@@ -144284,10 +144296,10 @@
       "first_seen": "2026-08-21T06:53:45.377196+00:00",
       "last_changed": "2026-08-21T06:53:45.377196+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:26.984253+00:00",
-      "next_check": "2026-08-26T16:08:26.984253+00:00",
+      "last_seen": "2026-09-07T13:15:01.844698+00:00",
+      "next_check": "2026-09-11T13:15:01.844698+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-operations-console.html": {
       "content_sha": "844eac66ac4ea42784b7aeb2c8c5e6b0ed88faa1965cd798c8766520be8f946e",
@@ -144297,10 +144309,10 @@
       "first_seen": "2026-08-21T06:52:23.462193+00:00",
       "last_changed": "2026-08-21T06:52:23.462193+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:31.628531+00:00",
-      "next_check": "2026-08-26T16:08:31.628531+00:00",
+      "last_seen": "2026-09-07T13:13:40.974148+00:00",
+      "next_check": "2026-09-11T13:13:40.974148+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-preconfiguration.html": {
       "content_sha": "c0255db38b1c7563e009c8c45c4aafda671d3a2820651c463f5355cb4d0da162",
@@ -144310,10 +144322,10 @@
       "first_seen": "2026-08-21T06:52:13.859483+00:00",
       "last_changed": "2026-08-21T06:52:13.859483+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:36.543771+00:00",
-      "next_check": "2026-08-26T16:08:36.543771+00:00",
+      "last_seen": "2026-09-07T13:13:32.011985+00:00",
+      "next_check": "2026-09-11T13:13:32.011985+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-reporting-server-configuration.html": {
       "content_sha": "2fae6c264541ddb83a0d14d6b1dd281d9a4975ee1e20830efcaa378b6cc1d120",
@@ -144323,10 +144335,10 @@
       "first_seen": "2026-08-21T06:52:36.877030+00:00",
       "last_changed": "2026-08-21T06:52:36.877030+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:40.753846+00:00",
-      "next_check": "2026-08-26T16:08:40.753846+00:00",
+      "last_seen": "2026-09-07T13:13:54.140798+00:00",
+      "next_check": "2026-09-11T13:13:54.140798+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-sip-devices-configuration.html": {
       "content_sha": "11101f3d31ab8cfb25c31256cf0817ec30801fc8994c44a98fb7a77b3b496402",
@@ -144336,10 +144348,10 @@
       "first_seen": "2026-08-21T06:52:44.956810+00:00",
       "last_changed": "2026-08-21T06:52:44.956810+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:45.204474+00:00",
-      "next_check": "2026-08-26T16:08:45.204474+00:00",
+      "last_seen": "2026-09-07T13:14:06.929581+00:00",
+      "next_check": "2026-09-11T13:14:06.929581+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-sip-proxy-server-configuration.html": {
       "content_sha": "5475212d9153b87872d4e51015c1ad771406708172bd6ea8c26ebab021416f09",
@@ -144349,10 +144361,10 @@
       "first_seen": "2026-08-21T06:53:09.118680+00:00",
       "last_changed": "2026-08-21T06:53:09.118680+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:49.594435+00:00",
-      "next_check": "2026-08-26T16:08:49.594435+00:00",
+      "last_seen": "2026-09-07T13:14:31.479433+00:00",
+      "next_check": "2026-09-11T13:14:31.479433+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-speech-server-configuration.html": {
       "content_sha": "e64323cd8ad9992e6189e6bce261c79ed59582b71b31d431793c94c4a76ac7cc",
@@ -144362,10 +144374,10 @@
       "first_seen": "2026-08-21T06:52:55.102659+00:00",
       "last_changed": "2026-08-21T06:52:55.102659+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:08:54.267072+00:00",
-      "next_check": "2026-08-26T16:08:54.267072+00:00",
+      "last_seen": "2026-09-07T13:14:17.177488+00:00",
+      "next_check": "2026-09-11T13:14:17.177488+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-system-configuration.html": {
       "content_sha": "54277bb5c79162db503ecaf0ae9671cd46bdac10b038d8276a2ad2003a07f92e",
@@ -144375,10 +144387,10 @@
       "first_seen": "2026-08-21T06:53:19.057140+00:00",
       "last_changed": "2026-08-21T06:53:19.057140+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:00.857672+00:00",
-      "next_check": "2026-08-26T16:09:00.857672+00:00",
+      "last_seen": "2026-09-07T13:14:41.401164+00:00",
+      "next_check": "2026-09-11T13:14:41.401164+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-transfer-and-queue-calls-with.html": {
       "content_sha": "81e8fc968b3d9ec01b6dfb89215150e83a406e5a546f0f0143b2d6c0c50284ec",
@@ -144388,10 +144400,10 @@
       "first_seen": "2026-08-21T06:53:33.329779+00:00",
       "last_changed": "2026-08-21T06:53:33.329779+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:06.368693+00:00",
-      "next_check": "2026-08-26T16:09:06.368693+00:00",
+      "last_seen": "2026-09-07T13:14:50.019369+00:00",
+      "next_check": "2026-09-11T13:14:50.019369+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-cm-sme-configuration.html": {
       "content_sha": "832ec16e50a5cccde00e8ece886586ab0206f6e0f6aecc9d0de8eddfb345a09c",
@@ -144401,10 +144413,10 @@
       "first_seen": "2026-08-21T06:53:13.433519+00:00",
       "last_changed": "2026-08-21T06:53:13.433519+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:10.179864+00:00",
-      "next_check": "2026-08-26T16:09:10.179864+00:00",
+      "last_seen": "2026-09-07T13:14:35.390617+00:00",
+      "next_check": "2026-09-11T13:14:35.390617+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-communications-manager-configuration.html": {
       "content_sha": "03ba0f83f742d57a92d830bdd729d6db0dfa25b59f58df130469ca0e25548db0",
@@ -144414,10 +144426,10 @@
       "first_seen": "2026-08-21T06:52:40.770474+00:00",
       "last_changed": "2026-08-21T06:52:40.770474+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:14.390194+00:00",
-      "next_check": "2026-08-26T16:09:14.390194+00:00",
+      "last_seen": "2026-09-07T13:14:02.949164+00:00",
+      "next_check": "2026-09-11T13:14:02.949164+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-cvp-call-flow-models.html": {
       "content_sha": "195c5979e60d596f27d8fec50a47f3204d6b6a49666f512ac0cfea6e0b6b071d",
@@ -144427,10 +144439,10 @@
       "first_seen": "2026-08-21T06:52:19.754205+00:00",
       "last_changed": "2026-08-21T06:52:19.754205+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:21.331492+00:00",
-      "next_check": "2026-08-26T16:09:21.331492+00:00",
+      "last_seen": "2026-09-07T13:13:37.319270+00:00",
+      "next_check": "2026-09-11T13:13:37.319270+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-cvp-security.html": {
       "content_sha": "c61b3469c612ef048cb14171186fbcfd79e43e25ce7c76e0abd150b87d4c8035",
@@ -144453,10 +144465,10 @@
       "first_seen": "2026-08-20T21:33:31.845813+00:00",
       "last_changed": "2026-08-20T21:33:31.845813+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:34.218896+00:00",
-      "next_check": "2026-08-26T16:09:34.218896+00:00",
+      "last_seen": "2026-09-07T13:13:59.341856+00:00",
+      "next_check": "2026-09-11T13:13:59.341856+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-icmewarm-consult-transferconference.html": {
       "content_sha": "62a1ab9880a3cea532d95bd7205e44c473bd91756204b8351243e91d4a6ea112",
@@ -144466,10 +144478,10 @@
       "first_seen": "2026-08-21T06:53:28.674620+00:00",
       "last_changed": "2026-08-21T06:53:28.674620+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:38.449675+00:00",
-      "next_check": "2026-08-26T16:09:38.449675+00:00",
+      "last_seen": "2026-09-07T13:14:44.923516+00:00",
+      "next_check": "2026-09-11T13:14:44.923516+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-vxml-server-configuration.html": {
       "content_sha": "e643cb3e4a3fa4d4d16220284e2acb17b929f3dfbdd116cf52e0f3fc897780b0",
@@ -144479,10 +144491,10 @@
       "first_seen": "2026-08-21T06:52:33.068576+00:00",
       "last_changed": "2026-08-21T06:52:33.068576+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:43.703646+00:00",
-      "next_check": "2026-08-26T16:09:43.703646+00:00",
+      "last_seen": "2026-09-07T13:13:50.472514+00:00",
+      "next_check": "2026-09-11T13:13:50.472514+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-ccai-services-configuration.html": {
       "content_sha": "220bb5d600a47aa1d6479dea874861e7511e472702dd503abda8a4c57e55cdc5",
@@ -144492,10 +144504,10 @@
       "first_seen": "2026-08-21T06:54:01.730696+00:00",
       "last_changed": "2026-08-21T06:54:01.730696+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:47.578180+00:00",
-      "next_check": "2026-08-26T16:09:47.578180+00:00",
+      "last_seen": "2026-09-07T13:15:18.811298+00:00",
+      "next_check": "2026-09-11T13:15:18.811298+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-config-preface.html": {
       "content_sha": "a4ed62351c37f392eaf1f0751a53b382f12a81d68ef6f588bf3361e722ddfbb7",
@@ -144505,10 +144517,10 @@
       "first_seen": "2026-08-21T06:52:09.000211+00:00",
       "last_changed": "2026-08-21T06:52:09.000211+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:51.923809+00:00",
-      "next_check": "2026-08-26T16:09:51.923809+00:00",
+      "last_seen": "2026-09-07T13:13:27.374648+00:00",
+      "next_check": "2026-09-11T13:13:27.374648+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-configure-gateways.html": {
       "content_sha": "4be8f541f059e89060315508aa62791cd8eb3c538f0d4a2c24d651c7a0ff4042",
@@ -144518,10 +144530,10 @@
       "first_seen": "2026-08-21T06:53:00.481890+00:00",
       "last_changed": "2026-08-21T06:53:00.481890+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:09:56.852814+00:00",
-      "next_check": "2026-08-26T16:09:56.852814+00:00",
+      "last_seen": "2026-09-07T13:14:22.463087+00:00",
+      "next_check": "2026-09-11T13:14:22.463087+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-wxm-configuration.html": {
       "content_sha": "0484689f2ec73fd749ceb7a1601c40007b6e90541f310b403bf13d5abeb39fcf",
@@ -144531,10 +144543,10 @@
       "first_seen": "2026-08-21T06:53:57.725125+00:00",
       "last_changed": "2026-08-21T06:53:57.725125+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:10:00.348569+00:00",
-      "next_check": "2026-08-26T16:10:00.348569+00:00",
+      "last_seen": "2026-09-07T13:15:14.697752+00:00",
+      "next_check": "2026-09-11T13:15:14.697752+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_tomcat-update.html": {
       "content_sha": "37087a6c079063dad398e6d0becde87dd9341840f1745ceedc99b36ea3fed9e4",
@@ -144544,10 +144556,10 @@
       "first_seen": "2026-08-21T06:53:53.314307+00:00",
       "last_changed": "2026-08-21T06:53:53.314307+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:10:04.912541+00:00",
-      "next_check": "2026-08-26T16:10:04.912541+00:00",
+      "last_seen": "2026-09-07T13:15:10.917738+00:00",
+      "next_check": "2026-09-11T13:15:10.917738+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal.html": {
       "content_sha": "8bd3e5fa23517a3ca63330c1c4a96f791c96275e8cc835fbd8616d3a971a016d",
@@ -146884,10 +146896,10 @@
       "first_seen": "2026-08-21T06:42:16.275366+00:00",
       "last_changed": "2026-08-21T06:42:16.275366+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:28:19.531186+00:00",
-      "next_check": "2026-08-26T16:28:19.531186+00:00",
+      "last_seen": "2026-09-07T13:16:00.976519+00:00",
+      "next_check": "2026-09-11T13:16:00.976519+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/installation/guide/cfin_b_1251-cisco-finesse-installation-and-upgrade.html": {
       "content_sha": "471951a60d9f863eab928facc3674c683a577dfbe119beaff7af436ec80085f5",
@@ -146897,10 +146909,10 @@
       "first_seen": "2026-08-21T06:42:33.268779+00:00",
       "last_changed": "2026-08-21T06:42:33.268779+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:28:23.544580+00:00",
-      "next_check": "2026-08-26T16:28:23.544580+00:00",
+      "last_seen": "2026-09-07T13:16:17.814953+00:00",
+      "next_check": "2026-09-11T13:16:17.814953+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/installation/guide/cfin_b_1251-cisco-finesse-installation-and-upgrade/cfin_b_1251-cisco-finesse-installation-and-upgrade_appendix_0110.html": {
       "content_sha": "d9ec50c8fdf2cef1152e4a847e87505b2eb212be17dbedfbc4e263b7c004d8c6",
@@ -147001,10 +147013,10 @@
       "first_seen": "2026-08-16T19:29:19.519241+00:00",
       "last_changed": "2026-08-16T19:29:19.519241+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:28:57.525644+00:00",
-      "next_check": "2026-08-28T16:28:57.525644+00:00",
+      "last_seen": "2026-09-07T13:16:26.402963+00:00",
+      "next_check": "2026-09-15T13:16:26.402963+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/user/guide/cfin_b_1251-desktop-user-guide/cfin_b_1251-desktop-user-guide_chapter_01.html": {
       "content_sha": "1bdffb38c5ad0e989d1819a0033ad549f19ad7d9df68f18e1aeb586168e4fab4",
@@ -147352,10 +147364,10 @@
       "first_seen": "2026-08-21T06:42:12.023319+00:00",
       "last_changed": "2026-08-21T06:42:12.023319+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:30:53.463032+00:00",
-      "next_check": "2026-08-26T16:30:53.463032+00:00",
+      "last_seen": "2026-09-07T13:15:56.385463+00:00",
+      "next_check": "2026-09-11T13:15:56.385463+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/installation/guide/cfin_b_1261-cisco-finesse-installation-and-upgrade.html": {
       "content_sha": "14c2c749974f2d2fcf3c8f73306807f92767e92b899e5c43e63e67b07980d0e5",
@@ -147365,10 +147377,10 @@
       "first_seen": "2026-08-21T06:42:28.796924+00:00",
       "last_changed": "2026-08-21T06:42:28.796924+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:30:57.396854+00:00",
-      "next_check": "2026-08-26T16:30:57.396854+00:00",
+      "last_seen": "2026-09-07T13:16:13.477156+00:00",
+      "next_check": "2026-09-11T13:16:13.477156+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/installation/guide/cfin_b_1261-cisco-finesse-installation-and-upgrade/cfin_b_1251-cisco-finesse-installation-and-upgrade_appendix_0110.html": {
       "content_sha": "138209c4dda1b42f0e52db374da0d90c9e98e31a86622c0a020e52ab0323702e",
@@ -147469,10 +147481,10 @@
       "first_seen": "2026-08-16T19:27:43.660827+00:00",
       "last_changed": "2026-08-16T19:27:43.660827+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:31:30.921940+00:00",
-      "next_check": "2026-08-28T16:31:30.921940+00:00",
+      "last_seen": "2026-09-07T13:16:22.040922+00:00",
+      "next_check": "2026-09-15T13:16:22.040922+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/guide/cfin_b_1261-cisco-desktop-user-guide/cfin_b_1261-cisco-desktop-user-guide_chapter_01.html": {
       "content_sha": "43749e650e4554e8e318de227c0521cf2264230d0f0062eabc25dc20c6df7b01",
@@ -147820,10 +147832,10 @@
       "first_seen": "2026-08-21T06:42:07.714714+00:00",
       "last_changed": "2026-08-21T06:42:07.714714+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:33:28.043366+00:00",
-      "next_check": "2026-08-26T16:33:28.043366+00:00",
+      "last_seen": "2026-09-07T13:15:52.113170+00:00",
+      "next_check": "2026-09-11T13:15:52.113170+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/doc/guide/cfin_b_1262_cisco-finesse-documentation-guide/cfin_m_1262_cisco-finesse-documentation-guide.html": {
       "content_sha": "d0f8a56812086af3cc6e85d297cb85d7948d046c62c8b1d058b78990e6072103",
@@ -147846,10 +147858,10 @@
       "first_seen": "2026-08-21T06:42:24.885185+00:00",
       "last_changed": "2026-08-21T06:42:24.885185+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:33:36.451338+00:00",
-      "next_check": "2026-08-26T16:33:36.451338+00:00",
+      "last_seen": "2026-09-07T13:16:09.515736+00:00",
+      "next_check": "2026-09-11T13:16:09.515736+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/installation/guide/cfin_b_1262_cisco-finesse-installation-and-upgrade/appendix.html": {
       "content_sha": "9f0f4771b5eb4dc72fded45f3a68f8c2dd399b5bacba9d42e81f7f312fc9a083",
@@ -147963,10 +147975,10 @@
       "first_seen": "2026-08-16T20:43:01.328939+00:00",
       "last_changed": "2026-08-16T20:43:01.328939+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:34:15.439302+00:00",
-      "next_check": "2026-08-28T16:34:15.439302+00:00",
+      "last_seen": "2026-09-07T13:15:36.294216+00:00",
+      "next_check": "2026-09-15T13:15:36.294216+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/user/guide/cfin_b_1262_cisco-desktop-user-guide/cfin_m_1261-common-tasks.html": {
       "content_sha": "46a8407cd7fdef9e7dd2a6bf7198be7ad14525fc381609a51c82c39985ddc33b",
@@ -148301,10 +148313,10 @@
       "first_seen": "2026-08-21T06:42:03.589343+00:00",
       "last_changed": "2026-08-21T06:42:03.589343+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:36:06.719347+00:00",
-      "next_check": "2026-08-26T16:36:06.719347+00:00",
+      "last_seen": "2026-09-07T13:15:47.808330+00:00",
+      "next_check": "2026-09-11T13:15:47.808330+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/doc/guide/cfin_b_1501_cisco-finesse-documentation-guide/cfin_m_1501_cisco-finesse-documentation-guide.html": {
       "content_sha": "3266973b58a6f82bc932917c91f3784668d5acaa4af796ac35116a03da9109d5",
@@ -148327,10 +148339,10 @@
       "first_seen": "2026-08-21T06:42:20.364702+00:00",
       "last_changed": "2026-08-21T06:42:20.364702+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:36:15.626020+00:00",
-      "next_check": "2026-08-26T16:36:15.626020+00:00",
+      "last_seen": "2026-09-07T13:16:05.141400+00:00",
+      "next_check": "2026-09-11T13:16:05.141400+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/cfin_b_1501_cisco-installation-and-upgrade-guide-15_0/cfin_m_1501_cisco-finesse-server-installation.html": {
       "content_sha": "15f119ffd8853a5fd38e12c7553c232055d5729a76a0a79102f1034036ba69c8",
@@ -165966,10 +165978,10 @@
       "first_seen": "2026-08-16T19:33:29.861911+00:00",
       "last_changed": "2026-08-16T19:33:29.861911+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:24:53.071964+00:00",
-      "next_check": "2026-08-29T00:24:53.071964+00:00",
+      "last_seen": "2026-09-07T13:17:46.431005+00:00",
+      "next_check": "2026-09-15T13:17:46.431005+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/install/guide/cuic_b_installation-and-upgrade-guide-1205.html": {
       "content_sha": "4382795eced4359fa2dbb40b3533a16020ab1f3e74c1f1ec4b5a2b9986ccfdd5",
@@ -165979,10 +165991,10 @@
       "first_seen": "2026-08-16T19:33:36.075391+00:00",
       "last_changed": "2026-08-16T19:33:36.075391+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:24:57.422625+00:00",
-      "next_check": "2026-08-29T00:24:57.422625+00:00",
+      "last_seen": "2026-09-07T13:18:03.429169+00:00",
+      "next_check": "2026-09-15T13:18:03.429169+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/install/guide/cuic_b_installation-and-upgrade-guide-1205/cuic_b_installation-and-upgrade-guide-1205_chapter_01.html": {
       "content_sha": "b6755c6f6aa089589877d66aaac37a0e97fb99f91a829c35319c7cd4930d980e",
@@ -166317,10 +166329,10 @@
       "first_seen": "2026-08-16T19:33:41.174344+00:00",
       "last_changed": "2026-08-16T19:33:41.174344+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:26:50.177941+00:00",
-      "next_check": "2026-08-29T00:26:50.177941+00:00",
+      "last_seen": "2026-09-07T13:18:23.892090+00:00",
+      "next_check": "2026-09-15T13:18:23.892090+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_report-customization-guide-1205/cuic_b_report-customization-guide-1205_appendix_0111.html": {
       "content_sha": "4e1a059e10719149b40a613c66eff6ab1e13d6b67a05f4d70964fbd81ea9e99e",
@@ -166434,10 +166446,10 @@
       "first_seen": "2026-08-16T19:33:46.276396+00:00",
       "last_changed": "2026-08-16T19:33:46.276396+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:27:28.584437+00:00",
-      "next_check": "2026-08-29T00:27:28.584437+00:00",
+      "last_seen": "2026-09-07T13:18:28.465804+00:00",
+      "next_check": "2026-09-15T13:18:28.465804+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_user-guide-1205/cuic_b_user-guide-1205_chapter_01.html": {
       "content_sha": "cbbf6ad574c2aa4015f17162fc72949713204167277c3ed18747be1ba2332889",
@@ -166564,10 +166576,10 @@
       "first_seen": "2026-08-21T06:43:49.178832+00:00",
       "last_changed": "2026-08-21T06:43:49.178832+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:32:09.057498+00:00",
-      "next_check": "2026-08-27T00:32:09.057498+00:00",
+      "last_seen": "2026-09-07T13:17:42.290311+00:00",
+      "next_check": "2026-09-11T13:17:42.290311+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/install/guide/cuic_b_install-and-upgrade-guide-1261.html": {
       "content_sha": "bbd09c0ad393f5319f8c3c7ea6cf851011e26d3628dbf5b107002167bad24dd4",
@@ -166577,10 +166589,10 @@
       "first_seen": "2026-08-21T06:43:57.484327+00:00",
       "last_changed": "2026-08-21T06:43:57.484327+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:32:13.573611+00:00",
-      "next_check": "2026-08-27T00:32:13.573611+00:00",
+      "last_seen": "2026-09-07T13:17:59.165578+00:00",
+      "next_check": "2026-09-11T13:17:59.165578+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/install/guide/cuic_b_install-and-upgrade-guide-1261/cuic_b_installation-and-upgrade-guide-1205_preface_00.html": {
       "content_sha": "5584b3b3ea1eec41d729b4b18ee981b38848d0893f25d72e3419770c26339143",
@@ -166902,10 +166914,10 @@
       "first_seen": "2026-08-21T06:44:01.798365+00:00",
       "last_changed": "2026-08-21T06:44:01.798365+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:34:01.311830+00:00",
-      "next_check": "2026-08-27T00:34:01.311830+00:00",
+      "last_seen": "2026-09-07T13:18:15.877225+00:00",
+      "next_check": "2026-09-11T13:18:15.877225+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_report-customization-guide-1261/cuic_b_report-customization-guide-1205_appendix_0111.html": {
       "content_sha": "67369f4070c55b8bec63218c805bb263f4c9a44ba55f56beab0dca4f934a64bd",
@@ -167019,10 +167031,10 @@
       "first_seen": "2026-08-21T06:44:05.981485+00:00",
       "last_changed": "2026-08-21T06:44:05.981485+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:34:38.824951+00:00",
-      "next_check": "2026-08-27T00:34:38.824951+00:00",
+      "last_seen": "2026-09-07T13:18:20.120505+00:00",
+      "next_check": "2026-09-11T13:18:20.120505+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_user-guide-1261/cuic_b_user-guide-1205_chapter_01.html": {
       "content_sha": "69035559ad6d1f2c341da009a7c84267193fda709215a9c38b2fa6c3db0dcf47",
@@ -167149,10 +167161,10 @@
       "first_seen": "2026-08-21T06:43:44.971802+00:00",
       "last_changed": "2026-08-21T06:43:44.971802+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:35:21.822361+00:00",
-      "next_check": "2026-08-27T00:35:21.822361+00:00",
+      "last_seen": "2026-09-07T13:17:38.030250+00:00",
+      "next_check": "2026-09-11T13:17:38.030250+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262.html": {
       "content_sha": "4991d8bfdf317875b091ad1da90c9fe255212e7bac7c6a44089003fc75effb52",
@@ -167162,10 +167174,10 @@
       "first_seen": "2026-08-21T06:43:53.018458+00:00",
       "last_changed": "2026-08-21T06:43:53.018458+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:35:25.924598+00:00",
-      "next_check": "2026-08-27T00:35:25.924598+00:00",
+      "last_seen": "2026-09-07T13:17:54.866503+00:00",
+      "next_check": "2026-09-11T13:17:54.866503+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262/cuic_m_administration-console-sign-in-1261.html": {
       "content_sha": "93b0e97a6544225904d3a3ccab581f815122a6f8ac9d7c99c0af12f7c4e66f4d",
@@ -167487,10 +167499,10 @@
       "first_seen": "2026-08-16T19:24:35.406119+00:00",
       "last_changed": "2026-08-16T19:24:35.406119+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:37:14.120947+00:00",
-      "next_check": "2026-08-29T00:37:14.120947+00:00",
+      "last_seen": "2026-09-07T13:17:33.850967+00:00",
+      "next_check": "2026-09-15T13:17:33.850967+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0.html": {
       "content_sha": "6ec443ba8f12d011edf1c99ea1b1800de5c47f62f421988b60f03bada7341ac3",
@@ -167500,10 +167512,10 @@
       "first_seen": "2026-08-16T19:24:39.740135+00:00",
       "last_changed": "2026-08-16T19:24:39.740135+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:37:18.606669+00:00",
-      "next_check": "2026-08-29T00:37:18.606669+00:00",
+      "last_seen": "2026-09-07T13:17:50.827260+00:00",
+      "next_check": "2026-09-15T13:17:50.827260+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_administration_console_signin.html": {
       "content_sha": "27a765f17d1f0abafde27df9e5b2f4a7278f754e5e30a993cda3781473714f53",
@@ -167825,10 +167837,10 @@
       "first_seen": "2026-08-16T19:25:00.869285+00:00",
       "last_changed": "2026-08-16T19:25:00.869285+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:43:42.824720+00:00",
-      "next_check": "2026-08-29T00:43:42.824720+00:00",
+      "last_seen": "2026-09-07T13:18:11.530011+00:00",
+      "next_check": "2026-09-15T13:18:11.530011+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_dashboards.html": {
       "content_sha": "bf4e0b21b1a6f6c0341a2667a39f8f4cd9f6fe641ed2981fca36ca629f4eca83",
@@ -167955,10 +167967,10 @@
       "first_seen": "2026-08-16T19:24:56.610896+00:00",
       "last_changed": "2026-08-16T19:24:56.610896+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T00:44:24.783922+00:00",
-      "next_check": "2026-08-29T00:44:24.783922+00:00",
+      "last_seen": "2026-09-07T13:18:07.188531+00:00",
+      "next_check": "2026-09-15T13:18:07.188531+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_report-customization-guide-1501/cuic_m_configure-1501.html": {
       "content_sha": "1b5e918e18441eb32f96feff8a5a8cf7d7a6bd38c20a9c3f8e490f774b01612e",
@@ -197810,5 +197822,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T13:06:58.825085+00:00"
+  "updated_at": "2026-09-07T13:18:28.560703+00:00"
 }
