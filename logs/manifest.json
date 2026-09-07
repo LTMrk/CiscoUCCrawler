@@ -6232,6 +6232,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq74727": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuq74727-2fda6f0796",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:29:14.181120+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:29:14.181131+00:00",
+      "next_check": "2026-09-08T13:29:14.181131+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq75767": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuq75767-b7e7b46b7d",
@@ -6458,6 +6470,18 @@
       "http_status": 403,
       "last_seen": "2026-08-25T12:06:52.640739+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuu78331": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscuu78331-b23b3ce81c",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:29:18.783294+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:29:18.783306+00:00",
+      "next_check": "2026-09-08T13:29:18.783306+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuu95425": {
@@ -6696,6 +6720,18 @@
       "http_status": 403,
       "last_seen": "2026-08-25T22:42:34.118611+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd23158": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvd23158-e99c9051b1",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:29:10.517399+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:29:10.517410+00:00",
+      "next_check": "2026-09-08T13:29:10.517410+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd85721": {
@@ -8144,6 +8180,18 @@
       "http_status": 403,
       "last_seen": "2026-08-21T04:11:01.727102+00:00",
       "status": "blocked",
+      "unchanged_runs": 0
+    },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm82335": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvm82335-78bc2537d4",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T13:29:22.488688+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T13:29:22.488699+00:00",
+      "next_check": "2026-09-08T13:29:22.488699+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm84478": {
@@ -141813,10 +141861,10 @@
       "first_seen": "2026-08-21T17:03:12.461322+00:00",
       "last_changed": "2026-08-21T17:03:12.461322+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:11.205196+00:00",
-      "next_check": "2026-08-26T15:50:11.205196+00:00",
+      "last_seen": "2026-09-07T13:29:51.533706+00:00",
+      "next_check": "2026-09-11T13:29:51.533706+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/ccvp_m_1501-customer-voice-portal-engineering-specials-for-release.html": {
       "content_sha": "5c95c97cdab45e1fa611b272636432bb543e4dcbc370009d9c68501ebe3bcd43",
@@ -141826,10 +141874,10 @@
       "first_seen": "2026-08-21T17:03:07.956416+00:00",
       "last_changed": "2026-08-21T17:03:07.956416+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:15.436202+00:00",
-      "next_check": "2026-08-26T15:50:15.436202+00:00",
+      "last_seen": "2026-09-07T13:29:47.089700+00:00",
+      "next_check": "2026-09-11T13:29:47.089700+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1251_virtualized-voice-browser-engineering-specials-for-release.html": {
       "content_sha": "ada2c15737f96e1e6d8cfc55194bf29df266eaf4547f16876855d20bb156645f",
@@ -141839,10 +141887,10 @@
       "first_seen": "2026-08-21T17:03:37.758412+00:00",
       "last_changed": "2026-08-21T17:03:37.758412+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:19.395655+00:00",
-      "next_check": "2026-08-26T15:50:19.395655+00:00",
+      "last_seen": "2026-09-07T13:30:16.344048+00:00",
+      "next_check": "2026-09-11T13:30:16.344048+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1261_virtualized-voice-browser-engineering-specials-for-release.html": {
       "content_sha": "577e676644373a851fb618cda08db7424ee503883c77233ea3be1b79feb78772",
@@ -141852,10 +141900,10 @@
       "first_seen": "2026-08-21T17:03:33.188358+00:00",
       "last_changed": "2026-08-21T17:03:33.188358+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:23.496403+00:00",
-      "next_check": "2026-08-26T15:50:23.496403+00:00",
+      "last_seen": "2026-09-07T13:30:12.282077+00:00",
+      "next_check": "2026-09-11T13:30:12.282077+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1262_virtualized-voice-browser-engineering-specials-for-release.html": {
       "content_sha": "159a6daf2b67bac3e5b60105c142c31da1800152afee17fac48c5fc71b62b917",
@@ -141865,10 +141913,10 @@
       "first_seen": "2026-08-21T17:03:29.116085+00:00",
       "last_changed": "2026-08-21T17:03:29.116085+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:27.894357+00:00",
-      "next_check": "2026-08-26T15:50:27.894357+00:00",
+      "last_seen": "2026-09-07T13:30:07.870138+00:00",
+      "next_check": "2026-09-11T13:30:07.870138+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1501_virtualized-voice-browser-engineering-specials-for-release.html": {
       "content_sha": "3d221031b47643e0b1c3166ed618c812ad9b4fc5dbcca48577c853212404997f",
@@ -141878,10 +141926,10 @@
       "first_seen": "2026-08-21T17:03:24.834734+00:00",
       "last_changed": "2026-08-21T17:03:24.834734+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:32.149043+00:00",
-      "next_check": "2026-08-26T15:50:32.149043+00:00",
+      "last_seen": "2026-09-07T13:30:03.708531+00:00",
+      "next_check": "2026-09-11T13:30:03.708531+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/m_1251-customer-voice-portal-engineering-specials-for-release.html": {
       "content_sha": "ce7db5b168489ade9a31268d8a9ab95aab8d795bb5b86493d657b57d15e2fb8d",
@@ -141891,10 +141939,10 @@
       "first_seen": "2026-08-21T17:03:21.029972+00:00",
       "last_changed": "2026-08-21T17:03:21.029972+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:36.152460+00:00",
-      "next_check": "2026-08-26T15:50:36.152460+00:00",
+      "last_seen": "2026-09-07T13:29:59.863198+00:00",
+      "next_check": "2026-09-11T13:29:59.863198+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/m_1261-customer-voice-portal-engineering-specials-for-release.html": {
       "content_sha": "fa2a2fabf75442dcc344a54d1bc6830008b99f3e6f5cc59b004bb15337e3bf9c",
@@ -141904,10 +141952,10 @@
       "first_seen": "2026-08-21T17:03:16.675572+00:00",
       "last_changed": "2026-08-21T17:03:16.675572+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:40.410202+00:00",
-      "next_check": "2026-08-26T15:50:40.410202+00:00",
+      "last_seen": "2026-09-07T13:29:55.416067+00:00",
+      "next_check": "2026-09-11T13:29:55.416067+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/preface.html": {
       "content_sha": "c04d908335a661681629b21cdd14f0d344f78e6716ee380efa991a8f5daa4a4a",
@@ -141917,10 +141965,10 @@
       "first_seen": "2026-08-21T17:03:03.810667+00:00",
       "last_changed": "2026-08-21T17:03:03.810667+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T15:50:44.379696+00:00",
-      "next_check": "2026-08-26T15:50:44.379696+00:00",
+      "last_seen": "2026-09-07T13:29:42.843805+00:00",
+      "next_check": "2026-09-11T13:29:42.843805+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp12_0/installation/guide/ccvp_b_installation-and-upgrade-guide-12-0/New_ccvp_b_installation-and-upgrade-guide-12-0_chapter_011.html": {
       "content_sha": null,
@@ -197834,5 +197882,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T13:24:12.579832+00:00"
+  "updated_at": "2026-09-07T13:30:38.607694+00:00"
 }

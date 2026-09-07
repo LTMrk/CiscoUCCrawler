@@ -1,15 +1,16 @@
 {
-  "run_at": "2026-09-07T13:24:12.796840+00:00",
+  "run_at": "2026-09-07T13:30:38.823936+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-211537-troubleshoot-cvp-courtesy-de98063518"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 7,
+  "unchanged_count": 9,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur70829 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq74727 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuu78331 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd23158 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvm82335 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
