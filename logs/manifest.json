@@ -15177,6 +15177,18 @@
       "status": "blocked",
       "unchanged_runs": 0
     },
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx35891": {
+      "content_sha": null,
+      "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx35891-c3825dc9a4",
+      "fail_count": 0,
+      "first_seen": "2026-09-07T23:09:05.778115+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-07T23:09:05.778126+00:00",
+      "next_check": "2026-09-08T23:09:05.778126+00:00",
+      "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx38439": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvx38439-ac17d5af9f",
@@ -175389,10 +175401,10 @@
       "first_seen": "2026-08-16T22:59:40.929686+00:00",
       "last_changed": "2026-08-16T22:59:40.929686+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T01:31:21.953490+00:00",
-      "next_check": "2026-08-29T01:31:21.953490+00:00",
+      "last_seen": "2026-09-07T23:09:42.999150+00:00",
+      "next_check": "2026-09-15T23:09:42.999150+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_chapter_01.html": {
       "content_sha": "02e826a512932eb1d4f28e87896e35a47a55458d51c5ca9939788cff90e41c79",
@@ -199452,5 +199464,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T23:04:30.161293+00:00"
+  "updated_at": "2026-09-07T23:09:44.158359+00:00"
 }
