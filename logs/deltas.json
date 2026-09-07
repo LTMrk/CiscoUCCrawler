@@ -1,14 +1,11 @@
 {
-  "run_at": "2026-09-07T20:05:11.629388+00:00",
+  "run_at": "2026-09-07T20:09:59.722508+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 56,
-  "redirected": [
-    "https://globalcontacts.cloudapps.cisco.com/contacts -> https://www.cisco.com/site/us/en/about/contact-cisco/index.html",
-    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/openBasicSearch.do -> https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=40351341DA704CF13E87120DFFF277CA"
-  ],
+  "unchanged_count": 3,
+  "redirected": [],
   "semillas_encoladas": 20
 }
