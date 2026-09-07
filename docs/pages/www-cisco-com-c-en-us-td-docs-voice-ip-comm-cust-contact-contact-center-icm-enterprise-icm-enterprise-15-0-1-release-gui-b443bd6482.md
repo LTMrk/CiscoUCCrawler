@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-b443bd6482
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603/rcct-m-feature-summary-1501-es202603.html
-retrieved_at: 2026-08-16T19:35:59.551231+00:00
+retrieved_at: 2026-09-07T16:41:35.386240+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU1/ES202603
@@ -230,13 +230,16 @@ For more information, see the Cross-Origin Resource Sharing for CCE section in t
 Transport Layer Security (TLS) is implemented over existing TCP connections to enable secure communication between Router,
                                     Logger, Administration & Data Server, Administration Client, and Peripheral Gateway (PG).
 
+Before you uninstall CCE 15.0(1) SU1/ES202603 or a later cumulative Engineering Special (ES), disable secure communication
+                                                between all CCE components. Otherwise, Peripheral Gateways cannot connect to the Router after you uninstall the ES.
+
 For more information, see the following guides:
 
-The Unified CCE and Packaged CCE Port Utilization section in the Port Utilization in Contact Center Enterprise chapter of Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html.
+The Unified CCE and Packaged CCE Port Utilization section in the Port Utilization in Contact Center Enterprise chapter of Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
 The Add Components to Unified CCE Instance section in the Installation chapter of Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html .
 
-The Enable Secure Communication Between CCE Components section in the Security Consideration chapter of Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-installation-guides-list.html .
+The Enable Secure Communication Between CCE Components section in the Security Considerations chapter of Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-installation-guides-list.html .
 
 The Manage Secured PII in Transit and CCE Internal Interface Secure Connection sections in the Certificate Management for Secured Connections chapter of Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
@@ -428,11 +431,11 @@ A configurable port number field has been introduced in the Integrated Configura
 
 #### ES202511
 
-For more information, see the Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202511 at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202511.html .
+For more information, see the Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202511 .
 
 #### ES202508
 
-For more information, see the Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202508 at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-for-es.html .
+For more information, see the Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202508 .
 
 ## Controlled Availability Features
 
@@ -595,6 +598,10 @@ Wrap-up summaries : AI-generated summaries produced at the conclusion of a custo
 
 | Note | For deployments using MGW Service Only or Mixed Mode, a medium profile OVA is required. Mixed Mode deployments additionally
                                                       require increased vRAM (16 GB instead of the default 10 GB). For more information, see the Cisco VVB virtualization page. |
+|---|---|
+
+| Note | Before you uninstall CCE 15.0(1) SU1/ES202603 or a later cumulative Engineering Special (ES), disable secure communication
+                                                between all CCE components. Otherwise, Peripheral Gateways cannot connect to the Router after you uninstall the ES. |
 |---|---|
 
 | Note | Environments requiring a proxy server must now configure proxy settings before proceeding with node registration. |

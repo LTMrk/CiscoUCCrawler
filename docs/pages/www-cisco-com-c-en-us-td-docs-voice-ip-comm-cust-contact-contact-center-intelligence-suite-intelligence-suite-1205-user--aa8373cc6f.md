@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-user--aa8373cc6f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_user-guide-1205/cuic_b_user-guide-1205_chapter_011.html
-retrieved_at: 2026-08-16T19:33:16.634900+00:00
+retrieved_at: 2026-09-07T16:40:19.046922+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 12.5(1)
@@ -1261,6 +1261,10 @@ If necessary, you can rename the report or the report folder. Do not change the 
 Step 3
 
 Click OK .
+
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
 
 | Note | All actions on the Reports interface are based on user role and on the user's object permissions for reports and for folders. |
 |---|---|
