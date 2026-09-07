@@ -1,15 +1,15 @@
 {
-  "run_at": "2026-09-07T16:17:14.982612+00:00",
+  "run_at": "2026-09-07T16:28:08.002150+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-hms-html-687516e1e1"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 92,
+  "unchanged_count": 73,
   "redirected": [
-    "https://cqc.cloudapps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cucst.cloudapps.cisco.com/landing -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-implementation-design-guides-list.html -> https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html"
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html -> https://cisco.login.duosecurity.com/email_first"
   ],
   "semillas_encoladas": 20
 }
