@@ -1,18 +1,11 @@
 {
-  "run_at": "2026-09-07T22:14:31.500253+00:00",
+  "run_at": "2026-09-07T22:25:44.998177+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-221624-troubleshoo-e12a18d67a"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 70,
-  "redirected": [
-    "http://cisco.com/go/hybrid-services -> https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc69661 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd38155 -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "unchanged_count": 96,
+  "redirected": [],
   "semillas_encoladas": 20
 }
