@@ -1,15 +1,11 @@
 {
-  "run_at": "2026-09-07T16:28:08.002150+00:00",
+  "run_at": "2026-09-07T16:33:20.781106+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-hms-html-687516e1e1"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 73,
-  "redirected": [
-    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html -> https://cisco.login.duosecurity.com/email_first"
-  ],
+  "unchanged_count": 5,
+  "redirected": [],
   "semillas_encoladas": 20
 }

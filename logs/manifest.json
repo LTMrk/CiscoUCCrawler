@@ -32564,10 +32564,10 @@
       "first_seen": "2026-08-16T19:10:25.101469+00:00",
       "last_changed": "2026-08-16T19:10:25.101469+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:14:16.316859+00:00",
-      "next_check": "2026-08-25T13:14:16.316859+00:00",
+      "last_seen": "2026-09-07T16:32:35.266532+00:00",
+      "next_check": "2026-09-15T16:32:35.266532+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://snmp.cloudapps.cisco.com/Support/SNMP/do/BrowseMIB.do": {
       "content_sha": null,
@@ -40434,10 +40434,10 @@
       "first_seen": "2026-08-16T19:13:04.106067+00:00",
       "last_changed": "2026-08-16T19:13:04.106067+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-21T13:16:39.742262+00:00",
-      "next_check": "2026-08-25T13:16:39.742262+00:00",
+      "last_seen": "2026-09-07T16:33:01.239500+00:00",
+      "next_check": "2026-09-15T16:33:01.239500+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211351-Collect-Communication-Manager-Logs-via-t.html": {
       "content_sha": "28b4ab84f09532226ec3f3d0f0f209b0103377dad1cba2984b99765a42def149",
@@ -103959,10 +103959,10 @@
       "first_seen": "2026-08-16T19:13:12.540259+00:00",
       "last_changed": "2026-08-16T19:13:12.540259+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T11:01:42.541789+00:00",
-      "next_check": "2026-08-28T11:01:42.541789+00:00",
+      "last_seen": "2026-09-07T16:33:10.743975+00:00",
+      "next_check": "2026-09-15T16:33:10.743975+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1/cucm_b_release-notes-for-cucm-imp-1251su1_chapter_010.html": {
       "content_sha": "4fc610ec19e14fe1ea7fe5dff798ef78ce47d23b05833740d28701a2f46d5a7f",
@@ -104310,10 +104310,10 @@
       "first_seen": "2026-08-16T19:13:08.751942+00:00",
       "last_changed": "2026-08-16T19:13:08.751942+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T11:03:36.611187+00:00",
-      "next_check": "2026-08-28T11:03:36.611187+00:00",
+      "last_seen": "2026-09-07T16:33:06.641259+00:00",
+      "next_check": "2026-09-15T16:33:06.641259+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/cucm_b_release-notes-cucm-imp-1251/cucm_b_release-notes-cucm-imp-1251_chapter_0101.html": {
       "content_sha": "0395789c9ad3bdcb62f52305bf68ec885461a74a9acf461948fd3b54630f9df8",
@@ -106857,10 +106857,10 @@
       "first_seen": "2026-08-16T19:13:18.078889+00:00",
       "last_changed": "2026-08-16T19:13:18.078889+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T11:22:43.306164+00:00",
-      "next_check": "2026-08-28T11:22:43.306164+00:00",
+      "last_seen": "2026-09-07T16:33:15.881094+00:00",
+      "next_check": "2026-09-15T16:33:15.881094+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_010.html": {
       "content_sha": "4fb97b10e172dd9a885a58d99807644ef9adc1d1c28ceacbda0656a13159bf98",
@@ -199368,5 +199368,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-07T16:28:07.756209+00:00"
+  "updated_at": "2026-09-07T16:33:20.601744+00:00"
 }
