@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-install-guide-uccx-b-150-instal-7bdee7e026
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/uccx_b_150_install-and-upgrade-guide/uccx_m_150_unified-ccx-upgrade.html
-retrieved_at: 2026-08-16T21:11:23.691763+00:00
+retrieved_at: 2026-09-07T18:25:24.307562+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 15.0
@@ -358,11 +358,118 @@ After a successful installation of the upgrade COP, power off the virtual machin
 
 In the VMWare VSphere , right-click on the virtual machine and select Edit Settings .
 
-In the Options tab, select General Options , update the Guest OS Version to Other Linux(64 bit) , and click OK .
-
 Again, right-click on the virtual machine and select Edit Settings . In the Hardware tab, update the Memory Size and RAM . For the appropriate parameter values, see the Virtualization for Cisco Unified Contact Center Express .
 
 Power on the virtual machine and continue with the upgrade.
+
+### Update Virtual Machine Hardware Version
+
+Follow these steps to update the virtual hardware version for an existing virtual machine running on an ESXi host version
+                                 7.0 or later.
+
+Caution
+
+Perform this procedure only on virtual machines running on ESXi host version 7.0 or later. If you perform this procedure on
+                                             virtual machines running on an ESXi host earlier than version 7.0, the virtual machine fails to boot.
+
+Step 1
+
+Power off the virtual machine to update the virtual machine version.
+
+Step 2
+
+Navigate to the Summary tab for the virtual machine.
+
+Step 3
+
+Navigate to Storage section and click on Datastores . Select the required folder from the Files tab.
+
+Step 4
+
+In the Datastore Browser window, locate and select the folder for the virtual machine.
+
+Step 5
+
+Right-click the <virtual_machine_name>.vmx file and choose Download .
+
+Step 6
+
+Save the file to a local folder.
+
+Step 7
+
+Create a backup copy of the downloaded .vmx file.
+
+Step 8
+
+Open the downloaded .vmx file in a text editor.
+
+Step 9
+
+Locate the virtualHW.version entry.
+
+Step 10
+
+Change the entry to virtualHW.version = "17" .
+
+Step 11
+
+In the Datastore Browser window, select the folder for the virtual machine and click Upload files to this datastore .
+
+Step 12
+
+Choose Upload File , select the updated <virtual_machine_name>.vmx file, and overwrite the existing file.
+
+Step 13
+
+Note the ESXi host on which the virtual machine is located.
+
+Step 14
+
+In the main vSphere client window, right-click the virtual machine and choose Remove from Inventory .
+
+Step 15
+
+Return to the Datastore Browser and select the folder for the virtual machine. Next, select the <virtual_machine_name>.vmx file and click the Register VM .
+
+Step 16
+
+In the Register VM step, select the same ESXi as resource (on which virtual machine was previously located) and complete the
+                                          step.
+
+Step 17
+
+Power on the virtual machine.
+
+Step 18
+
+Verify that the VM Version field on the Summary tab displays the required version.
+
+If you perform a rollback to any of the previous releases, you must modify the virtual machine parameters as mentioned in
+                                             the Virtualization for Cisco Unified Contact Center Express .
+
+### Update Virtual Machine Operation System Version
+
+Before you upgrade to 15.0, you must modify the virtual machine parameters to update the Operating System version
+
+Step 1
+
+After a successful installation of the upgrade COP, power off the virtual machine.
+
+Step 2
+
+In the VMWare VSphere , right-click on the virtual machine and select Edit Settings .
+
+Step 3
+
+In the Options tab, select General Options , update the Guest OS Version to Other 4.x or later Linux(64 bit) , and click OK .
+
+Step 4
+
+Power on the virtual machine and continue with the upgrade.
+
+If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
+                                                         in the Virtualization for Cisco Unified Contact Center Express .
 
 ### Upgrade Unified
                            	 CCX Using Web Interface
@@ -1109,6 +1216,46 @@ Click the Cisco Unified CCX Real-Time Reporting Tool hyperlink to download and l
 
 | Note | If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
                                           in the Virtualization for Cisco Unified Contact Center Express . |
+|---|---|
+
+| Caution | Perform this procedure only on virtual machines running on ESXi host version 7.0 or later. If you perform this procedure on
+                                             virtual machines running on an ESXi host earlier than version 7.0, the virtual machine fails to boot. |
+|---|---|
+
+| Step 1 | Power off the virtual machine to update the virtual machine version. |
+|---|---|
+| Step 2 | Navigate to the Summary tab for the virtual machine. |
+| Step 3 | Navigate to Storage section and click on Datastores . Select the required folder from the Files tab. |
+| Step 4 | In the Datastore Browser window, locate and select the folder for the virtual machine. |
+| Step 5 | Right-click the <virtual_machine_name>.vmx file and choose Download . |
+| Step 6 | Save the file to a local folder. |
+| Step 7 | Create a backup copy of the downloaded .vmx file. |
+| Step 8 | Open the downloaded .vmx file in a text editor. |
+| Step 9 | Locate the virtualHW.version entry. |
+| Step 10 | Change the entry to virtualHW.version = "17" . |
+| Step 11 | In the Datastore Browser window, select the folder for the virtual machine and click Upload files to this datastore . |
+| Step 12 | Choose Upload File , select the updated <virtual_machine_name>.vmx file, and overwrite the existing file. |
+| Step 13 | Note the ESXi host on which the virtual machine is located. |
+| Step 14 | In the main vSphere client window, right-click the virtual machine and choose Remove from Inventory . |
+| Step 15 | Return to the Datastore Browser and select the folder for the virtual machine. Next, select the <virtual_machine_name>.vmx file and click the Register VM . |
+| Step 16 | In the Register VM step, select the same ESXi as resource (on which virtual machine was previously located) and complete the
+                                          step. |
+| Step 17 | Power on the virtual machine. |
+| Step 18 | Verify that the VM Version field on the Summary tab displays the required version. If you perform a rollback to any of the previous releases, you must modify the virtual machine parameters as mentioned in
+                                             the Virtualization for Cisco Unified Contact Center Express . |
+
+| Step 1 | After a successful installation of the upgrade COP, power off the virtual machine. |
+|---|---|
+| Step 2 | In the VMWare VSphere , right-click on the virtual machine and select Edit Settings . |
+| Step 3 | In the Options tab, select General Options , update the Guest OS Version to Other 4.x or later Linux(64 bit) , and click OK . |
+| Step 4 | Power on the virtual machine and continue with the upgrade. Note If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
+                                                         in the Virtualization for Cisco Unified Contact Center Express . | Note | If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
+                                                         in the Virtualization for Cisco Unified Contact Center Express . |
+| Note | If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
+                                                         in the Virtualization for Cisco Unified Contact Center Express . |
+
+| Note | If you perform a switch-back to any of the previous releases, you must modify the virtual machine parameters as mentioned
+                                                         in the Virtualization for Cisco Unified Contact Center Express . |
 |---|---|
 
 | Step 1 | Log in to Cisco Unified OS Administration using
