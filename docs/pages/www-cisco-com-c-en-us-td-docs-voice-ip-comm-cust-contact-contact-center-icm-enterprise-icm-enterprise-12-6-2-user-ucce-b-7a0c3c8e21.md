@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-ucce-b-7a0c3c8e21
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/ucce_b_1262_outbound_options_guide/ucce_m_1262_registry-settings.html
-retrieved_at: 2026-08-16T20:33:01.883052+00:00
+retrieved_at: 2026-09-07T17:48:56.348506+00:00
 ---
 
 Outbound Option Guide for Unified Contact Center Enterprise, Release 12.6(2)
@@ -56,6 +56,18 @@ Calculates the callback time range for each personal and regular callback in min
                                           CallbackTimeLimit is set to 15 minutes, the Dialer keeps reserving the agent and calling the customer for 15 minutes before
                                           giving up for that day. For Personal Callbacks, the Dialer re-reserves the agent based on the PersonalCallbackTimeToRetryReservation
                                           registry entry.
+
+CampaignManagerActiveSideRetrySeconds (Campaign Manager only)
+
+The recommended value is 1. If this registry value is not configured or is set to 0, caching will be disabled.
+
+The registry value must be configured on the Admin Workstation. It controls how frequently the internal cache is refreshed
+                                          to identify the active side of the Campaign Manager process.
+
+Modify this setting only under the guidance of Cisco Support.
+
+If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again.
 
 ContactTableImportThreshold
 
@@ -1047,6 +1059,12 @@ Once a
                                           CallbackTimeLimit is set to 15 minutes, the Dialer keeps reserving the agent and calling the customer for 15 minutes before
                                           giving up for that day. For Personal Callbacks, the Dialer re-reserves the agent based on the PersonalCallbackTimeToRetryReservation
                                           registry entry. |
+| CampaignManagerActiveSideRetrySeconds (Campaign Manager only) | The recommended value is 1. If this registry value is not configured or is set to 0, caching will be disabled. | The registry value must be configured on the Admin Workstation. It controls how frequently the internal cache is refreshed
+                                          to identify the active side of the Campaign Manager process. Modify this setting only under the guidance of Cisco Support. Note If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. | Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
+| Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
 | ContactTableImportThreshold | Default Value is 1 million, and if the value is set to 0 you will not receive the SNMP trap. | This is a threshold for number of records in a contact table. If number of records go beyond this threshold value, SNMP trap
                                           will be generated corresponding to that contact table after every successful import. |
 | DialerDetailBufferSize | 20 | Describes how many dialer detail records should be buffered before sending to the Central Controller database. |
@@ -1148,6 +1166,10 @@ Once a
                                           no longer in sync. |
 | ReplicationFileSwitchDuration | 15 Seconds | Represents the amount of time before temporary files are renamed to replication files. This registry also provides information
                                           to the standby Campaign Manager if it were to observe a temporary file remaining open for longer than this duration. |
+
+| Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
+|---|---|
 
 | Note | The call status values can optionally be delimited using a comma, a hyphen, a semi-colon, or a colon. |
 |---|---|

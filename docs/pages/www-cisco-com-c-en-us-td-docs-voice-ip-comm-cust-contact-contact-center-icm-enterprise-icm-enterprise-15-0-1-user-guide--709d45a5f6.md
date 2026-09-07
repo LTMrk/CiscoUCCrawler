@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--709d45a5f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/example_scripts.html
-retrieved_at: 2026-08-16T20:39:11.152620+00:00
+retrieved_at: 2026-09-07T17:52:58.396324+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -812,6 +812,10 @@ The <constant> value is site
                                  of a call. This constant is only used if it is at the start of the
                                  day and the proper AvgHandledCallsTime has
                                  not been calculated.
+
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
 
 | Note | For the Run External Script node to work, there must be an entry in
                                           the Network VRU list pointing to the URL map file. After the Run

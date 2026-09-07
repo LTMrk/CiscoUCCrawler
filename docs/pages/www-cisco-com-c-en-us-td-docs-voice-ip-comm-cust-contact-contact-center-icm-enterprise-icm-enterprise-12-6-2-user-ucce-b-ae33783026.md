@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-ucce-b-ae33783026
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/ucce_b_1262_outbound_options_guide/ucce_m_1262_outbound-option-installation.html
-retrieved_at: 2026-08-16T20:32:44.655116+00:00
+retrieved_at: 2026-09-07T17:48:37.964819+00:00
 ---
 
 Outbound Option Guide for Unified Contact Center Enterprise, Release 12.6(2)
@@ -1287,7 +1287,7 @@ Supply the following information on this page:
 
 In the SIP Dialer Name field, enter the name of the SIP dialer. For example, Dialer_for_Premium_Calling_List . There’s a 32-character limit. The name entered here must match the name that is configured in Configuration Manager.
 
-For SIP Server Type , select either Cisco voice gateway or Cisco Unified SIP Proxy (CUSP) /Cisco Unified Border Element (CUBE) .
+For SIP Server Type , select either Cisco voice gateway or Cisco Unified SIP Proxy (CUSP) Cisco Contact Center SIP Proxy (CCCSP) /Cisco Unified Border Element (CUBE) .
 
 In the SIP Server field, enter the hostname or IP address of the Cisco voice gateway.
 
@@ -2077,7 +2077,7 @@ GO in which: <customer>_baB is the renamed new database. <customer>_baA_data0 is
 | Step 6 | Check Production mode and Auto start at system startup , unless your Unified ICM support provider specifically tells you otherwise . These options set the Dialer Service startup type to Automatic, so the dialer starts automatically when the machine starts
                                           up. The SIP (Session Initiation Protocol) Dialer Type is automatically selected. |
 | Step 7 | Click Next . |
-| Step 8 | Supply the following information on this page: In the SIP Dialer Name field, enter the name of the SIP dialer. For example, Dialer_for_Premium_Calling_List . There’s a 32-character limit. The name entered here must match the name that is configured in Configuration Manager. For SIP Server Type , select either Cisco voice gateway or Cisco Unified SIP Proxy (CUSP) /Cisco Unified Border Element (CUBE) . In the SIP Server field, enter the hostname or IP address of the Cisco voice gateway. Note The SIP Server hostnames are restricted to a maximum of 16 characters. In the SIP Server Port field, enter the port number of the SIP Server port. Default is 5060. Click Next . | Note | The SIP Server hostnames are restricted to a maximum of 16 characters. |
+| Step 8 | Supply the following information on this page: In the SIP Dialer Name field, enter the name of the SIP dialer. For example, Dialer_for_Premium_Calling_List . There’s a 32-character limit. The name entered here must match the name that is configured in Configuration Manager. For SIP Server Type , select either Cisco voice gateway or Cisco Unified SIP Proxy (CUSP) Cisco Contact Center SIP Proxy (CCCSP) /Cisco Unified Border Element (CUBE) . In the SIP Server field, enter the hostname or IP address of the Cisco voice gateway. Note The SIP Server hostnames are restricted to a maximum of 16 characters. In the SIP Server Port field, enter the port number of the SIP Server port. Default is 5060. Click Next . | Note | The SIP Server hostnames are restricted to a maximum of 16 characters. |
 | Note | The SIP Server hostnames are restricted to a maximum of 16 characters. |
 | Step 9 | On the Outbound Option Dialer Properties dialog, specify the
                                           			 following information: Campaign Manager

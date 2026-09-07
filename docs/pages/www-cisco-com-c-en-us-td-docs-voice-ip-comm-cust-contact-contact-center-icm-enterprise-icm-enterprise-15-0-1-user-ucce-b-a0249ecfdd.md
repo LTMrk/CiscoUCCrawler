@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-ucce-b-a0249ecfdd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/ucce_b_150_outbound-option-guide-for-unified/registry_settings.html
-retrieved_at: 2026-08-16T20:35:40.186180+00:00
+retrieved_at: 2026-09-07T17:51:33.469709+00:00
 ---
 
 Outbound Option Guide for Unified Contact Center Enterprise, Release 15.0(1)
@@ -56,6 +56,18 @@ Calculates the callback time range for each personal and regular callback in min
                                           CallbackTimeLimit is set to 15 minutes, the Dialer keeps reserving the agent and calling the customer for 15 minutes before
                                           giving up for that day. For Personal Callbacks, the Dialer re-reserves the agent based on the PersonalCallbackTimeToRetryReservation
                                           registry entry.
+
+CampaignManagerActiveSideRetrySeconds (Campaign Manager only)
+
+The recommended value is 1. If this registry value is not configured or is set to 0, caching will be disabled.
+
+The registry value must be configured on the Admin Workstation. It controls how frequently the internal cache is refreshed
+                                          to identify the active side of the Campaign Manager process.
+
+Modify this setting only under the guidance of Cisco Support.
+
+If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again.
 
 ContactTableImportThreshold
 
@@ -817,6 +829,21 @@ PreviewReservationTimeout
 Number of seconds to wait before canceling a preview agent’s reservation call. This key is automatically created when the
                                           Dialer starts. If a preview agent does not accept or reject a call within this time period, the agent’s reservation call is dropped and the record is marked as rejected.
 
+ProtocolNegotiationConfig
+
+0x000000A3
+
+This register combines timeout and retry settings into a single value for the version message negotiated between the dialer
+                                          and the Campaign Manager.
+
+Retry (Bits 3–0): Stores the maximum number of retry attempts.
+
+Timeout (Bits 15–4): Stores the message timeout in seconds.
+
+Example: 0x000000A3 (Max retry: 3; Timeout: 10 seconds).
+
+After the maximum number of retry attempts, the version will fall back to 15.0.1.
+
 ReclassifyTransferFailures
 
 0
@@ -1047,6 +1074,12 @@ Once a
                                           CallbackTimeLimit is set to 15 minutes, the Dialer keeps reserving the agent and calling the customer for 15 minutes before
                                           giving up for that day. For Personal Callbacks, the Dialer re-reserves the agent based on the PersonalCallbackTimeToRetryReservation
                                           registry entry. |
+| CampaignManagerActiveSideRetrySeconds (Campaign Manager only) | The recommended value is 1. If this registry value is not configured or is set to 0, caching will be disabled. | The registry value must be configured on the Admin Workstation. It controls how frequently the internal cache is refreshed
+                                          to identify the active side of the Campaign Manager process. Modify this setting only under the guidance of Cisco Support. Note If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. | Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
+| Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
 | ContactTableImportThreshold | Default Value is 1 million, and if the value is set to 0 you will not receive the SNMP trap. | This is a threshold for number of records in a contact table. If number of records go beyond this threshold value, SNMP trap
                                           will be generated corresponding to that contact table after every successful import. |
 | DialerDetailBufferSize | 20 | Describes how many dialer detail records should be buffered before sending to the Central Controller database. |
@@ -1148,6 +1181,10 @@ Once a
                                           no longer in sync. |
 | ReplicationFileSwitchDuration | 15 Seconds | Represents the amount of time before temporary files are renamed to replication files. This registry also provides information
                                           to the standby Campaign Manager if it were to observe a temporary file remaining open for longer than this duration. |
+
+| Note | If the Campaign Manager process fails over between two cache refreshes, incoming Import API requests may be proxied to the
+                                                      inactive side until the cache is refreshed again. |
+|---|---|
 
 | Note | The call status values can optionally be delimited using a comma, a hyphen, a semi-colon, or a colon. |
 |---|---|
@@ -1339,6 +1376,9 @@ Once a
 | Note | This
                                                    						registry setting also works with Direct Preview mode, and applies to the
                                                    						regular callback calls in both Preview mode and Direct Preview mode. |
+| ProtocolNegotiationConfig | 0x000000A3 | This register combines timeout and retry settings into a single value for the version message negotiated between the dialer
+                                          and the Campaign Manager. Retry (Bits 3–0): Stores the maximum number of retry attempts. Timeout (Bits 15–4): Stores the message timeout in seconds. Example: 0x000000A3 (Max retry: 3; Timeout: 10 seconds). Note After the maximum number of retry attempts, the version will fall back to 15.0.1. | Note | After the maximum number of retry attempts, the version will fall back to 15.0.1. |
+| Note | After the maximum number of retry attempts, the version will fall back to 15.0.1. |
 | ReclassifyTransferFailures | 0 | When set to 1, answering machine calls that
                                           									are abandoned due to lack of agent or IVR resources are not
                                           									counted as abandoned voice calls. They will be counted as answering machine
@@ -1455,6 +1495,9 @@ Once a
 | Note | This
                                                    						registry setting also works with Direct Preview mode, and applies to the
                                                    						regular callback calls in both Preview mode and Direct Preview mode. |
+|---|---|
+
+| Note | After the maximum number of retry attempts, the version will fall back to 15.0.1. |
 |---|---|
 
 | Note | SetAgentsReadyOnResvDrop is applicable only for TDM dialer. |
