@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.715082+00:00
+retrieved_at: 2026-09-07T10:28:38.356338+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/flows/{flowId}:validate
@@ -20,10 +20,10 @@ retrieved_at: 2026-09-01T15:03:57.715082+00:00
 **operationId:** `validateExistingFlowV2`
 
 ## Resumen
-Validate an Existing Flow Draft
+Validate an Existing Flow or Subflow Draft
 
 ## Descripción
-Validate the current draft of an existing flow (read-only operation). Validation reads the draft as stored. Drafts where `associatedChannels` is missing or empty are treated as telephony flows, and validation does not derive the effective channel from `associatedChannels`.
+Validate the current draft of an existing flow/subflow (read-only operation). Validation reads the draft as stored. Drafts where `associatedChannels` is missing or empty are treated as telephony flows, and validation does not derive the effective channel from `associatedChannels`.
 
 Scope: `cjp:config_read`
 

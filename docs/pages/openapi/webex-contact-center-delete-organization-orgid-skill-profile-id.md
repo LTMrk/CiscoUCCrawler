@@ -10,7 +10,7 @@ tags: Skill Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.685432+00:00
+retrieved_at: 2026-09-07T10:28:38.325211+00:00
 ---
 
 # DELETE /organization/{orgid}/skill-profile/{id}

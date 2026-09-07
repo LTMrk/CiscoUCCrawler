@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.695692+00:00
+retrieved_at: 2026-09-07T10:28:37.843648+00:00
 ---
 
 # GET /telephony/config/queues/agents/availableAgents
@@ -49,16 +49,16 @@ curl -X GET '/telephony/config/queues/agents/availableAgents?locationId=<locatio
 ## Respuestas correctas
 **200**: OK
 - `agents` (array) (**requerido**): Array of available agents.
-  - `id` (string) (**requerido**): ID of a person, workspace or virtual line.
-  - `lastName` (string): Last name of a person, workspace or virtual line.
-  - `firstName` (string): First name of a person, workspace or virtual line.
-  - `displayName` (string): Display name of a person, workspace or virtual line.
-  - `type` (string) (**requerido**): Type of the person, workspace or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a place.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-  - `email` (string) (**requerido**): Email of a person, workspace or virtual line.
+  - `id` (string) (**requerido**): ID of a person.
+  - `lastName` (string): Last name of a person.
+  - `firstName` (string): First name of a person.
+  - `displayName` (string): Display name of a person.
+  - `type` (string) (**requerido**): Type of the person.  * `PEOPLE` - Object is a user. Valores: PEOPLE.
+  - `email` (string) (**requerido**): Email of a person.
   - `hasCxEssentials` (boolean) (**requerido**): Person has the CX Essentials license.
-  - `phoneNumbers` (array): List of phone numbers of a person, workspace or virtual line.
-    - `external` (string): Phone number of a person, workspace or virtual line.
-    - `extension` (string): Extension of a person, workspace or virtual line.
+  - `phoneNumbers` (array): List of phone numbers of a person.
+    - `external` (string): Phone number of a person.
+    - `extension` (string): Extension of a person.
 
 ### Ejemplo — respuesta 200
 ```json

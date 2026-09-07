@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.779700+00:00
+retrieved_at: 2026-09-07T10:28:37.909410+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/simultaneousRing/criteria/{id}

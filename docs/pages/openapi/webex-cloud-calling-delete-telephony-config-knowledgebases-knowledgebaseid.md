@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.555414+00:00
+retrieved_at: 2026-09-07T10:28:37.766957+00:00
 ---
 
 # DELETE /telephony/config/knowledgeBases/{knowledgeBaseId}

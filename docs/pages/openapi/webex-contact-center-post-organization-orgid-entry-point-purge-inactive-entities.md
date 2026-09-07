@@ -10,7 +10,7 @@ tags: Entry Point
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.669295+00:00
+retrieved_at: 2026-09-07T10:28:38.307937+00:00
 ---
 
 # POST /organization/{orgid}/entry-point/purge-inactive-entities

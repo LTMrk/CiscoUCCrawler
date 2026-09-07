@@ -10,7 +10,7 @@ tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:42.568694+00:00
+retrieved_at: 2026-09-07T10:28:37.267333+00:00
 ---
 
 # PATCH /contacts/organizations/{orgId}/contacts/{contactId}

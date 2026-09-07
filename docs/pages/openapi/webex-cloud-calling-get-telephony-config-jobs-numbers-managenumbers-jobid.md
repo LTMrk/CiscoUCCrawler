@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.741657+00:00
+retrieved_at: 2026-09-07T10:28:37.879577+00:00
 ---
 
 # GET /telephony/config/jobs/numbers/manageNumbers/{jobId}

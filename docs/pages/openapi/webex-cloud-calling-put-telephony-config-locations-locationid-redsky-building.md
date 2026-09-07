@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.672427+00:00
+retrieved_at: 2026-09-07T10:28:37.825498+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/redSky/building
@@ -23,7 +23,7 @@ retrieved_at: 2026-09-01T07:56:51.672427+00:00
 Update a RedSky Building Address for a Location
 
 ## Descripción
-Update a RedSky building address for a specified location.
+Update a RedSky building address for a specified location. This endpoint is intended for use by online customers who have a single location setup.
 
 The Enhanced Emergency (E911) Service for Webex Calling provides dynamic location support and a network that routes emergency calls to Public Safety Answering Points (PSAP) around the US, its territories, and Canada. E911 services are provided in conjunction with a RedSky account.
 

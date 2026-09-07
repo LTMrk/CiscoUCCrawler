@@ -10,7 +10,7 @@ tags: Contact Number
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.649224+00:00
+retrieved_at: 2026-09-07T10:28:38.286894+00:00
 ---
 
 # GET /organization/{orgid}/contact-number/bulk-export

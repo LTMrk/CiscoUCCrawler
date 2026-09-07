@@ -10,7 +10,7 @@ tags: API - Domain Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:42.562144+00:00
+retrieved_at: 2026-09-07T10:28:37.261627+00:00
 ---
 
 # POST /identity/organizations/{orgId}/actions/unclaimDomain

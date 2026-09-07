@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.489808+00:00
+retrieved_at: 2026-09-07T10:28:39.044139+00:00
 ---
 
 # GET /meetings/{meetingId}/surveyResults

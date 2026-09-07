@@ -10,7 +10,7 @@ tags: Locations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.208368+00:00
+retrieved_at: 2026-09-07T10:28:38.719991+00:00
 ---
 
 # DELETE /locations/{locationId}

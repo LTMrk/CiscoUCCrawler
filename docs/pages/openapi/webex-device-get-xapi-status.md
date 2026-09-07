@@ -10,7 +10,7 @@ tags: xAPI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.213764+00:00
+retrieved_at: 2026-09-07T10:28:38.724958+00:00
 ---
 
 # GET /xapi/status

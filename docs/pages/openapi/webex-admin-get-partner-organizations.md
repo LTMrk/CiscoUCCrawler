@@ -10,7 +10,7 @@ tags: Partner Administrators
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:42.570304+00:00
+retrieved_at: 2026-09-07T10:28:37.268614+00:00
 ---
 
 # GET /partner/organizations

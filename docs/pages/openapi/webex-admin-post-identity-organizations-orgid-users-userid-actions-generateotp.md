@@ -10,7 +10,7 @@ tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:42.563073+00:00
+retrieved_at: 2026-09-07T10:28:37.262460+00:00
 ---
 
 # POST /identity/organizations/{orgId}/users/{userId}/actions/generateOtp

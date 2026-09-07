@@ -10,7 +10,7 @@ tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.733965+00:00
+retrieved_at: 2026-09-07T10:28:37.873466+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}

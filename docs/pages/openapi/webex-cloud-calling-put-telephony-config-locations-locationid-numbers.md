@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.739950+00:00
+retrieved_at: 2026-09-07T10:28:37.878163+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/numbers

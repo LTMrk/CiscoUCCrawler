@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.670101+00:00
+retrieved_at: 2026-09-07T10:28:37.823710+00:00
 ---
 
 # PUT /telephony/config/redSky/serviceSettings

@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.786504+00:00
+retrieved_at: 2026-09-07T10:28:37.914700+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/autoTransferNumbers

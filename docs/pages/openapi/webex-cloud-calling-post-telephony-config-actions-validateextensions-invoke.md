@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.723520+00:00
+retrieved_at: 2026-09-07T10:28:37.865402+00:00
 ---
 
 # POST /telephony/config/actions/validateExtensions/invoke

@@ -10,7 +10,7 @@ tags: Activities
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.712088+00:00
+retrieved_at: 2026-09-07T10:28:38.353135+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/activities/{activityName}/inputs/{inputName}/choices

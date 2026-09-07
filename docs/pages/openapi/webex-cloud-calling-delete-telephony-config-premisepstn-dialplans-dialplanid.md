@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.566302+00:00
+retrieved_at: 2026-09-07T10:28:37.775041+00:00
 ---
 
 # DELETE /telephony/config/premisePstn/dialPlans/{dialPlanId}

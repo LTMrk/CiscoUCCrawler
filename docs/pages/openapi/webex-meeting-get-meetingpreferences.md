@@ -10,7 +10,7 @@ tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.468706+00:00
+retrieved_at: 2026-09-07T10:28:39.027776+00:00
 ---
 
 # GET /meetingPreferences

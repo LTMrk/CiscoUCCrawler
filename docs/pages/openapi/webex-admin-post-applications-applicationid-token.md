@@ -10,7 +10,7 @@ tags: Service Apps
 deprecated: false
 scopes: spark:applications_token
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:42.589734+00:00
+retrieved_at: 2026-09-07T10:28:37.285280+00:00
 ---
 
 # POST /applications/{applicationId}/token

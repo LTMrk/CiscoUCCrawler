@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.578330+00:00
+retrieved_at: 2026-09-07T10:28:37.784090+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/executive/assignedAssistants

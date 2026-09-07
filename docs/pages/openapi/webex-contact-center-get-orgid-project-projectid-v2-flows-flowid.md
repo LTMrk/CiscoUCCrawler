@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.714340+00:00
+retrieved_at: 2026-09-07T10:28:38.355571+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/flows/{flowId}
@@ -20,10 +20,10 @@ retrieved_at: 2026-09-01T15:03:57.714340+00:00
 **operationId:** `getFlowV2`
 
 ## Resumen
-Get a Flow
+Get a Flow or Subflow
 
 ## Descripción
-Retrieve the current draft of a flow as a flow document. To fetch a specific published version, use the `:export` endpoint. The response includes channel metadata (for example, `associatedChannels`) used by channel-specific activities such as `customMessaging`. If `associatedChannels` is missing or empty, the flow is treated as telephony.
+Retrieve the current draft of a flow/subflow as a flow document. To fetch a specific published version, use the `:export` endpoint. The response includes channel metadata (for example, `associatedChannels`) used by channel-specific activities such as `customMessaging`. If `associatedChannels` is missing or empty, the flow is treated as telephony.
 
 Scope: `cjp:config_read`
 

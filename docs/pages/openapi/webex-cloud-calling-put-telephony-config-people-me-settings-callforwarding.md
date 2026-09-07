@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.580512+00:00
+retrieved_at: 2026-09-07T10:28:37.785845+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/callForwarding

@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.814870+00:00
+retrieved_at: 2026-09-07T10:28:37.936176+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/faxMessage/availableNumbers

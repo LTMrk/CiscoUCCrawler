@@ -10,7 +10,7 @@ tags: Multimedia Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.672502+00:00
+retrieved_at: 2026-09-07T10:28:38.311417+00:00
 ---
 
 # POST /organization/{orgid}/multimedia-profile/purge-inactive-entities

@@ -10,7 +10,7 @@ tags: Features: Call Recording
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.701032+00:00
+retrieved_at: 2026-09-07T10:28:37.847795+00:00
 ---
 
 # GET /telephony/config/callRecording/vendors/{vendorId}/termsOfService

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/g
 repo: webex/webex-byova-gateway-python
 ruta: docs/guides/byova-gecx-setup.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-31T15:59:18.507535+00:00
+retrieved_at: 2026-09-07T10:29:02.937134+00:00
 ---
 
 # webex-byova-gateway-python — docs/guides/byova-gecx-setup.md
@@ -381,11 +381,14 @@ end_session(
 )
 ```
 
-CX Agent Studio returns `params.summary` as `EndSession.metadata.summary`. The
-connector normalizes that value, and the gateway copies it to the single BYOVA
+CX Agent Studio places that value in `params` in the terminal metadata
+(`EndSession.metadata.params.summary`). The connector accepts this nested shape
+and the legacy top-level `EndSession.metadata.summary` shape for compatibility.
+The gateway copies the allowlisted summary to the single BYOVA
 `TRANSFER_TO_AGENT.metadata.summary` event and `session_summary`. If `summary`
 is absent, empty, or not text, the gateway omits both summary fields and still
-transfers the call normally. Other EndSession metadata is not forwarded.
+transfers the call normally. Other EndSession metadata, including
+provider-specific values in `params`, is not forwarded.
 
 ### 2. Discover exactly what your agent sends
 
@@ -410,6 +413,12 @@ no code change needed:
 For short-lived debugging only, `log_raw_terminal_metadata_debug: true` exposes
 the full metadata at DEBUG level. Leave it disabled when metadata may contain
 customer data or sensitive identifiers.
+
+To diagnose handoff summaries without logging their text, temporarily set
+`log_handoff_summary_diagnostics: true`. The connector logs only whether the
+top-level and nested `params.summary` fields are present, their runtime types,
+and string lengths. It never logs the summary value; disable the setting after
+the test call.
 
 When detected, you'll see:
 
@@ -480,6 +489,7 @@ window for an `EndSession` that follows the final TTS frames.
 | `transfer_reason_keywords` | No | Substrings that, if found in a reason/type metadata value, trigger a transfer |
 | `transfer_reason_metadata_keys` | No | Which metadata keys are scanned for `transfer_reason_keywords` |
 | `log_raw_terminal_metadata_debug` | No | Log raw EndSession metadata at DEBUG level; defaults to `false` because values may be sensitive |
+| `log_handoff_summary_diagnostics` | No | Log only summary field presence, type, and length; defaults to `false` and never logs summary text |
 
 ## Authentication options
 

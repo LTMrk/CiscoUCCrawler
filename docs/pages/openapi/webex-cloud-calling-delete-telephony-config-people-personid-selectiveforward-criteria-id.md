@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.773368+00:00
+retrieved_at: 2026-09-07T10:28:37.904550+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/selectiveForward/criteria/{id}

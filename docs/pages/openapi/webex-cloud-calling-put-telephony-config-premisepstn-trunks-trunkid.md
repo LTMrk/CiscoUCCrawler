@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.567320+00:00
+retrieved_at: 2026-09-07T10:28:37.775854+00:00
 ---
 
 # PUT /telephony/config/premisePstn/trunks/{trunkId}

@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.546909+00:00
+retrieved_at: 2026-09-07T10:28:37.760629+00:00
 ---
 
 # GET /telephony/config/dectNetworks

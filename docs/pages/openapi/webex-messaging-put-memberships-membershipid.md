@@ -10,7 +10,7 @@ tags: Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.807534+00:00
+retrieved_at: 2026-09-07T10:28:39.289149+00:00
 ---
 
 # PUT /memberships/{membershipId}

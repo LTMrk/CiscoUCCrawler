@@ -10,7 +10,7 @@ tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.470993+00:00
+retrieved_at: 2026-09-07T10:28:39.029740+00:00
 ---
 
 # POST /meetingPreferences/schedulingOptions/delegateEmails/delete

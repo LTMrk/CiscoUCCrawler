@@ -10,7 +10,7 @@ tags: Partner Reports/Templates
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.742322+00:00
+retrieved_at: 2026-09-07T10:28:37.880086+00:00
 ---
 
 # GET /partner/reports

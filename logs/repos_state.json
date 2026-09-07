@@ -185,7 +185,7 @@
     "packages/calling/ai-docs/adr/README.md": "656931b1008dda82a29ff49935781cfe9c0128a4",
     "packages/calling/ai-docs/patterns/README.md": "a5db0f84bf7101822f0da0e2a5cb379540f3f1ea",
     "packages/calling/ai-docs/patterns/architecture-patterns.md": "eb8fca6fd9b1686bb6f8e1e7bd8234be51a5645a",
-    "packages/calling/ai-docs/patterns/error-handling-patterns.md": "d5a47a98978f1397d179272295643e5a95519977",
+    "packages/calling/ai-docs/patterns/error-handling-patterns.md": "df47197a844da2f38feeb7f7261a9d49fc21b92a",
     "packages/calling/ai-docs/patterns/event-patterns.md": "1a50aac36e2d1c9acedd5b422719f3b114057569",
     "packages/calling/ai-docs/patterns/testing-patterns.md": "48eb134af32b25f949c922f1c42f2bc7519d3e11",
     "packages/calling/ai-docs/patterns/typescript-patterns.md": "e21477092e6a6744442908a50488589f54d9db22",
@@ -223,9 +223,9 @@
     "packages/calling/src/CallingClient/line/ai-docs/AGENTS.md": "c222263e55a85435615684a4af5935599c1305c4",
     "packages/calling/src/CallingClient/line/ai-docs/ARCHITECTURE.md": "f30e4b96f21f9a799f5bf4dabb20aa991eb6be27",
     "packages/calling/src/CallingClient/line/ai-docs/line-spec.md": "7495f9af0e964fe4c36c5f4c17c538c75e5690e4",
-    "packages/calling/src/CallingClient/registration/ai-docs/AGENTS.md": "4482f2baaeb364380cb3af89f16244661222a8f6",
+    "packages/calling/src/CallingClient/registration/ai-docs/AGENTS.md": "c241f1e18dafb63c16c6451ce51ef844cca9c535",
     "packages/calling/src/CallingClient/registration/ai-docs/ARCHITECTURE.md": "80033c2f23040c8c58e42776d9e4492416f9a2a3",
-    "packages/calling/src/CallingClient/registration/ai-docs/registration-spec.md": "fcce0afe260c6aab7859af5e0864bbf6cd657f22",
+    "packages/calling/src/CallingClient/registration/ai-docs/registration-spec.md": "6b93e53e82e134e42e48e9e8f50ac292dc615a5a",
     "packages/calling/src/Contacts/ai-docs/AGENTS.md": "dbc82184c65f53105b1653b26c6a23f447a5996e",
     "packages/calling/src/Contacts/ai-docs/ARCHITECTURE.md": "b8ed1276832e207836b546935caee59a74e152f0",
     "packages/calling/src/Contacts/ai-docs/contacts-spec.md": "89b94f7d85cedba76b0ea4be6c09777268f80749",
@@ -263,7 +263,7 @@
    "default_branch": "next",
    "descripcion": "JavaScript SDK for Webex",
    "estrellas": 204,
-   "actualizado": "2026-09-02T01:45:48.315772+00:00"
+   "actualizado": "2026-09-07T10:28:40.836489+00:00"
   },
   "webex/webex-ios-sdk": {
    "ficheros": {
@@ -272,7 +272,7 @@
    "default_branch": "master",
    "descripcion": "iOS SDK for Webex",
    "estrellas": 27,
-   "actualizado": "2026-09-02T01:45:48.914257+00:00"
+   "actualizado": "2026-09-07T10:28:41.487147+00:00"
   },
   "webex/webex-android-sdk": {
    "ficheros": {
@@ -280,8 +280,8 @@
    },
    "default_branch": "master",
    "descripcion": "Android SDK for Webex",
-   "estrellas": 24,
-   "actualizado": "2026-09-02T01:45:49.548573+00:00"
+   "estrellas": 25,
+   "actualizado": "2026-09-07T10:28:42.237014+00:00"
   },
   "webex/webex-java-sdk": {
    "ficheros": {
@@ -290,7 +290,7 @@
    "default_branch": "master",
    "descripcion": "Java library for consuming RESTful APIs for Cisco Spark",
    "estrellas": 70,
-   "actualizado": "2026-09-02T01:45:50.237321+00:00"
+   "actualizado": "2026-09-07T10:28:42.930762+00:00"
   },
   "webex/widgets": {
    "ficheros": {
@@ -404,7 +404,7 @@
    "default_branch": "next",
    "descripcion": "Embed the power of Webex in your web applications ✨",
    "estrellas": 14,
-   "actualizado": "2026-09-02T01:45:51.078756+00:00"
+   "actualizado": "2026-09-07T10:28:43.685136+00:00"
   },
   "webex/components": {
    "ficheros": {
@@ -444,7 +444,7 @@
    "default_branch": "master",
    "descripcion": "Embed the power of Webex in your web applications, on your own terms 💪🏼",
    "estrellas": 14,
-   "actualizado": "2026-09-02T01:45:51.733016+00:00"
+   "actualizado": "2026-09-07T10:28:44.460897+00:00"
   },
   "webex/react-widgets": {
    "ficheros": {
@@ -455,17 +455,75 @@
    "default_branch": "master",
    "descripcion": "React components and Redux modules for embedded Webex Teams",
    "estrellas": 84,
-   "actualizado": "2026-09-02T01:45:52.469597+00:00"
+   "actualizado": "2026-09-07T10:28:45.499895+00:00"
   },
   "webex/sdk-component-adapter": {
    "ficheros": {
+    ".sdd/templates/README.md": "4ce5e7a6d3390607e4073fe134970dfe9b4db44b",
+    ".sdd/templates/component-repo/README.md": "bfefd3fcb68b0f8b9a72b340b4af4080e61a63f0",
+    ".sdd/templates/component-repo/module-docs/README.md": "ac30d56362076e4c249b1180a5524a4453abfc4f",
+    ".sdd/templates/component-repo/module-docs/module-spec-quality.md": "a551332c6d9324cce79363c665d71d9478e03aa9",
+    ".sdd/templates/component-repo/module-docs/module-spec.template.md": "789c3ceba9af24bb65ae27fb356409596526caa2",
+    ".sdd/templates/component-repo/reference-docs/README.md": "fb418c09afd5c77c85a18c493b4688ac47824882",
+    ".sdd/templates/component-repo/reference-docs/adr/README.md": "bc2163b86f401bafb47de257eefb0d46eae131e7",
+    ".sdd/templates/component-repo/reference-docs/adr/_adr-example.md": "209e0fe6f822b46d4449d92549a0c101418e1d18",
+    ".sdd/templates/component-repo/reference-docs/patterns/README.md": "a5db0f84bf7101822f0da0e2a5cb379540f3f1ea",
+    ".sdd/templates/component-repo/reference-docs/patterns/_pattern-example.md": "5df1baacd6f0f703389c88ca5236393228bc2f51",
+    ".sdd/templates/component-repo/reference-docs/rules/README.md": "fb6c176a9414b19b1798918a61f156f488c6a83d",
+    ".sdd/templates/component-repo/reference-docs/rules/_rule-example.md": "0935ab924270f71e87ea78884fa47f142605f04c",
+    ".sdd/templates/component-repo/standing-docs/AGENTS.template.md": "942b339c005b92bde5a24177047fe53c60347ee3",
+    ".sdd/templates/component-repo/standing-docs/ARCHITECTURE.template.md": "2387226d6ac995085d6dbbdf50ca9f05fafdbf8f",
+    ".sdd/templates/component-repo/standing-docs/CONTRACTS.template.md": "2afd82cde2828da985b883ecd420587f35e59342",
+    ".sdd/templates/component-repo/standing-docs/DATA_MODEL.template.md": "07d21ecd29cf1358fd4e1c9011f8c724680093da",
+    ".sdd/templates/component-repo/standing-docs/GETTING_STARTED.template.md": "9aada4f2b93c1750978d902e8bdeef8dfeb6cef6",
+    ".sdd/templates/component-repo/standing-docs/GLOSSARY.template.md": "a2ba6d3ecd6b3098859b8d8fa7866ebeed31c8f2",
+    ".sdd/templates/component-repo/standing-docs/README.md": "aae9439b94513be877e012f332668003fae91725",
+    ".sdd/templates/component-repo/standing-docs/REVIEW_CHECKLIST.template.md": "fa8999f928dab824cf2c6ab6ac81e258f508a2f2",
+    ".sdd/templates/component-repo/standing-docs/RULES.template.md": "f7c71cf763a8108e49e09f9d12fb5e1213214afb",
+    ".sdd/templates/component-repo/standing-docs/SECURITY.template.md": "fd08782f6b80ea7115d3d45120ca8e10c96357c8",
+    ".sdd/templates/component-repo/standing-docs/SERVICE_STATE.template.md": "e7ab2c058cdf20d561fb77e5c80f34a294d50543",
+    ".sdd/templates/component-repo/standing-docs/SPEC_INDEX.template.md": "3fc6109b9c3952d29182d051ab1cd86a340ee127",
+    ".sdd/templates/component-repo/standing-docs/TEST_INDEX.template.md": "491d7825452d844d935f5800a48cfae8bce39444",
+    ".sdd/templates/feature-package/README.md": "5eb33432e0634fc3544f4318a9e59d486253e01e",
+    ".sdd/templates/feature-package/design/contracts/_contract.template.md": "bbc3b5990e3426f60318babe5100acc615a82f14",
+    ".sdd/templates/feature-package/design/feature-design.template.md": "a6a90b4bcb718d8767189da942abf2671ee1b89c",
+    ".sdd/templates/feature-package/implementation/implementation-plan.template.md": "f963c16d790f387af336d10d718739b07b20b68f",
+    ".sdd/templates/feature-package/intake/bug-intake.template.md": "0b48507df491c0bdc3283f9f0f6a980ee11ca7da",
+    ".sdd/templates/feature-package/intake/feature-intake.template.md": "d8487ec1a9b74f2181d517ad620c9dbcf039ea5d",
+    ".sdd/templates/feature-package/intake/module-spec-intake.template.md": "0499247ef16ccc0561038ddb2a57088a802f6b95",
+    ".sdd/templates/feature-package/spec/feature-spec.template.md": "2893bc81f8fa718feaa3e0272f647950f87ec5b0",
+    ".sdd/templates/feature-package/tasks/epic.template.md": "7467d0b09e284f1bb6fa12ec0b3a7327ff50ba99",
+    ".sdd/templates/feature-package/tasks/task.template.md": "9206624c5be14487236aeb2f762397d2078d34bc",
+    ".sdd/templates/feature-package/test-strategy/test-strategy.template.md": "01d07120d1ef6c1edc961aea4f4fed1ded6b5aaf",
+    "AGENTS.md": "dd3c299fc6eebbd786d938509dae8f5dd12a0d2f",
     "README.md": "afe1b2bbecac37c1913cfb9238824cc94e0f268a",
-    "dependencies.md": "a7ccb6f668f5e36870ddf1c5874d0ca2c483cf6b"
+    "ai-docs/ARCHITECTURE.md": "139e2205694ae70f3edd7c0e3e6ba416d70e5262",
+    "ai-docs/CONTRACTS.md": "e839c2755a557ff0470c858890ab3bf200be8d3c",
+    "ai-docs/DATA_MODEL.md": "4b9a1f652d5f4fe2eba4e03ac37ed4c2e225aed2",
+    "ai-docs/GETTING_STARTED.md": "5b6a500a90de24708217eaa2f700ef2b8634e785",
+    "ai-docs/GLOSSARY.md": "513c79464090d748824fd5e2f3c47d3cc30448fb",
+    "ai-docs/REVIEW_CHECKLIST.md": "8ed7fa7727b7db26bd7fc5d40191b468e5bfd6d3",
+    "ai-docs/RULES.md": "2f7862215aaed9d4a640a1c92df2408f9cada2d3",
+    "ai-docs/SDD_BOOTSTRAP_EVIDENCE.md": "293dde9b327ef302b1cb8c4f466f83462636000b",
+    "ai-docs/SPEC_INDEX.md": "5346a062c8af3862c1135a606e432e24b5a13446",
+    "ai-docs/TEST_INDEX.md": "b4d44d770b188750bbd7054054cd7e959c85a586",
+    "ai-docs/patterns/rxjs-entity-observable-cache.md": "280e39a74243b2a4f29d3776eedd2f2878368baa",
+    "ai-docs/patterns/structured-adapter-logging.md": "ac940823b30fcc41f23747f56a58233abf7e334c",
+    "dependencies.md": "a7ccb6f668f5e36870ddf1c5874d0ca2c483cf6b",
+    "src/ai-docs/activities-sdk-adapter-spec.md": "92a4e69a3dbd3e128e4b4427ae6036185cfbb8ff",
+    "src/ai-docs/meetings-sdk-adapter-spec.md": "39a0e9c06c01493ba21df0fcd8d9399fee1fae79",
+    "src/ai-docs/memberships-sdk-adapter-spec.md": "1eef04d29f1bc48937e5a321dfcf5ddbe6ad7a95",
+    "src/ai-docs/metrics-sdk-adapter-spec.md": "d8fc28ead5a6d02f3f229c97650c540b5337fcfc",
+    "src/ai-docs/organizations-sdk-adapter-spec.md": "293f168c5b7bc0745400a4470407c8b40b6dd17b",
+    "src/ai-docs/people-sdk-adapter-spec.md": "a2161fab2fe81a83cac11264e5100306bbd71ead",
+    "src/ai-docs/rooms-sdk-adapter-spec.md": "de9bdd11181ddb918114dbf78b3496e6429264fe",
+    "src/ai-docs/shared-utilities-spec.md": "648806ba73e8ad64a319dc697137f457b3e122cb",
+    "src/ai-docs/webex-sdk-adapter-spec.md": "98d5bf20debce9999bc47d98ffe3885ea7aeff11"
    },
    "default_branch": "master",
    "descripcion": "JS SDK Adapter implementation for Webex Components 🧩 (https://github.com/webex/components)",
    "estrellas": 7,
-   "actualizado": "2026-09-02T01:45:53.121178+00:00"
+   "actualizado": "2026-09-07T10:28:59.229967+00:00"
   },
   "webex/EmbeddedAppKitchenSink": {
    "ficheros": {
@@ -474,7 +532,7 @@
    "default_branch": "main",
    "descripcion": "The \"kitchen sink\" sample app for Webex Embedded Apps",
    "estrellas": 15,
-   "actualizado": "2026-09-02T01:45:53.682198+00:00"
+   "actualizado": "2026-09-07T10:28:59.834950+00:00"
   },
   "webex/postman-webex-calling": {
    "ficheros": {
@@ -485,7 +543,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection that demonstrates the Webex Calling APIs",
    "estrellas": 28,
-   "actualizado": "2026-09-02T01:45:54.270379+00:00"
+   "actualizado": "2026-09-07T10:29:00.425869+00:00"
   },
   "webex/postman-webex-meetings": {
    "ficheros": {
@@ -494,7 +552,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection to demonstrate using the Webex Meetings REST APIs",
    "estrellas": 15,
-   "actualizado": "2026-09-02T01:45:54.881903+00:00"
+   "actualizado": "2026-09-07T10:29:01.051339+00:00"
   },
   "webex/WebexPlaybooks": {
    "ficheros": {
@@ -596,7 +654,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 6,
-   "actualizado": "2026-09-02T01:45:55.609422+00:00"
+   "actualizado": "2026-09-07T10:29:02.034974+00:00"
   },
   "webex/webex-byova-gateway-python": {
    "ficheros": {
@@ -616,7 +674,7 @@
     "docs/README.md": "f192a4e41e584208c4beb6fc1b9f94048b056ef5",
     "docs/Security-Configuration.md": "bf44bdc77a2c08191c21df816585048a4c16e076",
     "docs/TESTING.md": "4387b4e22dda98c8d9ced2e8a7a43189779ebb10",
-    "docs/guides/byova-gecx-setup.md": "0dcd78ab8cde880a6b3e7d5e0f76408e975196c3",
+    "docs/guides/byova-gecx-setup.md": "a866c19858f93ab8251334120d31b0a9916e23d1",
     "docs/index.md": "e47daa8dfb0b36855a40e07be4988be03c12e2a8",
     "proto/README.md": "2d0ef4bd3e76fff1c5f8b0575276551e84569c05",
     "src/connectors/README.md": "996780499e69f168ca195ed30cd6f8cdf0d3b803",
@@ -630,7 +688,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 4,
-   "actualizado": "2026-09-02T01:45:56.248651+00:00"
+   "actualizado": "2026-09-07T10:29:02.937297+00:00"
   },
   "webex/webexconnect-ios-sdk": {
    "ficheros": {
@@ -639,7 +697,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect iOS SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-09-02T01:45:56.821466+00:00"
+   "actualizado": "2026-09-07T10:29:03.523053+00:00"
   },
   "webex/webexconnect-android-sdk": {
    "ficheros": {
@@ -648,7 +706,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Android SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-09-02T01:45:57.371343+00:00"
+   "actualizado": "2026-09-07T10:29:04.197528+00:00"
   },
   "webex/webexconnect-javascript-sdk": {
    "ficheros": {
@@ -657,7 +715,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Web SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 0,
-   "actualizado": "2026-09-02T01:45:57.995766+00:00"
+   "actualizado": "2026-09-07T10:29:04.823350+00:00"
   },
   "webex/dataSourceSchemas": {
    "ficheros": {
@@ -670,7 +728,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 2,
-   "actualizado": "2026-09-02T01:45:58.570716+00:00"
+   "actualizado": "2026-09-07T10:29:05.456082+00:00"
   },
   "CiscoDevNet/cvp-sample-code": {
    "ficheros": {
@@ -705,7 +763,7 @@
    "default_branch": "master",
    "descripcion": "Sample Code for Customer Voice Portal (CVP)",
    "estrellas": 20,
-   "actualizado": "2026-09-02T01:45:59.227694+00:00"
+   "actualizado": "2026-09-07T10:29:06.161821+00:00"
   },
   "CiscoDevNet/finesse-sample-code": {
    "ficheros": {
@@ -739,7 +797,7 @@
    "default_branch": "master",
    "descripcion": "Sample Gadgets and code for use with Finesse",
    "estrellas": 79,
-   "actualizado": "2026-09-02T01:45:59.917567+00:00"
+   "actualizado": "2026-09-07T10:29:06.835894+00:00"
   },
   "CiscoDevNet/webexcc-digital-channels": {
    "ficheros": {
@@ -766,7 +824,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 42,
-   "actualizado": "2026-09-02T01:46:00.600744+00:00"
+   "actualizado": "2026-09-07T10:29:07.681903+00:00"
   },
   "CiscoDevNet/webex-contact-center-widget-starter": {
    "ficheros": {
@@ -790,7 +848,7 @@
    "default_branch": "master",
    "descripcion": "WebEx Contact Center widget starter",
    "estrellas": 32,
-   "actualizado": "2026-09-02T01:46:01.473888+00:00"
+   "actualizado": "2026-09-07T10:29:08.690336+00:00"
   },
   "CiscoDevNet/voice-gateway-api-tcl-vxml-sample-scripts": {
    "ficheros": {
@@ -800,7 +858,7 @@
    "default_branch": "master",
    "descripcion": "TCL IVR sample scripts for Cisco Voice Gateway API",
    "estrellas": 8,
-   "actualizado": "2026-09-02T01:46:02.091364+00:00"
+   "actualizado": "2026-09-07T10:29:09.331133+00:00"
   },
   "CiscoDevNet/xapi-samples": {
    "ficheros": {
@@ -823,7 +881,7 @@
    "default_branch": "master",
    "descripcion": "Examples of UI Extensions, Macros and Node.js scripts for Webex devices and Cisco Collaboration Endpoints",
    "estrellas": 49,
-   "actualizado": "2026-09-02T01:46:02.838356+00:00"
+   "actualizado": "2026-09-07T10:29:10.021038+00:00"
   },
   "CiscoDevNet/axl-python-zeep-samples": {
    "ficheros": {
@@ -832,7 +890,7 @@
    "default_branch": "master",
    "descripcion": "",
    "estrellas": 65,
-   "actualizado": "2026-09-02T01:46:03.396131+00:00"
+   "actualizado": "2026-09-07T10:29:10.661046+00:00"
   },
   "CiscoDevNet/serviceability-python-zeep-samples": {
    "ficheros": {
@@ -841,7 +899,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of various Cisco CUCM Serviceability APIs using Python and the Zeep SOAP library",
    "estrellas": 19,
-   "actualizado": "2026-09-02T01:46:03.970568+00:00"
+   "actualizado": "2026-09-07T10:29:11.252296+00:00"
   },
   "CiscoDevNet/unity-connection-apis-python-samples": {
    "ficheros": {
@@ -850,7 +908,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of Cisco Unity Connection APIs with Python",
    "estrellas": 10,
-   "actualizado": "2026-09-02T01:46:04.692833+00:00"
+   "actualizado": "2026-09-07T10:29:12.027038+00:00"
   },
   "CiscoDevNet/axl-ansible-examples": {
    "ficheros": {
@@ -860,7 +918,7 @@
    "default_branch": "main",
    "descripcion": "Examples showing how to use Cisco Communications Manager AXL SOAP to make configuration changes using Ansible playbooks",
    "estrellas": 21,
-   "actualizado": "2026-09-02T01:46:05.287423+00:00"
+   "actualizado": "2026-09-07T10:29:12.645700+00:00"
   },
   "CiscoDevNet/xe-sip-api-code": {
    "ficheros": {
@@ -869,7 +927,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 0,
-   "actualizado": "2026-09-02T01:46:05.864179+00:00"
+   "actualizado": "2026-09-07T10:29:13.265683+00:00"
   },
   "CiscoDevNet/jabber-web-sample": {
    "ficheros": {
@@ -878,7 +936,7 @@
    "default_branch": "master",
    "descripcion": "Basic and advanced sample pages demonstrating the use of the Cisco Jabber Web SDK for voice and video",
    "estrellas": 11,
-   "actualizado": "2026-09-02T01:46:06.410250+00:00"
+   "actualizado": "2026-09-07T10:29:13.862387+00:00"
   }
  }
 }

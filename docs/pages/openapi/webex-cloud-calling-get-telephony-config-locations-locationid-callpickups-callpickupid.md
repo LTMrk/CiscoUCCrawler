@@ -10,7 +10,7 @@ tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T07:56:51.688357+00:00
+retrieved_at: 2026-09-07T10:28:37.837806+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callPickups/{callPickupId}
@@ -56,8 +56,8 @@ curl -X GET '/telephony/config/locations/<locationId>/callPickups/<callPickupId>
   - `type` (string) (**requerido**): Type of the person, workspace or virtual line.  * `PEOPLE` - Indicates that this object is a user.  * `PLACE` - Indicates that this object is a place.  * `VIRTUAL_LINE` - Indicates that this object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
   - `email` (string) (**requerido**): Email of a person, workspace or virtual line.
   - `phoneNumber` (array): List of phone numbers of a person, workspace or virtual line.
-    - `external` (string): Phone number of a person, workspace or virtual line.
-    - `extension` (string): Extension of a person, workspace or virtual line.
+    - `external` (string): Phone number of a person.
+    - `extension` (string): Extension of a person.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.192611+00:00
+retrieved_at: 2026-09-07T10:28:38.706909+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}

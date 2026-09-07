@@ -10,7 +10,7 @@ tags: Device Call Settings With Device Dynamic Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.194027+00:00
+retrieved_at: 2026-09-07T10:28:38.708051+00:00
 ---
 
 # GET /telephony/config/supportedDevices
@@ -77,6 +77,8 @@ curl -X GET '/telephony/config/supportedDevices' \
   - `allowConfigurePhoneSettingsEnabled` (boolean) (**requerido**): Enables / disables configure phone settings.
   - `supportsHotlineEnabled` (boolean) (**requerido**): Enables / disables hotline support.
   - `maxNumberOfLineAppearances` (number): Maximum number of line appearances available on the device.
+  - `lineKeyTypeExcludeList` (array): List of `lineKeyType` values not supported by the device layout and templates.
+  - `numberOfLineKeyButtonColumns` (integer): Number of columns in the device's line key layout. If not specified, it defaults to 2.
 
 ### Ejemplo — respuesta 200
 ```json

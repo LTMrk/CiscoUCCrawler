@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-18T23:45:44.202110+00:00
+retrieved_at: 2026-09-07T10:28:38.714352+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/devices/settings

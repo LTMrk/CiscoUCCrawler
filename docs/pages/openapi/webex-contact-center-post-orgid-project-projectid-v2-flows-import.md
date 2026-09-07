@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-01T15:03:57.714098+00:00
+retrieved_at: 2026-09-07T10:28:38.355288+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/v2/flows:import
@@ -20,10 +20,10 @@ retrieved_at: 2026-09-01T15:03:57.714098+00:00
 **operationId:** `importFlowV2`
 
 ## Resumen
-Import a Flow
+Import a Flow or Subflow
 
 ## Descripción
-Import a new flow from a flow definition. Creates the flow in draft state and returns the assigned flow metadata, including `flowId`. Include `associatedChannels` in the payload when the flow contains channel-specific activities (for example, `customMessaging`) so channel references can be resolved correctly during import. If `associatedChannels` is missing or empty, the import is treated as a telephony flow. For `FLOW` imports, blank or whitespace-only `associatedChannels[].channelType` values are rejected.
+Import a new flow/subflow from a flow definition. Creates the flow/subflow in draft state and returns the assigned flow metadata, including `flowId`. Include `associatedChannels` in the payload when the flow contains channel-specific activities (for example, `customMessaging`) so channel references can be resolved correctly during import. If `associatedChannels` is missing or empty, the import is treated as a telephony flow. For `FLOW` imports, blank or whitespace-only `associatedChannels[].channelType` values are rejected.
 
 Scope: `cjp:config_write`
 
