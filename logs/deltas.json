@@ -1,18 +1,15 @@
 {
-  "run_at": "2026-09-07T16:05:31.375132+00:00",
+  "run_at": "2026-09-07T16:17:14.982612+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-configuration-guide-rcct-b-1251-b99c5c75ee",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-configuration-guide-uccx-b-1501-54ba5bd029"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 84,
+  "unchanged_count": 92,
   "redirected": [
-    "http://cisco.com/en/US/docs/voice_ip_comm/cucm/admin/9_0_1/ccmcfg/CUCM_BK_CDF59AFB_00_admin-guide-90.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/cscvv12541 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cdetsng.cisco.com/webui -> https://cisco.login.duosecurity.com/email_first"
+    "https://cqc.cloudapps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cucst.cloudapps.cisco.com/landing -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-implementation-design-guides-list.html -> https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html"
   ],
   "semillas_encoladas": 20
 }
