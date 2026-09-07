@@ -1,13 +1,15 @@
 {
-  "run_at": "2026-09-07T23:44:25.500594+00:00",
+  "run_at": "2026-09-07T23:55:48.785656+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 84,
+  "unchanged_count": 96,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi26611 -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvf75449 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg40211 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx/b_11xcucsecx_chapter_00.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html"
   ],
   "semillas_encoladas": 20
 }
