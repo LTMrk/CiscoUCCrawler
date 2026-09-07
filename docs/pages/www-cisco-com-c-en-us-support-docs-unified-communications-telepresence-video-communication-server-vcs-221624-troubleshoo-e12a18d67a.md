@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-221624-troubleshoo-e12a18d67a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html
-retrieved_at: 2026-08-16T22:47:44.333667+00:00
+retrieved_at: 2026-09-07T22:12:13.329365+00:00
 ---
 
 Troubleshoot Expressway Certificates
@@ -179,12 +179,6 @@ Initial Release
 Randy Eduardo Valverde Rojas
 
 Technical Consulting Engineer
-
-### Customers Also Viewed
-
-- VCS Series or Expressway Series Xconfig and Xstatus Output Collection with PuTTY
-
-- Troubleshoot Media Failure for Calls Over Expressways When SIP Inspection Is Turned On
 
 ### This Document Applies to These Products
 

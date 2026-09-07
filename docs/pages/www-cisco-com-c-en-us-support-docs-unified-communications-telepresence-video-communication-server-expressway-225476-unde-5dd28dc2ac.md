@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html
-retrieved_at: 2026-08-20T22:17:21.120561+00:00
+retrieved_at: 2026-09-07T22:12:17.485541+00:00
 ---
 
 Understand Mobile and Remote Access Certificate Requirements and Apache Traffic Server History
@@ -295,6 +295,24 @@ Reason - The traffic server service in Expressway sends its certificate whenever
 10-Feb-2026
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Vikram Dutta
+
+Cisco TAC Engineer
+
+Stuart Anderson
+
+Cisco TAC Engineer
+
+### Customers Also Viewed
+
+- Navigate Client EKU Sunset with Expressway x15.5
+
+- Troubleshoot Expressway Certificates
+
+- Understand Effect of GoDaddy Root Migration on Expressway MRA
 
 | Revision | Publish Date | Comments |
 |---|---|---|
