@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222122-troubleshoot-status-400-user-error-in-htm-2a1deab1a0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.html
-retrieved_at: 2026-08-21T07:16:27.611853+00:00
+retrieved_at: 2026-09-07T14:44:51.300803+00:00
 ---
 
 Troubleshoot "Status: 400" User Error in Control Hub
@@ -157,6 +157,16 @@ Cisco recommends you to include this information:
 17-Jul-2024
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Alejandro Gomez LUNA
+
+Technical Consulting Engineer
+
+### This Document Applies to These Products
+
+- Webex Calling
 
 | Revision | Publish Date | Comments |
 |---|---|---|

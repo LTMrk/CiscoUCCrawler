@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220178-configure-webex-calling-esim-webex-go-htm-f060ffb73a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.html
-retrieved_at: 2026-08-21T07:15:49.809537+00:00
+retrieved_at: 2026-09-07T14:44:14.022329+00:00
 ---
 
 Configure Webex Calling eSIM Webex Go
@@ -227,6 +227,16 @@ There is currently no specific troubleshoot information available for this confi
 31-Jan-2023
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Adrian Esquillo
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Webex Calling
 
 | Revision | Publish Date | Comments |
 |---|---|---|
