@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/src/services/task/state-machine/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:05.262706+00:00
+retrieved_at: 2026-09-08T15:56:15.243252+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/src/services/task/state-machine/ai-docs/AGENTS.md
@@ -288,10 +288,8 @@ didCurrentAgentLeaveMainInteraction(context, event) {
   const participantIdFromEvent = 'participantId' in event ? event.participantId : undefined;
   const participantId = participantIdFromEvent ?? event.taskData?.participantId;
   if (Boolean(participantId) && participantId === selfAgentId) return true;
-  // Explicit hasLeft or removal of a previously active self from the participant map is terminal.
-  // PARTICIPANT_LEAVE naming another participant does not infer self departure from media.
-  // Only a from-conference CONSULT_END may compare mainCall membership, and only when self
-  // remains active in the participant map and on the consult leg. Partial ordinary calls are false.
+  // Self missing from the updated participants map is terminal (EP-DN removal).
+  // Remaining in the map with hasLeft, or disappearing only from mainCall media, is not.
 }
 ```
 
