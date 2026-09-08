@@ -1,16 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-cs78-b-7832-rn-1441sr3-html-39d554f77e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR3/cs78_b_7832-rn-1441sr3.html
-retrieved_at: 2026-09-01T19:51:34.419224+00:00
+retrieved_at: 2026-09-08T06:19:56.798035+00:00
 ---
 
 Cisco IP Conference Phone 7832 Release Notes for Firmware Release 14.4(1)SR3
 
 # Cisco IP Conference Phone 7832 Release Notes for Firmware Release 14.4(1)SR3
-
-### Download Options
-
-Updated: July 2, 2026
 
 First Published: July 2, 2026
 

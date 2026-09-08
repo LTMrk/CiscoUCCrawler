@@ -1,15 +1,15 @@
 {
-  "run_at": "2026-09-08T06:11:32.904512+00:00",
+  "run_at": "2026-09-08T06:23:17.823162+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-10x-release-notes-b-1052su10cucrn-html-3aa6d69ac9",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-readme-b-1251su8cucrn-html-74332ddb7c",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-push-notifications-cucm-b-push-notifications-deployment-guide-cucm-b-pu-42c78ff175"
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-211425-perform-a-hard-factory-reset-on-a-54e68fa166",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-3-1-sr3-cs78-b-7832-rn-1431sr3-html-6626f5b4d0",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-cs78-b-7832-rn-1441sr3-html-39d554f77e"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 14,
+  "unchanged_count": 19,
   "redirected": [],
   "semillas_encoladas": 20
 }
