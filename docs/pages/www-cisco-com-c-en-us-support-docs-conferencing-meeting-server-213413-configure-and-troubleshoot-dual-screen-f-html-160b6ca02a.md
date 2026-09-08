@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-213413-configure-and-troubleshoot-dual-screen-f-html-160b6ca02a
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.html
-retrieved_at: 2026-08-21T13:12:40.968657+00:00
+retrieved_at: 2026-09-08T05:14:25.679229+00:00
 ---
 
 Configure and Troubleshoot Dual Screen Feature
@@ -236,3 +236,13 @@ Content-Length: 4166
 CUCM is unable to recognized parameter like cisco-scr which is required for DualScreen feature to work. As the following endpoint is registered to Call Manager and there is no trunk in between. Checked the "SipProfile" configured for an endpoint analysed and found the setup using Standard Sip Profile rather it should use "Standard SIP Profile For Telepresence Endpoint"
 
 Change to correct Sip Profile.
+
+### Contributed by Cisco Engineers
+
+Abhishek Pal
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Meeting Server

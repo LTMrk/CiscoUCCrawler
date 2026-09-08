@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-ucce-compatibility-matrix-contact-8a9d66254e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_15_0.html
-retrieved_at: 2026-09-01T19:21:05.391531+00:00
+retrieved_at: 2026-09-08T05:09:46.663326+00:00
 ---
 
 Contact Center Enterprise Solution Compatibility Matrix, Release 15.0(1)
@@ -2092,7 +2092,7 @@ Yes
 
 ■ Unified CCE and Administration Client, installs .NET version 4.8.
 
-■ Install the Microsoft .NET Framework 3.5 feature using Windows Server Manager before deploying any Cisco Unified CVP component on Windows Server 2019 to prevent installation failures.
+■ Install the Microsoft .NET Framework 3.5 feature using Windows Server Manager before installing any CVP components in order to prevent installation failures.
 
 ■ Unified CVP automatically installs .NET version 4.8 by default on Microsoft Windows Server 2022.
 

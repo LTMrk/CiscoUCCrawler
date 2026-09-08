@@ -29817,6 +29817,19 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=40351341DA704CF13E87120DFFF277CA": {
+      "content_sha": "dda8b6b62d8b8c1f182fdccacd8ec13828075f416515573eb1622f317c4942aa",
+      "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-84381c4cad",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:13:26.544837+00:00",
+      "last_changed": "2026-09-08T05:13:26.544837+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-08T05:13:26.544837+00:00",
+      "next_check": "2026-09-09T05:13:26.544837+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=A06E9C48F80F055162834C5442B8EAA7": {
       "content_sha": "dda8b6b62d8b8c1f182fdccacd8ec13828075f416515573eb1622f317c4942aa",
       "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-fb6653a10a",
@@ -29836,8 +29849,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T21:44:20.668130+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T21:44:20.668142+00:00",
-      "next_check": "2026-08-26T21:44:20.668142+00:00",
+      "last_seen": "2026-09-08T05:09:59.402123+00:00",
+      "next_check": "2026-09-09T05:09:59.402123+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -33528,6 +33541,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://trustportal.cisco.com": {
+      "content_sha": null,
+      "doc_id": "trustportal-cisco-com-8d99f3e069",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:10:39.693425+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T05:10:39.693436+00:00",
+      "next_check": "2026-09-09T05:10:39.693436+00:00",
+      "redirect_to": "https://trustportal.cisco.com/c/r/ctp/home.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://ucshcltool.cloudapps.cisco.com/public": {
       "content_sha": "40c826491f0bf650d0933aeafc339816566481e5e43768f4af3d180c28444f4d",
       "doc_id": "ucshcltool-cloudapps-cisco-com-public-3fec81b994",
@@ -33777,6 +33802,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_0110.html": {
+      "content_sha": null,
+      "doc_id": "www-author-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-b-12xcucsecx-chapter-0110-html-05766f6d91",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:12:48.380382+00:00",
+      "http_status": 303,
+      "last_seen": "2026-09-08T05:12:48.380391+00:00",
+      "next_check": "2026-09-09T05:12:48.380391+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www-author3.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/requirements/b_14cucsysreqs.html": {
       "content_sha": null,
       "doc_id": "www-author3-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-requirements-b-14cucsysreqs-html-137db19fc7",
@@ -33821,6 +33858,18 @@
       "http_status": 303,
       "last_seen": "2026-09-08T01:55:44.018695+00:00",
       "next_check": "2026-09-09T01:55:44.018695+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/unified_messaging/guide/11xcucumg020.fm": {
+      "content_sha": null,
+      "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-b-15cucumgx-unified-messaging--aa325aa3f2",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:11:17.314165+00:00",
+      "http_status": 303,
+      "last_seen": "2026-09-08T05:11:17.314187+00:00",
+      "next_check": "2026-09-09T05:11:17.314187+00:00",
       "redirect_to": "https://cisco.login.duosecurity.com/email_first",
       "status": "redirect",
       "unchanged_runs": 0
@@ -34410,6 +34459,18 @@
       "last_seen": "2026-08-25T13:15:36.422236+00:00",
       "next_check": "2026-08-26T13:15:36.422236+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/cisco-meeting-app/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-cisco-meeting-app-series-html-364f756327",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:10:28.721529+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T05:10:28.721538+00:00",
+      "next_check": "2026-09-09T05:10:28.721538+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
       "status": "redirect",
       "unchanged_runs": 0
     },
@@ -35574,10 +35635,10 @@
       "first_seen": "2026-08-21T06:27:58.451909+00:00",
       "last_changed": "2026-08-21T06:27:58.451909+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:26.946222+00:00",
-      "next_check": "2026-09-05T18:45:26.946222+00:00",
+      "last_seen": "2026-09-08T05:13:34.239568+00:00",
+      "next_check": "2026-09-16T05:13:34.239568+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.html": {
       "content_sha": "930b4a2f92ac05f86b535da2856bfd8f87df0ebefa428afb74a0a7255691b956",
@@ -35600,10 +35661,10 @@
       "first_seen": "2026-08-21T13:11:54.898190+00:00",
       "last_changed": "2026-08-21T13:11:54.898190+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:31.154828+00:00",
-      "next_check": "2026-09-05T18:45:31.154828+00:00",
+      "last_seen": "2026-09-08T05:13:38.706060+00:00",
+      "next_check": "2026-09-16T05:13:38.706060+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217062-guidance-for-smooth-upgrade-from-cisco-m.html": {
       "content_sha": "81b8588b978f74d409cbe9d432a18c1ed130aafcd7ac01614f0ca36c89fc4271",
@@ -35626,10 +35687,10 @@
       "first_seen": "2026-08-21T13:12:07.314622+00:00",
       "last_changed": "2026-08-21T13:12:07.314622+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:43.893431+00:00",
-      "next_check": "2026-09-05T18:45:43.893431+00:00",
+      "last_seen": "2026-09-08T05:13:51.540392+00:00",
+      "next_check": "2026-09-16T05:13:51.540392+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217204-how-to-configure-in-meeting-chat-for-cms.html": {
       "content_sha": "e503016f70d20d762711b3fe7e47ec2b81cf750d989d2be8338cbe3436dcf765",
@@ -35639,10 +35700,10 @@
       "first_seen": "2026-08-21T13:12:03.339563+00:00",
       "last_changed": "2026-08-21T13:12:03.339563+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:39.371972+00:00",
-      "next_check": "2026-09-05T18:45:39.371972+00:00",
+      "last_seen": "2026-09-08T05:13:47.231892+00:00",
+      "next_check": "2026-09-16T05:13:47.231892+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217205-how-to-configure-meeting-title-displayed.html": {
       "content_sha": "3759adaecdfd7951a4a26bbc82b76626a89239752fcf1fbb2c9a72dc3975383e",
@@ -35652,10 +35713,10 @@
       "first_seen": "2026-08-21T13:11:58.785698+00:00",
       "last_changed": "2026-08-21T13:11:58.785698+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:35.238340+00:00",
-      "next_check": "2026-09-05T18:45:35.238340+00:00",
+      "last_seen": "2026-09-08T05:13:42.970889+00:00",
+      "next_check": "2026-09-16T05:13:42.970889+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/217367-configuring-cisco-meeting-server-schedul.html": {
       "content_sha": "d1076904ed057f40bfec5f8d7f04fac7eaccd29714c13b500f440b3455006277",
@@ -35743,10 +35804,10 @@
       "first_seen": "2026-08-21T13:12:56.991272+00:00",
       "last_changed": "2026-08-21T13:12:56.991272+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:36.847607+00:00",
-      "next_check": "2026-09-05T18:47:36.847607+00:00",
+      "last_seen": "2026-09-08T05:14:43.041339+00:00",
+      "next_check": "2026-09-16T05:14:43.041339+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/210530-configure-cisco-meeting-server-call-brid.html": {
       "content_sha": "08632c466d16458fbb2d55019fb659b1bb59e17bad79b0c129fdb9bafed9bab3",
@@ -35782,10 +35843,10 @@
       "first_seen": "2026-08-21T13:12:32.774522+00:00",
       "last_changed": "2026-08-21T13:12:32.774522+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:04.046533+00:00",
-      "next_check": "2026-09-05T18:47:04.046533+00:00",
+      "last_seen": "2026-09-08T05:14:17.377319+00:00",
+      "next_check": "2026-09-16T05:14:17.377319+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212217-configure-cisco-meeting-server-and-skype.html": {
       "content_sha": "5959cacb1f34b6c94583a23e2fddac45031429f4b542eafe2fc937dcce5cd0fa",
@@ -35808,10 +35869,10 @@
       "first_seen": "2026-08-21T06:28:44.216987+00:00",
       "last_changed": "2026-08-21T06:28:44.216987+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:46:00.749221+00:00",
-      "next_check": "2026-09-05T18:46:00.749221+00:00",
+      "last_seen": "2026-09-08T05:14:00.064178+00:00",
+      "next_check": "2026-09-16T05:14:00.064178+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212326-step-by-step-guide-for-multiparty-licens.html": {
       "content_sha": "e51a9e4b10df74eaa771cedc6921e08130a88b17c8a16f8d68a3619076c45fc9",
@@ -35821,10 +35882,10 @@
       "first_seen": "2026-08-21T13:13:13.857671+00:00",
       "last_changed": "2026-08-21T13:13:13.857671+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:52:58.209252+00:00",
-      "next_check": "2026-09-05T18:52:58.209252+00:00",
+      "last_seen": "2026-09-08T05:15:04.220158+00:00",
+      "next_check": "2026-09-16T05:15:04.220158+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212580-overview-on-cms-presentation-sharing-wit.html": {
       "content_sha": "c1ee383355ba031fca3ce377e485a3f65845a5b60fd0ebfc9c79b90d6b345c13",
@@ -35834,23 +35895,23 @@
       "first_seen": "2026-08-21T13:13:09.634373+00:00",
       "last_changed": "2026-08-21T13:13:09.634373+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:52:54.145467+00:00",
-      "next_check": "2026-09-05T18:52:54.145467+00:00",
+      "last_seen": "2026-09-08T05:14:59.746798+00:00",
+      "next_check": "2026-09-16T05:14:59.746798+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213413-configure-and-troubleshoot-dual-screen-f.html": {
-      "content_sha": "5713391e8cc53306a2883483e85bacfeb7085f371c1b885455e375a98f82f9d9",
+      "content_sha": "16840f06c1eccb99c5f209d61d015cc47d08ca44cf67040ff001371320134039",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-213413-configure-and-troubleshoot-dual-screen-f-html-160b6ca02a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:12:40.968530+00:00",
-      "last_changed": "2026-08-21T13:12:40.968530+00:00",
+      "last_changed": "2026-09-08T05:14:25.679134+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:12.169065+00:00",
-      "next_check": "2026-09-05T18:47:12.169065+00:00",
+      "last_seen": "2026-09-08T05:14:25.679134+00:00",
+      "next_check": "2026-09-09T05:14:25.679134+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213479-configure-xmpp-resiliency.html": {
       "content_sha": "7cec145da994bc3a4056651686657f74830c9a0be092f576908c7bd0f403c951",
@@ -35873,10 +35934,10 @@
       "first_seen": "2026-08-21T13:12:20.190680+00:00",
       "last_changed": "2026-08-21T13:12:20.190680+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:46:43.064067+00:00",
-      "next_check": "2026-09-05T18:46:43.064067+00:00",
+      "last_seen": "2026-09-08T05:14:08.910728+00:00",
+      "next_check": "2026-09-16T05:14:08.910728+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213552-configure-and-troubleshoot-guest-and-hos.html": {
       "content_sha": "b6fd3ead70603214410f07bc9e8ca00bbfe3b8c920429fb91e21313540350ad1",
@@ -35886,10 +35947,10 @@
       "first_seen": "2026-08-21T13:12:44.841535+00:00",
       "last_changed": "2026-08-21T13:12:44.841535+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:16.643707+00:00",
-      "next_check": "2026-09-05T18:47:16.643707+00:00",
+      "last_seen": "2026-09-08T05:14:30.129101+00:00",
+      "next_check": "2026-09-16T05:14:30.129101+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213812-cisco-meeting-server-basic-api-functions.html": {
       "content_sha": "cb62986c72fa644a94e887b0780c600c258f00331846380f6712e1080a9756d8",
@@ -35899,10 +35960,10 @@
       "first_seen": "2026-08-21T13:12:15.783268+00:00",
       "last_changed": "2026-08-21T13:12:15.783268+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:46:04.800072+00:00",
-      "next_check": "2026-09-05T18:46:04.800072+00:00",
+      "last_seen": "2026-09-08T05:14:04.374567+00:00",
+      "next_check": "2026-09-16T05:14:04.374567+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213816-troubleshoot-cisco-meeting-server-cms.html": {
       "content_sha": "7e0d8d7cfc92dbd9a05efe9ffa33de1d2929de7fd9f6c8b0cf2af5ee78f199d2",
@@ -36042,10 +36103,10 @@
       "first_seen": "2026-08-21T13:12:52.801952+00:00",
       "last_changed": "2026-08-21T13:12:52.801952+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:32.448643+00:00",
-      "next_check": "2026-09-05T18:47:32.448643+00:00",
+      "last_seen": "2026-09-08T05:14:38.518455+00:00",
+      "next_check": "2026-09-16T05:14:38.518455+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215638-add-participants-to-existing-conference.html": {
       "content_sha": "9469c7d4fe0ab1acab63b06bcaa683de7533dea45ddf4ee5fbb7447f99cce7f5",
@@ -36055,10 +36116,10 @@
       "first_seen": "2026-08-21T13:12:11.763013+00:00",
       "last_changed": "2026-08-21T13:12:11.763013+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:45:56.791586+00:00",
-      "next_check": "2026-09-05T18:45:56.791586+00:00",
+      "last_seen": "2026-09-08T05:13:56.115358+00:00",
+      "next_check": "2026-09-16T05:13:56.115358+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/215662-explanation-and-work-around-on-cscvt7372.html": {
       "content_sha": "8d93e0247d43e3e9fd70be779459ed8da4d8cbecddc8e9bbca3bee3aaaad3aca",
@@ -36094,10 +36155,10 @@
       "first_seen": "2026-08-21T13:12:48.828417+00:00",
       "last_changed": "2026-08-21T13:12:48.828417+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:28.486161+00:00",
-      "next_check": "2026-09-05T18:47:28.486161+00:00",
+      "last_seen": "2026-09-08T05:14:34.053726+00:00",
+      "next_check": "2026-09-16T05:14:34.053726+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/216549-how-to-renew-expired-database-cluster-ce.html": {
       "content_sha": "803d8be42f1474a3559ffe1a6e69002bc1b679842a9b86ba4ec04c9fbb88b3d9",
@@ -36107,10 +36168,10 @@
       "first_seen": "2026-08-21T13:13:05.670543+00:00",
       "last_changed": "2026-08-21T13:13:05.670543+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:52:49.977420+00:00",
-      "next_check": "2026-09-05T18:52:49.977420+00:00",
+      "last_seen": "2026-09-08T05:14:55.459733+00:00",
+      "next_check": "2026-09-16T05:14:55.459733+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217246-how-to-enable-cms-detailed-tracing-via-a.html": {
       "content_sha": "2665e97c320241266e5f8a06b60884af075b4f744644e38255e7cc0c229ff650",
@@ -36120,10 +36181,10 @@
       "first_seen": "2026-08-21T13:13:01.309009+00:00",
       "last_changed": "2026-08-21T13:13:01.309009+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:52:41.902758+00:00",
-      "next_check": "2026-09-05T18:52:41.902758+00:00",
+      "last_seen": "2026-09-08T05:14:47.107361+00:00",
+      "next_check": "2026-09-16T05:14:47.107361+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217249-how-to-move-web-app-users-from-spaces-me.html": {
       "content_sha": "c3bc96721a0a77012904530c84d528a9dc679a07c0d37146942af9f57036c6b9",
@@ -36133,10 +36194,10 @@
       "first_seen": "2026-08-21T06:28:02.551053+00:00",
       "last_changed": "2026-08-21T06:28:02.551053+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:52:45.726197+00:00",
-      "next_check": "2026-09-05T18:52:45.726197+00:00",
+      "last_seen": "2026-09-08T05:14:51.082018+00:00",
+      "next_check": "2026-09-16T05:14:51.082018+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/217319-replace-x-series-servers-with-cisco-meet.html": {
       "content_sha": "d781523bd174d1fc57583329077cfc1ab6b2a4e5348645b7d86663c7c68af4d2",
@@ -37514,15 +37575,15 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200662-ADFS-IdS-Troubleshooting-and-Common-Prob.html": {
-      "content_sha": "1c2e90e5f7bce7bf3e393595d84d5d26d1584bab148b37a960d457379f7581fd",
+      "content_sha": "94326876806f44a37a060295e999e41e3e11ba45c046c4a5d4301de502ab555f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200662-adfs-ids-troubleshooting-da9468a049",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T19:22:28.269059+00:00",
-      "last_changed": "2026-09-01T17:30:46.377207+00:00",
+      "last_changed": "2026-09-08T05:16:11.017571+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T17:30:46.377207+00:00",
-      "next_check": "2026-09-02T17:30:46.377207+00:00",
+      "last_seen": "2026-09-08T05:16:11.017571+00:00",
+      "next_check": "2026-09-09T05:16:11.017571+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -38924,10 +38985,10 @@
       "first_seen": "2026-08-21T13:12:24.462673+00:00",
       "last_changed": "2026-08-21T13:12:24.462673+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:46:47.415745+00:00",
-      "next_check": "2026-09-05T18:46:47.415745+00:00",
+      "last_seen": "2026-09-08T05:14:12.854471+00:00",
+      "next_check": "2026-09-16T05:14:12.854471+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212104-Configure-and-Troubleshoot-UDS-Contact-P.html": {
       "content_sha": "d4f185d99a5d36b9ae93e2090eeca4613ebbe5a44fd4382b2688eb0a55183ab0",
@@ -38963,10 +39024,10 @@
       "first_seen": "2026-08-21T13:12:36.811974+00:00",
       "last_changed": "2026-08-21T13:12:36.811974+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:47:08.044767+00:00",
-      "next_check": "2026-09-05T18:47:08.044767+00:00",
+      "last_seen": "2026-09-08T05:14:21.664392+00:00",
+      "next_check": "2026-09-16T05:14:21.664392+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213360-collect-expressway-vcs-diagnostic-log-fo.html": {
       "content_sha": "597a0f5c4e8733c84e37106ed9dbcc3effa4d90603e83b82a2344f5c2ec6e363",
@@ -44423,6 +44484,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T21:26:47.250044+00:00",
       "next_check": "2026-08-26T21:26:47.250044+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/expressway/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-expressway-model-html-86c6847a1a",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:10:33.345561+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T05:10:33.345571+00:00",
+      "next_check": "2026-09-09T05:10:33.345571+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -56860,6 +56933,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx/b_11xcucsecx_chapter_0111.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-security-b-11xcucsecx-b-11xcucsecx-chapter-0111-html-2087cbd70d",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:11:37.428595+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T05:11:37.428605+00:00",
+      "next_check": "2026-09-09T05:11:37.428605+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-serv-administration-b-11xcucservag-html-5e201faad7",
@@ -56928,6 +57013,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T10:51:10.250619+00:00",
       "next_check": "2026-08-26T10:51:10.250619+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/phone/b_11xcucugphone/Managing_Meetings.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-user-guide-phone-b-11xcucugphone-managing-meetings-html-cc683ae8d1",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:11:43.603225+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T05:11:43.603234+00:00",
+      "next_check": "2026-09-09T05:11:43.603234+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -58394,10 +58491,10 @@
       "first_seen": "2026-08-17T02:37:08.008388+00:00",
       "last_changed": "2026-08-17T02:37:08.008388+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:15.812964+00:00",
-      "next_check": "2026-08-28T06:37:15.812964+00:00",
+      "last_seen": "2026-09-08T05:12:19.130062+00:00",
+      "next_check": "2026-09-16T05:12:19.130062+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_01.html": {
       "content_sha": "6ea5d21065fcf2ecbce7995d440b468795454d2c31071e073cdc6d1b63dcea33",
@@ -58407,10 +58504,10 @@
       "first_seen": "2026-08-17T02:37:12.145895+00:00",
       "last_changed": "2026-08-17T02:37:12.145895+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:20.585040+00:00",
-      "next_check": "2026-08-28T06:37:20.585040+00:00",
+      "last_seen": "2026-09-08T05:12:23.661236+00:00",
+      "next_check": "2026-09-16T05:12:23.661236+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_010.html": {
       "content_sha": "a77655fa404eed180623c9c433959b14c5ad3f55926fd2bc7f771b6bbd2d9df2",
@@ -58420,10 +58517,10 @@
       "first_seen": "2026-08-17T02:37:16.215419+00:00",
       "last_changed": "2026-08-17T02:37:16.215419+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:24.511881+00:00",
-      "next_check": "2026-08-28T06:37:24.511881+00:00",
+      "last_seen": "2026-09-08T05:12:27.901019+00:00",
+      "next_check": "2026-09-16T05:12:27.901019+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_0100.html": {
       "content_sha": "8c2caf954544e6c2ab020202000c32f2327d4df78b569c3cc9a4b6001d09ad4d",
@@ -58446,10 +58543,10 @@
       "first_seen": "2026-08-17T02:37:28.752990+00:00",
       "last_changed": "2026-08-17T02:37:28.752990+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:33.358285+00:00",
-      "next_check": "2026-08-28T06:37:33.358285+00:00",
+      "last_seen": "2026-09-08T05:12:36.152557+00:00",
+      "next_check": "2026-09-16T05:12:36.152557+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_011.html": {
       "content_sha": "d4d173cb6b710b8d69c19730f04578829d8dd83b1e3ec3a692683925cf258c5b",
@@ -58459,10 +58556,10 @@
       "first_seen": "2026-08-17T02:37:20.275979+00:00",
       "last_changed": "2026-08-17T02:37:20.275979+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:37.287907+00:00",
-      "next_check": "2026-08-28T06:37:37.287907+00:00",
+      "last_seen": "2026-09-08T05:12:31.893367+00:00",
+      "next_check": "2026-09-16T05:12:31.893367+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_index.html": {
       "content_sha": "33eb7b9746cf7dadebfdc14edb64c98126eb710343c211d26da59999851ad5e3",
@@ -58472,10 +58569,10 @@
       "first_seen": "2026-08-17T02:37:32.033027+00:00",
       "last_changed": "2026-08-17T02:37:32.033027+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:37:40.811138+00:00",
-      "next_check": "2026-08-28T06:37:40.811138+00:00",
+      "last_seen": "2026-09-08T05:12:39.712175+00:00",
+      "next_check": "2026-09-16T05:12:39.712175+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/open_source/1201cucopnsrc.html": {
       "content_sha": "8853ca557f8cc67ee83418fb4faafc50313aa175c2068a452b5891305606d75a",
@@ -58742,10 +58839,10 @@
       "first_seen": "2026-08-17T02:36:29.945436+00:00",
       "last_changed": "2026-08-17T02:36:29.945436+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:19.062914+00:00",
-      "next_check": "2026-08-28T06:38:19.062914+00:00",
+      "last_seen": "2026-09-08T05:12:15.523141+00:00",
+      "next_check": "2026-09-16T05:12:15.523141+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01.html": {
       "content_sha": "5765d4c393ae67cbb9741b122307e348df93f39547113cd22168c2e6e94b980e",
@@ -58755,10 +58852,10 @@
       "first_seen": "2026-08-17T03:59:09.360837+00:00",
       "last_changed": "2026-08-17T03:59:09.360837+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:22.820474+00:00",
-      "next_check": "2026-08-28T06:38:22.820474+00:00",
+      "last_seen": "2026-09-08T05:12:56.476500+00:00",
+      "next_check": "2026-09-16T05:12:56.476500+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_010.html": {
       "content_sha": "108163c0d3d135838a4741c7e17eebf7662610f1ffc1ba79427b2e221d3d5879",
@@ -58768,10 +58865,10 @@
       "first_seen": "2026-08-17T02:41:51.703496+00:00",
       "last_changed": "2026-08-17T02:41:51.703496+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:26.862894+00:00",
-      "next_check": "2026-08-28T06:38:26.862894+00:00",
+      "last_seen": "2026-09-08T05:13:00.324634+00:00",
+      "next_check": "2026-09-16T05:13:00.324634+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_0100.html": {
       "content_sha": "94a9bd1ddfadd776864025b04d8a4de41af557d5025f7dbc5251baeb9b015a15",
@@ -58781,10 +58878,10 @@
       "first_seen": "2026-08-17T03:59:18.194713+00:00",
       "last_changed": "2026-08-17T03:59:18.194713+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:31.521419+00:00",
-      "next_check": "2026-08-28T06:38:31.521419+00:00",
+      "last_seen": "2026-09-08T05:13:08.199917+00:00",
+      "next_check": "2026-09-16T05:13:08.199917+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01000.html": {
       "content_sha": "7a2296be3d7944f704362d1b844984cf6e3d0242b64cbf5f3ae935e2089fbc9a",
@@ -58807,10 +58904,10 @@
       "first_seen": "2026-08-17T03:59:26.442537+00:00",
       "last_changed": "2026-08-17T03:59:26.442537+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:39.948848+00:00",
-      "next_check": "2026-08-28T06:38:39.948848+00:00",
+      "last_seen": "2026-09-08T05:13:17.323104+00:00",
+      "next_check": "2026-09-16T05:13:17.323104+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_0101.html": {
       "content_sha": "a6b86f1eb8fb7ce6bee0b161b50905592697ced66a6fca45cb115586ff9bf32a",
@@ -58820,10 +58917,10 @@
       "first_seen": "2026-08-17T03:59:22.126841+00:00",
       "last_changed": "2026-08-17T03:59:22.126841+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:43.878432+00:00",
-      "next_check": "2026-08-28T06:38:43.878432+00:00",
+      "last_seen": "2026-09-08T05:13:12.716803+00:00",
+      "next_check": "2026-09-16T05:13:12.716803+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01010.html": {
       "content_sha": "b38bd842e349b5f57f989548358bf1e22e56aa1c716fc04817f05a1cb9e1e044",
@@ -58833,10 +58930,10 @@
       "first_seen": "2026-08-17T03:59:30.387998+00:00",
       "last_changed": "2026-08-17T03:59:30.387998+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:48.449793+00:00",
-      "next_check": "2026-08-28T06:38:48.449793+00:00",
+      "last_seen": "2026-09-08T05:13:22.486856+00:00",
+      "next_check": "2026-09-16T05:13:22.486856+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01011.html": {
       "content_sha": "60d0b8037029429e16ed911b26522e9faa8d9d07d6f0e854b414abceb04ff684",
@@ -58859,10 +58956,10 @@
       "first_seen": "2026-08-17T03:59:13.831834+00:00",
       "last_changed": "2026-08-17T03:59:13.831834+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:38:52.538563+00:00",
-      "next_check": "2026-08-28T06:38:52.538563+00:00",
+      "last_seen": "2026-09-08T05:13:04.020796+00:00",
+      "next_check": "2026-09-16T05:13:04.020796+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_0110.html": {
       "content_sha": "dc38946000ac6d816ff8538a59cd30654cf703ef0c41a0844c58bde9cd99e405",
@@ -61796,10 +61893,10 @@
       "first_seen": "2026-08-17T02:14:48.804693+00:00",
       "last_changed": "2026-08-17T02:14:48.804693+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:50:26.850718+00:00",
-      "next_check": "2026-08-28T06:50:26.850718+00:00",
+      "last_seen": "2026-09-08T05:11:08.301926+00:00",
+      "next_check": "2026-09-16T05:11:08.301926+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/networking/guide/b_14cucnetx.html": {
       "content_sha": "7ec1e419d886f3652cbc207e66f9ef49a6d50b4f10183b3cade0ede6cd690818",
@@ -62034,6 +62131,18 @@
       "next_check": "2026-09-15T23:15:05.674097+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox.html.": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-quick-start-guide-b-14cucqsginbox-html-3d16722d46",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T05:12:44.227328+00:00",
+      "http_status": 302,
+      "last_seen": "2026-09-08T05:12:44.227337+00:00",
+      "next_check": "2026-09-09T05:12:44.227337+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox/m_qswebinbox.html": {
       "content_sha": "a748678043f93a7488bfccbaa0243007547ded39923f509c986c48dbcfba43c0",
@@ -170651,15 +170760,15 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/ucce_compatibility/matrix/Contact_Center_Enterprise_Solution_Compatibility_Matrix_Release_15_0.html": {
-      "content_sha": "d69542f65a512d0b9ce49d78bdc866f2bdb75f09903cbed0be8a9d8712adfa4f",
+      "content_sha": "bfc76c5dcd1ba0c1da10ddff7eb0053f0a8775795f630d8d8c4183058fa1712a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-ucce-compatibility-matrix-contact-8a9d66254e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T14:53:01.242372+00:00",
-      "last_changed": "2026-09-01T19:21:05.391442+00:00",
+      "last_changed": "2026-09-08T05:09:46.663230+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T19:21:05.391442+00:00",
-      "next_check": "2026-09-02T19:21:05.391442+00:00",
+      "last_seen": "2026-09-08T05:09:46.663230+00:00",
+      "next_check": "2026-09-09T05:09:46.663230+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -202539,5 +202648,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T05:05:57.275640+00:00"
+  "updated_at": "2026-09-08T05:16:14.798109+00:00"
 }
