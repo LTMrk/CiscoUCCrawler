@@ -56380,10 +56380,10 @@
       "first_seen": "2026-08-20T23:59:59.484797+00:00",
       "last_changed": "2026-08-20T23:59:59.484797+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:35:02.386689+00:00",
-      "next_check": "2026-08-26T06:35:02.386689+00:00",
+      "last_seen": "2026-09-08T04:26:01.560151+00:00",
+      "next_check": "2026-09-12T04:26:01.560151+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_01.html": {
       "content_sha": "c81a0cc670b80d654c0c73652bc5b7e3284f93b5f3b4ef5e563ff0be998539f4",
@@ -56445,10 +56445,10 @@
       "first_seen": "2026-08-21T20:26:03.629571+00:00",
       "last_changed": "2026-08-21T20:26:03.629571+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:35:11.182679+00:00",
-      "next_check": "2026-08-26T06:35:11.182679+00:00",
+      "last_seen": "2026-09-08T04:26:05.737286+00:00",
+      "next_check": "2026-09-12T04:26:05.737286+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/vdi/wbx-vdi-deployment-guide.html": {
       "content_sha": null,
@@ -200595,5 +200595,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T04:21:56.105056+00:00"
+  "updated_at": "2026-09-08T04:26:44.382413+00:00"
 }
