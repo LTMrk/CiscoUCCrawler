@@ -1,15 +1,11 @@
 {
-  "run_at": "2026-09-08T06:23:17.823162+00:00",
+  "run_at": "2026-09-08T06:34:44.331988+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phone-8800-series-211425-perform-a-hard-factory-reset-on-a-54e68fa166",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-3-1-sr3-cs78-b-7832-rn-1431sr3-html-6626f5b4d0",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-4-1-sr3-cs78-b-7832-rn-1441sr3-html-39d554f77e"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 19,
+  "unchanged_count": 44,
   "redirected": [],
   "semillas_encoladas": 20
 }
