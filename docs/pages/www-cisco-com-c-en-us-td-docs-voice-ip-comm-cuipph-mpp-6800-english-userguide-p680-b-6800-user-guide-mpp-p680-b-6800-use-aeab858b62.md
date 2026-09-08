@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-aeab858b62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_00.html
-retrieved_at: 2026-09-07T12:40:16.936801+00:00
+retrieved_at: 2026-09-08T14:30:06.955379+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -2956,10 +2956,6 @@ Special terms apply
 
 Your formal Warranty Statement, including the warranties and license agreements applicable to Cisco software, is available
                               at: Product Warranties .
-
-### Customers Also Viewed
-
-- Set up Voicemail on a Cisco 6800, 7800, or 8800 Series IP Phone with Multiplatform Firmware
 
 | Features | 6821 | 6841 | 6851 | 6861 | 6871 |
 |---|---|---|---|---|---|
