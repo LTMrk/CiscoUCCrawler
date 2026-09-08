@@ -1,12 +1,16 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-readme-b-1251su8cucrn-html-74332ddb7c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/readme/b_1251su8cucrn.html
-retrieved_at: 2026-09-01T21:06:01.884116+00:00
+retrieved_at: 2026-09-08T06:07:33.241338+00:00
 ---
 
 Readme for Cisco Unity Connection Release 12.5(1) Service Update 8
 
 # Readme for Cisco Unity Connection Release 12.5(1) Service Update 8
+
+- 12.5(1)
+
+- 12.5(1)
 
 ### Download Options
 

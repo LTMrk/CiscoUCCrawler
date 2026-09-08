@@ -28808,15 +28808,15 @@
     "https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series": {
       "content_sha": "bed119bda27b49aac288b5c05a98420cc0d948b7b4b33258f28081e74450e94c",
       "doc_id": "help-webex-com-en-us-article-29odsb-get-started-with-cisco-desk-phone-9800-series-72b5e93bd8",
-      "etag": "\"856c4-hlwhdBPMOuUgSJI49TqZJ69nyeo\"",
+      "etag": "\"84954-MI6d57rfWCF5exwHnIpPmZ72F14\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:22:41.578394+00:00",
       "last_changed": "2026-09-01T17:22:41.578394+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T17:22:41.578394+00:00",
-      "next_check": "2026-09-02T17:22:41.578394+00:00",
+      "last_seen": "2026-09-08T06:09:02.065256+00:00",
+      "next_check": "2026-09-10T06:09:02.065256+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/en-us/article/2ktojz": {
       "content_sha": "1d956f33c2d8a2849edbb0af22a1f8ee044cb6147f61c2808c5999c19008f9fe",
@@ -38894,10 +38894,10 @@
       "first_seen": "2026-08-16T15:43:35.950115+00:00",
       "last_changed": "2026-09-01T20:54:05.891196+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:54:05.891196+00:00",
-      "next_check": "2026-09-02T20:54:05.891196+00:00",
+      "last_seen": "2026-09-08T06:07:12.205182+00:00",
+      "next_check": "2026-09-10T06:07:12.205182+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/223293-configure-endpoint-registration.html": {
       "content_sha": "220d8cf87117549781791d8a16efb8fc4e283861501056ecaaf21bf747e82a56",
@@ -38933,10 +38933,10 @@
       "first_seen": "2026-08-16T15:43:19.404433+00:00",
       "last_changed": "2026-09-01T20:49:30.491589+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:49:30.491589+00:00",
-      "next_check": "2026-09-02T20:49:30.491589+00:00",
+      "last_seen": "2026-09-08T06:07:08.231351+00:00",
+      "next_check": "2026-09-10T06:07:08.231351+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200198-Configuring-Dial-via-Office-Reverse-to-W.html": {
       "content_sha": "7b240355d387b621731da7edfe0c61141ab6d0f484217d7585929cd5420c9ac4",
@@ -38959,10 +38959,10 @@
       "first_seen": "2026-08-21T13:39:51.340001+00:00",
       "last_changed": "2026-08-21T13:39:51.340001+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:46:40.399728+00:00",
-      "next_check": "2026-09-05T20:46:40.399728+00:00",
+      "last_seen": "2026-09-08T06:04:49.898378+00:00",
+      "next_check": "2026-09-16T06:04:49.898378+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.html": {
       "content_sha": "135a47f37b4f15e8dc21eed4c64923f5d416e760860cf24e469efe36a358a85b",
@@ -38972,10 +38972,10 @@
       "first_seen": "2026-08-21T13:39:43.060701+00:00",
       "last_changed": "2026-08-21T13:39:43.060701+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:46:32.098131+00:00",
-      "next_check": "2026-09-05T20:46:32.098131+00:00",
+      "last_seen": "2026-09-08T06:04:41.312393+00:00",
+      "next_check": "2026-09-16T06:04:41.312393+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.html": {
       "content_sha": "00feeb358d74325cd19516f8a0037e59826411b4566269bae26e3f3c652b6808",
@@ -38998,10 +38998,10 @@
       "first_seen": "2026-08-21T07:05:32.902746+00:00",
       "last_changed": "2026-08-21T07:05:32.902746+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:46:26.848742+00:00",
-      "next_check": "2026-09-05T20:46:26.848742+00:00",
+      "last_seen": "2026-09-08T06:04:36.619804+00:00",
+      "next_check": "2026-09-16T06:04:36.619804+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.html": {
       "content_sha": "82b4fc3eaf56950af99948531561dcb2af454aa98584dace905a64ee16493a1c",
@@ -39011,10 +39011,10 @@
       "first_seen": "2026-08-21T13:39:46.891646+00:00",
       "last_changed": "2026-08-21T13:39:46.891646+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:46:36.539657+00:00",
-      "next_check": "2026-09-05T20:46:36.539657+00:00",
+      "last_seen": "2026-09-08T06:04:45.573379+00:00",
+      "next_check": "2026-09-16T06:04:45.573379+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.html": {
       "content_sha": "ccdf4958c87fc47ab3703f0155915c3a443504cac287a2d96b4c6896d8fad77f",
@@ -39517,10 +39517,10 @@
       "first_seen": "2026-08-16T15:56:57.352157+00:00",
       "last_changed": "2026-09-01T22:13:59.076846+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T22:13:59.076846+00:00",
-      "next_check": "2026-09-02T22:13:59.076846+00:00",
+      "last_seen": "2026-09-08T06:08:40.199993+00:00",
+      "next_check": "2026-09-10T06:08:40.199993+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html": {
       "content_sha": "e00aa57a988d33d040930dc64521742ec62cd25a9fc8fc2d77d83f9c6e7066c7",
@@ -40374,10 +40374,10 @@
       "first_seen": "2026-08-21T13:39:59.230016+00:00",
       "last_changed": "2026-08-21T13:39:59.230016+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:46:48.923042+00:00",
-      "next_check": "2026-09-05T20:46:48.923042+00:00",
+      "last_seen": "2026-09-08T06:04:54.047198+00:00",
+      "next_check": "2026-09-16T06:04:54.047198+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
       "content_sha": "2607956e50ac9c6b07c9af0fc1f0aff5145dc666444f5240022dbaf2e2c5960a",
@@ -40711,10 +40711,10 @@
       "first_seen": "2026-08-16T15:56:53.236199+00:00",
       "last_changed": "2026-09-01T22:13:54.879364+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T22:13:54.879364+00:00",
-      "next_check": "2026-09-02T22:13:54.879364+00:00",
+      "last_seen": "2026-09-08T06:08:35.896978+00:00",
+      "next_check": "2026-09-10T06:08:35.896978+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.html": {
       "content_sha": "eab71163e8c743855f12fbfd9ccdc6bddfc9745116d41e694f8bc09533bfed24",
@@ -43279,10 +43279,10 @@
       "first_seen": "2026-08-16T18:57:15.107430+00:00",
       "last_changed": "2026-09-01T15:07:43.746364+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T15:07:43.746364+00:00",
-      "next_check": "2026-09-02T15:07:43.746364+00:00",
+      "last_seen": "2026-09-08T06:05:23.210490+00:00",
+      "next_check": "2026-09-10T06:05:23.210490+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-connection/Technote-SpeechView-Cisco-Webex-in-house-transcription-service-for-Unity-Connection.html": {
       "content_sha": "760f392b0f82e0cf3606ba89377f205f074ca48f562534de04ad7f990e1ca0e9",
@@ -46726,10 +46726,10 @@
       "first_seen": "2026-08-16T15:44:39.756020+00:00",
       "last_changed": "2026-09-01T22:13:00.513782+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T22:13:00.513782+00:00",
-      "next_check": "2026-09-02T22:13:00.513782+00:00",
+      "last_seen": "2026-09-08T06:08:28.081522+00:00",
+      "next_check": "2026-09-10T06:08:28.081522+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/voi-cube-enum-enhance-kaplan.html": {
       "content_sha": "e803e1e03b29548a8aac3289df1b670844006e00468359f481ba55cef48ee688",
@@ -47888,10 +47888,10 @@
       "first_seen": "2026-08-21T12:51:20.647587+00:00",
       "last_changed": "2026-08-21T12:51:20.647587+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:35:25.562624+00:00",
-      "next_check": "2026-09-05T21:35:25.562624+00:00",
+      "last_seen": "2026-09-08T06:08:57.138750+00:00",
+      "next_check": "2026-09-16T06:08:57.138750+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higplan.html": {
       "content_sha": "3a5df196a17201d13db920beea0269b6862df63ca0d3198398d9efe951515e28",
@@ -56680,15 +56680,15 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/10x/release/notes/b_1052su10cucrn.html": {
-      "content_sha": "8fcbb2ab89b4b45ea485a39734abf4495724f44c72fd96af7a2f9e0f395725cb",
+      "content_sha": "70880a45c213b104a7f94c7e6e0384ecbad2c91aa85095b5ed34b602f0a4bec4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-10x-release-notes-b-1052su10cucrn-html-3aa6d69ac9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T18:49:44.084420+00:00",
-      "last_changed": "2026-09-01T21:06:06.231880+00:00",
+      "last_changed": "2026-09-08T06:07:37.778967+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:06:06.231880+00:00",
-      "next_check": "2026-09-02T21:06:06.231880+00:00",
+      "last_seen": "2026-09-08T06:07:37.778967+00:00",
+      "next_check": "2026-09-09T06:07:37.778967+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -58757,15 +58757,15 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/readme/b_1251su8cucrn.html": {
-      "content_sha": "1968ece92243896c295de10595c8d4a0f2ca62b83c57a184ea5e54467381bdf5",
+      "content_sha": "82a3d7794967c44570ebe0e759eb8f694f627381bd8931838544a581a9b5972c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-readme-b-1251su8cucrn-html-74332ddb7c",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T18:49:40.070787+00:00",
-      "last_changed": "2026-09-01T21:06:01.884022+00:00",
+      "last_changed": "2026-09-08T06:07:33.241248+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:06:01.884022+00:00",
-      "next_check": "2026-09-02T21:06:01.884022+00:00",
+      "last_seen": "2026-09-08T06:07:33.241248+00:00",
+      "next_check": "2026-09-09T06:07:33.241248+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -100396,10 +100396,10 @@
       "first_seen": "2026-08-16T16:15:16.584789+00:00",
       "last_changed": "2026-08-20T15:29:00.594254+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T22:48:59.311767+00:00",
-      "next_check": "2026-09-05T22:48:59.311767+00:00",
+      "last_seen": "2026-09-08T06:10:51.129935+00:00",
+      "next_check": "2026-09-16T06:10:51.129935+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/15/cup0_b_ms-outlook-calendar-integration-15/cup0_b_ms-outlook-calender-integration-1251_chapter_0100.html": {
       "content_sha": "4a005003ebd56f6cec27dcb55f858f6fb1461c0d7bc887399ed8039a5d5f2058",
@@ -107092,17 +107092,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_010.html": {
-      "content_sha": "659dd8ca972ef2fb8544d11e069be29e5fa8dfcc647491dde1109e9835972d44",
+      "content_sha": "6c9f189c477539669d98c51b765f01eda2eee1a53da049b7b6bdac3f06edbf6c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-push-notifications-cucm-b-push-notifications-deployment-guide-cucm-b-pu-42c78ff175",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T16:07:38.828508+00:00",
-      "last_changed": "2026-08-20T15:56:43.330598+00:00",
+      "last_changed": "2026-09-08T06:10:37.861794+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T22:43:42.381590+00:00",
-      "next_check": "2026-09-05T22:43:42.381590+00:00",
+      "last_seen": "2026-09-08T06:10:37.861794+00:00",
+      "next_check": "2026-09-09T06:10:37.861794+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_011.html": {
       "content_sha": "932668dc6d111676ca8fe8d08bde0d1062a80d72fdd3069ba8d3b3e3d049226f",
@@ -202648,5 +202648,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T06:00:35.406358+00:00"
+  "updated_at": "2026-09-08T06:11:32.720584+00:00"
 }
