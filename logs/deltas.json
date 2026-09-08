@@ -1,14 +1,30 @@
 {
-  "run_at": "2026-09-08T03:13:17.325957+00:00",
+  "run_at": "2026-09-08T03:18:39.459069+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
-  "blocked": [],
-  "unchanged_count": 59,
+  "blocked": [
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwi84675-2560d7f99a",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwm90043-b5e5500bd6",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwn31430-c150430c6c",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwn76717-2d11c7e1b0",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwn77282-24264f6511",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwo11931-fc7ae82636",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwo38774-5800db7d9a",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwp80812-7bdc05d315",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwr18559-3689a5c7e8",
+    "bst-cloudapps-cisco-com-bugsearch-bug-cscwr56798-7414fb167c"
+  ],
+  "unchanged_count": 1,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg94247 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cminterop/configuration/15-mt/dia-15-mt-book/vc-ucm-mgcp-gw.html -> https://www.cisco.com/c/en/us/support/index.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwn25361 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwn64035 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwr23859 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwr81117 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws32038 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt78123 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwv50223 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
