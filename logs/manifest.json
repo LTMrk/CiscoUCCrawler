@@ -188399,10 +188399,10 @@
       "first_seen": "2026-08-21T05:12:25.272517+00:00",
       "last_changed": "2026-08-21T05:12:25.272517+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:07:12.746513+00:00",
-      "next_check": "2026-08-27T03:07:12.746513+00:00",
+      "last_seen": "2026-09-08T04:06:45.148148+00:00",
+      "next_check": "2026-09-12T04:06:45.148148+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_011.html": {
       "content_sha": "97d9b3d9cf7d52596eacaa0529bd2010a60535d920195b9f7673cbf92c6cc5d2",
@@ -200595,5 +200595,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T04:02:39.733920+00:00"
+  "updated_at": "2026-09-08T04:07:23.264717+00:00"
 }
