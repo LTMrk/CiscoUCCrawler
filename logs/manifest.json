@@ -1713,8 +1713,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T04:45:31.966837+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-01T21:04:53.955865+00:00",
-      "next_check": "2026-09-02T21:04:53.955865+00:00",
+      "last_seen": "2026-09-08T02:19:13.918302+00:00",
+      "next_check": "2026-09-09T02:19:13.918302+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -1798,25 +1798,25 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCus91722": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-20cscus91722-04eb382cd1",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:01:08.636907+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:01:08.636919+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:19.487752+00:00",
       "next_check": "2026-08-26T12:01:08.636919+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCus91884": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-20cscus91884-406bd7f114",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:01:12.605488+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:01:12.605499+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:23.624782+00:00",
       "next_check": "2026-08-26T12:01:12.605499+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCus92484": {
@@ -1832,13 +1832,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCut19771": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-20cscut19771-6fd3e027cc",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:01:16.338618+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:01:16.338629+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:28.006022+00:00",
       "next_check": "2026-08-26T12:01:16.338629+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCvk23475": {
@@ -3245,8 +3245,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:55:55.222471+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:55:55.222481+00:00",
-      "next_check": "2026-08-26T11:55:55.222481+00:00",
+      "last_seen": "2026-09-08T02:19:34.440987+00:00",
+      "next_check": "2026-09-09T02:19:34.440987+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -3817,8 +3817,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:55:58.519150+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:55:58.519160+00:00",
-      "next_check": "2026-08-26T11:55:58.519160+00:00",
+      "last_seen": "2026-09-08T02:19:38.546930+00:00",
+      "next_check": "2026-09-09T02:19:38.546930+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -4179,8 +4179,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:56:02.862659+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:56:02.862671+00:00",
-      "next_check": "2026-08-26T11:56:02.862671+00:00",
+      "last_seen": "2026-09-08T02:19:43.115003+00:00",
+      "next_check": "2026-09-09T02:19:43.115003+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -5025,8 +5025,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:56:06.882890+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:56:06.882901+00:00",
-      "next_check": "2026-08-26T11:56:06.882901+00:00",
+      "last_seen": "2026-09-08T02:19:46.815608+00:00",
+      "next_check": "2026-09-09T02:19:46.815608+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -5233,8 +5233,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:56:10.915398+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:56:10.915408+00:00",
-      "next_check": "2026-08-26T11:56:10.915408+00:00",
+      "last_seen": "2026-09-08T02:19:51.113407+00:00",
+      "next_check": "2026-09-09T02:19:51.113407+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -6067,8 +6067,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:56:15.218685+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T11:56:15.218696+00:00",
-      "next_check": "2026-08-26T11:56:15.218696+00:00",
+      "last_seen": "2026-09-08T02:19:55.703829+00:00",
+      "next_check": "2026-09-09T02:19:55.703829+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -6076,13 +6076,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup22596": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscup22596-dad7b38825",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T11:56:19.271227+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T11:56:19.271237+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:19:58.360812+00:00",
       "next_check": "2026-08-26T11:56:19.271237+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup29823": {
@@ -6304,25 +6304,25 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur16878": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur16878-5e8384218f",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:00:51.285481+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:00:51.285492+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:02.574392+00:00",
       "next_check": "2026-08-26T12:00:51.285492+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur24122": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscur24122-ba4b739958",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:00:54.896489+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:00:54.896499+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:06.906489+00:00",
       "next_check": "2026-08-26T12:00:54.896499+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCur49008": {
@@ -6362,25 +6362,25 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus28530": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscus28530-00b4c5cbcc",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:00:59.293475+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:00:59.293486+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:11.163004+00:00",
       "next_check": "2026-08-26T12:00:59.293486+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus31298": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscus31298-ffa60f27ce",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T12:01:03.315643+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T12:01:03.315655+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T02:20:15.181756+00:00",
       "next_check": "2026-08-26T12:01:03.315655+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus42734": {
@@ -114503,10 +114503,10 @@
       "first_seen": "2026-08-21T14:34:39.453988+00:00",
       "last_changed": "2026-08-21T14:34:39.453988+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:22:20.747349+00:00",
-      "next_check": "2026-08-26T12:22:20.747349+00:00",
+      "last_seen": "2026-09-08T02:18:09.838813+00:00",
+      "next_check": "2026-09-12T02:18:09.838813+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/3905/english/user/guide/b_3905_ug_release8_8/b_3905_ug_release8_8_chapter_01.html": {
       "content_sha": "5f97c1261a6d91c840bcc4d1b10cd928621aa6dd66db8a18e770fe336e288a9a",
@@ -114516,10 +114516,10 @@
       "first_seen": "2026-08-21T14:34:43.126714+00:00",
       "last_changed": "2026-08-21T14:34:43.126714+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:22:25.059774+00:00",
-      "next_check": "2026-08-26T12:22:25.059774+00:00",
+      "last_seen": "2026-09-08T02:18:14.370872+00:00",
+      "next_check": "2026-09-12T02:18:14.370872+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/6901_6911/english/user/guide/b_6901_11_ug_release9_0.html": {
       "content_sha": "d8907fe8cda82e751db12aba51613fa834c58c1646b125ccc0e823a60dae9243",
@@ -114990,10 +114990,10 @@
       "first_seen": "2026-08-21T14:34:51.948517+00:00",
       "last_changed": "2026-08-21T14:34:51.948517+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:36.014958+00:00",
-      "next_check": "2026-08-26T12:24:36.014958+00:00",
+      "last_seen": "2026-09-08T02:18:22.898997+00:00",
+      "next_check": "2026-09-12T02:18:22.898997+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_010.html": {
       "content_sha": "251f15929d1347e9e0bd9ca953182cb2ee8d9a56f402251f79e94295926a6b78",
@@ -115003,10 +115003,10 @@
       "first_seen": "2026-08-21T14:34:56.423733+00:00",
       "last_changed": "2026-08-21T14:34:56.423733+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:39.966494+00:00",
-      "next_check": "2026-08-26T12:24:39.966494+00:00",
+      "last_seen": "2026-09-08T02:18:27.091449+00:00",
+      "next_check": "2026-09-12T02:18:27.091449+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_0100.html": {
       "content_sha": "170f3ab330369ce7b4cc4479b9988a030bf1c396242c58749bec8bd750146b8f",
@@ -115016,10 +115016,10 @@
       "first_seen": "2026-08-21T14:35:04.784934+00:00",
       "last_changed": "2026-08-21T14:35:04.784934+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:44.651943+00:00",
-      "next_check": "2026-08-26T12:24:44.651943+00:00",
+      "last_seen": "2026-09-08T02:18:35.995197+00:00",
+      "next_check": "2026-09-12T02:18:35.995197+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01000.html": {
       "content_sha": "25e6daaa12c80c02d4cec56fed61312fdeaf5852da91cace2692f2360826ea7b",
@@ -115029,10 +115029,10 @@
       "first_seen": "2026-08-21T14:35:21.130612+00:00",
       "last_changed": "2026-08-21T14:35:21.130612+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:48.265273+00:00",
-      "next_check": "2026-08-26T12:24:48.265273+00:00",
+      "last_seen": "2026-09-08T02:18:52.685164+00:00",
+      "next_check": "2026-09-12T02:18:52.685164+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01001.html": {
       "content_sha": "a95209605d286f12940c24cef1bbe5ed036cebb6d6370bb9b49d2a886c267d52",
@@ -115042,10 +115042,10 @@
       "first_seen": "2026-08-21T14:35:25.844390+00:00",
       "last_changed": "2026-08-21T14:35:25.844390+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:53.094132+00:00",
-      "next_check": "2026-08-26T12:24:53.094132+00:00",
+      "last_seen": "2026-09-08T02:18:57.146495+00:00",
+      "next_check": "2026-09-12T02:18:57.146495+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_0101.html": {
       "content_sha": "478190350ed3ed9f824b0f3fc9937c5b124589b092eb198a954765e44116e161",
@@ -115055,10 +115055,10 @@
       "first_seen": "2026-08-21T14:35:08.182818+00:00",
       "last_changed": "2026-08-21T14:35:08.182818+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:24:56.676613+00:00",
-      "next_check": "2026-08-26T12:24:56.676613+00:00",
+      "last_seen": "2026-09-08T02:18:39.504869+00:00",
+      "next_check": "2026-09-12T02:18:39.504869+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01010.html": {
       "content_sha": "d44f9a99d2d4ac007f3c40c58989cec030ff4a753a758f1f337dc49bc8d9de11",
@@ -115068,10 +115068,10 @@
       "first_seen": "2026-08-21T14:35:29.614959+00:00",
       "last_changed": "2026-08-21T14:35:29.614959+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:01.010334+00:00",
-      "next_check": "2026-08-26T12:25:01.010334+00:00",
+      "last_seen": "2026-09-08T02:19:01.161529+00:00",
+      "next_check": "2026-09-12T02:19:01.161529+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01011.html": {
       "content_sha": "37ca70f293252bfe0e791fdb0b268cbece3c4ae0d0b2d677ad8f3c5a0d9e9c36",
@@ -115081,10 +115081,10 @@
       "first_seen": "2026-08-21T14:35:33.775699+00:00",
       "last_changed": "2026-08-21T14:35:33.775699+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:04.721456+00:00",
-      "next_check": "2026-08-26T12:25:04.721456+00:00",
+      "last_seen": "2026-09-08T02:19:04.858604+00:00",
+      "next_check": "2026-09-12T02:19:04.858604+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_011.html": {
       "content_sha": "8386b0e7b0f8fc20be5723105e8a4d7fd26b37d815543790ca49b7ac672b7d2e",
@@ -115094,10 +115094,10 @@
       "first_seen": "2026-08-21T14:35:00.510176+00:00",
       "last_changed": "2026-08-21T14:35:00.510176+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:09.556957+00:00",
-      "next_check": "2026-08-26T12:25:09.556957+00:00",
+      "last_seen": "2026-09-08T02:18:31.925524+00:00",
+      "next_check": "2026-09-12T02:18:31.925524+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_0110.html": {
       "content_sha": "23285ccff9902ef9424e7ea8fd807f3c63e6b71b9b6a018c38345371e3c176ea",
@@ -115107,10 +115107,10 @@
       "first_seen": "2026-08-21T14:35:12.769119+00:00",
       "last_changed": "2026-08-21T14:35:12.769119+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:13.359787+00:00",
-      "next_check": "2026-08-26T12:25:13.359787+00:00",
+      "last_seen": "2026-09-08T02:18:43.620876+00:00",
+      "next_check": "2026-09-12T02:18:43.620876+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01100.html": {
       "content_sha": "f3d5a5efcdd96b03ef8de61871d76b52d1ab371185452c592fe7150b3843c661",
@@ -115120,10 +115120,10 @@
       "first_seen": "2026-08-21T14:35:37.658363+00:00",
       "last_changed": "2026-08-21T14:35:37.658363+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:17.522141+00:00",
-      "next_check": "2026-08-26T12:25:17.522141+00:00",
+      "last_seen": "2026-09-08T02:19:08.929308+00:00",
+      "next_check": "2026-09-12T02:19:08.929308+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_0111.html": {
       "content_sha": "90eba56cc32f4ab6e0ab8529e248ba5a3c79c1ec9049d213fcccba5ad6c8a55c",
@@ -115133,10 +115133,10 @@
       "first_seen": "2026-08-21T14:35:16.727112+00:00",
       "last_changed": "2026-08-21T14:35:16.727112+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:21.842263+00:00",
-      "next_check": "2026-08-26T12:25:21.842263+00:00",
+      "last_seen": "2026-09-08T02:18:47.717706+00:00",
+      "next_check": "2026-09-12T02:18:47.717706+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_preface_00.html": {
       "content_sha": "8ad344551a8e9ae59effa756109ce96df7520f51db17ba59fdb33b90f818fcf8",
@@ -115146,10 +115146,10 @@
       "first_seen": "2026-08-21T14:34:47.627949+00:00",
       "last_changed": "2026-08-21T14:34:47.627949+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:25.804946+00:00",
-      "next_check": "2026-08-26T12:25:25.804946+00:00",
+      "last_seen": "2026-09-08T02:18:18.442705+00:00",
+      "next_check": "2026-09-12T02:18:18.442705+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0.html": {
       "content_sha": "3a3417a69c30de0c6ce8e75f647a46d293e3ea9793e57fbe8f0b1674bdcf1d9a",
@@ -115172,10 +115172,10 @@
       "first_seen": "2026-08-21T14:34:05.443504+00:00",
       "last_changed": "2026-08-21T14:34:05.443504+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:34.273376+00:00",
-      "next_check": "2026-08-26T12:25:34.273376+00:00",
+      "last_seen": "2026-09-08T02:17:36.114951+00:00",
+      "next_check": "2026-09-12T02:17:36.114951+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_01.html": {
       "content_sha": "936096268a9dab09ba290d52c54950fa423259f22df1533849200c086c88d62d",
@@ -115185,10 +115185,10 @@
       "first_seen": "2026-08-21T14:34:09.446229+00:00",
       "last_changed": "2026-08-21T14:34:09.446229+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:38.818322+00:00",
-      "next_check": "2026-08-26T12:25:38.818322+00:00",
+      "last_seen": "2026-09-08T02:17:40.333388+00:00",
+      "next_check": "2026-09-12T02:17:40.333388+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_010.html": {
       "content_sha": "bb0e56f5bb9fadbd4113f6ed93564f82d26508661cfaaa70cdf8f8aff26675bc",
@@ -115198,10 +115198,10 @@
       "first_seen": "2026-08-21T14:34:13.481988+00:00",
       "last_changed": "2026-08-21T14:34:13.481988+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:42.477197+00:00",
-      "next_check": "2026-08-26T12:25:42.477197+00:00",
+      "last_seen": "2026-09-08T02:17:44.667460+00:00",
+      "next_check": "2026-09-12T02:17:44.667460+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_0100.html": {
       "content_sha": "96d6f2b863e49a21e6aad5c96f03efb6e7c295e1e445e02c37499084199f6e0f",
@@ -115211,10 +115211,10 @@
       "first_seen": "2026-08-21T14:34:21.854823+00:00",
       "last_changed": "2026-08-21T14:34:21.854823+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:46.778364+00:00",
-      "next_check": "2026-08-26T12:25:46.778364+00:00",
+      "last_seen": "2026-09-08T02:17:53.177319+00:00",
+      "next_check": "2026-09-12T02:17:53.177319+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_0101.html": {
       "content_sha": "717a74f08d91dbda31e6206c4629ecea4a5596c622eafc48ed4696b044a73a7d",
@@ -115224,10 +115224,10 @@
       "first_seen": "2026-08-21T14:34:26.368195+00:00",
       "last_changed": "2026-08-21T14:34:26.368195+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:50.874072+00:00",
-      "next_check": "2026-08-26T12:25:50.874072+00:00",
+      "last_seen": "2026-09-08T02:17:57.265095+00:00",
+      "next_check": "2026-09-12T02:17:57.265095+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_011.html": {
       "content_sha": "1a0cac66769969261783edeb82a86acdf1aa4b1bbceb3c9b1bfc73c4379488a4",
@@ -115237,10 +115237,10 @@
       "first_seen": "2026-08-21T14:34:17.896472+00:00",
       "last_changed": "2026-08-21T14:34:17.896472+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:55.158628+00:00",
-      "next_check": "2026-08-26T12:25:55.158628+00:00",
+      "last_seen": "2026-09-08T02:17:48.854574+00:00",
+      "next_check": "2026-09-12T02:17:48.854574+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_0110.html": {
       "content_sha": "6be5ff0cd360e1ada862144410ec28d259725fe95ba28caf3d2072b8dd813e53",
@@ -115250,10 +115250,10 @@
       "first_seen": "2026-08-21T14:34:30.595703+00:00",
       "last_changed": "2026-08-21T14:34:30.595703+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:25:59.162606+00:00",
-      "next_check": "2026-08-26T12:25:59.162606+00:00",
+      "last_seen": "2026-09-08T02:18:01.539870+00:00",
+      "next_check": "2026-09-12T02:18:01.539870+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_0111.html": {
       "content_sha": "d303412e8708e242dd215bffc7811be7e8a6b3bc868acdbc15e9eaef7a9a8b7a",
@@ -115263,10 +115263,10 @@
       "first_seen": "2026-08-21T14:34:34.730724+00:00",
       "last_changed": "2026-08-21T14:34:34.730724+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:26:03.424861+00:00",
-      "next_check": "2026-08-26T12:26:03.424861+00:00",
+      "last_seen": "2026-09-08T02:18:06.031794+00:00",
+      "next_check": "2026-09-12T02:18:06.031794+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR1/english/releasenotes/IP05_BK_304441DA_00_3905-rn-941-sr1.html": {
       "content_sha": "01e7bef2374246a45513d5b6a93adeed92c6d1182bc3049f1ed931377046987a",
@@ -115587,10 +115587,10 @@
       "first_seen": "2026-08-21T14:04:41.510703+00:00",
       "last_changed": "2026-08-21T14:04:41.510703+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:30:33.333895+00:00",
-      "next_check": "2026-08-26T12:30:33.333895+00:00",
+      "last_seen": "2026-09-08T02:19:17.398033+00:00",
+      "next_check": "2026-09-12T02:19:17.398033+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_appendix_01110.html": {
       "content_sha": "ff850a25f647e44872bb541b4ce1314b0c4a3328c9a7becff0e5d95b9d205158",
@@ -115652,10 +115652,10 @@
       "first_seen": "2026-08-21T14:04:45.509472+00:00",
       "last_changed": "2026-08-21T14:04:45.509472+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:30:54.649037+00:00",
-      "next_check": "2026-08-26T12:30:54.649037+00:00",
+      "last_seen": "2026-09-08T02:19:26.156691+00:00",
+      "next_check": "2026-09-12T02:19:26.156691+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_chapter_01000.html": {
       "content_sha": "f838d384f684596acbb43c466e3e5b1adb730f3c9a9897d26de55655f33fdebb",
@@ -115665,10 +115665,10 @@
       "first_seen": "2026-08-21T14:04:37.423462+00:00",
       "last_changed": "2026-08-21T14:04:37.423462+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T12:30:59.128642+00:00",
-      "next_check": "2026-08-26T12:30:59.128642+00:00",
+      "last_seen": "2026-09-08T02:19:21.809238+00:00",
+      "next_check": "2026-09-12T02:19:21.809238+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_chapter_0101.html": {
       "content_sha": "4580fa38ad7bc7bb8bf4a350e92dbe9838b4ba259d43fcc86cadea78d4fd4363",
@@ -200492,5 +200492,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T02:13:05.166645+00:00"
+  "updated_at": "2026-09-08T02:20:28.085112+00:00"
 }
