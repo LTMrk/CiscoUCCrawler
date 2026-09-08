@@ -1,14 +1,30 @@
 {
-  "run_at": "2026-09-08T01:34:49.769170+00:00",
+  "run_at": "2026-09-08T01:46:05.703442+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 37,
+  "unchanged_count": 7,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/cscvf78728 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-voice-quality-monitoring.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html"
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup67940 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cisco.com/go/deskphone9800 -> https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series",
+    "https://cisco.com/go/dp9800help -> https://help.webex.com/en-us/landing/ld-n0mkkj8-CiscoDeskPhone9800Series/Get-Started",
+    "https://cisco.com/go/vphone8875help -> https://help.webex.com/en-us/landing/ld-j5p6vfb-Phones/User",
+    "https://cisco.com/go/wp9821help -> https://help.webex.com/en-us/landing/ld-a7ewqi-CiscoWirelessPhone9821/Get-Started",
+    "https://www-author3.cisco.com/content/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/m_voi-int-rsvp.html -> https://cisco.login.duosecurity.com/email_first",
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-programming-reference-guides-list.html -> https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/series.html",
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/200104-SIP-TLS-and-SRTP-RTP-internetworking-on.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/media-path.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/sip-supp-uri-based-dialing.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-cube-sip-info-messages.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-domainbased-routing.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/configuration/cube-book/voi-virtual-cube.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube_proto/configuration/15-mt/cube-proto-15-mt-book/voi-pro-ind-feat.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube_sip/configuration/15-mt/cube-sip-15-mt-book/voi-conf-pass-thro.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube_sip/configuration/xe-3s/cube-sip-xe-3s-book/m_voi-report-end-cal.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/dialpeer/configuration/xe-3s/vd-xe-3s-book.html -> https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html",
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_0_1/systemConfig/cucm_b_system-configuration-guide-1201/cucm_b_system-configuration-guide-1201_chapter_01000010.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
   ],
   "semillas_encoladas": 20
 }
