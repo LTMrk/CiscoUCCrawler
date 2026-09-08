@@ -1,49 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.mobi",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.epub",
-    "depth": 3
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.mobi",
-    "depth": 3
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.epub",
     "depth": 3
   },
@@ -3770,5 +3726,13 @@
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_0101.html",
     "depth": 3
+  },
+  {
+    "url": "https://devnetsandbox.cisco.com/RM/Diagram/Index/b0547ab9-20cd-4a2d-a817-5c3b76258c83",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/site/jabber-bots/",
+    "depth": 1
   }
 ]
