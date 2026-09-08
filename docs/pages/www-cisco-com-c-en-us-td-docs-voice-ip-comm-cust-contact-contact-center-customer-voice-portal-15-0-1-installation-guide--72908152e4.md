@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-installation-guide--72908152e4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/installation/guide/ccvp_b_1501_installation-upgrade-guide-cisco-unified-customer-voice-portal/ccvp_b_install_and_upgrade_12-5_chapter_0101.html
-retrieved_at: 2026-08-21T03:01:15.710505+00:00
+retrieved_at: 2026-09-08T00:25:48.937085+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -1023,11 +1023,15 @@ Click Remove .
 
 Step 7
 
-In the Supported Ciphers field, type TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 and click Add .
+In the Supported Ciphers field, type a supported cipher:
+
+TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+
+TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 
 Step 8
 
-Click Save & Deploy .
+Click Add .
 
 Step 9
 
@@ -1317,6 +1321,6 @@ Restart the CVP server.
 | Step 4 | Go to SIP > Advanced Configurations > Security Properties . The available supported ciphers are listed. |
 | Step 5 | Select the cipher starting with TLS_RSA. |
 | Step 6 | Click Remove . |
-| Step 7 | In the Supported Ciphers field, type TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 and click Add . |
-| Step 8 | Click Save & Deploy . |
+| Step 7 | In the Supported Ciphers field, type a supported cipher: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 |
+| Step 8 | Click Add . |
 | Step 9 | Restart the CVP server. |

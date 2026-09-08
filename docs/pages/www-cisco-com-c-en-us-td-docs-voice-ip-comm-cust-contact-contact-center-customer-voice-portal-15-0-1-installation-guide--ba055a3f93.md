@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-installation-guide--ba055a3f93
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/installation/guide/ccvp_b_1501_installation-upgrade-guide-cisco-unified-customer-voice-portal/ccvp_m_1501_unified-cvp-migration.html
-retrieved_at: 2026-08-21T03:01:24.092379+00:00
+retrieved_at: 2026-09-08T00:25:57.045596+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -471,13 +471,11 @@ select sum(tabsize(tabname)) from systables where tabid>99
 
 Step 3
 
-Access the Unified CVP installation file.
+Download the Migration ZIP file.
 
 Step 4
 
-From the command prompt, change the directory to the migration folder.
-
-You can also copy the migration folder to the local disk and run the unload script directly.
+Unzip the Migration ZIP file to the local disk, open the Command Prompt , change the directory to the Migration folder, and run the unload script directly.
 
 Step 5
 
@@ -514,27 +512,22 @@ Stop all Purge Procedures from the Task Scheduler before loading the database. I
 
 Step 1
 
-Open the Unified CVP installation file.
+Download the Migration ZIP file.
 
 Step 2
 
-Stop Cisco CVP Call Server service from Windows Service Manager.
+Stop the Cisco CVP Call Server service from Windows Service Manager.
 
 Step 3
 
-Go to CVP > Migration .
+Unzip the Migration ZIP file to the local disk, open the Command Prompt , change the directory to the Migration folder, and run the load script directly.
 
 Step 4
-
-Copy the migration folder to the local disk and run the load script directly. From the command prompt, change the directory
-                                          to the migration folder.
-
-Step 5
 
 On the local disk, locate the .unl files that you want to load into the Unified CVP database and copy them into the migration
                                           folder.
 
-Step 6
+Step 5
 
 Run the following command as an administrator to load the Unified CVP database: migrate_load.bat
 
@@ -544,7 +537,7 @@ This script loads all the three Unified CVP Reporting databases with the previou
 
 The load runs at a rate of about 1GB/10 minutes approximately.
 
-Step 7
+Step 6
 
 Start Cisco CVP Call Server service from Windows Service Manager.
 
@@ -933,9 +926,8 @@ Use your existing credentials to log in to the system and ensure that Unified CV
 |---|---|
 | Step 2 | Stop Cisco CVP Call Server service from Windows Service Manager. Note Ensure that enough disk space is available to unload data. To check the disk space (in MB), run the query: select sum(tabsize(tabname)) from systables where tabid>99 -OR- go to OAMP > Unified CVP Reporting Server > Database Administration > Database details. | Note | Ensure that enough disk space is available to unload data. To check the disk space (in MB), run the query: select sum(tabsize(tabname)) from systables where tabid>99 -OR- go to OAMP > Unified CVP Reporting Server > Database Administration > Database details. |
 | Note | Ensure that enough disk space is available to unload data. To check the disk space (in MB), run the query: select sum(tabsize(tabname)) from systables where tabid>99 -OR- go to OAMP > Unified CVP Reporting Server > Database Administration > Database details. |
-| Step 3 | Access the Unified CVP installation file. |
-| Step 4 | From the command prompt, change the directory to the migration folder. Note You can also copy the migration folder to the local disk and run the unload script directly. | Note | You can also copy the migration folder to the local disk and run the unload script directly. |
-| Note | You can also copy the migration folder to the local disk and run the unload script directly. |
+| Step 3 | Download the Migration ZIP file. |
+| Step 4 | Unzip the Migration ZIP file to the local disk, open the Command Prompt , change the directory to the Migration folder, and run the unload script directly. |
 | Step 5 | Locate the migrate_unload.bat file. |
 | Step 6 | By default, the data is exported to c:\migration . Ensure that this path exists. If you want to change the default path, then update the path in unl.sql : create procedure unld(path char(128) default " c:\migration\ ") RETURNING char(128) |
 | Step 7 | Run the following command to unload the Reporting Server database: migrate_unload.bat After running the script, a set of .unl files is created under the path provided. The .unl files are exported to c:\migration . This folder must have full access permission for cvp_dbadmin user. |
@@ -946,24 +938,19 @@ Use your existing credentials to log in to the system and ensure that Unified CV
 | Note | Ensure that enough disk space is available to unload data. To check the disk space (in MB), run the query: select sum(tabsize(tabname)) from systables where tabid>99 -OR- go to OAMP > Unified CVP Reporting Server > Database Administration > Database details. |
 |---|---|
 
-| Note | You can also copy the migration folder to the local disk and run the unload script directly. |
-|---|---|
-
 | Note | Reduce the retention period for data and execute a purge to reduce the data to migrate. |
 |---|---|
 
-| Step 1 | Open the Unified CVP installation file. |
+| Step 1 | Download the Migration ZIP file. |
 |---|---|
-| Step 2 | Stop Cisco CVP Call Server service from Windows Service Manager. |
-| Step 3 | Go to CVP > Migration . |
-| Step 4 | Copy the migration folder to the local disk and run the load script directly. From the command prompt, change the directory
-                                          to the migration folder. |
-| Step 5 | On the local disk, locate the .unl files that you want to load into the Unified CVP database and copy them into the migration
+| Step 2 | Stop the Cisco CVP Call Server service from Windows Service Manager. |
+| Step 3 | Unzip the Migration ZIP file to the local disk, open the Command Prompt , change the directory to the Migration folder, and run the load script directly. |
+| Step 4 | On the local disk, locate the .unl files that you want to load into the Unified CVP database and copy them into the migration
                                           folder. |
-| Step 6 | Run the following command as an administrator to load the Unified CVP database: migrate_load.bat Note If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . This script loads all the three Unified CVP Reporting databases with the previous call data to the Unified CVP Reporting database. Note The load runs at a rate of about 1GB/10 minutes approximately. | Note | If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . | Note | The load runs at a rate of about 1GB/10 minutes approximately. |
+| Step 5 | Run the following command as an administrator to load the Unified CVP database: migrate_load.bat Note If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . This script loads all the three Unified CVP Reporting databases with the previous call data to the Unified CVP Reporting database. Note The load runs at a rate of about 1GB/10 minutes approximately. | Note | If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . | Note | The load runs at a rate of about 1GB/10 minutes approximately. |
 | Note | If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . |
 | Note | The load runs at a rate of about 1GB/10 minutes approximately. |
-| Step 7 | Start Cisco CVP Call Server service from Windows Service Manager. |
+| Step 6 | Start Cisco CVP Call Server service from Windows Service Manager. |
 
 | Note | If the .unl files are located in c:\migration , you must run the script load as migrate_load.bat . |
 |---|---|
