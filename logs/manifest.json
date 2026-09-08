@@ -44974,8 +44974,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-24T22:16:54.567413+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T10:34:22.926192+00:00",
-      "next_check": "2026-09-08T10:34:22.926192+00:00",
+      "last_seen": "2026-09-08T10:45:20.546479+00:00",
+      "next_check": "2026-09-09T10:45:20.546479+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -202648,5 +202648,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T10:41:03.826995+00:00"
+  "updated_at": "2026-09-08T10:52:20.040984+00:00"
 }
