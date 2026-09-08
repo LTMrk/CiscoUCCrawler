@@ -1,35 +1,17 @@
 {
-  "run_at": "2026-09-08T01:56:24.988996+00:00",
+  "run_at": "2026-09-08T02:07:46.253807+00:00",
   "modo": "incremental",
-  "added": [
-    "developer-cisco-com-site-curri-develop-and-test-documentation-latest-version-ed9610046c",
-    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-precision-cameras-221771-troubleshoot-edid-and-c-35809b02dc",
-    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-html-b7a58354bf"
+  "added": [],
+  "modified": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-214622-troubleshoot-no-audio-issues-wit-671670ddc6",
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-220378-configure-zone-based-firewall-zb-9e933332f5",
+    "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-html-b216997fc9"
   ],
-  "modified": [],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvi49092-b90754dda2",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvj93746-5f14d56b30",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvn55141-cb4b87cba1",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv20152-2a9e471ccd",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv23379-5f19f83780",
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvv23410-c2f531df8d"
-  ],
-  "unchanged_count": 5,
+  "blocked": [],
+  "unchanged_count": 43,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvd91119 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCve56223 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs38748 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvs80927 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv03282 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv11252 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvx85953 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cisco.com/go/unified-techinfo -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
-    "https://cucst.cloudapps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg/b_15cuciumg_chapter_010.html -> https://cisco.login.duosecurity.com/email_first",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg/b_11xcuciumg_chapter_00.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_0_1/deprecated_phones/cucm_b_deprecated-phone-models-for-1201.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://mycase.cloudapps.cisco.com/start -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }

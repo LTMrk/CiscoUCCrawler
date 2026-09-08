@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-html-b216997fc9
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.html
-retrieved_at: 2026-08-20T23:24:23.924967+00:00
+retrieved_at: 2026-09-08T02:07:07.239819+00:00
 ---
 
 Understanding Inbound and Outbound Dial Peers on Cisco IOS Platforms
@@ -103,6 +103,10 @@ For more information and a practical example, refer to the case study in Underst
 06-Dec-2001
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+ccastano
 
 | Revision | Publish Date | Comments |
 |---|---|---|
