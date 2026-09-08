@@ -1,15 +1,11 @@
 {
-  "run_at": "2026-09-08T02:41:37.719766+00:00",
+  "run_at": "2026-09-08T02:46:40.857286+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 50,
-  "redirected": [
-    "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10 -> https://roomos.cisco.com/print/WhatsNew/ReleaseNotesRoomOS_10"
-  ],
+  "unchanged_count": 0,
+  "redirected": [],
   "semillas_encoladas": 20
 }
