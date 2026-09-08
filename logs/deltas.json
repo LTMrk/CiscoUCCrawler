@@ -1,17 +1,11 @@
 {
-  "run_at": "2026-09-08T02:07:46.253807+00:00",
+  "run_at": "2026-09-08T02:13:05.349254+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-214622-troubleshoot-no-audio-issues-wit-671670ddc6",
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-220378-configure-zone-based-firewall-zb-9e933332f5",
-    "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-html-b216997fc9"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 43,
-  "redirected": [
-    "https://mycase.cloudapps.cisco.com/start -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "unchanged_count": 4,
+  "redirected": [],
   "semillas_encoladas": 20
 }
