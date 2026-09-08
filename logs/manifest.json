@@ -9521,8 +9521,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:35:24.346075+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:35:24.346086+00:00",
-      "next_check": "2026-08-26T19:35:24.346086+00:00",
+      "last_seen": "2026-09-08T03:50:33.910983+00:00",
+      "next_check": "2026-09-09T03:50:33.910983+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -10631,8 +10631,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:30:23.793076+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:30:23.793086+00:00",
-      "next_check": "2026-08-26T19:30:23.793086+00:00",
+      "last_seen": "2026-09-08T03:50:30.294387+00:00",
+      "next_check": "2026-09-09T03:50:30.294387+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -10991,8 +10991,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:35:40.253502+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:35:40.253512+00:00",
-      "next_check": "2026-08-26T19:35:40.253512+00:00",
+      "last_seen": "2026-09-08T03:50:46.509506+00:00",
+      "next_check": "2026-09-09T03:50:46.509506+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -11891,8 +11891,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:35:36.273683+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:35:36.273693+00:00",
-      "next_check": "2026-08-26T19:35:36.273693+00:00",
+      "last_seen": "2026-09-08T03:50:42.306988+00:00",
+      "next_check": "2026-09-09T03:50:42.306988+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -13873,8 +13873,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:35:28.238392+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:35:28.238402+00:00",
-      "next_check": "2026-08-26T19:35:28.238402+00:00",
+      "last_seen": "2026-09-08T03:50:38.099285+00:00",
+      "next_check": "2026-09-09T03:50:38.099285+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -14577,8 +14577,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:35:44.663180+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:35:44.663190+00:00",
-      "next_check": "2026-08-26T19:35:44.663190+00:00",
+      "last_seen": "2026-09-08T03:50:50.886045+00:00",
+      "next_check": "2026-09-09T03:50:50.886045+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -16432,13 +16432,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz60907": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvz60907-1803ffea37",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T19:41:33.831541+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T19:41:33.831551+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T03:50:58.412594+00:00",
       "next_check": "2026-08-26T19:41:33.831551+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvz64032": {
@@ -16519,8 +16519,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T19:41:29.796922+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T19:41:29.796932+00:00",
-      "next_check": "2026-08-26T19:41:29.796932+00:00",
+      "last_seen": "2026-09-08T03:50:55.229471+00:00",
+      "next_check": "2026-09-09T03:50:55.229471+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -26286,6 +26286,45 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/hcs/discover/fulfillment-ws/": {
+      "content_sha": "86837dde4a64cba4c29cb676f2c2dad3aa553392f767e146a1d5b85095a2e8ac",
+      "doc_id": "developer-cisco-com-site-hcs-discover-fulfillment-ws-56dbdcf80c",
+      "etag": "W/\"ae73088a12a394d3e2d32ad8705fa19e\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:32.142370+00:00",
+      "last_changed": "2026-09-08T03:51:32.142370+00:00",
+      "last_modified": "Mon, 08 Jun 2026 07:34:47 GMT",
+      "last_seen": "2026-09-08T03:51:32.142370+00:00",
+      "next_check": "2026-09-09T03:51:32.142370+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/discover/get-started/assurance/": {
+      "content_sha": "3803668ee6720a8401245aa8d5e8c1e95d72f68695a849c154f0f707fdc9cf60",
+      "doc_id": "developer-cisco-com-site-hcs-discover-get-started-assurance-2689576cb1",
+      "etag": "W/\"63ccb1f5729d4d23a63c80502ad032ee\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:14.419399+00:00",
+      "last_changed": "2026-09-08T03:51:14.419399+00:00",
+      "last_modified": "Mon, 08 Jun 2026 14:27:07 GMT",
+      "last_seen": "2026-09-08T03:51:14.419399+00:00",
+      "next_check": "2026-09-09T03:51:14.419399+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/discover/get-started/collaboration-applications-apis/": {
+      "content_sha": "52bcf7624e0dbd73b99ace5af57b45d1010500f00f1c71d5b081ff48958e33e0",
+      "doc_id": "developer-cisco-com-site-hcs-discover-get-started-collaboration-applications-apis-426c98426c",
+      "etag": "W/\"093ae54396be3592541f73c01d3a6792\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:10.376741+00:00",
+      "last_changed": "2026-09-08T03:51:10.376741+00:00",
+      "last_modified": "Mon, 08 Jun 2026 07:11:12 GMT",
+      "last_seen": "2026-09-08T03:51:10.376741+00:00",
+      "next_check": "2026-09-09T03:51:10.376741+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/hcs/discover/get-started/fulfillment/": {
       "content_sha": "383639f84826d22d5856e18324e56b882212f1ab802273fcd5df61328f4c1507",
       "doc_id": "developer-cisco-com-site-hcs-discover-get-started-fulfillment-08521dc7c1",
@@ -26325,6 +26364,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/hcs/discover/license-manager-ws/": {
+      "content_sha": "27df6cd63658c7dc4fcf1f1fcf3ed7afba4f9a6e6a246767fdc76587bc7028ef",
+      "doc_id": "developer-cisco-com-site-hcs-discover-license-manager-ws-d1e73f474c",
+      "etag": "W/\"33207cb46b77f48dbb44cf9b1408dd80\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:40.457645+00:00",
+      "last_changed": "2026-09-08T03:51:40.457645+00:00",
+      "last_modified": "Mon, 08 Jun 2026 04:51:41 GMT",
+      "last_seen": "2026-09-08T03:51:40.457645+00:00",
+      "next_check": "2026-09-09T03:51:40.457645+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/hcs/discover/sdr-ws/": {
       "content_sha": "6032814dc2c75e006d949a4565666e0fda9b5d98d5ccc9722f1874b762f88b93",
       "doc_id": "developer-cisco-com-site-hcs-discover-sdr-ws-2f1ffc7378",
@@ -26338,6 +26390,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://developer.cisco.com/site/hcs/discover/service-inventory-ws/": {
+      "content_sha": "902feea0d59e292ebb1da3c08bb760c3cae02d7a7b3d029e11c790a87eea33c2",
+      "doc_id": "developer-cisco-com-site-hcs-discover-service-inventory-ws-13a520a193",
+      "etag": "W/\"ffb1f839b3e775d7a04c4f2fbb250ad6\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:36.318532+00:00",
+      "last_changed": "2026-09-08T03:51:36.318532+00:00",
+      "last_modified": "Sun, 14 Jun 2026 08:01:31 GMT",
+      "last_seen": "2026-09-08T03:51:36.318532+00:00",
+      "next_check": "2026-09-09T03:51:36.318532+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/discover/the-hsc-apis/": {
+      "content_sha": "35b4905ddb92771718f6bedaea5e43662d86887f964a5a1f4f89dad102382cf3",
+      "doc_id": "developer-cisco-com-site-hcs-discover-the-hsc-apis-8e4cabbb22",
+      "etag": "W/\"f57fb6e6435dad6a44f3490004fca0cb\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:18.615984+00:00",
+      "last_changed": "2026-09-08T03:51:18.615984+00:00",
+      "last_modified": "Mon, 08 Jun 2026 18:44:13 GMT",
+      "last_seen": "2026-09-08T03:51:18.615984+00:00",
+      "next_check": "2026-09-09T03:51:18.615984+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://developer.cisco.com/site/hcs/documents/latest-version/": {
       "content_sha": "108067e148a8fdb7674c178b6fc941293afbbe8c5dc7cb63a6aa6061ec1ba312",
       "doc_id": "developer-cisco-com-site-hcs-documents-latest-version-f6cf51b7cd",
@@ -26346,10 +26424,10 @@
       "first_seen": "2026-09-01T17:45:25.547628+00:00",
       "last_changed": "2026-09-01T17:45:25.547628+00:00",
       "last_modified": "Wed, 10 Jun 2026 16:41:57 GMT",
-      "last_seen": "2026-09-01T17:45:25.547628+00:00",
-      "next_check": "2026-09-02T17:45:25.547628+00:00",
+      "last_seen": "2026-09-08T03:51:18.732898+00:00",
+      "next_check": "2026-09-10T03:51:18.732898+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/documents/previous-versions/": {
       "content_sha": "392246a1fe7f39f26c07085d738dcf2c4080effce0c77bfe35503151266d6c6c",
@@ -26374,6 +26452,19 @@
       "last_modified": "Fri, 12 Jun 2026 08:04:52 GMT",
       "last_seen": "2026-09-01T17:45:29.829448+00:00",
       "next_check": "2026-09-02T17:45:29.829448+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://developer.cisco.com/site/hcs/learn/fulfillment-ws-sample/": {
+      "content_sha": "1412a1f16cee6a2e8bce0a63b37901a4ecaf76c292030352195db3445ed12903",
+      "doc_id": "developer-cisco-com-site-hcs-learn-fulfillment-ws-sample-b31bb35c1a",
+      "etag": "W/\"71305bba145ebe554a5f7377fdc4cd2e\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T03:51:27.962064+00:00",
+      "last_changed": "2026-09-08T03:51:27.962064+00:00",
+      "last_modified": "Tue, 09 Jun 2026 08:13:21 GMT",
+      "last_seen": "2026-09-08T03:51:27.962064+00:00",
+      "next_check": "2026-09-09T03:51:27.962064+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -39631,10 +39722,10 @@
       "first_seen": "2026-08-20T22:13:40.862402+00:00",
       "last_changed": "2026-08-20T22:13:40.862402+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:14:45.387771+00:00",
-      "next_check": "2026-09-05T21:14:45.387771+00:00",
+      "last_seen": "2026-09-08T03:51:53.021726+00:00",
+      "next_check": "2026-09-16T03:51:53.021726+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html": {
       "content_sha": "143255eecca396ace761629b8770ffeb03e5d3544fe41c9f3689f1a8d79aa109",
@@ -152161,10 +152252,10 @@
       "first_seen": "2026-08-21T11:52:39.957744+00:00",
       "last_changed": "2026-08-21T11:52:39.957744+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T16:45:39.120564+00:00",
-      "next_check": "2026-08-26T16:45:39.120564+00:00",
+      "last_seen": "2026-09-08T03:51:01.419556+00:00",
+      "next_check": "2026-09-12T03:51:01.419556+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/cc_landing_page_poc/index.html": {
       "content_sha": null,
@@ -187554,10 +187645,10 @@
       "first_seen": "2026-08-21T19:44:16.162151+00:00",
       "last_changed": "2026-08-21T19:44:16.162151+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:03:12.508206+00:00",
-      "next_check": "2026-08-27T03:03:12.508206+00:00",
+      "last_seen": "2026-09-08T03:52:05.469276+00:00",
+      "next_check": "2026-09-12T03:52:05.469276+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_6/cjab_b_planning-guide-cisco-jabber-116/cjab_b_planning-guide-cisco-jabber-116_chapter_0111.html": {
       "content_sha": "9accba4d185ff579b1065865dad87d2386b3d03176a66789d81d5bad3f13486e",
@@ -200504,5 +200595,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T03:46:14.451126+00:00"
+  "updated_at": "2026-09-08T03:52:27.382480+00:00"
 }
