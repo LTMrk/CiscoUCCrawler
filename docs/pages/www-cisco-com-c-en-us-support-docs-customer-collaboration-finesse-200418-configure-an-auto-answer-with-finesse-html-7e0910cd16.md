@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200418-configure-an-auto-answer-with-finesse-html-7e0910cd16
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html
-retrieved_at: 2026-08-20T21:16:30.692573+00:00
+retrieved_at: 2026-09-08T08:22:20.076046+00:00
 ---
 
 Configure an Auto Answer with Finesse
@@ -65,6 +65,18 @@ There is currently no specific troubleshooting information available for this co
 31-Mar-2016
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Brendan Shank
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Finesse
+
+- Unified Contact Center Express
 
 | Revision | Publish Date | Comments |
 |---|---|---|

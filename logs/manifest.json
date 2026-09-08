@@ -37174,17 +37174,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html": {
-      "content_sha": "a74212bb34a36e972f5b2c4f62ced5fde722fc7af18624125b6165fb1fb17857",
+      "content_sha": "79f9426b397f7fa73a01acb53485e221f4282c364a33893d2e1caf1e4340c7cf",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200418-configure-an-auto-answer-with-finesse-html-7e0910cd16",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T21:16:30.692466+00:00",
-      "last_changed": "2026-08-20T21:16:30.692466+00:00",
+      "last_changed": "2026-09-08T08:22:20.075974+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:14.148632+00:00",
-      "next_check": "2026-09-05T18:53:14.148632+00:00",
+      "last_seen": "2026-09-08T08:22:20.075974+00:00",
+      "next_check": "2026-09-09T08:22:20.075974+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer.html": {
       "content_sha": "95d690de49b8f37371315929f07f98d238933ea40382bcee18fb21e942a2e840",
@@ -37621,10 +37621,10 @@
       "first_seen": "2026-08-20T21:21:41.070791+00:00",
       "last_changed": "2026-08-20T21:21:41.070791+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:27.412452+00:00",
-      "next_check": "2026-09-05T18:53:27.412452+00:00",
+      "last_seen": "2026-09-08T08:22:33.367062+00:00",
+      "next_check": "2026-09-16T08:22:33.367062+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210888-Tech-Note-on-UCCX-Tracing-Levels.html": {
       "content_sha": "a51e11bd3b5af8273447bf1ffabf15cd921a29d3532e498b2820f33f7b9d3abb",
@@ -37673,10 +37673,10 @@
       "first_seen": "2026-08-21T13:21:48.677171+00:00",
       "last_changed": "2026-08-21T13:21:48.677171+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:18.659919+00:00",
-      "next_check": "2026-09-05T18:53:18.659919+00:00",
+      "last_seen": "2026-09-08T08:22:24.747355+00:00",
+      "next_check": "2026-09-16T08:22:24.747355+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211580-Install-and-Configure-the-PingFederate-I.html": {
       "content_sha": "9307f85fe49b3f7955c83c677393992219e5637ebdf9082220fafe7bac892e56",
@@ -37686,10 +37686,10 @@
       "first_seen": "2026-08-21T13:21:53.592547+00:00",
       "last_changed": "2026-08-21T13:21:53.592547+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:23.789997+00:00",
-      "next_check": "2026-09-05T18:53:23.789997+00:00",
+      "last_seen": "2026-09-08T08:22:29.685694+00:00",
+      "next_check": "2026-09-16T08:22:29.685694+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/212049-Troubleshoot-Context-Service-Gadget-not.html": {
       "content_sha": "ba2c9c4b06457f4aa1c1a459efb8ce801a709eb7e6d8a984b75b6fce2978ca90",
@@ -37790,10 +37790,10 @@
       "first_seen": "2026-08-21T13:21:44.500746+00:00",
       "last_changed": "2026-08-21T13:21:44.500746+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:10.335913+00:00",
-      "next_check": "2026-09-05T18:53:10.335913+00:00",
+      "last_seen": "2026-09-08T08:22:16.335261+00:00",
+      "next_check": "2026-09-16T08:22:16.335261+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/200357-Configure-Database-Purging-schedule-on-C.html": {
       "content_sha": "788bd9ee12e2ef6476d96f83463e0e60178c47dd7c908dad138b8555a8f693cf",
@@ -202648,5 +202648,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T08:13:54.453585+00:00"
+  "updated_at": "2026-09-08T08:25:21.081468+00:00"
 }
