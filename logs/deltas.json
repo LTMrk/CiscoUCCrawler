@@ -1,11 +1,18 @@
 {
-  "run_at": "2026-09-08T01:13:50.146644+00:00",
+  "run_at": "2026-09-08T01:24:53.871052+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118771-configure-sa-09294d0a8a"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 100,
-  "redirected": [],
+  "unchanged_count": 90,
+  "redirected": [
+    "http://cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg -> https://www.cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCti08882 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCus47235 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/cscve56019 -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }
