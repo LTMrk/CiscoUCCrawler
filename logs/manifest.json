@@ -6775,8 +6775,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:21:16.399707+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:21:16.399719+00:00",
-      "next_check": "2026-08-26T23:21:16.399719+00:00",
+      "last_seen": "2026-09-08T01:54:18.855373+00:00",
+      "next_check": "2026-09-09T01:54:18.855373+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -6787,8 +6787,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:21:20.755715+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:21:20.755726+00:00",
-      "next_check": "2026-08-26T23:21:20.755726+00:00",
+      "last_seen": "2026-09-08T01:54:23.200715+00:00",
+      "next_check": "2026-09-09T01:54:23.200715+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -7120,13 +7120,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi49092": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvi49092-b90754dda2",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T23:21:12.999027+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T23:21:12.999037+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:55:06.992314+00:00",
       "next_check": "2026-08-26T23:21:12.999037+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj00275": {
@@ -7500,13 +7500,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj93746": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvj93746-5f14d56b30",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T23:21:25.025930+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T23:21:25.025941+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:54:55.877480+00:00",
       "next_check": "2026-08-26T23:21:25.025941+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvj95503": {
@@ -8738,13 +8738,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn55141": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvn55141-cb4b87cba1",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T11:29:10.946360+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T11:29:10.946370+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:55:11.136625+00:00",
       "next_check": "2026-08-26T11:29:10.946370+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn57645": {
@@ -12069,8 +12069,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:26:57.550036+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:26:57.550046+00:00",
-      "next_check": "2026-08-26T23:26:57.550046+00:00",
+      "last_seen": "2026-09-08T01:54:27.324006+00:00",
+      "next_check": "2026-09-09T01:54:27.324006+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -12725,8 +12725,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:27:01.327190+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:27:01.327200+00:00",
-      "next_check": "2026-08-26T23:27:01.327200+00:00",
+      "last_seen": "2026-09-08T01:54:31.329117+00:00",
+      "next_check": "2026-09-09T01:54:31.329117+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -14171,8 +14171,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:27:05.280726+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:27:05.280737+00:00",
-      "next_check": "2026-08-26T23:27:05.280737+00:00",
+      "last_seen": "2026-09-08T01:54:35.738059+00:00",
+      "next_check": "2026-09-09T01:54:35.738059+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -14265,8 +14265,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:27:09.704938+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:27:09.704948+00:00",
-      "next_check": "2026-08-26T23:27:09.704948+00:00",
+      "last_seen": "2026-09-08T01:54:39.769916+00:00",
+      "next_check": "2026-09-09T01:54:39.769916+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -14336,13 +14336,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv20152": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvv20152-2a9e471ccd",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T23:27:14.293321+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T23:27:14.293331+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:54:43.336956+00:00",
       "next_check": "2026-08-26T23:27:14.293331+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv21519": {
@@ -14380,13 +14380,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv23379": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvv23379-5f19f83780",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T23:27:22.153162+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T23:27:22.153171+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:54:51.815611+00:00",
       "next_check": "2026-08-26T23:27:22.153171+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv23389": {
@@ -14404,13 +14404,13 @@
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv23410": {
       "content_sha": null,
       "doc_id": "bst-cloudapps-cisco-com-bugsearch-bug-cscvv23410-c2f531df8d",
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-08-25T23:27:17.929762+00:00",
-      "http_status": 302,
-      "last_seen": "2026-08-25T23:27:17.929772+00:00",
+      "http_status": 403,
+      "last_seen": "2026-09-08T01:54:47.559800+00:00",
       "next_check": "2026-08-26T23:27:17.929772+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
-      "status": "redirect",
+      "status": "blocked",
       "unchanged_runs": 0
     },
     "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvv24397": {
@@ -15609,8 +15609,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:32:34.412700+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:32:34.412710+00:00",
-      "next_check": "2026-08-26T23:32:34.412710+00:00",
+      "last_seen": "2026-09-08T01:54:07.752512+00:00",
+      "next_check": "2026-09-09T01:54:07.752512+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23895,8 +23895,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:20:56.657611+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:20:56.657623+00:00",
-      "next_check": "2026-08-26T23:20:56.657623+00:00",
+      "last_seen": "2026-09-08T01:55:01.187923+00:00",
+      "next_check": "2026-09-09T01:55:01.187923+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23967,8 +23967,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:20:06.858241+00:00",
       "http_status": 302,
-      "last_seen": "2026-08-25T23:20:06.858252+00:00",
-      "next_check": "2026-08-26T23:20:06.858252+00:00",
+      "last_seen": "2026-09-08T01:53:22.125588+00:00",
+      "next_check": "2026-09-09T01:53:22.125588+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -25432,6 +25432,19 @@
       "next_check": "2026-09-15T10:31:46.832990+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://developer.cisco.com/site/curri/develop-and-test/documentation/latest-version/": {
+      "content_sha": "a21f1ca21344d050ed9332bc4721c6cc9093236690ab57465b60b3493b7e58d8",
+      "doc_id": "developer-cisco-com-site-curri-develop-and-test-documentation-latest-version-ed9610046c",
+      "etag": "W/\"d3c1011d9fd1f892331bc72577dcf88b\"",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T01:50:18.920465+00:00",
+      "last_changed": "2026-09-08T01:50:18.920465+00:00",
+      "last_modified": "Mon, 22 Jun 2026 13:07:37 GMT",
+      "last_seen": "2026-09-08T01:50:18.920465+00:00",
+      "next_check": "2026-09-09T01:50:18.920465+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/curri/develop-and-test/get-started/": {
       "content_sha": "19263536a79dfdc301884f41536c5f0516513b6d16240c938cfa261ac863601f",
@@ -27061,10 +27074,10 @@
       "first_seen": "2026-08-25T11:43:36.580574+00:00",
       "last_changed": "2026-08-25T11:43:36.580574+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:05:40 GMT",
-      "last_seen": "2026-08-25T11:43:36.580574+00:00",
-      "next_check": "2026-08-26T11:43:36.580574+00:00",
+      "last_seen": "2026-09-08T01:52:51.077420+00:00",
+      "next_check": "2026-09-10T01:52:51.077420+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/developer-guides/": {
       "content_sha": "c97071b2747bf792672770b12e36ca58ec079cc308a3d782184dd4f042158015",
@@ -28143,10 +28156,10 @@
       "first_seen": "2026-08-25T11:14:00.042304+00:00",
       "last_changed": "2026-08-25T11:14:00.042304+00:00",
       "last_modified": "Wed, 10 Jun 2026 05:36:12 GMT",
-      "last_seen": "2026-08-25T11:14:00.042304+00:00",
-      "next_check": "2026-08-26T11:14:00.042304+00:00",
+      "last_seen": "2026-09-08T01:50:10.416020+00:00",
+      "next_check": "2026-09-10T01:50:10.416020+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/operations-by-release/": {
       "content_sha": "3418bd70f236c401490750bc206a14936afc18fde48e840a6277cb7bc98f2e1d",
@@ -33637,6 +33650,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg/b_15cuciumg_chapter_010.html": {
+      "content_sha": null,
+      "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-connection-15-install-upgrade-b-15cuciumg-b-15cuciumg-chapter--66593ccc4c",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T01:55:44.018687+00:00",
+      "http_status": 303,
+      "last_seen": "2026-09-08T01:55:44.018695+00:00",
+      "next_check": "2026-09-09T01:55:44.018695+00:00",
+      "redirect_to": "https://cisco.login.duosecurity.com/email_first",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_01.html": {
       "content_sha": null,
       "doc_id": "www-author3-cisco-com-content-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-guide-b-15cucumgx-b-15cucumgx--b363856800",
@@ -35141,6 +35166,32 @@
       "last_modified": null,
       "last_seen": "2026-09-01T19:35:04.895717+00:00",
       "next_check": "2026-09-02T19:35:04.895717+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.html": {
+      "content_sha": "58d22b5ac379dbe67aabe925959cb226c413f3a6a170ba0bdb448beb3ad40ecc",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-precision-cameras-221771-troubleshoot-edid-and-c-35809b02dc",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-08T01:56:24.709736+00:00",
+      "last_changed": "2026-09-08T01:56:24.709736+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-08T01:56:24.709736+00:00",
+      "next_check": "2026-09-09T01:56:24.709736+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00.html": {
+      "content_sha": "e98c6bd65e2dc3e6e6e6b38a3174cdaa781cdcbc3f832ee3b13bac5e6ffb51e2",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-html-b7a58354bf",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-08T01:56:20.741930+00:00",
+      "last_changed": "2026-09-08T01:56:20.741930+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-08T01:56:20.741930+00:00",
+      "next_check": "2026-09-09T01:56:20.741930+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -56525,6 +56576,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg/b_11xcuciumg_chapter_00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-install-upgrade-guide-b-11xcuciumg-b-11xcuciumg-chapter-00-ht-375d95483c",
+      "fail_count": 0,
+      "first_seen": "2026-09-08T01:56:16.295435+00:00",
+      "http_status": 301,
+      "last_seen": "2026-09-08T01:56:16.295445+00:00",
+      "next_check": "2026-09-09T01:56:16.295445+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/install_upgrade/guide/b_11xcuciumg/b_11xcuciumg_chapter_0100.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-11x-install-upgrade-guide-b-11xcuciumg-b-11xcuciumg-chapter-0100--8ccea8482c",
@@ -60297,10 +60360,10 @@
       "first_seen": "2026-08-17T02:24:01.719695+00:00",
       "last_changed": "2026-08-17T02:24:01.719695+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T06:49:27.268085+00:00",
-      "next_check": "2026-08-28T06:49:27.268085+00:00",
+      "last_seen": "2026-09-08T01:55:23.200585+00:00",
+      "next_check": "2026-09-16T01:55:23.200585+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/administration/guide/b_14cucsag/b_14cucsag_appendix_010100.html": {
       "content_sha": "24e41f4daa681062e31e6af5061c674710f3daa56ce0b6df64f81353400db87b",
@@ -76507,10 +76570,10 @@
       "first_seen": "2026-08-17T01:55:59.112674+00:00",
       "last_changed": "2026-08-17T01:55:59.112674+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:46:07.842936+00:00",
-      "next_check": "2026-08-28T07:46:07.842936+00:00",
+      "last_seen": "2026-09-08T01:54:11.455728+00:00",
+      "next_check": "2026-09-16T01:54:11.455728+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_0100011.html": {
       "content_sha": "26be61bb0f57c585cebe09c614736338d42b5c36669e494cd0102b464d9f934d",
@@ -76962,10 +77025,10 @@
       "first_seen": "2026-08-17T01:56:03.525865+00:00",
       "last_changed": "2026-08-17T01:56:03.525865+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T07:50:40.370257+00:00",
-      "next_check": "2026-08-28T07:50:40.370257+00:00",
+      "last_seen": "2026-09-08T01:54:15.416636+00:00",
+      "next_check": "2026-09-16T01:54:15.416636+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_0110101.html": {
       "content_sha": "0598b83c8d6804a46f0bcb581b7aaadd0ddcd91727c3c5d170d5e89c401131a5",
@@ -104941,11 +105004,13 @@
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T02:04:07.099776+00:00",
+      "http_status": 301,
       "last_changed": "2026-08-17T02:04:07.099776+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T23:21:00.066247+00:00",
-      "next_check": "2026-08-27T23:21:00.066247+00:00",
-      "status": "active",
+      "last_seen": "2026-09-08T01:55:04.530422+00:00",
+      "next_check": "2026-09-10T01:55:04.530422+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1.html": {
@@ -200427,5 +200492,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T01:46:05.498824+00:00"
+  "updated_at": "2026-09-08T01:56:24.775442+00:00"
 }
