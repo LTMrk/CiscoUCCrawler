@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c74b02e2ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/live_data_serviceability.html
-retrieved_at: 2026-09-01T18:59:11.409026+00:00
+retrieved_at: 2026-09-08T05:37:05.503814+00:00
 ---
 
 Serviceability Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1103,9 +1103,28 @@ The event
 
 #### Live Data (ICM Reporting) alert notifications
 
-Condition
+##### LiveData SNMP Alerts
 
-Notifications
+Area
+
+Raise Trigger
+
+Clear Trigger
+
+##### LiveData Syslog Conditions
+
+The following LiveData conditions are logged only to syslog:
+
+REST API authentication, token creation, and token validation successes and failures.
+
+Snapshot request service events, including service start and stop, requests, bad requests, and errors.
+
+AW/CCE database configuration and Property Manager errors logged directly.
+
+Cluster state-machine inputs, transitions, sequence warnings, and selected state-machine errors.
+
+Topology latency, batch scheduling and execution delays, DRPC request information, command errors and output, invalid tuples,
+                                          and configuration or data-publishing warnings.
 
 #### Live Data MIB
                               	 Notifications
@@ -1817,17 +1836,14 @@ New
                                                 					 description of administrative action that may be necessary to correct the
                                                 					 condition that caused the event to occur. |
 
-| Condition | Notifications |
-|---|---|
-| An ActiveMQ or JMS publisher connection becomes unavailable or recovers. | Syslog message and SNMP trap are raised or cleared. |
-| Monitoring-bean initialization or registration fails or subsequently succeeds. | Syslog message and SNMP trap are raised or cleared. |
-| CCE connection, protocol processing, controller, request, heartbeat, or sequence synchronization fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
-| Camel service, spout, ZooKeeper, endpoint configuration, or deactivation processing fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
-| Live Data topology, cluster, state-machine, ActiveMQ, or NetBridge processing fails or recovers. | Syslog message and SNMP trap are raised or cleared when a recovery event is defined. |
-| CCE or CCMDB database access, runtime, configuration, or version validation fails. | Syslog message and SNMP trap are raised. |
-| Live Data interval runtime or processing fails. | Syslog message and SNMP trap are raised. |
-| REST authentication, token, snapshot, request handling, property, AWDB configuration, cluster-warning, invalid-tuple, publishing,
-                                          command, latency, or batch-delay messages occur. | Syslog message only, unless the event is explicitly paired with SNMP alerting. |
+| Area | Raise Trigger | Clear Trigger |
+|---|---|---|
+| CCE Live Data ActiveMQ Service | JMS_PUBLISHER_CONNECTION_DOWN | JMS_PUBLISHER_CONNECTION_UP |
+| JMX Initialisation for Apache Storm Attributes | JMX_MBEAN_INITIALIZATION_ERROR , JMX_BEAN_REG_FAILED | JMX_BEAN_REG_SUCCESS |
+| CCE connections (TIP and TOS Connections to Router/PG) | CONNECTION_ERROR , TIP_CONTROLLER_STOP , TIP_PROCESSING_ERROR , INVALID_TIP_CONFIG , TIP_SEQUENCE_GROUP_MISMATCH , TIP_SEQUENCE_NUMBER_GAP , TIP_CONTROLLER_SWITCH_ACTIVE_SIDE , TIP_REQUEST_FAILURE , TIP_PROTOCOL_RESPONSE_ERROR , TIP_HEARTBEAT_FAILURE , TOS_PROCESSING_ERROR , TOS_PROCESSING_WARNING , TOS_REQUEST_RESPONSE_LATENCY_WARNING , TOS_CONNECTION_HEARTBEAT_MISSED , TOS_HEARTBEAT_FAILURE | TIP_CONTROLLER_START , TIP_SEQUENCE_NUMBER_SYNC_OK , TIP_CONNECTION_HEARTBEAT_MISSED |
+| Apache Storm Spout errors and Apache Camel Communication errors | CAMEL_SERVICE_ERROR , TEMPESTA_SPOUT_LOAD_CONFIG_ERROR , TEMPESTA_COMMAND_SPOUT_INIT_ERROR , TEMPESTA_COMMAND_SPOUT_CLOSE_ERROR , TEMPESTA_SPOUT_APP_SEQUENCE_ERROR , TEMPESTA_SPOUT_RUNTIME_ERROR , TEMPESTA_SPOUT_ZOOKEEPER_DISCONNECTED , TEMPESTA_SPOUT_DEACTIVATED , TIP_END_POINT_CONFIGURATION_ERROR , TOS_END_POINT_CONFIGURATION_ERROR | TEMPESTA_SPOUT_LOAD_CONFIG , TEMPESTA_SPOUT_JMX_STATE , TEMPESTA_SPOUT_ZOOKEEPER_CONNECTED , TEMPESTA_SPOUT_ACTIVATED , DEPLOYMENT_TYPE_MODIFIED |
+| Live Data Storm Topology and Clustering messages | TEMPESTA_TOPOLOGY_ZOOKEEPER_CONNECTION_ERROR , TEMPESTA_TOPOLOGY_ZOOKEEPER_PROCESSING_ERROR , TEMPESTA_CLUSTER_ZOOKEEPER_ERROR , TEMPESTA_CLUSTER_ERROR , TEMPESTA_CLUSTER_HB_SUBSCRIBER_CONNECTION_DOWN , TEMPESTA_CLUSTER_PUBLISHER_CONNECTION_DOWN , CLUSTER_STATE_MACHINE_ERROR , ACTIVEMQ_STATE_DOWN , NETBRIDGE_STATE_DOWN | TEMPESTA_CLUSTER_STATE_UPDATE , TEMPESTA_CLUSTER_HB_SUBSCRIBER_CONNECTION_UP , TEMPESTA_CLUSTER_PUBLISHER_CONNECTION_UP , CLUSTER_STATE_MACHINE_ACTIVATE_SPOUTS , CLUSTER_STATE_MACHINE_DEACTIVATE_SPOUTS , ACTIVEMQ_STATE_UP , NETBRIDGE_STATE_UP |
+| Database and processing | DATABASE_RUNTIME_ERROR , DATABASE_ACCESS_ERROR , DATABASE_GETADDRESS_ERROR , CONFIGURATION_DATABASE_VERSION_ERROR , TEMPESTA_GENERIC_EXCEPTION , TEMPESTA_DATA_PROCESSING_LIVEDATA_INTERVAL_RUNTIME_ERROR , TEMPESTA_DATA_PROCESSING_LIVEDATA_INTERVAL_PROCESSING_ERROR | CCMDB_CONNECTION_POOL_ERROR , CONFIG_NO_AGENTS_LOADED , CONFIG_NO_REASON_CODES_LOADED |
 
 | Object Name | Description |
 |---|---|

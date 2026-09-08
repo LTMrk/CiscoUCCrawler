@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-7dbdac1385
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_unified-cce-administration.html
-retrieved_at: 2026-08-20T18:54:31.813941+00:00
+retrieved_at: 2026-09-08T05:33:29.955773+00:00
 ---
 
 Configuration Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1022,10 +1022,6 @@ Before purchasing your licenses, run the License Consumption report on the exist
                                  to make the right purchase decisions on the license requirement.
 
 Configure Admin email address in Cisco SSM to receive notifications and alerts from Cisco SSM .
-
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
 
 | Note | Administration
                                           			 clients and administration workstations can support remote desktop access. But,

@@ -1,27 +1,16 @@
 {
-  "run_at": "2026-09-08T05:16:14.959264+00:00",
+  "run_at": "2026-09-08T05:37:51.728071+00:00",
   "modo": "incremental",
-  "added": [
-    "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-84381c4cad"
-  ],
+  "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-conferencing-meeting-server-213413-configure-and-troubleshoot-dual-screen-f-html-160b6ca02a",
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200662-adfs-ids-troubleshooting-da9468a049",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-ucce-compatibility-matrix-contact-8a9d66254e"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-7dbdac1385",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-af4b7576ed",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c734c1bccf",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c74b02e2ec"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 36,
-  "redirected": [
-    "https://logadvisor.cisco.com/logadvisor/collaboration/unifiedcommunications/mra -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://trustportal.cisco.com -> https://trustportal.cisco.com/c/r/ctp/home.html",
-    "https://www-author.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_0110.html -> https://cisco.login.duosecurity.com/email_first",
-    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/unified_messaging/guide/11xcucumg020.fm -> https://cisco.login.duosecurity.com/email_first",
-    "https://www.cisco.com/c/en/us/support/conferencing/cisco-meeting-app/series.html -> https://www.cisco.com/c/en/us/support/conferencing/meeting-server/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/expressway/model.html -> https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/security/b_11xcucsecx/b_11xcucsecx_chapter_0111.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/user/guide/phone/b_11xcucugphone/Managing_Meetings.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox.html. -> https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox.html"
-  ],
+  "unchanged_count": 67,
+  "redirected": [],
   "semillas_encoladas": 20
 }
