@@ -42555,10 +42555,10 @@
       "first_seen": "2026-08-16T23:40:20.910918+00:00",
       "last_changed": "2026-09-07T11:11:33.454351+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:11:33.454351+00:00",
-      "next_check": "2026-09-08T11:11:33.454351+00:00",
+      "last_seen": "2026-09-08T11:58:04.771259+00:00",
+      "next_check": "2026-09-10T11:58:04.771259+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html": {
       "content_sha": "26e41e749d196895ac0c5bca1fa4afff8779d2a490d88df283d51fa9f33f28a2",
@@ -202648,5 +202648,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T11:47:44.958064+00:00"
+  "updated_at": "2026-09-08T11:58:46.236868+00:00"
 }
