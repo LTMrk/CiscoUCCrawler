@@ -192793,10 +192793,10 @@
       "first_seen": "2026-08-21T05:24:37.627799+00:00",
       "last_changed": "2026-08-21T05:24:37.627799+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T03:46:27.488611+00:00",
-      "next_check": "2026-08-27T03:46:27.488611+00:00",
+      "last_seen": "2026-09-08T03:57:10.376737+00:00",
+      "next_check": "2026-09-12T03:57:10.376737+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_feature-configuration-for-jabber-129/cjab_b_feature-configuration-for-jabber-129_chapter_0101.html": {
       "content_sha": "ca8f72086b029e45f40b45673f5b7f90792b92198fc5973181941218b29c601a",
@@ -200595,5 +200595,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-08T03:52:27.382480+00:00"
+  "updated_at": "2026-09-08T03:57:48.966819+00:00"
 }
