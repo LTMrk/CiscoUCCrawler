@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.html
-retrieved_at: 2026-09-01T19:35:04.895781+00:00
+retrieved_at: 2026-09-08T02:39:13.649333+00:00
 ---
 
 How do I upgrade and downgrade Cloud-Registered Cisco Endpoints on Room OS?
@@ -176,9 +176,9 @@ Technical Consulting Engineer
 
 - Console Access for WebEx Room Series Devices and Quad Camera
 
-- Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
-
 - Troubleshoot Video Endpoint Shut Down Due to High Temperature
+
+- Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
 
 ### This Document Applies to These Products
 

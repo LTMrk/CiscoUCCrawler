@@ -1,20 +1,15 @@
 {
-  "run_at": "2026-09-08T02:32:10.292961+00:00",
+  "run_at": "2026-09-08T02:41:37.719766+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 73,
+  "unchanged_count": 50,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCuq61271 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/%20CSCur16878 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuo31475 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup99597 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq05680 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq06176 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCuq60463 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://mycase.cloudapps.cisco.com/case -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://roomos.cisco.com/print/ReleaseNotes/RoomOS_10 -> https://roomos.cisco.com/print/WhatsNew/ReleaseNotesRoomOS_10"
   ],
   "semillas_encoladas": 20
 }
