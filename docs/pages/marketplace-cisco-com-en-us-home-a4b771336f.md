@@ -1,15 +1,14 @@
 ---
 doc_id: marketplace-cisco-com-en-us-home-a4b771336f
 source_url: https://marketplace.cisco.com/en-US/home
-retrieved_at: 2026-08-16T19:25:47.045551+00:00
+retrieved_at: 2026-09-14T19:54:17.065046+00:00
 ---
 
-Cisco Networking App Marketplace
+Cisco App Marketplace
 
 ## More than integrations. A smarter way to run your network.
 
-Discover trusted integrations that simplify operations, automate workflows,
-                    and extend the value of your Cisco infrastructure.
+Discover trusted integrations that automate workflows and extend the value of your Cisco solutions, including Cloud Control.
 
 Featured Partner: PagerDuty
 

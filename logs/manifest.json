@@ -1563,8 +1563,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T17:08:34.486462+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T16:38:35.812714+00:00",
-      "next_check": "2026-09-08T16:38:35.812714+00:00",
+      "last_seen": "2026-09-14T19:53:44.809719+00:00",
+      "next_check": "2026-09-15T19:53:44.809719+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -6399,8 +6399,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T21:43:51.051916+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-08T01:24:49.540865+00:00",
-      "next_check": "2026-09-09T01:24:49.540865+00:00",
+      "last_seen": "2026-09-14T19:57:54.612503+00:00",
+      "next_check": "2026-09-15T19:57:54.612503+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -13289,8 +13289,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T05:48:28.619018+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T16:37:40.865692+00:00",
-      "next_check": "2026-09-08T16:37:40.865692+00:00",
+      "last_seen": "2026-09-14T19:53:02.241669+00:00",
+      "next_check": "2026-09-15T19:53:02.241669+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23765,8 +23765,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T21:42:47.472593+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-08T01:24:53.548894+00:00",
-      "next_check": "2026-09-09T01:24:53.548894+00:00",
+      "last_seen": "2026-09-14T19:57:58.371527+00:00",
+      "next_check": "2026-09-15T19:57:58.371527+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -32283,17 +32283,17 @@
       "unchanged_runs": 0
     },
     "https://marketplace.cisco.com/en-US/home": {
-      "content_sha": "c084f5ca12fc5203e48488ae7b3d38b5ae4f45abea2fe61112f332c9975ac96d",
+      "content_sha": "b336510f10bb346a008129dc3e054ff28795787cb6bee38d21f0881c76f4d4e8",
       "doc_id": "marketplace-cisco-com-en-us-home-a4b771336f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T19:25:47.045455+00:00",
-      "last_changed": "2026-08-16T19:25:47.045455+00:00",
+      "last_changed": "2026-09-14T19:54:17.064947+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T15:24:54.875343+00:00",
-      "next_check": "2026-09-09T15:24:54.875343+00:00",
+      "last_seen": "2026-09-14T19:54:17.064947+00:00",
+      "next_check": "2026-09-15T19:54:17.064947+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://marketplace.cisco.com/home": {
       "content_sha": null,
@@ -33711,8 +33711,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T05:38:48.340171+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T16:38:12.421661+00:00",
-      "next_check": "2026-09-08T16:38:12.421661+00:00",
+      "last_seen": "2026-09-14T19:53:31.528617+00:00",
+      "next_check": "2026-09-15T19:53:31.528617+00:00",
       "redirect_to": "https://video.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
@@ -33723,8 +33723,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T05:38:52.351754+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T16:38:16.427037+00:00",
-      "next_check": "2026-09-08T16:38:16.427037+00:00",
+      "last_seen": "2026-09-14T19:53:35.667592+00:00",
+      "next_check": "2026-09-15T19:53:35.667592+00:00",
       "redirect_to": "https://video.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
@@ -37271,10 +37271,10 @@
       "first_seen": "2026-08-20T21:16:26.625952+00:00",
       "last_changed": "2026-08-20T21:16:26.625952+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T13:17:00.166625+00:00",
-      "next_check": "2026-09-11T13:17:00.166625+00:00",
+      "last_seen": "2026-09-14T19:57:30.274483+00:00",
+      "next_check": "2026-09-22T19:57:30.274483+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212684-troubleshoot-finesse-mobile-agent.html": {
       "content_sha": "69a95b9dec908eeaae288b87587c39d8417dd7875e3f77409ca504f77198e54c",
@@ -153418,15 +153418,15 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1261-ip-phone-agent-tasks.html": {
-      "content_sha": "6f7cb2ba84ef863b496ebbd7251b4c126b6ec39a3dd7a9953c253504a7ce114b",
+      "content_sha": "23f616a390882736f58e199e35c04ad8ba6decf81afed30c486d921d0e9f79b1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-46a4cd0126",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T20:31:21.943831+00:00",
-      "last_changed": "2026-09-07T17:43:06.794531+00:00",
+      "last_changed": "2026-09-14T19:57:26.785420+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:43:06.794531+00:00",
-      "next_check": "2026-09-08T17:43:06.794531+00:00",
+      "last_seen": "2026-09-14T19:57:26.785420+00:00",
+      "next_check": "2026-09-15T19:57:26.785420+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -153438,10 +153438,10 @@
       "first_seen": "2026-08-16T20:31:09.164114+00:00",
       "last_changed": "2026-09-07T17:42:53.627948+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:42:53.627948+00:00",
-      "next_check": "2026-09-08T17:42:53.627948+00:00",
+      "last_seen": "2026-09-14T19:57:13.215971+00:00",
+      "next_check": "2026-09-16T19:57:13.215971+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_common-tasks.html": {
       "content_sha": "564a55b38eedd867b61655c1050f5ad4b88a22c170f5da7c470139d34879caaa",
@@ -153451,10 +153451,10 @@
       "first_seen": "2026-08-16T20:31:14.010561+00:00",
       "last_changed": "2026-08-20T17:38:32.822376+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:42:58.672664+00:00",
-      "next_check": "2026-09-11T17:42:58.672664+00:00",
+      "last_seen": "2026-09-14T19:57:18.431571+00:00",
+      "next_check": "2026-09-22T19:57:18.431571+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_preface-desktop-guide.html": {
       "content_sha": "6803d54015caa7c5fcd1ce032ea74f50dd1af35d73f302bfac9ab1d6bd22da0e",
@@ -153464,10 +153464,10 @@
       "first_seen": "2026-08-16T20:31:04.235661+00:00",
       "last_changed": "2026-08-20T17:38:36.352570+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:42:48.355734+00:00",
-      "next_check": "2026-09-11T17:42:48.355734+00:00",
+      "last_seen": "2026-09-14T19:57:07.855844+00:00",
+      "next_check": "2026-09-22T19:57:07.855844+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_supervisor-tasks.html": {
       "content_sha": "5ef305bc79c4edaeae955c87bf8126139d028ec0527d2864db858eb091874c36",
@@ -153477,10 +153477,10 @@
       "first_seen": "2026-08-16T20:31:17.595395+00:00",
       "last_changed": "2026-09-07T17:43:02.471972+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:43:02.471972+00:00",
-      "next_check": "2026-09-08T17:43:02.471972+00:00",
+      "last_seen": "2026-09-14T19:57:22.077141+00:00",
+      "next_check": "2026-09-16T19:57:22.077141+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/hcs-cc/12_0_1/Config_Guide/hcscc_b_configuration_guide_12_0.html": {
       "content_sha": null,
@@ -168882,10 +168882,10 @@
       "first_seen": "2026-08-16T19:57:39.762798+00:00",
       "last_changed": "2026-09-07T17:03:29.148849+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:03:29.148849+00:00",
-      "next_check": "2026-09-08T17:03:29.148849+00:00",
+      "last_seen": "2026-09-14T19:56:38.151875+00:00",
+      "next_check": "2026-09-16T19:56:38.151875+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/rcct-b-cce-es-installation-guide--release-15_01_es/rcct-m-manual-es-installation.html": {
       "content_sha": "16aae3a2c24fe92d888e6920e271604931b7280cab6565d7c2fc793ea0e20765",
@@ -168895,10 +168895,10 @@
       "first_seen": "2026-08-16T19:57:44.335487+00:00",
       "last_changed": "2026-09-07T17:03:33.582541+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:03:33.582541+00:00",
-      "next_check": "2026-09-08T17:03:33.582541+00:00",
+      "last_seen": "2026-09-14T19:56:42.828571+00:00",
+      "next_check": "2026-09-16T19:56:42.828571+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/cce_orchestration.html": {
       "content_sha": "ae235f051160fc8b7576fc8215946ddc3c3c9f8bdb8b8032090c7ed9a667d23e",
@@ -169571,10 +169571,10 @@
       "first_seen": "2026-08-16T19:36:07.463613+00:00",
       "last_changed": "2026-09-07T16:41:43.381703+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:41:43.381703+00:00",
-      "next_check": "2026-09-08T16:41:43.381703+00:00",
+      "last_seen": "2026-09-14T19:56:13.193561+00:00",
+      "next_check": "2026-09-16T19:56:13.193561+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603.html": {
       "content_sha": "4e2d4433a1cf5e4e451d90b059a56a9de578c3576c46846bb2987fc265b5770c",
@@ -169603,15 +169603,15 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603/rcct-m-feature-summary-1501-es202603.html": {
-      "content_sha": "ad1c20e40f4cb431fc5fc1a62ed2f47887b52ba32f75e68aebf9bf30d672db11",
+      "content_sha": "50b04ab3c8a4a7965bd5eed98e204f32ecd77e39ef184ff0f02b6643dbedb5b3",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-b443bd6482",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T19:35:59.551131+00:00",
-      "last_changed": "2026-09-07T16:41:35.386160+00:00",
+      "last_changed": "2026-09-14T19:56:09.297462+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:41:35.386160+00:00",
-      "next_check": "2026-09-08T16:41:35.386160+00:00",
+      "last_seen": "2026-09-14T19:56:09.297462+00:00",
+      "next_check": "2026-09-15T19:56:09.297462+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -169675,10 +169675,10 @@
       "first_seen": "2026-08-16T19:35:42.648096+00:00",
       "last_changed": "2026-08-25T00:14:27.043439+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:41:17.814873+00:00",
-      "next_check": "2026-09-09T16:41:17.814873+00:00",
+      "last_seen": "2026-09-14T19:56:04.829339+00:00",
+      "next_check": "2026-09-18T19:56:04.829339+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-for-es.html": {
       "content_sha": "23b40ccbde6cf1721612c1d009f9b92bd962c6bd78b17740c9bd4822462c2e4b",
@@ -170416,10 +170416,10 @@
       "first_seen": "2026-08-16T20:39:11.152508+00:00",
       "last_changed": "2026-09-07T17:52:58.396224+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T17:52:58.396224+00:00",
-      "next_check": "2026-09-08T17:52:58.396224+00:00",
+      "last_seen": "2026-09-14T19:57:34.872049+00:00",
+      "next_check": "2026-09-16T19:57:34.872049+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/internet_script_editor.html": {
       "content_sha": "c90ab82c210c5a4e85da4ed4bae8f5a2189c72d897800e5114c46596dc416ece",
@@ -202673,5 +202673,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T19:48:45.558448+00:00"
+  "updated_at": "2026-09-14T19:58:44.442989+00:00"
 }

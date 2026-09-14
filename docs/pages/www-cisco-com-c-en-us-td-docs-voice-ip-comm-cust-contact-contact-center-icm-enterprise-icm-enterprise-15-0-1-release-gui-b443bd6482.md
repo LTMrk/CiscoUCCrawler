@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-b443bd6482
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603/rcct-m-feature-summary-1501-es202603.html
-retrieved_at: 2026-09-07T16:41:35.386240+00:00
+retrieved_at: 2026-09-14T19:56:09.297581+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU1/ES202603
@@ -66,6 +66,8 @@ Install 15.0(1) ES202603 on Unified CVP.
 Upgrade Cisco VVB to 15.0(1) SU1. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) .
 
 Upgrade Cloud Connect to 15.0(1) SU1. For information on how to upgrade, see Upgrade Cloud Connect
+
+New AI engine for Webex AI Agent
 
 Cloud Connect
 
@@ -167,6 +169,22 @@ Upgrade Cloud Connect to 15.0(1) SU1. For information on how to upgrade, see Upg
 ### New Features
 
 #### SU1/ES202603
+
+##### New AI engine for Webex AI Agent
+
+To help you create more meaningful and reliable customer connections, the Webex AI Agent has been upgraded from GPT-4.1 to
+                                    GPT-5.4. This enhancement is designed to deliver greater accuracy, more natural conversations, and improved prompt adherence,
+                                    helping your AI agents remain closely aligned with your specific business goals. The new engines are available from the drop-down
+                                    list as Webex AI Pro 2.0, Webex AI Pro US 2.0, and Webex AI Pro EU 2.0.
+
+We recommend upgrading your existing agents to version 2.0 to benefit from these enhancements, as support for version 1.0
+                                    engines will end soon.
+
+For more information, see the Webex AI Agent Studio section in the Webex Ai Agent chapter of the following guides:
+
+Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
+
+Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
 
 ##### Increased Reliability and Scale for Contact Center AI Features
 
@@ -557,6 +575,10 @@ Wrap-up summaries : AI-generated summaries produced at the conclusion of a custo
                                     for the call, actions performed, resolution outcome, and any required follow-up tasks. Agents can review, modify, and finalize
                                     this summary to minimize manual note-taking and enhance documentation accuracy and efficiency.
 
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
+
 | Solution/ Component | General Availability Features | Installation / Upgrade Requirements |
 |---|---|---|
 | Unified CCE/Packaged CCE | Increased Reliability and Scale for Contact Center AI Features Note This update is applicable only to Unified CCE. Refer to the Controlled Availability Features section for Packaged CCE. | Note | This update is applicable only to Unified CCE. Refer to the Controlled Availability Features section for Packaged CCE. | Install 15.0(1) ES202603 on the Administration & Data Server, Administration Client, Router, Logger, and PG. Install CVP 15.0(1) ES202603 on Unified CVP. Upgrade Cisco VVB to 15.0(1) SU1. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) . |
@@ -567,6 +589,7 @@ Wrap-up summaries : AI-generated summaries produced at the conclusion of a custo
 | Parallel Patching Support |
 | Enhanced Patch Management for all supported CCE Deployments via Orchestration |
 | Bring Your Own Virtual Agent Integration | Install 15.0(1) ES202603 on Unified CVP. Upgrade Cisco VVB to 15.0(1) SU1. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) . Upgrade Cloud Connect to 15.0(1) SU1. For information on how to upgrade, see Upgrade Cloud Connect |
+| New AI engine for Webex AI Agent |
 | Cloud Connect | Cloud Connect Subscriber Proxy Support | Upgrade Cloud Connect to 15.0(1) SU1. For information on how to upgrade, see Upgrade Cloud Connect |
 | Finesse | Enhanced Content Security Policy (CSP) | Upgrade Cisco Finesse to 15.0(1) SU1. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . |
 | Enhanced Database Port Configuration in Cisco Finesse |
