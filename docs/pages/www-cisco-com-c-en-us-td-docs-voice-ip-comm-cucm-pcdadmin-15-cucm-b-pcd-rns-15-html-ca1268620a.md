@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-15-cucm-b-pcd-rns-15-html-ca1268620a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15/cucm_b_pcd-rns_15.html
-retrieved_at: 2026-08-16T23:38:43.962326+00:00
+retrieved_at: 2026-09-14T16:49:38.146496+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 15
@@ -210,6 +210,10 @@ Hostname and IP address change task failed during Network change verification in
 CSCwi48005
 
 file get fails to download logs with local SFTP option in PCD
+
+### This Document Applies to These Products
+
+- Unified Communications Manager Version 15
 
 | Note | Cisco Prime Collaboration Deployment doesn't support internationalization or languages other than English. |
 |---|---|
