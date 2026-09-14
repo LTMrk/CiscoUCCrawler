@@ -1,16 +1,15 @@
 {
-  "run_at": "2026-09-14T13:24:19.350332+00:00",
+  "run_at": "2026-09-14T13:35:29.070188+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-ipv6-vtgs-b-ipv6-deployment-guide-for-cisco-vtgs-b-ipv6-deployment-f39036f772"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 85,
+  "unchanged_count": 52,
   "redirected": [
-    "https://connectthedots.cisco.com/connectdots/serviceWarrantyFinderRequest -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://mycase.cloudapps.cisco.com/case -> https://id.cisco.com/oauth2/default/v1/authorize"
+    "https://bst.cloudapps.cisco.com/bugsearch -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCws47178 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwt07007 -> https://id.cisco.com/oauth2/default/v1/authorize"
   ],
   "semillas_encoladas": 20
 }
