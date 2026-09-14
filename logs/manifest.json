@@ -40308,10 +40308,10 @@
       "first_seen": "2026-08-21T07:08:42.390196+00:00",
       "last_changed": "2026-08-21T07:08:42.390196+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:18:11.129785+00:00",
-      "next_check": "2026-09-11T14:18:11.129785+00:00",
+      "last_seen": "2026-09-14T20:28:02.320281+00:00",
+      "next_check": "2026-09-22T20:28:02.320281+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300.html": {
       "content_sha": "1e89d94ac232fff40faee7656cdf60f7634e523071ef879e2f33a2cdac7e1613",
@@ -40321,10 +40321,10 @@
       "first_seen": "2026-08-21T07:08:46.608659+00:00",
       "last_changed": "2026-08-21T07:08:46.608659+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:18:15.130824+00:00",
-      "next_check": "2026-09-11T14:18:15.130824+00:00",
+      "last_seen": "2026-09-14T20:28:06.787240+00:00",
+      "next_check": "2026-09-22T20:28:06.787240+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html": {
       "content_sha": "84737baa55b6769009c93f168561d012f503a43a3ad9365c9a9d326cea7eb79e",
@@ -202686,5 +202686,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T20:23:41.187160+00:00"
+  "updated_at": "2026-09-14T20:44:28.576695+00:00"
 }
