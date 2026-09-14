@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html
-retrieved_at: 2026-09-07T22:12:17.485541+00:00
+retrieved_at: 2026-09-14T20:03:17.095491+00:00
 ---
 
 Understand Mobile and Remote Access Certificate Requirements and Apache Traffic Server History
@@ -310,9 +310,9 @@ Cisco TAC Engineer
 
 - Navigate Client EKU Sunset with Expressway x15.5
 
-- Troubleshoot Expressway Certificates
-
 - Understand Effect of GoDaddy Root Migration on Expressway MRA
+
+- Troubleshoot Expressway Certificates
 
 | Revision | Publish Date | Comments |
 |---|---|---|

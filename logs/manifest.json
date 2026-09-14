@@ -33610,8 +33610,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T22:56:10.930105+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T22:56:10.930115+00:00",
-      "next_check": "2026-09-08T22:56:10.930115+00:00",
+      "last_seen": "2026-09-14T20:04:17.993484+00:00",
+      "next_check": "2026-09-15T20:04:17.993484+00:00",
       "redirect_to": "https://video.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
@@ -36673,10 +36673,10 @@
       "first_seen": "2026-08-16T22:06:07.905302+00:00",
       "last_changed": "2026-09-07T14:20:18.246907+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:20:18.246907+00:00",
-      "next_check": "2026-09-08T14:20:18.246907+00:00",
+      "last_seen": "2026-09-14T20:02:59.888363+00:00",
+      "next_check": "2026-09-16T20:02:59.888363+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html": {
       "content_sha": "9d7d3464a76ce4b3646b298ad98bd98dce72b85c2b8877758d6b0a9317c4fd8e",
@@ -40282,10 +40282,10 @@
       "first_seen": "2026-08-16T22:06:25.859188+00:00",
       "last_changed": "2026-09-07T14:21:00.708174+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:21:00.708174+00:00",
-      "next_check": "2026-09-08T14:21:00.708174+00:00",
+      "last_seen": "2026-09-14T20:03:04.824435+00:00",
+      "next_check": "2026-09-16T20:03:04.824435+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/speechview/217535-troubleshoot-the-error-failed-to-fetch.html": {
       "content_sha": "bfbe3ec12d7c6d7d411720f23b4fe51bfad91efa650b393f1266a16372a4e77a",
@@ -40327,15 +40327,15 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html": {
-      "content_sha": "45f474276e22e9103d00379e432a4b9004ee219044c245b1a33ef1a19a3b836e",
+      "content_sha": "84737baa55b6769009c93f168561d012f503a43a3ad9365c9a9d326cea7eb79e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T22:17:21.120466+00:00",
-      "last_changed": "2026-09-07T22:12:17.485455+00:00",
+      "last_changed": "2026-09-14T20:03:17.095416+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T22:12:17.485455+00:00",
-      "next_check": "2026-09-08T22:12:17.485455+00:00",
+      "last_seen": "2026-09-14T20:03:17.095416+00:00",
+      "next_check": "2026-09-15T20:03:17.095416+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -40351,6 +40351,19 @@
       "next_check": "2026-09-30T18:09:33.484947+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.html": {
+      "content_sha": "5f588b89fa3e2ef7ed3d18560e22e961ba03287f60f15c3f7537d50fcd1411d1",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-a4d7a5a914",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-14T20:03:08.694349+00:00",
+      "last_changed": "2026-09-14T20:03:08.694349+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-14T20:03:08.694349+00:00",
+      "next_check": "2026-09-15T20:03:08.694349+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html": {
       "content_sha": "c31fc4132bbf98e2a471d879c6c9fce26f359d2f3cefa8d13a9ef53c7781208b",
@@ -40412,10 +40425,10 @@
       "first_seen": "2026-08-16T22:47:44.333583+00:00",
       "last_changed": "2026-09-07T22:12:13.329278+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T22:12:13.329278+00:00",
-      "next_check": "2026-09-08T22:12:13.329278+00:00",
+      "last_seen": "2026-09-14T20:03:13.261687+00:00",
+      "next_check": "2026-09-16T20:03:13.261687+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html": {
       "content_sha": "f1870a68ac01dfe8a3b7c91f8e885f89d82d0163dfb5451419c34f980ff408c4",
@@ -202673,5 +202686,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T19:58:44.442989+00:00"
+  "updated_at": "2026-09-14T20:04:35.249024+00:00"
 }
