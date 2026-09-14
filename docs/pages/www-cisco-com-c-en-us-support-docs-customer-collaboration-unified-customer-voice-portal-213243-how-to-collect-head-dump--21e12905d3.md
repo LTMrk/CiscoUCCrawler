@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-213243-how-to-collect-head-dump--21e12905d3
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/213243-how-to-collect-head-dump-and-thread-dump.html
-retrieved_at: 2026-08-16T19:23:16.786314+00:00
+retrieved_at: 2026-09-14T16:05:21.681957+00:00
 ---
 
 How to Collect Heap Dump and Thread dump from CVP VXML Server
@@ -91,17 +91,3 @@ Step 1. Connect to CVP VXML Server on <CVP VXML Server>: 9696 ( 9696 is default 
 Step 2. Righ-clik on JXM Connection and Collect Thread Dump .
 
 Step 3. Here thread dump dumped in the remote server, where it can be saved as a file and used for further analysis.
-
-### Contributed by Cisco Engineers
-
-Raghu Guvvala
-
-Cisco Engineering
-
-Mahesh Mansanipalli
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Unified Customer Voice Portal
