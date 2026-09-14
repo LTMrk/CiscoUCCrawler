@@ -1,11 +1,21 @@
 {
-  "run_at": "2026-09-14T20:51:30.479965+00:00",
+  "run_at": "2026-09-14T21:02:09.756764+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-14-su2-cucm-b-install-guide-cucm-imp-14su2-cucm-b-install-guide-4decceccc1"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 0,
-  "redirected": [],
+  "unchanged_count": 12,
+  "redirected": [
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup67940 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwi85184 -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://cisco.com -> https://www.cisco.com",
+    "https://globalcontacts.cloudapps.cisco.com/contacts -> https://www.cisco.com/site/us/en/about/contact-cisco/index.html",
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/openBasicSearch.do -> https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=1EA52402BECCE8D42CD0778891386A88",
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/15SU2/cucm_b_pcd-rns_15su2.html -> https://cisco.login.duosecurity.com/email_first",
+    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_m_sequencing-rules-time-requirements-15.html -> https://cisco.login.duosecurity.com/email_first"
+  ],
   "semillas_encoladas": 20
 }
