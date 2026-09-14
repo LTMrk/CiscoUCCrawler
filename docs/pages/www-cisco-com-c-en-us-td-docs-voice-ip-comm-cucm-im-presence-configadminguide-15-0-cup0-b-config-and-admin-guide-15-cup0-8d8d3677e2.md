@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-15-0-cup0-b-config-and-admin-guide-15-cup0-8d8d3677e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_0101.html
-retrieved_at: 2026-08-16T15:57:39.013163+00:00
+retrieved_at: 2026-09-14T18:23:28.262865+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 15 and SUs
@@ -267,6 +267,10 @@ Click Save .
 
 Configure an LDAP Directory sync that includes this feature group template. When you complete the LDAP Sync, the IM and Presence
                                  settings in the  template get applied to synchronized users. See LDAP Synchronization Configuration Task Flow .
+
+### Customers Also Viewed
+
+- Configuration and Administration of the IM and Presence Service, Release 15 and SUs --- Configure Cisco Unified Communications Manager for IM and Presence Service
 
 | Note | This chapter covers user settings that apply to the IM and Presence Service, specifically. For general UC user configurations,
                                        including UC services such as voicemail and conferencing, refer to the "Configure End Users" section of the System Configuration Guide for Cisco Unified Communications Manager . You can apply these configurations as a part of your LDAP sync. |
