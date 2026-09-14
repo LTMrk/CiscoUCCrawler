@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html
-retrieved_at: 2026-08-16T22:56:22.717626+00:00
+retrieved_at: 2026-09-14T20:13:07.670666+00:00
 ---
 
 Collect Logs for UC Applications
@@ -254,26 +254,6 @@ New Links Added
 07-Feb-2017
 
 Initial Release
-
-### Contributed by Cisco Engineers
-
-Josh Hammonds
-
-Cisco TAC Engineer
-
-Joseph Hardy
-
-Cisco TAC Engineer
-
-Joel Burleigh
-
-Cisco TAC Engineer
-
-### This Document Applies to These Products
-
-- Jabber
-
-- Jabber for Windows
 
 | Revision | Publish Date | Comments |
 |---|---|---|

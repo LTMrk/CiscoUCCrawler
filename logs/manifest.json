@@ -39912,17 +39912,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html": {
-      "content_sha": "a58e30d026926e845414b84e37d497d10d3e92215223ad277820dee2d52a4244",
+      "content_sha": "efa356dbbfb3b57719d78296b10dce227d49ce045355015d7b30e7e7c5b21202",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T22:56:22.717476+00:00",
-      "last_changed": "2026-08-16T22:56:22.717476+00:00",
+      "last_changed": "2026-09-14T20:13:07.670543+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:23.037497+00:00",
-      "next_check": "2026-09-09T21:16:23.037497+00:00",
+      "last_seen": "2026-09-14T20:13:07.670543+00:00",
+      "next_check": "2026-09-15T20:13:07.670543+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html": {
       "content_sha": "778ef09936bbb4461477e63de46be094327e609d8c05de88637377a48419f340",
@@ -202686,5 +202686,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T20:04:35.249024+00:00"
+  "updated_at": "2026-09-14T20:13:20.503317+00:00"
 }

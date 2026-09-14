@@ -1,17 +1,13 @@
 {
-  "run_at": "2026-09-14T20:04:35.433105+00:00",
+  "run_at": "2026-09-14T20:13:20.729417+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-a4d7a5a914"
-  ],
+  "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac"
+    "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 3,
-  "redirected": [
-    "https://video.cisco.com/detail/video/5828832832001/resolving-port-conflict-issues-for-mra-phone-registrations -> https://video.cisco.com"
-  ],
+  "unchanged_count": 0,
+  "redirected": [],
   "semillas_encoladas": 20
 }
