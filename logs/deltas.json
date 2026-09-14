@@ -1,13 +1,14 @@
 {
-  "run_at": "2026-09-14T17:03:08.549214+00:00",
+  "run_at": "2026-09-14T17:25:01.686719+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213294-configure-cu-69dd310f78"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-dde3d8853c",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c4b20ec332"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 98,
+  "unchanged_count": 56,
   "redirected": [],
   "semillas_encoladas": 20
 }
