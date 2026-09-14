@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-220315-troubleshoot-expressway-upgrade-error-html-bd0666816f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220315-troubleshoot-expressway-upgrade-error.html
-retrieved_at: 2026-08-16T15:43:52.974209+00:00
+retrieved_at: 2026-09-14T18:11:32.088143+00:00
 ---
 
 Troubleshoot Expressway Upgrade Error
@@ -75,6 +75,12 @@ Cisco bug ID CSCvx35891
 29-Mar-2023
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Jefferson Andres Madriz Castro
+
+TAC
 
 | Revision | Publish Date | Comments |
 |---|---|---|
