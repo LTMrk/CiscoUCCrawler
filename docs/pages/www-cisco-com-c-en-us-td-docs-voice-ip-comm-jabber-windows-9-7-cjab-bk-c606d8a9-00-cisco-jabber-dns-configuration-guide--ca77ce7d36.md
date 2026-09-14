@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-9-7-cjab-bk-c606d8a9-00-cisco-jabber-dns-configuration-guide--ca77ce7d36
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_00.html
-retrieved_at: 2026-08-17T03:31:51.380161+00:00
+retrieved_at: 2026-09-14T22:26:57.393360+00:00
 ---
 
 Cisco Jabber DNS Configuration Guide
@@ -377,10 +377,6 @@ The Cisco VCS Control or Cisco Expressway-C server looks up the internal SRV rec
 
 After the client gets the internal SRV records, which must include _cisco-uds , it retrieves service profiles from Cisco Unified
 				  Communications Manager . The service profiles then provide the client with the user's home cluster, the primary source of authentication, and configuration.
-
-### Customers Also Viewed
-
-- Cisco Jabber DNS Configuration Guide --- Service (SRV) Records
 
 | Note | Refer to the latest version of your Cisco Jabber client Installation and Configuration Guide for further information on configuring available services. |
 |---|---|

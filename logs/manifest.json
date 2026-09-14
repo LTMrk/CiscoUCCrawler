@@ -29829,6 +29829,19 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=1EA52402BECCE8D42CD0778891386A88": {
+      "content_sha": "dda8b6b62d8b8c1f182fdccacd8ec13828075f416515573eb1622f317c4942aa",
+      "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-bb7f968715",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-14T22:23:48.918511+00:00",
+      "last_changed": "2026-09-14T22:23:48.918511+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-14T22:23:48.918511+00:00",
+      "next_check": "2026-09-15T22:23:48.918511+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp;jsessionid=40351341DA704CF13E87120DFFF277CA": {
       "content_sha": "dda8b6b62d8b8c1f182fdccacd8ec13828075f416515573eb1622f317c4942aa",
       "doc_id": "locatr-cloudapps-cisco-com-wwchannels-locatr-pf-index-jsp-84381c4cad",
@@ -40892,10 +40905,10 @@
       "first_seen": "2026-08-21T12:49:05.140420+00:00",
       "last_changed": "2026-08-21T12:49:05.140420+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:21:43.523198+00:00",
-      "next_check": "2026-08-26T05:21:43.523198+00:00",
+      "last_seen": "2026-09-14T22:27:17.951435+00:00",
+      "next_check": "2026-09-18T22:27:17.951435+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/115785-anyconnect-vpn-00.html": {
       "content_sha": "edeb8a546f066da2664dce85d3e9c0d9b17ff7dafe8892b094f26891bbeeef05",
@@ -56589,10 +56602,10 @@
       "first_seen": "2026-08-20T23:59:54.620485+00:00",
       "last_changed": "2026-08-20T23:59:54.620485+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:33:53.156763+00:00",
-      "next_check": "2026-09-12T06:33:53.156763+00:00",
+      "last_seen": "2026-09-14T22:26:48.726822+00:00",
+      "next_check": "2026-09-22T22:26:48.726822+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_011.html": {
       "content_sha": "1aaf070a47441696d96476f26b8736fa9d797423ef68f5f3ace5138c3456bf77",
@@ -192349,10 +192362,10 @@
       "first_seen": "2026-08-21T05:15:37.106884+00:00",
       "last_changed": "2026-08-21T05:15:37.106884+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:13:17.149688+00:00",
-      "next_check": "2026-09-11T15:13:17.149688+00:00",
+      "last_seen": "2026-09-14T22:27:39.399550+00:00",
+      "next_check": "2026-09-22T22:27:39.399550+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_010.html": {
       "content_sha": "e63d223481a99b723e3e790ee12dc6ddad5457c547253be9be7eba46cda9349f",
@@ -192375,10 +192388,10 @@
       "first_seen": "2026-08-21T05:15:45.604509+00:00",
       "last_changed": "2026-08-21T05:15:45.604509+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:13:25.555280+00:00",
-      "next_check": "2026-09-11T15:13:25.555280+00:00",
+      "last_seen": "2026-09-14T22:27:47.591434+00:00",
+      "next_check": "2026-09-22T22:27:47.591434+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01000.html": {
       "content_sha": "4d22f6d4782683546062e6d4d64aaa932ff59e0b1520bb66035b33cdc4898faa",
@@ -192414,10 +192427,10 @@
       "first_seen": "2026-08-21T05:15:50.102449+00:00",
       "last_changed": "2026-08-21T05:15:50.102449+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:13:30.005171+00:00",
-      "next_check": "2026-09-11T15:13:30.005171+00:00",
+      "last_seen": "2026-09-14T22:27:52.432415+00:00",
+      "next_check": "2026-09-22T22:27:52.432415+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01010.html": {
       "content_sha": "78b43e89d3a2b8af358b818e1fe2f910f196c76b69b73cd31a473743684a33f7",
@@ -192440,10 +192453,10 @@
       "first_seen": "2026-08-21T05:15:41.656810+00:00",
       "last_changed": "2026-08-21T05:15:41.656810+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:13:21.728385+00:00",
-      "next_check": "2026-09-11T15:13:21.728385+00:00",
+      "last_seen": "2026-09-14T22:27:43.640134+00:00",
+      "next_check": "2026-09-22T22:27:43.640134+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0110.html": {
       "content_sha": "8c15e6e959ec188d1bdd9a68a00e82d0364177723647efea7d5276b243f5dfe1",
@@ -192479,10 +192492,10 @@
       "first_seen": "2026-08-21T05:15:32.819644+00:00",
       "last_changed": "2026-08-21T05:15:32.819644+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:13:12.525850+00:00",
-      "next_check": "2026-09-11T15:13:12.525850+00:00",
+      "last_seen": "2026-09-14T22:27:34.799960+00:00",
+      "next_check": "2026-09-22T22:27:34.799960+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_deploy-jabber-on-premises-127/cjab_b_deploy-jabber-on-premises-127_chapter_01.html": {
       "content_sha": "1c262360697f257a831a742c2f49e31a1df79fc02dde98ef8ecebab7f15b55f4",
@@ -195469,10 +195482,10 @@
       "first_seen": "2026-08-20T22:14:43.972646+00:00",
       "last_changed": "2026-08-20T22:14:43.972646+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:50:36.231208+00:00",
-      "next_check": "2026-09-11T14:50:36.231208+00:00",
+      "last_seen": "2026-09-14T22:27:13.575820+00:00",
+      "next_check": "2026-09-22T22:27:13.575820+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0/cjab_b_deploy-jabber-on-premises-129_chapter_0111.html": {
       "content_sha": "89a35fac9dfdcc09c3d61042694466d26db4f772a7c01ee57bce9b599e6d17ec",
@@ -197086,17 +197099,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_00.html": {
-      "content_sha": "76eab93db8722e530550b8863f0296efafe0b7014f762fbcd930d1b44e1b5965",
+      "content_sha": "97305b8bb0de9bb71631e857b31e502161c39444bf629dd81bce4cd9fc17759d",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-9-7-cjab-bk-c606d8a9-00-cisco-jabber-dns-configuration-guide--ca77ce7d36",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T03:31:51.380011+00:00",
-      "last_changed": "2026-08-17T03:31:51.380011+00:00",
+      "last_changed": "2026-09-14T22:26:57.393266+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:34:25.813335+00:00",
-      "next_check": "2026-09-09T21:34:25.813335+00:00",
+      "last_seen": "2026-09-14T22:26:57.393266+00:00",
+      "next_check": "2026-09-15T22:26:57.393266+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_01.html": {
       "content_sha": "7f4a81dbafe6ec36ca6aa9508a8970874a707a2428a1e65b097566020cd8ed96",
@@ -197106,10 +197119,10 @@
       "first_seen": "2026-08-21T05:27:12.620597+00:00",
       "last_changed": "2026-08-21T05:27:12.620597+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:02:37.462034+00:00",
-      "next_check": "2026-08-27T04:02:37.462034+00:00",
+      "last_seen": "2026-09-14T22:27:01.348036+00:00",
+      "next_check": "2026-09-18T22:27:01.348036+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_010.html": {
       "content_sha": "884750499c66fdd3beba49392f84f7bbc865348553625f5542794ce5cfafc078",
@@ -202686,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T22:16:02.162530+00:00"
+  "updated_at": "2026-09-14T22:27:52.494669+00:00"
 }
