@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-ipv6-vtgs-b-ipv6-deployment-guide-for-cisco-vtgs-b-ipv6-deployment-f39036f772
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_01.html
-retrieved_at: 2026-08-16T18:21:37.286200+00:00
+retrieved_at: 2026-09-14T13:17:42.141238+00:00
 ---
 
 IPv6 Deployment Guide
@@ -364,10 +364,6 @@ PTR record:
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.0.0.8.1.c.0.
 
 8.b.d.0.1.0.0.2.ip6.arpa PTR www.abc.test.
-
-### Customers Also Viewed
-
-- IPv6 Deployment Guide --- IPv6 Introduction
 
 | Note | IPv6 clients do not require a default gateway configuration because routers are discovered using RSs and RAs. |
 |---|---|
