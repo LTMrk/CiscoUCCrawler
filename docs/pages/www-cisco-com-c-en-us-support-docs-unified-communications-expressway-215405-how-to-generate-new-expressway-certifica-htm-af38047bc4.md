@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-215405-how-to-generate-new-expressway-certifica-htm-af38047bc4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/215405-how-to-generate-new-expressway-certifica.html
-retrieved_at: 2026-08-16T15:42:20.240836+00:00
+retrieved_at: 2026-09-14T16:33:13.857957+00:00
 ---
 
 Generate New Expressway Certificate with the Information from the Current Certificate.
@@ -129,9 +129,3 @@ Locate the Server certificate data and look for the Currently loaded certificate
 ## Troubleshoot
 
 There is currently no specific troubleshooting information available for this configuration.
-
-### Contributed by Cisco Engineers
-
-Anibal Miron
-
-Cisco TAC Engineer
