@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-systemconfig-cucm-b-system-configuration-guide-1251-cucm-b-b6020d4932
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_01001000.html
-retrieved_at: 2026-08-16T17:36:45.153834+00:00
+retrieved_at: 2026-09-14T12:40:34.190367+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -390,6 +390,10 @@ Configure user settings for Self-Provisioning:
 Step 5
 
 Click Save .
+
+### Customers Also Viewed
+
+- Reset or Change CUCM OS Admin and Security Password
 
 | Tip | If you are provisioning a large number of phones on behalf of your end users, configure a speed dial on the universal device
                                        template that forwards to the self-provisioning IVR extension. |

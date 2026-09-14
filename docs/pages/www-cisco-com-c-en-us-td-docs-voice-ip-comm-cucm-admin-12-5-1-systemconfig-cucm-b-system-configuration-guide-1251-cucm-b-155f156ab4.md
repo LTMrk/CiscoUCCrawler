@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-systemconfig-cucm-b-system-configuration-guide-1251-cucm-b-155f156ab4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_01010000.html
-retrieved_at: 2026-08-16T17:37:18.396816+00:00
+retrieved_at: 2026-09-14T12:41:07.940920+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -176,6 +176,10 @@ Android PNS Service
 ## Push Notifications Configuration
 
 For details on how to configure and deploy Push Notifications, refer to Deploying Push Notifications for Cisco Jabber on iPhone and iPad at https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html .
+
+### Customers Also Viewed
+
+- Troubleshoot CUCM Database Replication Issues
 
 | Note | Cisco Jabber and Cisco Webex is considered to be running in suspended mode if any of the following conditions are true: the Cisco Jabber or Cisco Webex application is running off-screen (in the background) the Android or iOS device is locked the Android or iOS device screen is turned off |
 |---|---|
