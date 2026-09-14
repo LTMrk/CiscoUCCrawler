@@ -1,23 +1,13 @@
 {
-  "run_at": "2026-09-14T19:21:17.232519+00:00",
+  "run_at": "2026-09-14T19:33:08.546775+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-ipchange-cucm-b-change-ip-address-hostname-1251-cucm-b-c-09e1e2deaf"
+  ],
   "removed": [],
-  "blocked": [
-    "bst-cloudapps-cisco-com-bugsearch-bug-cscvf75449-906e169b19"
-  ],
-  "unchanged_count": 0,
-  "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvg40211 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvi26611 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvn51470 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCvp40778 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwc37421 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwd91126 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwf13979 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://cdetsng.cisco.com/webui -> https://cisco.login.duosecurity.com/email_first",
-    "https://www-author3.cisco.com/content/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/b_15cuciumg/b_15cuciumg_chapter_010.html -> https://cisco.login.duosecurity.com/email_first"
-  ],
+  "blocked": [],
+  "unchanged_count": 39,
+  "redirected": [],
   "semillas_encoladas": 20
 }

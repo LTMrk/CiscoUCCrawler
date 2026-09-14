@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-ipchange-cucm-b-change-ip-address-hostname-1251-cucm-b-c-09e1e2deaf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/ipchange/cucm_b_change-ip-address-hostname-1251/cucm_b_change-ip-address-hostname-1251_chapter_01.html
-retrieved_at: 2026-08-21T01:27:40.308131+00:00
+retrieved_at: 2026-09-14T19:30:53.268903+00:00
 ---
 
 Changing the IP Address and Hostname for Cisco Unified Communications Manager and IM and Presence Service, Release 12.5(1)
@@ -578,10 +578,6 @@ To verify
                                                 				  using the Cisco Unified CM IM and Presence Administration GUI on the IM and
                                                 				  Presence database publisher node, select Diagnostics > System
                                                       						Dashboard .
-
-### Customers Also Viewed
-
-- Changing the IP Address and Hostname for Cisco Unified Communications Manager and IM and Presence Service, Release 12.5(1) --- IP Address and Hostname Changes
 
 | Caution | If you do not
                                           			 receive the results that you expect when you perform these tasks, do not
