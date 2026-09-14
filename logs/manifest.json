@@ -15381,8 +15381,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T23:09:05.778115+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T23:09:05.778126+00:00",
-      "next_check": "2026-09-08T23:09:05.778126+00:00",
+      "last_seen": "2026-09-14T20:17:41.288216+00:00",
+      "next_check": "2026-09-15T20:17:41.288216+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -56165,10 +56165,10 @@
       "first_seen": "2026-08-16T22:59:20.521324+00:00",
       "last_changed": "2026-08-16T22:59:20.521324+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:27:20.610807+00:00",
-      "next_check": "2026-09-09T20:27:20.610807+00:00",
+      "last_seen": "2026-09-14T20:18:01.962787+00:00",
+      "next_check": "2026-09-30T20:18:01.962787+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_0100.html": {
       "content_sha": "f55ad32eebe4dc05c14780dc366b63aaadd197173ca7931475b7a3092cd99e48",
@@ -202686,5 +202686,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T20:13:20.503317+00:00"
+  "updated_at": "2026-09-14T20:18:11.316856+00:00"
 }
