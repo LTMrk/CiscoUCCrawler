@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-release-gui-6da3681abf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/release/guide/ucce_b_documentation_guide_1262.html
-retrieved_at: 2026-08-16T14:55:12.337887+00:00
+retrieved_at: 2026-09-14T17:36:46.968574+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Documentation Guide, Release 12.6(2)
@@ -22,7 +22,7 @@ First Published: April 28, 2023
 The following tables identify the documents that changed for this release. For Unified CCE documents not listed here, continue
                   to use the 12.6(1) version or the latest version published.
 
-### New Documents in This Release
+### New documents in this release
 
 This table lists the documents that are newly added in this release.
 

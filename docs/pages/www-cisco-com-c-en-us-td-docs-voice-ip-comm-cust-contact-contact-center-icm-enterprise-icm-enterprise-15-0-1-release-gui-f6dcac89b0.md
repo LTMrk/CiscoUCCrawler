@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-f6dcac89b0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/ucce_b_documentation_guide_1501.html
-retrieved_at: 2026-08-16T14:55:08.314345+00:00
+retrieved_at: 2026-09-14T17:36:42.750914+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Documentation Guide, Release 15.0(1)
@@ -903,10 +903,6 @@ https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-cen
 Webex Workforce Optimization (WFO)
 
 https://help.webex.com/ld-nf7q1hbb
-
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
 
 ### This Document Applies to These Products
 
