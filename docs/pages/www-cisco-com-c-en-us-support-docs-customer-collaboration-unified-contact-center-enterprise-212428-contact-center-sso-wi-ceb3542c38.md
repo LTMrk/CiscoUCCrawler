@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-212428-contact-center-sso-wi-ceb3542c38
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/212428-contact-center-sso-with-okta-identity-pr.html
-retrieved_at: 2026-08-16T15:05:29.340056+00:00
+retrieved_at: 2026-09-14T16:12:37.367611+00:00
 ---
 
 Contact Center SSO with Okta Identity Provider
@@ -141,6 +141,20 @@ After the Identity Service and Identity Provider are configured, the next step i
 08-Nov-2017
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+Pavan Dave
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Packaged Contact Center Enterprise
+
+- Unified Contact Center Enterprise
+
+- Unified Contact Center Express
 
 | Product | Deployment |
 |---|---|

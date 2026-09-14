@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f9b1daefbc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/cce_orchestration.html
-retrieved_at: 2026-08-20T19:01:27.676493+00:00
+retrieved_at: 2026-09-14T16:16:08.936567+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -950,8 +950,9 @@ Expected Inputs
 From the list of Windows/VOS nodes displayed, select the node or group of Windows/VOS nodes on which the patch needs to be
                                                 rolled back. Once you select the nodes, only the nodes for which Windows/VOS patch rollback is available will be displayed.
                                                 For example, if you select 3 nodes and Windows/VOS patch rollback is available for only 1 of them, you are asked to proceed
-                                                with only one node. There is also a message displayed indicating that the machine would restart after the patch is rolled
-                                                back. Confirm to proceed.
+                                                with only one node.
+
+There is also a message displayed indicating that the machine would restart after the patch is rolled back. Confirm to proceed.
 
 The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
                                                 to 15.0.1 SU1 or later.
@@ -979,7 +980,7 @@ If you select “With maintenance mode” option, the maintenance mode is initia
 
 Next, you are asked to provide confirmation on rebooting the node after rollback.
 
-To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services
+To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services .
 
 You can check the status of patch rollback which is currently in-progress. For more information, see Check Status .
 
@@ -2487,8 +2488,7 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
 | Expected Inputs | From the list of Windows/VOS nodes displayed, select the node or group of Windows/VOS nodes on which the patch needs to be
                                                 rolled back. Once you select the nodes, only the nodes for which Windows/VOS patch rollback is available will be displayed.
                                                 For example, if you select 3 nodes and Windows/VOS patch rollback is available for only 1 of them, you are asked to proceed
-                                                with only one node. There is also a message displayed indicating that the machine would restart after the patch is rolled
-                                                back. Confirm to proceed. The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
+                                                with only one node. There is also a message displayed indicating that the machine would restart after the patch is rolled back. Confirm to proceed. The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
                                                 to 15.0.1 SU1 or later. All Side A VOS node and All Side B VOS nodes under the VOS platform. All Side A Windows node and All Side B Windows nodes under the Windows platform. These new options enable parallel rollback of patches on either all Side A or all Side B nodes (Windows/VOS) within the deployment. For more information, refer to Prerequisites for All Side A/B options section of Install Patch to Specific Node or Group of Nodes . Selection of components such as Finesse, CVP Call Server, IdS, PG, Router, and Rogger that are running on supported version
                                                 of the maintenance mode, will provide the options "With maintenance mode” and “Without maintenance mode”. For details on maintenance
                                                 mode supported version and prerequisites, see the Initiate maintenance mode for a specific nodes . If you select a group of nodes with some nodes on maintenance mode supported version and some nodes on unsupported version,
@@ -2499,7 +2499,7 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
                                                 to proceed. Next, you are asked to provide confirmation on rebooting the node after rollback. |
 | Expected Outcome | The previously installed patch is rolled back on the selected node or group of nodes. |
 
-| Note | To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services |
+| Note | To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services . |
 |---|---|
 
 | Note | You can check the status of patch rollback which is currently in-progress. For more information, see Check Status . |

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-7ad5b732a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/installation_overview.html
-retrieved_at: 2026-09-07T16:57:44.897852+00:00
+retrieved_at: 2026-09-14T16:15:38.168889+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -55,6 +55,10 @@ AdminClientInstaller—Installs the Administration Client on a system that is no
 The AdminClientInstaller is delivered on the installation media with the ICM-CCE-Installer.
 
 Administration Client Setup—Used to add, edit, or remove Administration Clients and Administration Client Instances.
+
+Microsoft Visual C++ 2015–2022 Redistributable (x86) is a prerequisite for the Unified CCE Administration Client full installer on the client machine. Install this package only
+                                    if it is not already installed. The latest version can be downloaded from the Microsoft website. The same package is packaged
+                                    with the Unified CCE Installer ISO and is available in the AdminClientInstaller folder.
 
 | Note | Optionally, you can update the JRE installed by the Unified CCE Installer with a later version of the JRE. For more information, see Java Upgrades topic in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html . If the ICM-CCE installer installs JRE on the Windows platform, the system retains only the Cisco approved CA certificates
                                                 in the java certificate store, and removes all the unapproved certificates. |

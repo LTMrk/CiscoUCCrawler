@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/common_upgrade_tasks.html
-retrieved_at: 2026-09-07T17:02:50.677769+00:00
+retrieved_at: 2026-09-14T16:15:58.533154+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -936,7 +936,7 @@ Enter the truststore password when prompted.
 
 The default truststore password is changeit .
 
-To change the truststore password, see Change Java Truststore Password .
+To change the truststore password, see Change Java Truststore Password.
 
 Step 9
 
@@ -1609,11 +1609,11 @@ GO Note For example, <SQL Server TempDB path> = C:\Program Files\Microsoft SQL S
 | Step 5 | Download the self-signed certificate that contains hostname of the primary server. |
 | Step 6 | Copy the certificate to a location in the target server. |
 | Step 7 | Run the following command as an administrator at the target server (machine terminal): cd %CCE_JAVA_HOME%\bin keytool.exe -import -file <certificate with fully qualified path> -alias <alias name> <FQDN of component Server> -keystore <ICM install directory>\ssl\cacerts |
-| Step 8 | Enter the truststore password when prompted. The default truststore password is changeit . Note To change the truststore password, see Change Java Truststore Password . | Note | To change the truststore password, see Change Java Truststore Password . |
-| Note | To change the truststore password, see Change Java Truststore Password . |
+| Step 8 | Enter the truststore password when prompted. The default truststore password is changeit . Note To change the truststore password, see Change Java Truststore Password. | Note | To change the truststore password, see Change Java Truststore Password. |
+| Note | To change the truststore password, see Change Java Truststore Password. |
 | Step 9 | Go to Services and restart Apache Tomcat. |
 
-| Note | To change the truststore password, see Change Java Truststore Password . |
+| Note | To change the truststore password, see Change Java Truststore Password. |
 |---|---|
 
 | Note | When using self-signed certificates, agents must accept the Live Data certificates in the Finesse desktop when they sign in

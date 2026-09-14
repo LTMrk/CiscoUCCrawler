@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-intelligence-center-201003-collecting-the-logs-for-cui-a260cf891f
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-intelligence-center/201003-Collecting-the-Logs-for-CUIC-Performance.html
-retrieved_at: 2026-08-16T19:24:31.609514+00:00
+retrieved_at: 2026-09-14T16:11:07.398949+00:00
 ---
 
 Collecting the Logs for CUIC Performance Issues
@@ -267,10 +267,6 @@ admin: set cuic properties http-enabled off Value has been successfully set admi
 Alexander Levichev
 
 Cisco TAC Engineer
-
-### Customers Also Viewed
-
-- Configuring of Standalone CUIC with UCCX 12.5
 
 ### This Document Applies to These Products
 

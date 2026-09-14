@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f72e0d0a43
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/rcct_m_migration_vmware_to_nutanix_chapter.html
-retrieved_at: 2026-09-07T17:02:27.982761+00:00
+retrieved_at: 2026-09-14T16:15:53.576589+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -4465,6 +4465,19 @@ Description
 
 Any Impact
 
+VOS-based components
+
+On deployments where the Component Data Export and Import CLI commands are introduced through a COP/ES installation, the commands
+                                          do not work for privileged users created before the COP/ES installation. Use the Platform Administration account or create
+                                          a new privileged user after installing the COP/ES. This caveat does not apply to fresh installations where the commands are
+                                          included by default.
+
+For the common platform-data procedure, see Platform Data Migration Common Procedures for VOS-based Components .
+                                          For component-specific export and import procedures, see the topics for Cloud Connect, Cisco VVB, Finesse, Unified Intelligence
+                                          Center, Live Data, and Cisco IdS in the Migration from VMware to Nutanix chapter. For COP/ES installation details, see the Engineering Specials Installation Guide .
+
+Affected users cannot perform component data export or import until the workaround is used.
+
 Unified Intelligence Center
 
 Unified Intelligence Center VM exhibits a surge in CPU usage in the Nutanix environment.
@@ -5471,5 +5484,11 @@ admin: |
 
 | Component | Description | Any Impact |
 |---|---|---|
+| VOS-based components | On deployments where the Component Data Export and Import CLI commands are introduced through a COP/ES installation, the commands
+                                          do not work for privileged users created before the COP/ES installation. Use the Platform Administration account or create
+                                          a new privileged user after installing the COP/ES. This caveat does not apply to fresh installations where the commands are
+                                          included by default. For the common platform-data procedure, see Platform Data Migration Common Procedures for VOS-based Components .
+                                          For component-specific export and import procedures, see the topics for Cloud Connect, Cisco VVB, Finesse, Unified Intelligence
+                                          Center, Live Data, and Cisco IdS in the Migration from VMware to Nutanix chapter. For COP/ES installation details, see the Engineering Specials Installation Guide . | Affected users cannot perform component data export or import until the workaround is used. |
 | Unified Intelligence Center | Unified Intelligence Center VM exhibits a surge in CPU usage in the Nutanix environment. | No functional impact |
 | Finesse | Finesse VM exhibits a surge in CPU usage on the Nutanix environment. | No functional impact |
