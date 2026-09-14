@@ -28820,15 +28820,15 @@
     "https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series": {
       "content_sha": "bed119bda27b49aac288b5c05a98420cc0d948b7b4b33258f28081e74450e94c",
       "doc_id": "help-webex-com-en-us-article-29odsb-get-started-with-cisco-desk-phone-9800-series-72b5e93bd8",
-      "etag": "\"84954-MI6d57rfWCF5exwHnIpPmZ72F14\"",
+      "etag": "\"84a14-JVIgrklRzwI0o+nrVgPmtt6x7K8\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:22:41.578394+00:00",
       "last_changed": "2026-09-01T17:22:41.578394+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:09:02.065256+00:00",
-      "next_check": "2026-09-10T06:09:02.065256+00:00",
+      "last_seen": "2026-09-14T21:39:39.283110+00:00",
+      "next_check": "2026-09-18T21:39:39.283110+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://help.webex.com/en-us/article/2ktojz": {
       "content_sha": "1d956f33c2d8a2849edbb0af22a1f8ee044cb6147f61c2808c5999c19008f9fe",
@@ -39828,10 +39828,10 @@
       "first_seen": "2026-08-17T03:32:19.887214+00:00",
       "last_changed": "2026-08-17T03:32:19.887214+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:39.707301+00:00",
-      "next_check": "2026-09-09T21:16:39.707301+00:00",
+      "last_seen": "2026-09-14T21:38:01.363195+00:00",
+      "next_check": "2026-09-30T21:38:01.363195+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html": {
       "content_sha": "81598641a63c521c0b7ce236b3242e01b77262c215d1c38664e4901f5a718628",
@@ -40191,10 +40191,10 @@
       "first_seen": "2026-08-17T03:32:10.796332+00:00",
       "last_changed": "2026-08-17T03:32:10.796332+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:15:02.863179+00:00",
-      "next_check": "2026-09-09T21:15:02.863179+00:00",
+      "last_seen": "2026-09-14T21:37:52.201908+00:00",
+      "next_check": "2026-09-30T21:37:52.201908+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html": {
       "content_sha": "19e9b84a93abe42a227de36c5ab4178ded662c835bd9615125ea112b70d54740",
@@ -115266,7 +115266,7 @@
       "content_sha": "0cd05db514bdf3654682f700de3c6d6b01ca96659cf81b17562cd8565914a7f1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-15-cucm-b-self-care-guide-for-15-html-9b1060d894",
       "etag": null,
-      "fail_count": 1,
+      "fail_count": 2,
       "first_seen": "2026-08-16T17:57:49.167579+00:00",
       "last_changed": "2026-08-16T17:57:49.167579+00:00",
       "last_modified": null,
@@ -118808,10 +118808,10 @@
       "first_seen": "2026-08-17T01:07:02.392485+00:00",
       "last_changed": "2026-08-17T01:07:02.392485+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:46:19.139321+00:00",
-      "next_check": "2026-09-09T21:46:19.139321+00:00",
+      "last_seen": "2026-09-14T21:40:58.733032+00:00",
+      "next_check": "2026-09-30T21:40:58.733032+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_01.html": {
       "content_sha": "cf5589e3ddf1629c11efd354220cb5741a5594b56e463a0da5c5323d8730af6d",
@@ -118821,10 +118821,10 @@
       "first_seen": "2026-08-17T01:07:06.730271+00:00",
       "last_changed": "2026-08-17T01:07:06.730271+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:46:23.813860+00:00",
-      "next_check": "2026-09-09T21:46:23.813860+00:00",
+      "last_seen": "2026-09-14T21:41:03.152456+00:00",
+      "next_check": "2026-09-30T21:41:03.152456+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_010.html": {
       "content_sha": "5a618461912b9021a12a2c1bc1259f49a6a23d546df8a929cc3e639ddc6d44c2",
@@ -124629,10 +124629,10 @@
       "first_seen": "2026-08-17T01:02:59.369255+00:00",
       "last_changed": "2026-09-08T14:30:06.955276+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T14:30:06.955276+00:00",
-      "next_check": "2026-09-09T14:30:06.955276+00:00",
+      "last_seen": "2026-09-14T21:40:35.892775+00:00",
+      "next_check": "2026-09-16T21:40:35.892775+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_01.html": {
       "content_sha": "77152554979aa3691f553c35650338e204c9149f780b3bed3f4a715ba8dc3c2f",
@@ -124681,10 +124681,10 @@
       "first_seen": "2026-08-17T01:05:16.212622+00:00",
       "last_changed": "2026-09-08T14:30:12.571451+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T14:30:12.571451+00:00",
-      "next_check": "2026-09-09T14:30:12.571451+00:00",
+      "last_seen": "2026-09-14T21:40:41.838640+00:00",
+      "next_check": "2026-09-16T21:40:41.838640+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_011.html": {
       "content_sha": "87a886cfbaa79af76dfb3408d665e7dea7fc66c3cc9adf58a978d918b7f1d86d",
@@ -192362,10 +192362,10 @@
       "first_seen": "2026-08-17T03:32:16.460872+00:00",
       "last_changed": "2026-08-17T03:32:16.460872+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:34:39.510967+00:00",
-      "next_check": "2026-09-09T21:34:39.510967+00:00",
+      "last_seen": "2026-09-14T21:37:57.732841+00:00",
+      "next_check": "2026-09-30T21:37:57.732841+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_0100.html": {
       "content_sha": "9090d32c49c045a565c31781435ba395d7b92978c675f679b29215f76787dd71",
@@ -194416,10 +194416,10 @@
       "first_seen": "2026-08-17T03:32:25.469006+00:00",
       "last_changed": "2026-08-17T03:32:25.469006+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:34:43.968563+00:00",
-      "next_check": "2026-09-09T21:34:43.968563+00:00",
+      "last_seen": "2026-09-14T21:38:07.168189+00:00",
+      "next_check": "2026-09-30T21:38:07.168189+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129/cjab_b_deploy-jabber-on-premises-129_chapter_010001.html": {
       "content_sha": "9b8628302e17be1fb684ccea56eaa7656263dd6e08fdf3fa92133e7236be7e05",
@@ -197112,17 +197112,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_010.html": {
-      "content_sha": "a8c981549f049daba5c1126752d67668f79b01a1eeb64e49f59c40096ea015c0",
+      "content_sha": "884750499c66fdd3beba49392f84f7bbc865348553625f5542794ce5cfafc078",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-9-7-cjab-bk-c606d8a9-00-cisco-jabber-dns-configuration-guide--f0e75a65ca",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-17T03:32:06.608283+00:00",
-      "last_changed": "2026-08-17T03:32:06.608283+00:00",
+      "last_changed": "2026-09-14T21:37:48.422779+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:34:34.202700+00:00",
-      "next_check": "2026-09-09T21:34:34.202700+00:00",
+      "last_seen": "2026-09-14T21:37:48.422779+00:00",
+      "next_check": "2026-09-15T21:37:48.422779+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/admintasks/cjab_b_cisco-jabber-administration-tasks.html": {
       "content_sha": "9cdc0a37bdf2bef7665f6658f7e4060f5820f2544e2cbec6aa7da25905706e39",
@@ -202686,5 +202686,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T21:33:05.083587+00:00"
+  "updated_at": "2026-09-14T21:44:29.506225+00:00"
 }
