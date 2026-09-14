@@ -1,19 +1,13 @@
 {
-  "run_at": "2026-09-14T16:17:12.811889+00:00",
+  "run_at": "2026-09-14T16:28:01.607998+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-117777-config-ucce-00-html-a9105cbd5c",
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-212428-contact-center-sso-wi-ceb3542c38",
-    "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-intelligence-center-201003-collecting-the-logs-for-cui-a260cf891f",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-7ad5b732a4",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f72e0d0a43",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-f9b1daefbc"
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-compatibility-matrix-unified-ccx-sof-ec8c58faf3"
   ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 65,
+  "unchanged_count": 90,
   "redirected": [],
   "semillas_encoladas": 20
 }
