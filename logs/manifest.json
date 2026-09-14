@@ -197054,10 +197054,10 @@
       "first_seen": "2026-08-16T19:12:56.250159+00:00",
       "last_changed": "2026-08-16T19:12:56.250159+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:15:20.297834+00:00",
-      "next_check": "2026-09-09T21:15:20.297834+00:00",
+      "last_seen": "2026-09-14T19:48:40.740967+00:00",
+      "next_check": "2026-09-30T19:48:40.740967+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/12_6/jabw-b-release-notes-12-6.html": {
       "content_sha": "45cb267d322d206b8fbf8162701cedd868f1baca89ff23f5fc0163a7aefd3e8f",
@@ -202673,5 +202673,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-14T19:43:28.778928+00:00"
+  "updated_at": "2026-09-14T19:48:45.558448+00:00"
 }
