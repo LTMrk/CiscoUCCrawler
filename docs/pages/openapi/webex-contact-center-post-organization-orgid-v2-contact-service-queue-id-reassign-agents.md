@@ -10,7 +10,7 @@ tags: Contact Service Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.295206+00:00
+retrieved_at: 2026-09-14T09:48:21.260096+00:00
 ---
 
 # POST /organization/{orgid}/v2/contact-service-queue/{id}/reassign-agents

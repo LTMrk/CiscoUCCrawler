@@ -10,7 +10,7 @@ tags: Skill Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.323651+00:00
+retrieved_at: 2026-09-14T09:48:21.292577+00:00
 ---
 
 # GET /organization/{orgid}/skill-profile

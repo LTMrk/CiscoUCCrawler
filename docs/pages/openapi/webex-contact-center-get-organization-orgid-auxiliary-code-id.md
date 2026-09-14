@@ -10,7 +10,7 @@ tags: Auxiliary Code
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.285663+00:00
+retrieved_at: 2026-09-14T09:48:21.249279+00:00
 ---
 
 # GET /organization/{orgid}/auxiliary-code/{id}

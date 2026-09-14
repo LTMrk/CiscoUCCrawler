@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.788532+00:00
+retrieved_at: 2026-09-14T09:48:20.674062+00:00
 ---
 
 # GET /telephony/config/people/me/settings/queues

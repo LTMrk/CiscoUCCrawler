@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.778335+00:00
+retrieved_at: 2026-09-14T09:48:20.660464+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeLists/{routeListId}/numbers

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.898906+00:00
+retrieved_at: 2026-09-14T09:48:20.865029+00:00
 ---
 
 # GET /telephony/config/people/{personId}/agent/availableCallerIds

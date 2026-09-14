@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.346465+00:00
+retrieved_at: 2026-09-14T09:48:21.318892+00:00
 ---
 
 # POST /v1/agents/login

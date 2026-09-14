@@ -10,7 +10,7 @@ tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.876250+00:00
+retrieved_at: 2026-09-14T09:48:20.831534+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicemailGroups/availableNumbers

@@ -10,7 +10,7 @@ tags: Journey - Data Ingestion API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.361196+00:00
+retrieved_at: 2026-09-14T09:48:21.335920+00:00
 ---
 
 # POST /publish/v1/api/event

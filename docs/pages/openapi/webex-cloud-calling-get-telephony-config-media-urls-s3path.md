@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.830900+00:00
+retrieved_at: 2026-09-14T09:48:20.770568+00:00
 ---
 
 # GET /telephony/config/media/urls/{s3Path}

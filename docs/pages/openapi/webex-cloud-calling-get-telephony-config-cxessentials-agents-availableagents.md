@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.852974+00:00
+retrieved_at: 2026-09-14T09:48:20.799568+00:00
 ---
 
 # GET /telephony/config/cxEssentials/agents/availableAgents

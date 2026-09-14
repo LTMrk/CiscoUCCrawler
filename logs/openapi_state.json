@@ -197,10 +197,10 @@
     "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-09-07T10:28:37.951250+00:00",
+    "actualizado": "2026-09-14T09:48:20.932159+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "9798af877c0a453dad5cd556ee5ef539c3abf99141d84f2bc9971718ddb2596b",
+    "content_sha": "03afe372bdd04a44442025e50554f538aad46c381e550ad87fce2a4814c96af7",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -815,6 +815,7 @@
       "GET /telephony/config/workspaces/{workspaceId}/voicemail": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-voicemail",
       "GET /telephony/pstn/locations/{locationId}/connection": "webex-cloud-calling-get-telephony-pstn-locations-locationid-connection",
       "GET /telephony/pstn/locations/{locationId}/connectionOptions": "webex-cloud-calling-get-telephony-pstn-locations-locationid-connectionoptions",
+      "GET /telephony/pstn/locations/{locationId}/numbers/availableNumbers": "webex-cloud-calling-get-telephony-pstn-locations-locationid-numbers-availablenumbers",
       "GET /telephony/queues/{queueId}/calls": "webex-cloud-calling-get-telephony-queues-queueid-calls",
       "GET /telephony/voiceMessages": "webex-cloud-calling-get-telephony-voicemessages",
       "GET /telephony/voiceMessages/summary": "webex-cloud-calling-get-telephony-voicemessages-summary",
@@ -1020,6 +1021,7 @@
       "POST /telephony/externalVoicemail/mwi": "webex-cloud-calling-post-telephony-externalvoicemail-mwi",
       "POST /telephony/pstn/locations/{locationId}/emergencyAddress": "webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress",
       "POST /telephony/pstn/locations/{locationId}/emergencyAddress/lookup": "webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress-lookup",
+      "POST /telephony/pstn/locations/{locationId}/numbers": "webex-cloud-calling-post-telephony-pstn-locations-locationid-numbers",
       "POST /telephony/voiceMessages/markAsRead": "webex-cloud-calling-post-telephony-voicemessages-markasread",
       "POST /telephony/voiceMessages/markAsUnread": "webex-cloud-calling-post-telephony-voicemessages-markasunread",
       "POST /telephony/webhookInterestRegistrations": "webex-cloud-calling-post-telephony-webhookinterestregistrations",
@@ -1301,13 +1303,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "6c96a677f9c64cc08c73c12da3752dbd2084e3a3"
+    "sha": "e71c2fee83dbc2799af48d2c232237b07f6a683f"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-07T10:28:38.375031+00:00",
+    "actualizado": "2026-09-14T09:48:21.350463+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "880dcbd60e403c79f7627dd6d77285d57bcfb5830b1aeb4333d24a8e562c6444",
+    "content_sha": "14cf0ab4d40ec99646c858b8b47c18520f5aaffafc97c950b669c49d3ab79355",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1724,6 +1726,7 @@
       "POST /v1/dialer/campaign/{campaignId}/preview-task/{taskId}/remove": "webex-contact-center-post-v1-dialer-campaign-campaignid-preview-task-taskid-remove",
       "POST /v1/dialer/campaign/{campaignId}/preview-task/{taskId}/skip": "webex-contact-center-post-v1-dialer-campaign-campaignid-preview-task-taskid-skip",
       "POST /v1/monitor": "webex-contact-center-post-v1-monitor",
+      "POST /v1/monitor/{interactionId}/coach": "webex-contact-center-post-v1-monitor-interactionid-coach",
       "POST /v1/monitor/{taskId}/bargeIn": "webex-contact-center-post-v1-monitor-taskid-bargein",
       "POST /v1/monitor/{taskId}/end": "webex-contact-center-post-v1-monitor-taskid-end",
       "POST /v1/monitor/{taskId}/hold": "webex-contact-center-post-v1-monitor-taskid-hold",
@@ -1813,7 +1816,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "37d37cdf716ca3c9ac1af3899a0fa86fa6fe09da"
+    "sha": "cd7ada0c86643aa97a9a5392bb0b25a4604692e6"
   },
   "webex-device.json": {
     "actualizado": "2026-09-07T10:28:38.726884+00:00",

@@ -10,7 +10,7 @@ tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.872594+00:00
+retrieved_at: 2026-09-14T09:48:20.826325+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/schedules
