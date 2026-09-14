@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--f6a530dcd9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_01.html
-retrieved_at: 2026-09-07T11:17:20.491516+00:00
+retrieved_at: 2026-09-14T14:04:56.589766+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -155,6 +155,10 @@ Perform one of
 
 - Click Restart to stop all processes and restart the
                                           				system.
+
+### Customers Also Viewed
+
+- Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs --- Manage User Access
 
 | Step 1 | Open the Unified Communications Manager interface in your web browser. |
 |---|---|

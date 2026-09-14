@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--40635c7cb8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_01111.html
-retrieved_at: 2026-09-07T11:18:54.304701+00:00
+retrieved_at: 2026-09-14T14:06:30.976133+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -273,7 +273,7 @@ Y
 
 TVS
 
-N
+Y
 
 Y
 
@@ -1285,7 +1285,7 @@ After the certificate exchange is complete, restart Cisco Tomcat on each affecte
 | CAPF (publisher only) | N | Y | Y |  | Y | N |  | Y |  |
 | ipsec | N | Y | Y | Y | Y | Y | Y |  |  |
 | tomcat tomcat-ECDSA | Y | Y | Y |  | Y | N | Y |  |  |
-| TVS | N | Y | Y |  | Y | Y | Y |  |  |
+| TVS | Y | Y | Y |  | Y | Y | Y |  |  |
 
 | Important | The following table is applicable only until Release 15SU4. |
 |---|---|
