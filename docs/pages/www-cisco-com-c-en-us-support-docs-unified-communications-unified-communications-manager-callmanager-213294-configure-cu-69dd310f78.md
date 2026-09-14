@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213294-configure-cu-69dd310f78
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213294-configure-custom-alert-in-cisco-real-tim.html
-retrieved_at: 2026-08-21T13:57:05.986217+00:00
+retrieved_at: 2026-09-14T17:00:18.387086+00:00
 ---
 
 Configure Custom Alert in Cisco Real Time Monitoring Tool
@@ -71,3 +71,13 @@ Once the custom is configured it will be visible under Custom in Alert Central o
 ## Troubleshoot
 
 There is currently no specific troubleshooting information available for this configuration.
+
+### Contributed by Cisco Engineers
+
+Sankalp Jain
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
