@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.498897+00:00
+retrieved_at: 2026-09-15T14:56:57.693368+00:00
 ---
 
 # POST /v1/tasks/{taskId}/unhold
@@ -20,7 +20,7 @@ retrieved_at: 2026-09-15T08:04:07.498897+00:00
 **operationId:** `agentUnHoldRoute`
 
 ## Resumen
-Resume Task
+Unhold Task
 
 ## Descripción
 Access this endpoint when the user has to resume a call from hold. When an user is done consulting, the previously held interaction with the customer should be resumed. It is not applicable for chats and emails. Requires one of the following scopes 'cjp:user','cloud-contact-center:pod_conv' for authorization. For a list of possible response messages, see the [Call Control API Guide](/docs/contact-control-apis).

@@ -10,7 +10,7 @@ tags: Audio Files
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.422175+00:00
+retrieved_at: 2026-09-15T14:56:57.618911+00:00
 ---
 
 # GET /organization/{orgid}/v2/audio-file

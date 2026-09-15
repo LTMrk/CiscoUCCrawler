@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.503596+00:00
+retrieved_at: 2026-09-15T14:56:57.740200+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/flows/{flowId}:publish

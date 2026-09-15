@@ -10,7 +10,7 @@ tags: Callbacks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.497637+00:00
+retrieved_at: 2026-09-15T14:56:57.692165+00:00
 ---
 
 # DELETE /v1/callbacks/organization/{orgId}/scheduled-callback/{id}

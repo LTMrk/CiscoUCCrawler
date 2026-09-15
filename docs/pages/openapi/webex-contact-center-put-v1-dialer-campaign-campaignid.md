@@ -10,7 +10,7 @@ tags: Campaign Manager
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.517797+00:00
+retrieved_at: 2026-09-15T14:56:57.754216+00:00
 ---
 
 # PUT /v1/dialer/campaign/{campaignId}

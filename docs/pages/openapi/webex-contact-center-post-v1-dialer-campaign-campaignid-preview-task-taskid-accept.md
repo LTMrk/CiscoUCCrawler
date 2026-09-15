@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.500687+00:00
+retrieved_at: 2026-09-15T14:56:57.695338+00:00
 ---
 
 # POST /v1/dialer/campaign/{campaignId}/preview-task/{taskId}/accept

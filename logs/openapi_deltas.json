@@ -1,7 +1,12 @@
 {
-  "run_at": "2026-09-15T14:45:32.952878+00:00",
-  "added": [],
+  "run_at": "2026-09-15T14:56:57.766212+00:00",
+  "added": [
+    "Webex Contact Center: POST /v1/tasks/{taskId}/pause",
+    "Webex Contact Center: POST /v1/tasks/{taskId}/resume"
+  ],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-contact-center.json"
+  ]
 }

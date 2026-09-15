@@ -1310,10 +1310,10 @@
     "sha": "ab2dda795126a22f77c4b6f3df5140fe82b5d90b"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-15T08:04:07.526489+00:00",
+    "actualizado": "2026-09-15T14:56:57.763367+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "b9b46300c98afad40690ce7a3143f2a39b645e72c8c5a3581e4828246b954f17",
+    "content_sha": "2e6d9a9f472b57a1bf7b1ddec56fbadcab123eb4d1763eae0c8e0b141fb189ae",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1750,9 +1750,11 @@
       "POST /v1/tasks/{taskId}/consult/transfer": "webex-contact-center-post-v1-tasks-taskid-consult-transfer",
       "POST /v1/tasks/{taskId}/end": "webex-contact-center-post-v1-tasks-taskid-end",
       "POST /v1/tasks/{taskId}/hold": "webex-contact-center-post-v1-tasks-taskid-hold",
+      "POST /v1/tasks/{taskId}/pause": "webex-contact-center-post-v1-tasks-taskid-pause",
       "POST /v1/tasks/{taskId}/record/pause": "webex-contact-center-post-v1-tasks-taskid-record-pause",
       "POST /v1/tasks/{taskId}/record/resume": "webex-contact-center-post-v1-tasks-taskid-record-resume",
       "POST /v1/tasks/{taskId}/reject": "webex-contact-center-post-v1-tasks-taskid-reject",
+      "POST /v1/tasks/{taskId}/resume": "webex-contact-center-post-v1-tasks-taskid-resume",
       "POST /v1/tasks/{taskId}/transfer": "webex-contact-center-post-v1-tasks-taskid-transfer",
       "POST /v1/tasks/{taskId}/unhold": "webex-contact-center-post-v1-tasks-taskid-unhold",
       "POST /v1/tasks/{taskId}/wrapup": "webex-contact-center-post-v1-tasks-taskid-wrapup",
@@ -1820,7 +1822,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "ab646653aba060eef3b97fe94ce8e63bf0bd36fc"
+    "sha": "6e97de6f5280d7445e3fca8099c8349d098fcd6c"
   },
   "webex-device.json": {
     "actualizado": "2026-09-15T08:04:07.902199+00:00",
