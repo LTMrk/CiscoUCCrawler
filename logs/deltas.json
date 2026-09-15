@@ -1,15 +1,11 @@
 {
-  "run_at": "2026-09-15T21:53:11.898844+00:00",
+  "run_at": "2026-09-15T22:15:03.253409+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-certificate-autho-31b41a2931",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-default-security--655c966feb",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-new-and-changed-i-586f17585f"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 50,
+  "unchanged_count": 0,
   "redirected": [],
   "semillas_encoladas": 20
 }
