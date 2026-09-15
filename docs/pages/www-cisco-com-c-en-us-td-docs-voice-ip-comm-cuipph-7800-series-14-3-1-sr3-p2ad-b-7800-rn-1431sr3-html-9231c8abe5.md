@@ -1,16 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-3-1-sr3-p2ad-b-7800-rn-1431sr3-html-9231c8abe5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR3/p2ad_b_7800-rn-1431sr3.html
-retrieved_at: 2026-09-14T18:58:28.463389+00:00
+retrieved_at: 2026-09-15T20:55:19.226434+00:00
 ---
 
 Cisco IP Phone 7800 Release Notes for Firmware Release 14.3(1)SR3
 
 # Cisco IP Phone 7800 Release Notes for Firmware Release 14.3(1)SR3
-
-### Download Options
-
-Updated: May 22, 2025
 
 First Published: May 22, 2025
 
