@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-roadmap-guide-pcce-b-documentat-86a196fdea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/roadmap/guide/pcce_b_documentation_guide_1262.html
-retrieved_at: 2026-08-16T19:26:58.918424+00:00
+retrieved_at: 2026-09-15T14:42:27.492531+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Documentation Guide, Release 12.6(2)
@@ -25,7 +25,7 @@ For the latest version of all the Packaged CCE documents, see https://www.cisco.
 
 ## Documentation Changes
 
-### New Documents in This Release
+### New documents in this release
 
 This table lists the documents that are newly added in this release.
 
