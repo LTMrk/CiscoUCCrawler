@@ -1,13 +1,11 @@
 {
-  "run_at": "2026-09-15T14:19:40.192701+00:00",
+  "run_at": "2026-09-15T14:31:12.575011+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 0,
-  "redirected": [
-    "https://mycase.cloudapps.cisco.com/case -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "unchanged_count": 12,
+  "redirected": [],
   "semillas_encoladas": 20
 }
