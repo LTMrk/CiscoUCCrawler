@@ -42580,10 +42580,10 @@
       "first_seen": "2026-08-16T23:36:28.921984+00:00",
       "last_changed": "2026-08-16T23:36:28.921984+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:09:51.223476+00:00",
-      "next_check": "2026-09-15T11:09:51.223476+00:00",
+      "last_seen": "2026-09-15T13:02:20.095947+00:00",
+      "next_check": "2026-10-01T13:02:20.095947+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220329-troubleshoot-im-and-presence-server-with.html": {
       "content_sha": "72c71528f58574bf2ef5c524cf14100654f11fad751f067cdd2b6b91dbd75dcf",
@@ -42619,10 +42619,10 @@
       "first_seen": "2026-08-16T23:36:37.383070+00:00",
       "last_changed": "2026-08-16T23:36:37.383070+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:09:55.859314+00:00",
-      "next_check": "2026-09-15T11:09:55.859314+00:00",
+      "last_seen": "2026-09-15T13:02:24.243248+00:00",
+      "next_check": "2026-10-01T13:02:24.243248+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/200771-Troubleshooting-NTP-on-IM-P.html": {
       "content_sha": "a2350ce945d9993ca246dec8663f0d9746dad25444a67b0b4a83a8fb36065388",
@@ -42632,10 +42632,10 @@
       "first_seen": "2026-08-16T23:36:41.393647+00:00",
       "last_changed": "2026-08-16T23:36:41.393647+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:09:59.410221+00:00",
-      "next_check": "2026-09-15T11:09:59.410221+00:00",
+      "last_seen": "2026-09-15T13:02:28.783768+00:00",
+      "next_check": "2026-10-01T13:02:28.783768+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/200958-IM-and-Presence-Server-High-Availability.html": {
       "content_sha": null,
@@ -72485,10 +72485,10 @@
       "first_seen": "2026-08-17T00:13:37.057135+00:00",
       "last_changed": "2026-08-17T00:13:37.057135+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:22:29.776576+00:00",
-      "next_check": "2026-09-15T11:22:29.776576+00:00",
+      "last_seen": "2026-09-15T12:58:10.704487+00:00",
+      "next_check": "2026-10-01T12:58:10.704487+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_010.html": {
       "content_sha": "e3d5d4a26d3e20f81b38d7b65eaf694962fedfaa580b967455d55ae75d8afc2b",
@@ -72537,10 +72537,10 @@
       "first_seen": "2026-08-17T00:21:37.712615+00:00",
       "last_changed": "2026-08-17T00:21:37.712615+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:23:24.023266+00:00",
-      "next_check": "2026-09-15T11:23:24.023266+00:00",
+      "last_seen": "2026-09-15T12:58:14.929803+00:00",
+      "next_check": "2026-10-01T12:58:14.929803+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_010001.html": {
       "content_sha": "c448c4d9c57a2cd2167b1b6ca5ac509b23a10042a91a409343f9a10a57fcf891",
@@ -72615,10 +72615,10 @@
       "first_seen": "2026-08-17T00:16:48.391160+00:00",
       "last_changed": "2026-08-17T00:16:48.391160+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:23:41.527809+00:00",
-      "next_check": "2026-09-15T11:23:41.527809+00:00",
+      "last_seen": "2026-09-15T12:58:19.825131+00:00",
+      "next_check": "2026-10-01T12:58:19.825131+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_011.html": {
       "content_sha": "33b50f7a08657f70c3272cbe97181b8a3865351d69f37c3d0a1ff182224ae648",
@@ -104018,10 +104018,10 @@
       "first_seen": "2026-08-17T00:33:36.990669+00:00",
       "last_changed": "2026-08-17T00:33:36.990669+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:07:50.085062+00:00",
-      "next_check": "2026-09-15T11:07:50.085062+00:00",
+      "last_seen": "2026-09-15T12:58:23.385524+00:00",
+      "next_check": "2026-10-01T12:58:23.385524+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_01.html": {
       "content_sha": "2ffbcd0279b67a63667d84407a6da80bd86700f4281f5222c6737a0e89beb83f",
@@ -104031,10 +104031,10 @@
       "first_seen": "2026-08-17T00:33:41.226762+00:00",
       "last_changed": "2026-08-17T00:33:41.226762+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:07:55.191493+00:00",
-      "next_check": "2026-09-15T11:07:55.191493+00:00",
+      "last_seen": "2026-09-15T12:58:27.974055+00:00",
+      "next_check": "2026-10-01T12:58:27.974055+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_010.html": {
       "content_sha": "acf361ae67507a5c3e77397b961939ea78e5d6600b266ce83af30760bd9b2f47",
@@ -104044,10 +104044,10 @@
       "first_seen": "2026-08-17T00:33:45.382874+00:00",
       "last_changed": "2026-08-17T00:33:45.382874+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:07:58.623588+00:00",
-      "next_check": "2026-09-15T11:07:58.623588+00:00",
+      "last_seen": "2026-09-15T12:58:31.816846+00:00",
+      "next_check": "2026-10-01T12:58:31.816846+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_0100.html": {
       "content_sha": "5257ac139dfb80647fff3c72e42ea80e8ebcc34db752e5190e687b742e2fe280",
@@ -104057,10 +104057,10 @@
       "first_seen": "2026-08-17T00:33:55.719306+00:00",
       "last_changed": "2026-08-17T00:33:55.719306+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:11.711038+00:00",
-      "next_check": "2026-09-15T11:08:11.711038+00:00",
+      "last_seen": "2026-09-15T12:58:41.620152+00:00",
+      "next_check": "2026-10-01T12:58:41.620152+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_01000.html": {
       "content_sha": "8cf058bd679d3eaf51e4050bf791d30ae06fccff0715617c9ccbd785edefd405",
@@ -104070,10 +104070,10 @@
       "first_seen": "2026-08-17T00:34:12.958417+00:00",
       "last_changed": "2026-08-17T00:34:12.958417+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:27.897952+00:00",
-      "next_check": "2026-09-15T11:08:27.897952+00:00",
+      "last_seen": "2026-09-15T12:58:57.325645+00:00",
+      "next_check": "2026-10-01T12:58:57.325645+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_01001.html": {
       "content_sha": "df4a7606998b7337a72ed9e1d06b593e34351e330fb1f82291ac16619c66d39e",
@@ -104083,10 +104083,10 @@
       "first_seen": "2026-08-17T00:34:16.957769+00:00",
       "last_changed": "2026-08-17T00:34:16.957769+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:32.259772+00:00",
-      "next_check": "2026-09-15T11:08:32.259772+00:00",
+      "last_seen": "2026-09-15T12:59:01.679144+00:00",
+      "next_check": "2026-10-01T12:59:01.679144+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_0101.html": {
       "content_sha": "1e0531291f21bd2aac9cdcf946e231ef1a018a0a53697d6bc3af615d041b4217",
@@ -104096,10 +104096,10 @@
       "first_seen": "2026-08-17T00:33:59.037787+00:00",
       "last_changed": "2026-08-17T00:33:59.037787+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:15.169808+00:00",
-      "next_check": "2026-09-15T11:08:15.169808+00:00",
+      "last_seen": "2026-09-15T12:58:45.262283+00:00",
+      "next_check": "2026-10-01T12:58:45.262283+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_01010.html": {
       "content_sha": "9f2844c82198ae8004f8905a97a55156f0bf84ec65369395cbbf850d251d8f2a",
@@ -104109,10 +104109,10 @@
       "first_seen": "2026-08-17T00:34:21.319371+00:00",
       "last_changed": "2026-08-17T00:34:21.319371+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:37.287145+00:00",
-      "next_check": "2026-09-15T11:08:37.287145+00:00",
+      "last_seen": "2026-09-15T12:59:06.027353+00:00",
+      "next_check": "2026-10-01T12:59:06.027353+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_011.html": {
       "content_sha": "2186dd766203546ce0c79f1c8f8ef7c8f2e7e05df7443effbe5942215c4e238a",
@@ -104122,10 +104122,10 @@
       "first_seen": "2026-08-17T00:33:51.229757+00:00",
       "last_changed": "2026-08-17T00:33:51.229757+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:06.561112+00:00",
-      "next_check": "2026-09-15T11:08:06.561112+00:00",
+      "last_seen": "2026-09-15T12:58:37.803001+00:00",
+      "next_check": "2026-10-01T12:58:37.803001+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_0110.html": {
       "content_sha": "d78e57d6d97a83e14222da29b37051dcc2d7d436fcd5c9d8335ff19511c255f7",
@@ -104135,10 +104135,10 @@
       "first_seen": "2026-08-17T00:34:04.963476+00:00",
       "last_changed": "2026-08-17T00:34:04.963476+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:19.513084+00:00",
-      "next_check": "2026-09-15T11:08:19.513084+00:00",
+      "last_seen": "2026-09-15T12:58:49.118098+00:00",
+      "next_check": "2026-10-01T12:58:49.118098+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_chapter_0111.html": {
       "content_sha": "3a0b18a72f1593f65535b701b38b11bf3764f7e54a763f82f38ac82e59a6aa40",
@@ -104148,10 +104148,10 @@
       "first_seen": "2026-08-17T00:34:08.505821+00:00",
       "last_changed": "2026-08-17T00:34:08.505821+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:08:23.956224+00:00",
-      "next_check": "2026-09-15T11:08:23.956224+00:00",
+      "last_seen": "2026-09-15T12:58:53.311052+00:00",
+      "next_check": "2026-10-01T12:58:53.311052+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-rns-1251.html": {
       "content_sha": "8be5f2a92ac9939d4928b77b58f207e942eec12af25553ac75f5bbcfe90bfa2a",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T12:51:40.044064+00:00"
+  "updated_at": "2026-09-15T13:02:28.848202+00:00"
 }
