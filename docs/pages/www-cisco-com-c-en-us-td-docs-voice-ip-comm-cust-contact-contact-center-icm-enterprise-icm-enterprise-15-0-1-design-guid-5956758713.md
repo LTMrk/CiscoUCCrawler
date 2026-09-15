@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-design-guid-5956758713
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/design/guide/ucce_b_ucce_soldg-for-unified-cce-1501/rcct_m_bandwidth-latency-and-qos-15-0.html
-retrieved_at: 2026-08-16T19:50:26.241874+00:00
+retrieved_at: 2026-09-15T23:55:29.866318+00:00
 ---
 
 Solution Design Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1438,10 +1438,6 @@ dial-peer voice 9001 voip
                                              			 bandwidth usage, see Voice Codec Bandwidth Calculator
 
 Because Cisco VVB does not have a dial-peer to the ASR, you cannot use this technique with Cisco VVB.
-
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
 
 | Contact Center Enterprise Components | Public Network bandwidth (KBps) | Private Network bandwidth (KBps) | Operating Conditions |
 |---|---|---|---|
