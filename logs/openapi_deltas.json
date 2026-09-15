@@ -1,8 +1,22 @@
 {
-  "run_at": "2026-09-15T14:56:57.766212+00:00",
+  "run_at": "2026-09-15T15:08:16.399383+00:00",
   "added": [
-    "Webex Contact Center: POST /v1/tasks/{taskId}/pause",
-    "Webex Contact Center: POST /v1/tasks/{taskId}/resume"
+    "Webex Contact Center: POST /organization/{orgid}/asset",
+    "Webex Contact Center: POST /organization/{orgid}/asset/bulk",
+    "Webex Contact Center: GET /organization/{orgid}/asset/{id}",
+    "Webex Contact Center: PUT /organization/{orgid}/asset/{id}",
+    "Webex Contact Center: DELETE /organization/{orgid}/asset/{id}",
+    "Webex Contact Center: PATCH /organization/{orgid}/asset/{id}",
+    "Webex Contact Center: GET /organization/{orgid}/asset/{id}/incoming-references",
+    "Webex Contact Center: GET /organization/{orgid}/v2/asset",
+    "Webex Contact Center: POST /organization/{orgid}/channel",
+    "Webex Contact Center: POST /organization/{orgid}/channel/bulk",
+    "Webex Contact Center: GET /organization/{orgid}/channel/{id}",
+    "Webex Contact Center: PUT /organization/{orgid}/channel/{id}",
+    "Webex Contact Center: DELETE /organization/{orgid}/channel/{id}",
+    "Webex Contact Center: PATCH /organization/{orgid}/channel/{id}",
+    "Webex Contact Center: GET /organization/{orgid}/channel/{id}/incoming-references",
+    "Webex Contact Center: GET /organization/{orgid}/v2/channel"
   ],
   "removed": [],
   "deprecated": [],
