@@ -1,13 +1,7 @@
 {
-  "run_at": "2026-09-15T08:15:49.036806+00:00",
-  "added": [
-    "Webex Cloud Calling: POST /telephony/config/premisePstn/trunks/actions/validate/invoke"
-  ],
+  "run_at": "2026-09-15T08:36:51.315524+00:00",
+  "added": [],
   "removed": [],
-  "deprecated": [
-    "Webex Cloud Calling: POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke"
-  ],
-  "specs_cambiados": [
-    "webex-cloud-calling.json"
-  ]
+  "deprecated": [],
+  "specs_cambiados": []
 }
