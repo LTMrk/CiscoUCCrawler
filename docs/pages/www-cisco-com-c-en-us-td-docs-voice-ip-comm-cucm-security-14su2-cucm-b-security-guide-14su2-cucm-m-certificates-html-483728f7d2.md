@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-14su2-cucm-b-security-guide-14su2-cucm-m-certificates-html-483728f7d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_certificates.html
-retrieved_at: 2026-08-17T00:27:34.786463+00:00
+retrieved_at: 2026-09-15T22:46:54.012400+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager Release 14 and SUs
@@ -350,7 +350,7 @@ Y
 
 TVS
 
-N
+Y
 
 Y
 
@@ -717,9 +717,27 @@ Certificate Purpose
 
 From the drop-down list, select a value:
 
-CallManager
+tomcat
+
+tomcat-ECDSA
+
+tomcat-client
+
+tomcat-client-ECDSA
+
+ipsec
 
 CallManager-ECDSA
+
+CallManager
+
+CallManager-client
+
+CallManager-client-ECDSA
+
+CAPF
+
+TVS
 
 Distribution
 
@@ -970,8 +988,8 @@ We recommend that you regenerate certificates before they expire. You will recei
                                     email notification when the certificates are about to expire.
 
 However, you can also regenerate an expired certificate. Perform this task after business hours, because you must restart
-                                    the the phones and reboot the services. You can regenerate only a certificate that is listed as type “cert” in Cisco Unified
-                                    OS Administration
+                                    the phones and reboot the services. You can regenerate only a certificate that is listed as type “cert” in Cisco Unified OS
+                                    Administration
 
 Caution
 
@@ -1876,7 +1894,7 @@ The CallManager certificate will not be visible in the GUI when you reuse the ce
 | CAPF (publisher only) | N | Y | Y |  | Y | N |  | Y |  |
 | ipsec | N | Y | Y | Y | Y | Y | Y |  |  |
 | tomcat tomcat-ECDSA | Y | Y | Y |  | Y | N | Y |  |  |
-| TVS | N | Y | Y |  | Y | Y | Y |  |  |
+| TVS | Y | Y | Y |  | Y | Y | Y |  |  |
 
 | Note | Ensure that ‘Data Encipherment’ bit is not changed or removed as part of the CA-signing certificate process. |
 |---|---|
@@ -1994,7 +2012,7 @@ The CallManager certificate will not be visible in the GUI when you reuse the ce
 
 | Field | Description |
 |---|---|
-| Certificate Purpose | From the drop-down list, select a value: CallManager CallManager-ECDSA |
+| Certificate Purpose | From the drop-down list, select a value: tomcat tomcat-ECDSA tomcat-client tomcat-client-ECDSA ipsec CallManager-ECDSA CallManager CallManager-client CallManager-client-ECDSA CAPF TVS |
 | Distribution | Select a Unified Communications Manager server. When you select this field for multiserver for ECDSA, the syntax is: Callmanager-ecdsa common name: <host-name>-EC-ms.<domain> When you select this field for multiserver for RSA, the syntax is: Callmanager common name: <host-name>-ms.<domain> |
 | Common Name / Common Name_SerialNumber | Important Supported from Release 14SU1 onwards. Displays the common name or the common name appended with the serial number of the certificate. Common Name or Common Name_SerialNumber
                                                    is the file name of the certificate. Shows the name of the Unified Communications Manager application that you selected in the Distribution field by default. | Important | Supported from Release 14SU1 onwards. |

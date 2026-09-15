@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-14su2-cucm-b-security-guide-14su2-cucm-m-certificate-authority-eec8547e92
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_certificate-authority-proxy-function_su2_reorg.html
-retrieved_at: 2026-08-17T00:27:39.005647+00:00
+retrieved_at: 2026-09-15T22:46:58.452514+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager Release 14 and SUs
@@ -78,7 +78,7 @@ Unified Communications Manager Release 12.5 or later.
 
 Endpoints that use CAPF for certificates (includes Cisco Unified IP Phone s and Jabber).
 
-Microsoft Windows Server 2012 and 2016 with CA configured.
+Microsoft Windows Server 2016 and 2022 with CA configured.
 
 Domain Name Service (DNS).
 
