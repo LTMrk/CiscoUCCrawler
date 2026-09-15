@@ -7,13 +7,15 @@ method: POST
 path: /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke
 operation_id: Validate Local Gateway FQDN and Domain for a Trunk
 tags: Call Routing
-deprecated: false
+deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.760789+00:00
+retrieved_at: 2026-09-15T08:15:48.720076+00:00
 ---
 
 # POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke
+
+> **ENDPOINT DEPRECADO.** No usar en integraciones nuevas.
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
@@ -23,6 +25,8 @@ retrieved_at: 2026-09-15T08:04:06.760789+00:00
 Validate Local Gateway FQDN and Domain for a Trunk
 
 ## Descripción
+**Deprecated**: Use [Validate a Trunk](#/Call%20Routing/Validate%20a%20Trunk) instead.
+
 Validate Local Gateway FQDN and Domain for the organization trunks.
 
 A Trunk is a connection between Webex Calling and the premises, which terminates on the premises with a local gateway or other supported device.

@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.865342+00:00
+retrieved_at: 2026-09-15T08:15:48.879851+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/dnis/{dnisId}/announcements

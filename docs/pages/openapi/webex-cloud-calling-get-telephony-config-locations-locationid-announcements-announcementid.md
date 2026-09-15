@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.843204+00:00
+retrieved_at: 2026-09-15T08:15:48.853382+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/announcements/{announcementId}

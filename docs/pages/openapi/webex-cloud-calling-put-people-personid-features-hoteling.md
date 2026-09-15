@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.921359+00:00
+retrieved_at: 2026-09-15T08:15:48.946031+00:00
 ---
 
 # PUT /people/{personId}/features/hoteling

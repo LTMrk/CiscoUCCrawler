@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.769892+00:00
+retrieved_at: 2026-09-15T08:15:48.729990+00:00
 ---
 
 # GET /telephony/config/people/me/settings/webexGoOverride

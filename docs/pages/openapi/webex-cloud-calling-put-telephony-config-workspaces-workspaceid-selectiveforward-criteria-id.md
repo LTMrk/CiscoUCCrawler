@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.987816+00:00
+retrieved_at: 2026-09-15T08:15:49.017544+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/selectiveForward/criteria/{id}

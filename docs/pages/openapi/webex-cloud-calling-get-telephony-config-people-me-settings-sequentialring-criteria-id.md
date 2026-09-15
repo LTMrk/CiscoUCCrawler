@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.797613+00:00
+retrieved_at: 2026-09-15T08:15:48.758407+00:00
 ---
 
 # GET /telephony/config/people/me/settings/sequentialRing/criteria/{id}

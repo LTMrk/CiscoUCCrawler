@@ -10,7 +10,7 @@ tags: User Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.922410+00:00
+retrieved_at: 2026-09-15T08:15:48.947212+00:00
 ---
 
 # GET /telephony/config/people/{personId}/monitoring/availableMembers

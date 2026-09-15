@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.931032+00:00
+retrieved_at: 2026-09-15T08:15:48.956648+00:00
 ---
 
 # GET /telephony/config/people/{personId}/outgoingPermission/autoTransferNumbers

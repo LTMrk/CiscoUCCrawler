@@ -10,7 +10,7 @@ tags: Locations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.905722+00:00
+retrieved_at: 2026-09-15T08:15:48.927996+00:00
 ---
 
 # POST /locations/{locationId}/floors

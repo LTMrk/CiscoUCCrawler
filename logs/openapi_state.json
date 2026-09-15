@@ -198,14 +198,15 @@
     "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-09-15T08:04:07.003907+00:00",
+    "actualizado": "2026-09-15T08:15:49.033696+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "ac87379161270f67f0eeeab8a844dece51ea8beb8d2d19cef9973e10db0bc8a9",
+    "content_sha": "2982166f65f0b9abec159ce70d9454ceaf137d15be497c56304af57a281dbbd9",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/members": true,
+      "POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke": true,
       "PUT /telephony/config/people/{personId}/applications/{applicationId}/members": true
     },
     "operaciones": {
@@ -994,6 +995,7 @@
       "POST /telephony/config/premisePstn/routeLists": "webex-cloud-calling-post-telephony-config-premisepstn-routelists",
       "POST /telephony/config/premisePstn/trunks": "webex-cloud-calling-post-telephony-config-premisepstn-trunks",
       "POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke": "webex-cloud-calling-post-telephony-config-premisepstn-trunks-actions-fqdnvalidation-invoke",
+      "POST /telephony/config/premisePstn/trunks/actions/validate/invoke": "webex-cloud-calling-post-telephony-config-premisepstn-trunks-actions-validate-invoke",
       "POST /telephony/config/redSky": "webex-cloud-calling-post-telephony-config-redsky",
       "POST /telephony/config/redSky/actions/login/invoke": "webex-cloud-calling-post-telephony-config-redsky-actions-login-invoke",
       "POST /telephony/config/serviceSettings/callerReputationProvider/actions/unlock/invoke": "webex-cloud-calling-post-telephony-config-servicesettings-callerreputationprovider-actions-unlock-invoke",
@@ -1305,7 +1307,7 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "7d23974fee8fff10099023617407a00b4f08659b"
+    "sha": "ab2dda795126a22f77c4b6f3df5140fe82b5d90b"
   },
   "webex-contact-center.json": {
     "actualizado": "2026-09-15T08:04:07.526489+00:00",

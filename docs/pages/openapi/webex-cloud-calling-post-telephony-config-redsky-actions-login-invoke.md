@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.834596+00:00
+retrieved_at: 2026-09-15T08:15:48.843744+00:00
 ---
 
 # POST /telephony/config/redSky/actions/login/invoke

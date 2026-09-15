@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.796047+00:00
+retrieved_at: 2026-09-15T08:15:48.756775+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/selectiveReject/criteria/{id}

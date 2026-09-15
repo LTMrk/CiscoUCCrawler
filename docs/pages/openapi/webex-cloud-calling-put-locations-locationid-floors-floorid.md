@@ -10,7 +10,7 @@ tags: Locations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.906107+00:00
+retrieved_at: 2026-09-15T08:15:48.928497+00:00
 ---
 
 # PUT /locations/{locationId}/floors/{floorId}

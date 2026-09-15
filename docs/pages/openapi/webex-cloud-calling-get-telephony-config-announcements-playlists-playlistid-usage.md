@@ -10,7 +10,7 @@ tags: Call Queue Settings with Playlist Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.840792+00:00
+retrieved_at: 2026-09-15T08:15:48.850479+00:00
 ---
 
 # GET /telephony/config/announcements/playlists/{playListId}/usage

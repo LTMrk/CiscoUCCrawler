@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.761582+00:00
+retrieved_at: 2026-09-15T08:15:48.720938+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}
@@ -73,6 +73,7 @@ curl -X GET '/telephony/config/premisePstn/trunks/<trunkId>' \
 - `port` (number) (**requerido**): FQDN port. Required to create a static certificate-based trunk.
 - `maxConcurrentCalls` (number): Max Concurrent call. Required to create a static certificate based trunk.
 - `isRestrictedToDedicatedInstance` (boolean): Flag to indicate if the trunk is restricted to a dedicated instance.
+- `peerIdentity` (string): Peer identity for certificate-based trunks. Used for TLS peer verification.
 - `pChargeInfoSupportPolicy` (string) (**requerido**): * `DISABLED` - The P-Charge-Info header support policy is disabled.  * `ASSERTED_IDENTITY` - The P-Charge-Info header is always included in outbound PSTN calls using Webex Calling primary number or location’s main number.  * `CONFIGURABLE_CHARGE_NUMBER` - The P-Charge-Info header is included in outbound PSTN calls using the originating or redirecting Webex Calling entity's location charge number if set, else the entity's primary number if set and not toll-free, else the main number of the entity's location if set and not toll-free. If none of these are set or not toll-free, it uses the same number as the ASSERTED_IDENTITY option. Valores: DISABLED, ASSERTED_IDENTITY, CONFIGURABLE_CHARGE_NUMBER.
 
 ### Ejemplo — respuesta 200
@@ -118,7 +119,8 @@ curl -X GET '/telephony/config/premisePstn/trunks/<trunkId>' \
   "port": 5000,
   "maxConcurrentCalls": 1000,
   "isRestrictedToDedicatedInstance": true,
-  "pChargeInfoSupportPolicy": "DISABLED
+  "peerIdentity": "acme.corp",
+  "pChar
   ... (truncado)
 ```
 
