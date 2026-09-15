@@ -1713,8 +1713,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T04:45:31.966837+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-14T13:30:46.392851+00:00",
-      "next_check": "2026-09-15T13:30:46.392851+00:00",
+      "last_seen": "2026-09-15T14:50:57.624785+00:00",
+      "next_check": "2026-09-16T14:50:57.624785+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23103,8 +23103,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T10:58:23.561328+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-14T13:30:54.105352+00:00",
-      "next_check": "2026-09-15T13:30:54.105352+00:00",
+      "last_seen": "2026-09-15T14:51:05.667106+00:00",
+      "next_check": "2026-09-16T14:51:05.667106+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23307,8 +23307,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T10:58:44.991053+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-14T13:30:50.215193+00:00",
-      "next_check": "2026-09-15T13:30:50.215193+00:00",
+      "last_seen": "2026-09-15T14:51:01.129791+00:00",
+      "next_check": "2026-09-16T14:51:01.129791+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T14:42:49.189082+00:00"
+  "updated_at": "2026-09-15T14:54:20.364880+00:00"
 }
