@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-cucm-b-feature-configuration-guide-for-cisco12su6-cucm--08f17f1bba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6/cucm_m_phone-replacement-migration-ivr-phone.html
-retrieved_at: 2026-09-14T11:30:48.237685+00:00
+retrieved_at: 2026-09-15T13:12:54.911639+00:00
 ---
 
 Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -1157,10 +1157,6 @@ You cannot migrate video endpoints using Phone Migration Service.
 
 If the old video endpoints device was in the locked state, note that the new video endpoints device will not retain the locked
                                     state after phone migration.
-
-### Customers Also Viewed
-
-- Understand and Configure Nexus 9000 vPC with Best Practices
 
 |  | Using Self-provisioning IVR Service | Using Phone Migration Service | Using Unified CM Administration Interface |
 |---|---|---|---|
