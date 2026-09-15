@@ -26262,10 +26262,10 @@
       "first_seen": "2026-08-25T21:05:04.759978+00:00",
       "last_changed": "2026-08-25T21:05:04.759978+00:00",
       "last_modified": "Mon, 08 Jun 2026 15:34:37 GMT",
-      "last_seen": "2026-09-07T14:14:56.814938+00:00",
-      "next_check": "2026-09-09T14:14:56.814938+00:00",
+      "last_seen": "2026-09-15T11:08:57.606729+00:00",
+      "next_check": "2026-09-19T11:08:57.606729+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/extension-mobility/documents/": {
       "content_sha": "e77a0b3a46dc67e5705c9b7ffd9b2f6240a330551af7921dfda3ad7ce56f08fc",
@@ -26288,10 +26288,10 @@
       "first_seen": "2026-08-25T21:05:10.149273+00:00",
       "last_changed": "2026-08-25T21:05:10.149273+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:57:34 GMT",
-      "last_seen": "2026-09-07T14:14:52.448786+00:00",
-      "next_check": "2026-09-09T14:14:52.448786+00:00",
+      "last_seen": "2026-09-15T11:09:01.861082+00:00",
+      "next_check": "2026-09-19T11:09:01.861082+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/extension-mobility/help/faq/": {
       "content_sha": "cf8ae3ad224ac5c9e588bc78860361973dea39d8de6311ca09cf0faabcd88235",
@@ -26301,10 +26301,10 @@
       "first_seen": "2026-08-25T21:05:14.424759+00:00",
       "last_changed": "2026-08-25T21:05:14.424759+00:00",
       "last_modified": "Mon, 08 Jun 2026 10:03:06 GMT",
-      "last_seen": "2026-08-25T21:05:14.424759+00:00",
-      "next_check": "2026-08-26T21:05:14.424759+00:00",
+      "last_seen": "2026-09-15T11:09:06.202846+00:00",
+      "next_check": "2026-09-17T11:09:06.202846+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/learn/how-to/": {
       "content_sha": "d6dc84c7ddf553ea15dca0a879c398b7b5da79f8ab67ec97da3f04defe1b1056",
@@ -26664,10 +26664,10 @@
       "first_seen": "2026-08-25T21:05:37.428722+00:00",
       "last_changed": "2026-08-25T21:05:37.428722+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:37:30 GMT",
-      "last_seen": "2026-08-25T21:05:37.428722+00:00",
-      "next_check": "2026-08-26T21:05:37.428722+00:00",
+      "last_seen": "2026-09-15T11:09:14.416306+00:00",
+      "next_check": "2026-09-17T11:09:14.416306+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/overview/": {
       "content_sha": "91c4e4698f580de17a6eb1771a1e0d220b684688c9e52b503ed6e60dd423b773",
@@ -26677,10 +26677,10 @@
       "first_seen": "2026-08-25T21:05:33.144602+00:00",
       "last_changed": "2026-08-25T21:05:33.144602+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:24:04 GMT",
-      "last_seen": "2026-08-25T21:05:33.144602+00:00",
-      "next_check": "2026-08-26T21:05:33.144602+00:00",
+      "last_seen": "2026-09-15T11:09:10.281472+00:00",
+      "next_check": "2026-09-17T11:09:10.281472+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/documents/": {
       "content_sha": "72d39f88e9d5a07503d9a661d34585c6af497fb3da9b4b5b13b56383fc84b7d2",
@@ -26729,10 +26729,10 @@
       "first_seen": "2026-08-25T21:05:41.730262+00:00",
       "last_changed": "2026-08-25T21:05:41.730262+00:00",
       "last_modified": "Wed, 24 Jun 2026 17:17:06 GMT",
-      "last_seen": "2026-09-07T14:15:41.740793+00:00",
-      "next_check": "2026-09-09T14:15:41.740793+00:00",
+      "last_seen": "2026-09-15T11:09:18.470869+00:00",
+      "next_check": "2026-09-19T11:09:18.470869+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/ip-phone-services/": {
       "content_sha": "23493c395b06d43ebd9537ab0ab6e10af7fddda1b0d037f47ca063361d1433a5",
@@ -27262,10 +27262,10 @@
       "first_seen": "2026-08-25T21:06:20.274655+00:00",
       "last_changed": "2026-08-25T21:06:20.274655+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:10:03 GMT",
-      "last_seen": "2026-08-25T21:06:20.274655+00:00",
-      "next_check": "2026-08-26T21:06:20.274655+00:00",
+      "last_seen": "2026-09-15T11:09:30.867743+00:00",
+      "next_check": "2026-09-17T11:09:30.867743+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/documentation/": {
       "content_sha": "4580981e5e8f2bc2f5ad6743827aa53f261e749319d159862bf7092438bd6caf",
@@ -27288,10 +27288,10 @@
       "first_seen": "2026-08-25T21:06:11.629725+00:00",
       "last_changed": "2026-08-25T21:06:11.629725+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:14:21 GMT",
-      "last_seen": "2026-08-25T21:06:11.629725+00:00",
-      "next_check": "2026-08-26T21:06:11.629725+00:00",
+      "last_seen": "2026-09-15T11:09:22.551274+00:00",
+      "next_check": "2026-09-17T11:09:22.551274+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/index.html": {
       "content_sha": null,
@@ -27352,10 +27352,10 @@
       "first_seen": "2026-08-25T21:06:15.969719+00:00",
       "last_changed": "2026-08-25T21:06:15.969719+00:00",
       "last_modified": "Mon, 08 Jun 2026 11:29:30 GMT",
-      "last_seen": "2026-08-25T21:06:15.969719+00:00",
-      "next_check": "2026-08-26T21:06:15.969719+00:00",
+      "last_seen": "2026-09-15T11:09:26.868238+00:00",
+      "next_check": "2026-09-17T11:09:26.868238+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/wiki/cti-tapi-jtapi-supported-device-matrix/": {
       "content_sha": "a0e7da8d9057fae91d1254db7c628eebc40456abda441a8dbd5a5951ec9fd7b0",
@@ -27762,10 +27762,10 @@
       "first_seen": "2026-08-25T21:10:55.642365+00:00",
       "last_changed": "2026-08-25T21:10:55.642365+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:42:17 GMT",
-      "last_seen": "2026-09-01T18:41:06.890499+00:00",
-      "next_check": "2026-09-03T18:41:06.890499+00:00",
+      "last_seen": "2026-09-15T11:09:43.791021+00:00",
+      "next_check": "2026-09-19T11:09:43.791021+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/tapi/getting-started/": {
       "content_sha": "0e086650ec2c0e5fb304ce8c13acffb87437c693fd82577bc49e8559645e88a9",
@@ -27775,10 +27775,10 @@
       "first_seen": "2026-08-25T21:10:47.239443+00:00",
       "last_changed": "2026-08-25T21:10:47.239443+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:41:56 GMT",
-      "last_seen": "2026-09-01T18:40:57.009608+00:00",
-      "next_check": "2026-09-03T18:40:57.009608+00:00",
+      "last_seen": "2026-09-15T11:09:35.229528+00:00",
+      "next_check": "2026-09-19T11:09:35.229528+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/tapi/supported-windows-os-eol/": {
       "content_sha": "ba77acc27b649fddf13968f024be6b4e23978672ebf0993d982fd501b2ad345b",
@@ -27814,10 +27814,10 @@
       "first_seen": "2026-08-25T21:10:51.202923+00:00",
       "last_changed": "2026-08-25T21:10:51.202923+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:42:06 GMT",
-      "last_seen": "2026-09-01T18:41:01.905610+00:00",
-      "next_check": "2026-09-03T18:41:01.905610+00:00",
+      "last_seen": "2026-09-15T11:09:39.274064+00:00",
+      "next_check": "2026-09-19T11:09:39.274064+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/task-routing/": {
       "content_sha": "dde9d1fcea522d65357ee083d888caabc99f429ecc3362b795f9054d6cd0740a",
@@ -28357,10 +28357,10 @@
       "first_seen": "2026-08-25T21:11:54.968837+00:00",
       "last_changed": "2026-08-25T21:11:54.968837+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:41:48 GMT",
-      "last_seen": "2026-08-25T21:11:54.968837+00:00",
-      "next_check": "2026-08-26T21:11:54.968837+00:00",
+      "last_seen": "2026-09-15T11:09:48.045220+00:00",
+      "next_check": "2026-09-17T11:09:48.045220+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/documents/developer-guide/": {
       "content_sha": null,
@@ -28382,10 +28382,10 @@
       "first_seen": "2026-08-25T21:11:59.246596+00:00",
       "last_changed": "2026-08-25T21:11:59.246596+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:36:50 GMT",
-      "last_seen": "2026-08-25T21:11:59.246596+00:00",
-      "next_check": "2026-08-26T21:11:59.246596+00:00",
+      "last_seen": "2026-09-15T11:09:52.295930+00:00",
+      "next_check": "2026-09-17T11:09:52.295930+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/documents/operations-by-release/": {
       "content_sha": "2e8b014d76241704aa54d81699bebbb5c93b8f71df062bdabcb212461f9d6a56",
@@ -28408,10 +28408,10 @@
       "first_seen": "2026-08-25T21:12:03.482238+00:00",
       "last_changed": "2026-08-25T21:12:03.482238+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:09:41 GMT",
-      "last_seen": "2026-08-25T21:12:03.482238+00:00",
-      "next_check": "2026-08-26T21:12:03.482238+00:00",
+      "last_seen": "2026-09-15T11:09:56.369823+00:00",
+      "next_check": "2026-09-17T11:09:56.369823+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/learn/sample-apps/html-sample-app/": {
       "content_sha": "30e82b80b42f9edffd34ef26479a00395acf64f1d24e98e96814fe575abc5eae",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T10:58:57.905803+00:00"
+  "updated_at": "2026-09-15T11:10:12.304324+00:00"
 }
