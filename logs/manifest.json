@@ -42268,10 +42268,10 @@
       "first_seen": "2026-08-16T23:42:02.794943+00:00",
       "last_changed": "2026-08-16T23:42:02.794943+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:46:14.480270+00:00",
-      "next_check": "2026-09-09T21:46:14.480270+00:00",
+      "last_seen": "2026-09-15T02:14:20.947320+00:00",
+      "next_check": "2026-10-01T02:14:20.947320+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215539-procedure-for-bulk-certificate-managemen.html": {
       "content_sha": "c5d0ae2fef7c80ae27777ec45742144e304ca81aeccb869d21349878a88fa35c",
@@ -42593,10 +42593,10 @@
       "first_seen": "2026-08-16T23:40:20.910918+00:00",
       "last_changed": "2026-09-07T11:11:33.454351+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T11:58:04.771259+00:00",
-      "next_check": "2026-09-10T11:58:04.771259+00:00",
+      "last_seen": "2026-09-15T02:13:38.284221+00:00",
+      "next_check": "2026-09-19T02:13:38.284221+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220608-validate-im-and-presence-after-ungracefu.html": {
       "content_sha": "26e41e749d196895ac0c5bca1fa4afff8779d2a490d88df283d51fa9f33f28a2",
@@ -96069,10 +96069,10 @@
       "first_seen": "2026-08-16T23:41:07.206629+00:00",
       "last_changed": "2026-08-16T23:41:07.206629+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:41:28.014560+00:00",
-      "next_check": "2026-09-09T21:41:28.014560+00:00",
+      "last_seen": "2026-09-15T02:14:03.714205+00:00",
+      "next_check": "2026-10-01T02:14:03.714205+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/device_packs/1501-devpack-for-may-2026.html": {
       "content_sha": "db775e40811ef64c56b5013c308ab7d45bbe63c05c64d01f8f84a0c58b569567",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T02:08:52.204944+00:00"
+  "updated_at": "2026-09-15T02:19:51.569870+00:00"
 }
