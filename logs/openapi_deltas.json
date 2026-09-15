@@ -1,26 +1,7 @@
 {
-  "run_at": "2026-09-15T15:08:16.399383+00:00",
-  "added": [
-    "Webex Contact Center: POST /organization/{orgid}/asset",
-    "Webex Contact Center: POST /organization/{orgid}/asset/bulk",
-    "Webex Contact Center: GET /organization/{orgid}/asset/{id}",
-    "Webex Contact Center: PUT /organization/{orgid}/asset/{id}",
-    "Webex Contact Center: DELETE /organization/{orgid}/asset/{id}",
-    "Webex Contact Center: PATCH /organization/{orgid}/asset/{id}",
-    "Webex Contact Center: GET /organization/{orgid}/asset/{id}/incoming-references",
-    "Webex Contact Center: GET /organization/{orgid}/v2/asset",
-    "Webex Contact Center: POST /organization/{orgid}/channel",
-    "Webex Contact Center: POST /organization/{orgid}/channel/bulk",
-    "Webex Contact Center: GET /organization/{orgid}/channel/{id}",
-    "Webex Contact Center: PUT /organization/{orgid}/channel/{id}",
-    "Webex Contact Center: DELETE /organization/{orgid}/channel/{id}",
-    "Webex Contact Center: PATCH /organization/{orgid}/channel/{id}",
-    "Webex Contact Center: GET /organization/{orgid}/channel/{id}/incoming-references",
-    "Webex Contact Center: GET /organization/{orgid}/v2/channel"
-  ],
+  "run_at": "2026-09-15T15:20:02.782829+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-contact-center.json"
-  ]
+  "specs_cambiados": []
 }
