@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-default-security--655c966feb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_default-security-setup_su2_reorg.html
-retrieved_at: 2026-08-17T00:29:24.674552+00:00
+retrieved_at: 2026-09-15T21:49:24.850504+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -719,10 +719,10 @@ Unified Communications Manager supports Advanced Encryption Standard (AES) with 
 
 When a phone securely connects with IP Voice Media Streaming (IPVMS), precedence is given to the AES_CM_128_HMAC_SHA1_80 crypto
                               cipher. If the phone does not support 80-bit authentication, it reverts to the AES_CM_128_HMAC_SHA1_32 cipher. If a phone
-                              does not support 80-bit or 32-bit authentication tag, the negotiation occurs over Real-Time Transport Protocol (RTP).
+                              does not support an 80-bit or 32-bit authentication tag, the negotiation occurs over Real-Time Transport Protocol (RTP).
 
-The SCCP phone supports only 32-bit authentication tag. Hence, negotiation between the phone and IPVMS happens only over the
-                                          AES_CM_128_HMAC_SHA1_32 cipher.
+The SCCP phone supports only a 32-bit authentication tag. Hence, negotiation between the phone and IPVMS happens only over
+                                          the AES_CM_128_HMAC_SHA1_32 cipher.
 
 If Phone A supports AES_CM_128_HMAC_SHA1_80 and Phone B supports the AES_CM_128_HMAC_SHA1_32 crypto cipher, and when User
                               A (Phone A) dials User B (Phone B) and the call is placed on hold by User B, then Phone A connects to MOH. The negotiation
@@ -732,7 +732,8 @@ If Phone A supports AES_CM_128_HMAC_SHA1_80 and Phone B supports the AES_CM_128_
 If User B (Phone B) dials User A (Phone A) and the call is placed on hold by User A, the negotiation between Phone B and MOH
                               occurs through the AES_CM_128_HMAC_SHA1_32 cipher because Phone B supports only the 32-bit authentication tag.
 
-If a phone supports 80-bit authentication tag, the negotiation between a phone and an IVR or Annunciator occurs through AES_CM_128_HMAC_SHA1_80.
+If a phone supports an 80-bit authentication tag, the negotiation between a phone and an IVR or Annunciator occurs through
+                              AES_CM_128_HMAC_SHA1_80.
 
 The following table shows the supported crypto ciphers on the phones and their negotiation cipher.
 
@@ -765,9 +766,7 @@ When a secure call is invoking features like Hold, IVR, or Annunciator announcem
 
 A new enhancement to the Unified Communications Manager platform supports all crypto ciphers when exchanging call capabilities
                               post-Cisco IP Voice Media Streaming (IPVMS) devices (MOH, IVR, or Annunciator). The SRTP fallback configuration does not impact
-                              active calls nor security is compromised.
-
-Media devices only support SHA1_32 and SHA1_80 bit crypto ciphers.
+                              active calls or compromise security.
 
 ### Self-encrypting Drive
 
@@ -1271,8 +1270,8 @@ To add a node to a secure cluster, see Installing Cisco Unified Communications M
                                                       key size for Certificate Authority Proxy Function (CAPF) is increased to 2048 bits. |
 |---|---|
 
-| Note | The SCCP phone supports only 32-bit authentication tag. Hence, negotiation between the phone and IPVMS happens only over the
-                                          AES_CM_128_HMAC_SHA1_32 cipher. |
+| Note | The SCCP phone supports only a 32-bit authentication tag. Hence, negotiation between the phone and IPVMS happens only over
+                                          the AES_CM_128_HMAC_SHA1_32 cipher. |
 |---|---|
 
 | Phones Capabilities | Negotiated Cipher |
@@ -1281,9 +1280,6 @@ To add a node to a secure cluster, see Installing Cisco Unified Communications M
 | AES_CM_128_HMAC_SHA1_32 | AES_CM_128_HMAC_SHA1_32 |
 | AES_CM_128_HMAC_SHA1_80 | AES_CM_128_HMAC_SHA1_80 |
 | Other than AES_CM_128_HMAC_SHA1_32 and AES_CM_128_HMAC_SHA1_80 | Revert to RTP. |
-
-| Note | Media devices only support SHA1_32 and SHA1_80 bit crypto ciphers. |
-|---|---|
 
 | Note | In some circumstances, you may choose to download confidential data to phones in the clear; for example, to troubleshoot the
                                              phone. |
