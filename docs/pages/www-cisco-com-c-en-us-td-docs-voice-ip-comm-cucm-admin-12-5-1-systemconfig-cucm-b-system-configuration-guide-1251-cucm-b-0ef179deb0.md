@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-systemconfig-cucm-b-system-configuration-guide-1251-cucm-b-0ef179deb0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_01000000.html
-retrieved_at: 2026-09-14T12:40:00.797009+00:00
+retrieved_at: 2026-09-15T14:05:59.101826+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -370,10 +370,6 @@ Complete any
 Step 8
 
 Click Save.
-
-### Customers Also Viewed
-
-- Configure CUCM for Secure LDAP (LDAPS)
 
 | Note | When Cisco Unified Communications Manager server is
                                           			 created, the Conference Bridge Software is also created automatically and it
