@@ -10,7 +10,7 @@ tags: SCIM 2 Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.277336+00:00
+retrieved_at: 2026-09-15T08:04:06.178825+00:00
 ---
 
 # POST /identity/scim/{orgId}/v2/Groups

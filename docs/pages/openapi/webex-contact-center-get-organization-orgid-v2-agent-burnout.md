@@ -10,7 +10,7 @@ tags: Agent Wellbeing
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:21.223317+00:00
+retrieved_at: 2026-09-15T08:04:07.396270+00:00
 ---
 
 # GET /organization/{orgid}/v2/agent-burnout

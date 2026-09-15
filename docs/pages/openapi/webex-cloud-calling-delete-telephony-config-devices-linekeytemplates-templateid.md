@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.750183+00:00
+retrieved_at: 2026-09-15T08:04:06.821015+00:00
 ---
 
 # DELETE /telephony/config/devices/lineKeyTemplates/{templateId}

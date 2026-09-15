@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:21.324995+00:00
+retrieved_at: 2026-09-15T08:04:07.500408+00:00
 ---
 
 # POST /v1/tasks/{taskId}/conference/exit

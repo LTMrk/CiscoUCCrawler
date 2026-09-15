@@ -10,7 +10,7 @@ tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.823043+00:00
+retrieved_at: 2026-09-15T08:04:06.896310+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/intercept

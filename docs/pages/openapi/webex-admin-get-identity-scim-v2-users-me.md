@@ -10,7 +10,7 @@ tags: SCIM 2 Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.284341+00:00
+retrieved_at: 2026-09-15T08:04:06.187003+00:00
 ---
 
 # GET /identity/scim/v2/Users/me

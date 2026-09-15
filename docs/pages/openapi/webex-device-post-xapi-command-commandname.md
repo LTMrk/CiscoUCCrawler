@@ -10,7 +10,7 @@ tags: xAPI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.725330+00:00
+retrieved_at: 2026-09-15T08:04:07.900725+00:00
 ---
 
 # POST /xapi/command/{commandName}

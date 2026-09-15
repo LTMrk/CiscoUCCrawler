@@ -10,7 +10,7 @@ tags: Locations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:38.719892+00:00
+retrieved_at: 2026-09-15T08:04:07.892915+00:00
 ---
 
 # PUT /locations/{locationId}

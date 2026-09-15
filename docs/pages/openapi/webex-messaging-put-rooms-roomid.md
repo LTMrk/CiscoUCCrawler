@@ -10,7 +10,7 @@ tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:39.293744+00:00
+retrieved_at: 2026-09-15T08:04:08.509012+00:00
 ---
 
 # PUT /rooms/{roomId}

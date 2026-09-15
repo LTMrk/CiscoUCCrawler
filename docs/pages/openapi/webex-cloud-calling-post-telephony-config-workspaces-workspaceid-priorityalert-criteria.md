@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.915857+00:00
+retrieved_at: 2026-09-15T08:04:06.986883+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/priorityAlert/criteria

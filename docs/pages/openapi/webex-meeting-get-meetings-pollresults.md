@@ -10,7 +10,7 @@ tags: Meeting Polls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:39.027317+00:00
+retrieved_at: 2026-09-15T08:04:08.216429+00:00
 ---
 
 # GET /meetings/pollResults

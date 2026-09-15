@@ -10,7 +10,7 @@ tags: Chats
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:39.023851+00:00
+retrieved_at: 2026-09-15T08:04:08.211075+00:00
 ---
 
 # GET /meetings/postMeetingChats

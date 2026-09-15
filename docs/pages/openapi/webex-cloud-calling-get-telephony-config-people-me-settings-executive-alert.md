@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.677380+00:00
+retrieved_at: 2026-09-15T08:04:06.785379+00:00
 ---
 
 # GET /telephony/config/people/me/settings/executive/alert

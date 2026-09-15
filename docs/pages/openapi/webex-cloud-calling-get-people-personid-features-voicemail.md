@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.856381+00:00
+retrieved_at: 2026-09-15T08:04:06.927295+00:00
 ---
 
 # GET /people/{personId}/features/voicemail

@@ -10,7 +10,7 @@ tags: DNC Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:21.343359+00:00
+retrieved_at: 2026-09-15T08:04:07.519126+00:00
 ---
 
 # DELETE /v3/campaign-management/dncList/{dncListName}/phoneNumber/{phoneNumber}

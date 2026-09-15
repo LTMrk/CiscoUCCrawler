@@ -10,7 +10,7 @@ tags: Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.285421+00:00
+retrieved_at: 2026-09-15T08:04:06.188513+00:00
 ---
 
 # GET /settings/organizations/{orgId}/settings/{settingKey}

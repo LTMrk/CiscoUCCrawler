@@ -10,7 +10,7 @@ tags: Call Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-14T09:48:20.650976+00:00
+retrieved_at: 2026-09-15T08:04:06.755128+00:00
 ---
 
 # POST /telephony/calls/members/{memberId}/dial

@@ -10,7 +10,7 @@ tags: Attachment Actions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:39.284636+00:00
+retrieved_at: 2026-09-15T08:04:08.497761+00:00
 ---
 
 # GET /attachment/actions/{id}

@@ -10,7 +10,7 @@ tags: Security Audit Events
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.284538+00:00
+retrieved_at: 2026-09-15T08:04:06.187318+00:00
 ---
 
 # GET /admin/securityAudit/events

@@ -10,7 +10,7 @@ tags: Archive Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.260837+00:00
+retrieved_at: 2026-09-15T08:04:06.156015+00:00
 ---
 
 # GET /identity/organizations/{orgId}/v1/ArchivedUser

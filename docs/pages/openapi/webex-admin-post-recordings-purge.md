@@ -10,7 +10,7 @@ tags: Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-07T10:28:37.273774+00:00
+retrieved_at: 2026-09-15T08:04:06.174266+00:00
 ---
 
 # POST /recordings/purge

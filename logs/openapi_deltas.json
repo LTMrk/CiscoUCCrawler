@@ -1,7 +1,18 @@
 {
-  "run_at": "2026-09-15T07:52:03.191328+00:00",
-  "added": [],
+  "run_at": "2026-09-15T08:04:08.768634+00:00",
+  "added": [
+    "Webex Admin: GET /v1/analytics/callQualityStats",
+    "Webex Cloud Calling: GET /v1/analytics/callQualityStats"
+  ],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-admin.json",
+    "webex-cloud-calling.json",
+    "webex-contact-center.json",
+    "webex-device.json",
+    "webex-meeting.json",
+    "webex-messaging.json",
+    "webex-ucm.json"
+  ]
 }
