@@ -115279,12 +115279,12 @@
       "content_sha": "0cd05db514bdf3654682f700de3c6d6b01ca96659cf81b17562cd8565914a7f1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-15-cucm-b-self-care-guide-for-15-html-9b1060d894",
       "etag": null,
-      "fail_count": 4,
+      "fail_count": 5,
       "first_seen": "2026-08-16T17:57:49.167579+00:00",
       "last_changed": "2026-08-16T17:57:49.167579+00:00",
       "last_modified": null,
       "last_seen": "2026-09-01T19:44:43.288549+00:00",
-      "next_check": "2026-09-09T19:44:43.288549+00:00",
+      "next_check": "2026-09-29T01:41:22.453740+00:00",
       "status": "active",
       "unchanged_runs": 3
     },
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T01:35:49.949771+00:00"
+  "updated_at": "2026-09-15T01:47:10.365802+00:00"
 }
