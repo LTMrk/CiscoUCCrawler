@@ -39335,10 +39335,10 @@
       "first_seen": "2026-08-16T15:43:52.974113+00:00",
       "last_changed": "2026-09-14T18:11:32.088060+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:11:32.088060+00:00",
-      "next_check": "2026-09-15T18:11:32.088060+00:00",
+      "last_seen": "2026-09-15T20:06:51.485233+00:00",
+      "next_check": "2026-09-17T20:06:51.485233+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.html": {
       "content_sha": "ac910955d460497ef1039633a38f704524fe237e7d5178003a748e4234dda2a0",
@@ -60826,10 +60826,10 @@
       "first_seen": "2026-08-16T18:58:21.862052+00:00",
       "last_changed": "2026-08-16T18:58:21.862052+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:25:21.415679+00:00",
-      "next_check": "2026-09-15T16:25:21.415679+00:00",
+      "last_seen": "2026-09-15T20:09:16.517926+00:00",
+      "next_check": "2026-10-01T20:09:16.517926+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/administration/guide/b_14cucsag/b_14cucsag_chapter_010011.html": {
       "content_sha": "e764dacf72e195f6fae36d7121c4c36863131f3259e1823e8e3c8a8242fc14c4",
@@ -99212,10 +99212,10 @@
       "first_seen": "2026-08-16T15:57:39.013060+00:00",
       "last_changed": "2026-09-14T18:23:28.262776+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:23:28.262776+00:00",
-      "next_check": "2026-09-15T18:23:28.262776+00:00",
+      "last_seen": "2026-09-15T20:07:28.886076+00:00",
+      "next_check": "2026-09-17T20:07:28.886076+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_01010.html": {
       "content_sha": "e2395acbfdfbcf8424b3686e7405b5c1abde62ab30877b84d4dc57dc71221110",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-15T19:58:08.486015+00:00"
+  "updated_at": "2026-09-15T20:09:41.534523+00:00"
 }
