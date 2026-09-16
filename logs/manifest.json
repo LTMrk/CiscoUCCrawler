@@ -41566,10 +41566,10 @@
       "first_seen": "2026-08-16T19:13:04.106067+00:00",
       "last_changed": "2026-08-16T19:13:04.106067+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:33:01.239500+00:00",
-      "next_check": "2026-09-15T16:33:01.239500+00:00",
+      "last_seen": "2026-09-16T01:25:42.183651+00:00",
+      "next_check": "2026-10-02T01:25:42.183651+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211351-Collect-Communication-Manager-Logs-via-t.html": {
       "content_sha": "28b4ab84f09532226ec3f3d0f0f209b0103377dad1cba2984b99765a42def149",
@@ -41904,10 +41904,10 @@
       "first_seen": "2026-08-21T13:57:05.986110+00:00",
       "last_changed": "2026-09-14T17:00:18.387000+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T17:00:18.387000+00:00",
-      "next_check": "2026-09-15T17:00:18.387000+00:00",
+      "last_seen": "2026-09-16T01:25:45.631923+00:00",
+      "next_check": "2026-09-18T01:25:45.631923+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213407-migrate-phones-between-secure-clusters.html": {
       "content_sha": "9fd038279288e7d00e3b3be5b291a9f6b6840b7b63b08d28f982d196ddf760d1",
@@ -42255,10 +42255,10 @@
       "first_seen": "2026-08-17T00:19:11.142179+00:00",
       "last_changed": "2026-08-17T00:19:11.142179+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T19:38:07.576788+00:00",
-      "next_check": "2026-09-15T19:38:07.576788+00:00",
+      "last_seen": "2026-09-16T01:25:50.255840+00:00",
+      "next_check": "2026-10-02T01:25:50.255840+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215537-network-time-protocol-ntp-on-cucm.html": {
       "content_sha": "dc6c41c37d035070ec95022a07437e9f93d551f6ae4ef8eb57f651d6864567db",
@@ -42864,10 +42864,10 @@
       "first_seen": "2026-08-16T17:57:45.345274+00:00",
       "last_changed": "2026-08-16T17:57:45.345274+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T19:38:41.541351+00:00",
-      "next_check": "2026-09-15T19:38:41.541351+00:00",
+      "last_seen": "2026-09-16T01:25:37.599830+00:00",
+      "next_check": "2026-10-02T01:25:37.599830+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert.html": {
       "content_sha": "afc39a8828e6b12a6743b7c07164d97d4277034eded1d6a3514e1073f19d3433",
@@ -157144,10 +157144,10 @@
       "first_seen": "2026-08-16T19:28:56.184525+00:00",
       "last_changed": "2026-08-16T19:28:56.184525+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:39:55.553008+00:00",
-      "next_check": "2026-09-15T16:39:55.553008+00:00",
+      "last_seen": "2026-09-16T01:23:41.212004+00:00",
+      "next_check": "2026-10-02T01:23:41.212004+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125-database-schema-handbook-for/ucce_b_125-database-schema-handbook-for_chapter_0101.html": {
       "content_sha": "9ec8b2eaa66502cbc181036a4d8e2cf9e2d12164ecf8e2a5c83c71191cee1ee8",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T01:18:28.952160+00:00"
+  "updated_at": "2026-09-16T01:30:01.712987+00:00"
 }
