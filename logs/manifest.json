@@ -40788,10 +40788,10 @@
       "first_seen": "2026-08-16T15:55:51.056377+00:00",
       "last_changed": "2026-09-08T02:03:55.499848+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T10:45:06.445735+00:00",
-      "next_check": "2026-09-16T10:45:06.445735+00:00",
+      "last_seen": "2026-09-16T11:32:59.096584+00:00",
+      "next_check": "2026-09-20T11:32:59.096584+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.html": {
       "content_sha": "0b26e26fee045d705fe0af37d1778fabf0f6f7db64043315a6db8ca2261246fe",
@@ -43667,10 +43667,10 @@
       "first_seen": "2026-08-16T22:05:55.267612+00:00",
       "last_changed": "2026-08-16T22:05:55.267612+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:20:34.817743+00:00",
-      "next_check": "2026-09-15T14:20:34.817743+00:00",
+      "last_seen": "2026-09-16T11:31:57.613668+00:00",
+      "next_check": "2026-10-02T11:31:57.613668+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.html": {
       "content_sha": "6e52d967384a512a45e7d020c89f8fba71c6c725028c8664ac21fd75e05f25b4",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T11:26:19.722249+00:00"
+  "updated_at": "2026-09-16T11:37:22.878214+00:00"
 }
