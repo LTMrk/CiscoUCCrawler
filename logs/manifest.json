@@ -1713,8 +1713,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T04:45:31.966837+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-15T14:50:57.624785+00:00",
-      "next_check": "2026-09-16T14:50:57.624785+00:00",
+      "last_seen": "2026-09-16T16:11:29.907414+00:00",
+      "next_check": "2026-09-17T16:11:29.907414+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23103,8 +23103,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T10:58:23.561328+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-15T14:51:05.667106+00:00",
-      "next_check": "2026-09-16T14:51:05.667106+00:00",
+      "last_seen": "2026-09-16T16:11:37.682761+00:00",
+      "next_check": "2026-09-17T16:11:37.682761+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23307,8 +23307,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T10:58:44.991053+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-15T14:51:01.129791+00:00",
-      "next_check": "2026-09-16T14:51:01.129791+00:00",
+      "last_seen": "2026-09-16T16:11:33.425194+00:00",
+      "next_check": "2026-09-17T16:11:33.425194+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -111305,10 +111305,10 @@
       "first_seen": "2026-08-21T01:33:25.787478+00:00",
       "last_changed": "2026-09-07T21:10:33.938766+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T14:50:15.851438+00:00",
-      "next_check": "2026-09-16T14:50:15.851438+00:00",
+      "last_seen": "2026-09-16T16:11:20.962331+00:00",
+      "next_check": "2026-09-20T16:11:20.962331+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_010.html": {
       "content_sha": "b4da7ebfc1ae2983e09e1ed5496d63ea0cec0cdd34bfbdbf136fb3d5af927c80",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T16:06:18.066040+00:00"
+  "updated_at": "2026-09-16T16:18:14.626872+00:00"
 }
