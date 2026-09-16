@@ -1,14 +1,11 @@
 {
-  "run_at": "2026-09-16T08:25:48.707089+00:00",
+  "run_at": "2026-09-16T08:37:19.515643+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 43,
-  "redirected": [
-    "http://cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg -> https://www.cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg",
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCti08882 -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "unchanged_count": 8,
+  "redirected": [],
   "semillas_encoladas": 20
 }
