@@ -265,7 +265,7 @@
    "default_branch": "next",
    "descripcion": "JavaScript SDK for Webex",
    "estrellas": 204,
-   "actualizado": "2026-09-16T17:40:02.870261+00:00"
+   "actualizado": "2026-09-16T17:51:41.165692+00:00"
   },
   "webex/webex-ios-sdk": {
    "ficheros": {
@@ -274,7 +274,7 @@
    "default_branch": "master",
    "descripcion": "iOS SDK for Webex",
    "estrellas": 27,
-   "actualizado": "2026-09-16T17:40:03.509783+00:00"
+   "actualizado": "2026-09-16T17:51:41.742732+00:00"
   },
   "webex/webex-android-sdk": {
    "ficheros": {
@@ -283,7 +283,7 @@
    "default_branch": "master",
    "descripcion": "Android SDK for Webex",
    "estrellas": 25,
-   "actualizado": "2026-09-16T17:40:04.198188+00:00"
+   "actualizado": "2026-09-16T17:51:42.243649+00:00"
   },
   "webex/webex-java-sdk": {
    "ficheros": {
@@ -292,7 +292,7 @@
    "default_branch": "master",
    "descripcion": "Java library for consuming RESTful APIs for Cisco Spark",
    "estrellas": 70,
-   "actualizado": "2026-09-16T17:40:04.905953+00:00"
+   "actualizado": "2026-09-16T17:51:42.754062+00:00"
   },
   "webex/widgets": {
    "ficheros": {
@@ -406,7 +406,7 @@
    "default_branch": "next",
    "descripcion": "Embed the power of Webex in your web applications ✨",
    "estrellas": 14,
-   "actualizado": "2026-09-16T17:40:05.657559+00:00"
+   "actualizado": "2026-09-16T17:51:43.265686+00:00"
   },
   "webex/components": {
    "ficheros": {
@@ -446,7 +446,7 @@
    "default_branch": "master",
    "descripcion": "Embed the power of Webex in your web applications, on your own terms 💪🏼",
    "estrellas": 14,
-   "actualizado": "2026-09-16T17:40:06.834773+00:00"
+   "actualizado": "2026-09-16T17:51:43.913451+00:00"
   },
   "webex/react-widgets": {
    "ficheros": {
@@ -523,7 +523,7 @@
    "default_branch": "master",
    "descripcion": "React components and Redux modules for embedded Webex Teams",
    "estrellas": 84,
-   "actualizado": "2026-09-16T17:40:07.810219+00:00"
+   "actualizado": "2026-09-16T17:51:44.480524+00:00"
   },
   "webex/sdk-component-adapter": {
    "ficheros": {
@@ -591,7 +591,7 @@
    "default_branch": "master",
    "descripcion": "JS SDK Adapter implementation for Webex Components 🧩 (https://github.com/webex/components)",
    "estrellas": 7,
-   "actualizado": "2026-09-16T17:40:08.577068+00:00"
+   "actualizado": "2026-09-16T17:51:45.056104+00:00"
   },
   "webex/EmbeddedAppKitchenSink": {
    "ficheros": {
@@ -600,7 +600,7 @@
    "default_branch": "main",
    "descripcion": "The \"kitchen sink\" sample app for Webex Embedded Apps",
    "estrellas": 15,
-   "actualizado": "2026-09-16T17:40:09.259035+00:00"
+   "actualizado": "2026-09-16T17:51:45.624055+00:00"
   },
   "webex/postman-webex-calling": {
    "ficheros": {
@@ -611,7 +611,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection that demonstrates the Webex Calling APIs",
    "estrellas": 28,
-   "actualizado": "2026-09-16T17:40:09.864740+00:00"
+   "actualizado": "2026-09-16T17:51:46.120290+00:00"
   },
   "webex/postman-webex-meetings": {
    "ficheros": {
@@ -620,7 +620,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection to demonstrate using the Webex Meetings REST APIs",
    "estrellas": 15,
-   "actualizado": "2026-09-16T17:40:10.542588+00:00"
+   "actualizado": "2026-09-16T17:51:46.595158+00:00"
   },
   "webex/WebexPlaybooks": {
    "ficheros": {
@@ -722,7 +722,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 6,
-   "actualizado": "2026-09-16T17:40:11.380148+00:00"
+   "actualizado": "2026-09-16T17:51:47.112508+00:00"
   },
   "webex/webex-byova-gateway-python": {
    "ficheros": {
@@ -756,7 +756,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 4,
-   "actualizado": "2026-09-16T17:40:12.446655+00:00"
+   "actualizado": "2026-09-16T17:51:47.675195+00:00"
   },
   "webex/webexconnect-ios-sdk": {
    "ficheros": {
@@ -765,7 +765,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect iOS SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-09-16T17:40:13.121545+00:00"
+   "actualizado": "2026-09-16T17:51:48.121610+00:00"
   },
   "webex/webexconnect-android-sdk": {
    "ficheros": {
@@ -774,7 +774,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Android SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-09-16T17:40:13.772084+00:00"
+   "actualizado": "2026-09-16T17:51:48.676264+00:00"
   },
   "webex/webexconnect-javascript-sdk": {
    "ficheros": {
@@ -783,7 +783,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Web SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 0,
-   "actualizado": "2026-09-16T17:40:14.428173+00:00"
+   "actualizado": "2026-09-16T17:51:49.159118+00:00"
   },
   "webex/dataSourceSchemas": {
    "ficheros": {
@@ -796,7 +796,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 2,
-   "actualizado": "2026-09-16T17:40:15.141696+00:00"
+   "actualizado": "2026-09-16T17:51:49.570537+00:00"
   },
   "CiscoDevNet/cvp-sample-code": {
    "ficheros": {
@@ -831,7 +831,7 @@
    "default_branch": "master",
    "descripcion": "Sample Code for Customer Voice Portal (CVP)",
    "estrellas": 20,
-   "actualizado": "2026-09-16T17:40:15.996908+00:00"
+   "actualizado": "2026-09-16T17:51:50.145822+00:00"
   },
   "CiscoDevNet/finesse-sample-code": {
    "ficheros": {
@@ -865,7 +865,7 @@
    "default_branch": "master",
    "descripcion": "Sample Gadgets and code for use with Finesse",
    "estrellas": 79,
-   "actualizado": "2026-09-16T17:40:16.633122+00:00"
+   "actualizado": "2026-09-16T17:51:50.598556+00:00"
   },
   "CiscoDevNet/webexcc-digital-channels": {
    "ficheros": {
@@ -892,7 +892,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 42,
-   "actualizado": "2026-09-16T17:40:17.460649+00:00"
+   "actualizado": "2026-09-16T17:51:51.073667+00:00"
   },
   "CiscoDevNet/webex-contact-center-widget-starter": {
    "ficheros": {
@@ -916,7 +916,7 @@
    "default_branch": "master",
    "descripcion": "WebEx Contact Center widget starter",
    "estrellas": 32,
-   "actualizado": "2026-09-16T17:40:18.540283+00:00"
+   "actualizado": "2026-09-16T17:51:51.707718+00:00"
   },
   "CiscoDevNet/voice-gateway-api-tcl-vxml-sample-scripts": {
    "ficheros": {
@@ -926,7 +926,7 @@
    "default_branch": "master",
    "descripcion": "TCL IVR sample scripts for Cisco Voice Gateway API",
    "estrellas": 8,
-   "actualizado": "2026-09-16T17:40:19.210823+00:00"
+   "actualizado": "2026-09-16T17:51:52.149644+00:00"
   },
   "CiscoDevNet/xapi-samples": {
    "ficheros": {
@@ -949,7 +949,7 @@
    "default_branch": "master",
    "descripcion": "Examples of UI Extensions, Macros and Node.js scripts for Webex devices and Cisco Collaboration Endpoints",
    "estrellas": 49,
-   "actualizado": "2026-09-16T17:40:20.399949+00:00"
+   "actualizado": "2026-09-16T17:51:52.579699+00:00"
   },
   "CiscoDevNet/axl-python-zeep-samples": {
    "ficheros": {
@@ -958,7 +958,7 @@
    "default_branch": "master",
    "descripcion": "",
    "estrellas": 65,
-   "actualizado": "2026-09-16T17:40:21.041016+00:00"
+   "actualizado": "2026-09-16T17:51:53.073644+00:00"
   },
   "CiscoDevNet/serviceability-python-zeep-samples": {
    "ficheros": {
@@ -967,7 +967,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of various Cisco CUCM Serviceability APIs using Python and the Zeep SOAP library",
    "estrellas": 19,
-   "actualizado": "2026-09-16T17:40:21.698362+00:00"
+   "actualizado": "2026-09-16T17:51:53.527918+00:00"
   },
   "CiscoDevNet/unity-connection-apis-python-samples": {
    "ficheros": {
@@ -976,7 +976,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of Cisco Unity Connection APIs with Python",
    "estrellas": 10,
-   "actualizado": "2026-09-16T17:40:22.440644+00:00"
+   "actualizado": "2026-09-16T17:51:54.065266+00:00"
   },
   "CiscoDevNet/axl-ansible-examples": {
    "ficheros": {
@@ -986,7 +986,7 @@
    "default_branch": "main",
    "descripcion": "Examples showing how to use Cisco Communications Manager AXL SOAP to make configuration changes using Ansible playbooks",
    "estrellas": 21,
-   "actualizado": "2026-09-16T17:40:23.096974+00:00"
+   "actualizado": "2026-09-16T17:51:54.548435+00:00"
   },
   "CiscoDevNet/xe-sip-api-code": {
    "ficheros": {
@@ -995,7 +995,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 0,
-   "actualizado": "2026-09-16T17:40:23.695879+00:00"
+   "actualizado": "2026-09-16T17:51:55.231393+00:00"
   },
   "CiscoDevNet/jabber-web-sample": {
    "ficheros": {
@@ -1004,7 +1004,7 @@
    "default_branch": "master",
    "descripcion": "Basic and advanced sample pages demonstrating the use of the Cisco Jabber Web SDK for voice and video",
    "estrellas": 11,
-   "actualizado": "2026-09-16T17:40:24.319375+00:00"
+   "actualizado": "2026-09-16T17:51:55.730533+00:00"
   }
  }
 }
