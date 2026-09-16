@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-5bd61b050e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_ece-and-wxconnect-on-same-deployment.html
-retrieved_at: 2026-08-16T20:09:21.106487+00:00
+retrieved_at: 2026-09-16T00:02:45.066762+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -18,15 +18,15 @@ Chapter: ECE and WebexConnect Co-deployment
 
 ## Overview
 
-CCE customers have been using ECE for digital channels (Chat and Email) for an extended period. With the introduction of Digital
-                           Channels Integration using Webex Connect in 12.6(2), a wide variety of communication channels such as SMS, Email, Facebook
-                           Messenger, and Whatsapp were made available.
+CCE customers have been using ECE for digital channels, such as Chat and Email, for an extended period. With Digital Channels
+                           Integration using Webex Connect in 12.6(2), Packaged CCE supports a wide variety of communication channels, including SMS,
+                           Email, Facebook Messenger, WhatsApp, Live Chat, and Apple Messages for Business.
 
-CCE now empowers customers to deploy both Webex Connect and ECE on a single Packaged CCE instance, allowing Contact Center
-                           agents to independently leverage digital channels from both platforms.
+You can deploy Webex Connect and ECE together on a single Packaged CCE instance. This co-deployment enables contact center
+                           agents to handle ECE interactions and Webex Connect digital-channel interactions independently from the same Cisco Finesse
+                           desktop.
 
-This feature will significantly improve the agent's experience, ensuring a seamless, cohesive, and uninterrupted workflow.
-                           Consequently, customer support across digital channels will be greatly enhanced.
+This co-deployment improves the agent experience by providing a seamless and consistent workflow across digital channels.
 
 ## Prerequsities
 
