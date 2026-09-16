@@ -1551,8 +1551,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T17:08:30.881913+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-07T16:39:15.352772+00:00",
-      "next_check": "2026-09-08T16:39:15.352772+00:00",
+      "last_seen": "2026-09-16T07:36:01.840165+00:00",
+      "next_check": "2026-09-17T07:36:01.840165+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -1563,8 +1563,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T17:08:34.486462+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-14T19:53:44.809719+00:00",
-      "next_check": "2026-09-15T19:53:44.809719+00:00",
+      "last_seen": "2026-09-16T07:35:58.122214+00:00",
+      "next_check": "2026-09-17T07:35:58.122214+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -38842,10 +38842,10 @@
       "first_seen": "2026-08-21T13:38:47.982343+00:00",
       "last_changed": "2026-08-21T13:38:47.982343+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:00:26.132128+00:00",
-      "next_check": "2026-09-16T06:00:26.132128+00:00",
+      "last_seen": "2026-09-16T07:40:30.332259+00:00",
+      "next_check": "2026-10-02T07:40:30.332259+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/200918-Install-a-Cisco-Expressway-Series-Releas.html": {
       "content_sha": "6aef8f1d101ec7b8c9b86baa3adfe752d1e99f68450cecf9e43ff115eb664068",
@@ -38868,10 +38868,10 @@
       "first_seen": "2026-08-21T13:38:52.277124+00:00",
       "last_changed": "2026-08-21T13:38:52.277124+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:00:30.613478+00:00",
-      "next_check": "2026-09-16T06:00:30.613478+00:00",
+      "last_seen": "2026-09-16T07:40:34.784263+00:00",
+      "next_check": "2026-10-02T07:40:34.784263+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/214390-expressway-vcs-screencast-video-list.html": {
       "content_sha": null,
@@ -38984,10 +38984,10 @@
       "first_seen": "2026-08-21T13:39:51.340001+00:00",
       "last_changed": "2026-08-21T13:39:51.340001+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:04:49.898378+00:00",
-      "next_check": "2026-09-16T06:04:49.898378+00:00",
+      "last_seen": "2026-09-16T07:40:52.119477+00:00",
+      "next_check": "2026-10-02T07:40:52.119477+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211288-Mobile-and-Remote-Access-MRA-License-K.html": {
       "content_sha": "135a47f37b4f15e8dc21eed4c64923f5d416e760860cf24e469efe36a358a85b",
@@ -38997,10 +38997,10 @@
       "first_seen": "2026-08-21T13:39:43.060701+00:00",
       "last_changed": "2026-08-21T13:39:43.060701+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:04:41.312393+00:00",
-      "next_check": "2026-09-16T06:04:41.312393+00:00",
+      "last_seen": "2026-09-16T07:40:44.331682+00:00",
+      "next_check": "2026-10-02T07:40:44.331682+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/211301-Configure-Proxy-WebRTC-With-CMS-over-Exp.html": {
       "content_sha": "00feeb358d74325cd19516f8a0037e59826411b4566269bae26e3f3c652b6808",
@@ -39023,10 +39023,10 @@
       "first_seen": "2026-08-21T07:05:32.902746+00:00",
       "last_changed": "2026-08-21T07:05:32.902746+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:04:36.619804+00:00",
-      "next_check": "2026-09-16T06:04:36.619804+00:00",
+      "last_seen": "2026-09-16T07:40:38.556774+00:00",
+      "next_check": "2026-10-02T07:40:38.556774+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212347-mra-phone-services-failing-due-to-source.html": {
       "content_sha": "82b4fc3eaf56950af99948531561dcb2af454aa98584dace905a64ee16493a1c",
@@ -39036,10 +39036,10 @@
       "first_seen": "2026-08-21T13:39:46.891646+00:00",
       "last_changed": "2026-08-21T13:39:46.891646+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:04:45.573379+00:00",
-      "next_check": "2026-09-16T06:04:45.573379+00:00",
+      "last_seen": "2026-09-16T07:40:47.814401+00:00",
+      "next_check": "2026-10-02T07:40:47.814401+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/212383-configure-and-troubleshoot-dns-and-certi.html": {
       "content_sha": "ccdf4958c87fc47ab3703f0155915c3a443504cac287a2d96b4c6896d8fad77f",
@@ -40399,10 +40399,10 @@
       "first_seen": "2026-08-21T13:39:55.325218+00:00",
       "last_changed": "2026-08-21T13:39:55.325218+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T05:22:43.826441+00:00",
-      "next_check": "2026-09-16T05:22:43.826441+00:00",
+      "last_seen": "2026-09-16T07:40:56.369046+00:00",
+      "next_check": "2026-10-02T07:40:56.369046+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/119398-configure-mra-00.html": {
       "content_sha": "410523f34c39f6ac0c00eeabea13460fd3af3a6b6775ce6f94fe45bd158cb4b4",
@@ -40412,10 +40412,10 @@
       "first_seen": "2026-08-21T13:39:59.230016+00:00",
       "last_changed": "2026-08-21T13:39:59.230016+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:04:54.047198+00:00",
-      "next_check": "2026-09-16T06:04:54.047198+00:00",
+      "last_seen": "2026-09-16T07:41:00.497898+00:00",
+      "next_check": "2026-10-02T07:41:00.497898+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
       "content_sha": "2607956e50ac9c6b07c9af0fc1f0aff5145dc666444f5240022dbaf2e2c5960a",
@@ -43361,17 +43361,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.html": {
-      "content_sha": "4e7275d343566e679744265591946760c5689578b3f207f67542b62df15bf68d",
+      "content_sha": "8ec89b0cc061344ec7cd0477744e027aa10ab7c8de7015c7eb3e810a769c1098",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-vg-series-gateways-212138-configure-vg224-sccp-secure-encrypte-948a4673f7",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:52:10.031870+00:00",
-      "last_changed": "2026-08-21T12:52:10.031870+00:00",
+      "last_changed": "2026-09-16T07:35:49.521182+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:17:00.163313+00:00",
-      "next_check": "2026-09-16T06:17:00.163313+00:00",
+      "last_seen": "2026-09-16T07:35:49.521182+00:00",
+      "next_check": "2026-09-17T07:35:49.521182+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/220861-troubleshoot-error-couldn-t-save-the-mi.html": {
       "content_sha": "784ac1d86e7bf8a814b90e58811b4762b34bb6c037ad38e313eaecd9fb98eabb",
@@ -44161,10 +44161,10 @@
       "first_seen": "2026-08-21T12:52:35.453136+00:00",
       "last_changed": "2026-08-21T12:52:35.453136+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:17:04.708528+00:00",
-      "next_check": "2026-09-16T06:17:04.708528+00:00",
+      "last_seen": "2026-09-16T07:35:53.869650+00:00",
+      "next_check": "2026-10-02T07:35:53.869650+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-00.html": {
       "content_sha": "57bf8fe1b67ea78cec627ca076e979c5be8075e6d8f19945bd75a7d1df5d995a",
@@ -47978,10 +47978,10 @@
       "first_seen": "2026-08-21T12:51:57.536077+00:00",
       "last_changed": "2026-08-21T12:51:57.536077+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:47.530271+00:00",
-      "next_check": "2026-09-16T06:16:47.530271+00:00",
+      "last_seen": "2026-09-16T07:35:36.558494+00:00",
+      "next_check": "2026-10-02T07:35:36.558494+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_appendix_0101.html": {
       "content_sha": "4284ff0520a7cab7aa17aa388437c89d2ce279aebf953d7f817fb51a38a1155a",
@@ -48225,10 +48225,10 @@
       "first_seen": "2026-08-21T12:51:53.503736+00:00",
       "last_changed": "2026-08-21T12:51:53.503736+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:43.326694+00:00",
-      "next_check": "2026-09-16T06:16:43.326694+00:00",
+      "last_seen": "2026-09-16T07:35:32.412286+00:00",
+      "next_check": "2026-10-02T07:35:32.412286+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-configuring-the-cisco-vg410-voice-gateway.html": {
       "content_sha": "8877df080dc75285e40bbd68363903c90f5c2d9013f3ef11ab698b1dd181ecd9",
@@ -48849,10 +48849,10 @@
       "first_seen": "2026-08-21T12:51:40.849190+00:00",
       "last_changed": "2026-08-21T12:51:40.849190+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:35.029918+00:00",
-      "next_check": "2026-09-16T06:16:35.029918+00:00",
+      "last_seen": "2026-09-16T07:35:23.844509+00:00",
+      "next_check": "2026-10-02T07:35:23.844509+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/installing-the-voice-gateway-software.html": {
       "content_sha": "e402cc2ab57c0ad2e2a83caa77ed356ba418943ea673be1a35b70e62eb4ca73f",
@@ -165411,10 +165411,10 @@
       "first_seen": "2026-08-16T19:26:41.854926+00:00",
       "last_changed": "2026-08-16T19:26:41.854926+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T16:39:19.740804+00:00",
-      "next_check": "2026-09-15T16:39:19.740804+00:00",
+      "last_seen": "2026-09-16T07:36:06.993831+00:00",
+      "next_check": "2026-10-02T07:36:06.993831+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1262/ucce_m_introduction_12_6_1.html": {
       "content_sha": "e9e7e76a8d762ee02bb82436ec08efefd0181837e4d07975cb0321beae5e764f",
@@ -200813,10 +200813,10 @@
       "first_seen": "2026-08-21T12:52:01.576600+00:00",
       "last_changed": "2026-08-21T12:52:01.576600+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:51.582816+00:00",
-      "next_check": "2026-09-16T06:16:51.582816+00:00",
+      "last_seen": "2026-09-16T07:35:40.610207+00:00",
+      "next_check": "2026-10-02T07:35:40.610207+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hwIX.html": {
       "content_sha": "06be6092df24d0421499905cbb1dbd02a243fbf13bc4800f31a3bb5a6611f2e2",
@@ -200917,10 +200917,10 @@
       "first_seen": "2026-08-21T12:51:36.846945+00:00",
       "last_changed": "2026-08-21T12:51:36.846945+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:30.789767+00:00",
-      "next_check": "2026-09-16T06:16:30.789767+00:00",
+      "last_seen": "2026-09-16T07:35:19.756292+00:00",
+      "next_check": "2026-10-02T07:35:19.756292+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0_2/english/release/notes/vg248rn2.html": {
       "content_sha": "3e6a05d3aabee8f8faf1364a1103a547a7e43e231e9bc90ff772b1bd64b73e25",
@@ -200930,10 +200930,10 @@
       "first_seen": "2026-08-21T12:51:32.848530+00:00",
       "last_changed": "2026-08-21T12:51:32.848530+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:16:26.697226+00:00",
-      "next_check": "2026-09-16T06:16:26.697226+00:00",
+      "last_seen": "2026-09-16T07:35:15.503665+00:00",
+      "next_check": "2026-10-02T07:35:15.503665+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_1/english/configuration/guide/sw_confg/vg248sIX.html": {
       "content_sha": "a25aaf0e377bd4027099193ab1d3f63edc2c706e73a7746dda7e7fdea3d00b22",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T07:30:42.869615+00:00"
+  "updated_at": "2026-09-16T07:42:12.813959+00:00"
 }

@@ -1,11 +1,16 @@
 {
-  "run_at": "2026-09-16T07:30:43.064522+00:00",
+  "run_at": "2026-09-16T07:42:12.996691+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [],
+  "modified": [
+    "www-cisco-com-c-en-us-support-docs-unified-communications-vg-series-gateways-212138-configure-vg224-sccp-secure-encrypte-948a4673f7"
+  ],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 28,
-  "redirected": [],
+  "unchanged_count": 16,
+  "redirected": [
+    "https://apps.cisco.com -> https://id.cisco.com/oauth2/default/v1/authorize",
+    "https://apps.cisco.com/Commerce -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }
