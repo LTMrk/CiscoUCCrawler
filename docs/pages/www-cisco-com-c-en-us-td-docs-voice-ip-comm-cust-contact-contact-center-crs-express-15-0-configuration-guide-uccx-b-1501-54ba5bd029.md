@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-configuration-guide-uccx-b-1501-54ba5bd029
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/configuration/guide/uccx_b_1501_port-utilization-guide/rcct_m_1251su2port-utilization-in-uccx.html
-retrieved_at: 2026-09-07T16:01:00.115619+00:00
+retrieved_at: 2026-09-16T03:34:03.451026+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Express Solution, Release 15.0
@@ -119,9 +119,21 @@ Bidirectional
 
 Provide services for SNMP-based management applications
 
+JTAPI Security
+
+UDP 69
+
+—
+
+—
+
+Bidirectional
+
+Trivial File Transfer Protocol (TFTP) used to download configuration files when enabling SRTP
+
 Tomcat (HTTPS)
 
-TCP 433
+TCP 443
 
 —
 
@@ -574,7 +586,7 @@ Bidirectional
 
 RMI Port.
 
-TCP 433 port used instead of 6999 from 12.5(1) SU3 ES07 and later.
+TCP 443 port used instead of 6999 from 12.5(1) SU3 ES07 and later.
 
 Cisco Unified Intelligence Center Tomcat (HTTP)
 
@@ -761,12 +773,12 @@ Using this port Unified ICM Subsystem listens to GED-125Clients. This port is mo
 Intra-cluster communication in the table represents communication between Unified CCX/IP-IVR servers in a cluster.
 
 TCP Ephemeral ports are used to accept connections during Java RMI communication. Java RMI clients know which port it must
-                                    connect, because RMI first connects to RMI Registry (well-known port - 433) and get the information which ephemeral port client
+                                    connect, because RMI first connects to RMI Registry (well-known port - 443) and get the information which ephemeral port client
                                     must connect to Unified CCX Administration page, Unified CCX Engine and CVD use RMI communication in CCX/IP-IVR, so TCP ephemeral
                                     port range is opened up for intra-cluster communication between these processes.
 
 Starting 12.5(1) SU3 ES07, Java RMI Port 6999 is now a private port. For RMI communication from Editor and RTR tool, Tomcat
-                                                HTTP port 433 is used in place of the Java RMI port.
+                                                HTTP port 443 is used in place of the Java RMI port.
 
 UDP
                                     				Ephemeral ports are used to receive audio/video RTP streams; so UDP Ephemeral
@@ -993,7 +1005,8 @@ For more
 | Tomcat (HTTP) | TCP 80 | — | — | Bidirectional | - Web access |
 | System Service | UDP 123 | — | — | Bidirectional | NTP, network time sync |
 | SNMP Agent | UDP 161 | — | — | Bidirectional | Provide services for SNMP-based management applications |
-| Tomcat (HTTPS) | TCP 433 | — | — | Bidirectional | This port is used for communication between the subscriber and publisher during COP file installation in the subscriber node. |
+| JTAPI Security | UDP 69 | — | — | Bidirectional | Trivial File Transfer Protocol (TFTP) used to download configuration files when enabling SRTP |
+| Tomcat (HTTPS) | TCP 443 | — | — | Bidirectional | This port is used for communication between the subscriber and publisher during COP file installation in the subscriber node. |
 | AON Management Console (AMC) Service | TCP 1090 | Intracluster communication | — | Bidirectional | Provide RTMT data collecting, logging and alerting functionalities (AMC RMI Object Port) |
 | AON Management Console (AMC) Service | TCP 1099 | Intracluster communication | — | Bidirectional | Provide RTMT data collecting, logging and alerting functionalities (AMC RMI Registry Port) |
 | DBMON | TCP 1500 | — | — | Bidirectional | This is the port where the IDS engine listens for DB clients |
@@ -1046,7 +1059,7 @@ For more
 | Cisco Identity Service Data Grid | TCP 5702 | Intra-cluster communication | 5702 Note: The Cisco IdS server node in the cluster connects to this port. | Bidirectional | Data or Service grid to manage Cisco IdS cluster nodes. |
 | CVD | TCP 5900 | CVD of other node in cluster | — | Bidirectional | Heartbeats between CVDs in the cluster. |
 | CVD ActiveMQ | TCP 6161 | Internal | 6161 | Bidirectional | Publish JMS events across JMS network connectors in the cluster. |
-| CVD | TCP 6999 | Unified CCX Engine, Tomcat, CVD, and Editor | — | Bidirectional | RMI Port. TCP 433 port used instead of 6999 from 12.5(1) SU3 ES07 and later. |
+| CVD | TCP 6999 | Unified CCX Engine, Tomcat, CVD, and Editor | — | Bidirectional | RMI Port. TCP 443 port used instead of 6999 from 12.5(1) SU3 ES07 and later. |
 | Cisco Unified Intelligence Center Tomcat (HTTP) | TCP 8081 | Client Browsers | — | Bidirectional | Client browser trying to access the Cisco Unified Intelligence Center web interface. |
 | Cisco Unified Intelligence Center Tomcat (HTTPS) | TCP 8444 | Client Browsers | — | Bidirectional | Client browser trying to access the Cisco Unified Intelligence Center web interface. |
 | TCP 8447 | Browsers | — | — | HTTPS - Unified Intelligence Center Online Help. |
@@ -1068,7 +1081,7 @@ For more
 | Unified IP IVR Engine | TCP 5000 | Unified ICM | — | Bidirectional | Using this port Unified ICM Subsystem listens to GED-125Clients. This port is modifiable. |
 
 | Note | Starting 12.5(1) SU3 ES07, Java RMI Port 6999 is now a private port. For RMI communication from Editor and RTR tool, Tomcat
-                                                HTTP port 433 is used in place of the Java RMI port. |
+                                                HTTP port 443 is used in place of the Java RMI port. |
 |---|---|
 
 | Listener (Process or Application Protocol) | Listener Protocol and Port | Remote Device (Process or Application Protocol) | Remote Port | Traffic Direction | Notes |
