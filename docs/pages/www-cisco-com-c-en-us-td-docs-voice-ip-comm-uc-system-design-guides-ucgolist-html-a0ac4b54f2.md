@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-uc-system-design-guides-ucgolist-html-a0ac4b54f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/design/guides/UCgoList.html
-retrieved_at: 2026-08-20T20:27:50.230295+00:00
+retrieved_at: 2026-09-16T03:02:15.646509+00:00
 ---
 
 Cisco Collaboration Solutions Design Guidance
@@ -10,7 +10,7 @@ Cisco Collaboration Solutions Design Guidance
 
 ### Download Options
 
-Updated: December 14, 2023
+Updated: September 9, 2026
 
 NOTE: Works with document’s Advanced Properties “First Published” property. Click File | Properties | Advanced Properties | Custom .
 
@@ -63,10 +63,6 @@ These documents are no longer being updated:
 ■ Cisco Collaboration Sizing Guide for Collaboration System Release (CSR) 14
 
 ■ Cisco Collaboration System 12.x Solution Reference Network Designs (SRND)
-
-■ Cisco Collaboration System 11.x Solution Reference Network Designs (SRND)
-
-■ Cisco Collaboration System 10.x Solution Reference Network Designs (SRND)
 
 ### Related Documents
 
