@@ -56725,10 +56725,10 @@
       "first_seen": "2026-08-16T18:49:44.084420+00:00",
       "last_changed": "2026-09-08T06:07:37.778967+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T13:57:39.393697+00:00",
-      "next_check": "2026-09-16T13:57:39.393697+00:00",
+      "last_seen": "2026-09-16T14:47:17.953567+00:00",
+      "next_check": "2026-09-20T14:47:17.953567+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/administration/guide/b_cucsag.html": {
       "content_sha": null,
@@ -58802,10 +58802,10 @@
       "first_seen": "2026-08-16T18:49:40.070787+00:00",
       "last_changed": "2026-09-08T06:07:33.241248+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T13:57:34.549237+00:00",
-      "next_check": "2026-09-16T13:57:34.549237+00:00",
+      "last_seen": "2026-09-16T14:47:13.542806+00:00",
+      "next_check": "2026-09-20T14:47:13.542806+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/release/notes/b_Release_Notes_1201.html": {
       "content_sha": "79d7eeaacf78264b226c86ab0bb5ef414df5023a210b5ea78156f609ccb39acf",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T14:26:42.984862+00:00"
+  "updated_at": "2026-09-16T14:47:47.408781+00:00"
 }
