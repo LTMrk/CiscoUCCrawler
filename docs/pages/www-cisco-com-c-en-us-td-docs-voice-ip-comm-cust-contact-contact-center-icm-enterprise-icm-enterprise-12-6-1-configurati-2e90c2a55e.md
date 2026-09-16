@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-2e90c2a55e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01010.html
-retrieved_at: 2026-08-20T18:12:08.426215+00:00
+retrieved_at: 2026-09-16T06:44:29.381409+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
 
 # Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
 
-Updated: May 14, 2021
+Updated: August 21, 2023
 
 Chapter: General Antivirus Guidelines
 

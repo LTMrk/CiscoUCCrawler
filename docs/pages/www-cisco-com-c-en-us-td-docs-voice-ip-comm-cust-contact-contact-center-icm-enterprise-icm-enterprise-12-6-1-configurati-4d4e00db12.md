@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-4d4e00db12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_010.html
-retrieved_at: 2026-08-20T18:11:47.160809+00:00
+retrieved_at: 2026-09-16T06:43:56.006955+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
 
 # Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
 
-Updated: May 14, 2021
+Updated: August 21, 2023
 
 Chapter: Encryption Support
 
