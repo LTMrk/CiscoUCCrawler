@@ -35270,10 +35270,10 @@
       "first_seen": "2026-08-17T01:02:17.793967+00:00",
       "last_changed": "2026-09-08T06:21:20.992746+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:57:30.404203+00:00",
-      "next_check": "2026-09-16T18:57:30.404203+00:00",
+      "last_seen": "2026-09-16T20:32:35.160929+00:00",
+      "next_check": "2026-09-20T20:32:35.160929+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/214638-how-to-download-certificates-from-cisco.html": {
       "content_sha": "448918161ca3dc7c509d86770c55e19583fd57ee8fdb636cb50918ce264e6994",
@@ -118418,10 +118418,10 @@
       "first_seen": "2026-08-17T01:07:56.502382+00:00",
       "last_changed": "2026-09-08T06:20:01.271523+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:58:32.529851+00:00",
-      "next_check": "2026-09-16T18:58:32.529851+00:00",
+      "last_seen": "2026-09-16T20:31:36.322794+00:00",
+      "next_check": "2026-09-20T20:31:36.322794+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-3-1-SR3/p2ad_b_7800-rn-1431sr3.html": {
       "content_sha": "8b4dcc80eef2a40f3eb543fc3bf8b93eaa05b540701a3d40ec6c5f0cbba7dba0",
@@ -118548,10 +118548,10 @@
       "first_seen": "2026-08-17T01:07:26.924864+00:00",
       "last_changed": "2026-09-08T06:19:56.797955+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:57:58.627096+00:00",
-      "next_check": "2026-09-16T18:57:58.627096+00:00",
+      "last_seen": "2026-09-16T20:31:31.818067+00:00",
+      "next_check": "2026-09-20T20:31:31.818067+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4-1-SR3/p2ad_b_7800-rn-1441sr3.html": {
       "content_sha": "4e58714d0318e9f96ddff894dda43d760bfcd156b914829c1aea37e2b1b5d0fd",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T20:26:34.624248+00:00"
+  "updated_at": "2026-09-16T20:38:05.893236+00:00"
 }
