@@ -1194,8 +1194,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T09:49:56.128411+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-08T01:22:41.145255+00:00",
-      "next_check": "2026-09-09T01:22:41.145255+00:00",
+      "last_seen": "2026-09-16T08:13:19.475511+00:00",
+      "next_check": "2026-09-17T08:13:19.475511+00:00",
       "redirect_to": "https://www.cisco.com/en/US/docs/routers/access/vg350/software/configuration/guide/vg350scg",
       "status": "redirect",
       "unchanged_runs": 0
@@ -2099,8 +2099,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T08:54:15.287955+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-08T01:24:39.141043+00:00",
-      "next_check": "2026-09-09T01:24:39.141043+00:00",
+      "last_seen": "2026-09-16T08:14:22.346358+00:00",
+      "next_check": "2026-09-17T08:14:22.346358+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -47991,10 +47991,10 @@
       "first_seen": "2026-08-22T01:13:14.913575+00:00",
       "last_changed": "2026-08-22T01:13:14.913575+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:11.801086+00:00",
-      "next_check": "2026-09-12T01:22:11.801086+00:00",
+      "last_seen": "2026-09-16T08:12:50.793117+00:00",
+      "next_check": "2026-09-24T08:12:50.793117+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_00.html": {
       "content_sha": "9f5a63dc9f3f6034e8719372015fcf389d2d0d4da03a57dd2bfab11dcf1b9d77",
@@ -48017,10 +48017,10 @@
       "first_seen": "2026-08-22T01:12:36.365265+00:00",
       "last_changed": "2026-08-22T01:12:36.365265+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:21:50.456347+00:00",
-      "next_check": "2026-09-12T01:21:50.456347+00:00",
+      "last_seen": "2026-09-16T08:12:33.671718+00:00",
+      "next_check": "2026-09-24T08:12:33.671718+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_010.html": {
       "content_sha": "42f529ad37fc98ee06be2152212139416640491512dacba72e742c45b31423da",
@@ -48030,10 +48030,10 @@
       "first_seen": "2026-08-22T01:12:45.124390+00:00",
       "last_changed": "2026-08-22T01:12:45.124390+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:21:55.283197+00:00",
-      "next_check": "2026-09-12T01:21:55.283197+00:00",
+      "last_seen": "2026-09-16T08:12:25.199548+00:00",
+      "next_check": "2026-09-24T08:12:25.199548+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_0101.html": {
       "content_sha": "11fd7e25a77762335aaf8f075aa1b944db940e1cfd65e29f4ea863a6ac9f42ee",
@@ -48043,10 +48043,10 @@
       "first_seen": "2026-08-22T01:13:07.365028+00:00",
       "last_changed": "2026-08-22T01:13:07.365028+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:07.304582+00:00",
-      "next_check": "2026-09-12T01:22:07.304582+00:00",
+      "last_seen": "2026-09-16T08:12:46.265609+00:00",
+      "next_check": "2026-09-24T08:12:46.265609+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_011.html": {
       "content_sha": "a29289473be7739a23a88939029c075d0b9140f44e15b8b348f2becc63b33dc6",
@@ -48056,10 +48056,10 @@
       "first_seen": "2026-08-22T01:13:00.974060+00:00",
       "last_changed": "2026-08-22T01:13:00.974060+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:03.215469+00:00",
-      "next_check": "2026-09-12T01:22:03.215469+00:00",
+      "last_seen": "2026-09-16T08:12:41.883435+00:00",
+      "next_check": "2026-09-24T08:12:41.883435+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/preface-reuse-routing.html": {
       "content_sha": "c6aab8de8f98d76bb09ac4d592874d7cb673cc5a80011bed2b17475a69e4cb59",
@@ -48069,10 +48069,10 @@
       "first_seen": "2026-08-22T01:12:29.404332+00:00",
       "last_changed": "2026-08-22T01:12:29.404332+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:21:46.377396+00:00",
-      "next_check": "2026-09-12T01:21:46.377396+00:00",
+      "last_seen": "2026-09-16T08:12:29.317789+00:00",
+      "next_check": "2026-09-24T08:12:29.317789+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/remove-and-replace-a-battery.html": {
       "content_sha": "710b937aa805d7c643cd379a99c8448e3a47745461f6912c8a7445d7a2c66cc4",
@@ -48082,10 +48082,10 @@
       "first_seen": "2026-08-22T01:12:53.134738+00:00",
       "last_changed": "2026-08-22T01:12:53.134738+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:21:58.846539+00:00",
-      "next_check": "2026-09-12T01:21:58.846539+00:00",
+      "last_seen": "2026-09-16T08:12:37.754489+00:00",
+      "next_check": "2026-09-24T08:12:37.754489+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/configure-4k-keypair.html": {
       "content_sha": "4ec323ca4a44fe5c3a1d57483842a7cfbc31c19b9438e154a0f03e679e147951",
@@ -48095,10 +48095,10 @@
       "first_seen": "2026-08-22T01:19:07.948184+00:00",
       "last_changed": "2026-08-22T01:19:07.948184+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:31:09.065646+00:00",
-      "next_check": "2026-09-16T06:31:09.065646+00:00",
+      "last_seen": "2026-09-16T08:12:16.696683+00:00",
+      "next_check": "2026-10-02T08:12:16.696683+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/configuring-secure-sip-signaling.html": {
       "content_sha": "6f757fe81ad6140c69d909f3654c1ebecf00110382f6eeec024af932b7590746",
@@ -48108,10 +48108,10 @@
       "first_seen": "2026-08-22T01:18:55.750058+00:00",
       "last_changed": "2026-08-22T01:18:55.750058+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:56.858665+00:00",
-      "next_check": "2026-09-16T06:30:56.858665+00:00",
+      "last_seen": "2026-09-16T08:12:03.694977+00:00",
+      "next_check": "2026-10-02T08:12:03.694977+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/configuring-supplementary-call-features.html": {
       "content_sha": "b0ff3a550067695d36b70e5d5a652eab494cd62d0bfb33d47227b619281f5ea4",
@@ -48121,10 +48121,10 @@
       "first_seen": "2026-08-22T01:19:04.237963+00:00",
       "last_changed": "2026-08-22T01:19:04.237963+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:31:05.472133+00:00",
-      "next_check": "2026-09-16T06:31:05.472133+00:00",
+      "last_seen": "2026-09-16T08:12:13.086464+00:00",
+      "next_check": "2026-10-02T08:12:13.086464+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/configuring-voice-ports.html": {
       "content_sha": "9dec390bbd874157909f0b5ab40e1b509e6c2f8de393ecfaa3a6443b31904eef",
@@ -48134,10 +48134,10 @@
       "first_seen": "2026-08-22T01:18:51.399599+00:00",
       "last_changed": "2026-08-22T01:18:51.399599+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:52.711053+00:00",
-      "next_check": "2026-09-16T06:30:52.711053+00:00",
+      "last_seen": "2026-09-16T08:11:58.713632+00:00",
+      "next_check": "2026-10-02T08:11:58.713632+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/configuring-with-cli.html": {
       "content_sha": "c14c780c9551cf7eef6d5190afa7816c5d7e67d8bed196c2212587e520985d8e",
@@ -48147,10 +48147,10 @@
       "first_seen": "2026-08-22T01:13:22.975153+00:00",
       "last_changed": "2026-08-22T01:13:22.975153+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:48.847454+00:00",
-      "next_check": "2026-09-16T06:30:48.847454+00:00",
+      "last_seen": "2026-09-16T08:11:55.137918+00:00",
+      "next_check": "2026-10-02T08:11:55.137918+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/enabling-auto-configuration.html": {
       "content_sha": "93da4f2801dec21035114a23fcaa2899835506e6950632fc3fc738777df6f23e",
@@ -48160,10 +48160,10 @@
       "first_seen": "2026-08-22T01:19:00.074369+00:00",
       "last_changed": "2026-08-22T01:19:00.074369+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:31:00.943345+00:00",
-      "next_check": "2026-09-16T06:31:00.943345+00:00",
+      "last_seen": "2026-09-16T08:12:07.094298+00:00",
+      "next_check": "2026-10-02T08:12:07.094298+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/installing-the-voice-gateway-software.html": {
       "content_sha": "24d51dc3c5e711816e43f0ef6e35fb8e3f643bb429a1e5b586079eb581bd23c4",
@@ -48186,10 +48186,10 @@
       "first_seen": "2026-08-22T01:19:12.307089+00:00",
       "last_changed": "2026-08-22T01:19:12.307089+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:31:13.262548+00:00",
-      "next_check": "2026-09-16T06:31:13.262548+00:00",
+      "last_seen": "2026-09-16T08:12:20.575969+00:00",
+      "next_check": "2026-10-02T08:12:20.575969+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/preface-reuse-routing.html": {
       "content_sha": "933e26430e2692421137c7b2852bf65e276ddae0b4d5688044e5418d634c510a",
@@ -48199,10 +48199,10 @@
       "first_seen": "2026-08-22T01:18:42.983421+00:00",
       "last_changed": "2026-08-22T01:18:42.983421+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:40.258911+00:00",
-      "next_check": "2026-09-16T06:30:40.258911+00:00",
+      "last_seen": "2026-09-16T08:11:45.974192+00:00",
+      "next_check": "2026-10-02T08:11:45.974192+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/vg400-scg/understanding-interface-numbering.html": {
       "content_sha": "be6db130b93c7e95a428db341369250fd376a04e84af9bf9e38e055a767ca461",
@@ -48212,10 +48212,10 @@
       "first_seen": "2026-08-22T01:18:47.098809+00:00",
       "last_changed": "2026-08-22T01:18:47.098809+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:44.333815+00:00",
-      "next_check": "2026-09-16T06:30:44.333815+00:00",
+      "last_seen": "2026-09-16T08:11:50.346122+00:00",
+      "next_check": "2026-10-02T08:11:50.346122+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide.html": {
       "content_sha": "4085c93b89fd9f9e6fda553e78b6a241aa76ccbf98dd4eeeed497193596fe04a",
@@ -48238,10 +48238,10 @@
       "first_seen": "2026-08-22T01:14:05.937484+00:00",
       "last_changed": "2026-08-22T01:14:05.937484+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:23:05.714926+00:00",
-      "next_check": "2026-09-12T01:23:05.714926+00:00",
+      "last_seen": "2026-09-16T08:13:15.812914+00:00",
+      "next_check": "2026-09-24T08:13:15.812914+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-installing-the-cisco-vg410-voice-gateway.html": {
       "content_sha": "22354d298ebede843c14687c3f824112f137af8dba3a2f11e8d8cc390f366cf1",
@@ -48251,10 +48251,10 @@
       "first_seen": "2026-08-22T01:13:48.470269+00:00",
       "last_changed": "2026-08-22T01:13:48.470269+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:53.083613+00:00",
-      "next_check": "2026-09-12T01:22:53.083613+00:00",
+      "last_seen": "2026-09-16T08:13:03.210595+00:00",
+      "next_check": "2026-09-24T08:13:03.210595+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-overview-cisco-vg410.html": {
       "content_sha": "17e5e3d90241392302454cfeea75176b7a07f1e75ac886ae38a83db18126ed2c",
@@ -48277,10 +48277,10 @@
       "first_seen": "2026-08-22T01:13:42.099649+00:00",
       "last_changed": "2026-08-22T01:13:42.099649+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:48.976471+00:00",
-      "next_check": "2026-09-12T01:22:48.976471+00:00",
+      "last_seen": "2026-09-16T08:12:59.289729+00:00",
+      "next_check": "2026-09-24T08:12:59.289729+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-setting-up-the-power-supply.html": {
       "content_sha": "a5932fb26aed4d28c55c06ac872d7c0285528e5f835e559e277132285c6c7151",
@@ -48290,10 +48290,10 @@
       "first_seen": "2026-08-22T01:13:55.191768+00:00",
       "last_changed": "2026-08-22T01:13:55.191768+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:57.273912+00:00",
-      "next_check": "2026-09-12T01:22:57.273912+00:00",
+      "last_seen": "2026-09-16T08:13:07.178013+00:00",
+      "next_check": "2026-09-24T08:13:07.178013+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/preface.html": {
       "content_sha": "149ca1b976021787098b0912283db47668ef0b0d4fd927f8b8580a7e43640e3d",
@@ -48303,10 +48303,10 @@
       "first_seen": "2026-08-22T01:13:35.506312+00:00",
       "last_changed": "2026-08-22T01:13:35.506312+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:22:44.475754+00:00",
-      "next_check": "2026-09-12T01:22:44.475754+00:00",
+      "last_seen": "2026-09-16T08:12:54.706301+00:00",
+      "next_check": "2026-09-24T08:12:54.706301+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/remove-and-replace-the-battery.html": {
       "content_sha": "df9e55603601727eb87275496fa529f97739c3579dad04313fde7bdbbfdb10b2",
@@ -48316,10 +48316,10 @@
       "first_seen": "2026-08-22T01:14:01.155841+00:00",
       "last_changed": "2026-08-22T01:14:01.155841+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:23:01.429270+00:00",
-      "next_check": "2026-09-12T01:23:01.429270+00:00",
+      "last_seen": "2026-09-16T08:13:11.333376+00:00",
+      "next_check": "2026-09-24T08:13:11.333376+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-secure-sip-signaling.html": {
       "content_sha": "51c0b19c2dae9268169dffa77b52547da44cc7f2f52ae82fee576085ee138313",
@@ -48329,10 +48329,10 @@
       "first_seen": "2026-08-22T01:18:18.107742+00:00",
       "last_changed": "2026-08-22T01:18:18.107742+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:15.111382+00:00",
-      "next_check": "2026-09-16T06:30:15.111382+00:00",
+      "last_seen": "2026-09-16T08:11:20.629034+00:00",
+      "next_check": "2026-10-02T08:11:20.629034+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-sip-line-features-manually.html": {
       "content_sha": "e65c6bbc6f1dbd8688dac2fca25dccc7b308bbb2c0dcb96dd085d8c17c8f5247",
@@ -48342,10 +48342,10 @@
       "first_seen": "2026-08-22T01:18:26.373279+00:00",
       "last_changed": "2026-08-22T01:18:26.373279+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:23.543068+00:00",
-      "next_check": "2026-09-16T06:30:23.543068+00:00",
+      "last_seen": "2026-09-16T08:11:29.383971+00:00",
+      "next_check": "2026-10-02T08:11:29.383971+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-supplementary-call-features.html": {
       "content_sha": "7f6fdd584064648ebcfdb07aba400eec9a7ad35988edc36f8e9c944603cb352b",
@@ -48355,10 +48355,10 @@
       "first_seen": "2026-08-22T01:18:31.055426+00:00",
       "last_changed": "2026-08-22T01:18:31.055426+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:28.321469+00:00",
-      "next_check": "2026-09-16T06:30:28.321469+00:00",
+      "last_seen": "2026-09-16T08:11:33.767524+00:00",
+      "next_check": "2026-10-02T08:11:33.767524+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-vg410-software-dsp.html": {
       "content_sha": "8a43c49475111609054e8294124c6fc75aa1826b06324f7c9099c63fb4d04b40",
@@ -48368,10 +48368,10 @@
       "first_seen": "2026-08-22T01:14:14.535862+00:00",
       "last_changed": "2026-08-22T01:14:14.535862+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:10.770032+00:00",
-      "next_check": "2026-09-16T06:30:10.770032+00:00",
+      "last_seen": "2026-09-16T08:11:16.609333+00:00",
+      "next_check": "2026-10-02T08:11:16.609333+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-vg410-voice-gateway.html": {
       "content_sha": "b10c190aa0c150db30141c3afa9c1cd3eb12ffc5ec05cdf0a4682f527afcd756",
@@ -48381,10 +48381,10 @@
       "first_seen": "2026-08-22T01:14:10.018639+00:00",
       "last_changed": "2026-08-22T01:14:10.018639+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:02.106475+00:00",
-      "next_check": "2026-09-16T06:30:02.106475+00:00",
+      "last_seen": "2026-09-16T08:11:08.149826+00:00",
+      "next_check": "2026-10-02T08:11:08.149826+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/configuring-vg410-voice-ports.html": {
       "content_sha": "fe790dd5e4e2399cc10c1569a02eb113b6ba1575a88f38b2b5cfc097621f15f4",
@@ -48394,10 +48394,10 @@
       "first_seen": "2026-08-22T01:18:13.730550+00:00",
       "last_changed": "2026-08-22T01:18:13.730550+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:06.315082+00:00",
-      "next_check": "2026-09-16T06:30:06.315082+00:00",
+      "last_seen": "2026-09-16T08:11:12.538139+00:00",
+      "next_check": "2026-10-02T08:11:12.538139+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/enabling-auto-configuration.html": {
       "content_sha": "57712f3dad20e3de8fc5af1e805ab0267a92c44826b7ad659c654305b5c50c5b",
@@ -48407,10 +48407,10 @@
       "first_seen": "2026-08-22T01:18:22.059569+00:00",
       "last_changed": "2026-08-22T01:18:22.059569+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:19.224905+00:00",
-      "next_check": "2026-09-16T06:30:19.224905+00:00",
+      "last_seen": "2026-09-16T08:11:25.166063+00:00",
+      "next_check": "2026-10-02T08:11:25.166063+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/installing-the-software-using-install-commands.html": {
       "content_sha": "4eb107b1ae7a6df5881900288fd87e63ee70914024f19f0e84fcc34e8a5e3cc1",
@@ -48433,10 +48433,10 @@
       "first_seen": "2026-08-22T01:18:38.704244+00:00",
       "last_changed": "2026-08-22T01:18:38.704244+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:35.934215+00:00",
-      "next_check": "2026-09-16T06:30:35.934215+00:00",
+      "last_seen": "2026-09-16T08:11:41.855620+00:00",
+      "next_check": "2026-10-02T08:11:41.855620+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/performing-a-reset.html": {
       "content_sha": "764a90a2953022c2653acb6e86bda69cc46f6379f95d47cac214fe2196564dd7",
@@ -48446,10 +48446,10 @@
       "first_seen": "2026-08-22T01:18:34.400068+00:00",
       "last_changed": "2026-08-22T01:18:34.400068+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T06:30:31.773397+00:00",
-      "next_check": "2026-09-16T06:30:31.773397+00:00",
+      "last_seen": "2026-09-16T08:11:37.672731+00:00",
+      "next_check": "2026-10-02T08:11:37.672731+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/software-configuration/vg410-software-config-guide/preface-reuse-routing.html": {
       "content_sha": "4816ab2101e6c702e928e704c49fb2f3c0c5cce7f51546606a4fec9023c8ba55",
@@ -48862,10 +48862,10 @@
       "first_seen": "2026-08-22T01:15:05.449147+00:00",
       "last_changed": "2026-08-22T01:15:05.449147+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T05:04:17.698524+00:00",
-      "next_check": "2026-09-16T05:04:17.698524+00:00",
+      "last_seen": "2026-09-16T08:13:27.414527+00:00",
+      "next_check": "2026-10-02T08:13:27.414527+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/m_selinux.html": {
       "content_sha": "6d42d64552867e9bffd1b195ec7dd60f84447eaf141672a91992e2b41c4bc1cf",
@@ -48875,10 +48875,10 @@
       "first_seen": "2026-08-22T01:15:17.857587+00:00",
       "last_changed": "2026-08-22T01:15:17.857587+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T07:13:10.845878+00:00",
-      "next_check": "2026-09-16T07:13:10.845878+00:00",
+      "last_seen": "2026-09-16T08:13:40.247057+00:00",
+      "next_check": "2026-10-02T08:13:40.247057+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/preface-reuse-routing.html": {
       "content_sha": "72e708ecd4516e8c5b848db38165bd67071640440c0ec56f464be5b5eb7af3de",
@@ -48888,10 +48888,10 @@
       "first_seen": "2026-08-22T01:14:56.983338+00:00",
       "last_changed": "2026-08-22T01:14:56.983338+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T07:13:02.509360+00:00",
-      "next_check": "2026-09-16T07:13:02.509360+00:00",
+      "last_seen": "2026-09-16T08:13:22.980381+00:00",
+      "next_check": "2026-10-02T08:13:22.980381+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_00.html": {
       "content_sha": "cb6d9a0b33ac56d966bec6b51374aa2522d365f9b45a4dc54bf1437a81f7ef1c",
@@ -48914,10 +48914,10 @@
       "first_seen": "2026-08-22T01:15:10.000427+00:00",
       "last_changed": "2026-08-22T01:15:10.000427+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T07:13:06.919698+00:00",
-      "next_check": "2026-09-16T07:13:06.919698+00:00",
+      "last_seen": "2026-09-16T08:13:31.633151+00:00",
+      "next_check": "2026-10-02T08:13:31.633151+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_010.html": {
       "content_sha": "015e7d55f0ab02fe0cfeb8abbe16d976dca0cb6d44da18f223a9349414fd2703",
@@ -48927,10 +48927,10 @@
       "first_seen": "2026-08-22T01:15:13.946010+00:00",
       "last_changed": "2026-08-22T01:15:13.946010+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T03:12:51.850430+00:00",
-      "next_check": "2026-09-16T03:12:51.850430+00:00",
+      "last_seen": "2026-09-16T08:13:35.789430+00:00",
+      "next_check": "2026-10-02T08:13:35.789430+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/11x/116/collbcvd.html": {
       "content_sha": null,
@@ -200826,10 +200826,10 @@
       "first_seen": "2026-08-22T01:16:25.346551+00:00",
       "last_changed": "2026-08-22T01:16:25.346551+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:04.209879+00:00",
-      "next_check": "2026-09-12T01:24:04.209879+00:00",
+      "last_seen": "2026-09-16T08:13:47.984242+00:00",
+      "next_check": "2026-09-24T08:13:47.984242+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hwa.html": {
       "content_sha": "13fa5eac73dfb3a5c3e04256d9526fcec576dfbbe979ba391f4f51d707e3a350",
@@ -200839,10 +200839,10 @@
       "first_seen": "2026-08-22T01:16:29.120921+00:00",
       "last_changed": "2026-08-22T01:16:29.120921+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:08.533173+00:00",
-      "next_check": "2026-09-12T01:24:08.533173+00:00",
+      "last_seen": "2026-09-16T08:13:52.055691+00:00",
+      "next_check": "2026-09-24T08:13:52.055691+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hwi.html": {
       "content_sha": "d1e0a2d4de16dfcd6e63be89971382c955a605ad280b8c5b67bed298e504a62c",
@@ -200852,10 +200852,10 @@
       "first_seen": "2026-08-22T01:16:41.645116+00:00",
       "last_changed": "2026-08-22T01:16:41.645116+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:21.341486+00:00",
-      "next_check": "2026-09-12T01:24:21.341486+00:00",
+      "last_seen": "2026-09-16T08:14:04.786466+00:00",
+      "next_check": "2026-09-24T08:14:04.786466+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hwo.html": {
       "content_sha": "19a34d60606a01e11dc3aea397d2d188ff2e84cc7276c90e7f3a9f543062c110",
@@ -200865,10 +200865,10 @@
       "first_seen": "2026-08-22T01:16:33.567224+00:00",
       "last_changed": "2026-08-22T01:16:33.567224+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:13.087392+00:00",
-      "next_check": "2026-09-12T01:24:13.087392+00:00",
+      "last_seen": "2026-09-16T08:13:56.842946+00:00",
+      "next_check": "2026-09-24T08:13:56.842946+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hwp.html": {
       "content_sha": "57e6509747c784423ac903c0be3902186ff5ec2a537762dd53a7caa8e9fbf01d",
@@ -200878,10 +200878,10 @@
       "first_seen": "2026-08-22T01:16:37.548798+00:00",
       "last_changed": "2026-08-22T01:16:37.548798+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:17.104371+00:00",
-      "next_check": "2026-09-12T01:24:17.104371+00:00",
+      "last_seen": "2026-09-16T08:14:00.987353+00:00",
+      "next_check": "2026-09-24T08:14:00.987353+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hws.html": {
       "content_sha": "3413e070043a20e1428d3608054f980ee1a2330c75a10b41116ee3a7b3362833",
@@ -200891,10 +200891,10 @@
       "first_seen": "2026-08-22T01:16:45.906658+00:00",
       "last_changed": "2026-08-22T01:16:45.906658+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:25.657236+00:00",
-      "next_check": "2026-09-12T01:24:25.657236+00:00",
+      "last_seen": "2026-09-16T08:14:08.912906+00:00",
+      "next_check": "2026-09-24T08:14:08.912906+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hww.html": {
       "content_sha": "017868c3e88cf280d8b6de0175a66ab0e877b631d4474cca4678651b018d2f19",
@@ -200904,10 +200904,10 @@
       "first_seen": "2026-08-22T01:16:50.429104+00:00",
       "last_changed": "2026-08-22T01:16:50.429104+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:24:30.201509+00:00",
-      "next_check": "2026-09-12T01:24:30.201509+00:00",
+      "last_seen": "2026-09-16T08:14:13.845424+00:00",
+      "next_check": "2026-09-24T08:14:13.845424+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0_1/english/release/notes/vg248rn.html": {
       "content_sha": "4b053e989fe556bac1f945565e7f2cff9c41f89dee428705191deb79cb37f380",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-16T08:04:40.111056+00:00"
+  "updated_at": "2026-09-16T08:25:48.516602+00:00"
 }
