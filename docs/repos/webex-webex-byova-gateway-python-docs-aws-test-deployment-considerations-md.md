@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/A
 repo: webex/webex-byova-gateway-python
 ruta: docs/AWS_TEST_DEPLOYMENT_CONSIDERATIONS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:42.024538+00:00
+retrieved_at: 2026-09-17T20:23:15.862539+00:00
 ---
 
 # webex-byova-gateway-python — docs/AWS_TEST_DEPLOYMENT_CONSIDERATIONS.md
@@ -130,6 +130,11 @@ The gateway implements `grpc.health.v1.Health/Check`. Configure the target group
 Because a successful implemented gRPC health method returns status code `0`, configure the
 target-group health matcher to accept `0`. The ALB default gRPC matcher is commonly used for
 an unimplemented method and should not be assumed correct for this gateway.
+
+The exact unary `/grpc.health.v1.Health/Check` method bypasses application JWT validation
+because an ALB health probe cannot attach datasource authorization metadata. The exemption
+does not include the BYOVA service or health `List` and `Watch` methods. Keep port 50051
+private to the ALB security group so the unauthenticated probe does not create a public API.
 
 Treat target health as routing evidence only. It does not verify JWT claims, list the intended
 virtual agent, call Lex, or exercise a bidirectional caller stream.

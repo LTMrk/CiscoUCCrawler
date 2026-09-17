@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/README
 repo: webex/webex-byova-gateway-python
 ruta: README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-31T15:15:11.805523+00:00
+retrieved_at: 2026-09-17T20:23:15.635904+00:00
 ---
 
 # webex-byova-gateway-python — README.md
@@ -136,7 +136,8 @@ jwt_validation:
 
 Never use disabled authentication for a Webex-connected or production endpoint. For an
 end-to-end test, configure the exact registered datasource URL and keep JWT enforcement
-enabled.
+enabled. The standard gRPC `Health/Check` probe is the only unauthenticated exception; BYOVA
+methods remain protected.
 
 ### Configure Automatic Datasource Management
 

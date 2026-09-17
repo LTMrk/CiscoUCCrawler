@@ -1,5 +1,10 @@
 {
  "added": [],
- "modified": [],
+ "modified": [
+  "webex/webex-byova-gateway-python/AGENTS.MD",
+  "webex/webex-byova-gateway-python/README.md",
+  "webex/webex-byova-gateway-python/docs/AWS_TEST_DEPLOYMENT_CONSIDERATIONS.md",
+  "webex/webex-byova-gateway-python/docs/JWT_AUTHENTICATION.md"
+ ],
  "removed": []
 }

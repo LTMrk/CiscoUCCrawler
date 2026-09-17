@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/J
 repo: webex/webex-byova-gateway-python
 ruta: docs/JWT_AUTHENTICATION.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:42.716881+00:00
+retrieved_at: 2026-09-17T20:23:16.110266+00:00
 ---
 
 # webex-byova-gateway-python — docs/JWT_AUTHENTICATION.md
@@ -34,8 +34,12 @@ When validation is enabled, the gateway:
 - Requires the datasource URL and schema claims to match the configured values.
 - Caches identity-broker public keys for the configured duration.
 
-With enforcement enabled, missing or invalid credentials are rejected before the RPC reaches
-the gateway service.
+The standard unary `/grpc.health.v1.Health/Check` method is the only unauthenticated
+exception. This permits load balancer health probes that cannot attach datasource JWT
+metadata. All BYOVA methods and the health `List` and `Watch` methods remain protected.
+
+For every other method, enforcement rejects missing or invalid credentials before the RPC
+reaches the gateway service.
 
 ## Configuration
 

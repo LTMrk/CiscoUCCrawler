@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/AGENTS
 repo: webex/webex-byova-gateway-python
 ruta: AGENTS.MD
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:39.353385+00:00
+retrieved_at: 2026-09-17T20:23:15.430629+00:00
 ---
 
 # webex-byova-gateway-python — AGENTS.MD
@@ -118,6 +118,8 @@ webex-byova-gateway-python/
   delivered without waiting for another caller request frame
 - Routes requests to the appropriate virtual agent via `VirtualAgentRouter`
 - Tracks connections and manages session lifecycle
+- Keeps only `grpc.health.v1.Health/Check` outside JWT enforcement for private ALB health
+  probes; all BYOVA methods remain authenticated
 
 **Core Methods:**
 - `ListVirtualAgents`: Returns available virtual agents

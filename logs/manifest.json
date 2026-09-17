@@ -165671,10 +165671,10 @@
       "first_seen": "2026-08-16T14:55:12.337789+00:00",
       "last_changed": "2026-09-14T17:36:46.968494+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-15T19:52:32.678110+00:00",
-      "next_check": "2026-09-17T19:52:32.678110+00:00",
+      "last_seen": "2026-09-17T20:25:39.503866+00:00",
+      "next_check": "2026-09-21T20:25:39.503866+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/rcct_b_contact-center-ai-gadgets.html": {
       "content_sha": "9a9eb4f1ca68077d42ac104161a7146e22d3bf4056f8bfe1dcf3e8cf61bad596",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-17T20:20:08.168045+00:00"
+  "updated_at": "2026-09-17T20:31:53.315492+00:00"
 }
