@@ -1,7 +1,9 @@
 {
-  "run_at": "2026-09-17T05:32:28.972030+00:00",
+  "run_at": "2026-09-17T05:53:48.450249+00:00",
   "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-cloud-calling.json"
+  ]
 }

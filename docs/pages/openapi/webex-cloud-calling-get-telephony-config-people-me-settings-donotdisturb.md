@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.745109+00:00
+retrieved_at: 2026-09-17T05:53:48.186605+00:00
 ---
 
 # GET /telephony/config/people/me/settings/doNotDisturb

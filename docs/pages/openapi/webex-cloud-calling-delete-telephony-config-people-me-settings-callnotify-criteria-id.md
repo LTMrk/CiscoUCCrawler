@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.752172+00:00
+retrieved_at: 2026-09-17T05:53:48.192724+00:00
 ---
 
 # DELETE /telephony/config/people/me/settings/callNotify/criteria/{id}

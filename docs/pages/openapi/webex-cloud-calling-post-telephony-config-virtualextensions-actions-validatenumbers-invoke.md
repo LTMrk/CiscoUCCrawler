@@ -10,7 +10,7 @@ tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.903715+00:00
+retrieved_at: 2026-09-17T05:53:48.322758+00:00
 ---
 
 # POST /telephony/config/virtualExtensions/actions/validateNumbers/invoke

@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.754542+00:00
+retrieved_at: 2026-09-17T05:53:48.194689+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/selectiveForward/criteria/{id}

@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.876722+00:00
+retrieved_at: 2026-09-17T05:53:48.299275+00:00
 ---
 
 # GET /telephony/config/queues/agents/{id}
@@ -36,12 +36,12 @@ Retrieving a call queue agent's details require a full or read-only administrato
 - `id` [path] (string) (**requerido**): Retrieve call queue agents with this identifier.
 - `orgId` [query] (string): Retrieve call queue agents from this organization.
 - `hasCxEssentials` [query] (boolean): Must be set to `true` to view the details of an agent with Customer Assist license. This can otherwise be ommited or set to `false`.
-- `max` [query] (number) (**requerido**): Limit the number of objects returned to this maximum count.
-- `start` [query] (number) (**requerido**): Start at the zero-based offset in the list of matching objects.
+- `max` [query] (number): Limit the number of objects returned to this maximum count.
+- `start` [query] (number): Start at the zero-based offset in the list of matching objects.
 
 ## Ejemplo de invocación
 ```bash
-curl -X GET '/telephony/config/queues/agents/<id>?max=<max>&start=<start>' \
+curl -X GET '/telephony/config/queues/agents/<id>' \
   -H 'Authorization: Bearer <TOKEN>'
 ```
 

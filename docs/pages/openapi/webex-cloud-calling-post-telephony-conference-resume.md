@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.819322+00:00
+retrieved_at: 2026-09-17T05:53:48.248145+00:00
 ---
 
 # POST /telephony/conference/resume

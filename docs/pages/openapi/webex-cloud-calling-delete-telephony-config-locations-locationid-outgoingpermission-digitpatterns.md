@@ -10,7 +10,7 @@ tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.919563+00:00
+retrieved_at: 2026-09-17T05:53:48.336541+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns

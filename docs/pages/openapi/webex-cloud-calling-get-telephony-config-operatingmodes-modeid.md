@@ -10,7 +10,7 @@ tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.896250+00:00
+retrieved_at: 2026-09-17T05:53:48.316200+00:00
 ---
 
 # GET /telephony/config/operatingModes/{modeId}

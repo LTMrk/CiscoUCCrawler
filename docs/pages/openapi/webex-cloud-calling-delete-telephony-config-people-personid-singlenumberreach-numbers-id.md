@@ -10,7 +10,7 @@ tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:15:48.901802+00:00
+retrieved_at: 2026-09-17T05:53:48.321133+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/singleNumberReach/numbers/{id}
