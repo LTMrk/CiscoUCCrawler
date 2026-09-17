@@ -1,16 +1,7 @@
 {
-  "run_at": "2026-09-17T19:59:29.952301+00:00",
-  "added": [
-    "Webex Contact Center: GET /v1/usage-reports/resource-types",
-    "Webex Contact Center: POST /v1/usage-reports",
-    "Webex Contact Center: GET /v1/usage-reports",
-    "Webex Contact Center: GET /v1/usage-reports/{reportId}",
-    "Webex Contact Center: DELETE /v1/usage-reports/{reportId}",
-    "Webex Contact Center: GET /v1/usage-reports/{fileId}/download"
-  ],
+  "run_at": "2026-09-17T20:11:20.148828+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-contact-center.json"
-  ]
+  "specs_cambiados": []
 }
