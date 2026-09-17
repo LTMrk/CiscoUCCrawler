@@ -35933,10 +35933,10 @@
       "first_seen": "2026-08-21T13:12:40.968530+00:00",
       "last_changed": "2026-09-14T16:04:28.842084+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-15T17:38:09.248164+00:00",
-      "next_check": "2026-09-17T17:38:09.248164+00:00",
+      "last_seen": "2026-09-17T18:35:37.647277+00:00",
+      "next_check": "2026-09-21T18:35:37.647277+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/213479-configure-xmpp-resiliency.html": {
       "content_sha": "7cec145da994bc3a4056651686657f74830c9a0be092f576908c7bd0f403c951",
@@ -37958,10 +37958,10 @@
       "first_seen": "2026-08-16T19:23:16.786213+00:00",
       "last_changed": "2026-09-14T16:05:21.681858+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-15T17:39:00.079505+00:00",
-      "next_check": "2026-09-17T17:39:00.079505+00:00",
+      "last_seen": "2026-09-17T18:35:50.151953+00:00",
+      "next_check": "2026-09-21T18:35:50.151953+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/213398-configure-cvp-and-ipivr-in-a-dual-indepe.html": {
       "content_sha": "de9d1d21a7d3afed95fab8932d0d68392080487ec73166fb2509b0b29b2ec28a",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-17T18:26:58.890318+00:00"
+  "updated_at": "2026-09-17T18:38:21.160847+00:00"
 }
