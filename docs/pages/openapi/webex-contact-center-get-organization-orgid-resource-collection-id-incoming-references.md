@@ -10,7 +10,7 @@ tags: Resource Collection
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.287594+00:00
+retrieved_at: 2026-09-17T19:59:29.871092+00:00
 ---
 
 # GET /organization/{orgid}/resource-collection/{id}/incoming-references

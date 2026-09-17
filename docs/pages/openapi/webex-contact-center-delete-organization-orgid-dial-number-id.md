@@ -10,7 +10,7 @@ tags: Dial Number
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.269014+00:00
+retrieved_at: 2026-09-17T19:59:29.859147+00:00
 ---
 
 # DELETE /organization/{orgid}/dial-number/{id}

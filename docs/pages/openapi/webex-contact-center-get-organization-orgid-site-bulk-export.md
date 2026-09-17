@@ -10,7 +10,7 @@ tags: Site
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.288815+00:00
+retrieved_at: 2026-09-17T19:59:29.871880+00:00
 ---
 
 # GET /organization/{orgid}/site/bulk-export

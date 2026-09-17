@@ -1310,10 +1310,10 @@
     "sha": "356a68050f16187c6aaae286215372cad4a575a9"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-15T15:08:16.396491+00:00",
+    "actualizado": "2026-09-17T19:59:29.949867+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "f10304c6d92dc5b6271fc6b97d920e1f00395a3a686ad6cb2e1ad64caf93c660",
+    "content_sha": "0864e55df450e33e284f94993505510f236443839c06b201f70019ec41490a9a",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1412,6 +1412,7 @@
       "DELETE /v1/dialer/campaign/{campaignId}": "webex-contact-center-delete-v1-dialer-campaign-campaignid",
       "DELETE /v1/monitor/{requestId}": "webex-contact-center-delete-v1-monitor-requestid",
       "DELETE /v1/subscriptions/{id}": "webex-contact-center-delete-v1-subscriptions-id",
+      "DELETE /v1/usage-reports/{reportId}": "webex-contact-center-delete-v1-usage-reports-reportid",
       "DELETE /v1/{orgId}/functions/{id}": "webex-contact-center-delete-v1-orgid-functions-id",
       "DELETE /v2/subscriptions/{id}": "webex-contact-center-delete-v2-subscriptions-id",
       "DELETE /v3/campaign-management/dncList/{dncListName}/phoneNumber/{phoneNumber}": "webex-contact-center-delete-v3-campaign-management-dnclist-dnclistname-phonenumber-phonenumber",
@@ -1599,6 +1600,10 @@
       "GET /v1/subscriptions": "webex-contact-center-get-v1-subscriptions",
       "GET /v1/subscriptions/{id}": "webex-contact-center-get-v1-subscriptions-id",
       "GET /v1/tasks": "webex-contact-center-get-v1-tasks",
+      "GET /v1/usage-reports": "webex-contact-center-get-v1-usage-reports",
+      "GET /v1/usage-reports/resource-types": "webex-contact-center-get-v1-usage-reports-resource-types",
+      "GET /v1/usage-reports/{fileId}/download": "webex-contact-center-get-v1-usage-reports-fileid-download",
+      "GET /v1/usage-reports/{reportId}": "webex-contact-center-get-v1-usage-reports-reportid",
       "GET /v1/{orgId}/functions": "webex-contact-center-get-v1-orgid-functions",
       "GET /v1/{orgId}/functions/{id}": "webex-contact-center-get-v1-orgid-functions-id",
       "GET /v2/event-types": "webex-contact-center-get-v2-event-types",
@@ -1772,6 +1777,7 @@
       "POST /v1/tasks/{taskId}/transfer": "webex-contact-center-post-v1-tasks-taskid-transfer",
       "POST /v1/tasks/{taskId}/unhold": "webex-contact-center-post-v1-tasks-taskid-unhold",
       "POST /v1/tasks/{taskId}/wrapup": "webex-contact-center-post-v1-tasks-taskid-wrapup",
+      "POST /v1/usage-reports": "webex-contact-center-post-v1-usage-reports",
       "POST /v1/{orgId}/functions": "webex-contact-center-post-v1-orgid-functions",
       "POST /v1/{orgId}/functions/{id}:export": "webex-contact-center-post-v1-orgid-functions-id-export",
       "POST /v1/{orgId}/functions/{id}:lock": "webex-contact-center-post-v1-orgid-functions-id-lock",
@@ -1838,7 +1844,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "dd5cef347e227cb645f23942ab9fb67c5fd0038a"
+    "sha": "0ad5e581917e9e976537ee268aa9b07f9970e765"
   },
   "webex-device.json": {
     "actualizado": "2026-09-15T08:04:07.902199+00:00",

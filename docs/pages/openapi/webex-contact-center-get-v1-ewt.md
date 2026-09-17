@@ -10,7 +10,7 @@ tags: Estimated Wait Time
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.357501+00:00
+retrieved_at: 2026-09-17T19:59:29.923849+00:00
 ---
 
 # GET /v1/ewt

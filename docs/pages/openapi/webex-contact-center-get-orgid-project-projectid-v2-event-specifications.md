@@ -10,7 +10,7 @@ tags: Events
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.370902+00:00
+retrieved_at: 2026-09-17T19:59:29.932869+00:00
 ---
 
 # GET /{orgId}/project/{projectId}/v2/event-specifications

@@ -10,7 +10,7 @@ tags: Work Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.354776+00:00
+retrieved_at: 2026-09-17T19:59:29.922141+00:00
 ---
 
 # POST /organization/{orgid}/work-type/purge-inactive-entities

@@ -10,7 +10,7 @@ tags: Desktop Layout
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T15:08:16.260284+00:00
+retrieved_at: 2026-09-17T19:59:29.853371+00:00
 ---
 
 # POST /organization/{orgid}/desktop-layout/purge-inactive-entities
