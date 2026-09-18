@@ -1,14 +1,13 @@
 {
-  "run_at": "2026-09-18T20:15:43.194080+00:00",
+  "run_at": "2026-09-18T20:27:28.527790+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 1,
+  "unchanged_count": 6,
   "redirected": [
-    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCup67940 -> https://id.cisco.com/oauth2/default/v1/authorize",
-    "https://video.cisco.com/detail/video/5828832832001/resolving-port-conflict-issues-for-mra-phone-registrations -> https://video.cisco.com"
+    "https://cisco.com -> https://www.cisco.com"
   ],
   "semillas_encoladas": 20
 }

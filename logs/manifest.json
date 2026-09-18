@@ -23907,8 +23907,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:10:04.504377+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-14T20:59:58.865009+00:00",
-      "next_check": "2026-09-15T20:59:58.865009+00:00",
+      "last_seen": "2026-09-18T20:21:51.161206+00:00",
+      "next_check": "2026-09-19T20:21:51.161206+00:00",
       "redirect_to": "https://www.cisco.com",
       "status": "redirect",
       "unchanged_runs": 0
@@ -118561,10 +118561,10 @@
       "first_seen": "2026-08-17T01:07:18.713113+00:00",
       "last_changed": "2026-09-01T19:53:14.747631+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:57:54.523241+00:00",
-      "next_check": "2026-09-18T18:57:54.523241+00:00",
+      "last_seen": "2026-09-18T20:22:58.149141+00:00",
+      "next_check": "2026-09-26T20:22:58.149141+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-4/pa2d_b_7800-rn-1441.html": {
       "content_sha": "2362b069365af9135734783cec1fa047feb6d6cc13067986f70fb7d56f955ea9",
@@ -121291,10 +121291,10 @@
       "first_seen": "2026-08-17T01:11:34.175653+00:00",
       "last_changed": "2026-09-01T19:55:58.183809+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T19:05:14.403221+00:00",
-      "next_check": "2026-09-18T19:05:14.403221+00:00",
+      "last_seen": "2026-09-18T20:23:56.456330+00:00",
+      "next_check": "2026-09-26T20:23:56.456330+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR3/p881_b_8800-rn-1441sr3.html": {
       "content_sha": "dc0e0c670f3820376286ef0b096cea48d3b47e0e5e48a0570e7ceff6436085b2",
@@ -121304,10 +121304,10 @@
       "first_seen": "2026-08-17T01:11:29.954330+00:00",
       "last_changed": "2026-09-01T20:04:45.675990+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T19:05:10.319118+00:00",
-      "next_check": "2026-09-18T19:05:10.319118+00:00",
+      "last_seen": "2026-09-18T20:23:51.860757+00:00",
+      "next_check": "2026-09-26T20:23:51.860757+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4-1SR4/p881_b_8800-rn-1441sr4.html": {
       "content_sha": "baedfc85cccc4af8147bc582699bf2f06323ceec0cb9dae8c04a75ea8edc637a",
@@ -121317,10 +121317,10 @@
       "first_seen": "2026-09-01T20:04:41.507319+00:00",
       "last_changed": "2026-09-01T20:04:41.507319+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T19:05:01.414041+00:00",
-      "next_check": "2026-09-18T19:05:01.414041+00:00",
+      "last_seen": "2026-09-18T20:23:42.426103+00:00",
+      "next_check": "2026-09-26T20:23:42.426103+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4/cs88_b_8832-rn-1441.html": {
       "content_sha": "788e5c5c37014f760620fa0ea11bce89be0d4e54ccf565925af2390ccc3dcfdf",
@@ -122162,10 +122162,10 @@
       "first_seen": "2026-09-01T20:06:35.251154+00:00",
       "last_changed": "2026-09-01T20:06:35.251154+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T19:05:05.696785+00:00",
-      "next_check": "2026-09-18T19:05:05.696785+00:00",
+      "last_seen": "2026-09-18T20:23:47.510110+00:00",
+      "next_check": "2026-09-26T20:23:47.510110+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.html": {
       "content_sha": "3f73103a49dc1efaa7ce78ca029194887c8cf7888f9a55111c098717faa143a4",
@@ -128893,10 +128893,10 @@
       "first_seen": "2026-08-25T16:53:40.438381+00:00",
       "last_changed": "2026-08-25T16:53:40.438381+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T19:07:33.829263+00:00",
-      "next_check": "2026-09-18T19:07:33.829263+00:00",
+      "last_seen": "2026-09-18T20:24:24.973961+00:00",
+      "next_check": "2026-09-26T20:24:24.973961+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/mpp-to-enterprise/tpcc_b_7800-8800-miration-guide-mpp-to/tpcc_b_7800-8800-miration-guide-mpp-to_appendix_010.html": {
       "content_sha": "27d67fe816422d22f7edf5cbf88b4d9f8e7fe8e414bc0c27df3db6e9ed25713f",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T20:15:43.008268+00:00"
+  "updated_at": "2026-09-18T20:27:28.345086+00:00"
 }
