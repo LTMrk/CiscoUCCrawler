@@ -39555,10 +39555,10 @@
       "first_seen": "2026-08-16T15:56:03.593712+00:00",
       "last_changed": "2026-09-01T17:31:46.403733+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T10:40:23.623283+00:00",
-      "next_check": "2026-09-18T10:40:23.623283+00:00",
+      "last_seen": "2026-09-18T11:23:22.979593+00:00",
+      "next_check": "2026-09-26T11:23:22.979593+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ip-manager-assistant-cisco-unified-callmanager-40/200159-Configure-and-Troubleshoot-Cisco-IP-Mana.html": {
       "content_sha": "4487c6b36d8c359a14d3e6cdecccda88f9e2cefde35ca6d08546545622131d37",
@@ -40814,10 +40814,10 @@
       "first_seen": "2026-08-16T15:55:42.972799+00:00",
       "last_changed": "2026-09-01T17:31:38.116120+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T10:40:15.268109+00:00",
-      "next_check": "2026-09-18T10:40:15.268109+00:00",
+      "last_seen": "2026-09-18T11:23:18.940885+00:00",
+      "next_check": "2026-09-26T11:23:18.940885+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.html": {
       "content_sha": "74aa1aa2dd1769048f9ec53a216403ca73e05fb945f2d5299436e3bb3359c692",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T11:13:28.372224+00:00"
+  "updated_at": "2026-09-18T11:25:28.100165+00:00"
 }
