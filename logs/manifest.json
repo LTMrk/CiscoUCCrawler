@@ -32338,8 +32338,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T04:53:28.216689+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-17T12:56:25.238422+00:00",
-      "next_check": "2026-09-18T12:56:25.238422+00:00",
+      "last_seen": "2026-09-18T13:47:15.237790+00:00",
+      "next_check": "2026-09-19T13:47:15.237790+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T13:41:19.920852+00:00"
+  "updated_at": "2026-09-18T13:52:32.590887+00:00"
 }
