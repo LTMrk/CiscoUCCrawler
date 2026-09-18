@@ -41956,10 +41956,10 @@
       "first_seen": "2026-08-16T18:01:21.234130+00:00",
       "last_changed": "2026-09-01T15:33:18.561020+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T17:00:52.030197+00:00",
-      "next_check": "2026-09-18T17:00:52.030197+00:00",
+      "last_seen": "2026-09-18T17:53:29.013617+00:00",
+      "next_check": "2026-09-26T17:53:29.013617+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213534-installation-of-phone-locale-on-ip-phone.html": {
       "content_sha": "0d2feea6cb30cee11dc9819a6c13d2da5ba36c1b234c4aaaf9fdbe469f53f2bd",
@@ -107800,10 +107800,10 @@
       "first_seen": "2026-08-16T17:52:09.676024+00:00",
       "last_changed": "2026-09-01T15:33:48.673902+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:50:15.936640+00:00",
-      "next_check": "2026-09-18T16:50:15.936640+00:00",
+      "last_seen": "2026-09-18T17:53:15.923054+00:00",
+      "next_check": "2026-09-26T17:53:15.923054+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/15/SU3/cucm_b_release-notes-for-cucm-imp-15su3.html": {
       "content_sha": "0091f7bc475120c27ecd5ac59a142877c0c5ac2994401227ff6f2f2c9ad1d23b",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T17:45:49.709760+00:00"
+  "updated_at": "2026-09-18T17:57:03.239290+00:00"
 }
