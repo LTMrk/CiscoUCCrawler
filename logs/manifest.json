@@ -40386,10 +40386,10 @@
       "first_seen": "2026-08-16T22:47:48.346189+00:00",
       "last_changed": "2026-09-01T20:45:40.706652+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:32:37.018150+00:00",
-      "next_check": "2026-09-18T16:32:37.018150+00:00",
+      "last_seen": "2026-09-18T17:23:51.214022+00:00",
+      "next_check": "2026-09-26T17:23:51.214022+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118884-config-vcs-00.html": {
       "content_sha": "e00c0cd7d108f4b9fc0a2461d0eb2fc25fcaeac7f8b9d7c67f55b0adaebbce07",
@@ -46764,10 +46764,10 @@
       "first_seen": "2026-08-16T15:44:39.756020+00:00",
       "last_changed": "2026-09-01T22:13:00.513782+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:35:48.959251+00:00",
-      "next_check": "2026-09-18T16:35:48.959251+00:00",
+      "last_seen": "2026-09-18T17:24:08.346397+00:00",
+      "next_check": "2026-09-26T17:24:08.346397+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/voi-cube-enum-enhance-kaplan.html": {
       "content_sha": "e803e1e03b29548a8aac3289df1b670844006e00468359f481ba55cef48ee688",
@@ -169077,10 +169077,10 @@
       "first_seen": "2026-08-16T19:56:11.847909+00:00",
       "last_changed": "2026-08-25T00:10:12.893433+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:15:34.276853+00:00",
-      "next_check": "2026-09-18T16:15:34.276853+00:00",
+      "last_seen": "2026-09-18T17:23:12.680599+00:00",
+      "next_check": "2026-09-26T17:23:12.680599+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/rcct_m_migration_vmware_to_nutanix_chapter.html": {
       "content_sha": "e6959146563481f531c78e53b45beffe49b2e2b10dab96fa9ecc79b34b8ebff4",
@@ -169103,10 +169103,10 @@
       "first_seen": "2026-08-16T19:57:04.669667+00:00",
       "last_changed": "2026-08-25T00:10:24.843015+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:16:03.083971+00:00",
-      "next_check": "2026-09-18T16:16:03.083971+00:00",
+      "last_seen": "2026-09-18T17:23:17.169986+00:00",
+      "next_check": "2026-09-26T17:23:17.169986+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/testing.html": {
       "content_sha": "6eb59c75a76f8a84e4de4e1bbe7a6121cdade1a5d804b576522d662944e1b510",
@@ -169974,10 +169974,10 @@
       "first_seen": "2026-08-16T20:09:26.274564+00:00",
       "last_changed": "2026-08-25T00:15:56.758483+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:16:43.394844+00:00",
-      "next_check": "2026-09-18T16:16:43.394844+00:00",
+      "last_seen": "2026-09-18T17:23:21.897697+00:00",
+      "next_check": "2026-09-26T17:23:21.897697+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_post-call-survey.html": {
       "content_sha": "22c47a049a533a9e48ca03dcebd428eef1443febc2156fd009d12d44bd6327cd",
@@ -177017,10 +177017,10 @@
       "first_seen": "2026-08-16T19:26:58.918330+00:00",
       "last_changed": "2026-09-15T14:42:27.492439+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T16:36:19.500114+00:00",
-      "next_check": "2026-09-18T16:36:19.500114+00:00",
+      "last_seen": "2026-09-18T17:21:47.437670+00:00",
+      "next_check": "2026-09-22T17:21:47.437670+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce-m-custom-sql-server-port.html": {
       "content_sha": "4cfe1bb2d913fdb98aace928da717fb50dd15f8ca0d509f697a80e555102744e",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T17:12:28.164663+00:00"
+  "updated_at": "2026-09-18T17:24:08.416410+00:00"
 }
