@@ -110932,10 +110932,10 @@
       "first_seen": "2026-08-17T00:29:29.083127+00:00",
       "last_changed": "2026-09-15T21:49:29.217612+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T22:39:23.263467+00:00",
-      "next_check": "2026-09-18T22:39:23.263467+00:00",
+      "last_seen": "2026-09-18T23:59:27.951331+00:00",
+      "next_check": "2026-09-22T23:59:27.951331+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_certificates.html": {
       "content_sha": "aeaa19db2c8246e43797f8536dd520a60d72bfe594faf0ff84cdf3152b0db2d6",
@@ -111010,10 +111010,10 @@
       "first_seen": "2026-08-17T00:29:24.674446+00:00",
       "last_changed": "2026-09-15T21:49:24.850425+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T22:39:18.961822+00:00",
-      "next_check": "2026-09-18T22:39:18.961822+00:00",
+      "last_seen": "2026-09-18T23:59:23.752647+00:00",
+      "next_check": "2026-09-22T23:59:23.752647+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_fips-mode-setup_su2_reorg.html": {
       "content_sha": "d9da95d9a6c48cc71e94b8cb0aea62470ac03421d58adc3128bf680f0f35d878",
@@ -111062,10 +111062,10 @@
       "first_seen": "2026-08-17T00:29:10.901292+00:00",
       "last_changed": "2026-09-15T21:49:16.073229+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T22:39:14.157819+00:00",
-      "next_check": "2026-09-18T22:39:14.157819+00:00",
+      "last_seen": "2026-09-18T23:59:18.355745+00:00",
+      "next_check": "2026-09-22T23:59:18.355745+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_os-hardening.html": {
       "content_sha": "2f614c12723db0c8b7735784863bdb4c0a9dcfb8064a13ed043fced1e5c902ca",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-18T23:53:00.462664+00:00"
+  "updated_at": "2026-09-19T00:04:27.853859+00:00"
 }
