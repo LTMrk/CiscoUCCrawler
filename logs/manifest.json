@@ -110568,10 +110568,10 @@
       "first_seen": "2026-08-17T00:27:39.005544+00:00",
       "last_changed": "2026-09-15T22:46:58.452430+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T00:07:32.367939+00:00",
-      "next_check": "2026-09-19T00:07:32.367939+00:00",
+      "last_seen": "2026-09-19T02:04:30.794657+00:00",
+      "next_check": "2026-09-23T02:04:30.794657+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_certificates.html": {
       "content_sha": "e15987be347520c4634367ff6db5c781b53d69627f927c6e6709d48035cceac7",
@@ -110581,10 +110581,10 @@
       "first_seen": "2026-08-17T00:27:34.786350+00:00",
       "last_changed": "2026-09-15T22:46:54.012321+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T00:07:28.645525+00:00",
-      "next_check": "2026-09-19T00:07:28.645525+00:00",
+      "last_seen": "2026-09-19T02:04:26.793259+00:00",
+      "next_check": "2026-09-23T02:04:26.793259+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_cipher-management_reorg.html": {
       "content_sha": "e55ad83081a3eced4f9464d8f2c49c811e45b0c7c1bf37e7e0965802c7be25e5",
@@ -110646,10 +110646,10 @@
       "first_seen": "2026-08-17T00:27:29.691193+00:00",
       "last_changed": "2026-09-15T22:46:49.150551+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T00:07:24.198092+00:00",
-      "next_check": "2026-09-19T00:07:24.198092+00:00",
+      "last_seen": "2026-09-19T02:04:22.206156+00:00",
+      "next_check": "2026-09-23T02:04:22.206156+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_fips-mode-setup_su2_reorg.html": {
       "content_sha": "7cf5a84b7e28fa49576d6841cc338849fe3cfa32269cd477be3a6af706f565ba",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-19T01:57:08.981295+00:00"
+  "updated_at": "2026-09-19T02:08:29.855196+00:00"
 }
