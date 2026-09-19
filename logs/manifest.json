@@ -24039,8 +24039,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T09:44:40.212443+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T03:55:30.310785+00:00",
-      "next_check": "2026-09-17T03:55:30.310785+00:00",
+      "last_seen": "2026-09-19T05:14:24.038461+00:00",
+      "next_check": "2026-09-20T05:14:24.038461+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -24063,8 +24063,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T11:13:06.177988+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T03:55:39.086046+00:00",
-      "next_check": "2026-09-17T03:55:39.086046+00:00",
+      "last_seen": "2026-09-19T05:14:28.238957+00:00",
+      "next_check": "2026-09-20T05:14:28.238957+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -35093,8 +35093,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:32:55.761856+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T03:55:51.405207+00:00",
-      "next_check": "2026-09-17T03:55:51.405207+00:00",
+      "last_seen": "2026-09-19T05:14:40.569596+00:00",
+      "next_check": "2026-09-20T05:14:40.569596+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-19T04:57:36.222778+00:00"
+  "updated_at": "2026-09-19T05:19:01.739042+00:00"
 }
