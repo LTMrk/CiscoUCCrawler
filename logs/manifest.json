@@ -168075,10 +168075,10 @@
       "first_seen": "2026-08-16T14:33:15.349374+00:00",
       "last_changed": "2026-09-08T05:33:29.955691+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T18:42:03.885811+00:00",
-      "next_check": "2026-09-20T18:42:03.885811+00:00",
+      "last_seen": "2026-09-20T19:55:39.165513+00:00",
+      "next_check": "2026-09-28T19:55:39.165513+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_configuration-guide-for-cisco-unified-icm-enterprise-release/ucce_m_1501_unified-cce-user-integration-for-unified-intelligence-center.html": {
       "content_sha": "2a5d80b167e71d7b1264d60ca496ac09f4b34062bc0b6ac6679bed07ca3aa1dd",
@@ -202711,5 +202711,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T19:45:44.473850+00:00"
+  "updated_at": "2026-09-20T19:57:21.618127+00:00"
 }
