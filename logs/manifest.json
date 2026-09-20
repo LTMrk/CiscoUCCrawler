@@ -42034,10 +42034,10 @@
       "first_seen": "2026-08-17T00:50:39.266974+00:00",
       "last_changed": "2026-09-07T19:43:12.083454+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T18:00:18.392661+00:00",
-      "next_check": "2026-09-20T18:00:18.392661+00:00",
+      "last_seen": "2026-09-20T18:44:36.672917+00:00",
+      "next_check": "2026-09-28T18:44:36.672917+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214152-cmr-enhancement-in-cucm-12-5.html": {
       "content_sha": "df06de062bbcd4c5e35c73dc4aebfda7166b57039843f297213b1086460bade7",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T18:37:42.895377+00:00"
+  "updated_at": "2026-09-20T18:49:09.972650+00:00"
 }
