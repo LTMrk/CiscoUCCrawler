@@ -9957,8 +9957,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T23:32:11.421494+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T15:17:13.892307+00:00",
-      "next_check": "2026-09-17T15:17:13.892307+00:00",
+      "last_seen": "2026-09-20T15:57:18.598582+00:00",
+      "next_check": "2026-09-21T15:57:18.598582+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -17763,8 +17763,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T23:32:19.308494+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T15:17:21.930214+00:00",
-      "next_check": "2026-09-17T15:17:21.930214+00:00",
+      "last_seen": "2026-09-20T15:57:30.304211+00:00",
+      "next_check": "2026-09-21T15:57:30.304211+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -18423,8 +18423,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T23:32:15.261744+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T15:17:17.797791+00:00",
-      "next_check": "2026-09-17T15:17:17.797791+00:00",
+      "last_seen": "2026-09-20T15:57:22.590500+00:00",
+      "next_check": "2026-09-21T15:57:22.590500+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -18973,8 +18973,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-07T23:32:07.084640+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T15:17:10.365649+00:00",
-      "next_check": "2026-09-17T15:17:10.365649+00:00",
+      "last_seen": "2026-09-20T15:57:15.066211+00:00",
+      "next_check": "2026-09-21T15:57:15.066211+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T15:46:52.859343+00:00"
+  "updated_at": "2026-09-20T15:58:00.981894+00:00"
 }
