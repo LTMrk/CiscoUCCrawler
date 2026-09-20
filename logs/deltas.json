@@ -1,13 +1,14 @@
 {
-  "run_at": "2026-09-20T20:41:30.104983+00:00",
+  "run_at": "2026-09-20T20:53:28.433492+00:00",
   "modo": "incremental",
-  "added": [],
+  "added": [
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-15-cucm-b-install-guide-cucm-imp-15-html-a4c9021f27",
+    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-html-59ee54d4a5"
+  ],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 1,
-  "redirected": [
-    "https://apps.cisco.com/Commerce -> https://id.cisco.com/oauth2/default/v1/authorize"
-  ],
+  "redirected": [],
   "semillas_encoladas": 20
 }

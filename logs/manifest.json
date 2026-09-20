@@ -102931,6 +102931,19 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/15/cucm_b_install-guide-cucm-imp-15.html": {
+      "content_sha": "c2bcd296bb76d993becf75712a9fa6037a190e4a5bbd21c7dbe38399c2c2369f",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-15-cucm-b-install-guide-cucm-imp-15-html-a4c9021f27",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-20T20:50:49.025937+00:00",
+      "last_changed": "2026-09-20T20:50:49.025937+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-20T20:50:49.025937+00:00",
+      "next_check": "2026-09-21T20:50:49.025937+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/15/cucm_b_install-guide-cucm-imp-15/cucm_b_install-guide-cucm-imp-14_chapter_0100.html": {
       "content_sha": "51b96a4c98a2302bbb3e9e2259c85d8616a30321ff0bfff786da5dbed3c4264e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-15-cucm-b-install-guide-cucm-imp-15-cucm-b-install-guide-cucm-i-2f3c0f3571",
@@ -107137,10 +107150,10 @@
       "first_seen": "2026-08-16T16:07:38.828508+00:00",
       "last_changed": "2026-09-08T06:10:37.861794+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T19:39:39.532081+00:00",
-      "next_check": "2026-09-20T19:39:39.532081+00:00",
+      "last_seen": "2026-09-20T20:52:25.306933+00:00",
+      "next_check": "2026-09-28T20:52:25.306933+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/push_notifications/cucm_b_push-notifications-deployment-guide/cucm_b_push-notifications-deployment-guide_chapter_011.html": {
       "content_sha": "932668dc6d111676ca8fe8d08bde0d1062a80d72fdd3069ba8d3b3e3d049226f",
@@ -114949,6 +114962,19 @@
       "next_check": "2026-08-26T11:44:50.543271+00:00",
       "redirect_to": "https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html",
       "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15.html": {
+      "content_sha": "72e7c982dbdcc9a71f97478036f57848564ab2094a011d166f8565aff7470b21",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-html-59ee54d4a5",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-20T20:50:53.170834+00:00",
+      "last_changed": "2026-09-20T20:50:53.170834+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-20T20:50:53.170834+00:00",
+      "next_check": "2026-09-21T20:50:53.170834+00:00",
+      "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/15/cucm_b_upgrade-and-migration-guide_15/cucm_b_upgrade-migration-guide-1251su2_chapter_01000.html": {
@@ -202711,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T20:41:29.837297+00:00"
+  "updated_at": "2026-09-20T20:53:28.211018+00:00"
 }
