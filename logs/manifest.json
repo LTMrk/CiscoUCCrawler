@@ -40788,10 +40788,10 @@
       "first_seen": "2026-08-16T15:55:51.056377+00:00",
       "last_changed": "2026-09-08T02:03:55.499848+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T11:32:59.096584+00:00",
-      "next_check": "2026-09-20T11:32:59.096584+00:00",
+      "last_seen": "2026-09-20T12:31:06.049728+00:00",
+      "next_check": "2026-09-28T12:31:06.049728+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/214634-voice-router-internal-call-disconnect-ca.html": {
       "content_sha": "0b26e26fee045d705fe0af37d1778fabf0f6f7db64043315a6db8ca2261246fe",
@@ -202699,5 +202699,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T12:23:57.411541+00:00"
+  "updated_at": "2026-09-20T12:35:56.800914+00:00"
 }
