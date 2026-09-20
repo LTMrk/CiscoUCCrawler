@@ -1,11 +1,13 @@
 {
-  "run_at": "2026-09-20T20:20:16.271516+00:00",
+  "run_at": "2026-09-20T20:41:30.104983+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 0,
-  "redirected": [],
+  "unchanged_count": 1,
+  "redirected": [
+    "https://apps.cisco.com/Commerce -> https://id.cisco.com/oauth2/default/v1/authorize"
+  ],
   "semillas_encoladas": 20
 }

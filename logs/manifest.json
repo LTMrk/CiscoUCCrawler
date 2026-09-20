@@ -1563,8 +1563,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T17:08:34.486462+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-16T07:35:58.122214+00:00",
-      "next_check": "2026-09-17T07:35:58.122214+00:00",
+      "last_seen": "2026-09-20T20:26:21.304810+00:00",
+      "next_check": "2026-09-21T20:26:21.304810+00:00",
       "redirect_to": "https://id.cisco.com/oauth2/default/v1/authorize",
       "status": "redirect",
       "unchanged_runs": 0
@@ -39166,10 +39166,10 @@
       "first_seen": "2026-08-16T14:22:06.484454+00:00",
       "last_changed": "2026-09-19T19:47:16.244196+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-19T19:47:16.244196+00:00",
-      "next_check": "2026-09-20T19:47:16.244196+00:00",
+      "last_seen": "2026-09-20T20:27:07.267141+00:00",
+      "next_check": "2026-09-22T20:27:07.267141+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html": {
       "content_sha": "5adfa0de9f3379471e8f4a4c6012c0087ba26da871260838fcf7711d130f5772",
@@ -202711,5 +202711,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T20:20:16.112524+00:00"
+  "updated_at": "2026-09-20T20:41:29.837297+00:00"
 }
