@@ -124680,10 +124680,10 @@
       "first_seen": "2026-08-17T01:02:59.369255+00:00",
       "last_changed": "2026-09-08T14:30:06.955276+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T22:47:18.081150+00:00",
-      "next_check": "2026-09-20T22:47:18.081150+00:00",
+      "last_seen": "2026-09-21T00:06:04.885899+00:00",
+      "next_check": "2026-09-29T00:06:04.885899+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_01.html": {
       "content_sha": "77152554979aa3691f553c35650338e204c9149f780b3bed3f4a715ba8dc3c2f",
@@ -124732,10 +124732,10 @@
       "first_seen": "2026-08-17T01:05:16.212622+00:00",
       "last_changed": "2026-09-08T14:30:12.571451+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-16T22:47:23.921751+00:00",
-      "next_check": "2026-09-20T22:47:23.921751+00:00",
+      "last_seen": "2026-09-21T00:06:10.805501+00:00",
+      "next_check": "2026-09-29T00:06:10.805501+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_011.html": {
       "content_sha": "87a886cfbaa79af76dfb3408d665e7dea7fc66c3cc9adf58a978d918b7f1d86d",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-20T23:57:54.725459+00:00"
+  "updated_at": "2026-09-21T00:09:49.815784+00:00"
 }
