@@ -10,7 +10,7 @@ tags: Mode Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.199718+00:00
+retrieved_at: 2026-09-21T08:43:26.955157+00:00
 ---
 
 # POST /telephony/config/people/me/settings/modeManagement/features/actions/switchMode/invoke

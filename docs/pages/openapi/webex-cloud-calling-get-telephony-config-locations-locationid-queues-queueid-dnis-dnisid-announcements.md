@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.301626+00:00
+retrieved_at: 2026-09-21T08:43:27.051372+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/dnis/{dnisId}/announcements

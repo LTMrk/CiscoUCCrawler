@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.164524+00:00
+retrieved_at: 2026-09-21T08:43:26.922417+00:00
 ---
 
 # POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke

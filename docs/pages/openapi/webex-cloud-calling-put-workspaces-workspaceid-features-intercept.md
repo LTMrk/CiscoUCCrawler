@@ -10,7 +10,7 @@ tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.416147+00:00
+retrieved_at: 2026-09-21T08:43:27.152690+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/intercept

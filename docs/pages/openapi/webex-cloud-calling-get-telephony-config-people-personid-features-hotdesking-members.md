@@ -10,7 +10,7 @@ tags: Features: Hot Desking Members, User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.394700+00:00
+retrieved_at: 2026-09-21T08:43:27.133453+00:00
 ---
 
 # GET /telephony/config/people/{personId}/features/hotDesking/members

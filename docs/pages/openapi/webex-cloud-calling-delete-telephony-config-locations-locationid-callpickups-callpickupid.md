@@ -10,7 +10,7 @@ tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.288747+00:00
+retrieved_at: 2026-09-21T08:43:27.039462+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/callPickups/{callPickupId}

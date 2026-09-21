@@ -10,7 +10,7 @@ tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.267586+00:00
+retrieved_at: 2026-09-21T08:43:27.020130+00:00
 ---
 
 # GET /devices

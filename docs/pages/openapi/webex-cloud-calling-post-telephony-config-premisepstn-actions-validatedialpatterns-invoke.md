@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.163127+00:00
+retrieved_at: 2026-09-21T08:43:26.921173+00:00
 ---
 
 # POST /telephony/config/premisePstn/actions/validateDialPatterns/invoke

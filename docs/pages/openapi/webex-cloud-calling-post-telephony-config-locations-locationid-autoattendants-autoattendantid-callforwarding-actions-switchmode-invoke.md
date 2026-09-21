@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.284646+00:00
+retrieved_at: 2026-09-21T08:43:27.035788+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/actions/switchMode/invoke

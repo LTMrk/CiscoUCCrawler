@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.389099+00:00
+retrieved_at: 2026-09-21T08:43:27.128936+00:00
 ---
 
 # POST /telephony/config/people/{personId}/executive/callFiltering/criteria

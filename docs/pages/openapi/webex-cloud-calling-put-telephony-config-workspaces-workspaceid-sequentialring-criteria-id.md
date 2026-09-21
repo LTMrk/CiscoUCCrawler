@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.423931+00:00
+retrieved_at: 2026-09-21T08:43:27.159799+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/sequentialRing/criteria/{id}

@@ -10,7 +10,7 @@ tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.244541+00:00
+retrieved_at: 2026-09-21T08:43:26.998555+00:00
 ---
 
 # PUT /telephony/config/voicemail/settings
@@ -37,6 +37,7 @@ Updating an organization's voicemail settings requires a full administrator auth
 - `numberOfDaysForMessageExpiry` (number) (**requerido**): Number of days after which messages expire.
 - `strictDeletionEnabled` (boolean): Set to `true` to delete all read and unread voicemail messages based on the time frame you set. Set to `false` to keep all the unread voicemail messages.
 - `voiceMessageForwardingEnabled` (boolean): Set to `true` to allow people to configure the email forwarding of voicemails.
+- `voicePortalAccessVmDepositEnabled` (boolean): This field allows the callers to access the voice portal by pressing the * key during the voicemail deposit or after sending a message.
 
 ### Ejemplo — petición
 ```json
@@ -44,7 +45,8 @@ Updating an organization's voicemail settings requires a full administrator auth
   "messageExpiryEnabled": false,
   "numberOfDaysForMessageExpiry": 10,
   "strictDeletionEnabled": false,
-  "voiceMessageForwardingEnabled": true
+  "voiceMessageForwardingEnabled": true,
+  "voicePortalAccessVmDepositEnabled": true
 }
 ```
 

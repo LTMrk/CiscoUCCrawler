@@ -10,7 +10,7 @@ tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.321798+00:00
+retrieved_at: 2026-09-21T08:43:27.070123+00:00
 ---
 
 # GET /telephony/config/virtualExtensions/{extensionId}

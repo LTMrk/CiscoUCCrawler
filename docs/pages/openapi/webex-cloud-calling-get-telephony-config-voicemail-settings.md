@@ -10,7 +10,7 @@ tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.244342+00:00
+retrieved_at: 2026-09-21T08:43:26.998363+00:00
 ---
 
 # GET /telephony/config/voicemail/settings
@@ -44,6 +44,7 @@ curl -X GET '/telephony/config/voicemail/settings' \
 - `numberOfDaysForMessageExpiry` (number) (**requerido**): Number of days after which messages expire.
 - `strictDeletionEnabled` (boolean) (**requerido**): When enabled, all read and unread voicemail messages will be deleted based on the time frame you set. When disabled, all unread voicemail messages will be kept.
 - `voiceMessageForwardingEnabled` (boolean) (**requerido**): When enabled, people in the organization can configure the email forwarding of voicemails.
+- `voicePortalAccessVmDepositEnabled` (boolean): This field allows the callers to access the voice portal by pressing the * key during the voicemail deposit or after sending a message.
 
 ### Ejemplo — respuesta 200
 ```json
@@ -51,7 +52,8 @@ curl -X GET '/telephony/config/voicemail/settings' \
   "messageExpiryEnabled": false,
   "numberOfDaysForMessageExpiry": 10,
   "strictDeletionEnabled": false,
-  "voiceMessageForwardingEnabled": true
+  "voiceMessageForwardingEnabled": true,
+  "voicePortalAccessVmDepositEnabled": true
 }
 ```
 

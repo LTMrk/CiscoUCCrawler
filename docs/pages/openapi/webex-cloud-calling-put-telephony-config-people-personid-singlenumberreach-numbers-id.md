@@ -10,7 +10,7 @@ tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.320986+00:00
+retrieved_at: 2026-09-21T08:43:27.069388+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/singleNumberReach/numbers/{id}

@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.188171+00:00
+retrieved_at: 2026-09-21T08:43:26.944462+00:00
 ---
 
 # GET /telephony/config/people/me/settings/priorityAlert

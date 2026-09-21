@@ -10,7 +10,7 @@ tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.268644+00:00
+retrieved_at: 2026-09-21T08:43:27.021074+00:00
 ---
 
 # PATCH /devices/{deviceId}

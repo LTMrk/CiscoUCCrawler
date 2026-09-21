@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.147139+00:00
+retrieved_at: 2026-09-21T08:43:26.906436+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword/actions/generate/invoke

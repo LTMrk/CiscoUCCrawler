@@ -10,7 +10,7 @@ tags: Beta Device Call Settings With Dynamic Device Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.264899+00:00
+retrieved_at: 2026-09-21T08:43:27.017662+00:00
 ---
 
 # GET /telephony/config/devices/dynamicSettings/validationSchema

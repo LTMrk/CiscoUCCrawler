@@ -10,7 +10,7 @@ tags: Features:  Hunt Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.315404+00:00
+retrieved_at: 2026-09-21T08:43:27.064182+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/huntGroups/callForwarding/availableNumbers

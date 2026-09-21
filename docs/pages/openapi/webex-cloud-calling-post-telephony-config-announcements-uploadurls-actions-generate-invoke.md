@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.277982+00:00
+retrieved_at: 2026-09-21T08:43:27.029542+00:00
 ---
 
 # POST /telephony/config/announcements/uploadUrls/actions/generate/invoke

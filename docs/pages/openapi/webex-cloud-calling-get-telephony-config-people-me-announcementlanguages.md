@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.187805+00:00
+retrieved_at: 2026-09-21T08:43:26.944095+00:00
 ---
 
 # GET /telephony/config/people/me/announcementLanguages

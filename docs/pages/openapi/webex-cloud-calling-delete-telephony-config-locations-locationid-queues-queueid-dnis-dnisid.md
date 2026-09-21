@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.300889+00:00
+retrieved_at: 2026-09-21T08:43:27.050692+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/queues/{queueId}/dnis/{dnisId}

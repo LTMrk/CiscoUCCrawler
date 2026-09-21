@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.263856+00:00
+retrieved_at: 2026-09-21T08:43:27.016675+00:00
 ---
 
 # GET /telephony/config/devices/backgroundImages

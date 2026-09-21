@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T05:53:48.419740+00:00
+retrieved_at: 2026-09-21T08:43:27.155947+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/emergencyCallbackNumber/availableNumbers
