@@ -102935,7 +102935,7 @@
       "content_sha": "c2bcd296bb76d993becf75712a9fa6037a190e4a5bbd21c7dbe38399c2c2369f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-15-cucm-b-install-guide-cucm-imp-15-html-a4c9021f27",
       "etag": null,
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-09-20T20:50:49.025937+00:00",
       "last_changed": "2026-09-20T20:50:49.025937+00:00",
       "last_modified": null,
@@ -114968,7 +114968,7 @@
       "content_sha": "72e7c982dbdcc9a71f97478036f57848564ab2094a011d166f8565aff7470b21",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-html-59ee54d4a5",
       "etag": null,
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-09-20T20:50:53.170834+00:00",
       "last_changed": "2026-09-20T20:50:53.170834+00:00",
       "last_modified": null,
@@ -115445,7 +115445,7 @@
       "content_sha": "f0b7cf9a16f3dddc662cdcfed4400b19fbbdcc5a57e015c7cecfd200b58fad41",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-cucis-api-cucis-api-guide-html-c07162bc3e",
       "etag": null,
-      "fail_count": 0,
+      "fail_count": 1,
       "first_seen": "2026-09-14T18:55:30.702239+00:00",
       "last_changed": "2026-09-14T18:55:30.702239+00:00",
       "last_modified": null,
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T21:29:43.866598+00:00"
+  "updated_at": "2026-09-21T21:41:50.675228+00:00"
 }
