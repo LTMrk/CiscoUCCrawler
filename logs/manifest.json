@@ -35465,10 +35465,10 @@
       "first_seen": "2026-08-17T01:09:17.389007+00:00",
       "last_changed": "2026-09-14T19:04:09.169253+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T21:49:10.724149+00:00",
-      "next_check": "2026-09-21T21:49:10.724149+00:00",
+      "last_seen": "2026-09-21T23:10:34.371832+00:00",
+      "next_check": "2026-09-29T23:10:34.371832+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html": {
       "content_sha": "fb2ad4ffa148e5a0a87fd2f35dda96febc907a312e7ab0b231be207b1e79fc8c",
@@ -102935,7 +102935,7 @@
       "content_sha": "c2bcd296bb76d993becf75712a9fa6037a190e4a5bbd21c7dbe38399c2c2369f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-15-cucm-b-install-guide-cucm-imp-15-html-a4c9021f27",
       "etag": null,
-      "fail_count": 2,
+      "fail_count": 3,
       "first_seen": "2026-09-20T20:50:49.025937+00:00",
       "last_changed": "2026-09-20T20:50:49.025937+00:00",
       "last_modified": null,
@@ -114968,7 +114968,7 @@
       "content_sha": "72e7c982dbdcc9a71f97478036f57848564ab2094a011d166f8565aff7470b21",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-15-cucm-b-upgrade-and-migration-guide-15-html-59ee54d4a5",
       "etag": null,
-      "fail_count": 2,
+      "fail_count": 3,
       "first_seen": "2026-09-20T20:50:53.170834+00:00",
       "last_changed": "2026-09-20T20:50:53.170834+00:00",
       "last_modified": null,
@@ -115445,7 +115445,7 @@
       "content_sha": "f0b7cf9a16f3dddc662cdcfed4400b19fbbdcc5a57e015c7cecfd200b58fad41",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-cucis-api-cucis-api-guide-html-c07162bc3e",
       "etag": null,
-      "fail_count": 2,
+      "fail_count": 3,
       "first_seen": "2026-09-14T18:55:30.702239+00:00",
       "last_changed": "2026-09-14T18:55:30.702239+00:00",
       "last_modified": null,
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T23:02:22.622389+00:00"
+  "updated_at": "2026-09-21T23:14:25.098065+00:00"
 }
