@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/ai-docs/SERVICE_STATE.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:06:46.946465+00:00
+retrieved_at: 2026-09-21T01:52:50.540305+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/ai-docs/SERVICE_STATE.md
@@ -24,6 +24,7 @@ Descripcion del repositorio: JavaScript SDK for Webex
 | `task:*` | publish | Task/TaskManager → application | `src/services/task/types.ts` |
 | `CC_EVENTS` | consume | WCC WebSocket → Core/ContactCenter/Task/AqmReqs | `src/services/config/types.ts` |
 | realtime transcript/suggestion | consume/publish | RTD WebSocket → owning Task | `src/services/task/TaskManager.ts` |
+| `Wellness_Break_Handler` | consume/publish | Primary data-notification WebSocket → ContactCenter → `CC_AGENT_EVENTS.WELLNESS_BREAK` | `src/cc.ts`, `src/types.ts` |
 
 ## Data Stores
 
@@ -56,6 +57,9 @@ Descripcion del repositorio: JavaScript SDK for Webex
 | `allowAutomatedRelogin` | silent relogin after recovery | config-defined | ContactCenter | replacement recovery contract exists |
 | `webRtcEnabled` / login option | browser calling path | remote profile | Config/WCC | remote contract removed |
 | task UI/config flags | task controls and operations | profile/config-defined | Task/Config | owning behavior removed |
+| `Profile.isWellnessBreakEnabled` | wellness event/action APIs and system-code access | false unless backend AI enablement, reminders, and positive license quantity are all present | Config/ContactCenter | wellness contract removed |
+
+The backend-delivered `agentWellbeing.enable` value is the supported server rollout decision. The SDK combines it with `wellnessBreakReminders === 'ENABLED'` and `aiAssistantQuantity > 0`; it does not evaluate the Desktop Split flag or define a new rollout response field.
 
 ## Maintenance
 

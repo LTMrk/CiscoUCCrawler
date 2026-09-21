@@ -1,5 +1,12 @@
 {
  "added": [],
- "modified": [],
+ "modified": [
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/CONTRACTS.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/SERVICE_STATE.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/contact-center-spec.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/src/metrics/ai-docs/metrics-spec.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/src/services/ai-docs/services-spec.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/src/services/config/ai-docs/config-spec.md"
+ ],
  "removed": []
 }
