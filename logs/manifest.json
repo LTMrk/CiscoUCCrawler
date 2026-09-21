@@ -200081,10 +200081,10 @@
       "first_seen": "2026-08-16T18:21:37.286075+00:00",
       "last_changed": "2026-09-14T13:17:42.141153+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T15:19:03.424978+00:00",
-      "next_check": "2026-09-21T15:19:03.424978+00:00",
+      "last_seen": "2026-09-21T16:28:38.184734+00:00",
+      "next_check": "2026-09-29T16:28:38.184734+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/IPv6/vtgs_b_ipv6-deployment-guide-for-cisco/vtgs_b_ipv6-deployment-guide-for-cisco_chapter_010.html": {
       "content_sha": "e9d81ffcaac0059b0e1ffa15f7fd9b7ca2005bba5c8af4f13e5918ab356c790d",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T16:18:28.587790+00:00"
+  "updated_at": "2026-09-21T16:30:40.061509+00:00"
 }
