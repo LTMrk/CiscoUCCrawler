@@ -110958,10 +110958,10 @@
       "first_seen": "2026-08-16T20:53:01.902593+00:00",
       "last_changed": "2026-09-14T14:18:23.856814+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T16:27:15.793906+00:00",
-      "next_check": "2026-09-21T16:27:15.793906+00:00",
+      "last_seen": "2026-09-21T17:16:42.167414+00:00",
+      "next_check": "2026-09-29T17:16:42.167414+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_cipher-management_r_15.html": {
       "content_sha": "078132bf2c0fa4786d4dae14bce446a8c9bd757c2df7b3ae056fb0f0735500cd",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T17:05:36.905561+00:00"
+  "updated_at": "2026-09-21T17:27:21.646610+00:00"
 }
