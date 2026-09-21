@@ -39335,10 +39335,10 @@
       "first_seen": "2026-08-16T15:43:52.974113+00:00",
       "last_changed": "2026-09-14T18:11:32.088060+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T21:01:10.851694+00:00",
-      "next_check": "2026-09-21T21:01:10.851694+00:00",
+      "last_seen": "2026-09-21T21:51:57.319711+00:00",
+      "next_check": "2026-09-29T21:51:57.319711+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/220339-verify-expressways-files-with-vi-editor.html": {
       "content_sha": "ac910955d460497ef1039633a38f704524fe237e7d5178003a748e4234dda2a0",
@@ -99212,10 +99212,10 @@
       "first_seen": "2026-08-16T15:57:39.013060+00:00",
       "last_changed": "2026-09-14T18:23:28.262776+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T21:01:14.891343+00:00",
-      "next_check": "2026-09-21T21:01:14.891343+00:00",
+      "last_seen": "2026-09-21T21:52:35.244196+00:00",
+      "next_check": "2026-09-29T21:52:35.244196+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15/cup0_b_config-and-admin-guide-1401_chapter_01010.html": {
       "content_sha": "e2395acbfdfbcf8424b3686e7405b5c1abde62ab30877b84d4dc57dc71221110",
@@ -168341,17 +168341,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/general_antivirus_guidelines.html": {
-      "content_sha": "df99e9f62dc5f92b5f8481f4244e1b5676116160b0f2744383b482e5b99e565a",
+      "content_sha": "30ac1c7171ce2d5af4a4e6baf8c46e92068b166594875bdbd2d1ca5f1bc6d776",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-c4b20ec332",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T14:36:10.351644+00:00",
-      "last_changed": "2026-09-14T17:23:59.891402+00:00",
+      "last_changed": "2026-09-21T21:49:59.059891+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T20:49:36.266764+00:00",
-      "next_check": "2026-09-21T20:49:36.266764+00:00",
+      "last_seen": "2026-09-21T21:49:59.059891+00:00",
+      "next_check": "2026-09-22T21:49:59.059891+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm-contact-center-enterprise-release-15-0/ipsec_and_nat_support.html": {
       "content_sha": "c9d4788abfdd3b22968526363e0887910734380f1b2fce7c3393f4871f4ece5c",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T21:41:50.675228+00:00"
+  "updated_at": "2026-09-21T21:53:50.654955+00:00"
 }
