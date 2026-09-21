@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-117777-config-ucce-00-html-a9105cbd5c
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00.html
-retrieved_at: 2026-09-14T16:16:16.870834+00:00
+retrieved_at: 2026-09-21T19:57:38.953981+00:00
 ---
 
 UCCE Integration with CM Configuration Example
@@ -83,6 +83,16 @@ Call pickup and call park are not supported with UCCE/UCCX monitored extensions
 17-Jun-2014
 
 Initial Release
+
+### Contributed by Cisco Engineers
+
+William Ryan Bennett
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Contact Center Enterprise
 
 | Revision | Publish Date | Comments |
 |---|---|---|
