@@ -37517,10 +37517,10 @@
       "first_seen": "2026-08-16T15:05:29.339948+00:00",
       "last_changed": "2026-09-14T16:12:37.367512+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T17:18:30.235894+00:00",
-      "next_check": "2026-09-21T17:18:30.235894+00:00",
+      "last_seen": "2026-09-21T18:36:20.885921+00:00",
+      "next_check": "2026-09-29T18:36:20.885921+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express-1101/200423-SHA-256-Support-for-UCCX.html": {
       "content_sha": "804ba0f1ea31d91090e3a99527b4fb64caa88fcb8b41e9c2217b1b8c97cccb1d",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T18:24:50.926742+00:00"
+  "updated_at": "2026-09-21T18:36:37.724752+00:00"
 }
