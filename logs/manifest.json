@@ -43524,10 +43524,10 @@
       "first_seen": "2026-08-21T07:15:49.809424+00:00",
       "last_changed": "2026-09-07T14:44:14.022261+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T11:16:40.928849+00:00",
-      "next_check": "2026-09-21T11:16:40.928849+00:00",
+      "last_seen": "2026-09-21T12:15:57.549884+00:00",
+      "next_check": "2026-09-29T12:15:57.549884+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.html": {
       "content_sha": "79b13f1789cc41310fa74fb6c1b33ea7e53c07b4f3157d9e2e537fa8edc2b753",
@@ -43654,10 +43654,10 @@
       "first_seen": "2026-08-21T07:16:27.611751+00:00",
       "last_changed": "2026-09-07T14:44:51.300734+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-17T11:16:45.149788+00:00",
-      "next_check": "2026-09-21T11:16:45.149788+00:00",
+      "last_seen": "2026-09-21T12:16:01.532776+00:00",
+      "next_check": "2026-09-29T12:16:01.532776+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222133-fix-488-sip-error-for-fax-t-38-reinvite.html": {
       "content_sha": "d4a4285bca7793ab806f55543a101c4a4f9ad636fe126b5001f9fe5c081ff658",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-21T11:55:20.231424+00:00"
+  "updated_at": "2026-09-21T12:16:43.060330+00:00"
 }
