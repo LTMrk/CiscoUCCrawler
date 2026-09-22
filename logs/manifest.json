@@ -41904,10 +41904,10 @@
       "first_seen": "2026-08-21T13:57:05.986110+00:00",
       "last_changed": "2026-09-14T17:00:18.387000+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T03:06:52.626835+00:00",
-      "next_check": "2026-09-22T03:06:52.626835+00:00",
+      "last_seen": "2026-09-22T04:20:52.882393+00:00",
+      "next_check": "2026-09-30T04:20:52.882393+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213407-migrate-phones-between-secure-clusters.html": {
       "content_sha": "9fd038279288e7d00e3b3be5b291a9f6b6840b7b63b08d28f982d196ddf760d1",
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-22T04:10:51.004702+00:00"
+  "updated_at": "2026-09-22T04:22:26.125223+00:00"
 }
