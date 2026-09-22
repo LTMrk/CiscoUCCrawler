@@ -115445,12 +115445,12 @@
       "content_sha": "f0b7cf9a16f3dddc662cdcfed4400b19fbbdcc5a57e015c7cecfd200b58fad41",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-cucis-api-cucis-api-guide-html-c07162bc3e",
       "etag": null,
-      "fail_count": 4,
+      "fail_count": 5,
       "first_seen": "2026-09-14T18:55:30.702239+00:00",
       "last_changed": "2026-09-14T18:55:30.702239+00:00",
       "last_modified": null,
       "last_seen": "2026-09-17T21:02:51.472358+00:00",
-      "next_check": "2026-09-21T21:02:51.472358+00:00",
+      "next_check": "2026-10-06T00:42:11.120690+00:00",
       "status": "active",
       "unchanged_runs": 2
     },
@@ -202737,5 +202737,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-22T00:34:47.376750+00:00"
+  "updated_at": "2026-09-22T00:46:03.844052+00:00"
 }
