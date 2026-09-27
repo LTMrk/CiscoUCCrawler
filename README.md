@@ -30,7 +30,10 @@ conocimiento**:
 5. Empaqueta el resultado en el formato que Copilot puede consumir de
    verdad: por defecto, un único ZIP con todo el conocimiento vigente, listo
    para subir a OneDrive/SharePoint y compartir por enlace en un chat
-   normal, sin necesitar licencia de agentes.
+   normal, sin necesitar licencia de agentes. Con `--fuente` se puede
+   entregar solo una parte: `devnet` produce un ZIP con la referencia de API
+   de developer.cisco.com y nada más, para quien quiera consultar AXL,
+   Finesse o CUPI sin las guías de administración alrededor.
 6. Publica un inventario (`RESUMEN-CONOCIMIENTO.md`) que dice, en cada
    ejecución, qué cubre el corpus y qué falta.
 
@@ -116,12 +119,14 @@ src/
   crawler_ai.py       orquestador del pipeline
   fetch_policy.py      rate limiting, backoff, redirecciones, respeto de robots.txt
   sanitizer.py          poda de ruido del HTML (3 capas: estructural, heurística, estadística)
+                         y rescate del texto de las figuras: alt y pie de imagen
   state_store.py        manifiesto de estado, detección de cambios, tombstones
   openapi_ingest.py      ingesta de specs OpenAPI de Webex
   openapi_render.py       conversión de operación OpenAPI a documento
   repos_ingest.py         ingesta de Markdown desde repos GitHub curados
   resumen_rag.py           genera RESUMEN-CONOCIMIENTO.md
   copilot_pack.py           empaqueta el corpus en un ZIP para Microsoft 365 Copilot
+                             (`--fuente devnet` para un ZIP solo de developer.cisco.com)
   report.py                  resumen de la ejecución para GitHub Actions
 
 tools/

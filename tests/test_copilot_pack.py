@@ -1,11 +1,14 @@
 """Prueba el reempaquetado de docs/ para agentes de M365 Copilot."""
 import os
+import shutil
 import sys
+import tempfile
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__))), "src"))
 
 from copilot_pack import (
+    FUENTES, nombre_zip, recolectar,
     LIMITE_CHARS,
     PERFILES,
     a_texto_plano,
@@ -439,6 +442,42 @@ def test_encabezado_lleva_producto_version_y_fuente():
     assert "Producto: Cisco Unified Communications Manager (CUCM)" in texto
     assert "Version: 15" in texto
     assert "Fuente: https://x/libro/001" in texto
+
+
+def test_fuente_devnet_aisla_developer_cisco_com():
+    """Poder entregar solo la referencia de API de DevNet sin arrastrar las
+    12.000 paginas de guias de www.cisco.com alrededor."""
+    tmp = tempfile.mkdtemp()
+    try:
+        ent = os.path.join(tmp, "pages")
+        os.makedirs(ent)
+        docs = [
+            ("https://developer.cisco.com/docs/axl/axl-developer-guide/", "AXL"),
+            ("https://developer.cisco.com/site/sxml/", "SXML"),
+            ("https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/x.html", "CUCM"),
+            ("https://help.webex.com/en-us/article/abc/x", "Control Hub"),
+        ]
+        for i, (url, titulo) in enumerate(docs):
+            with open(os.path.join(ent, f"d{i}.md"), "w", encoding="utf-8") as fh:
+                fh.write(f"---\ndoc_id: d{i}\nsource_url: {url}\n---\n\n"
+                         f"# {titulo}\n\n" + "Contenido tecnico. " * 40)
+
+        urls = lambda f: {d["url"] for d in recolectar(ent, f)}
+
+        assert len(urls("todo")) == 4
+        assert urls("devnet") == {docs[0][0], docs[1][0]}
+        assert urls("cisco-com") == {docs[2][0]}
+        assert urls("webex") == {docs[3][0]}
+        assert urls("repos") == set()
+    finally:
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_cada_fuente_tiene_su_zip():
+    """Sin nombres distintos, empaquetar devnet pisaria el ZIP completo."""
+    assert nombre_zip("todo") == "copilot-vigente-completo.zip"
+    assert nombre_zip("devnet") == "copilot-vigente-devnet.zip"
+    assert nombre_zip("todo") != nombre_zip("devnet")
 
 
 if __name__ == "__main__":

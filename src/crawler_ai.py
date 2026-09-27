@@ -679,6 +679,10 @@ async def deep_crawl():
                         resultado.html,
                         selectores_extra=SELECTORES_RUIDO_CSS,
                         detector=detector if modo == ManifestStore.MODO_INCREMENTAL else None,
+                        # Los src de las imagenes suelen ser relativos; sin la
+                        # URL de la pagina quedarian como /c/dam/... y no se
+                        # podrian abrir desde el corpus.
+                        base_url=url,
                     )
 
                     if modo == ManifestStore.MODO_BOOTSTRAP:

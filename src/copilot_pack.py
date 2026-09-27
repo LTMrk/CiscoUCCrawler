@@ -97,6 +97,25 @@ PERFILES = {
     "chat": {"limite": 1_500_000, "max_ficheros": 20, "mezclar_libros": True},
 }
 
+# ORIGENES DEL CORPUS
+# -------------------
+# Permiten empaquetar un subconjunto en vez de todo. El caso que lo motivo:
+# poder entregar solo la referencia de API de developer.cisco.com, que es un
+# cuerpo de conocimiento con entidad propia (AXL, Finesse, CUPI, xAPI...) y
+# que un desarrollador quiere consultar sin las 12.000 paginas de guias de
+# administracion de www.cisco.com alrededor.
+#
+# El predicado recibe (url, meta) del documento ya leido.
+FUENTES = {
+    "todo": lambda url, meta: True,
+    "devnet": lambda url, meta: "developer.cisco.com" in url,
+    "cisco-com": lambda url, meta: "www.cisco.com" in url,
+    "webex": lambda url, meta: ("help.webex.com" in url
+                                or bool(meta.get("api"))),
+    "repos": lambda url, meta: bool(meta.get("repo")),
+}
+FUENTE_POR_DEFECTO = "todo"
+
 DIR_ENTRADA = os.path.join("docs", "pages")
 DIR_ENTRADA_REPOS = os.path.join("docs", "repos")
 DIR_SALIDA = os.path.join("dist", "copilot")
@@ -588,8 +607,9 @@ def render_paquete(capitulos):
 # Pipeline
 # ---------------------------------------------------------------------------
 
-def recolectar(dir_entrada):
+def recolectar(dir_entrada, fuente=FUENTE_POR_DEFECTO):
     documentos = []
+    acepta = FUENTES[fuente]
     for raiz, _, ficheros in os.walk(dir_entrada):
         es_openapi = os.path.basename(raiz) == "openapi"
         for fichero in ficheros:
@@ -599,6 +619,9 @@ def recolectar(dir_entrada):
             meta, bruto = leer_documento(ruta)
             texto = a_texto_plano(bruto)
             if len(texto) < 200:  # tombstones y paginas vacias
+                continue
+            url_doc = meta.get("source_url", meta.get("source", "")) or ""
+            if not acepta(url_doc, meta):
                 continue
             if es_openapi:
                 api = meta.get("api", "Webex")
@@ -917,6 +940,14 @@ Sugerencia de instrucciones para cada agente:
 """
 
 
+def nombre_zip(fuente=FUENTE_POR_DEFECTO):
+    """Un ZIP por fuente, para que un paquete de developer.cisco.com no pise
+    al completo ni al reves."""
+    if fuente == FUENTE_POR_DEFECTO:
+        return "copilot-vigente-completo.zip"
+    return f"copilot-vigente-{fuente}.zip"
+
+
 def comprimir_todo(dir_salida, vigencia="vigente",
                    nombre="copilot-vigente-completo.zip"):
     """Empaqueta TODO el conocimiento vigente en un unico ZIP.
@@ -1021,6 +1052,12 @@ def construir_parser():
                          "Copilot NO lee dentro de un ZIP, hay que "
                          "descomprimirlo en destino y compartir el enlace a "
                          "la carpeta resultante.")
+    ap.add_argument("--fuente", choices=sorted(FUENTES), default=FUENTE_POR_DEFECTO,
+                    help="Empaqueta solo una parte del corpus. `devnet` deja "
+                         "unicamente developer.cisco.com (referencia de API de "
+                         "colaboracion); `cisco-com` las guias de producto; "
+                         "`webex` help.webex.com y los OpenAPI; `repos` la "
+                         "documentacion de GitHub. Por defecto, todo.")
     ap.add_argument("--dry-run", action="store_true",
                     help="Calcula el reparto sin escribir nada.")
     return ap
@@ -1033,14 +1070,21 @@ def main(argv=None):
     if args.limite:
         perfil["limite"] = args.limite
 
-    print(f"Leyendo {args.entrada} ...", file=sys.stderr)
-    documentos = recolectar(args.entrada)
+    filtro = "" if args.fuente == FUENTE_POR_DEFECTO else f" [fuente: {args.fuente}]"
+    print(f"Leyendo {args.entrada}{filtro} ...", file=sys.stderr)
+    documentos = recolectar(args.entrada, args.fuente)
     if os.path.isdir(args.entrada_repos):
-        print(f"Leyendo {args.entrada_repos} ...", file=sys.stderr)
-        documentos += recolectar(args.entrada_repos)
+        print(f"Leyendo {args.entrada_repos}{filtro} ...", file=sys.stderr)
+        documentos += recolectar(args.entrada_repos, args.fuente)
     print(f"  {len(documentos)} documentos, "
           f"{sum(len(d['texto']) for d in documentos) / 1e6:.1f} M chars tras limpieza",
           file=sys.stderr)
+
+    if not documentos:
+        print(f"Sin documentos para la fuente `{args.fuente}`. Si es la "
+              f"primera vez que se empaqueta developer.cisco.com, comprueba "
+              f"que el rastreo ya la haya alcanzado.", file=sys.stderr)
+        return 1
 
     marcar_vigencia(documentos)
     resumen, avisos = escribir(documentos, args.salida, perfil, args.dry_run)
@@ -1063,7 +1107,8 @@ def main(argv=None):
         ruta_guia = escribir_guia(args.salida, resumen, perfil["limite"], args.perfil)
         print(f"\nGuia de despliegue: {ruta_guia}")
         if args.zip:
-            ruta, nficheros, tam = comprimir_todo(args.salida)
+            ruta, nficheros, tam = comprimir_todo(
+                args.salida, nombre=nombre_zip(args.fuente))
             print(f"\nZIP final (solo transporte; Copilot no lee dentro de un "
                   f"ZIP, descomprimir en destino):\n  {ruta}\n"
                   f"  {nficheros} ficheros, {tam / 1e6:.1f} MB")
