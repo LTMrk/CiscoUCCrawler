@@ -138,11 +138,35 @@ debería", sospecha del consumo antes que de las regex.
   silencio.** `tests/test_url_policy.py` pasa ahora todas las de
   `config.seeds` por `url_aceptable`, que es la única forma barata de que
   ese fallo deje de ser mudo.
-- Los esquemas de implantación de CUCM y CUC no venían de DevNet sino de
-  www.cisco.com, y faltaban dos páginas índice: `products-technical-
-  reference-list.html` (diccionario de datos) y
-  `products-implementation-design-guides-list.html` (SRND). El corpus tenía
-  0 páginas de `datadictionary` antes de seedearlas.
+- Los esquemas de implantación de CUCM y CUC vienen de www.cisco.com, no de
+  DevNet. `products-implementation-design-guides-list.html` sí funciona
+  (queda en `discovery` y de ahí salen los SRND). En cambio
+  `products-technical-reference-list.html` devuelve **302 a `series.html`**
+  para CUCM y para CUC: Cisco ya no publica esa página. Las dos semillas se
+  retiraron.
+- **La guarda de semillas no detecta una semilla muerta, solo una
+  inadmisible.** `test_url_policy.py` comprueba que la allowlist acepta la
+  URL; que el servidor la sirva es otra cosa. Las tres semillas retiradas
+  (`docs/serviceability`, 404, y las dos `technical-reference-list`, 302)
+  pasaban la prueba sin problema. Para eso está el estado del manifiesto:
+  `gone`, `redirect` y `failed`.
+- **El diccionario de datos de CUCM no existe en HTML.** La página de
+  `products-programming-reference-guides-list.html` sí se rastrea y de ella
+  salen `jtapi_dev` (50), `tapi_dev` (44) y `callReportingBillingAdmin`
+  (42), pero no enlaza ningún `datadictionary` en HTML: solo PDF, que
+  `blocked_regex` bloquea por diseño. No es un fallo del rastreo.
+- Las raíces de doc-set de DevNet siguen sin servir contenido:
+  `/docs/axl-schema-reference/` da 0 caracteres tras sanitizar (queda
+  `failed`) y `/docs/serviceability/` responde 404 (`gone`), como
+  `/docs/unity-connection/`. `/docs/axl/axl-developer-guide/` sí entra
+  (`active`), pero no enlaza sus capítulos: el índice también lo pinta
+  JavaScript. Las semillas no bastan; queda el `js_code`.
+- **`paquete.yml` no es del todo stdlib pura.** `copilot_pack.py` sí lo es,
+  pero `tests/test_copilot_pack.py` importa `crawler_ai` para comprobar que
+  la allowlist y la taxonomía salen de `devnet_docsets`, y eso arrastra
+  `sanitizer` -> `bs4`. El workflow instala `beautifulsoup4` y nada más. El
+  fallo estuvo latente meses porque `paquete-copilot` solo se ejecuta cuando
+  la frontera queda vacía, y hasta el 2026-09-27 nunca quedó.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:

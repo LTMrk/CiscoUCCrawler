@@ -74,6 +74,17 @@ jobs:
           python3 -m compileall -q src
           python3 src/copilot_pack.py --help > /dev/null
 
+      - name: Instalar beautifulsoup4 para las pruebas
+        # copilot_pack.py sigue siendo stdlib pura, pero la prueba de que la
+        # allowlist de rastreo y la taxonomia salen de la misma lista importa
+        # crawler_ai, y ese arrastra sanitizer -> bs4. Es un wheel y tarda
+        # segundos: la premisa del workflow (no instalar crawl4ai ni bajar
+        # Chromium) se mantiene. Sin este paso el job falla con
+        # "ModuleNotFoundError: No module named 'bs4'", que es justo lo que
+        # paso la primera vez que la frontera quedo vacia y etl.yml llego a
+        # invocar este workflow de verdad.
+        run: pip install --quiet beautifulsoup4
+
       - name: Pruebas del empaquetador
         # Solo las que tocan esta ruta de codigo. Las del rastreo se quedan
         # en el otro workflow: aqui no se rastrea.
