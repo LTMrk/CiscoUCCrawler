@@ -382,19 +382,29 @@ def inventariar_docsets(urls_sitemap):
         print("  (La prueba test_copilot_pack falla si la clave de producto")
         print("   no existe, asi que allowlist y taxonomia no se separan.)")
 
-    _cobertura_frente_al_corpus(grupos)
+    _cobertura_frente_al_corpus(grupos, {c for c, _ in dentro})
 
 
-def _cobertura_frente_al_corpus(grupos):
-    """Cuantas URLs de cada doc-set han llegado de verdad al manifiesto.
+# Con menos de este numero de paginas, un doc-set admitido esta capturado a
+# medias: se tiene la raiz y poco mas. Es un umbral de atencion, no un
+# veredicto; hay doc-sets legitimamente de una sola pagina.
+UMBRAL_DOCSET_FLACO = 3
 
-    Es la pregunta que el inventario por si solo no contesta: un doc-set
-    puede estar admitido y aun asi aportar una sola pagina porque su indice
-    lateral lo pinta JavaScript y el rastreo no descubre los capitulos. Sin
-    este contraste el sintoma es invisible: no hay error, solo un doc-set
-    flaco entre otros que si estan completos.
+
+def _cobertura_frente_al_corpus(grupos, admitidos):
+    """Paginas que cada doc-set ADMITIDO ha aportado al manifiesto.
+
+    OJO con la tentacion de comparar contra el numero de URLs del sitemap:
+    el de PubHub declara UNA sola URL por doc-set, la raiz. Comparar "1 en
+    sitemap frente a 13 en corpus" no mide nada, y la primera version de
+    esta seccion daba 287 doc-sets "flacos" que en realidad eran los de
+    Meraki, ACI y Nexus, con cero paginas porque estan fuera a proposito.
+
+    Lo que si dice algo es el recuento absoluto sobre los admitidos: un
+    doc-set con una o dos paginas es la raiz y poco mas. En PubHub el indice
+    lateral lo pinta JavaScript, asi que ahi es donde se pierde el resto.
     """
-    titulo("7. Cobertura real: sitemap frente a logs/manifest.json")
+    titulo("7. Cobertura de los doc-sets admitidos")
 
     try:
         with open("logs/manifest.json", encoding="utf-8") as fh:
@@ -412,25 +422,28 @@ def _cobertura_frente_al_corpus(grupos):
             clave = f"{partes[0]}/{partes[1]}"
             capturadas[clave] = capturadas.get(clave, 0) + 1
 
-    print(f"{'doc-set':52} {'sitemap':>8} {'corpus':>8}")
     flacos = []
-    for clave in sorted(set(grupos) | set(capturadas)):
-        en_sitemap = len(grupos.get(clave, []))
-        en_corpus = capturadas.get(clave, 0)
-        print(f"{clave:52} {en_sitemap:8d} {en_corpus:8d}")
-        if en_sitemap and en_corpus < en_sitemap:
-            flacos.append((clave, en_sitemap, en_corpus))
+    for clave in sorted(admitidos | (set(capturadas) & set(grupos))):
+        paginas = capturadas.get(clave, 0)
+        marca = "  <-- flaco" if paginas < UMBRAL_DOCSET_FLACO else ""
+        print(f"  {paginas:4d} paginas  {clave}{marca}")
+        if paginas < UMBRAL_DOCSET_FLACO:
+            flacos.append((clave, paginas))
+
+    total = sum(capturadas.get(c, 0) for c in admitidos)
+    print(f"\n{total} paginas de colaboracion en el corpus, "
+          f"{len(admitidos)} doc-sets admitidos, {len(flacos)} por debajo de "
+          f"{UMBRAL_DOCSET_FLACO} paginas.")
 
     if flacos:
-        print(f"\n{len(flacos)} doc-sets aportan menos paginas que las que")
-        print("anuncia el sitemap. Causas por orden de probabilidad:")
+        print("\nLos flacos, por orden de probabilidad de causa:")
         print("  1. El indice lateral de PubHub se pinta con JavaScript y el")
-        print("     js_code de custom_behaviors no espera lo suficiente.")
-        print("  2. profundidad insuficiente en domain_depths.")
-        print("  3. Paginas de seccion sin cuerpo propio: se registran como")
-        print("     fallo por 'Markdown insuficiente' pero SI aportan enlaces.")
-        for clave, a, b in flacos[:20]:
-            print(f"     {clave}: {b}/{a}")
+        print("     js_code de custom_behaviors no espera lo suficiente. Ver")
+        print("     la seccion 4: si el HTML crudo trae poco texto, es esto.")
+        print("  2. Profundidad insuficiente en domain_depths.")
+        print("  3. Doc-set que de verdad tiene una sola pagina.")
+        for clave, n in flacos:
+            print(f"     {clave}: {n}")
 
 
 def main():
