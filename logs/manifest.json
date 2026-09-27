@@ -80,10 +80,10 @@
       "first_seen": "2026-09-01T15:35:27.424953+00:00",
       "last_changed": "2026-09-01T15:35:27.424953+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:53:52 GMT",
-      "last_seen": "2026-09-01T15:35:27.424953+00:00",
-      "next_check": "2026-09-02T15:35:27.424953+00:00",
+      "last_seen": "2026-09-27T16:02:59.601640+00:00",
+      "next_check": "2026-09-29T16:02:59.601640+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/axl/staying-updated-with-axl-schemas/": {
       "content_sha": "d5f7deaf60106d8348392609c7fff165679120ccf655392dd8a54d49619e1de9",
@@ -93,10 +93,10 @@
       "first_seen": "2026-09-01T15:35:18.214488+00:00",
       "last_changed": "2026-09-01T15:35:18.214488+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:01:44 GMT",
-      "last_seen": "2026-09-01T15:35:18.214488+00:00",
-      "next_check": "2026-09-02T15:35:18.214488+00:00",
+      "last_seen": "2026-09-27T16:03:03.764230+00:00",
+      "next_check": "2026-09-29T16:03:03.764230+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/broadworks/": {
       "content_sha": "582d4531743e3ea279afb089e7de7e59bd1fc0847df8c0c1435454d8262194cb",
@@ -132,10 +132,10 @@
       "first_seen": "2026-08-25T21:01:05.423394+00:00",
       "last_changed": "2026-08-25T21:01:05.423394+00:00",
       "last_modified": "Tue, 09 Jun 2026 09:57:00 GMT",
-      "last_seen": "2026-08-25T21:01:05.423394+00:00",
-      "next_check": "2026-08-26T21:01:05.423394+00:00",
+      "last_seen": "2026-09-27T16:03:07.977988+00:00",
+      "next_check": "2026-09-29T16:03:07.977988+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su1/": {
       "content_sha": "17459154bf1747b374b3d1a8c18f27f2f12d3b276478cdbb1f75a22169687a6f",
@@ -158,10 +158,10 @@
       "first_seen": "2026-08-25T21:01:14.983202+00:00",
       "last_changed": "2026-08-25T21:01:14.983202+00:00",
       "last_modified": "Sat, 13 Jun 2026 10:05:53 GMT",
-      "last_seen": "2026-08-25T21:01:14.983202+00:00",
-      "next_check": "2026-08-26T21:01:14.983202+00:00",
+      "last_seen": "2026-09-27T16:03:12.102905+00:00",
+      "next_check": "2026-09-29T16:03:12.102905+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su2/": {
       "content_sha": "3fc5a3684b1f100c90a02192702df2abe4512f747bb29aa58cddfcdeb03e7d78",
@@ -184,10 +184,10 @@
       "first_seen": "2026-08-25T21:01:24.471259+00:00",
       "last_changed": "2026-08-25T21:01:24.471259+00:00",
       "last_modified": "Wed, 10 Jun 2026 22:34:23 GMT",
-      "last_seen": "2026-08-25T21:01:24.471259+00:00",
-      "next_check": "2026-08-26T21:01:24.471259+00:00",
+      "last_seen": "2026-09-27T16:03:16.196545+00:00",
+      "next_check": "2026-09-29T16:03:16.196545+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/cisco-meeting-server/": {
       "content_sha": "f9da2621a1568824d3bb306abbedcb52a6be1f6c39a89708a837851f00c0e7aa",
@@ -223,10 +223,10 @@
       "first_seen": "2026-09-07T14:05:27.102557+00:00",
       "last_changed": "2026-09-07T14:05:27.102557+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:41:51 GMT",
-      "last_seen": "2026-09-07T14:05:27.102557+00:00",
-      "next_check": "2026-09-08T14:05:27.102557+00:00",
+      "last_seen": "2026-09-27T16:03:20.506219+00:00",
+      "next_check": "2026-09-29T16:03:20.506219+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/cisco-identity-service-client-sdk-guide/": {
       "content_sha": "d6464843dbf5a836fdbae36cba9fd77cc3b153c35ccc635adc3c3fc54f9308c7",
@@ -236,10 +236,10 @@
       "first_seen": "2026-08-25T21:01:51.331284+00:00",
       "last_changed": "2026-08-25T21:01:51.331284+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:47:28 GMT",
-      "last_seen": "2026-08-25T21:01:51.331284+00:00",
-      "next_check": "2026-08-26T21:01:51.331284+00:00",
+      "last_seen": "2026-09-27T16:03:24.820572+00:00",
+      "next_check": "2026-09-29T16:03:24.820572+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/cisco-identity-service-client-sdk-overview/": {
       "content_sha": "8352f808236229e99a04ebeabc96c02ee680e9c51313534b4d42f4a5639cb590",
@@ -249,10 +249,10 @@
       "first_seen": "2026-09-07T14:06:03.918538+00:00",
       "last_changed": "2026-09-07T14:06:03.918538+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:39:34 GMT",
-      "last_seen": "2026-09-07T14:06:03.918538+00:00",
-      "next_check": "2026-09-08T14:06:03.918538+00:00",
+      "last_seen": "2026-09-27T16:03:29.145574+00:00",
+      "next_check": "2026-09-29T16:03:29.145574+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/close_conf/": {
       "content_sha": "17314da29b19d454eabd23c3cbf9200fc5eb30a6882350a50286d2d2240ed1dc",
@@ -262,10 +262,10 @@
       "first_seen": "2026-09-01T17:33:56.089668+00:00",
       "last_changed": "2026-09-01T17:33:56.089668+00:00",
       "last_modified": "Wed, 24 Jun 2026 22:09:25 GMT",
-      "last_seen": "2026-09-01T17:33:56.089668+00:00",
-      "next_check": "2026-09-02T17:33:56.089668+00:00",
+      "last_seen": "2026-09-27T16:03:33.351207+00:00",
+      "next_check": "2026-09-29T16:03:33.351207+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/close_req/": {
       "content_sha": "883bdc28a813d804afb9617369e57a7b7f269a00763c9f8d211969a248abfab4",
@@ -275,10 +275,10 @@
       "first_seen": "2026-09-01T17:33:51.640291+00:00",
       "last_changed": "2026-09-01T17:33:51.640291+00:00",
       "last_modified": "Thu, 11 Jun 2026 04:05:47 GMT",
-      "last_seen": "2026-09-01T17:33:51.640291+00:00",
-      "next_check": "2026-09-02T17:33:51.640291+00:00",
+      "last_seen": "2026-09-27T16:03:37.582369+00:00",
+      "next_check": "2026-09-29T16:03:37.582369+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/configuration-api-overview/": {
       "content_sha": "6ffb5b57df46e2abadeb49593d386802010be7bcb44f94e08ece037c7d558398",
@@ -288,10 +288,10 @@
       "first_seen": "2026-09-07T14:05:59.158541+00:00",
       "last_changed": "2026-09-07T14:05:59.158541+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:50:45 GMT",
-      "last_seen": "2026-09-07T14:05:59.158541+00:00",
-      "next_check": "2026-09-08T14:05:59.158541+00:00",
+      "last_seen": "2026-09-27T16:03:41.646491+00:00",
+      "next_check": "2026-09-29T16:03:41.646491+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/configuration-information-masks/": {
       "content_sha": "7bc75cba698d82c73cfc562259c6334f29e3152850d5823d620f70626710a22a",
@@ -301,10 +301,10 @@
       "first_seen": "2026-09-07T14:05:31.781210+00:00",
       "last_changed": "2026-09-07T14:05:31.781210+00:00",
       "last_modified": "Sat, 27 Jun 2026 22:03:04 GMT",
-      "last_seen": "2026-09-07T14:05:31.781210+00:00",
-      "next_check": "2026-09-08T14:05:31.781210+00:00",
+      "last_seen": "2026-09-27T16:03:45.791111+00:00",
+      "next_check": "2026-09-29T16:03:45.791111+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/cti-protocol-overview/": {
       "content_sha": "2b64865ab8574f36e5714bcaa030b4636706d8694a1ad9904b9446376390714b",
@@ -314,10 +314,10 @@
       "first_seen": "2026-08-25T21:01:33.082891+00:00",
       "last_changed": "2026-08-25T21:01:33.082891+00:00",
       "last_modified": "Mon, 22 Jun 2026 22:54:16 GMT",
-      "last_seen": "2026-09-07T14:05:50.774305+00:00",
-      "next_check": "2026-09-09T14:05:50.774305+00:00",
+      "last_seen": "2026-09-27T16:03:49.718423+00:00",
+      "next_check": "2026-10-01T16:03:49.718423+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/contact-center-express/cti-service-masks/": {
       "content_sha": "c1347389043273b813c37db87a50264cb84a46ec8067eeda5a37ae7fdf6751b8",
@@ -327,10 +327,10 @@
       "first_seen": "2026-09-07T14:05:17.484949+00:00",
       "last_changed": "2026-09-07T14:05:17.484949+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:19:48 GMT",
-      "last_seen": "2026-09-07T14:05:17.484949+00:00",
-      "next_check": "2026-09-08T14:05:17.484949+00:00",
+      "last_seen": "2026-09-27T16:03:54.048334+00:00",
+      "next_check": "2026-09-29T16:03:54.048334+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/error-e-status-codes/": {
       "content_sha": "ba11df6a9d831f3e57ca25f2292816ddd29480215268dd097e32d5b9950c29a9",
@@ -340,10 +340,10 @@
       "first_seen": "2026-09-07T14:05:41.515593+00:00",
       "last_changed": "2026-09-07T14:05:41.515593+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:41:58 GMT",
-      "last_seen": "2026-09-07T14:05:41.515593+00:00",
-      "next_check": "2026-09-08T14:05:41.515593+00:00",
+      "last_seen": "2026-09-27T16:03:58.464085+00:00",
+      "next_check": "2026-09-29T16:03:58.464085+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/faqs/": {
       "content_sha": "4cf8d39c290ac55fd9f4397e7f12d59c10318bcfae3fc3d11cf27df9c941c5fb",
@@ -353,10 +353,10 @@
       "first_seen": "2026-09-01T17:34:05.392347+00:00",
       "last_changed": "2026-09-01T17:34:05.392347+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:26:09 GMT",
-      "last_seen": "2026-09-01T17:34:05.392347+00:00",
-      "next_check": "2026-09-02T17:34:05.392347+00:00",
+      "last_seen": "2026-09-27T16:04:02.552937+00:00",
+      "next_check": "2026-09-29T16:04:02.552937+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/getting-started/": {
       "content_sha": "453f50fc708456fd46db83d5853188ce4af48c4d37c8391846bfbf2b46675c6e",
@@ -366,10 +366,10 @@
       "first_seen": "2026-08-25T21:01:55.929084+00:00",
       "last_changed": "2026-08-25T21:01:55.929084+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:09:58 GMT",
-      "last_seen": "2026-09-07T14:05:46.654340+00:00",
-      "next_check": "2026-09-09T14:05:46.654340+00:00",
+      "last_seen": "2026-09-27T16:04:06.808978+00:00",
+      "next_check": "2026-10-01T16:04:06.808978+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/contact-center-express/how-a-clientserver-connection-is-managed/": {
       "content_sha": "04a188d76662b9652682fe2d70f73c962a6c182a164d660d1db13e0651ec5147",
@@ -379,10 +379,10 @@
       "first_seen": "2026-09-01T17:33:24.667244+00:00",
       "last_changed": "2026-09-01T17:33:24.667244+00:00",
       "last_modified": "Mon, 08 Jun 2026 12:04:00 GMT",
-      "last_seen": "2026-09-01T17:33:24.667244+00:00",
-      "next_check": "2026-09-02T17:33:24.667244+00:00",
+      "last_seen": "2026-09-27T16:04:10.956096+00:00",
+      "next_check": "2026-09-29T16:04:10.956096+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/how-a-session-is-maintained/": {
       "content_sha": "82487087dbd893ee1ce39852ad6df66de3a2ccb7b8469ac72ddf3125f1332447",
@@ -392,10 +392,10 @@
       "first_seen": "2026-09-07T14:05:07.952258+00:00",
       "last_changed": "2026-09-07T14:05:07.952258+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:02:18 GMT",
-      "last_seen": "2026-09-07T14:05:07.952258+00:00",
-      "next_check": "2026-09-08T14:05:07.952258+00:00",
+      "last_seen": "2026-09-27T16:04:15.159498+00:00",
+      "next_check": "2026-09-29T16:04:15.159498+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/open_conf/": {
       "content_sha": "244c7c79a7f959aaa7e4821c40e764f86d4d26c318db678650b845f2a48c8e85",
@@ -405,10 +405,10 @@
       "first_seen": "2026-09-01T17:33:42.682005+00:00",
       "last_changed": "2026-09-01T17:33:42.682005+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:34:54 GMT",
-      "last_seen": "2026-09-01T17:33:42.682005+00:00",
-      "next_check": "2026-09-02T17:33:42.682005+00:00",
+      "last_seen": "2026-09-27T16:04:19.206818+00:00",
+      "next_check": "2026-09-29T16:04:19.206818+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/open_req/": {
       "content_sha": "4b71bf2b31195277bd347cdb042e752317fba00575f668bdeb51ada20251c99b",
@@ -418,10 +418,10 @@
       "first_seen": "2026-09-01T17:33:38.185015+00:00",
       "last_changed": "2026-09-01T17:33:38.185015+00:00",
       "last_modified": "Wed, 10 Jun 2026 06:35:33 GMT",
-      "last_seen": "2026-09-01T17:33:38.185015+00:00",
-      "next_check": "2026-09-02T17:33:38.185015+00:00",
+      "last_seen": "2026-09-27T16:04:23.309881+00:00",
+      "next_check": "2026-09-29T16:04:23.309881+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/reasons-for-a-connection-to-fail/": {
       "content_sha": "4a1195ad7fa4d7dd022c31548b71a9e504bd4a140bf7de658f281941dd208b0d",
@@ -431,10 +431,10 @@
       "first_seen": "2026-09-07T14:05:03.259974+00:00",
       "last_changed": "2026-09-07T14:05:03.259974+00:00",
       "last_modified": "Tue, 09 Jun 2026 01:56:54 GMT",
-      "last_seen": "2026-09-07T14:05:03.259974+00:00",
-      "next_check": "2026-09-08T14:05:03.259974+00:00",
+      "last_seen": "2026-09-27T16:04:27.498309+00:00",
+      "next_check": "2026-09-29T16:04:27.498309+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/scripting-overview/": {
       "content_sha": "40a01fe8f9ac6ba2ecfd5ec59abf2a87cb2963b57135eb6b4133d263cf9b025a",
@@ -444,10 +444,10 @@
       "first_seen": "2026-09-01T17:34:00.815027+00:00",
       "last_changed": "2026-09-01T17:34:00.815027+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:58:15 GMT",
-      "last_seen": "2026-09-01T17:34:00.815027+00:00",
-      "next_check": "2026-09-02T17:34:00.815027+00:00",
+      "last_seen": "2026-09-27T16:04:31.809126+00:00",
+      "next_check": "2026-09-29T16:04:31.809126+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/the-unified-ccx-cti-server-in-a-high-availability-unified-ccx-system/": {
       "content_sha": "00e3e0737834c9b1af1da676c3ec04e8fb187bf9e09a99dcc0dfe9faa23c9094",
@@ -457,10 +457,10 @@
       "first_seen": "2026-09-07T14:04:58.513828+00:00",
       "last_changed": "2026-09-07T14:04:58.513828+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:31:17 GMT",
-      "last_seen": "2026-09-07T14:04:58.513828+00:00",
-      "next_check": "2026-09-08T14:04:58.513828+00:00",
+      "last_seen": "2026-09-27T16:04:36.169542+00:00",
+      "next_check": "2026-09-29T16:04:36.169542+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/two-client-modes-for-connecting-with-unified-ccx/": {
       "content_sha": "d18ad78ae60cf08f27ee23ab9abdecac64b3e11ee0798bdee95a90fc987295a2",
@@ -470,10 +470,10 @@
       "first_seen": "2026-09-07T14:05:12.759244+00:00",
       "last_changed": "2026-09-07T14:05:12.759244+00:00",
       "last_modified": "Tue, 23 Jun 2026 12:54:06 GMT",
-      "last_seen": "2026-09-07T14:05:12.759244+00:00",
-      "next_check": "2026-09-08T14:05:12.759244+00:00",
+      "last_seen": "2026-09-27T16:04:40.509821+00:00",
+      "next_check": "2026-09-29T16:04:40.509821+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/uccx-overview/": {
       "content_sha": "da4b03fc7ae0d13b3314f264c6c5872b49ad069e491d029cb6b297ddee471984",
@@ -483,10 +483,10 @@
       "first_seen": "2026-08-25T21:01:28.817853+00:00",
       "last_changed": "2026-08-25T21:01:28.817853+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:04:50 GMT",
-      "last_seen": "2026-08-25T21:01:28.817853+00:00",
-      "next_check": "2026-08-26T21:01:28.817853+00:00",
+      "last_seen": "2026-09-27T16:04:44.903756+00:00",
+      "next_check": "2026-09-29T16:04:44.903756+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/unsolicited-call-event-message-masks/": {
       "content_sha": "0ecfbef063e6ea2fe9d8a6c521b7fe8375d07c218d6a5ecabaf69634ad1e086c",
@@ -496,10 +496,10 @@
       "first_seen": "2026-09-07T14:05:22.265447+00:00",
       "last_changed": "2026-09-07T14:05:22.265447+00:00",
       "last_modified": "Wed, 10 Jun 2026 04:02:06 GMT",
-      "last_seen": "2026-09-07T14:05:22.265447+00:00",
-      "next_check": "2026-09-08T14:05:22.265447+00:00",
+      "last_seen": "2026-09-27T16:04:49.101825+00:00",
+      "next_check": "2026-09-29T16:04:49.101825+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/what-is-an-agent-state/": {
       "content_sha": "b24596e111ab8507c0a959a45656cfb33abd0c00e4d74fb6a1efd2f367e4922f",
@@ -509,10 +509,10 @@
       "first_seen": "2026-09-07T14:05:36.733832+00:00",
       "last_changed": "2026-09-07T14:05:36.733832+00:00",
       "last_modified": "Tue, 23 Jun 2026 13:11:34 GMT",
-      "last_seen": "2026-09-07T14:05:36.733832+00:00",
-      "next_check": "2026-09-08T14:05:36.733832+00:00",
+      "last_seen": "2026-09-27T16:04:53.159313+00:00",
+      "next_check": "2026-09-29T16:04:53.159313+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/customer-voice-portal/": {
       "content_sha": "de85272276ad857368efcf70d34e2466edad6fb1af2ac5dbd99bc3fabe1b0309",
@@ -587,10 +587,10 @@
       "first_seen": "2026-09-07T14:07:32.566957+00:00",
       "last_changed": "2026-09-07T14:07:32.566957+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:24:10 GMT",
-      "last_seen": "2026-09-07T14:07:32.566957+00:00",
-      "next_check": "2026-09-08T14:07:32.566957+00:00",
+      "last_seen": "2026-09-27T16:04:57.141872+00:00",
+      "next_check": "2026-09-29T16:04:57.141872+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/client-integration/": {
       "content_sha": "f86438bf30e5cb9dbf78f216dd366a46da31ffa72267094498710a774635e44b",
@@ -600,10 +600,10 @@
       "first_seen": "2026-09-07T14:07:04.625472+00:00",
       "last_changed": "2026-09-07T14:07:04.625472+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:07:27 GMT",
-      "last_seen": "2026-09-07T14:07:04.625472+00:00",
-      "next_check": "2026-09-08T14:07:04.625472+00:00",
+      "last_seen": "2026-09-27T16:05:01.169286+00:00",
+      "next_check": "2026-09-29T16:05:01.169286+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/connect-to-xmpp-over-http-boshwebsocket-using-finesse-eventtunnel/": {
       "content_sha": "663f87ba4dc7c2c868e214ae4edd3069e72fbb02400f43081042e467ef45334f",
@@ -613,10 +613,10 @@
       "first_seen": "2026-09-07T14:07:46.176820+00:00",
       "last_changed": "2026-09-07T14:07:46.176820+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:58:33 GMT",
-      "last_seen": "2026-09-07T14:07:46.176820+00:00",
-      "next_check": "2026-09-08T14:07:46.176820+00:00",
+      "last_seen": "2026-09-27T16:05:05.520273+00:00",
+      "next_check": "2026-09-29T16:05:05.520273+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/connect-to-xmpp-over-tcp/": {
       "content_sha": "80596a099de2152b066b53c1bf4ec0befa9db93410cc3720d28a427aa2270fb4",
@@ -626,10 +626,10 @@
       "first_seen": "2026-09-07T14:07:41.620306+00:00",
       "last_changed": "2026-09-07T14:07:41.620306+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:37:05 GMT",
-      "last_seen": "2026-09-07T14:07:41.620306+00:00",
-      "next_check": "2026-09-08T14:07:41.620306+00:00",
+      "last_seen": "2026-09-27T16:05:09.660671+00:00",
+      "next_check": "2026-09-29T16:05:09.660671+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/cors-support-for-finesse-rest-apis/": {
       "content_sha": "ed00da107fd69313f4a9771c36587add7c0f2b21a228a49c80ee77bb3b3eb7c4",
@@ -639,10 +639,10 @@
       "first_seen": "2026-09-07T14:06:48.228915+00:00",
       "last_changed": "2026-09-07T14:06:48.228915+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:42:05 GMT",
-      "last_seen": "2026-09-07T14:06:48.228915+00:00",
-      "next_check": "2026-09-08T14:06:48.228915+00:00",
+      "last_seen": "2026-09-27T16:05:13.999169+00:00",
+      "next_check": "2026-09-29T16:05:13.999169+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/enable-or-reset-3rdpartygadget-account/": {
       "content_sha": "630086ec678e7940e982d4d10802a482f7bbde2df157fd086d71d227986150aa",
@@ -652,10 +652,10 @@
       "first_seen": "2026-09-07T14:07:54.591189+00:00",
       "last_changed": "2026-09-07T14:07:54.591189+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:09:55 GMT",
-      "last_seen": "2026-09-07T14:07:54.591189+00:00",
-      "next_check": "2026-09-08T14:07:54.591189+00:00",
+      "last_seen": "2026-09-27T16:05:18.250053+00:00",
+      "next_check": "2026-09-29T16:05:18.250053+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/environment-and-tools/": {
       "content_sha": "1307366378bfc10a53dd17016d6d2583cb7db9091ecf73b4a3b18af97aab6978",
@@ -665,10 +665,10 @@
       "first_seen": "2026-09-07T14:07:28.128846+00:00",
       "last_changed": "2026-09-07T14:07:28.128846+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:42:31 GMT",
-      "last_seen": "2026-09-07T14:07:28.128846+00:00",
-      "next_check": "2026-09-08T14:07:28.128846+00:00",
+      "last_seen": "2026-09-27T16:05:22.499012+00:00",
+      "next_check": "2026-09-29T16:05:22.499012+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/faqs/": {
       "content_sha": "e3896eeacc2bc495919eccae8836caaaaabc11662014d6c86851b303f668ffb5",
@@ -678,10 +678,10 @@
       "first_seen": "2026-09-01T17:34:14.031169+00:00",
       "last_changed": "2026-09-01T17:34:14.031169+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:54:20 GMT",
-      "last_seen": "2026-09-01T17:34:14.031169+00:00",
-      "next_check": "2026-09-02T17:34:14.031169+00:00",
+      "last_seen": "2026-09-27T16:05:26.847042+00:00",
+      "next_check": "2026-09-29T16:05:26.847042+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/finesse-overview/": {
       "content_sha": "d784961a9ecabb16a6c7c7e9bbd2b1d23528848bccf5e6977e1f06ccb85a34b5",
@@ -691,10 +691,10 @@
       "first_seen": "2026-08-25T21:02:00.380198+00:00",
       "last_changed": "2026-08-25T21:02:00.380198+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:42:04 GMT",
-      "last_seen": "2026-09-07T14:06:13.550616+00:00",
-      "next_check": "2026-09-09T14:06:13.550616+00:00",
+      "last_seen": "2026-09-27T16:05:31.167391+00:00",
+      "next_check": "2026-10-01T16:05:31.167391+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/finesse/gadget-caching/": {
       "content_sha": "672151a9ed9fee09bcb6103cc35b4f49450f87e7376d520c2ebb1e0a00617982",
@@ -704,10 +704,10 @@
       "first_seen": "2026-09-07T14:08:08.011650+00:00",
       "last_changed": "2026-09-07T14:08:08.011650+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:42:34 GMT",
-      "last_seen": "2026-09-07T14:08:08.011650+00:00",
-      "next_check": "2026-09-08T14:08:08.011650+00:00",
+      "last_seen": "2026-09-27T16:05:35.560146+00:00",
+      "next_check": "2026-09-29T16:05:35.560146+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/getting-started/": {
       "content_sha": "87757f60c45d24cd19053be741f0f039d30de1705387a2ef42857ae5ade390e3",
@@ -717,10 +717,10 @@
       "first_seen": "2026-08-25T21:02:13.842424+00:00",
       "last_changed": "2026-08-25T21:02:13.842424+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:57:50 GMT",
-      "last_seen": "2026-09-07T14:06:56.471796+00:00",
-      "next_check": "2026-09-09T14:06:56.471796+00:00",
+      "last_seen": "2026-09-27T16:05:39.780165+00:00",
+      "next_check": "2026-10-01T16:05:39.780165+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/finesse/javascript-library/": {
       "content_sha": "0a8d28d6b87255ce871946dd33674fc5b45824e927a0eeb847f81e6983c82271",
@@ -730,10 +730,10 @@
       "first_seen": "2026-08-25T21:02:09.378060+00:00",
       "last_changed": "2026-08-25T21:02:09.378060+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:43:52 GMT",
-      "last_seen": "2026-09-07T14:06:17.769819+00:00",
-      "next_check": "2026-09-09T14:06:17.769819+00:00",
+      "last_seen": "2026-09-27T16:05:43.931683+00:00",
+      "next_check": "2026-10-01T16:05:43.931683+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/finesse/loading-indicator-feature/": {
       "content_sha": "f611faa48cbf1a6cf9e52b2eaafa232cebb375b2601a83536f9e140aabf68b17",
@@ -743,10 +743,10 @@
       "first_seen": "2026-09-07T14:08:12.464523+00:00",
       "last_changed": "2026-09-07T14:08:12.464523+00:00",
       "last_modified": "Tue, 23 Jun 2026 00:18:31 GMT",
-      "last_seen": "2026-09-07T14:08:12.464523+00:00",
-      "next_check": "2026-09-08T14:08:12.464523+00:00",
+      "last_seen": "2026-09-27T16:05:48.269227+00:00",
+      "next_check": "2026-09-29T16:05:48.269227+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/managing-notifications-in-third-party-applications/": {
       "content_sha": "0da1c22106deabc3e7a7b60bc799cd5582c68d9836d17fbe411e4b8e84b8ee44",
@@ -756,10 +756,10 @@
       "first_seen": "2026-09-07T14:07:37.211693+00:00",
       "last_changed": "2026-09-07T14:07:37.211693+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:58:14 GMT",
-      "last_seen": "2026-09-07T14:07:37.211693+00:00",
-      "next_check": "2026-09-08T14:07:37.211693+00:00",
+      "last_seen": "2026-09-27T16:05:52.504994+00:00",
+      "next_check": "2026-09-29T16:05:52.504994+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/notification-popover-service/": {
       "content_sha": "3d1841671c3c89983032a6b1beeb8792710a6ca9ddf03a2df17f0db954dc4316",
@@ -769,10 +769,10 @@
       "first_seen": "2026-08-25T18:47:56.257403+00:00",
       "last_changed": "2026-08-25T18:47:56.257403+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:50:43 GMT",
-      "last_seen": "2026-08-25T18:47:56.257403+00:00",
-      "next_check": "2026-08-26T18:47:56.257403+00:00",
+      "last_seen": "2026-09-27T16:05:56.595210+00:00",
+      "next_check": "2026-09-29T16:05:56.595210+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/previous-documentation-pdfs/": {
       "content_sha": "bc0290a1df76796c33bf1f97a8139c80eca6245de9aac41d18c443762c782810",
@@ -782,10 +782,10 @@
       "first_seen": "2026-09-07T14:06:26.214170+00:00",
       "last_changed": "2026-09-07T14:06:26.214170+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:54:55 GMT",
-      "last_seen": "2026-09-07T14:06:26.214170+00:00",
-      "next_check": "2026-09-08T14:06:26.214170+00:00",
+      "last_seen": "2026-09-27T16:06:00.687307+00:00",
+      "next_check": "2026-09-29T16:06:00.687307+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/request-handlers/": {
       "content_sha": "5c2dc25b82c1b63e3c7bff29bf1ee01bd341fda29361150d1a441ba491b50d01",
@@ -795,10 +795,10 @@
       "first_seen": "2026-09-07T14:08:03.557535+00:00",
       "last_changed": "2026-09-07T14:08:03.557535+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:44:31 GMT",
-      "last_seen": "2026-09-07T14:08:03.557535+00:00",
-      "next_check": "2026-09-08T14:08:03.557535+00:00",
+      "last_seen": "2026-09-27T16:06:04.837216+00:00",
+      "next_check": "2026-09-29T16:06:04.837216+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/sample-gadgets/": {
       "content_sha": "e8a9d392483bd69ebe1dffacdb8a5176446fdf9727241443221db63915ddcafb",
@@ -808,10 +808,10 @@
       "first_seen": "2026-08-25T21:02:04.930216+00:00",
       "last_changed": "2026-08-25T21:02:04.930216+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:59:15 GMT",
-      "last_seen": "2026-09-07T14:07:46.491228+00:00",
-      "next_check": "2026-09-09T14:07:46.491228+00:00",
+      "last_seen": "2026-09-27T16:06:08.780203+00:00",
+      "next_check": "2026-10-01T16:06:08.780203+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/finesse/sandbox/": {
       "content_sha": "d47b24cea6e688ee1b7c61f66cc1badd7fcc9cb173399b1f47c659d821af779d",
@@ -821,10 +821,10 @@
       "first_seen": "2026-08-25T21:05:18.728085+00:00",
       "last_changed": "2026-08-25T21:05:18.728085+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:07:02 GMT",
-      "last_seen": "2026-08-25T21:05:18.728085+00:00",
-      "next_check": "2026-08-26T21:05:18.728085+00:00",
+      "last_seen": "2026-09-27T16:06:12.930935+00:00",
+      "next_check": "2026-09-29T16:06:12.930935+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/single-sign-on%e2%80%94fetch-access-token/": {
       "content_sha": "cc8b0acf63234ba5c3da996b7486c3f8c4337c533531c4d3c03fe5578568e913",
@@ -834,10 +834,10 @@
       "first_seen": "2026-09-07T14:07:14.424819+00:00",
       "last_changed": "2026-09-07T14:07:14.424819+00:00",
       "last_modified": "2026-09-07 14:07:10.23085471 +0000 UTC m=+2634325.977742131",
-      "last_seen": "2026-09-07T14:07:14.424819+00:00",
-      "next_check": "2026-09-08T14:07:14.424819+00:00",
+      "last_seen": "2026-09-27T16:06:17.765371+00:00",
+      "next_check": "2026-09-29T16:06:17.765371+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/single-sign-on%e2%80%94get-user-authentication-mode/": {
       "content_sha": "e02e90a30f25d6e5d518a1c138b6ba0051dfaaefaab936a61e0a51d777e7af7f",
@@ -847,10 +847,10 @@
       "first_seen": "2026-09-07T14:07:09.503669+00:00",
       "last_changed": "2026-09-07T14:07:09.503669+00:00",
       "last_modified": "2026-09-07 14:07:05.354803038 +0000 UTC m=+2634086.592855774",
-      "last_seen": "2026-09-07T14:07:09.503669+00:00",
-      "next_check": "2026-09-08T14:07:09.503669+00:00",
+      "last_seen": "2026-09-27T16:06:22.085075+00:00",
+      "next_check": "2026-09-29T16:06:22.085075+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/single-sign-on/": {
       "content_sha": "d499e3f2e77d0214c4a4daa6a79112aebfecc732ada37d44c0eaad3aad3cb518",
@@ -860,10 +860,10 @@
       "first_seen": "2026-09-07T14:06:43.843891+00:00",
       "last_changed": "2026-09-07T14:06:43.843891+00:00",
       "last_modified": "Mon, 08 Jun 2026 14:52:22 GMT",
-      "last_seen": "2026-09-07T14:06:43.843891+00:00",
-      "next_check": "2026-09-08T14:06:43.843891+00:00",
+      "last_seen": "2026-09-27T16:06:25.897670+00:00",
+      "next_check": "2026-09-29T16:06:25.897670+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/upload-third-party-gadgets/": {
       "content_sha": "861237a9a4b6056535312f9d13c55a2102d5ca27661e22cee2bb32ce4769b149",
@@ -873,10 +873,10 @@
       "first_seen": "2026-09-07T14:07:59.148487+00:00",
       "last_changed": "2026-09-07T14:07:59.148487+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:16:28 GMT",
-      "last_seen": "2026-09-07T14:07:59.148487+00:00",
-      "next_check": "2026-09-08T14:07:59.148487+00:00",
+      "last_seen": "2026-09-27T16:06:30.014604+00:00",
+      "next_check": "2026-09-29T16:06:30.014604+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/finesse/user%e2%80%94change-agent-state/": {
       "content_sha": "1589c7a402d306375dccd8ffb7a460f95d9dcf5ef5ae765a365f9562144bf8b8",
@@ -886,10 +886,10 @@
       "first_seen": "2026-09-07T14:07:23.726374+00:00",
       "last_changed": "2026-09-07T14:07:23.726374+00:00",
       "last_modified": "2026-09-07 14:07:19.210279965 +0000 UTC m=+2634307.125797759",
-      "last_seen": "2026-09-07T14:07:23.726374+00:00",
-      "next_check": "2026-09-08T14:07:23.726374+00:00",
+      "last_seen": "2026-09-27T16:06:34.901477+00:00",
+      "next_check": "2026-09-29T16:06:34.901477+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/ios-xe-voip/": {
       "content_sha": "7da25860d991bd42e4699cac23af36364d3e9e8a5e111fa5dde2c9adbd6fb7c1",
@@ -912,10 +912,10 @@
       "first_seen": "2026-08-25T21:02:20.057254+00:00",
       "last_changed": "2026-08-25T21:02:20.057254+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:41:34 GMT",
-      "last_seen": "2026-08-25T21:02:20.057254+00:00",
-      "next_check": "2026-08-26T21:02:20.057254+00:00",
+      "last_seen": "2026-09-27T16:06:38.308323+00:00",
+      "next_check": "2026-09-29T16:06:38.308323+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/ios-xe-voip/sip-dial-peer-configurations/": {
       "content_sha": "523dcaeeefcfd3538bcf294926d62f9c878670344445b53783198a4eac1b57ca",
@@ -925,10 +925,10 @@
       "first_seen": "2026-08-25T21:02:24.915579+00:00",
       "last_changed": "2026-08-25T21:02:24.915579+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:15:59 GMT",
-      "last_seen": "2026-08-25T21:02:24.915579+00:00",
-      "next_check": "2026-08-26T21:02:24.915579+00:00",
+      "last_seen": "2026-09-27T16:06:42.472848+00:00",
+      "next_check": "2026-09-29T16:06:42.472848+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/ios-xe-voip/voice-class-codec-configurations/": {
       "content_sha": "1fd8560d51d39fd8d99dc10caf1913b35251b09738dbbb7b7a587a320675b2c3",
@@ -938,10 +938,10 @@
       "first_seen": "2026-08-25T21:02:29.389359+00:00",
       "last_changed": "2026-08-25T21:02:29.389359+00:00",
       "last_modified": "Mon, 22 Jun 2026 17:08:36 GMT",
-      "last_seen": "2026-08-25T21:02:29.389359+00:00",
-      "next_check": "2026-08-26T21:02:29.389359+00:00",
+      "last_seen": "2026-09-27T16:06:46.904443+00:00",
+      "next_check": "2026-09-29T16:06:46.904443+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/ios-xe-voip/voice-register-configurations/": {
       "content_sha": "78642500a575afdbd30bb258d12f197c8fbe5baa1774832f690961427a6a4dc2",
@@ -951,10 +951,10 @@
       "first_seen": "2026-08-25T21:02:33.556894+00:00",
       "last_changed": "2026-08-25T21:02:33.556894+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:16:22 GMT",
-      "last_seen": "2026-08-25T21:02:33.556894+00:00",
-      "next_check": "2026-08-26T21:02:33.556894+00:00",
+      "last_seen": "2026-09-27T16:06:51.016757+00:00",
+      "next_check": "2026-09-29T16:06:51.016757+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/jabber-web/": {
       "content_sha": "9f06700100e94f2f322d2401fd5e072b5a021abfae1e4124c56fbf6e14891f6c",
@@ -1003,10 +1003,10 @@
       "first_seen": "2026-08-25T21:02:46.590270+00:00",
       "last_changed": "2026-08-25T21:02:46.590270+00:00",
       "last_modified": "Tue, 04 Aug 2026 06:03:31 GMT",
-      "last_seen": "2026-08-25T21:02:46.590270+00:00",
-      "next_check": "2026-08-26T21:02:46.590270+00:00",
+      "last_seen": "2026-09-27T16:06:55.374726+00:00",
+      "next_check": "2026-09-29T16:06:55.374726+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/serviceability/": {
       "content_sha": null,
@@ -1048,10 +1048,10 @@
       "first_seen": "2026-09-01T17:34:53.419067+00:00",
       "last_changed": "2026-09-01T17:34:53.419067+00:00",
       "last_modified": "Mon, 08 Jun 2026 21:06:18 GMT",
-      "last_seen": "2026-09-01T17:34:53.419067+00:00",
-      "next_check": "2026-09-02T17:34:53.419067+00:00",
+      "last_seen": "2026-09-27T16:06:59.561445+00:00",
+      "next_check": "2026-09-29T16:06:59.561445+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/task-routing/getting-started/": {
       "content_sha": "3aff221b4cd7f556d2f86910c591e3eb6b3ae89271d8918547680171eec1b302",
@@ -1061,10 +1061,10 @@
       "first_seen": "2026-08-25T21:02:55.251620+00:00",
       "last_changed": "2026-08-25T21:02:55.251620+00:00",
       "last_modified": "Tue, 09 Jun 2026 17:36:19 GMT",
-      "last_seen": "2026-09-07T14:09:45.448978+00:00",
-      "next_check": "2026-09-09T14:09:45.448978+00:00",
+      "last_seen": "2026-09-27T16:07:03.793168+00:00",
+      "next_check": "2026-10-01T16:07:03.793168+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/task-routing/task-routing-dev-guide/": {
       "content_sha": "4bee8fc8448beb7929ff60efa64c9480bf5493ff481c30125bf93428099c5d33",
@@ -1074,10 +1074,10 @@
       "first_seen": "2026-08-25T21:02:50.877936+00:00",
       "last_changed": "2026-08-25T21:02:50.877936+00:00",
       "last_modified": "Tue, 09 Jun 2026 01:12:17 GMT",
-      "last_seen": "2026-09-07T14:09:41.259733+00:00",
-      "next_check": "2026-09-09T14:09:41.259733+00:00",
+      "last_seen": "2026-09-27T16:07:08.203868+00:00",
+      "next_check": "2026-10-01T16:07:08.203868+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/task-routing/task-routing-overview/": {
       "content_sha": "969e63687b97da7539bd22cedd1878fb13e8f0dc7d2a64522dec84a99b6b1235",
@@ -1087,10 +1087,10 @@
       "first_seen": "2026-09-01T17:34:40.404711+00:00",
       "last_changed": "2026-09-01T17:34:40.404711+00:00",
       "last_modified": "Mon, 08 Jun 2026 12:51:09 GMT",
-      "last_seen": "2026-09-01T17:34:40.404711+00:00",
-      "next_check": "2026-09-02T17:34:40.404711+00:00",
+      "last_seen": "2026-09-27T16:07:12.460577+00:00",
+      "next_check": "2026-09-29T16:07:12.460577+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/user-data-services/": {
       "content_sha": "541c9cf2a15476341232e7cdea5c192ff8e86620279fa7a1102d14c07314bfc6",
@@ -1139,10 +1139,10 @@
       "first_seen": "2026-08-25T21:03:16.074258+00:00",
       "last_changed": "2026-08-25T21:03:16.074258+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:27:54 GMT",
-      "last_seen": "2026-08-25T21:03:16.074258+00:00",
-      "next_check": "2026-08-26T21:03:16.074258+00:00",
+      "last_seen": "2026-09-27T16:07:16.555326+00:00",
+      "next_check": "2026-09-29T16:07:16.555326+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/webex-calling/": {
       "content_sha": "02b4e50ec7bf0702fb732d9f8723ab9e44dd8289db5f302a8ca70720212d8a30",
@@ -1254,10 +1254,10 @@
       "first_seen": "2026-08-25T21:03:45.409338+00:00",
       "last_changed": "2026-08-25T21:03:45.409338+00:00",
       "last_modified": "Mon, 22 Jun 2026 20:36:33 GMT",
-      "last_seen": "2026-08-25T21:03:45.409338+00:00",
-      "next_check": "2026-08-26T21:03:45.409338+00:00",
+      "last_seen": "2026-09-27T16:07:20.782257+00:00",
+      "next_check": "2026-09-29T16:07:20.782257+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/cer/documents/api-reference/": {
       "content_sha": "3ee7c2fd929af590beb8db6a0b110d4bd90046bb50f55eb4a8d74b55018f879a",
@@ -1340,10 +1340,10 @@
       "first_seen": "2026-08-25T21:04:29.283969+00:00",
       "last_changed": "2026-08-25T21:04:29.283969+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:23:13 GMT",
-      "last_seen": "2026-09-07T14:07:14.698297+00:00",
-      "next_check": "2026-09-09T14:07:14.698297+00:00",
+      "last_seen": "2026-09-27T16:07:25.095024+00:00",
+      "next_check": "2026-10-01T16:07:25.095024+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/cti-protocol/overview/start/": {
       "content_sha": "03d97e32e621ee6b4b36f9686621c9d4e4f63fc8f63a19da244dbbc907910fae",
@@ -1353,10 +1353,10 @@
       "first_seen": "2026-08-25T21:04:20.767989+00:00",
       "last_changed": "2026-08-25T21:04:20.767989+00:00",
       "last_modified": "Mon, 08 Jun 2026 12:03:56 GMT",
-      "last_seen": "2026-08-25T21:04:20.767989+00:00",
-      "next_check": "2026-08-26T21:04:20.767989+00:00",
+      "last_seen": "2026-09-27T16:07:29.221996+00:00",
+      "next_check": "2026-09-29T16:07:29.221996+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/cti-protocol/overview/tech-overview/": {
       "content_sha": "e2a518250c9400236f68ad9ce67872f9d2ed37e70ebcb913f8d1ddaa22030115",
@@ -1366,10 +1366,10 @@
       "first_seen": "2026-08-25T21:04:25.052852+00:00",
       "last_changed": "2026-08-25T21:04:25.052852+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:51:26 GMT",
-      "last_seen": "2026-08-25T21:04:25.052852+00:00",
-      "next_check": "2026-08-26T21:04:25.052852+00:00",
+      "last_seen": "2026-09-27T16:07:33.456275+00:00",
+      "next_check": "2026-09-29T16:07:33.456275+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/ctios/": {
       "content_sha": "26a903ae10d58f49fe85f9f86458d677bc84f0a8fb6abbf666c189a5a8fb3794",
@@ -1392,10 +1392,10 @@
       "first_seen": "2026-08-25T21:04:42.597132+00:00",
       "last_changed": "2026-08-25T21:04:42.597132+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:20:00 GMT",
-      "last_seen": "2026-08-25T21:04:42.597132+00:00",
-      "next_check": "2026-08-26T21:04:42.597132+00:00",
+      "last_seen": "2026-09-27T16:07:37.867740+00:00",
+      "next_check": "2026-09-29T16:07:37.867740+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/ctios/overview/start/": {
       "content_sha": "7380663df51767696f1f22397e50bd2ac5d3a7cb790a8783354a8c022db51f3f",
@@ -1405,10 +1405,10 @@
       "first_seen": "2026-08-25T21:04:33.924175+00:00",
       "last_changed": "2026-08-25T21:04:33.924175+00:00",
       "last_modified": "Mon, 22 Jun 2026 16:50:31 GMT",
-      "last_seen": "2026-08-25T21:04:33.924175+00:00",
-      "next_check": "2026-08-26T21:04:33.924175+00:00",
+      "last_seen": "2026-09-27T16:07:42.288599+00:00",
+      "next_check": "2026-09-29T16:07:42.288599+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/ctios/overview/technical/": {
       "content_sha": "1efd98822cc83533288d73423fcbf6308091e15ea5019fd3949e7d73cae2365d",
@@ -1418,10 +1418,10 @@
       "first_seen": "2026-08-25T21:04:38.287737+00:00",
       "last_changed": "2026-08-25T21:04:38.287737+00:00",
       "last_modified": "Wed, 10 Jun 2026 07:13:25 GMT",
-      "last_seen": "2026-08-25T21:04:38.287737+00:00",
-      "next_check": "2026-08-26T21:04:38.287737+00:00",
+      "last_seen": "2026-09-27T16:07:46.471299+00:00",
+      "next_check": "2026-09-29T16:07:46.471299+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/": {
       "content_sha": "0cdc061466489999a2de2df5d978760858e08d98ed38c57464622eb3a3c83a0e",
@@ -1444,10 +1444,10 @@
       "first_seen": "2026-09-08T01:50:18.920465+00:00",
       "last_changed": "2026-09-08T01:50:18.920465+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:07:37 GMT",
-      "last_seen": "2026-09-14T19:08:07.546255+00:00",
-      "next_check": "2026-09-16T19:08:07.546255+00:00",
+      "last_seen": "2026-09-27T16:07:50.874928+00:00",
+      "next_check": "2026-10-01T16:07:50.874928+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/curri/develop-and-test/get-started/": {
       "content_sha": "19263536a79dfdc301884f41536c5f0516513b6d16240c938cfa261ac863601f",
@@ -1457,10 +1457,10 @@
       "first_seen": "2026-09-07T14:10:15.526066+00:00",
       "last_changed": "2026-09-07T14:10:15.526066+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:37:27 GMT",
-      "last_seen": "2026-09-07T14:10:15.526066+00:00",
-      "next_check": "2026-09-08T14:10:15.526066+00:00",
+      "last_seen": "2026-09-27T16:07:55.159024+00:00",
+      "next_check": "2026-09-29T16:07:55.159024+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/discover/what-is-curri/": {
       "content_sha": "b62bd22d0209900b04d9789a7b7f70e325357d52d995096cd0dfba7a6efa7b28",
@@ -1470,10 +1470,10 @@
       "first_seen": "2026-08-25T21:04:46.780214+00:00",
       "last_changed": "2026-08-25T21:04:46.780214+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:44:09 GMT",
-      "last_seen": "2026-08-25T21:04:46.780214+00:00",
-      "next_check": "2026-08-26T21:04:46.780214+00:00",
+      "last_seen": "2026-09-27T16:07:59.446982+00:00",
+      "next_check": "2026-09-29T16:07:59.446982+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/documents/latest-version/": {
       "content_sha": "a21f1ca21344d050ed9332bc4721c6cc9093236690ab57465b60b3493b7e58d8",
@@ -1483,10 +1483,10 @@
       "first_seen": "2026-08-25T21:04:51.012911+00:00",
       "last_changed": "2026-08-25T21:04:51.012911+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:23:56 GMT",
-      "last_seen": "2026-08-25T21:04:51.012911+00:00",
-      "next_check": "2026-08-26T21:04:51.012911+00:00",
+      "last_seen": "2026-09-27T16:08:03.790306+00:00",
+      "next_check": "2026-09-29T16:08:03.790306+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/documents/latest-version/call_routing_request.html": {
       "content_sha": null,
@@ -1940,10 +1940,10 @@
       "first_seen": "2026-08-25T21:04:55.265699+00:00",
       "last_changed": "2026-08-25T21:04:55.265699+00:00",
       "last_modified": "Tue, 09 Jun 2026 08:36:13 GMT",
-      "last_seen": "2026-08-25T21:04:55.265699+00:00",
-      "next_check": "2026-08-26T21:04:55.265699+00:00",
+      "last_seen": "2026-09-27T16:08:08.007205+00:00",
+      "next_check": "2026-09-29T16:08:08.007205+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/": {
       "content_sha": "552373227561f09428288da6903cf5cb62ffda44290e6d99f781c9415bad4dae",
@@ -1953,10 +1953,10 @@
       "first_seen": "2026-09-01T17:45:03.071390+00:00",
       "last_changed": "2026-09-01T17:45:03.071390+00:00",
       "last_modified": "Tue, 09 Jun 2026 08:28:01 GMT",
-      "last_seen": "2026-09-01T17:45:03.071390+00:00",
-      "next_check": "2026-09-02T17:45:03.071390+00:00",
+      "last_seen": "2026-09-27T16:08:12.087751+00:00",
+      "next_check": "2026-09-29T16:08:12.087751+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/configure-external-call-control-profile/": {
       "content_sha": "f87b7c3a73e5827f40ea63442b603d617abcc0a1066750b1ae12856dc1c334e5",
@@ -1966,10 +1966,10 @@
       "first_seen": "2026-09-07T14:10:19.936237+00:00",
       "last_changed": "2026-09-07T14:10:19.936237+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:20:53 GMT",
-      "last_seen": "2026-09-07T14:10:19.936237+00:00",
-      "next_check": "2026-09-08T14:10:19.936237+00:00",
+      "last_seen": "2026-09-27T16:08:16.521719+00:00",
+      "next_check": "2026-09-29T16:08:16.521719+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/curri-hello-world/": {
       "content_sha": "e3f59f5b010f289f509d961f048141bef3958e7da1d46eaf7837108911ea467e",
@@ -1979,10 +1979,10 @@
       "first_seen": "2026-09-07T14:10:10.953220+00:00",
       "last_changed": "2026-09-07T14:10:10.953220+00:00",
       "last_modified": "Mon, 22 Jun 2026 23:26:02 GMT",
-      "last_seen": "2026-09-07T14:10:10.953220+00:00",
-      "next_check": "2026-09-08T14:10:10.953220+00:00",
+      "last_seen": "2026-09-27T16:08:20.663587+00:00",
+      "next_check": "2026-09-29T16:08:20.663587+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/generate-call-routing-response/": {
       "content_sha": "38b6e687f9a6c5d84acabd367ae96f6974bc7981779e0bb1c14125ece0fb6aed",
@@ -1992,10 +1992,10 @@
       "first_seen": "2026-09-07T14:14:46.700918+00:00",
       "last_changed": "2026-09-07T14:14:46.700918+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:20:57 GMT",
-      "last_seen": "2026-09-07T14:14:46.700918+00:00",
-      "next_check": "2026-09-08T14:14:46.700918+00:00",
+      "last_seen": "2026-09-27T16:08:24.967426+00:00",
+      "next_check": "2026-09-29T16:08:24.967426+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/monitor-performance/": {
       "content_sha": "b96eebdfe7148c79107f97f1f30a913af97915791627cff813fd547794506d31",
@@ -2005,10 +2005,10 @@
       "first_seen": "2026-09-07T14:14:51.588399+00:00",
       "last_changed": "2026-09-07T14:14:51.588399+00:00",
       "last_modified": "Tue, 09 Jun 2026 17:29:13 GMT",
-      "last_seen": "2026-09-07T14:14:51.588399+00:00",
-      "next_check": "2026-09-08T14:14:51.588399+00:00",
+      "last_seen": "2026-09-27T16:08:29.239359+00:00",
+      "next_check": "2026-09-29T16:08:29.239359+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/learn/how-to/read-call-routing-request/": {
       "content_sha": "0617d16b97eebc01ec46c58035712b00e212d0318d8cd0175b8908892c6a5aac",
@@ -2018,10 +2018,10 @@
       "first_seen": "2026-09-07T14:10:24.520674+00:00",
       "last_changed": "2026-09-07T14:10:24.520674+00:00",
       "last_modified": "Mon, 08 Jun 2026 23:16:40 GMT",
-      "last_seen": "2026-09-07T14:10:24.520674+00:00",
-      "next_check": "2026-09-08T14:10:24.520674+00:00",
+      "last_seen": "2026-09-27T16:08:33.461840+00:00",
+      "next_check": "2026-09-29T16:08:33.461840+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/curri/overview/how-does-curri-work/": {
       "content_sha": "6aa21e79338d0f7ec789316938aabbe97ef096f03341648cee94fa5c3a2484db",
@@ -2031,10 +2031,10 @@
       "first_seen": "2026-09-01T17:35:16.391962+00:00",
       "last_changed": "2026-09-01T17:35:16.391962+00:00",
       "last_modified": "Tue, 23 Jun 2026 15:32:40 GMT",
-      "last_seen": "2026-09-01T17:35:16.391962+00:00",
-      "next_check": "2026-09-02T17:35:16.391962+00:00",
+      "last_seen": "2026-09-27T16:08:37.729644+00:00",
+      "next_check": "2026-09-29T16:08:37.729644+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/customer-voice-portal/": {
       "content_sha": "2ef571ac07bca66589c2b02737c3cdacb7587470fe9a2616c5312b73302c8d06",
@@ -2155,10 +2155,10 @@
       "first_seen": "2026-09-07T14:15:10.599476+00:00",
       "last_changed": "2026-09-07T14:15:10.599476+00:00",
       "last_modified": "Tue, 09 Jun 2026 16:47:42 GMT",
-      "last_seen": "2026-09-07T14:15:10.599476+00:00",
-      "next_check": "2026-09-08T14:15:10.599476+00:00",
+      "last_seen": "2026-09-27T16:08:41.832589+00:00",
+      "next_check": "2026-09-29T16:08:41.832589+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/discover/getting-started/": {
       "content_sha": "bfc459b6ae04493bacd1f06ec850dae9ec9340f38d2ab0bcde9fa313b198c36a",
@@ -2168,10 +2168,10 @@
       "first_seen": "2026-09-01T17:45:07.697452+00:00",
       "last_changed": "2026-09-01T17:45:07.697452+00:00",
       "last_modified": "Tue, 09 Jun 2026 16:47:44 GMT",
-      "last_seen": "2026-09-01T17:45:07.697452+00:00",
-      "next_check": "2026-09-02T17:45:07.697452+00:00",
+      "last_seen": "2026-09-27T16:08:45.972150+00:00",
+      "next_check": "2026-09-29T16:08:45.972150+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/discover/what-is-extension-mobility/": {
       "content_sha": "c973260aa8f8ae86db0a9319d1443cce7626f625da5966208548acf872b981e0",
@@ -2181,10 +2181,10 @@
       "first_seen": "2026-08-25T21:05:04.759978+00:00",
       "last_changed": "2026-08-25T21:05:04.759978+00:00",
       "last_modified": "Mon, 08 Jun 2026 15:34:37 GMT",
-      "last_seen": "2026-09-15T11:08:57.606729+00:00",
-      "next_check": "2026-09-19T11:08:57.606729+00:00",
+      "last_seen": "2026-09-27T16:08:50.295354+00:00",
+      "next_check": "2026-10-05T16:08:50.295354+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/extension-mobility/documents/": {
       "content_sha": "e77a0b3a46dc67e5705c9b7ffd9b2f6240a330551af7921dfda3ad7ce56f08fc",
@@ -2194,10 +2194,10 @@
       "first_seen": "2026-09-01T17:45:16.720735+00:00",
       "last_changed": "2026-09-01T17:45:16.720735+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:52:22 GMT",
-      "last_seen": "2026-09-01T17:45:16.720735+00:00",
-      "next_check": "2026-09-02T17:45:16.720735+00:00",
+      "last_seen": "2026-09-27T16:08:54.341081+00:00",
+      "next_check": "2026-09-29T16:08:54.341081+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/documents/latest-version/": {
       "content_sha": "eaddb04470fdbc2206716b9626f3c8bd42f13447747cec22a4e45a3ec8a0332a",
@@ -2207,10 +2207,10 @@
       "first_seen": "2026-08-25T21:05:10.149273+00:00",
       "last_changed": "2026-08-25T21:05:10.149273+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:57:34 GMT",
-      "last_seen": "2026-09-15T11:09:01.861082+00:00",
-      "next_check": "2026-09-19T11:09:01.861082+00:00",
+      "last_seen": "2026-09-27T16:08:58.791355+00:00",
+      "next_check": "2026-10-05T16:08:58.791355+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/extension-mobility/help/faq/": {
       "content_sha": "cf8ae3ad224ac5c9e588bc78860361973dea39d8de6311ca09cf0faabcd88235",
@@ -2220,10 +2220,10 @@
       "first_seen": "2026-08-25T21:05:14.424759+00:00",
       "last_changed": "2026-08-25T21:05:14.424759+00:00",
       "last_modified": "Mon, 08 Jun 2026 10:03:06 GMT",
-      "last_seen": "2026-09-15T11:09:06.202846+00:00",
-      "next_check": "2026-09-17T11:09:06.202846+00:00",
+      "last_seen": "2026-09-27T16:09:03.012348+00:00",
+      "next_check": "2026-10-01T16:09:03.012348+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/extension-mobility/learn/how-to/": {
       "content_sha": "d6dc84c7ddf553ea15dca0a879c398b7b5da79f8ab67ec97da3f04defe1b1056",
@@ -2233,10 +2233,10 @@
       "first_seen": "2026-09-07T14:15:05.532640+00:00",
       "last_changed": "2026-09-07T14:15:05.532640+00:00",
       "last_modified": "Tue, 09 Jun 2026 16:47:45 GMT",
-      "last_seen": "2026-09-07T14:15:05.532640+00:00",
-      "next_check": "2026-09-08T14:15:05.532640+00:00",
+      "last_seen": "2026-09-27T16:09:07.256407+00:00",
+      "next_check": "2026-09-29T16:09:07.256407+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/learn/how-to/hw-login/": {
       "content_sha": "5ac6a08849753a472d8b427221af489581d99a8bde8c49a46ccd774ec30fac0b",
@@ -2246,10 +2246,10 @@
       "first_seen": "2026-09-07T14:15:15.751002+00:00",
       "last_changed": "2026-09-07T14:15:15.751002+00:00",
       "last_modified": "Mon, 08 Jun 2026 15:34:35 GMT",
-      "last_seen": "2026-09-07T14:15:15.751002+00:00",
-      "next_check": "2026-09-08T14:15:15.751002+00:00",
+      "last_seen": "2026-09-27T16:09:11.584857+00:00",
+      "next_check": "2026-09-29T16:09:11.584857+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/extension-mobility/learn/sample-apps/": {
       "content_sha": "db87d9667bb15deff026d382bdea8ed844ead5d0c0b26a6074df5144fb06120d",
@@ -2259,10 +2259,10 @@
       "first_seen": "2026-09-01T17:45:12.326351+00:00",
       "last_changed": "2026-09-01T17:45:12.326351+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:35:07 GMT",
-      "last_seen": "2026-09-01T17:45:12.326351+00:00",
-      "next_check": "2026-09-02T17:45:12.326351+00:00",
+      "last_seen": "2026-09-27T16:09:15.896862+00:00",
+      "next_check": "2026-09-29T16:09:15.896862+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/finesse/": {
       "content_sha": "38baf7e9fccbc8b00470406940c7dd4147d1e16f98bbf18bc28b060c71e19d49",
@@ -2297,10 +2297,10 @@
       "first_seen": "2026-09-08T03:51:32.142370+00:00",
       "last_changed": "2026-09-08T03:51:32.142370+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:34:47 GMT",
-      "last_seen": "2026-09-08T03:51:32.142370+00:00",
-      "next_check": "2026-09-09T03:51:32.142370+00:00",
+      "last_seen": "2026-09-27T16:09:20.102938+00:00",
+      "next_check": "2026-09-29T16:09:20.102938+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/get-started/assurance/": {
       "content_sha": "3803668ee6720a8401245aa8d5e8c1e95d72f68695a849c154f0f707fdc9cf60",
@@ -2310,10 +2310,10 @@
       "first_seen": "2026-09-08T03:51:14.419399+00:00",
       "last_changed": "2026-09-08T03:51:14.419399+00:00",
       "last_modified": "Mon, 08 Jun 2026 14:27:07 GMT",
-      "last_seen": "2026-09-08T03:51:14.419399+00:00",
-      "next_check": "2026-09-09T03:51:14.419399+00:00",
+      "last_seen": "2026-09-27T16:09:24.281993+00:00",
+      "next_check": "2026-09-29T16:09:24.281993+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/get-started/collaboration-applications-apis/": {
       "content_sha": "52bcf7624e0dbd73b99ace5af57b45d1010500f00f1c71d5b081ff48958e33e0",
@@ -2323,10 +2323,10 @@
       "first_seen": "2026-09-08T03:51:10.376741+00:00",
       "last_changed": "2026-09-08T03:51:10.376741+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:11:12 GMT",
-      "last_seen": "2026-09-08T03:51:10.376741+00:00",
-      "next_check": "2026-09-09T03:51:10.376741+00:00",
+      "last_seen": "2026-09-27T16:09:28.592974+00:00",
+      "next_check": "2026-09-29T16:09:28.592974+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/get-started/fulfillment/": {
       "content_sha": "383639f84826d22d5856e18324e56b882212f1ab802273fcd5df61328f4c1507",
@@ -2336,10 +2336,10 @@
       "first_seen": "2026-09-07T14:15:35.226114+00:00",
       "last_changed": "2026-09-07T14:15:35.226114+00:00",
       "last_modified": "Thu, 11 Jun 2026 22:53:09 GMT",
-      "last_seen": "2026-09-07T14:15:35.226114+00:00",
-      "next_check": "2026-09-08T14:15:35.226114+00:00",
+      "last_seen": "2026-09-27T16:09:32.844897+00:00",
+      "next_check": "2026-09-29T16:09:32.844897+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/hcs-functional-overview/": {
       "content_sha": "bcdad59d2f88ed7f2aa35cb740345024a943394ab26f7a10e8ee90b5c3680ae5",
@@ -2349,10 +2349,10 @@
       "first_seen": "2026-09-07T14:15:20.954781+00:00",
       "last_changed": "2026-09-07T14:15:20.954781+00:00",
       "last_modified": "Mon, 08 Jun 2026 17:39:02 GMT",
-      "last_seen": "2026-09-07T14:15:20.954781+00:00",
-      "next_check": "2026-09-08T14:15:20.954781+00:00",
+      "last_seen": "2026-09-27T16:09:36.978050+00:00",
+      "next_check": "2026-09-29T16:09:36.978050+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/learn-about-hcs/": {
       "content_sha": "a91092416a29b1144696253945dacf3c65139cdafbd43a751a358f06a73935d1",
@@ -2362,10 +2362,10 @@
       "first_seen": "2026-09-01T17:45:21.178822+00:00",
       "last_changed": "2026-09-01T17:45:21.178822+00:00",
       "last_modified": "Mon, 08 Jun 2026 19:26:21 GMT",
-      "last_seen": "2026-09-01T17:45:21.178822+00:00",
-      "next_check": "2026-09-02T17:45:21.178822+00:00",
+      "last_seen": "2026-09-27T16:09:41.069419+00:00",
+      "next_check": "2026-09-29T16:09:41.069419+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/license-manager-ws/": {
       "content_sha": "27df6cd63658c7dc4fcf1f1fcf3ed7afba4f9a6e6a246767fdc76587bc7028ef",
@@ -2375,10 +2375,10 @@
       "first_seen": "2026-09-08T03:51:40.457645+00:00",
       "last_changed": "2026-09-08T03:51:40.457645+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:51:41 GMT",
-      "last_seen": "2026-09-08T03:51:40.457645+00:00",
-      "next_check": "2026-09-09T03:51:40.457645+00:00",
+      "last_seen": "2026-09-27T16:09:45.179154+00:00",
+      "next_check": "2026-09-29T16:09:45.179154+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/sdr-ws/": {
       "content_sha": "6032814dc2c75e006d949a4565666e0fda9b5d98d5ccc9722f1874b762f88b93",
@@ -2388,10 +2388,10 @@
       "first_seen": "2026-09-07T14:15:30.326310+00:00",
       "last_changed": "2026-09-07T14:15:30.326310+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:29:39 GMT",
-      "last_seen": "2026-09-07T14:15:30.326310+00:00",
-      "next_check": "2026-09-08T14:15:30.326310+00:00",
+      "last_seen": "2026-09-27T16:09:49.622236+00:00",
+      "next_check": "2026-09-29T16:09:49.622236+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/service-inventory-ws/": {
       "content_sha": "902feea0d59e292ebb1da3c08bb760c3cae02d7a7b3d029e11c790a87eea33c2",
@@ -2401,10 +2401,10 @@
       "first_seen": "2026-09-08T03:51:36.318532+00:00",
       "last_changed": "2026-09-08T03:51:36.318532+00:00",
       "last_modified": "Sun, 14 Jun 2026 08:01:31 GMT",
-      "last_seen": "2026-09-08T03:51:36.318532+00:00",
-      "next_check": "2026-09-09T03:51:36.318532+00:00",
+      "last_seen": "2026-09-27T16:09:53.858083+00:00",
+      "next_check": "2026-09-29T16:09:53.858083+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/discover/the-hsc-apis/": {
       "content_sha": "35b4905ddb92771718f6bedaea5e43662d86887f964a5a1f4f89dad102382cf3",
@@ -2414,10 +2414,10 @@
       "first_seen": "2026-09-08T03:51:18.615984+00:00",
       "last_changed": "2026-09-08T03:51:18.615984+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:44:13 GMT",
-      "last_seen": "2026-09-08T03:51:18.615984+00:00",
-      "next_check": "2026-09-09T03:51:18.615984+00:00",
+      "last_seen": "2026-09-27T16:09:57.914850+00:00",
+      "next_check": "2026-09-29T16:09:57.914850+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/documents/latest-version/": {
       "content_sha": "108067e148a8fdb7674c178b6fc941293afbbe8c5dc7cb63a6aa6061ec1ba312",
@@ -2427,10 +2427,10 @@
       "first_seen": "2026-09-01T17:45:25.547628+00:00",
       "last_changed": "2026-09-01T17:45:25.547628+00:00",
       "last_modified": "Wed, 10 Jun 2026 16:41:57 GMT",
-      "last_seen": "2026-09-08T03:51:18.732898+00:00",
-      "next_check": "2026-09-10T03:51:18.732898+00:00",
+      "last_seen": "2026-09-27T16:10:02.150635+00:00",
+      "next_check": "2026-10-01T16:10:02.150635+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/hcs/documents/previous-versions/": {
       "content_sha": "392246a1fe7f39f26c07085d738dcf2c4080effce0c77bfe35503151266d6c6c",
@@ -2440,10 +2440,10 @@
       "first_seen": "2026-09-07T14:15:26.002882+00:00",
       "last_changed": "2026-09-07T14:15:26.002882+00:00",
       "last_modified": "Thu, 11 Jun 2026 17:38:46 GMT",
-      "last_seen": "2026-09-07T14:15:26.002882+00:00",
-      "next_check": "2026-09-08T14:15:26.002882+00:00",
+      "last_seen": "2026-09-27T16:10:06.473345+00:00",
+      "next_check": "2026-09-29T16:10:06.473345+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/help/faqs/": {
       "content_sha": "5fac661cac7602e5197fed8e1c79a67bd71cc1ce372e8faaa595e9ed119dbf58",
@@ -2453,10 +2453,10 @@
       "first_seen": "2026-09-01T17:45:29.829448+00:00",
       "last_changed": "2026-09-01T17:45:29.829448+00:00",
       "last_modified": "Fri, 12 Jun 2026 08:04:52 GMT",
-      "last_seen": "2026-09-01T17:45:29.829448+00:00",
-      "next_check": "2026-09-02T17:45:29.829448+00:00",
+      "last_seen": "2026-09-27T16:10:10.864030+00:00",
+      "next_check": "2026-09-29T16:10:10.864030+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/learn/fulfillment-ws-sample/": {
       "content_sha": "1412a1f16cee6a2e8bce0a63b37901a4ecaf76c292030352195db3445ed12903",
@@ -2466,10 +2466,10 @@
       "first_seen": "2026-09-08T03:51:27.962064+00:00",
       "last_changed": "2026-09-08T03:51:27.962064+00:00",
       "last_modified": "Tue, 09 Jun 2026 08:13:21 GMT",
-      "last_seen": "2026-09-08T03:51:27.962064+00:00",
-      "next_check": "2026-09-09T03:51:27.962064+00:00",
+      "last_seen": "2026-09-27T16:10:15.149378+00:00",
+      "next_check": "2026-09-29T16:10:15.149378+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/hcs/overview/": {
       "content_sha": "906778e827e1a708d9168c8f66c08222c79eddfa24a5728052f63d4f9db7dd30",
@@ -2479,10 +2479,10 @@
       "first_seen": "2026-08-25T21:05:28.494234+00:00",
       "last_changed": "2026-08-25T21:05:28.494234+00:00",
       "last_modified": "Mon, 22 Jun 2026 17:12:13 GMT",
-      "last_seen": "2026-08-25T21:05:28.494234+00:00",
-      "next_check": "2026-08-26T21:05:28.494234+00:00",
+      "last_seen": "2026-09-27T16:10:19.507249+00:00",
+      "next_check": "2026-09-29T16:10:19.507249+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/": {
       "content_sha": "bae9a2573f9574efd53006b2c2df03435a06743b7d14613057882fabdf3e6607",
@@ -2505,10 +2505,10 @@
       "first_seen": "2026-09-01T17:45:43.073084+00:00",
       "last_changed": "2026-09-01T17:45:43.073084+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:54:04 GMT",
-      "last_seen": "2026-09-01T17:45:43.073084+00:00",
-      "next_check": "2026-09-02T17:45:43.073084+00:00",
+      "last_seen": "2026-09-27T16:10:23.629863+00:00",
+      "next_check": "2026-09-29T16:10:23.629863+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/client_config_web_service/": {
       "content_sha": "00ebf8c1aeed4ccb6e864f1fe6d03081e317d86665d0e5fbfeac5e71dbb01c1c",
@@ -2518,10 +2518,10 @@
       "first_seen": "2026-09-01T17:45:47.417906+00:00",
       "last_changed": "2026-09-01T17:45:47.417906+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:13:05 GMT",
-      "last_seen": "2026-09-01T17:45:47.417906+00:00",
-      "next_check": "2026-09-02T17:45:47.417906+00:00",
+      "last_seen": "2026-09-27T16:10:27.844096+00:00",
+      "next_check": "2026-09-29T16:10:27.844096+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/platform_soap_service/": {
       "content_sha": "f38c040dfd0063f91c25e44a8c5d3666c7ffd5b9c91584059e99b14bac50c141",
@@ -2531,10 +2531,10 @@
       "first_seen": "2026-09-01T17:45:56.252030+00:00",
       "last_changed": "2026-09-01T17:45:56.252030+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:50:49 GMT",
-      "last_seen": "2026-09-01T17:45:56.252030+00:00",
-      "next_check": "2026-09-02T17:45:56.252030+00:00",
+      "last_seen": "2026-09-27T16:10:32.159931+00:00",
+      "next_check": "2026-09-29T16:10:32.159931+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/presence_web_service/": {
       "content_sha": "c7a6a8cde9d5758f661cebc9b0f8ad7cddc22077827ca59df83fc862f5d227f7",
@@ -2544,10 +2544,10 @@
       "first_seen": "2026-09-01T17:45:51.871316+00:00",
       "last_changed": "2026-09-01T17:45:51.871316+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:02:28 GMT",
-      "last_seen": "2026-09-01T17:45:51.871316+00:00",
-      "next_check": "2026-09-02T17:45:51.871316+00:00",
+      "last_seen": "2026-09-27T16:10:36.244300+00:00",
+      "next_check": "2026-09-29T16:10:36.244300+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/sip-simple_overview/": {
       "content_sha": "88b8f2d4b142dd5e3b54ddd1aefe3490724b53f9fd24b0a8bc536c08ecbf75e4",
@@ -2557,10 +2557,10 @@
       "first_seen": "2026-09-01T17:45:34.372346+00:00",
       "last_changed": "2026-09-01T17:45:34.372346+00:00",
       "last_modified": "Mon, 08 Jun 2026 10:55:29 GMT",
-      "last_seen": "2026-09-01T17:45:34.372346+00:00",
-      "next_check": "2026-09-02T17:45:34.372346+00:00",
+      "last_seen": "2026-09-27T16:10:40.477113+00:00",
+      "next_check": "2026-09-29T16:10:40.477113+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/xmpp_overview/": {
       "content_sha": "3a95a8bc90070ac28e2b8277a3ee82911a03a4abb8bc1d9fa492fb023c18e22c",
@@ -2570,10 +2570,10 @@
       "first_seen": "2026-09-01T17:45:38.708900+00:00",
       "last_changed": "2026-09-01T17:45:38.708900+00:00",
       "last_modified": "Mon, 08 Jun 2026 13:24:55 GMT",
-      "last_seen": "2026-09-01T17:45:38.708900+00:00",
-      "next_check": "2026-09-02T17:45:38.708900+00:00",
+      "last_seen": "2026-09-27T16:10:44.507213+00:00",
+      "next_check": "2026-09-29T16:10:44.507213+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/discover/getting_started/": {
       "content_sha": "9dc58e6a5aef4e878013cc7e46b953320bef2690a809769128b07ba986acb508",
@@ -2583,10 +2583,10 @@
       "first_seen": "2026-08-25T21:05:37.428722+00:00",
       "last_changed": "2026-08-25T21:05:37.428722+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:37:30 GMT",
-      "last_seen": "2026-09-15T11:09:14.416306+00:00",
-      "next_check": "2026-09-17T11:09:14.416306+00:00",
+      "last_seen": "2026-09-27T16:10:48.871702+00:00",
+      "next_check": "2026-10-01T16:10:48.871702+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/im-and-presence/discover/overview/": {
       "content_sha": "91c4e4698f580de17a6eb1771a1e0d220b684688c9e52b503ed6e60dd423b773",
@@ -2596,10 +2596,10 @@
       "first_seen": "2026-08-25T21:05:33.144602+00:00",
       "last_changed": "2026-08-25T21:05:33.144602+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:24:04 GMT",
-      "last_seen": "2026-09-15T11:09:10.281472+00:00",
-      "next_check": "2026-09-17T11:09:10.281472+00:00",
+      "last_seen": "2026-09-27T16:10:53.213430+00:00",
+      "next_check": "2026-10-01T16:10:53.213430+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/im-and-presence/documents/": {
       "content_sha": "72d39f88e9d5a07503d9a661d34585c6af497fb3da9b4b5b13b56383fc84b7d2",
@@ -2609,10 +2609,10 @@
       "first_seen": "2026-09-01T17:46:04.404535+00:00",
       "last_changed": "2026-09-01T17:46:04.404535+00:00",
       "last_modified": "Mon, 22 Jun 2026 23:46:14 GMT",
-      "last_seen": "2026-09-01T17:46:04.404535+00:00",
-      "next_check": "2026-09-02T17:46:04.404535+00:00",
+      "last_seen": "2026-09-27T16:10:57.485885+00:00",
+      "next_check": "2026-09-29T16:10:57.485885+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/documents/developer-cookbook-v10-5/": {
       "content_sha": "8c84db6f30d38e606b712b869d585d1b116b3f9eff1f120cb3aff6e71b6d8249",
@@ -2622,10 +2622,10 @@
       "first_seen": "2026-09-01T17:46:09.887502+00:00",
       "last_changed": "2026-09-01T17:46:09.887502+00:00",
       "last_modified": "Tue, 09 Jun 2026 11:57:48 GMT",
-      "last_seen": "2026-09-01T17:46:09.887502+00:00",
-      "next_check": "2026-09-02T17:46:09.887502+00:00",
+      "last_seen": "2026-09-27T16:11:01.642346+00:00",
+      "next_check": "2026-09-29T16:11:01.642346+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/downloads/caxl_downloads/": {
       "content_sha": "eb7aaefee55c09a7f76671aa3e8c8a7b74573b31d271b16f8fa657c6d14f7ca5",
@@ -2635,10 +2635,10 @@
       "first_seen": "2026-09-07T14:15:40.512413+00:00",
       "last_changed": "2026-09-07T14:15:40.512413+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:37:26 GMT",
-      "last_seen": "2026-09-07T14:15:40.512413+00:00",
-      "next_check": "2026-09-08T14:15:40.512413+00:00",
+      "last_seen": "2026-09-27T16:11:05.705004+00:00",
+      "next_check": "2026-09-29T16:11:05.705004+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/im-and-presence/downloads/web_services_reference_app/": {
       "content_sha": "629471586688ee887be1e18904eddf3391f9a5583a9278691a8fd1a5e95f910e",
@@ -2648,10 +2648,10 @@
       "first_seen": "2026-08-25T21:05:41.730262+00:00",
       "last_changed": "2026-08-25T21:05:41.730262+00:00",
       "last_modified": "Wed, 24 Jun 2026 17:17:06 GMT",
-      "last_seen": "2026-09-15T11:09:18.470869+00:00",
-      "next_check": "2026-09-19T11:09:18.470869+00:00",
+      "last_seen": "2026-09-27T16:11:09.933677+00:00",
+      "next_check": "2026-10-05T16:11:09.933677+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/ip-phone-services/": {
       "content_sha": "23493c395b06d43ebd9537ab0ab6e10af7fddda1b0d037f47ca063361d1433a5",
@@ -2674,10 +2674,10 @@
       "first_seen": "2026-08-25T21:05:45.893029+00:00",
       "last_changed": "2026-08-25T21:05:45.893029+00:00",
       "last_modified": "Mon, 08 Jun 2026 20:10:42 GMT",
-      "last_seen": "2026-09-01T18:40:39.315513+00:00",
-      "next_check": "2026-09-03T18:40:39.315513+00:00",
+      "last_seen": "2026-09-27T16:11:14.315470+00:00",
+      "next_check": "2026-10-01T16:11:14.315470+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/ip-phone-services/discover/technical-overview/": {
       "content_sha": "9e7bcd75bf4d4a00d9aea9323590cfc6e9a389e4eb744666695b7e8a84269020",
@@ -2687,10 +2687,10 @@
       "first_seen": "2026-08-25T21:05:50.201033+00:00",
       "last_changed": "2026-08-25T21:05:50.201033+00:00",
       "last_modified": "Wed, 10 Jun 2026 03:15:55 GMT",
-      "last_seen": "2026-09-01T18:40:43.492312+00:00",
-      "next_check": "2026-09-03T18:40:43.492312+00:00",
+      "last_seen": "2026-09-27T16:11:18.516973+00:00",
+      "next_check": "2026-10-01T16:11:18.516973+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/ip-phone-services/documentation/": {
       "content_sha": "985767d2ac8b795071b9118402790548b9122e114e324a6d53549c9024cf4c64",
@@ -2700,10 +2700,10 @@
       "first_seen": "2026-08-25T16:54:07.154811+00:00",
       "last_changed": "2026-08-25T16:54:07.154811+00:00",
       "last_modified": "Mon, 08 Jun 2026 22:24:56 GMT",
-      "last_seen": "2026-09-14T18:57:34.219702+00:00",
-      "next_check": "2026-09-18T18:57:34.219702+00:00",
+      "last_seen": "2026-09-27T16:11:22.998640+00:00",
+      "next_check": "2026-10-05T16:11:22.998640+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/ip-phone-services/overview/": {
       "content_sha": "eb1431a63d4b537999f4e00d1517327fc2cbc351041d73b7f92217683126c4a1",
@@ -178457,5 +178457,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T15:41:28.940608+00:00"
+  "updated_at": "2026-09-27T16:11:23.049813+00:00"
 }
