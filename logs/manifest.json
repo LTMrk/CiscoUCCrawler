@@ -12357,6 +12357,16 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221643-troubleshoot-pdd-in-webex-calling-with-p-53e32d4788",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:23:03.698646+00:00",
+      "last_seen": "2026-09-27T15:23:03.698659+00:00",
+      "next_check": "2026-09-28T15:23:03.698662+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.html": {
       "content_sha": "114ac876585dca381d2ad6dc81d79d916ee39465f65ad32c0b02ed8f3f8d8c0d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221643-troubleshoot-pdd-in-webex-calling-with-p-233776776e",
@@ -16362,6 +16372,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221934-troubleshoot-attendant-console-issues-in--ce2486587a",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:47.076172+00:00",
+      "last_seen": "2026-09-27T15:22:47.076186+00:00",
+      "next_check": "2026-09-28T15:22:47.076190+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.html": {
       "content_sha": "0be485bc44e2eb9aa35335cac71d256cbeb239aea8503fff0a884a34e7acbdad",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221934-troubleshoot-attendant-console-issues-in--6f6a774c88",
@@ -16375,6 +16395,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221934-troubleshoot-attendant-console-issues-in--014923a867",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:51.229569+00:00",
+      "last_seen": "2026-09-27T15:22:51.229586+00:00",
+      "next_check": "2026-09-28T15:22:51.229592+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221935-troubleshoot-hoteling-in-mpp-devices-for--e6d33dd1ff",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:55.238474+00:00",
+      "last_seen": "2026-09-27T15:22:55.238487+00:00",
+      "next_check": "2026-09-28T15:22:55.238491+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.html": {
       "content_sha": "4acac256694450c4fb176c464aae700d531af9d6b72bbb8ef50d65c079bce938",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221935-troubleshoot-hoteling-in-mpp-devices-for--6542189b89",
@@ -16386,6 +16426,16 @@
       "last_seen": "2026-09-27T12:49:27.542121+00:00",
       "next_check": "2026-09-28T12:49:27.542121+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221935-troubleshoot-hoteling-in-mpp-devices-for--668206f2df",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:59.466645+00:00",
+      "last_seen": "2026-09-27T15:22:59.466659+00:00",
+      "next_check": "2026-09-28T15:22:59.466663+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.html": {
@@ -16414,6 +16464,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222137-troubleshoot-webex-calling-video-calls-e--17e3d97e24",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:38.863889+00:00",
+      "last_seen": "2026-09-27T15:22:38.863903+00:00",
+      "next_check": "2026-09-28T15:22:38.863906+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.html": {
       "content_sha": "0486bbd0de0e6bfa0e11c8cff17e75ce7ba613c65fb33d98553e6930e6a0266f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222137-troubleshoot-webex-calling-video-calls-e--d06ddfa24e",
@@ -16425,6 +16485,16 @@
       "last_seen": "2026-09-27T12:49:19.404561+00:00",
       "next_check": "2026-09-28T12:49:19.404561+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222137-troubleshoot-webex-calling-video-calls-e--7f7839c195",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:42.901271+00:00",
+      "last_seen": "2026-09-27T15:22:42.901287+00:00",
+      "next_check": "2026-09-28T15:22:42.901292+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.epub": {
@@ -16506,6 +16576,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222153-recognize-how-dial-by-name-works-epub-8e4935572a",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:30.245363+00:00",
+      "last_seen": "2026-09-27T15:22:30.248401+00:00",
+      "next_check": "2026-09-28T15:22:30.248410+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.html": {
       "content_sha": "fec9befef8d2c1725335a650f9e7ff1cf7e337c9dd086fb5f4ed0f97573972b3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222153-recognize-how-dial-by-name-works-html-a4339b94a7",
@@ -16517,6 +16597,16 @@
       "last_seen": "2026-09-27T12:49:15.184764+00:00",
       "next_check": "2026-09-28T12:49:15.184764+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222153-recognize-how-dial-by-name-works-mobi-407e9fc8c3",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:34.603105+00:00",
+      "last_seen": "2026-09-27T15:22:34.603120+00:00",
+      "next_check": "2026-09-28T15:22:34.603125+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.epub": {
@@ -16540,6 +16630,16 @@
       "last_seen": "2026-09-27T12:49:11.157916+00:00",
       "next_check": "2026-09-28T12:49:11.157916+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222804-collect-the-connector-logs-webex-calli-mo-edc17a2e81",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:22:26.449587+00:00",
+      "last_seen": "2026-09-27T15:22:26.449600+00:00",
+      "next_check": "2026-09-28T15:22:26.449604+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.epub": {
@@ -178124,5 +178224,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T15:20:32.272698+00:00"
+  "updated_at": "2026-09-27T15:23:03.752335+00:00"
 }
