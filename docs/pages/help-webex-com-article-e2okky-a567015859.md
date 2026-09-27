@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-article-e2okky-a567015859
 source_url: https://help.webex.com/article/e2okky
-retrieved_at: 2026-09-01T21:38:38.370789+00:00
+retrieved_at: 2026-09-27T19:34:45.255999+00:00
 ---
 
 ## Add a list of users
@@ -168,3 +168,7 @@ When complete, click Download to access the report.
           organization. |
 | 5 | Click View report progress to monitor the report progress. Starting a new report cancels the current one when a report is already in progress. |
 | 6 | When complete, click Download to access the report. |
+
+## Figuras
+
+![access button drop down](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/491001-492000/491068.svg)

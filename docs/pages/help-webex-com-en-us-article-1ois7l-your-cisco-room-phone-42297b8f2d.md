@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-1ois7l-your-cisco-room-phone-42297b8f2d
 source_url: https://help.webex.com/en-us/article/1ois7l/Your-Cisco-Room-Phone
-retrieved_at: 2026-09-07T15:42:46.184458+00:00
+retrieved_at: 2026-09-27T19:35:52.765028+00:00
 ---
 
 The Cisco Room Phone provides a collaborate work experience for huddle spaces and meeting rooms. You can use the phone to make calls, to share information, and to collaborate during meetings. Connect a screen display, and you can collaborate with everyone in the room.
@@ -301,3 +301,15 @@ Your formal Warranty Statement, including the warranties and license agreements 
 | 1 | Plug the end of the microphone cable into the port on the side of the phone. |
 |---|---|
 | 2 | Extend the microphone cable to the desired position. The following figure shows installation of a wired expansion microphone. Wired Expansion Microphone Installation |
+
+## Figuras
+
+![Cisco Room Phone](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/446001-447000/446406.jpg)
+
+![Cisco Room Phone top view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451969.jpg)
+
+![Cisco Room Phone rear view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/447001-448000/447177.jpg)
+
+![Cisco Room Phone home screen](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/447001-448000/447404.jpg)
+
+![Wired Expansion Microphone Installation](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/447001-448000/447452.jpg)

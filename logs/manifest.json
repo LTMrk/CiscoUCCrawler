@@ -2713,10 +2713,10 @@
       "first_seen": "2026-09-07T14:17:50.856604+00:00",
       "last_changed": "2026-09-07T14:17:50.856604+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:46:48 GMT",
-      "last_seen": "2026-09-07T14:17:50.856604+00:00",
-      "next_check": "2026-09-08T14:17:50.856604+00:00",
+      "last_seen": "2026-09-27T19:27:14.356560+00:00",
+      "next_check": "2026-09-29T19:27:14.356560+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-bots/": {
       "content_sha": null,
@@ -2748,10 +2748,10 @@
       "first_seen": "2026-09-01T17:46:22.802378+00:00",
       "last_changed": "2026-09-01T17:46:22.802378+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:54:00 GMT",
-      "last_seen": "2026-09-01T17:46:22.802378+00:00",
-      "next_check": "2026-09-02T17:46:22.802378+00:00",
+      "last_seen": "2026-09-27T19:27:18.409630+00:00",
+      "next_check": "2026-09-29T19:27:18.409630+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_6_9/": {
       "content_sha": "7cdf1d2879fdda37599d1427d4ebe25370e4b7030bcaffa172e95f0b8ddc8ee5",
@@ -2761,10 +2761,10 @@
       "first_seen": "2026-09-01T17:46:18.609892+00:00",
       "last_changed": "2026-09-01T17:46:18.609892+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:00:55 GMT",
-      "last_seen": "2026-09-01T17:46:18.609892+00:00",
-      "next_check": "2026-09-02T17:46:18.609892+00:00",
+      "last_seen": "2026-09-27T19:27:22.557720+00:00",
+      "next_check": "2026-09-29T19:27:22.557720+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_5_3/": {
       "content_sha": "0084825a288f3f4890ba408af5adb6b3a0e16021d8e9e807d659e008c1a10f57",
@@ -2774,10 +2774,10 @@
       "first_seen": "2026-09-01T17:47:19.256522+00:00",
       "last_changed": "2026-09-01T17:47:19.256522+00:00",
       "last_modified": "Wed, 10 Jun 2026 16:01:41 GMT",
-      "last_seen": "2026-09-01T17:47:19.256522+00:00",
-      "next_check": "2026-09-02T17:47:19.256522+00:00",
+      "last_seen": "2026-09-27T19:27:26.823566+00:00",
+      "next_check": "2026-09-29T19:27:26.823566+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_10/": {
       "content_sha": "ee8b8ca5c15f5c58d81a00f544d205b6dc5acb572d69ba7fb268514fd6c6f89f",
@@ -2787,10 +2787,10 @@
       "first_seen": "2026-09-01T17:47:06.080659+00:00",
       "last_changed": "2026-09-01T17:47:06.080659+00:00",
       "last_modified": "Sat, 13 Jun 2026 21:09:10 GMT",
-      "last_seen": "2026-09-01T17:47:06.080659+00:00",
-      "next_check": "2026-09-02T17:47:06.080659+00:00",
+      "last_seen": "2026-09-27T19:27:31.282258+00:00",
+      "next_check": "2026-09-29T19:27:31.282258+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_11/": {
       "content_sha": "5c295ff844b7a9d3b0befd6f2493ae8f110c4772a8bd343cb00f85d14354e03f",
@@ -2800,10 +2800,10 @@
       "first_seen": "2026-09-01T17:47:01.647052+00:00",
       "last_changed": "2026-09-01T17:47:01.647052+00:00",
       "last_modified": "Mon, 15 Jun 2026 01:33:27 GMT",
-      "last_seen": "2026-09-01T17:47:01.647052+00:00",
-      "next_check": "2026-09-02T17:47:01.647052+00:00",
+      "last_seen": "2026-09-27T19:27:35.228216+00:00",
+      "next_check": "2026-09-29T19:27:35.228216+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_7/": {
       "content_sha": "a4a165fadd8eef5e76bded8b0bc6d63d882e300b8a41fc7068f0fd9ff4d498a3",
@@ -2813,10 +2813,10 @@
       "first_seen": "2026-09-01T17:47:14.880371+00:00",
       "last_changed": "2026-09-01T17:47:14.880371+00:00",
       "last_modified": "Sun, 14 Jun 2026 02:47:38 GMT",
-      "last_seen": "2026-09-01T17:47:14.880371+00:00",
-      "next_check": "2026-09-02T17:47:14.880371+00:00",
+      "last_seen": "2026-09-27T19:27:39.689568+00:00",
+      "next_check": "2026-09-29T19:27:39.689568+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_9/": {
       "content_sha": "64f72b43baf0a4c54b9a70d7e7320e16f16253b7b8399c79735a5f37bbb24a87",
@@ -2826,10 +2826,10 @@
       "first_seen": "2026-09-01T17:47:10.438970+00:00",
       "last_changed": "2026-09-01T17:47:10.438970+00:00",
       "last_modified": "Mon, 08 Jun 2026 13:56:45 GMT",
-      "last_seen": "2026-09-01T17:47:10.438970+00:00",
-      "next_check": "2026-09-02T17:47:10.438970+00:00",
+      "last_seen": "2026-09-27T19:27:43.602218+00:00",
+      "next_check": "2026-09-29T19:27:43.602218+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_0/": {
       "content_sha": "9c591232ee14fa3e33ee22e57ddde69dccf62184894896d54c0ff381bc47d07e",
@@ -2839,10 +2839,10 @@
       "first_seen": "2026-09-01T17:46:57.256943+00:00",
       "last_changed": "2026-09-01T17:46:57.256943+00:00",
       "last_modified": "Tue, 09 Jun 2026 00:28:59 GMT",
-      "last_seen": "2026-09-01T17:46:57.256943+00:00",
-      "next_check": "2026-09-02T17:46:57.256943+00:00",
+      "last_seen": "2026-09-27T19:27:47.736908+00:00",
+      "next_check": "2026-09-29T19:27:47.736908+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_1/": {
       "content_sha": "6a3c2921ac62c7b5608cee5196cc8ad90124bc2e4be7a54aadd0e3bccd5ff7e9",
@@ -2852,10 +2852,10 @@
       "first_seen": "2026-09-01T17:46:52.875632+00:00",
       "last_changed": "2026-09-01T17:46:52.875632+00:00",
       "last_modified": "Wed, 10 Jun 2026 23:22:09 GMT",
-      "last_seen": "2026-09-01T17:46:52.875632+00:00",
-      "next_check": "2026-09-02T17:46:52.875632+00:00",
+      "last_seen": "2026-09-27T19:27:51.931187+00:00",
+      "next_check": "2026-09-29T19:27:51.931187+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_2/": {
       "content_sha": "71d8eea6357f61018c0309509a3fbb21d110688d2faca1908a97524bd641294f",
@@ -2865,10 +2865,10 @@
       "first_seen": "2026-09-01T17:46:48.529931+00:00",
       "last_changed": "2026-09-01T17:46:48.529931+00:00",
       "last_modified": "Wed, 10 Jun 2026 21:43:17 GMT",
-      "last_seen": "2026-09-01T17:46:48.529931+00:00",
-      "next_check": "2026-09-02T17:46:48.529931+00:00",
+      "last_seen": "2026-09-27T19:27:56.306610+00:00",
+      "next_check": "2026-09-29T19:27:56.306610+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_0/": {
       "content_sha": "40746969f29ad12ed783d90898b520205b38956ed44c215c5910c7007744b612",
@@ -2878,10 +2878,10 @@
       "first_seen": "2026-09-01T17:46:44.267749+00:00",
       "last_changed": "2026-09-01T17:46:44.267749+00:00",
       "last_modified": "Tue, 09 Jun 2026 02:02:08 GMT",
-      "last_seen": "2026-09-01T17:46:44.267749+00:00",
-      "next_check": "2026-09-02T17:46:44.267749+00:00",
+      "last_seen": "2026-09-27T19:28:00.432367+00:00",
+      "next_check": "2026-09-29T19:28:00.432367+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_3/": {
       "content_sha": "8e290bfad10fe1db5a79c2869cab8aeab87f4c2d0b7aaf130ee90714fec75dd8",
@@ -2891,10 +2891,10 @@
       "first_seen": "2026-09-01T17:46:35.709652+00:00",
       "last_changed": "2026-09-01T17:46:35.709652+00:00",
       "last_modified": "Fri, 12 Jun 2026 00:52:53 GMT",
-      "last_seen": "2026-09-01T17:46:35.709652+00:00",
-      "next_check": "2026-09-02T17:46:35.709652+00:00",
+      "last_seen": "2026-09-27T19:28:04.589707+00:00",
+      "next_check": "2026-09-29T19:28:04.589707+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_2_0/": {
       "content_sha": "f665bcf6911990792ce71e3de3e07f28b48d0ab18803be1c7630352a4c74a423",
@@ -2904,10 +2904,10 @@
       "first_seen": "2026-09-01T17:46:31.393267+00:00",
       "last_changed": "2026-09-01T17:46:31.393267+00:00",
       "last_modified": "Tue, 09 Jun 2026 10:23:24 GMT",
-      "last_seen": "2026-09-01T17:46:31.393267+00:00",
-      "next_check": "2026-09-02T17:46:31.393267+00:00",
+      "last_seen": "2026-09-27T19:28:08.596008+00:00",
+      "next_check": "2026-09-29T19:28:08.596008+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_5_4/": {
       "content_sha": "8fc71f08ec5be3cd8da8aba5c9ada14b72a3d0ebdf59305b44c11f112d49d600",
@@ -2917,10 +2917,10 @@
       "first_seen": "2026-09-01T17:48:33.092641+00:00",
       "last_changed": "2026-09-01T17:48:33.092641+00:00",
       "last_modified": "Mon, 15 Jun 2026 01:28:53 GMT",
-      "last_seen": "2026-09-01T17:48:33.092641+00:00",
-      "next_check": "2026-09-02T17:48:33.092641+00:00",
+      "last_seen": "2026-09-27T19:28:12.734615+00:00",
+      "next_check": "2026-09-29T19:28:12.734615+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_10/": {
       "content_sha": "fa967f85f41f3ef297322f72f60d97d93e29c6dc3707d65aed77f95e266b11e9",
@@ -2930,10 +2930,10 @@
       "first_seen": "2026-09-01T17:48:15.590100+00:00",
       "last_changed": "2026-09-01T17:48:15.590100+00:00",
       "last_modified": "Sat, 13 Jun 2026 03:18:40 GMT",
-      "last_seen": "2026-09-01T17:48:15.590100+00:00",
-      "next_check": "2026-09-02T17:48:15.590100+00:00",
+      "last_seen": "2026-09-27T19:28:16.756418+00:00",
+      "next_check": "2026-09-29T19:28:16.756418+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_11/": {
       "content_sha": "508d034acb04709fe1ff182fde19c6ab19814faf471e9a2591cbfbd4b81c58d0",
@@ -2943,10 +2943,10 @@
       "first_seen": "2026-09-01T17:48:11.154916+00:00",
       "last_changed": "2026-09-01T17:48:11.154916+00:00",
       "last_modified": "Mon, 15 Jun 2026 01:51:50 GMT",
-      "last_seen": "2026-09-01T17:48:11.154916+00:00",
-      "next_check": "2026-09-02T17:48:11.154916+00:00",
+      "last_seen": "2026-09-27T19:28:20.858363+00:00",
+      "next_check": "2026-09-29T19:28:20.858363+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_7/": {
       "content_sha": "8f32d8b87962b1d55a9adfc0125951c3658c10d05ed5465414e276e9f0bc8356",
@@ -2956,10 +2956,10 @@
       "first_seen": "2026-09-01T17:48:28.687166+00:00",
       "last_changed": "2026-09-01T17:48:28.687166+00:00",
       "last_modified": "Fri, 12 Jun 2026 07:24:16 GMT",
-      "last_seen": "2026-09-01T17:48:28.687166+00:00",
-      "next_check": "2026-09-02T17:48:28.687166+00:00",
+      "last_seen": "2026-09-27T19:28:24.941982+00:00",
+      "next_check": "2026-09-29T19:28:24.941982+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_8/": {
       "content_sha": "4a10310bcc01c10ec0eb1ba9aa3bcf4a1da811442da0581ae3b0bf7ff2440791",
@@ -2969,10 +2969,10 @@
       "first_seen": "2026-09-01T17:48:24.383731+00:00",
       "last_changed": "2026-09-01T17:48:24.383731+00:00",
       "last_modified": "Sat, 13 Jun 2026 09:21:10 GMT",
-      "last_seen": "2026-09-01T17:48:24.383731+00:00",
-      "next_check": "2026-09-02T17:48:24.383731+00:00",
+      "last_seen": "2026-09-27T19:28:28.995694+00:00",
+      "next_check": "2026-09-29T19:28:28.995694+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_9/": {
       "content_sha": "1d375988a11af4c9b6c004233dac042cde7b759cc7f5e47db95d6a140beff9af",
@@ -2982,10 +2982,10 @@
       "first_seen": "2026-09-01T17:48:20.008509+00:00",
       "last_changed": "2026-09-01T17:48:20.008509+00:00",
       "last_modified": "Sat, 13 Jun 2026 17:11:06 GMT",
-      "last_seen": "2026-09-01T17:48:20.008509+00:00",
-      "next_check": "2026-09-02T17:48:20.008509+00:00",
+      "last_seen": "2026-09-27T19:28:33.331735+00:00",
+      "next_check": "2026-09-29T19:28:33.331735+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_0/": {
       "content_sha": "5add513a71be752352c79dbe5ec3173285af694cdb8b2284f629e52d02568870",
@@ -2995,10 +2995,10 @@
       "first_seen": "2026-09-01T17:48:06.791227+00:00",
       "last_changed": "2026-09-01T17:48:06.791227+00:00",
       "last_modified": "Fri, 12 Jun 2026 23:11:16 GMT",
-      "last_seen": "2026-09-01T17:48:06.791227+00:00",
-      "next_check": "2026-09-02T17:48:06.791227+00:00",
+      "last_seen": "2026-09-27T19:28:37.369953+00:00",
+      "next_check": "2026-09-29T19:28:37.369953+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_1/": {
       "content_sha": "100f2da4765a8efafcd5aab5feda7ad84b8bcdc0f7a23973ef7a5734ee631b46",
@@ -3008,10 +3008,10 @@
       "first_seen": "2026-09-01T17:48:02.445400+00:00",
       "last_changed": "2026-09-01T17:48:02.445400+00:00",
       "last_modified": "Wed, 10 Jun 2026 19:43:30 GMT",
-      "last_seen": "2026-09-01T17:48:02.445400+00:00",
-      "next_check": "2026-09-02T17:48:02.445400+00:00",
+      "last_seen": "2026-09-27T19:28:41.364084+00:00",
+      "next_check": "2026-09-29T19:28:41.364084+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_2/": {
       "content_sha": "1dc17647ee51c492314553b22a3d7b9cf77db140cc0c0069fb4fa4e98c10facb",
@@ -3021,10 +3021,10 @@
       "first_seen": "2026-09-01T17:47:58.101531+00:00",
       "last_changed": "2026-09-01T17:47:58.101531+00:00",
       "last_modified": "Thu, 11 Jun 2026 08:12:42 GMT",
-      "last_seen": "2026-09-01T17:47:58.101531+00:00",
-      "next_check": "2026-09-02T17:47:58.101531+00:00",
+      "last_seen": "2026-09-27T19:28:45.580353+00:00",
+      "next_check": "2026-09-29T19:28:45.580353+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_0/": {
       "content_sha": "17b93da9d145ef8cb993ce9616dd3726931e356f8f0959ee2998671b4f59125e",
@@ -3034,10 +3034,10 @@
       "first_seen": "2026-09-01T17:47:53.808285+00:00",
       "last_changed": "2026-09-01T17:47:53.808285+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:37:10 GMT",
-      "last_seen": "2026-09-01T17:47:53.808285+00:00",
-      "next_check": "2026-09-02T17:47:53.808285+00:00",
+      "last_seen": "2026-09-27T19:28:49.679915+00:00",
+      "next_check": "2026-09-29T19:28:49.679915+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_1/": {
       "content_sha": "64cbc0dc7e624522efb541cafe0b9222c5a9be785ab35666953aee98fe3f1e44",
@@ -3047,10 +3047,10 @@
       "first_seen": "2026-09-01T17:47:49.535131+00:00",
       "last_changed": "2026-09-01T17:47:49.535131+00:00",
       "last_modified": "Thu, 18 Jun 2026 20:56:58 GMT",
-      "last_seen": "2026-09-01T17:47:49.535131+00:00",
-      "next_check": "2026-09-02T17:47:49.535131+00:00",
+      "last_seen": "2026-09-27T19:28:54.135491+00:00",
+      "next_check": "2026-09-29T19:28:54.135491+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3/": {
       "content_sha": "b27f9a7efee2752d0c575038ade087ebe53fa672cace3fadd92cad02b3360327",
@@ -3060,10 +3060,10 @@
       "first_seen": "2026-09-01T17:47:45.219843+00:00",
       "last_changed": "2026-09-01T17:47:45.219843+00:00",
       "last_modified": "Fri, 19 Jun 2026 23:20:40 GMT",
-      "last_seen": "2026-09-01T17:47:45.219843+00:00",
-      "next_check": "2026-09-02T17:47:45.219843+00:00",
+      "last_seen": "2026-09-27T19:28:58.283302+00:00",
+      "next_check": "2026-09-29T19:28:58.283302+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3_233/": {
       "content_sha": "e89abd1756eb2766907c1c962fc858ef9f659aa39dd5c65f1104529b3fe8b7ca",
@@ -3073,10 +3073,10 @@
       "first_seen": "2026-09-01T17:47:40.775761+00:00",
       "last_changed": "2026-09-01T17:47:40.775761+00:00",
       "last_modified": "Sat, 13 Jun 2026 02:00:54 GMT",
-      "last_seen": "2026-09-01T17:47:40.775761+00:00",
-      "next_check": "2026-09-02T17:47:40.775761+00:00",
+      "last_seen": "2026-09-27T19:29:02.384884+00:00",
+      "next_check": "2026-09-29T19:29:02.384884+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_1/": {
       "content_sha": "3147bc1bb50c4ecc7f2d93522b0c16eed860e984ca5e682b284912f5b3772893",
@@ -3086,10 +3086,10 @@
       "first_seen": "2026-09-01T17:47:36.458353+00:00",
       "last_changed": "2026-09-01T17:47:36.458353+00:00",
       "last_modified": "Mon, 15 Jun 2026 06:05:34 GMT",
-      "last_seen": "2026-09-01T17:47:36.458353+00:00",
-      "next_check": "2026-09-02T17:47:36.458353+00:00",
+      "last_seen": "2026-09-27T19:29:06.494201+00:00",
+      "next_check": "2026-09-29T19:29:06.494201+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_2/": {
       "content_sha": "da3872eb231cba842bf1df29c075166612f34993ca2896bdc8f0e15ee5a81b6b",
@@ -3099,10 +3099,10 @@
       "first_seen": "2026-09-01T17:47:32.192951+00:00",
       "last_changed": "2026-09-01T17:47:32.192951+00:00",
       "last_modified": "Fri, 19 Jun 2026 23:19:01 GMT",
-      "last_seen": "2026-09-01T17:47:32.192951+00:00",
-      "next_check": "2026-09-02T17:47:32.192951+00:00",
+      "last_seen": "2026-09-27T19:29:10.949940+00:00",
+      "next_check": "2026-09-29T19:29:10.949940+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_3/": {
       "content_sha": "e7d70f490006ef8333b180713d33ddba8aa4789203371c8f485c6e61ee1fb1aa",
@@ -3112,10 +3112,10 @@
       "first_seen": "2026-09-01T17:47:27.880666+00:00",
       "last_changed": "2026-09-01T17:47:27.880666+00:00",
       "last_modified": "Thu, 11 Jun 2026 20:48:38 GMT",
-      "last_seen": "2026-09-01T17:47:27.880666+00:00",
-      "next_check": "2026-09-02T17:47:27.880666+00:00",
+      "last_seen": "2026-09-27T19:29:15.214440+00:00",
+      "next_check": "2026-09-29T19:29:15.214440+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_4/": {
       "content_sha": "bf1ea29b4dd1d34d80ceb3e7e8227061e95774b0158620acc7e5adbc0f82993f",
@@ -3125,23 +3125,23 @@
       "first_seen": "2026-09-01T17:47:23.496588+00:00",
       "last_changed": "2026-09-01T17:47:23.496588+00:00",
       "last_modified": "Tue, 09 Jun 2026 06:53:46 GMT",
-      "last_seen": "2026-09-01T17:47:23.496588+00:00",
-      "next_check": "2026-09-02T17:47:23.496588+00:00",
+      "last_seen": "2026-09-27T19:29:19.260547+00:00",
+      "next_check": "2026-09-29T19:29:19.260547+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/guestsdk/": {
       "content_sha": "0107ba38c7745ed61575d1df94b18a09800e81a6e0c0953ecefbdd93d7c04b6d",
       "doc_id": "developer-cisco-com-site-jabber-guestsdk-guestsdk-66a8f9942d",
-      "etag": "W/\"220c194d44acbd82420bac5c8f37365b\"",
+      "etag": "W/\"fc5fbccd37ffbcc728e15b21a5ab110d\"",
       "fail_count": 0,
       "first_seen": "2026-08-25T21:02:38.255633+00:00",
       "last_changed": "2026-08-25T21:02:38.255633+00:00",
-      "last_modified": "Wed, 10 Jun 2026 10:37:09 GMT",
-      "last_seen": "2026-08-25T21:02:38.255633+00:00",
-      "next_check": "2026-08-26T21:02:38.255633+00:00",
+      "last_modified": "Sun, 27 Sep 2026 18:14:38 GMT",
+      "last_seen": "2026-09-27T19:29:28.600646+00:00",
+      "next_check": "2026-09-29T19:29:28.600646+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jabber-guestsdk/guestsdk/overview/": {
       "content_sha": "e9b9c450d62c29955d316c4d186e25749c162d51e8e3ac463c055df4962a8013",
@@ -3177,10 +3177,10 @@
       "first_seen": "2026-08-25T11:43:36.580574+00:00",
       "last_changed": "2026-08-25T11:43:36.580574+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:05:40 GMT",
-      "last_seen": "2026-09-14T19:08:20.790748+00:00",
-      "next_check": "2026-09-18T19:08:20.790748+00:00",
+      "last_seen": "2026-09-27T19:29:29.333823+00:00",
+      "next_check": "2026-10-05T19:29:29.333823+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/jtapi/developer-guides/": {
       "content_sha": "c97071b2747bf792672770b12e36ca58ec079cc308a3d782184dd4f042158015",
@@ -3190,10 +3190,10 @@
       "first_seen": "2026-08-25T21:06:20.274655+00:00",
       "last_changed": "2026-08-25T21:06:20.274655+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:10:03 GMT",
-      "last_seen": "2026-09-15T11:09:30.867743+00:00",
-      "next_check": "2026-09-17T11:09:30.867743+00:00",
+      "last_seen": "2026-09-27T19:29:33.684111+00:00",
+      "next_check": "2026-10-01T19:29:33.684111+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/jtapi/documentation/": {
       "content_sha": "4580981e5e8f2bc2f5ad6743827aa53f261e749319d159862bf7092438bd6caf",
@@ -3203,10 +3203,10 @@
       "first_seen": "2026-09-01T17:56:30.984584+00:00",
       "last_changed": "2026-09-01T17:56:30.984584+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:26:25 GMT",
-      "last_seen": "2026-09-01T17:56:30.984584+00:00",
-      "next_check": "2026-09-02T17:56:30.984584+00:00",
+      "last_seen": "2026-09-27T19:29:37.726639+00:00",
+      "next_check": "2026-09-29T19:29:37.726639+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/getting-started/": {
       "content_sha": "58e998c9aaf159eaa5facc4ce21d33994af49cb1981d693a1ad1267ed12d24dc",
@@ -3216,10 +3216,10 @@
       "first_seen": "2026-08-25T21:06:11.629725+00:00",
       "last_changed": "2026-08-25T21:06:11.629725+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:14:21 GMT",
-      "last_seen": "2026-09-15T11:09:22.551274+00:00",
-      "next_check": "2026-09-17T11:09:22.551274+00:00",
+      "last_seen": "2026-09-27T19:29:41.827131+00:00",
+      "next_check": "2026-10-01T19:29:41.827131+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/jtapi/index.html": {
       "content_sha": null,
@@ -3241,10 +3241,10 @@
       "first_seen": "2026-08-25T21:45:47.776346+00:00",
       "last_changed": "2026-08-25T21:45:47.776346+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:15:59 GMT",
-      "last_seen": "2026-08-25T21:45:47.776346+00:00",
-      "next_check": "2026-08-26T21:45:47.776346+00:00",
+      "last_seen": "2026-09-27T19:29:45.984878+00:00",
+      "next_check": "2026-09-29T19:29:45.984878+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/overview/start/": {
       "content_sha": "4296a357dd6727bd35bc8d38c8e21f08341ee31e29a13e4d27ac15026bb0a4f2",
@@ -3254,10 +3254,10 @@
       "first_seen": "2026-09-01T17:56:21.666766+00:00",
       "last_changed": "2026-09-01T17:56:21.666766+00:00",
       "last_modified": "Mon, 08 Jun 2026 15:47:59 GMT",
-      "last_seen": "2026-09-01T17:56:21.666766+00:00",
-      "next_check": "2026-09-02T17:56:21.666766+00:00",
+      "last_seen": "2026-09-27T19:29:50.271122+00:00",
+      "next_check": "2026-09-29T19:29:50.271122+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/overview/technical/": {
       "content_sha": "ba70b32450cfaf5ffa8cb3d7378c973a3650442f8e53dba1a093c3f77688d4dd",
@@ -3267,10 +3267,10 @@
       "first_seen": "2026-09-01T17:56:26.239067+00:00",
       "last_changed": "2026-09-01T17:56:26.239067+00:00",
       "last_modified": "Tue, 23 Jun 2026 01:16:37 GMT",
-      "last_seen": "2026-09-01T17:56:26.239067+00:00",
-      "next_check": "2026-09-02T17:56:26.239067+00:00",
+      "last_seen": "2026-09-27T19:29:54.481067+00:00",
+      "next_check": "2026-09-29T19:29:54.481067+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/jtapi/technical-overview/": {
       "content_sha": "f7a31c73f82c55915276e59ff11e4486f91ebbcbeb76fe4b8fcbab1b23667a02",
@@ -3280,10 +3280,10 @@
       "first_seen": "2026-08-25T21:06:15.969719+00:00",
       "last_changed": "2026-08-25T21:06:15.969719+00:00",
       "last_modified": "Mon, 08 Jun 2026 11:29:30 GMT",
-      "last_seen": "2026-09-15T11:09:26.868238+00:00",
-      "next_check": "2026-09-17T11:09:26.868238+00:00",
+      "last_seen": "2026-09-27T19:29:58.808069+00:00",
+      "next_check": "2026-10-01T19:29:58.808069+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/jtapi/wiki/cti-tapi-jtapi-supported-device-matrix/": {
       "content_sha": "a0e7da8d9057fae91d1254db7c628eebc40456abda441a8dbd5a5951ec9fd7b0",
@@ -3293,10 +3293,10 @@
       "first_seen": "2026-08-25T21:03:20.787278+00:00",
       "last_changed": "2026-08-25T21:03:20.787278+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:10:56 GMT",
-      "last_seen": "2026-09-07T11:07:37.613403+00:00",
-      "next_check": "2026-09-09T11:07:37.613403+00:00",
+      "last_seen": "2026-09-27T19:30:02.893724+00:00",
+      "next_check": "2026-10-01T19:30:02.893724+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/packaged-contact-center/": {
       "content_sha": "522b40f793106098f31f956faa11cf9056ac651c5816d1926c835dd104bb9367",
@@ -3368,10 +3368,10 @@
       "first_seen": "2026-09-01T17:48:37.539440+00:00",
       "last_changed": "2026-09-01T17:48:37.539440+00:00",
       "last_modified": "Thu, 11 Jun 2026 15:58:42 GMT",
-      "last_seen": "2026-09-01T17:48:37.539440+00:00",
-      "next_check": "2026-09-02T17:48:37.539440+00:00",
+      "last_seen": "2026-09-27T19:30:07.337513+00:00",
+      "next_check": "2026-09-29T19:30:07.337513+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/discover/getting-started/paws-hello-world/": {
       "content_sha": "d378833dea1f77d192df1bbd64bdbcab49a901fad5b823ddefb3299385e780af",
@@ -3381,10 +3381,10 @@
       "first_seen": "2026-09-07T14:17:31.998217+00:00",
       "last_changed": "2026-09-07T14:17:31.998217+00:00",
       "last_modified": "Mon, 08 Jun 2026 23:48:36 GMT",
-      "last_seen": "2026-09-07T14:17:31.998217+00:00",
-      "next_check": "2026-09-08T14:17:31.998217+00:00",
+      "last_seen": "2026-09-27T19:30:11.319330+00:00",
+      "next_check": "2026-09-29T19:30:11.319330+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/discover/what-is-paws/": {
       "content_sha": "a892706590c5e5c893633e66ddd46adea02e0bb223f75abe5fdb6c3ae64aaa3b",
@@ -3394,10 +3394,10 @@
       "first_seen": "2026-08-25T21:06:24.608149+00:00",
       "last_changed": "2026-08-25T21:06:24.608149+00:00",
       "last_modified": "Tue, 23 Jun 2026 14:23:56 GMT",
-      "last_seen": "2026-08-25T21:06:24.608149+00:00",
-      "next_check": "2026-08-26T21:06:24.608149+00:00",
+      "last_seen": "2026-09-27T19:30:15.621627+00:00",
+      "next_check": "2026-09-29T19:30:15.621627+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/documents/api-reference/": {
       "content_sha": "8e3d6fcb5c0e3acfe811416c180269895790a8b5b0af1aecd46c6522c4f03cda",
@@ -3407,10 +3407,10 @@
       "first_seen": "2026-09-07T14:17:40.603822+00:00",
       "last_changed": "2026-09-07T14:17:40.603822+00:00",
       "last_modified": "Tue, 23 Jun 2026 09:21:43 GMT",
-      "last_seen": "2026-09-07T14:17:40.603822+00:00",
-      "next_check": "2026-09-08T14:17:40.603822+00:00",
+      "last_seen": "2026-09-27T19:30:19.645944+00:00",
+      "next_check": "2026-09-29T19:30:19.645944+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/documents/developer-guide/": {
       "content_sha": "7434f516c048c05dd3d1eed1ac64df615172b14e8b319819357e2d45da32d951",
@@ -3420,10 +3420,10 @@
       "first_seen": "2026-09-07T14:17:45.808328+00:00",
       "last_changed": "2026-09-07T14:17:45.808328+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:23:24 GMT",
-      "last_seen": "2026-09-07T14:17:45.808328+00:00",
-      "next_check": "2026-09-08T14:17:45.808328+00:00",
+      "last_seen": "2026-09-27T19:30:23.789195+00:00",
+      "next_check": "2026-09-29T19:30:23.789195+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/help/faqs/": {
       "content_sha": "889d723f0eaa1e370539ca8ea767120d1864ef8e33cb127472cc4275d9116fe2",
@@ -3433,10 +3433,10 @@
       "first_seen": "2026-08-25T21:10:29.844963+00:00",
       "last_changed": "2026-08-25T21:10:29.844963+00:00",
       "last_modified": "Fri, 12 Jun 2026 23:59:02 GMT",
-      "last_seen": "2026-08-25T21:10:29.844963+00:00",
-      "next_check": "2026-08-26T21:10:29.844963+00:00",
+      "last_seen": "2026-09-27T19:30:27.956825+00:00",
+      "next_check": "2026-09-29T19:30:27.956825+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/learn/how-to/": {
       "content_sha": "9de1a856e6f8df81d66c5e4b02bfbeaf7e4a7d0ecfd6e8044913d30b1f63118f",
@@ -3446,10 +3446,10 @@
       "first_seen": "2026-09-07T14:17:26.977345+00:00",
       "last_changed": "2026-09-07T14:17:26.977345+00:00",
       "last_modified": "Sat, 13 Jun 2026 22:19:22 GMT",
-      "last_seen": "2026-09-07T14:17:26.977345+00:00",
-      "next_check": "2026-09-08T14:17:26.977345+00:00",
+      "last_seen": "2026-09-27T19:30:32.165845+00:00",
+      "next_check": "2026-09-29T19:30:32.165845+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/paws/learn/sample-apps/": {
       "content_sha": "a4e51733a219bbd5b5a6b97cdd49ad5d175f71130f3852a873e106f80f3a4a69",
@@ -3459,10 +3459,10 @@
       "first_seen": "2026-08-25T21:06:28.968154+00:00",
       "last_changed": "2026-08-25T21:06:28.968154+00:00",
       "last_modified": "Thu, 11 Jun 2026 00:32:43 GMT",
-      "last_seen": "2026-09-07T14:17:18.582223+00:00",
-      "next_check": "2026-09-09T14:17:18.582223+00:00",
+      "last_seen": "2026-09-27T19:30:36.237984+00:00",
+      "next_check": "2026-10-01T19:30:36.237984+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/roomdevices/": {
       "content_sha": null,
@@ -3534,75 +3534,75 @@
       "first_seen": "2026-08-25T21:10:34.167826+00:00",
       "last_changed": "2026-08-25T21:10:34.167826+00:00",
       "last_modified": "Mon, 08 Jun 2026 04:11:53 GMT",
-      "last_seen": "2026-08-25T21:10:34.167826+00:00",
-      "next_check": "2026-08-26T21:10:34.167826+00:00",
+      "last_seen": "2026-09-27T19:30:40.363197+00:00",
+      "next_check": "2026-09-29T19:30:40.363197+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/discover/overview/cdr-on-demand/": {
-      "content_sha": "90b0b447746fc7a60f666a5625ccf8fc127a153b8623571af074ef78452051b1",
+      "content_sha": "ede22f3c3a52495aa2313f0f397f76e5453014050b547d81ef4f99e7e40154f4",
       "doc_id": "developer-cisco-com-site-sxml-discover-overview-cdr-on-demand-bd6dd9ed7e",
-      "etag": "W/\"c13c80d85af1b5152a69a4731b26b7bb\"",
+      "etag": "W/\"be7a949bdd97704ccf1a70363bee6ecf\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:49:05.121088+00:00",
-      "last_changed": "2026-09-01T17:49:05.121088+00:00",
-      "last_modified": "Tue, 01 Sep 2026 02:19:10 GMT",
-      "last_seen": "2026-09-01T17:49:05.121088+00:00",
-      "next_check": "2026-09-02T17:49:05.121088+00:00",
+      "last_changed": "2026-09-27T19:30:49.485883+00:00",
+      "last_modified": "Wed, 23 Sep 2026 17:40:14 GMT",
+      "last_seen": "2026-09-27T19:30:49.485883+00:00",
+      "next_check": "2026-09-28T19:30:49.485883+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/sxml/discover/overview/log-collection/": {
       "content_sha": "dc8023314a85ee50a81ddc155657a378cb2c13346698412b2c207d4630f53f30",
       "doc_id": "developer-cisco-com-site-sxml-discover-overview-log-collection-5d7dbd0bc1",
-      "etag": "W/\"8369bde88406e53e4f5d18c64698da8d\"",
+      "etag": "W/\"0ca553378aac6bf142c12ab025f8bb8c\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:49:09.413483+00:00",
       "last_changed": "2026-09-01T17:49:09.413483+00:00",
-      "last_modified": "Mon, 31 Aug 2026 08:36:19 GMT",
-      "last_seen": "2026-09-01T17:49:09.413483+00:00",
-      "next_check": "2026-09-02T17:49:09.413483+00:00",
+      "last_modified": "Wed, 23 Sep 2026 17:40:40 GMT",
+      "last_seen": "2026-09-27T19:30:55.129894+00:00",
+      "next_check": "2026-09-29T19:30:55.129894+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/discover/overview/perfmon/": {
       "content_sha": "24957d4b94c8d08b6d804afce0a102d2f3ec70b708dd4c28914c27f9e02ae9c9",
       "doc_id": "developer-cisco-com-site-sxml-discover-overview-perfmon-b5305f24b5",
-      "etag": "W/\"b11d1241b62470249278dd0962e25565\"",
+      "etag": "W/\"03dd7d7aaa0f96d69e894bb6e425262e\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:48:56.825010+00:00",
       "last_changed": "2026-09-01T17:48:56.825010+00:00",
-      "last_modified": "Tue, 18 Aug 2026 02:01:12 GMT",
-      "last_seen": "2026-09-01T17:48:56.825010+00:00",
-      "next_check": "2026-09-02T17:48:56.825010+00:00",
+      "last_modified": "Wed, 23 Sep 2026 17:37:47 GMT",
+      "last_seen": "2026-09-27T19:31:00.698821+00:00",
+      "next_check": "2026-09-29T19:31:00.698821+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/discover/overview/risport/": {
-      "content_sha": "058d1cca83aaf83e58c62fc0b46547bb6ea4cca7004ddd2c90ad17f6e122f359",
+      "content_sha": "de7249cfab0a27e89d4dc2af7e7a817d7214f101cdcc11889fa377891a7cd332",
       "doc_id": "developer-cisco-com-site-sxml-discover-overview-risport-25d67ee4be",
-      "etag": "W/\"7e4f6c372ad0d567386995df9ccd5ca4\"",
+      "etag": "W/\"d68f78e9c5d945b075966b321f1ae8ab\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:48:52.738668+00:00",
-      "last_changed": "2026-09-01T17:48:52.738668+00:00",
-      "last_modified": "Sun, 23 Aug 2026 10:46:50 GMT",
-      "last_seen": "2026-09-01T17:48:52.738668+00:00",
-      "next_check": "2026-09-02T17:48:52.738668+00:00",
+      "last_changed": "2026-09-27T19:31:06.193975+00:00",
+      "last_modified": "Wed, 23 Sep 2026 17:37:12 GMT",
+      "last_seen": "2026-09-27T19:31:06.193975+00:00",
+      "next_check": "2026-09-28T19:31:06.193975+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/sxml/discover/overview/service-control/": {
       "content_sha": "5a8e5995edf4d9e6e78969d1ec8ddea52ed1ebc4b6f7aa18fdcc5adb3bcee6fb",
       "doc_id": "developer-cisco-com-site-sxml-discover-overview-service-control-6b026d69ac",
-      "etag": "W/\"32e602a7d7cc3830a70cfaf3924d0a5a\"",
+      "etag": "W/\"bdf9a997a5591705de615b23fe07f81e\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:49:01.086123+00:00",
       "last_changed": "2026-09-01T17:49:01.086123+00:00",
-      "last_modified": "Sun, 23 Aug 2026 10:49:54 GMT",
-      "last_seen": "2026-09-01T17:49:01.086123+00:00",
-      "next_check": "2026-09-02T17:49:01.086123+00:00",
+      "last_modified": "Wed, 23 Sep 2026 17:37:45 GMT",
+      "last_seen": "2026-09-27T19:31:11.699764+00:00",
+      "next_check": "2026-09-29T19:31:11.699764+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/discover/overview/snmp/": {
       "content_sha": "f7eb9225808dd74c438e9973aaa09df148cf30a1f28fa194f193130780492591",
@@ -3612,10 +3612,10 @@
       "first_seen": "2026-09-01T17:49:13.708707+00:00",
       "last_changed": "2026-09-01T17:49:13.708707+00:00",
       "last_modified": "Mon, 08 Jun 2026 14:32:53 GMT",
-      "last_seen": "2026-09-01T17:49:13.708707+00:00",
-      "next_check": "2026-09-02T17:49:13.708707+00:00",
+      "last_seen": "2026-09-27T19:31:12.469488+00:00",
+      "next_check": "2026-09-29T19:31:12.469488+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/downloads/sample-app/": {
       "content_sha": "f13d6fc1292aef105a636ff308128c6bcc16bb57dcb7972f651237a5572e110b",
@@ -3625,10 +3625,10 @@
       "first_seen": "2026-08-25T21:10:38.784296+00:00",
       "last_changed": "2026-08-25T21:10:38.784296+00:00",
       "last_modified": "Mon, 08 Jun 2026 11:04:58 GMT",
-      "last_seen": "2026-08-25T21:10:38.784296+00:00",
-      "next_check": "2026-08-26T21:10:38.784296+00:00",
+      "last_seen": "2026-09-27T19:31:16.875012+00:00",
+      "next_check": "2026-09-29T19:31:16.875012+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/learn/mibs/": {
       "content_sha": "97c22026fc0510499f979d65971c89c8a69bce87c0c55c2911f656ba6ad5a907",
@@ -3638,10 +3638,10 @@
       "first_seen": "2026-09-07T14:18:02.951856+00:00",
       "last_changed": "2026-09-07T14:18:02.951856+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:13:58 GMT",
-      "last_seen": "2026-09-07T14:18:02.951856+00:00",
-      "next_check": "2026-09-08T14:18:02.951856+00:00",
+      "last_seen": "2026-09-27T19:31:21.172222+00:00",
+      "next_check": "2026-09-29T19:31:21.172222+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/learn/soap-ui-tutorial/": {
       "content_sha": "2b121327caa5da27c6b86798be968444cda6138188e7eaf433e43dd516c719e3",
@@ -3651,10 +3651,10 @@
       "first_seen": "2026-09-01T17:49:21.934562+00:00",
       "last_changed": "2026-09-01T17:49:21.934562+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:20:33 GMT",
-      "last_seen": "2026-09-01T17:49:21.934562+00:00",
-      "next_check": "2026-09-02T17:49:21.934562+00:00",
+      "last_seen": "2026-09-27T19:31:25.483105+00:00",
+      "next_check": "2026-09-29T19:31:25.483105+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/sxml/tools/sandbox/": {
       "content_sha": "00d0a54b11959dfe1629488a497a15324d0d4f6aba13a3f3615b118613c71d2e",
@@ -3664,10 +3664,10 @@
       "first_seen": "2026-08-25T21:10:43.191943+00:00",
       "last_changed": "2026-08-25T21:10:43.191943+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:54:40 GMT",
-      "last_seen": "2026-08-25T21:10:43.191943+00:00",
-      "next_check": "2026-08-26T21:10:43.191943+00:00",
+      "last_seen": "2026-09-27T19:31:29.329455+00:00",
+      "next_check": "2026-09-29T19:31:29.329455+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/tapi/": {
       "content_sha": "ef7f05776ec293d5fbb47279fd7a6bcfb633a0efc5c38456811dee22c189307a",
@@ -3690,10 +3690,10 @@
       "first_seen": "2026-08-25T21:10:55.642365+00:00",
       "last_changed": "2026-08-25T21:10:55.642365+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:42:17 GMT",
-      "last_seen": "2026-09-15T11:09:43.791021+00:00",
-      "next_check": "2026-09-19T11:09:43.791021+00:00",
+      "last_seen": "2026-09-27T19:31:33.433400+00:00",
+      "next_check": "2026-10-05T19:31:33.433400+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/tapi/getting-started/": {
       "content_sha": "0e086650ec2c0e5fb304ce8c13acffb87437c693fd82577bc49e8559645e88a9",
@@ -3703,10 +3703,10 @@
       "first_seen": "2026-08-25T21:10:47.239443+00:00",
       "last_changed": "2026-08-25T21:10:47.239443+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:41:56 GMT",
-      "last_seen": "2026-09-15T11:09:35.229528+00:00",
-      "next_check": "2026-09-19T11:09:35.229528+00:00",
+      "last_seen": "2026-09-27T19:31:37.514607+00:00",
+      "next_check": "2026-10-05T19:31:37.514607+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/tapi/supported-windows-os-eol/": {
       "content_sha": "ba77acc27b649fddf13968f024be6b4e23978672ebf0993d982fd501b2ad345b",
@@ -3716,23 +3716,23 @@
       "first_seen": "2026-09-01T15:35:13.971857+00:00",
       "last_changed": "2026-09-01T15:35:13.971857+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:43:54 GMT",
-      "last_seen": "2026-09-01T15:35:13.971857+00:00",
-      "next_check": "2026-09-02T15:35:13.971857+00:00",
+      "last_seen": "2026-09-27T19:31:41.618624+00:00",
+      "next_check": "2026-09-29T19:31:41.618624+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/tapi/supported-windows-os/": {
       "content_sha": "2efb689cdd2cda1508661187020fa04123fc7b7e8c2a1c76bfc740c2f68259a5",
       "doc_id": "developer-cisco-com-site-tapi-supported-windows-os-8bd444a087",
-      "etag": "W/\"1653703b7ce9b0ba6c7f9329fc543b70\"",
+      "etag": "W/\"36b3d46b37ffb41f3579594d518fe5f6\"",
       "fail_count": 0,
       "first_seen": "2026-08-25T11:43:40.818591+00:00",
       "last_changed": "2026-09-07T19:10:34.454368+00:00",
-      "last_modified": "Thu, 27 Aug 2026 05:42:48 GMT",
-      "last_seen": "2026-09-14T19:08:16.526603+00:00",
-      "next_check": "2026-09-16T19:08:16.526603+00:00",
+      "last_modified": "Thu, 17 Sep 2026 07:06:23 GMT",
+      "last_seen": "2026-09-27T19:31:50.909429+00:00",
+      "next_check": "2026-10-01T19:31:50.909429+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/tapi/technical-overview/": {
       "content_sha": "9da42cddc6754cda06bfad23ba108b99ecd69ccd4746124e91e9e13b41c6a6fd",
@@ -3742,10 +3742,10 @@
       "first_seen": "2026-08-25T21:10:51.202923+00:00",
       "last_changed": "2026-08-25T21:10:51.202923+00:00",
       "last_modified": "Thu, 27 Aug 2026 05:42:06 GMT",
-      "last_seen": "2026-09-15T11:09:39.274064+00:00",
-      "next_check": "2026-09-19T11:09:39.274064+00:00",
+      "last_seen": "2026-09-27T19:31:51.643532+00:00",
+      "next_check": "2026-10-05T19:31:51.643532+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/task-routing/": {
       "content_sha": "dde9d1fcea522d65357ee083d888caabc99f429ecc3362b795f9054d6cd0740a",
@@ -3781,10 +3781,10 @@
       "first_seen": "2026-08-25T21:11:04.403170+00:00",
       "last_changed": "2026-08-25T21:11:04.403170+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:38:26 GMT",
-      "last_seen": "2026-08-25T21:11:04.403170+00:00",
-      "next_check": "2026-08-26T21:11:04.403170+00:00",
+      "last_seen": "2026-09-27T19:31:56.003134+00:00",
+      "next_check": "2026-09-29T19:31:56.003134+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-express-services/discover/start/": {
       "content_sha": "c0e320542285436b71f6d8bf3b7f4d5ced1e6e747d20799f94a96f7788b73f5c",
@@ -3794,10 +3794,10 @@
       "first_seen": "2026-08-25T21:11:00.001252+00:00",
       "last_changed": "2026-08-25T21:11:00.001252+00:00",
       "last_modified": "Mon, 08 Jun 2026 13:04:51 GMT",
-      "last_seen": "2026-08-25T21:11:00.001252+00:00",
-      "next_check": "2026-08-26T21:11:00.001252+00:00",
+      "last_seen": "2026-09-27T19:32:00.642463+00:00",
+      "next_check": "2026-09-29T19:32:00.642463+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-express-services/documents/sdk/": {
       "content_sha": "f465145383b294d939c1b36a822ca107b3460ff74da7bc43c7146375df31f4a4",
@@ -3807,10 +3807,10 @@
       "first_seen": "2026-09-01T17:49:30.860611+00:00",
       "last_changed": "2026-09-01T17:49:30.860611+00:00",
       "last_modified": "Sat, 13 Jun 2026 03:06:27 GMT",
-      "last_seen": "2026-09-01T17:49:30.860611+00:00",
-      "next_check": "2026-09-02T17:49:30.860611+00:00",
+      "last_seen": "2026-09-27T19:32:04.444380+00:00",
+      "next_check": "2026-09-29T19:32:04.444380+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-express-services/downloads/sample/": {
       "content_sha": "a1ff34996413b5553d34d21fbaa99676fbfc7ad6527ee532c4d7740101ff2f20",
@@ -3820,10 +3820,10 @@
       "first_seen": "2026-08-25T21:11:08.650461+00:00",
       "last_changed": "2026-08-25T21:11:08.650461+00:00",
       "last_modified": "Mon, 22 Jun 2026 21:08:00 GMT",
-      "last_seen": "2026-08-25T21:11:08.650461+00:00",
-      "next_check": "2026-08-26T21:11:08.650461+00:00",
+      "last_seen": "2026-09-27T19:32:08.669629+00:00",
+      "next_check": "2026-09-29T19:32:08.669629+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-gateway-services/": {
       "content_sha": "453eac03b978635f5d94a2fadc46d3028a0cfb55cdda13c444cda77d482c396a",
@@ -3846,10 +3846,10 @@
       "first_seen": "2026-08-25T21:11:12.660835+00:00",
       "last_changed": "2026-08-25T21:11:12.660835+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:53:54 GMT",
-      "last_seen": "2026-08-25T21:11:12.660835+00:00",
-      "next_check": "2026-08-26T21:11:12.660835+00:00",
+      "last_seen": "2026-09-27T19:32:12.664194+00:00",
+      "next_check": "2026-09-29T19:32:12.664194+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-gateway-services/discover/tech-overview/": {
       "content_sha": "4352698a9d95224def05e1a2219c8db3d34ffb28459f5aa58e219eff79a2beff",
@@ -3859,10 +3859,10 @@
       "first_seen": "2026-08-25T21:11:16.921998+00:00",
       "last_changed": "2026-08-25T21:11:16.921998+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:14:52 GMT",
-      "last_seen": "2026-08-25T21:11:16.921998+00:00",
-      "next_check": "2026-08-26T21:11:16.921998+00:00",
+      "last_seen": "2026-09-27T19:32:16.668472+00:00",
+      "next_check": "2026-09-29T19:32:16.668472+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-manager-sip/": {
       "content_sha": "5075b7ac9a301dd20bde44116cf1a870219a591db7c1ca254a0e054af61297a4",
@@ -3885,10 +3885,10 @@
       "first_seen": "2026-08-25T21:11:25.285472+00:00",
       "last_changed": "2026-08-25T21:11:25.285472+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:26:15 GMT",
-      "last_seen": "2026-08-25T21:11:25.285472+00:00",
-      "next_check": "2026-08-26T21:11:25.285472+00:00",
+      "last_seen": "2026-09-27T19:32:20.878864+00:00",
+      "next_check": "2026-09-29T19:32:20.878864+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-manager-sip/discover/tech-overview/": {
       "content_sha": "b6588647e685dee0be335c8d3c8e9f8029f1ece91648bf457300758a0addb22d",
@@ -3898,10 +3898,10 @@
       "first_seen": "2026-08-25T21:11:29.522571+00:00",
       "last_changed": "2026-08-25T21:11:29.522571+00:00",
       "last_modified": "Mon, 08 Jun 2026 13:09:58 GMT",
-      "last_seen": "2026-08-25T21:11:29.522571+00:00",
-      "next_check": "2026-08-26T21:11:29.522571+00:00",
+      "last_seen": "2026-09-27T19:32:25.013688+00:00",
+      "next_check": "2026-09-29T19:32:25.013688+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/uc-manager-sip/index.html": {
       "content_sha": null,
@@ -3936,10 +3936,10 @@
       "first_seen": "2026-08-25T11:00:11.804388+00:00",
       "last_changed": "2026-08-25T11:00:11.804388+00:00",
       "last_modified": "Mon, 08 Jun 2026 10:34:09 GMT",
-      "last_seen": "2026-09-08T03:11:30.040903+00:00",
-      "next_check": "2026-09-10T03:11:30.040903+00:00",
+      "last_seen": "2026-09-27T19:32:29.317697+00:00",
+      "next_check": "2026-10-01T19:32:29.317697+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/unity-connection/overview/technical-overview.html": {
       "content_sha": null,
@@ -3961,10 +3961,10 @@
       "first_seen": "2026-08-25T21:11:38.292585+00:00",
       "last_changed": "2026-08-25T21:11:38.292585+00:00",
       "last_modified": "Mon, 22 Jun 2026 21:56:40 GMT",
-      "last_seen": "2026-08-25T21:11:38.292585+00:00",
-      "next_check": "2026-08-26T21:11:38.292585+00:00",
+      "last_seen": "2026-09-27T19:32:33.419527+00:00",
+      "next_check": "2026-09-29T19:32:33.419527+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/": {
       "content_sha": "df30a6386dcacef8991f63bc8aea3bb75ba9f8cb685f52e75e0e09218847552b",
@@ -3987,10 +3987,10 @@
       "first_seen": "2026-09-01T17:35:11.149269+00:00",
       "last_changed": "2026-09-01T17:35:11.149269+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:25:49 GMT",
-      "last_seen": "2026-09-01T17:35:11.149269+00:00",
-      "next_check": "2026-09-02T17:35:11.149269+00:00",
+      "last_seen": "2026-09-27T19:32:37.790676+00:00",
+      "next_check": "2026-09-29T19:32:37.790676+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/develop-and-test/api-reference/": {
       "content_sha": "9d7a473930569689d58eb6456d508b7acbaf56c0a60e021aa2fcbe1a4837bfe5",
@@ -4000,10 +4000,10 @@
       "first_seen": "2026-09-07T14:10:01.061724+00:00",
       "last_changed": "2026-09-07T14:10:01.061724+00:00",
       "last_modified": "Tue, 23 Jun 2026 10:32:58 GMT",
-      "last_seen": "2026-09-07T14:10:01.061724+00:00",
-      "next_check": "2026-09-08T14:10:01.061724+00:00",
+      "last_seen": "2026-09-27T19:32:41.910453+00:00",
+      "next_check": "2026-09-29T19:32:41.910453+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/develop-and-test/get-started/": {
       "content_sha": "a8250de989cf3dc8b9f7108c1f889749fe7076238cd8fbc41dd8a09f3a564d64",
@@ -4013,10 +4013,10 @@
       "first_seen": "2026-09-07T14:10:05.874508+00:00",
       "last_changed": "2026-09-07T14:10:05.874508+00:00",
       "last_modified": "Mon, 22 Jun 2026 18:24:01 GMT",
-      "last_seen": "2026-09-07T14:10:05.874508+00:00",
-      "next_check": "2026-09-08T14:10:05.874508+00:00",
+      "last_seen": "2026-09-27T19:32:45.906996+00:00",
+      "next_check": "2026-09-29T19:32:45.906996+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/discover/build-a-development-lab/": {
       "content_sha": "cef081c12c8be2ba2360b5e6b478788ce25c08b705d16730f575703b62ad9e40",
@@ -4026,10 +4026,10 @@
       "first_seen": "2026-09-07T14:18:50.000909+00:00",
       "last_changed": "2026-09-07T14:18:50.000909+00:00",
       "last_modified": "Mon, 22 Jun 2026 18:24:01 GMT",
-      "last_seen": "2026-09-07T14:18:50.000909+00:00",
-      "next_check": "2026-09-08T14:18:50.000909+00:00",
+      "last_seen": "2026-09-27T19:32:50.197192+00:00",
+      "next_check": "2026-09-29T19:32:50.197192+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/discover/getting-started/": {
       "content_sha": "ec9640f6d92500ac3472f9e1ac0505cebfb5265801449e3dec5a9b7b99c8a7f1",
@@ -4039,10 +4039,10 @@
       "first_seen": "2026-09-01T17:49:39.167303+00:00",
       "last_changed": "2026-09-01T17:49:39.167303+00:00",
       "last_modified": "Tue, 09 Jun 2026 12:13:46 GMT",
-      "last_seen": "2026-09-01T17:49:39.167303+00:00",
-      "next_check": "2026-09-02T17:49:39.167303+00:00",
+      "last_seen": "2026-09-27T19:32:54.337234+00:00",
+      "next_check": "2026-09-29T19:32:54.337234+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/discover/how-does-uds-work/": {
       "content_sha": "4c02ef6f170dfe2eedff9f66de2692b2c2e4517432847f108f98eb5d7ebad8d1",
@@ -4052,10 +4052,10 @@
       "first_seen": "2026-09-01T17:49:43.454102+00:00",
       "last_changed": "2026-09-01T17:49:43.454102+00:00",
       "last_modified": "Mon, 22 Jun 2026 18:23:59 GMT",
-      "last_seen": "2026-09-01T17:49:43.454102+00:00",
-      "next_check": "2026-09-02T17:49:43.454102+00:00",
+      "last_seen": "2026-09-27T19:32:58.639055+00:00",
+      "next_check": "2026-09-29T19:32:58.639055+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/discover/what-is-uds/": {
       "content_sha": "902b4a17ba04b4b07b8eb6d60f289da46f87ed41499b718a60584d5dc6a7cd4f",
@@ -4065,10 +4065,10 @@
       "first_seen": "2026-08-25T21:11:42.535965+00:00",
       "last_changed": "2026-08-25T21:11:42.535965+00:00",
       "last_modified": "Mon, 22 Jun 2026 15:28:00 GMT",
-      "last_seen": "2026-09-07T14:18:16.212484+00:00",
-      "next_check": "2026-09-09T14:18:16.212484+00:00",
+      "last_seen": "2026-09-27T19:33:02.895178+00:00",
+      "next_check": "2026-10-01T19:33:02.895178+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/user-data-services/discover/why-use-uds/": {
       "content_sha": "e1af854e689126c76cc204868448d7a80a27e5e08930f15642bfbcf4954c11d6",
@@ -4078,10 +4078,10 @@
       "first_seen": "2026-08-25T21:11:46.776951+00:00",
       "last_changed": "2026-08-25T21:11:46.776951+00:00",
       "last_modified": "Tue, 09 Jun 2026 23:15:08 GMT",
-      "last_seen": "2026-09-07T14:18:20.389145+00:00",
-      "next_check": "2026-09-09T14:18:20.389145+00:00",
+      "last_seen": "2026-09-27T19:33:06.993344+00:00",
+      "next_check": "2026-10-01T19:33:06.993344+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/user-data-services/documents/developer-guide/": {
       "content_sha": "edfb795aaed4f243955e6ce842b2c990c3ca6257f515ea1492c63846c5ebb4ef",
@@ -4091,10 +4091,10 @@
       "first_seen": "2026-09-07T14:18:30.097806+00:00",
       "last_changed": "2026-09-07T14:18:30.097806+00:00",
       "last_modified": "Mon, 22 Jun 2026 18:24:02 GMT",
-      "last_seen": "2026-09-07T14:18:30.097806+00:00",
-      "next_check": "2026-09-08T14:18:30.097806+00:00",
+      "last_seen": "2026-09-27T19:33:11.271108+00:00",
+      "next_check": "2026-09-29T19:33:11.271108+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/downloads/schemas/": {
       "content_sha": "1e5aaff7c857d3d292ed2b928af66160768300aca70eb133f777431b34f216d3",
@@ -4104,10 +4104,10 @@
       "first_seen": "2026-09-07T14:18:35.290161+00:00",
       "last_changed": "2026-09-07T14:18:35.290161+00:00",
       "last_modified": "Tue, 09 Jun 2026 16:35:45 GMT",
-      "last_seen": "2026-09-07T14:18:35.290161+00:00",
-      "next_check": "2026-09-08T14:18:35.290161+00:00",
+      "last_seen": "2026-09-27T19:33:15.311073+00:00",
+      "next_check": "2026-09-29T19:33:15.311073+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/help/faq/": {
       "content_sha": "44afe38200ae2c8684ccb1a537dcf3ce12bd8c619357ff575d5ea1e4643ff3a0",
@@ -4117,10 +4117,10 @@
       "first_seen": "2026-08-25T21:11:50.790175+00:00",
       "last_changed": "2026-08-25T21:11:50.790175+00:00",
       "last_modified": "Wed, 10 Jun 2026 14:39:28 GMT",
-      "last_seen": "2026-08-25T21:11:50.790175+00:00",
-      "next_check": "2026-08-26T21:11:50.790175+00:00",
+      "last_seen": "2026-09-27T19:33:19.649457+00:00",
+      "next_check": "2026-09-29T19:33:19.649457+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/learn/how-to/": {
       "content_sha": "8717cc3c2a3ab6d89e1d0a96a915a13edaf998e3f60cc1a986bb6f133c3a9012",
@@ -4130,10 +4130,10 @@
       "first_seen": "2026-09-07T14:18:45.132122+00:00",
       "last_changed": "2026-09-07T14:18:45.132122+00:00",
       "last_modified": "Tue, 23 Jun 2026 00:20:57 GMT",
-      "last_seen": "2026-09-07T14:18:45.132122+00:00",
-      "next_check": "2026-09-08T14:18:45.132122+00:00",
+      "last_seen": "2026-09-27T19:33:23.689948+00:00",
+      "next_check": "2026-09-29T19:33:23.689948+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/learn/how-to/configure-http-sessions/": {
       "content_sha": "d480f78965e1b2ff946dfa45e4d3a067d7fec24a64ade06ccf99cf17f0f10f1e",
@@ -4143,10 +4143,10 @@
       "first_seen": "2026-09-01T17:35:06.881075+00:00",
       "last_changed": "2026-09-01T17:35:06.881075+00:00",
       "last_modified": "Mon, 08 Jun 2026 22:11:25 GMT",
-      "last_seen": "2026-09-01T17:35:06.881075+00:00",
-      "next_check": "2026-09-02T17:35:06.881075+00:00",
+      "last_seen": "2026-09-27T19:33:27.913476+00:00",
+      "next_check": "2026-09-29T19:33:27.913476+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/": {
       "content_sha": "81ad4507ef2b3ff17485ec3695538ffd727c28a4d70732115603c6e24102512b",
@@ -4156,10 +4156,10 @@
       "first_seen": "2026-09-01T17:34:58.109782+00:00",
       "last_changed": "2026-09-01T17:34:58.109782+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:24:19 GMT",
-      "last_seen": "2026-09-01T17:34:58.109782+00:00",
-      "next_check": "2026-09-02T17:34:58.109782+00:00",
+      "last_seen": "2026-09-27T19:33:31.964538+00:00",
+      "next_check": "2026-09-29T19:33:31.964538+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/index.gsp": {
       "content_sha": null,
@@ -4181,10 +4181,10 @@
       "first_seen": "2026-09-07T14:09:54.493063+00:00",
       "last_changed": "2026-09-07T14:09:54.493063+00:00",
       "last_modified": "Mon, 22 Jun 2026 18:24:00 GMT",
-      "last_seen": "2026-09-07T14:09:54.493063+00:00",
-      "next_check": "2026-09-08T14:09:54.493063+00:00",
+      "last_seen": "2026-09-27T19:33:36.247937+00:00",
+      "next_check": "2026-09-29T19:33:36.247937+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/learn/sample-app/": {
       "content_sha": "70ce3a0305d5c93fec5710449eea09c08721051fcd3aaf167bba5a133a3f4dd4",
@@ -4194,10 +4194,10 @@
       "first_seen": "2026-09-07T14:18:40.317572+00:00",
       "last_changed": "2026-09-07T14:18:40.317572+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:46:41 GMT",
-      "last_seen": "2026-09-07T14:18:40.317572+00:00",
-      "next_check": "2026-09-08T14:18:40.317572+00:00",
+      "last_seen": "2026-09-27T19:33:40.643025+00:00",
+      "next_check": "2026-09-29T19:33:40.643025+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/overview/authentication/": {
       "content_sha": "b37bca40c3b7b3bd99a63d1cc5c1322ec059de1675667e2cd50c896ea0598dfb",
@@ -4207,10 +4207,10 @@
       "first_seen": "2026-08-25T21:03:04.164273+00:00",
       "last_changed": "2026-08-25T21:03:04.164273+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:33:53 GMT",
-      "last_seen": "2026-08-25T21:03:04.164273+00:00",
-      "next_check": "2026-08-26T21:03:04.164273+00:00",
+      "last_seen": "2026-09-27T19:33:44.868587+00:00",
+      "next_check": "2026-09-29T19:33:44.868587+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/user-data-services/sso/": {
       "content_sha": "0705f23d3b14b2e59a47effe3abbdad11804332649ba9b96cfef001656d8288b",
@@ -4220,10 +4220,10 @@
       "first_seen": "2026-09-01T17:35:02.635150+00:00",
       "last_changed": "2026-09-01T17:35:02.635150+00:00",
       "last_modified": "Mon, 22 Jun 2026 16:53:40 GMT",
-      "last_seen": "2026-09-01T17:35:02.635150+00:00",
-      "next_check": "2026-09-02T17:35:02.635150+00:00",
+      "last_seen": "2026-09-27T19:33:49.076602+00:00",
+      "next_check": "2026-09-29T19:33:49.076602+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/": {
       "content_sha": "77238cf6a0ed7754c78a8b7ab0b61bdae3e6b8354723bade1ed21c6e74e55c48",
@@ -4246,10 +4246,10 @@
       "first_seen": "2026-09-01T15:34:02.653520+00:00",
       "last_changed": "2026-09-01T15:34:02.653520+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:23:30 GMT",
-      "last_seen": "2026-09-01T15:34:02.653520+00:00",
-      "next_check": "2026-09-02T15:34:02.653520+00:00",
+      "last_seen": "2026-09-27T19:33:53.249817+00:00",
+      "next_check": "2026-09-29T19:33:53.249817+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/latest-version/": {
       "content_sha": "be9e861027b17f6fee997ede5ffd96cbfc9eddb919c46ec82e6bccafe5354fd3",
@@ -4259,10 +4259,10 @@
       "first_seen": "2026-08-25T11:14:00.042304+00:00",
       "last_changed": "2026-08-25T11:14:00.042304+00:00",
       "last_modified": "Wed, 10 Jun 2026 05:36:12 GMT",
-      "last_seen": "2026-09-14T19:08:03.290533+00:00",
-      "next_check": "2026-09-18T19:08:03.290533+00:00",
+      "last_seen": "2026-09-27T19:33:57.406953+00:00",
+      "next_check": "2026-10-05T19:33:57.406953+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/operations-by-release/": {
       "content_sha": "3418bd70f236c401490750bc206a14936afc18fde48e840a6277cb7bc98f2e1d",
@@ -4272,10 +4272,10 @@
       "first_seen": "2026-09-07T11:07:46.264079+00:00",
       "last_changed": "2026-09-07T11:07:46.264079+00:00",
       "last_modified": "Tue, 09 Jun 2026 18:18:42 GMT",
-      "last_seen": "2026-09-07T11:07:46.264079+00:00",
-      "next_check": "2026-09-08T11:07:46.264079+00:00",
+      "last_seen": "2026-09-27T19:34:01.743167+00:00",
+      "next_check": "2026-09-29T19:34:01.743167+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/discover/getting-started/get-wsdl/": {
       "content_sha": "3a3602f8f452e43562f1b2795a55baa745961068b761dd59469e233fcdab9dd7",
@@ -4285,10 +4285,10 @@
       "first_seen": "2026-08-25T21:11:54.968837+00:00",
       "last_changed": "2026-08-25T21:11:54.968837+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:41:48 GMT",
-      "last_seen": "2026-09-15T11:09:48.045220+00:00",
-      "next_check": "2026-09-17T11:09:48.045220+00:00",
+      "last_seen": "2026-09-27T19:34:06.113691+00:00",
+      "next_check": "2026-10-01T19:34:06.113691+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/webdialer/documents/developer-guide/": {
       "content_sha": null,
@@ -4310,10 +4310,10 @@
       "first_seen": "2026-08-25T21:11:59.246596+00:00",
       "last_changed": "2026-08-25T21:11:59.246596+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:36:50 GMT",
-      "last_seen": "2026-09-15T11:09:52.295930+00:00",
-      "next_check": "2026-09-17T11:09:52.295930+00:00",
+      "last_seen": "2026-09-27T19:34:10.290474+00:00",
+      "next_check": "2026-10-01T19:34:10.290474+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/webdialer/documents/operations-by-release/": {
       "content_sha": "2e8b014d76241704aa54d81699bebbb5c93b8f71df062bdabcb212461f9d6a56",
@@ -4323,10 +4323,10 @@
       "first_seen": "2026-08-25T21:03:25.264734+00:00",
       "last_changed": "2026-08-25T21:03:25.264734+00:00",
       "last_modified": "Tue, 23 Jun 2026 04:15:40 GMT",
-      "last_seen": "2026-08-25T21:03:25.264734+00:00",
-      "next_check": "2026-08-26T21:03:25.264734+00:00",
+      "last_seen": "2026-09-27T19:34:14.534738+00:00",
+      "next_check": "2026-09-29T19:34:14.534738+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/learn/sample-apps/": {
       "content_sha": "7117a2c6d8d47e4eda39031c2d31acdb1af077f56f4b041047b8e94a287b1f9d",
@@ -4336,10 +4336,10 @@
       "first_seen": "2026-08-25T21:12:03.482238+00:00",
       "last_changed": "2026-08-25T21:12:03.482238+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:09:41 GMT",
-      "last_seen": "2026-09-15T11:09:56.369823+00:00",
-      "next_check": "2026-09-17T11:09:56.369823+00:00",
+      "last_seen": "2026-09-27T19:34:18.588078+00:00",
+      "next_check": "2026-10-01T19:34:18.588078+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/webdialer/learn/sample-apps/html-sample-app/": {
       "content_sha": "30e82b80b42f9edffd34ef26479a00395acf64f1d24e98e96814fe575abc5eae",
@@ -4349,10 +4349,10 @@
       "first_seen": "2026-09-01T17:49:52.911120+00:00",
       "last_changed": "2026-09-01T17:49:52.911120+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:11:31 GMT",
-      "last_seen": "2026-09-01T17:49:52.911120+00:00",
-      "next_check": "2026-09-02T17:49:52.911120+00:00",
+      "last_seen": "2026-09-27T19:34:22.827867+00:00",
+      "next_check": "2026-09-29T19:34:22.827867+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/learn/sample-apps/soap-hello-world/": {
       "content_sha": "9e1f0d09cf81550574bc502fd07d003c87e9b3064e88f87beab4bdca57048bf3",
@@ -4362,10 +4362,10 @@
       "first_seen": "2026-09-01T17:49:57.433069+00:00",
       "last_changed": "2026-09-01T17:49:57.433069+00:00",
       "last_modified": "Tue, 09 Jun 2026 08:14:58 GMT",
-      "last_seen": "2026-09-01T17:49:57.433069+00:00",
-      "next_check": "2026-09-02T17:49:57.433069+00:00",
+      "last_seen": "2026-09-27T19:34:27.051264+00:00",
+      "next_check": "2026-09-29T19:34:27.051264+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/webdialer/webdialer/authentication/": {
       "content_sha": "10aaf7fb98b83412aaac733003f1ac4a2eb7a1158c21b59bbfbdbbbcc2acc00c",
@@ -4375,10 +4375,10 @@
       "first_seen": "2026-08-25T21:03:29.688224+00:00",
       "last_changed": "2026-08-25T21:03:29.688224+00:00",
       "last_modified": "Thu, 11 Jun 2026 22:53:27 GMT",
-      "last_seen": "2026-09-07T11:07:46.632330+00:00",
-      "next_check": "2026-09-09T11:07:46.632330+00:00",
+      "last_seen": "2026-09-27T19:34:31.051326+00:00",
+      "next_check": "2026-10-01T19:34:31.051326+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/webex-developer/": {
       "content_sha": null,
@@ -4406,145 +4406,145 @@
       "unchanged_runs": 4
     },
     "https://help.webex.com/article/2r5gv7": {
-      "content_sha": "faf6a49987606f494b0a5c19590ca3c545480e6b5214234378a0ea05fb8ad4d1",
+      "content_sha": "b7fbb7377753dbda05545e0bfa0299fd4c996e41ef39f61656bd51093862103b",
       "doc_id": "help-webex-com-article-2r5gv7-4bea9d3c7c",
-      "etag": "\"27c82b-oxhRB8fmjNfXIxwf22W9R6rTnx8\"",
+      "etag": "\"27cb2a-paI4upGUxsMK6HgnrNQhk6hluXI\"",
       "fail_count": 0,
       "first_seen": "2026-09-07T10:36:27.836909+00:00",
-      "last_changed": "2026-09-07T10:36:27.836909+00:00",
+      "last_changed": "2026-09-27T19:34:40.941571+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:36:27.836909+00:00",
-      "next_check": "2026-09-08T10:36:27.836909+00:00",
+      "last_seen": "2026-09-27T19:34:40.941571+00:00",
+      "next_check": "2026-09-28T19:34:40.941571+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/article/e2okky": {
-      "content_sha": "e27e2752d6430c1ecdfb859181696d3b6763d64e2840a098e54aca1bc7c44757",
+      "content_sha": "36ad9dd95fedeea4cab4b275b65997bf443c5991005c5ef2324ccdb47fcbb76c",
       "doc_id": "help-webex-com-article-e2okky-a567015859",
-      "etag": "\"352ed-uF8sP0agsHenQjceM+mmXxBqeo4\"",
+      "etag": "\"35433-sLgMGo8p5u5Z8GXn8y9SH8vYkL8\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T21:38:38.370703+00:00",
-      "last_changed": "2026-09-01T21:38:38.370703+00:00",
+      "last_changed": "2026-09-27T19:34:45.255927+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:38:38.370703+00:00",
-      "next_check": "2026-09-02T21:38:38.370703+00:00",
+      "last_seen": "2026-09-27T19:34:45.255927+00:00",
+      "next_check": "2026-09-28T19:34:45.255927+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/article/f84hzbb": {
       "content_sha": "64d7cc714aca2705dd042279a70bd5303bfd56f62b6d2467d1cd62bb5131944b",
       "doc_id": "help-webex-com-article-f84hzbb-ccbc9ab363",
-      "etag": "\"53aec-dYJVpZnTdui/52edXlYejet8sD0\"",
+      "etag": "\"53c5b-MldNovIV22rNuekslBOvB3C3NNc\"",
       "fail_count": 0,
       "first_seen": "2026-09-07T12:40:05.436939+00:00",
       "last_changed": "2026-09-07T12:40:05.436939+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T12:40:05.436939+00:00",
-      "next_check": "2026-09-08T12:40:05.436939+00:00",
+      "last_seen": "2026-09-27T19:34:50.368530+00:00",
+      "next_check": "2026-09-29T19:34:50.368530+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/article/lk7294": {
-      "content_sha": "c3aa81652984a267fefb86b8b096947a8a2ff76069e8b16d2720b7f87cd8bd00",
+      "content_sha": "8b56f44cb847da5c1bcd025da3b6fb74b272b118a72448aa43072b076b743d54",
       "doc_id": "help-webex-com-article-lk7294-6505c7ea8f",
-      "etag": "\"280e6-IZRaivIAwOrTiY2k+R8h0KaRfUo\"",
+      "etag": "\"27e53-KgiD1/UNxm9FZw+yk6CPM51k1ks\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T21:38:51.826409+00:00",
-      "last_changed": "2026-09-01T21:38:51.826409+00:00",
+      "last_changed": "2026-09-27T19:34:54.670582+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:38:51.826409+00:00",
-      "next_check": "2026-09-02T21:38:51.826409+00:00",
+      "last_seen": "2026-09-27T19:34:54.670582+00:00",
+      "next_check": "2026-09-28T19:34:54.670582+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/article/njt5dbz": {
       "content_sha": "60532ff135187a49a3bb8a50a5c34a5be31d3fec8591cfe140ac6eec47e0a0dc",
       "doc_id": "help-webex-com-article-njt5dbz-90774a1f12",
-      "etag": "\"2bdb5-3UCxjnlyB03DFeLpP6E6VfL/YLE\"",
+      "etag": "\"2ba49-JDM1WrUAnJC8ewpEDfB36FSHxsw\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:20:15.434770+00:00",
       "last_changed": "2026-09-01T17:20:15.434770+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T17:20:15.434770+00:00",
-      "next_check": "2026-09-02T17:20:15.434770+00:00",
+      "last_seen": "2026-09-27T19:34:59.173957+00:00",
+      "next_check": "2026-09-29T19:34:59.173957+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/article/nt815zm": {
       "content_sha": "b9986e4648cfe17ecf4737e6028dd9ffae2d2fcf11134c52f900d19842e9a7bb",
       "doc_id": "help-webex-com-article-nt815zm-a1f460250b",
-      "etag": "\"28fe8-0NSO7dqKWOA4TBOjmMotE7lZUKI\"",
+      "etag": "\"29157-7p3rHocyMqZusQaGvSlXUl/vjM0\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T21:38:34.513002+00:00",
       "last_changed": "2026-09-01T21:38:34.513002+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:38:34.513002+00:00",
-      "next_check": "2026-09-02T21:38:34.513002+00:00",
+      "last_seen": "2026-09-27T19:35:04.077307+00:00",
+      "next_check": "2026-09-29T19:35:04.077307+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/article/nwtulzs": {
       "content_sha": "8d07dda93db6fdfcba7e9da6b432d6765d10ed5f6c770b41ee4eec93ca8e4091",
       "doc_id": "help-webex-com-article-nwtulzs-b77906a46e",
-      "etag": "\"2c678-355IA9uSMul8PtJdY+QxoKU91Ck\"",
+      "etag": "\"2c2f0-d6H5+Jc0fsnTG/HRCTMFUo34OWo\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T21:38:47.139898+00:00",
       "last_changed": "2026-09-01T21:38:47.139898+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:38:47.139898+00:00",
-      "next_check": "2026-09-02T21:38:47.139898+00:00",
+      "last_seen": "2026-09-27T19:35:09.836437+00:00",
+      "next_check": "2026-09-29T19:35:09.836437+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/article/nxz79m5": {
-      "content_sha": "a1538933eefba30e68f622f9ca49234e03d06265932d4e810bb0cfc9afb18ad6",
+      "content_sha": "9ab8d6ae6ef96fd061169cd27ea3f372ecb536455b4a5b2afaa9a4397f636bf7",
       "doc_id": "help-webex-com-article-nxz79m5-fb8cb73400",
-      "etag": "\"3b99f-53XJ9im83A0pLld9U31YyN4WZE4\"",
+      "etag": "\"3dc52-BfBfphh2MWKcClzTG2GnC+ZQn4s\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T20:26:40.441326+00:00",
-      "last_changed": "2026-09-01T20:26:40.441326+00:00",
+      "last_changed": "2026-09-27T19:35:14.303799+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T20:26:40.441326+00:00",
-      "next_check": "2026-09-02T20:26:40.441326+00:00",
+      "last_seen": "2026-09-27T19:35:14.303799+00:00",
+      "next_check": "2026-09-28T19:35:14.303799+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/article/rvjm4i": {
       "content_sha": "c4ad496831a93013fc4e99d9ec8d0d07af6f43bef71fcc99e2fee96a418a678a",
       "doc_id": "help-webex-com-article-rvjm4i-682aa629a4",
-      "etag": "\"56bf0-+jTnMhkgN4/bGd8i0XHcPVjTywY\"",
+      "etag": "\"56959-69NYftAq3QZuaB2/dIvW2YoUsGg\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T18:54:07.954141+00:00",
       "last_changed": "2026-09-01T18:54:07.954141+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:54:07.954141+00:00",
-      "next_check": "2026-09-02T18:54:07.954141+00:00",
+      "last_seen": "2026-09-27T19:35:20.141740+00:00",
+      "next_check": "2026-09-29T19:35:20.141740+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/article/tajemk": {
-      "content_sha": "cd8c55f6037a0d1fba6b2e28f3e0c2539472c4ba54fc43332a162bea6920c9ba",
+      "content_sha": "5fbc8c131e0250d2d8d430f1383fd8dd699e374cbd8e25135f78af980c1c9654",
       "doc_id": "help-webex-com-article-tajemk-074c486f19",
-      "etag": "\"41605a-Kr164mdFA7ZaPdeNcSwmizxmWgM\"",
+      "etag": "\"419dc5-BI6q0fA+5aU3sfcuXzj4+Tw7eog\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T18:53:50.734084+00:00",
-      "last_changed": "2026-09-01T18:53:50.734084+00:00",
+      "last_changed": "2026-09-27T19:35:33.253724+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:50.734084+00:00",
-      "next_check": "2026-09-02T18:53:50.734084+00:00",
+      "last_seen": "2026-09-27T19:35:33.253724+00:00",
+      "next_check": "2026-09-28T19:35:33.253724+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/article/utqcm7": {
-      "content_sha": "d68ab66396baaf650c860053ae6cc79b90c0b956fa81907960e710595198042b",
+      "content_sha": "ee86671dd1a82a2fe86b35ff58a3627fcd651bf364b6886c934feeb28cfbabf2",
       "doc_id": "help-webex-com-article-utqcm7-38c6563268",
-      "etag": "\"5b295-80vsT/eNo22DInYd6LkcmUd90EE\"",
+      "etag": "\"5aa66-LvKfHMessyvJ4J2T6QznKCQIky0\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T18:53:38.427656+00:00",
-      "last_changed": "2026-09-01T18:53:38.427656+00:00",
+      "last_changed": "2026-09-27T19:35:38.164197+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:53:38.427656+00:00",
-      "next_check": "2026-09-02T18:53:38.427656+00:00",
+      "last_seen": "2026-09-27T19:35:38.164197+00:00",
+      "next_check": "2026-09-28T19:35:38.164197+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -4559,69 +4559,69 @@
       "unchanged_runs": 1
     },
     "https://help.webex.com/en-us/article/19qt9v/Deployment-guide-for-Webex-App-for-Virtual-Desktop-Infrastructure-(VDI)": {
-      "content_sha": "02c5c5b896c73343515b2cb451286e7e75e1eb4e5771ba4750ee2079be50df87",
+      "content_sha": "0ef9a085f710b8929c52532127fcb9d6dfcf421dca12c95099fe7a98ffd72679",
       "doc_id": "help-webex-com-en-us-article-19qt9v-deployment-guide-for-webex-app-for-virtual-desktop-infrastructure-vdi-a14628d9b9",
-      "etag": "\"e8a4c-wUw4Zk6Qp5oNR2DXEbjPQtZdxM0\"",
+      "etag": "\"e8c9c-cdWxwY4NuGsA9ksqhkPmy8oKyXM\"",
       "fail_count": 0,
       "first_seen": "2026-09-07T10:36:41.809794+00:00",
-      "last_changed": "2026-09-07T10:36:41.809794+00:00",
+      "last_changed": "2026-09-27T19:35:43.695292+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:36:41.809794+00:00",
-      "next_check": "2026-09-08T10:36:41.809794+00:00",
+      "last_seen": "2026-09-27T19:35:43.695292+00:00",
+      "next_check": "2026-09-28T19:35:43.695292+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/1mqb9cb": {
-      "content_sha": "7ff8d999fed2fb93c988feb541fb6965c68f60182094f6a956e1ea8e681a5a26",
+      "content_sha": "5953e617e6e2312452c1f000708388b00b7bcfde7b07c4f12561d1c3de3de8fc",
       "doc_id": "help-webex-com-en-us-article-1mqb9cb-f8f6d3021f",
-      "etag": "\"3c106-bGpC9+bCwiD4k3qbcP33G0E//Xk\"",
+      "etag": "\"3bef6-8oSIO9XTvSHwTaGGGuCfXSz8U5g\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T21:38:43.179308+00:00",
-      "last_changed": "2026-09-01T21:38:43.179308+00:00",
+      "last_changed": "2026-09-27T19:35:48.180822+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:38:43.179308+00:00",
-      "next_check": "2026-09-02T21:38:43.179308+00:00",
+      "last_seen": "2026-09-27T19:35:48.180822+00:00",
+      "next_check": "2026-09-28T19:35:48.180822+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/1ois7l/Your-Cisco-Room-Phone": {
-      "content_sha": "58a7436bad33a2e6dd112b3efc0a89318a95a37d74617b7073d1dd23f3e7dac3",
+      "content_sha": "a2008d2cb59bcf4adaa171d81c8ce3b70893382cf50027ed712cd7ee9ce278b2",
       "doc_id": "help-webex-com-en-us-article-1ois7l-your-cisco-room-phone-42297b8f2d",
-      "etag": "\"39aaf-Jkxiw+YYbOhq3a8ZHxkp+EnFeAQ\"",
+      "etag": "\"39ca0-tzHPJ5sCrg/0Lub1LiM4WD9Een0\"",
       "fail_count": 0,
       "first_seen": "2026-09-07T15:42:46.184350+00:00",
-      "last_changed": "2026-09-07T15:42:46.184350+00:00",
+      "last_changed": "2026-09-27T19:35:52.764948+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:42:46.184350+00:00",
-      "next_check": "2026-09-08T15:42:46.184350+00:00",
+      "last_seen": "2026-09-27T19:35:52.764948+00:00",
+      "next_check": "2026-09-28T19:35:52.764948+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series": {
-      "content_sha": "bed119bda27b49aac288b5c05a98420cc0d948b7b4b33258f28081e74450e94c",
+      "content_sha": "fc02d0f996d9bab5013a72408569e7098894494195e4895c16b52e0bd7fb3ba7",
       "doc_id": "help-webex-com-en-us-article-29odsb-get-started-with-cisco-desk-phone-9800-series-72b5e93bd8",
-      "etag": "\"84a14-JVIgrklRzwI0o+nrVgPmtt6x7K8\"",
+      "etag": "\"84b45-pUVZONQNlr/83t2RspaMRSfFU70\"",
       "fail_count": 0,
       "first_seen": "2026-09-01T17:22:41.578394+00:00",
-      "last_changed": "2026-09-01T17:22:41.578394+00:00",
+      "last_changed": "2026-09-27T19:35:58.259928+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T21:39:39.283110+00:00",
-      "next_check": "2026-09-18T21:39:39.283110+00:00",
+      "last_seen": "2026-09-27T19:35:58.259928+00:00",
+      "next_check": "2026-09-28T19:35:58.259928+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/2ktojz": {
       "content_sha": "1d956f33c2d8a2849edbb0af22a1f8ee044cb6147f61c2808c5999c19008f9fe",
       "doc_id": "help-webex-com-en-us-article-2ktojz-a44274751d",
-      "etag": "\"3536b-7InrNGX9/soz9xNhqFysfbt+rdY\"",
+      "etag": "\"354da-uPpNG2kcEcVwolDHLOr/0X59q7w\"",
       "fail_count": 0,
       "first_seen": "2026-09-07T10:36:49.863295+00:00",
       "last_changed": "2026-09-07T10:36:49.863295+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:36:49.863295+00:00",
-      "next_check": "2026-09-08T10:36:49.863295+00:00",
+      "last_seen": "2026-09-27T19:36:02.934423+00:00",
+      "next_check": "2026-09-29T19:36:02.934423+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://help.webex.com/en-us/article/2rbeqt": {
       "content_sha": "15851b5ff2f25f73bb304e3fe27364bfdd5b69d2bc0acb220ec36dc0df053089",
@@ -18250,10 +18250,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-programming-ref-533c9786d9",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:48.337129+00:00",
-      "last_seen": "2026-09-27T10:52:48.337129+00:00",
-      "next_check": "2026-09-27T00:00:00+00:00",
+      "last_seen": "2026-09-27T19:27:13.071068+00:00",
+      "next_check": "2026-10-01T19:27:13.071068+00:00",
       "status": "discovery",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-release-notes-list.html": {
       "content_sha": null,
@@ -178457,5 +178457,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T16:11:23.049813+00:00"
+  "updated_at": "2026-09-27T19:36:03.034161+00:00"
 }

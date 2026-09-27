@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-site-sxml-discover-overview-cdr-on-demand-bd6dd9ed7e
 source_url: https://developer.cisco.com/site/sxml/discover/overview/cdr-on-demand/
-retrieved_at: 2026-09-01T17:49:05.121185+00:00
+retrieved_at: 2026-09-27T19:30:49.485945+00:00
 ---
 
 # CDRonDemand Overview
@@ -75,3 +75,7 @@ To set throttling for CDRonDemand, from the Cisco Unified CM Administration Guid
 - Allowed CDRonDemand get_file queries per minute: minimum = 1, maximum = 20, default = 10
 
 - Allowed CDRonDemand get_file_list queries per minute: minimum = 1, maximum = 40, default = 20
+
+## Figuras
+
+![CDR Architecture](https://pubhub.devnetcloud.com/media/sxml/site/images/sxml2/discover/overview/cdr/image01.jpg)

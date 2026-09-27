@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-29odsb-get-started-with-cisco-desk-phone-9800-series-72b5e93bd8
 source_url: https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series
-retrieved_at: 2026-09-01T17:22:41.578493+00:00
+retrieved_at: 2026-09-27T19:35:58.260027+00:00
 ---
 
 Cisco Desk Phone 9800 Series is designed to facilitate a convenient and flexible collaboration experience during calls
@@ -1406,3 +1406,83 @@ Your formal Warranty Statement, including the warranties and license agreements 
 | 3 | If prompted, enter an activation code. |
 | 4 | If prompted, choose the call service "Cisco UCM" or "Cisco cloud service". For "Cisco cloud service", you must enter an activation code or a service domain. If you select service domain, you must enter valid user credentials. |
 | 5 | Wait for the registration to complete. |
+
+## Figuras
+
+![The collection of Desk Phone 9800 Series](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478768.png)
+
+![Cisco Desk Phone 9811 front view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/491001-492000/491212.png)
+
+![Hold/Resume button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478220.png)
+
+![Transfer button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478221.png)
+
+![Speakerphone button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478223.png)
+
+![Headset button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478224.png)
+
+![Mute button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478225.png)
+
+![Favorite button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478217.png)
+
+![Settings button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478218.png)
+
+![Cisco Desk Phone 9811 back view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/491001-492000/491213.png)
+
+![Cisco Desk Phone 9811 right-side view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/491001-492000/491214.png)
+
+![Cisco Desk Phone 9841 front view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478769.png)
+
+![Conference button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478222.png)
+
+![Contacts button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478219.png)
+
+![Cisco Desk Phone 9841 back view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478770.png)
+
+![Cisco Desk Phone 9841 right-side view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478788.png)
+
+![Cisco Desk Phone 9851 front view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478789.png)
+
+![the Hold key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478220.png)
+
+![the Transfer key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478221.png)
+
+![the Conference key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478222.png)
+
+![the Headset key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478224.png)
+
+![the Speaker key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478223.png)
+
+![the Mute key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478225.png)
+
+![the favorite key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478217.png)
+
+![the Settings key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478218.png)
+
+![the Contacts key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478219.png)
+
+![Cisco Desk Phone 9851 back view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478790.png)
+
+![Cisco Desk Phone 9851 right-side view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478791.png)
+
+![Cisco Desk Phone 9861 front view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478792.png)
+
+![Cisco Desk Phone 9861 back view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478793.png)
+
+![Cisco Desk Phone 9861 right-side view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478791.png)
+
+![Cisco Desk Phone 9871 front view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478794.png)
+
+![Cisco Desk Phone 9871 back view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478795.png)
+
+![Cisco Desk Phone 9871 right-side view](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478791.png)
+
+![the graphic for installing handset](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478866.png)
+
+![the graphic for installing footstand](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478865.png)
+
+![the graphic for connecting Ehternet](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478867.png)
+
+![the graphic for connecting power](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478868.png)
+
+![the screenshot of how to use Help Center](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/482001-483000/482793.png)

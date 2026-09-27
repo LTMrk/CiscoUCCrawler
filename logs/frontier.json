@@ -1,481 +1,5 @@
 [
   {
-    "url": "https://developer.cisco.com/site/ip-phone-services/overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_0_2-10_6_8/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_6_9/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_5_3/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_10/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_11/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_7/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/10_6_9/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_0/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_1/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_0_2/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_0/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_1_3/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/android/11_2_0/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_5_4/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_10/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_11/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_7/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_8/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/10_6_9/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_0/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_1/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_0_2/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_0/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_1/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_1_3_233/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_1/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_2/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_3/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/ios/11_2_4/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jabber-guestsdk/guestsdk/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/cti-tapi-jtapi-supported-device-matrix/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/developer-guides/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/documentation/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/overview/start/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/overview/technical/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/technical-overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/jtapi/wiki/cti-tapi-jtapi-supported-device-matrix/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/discover/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/discover/getting-started/paws-hello-world/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/discover/what-is-paws/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/documents/api-reference/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/documents/developer-guide/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/help/faqs/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/learn/how-to/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/paws/learn/sample-apps/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/cdr-on-demand/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/log-collection/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/perfmon/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/risport/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/service-control/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/discover/overview/snmp/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/downloads/sample-app/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/learn/mibs/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/learn/soap-ui-tutorial/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/sxml/tools/sandbox/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/tapi/developer-guides/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/tapi/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/tapi/supported-windows-os-eol/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/tapi/supported-windows-os/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/tapi/technical-overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-express-services/discover/overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-express-services/discover/start/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-express-services/documents/sdk/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-express-services/downloads/sample/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-gateway-services/discover/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-gateway-services/discover/tech-overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-manager-sip/discover/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/uc-manager-sip/discover/tech-overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/unity-connection/overview/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/unity-connection/sso/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/community-and-support/faq/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/develop-and-test/api-reference/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/develop-and-test/get-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/discover/build-a-development-lab/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/discover/getting-started/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/discover/how-does-uds-work/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/discover/what-is-uds/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/discover/why-use-uds/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/documents/developer-guide/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/downloads/schemas/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/help/faq/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/configure-http-sessions/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/explore-uds-apis/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/how-to/uds-hello-world/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/learn/sample-app/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/overview/authentication/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/user-data-services/sso/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/developer-guide/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/latest-version/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/operations-by-release/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/discover/getting-started/get-wsdl/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/documents/latest-version/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/documents/operations-by-release/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/learn/sample-apps/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/learn/sample-apps/html-sample-app/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/learn/sample-apps/soap-hello-world/",
-    "depth": 0
-  },
-  {
-    "url": "https://developer.cisco.com/site/webdialer/webdialer/authentication/",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/2r5gv7",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/e2okky",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/f84hzbb",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/lk7294",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/njt5dbz",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/nt815zm",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/nwtulzs",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/nxz79m5",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/rvjm4i",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/tajemk",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/article/utqcm7",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/19qt9v/Deployment-guide-for-Webex-App-for-Virtual-Desktop-Infrastructure-(VDI)",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/1mqb9cb",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/1ois7l/Your-Cisco-Room-Phone",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/29odsb/Get-started-with-Cisco-Desk-Phone-9800-Series",
-    "depth": 0
-  },
-  {
-    "url": "https://help.webex.com/en-us/article/2ktojz",
-    "depth": 0
-  },
-  {
     "url": "https://help.webex.com/en-us/article/2rbeqt",
     "depth": 0
   },
@@ -25586,5 +25110,233 @@
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/vg248/1_0/english/install/guide/hard_ins/vg248hww.html",
     "depth": 0
+  },
+  {
+    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/site/jabber-guestsdk/documents/release-notes/",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/jgobq2/Webex-Video-Mesh-release-notes",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nedfu0h/Deploy-Zero-Trust-Meetings",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/2r5gv7/Deployment-Guide-for-Video-Mesh",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ipxxr2",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/article/WBX15",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/qbe7udb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nxep7tb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/fs78p5",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nckc1aeb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nhhoxf6",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/DOC-5361",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ng17y2u",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n0rlwxe/Analytics-for-Your-Cloud-Collaboration-Portfolio",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/npgz5ph/Media-Health-Monitoring-for-Video-Mesh",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/article/nxep7tb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/WBX15",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nmdp0hq",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/v71ztb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nzq0ztab",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/f84hzbb/Customize-Cisco-headsets-features-in-Control-Hub",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nvics3k/Domain-management-in-Webex-for-Government",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/lfu88u",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nqj88gt",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/WBX9000036960",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/tqykm1",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nqw6me",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/tajemk/Cisco-Webex-Contact-Center-Analyzer-User-Guide",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/preview/tajemk/Cisco-Webex-Contact-Center-Analyzer-User-Guide",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/utqcm7/Webex-Contact-Center-Architecture",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/2dputx/Set-up-voice-channels-for-Webex-Contact-Center",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nhxw7kfb",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/dyidod",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/54vvw",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/ny83tx0",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/aw26j2",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n1lsqvu",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/jg2krv",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nb8oxvy",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nqu2kub",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/f6tp57",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/80jduab/Use-a-virtual-background-in-the-Webex-Meetings-suite",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n4cprps",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/b2exve",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/njvdjf2",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/jr1i3r",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nqqzbk7",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/0r7a2z",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/nz0krq9",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n9r1aac",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n0h4eh4",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/wlgw73",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/n9r1aac/Configure-and-manage-Webex-Calling-devices",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/px1plu",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/708ce3",
+    "depth": 1
+  },
+  {
+    "url": "https://help.webex.com/en-us/article/2ktojz/Troubleshoot-Hybrid-Calling",
+    "depth": 1
   }
 ]

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-19qt9v-deployment-guide-for-webex-app-for-virtual-desktop-infrastructure-vdi-a14628d9b9
 source_url: https://help.webex.com/en-us/article/19qt9v/Deployment-guide-for-Webex-App-for-Virtual-Desktop-Infrastructure-(VDI)
-retrieved_at: 2026-09-07T10:36:41.809897+00:00
+retrieved_at: 2026-09-27T19:35:43.695369+00:00
 ---
 
 ### Webex App VDI login flow
@@ -836,3 +836,9 @@ Registry key values
                                                 recommend that you launch the client once before
                                                 deploying the Webex App VDI plugin (up to version 41.12). See Loading 3rd Party
                                                   Mac plugins with Session Enhancement SDK for more information. Amazon WorkSpaces 5.17 and later |
+
+## Figuras
+
+![Protocol sessions for Webex VDI with Unified CM over MRA](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/458001-459000/458836.jpg)
+
+![Configuration in Control Hub for partners and administrators](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483714.jpg)
