@@ -16052,6 +16052,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218153-troubleshoot-incoming-call-problems-for.html": {
+      "content_sha": "fb5e19c4d1590a1f88020888df92ed07084b87cd8bff2a965eed12029e87620b",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218153-troubleshoot-incoming-call-problems-for-h-08d8c245c0",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-09-27T15:15:00.894462+00:00",
+      "last_changed": "2026-09-27T15:15:00.894462+00:00",
+      "last_modified": null,
+      "last_seen": "2026-09-27T15:15:00.894462+00:00",
+      "next_check": "2026-09-28T15:15:00.894462+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.html": {
       "content_sha": "e5b5dfcd8893827259f527f920962da0c14d05ac1aa5d88539981b1eb331ab30",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-h-5083cbfec9",
@@ -16078,6 +16091,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-e-0d5611d8a0",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:09.960319+00:00",
+      "last_seen": "2026-09-27T15:15:09.960333+00:00",
+      "next_check": "2026-09-28T15:15:09.960338+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.html": {
       "content_sha": "d0afa4d1e419066c48e6ebc60486eb1cceb9026e2546a5b991e1c0012b9952a1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-h-e3ffe62bc7",
@@ -16089,6 +16112,16 @@
       "last_seen": "2026-09-27T12:48:11.697046+00:00",
       "next_check": "2026-09-28T12:48:11.697046+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-m-46d50bdb41",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:14.728261+00:00",
+      "last_seen": "2026-09-27T15:15:14.728272+00:00",
+      "next_check": "2026-09-28T15:15:14.728276+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.html": {
@@ -16117,6 +16150,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--092bc5f6d6",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:35.457702+00:00",
+      "last_seen": "2026-09-27T15:15:35.457714+00:00",
+      "next_check": "2026-09-28T15:15:35.457717+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.html": {
       "content_sha": "6111c6dd2b8645e83ee5c422e75efa50e6a66fe83a352b7a768ddc0176f8425f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--ed15ef3298",
@@ -16128,6 +16171,16 @@
       "last_seen": "2026-09-27T12:48:24.482920+00:00",
       "next_check": "2026-09-28T12:48:24.482920+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221052-generate-prt-manually-for-mpp-phones-reg--fddab4377d",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:18.697051+00:00",
+      "last_seen": "2026-09-27T15:15:18.697067+00:00",
+      "next_check": "2026-09-28T15:15:18.697072+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.html": {
@@ -16143,6 +16196,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221052-generate-prt-manually-for-mpp-phones-reg--f1d12bfb00",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:22.572771+00:00",
+      "last_seen": "2026-09-27T15:15:22.572782+00:00",
+      "next_check": "2026-09-28T15:15:22.572785+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.html": {
       "content_sha": "05704fb189f07c4712d7c6a701d3959d8068299507c4b814b7238f226cb6265f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-htm-c734973ef5",
@@ -16156,6 +16219,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221890-troubleshoot-voicemail-issues-in-webex-c--53ebb3c1a7",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:02.107918+00:00",
+      "last_seen": "2026-09-27T15:15:02.107930+00:00",
+      "next_check": "2026-09-28T15:15:02.107933+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.html": {
       "content_sha": "8c3659abc739b07d84fc672f0390b69fb50264cdab72900b6d3d80dce813b6a8",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221890-troubleshoot-voicemail-issues-in-webex-c--3b371927b9",
@@ -16167,6 +16240,16 @@
       "last_seen": "2026-09-27T12:48:07.487520+00:00",
       "next_check": "2026-09-28T12:48:07.487520+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221890-troubleshoot-voicemail-issues-in-webex-c--8bfd1c20f8",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:05.640211+00:00",
+      "last_seen": "2026-09-27T15:15:05.640222+00:00",
+      "next_check": "2026-09-28T15:15:05.640226+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.html": {
@@ -16312,6 +16395,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-226122-troubleshoot-phone-services-in-webex-epub-c18861b2ed",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:27.224472+00:00",
+      "last_seen": "2026-09-27T15:15:27.224485+00:00",
+      "next_check": "2026-09-28T15:15:27.224489+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.html": {
       "content_sha": "dec546a6470a9a9ccf8b75cef240c725f83e812cbcf0095d69a2491d67ddbb90",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-226122-troubleshoot-phone-services-in-webex-html-c02494ee99",
@@ -16324,6 +16417,16 @@
       "next_check": "2026-10-13T12:48:20.449525+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-226122-troubleshoot-phone-services-in-webex-mobi-40b5b0ec45",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:15:31.137791+00:00",
+      "last_seen": "2026-09-27T15:15:31.137803+00:00",
+      "next_check": "2026-09-28T15:15:31.137806+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.html": {
       "content_sha": "785484b4cabaf8629a90036c108be106c9b1ca19aa2225fc78fadeb6717916ee",
@@ -177841,5 +177944,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T15:13:06.846981+00:00"
+  "updated_at": "2026-09-27T15:15:35.518889+00:00"
 }
