@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-211427-configure-ja-8edec1b6a2
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211427-Configure-Jabber-Extend-and-Connect-and.html
-retrieved_at: 2026-08-21T07:05:45.456190+00:00
+retrieved_at: 2026-09-27T15:06:49.520268+00:00
 ---
 
 Configure Jabber Extend and Connect  and Modify Calling Party Display
@@ -115,3 +115,9 @@ Cisco TAC
 - Jabber
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

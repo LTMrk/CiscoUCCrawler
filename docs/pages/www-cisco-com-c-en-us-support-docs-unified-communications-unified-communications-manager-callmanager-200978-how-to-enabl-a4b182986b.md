@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200978-how-to-enabl-a4b182986b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200978-How-to-Enable-Common-PIN-for-UCM-and-UC.html
-retrieved_at: 2026-08-21T13:55:47.084125+00:00
+retrieved_at: 2026-09-27T15:06:24.950976+00:00
 ---
 
 How to Enable  Common PIN for CUCM and UCXN.
@@ -151,3 +151,9 @@ Cisco TAC Engineers
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

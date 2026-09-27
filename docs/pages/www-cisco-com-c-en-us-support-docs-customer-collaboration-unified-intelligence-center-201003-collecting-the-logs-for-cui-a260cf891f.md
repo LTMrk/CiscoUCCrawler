@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-intelligence-center-201003-collecting-the-logs-for-cui-a260cf891f
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-intelligence-center/201003-Collecting-the-Logs-for-CUIC-Performance.html
-retrieved_at: 2026-09-21T19:57:31.115368+00:00
+retrieved_at: 2026-09-27T15:11:02.508610+00:00
 ---
 
 Collecting the Logs for CUIC Performance Issues
@@ -275,3 +275,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Intelligence Center
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

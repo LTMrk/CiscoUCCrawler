@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-211297-configure-op-e7eaf84345
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211297-Configure-Opus-Support-on-Cisco-Unified.html
-retrieved_at: 2026-08-21T13:56:11.783966+00:00
+retrieved_at: 2026-09-27T15:06:53.939794+00:00
 ---
 
 Configure Opus Support on Cisco Unified Communication Manager
@@ -126,3 +126,9 @@ Cisco TAC Engineer
 | 8865/8845 | SIP | 8845_65-sip.11-5-1-18 |
 | 8841/8841/8851/8861 | SIP | 88xx-sip.11-5-1-18 |
 | Cisco Jabber | SIP | 11.0 |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212911-migration-procedure--6f2335b7fb
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.html
-retrieved_at: 2026-08-21T13:57:27.032786+00:00
+retrieved_at: 2026-09-27T15:07:57.248382+00:00
 ---
 
 Migration Procedure For CUACA (10.5.X to 11.X.X)
@@ -127,3 +127,9 @@ Cisco TAC Engineer
 | Version | CUACA 10.5.2 | CUACA 11.0.2 |
 | Server OS | Server 2008 R2 Enterprise – SP1 64-bit | Server 2012 R2 Standard – 64-bit |
 | Database | SQL 2008 Express Server SP3 | SQL 2008 Express Server SP3 |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

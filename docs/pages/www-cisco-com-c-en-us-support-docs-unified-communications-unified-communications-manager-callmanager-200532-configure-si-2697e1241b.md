@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200532-configure-si-2697e1241b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200532-Configure-Single-SAML-IDP-Connection-Agr.html
-retrieved_at: 2026-08-21T13:54:56.529390+00:00
+retrieved_at: 2026-09-27T15:05:46.574379+00:00
 ---
 
 Configure Single SAML IdP Connection/Agreement per Cluster with AD FS Version 2.0
@@ -188,3 +188,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

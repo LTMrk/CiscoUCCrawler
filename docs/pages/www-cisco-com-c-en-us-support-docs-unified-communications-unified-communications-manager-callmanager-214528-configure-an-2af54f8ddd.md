@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214528-configure-an-2af54f8ddd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214528-configure-and-troubleshoot-proxy-tftp-on.html
-retrieved_at: 2026-08-21T13:58:50.789514+00:00
+retrieved_at: 2026-09-27T15:09:12.704549+00:00
 ---
 
 Configure and Troubleshoot Proxy TFTP on CUCM
@@ -673,3 +673,11 @@ Initial Release
 |---|---|---|
 | 2.0 | 18-Oct-2022 | Aligned document with documentation addressing and domain standards. |
 | 1.0 | 19-Jun-2019 | Initial Release |
+
+## Figuras
+
+![Command output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214528-configure-and-troubleshoot-proxy-tftp-on-00.png)
+
+![cnf_request_proxy_pcap](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214528-configure-and-troubleshoot-proxy-tftp-on-01.png)
+
+![app_dial_rules_softkeys_proxy_pcap](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214528-configure-and-troubleshoot-proxy-tftp-on-02.png)

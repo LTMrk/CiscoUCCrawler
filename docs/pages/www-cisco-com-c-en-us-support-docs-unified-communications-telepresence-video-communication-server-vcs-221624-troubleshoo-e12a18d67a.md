@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-221624-troubleshoo-e12a18d67a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html
-retrieved_at: 2026-09-07T22:12:13.329365+00:00
+retrieved_at: 2026-09-27T15:12:28.729707+00:00
 ---
 
 Troubleshoot Expressway Certificates
@@ -188,3 +188,23 @@ Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 08-Jul-2024 | Author made updates to meet Cisco.com style guide requirements and to qualify as self-publisher. |
 | 1.0 | 06-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Certificate Format Invalid](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-00.png)
+
+![Certificate Format Selection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-01.png)
+
+![Untrusted CA Certificate Chain](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-02.png)
+
+![Certification Path](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-03.png)
+
+![Certificate Details Tab](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-04.png)
+
+![SSH Tunnel Failure](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-05.png)
+
+![Jabber Untrusted Certificate Warning](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

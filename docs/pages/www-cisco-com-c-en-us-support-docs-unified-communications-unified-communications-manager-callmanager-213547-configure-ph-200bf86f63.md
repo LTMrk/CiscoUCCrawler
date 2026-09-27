@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213547-configure-ph-200bf86f63
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm.html
-retrieved_at: 2026-08-21T13:57:48.050232+00:00
+retrieved_at: 2026-09-27T15:08:13.253564+00:00
 ---
 
 Configure Phone Button Template in CUCM
@@ -113,3 +113,17 @@ Delete the extra lines from phone button template, it fixes the issue.
 | Button Information |
 | Feature | Choose the function of the phone button that you want to specify in the template. The programmable line key feature provides multiple features that can be assigned to line buttons; for example, MCID, DND, Call Park, Call Pickup, and many more. Note You cannot change the function of buttons in default phone button templates. |
 | Label | Enter a description of the button. |
+
+## Figuras
+
+![213547-configure-phone-button-template-in-cucm-00.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-00.png)
+
+![213547-configure-phone-button-template-in-cucm-01.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-01.png)
+
+![213547-configure-phone-button-template-in-cucm-02.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-02.png)
+
+![213547-configure-phone-button-template-in-cucm-03.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-03.png)
+
+![213547-configure-phone-button-template-in-cucm-04.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-04.png)
+
+![213547-configure-phone-button-template-in-cucm-05.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213547-configure-phone-button-template-in-cucm-05.png)

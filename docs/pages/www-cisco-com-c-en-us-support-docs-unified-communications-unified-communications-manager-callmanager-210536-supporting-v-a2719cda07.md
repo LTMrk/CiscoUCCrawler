@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210536-supporting-v-a2719cda07
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.html
-retrieved_at: 2026-08-21T13:55:55.686028+00:00
+retrieved_at: 2026-09-27T15:06:33.261915+00:00
 ---
 
 Supporting Variable Length Dial Plans for Cisco CallManager Route Patterns - an Exercise in Designing a Route Pattern that Covers a National Dial Plan
@@ -274,3 +274,9 @@ Contributed by Cisco Engineers
 | 0.555XXXXX |  | Local exchange numbers - 8 digit numbers |
 | 0.0011! |  | International - uses interdigit timeout (10 seconds) |
 | 0.0011!# |  | International-uses # as end of dial character |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-maint-3ecbe9d0ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_b_admin-console-user-guide-1205_chapter_0101.html
-retrieved_at: 2026-08-21T04:37:26.166566+00:00
+retrieved_at: 2026-09-27T15:12:03.768059+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -672,3 +672,7 @@ For more information, contact Cisco support to troubleshoot and reset the cluste
 | Note | If any of the above mentioned cases cause issue because of the restrictions on multicasting in the customer environment, you
                                              can use TCP/IP for Hazelcast discovery. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

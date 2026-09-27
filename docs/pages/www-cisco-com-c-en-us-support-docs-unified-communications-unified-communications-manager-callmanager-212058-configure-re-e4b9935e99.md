@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-212058-configure-re-e4b9935e99
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/212058-Configure-Real-Time-Monitoring-Tool-to-A.html
-retrieved_at: 2026-08-21T13:56:44.969738+00:00
+retrieved_at: 2026-09-27T15:07:32.107800+00:00
 ---
 
 Configure Real Time Monitoring Tool to Audit Admin Activity in Cisco Unified Communications Manager
@@ -101,3 +101,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

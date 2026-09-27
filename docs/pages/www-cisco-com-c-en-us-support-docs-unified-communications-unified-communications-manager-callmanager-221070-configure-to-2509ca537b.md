@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-221070-configure-to-2509ca537b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c.html
-retrieved_at: 2026-08-21T13:59:41.723803+00:00
+retrieved_at: 2026-09-27T15:09:42.528940+00:00
 ---
 
 Configure Tomcat Certificate Reuse for CallManager in CUCM 14
@@ -159,3 +159,31 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Oct-2023 | Initial Release |
+
+## Figuras
+
+![cealonso_0-1765568695139](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-00.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![cealonso_2-1765568856358](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-01.png)
+
+![Generate Self-Signed Multi-SAN Tomcat Certificate Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-02.png)
+
+![Generate Self-Signed Multi-SAN Tomcat Successful Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-03.png)
+
+![Generate Multi-SAN CSR for Tomcat Certificate Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-04.png)
+
+![Generate Multi-SAN CSR Tomcat Successful Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-05.png)
+
+![Download Tomcat CSR Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-06.png)
+
+![cealonso_1-1765568776249](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-07.png)
+
+![Reuse Tomcat Certificate for Other Services Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-08.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Reuse Tomcat Certificate Successful Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-09.png)
+
+![Verify Tomcat Certificate Reuse for CallManager](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/221070-configure-tomcat-certificate-reuse-for-c-10.png)

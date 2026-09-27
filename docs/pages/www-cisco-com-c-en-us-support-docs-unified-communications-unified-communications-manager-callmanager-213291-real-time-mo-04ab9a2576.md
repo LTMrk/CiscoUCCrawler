@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213291-real-time-mo-04ab9a2576
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts.html
-retrieved_at: 2026-08-21T13:57:31.182144+00:00
+retrieved_at: 2026-09-27T15:08:01.176731+00:00
 ---
 
 Real-Time Monitoring Tool Alerts
@@ -273,3 +273,19 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 27-Apr-2018 | Initial Release |
+
+## Figuras
+
+![213291-real-time-monitoring-tool-alerts-00.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-00.png)
+
+![213291-real-time-monitoring-tool-alerts-01.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-01.png)
+
+![213291-real-time-monitoring-tool-alerts-02.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-02.png)
+
+![213291-real-time-monitoring-tool-alerts-03.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-03.png)
+
+![213291-real-time-monitoring-tool-alerts-04.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-04.png)
+
+![213291-real-time-monitoring-tool-alerts-05.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-05.png)
+
+![213291-real-time-monitoring-tool-alerts-06.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213291-real-time-monitoring-tool-alerts-06.png)

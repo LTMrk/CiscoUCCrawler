@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-211280-configuratio-34a3866e43
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.html
-retrieved_at: 2026-08-21T13:56:07.896812+00:00
+retrieved_at: 2026-09-27T15:06:45.597544+00:00
 ---
 
 Configuration and Troubleshoot of Logical Partitioning and Geolocation
@@ -260,3 +260,9 @@ Cisco TAC Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-May-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

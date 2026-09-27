@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-tdm-gateways-223040-troubleshoot-dsp-pvdm-issue-on-voice-html-65b4b70f05
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice.html
-retrieved_at: 2026-08-21T07:08:42.390311+00:00
+retrieved_at: 2026-09-27T15:12:41.250241+00:00
 ---
 
 Troubleshoot DSP (PVDM) Issue on Voice Gateway
@@ -129,3 +129,15 @@ Cisco Consulting Engineer
 |---|---|---|
 | 2.0 | 03-Jun-2025 | Initial Release |
 | 1.0 | 02-Jun-2025 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Status of DSP in Cisco Voice Gateway](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice-00.png)
+
+![Command to reload PVDM Card](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice-01.png)
+
+![Command Output showing the PVDM Card is Installed on NIM Slot](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223040-troubleshoot-dsp-pvdm-issue-on-voice-02.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

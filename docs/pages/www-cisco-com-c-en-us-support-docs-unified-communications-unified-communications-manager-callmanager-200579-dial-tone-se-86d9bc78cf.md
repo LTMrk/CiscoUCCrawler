@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200579-dial-tone-se-86d9bc78cf
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200579-Dial-Tone-Settings-For-Cisco-SIP-IP-Phon.html
-retrieved_at: 2026-08-21T13:55:04.801450+00:00
+retrieved_at: 2026-09-27T15:05:54.836920+00:00
 ---
 
 Dial Tone Settings For Cisco SIP IP Phones
@@ -150,3 +150,9 @@ Cisco TAC Engineer
 | Default | Inside | Outside |
 | Inside | Inside | (none) |
 | Outside | Outside | Outside |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-217268-configure-an-c5a222e74a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217268-configure-and-troubleshoot-sso-on-cisco.html
-retrieved_at: 2026-08-21T13:59:20.242925+00:00
+retrieved_at: 2026-09-27T15:09:25.609394+00:00
 ---
 
 Configure and Troubleshoot SSO on Cisco Unified Communications Manager (CUCM)
@@ -316,3 +316,13 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Aug-2021 | Initial Release |
+
+## Figuras
+
+![Order_of_Operations](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217268-configure-and-troubleshoot-sso-on-cisco-00.gif)
+
+![ITL_recovery](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217268-configure-and-troubleshoot-sso-on-cisco-01.png)
+
+![case_sensitivity](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217268-configure-and-troubleshoot-sso-on-cisco-02.png)
+
+![404_error_localauthlogin](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/217268-configure-and-troubleshoot-sso-on-cisco-03.png)

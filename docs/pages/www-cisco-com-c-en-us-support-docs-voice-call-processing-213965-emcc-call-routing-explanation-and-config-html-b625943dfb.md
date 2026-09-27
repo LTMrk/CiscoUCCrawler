@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-processing-213965-emcc-call-routing-explanation-and-config-html-b625943dfb
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-processing/213965-emcc-call-routing-explanation-and-config.html
-retrieved_at: 2026-08-21T13:58:01.243191+00:00
+retrieved_at: 2026-09-27T15:08:26.201195+00:00
 ---
 
 EMCC Call Routing Explanation and Configuration
@@ -173,3 +173,9 @@ Patrick Kinane
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200591-opus-codec-o-6fb81cd4bb
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200591-OPUS-Codec-Overview.html
-retrieved_at: 2026-08-21T13:55:13.560601+00:00
+retrieved_at: 2026-09-27T15:05:59.479740+00:00
 ---
 
 OPUS Codec Overview
@@ -150,6 +150,22 @@ There is currently no specific troubleshooting information available for this co
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Somnath Gupta
+
+Cisco TAC Engineer
+
+### This Document Applies to These Products
+
+- Unified Communications Manager (CallManager)
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 27-Jul-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

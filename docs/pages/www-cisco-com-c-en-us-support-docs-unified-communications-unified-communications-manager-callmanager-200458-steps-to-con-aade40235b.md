@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200458-steps-to-con-aade40235b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200458-Steps-to-Configure-Cisco-Aironet-1142-an.html
-retrieved_at: 2026-08-21T13:55:22.119575+00:00
+retrieved_at: 2026-09-27T15:06:03.696048+00:00
 ---
 
 Steps to Configure Cisco Aironet 1142 and Register 7925 Wi-Fi Phone with CUCM
@@ -175,3 +175,9 @@ Cisco TAC Engineer
 - Unified Communications Manager (CallManager)
 
 - Unified IP Phone 7900 Series
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
