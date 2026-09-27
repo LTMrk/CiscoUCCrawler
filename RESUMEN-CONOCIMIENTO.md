@@ -2,19 +2,19 @@
 
 Inventario de lo que contiene el corpus RAG. Lo regenera `src/resumen_rag.py` en cada ejecución del ETL: **no editar a mano**.
 
-Actualizado: 2026-09-27 10:13 UTC
+Actualizado: 2026-09-27 10:34 UTC
 
 ## Totales
 
 | Concepto | Valor |
 |---|---:|
-| Documentación de producto | 13.124 documentos |
+| Documentación de producto | 12.780 documentos |
 | Operaciones de API (OpenAPI) | 2.092 |
 | Documentación de repositorios | 781 documentos |
-| Volumen total | 581.8 M caracteres |
-| URLs pendientes de rastrear | 305 |
+| Volumen total | 577.8 M caracteres |
+| URLs pendientes de rastrear | 298 |
 
-> El rastreo **no ha terminado**: quedan 305 URLs en la frontera. Las cifras de abajo son cobertura parcial y crecerán en las siguientes ejecuciones.
+> El rastreo **no ha terminado**: quedan 298 URLs en la frontera. Las cifras de abajo son cobertura parcial y crecerán en las siguientes ejecuciones.
 
 ## Cobertura por producto
 
@@ -28,14 +28,14 @@ Actualizado: 2026-09-27 10:13 UTC
 | Cisco Unified Contact Center Express (UCCX) | 625 | 271 | 12.5 (150), 12.5.1SU1 (131), 15.0 (114) | 34.0 |
 | Telefonos IP y endpoints de TelePresence | 993 | 439 | 10.0 (46), 10.3.1 (30), 9.1.1 (14) | 33.0 |
 | Cisco Expressway, MRA y VCS | 791 | 255 | X14-0 (113), X14-0-2 (76), X15-0 (73) | 32.5 |
-| Documentos varios de colaboracion Cisco | 971 | 724 | 1.1 (49), 19X (43), 12.1 (24) | 17.4 |
 | Cisco CUBE, IOS Voice y SIP | 241 | 213 | — | 15.0 |
+| Documentos varios de colaboracion Cisco | 630 | 397 | 1.1 (49), 19X (43), 12.1 (24) | 13.4 |
 | Contact Center (otros componentes) | 191 | 104 | 12.5 (44), 12.5.1 (41), 12.6.2 (27) | 4.5 |
-| Webex Cloud, Control Hub y Webex Calling | 166 | 143 | — | 4.2 |
+| Webex Cloud, Control Hub y Webex Calling | 165 | 142 | — | 4.2 |
 | Guias de diseno (CVD, SRND, Preferred Architecture) | 93 | 65 | 12X (21), 14 (20) | 3.4 |
 | Cisco Meeting Server y conferencing | 123 | 123 | — | 1.1 |
 | Cisco Hosted Collaboration Solution (HCS) | 60 | 39 | 12.5 (27), 14.0 (6), 12.5.1 (1) | 0.7 |
-| Business Edition, UC on UCS y plataforma | 9 | 9 | — | 0.2 |
+| Business Edition, UC on UCS y plataforma | 7 | 7 | — | 0.1 |
 
 La columna *Guías distintas* cuenta familias documentales, es decir guías únicas ignorando la versión. Un número muy inferior al de documentos indica que el corpus tiene varias releases de la misma guía.
 

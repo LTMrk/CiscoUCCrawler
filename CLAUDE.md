@@ -108,14 +108,12 @@ debería", sospecha del consumo antes que de las regex.
   sitemap (`site/curri` 13 de 50, `site/customer-voice-portal` 1 de 5). La
   sección 7 del sondeo lo mide. Sin confirmar si es el índice lateral de
   PubHub pintado por JavaScript o profundidad insuficiente.
-- La purga de lo que dejó de estar en la allowlist está **pendiente de
-  ejecutar**: 2.694 entradas y 344 documentos (marketplace, marketing de
-  webex.com, avisos de seguridad). `tools/purgar_fuera_de_allowlist.py
-  --aplicar`.
+- La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
+  −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
+  del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:
+  www.cisco.com, developer.cisco.com, help.webex.com y roomos.cisco.com.
 - `deep_crawl()` no tiene cobertura: es el bucle de E/S. Sus decisiones sí
   están extraídas y probadas (`decidir_redireccion`, `parsear_sitemap`).
-- 365 URLs en cuarentena por 403, casi todas de `bst.cloudapps.cisco.com`.
-  Ruido antiguo, ajeno al rastreo de colaboración.
 
 ## Convenciones
 
