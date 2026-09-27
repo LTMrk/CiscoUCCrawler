@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.035940+00:00
+retrieved_at: 2026-09-27T10:51:19.402028+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/announcements/{fileName}

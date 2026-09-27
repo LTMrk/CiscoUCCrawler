@@ -10,7 +10,7 @@ tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.067304+00:00
+retrieved_at: 2026-09-27T10:51:19.449634+00:00
 ---
 
 # GET /telephony/config/paging

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.118964+00:00
+retrieved_at: 2026-09-27T10:51:19.528102+00:00
 ---
 
 # DELETE /telephony/voiceMessages/{messageId}
@@ -27,6 +27,7 @@ Delete a specfic voicemail message for the user.
 
 ## Parámetros
 - `messageId` [path] (string) (**requerido**): The message identifer of the voicemail message to delete
+- `lineOwnerId` [query] (string): The ID of a user, workspace, virtual line, auto attendant, hunt group, or call queue for which there is a secondary line on a device owned by the user invoking the API, or that was shared with the user invoking the API.
 
 ## Ejemplo de invocación
 ```bash

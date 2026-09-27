@@ -10,7 +10,7 @@ tags: Caller Reputation Provider
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.147430+00:00
+retrieved_at: 2026-09-27T10:51:19.573474+00:00
 ---
 
 # GET /telephony/config/serviceSettings/callerReputationProvider/status

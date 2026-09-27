@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-01-html-1d9ef9d639
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_01.html
-retrieved_at: 2026-08-21T01:01:05.398730+00:00
+retrieved_at: 2026-09-27T10:53:26.647360+00:00
 ---
 
 Cisco Unity Connection Telephony Interface (CUTI) API
@@ -1658,3 +1658,7 @@ Server: |
 | sessionId | String | Read/Write | This is a reference of the video recording
                                           					 on the MediaSense Server using Record API. MediaSense uniquely identifies the
                                           					 recording using the sessionId. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

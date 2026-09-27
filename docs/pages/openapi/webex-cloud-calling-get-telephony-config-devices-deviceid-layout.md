@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.014551+00:00
+retrieved_at: 2026-09-27T10:51:19.368142+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}/layout
@@ -26,6 +26,8 @@ Get Device Layout by Device ID
 Get layout information of a device by device ID in an organization.
 
 Device layout customizes a user’s programmable line keys (PLK) on the phone and any attached Key Expansion Modules (KEM) with the existing configured line members and the user’s monitoring list.
+
+**Note:** When `layoutMode` is DEFAULT, the response includes only `layoutMode` and `userReorderEnabled`. The `lineKeys` field is omitted as the device uses system-assigned default line-key assignments. When `layoutMode` is CUSTOM, the response includes the `lineKeys` array with the custom line-key configuration.
 
 This API requires a full or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
 
@@ -43,7 +45,7 @@ curl -X GET '/telephony/config/devices/<deviceId>/layout' \
 **200**: OK
 - `layoutMode` (string) (**requerido**): * `DEFAULT` - Default layout mode when a new device is added.  * `CUSTOM` - Enables a device to have its custom layout. Valores: DEFAULT, CUSTOM.
 - `userReorderEnabled` (boolean): If `true`, user customization is enabled.
-- `lineKeys` (array) (**requerido**): Contains a mapping of Line Keys and their corresponding actions.
+- `lineKeys` (array): Contains a mapping of Line Keys and their corresponding actions. This field is required when `layoutMode` is CUSTOM. When `layoutMode` is DEFAULT, this field is not returned in GET responses and should not be included in PUT requests, as the system uses the default line-key assignments.
   - `lineKeyIndex` (number) (**requerido**): An index representing a Line Key. Index starts from 1 representing the first key on the left side of the phone.
   - `lineKeyType` (string) (**requerido**): * `PRIMARY_LINE` - PRIMARY_LINE is the user's primary extension. This is the default assignment for Line Key Index 1 and cannot be modified.  * `SHARED_LINE` - Shows the appearance of other users on the owner's phone.  * `MONITOR` - Enables User and Call Park monitoring.  * `CALL_PARK_EXTENSION` - Enables the configure layout feature in Control Hub to set call park extension implicitly.  * `SPEED_DIAL` - Allows users to reach a telephone number, extension or a SIP URI.  * `OPEN` - An open key will automatically take the configuration of a monitor button starting with the first open key. These buttons are also usable by the user to configure speed dial numbers on these keys.  * `CLOSED` - Button not usable but reserved for future features.  * `MODE_MANAGEMENT` - Allows users to manage call forwarding for features via schedule-based routing. Valores: PRIMARY_LINE, SHARED_LINE, MONITOR, CALL_PARK_EXTENSION, SPEED_DIAL, OPEN, CLOSED, MODE_MANAGEMENT.
   - `lineKeyLabel` (string): This is applicable only when the lineKeyType is `SPEED_DIAL`.

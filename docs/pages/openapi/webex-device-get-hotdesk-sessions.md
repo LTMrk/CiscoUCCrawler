@@ -10,7 +10,7 @@ tags: Hot Desk
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.891809+00:00
+retrieved_at: 2026-09-27T10:51:20.203547+00:00
 ---
 
 # GET /hotdesk/sessions

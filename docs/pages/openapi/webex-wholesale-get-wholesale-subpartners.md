@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-get-wholesale-subpartners
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: GET
 path: /wholesale/subPartners
+operation_id: List Wholesale Sub-partners
+tags: Wholesale Provisioning
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.732322+00:00
+retrieved_at: 2026-09-27T10:51:20.834733+00:00
 ---
 
 # GET /wholesale/subPartners
@@ -25,14 +30,44 @@ Lists all of the associated sub-partners. There are a number of filter and pagin
 - `offset` [query] (string): Offset value for implementing pagination.
 - `max` [query] (string): The maximum number of sub-partners returned in the response.
 
-## Respuestas
-- **200**: OK
-  - `items` (array): An array of `SubPartner` objects.
-    - `orgId` (string): The Organization ID for the sub-partner.
-    - `subscriptionId` (string): The Wholesale Subscription ID of the partner.
-    - `provisioningState` (string): The provisioning status of the sub-partner.  * `active` - Sub-partner can provision new customers and subscribers or update, delete existing ones.  * `suspended` - Sub-partner cannot provision, update customers and subscribers but can delete existing ones. Valores: active, suspended.
-    - `created` (string): 02-16T14:10:18.855Z' (string) - The date and time the sub-partner was created.
-    - `billingStartDate` (string): 02-22T13:43:41.117Z' (string) - The date and time from which new billing for the sub-partner started.
+## Ejemplo de invocación
+```bash
+curl -X GET '/wholesale/subPartners' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `items` (array): An array of `SubPartner` objects.
+  - `orgId` (string): The Organization ID for the sub-partner.
+  - `subscriptionId` (string): The Wholesale Subscription ID of the partner.
+  - `provisioningState` (string): The provisioning status of the sub-partner.  * `active` - Sub-partner can provision new customers and subscribers or update, delete existing ones.  * `suspended` - Sub-partner cannot provision, update customers and subscribers but can delete existing ones. Valores: active, suspended.
+  - `created` (string): 02-16T14:10:18.855Z' (string) - The date and time the sub-partner was created.
+  - `billingStartDate` (string): 02-22T13:43:41.117Z' (string) - The date and time from which new billing for the sub-partner started.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "subPartners": [
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi85NmFiYzJhYS0zZGNjLTExZTUtYTE1Mi1mZTM0ODE5Y2RjOWE",
+      "subscriptionId": "Sub23452345",
+      "provisioningState": "active",
+      "created": "2023-02-16T14:10:18.855Z",
+      "billingStartDate": "2023-02-22T13:43:41.117Z"
+    },
+    {
+      "orgId": "Y2lzY29zcGFyazovL3VzL09SR0FOSVpBVElPTi8xNmY5MzE2ZC02OWI0LTQ2MDMtYTQ5YS0zOTIyYzUxMGQ1YWQ",
+      "subscriptionId": "Sub23452345",
+      "provisioningState": "active",
+      "created": "2023-02-16T14:10:18.855Z",
+      "billingStartDate": "2023-02-22T13:43:41.117Z"
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -48,6 +83,9 @@ Lists all of the associated sub-partners. There are a number of filter and pagin
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

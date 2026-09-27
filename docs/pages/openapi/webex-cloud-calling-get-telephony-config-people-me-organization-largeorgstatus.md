@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:26.997804+00:00
+retrieved_at: 2026-09-27T10:51:19.341066+00:00
 ---
 
 # GET /telephony/config/people/me/organization/largeOrgStatus

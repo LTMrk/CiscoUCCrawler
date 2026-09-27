@@ -2,10 +2,15 @@
 doc_id: webex-broadworks-post-broadworks-enterprises-id-broadworksdirectorysync-externaluser
 source: webex-openapi-specs/public-spec/webex-broadworks.json
 api: Webex Broadworks Calling
+api_version: 1.0.0
 method: POST
 path: /broadworks/enterprises/{id}/broadworksDirectorySync/externalUser
+operation_id: Trigger Directory Sync for a User
+tags: BroadWorks Enterprises
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.284977+00:00
+retrieved_at: 2026-09-27T10:51:18.912100+00:00
 ---
 
 # POST /broadworks/enterprises/{id}/broadworksDirectorySync/externalUser
@@ -21,28 +26,53 @@ Trigger Directory Sync for a User
 This API lets a Partner Admin trigger a directory sync for an external user (real or virtual user) on Broadworks enterprise with Webex.
 
 ## Parámetros
-- `id` [path] (string) **(requerido)**: A unique identifier for the enterprise in question.
+- `id` [path] (string) (**requerido**): A unique identifier for the enterprise in question.
 
 ## Cuerpo de la petición (application/json)
 - `userId` (string): The user ID of the Broadworks user to be synced (A non-webex user).
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "userId": "john_anderson@acme.com"
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `userResponse` (object): User Directory sync response
-    - `userId` (string): The UserID of the user on Broadworks (A non-webex user).
-    - `firstName` (string): First name of the user on Broadworks.
-    - `lastName` (string): Last name of the user on Broadworks.
-    - `extension` (string): Extension of the user on Broadworks.
-    - `number` (string): Phone number of the user on Broadworks.
-    - `mobile` (string): Mobile number of the user on Broadworks.
-  - `status` (string): The Status of the operation being performed.  * `ADD` - The external user is added in this sync  * `UPDATE` - The external user is updated in this sync  * `DELETE` - The external user is deleted in this sync  * `NO_OPERATION` - No changes made on the external user in this sync Valores: ADD, UPDATE, DELETE, NO_OPERATION.
+## Ejemplo de invocación
+```bash
+curl -X POST '/broadworks/enterprises/<id>/broadworksDirectorySync/externalUser' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `userResponse` (object): User Directory sync response
+  - `userId` (string): The UserID of the user on Broadworks (A non-webex user).
+  - `firstName` (string): First name of the user on Broadworks.
+  - `lastName` (string): Last name of the user on Broadworks.
+  - `extension` (string): Extension of the user on Broadworks.
+  - `number` (string): Phone number of the user on Broadworks.
+  - `mobile` (string): Mobile number of the user on Broadworks.
+- `status` (string): The Status of the operation being performed.  * `ADD` - The external user is added in this sync  * `UPDATE` - The external user is updated in this sync  * `DELETE` - The external user is deleted in this sync  * `NO_OPERATION` - No changes made on the external user in this sync Valores: ADD, UPDATE, DELETE, NO_OPERATION.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "userResponse": {
+    "userId": "john.anderson@acme.com",
+    "firstName": "John",
+    "lastName": "Anderson",
+    "extension": "4653",
+    "number": "+35391884653",
+    "mobile": "+188-(2323)-(343)"
+  },
+  "status": "ADD"
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -58,6 +88,9 @@ This API lets a Partner Admin trigger a directory sync for an external user (rea
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex BroadWorks Calling APIs provide access to advanced calling features and user management for BroadWorks-powered Webex Calling deployments. These APIs support provisioning of users and devices, call control, feature management, device inventory, and detailed reporting. Service providers and enterprises can automate onboarding, integrate with OSS/BSS systems, manage user entitlements, and monitor call quality. The APIs are designed for scalable, multi-tenant environments and support seamless integration with existing telephony infrastructure.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

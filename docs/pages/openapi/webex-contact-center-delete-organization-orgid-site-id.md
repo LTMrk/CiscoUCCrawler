@@ -10,7 +10,7 @@ tags: Site
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T19:59:29.872328+00:00
+retrieved_at: 2026-09-27T10:51:19.932271+00:00
 ---
 
 # DELETE /organization/{orgid}/site/{id}

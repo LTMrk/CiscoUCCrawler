@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:26.948512+00:00
+retrieved_at: 2026-09-27T10:51:19.322392+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/callNotify/criteria/{id}

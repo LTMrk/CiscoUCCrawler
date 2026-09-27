@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-post-wholesale-customers-validate
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: POST
 path: /wholesale/customers/validate
+operation_id: Precheck a Wholesale Customer Provisioning
+tags: Wholesale Provisioning
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.732198+00:00
+retrieved_at: 2026-09-27T10:51:20.834467+00:00
 ---
 
 # POST /wholesale/customers/validate
@@ -40,29 +45,29 @@ The Prerequisite for using this API is to have `wxc-wholesale` entitlement or `w
 - `packages` (array): The complete list of Webex Wholesale packages to be assigned to the Wholesale customer.
 - `orgId` (string): The organization ID of the enterprise in Cisco Webex.
 - `externalId` (string): External ID of the Wholesale customer.
-- `address` (object) **(requerido)**: Billing address of the Wholesale customer. (There is a 50 character limit on each address line)
-  - `addressLine1` (string) **(requerido)**: Address line 1.
+- `address` (object) (**requerido**): Billing address of the Wholesale customer. (There is a 50 character limit on each address line)
+  - `addressLine1` (string) (**requerido**): Address line 1.
   - `addressLine2` (string): Address line 2.
-  - `city` (string) **(requerido)**: Customer's city.
+  - `city` (string) (**requerido**): Customer's city.
   - `stateOrProvince` (string): State or Province of the Wholesale customer. This attribute may be required in specific geographies. Please refer to [Wholesale Customer Address Requirement](/docs/api/guides/webex-for-wholesale#wholesale-customer-address-requirement) for more information.
   - `zipOrPostalCode` (string): Postal/Zip code of the Wholesale customer. This attribute may be required in specific geographies. Please refer to [Wholesale Customer Address Requirement](/docs/api/guides/webex-for-wholesale#wholesale-customer-address-requirement) for more information.
-  - `country` (string) **(requerido)**: ISO2 country code of the Wholesale customer size = 2.
+  - `country` (string) (**requerido**): ISO2 country code of the Wholesale customer size = 2.
 - `customerInfo` (object):
   - `name` (string): The name of the Wholesale customer.
-  - `primaryEmail` (string) **(requerido)**: The primary email address of the Wholesale customer.
+  - `primaryEmail` (string) (**requerido**): The primary email address of the Wholesale customer.
 - `provisioningParameters` (object):
   - `calling` (object):
-    - `location` (object) **(requerido)**:
-      - `name` (string) **(requerido)**: Name of the wholesale customer office.
-      - `address` (object) **(requerido)**: Address of the wholesale customer.(There is a 50 character limit on each address line)
-        - `addressLine1` (string) **(requerido)**:
+    - `location` (object) (**requerido**):
+      - `name` (string) (**requerido**): Name of the wholesale customer office.
+      - `address` (object) (**requerido**): Address of the wholesale customer.(There is a 50 character limit on each address line)
+        - `addressLine1` (string) (**requerido**):
         - `addressLine2` (string):
-        - `city` (string) **(requerido)**:
+        - `city` (string) (**requerido**):
         - `stateOrProvince` (string): State or Province of the Wholesale customer in ISO 3166 format. This attribute may be required in specific geographies. Please refer to [Wholesale Customer Address Requirement](/docs/api/guides/webex-for-wholesale#wholesale-customer-address-requirement) for more information.
         - `zipOrPostalCode` (string): Postal/Zip code of the Wholesale customer. This attribute may be required in specific geographies. Please refer to [Wholesale Customer Address Requirement](/docs/api/guides/webex-for-wholesale#wholesale-customer-address-requirement) for more information.
-        - `country` (string) **(requerido)**:
-      - `timezone` (string) **(requerido)**: Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
-      - `language` (string) **(requerido)**: Determine language for all generated emails and voice announcements.
+        - `country` (string) (**requerido**):
+      - `timezone` (string) (**requerido**): Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
+      - `language` (string) (**requerido**): Determine language for all generated emails and voice announcements.
       - `emergencyLocationIdentifier` (string): SIP Header for any emergency calls from this location.
   - `meetings` (object):
     - `timezone` (string): Wholesale Customer timezone for meetings package.
@@ -77,7 +82,7 @@ The Prerequisite for using this API is to have `wxc-wholesale` entitlement or `w
       - `webex_calling_standard` (number):
       - `attendant_console` (number):
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "address": {
@@ -94,12 +99,35 @@ The Prerequisite for using this API is to have `wxc-wholesale` entitlement or `w
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `message` (string): A textual representation of the Precheck response message containing the `infoCode` object in the case of a success response and the `errorCode` object in the case of failure.
-  - `info` (object): A list of `ProvisioningPreCheckResponseInfo` objects.
-    - `infoCode` (number): Provisioning Precheck `infoCode`.
-    - `description` (string): A textual description of the `infoCode`.
+## Ejemplo de invocación
+```bash
+curl -X POST '/wholesale/customers/validate' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"address": {}}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `message` (string): A textual representation of the Precheck response message containing the `infoCode` object in the case of a success response and the `errorCode` object in the case of failure.
+- `info` (object): A list of `ProvisioningPreCheckResponseInfo` objects.
+  - `infoCode` (number): Provisioning Precheck `infoCode`.
+  - `description` (string): A textual description of the `infoCode`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "message": "success",
+  "info": [
+    {
+      "infoCode": 100,
+      "description": "Provisioning preCheck validation successful."
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -115,6 +143,9 @@ The Prerequisite for using this API is to have `wxc-wholesale` entitlement or `w
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

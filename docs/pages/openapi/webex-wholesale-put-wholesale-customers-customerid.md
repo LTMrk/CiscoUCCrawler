@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-put-wholesale-customers-customerid
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: PUT
 path: /wholesale/customers/{customerId}
+operation_id: Update a Wholesale Customer
+tags: Wholesale Provisioning
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.731922+00:00
+retrieved_at: 2026-09-27T10:51:20.833880+00:00
 ---
 
 # PUT /wholesale/customers/{customerId}
@@ -33,32 +38,32 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
 </div>
 
 ## Parámetros
-- `customerId` [path] (string) **(requerido)**: A unique identifier for the customer to be updated.
+- `customerId` [path] (string) (**requerido**): A unique identifier for the customer to be updated.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
 ## Cuerpo de la petición (application/json)
 - `externalId` (string): External ID of the Wholesale customer.
-- `packages` (array) **(requerido)**: The complete list of Webex Wholesale packages to be assigned to the customer, including any packages already provisioned. If a package has already been assigned to this customer and is not present in this list, then that package is removed.
+- `packages` (array) (**requerido**): The complete list of Webex Wholesale packages to be assigned to the customer, including any packages already provisioned. If a package has already been assigned to this customer and is not present in this list, then that package is removed.
 - `address` (object): Billing Address of the customer. (There is a 50 character limit on each address line)
-  - `addressLine1` (string) **(requerido)**: Address line 1.
+  - `addressLine1` (string) (**requerido**): Address line 1.
   - `addressLine2` (string): Address line 2.
-  - `city` (string) **(requerido)**: Customer's city.
+  - `city` (string) (**requerido**): Customer's city.
   - `stateOrProvince` (string): State or Province of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
   - `zipOrPostalCode` (string): Postal/Zip code of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
-  - `country` (string) **(requerido)**: ISO2 country code of the customer size = 2.
+  - `country` (string) (**requerido**): ISO2 country code of the customer size = 2.
 - `provisioningParameters` (object): Provisioning parameters are required when updating an existing package.
   - `calling` (object):
-    - `location` (object) **(requerido)**:
-      - `name` (string) **(requerido)**: Name of the wholesale customer office.
-      - `address` (object) **(requerido)**: Address of the wholesale customer. (There is a 50 character limit on each address line)
-        - `addressLine1` (string) **(requerido)**:
+    - `location` (object) (**requerido**):
+      - `name` (string) (**requerido**): Name of the wholesale customer office.
+      - `address` (object) (**requerido**): Address of the wholesale customer. (There is a 50 character limit on each address line)
+        - `addressLine1` (string) (**requerido**):
         - `addressLine2` (string):
-        - `city` (string) **(requerido)**:
+        - `city` (string) (**requerido**):
         - `stateOrProvince` (string): State or Province of the customer in ISO 3166 format. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
         - `zipOrPostalCode` (string): Postal/Zip code of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
-        - `country` (string) **(requerido)**:
-      - `timezone` (string) **(requerido)**: Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
-      - `language` (string) **(requerido)**: Determine language for all generated emails and voice announcements.
+        - `country` (string) (**requerido**):
+      - `timezone` (string) (**requerido**): Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
+      - `language` (string) (**requerido**): Determine language for all generated emails and voice announcements.
       - `emergencyLocationIdentifier` (string): SIP Header for any emergency calls from this location.
   - `meetings` (object):
     - `timezone` (string): Customer timezone for meetings package.
@@ -74,7 +79,7 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
       - `attendant_console` (number):
 - `subPartnerAdminEmail` (string): The email of the sub partner organization admin.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "externalId": "c1677a16-557a-4fb4-b48f-24adde57ec99",
@@ -126,9 +131,27 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
 }
 ```
 
-## Respuestas
-- **202**: Accepted
-  - `url` (string): A URL which points to the [Get a Wholesale Customer](/docs/api/v1/wholesale-provisioning/get-a-wholesale-customer) endpoint for the provisioned customer.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/wholesale/customers/<customerId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"packages": []}'
+```
+
+## Respuestas correctas
+**202**: Accepted
+- `url` (string): A URL which points to the [Get a Wholesale Customer](/docs/api/v1/wholesale-provisioning/get-a-wholesale-customer) endpoint for the provisioned customer.
+
+### Ejemplo — respuesta 202
+```json
+{
+  "url": "https://webexapis.com/v1/wholesale/customers/Y2lzY29zcGFyazovL3VzL0VOVEVSUFJJU0UvNTJjZjU3NmQtNjBhOC00MDdhLWIyMmMtNDY3YzUxNTkxOTA4"
+}
+```
+- Cabecera `Location`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -144,6 +167,9 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

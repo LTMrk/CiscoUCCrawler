@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.119996+00:00
+retrieved_at: 2026-09-27T10:51:19.529752+00:00
 ---
 
 # GET /telephony/config/people/{personId}/features/callBridge

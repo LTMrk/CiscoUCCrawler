@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.119273+00:00
+retrieved_at: 2026-09-27T10:51:19.528616+00:00
 ---
 
 # POST /telephony/voiceMessages/markAsUnread
@@ -29,13 +29,13 @@ If the `messageId` is provided, then only mark that message as unread.  Otherwis
 
 ## Cuerpo de la petición (application/json)
 - `messageId` (string): The voicemail message identifier of the message to mark as unread.  If the `messageId` is not provided, then all voicemail messages for the user are marked as unread.
-- `lineOwnerId` (string): The ID of a user, workspace, or virtual line for which there is a secondary line on a device owned by the user invoking the API.
+- `lineOwnerId` (string): The ID of a user, workspace, virtual line, auto attendant, hunt group, or call queue for which there is a secondary line on a device owned by the user invoking the API, or that was shared with the user invoking the API.
 
 ### Ejemplo — petición
 ```json
 {
   "messageId": "Y2lzY29zcGFyazovL3VzL01FU1NBR0UvNmQ0MTgyMTItZjUwNi00Yzk4LTk5MTItNmI1MmE1ZmU2ODgx",
-  "lineOwnerId": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9QTEFDRS8xNzdmNTNlZC1hNzY2LTRkYTAtOGQ3OC03MjE0MjhjMmFjZTQ"
+  "lineOwnerId": "Y2lzY29z..."
 }
 ```
 

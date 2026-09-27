@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-put-wholesale-subscribers-subscriberid
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: PUT
 path: /wholesale/subscribers/{subscriberId}
+operation_id: Update a Wholesale Subscriber
+tags: Wholesale Provisioning
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.732907+00:00
+retrieved_at: 2026-09-27T10:51:20.836025+00:00
 ---
 
 # PUT /wholesale/subscribers/{subscriberId}
@@ -37,7 +42,7 @@ Either `packages` or `package` field is required but not both.
 </div>
 
 ## Parámetros
-- `subscriberId` [path] (string) **(requerido)**: A unique identifier for the subscriber in question.
+- `subscriberId` [path] (string) (**requerido**): A unique identifier for the subscriber in question.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
 ## Cuerpo de la petición (application/json)
@@ -48,7 +53,7 @@ Either `packages` or `package` field is required but not both.
   - `extension` (string): The extension configured for the subscriber. An extension, primary phone number or both must be supplied when changing from the webex_meetings package to any calling-enabled package.
   - `locationId` (string): A unique identifier for the location. This id should be retrieved via the [List Locations](/docs/api/v1/locations/list-locations) API.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "packages": [
@@ -62,21 +67,50 @@ Either `packages` or `package` field is required but not both.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `id` (string): A unique Cisco identifier for the subscriber.
-  - `personId` (string): The person id of the subscriber used in the /people API. Only presented when status is `provisioned`.
-  - `email` (string): The email address of the subscriber.
-  - `customerId` (string): A unique identifier for the customer.
-  - `externalCustomerId` (string): External ID of the Wholesale customer.
-  - `package` (string): The Webex Wholesale Package assigned to the subscriber.  * `webex_calling` - Calling Basic Package.  * `webex_meetings` - Meetings Package.  * `webex_suite` - Suite Package.  * `webex_voice` - Voice Package.  * `cx_essentials` - Customer Assist Package.  * `webex_calling_standard` - Webex Calling Standard Package. Valores: webex_calling, webex_meetings, webex_suite, webex_voice, cx_essentials, webex_calling_standard.
-  - `packages` (array): The list of Webex Wholesale packages assigned to the subscriber.
-  - `status` (string): The provisioning status of the user.  * `provisioned` - The subscriber is fully provisioned on Cisco Webex.  * `pending_user_migration` - The subscriber user migration is pending. Valores: provisioned, pending_user_migration.
-  - `errors` (array): List of errors that occurred during that last attempt to provision/update this subscriber.   *Note:*  + This list captures errors that occurred during provisioning of the subscriber.  + Any errors that occur during initial API request validation will be captured directly in error response with appropriate HTTP status code.
-    - `errorCode` (number): An error code that identifies the reason for the error.
-    - `description` (string): A textual representation of the error code.
-  - `created` (string): The date and time the subscriber was provisioned.
-  - `lastStatusChange` (string): The date and time the provisioning status of the subscriber last changed.
+## Ejemplo de invocación
+```bash
+curl -X PUT '/wholesale/subscribers/<subscriberId>' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): A unique Cisco identifier for the subscriber.
+- `personId` (string): The person id of the subscriber used in the /people API. Only presented when status is `provisioned`.
+- `email` (string): The email address of the subscriber.
+- `customerId` (string): A unique identifier for the customer.
+- `externalCustomerId` (string): External ID of the Wholesale customer.
+- `package` (string): The Webex Wholesale Package assigned to the subscriber.  * `webex_calling` - Calling Basic Package.  * `webex_meetings` - Meetings Package.  * `webex_suite` - Suite Package.  * `webex_voice` - Voice Package.  * `cx_essentials` - Customer Assist Package.  * `webex_calling_standard` - Webex Calling Standard Package. Valores: webex_calling, webex_meetings, webex_suite, webex_voice, cx_essentials, webex_calling_standard.
+- `packages` (array): The list of Webex Wholesale packages assigned to the subscriber.
+- `status` (string): The provisioning status of the user.  * `provisioned` - The subscriber is fully provisioned on Cisco Webex.  * `pending_user_migration` - The subscriber user migration is pending. Valores: provisioned, pending_user_migration.
+- `errors` (array): List of errors that occurred during that last attempt to provision/update this subscriber.   *Note:*  + This list captures errors that occurred during provisioning of the subscriber.  + Any errors that occur during initial API request validation will be captured directly in error response with appropriate HTTP status code.
+  - `errorCode` (number): An error code that identifies the reason for the error.
+  - `description` (string): A textual representation of the error code.
+- `created` (string): The date and time the subscriber was provisioned.
+- `lastStatusChange` (string): The date and time the provisioning status of the subscriber last changed.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "personId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9mNWIzNjE4Ny1jOGRkLTQ3MjctOGIyZi1mOWM0NDdmMjkwNDY",
+  "email": "johnandersen@acme.com",
+  "customerId": "Y2lzY29zcGFyazovL3VzL0NVU1RPTUVSL2Y1YjM2MTg3LWM4ZGQtNDcyNy04YjJmLWY5YzQ0N2YyOTA0Ng",
+  "externalCustomerId": "c1677a16-557a-4fb4-b48f-24adde57ec99",
+  "package": "webex_calling",
+  "status": "provisioned",
+  "lastStatusChange": "2021-08-06T02:05:41.791232Z",
+  "created": "2021-08-06T02:03:00.062Z",
+  "packages": [
+    "webex_calling"
+  ]
+}
+```
+- Cabecera `Location`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -92,6 +126,9 @@ Either `packages` or `package` field is required but not both.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

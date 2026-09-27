@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.105300+00:00
+retrieved_at: 2026-09-27T10:51:19.505842+00:00
 ---
 
 # GET /people/{personId}/features/doNotDisturb

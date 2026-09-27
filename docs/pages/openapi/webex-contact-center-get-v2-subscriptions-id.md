@@ -10,7 +10,7 @@ tags: Subscriptions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T19:59:29.925742+00:00
+retrieved_at: 2026-09-27T10:51:19.967438+00:00
 ---
 
 # GET /v2/subscriptions/{id}

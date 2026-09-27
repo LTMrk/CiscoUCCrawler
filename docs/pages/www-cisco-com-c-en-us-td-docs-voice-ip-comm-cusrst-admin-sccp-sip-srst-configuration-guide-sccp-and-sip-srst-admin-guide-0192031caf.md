@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html
-retrieved_at: 2026-08-21T01:10:47.336675+00:00
+retrieved_at: 2026-09-27T10:53:30.948094+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -986,3 +986,7 @@ For information on obtaining documentation, obtaining support, providing documen
 | The Cisco Technical Support & Documentation website contains thousands of pages of searchable technical content, including
                                           links to products, technologies, solutions, technical tips, and tools. Registered Cisco.com users can log in from this page
                                           to access even more content. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![Figure 1. Branch Office Cisco Unifed IP Phones Connected to a Remote Central Cisco Unified Communications Manage Operating in SRST Mode](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146613.ps/_jcr_content/renditions/146613.jpg)

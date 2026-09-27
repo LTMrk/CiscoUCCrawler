@@ -10,7 +10,7 @@ tags: Call Controls, External Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:26.916099+00:00
+retrieved_at: 2026-09-27T10:51:19.265749+00:00
 ---
 
 # GET /telephony/calls/{callId}
@@ -51,7 +51,7 @@ curl -X GET '/telephony/calls/<callId>' \
     - `redirectingParty` (object) (**requerido**): The details of a party who redirected the incoming call.
   - `recall` (object): The recall details for the incoming call. Only present when the incoming call is for a recall.
   - `recordingState` (object): The call's current recording state. Only present when the user's call recording has been invoked during the life of the call.
-  - `muteCapable` (boolean) (**requerido**): Indicates whether the call is capable of using the [mute](/docs/api/v1/call-controls/mute) and [unmute](/docs/api/v1/call-controls/unmute) APIs.​
+  - `muteCapable` (boolean) (**requerido**): Indicates whether the call is capable of using the [mute](/docs/api/v1/call-controls/mute) and [unmute](/docs/api/v1/call-controls/unmute) APIs.
   - `muted` (boolean) (**requerido**): Indicates whether the call is currently muted.
 
 ### Ejemplo — respuesta 200

@@ -10,7 +10,7 @@ tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.066167+00:00
+retrieved_at: 2026-09-27T10:51:19.448078+00:00
 ---
 
 # PUT /telephony/config/operatingModes/{modeId}/holidays/{holidayId}

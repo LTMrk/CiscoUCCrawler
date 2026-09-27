@@ -2,10 +2,15 @@
 doc_id: webex-broadworks-post-broadworks-subscribers-validate
 source: webex-openapi-specs/public-spec/webex-broadworks.json
 api: Webex Broadworks Calling
+api_version: 1.0.0
 method: POST
 path: /broadworks/subscribers/validate
+operation_id: Precheck a Broadworks Subscriber Provisioning
+tags: BroadWorks Subscribers
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.285765+00:00
+retrieved_at: 2026-09-27T10:51:18.913837+00:00
 ---
 
 # POST /broadworks/subscribers/validate
@@ -36,13 +41,13 @@ The Prerequisite for using this API is to have at least one Broadworks Cluster c
 - `primaryPhoneNumber` (string): The primary phone number configured for the subscriber on BroadWorks.
 - `mobilePhoneNumber` (string): The mobile phone number configured against the subscriber on BroadWorks.
 - `extension` (string): The extension number configured against the subscriber on BroadWorks.
-- `email` (string) **(requerido)**: The email address of the subscriber.
+- `email` (string) (**requerido**): The email address of the subscriber.
 - `language` (string): The ISO 639-1 language code associated with the subscriber. Reserved for future use. Any value currently specified will be ignored during subscriber provisioning.
 - `timezone` (string): The time zone associated with the subscriber. Refer to the [Webex Meetings Site Timezone](/docs/api/guides/webex-for-broadworks-developers-guide#webex-meetings-site-timezone) section of the [Webex for BroadWorks](/docs/api/guides/webex-for-broadworks-developers-guide) guide for more information.
 - `customerInfo` (object): The information of the customer into which the subscriber is provisioned. If you are including this parameter, you must include the `primaryEmail` of the customer.
-  - `primaryEmail` (string) **(requerido)**: The Customer's primary email address.
+  - `primaryEmail` (string) (**requerido**): The Customer's primary email address.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "provisioningId": "ZjViMzYxODctYzhkZC00NzI3LThiMmYtZjljNDQ3ZjI5MDQ2OjQyODVmNTk0LTViNTEtNDdiZS05Mzk2LTZjMzZlMmFkODNhNQ",
@@ -60,12 +65,35 @@ The Prerequisite for using this API is to have at least one Broadworks Cluster c
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `message` (string): A textual representation of the Precheck response message containing the `infoCode` object in the case of a success response and the `errorCode` object in the case of failure.
-  - `info` (object): A list of `ProvisioningPreCheckResponseInfo` objects.
-    - `infoCode` (number): Provisioning Precheck `infoCode`.
-    - `description` (string): A textual description of the `infoCode`.
+## Ejemplo de invocación
+```bash
+curl -X POST '/broadworks/subscribers/validate' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"email": "<email>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `message` (string): A textual representation of the Precheck response message containing the `infoCode` object in the case of a success response and the `errorCode` object in the case of failure.
+- `info` (object): A list of `ProvisioningPreCheckResponseInfo` objects.
+  - `infoCode` (number): Provisioning Precheck `infoCode`.
+  - `description` (string): A textual description of the `infoCode`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "message": "success",
+  "info": [
+    {
+      "infoCode": 100,
+      "description": "Provisioning preCheck validation successful."
+    }
+  ]
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -81,6 +109,9 @@ The Prerequisite for using this API is to have at least one Broadworks Cluster c
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex BroadWorks Calling APIs provide access to advanced calling features and user management for BroadWorks-powered Webex Calling deployments. These APIs support provisioning of users and devices, call control, feature management, device inventory, and detailed reporting. Service providers and enterprises can automate onboarding, integrate with OSS/BSS systems, manage user entitlements, and monitor call quality. The APIs are designed for scalable, multi-tenant environments and support seamless integration with existing telephony infrastructure.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

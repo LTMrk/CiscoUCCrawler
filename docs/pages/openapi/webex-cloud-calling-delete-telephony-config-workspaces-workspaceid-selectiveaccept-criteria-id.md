@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.164729+00:00
+retrieved_at: 2026-09-27T10:51:19.599222+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/selectiveAccept/criteria/{id}

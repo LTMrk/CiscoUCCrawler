@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-delete-wholesale-billing-reports-id
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: DELETE
 path: /wholesale/billing/reports/{id}
+operation_id: Delete a Wholesale Billing Report
+tags: Wholesale Billing Reports
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.731131+00:00
+retrieved_at: 2026-09-27T10:51:20.832374+00:00
 ---
 
 # DELETE /wholesale/billing/reports/{id}
@@ -21,10 +26,18 @@ Delete a Wholesale Billing Report
 Delete a monthly reconciliation report by report ID.
 
 ## Parámetros
-- `id` [path] (string) **(requerido)**: A unique report ID that corresponds to a billing report.
+- `id` [path] (string) (**requerido**): A unique report ID that corresponds to a billing report.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/wholesale/billing/reports/<id>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -40,6 +53,9 @@ Delete a monthly reconciliation report by report ID.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

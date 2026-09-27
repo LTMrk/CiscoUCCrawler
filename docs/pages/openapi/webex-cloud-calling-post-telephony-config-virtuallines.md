@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.134539+00:00
+retrieved_at: 2026-09-27T10:51:19.554058+00:00
 ---
 
 # POST /telephony/config/virtualLines
