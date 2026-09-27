@@ -102,12 +102,25 @@ debería", sospecha del consumo antes que de las regex.
   `registrar_descubrimiento` ya dejan entrada en el manifiesto), y además
   `etl.yml` tiene un tope de 12 lotes por cadena como red de seguridad. Si
   ese tope salta de forma recurrente, la frontera ha vuelto a no converger.
-- `docs/cmse` de DevNet sigue sin identificar; fuera de la allowlist hasta
-  confirmarlo. Lo dirá `tools/probe_devnet.py`, sección 6.
-- Varios doc-sets de DevNet aportan menos páginas que las que anuncia el
-  sitemap (`site/curri` 13 de 50, `site/customer-voice-portal` 1 de 5). La
-  sección 7 del sondeo lo mide. Sin confirmar si es el índice lateral de
-  PubHub pintado por JavaScript o profundidad insuficiente.
+- `docs/cmse` **resuelto**: su `<title>` es "Cisco Metrics Search Engine".
+  Telemetría, no colaboración. Se queda fuera. Con eso el inventario de
+  DevNet queda cerrado: 55 doc-sets admitidos de 338, y ninguno de los 283
+  restantes es de colaboración.
+- **La cobertura de DevNet es el agujero abierto.** 31 de los 55 doc-sets
+  admitidos tienen menos de 3 páginas en el corpus, y el dominio entero
+  aporta 277. Entre los de UNA página: `docs/webex-calling`,
+  `docs/cisco-meeting-server`, `docs/customer-voice-portal`,
+  `docs/webex-xml-api-reference-guide`; `docs/axl` se queda en cuatro.
+  El sondeo apunta a la causa: `/docs/axl/` sirve 936 caracteres de HTML
+  crudo (el índice del doc-set lo pinta JavaScript) pero
+  `/docs/axl/axl-developer-guide/` sirve 52.840 (las páginas de contenido SÍ
+  vienen del servidor). O sea: el contenido está ahí y lo que falla es
+  descubrirlo desde la raíz del doc-set. Falta comprobar si con el
+  `registrar_descubrimiento` nuevo basta, o si los enlaces del índice no son
+  `<a href>` y hay que desplegarlos desde `js_code`. **No se puede atacar por
+  el JSON del índice: `robots.txt` de DevNet trae `Disallow: /*.json`.**
+- `/docs/unity-connection/` responde 404 incluso con barra final. El doc-set
+  vivo es `/site/unity-connection/`, que ya está seedeado.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:
