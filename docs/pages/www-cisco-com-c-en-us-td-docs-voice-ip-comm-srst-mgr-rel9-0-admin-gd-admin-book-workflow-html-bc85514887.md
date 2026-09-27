@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-workflow-html-bc85514887
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/workflow.html
-retrieved_at: 2026-08-21T23:37:39.846649+00:00
+retrieved_at: 2026-09-27T15:27:48.664989+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -41,3 +41,11 @@ Step 9 Choose Troubleshoot > Network Connectivity and click Start Network Connec
 Step 10 Choose Configure > Sites, select the router name, and click Provision to provision the site.
 
 Step 11 Choose Reports > Site Provisioning History to check the provisioning status.
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-release-notes-srst-releasenotes-12-3-html-aef6bcc325
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/release/notes/SRST_ReleaseNotes_12_3.html
-retrieved_at: 2026-08-21T21:29:00.936697+00:00
+retrieved_at: 2026-09-27T15:26:05.723708+00:00
 ---
 
 Release Notes for Cisco Unified Survivable Remote Site Telephony, 12.3
@@ -175,3 +175,7 @@ Any Internet Protocol (IP) addresses and phone numbers used in this document are
 | CSCvi15203 | Analog Voice Gateway endpoint cannot put the call on hold, if call is put on hold already from other end by SCCP or Analog Voice Gateway. |
 | CSCvj21411 | Analog Voice Gateway endpoint is unable to add conference party after Alert Transfer. |
 | CSCvk32328 | Incoming call from a secure SIP trunk fails in a Parallel VHG case, when SCCP Endpoint answers. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

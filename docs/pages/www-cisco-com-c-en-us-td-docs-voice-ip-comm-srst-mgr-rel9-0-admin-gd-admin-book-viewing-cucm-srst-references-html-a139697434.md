@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-viewing-cucm-srst-references-html-a139697434
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_cucm_srst_references.html
-retrieved_at: 2026-08-21T23:38:26.166374+00:00
+retrieved_at: 2026-09-27T15:28:31.051826+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -53,3 +53,11 @@ The page contains the following information for each site:
 For more information about the information displayed on the Sites page, see Viewing and Provisioning Sites .
 
 Related Topics
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

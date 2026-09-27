@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-viewing-sites-html-1c7d17e361
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_sites.html
-retrieved_at: 2026-08-21T23:38:38.597096+00:00
+retrieved_at: 2026-09-27T15:28:43.617376+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -142,3 +142,11 @@ You can manually provision sites from the Configure > Sites page. During the pro
 | Site Template Name | Name of the site template associated with the site. See Using Site Templates . |
 | SRST Type | Enhanced SRST (Cisco Unified CME) or Classic SRST. |
 | Dial Plan Configuration Enabled | If a check mark appears, then dial plan configuration will be provisioned for the site. |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

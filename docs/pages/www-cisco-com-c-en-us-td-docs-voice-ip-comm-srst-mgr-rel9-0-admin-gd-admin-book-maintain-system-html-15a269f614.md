@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-maintain-system-html-15a269f614
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/maintain_system.html
-retrieved_at: 2026-08-21T23:39:33.828373+00:00
+retrieved_at: 2026-09-27T15:29:38.833566+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -227,3 +227,13 @@ Power off the VM using the VMware management application.
 |---|---|
 | startup-config | Startup configuration on hard disk. |
 | tftp-server-url | URL of the TFTP server. |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![caut.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

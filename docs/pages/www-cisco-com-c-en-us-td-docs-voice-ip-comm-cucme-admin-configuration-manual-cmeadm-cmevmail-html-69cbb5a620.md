@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmevmail-html-69cbb5a620
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmevmail.html
-retrieved_at: 2026-08-21T07:22:59.106249+00:00
+retrieved_at: 2026-09-27T15:32:27.141132+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -4236,3 +4236,13 @@ Enables a
 | Transfer to
                                           				  Voice Mail | 4.3 | Enables a
                                           				  phone user to transfer a caller directly to a voice-mail extension. |
+
+## Figuras
+
+![Figure 1. SIP MWI to
+                                 		  ISDN QSIG When Voice Mail and Cisco Router are On the Same LAN](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146430.ps/_jcr_content/renditions/146430.jpg)
+
+![Figure 2. SIP MWI to
+                                 		  ISDN QSIG When PBX is Connected to a Remote Cisco Router](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146570.ps/_jcr_content/renditions/146570.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

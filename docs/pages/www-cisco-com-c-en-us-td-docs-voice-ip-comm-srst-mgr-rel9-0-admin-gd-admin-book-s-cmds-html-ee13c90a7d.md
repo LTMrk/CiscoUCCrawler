@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-s-cmds-html-ee13c90a7d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/s_cmds.html
-retrieved_at: 2026-08-21T23:40:25.875705+00:00
+retrieved_at: 2026-09-27T15:30:25.235689+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -827,3 +827,7 @@ Displays the sites on the Cisco Unified SRST Manager system.
 |---|---|
 | show srsx central-call-agent | Displays the central call agents available on the Cisco Unified SRST Manager system. |
 | show srsx site | Displays the sites on the Cisco Unified SRST Manager system. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

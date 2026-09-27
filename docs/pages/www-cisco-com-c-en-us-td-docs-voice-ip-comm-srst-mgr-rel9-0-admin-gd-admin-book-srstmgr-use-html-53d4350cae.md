@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-srstmgr-use-html-53d4350cae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/srstmgr_use.html
-retrieved_at: 2026-08-21T23:40:12.454639+00:00
+retrieved_at: 2026-09-27T15:30:12.114474+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -255,3 +255,11 @@ Note All configuration changes require an explicit “save configuration” oper
 | startup-config | Startup configuration in flash memory. |
 | tftp: tftp-server-address | IP address of the TFTP server. |
 | filename | Name of the destination file that will contain the copied running configuration. |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

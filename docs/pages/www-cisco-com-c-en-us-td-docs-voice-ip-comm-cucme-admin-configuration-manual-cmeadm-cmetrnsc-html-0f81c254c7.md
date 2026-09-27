@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmetrnsc-html-0f81c254c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmetrnsc.html
-retrieved_at: 2026-08-21T07:22:49.214419+00:00
+retrieved_at: 2026-09-27T15:32:17.879428+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -3913,3 +3913,17 @@ Total number of active session(s) 1, connection(s) 2, and callegs 3 |
 | LTI-based Transcoding | 11.6 | Support for LTI-based Transcoding on Cisco 4000 Series ISR. |
 | Secure Transcoding | 4.2 | Secure transcoding for calls using the codec g729r8 dspfarm-assist command was introduced. |
 | Transcoding Support | 3.2 | Transcoding between G.711 and G.729 was introduced. |
+
+## Figuras
+
+![Figure 1. Three-Way
+                                 		  Conferencing, Call Transfer and Forward, Cisco Unity Express, and MOH Between
+                                 		  G.711 and G.729](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103375.ps/_jcr_content/renditions/103375.jpg)
+
+![Figure 2. NM-HDV
+                                 		  Supports up to Five PVDMs](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103376.ps/_jcr_content/renditions/103376.jpg)
+
+![Figure 3. DSP
+                                 		  Farm](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103378.ps/_jcr_content/renditions/103378.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

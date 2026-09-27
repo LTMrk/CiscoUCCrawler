@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-9-7-cjab-bk-c606d8a9-00-cisco-jabber-dns-configuration-guide--f0e75a65ca
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_010.html
-retrieved_at: 2026-09-14T21:37:48.422889+00:00
+retrieved_at: 2026-09-27T15:25:07.611608+00:00
 ---
 
 Cisco Jabber DNS Configuration Guide
@@ -407,3 +407,7 @@ _cuplogin._tcp.example.com      SRV service location:
 
 | Note | You should use the fully qualified domain name (FQDN) as the hostname in the SRV record. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

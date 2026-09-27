@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-install-gd-srstmgr-install-html-ce261ce068
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/install_gd/srstmgr_install.html
-retrieved_at: 2026-08-21T21:29:30.546586+00:00
+retrieved_at: 2026-09-27T15:26:35.782011+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified SRST Manager
@@ -554,3 +554,7 @@ Any Internet Protocol (IP) addresses and phone numbers used in this document are
 |---|---|
 | Hardware requirements | UC Virtualization Supported Hardware http://docwiki.cisco.com/wiki/UC_Virtualization_Supported_Hardware |
 | VMware installation and configuration | Implementing Virtualization Deployments http://docwiki.cisco.com/wiki/Implementing_Virtualization_Deployments |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

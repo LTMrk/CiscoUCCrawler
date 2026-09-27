@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-config-esrst-html-29c597398e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/config_esrst.html
-retrieved_at: 2026-08-21T23:38:05.146195+00:00
+retrieved_at: 2026-09-27T15:28:10.377644+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -291,3 +291,11 @@ After the E-SRST provisioning is complete, the dial plan and ephone configuratio
 | Remote-in-use | Cbarge, Newcall |
 | Ringing | Answer, Dnd, Hlog |
 | Seized | CallBack, Cfwdall, Endcall, Gpickup, Hlog, Pickup, Redial |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

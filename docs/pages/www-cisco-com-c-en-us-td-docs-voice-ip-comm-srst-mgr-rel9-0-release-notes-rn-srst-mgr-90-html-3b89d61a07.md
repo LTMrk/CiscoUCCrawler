@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-release-notes-rn-srst-mgr-90-html-3b89d61a07
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/release_notes/rn_srst_mgr_90.html
-retrieved_at: 2026-08-21T21:29:17.755215+00:00
+retrieved_at: 2026-09-27T15:26:22.855142+00:00
 ---
 
 Release Notes for Cisco Unified SRST Manager Release 9.0.7
@@ -229,3 +229,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or
 | Installation and Upgrade Guide for Cisco Unified SRST Manager Release 9.0 | Contains information about installing Cisco Unified SRST Manager Release 9.0. |
 | Administration Guide for Cisco Unified SRST Manager Release 9.0 | Contains administrator information for Cisco Unified SRST Manager Release 9.0. Includes information about the following: Tasks that are performed from the GUI, including online help Tasks that are performed from the CLI CLI command information for commands that are specific to Cisco Unified SRST Manager Release 9.0. Maintenance |
 | Cisco Unified SRST Manager Compatibility Matrix | Describes the software and platforms compatible with Cisco Unified SRST Manager. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

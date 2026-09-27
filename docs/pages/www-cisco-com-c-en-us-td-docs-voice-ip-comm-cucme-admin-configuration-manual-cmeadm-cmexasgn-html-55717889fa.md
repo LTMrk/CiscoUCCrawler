@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmexasgn-html-55717889fa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmexasgn.html
-retrieved_at: 2026-08-21T07:22:26.224541+00:00
+retrieved_at: 2026-09-27T15:31:55.781180+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -4173,3 +4173,7 @@ Router(config-register-global)# end | Returns to
                                           				  Assigner | 4.0(3) | Enables
                                           				  installation technicians to assign extension numbers to Cisco Unified CME SCCP
                                           				  phones without accessing the server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

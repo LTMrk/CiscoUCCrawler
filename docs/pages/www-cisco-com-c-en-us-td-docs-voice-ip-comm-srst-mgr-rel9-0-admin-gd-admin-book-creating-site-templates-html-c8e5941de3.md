@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-creating-site-templates-html-c8e5941de3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/creating_site_templates.html
-retrieved_at: 2026-08-21T23:38:55.351588+00:00
+retrieved_at: 2026-09-27T15:29:00.001999+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -114,3 +114,11 @@ Related Topics
 | Enable Calling Privileges configuration | Cisco Unified SRST Manager retrieves call restrictions (calling search spaces, partitions, and so on) information from the CUCM and provisions the call restriction configuration on the site branch router. |
 | Enable After Hours configuration | Cisco Unified SRST Manager retrieves time-based calling restrictions information from the CUCM and provisions the configuration on the site branch router. |
 | Enable Single Number Reach configuration | Cisco Unified SRST Manager retrieves single number reach information from the CUCM and provisions the single number reach configuration on the site branch router. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

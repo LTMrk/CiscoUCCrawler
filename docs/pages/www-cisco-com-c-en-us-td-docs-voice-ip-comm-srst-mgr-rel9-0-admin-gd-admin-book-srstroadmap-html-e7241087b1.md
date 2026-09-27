@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-srstroadmap-html-e7241087b1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/srstroadmap.html
-retrieved_at: 2026-08-21T23:37:35.650523+00:00
+retrieved_at: 2026-09-27T15:27:44.716530+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -148,3 +148,11 @@ Supported Phones and Platforms
 | ESXi 5.1 and ESXi 5.5 Support | Cisco Unified SRST Manager 11.0 supports ESXi 5.1 and ESXi 5.5. | Cisco Unified SRST Manager Overview |
 | 9.0.6 | No Dial Plan Support | Dial Plan is not supported from Cisco Unified SRST Manager 9.0.6. A note has been added in the applicable sections. | Cisco Unified SRST Manager Overview |
 | AXL Upgrade | Administrative XML (AXL) support is upgraded to 8.5 from Cisco Unified SRST Manager 9.0.6 onwards. | Supported Phones and Platforms |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeover-html-4fc7128203
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeover.html
-retrieved_at: 2026-08-21T07:21:47.060718+00:00
+retrieved_at: 2026-09-27T15:31:31.448298+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -782,3 +782,19 @@ To locate
                                           					 CISCO-VOICE-DIAL-CONTROL-MIB | To locate
                                           					 and download MIBs for selected platforms, Cisco IOS releases, and feature sets,
                                           					 use Cisco MIB Locator found at the following URL: http://www.cisco.com/go/mibs |
+
+## Figuras
+
+![Figure 1. Cisco Unified CME for the Small- and Medium-Size
+                              		  Office](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146626.ps/_jcr_content/renditions/146626.jpg)
+
+![Figure 2. Cisco Unified CME for Service Providers](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146627.ps/_jcr_content/renditions/146627.jpg)
+
+![Figure 3. Incoming Call
+                                 		  Using PBX Model](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146456.ps/_jcr_content/renditions/146456.jpg)
+
+![Figure 4. Incoming PSTN
+                                 		  Call Using Keyswitch Model](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146457.ps/_jcr_content/renditions/146457.jpg)
+
+![Figure 5. Incoming PSTN
+                                 		  Call Using Hybrid PBX-Keyswitch Model](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146458.ps/_jcr_content/renditions/146458.jpg)

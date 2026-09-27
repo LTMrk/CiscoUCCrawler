@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-core-config-bu-html-bf161726f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_bu.html
-retrieved_at: 2026-08-21T23:39:46.936921+00:00
+retrieved_at: 2026-09-27T15:29:50.918407+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -215,3 +215,11 @@ Step 4 Click Start Restore .
 Step 5 After restoring the backup, you might need to console into Cisco Unified SRST Manager from the vSphere client/vCenter application, and re-configure the network credentials (interface Ethernet 0, and IP default gateway) before the system is ready for use.
 
 Note In some cases, the backup includes the configuration of network credentials and no further configuration of network credentials is necessary after restoring the backup. If the backup does not include the network credentials, or if it has incorrect credentials, you will not be able to reach the Cisco Unified SRST Manager GUI remotely. You can access Cisco Unified SRST Manager using the VMware manager console.
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

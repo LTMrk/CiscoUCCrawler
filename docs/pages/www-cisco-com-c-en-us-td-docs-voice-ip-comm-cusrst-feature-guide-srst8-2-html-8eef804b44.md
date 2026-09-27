@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-feature-guide-srst8-2-html-8eef804b44
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/feature/guide/srst8_2.html
-retrieved_at: 2026-08-21T21:29:46.159187+00:00
+retrieved_at: 2026-09-27T15:26:55.007229+00:00
 ---
 
 Cisco Unified Survivable Remote Site Telephony 8.5  New Features
@@ -6340,3 +6340,7 @@ Cisco Unified SRST 8.5
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified SRST 8.5 | 15.1(3)T | • E.164 Enhancements • Enhancement to Voice Hunt Group Restriction • Forced Authorization Code • Overlap Dialing Support for SCCP IP Phones • XML API for Cisco Unified SRST |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

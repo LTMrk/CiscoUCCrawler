@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-viewing-central-call-agent-html-6d4a2b6847
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/viewing_central_call_agent.html
-retrieved_at: 2026-08-21T23:38:30.159887+00:00
+retrieved_at: 2026-09-27T15:28:35.221216+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -55,3 +55,11 @@ a. Select the central call agent.
 b. Click Remove .
 
 c. Click OK at the warning message.
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

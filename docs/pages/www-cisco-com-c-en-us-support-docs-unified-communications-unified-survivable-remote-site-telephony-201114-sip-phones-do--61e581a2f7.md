@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-survivable-remote-site-telephony-201114-sip-phones-do--61e581a2f7
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/201114-SIP-Phones-do-not-Register-to-SRST-route.html
-retrieved_at: 2026-08-21T21:30:06.661027+00:00
+retrieved_at: 2026-09-27T15:27:14.039754+00:00
 ---
 
 SRST Manager - SIP Phones do not Register to SRST Router
@@ -65,3 +65,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Survivable Remote Site Telephony
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

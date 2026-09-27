@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-feature-guide-moh-srst-html-18dbeb860c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/feature/guide/MOH_srst.html
-retrieved_at: 2026-08-21T21:30:02.725484+00:00
+retrieved_at: 2026-09-27T15:27:10.403550+00:00
 ---
 
 Cisco Unified Survivable Remote Site Telephony 8.0 Music On Hold Enhancement
@@ -1035,3 +1035,7 @@ is a moh group for sales Router(config-voice-moh-group)# moh minuet.wav Router(c
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified SRST 8.0 | 15.0(1)XA | • Adds support for Music on Hold Enhancement. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

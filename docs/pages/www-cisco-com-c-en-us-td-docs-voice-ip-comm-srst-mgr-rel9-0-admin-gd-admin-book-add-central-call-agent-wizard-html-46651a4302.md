@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-add-central-call-agent-wizard-html-46651a4302
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/add_central_call_agent_wizard.html
-retrieved_at: 2026-08-21T23:38:17.894892+00:00
+retrieved_at: 2026-09-27T15:28:22.791674+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -235,3 +235,11 @@ For information on fast track use cases for Cisco Unified SRST Manager phone con
 | 9.0.4 | 9.1, 9.0, and 8.5 | 7.0.1 |
 | 9.0.6 | 10.5, 10.0, 9.1, 9.0 and 8.5 | 8.5 |
 | 11.0 | 11.0,10.5, 10.0, 9.1, and 9.0 | 9.0 |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

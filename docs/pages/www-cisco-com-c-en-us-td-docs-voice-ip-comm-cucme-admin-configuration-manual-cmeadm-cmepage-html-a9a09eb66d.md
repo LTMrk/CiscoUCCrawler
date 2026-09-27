@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmepage-html-a9a09eb66d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmepage.html
-retrieved_at: 2026-08-21T07:23:52.781442+00:00
+retrieved_at: 2026-09-27T15:33:28.273545+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1617,3 +1617,8 @@ ephone  2
                                              					 Cisco Unified SIP IP phone associated with the paging-dn tag or paging group
                                              					 using the paging-dn command in voice register pool or voice
                                              					 register template configuration mode. |
+
+## Figuras
+
+![Figure 1. Paging
+                                 		  Group](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88953.ps/_jcr_content/renditions/88953.jpg)

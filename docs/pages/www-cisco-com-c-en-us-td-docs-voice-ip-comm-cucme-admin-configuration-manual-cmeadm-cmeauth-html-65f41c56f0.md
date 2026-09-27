@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeauth-html-65f41c56f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeauth.html
-retrieved_at: 2026-08-21T07:23:06.209260+00:00
+retrieved_at: 2026-09-27T15:32:32.941519+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -7503,3 +7503,16 @@ Trustpoint: ctlpv |
                                              					 IP phone's CTL file using the import certificate command. |
 | Media Encryption (SRTP) on Cisco Unified CME | 4.2 | Introduces media encryption on Cisco Unified CME. |
 | Phone Authentication | 4.0 | Introduces phone authentication for Cisco Unified CME phones. |
+
+## Figuras
+
+![Figure 1. Cisco Unified CME Phone Authentication](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146624.ps/_jcr_content/renditions/146624.jpg)
+
+![Figure 2. Secure
+                                 		  Cisco Unified CME System](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170910.ps/_jcr_content/renditions/170910.jpg)
+
+![Figure 3. Music on Hold
+                                    		  in an H.450 Environment](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/231001-232000/231361.eps/_jcr_content/renditions/231361.jpg)
+
+![Figure 4. Transfer in a
+                                    		  Non-H.450 Environment](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/231001-232000/231360.eps/_jcr_content/renditions/231360.jpg)

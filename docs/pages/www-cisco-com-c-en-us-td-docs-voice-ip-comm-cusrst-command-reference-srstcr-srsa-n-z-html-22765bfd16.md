@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-command-reference-srstcr-srsa-n-z-html-22765bfd16
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/command/reference/srstcr/srsa_n_z.html
-retrieved_at: 2026-08-21T10:07:02.077059+00:00
+retrieved_at: 2026-09-27T15:30:53.341180+00:00
 ---
 
 Cisco Unified SRST and Cisco Unified SIP SRST Command Reference (All Versions)
@@ -19429,3 +19429,7 @@ Enable Cisco Unified SRST configuration mode.
 | Command | Description |
 |---|---|
 | call-manager-fallback | Enable Cisco Unified SRST configuration mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

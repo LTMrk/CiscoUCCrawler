@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-core-reports-html-1c0dbf9d5c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_reports.html
-retrieved_at: 2026-08-21T23:39:38.356084+00:00
+retrieved_at: 2026-09-27T15:29:43.377367+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -614,3 +614,11 @@ Related Topics
 | SrstInfo | Cisco Unified SRST Manager has provided an informational message. Refer to the log files for message details. |
 | TlsCredentialRenewed | A TLS credential on Cisco Unified SRST Manager has expired but has been automatically renewed through a SCEP certificate authority. |
 | UmgProvisioningInfo | This message is an indication that provisioning of the secondary Cisco Unified SRST Manager has some additional information to convey. Note The details link for this alert contains a list of all the provisioning errors seen for the Cisco Unified SRST Manager aggregated into a single alert. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

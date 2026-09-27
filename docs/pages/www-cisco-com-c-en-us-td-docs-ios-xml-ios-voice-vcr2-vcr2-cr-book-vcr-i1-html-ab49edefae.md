@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-i1-html-ab49edefae
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-i1.html
-retrieved_at: 2026-08-16T23:08:42.223340+00:00
+retrieved_at: 2026-09-27T15:27:32.011020+00:00
 ---
 
 Cisco IOS Voice Command Reference - D through I
@@ -6061,3 +6061,7 @@ Configures the IRR timer.
 | Command | Description |
 |---|---|
 | timer irr period | Configures the IRR timer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

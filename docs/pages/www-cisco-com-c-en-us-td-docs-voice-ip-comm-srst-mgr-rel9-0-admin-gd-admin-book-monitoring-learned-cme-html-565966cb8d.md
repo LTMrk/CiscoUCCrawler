@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-monitoring-learned-cme-html-565966cb8d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/monitoring_learned_cme.html
-retrieved_at: 2026-08-21T23:39:25.142347+00:00
+retrieved_at: 2026-09-27T15:29:29.945549+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -54,3 +54,9 @@ e. To clear the values, click Clear Filter and click Go .
 | CUCME IP Address | IP address for the learned Cisco Unified Communications Manager Express device. |
 | Platform | Hardware platform on which the learned Cisco Unified Communications Manager Express site is installed. |
 | CUCME Version | Version of Cisco Unified Communications Manager Express installed. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

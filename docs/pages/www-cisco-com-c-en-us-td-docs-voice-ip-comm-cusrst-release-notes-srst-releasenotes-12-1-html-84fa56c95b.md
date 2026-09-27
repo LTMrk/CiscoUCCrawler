@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-release-notes-srst-releasenotes-12-1-html-84fa56c95b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/release/notes/SRST_ReleaseNotes_12_1.html
-retrieved_at: 2026-08-21T21:29:09.233081+00:00
+retrieved_at: 2026-09-27T15:26:14.434877+00:00
 ---
 
 Release Notes for Cisco Unified Survivable Remote Site Telephony, 12.1
@@ -193,3 +193,7 @@ Any Internet Protocol (IP) addresses and phone numbers used in this document are
 | CSCvf82853 | RPID not updated in Transfer Scenario involving TDM trunk. |
 | CSCvg06555 | No ringback on alert-transferring secure trunk call to line side phone. |
 | CSCvf79695 | [Secure SRST] One way audio after the hold/resume on phone over TLS1.1/1.2 secure SIP trunk. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

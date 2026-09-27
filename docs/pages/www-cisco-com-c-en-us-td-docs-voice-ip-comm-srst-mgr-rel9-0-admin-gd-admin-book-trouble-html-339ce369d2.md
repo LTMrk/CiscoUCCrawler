@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-trouble-html-339ce369d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/trouble.html
-retrieved_at: 2026-08-21T23:40:08.847443+00:00
+retrieved_at: 2026-09-27T15:30:07.490637+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -75,3 +75,13 @@ Recommended Action Copy the log files from Cisco Unified SRST Manager to an exte
 ## Using Trace Commands
 
 To troubleshoot network configuration in Cisco Unified SRST Manager, use the trace command in EXEC mode. For a detailed list of all the arguments associated with the trace command, see trace .
+
+## Figuras
+
+![caut.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

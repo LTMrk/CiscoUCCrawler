@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-monitoring-provisioning-html-eb9b5eddea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/monitoring_provisioning.html
-retrieved_at: 2026-08-21T23:39:20.734494+00:00
+retrieved_at: 2026-09-27T15:29:25.614958+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -45,3 +45,9 @@ Related Topics
 - For information about generating the Site Provisioning report, see Viewing the Site Provisioning History Report .
 
 - For descriptions of all alerts, see System Alerts .
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

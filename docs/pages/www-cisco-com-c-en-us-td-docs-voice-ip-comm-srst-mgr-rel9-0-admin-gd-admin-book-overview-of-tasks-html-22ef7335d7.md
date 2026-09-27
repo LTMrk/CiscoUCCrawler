@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-overview-of-tasks-html-22ef7335d7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/overview_of_tasks.html
-retrieved_at: 2026-08-21T23:37:56.496609+00:00
+retrieved_at: 2026-09-27T15:28:01.690232+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -149,3 +149,7 @@ Administration Guide for Cisco Unified SRST Manager 11.0
 | Periodically back up the Cisco Unified SRST Manager system. Restore it as needed. | Configuring Backup and Restore |
 | Troubleshooting |
 | Troubleshoot the Cisco Unified SRST Manager system as necessary. | Troubleshooting Using the GUI For information about troubleshooting using the CLI, see: Administration Guide for Cisco Unified SRST Manager 11.0 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

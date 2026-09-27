@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmefac-html-298e951f7c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmefac.html
-retrieved_at: 2026-08-20T23:27:15.226819+00:00
+retrieved_at: 2026-09-27T15:33:02.878505+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1123,3 +1123,10 @@ Router(config-app)# | Enters the
 | Forced
                                              					 Authorization Code | 8.5 | Introduced
                                              					 the FAC feature. |
+
+## Figuras
+
+![Figure 1. Forced
+                                 		  Authorization Code Network Overview](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/278001-279000/278098.eps/_jcr_content/renditions/278098.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
