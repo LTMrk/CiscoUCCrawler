@@ -1,22 +1,11 @@
 {
-  "run_at": "2026-09-27T11:00:08.345915+00:00",
+  "run_at": "2026-09-27T11:10:50.235059+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-virtual-chcs-b-cisco-collaboration-on-virtual-servers-chcs-b-cisco-coll-90d94e8fc8",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-virtual-chcs-b-cisco-collaboration-on-virtual-servers-chcs-m-administra-9552386174"
-  ],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-routers-access-vg450-software-configuration-guide-vg450-scg-vg450-scg-chapter-00-html-39f14f6f86",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-01-html-1d9ef9d639",
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf"
-  ],
-  "removed": [
-    "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-series-products-maintenance-guides-list-html-49f8259d3e"
-  ],
+  "added": [],
+  "modified": [],
+  "removed": [],
   "blocked": [],
-  "unchanged_count": 1,
-  "redirected": [
-    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html -> https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html"
-  ],
-  "semillas_encoladas": 25
+  "unchanged_count": 0,
+  "redirected": [],
+  "semillas_encoladas": 0
 }
