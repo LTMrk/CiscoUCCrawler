@@ -196,8 +196,13 @@ jobs:
             exit 0
           fi
 
-          echo "Pendientes: ${pendientes} URLs. Encolando lote $((LOTE + 1))."
-          gh workflow run etl.yml -f lote="$((LOTE + 1))"
+          # --ref es obligatorio: sin el, `gh workflow run` encola sobre la
+          # rama por defecto del repositorio, no sobre la que esta corriendo.
+          # Una cadena lanzada desde una rama de trabajo saltaria a main en
+          # el lote 2 y seguiria commiteando alli.
+          echo "Pendientes: ${pendientes} URLs. Encolando lote $((LOTE + 1))" \
+               "sobre ${GITHUB_REF_NAME}."
+          gh workflow run etl.yml --ref "$GITHUB_REF_NAME" -f lote="$((LOTE + 1))"
 
   # ---------------------------------------------------------------------------
   # Paquete para los agentes de M365 Copilot.
