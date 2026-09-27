@@ -153,8 +153,21 @@ debería", sospecha del consumo antes que de las regex.
 - **El diccionario de datos de CUCM no existe en HTML.** La página de
   `products-programming-reference-guides-list.html` sí se rastrea y de ella
   salen `jtapi_dev` (50), `tapi_dev` (44) y `callReportingBillingAdmin`
-  (42), pero no enlaza ningún `datadictionary` en HTML: solo PDF, que
-  `blocked_regex` bloquea por diseño. No es un fallo del rastreo.
+  (42), pero no enlaza ningún `datadictionary` en HTML: solo PDF. Por eso
+  existe `config.pdf_permitidos_regex`, una excepción **acotada** al veto de
+  `\.pdf$` de `blocked_regex`. No ampliarla a todo `voice_ip_comm`: casi
+  cada guía tiene su gemelo en PDF y el corpus se duplicaría entero.
+- **Un PDF no pasa por el navegador.** Chromium devuelve el visor, no el
+  documento, y el sanitizador se queda en cero caracteres: desbloquear la
+  extensión sin más habría sido otro fallo mudo. `deep_crawl` desvía los
+  PDF admitidos a `pdf_texto`, que los baja con `urllib` y extrae el texto
+  con `pypdf`. Ese import vive DENTRO de `texto_de_pdf`, igual que el de
+  crawl4ai: `paquete.yml` no instala `pypdf` y sigue importando
+  `crawler_ai`, así que ese workflow es la guarda viva de la propiedad.
+- La excepción de PDF salta **solo** el veto por extensión: `is_blocked_by_user`
+  reevalúa la URL sin el sufijo contra el resto de `blocked_regex`. El corte
+  de cuatro caracteres solo es correcto si todo patrón termina en `\.pdf$`,
+  y `tests/test_pdf.py` falla si alguno no lo hace.
 - Las raíces de doc-set de DevNet siguen sin servir contenido:
   `/docs/axl-schema-reference/` da 0 caracteres tras sanitizar (queda
   `failed`) y `/docs/serviceability/` responde 404 (`gone`), como

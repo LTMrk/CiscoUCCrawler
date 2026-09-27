@@ -49,6 +49,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_policy import (
     HOSTS_BARRA_FINAL, USER_AGENT, PoliticaAcceso, canonicalizar_url,
 )
+from pdf_texto import descargar as descargar_pdf
+from pdf_texto import es_pdf, texto_de_pdf
 from sanitizer import DetectorBoilerplate, sanitizar
 from state_store import (
     ManifestStore, cargar_frontera, guardar_frontera,
@@ -132,6 +134,8 @@ def _compilar(patrones, etiqueta):
 
 
 BLOCKED_REGEX = _compilar(CONFIG.get("blocked_regex", []), "blocked_regex")
+PDF_PERMITIDOS_REGEX = _compilar(CONFIG.get("pdf_permitidos_regex", []),
+                                 "pdf_permitidos_regex")
 DISCOVERY_ONLY_REGEX = _compilar(CONFIG.get("discovery_only_regex", []), "discovery_only_regex")
 def _regex_docsets_devnet(docsets):
     """Compone la allowlist de developer.cisco.com desde `devnet_docsets`.
@@ -175,6 +179,16 @@ def is_blocked_by_user(url):
     url_lower = url.lower()
     if any(p in url_lower for p in BLOCKED_PATTERNS):
         return True
+    if any(r.search(url) for r in PDF_PERMITIDOS_REGEX):
+        # Un PDF admitido salta SOLO el veto por extension de blocked_regex.
+        # Se reevalua la URL sin el sufijo, asi cualquier otro motivo de
+        # bloqueo (idioma, EoL, /codeexchange/) sigue vivo. Quitar el sufijo
+        # en lugar de identificar la regex de extensiones evita que la
+        # excepcion se rompa en silencio si alguien reordena blocked_regex.
+        # El corte es seguro porque todo patron de pdf_permitidos_regex
+        # termina en \.pdf$, y tests/test_pdf.py falla si alguno no lo hace.
+        sin_extension = url[: -len(".pdf")]
+        return any(r.search(sin_extension) for r in BLOCKED_REGEX)
     return any(r.search(url) for r in BLOCKED_REGEX)
 
 
@@ -637,6 +651,51 @@ async def deep_crawl():
 
             await politica.antes_de_solicitar(url)
             procesadas += 1
+
+            # -- PDF admitido -------------------------------------------
+            # No pasa por el navegador: Chromium devolveria el visor y el
+            # sanitizador se quedaria en cero caracteres, o sea un fallo
+            # mudo. Se baja directo y se extrae el texto.
+            if es_pdf(url):
+                codigo, datos = await asyncio.to_thread(
+                    descargar_pdf, url, USER_AGENT)
+                accion, espera = politica.tras_respuesta(url, codigo)
+                if accion != "ok":
+                    # Se reusa el mismo tratamiento que el resto: un 403 va
+                    # a cuarentena, un 404 deja tombstone, un 429 espera.
+                    if accion == "desaparecido":
+                        manifiesto.registrar_desaparecido(url)
+                    elif accion == "cuarentena":
+                        manifiesto.registrar_bloqueo(url, codigo)
+                    elif accion == "reintentar":
+                        await asyncio.sleep(espera)
+                        await cola.put((url, profundidad))
+                        visitadas_este_lote.discard(url)
+                        continue
+                    else:
+                        manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF: HTTP {codigo} -> {accion}.")
+                    continue
+
+                try:
+                    texto = await asyncio.to_thread(texto_de_pdf, datos)
+                except Exception as e:
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF ilegible: {e}")
+                    continue
+
+                if not texto:
+                    # Un PDF sin capa de texto (escaneado) nunca va a dar
+                    # nada: se registra para que no se reencole cada lote.
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, "PDF sin texto extraible.")
+                    continue
+
+                cambio, doc_id = manifiesto.registrar_contenido(url, texto)
+                if cambio:
+                    manifiesto.escribir_documento(doc_id, url, texto)
+                    log_info(f"Delta PDF ({len(texto)} chars) -> {doc_id}")
+                continue
 
             css, js = get_custom_behavior(url)
             validadores = manifiesto.cabeceras_condicionales(url)

@@ -76,6 +76,18 @@
     "/print/?$",
     "^https?://developer\\.cisco\\.com/codeexchange/"
   ],
+  "_doc_pdf_permitidos_regex": [
+    "Excepcion ACOTADA al veto de \\.pdf$ de blocked_regex. El diccionario",
+    "de datos de CUCM no existe en HTML: la pagina de programming-reference",
+    "solo enlaza el PDF. Sin esta excepcion el enlace se descarta y el",
+    "esquema de la base de datos no entra en el corpus.",
+    "No ampliar a todo voice_ip_comm: casi cada guia tiene su gemelo en PDF",
+    "y el corpus se duplicaria entero."
+  ],
+  "pdf_permitidos_regex": [
+    "/td/docs/voice_ip_comm/.*datadictionary.*\\.pdf$",
+    "/td/docs/voice_ip_comm/.*data_dictionary.*\\.pdf$"
+  ],
   "blocked_patterns": [
     "careers.cisco.com",
     "jobs.cisco.com",

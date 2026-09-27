@@ -21,6 +21,11 @@ crawl4ai==0.9.2
 beautifulsoup4>=4.12,<5
 lxml>=5.0,<7
 
+# Texto de los PDF admitidos por config.pdf_permitidos_regex. Se importa
+# DENTRO de pdf_texto.texto_de_pdf, asi que `import crawler_ai` sigue
+# funcionando sin este paquete.
+pypdf>=5.0,<7
+
 # Solo se importa si el repo de specs publica algun OpenAPI en YAML.
 PyYAML>=6.0,<7
 
