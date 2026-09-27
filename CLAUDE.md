@@ -129,6 +129,20 @@ debería", sospecha del consumo antes que de las regex.
   el JSON del índice: `robots.txt` de DevNet trae `Disallow: /*.json`.**
 - `/docs/unity-connection/` responde 404 incluso con barra final. El doc-set
   vivo es `/site/unity-connection/`, que ya está seedeado.
+- **La frontera de developer.cisco.com está vacía: el dominio ya convergió
+  en 341 URLs.** Rastrear más no descubre nada nuevo; la única palanca que
+  queda son las semillas. Por eso `docs/axl-schema-reference`,
+  `docs/axl/axl-developer-guide` y `docs/serviceability` se seedean
+  explícitamente en lugar de esperar a que el índice los enlace.
+- **Una semilla que la allowlist rechaza no da error: se descarta en
+  silencio.** `tests/test_url_policy.py` pasa ahora todas las de
+  `config.seeds` por `url_aceptable`, que es la única forma barata de que
+  ese fallo deje de ser mudo.
+- Los esquemas de implantación de CUCM y CUC no venían de DevNet sino de
+  www.cisco.com, y faltaban dos páginas índice: `products-technical-
+  reference-list.html` (diccionario de datos) y
+  `products-implementation-design-guides-list.html` (SRND). El corpus tenía
+  0 páginas de `datadictionary` antes de seedearlas.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:

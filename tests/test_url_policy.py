@@ -230,8 +230,17 @@ def main():
         if canonicalizar_url(obtenida, HOSTS_BARRA_FINAL) != obtenida:
             fallos.append(f"  Canonicalizacion no idempotente: {obtenida}")
 
+    # Una semilla que la allowlist rechaza no produce ningun error: se
+    # descarta en silencio y su doc-set nunca entra en el corpus. Es el
+    # mismo modo de fallo que ya costo 127 URLs de DevNet, y la unica
+    # defensa barata es comprobar aqui que toda semilla es aceptable.
+    for u in CONFIG["seeds"]:
+        if not aceptada(u):
+            fallos.append(f"  SEMILLA INERTE (la allowlist la rechaza): {u}")
+
     total = (len(DEBE_PASAR) + len(DEBE_BLOQUEAR) + len(SOLO_DESCUBRIMIENTO)
-             + len(NO_SOLO_DESCUBRIMIENTO) + len(CANONICALIZACION))
+             + len(NO_SOLO_DESCUBRIMIENTO) + len(CANONICALIZACION)
+             + len(CONFIG["seeds"]))
 
     if fallos:
         print(f"{len(fallos)} fallo(s) de {total} casos:\n")
@@ -241,7 +250,8 @@ def main():
     print(f"Los {total} casos se clasifican correctamente.")
     print(f"  {len(DEBE_PASAR)} admitidas | {len(DEBE_BLOQUEAR)} bloqueadas | "
           f"{len(SOLO_DESCUBRIMIENTO)} solo-descubrimiento | "
-          f"{len(CANONICALIZACION)} canonicalizaciones")
+          f"{len(CANONICALIZACION)} canonicalizaciones | "
+          f"{len(CONFIG['seeds'])} semillas")
 
 
 if __name__ == "__main__":
