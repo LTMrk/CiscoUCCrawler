@@ -8,7 +8,8 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(
     os.path.abspath(__file__))), "src"))
 
 from copilot_pack import (
-    FUENTES, nombre_zip, recolectar,
+    DOCSETS_DEVNET, ETIQUETAS, FUENTES, cargar_docsets_devnet,
+    nombre_zip, recolectar,
     LIMITE_CHARS,
     PERFILES,
     a_texto_plano,
@@ -478,6 +479,69 @@ def test_cada_fuente_tiene_su_zip():
     assert nombre_zip("todo") == "copilot-vigente-completo.zip"
     assert nombre_zip("devnet") == "copilot-vigente-devnet.zip"
     assert nombre_zip("todo") != nombre_zip("devnet")
+
+
+# ---------------------------------------------------------------------------
+# Sincronia entre la allowlist de rastreo y la taxonomia del paquete
+# ---------------------------------------------------------------------------
+
+def test_todo_docset_devnet_tiene_producto_con_etiqueta():
+    """Un doc-set admitido pero sin etiqueta cae en "misc", que es la carpeta
+    donde el agente no lo encuentra. El sintoma no es un error: es una
+    ausencia. Paso exactamente eso con site/hcs, admitido en la allowlist de
+    config.json y sin mapear en la taxonomia; sus 15 documentos acabaron en
+    "misc". Al salir ambas cosas de la misma lista, esta prueba es lo que
+    impide que vuelva a ocurrir."""
+    docsets = _docsets_de_config()
+    assert docsets, "config.json no declara devnet_docsets"
+    sin_etiqueta = sorted({clave for clave in docsets.values()
+                           if clave not in ETIQUETAS})
+    assert not sin_etiqueta, f"productos sin etiqueta: {sin_etiqueta}"
+
+
+def test_allowlist_de_rastreo_y_taxonomia_salen_de_la_misma_lista():
+    """crawler_ai compone la allowlist de developer.cisco.com desde
+    devnet_docsets y copilot_pack lee esa misma clave. Si alguien vuelve a
+    duplicar la lista, los conjuntos dejan de coincidir aqui."""
+    import crawler_ai
+
+    docsets = _docsets_de_config()
+    esperado = crawler_ai._regex_docsets_devnet(list(docsets))
+    assert len(esperado) == 1
+    patron = esperado[0]
+    for fragmento in docsets:
+        assert fragmento in patron, f"{fragmento} no llego a la allowlist"
+
+    # Y toda URL admitida por el rastreo debe clasificar fuera de "misc".
+    for fragmento, clave in docsets.items():
+        if clave == "misc":
+            continue                      # indices, solo descubrimiento
+        muestra = _url_de_muestra(fragmento)
+        assert crawler_ai.url_aceptable(muestra), f"no rastreable: {muestra}"
+        assert clasificar_producto(muestra) == clave, muestra
+
+
+def test_docsets_tolera_config_ausente():
+    """Empaquetar es solo lectura sobre docs/: quedarse sin config.json
+    degrada la taxonomia, no debe reventar la generacion del ZIP."""
+    assert cargar_docsets_devnet("no-existe.json") == []
+
+
+def _docsets_de_config():
+    import json
+    raiz = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    with open(os.path.join(raiz, "config.json"), encoding="utf-8") as fh:
+        return json.load(fh)["devnet_docsets"]
+
+
+def _url_de_muestra(fragmento):
+    """Convierte un fragmento de regex en un slug concreto que case con el.
+    Los unicos metacaracteres usados son clases y grupos opcionales."""
+    import re as _re
+    slug = _re.sub(r"\[a-z0-9-\]\*", "", fragmento)
+    slug = slug.replace("(cisco-)?", "").replace("[a-z-]*", "")
+    return f"https://developer.cisco.com/docs/{slug}/getting-started/"
+
 
 
 if __name__ == "__main__":

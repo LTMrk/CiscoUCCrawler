@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-0ab4143a76
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_0100011.html
-retrieved_at: 2026-08-21T09:05:07.870746+00:00
+retrieved_at: 2026-09-27T12:38:27.301529+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -2027,3 +2027,7 @@ Cisco XCP Router
                                                    user ) setting in the Presence Settings configuration
                                                 window. | Cisco XCP Router |
 | Deleting or removing a node from a cluster | Cisco XCP Router |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

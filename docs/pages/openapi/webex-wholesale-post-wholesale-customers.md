@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-post-wholesale-customers
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: POST
 path: /wholesale/customers
+operation_id: Provision a Wholesale Customer
+tags: Wholesale Provisioning
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.731495+00:00
+retrieved_at: 2026-09-27T10:51:20.833171+00:00
 ---
 
 # POST /wholesale/customers
@@ -38,34 +43,36 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
 ## Cuerpo de la petición (application/json)
-- `provisioningId` (string) **(requerido)**: This Provisioning ID defines how this customer is to be provisioned for Webex Services.  Each Customer Template will have their own unique Provisioning ID. This ID will be displayed under the chosen Customer Template on [Webex Control Hub](https://admin.webex.com).
-- `packages` (array) **(requerido)**: The complete list of Webex Wholesale packages to be assigned to the customer.
+- `provisioningId` (string) (**requerido**): This Provisioning ID defines how this customer is to be provisioned for Webex Services.  Each Customer Template will have their own unique Provisioning ID. This ID will be displayed under the chosen Customer Template on [Webex Control Hub](https://admin.webex.com).
+- `packages` (array) (**requerido**): The complete list of Webex Wholesale packages to be assigned to the customer.
 - `orgId` (string): The organization ID of the enterprise in Webex. Mandatory for existing customers.
-- `externalId` (string) **(requerido)**: External ID of the Wholesale customer.
-- `address` (object) **(requerido)**: Billing Address of the customer. (There is a 50 character limit on each address line)
-  - `addressLine1` (string) **(requerido)**: Address line 1.
+- `externalId` (string) (**requerido**): External ID of the Wholesale customer.
+- `address` (object) (**requerido**): Billing Address of the customer. (There is a 50 character limit on each address line)
+  - `addressLine1` (string) (**requerido**): Address line 1.
   - `addressLine2` (string): Address line 2.
-  - `city` (string) **(requerido)**: Customer's city.
+  - `city` (string) (**requerido**): Customer's city.
   - `stateOrProvince` (string): State or Province of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
   - `zipOrPostalCode` (string): Postal/Zip code of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
-  - `country` (string) **(requerido)**: ISO2 country code of the customer size = 2. This attribute is used to determine the default Dial In number for the Webex Meeting Sites. Refer to the Address section of [help page](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wholesale_rtm/wbxbw_b_wholesale-rtm-solution-guide/wbxbw_m_overview-of-webex-wholesale.html#Cisco_Reference.dita_7875bb3e-10c0-4214-8173-7845db31c7a6) for more information.
+  - `country` (string) (**requerido**): ISO2 country code of the customer size = 2. This attribute is used to determine the default Dial In number for the Webex Meeting Sites. Refer to the Address section of [help page](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wholesale_rtm/wbxbw_b_wholesale-rtm-solution-guide/wbxbw_m_overview-of-webex-wholesale.html#Cisco_Reference.dita_7875bb3e-10c0-4214-8173-7845db31c7a6) for more information.
 - `customerInfo` (object): Mandatory for new customer. Optional if Organization ID is provided.
-  - `name` (string) **(requerido)**: The name of the Wholesale customer. Name cannot include the "%" character.
-  - `primaryEmail` (string) **(requerido)**: The primary email address of the customer.
+  - `name` (string) (**requerido**): The name of the Wholesale customer. Name cannot include the "%" character.
+  - `primaryEmail` (string) (**requerido**): The primary email address of the customer.
+  - `adminFirstName` (string): The first name of the customer administrator.
+  - `adminLastName` (string): The last name of the customer administrator.
   - `language` (string): The {ISO-639-1}_{ISO-3166} or {ISO-639-1} locale or language code used as preferred language for organization and Webex Meeting Sites. Refer to the [help page](https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wholesale_rtm/wbxbw_b_wholesale-rtm-solution-guide/wbxbw_m_overview-of-webex-wholesale.html#Cisco_Reference.dita_deb994cb-9c48-4488-b352-54495c54ba1e) for more information.
 - `provisioningParameters` (object):
   - `calling` (object): Mandatory when provisioning calling packages.
-    - `location` (object) **(requerido)**:
-      - `name` (string) **(requerido)**: Name of the wholesale customer office.
-      - `address` (object) **(requerido)**: Address of the wholesale customer. (There is a 50 character limit on each address line)
-        - `addressLine1` (string) **(requerido)**:
+    - `location` (object) (**requerido**):
+      - `name` (string) (**requerido**): Name of the wholesale customer office.
+      - `address` (object) (**requerido**): Address of the wholesale customer. (There is a 50 character limit on each address line)
+        - `addressLine1` (string) (**requerido**):
         - `addressLine2` (string):
-        - `city` (string) **(requerido)**:
+        - `city` (string) (**requerido**):
         - `stateOrProvince` (string): State or Province of the customer in ISO 3166 format. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
         - `zipOrPostalCode` (string): Postal/Zip code of the customer. This attribute may be required in specific geographies, please refer to address section in the admin guide for more information.
-        - `country` (string) **(requerido)**:
-      - `timezone` (string) **(requerido)**: Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
-      - `language` (string) **(requerido)**: Determine language for all generated emails and voice announcements.
+        - `country` (string) (**requerido**):
+      - `timezone` (string) (**requerido**): Customer timezone for calling package. The full list of supported timezones can be found at [List of Time Zones for Wholesale Provisioning](https://help.webex.com/en-us/article/nuh0amab/List-of-Time-Zones-for-Wholesale-Provisioning).
+      - `language` (string) (**requerido**): Determine language for all generated emails and voice announcements.
       - `emergencyLocationIdentifier` (string): SIP Header for any emergency calls from this location.
   - `meetings` (object):
     - `timezone` (string): Customer timezone for meetings package.
@@ -81,7 +88,7 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
       - `attendant_console` (number):
 - `subPartnerAdminEmail` (string): The email of the sub partner organization admin.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "provisioningId": "ZjViMzYxODctYzhkZC00NzI3LThiMmYtZjljNDQ3ZjI5MDQ2",
@@ -101,6 +108,8 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
   "customerInfo": {
     "name": "\"John's Pizza\"",
     "primaryEmail": "\"john.anderson@acme.com\"",
+    "adminFirstName": "\"John\"",
+    "adminLastName": "\"Anderson\"",
     "language": "'en'"
   },
   "provisioningParameters": {
@@ -130,19 +139,31 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
         "webex_meetings": 50,
         "webex_suite": 50,
         "webex_voice": 50,
-        "cx_essentials": 50,
-        "webex_calling_standard": 50,
-        "attendant_console": 50
-      }
-    }
-  },
-  "subPartnerAdminEmail": "admin@subpartnerorg.com"
-}
+        "cx_essentia
+  ... (truncado)
 ```
 
-## Respuestas
-- **202**: Accepted
-  - `url` (string): A URL which points to the [Get a Wholesale Customer](/docs/api/v1/wholesale-provisioning/get-a-wholesale-customer) endpoint for the provisioned customer.
+## Ejemplo de invocación
+```bash
+curl -X POST '/wholesale/customers' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"provisioningId": "<provisioningId>", "packages": [], "externalId": "<externalId>", "address": {}}'
+```
+
+## Respuestas correctas
+**202**: Accepted
+- `url` (string): A URL which points to the [Get a Wholesale Customer](/docs/api/v1/wholesale-provisioning/get-a-wholesale-customer) endpoint for the provisioned customer.
+
+### Ejemplo — respuesta 202
+```json
+{
+  "url": "https://webexapis.com/v1/wholesale/customers/Y2lzY29zcGFyazovL3VzL0VOVEVSUFJJU0UvNTJjZjU3NmQtNjBhOC00MDdhLWIyMmMtNDY3YzUxNTkxOTA4"
+}
+```
+- Cabecera `Location`: 
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -158,6 +179,9 @@ The Wholesale customer provisioning is asynchronous and thus a background task i
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

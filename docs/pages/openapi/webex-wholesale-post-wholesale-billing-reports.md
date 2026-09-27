@@ -2,10 +2,15 @@
 doc_id: webex-wholesale-post-wholesale-billing-reports
 source: webex-openapi-specs/public-spec/webex-wholesale.json
 api: Webex Wholesale
+api_version: 1.0.0
 method: POST
 path: /wholesale/billing/reports
+operation_id: Create a Wholesale Billing Report
+tags: Wholesale Billing Reports
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:33.730913+00:00
+retrieved_at: 2026-09-27T10:51:20.831822+00:00
 ---
 
 # POST /wholesale/billing/reports
@@ -21,13 +26,13 @@ Create a Wholesale Billing Report
 Generate a wholesale billing reconciliation report.
 
 ## Cuerpo de la petición (application/json)
-- `billingStartDate` (string) **(requerido)**: The `startDate` (`YYYY-MM-DD`) for which the partner requests the billing report.
-- `billingEndDate` (string) **(requerido)**: The `endDate` (`YYYY-MM-DD`) for which the partner requests the billing report.
+- `billingStartDate` (string) (**requerido**): The `startDate` (`YYYY-MM-DD`) for which the partner requests the billing report.
+- `billingEndDate` (string) (**requerido**): The `endDate` (`YYYY-MM-DD`) for which the partner requests the billing report.
 - `type` (string): Create report of the given type, `PARTNER`, `CUSTOMER`, or `USER`. Default: `PARTNER`.
 - `subPartnerOrgId` (string): The Organization ID of the sub partner on Cisco Webex.
 - `internal` (boolean): If true or selected, internal orgs will be included in the billing report. Default: false.
 
-### Ejemplo de petición
+### Ejemplo — petición
 ```json
 {
   "billingStartDate": "2020-05-21",
@@ -37,13 +42,34 @@ Generate a wholesale billing reconciliation report.
 }
 ```
 
-## Respuestas
-- **200**: OK
-  - `id` (string): A unique report ID that corresponds to a billing report.
-  - `billingStartDate` (string): Billing report startDate.
-  - `billingEndDate` (string): Billing report endDate.
-  - `type` (string): Billing Report Type Valores: USER, CUSTOMER, PARTNER.
-  - `category` (string): The category of the billing report. Valores: RECONCILIATION, POINT_IN_TIME.
+## Ejemplo de invocación
+```bash
+curl -X POST '/wholesale/billing/reports' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{"billingStartDate": "<billingStartDate>", "billingEndDate": "<billingEndDate>"}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `id` (string): A unique report ID that corresponds to a billing report.
+- `billingStartDate` (string): Billing report startDate.
+- `billingEndDate` (string): Billing report endDate.
+- `type` (string): Billing Report Type Valores: USER, CUSTOMER, PARTNER.
+- `category` (string): The category of the billing report. Valores: RECONCILIATION, POINT_IN_TIME.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "id": "Y2lzY29zcGFyazovL3VzL0JJTExJTkdfUkVQT1JULzViOGQ1MThhLThmMDAtNDUxYi1hNDA2LWVhZjQ5YjRhN2ZhOA",
+  "billingStartDate": "2021-05-21",
+  "billingEndDate": "2021-05-30",
+  "type": "PARTNER",
+  "internal": true
+}
+```
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -59,6 +85,9 @@ Generate a wholesale billing reconciliation report.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Wholesale APIs are designed for service providers to manage wholesale Webex offerings, including customer onboarding, provisioning, billing, reporting, and lifecycle management. These APIs enable automation and integration with provider systems to deliver scalable, multi-tenant collaboration solutions. Use cases include automated partner onboarding, real-time usage reporting, integration with billing platforms, and management of customer entitlements across large portfolios.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213517-configure-ss-3859c96a08
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213517-configure-sso-for-os-admin-and-drs-in-cu.html
-retrieved_at: 2026-08-21T13:57:52.503905+00:00
+retrieved_at: 2026-09-27T15:08:22.117709+00:00
 ---
 
 Configure SSO for OS Admin and DRS in CUCM Version 12.x
@@ -140,3 +140,11 @@ Initial Release
 |---|---|---|
 | 2.0 | 25-Jan-2023 | Corrected the acronym expansion for IdP. |
 | 1.0 | 26-Jul-2018 | Initial Release |
+
+## Figuras
+
+![Add a user with the same userid](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213517-configure-sso-for-os-admin-and-drs-in-cu-00.png)
+
+![Sync of the Lightweight Directory Access Protocol (LDAP) server is required](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213517-configure-sso-for-os-admin-and-drs-in-cu-01.png)
+
+![Verify that SSO is enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213517-configure-sso-for-os-admin-and-drs-in-cu-02.png)

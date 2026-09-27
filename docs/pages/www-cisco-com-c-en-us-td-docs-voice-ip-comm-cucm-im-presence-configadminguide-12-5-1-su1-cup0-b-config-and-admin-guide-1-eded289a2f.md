@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-eded289a2f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_010101.html
-retrieved_at: 2026-08-21T09:02:03.182267+00:00
+retrieved_at: 2026-09-27T12:37:25.536884+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -197,3 +197,7 @@ For more information on configuring Remote Call Control, see Remote Call Control
 
 | Note | A smaller Acknowledgement Request Rate leads to increased network traffic, but reduced memory use. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

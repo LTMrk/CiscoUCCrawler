@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213293-troubleshoot-cd9a95e1e8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213293-troubleshoot-sso-in-cucm.html
-retrieved_at: 2026-08-21T13:57:35.323277+00:00
+retrieved_at: 2026-09-27T15:08:05.188410+00:00
 ---
 
 Troubleshoot SSO in Cisco Unified Communications Manager
@@ -280,3 +280,11 @@ When you navigate to the SAML SSO page from CCM Admin you are prompted with "Th
 CSCvf96778
 
 CTI based SSO fails when defining CUCM server as IP address in CCMAdmin//System/Sever.
+
+## Figuras
+
+![Bug-Preview for CSCuj66703](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvf63462](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvf96778](https://techzone.cisco.com/html/assets/mag.gif)

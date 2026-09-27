@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg350-hardware-installation-guide-vg350-hig-vg350higplan-html-c162a1de4f
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higplan.html
-retrieved_at: 2026-08-22T01:14:32.009370+00:00
+retrieved_at: 2026-09-27T11:25:41.996079+00:00
 ---
 
 Cisco VG350 Voice Gateway Hardware Installation Guide
@@ -129,3 +129,7 @@ Most data centers cannot resolve the infrequent, but potentially catastrophic pr
 If you remove any module, you must either install a module in its place or install a cover plate over the opening. All module openings must be either occupied or covered to prevent electromagnetic interference.
 
 For advice on the prevention of electromagnetic interference, consult experts in radio-frequency interference (RFI).
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

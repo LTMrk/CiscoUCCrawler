@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214381-smart-licens-9619fa5242
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi.html
-retrieved_at: 2026-09-01T19:46:40.210790+00:00
+retrieved_at: 2026-09-27T11:27:43.910759+00:00
 ---
 
 Enable Specific License Reservation for CUCM Version 12.5
@@ -183,3 +183,27 @@ Reviewed for formatting and grammar |
 | 2.0 | 17-Feb-2023 | Added Alt Text.
 Updated Title, Introduction, SEO, Style Requirements, Gerunds and Formatting. |
 | 1.0 | 03-May-2019 | Initial Release |
+
+## Figuras
+
+![Smart Software Licensing - Log into Cisco Cloud Service (CSSM)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-00.png)
+
+![Smart License Reservation](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-01.png)
+
+![Take Authorization Code Back to Product Instance and Use the CLI to Install It](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-02.png)
+
+![List of Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-03.png)
+
+![Update License Reservation](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-04.png)
+
+![Figure 1 - Reserve Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-05.png)
+
+![Figure 2 - Update Reserve Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-06.png)
+
+![CUCM GUI with Smart License Reservation Enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-07.png)
+
+![Figure 3 - Remove a Product Instance](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-08.png)
+
+![Copy the Reservation Return Code to CSSM and Remove the Product Instance](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-09.png)
+
+![Remove Product Instance Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214381-smart-license-reservation-for-cucm-versi-10.png)

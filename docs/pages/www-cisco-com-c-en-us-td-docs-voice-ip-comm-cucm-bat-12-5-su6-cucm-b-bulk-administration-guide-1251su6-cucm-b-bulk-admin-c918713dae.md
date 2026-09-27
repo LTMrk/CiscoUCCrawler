@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-su6-cucm-b-bulk-administration-guide-1251su6-cucm-b-bulk-admin-c918713dae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6/cucm_b_bulk-administration-guide-1251su2_chapter_01001111.html
-retrieved_at: 2026-08-21T08:59:10.127640+00:00
+retrieved_at: 2026-09-27T12:15:43.191377+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -254,3 +254,7 @@ The example “RCDN-AP2,,,AA:17:D8:07:CF:4D,Bldg0-F1” is for non-Meraki Access
                                           that of an individual wireless network. The example “RCDN-AP2,,,AA:17:D8:07:CF:4D,Bldg0-F1” is for non-Meraki Access Points. For more information about BSSID masking
                                           calculation for Meraki Access Points, see Calculating Cisco Meraki BSSID MAC Addresses . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

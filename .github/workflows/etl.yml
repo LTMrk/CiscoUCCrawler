@@ -1,5 +1,10 @@
 name: CiscoUCCrawler ETL
 
+# WORKFLOW DE EXTRACCION. Rastrea, ingiere y commitea el corpus. NO genera
+# los ZIP: eso vive en paquete.yml, que solo lee lo ya almacenado y se puede
+# lanzar solo, sin esperar 50 minutos de rastreo. Este workflow invoca aquel
+# al terminar, pero unicamente cuando la frontera queda vacia.
+
 on:
   workflow_dispatch:
     inputs:
@@ -11,6 +16,10 @@ on:
         description: "Generar el paquete de Copilot aunque queden URLs pendientes"
         type: boolean
         default: false
+      lote:
+        description: "Numero de lote de la cadena. No tocar a mano."
+        type: string
+        default: "1"
   schedule:
     # Semanal. La documentación de producto no cambia a diario; un cron
     # agresivo solo aumenta la probabilidad de que el WAF nos clasifique
@@ -49,7 +58,17 @@ jobs:
       - name: Checkout repositorio
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          # Superficial A PROPOSITO. El repositorio lleva 2.693 ejecuciones
+          # de ETL commiteadas, 12.780 documentos y 260 MB de .git: con
+          # fetch-depth: 0 el checkout del 2026-09-27 paso de 20 minutos,
+          # un 40% del presupuesto del job gastado antes de rastrear nada.
+          #
+          # El pipeline no necesita historia: escribe ficheros, commitea y
+          # empuja. git_commit_and_push intenta el push directo y solo se
+          # trae la historia completa (--unshallow) si la rama ha divergido,
+          # que con el grupo de concurrencia solo pasa si empuja una persona
+          # a la vez.
+          fetch-depth: 1
 
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -109,13 +128,13 @@ jobs:
         # de estado, regex de URL, extractor OpenAPI) ANTES de gastar el
         # presupuesto del runner en un crawl que va a morir a mitad.
         run: |
-          python3 tests/test_migracion.py
-          python3 tests/test_openapi.py
-          python3 tests/test_pipeline.py
-          python3 tests/test_url_policy.py
-          python3 tests/test_copilot_pack.py
-          python3 tests/test_repos_ingest.py
-          python3 tests/test_crawler.py
+          # Glob, no lista escrita a mano: anadir un fichero de pruebas ya no
+          # obliga a acordarse de registrarlo aqui y en tests.yml.
+          for prueba in tests/test_*.py; do
+            echo "::group::${prueba}"
+            python3 "${prueba}" || exit 1
+            echo "::endgroup::"
+          done
 
       - name: Ejecutar pipeline
         # El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones
@@ -159,33 +178,49 @@ jobs:
         id: frontera
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOTE: ${{ inputs.lote || '1' }}
+          # Tope de la cadena. La frontera ya converge (registrar_fallo deja
+          # de reencolar lo que nunca sirve contenido), pero el tope es la
+          # red de seguridad que faltaba: sin el, cualquier regresion que
+          # vuelva a dejar more_work.flag escrito consume minutos de runner
+          # de forma indefinida y en silencio. Doce lotes de ~45 min cubren
+          # un rastreo completo; lo que quede lo recoge el cron semanal.
+          MAX_LOTES: "12"
         run: |
-          # crawler_ai.py escribe este flag vía state_store.guardar_frontera
-          # cuando quedan URLs pendientes. La versión anterior del pipeline
-          # comprobaba el flag pero nunca lo escribía, así que el encadenado
-          # de lotes jamás se disparaba.
-          if [ -f "logs/more_work.flag" ]; then
-            pendientes=$(cat logs/more_work.flag)
-            echo "Pendientes: ${pendientes} URLs. Encolando lote."
-            gh workflow run etl.yml
-          else
-            pendientes=0
-            echo "Frontera vacía. ETL completo."
+          # crawler_ai.py escribe este flag via state_store.guardar_frontera
+          # cuando quedan URLs pendientes.
+          if [ ! -f "logs/more_work.flag" ]; then
+            echo "pendientes=0" >> "$GITHUB_OUTPUT"
+            echo "Frontera vacia. ETL completo en el lote ${LOTE}."
+            exit 0
           fi
+
+          pendientes=$(cat logs/more_work.flag)
           echo "pendientes=${pendientes}" >> "$GITHUB_OUTPUT"
+
+          if [ "$LOTE" -ge "$MAX_LOTES" ]; then
+            echo "::warning::Tope de ${MAX_LOTES} lotes alcanzado con" \
+                 "${pendientes} URLs pendientes. Se corta la cadena; el cron" \
+                 "semanal la retoma. Si esto se repite, la frontera no esta" \
+                 "convergiendo: revisar logs/frontier.json."
+            exit 0
+          fi
+
+          # --ref es obligatorio: sin el, `gh workflow run` encola sobre la
+          # rama por defecto del repositorio, no sobre la que esta corriendo.
+          # Una cadena lanzada desde una rama de trabajo saltaria a main en
+          # el lote 2 y seguiria commiteando alli.
+          echo "Pendientes: ${pendientes} URLs. Encolando lote $((LOTE + 1))" \
+               "sobre ${GITHUB_REF_NAME}."
+          gh workflow run etl.yml --ref "$GITHUB_REF_NAME" -f lote="$((LOTE + 1))"
 
   # ---------------------------------------------------------------------------
   # Paquete para los agentes de M365 Copilot.
   #
-  # Va en un job aparte por dos razones. La primera es de presupuesto: el job
-  # del crawl reparte sus 50 minutos al segundo y meterle 15 minutos mas lo
-  # desbordaba. La segunda es que copilot_pack.py solo usa la libreria estandar
-  # — ni crawl4ai, ni playwright, ni apt — asi que aqui la preparacion son
-  # segundos en lugar de los ~10 minutos del otro job.
-  #
-  # Solo corre cuando la frontera queda vacia, es decir cuando el corpus esta
-  # completo. Generarlo en cada uno de los ~15 lotes encadenados seria tirar
-  # runner para producir quince veces un paquete incompleto.
+  # El trabajo vive en paquete.yml, que tambien se puede lanzar solo. Aqui
+  # solo se decide CUANDO: al quedar la frontera vacia, es decir cuando el
+  # corpus esta completo. Generarlo en cada uno de los lotes encadenados
+  # seria tirar runner para producir varias veces un paquete incompleto.
   # ---------------------------------------------------------------------------
   paquete-copilot:
     needs: process-documents
@@ -193,42 +228,7 @@ jobs:
       always() &&
       (needs.process-documents.outputs.pendientes == '0' ||
        github.event.inputs.generar_paquete == 'true')
-    runs-on: ubuntu-latest
-    timeout-minutes: 30
-    steps:
-      - name: Checkout repositorio
-        uses: actions/checkout@v4
-        with:
-          # Sin historia: aqui solo se lee el docs/ del ultimo commit y el
-          # arbol ya pesa mas de 300 MB.
-          fetch-depth: 1
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Generar paquete
-        run: |
-          # Perfil "chat" (default): sin licencia de Copilot con agentes, la
-          # unica via es un chat normal, y ahi el resultado debe ser UN UNICO
-          # ZIP que se sube a OneDrive/SharePoint y se comparte por enlace.
-          # El perfil "sharepoint" (agentes por producto) sigue disponible
-          # via CLI manual para quien tenga esa licencia, pero no se genera
-          # aqui: nadie lo consume y solo alargaria el job.
-          python3 src/copilot_pack.py --salida dist/copilot --zip
-          echo "### Paquete para Copilot" >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-          ls -lh dist/copilot/_zips >> "$GITHUB_STEP_SUMMARY"
-          echo '```' >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Publicar paquete
-        uses: actions/upload-artifact@v4
-        with:
-          name: copilot-vigente
-          # Solo el ZIP y la guia: subir los .txt sueltos como artefacto
-          # tarda mas que volver a generarlos.
-          path: |
-            dist/copilot/_zips/
-            dist/copilot/_DESPLIEGUE.md
-          retention-days: 30
+    uses: ./.github/workflows/paquete.yml
+    with:
+      perfil: chat
+      fuente: todo

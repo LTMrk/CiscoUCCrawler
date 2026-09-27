@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-vg-series-gateways-212138-configure-vg224-sccp-secure-encrypte-948a4673f7
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/vg-series-gateways/212138-Configure-VG224-SCCP-Secure-Encrypted.html
-retrieved_at: 2026-09-16T07:35:49.521253+00:00
+retrieved_at: 2026-09-27T11:28:59.444584+00:00
 ---
 
 Configure VG224 SCCP Secure Encrypted
@@ -300,3 +300,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Sep-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

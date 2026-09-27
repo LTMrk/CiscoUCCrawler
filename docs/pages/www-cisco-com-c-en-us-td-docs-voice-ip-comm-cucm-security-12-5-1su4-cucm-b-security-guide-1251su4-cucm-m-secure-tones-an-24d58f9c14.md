@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-secure-tones-an-24d58f9c14
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_secure-tones-and-icons_reorg.html
-retrieved_at: 2026-08-21T18:05:57.718529+00:00
+retrieved_at: 2026-09-27T12:22:17.428955+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -443,3 +443,7 @@ If a caller barges a secure SCCP call, the system uses an internal tone-playing 
                                                 the conference calls. With secure tones: If a caller barges a secure SIP call, the system provides tone-on-hold, and Unified Communications Manager classifies the
                                                 call as non secure during the tone. If a caller barges a secure SCCP call, the system uses an internal tone-playing mechanism at the target device and the status
                                                 remains secure. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-ios-xe-config-ios-xe-book-m-voi-cube-multi-vrf-html-028a4c241b
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/m_voi-cube-multi-vrf.html
-retrieved_at: 2026-09-01T22:25:03.981988+00:00
+retrieved_at: 2026-09-27T12:39:12.350556+00:00
 ---
 
 Cisco Unified Border Element Configuration Guide - Cisco IOS XE 17.6 Onwards
@@ -1940,3 +1940,14 @@ Device(conf-serv-sip)# end |
                                              			 Media on a dial-peer have to bind with same VRF. Else, while configuring, the
                                              			 CLI parser will display an error. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Associating
+                                    			 Dial-peer Group to overcome DN overlap](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393264.eps/_jcr_content/renditions/393264.jpg)
+
+![Figure 2. Multi-VRF
+                                    			 in Standalone Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393213.eps/_jcr_content/renditions/393213.jpg)
+
+![Figure 3. Multi-VRF
+                                    			 in High Availability Mode (RG Infra)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393263.eps/_jcr_content/renditions/393263.jpg)

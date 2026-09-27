@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeanswr-html-e0aef9360b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeanswr.html
-retrieved_at: 2026-08-21T07:23:35.455342+00:00
+retrieved_at: 2026-09-27T15:33:06.733474+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -317,3 +317,10 @@ Headset
 | Headset
                                              					 Auto Answer | 4.0 | Headset
                                              					 auto answer was introduced. |
+
+## Figuras
+
+![Figure 1. When is a Line
+                                 		  the Same as a Button?](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135076.ps/_jcr_content/renditions/135076.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

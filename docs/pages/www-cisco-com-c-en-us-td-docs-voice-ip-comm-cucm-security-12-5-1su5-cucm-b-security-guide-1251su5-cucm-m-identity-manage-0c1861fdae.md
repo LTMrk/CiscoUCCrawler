@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su5-cucm-b-security-guide-1251su5-cucm-m-identity-manage-0c1861fdae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU5/cucm_b_security-guide-1251su5/cucm_m_identity-management.html
-retrieved_at: 2026-08-21T18:04:32.995345+00:00
+retrieved_at: 2026-09-27T12:20:53.103946+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU5
@@ -308,3 +308,7 @@ end_user is the user ID for the user for whom you want to revoke refresh tokens.
 | Note | When OAuth keys are regenerated, you must restart the Cisco XCP Authentication Service on all IM and Presence nodes for Jabber
                                              OAuth login to work. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

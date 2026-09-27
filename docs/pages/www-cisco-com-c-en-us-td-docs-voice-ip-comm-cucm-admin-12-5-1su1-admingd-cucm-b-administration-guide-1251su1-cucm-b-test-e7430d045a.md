@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-e7430d045a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_010100.html
-retrieved_at: 2026-08-21T08:33:00.496528+00:00
+retrieved_at: 2026-09-27T11:58:27.693011+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -1133,3 +1133,7 @@ Caution
                                           		  overall performance of the web user interface, especially when polling database
                                           		  entries (for example, pulling up 250 devices from the database). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

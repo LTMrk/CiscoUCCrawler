@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmetemps-html-491eb135bb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmetemps.html
-retrieved_at: 2026-08-21T07:25:15.918526+00:00
+retrieved_at: 2026-09-27T15:36:28.785537+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -866,3 +866,7 @@ ephone-dn  4  dual-line
                                           					 increased from 5 to 10. |
 | 3.4 | Voice-register templates were introduced for SIP Phones
                                           					 directly connected to a Cisco Unified CME router. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

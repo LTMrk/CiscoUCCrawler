@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-9d94c285ed
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_01.html
-retrieved_at: 2026-08-21T09:00:39.299713+00:00
+retrieved_at: 2026-09-27T12:35:57.454065+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -622,3 +622,7 @@ Repeat this procedure on each Presence Redundancy Group.
 | Step 3 | Check the Enable High Availability check box. |
 | Step 4 | Click Save . |
 | Step 5 | Repeat this procedure on each Presence Redundancy Group. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

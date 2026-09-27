@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-00b0d4dcf2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_0100010.html
-retrieved_at: 2026-08-21T09:05:03.658261+00:00
+retrieved_at: 2026-09-27T12:38:22.650138+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -2517,3 +2517,7 @@ See the Cisco Unified
 | IM and Presence Publisher | External File Server | 37240 – 61000 | 22 | TCP |
 | IM and Presence Publisher | External File Server | 37240 – 61000 | 5432 | TCP |
 | IM and Presence Publisher | Database | 54288 - 54292 | 5432 | TCP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

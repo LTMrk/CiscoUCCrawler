@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-20a9ff0216
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_0110.html
-retrieved_at: 2026-08-21T09:01:00.904596+00:00
+retrieved_at: 2026-09-27T12:36:20.249409+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -1568,3 +1568,9 @@ Click Save .
 | Step 3 | Choose Cisco
                                                 				XCP Directory Service . |
 | Step 4 | Click Save . |
+
+## Figuras
+
+![Figure 1. LDAP Directory Integration for Contact Searches  on XMPP Clients Workflow. The following workflow diagram shows the high-level steps to integrate the  LDAP directory for contact searches on XMPP clients.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371217.eps/_jcr_content/renditions/371217.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--998f21e903
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_010000.html
-retrieved_at: 2026-08-21T01:34:28.648375+00:00
+retrieved_at: 2026-09-27T11:45:25.307956+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -281,3 +281,7 @@ Cisco Unified Communications Manager Call Detail Records
 | Step 4 | Click the View Report button. The report displays . |
 | Step 5 | If you want to mail the report, click the Send Report button. To send the report,
                                        			 perform the procedure that is described in the Mail Reports . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

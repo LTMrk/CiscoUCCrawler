@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-d05ad1720c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_0100000.html
-retrieved_at: 2026-08-21T09:07:25.362301+00:00
+retrieved_at: 2026-09-27T12:35:32.217689+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -1048,3 +1048,7 @@ Run the CLI
                                                       				  and directory URI fields in the user profile may be mapped to the LDAP
                                                       				  Directory. In that case, apply the fix in the LDAP Directory server. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

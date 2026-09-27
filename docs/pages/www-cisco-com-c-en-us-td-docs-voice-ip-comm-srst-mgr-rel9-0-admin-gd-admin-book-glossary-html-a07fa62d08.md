@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-glossary-html-a07fa62d08
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/glossary.html
-retrieved_at: 2026-08-21T23:40:33.606188+00:00
+retrieved_at: 2026-09-27T15:30:33.111126+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -250,3 +250,7 @@ Alphanumeric user identifier.
 | U |  |
 |---|---|
 | User ID | Alphanumeric user identifier. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

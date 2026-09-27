@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--e1855cda54
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_011000.html
-retrieved_at: 2026-08-21T01:32:56.407452+00:00
+retrieved_at: 2026-09-27T12:31:09.967150+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -606,3 +606,7 @@ Digest Authentication
                                                       						  specific Security Profile Configuration window displays, click Delete Selected . |
 | Step 3 | When prompted to
                                        			 confirm the delete operation, click OK to delete or Cancel to cancel the delete operation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

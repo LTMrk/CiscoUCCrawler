@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-release-note-x14-2-5-expressway-select-exwy-b-cisco-expressway-se-805b95938b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-2-5/Expressway-Select/exwy_b_cisco-expressway-select-release-note-x1425.html
-retrieved_at: 2026-08-25T03:01:36.928031+00:00
+retrieved_at: 2026-09-27T12:38:44.869802+00:00
 ---
 
 Cisco Expressway Select Release Note (X14.2.5)
@@ -1441,3 +1441,7 @@ To receive new and revised Cisco technical content directly to your desktop, you
 
 | Note | The following cipher change is required to send ECDSA as a high preference. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

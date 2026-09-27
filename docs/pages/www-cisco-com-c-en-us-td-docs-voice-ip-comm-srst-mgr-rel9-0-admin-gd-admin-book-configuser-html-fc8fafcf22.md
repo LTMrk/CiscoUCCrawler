@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-configuser-html-fc8fafcf22
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/configuser.html
-retrieved_at: 2026-08-21T23:38:13.566409+00:00
+retrieved_at: 2026-09-27T15:28:18.600704+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -141,3 +141,11 @@ Step 4 Click Ok to confirm the deletion.
 Related Topics
 
 Back to Configuring Users for Cisco Unified SRST Manager main menu.
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

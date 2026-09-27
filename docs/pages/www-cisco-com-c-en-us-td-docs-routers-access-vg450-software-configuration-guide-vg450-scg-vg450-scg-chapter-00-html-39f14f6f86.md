@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-software-configuration-guide-vg450-scg-vg450-scg-chapter-00-html-39f14f6f86
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_00.html
-retrieved_at: 2026-08-22T01:15:01.084641+00:00
+retrieved_at: 2026-09-27T10:53:13.779220+00:00
 ---
 
 Cisco VG450 Voice Gateway Software Configuration Guide
@@ -187,3 +187,11 @@ Proceed to Chapter 2, “Configuring the Host Name and Password,” to begin con
                                           Router#
                                           ), instead of entering exit , which returns you to the previous mode. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Front panel of the Cisco VG450 Voice Gateway](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367801.jpg)
+
+![Figure 2. Back panel of the VG450 Voice Gateway](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367802.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220632-configure-and-dial-international-calling--ee054deb68
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.html
-retrieved_at: 2026-08-21T07:15:40.933881+00:00
+retrieved_at: 2026-09-27T12:48:45.594398+00:00
 ---
 
 Configure and Dial International Calling Using Access Code
@@ -91,3 +91,13 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Jul-2023 | Initial Release |
+
+## Figuras
+
+![Outgoing Calling Permission](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling-00.png)
+
+![International Calling](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling-01.png)
+
+![Authorization Code](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling-02.png)
+
+![Authorization Code Example](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling-03.png)

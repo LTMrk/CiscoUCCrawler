@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-t-cmds-html-c5a5951f0a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/t_cmds.html
-retrieved_at: 2026-08-21T23:40:29.908598+00:00
+retrieved_at: 2026-09-27T15:30:29.060170+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -885,3 +885,11 @@ Enables log monitor events for debugging.
 | Command | Description |
 |---|---|
 | log console monitor | Enables log monitor events for debugging. |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

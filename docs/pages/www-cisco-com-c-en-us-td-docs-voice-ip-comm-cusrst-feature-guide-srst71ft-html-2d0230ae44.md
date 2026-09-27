@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-feature-guide-srst71ft-html-2d0230ae44
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/feature/guide/srst71ft.html
-retrieved_at: 2026-08-21T21:29:58.170670+00:00
+retrieved_at: 2026-09-27T15:27:06.297772+00:00
 ---
 
 Cisco Unified SRST 7.1 New Features
@@ -480,3 +480,7 @@ Cisco Unified SRST 7.1
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified SRST 7.1 | 12.4(22)YB | • Adds DSCP packet marking for specifying the class of service for each packet. • Adds translation profiles at the directory number and phone level. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

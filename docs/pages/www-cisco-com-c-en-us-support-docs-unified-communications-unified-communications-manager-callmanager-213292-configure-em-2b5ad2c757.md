@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213292-configure-em-2b5ad2c757
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi.html
-retrieved_at: 2026-08-21T13:57:14.540330+00:00
+retrieved_at: 2026-09-27T15:07:49.033753+00:00
 ---
 
 Configure Email Notification for Specific Node in the CUCM Cluster
@@ -122,3 +122,25 @@ Initial Release
 |---|---|---|
 | 2.0 | 16-Apr-2024 | The version was updated to CUCM 14 and new screenshots added as well as a new section. |
 | 1.0 | 27-Apr-2018 | Initial Release |
+
+## Figuras
+
+![marcoalh_0-1710197317845](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-00.png)
+
+![marcoalh_1-1710197346473](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-01.png)
+
+![marcoalh_2-1710197395243](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-02.png)
+
+![marcoalh_3-1710197442808](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-03.png)
+
+![marcoalh_4-1710197484203](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-04.png)
+
+![marcoalh_0-1711398672005](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-05.png)
+
+![marcoalh_1-1711398755055](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-06.png)
+
+![marcoalh_2-1710968877829](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-07.png)
+
+![certmoniconfig](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-08.png)
+
+![notification](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213292-configure-email-notification-for-specifi-09.png)

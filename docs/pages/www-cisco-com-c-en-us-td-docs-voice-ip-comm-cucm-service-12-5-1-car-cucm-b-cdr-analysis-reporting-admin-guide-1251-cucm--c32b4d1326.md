@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--c32b4d1326
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011001.html
-retrieved_at: 2026-08-21T01:37:07.615305+00:00
+retrieved_at: 2026-09-27T11:46:03.303410+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -195,3 +195,7 @@ Cisco Unified Communications Manager Call Detail Records
 | Note | You can integrate a Windows version of Unified Communications Manager with a standalone Cisco Unity Connection system. In this particular situation, the CAR installation program will detect this option. CAR does not get supported on
                                           a Cisco Unity Connection system and will not get installed. When CAR is not installed, Cisco Unified CM Administration cannot activate, deactivate, start, stop, or restart CAR Web Service and CAR Scheduler from Cisco Unified Serviceability . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

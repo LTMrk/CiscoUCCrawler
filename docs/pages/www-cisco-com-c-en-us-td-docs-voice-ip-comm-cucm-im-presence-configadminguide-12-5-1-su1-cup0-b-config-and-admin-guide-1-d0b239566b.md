@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-d0b239566b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_0101.html
-retrieved_at: 2026-08-21T09:00:56.154306+00:00
+retrieved_at: 2026-09-27T12:36:15.569725+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -332,3 +332,7 @@ Configure an LDAP Directory sync that includes this feature group template. When
                                              				Group Template Configuration window. Refer to the online help for
                                           			 field descriptions. |
 | Step 8 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

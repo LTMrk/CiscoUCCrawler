@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--037d34497b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_0110.html
-retrieved_at: 2026-08-21T08:39:51.357883+00:00
+retrieved_at: 2026-09-27T12:27:48.300731+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -963,3 +963,7 @@ After the certificate exchange is complete, restart Cisco Tomcat on each affecte
 | Step 5 | Wait 30 minutes. If the previous steps do not address the certificate error and a tomcat-trust certificate is present, delete
                                        the certificate. After you delete the certificate, you must manually exchange it by downloading the Tomcat and Tomcat-ECDSA certificate for each node and uploading it to its peers as a tomcat-trust certificate. |
 | Step 6 | After the certificate exchange is complete, restart Cisco Tomcat on each affected server: utils service restart  Cisco Tomcat . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

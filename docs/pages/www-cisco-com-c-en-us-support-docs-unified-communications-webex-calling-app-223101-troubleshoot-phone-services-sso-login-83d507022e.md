@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-223101-troubleshoot-phone-services-sso-login-83d507022e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/223101-troubleshoot-phone-services-sso-login.html
-retrieved_at: 2026-08-21T07:16:06.377287+00:00
+retrieved_at: 2026-09-27T12:49:02.524272+00:00
 ---
 
 Troubleshoot Phone Services SSO Login Failure on iOS Webex App
@@ -123,3 +123,11 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 16-Jun-2025 | Initial Release |
+
+## Figuras
+
+![Allow Unified CM Registration Without Trusted Certificate Setting on Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/223101-troubleshoot-phone-services-sso-login-00.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

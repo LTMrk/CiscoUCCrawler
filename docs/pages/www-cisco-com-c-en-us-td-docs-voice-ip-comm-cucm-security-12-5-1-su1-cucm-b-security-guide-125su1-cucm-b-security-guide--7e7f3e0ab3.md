@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--7e7f3e0ab3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_010010.html
-retrieved_at: 2026-08-21T01:32:30.649968+00:00
+retrieved_at: 2026-09-27T12:30:44.215740+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -77,3 +77,7 @@ The window refreshes, and Unified Communications Manager updates the service par
                                           				Call Icon Display Policy drop-down list, choose a policy option. A warning
                                           				message with the impact on video calls and secure tone is displayed. |
 | Step 3 | Click Save . The window refreshes, and Unified Communications Manager updates the service parameter with your changes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

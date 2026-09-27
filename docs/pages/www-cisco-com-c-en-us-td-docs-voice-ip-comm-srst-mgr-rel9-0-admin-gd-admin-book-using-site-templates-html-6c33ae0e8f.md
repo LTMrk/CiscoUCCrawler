@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-using-site-templates-html-6c33ae0e8f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/using_site_templates.html
-retrieved_at: 2026-08-21T23:38:51.332791+00:00
+retrieved_at: 2026-09-27T15:28:56.107719+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -173,3 +173,9 @@ Related Topics
 | ESRST_only | — | Yes | — | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | SRST_and_Dialplan | Yes | Yes | Yes | Yes | — | — | — | — | — | — |
 | SRST_only | Yes | Yes | — | Yes | — | — | — | — | — | — |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

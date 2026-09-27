@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-e79eb49277
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_01110.html
-retrieved_at: 2026-08-21T09:01:33.902164+00:00
+retrieved_at: 2026-09-27T12:36:54.994144+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -311,3 +311,7 @@ For more details, the administrator can check for error log lines containing "Dr
                                           or during the outage period may not be delivered to the destination user. Warning messages may not be sent to the user who
                                           sent the messages. For more details, the administrator can check for error log lines containing "Dropping packet after jsm db shutdown" at the
                                           Cisco XCP Router trace files rtr-jsm-1. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

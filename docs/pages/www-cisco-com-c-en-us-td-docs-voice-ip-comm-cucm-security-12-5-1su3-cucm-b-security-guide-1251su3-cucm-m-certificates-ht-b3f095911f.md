@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su3-cucm-b-security-guide-1251su3-cucm-m-certificates-ht-b3f095911f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU3/cucm_b_security_guide_1251SU3/cucm_m_certificates.html
-retrieved_at: 2026-08-21T08:35:11.287676+00:00
+retrieved_at: 2026-09-27T12:25:45.673906+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -1785,3 +1785,7 @@ Click Save .
 
 | Note | The interval value of the Enable Revocation Check parameter in the Certificate Revocation page takes precedence over the value of the Validity Check Frequency enterprise parameter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

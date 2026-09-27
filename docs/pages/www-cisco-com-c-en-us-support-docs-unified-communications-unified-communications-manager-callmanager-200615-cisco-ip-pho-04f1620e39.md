@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200615-cisco-ip-pho-04f1620e39
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S.html
-retrieved_at: 2026-08-21T13:56:57.446742+00:00
+retrieved_at: 2026-09-27T15:07:40.910185+00:00
 ---
 
 Cisco IP Phone Feature - Peer Firmware Sharing
@@ -246,3 +246,33 @@ There is currently no specific troubleshooting information available for this co
 | Phone 2: | Phone 2: |
 | Phone 3: | Phone 3: |
 | Phone 4: | Phone 4: |
+
+## Figuras
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-00.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-00.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-01.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-01.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-02.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-02.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-03.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-03.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-04.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-04.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-05.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-05.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-06.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-06.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-07.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-07.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-08.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-08.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-09.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-09.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-10.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-10.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-11.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-11.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-12.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-12.jpeg)
+
+![200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-13.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200615-Cisco-IP-Phone-Feature-Peer-Firmware-S-13.jpeg)

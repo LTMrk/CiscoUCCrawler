@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-9347c9e8da
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_011010.html
-retrieved_at: 2026-08-21T17:51:13.896020+00:00
+retrieved_at: 2026-09-27T11:30:53.418024+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -88,3 +88,7 @@ BAT Log Files
 | Note | The user fields get added automatically when you add the file
                                                       				  format. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

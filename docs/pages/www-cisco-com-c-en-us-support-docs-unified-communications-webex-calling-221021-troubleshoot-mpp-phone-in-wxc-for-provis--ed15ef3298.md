@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--ed15ef3298
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.html
-retrieved_at: 2026-08-20T23:21:49.022129+00:00
+retrieved_at: 2026-09-27T12:48:24.483004+00:00
 ---
 
 Troubleshoot MPP Phone in WxC for Provision and Registration
@@ -284,3 +284,35 @@ Initial Release
 |---|---|---|
 | 2.0 | 18-Apr-2024 | Initial Release |
 | 1.0 | 04-Oct-2023 | Initial Release |
+
+## Figuras
+
+![Devices tab](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-00.png)
+
+![Add device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-01.png)
+
+![Search for a user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-02.png)
+
+![Select model of device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-03.png)
+
+![Add MAC Address](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-04.png)
+
+![Verification of device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-05.png)
+
+![Provisioning diagram](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-06.png)
+
+![Settings button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-07.jpeg)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Web GUI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-08.png)
+
+![PRT Log view](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-09.png)
+
+![nslookup activate.cisco](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-10.png)
+
+![nslookup cisco sipflash](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-11.png)
+
+![nslookup SRV OBP](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-12.png)
+
+![PCAP SSE](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis-13.png)

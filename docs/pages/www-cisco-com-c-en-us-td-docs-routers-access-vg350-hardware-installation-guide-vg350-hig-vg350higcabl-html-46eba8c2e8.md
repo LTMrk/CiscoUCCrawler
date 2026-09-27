@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg350-hardware-installation-guide-vg350-hig-vg350higcabl-html-46eba8c2e8
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higcabl.html
-retrieved_at: 2026-08-22T01:14:45.154554+00:00
+retrieved_at: 2026-09-27T11:25:54.551830+00:00
 ---
 
 Cisco VG350 Voice Gateway Hardware Installation Guide
@@ -808,3 +808,7 @@ GND
 | 11 | 11 36 | Ring Tip | 23 | 23 48 | Ring Tip |
 | 12 | 12 37 | Ring Tip | 24 | 24 49 | Ring Tip |
 | — | — | — | — | 25, 50, 51, 52 | GND |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

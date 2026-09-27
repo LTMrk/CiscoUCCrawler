@@ -10,7 +10,7 @@ tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.190473+00:00
+retrieved_at: 2026-09-27T10:51:18.769348+00:00
 ---
 
 # POST /workspaceLocations

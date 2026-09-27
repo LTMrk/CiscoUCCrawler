@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-ip-phones-220248-configure-cucm-to-provide-screensaver-ca-htm-076197d917
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca.html
-retrieved_at: 2026-08-21T13:59:33.176232+00:00
+retrieved_at: 2026-09-27T15:09:33.889979+00:00
 ---
 
 Configure CUCM to Provide Screensaver Capabilities to IP Phones
@@ -97,3 +97,21 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 22-Feb-2023 | Initial Release |
+
+## Figuras
+
+![CUCM landing page going to device and phone](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-00.png)
+
+![Phone configuration page displaying Idle configuration.](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-01.png)
+
+![Sample of the XML file used.](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-02.png)
+
+![Default directory where IIS stores static files.](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-03.png)
+
+![IP Phone displaying the screensaver image.](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-04.png)
+
+![Packet capture sample displaying the communication between the phone and the web server.](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/ip-phones/220248-configure-cucm-to-provide-screensaver-ca-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

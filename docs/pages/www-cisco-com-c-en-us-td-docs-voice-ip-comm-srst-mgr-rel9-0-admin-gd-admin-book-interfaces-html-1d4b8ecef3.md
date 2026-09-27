@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-interfaces-html-1d4b8ecef3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/interfaces.html
-retrieved_at: 2026-08-21T23:37:48.172039+00:00
+retrieved_at: 2026-09-27T15:27:52.865552+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -37,3 +37,9 @@ CLI commands can also be used for routine monitoring and maintenance of the Cisc
 ## GUI
 
 Cisco Unified SRST Manager provides a GUI. For information on using the GUI, see the online help in the application or the relevant sections in this guide.
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

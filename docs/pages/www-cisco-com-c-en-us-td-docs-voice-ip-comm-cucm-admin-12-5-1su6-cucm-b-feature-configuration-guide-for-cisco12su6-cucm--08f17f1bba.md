@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-cucm-b-feature-configuration-guide-for-cisco12su6-cucm--08f17f1bba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6/cucm_m_phone-replacement-migration-ivr-phone.html
-retrieved_at: 2026-09-15T13:12:54.911639+00:00
+retrieved_at: 2026-09-27T12:47:46.876659+00:00
 ---
 
 Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -1491,3 +1491,7 @@ If the old video endpoints device was in the locked state, note that the new vid
 | Cisco Unified IP Phone 7965 SCCP | Universal Device Template Button layout | Cisco IP Phone 8861 | Universal Device Template Button layout |
 | Cisco Unified IP Phone 7965 SCCP | Custom 7965 SCCP | Cisco IP Phone 8861 | Custom 7965 SCCP |
 | Cisco Unified IP Phone 8851 SIP | Standard 8851 SIP | Cisco IP Phone 8861 | Standard 8861 SIP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

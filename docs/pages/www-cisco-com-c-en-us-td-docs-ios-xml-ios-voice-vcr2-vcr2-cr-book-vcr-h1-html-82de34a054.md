@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-h1-html-82de34a054
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-h1.html
-retrieved_at: 2026-08-16T23:17:04.872048+00:00
+retrieved_at: 2026-09-27T12:50:29.575746+00:00
 ---
 
 Cisco IOS Voice Command Reference - D through I
@@ -7104,3 +7104,7 @@ Enters dial-peer configuration mode and specifies the method of voice-related en
 | Command | Description |
 |---|---|
 | dial - peer voice | Enters dial-peer configuration mode and specifies the method of voice-related encapsulation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

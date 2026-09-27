@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-core-welcome-html-3488fb93e9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_welcome.html
-retrieved_at: 2026-08-21T23:37:52.356987+00:00
+retrieved_at: 2026-09-27T15:27:57.061574+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -31,3 +31,13 @@ The dashboard includes two areas:
 - Provisioning Status: Displays a summary of the results of the most recent provisioning cycle. If all sites have been successfully provisioned, a single success message is displayed. If any sites are disabled, have failed provisioning, or have never been provisioned, the provisioning status panes displays a site count for each provisioning outcome respectively. For provisioning failures, the system generates a system alert message for each site that indicates the reason for the failure. To review site specific results by status, click the corresponding report link.
 
 - System Alerts: Displays the number of critical, warning, error, and informational alert messages that require attention. To review system alert details by level, click the corresponding link. See System Alerts for more information about alerts.
+
+## Figuras
+
+![tip.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

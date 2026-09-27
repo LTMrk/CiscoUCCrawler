@@ -49,6 +49,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fetch_policy import (
     HOSTS_BARRA_FINAL, USER_AGENT, PoliticaAcceso, canonicalizar_url,
 )
+from pdf_texto import descargar as descargar_pdf
+from pdf_texto import es_pdf, texto_de_pdf
 from sanitizer import DetectorBoilerplate, sanitizar
 from state_store import (
     ManifestStore, cargar_frontera, guardar_frontera,
@@ -132,10 +134,34 @@ def _compilar(patrones, etiqueta):
 
 
 BLOCKED_REGEX = _compilar(CONFIG.get("blocked_regex", []), "blocked_regex")
+PDF_PERMITIDOS_REGEX = _compilar(CONFIG.get("pdf_permitidos_regex", []),
+                                 "pdf_permitidos_regex")
 DISCOVERY_ONLY_REGEX = _compilar(CONFIG.get("discovery_only_regex", []), "discovery_only_regex")
+def _regex_docsets_devnet(docsets):
+    """Compone la allowlist de developer.cisco.com desde `devnet_docsets`.
+
+    Las claves son fragmentos de regex sobre el segmento del doc-set; se
+    unen en una sola alternacion anclada. Declarar el doc-set en un sitio
+    (config.json) en lugar de dos (una regex enorme aqui y otra lista en
+    copilot_pack) es lo que impide que un doc-set entre en el corpus sin
+    tener producto asignado y acabe en "misc".
+    """
+    if not docsets:
+        return []
+    alternacion = "|".join(docsets)
+    return [r"^https?://developer\.cisco\.com/(docs|site)/(%s)(/|$)" % alternacion]
+
+
+_ALLOWLIST_CRUDA = dict(CONFIG.get("path_allowlist_regex") or {})
+_ALLOWLIST_CRUDA["developer.cisco.com"] = (
+    list(_ALLOWLIST_CRUDA.get("developer.cisco.com", []))
+    + _regex_docsets_devnet(list(CONFIG.get("devnet_docsets") or {}))
+)
+
 PATH_ALLOWLIST = {
     dominio: _compilar(patrones, f"path_allowlist_regex[{dominio}]")
-    for dominio, patrones in (CONFIG.get("path_allowlist_regex") or {}).items()
+    for dominio, patrones in _ALLOWLIST_CRUDA.items()
+    if patrones
 }
 
 
@@ -153,22 +179,45 @@ def is_blocked_by_user(url):
     url_lower = url.lower()
     if any(p in url_lower for p in BLOCKED_PATTERNS):
         return True
+    if any(r.search(url) for r in PDF_PERMITIDOS_REGEX):
+        # Un PDF admitido salta SOLO el veto por extension de blocked_regex.
+        # Se reevalua la URL sin el sufijo, asi cualquier otro motivo de
+        # bloqueo (idioma, EoL, /codeexchange/) sigue vivo. Quitar el sufijo
+        # en lugar de identificar la regex de extensiones evita que la
+        # excepcion se rompa en silencio si alguien reordena blocked_regex.
+        # El corte es seguro porque todo patron de pdf_permitidos_regex
+        # termina en \.pdf$, y tests/test_pdf.py falla si alguno no lo hace.
+        sin_extension = url[: -len(".pdf")]
+        return any(r.search(sin_extension) for r in BLOCKED_REGEX)
     return any(r.search(url) for r in BLOCKED_REGEX)
 
 
 def esta_en_allowlist(url):
-    """Deny-by-default por dominio. Si el dominio tiene allowlist declarada,
-    la URL debe casar con alguna de sus regex. Un dominio sin allowlist se
-    rige solo por la blocklist.
+    """Deny-by-default, POR HOST Y POR RUTA. El host debe estar declarado en
+    `path_allowlist_regex` y la URL debe casar con alguna de sus regex.
 
     Este es el control primario para www.cisco.com: el sitio tiene millones
     de URLs y una blocklist nunca alcanzaría a cubrir el ruido. Con allowlist
-    se invierte la carga: solo entra lo que se ha declarado valioso."""
+    se invierte la carga: solo entra lo que se ha declarado valioso.
+
+    EL DENY ALCANZA TAMBIÉN A LOS HOSTS NO DECLARADOS. Antes se devolvía True
+    para cualquier host sin allowlist, y `is_allowed_domain` acepta cualquier
+    cosa que contenga "cisco.com": bastaba un enlace de pie de página para
+    meter un subdominio entero en la frontera. El resultado medido sobre
+    logs/manifest.json eran 2.699 entradas en 54 hosts no declarados —
+    2.145 solo de bst.cloudapps.cisco.com (Bug Search Tool, que además
+    responde 403 y llenó la cuarentena con 1.369 URLs) — y 348 documentos de
+    marketing indexados desde marketplace.cisco.com, www.webex.com o
+    video.cisco.com, que en un RAG de ingeniería son ruido puro.
+
+    Añadir un subdominio nuevo es ahora un acto deliberado: declararlo en
+    config.json con las rutas que interesan.
+    """
     netloc = urlparse(url).netloc.lower()
     for dominio, patrones in PATH_ALLOWLIST.items():
         if dominio in netloc:
             return any(r.match(url) for r in patrones)
-    return True
+    return not PATH_ALLOWLIST
 
 
 def es_solo_descubrimiento(url):
@@ -257,8 +306,34 @@ def git_commit_and_push(mensaje):
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
         subprocess.run(["git", "commit", "-m", mensaje], check=True)
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
-        subprocess.run(["git", "push"], check=True)
+
+        # Rama ACTUAL, no "main" fijo. Con main fijo, un ETL que corra en
+        # cualquier otra rama rebasa su lote encima de una rama ajena.
+        rama = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                              capture_output=True, text=True).stdout.strip()
+        destino = f"HEAD:{rama}" if rama and rama != "HEAD" else "HEAD"
+
+        # Se intenta el push DIRECTO primero, sin pull previo.
+        #
+        # El checkout del ETL es superficial (fetch-depth: 1). Con 2.693
+        # ejecuciones de historia y 260 MB de .git, el clon completo tardo
+        # mas de 20 minutos en el runner del 2026-09-27: un 40% del
+        # presupuesto del job gastado antes de rastrear una sola pagina.
+        #
+        # El grupo de concurrencia ya serializa los lotes, asi que la unica
+        # forma de divergir es que una persona empuje a la vez. Ese caso
+        # raro es el unico que paga el coste de traerse la historia entera:
+        # solo entonces se hace --unshallow y se rebasa.
+        if subprocess.run(["git", "push", "origin", destino]).returncode == 0:
+            return
+
+        log_info("Push rechazado: la rama ha divergido. Se trae la historia "
+                 "completa para rebasar.")
+        if rama and rama != "HEAD":
+            subprocess.run(["git", "fetch", "--unshallow", "origin", rama],
+                           check=False)
+            subprocess.run(["git", "pull", "--rebase", "origin", rama], check=False)
+        subprocess.run(["git", "push", "origin", destino], check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
 
@@ -481,7 +556,13 @@ async def deep_crawl():
             candidatas |= await descubrir_por_sitemap(politica, semillas)
         else:
             # En incremental se reevalúa lo conocido cuyo TTL haya vencido.
-            candidatas |= {u for u in manifiesto.entradas if manifiesto.debe_visitar(u)}
+            #
+            # El filtro por url_aceptable NO es redundante: el manifiesto
+            # arrastra URLs admitidas por allowlists anteriores. Sin él,
+            # endurecer la allowlist no retira nada — lo ya indexado se
+            # sigue revisitando en cada lote.
+            candidatas |= {u for u in manifiesto.entradas
+                           if manifiesto.debe_visitar(u) and url_aceptable(u)}
 
     # Las semillas y los sitemaps declarados en config.json entran SIEMPRE,
     # haya frontera previa o no. Una semilla es una declaración del operador
@@ -570,6 +651,51 @@ async def deep_crawl():
 
             await politica.antes_de_solicitar(url)
             procesadas += 1
+
+            # -- PDF admitido -------------------------------------------
+            # No pasa por el navegador: Chromium devolveria el visor y el
+            # sanitizador se quedaria en cero caracteres, o sea un fallo
+            # mudo. Se baja directo y se extrae el texto.
+            if es_pdf(url):
+                codigo, datos = await asyncio.to_thread(
+                    descargar_pdf, url, USER_AGENT)
+                accion, espera = politica.tras_respuesta(url, codigo)
+                if accion != "ok":
+                    # Se reusa el mismo tratamiento que el resto: un 403 va
+                    # a cuarentena, un 404 deja tombstone, un 429 espera.
+                    if accion == "desaparecido":
+                        manifiesto.registrar_desaparecido(url)
+                    elif accion == "cuarentena":
+                        manifiesto.registrar_bloqueo(url, codigo)
+                    elif accion == "reintentar":
+                        await asyncio.sleep(espera)
+                        await cola.put((url, profundidad))
+                        visitadas_este_lote.discard(url)
+                        continue
+                    else:
+                        manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF: HTTP {codigo} -> {accion}.")
+                    continue
+
+                try:
+                    texto = await asyncio.to_thread(texto_de_pdf, datos)
+                except Exception as e:
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF ilegible: {e}")
+                    continue
+
+                if not texto:
+                    # Un PDF sin capa de texto (escaneado) nunca va a dar
+                    # nada: se registra para que no se reencole cada lote.
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, "PDF sin texto extraible.")
+                    continue
+
+                cambio, doc_id = manifiesto.registrar_contenido(url, texto)
+                if cambio:
+                    manifiesto.escribir_documento(doc_id, url, texto)
+                    log_info(f"Delta PDF ({len(texto)} chars) -> {doc_id}")
+                continue
 
             css, js = get_custom_behavior(url)
             validadores = manifiesto.cabeceras_condicionales(url)
@@ -672,8 +798,10 @@ async def deep_crawl():
 
                 if solo_descubrimiento:
                     # Página de navegación: no se sanitiza ni se indexa, pero
-                    # sí se recorren sus enlaces más abajo.
+                    # sí se recorren sus enlaces más abajo. Se REGISTRA, que
+                    # es lo que impide que se reencole en cada lote.
                     markdown, bloques = "", []
+                    manifiesto.registrar_descubrimiento(url)
                 else:
                     markdown, bloques = sanitizar(
                         resultado.html,
@@ -691,8 +819,22 @@ async def deep_crawl():
                         detector.observar(bloques)
 
                     if len(markdown) < 200:
-                        manifiesto.registrar_fallo(url)
-                        log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
+                        # Con enlaces internos no es un fallo: es una página
+                        # de sección sin cuerpo propio. Las de PubHub son
+                        # así, y son el ÚNICO sitio desde el que se
+                        # descubren los capítulos del doc-set; aparcarlas
+                        # 14 días con el backoff de fallo deja fuera del
+                        # corpus la mitad de la referencia de API de DevNet.
+                        enlaces_internos = (getattr(resultado, "links", {})
+                                            or {}).get("internal") or []
+                        if enlaces_internos:
+                            manifiesto.registrar_descubrimiento(url)
+                            log_info(f"Página de sección sin cuerpo propio "
+                                     f"({len(markdown)} chars, "
+                                     f"{len(enlaces_internos)} enlaces): {url}")
+                        else:
+                            manifiesto.registrar_fallo(url)
+                            log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
                         markdown = ""
 
                 # -- Delta ---------------------------------------------------

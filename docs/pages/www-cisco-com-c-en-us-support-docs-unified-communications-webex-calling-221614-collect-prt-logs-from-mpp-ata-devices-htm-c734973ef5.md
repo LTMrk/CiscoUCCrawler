@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-htm-c734973ef5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.html
-retrieved_at: 2026-08-21T07:15:58.046658+00:00
+retrieved_at: 2026-09-27T12:48:58.129209+00:00
 ---
 
 Collect PRT Logs from MPP ATA Devices
@@ -91,3 +91,19 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Feb-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Log in Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-00.png)
+
+![Top Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-01.png)
+
+![Left Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-02.png)
+
+![Generate PRT](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-03.png)
+
+![Generating PRT](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-04.png)
+
+![New PRT File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices-05.png)

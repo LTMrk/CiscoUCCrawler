@@ -84,14 +84,24 @@ El corpus no es una foto fija. En cada ejecución:
 
 ## Pipeline
 
-El workflow (`.github/workflows/etl.yml`) tiene dos jobs. El primero hace la
-ingesta y corre semanalmente, con presupuesto de tiempo acotado por lote: si
-queda trabajo pendiente, encadena la siguiente ejecución en vez de perder lo
-avanzado. El segundo empaqueta el resultado, y solo se dispara cuando el
-primero termina sin dejar trabajo pendiente.
+Son **dos workflows**, uno por responsabilidad:
+
+| Workflow | Qué hace | Cuándo corre | Preparación |
+|---|---|---|---|
+| `etl.yml` | Extrae: rastreo, OpenAPI, repos, commit del corpus | Cron semanal + a mano. Encadena lotes hasta un tope de 12 | ~10 min (crawl4ai + Chromium) |
+| `paquete.yml` | Empaqueta en ZIP lo que ya está almacenado en `docs/` | A mano, con perfil y fuente a elegir; y desde `etl.yml` al vaciarse la frontera | segundos (solo stdlib) |
+
+Separarlos importa en la práctica: regenerar el paquete —cambiar de perfil,
+sacar solo DevNet, rehacerlo tras tocar la taxonomía— es lo que más se repite,
+y ya no arrastra un rastreo de 50 minutos ni la instalación de un navegador.
+Un fallo empaquetando tampoco tira el lote de rastreo, ni al revés.
+
+El ETL acota su presupuesto por reloj: si queda trabajo pendiente encadena la
+siguiente ejecución en vez de perder lo avanzado, con un tope de 12 lotes por
+cadena para que una regresión no consuma minutos de runner en silencio.
 
 ```
-job "process-documents"                       job "paquete-copilot"
+etl.yml                                       paquete.yml
 ────────────────────────                      ─────────────────────
 config.json (seeds, allowlists)
         │
@@ -130,7 +140,11 @@ src/
   report.py                  resumen de la ejecución para GitHub Actions
 
 tools/
-  probe_devnet.py     sondeo de diagnóstico de developer.cisco.com (fuera del ETL)
+  probe_devnet.py     sondeo de diagnóstico de developer.cisco.com (fuera del ETL):
+                       robots, sitemap, barra final, inventario de doc-sets y
+                       cobertura real de cada uno frente al manifiesto
+  purgar_fuera_de_allowlist.py   retira del corpus lo que la allowlist ya no
+                       admite (endurecerla no borra lo ya indexado)
 
 config.json            seeds, allowlists, blocklists, listas curadas de repos y specs
 docs/pages/             corpus rastreado de cisco.com / community / help.webex.com
@@ -138,7 +152,8 @@ docs/pages/             corpus rastreado de cisco.com / community / help.webex.c
 docs/repos/             corpus ingerido de repositorios GitHub
 logs/                   estado, deltas y diagnóstico de cada ejecución
 tests/                  pruebas de regresión (contrato de config, políticas de URL, extractores)
-.github/workflows/      etl.yml (ingesta), tests.yml (pruebas en cada PR),
+.github/workflows/      etl.yml (extracción), paquete.yml (ZIP del corpus ya
+                        almacenado), tests.yml (pruebas en cada PR),
                         probe.yml (sondeo de DevNet, bajo demanda), purge_docs.yml
 RESUMEN-CONOCIMIENTO.md inventario del corpus, se regenera en cada ejecución
 ```

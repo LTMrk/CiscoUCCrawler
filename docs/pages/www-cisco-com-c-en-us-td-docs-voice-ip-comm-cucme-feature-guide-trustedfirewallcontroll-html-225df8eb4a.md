@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-trustedfirewallcontroll-html-225df8eb4a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/TrustedFirewallControll.html
-retrieved_at: 2026-08-21T09:47:43.299744+00:00
+retrieved_at: 2026-09-27T15:38:56.233745+00:00
 ---
 
 Cisco Unified Communications Trusted Firewall Control
@@ -1907,3 +1907,7 @@ firewall-traversal flowdata | Enables firewall traversal using STUN. |
 | Command | Description |
 |---|---|
 | voice class stun-usage | Configures a new voice class called stun-usage with a numerical tag. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

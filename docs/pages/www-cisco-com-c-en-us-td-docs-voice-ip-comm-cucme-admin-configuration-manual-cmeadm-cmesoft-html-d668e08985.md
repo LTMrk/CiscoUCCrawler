@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmesoft-html-d668e08985
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmesoft.html
-retrieved_at: 2026-08-21T07:24:11.565420+00:00
+retrieved_at: 2026-09-27T15:33:46.325241+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -5631,3 +5631,7 @@ telephony-service
 | 3.2 | Configurable softkey display (the ability to customize softkey
                                           					 display in the alerting, connected, idle, and seized call states) was
                                           					 introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,10 +1,10 @@
 {
   "_schema_version": 2,
   "webex-admin.json": {
-    "actualizado": "2026-09-15T08:04:06.194942+00:00",
+    "actualizado": "2026-09-27T10:51:18.774417+00:00",
     "api": "Webex Admin",
     "api_version": "1.0.0",
-    "content_sha": "6ce6b8f0941966689f77b82f4be170c25c6a112165cdb6cc07f3660d74b2f4d1",
+    "content_sha": "442388b24f26e333f267cb148ed1f887e8e2ca827244e946637e5ea0382ef7b4",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -168,11 +168,13 @@
       "PUT /workspaceLocations/{locationId}": "webex-admin-put-workspacelocations-locationid",
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-admin-put-workspacelocations-locationid-floors-floorid"
     },
-    "sha": "e71457fa24ac85b7372bd80956da3526d314fbe3"
+    "sha": "47969ba240d96127f60d9d2b907f2d62092144a1"
   },
   "webex-broadworks.json": {
-    "actualizado": "2026-08-16T11:30:32.287094+00:00",
-    "content_sha": "bc660727a76d6897fbe674218584b5c9f2258868081f8369cd90fd0d722b33a4",
+    "actualizado": "2026-09-27T10:51:18.915857+00:00",
+    "api": "Webex Broadworks Calling",
+    "api_version": "1.0.0",
+    "content_sha": "3f88d760be921c109fdae151c68fdabd50884aa31a04c0dff439b8d9fd3efbc6",
     "deprecadas": {},
     "operaciones": {
       "DELETE /broadworks/billing/reports/{id}": "webex-broadworks-delete-broadworks-billing-reports-id",
@@ -195,13 +197,13 @@
       "PUT /broadworks/subscribers/{subscriberId}": "webex-broadworks-put-broadworks-subscribers-subscriberid",
       "PUT /broadworks/workspaces/{workspaceId}": "webex-broadworks-put-broadworks-workspaces-workspaceid"
     },
-    "sha": "760edc4f4265e70aa2991c7ed622ea4bd8a5f249"
+    "sha": "a4083af3ea50c15687380dfc220a1d9a270731c3"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-09-21T08:43:27.182216+00:00",
+    "actualizado": "2026-09-27T10:51:19.619529+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "18fefc77d29e2bd8514dfca2a77d44568a7810e52efb0fb1cad7841500e617bd",
+    "content_sha": "45d4af5e41114fbc8aae79ddf3f79cce3d337509fcf7e78532d22ca22665a535",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -221,6 +223,8 @@
       "DELETE /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events/{eventId}": "webex-cloud-calling-delete-people-personid-features-schedules-scheduletype-scheduleid-events-eventid",
       "DELETE /reports/{reportId}": "webex-cloud-calling-delete-reports-reportid",
       "DELETE /telephony/conference": "webex-cloud-calling-delete-telephony-conference",
+      "DELETE /telephony/conference/members/me/conference": "webex-cloud-calling-delete-telephony-conference-members-me-conference",
+      "DELETE /telephony/conference/members/{memberId}/conference": "webex-cloud-calling-delete-telephony-conference-members-memberid-conference",
       "DELETE /telephony/config/announcements/playlists/{playlistId}": "webex-cloud-calling-delete-telephony-config-announcements-playlists-playlistid",
       "DELETE /telephony/config/announcements/{announcementId}": "webex-cloud-calling-delete-telephony-config-announcements-announcementid",
       "DELETE /telephony/config/callRouting/translationPatterns/{translationId}": "webex-cloud-calling-delete-telephony-config-callrouting-translationpatterns-translationid",
@@ -304,6 +308,8 @@
       "DELETE /telephony/config/workspaces/{workspaceId}/selectiveReject/criteria/{id}": "webex-cloud-calling-delete-telephony-config-workspaces-workspaceid-selectivereject-criteria-id",
       "DELETE /telephony/config/workspaces/{workspaceId}/sequentialRing/criteria/{id}": "webex-cloud-calling-delete-telephony-config-workspaces-workspaceid-sequentialring-criteria-id",
       "DELETE /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria/{id}": "webex-cloud-calling-delete-telephony-config-workspaces-workspaceid-simultaneousring-criteria-id",
+      "DELETE /telephony/voiceMessages/members/me/voiceMessages/{messageId}": "webex-cloud-calling-delete-telephony-voicemessages-members-me-voicemessages-messageid",
+      "DELETE /telephony/voiceMessages/members/{memberId}/voiceMessages/{messageId}": "webex-cloud-calling-delete-telephony-voicemessages-members-memberid-voicemessages-messageid",
       "DELETE /telephony/voiceMessages/{messageId}": "webex-cloud-calling-delete-telephony-voicemessages-messageid",
       "DELETE /telephony/webhookInterestRegistrations": "webex-cloud-calling-delete-telephony-webhookinterestregistrations",
       "DELETE /workspaces/{workspaceId}": "webex-cloud-calling-delete-workspaces-workspaceid",
@@ -359,10 +365,14 @@
       "GET /telephony/calls/history": "webex-cloud-calling-get-telephony-calls-history",
       "GET /telephony/calls/members/me/calls": "webex-cloud-calling-get-telephony-calls-members-me-calls",
       "GET /telephony/calls/members/me/calls/{callId}": "webex-cloud-calling-get-telephony-calls-members-me-calls-callid",
+      "GET /telephony/calls/members/me/history": "webex-cloud-calling-get-telephony-calls-members-me-history",
       "GET /telephony/calls/members/{memberId}/calls": "webex-cloud-calling-get-telephony-calls-members-memberid-calls",
       "GET /telephony/calls/members/{memberId}/calls/{callId}": "webex-cloud-calling-get-telephony-calls-members-memberid-calls-callid",
+      "GET /telephony/calls/members/{memberId}/history": "webex-cloud-calling-get-telephony-calls-members-memberid-history",
       "GET /telephony/calls/{callId}": "webex-cloud-calling-get-telephony-calls-callid",
       "GET /telephony/conference": "webex-cloud-calling-get-telephony-conference",
+      "GET /telephony/conference/members/me/conference": "webex-cloud-calling-get-telephony-conference-members-me-conference",
+      "GET /telephony/conference/members/{memberId}/conference": "webex-cloud-calling-get-telephony-conference-members-memberid-conference",
       "GET /telephony/config/aiReceptionists": "webex-cloud-calling-get-telephony-config-aireceptionists",
       "GET /telephony/config/aiReceptionists/templates": "webex-cloud-calling-get-telephony-config-aireceptionists-templates",
       "GET /telephony/config/aiReceptionists/templates/{templateId}": "webex-cloud-calling-get-telephony-config-aireceptionists-templates-templateid",
@@ -820,6 +830,13 @@
       "GET /telephony/pstn/locations/{locationId}/numbers/availableNumbers": "webex-cloud-calling-get-telephony-pstn-locations-locationid-numbers-availablenumbers",
       "GET /telephony/queues/{queueId}/calls": "webex-cloud-calling-get-telephony-queues-queueid-calls",
       "GET /telephony/voiceMessages": "webex-cloud-calling-get-telephony-voicemessages",
+      "GET /telephony/voiceMessages/members/me/memberships": "webex-cloud-calling-get-telephony-voicemessages-members-me-memberships",
+      "GET /telephony/voiceMessages/members/me/summary": "webex-cloud-calling-get-telephony-voicemessages-members-me-summary",
+      "GET /telephony/voiceMessages/members/me/voiceMessages": "webex-cloud-calling-get-telephony-voicemessages-members-me-voicemessages",
+      "GET /telephony/voiceMessages/members/{memberId}/memberships": "webex-cloud-calling-get-telephony-voicemessages-members-memberid-memberships",
+      "GET /telephony/voiceMessages/members/{memberId}/summary": "webex-cloud-calling-get-telephony-voicemessages-members-memberid-summary",
+      "GET /telephony/voiceMessages/members/{memberId}/voiceMessages": "webex-cloud-calling-get-telephony-voicemessages-members-memberid-voicemessages",
+      "GET /telephony/voiceMessages/memberships": "webex-cloud-calling-get-telephony-voicemessages-memberships",
       "GET /telephony/voiceMessages/summary": "webex-cloud-calling-get-telephony-voicemessages-summary",
       "GET /telephony/webhookInterestRegistrations": "webex-cloud-calling-get-telephony-webhookinterestregistrations",
       "GET /v1/analytics/callQualityStats": "webex-cloud-calling-get-v1-analytics-callqualitystats",
@@ -861,11 +878,49 @@
       "POST /telephony/calls/hangup": "webex-cloud-calling-post-telephony-calls-hangup",
       "POST /telephony/calls/hold": "webex-cloud-calling-post-telephony-calls-hold",
       "POST /telephony/calls/members/me/answer": "webex-cloud-calling-post-telephony-calls-members-me-answer",
+      "POST /telephony/calls/members/me/bargeIn": "webex-cloud-calling-post-telephony-calls-members-me-bargein",
       "POST /telephony/calls/members/me/dial": "webex-cloud-calling-post-telephony-calls-members-me-dial",
+      "POST /telephony/calls/members/me/divert": "webex-cloud-calling-post-telephony-calls-members-me-divert",
       "POST /telephony/calls/members/me/hangup": "webex-cloud-calling-post-telephony-calls-members-me-hangup",
+      "POST /telephony/calls/members/me/hold": "webex-cloud-calling-post-telephony-calls-members-me-hold",
+      "POST /telephony/calls/members/me/mute": "webex-cloud-calling-post-telephony-calls-members-me-mute",
+      "POST /telephony/calls/members/me/park": "webex-cloud-calling-post-telephony-calls-members-me-park",
+      "POST /telephony/calls/members/me/pauseRecording": "webex-cloud-calling-post-telephony-calls-members-me-pauserecording",
+      "POST /telephony/calls/members/me/pickup": "webex-cloud-calling-post-telephony-calls-members-me-pickup",
+      "POST /telephony/calls/members/me/pull": "webex-cloud-calling-post-telephony-calls-members-me-pull",
+      "POST /telephony/calls/members/me/push": "webex-cloud-calling-post-telephony-calls-members-me-push",
+      "POST /telephony/calls/members/me/reject": "webex-cloud-calling-post-telephony-calls-members-me-reject",
+      "POST /telephony/calls/members/me/resume": "webex-cloud-calling-post-telephony-calls-members-me-resume",
+      "POST /telephony/calls/members/me/resumeRecording": "webex-cloud-calling-post-telephony-calls-members-me-resumerecording",
+      "POST /telephony/calls/members/me/retrieve": "webex-cloud-calling-post-telephony-calls-members-me-retrieve",
+      "POST /telephony/calls/members/me/startRecording": "webex-cloud-calling-post-telephony-calls-members-me-startrecording",
+      "POST /telephony/calls/members/me/stopRecording": "webex-cloud-calling-post-telephony-calls-members-me-stoprecording",
+      "POST /telephony/calls/members/me/transfer": "webex-cloud-calling-post-telephony-calls-members-me-transfer",
+      "POST /telephony/calls/members/me/transmitDtmf": "webex-cloud-calling-post-telephony-calls-members-me-transmitdtmf",
+      "POST /telephony/calls/members/me/unmute": "webex-cloud-calling-post-telephony-calls-members-me-unmute",
+      "POST /telephony/calls/members/me/wrapupreasons": "webex-cloud-calling-post-telephony-calls-members-me-wrapupreasons",
       "POST /telephony/calls/members/{memberId}/answer": "webex-cloud-calling-post-telephony-calls-members-memberid-answer",
+      "POST /telephony/calls/members/{memberId}/bargeIn": "webex-cloud-calling-post-telephony-calls-members-memberid-bargein",
       "POST /telephony/calls/members/{memberId}/dial": "webex-cloud-calling-post-telephony-calls-members-memberid-dial",
+      "POST /telephony/calls/members/{memberId}/divert": "webex-cloud-calling-post-telephony-calls-members-memberid-divert",
       "POST /telephony/calls/members/{memberId}/hangup": "webex-cloud-calling-post-telephony-calls-members-memberid-hangup",
+      "POST /telephony/calls/members/{memberId}/hold": "webex-cloud-calling-post-telephony-calls-members-memberid-hold",
+      "POST /telephony/calls/members/{memberId}/mute": "webex-cloud-calling-post-telephony-calls-members-memberid-mute",
+      "POST /telephony/calls/members/{memberId}/park": "webex-cloud-calling-post-telephony-calls-members-memberid-park",
+      "POST /telephony/calls/members/{memberId}/pauseRecording": "webex-cloud-calling-post-telephony-calls-members-memberid-pauserecording",
+      "POST /telephony/calls/members/{memberId}/pickup": "webex-cloud-calling-post-telephony-calls-members-memberid-pickup",
+      "POST /telephony/calls/members/{memberId}/pull": "webex-cloud-calling-post-telephony-calls-members-memberid-pull",
+      "POST /telephony/calls/members/{memberId}/push": "webex-cloud-calling-post-telephony-calls-members-memberid-push",
+      "POST /telephony/calls/members/{memberId}/reject": "webex-cloud-calling-post-telephony-calls-members-memberid-reject",
+      "POST /telephony/calls/members/{memberId}/resume": "webex-cloud-calling-post-telephony-calls-members-memberid-resume",
+      "POST /telephony/calls/members/{memberId}/resumeRecording": "webex-cloud-calling-post-telephony-calls-members-memberid-resumerecording",
+      "POST /telephony/calls/members/{memberId}/retrieve": "webex-cloud-calling-post-telephony-calls-members-memberid-retrieve",
+      "POST /telephony/calls/members/{memberId}/startRecording": "webex-cloud-calling-post-telephony-calls-members-memberid-startrecording",
+      "POST /telephony/calls/members/{memberId}/stopRecording": "webex-cloud-calling-post-telephony-calls-members-memberid-stoprecording",
+      "POST /telephony/calls/members/{memberId}/transfer": "webex-cloud-calling-post-telephony-calls-members-memberid-transfer",
+      "POST /telephony/calls/members/{memberId}/transmitDtmf": "webex-cloud-calling-post-telephony-calls-members-memberid-transmitdtmf",
+      "POST /telephony/calls/members/{memberId}/unmute": "webex-cloud-calling-post-telephony-calls-members-memberid-unmute",
+      "POST /telephony/calls/members/{memberId}/wrapupreasons": "webex-cloud-calling-post-telephony-calls-members-memberid-wrapupreasons",
       "POST /telephony/calls/mute": "webex-cloud-calling-post-telephony-calls-mute",
       "POST /telephony/calls/park": "webex-cloud-calling-post-telephony-calls-park",
       "POST /telephony/calls/pauseRecording": "webex-cloud-calling-post-telephony-calls-pauserecording",
@@ -885,6 +940,28 @@
       "POST /telephony/conference/addParticipant": "webex-cloud-calling-post-telephony-conference-addparticipant",
       "POST /telephony/conference/deafen": "webex-cloud-calling-post-telephony-conference-deafen",
       "POST /telephony/conference/hold": "webex-cloud-calling-post-telephony-conference-hold",
+      "POST /telephony/conference/members/me/addParticipant": "webex-cloud-calling-post-telephony-conference-members-me-addparticipant",
+      "POST /telephony/conference/members/me/bargeIn": "webex-cloud-calling-post-telephony-conference-members-me-bargein",
+      "POST /telephony/conference/members/me/conference": "webex-cloud-calling-post-telephony-conference-members-me-conference",
+      "POST /telephony/conference/members/me/deafen": "webex-cloud-calling-post-telephony-conference-members-me-deafen",
+      "POST /telephony/conference/members/me/hold": "webex-cloud-calling-post-telephony-conference-members-me-hold",
+      "POST /telephony/conference/members/me/mute": "webex-cloud-calling-post-telephony-conference-members-me-mute",
+      "POST /telephony/conference/members/me/resume": "webex-cloud-calling-post-telephony-conference-members-me-resume",
+      "POST /telephony/conference/members/me/silentMonitor": "webex-cloud-calling-post-telephony-conference-members-me-silentmonitor",
+      "POST /telephony/conference/members/me/supervisorCoach": "webex-cloud-calling-post-telephony-conference-members-me-supervisorcoach",
+      "POST /telephony/conference/members/me/undeafen": "webex-cloud-calling-post-telephony-conference-members-me-undeafen",
+      "POST /telephony/conference/members/me/unmute": "webex-cloud-calling-post-telephony-conference-members-me-unmute",
+      "POST /telephony/conference/members/{memberId}/addParticipant": "webex-cloud-calling-post-telephony-conference-members-memberid-addparticipant",
+      "POST /telephony/conference/members/{memberId}/bargeIn": "webex-cloud-calling-post-telephony-conference-members-memberid-bargein",
+      "POST /telephony/conference/members/{memberId}/conference": "webex-cloud-calling-post-telephony-conference-members-memberid-conference",
+      "POST /telephony/conference/members/{memberId}/deafen": "webex-cloud-calling-post-telephony-conference-members-memberid-deafen",
+      "POST /telephony/conference/members/{memberId}/hold": "webex-cloud-calling-post-telephony-conference-members-memberid-hold",
+      "POST /telephony/conference/members/{memberId}/mute": "webex-cloud-calling-post-telephony-conference-members-memberid-mute",
+      "POST /telephony/conference/members/{memberId}/resume": "webex-cloud-calling-post-telephony-conference-members-memberid-resume",
+      "POST /telephony/conference/members/{memberId}/silentMonitor": "webex-cloud-calling-post-telephony-conference-members-memberid-silentmonitor",
+      "POST /telephony/conference/members/{memberId}/supervisorCoach": "webex-cloud-calling-post-telephony-conference-members-memberid-supervisorcoach",
+      "POST /telephony/conference/members/{memberId}/undeafen": "webex-cloud-calling-post-telephony-conference-members-memberid-undeafen",
+      "POST /telephony/conference/members/{memberId}/unmute": "webex-cloud-calling-post-telephony-conference-members-memberid-unmute",
       "POST /telephony/conference/mute": "webex-cloud-calling-post-telephony-conference-mute",
       "POST /telephony/conference/resume": "webex-cloud-calling-post-telephony-conference-resume",
       "POST /telephony/conference/undeafen": "webex-cloud-calling-post-telephony-conference-undeafen",
@@ -1022,12 +1099,17 @@
       "POST /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria": "webex-cloud-calling-post-telephony-config-workspaces-workspaceid-simultaneousring-criteria",
       "POST /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadBusyGreeting/invoke": "webex-cloud-calling-post-telephony-config-workspaces-workspaceid-voicemail-actions-uploadbusygreeting-invoke",
       "POST /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadNoAnswerGreeting/invoke": "webex-cloud-calling-post-telephony-config-workspaces-workspaceid-voicemail-actions-uploadnoanswergreeting-invoke",
+      "POST /telephony/externalVoicemail/members/{memberId}/mwi": "webex-cloud-calling-post-telephony-externalvoicemail-members-memberid-mwi",
       "POST /telephony/externalVoicemail/mwi": "webex-cloud-calling-post-telephony-externalvoicemail-mwi",
       "POST /telephony/pstn/locations/{locationId}/emergencyAddress": "webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress",
       "POST /telephony/pstn/locations/{locationId}/emergencyAddress/lookup": "webex-cloud-calling-post-telephony-pstn-locations-locationid-emergencyaddress-lookup",
       "POST /telephony/pstn/locations/{locationId}/numbers": "webex-cloud-calling-post-telephony-pstn-locations-locationid-numbers",
       "POST /telephony/voiceMessages/markAsRead": "webex-cloud-calling-post-telephony-voicemessages-markasread",
       "POST /telephony/voiceMessages/markAsUnread": "webex-cloud-calling-post-telephony-voicemessages-markasunread",
+      "POST /telephony/voiceMessages/members/me/markAsRead": "webex-cloud-calling-post-telephony-voicemessages-members-me-markasread",
+      "POST /telephony/voiceMessages/members/me/markAsUnread": "webex-cloud-calling-post-telephony-voicemessages-members-me-markasunread",
+      "POST /telephony/voiceMessages/members/{memberId}/markAsRead": "webex-cloud-calling-post-telephony-voicemessages-members-memberid-markasread",
+      "POST /telephony/voiceMessages/members/{memberId}/markAsUnread": "webex-cloud-calling-post-telephony-voicemessages-members-memberid-markasunread",
       "POST /telephony/webhookInterestRegistrations": "webex-cloud-calling-post-telephony-webhookinterestregistrations",
       "POST /workspaces": "webex-cloud-calling-post-workspaces",
       "POST /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-post-workspaces-workspaceid-features-outgoingpermission-accesscodes",
@@ -1307,13 +1389,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "1e235ef1ecf1ea4d5eeeaa693d3788d0ffecd2b8"
+    "sha": "718512a523bdca121ad40a9574d05ef9dedd02da"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-17T19:59:29.949867+00:00",
+    "actualizado": "2026-09-27T10:51:20.014497+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "0864e55df450e33e284f94993505510f236443839c06b201f70019ec41490a9a",
+    "content_sha": "4586c278e20171fc942f75e4024b4f9674ff0a008009e9dbfbed58372790be60",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1839,18 +1921,19 @@
       "PUT /v1/agents/logout": "webex-contact-center-put-v1-agents-logout",
       "PUT /v1/agents/session/state": "webex-contact-center-put-v1-agents-session-state",
       "PUT /v1/callbacks/organization/{orgId}/scheduled-callback/{id}": "webex-contact-center-put-v1-callbacks-organization-orgid-scheduled-callback-id",
+      "PUT /v1/data/updateExternal": "webex-contact-center-put-v1-data-updateexternal",
       "PUT /v1/dialer/campaign/{campaignId}": "webex-contact-center-put-v1-dialer-campaign-campaignid",
       "PUT /v1/{orgId}/functions/{id}": "webex-contact-center-put-v1-orgid-functions-id",
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "0ad5e581917e9e976537ee268aa9b07f9970e765"
+    "sha": "a78484cc3db6aa8b823e2c7633d3fc435b308f29"
   },
   "webex-device.json": {
-    "actualizado": "2026-09-15T08:04:07.902199+00:00",
+    "actualizado": "2026-09-27T10:51:20.216231+00:00",
     "api": "Webex Device",
     "api_version": "1.0.0",
-    "content_sha": "e04dd944280df8d2ba5fb8943b6084334a80f8907a13d1a2ec189b2f614f32f5",
+    "content_sha": "7437540a236ae2475588979bed9613cc35ebc7524140ecfb238da590421783fe",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -1966,13 +2049,13 @@
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-device-put-workspacelocations-locationid-floors-floorid",
       "PUT /workspaces/{workspaceId}": "webex-device-put-workspaces-workspaceid"
     },
-    "sha": "4b1ebc064c0de13fa2f863d36dc28860e66edb43"
+    "sha": "f76d4bf30b7041cd08812708e2fc7c65156a41cd"
   },
   "webex-meeting.json": {
-    "actualizado": "2026-09-15T08:04:08.267820+00:00",
+    "actualizado": "2026-09-27T10:51:20.447301+00:00",
     "api": "Webex Meetings",
     "api_version": "1.0.0",
-    "content_sha": "10c602c8b555fcc12362dd74e233c5f716e61836cd5341aab5cef02a595861d6",
+    "content_sha": "befd4424aa9834a771ffee893184d9620da7c4168077bf97c0d42be6a2e2b4a6",
     "deprecadas": {},
     "operaciones": {
       "DELETE /admin/meeting/config/trackingCodes/{trackingCodeId}": "webex-meeting-delete-admin-meeting-config-trackingcodes-trackingcodeid",
@@ -2147,13 +2230,13 @@
       "PUT /people/{personId}": "webex-meeting-put-people-personid",
       "PUT /webhooks/{webhookId}": "webex-meeting-put-webhooks-webhookid"
     },
-    "sha": "85b553d5c6ec2d0af449fb347825c22fb8f1410c"
+    "sha": "ac52e6d3ac5a2a1b792e7301cc65e8d176423113"
   },
   "webex-messaging.json": {
-    "actualizado": "2026-09-15T08:04:08.513714+00:00",
+    "actualizado": "2026-09-27T10:51:20.577297+00:00",
     "api": "Webex Messaging",
     "api_version": "1.0.0",
-    "content_sha": "faa2b73f3a324f53779909b08b159726e2e56b6adc6e90a156104046afce0dce",
+    "content_sha": "794b8656058d98c37a0170d41d677e2d17faa3e9d8caf4ce7827880c7e4a41af",
     "deprecadas": {},
     "operaciones": {
       "DELETE /memberships/{membershipId}": "webex-messaging-delete-memberships-membershipid",
@@ -2220,22 +2303,24 @@
       "PUT /teams/{teamId}": "webex-messaging-put-teams-teamid",
       "PUT /webhooks/{webhookId}": "webex-messaging-put-webhooks-webhookid"
     },
-    "sha": "edf8bd91a15c04454748ef0b7635be9618541cfe"
+    "sha": "5303fc9a5dcdd705abc17019746bee0fed919c62"
   },
   "webex-ucm.json": {
-    "actualizado": "2026-09-15T08:04:08.728038+00:00",
+    "actualizado": "2026-09-27T10:51:20.704627+00:00",
     "api": "Webex for UCM",
     "api_version": "1.0.0",
-    "content_sha": "114ca6f74dd5d8c04cb85ccf3d350c8cd4de5451a0a9eff123837c46f910a5d7",
+    "content_sha": "cbc8c6a8cc925647aaa5441f384594df312ee9cdf20e5f9f030f7955499f450c",
     "deprecadas": {},
     "operaciones": {
       "GET /telephony/config/callingProfiles": "webex-ucm-get-telephony-config-callingprofiles"
     },
-    "sha": "6d05cac8291f26d7a7dd05099e346eaebced4587"
+    "sha": "9d19becfaf70c1e3971a17282e5bfb8682fe751f"
   },
   "webex-wholesale.json": {
-    "actualizado": "2026-08-16T11:30:33.734004+00:00",
-    "content_sha": "f7cbcae1dc3f3ab46cb74f12d5e4d6737ac3492fe2f95850d144e138ed232fce",
+    "actualizado": "2026-09-27T10:51:20.837581+00:00",
+    "api": "Webex Wholesale",
+    "api_version": "1.0.0",
+    "content_sha": "f1ac2829ead032008b5d374fe6277dd6ac86029d443fa7009cb5d5d58fa54122",
     "deprecadas": {},
     "operaciones": {
       "DELETE /wholesale/billing/reports/{id}": "webex-wholesale-delete-wholesale-billing-reports-id",
@@ -2257,6 +2342,6 @@
       "PUT /wholesale/customers/{customerId}": "webex-wholesale-put-wholesale-customers-customerid",
       "PUT /wholesale/subscribers/{subscriberId}": "webex-wholesale-put-wholesale-subscribers-subscriberid"
     },
-    "sha": "1e71dfafa1dcae10ea932d2a85f329f8320827ea"
+    "sha": "da8157179328b98159970fe79cd19edade117097"
   }
 }

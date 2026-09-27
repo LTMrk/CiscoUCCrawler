@@ -10,7 +10,7 @@ tags: Hybrid Data Security
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:08.501111+00:00
+retrieved_at: 2026-09-27T10:51:20.559969+00:00
 ---
 
 # GET /hds/organizations/{organizationId}/tenants

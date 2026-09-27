@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmepres-html-1b48d74ce4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmepres.html
-retrieved_at: 2026-08-21T07:23:57.252322+00:00
+retrieved_at: 2026-09-27T15:33:32.593458+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -2076,3 +2076,10 @@ Watcher                  Presentity               SubID Expires SibID  Status
 | Presence
                                        				  Service | 4.1 | Presence
                                        				  with BLF was introduced. |
+
+## Figuras
+
+![Figure 1. BLF
+                                 		  Notification Using Presence](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155790.ps/_jcr_content/renditions/155790.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

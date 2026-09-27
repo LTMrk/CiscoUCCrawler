@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--bfa3367054
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_0111.html
-retrieved_at: 2026-08-21T01:31:44.376073+00:00
+retrieved_at: 2026-09-27T12:29:59.045624+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -1175,3 +1175,7 @@ Phone cannot connect to CAPF.
 | IPv4 stack | IPv4 | IPv6 | Phone cannot connect to CAPF. |
 | IPv6 stack | IPv6 | IPv6 | Phone uses an IPv6 address to connect to CAPF. |
 | IPv6 stack | IPv6 | IPv4 | Phone cannot connect to CAPF. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

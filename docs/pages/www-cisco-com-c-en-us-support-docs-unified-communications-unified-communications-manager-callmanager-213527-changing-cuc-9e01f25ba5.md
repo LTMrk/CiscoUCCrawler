@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213527-changing-cuc-9e01f25ba5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass.html
-retrieved_at: 2026-09-01T15:33:18.561149+00:00
+retrieved_at: 2026-09-27T11:27:30.886902+00:00
 ---
 
 Reset or Change CUCM OS Admin and Security Password
@@ -110,3 +110,27 @@ Initial Release
 | 2.0 | 11-Jul-2022 | Content of this recert article is ok.
 Updated title and formatting, style requirements, gerunds, etc. to meet Cisco guidelines. |
 | 1.0 | 30-Jul-2018 | Initial Release |
+
+## Figuras
+
+![Set Password](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-00.jpeg)
+
+![Enter Old and New Password](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-01.jpeg)
+
+![Password Verified and Changed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-02.jpeg)
+
+![Reset OS Admin or Security Password - Log In](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-03.jpeg)
+
+![Select Any Image from Datastore](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-04.jpeg)
+
+![Press any Key](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-05.jpeg)
+
+![Remove the ISO](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-06.jpeg)
+
+![Option to Reset OS Admin Password or Security Password](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-07.jpeg)
+
+![Change Password for OS Admin](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-08.jpeg)
+
+![Change Password for Security](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-09.jpeg)
+
+![Verify Change](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass-10.jpeg)

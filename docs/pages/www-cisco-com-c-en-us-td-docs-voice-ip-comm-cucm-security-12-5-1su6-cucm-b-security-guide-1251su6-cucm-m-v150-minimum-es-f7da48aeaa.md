@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su6-cucm-b-security-guide-1251su6-cucm-m-v150-minimum-es-f7da48aeaa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU6/cucm_b_security-guide-1251su6/cucm_m_v150-minimum-essential-requirements.html
-retrieved_at: 2026-08-21T08:45:05.296383+00:00
+retrieved_at: 2026-09-27T12:19:16.439466+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -921,3 +921,7 @@ Click Save .
                                                 				Configuration window. See the online help for more information about
                                              			 the fields and their configuration options. |
 | Step 12 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

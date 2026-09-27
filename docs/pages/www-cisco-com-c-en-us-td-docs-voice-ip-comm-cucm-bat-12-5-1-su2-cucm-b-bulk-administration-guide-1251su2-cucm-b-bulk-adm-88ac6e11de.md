@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-88ac6e11de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_0100111.html
-retrieved_at: 2026-08-21T08:48:20.565780+00:00
+retrieved_at: 2026-09-27T11:39:16.661075+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -95,3 +95,7 @@ If IP phone service parameters are specified in the phone text file, the validat
                                        			 template that you created for this type of bulk transaction. |
 | Step 5 | To verify the chosen CSV data file with the database, click Submit . A job is created in the Job Scheduler option in the Bulk Administration menu. Use Job Configuration window to modify the job
                                        			 schedule. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

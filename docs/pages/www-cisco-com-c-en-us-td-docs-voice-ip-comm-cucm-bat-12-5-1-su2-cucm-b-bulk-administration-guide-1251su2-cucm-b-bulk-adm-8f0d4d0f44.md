@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-8f0d4d0f44
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_01000000.html
-retrieved_at: 2026-08-21T08:50:06.704837+00:00
+retrieved_at: 2026-09-27T11:42:44.732710+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -74,3 +74,7 @@ If there are any problems encountered during validation,
                                        			 was submitted successfully. |
 | Step 3 | To check the status of the job, use the Job Scheduler option in
                                        			 the Bulk Administration main menu. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

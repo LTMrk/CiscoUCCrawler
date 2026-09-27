@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-0100-html-d2e2470099
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_0100.html
-retrieved_at: 2026-08-21T08:07:09.446092+00:00
+retrieved_at: 2026-09-27T11:22:41.138004+00:00
 ---
 
 Cisco Unity Connection Telephony Interface (CUTI) API
@@ -771,3 +771,7 @@ Request Body:
 
 | put.setRequestBody(new FileInputStream(file3)); |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

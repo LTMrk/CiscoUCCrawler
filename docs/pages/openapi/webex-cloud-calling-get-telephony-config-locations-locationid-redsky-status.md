@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.023106+00:00
+retrieved_at: 2026-09-27T10:51:19.380594+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/redSky/status

@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T19:59:29.916679+00:00
+retrieved_at: 2026-09-27T10:51:19.951666+00:00
 ---
 
 # POST /organization/{orgid}/user/fetch-by-skill-requirements

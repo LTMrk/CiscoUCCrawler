@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su4-cucm-b-administration-guide-1251su4-cucm-b-test-admingu-605a5bb813
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_administration-guide-1251su4/cucm_b_test-adminguide_chapter_01000.html
-retrieved_at: 2026-08-21T16:00:59.078340+00:00
+retrieved_at: 2026-09-27T11:53:03.957682+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -356,3 +356,7 @@ The server reboots after you run this command.
 |---|---|
 | Step 2 | If you want to assign a DNS server, run one of the following commandson the publisher node: To assign the primary DNS server run set network dns primary <ip_address> To assign the secondary DNS server run the set network dns secondary <ip_address> |
 | Step 3 | To assign additional DNS option run the set network dns options [timeout\| seconds] [attempts\| number] [rotate]. Timeout Sets the DNS timeout Seconds is the number of seconds for the timeout Attempts Sets the number of times to attempt a DNS request Number specifies the number of attempts Rotate causes the system to rotate among the configured DNS servers and distribute the load For example, set network dns options timeout 60 attempts 4 rotate The server reboots after you run this command. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

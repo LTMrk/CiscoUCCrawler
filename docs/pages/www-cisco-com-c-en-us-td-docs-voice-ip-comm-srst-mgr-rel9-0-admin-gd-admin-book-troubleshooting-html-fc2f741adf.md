@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-troubleshooting-html-fc2f741adf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/troubleshooting.html
-retrieved_at: 2026-08-21T23:39:59.424455+00:00
+retrieved_at: 2026-09-27T15:30:03.276280+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -165,3 +165,11 @@ Back to the Troubleshooting Using the GUI menu page
 | Result | Result of the network connectivity test. Can be either Success or Failed. |
 | Time (ms) | The amount of time, in milliseconds, that it took to connect. |
 | Details | Any additional details about this network connectivity test. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-release-notes-srst-releasenotes-12-2-html-ede2e9f42e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/release/notes/SRST_ReleaseNotes_12_2.html
-retrieved_at: 2026-08-21T21:29:05.138291+00:00
+retrieved_at: 2026-09-27T15:26:09.980570+00:00
 ---
 
 Release Notes for Cisco Unified Survivable Remote Site Telephony, 12.2
@@ -153,3 +153,7 @@ Any Internet Protocol (IP) addresses and phone numbers used in this document are
 ### This Document Applies to These Products
 
 - Unified Survivable Remote Site Telephony
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

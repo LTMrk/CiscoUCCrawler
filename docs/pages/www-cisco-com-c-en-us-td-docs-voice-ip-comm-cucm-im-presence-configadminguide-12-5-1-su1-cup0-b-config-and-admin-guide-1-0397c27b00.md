@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-0397c27b00
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_01100.html
-retrieved_at: 2026-08-21T09:01:25.768691+00:00
+retrieved_at: 2026-09-27T12:36:46.797014+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -660,3 +660,7 @@ Intercluster Sync Agent uses DNS to resolve all CUCM and IM&P servers listed in 
                                           of whether those clusters are centralized or decentralized. |
 | Intercluster Sync Agent and DNS | Intercluster Sync Agent uses DNS to resolve all CUCM and IM&P servers listed in peer cluster's tomcat certificate (SAN entries).
                                           If the DNS resolution fails, Intercluster Sync Agent will not connect to the remote peer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

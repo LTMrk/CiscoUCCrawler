@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su3-admingd-cucm-b-administration-guide-1251su3-cucm-m-post-8ae8d97863
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/adminGd/cucm_b_administration-guide-1251su3/cucm_m_post-change-tasks-and-verification.html
-retrieved_at: 2026-08-21T16:05:11.205396+00:00
+retrieved_at: 2026-09-27T11:57:15.373474+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -593,3 +593,7 @@ hippo2.burren.pst has address 10.63.70.125 tasks. | Note | Perform this step onl
                                                       services are automatically started for these name changes. However, if some services do not automatically start after the
                                                       change, complete this step to ensure that all feature services are started. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

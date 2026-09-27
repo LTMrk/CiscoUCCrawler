@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-core-config-dns-html-6e1503cbad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_dns.html
-retrieved_at: 2026-08-21T23:38:59.754204+00:00
+retrieved_at: 2026-09-27T15:29:04.733453+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -51,3 +51,11 @@ c. At the prompt, click OK .
 What To Do Next
 
 If you have made any changes, save and then reload the configuration. See Saving and Reloading the Cisco Unified SRST Manager Configuration .
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

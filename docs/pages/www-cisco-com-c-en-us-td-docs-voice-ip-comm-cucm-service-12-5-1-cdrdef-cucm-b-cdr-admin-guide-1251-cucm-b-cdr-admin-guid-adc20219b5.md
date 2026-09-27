@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-adc20219b5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_010.html
-retrieved_at: 2026-08-21T01:38:06.157880+00:00
+retrieved_at: 2026-09-27T12:16:03.558095+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -101,3 +101,7 @@ If the value of the CDR Log Calls With Zero Duration Flag parameter is True, the
 | Note | If the value of the CDR Log Calls With Zero Duration Flag parameter is True, the system writes all calls to a flat file. See
                                           the "Configuring CDR Service Parameters" section in the CDR Analysis and Reporting Administration Guide for additional information about this parameter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

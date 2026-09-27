@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-phone-setu-1e676b332c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_phone-setup.html
-retrieved_at: 2026-08-21T23:26:30.407117+00:00
+retrieved_at: 2026-09-27T15:40:18.630415+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -662,3 +662,25 @@ Tap the back arrow in the upper left corner twice to save your changes and exit 
 | Step 4 | Enter the Local Phone Unlock Password . The default password is **# . |
 | Step 5 | Choose one of the following options in the Call server mode. Auto detect UCM WxC |
 | Step 6 | Tap the back arrow in the upper left corner twice to save your changes and exit the menu. |
+
+## Figuras
+
+![Figure 1. Battery contact location on the Cisco Wireless Phone 840 and Cisco Wireless Phone 860](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455811.jpg)
+
+![Image of battery with the two tabs on the top highlighted.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451695.jpg)
+
+![Image of the back of the phone with no battery in it and red highlights on the two battery slots.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451696.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451697.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451698.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451699.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451700.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451701.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451702.jpg)
+
+![Figure 2. Cisco Wireless Phone 860 battery contact damage](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451694.jpg)

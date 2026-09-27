@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-article-tajemk-074c486f19
 source_url: https://help.webex.com/article/tajemk
-retrieved_at: 2026-09-01T18:53:50.734240+00:00
+retrieved_at: 2026-09-27T19:35:33.253818+00:00
 ---
 
 ### Understanding Report Configuration Flows
@@ -3146,9 +3146,14 @@ Percentage of calls that were transferred to a dial number (DN) by blind transfe
 
 (Calls Transferred to DN / Calls Presented) x 100
 
-It is calculated by subtracting these categories from the total number of Calls Presented.
+This parameter represents the number of calls remaining after
+                                subtracting Calls Handled, Calls Abandoned, Calls Moved Out of
+                                Queue, Calls Transferred to DN, Consult to Queue Failed Count, and
+                                Consult to Entry Point Failed Count from Calls Presented, and adding
+                                the number of times the digital interaction task was paused.
 
-A value of 0 indicates that the calls presented and handled are equal for a queue during the specified time range.
+CP -CH CA - CMOOQ -- CTQFC - Consult to Entry Point Failed Count
+                                (CTEPFC)⁠" - "Calls Transferred to DN⁠" + "taskPausedCount__i
 
 .
 
@@ -7216,7 +7221,12 @@ With this feature, you can efficiently migrate from Webex Contact Center 1.0 to 
 | Maximum Queue Time | The maximum time a call spent waiting in the queue. | — | Maximum Queue Duration |
 | Calls Transferred to DN | Number of calls that were transferred to a dial number (DN) by blind transfer node via flow. If you want the calls transferred to DN count to be incremented, contact Cisco Support as the corresponding feature flag may have to be enabled. | Handle type is TransferToDN . | Count of Contact Session ID |
 | Percentage Calls Transferred to DN | Percentage of calls that were transferred to a dial number (DN) by blind transfer node via flow. | — | (Calls Transferred to DN / Calls Presented) x 100 |
-| Others | This parameter represents the total number of calls that are not included in the predefined categories of Calls Handled, Calls Abandoned, Calls Moved Out of Queue, or Calls Transferred to DN. It is calculated by subtracting these categories from the total number of Calls Presented. A value of 0 indicates that the calls presented and handled are equal for a queue during the specified time range. | — | Call Presented – (Calls Handled + Calls Abandoned + Calls Moved Out of Queue + Calls Transferred to DN + Consult to Queue Failed Count + Consult to Entry Point Failed Count) |
+| Others | This parameter represents the number of calls remaining after
+                                subtracting Calls Handled, Calls Abandoned, Calls Moved Out of
+                                Queue, Calls Transferred to DN, Consult to Queue Failed Count, and
+                                Consult to Entry Point Failed Count from Calls Presented, and adding
+                                the number of times the digital interaction task was paused. | — | CP -CH CA - CMOOQ -- CTQFC - Consult to Entry Point Failed Count
+                                (CTEPFC)⁠" - "Calls Transferred to DN⁠" + "taskPausedCount__i |
 | Consult to Queue Failed Count | Count of consult requests failed at queue. | — | CTQ Error Count + Outdial CTQ Error Count |
 | Consult to Entry Point Failed Count | Count of consult requests failed at Entry Point. | — | Sum of Consult To EP Error Count |
 
@@ -7938,3 +7948,13 @@ With this feature, you can efficiently migrate from Webex Contact Center 1.0 to 
 | You can also select the predefined formula to calculate only the table level
                   summary for the column that has a formula field. AVG is disabled for division-based custom formula fields in Customize Report
                   Summary |
+
+## Figuras
+
+![Tree icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/438001-439000/438050.jpg)
+
+![Ellipsis icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/441001-442000/441108.jpg)
+
+![Navigation icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/441001-442000/441333.jpg)
+
+![Edit icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/438001-439000/438048.jpg)

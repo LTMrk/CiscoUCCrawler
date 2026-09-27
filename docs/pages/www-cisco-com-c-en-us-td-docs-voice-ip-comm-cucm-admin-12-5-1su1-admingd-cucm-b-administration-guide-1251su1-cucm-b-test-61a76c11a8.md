@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-61a76c11a8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_01101.html
-retrieved_at: 2026-08-21T08:33:34.530237+00:00
+retrieved_at: 2026-09-27T11:59:01.807814+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -702,3 +702,7 @@ Click OK .
 | Step 3 | Follow the wizard prompts to set your preferred criteria: In the Alert Properties: Email Notification popup, make sure that Enable Email is checked and click Configure to set the default alert action, which will be to email an administrator. Follow the prompts and Add a Recipient email address. When this alert is triggered, the default action is to email this address. Click Save . |
 | Step 4 | Set the default Email server: Select System > Tools > Alert > Config
                                                       				  Email Server . Enter the e-mail server and port information to send email alerts. Enter the Send User Id . Click OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

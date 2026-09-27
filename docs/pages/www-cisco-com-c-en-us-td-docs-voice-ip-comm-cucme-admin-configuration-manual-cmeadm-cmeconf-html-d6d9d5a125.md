@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeconf-html-d6d9d5a125
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeconf.html
-retrieved_at: 2026-08-21T07:25:11.842541+00:00
+retrieved_at: 2026-09-27T15:36:24.878387+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -4704,3 +4704,15 @@ Support
 | 3.2 | Conference initiator drop-off control was introduced. |
 | 2.0 | Support
                                           					 for software-based conferencing was introduced. |
+
+## Figuras
+
+![Figure 1. Simple Meet Me Conference Scenario](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170459.ps/_jcr_content/renditions/170459.jpg)
+
+![Figure 2. AdHoc Software Conference Using the Conference Softkey](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170458.ps/_jcr_content/renditions/170458.jpg)
+
+![Figure 3. CME and the
+                                    			 DSP Farm on the Same Router](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170540.ps/_jcr_content/renditions/170540.jpg)
+
+![Figure 4. Cisco
+                                    			 Unified CME and the DSP Farm on Different Routers](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170541.ps/_jcr_content/renditions/170541.jpg)

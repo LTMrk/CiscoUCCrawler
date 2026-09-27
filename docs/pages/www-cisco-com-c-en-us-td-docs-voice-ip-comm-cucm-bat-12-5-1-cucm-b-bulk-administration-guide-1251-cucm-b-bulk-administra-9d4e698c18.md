@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-9d4e698c18
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_011.html
-retrieved_at: 2026-08-21T17:55:32.455028+00:00
+retrieved_at: 2026-09-27T12:00:36.499717+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -8435,3 +8435,7 @@ To create a job for updating the device names, click Submit .
 | Step 3 | In the Job Information area, enter the Job description. |
 | Step 4 | Choose a method to update the device names. Do one of the following: Select Run Immediately to update the device names immediately. Select Run Later to insert the device names later. |
 | Step 5 | To create a job for updating the device names, click Submit . To schedule or activate this job, use the Job Scheduler option in the Bulk Administration main menu. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

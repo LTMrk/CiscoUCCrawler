@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--d610d1268d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_0101.html
-retrieved_at: 2026-08-21T01:31:36.077488+00:00
+retrieved_at: 2026-09-27T12:29:50.315935+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -1197,3 +1197,7 @@ TLS 1.2
 | 5280 | TLS 1.0, TLS 1.1, TLS 1.2 | TLS 1.1, TLS 1.2 | TLS 1.2 | TLS 1.1 | TLS 1.1, TLS 1.2 | TLS 1.2 |
 | 8083 | TLS 1.0, TLS 1.1, TLS 1.2 | TLS 1.1, TLS 1.2 | TLS 1.2 | TLS 1.1 | TLS 1.1, TLS 1.2 | TLS 1.2 |
 | 8443 | TLS 1.0, TLS 1.1, TLS 1.2 | TLS 1.1, TLS 1.2 | TLS 1.2 | TLS 1.1 | TLS 1.1, TLS 1.2 | TLS 1.2 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-215208-configure-debug-collection-for-u-33c2120447
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.html
-retrieved_at: 2026-09-01T17:31:38.116198+00:00
+retrieved_at: 2026-09-27T11:19:01.877825+00:00
 ---
 
 Configure Debug Collection for CUBE and TDM Gateways
@@ -691,3 +691,23 @@ Initial Release
 | 2.0 | 13-Apr-2023 | Added Alt Text.
 Updated Title, Introduction, Branding Requirements, Style Requirements, Gerunds, Formatting and Grammar. |
 | 1.0 | 13-Aug-2021 | Initial Release |
+
+## Figuras
+
+![TDM Gateways Provide a Bridge between your Internal VoIP Infrastructure and Analog or ISDN Service Providers](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-00.png)
+
+![CUBE Provides a Division between your Internal VoIP Infrastructure and the SIP ITSP](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-01.png)
+
+![Access the CLI of Routers](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-02.png)
+
+![Dump all Output in the Terminal](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-03.png)
+
+![Collect Information from the Terminal Monitor](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-04.png)
+
+![Log the Entire Session to a .txt File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b-05.png)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

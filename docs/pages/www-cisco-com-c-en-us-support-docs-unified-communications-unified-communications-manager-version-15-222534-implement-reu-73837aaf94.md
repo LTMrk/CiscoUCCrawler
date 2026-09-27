@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-15-222534-implement-reu-73837aaf94
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert.html
-retrieved_at: 2026-08-21T13:53:40.399535+00:00
+retrieved_at: 2026-09-27T12:53:01.028785+00:00
 ---
 
 Implement Reuse of Multi-SAN Tomcat Certificate for CallManager
@@ -109,3 +109,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Oct-2024 | Initial Release |
+
+## Figuras
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![Click Reuse Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert-00.jpeg)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Click Finish](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert-01.jpeg)
+
+![Restart the Cisco HAProxy Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert-02.jpeg)
+
+![Validate the Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert-03.jpeg)

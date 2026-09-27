@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-changing-srst-site-info-multiple-sites-h-cf4e1243ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/changing_srst_site_info_multiple_sites.html
-retrieved_at: 2026-08-21T23:38:46.901778+00:00
+retrieved_at: 2026-09-27T15:28:51.668392+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -53,3 +53,9 @@ Step 5 Click Update .
 The system applies the changes to each of the sites.
 
 Related Topics
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

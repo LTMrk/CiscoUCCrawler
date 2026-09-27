@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.118636+00:00
+retrieved_at: 2026-09-27T10:51:19.527561+00:00
 ---
 
 # GET /telephony/voiceMessages/summary
@@ -24,6 +24,9 @@ Get Message Summary
 
 ## Descripción
 Get a summary of the voicemail messages for the user.
+
+## Parámetros
+- `lineOwnerId` [query] (string): The ID of a user, workspace, virtual line, auto attendant, hunt group, or call queue for which there is a secondary line on a device owned by the user invoking the API, or that was shared with the user invoking the API.
 
 ## Ejemplo de invocación
 ```bash

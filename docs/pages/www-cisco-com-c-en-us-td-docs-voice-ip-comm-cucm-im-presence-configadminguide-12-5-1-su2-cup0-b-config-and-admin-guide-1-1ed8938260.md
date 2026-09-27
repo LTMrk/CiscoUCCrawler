@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-1ed8938260
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_010110.html
-retrieved_at: 2026-08-21T09:06:44.109403+00:00
+retrieved_at: 2026-09-27T12:34:50.845306+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -933,3 +933,7 @@ If there is federation with external domains, you may need to publish the aliase
 
 | Note | If you have the Automatic option enabled, and you want to disable it, click the Disable Automatic Clean-up Job button. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-f79d8830a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_01011.html
-retrieved_at: 2026-09-16T06:44:33.349510+00:00
+retrieved_at: 2026-09-27T12:42:51.501625+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -136,3 +136,7 @@ SSH Server allows
 | Step 4 | On the Remote
                                           			 Control tab, set whether administrators can remotely view and control a remote
                                           			 session and whether a user's permission is required. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

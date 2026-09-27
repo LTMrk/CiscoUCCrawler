@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-back-rest-html-153a10e30c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/back_rest.html
-retrieved_at: 2026-08-21T23:39:42.317949+00:00
+retrieved_at: 2026-09-27T15:29:46.634696+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -45,3 +45,13 @@ Note It is recommended that you back up your configuration files whenever change
 - Cisco Unified SRST Manager supports only full backup and restore. This feature does not support backing up or restoring select details of a configuration.
 
 - If you change a configuration, then perform a system restore, the restore process will overwrite the changes to the configuration.
+
+## Figuras
+
+![tip.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

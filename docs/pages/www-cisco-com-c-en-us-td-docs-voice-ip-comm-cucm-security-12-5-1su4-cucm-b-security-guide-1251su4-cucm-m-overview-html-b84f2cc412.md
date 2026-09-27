@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-overview-html-b84f2cc412
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_overview.html
-retrieved_at: 2026-08-21T18:05:31.941812+00:00
+retrieved_at: 2026-09-27T12:21:52.212470+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -242,3 +242,7 @@ For conference and barge calls, the security icon displays the security status f
                                        icon when the parameter value is True and audio is secure. This condition ignores the security statuses of all other media
                                        channels. The default parameter value is False. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

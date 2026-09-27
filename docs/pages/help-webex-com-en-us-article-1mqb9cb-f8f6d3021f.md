@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-1mqb9cb-f8f6d3021f
 source_url: https://help.webex.com/en-us/article/1mqb9cb
-retrieved_at: 2026-09-01T21:38:43.179420+00:00
+retrieved_at: 2026-09-27T19:35:48.180894+00:00
 ---
 
 ## Add a phone to a new workspace
@@ -202,3 +202,7 @@ If you're deleting a workspace assigned an MPP phone, when the workspace is dele
               offline or can't be contacted, you should manually factory reset it before reusing it.
               For more information, see Factory reset a Webex Calling phone . After the
               factory reset, the phone returns to its Activation Code screen. |
+
+## Figuras
+
+![More menu](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451601.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--d00abb65d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_010.html
-retrieved_at: 2026-08-21T08:39:34.650789+00:00
+retrieved_at: 2026-09-27T12:27:31.601161+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -961,3 +961,7 @@ Microsoft
 
 | Tip | In Safari, click the Certificate Error status box to display the Show Certificate option. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

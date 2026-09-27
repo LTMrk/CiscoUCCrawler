@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-78e908053e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_01.html
-retrieved_at: 2026-08-21T04:34:03.877200+00:00
+retrieved_at: 2026-09-27T12:38:36.562936+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -890,12 +890,10 @@ In Packaged CCE 2000 Agents deployment, the Inventory displays the total number 
 
 Configuration
 
-Rules
-                                                      						for installation and configuration of a component.
+Rules for installation and configuration of a component.
 
-These
-                                                      						rules identify problems with mismatched configuration between components,
-                                                      						missing services, and incorrectly configured services.
+These rules identify problems with mismatched configuration between components, missing services, and incorrectly configured
+                                                      services.
 
 Unified CCE Rogger: The trace level must be set to normal to ensure performance.
 
@@ -910,12 +908,9 @@ Call Type associated with Multi-Channel dialed number must be configured with th
 
 Operations
 
-Rules
-                                                      						for the runtime status of a component.
+Rules for the runtime status of a component.
 
-These
-                                                      						rules identify services and processes that cannot be reached, are not running,
-                                                      						or are not in the expected state.
+These rules identify services and processes that cannot be reached, are not running, or are not in the expected state.
 
 Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs.
 
@@ -923,12 +918,11 @@ Cloud Connect: Type is either Publisher or Subscriber.
 
 System Health
 
-Metrics to monitor the CPU, memory, and disk usage of a component's Virtual Machine (VM) as reported by ESXi over the last
-                                                      10 minutes. The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts, these
-                                                      metrics also include datastore performance information.
+Metrics to monitor the CPU and memory usage of a component's Virtual Machine (VM) as reported by ESXi over the last 10 minutes.
+                                                      The memory and CPU usage may differ slightly from system tools reported by the VM itself.
 
 For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
-                                                      CPU oversubscription, memory reservation and datastore utilization information.
+                                                      CPU oversubscription, and memory reservation.
 
 All: Memory usage as reported by ESXi - 17%
 
@@ -939,8 +933,6 @@ Maximum CPU Reservation - 65%
 Maximum CPU Oversubscription - 200%
 
 Maximum Memory Reservation - 80%
-
-Maximum Storage Usage per Datastore - 80%
 
 VM
 
@@ -963,11 +955,10 @@ Side A Unified CCE AW-HDS-DDS: Application Gateway
 
 Side A Unified CCE AW-HDS-DDS: Application Instance: Up to 12 Application Instances can be defined.
 
-###### VM
-                                    	 Validation
+###### VM Validation
 
 The validation for the Packaged CCE: 2000 Agents deployment type makes the following checks to ensure hardware compliance
-                                       and conformance with the Cisco-provided OVA files.
+                                          and conformance with the Cisco-provided OVA files.
 
 For Hosts:
 
@@ -976,8 +967,6 @@ BIOS
 Minimum number of CPU cores
 
 Minimum memory
-
-Data store size
 
 For VMs:
 
@@ -992,10 +981,6 @@ VM is powered on
 CPU reservation
 
 Exact memory
-
-Exact disk size
-
-Exact number of disks
 
 VMware tools
 
@@ -7871,19 +7856,13 @@ Enter
 
 | Server Status Category | Description | Example Rules |
 |---|---|---|
-| Configuration | Rules
-                                                      						for installation and configuration of a component. These
-                                                      						rules identify problems with mismatched configuration between components,
-                                                      						missing services, and incorrectly configured services. | Unified CCE Rogger: The trace level must be set to normal to ensure performance. Unified CVP: The names of the SIP Server Groups on CVP containing Communications Manager addresses must match the Communications Manager
+| Configuration | Rules for installation and configuration of a component. These rules identify problems with mismatched configuration between components, missing services, and incorrectly configured
+                                                      services. | Unified CCE Rogger: The trace level must be set to normal to ensure performance. Unified CVP: The names of the SIP Server Groups on CVP containing Communications Manager addresses must match the Communications Manager
                                                       Cluster Fully Qualified Domain Name. Cloud Connect: The Cloud Connect Publisher must be configured with the supported cloud services. Call Type must be configured with the survey in the supported channels. Call Type associated with Multi-Channel dialed number must be configured with the Inline survey. |
-| Operations | Rules
-                                                      						for the runtime status of a component. These
-                                                      						rules identify services and processes that cannot be reached, are not running,
-                                                      						or are not in the expected state. | Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs. Cloud Connect: Type is either Publisher or Subscriber. |
-| System Health | Metrics to monitor the CPU, memory, and disk usage of a component's Virtual Machine (VM) as reported by ESXi over the last
-                                                      10 minutes. The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts, these
-                                                      metrics also include datastore performance information. For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
-                                                      CPU oversubscription, memory reservation and datastore utilization information. | All: Memory usage as reported by ESXi - 17% For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration: Maximum CPU Reservation - 65% Maximum CPU Oversubscription - 200% Maximum Memory Reservation - 80% Maximum Storage Usage per Datastore - 80% |
+| Operations | Rules for the runtime status of a component. These rules identify services and processes that cannot be reached, are not running, or are not in the expected state. | Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs. Cloud Connect: Type is either Publisher or Subscriber. |
+| System Health | Metrics to monitor the CPU and memory usage of a component's Virtual Machine (VM) as reported by ESXi over the last 10 minutes.
+                                                      The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
+                                                      CPU oversubscription, and memory reservation. | All: Memory usage as reported by ESXi - 17% For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration: Maximum CPU Reservation - 65% Maximum CPU Oversubscription - 200% Maximum Memory Reservation - 80% |
 | VM | VM requirements for a component. | All: VMware Tools must be up to date |
 | System Validation | Rules for Unified CCE database and configuration settings. These rules identify whether the configuration of objects in your deployment match the requirements and limits for Packaged
                                                       Contact Center Enterprise. Note The System Validation category is available only for the Side A Unified CCE AW-HDS-DDS. | Note | The System Validation category is available only for the Side A Unified CCE AW-HDS-DDS. | Side A Unified CCE AW-HDS-DDS: Agent Desk Settings: Ring No Answer Times must not be set. Side A Unified CCE AW-HDS-DDS: Application Gateway Side A Unified CCE AW-HDS-DDS: Application Instance: Up to 12 Application Instances can be defined. |
@@ -10689,3 +10668,7 @@ nonVolatile |
 
 | Note | Every time the Active Directory credentials are updated, the credentials configured here must be updated as well. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Example ICM Database Look Up](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/290001-300000/292001-293000/292516.tif/_jcr_content/renditions/292516.jpg)

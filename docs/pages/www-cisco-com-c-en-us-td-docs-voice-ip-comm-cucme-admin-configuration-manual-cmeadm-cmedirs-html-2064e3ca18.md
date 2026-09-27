@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmedirs-html-2064e3ca18
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmedirs.html
-retrieved_at: 2026-08-21T07:23:10.345773+00:00
+retrieved_at: 2026-09-27T15:32:36.775645+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1743,3 +1743,7 @@ local directory service: enabled. |
                                              					 ability to block the display of the local directory on phones was introduced. |
 | 2.0 | The
                                              					 specification of name format in the local directory was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

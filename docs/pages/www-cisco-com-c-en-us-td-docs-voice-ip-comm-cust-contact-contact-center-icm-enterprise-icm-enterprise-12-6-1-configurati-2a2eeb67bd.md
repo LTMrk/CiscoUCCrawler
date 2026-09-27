@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-2a2eeb67bd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/rcct_m_1261es2_security-considerations-for-mobile-agent-deployments.html
-retrieved_at: 2026-09-16T06:44:37.740416+00:00
+retrieved_at: 2026-09-27T12:42:55.777721+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -139,3 +139,7 @@ SELinux Rules
 | Note | For Nginx-based reverse proxy rules, installation, configuration, and security hardening instructions, refer to the Reverse Proxy Automated Installer chapter in the Cisco Unified Contact Center Enterprise Features Guide . Any reverse proxy supporting the required criteria as mentioned in the above chapter can be used in place of Nginx for supporting
                                              this feature. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-feature-guide-srst8-1-html-68eb2dbb5f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/feature/guide/srst8_1.html
-retrieved_at: 2026-08-21T21:29:54.485255+00:00
+retrieved_at: 2026-09-27T15:27:02.569879+00:00
 ---
 
 Cisco Unified Survivable Remote Site Telephony 8.1 New Features
@@ -9262,3 +9262,7 @@ Cisco Unified SRST 8.1
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified SRST 8.1 | 15.1(2)T | • Toll Fraud Prevention Enhancement • Enhancements to SIP Phone Configuration |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

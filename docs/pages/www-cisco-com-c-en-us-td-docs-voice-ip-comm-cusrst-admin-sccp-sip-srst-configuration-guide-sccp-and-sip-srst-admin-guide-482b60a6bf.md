@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-482b60a6bf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_monitoring_and_maintaining.html
-retrieved_at: 2026-08-21T02:49:39.020271+00:00
+retrieved_at: 2026-09-27T11:23:56.947615+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -109,3 +109,7 @@ Displays specific voice register directory number detail information.
 | Router# show voice register dial-peers | Displays SIP-SRST created dial peer. |
 | Router# show voice register dn all | Displays all config voice register directory number detail information. |
 | Router# show voice register dn tag | Displays specific voice register directory number detail information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

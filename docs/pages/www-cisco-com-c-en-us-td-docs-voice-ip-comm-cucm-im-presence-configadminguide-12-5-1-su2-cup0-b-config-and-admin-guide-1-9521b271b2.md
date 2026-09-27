@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-9521b271b2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_010.html
-retrieved_at: 2026-08-21T09:05:19.491035+00:00
+retrieved_at: 2026-09-27T12:31:42.922065+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -316,3 +316,7 @@ If you checked the Update with Reboot check box, the node reboots and the change
 | Tip | Do not check the Update with Reboot check box if you want to manually reboot the node at a later time, such as during a scheduled maintenance window; however,
                                                          the changes you made do not take effect until you reboot the node. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

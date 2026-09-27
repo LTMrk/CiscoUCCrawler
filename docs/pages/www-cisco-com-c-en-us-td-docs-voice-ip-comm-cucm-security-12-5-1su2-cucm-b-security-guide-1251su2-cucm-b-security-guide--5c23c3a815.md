@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--5c23c3a815
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_preface_00.html
-retrieved_at: 2026-08-21T08:39:25.603460+00:00
+retrieved_at: 2026-09-27T12:27:21.795854+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -264,3 +264,7 @@ Further
 
 | Caution | Means reader be careful . In this situation, you might do something that could result in equipment damage or loss of data. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

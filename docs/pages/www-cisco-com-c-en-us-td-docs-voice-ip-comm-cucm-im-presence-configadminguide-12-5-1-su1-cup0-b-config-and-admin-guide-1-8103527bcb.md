@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-8103527bcb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_011.html
-retrieved_at: 2026-08-21T09:00:48.094716+00:00
+retrieved_at: 2026-09-27T12:36:05.289777+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -620,3 +620,7 @@ Restart Services
 | Step 3 | Select the end user that you want to configure. |
 | Step 4 | In the User Information area, enter a directory URI in the Directory URI field. |
 | Step 5 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

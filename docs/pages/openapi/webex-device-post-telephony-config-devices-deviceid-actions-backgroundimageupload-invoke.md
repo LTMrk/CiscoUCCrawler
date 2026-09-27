@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:07.886049+00:00
+retrieved_at: 2026-09-27T10:51:20.194267+00:00
 ---
 
 # POST /telephony/config/devices/{deviceId}/actions/backgroundImageUpload/invoke

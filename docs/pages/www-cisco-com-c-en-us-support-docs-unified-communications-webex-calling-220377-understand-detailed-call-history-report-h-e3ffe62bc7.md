@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-h-e3ffe62bc7
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.html
-retrieved_at: 2026-08-20T23:21:36.387277+00:00
+retrieved_at: 2026-09-27T12:48:11.697128+00:00
 ---
 
 Understand Detailed Call History Report for Webex Calling
@@ -117,3 +117,11 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Apr-2023 | Initial Release |
+
+## Figuras
+
+![Monthly Report of Call Scenario Example](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report-00.png)
+
+![Call Flow on the Report](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report-01.png)
+
+![End of Call Flow Report](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report-02.png)

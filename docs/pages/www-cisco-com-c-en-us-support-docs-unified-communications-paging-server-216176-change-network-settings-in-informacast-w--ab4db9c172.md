@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216176-change-network-settings-in-informacast-w--ab4db9c172
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216176-change-network-settings-in-informacast-w.html
-retrieved_at: 2026-08-21T12:40:11.490263+00:00
+retrieved_at: 2026-09-27T15:09:17.261673+00:00
 ---
 
 Change Network Settings in Informacast with GUI and Console
@@ -195,3 +195,9 @@ Cisco TAC
 - Paging Server
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

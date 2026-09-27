@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-managed-services-guide-1251-cucm-b-manag-976b7bccb6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251/cucm_b_managed-services-guide-1251_chapter_0110.html
-retrieved_at: 2026-08-21T09:00:15.937424+00:00
+retrieved_at: 2026-09-27T12:17:30.326669+00:00
 ---
 
 Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service
@@ -10291,3 +10291,7 @@ iso.3.6.1.4.1.9.9.156.1.1.1.1.2.2 = STRING: "Cluster1" |
 | 12/15/2003 | Added | New enumerations. MIB module for configuring and monitoring System Log related management parameters as defined by RFC 3164. |
 | 11/13/2002 | Added | cseSyslogServerFacility to cseSyslogServerTable. Added two TCs SyslogFacility and SyslogExFacility. |
 | 10/04/2002 | Initial Version | := { ciscoMgmt 301 } |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

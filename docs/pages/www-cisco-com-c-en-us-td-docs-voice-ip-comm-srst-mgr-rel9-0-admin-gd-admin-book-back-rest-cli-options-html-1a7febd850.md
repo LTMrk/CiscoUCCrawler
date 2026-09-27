@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-back-rest-cli-options-html-1a7febd850
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/back_rest_cli_options.html
-retrieved_at: 2026-08-21T23:39:50.850868+00:00
+retrieved_at: 2026-09-27T15:29:55.147485+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -304,3 +304,9 @@ Returns to EXEC mode.
 | Step 3 | backup security protected srstmgr-1(config)# backup security protected | Enables secure mode for backups. In secure mode, all backup files are protected using encryption and a signature. |
 | Step 4 | backup security enforced srstmgr-1(config)# backup security enforced | Specifies that only protected and untampered backup files are restored. |
 | Step 5 | end srstmgr-1(config)# end | Returns to EXEC mode. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

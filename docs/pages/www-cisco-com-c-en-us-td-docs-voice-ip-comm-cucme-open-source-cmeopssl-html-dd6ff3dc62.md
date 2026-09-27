@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-open-source-cmeopssl-html-dd6ff3dc62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/open/source/cmeopssl.html
-retrieved_at: 2026-08-21T09:46:30.473984+00:00
+retrieved_at: 2026-09-27T15:37:55.036979+00:00
 ---
 
 Cisco Unified Communications Manager Express Open Source License
@@ -97,3 +97,7 @@ The license and distribution terms for any publicly available version or derivat
 ### This Document Applies to These Products
 
 - Unified Communications Manager Express
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

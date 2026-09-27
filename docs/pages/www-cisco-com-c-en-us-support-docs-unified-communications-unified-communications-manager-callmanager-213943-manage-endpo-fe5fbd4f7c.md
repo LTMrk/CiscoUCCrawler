@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213943-manage-endpo-fe5fbd4f7c
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213943-manage-endpoints-from-pcp-without-end-us.html
-retrieved_at: 2026-08-21T13:58:13.776364+00:00
+retrieved_at: 2026-09-27T15:08:34.757994+00:00
 ---
 
 Manage Endpoints from PCP without End User Association in CUCM
@@ -115,3 +115,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 29-Nov-2018 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -53,7 +53,11 @@ RUTA_DELTAS_REPOS = "logs/repos_deltas.json"
 # directorio HERMANO de pages/ para mantenerlos separados.
 DIR_DOCS_REPOS = os.path.join(os.path.dirname(DIR_DOCS), "repos")
 
-USER_AGENT = "CiscoUCCrawler/3.0 (documentation indexing for internal RAG)"
+# Un solo User-Agent para todo el pipeline. Habia tres, uno de ellos
+# todavia con el marcador "TU-ORG" en la URL de contacto, que es
+# exactamente lo que un operador de origen mira cuando decide si
+# bloquear al rastreador.
+from fetch_policy import USER_AGENT  # noqa: E402
 
 # Tamano maximo por fichero. Un .md de 300 KB en un repo de codigo casi siempre
 # es un volcado generado (referencia de API autogenerada, listado de simbolos),

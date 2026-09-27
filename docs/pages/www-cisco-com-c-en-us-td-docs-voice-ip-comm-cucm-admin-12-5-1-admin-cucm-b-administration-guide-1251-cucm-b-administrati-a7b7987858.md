@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-administration-guide-1251-cucm-b-administrati-a7b7987858
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_011.html
-retrieved_at: 2026-08-21T01:08:06.611842+00:00
+retrieved_at: 2026-09-27T11:47:17.264850+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -1096,3 +1096,7 @@ After you
                                                          				  Cisco Unified CM Administration). You can only update these fields in Cisco
                                                          				  Unified CM Administration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

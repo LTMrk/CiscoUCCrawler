@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-ucm-security-mo-7210e16777
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_ucm-security-modes_reorg.html
-retrieved_at: 2026-08-21T18:05:49.259629+00:00
+retrieved_at: 2026-09-27T12:22:09.195453+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -249,3 +249,7 @@ OAuth support for SIP registrations is extended only for Cisco Jabber devices fr
 | 9.1(2) | Token 1
                                                 					 (Signer) Token 2 | Not
                                                 					 applicable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

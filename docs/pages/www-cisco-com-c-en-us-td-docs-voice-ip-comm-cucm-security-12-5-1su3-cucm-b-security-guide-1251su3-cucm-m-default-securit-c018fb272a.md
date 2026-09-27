@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su3-cucm-b-security-guide-1251su3-cucm-m-default-securit-c018fb272a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU3/cucm_b_security_guide_1251SU3/cucm_m_default-security-setup_su2_reorg.html
-retrieved_at: 2026-08-21T08:35:07.160422+00:00
+retrieved_at: 2026-09-27T12:25:40.833203+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -1453,3 +1453,7 @@ Step 21
 
 | Tip | If you configured secure SRST references in a previous Unified Communications Manager release, the configuration automatically migrates during the Unified Communications Manager upgrade. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

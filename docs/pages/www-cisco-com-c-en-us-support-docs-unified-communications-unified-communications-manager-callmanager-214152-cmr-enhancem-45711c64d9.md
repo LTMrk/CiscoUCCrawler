@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214152-cmr-enhancem-45711c64d9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214152-cmr-enhancement-in-cucm-12-5.html
-retrieved_at: 2026-08-21T13:58:25.998691+00:00
+retrieved_at: 2026-09-27T15:08:55.978714+00:00
 ---
 
 CMR Enhancement in CUCM 12.5
@@ -289,3 +289,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

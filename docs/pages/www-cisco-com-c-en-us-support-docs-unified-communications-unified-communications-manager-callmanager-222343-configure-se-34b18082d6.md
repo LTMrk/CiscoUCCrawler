@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-222343-configure-se-34b18082d6
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu.html
-retrieved_at: 2026-08-21T13:59:37.391594+00:00
+retrieved_at: 2026-09-27T15:09:38.621258+00:00
 ---
 
 Configure Secure Ad Hoc Conference on CUCM 15
@@ -319,3 +319,29 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 06-Sep-2024 | Initial Release |
+
+## Figuras
+
+![Download CallManager Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-00.png)
+
+![Upload SecureCFB.pem](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-01.png)
+
+![Configure Secure Conference Bridge](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-02.png)
+
+![Set Device Security Profile to Encrypted Mode](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-03.png)
+
+![Security Mode was Encrypted](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-04.png)
+
+![Create a Media Resource Group MRG_SecureCFB](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-05.png)
+
+![Create a Media Resource Group List MRGL_SecureCFB](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-06.png)
+
+![Assign Media Resource Group List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-07.png)
+
+![Test Call was Encrypted](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/222343-configure-secure-ad-hoc-conference-on-cu-08.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

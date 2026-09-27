@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmedialp-html-cd073e4d4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmedialp.html
-retrieved_at: 2026-08-21T07:22:44.117980+00:00
+retrieved_at: 2026-09-27T15:32:13.359548+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -2615,3 +2615,8 @@ voice translation-rule 3
 | 3.2 | Adds,
                                        				  removes, or transforms digits for calls going to or originating from specified
                                        				  ephone-dns. |
+
+## Figuras
+
+![Figure 1. Translation
+                                    			 Rules in SIP Call Transfer](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170612.ps/_jcr_content/renditions/170612.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--ac5176417d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_011010.html
-retrieved_at: 2026-08-21T08:43:18.360513+00:00
+retrieved_at: 2026-09-27T12:29:15.744663+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -230,3 +230,7 @@ When prompted to confirm the delete operation, click OK to delete or Cancel to c
 |---|---|
 | Step 2 | To delete a security profile, perform the following task: In the Find and List window, check the check box next to the appropriate security profile; then, click Delete Selected . |
 | Step 3 | When prompted to confirm the delete operation, click OK to delete or Cancel to cancel the delete operation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

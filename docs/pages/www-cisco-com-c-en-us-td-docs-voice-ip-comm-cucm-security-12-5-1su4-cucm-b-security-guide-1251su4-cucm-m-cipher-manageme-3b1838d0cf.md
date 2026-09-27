@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-cipher-manageme-3b1838d0cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_cipher-management_reorg.html
-retrieved_at: 2026-08-21T18:05:53.840663+00:00
+retrieved_at: 2026-09-27T12:22:13.613943+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -1182,3 +1182,7 @@ diffie-hellman-group-exchange-sha1 |
                                                          are not supported from Release 12.5(1)SU4 if you have configured Cipher Management functionality in your Unified CM server.
                                                          If the ciphers are not configured, DRS Client uses these algorithms. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-14-222048-set-up-radkit-42a9de78c3
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.html
-retrieved_at: 2026-08-21T13:53:49.281732+00:00
+retrieved_at: 2026-09-27T12:53:05.481961+00:00
 ---
 
 Set Up RADKit in a Collaboration Environment
@@ -321,3 +321,109 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Jun-2024 | Initial Release |
+
+## Figuras
+
+![RADKit Architecture](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-00.png)
+
+![RADkit Downloads](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-01.png)
+
+![Release](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-02.png)
+
+![Version Selection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-03.png)
+
+![Download Installer](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-04.png)
+
+![RADkit Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-05.png)
+
+![Register Superadmin User](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-06.png)
+
+![Service Enrollment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-07.png)
+
+![SSO Enrollment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-08.png)
+
+![Service Enrolled With New Identity](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-09.png)
+
+![Service Connected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-10.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Add Device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-11.png)
+
+![Add New Device](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-12.png)
+
+![Terminal Connection Method SSH](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-13.png)
+
+![Terminal Connection Method HTTP](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-14.png)
+
+![Active Toggle Enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-15.png)
+
+![Remote Users Add User](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-16.png)
+
+![Add New User (Remote)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-17.png)
+
+![client = sso_login(cesavila@cisco.com)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-18.png)
+
+![Authorization Request](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-19.png)
+
+![Authentication Result: Success](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-20.png)
+
+![Serial: k331-0evx-s94g](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-21.png)
+
+![service = client.service(k331-0evx-s94g)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-22.png)
+
+![Service.inventory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-23.png)
+
+![cucm = service.inventory['cesavilacucm']](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-24.png)
+
+![Cucm.interactive()](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-25.png)
+
+![http_proxy = client.start_http_proxy(4001)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-26.png)
+
+![Radkit HTTP Proxy](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-27.png)
+
+![Radkit HTTP Service ID](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-28.png)
+
+![Radkit HTTP Proxy - Expressway-E](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-29.png)
+
+![Cucm.forwarded_tcp_ports](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-30.png)
+
+![Cucm.forward_tcp_port(local_port=8443, destination_port=443)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-31.png)
+
+![CUCM Web Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-32.png)
+
+![Cucm.forwarded_tcp_ports](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-33.png)
+
+![Cucm.forwarded_tcp_ports](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-34.png)
+
+![Real-Time Monitoring Tool Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-35.png)
+
+![Authentication Required](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-36.png)
+
+![Real-Time Monitoring Tool Display](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-37.png)
+
+![Analysis Manager](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-38.png)
+
+![Nodes](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-39.png)
+
+![Add Nodes](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-40.png)
+
+![Preferences](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-41.png)
+
+![Download Directory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-42.png)
+
+![Collect Traces Now](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-43.png)
+
+![Collect Traces Now Customize](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-44.png)
+
+![Customize Collection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-45.png)
+
+![Collect Traces Now Ok](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-46.png)
+
+![Collecting Traces from 1 Nodes](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-47.png)
+
+![r = cucm.http.post](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-48.png)
+
+![POST Success](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati-49.png)

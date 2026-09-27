@@ -10,7 +10,7 @@ tags: Audio Files
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-17T19:59:29.841367+00:00
+retrieved_at: 2026-09-27T10:51:19.876979+00:00
 ---
 
 # DELETE /organization/{orgid}/audio-file/{id}

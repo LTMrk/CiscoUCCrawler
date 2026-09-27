@@ -2,10 +2,15 @@
 doc_id: webex-broadworks-delete-broadworks-workspaces-workspaceid
 source: webex-openapi-specs/public-spec/webex-broadworks.json
 api: Webex Broadworks Calling
+api_version: 1.0.0
 method: DELETE
 path: /broadworks/workspaces/{workspaceId}
+operation_id: removeBroadWorksWorkspace
+tags: BroadWorks Workspaces
+deprecated: false
+scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-08-16T11:30:32.286172+00:00
+retrieved_at: 2026-09-27T10:51:18.915024+00:00
 ---
 
 # DELETE /broadworks/workspaces/{workspaceId}
@@ -21,10 +26,18 @@ Remove a BroadWorks Workspace
 Remove the mapping between a BroadWorks workspace and Cisco Webex device.
 
 ## Parámetros
-- `workspaceId` [path] (string) **(requerido)**: A unique Cisco identifier for the workspace.
+- `workspaceId` [path] (string) (**requerido**): A unique Cisco identifier for the workspace.
 
-## Respuestas
-- **204**: No Content
+## Ejemplo de invocación
+```bash
+curl -X DELETE '/broadworks/workspaces/<workspaceId>' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**204**: No Content
+
+## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
@@ -40,6 +53,9 @@ Remove the mapping between a BroadWorks workspace and Cisco Webex device.
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.
 - **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex BroadWorks Calling APIs provide access to advanced calling features and user management for BroadWorks-powered Webex Calling deployments. These APIs support provisioning of users and devices, call control, feature management, device inventory, and detailed reporting. Service providers and enterprises can automate onboarding, integrate with OSS/BSS systems, manage user entitlements, and monitor call quality. The APIs are designed for scalable, multi-tenant environments and support seamless integration with existing telephony infrastructure.
 
 ---
 > Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.

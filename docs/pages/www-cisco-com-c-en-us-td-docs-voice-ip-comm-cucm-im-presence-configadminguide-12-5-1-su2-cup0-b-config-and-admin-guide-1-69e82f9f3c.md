@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-69e82f9f3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_0111.html
-retrieved_at: 2026-08-21T09:05:40.555785+00:00
+retrieved_at: 2026-09-27T12:32:04.198083+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -583,3 +583,7 @@ Verify Services on Cisco Unified Communications Manager
                                                    server and click Go Under IM and Presence Services , select Cisco OAMAgent and click Restart . Restart the service on all cluster nodes. |
 | Step 7 | After the OAM Agent restarts, restart the Cisco Presence Engine. Choose Tools > Control Center - Feature Services . From the Server drop-down list box, choose the IM and Presence
                                                    node and click Go . Under IM and Presence Services , select Cisco Presence Engine and click Restart . Restart the service on all cluster nodes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

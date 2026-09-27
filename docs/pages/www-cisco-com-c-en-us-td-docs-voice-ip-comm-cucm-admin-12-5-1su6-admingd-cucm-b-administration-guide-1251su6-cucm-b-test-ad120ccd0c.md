@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-admingd-cucm-b-administration-guide-1251su6-cucm-b-test-ad120ccd0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/cucm_b_administration-guide-1251su6/cucm_b_test-adminguide_chapter_01110.html
-retrieved_at: 2026-08-21T08:38:23.860424+00:00
+retrieved_at: 2026-09-27T11:49:51.664161+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6 and 12.5(1)SU7
@@ -666,3 +666,7 @@ Sample ACS URL: <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.
 | To provision the server metadata manually, use the Assertion Customer Service (ACS) URL. Example: Sample ACS URL: <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cucm.ucsso.cisco.com:8443/ssosp/saml/SSO/alias/cucm.ucsso.cisco.com"
                                                 index="0"/> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

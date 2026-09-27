@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmelabel-html-1e36f44eb8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmelabel.html
-retrieved_at: 2026-08-21T07:25:21.803233+00:00
+retrieved_at: 2026-09-27T15:36:34.860026+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -5364,3 +5364,10 @@ Router(config-telephony)# service phone displayidleTimeout 00.01 | Sets
                                        				  supported SIP phones. |
 | 2.0 | Provisioning customized URLs for programmable feature buttons
                                        				  was introduced. |
+
+## Figuras
+
+![Figure 1. Cisco Unified IP Phone Display](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82878.ps/_jcr_content/renditions/82878.jpg)
+
+![Figure 2. PTT Call
+                                 		  Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393454.tif/_jcr_content/renditions/393454.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-5456751c4f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_0100110.html
-retrieved_at: 2026-08-21T17:52:04.598722+00:00
+retrieved_at: 2026-09-27T11:33:18.738822+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -64,3 +64,7 @@ A job is created in the Job Scheduler option in the Bulk Administration menu. Us
                                        			 that you created for this type of bulk transaction. |
 | Step 4 | To add the matching file format with the CSV data file, click Submit . A job is created in the Job Scheduler option in the Bulk Administration menu. Use Job Configuration window to modify the job
                                           				schedule. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

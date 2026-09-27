@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--61107c614c
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.html
-retrieved_at: 2026-08-20T23:21:40.474758+00:00
+retrieved_at: 2026-09-27T12:48:32.952606+00:00
 ---
 
 Download Call Recordings through API with Webex as the Provider
@@ -166,3 +166,23 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Jul-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Select the Converged Recordings Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-00.png)
+
+![List Recordings for Compliance Officer Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-01.png)
+
+![Query Parameters and Run Button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-02.png)
+
+![Response Box Elements](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-03.png)
+
+![Get Recording Details.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-04.png)
+
+![Click on the recordingId Button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-05.png)
+
+![Recording Id and Run Button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-06.png)
+
+![MP3 File Downloads](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit-07.png)

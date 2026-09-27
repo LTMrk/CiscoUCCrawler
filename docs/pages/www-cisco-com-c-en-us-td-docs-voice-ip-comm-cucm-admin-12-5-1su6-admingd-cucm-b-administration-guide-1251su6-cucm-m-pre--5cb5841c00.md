@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-admingd-cucm-b-administration-guide-1251su6-cucm-m-pre--5cb5841c00
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/cucm_b_administration-guide-1251su6/cucm_m_pre-change-tasks.html
-retrieved_at: 2026-08-21T08:38:44.252201+00:00
+retrieved_at: 2026-09-27T11:50:12.894161+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6 and 12.5(1)SU7
@@ -579,3 +579,11 @@ admin: |
 
 | Note | Perform this step only if you are changing the domain name or node name. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Unified Communications Manager Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/351001-352000/351882.eps/_jcr_content/renditions/351882.jpg)
+
+![Figure 2. IM and Presence Service Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346990.eps/_jcr_content/renditions/346990.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

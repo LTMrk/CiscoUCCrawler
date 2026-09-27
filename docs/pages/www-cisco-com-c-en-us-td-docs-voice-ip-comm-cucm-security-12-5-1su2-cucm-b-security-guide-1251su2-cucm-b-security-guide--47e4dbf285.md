@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--47e4dbf285
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_01101.html
-retrieved_at: 2026-08-21T08:40:24.639435+00:00
+retrieved_at: 2026-09-27T12:28:21.636164+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -677,3 +677,7 @@ You may need to uncheck this check box to update the configuration file for chan
 | Step 1 | To disable encryption for the phone configuration files, Uncheck TFTP Encrypted Config check box in the phone security profile associated to the phone. |  |
 | Step 2 | For Cisco Unified IP Phone s 7942 and 7962 (SIP only), Enter a 32-byte 0 as the key value for the symmetric key at the phone screen to disable encryption. |  |
 | Step 3 | For Cisco Unified IP Phone s (SIP only), delete the symmetric key at the phone screen to disable encryption. | For information on how to perform these tasks, see the phone administration guide that supports your phone model. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-release-notes-srst-releasenotes-12-6-html-856d48b08a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/release/notes/SRST_ReleaseNotes_12_6.html
-retrieved_at: 2026-08-21T21:28:52.228377+00:00
+retrieved_at: 2026-09-27T15:25:57.762919+00:00
 ---
 
 Release Notes for Cisco Unified Survivable Remote Site Telephony, 12.6
@@ -230,3 +230,9 @@ Any Internet Protocol (IP) addresses and phone numbers used in this document are
 | Caveat | Description |
 |---|---|
 | CSCvw00301 | For Cisco 4000 Series Integrated Services Routers in Specific License Reservation (SLR) mode, license status is displayed as AUTHORIZED though more license than reserved is consumed. |
+
+## Figuras
+
+![SRST_ReleaseNotes_12_6-2.jpg](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cusrst/release/notes/SRST_ReleaseNotes_12_6.fm/_jcr_content/renditions/SRST_ReleaseNotes_12_6-2.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

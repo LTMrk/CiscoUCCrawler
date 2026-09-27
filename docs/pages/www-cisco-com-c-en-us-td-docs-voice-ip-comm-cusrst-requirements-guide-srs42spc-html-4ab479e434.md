@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs42spc-html-4ab479e434
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs42spc.html
-retrieved_at: 2026-08-21T21:28:18.385133+00:00
+retrieved_at: 2026-09-27T15:25:23.660721+00:00
 ---
 
 Cisco Unified SRST 4.2 Supported Firmware, Platforms, Memory, and Voice Products
@@ -389,3 +389,7 @@ See above phone firmware vs phone type table
 | Cisco Communications Manager, SCCP phones only | 4.1.3 SR2 | SRST Version 3.4 was tested with the following IP phones: Cisco 7970G, Cisco 7960G, and Cisco 7912G. |
 | Cisco Communications Manager, SCCP and SIP phones | 5.x | See above phone firmware vs phont type table |
 | Cisco Unified Communication Manager, SCCP and SIP phones | 6.x | See above phone firmware vs phone type table |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--a86913fbda
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_01010.html
-retrieved_at: 2026-08-21T01:34:04.270137+00:00
+retrieved_at: 2026-09-27T11:44:45.937437+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -912,3 +912,7 @@ Cisco Unified Communications Manager Call Detail Records
 | Tandem | Inbound calls that originate outside the Unified Communications Manager network, enter the Unified Communications Manager network through a gateway, and transfer outbound from the Unified Communications Manager network through a gateway. |
 | Others | All other outgoing calls, such as toll-free
                                                       						  numbers or emergency calls such as 911. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

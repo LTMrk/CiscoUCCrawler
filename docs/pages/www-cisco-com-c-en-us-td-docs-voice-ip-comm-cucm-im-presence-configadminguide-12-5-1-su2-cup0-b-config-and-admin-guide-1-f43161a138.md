@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-f43161a138
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_010011.html
-retrieved_at: 2026-08-21T09:06:31.059013+00:00
+retrieved_at: 2026-09-27T12:34:37.711526+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -773,3 +773,13 @@ When you export the user's contact list using Bulk Administration > Contact List
 
 | Note | In environments with more than 2 clusters these numbers are not supported. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Enterprise
+                                 			 Groups Deployment Model 1](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393001.eps/_jcr_content/renditions/393001.jpg)
+
+![Figure 2. Enterprise
+                                 			 Groups Deployment Model 2](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393002.eps/_jcr_content/renditions/393002.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

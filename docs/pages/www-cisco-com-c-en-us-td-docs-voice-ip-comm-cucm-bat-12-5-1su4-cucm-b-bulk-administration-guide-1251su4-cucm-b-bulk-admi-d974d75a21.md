@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-d974d75a21
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_0100.html
-retrieved_at: 2026-08-21T17:49:41.819199+00:00
+retrieved_at: 2026-09-27T11:29:20.465050+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -394,3 +394,7 @@ To create a job for associating the matching file format with the
 | Step 5 | To create a job for associating the matching file format with the
                                        			 CSV data file, click Submit . Use the Job Scheduler option in the Bulk Administration main menu
                                        			 to schedule and / or activate this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

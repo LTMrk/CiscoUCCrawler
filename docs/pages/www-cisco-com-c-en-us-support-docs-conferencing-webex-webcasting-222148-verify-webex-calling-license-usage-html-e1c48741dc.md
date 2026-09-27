@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-webcasting-222148-verify-webex-calling-license-usage-html-e1c48741dc
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html
-retrieved_at: 2026-08-21T07:15:28.112222+00:00
+retrieved_at: 2026-09-27T12:48:28.633893+00:00
 ---
 
 Verify Webex Calling License Usage
@@ -229,3 +229,31 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 18-Jul-2024 | Initial Release |
+
+## Figuras
+
+![Users CSV File](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-00.png)
+
+![Users CSV Content Sample](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-01.png)
+
+![Attendant Console Usage](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-02.png)
+
+![Workspace CSV File](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-03.png)
+
+![Workspaces CSV Content Sample](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-04.png)
+
+![Webex Go Usage](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-05.png)
+
+![Webex Go Mobile Usage](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-06.png)
+
+![Users CSV Cisco Calling Plan Content Sample](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-07.png)
+
+![Cisco Webex Calling Filter](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-08.png)
+
+![Cisco Calling Plan Workspace](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-09.png)
+
+![Cisco Calling Plan Virtual Line](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage-10.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

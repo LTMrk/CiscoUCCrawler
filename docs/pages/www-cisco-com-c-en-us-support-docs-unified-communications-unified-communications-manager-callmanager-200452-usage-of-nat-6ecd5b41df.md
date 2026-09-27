@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200452-usage-of-nat-6ecd5b41df
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200452-Usage-of-Native-Emergency-Call-Routing-F.html
-retrieved_at: 2026-08-21T13:55:30.285323+00:00
+retrieved_at: 2026-09-27T15:06:07.819559+00:00
 ---
 
 Usage of Native Emergency Call Routing Feature in CUCM
@@ -122,6 +122,24 @@ There is currently no specific troubleshooting information available for this co
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Somnath Gupta
+
+TAC Engineer
+
+### This Document Applies to These Products
+
+- Call Routing / Dial Plans
+
+- Unified Communications Manager (CallManager)
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 27-Apr-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

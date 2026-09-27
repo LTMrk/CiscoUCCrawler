@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmevrf-html-25641a101e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmevrf.html
-retrieved_at: 2026-08-21T07:25:33.879663+00:00
+retrieved_at: 2026-09-27T15:36:48.105389+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1529,3 +1529,7 @@ VRF supports Cisco Unified CME, conferencing, transcoding, and
 | VRF Support in Cisco Unified CME | 7.0(1) | VRF supports Cisco Unified CME, conferencing, transcoding, and
                                           					 RSVP components. VRF also allows soft phones in data VRF resources to
                                           					 communicate with phones in a VRF voice gateway. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

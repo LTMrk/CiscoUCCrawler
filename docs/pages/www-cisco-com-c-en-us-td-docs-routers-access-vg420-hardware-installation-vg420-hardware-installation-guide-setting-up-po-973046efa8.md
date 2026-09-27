@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg420-hardware-installation-vg420-hardware-installation-guide-setting-up-po-973046efa8
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/hardware-installation/vg420-hardware-installation-guide/setting-up-power-supplies-cisco-vg420.html
-retrieved_at: 2026-08-22T01:16:08.573804+00:00
+retrieved_at: 2026-09-27T11:25:16.562050+00:00
 ---
 
 Cisco VG420 Voice Gateway Hardware Installation Guide
@@ -293,3 +293,13 @@ If the device was turned off, turn the power back on to the device.
 | Caution | Do not over torque the terminal block captive screws. Ensure that the connection is snug, but the wire is not crushed. Verify
                                                                by tugging lightly on each wire to ensure that they do not move. |
 |---|---|
+
+## Figuras
+
+![Figure 1. 650WAC AC Power Supply](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357565.jpg)
+
+![Figure 2. 650WAC AC Power Supply](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/356001-357000/356817.jpg)
+
+![Figure 3. DC Power Supply](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357009.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

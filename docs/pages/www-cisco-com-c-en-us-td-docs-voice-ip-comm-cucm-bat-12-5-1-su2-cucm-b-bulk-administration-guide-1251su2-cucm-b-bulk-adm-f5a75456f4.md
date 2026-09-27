@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-f5a75456f4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_0111000.html
-retrieved_at: 2026-08-21T08:49:33.796075+00:00
+retrieved_at: 2026-09-27T11:40:28.637372+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -118,3 +118,7 @@ Use the Job Scheduler option in the Bulk Administration main menu to schedule
                                                       				  in the result set by browsing the entire set of results, before submitting a
                                                       				  job for deleting call pickup groups. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

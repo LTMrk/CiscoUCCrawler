@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su4-cucm-b-administration-guide-1251su4-cucm-b-test-admingu-2880e89a74
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_administration-guide-1251su4/cucm_b_test-adminguide_chapter_01011.html
-retrieved_at: 2026-08-21T16:02:46.627788+00:00
+retrieved_at: 2026-09-27T11:54:51.058734+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -1907,3 +1907,7 @@ Deploy a VM for the restore from an OVA template that has 2 virtual
                                              taking the backup, then reregister the product for updating the license information. For more information on how to register the product with Cisco Smart Software Manager or Cisco Smart Software Manager satellite,
                                           see the System Configuration Guide for Cisco Unified Communications Manager for your release. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su6-cucm-b-security-guide-1251su6-cucm-m-fips-mode-setup-bf7317775b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU6/cucm_b_security-guide-1251su6/cucm_m_fips-mode-setup_su2_reorg.html
-retrieved_at: 2026-08-21T08:44:56.718681+00:00
+retrieved_at: 2026-09-27T12:19:07.585737+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -749,3 +749,7 @@ The system will reboot in a few minutes. Unified Communications Manager reboots 
                                                                   mode. Phone models that support only TLSv1.0 such as 7975 and 9971 are not supported in the Common Criteria mode. Temporarly allow TLS 1.0 when using the CTL Client and then move the Cluster to Common Criteria mode. Configure Minimum TLS
                                                                   to 1.1 or 1.2. Migrate to Tokenless CTL by using the CLI Command utils ctl set-cluster mixed-mode in Common Criteria mode. Configure Minimum TLS to 1.1 or 1.2. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

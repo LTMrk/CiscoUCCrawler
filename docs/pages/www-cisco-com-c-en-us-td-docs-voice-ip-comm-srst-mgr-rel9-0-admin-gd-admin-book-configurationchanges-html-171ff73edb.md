@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-configurationchanges-html-171ff73edb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/configurationchanges.html
-retrieved_at: 2026-08-21T23:39:29.421463+00:00
+retrieved_at: 2026-09-27T15:29:34.504407+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -39,3 +39,9 @@ Cisco Unified SRST Manager gets the CLI information from the router. Hence, ther
 ## Viewing the Configuration Changes
 
 To viewing the CLI log file, refer to Viewing the Site Provisioning History Report .
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

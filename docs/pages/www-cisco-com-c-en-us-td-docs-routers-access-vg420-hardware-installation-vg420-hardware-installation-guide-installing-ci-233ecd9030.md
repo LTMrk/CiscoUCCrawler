@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg420-hardware-installation-vg420-hardware-installation-guide-installing-ci-233ecd9030
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/hardware-installation/vg420-hardware-installation-guide/installing-cisco-vg420.html
-retrieved_at: 2026-08-22T01:16:04.583060+00:00
+retrieved_at: 2026-09-27T11:25:12.496335+00:00
 ---
 
 Cisco VG420 Voice Gateway Hardware Installation Guide
@@ -240,3 +240,19 @@ In the above image, 1 indicates Ground Lug.
 | Step 3 | Attach the ground lug or ring terminal to the chassis as shown in the following image. Use one of the screws provided. Tighten
                                        the screws to a torque of 8 to 10 in-lb (0.9 to 1.1 N-m). |
 | Step 4 | Connect the other end of the ground wire to a known reliable earth ground point at your site. Figure 6. Chassis Grounding In the above image, 1 indicates Ground Lug. |
+
+## Figuras
+
+![Figure 1. Attaching the Brackets to the Chassis](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357559.jpg)
+
+![Figure 2. I/O Side Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357560.jpg)
+
+![Figure 3. PS and Middle Side Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357561.jpg)
+
+![Figure 4. Rack Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357562.jpg)
+
+![Figure 5. Rack Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357563.jpg)
+
+![Figure 6. Chassis Grounding](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357564.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

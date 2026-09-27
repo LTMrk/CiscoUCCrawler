@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222137-troubleshoot-webex-calling-video-calls-e--d06ddfa24e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.html
-retrieved_at: 2026-08-21T07:16:23.588675+00:00
+retrieved_at: 2026-09-27T12:49:19.404639+00:00
 ---
 
 Troubleshoot Webex Calling Video Calls Establishment
@@ -171,3 +171,27 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 18-Jul-2024 | Initial Release |
+
+## Figuras
+
+![User License Assignment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-00.png)
+
+![Workspace License Assignment](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-01.png)
+
+![Organization Video Toggles](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-02.png)
+
+![User Video Toggles](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-03.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Incoming Video Calls](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-04.png)
+
+![Video Icon Removed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-05.png)
+
+![Video Option Removed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-06.png)
+
+![Compression Options](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e-07.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

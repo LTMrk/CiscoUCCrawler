@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-secure-recordin-f54c73eb3a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_secure-recording-and-monitoring.html
-retrieved_at: 2026-08-21T18:07:09.867892+00:00
+retrieved_at: 2026-09-27T12:25:06.835089+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -104,3 +104,7 @@ For more information and detailed procedures, see the "Monitoring and Recording"
                                        			 and recording. Configure a
                                              				  built-in bridge for the agent phone. Configure the Recording Option ( Automatic Call Recording Enabled and Application Invoked Call Recording Enabled .) using the Directory Number page on the agent phone. Create a route pattern for the recorder. Add a call recording profile to the Directory Number. Provision
                                              				  monitoring and recording tones as needed. For more information and detailed procedures, see the "Monitoring and Recording" chapter in the Feature Configuration Guide for Cisco Unified Communications Manager . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

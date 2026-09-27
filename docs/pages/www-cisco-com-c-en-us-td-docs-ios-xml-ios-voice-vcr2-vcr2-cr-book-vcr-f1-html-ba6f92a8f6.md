@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-f1-html-ba6f92a8f6
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-f1.html
-retrieved_at: 2026-08-16T23:16:57.312359+00:00
+retrieved_at: 2026-09-27T15:27:25.873307+00:00
 ---
 
 Cisco IOS Voice Command Reference - D through I
@@ -4316,3 +4316,7 @@ Modifies the boundaries and limits for custom call-progress tones defined by the
 | supervisory custom-cptone | Associates a class of custom call-progress tones with a voice port. |
 | voice class custom-cptone | Creates a voice class for defining custom call-progress tones. |
 | voice class dualtone-detect-params | Modifies the boundaries and limits for custom call-progress tones defined by the voice class custom-cptone command. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

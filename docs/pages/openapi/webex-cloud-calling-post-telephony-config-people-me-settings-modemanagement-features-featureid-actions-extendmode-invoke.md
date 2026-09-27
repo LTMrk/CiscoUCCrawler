@@ -10,7 +10,7 @@ tags: Mode Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:26.957767+00:00
+retrieved_at: 2026-09-27T10:51:19.335772+00:00
 ---
 
 # POST /telephony/config/people/me/settings/modeManagement/features/{featureId}/actions/extendMode/invoke

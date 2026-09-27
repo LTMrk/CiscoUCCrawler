@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-2c7018256e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_video_parameters.html
-retrieved_at: 2026-08-21T02:49:34.959357+00:00
+retrieved_at: 2026-09-27T11:23:52.611588+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -828,3 +828,7 @@ Show VoIP RTP connections: Displays information about RTP named-event packets, s
 | Step 4 | video Example: Router(config-call-manager-fallback)# video | Enters call-manager-fallback video configuration mode. |
 | Step 5 | maximum bit-rate value Example: Router(conf-cm-fallback-video)# maximum
 bit-rate 256 | Sets the maximum IP phone video bandwidth, in kbps. The range is 0 to 10000000. The default is 10000000. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

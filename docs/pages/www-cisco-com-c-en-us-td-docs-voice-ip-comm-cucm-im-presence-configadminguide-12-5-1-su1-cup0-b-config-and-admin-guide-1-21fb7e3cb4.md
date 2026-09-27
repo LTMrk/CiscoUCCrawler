@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-21fb7e3cb4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_010100.html
-retrieved_at: 2026-08-21T09:01:59.195163+00:00
+retrieved_at: 2026-09-27T12:37:20.729027+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -384,3 +384,11 @@ In this code, header.navigation.color is the branding property that you want to 
 | 15 | Link divider | header.divider.color |
 | 16 | Unified CM IM and Presence Administration text in banner (post-login) | splash.login.text.color |
 | 17 | System version and VMware Installation text | splash.version.color |
+
+## Figuras
+
+![Figure 1. Branding Options for the Administration Login Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393436.tif/_jcr_content/renditions/393436.jpg)
+
+![Figure 2. Branding Options for the Administration Logged In Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393435.tif/_jcr_content/renditions/393435.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

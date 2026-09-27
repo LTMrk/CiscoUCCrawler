@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-54ad569a7d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_appendix_01010001.html
-retrieved_at: 2026-08-21T18:03:12.903890+00:00
+retrieved_at: 2026-09-27T12:08:04.310805+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -2794,3 +2794,7 @@ MoProfile1,testexport,2323,123456 in part1,33,Dial via Office Reverse
 | Step 3 | While saving
                                        			 your CSV file, choose to save it as UTF-8 encoded. In Notepad++, you can select
                                        			 encoding as UTF-8 without Byte Order Mark (BOM) from the Encoding drop-down. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-0a49af0d64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_01101.html
-retrieved_at: 2026-08-21T09:06:05.964419+00:00
+retrieved_at: 2026-09-27T12:32:29.321069+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -214,3 +214,9 @@ For details on how to configure and deploy Push Notifications, refer to Deployin
 | Cisco Jabber on Android | Android | Google | Android PNS Service |
 | Webex on iOS | iOS | Apple | Apple Push Notification Service (APNS) |
 | Webex on Android | Android | Google | Android PNS Service |
+
+## Figuras
+
+![Figure 1. Push Notifications Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449023.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

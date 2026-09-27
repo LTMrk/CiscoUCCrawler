@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.125942+00:00
+retrieved_at: 2026-09-27T10:51:19.538858+00:00
 ---
 
 # POST /telephony/config/people/{personId}/selectiveForward/criteria

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-unity-exp-compatibility-cuecomp-html-a05282e581
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/unity_exp/compatibility/cuecomp.html
-retrieved_at: 2026-08-21T22:55:32.252551+00:00
+retrieved_at: 2026-09-27T15:31:19.120798+00:00
 ---
 
 Cisco Unity Express Compatibility Matrix
@@ -1397,3 +1397,7 @@ All rights reserved. Printed in USA.
 | 9951 | ✓ | ✓ | — |
 | 9971 | ✓ | ✓ | — |
 | Х : Does not support the integrated login view of the TimeCardView and the VoiceView Express (TimeCardView plus Inbox option). — : Indicates Not Applicable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

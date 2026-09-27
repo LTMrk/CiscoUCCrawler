@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-223109bc50
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_011100.html
-retrieved_at: 2026-08-21T09:04:37.246273+00:00
+retrieved_at: 2026-09-27T12:37:56.065377+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -471,3 +471,7 @@ During the installation of a Unified Communications Manager subscriber node, you
 | Tip | In addition to configuring Unified Communications Manager information on the DNS server, you enter DNS information during the Cisco
                                           			 Unified Communications Manager installation. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

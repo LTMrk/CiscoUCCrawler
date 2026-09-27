@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmevideo-html-3a7cd2bfef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmevideo.html
-retrieved_at: 2026-08-21T07:24:20.657923+00:00
+retrieved_at: 2026-09-27T15:33:54.614045+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1826,3 +1826,7 @@ Video
 | Video
                                           					 Support | 4.0 | Video
                                           					 support was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

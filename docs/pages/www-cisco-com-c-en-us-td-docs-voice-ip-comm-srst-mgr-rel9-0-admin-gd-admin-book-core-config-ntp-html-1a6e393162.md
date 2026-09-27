@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-core-config-ntp-html-1a6e393162
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/core_config_ntp.html
-retrieved_at: 2026-08-21T23:39:04.006446+00:00
+retrieved_at: 2026-09-27T15:29:08.696933+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -49,3 +49,9 @@ Step 4 To update the time zone settings, change the values for the country or ti
 What To Do Next
 
 If you have made any changes, save and then reload the configuration. See Saving and Reloading the Cisco Unified SRST Manager Configuration .
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

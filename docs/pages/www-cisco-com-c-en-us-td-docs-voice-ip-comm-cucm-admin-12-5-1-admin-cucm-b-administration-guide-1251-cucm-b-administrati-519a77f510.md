@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-administration-guide-1251-cucm-b-administrati-519a77f510
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_010001.html
-retrieved_at: 2026-08-21T01:08:52.486045+00:00
+retrieved_at: 2026-09-27T11:48:01.864452+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -135,3 +135,7 @@ Click Delete Selected .
                                        			 more policies, follow these steps: Check the
                                              				  check box next to each policy that you want to delete. You can
                                                 					 click Select All to select all policies or Clear All to clear all the check boxes. Click Delete Selected . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

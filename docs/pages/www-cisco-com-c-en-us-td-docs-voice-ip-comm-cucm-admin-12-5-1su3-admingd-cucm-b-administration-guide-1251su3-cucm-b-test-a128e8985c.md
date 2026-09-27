@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su3-admingd-cucm-b-administration-guide-1251su3-cucm-b-test-a128e8985c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/adminGd/cucm_b_administration-guide-1251su3/cucm_b_test-adminguide_chapter_0100000.html
-retrieved_at: 2026-08-21T16:04:24.941533+00:00
+retrieved_at: 2026-09-27T11:56:28.316234+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -591,3 +591,59 @@ Two tables display information from the Unified Communications Manager database 
 | Note | To view PDF reports, Acrobat Reader must be installed on your machine. You can download Acrobat Reader by clicking the link
                                                          at the bottom of the Serviceability Reports Archive window. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Line Chart That Depicts Number of Registered Phones Per Server. The following figure shows an example of a line chart representing the number of registered phones per Unified Communications
+                                       Manager server in a Unified Communications Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99801.tif/_jcr_content/renditions/99801.jpg)
+
+![Figure 2. Line Chart That Depicts Number of Registered Gateways Per Cluster. The following figure shows an example of a line chart representing the number of registered gateways per cluster, in a Unified
+                                       Communications Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99799.tif/_jcr_content/renditions/99799.jpg)
+
+![Figure 3. Line Chart That Depicts Number of Registered H.323 Gateways Per Cluster. The following figure shows an example line chart representing the number of H.323 gateways per cluster in a Unified Communications
+                                       Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99800.tif/_jcr_content/renditions/99800.jpg)
+
+![Figure 4. Line Chart That Depicts Number of Trunks Per Cluster. The following figure shows an example line chart representing the number of trunks per cluster in a Unified Communications
+                                       Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99803.tif/_jcr_content/renditions/99803.jpg)
+
+![Figure 5. Line Chart That Depicts the Percentage of CPU Per Server. The following figure shows a line chart example representing the percentage of CPU usage per server in a Unified Communications
+                                       Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99788.tif/_jcr_content/renditions/99788.jpg)
+
+![Figure 6. Line Chart That Depicts Percentage of Memory Usage Per Server. The following figure shows a line chart example representing the percentage of memory usage per Unified Communications Manager
+                                       server in a cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99790.tif/_jcr_content/renditions/99790.jpg)
+
+![Figure 7. Line Chart That Depicts Percentage of Hard Disk Usage of the Largest Partition Per Server. The following figure shows a line chart example representing the percentage of hard disk usage for the largest partition
+                                       per server in a Unified Communications Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99789.tif/_jcr_content/renditions/99789.jpg)
+
+![Figure 8. Line Chart That Depicts Cisco CTI Manager: Number of Open Devices. The following figure shows a line chart example representing the number of open devices per Cisco CTI Manager in a Unified
+                                       Communications Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99794.tif/_jcr_content/renditions/99794.jpg)
+
+![Figure 9. Line Chart That Depicts Cisco CTI Manager: Number of Open Lines. The followings figure shows a line chart example representing the number of open lines per Cisco CTI Manager in a Unified
+                                       Communications Manager cluster configuration.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99795.tif/_jcr_content/renditions/99795.jpg)
+
+![Figure 10. Line Chart That Depicts Cisco TFTP: Number of Requests. The following figure  shows a line chart example representing the number of Cisco TFTP requests per TFTP server.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99793.tif/_jcr_content/renditions/99793.jpg)
+
+![Figure 11. Line Chart That Depicts Cisco TFTP: Number of Aborted Requests. The following figure shows a line chart example that represents the number of Cisco TFTP requests that were aborted per TFTP
+                                       server.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99792.tif/_jcr_content/renditions/99792.jpg)
+
+![Figure 12. Line Chart That Depicts Cisco Unified Communications Manager Call Activity for a Cluster. The following figure shows a line chart representing the number of attempted and completed calls for a Unified Communications
+                                       Manager cluster.](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/201001-202000/201584.tif/_jcr_content/renditions/201584.jpg)
+
+![Figure 13. Line Chart That Depicts H.323 Gateways Call Activity for the Cluster. The following figure shows a line chart representing the H.323 gateway call activity for a Unified Communications Manager
+                                       cluster.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99796.tif/_jcr_content/renditions/99796.jpg)
+
+![Figure 14. Line Chart That Depicts MGCP Gateways Call Activity for the Cluster. The following figure shows a line chart representing the MGCP gateways call activity for a Unified Communications Manager
+                                       cluster.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99797.tif/_jcr_content/renditions/99797.jpg)
+
+![Figure 15. Line Chart That Depicts MGCP Gateways. The following  figure shows a line chart representing the MGCP gateways.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99798.tif/_jcr_content/renditions/99798.jpg)
+
+![Figure 16. Line Chart That Depicts Trunk Call Activity for the Cluster. The following figure shows a line chart representing the trunk call activity for a Unified Communications Manager cluster.](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99802.tif/_jcr_content/renditions/99802.jpg)
+
+![Figure 17. Pie Chart That Depicts Number of Alerts Per Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99812.tif/_jcr_content/renditions/99812.jpg)
+
+![Figure 18. Pie Chart That Depicts Number of Alerts Per Severity for the
+                                    		  Cluster](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99813.tif/_jcr_content/renditions/99813.jpg)
+
+![Figure 19. Bar Chart That Depicts Top 10 Alerts in the Cluster](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/99001-100000/99739.tif/_jcr_content/renditions/99739.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

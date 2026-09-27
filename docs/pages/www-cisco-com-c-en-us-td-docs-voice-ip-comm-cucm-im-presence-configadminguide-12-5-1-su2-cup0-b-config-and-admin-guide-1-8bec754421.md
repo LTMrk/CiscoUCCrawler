@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-8bec754421
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_01000.html
-retrieved_at: 2026-08-21T09:05:45.178827+00:00
+retrieved_at: 2026-09-27T12:32:09.061049+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -1201,3 +1201,11 @@ When you add a Unified Communications Manager cluster to 11.5(1)SU3 or earlier r
 
 | Note | There is no functional impact on Cisco Jabber user login. |
 |---|---|
+
+## Figuras
+
+![Figure 1. IM and Presence Service Centralized Cluster Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393536.eps/_jcr_content/renditions/393536.jpg)
+
+![Figure 2. IM and Presence Service Centralized Cluster Use Case](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393535.eps/_jcr_content/renditions/393535.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

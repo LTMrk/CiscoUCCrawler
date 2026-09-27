@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--7e8ae1373a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_0100001.html
-retrieved_at: 2026-08-21T01:37:37.170574+00:00
+retrieved_at: 2026-09-27T11:46:32.887011+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -108,3 +108,7 @@ Cisco Unified Communications Manager Call Detail Records
                                           			 cost will always equal zero because the default base charge per block equals
                                           			 zero. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

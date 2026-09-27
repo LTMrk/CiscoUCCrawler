@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-dial-plan-118822-configure-cucm-00-html-2635fef122
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/dial-plan/118822-configure-cucm-00.html
-retrieved_at: 2026-08-21T13:54:05.727736+00:00
+retrieved_at: 2026-09-27T12:53:13.681776+00:00
 ---
 
 CUCM Dial Plan Considerations for CMR in CUCM-Centric Deployment Configuration Example
@@ -119,3 +119,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Mar-2015 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

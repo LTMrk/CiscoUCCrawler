@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs141spc-html-e13afeaea6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs141spc.html
-retrieved_at: 2026-08-21T10:05:53.142575+00:00
+retrieved_at: 2026-09-27T12:50:00.736312+00:00
 ---
 
 Unified SRST/E-SRST 14.1 Supported Firmware, Platforms, Memory, and Voice Products
@@ -757,3 +757,7 @@ A mix of SCCP and SIP phones may be used, provided that the combined total does 
 | Cisco C8300-2N2S-6T | 2500 | 3500 | 8 GB | 8 GB | 16 GB |
 | Cisco C8300-2N2S-4T2X | 2500 | 3500 | 16 GB | 16 GB | 16 GB |
 | * Memory recommendations and maximum numbers of IP phones are for common Cisco SRST configurations only. Systems with large numbers of phones and complex configurations may not work on all platforms and can require additional memory or a higher performance platform. A mix of SCCP and SIP phones may be used, provided that the combined total does not exceed the maximum listed above. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

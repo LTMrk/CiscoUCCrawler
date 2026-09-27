@@ -10,7 +10,7 @@ tags: Site
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:08.252354+00:00
+retrieved_at: 2026-09-27T10:51:20.427774+00:00
 ---
 
 # PATCH /admin/meeting/config/commonSettings

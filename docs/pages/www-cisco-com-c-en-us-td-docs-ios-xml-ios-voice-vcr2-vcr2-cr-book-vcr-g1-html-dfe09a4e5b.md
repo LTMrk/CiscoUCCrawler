@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-g1-html-dfe09a4e5b
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-g1.html
-retrieved_at: 2026-08-16T23:13:00.028343+00:00
+retrieved_at: 2026-09-27T12:49:57.062545+00:00
 ---
 
 Cisco IOS Voice Command Reference - D through I
@@ -2282,3 +2282,7 @@ Configures the gatekeeper with knowledge of its own prefix and the prefix of any
 |---|---|
 | show gatekeeper gw-type-prefix | Displays the list of currently defined technology zones and the gatekeepers responsible for each. |
 | zone prefix | Configures the gatekeeper with knowledge of its own prefix and the prefix of any remote zone. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su3-admingd-cucm-b-administration-guide-1251su3-cucm-b-test-87a06154ad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU3/adminGd/cucm_b_administration-guide-1251su3/cucm_b_test-adminguide_chapter_0101.html
-retrieved_at: 2026-08-21T16:03:25.619387+00:00
+retrieved_at: 2026-09-27T11:55:29.066031+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -1149,3 +1149,7 @@ From the Related Links drop-down list, choose the CAPF
 | Step 4 | From the Related Links drop-down list, choose the CAPF
                                              				Report in File and click Go . The
                                           			 report gets downloaded. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

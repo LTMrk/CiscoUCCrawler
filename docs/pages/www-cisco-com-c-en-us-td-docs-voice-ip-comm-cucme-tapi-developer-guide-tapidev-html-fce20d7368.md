@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-tapi-developer-guide-tapidev-html-fce20d7368
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/tapi/developer/guide/tapidev.html
-retrieved_at: 2026-08-21T09:47:49.089002+00:00
+retrieved_at: 2026-09-27T15:39:02.068557+00:00
 ---
 
 TAPI Developer Guide for Cisco CME/SRST
@@ -3636,3 +3636,7 @@ Note For a list of other internetworking terms, see Internetworking Terms and Ac
 | LINE_LINEDEVSTATE | Sent to the LINEEVENT callback function when the state of a line device has changed. |
 | LINE_NEWCALL | Sent to the LINEEVENT callback function whenever a new call that TAPI has not originated arrives on a line that TAPI has open. |
 | LINE_SENDDIALOGINSTANCEDATA | Causes TAPI to call the TUISPI_providerGenericDialogData function in the UI DLL associated with htDlgInst |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

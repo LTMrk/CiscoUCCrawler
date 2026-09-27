@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-e9af2c8fe3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_011001.html
-retrieved_at: 2026-08-21T17:57:03.197503+00:00
+retrieved_at: 2026-09-27T12:04:08.802340+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -93,3 +93,7 @@ Follow steps 4 through 10 in Create Phone CSV Data File Using BAT Spreadsheet .
                                        			 capabilities. |
 | Step 3 | At the bottom of the spreadsheet, click the Phones-Users tab. |
 | Step 4 | Follow steps 4 through 10 in Create Phone CSV Data File Using BAT Spreadsheet . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-su6-cucm-b-bulk-administration-guide-1251su6-cucm-b-bulk-admin-8919bcaacd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6/cucm_b_bulk-administration-guide-1251su2_chapter_0101000.html
-retrieved_at: 2026-08-21T08:56:24.376493+00:00
+retrieved_at: 2026-09-27T12:11:08.940299+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -175,3 +175,7 @@ If any information for a record fails, BAT does not insert that
 | Note | If any information for a record fails, BAT does not insert that
                                                       				  user device profile record. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

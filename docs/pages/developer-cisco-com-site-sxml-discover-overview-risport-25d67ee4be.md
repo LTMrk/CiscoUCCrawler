@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-site-sxml-discover-overview-risport-25d67ee4be
 source_url: https://developer.cisco.com/site/sxml/discover/overview/risport/
-retrieved_at: 2026-09-01T17:48:52.738776+00:00
+retrieved_at: 2026-09-27T19:31:06.194038+00:00
 ---
 
 # RisPort Overview
@@ -90,3 +90,7 @@ RisPort queries return the current connection status of phones, devices, and app
 ### Product Related Documentation
 
 Learn more about Cisco Unified CM:
+
+## Figuras
+
+![CUCM Cluster](https://pubhub.devnetcloud.com/media/sxml/site/images/sxml2/discover/overview/risport/image01.jpg)

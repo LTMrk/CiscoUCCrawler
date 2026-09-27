@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-b268b6ee10
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_011.html
-retrieved_at: 2026-08-21T01:38:10.271730+00:00
+retrieved_at: 2026-09-27T12:16:07.924450+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -291,3 +291,7 @@ When working with CDRs, you may want to read other tables in the CAR database to
 | Step 2 | Reverse the order of the hex bytes, as shown below: CO A8 12 BC |
 | Step 3 | Convert the four bytes from hex to decimal, as shown below: 192 168 18 188 |
 | Step 4 | The IP address displays in the dotted decimal format: 192.168.18.188 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -10,7 +10,7 @@ tags: Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:06.175914+00:00
+retrieved_at: 2026-09-27T10:51:18.751835+00:00
 ---
 
 # GET /reports

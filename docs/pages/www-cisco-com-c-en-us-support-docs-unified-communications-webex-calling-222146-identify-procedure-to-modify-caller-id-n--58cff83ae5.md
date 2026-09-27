@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222146-identify-procedure-to-modify-caller-id-n--58cff83ae5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n.html
-retrieved_at: 2026-08-21T07:15:32.253560+00:00
+retrieved_at: 2026-09-27T12:48:37.137652+00:00
 ---
 
 Identify Procedure to Modify Caller ID Name when a User Extension Is Reassigned
@@ -89,3 +89,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Jul-2024 | Initial Release |
+
+## Figuras
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![User Identity Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n-00.png)
+
+![Configuration of new owner](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n-01.png)
+
+![Calling ID configuration section](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n-02.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

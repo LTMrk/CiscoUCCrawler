@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bacd-configuration-guide-cme40tcl-40bacd-html-2b53dde4df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bacd/configuration/guide/cme40tcl/40bacd.html
-retrieved_at: 2026-08-21T23:02:31.430525+00:00
+retrieved_at: 2026-09-27T12:51:32.251480+00:00
 ---
 
 Cisco Unified CME B-ACD and Tcl Call-Handling Applications
@@ -4185,3 +4185,7 @@ param handoff-string AA3
 |---|---|---|
 | Step 1 | enable Router> enable | Enables privileged EXEC mode. Enter your password if prompted. |
 | Step 2 | hunt-group statistics write-all location Router# hunt-group statistics write-all flash:huntstats | Writes ephone-hunt statistics information to a file. location —The URL or filename to which the statistics should be written. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmefax-html-ae62890f9b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmefax.html
-retrieved_at: 2026-08-21T07:23:27.207464+00:00
+retrieved_at: 2026-09-27T15:32:54.180099+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -493,3 +493,9 @@ Enables
 | Fax Relay | 4.0(3) | Enables
                                              					 Fax Relay on analog FXS ports on Cisco IOS voice gateways under the control of
                                              					 Cisco Unified CME. |
+
+## Figuras
+
+![Figure 1. Cisco Unified CME Fax Relay Deployment](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230565.eps/_jcr_content/renditions/230565.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

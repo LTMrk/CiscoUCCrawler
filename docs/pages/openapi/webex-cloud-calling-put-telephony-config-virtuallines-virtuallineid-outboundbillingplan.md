@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-21T08:43:27.146891+00:00
+retrieved_at: 2026-09-27T10:51:19.572666+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/outboundBillingPlan

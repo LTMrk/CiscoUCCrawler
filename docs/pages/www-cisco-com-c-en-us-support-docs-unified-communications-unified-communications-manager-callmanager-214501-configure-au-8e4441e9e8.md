@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214501-configure-au-8e4441e9e8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme.html
-retrieved_at: 2026-08-21T13:58:30.499893+00:00
+retrieved_at: 2026-09-27T15:09:00.425250+00:00
 ---
 
 Configure Automatic Certificate Enrollment and Renewal Via CAPF Online CA
@@ -288,3 +288,81 @@ Initial Release
 |---|---|---|
 | 2.0 | 08-Jun-2023 | Confirmed with BU that kerbeos is not supported so taking out any configuration suggested related to it. |
 | 1.0 | 05-Jun-2019 | Initial Release |
+
+## Figuras
+
+![1_rename_server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-00.png)
+
+![2_ad_ds_enable](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-01.png)
+
+![3_ad_ds_install_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-02.png)
+
+![4_ad_ds_install_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-03.png)
+
+![5a_ad_ds_install_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-04.png)
+
+![5b_ad_ds_install_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-05.png)
+
+![enable_cs_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-06.png)
+
+![enable_cs_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-07.png)
+
+![enable_cs_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-08.png)
+
+![enable_cs_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-09.png)
+
+![6_template_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-10.png)
+
+![6_template_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-11.png)
+
+![6_template_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-12.png)
+
+![6_template_8](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-13.png)
+
+![6_template_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-14.png)
+
+![6_template_5](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-15.png)
+
+![6_template_6](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-16.png)
+
+![6_template_7](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-17.png)
+
+![web_auth_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-18.png)
+
+![web_auth_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-19.png)
+
+![web_auth_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-20.png)
+
+![web_auth_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-21.png)
+
+![gen_cert_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-22.png)
+
+![gen_cert_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-23.png)
+
+![gen_cert_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-24.png)
+
+![gen_cert_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-25.png)
+
+![ssl_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-26.png)
+
+![ssl_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-27.png)
+
+![ssl_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-28.png)
+
+![ssl_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-29.png)
+
+![cm_config_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-30.png)
+
+![cm_config_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-31.png)
+
+![cm_config_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-32.png)
+
+![cm_config_4](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-33.png)
+
+![verify_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-34.png)
+
+![verify_2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-35.png)
+
+![verify_3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-36.png)
+
+![cert_issue_1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214501-configure-automatic-certificate-enrollme-37.png)

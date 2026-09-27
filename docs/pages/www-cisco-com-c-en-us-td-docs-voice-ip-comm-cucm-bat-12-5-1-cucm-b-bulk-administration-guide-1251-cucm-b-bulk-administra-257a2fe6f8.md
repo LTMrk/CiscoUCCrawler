@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-257a2fe6f8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_010110.html
-retrieved_at: 2026-08-21T17:56:50.702238+00:00
+retrieved_at: 2026-09-27T12:03:56.030935+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -187,3 +187,7 @@ You can search and download the report file using the
                                                       				  choosing an item and clicking the Up arrow or Down arrow to move the item to
                                                       				  another position in the list. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

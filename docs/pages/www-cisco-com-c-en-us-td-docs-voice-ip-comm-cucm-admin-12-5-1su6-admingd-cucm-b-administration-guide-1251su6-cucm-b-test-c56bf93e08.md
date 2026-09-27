@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-admingd-cucm-b-administration-guide-1251su6-cucm-b-test-c56bf93e08
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/cucm_b_administration-guide-1251su6/cucm_b_test-adminguide_chapter_011011.html
-retrieved_at: 2026-08-21T08:39:21.896435+00:00
+retrieved_at: 2026-09-27T11:50:51.056729+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6 and 12.5(1)SU7
@@ -332,3 +332,9 @@ Contact Cisco support to provide them with the remote support account name and p
 | Step 3 | In the Account Duration field, enter the account duration in days. |
 | Step 4 | Click Save . The system generates an encrypted pass phrase. |
 | Step 5 | Contact Cisco support to provide them with the remote support account name and pass phrase. |
+
+## Figuras
+
+![Figure 1. Cisco Secure Telnet System](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/141001-142000/141753.ps/_jcr_content/renditions/141753.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

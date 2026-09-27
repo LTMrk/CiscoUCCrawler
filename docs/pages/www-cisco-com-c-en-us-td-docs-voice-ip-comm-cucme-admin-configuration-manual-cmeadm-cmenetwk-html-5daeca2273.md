@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmenetwk-html-5daeca2273
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmenetwk.html
-retrieved_at: 2026-09-08T13:24:57.586099+00:00
+retrieved_at: 2026-09-27T15:31:45.219227+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -2371,10 +2371,6 @@ Eliminates
                                           					 country with a new time zone or an existing country whose city or state wants
                                           					 to change their time zone, using the olsontimezone command in either telephony-service or voice register global configuration
                                           					 mode.
-
-### Customers Also Viewed
-
-- Cisco Unified Communications Manager Express System Administrator Guide --- System-Level Parameters
 
 | Note | No commands allow registration between the H.323 and SIP protocols. |
 |---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeuccx-html-906a5401b6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeuccx.html
-retrieved_at: 2026-08-21T07:25:25.863085+00:00
+retrieved_at: 2026-09-27T15:36:38.805621+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -2018,3 +2018,7 @@ CRScontrol@10.4.171.81   4020@10.4.171.34         12 3599    0      idle |
                                           					 Contact Center Express (Cisco Unified CCX), including Cisco Unified IP IVR,
                                           					 enhanced call processing, device and call monitoring, unattended call transfers
                                           					 to multiple call center agents, and basic extension mobility. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

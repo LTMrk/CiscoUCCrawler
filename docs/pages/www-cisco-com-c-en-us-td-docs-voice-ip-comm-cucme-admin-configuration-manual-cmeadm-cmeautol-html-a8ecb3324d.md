@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeautol-html-a8ecb3324d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeautol.html
-retrieved_at: 2026-08-21T07:24:28.799116+00:00
+retrieved_at: 2026-09-27T15:34:02.147386+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -377,3 +377,7 @@ no auto-line |
 | 3.1 | The button-number argument was added to the auto-line command. |
 | 3.0 | Automatic
                                           					 line selection was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

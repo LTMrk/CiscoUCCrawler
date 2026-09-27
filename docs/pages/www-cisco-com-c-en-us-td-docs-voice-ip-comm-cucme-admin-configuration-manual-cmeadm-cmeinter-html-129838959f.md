@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeinter-html-129838959f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeinter.html
-retrieved_at: 2026-08-21T07:23:40.218192+00:00
+retrieved_at: 2026-09-27T15:33:11.326474+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1438,3 +1438,10 @@ Introduces
                                              					 the no-mute function. |
 | 2.0 | Introduces
                                              					 the Intercom feature. |
+
+## Figuras
+
+![Figure 1. Intercom
+                                 		  Lines](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88952.ps/_jcr_content/renditions/88952.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-article-utqcm7-38c6563268
 source_url: https://help.webex.com/article/utqcm7
-retrieved_at: 2026-09-01T18:53:38.427899+00:00
+retrieved_at: 2026-09-27T19:35:38.164292+00:00
 ---
 
 Cisco Webex Contact Center (Webex CC) is a Contact Center as a Service (CCaaS), that enables organizations to enable smarter, proactive, and personalized interactions across the customer journey.
@@ -556,6 +556,8 @@ Sydney
 
 - Singapore
 
+- India
+
 Connection to AWS hosted Webex Contact Center can be established either using Internet or
             using Amazon Web Services (AWS) Direct Connect. With AWS Direct Connect, data is
             delivered through a private network connection between customers on-premise network and
@@ -563,7 +565,9 @@ Connection to AWS hosted Webex Contact Center can be established either using In
 
 #### Multi Region Connectivity for Telephony
 
-To enable global organizations, with agents and customers at multiple geographical locations, Webex CC supports keeping the media within the local region, for those regions where the voice media edge and ingress services are running.
+To enable global organizations, with agents and customers at multiple geographical locations,
+      Webex Contact Center supports keeping the media within the local region, for those regions
+      where the voice media edge and ingress services are running.
 
 The following figure illustrates multi region deployment with regional media.
 
@@ -635,6 +639,10 @@ Mumbai
 
 Mumbai
 
+Mumbai
+
+Singapore
+
 Singapore
 
 Singapore
@@ -672,8 +680,6 @@ Saudi Arabia
 South Africa (Cape Town)
 
 UAE
-
-Saudi Arabia
 
 ### Security and Privacy
 
@@ -854,8 +860,34 @@ Refer to Webex Contact Center Service Privacy Data Sheet for more details.
 | Brazil |  | Sao Paulo |  |
 | Europe | Frankfurt | Frankfurt Amsterdam | Frankfurt |
 | United Kingdom | London | Manchester London | London |
-| India |  | Mumbai | Mumbai |
-| Singapore |  | Singapore | Singapore |
+| India | Mumbai | Mumbai | Mumbai |
+| Singapore | Singapore | Singapore | Singapore |
 | Japan | Tokyo | Tokyo Osaka | Tokyo |
 | Australia | Sydney | Melbourne Sydney | Sydney |
-| Middle East and Africa |  | South Africa (Cape Town) UAE Saudi Arabia | South Africa (Cape Town) UAE Saudi Arabia |
+| Middle East and Africa |  | South Africa (Cape Town) UAE Saudi Arabia | South Africa (Cape Town) UAE |
+
+## Figuras
+
+![Illustration of Webex Contact Center logical architecture.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/471995.jpg)
+
+![Illustration of the ingress options for inbound voice for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/471996.jpg)
+
+![Illustration of the ingress options for email and messaging for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/471997.jpg)
+
+![Illustration of the queuing and routing architecture for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/471998.jpg)
+
+![Illustration of the Agent Desktop architecture for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/471999.jpg)
+
+![Illustration of customer onboarding and provisioning workflow in Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/471001-472000/472000.jpg)
+
+![Illustration of the key configuration entities and user profiles in Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472001.jpg)
+
+![Illustration of the data processing pipeline and consumption interfaces in Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472002.jpg)
+
+![Illustration of the CRM connector architecture embedded in Webex Contact Center Desktop.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472003.jpg)
+
+![Illustration of multi-region deployment with regional media for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472004.jpg)
+
+![Illustration of data flow and security model for transit as well as at rest in Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472005.png)
+
+![Illustration of the continuous monitoring and failure detection for Webex Contact Center.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472006.jpg)

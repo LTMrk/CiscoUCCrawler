@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-212649-troubleshoot-cube-sp-rejects-int-f6bc578c1a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.html
-retrieved_at: 2026-09-01T22:13:54.879444+00:00
+retrieved_at: 2026-09-27T12:47:25.634418+00:00
 ---
 
 Troubleshoot CUBE SP Rejects Internal Call which is Fowarded to a PSTN Number
@@ -270,3 +270,11 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Jan-2018 | Initial Release |
+
+## Figuras
+
+![Bug-Preview for CSCup67940](https://techzone.cisco.com/html/assets/mag.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

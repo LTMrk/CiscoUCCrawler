@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-220406-integrate-us-32472132e5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne.html
-retrieved_at: 2026-08-21T13:59:50.031624+00:00
+retrieved_at: 2026-09-27T15:09:50.367340+00:00
 ---
 
 Integrate Users from CUCM to Unity Connection with AXL
@@ -131,3 +131,17 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 20-Apr-2023 | Initial Release |
+
+## Figuras
+
+![Navigate to Application Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne-00.png)
+
+![Select the Type of Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne-01.png)
+
+![Add Previous Application User](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne-02.png)
+
+![Test the Connectivity](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne-03.png)
+
+![Import Selected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/220406-integrate-users-from-cucm-to-unity-conne-04.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

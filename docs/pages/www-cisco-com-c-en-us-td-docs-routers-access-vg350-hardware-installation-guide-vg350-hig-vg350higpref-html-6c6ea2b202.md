@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg350-hardware-installation-guide-vg350-hig-vg350higpref-html-6c6ea2b202
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higpref.html
-retrieved_at: 2026-08-22T01:14:24.236592+00:00
+retrieved_at: 2026-09-27T11:25:33.682303+00:00
 ---
 
 Cisco VG350 Voice Gateway Hardware Installation Guide
@@ -402,3 +402,7 @@ http://www.cisco.com/en/US/learning/index.html
 
 | 1. Refer to the modular reference publications that correspond to the Cisco IOS software release installed on your Cisco VG350 Voice Gateway. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

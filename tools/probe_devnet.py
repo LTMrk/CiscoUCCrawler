@@ -246,6 +246,18 @@ RASTROS = {
 }
 
 
+RE_TITLE = re.compile(rb"<title[^>]*>(.*?)</title>", re.I | re.S)
+
+
+def _titulo_html(cuerpo):
+    """<title> de la pagina, limpio. Vacio si no hay."""
+    m = RE_TITLE.search(cuerpo)
+    if not m:
+        return ""
+    texto = re.sub(rb"\s+", b" ", m.group(1)).strip()
+    return texto.decode("utf-8", "replace")[:120]
+
+
 def sondear_paginas(rutas):
     titulo("3-5. Barra final, renderizado sin JS y origen del contenido")
     print(f"{'ruta':52} {'sin/':>5} {'con/':>5} {'chars':>7}  rastros")
@@ -280,6 +292,13 @@ def sondear_paginas(rutas):
         rastros = [k for k, r in RASTROS.items() if r.search(cuerpo)]
         print(f"{ruta:52} {str(cod_sin):>5} {str(cod_con):>5} {n:>7}  "
               f"{','.join(rastros) or '-'}")
+        # El <title> es lo unico que identifica un doc-set desconocido. Sin
+        # el, la lista de "fuera de la allowlist" deja preguntas abiertas
+        # que no se pueden cerrar desde el codigo: docs/cmse llevaba meses
+        # sin identificar por eso.
+        nombre = _titulo_html(cuerpo)
+        if nombre:
+            print(f"{'':52} title: {nombre}")
         if destino:
             print(f"{'':52} Location: {destino}")
 
@@ -326,13 +345,23 @@ def inventariar_docsets(urls_sitemap):
         print("seccion 2 (robots.txt puede haber dejado de declararlos).")
         return
 
+    # La allowlist del dominio se compone de dos partes: lo que declara
+    # path_allowlist_regex y la alternacion que crawler_ai genera desde
+    # devnet_docsets. Hay que reproducir las DOS o el inventario dira que
+    # esta fuera casi todo.
+    compiladas, docsets_declarados = [], {}
     try:
         with open("config.json", encoding="utf-8") as fh:
-            patrones = json.load(fh)["path_allowlist_regex"]["developer.cisco.com"]
+            cfg = json.load(fh)
+        patrones = list(cfg["path_allowlist_regex"].get("developer.cisco.com", []))
+        docsets_declarados = cfg.get("devnet_docsets") or {}
+        if docsets_declarados:
+            patrones.append(
+                r"^https?://developer\.cisco\.com/(docs|site)/(%s)(/|$)"
+                % "|".join(docsets_declarados))
         compiladas = [re.compile(p) for p in patrones]
     except Exception as e:
         print(f"No se pudo leer la allowlist de config.json: {e}")
-        compiladas = []
 
     # Agrupa por doc-set: /docs/<set>/... y /site/<set>/...
     grupos = {}
@@ -360,6 +389,80 @@ def inventariar_docsets(urls_sitemap):
     print("  NSO, AppDynamics, seguridad...) se queda fuera a proposito.\n")
     for clave, n in fuera:
         print(f"  {n:4d} URLs  {clave}")
+
+    # Bloque listo para pegar: la friccion de anadir un doc-set no debe ser
+    # reescribir una regex a mano.
+    if fuera:
+        print("\n-- Para admitir alguno, pegar en config.json -> devnet_docsets "
+              + "-" * 5)
+        print('  "<slug>": "<clave de copilot_pack.PRODUCTOS>",   p. ej.:')
+        for clave, _ in fuera[:10]:
+            print(f'  "{clave.split("/", 1)[1]}": "misc",')
+        print("  (La prueba test_copilot_pack falla si la clave de producto")
+        print("   no existe, asi que allowlist y taxonomia no se separan.)")
+
+    _cobertura_frente_al_corpus(grupos, {c for c, _ in dentro})
+
+
+# Con menos de este numero de paginas, un doc-set admitido esta capturado a
+# medias: se tiene la raiz y poco mas. Es un umbral de atencion, no un
+# veredicto; hay doc-sets legitimamente de una sola pagina.
+UMBRAL_DOCSET_FLACO = 3
+
+
+def _cobertura_frente_al_corpus(grupos, admitidos):
+    """Paginas que cada doc-set ADMITIDO ha aportado al manifiesto.
+
+    OJO con la tentacion de comparar contra el numero de URLs del sitemap:
+    el de PubHub declara UNA sola URL por doc-set, la raiz. Comparar "1 en
+    sitemap frente a 13 en corpus" no mide nada, y la primera version de
+    esta seccion daba 287 doc-sets "flacos" que en realidad eran los de
+    Meraki, ACI y Nexus, con cero paginas porque estan fuera a proposito.
+
+    Lo que si dice algo es el recuento absoluto sobre los admitidos: un
+    doc-set con una o dos paginas es la raiz y poco mas. En PubHub el indice
+    lateral lo pinta JavaScript, asi que ahi es donde se pierde el resto.
+    """
+    titulo("7. Cobertura de los doc-sets admitidos")
+
+    try:
+        with open("logs/manifest.json", encoding="utf-8") as fh:
+            entradas = json.load(fh)["entradas"]
+    except Exception as e:
+        print(f"Sin manifiesto que contrastar ({e}). Normal antes del primer ETL.")
+        return
+
+    capturadas = {}
+    for url, entrada in entradas.items():
+        if "developer.cisco.com" not in url or entrada.get("status") != "active":
+            continue
+        partes = [p for p in urlparse(url).path.split("/") if p]
+        if len(partes) >= 2:
+            clave = f"{partes[0]}/{partes[1]}"
+            capturadas[clave] = capturadas.get(clave, 0) + 1
+
+    flacos = []
+    for clave in sorted(admitidos | (set(capturadas) & set(grupos))):
+        paginas = capturadas.get(clave, 0)
+        marca = "  <-- flaco" if paginas < UMBRAL_DOCSET_FLACO else ""
+        print(f"  {paginas:4d} paginas  {clave}{marca}")
+        if paginas < UMBRAL_DOCSET_FLACO:
+            flacos.append((clave, paginas))
+
+    total = sum(capturadas.get(c, 0) for c in admitidos)
+    print(f"\n{total} paginas de colaboracion en el corpus, "
+          f"{len(admitidos)} doc-sets admitidos, {len(flacos)} por debajo de "
+          f"{UMBRAL_DOCSET_FLACO} paginas.")
+
+    if flacos:
+        print("\nLos flacos, por orden de probabilidad de causa:")
+        print("  1. El indice lateral de PubHub se pinta con JavaScript y el")
+        print("     js_code de custom_behaviors no espera lo suficiente. Ver")
+        print("     la seccion 4: si el HTML crudo trae poco texto, es esto.")
+        print("  2. Profundidad insuficiente en domain_depths.")
+        print("  3. Doc-set que de verdad tiene una sola pagina.")
+        for clave, n in flacos:
+            print(f"     {clave}: {n}")
 
 
 def main():

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-managed-services-guide-1251-cucm-b-manag-7fbf1e9135
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251/cucm_b_managed-services-guide-1251_chapter_011.html
-retrieved_at: 2026-08-21T08:59:40.765434+00:00
+retrieved_at: 2026-09-27T12:17:00.863135+00:00
 ---
 
 Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service
@@ -417,3 +417,7 @@ When migrating from Windows to Linux Unified Communications Manager , the ccmH32
 
 | Note | By default, no community string or user is configured on the system. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

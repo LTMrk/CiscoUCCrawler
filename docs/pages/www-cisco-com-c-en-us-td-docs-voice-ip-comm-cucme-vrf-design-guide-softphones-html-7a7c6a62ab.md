@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-vrf-design-guide-softphones-html-7a7c6a62ab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/vrf/design/guide/softPhones.html
-retrieved_at: 2026-08-21T09:46:35.402526+00:00
+retrieved_at: 2026-09-27T15:37:59.478826+00:00
 ---
 
 Virtual Route Forwarding Design Guide Secure Softphone Connectivity
@@ -2135,3 +2135,7 @@ These are some known limitations of the system:
 | Step 11 | voice service voip Example: Router(config)# voice service voip | Enters voice-service configuration mode. |
 | Step 12 | no shutdown Example: Router(config-voi-serv)# no shutdown | Restarts voice services. |
 | Step 13 | end Example: Router(config-voi-serv)# end | Returns to privileged EXEC mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

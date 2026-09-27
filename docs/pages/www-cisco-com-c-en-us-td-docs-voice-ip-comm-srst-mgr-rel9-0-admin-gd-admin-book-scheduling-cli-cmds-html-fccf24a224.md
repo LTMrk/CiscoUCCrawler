@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-scheduling-cli-cmds-html-fccf24a224
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/scheduling_cli_cmds.html
-retrieved_at: 2026-08-21T23:40:16.488279+00:00
+retrieved_at: 2026-09-27T15:30:16.480564+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -149,3 +149,13 @@ The following is sample output from the show kron schedule detail job command:
 | Step 7 | exit | Exits kron schedule configuration mode. |
 | Step 8 | show kron schedules srstmgr-1# show kron schedule | Displays a list of scheduled kron jobs. |
 | Step 9 | show kron schedule detail job name srstmgr-1# show kron schedule detail job kron1011 | Displays information about a specific scheduled kron job. |
+
+## Figuras
+
+![caut.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

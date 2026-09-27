@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su4-cucm-b-administration-guide-1251su4-cucm-b-test-admingu-2883d59b72
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_administration-guide-1251su4/cucm_b_test-adminguide_chapter_011010.html
-retrieved_at: 2026-08-21T16:02:55.681426+00:00
+retrieved_at: 2026-09-27T11:54:59.379147+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -1317,3 +1317,7 @@ The Status column displays which services are running for the chosen server.
                                           Audit Configuration window, and a new resource called Audit Traces. For Cisco Unity Connection in Cisco Business Edition 5000 , the application administration account that was created during installation has the Audit Administrator role and can assign
                                           other administrative users to the role. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

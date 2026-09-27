@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs14spc-html-eae66e9d81
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs14spc.html
-retrieved_at: 2026-08-21T21:27:49.973081+00:00
+retrieved_at: 2026-09-27T12:50:54.529785+00:00
 ---
 
 Unified SRST/E-SRST 14.0 Supported Firmware, Platforms, Memory, and Voice Products
@@ -663,3 +663,7 @@ The Maximum Total IP Phones can be split between SCCP and SIP phones as long as 
 | Cisco ISR 4451 | 2000 | 2500 | 4 GB | 4 GB | 8 GB |
 | Cisco ISR 4461 | 2000 | 2500 | 8 GB | 8 GB | 8 GB |
 | * Memory recommendations and maximum numbers of IP phones are for common Cisco SRST configurations only. Systems with large numbers of phones and complex configurations may not work on all platforms and can require additional memory or a higher performance platform. The Maximum Total IP Phones can be split between SCCP and SIP phones as long as the maximum total of IP phones is not exceeded. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

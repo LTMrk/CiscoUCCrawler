@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210537-native-call--de58da4d07
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210537-Native-Call-Queueing-Enhancement-in-CUCM.html
-retrieved_at: 2026-08-21T13:55:51.288025+00:00
+retrieved_at: 2026-09-27T15:06:29.325401+00:00
 ---
 
 Native Call Queueing Enhancement in CUCM 11.5
@@ -129,3 +129,9 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

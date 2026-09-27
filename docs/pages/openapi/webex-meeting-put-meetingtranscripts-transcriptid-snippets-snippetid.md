@@ -10,7 +10,7 @@ tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-15T08:04:08.224743+00:00
+retrieved_at: 2026-09-27T10:51:20.394642+00:00
 ---
 
 # PUT /meetingTranscripts/{transcriptId}/snippets/{snippetId}

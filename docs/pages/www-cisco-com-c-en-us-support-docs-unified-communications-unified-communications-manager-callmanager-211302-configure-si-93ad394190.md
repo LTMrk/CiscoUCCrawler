@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-211302-configure-si-93ad394190
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and.html
-retrieved_at: 2026-08-21T13:56:16.268767+00:00
+retrieved_at: 2026-09-27T15:06:58.403149+00:00
 ---
 
 Configure Single Sign-On with CUCM and AD FS 2.0
@@ -269,3 +269,39 @@ Initial Release
 | 3.0 | 02-Mar-2022 | Removing internal info |
 | 2.0 | 15-Nov-2021 | Updating grammatical errors and description for SEO. |
 | 1.0 | 30-May-2017 | Initial Release |
+
+## Figuras
+
+![SSO with CUCM and AD FS - Install AD FS 2.0 - Select the Federation Server Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-00.jpeg)
+
+![SSO with CUCM and AD FS - Configure AD FS 2.0 - Select AD FS 2.0 Federation Server Configuration Wizard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-01.jpeg)
+
+![SSO with CUCM and AD FS - Configure AD FS 2.0 - Select the Create a New Federation Service Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-02.jpeg)
+
+![SSO with CUCM and AD FS - Configure AD FS 2.0 - Select the Stand-Alone Federation Server Option](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-03.jpeg)
+
+![SSO with CUCM and AD FS - Configure AD FS 2.0 - Specify the Federation Server Name](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-04.jpeg)
+
+![SSO with CUCM and AD FS - Import IdP Metadata - Import Succeeded](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-05.jpeg)
+
+![SSO with CUCM and AD FS - Import CUCM metadata to AD FS server - Select data source](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-06.jpeg)
+
+![SSO with CUCM and AD FS - Edit Claim Rules Dialog Box](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-07.jpeg)
+
+![SSO with CUCM and AD FS - Configure Rule - Enter UID for Outgoing Claim Type](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-08.jpeg)
+
+![SSO with CUCM and AD FS - Configure Rule - Define Custom Rule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-09.jpeg)
+
+![SSO with CUCM and AD FS - CUCM Configuration - SAML Single Sign-On Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-10.jpeg)
+
+![SSO with CUCM and AD FS - SAML SSO configuration test succeeded](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-11.jpeg)
+
+![SSO with CUCM and AD FS - Troubleshoot Dotless Certificate - Search for IIS](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-12.png)
+
+![SSO with CUCM and AD FS - Troubleshoot Dotless Certificate - Click Server Name](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-13.png)
+
+![SSO with CUCM and AD FS - Troubleshoot Dotless Certificate - Click Server Certificates](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-14.png)
+
+![SSO with CUCM and AD FS - Troubleshoot Dotless Certificate - Click Create Self-Signed Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-15.png)
+
+![SSO with CUCM and AD FS - Troubleshoot Dotless Certificate - Specify Alias Name for Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211302-Configure-Single-Sign-On-using-CUCM-and-16.png)

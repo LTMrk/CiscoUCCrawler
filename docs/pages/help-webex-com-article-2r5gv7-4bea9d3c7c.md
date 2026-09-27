@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-article-2r5gv7-4bea9d3c7c
 source_url: https://help.webex.com/article/2r5gv7
-retrieved_at: 2026-09-07T10:36:27.837031+00:00
+retrieved_at: 2026-09-27T19:34:40.941658+00:00
 ---
 
 ### Video Mesh Analytics
@@ -2398,3 +2398,19 @@ LTRiZWEtYjIxYy0xYzFjYzdiY2UwOWQ"
 } |
 | 3 | Paste the JSON structure in the body and click Run . |
 | 4 | You can reset threshold values for multiple event threshold IDs by entering them as comma-separated values in the JSON structure. The threshold value will be set to the default minimum value. |
+
+## Figuras
+
+![Information icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/417001-418000/417358.jpg)
+
+![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/417001-418000/417371.jpg)
+
+![Results page for Troubleshooting in the monitoring tool overview page in the Video Mesh Troubleshooting tab of Control Hub.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451810.jpg)
+
+![Monitoring results for troubleshooting video mesh page displays results in a side panel and split into Signaling, Cascasde and Reachabilty.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472870.jpg)
+
+![More menu](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451601.jpg)
+
+![Guest user access toggle in Control Hub](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/490001-500000/495001-496000/495927.jpg)
+
+![Example of the Overview Page in the Video Mesh Node Web Interface](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/438001-439000/438261.jpg)

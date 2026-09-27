@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-8e3e6b48c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_010100.html
-retrieved_at: 2026-08-21T17:50:49.411475+00:00
+retrieved_at: 2026-09-27T11:30:28.479979+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -155,3 +155,7 @@ Upload and Download Files
 | Caution | The user ID, PKID, password, pin, and digest credentials columns in
                                           			 the exported file should not be modified under any circumstances. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

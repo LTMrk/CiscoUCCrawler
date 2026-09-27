@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmelpcor-html-42e8fe0fe6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmelpcor.html
-retrieved_at: 2026-08-21T07:24:46.673896+00:00
+retrieved_at: 2026-09-27T15:36:01.516120+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -3482,3 +3482,22 @@ Introduced support for LPCOR feature.
 | Feature Name | Cisco Unified CME Version | Feature Information |
 |---|---|---|
 | Call Restriction Regulations for Cisco Unified CME | 8.0 | Introduced support for LPCOR feature. |
+
+## Figuras
+
+![Figure 1. Separate PBX
+                                 		  and EPABX Systems](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274867.eps/_jcr_content/renditions/274867.jpg)
+
+![Figure 2. Single EPAPX
+                                 		  System with PSTN and VoIP Calls Partitioning](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274868.eps/_jcr_content/renditions/274868.jpg)
+
+![Figure 3. SCCP FXS
+                                    			 Phones Managed by Cisco Unified CME](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/252001-253000/252570.eps/_jcr_content/renditions/252570.jpg)
+
+![Figure 4. LPCOR
+                                    			 Resource Grouping in Cisco Unified CME Network](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274947.eps/_jcr_content/renditions/274947.jpg)
+
+![Figure 5. LPCOR Policy
+                                    			 Logic](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274948.eps/_jcr_content/renditions/274948.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

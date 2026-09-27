@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-release-notes-cme-releasenotes-14-1-html-59852e006a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/release/notes/CME_ReleaseNotes_14_1.html
-retrieved_at: 2026-08-21T09:46:18.257461+00:00
+retrieved_at: 2026-09-27T15:37:42.242671+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager Express, 14.1
@@ -181,3 +181,9 @@ To receive new and revised Cisco technical content directly to your desktop, 
 ### Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or its affiliates in the U.S. and other countries. To view a list of Cisco trademarks, go to this URL: www.cisco.com/go/trademarks . Third-party trademarks mentioned are the property of their respective owners. The use of the word partner does not imply a partnership relationship between Cisco and any other company. (1721R)
 
 Any Internet Protocol (IP) addresses and phone numbers used in this document are not intended to be actual addresses and phone numbers. Any examples, command display output, network topology diagrams, and other figures included in the document are shown for illustrative purposes only. Any use of actual IP addresses or phone numbers in illustrative content is unintentional and coincidental. © 2022 Cisco Systems, Inc. All rights reserved.
+
+## Figuras
+
+![CME_ReleaseNotes_14_1-2.jpg](https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cucme/release/notes/CME_ReleaseNotes_14_1.fm/_jcr_content/renditions/CME_ReleaseNotes_14_1-2.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

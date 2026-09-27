@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--f8a1c55d37
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_011001.html
-retrieved_at: 2026-08-21T08:43:14.367333+00:00
+retrieved_at: 2026-09-27T12:29:11.739080+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -288,3 +288,7 @@ When prompted to confirm the delete operation, click OK to delete or Cancel to c
 |---|---|
 | Step 2 | Perform one of the following tasks: To delete multiple SIP Realms, perform one of these tasks in the Find and List window: Check the check boxes next to the realms that you want to delete; then, click Delete Selected . You can delete all configurable records for this selection by clicking Select All and then clicking Delete Selected . To delete a single SIP Realm, perform one of these tasks in the Find and List window: Check the check box next to the realm that you want to delete; then, click Delete Selected . Click the Name link for the realm. After the specific SIP Realm Configuration window displays, click Delete Selected . |
 | Step 3 | When prompted to confirm the delete operation, click OK to delete or Cancel to cancel the delete operation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

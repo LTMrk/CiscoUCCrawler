@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217615-configure-and-log-analysis-of-jabber-e91-html-75e3014104
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.html
-retrieved_at: 2026-08-21T07:05:16.524137+00:00
+retrieved_at: 2026-09-27T15:09:46.874206+00:00
 ---
 
 Configure and Log Analysis of Jabber E911
@@ -228,3 +228,13 @@ Cisco TAC Engineer
 |---|---|---|
 | 2.0 | 30-Jun-2023 | Removed broken hyperlinks. |
 | 1.0 | 03-Jan-2022 | Initial Release |
+
+## Figuras
+
+![Jabber Settings from Configuration Guide](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91-00.png)
+
+![Emergency Numbers Help page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

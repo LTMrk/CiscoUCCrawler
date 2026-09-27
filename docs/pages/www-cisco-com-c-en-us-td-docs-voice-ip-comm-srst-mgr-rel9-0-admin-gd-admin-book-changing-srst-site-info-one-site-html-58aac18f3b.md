@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-changing-srst-site-info-one-site-html-58aac18f3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/changing_srst_site_info_one_site.html
-retrieved_at: 2026-08-21T23:38:42.588173+00:00
+retrieved_at: 2026-09-27T15:28:47.991089+00:00
 ---
 
 Administration Guide for Cisco Unified SRST Manager
@@ -98,3 +98,9 @@ Related Topics
 | Username | Defines the username login credentials for the device at the site. The login credentials are configured by an administrator for the branch router. The account must have privilege level 15. Note It is strongly recommended not to use the weak username/password combination of cisco/cisco. |
 | Password | Defines the password login credentials for the device at the site. |
 | Confirm Password | Confirmation of the password login credentials for the device at the site. |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmemlpp-html-1927fc2141
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmemlpp.html
-retrieved_at: 2026-08-21T07:23:48.824213+00:00
+retrieved_at: 2026-09-27T15:33:20.233496+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -1962,3 +1962,17 @@ Allows validated users to place priority calls, and if
                                                 						  Conference, Call Pickup, and Cancel Call Waiting on Analog FXS ports |
 | MLPP for Cisco Unified CME | 7.1 | Allows validated users to place priority calls, and if
                                           					 necessary, to preempt lower-priority calls. |
+
+## Figuras
+
+![Figure 1. User Access Preemption Example](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/203001-204000/203906.eps/_jcr_content/renditions/203906.jpg)
+
+![Figure 2. Service Domains with Different identifiers](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/276001-277000/276490.eps/_jcr_content/renditions/276490.jpg)
+
+![Figure 3. Service Domains with Different Domain Types](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/206001-207000/206668.tif/_jcr_content/renditions/206668.jpg)
+
+![Figure 4. Service Domains with Same Type and identifier](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/206001-207000/206689.eps/_jcr_content/renditions/206689.jpg)
+
+![Figure 5. Preemption Call Example](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/206001-207000/206798.eps/_jcr_content/renditions/206798.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

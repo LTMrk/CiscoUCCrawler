@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmering-html-2f94e46083
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmering.html
-retrieved_at: 2026-08-21T07:24:01.205785+00:00
+retrieved_at: 2026-09-27T15:33:36.696541+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -738,3 +738,7 @@ Call Hold
                                           					 on-hold indicator was introduced. |
 | 1.0 | Call Hold
                                           					 was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

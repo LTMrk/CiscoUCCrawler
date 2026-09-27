@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--1bd287a14d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_011100.html
-retrieved_at: 2026-08-21T01:33:13.491352+00:00
+retrieved_at: 2026-09-27T12:31:26.695542+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -943,3 +943,7 @@ Click Save .
                                                 				Configuration window. See the online help for more information about
                                              			 the fields and their configuration options. |
 | Step 12 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-enterprise-to-mpp-cuip-b-conversion-guide-ipphone--e9bfb0e592
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/enterprise-to-mpp/cuip_b_conversion-guide-ipphone/cuip_b_conversion-guide-ipphone_chapter_01.html
-retrieved_at: 2026-08-25T16:53:40.438560+00:00
+retrieved_at: 2026-09-27T15:10:37.220881+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Migration Guide (On-Premises to Multiplatform Phones)
@@ -380,3 +380,7 @@ The second part URL2 or IP2 is attempted based on the above DHCP options.
 | Note | The above examples are only applicable for the Cisco IP Phone 8800 Series Multiplatform phones with audio features. You need
                                                             to choose correct firmware file based on the on the phone model. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

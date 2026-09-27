@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-d44be18f09
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_0101011.html
-retrieved_at: 2026-08-21T18:00:35.647026+00:00
+retrieved_at: 2026-09-27T12:05:27.256681+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -267,3 +267,7 @@ Click Submit to create a job for exporting user
 | Step 7 | Click Submit to create a job for exporting user
                                        			 device profiles. Use the Job Scheduler option in the Bulk Administration main menu to schedule and/or
                                        			 activate this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

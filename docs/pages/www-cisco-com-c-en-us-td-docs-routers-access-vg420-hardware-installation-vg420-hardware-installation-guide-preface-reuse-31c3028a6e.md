@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg420-hardware-installation-vg420-hardware-installation-guide-preface-reuse-31c3028a6e
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/hardware-installation/vg420-hardware-installation-guide/preface-reuse-routing.html
-retrieved_at: 2026-08-22T01:15:51.544433+00:00
+retrieved_at: 2026-09-27T11:24:59.750794+00:00
 ---
 
 Cisco VG420 Voice Gateway Hardware Installation Guide
@@ -202,3 +202,7 @@ Go to Products by Category and choose your product from the list, or enter the n
 
 | Note | Means reader take note . Notes contain helpful suggestions or references to materials that may not be contained in this manual. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-tdm-gateways-223092-configure-pri-multi-clocking-on-c8300-html-c2f25763f3
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300.html
-retrieved_at: 2026-08-21T07:08:46.608763+00:00
+retrieved_at: 2026-09-27T15:12:45.513182+00:00
 ---
 
 Configure PRI Multi-clocking on C8300
@@ -260,3 +260,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 13-Jun-2025 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![C8300-2N2S Hardware Architecture Diagram](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300-00.png)
+
+![Clock Synchronization from one NIM to Another](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300-01.png)
+
+![Clock Synchronization of Different Sources for Each NIM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/tdm-gateways/223092-configure-pri-multi-clocking-on-c8300-02.png)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
