@@ -292,16 +292,34 @@ def git_commit_and_push(mensaje):
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
         subprocess.run(["git", "commit", "-m", mensaje], check=True)
-        # Rebase contra LA RAMA ACTUAL, no contra main. Con "main" fijo, un
-        # ETL que corra en cualquier otra rama rebasa su lote encima de una
-        # rama ajena; y si main ha divergido, el push posterior falla y se
-        # pierde el lote entero.
+
+        # Rama ACTUAL, no "main" fijo. Con main fijo, un ETL que corra en
+        # cualquier otra rama rebasa su lote encima de una rama ajena.
         rama = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
                               capture_output=True, text=True).stdout.strip()
+        destino = f"HEAD:{rama}" if rama and rama != "HEAD" else "HEAD"
+
+        # Se intenta el push DIRECTO primero, sin pull previo.
+        #
+        # El checkout del ETL es superficial (fetch-depth: 1). Con 2.693
+        # ejecuciones de historia y 260 MB de .git, el clon completo tardo
+        # mas de 20 minutos en el runner del 2026-09-27: un 40% del
+        # presupuesto del job gastado antes de rastrear una sola pagina.
+        #
+        # El grupo de concurrencia ya serializa los lotes, asi que la unica
+        # forma de divergir es que una persona empuje a la vez. Ese caso
+        # raro es el unico que paga el coste de traerse la historia entera:
+        # solo entonces se hace --unshallow y se rebasa.
+        if subprocess.run(["git", "push", "origin", destino]).returncode == 0:
+            return
+
+        log_info("Push rechazado: la rama ha divergido. Se trae la historia "
+                 "completa para rebasar.")
         if rama and rama != "HEAD":
+            subprocess.run(["git", "fetch", "--unshallow", "origin", rama],
+                           check=False)
             subprocess.run(["git", "pull", "--rebase", "origin", rama], check=False)
-        subprocess.run(["git", "push", "origin", f"HEAD:{rama}" if rama else "HEAD"],
-                       check=True)
+        subprocess.run(["git", "push", "origin", destino], check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
 

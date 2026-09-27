@@ -54,6 +54,14 @@ ningún doc-set. El descubrimiento va por el sitemap de PubHub, declarado en
 de CURRI, SXML, JTAPI y TAPI. Pero `/site/curri/` y `/site/sxml/` SÍ están
 permitidos y son los equivalentes vigentes. No confundas las dos rutas.
 
+**El checkout del ETL es superficial, y no es un descuido.** El repositorio
+lleva 2.693 ejecuciones commiteadas, 12.780 documentos y 260 MB de `.git`.
+Con `fetch-depth: 0` el checkout del 2026-09-27 pasó de 20 minutos y el
+lote no llegó a rastrear nada: la guarda de "Ejecutar pipeline" aborta
+cuando quedan menos de 5 minutos útiles. `git_commit_and_push` intenta el
+push directo y solo hace `--unshallow` si la rama ha divergido, cosa que
+con el grupo de concurrencia solo pasa si empuja una persona a la vez.
+
 **Las semillas se encolan ANTES de la frontera arrastrada.** Al revés
 quedaban detrás de 7.000 URLs: 62 lotes, más de once horas, y la frontera
 crece por el camino.
