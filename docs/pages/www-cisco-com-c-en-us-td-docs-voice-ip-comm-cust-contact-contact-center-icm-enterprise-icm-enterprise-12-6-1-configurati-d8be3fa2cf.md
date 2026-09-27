@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-d8be3fa2cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0101.html
-retrieved_at: 2026-09-16T06:44:08.806230+00:00
+retrieved_at: 2026-09-27T12:42:25.932444+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -1147,3 +1147,16 @@ Check for any listed
                                        			 the IPsec policy store with the configuration stored in the XML file. |
 | Step 6 | Check for any listed
                                        			 caveats. |
+
+## Figuras
+
+![Figure 1. Example
+                                          					 Unified Contact Center System](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371542.tif/_jcr_content/renditions/371542.jpg)
+
+![Figure 2. Example: Add Trusted Devices](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371543.tif/_jcr_content/renditions/371543.jpg)
+
+![Figure 3. Example: Add Boundary Devices](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371544.tif/_jcr_content/renditions/371544.jpg)
+
+![Figure 4. Example: Add Boundary Devices on PGs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371545.tif/_jcr_content/renditions/371545.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

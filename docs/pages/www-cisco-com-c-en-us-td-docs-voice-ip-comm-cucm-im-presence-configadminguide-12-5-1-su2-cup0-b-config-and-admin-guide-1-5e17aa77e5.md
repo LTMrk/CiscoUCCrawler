@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-5e17aa77e5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_0100001.html
-retrieved_at: 2026-08-21T09:07:30.110285+00:00
+retrieved_at: 2026-09-27T12:35:36.913654+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -1542,3 +1542,7 @@ TCP and UDP Ports for vCenter
 | Endpoint | HP SIM | 2381 / TCP | HTTPS port to HP agent |
 | Endpoint | Compaq Management Agent | 25375, 25376, 25393 / UDP | COMPAQ Management Agent extension (cmaX) |
 | Endpoint | HP SIM | 50000 - 50004 / TCP | HTTPS port to HP SIM |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

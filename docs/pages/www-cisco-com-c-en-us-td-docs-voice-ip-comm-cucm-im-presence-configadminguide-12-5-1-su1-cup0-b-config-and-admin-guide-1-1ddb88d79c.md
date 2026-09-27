@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-1ddb88d79c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_0100.html
-retrieved_at: 2026-08-21T09:00:52.523648+00:00
+retrieved_at: 2026-09-27T12:36:10.292101+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -1229,3 +1229,7 @@ When a user is moved from one Presence Redundancy Group to another, The user has
                                                    is maintained without the need for any user action. However, if the Cisco Jabber on iPhone or iPad client was in suspended
                                                    mode, it will be unable to retrieve unread messages that were queued on the server when it crashed. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

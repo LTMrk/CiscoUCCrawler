@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-91984a7228
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_01010.html
-retrieved_at: 2026-08-21T09:01:17.787556+00:00
+retrieved_at: 2026-09-27T12:36:38.926808+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -1609,3 +1609,7 @@ Click Save .
 
 | Note | The interval value of the Enable Revocation Check parameter in the Certificate Revocation window takes precedence over the value of the Validity Check Frequency enterprise parameter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

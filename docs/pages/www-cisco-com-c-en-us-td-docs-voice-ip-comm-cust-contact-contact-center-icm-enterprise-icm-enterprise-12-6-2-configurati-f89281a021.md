@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-f89281a021
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_port_utilization_12_6_2/ucce_b_port-utilization_12_5_chapter_0100.html
-retrieved_at: 2026-09-01T19:05:06.176819+00:00
+retrieved_at: 2026-09-27T12:41:52.433149+00:00
 ---
 
 Port Utilization Guide for Cisco Unified Contact Center Solutions, Release 12.6(2)
@@ -494,3 +494,7 @@ Access to the ports are always authenticated with the Username and Password auth
 | Note | The SMS Agent Host is not enabled by default in Windows. If you choose to enable this service on CCE Windows components, you must configure Express Updates to use a port other than 8005. Port 8005 is reserved by default for Tomcat server shutdown commands; using this port for
                                                       SMS Agent Host will result in a service conflict. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

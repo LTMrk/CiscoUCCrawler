@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-cce345ec89
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_010010.html
-retrieved_at: 2026-08-21T09:01:50.970185+00:00
+retrieved_at: 2026-09-27T12:37:12.328674+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -367,3 +367,7 @@ When a custom alert is raised, check the memory and CPU usage counters from the 
 | Note | If high availability is enabled and both nodes are in ACTIVE–ACTIVE configuration, then: The total number of JSM sessions that can be supported per node would be 50% of the above mentioned capacity because there
                                                 is a limitation in custom alarms that it can only be configured per node. You must modify the JSMSessionsExceedsThreshold counter value based on HA configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

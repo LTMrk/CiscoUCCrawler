@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-977133773f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_serviceability-guide-for-cisco-unified_12_6/ucce_b_serviceability-guide-for-cisco-unified_12_6_chapter_010000.html
-retrieved_at: 2026-09-01T19:16:15.205717+00:00
+retrieved_at: 2026-09-27T12:43:08.800530+00:00
 ---
 
 Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -1194,3 +1194,7 @@ HTTPS App Monitoring proxy is not supported by AppDynamics Agents on Windows nod
 | Note | For ICM and CVP, the install directory location changes based on your system
                                        configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

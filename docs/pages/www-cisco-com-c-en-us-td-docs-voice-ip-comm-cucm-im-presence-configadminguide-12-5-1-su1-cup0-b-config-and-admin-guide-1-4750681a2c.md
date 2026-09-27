@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-4750681a2c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_011010.html
-retrieved_at: 2026-08-21T09:04:29.350589+00:00
+retrieved_at: 2026-09-27T12:37:47.606893+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -1093,3 +1093,7 @@ Once you are confident that the migration worked, and that all users are configu
                                           box indicates that you want to update the field and the right box indicates the new setting: unchecked. Home Cluster Enable User for Unified CM IM and Presence |
 | Step 5 | Under Job Information , select Run Immediately . |
 | Step 6 | Click Submit . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

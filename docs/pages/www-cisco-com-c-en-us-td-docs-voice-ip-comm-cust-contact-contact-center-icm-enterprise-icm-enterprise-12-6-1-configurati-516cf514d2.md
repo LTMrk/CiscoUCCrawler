@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-516cf514d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_appendix_01101.html
-retrieved_at: 2026-09-16T06:44:46.146475+00:00
+retrieved_at: 2026-09-27T12:43:04.040163+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -261,3 +261,9 @@ Ensure that Windows PowerShell execution is permitted and not restricted by Grou
                                        depend on PowerShell and may invoke it dynamically at any time after the CCE software installation. Therefore, access to PowerShell
                                        must not be blocked post-installation. Ensure that Windows PowerShell execution is permitted and not restricted by Group Policy settings to avoid operational issues. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Group Policy Deployments](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340643.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

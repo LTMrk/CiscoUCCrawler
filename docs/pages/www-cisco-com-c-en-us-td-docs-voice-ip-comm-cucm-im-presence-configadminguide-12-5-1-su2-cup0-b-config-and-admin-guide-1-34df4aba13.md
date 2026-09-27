@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-34df4aba13
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_011110.html
-retrieved_at: 2026-08-21T09:07:17.555553+00:00
+retrieved_at: 2026-09-27T12:35:23.753597+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -1828,3 +1828,7 @@ Deploy a VM for the restore from an OVA template that has 2 virtual
                                              taking the backup, then reregister the product for updating the license information. For more information on how to register the product with Cisco Smart Software Manager or Cisco Smart Software Manager satellite,
                                           see the System Configuration Guide for Cisco Unified Communications Manager for your release. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

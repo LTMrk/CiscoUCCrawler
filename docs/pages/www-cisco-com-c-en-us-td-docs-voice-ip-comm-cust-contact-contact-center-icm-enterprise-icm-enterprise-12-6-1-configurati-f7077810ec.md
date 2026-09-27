@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-f7077810ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_security-guide_12_6_1/ucce_b_security-guide_12_6_1_chapter_0110.html
-retrieved_at: 2026-09-16T06:44:12.754729+00:00
+retrieved_at: 2026-09-27T12:42:30.369282+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -689,3 +689,7 @@ Reboot the
 | Step 5 | Enter UndoConfigFirewall.bat for Windows Server. |
 | Step 6 | Reboot the
                                           			 server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

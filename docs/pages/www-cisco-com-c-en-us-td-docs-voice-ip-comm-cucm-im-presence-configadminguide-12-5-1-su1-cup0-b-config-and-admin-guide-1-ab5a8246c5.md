@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su1-cup0-b-config-and-admin-guide-1-ab5a8246c5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su1/cup0_b_config-and-admin-guide-1251su1/cup0_b_config-and-admin-guide-1251su1_chapter_011000.html
-retrieved_at: 2026-08-21T09:02:16.468497+00:00
+retrieved_at: 2026-09-27T12:37:38.531676+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU1
@@ -756,3 +756,7 @@ IM and Presence will rely solely on the user policy settings of the user whose p
 | Interdomain Federation—Presence requests received from the external domain | IM and Presence will rely solely on the user policy settings of the user whose presence status is requested. If the user
                                              has selected "ask me" in their user policy, and has not added an Allowed or Blocked list for the external contact or domain,
                                              then IM and Presence sends the Presence request to the end user to authorize. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216030-enable-activecontrol-over-mra-expressway-htm-46dd039ece
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway.html
-retrieved_at: 2026-09-19T19:47:16.244281+00:00
+retrieved_at: 2026-09-27T12:41:10.304545+00:00
 ---
 
 Enable ActiveControl over MRA/Expressway
@@ -251,3 +251,33 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Sep-2020 | Initial Release |
+
+## Figuras
+
+![Jabber-without-ActiveControl-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-00.jpeg)
+
+![Jabber-with-ActiveControl-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-01.jpeg)
+
+![SIPProfile-TP-Conferencing](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-02.jpeg)
+
+![AllowiXApplicationMedia](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-03.jpeg)
+
+![Expressway-UDT-filter](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-04.png)
+
+![Expressway-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-05.jpeg)
+
+![Expressway-doesnotpass-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-06.jpeg)
+
+![Expressway-MRA-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-07.jpeg)
+
+![Expressway-endtoendsecure-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-08.jpeg)
+
+![Expressway-SecureMRA-TCPtrunk-CMS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-09.jpeg)
+
+![Expressway-endtoendsecure-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-10.jpeg)
+
+![Expressway-endtoendsecure-SIPOAuth-DTLS-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-11.jpeg)
+
+![Expressway-CUCM12-5SU1-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-12.jpeg)
+
+![Non-encrypted-modes-650](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/216030-enable-activecontrol-over-mra-expressway-13.jpeg)

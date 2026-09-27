@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-roadmap-guide-pcce-b-documentat-86a196fdea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/roadmap/guide/pcce_b_documentation_guide_1262.html
-retrieved_at: 2026-09-15T14:42:27.492531+00:00
+retrieved_at: 2026-09-27T12:38:40.092524+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Documentation Guide, Release 12.6(2)
@@ -524,3 +524,7 @@ https://www.cisco.com/c/en/us/support/customer-collaboration/unified-email-inter
 | Cisco Customer Collaboration Platform | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-series-home.html |
 | Cisco
                               					 Unified Web and E-Mail Interaction Manager | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-email-interaction-manager/tsd-products-support-series-home.html |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

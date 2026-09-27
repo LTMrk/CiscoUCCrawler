@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-118675-configure-v-1ca3f13d88
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html
-retrieved_at: 2026-09-01T20:45:40.706748+00:00
+retrieved_at: 2026-09-27T12:38:49.145220+00:00
 ---
 
 VCS Series or Expressway Series Xconfig and Xstatus Output Collection with PuTTY
@@ -125,3 +125,9 @@ Cisco TAC Engineers.
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 15-Dec-2014 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
