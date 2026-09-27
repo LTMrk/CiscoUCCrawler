@@ -246,6 +246,18 @@ RASTROS = {
 }
 
 
+RE_TITLE = re.compile(rb"<title[^>]*>(.*?)</title>", re.I | re.S)
+
+
+def _titulo_html(cuerpo):
+    """<title> de la pagina, limpio. Vacio si no hay."""
+    m = RE_TITLE.search(cuerpo)
+    if not m:
+        return ""
+    texto = re.sub(rb"\s+", b" ", m.group(1)).strip()
+    return texto.decode("utf-8", "replace")[:120]
+
+
 def sondear_paginas(rutas):
     titulo("3-5. Barra final, renderizado sin JS y origen del contenido")
     print(f"{'ruta':52} {'sin/':>5} {'con/':>5} {'chars':>7}  rastros")
@@ -280,6 +292,13 @@ def sondear_paginas(rutas):
         rastros = [k for k, r in RASTROS.items() if r.search(cuerpo)]
         print(f"{ruta:52} {str(cod_sin):>5} {str(cod_con):>5} {n:>7}  "
               f"{','.join(rastros) or '-'}")
+        # El <title> es lo unico que identifica un doc-set desconocido. Sin
+        # el, la lista de "fuera de la allowlist" deja preguntas abiertas
+        # que no se pueden cerrar desde el codigo: docs/cmse llevaba meses
+        # sin identificar por eso.
+        nombre = _titulo_html(cuerpo)
+        if nombre:
+            print(f"{'':52} title: {nombre}")
         if destino:
             print(f"{'':52} Location: {destino}")
 
