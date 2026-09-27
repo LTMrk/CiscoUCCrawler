@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-admingd-cucm-b-administration-guide-1251su1-cucm-b-test-3a9c728466
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/adminGd/cucm_b_administration-guide-1251SU1/cucm_b_test-adminguide_chapter_0111.html
-retrieved_at: 2026-08-21T08:32:47.204251+00:00
+retrieved_at: 2026-09-27T11:58:14.614065+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -155,3 +155,7 @@ Click Reactivate Selected .
 | Step 2 | From Related Links , choose Inactive Switches and Access Points and click Go . The Find and List Inactive Switches and Access Points window displays  infrastructure devices that are not being tracked. |
 | Step 3 | Select the switch or access point for which you want to initiate tracking. |
 | Step 4 | Click Reactivate Selected . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
