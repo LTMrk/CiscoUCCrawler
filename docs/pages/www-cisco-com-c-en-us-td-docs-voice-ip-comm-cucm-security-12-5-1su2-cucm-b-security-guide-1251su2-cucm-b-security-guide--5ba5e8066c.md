@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--5ba5e8066c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_011011.html
-retrieved_at: 2026-08-21T08:43:23.038193+00:00
+retrieved_at: 2026-09-27T12:29:20.835683+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -745,3 +745,7 @@ The system will reboot in a few minutes. Unified Communications Manager reboots 
 | SNMP v3 | FIPS mode does not support SNMP v3 with MD5 or DES. If you have SNMP v3 configured while FIPS mode is enabled, you must configure SHA as the Authentication Protocol and AES128 as the Privacy Protocol. |
 | Certificate Remote Enrolment | FIPS mode does not support Certificate Remote Enrolment. |
 | SFTP Server | All SFTP client (for example, DRS and CDR) connections uses the following host key algorithms: FIPS mode only supports rsa-sha2-256 Non-FIPS mode only supports ssh-rsa The rsa-sha2-256 (SHA256WithRSA) support is available only from OpenSSH 6.8 version onwards. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-2dc193c4ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_00.html
-retrieved_at: 2026-08-21T09:05:11.401882+00:00
+retrieved_at: 2026-09-27T12:31:34.872323+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -683,3 +683,9 @@ You must enable DNS SRV in your deployment when you integrate XMPP clients with 
 | Note | If you have multiple IM domains configured in your IM and Presence Service deployment, a DNS SRV record is required for each
                                        domain. All SRV records can resolve to the same result set. |
 |---|---|
+
+## Figuras
+
+![Figure 1. IM and Presence Service Basic Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/351001-352000/351949.eps/_jcr_content/renditions/351949.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

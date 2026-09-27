@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--a2933c7c21
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_010110.html
-retrieved_at: 2026-08-21T01:32:47.503138+00:00
+retrieved_at: 2026-09-27T12:31:01.526918+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -327,3 +327,7 @@ To perform this task, uncheck the Is SRST Secure? check box and click Update in 
 
 | Tip | This button displays only after you check the Is SRST Secure? check box and click Save. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

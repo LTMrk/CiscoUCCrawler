@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-b-security-guide--100fc99af0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_b_security-guide-1251su4_index.html
-retrieved_at: 2026-08-21T18:07:26.624405+00:00
+retrieved_at: 2026-09-27T12:25:23.250657+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -583,3 +583,7 @@ applying a security profile using the Wizard 1
 configuration checklist (table) for security 1
 
 security overview 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

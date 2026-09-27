@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--7331f7efc6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_01100.html
-retrieved_at: 2026-08-21T08:40:20.130563+00:00
+retrieved_at: 2026-09-27T12:28:17.165805+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -40,3 +40,9 @@ For
                                  			 Manager that is being used by the Cisco VG2xx Gateway. For more
                               		  information about importing certificates, see Chapter 6, "Security," in the Administration Guide for
                                     				Cisco Unified Communications Manager .
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-b-security-guide--7d58918d74
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_b_security-guide-1251SU2_chapter_010100.html
-retrieved_at: 2026-08-21T18:07:14.247012+00:00
+retrieved_at: 2026-09-27T12:25:11.550334+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -1037,3 +1037,7 @@ tunnel-group phonevpn webvpn-attributes
                                              				Profile . |
 | Step 4 | Click Save and then Apply Config . |
 | Step 5 | Click OK in apply configuration window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

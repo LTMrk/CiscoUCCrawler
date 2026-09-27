@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su3-cucm-b-security-guide-1251su3-cucm-b-security-guide--456047de31
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU3/cucm_b_security_guide_1251SU3/cucm_b_security-guide-1251SU2_chapter_010001.html
-retrieved_at: 2026-08-21T08:35:43.903967+00:00
+retrieved_at: 2026-09-27T12:26:18.641649+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -249,3 +249,7 @@ Continue the configuration process, as described in the Administration Guide for
                                              				  Cisco Unified Communications Manager . Click Next . |
 | Step 6 | Continue the configuration process, as described in the Administration Guide for
                                              				  Cisco Unified Communications Manager . When the Summary window displays, click Finish . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

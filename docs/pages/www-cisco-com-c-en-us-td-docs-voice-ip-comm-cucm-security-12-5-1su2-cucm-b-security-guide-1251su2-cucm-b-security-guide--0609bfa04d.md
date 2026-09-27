@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su2-cucm-b-security-guide-1251su2-cucm-b-security-guide--0609bfa04d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU2/cucm_b_security-guide-1251SU2/cucm_b_security-guide-1251SU2_chapter_011101.html
-retrieved_at: 2026-08-21T08:39:58.963490+00:00
+retrieved_at: 2026-09-27T12:27:56.129937+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -65,3 +65,9 @@ By default, the certificate monitor service runs once every 24 hours. When you r
                                                       the certificate is close to the expiry date of seven days. It runs every one hour when the certificate either has expired
                                                       or is going to expire in one day. |
 |---|---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su3-cucm-b-security-guide-1251su3-cucm-b-security-guide--ccf3e5302a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU3/cucm_b_security_guide_1251SU3/cucm_b_security-guide-1251SU2_chapter_010101.html
-retrieved_at: 2026-08-21T08:36:21.780228+00:00
+retrieved_at: 2026-09-27T12:26:56.262591+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU3
@@ -801,3 +801,7 @@ You can view the certificate operation status in a specific Application User or 
 | Step 5 | Update the parameters, as described in the help that displays when you click the question mark or parameter name link. |
 | Step 6 | Click Save . |
 | Step 7 | Repeat the procedure on each server where the service is activated. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-credential-poli-d2a4a4fb06
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_credential-policies.html
-retrieved_at: 2026-08-21T18:06:40.471700+00:00
+retrieved_at: 2026-09-27T12:24:37.455134+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -428,3 +428,7 @@ Click OK .
 | Step 2 | Enter the user ID of the active signed-in user in the User ID field. |
 | Step 3 | Click Terminate Session . |
 | Step 4 | Click OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

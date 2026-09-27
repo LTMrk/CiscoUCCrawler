@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-27175c1b77
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_01100.html
-retrieved_at: 2026-08-21T09:06:01.783124+00:00
+retrieved_at: 2026-09-27T12:32:25.371882+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -673,3 +673,7 @@ Intercluster Sync Agent uses DNS to resolve all CUCM and IM&P servers listed in 
                                           value of 20 to a new value of 10. Maximum no. of processes Maximum no. of spare processes Maximum no. of processes Restart the SIP Proxy Service for the changes to take effect. Restart SRM and ICSA services. |
 | Intercluster Sync Agent and DNS | Intercluster Sync Agent uses DNS to resolve all CUCM and IM&P servers listed in peer cluster's tomcat certificate (SAN entries).
                                           If the DNS resolution fails, Intercluster Sync Agent will not connect to the remote peer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

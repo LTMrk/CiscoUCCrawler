@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--70d01fc0f5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_010000.html
-retrieved_at: 2026-08-21T01:32:22.326145+00:00
+retrieved_at: 2026-09-27T12:30:36.350327+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -666,3 +666,7 @@ During a packet capture session, the phone displays a nonsecure status for the c
                                        			 Security Level field, select Non
                                           				Secure , Authenticated , or Encrypted . |
 | Step 6 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

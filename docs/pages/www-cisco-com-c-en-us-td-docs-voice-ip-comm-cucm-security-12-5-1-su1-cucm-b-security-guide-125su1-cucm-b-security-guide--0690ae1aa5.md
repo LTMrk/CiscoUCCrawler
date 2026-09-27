@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1-su1-cucm-b-security-guide-125su1-cucm-b-security-guide--0690ae1aa5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1_SU1/cucm_b_security-guide-125SU1/cucm_b_security-guide-for-cisco-unified125SU1_chapter_010111.html
-retrieved_at: 2026-08-21T01:32:52.192207+00:00
+retrieved_at: 2026-09-27T12:31:05.529275+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -348,3 +348,7 @@ Encryption
                                                       are not exposed during call negotiations. If you use a non-secure profile, SRTP will still work but the keys will be exposed
                                                       in signaling and traces. In that case, you must ensure the security of the network between Unified Communications Manager and the destination side of the trunk. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

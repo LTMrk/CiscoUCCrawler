@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-configadminguide-12-5-1-su2-cup0-b-config-and-admin-guide-1-51da634636
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/12_5_1_su2/cup0_b_config-and-admin-guide-1251su2/cup0_b_config-and-admin-guide-1251su2_chapter_010000.html
-retrieved_at: 2026-08-21T09:06:18.383563+00:00
+retrieved_at: 2026-09-27T12:32:42.446432+00:00
 ---
 
 Configuration and Administration of the IM and Presence Service, Release 12.5(1)SU2
@@ -693,3 +693,9 @@ Andy enters the persistent chat room, and continues to read or post messages to 
 | Subcluster 1 | Subcluster 2 |
 |---|---|
 | Andy is on Node 1A—Node 1A hosts the chat room Bob is on Node 1B | Catherine is on Node 2A Deborah is on Node 2B |
+
+## Figuras
+
+![Figure 1. High Availability for Persistent Chat Structure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393258.eps/_jcr_content/renditions/393258.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

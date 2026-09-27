@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su4-cucm-b-security-guide-1251su4-cucm-m-ipsec-setup-htm-c88d508314
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU4/cucm_b_security-guide-1251su4/cucm_m_ipsec-setup.html
-retrieved_at: 2026-08-21T18:07:01.103263+00:00
+retrieved_at: 2026-09-27T12:24:58.538628+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -64,3 +64,7 @@ For information on configuring IPSec between Unified Communications Manager and 
 | Caution | Failing to configure the IPsec connections and verify that the connections are active and may compromise privacy of the media
                                           streams. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
