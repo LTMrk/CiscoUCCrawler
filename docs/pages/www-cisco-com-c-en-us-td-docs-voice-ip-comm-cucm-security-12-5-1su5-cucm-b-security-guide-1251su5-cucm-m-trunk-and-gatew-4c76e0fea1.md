@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su5-cucm-b-security-guide-1251su5-cucm-m-trunk-and-gatew-4c76e0fea1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU5/cucm_b_security-guide-1251su5/cucm_m_trunk-and-gateway-sip-security_reog.html
-retrieved_at: 2026-08-21T18:04:20.759254+00:00
+retrieved_at: 2026-09-27T12:20:40.786161+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU5
@@ -811,3 +811,7 @@ Verify that you
                                                          are not exposed during call negotiations. If you use a non-secure profile, SRTP will still work but the keys will be exposed
                                                          in signaling and traces. In that case, you must ensure the security of the network between Unified Communications Manager and the destination side of the trunk. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

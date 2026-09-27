@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-managed-services-guide-1251-cucm-b-manag-da41913d64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251/cucm_b_managed-services-guide-1251_chapter_010.html
-retrieved_at: 2026-08-21T08:59:37.291045+00:00
+retrieved_at: 2026-09-27T12:16:57.518683+00:00
 ---
 
 Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service
@@ -2594,3 +2594,16 @@ ReplicateCount  -> Replicate_State                = 2 Be aware that the Replicat
 | Network status | netstats |  | show network status |
 | Reboot server | reboot | Log in to Platform Web page on the server Go to Restart > Current Version | utils system restart |
 | Collect Traces/logs | Sftp, ftp | RTMT Go to Tools tab and select Trace > Trace & Log Central | List file: file list Download files: file get View a file: file view |
+
+## Figuras
+
+![Figure 1. Supported Management Interfaces in Unified Communications Manager Release 5.0 and Later Releases](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274326.eps/_jcr_content/renditions/274326.jpg)
+
+![Figure 11. Syslog Viewer](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274336.tif/_jcr_content/renditions/274336.jpg)
+
+![Figure 12. Local and Remote Syslog Configuration](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274337.tif/_jcr_content/renditions/274337.jpg)
+
+![Figure 13. System
+                                    			 Reports](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274336.tif/_jcr_content/renditions/274336.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

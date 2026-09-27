@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-su6-cucm-b-bulk-administration-guide-1251su6-cucm-b-bulk-admin-1e12b80954
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6/cucm_b_bulk-administration-guide-1251su2_chapter_01001001.html
-retrieved_at: 2026-08-21T08:58:45.035899+00:00
+retrieved_at: 2026-09-27T12:15:18.012252+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -306,3 +306,7 @@ The Upload button is enabled only for CCM Super Users and Standard Confidential 
 
 | Note | The Upload button is enabled only for CCM Super Users and Standard Confidential Access Level Users access groups. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

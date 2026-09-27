@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su5-cucm-b-security-guide-1251su5-cucm-m-ecdsa-support-f-f5cecb512b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU5/cucm_b_security-guide-1251su5/cucm_m_ecdsa-support-for-common-criteria.html
-retrieved_at: 2026-08-21T18:04:49.983465+00:00
+retrieved_at: 2026-09-27T12:21:10.448496+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU5
@@ -191,3 +191,7 @@ The computer telephony integration (CTI) interface is enhanced to support four n
                                                 				authentication of the CallManager and CallManager-ECDSA certificates whereas
                                                 				port 6972 is used for the authentication of the Tomcat certificates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

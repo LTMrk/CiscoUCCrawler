@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-managed-services-guide-1251-cucm-b-manag-83da9f77b1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251/cucm_b_managed-services-guide-1251_chapter_01.html
-retrieved_at: 2026-08-21T08:59:31.530412+00:00
+retrieved_at: 2026-09-27T12:16:52.184784+00:00
 ---
 
 Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service
@@ -381,3 +381,7 @@ HOST-RESOURCES-MIB
 MIB-II
 
 SYSAPPL-MIB
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

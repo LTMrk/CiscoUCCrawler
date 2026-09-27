@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-542c2c6f3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_0100.html
-retrieved_at: 2026-08-21T01:38:20.033420+00:00
+retrieved_at: 2026-09-27T12:16:19.411182+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -17116,3 +17116,7 @@ orDeviceName=SEP000
 | Conference CDR 2 | ConfControllerDn=2001;ConfControlerDeviceName=SEP0003E333FEBD |
 | Conference CDR 3 | ConfControllerDn=2001;ConfControlerDeviceName=SEP0003E333FEBD |
 | Final CDR |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

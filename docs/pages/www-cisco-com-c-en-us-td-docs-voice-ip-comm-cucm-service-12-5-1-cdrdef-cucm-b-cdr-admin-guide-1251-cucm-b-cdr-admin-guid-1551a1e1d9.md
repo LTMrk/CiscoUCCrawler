@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-1551a1e1d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_01001.html
-retrieved_at: 2026-08-21T01:38:40.193525+00:00
+retrieved_at: 2026-09-27T12:16:39.560580+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -138,3 +138,7 @@ MOS Listening Quality K-factor Avg8 represents the running average of scores tha
 | MLQKmx | Max MOS LQK | MOS Listening Quality K-factor Max represents the maximum score that is observed since the beginning of a call and represents
                                           the best sounding 8-second interval. |
 | MLQKav | Avg MOS LQK | MOS Listening Quality K-factor Avg8 represents the running average of scores that are observed since the beginning of a call. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

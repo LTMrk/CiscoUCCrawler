@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-14c5a458e6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_chapter_0111.html
-retrieved_at: 2026-08-21T01:38:31.748174+00:00
+retrieved_at: 2026-09-27T12:16:31.358269+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -314,3 +314,7 @@ CDRs enabled, CMRs enabled
 | CDRs enabled, CMRs disabled | 6.99 | 12.10 | 13.18 | 8.57 |
 | CDRs disabled, CMRs enabled | 6.38 | 11.24 | 3.43 | 0.86 |
 | CDRs enabled, CMRs enabled | 7.71 | 13.04 | 24.92 | 17.02 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

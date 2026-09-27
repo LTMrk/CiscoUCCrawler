@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su5-cucm-b-security-guide-1251su5-cucm-m-os-hardening-ht-3a566f02e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU5/cucm_b_security-guide-1251su5/cucm_m_os-hardening.html
-retrieved_at: 2026-08-21T18:05:14.947583+00:00
+retrieved_at: 2026-09-27T12:21:35.237464+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU5
@@ -171,3 +171,7 @@ Monitor the Cisco Security Advisories and Alerts page ( https://tools.cisco.com/
 View the Cisco.com security advisory page for a given PSIRT to learn affected products, workarounds, and permanent fixes.
 
 For more information, see: https://tools.cisco.com/security/center/resources/security_vulnerability_policy.html
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

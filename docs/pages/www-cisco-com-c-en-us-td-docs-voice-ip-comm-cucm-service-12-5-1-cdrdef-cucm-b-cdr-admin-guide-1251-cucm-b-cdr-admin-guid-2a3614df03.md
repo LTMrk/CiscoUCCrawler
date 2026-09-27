@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-cdrdef-cucm-b-cdr-admin-guide-1251-cucm-b-cdr-admin-guid-2a3614df03
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/cdrdef/cucm_b_cdr-admin-guide-1251/cucm_b_cdr-admin-guide-1251_preface_00.html
-retrieved_at: 2026-08-21T01:38:02.125378+00:00
+retrieved_at: 2026-09-27T12:15:59.747912+00:00
 ---
 
 Call Detail Records Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -304,3 +304,7 @@ Further
 | Warning | This warning symbol means danger. You are in a situation that could cause bodily injury. Before you work on any equipment,
                                        you must be aware of the hazards involved with electrical circuitry and familiar with standard practices for preventing accidents. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

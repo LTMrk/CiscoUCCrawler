@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-managed-services-guide-1251-cucm-b-manag-3ddf64686b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_managed-services-guide-1251/cucm_b_managed-services-guide-1251_chapter_0100.html
-retrieved_at: 2026-08-21T08:59:47.753209+00:00
+retrieved_at: 2026-09-27T12:17:07.377869+00:00
 ---
 
 Managed Services Guide for Cisco Unified Communications Manager and IM and Presence Service
@@ -6226,3 +6226,7 @@ TLSConnectionToIMEFailed
 |---|---|
 | IMEServiceStatus | This counter indicates the overall health of the connection to the Cisco IME services for a particular Cisco IME client instance
                                                 ( Unified Communications Manager ). The following values may display for the counter: 0—Indicates an unknown state (which may mean that the Cisco IME service is not active). If the value specifies 0, an alert gets generated once per hour while the connection remains in the unknown state. 1—Indicates a healthy state; that is, the Cisco IME service is active, and the Unified Communications Manager has successfully established a connection to its primary and backup servers for the Cisco IME client instance, if configured. 2—Indicates an unhealthy state; that is, the Cisco IME service is active, but the Unified Communications Manager has not successfully established a connection to its primary and backup servers for the Cisco IME client instance, if configured. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

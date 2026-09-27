@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-12-5-1su6-cucm-b-security-guide-1251su6-cucm-m-configurations--9512337c03
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/12_5_1SU6/cucm_b_security-guide-1251su6/cucm_m_configurations.html
-retrieved_at: 2026-08-21T08:43:43.338360+00:00
+retrieved_at: 2026-09-27T12:17:56.025688+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -188,3 +188,7 @@ AS-SIP
 | Step 19 | Configure FIPS | Configure FIPS mode, Enhanced Security Mode, and Common Criteria Mode to meet compliance guidelines around encryption and
                                           data security. |
 | Step 20 | Configure Security Features | Configure optional security features, such as: Secure Monitoring and Recording Secure Conferencing Secure Tones and Icons V.150 Mobile and Remote Access AS-SIP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
