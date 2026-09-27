@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--c26f701ff5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011000.html
-retrieved_at: 2026-08-21T01:37:03.411518+00:00
+retrieved_at: 2026-09-27T11:45:59.139474+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -687,3 +687,37 @@ Cisco Unified Communications Manager Call Detail Records
 | % | Trunk utilization percentage. This field gives the
                                           					 estimated utilization of the trunks relative to the total number of calls that
                                           					 passed through the devices. |
+
+## Figuras
+
+![Figure 1. Gateway Detail Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280486.tif/_jcr_content/renditions/280486.jpg)
+
+![Figure 2. Gateway Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280487.tif/_jcr_content/renditions/280487.jpg)
+
+![Figure 3. Gateway Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280488.tif/_jcr_content/renditions/280488.jpg)
+
+![Figure 4. Route/Hunt List Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280497.tif/_jcr_content/renditions/280497.jpg)
+
+![Figure 5. Route and Line Group Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280495.tif/_jcr_content/renditions/280495.jpg)
+
+![Figure 6. Route Pattern/Hunt Path Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280496.tif/_jcr_content/renditions/280496.jpg)
+
+![Figure 7. Hunt Pilot Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/277001-278000/277326.tif/_jcr_content/renditions/277326.jpg)
+
+![Figure 8. Hunt Pilot Details Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/209001-210000/209559.tif/_jcr_content/renditions/209559.jpg)
+
+![Figure 9. Conference Call Details Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210708.tif/_jcr_content/renditions/210708.jpg)
+
+![Figure 10. Conference Bridge Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210707.tif/_jcr_content/renditions/210707.jpg)
+
+![Figure 11. Voice Messaging Utilization Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210715.tif/_jcr_content/renditions/210715.jpg)
+
+![Figure 12. Trunk Utilization Report Sample 1](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/236001-237000/236181.tif/_jcr_content/renditions/236181.jpg)
+
+![Figure 13. Trunk Utilization Report Sample 2](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/236001-237000/236182.tif/_jcr_content/renditions/236182.jpg)
+
+![Figure 14. Trunk Utilization Report Sample 3](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/236001-237000/236183.tif/_jcr_content/renditions/236183.jpg)
+
+![Figure 15. Trunk Utilization Report Sample 4](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/236001-237000/236184.tif/_jcr_content/renditions/236184.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

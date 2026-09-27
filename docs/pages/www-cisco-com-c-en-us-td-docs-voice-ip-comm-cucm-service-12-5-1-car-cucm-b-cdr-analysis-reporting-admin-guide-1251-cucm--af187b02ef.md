@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--af187b02ef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011011.html
-retrieved_at: 2026-08-21T01:37:15.939728+00:00
+retrieved_at: 2026-09-27T11:46:11.972847+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -151,3 +151,7 @@ Cisco Unified Communications Manager Call Detail Records
                                                       				  large in size, Cisco recommends that you download the file to a local disk and
                                                       				  delete them from the server to avoid disk usage on the server side. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

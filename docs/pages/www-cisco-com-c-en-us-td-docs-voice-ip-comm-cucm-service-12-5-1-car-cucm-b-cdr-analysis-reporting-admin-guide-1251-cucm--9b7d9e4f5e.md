@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--9b7d9e4f5e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_0101.html
-retrieved_at: 2026-08-21T01:33:42.811877+00:00
+retrieved_at: 2026-09-27T11:44:25.049703+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -731,3 +731,7 @@ Cisco Unified Communications Manager Call Detail Records
                                                          				  are logged in as a CAR administrator. The automatically generated reports do
                                                          				  not display in the drop-down list box if you are logged in as a manager. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

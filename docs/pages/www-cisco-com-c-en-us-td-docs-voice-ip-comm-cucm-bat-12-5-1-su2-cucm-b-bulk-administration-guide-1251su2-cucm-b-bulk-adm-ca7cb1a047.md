@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-ca7cb1a047
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_01001110.html
-retrieved_at: 2026-08-21T08:51:05.849634+00:00
+retrieved_at: 2026-09-27T11:43:43.021401+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -565,3 +565,7 @@ For further troubleshooting, collect and review MIVR log files for
 | Note | You must restart the TFTP service when the insert transaction is
                                                       				  complete. Use the same procedure and click Start to restart the service. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

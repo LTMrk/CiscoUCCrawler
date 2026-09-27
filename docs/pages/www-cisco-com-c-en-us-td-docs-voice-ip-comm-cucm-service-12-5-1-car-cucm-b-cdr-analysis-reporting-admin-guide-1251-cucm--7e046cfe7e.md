@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--7e046cfe7e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_01001.html
-retrieved_at: 2026-08-21T01:33:59.603933+00:00
+retrieved_at: 2026-09-27T11:44:41.524169+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -199,3 +199,7 @@ Cisco Unified Communications Manager Call Detail Records
 | Step 3 | In the row for the user that you want, click the Select link. The user that you chose gets added to the List of Users in the
                                           				User Search window. Repeat this step to add more users. |
 | Step 4 | When you have added all users, click the Close button in the User Search window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

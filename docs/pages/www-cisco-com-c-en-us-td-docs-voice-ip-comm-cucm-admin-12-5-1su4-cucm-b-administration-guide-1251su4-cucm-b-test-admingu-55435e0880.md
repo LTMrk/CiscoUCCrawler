@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su4-cucm-b-administration-guide-1251su4-cucm-b-test-admingu-55435e0880
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU4/cucm_b_administration-guide-1251su4/cucm_b_test-adminguide_chapter_01.html
-retrieved_at: 2026-08-21T16:00:29.309926+00:00
+retrieved_at: 2026-09-27T11:50:59.403281+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -215,3 +215,7 @@ Perform one of
                                        			 the following actions: Click Shutdown to stop all processes and shut down the
                                           				system. Click Restart to stop all processes and restart the
                                           				system. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

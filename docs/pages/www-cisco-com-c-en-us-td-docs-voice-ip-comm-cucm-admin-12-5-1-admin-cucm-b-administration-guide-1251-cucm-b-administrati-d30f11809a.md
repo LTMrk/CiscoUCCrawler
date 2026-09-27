@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-administration-guide-1251-cucm-b-administrati-d30f11809a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_administration-guide-1251/cucm_b_administration-guide-1251_chapter_010010.html
-retrieved_at: 2026-08-21T01:08:56.704961+00:00
+retrieved_at: 2026-09-27T11:48:06.234674+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -321,3 +321,7 @@ Click OK .
 | Step 2 | Enter the user ID of the active signed-in user in the User ID field. |
 | Step 3 | Click Terminate Session . |
 | Step 4 | Click OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

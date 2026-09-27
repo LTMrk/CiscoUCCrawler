@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--9c0813a7fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011100.html
-retrieved_at: 2026-08-21T01:37:20.186941+00:00
+retrieved_at: 2026-09-27T11:46:16.195622+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -306,3 +306,7 @@ Cisco Unified Communications Manager Call Detail Records Administration Guide
                                           					 destination exists. You can find the origination or destination CMR by using
                                           					 the leg IDs. If the leg IDs of the CMR match the Orig/Dest leg ID of the CDR,
                                           					 the following record represents Orig/Dest CMR. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

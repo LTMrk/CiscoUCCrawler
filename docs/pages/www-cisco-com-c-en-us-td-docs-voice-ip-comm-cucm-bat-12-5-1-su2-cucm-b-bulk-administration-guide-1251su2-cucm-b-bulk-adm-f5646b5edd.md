@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-f5646b5edd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_01001111.html
-retrieved_at: 2026-08-21T08:51:09.756210+00:00
+retrieved_at: 2026-09-27T11:43:47.196257+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -244,3 +244,7 @@ Click Save .
 | Step 4 | Select when you want to run the job: Select the Run Immediately radio button, if you want to run the job immediately. Select the Run Later radio button, if you want to schedule the job for later. |
 | Step 5 | Click Submit . If you chose to run the job immediately, the job runs. |
 | Step 6 | If you chose to run the job later, schedule when the job runs: Choose Bulk Administration > Job Scheduler . Click Find and select the job that you just created. In the Job Scheduler window, schedule when you want to run the job. Click Save . At the scheduled time, the job runs. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

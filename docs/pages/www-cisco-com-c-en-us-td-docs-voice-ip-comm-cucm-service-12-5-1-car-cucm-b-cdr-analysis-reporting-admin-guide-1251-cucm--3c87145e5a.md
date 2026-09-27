@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--3c87145e5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_011101.html
-retrieved_at: 2026-08-21T01:37:24.560095+00:00
+retrieved_at: 2026-09-27T11:46:20.273614+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -674,3 +674,7 @@ Cisco Unified Communications Manager Call Detail Records
 |---|---|
 | COMPANY_NAME | Enter the company name that is used as header
                                                       						  information in reports. The company name cannot exceed 64 characters in length. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

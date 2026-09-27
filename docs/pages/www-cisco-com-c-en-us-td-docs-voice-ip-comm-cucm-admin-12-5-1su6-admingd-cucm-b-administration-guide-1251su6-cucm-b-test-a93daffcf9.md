@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-admingd-cucm-b-administration-guide-1251su6-cucm-b-test-a93daffcf9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/adminGd/cucm_b_administration-guide-1251su6/cucm_b_test-adminguide_chapter_0110.html
-retrieved_at: 2026-08-21T08:37:15.823675+00:00
+retrieved_at: 2026-09-27T11:48:43.996275+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6 and 12.5(1)SU7
@@ -490,3 +490,7 @@ The window that opens lists the devices of a particular device type that are not
 |---|---|
 | Step 2 | To view a list of devices of a particular device type that are using a non-default device load, click the entry for that device
                                        type in the Devices Not Using Default Load column. The window that opens lists the devices of a particular device type that are not running the default firmware load. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-car-cucm-b-cdr-analysis-reporting-admin-guide-1251-cucm--ab65b7c846
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/Car/cucm_b_cdr-analysis-reporting-admin-guide-1251/cucm_b_cdr-analysis-reporting-admin-guide-1251_chapter_010100.html
-retrieved_at: 2026-08-21T01:36:46.602724+00:00
+retrieved_at: 2026-09-27T11:45:42.318601+00:00
 ---
 
 Cisco Unified CDR Analysis and Reporting Administration Guide, Release 12.5(1)
@@ -736,3 +736,7 @@ Cisco Unified Communications Manager Call Detail Records
 | Step 9 | Choose the required report format. It can either be CSV or PDF. PDF is the default report option. |
 | Step 10 | Click View Report to view the report. To view the report results, see Hunt Pilot Detail Report Results . |
 | Step 11 | If you want to mail the report, click Send Report. To send the report, perform the procedure that is described in the Mail Reports . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
