@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg420-hardware-installation-vg420-hardware-installation-guide-planning-the--9159a5b5e5
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/hardware-installation/vg420-hardware-installation-guide/planning-the-installation-vg420.html
-retrieved_at: 2026-08-22T01:16:00.510180+00:00
+retrieved_at: 2026-09-27T11:25:08.130094+00:00
 ---
 
 Cisco VG420 Voice Gateway Hardware Installation Guide
@@ -430,3 +430,7 @@ Startup sequence steps completed
 | Modem attached to console port (for remote configuration) |  |  |
 | Signal distance limits verified |  |  |
 | Startup sequence steps completed |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

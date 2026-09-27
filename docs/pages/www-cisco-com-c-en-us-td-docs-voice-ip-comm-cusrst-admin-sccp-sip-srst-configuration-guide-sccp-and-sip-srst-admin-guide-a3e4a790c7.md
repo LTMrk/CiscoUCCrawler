@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-a3e4a790c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_sip_trunking.html
-retrieved_at: 2026-08-16T23:04:57.180968+00:00
+retrieved_at: 2026-09-27T11:23:44.344600+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -928,3 +928,7 @@ Added Support for co-location of Cisco Unified SRST and Cisco Unified Border Ele
 |---|---|---|
 | Cisco Unified SRST and Cisco Unified Border Element Co-location | Cisco IOS XE Fuji 16.7.1 | Added Support for co-location of Cisco Unified SRST and Cisco Unified Border Element on Cisco 4000 Series Integrated Services
                                        Router. |
+
+## Figuras
+
+![Figure 1. Co-located Deployment of Unifed SRST and Cisco Unified Border Elelement](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393597.eps/_jcr_content/renditions/393597.jpg)

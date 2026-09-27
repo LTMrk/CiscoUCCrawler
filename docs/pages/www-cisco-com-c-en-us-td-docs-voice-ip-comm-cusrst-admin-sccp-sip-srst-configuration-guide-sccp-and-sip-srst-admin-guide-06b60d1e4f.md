@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-06b60d1e4f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_appendix_a_.html
-retrieved_at: 2026-08-21T02:49:43.422378+00:00
+retrieved_at: 2026-09-27T11:24:01.186084+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -500,3 +500,7 @@ port 1/0/0
 best-match | Sets the order of contacts in the 300 Multiple Choice message. The keywords are defined as follows: best-match : Uses the current system configuration to set the order of contacts. longestmatch : Sets the contact order by using the destination pattern longest match first, and then the second longest match, the third
                                                 longest match, and so on. This is the default. |
 | Step 6 | end Example: Router(config-serv-sip)# end | Returns to privileged EXEC mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

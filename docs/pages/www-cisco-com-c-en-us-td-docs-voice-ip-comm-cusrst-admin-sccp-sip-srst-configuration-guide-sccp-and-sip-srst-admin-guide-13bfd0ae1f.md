@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-13bfd0ae1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_secure_sccp_and_sip.html
-retrieved_at: 2026-08-21T02:49:26.818557+00:00
+retrieved_at: 2026-09-27T11:23:40.982314+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -6175,3 +6175,9 @@ srst-trunk1 | The trustpoint label refers to the CUBE’s certificate that is ge
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and resolving
                                           technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product
                                           Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![Figure 1. Interworking of Credentials Server on SRST Router, Cisco Unified Communications Manager, and Cisco Unified IP Phone](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155100.ps/_jcr_content/renditions/155100.jpg)
+
+![Figure 2. Secure Cisco Unified SRST Authentication and Encryption](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155101.ps/_jcr_content/renditions/155101.jpg)

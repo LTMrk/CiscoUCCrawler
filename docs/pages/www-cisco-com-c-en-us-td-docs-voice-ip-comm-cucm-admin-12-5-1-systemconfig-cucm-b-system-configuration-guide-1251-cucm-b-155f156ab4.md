@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-systemconfig-cucm-b-system-configuration-guide-1251-cucm-b-155f156ab4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_01010000.html
-retrieved_at: 2026-09-15T14:06:07.279034+00:00
+retrieved_at: 2026-09-27T11:26:53.505254+00:00
 ---
 
 System Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -214,3 +214,7 @@ For details on how to configure and deploy Push Notifications, refer to Deployin
 | Cisco Jabber on Android | Android | Google | Android PNS Service |
 | Webex on iOS | iOS | Apple | Apple Push Notification Service (APNS) |
 | Webex on Android | Android | Google | Android PNS Service |
+
+## Figuras
+
+![Figure 1. Push Notifications Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449023.jpg)

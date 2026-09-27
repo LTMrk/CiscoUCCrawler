@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg420-hardware-installation-vg420-hardware-installation-guide-overview-cisc-732ba8bbe8
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg420/hardware-installation/vg420-hardware-installation-guide/overview-cisco-vg420.html
-retrieved_at: 2026-08-22T01:15:56.063761+00:00
+retrieved_at: 2026-09-27T11:25:03.759176+00:00
 ---
 
 Cisco VG420 Voice Gateway Hardware Installation Guide
@@ -589,3 +589,17 @@ To access the Cisco VG420 Voice Gateway technical specifications, see the Cisco 
 | TEMP | Green/Yellow/Red | Off: Monitor is not active. Red: The system has detected a critical overcurrent event and may shut down. Blinking Yellow: One or more temperature sensors in the system are outside the acceptable range. Green: All the temperature sensors in the system are within acceptable range. |
 | FAN | Yellow/Green | Yellow: One or more fans in the system are outside the acceptable range. Green: All temperature sensors and fans in the system are within acceptable range. |
 | FXS/FXO (Voice Port Status) | Green/Off | Green: There is at least one active call on the onboard analog FXS/FXO module. Off: There is no active call on the onboard analog FXS/FXO module. |
+
+## Figuras
+
+![Figure 1. VG420-144FXS I/O Panel View](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357552.jpg)
+
+![Figure 2. VG420-132FXS/6FXO I/O Panel View](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357553.jpg)
+
+![Figure 3. VG420-84FXS/6FXO I/O Panel View](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357716.jpg)
+
+![Figure 4. Fan/Tray Side of the Panel](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357555.jpg)
+
+![Figure 5. NIM Slot Representation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357719.jpg)
+
+![Figure 6. Label Tray](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/357001-358000/357556.jpg)

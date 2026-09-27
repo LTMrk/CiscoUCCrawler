@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-a26fa92ec1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_appendix_b_.html
-retrieved_at: 2026-08-21T02:49:48.016741+00:00
+retrieved_at: 2026-09-27T11:24:05.822579+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -1767,3 +1767,15 @@ RemoteMediaPort=16384 | Use this command with the debug h245 asn command to furt
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified SRST as a Multicast MOH Resource | 3.0 | The MOH-live feature was added. |
+
+## Figuras
+
+![Figure 1. Multicast MOH from Cisco Unified SRST Flash Memory](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/110001-120000/116001-117000/116827.ps/_jcr_content/renditions/116827.jpg)
+
+![Figure 2. IP Address and Port Usage for G.711 and G.729 Configuration](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/110001-120000/116001-117000/116828.ps/_jcr_content/renditions/116828.jpg)
+
+![Figure 3. MOH Sources for Cisco Unified SRST and Other Unified SRST IP Phones Using MOH](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/110001-120000/116001-117000/116829.ps/_jcr_content/renditions/116829.jpg)
+
+![Figure 4. Unified Communications Manager Screens for Configuring Multicast MOH](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146319.ps/_jcr_content/renditions/146319.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

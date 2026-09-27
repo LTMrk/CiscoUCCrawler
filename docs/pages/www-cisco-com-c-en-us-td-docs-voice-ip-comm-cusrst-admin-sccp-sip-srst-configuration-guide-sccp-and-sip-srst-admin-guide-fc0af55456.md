@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-fc0af55456
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_call_handling.html
-retrieved_at: 2026-08-21T02:49:20.940714+00:00
+retrieved_at: 2026-09-27T11:23:36.413327+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -4378,3 +4378,7 @@ outgoing name1 | Assigns a translation profile for incoming or outgoing call leg
 http://server2.example.com/
 schema/schema1.xsd | Specifies the URL for an XML API schema to be used with this Cisco Unified SRST system. schema-url : Local or remote URL as defined in RFC 2396. |
 | Step 3 | exit Example: Router(config-cm-fallback)# exit | Exits call-manager-fallback configuration mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

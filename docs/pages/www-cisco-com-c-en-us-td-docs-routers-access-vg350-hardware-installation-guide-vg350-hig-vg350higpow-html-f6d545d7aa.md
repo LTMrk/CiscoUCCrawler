@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg350-hardware-installation-guide-vg350-hig-vg350higpow-html-f6d545d7aa
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg350/hardware/installation/guide/vg350_hig/vg350higpow.html
-retrieved_at: 2026-08-22T01:14:40.132721+00:00
+retrieved_at: 2026-09-27T11:25:50.316870+00:00
 ---
 
 Cisco VG350 Voice Gateway Hardware Installation Guide
@@ -197,3 +197,7 @@ Contact Cisco 1 or your Cisco reseller
 
 | 1. See the “$paratext>” section . |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

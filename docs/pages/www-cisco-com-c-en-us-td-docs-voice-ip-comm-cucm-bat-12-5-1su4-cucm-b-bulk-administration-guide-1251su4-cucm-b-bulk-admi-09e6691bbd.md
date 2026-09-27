@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-09e6691bbd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_01010.html
-retrieved_at: 2026-08-21T17:50:07.807619+00:00
+retrieved_at: 2026-09-27T11:29:46.664160+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -1481,3 +1481,7 @@ Enter the local route partition to which you want to assign this +E.164 alternat
 
 | Note | You can associate up to five directory URIs to a single directory number, but you must select one primary directory URI. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

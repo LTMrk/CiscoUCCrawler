@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-49821639dd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_voicemail.html
-retrieved_at: 2026-08-21T02:49:31.316395+00:00
+retrieved_at: 2026-09-27T11:23:48.922713+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -1581,3 +1581,15 @@ b2bua busy 2000 | Configures call forwarding to another number when the Cisco SI
 | Step 5 | notify telephone-event max-duration time Example: Router(config-sip-ua)# notify telephone-event max-duration 2000 | Configures the maximum time interval allowed between two consecutive NOTIFY messages for a single DTMF event. max-duration time : Time interval between consecutive NOTIFY messages for a single DTMF event, in milliseconds. Range is from 500 to 3000.
                                                    Default is 2000. |
 | Step 6 | exit Example: Router(config-sip-ua)# exit | Exits SIP user-agent configuration mode. |
+
+## Figuras
+
+![Figure 1. Cisco Unified Communications Manager Fallback with BRI or PRI](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146615.eps/_jcr_content/renditions/146615.jpg)
+
+![Figure 2. Cisco Unified Communications Manager Fallback with PSTN](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155102.eps/_jcr_content/renditions/155102.jpg)
+
+![Figure 3. How Voicemail Dial Sequence 1101#6000#2 Is Configured in Cisco Unified SRST](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88978.ps/_jcr_content/renditions/88978.jpg)
+
+![Figure 4. How Numbers Are Extracted from Tokens](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88979.ps/_jcr_content/renditions/88979.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
