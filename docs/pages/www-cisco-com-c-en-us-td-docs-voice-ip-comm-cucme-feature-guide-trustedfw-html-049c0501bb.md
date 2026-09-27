@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-trustedfw-html-049c0501bb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/TrustedFW.html
-retrieved_at: 2026-08-21T09:47:39.337312+00:00
+retrieved_at: 2026-09-27T15:38:48.151236+00:00
 ---
 
 Cisco Unified Communications Trusted Firewall Control - Version III
@@ -3772,3 +3772,7 @@ session-expires 100 | Configures the minimum session expires (min-se) and sessio
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified Communications Trusted Firewall Control. | 15.1(2)T | Cisco Unified Communications Trusted Firewall Control using STUN pushes intelligent services into the network through Trust Relay Point (TRP). The session refresh and voice-class sip session refresh commands are introduced in this release. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

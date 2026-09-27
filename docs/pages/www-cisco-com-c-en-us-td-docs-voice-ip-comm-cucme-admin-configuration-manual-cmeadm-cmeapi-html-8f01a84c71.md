@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmeapi-html-8f01a84c71
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeapi.html
-retrieved_at: 2026-08-21T07:25:38.281534+00:00
+retrieved_at: 2026-09-27T15:36:52.010271+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -3368,3 +3368,7 @@ The log password , xmltest , xmlschema , and xmlthread commands were deprecated.
 | Call Blocking Based on Date and Time | 4.0 | The XML API was modified and is now provided through the Cisco IOS XML infrastructure. It supports all Cisco Unified CME features. |
 | 3.0 | The XML API was introduced. |
 | 12.6 | The log password , xmltest , xmlschema , and xmlthread commands were deprecated. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

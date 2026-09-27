@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-10-2-w800-b-cisco-wireless-phone-840-and-860-11-dc22001f0b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-10-2/w800_b_cisco-wireless-phone-840-and-860_1102.html
-retrieved_at: 2026-08-21T09:59:38.458949+00:00
+retrieved_at: 2026-09-27T15:41:08.226043+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Release Notes for Firmware Release 1.10(2)
@@ -151,3 +151,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or
 | Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or its affiliates in the U.S. and other countries.
                               To view a list of Cisco trademarks, go to this URL: www.cisco.com/go/trademarks . Third party trademarks mentioned are the property of their respective owners. The use of the word partner does not imply
                               a partnershiprelationship between Cisco and any other company. (1110R) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

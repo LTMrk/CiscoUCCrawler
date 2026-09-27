@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-open-source-sdkgnusl-html-074a4e02c2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/open/source/sdkgnusl.html
-retrieved_at: 2026-08-21T09:46:26.050831+00:00
+retrieved_at: 2026-09-27T15:37:50.513305+00:00
 ---
 
 GNU Lesser General License for the Cisco UC Express Services Interface Software Developer Kit
@@ -177,3 +177,7 @@ Each version is given a distinguishing version number. If the Library specifies 
 ### This Document Applies to These Products
 
 - Unified Communications Manager Express
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

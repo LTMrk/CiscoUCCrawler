@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-xml-developer-guide-xmldev-html-c0db2f594d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/xml/developer/guide/xmldev.html
-retrieved_at: 2026-08-21T09:47:52.821074+00:00
+retrieved_at: 2026-09-27T15:39:05.891015+00:00
 ---
 
 XML Provisioning Guide for Cisco CME/SRST
@@ -1500,3 +1500,7 @@ http://www.cisco.com/techsupport
 | Description | Link |
 |---|---|
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and resolving technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

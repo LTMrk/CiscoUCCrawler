@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmetrans-html-1b9c8ba08d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmetrans.html
-retrieved_at: 2026-08-21T07:24:53.867771+00:00
+retrieved_at: 2026-09-27T15:36:08.278470+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -8897,3 +8897,31 @@ URL: tone://GB_g729_tone_ringback |
                                        				  introduced. |
 | 1.0 | Call
                                        				  transfer was introduced, using a Cisco proprietary method. |
+
+## Figuras
+
+![Figure 1. Call Transfer
+                                 		  Using H.450.2: A Calls B](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146629.ps/_jcr_content/renditions/146629.jpg)
+
+![Figure 2. Call Transfer
+                                 		  Using H.450.2: B Consults with C](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146634.ps/_jcr_content/renditions/146634.jpg)
+
+![Figure 3. Call Transfer
+                                 		  Using H.450.2: B Transfers A to C](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146633.ps/_jcr_content/renditions/146633.jpg)
+
+![Figure 4. Call Transfer
+                                 		  Using H.450.2: A and C Are Connected](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/344001-345000/344518.eps/_jcr_content/renditions/344518.jpg)
+
+![Figure 5. Hairpin with
+                                    		  H.323: A Calls B](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146633.ps/_jcr_content/renditions/146633.jpg)
+
+![Figure 6. Hairpin with
+                                    		  H.323: Call is Forwarded to C](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146630.ps/_jcr_content/renditions/146630.jpg)
+
+![Figure 7. Hairpin with
+                                    		  H.323: A is Connected to C via B](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146631.ps/_jcr_content/renditions/146631.jpg)
+
+![Figure 8. H.450 Tandem
+                                    		  Gateway](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146622.ps/_jcr_content/renditions/146622.jpg)
+
+![Figure 9. Cisco Unified CME System with PBX](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135562.ps/_jcr_content/renditions/135562.jpg)

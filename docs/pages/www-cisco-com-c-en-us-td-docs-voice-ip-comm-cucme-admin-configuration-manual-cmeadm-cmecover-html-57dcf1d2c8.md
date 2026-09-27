@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmecover-html-57dcf1d2c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmecover.html
-retrieved_at: 2026-08-21T07:25:02.477875+00:00
+retrieved_at: 2026-09-27T15:36:15.766808+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -12588,3 +12588,31 @@ outgoing out-of-dialog refer dialogs: 0 |
                                                 						write-v2 command. |
 | Out-of-Dialog Refer | 4.1 | Out-of
                                           				  Dialog REFER support was added. |
+
+## Figuras
+
+![Figure 1. Click-to-Dial
+                                 		  Application using Out-of-Dialog REFER](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155789.ps/_jcr_content/renditions/155789.jpg)
+
+![Figure 2. Call
+                                 		  Pickup](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88954.ps/_jcr_content/renditions/88954.jpg)
+
+![Figure 3. Sequential hunt Group](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88955.ps/_jcr_content/renditions/88955.jpg)
+
+![Figure 4. Peer hunt Group](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88956.ps/_jcr_content/renditions/88956.jpg)
+
+![Figure 5. Longest-idle hunt Group](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103299.ps/_jcr_content/renditions/103299.jpg)
+
+![Figure 6. All Agents Logged Out Message on SIP Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393720.tif/_jcr_content/renditions/393720.jpg)
+
+![Figure 7. Night Service
+                                 		  for SCCP Phones](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88951.ps/_jcr_content/renditions/88951.jpg)
+
+![Figure 8. Night Service
+                                 		  for SIP Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393387.eps/_jcr_content/renditions/393387.jpg)
+
+![Figure 9. Overlaid
+                                 		  Ephone-dn (Simple Case)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88894.ps/_jcr_content/renditions/88894.jpg)
+
+![Figure 10. Overlaid
+                                    		  Ephone-dn (Complex Case)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88895.ps/_jcr_content/renditions/88895.jpg)

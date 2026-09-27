@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unity-express-211258-configure-and-troubleshoot-cue-mwi-mecha--50612c15b4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unity-express/211258-Configure-and-Troubleshoot-CUE-MWI-Mecha.html
-retrieved_at: 2026-09-02T01:43:18.587825+00:00
+retrieved_at: 2026-09-27T15:38:38.766767+00:00
 ---
 
 Configure and Troubleshoot CUE MWI Mechanisms
@@ -1193,3 +1193,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-May-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

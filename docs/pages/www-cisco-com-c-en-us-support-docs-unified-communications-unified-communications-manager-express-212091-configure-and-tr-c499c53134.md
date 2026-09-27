@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-express-212091-configure-and-tr-c499c53134
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/212091-Configure-and-Troubleshoot-Directory-Ser.html
-retrieved_at: 2026-08-21T09:47:09.057015+00:00
+retrieved_at: 2026-09-27T15:38:34.886124+00:00
 ---
 
 Configure and Troubleshoot Directory Service on CME
@@ -240,3 +240,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Communications Manager Express
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

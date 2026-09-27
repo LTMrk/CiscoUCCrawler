@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-dffbbe0411
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_0101.html
-retrieved_at: 2026-08-20T23:59:54.620572+00:00
+retrieved_at: 2026-09-27T15:39:38.779940+00:00
 ---
 
 Deployment guide for Calling in Webex App (Unified CM)
@@ -194,3 +194,7 @@ See the Error messages documentation for more information on
                                           services or start a new session). See the Error messages documentation for more information on
                                           the errors that may appear in Webex App and how to resolve the problem. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Diagnostics in the Webex App](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/454001-455000/454735.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-c1e30f77a9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_configuration-on-a-mobile-device.html
-retrieved_at: 2026-08-21T09:58:44.981468+00:00
+retrieved_at: 2026-09-27T15:40:14.835494+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -5922,3 +5922,9 @@ Sends notifications about all Emergency events when enabled.
 | Cisco Phone events: Registration | On Off | Off | Sends notifications about all phone registration events when enabled. |
 | Cisco Phone events: Unregistration | On Off | Off | Sends notifications about all phone unregistration events when enabled. |
 | Emergency events | On Off | Off | Sends notifications about all Emergency events when enabled. |
+
+## Figuras
+
+![Figure 1. Programmable buttons on the Cisco Wireless Phone 840 and 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455356.jpg)
+
+![Figure 2. Programmable buttons on the Cisco Wireless Phone 860 and 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455950.jpg)

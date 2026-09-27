@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bacd-configuration-guide-cme40tcl-40did-html-c47d387d82
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bacd/configuration/guide/cme40tcl/40did.html
-retrieved_at: 2026-08-21T23:02:35.180235+00:00
+retrieved_at: 2026-09-27T15:37:20.700704+00:00
 ---
 
 Cisco Unified CME B-ACD and Tcl Call-Handling Applications
@@ -440,3 +440,11 @@ no vad
 | Step 16 | dial-peer voice tag pots or dial-peer voice tag voip Router(config)# dial-peer voice 234 pots or Router(config)# dial-peer voice 25 voip | Enters dial-peer configuration mode. tag —Number used during configuration tasks to identify this dial peer. |
 | Step 17 | application did-name Router(config-dial-peer)# application aa1 | Associates this dial peer with the DID Digit Translation application. did-name —Application name that was assigned to the DID script with the service command in Step 4 . |
 | Step 18 | Repeat Step 16 through Step 17 for each additional dial peer that will receive incoming calls from the CO. |  |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

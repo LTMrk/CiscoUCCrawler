@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-your-phone-d56182108b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_your-phone.html
-retrieved_at: 2026-08-21T09:58:27.457848+00:00
+retrieved_at: 2026-09-27T15:39:56.244354+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -1851,3 +1851,142 @@ Do not expose batteries to freezing temperatures or direct sunlight.
 | Note | If the batteries arrive dead, charge the batteries for at least 8 hours. If they are still dead, submit a request for a return
                                           merchandise authorization (RMA). |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Wireless Phone 840 and Cisco Wireless Phone 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455045.jpg)
+
+![Figure 2. Cisco Wireless Phone 860 and Cisco Wireless Phone 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451752.jpg)
+
+![Figure 3. Cisco Wireless Phone 840 and 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455355.jpg)
+
+![Figure 4. Cisco Wireless Phone 860 and 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451059.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451750.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465618.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465640.jpg)
+
+![Figure 6. Status bar](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452678.jpg)
+
+![A gray rectangle with uppercase letter M in it, meant to look like the back of an envelope.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451724.jpg)
+
+![A gray key hole.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451725.jpg)
+
+![A gray circle with lowercase letter i in it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451736.jpg)
+
+![A filled in gray circle.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451726.jpg)
+
+![A fully gray cone shape.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451711.jpg)
+
+![A three-quarter full gray cone shape.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451712.jpg)
+
+![A half full gray cone shape.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451713.jpg)
+
+![A one-quarter full gray cone shape.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451714.jpg)
+
+![A full cone shape with small x on it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451715.jpg)
+
+![The bluetooth icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451730.jpg)
+
+![A Do Not Enter sign.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/454001-455000/454707.jpg)
+
+![A dot surrounded by 2 partial circles.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451732.jpg)
+
+![A plus sign in the middle of a circle that is three-quarter full.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451733.jpg)
+
+![An SD card with a line through it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451734.jpg)
+
+![An airplane.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451735.jpg)
+
+![Location symbol](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453291.jpg)
+
+![A key.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451707.jpg)
+
+![Image of battery with a red outline and a red cross in the middle.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453292.jpg)
+
+![Battery full](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453261.jpg)
+
+![Battery half full](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453293.jpg)
+
+![Battery with charging symbol](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451717.jpg)
+
+![Full battery with charging symbol](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451716.jpg)
+
+![A vibrating phone](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451720.jpg)
+
+![A triangle pointing up on top of a triangle pointing down.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451708.jpg)
+
+![A phone receiver off hook with small arrows in a circle above it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451728.jpg)
+
+![A gray check mark.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451705.jpg)
+
+![A gray caution triangle with exclamation mark in it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451718.jpg)
+
+![A phone receiver off hook with two rounded bars to show an active call.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451721.jpg)
+
+![A phone receiver off hook with small padlock above it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451722.jpg)
+
+![A phone receiver off hook with small outline of a shield above it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451723.jpg)
+
+![A phone receiver on hook with small arrow bouncing off the top of it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451729.jpg)
+
+![A voicemail symbol.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451737.jpg)
+
+![An outline of a house.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465689.jpg)
+
+![A gray arrow pointing down to a horizontal line.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451719.jpg)
+
+![A gray walkie-talkie.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451727.jpg)
+
+![An outline of a shield with pause sign in it and small filled in circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451738.jpg)
+
+![An outline of a shield with pause sign in it and small empty circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451739.jpg)
+
+![An outline of a shield with line across it and small filled in circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451740.jpg)
+
+![An outline of a shield with check mark in it and small empty circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451741.jpg)
+
+![An outline of a shield with check mark in it and small filled in circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451742.jpg)
+
+![An outline of a shield with exclamation mark in it and small filled in circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451743.jpg)
+
+![An outline of a shield with exclamation mark in it and small empty circle on right side.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451744.jpg)
+
+![Figure 7. Widgets and apps](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451750.jpg)
+
+![Figure 7. Widgets and apps](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451751.jpg)
+
+![Figure 7. Widgets and apps](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465618.jpg)
+
+![A phone receiver is on the blue Cisco Phone app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451117.jpg)
+
+![A barcode is on the blue Barcode app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451756.jpg)
+
+![A battery is on the blue Battery Life app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451123.jpg)
+
+![A finger presses a button on the blue Buttons app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451119.jpg)
+
+![A phone receiver with a small settings gear icon is on the blue Call Quality Settings app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451121.jpg)
+
+![An image of a mobile phone is on the Custom Settings app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451124.jpg)
+
+![A closed lock is on the blue Emergency app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451118.jpg)
+
+![A piece of paper with text is on the blue Logging app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451122.jpg)
+
+![A walkie-talkie is on the blue Push to Talk app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451757.jpg)
+
+![A download arrow is on the blue System Updater app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451125.jpg)
+
+![An image of the globe is on the blue Web API app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451120.jpg)
+
+![An image of a house is on the blue Smart Launcher app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465857.jpg)
+
+![An image of a lock in a cicrcle is on the blue Device Policy Controller app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465858.jpg)
+
+![An image of a metrics in a cicrcle is on the blue Diagnostics app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/474001-475000/474089.jpg)

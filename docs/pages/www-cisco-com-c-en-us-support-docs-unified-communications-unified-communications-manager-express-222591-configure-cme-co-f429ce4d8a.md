@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-express-222591-configure-cme-co-f429ce4d8a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list.html
-retrieved_at: 2026-08-21T09:46:52.622963+00:00
+retrieved_at: 2026-09-27T15:38:17.599068+00:00
 ---
 
 Configure CME Contact List
@@ -183,3 +183,23 @@ Cisco TAC Engineer
 |---|---|---|
 | 2.0 | 04-Dec-2024 | Initial Release |
 | 1.0 | 18-Nov-2024 | Initial Release |
+
+## Figuras
+
+![Query the DM of the CME Local Contact](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-00.png)
+
+![Enter the Name you want to Search](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-01.png)
+
+![Return Local Directory Results](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-02.png)
+
+![Query the Contact List in the speeddial.xml File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-03.png)
+
+![Display the Contact List in the speeddial.xml File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-04.png)
+
+![Query Fast Speed Entries](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-05.png)
+
+![Return Contact List](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-express/222591-configure-cme-contact-list-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

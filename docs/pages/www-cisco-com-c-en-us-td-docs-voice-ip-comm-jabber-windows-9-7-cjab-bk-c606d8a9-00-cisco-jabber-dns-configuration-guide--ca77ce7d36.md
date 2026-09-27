@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-9-7-cjab-bk-c606d8a9-00-cisco-jabber-dns-configuration-guide--ca77ce7d36
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/9_7/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide/CJAB_BK_C606D8A9_00_cisco-jabber-dns-configuration-guide_chapter_00.html
-retrieved_at: 2026-09-14T22:26:57.393360+00:00
+retrieved_at: 2026-09-27T15:39:47.426982+00:00
 ---
 
 Cisco Jabber DNS Configuration Guide
@@ -407,3 +407,7 @@ in the bypass list are not supported. Use example.com instead of *.example.com f
 
 | Note | The Cisco VCS Control or Cisco Expressway-C server looks up the internal SRV records and provides the records to the Cisco VCS Expressway or Cisco Expressway-E server. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

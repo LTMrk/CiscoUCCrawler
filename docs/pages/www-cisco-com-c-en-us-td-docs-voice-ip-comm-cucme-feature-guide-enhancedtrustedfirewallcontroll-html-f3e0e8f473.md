@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-feature-guide-enhancedtrustedfirewallcontroll-html-f3e0e8f473
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/guide/EnhancedTrustedFirewallControll.html
-retrieved_at: 2026-08-16T23:08:54.702097+00:00
+retrieved_at: 2026-09-27T15:38:51.925419+00:00
 ---
 
 Cisco Unified Communication Trusted Firewall Control-Version II
@@ -1405,3 +1405,7 @@ firewall-traversal flowdata | Enables firewall traversal using STUN. |
 | Feature Name | Releases | Feature Information |
 |---|---|---|
 | Cisco Unified Communications Trusted Firewall Control. | 15.0(1)M | Cisco Unified Communications Trusted Firewall Control using STUN pushes intelligent services into the network through Trust Relay Point (TRP). The stun flowdata catlife commands is introduced by this feature. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

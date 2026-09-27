@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bacd-configuration-guide-cme40tcl-40tclov-html-ff0c6e801a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bacd/configuration/guide/cme40tcl/40tclov.html
-retrieved_at: 2026-08-21T23:02:24.347645+00:00
+retrieved_at: 2026-09-27T15:37:16.086222+00:00
 ---
 
 Cisco Unified CME B-ACD and Tcl Call-Handling Applications
@@ -105,3 +105,11 @@ http://www.cisco.com/techsupport
 | Description | Link |
 |---|---|
 | The Cisco Technical Support & Documentation website contains thousands of pages of searchable technical content, including links to products, technologies, solutions, technical tips, and tools. Registered Cisco.com users can log in from this page to access even more content. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
