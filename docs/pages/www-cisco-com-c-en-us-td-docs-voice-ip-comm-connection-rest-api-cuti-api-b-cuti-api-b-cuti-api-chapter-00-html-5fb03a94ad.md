@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuti-api-b-cuti-api-b-cuti-api-chapter-00-html-5fb03a94ad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_00.html
-retrieved_at: 2026-08-21T08:06:56.791907+00:00
+retrieved_at: 2026-09-27T11:20:55.737574+00:00
 ---
 
 Cisco Unity Connection Telephony Interface (CUTI) API
@@ -126,3 +126,7 @@ See the following for information on troubleshooting all Connection
                            		APIs:
 
 Troubleshooting (applies to all Connection APIs)
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
