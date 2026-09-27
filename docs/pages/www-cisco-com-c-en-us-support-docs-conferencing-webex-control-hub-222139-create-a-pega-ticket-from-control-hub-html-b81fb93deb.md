@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222139-create-a-pega-ticket-from-control-hub-html-b81fb93deb
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.html
-retrieved_at: 2026-08-21T07:16:10.713833+00:00
+retrieved_at: 2026-09-27T12:49:06.773358+00:00
 ---
 
 Create a PEGA Ticket from Control Hub
@@ -168,3 +168,25 @@ Initial Release
 |---|---|---|
 | 3.0 | 14-Apr-2025 | Initial Release |
 | 1.0 | 18-Jul-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![PSTN orders tab in Control Hub.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-00.png)
+
+![Order Window View.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-01.jpeg)
+
+![PEGA Ticket Page.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-02.png)
+
+![Obligatory Fields are Marked with Astherisk.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-03.png)
+
+![Refresh Button.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-04.png)
+
+![Review FAQ Button.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-05.png)
+
+![Add Numbers Button.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-06.png)
+
+![Next button.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-07.png)
+
+![Hyperlink to open a PEGA case.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub-08.png)

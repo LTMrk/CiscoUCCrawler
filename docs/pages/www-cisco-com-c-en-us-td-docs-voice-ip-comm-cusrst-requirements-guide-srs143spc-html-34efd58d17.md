@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs143spc-html-34efd58d17
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs143spc.html
-retrieved_at: 2026-08-21T21:27:46.017036+00:00
+retrieved_at: 2026-09-27T12:50:46.176848+00:00
 ---
 
 Unified SRST/E-SRST 14.3 Supported Firmware, Platforms, Memory, and Voice Products
@@ -782,3 +782,7 @@ Cisco Catalyst 8000V Edge Software (Large)
 | Cisco Catalyst 8000V Edge Software (Medium) | 1000 | 2000 | 4 GB | 8 GB |
 | Cisco Catalyst 8000V Edge Software (Large) | 2000 | 2000 | 8 GB | 8 GB |
 | * Memory recommendations and maximum numbers of IP phones are for common Cisco SRST configurations only. Systems with large numbers of phones and complex configurations may not work on all platforms and can require additional memory or a higher performance platform. * A mix of SCCP and SIP phones may be used, provided that the combined total does not exceed the maximum listed above. * Unified SRST for Catalyst 8000V Edge does not support FXO and T1/E1 on the PSTN trunk. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

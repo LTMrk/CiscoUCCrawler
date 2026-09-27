@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-212411-how-to-get-d28a9c53e4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html
-retrieved_at: 2026-09-01T22:13:59.076922+00:00
+retrieved_at: 2026-09-27T12:47:29.711974+00:00
 ---
 
 How to Get Packet Capture from VXML Gateway for Signal and Voice Analysis
@@ -121,3 +121,9 @@ Edited by Natalia Fuentes Fuentes
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Nov-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

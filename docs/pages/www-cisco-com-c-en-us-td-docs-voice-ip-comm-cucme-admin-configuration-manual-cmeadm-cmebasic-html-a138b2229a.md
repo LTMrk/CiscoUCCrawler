@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmebasic-html-a138b2229a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmebasic.html
-retrieved_at: 2026-08-21T07:22:21.144754+00:00
+retrieved_at: 2026-09-27T12:51:22.767031+00:00
 ---
 
 Cisco Unified Communications Manager Express System Administrator Guide
@@ -11835,3 +11835,26 @@ Router(config-register-pooltype)#xml-config custom <test>1</test> | Defines the
 | Monitor
                                           					 Mode for Shared Lines | 3.0 | Provides
                                           					 a visible line status indicating whether the line is in-use or not. |
+
+## Figuras
+
+![Figure 1. Single-Line Directory Number](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88888.ps/_jcr_content/renditions/88888.jpg)
+
+![Figure 2. Dual-Line Directory Number](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88889.ps/_jcr_content/renditions/88889.jpg)
+
+![Figure 3. Octo-Line
+                                    		  Directory Number](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280623.eps/_jcr_content/renditions/280623.jpg)
+
+![Figure 4. Two Directory
+                                    		  Numbers with One Number on One Phone](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88891.ps/_jcr_content/renditions/88891.jpg)
+
+![Figure 5. Two Directory
+                                    		  Numbers with One Number on Two Phones](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88892.ps/_jcr_content/renditions/88892.jpg)
+
+![Figure 6. Dual-Number
+                                    		  Directory](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88890.ps/_jcr_content/renditions/88890.jpg)
+
+![Figure 7. Shared
+                                    		  Directory Number (Exclusive)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88893.ps/_jcr_content/renditions/88893.jpg)
+
+![Figure 8. Remote Site IP Phones Using NAT](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146625.ps/_jcr_content/renditions/146625.jpg)

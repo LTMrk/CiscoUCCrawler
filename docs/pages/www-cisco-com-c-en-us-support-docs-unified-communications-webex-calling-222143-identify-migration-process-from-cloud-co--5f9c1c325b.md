@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222143-identify-migration-process-from-cloud-co--5f9c1c325b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.html
-retrieved_at: 2026-08-21T07:15:36.708825+00:00
+retrieved_at: 2026-09-27T12:48:41.446809+00:00
 ---
 
 Identify Migration Process from Cloud Connected PSTN to Calling Plan
@@ -117,3 +117,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 18-Jul-2024 | Initial Release |
+
+## Figuras
+
+![Create a Location Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co-00.png)
+
+![Orders page in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co-01.png)
+
+![Cisco Webex Calling Partner Help Center home page.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co-02.png)
+
+![Case Details for a case with Cisco PSTN team](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co-03.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

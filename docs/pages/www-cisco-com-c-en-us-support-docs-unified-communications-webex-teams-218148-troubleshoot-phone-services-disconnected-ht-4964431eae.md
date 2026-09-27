@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-teams-218148-troubleshoot-phone-services-disconnected-ht-4964431eae
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected.html
-retrieved_at: 2026-08-20T23:21:27.882664+00:00
+retrieved_at: 2026-09-27T12:48:03.335671+00:00
 ---
 
 Troubleshoot Phone Services Disconnected in Webex Teams for WxC
@@ -169,3 +169,11 @@ Initial Release
 | 3.0 | 25-Nov-2024 | Updated Alt Text, Machine Translation, and Formatting. |
 | 2.0 | 23-Oct-2023 | Updated Style Requirements and Formatting. |
 | 1.0 | 06-Sep-2022 | Initial Release |
+
+## Figuras
+
+![Phone Services Disconnected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected-00.png)
+
+![Phone Services are Disconnected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected-01.png)
+
+![Edit Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected-02.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-survivable-remote-site-telephony-119026-configure-cusm-9cd8b0b870
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-00.html
-retrieved_at: 2026-08-21T13:54:18.682188+00:00
+retrieved_at: 2026-09-27T12:53:26.621872+00:00
 ---
 
 Configure the CUSM for Integration with the CUCM
@@ -165,3 +165,17 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 29-May-2015 | Initial Release |
+
+## Figuras
+
+![119026-configure-cusm-01.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-01.jpg)
+
+![119026-configure-cusm-02.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-02.png)
+
+![119026-configure-cusm-03.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-03.jpg)
+
+![119026-configure-cusm-04.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-04.jpg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

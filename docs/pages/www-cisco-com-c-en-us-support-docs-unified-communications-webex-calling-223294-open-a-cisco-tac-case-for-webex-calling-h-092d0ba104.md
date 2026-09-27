@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-223294-open-a-cisco-tac-case-for-webex-calling-h-092d0ba104
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.html
-retrieved_at: 2026-08-21T07:15:53.957077+00:00
+retrieved_at: 2026-09-27T12:48:53.952753+00:00
 ---
 
 Open a Cisco TAC Case for Webex Calling DI Issues
@@ -85,3 +85,17 @@ Cisco TAC
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 29-Jul-2025 | Initial Release |
+
+## Figuras
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling-00.gif)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling-01.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling-02.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling-03.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

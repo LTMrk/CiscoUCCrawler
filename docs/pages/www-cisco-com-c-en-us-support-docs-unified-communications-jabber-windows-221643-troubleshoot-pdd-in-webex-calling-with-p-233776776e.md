@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221643-troubleshoot-pdd-in-webex-calling-with-p-233776776e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.html
-retrieved_at: 2026-08-21T07:16:40.074972+00:00
+retrieved_at: 2026-09-27T12:49:31.664416+00:00
 ---
 
 Troubleshoot PDD in Webex Calling with Premises Based PSTN
@@ -143,3 +143,11 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Start Recording](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p-00.png)
+
+![Stop Recording](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p-01.png)
+
+![Trace](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p-02.png)

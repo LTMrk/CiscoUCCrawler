@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-series-222186-customize-the-expressway-ssl-cipher-c-7ec45d965b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.html
-retrieved_at: 2026-09-01T20:54:05.891266+00:00
+retrieved_at: 2026-09-27T12:47:00.933254+00:00
 ---
 
 Customize the Expressway SSL Cipher Configuration
@@ -203,3 +203,27 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-Jul-2024 | Initial Release |
+
+## Figuras
+
+![Example of a TLS Handshake in Wireshark](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-00.png)
+
+![Example of a ClientHello Packet in Wireshark](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-01.png)
+
+![Example of a ServerHello Packet in Wireshark](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-02.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Cipher Settings Page on the Expressway Web Admin Portal](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-03.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![ClientHello Packet With Automatically Added Ciphers](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-04.png)
+
+![Example of a ClientHello Packet in Wireshark](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-05.png)
+
+![A TLS Fatal Alert Packet in Wireshark](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

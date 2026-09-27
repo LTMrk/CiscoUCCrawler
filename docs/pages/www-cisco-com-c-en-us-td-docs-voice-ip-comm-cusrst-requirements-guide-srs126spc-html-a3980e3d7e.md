@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs126spc-html-a3980e3d7e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs126spc.html
-retrieved_at: 2026-08-21T21:28:02.728687+00:00
+retrieved_at: 2026-09-27T12:51:02.744195+00:00
 ---
 
 Unified SRST/E-SRST 12.6 Supported Firmware, Platforms, Memory, and Voice Products
@@ -827,3 +827,7 @@ Not Supported
 | Cisco ISR 4461 | 1500 | 2500 | 8 GB | 8 GB | 8 GB |
 | Catalyst 6500 CMM | Not Supported | Not Supported | Not Supported | Not Supported | Not Supported |
 | * Memory recommendations and maximum numbers of IP phones are for common Cisco SRST configurations only. Systems with large numbers of phones and complex configurations may not work on all platforms and can require additional memory or a higher performance platform. ** The Maximum Total IP Phones can be split between SCCP and SIP phones as long as the maximum total of IP phones is not exceeded. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

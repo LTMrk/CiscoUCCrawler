@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-7-0-english-integration-notes-ibmstint-html-7062d011cc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/7_0/english/integration_notes/ibmstInt.html
-retrieved_at: 2026-08-21T13:51:18.601187+00:00
+retrieved_at: 2026-09-27T12:52:47.946877+00:00
 ---
 
 Integration Note for Configuring the Cisco Click-to-Conference Plug-In with IBM Lotus Sametime
@@ -620,3 +620,7 @@ http://www.cisco.com/en/US/products/ps9830/prod_installation_guides_list.html
 | telephony_x.log | By default, this file stores the Click-to-Call plug-in service logs. | Increase the amount of information recorded in this log. For instructions about how to configure increased log verbosity, see SametimeDiagnostics_Telephony.properties. This file controls the type of information that gets logged and the amount of information that gets recorded for the Click-to-Conference plug-in service and sessions. |
 | c2c_sip_combined.log | By default, this file stores the SIP library debugs. | Increase the amount of information recorded in thislog. For instructions about how to configure increased log verbosity, see log4j.properties. This file controls the type of information that gets logged and the amount of information that gets recorded for the SIP library debugs. |
 | c2c_sip_wire.log | By default, this file stores the SIP wire debugs. | Increase the amount of information recorded in thislog. For instructions about how to how to configure increased log verbosity, see log4j.properties. This file controls the type of information that gets logged and the amount of information that gets recorded for the SIP wire (signalling) debugs. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

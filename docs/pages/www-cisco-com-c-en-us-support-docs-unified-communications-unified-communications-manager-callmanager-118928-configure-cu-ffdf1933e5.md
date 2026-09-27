@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118928-configure-cu-ffdf1933e5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-00.html
-retrieved_at: 2026-08-21T13:54:09.909004+00:00
+retrieved_at: 2026-09-27T12:53:18.106178+00:00
 ---
 
 Configure the CUCM for IPsec Connection Between Nodes
@@ -153,3 +153,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Apr-2015 | Initial Release |
+
+## Figuras
+
+![118928-configure-cucm-01.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-01.jpg)
+
+![118928-configure-cucm-02.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-02.jpg)
+
+![118928-configure-cucm-03.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-03.jpg)
+
+![118928-configure-cucm-04.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-04.jpg)
+
+![118928-configure-cucm-05.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-05.jpg)
+
+![118928-configure-cucm-06.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-06.jpg)
+
+![118928-configure-cucm-07.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-07.jpg)
+
+![118928-configure-cucm-08.jpg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-08.jpg)

@@ -6720,6 +6720,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-5-1/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-contact-center-packaged-contact-center-enterprise-12-5-1-model-html-aaf9a2bfad",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:15.631698+00:00",
+      "last_seen": "2026-09-27T12:45:15.631698+00:00",
+      "next_check": "2026-09-29T12:45:15.631698+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/contact-center/packaged-contact-center-enterprise-12-6-1/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-contact-center-packaged-contact-center-enterprise-12-6-1-model-html-3a403caeb1",
@@ -6820,6 +6830,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-5-1/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-contact-center-unified-customer-voice-portal-12-5-1-model-html-bf2149ae53",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:19.499752+00:00",
+      "last_seen": "2026-09-27T12:45:19.499752+00:00",
+      "next_check": "2026-09-29T12:45:19.499752+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-15-0-1/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-contact-center-unified-customer-voice-portal-15-0-1-model-html-c8f72b1d49",
@@ -6827,6 +6847,16 @@
       "first_seen": "2026-09-27T12:41:27.584016+00:00",
       "last_seen": "2026-09-27T12:41:27.584016+00:00",
       "next_check": "2026-09-29T12:41:27.584016+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/contact-center/unified-intelligence-center-12-5-1/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-contact-center-unified-intelligence-center-12-5-1-model-html-e54740a243",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:23.794035+00:00",
+      "last_seen": "2026-09-27T12:45:23.794035+00:00",
+      "next_check": "2026-09-29T12:45:23.794035+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -7026,6 +7056,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-implementation-design-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-enterprise-products-implementation-design-gu-7bf359cecd",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:50.131688+00:00",
+      "last_seen": "2026-09-27T12:47:50.131688+00:00",
+      "next_check": "2026-09-29T12:47:50.131688+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-enterprise-products-installation-and-configu-2d62a3d7cb",
@@ -7053,6 +7093,16 @@
       "first_seen": "2026-09-27T11:10:15.409028+00:00",
       "last_seen": "2026-09-27T11:10:15.409028+00:00",
       "next_check": "2026-09-29T11:10:15.409028+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-technical-reference-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-enterprise-products-technical-reference-list-c78457192c",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:44.082425+00:00",
+      "last_seen": "2026-09-27T12:45:44.082425+00:00",
+      "next_check": "2026-09-29T12:45:44.082425+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -7095,6 +7145,16 @@
       "first_seen": "2026-09-27T12:40:52.799132+00:00",
       "last_seen": "2026-09-27T12:40:52.799132+00:00",
       "next_check": "2026-09-29T12:40:52.799132+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-implementation-design-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-express-products-implementation-design-guide-fdb7e93064",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:54.459553+00:00",
+      "last_seen": "2026-09-27T12:47:54.459553+00:00",
+      "next_check": "2026-09-29T12:47:54.459553+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -7240,8 +7300,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-25T23:32:55.761856+00:00",
       "http_status": 302,
-      "last_seen": "2026-09-19T05:14:40.569596+00:00",
-      "next_check": "2026-09-20T05:14:40.569596+00:00",
+      "last_seen": "2026-09-27T12:47:59.284762+00:00",
+      "next_check": "2026-09-28T12:47:59.284762+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -8947,17 +9007,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.html": {
-      "content_sha": "e6a0a972d0cf62b8db26fee89e2f848a07c3e0d020899c25eee05694d83e947a",
+      "content_sha": "3bbcb808287a8c6fc4e0fa73f226948c5d4c903e2a7434bcff4d0431dd4b0f8b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222139-create-a-pega-ticket-from-control-hub-html-b81fb93deb",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:10.713737+00:00",
-      "last_changed": "2026-08-21T07:16:10.713737+00:00",
+      "last_changed": "2026-09-27T12:49:06.773277+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:31.752427+00:00",
-      "next_check": "2026-09-22T18:53:31.752427+00:00",
+      "last_seen": "2026-09-27T12:49:06.773277+00:00",
+      "next_check": "2026-09-28T12:49:06.773277+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html": {
       "content_sha": "e7958f06b2fa793526d51a8796609351ad02d2886151419459e1e76e7118f07e",
@@ -9363,17 +9423,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html": {
-      "content_sha": "e6a82141ddefac14b634680820a0e8edb4766e64558ec97c34248f3b9c3278d8",
+      "content_sha": "1a0df28ad68aee45e49e7f82edc4ad70f821be9f7aac9b71f203ed80148f87f3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-webcasting-222148-verify-webex-calling-license-usage-html-e1c48741dc",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:28.112115+00:00",
-      "last_changed": "2026-08-21T07:15:28.112115+00:00",
+      "last_changed": "2026-09-27T12:48:28.633812+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:49.584501+00:00",
-      "next_check": "2026-09-22T18:52:49.584501+00:00",
+      "last_seen": "2026-09-27T12:48:28.633812+00:00",
+      "next_check": "2026-09-28T12:48:28.633812+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html": {
       "content_sha": "79f9426b397f7fa73a01acb53485e221f4282c364a33893d2e1caf1e4340c7cf",
@@ -10798,10 +10858,10 @@
       "first_seen": "2026-08-21T13:51:22.514384+00:00",
       "last_changed": "2026-08-21T13:51:22.514384+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:24.012484+00:00",
-      "next_check": "2026-09-22T16:56:24.012484+00:00",
+      "last_seen": "2026-09-27T12:52:56.641694+00:00",
+      "next_check": "2026-10-13T12:52:56.641694+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/200596-Bulk-Configure-Changes-with-Import-Expor.html": {
       "content_sha": "5702b1496009e0d76a2961e588e3ac775c079554dd3b1aa638a51f6911f97358",
@@ -10811,10 +10871,10 @@
       "first_seen": "2026-08-21T00:00:09.843988+00:00",
       "last_changed": "2026-08-21T00:00:09.843988+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:38.792900+00:00",
-      "next_check": "2026-09-22T16:57:38.792900+00:00",
+      "last_seen": "2026-09-27T12:53:47.729166+00:00",
+      "next_check": "2026-10-13T12:53:47.729166+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html": {
       "content_sha": "a784cf9eb2f42e82cb9ec9a4edf1183c0bf685bc4f1f20d0cd2cfcd595a92644",
@@ -11089,17 +11149,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/222186-customize-the-expressway-ssl-cipher-conf.html": {
-      "content_sha": "ef0b7488a85785540a7a3cd5baa04ed6ce45ae4230b1bb4a89eccc4b165698c4",
+      "content_sha": "e3924cacee158dc4a9ad61518ec03079834ff7f299d01601329210aba2d2222e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-series-222186-customize-the-expressway-ssl-cipher-c-7ec45d965b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:43:35.950115+00:00",
-      "last_changed": "2026-09-01T20:54:05.891196+00:00",
+      "last_changed": "2026-09-27T12:47:00.933177+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T19:38:20.016947+00:00",
-      "next_check": "2026-09-26T19:38:20.016947+00:00",
+      "last_seen": "2026-09-27T12:47:00.933177+00:00",
+      "next_check": "2026-09-28T12:47:00.933177+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/223293-configure-endpoint-registration.html": {
       "content_sha": "220d8cf87117549781791d8a16efb8fc4e283861501056ecaaf21bf747e82a56",
@@ -11128,17 +11188,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.html": {
-      "content_sha": "05b11a9d9d5b0aa24cee26071cc38317b0cded20b9a5ceb0c58cd8a1f774e8d7",
+      "content_sha": "fcf194119b63871753701ad2c0fca60c26f48176b4a8b8e5aff2900ca1c45672",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:43:19.404433+00:00",
-      "last_changed": "2026-09-01T20:49:30.491589+00:00",
+      "last_changed": "2026-09-27T12:46:56.739740+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T19:38:15.746692+00:00",
-      "next_check": "2026-09-26T19:38:15.746692+00:00",
+      "last_seen": "2026-09-27T12:46:56.739740+00:00",
+      "next_check": "2026-09-28T12:46:56.739740+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/200198-Configuring-Dial-via-Office-Reverse-to-W.html": {
       "content_sha": "7b240355d387b621731da7edfe0c61141ab6d0f484217d7585929cd5420c9ac4",
@@ -11621,17 +11681,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.html": {
-      "content_sha": "0570220210a3e50752a7f399684b5bfa22e2ef46c4335088213c6a2d6c489e94",
+      "content_sha": "c76707431b046375754c72dac9497a50f1e455aeca5f464b21055a468931367b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200122-how-to-set-calling-li-9459f4e9b0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:39.693628+00:00",
-      "last_changed": "2026-08-21T13:54:39.693628+00:00",
+      "last_changed": "2026-09-27T12:53:39.007121+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:30.613299+00:00",
-      "next_check": "2026-09-22T16:57:30.613299+00:00",
+      "last_seen": "2026-09-27T12:53:39.007121+00:00",
+      "next_check": "2026-09-28T12:53:39.007121+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.html": {
       "content_sha": "2413a6af969a9b2b1511dae06b42e2e3fab3276d6bf63378862fd923584e3446",
@@ -11712,17 +11772,27 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.html": {
-      "content_sha": "8eb0b4e29e96c388c1230cf80b12511ae59d9b175d871ec3a58fc181d6f242e2",
+      "content_sha": "29ed1ca6c2105de20b86b64554e9d916e9957da7f8754c34120b7b9dc9c02f34",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-212411-how-to-get-d28a9c53e4",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:56:57.352157+00:00",
-      "last_changed": "2026-09-01T22:13:59.076846+00:00",
+      "last_changed": "2026-09-27T12:47:29.711891+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T19:38:42.610697+00:00",
-      "next_check": "2026-09-26T19:38:42.610697+00:00",
+      "last_seen": "2026-09-27T12:47:29.711891+00:00",
+      "next_check": "2026-09-28T12:47:29.711891+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-217922-configure--8905824132",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:47:13.955264+00:00",
+      "last_seen": "2026-09-27T12:47:13.955277+00:00",
+      "next_check": "2026-09-28T12:47:13.955281+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.html": {
       "content_sha": "7f56fa78afe0756e89b8504d250413478014a8605d27f583f144dd085aba01d1",
@@ -11737,18 +11807,28 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/217922-configure-sip-local-gateway-with-audio-c.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ios-gateways-session-initiation-protocol-sip-217922-configure--b11c0da27b",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:47:18.234165+00:00",
+      "last_seen": "2026-09-27T12:47:18.234176+00:00",
+      "next_check": "2026-09-28T12:47:18.234179+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ip-manager-assistant-cisco-unified-callmanager-40/200159-Configure-and-Troubleshoot-Cisco-IP-Mana.html": {
-      "content_sha": "4487c6b36d8c359a14d3e6cdecccda88f9e2cefde35ca6d08546545622131d37",
+      "content_sha": "bc6c31506a07302cf48d6f3b11f572ce13a353ff79f02c8ae14792e47cf5b18c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ip-manager-assistant-cisco-unified-callmanager-40-200159-confi-8aa66685f1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:35.346971+00:00",
-      "last_changed": "2026-08-21T13:54:35.346971+00:00",
+      "last_changed": "2026-09-27T12:53:34.693301+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:26.623520+00:00",
-      "next_check": "2026-09-22T16:57:26.623520+00:00",
+      "last_seen": "2026-09-27T12:53:34.693301+00:00",
+      "next_check": "2026-09-28T12:53:34.693301+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html": {
       "content_sha": "49397e201996e39d8e7417ab7e82118feb7b43e9b36e1d7097799b3af60bfebd",
@@ -12076,17 +12156,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.html": {
-      "content_sha": "e4e9f86329e6c4bd28ba259cdd09cd2c86ba6ef4df9dba603ac004ba15df8b1f",
+      "content_sha": "114ac876585dca381d2ad6dc81d79d916ee39465f65ad32c0b02ed8f3f8d8c0d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221643-troubleshoot-pdd-in-webex-calling-with-p-233776776e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:40.074872+00:00",
-      "last_changed": "2026-08-21T07:16:40.074872+00:00",
+      "last_changed": "2026-09-27T12:49:31.664332+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:54:00.920125+00:00",
-      "next_check": "2026-09-22T18:54:00.920125+00:00",
+      "last_seen": "2026-09-27T12:49:31.664332+00:00",
+      "next_check": "2026-09-28T12:49:31.664332+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html": {
       "content_sha": "d871048b2a3a801c2093e730c4d53e20962ff5afcf252e97266ab995fa5aa4c4",
@@ -12231,17 +12311,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.html": {
-      "content_sha": "56e8ea7e4747fec87eb1f0e516756a9bf3137f46f13c91e1e61394b3e95f0b4f",
+      "content_sha": "be148e736fd402e2af7099b0442245ccb073f98a647b2635acfff15a7f7235bb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212794-cisco-collaboration-solutions-12-0-oaut-html-594411fe2f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:20.262935+00:00",
-      "last_changed": "2026-08-21T07:05:20.262935+00:00",
+      "last_changed": "2026-09-27T12:52:52.604136+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:20.081743+00:00",
-      "next_check": "2026-09-22T16:56:20.081743+00:00",
+      "last_seen": "2026-09-27T12:52:52.604136+00:00",
+      "next_check": "2026-09-28T12:52:52.604136+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html": {
       "content_sha": "82ffd5a2a0ff16545ebd005fc97184188822e2c813f39df63f40985dfc7b0187",
@@ -12919,17 +12999,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/212649-troubleshoot-cube-sp-rejects-internal-ca.html": {
-      "content_sha": "e6a570143c6e6cf003b4d67aa2963a7aba626d1d1904ade409c943fce6d5d0d5",
+      "content_sha": "b9037809cee59bf1e35b44dea9ff3e04072b2d5f965b7288b954facdc4c56699",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-212649-troubleshoot-cube-sp-rejects-int-f6bc578c1a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T15:56:53.236199+00:00",
-      "last_changed": "2026-09-01T22:13:54.879364+00:00",
+      "last_changed": "2026-09-27T12:47:25.634336+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T19:38:38.234744+00:00",
-      "next_check": "2026-09-26T19:38:38.234744+00:00",
+      "last_seen": "2026-09-27T12:47:25.634336+00:00",
+      "next_check": "2026-09-28T12:47:25.634336+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/213843-troubleshoot-session-refresh-on-cube.html": {
       "content_sha": "eab71163e8c743855f12fbfd9ccdc6bddfc9745116d41e694f8bc09533bfed24",
@@ -12983,6 +13063,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-215208-configure-debug-collection-for-u-6a710b352f",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:47:01.661228+00:00",
+      "last_seen": "2026-09-27T12:47:01.661244+00:00",
+      "next_check": "2026-09-28T12:47:01.661247+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.html": {
       "content_sha": "0e1eed5bbd7c03fae6156ab72e1b257ae83c2ed2bad15627bd0d512e5963e17d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-215208-configure-debug-collection-for-u-33c2120447",
@@ -12994,6 +13084,16 @@
       "last_seen": "2026-09-27T11:19:01.877738+00:00",
       "next_check": "2026-09-28T11:19:01.877738+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215208-configure-debug-collection-for-unified-b.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-border-element-215208-configure-debug-collection-for-u-5ce2f460bc",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:47:05.877095+00:00",
+      "last_seen": "2026-09-27T12:47:05.877105+00:00",
+      "next_check": "2026-09-28T12:47:05.877108+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-border-element/215412-configure-sip-tls-between-cucm-cube-cube.html": {
@@ -13250,10 +13350,10 @@
       "first_seen": "2026-08-21T13:54:14.334442+00:00",
       "last_changed": "2026-08-21T13:54:14.334442+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:02.000728+00:00",
-      "next_check": "2026-09-22T16:57:02.000728+00:00",
+      "last_seen": "2026-09-27T12:53:22.566675+00:00",
+      "next_check": "2026-10-13T12:53:22.566675+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118892-config-cucm-00.html": {
       "content_sha": "f9893e5a285bac5e9d7b8febfdbc36c463408d6bc659f49c61baa5eae1af8693",
@@ -13263,10 +13363,10 @@
       "first_seen": "2026-08-21T13:54:01.443179+00:00",
       "last_changed": "2026-08-21T13:54:01.443179+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:45.062182+00:00",
-      "next_check": "2026-09-22T16:56:45.062182+00:00",
+      "last_seen": "2026-09-27T12:53:09.536091+00:00",
+      "next_check": "2026-10-13T12:53:09.536091+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118893-technote-cucm-00.html": {
       "content_sha": "55d5a1559caee159f882fb871940db67734ab3e634a23c19fbcabdf7eb047438",
@@ -13282,17 +13382,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118928-configure-cucm-00.html": {
-      "content_sha": "c6fbc34bc5432a2a3322985740c64bc167e4463673d5674e413262065b657d11",
+      "content_sha": "fb3930ecf9c30c1075446b579a9498ec8e0696b6d4cb551ae8953bc3056c35ec",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118928-configure-cu-ffdf1933e5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:09.908902+00:00",
-      "last_changed": "2026-08-21T13:54:09.908902+00:00",
+      "last_changed": "2026-09-27T12:53:18.106101+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:57.350648+00:00",
-      "next_check": "2026-09-22T16:56:57.350648+00:00",
+      "last_seen": "2026-09-27T12:53:18.106101+00:00",
+      "next_check": "2026-09-28T12:53:18.106101+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118948-technote-cucm-00.html": {
       "content_sha": "d56532d3b5a0417458dc90a6a5c7747adb4daf1b3ebe46c3422a97c0561f73ba",
@@ -13340,10 +13440,10 @@
       "first_seen": "2026-08-21T13:54:31.313735+00:00",
       "last_changed": "2026-08-21T13:54:31.313735+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:22.150693+00:00",
-      "next_check": "2026-09-22T16:57:22.150693+00:00",
+      "last_seen": "2026-09-27T12:53:31.160095+00:00",
+      "next_check": "2026-10-13T12:53:31.160095+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200181-Configure-Conference-Now-Feature-on-CUCM.html": {
       "content_sha": "ead925c6b30f3a42894d07a0b202c94ef2e82af39bd97c9ec8189f041d0bcceb",
@@ -13372,17 +13472,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200411-Install-Touchless-VM-for-CUCM.html": {
-      "content_sha": "6c21e24e0404c3435e136c95853378e0f9358b41bfcf7e5703b4d7df0ed02f45",
+      "content_sha": "43ca5a454341393f179b482d9dfb3a55679833bca5677b823b5610e5831451be",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200411-install-touc-ea56bb55e9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:43.860374+00:00",
-      "last_changed": "2026-08-21T13:54:43.860374+00:00",
+      "last_changed": "2026-09-27T12:53:43.420631+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:35.068017+00:00",
-      "next_check": "2026-09-22T16:57:35.068017+00:00",
+      "last_seen": "2026-09-27T12:53:43.420631+00:00",
+      "next_check": "2026-09-28T12:53:43.420631+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200447-Single-Number-Reach-Feature-for-Cisco-Un.html": {
       "content_sha": "d85d417f629f925c6d8711cb1af4cc622f28fb959eb1ce317dcbe3156b8ed918",
@@ -14125,6 +14225,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213527-changing-cuc-f62d5d45b1",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:52:36.232358+00:00",
+      "last_seen": "2026-09-27T12:52:36.232371+00:00",
+      "next_check": "2026-09-28T12:52:36.232375+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass.html": {
       "content_sha": "e0335e13d24eeb57ced992551b46f9f07e3a05eb36a7f25d95770690d84e16f3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213527-changing-cuc-9e01f25ba5",
@@ -14136,6 +14246,16 @@
       "last_seen": "2026-09-27T11:27:30.886849+00:00",
       "next_check": "2026-09-28T11:27:30.886849+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213527-changing-cucm-os-admin-and-security-pass.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-213527-changing-cuc-e8412afa5c",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T12:52:40.739461+00:00",
+      "last_seen": "2026-09-27T12:52:40.739473+00:00",
+      "next_check": "2026-09-28T12:52:40.739477+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/213534-installation-of-phone-locale-on-ip-phone.html": {
@@ -15021,17 +15141,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.html": {
-      "content_sha": "1ee5a165f6c489e2da576c2c5abe4fd38a049ffaa30119cc3f74e8b0c090003b",
+      "content_sha": "1ecc669dc9725cca2c6180819608640fc27cade96ce6e339723f7c2d1b278819",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-14-222048-set-up-radkit-42a9de78c3",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:53:49.281618+00:00",
-      "last_changed": "2026-08-21T13:53:49.281618+00:00",
+      "last_changed": "2026-09-27T12:53:05.481877+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:36.342507+00:00",
-      "next_check": "2026-09-22T16:56:36.342507+00:00",
+      "last_seen": "2026-09-27T12:53:05.481877+00:00",
+      "next_check": "2026-09-28T12:53:05.481877+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222931-configure-jabber-for-windows-for.html": {
       "content_sha": "e24bd300783ee0adf1d98a5395cc7a81c91decef4c62ebd89a0e44b510277b04",
@@ -15047,17 +15167,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/222534-implement-reuse-of-multi-san-tomcat-cert.html": {
-      "content_sha": "afc39a8828e6b12a6743b7c07164d97d4277034eded1d6a3514e1073f19d3433",
+      "content_sha": "e8e247e32ad139578deb37d213cae12762f0a420e52c4a9a69d968a9b7dc78be",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-15-222534-implement-reu-73837aaf94",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:53:40.399333+00:00",
-      "last_changed": "2026-08-21T13:53:40.399333+00:00",
+      "last_changed": "2026-09-27T12:53:01.028697+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:31.927824+00:00",
-      "next_check": "2026-09-22T16:56:31.927824+00:00",
+      "last_seen": "2026-09-27T12:53:01.028697+00:00",
+      "next_check": "2026-09-28T12:53:01.028697+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-15/225039-encrypt-and-decrypt-im-p-compliance.html": {
       "content_sha": "229c0686b040e3710c35ed99391221a1f115493c0cf7e7527513c900fce544f2",
@@ -15112,17 +15232,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-00.html": {
-      "content_sha": "b20a322a7f75b551fe215f1576571235833ca224ae624e93aa64a63812e65ec7",
+      "content_sha": "cd80219aefeab68b179f62b5ab0ddab1b4b346ec4c4ac860c6c53707124b052a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-survivable-remote-site-telephony-119026-configure-cusm-9cd8b0b870",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:18.682079+00:00",
-      "last_changed": "2026-08-21T13:54:18.682079+00:00",
+      "last_changed": "2026-09-27T12:53:26.621788+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:57:09.869893+00:00",
-      "next_check": "2026-09-22T16:57:09.869893+00:00",
+      "last_seen": "2026-09-27T12:53:26.621788+00:00",
+      "next_check": "2026-09-28T12:53:26.621788+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/201114-SIP-Phones-do-not-Register-to-SRST-route.html": {
       "content_sha": "b6392659428780232fa83ea0de0595c07f0194e2a404c94dd62db878516f6324",
@@ -15655,43 +15775,43 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones.html": {
-      "content_sha": "1da59c73caae9c2f91dd348d5f9519eb85c6a2c3e2246da8bf397f7934c1296b",
+      "content_sha": "a946d99b26a7bcda6591d904471a3aec53a837021d2c872f2ebc7e582b81f5e2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-221619-collect-pcap-trace-from-mpp-ip-phones-48cf088321",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:44.362951+00:00",
-      "last_changed": "2026-08-21T07:16:44.362951+00:00",
+      "last_changed": "2026-09-27T12:49:35.768775+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:54:04.926929+00:00",
-      "next_check": "2026-09-22T18:54:04.926929+00:00",
+      "last_seen": "2026-09-27T12:49:35.768775+00:00",
+      "next_check": "2026-09-28T12:49:35.768775+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/223101-troubleshoot-phone-services-sso-login.html": {
-      "content_sha": "26de4386ce97535d3b215eeaddab05043e1c495f66c4030390f6c057a139175f",
+      "content_sha": "3ddab5c535145398748bfcf88cf0c238c0ff976b752119ee75c8b26f8e317cf5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-223101-troubleshoot-phone-services-sso-login-83d507022e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:06.377185+00:00",
-      "last_changed": "2026-08-21T07:16:06.377185+00:00",
+      "last_changed": "2026-09-27T12:49:02.524191+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:27.747975+00:00",
-      "next_check": "2026-09-22T18:53:27.747975+00:00",
+      "last_seen": "2026-09-27T12:49:02.524191+00:00",
+      "next_check": "2026-09-28T12:49:02.524191+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.html": {
-      "content_sha": "c088de19bc4f3432eaea303aabbcdb439cdaed8381ce9a24bad37bdbbea0147e",
+      "content_sha": "e5b5dfcd8893827259f527f920962da0c14d05ac1aa5d88539981b1eb331ab30",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-h-5083cbfec9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:45.547632+00:00",
-      "last_changed": "2026-08-21T07:15:45.547632+00:00",
+      "last_changed": "2026-09-27T12:48:49.766899+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:11.266664+00:00",
-      "next_check": "2026-09-22T18:53:11.266664+00:00",
+      "last_seen": "2026-09-27T12:48:49.766899+00:00",
+      "next_check": "2026-09-28T12:48:49.766899+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.html": {
       "content_sha": "23adacca5ed542dfe2965e5d902e25b5bb3a199199af3e700b9c327df5caa798",
@@ -15707,17 +15827,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220377-understand-detailed-call-history-report.html": {
-      "content_sha": "79b13f1789cc41310fa74fb6c1b33ea7e53c07b4f3157d9e2e537fa8edc2b753",
+      "content_sha": "d0afa4d1e419066c48e6ebc60486eb1cceb9026e2546a5b991e1c0012b9952a1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220377-understand-detailed-call-history-report-h-e3ffe62bc7",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:36.387195+00:00",
-      "last_changed": "2026-08-20T23:21:36.387195+00:00",
+      "last_changed": "2026-09-27T12:48:11.697046+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:32.705664+00:00",
-      "next_check": "2026-09-22T18:52:32.705664+00:00",
+      "last_seen": "2026-09-27T12:48:11.697046+00:00",
+      "next_check": "2026-09-28T12:48:11.697046+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.html": {
       "content_sha": "f462f509809935df566098647e4d1f3a34e189d215d6815e7baee31d65a28489",
@@ -15733,95 +15853,95 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.html": {
-      "content_sha": "5392f1b4453b0eaa98499e82afcb391b9cffbc2e0fab71df05ad475c576ba8bb",
+      "content_sha": "d45c8be706b3094708e829d468d949db4cfe4791214b4a2cc0f04ce352970fd2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220632-configure-and-dial-international-calling--ee054deb68",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:40.933776+00:00",
-      "last_changed": "2026-08-21T07:15:40.933776+00:00",
+      "last_changed": "2026-09-27T12:48:45.594315+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:06.225636+00:00",
-      "next_check": "2026-09-22T18:53:06.225636+00:00",
+      "last_seen": "2026-09-27T12:48:45.594315+00:00",
+      "next_check": "2026-09-28T12:48:45.594315+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.html": {
-      "content_sha": "36e91ca7b72b4acba14a45b3445d6133be3cdcf4d5535d2a072673bc5966ee2a",
+      "content_sha": "6111c6dd2b8645e83ee5c422e75efa50e6a66fe83a352b7a768ddc0176f8425f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--ed15ef3298",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:49.022013+00:00",
-      "last_changed": "2026-08-20T23:21:49.022013+00:00",
+      "last_changed": "2026-09-27T12:48:24.482920+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:41.237811+00:00",
-      "next_check": "2026-09-22T18:52:41.237811+00:00",
+      "last_seen": "2026-09-27T12:48:24.482920+00:00",
+      "next_check": "2026-09-28T12:48:24.482920+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.html": {
-      "content_sha": "ac888e8a4c68bf0d8639a81ec761f0577268a4c0f245d8d20412aa5fb7d9714c",
+      "content_sha": "9d906e6efbed1cc3131b0235a22dfff5a8b9b44954610c702ae881804e0dd4a0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221052-generate-prt-manually-for-mpp-phones-reg--cd5445b67a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:44.498902+00:00",
-      "last_changed": "2026-08-20T23:21:44.498902+00:00",
+      "last_changed": "2026-09-27T12:48:16.080824+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:37.440998+00:00",
-      "next_check": "2026-09-22T18:52:37.440998+00:00",
+      "last_seen": "2026-09-27T12:48:16.080824+00:00",
+      "next_check": "2026-09-28T12:48:16.080824+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.html": {
-      "content_sha": "d16a5198430756bb78eb455025405af0778a3a4f2972ee59148f7c0d885f70d9",
+      "content_sha": "05704fb189f07c4712d7c6a701d3959d8068299507c4b814b7238f226cb6265f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-htm-c734973ef5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:58.046542+00:00",
-      "last_changed": "2026-08-21T07:15:58.046542+00:00",
+      "last_changed": "2026-09-27T12:48:58.129127+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:23.289472+00:00",
-      "next_check": "2026-09-22T18:53:23.289472+00:00",
+      "last_seen": "2026-09-27T12:48:58.129127+00:00",
+      "next_check": "2026-09-28T12:48:58.129127+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.html": {
-      "content_sha": "e70d3c6a76422ddf595ceae3bc4241f1c1bc2d1681db8af9de16be5005e806f4",
+      "content_sha": "8c3659abc739b07d84fc672f0390b69fb50264cdab72900b6d3d80dce813b6a8",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221890-troubleshoot-voicemail-issues-in-webex-c--3b371927b9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:32.574319+00:00",
-      "last_changed": "2026-08-20T23:21:32.574319+00:00",
+      "last_changed": "2026-09-27T12:48:07.487520+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:28.665843+00:00",
-      "next_check": "2026-09-22T18:52:28.665843+00:00",
+      "last_seen": "2026-09-27T12:48:07.487520+00:00",
+      "next_check": "2026-09-28T12:48:07.487520+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.html": {
-      "content_sha": "4a871aa4871ac1d5cd23e42f60d11c4b08c493786493fb905da2c8ed3d93eabe",
+      "content_sha": "0be485bc44e2eb9aa35335cac71d256cbeb239aea8503fff0a884a34e7acbdad",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221934-troubleshoot-attendant-console-issues-in--6f6a774c88",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:31.905813+00:00",
-      "last_changed": "2026-08-21T07:16:31.905813+00:00",
+      "last_changed": "2026-09-27T12:49:23.492854+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:52.577149+00:00",
-      "next_check": "2026-09-22T18:53:52.577149+00:00",
+      "last_seen": "2026-09-27T12:49:23.492854+00:00",
+      "next_check": "2026-09-28T12:49:23.492854+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.html": {
-      "content_sha": "0a328cdc1b7668ea439bbe95431a6c9c74543edc95fa9549884e06bee05994d5",
+      "content_sha": "4acac256694450c4fb176c464aae700d531af9d6b72bbb8ef50d65c079bce938",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221935-troubleshoot-hoteling-in-mpp-devices-for--6542189b89",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:35.925070+00:00",
-      "last_changed": "2026-08-21T07:16:35.925070+00:00",
+      "last_changed": "2026-09-27T12:49:27.542121+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:56.817901+00:00",
-      "next_check": "2026-09-22T18:53:56.817901+00:00",
+      "last_seen": "2026-09-27T12:49:27.542121+00:00",
+      "next_check": "2026-09-28T12:49:27.542121+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222122-troubleshoot-status-400-user-error-in.html": {
       "content_sha": "c6700ceb096e8945a92c0f0368ac791d22a864b81832a69f254caf936161202c",
@@ -15850,95 +15970,95 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222137-troubleshoot-webex-calling-video-calls-e.html": {
-      "content_sha": "6e52d967384a512a45e7d020c89f8fba71c6c725028c8664ac21fd75e05f25b4",
+      "content_sha": "0486bbd0de0e6bfa0e11c8cff17e75ce7ba613c65fb33d98553e6930e6a0266f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222137-troubleshoot-webex-calling-video-calls-e--d06ddfa24e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:23.588569+00:00",
-      "last_changed": "2026-08-21T07:16:23.588569+00:00",
+      "last_changed": "2026-09-27T12:49:19.404561+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:44.444735+00:00",
-      "next_check": "2026-09-22T18:53:44.444735+00:00",
+      "last_seen": "2026-09-27T12:49:19.404561+00:00",
+      "next_check": "2026-09-28T12:49:19.404561+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.html": {
-      "content_sha": "64f7d8dc3d4b28cc2b1f50501b006f0f219930a591b9a49909c875a0f57b2393",
+      "content_sha": "295ae34aa1571ea1b6ca18456206f748f3ebf6516035b5c5a97b6ac0aa8df942",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222143-identify-migration-process-from-cloud-co--5f9c1c325b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:36.708719+00:00",
-      "last_changed": "2026-08-21T07:15:36.708719+00:00",
+      "last_changed": "2026-09-27T12:48:41.446709+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:02.431432+00:00",
-      "next_check": "2026-09-22T18:53:02.431432+00:00",
+      "last_seen": "2026-09-27T12:48:41.446709+00:00",
+      "next_check": "2026-09-28T12:48:41.446709+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n.html": {
-      "content_sha": "d07103fec6736e5f3600208f3ed6a99e063825c740b1f168c7678e868809ed83",
+      "content_sha": "4e63220b148d1e8b11821d167fc6c95fbefd24e44805bd850fe02c8e8e85ad3a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222146-identify-procedure-to-modify-caller-id-n--58cff83ae5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:32.253450+00:00",
-      "last_changed": "2026-08-21T07:15:32.253450+00:00",
+      "last_changed": "2026-09-27T12:48:37.137568+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:58.142876+00:00",
-      "next_check": "2026-09-22T18:52:58.142876+00:00",
+      "last_seen": "2026-09-27T12:48:37.137568+00:00",
+      "next_check": "2026-09-28T12:48:37.137568+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.html": {
-      "content_sha": "1a4e03156d1fb92a8df4d1aa5937a9b05b50e0ff9de8e8a74da662b765a28aad",
+      "content_sha": "cce5646435cee7c1a4948254a9743d42d2ed284e99f2e4db3ff801855769930e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--61107c614c",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:40.474655+00:00",
-      "last_changed": "2026-08-20T23:21:40.474655+00:00",
+      "last_changed": "2026-09-27T12:48:32.952524+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:54.077742+00:00",
-      "next_check": "2026-09-22T18:52:54.077742+00:00",
+      "last_seen": "2026-09-27T12:48:32.952524+00:00",
+      "next_check": "2026-09-28T12:48:32.952524+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.html": {
-      "content_sha": "35580a76fe4c8f9b6794655082d813d1fa1d70767b9eb997b284d4be08e7425f",
+      "content_sha": "fec9befef8d2c1725335a650f9e7ff1cf7e337c9dd086fb5f4ed0f97573972b3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222153-recognize-how-dial-by-name-works-html-a4339b94a7",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:19.171072+00:00",
-      "last_changed": "2026-08-21T07:16:19.171072+00:00",
+      "last_changed": "2026-09-27T12:49:15.184764+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:40.229505+00:00",
-      "next_check": "2026-09-22T18:53:40.229505+00:00",
+      "last_seen": "2026-09-27T12:49:15.184764+00:00",
+      "next_check": "2026-09-28T12:49:15.184764+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.html": {
-      "content_sha": "1d7e4596cf5fd730bf2bf627455affbd5c6c06e61200d5a7bafba246168f1597",
+      "content_sha": "936b732f283ee486d50550354727a9636d6e51c54324e67679e7e49606e4992f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222804-collect-the-connector-logs-webex-calli-ht-3b6296efad",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:16:15.046270+00:00",
-      "last_changed": "2026-08-21T07:16:15.046270+00:00",
+      "last_changed": "2026-09-27T12:49:11.157916+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:35.957195+00:00",
-      "next_check": "2026-09-22T18:53:35.957195+00:00",
+      "last_seen": "2026-09-27T12:49:11.157916+00:00",
+      "next_check": "2026-09-28T12:49:11.157916+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.html": {
-      "content_sha": "ca4ae73df0a2fb5fee4ce581592dd9d45284d788a6c667dc51dc15dfb2d53d94",
+      "content_sha": "e65ae37749bfcf05aef3c2e1219e22e3a5b93ed02e9b79ea48a731cfcec52363",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-223294-open-a-cisco-tac-case-for-webex-calling-h-092d0ba104",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:15:53.956962+00:00",
-      "last_changed": "2026-08-21T07:15:53.956962+00:00",
+      "last_changed": "2026-09-27T12:48:53.952664+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:53:19.239971+00:00",
-      "next_check": "2026-09-22T18:53:19.239971+00:00",
+      "last_seen": "2026-09-27T12:48:53.952664+00:00",
+      "next_check": "2026-09-28T12:48:53.952664+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.html": {
       "content_sha": "dec546a6470a9a9ccf8b75cef240c725f83e812cbcf0095d69a2491d67ddbb90",
@@ -15948,10 +16068,10 @@
       "first_seen": "2026-08-21T07:16:02.105843+00:00",
       "last_changed": "2026-08-21T07:16:02.105843+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:45.620252+00:00",
-      "next_check": "2026-09-22T18:52:45.620252+00:00",
+      "last_seen": "2026-09-27T12:48:20.449525+00:00",
+      "next_check": "2026-10-13T12:48:20.449525+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.html": {
       "content_sha": "785484b4cabaf8629a90036c108be106c9b1ca19aa2225fc78fadeb6717916ee",
@@ -16032,17 +16152,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-teams/218148-troubleshoot-phone-services-disconnected.html": {
-      "content_sha": "76b8cb5a0cb079bba31d589b815bd29eb3e41063af46f1e5fe8ae5cee3e05b67",
+      "content_sha": "ebb56eeb344f9325fc99d9a31fc82166a00cc10f4c49f6374fa0a34d723962e6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-teams-218148-troubleshoot-phone-services-disconnected-ht-4964431eae",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T23:21:27.882581+00:00",
-      "last_changed": "2026-08-20T23:21:27.882581+00:00",
+      "last_changed": "2026-09-27T12:48:03.335587+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T18:52:24.843146+00:00",
-      "next_check": "2026-09-22T18:52:24.843146+00:00",
+      "last_seen": "2026-09-27T12:48:03.335587+00:00",
+      "next_check": "2026-09-28T12:48:03.335587+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-processing/213965-emcc-call-routing-explanation-and-config.html": {
       "content_sha": "e9384d6ad54f94d494484fa02047aadce4355c3a9f229e3ef0535c7bfb8a5451",
@@ -16162,17 +16282,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/dial-plan/118822-configure-cucm-00.html": {
-      "content_sha": "512336e32230b5ef26191d58a0a221fcef478787759b7c1de6934f1cc4d39862",
+      "content_sha": "379a76598cdefff1339755f701ae65736b3fd2ba2c50cdcde48faba97c3bdc81",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-dial-plan-118822-configure-cucm-00-html-2635fef122",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:54:05.727633+00:00",
-      "last_changed": "2026-08-21T13:54:05.727633+00:00",
+      "last_changed": "2026-09-27T12:53:13.681687+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:48.831054+00:00",
-      "next_check": "2026-09-22T16:56:48.831054+00:00",
+      "last_seen": "2026-09-27T12:53:13.681687+00:00",
+      "next_check": "2026-09-28T12:53:13.681687+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.html": {
       "content_sha": "a3f737c800e67e368590374516d9ecc1d3ac56f328621d71a19aa16c5c57f92f",
@@ -17207,6 +17327,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/tdm-gateways/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-tdm-gateways-series-html-d8a3e41790",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:13.144340+00:00",
+      "last_seen": "2026-09-27T12:47:13.144340+00:00",
+      "next_check": "2026-09-29T12:47:13.144340+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/telepresence-video-communication-server-vcs/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-telepresence-video-communication-server-vcs-series-html-e11b610cd8",
@@ -17337,6 +17467,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-installation-gu-0d483c42f3",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:51:39.291701+00:00",
+      "last_seen": "2026-09-27T12:51:39.291701+00:00",
+      "next_check": "2026-09-29T12:51:39.291701+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-maintenance-gui-bf449c61d3",
@@ -17409,6 +17549,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-express-series-html-e65e772f88",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:51:36.276671+00:00",
+      "last_seen": "2026-09-27T12:51:36.276671+00:00",
+      "next_check": "2026-09-29T12:51:36.276671+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-express-tsd-products-support-series--1875c37733",
@@ -17420,6 +17570,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-express/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-15/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-im-presence-service-15-model-html-98f4b105bd",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:34.062927+00:00",
+      "last_seen": "2026-09-27T12:47:34.062927+00:00",
+      "next_check": "2026-09-29T12:47:34.062927+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-im-presence-service-version-12-5/model.html": {
       "content_sha": null,
@@ -17527,6 +17687,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-installation-and-configuration-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-presence-products-installation-and-configuration-guides-lis-668c8e4b4e",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:51:43.522832+00:00",
+      "last_seen": "2026-09-27T12:51:43.522832+00:00",
+      "next_check": "2026-09-29T12:51:43.522832+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-security-advisories-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-presence-products-security-advisories-list-html-b1926123db",
@@ -17570,6 +17740,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-sip-proxy-software/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-survivable-remote-site-telephony-series-html-c69c5db23d",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:49:43.912125+00:00",
+      "last_seen": "2026-09-27T12:49:43.912125+00:00",
+      "next_check": "2026-09-29T12:49:43.912125+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-survivable-remote-site-telephony/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -20284,30 +20464,30 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-g1.html": {
-      "content_sha": "aa5acca47361988e8b65d8d2fc8d20b2245771ed68fddc320b2dffa19ae5a206",
+      "content_sha": "e2861fa00f63ae09ecb5a43ee6d6acb9018faba7a5e7676af732202e894991a4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-g1-html-dfe09a4e5b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:13:00.028227+00:00",
-      "last_changed": "2026-08-16T23:13:00.028227+00:00",
+      "last_changed": "2026-09-27T12:49:57.062467+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:58:46.327740+00:00",
-      "next_check": "2026-09-15T15:58:46.327740+00:00",
+      "last_seen": "2026-09-27T12:49:57.062467+00:00",
+      "next_check": "2026-09-28T12:49:57.062467+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-h1.html": {
-      "content_sha": "631191df666963528b0a4af686a237ef31f47ee1261339ac0f2970cd3aace82e",
+      "content_sha": "da366fec4031762f9e3cf8c40becdf042caa5e82bc8670a849fc39ac1af95c70",
       "doc_id": "www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr2-vcr2-cr-book-vcr-h1-html-82de34a054",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:17:04.871929+00:00",
-      "last_changed": "2026-08-16T23:17:04.871929+00:00",
+      "last_changed": "2026-09-27T12:50:29.575643+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:59:13.226407+00:00",
-      "next_check": "2026-09-15T15:59:13.226407+00:00",
+      "last_seen": "2026-09-27T12:50:29.575643+00:00",
+      "next_check": "2026-09-28T12:50:29.575643+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr2/vcr2-cr-book/vcr-i1.html": {
       "content_sha": "fc8cc15c22a6a5a3025bd4164f0f85934075ae1a21779c4b1bc1151663de06c8",
@@ -42306,6 +42486,15 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/Doc-Wiki/APIs_main_page/b_CUC_API_troubleshooting.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-doc-wiki-apis-main-page-b-cuc-api-troubleshooting-html-15d9c8876b",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:49:38.971645+00:00",
+      "last_seen": "2026-09-27T12:49:38.971655+00:00",
+      "status": "gone",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/Doc-Wiki/b_Cisco_Unity_Connection_APIs.html": {
       "content_sha": "b9e9fc1730d47027a912bcd2cf87c4081c1e9a60ab1d678faab62baf25044937",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-doc-wiki-b-cisco-unity-connection-apis-html-95a838908a",
@@ -57088,17 +57277,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6/cucm_m_phone-replacement-migration-ivr-phone.html": {
-      "content_sha": "7a9d7a70fe74f45e1f5d45f1114cee601cfa08b9de804d67af2f77384cf66b4f",
+      "content_sha": "bf64209f6c9ceb712f6f711362446d909bad56de23c9a02b6e23ac4cdfc7cf4f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su6-cucm-b-feature-configuration-guide-for-cisco12su6-cucm--08f17f1bba",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T16:38:58.475068+00:00",
-      "last_changed": "2026-09-15T13:12:54.911561+00:00",
+      "last_changed": "2026-09-27T12:47:46.876578+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T15:18:05.940006+00:00",
-      "next_check": "2026-09-22T15:18:05.940006+00:00",
+      "last_seen": "2026-09-27T12:47:46.876578+00:00",
+      "next_check": "2026-09-28T12:47:46.876578+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU6/cucm_b_feature-configuration-guide-for-cisco12su6/cucm_m_video-telephony.html": {
       "content_sha": "3e0e039f1df2eeb032f0a298233d298e9928ee5b25152d5db7531cf637d0809d",
@@ -68285,23 +68474,23 @@
       "first_seen": "2026-08-16T23:54:33.996356+00:00",
       "last_changed": "2026-08-16T23:54:33.996356+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:27.602488+00:00",
-      "next_check": "2026-09-15T10:35:27.602488+00:00",
+      "last_seen": "2026-09-27T12:51:56.629439+00:00",
+      "next_check": "2026-10-13T12:51:56.629439+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_010.html": {
-      "content_sha": "89d9b99ff6d1dac664e5224c4251091405669be7906f306219519fca6662363b",
+      "content_sha": "eb04feb9811bcb76030eb21d3594dad03c90009d15933eb009f25e3f08507247",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-cucm-b-cli-reference-gui-6fb3831aed",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:54:39.684201+00:00",
-      "last_changed": "2026-08-16T23:54:39.684201+00:00",
+      "last_changed": "2026-09-27T12:52:00.737862+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:32.107619+00:00",
-      "next_check": "2026-09-15T10:35:32.107619+00:00",
+      "last_seen": "2026-09-27T12:52:00.737862+00:00",
+      "next_check": "2026-09-28T12:52:00.737862+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_0100.html": {
       "content_sha": "06112bf1be9458759cff7aad08311a727616977e8f5d55bb071f31de417cb16a",
@@ -68311,23 +68500,23 @@
       "first_seen": "2026-08-16T23:54:47.652182+00:00",
       "last_changed": "2026-08-16T23:54:47.652182+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:40.446821+00:00",
-      "next_check": "2026-09-15T10:35:40.446821+00:00",
+      "last_seen": "2026-09-27T12:52:08.783455+00:00",
+      "next_check": "2026-10-13T12:52:08.783455+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_01000.html": {
-      "content_sha": "3c7a37a3c37ea4c4ab495836a6f5f3e7c222a88037d783ab4eee129e556b74bd",
+      "content_sha": "91a86719727a0743c23d1b2eb5e8b4f002afdc815b101e1c6e549c0266d817c7",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-cucm-b-cli-reference-gui-6e752ea29f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:55:11.294503+00:00",
-      "last_changed": "2026-08-16T23:55:11.294503+00:00",
+      "last_changed": "2026-09-27T12:52:28.435688+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:36:01.645746+00:00",
-      "next_check": "2026-09-15T10:36:01.645746+00:00",
+      "last_seen": "2026-09-27T12:52:28.435688+00:00",
+      "next_check": "2026-09-28T12:52:28.435688+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_01001.html": {
       "content_sha": "d3ba526d2cf10a79259e683665f79c1b8340defcd58fdc0f0340a4240e35b12d",
@@ -68337,36 +68526,36 @@
       "first_seen": "2026-08-16T23:55:19.737548+00:00",
       "last_changed": "2026-08-16T23:55:19.737548+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:36:10.100534+00:00",
-      "next_check": "2026-09-15T10:36:10.100534+00:00",
+      "last_seen": "2026-09-27T12:52:36.095255+00:00",
+      "next_check": "2026-10-13T12:52:36.095255+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_0101.html": {
-      "content_sha": "630a09239e753589cbd12bed3a7119a322fbfa63da5fed4fbc6d11828b75d8a9",
+      "content_sha": "87b9e05ad066d056962fec3239c4ea80e23989cfa68d7695e42ff87bf1de41c9",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-cucm-b-cli-reference-gui-c446911d42",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:54:52.307216+00:00",
-      "last_changed": "2026-08-16T23:54:52.307216+00:00",
+      "last_changed": "2026-09-27T12:52:13.103408+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:44.805104+00:00",
-      "next_check": "2026-09-15T10:35:44.805104+00:00",
+      "last_seen": "2026-09-27T12:52:13.103408+00:00",
+      "next_check": "2026-09-28T12:52:13.103408+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_011.html": {
-      "content_sha": "59f9e9233ccb79131453d6dcf5dbe02981bcf2ef36c45f1e8b6492cae72527fd",
+      "content_sha": "02ebb101fae77b7d5f7208a6b1e0e63cbff3bf0956067e368f6efd60c794546a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-cucm-b-cli-reference-gui-349a472d8e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:54:44.065508+00:00",
-      "last_changed": "2026-08-16T23:54:44.065508+00:00",
+      "last_changed": "2026-09-27T12:52:05.074299+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:36.999019+00:00",
-      "next_check": "2026-09-15T10:35:36.999019+00:00",
+      "last_seen": "2026-09-27T12:52:05.074299+00:00",
+      "next_check": "2026-09-28T12:52:05.074299+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_0110.html": {
       "content_sha": "3504c4ced57e847bd7ef4b6fc844160898021170e5f0a7843dd7858ca6b400b9",
@@ -68376,10 +68565,10 @@
       "first_seen": "2026-08-16T23:55:00.088317+00:00",
       "last_changed": "2026-08-16T23:55:00.088317+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:51.459383+00:00",
-      "next_check": "2026-09-15T10:35:51.459383+00:00",
+      "last_seen": "2026-09-27T12:52:19.163720+00:00",
+      "next_check": "2026-10-13T12:52:19.163720+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_chapter_0111.html": {
       "content_sha": "cf928c03fadb129f1bb02d95cc12ddecfde112f196caea3dfd8b9d233a448a63",
@@ -68389,23 +68578,23 @@
       "first_seen": "2026-08-16T23:55:07.468259+00:00",
       "last_changed": "2026-08-16T23:55:07.468259+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:58.205029+00:00",
-      "next_check": "2026-09-15T10:35:58.205029+00:00",
+      "last_seen": "2026-09-27T12:52:25.059115+00:00",
+      "next_check": "2026-10-13T12:52:25.059115+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1/cucm_b_cli-reference-guide-1251/cucm_b_cli-reference-guide-1251_preface_00.html": {
-      "content_sha": "2fe2fef17d96a84a431e019bc50c1514f52318c3c655c290612d7cabcf223660",
+      "content_sha": "ae444c596dbb5d1966098489e2d160450e31ff0ee436bf7001adc4b9e109739a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1-cucm-b-cli-reference-guide-1251-cucm-b-cli-reference-gui-7204cfd871",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T23:54:29.450562+00:00",
-      "last_changed": "2026-08-16T23:54:29.450562+00:00",
+      "last_changed": "2026-09-27T12:51:52.188676+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T10:35:23.035404+00:00",
-      "next_check": "2026-09-15T10:35:23.035404+00:00",
+      "last_seen": "2026-09-27T12:51:52.188676+00:00",
+      "next_check": "2026-09-28T12:51:52.188676+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU1/cucm_b_command-line-interface-reference-guide-1251Su1.html": {
       "content_sha": "703a786b61a7f50f7aebd26e8d89a9e1bbb9e34d346d3b112f6ea3ac0de01868",
@@ -74287,6 +74476,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/14_0_1/cup0_b_ms-outlook-calendar-integration-1401/cup0_b_ms-outlook-calendar-integration-1401_index.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-exchange-integration-14-0-1-cup0-b-ms-outlook-calendar-inte-7f67f04cc2",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:42.122587+00:00",
+      "last_seen": "2026-09-27T12:47:42.122587+00:00",
+      "next_check": "2026-09-29T12:47:42.122587+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/exchange_integration/14_0_1/cup0_b_ms-outlook-calendar-integration-1401/cup0_b_ms-outlook-calender-integration-1251_chapter_00.html": {
       "content_sha": "f09bf0a03d07905204178c2b87dbccf85b1352c0418d71681e95c9d06ee38760",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-exchange-integration-14-0-1-cup0-b-ms-outlook-calendar-inte-032d0c9318",
@@ -75554,6 +75753,16 @@
       "next_check": "2026-09-30T11:13:25.734837+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/14/cup0_b_interdomain-federation-guide-14/cup0_b_interdomain-federation-guide-14_index.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-interdomain-federation-14-cup0-b-interdomain-federation-gui-143238e88c",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:47:38.265356+00:00",
+      "last_seen": "2026-09-27T12:47:38.265356+00:00",
+      "next_check": "2026-09-29T12:47:38.265356+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/interdomain_federation/14/cup0_b_interdomain-federation-guide-14/cup0_m_new-and-changed-information.html": {
       "content_sha": "525827d4570781256fa556f4f8196026947ad104a6e38495b9cdc1fd2f20748f",
@@ -87734,10 +87943,10 @@
       "first_seen": "2026-08-16T23:51:01.438324+00:00",
       "last_changed": "2026-08-16T23:51:01.438324+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:07:37.184042+00:00",
-      "next_check": "2026-09-15T11:07:37.184042+00:00",
+      "last_seen": "2026-09-27T12:51:48.023383+00:00",
+      "next_check": "2026-10-13T12:51:48.023383+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/sustaining/cucm_b_readme-15su3a.html": {
       "content_sha": "69688ad253a5b54c6225099fee411ec9c632a080940dda189e36d10d283be7e0",
@@ -90048,17 +90257,17 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmebasic.html": {
-      "content_sha": "7326c75a1a916d6dc6fb360e3ad30b363e332ee249509647de3f493778092580",
+      "content_sha": "4fde89bcf6e729e0b3b1947db7dfd6e01fe85aa5549a6092bbcf280aed50d85e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-admin-configuration-manual-cmeadm-cmebasic-html-a138b2229a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:22:21.144625+00:00",
-      "last_changed": "2026-08-21T07:22:21.144625+00:00",
+      "last_changed": "2026-09-27T12:51:22.766946+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T12:31:06.896683+00:00",
-      "next_check": "2026-09-16T12:31:06.896683+00:00",
+      "last_seen": "2026-09-27T12:51:22.766946+00:00",
+      "next_check": "2026-09-28T12:51:22.766946+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeblock.html": {
       "content_sha": "14667ecd6823188eaf6a5fd88d1df807fc6891ec2e15671aaf7d1133cc556ce1",
@@ -90211,10 +90420,10 @@
       "first_seen": "2026-08-21T07:22:00.221620+00:00",
       "last_changed": "2026-08-21T07:22:00.221620+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T12:31:11.494264+00:00",
-      "next_check": "2026-09-16T12:31:11.494264+00:00",
+      "last_seen": "2026-09-27T12:51:26.786092+00:00",
+      "next_check": "2026-10-13T12:51:26.786092+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm/cmeinter.html": {
       "content_sha": "a31806cd0a400ef629711376ee73c3bedd181bd98dec6198d330d92830e0b553",
@@ -90671,17 +90880,17 @@
       "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bacd/configuration/guide/cme40tcl/40bacd.html": {
-      "content_sha": "41719945faf3c78c8303bd0e008bbe4e98b2dee3c885f82ad6477bacfce63f54",
+      "content_sha": "aedda0dee9be95cb5f8abb72b77b5c9b7937a4b366e325bef1eb7a47c096e6e4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bacd-configuration-guide-cme40tcl-40bacd-html-2b53dde4df",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T23:02:31.430393+00:00",
-      "last_changed": "2026-08-21T23:02:31.430393+00:00",
+      "last_changed": "2026-09-27T12:51:32.251393+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T13:33:28.993169+00:00",
-      "next_check": "2026-09-12T13:33:28.993169+00:00",
+      "last_seen": "2026-09-27T12:51:32.251393+00:00",
+      "next_check": "2026-09-28T12:51:32.251393+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bacd/configuration/guide/cme40tcl/40did.html": {
       "content_sha": "4cef071e5d42bdc89118d938651e9417d6bcb2a4c3fad4ab9007e417f654964b",
@@ -91414,10 +91623,10 @@
       "first_seen": "2026-08-21T09:46:05.635616+00:00",
       "last_changed": "2026-08-21T09:46:05.635616+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T12:30:52.789097+00:00",
-      "next_check": "2026-09-16T12:30:52.789097+00:00",
+      "last_seen": "2026-09-27T12:50:33.076570+00:00",
+      "next_check": "2026-10-13T12:50:33.076570+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/vcme125spc.html": {
       "content_sha": null,
@@ -91444,17 +91653,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/vcme141spc.html": {
-      "content_sha": "6df486cc2be407934ace76cd7b023026916a514bd0ab0a1ba5a6ba5fbb1757a6",
+      "content_sha": "665bacc4731fbb66f0b0b3c9cbf9f764c62672e048b4b3bedde7aacb84f1d39a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-requirements-guide-vcme141spc-html-c8746858a4",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T09:46:09.493014+00:00",
-      "last_changed": "2026-08-21T09:46:09.493014+00:00",
+      "last_changed": "2026-09-27T12:50:37.260406+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T12:30:56.943190+00:00",
-      "next_check": "2026-09-16T12:30:56.943190+00:00",
+      "last_seen": "2026-09-27T12:50:37.260406+00:00",
+      "next_check": "2026-09-28T12:50:37.260406+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/clproc.html": {
       "content_sha": "16f85f24db688534d97d250628904805fda4181451de91abcc08559458082c8c",
@@ -106121,17 +106330,17 @@
       "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/7_0/english/integration_notes/ibmstInt.html": {
-      "content_sha": "cbbd7cca4a5f0bfd9783efd8143ab03a4ab24129d58b5f7e68aaf9ad70a0d4b9",
+      "content_sha": "ed196a688e143518fa819e143ea3ab931849b28cb341a423130579dc0960e8b1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-7-0-english-integration-notes-ibmstint-html-7062d011cc",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T13:51:18.601094+00:00",
-      "last_changed": "2026-08-21T13:51:18.601094+00:00",
+      "last_changed": "2026-09-27T12:52:47.946794+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T16:56:15.834947+00:00",
-      "next_check": "2026-09-22T16:56:15.834947+00:00",
+      "last_seen": "2026-09-27T12:52:47.946794+00:00",
+      "next_check": "2026-09-28T12:52:47.946794+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusm/express_12_5_1_SU1/install/guide/ccp_b_1251su1install-and-upgrade.html": {
       "content_sha": "b2272175480c321bd70312044a4b4de77955609494d675cc60fab0e68bfea3ca",
@@ -106449,10 +106658,10 @@
       "first_seen": "2026-08-21T02:49:51.406597+00:00",
       "last_changed": "2026-08-21T02:49:51.406597+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:54:50.718420+00:00",
-      "next_check": "2026-09-11T11:54:50.718420+00:00",
+      "last_seen": "2026-09-27T12:50:21.452294+00:00",
+      "next_check": "2026-10-05T12:50:21.452294+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/command/reference/srstcr/srsa_a_m.html": {
       "content_sha": "9ac85cb9794491bb45c87b94d98024535dd4a355e75bad7adac95ed1ba848557",
@@ -106780,186 +106989,186 @@
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs105spc.html": {
-      "content_sha": "7d7c947f8106143938449db069f7dded5dd7209c46e26d5dc642a0abb7c61f53",
+      "content_sha": "df5cafaa03220bd5ef9419045306b5f6a02f3f2d547a50fb7b512cda8e88a7b8",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs105spc-html-49ca7e4643",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T10:06:05.830923+00:00",
-      "last_changed": "2026-08-21T10:06:05.830923+00:00",
+      "last_changed": "2026-09-27T12:50:13.611161+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:58:50.566161+00:00",
-      "next_check": "2026-09-11T15:58:50.566161+00:00",
+      "last_seen": "2026-09-27T12:50:13.611161+00:00",
+      "next_check": "2026-09-28T12:50:13.611161+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs121spc.html": {
-      "content_sha": "47f7cfab1b06c8b2c888263c8e17a4372bbee743fd8093beea3690223fa13eca",
+      "content_sha": "ede7ad59b063fa388634c72b653fec33ddc548c1a394248e3675824f6a629218",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs121spc-html-bba28f4b70",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:28:15.150863+00:00",
-      "last_changed": "2026-08-21T21:28:15.150863+00:00",
+      "last_changed": "2026-09-27T12:51:15.257698+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:45.168574+00:00",
-      "next_check": "2026-09-11T11:53:45.168574+00:00",
+      "last_seen": "2026-09-27T12:51:15.257698+00:00",
+      "next_check": "2026-09-28T12:51:15.257698+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs122spc.html": {
-      "content_sha": "9a654632e056ff3742381b11e44a85616ed472e9721db9a9d3af464d104977ba",
+      "content_sha": "929e3220a7d0bb433577190917c86afd82e0ec3e6c4c9dfd0a1ea36ffa1199f5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs122spc-html-f727ee9f12",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:28:11.034036+00:00",
-      "last_changed": "2026-08-21T21:28:11.034036+00:00",
+      "last_changed": "2026-09-27T12:51:11.046601+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:41.097333+00:00",
-      "next_check": "2026-09-11T11:53:41.097333+00:00",
+      "last_seen": "2026-09-27T12:51:11.046601+00:00",
+      "next_check": "2026-09-28T12:51:11.046601+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs123spc.html": {
-      "content_sha": "20263ccb5c0ae23883f65b04f09e42ffdffb30b93ca427fc51397200f0872300",
+      "content_sha": "b2c7af656ec356268f63e40e6c295c9773f43d1689ca8a8632d4ee53a610bbf6",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs123spc-html-2cf7fa073b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:28:06.873881+00:00",
-      "last_changed": "2026-08-21T21:28:06.873881+00:00",
+      "last_changed": "2026-09-27T12:51:06.932527+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:36.889655+00:00",
-      "next_check": "2026-09-11T11:53:36.889655+00:00",
+      "last_seen": "2026-09-27T12:51:06.932527+00:00",
+      "next_check": "2026-09-28T12:51:06.932527+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs125spc.html": {
-      "content_sha": "3e2dd9c07b590413678317e7d1670ab03d6e66354c4eabbef6269549a3b0af1a",
+      "content_sha": "4c3ac30af2b2094b1aac50c1bb176115232b6d192de11fd4112440a1523d167e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs125spc-html-e72bbee59b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T10:06:01.746245+00:00",
-      "last_changed": "2026-08-21T10:06:01.746245+00:00",
+      "last_changed": "2026-09-27T12:50:09.255996+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:32.687731+00:00",
-      "next_check": "2026-09-11T11:53:32.687731+00:00",
+      "last_seen": "2026-09-27T12:50:09.255996+00:00",
+      "next_check": "2026-09-28T12:50:09.255996+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs126spc.html": {
-      "content_sha": "05fae8a9cd87d2439ef1cc85066c24eb4bc5cae8fe93770e948beb410486215f",
+      "content_sha": "f27219d415113e2f7f47a985fd5e89d3b3e39bdff40807c7378664ff04ddece1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs126spc-html-a3980e3d7e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:28:02.728597+00:00",
-      "last_changed": "2026-08-21T21:28:02.728597+00:00",
+      "last_changed": "2026-09-27T12:51:02.744109+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:28.224077+00:00",
-      "next_check": "2026-09-11T11:53:28.224077+00:00",
+      "last_seen": "2026-09-27T12:51:02.744109+00:00",
+      "next_check": "2026-09-28T12:51:02.744109+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs127spc.html": {
-      "content_sha": "5e26c29f793e5b94984f964e26c39a4b392ebb445c2c90f0d4fcb6a12a8d6ce3",
+      "content_sha": "9faa9fefe5ccf32ab2b9eac05afcdd34bc30013d0d23ebc0c19ac3104319b57c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs127spc-html-f0c26955e2",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T10:05:57.483903+00:00",
-      "last_changed": "2026-08-21T10:05:57.483903+00:00",
+      "last_changed": "2026-09-27T12:50:04.872065+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:24.057879+00:00",
-      "next_check": "2026-09-11T11:53:24.057879+00:00",
+      "last_seen": "2026-09-27T12:50:04.872065+00:00",
+      "next_check": "2026-09-28T12:50:04.872065+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs128spc.html": {
-      "content_sha": "1ca2eaf1e862804f049f57b6c18b7967289402cc67ede60bea662cb33e30c449",
+      "content_sha": "b3ae3e224767df31a57cdc13acf815bbb504d66863a18b9849f89ae9e892629a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs128spc-html-fc71c380db",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:27:58.509913+00:00",
-      "last_changed": "2026-08-21T21:27:58.509913+00:00",
+      "last_changed": "2026-09-27T12:50:58.478469+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:19.969502+00:00",
-      "next_check": "2026-09-11T11:53:19.969502+00:00",
+      "last_seen": "2026-09-27T12:50:58.478469+00:00",
+      "next_check": "2026-09-28T12:50:58.478469+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs141spc.html": {
-      "content_sha": "e7c053bf39733d60149cccb2ba78a83b2688466163c6263a3a016e6432764255",
+      "content_sha": "c60c67ad61b30bb4dca7131ab370088967ddf174bca7ddddd21fd616d0d173b8",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs141spc-html-e13afeaea6",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T10:05:53.142347+00:00",
-      "last_changed": "2026-08-21T10:05:53.142347+00:00",
+      "last_changed": "2026-09-27T12:50:00.736239+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:15.705908+00:00",
-      "next_check": "2026-09-11T11:53:15.705908+00:00",
+      "last_seen": "2026-09-27T12:50:00.736239+00:00",
+      "next_check": "2026-09-28T12:50:00.736239+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs142spc.html": {
-      "content_sha": "6a68c41e1eeff7fd0edaa0a0b7c4aa5015ea89ed189032a83afca68a9f800586",
+      "content_sha": "f994751c00530b2b2f389f536da706414ecdc896c55e988bc9e8b87bb039884e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs142spc-html-215c03c0f2",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:27:54.217423+00:00",
-      "last_changed": "2026-08-21T21:27:54.217423+00:00",
+      "last_changed": "2026-09-27T12:50:50.302752+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:11.434696+00:00",
-      "next_check": "2026-09-11T11:53:11.434696+00:00",
+      "last_seen": "2026-09-27T12:50:50.302752+00:00",
+      "next_check": "2026-09-28T12:50:50.302752+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs143spc.html": {
-      "content_sha": "936862cb4704438550012080ec62c4b788c37f386e6c089f4fe582a8f53c7fa6",
+      "content_sha": "056c7016ac50672e78a638945bbb96ba34455daa7dd7a74f75230d30da502a8f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs143spc-html-34efd58d17",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:27:46.016944+00:00",
-      "last_changed": "2026-08-21T21:27:46.016944+00:00",
+      "last_changed": "2026-09-27T12:50:46.176760+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:02.644107+00:00",
-      "next_check": "2026-09-11T11:53:02.644107+00:00",
+      "last_seen": "2026-09-27T12:50:46.176760+00:00",
+      "next_check": "2026-09-28T12:50:46.176760+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs144spc.html": {
-      "content_sha": "bd9eabd4dfe2c7675e8655e9acb66158c99d6e3f55d742159d7b74cb321c7b1c",
+      "content_sha": "cf06c7e529289c540882e754f3ab73e6a2de3d3eee31722407caa65497d1f220",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs144spc-html-31c1347fd0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:27:41.852675+00:00",
-      "last_changed": "2026-08-21T21:27:41.852675+00:00",
+      "last_changed": "2026-09-27T12:50:41.979047+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:57.890150+00:00",
-      "next_check": "2026-09-11T11:52:57.890150+00:00",
+      "last_seen": "2026-09-27T12:50:41.979047+00:00",
+      "next_check": "2026-09-28T12:50:41.979047+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs145spc.html": {
-      "content_sha": "c6e987bb6e06e5525a926ec642e6572ab8f3acee68d45fd503583d8972a0f41b",
+      "content_sha": "990003bd74d132c3693922b7497fa8a07529b390dea9945e043942f45788b5c2",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs145spc-html-0d5c9ac61b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T10:03:35.709995+00:00",
-      "last_changed": "2026-08-21T10:03:35.709995+00:00",
+      "last_changed": "2026-09-27T12:49:52.450239+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:53.009995+00:00",
-      "next_check": "2026-09-11T11:52:53.009995+00:00",
+      "last_seen": "2026-09-27T12:49:52.450239+00:00",
+      "next_check": "2026-09-28T12:49:52.450239+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs14spc.html": {
-      "content_sha": "70252f72511a61df6e382873470fb9775a81917b2f64a84f275473d8000cc5e6",
+      "content_sha": "8b0739c37000edfcedafe5f47371ff60da4b7e15d1805f0bce27dbfce9343db1",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-requirements-guide-srs14spc-html-eae66e9d81",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T21:27:49.972988+00:00",
-      "last_changed": "2026-08-21T21:27:49.972988+00:00",
+      "last_changed": "2026-09-27T12:50:54.529684+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:53:06.904622+00:00",
-      "next_check": "2026-09-11T11:53:06.904622+00:00",
+      "last_seen": "2026-09-27T12:50:54.529684+00:00",
+      "next_check": "2026-09-28T12:50:54.529684+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs150spc.html": {
       "content_sha": "f6c38e8d573d0b4b148fa3a0016b9fc78418a2001acac230ae1ce84f9577219f",
@@ -106969,10 +107178,10 @@
       "first_seen": "2026-08-21T10:03:31.630047+00:00",
       "last_changed": "2026-08-21T10:03:31.630047+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:47.918757+00:00",
-      "next_check": "2026-09-11T11:52:47.918757+00:00",
+      "last_seen": "2026-09-27T12:49:48.553348+00:00",
+      "next_check": "2026-10-05T12:49:48.553348+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/requirements/guide/srs42spc.html": {
       "content_sha": "3bb6cdce30d03af47e4ff9aca9d0471402e8b7de00c233ed2f47089801b3603e",
@@ -130338,6 +130547,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-configurati-0014693a89",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:30.400016+00:00",
+      "last_seen": "2026-09-27T12:46:30.400016+00:00",
+      "next_check": "2026-09-29T12:46:30.400016+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/configuration/guide/ucce_b_ucce-features-guide-12_5/ucce_b_cisco-unified-contact-center-enterprise12_5_chapter_01.html": {
       "content_sha": "c9c25fdf8e9305a8462cd13db280e6dfa4991bc1e6c593b5ee628121c8601299",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-configurati-21c8591eb7",
@@ -130545,6 +130764,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/design/guide/ucce_b_soldg-for-unified-cce-12_5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-design-guid-c7a71a8d45",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:48.175056+00:00",
+      "last_seen": "2026-09-27T12:45:48.175056+00:00",
+      "next_check": "2026-09-29T12:45:48.175056+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/design/guide/ucce_b_soldg-for-unified-cce-12_5/ucce_b_soldg-for-unified-cce-12_5_chapter_01.html": {
       "content_sha": "365653b2036b3b41178a3bb8bf4a89d79290bf00e9addbd521ab7ae877971186",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-design-guid-7a95e865a9",
@@ -130700,6 +130929,16 @@
       "next_check": "2026-10-01T15:11:41.309638+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_1251-staging-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-b30f169cd6",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:21.650193+00:00",
+      "last_seen": "2026-09-27T12:46:21.650193+00:00",
+      "next_check": "2026-09-29T12:46:21.650193+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_1251-staging-guide/ucce_b_1251-staging-guide_appendix_01011.html": {
       "content_sha": "07a6cf824a6b994efd6da49d1e428239cfe0c06c9d160a02c6e72e1e625d5f97",
@@ -130882,6 +131121,16 @@
       "next_check": "2026-10-01T18:56:18.551560+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_12_5_Install_upgrade_guide_ucce.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-7a703bb09b",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:57.132815+00:00",
+      "last_seen": "2026-09-27T12:45:57.132815+00:00",
+      "next_check": "2026-09-29T12:45:57.132815+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_12_5_Install_upgrade_guide_ucce/hcs-cc_m_orchestration.html": {
       "content_sha": "ba0ef69a4662e22ff5b99585897955314903caa7d2e8afd27cc5155e5ae1c52e",
@@ -131116,6 +131365,16 @@
       "next_check": "2026-10-01T15:57:07.199940+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_cti-os-system-manager-guide12-5.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-1406e978d8",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:17.660131+00:00",
+      "last_seen": "2026-09-27T12:46:17.660131+00:00",
+      "next_check": "2026-09-29T12:46:17.660131+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_cti-os-system-manager-guide12-5/ucce_b_cti-os-system-manager-guide12-5_appendix_01100.html": {
       "content_sha": "5ad3535fc98774560d6ada80aa6a726aba7c3b9d61a3e7e178d54462e53d09b4",
@@ -132580,6 +132839,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/release/guide/ucce_b_1251-ucce-release-notes.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-release-gui-7a22e1ac13",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:36.016225+00:00",
+      "last_seen": "2026-09-27T12:45:36.016225+00:00",
+      "next_check": "2026-09-29T12:45:36.016225+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/release/guide/ucce_b_1251-ucce-release-notes/rcct-m-wfo-1501.html": {
       "content_sha": "5b932f64cdc90e95758a51b742a7912fb6f5ecf5b6bfe4ec86cfa06c1828d8ab",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-release-gui-0b603f2303",
@@ -132709,6 +132978,16 @@
       "next_check": "2026-10-01T17:41:18.169941+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_125-outbound-option-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--a80005879a",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:38.958401+00:00",
+      "last_seen": "2026-09-27T12:46:38.958401+00:00",
+      "next_check": "2026-09-29T12:46:38.958401+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_125-outbound-option-guide/ucce_b_125-outbound-option-guide-for_appendix_01000.html": {
       "content_sha": "ba135ef6aa3673dd928002e5ca6cade250129292669a56e4f34f5400ff7a2616",
@@ -133750,6 +134029,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_2/release/guide/ucce_b_1252-ucce-release-notes-.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-2-release-gui-a37a912145",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:31.850393+00:00",
+      "last_seen": "2026-09-27T12:45:31.850393+00:00",
+      "next_check": "2026-09-29T12:45:31.850393+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_2/release/guide/ucce_b_1252-ucce-release-notes-/rcct-m-wfo-1501.html": {
       "content_sha": "b0045f7242aad3c647f83e72d946072e1ed45c3a1259f0c8671aee192b2703c9",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-2-release-gui-5469060fa8",
@@ -133866,6 +134155,16 @@
       "next_check": "2026-10-01T17:40:19.615438+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/reporting-concepts-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--4dc19bd8fa",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:43.235839+00:00",
+      "last_seen": "2026-09-27T12:46:43.235839+00:00",
+      "next_check": "2026-09-29T12:46:43.235839+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/reporting-concepts-for-cisco-unified-icm-contact-center-enterprise-release-12-6-1/agent-teams-and-supervisors.html": {
       "content_sha": "cd67c54d224f15dbabb421b72993ae004ab888df19cdc6d66cad695ca4b58da4",
@@ -134647,6 +134946,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_ucce_b_outbound-option-guide-for-unified_1261.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--fc6441cce1",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:34.771983+00:00",
+      "last_seen": "2026-09-27T12:46:34.771983+00:00",
+      "next_check": "2026-09-29T12:46:34.771983+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_ucce_b_outbound-option-guide-for-unified_1261/ucce_b_ucce_b_outbound-option-guide-for-unified_1261_appendix_01000.html": {
       "content_sha": "121fd1db46145bf8dadade5a4597635535ed2179d76b9ed5b7b7b679f475b7d6",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--768437f848",
@@ -134828,6 +135137,16 @@
       "next_check": "2026-10-01T19:21:16.269652+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/administration/guide/ucce_b_administration-guide-for-cisco-unified_1261.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-administrat-744be003b8",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:51.935019+00:00",
+      "last_seen": "2026-09-27T12:46:51.935019+00:00",
+      "next_check": "2026-09-29T12:46:51.935019+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/administration/guide/ucce_b_administration-guide-for-cisco-unified_1261/precision-queues.html": {
       "content_sha": "f245795effca31cee97b4632c270e88df27f0b7f6e049db8a3a6c68ca98a6c4f",
@@ -135241,6 +135560,16 @@
       "next_check": "2026-10-02T06:42:11.520008+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_features-guide-1261.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-configurati-6ab26192e5",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:25.977241+00:00",
+      "last_seen": "2026-09-27T12:46:25.977241+00:00",
+      "next_check": "2026-09-29T12:46:25.977241+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/configuration/guide/ucce_b_features-guide-1261/appendix.html": {
       "content_sha": "e311a17dcd5d73ab2d18ebf15c92a30e487d7fa543f31a1ffc3d8441a9a00ed2",
@@ -136064,6 +136393,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/design/guide/ucce_b_ucce_soldg-for-unified-cce-1261.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-design-guid-1f4e62996f",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:52.546030+00:00",
+      "last_seen": "2026-09-27T12:45:52.546030+00:00",
+      "next_check": "2026-09-29T12:45:52.546030+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/design/guide/ucce_b_ucce_soldg-for-unified-cce-1261/bandwidth_latency_qos_considerations.html": {
       "content_sha": "3b2a055dcaceed8e5665931dd4d405426fa27e76e8d04a908496812183eb2eb5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-design-guid-5521f747ec",
@@ -136219,6 +136558,16 @@
       "next_check": "2026-10-01T17:42:47.339720+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_1261_staging-guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-installatio-503051f49f",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:04.941305+00:00",
+      "last_seen": "2026-09-27T12:46:04.941305+00:00",
+      "next_check": "2026-09-29T12:46:04.941305+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_1261_staging-guide/ucce_b_1251-staging-guide_chapter_01010.html": {
       "content_sha": "3349397c5395d20b921f75a1ef20bb4736f3e329f364c3e82311685f5f12ad05",
@@ -136388,6 +136737,16 @@
       "next_check": "2026-10-01T18:48:23.014037+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_12_6_1-install_upgrade_guide.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-installatio-bde1385676",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:01.150845+00:00",
+      "last_seen": "2026-09-27T12:46:01.150845+00:00",
+      "next_check": "2026-09-29T12:46:01.150845+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_12_6_1-install_upgrade_guide/hcs-cc_m_orchestration_1261.html": {
       "content_sha": "6d9fba5e8f05c6da29bedc491086755c1b4580ae9c1722b783c21d9cb87c84ec",
@@ -136623,6 +136982,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_cti-os-system-manager-guide12-6-1.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-installatio-5846abc4ef",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:13.311315+00:00",
+      "last_seen": "2026-09-27T12:46:13.311315+00:00",
+      "next_check": "2026-09-29T12:46:13.311315+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_cti-os-system-manager-guide12-6-1/ucce_b_cti-os-system-manager-guide12-5_appendix_01100.html": {
       "content_sha": "51279b4f840984901644c6ba26a78bfee9b6a483ad1245fc8e5c97542f268a57",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-installatio-b9a41bec8a",
@@ -136791,6 +137160,16 @@
       "next_check": "2026-10-01T18:54:25.885395+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-installatio-f1887dd481",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:09.150805+00:00",
+      "last_seen": "2026-09-27T12:46:09.150805+00:00",
+      "next_check": "2026-09-29T12:46:09.150805+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_preface_00.html": {
       "content_sha": "644f0f2c95b4ab6dbc63d51ddeb20ab3467cc870e2c4e28c431238476a101ea7",
@@ -137888,6 +138267,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/release/guide/rcct_b_cce-solution-rns-12-6.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-release-gui-93d4b7ea5c",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:45:28.295935+00:00",
+      "last_seen": "2026-09-27T12:45:28.295935+00:00",
+      "next_check": "2026-09-29T12:45:28.295935+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/release/guide/rcct_b_cce-solution-rns-12-6/ccvp_m_1261-cisco-unified-customer-voice-portal.html": {
       "content_sha": "ff5d5e4bf2e303ce6803d3c57ac47563d638248ca99f8d39225acdb51179c5db",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-release-gui-b6cbae04e0",
@@ -138030,6 +138419,16 @@
       "next_check": "2026-09-30T17:36:51.288799+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/administration/guide/administration-guide-for-cisco-unified-contact-center-enterprise-release-1262.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-administrat-e3170abacd",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:46:47.535952+00:00",
+      "last_seen": "2026-09-27T12:46:47.535952+00:00",
+      "next_check": "2026-09-29T12:46:47.535952+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/administration/guide/administration-guide-for-cisco-unified-contact-center-enterprise-release-1262/agent-administration.html": {
       "content_sha": "d28922aebd3ed2fa4187aafba993b24f5b7f1a486ee767422468a88d922aff64",
@@ -145246,17 +145645,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/ucce_b_documentation_guide_1501.html": {
-      "content_sha": "b4fa56f313f555a3ad30d9a1bd2cdfa0b7c6b7cbcdac5a90f2d44c364c1f0f44",
+      "content_sha": "47cd582e656dc621578e6bf4fe28dcc8a6c1031ab2528386a21b1ea98bf7eb8a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-f6dcac89b0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T14:55:08.314247+00:00",
-      "last_changed": "2026-09-15T18:43:13.997939+00:00",
+      "last_changed": "2026-09-27T12:45:40.208200+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-18T21:01:08.613463+00:00",
-      "next_check": "2026-09-22T21:01:08.613463+00:00",
+      "last_seen": "2026-09-27T12:45:40.208200+00:00",
+      "next_check": "2026-09-28T12:45:40.208200+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide.html": {
       "content_sha": null,
@@ -175407,6 +175806,16 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-html-2cdc2d2a3b",
+      "fail_count": 0,
+      "first_seen": "2026-09-27T12:50:17.471003+00:00",
+      "last_seen": "2026-09-27T12:50:17.471003+00:00",
+      "next_check": "2026-09-29T12:50:17.471003+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/srst_mgr/rel9_0/admin_gd/Admin_Book/add_central_call_agent_wizard.html": {
       "content_sha": "3083217f2ea31aa69d69bd159c00a4783fc3d77b2ad4c4e75186da74ca3fae3b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-srst-mgr-rel9-0-admin-gd-admin-book-add-central-call-agent-wizard-html-46651a4302",
@@ -177014,5 +177423,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T12:43:12.568746+00:00"
+  "updated_at": "2026-09-27T12:53:47.785998+00:00"
 }

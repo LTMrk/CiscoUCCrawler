@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-expressway-118798-technote-cucm-00-html-4014bdbb36
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00.html
-retrieved_at: 2026-09-01T20:49:30.491680+00:00
+retrieved_at: 2026-09-27T12:46:56.739812+00:00
 ---
 
 Resolve Collaboration Edge Most Common Issues
@@ -435,3 +435,21 @@ Technical Marketing Engineering Technical Leader
 | 3.0 | 03-Sep-2024 | recertification, fixed alt text. |
 | 2.0 | 23-Feb-2023 | recertification |
 | 1.0 | 04-Feb-2015 | Initial Release |
+
+## Figuras
+
+![Table](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-00.png)
+
+![SSL Handshake](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-01.png)
+
+![Phone Proxy Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-02.png)
+
+![Voicemail Not Connected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-03.png)
+
+![Verify Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-04.png)
+
+![Domain Host Display Input Fields](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/expressway/118798-technote-cucm-00-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

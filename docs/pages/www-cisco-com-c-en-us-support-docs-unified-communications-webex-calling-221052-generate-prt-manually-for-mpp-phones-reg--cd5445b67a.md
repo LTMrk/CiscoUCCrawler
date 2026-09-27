@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221052-generate-prt-manually-for-mpp-phones-reg--cd5445b67a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.html
-retrieved_at: 2026-08-20T23:21:44.499007+00:00
+retrieved_at: 2026-09-27T12:48:16.080907+00:00
 ---
 
 Generate PRT Manually for MPP Phones Registered on Webex Calling
@@ -107,3 +107,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Oct-2023 | Initial Release |
+
+## Figuras
+
+![Device Settings 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-00.png)
+
+![Device Settings 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-01.png)
+
+![MPP Web Access (User)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-02.png)
+
+![Applications Button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-03.jpeg)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Warning Message 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-04.png)
+
+![Warning Message 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-05.png)
+
+![Web GUI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg-06.png)

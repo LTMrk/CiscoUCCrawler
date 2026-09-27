@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212794-cisco-collaboration-solutions-12-0-oaut-html-594411fe2f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut.html
-retrieved_at: 2026-08-21T07:05:20.263049+00:00
+retrieved_at: 2026-09-27T12:52:52.604218+00:00
 ---
 
 Deploy And Troubleshoot Authorization Code Grant Flow - OAuth Enhancement: Cisco Collaboration Solutions 12.0
@@ -305,3 +305,21 @@ Initial Release
 |---|---|---|
 | 2.0 | 18-Mar-2022 | Grammar Updates. |
 | 1.0 | 09-Feb-2018 | Initial Release |
+
+## Figuras
+
+![SSO and OAuth Configuration - OAuth with Refresh Login Flow](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-00.jpeg)
+
+![IdP Network Diagram](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-01.jpeg)
+
+![run sql select * from refreshtokendevice](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-02.png)
+
+![AUTHZ Certificate details](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-03.png)
+
+![Regeneration of AUTZ Keys](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-04.jpeg)
+
+![show key authz signing](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-05.jpeg)
+
+![show key authz encryption](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-06.jpeg)
+
+![Configure Authz Server on Unity Connection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212794-cisco-collaboration-solutions-12-0-oaut-07.png)

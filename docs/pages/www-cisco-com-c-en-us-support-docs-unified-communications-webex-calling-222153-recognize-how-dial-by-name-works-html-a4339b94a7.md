@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222153-recognize-how-dial-by-name-works-html-a4339b94a7
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.html
-retrieved_at: 2026-08-21T07:16:19.171174+00:00
+retrieved_at: 2026-09-27T12:49:15.184847+00:00
 ---
 
 Recognize how Dial by Name Works
@@ -79,3 +79,9 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Jul-2024 | Initial Release |
+
+## Figuras
+
+![User Details Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works-00.png)
+
+![Calling-Caller ID First Name and Caller ID Last Name Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works-01.png)

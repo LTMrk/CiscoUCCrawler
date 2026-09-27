@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-h-5083cbfec9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.html
-retrieved_at: 2026-08-21T07:15:45.547740+00:00
+retrieved_at: 2026-09-27T12:48:49.766980+00:00
 ---
 
 Configure Call Forwarding Selective for Webex Calling
@@ -242,3 +242,67 @@ Initial Release
 |---|---|---|
 | 2.0 | 06-Apr-2023 | Initial Release |
 | 1.0 | 01-Nov-2022 | Initial Release |
+
+## Figuras
+
+![Hunt Group Location, Select Scheduling](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-00.png)
+
+![Select the Add Schedule Button](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-01.png)
+
+![PM Forwarding Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-02.png)
+
+![AM Forwarding Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-03.png)
+
+![Set Forwarding for Saturday and Sunday](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-04.png)
+
+![Call Forwarding in the Call Queue](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-05.png)
+
+![Select Selectively Forward Calls send to Voicemail](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-06.png)
+
+![Edit the AM Forwarding Rule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-07.png)
+
+![Edit the PM Forwarding Rule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-08.png)
+
+![Call Forwarding Settings](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-09.png)
+
+![Select Schedule in Auto Attendant](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-10.png)
+
+![Business Hours Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-11.png)
+
+![Select Scheduling in the Auto Attendant](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-12.png)
+
+![Select Add Schedule for PM Forwarding](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-13.png)
+
+![Create Schedule for AM Forwarding](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-14.png)
+
+![In Auto Attendant Select Call Forwarding](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-15.png)
+
+![Select Selectively Forward Calls](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-16.png)
+
+![No Holiday Schedule in AM Forwarding](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-17.png)
+
+![No Holiday Schedule in PM Forwarding](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-18.png)
+
+![Auto Attendant Settings](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-19.png)
+
+![Create a Holiday Schedule Select Scheduling](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-20.png)
+
+![Name the Holiday Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-21.png)
+
+![Create Holiday Schedule for Christmas](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-22.png)
+
+![Create a November Holiday Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-23.png)
+
+![Add November Dates](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-24.png)
+
+![Holiday Setting Results](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-25.png)
+
+![Add to Auto Attendant Call Forwarding Selective](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-26.png)
+
+![And When to Forward Setting](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-27.png)
+
+![Select Every Day All Day and Holiday Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-28.png)
+
+![Verify the Holiday Schedule](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-29.png)
+
+![Auto Attendant Settings for Afterhours and Holidays](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for-30.png)

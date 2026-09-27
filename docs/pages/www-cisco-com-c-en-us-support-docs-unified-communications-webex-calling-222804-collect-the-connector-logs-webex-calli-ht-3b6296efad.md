@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222804-collect-the-connector-logs-webex-calli-ht-3b6296efad
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.html
-retrieved_at: 2026-08-21T07:16:15.046397+00:00
+retrieved_at: 2026-09-27T12:49:11.157996+00:00
 ---
 
 Collect the Connector Logs - Webex Calling
@@ -221,3 +221,7 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Mar-2025 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

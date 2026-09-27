@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221934-troubleshoot-attendant-console-issues-in--6f6a774c88
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in.html
-retrieved_at: 2026-08-21T07:16:31.905914+00:00
+retrieved_at: 2026-09-27T12:49:23.492941+00:00
 ---
 
 Troubleshoot Attendant Console Issues in Webex Calling
@@ -149,3 +149,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Apr-2024 | Initial Release |
+
+## Figuras
+
+![Licenses Summary](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-00.png)
+
+![Edit User Calling Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-01.png)
+
+![Account Calling License Summary](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-02.png)
+
+![Receptionist Client Feature](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-03.png)
+
+![User Receptionist Client](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-04.png)
+
+![Organization Embedded Apps](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-05.png)
+
+![Porfile and Settings](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-06.png)
+
+![Download Application Logs](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221934-troubleshoot-attendant-console-issues-in-07.png)

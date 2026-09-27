@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-requirements-guide-vcme141spc-html-c8746858a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/requirements/guide/vcme141spc.html
-retrieved_at: 2026-08-21T09:46:09.493125+00:00
+retrieved_at: 2026-09-27T12:50:37.260490+00:00
 ---
 
 Virtual CME 14.1 Supported Firmware, Platforms, Memory, and Voice Products
@@ -649,3 +649,7 @@ All rights reserved. Printed in USA.
 | Cisco Unity Express | -- | See Cisco Unity Express Compatibility matrix . |
 | Cisco VG310, VG320, VG350 | Cisco IOS Release 15.6(3)M2 (for VG310, VG320, VG350) | Verified with SCCP analog ports. |
 | Cisco VG400, VG410, VG420, VG450 | Cisco IOS XE Gibraltar 16.10.1a (for VG400) Cisco IOS XE Dublin 17.12.1a (VG410, VG420) Cisco IOS XE Fuji 16.9.1 (for VG450) |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

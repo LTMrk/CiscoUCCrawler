@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-app-221619-collect-pcap-trace-from-mpp-ip-phones-48cf088321
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones.html
-retrieved_at: 2026-08-21T07:16:44.363057+00:00
+retrieved_at: 2026-09-27T12:49:35.768858+00:00
 ---
 
 Collect PCAP Trace from MPP IP Phones
@@ -105,3 +105,23 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Feb-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Log In Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-00.png)
+
+![Top Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-01.png)
+
+![Start Packet Capture](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-02.png)
+
+![Packet Capture Options](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-03.png)
+
+![Stop Packet Capture](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-04.png)
+
+![New Pcap File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-05.png)
+
+![Save link](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-06.png)
+
+![Save](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling-app/221619-collect-pcap-trace-from-mpp-ip-phones-07.png)

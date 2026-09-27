@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221935-troubleshoot-hoteling-in-mpp-devices-for--6542189b89
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for.html
-retrieved_at: 2026-08-21T07:16:35.925176+00:00
+retrieved_at: 2026-09-27T12:49:27.542198+00:00
 ---
 
 Troubleshoot Hoteling in MPP Devices for Webex Calling
@@ -289,3 +289,15 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Apr-2024 | Initial Release |
+
+## Figuras
+
+![Allow This Device to be Used as a Hoteling Host by Visiting Guests](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for-00.png)
+
+![Between-User Permissions](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for-01.png)
+
+![Hoteling Toggle](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/221935-troubleshoot-hoteling-in-mpp-devices-for-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
