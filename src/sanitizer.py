@@ -29,6 +29,7 @@ import hashlib
 import json
 import os
 import re
+from urllib.parse import urljoin
 from collections import Counter
 
 from bs4 import BeautifulSoup, NavigableString
@@ -180,6 +181,77 @@ def hash_bloque(texto):
     return hashlib.sha1(normalizar_bloque(texto).encode("utf-8")).hexdigest()[:16]
 
 
+# Textos de `alt` que no describen nada. Dos familias:
+#
+#   - Decoracion generica: espaciadores, vinetas, flechas, logos.
+#   - Iconos de admonicion de Cisco. En sus manuales cada Note, Caution o
+#     Tip lleva un gif con ese mismo texto en el alt. Son cientos por guia y
+#     no describen ninguna figura: la figura de verdad trae un pie con prosa.
+#     Se descartan solo cuando el texto es EXACTAMENTE la palabra suelta; un
+#     pie que empiece por "Caution: el reinicio corta las llamadas activas"
+#     si pasa, porque lleva contenido detras.
+ALT_INUTIL = re.compile(
+    r"^(|image|imagen|img|picture|photo|figure|figura|icon|icono|logo"
+    r"|spacer|pixel|bullet|arrow|thumbnail|screenshot|captura"
+    r"|note|nota|tip|consejo|caution|precaucion|warning|aviso|atencion"
+    r"|important|importante|restriction|restriccion|timesaver|danger|peligro"
+    r"|next|previous|anterior|siguiente|home|back|close|cerrar|menu"
+    r"|search|buscar|print|imprimir|download|descargar|expand|collapse"
+    r"|[\d\W_]+|.{1,2})$", re.I)
+
+
+def _texto_de_imagen(nodo):
+    """Descripcion utilizable de una imagen, o None.
+
+    De una imagen solo se puede aprovechar su texto: `alt`, el `<figcaption>`
+    de la figura que la contiene y, como ultimo recurso, el `title`. En la
+    documentacion de Cisco eso suele ser justo lo que da sentido al diagrama
+    ("Figura 3: topologia de SIP trunk entre CUCM y CUBE"), y hasta ahora se
+    tiraba entero: bloques_a_markdown no emitia las imagenes de ninguna forma.
+
+    No se descarga nada. El binario no le sirve a Copilot, que solo razona
+    sobre texto plano, pero la URL queda en el markdown para poder abrirla.
+    """
+    alt = (nodo.get("alt") or "").strip()
+    titulo = (nodo.get("title") or "").strip()
+
+    pie = ""
+    figura = nodo.find_parent("figure")
+    if figura is not None:
+        etiqueta = figura.find("figcaption")
+        if etiqueta is not None:
+            pie = etiqueta.get_text(" ", strip=True)
+
+    # El pie manda sobre el alt: suele ser prosa de verdad y el alt, relleno.
+    descripcion = pie or alt or titulo
+    if not descripcion or ALT_INUTIL.match(descripcion):
+        return None
+    return descripcion
+
+
+def extraer_imagenes(raiz, base_url=None):
+    """Imagenes con descripcion aprovechable, como (descripcion, url)."""
+    salida = []
+    vistas = set()
+    for nodo in raiz.find_all("img"):
+        descripcion = _texto_de_imagen(nodo)
+        if not descripcion:
+            continue
+        src = (nodo.get("src") or nodo.get("data-src") or "").strip()
+        if src.startswith("data:"):
+            # Imagen embebida en base64: no hay URL que citar y el contenido
+            # no aporta nada al indice.
+            src = ""
+        if src and base_url:
+            src = urljoin(base_url, src)
+        clave = (descripcion, src)
+        if clave in vistas:
+            continue
+        vistas.add(clave)
+        salida.append((descripcion, src))
+    return salida
+
+
 def extraer_bloques(raiz):
     """Divide el contenido en bloques de texto a nivel de elemento."""
     bloques = []
@@ -276,7 +348,7 @@ def _tabla_a_markdown(tabla):
     return ""
 
 
-def bloques_a_markdown(raiz, detector=None):
+def bloques_a_markdown(raiz, detector=None, base_url=None):
     """Convierte el DOM podado a Markdown, saltando bloques marcados como
     boilerplate. Preserva código y tablas, que son señal de alto valor para
     consultas técnicas."""
@@ -305,10 +377,24 @@ def bloques_a_markdown(raiz, detector=None):
         if md:
             salida.append(md)
 
+    # Imagenes al final, como referencias Markdown. Van despues del texto a
+    # proposito: son metadatos del documento, no su hilo argumental, y
+    # entremezclarlas partiria los parrafos en el chunking.
+    figuras = [
+        f"![{descripcion}]({src})" if src else f"Figura: {descripcion}"
+        for descripcion, src in extraer_imagenes(raiz, base_url=base_url)
+        if detector is None or not detector.es_boilerplate(descripcion)
+    ]
+    # El encabezado solo si queda alguna: si el filtro de boilerplate se las
+    # lleva todas, un "## Figuras" suelto seria ruido.
+    if figuras:
+        salida.append("## Figuras")
+        salida.extend(figuras)
+
     return "\n\n".join(salida)
 
 
-def sanitizar(html, selectores_extra=None, detector=None):
+def sanitizar(html, selectores_extra=None, detector=None, base_url=None):
     """Punto de entrada. Devuelve (markdown, bloques) — los bloques se
     devuelven para alimentar al detector durante la fase BOOTSTRAP."""
     if not html:
@@ -325,7 +411,7 @@ def sanitizar(html, selectores_extra=None, detector=None):
     raiz = _seleccionar_raiz_contenido(soup)
 
     bloques = extraer_bloques(raiz)
-    markdown = bloques_a_markdown(raiz, detector=detector)
+    markdown = bloques_a_markdown(raiz, detector=detector, base_url=base_url)
 
     # Colapsa líneas en blanco excesivas.
     markdown = re.sub(r"\n{3,}", "\n\n", markdown).strip()

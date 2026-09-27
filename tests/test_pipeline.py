@@ -167,6 +167,61 @@ def test_redirecciones_llegan_a_deltas():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_imagenes_conservan_pie_y_alt():
+    """En los manuales de Cisco el pie de figura suele ser lo que da sentido
+    al diagrama, y hasta ahora se tiraba entero: bloques_a_markdown no emitia
+    las imagenes de ninguna forma."""
+    html = """<main>
+      <h1>SIP trunk</h1>
+      <p>El trunk conecta CUCM con el CUBE sobre TCP 5060.</p>
+      <figure>
+        <img src="/i/topologia.png" alt="diagram">
+        <figcaption>Figura 3: topologia de SIP trunk entre CUCM y CUBE</figcaption>
+      </figure>
+      <img src="/i/flujo.png" alt="Flujo de llamada con recuperacion SRST">
+    </main>"""
+    md, _ = sanitizar(html, base_url="https://www.cisco.com/c/en/us/td/docs/guia.html")
+
+    # El pie manda sobre el alt: "diagram" no describe nada.
+    assert "Figura 3: topologia de SIP trunk entre CUCM y CUBE" in md
+    assert "Flujo de llamada con recuperacion SRST" in md
+    # Y el src relativo se resuelve contra la URL de la pagina.
+    assert "https://www.cisco.com/i/topologia.png" in md
+    print("  OK imagenes: pie de figura y alt conservados, src resuelto")
+
+
+def test_iconos_de_admonicion_no_son_figuras():
+    """Cada Note o Caution de un manual de Cisco lleva un gif con esa palabra
+    en el alt. Son cientos por guia y no describen ninguna figura."""
+    html = """<main><p>""" + ("Texto del procedimiento. " * 30) + """</p>
+      <img src="/i/note.gif" alt="Note">
+      <img src="/i/caution.gif" alt="Caution">
+      <img src="/i/spacer.gif" alt="">
+      <img src="/i/arrow.gif" alt="&gt;">
+    </main>"""
+    md, _ = sanitizar(html)
+    assert "## Figuras" not in md, f"emitio figuras que son iconos:\n{md}"
+
+    # Pero un pie que empieza igual y lleva contenido detras si entra.
+    html2 = """<main><p>""" + ("Texto. " * 30) + """</p>
+      <img src="/i/x.png" alt="Caution: el reinicio corta las llamadas activas">
+    </main>"""
+    md2, _ = sanitizar(html2)
+    assert "el reinicio corta las llamadas activas" in md2
+    print("  OK iconos: Note/Caution sueltos descartados, con prosa detras no")
+
+
+def test_imagen_embebida_conserva_el_texto_sin_url():
+    """Una imagen en base64 no tiene URL que citar, pero su descripcion sigue
+    siendo texto util."""
+    html = ("<main><p>" + ("Texto. " * 30) + "</p>"
+            "<img src='data:image/png;base64,iVBOR' alt='Grafico de latencia media'></main>")
+    md, _ = sanitizar(html)
+    assert "Figura: Grafico de latencia media" in md
+    assert "base64" not in md
+    print("  OK imagen embebida: descripcion sin URL, sin volcar el base64")
+
+
 def test_backoff_y_clasificacion():
     from fetch_policy import PoliticaAcceso
     p = PoliticaAcceso()
@@ -270,6 +325,9 @@ if __name__ == "__main__":
     print("\nsanitizer:")
     md = test_sanitizacion_estructural()
     test_boilerplate_cross_documento()
+    test_imagenes_conservan_pie_y_alt()
+    test_iconos_de_admonicion_no_son_figuras()
+    test_imagen_embebida_conserva_el_texto_sin_url()
     print("\nstate_store:")
     test_deltas_incrementales()
     test_estado_redireccion()
