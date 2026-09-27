@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_appendix_0100.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_preface_011.html",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.epub",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.mobi",
-    "depth": 2
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.epub",
-    "depth": 2
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.mobi",
     "depth": 2
   },
@@ -793,6 +753,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218153-troubleshoot-incoming-call-problems-for.mobi",
+    "depth": 3
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_0101.html",
     "depth": 3
   }
 ]

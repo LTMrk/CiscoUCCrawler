@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-2b6d7e87e9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_preface_011.html
-retrieved_at: 2026-08-21T20:26:03.629805+00:00
+retrieved_at: 2026-09-27T15:20:22.902722+00:00
 ---
 
 Deployment guide for Calling in Webex App (Unified CM)
@@ -952,3 +952,7 @@ Initial version of the document.
                                                                first unlock the screen and then tap the
                                                                notification to answer the incoming calls. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

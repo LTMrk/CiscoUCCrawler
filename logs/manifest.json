@@ -9088,6 +9088,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222139-create-a-pega-ticket-from-control-hub-epub-1195d82b32",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:23.587420+00:00",
+      "last_seen": "2026-09-27T15:20:23.587434+00:00",
+      "next_check": "2026-09-28T15:20:23.587439+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.html": {
       "content_sha": "3bbcb808287a8c6fc4e0fa73f226948c5d4c903e2a7434bcff4d0431dd4b0f8b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222139-create-a-pega-ticket-from-control-hub-html-b81fb93deb",
@@ -9099,6 +9109,16 @@
       "last_seen": "2026-09-27T12:49:06.773277+00:00",
       "next_check": "2026-09-28T12:49:06.773277+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222139-create-a-pega-ticket-from-control-hub-mobi-19a79f37d0",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:27.870732+00:00",
+      "last_seen": "2026-09-27T15:20:27.870744+00:00",
+      "next_check": "2026-09-28T15:20:27.870748+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html": {
@@ -16108,6 +16128,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-m-3dedc501d5",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:19:54.420685+00:00",
+      "last_seen": "2026-09-27T15:19:54.420697+00:00",
+      "next_check": "2026-09-28T15:19:54.420701+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220178-configure-webex-calling-esim-webex-go.html": {
       "content_sha": "23adacca5ed542dfe2965e5d902e25b5bb3a199199af3e700b9c327df5caa798",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220178-configure-webex-calling-esim-webex-go-htm-f060ffb73a",
@@ -16266,6 +16296,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-epu-951cedd756",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:06.896389+00:00",
+      "last_seen": "2026-09-27T15:20:06.896401+00:00",
+      "next_check": "2026-09-28T15:20:06.896405+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.html": {
       "content_sha": "05704fb189f07c4712d7c6a701d3959d8068299507c4b814b7238f226cb6265f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-htm-c734973ef5",
@@ -16277,6 +16317,16 @@
       "last_seen": "2026-09-27T12:48:58.129127+00:00",
       "next_check": "2026-09-28T12:48:58.129127+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221614-collect-prt-logs-from-mpp-ata-devices.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221614-collect-prt-logs-from-mpp-ata-devices-mob-78c420df4c",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:11.103207+00:00",
+      "last_seen": "2026-09-27T15:20:11.103218+00:00",
+      "next_check": "2026-09-28T15:20:11.103222+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221890-troubleshoot-voicemail-issues-in-webex-c.epub": {
@@ -16469,6 +16519,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222804-collect-the-connector-logs-webex-calli-ep-94e38f8021",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:32.216303+00:00",
+      "last_seen": "2026-09-27T15:20:32.216315+00:00",
+      "next_check": "2026-09-28T15:20:32.216319+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222804-collect-the-connector-logs-webex-calli.html": {
       "content_sha": "936b732f283ee486d50550354727a9636d6e51c54324e67679e7e49606e4992f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222804-collect-the-connector-logs-webex-calli-ht-3b6296efad",
@@ -16482,6 +16542,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-223294-open-a-cisco-tac-case-for-webex-calling-e-2368351d57",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:19:58.274397+00:00",
+      "last_seen": "2026-09-27T15:19:58.274413+00:00",
+      "next_check": "2026-09-28T15:19:58.274418+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.html": {
       "content_sha": "e65ae37749bfcf05aef3c2e1219e22e3a5b93ed02e9b79ea48a731cfcec52363",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-223294-open-a-cisco-tac-case-for-webex-calling-h-092d0ba104",
@@ -16493,6 +16563,16 @@
       "last_seen": "2026-09-27T12:48:53.952664+00:00",
       "next_check": "2026-09-28T12:48:53.952664+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/223294-open-a-cisco-tac-case-for-webex-calling.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-223294-open-a-cisco-tac-case-for-webex-calling-m-9d5b8dd8e2",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:20:02.569133+00:00",
+      "last_seen": "2026-09-27T15:20:02.569146+00:00",
+      "next_check": "2026-09-28T15:20:02.569149+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/226122-troubleshoot-phone-services-in-webex.epub": {
@@ -30281,10 +30361,10 @@
       "first_seen": "2026-08-20T23:59:59.484797+00:00",
       "last_changed": "2026-08-20T23:59:59.484797+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T21:28:06.763624+00:00",
-      "next_check": "2026-09-22T21:28:06.763624+00:00",
+      "last_seen": "2026-09-27T15:20:18.945051+00:00",
+      "next_check": "2026-10-13T15:20:18.945051+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_chapter_01.html": {
       "content_sha": "c81a0cc670b80d654c0c73652bc5b7e3284f93b5f3b4ef5e563ff0be998539f4",
@@ -30339,17 +30419,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/ucmcalling/unified-cm-wbx-teams-deployment-guide/unified-cm-wbx-teams-deployment-guide_preface_011.html": {
-      "content_sha": "0bd42753b88f377c1a5e72064a6519f15e90fa2e5b4ffb1ef210bc922cf9c162",
+      "content_sha": "fa67b9b4f567fea97ed3944fd660e2b45d3ed82f2589eae42773f924ae34722e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-ucmcalling-unified-cm-wbx-teams-deployment-guide-uni-2b6d7e87e9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T20:26:03.629571+00:00",
-      "last_changed": "2026-08-21T20:26:03.629571+00:00",
+      "last_changed": "2026-09-27T15:20:22.902636+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T21:28:11.123335+00:00",
-      "next_check": "2026-09-22T21:28:11.123335+00:00",
+      "last_seen": "2026-09-27T15:20:22.902636+00:00",
+      "next_check": "2026-09-28T15:20:22.902636+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/vdi/wbx-vdi-deployment-guide.html": {
       "content_sha": null,
@@ -178044,5 +178124,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T15:18:12.091257+00:00"
+  "updated_at": "2026-09-27T15:20:32.272698+00:00"
 }
