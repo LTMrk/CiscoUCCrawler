@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-su6-cucm-b-bulk-administration-guide-1251su6-cucm-b-bulk-admin-463f41ac75
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6/cucm_b_bulk-administration-guide-1251su2_chapter_0100000.html
-retrieved_at: 2026-08-21T08:55:50.955447+00:00
+retrieved_at: 2026-09-27T12:10:35.072623+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -189,3 +189,7 @@ Click Submit to create a job for deleting chosen
 | Step 7 | Click Submit to create a job for deleting chosen
                                           			 managers. Use the Job Configuration window to schedule
                                           			 and / or activate this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

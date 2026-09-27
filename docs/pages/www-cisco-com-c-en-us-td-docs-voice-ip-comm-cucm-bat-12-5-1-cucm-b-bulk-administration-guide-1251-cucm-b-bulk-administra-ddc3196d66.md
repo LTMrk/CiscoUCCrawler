@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-ddc3196d66
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_0110111.html
-retrieved_at: 2026-08-21T18:01:27.148771+00:00
+retrieved_at: 2026-09-27T12:06:18.704038+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -431,3 +431,7 @@ While updating pickup groups, Pickup Group Number and
                                                       						Partition values will be ignored and existing Other Pickup Groups will be
                                                       						disassociated. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

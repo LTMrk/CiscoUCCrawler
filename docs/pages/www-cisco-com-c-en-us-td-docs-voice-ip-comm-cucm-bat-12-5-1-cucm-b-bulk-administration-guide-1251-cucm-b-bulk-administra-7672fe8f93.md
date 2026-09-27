@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-cucm-b-bulk-administration-guide-1251-cucm-b-bulk-administra-7672fe8f93
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1/cucm_b_bulk-administration-guide-1251/cucm_b_bulk-administration-guide-1251_chapter_011100.html
-retrieved_at: 2026-08-21T17:57:15.455209+00:00
+retrieved_at: 2026-09-27T12:04:21.382471+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -128,3 +128,7 @@ To create a job for inserting the phones and user records, click Submit .
                                                       file, do not choose this option. If you do not know the MAC address of the phone that is assigned to the user, choose this option. When the phone is plugged
                                                       in, a MAC address registers for that device. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

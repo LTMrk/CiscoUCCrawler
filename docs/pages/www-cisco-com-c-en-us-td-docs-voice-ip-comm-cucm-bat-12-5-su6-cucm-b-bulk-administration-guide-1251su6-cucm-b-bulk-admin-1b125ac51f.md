@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-su6-cucm-b-bulk-administration-guide-1251su6-cucm-b-bulk-admin-1b125ac51f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_SU6/cucm_b_bulk-administration-guide-1251su6/cucm_b_bulk-administration-guide-1251su2_chapter_01001.html
-retrieved_at: 2026-08-21T08:54:14.090217+00:00
+retrieved_at: 2026-09-27T12:08:59.823706+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU6
@@ -331,3 +331,7 @@ Export User Device Profile Records
                                              				  immediately. Click Run Later to export at a later
                                              				  time. |
 | Step 7 | To create a job for exporting phone records, click Submit . To schedule and / or activate this job, use the Job Scheduler option in the Bulk Administration main menu. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
