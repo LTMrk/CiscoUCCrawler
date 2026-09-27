@@ -39,7 +39,11 @@ RUTA_ESTADO_SPECS = "logs/openapi_state.json"
 RUTA_DELTAS_API = "logs/openapi_deltas.json"
 DIR_DOCS_API = os.path.join(DIR_DOCS, "openapi")
 
-USER_AGENT = "CiscoUCCrawler/2.0 (+https://github.com/TU-ORG/CiscoUCCrawler)"
+# Un solo User-Agent para todo el pipeline. Habia tres, uno de ellos
+# todavia con el marcador "TU-ORG" en la URL de contacto, que es
+# exactamente lo que un operador de origen mira cuando decide si
+# bloquear al rastreador.
+from fetch_policy import USER_AGENT  # noqa: E402
 METODOS_HTTP = {"get", "post", "put", "delete", "patch", "options", "head"}
 
 

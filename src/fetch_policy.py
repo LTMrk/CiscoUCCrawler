@@ -53,11 +53,18 @@ from urllib.parse import urlparse, urlunparse
 
 RUTA_CUARENTENA = "logs/quarantine.json"
 
-# Identificación honesta. Sustituir la URL de contacto por la del repositorio
-# real: es lo que permite al operador contactar en lugar de banear a ciegas.
+# Identificación honesta: es lo que permite al operador de origen contactar
+# en lugar de banear a ciegas. FUENTE ÚNICA — openapi_ingest y repos_ingest
+# importan esta constante. Antes cada uno traía la suya y una seguía con el
+# marcador "TU-ORG" sin sustituir, que es justo lo que se mira al decidir si
+# se bloquea a un rastreador.
+#
+# Se apunta a las issues del repositorio y no a una dirección de correo
+# personal: la cabecera viaja a cada petición y a terceros.
 USER_AGENT = (
-    "CiscoUCCrawler/2.0 (+https://github.com/TU-ORG/CiscoUCCrawler; "
-    "documentation indexing for internal RAG; contact: tu-email@dominio)"
+    "CiscoUCCrawler/3.0 (+https://github.com/LTMrk/CiscoUCCrawler; "
+    "documentation indexing for internal RAG; "
+    "contact: https://github.com/LTMrk/CiscoUCCrawler/issues)"
 )
 
 # Códigos que indican "el recurso está en otra URL". Se tratan como respuesta

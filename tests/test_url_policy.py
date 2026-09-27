@@ -9,45 +9,38 @@ from urllib.parse import urlparse
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "src"))
 
-# fetch_policy no importa crawl4ai, asi que la canonicalizacion se prueba de
-# verdad en lugar de reimplementarla como el resto de este fichero.
+# Se prueban las funciones REALES del crawler, no una reimplementacion.
+# crawler_ai es importable sin crawl4ai (su import va dentro de deep_crawl,
+# y tests.yml lo verifica), asi que no hay motivo para tener aqui una segunda
+# copia de la logica de allowlist: la copia que habia se desincronizo en
+# cuanto la allowlist de developer.cisco.com paso a componerse desde
+# devnet_docsets, y una prueba que valida una copia no valida nada.
+from crawler_ai import esta_en_allowlist as en_allowlist
+from crawler_ai import es_solo_descubrimiento as solo_descubrimiento
+from crawler_ai import is_blocked_by_user as bloqueada
+from crawler_ai import url_aceptable
 from fetch_policy import canonicalizar_url
 
 CONFIG = json.load(open(os.path.join(RAIZ, "config.json")))
 
 HOSTS_BARRA_FINAL = CONFIG["global_settings"].get("hosts_barra_final")
 
-ALLOW = {d: [re.compile(p) for p in ps]
-         for d, ps in CONFIG["path_allowlist_regex"].items()}
-BLOCK = [re.compile(p) for p in CONFIG["blocked_regex"]]
-SUBSTR = CONFIG["blocked_patterns"]
-DISC = [re.compile(p) for p in CONFIG["discovery_only_regex"]]
-
-
-def en_allowlist(url):
-    net = urlparse(url).netloc.lower()
-    for dominio, patrones in ALLOW.items():
-        if dominio in net:
-            return any(r.match(url) for r in patrones)
-    return True
-
-
-def bloqueada(url):
-    if any(s in url.lower() for s in SUBSTR):
-        return True
-    return any(r.search(url) for r in BLOCK)
-
 
 def aceptada(url):
-    return en_allowlist(url) and not bloqueada(url)
-
-
-def solo_descubrimiento(url):
-    return any(r.match(url) for r in DISC)
+    return url_aceptable(url)
 
 
 # URLs reales observadas en resultados de busqueda
 DEBE_PASAR = [
+    # roomos.cisco.com: referencia xAPI de los endpoints. Declarado como host
+    # propio; sin declararlo, el deny-by-default por host lo dejaria fuera.
+    "https://roomos.cisco.com/xapi/Command.Audio.Volume.Set/",
+    "https://roomos.cisco.com/doc/TechDocs/EndpointConfiguration",
+    # Doc-sets DevNet que la allowlist compuesta debe admitir.
+    "https://developer.cisco.com/site/hcs/discover/fulfillment-ws/",
+    "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su2/",
+    "https://developer.cisco.com/docs/webex-calling/api/",
+
     # Documentacion tecnica densa: el objetivo del RAG
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15.html",
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/systemConfig/cucm_b_system-configuration-guide-15/cucm_m_configure-enterprise-parameters-and-services.html",
@@ -92,7 +85,20 @@ DEBE_PASAR = [
     "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/",
 ]
 
-DEBE_BLOQUEAR = [
+# Hosts sin allowlist declarada. Antes pasaban (el deny-by-default era solo
+# por ruta, no por host) y metieron 2.699 entradas en el manifiesto, 2.145 de
+# ellas del Bug Search Tool, que ademas responde 403.
+HOSTS_NO_DECLARADOS = [
+    "https://bst.cloudapps.cisco.com/bugsearch/bug/CSCwa12345",
+    "https://marketplace.cisco.com/en-US/apps/380622/basking-automation",
+    "https://sec.cloudapps.cisco.com/security/center/Search.x",
+    "https://www.webex.com/de/index.html",
+    "https://video.cisco.com/detail/video/5818769244001",
+    "https://locatr.cloudapps.cisco.com/WWChannels/LOCATR/pf/index.jsp",
+    "https://engage2demand.cisco.com/LP=567",
+]
+
+DEBE_BLOQUEAR = HOSTS_NO_DECLARADOS + [
     # Colateral comercial y avisos de EoL
     "https://www.cisco.com/c/en/us/products/collateral/contact-center/webex-experience-management/a-wxm-offer-eol.html",
     "https://www.cisco.com/c/en/us/products/collateral/unified-communications/spark-flex-plan/collaboration-flex-plan3-og.html",

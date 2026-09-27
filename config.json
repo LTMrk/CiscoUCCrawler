@@ -16,7 +16,8 @@
     "www.cisco.com": 3,
     "community.cisco.com": 1,
     "help.webex.com": 2,
-    "developer.cisco.com": 3
+    "developer.cisco.com": 5,
+    "roomos.cisco.com": 3
   },
   "_doc_path_allowlist_regex": "Deny-by-default. Si un dominio aparece aqui, la URL DEBE casar con alguna de sus regex para ser rastreada. Un dominio ausente de este mapa se rige solo por la blocklist.",
   "path_allowlist_regex": {
@@ -40,8 +41,10 @@
       "^https://help\\.webex\\.com/en-us/all-products"
     ],
     "developer.cisco.com": [
-      "^https?://developer\\.cisco\\.com/docs/?$",
-      "^https?://developer\\.cisco\\.com/(docs|site)/(axl|axl-schema-reference|broadworks|cer|cer-config|cisco-emergency-responder[a-z0-9-]*|(?:cisco-)?meeting-server|collaboration|contact-center-express|cti-protocol|ctios|curri|customer-collaboration-platform|customer-voice-portal|enterprise-chat-and-email|enterprise-icm-vru-interface-specification|extension-mobility[a-z-]*|finesse|hcs|im-and-presence|intelligence-center|ios-xe-voip|ip-phone-services|jabber[a-z-]*|jtapi|multiplatform-phones|packaged-contact-center|paws|roomdevices|serviceability|socialminer|sxml|tapi|task-routing|uc-express-services|uc-gateway-services|uc-manager-sip|unity-connection|user-data-services|webdialer[a-z-]*|webex-calling|webex-connect-partner-resources|webex-contact-center|webex-developer|webex-integration|webex-meetings|webex-xml-api-reference-guide|xapi)(/|$)"
+      "^https?://developer\\.cisco\\.com/docs/?$"
+    ],
+    "roomos.cisco.com": [
+      "^https://roomos\\.cisco\\.com/(doc|xapi)(/|\\?|$)"
     ]
   },
   "_doc_discovery_only_regex": "Paginas que SI se rastrean para extraer enlaces pero NO se indexan como documentos. Son indices de navegacion: su texto es una lista de titulos, que como chunk vectorial es puro ruido y ademas compite en similitud con los documentos reales.",
@@ -286,15 +289,67 @@
   ],
   "_doc_repos_descartados_ciscodevnet": "Revisados y descartados con datos, no por intuicion. cucm-sql-examples: su README pesa 0 KB, no hay nada que ingerir. axl-java-samples, axl-dotnet-samples, axl-php-samples y axl-powershell-samples: documentan la MISMA API AXL en otro lenguaje, asi que sus READMEs son casi identicos entre si y respecto al de axl-python-zeep-samples; meterlos es sembrar duplicados en el espacio vectorial. awesome-webex y awesome-xapi: son listas de enlaces, el mismo problema que las paginas indice que el crawler ya marca como discovery_only, responden a todo por encima y no resuelven nada.",
   "openapi_specs_allowlist": [
+    "webex-admin",
+    "webex-broadworks",
     "webex-cloud-calling",
     "webex-contact-center",
-    "webex-messaging",
-    "webex-meeting",
-    "webex-admin",
     "webex-device",
-    "webex-ucm"
+    "webex-meeting",
+    "webex-messaging",
+    "webex-ucm",
+    "webex-wholesale"
   ],
-  "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Excluidos por defecto: webex-broadworks y webex-wholesale (escenarios de service provider). Cada spec fuera del ambito del agente son cientos de operaciones que compiten en el espacio vectorial sin poder responder nunca.",
+  "_doc_openapi_specs_allowlist": "Prefijos de fichero de public-spec/ a ingerir. Vacio o ausente = todos. Estan los nueve que publica el repo. webex-broadworks (19 operaciones) y webex-wholesale (18) estaban excluidos por considerarlos 'escenarios de service provider': se readmiten porque Webex for BroadWorks y Webex Wholesale son oferta comercializada hoy y son justo la via de Webex Calling para entornos hibridos y de operador, que es ambito del corpus. 37 operaciones no saturan el espacio vectorial.",
   "_doc_developer_cisco_com": "developer.cisco.com SI se rastrea, al contrario de lo que decia la version anterior de este proyecto. La causa real de que no entrara no era una SPA vacia: DevNet canonicaliza sus rutas CON barra final y normalize_url la quitaba, asi que cada URL respondia 301 y, al no haber rama 3xx en fetch_policy, se contaba como fallo. Un sondeo real lo confirmo: 12 de 12 URLs sin barra responden 301. El alcance es deliberadamente colaboracion. La lista de doc-sets sale del inventario del sitemap de PubHub (339 doc-sets, de los que ~50 son de colaboracion): al declarar el dominio aqui, esta_en_allowlist() pasa a deny-by-default y quedan fuera Meraki, Catalyst, Nexus, ACI, SD-WAN, NSO, Crosswork, XDR, Firepower, Intersight, pyATS y demas, que son la mayor parte del portal. /codeexchange/ tambien queda fuera: duplica repos_ingest.py. robots.txt prohibe /web/ (JTAPI, TAPI, AXL legacy, SXML y el wiki de CUPI legacy) y ahi no se entra; ojo a la distincion, porque /site/curri/ y /site/sxml/ SI estan permitidos y son los equivalentes vigentes. Se dejan fuera a proposito docs/context-service y site/context-service (producto retirado por Cisco en 2019). tools/probe_devnet.py revalida esta lista contra el sitio vivo.",
-  "_doc_sitemaps": "El sitemap de PubHub es la via de descubrimiento de /docs/: el indice que se ve en developer.cisco.com/docs/ lo construye JavaScript y no enlaza nada en el HTML crudo, asi que rastrearlo no descubre doc-sets. El robots.txt del sitio declara cuatro sitemaps; de ellos solo pubhub aporta documentacion (449 URLs de /docs/ y /site/ sobre 569). Los otros tres son codeexchange (1.407), learninglab (1.421) y nso (1), todos fuera de alcance por decision. La allowlist filtra despues: del sitemap entran solo los doc-sets de colaboracion declarados."
+  "_doc_sitemaps": "El sitemap de PubHub es la via de descubrimiento de /docs/: el indice que se ve en developer.cisco.com/docs/ lo construye JavaScript y no enlaza nada en el HTML crudo, asi que rastrearlo no descubre doc-sets. El robots.txt del sitio declara cuatro sitemaps; de ellos solo pubhub aporta documentacion (449 URLs de /docs/ y /site/ sobre 569). Los otros tres son codeexchange (1.407), learninglab (1.421) y nso (1), todos fuera de alcance por decision. La allowlist filtra despues: del sitemap entran solo los doc-sets de colaboracion declarados.",
+  "_doc_devnet_docsets": "Inventario de doc-sets de colaboracion de developer.cisco.com. FUENTE UNICA: de aqui salen a la vez la allowlist de rastreo (crawler_ai compone ^https?://developer\\.cisco\\.com/(docs|site)/(<claves>)(/|$) y la anade a path_allowlist_regex) y la taxonomia del paquete (copilot_pack.DOCSETS_DEVNET). Antes eran dos listas separadas y se desincronizaban en silencio: site/hcs estaba admitido en la allowlist pero sin mapear, asi que sus 15 documentos caian en 'misc', que es donde el agente no los encuentra. La clave es un fragmento de regex sobre el segmento del doc-set, para cubrir las familias versionadas (cisco-emergency-responder-configuration-api-v15su2). El valor es una clave de copilot_pack.PRODUCTOS. tests/test_copilot_pack.py falla si algun valor no tiene etiqueta.",
+  "devnet_docsets": {
+    "axl[a-z-]*": "cucm",
+    "tapi": "cucm",
+    "jtapi": "cucm",
+    "serviceability": "cucm",
+    "sxml": "cucm",
+    "paws": "cucm",
+    "ip-phone-services": "cucm",
+    "extension-mobility[a-z-]*": "cucm",
+    "webdialer[a-z-]*": "cucm",
+    "user-data-services": "cucm",
+    "curri": "cucm",
+    "uc-manager-sip": "cucm",
+    "uc-express-services": "cucm",
+    "finesse": "cvp",
+    "customer-voice-portal": "cvp",
+    "socialminer": "cvp",
+    "customer-collaboration-platform": "cvp",
+    "intelligence-center": "cvp",
+    "contact-center-express": "uccx",
+    "packaged-contact-center": "ucce",
+    "enterprise-chat-and-email": "ucce",
+    "task-routing": "ucce",
+    "enterprise-icm-vru-interface-specification": "ucce",
+    "cti-protocol": "ucce",
+    "ctios": "ucce",
+    "unity-connection": "cuc",
+    "cer": "cuc",
+    "cer-config": "cuc",
+    "cisco-emergency-responder[a-z0-9-]*": "cuc",
+    "roomdevices": "endpoints",
+    "xapi": "endpoints",
+    "multiplatform-phones": "endpoints",
+    "(cisco-)?meeting-server": "cms",
+    "jabber[a-z-]*": "impresence",
+    "im-and-presence": "impresence",
+    "ios-xe-voip": "cube",
+    "uc-gateway-services": "cube",
+    "webex-contact-center": "webexcloud",
+    "webex-calling": "webexcloud",
+    "webex-meetings": "webexcloud",
+    "webex-xml-api-reference-guide": "webexcloud",
+    "webex-connect-partner-resources": "webexcloud",
+    "webex-developer": "webexcloud",
+    "webex-integration": "webexcloud",
+    "broadworks": "webexcloud",
+    "hcs": "hcs",
+    "collaboration": "misc"
+  }
 }

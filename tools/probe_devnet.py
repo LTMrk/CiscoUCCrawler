@@ -326,13 +326,23 @@ def inventariar_docsets(urls_sitemap):
         print("seccion 2 (robots.txt puede haber dejado de declararlos).")
         return
 
+    # La allowlist del dominio se compone de dos partes: lo que declara
+    # path_allowlist_regex y la alternacion que crawler_ai genera desde
+    # devnet_docsets. Hay que reproducir las DOS o el inventario dira que
+    # esta fuera casi todo.
+    compiladas, docsets_declarados = [], {}
     try:
         with open("config.json", encoding="utf-8") as fh:
-            patrones = json.load(fh)["path_allowlist_regex"]["developer.cisco.com"]
+            cfg = json.load(fh)
+        patrones = list(cfg["path_allowlist_regex"].get("developer.cisco.com", []))
+        docsets_declarados = cfg.get("devnet_docsets") or {}
+        if docsets_declarados:
+            patrones.append(
+                r"^https?://developer\.cisco\.com/(docs|site)/(%s)(/|$)"
+                % "|".join(docsets_declarados))
         compiladas = [re.compile(p) for p in patrones]
     except Exception as e:
         print(f"No se pudo leer la allowlist de config.json: {e}")
-        compiladas = []
 
     # Agrupa por doc-set: /docs/<set>/... y /site/<set>/...
     grupos = {}
@@ -360,6 +370,67 @@ def inventariar_docsets(urls_sitemap):
     print("  NSO, AppDynamics, seguridad...) se queda fuera a proposito.\n")
     for clave, n in fuera:
         print(f"  {n:4d} URLs  {clave}")
+
+    # Bloque listo para pegar: la friccion de anadir un doc-set no debe ser
+    # reescribir una regex a mano.
+    if fuera:
+        print("\n-- Para admitir alguno, pegar en config.json -> devnet_docsets "
+              + "-" * 5)
+        print('  "<slug>": "<clave de copilot_pack.PRODUCTOS>",   p. ej.:')
+        for clave, _ in fuera[:10]:
+            print(f'  "{clave.split("/", 1)[1]}": "misc",')
+        print("  (La prueba test_copilot_pack falla si la clave de producto")
+        print("   no existe, asi que allowlist y taxonomia no se separan.)")
+
+    _cobertura_frente_al_corpus(grupos)
+
+
+def _cobertura_frente_al_corpus(grupos):
+    """Cuantas URLs de cada doc-set han llegado de verdad al manifiesto.
+
+    Es la pregunta que el inventario por si solo no contesta: un doc-set
+    puede estar admitido y aun asi aportar una sola pagina porque su indice
+    lateral lo pinta JavaScript y el rastreo no descubre los capitulos. Sin
+    este contraste el sintoma es invisible: no hay error, solo un doc-set
+    flaco entre otros que si estan completos.
+    """
+    titulo("7. Cobertura real: sitemap frente a logs/manifest.json")
+
+    try:
+        with open("logs/manifest.json", encoding="utf-8") as fh:
+            entradas = json.load(fh)["entradas"]
+    except Exception as e:
+        print(f"Sin manifiesto que contrastar ({e}). Normal antes del primer ETL.")
+        return
+
+    capturadas = {}
+    for url, entrada in entradas.items():
+        if "developer.cisco.com" not in url or entrada.get("status") != "active":
+            continue
+        partes = [p for p in urlparse(url).path.split("/") if p]
+        if len(partes) >= 2:
+            clave = f"{partes[0]}/{partes[1]}"
+            capturadas[clave] = capturadas.get(clave, 0) + 1
+
+    print(f"{'doc-set':52} {'sitemap':>8} {'corpus':>8}")
+    flacos = []
+    for clave in sorted(set(grupos) | set(capturadas)):
+        en_sitemap = len(grupos.get(clave, []))
+        en_corpus = capturadas.get(clave, 0)
+        print(f"{clave:52} {en_sitemap:8d} {en_corpus:8d}")
+        if en_sitemap and en_corpus < en_sitemap:
+            flacos.append((clave, en_sitemap, en_corpus))
+
+    if flacos:
+        print(f"\n{len(flacos)} doc-sets aportan menos paginas que las que")
+        print("anuncia el sitemap. Causas por orden de probabilidad:")
+        print("  1. El indice lateral de PubHub se pinta con JavaScript y el")
+        print("     js_code de custom_behaviors no espera lo suficiente.")
+        print("  2. profundidad insuficiente en domain_depths.")
+        print("  3. Paginas de seccion sin cuerpo propio: se registran como")
+        print("     fallo por 'Markdown insuficiente' pero SI aportan enlaces.")
+        for clave, a, b in flacos[:20]:
+            print(f"     {clave}: {b}/{a}")
 
 
 def main():

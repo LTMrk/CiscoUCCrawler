@@ -14,16 +14,24 @@ python3 src/crawler_ai.py          # pipeline completo (env MINUTOS_LIMITE)
 python3 src/resumen_rag.py         # regenera RESUMEN-CONOCIMIENTO.md
 python3 src/copilot_pack.py --fuente devnet --zip   # ZIP solo de DevNet
 python3 tools/probe_devnet.py      # sondeo de developer.cisco.com (necesita red)
+python3 tools/purgar_fuera_de_allowlist.py          # informe; --aplicar borra
 ```
 
-Las 7 pruebas no usan pytest; cada fichero es un script:
+Dos workflows, y la separación es deliberada: `etl.yml` **extrae** (rastreo,
+OpenAPI, repos, commit) y `paquete.yml` **empaqueta** lo ya almacenado. El
+segundo es stdlib pura, tarda segundos en prepararse y se lanza solo desde
+Actions sin arrastrar un rastreo de 50 minutos. `etl.yml` lo invoca por
+`workflow_call` únicamente cuando la frontera queda vacía.
+
+Las pruebas no usan pytest; cada fichero es un script:
 
 ```bash
 for t in tests/test_*.py; do python3 "$t" || break; done
 ```
 
-Si añades un fichero de pruebas, regístralo **en los dos sitios**:
-`.github/workflows/tests.yml` y `.github/workflows/etl.yml`.
+Los workflows usan ese mismo glob, así que **no hay que registrar nada**:
+basta con crear `tests/test_*.py`. Dentro de cada fichero, el bloque
+`__main__` también descubre las funciones `test_*` solo.
 
 ## Cosas que no se deducen del código
 
@@ -50,6 +58,28 @@ permitidos y son los equivalentes vigentes. No confundas las dos rutas.
 quedaban detrás de 7.000 URLs: 62 lotes, más de once horas, y la frontera
 crece por el camino.
 
+**Una URL que nunca sirve contenido tiene que quedar registrada igual.**
+`registrar_fallo` hacía `return` cuando la URL no estaba en el manifiesto,
+que es justo el caso frecuente (DOM vacío, markdown por debajo del mínimo).
+Sin entrada, `debe_visitar` la da por desconocida, el enlace se redescubre
+al rastrear la página padre y vuelve a encolarse. Para siempre. Eso es lo
+que mantenía escrito `more_work.flag` y encadenaba el ETL sin fin: 84.387
+líneas de fallo en `error.log` sobre unas 16.000 URLs.
+
+**Una página sin cuerpo pero con enlaces NO es un fallo.** Es
+`registrar_descubrimiento`: se registra con TTL normal y se vuelve a
+recorrer. En PubHub la página de sección es el único sitio desde el que se
+descubren los capítulos del doc-set; tratarla como fallo la aparca 14 días
+y se lleva por delante medio doc-set.
+
+**Los doc-sets de DevNet se declaran UNA vez**, en `config.devnet_docsets`
+(`slug -> producto`). De ahí salen a la vez la allowlist de rastreo (la
+compone `crawler_ai._regex_docsets_devnet`) y la taxonomía del paquete
+(`copilot_pack.DOCSETS_DEVNET`). Eran dos listas y se desincronizaban en
+silencio: `site/hcs` estaba admitido pero sin mapear y sus 15 documentos
+caían en "misc". `tests/test_copilot_pack.py` falla si se vuelven a
+separar.
+
 ## Cómo verificar que un lote hizo algo
 
 **No mires `logs/error.log` para las redirecciones.** Solo recibe
@@ -68,11 +98,20 @@ debería", sospecha del consumo antes que de las regex.
 
 ## Estado y pendientes
 
-- El ETL se auto-encadena cada ~11 min porque la frontera no converge
-  (`logs/more_work.flag`). Consume minutos de runner indefinidamente. Sin
-  resolver.
+- El encadenado sin fin está resuelto por la raíz (`registrar_fallo` y
+  `registrar_descubrimiento` ya dejan entrada en el manifiesto), y además
+  `etl.yml` tiene un tope de 12 lotes por cadena como red de seguridad. Si
+  ese tope salta de forma recurrente, la frontera ha vuelto a no converger.
 - `docs/cmse` de DevNet sigue sin identificar; fuera de la allowlist hasta
-  confirmarlo.
+  confirmarlo. Lo dirá `tools/probe_devnet.py`, sección 6.
+- Varios doc-sets de DevNet aportan menos páginas que las que anuncia el
+  sitemap (`site/curri` 13 de 50, `site/customer-voice-portal` 1 de 5). La
+  sección 7 del sondeo lo mide. Sin confirmar si es el índice lateral de
+  PubHub pintado por JavaScript o profundidad insuficiente.
+- La purga de lo que dejó de estar en la allowlist está **pendiente de
+  ejecutar**: 2.694 entradas y 344 documentos (marketplace, marketing de
+  webex.com, avisos de seguridad). `tools/purgar_fuera_de_allowlist.py
+  --aplicar`.
 - `deep_crawl()` no tiene cobertura: es el bucle de E/S. Sus decisiones sí
   están extraídas y probadas (`decidir_redireccion`, `parsear_sitemap`).
 - 365 URLs en cuarentena por 403, casi todas de `bst.cloudapps.cisco.com`.
@@ -80,14 +119,17 @@ debería", sospecha del consumo antes que de las regex.
 
 ## Convenciones
 
-- Deny-by-default: en dominios grandes solo entra lo declarado en
-  `path_allowlist_regex`. `esta_en_allowlist` usa `.match()` (anclado);
-  `blocked_regex` usa `.search()`.
+- Deny-by-default **por host y por ruta**: el host debe estar declarado en
+  `path_allowlist_regex` y la URL casar con alguna de sus regex. Un host sin
+  declarar queda fuera, no dentro. Antes pasaba lo contrario y bastaba un
+  enlace de pie de página para meter un subdominio entero: 2.699 entradas en
+  54 hosts, 2.145 solo del Bug Search Tool. `esta_en_allowlist` usa
+  `.match()` (anclado); `blocked_regex` usa `.search()`.
 - Sin evasión de bots: se respeta `robots.txt`, se hace backoff ante 429 y
   se retrocede ante 403.
-- Un doc-set admitido pero sin mapear en `copilot_pack.DOCSETS_DEVNET` cae
-  en "misc", que es donde el agente no lo encuentra. Allowlist y taxonomía
-  se tocan a la vez.
+- Endurecer una allowlist no retira lo ya indexado: sigue en `docs/pages/`
+  y en el manifiesto, y el ZIP lo sigue empaquetando. Después de tocarla,
+  pasar `tools/purgar_fuera_de_allowlist.py`.
 - Los ficheros de `logs/` son estado generado. Ante un conflicto de merge,
   toma la versión de `main` y reaplica el filtro; no los fusiones a mano.
 

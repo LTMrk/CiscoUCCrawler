@@ -223,10 +223,17 @@ class ManifestStore:
 
     def registrar_desaparecido(self, url):
         """404/410: se emite tombstone para que el índice vectorial borre el
-        documento. Sin esto, el agente RAG sigue citando páginas retiradas."""
-        entrada = self.entradas.get(url)
-        if not entrada:
-            return
+        documento. Sin esto, el agente RAG sigue citando páginas retiradas.
+
+        Crea la entrada si no existía. Con el `return` anterior, una URL que
+        nunca llegó a servir contenido no dejaba rastro en el manifiesto:
+        `debe_visitar` la daba por desconocida y volvía a encolarse en cada
+        lote, indefinidamente.
+        """
+        entrada = self.entradas.setdefault(url, {
+            "doc_id": doc_id_para(url), "content_sha": None,
+            "first_seen": iso(ahora()), "unchanged_runs": 0, "fail_count": 0,
+        })
         entrada["status"] = "gone"
         entrada["last_seen"] = iso(ahora())
         self.deltas["removed"].append(entrada["doc_id"])
@@ -270,14 +277,67 @@ class ManifestStore:
         entrada["http_status"] = codigo
         self.deltas["blocked"].append(entrada["doc_id"])
 
+    def registrar_descubrimiento(self, url):
+        """Pagina que no aporta documento pero SI aporta enlaces.
+
+        Dos casos, y ninguno es un fallo:
+
+          - Indices declarados en `discovery_only_regex`: su texto es una
+            lista de titulos, ruido como chunk vectorial.
+          - Paginas de seccion de PubHub (developer.cisco.com): no tienen
+            cuerpo propio, solo el indice lateral del doc-set. Salen por
+            debajo del minimo de 200 caracteres tras sanitizar.
+
+        Antes no se registraban de ninguna forma. Sin entrada en el
+        manifiesto, `debe_visitar` las da por desconocidas y vuelven a
+        encolarse en cada lote. Tratarlas como fallo tampoco vale: el
+        backoff de `registrar_fallo` las aparca hasta 14 dias y, en DevNet,
+        aparcar la pagina de seccion es aparcar el unico sitio desde el que
+        se descubren los capitulos del doc-set.
+
+        Se les aplica el mismo TTL adaptativo que a un documento estable:
+        se vuelven a recorrer, pero cada vez menos a menudo.
+        """
+        t = ahora()
+        entrada = self.entradas.setdefault(url, {
+            "doc_id": doc_id_para(url), "content_sha": None,
+            "first_seen": iso(t), "unchanged_runs": 0, "fail_count": 0,
+        })
+        entrada["status"] = "discovery"
+        entrada["last_seen"] = iso(t)
+        entrada["fail_count"] = 0
+        entrada["unchanged_runs"] = entrada.get("unchanged_runs", 0) + 1
+        entrada["next_check"] = iso(t + self._calcular_ttl(entrada["unchanged_runs"]))
+
     def registrar_fallo(self, url):
-        entrada = self.entradas.get(url)
-        if not entrada:
-            return
+        """Contabiliza un intento infructuoso y aparca la URL tras 5.
+
+        CREA LA ENTRADA SI NO EXISTE. Esta es la corrección que hace converger
+        la frontera. Antes había un `return` cuando la URL no estaba en el
+        manifiesto, es decir en el caso más frecuente: una URL que NUNCA ha
+        servido contenido (DOM vacío, o markdown por debajo del mínimo tras
+        sanitizar, que es lo que le pasa a toda página índice de PubHub).
+
+        Sin entrada, `debe_visitar` la trata como desconocida, el enlace se
+        redescubre al rastrear su página padre y vuelve a encolarse en el
+        lote siguiente. Para siempre. En logs/error.log hay 84.387 líneas de
+        fallo sobre unas 16.000 URLs: el mismo puñado de páginas reintentado
+        lote tras lote, gastando presupuesto de rate limit que nunca produce
+        un documento, y manteniendo `more_work.flag` escrito, que es lo que
+        encadena otra ejecución del ETL. El síntoma visible era el que
+        describe CLAUDE.md: "la frontera no converge".
+        """
+        entrada = self.entradas.setdefault(url, {
+            "doc_id": doc_id_para(url), "content_sha": None,
+            "first_seen": iso(ahora()), "unchanged_runs": 0, "fail_count": 0,
+            "status": "failed",
+        })
         entrada["fail_count"] = entrada.get("fail_count", 0) + 1
-        # Tras 5 fallos consecutivos se aparca; no se reintenta cada ejecución.
-        if entrada["fail_count"] >= 5:
-            entrada["next_check"] = iso(ahora() + timedelta(days=14))
+        entrada["last_seen"] = iso(ahora())
+        # Backoff desde el primer fallo, no desde el quinto: sin next_check la
+        # entrada existe pero `debe_visitar` la devuelve igualmente.
+        dias = 14 if entrada["fail_count"] >= 5 else entrada["fail_count"]
+        entrada["next_check"] = iso(ahora() + timedelta(days=dias))
 
     # -- escritura de documentos --------------------------------------------
 

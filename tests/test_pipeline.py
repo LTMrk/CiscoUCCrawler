@@ -281,7 +281,7 @@ def test_estado_redireccion():
         destino = "https://developer.cisco.com/docs/finesse/"
 
         # Una URL conocida que arrastraba fallos de cuando el 3xx se tomaba
-        # por error: registrar_fallo solo actúa sobre entradas ya existentes.
+        # por error.
         m.registrar_contenido(origen, "# Finesse\n\n" + "contenido. " * 40)
         m.registrar_fallo(origen)
         m.registrar_fallo(origen)
@@ -309,6 +309,70 @@ def test_estado_redireccion():
         shutil.rmtree(tmp, ignore_errors=True)
 
 
+def test_url_que_nunca_sirve_contenido_deja_de_reencolarse():
+    """La corrección que hace converger la frontera.
+
+    registrar_fallo hacía `return` cuando la URL no estaba en el manifiesto,
+    que es el caso de toda URL que NUNCA ha servido contenido: DOM vacío, o
+    markdown por debajo del mínimo tras sanitizar. Sin entrada, debe_visitar
+    la da por desconocida, el enlace se redescubre al rastrear su página
+    padre y vuelve a encolarse en el lote siguiente, indefinidamente. Ese es
+    el motivo de que more_work.flag no se borrara nunca y el ETL se
+    encadenara sin fin: en logs/error.log hay 84.387 líneas de fallo sobre
+    unas 16.000 URLs.
+    """
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        url = "https://developer.cisco.com/docs/finesse/cisco-finesse-desktop-apis/"
+        assert m.debe_visitar(url) is True, "URL nueva: debe visitarse"
+
+        m.registrar_fallo(url)
+        assert url in m.entradas, "El fallo no dejó rastro en el manifiesto"
+        assert m.entradas[url]["fail_count"] == 1
+        assert m.debe_visitar(url) is False, \
+            "Se reencolaría en el lote siguiente: la frontera no converge"
+
+        # Y el backoff crece hasta aparcarla.
+        for _ in range(4):
+            m.registrar_fallo(url)
+        assert m.entradas[url]["fail_count"] == 5
+
+        # Un 404 sobre una URL nunca vista tampoco puede quedar sin registrar.
+        muerta = "https://developer.cisco.com/docs/jabber-bots/"
+        m.registrar_desaparecido(muerta)
+        assert m.entradas[muerta]["status"] == "gone"
+        assert m.debe_visitar(muerta) is False
+
+        # Si más tarde sí sirve contenido, vuelve a estar activa.
+        m2 = ManifestStore()
+        m2.entradas = m.entradas
+        m2.registrar_contenido(url, "# Desktop APIs\n\n" + "contenido. " * 40)
+        assert m2.entradas[url]["status"] == "active"
+        assert m2.entradas[url]["fail_count"] == 0
+
+        # Una pagina de seccion (sin cuerpo, pero con enlaces) no es un fallo:
+        # se registra como descubrimiento y se vuelve a recorrer con TTL, no
+        # se aparca 14 dias. En PubHub la pagina de seccion es el unico sitio
+        # desde el que se descubren los capitulos del doc-set.
+        seccion = "https://developer.cisco.com/docs/axl/axl-developer-guide/"
+        m.registrar_descubrimiento(seccion)
+        assert m.entradas[seccion]["status"] == "discovery"
+        assert m.entradas[seccion]["fail_count"] == 0
+        assert m.debe_visitar(seccion) is False, "se reencolaria en el lote siguiente"
+        assert m.entradas[seccion]["doc_id"] not in m.deltas["removed"]
+
+        print("  OK fallo sin contenido previo: queda registrado y no se reencola")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
 def test_circuit_breaker():
     from fetch_policy import CircuitBreaker
     cb = CircuitBreaker(ventana=20, umbral_error=0.5, minimo_muestras=10)
@@ -322,20 +386,19 @@ def test_circuit_breaker():
 
 
 if __name__ == "__main__":
-    print("\nsanitizer:")
-    md = test_sanitizacion_estructural()
-    test_boilerplate_cross_documento()
-    test_imagenes_conservan_pie_y_alt()
-    test_iconos_de_admonicion_no_son_figuras()
-    test_imagen_embebida_conserva_el_texto_sin_url()
-    print("\nstate_store:")
-    test_deltas_incrementales()
-    test_estado_redireccion()
-    test_redirecciones_llegan_a_deltas()
-    print("\nfetch_policy:")
-    test_backoff_y_clasificacion()
-    test_redirecciones()
-    test_circuit_breaker()
-    print("\n--- Markdown resultante de ejemplo ---")
-    print(md[:600])
-    print("\nTODAS LAS PRUEBAS PASARON")
+    # Descubrimiento automatico en lugar de una lista escrita a mano. La
+    # lista se olvidaba: test_url_que_nunca_sirve_contenido_deja_de_reencolarse
+    # no llego a ejecutarse nunca al anadirla, y una prueba que no corre no
+    # protege nada.
+    md = None
+    pruebas = [v for k, v in sorted(globals().items())
+               if k.startswith("test_") and callable(v)]
+    for prueba in pruebas:
+        resultado = prueba()
+        if isinstance(resultado, str):
+            md = resultado
+
+    if md:
+        print("\n--- Markdown resultante de ejemplo ---")
+        print(md[:600])
+    print(f"\n{len(pruebas)} PRUEBAS PASARON")

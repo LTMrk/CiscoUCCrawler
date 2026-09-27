@@ -74,13 +74,12 @@ jobs:
           echo "OK: crawler_ai importable sin crawl4ai."
 
       - name: Pruebas de regresión
-        # La misma lista que corre etl.yml antes del crawl. Si se anade un
-        # fichero de pruebas, hay que anadirlo en los dos sitios.
+        # Glob, no lista escrita a mano. Antes habia que registrar cada
+        # fichero nuevo aqui Y en etl.yml, y el sintoma de olvidarlo no era
+        # un error sino una prueba que no corria.
         run: |
-          python3 tests/test_migracion.py
-          python3 tests/test_openapi.py
-          python3 tests/test_pipeline.py
-          python3 tests/test_url_policy.py
-          python3 tests/test_copilot_pack.py
-          python3 tests/test_repos_ingest.py
-          python3 tests/test_crawler.py
+          for prueba in tests/test_*.py; do
+            echo "::group::${prueba}"
+            python3 "${prueba}" || exit 1
+            echo "::endgroup::"
+          done

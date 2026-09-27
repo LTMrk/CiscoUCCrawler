@@ -1,0 +1,114 @@
+name: Paquete Copilot
+
+# WORKFLOW DE EMPAQUETADO. No sale a la red ni rastrea nada: lee el corpus
+# que ya esta commiteado en docs/ y produce los ZIP.
+#
+# Esta separado del ETL a proposito, y no solo por orden:
+#
+#   - copilot_pack.py es solo libreria estandar. Aqui la preparacion son
+#     segundos, frente a los ~10 minutos que tarda el otro workflow en
+#     instalar crawl4ai y descargar Chromium.
+#   - Regenerar el paquete es la operacion que mas se repite a mano (cambiar
+#     de perfil, sacar solo DevNet, rehacerlo tras ajustar la taxonomia) y no
+#     tiene por que arrastrar un rastreo de 50 minutos.
+#   - Un fallo empaquetando ya no tira el lote de rastreo, ni al reves.
+#
+# Se invoca de dos formas: a mano (workflow_dispatch) o desde etl.yml
+# (workflow_call) cuando la frontera queda vacia, es decir cuando el corpus
+# esta completo.
+
+on:
+  workflow_dispatch:
+    inputs:
+      perfil:
+        description: "chat (pocos ficheros grandes) o sharepoint (muchos pequenos)"
+        type: choice
+        options: [chat, sharepoint]
+        default: chat
+      fuente:
+        description: "Subconjunto del corpus a empaquetar"
+        type: choice
+        options: [todo, devnet, cisco-com, webex, repos]
+        default: todo
+  workflow_call:
+    inputs:
+      perfil:
+        type: string
+        default: chat
+      fuente:
+        type: string
+        default: todo
+
+permissions:
+  contents: read
+
+# Dos empaquetados a la vez no se corrompen entre si (no escriben en el
+# repositorio), pero producen el mismo artefacto dos veces. El segundo
+# espera; no se cancela el primero, que puede ser el del ETL.
+concurrency:
+  group: paquete-copilot-${{ inputs.fuente || 'todo' }}
+  cancel-in-progress: false
+
+jobs:
+  empaquetar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          # Sin historia: aqui solo se lee el docs/ del ultimo commit y el
+          # arbol ya pesa mas de 300 MB.
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # copilot_pack.py es stdlib pura: no hay paso de instalacion. Se
+      # comprueba que arranca para que un error de sintaxis falle aqui y no
+      # a mitad del empaquetado.
+      - name: Comprobar que el empaquetador arranca
+        run: |
+          python3 -m compileall -q src
+          python3 src/copilot_pack.py --help > /dev/null
+
+      - name: Pruebas del empaquetador
+        # Solo las que tocan esta ruta de codigo. Las del rastreo se quedan
+        # en el otro workflow: aqui no se rastrea.
+        run: python3 tests/test_copilot_pack.py
+
+      - name: Generar paquete
+        env:
+          # Por env y no interpolado en el `run`: un ${{ }} dentro del script
+          # se sustituye ANTES de que bash lo vea, asi que un valor con
+          # comillas se ejecutaria como codigo.
+          PERFIL: ${{ inputs.perfil || 'chat' }}
+          FUENTE: ${{ inputs.fuente || 'todo' }}
+        run: |
+          python3 src/copilot_pack.py \
+            --salida dist/copilot \
+            --perfil "$PERFIL" \
+            --fuente "$FUENTE" \
+            --zip
+          {
+            echo "### Paquete para Copilot"
+            echo
+            echo "Perfil \`${PERFIL}\` · Fuente \`${FUENTE}\` · Commit \`${GITHUB_SHA:0:7}\`"
+            echo
+            echo '```'
+            ls -lh dist/copilot/_zips
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publicar paquete
+        uses: actions/upload-artifact@v4
+        with:
+          name: copilot-${{ inputs.fuente || 'todo' }}-${{ inputs.perfil || 'chat' }}
+          # Solo el ZIP y la guia: subir los .txt sueltos como artefacto
+          # tarda mas que volver a generarlos.
+          path: |
+            dist/copilot/_zips/
+            dist/copilot/_DESPLIEGUE.md
+          retention-days: 30

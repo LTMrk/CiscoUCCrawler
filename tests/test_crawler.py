@@ -209,7 +209,7 @@ def test_politica_de_url_real_coincide_con_test_url_policy():
 
 def test_profundidad_por_dominio():
     """developer.cisco.com necesita 3: /docs/ -> doc-set -> página -> subpágina."""
-    assert ca.get_max_depth_for_url("https://developer.cisco.com/docs/axl/") == 3
+    assert ca.get_max_depth_for_url("https://developer.cisco.com/docs/axl/") == 5
     assert ca.get_max_depth_for_url("https://community.cisco.com/t5/x/ta-p/1") == 1
     # Un dominio no declarado cae al valor por defecto.
     assert (ca.get_max_depth_for_url("https://ejemplo.invalid/x")

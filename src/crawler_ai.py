@@ -133,9 +133,31 @@ def _compilar(patrones, etiqueta):
 
 BLOCKED_REGEX = _compilar(CONFIG.get("blocked_regex", []), "blocked_regex")
 DISCOVERY_ONLY_REGEX = _compilar(CONFIG.get("discovery_only_regex", []), "discovery_only_regex")
+def _regex_docsets_devnet(docsets):
+    """Compone la allowlist de developer.cisco.com desde `devnet_docsets`.
+
+    Las claves son fragmentos de regex sobre el segmento del doc-set; se
+    unen en una sola alternacion anclada. Declarar el doc-set en un sitio
+    (config.json) en lugar de dos (una regex enorme aqui y otra lista en
+    copilot_pack) es lo que impide que un doc-set entre en el corpus sin
+    tener producto asignado y acabe en "misc".
+    """
+    if not docsets:
+        return []
+    alternacion = "|".join(docsets)
+    return [r"^https?://developer\.cisco\.com/(docs|site)/(%s)(/|$)" % alternacion]
+
+
+_ALLOWLIST_CRUDA = dict(CONFIG.get("path_allowlist_regex") or {})
+_ALLOWLIST_CRUDA["developer.cisco.com"] = (
+    list(_ALLOWLIST_CRUDA.get("developer.cisco.com", []))
+    + _regex_docsets_devnet(list(CONFIG.get("devnet_docsets") or {}))
+)
+
 PATH_ALLOWLIST = {
     dominio: _compilar(patrones, f"path_allowlist_regex[{dominio}]")
-    for dominio, patrones in (CONFIG.get("path_allowlist_regex") or {}).items()
+    for dominio, patrones in _ALLOWLIST_CRUDA.items()
+    if patrones
 }
 
 
@@ -157,18 +179,31 @@ def is_blocked_by_user(url):
 
 
 def esta_en_allowlist(url):
-    """Deny-by-default por dominio. Si el dominio tiene allowlist declarada,
-    la URL debe casar con alguna de sus regex. Un dominio sin allowlist se
-    rige solo por la blocklist.
+    """Deny-by-default, POR HOST Y POR RUTA. El host debe estar declarado en
+    `path_allowlist_regex` y la URL debe casar con alguna de sus regex.
 
     Este es el control primario para www.cisco.com: el sitio tiene millones
     de URLs y una blocklist nunca alcanzaría a cubrir el ruido. Con allowlist
-    se invierte la carga: solo entra lo que se ha declarado valioso."""
+    se invierte la carga: solo entra lo que se ha declarado valioso.
+
+    EL DENY ALCANZA TAMBIÉN A LOS HOSTS NO DECLARADOS. Antes se devolvía True
+    para cualquier host sin allowlist, y `is_allowed_domain` acepta cualquier
+    cosa que contenga "cisco.com": bastaba un enlace de pie de página para
+    meter un subdominio entero en la frontera. El resultado medido sobre
+    logs/manifest.json eran 2.699 entradas en 54 hosts no declarados —
+    2.145 solo de bst.cloudapps.cisco.com (Bug Search Tool, que además
+    responde 403 y llenó la cuarentena con 1.369 URLs) — y 348 documentos de
+    marketing indexados desde marketplace.cisco.com, www.webex.com o
+    video.cisco.com, que en un RAG de ingeniería son ruido puro.
+
+    Añadir un subdominio nuevo es ahora un acto deliberado: declararlo en
+    config.json con las rutas que interesan.
+    """
     netloc = urlparse(url).netloc.lower()
     for dominio, patrones in PATH_ALLOWLIST.items():
         if dominio in netloc:
             return any(r.match(url) for r in patrones)
-    return True
+    return not PATH_ALLOWLIST
 
 
 def es_solo_descubrimiento(url):
@@ -257,8 +292,16 @@ def git_commit_and_push(mensaje):
             return
         subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
         subprocess.run(["git", "commit", "-m", mensaje], check=True)
-        subprocess.run(["git", "pull", "--rebase", "origin", "main"], check=False)
-        subprocess.run(["git", "push"], check=True)
+        # Rebase contra LA RAMA ACTUAL, no contra main. Con "main" fijo, un
+        # ETL que corra en cualquier otra rama rebasa su lote encima de una
+        # rama ajena; y si main ha divergido, el push posterior falla y se
+        # pierde el lote entero.
+        rama = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                              capture_output=True, text=True).stdout.strip()
+        if rama and rama != "HEAD":
+            subprocess.run(["git", "pull", "--rebase", "origin", rama], check=False)
+        subprocess.run(["git", "push", "origin", f"HEAD:{rama}" if rama else "HEAD"],
+                       check=True)
     except Exception as e:
         log_error("GIT_PUSH", str(e))
 
@@ -481,7 +524,13 @@ async def deep_crawl():
             candidatas |= await descubrir_por_sitemap(politica, semillas)
         else:
             # En incremental se reevalúa lo conocido cuyo TTL haya vencido.
-            candidatas |= {u for u in manifiesto.entradas if manifiesto.debe_visitar(u)}
+            #
+            # El filtro por url_aceptable NO es redundante: el manifiesto
+            # arrastra URLs admitidas por allowlists anteriores. Sin él,
+            # endurecer la allowlist no retira nada — lo ya indexado se
+            # sigue revisitando en cada lote.
+            candidatas |= {u for u in manifiesto.entradas
+                           if manifiesto.debe_visitar(u) and url_aceptable(u)}
 
     # Las semillas y los sitemaps declarados en config.json entran SIEMPRE,
     # haya frontera previa o no. Una semilla es una declaración del operador
@@ -672,8 +721,10 @@ async def deep_crawl():
 
                 if solo_descubrimiento:
                     # Página de navegación: no se sanitiza ni se indexa, pero
-                    # sí se recorren sus enlaces más abajo.
+                    # sí se recorren sus enlaces más abajo. Se REGISTRA, que
+                    # es lo que impide que se reencole en cada lote.
                     markdown, bloques = "", []
+                    manifiesto.registrar_descubrimiento(url)
                 else:
                     markdown, bloques = sanitizar(
                         resultado.html,
@@ -691,8 +742,22 @@ async def deep_crawl():
                         detector.observar(bloques)
 
                     if len(markdown) < 200:
-                        manifiesto.registrar_fallo(url)
-                        log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
+                        # Con enlaces internos no es un fallo: es una página
+                        # de sección sin cuerpo propio. Las de PubHub son
+                        # así, y son el ÚNICO sitio desde el que se
+                        # descubren los capítulos del doc-set; aparcarlas
+                        # 14 días con el backoff de fallo deja fuera del
+                        # corpus la mitad de la referencia de API de DevNet.
+                        enlaces_internos = (getattr(resultado, "links", {})
+                                            or {}).get("internal") or []
+                        if enlaces_internos:
+                            manifiesto.registrar_descubrimiento(url)
+                            log_info(f"Página de sección sin cuerpo propio "
+                                     f"({len(markdown)} chars, "
+                                     f"{len(enlaces_internos)} enlaces): {url}")
+                        else:
+                            manifiesto.registrar_fallo(url)
+                            log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
                         markdown = ""
 
                 # -- Delta ---------------------------------------------------
