@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1su4-cucm-b-bulk-administration-guide-1251su4-cucm-b-bulk-admi-e27718ccb4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1SU4/cucm_b_bulk-administration-guide-1251su4/cucm_b_bulk-administration-guide-1251su2_chapter_011101.html
-retrieved_at: 2026-08-21T17:51:27.322362+00:00
+retrieved_at: 2026-09-27T11:32:40.993832+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU4
@@ -963,3 +963,7 @@ You must upload the CSV data file to the Unified Communications Manager first no
                                                          				  the link to View Sample File in the Insert
                                                             					 Managers/Assistants window in BAT. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

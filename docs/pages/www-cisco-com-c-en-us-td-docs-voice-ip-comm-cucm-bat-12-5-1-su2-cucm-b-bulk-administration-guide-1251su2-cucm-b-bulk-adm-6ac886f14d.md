@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-6ac886f14d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_01011.html
-retrieved_at: 2026-08-21T08:46:23.094438+00:00
+retrieved_at: 2026-09-27T11:37:20.599231+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -491,3 +491,7 @@ To create a job for locking and/or wiping the phones, click Submit .
 | Note | If a phone does not support the functionality you have chosen, the transaction will fail
                                                       for that phone. It will also fail if the functionality has already been requested for the phone. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

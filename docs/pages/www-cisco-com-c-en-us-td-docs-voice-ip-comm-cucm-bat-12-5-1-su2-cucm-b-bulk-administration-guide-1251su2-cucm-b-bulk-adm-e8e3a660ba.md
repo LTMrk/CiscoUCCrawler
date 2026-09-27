@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-12-5-1-su2-cucm-b-bulk-administration-guide-1251su2-cucm-b-bulk-adm-e8e3a660ba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/12_5_1_SU2/cucm_b_bulk-administration-guide-1251su2/cucm_b_bulk-administration-guide-1251su2_chapter_0111011.html
-retrieved_at: 2026-08-21T08:49:46.760248+00:00
+retrieved_at: 2026-09-27T11:40:41.662050+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -1167,3 +1167,7 @@ Directory Number, Partition, Voice Mail Profile, Line CSS, AAR
                                                 					 Unregistered Internal CSS, Forward Unregistered External Destination, Forward
                                                 					 Unregistered External CSS, Hold Reversion Ring Duration, Hold Reversion
                                                 					 Notification Interval |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
