@@ -9504,6 +9504,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-webcasting-222148-verify-webex-calling-license-usage-epub-41757c0804",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:38.727034+00:00",
+      "last_seen": "2026-09-27T15:17:38.727049+00:00",
+      "next_check": "2026-09-28T15:17:38.727055+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.html": {
       "content_sha": "1a0df28ad68aee45e49e7f82edc4ad70f821be9f7aac9b71f203ed80148f87f3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-webcasting-222148-verify-webex-calling-license-usage-html-e1c48741dc",
@@ -9515,6 +9525,16 @@
       "last_seen": "2026-09-27T12:48:28.633812+00:00",
       "next_check": "2026-09-28T12:48:28.633812+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-webcasting-222148-verify-webex-calling-license-usage-mobi-6aba892924",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:42.966066+00:00",
+      "last_seen": "2026-09-27T15:17:42.966081+00:00",
+      "next_check": "2026-09-28T15:17:42.966086+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200418-Configure-an-Auto-Answer-with-Finesse.html": {
@@ -16065,6 +16085,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-e-4921f4d578",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:18:12.040230+00:00",
+      "last_seen": "2026-09-27T15:18:12.040245+00:00",
+      "next_check": "2026-09-28T15:18:12.040249+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/218377-configure-call-forwarding-selective-for.html": {
       "content_sha": "e5b5dfcd8893827259f527f920962da0c14d05ac1aa5d88539981b1eb331ab30",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-218377-configure-call-forwarding-selective-for-h-5083cbfec9",
@@ -16137,6 +16167,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220632-configure-and-dial-international-calling--66384bc7f8",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:18:03.592223+00:00",
+      "last_seen": "2026-09-27T15:18:03.592234+00:00",
+      "next_check": "2026-09-28T15:18:03.592238+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.html": {
       "content_sha": "d45c8be706b3094708e829d468d949db4cfe4791214b4a2cc0f04ce352970fd2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220632-configure-and-dial-international-calling--ee054deb68",
@@ -16148,6 +16188,16 @@
       "last_seen": "2026-09-27T12:48:45.594315+00:00",
       "next_check": "2026-09-28T12:48:45.594315+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220632-configure-and-dial-international-calling--2d85f2b5d2",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:18:07.910760+00:00",
+      "last_seen": "2026-09-27T15:18:07.910772+00:00",
+      "next_check": "2026-09-28T15:18:07.910776+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.epub": {
@@ -16171,6 +16221,16 @@
       "last_seen": "2026-09-27T12:48:24.482920+00:00",
       "next_check": "2026-09-28T12:48:24.482920+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221021-troubleshoot-mpp-phone-in-wxc-for-provis.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-221021-troubleshoot-mpp-phone-in-wxc-for-provis--1e108acb49",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:34.948747+00:00",
+      "last_seen": "2026-09-27T15:17:34.948759+00:00",
+      "next_check": "2026-09-28T15:17:34.948762+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/221052-generate-prt-manually-for-mpp-phones-reg.epub": {
@@ -16317,6 +16377,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222143-identify-migration-process-from-cloud-co--1489af0ab7",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:55.235201+00:00",
+      "last_seen": "2026-09-27T15:17:55.235213+00:00",
+      "next_check": "2026-09-28T15:17:55.235216+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.html": {
       "content_sha": "295ae34aa1571ea1b6ca18456206f748f3ebf6516035b5c5a97b6ac0aa8df942",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222143-identify-migration-process-from-cloud-co--5f9c1c325b",
@@ -16328,6 +16398,16 @@
       "last_seen": "2026-09-27T12:48:41.446709+00:00",
       "next_check": "2026-09-28T12:48:41.446709+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222143-identify-migration-process-from-cloud-co.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222143-identify-migration-process-from-cloud-co--3ee21fb3b4",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:59.643231+00:00",
+      "last_seen": "2026-09-27T15:17:59.643242+00:00",
+      "next_check": "2026-09-28T15:17:59.643245+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222146-identify-procedure-to-modify-caller-id-n.html": {
@@ -16343,6 +16423,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--26bacfa27f",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:46.961561+00:00",
+      "last_seen": "2026-09-27T15:17:46.961576+00:00",
+      "next_check": "2026-09-28T15:17:46.961580+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.html": {
       "content_sha": "cce5646435cee7c1a4948254a9743d42d2ed284e99f2e4db3ff801855769930e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--61107c614c",
@@ -16354,6 +16444,16 @@
       "last_seen": "2026-09-27T12:48:32.952524+00:00",
       "next_check": "2026-09-28T12:48:32.952524+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222147-download-call-recordings-through-api-wit.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-222147-download-call-recordings-through-api-wit--1474a40f0b",
+      "fail_count": 1,
+      "first_seen": "2026-09-27T15:17:51.085047+00:00",
+      "last_seen": "2026-09-27T15:17:51.085059+00:00",
+      "next_check": "2026-09-28T15:17:51.085062+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/222153-recognize-how-dial-by-name-works.html": {
@@ -177944,5 +178044,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-27T15:15:35.518889+00:00"
+  "updated_at": "2026-09-27T15:18:12.091257+00:00"
 }
