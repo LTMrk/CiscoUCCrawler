@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--9e996b3500
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_011.html
-retrieved_at: 2026-08-20T23:57:27.144732+00:00
+retrieved_at: 2026-09-28T11:41:52.317954+00:00
 ---
 
 Deployment guide for Hybrid Calling for Webex Devices (Device Connector)
@@ -471,3 +471,7 @@ For example, if your existing FQDN setting in Cisco Unified Communications Manag
 | Different from Expressway-E | Must be different from the Expressway-E system, DNS, and domain name. Otherwise, Expressway-E strips the route header. |
 | New entry for Hybrid Calling | If your current FQDN entry in Unified CM doesn't meet the requirements listed above, you can add a new element to the beginning
                                                 of the cluster FQDN setting for Hybrid Calling . For example, if your existing FQDN setting in Cisco Unified Communications Manager is *.example.com *.example.org , add a unique, non-wildcard entry at the beginning of the field: " cluster1.example.com *.example.com *.example.org" |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

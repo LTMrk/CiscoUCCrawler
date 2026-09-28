@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-72dbba4376
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_00.html
-retrieved_at: 2026-08-20T23:59:42.244304+00:00
+retrieved_at: 2026-09-28T11:42:00.553178+00:00
 ---
 
 Migrate Cisco Spark Hybrid Call Service Organization to the Cisco Webex Domain
@@ -221,3 +221,11 @@ All of this happens behind the scenes, and all you have to do is create the Webe
 | Hybrid calls to spaces (in Webex ) | *.meet.ciscospark.com | *.meetup.webex.com |
 | General SIP Calls to Webex—for example, for Hybrid Collaboration Meeting Rooms or on-net audio | *.webex.com | *.webex.com (no change) |
 | SIP TLS Authentication domain for general calls to Webex (name on cloud hosts' certificates) | sip.webex.com | sip.webex.com (no change) |
+
+## Figuras
+
+![Figure 1. Your Hybrid Calling Routing (Before Migration)](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/427001-428000/427938.jpg)
+
+![Figure 2. You Hybrid Call Service Routing (After Migration)](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/427001-428000/427939.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

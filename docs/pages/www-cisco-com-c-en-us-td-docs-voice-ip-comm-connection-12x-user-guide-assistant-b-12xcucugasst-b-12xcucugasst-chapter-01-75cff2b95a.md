@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-chapter-01-75cff2b95a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_chapter_0101.html
-retrieved_at: 2026-08-21T07:55:06.554516+00:00
+retrieved_at: 2026-09-28T11:47:52.317037+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -320,3 +320,7 @@ Select Save .
 |---|---|
 | Step 2 | On the Message Playback page, in the When Deleting a Message section, check the Confirm Deletions of New and Saved Messages check box to have Connection ask for confirmation. Uncheck the check box if you do not want Connection to ask for confirmation. |
 | Step 3 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

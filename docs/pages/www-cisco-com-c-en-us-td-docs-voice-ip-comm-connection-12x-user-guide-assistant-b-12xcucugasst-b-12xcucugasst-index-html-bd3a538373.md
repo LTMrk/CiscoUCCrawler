@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-index-html-bd3a538373
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_index.html
-retrieved_at: 2026-08-21T07:55:27.217224+00:00
+retrieved_at: 2026-09-28T11:48:13.564283+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -531,3 +531,7 @@ changing conversation 1
 changing for message playback heard on phone 1
 
 changing speaker playback for all messages 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

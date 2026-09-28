@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-00-html-dfe7151ed8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_00.html
-retrieved_at: 2026-08-21T07:55:48.037332+00:00
+retrieved_at: 2026-09-28T11:46:24.309633+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -868,3 +868,16 @@ To avoid creating duplicate email
 |---|---|
 | Pause or resume | 8 |
 | End a recording | # |
+
+## Figuras
+
+![Figure 1. Topology
+                                       				  1](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345845.tif/_jcr_content/renditions/345845.jpg)
+
+![Figure 2. Topology
+                                       				  2](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345846.tif/_jcr_content/renditions/345846.jpg)
+
+![Figure 3. Topology
+                                       				  3](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345847.tif/_jcr_content/renditions/345847.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

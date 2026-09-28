@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-cucm-sip-b-12xcucintcucmsip-b-12xcucintcucm-f237a78c75
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucm_sip/b_12xcucintcucmsip/b_12xcucintcucmsip_chapter_00.html
-retrieved_at: 2026-08-16T18:40:57.530535+00:00
+retrieved_at: 2026-09-28T11:42:42.664950+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 12.x
@@ -72,3 +72,7 @@ Unity Connection supports centralized voice messaging through
                            		system networking are properly configured. For details, see the “ Centralized Voice
                               		  Messaging ” section in the “Integrating Cisco Unity Connection with the
                            		Phone System” chapter of the Design Guide for Cisco Unity Connection, Release 12.x at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/design/guide/b_12xcucdg.html .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

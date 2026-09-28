@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--9ba5017d75
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_01000.html
-retrieved_at: 2026-08-20T23:53:57.939785+00:00
+retrieved_at: 2026-09-28T11:41:14.855513+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -103,3 +103,7 @@ Under Video Calls, uncheck Automatically add video calls to events created by a 
 |---|---|
 | Step 2 | Click Sharing settings . |
 | Step 3 | Under Video Calls, uncheck Automatically add video calls to events created by a user . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

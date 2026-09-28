@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-01-h-97bbe0454a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_01.html
-retrieved_at: 2026-08-21T07:56:43.405094+00:00
+retrieved_at: 2026-09-28T11:48:21.778409+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -233,3 +233,7 @@ You can also use
 | Alt-Shift-F8 | Increase volume |
 | Alt-Shift-F11 | Slower playback |
 | Alt-Shift-F12 | Faster playback |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

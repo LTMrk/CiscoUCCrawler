@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-index-html-217a298e15
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_index.html
-retrieved_at: 2026-08-21T07:56:17.617222+00:00
+retrieved_at: 2026-09-28T11:46:58.472435+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -109,3 +109,7 @@ upgrading
 about the process 1
 
 Connection 7.x software to shipping 8.x version (task list) 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

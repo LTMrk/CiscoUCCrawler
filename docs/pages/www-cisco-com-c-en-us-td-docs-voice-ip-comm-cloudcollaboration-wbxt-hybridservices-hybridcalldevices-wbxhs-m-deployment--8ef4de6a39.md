@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--8ef4de6a39
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_chapter_00.html
-retrieved_at: 2026-08-20T23:57:22.570488+00:00
+retrieved_at: 2026-09-28T11:41:48.086000+00:00
 ---
 
 Deployment guide for Hybrid Calling for Webex Devices (Device Connector)
@@ -112,3 +112,11 @@ For more information, see Recommendations for global Hybrid Calling deployments 
 | Note | Hybrid Calling with the Call Connector architecture is end of life (EOL)
                                              and no longer supported. |
 |---|---|
+
+## Figuras
+
+![Figure 1. On-premises and cloud components for Hybrid Calling for Webex
+                                 Devices . This diagram shows the on-premises and cloud components that comprise the Hybrid Calling for Webex
+                                       Devices architecture. This architecture provides call connectivity to Webex cloud-registered devices in a Workspace (created in Control Hub), so that
+                                    these devices can use the Unified CM dial plan. You manually synchronize
+                                    configuration between premises and cloud by running a sync in the Webex Device Connector software.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/437001-438000/437503.jpg)

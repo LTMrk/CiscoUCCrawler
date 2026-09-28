@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-00-html-af6b7baf4a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/os_administration/b_12xcucosagx/b_12xcucosagx_chapter_00.html
-retrieved_at: 2026-08-17T03:39:52.502660+00:00
+retrieved_at: 2026-09-28T11:43:24.938473+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 12.x
@@ -200,3 +200,7 @@ You can access a command line interface from the console or through a secure she
                                     		Windows-based software applications that you may have been using with a
                                     		previous version of Cisco Unified Communications Manager. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

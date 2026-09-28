@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-010--8a9af3d325
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_010.html
-retrieved_at: 2026-08-21T07:56:47.781193+00:00
+retrieved_at: 2026-09-28T11:48:25.840397+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -257,3 +257,7 @@ In the Outlook folder that contains
 | Tip | To archive voice messages before deleting them, use the
                                           		  Copy to File option on the Media Master Options menu. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

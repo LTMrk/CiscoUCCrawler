@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-0110-html-ecc60cb536
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_0110.html
-retrieved_at: 2026-08-21T07:56:09.381276+00:00
+retrieved_at: 2026-09-28T11:46:49.915969+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -253,3 +253,7 @@ If the problem is not resolved then please contact Cisco TAC.
                                           						Connectivity of Unity Connection with Branch” section of the “Troubleshooting
                                           						Unity Connection SRSV” chapter in the Troubleshooting Guide for Cisco Unity
                                           						Connection, Release 11.x, available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/troubleshooting/guide/b_11xcuctsg.html . If the problem is not resolved then please contact Cisco TAC. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

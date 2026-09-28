@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-b-12xcucsecx-chapter-01000-html-45cfbfd703
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01000.html
-retrieved_at: 2026-08-17T02:35:43.124801+00:00
+retrieved_at: 2026-09-28T11:44:22.959395+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -657,3 +657,7 @@ Close Certification Authority.
                                                 				  server. Write down the path and filename. You need it in a later
                                                    					 procedure. Select OK . |
 | Step 6 | Close Certification Authority. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

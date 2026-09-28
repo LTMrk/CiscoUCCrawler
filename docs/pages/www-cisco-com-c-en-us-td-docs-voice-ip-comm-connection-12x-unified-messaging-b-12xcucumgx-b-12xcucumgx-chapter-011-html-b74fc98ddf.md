@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-unified-messaging-b-12xcucumgx-b-12xcucumgx-chapter-011-html-b74fc98ddf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/unified_messaging/b_12xcucumgx/b_12xcucumgx_chapter_011.html
-retrieved_at: 2026-08-17T03:45:13.381903+00:00
+retrieved_at: 2026-09-28T11:47:19.602338+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 12.x
@@ -1107,3 +1107,7 @@ When you hear the system announce the Cisco
 | Step 6 | When you hear the system announce the Cisco
                                           			 Unified MeetingPlace meeting that you just scheduled, either say Join , or press the
                                           			 applicable keys on the phone keypad to join the meeting. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

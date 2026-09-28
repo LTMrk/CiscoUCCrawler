@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-cf3bcb652c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_011.html
-retrieved_at: 2026-08-20T23:59:50.237963+00:00
+retrieved_at: 2026-09-28T11:42:09.092889+00:00
 ---
 
 Migrate Cisco Spark Hybrid Call Service Organization to the Cisco Webex Domain
@@ -59,3 +59,7 @@ Yes, the migration takes place whether you have automatically or manually
 ### Will the Cisco Spark-RD name change to Webex-RD?
 
 For now, the device name will not change.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

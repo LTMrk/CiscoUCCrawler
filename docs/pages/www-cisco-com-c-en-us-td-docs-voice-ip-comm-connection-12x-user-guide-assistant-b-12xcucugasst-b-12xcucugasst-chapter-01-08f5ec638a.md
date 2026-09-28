@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-chapter-01-08f5ec638a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_chapter_0110.html
-retrieved_at: 2026-08-21T07:55:10.551243+00:00
+retrieved_at: 2026-09-28T11:48:05.156389+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -256,3 +256,7 @@ Select Save .
 |---|---|
 | Listen To and Rerecord the Message | Connection gives callers the options of listening to, adding to, rerecording, or deleting their messages. |
 | Mark the Message as Urgent | Connection asks callers if they want to mark their messages urgent. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

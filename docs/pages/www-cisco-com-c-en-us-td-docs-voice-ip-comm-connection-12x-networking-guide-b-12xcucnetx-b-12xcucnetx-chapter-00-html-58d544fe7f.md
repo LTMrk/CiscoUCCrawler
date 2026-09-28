@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-networking-guide-b-12xcucnetx-b-12xcucnetx-chapter-00-html-58d544fe7f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_00.html
-retrieved_at: 2026-08-17T02:37:08.008490+00:00
+retrieved_at: 2026-09-28T11:42:55.540839+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 12.x
@@ -983,3 +983,18 @@ When intersite networking is configured between Cisco Unity and
                                              					 messages by phone to reply to a message from a user on another server by
                                              					 calling the user (according to the call transfer and screening settings of the
                                              					 called user). |
+
+## Figuras
+
+![Figure 1. A Unity
+                                 		  Connection Site Joined by Intrasite Links Among All Locations](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/251001-252000/251167.eps/_jcr_content/renditions/251167.jpg)
+
+![Figure 2. A Cisco
+                                    		  Voicemail Organization Consisting of Two Unity Connection Sites Connected
+                                    		  through an IntersiteLink](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/277001-278000/277991.eps/_jcr_content/renditions/277991.jpg)
+
+![Figure 3. Cisco
+                                    		  Voicemail Organization Consisting of a Cisco Unity Site Connected to a Unity
+                                    		  Connection Site via anIntersite Link](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/277001-278000/277992.eps/_jcr_content/renditions/277992.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

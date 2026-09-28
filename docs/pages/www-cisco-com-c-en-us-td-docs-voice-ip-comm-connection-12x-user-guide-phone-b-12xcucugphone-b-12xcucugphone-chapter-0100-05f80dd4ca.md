@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-0100-05f80dd4ca
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_01001.html
-retrieved_at: 2026-08-21T00:25:47.887823+00:00
+retrieved_at: 2026-09-28T11:49:21.109153+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -124,3 +124,7 @@ To switch back to using voice commands, keep pressing * until you hear the "Voic
 
 | Tip | To switch back to using voice commands, keep pressing * until you hear the "Voice Command Conversation" prompt. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

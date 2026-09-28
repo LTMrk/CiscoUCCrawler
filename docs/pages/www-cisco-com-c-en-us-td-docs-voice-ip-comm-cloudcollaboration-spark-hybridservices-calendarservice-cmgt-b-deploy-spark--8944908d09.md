@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--8944908d09
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_0101.html
-retrieved_at: 2026-08-20T23:54:10.501235+00:00
+retrieved_at: 2026-09-28T11:41:23.282179+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -104,3 +104,7 @@ Users with either on-premises Exchange or Office 365 mailboxes can now schedule 
 | Step 7 | Enable Hybrid Calendar for users who have mailboxes in Office 365. |
 | Step 8 | Start calendar connector and ensure that activated users in both on-premises and Office 365 are subscribed. |
 | Step 9 | As a test, in an Outlook invitation, add a space scheduling keyword to the Location field; verify that this step creates a Webex App space for both on-premises Exchange and Office 365 users. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-125badc282
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_011.html
-retrieved_at: 2026-08-21T00:10:29.059702+00:00
+retrieved_at: 2026-09-28T11:42:30.116322+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 12.x
@@ -403,3 +403,9 @@ Navigate to Netwoking and select HTTPS
                                           			 found in previous step. |
 | Step 3 | Navigate to Netwoking and select HTTPS
                                              				Links and then modify the IP or Hostname. |
+
+## Figuras
+
+![Figure 1. HTTPS Network of 10 Unity Connection locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/370001-371000/370706.tif/_jcr_content/renditions/370706.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

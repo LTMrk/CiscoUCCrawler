@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-0100-html-96091978bd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_0100.html
-retrieved_at: 2026-08-21T07:56:04.950625+00:00
+retrieved_at: 2026-09-28T11:46:37.208337+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -305,3 +305,7 @@ The Unity Connection SRSV server
                                                 					 to the inactive partition. Note that the messages are stored in a common
                                                 					 partition, therefore they are not copied. The Unity Connection SRSV server
                                                 					 restarts and switches to the newer version. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

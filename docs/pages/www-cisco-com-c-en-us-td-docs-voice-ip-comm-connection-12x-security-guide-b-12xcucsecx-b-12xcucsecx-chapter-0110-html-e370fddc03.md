@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-0110-html-e370fddc03
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_0110.html
-retrieved_at: 2026-08-21T07:54:20.463702+00:00
+retrieved_at: 2026-09-28T11:45:37.873012+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -480,3 +480,7 @@ The Check Inactive
 		  Timeout (in Days) field is set to zero, which means that the feature is
 		disabled. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-chapter-01-8b4404f038
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_chapter_01000.html
-retrieved_at: 2026-08-21T07:55:19.434235+00:00
+retrieved_at: 2026-09-28T11:47:44.286122+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -1078,3 +1078,7 @@ Email messages that contain transcriptions have a subject line that is identical
 | Tip | To include an email or SMS device in a chaining message notification, you must specify the device as last in the chain, because
                                        Connection may not be able to detect notification failure for these types of devices. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

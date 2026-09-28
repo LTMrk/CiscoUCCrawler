@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-networking-guide-b-12xcucnetx-b-12xcucnetx-chapter-01-html-30274a0174
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_01.html
-retrieved_at: 2026-08-17T02:37:12.145996+00:00
+retrieved_at: 2026-09-28T11:42:59.932484+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 12.x
@@ -1940,3 +1940,7 @@ When a VPIM contact becomes a Unity Connection user, the contact is removed from
                                                 			 Replicate to Remote Sites Over Intersite Links check box checked on the Edit
                                                 			 Distribution List Basics page. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

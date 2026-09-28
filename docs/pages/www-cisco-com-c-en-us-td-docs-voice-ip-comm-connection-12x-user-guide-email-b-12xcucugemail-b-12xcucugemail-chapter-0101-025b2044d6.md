@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-0101-025b2044d6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_0101.html
-retrieved_at: 2026-08-21T07:57:00.194474+00:00
+retrieved_at: 2026-09-28T11:48:34.297700+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -425,3 +425,7 @@ Click Save.
 | Step 6 | Add the website that you are using for Unity Connection, for
                                        			 example, ucbu-cisco-vmxyz.cisco.com. |
 | Step 7 | Click Allow and then Close. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

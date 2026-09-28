@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-01010-html-42b5dd5751
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_01010.html
-retrieved_at: 2026-08-21T07:54:37.258200+00:00
+retrieved_at: 2026-09-28T11:45:25.508013+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -276,3 +276,7 @@ For more information
 				using the utils cuc jetty ssl {disable/enable} command, if jetty SSL is
 				enabled. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

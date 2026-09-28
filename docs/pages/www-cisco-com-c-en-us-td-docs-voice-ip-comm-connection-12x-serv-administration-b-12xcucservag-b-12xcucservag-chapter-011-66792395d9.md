@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-serv-administration-b-12xcucservag-b-12xcucservag-chapter-011-66792395d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/serv_administration/b_12xcucservag/b_12xcucservag_chapter_0110.html
-retrieved_at: 2026-08-21T00:22:25.254846+00:00
+retrieved_at: 2026-09-28T11:46:11.999883+00:00
 ---
 
 Administration Guide for Cisco Unity Connection Serviceability Release 12.x
@@ -236,3 +236,7 @@ To do an immediate update of replication
                                                       				  the second location. To release the lock, repeat the action of pressing the
                                                       				  Control key and selecting the second location. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

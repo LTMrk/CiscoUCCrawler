@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-0101-html-5afcb50ff9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_0101.html
-retrieved_at: 2026-08-21T07:54:16.054136+00:00
+retrieved_at: 2026-09-28T11:45:21.227468+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -325,3 +325,7 @@ Use the following
 | Step 7 | In the Alert
 			 Action popup, make sure that the address appears under Recipients and that the Enable check box is checked. |
 | Step 8 | Click OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

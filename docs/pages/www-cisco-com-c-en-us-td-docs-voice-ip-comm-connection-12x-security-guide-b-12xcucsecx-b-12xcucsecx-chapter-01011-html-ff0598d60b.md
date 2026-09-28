@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-01011-html-ff0598d60b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_01011.html
-retrieved_at: 2026-08-21T07:53:59.146251+00:00
+retrieved_at: 2026-09-28T11:45:29.580231+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -106,3 +106,7 @@ For more
 			 release 12.0(1) onwards, upgrade from 12.0(1) to 12.0(1) and later will have
 			 the existing encryption status of the system after upgrade. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

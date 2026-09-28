@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-serv-administration-b-12xcucservag-b-12xcucservag-chapter-010-f82c5d3690
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/serv_administration/b_12xcucservag/b_12xcucservag_chapter_0100.html
-retrieved_at: 2026-08-21T00:24:36.596679+00:00
+retrieved_at: 2026-09-28T11:45:58.854127+00:00
 ---
 
 Administration Guide for Cisco Unity Connection Serviceability Release 12.x
@@ -574,3 +574,7 @@ The status information is updated to reflect
                                           			 applicable Unity Connection or Cisco Business Edition server, and select Go . |
 | Step 3 | Select Refresh . The status information is updated to reflect
                                              				the current status. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

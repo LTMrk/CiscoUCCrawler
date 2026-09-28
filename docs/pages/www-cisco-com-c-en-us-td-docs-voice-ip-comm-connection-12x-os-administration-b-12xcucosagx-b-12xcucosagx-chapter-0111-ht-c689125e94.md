@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-0111-ht-c689125e94
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/os_administration/b_12xcucosagx/b_12xcucosagx_chapter_0111.html
-retrieved_at: 2026-08-17T03:40:09.346793+00:00
+retrieved_at: 2026-09-28T11:43:53.790381+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 12.x
@@ -197,3 +197,7 @@ Displays the generated pass phrase.
 | Expiration | Displays the date and time when access to the remote account
                                                          						  expires. |
 | Pass phrase | Displays the generated pass phrase. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

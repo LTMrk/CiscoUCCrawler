@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-serv-administration-b-12xcucservag-b-12xcucservag-chapter-011-06fe85e875
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/serv_administration/b_12xcucservag/b_12xcucservag_chapter_011.html
-retrieved_at: 2026-08-21T07:55:35.201343+00:00
+retrieved_at: 2026-09-28T11:46:07.188171+00:00
 ---
 
 Administration Guide for Cisco Unity Connection Serviceability Release 12.x
@@ -38,3 +38,9 @@ https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/install_upgra
                                     		Connection cluster feature is not supported for use with Cisco Business
                                     		Edition. |
 |---|---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

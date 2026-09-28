@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-unified-messaging-b-12xcucumgx-b-12xcucumgx-chapter-00-html-5303e1757f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/unified_messaging/b_12xcucumgx/b_12xcucumgx_chapter_00.html
-retrieved_at: 2026-08-17T03:45:04.882261+00:00
+retrieved_at: 2026-09-28T11:47:07.189005+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 12.x
@@ -805,3 +805,7 @@ For importing Exchange contacts, see the “ Managing Your Contacts ” chapter 
 
 | Note | For information on configuring calendar and contact integration in Unity Connection, see the “Configuring Calendar and Contact Integration” chapter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

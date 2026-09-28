@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--dbea9cd092
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_preface_01010.html
-retrieved_at: 2026-08-20T23:53:45.637190+00:00
+retrieved_at: 2026-09-28T11:41:44.014122+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -66,3 +66,7 @@ Added Add an additional tenant to Hybrid Calendar with Office 365
 | May 16, 2022 | https://ciscoenterprise.acrolinx.cloud/ Modified title styles. |
 | January 25, 2022 | Modified port access settings. Updated maximum user participation. Removed German instances of Office 365. Clarified Google Calendar ACL. Added a bulk CSV import procedure from Control Hub to set users’ preferredWebExSite. |
 | December 3, 2021 | Updated navigation in procedures to reflect changes in the left-hand navigation pane. Modified content to reflect multi-tenant support for Office 365. Added Add an additional tenant to Hybrid Calendar with Office 365 and Modify a tenant of Hybrid Calendar with Office 365 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

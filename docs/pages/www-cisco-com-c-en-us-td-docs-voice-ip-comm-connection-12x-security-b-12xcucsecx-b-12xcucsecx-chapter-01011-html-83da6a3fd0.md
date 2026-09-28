@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-b-12xcucsecx-b-12xcucsecx-chapter-01011-html-83da6a3fd0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/b_12xcucsecx/b_12xcucsecx_chapter_01011.html
-retrieved_at: 2026-08-16T18:58:56.099114+00:00
+retrieved_at: 2026-09-28T11:44:39.637033+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -99,3 +99,7 @@ For more information on how to enable the encryption for export restricted virtu
 
 | Note | In case of upgrade, you must execute the CLI after successfully completed the switch version. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

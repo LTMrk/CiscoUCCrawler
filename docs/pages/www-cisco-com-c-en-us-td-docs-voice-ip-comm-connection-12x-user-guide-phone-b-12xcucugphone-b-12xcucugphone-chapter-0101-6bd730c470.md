@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-0101-6bd730c470
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_0101.html
-retrieved_at: 2026-08-21T00:25:30.808007+00:00
+retrieved_at: 2026-09-28T11:49:33.646947+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -113,3 +113,7 @@ Postpone the message
 | Accept the message | "Accept" |
 | Decline the message | "Decline" |
 | Postpone the message | "Postpone" |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

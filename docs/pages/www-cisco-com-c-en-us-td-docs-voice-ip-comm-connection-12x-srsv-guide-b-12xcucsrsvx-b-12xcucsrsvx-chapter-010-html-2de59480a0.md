@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-010-html-2de59480a0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_010.html
-retrieved_at: 2026-08-21T07:55:56.988721+00:00
+retrieved_at: 2026-09-28T11:46:32.955643+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -787,3 +787,7 @@ Cisco Unity Connection SRSV Administration on the branch server
 | Note | You need to configure the certificates for a branch server on
                                           		  Cisco Unity Connection SRSV Administration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

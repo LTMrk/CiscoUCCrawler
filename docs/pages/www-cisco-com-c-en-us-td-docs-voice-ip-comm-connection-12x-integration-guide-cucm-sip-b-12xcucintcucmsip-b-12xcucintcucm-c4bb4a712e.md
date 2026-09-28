@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-integration-guide-cucm-sip-b-12xcucintcucmsip-b-12xcucintcucm-c4bb4a712e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/integration/guide/cucm_sip/b_12xcucintcucmsip/b_12xcucintcucmsip_chapter_011.html
-retrieved_at: 2026-08-16T18:43:13.844987+00:00
+retrieved_at: 2026-09-28T11:42:50.972322+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 12.x
@@ -591,3 +591,7 @@ Hang up Phone 1.
 | Step 2 | Confirm that the authentication icon and/or the encryption icon
                                           			 appear on the LCD of the phone. |
 | Step 3 | Hang up Phone 1. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

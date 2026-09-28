@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-networking-guide-b-12xcucnetx-b-12xcucnetx-chapter-010-html-0154bd5f82
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/networking/guide/b_12xcucnetx/b_12xcucnetx_chapter_010.html
-retrieved_at: 2026-08-17T02:37:16.215517+00:00
+retrieved_at: 2026-09-28T11:43:04.308477+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 12.x
@@ -1534,3 +1534,7 @@ When Cisco Unity ViewMail for Microsoft Outlook users type text in the body of 
                                              			 secondary server. |
 | Step 9 | Repeat Step 1 through Step 8 on each
                                              			 Cisco Unity location in the site. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

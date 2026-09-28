@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-chapter-01-2c3b262982
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_chapter_011.html
-retrieved_at: 2026-08-21T07:54:57.938446+00:00
+retrieved_at: 2026-09-28T11:48:01.015978+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -129,3 +129,7 @@ Select Save .
 | Step 2 | On the Cisco PCA Password page, enter your current password. |
 | Step 3 | Enter your new password, then enter it again to confirm it. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

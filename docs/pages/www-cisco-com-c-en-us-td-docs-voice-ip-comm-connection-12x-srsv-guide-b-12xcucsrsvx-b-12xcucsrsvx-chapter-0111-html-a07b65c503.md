@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-0111-html-a07b65c503
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_0111.html
-retrieved_at: 2026-08-21T07:56:13.756590+00:00
+retrieved_at: 2026-09-28T11:46:54.297376+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -853,3 +853,7 @@ Response Code: 201
 |---|---|---|---|
 | URI | Read | URL to access the branch. | Server address of a particular branch. |
 | ObjectId | Read/Write | object ID | The object id of the branch at the central Unity Connection server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

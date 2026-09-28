@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-0100-054a0082f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_0100.html
-retrieved_at: 2026-08-21T07:56:55.826162+00:00
+retrieved_at: 2026-09-28T11:48:30.122427+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -84,3 +84,7 @@ For information on updating the password for your specific email application, co
                                        		send messages. (See the Managing
                                           		  the Size of Your Mailbox chapter.) |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

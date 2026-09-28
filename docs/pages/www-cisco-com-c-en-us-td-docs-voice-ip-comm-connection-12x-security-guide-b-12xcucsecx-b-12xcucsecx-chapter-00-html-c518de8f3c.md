@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-00-html-c518de8f3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_00.html
-retrieved_at: 2026-08-21T07:53:51.344981+00:00
+retrieved_at: 2026-09-28T11:44:56.644668+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -973,3 +973,7 @@ For detailed
 | Caution | After configuring minimum TLS version, the Cisco Unity
 		  Connection server restart automatically. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

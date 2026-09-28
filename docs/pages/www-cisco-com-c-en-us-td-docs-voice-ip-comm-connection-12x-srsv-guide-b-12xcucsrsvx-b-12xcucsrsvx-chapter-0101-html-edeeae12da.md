@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-0101-html-edeeae12da
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_0101.html
-retrieved_at: 2026-08-21T00:19:55.677800+00:00
+retrieved_at: 2026-09-28T11:46:41.754381+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -649,3 +649,7 @@ You cannot change the PIN of an SRSV user through Cisco Unity Connection SRSV A
 
 | Note | You cannot change the PIN of an SRSV user through Cisco Unity Connection SRSV Administration interface. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-0110-2208a98562
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_0110.html
-retrieved_at: 2026-08-21T07:57:04.321364+00:00
+retrieved_at: 2026-09-28T11:48:42.772523+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -89,3 +89,7 @@ Move voice messages to a folder on your hard disk before deleting them from your
 | Note | System broadcast
                                     		messages are not included in your total mailbox size. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

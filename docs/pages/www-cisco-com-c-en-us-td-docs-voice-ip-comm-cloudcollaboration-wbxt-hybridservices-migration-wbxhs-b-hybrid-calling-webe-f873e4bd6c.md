@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-migration-wbxhs-b-hybrid-calling-webe-f873e4bd6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/migration/wbxhs_b_hybrid-calling-webex-domain-migration-guide/wbxhs_b_migrate-call-service-to-webex_chapter_010.html
-retrieved_at: 2026-08-20T23:59:46.672369+00:00
+retrieved_at: 2026-09-28T11:42:04.949662+00:00
 ---
 
 Migrate Cisco Spark Hybrid Call Service Organization to the Cisco Webex Domain
@@ -623,3 +623,9 @@ For example, a user's SIP address is webex.com but the manual Cisco Spark-RD rem
 | Caution | As mentioned in the deployment guide, restarting the Call Connector creates extra load on Unified CM publishers. Consider
                                                                restarting the Call Connector during off-peak hours; during busy hours, a restart may cause service issues. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Sample Deployment Showing Multiple Clusters, Trunks, and Zones](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/427001-428000/427190.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

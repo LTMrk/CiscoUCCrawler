@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-7e91876d7a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_010.html
-retrieved_at: 2026-08-21T00:11:02.976039+00:00
+retrieved_at: 2026-09-28T11:42:21.751985+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 12.x
@@ -216,3 +216,7 @@ After restoring distribution lists and distribution list
 | Caution | When you enable system distribution list synchronization, you
                                                    				cannot disable it afterwards, except by removing and recreating the HTTPS link. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

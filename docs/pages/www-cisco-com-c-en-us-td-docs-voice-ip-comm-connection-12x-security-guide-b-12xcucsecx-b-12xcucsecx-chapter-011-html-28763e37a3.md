@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-011-html-28763e37a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_011.html
-retrieved_at: 2026-08-21T07:54:07.929642+00:00
+retrieved_at: 2026-09-28T11:45:33.737489+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -264,3 +264,7 @@ For ensuring the
 | Note | Make sure you do not use the following application usernames as this
 		generate an error: |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

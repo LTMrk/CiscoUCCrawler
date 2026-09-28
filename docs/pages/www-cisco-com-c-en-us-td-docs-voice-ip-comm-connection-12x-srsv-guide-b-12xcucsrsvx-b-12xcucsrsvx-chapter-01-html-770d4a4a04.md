@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-srsv-guide-b-12xcucsrsvx-b-12xcucsrsvx-chapter-01-html-770d4a4a04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/srsv/guide/b_12xcucsrsvx/b_12xcucsrsvx_chapter_01.html
-retrieved_at: 2026-08-21T07:55:52.525395+00:00
+retrieved_at: 2026-09-28T11:46:28.494338+00:00
 ---
 
 Complete Reference Guide for Cisco Unity Connection Survivable Remote Site Voicemail (SRSV)
@@ -289,3 +289,7 @@ Assign the partition to an existing user or a new user for
                                           		  services required for the Unity Connection SRSV feature, see the Administration
                                           		  Guide for Cisco Unity Connection Serviceability Release 11.x at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/11x/serv_administration/b_11xcucservag.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

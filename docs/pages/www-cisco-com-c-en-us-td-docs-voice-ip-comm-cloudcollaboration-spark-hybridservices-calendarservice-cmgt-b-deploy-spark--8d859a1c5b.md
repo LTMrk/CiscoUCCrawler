@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--8d859a1c5b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_preface_01.html
-retrieved_at: 2026-08-20T23:53:49.546316+00:00
+retrieved_at: 2026-09-28T11:41:40.069923+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -198,3 +198,17 @@ For more information on how the Hybrid Calendar Service integrates with Google's
 | Office 365 (using the Microsoft Graph API through the cloud-based service) | "language":{"locale"} setting from the scheduler's mailbox settings |
 | Google G Suite Calendar | locale setting from scheduler's calendar settings |
 | Microsoft Exchange or Office 365 (using EWS through the Expressway-based Calendar Connector) | item.Culture property from the meeting invitation |
+
+## Figuras
+
+![Figure 1. Exchange (on-premises and cloud), Connector, and Webex Cloud Components for Hybrid Calendar Service. This diagram shows the components of Hybrid Calendar architecture and where the Expressway-based connectors integrate the on-premises components with the cloud.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415052.tif/_jcr_content/renditions/415052.jpg)
+
+![Figure 2. One Button to Push (OBTP) topology: Cloud-registered Webex Room and desk devices and Webex boards. The cloud activates OBTP on these devices when they are invited to meetings scheduled with a keyword or supported video address.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422939.jpg)
+
+![Figure 3. One Button to Push topology: Unified Communications Manager and TMS. This diagram shows Hybrid Calendar and Cisco TMS providing OBTP to Unified Communications Manager -registered video endpoints when they are invited to meetings scheduled with a keyword or supported video address.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419022.jpg)
+
+![Figure 4. Hybrid Exchange environment with Hybrid Calendar](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/430001-431000/430148.jpg)
+
+![This diagram shows the components of Hybrid Calendar and Google Calendar architecture.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419794.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

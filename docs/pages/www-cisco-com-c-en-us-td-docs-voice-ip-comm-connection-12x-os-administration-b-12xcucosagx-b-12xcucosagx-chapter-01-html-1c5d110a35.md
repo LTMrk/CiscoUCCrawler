@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-01-html-1c5d110a35
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/os_administration/b_12xcucosagx/b_12xcucosagx_chapter_01.html
-retrieved_at: 2026-08-17T03:39:56.562275+00:00
+retrieved_at: 2026-09-28T11:43:29.110488+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 12.x
@@ -194,3 +194,7 @@ After the system verifies the strength of the new password, the
 
 | Note | For this test, you must use a data CD, not a music CD. The system tests to ensure that you have inserted the disk. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

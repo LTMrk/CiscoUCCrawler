@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-security-guide-b-12xcucsecx-b-12xcucsecx-chapter-0100-html-5d8d0f40a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/security/guide/b_12xcucsecx/b_12xcucsecx_chapter_0100.html
-retrieved_at: 2026-08-21T07:54:12.033197+00:00
+retrieved_at: 2026-09-28T11:45:08.691912+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 12.x
@@ -278,3 +278,7 @@ For Unity Connection user accounts that were originally created
 | Note | The earlier
 			 versions of the User Data Dump utility do not include the Pin_Hash_Type column. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

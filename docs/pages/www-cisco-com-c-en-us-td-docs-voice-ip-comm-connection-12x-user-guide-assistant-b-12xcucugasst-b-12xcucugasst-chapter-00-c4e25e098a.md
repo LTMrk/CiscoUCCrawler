@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-assistant-b-12xcucugasst-b-12xcucugasst-chapter-00-c4e25e098a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/assistant/b_12xcucugasst/b_12xcucugasst_chapter_00.html
-retrieved_at: 2026-08-21T07:54:45.760770+00:00
+retrieved_at: 2026-09-28T11:47:27.316250+00:00
 ---
 
 User Guide for the Cisco Unity Connection Messaging Assistant Web Tool (Release 12.x)
@@ -135,3 +135,7 @@ For help on an icon, hover the cursor over the icon until the tooltip displays.
 | Contents | Provides a list of topics in Help. |
 | Index | Provides a Help index. |
 | This Page | Provides the Help topic applicable to the page you are viewing. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

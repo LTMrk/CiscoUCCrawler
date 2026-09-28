@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-011--269ffc5092
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_011.html
-retrieved_at: 2026-08-21T07:56:51.808097+00:00
+retrieved_at: 2026-09-28T11:48:38.759895+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -346,3 +346,7 @@ Click Next, then click Finish.
 | Step 8 | In the Password box, enter the new Cisco PCA password that you
                                              			 changed in the Messaging Assistant. |
 | Step 9 | Click Next, then click Finish. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

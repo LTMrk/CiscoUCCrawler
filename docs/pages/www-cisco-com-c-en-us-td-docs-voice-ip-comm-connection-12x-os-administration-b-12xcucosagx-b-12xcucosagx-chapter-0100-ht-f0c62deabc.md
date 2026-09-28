@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-0100-ht-f0c62deabc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/os_administration/b_12xcucosagx/b_12xcucosagx_chapter_0100.html
-retrieved_at: 2026-08-17T03:40:05.080419+00:00
+retrieved_at: 2026-09-28T11:43:37.237064+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 12.x
@@ -136,3 +136,7 @@ Run the CLI command utils system shutdown or the command utils system restart. F
 | Run the CLI command utils system shutdown or the command utils system restart. For information on how to run CLI commands,
                                              refer to the Command Line Interface Reference Guide for Cisco Unifed Communications Solutions. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

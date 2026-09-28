@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wbxt-hybridservices-hybridcalldevices-wbxhs-m-deployment--f2ff1f4563
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wbxt/hybridservices/hybridcalldevices/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call/wbxhs_m_deployment-guide-for-webex-devices-hybrid-call_preface_0100.html
-retrieved_at: 2026-08-20T23:57:18.248219+00:00
+retrieved_at: 2026-09-28T11:41:56.361326+00:00
 ---
 
 Deployment guide for Hybrid Calling for Webex Devices (Device Connector)
@@ -169,3 +169,7 @@ Initial version of the document.
                                                       possible. Otherwise, calls from the Expressway-E to the
                                                       cloud may fail. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

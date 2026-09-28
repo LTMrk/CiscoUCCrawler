@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-https-networking-guide-b-12xcuchttpsnet-b-12xcuchttpsnet-chap-f292a7bd8e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/https_networking/guide/b_12xcuchttpsnet/b_12xcuchttpsnet_chapter_0100.html
-retrieved_at: 2026-08-21T00:11:07.571860+00:00
+retrieved_at: 2026-09-28T11:42:26.012766+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 12.x
@@ -1179,3 +1179,7 @@ Repeat the
 | Tip | After you have saved the changes on a page, use the Next and Previous buttons to quickly navigate through each location
                                                             				in the organization. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-unified-messaging-b-12xcucumgx-b-12xcucumgx-chapter-0100-html-80ae55f9c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/unified_messaging/b_12xcucumgx/b_12xcucumgx_chapter_0100.html
-retrieved_at: 2026-08-17T03:45:17.339756+00:00
+retrieved_at: 2026-09-28T11:47:15.273983+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 12.x
@@ -515,3 +515,7 @@ Select Submit .
 | Step 11 | Under Select Object Type, select Unified Messaging Accounts . |
 | Step 12 | Specify the name of the CSV file that you updated in Step 8 . |
 | Step 13 | Select Submit . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

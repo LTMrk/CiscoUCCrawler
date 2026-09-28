@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-os-administration-b-12xcucosagx-b-12xcucosagx-chapter-0101-ht-8b1f2d66e8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/os_administration/b_12xcucosagx/b_12xcucosagx_chapter_0101.html
-retrieved_at: 2026-08-16T18:58:44.186544+00:00
+retrieved_at: 2026-09-28T11:43:41.648936+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 12.x
@@ -1752,3 +1752,7 @@ Restart the Connection Conversation Manager service for successful configuration
 
 | Note | The ciphers configured on the Cipher Management page will override the cipher configuration of Edit General Configuration page. Hence it is recommended to use Cipher Management page for configuring the ciphers for TLS and HTTPS interfaces. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

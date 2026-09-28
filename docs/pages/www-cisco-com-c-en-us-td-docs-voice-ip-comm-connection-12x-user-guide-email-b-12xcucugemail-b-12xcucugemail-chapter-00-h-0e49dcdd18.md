@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-email-b-12xcucugemail-b-12xcucugemail-chapter-00-h-0e49dcdd18
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/email/b_12xcucugemail/b_12xcucugemail_chapter_00.html
-retrieved_at: 2026-08-21T07:56:39.003528+00:00
+retrieved_at: 2026-09-28T11:48:17.426933+00:00
 ---
 
 User Guide for Accessing Cisco Unity Connection Voice Messages in an Email Application (Release 12.x)
@@ -57,3 +57,7 @@ Click a topic link in the left pane.
 | Step 1 | In Outlook, from the Help menu, click ViewMail Help Topics |
 |---|---|
 | Step 2 | Click a topic link in the left pane. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
