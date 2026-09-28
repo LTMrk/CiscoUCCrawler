@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-200915-install-a-telepresence-manageme-5ff5aeb52c
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.html
-retrieved_at: 2026-08-21T06:28:52.417700+00:00
+retrieved_at: 2026-09-28T04:52:23.322491+00:00
 ---
 
 Install a Telepresence Management Suite (TMS) Release Key
@@ -123,3 +123,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

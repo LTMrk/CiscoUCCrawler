@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-pro-217223-collaboration-endpoint-file-is-too-larg-5a092aa9af
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html
-retrieved_at: 2026-08-21T12:39:21.672545+00:00
+retrieved_at: 2026-09-28T04:51:45.602081+00:00
 ---
 
 Collaboration Endpoint "File is too large" Upgrade Error
@@ -95,3 +95,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 30-Jun-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

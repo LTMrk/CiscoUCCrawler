@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211266-how-to-create-a-file-based-phon-d3ef0a5ae9
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.html
-retrieved_at: 2026-08-21T06:28:48.182792+00:00
+retrieved_at: 2026-09-28T04:52:27.646124+00:00
 ---
 
 How to Create a File Based Phonebook in TMS
@@ -129,3 +129,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

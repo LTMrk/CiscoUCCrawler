@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-navigator-221673-create-replacement-for-slow-touch-panel-b1a734a759
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.html
-retrieved_at: 2026-08-22T00:48:09.849442+00:00
+retrieved_at: 2026-09-28T04:51:02.694004+00:00
 ---
 
 Create Replacement for Slow Touch Panels CS-T10-TS
@@ -82,3 +82,13 @@ Initial Release
 |---|---|---|
 | 2.0 | 01-Aug-2024 | Program deferred - Stopped on 26th July. |
 | 1.0 | 14-Feb-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Access Bug 1](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels-00.png)
+
+![Upload Logs](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels-01.png)
+
+![Log Verification](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels-02.jpeg)

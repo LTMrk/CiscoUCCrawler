@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-7sw4gab-cisco-collaboration-devices-certification-program-3ac7a79900
 source_url: https://help.webex.com/en-us/article/7sw4gab/Cisco-collaboration-devices-certification-program
-retrieved_at: 2026-09-01T18:31:13.973685+00:00
+retrieved_at: 2026-09-28T04:44:54.123701+00:00
 ---
 
 Cisco collaboration devices partner ecosystem is built on our certification program to ensure that customers get the best experience out of their Cisco collaboration devices and make integration as seamless as possible when integrating with third-party technology.
@@ -865,3 +865,7 @@ Use of Cisco Collaboration devices Certification logos is strictly prohibited un
 | Sony | Europe https://pro.sony/en_GB/support-services/support-contact-us North America https://na.info.pro.sony/Contact_us.html Latin America https://pro.sony/en_CR/contact-us/products/ptz-network-cameras Asia, Pacific, and India https://pro.sony/en_PH/support-services/authorised-service-centres China https://www.pro.sony.com.cn/cn/service/Wechat_Sonystudio.html Korea https://pro.sony/ko_KR/contact-us/support-services CIS https://pro.sony/ru_RU/contact-us/support-services Middle East and Africa https://pro.sony/en_AE/contact-us/support-services Japan https://www.sony.jp/brc/support/ |  |
 | Synergy SKY | support@synergysky.com https://www.synergysky.com/support | https://www.synergysky.com/cisco |
 | UMA | support@askuma.ai | https://askuma.ai/cisco/ |
+
+## Figuras
+
+![Decorative image of the Cisco Verified Collaboration Devices logo](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/454001-455000/454985.jpg)

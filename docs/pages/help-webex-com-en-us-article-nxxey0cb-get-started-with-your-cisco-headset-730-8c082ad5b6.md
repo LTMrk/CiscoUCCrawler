@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nxxey0cb-get-started-with-your-cisco-headset-730-8c082ad5b6
 source_url: https://help.webex.com/en-us/article/nxxey0cb/Get-started-with-your-Cisco-Headset-730
-retrieved_at: 2026-09-01T17:20:48.386693+00:00
+retrieved_at: 2026-09-28T04:49:18.708501+00:00
 ---
 
 The Cisco Headset 730 is a wireless headset that uses Bluetooth ® connectivity to pair with Cisco soft clients and devices. The headset features full call
@@ -183,3 +183,35 @@ On the right ear cup, press the Play button twice.
 
 | On the right ear cup, press the Play button twice. |
 |---|
+
+## Figuras
+
+![Cisco Headset 730 call button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439331.jpg)
+
+![Cisco Headset 730 call button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439332.jpg)
+
+![Cisco Headset 730 call button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/439001-440000/439333.jpg)
+
+![the mute button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425657.jpg)
+
+![Cisco Headset 730 mute button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440488.jpg)
+
+![Volume down](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425661.jpg)
+
+![Cisco Headset 730 volume down button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/453001-454000/453986.jpg)
+
+![Cisco Headset 730 play button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440489.jpg)
+
+![skip forward](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440534.jpg)
+
+![skip back](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440535.jpg)
+
+![Forward and back buttons on the Cisco Headset 730](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440490.jpg)
+
+![volume up](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425660.jpg)
+
+![volume down](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425661.jpg)
+
+![Cisco Headset 730 volume controls](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440491.jpg)
+
+![Cisco Headset 730 play button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440485.jpg)

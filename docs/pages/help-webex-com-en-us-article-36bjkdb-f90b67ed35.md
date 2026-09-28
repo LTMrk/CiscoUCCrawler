@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-36bjkdb-f90b67ed35
 source_url: https://help.webex.com/en-us/article/36bjkdb
-retrieved_at: 2026-09-07T13:03:56.987132+00:00
+retrieved_at: 2026-09-28T04:44:41.709583+00:00
 ---
 
 ## Change the Internet protocol mode
@@ -555,3 +555,19 @@ Click Submit All Changes .
 |---|---|
 | 2 | Under the section HTTP Proxy Settings , set the parameters, as described in the above table. Proxy Mode : Choose the proxy mode (Auto or Manual) for the HTTP proxy setting. If set to Off (default), the HTTP proxy is disabled. By default, the value is Off. If Proxy Mode is set to Auto ,  set Web Proxy Auto Discovery to Yes (default) or No to determine whether to use the Web Proxy Auto Discovery (WPAD) mechanism to automatically retrieve a Proxy Auto-Configuration (PAC) file. If the parameter is set to No , you must configure PAC URL . PAC URL : URL that locate the PAC file. If Proxy Mode is set to Manual , you must configure the following parameters: Proxy Host : Server address (hostname or IP address) of the proxy server. Do not provide the scheme ( http:// or https:// ). Proxy Port : Port number of the proxy server. The default port is 3128 Proxy Authentication : If your proxy server requires authentication, select Yes . Otherwise, select No (default). The configuration depends on the actual behavior of the proxy server. If set to Yes , you must configure Username and Password for an authentication on the proxy server. |
 | 3 | Click Submit All Changes . |
+
+## Figuras
+
+![the Settings key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478218.png)
+
+![the Settings hard key](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/370001-380000/371001-372000/371845.jpg)
+
+![The Settings button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478218.png)
+
+![For 9841, 9851, and 9861 phones](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483151.png)
+
+![Icon for 9871 and 8875 for common topics](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/485001-486000/485950.png)
+
+![VPN icon on 9800 and 8875](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/487001-488000/487637.png)
+
+![For 9811, 9841,9851, and 9861](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/489001-490000/489180.png)

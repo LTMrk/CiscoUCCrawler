@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-bar-221018-collect-packet-capture-from-mtr-register-html-cfb82982d0
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.html
-retrieved_at: 2026-08-21T12:48:52.437493+00:00
+retrieved_at: 2026-09-28T04:50:50.506092+00:00
 ---
 
 Collect Packet Capture from MTR Registered Endpoint
@@ -83,3 +83,11 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 03-Oct-2023 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Developer API](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register-00.jpeg)
+
+![System Logs Menu; Download Logs](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register-01.png)

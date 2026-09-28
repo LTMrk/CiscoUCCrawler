@@ -1,10 +1,16 @@
 ---
 doc_id: help-webex-com-en-us-article-ftwt1b-37159b644d
 source_url: https://help.webex.com/en-us/article/ftwt1b
-retrieved_at: 2026-09-07T10:37:07.482651+00:00
+retrieved_at: 2026-09-28T04:45:35.285269+00:00
 ---
 
 For Hybrid Services, X14.3 is the minimum supported version of Expressway for new connector host registrations to the cloud. X14.0 is the minimum version for existing registrations to the cloud.
+
+## 8.11-1.0.875
+
+September 22, 2026
+
+Routine maintenance and security updates.
 
 ## 8.11-1.0.842
 

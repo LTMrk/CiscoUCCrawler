@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-html-b7a58354bf
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00.html
-retrieved_at: 2026-09-08T01:56:20.742030+00:00
+retrieved_at: 2026-09-28T04:51:23.943645+00:00
 ---
 
 Configure Speaker Track with SX80 Codec
@@ -220,3 +220,19 @@ Cisco TAC Engineer
 |---|---|---|
 | 2.0 | 06-Oct-2021 | Initial Release |
 | 1.0 | 16-Jan-2015 | Initial Release |
+
+## Figuras
+
+![Speaker Track with SX80 Codec - Cable Diagram of Speaker Track Connected to an SX80 Codec](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00-00.jpeg)
+
+![Speaker Track with SX80 Codec - Rear View of Precision 60 Camera](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00-01.jpeg)
+
+![Speaker Track with SX80 Codec - Rear View of Precision 60 Camera](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00-02.jpeg)
+
+![Speaker Track with SX80 Codec - Rear View of Precision 60 Camera](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00-03.jpeg)
+
+![Speaker Track with SX80 Codec - Speaker Track Parameters Shown on Screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00-04.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-ngr795j-c59768fdaf
 source_url: https://help.webex.com/en-us/article/ngr795j
-retrieved_at: 2026-09-07T13:04:10.188704+00:00
+retrieved_at: 2026-09-28T04:47:20.001759+00:00
 ---
 
 ## Key Expansion Module overview
@@ -1234,3 +1234,39 @@ Image="TFTP:Desktops/DP-9871/logo.png"/> |
 | 2 | Go to the section of the KEM line key that you want to shut down. |
 | 3 | Enter fnc=inert in the Extended Function field. fnc=inert means function=inert. You can also configure this parameter in the phone configuration file (cfg.xml). Enter a string in this format: <Unit_n_Key_m_ ua="na">fnc=inert</Unit_n_Key_m_> where, replace the n and m with the corresponding unit number and line key number. <Extended_Function_n_ ua="na">fnc=inert</Extended_Function_n_> where, replace n with the KEM line key number. |
 | 4 | Click Submit All Changes . |
+
+## Figuras
+
+![Cisco Desk Phone 9800 Series and Key Expansion Module](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479375.png)
+
+![the graphic of 9800 Series KEM](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479059.png)
+
+![the line key in the not-configured status](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478723.png)
+
+![the line key in the idle status](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478724.png)
+
+![the line key in the busy status](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478726.png)
+
+![the line key with an incoming call alerting](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478725.png)
+
+![the image of shift button -green](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479555.png)
+
+![the image of the shift button-Off](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479554.png)
+
+![the image of shift button -Amber](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479556.png)
+
+![the graphic of remove port cover from the phone](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479376.png)
+
+![the graphic of install KEM to the phone](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479377.png)
+
+![the graphic for screwing KEM to the phone](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/478001-479000/478871.png)
+
+![the graphic of 9800 phone with KEM connected](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/479001-480000/479375.png)
+
+![Label for 9851 and 9861](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483834.png)
+
+![for 9871](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483152.png)
+
+![Example: Configurable line key labels on Cisco Desk Phone 9861 with multiple lines](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/489001-490000/489273.png)
+
+![the graphic for switching to Unified OS Administration](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/475001-476000/475747.png)

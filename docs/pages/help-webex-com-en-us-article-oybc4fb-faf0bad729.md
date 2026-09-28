@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-oybc4fb-faf0bad729
 source_url: https://help.webex.com/en-us/article/oybc4fb
-retrieved_at: 2026-09-07T12:42:08.777928+00:00
+retrieved_at: 2026-09-28T04:49:31.874519+00:00
 ---
 
 ## Overview
@@ -61,8 +61,6 @@ Singapore
 
 Saudi Arabia
 
-UAE
-
 Webex Meetings*
 
 ✓
@@ -107,7 +105,21 @@ Webex Calling***
 
 ✓
 
+Polling (Slido)
+
+✓
+
+✓
+
+✓
+
+✓
+
+✓
+
 Common identity
+
+✓
 
 ✓
 
@@ -125,6 +137,8 @@ Analytics
 
 ✓
 
+✓
+
 Encryption keys
 
 ✓
@@ -135,8 +149,6 @@ Encryption keys
 
 Hybrid Services (data security, calling, calendar, directory, video mesh, and
                   messages)
-
-✓
 
 ✓
 
@@ -320,14 +332,21 @@ Compliance officers continue to have 100% visibility on user content regardless 
         regions. The administrator controls that are already available allow you to disable external
         communication as needed.
 
-| Webex services and user-generated content | US | EU | Canada | UK | Japan | Australia | Singapore | Saudi Arabia | UAE | India |
-|---|---|---|---|---|---|---|---|---|---|---|
-| Webex Meetings* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |  |
-| Webex Messaging** | ✓ | ✓ |  |  |  | ✓ |  |  | ✓ |  |
-| Webex Calling*** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
-| Common identity | ✓ | ✓ | ✓ |  |  | ✓ | ✓ |  | ✓ |  |
-| Analytics | ✓ | ✓ |  |  |  | ✓ |  |  |  |  |
-| Encryption keys | ✓ | ✓ |  |  |  | ✓ |  |  | ✓ |  |
+| Webex services and user-generated content | US | EU | Canada | UK | Japan | Australia | Singapore | Saudi Arabia | India |
+|---|---|---|---|---|---|---|---|---|---|
+| Webex Meetings* | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |
+| Webex Messaging** | ✓ | ✓ |  |  | ✓ | ✓ |  |  |  |
+| Webex Calling*** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Polling (Slido) | ✓ | ✓ | ✓ |  | ✓ | ✓ |  |  |  |
+| Common identity | ✓ | ✓ | ✓ |  | ✓ | ✓ | ✓ |  | ✓ |
+| Analytics | ✓ | ✓ |  |  | ✓ | ✓ |  |  |  |
+| Encryption keys | ✓ | ✓ |  |  | ✓ | ✓ |  |  |  |
 | Hybrid Services (data security, calling, calendar, directory, video mesh, and
-                  messages) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |  |
-| Webex Contact Center**** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |  | ✓ |
+                  messages) | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  |  |
+| Webex Contact Center**** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |  | ✓ |
+
+## Figuras
+
+![Data locations in Control Hub](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/474001-475000/474731.jpg)
+
+![Data residency for Contact Center in Control Hub](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/474001-475000/474732.jpg)

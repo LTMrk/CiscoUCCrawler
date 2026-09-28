@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-eq-221037-configure-mtr-device-to-join-third-party-h-2c0c2818bf
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html
-retrieved_at: 2026-08-21T12:48:43.832683+00:00
+retrieved_at: 2026-09-28T04:50:54.468741+00:00
 ---
 
 Configure MTR Device to Join Third Party Meetings (OBTP)
@@ -134,3 +134,11 @@ Initial Release
 | 3.0 | 01-Jul-2026 | Updated spelling, spacing, grammar, tags, and CCW alerts. |
 | 2.0 | 02-Apr-2025 | Updated Machine Translation, Style Requirements, and Formatting for Recertification. |
 | 1.0 | 05-Oct-2023 | Initial Release |
+
+## Figuras
+
+![Device Settings Teams Admin Settings](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party-00.jpeg)
+
+![Control Hub Device Settings Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party-01.jpeg)
+
+![Settings Menu - MTR](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party-02.jpeg)

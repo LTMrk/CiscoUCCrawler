@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217245-how-to-configure-office-365-hyb-dd8579e8bb
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.html
-retrieved_at: 2026-08-21T06:28:19.006484+00:00
+retrieved_at: 2026-09-28T04:53:05.729802+00:00
 ---
 
 How to Configure Office 365 Hybrid Calendar with TMS
@@ -215,3 +215,9 @@ Amadeus Ubaldo
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Jul-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

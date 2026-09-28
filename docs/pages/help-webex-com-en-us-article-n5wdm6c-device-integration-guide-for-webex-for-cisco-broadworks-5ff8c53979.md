@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-n5wdm6c-device-integration-guide-for-webex-for-cisco-broadworks-5ff8c53979
 source_url: https://help.webex.com/en-us/article/n5wdm6c/Device-Integration-Guide-for-Webex-for-Cisco-BroadWorks
-retrieved_at: 2026-09-01T17:21:17.216903+00:00
+retrieved_at: 2026-09-28T04:46:44.953456+00:00
 ---
 
 ### Device Onboarding Overview
@@ -982,3 +982,9 @@ scope = dm-bridge:device_auth Table 4. DM_Bridge URL If Teams Cluster is... Set 
 | 5 | Configure the Primary User. On the Users Add page, set the isPlace check box according to whether the device is personal or for a shared workspace: Checked—Workspace device Unchecked—Personal device |
 | 6 | Complete the option that corresponds to the device type and provisioning method that you want to use: Device is for shared workspace—Use the Provision a BroadWorks Workspace API to complete provisioning for the workspace device. Device is personal; you want to provision using public APIs—Use the Provision BroadWorks Subscribers API to complete provisioning for the primary user. Device is personal; you want users to use self-activate—Forward the User Activation Portal URL to the user. The user must validate their email address to complete provisioning. Device is personal; you want to use flowthrough provisioning—Go to step 7. |
 | 7 | If the device is for personal use, and you want to use flowthrough provisioning, then for the primary user, assign the Integrated IM+P service. On the User > Profile page, add the IM+P service: From the Profile page, click Assign Services . In the list of Available Services , select Integrated IM&P and use the arrow to move the item to the User Services box. Click OK . Click Profile . Trusted email flow only. Add the user E-mail address. This setting serves as the IM&P email for flowthrough provisioning to Webex for Cisco BroadWorks. This is not required if you are using the untrusted email flow. The Customer Template on Webex must be configured with settings for flowthrough provisioning with trusted emails or untrusted emails. For details, see the Webex for Cisco BroadWorks Solution Guide . |
+
+## Figuras
+
+![Diagram of Room OS providing simplified view of the onboarding process](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/464001-465000/464877.png)
+
+![Diagram showing an overview of the onboarding process after the activation code that the user enters is validated.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/464001-465000/464876.png)

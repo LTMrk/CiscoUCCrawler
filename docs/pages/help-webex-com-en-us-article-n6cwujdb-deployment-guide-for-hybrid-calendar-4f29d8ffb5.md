@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-n6cwujdb-deployment-guide-for-hybrid-calendar-4f29d8ffb5
 source_url: https://help.webex.com/en-us/article/n6cwujdb/Deployment-guide-for-Hybrid-Calendar
-retrieved_at: 2026-09-01T15:08:44.695140+00:00
+retrieved_at: 2026-09-28T04:46:50.603876+00:00
 ---
 
 ### Hybrid Calendar with Exchange deployment task flow
@@ -655,3 +655,11 @@ Show When You're Out of Office
 | 1 | To test a Webex team meeting in Exchange or Office 365: In Outlook, Outlook Web Access, or https://mail.office365.com , create a new meeting, and then add a keyword such as @webex:space or @meet to the Location field. Go to the Scheduling Assistant and click Add room , and choose the device you want to add. Fill out other meeting information as needed, and send the invitation. When the meeting is scheduled to begin, verify that the Join button appears on the device. |
 |---|---|
 | 2 | To test a Personal Room meeting in Exchange or Office 365: In Outlook, Outlook Web Access, or https://mail.office365.com , create a new meeting, and then add @webex (or the scheduler's Personal Room URL) to the Location field. Go to the Scheduling Assistant and click Add room , and choose the device you want to add. Fill out other meeting information as needed, and send the invitation. When the meeting is scheduled to begin, verify that the Join button appears on the device. |
+
+## Figuras
+
+![Options for show or hide Join-by-Phone details; includes global call-in numbers and toll-free calling restrictions](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455074.jpg)
+
+![Options for show or hide details on joining from an application or video conferencing device.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455075.jpg)
+
+![Localized custom header and footer fields for any of the languages that the Hybrid Calendar Service provides.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455095.jpg)

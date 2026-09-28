@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215426-configure-conference-end-notifi-5384f268d2
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.html
-retrieved_at: 2026-08-21T06:28:35.662245+00:00
+retrieved_at: 2026-09-28T04:53:01.357531+00:00
 ---
 
 Configure Conference End Notifications for meetings in Telepresence Management Server
@@ -104,3 +104,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

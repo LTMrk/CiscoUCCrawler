@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-222702-troubleshoot-a-video-endpoint-showing-me-html-472290c2bd
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html
-retrieved_at: 2026-08-21T12:39:45.781396+00:00
+retrieved_at: 2026-09-28T04:50:58.606022+00:00
 ---
 
 Troubleshoot a Video Endpoint Showing Media Stats on Display
@@ -117,3 +117,15 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Jan-2025 | Initial Release |
+
+## Figuras
+
+![Audio and Video Statistics Shown on Monitor 1 of the Video Endpoint](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me-00.png)
+
+![Audio and Video Statistics Shown on Monitor 2 of the Video Endpoint](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me-01.png)
+
+![Different Values Available for Conference Diagnostics StreamStatusOverlay](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

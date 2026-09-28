@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-navigator-217265-how-to-setup-a-webex-room-navigat-cf2db75ba8
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html
-retrieved_at: 2026-08-21T12:39:33.454582+00:00
+retrieved_at: 2026-09-28T04:51:53.370691+00:00
 ---
 
 Set-up a Room Navigator
@@ -137,3 +137,37 @@ Initial Release
 | 4.0 | 02-Jun-2026 | Updated article title (from Setup to Set-up), spelling, spacing, updated spacing for Notes, etc. |
 | 3.0 | 25-Apr-2024 | Updated Title, Alt Text, Style Requirements, and Formatting. |
 | 1.0 | 22-Jul-2021 | Initial Release |
+
+## Figuras
+
+![Welcome Page](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-00.png)
+
+![Select a Room Device](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-01.png)
+
+![Download Screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-02.png)
+
+![Log In](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-03.png)
+
+![Select Device Type](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-04.png)
+
+![Touch Panel Location](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-05.png)
+
+![Setup Complete for Room Navigator](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-06.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Touch Panel Out of Service](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-07.png)
+
+![Room Available](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-08.png)
+
+![Connecting to Room Device](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-09.png)
+
+![Downloading](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-10.png)
+
+![Select How You Want to Use this Device](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-11.png)
+
+![Where is the Touch Panel Located](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-12.png)
+
+![Set Up Complete for Tech Catalyst Kit Mini](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-13.png)
+
+![Join Webex](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator-14.png)

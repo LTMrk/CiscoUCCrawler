@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-p7ybst-install-your-cisco-room-phone-6fe94d6ce0
 source_url: https://help.webex.com/en-us/article/p7ybst/Install-your-Cisco-Room-Phone
-retrieved_at: 2026-09-07T15:42:41.970367+00:00
+retrieved_at: 2026-09-28T04:49:36.626917+00:00
 ---
 
 Before you use your Cisco Room Phone, you connect the cables and power up the device. Use the information in this article to install your phone.
@@ -64,3 +64,9 @@ Connect the computer HDMI cable to the HDMI port on your computer.
 | 3 | Connect the screen HDMI cable to the HDMI port on your display screen. |
 | 4 | Connect the computer HDMI cable to the Computer port of your phone. |
 | 5 | Connect the computer HDMI cable to the HDMI port on your computer. |
+
+## Figuras
+
+![Ethernet with a Cisco Aironet Power Injector or Non-PoE](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/394001-395000/394226.jpg)
+
+![Power over Ethernet (PoE)](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/394001-395000/394225.jpg)

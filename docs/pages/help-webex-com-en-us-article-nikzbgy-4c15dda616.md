@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nikzbgy-4c15dda616
 source_url: https://help.webex.com/en-us/article/nikzbgy
-retrieved_at: 2026-09-01T20:21:31.227952+00:00
+retrieved_at: 2026-09-28T04:47:28.612587+00:00
 ---
 
 ## Filter users
@@ -210,3 +210,13 @@ Your changes save automatically.
 |---|---|
 | 2 | Scroll down to Manage pending user . |
 | 3 | Enter a number between 30 and 90 in the Delete pending user field. Your changes save automatically. |
+
+## Figuras
+
+![A dropdown checklist of administrator types to aid filtering](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/462001-463000/462157.jpg)
+
+![A dropdown checklist of your Webex sites, to aid filtering](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/462001-463000/462158.jpg)
+
+![Settings button represented by a cog icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/438001-439000/438264.jpg)
+
+![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/453001-454000/453339.jpg)

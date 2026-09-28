@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nv7ydfv-3d1c9bb3ce
 source_url: https://help.webex.com/en-us/article/nv7ydfv
-retrieved_at: 2026-09-01T20:26:16.173020+00:00
+retrieved_at: 2026-09-28T04:49:10.482917+00:00
 ---
 
 - Overview
@@ -9,6 +9,13 @@ retrieved_at: 2026-09-01T20:26:16.173020+00:00
 - Prerequisites
 
 - Enable Groups integration
+
+Grouper service end of life
+
+The Grouper service will be decommissioned on October 9, 2026 , as it
+        has reached end of life. After this date, the service will no longer be available. This
+        change supports our ongoing efforts to simplify the Webex platform and improve overall
+        performance.
 
 This integration enables your Webex users to create groups in Microsoft 365 when they create teams in Webex. When you've done the integration, this is how it works for your users .
 

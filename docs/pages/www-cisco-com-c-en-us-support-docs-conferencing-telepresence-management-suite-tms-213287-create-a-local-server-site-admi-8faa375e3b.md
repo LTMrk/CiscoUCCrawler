@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-213287-create-a-local-server-site-admi-8faa375e3b
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/213287-create-a-local-server-site-administrator.html
-retrieved_at: 2026-08-21T06:29:17.662134+00:00
+retrieved_at: 2026-09-28T04:52:48.416003+00:00
 ---
 
 Configure a Local Server Site Administrator Account for TMSPE Installation
@@ -97,3 +97,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

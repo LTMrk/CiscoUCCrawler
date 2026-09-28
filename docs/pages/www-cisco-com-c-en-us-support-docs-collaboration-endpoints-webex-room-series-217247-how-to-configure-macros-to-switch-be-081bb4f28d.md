@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-217247-how-to-configure-macros-to-switch-be-081bb4f28d
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.html
-retrieved_at: 2026-08-21T12:39:16.682916+00:00
+retrieved_at: 2026-09-28T04:52:01.806344+00:00
 ---
 
 How to Configure Macros to Switch Between Speaker and Presenter Track Mode
@@ -149,3 +149,41 @@ Angelica Olivera
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 03-Aug-2021 | Initial Release |
+
+## Figuras
+
+![Endpoint admin web login](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-00.png)
+
+![Endpoint Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-01.png)
+
+![Endpoint Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-02.png)
+
+![Endpoint Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-03.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-04.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-05.png)
+
+![Endpoint Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-06.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-07.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-08.png)
+
+![Endpoint Menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-09.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-10.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-11.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-12.png)
+
+![Touch panel](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-13.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-14.png)
+
+![Macro Editor](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee-15.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

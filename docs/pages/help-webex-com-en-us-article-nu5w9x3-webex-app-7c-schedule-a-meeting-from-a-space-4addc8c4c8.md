@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nu5w9x3-webex-app-7c-schedule-a-meeting-from-a-space-4addc8c4c8
 source_url: https://help.webex.com/en-us/article/nu5w9x3/Webex-App-%7C-Schedule-a-Meeting-from-a-Space
-retrieved_at: 2026-09-07T12:42:00.135347+00:00
+retrieved_at: 2026-09-28T04:48:45.903775+00:00
 ---
 
 People internal and external to the organization can schedule a meeting associated with a space if they have a Webex host license.
@@ -373,3 +373,29 @@ Specify the date, time, other details you need to include, and then send the inv
 | 5 | Next to Meeting Information , select Copy , and then go to your calendar and paste the meeting information into a meeting. Depending on your setup, the meeting information may include a link to join the meeting, options for joining by phone, and a video address so people can join from any standards-based video system. |
 | 6 | Go back to the Webex app and the Space Meeting Information view. Next to People , select Copy , and then go to your calendar and paste the email addresses in the To section of the meeting. |
 | 7 | Specify the date, time, other details you need to include, and then send the invite. |
+
+## Figuras
+
+![Schedule meetings from one of your spaces..](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451616.jpg)
+
+![Schedule a meeting](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/443001-444000/443365.jpg)
+
+![Schedule a meeting](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/464001-465000/464244.jpg)
+
+![Available](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455619.jpg)
+
+![Unavailable](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455620.jpg)
+
+![Unknown availability](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455621.jpg)
+
+![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/458001-459000/458469.jpg)
+
+![Click Schedule](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/443001-444000/443365.jpg)
+
+![Messaging button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/438001-439000/438646.jpg)
+
+![More options](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/427001-428000/427122.jpg)
+
+![More menu](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451601.jpg)
+
+![Schedule](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/448001-449000/448043.jpg)

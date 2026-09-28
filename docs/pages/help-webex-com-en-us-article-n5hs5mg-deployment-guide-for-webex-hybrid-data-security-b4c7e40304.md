@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-n5hs5mg-deployment-guide-for-webex-hybrid-data-security-b4c7e40304
 source_url: https://help.webex.com/en-us/article/n5hs5mg/Deployment-guide-for-Webex-Hybrid-Data-Security
-retrieved_at: 2026-09-07T10:36:19.048086+00:00
+retrieved_at: 2026-09-28T04:46:40.583282+00:00
 ---
 
 ### Hybrid Data Security Deployment Task Flow
@@ -18,10 +18,13 @@ Use the HDS Setup Tool to create an ISO configuration file for the Hybrid Data S
 
 Install the HDS Host OVA
 
-Create a virtual machine from the OVA file and perform initial configuration,
-                        such as network settings.
+Create a virtual machine from the OVA file and perform initial configuration.
 
-The option to configure network settings during OVA deployment has been tested with ESXi 7.0 and 8.0. The option may not be available in earlier versions.
+Configuring network settings during OVA deployment is supported only on ESXi 7.0 and 8.0.
+
+For NFVIS deployments, see Install the HDS Host OVA on NFVIS .
+
+For Nutanix deployments, see Install the HDS Host OVA on Nutanix
 
 Set up the Hybrid Data Security VM
 
@@ -29,10 +32,18 @@ Sign in to the VM console and set the sign-in credentials. Configure the
                         network settings for the node if you didn't configure them at the time of
                         OVA deployment.
 
+For NFVIS deployments, see Set up the Hybrid Data Security VM on NFVIS .
+
+For Nutanix deployments, see Create the Hybrid Data Security VM on Nutanix
+
 Upload and Mount the HDS Configuration ISO
 
 Configure the VM from the ISO configuration file that you created with the
                         HDS Setup Tool.
+
+For NFVIS deployments, see Upload and Mount the HDS Configuration ISO .
+
+For Nutanix deployments, see Upload and Mount the HDS Configuration ISO
 
 Configure the HDS Node for Proxy Integration
 
@@ -335,6 +346,10 @@ We never have a copy of this key and can't help if you lose it.
 
 ### Install the HDS Host OVA
 
+If you are deploying HDS on an NFVIS hypervisor, see the Install the HDS Host OVA on NFVIS section.
+
+If you are deploying HDS on a Nutanix hypervisor, see the Install the HDS Host OVA on Nutanix section.
+
 Use the VMware vSphere client on your computer to log into the ESXi virtual host.
 
 Select File > Deploy OVF Template .
@@ -391,6 +406,10 @@ You may experience a delay of a few minutes before the node containers come up. 
 
 Use this procedure to sign in to the Hybrid Data Security node VM console for the first time and set the sign-in credentials. You can also use the console to configure the network settings for the node if you didn't configure them at the time of OVA deployment.
 
+If you are deploying HDS on an NFVIS hypervisor, see the Set up the Hybrid Data Security VM on NFVIS section.
+
+If you are deploying HDS on a Nutanix hypervisor, see the Create the Hybrid Data Security VM on Nutanix section.
+
 In the VMware vSphere client, select your Hybrid Data Security node VM and select the Console tab.
 
 The VM boots up and a login prompt appears. If the login prompt does not display, press Enter .
@@ -414,6 +433,10 @@ You do not need to set the domain to match the domain that you used to obtain th
 Save the network configuration and reboot the VM so that the changes take effect.
 
 ### Upload and Mount the HDS Configuration ISO
+
+If you are deploying HDS on an NFVIS hypervisor, see the Upload and Mount the HDS Configuration ISO section.
+
+If you are deploying HDS on a Nutanix hypervisor, see the Upload and Mount the HDS Configuration ISO section.
 
 Before you begin
 
@@ -613,13 +636,12 @@ What to do next
 | 1 | Download Installation Files Download the OVA file to your local machine for later use. |
 |---|---|
 | 2 | Create a Configuration ISO for the HDS Hosts Use the HDS Setup Tool to create an ISO configuration file for the Hybrid Data Security nodes. |
-| 3 | Install the HDS Host OVA Create a virtual machine from the OVA file and perform initial configuration,
-                        such as network settings. The option to configure network settings during OVA deployment has been tested with ESXi 7.0 and 8.0. The option may not be available in earlier versions. |
+| 3 | Install the HDS Host OVA Create a virtual machine from the OVA file and perform initial configuration. Configuring network settings during OVA deployment is supported only on ESXi 7.0 and 8.0. For NFVIS deployments, see Install the HDS Host OVA on NFVIS . For Nutanix deployments, see Install the HDS Host OVA on Nutanix |
 | 4 | Set up the Hybrid Data Security VM Sign in to the VM console and set the sign-in credentials. Configure the
                         network settings for the node if you didn't configure them at the time of
-                        OVA deployment. |
+                        OVA deployment. For NFVIS deployments, see Set up the Hybrid Data Security VM on NFVIS . For Nutanix deployments, see Create the Hybrid Data Security VM on Nutanix |
 | 5 | Upload and Mount the HDS Configuration ISO Configure the VM from the ISO configuration file that you created with the
-                        HDS Setup Tool. |
+                        HDS Setup Tool. For NFVIS deployments, see Upload and Mount the HDS Configuration ISO . For Nutanix deployments, see Upload and Mount the HDS Configuration ISO |
 | 6 | Configure the HDS Node for Proxy Integration If the network environment requires proxy configuration, specify the type of proxy that you will use for the node, and add the proxy certificate to the trust store if needed. |
 | 7 | Register the First Node in the Cluster Register the VM with the Cisco Webex cloud as a Hybrid Data Security node. |
 | 8 | Create and Register More Nodes Complete the cluster setup. |

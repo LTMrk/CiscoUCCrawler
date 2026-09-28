@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-2rbeqt-16efabeaa2
 source_url: https://help.webex.com/en-us/article/2rbeqt
-retrieved_at: 2026-09-07T12:44:15.087434+00:00
+retrieved_at: 2026-09-28T04:44:19.129125+00:00
 ---
 
 ## First steps to troubleshoot
@@ -161,3 +161,13 @@ Don't allow moisture to get inside your ear cups, the USB-C port, or the 3.5 mm 
             your own risk. Don't allow moisture to get inside your ear cups, the USB-C port, or the 3.5 mm jack.
               Damage to your Cisco products as a result of cleaning and disinfecting isn't covered
               under our warranties or product guarantees. |
+
+## Figuras
+
+![BLE icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/444001-445000/444595.jpg)
+
+![remove old ear pad](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455458.jpg)
+
+![ear pad alignment](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455459.jpg)
+
+![rotate the new ear pad clockwise](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/455001-456000/455460.jpg)

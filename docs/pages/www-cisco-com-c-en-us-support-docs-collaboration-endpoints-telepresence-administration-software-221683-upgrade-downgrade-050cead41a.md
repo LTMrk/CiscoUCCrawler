@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.html
-retrieved_at: 2026-09-08T02:39:13.649333+00:00
+retrieved_at: 2026-09-28T04:51:15.560034+00:00
 ---
 
 How do I upgrade and downgrade Cloud-Registered Cisco Endpoints on Room OS?
@@ -187,3 +187,41 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 15-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Local Device Controls Software section for a cloud-registered endpoint](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-00.png)
+
+![Device's Software section in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Verification Software Channel in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-02.png)
+
+![Software Management pop-up](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-03.png)
+
+![Workspaces section in Contol Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-04.png)
+
+![Workspace Bulk Configuration Wizard - Configure section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-05.png)
+
+![Workspace Bulk Configuration Wizard - Review section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-06.png)
+
+![Home section of the GUI of an endpoint on CE 9.4 OS version](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-07.png)
+
+![Software Upgrade section of the GUI of an endpoint on CE 9.4 OS version](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-08.png)
+
+![Connection lost banner on endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-09.png)
+
+![SX10 TC 7.3.21 Software Package](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-10.png)
+
+![SX10 CE9.15.17.4 Software Package](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-11.png)
+
+![Room Kit RoomOS 11.9.2.4 Software Package](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-12.png)
+
+![Desk Pro CE9.15.6 StepUpgrade Software Package](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-13.png)
+
+![Desk Pro RoomOS 10.19.5.6 Software Package](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end-14.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

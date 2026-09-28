@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-9sjyh2-f9e73db3a6
 source_url: https://help.webex.com/en-us/article/9sjyh2
-retrieved_at: 2026-09-07T10:37:03.247438+00:00
+retrieved_at: 2026-09-28T04:44:59.194464+00:00
 ---
 
 - Calendar Connector (Expressway)
@@ -13,6 +13,15 @@ This tab covers software upgrades to the Expressway-based Calendar Connector for
 Use Control Hub to schedule upgrades to the connector software. Connector software is automatically downloaded to and installed on the Expressway.
 
 For Hybrid Services, X14.3 is the minimum supported version of Expressway for new connector host registrations to the cloud. X14.0 is the minimum version for existing registrations to the cloud.
+
+## 8.11-1.0.9001
+
+September 22, 2026
+
+- Added support for IANA tzdata 2026c time-zone changes, including Canadian time-zone rule
+          updates and corresponding Windows time-zone IDs. For more information, see Time Zone Database Release 2026c .
+
+- General stability and reliability improvements.
 
 ## 8.11-1.0.8995
 
