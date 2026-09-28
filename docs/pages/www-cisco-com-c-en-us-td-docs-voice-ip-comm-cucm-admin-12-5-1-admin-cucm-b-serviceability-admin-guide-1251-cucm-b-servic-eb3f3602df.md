@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-cucm-b-servic-eb3f3602df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251/cucm_b_serviceability-admin-guide-1251_chapter_0111.html
-retrieved_at: 2026-08-21T01:09:31.002639+00:00
+retrieved_at: 2026-09-28T12:20:06.327017+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)
@@ -1049,3 +1049,7 @@ The Set to Default button specifies the default values. It is recommended to
                                           		  overall performance of the web user interface, especially when polling database
                                           		  entries (for example, pulling up 250 devices from the database). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

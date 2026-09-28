@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--e9146739ee
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m6_15/cucm_m_supported-solution-capacities-map.html
-retrieved_at: 2026-08-21T22:40:55.725054+00:00
+retrieved_at: 2026-09-28T12:14:11.467482+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000 and 7000, Release 15 (M6 Appliances, preloads 14X15X-K9-16 / 14X15X-XU-16)
@@ -144,3 +144,7 @@ Cisco Prime Collaboration Provisioning
 | Cisco TelePresence Server Virtual Machine | For 10HD ports per VM |
 | Cisco Paging Server | • 1000 Users • Pre-recorded / schedule broadcast • Notification • 911/emergency call monitoring / alerting / recording • Weather Alerting • 50 Users on each paging group |
 | Cisco Prime Collaboration Provisioning | • 1000 Users on BE6000M • 150 phones or voice terminals on BE6000S • 1200 phones or voice terminals on BE6000M |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-cucm-b-servic-beae9ec879
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251/cucm_b_serviceability-admin-guide-1251_chapter_01011.html
-retrieved_at: 2026-08-21T01:09:13.727313+00:00
+retrieved_at: 2026-09-28T12:19:49.052359+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)
@@ -1602,3 +1602,7 @@ Failed to write into the primary file path.
 | ServiceStarted | A service has started. |
 | ServiceStartupFailed | A service has started. |
 | FileWriteError | Failed to write into the primary file path. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

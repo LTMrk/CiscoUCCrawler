@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-cucm-b-servic-f548fe6702
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251/cucm_b_serviceability-admin-guide-1251_chapter_01101.html
-retrieved_at: 2026-08-21T01:09:18.351630+00:00
+retrieved_at: 2026-09-28T12:20:02.540668+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)
@@ -2408,3 +2408,7 @@ After you select the Reset button, the window refreshes and the service check bo
 | Note | Leaving troubleshooting trace enabled for a long time increases the size of the trace files and may affect the performance
                                                                   of the services. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

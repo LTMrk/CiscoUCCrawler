@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-12-5-1-cucm-b-saml-sso-deployment-guide-12-5--d33e59f8fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5/cucm_b_saml-sso-deployment-guide-12_5_chapter_011.html
-retrieved_at: 2026-08-17T00:39:59.316961+00:00
+retrieved_at: 2026-09-28T12:18:23.997963+00:00
 ---
 
 SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 12.5(1)
@@ -151,3 +151,7 @@ To trigger OAuth timer expiration correctly, ensure that the OAuthTokenExpiry va
                                              to go to the IdP. The SAML Assertion must include the email address for WebEx; the SAML Schemas should be aligned to cover that. To trigger OAuth timer expiration correctly, ensure that the OAuthTokenExpiry value on Unified Communications Manager is greater
                                                 than the WebsessionApp expiry value on Tomcat. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

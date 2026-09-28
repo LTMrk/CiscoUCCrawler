@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--51953f53ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m6_15/cucm_m_introduction-to-the-cisco-business.html
-retrieved_at: 2026-08-21T22:40:42.986695+00:00
+retrieved_at: 2026-09-28T12:13:58.599455+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000 and 7000, Release 15 (M6 Appliances, preloads 14X15X-K9-16 / 14X15X-XU-16)
@@ -92,3 +92,9 @@ Other documents for UC applications are listed on the Component Documentation ta
 | Feature or Change | Description | See | Date |
 |---|---|---|---|
 | Initial Release of Document for Preloads Version 14X15X-K9/XU-16 on M6 Appliances | Preload application files for CSR 14 and 15 versions (drop all files for version12.x) Revised preload file list (drop all skip-install-OVAs [now in UC media kits], drop all locales) Preloaded ESXi version to 7.0 U3i (ships unlicensed, license required but is sold separately or customer-provided) BE6000M, BE7000M, BE7000H (M6) appliance hardware | — | April 15, 2024 |
+
+## Figuras
+
+![Figure 1. Business Edition 6000 and 7000 Appliances](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/472001-473000/472028.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

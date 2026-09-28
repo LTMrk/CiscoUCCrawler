@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-post-ins-cf6dbf8a9b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/installationguide/14/cucm_b_installation-be7k-14/cucm_m_post-installation-of-the-cisco-business.html
-retrieved_at: 2026-08-21T22:41:17.088058+00:00
+retrieved_at: 2026-09-28T12:17:08.520223+00:00
 ---
 
 Installation Guide for Cisco Business Edition 7000H/M (M5), Release 14
@@ -217,3 +217,7 @@ Cisco Prime Collaboration Deployment Administration Guide
 | Step 5 | Select the update file that you want to install and click Next . |
 | Step 6 | After the download completes, click Next . |
 | Step 7 | After the locale or patch installs, restart the appliance: Log in to the vSphere Client. Right-click the VM on which you installed the locale or patchand select the Power > Restart Guest. Log in to the VMware Embedded Host Client Right-click the VM on which you installed the locale or patch and select the Guest OS > Restart |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

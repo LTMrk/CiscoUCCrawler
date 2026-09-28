@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-12-5-1-cucm-b-saml-sso-deployment-guide-12-5--a0652d6b69
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5/cucm_b_saml-sso-deployment-guide-1201_preface_00.html
-retrieved_at: 2026-08-17T00:39:42.277753+00:00
+retrieved_at: 2026-09-28T12:18:15.771969+00:00
 ---
 
 SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 12.5(1)
@@ -160,3 +160,7 @@ Further information regarding U.S. export regulations may be
 
 | Tip | Means the information contains useful tips. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

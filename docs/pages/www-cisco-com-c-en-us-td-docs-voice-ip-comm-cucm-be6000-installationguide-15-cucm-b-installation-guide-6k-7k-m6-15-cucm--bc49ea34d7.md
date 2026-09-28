@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--bc49ea34d7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m6_15/cucm_m_post-installation-of-the-cisco-business.html
-retrieved_at: 2026-08-21T22:40:51.451384+00:00
+retrieved_at: 2026-09-28T12:14:03.336555+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000 and 7000, Release 15 (M6 Appliances, preloads 14X15X-K9-16 / 14X15X-XU-16)
@@ -251,3 +251,7 @@ After you installed your Cisco Business Edition 6000/7000 appliance, you can pro
 | Step 5 | Select the update file that you want to install and click Next . |
 | Step 6 | After the download completes, click Next . |
 | Step 7 | After the locale or patch installs, follow these steps to restart the appliance: Log in to the VMware Embedded Host Client. Right-click the VM on which you installed the locale or patch and select the Guest OS > Restart . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

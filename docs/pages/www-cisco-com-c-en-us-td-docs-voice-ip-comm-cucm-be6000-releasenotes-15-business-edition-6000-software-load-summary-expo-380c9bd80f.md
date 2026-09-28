@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-releasenotes-15-business-edition-6000-software-load-summary-expo-380c9bd80f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/releasenotes/15/business-edition-6000-software-load-summary-export-restricted-version-14x15x-k9-17-and-unrestricted-version-14x15x-xu-17/cucm_m_business-edition-6000-software-load-version-14x15x-k9-17-and-unrestricted-version-14x15x-xu-17.html
-retrieved_at: 2026-08-21T21:39:06.164351+00:00
+retrieved_at: 2026-09-28T12:14:52.989088+00:00
 ---
 
 Business Edition 6000 and 7000 Software Load Summary (Export Restricted 14X15X-K9-17 and Export Unrestricted 14X15X-XU-17, M7 Appliances)
@@ -89,3 +89,7 @@ Refer to the Business Edition 6000/7000 or 14 or 15 Installation Guide and the i
 |---|---|---|---|
 | Initial Release of Document for Preloads Version 14X15X-K9/XU-17 on M7 Appliances | No application software is preloaded; sold separately and must be manually installed and licensed. VMware vSphere ESXi software is required but not included or factory preloaded. Must be customer-provided and field-installed
                                           and/or licensed. BE6000M, BE7000M, BE7000H (M7) appliance hardware | — | June 23, 2025 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-installationguide-14-cucm-b-installation-be7k-14-cucm-m-introduc-db1149a33c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/installationguide/14/cucm_b_installation-be7k-14/cucm_m_introduction-to-the-cisco-business.html
-retrieved_at: 2026-08-21T22:41:08.454190+00:00
+retrieved_at: 2026-09-28T12:17:04.357850+00:00
 ---
 
 Installation Guide for Cisco Business Edition 7000H/M (M5), Release 14
@@ -71,3 +71,9 @@ Other documents for UC applications are listed on the Component Documentation ta
 | Caution | Do not reinstall the factory loaded virtualization software. Do not reformat the disks or rebuild the storage hardware array.
                                           Either action wipes out the factory preloaded software and causes post installation licensing problems. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Business Edition 7000 Appliances](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393637.eps/_jcr_content/renditions/393637.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

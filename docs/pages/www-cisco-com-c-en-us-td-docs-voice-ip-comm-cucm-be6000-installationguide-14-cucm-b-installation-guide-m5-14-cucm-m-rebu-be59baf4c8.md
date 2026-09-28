@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-m5-14-cucm-m-rebu-be59baf4c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/14/cucm_b_installation-guide-m5_14/cucm_m_rebuilding-a-business-edition-6000.html
-retrieved_at: 2026-08-21T22:54:06.943329+00:00
+retrieved_at: 2026-09-28T12:13:42.383299+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000H/M (M5), Release 14
@@ -78,3 +78,7 @@ After hardware setup and ESXi setup, follow steps in Set Up Your Appliance to co
 ### This Document Applies to These Products
 
 - Business Edition 6000 Version 14
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

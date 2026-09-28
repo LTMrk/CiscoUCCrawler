@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-15-cucm-b-installation-guide-6k-7k-m6-15-cucm--6a18499c25
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/15/cucm_b_installation-guide-6k_7k_m6_15/cucm_m_cisco-smart-licensing-for-cucm.html
-retrieved_at: 2026-08-21T22:40:59.934763+00:00
+retrieved_at: 2026-09-28T12:13:50.460608+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000 and 7000, Release 15 (M6 Appliances, preloads 14X15X-K9-16 / 14X15X-XU-16)
@@ -142,3 +142,7 @@ The following image shows the change in the License consumption for the above se
 ### Addon User License Consumption
 
 In BE6000 mode, Unified Communications Manager 12.5 consumes BE6000 Starter Bundle addons along with Enterprise addons.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

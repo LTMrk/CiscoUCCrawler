@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-m5-14-cucm-m-supp-4acfe0558d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/14/cucm_b_installation-guide-m5_14/cucm_m_supported-solution-capacities-map.html
-retrieved_at: 2026-08-21T22:53:58.498935+00:00
+retrieved_at: 2026-09-28T12:13:46.442116+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000H/M (M5), Release 14
@@ -144,3 +144,7 @@ Cisco Prime Collaboration Provisioning
 | Cisco TelePresence Server Virtual Machine | For 10HD ports per VM |
 | Cisco Paging Server | • 1000 Users • Pre-recorded / schedule broadcast • Notification • 911/emergency call monitoring / alerting / recording • Weather Alerting • 50 Users on each paging group |
 | Cisco Prime Collaboration Provisioning | • 1000 Users on BE6000M • 150 phones or voice terminals on BE6000S • 1200 phones or voice terminals on BE6000M |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

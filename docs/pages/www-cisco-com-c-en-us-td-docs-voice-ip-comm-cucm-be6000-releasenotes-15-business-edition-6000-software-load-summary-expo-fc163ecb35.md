@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-releasenotes-15-business-edition-6000-software-load-summary-expo-fc163ecb35
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/releasenotes/15/business-edition-6000-software-load-summary-export-restricted-version-14x15x-k9-16-and-unrestricted-version-14x15x-xu-16/cucm_m_business-edition-6000-software-load-version-14x15x-k9-16-and-unrestricted-version-14x15x-xu-16.html
-retrieved_at: 2026-08-21T21:39:14.564565+00:00
+retrieved_at: 2026-09-28T12:14:44.957647+00:00
 ---
 
 Business Edition 6000 and 7000 Software Load Summary (Export Restricted 14X15X-K9-16 and Export Unrestricted 14X15X-XU-16)
@@ -364,6 +364,10 @@ pcd_vApp_UCOS_15.0.1.10000-10_vmv17_v1.2.sha512.ova
 
 Cisco License Central
 
+### Customers Also Viewed
+
+- Installation Guide for Cisco Business Edition 6000 and 7000, Release 15 (M6 Appliances, preloads 14X15X-K9-16 / 14X15X-XU-16) --- Installation of Cisco Business Edition 6000 or 7000 appliance
+
 | Note | Before using this software, please ensure that you have the latest maintenance updates, available either from Cisco Software Center (CSC), or using Cisco Electronic Software Delivery (ESD). We provide details on how to use Electronic Software Delivery in an email to you when you order licenses for your
                                           chosen applications. Table 1 lists the files that are included and indicates where you can go online to download the files. |
 |---|---|
@@ -411,3 +415,7 @@ Cisco License Central
 | Management Applications |
 | Cisco Prime Collaboration Deployment 15 |
 | Deployed OVA containing preinstalled application (Default VM configuration) | pcd_vApp_UCOS_15.0.1.10000-10_vmv17_v1.2.sha512.ova | Cisco License Central |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

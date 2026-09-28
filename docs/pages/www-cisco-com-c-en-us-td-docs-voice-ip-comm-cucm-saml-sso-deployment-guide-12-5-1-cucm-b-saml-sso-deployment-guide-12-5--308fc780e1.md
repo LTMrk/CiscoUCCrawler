@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-12-5-1-cucm-b-saml-sso-deployment-guide-12-5--308fc780e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/12_5_1/cucm_b_saml-sso-deployment-guide-12_5/cucm_m_requirements-for-identity-providers.html
-retrieved_at: 2026-08-17T00:39:50.843345+00:00
+retrieved_at: 2026-09-28T12:18:28.943597+00:00
 ---
 
 SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 12.5(1)
@@ -148,3 +148,23 @@ Following is an example of the authentication flow for an OAuth authentication r
                                        from your telephony cluster. With Cluster Wide agreements, you must generate metadata separately for your telephony cluster,
                                        and for your IM and Presence cluster. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Two types of SAML metadata agreements in Cisco Unified Communications Manger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450591.jpg)
+
+![Figure 2. UC Metadata File Downloaded from Cisco Unified Communications Manger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450594.jpg)
+
+![Figure 3. SAML Metadata Exchange](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450593.jpg)
+
+![Figure 4. SAML Assertion Example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450596.jpg)
+
+![Figure 4. SAML Assertion Example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450597.jpg)
+
+![Figure 4. SAML Assertion Example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450598.jpg)
+
+![Figure 4. SAML Assertion Example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450599.jpg)
+
+![Figure 5. OAuth Authentication Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450602.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

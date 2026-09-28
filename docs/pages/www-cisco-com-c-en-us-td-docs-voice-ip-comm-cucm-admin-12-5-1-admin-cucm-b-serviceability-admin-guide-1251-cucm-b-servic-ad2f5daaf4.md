@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-cucm-b-servic-ad2f5daaf4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251/cucm_b_serviceability-admin-guide-1251_chapter_01010.html
-retrieved_at: 2026-08-21T01:09:43.299324+00:00
+retrieved_at: 2026-09-28T12:19:44.459835+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)
@@ -127,3 +127,7 @@ TAC case management system (CSC) with your case and associated logs collected by
 ## TAC Support for Serviceability Connector
 
 For more details on Serviceability Connector, see https://www.cisco.com/go/serviceability or contact your TAC representative.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

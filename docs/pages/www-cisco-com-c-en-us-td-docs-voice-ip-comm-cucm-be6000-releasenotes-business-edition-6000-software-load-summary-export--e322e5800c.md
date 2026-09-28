@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-releasenotes-business-edition-6000-software-load-summary-export--e322e5800c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/releasenotes/business-edition-6000-software-load-summary-export-restricted-version-12x14x-k9-15-and-unrestricted-version-12x14x-xu-15/cucm_m_business-edition-6000-software-load.html
-retrieved_at: 2026-08-21T21:39:18.293487+00:00
+retrieved_at: 2026-09-28T12:15:52.613606+00:00
 ---
 
 Business Edition 6000 Software Load Summary (Export Restricted 12X14X-K9-15 and Export Unrestricted 12X14X-XU-15)
@@ -423,3 +423,7 @@ Cisco License Central
 | Deployed OVA containing preinstalled application (Small VM configuration) | cpc-provisioning-12.6.0.3039-small.ova_v6.5_signed.ova | Cisco License Central |
 | Cisco Prime Collaboration Deployment 12.6(1) |
 | Deployed OVA containing preinstalled application (Default VM configuration) | pcd_vApp_UCOS_12.6.1.10000-21_vmv8_v1.2.ova | Cisco License Central |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be7000-releasenotes-business-edition-7000-software-load-summary-export--e36a95b015
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/releasenotes/business-edition-7000-software-load-summary-export-unrestricted-version-12x14x-xu-14/cucm_m_business-edition-7000-software-load_xu.html
-retrieved_at: 2026-08-21T21:40:30.034058+00:00
+retrieved_at: 2026-09-28T12:18:03.139609+00:00
 ---
 
 Business Edition 7000 Software Load Summary Export Unrestricted Version 12X14X-XU-14
@@ -426,3 +426,7 @@ Cisco License Central
 | Deployed OVA containing preinstalled application (Medium VM configuration) | cpc-provisioning-12.6.0.3039-medium.ova_v6.5_signed | Cisco License Central |
 | Cisco Prime Collaboration Deployment 14 |
 | Deployed OVA containing preinstalled application (Default VM configuration) | pcd_vApp_UCOS_14.0.1.10000-8_vmv13_v1.2.ova | Cisco License Central |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

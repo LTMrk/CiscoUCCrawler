@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su1-cucm-b-serviceability-admin-guide-1251su1-cucm-b-servic-2bd26f67b5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU1/cucm_b_serviceability-admin-guide-1251su1/cucm_b_serviceability-admin-guide-1251su1_chapter_010.html
-retrieved_at: 2026-08-21T01:13:42.132311+00:00
+retrieved_at: 2026-09-28T12:20:23.118387+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)SU1
@@ -536,3 +536,7 @@ Stops the service that you select
 |  | Sets the default for the configuration |
 |  | Starts the service that you select |
 |  | Stops the service that you select |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

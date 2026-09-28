@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1-admin-cucm-b-serviceability-admin-guide-1251-cucm-b-servic-13d2167271
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/admin/cucm_b_serviceability-admin-guide-1251/cucm_b_serviceability-admin-guide-1251_chapter_01001.html
-retrieved_at: 2026-08-21T01:09:39.235656+00:00
+retrieved_at: 2026-09-28T12:19:40.921959+00:00
 ---
 
 Cisco Unified Serviceability Administration Guide, Release 12.5(1)
@@ -826,3 +826,9 @@ http://www.cisco.com/en/US/products/ps7334/serv_home.html
 
 | Note | A message appears Call Home Configuration saved and all Call Home Messages sent successfully if the messages are sent successfully. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Smart Call Home Overview](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239157.tif/_jcr_content/renditions/239157.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-14-cucm-b-installation-guide-6k-7k-m6-14-cucm--d8094bc2d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/14/cucm_b_installation-guide-6k_7k_m6_14/cucm_m_installation-of-cisco-business-edition.html
-retrieved_at: 2026-08-21T22:41:30.294730+00:00
+retrieved_at: 2026-09-28T12:13:04.883013+00:00
 ---
 
 Installation Guide for Cisco Business Edition 6000 and 7000, Release 14 (M6 Appliances, preloads 12X14X-K9-15 / 12X14X-XU-15)
@@ -1158,3 +1158,25 @@ Repeat this procedure for each UC application that you want to install.
 | Step 4 | If you are using the manual method to install both Cisco Unified Communications Manager and IM and Presence Service, once
                                           the Cisco Unified Communications Manager publisher node installation completes, do the following: From the VMware Embedded Host console, log in to the Cisco Unified Communications Manager CLI. Run the set network cluster subscriber dynamic-cluster-configuration 24 command. Open a VMware Embedded Host console window for the IM and Presence or subscriber virtual machine. Power On the virtual machine. Enter the configuration information for the application to complete the installation. |
 | Step 5 | Repeat this procedure for each UC application that you want to install. |
+
+## Figuras
+
+![Figure 1. Press F8 at the CIMC Boot Screen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425709.tif/_jcr_content/renditions/425709.jpg)
+
+![Figure 2. Enter the CIMC IP Address Details](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422147.tif/_jcr_content/renditions/422147.jpg)
+
+![Figure 3. Console Screen After ESXi Loads](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453855.jpg)
+
+![Figure 4. ESXi System Customization Menu. The default username is root and default password is c!SCo123 .](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422149.tif/_jcr_content/renditions/422149.jpg)
+
+![Figure 5. Assign Static IP Address to ESXi Host](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422263.tif/_jcr_content/renditions/422263.jpg)
+
+![Figure 6. Hypervisor Welcome Page](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422262.tif/_jcr_content/renditions/422262.jpg)
+
+![Figure 7. Access Virtualization Software Using VMware Embedded Host Client](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422150.tif/_jcr_content/renditions/422150.jpg)
+
+![Figure 8. Browse Datastore to View Preloaded Collaboration Virtual Machines and Preloaded Software](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422151.tif/_jcr_content/renditions/422151.jpg)
+
+![Figure 9. Delete Any VMs That You Are Not Using](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422153.tif/_jcr_content/renditions/422153.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

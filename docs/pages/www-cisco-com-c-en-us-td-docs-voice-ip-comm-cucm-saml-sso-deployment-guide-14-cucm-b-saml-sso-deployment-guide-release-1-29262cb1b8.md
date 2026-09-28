@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-14-cucm-b-saml-sso-deployment-guide-release-1-29262cb1b8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/14/cucm_b_saml-sso-deployment-guide-Release-14/cucm_b_saml-sso-deployment-guide-12_5_chapter_01.html
-retrieved_at: 2026-08-17T00:39:21.507084+00:00
+retrieved_at: 2026-09-28T12:18:41.249497+00:00
 ---
 
 SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 14 and SUs
@@ -464,3 +464,7 @@ If you have SAML SSO configured with Okta as the identity Provider, and you want
                                                    browser includes the service provider cookie in the request. The service provider checks whether a session already exists
                                                    with the browser. If a sesMicrosoft Teamssion exists, the web browser returns with the resource content. |
 |---|---|
+
+## Figuras
+
+![Figure 1. SAML SSO Call Flow for Credential Requests from IdP](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371010.jpg)

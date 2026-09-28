@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-saml-sso-deployment-guide-14-cucm-b-saml-sso-deployment-guide-release-1-d0330aca84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/SAML_SSO_deployment_guide/14/cucm_b_saml-sso-deployment-guide-Release-14/cucm_b_saml-sso-deployment-guide-14_chapter_0100.html
-retrieved_at: 2026-08-17T00:39:38.404983+00:00
+retrieved_at: 2026-09-28T12:18:49.589679+00:00
 ---
 
 SAML SSO Deployment Guide for Cisco Unified Communications Applications, Release 14 and SUs
@@ -120,3 +120,7 @@ This step completes enabling SSO on all the servers in this cluster and all the 
 | Step 4 | Click Run SSO Test . After successful authentication, the following message is displayed: SSO Metadata Test Succeesful |
 | Step 5 | Click Finish to complete the SAML SSO setup. This step completes enabling SSO on all the servers in this cluster and all the web applications participating in SAML SSO
                                              are restarted. It may take one to two minutes for the web applications to restart. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
