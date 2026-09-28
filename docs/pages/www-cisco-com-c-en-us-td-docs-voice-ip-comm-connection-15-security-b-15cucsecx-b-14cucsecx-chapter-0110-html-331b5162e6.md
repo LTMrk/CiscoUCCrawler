@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0110-html-331b5162e6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0110.html
-retrieved_at: 2026-08-21T08:00:34.862909+00:00
+retrieved_at: 2026-09-28T12:03:41.613077+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -485,3 +485,7 @@ The Check Inactive Users sysagent task can be scheduled to run at configured int
                                           		  Timeout (in Days) field is set to zero, which means that the feature is
                                        		disabled. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

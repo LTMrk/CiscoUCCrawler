@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuni-api-b-cuc-cuni-api-b-cuc-cuni-api-chapter-00-html-a853380517
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUNI_API/b_CUC_CUNI_API/b_CUC_CUNI_API_chapter_00.html
-retrieved_at: 2026-08-21T01:00:40.036225+00:00
+retrieved_at: 2026-09-28T12:06:50.145842+00:00
 ---
 
 Cisco Unity Connection Notification Interface (CUNI) API
 
 # Cisco Unity Connection Notification Interface (CUNI) API
 
-Updated: December 27, 2018
+Updated: May 12, 2022
 
 Chapter: API Overview
 
@@ -102,3 +102,7 @@ See the following for information on troubleshooting all Connection
                            		APIs:
 
 https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_API_troubleshooting.html
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

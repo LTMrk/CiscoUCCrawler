@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-4264eb0f2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01111.html
-retrieved_at: 2026-08-21T08:05:20.367263+00:00
+retrieved_at: 2026-09-28T12:08:57.088484+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -1045,3 +1045,7 @@ Connection: keep-alive |
 | SttType | Read/Write | Integer | An integer value indicating whether a subscriber assigned standard or PRO COS for STT. Possible Values: 1: Use speech view standard transcription service. 2: Use speech view pro transcription service. Default value is 1 |
 | enablevideomessaging | Read/Write | Boolean | Allows video messaging for the users in this class of service Possible Values: true: allow Video messaging false: Do not allow video messaging Default value is false |
 | accessadvanceduser | Read/Write | Boolean | Duplicate of AdvancedUserFeatures for licensing code purposes. Possible Values: false: The Subscriber can not access advanced user features. true: The Subscriber can access advanced user features. Default:false |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-b-15cucumgx-b-14cucumgx-chapter-011-html-64bac023c6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/b_14cucumgx_chapter_011.html
-retrieved_at: 2026-08-16T18:34:45.642310+00:00
+retrieved_at: 2026-09-28T12:04:15.549836+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -589,3 +589,7 @@ Unity Connection reads the information about the Exchange 2019, 2016 meetings.
                                           			 Select Send . |
 | Step 5 | Sign in to the Unity Connection mailbox of the user that you
                                           			 invited to the Outlook meeting: If the user account is configured for speech access, say Play Meetings . If the user account is not configured for speech access, press 6 , and then follow the prompts to list meetings. Unity Connection reads the information about the Exchange 2019, 2016 meetings. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

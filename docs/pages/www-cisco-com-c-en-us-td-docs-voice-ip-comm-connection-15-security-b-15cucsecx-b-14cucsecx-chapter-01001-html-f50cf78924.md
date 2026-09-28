@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01001-html-f50cf78924
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01001.html
-retrieved_at: 2026-08-21T08:00:47.522727+00:00
+retrieved_at: 2026-09-28T12:03:20.922230+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -377,3 +377,7 @@ Users can access message bodies for all messages except those that are marked pr
 
 | Note | For additional information about secure messaging, see the Secure Messages . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

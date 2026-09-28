@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-010-html-29ffe82a8b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_010.html
-retrieved_at: 2026-08-21T08:07:38.926004+00:00
+retrieved_at: 2026-09-28T12:05:47.189490+00:00
 ---
 
 Cisco Unity Connection Imaging Interface (CUII) API
@@ -79,3 +79,7 @@ The following is the sample response from the above GET request. The
   </MsgStateImageUrl>
   </NotificationInformation> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

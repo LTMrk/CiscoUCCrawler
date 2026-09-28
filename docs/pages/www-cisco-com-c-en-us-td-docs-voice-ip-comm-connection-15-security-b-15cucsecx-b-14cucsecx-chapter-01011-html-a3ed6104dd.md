@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01011-html-a3ed6104dd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01011.html
-retrieved_at: 2026-08-21T00:37:32.026151+00:00
+retrieved_at: 2026-09-28T12:03:33.436791+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -105,3 +105,7 @@ For more
 
 | Note | In case of upgrade, you must execute the CLI after successfully completed the switch version. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

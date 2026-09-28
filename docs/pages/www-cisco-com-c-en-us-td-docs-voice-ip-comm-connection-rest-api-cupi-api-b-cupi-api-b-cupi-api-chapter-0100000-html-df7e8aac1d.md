@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-b-cupi-api-b-cupi-api-chapter-0100000-html-df7e8aac1d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API/b_CUPI-API_chapter_0100000.html
-retrieved_at: 2026-08-21T01:01:23.226978+00:00
+retrieved_at: 2026-09-28T12:07:07.464565+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API
@@ -2664,3 +2664,7 @@ Content-Length: 126
 
 | HTTP/1.1 201 Created |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-os-administration-guide-b-15cucosagx-b-15cucosagx-chapter-00-h-a2fa1e245a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/os_administration/guide/b_15cucosagx/b_15cucosagx_chapter_00.html
-retrieved_at: 2026-08-17T03:43:02.664570+00:00
+retrieved_at: 2026-09-28T12:02:23.463235+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 15
@@ -200,3 +200,7 @@ You can access a command line interface from the console or through a secure she
                                     		Windows-based software applications that you may have been using with a
                                     		previous version of Cisco Unified Communications Manager. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

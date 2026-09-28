@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuni-api-b-cuc-cuni-api-b-cuc-cuni-api-chapter-01-html-824a23b4ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUNI_API/b_CUC_CUNI_API/b_CUC_CUNI_API_chapter_01.html
-retrieved_at: 2026-08-21T01:00:44.108165+00:00
+retrieved_at: 2026-09-28T12:06:54.006349+00:00
 ---
 
 Cisco Unity Connection Notification Interface (CUNI) API
 
 # Cisco Unity Connection Notification Interface (CUNI) API
 
-Updated: December 27, 2018
+Updated: May 12, 2022
 
 Chapter: Cisco Unity
 	 Connection Notification Interface (CUNI) API -- CUNI Event Schema
@@ -81,3 +81,7 @@ Chapter: Cisco Unity
 </xs:element>
 </xs:schema>
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

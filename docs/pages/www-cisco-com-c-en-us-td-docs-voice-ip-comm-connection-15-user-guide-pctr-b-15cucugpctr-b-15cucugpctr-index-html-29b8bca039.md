@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-user-guide-pctr-b-15cucugpctr-b-15cucugpctr-index-html-29b8bca039
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user/guide/pctr/b_15cucugpctr/b_15cucugpctr_index.html
-retrieved_at: 2026-08-17T03:35:40.164111+00:00
+retrieved_at: 2026-09-28T12:05:01.480600+00:00
 ---
 
 User Guide for the Cisco Unity Connection Personal Call Transfer Rules Web Tool (Release 15)
@@ -273,3 +273,7 @@ T
 testing rule sets 1
 
 transfer rules, about personal 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

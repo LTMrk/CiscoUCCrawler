@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-10-51-cucm-bk-bc403831-00-be6k-install-guide-1-a352b4360b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/10_51/CUCM_BK_BC403831_00_be6k-install-guide-1051/CUCM_BK_BC403831_00_be6k-install-guide-1051_chapter_011.html
-retrieved_at: 2026-08-21T22:55:14.465974+00:00
+retrieved_at: 2026-09-28T12:10:05.236350+00:00
 ---
 
 Cisco Business Edition 6000 Installation Guide, Release 10.5(1)
@@ -105,3 +105,7 @@ After you verify successful installation, see the Prime Collaboration Provisioni
 
 | Note | A valid UCCS subscription is required to use the PUT to download upgrade images. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

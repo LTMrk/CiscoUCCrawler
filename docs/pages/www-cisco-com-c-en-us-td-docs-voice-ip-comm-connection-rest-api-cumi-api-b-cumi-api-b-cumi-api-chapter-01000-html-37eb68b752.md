@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01000-html-37eb68b752
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01000.html
-retrieved_at: 2026-08-21T08:06:40.373675+00:00
+retrieved_at: 2026-09-28T12:06:20.659891+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -213,3 +213,7 @@ The only user-modifiable fields for a broadcast message are the start
  </xs:all>
  </xs:complexType> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

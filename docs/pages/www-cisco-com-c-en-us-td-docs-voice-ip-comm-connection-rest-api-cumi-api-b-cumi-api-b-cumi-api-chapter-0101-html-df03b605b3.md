@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0101-html-df03b605b3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0101.html
-retrieved_at: 2026-08-21T08:06:27.432483+00:00
+retrieved_at: 2026-09-28T12:06:29.060307+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -301,3 +301,7 @@ Example Comet Event
  "DisplayName": "Alexander Bell"
  } |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

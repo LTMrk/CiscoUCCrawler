@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-user-guide-pctr-b-15cucugpctr-b-15cucugpctr-chapter-00-html-b09b30c956
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user/guide/pctr/b_15cucugpctr/b_15cucugpctr_chapter_00.html
-retrieved_at: 2026-08-17T03:35:18.907894+00:00
+retrieved_at: 2026-09-28T12:04:40.486989+00:00
 ---
 
 User Guide for the Cisco Unity Connection Personal Call Transfer Rules Web Tool (Release 15)
@@ -109,3 +109,7 @@ For help on an icon, hover the cursor over the icon until the tooltip displays.
 | Content | Provides a list of topics in Help. |
 | Index | Provides a Help index. |
 | This Page | Provides the Help topic applicable to the page you are viewing. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

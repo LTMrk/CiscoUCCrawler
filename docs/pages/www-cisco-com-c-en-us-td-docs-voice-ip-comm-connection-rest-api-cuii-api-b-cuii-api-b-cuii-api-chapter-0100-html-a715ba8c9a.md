@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-0100-html-a715ba8c9a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_0100.html
-retrieved_at: 2026-08-21T08:07:51.727870+00:00
+retrieved_at: 2026-09-28T12:05:51.326690+00:00
 ---
 
 Cisco Unity Connection Imaging Interface (CUII) API
@@ -64,3 +64,7 @@ The HTTP status codes themselves
                                              					 to look into the stack trace returned in the response, which will clearly
                                              					 specify the exception. For further debugging, one must look into the traces for
                                              					 errors as the errors are quite prominently logged with a lot of details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

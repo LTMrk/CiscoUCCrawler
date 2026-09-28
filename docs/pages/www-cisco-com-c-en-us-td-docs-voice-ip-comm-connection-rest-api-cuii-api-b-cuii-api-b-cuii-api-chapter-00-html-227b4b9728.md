@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-00-html-227b4b9728
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_00.html
-retrieved_at: 2026-08-21T08:07:30.571509+00:00
+retrieved_at: 2026-09-28T12:05:38.630353+00:00
 ---
 
 Cisco Unity Connection Imaging Interface (CUII) API
@@ -124,3 +124,7 @@ Troubleshooting (applies to all Connection APIs)
 The error handling for CUII APIs is same as it is done for CUPI API. For
                               		more information on how error handling done in CUPI API, refer to Cisco Unity Connection Provisioning Interface (CUPI) API -- Error
                                  		  Handling
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

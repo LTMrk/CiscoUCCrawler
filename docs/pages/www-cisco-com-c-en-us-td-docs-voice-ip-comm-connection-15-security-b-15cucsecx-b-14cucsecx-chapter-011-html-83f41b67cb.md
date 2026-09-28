@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-011-html-83f41b67cb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_011.html
-retrieved_at: 2026-08-21T08:00:22.234036+00:00
+retrieved_at: 2026-09-28T12:03:37.509030+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -285,3 +285,7 @@ For ensuring the
 | Note | Make sure you do not use the following application usernames as this
                                        		generate an error: |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

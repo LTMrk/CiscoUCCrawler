@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-serv-administration-guide-b-15cucservag-b-14cucservag-chapter--4e5a7594a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/serv_administration/guide/b_15cucservag/b_14cucservag_chapter_0101.html
-retrieved_at: 2026-08-21T00:59:48.816628+00:00
+retrieved_at: 2026-09-28T12:03:54.264398+00:00
 ---
 
 Administration Guide for Cisco Unity Connection Serviceability Release 15
@@ -565,3 +565,7 @@ File download dialog box opens,
                                                          							 asking if you want to open or save the file. |
 | PDF File | File download dialog box opens,
                                                          							 asking if you want to open or save the file. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

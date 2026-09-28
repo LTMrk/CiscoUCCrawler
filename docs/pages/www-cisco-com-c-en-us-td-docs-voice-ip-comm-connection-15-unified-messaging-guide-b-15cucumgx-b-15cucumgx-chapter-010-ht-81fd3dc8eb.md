@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-guide-b-15cucumgx-b-15cucumgx-chapter-010-ht-81fd3dc8eb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/guide/b_15cucumgx/b_15cucumgx_chapter_010.html
-retrieved_at: 2026-08-16T18:34:16.316403+00:00
+retrieved_at: 2026-09-28T12:04:23.803635+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -126,3 +126,7 @@ In CUC 15 SU4 (and later releases), while using TTS feature through Unified mess
 | Note | To use TTS over Office 365, you are not required to do any specific configuration. In CUC 15 SU4 (and later releases), while using TTS feature through Unified messaging service for Office 365, you can expect
                                                             a delay in playing TTS for email if there are multiple attachments. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

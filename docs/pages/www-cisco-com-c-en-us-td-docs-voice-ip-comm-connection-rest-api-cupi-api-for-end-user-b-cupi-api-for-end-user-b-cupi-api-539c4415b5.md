@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-539c4415b5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0101.html
-retrieved_at: 2026-08-21T08:04:38.217924+00:00
+retrieved_at: 2026-09-28T12:07:53.268556+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -140,3 +140,7 @@ GET /vmrest/user/greetings/Holiday |
   <TimeExpires>1970-01-01 00:00:00.0</TimeExpires>
 </Greeting> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0110-html-0f6736ee6a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0110.html
-retrieved_at: 2026-08-21T08:06:31.671033+00:00
+retrieved_at: 2026-09-28T12:06:41.701833+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -63,3 +63,7 @@ Combined CUMI COMET and CUNI Notifications
 
 , a single server performs acceptably with up to 5000 users. Each
                               		individual CUNI subscription is for 500 users or lesser.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

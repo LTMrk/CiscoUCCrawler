@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01001-html-2b251e3c59
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01001.html
-retrieved_at: 2026-08-21T08:06:44.230792+00:00
+retrieved_at: 2026-09-28T12:06:24.977284+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -170,3 +170,7 @@ my $SERVER = 'cuc_server';
  <xs:element name="DeliveryReceiptRequested" type="xs:boolean" minOccurs="0" />
  <xs:element name="InvestigativeHold" type="xs:boolean" minOccurs="0" /> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

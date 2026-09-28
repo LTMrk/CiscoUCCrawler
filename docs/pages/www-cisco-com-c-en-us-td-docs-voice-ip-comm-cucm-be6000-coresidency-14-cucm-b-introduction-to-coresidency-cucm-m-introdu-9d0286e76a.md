@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-coresidency-14-cucm-b-introduction-to-coresidency-cucm-m-introdu-9d0286e76a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/Coresidency/14/cucm_b_introduction-to-coresidency/cucm_m_introduction-to-coresidency.html
-retrieved_at: 2026-08-25T11:01:24.679488+00:00
+retrieved_at: 2026-09-28T12:09:39.888240+00:00
 ---
 
 Cisco BE6000 and Cisco BE7000 (CSR 14) Coresidency Policy Requirements
@@ -160,3 +160,7 @@ Support for third-party applications is provided by the vendor of the individual
                                                    versions of Business Edition and Non-Business Edition Collaboration applications. If you run a coresident deployment that includes third-party non-Business Edition applications, you must agree to temporarily
                                                    reduce the number of virtual machines that are running on a host if we deem it necessary for debugging purposes. You must permanently reduce the number of virtual machines that are running on a host if we determine that the host is overloaded. If you are unwilling to agree to these requirements, Cisco TAC will not support the coresident deployment. Support for third-party applications is provided by the vendor of the individual application. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

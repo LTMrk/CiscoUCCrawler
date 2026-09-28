@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-b-15cucumgx-b-15cucumgx-index-html-db11710380
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/b_15cucumgx_index.html
-retrieved_at: 2026-08-16T18:34:54.554674+00:00
+retrieved_at: 2026-09-28T12:04:19.658699+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -40,3 +40,9 @@ Notes: This template is designed for GUI tasks where the steps are NOT presented
             what tags are included when you add a step element from the Element List, so you may want to copy the step that has the format
             you'need. Inserted steps will still have the Step Example and Step Result tags. Remember to delete any tags that you are not
             using. 1
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

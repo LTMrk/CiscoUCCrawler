@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0100-html-81fbac222f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0100.html
-retrieved_at: 2026-08-21T08:00:26.511473+00:00
+retrieved_at: 2026-09-28T12:03:12.864407+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -342,3 +342,7 @@ Enable IPSec policy.
 
 | Note | Before upgrading, we recommend you to refer the Upgrade Types section of the "Upgrading Cisco Unity Connection" chapter of the Install, Upgrade and Maintenance Guide for Cisco Unity Connection Release 15 available at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/install_upgrade/guide/b_15cuciumg.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

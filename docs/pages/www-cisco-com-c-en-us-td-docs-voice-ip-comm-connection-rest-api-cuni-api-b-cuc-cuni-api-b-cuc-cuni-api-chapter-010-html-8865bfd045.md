@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuni-api-b-cuc-cuni-api-b-cuc-cuni-api-chapter-010-html-8865bfd045
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUNI_API/b_CUC_CUNI_API/b_CUC_CUNI_API_chapter_010.html
-retrieved_at: 2026-08-17T03:06:56.499469+00:00
+retrieved_at: 2026-09-28T12:06:58.539337+00:00
 ---
 
 Cisco Unity Connection Notification Interface (CUNI) API
 
 # Cisco Unity Connection Notification Interface (CUNI) API
 
-Updated: December 27, 2018
+Updated: May 12, 2022
 
 Chapter: Cisco Unity
 	 Connection Notification Interface (CUNI) API -- Subscribing to and Processing
@@ -36,10 +36,9 @@ Subscribing to notification events is done through the web service
 
 At a minimum you should pass in:
 
-- The callback URL where XML notifications will be posted by the Notifier.
+The callback URL where XML notifications will be posted by the Notifier.
 
-- The date/time when the
-                                    			 subscription will expire
+The date/time when the subscription will expire
 
 It is also possible to pass in a list of the resources (userid) that
                               		  you are interested in receiving events for, although that can also be done via
@@ -77,8 +76,9 @@ s.setCallbackServiceInfo(c);
 SubscribeResponse r = stub.subscribe(s);
 ```
 
-CUNI Subscriptions will be removed from Cisco Unity Connection server database, if you perform a refresh upgrade. Make sure
-                                          to perform re-subscription after successful upgrade of the cluster.
+CUNI subscriptions will be removed from the Cisco Unity Connection server database during a Refresh Upgrade (RU) and Level
+                                          2 (L2) upgrade to Unity Connection 15. After the cluster upgrade is successfully completed, resubscribe all CUNI subscriptions
+                                          that existed before the upgrade.
 
 ## Processing
                         	 Notification Events
@@ -161,8 +161,9 @@ s.setCallbackServiceInfo(c);
 SubscribeResponse r = stub.subscribe(s); |
 |---|
 
-| Note | CUNI Subscriptions will be removed from Cisco Unity Connection server database, if you perform a refresh upgrade. Make sure
-                                          to perform re-subscription after successful upgrade of the cluster. |
+| Note | CUNI subscriptions will be removed from the Cisco Unity Connection server database during a Refresh Upgrade (RU) and Level
+                                          2 (L2) upgrade to Unity Connection 15. After the cluster upgrade is successfully completed, resubscribe all CUNI subscriptions
+                                          that existed before the upgrade. |
 |---|---|
 
 | Note | Cisco Unity Connection Release 12.5(1) SU3 and later, CUNI supports HTTPS for callback URL. For SSL communication user has the option to choose between Self-signed Certificates and Third Party CA signed Certificates
@@ -198,3 +199,7 @@ SubscribeResponse r = stub.subscribe(s); |
                  callerAni="null" />
 </messageEvent> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

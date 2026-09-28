@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-dd27ab6cbb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010000.html
-retrieved_at: 2026-08-21T08:05:24.522478+00:00
+retrieved_at: 2026-09-28T12:07:32.559172+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -269,3 +269,7 @@ Connection: keep-alive |
 | SmtpAddress | Read Only | String | SMTP address of the end user. |
 | DtmfAccessId | Read Only | String | Extension number of the end user. |
 |  | Read Only | String |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

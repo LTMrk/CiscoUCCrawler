@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-948b580fca
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_011001.html
-retrieved_at: 2026-08-21T08:06:02.115931+00:00
+retrieved_at: 2026-09-28T12:08:39.890809+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -52,3 +52,9 @@ The following is the response from the above *PUT* request and the actual respon
 ```
 Response Code: 204
 ```
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

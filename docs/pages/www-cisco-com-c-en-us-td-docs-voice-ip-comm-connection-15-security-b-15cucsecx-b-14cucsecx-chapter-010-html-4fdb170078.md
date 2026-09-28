@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-010-html-4fdb170078
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_010.html
-retrieved_at: 2026-08-21T07:58:09.291634+00:00
+retrieved_at: 2026-09-28T12:03:08.327260+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -285,3 +285,7 @@ If you want to enable authentication and encryption for the voice messaging port
                                              					 media stream are not encrypted. Also, if an intervening device (such as a
                                              					 transcoder or gateway) is not enabled for encryption, the media stream is not
                                              					 encrypted. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

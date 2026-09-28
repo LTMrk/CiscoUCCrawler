@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-f868bd6b51
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_0110.html
-retrieved_at: 2026-08-21T08:04:42.726672+00:00
+retrieved_at: 2026-09-28T12:08:27.050654+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -55,3 +55,9 @@ OK
   <DisplayName>cuc-install-43</DisplayName>
 </ConnectionLocation> |
 |---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

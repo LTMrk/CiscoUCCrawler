@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-0100-html-0ba03c0059
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_0100.html
-retrieved_at: 2026-08-21T08:06:23.034849+00:00
+retrieved_at: 2026-09-28T12:06:16.965969+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -59,3 +59,9 @@ https://<ser/vmrest/messages/0:a8deea61-c2e3-4896-ad0a-124d1723ddcc/recall
 
 | https://<ser/vmrest/messages/0:a8deea61-c2e3-4896-ad0a-124d1723ddcc/recall |
 |---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

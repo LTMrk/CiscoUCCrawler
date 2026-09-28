@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-2f5eb64c84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010100.html
-retrieved_at: 2026-08-21T08:05:41.630798+00:00
+retrieved_at: 2026-09-28T12:08:01.889544+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -911,3 +911,7 @@ Connection: keep-alive
 | DeviceName | String | Read Only | Device name of notification device which can’t be changed. |
 | MaxBody | Integer | Read Only | The maximum number of characters allowed in the 'body' of a notification message. |
 | MaxSubject | Integer | Read Only | The maximum number of characters allowed in the 'subject' of a notification message. Possible value: 0-4096 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

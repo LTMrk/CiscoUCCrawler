@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-b-15cucumgx-b-14cucumgx-chapter-010-html-85f365fd80
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/b_14cucumgx_chapter_010.html
-retrieved_at: 2026-08-16T18:34:41.379063+00:00
+retrieved_at: 2026-09-28T12:04:07.058014+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -131,3 +131,7 @@ Press the Enter key.
 | Note | To use
                                                    				  TTS over Office 365, you are not required to do any specific configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

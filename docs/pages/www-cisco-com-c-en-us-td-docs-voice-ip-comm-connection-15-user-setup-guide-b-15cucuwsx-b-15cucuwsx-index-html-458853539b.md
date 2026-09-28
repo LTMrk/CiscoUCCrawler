@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-user-setup-guide-b-15cucuwsx-b-15cucuwsx-index-html-458853539b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user_setup/guide/b_15cucuwsx/b_15cucuwsx_index.html
-retrieved_at: 2026-08-17T03:34:03.026291+00:00
+retrieved_at: 2026-09-28T12:05:26.414112+00:00
 ---
 
 User Workstation Setup Guide for Cisco Unity Connection Release 15
@@ -225,3 +225,7 @@ task list 1
 W
 
 Windows Mail, configuring to access voice messages 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

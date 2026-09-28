@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-01-html-4d123225a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_01.html
-retrieved_at: 2026-08-21T07:58:04.933741+00:00
+retrieved_at: 2026-09-28T12:03:04.149157+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -81,3 +81,7 @@ Restrict the numbers that can be used for
 We recommend that you work with your
                            		telecommunications provider to restrict the collect calling option on your
                            		incoming phone lines, if appropriate.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

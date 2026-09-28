@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-00-html-c3c6fc4886
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_00.html
-retrieved_at: 2026-08-21T08:06:10.794022+00:00
+retrieved_at: 2026-09-28T12:06:04.325968+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -160,3 +160,7 @@ Troubleshooting (applies to all Connection APIs)
                                        		  Connection Rest APIs. For more information, see the "Single Sign-On in Cisco
                                        		  Unity Connection" chapter in Security Guide for Cisco Unity Connection 9.x https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/9x/security/guide/9xcucsecx/9xcucsec061.html |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

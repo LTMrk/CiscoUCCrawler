@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-networking-guide-b-15cucnext-b-14cucnetx-chapter-0101-html-7cdf573578
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/networking/guide/b_15cucnext/b_14cucnetx_chapter_0101.html
-retrieved_at: 2026-08-17T03:33:21.231977+00:00
+retrieved_at: 2026-09-28T12:01:58.656143+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 15
@@ -2356,3 +2356,7 @@ Select Save and repeat the
                                                          				server. Therefore, if the system is using failover, the numbers are replicated
                                                          				to the secondary server.) |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

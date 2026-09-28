@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-networking-guide-b-15cucnext-b-15cucnext-index-html-b28a8f7c04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/networking/guide/b_15cucnext/b_15cucnext_index.html
-retrieved_at: 2026-08-17T03:33:24.469004+00:00
+retrieved_at: 2026-09-28T12:02:06.338189+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 15
@@ -127,3 +127,7 @@ messaging similarities and limitations 1
 overview 1
 
 resolving names with IP addresses 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

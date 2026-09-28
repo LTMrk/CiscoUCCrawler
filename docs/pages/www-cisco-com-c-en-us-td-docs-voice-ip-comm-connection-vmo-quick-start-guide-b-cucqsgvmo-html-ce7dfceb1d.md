@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-vmo-quick-start-guide-b-cucqsgvmo-html-ce7dfceb1d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/vmo/quick_start/guide/b_cucqsgvmo.html
-retrieved_at: 2026-08-17T03:06:49.680229+00:00
+retrieved_at: 2026-09-28T12:09:05.743023+00:00
 ---
 
 Quick Start Guide for the Cisco ViewMail for Microsoft Outlook (Release 8.5 and Later)
@@ -424,3 +424,7 @@ A. In Outlook 2010, on the ViewMail tab in the Help group, select Email Log File
                               					 settings as currently entered. The status displays in the Server Status field. |
 | 6 | Enter your Cisco PCA (web
                               					 application) password. |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

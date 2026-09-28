@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-2d597ddbc0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_01110.html
-retrieved_at: 2026-08-21T08:05:16.301200+00:00
+retrieved_at: 2026-09-28T12:08:52.949423+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -540,3 +540,7 @@ Connection: keep-alive |
 | DisplayName | Read/Write | String(64) | Unique identifier of the Alternate Device. |
 | DtmfAccessId | Read/Write | Integer | Extension number for the Alternate Device. |
 | UserDefined | Read Only | Boolean | Flag to indicate whether its a user defined Alternate Device or is an administrator defined Alternate Device. true: the alternate device is user defined false: the alternate device is administrator defined Default value is false. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

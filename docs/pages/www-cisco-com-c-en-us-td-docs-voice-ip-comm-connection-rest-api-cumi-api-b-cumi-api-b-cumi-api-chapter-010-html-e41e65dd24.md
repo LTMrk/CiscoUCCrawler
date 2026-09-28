@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-010-html-e41e65dd24
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_010.html
-retrieved_at: 2026-08-21T08:06:15.062908+00:00
+retrieved_at: 2026-09-28T12:06:12.423338+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -532,3 +532,7 @@ Here's the XSD snippet for a RestError:
  </xs:all>
  </xs:complexType></xs:element> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

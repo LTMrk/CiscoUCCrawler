@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-user-guide-pctr-b-15cucugpctr-b-15cucugpctr-chapter-0100-html-727772db49
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user/guide/pctr/b_15cucugpctr/b_15cucugpctr_chapter_0100.html
-retrieved_at: 2026-08-17T03:35:36.187221+00:00
+retrieved_at: 2026-09-28T12:04:52.983588+00:00
 ---
 
 User Guide for the Cisco Unity Connection Personal Call Transfer Rules Web Tool (Release 15)
@@ -217,3 +217,7 @@ Select Save .
 | Tell Me Who The Call Is For | Connection plays the name associated with the dialed extension. Use this setting when two or more people share a phone. |
 | Ask Me If I Want to Take the Call | Connection asks if you want to take the call or have the caller leave a message. |
 | Ask for Caller’s Name | Connection records the name of the caller and plays it for you before connecting the call. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

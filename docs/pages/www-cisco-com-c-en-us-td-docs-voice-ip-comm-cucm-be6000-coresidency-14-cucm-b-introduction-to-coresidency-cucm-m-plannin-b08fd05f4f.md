@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-coresidency-14-cucm-b-introduction-to-coresidency-cucm-m-plannin-b08fd05f4f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/Coresidency/14/cucm_b_introduction-to-coresidency/cucm_m_planning-for-coresidency.html
-retrieved_at: 2026-08-25T11:01:28.816588+00:00
+retrieved_at: 2026-09-28T12:09:44.080957+00:00
 ---
 
 Cisco BE6000 and Cisco BE7000 (CSR 14) Coresidency Policy Requirements
@@ -72,3 +72,7 @@ Understand the networking requirements of the virtual machines that are deployed
                                              with deployment model restrictions, in release 11.0 and older, it does not ship with, or require extra memory for ESXi as
                                              described for other Business Edition models. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

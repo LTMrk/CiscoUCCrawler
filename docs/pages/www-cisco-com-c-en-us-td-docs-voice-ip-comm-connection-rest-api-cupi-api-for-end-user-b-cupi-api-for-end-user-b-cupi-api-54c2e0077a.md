@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-54c2e0077a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010110.html
-retrieved_at: 2026-08-21T08:05:45.474843+00:00
+retrieved_at: 2026-09-28T12:08:15.086010+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -282,3 +282,7 @@ URI to get members of the private list.
 | NumericId | Read/Write String | Integer(4) | The numeric identifier for the personal group. From conversations, the private lists are referenced by number, so this is
                                           essentially an index. |
 | PrivateListMembersURI | Read Only | String | URI to get members of the private list. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-unified-messaging-b-15cucumgx-b-14cucumgx-chapter-01-html-f9bbc016a0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/unified_messaging/b_15cucumgx/b_14cucumgx_chapter_01.html
-retrieved_at: 2026-08-16T18:34:38.018786+00:00
+retrieved_at: 2026-09-28T12:04:03.450173+00:00
 ---
 
 Unified Messaging Guide for Cisco Unity Connection Release 15
@@ -2248,3 +2248,7 @@ http://technet.microsoft.com/en-us/library/bb232171.aspx
 | Note | Make sure to select the Relay
                                                                   						the Message option from the Email, Fax, and receipt drop -down lists. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-20e8812ce0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_011000.html
-retrieved_at: 2026-08-21T08:05:58.068575+00:00
+retrieved_at: 2026-09-28T12:08:35.748299+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -280,3 +280,7 @@ GET /vmrest/user/transferoptions/Alternate |
   <TimeExpires>1976-03-09 00:00:00.0</TimeExpires>
 </TransferOption> |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

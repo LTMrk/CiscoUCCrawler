@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-user-setup-guide-b-15cucuwsx-b-15cucuwsx-chapter-011-html-db21b47080
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/user_setup/guide/b_15cucuwsx/b_15cucuwsx_chapter_011.html
-retrieved_at: 2026-08-17T03:33:54.658579+00:00
+retrieved_at: 2026-09-28T12:05:18.256383+00:00
 ---
 
 User Workstation Setup Guide for Cisco Unity Connection Release 15
@@ -593,3 +593,7 @@ None
 | Destinations: Set up phone numbers or notification devices to use when transferring calls Set up groups of destinations to use in personal call transfer rules Specify the number of rings that Unity Connection waits before transferring the call to the next destination or to voicemail | Destinations: None |
 | Caller Groups Create groups of user-defined contacts, administrator-defined contacts, or Unity Connection users to use in personal call
                                                    transfer rules | Caller Groups None |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

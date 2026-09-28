@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cuii-api-b-cuii-api-b-cuii-api-chapter-011-html-512d1dab58
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API/b_CUII_API_chapter_011.html
-retrieved_at: 2026-08-21T08:07:43.303025+00:00
+retrieved_at: 2026-09-28T12:05:59.972512+00:00
 ---
 
 Cisco Unity Connection Imaging Interface (CUII) API
@@ -53,3 +53,9 @@ The above request returns the image with respect to current MWI status
 
 | GET https://<connection-server>/vmrest/mailbox/folders/inbox/<user_alias>/mwistatusimage |
 |---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

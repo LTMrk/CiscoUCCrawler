@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cumi-api-b-cumi-api-b-cumi-api-chapter-01010-html-5e4b5feb5c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API/b_CUMI-API_chapter_01010.html
-retrieved_at: 2026-08-21T08:06:48.282698+00:00
+retrieved_at: 2026-09-28T12:06:33.361486+00:00
 ---
 
 Cisco Unity Connection Messaging Interface (CUMI) API
@@ -379,3 +379,7 @@ No. Time Source Destination Protocol Info
  0310 31 31 33 34 35 37 5f 31 32 35 36 30 36 38 39 39 113457_125606899
  0320 37 30 37 38 2d 2d 0d 0a 7078--.. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

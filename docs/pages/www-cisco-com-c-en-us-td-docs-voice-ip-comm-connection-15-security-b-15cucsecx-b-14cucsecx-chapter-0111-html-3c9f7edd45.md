@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-security-b-15cucsecx-b-14cucsecx-chapter-0111-html-3c9f7edd45
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/security/b_15cucsecx/b_14cucsecx_chapter_0111.html
-retrieved_at: 2026-08-21T08:00:38.678541+00:00
+retrieved_at: 2026-09-28T12:03:45.878627+00:00
 ---
 
 Security Guide for Cisco Unity Connection Release 15
@@ -44,3 +44,9 @@ Regardless of whether a cluster is configured, the security
 
 To change the security password, use the set password user CLI command. For more information, including the sequence in which you change the password on the servers in a cluster, see
                            the applicable version of the Command Line Interface Reference Guide for Cisco Unified Communications Solutions Release 15 at http://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-maintenance-guides-list.html .
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

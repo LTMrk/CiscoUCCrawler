@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-for-end-user-b-cupi-api-for-end-user-b-cupi-api-dc4947076b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User/b_CUPI_API_for_End_User_chapter_010111.html
-retrieved_at: 2026-08-21T08:05:53.770905+00:00
+retrieved_at: 2026-09-28T12:08:18.723084+00:00
 ---
 
 Cisco Unity Connection Provisioning Interface (CUPI) API -- For End Users
@@ -160,3 +160,7 @@ Topic 2.1
 | RecordingMaxLength | Integer | Read/Write | It specifies maximum length of recording of message. Possible values: 0-3600000 Default value:1200000 |
 | DisableCopyVoiceMessage | Boolean | Read/Write | Flag indicating to copy voice message or not. Possible values: true false |
 | ConfirmDeleteMessage | Integer | Read/Write | Possible values:0-2 Default value:1 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

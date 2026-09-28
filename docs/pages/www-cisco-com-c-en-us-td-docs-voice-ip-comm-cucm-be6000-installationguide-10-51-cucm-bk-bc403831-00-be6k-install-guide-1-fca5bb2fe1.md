@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-be6000-installationguide-10-51-cucm-bk-bc403831-00-be6k-install-guide-1-fca5bb2fe1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/InstallationGuide/10_51/CUCM_BK_BC403831_00_be6k-install-guide-1051/CUCM_BK_BC403831_00_be6k-install-guide-1051_chapter_010.html
-retrieved_at: 2026-08-21T21:40:04.879259+00:00
+retrieved_at: 2026-09-28T12:10:01.154889+00:00
 ---
 
 Cisco Business Edition 6000 Installation Guide, Release 10.5(1)
@@ -501,3 +501,7 @@ The Static Network Configuration window appears.
 | Step 6 | For the Run SSH (Secure shell) daemon, type Y and press Enter . |
 | Step 7 | At the Restart Now prompt, type Y and press Enter . |
 | Step 8 | After the system reboots, access the Cisco Video Communication Server in a web browser. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
