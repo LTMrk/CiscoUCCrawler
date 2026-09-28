@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216692-what-is-static-and-dynamic-user-monitori-htm-8c04eacac0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.html
-retrieved_at: 2026-09-07T13:02:58.027368+00:00
+retrieved_at: 2026-09-28T05:51:11.476142+00:00
 ---
 
 What is static and dynamic user monitoring?
@@ -27,3 +27,11 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - BroadWorks
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

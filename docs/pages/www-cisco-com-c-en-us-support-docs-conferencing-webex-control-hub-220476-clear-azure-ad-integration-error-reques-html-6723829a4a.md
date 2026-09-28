@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220476-clear-azure-ad-integration-error-reques-html-6723829a4a
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html
-retrieved_at: 2026-08-20T21:12:32.779968+00:00
+retrieved_at: 2026-09-28T05:46:11.114195+00:00
 ---
 
 Clear Azure AD Integration Error "Request Was Unauthorized"
@@ -167,3 +167,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-May-2023 | Initial Release |
+
+## Figuras
+
+![Control Hub error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-00.png)
+
+![Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-01.png)
+
+![Azure AD](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-02.png)
+
+![Audit logs](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-03.png)
+
+![Consent](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-04.png)
+
+![Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-05.png)
+
+![Azure AD check](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-06.png)
+
+![Control Hub check](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques-07.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-mediasense-212050-configure-selective-based-workflow-for-i-htm-26188d5e23
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I.html
-retrieved_at: 2026-08-21T06:41:55.196080+00:00
+retrieved_at: 2026-09-28T05:48:58.745733+00:00
 ---
 
 Configure Selective Based Workflow for Incoming Calls on Finesse
@@ -312,3 +312,49 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 14-Sep-2017 | Initial Release |
+
+## Figuras
+
+![212050-Configure-Selective-Based-Workflow-for-I-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-00.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-01.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-02.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-03.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-04.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-05.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-06.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-06.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-07.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-07.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-08.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-08.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-09.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-09.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-10.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-10.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-11.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-11.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-12.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-12.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-13.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-13.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-14.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-14.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-15.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-15.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-16.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-16.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-17.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-17.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-18.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-18.png)
+
+![212050-Configure-Selective-Based-Workflow-for-I-19.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I-19.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

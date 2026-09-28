@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221616-configure-fmc-with-ansible--178b64e639
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.html
-retrieved_at: 2026-09-07T13:01:46.901060+00:00
+retrieved_at: 2026-09-28T05:50:05.300529+00:00
 ---
 
 Configure FMC with Ansible to Update FTD Interface IP
@@ -330,3 +330,13 @@ Customer Delivery Engineering Technical Leader
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Topology](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd-00.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

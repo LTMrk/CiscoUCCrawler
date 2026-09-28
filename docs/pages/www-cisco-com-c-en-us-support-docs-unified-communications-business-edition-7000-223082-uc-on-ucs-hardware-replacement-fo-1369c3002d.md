@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-223082-uc-on-ucs-hardware-replacement-fo-1369c3002d
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.html
-retrieved_at: 2026-08-17T01:47:08.698761+00:00
+retrieved_at: 2026-09-28T05:52:52.803827+00:00
 ---
 
 UC on UCS: Hardware Replacement for BE6K, BE7K, MM400v, MM410V, CMS1000, CMS2000, TCS
@@ -1561,3 +1561,9 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Jun-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223574-troubleshoot-errors-when-adding-domain-html-96087625d2
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html
-retrieved_at: 2026-08-21T06:32:17.937600+00:00
+retrieved_at: 2026-09-28T05:47:10.214227+00:00
 ---
 
 Troubleshoot Errors When Adding Domain to the Webex Control Hub
@@ -98,3 +98,9 @@ Initial Release
 |---|---|---|
 | 2.0 | 24-Oct-2025 | Added a sentence in the Prerequisites section. |
 | 1.0 | 01-Aug-2025 | Initial Release |
+
+## Figuras
+
+![Domains](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain-00.png)
+
+![Add Verified Domains](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain-01.png)

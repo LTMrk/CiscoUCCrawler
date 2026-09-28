@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-212706-troubleshoot-noncisco-0cc0e79ad4
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.html
-retrieved_at: 2026-09-01T14:58:43.352301+00:00
+retrieved_at: 2026-09-28T05:53:47.267878+00:00
 ---
 
 Troubleshoot NonCisco Device shown on PCA 11
@@ -136,3 +136,9 @@ Andrea Cingolani
 ### This Document Applies to These Products
 
 - Hosted Collaboration Solution (HCS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

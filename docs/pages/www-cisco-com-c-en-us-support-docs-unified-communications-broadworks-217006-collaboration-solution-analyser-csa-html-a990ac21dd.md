@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217006-collaboration-solution-analyser-csa-html-a990ac21dd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.html
-retrieved_at: 2026-09-07T13:03:27.876236+00:00
+retrieved_at: 2026-09-28T05:51:23.999647+00:00
 ---
 
 Collaboration Solution Analyser (CSA) - BroadWorks Components
@@ -79,3 +79,25 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Mar-2021 | Initial Release |
+
+## Figuras
+
+![CSAmainPage](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-00.png)
+
+![CSAuploadFiles](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-01.png)
+
+![CSAtectSupport](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-02.png)
+
+![CSAsysInfoSLA](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-03.png)
+
+![CSAsysInfoSLA2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-04.png)
+
+![CSAxsLog](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-05.png)
+
+![CSAbwrksOverviewt](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-06.png)
+
+![CSAcallDetail](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-07.png)
+
+![CSAladder](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-08.png)
+
+![CSAdsig](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa-09.png)

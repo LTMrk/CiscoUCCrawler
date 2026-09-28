@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221074-understand-the-different-webex-webinar-t-html-2fec290a84
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.html
-retrieved_at: 2026-09-01T14:57:19.497354+00:00
+retrieved_at: 2026-09-28T05:47:47.525481+00:00
 ---
 
 Understand the Different Webex Webinar Template Levels
@@ -57,3 +57,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Oct-2023 | Initial Release |
+
+## Figuras
+
+![Webinar Schedule Meeting](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t-00.png)
+
+![Webinar Follow Up Template](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t-01.png)
+
+![Webinar Attendee List](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t-02.png)
+
+![Webinar Site Level Navigation](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t-03.png)
+
+![Site Level Webinar Follow Up Template](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

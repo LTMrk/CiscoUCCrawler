@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222013-troubleshoot-invalid-email-invitations-i-html-f6ce484adc
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.html
-retrieved_at: 2026-08-21T06:32:43.639457+00:00
+retrieved_at: 2026-09-28T05:46:23.906949+00:00
 ---
 
 Troubleshoot Invalid Email Invitations in Control Hub
@@ -75,3 +75,21 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 29-May-2024 | Initial Release |
+
+## Figuras
+
+![Overview Tab in Control Hub Menu](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-00.png)
+
+![Quick Links Card in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-01.png)
+
+![View Organization Tasks Option](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-02.png)
+
+![Resend Invitations Task](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-03.png)
+
+![Stop Resend Invitations Option](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-04.png)
+
+![Resend Status Stopped](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-222630-configure-deployment--e25c26b566
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.html
-retrieved_at: 2026-09-01T14:57:57.383726+00:00
+retrieved_at: 2026-09-28T05:53:51.289629+00:00
 ---
 
 Configure Deployment Mode from HCS to Enterprise Using SOAP API
@@ -122,3 +122,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 22-Nov-2024 | Initial Release |
+
+## Figuras
+
+![Postman POST request](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en-00.png)
+
+![Postman POST request](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en-01.png)
+
+![Postman's XML output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en-02.png)
+
+![Postman's XML output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en-03.png)
+
+![Postman's XML output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

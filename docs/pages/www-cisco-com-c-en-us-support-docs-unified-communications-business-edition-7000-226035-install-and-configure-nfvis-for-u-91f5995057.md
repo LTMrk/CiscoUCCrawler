@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-226035-install-and-configure-nfvis-for-u-91f5995057
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.html
-retrieved_at: 2026-09-02T01:39:42.394498+00:00
+retrieved_at: 2026-09-28T05:52:56.374828+00:00
 ---
 
 Install and Configure NFVIS-for-UC
@@ -69,6 +69,8 @@ See the UCS C240 M7 SFF Spec Sheet for more details and pictures.
 ## Appliance Port Usage Best Practices
 
 Each port on the appliance can carry VM data traffic, NFVIS-for-UC management traffic, or both. Multiple ports can be bonded into an EtherChannel (port-channel) for link redundancy, as long as the uplink switches support it (for example, vPC). Link Layer Discovery Protocol (LLDP) can also be enabled to help verify physical connectivity between appliance ports and upstream switch ports during initial setup and troubleshooting. The recommended practice is (similar to what was done with VMware) to dedicate one port exclusively to NFVIS-for-UC management (SSH, Web UI, and API) and use the remaining ports for VM data traffic. Ideally, management and VM data traffic are be on separate VLANs and connected to different uplink switches, though this is not strictly required. The number of ports needed for VM data traffic depend on your design, the products deployed, and the expected scale.
+
+Note : For 2 port BE models such as BE6K-M6-K9 and BE6K-M5-K9, implement network redundancy by isolating VM data and NFVIS-for-UC traffic into distinct VLANs, then aggregating both physical ports into a single Port Channel.
 
 ### Reference Setup
 
@@ -443,6 +445,14 @@ Brent Huff
 
 Technical Consulting Engineer
 
+### Customers Also Viewed
+
+- Configure NFVIS-for-UC Management Network
+
+- Upgrade ESXi for a Business Edition (BE6K/7K) via vKVM
+
+- UC on UCS: Hardware Replacement for BE6K, BE7K, MM400v, MM410V, CMS1000, CMS2000, TCS
+
 ### This Document Applies to These Products
 
 - Business Edition 7000 Version 15
@@ -457,3 +467,69 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 25-Aug-2026 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![BE7H-M5-K9 CIMC Launch vKVM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-00.png)
+
+![BE7H-M5-K9 Activate Virtual Devices](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-01.png)
+
+![BE7H-M5-K9 Map CD-DVD Virtual Media](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-02.png)
+
+![BE7H-M5-K9 NFVIS MAP ISO](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-03.png)
+
+![BE7H-M5-K9 F6 Options](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-04.png)
+
+![NFVIS Install Splash Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-05.png)
+
+![NFVIS Cisco NFV Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-06.png)
+
+![10_NFVIS navigate to Networks page Dashbaord](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-07.png)
+
+![NFVIS Networks Page Default Configuration on BE7H-M5-K9](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-08.png)
+
+![NFVIS Networks Add Page vm-net-10 config and new bridge](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-09.png)
+
+![NFVIS Networks Built](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-10.png)
+
+![NFVIS Images nav from dashboard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-11.png)
+
+![NFVIS Images Page No Images No Profiles Select File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-12.png)
+
+![NFVIS image Page expressway ready to upload](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-13.png)
+
+![NFVIS Image page expressway uploading](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-14.png)
+
+![NFVIS Image expressway upload images and profiles present](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-15.png)
+
+![NFVIS Image CUCM metadata selected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-16.png)
+
+![NFVIS Image CUCM Metadata selected and ready to upload](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-17.png)
+
+![NFVIS Image CUCM metadata uploaded ready for ISO Upload](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-18.png)
+
+![NFVIS Images and profiles all UCM and Expressway](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-19.png)
+
+![NFVIS Images and Profiles navigate to Deply](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-20.png)
+
+![NFVIS Deploy Drop Down Select VM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-21.png)
+
+![NFVIS Deploy UCM node selected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-22.png)
+
+![NFVIS Deploy UCM dotted line network](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-23.png)
+
+![NFVIS Deploy UCM network connection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-24.png)
+
+![NFVIS Deploy Expressway Networks connected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-25.png)
+
+![NFVIS Deploy Expressway Configs](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-26.png)
+
+![NFVIS Deploy to Configuration Virtual Machines Manage](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-27.png)
+
+![NFVIS Manage Deployments Terminal](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc-28.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

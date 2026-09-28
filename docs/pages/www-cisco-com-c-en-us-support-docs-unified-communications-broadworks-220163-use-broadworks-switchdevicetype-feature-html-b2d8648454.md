@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-220163-use-broadworks-switchdevicetype-feature-html-b2d8648454
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220163-use-broadworks-switchdevicetype-feature.html
-retrieved_at: 2026-09-07T13:02:16.080528+00:00
+retrieved_at: 2026-09-28T05:51:44.914231+00:00
 ---
 
 Use BroadWorks switchDeviceType Feature
@@ -120,3 +120,9 @@ Cisco Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 31-Jan-2023 | Initial Release |
 | 1.0 | 30-Jan-2023 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

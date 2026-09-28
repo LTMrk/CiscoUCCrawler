@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221842-use-qr-code-on-android-phone-to-join-web-html-4412b4b7a5
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.html
-retrieved_at: 2026-09-01T14:57:16.040333+00:00
+retrieved_at: 2026-09-28T05:47:52.529397+00:00
 ---
 
 Use QR Code on Android Phone to Join Webex Meeting
@@ -93,3 +93,9 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 03-Apr-2024 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217564-cap-needs-to-be-disabled-post-22-0-upgra-htm-0f3c55564e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.html
-retrieved_at: 2026-09-07T13:02:24.669439+00:00
+retrieved_at: 2026-09-28T05:51:36.743075+00:00
 ---
 
 CAP Needs to be Disabled Post 22.0 Upgrade on all Servers to Prevent OCS Errors
@@ -74,3 +74,9 @@ Contributed by Cisco Engineers
 |---|---|---|
 | 2.0 | 10-May-2019 | Initial Release |
 | 1.0 | 16-Nov-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

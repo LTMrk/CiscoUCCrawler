@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225439-identify-if-webex-app-is-restricted-in-html-ad5d6cef7a
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html
-retrieved_at: 2026-08-21T06:32:09.646452+00:00
+retrieved_at: 2026-09-28T05:47:14.679197+00:00
 ---
 
 Identify if Webex App is Restricted in Certain Regions
@@ -143,3 +143,17 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 28-Jan-2026 | Initial Release |
+
+## Figuras
+
+![Error as seen during Webex App Login](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in-00.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![POST Request as seen in Fiddler logs](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in-01.png)
+
+![451 Unknown Response as seen in Fiddler logs](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

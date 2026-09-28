@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-211321-finesse-silent-monitoring-getting-una-html-29f956e691
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/211321-Finesse-Silent-Monitoring-Getting-Una.html
-retrieved_at: 2026-08-21T06:42:58.426219+00:00
+retrieved_at: 2026-09-28T05:48:46.085413+00:00
 ---
 
 Error "Unable to Silent Monitor at this time (CTIError=Generic Error)" Occurs in Finesse Silent Monitoring
@@ -75,3 +75,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Jun-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

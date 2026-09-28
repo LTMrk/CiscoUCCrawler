@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217558-configuring-http-2-for-broadworks-nps-wi-htm-7eb23ae6ea
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.html
-retrieved_at: 2026-09-07T13:02:20.297493+00:00
+retrieved_at: 2026-09-28T05:51:32.593531+00:00
 ---
 
 Configuring HTTP/2 for BroadWorks NPS with Apple Push Notification Service
@@ -181,3 +181,9 @@ Contributed by Cisco Engineers
 |---|---|---|
 | 2.0 | 31-Mar-2021 | Initial Release |
 | 1.0 | 11-Nov-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

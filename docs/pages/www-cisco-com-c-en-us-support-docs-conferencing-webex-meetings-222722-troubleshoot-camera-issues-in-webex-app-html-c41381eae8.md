@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-222722-troubleshoot-camera-issues-in-webex-app-html-c41381eae8
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.html
-retrieved_at: 2026-09-01T14:56:07.684611+00:00
+retrieved_at: 2026-09-28T05:47:56.099074+00:00
 ---
 
 Troubleshoot Camera Issues in Webex App on Windows
@@ -171,3 +171,21 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-Jan-2025 | Initial Release |
+
+## Figuras
+
+![Allow Webex to Access Your Camera](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-00.png)
+
+![Privacy and Security](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-01.png)
+
+![No Camera Found](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-02.png)
+
+![Update Device](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-03.png)
+
+![Camera is Used by Another Application](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-04.png)
+
+![Cannot Connect to Camera](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

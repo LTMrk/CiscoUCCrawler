@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-webrtc-server-221083-compare-cvi-and-webrtc-differe-af82483efc
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.html
-retrieved_at: 2026-09-07T13:01:59.494422+00:00
+retrieved_at: 2026-09-28T05:50:50.656653+00:00
 ---
 
 Compare CVI and WebRTC (Differences and Configuring)
@@ -111,3 +111,43 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Oct-2023 | Initial Release |
+
+## Figuras
+
+![CVI VI MT Call Flow](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-00.png)
+
+![Web RTC Call Flow](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-01.png)
+
+![VIMT Licenses](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-02.png)
+
+![customer details image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-03.png)
+
+![Video Integration setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-04.png)
+
+![Video Integration Prerequisites](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-05.png)
+
+![Video Integration setup 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-06.png)
+
+![Microsoft Permissions request popup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-07.png)
+
+![Video Integration Setup 3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-08.png)
+
+![Video Intergration settings page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-09.png)
+
+![powershell image 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-10.png)
+
+![Powershell image 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-11.png)
+
+![Powershell image 3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-12.png)
+
+![Enterprise Application image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-13.png)
+
+![Hybrid Calendar setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-14.png)
+
+![Hybrid Calendar Setup 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-15.png)
+
+![Microsoft Permissions requested](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-16.png)
+
+![Devices Setting enable MS Teams](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-17.png)
+
+![Users Hybrid Services Allow Calendar Services](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and-18.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-html-e179c25824
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html
-retrieved_at: 2026-08-17T00:53:41.942285+00:00
+retrieved_at: 2026-09-28T05:45:58.157332+00:00
 ---
 
 Understand eDiscovery Reports to Search through any Conversation
@@ -122,3 +122,29 @@ Initial Release
 |---|---|---|
 | 3.0 | 25-Sep-2023 | Initial Release |
 | 1.0 | 01-Sep-2022 | Initial Release |
+
+## Figuras
+
+![eDiscovery Search & Generate](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-00.png)
+
+![Search & Extraction - eDiscovery Report](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-01.png)
+
+![Download Manager](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-02.png)
+
+![Troubleshooting - View eDiscovery](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-03.png)
+
+![Search & Generate Compliance Report](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-04.png)
+
+![Download for Windows 10](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-05.png)
+
+![Report Tab and Download Status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-06.png)
+
+![eDiscovery Report Overview](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-07.png)
+
+![eDiscovery Report Overview - Summary or Full](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-08.png)
+
+![Download In-progress](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-09.png)
+
+![Open the Report or Dismiss It](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-10.png)
+
+![eDiscovery output](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search-11.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-211530-unsupported-configuratio-433189725a
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.html
-retrieved_at: 2026-08-21T02:50:40.969206+00:00
+retrieved_at: 2026-09-28T05:49:40.384926+00:00
 ---
 
 Unsupported Configurations for UCCX and SocialMiner Integration for Non-Voice Features
@@ -83,3 +83,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 01-Aug-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

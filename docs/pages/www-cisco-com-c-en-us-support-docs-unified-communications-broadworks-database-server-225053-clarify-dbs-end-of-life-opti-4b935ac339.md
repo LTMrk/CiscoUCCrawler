@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-database-server-225053-clarify-dbs-end-of-life-opti-4b935ac339
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-database-server/225053-clarify-dbs-end-of-life-options.html
-retrieved_at: 2026-09-07T13:01:00.572223+00:00
+retrieved_at: 2026-09-28T05:50:46.419027+00:00
 ---
 
 Clarify DBS End of Life Options
@@ -82,6 +82,22 @@ BroadWorks release 2025.07 upgrades the Java JDK to version 11. As a result, the
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Mike Dibert
+
+Customer Delivery Leader
+
+### This Document Applies to These Products
+
+- BroadWorks Database Server
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 25-Sep-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

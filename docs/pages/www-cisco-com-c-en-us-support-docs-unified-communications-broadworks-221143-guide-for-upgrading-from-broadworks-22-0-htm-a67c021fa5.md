@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221143-guide-for-upgrading-from-broadworks-22-0-htm-a67c021fa5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.html
-retrieved_at: 2026-09-07T13:01:38.273634+00:00
+retrieved_at: 2026-09-28T05:51:57.343040+00:00
 ---
 
 Upgrade from BroadWorks Release 22.0
@@ -185,3 +185,9 @@ Cisco Technical Leader
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Nov-2023 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

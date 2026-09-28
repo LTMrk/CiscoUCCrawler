@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-221005-upgrade-esxi-for-a-business-editi-1deba02550
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.html
-retrieved_at: 2026-08-17T01:47:04.016593+00:00
+retrieved_at: 2026-09-28T05:52:47.231133+00:00
 ---
 
 Upgrade ESXi for a Business Edition (BE6K/7K) via vKVM
@@ -286,3 +286,69 @@ Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 16-Mar-2026 | Updated SEO, Alt Text, and Formatting. |
 | 1.0 | 29-Sep-2023 | Initial Release |
+
+## Figuras
+
+![Compatibility Tool Example](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-00.png)
+
+![Compatibility Tool Results](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-01.png)
+
+![CIMC Boot Up Virtual Drive](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-02.png)
+
+![VMware portal ISO Download Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-03.png)
+
+![ESXi ISO Download Selection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-04.png)
+
+![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![Server Properties and CIMC Information](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-05.png)
+
+![Activate Virtual Devices Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-06.png)
+
+![Map CD/DVD Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-07.png)
+
+![Map Image File Window](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-08.png)
+
+![Validate Virtual Drive Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-09.png)
+
+![Reset System Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-10.png)
+
+![Server Booting Up Window](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-11.png)
+
+![Server Boot Menu Selection Window](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-12.png)
+
+![Boot Menu Window](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-13.png)
+
+![ESXi Installer Selection Window](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-14.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Loading ESXi Installer Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-15.png)
+
+![Welcome ESXi Installation Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-16.png)
+
+![EULA Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-17.png)
+
+![ESXi Installer Scanning Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-18.png)
+
+![Select Disk Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-19.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Upgrade Selection Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-20.png)
+
+![Confirm Upgrade Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-21.png)
+
+![Upgrade in Progress Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-22.png)
+
+![Upgrade Complete Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-23.png)
+
+![Rebooting Server Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-24.png)
+
+![Upgrade Successful Screen](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6-25.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

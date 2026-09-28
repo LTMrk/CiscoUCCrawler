@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-116215-configure-dblookup-00-2d0acd5465
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00.html
-retrieved_at: 2026-08-21T04:22:07.058284+00:00
+retrieved_at: 2026-09-28T05:49:11.110133+00:00
 ---
 
 ICM DBLookup Function Configuration Example
@@ -122,3 +122,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 27-May-2013 | Initial Release |
+
+## Figuras
+
+![116215-configure-dblookup-00-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-00.png)
+
+![116215-configure-dblookup-00-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-01.png)
+
+![116215-configure-dblookup-00-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-02.png)
+
+![116215-configure-dblookup-00-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-03.png)
+
+![116215-configure-dblookup-00-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-04.png)
+
+![116215-configure-dblookup-00-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-05.png)
+
+![116215-configure-dblookup-00-06.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-06.png)
+
+![116215-configure-dblookup-00-07.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00-07.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218072-configure-a-user-as-a-full-external-admi-html-b6dcc42180
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html
-retrieved_at: 2026-08-20T21:12:36.661128+00:00
+retrieved_at: 2026-09-28T05:45:49.800785+00:00
 ---
 
 Configure a User as a Full External Administrator on Control Hub
@@ -65,3 +65,15 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-Aug-2022 | Initial Release |
+
+## Figuras
+
+![Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi-00.png)
+
+![Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi-01.png)
+
+![Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi-02.png)
+
+![Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi-03.png)
+
+![Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi-04.png)

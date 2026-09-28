@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216691-call-center-call-forward-not-available-html-b30b89aa3e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.html
-retrieved_at: 2026-09-07T13:02:53.961481+00:00
+retrieved_at: 2026-09-28T05:51:07.195815+00:00
 ---
 
 Call Center - Call Forward Not Available - Need to use Call Forward Busy
@@ -61,3 +61,9 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - BroadWorks
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

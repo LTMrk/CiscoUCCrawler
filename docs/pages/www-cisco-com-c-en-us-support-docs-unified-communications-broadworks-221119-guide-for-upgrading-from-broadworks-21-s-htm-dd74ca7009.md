@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221119-guide-for-upgrading-from-broadworks-21-s-htm-dd74ca7009
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.html
-retrieved_at: 2026-09-07T13:01:42.305636+00:00
+retrieved_at: 2026-09-28T05:51:53.117114+00:00
 ---
 
 Guide for Upgrading from BroadWorks 21.sp1
@@ -195,3 +195,9 @@ Cisco Technical Lead
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 18-Oct-2023 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

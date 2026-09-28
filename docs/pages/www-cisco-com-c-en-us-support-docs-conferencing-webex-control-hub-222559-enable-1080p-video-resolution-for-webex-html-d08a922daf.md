@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222559-enable-1080p-video-resolution-for-webex-html-d08a922daf
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html
-retrieved_at: 2026-08-21T06:29:42.714107+00:00
+retrieved_at: 2026-09-28T05:46:36.656340+00:00
 ---
 
 Enable 1080p Video Resolution for Webex App
@@ -140,7 +140,37 @@ Updated Formatting.
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Petros Sitaras
+
+Technical Consulting Engineer
+
+### This Document Applies to These Products
+
+- Webex Control Hub
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 2.0 | 09-May-2025 | Updated Formatting. |
 | 1.0 | 04-Nov-2024 | Initial Release |
+
+## Figuras
+
+![Video and Recordings Settings under Meetings Section in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex-00.png)
+
+![Video Resolution Settings for Individual User in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![Camera Resolution Settings in Webex App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex-02.png)
+
+![Video and Recordings Settings under Meetings Section in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex-03.png)
+
+![Video Resolution Settings for Individual User in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-socialminer-200892-integrate-uccx-with-socialminer-for-agen-ht-afa800b9d5
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.html
-retrieved_at: 2026-09-01T14:57:27.810399+00:00
+retrieved_at: 2026-09-28T05:49:03.163904+00:00
 ---
 
 Integrate UCCX with SocialMiner for Agent Email - Exchange Best Practices
@@ -620,3 +620,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Oct-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

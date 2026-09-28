@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-html-4329b170a0
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html
-retrieved_at: 2026-08-20T21:12:44.865803+00:00
+retrieved_at: 2026-09-28T05:45:54.011749+00:00
 ---
 
 Configure Directory Connector to Soft-Delete Users in Dry Run
@@ -135,3 +135,35 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Aug-2022 | Initial Release |
+
+## Figuras
+
+![User Status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-00.png)
+
+![Windows Server Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-01.png)
+
+![Active Directory User](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-02.png)
+
+![Delete user](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-03.png)
+
+![Power Shell user deletion 1](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-04.png)
+
+![Power Shell user deletion 2](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-05.png)
+
+![Power Shell user deletion 3](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-06.png)
+
+![Power Shell user deletion 4](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-07.png)
+
+![Dry Run](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-08.png)
+
+![Dry Run Report](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-09.png)
+
+![User Status Inactive](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-10.png)
+
+![Dry Run](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-11.png)
+
+![Soft Deleted User](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-12.png)
+
+![Soft Deleted User 2](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-13.png)
+
+![User Status Inactive](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de-14.png)

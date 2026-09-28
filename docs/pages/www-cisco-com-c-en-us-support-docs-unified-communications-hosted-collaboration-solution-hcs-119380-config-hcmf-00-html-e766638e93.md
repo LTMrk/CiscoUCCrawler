@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-119380-config-hcmf-00-html-e766638e93
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.html
-retrieved_at: 2026-09-01T14:58:30.942768+00:00
+retrieved_at: 2026-09-28T05:53:34.849508+00:00
 ---
 
 Configure HCM-F Service Inventory Report
@@ -275,3 +275,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Hosted Collaboration Solution (HCS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

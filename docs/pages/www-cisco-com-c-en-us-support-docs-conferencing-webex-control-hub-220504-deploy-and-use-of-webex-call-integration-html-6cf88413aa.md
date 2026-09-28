@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-html-6cf88413aa
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html
-retrieved_at: 2026-08-20T21:10:28.666890+00:00
+retrieved_at: 2026-09-28T05:46:15.412596+00:00
 ---
 
 Deploy and Use of Webex Call Integration with Microsoft Teams
@@ -185,3 +185,53 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Jun-2023 | Initial Release |
+
+## Figuras
+
+![Webex Call App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-00.png)
+
+![Status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-01.png)
+
+![Permission Policies](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-02.png)
+
+![Allow Apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-03.png)
+
+![Drop-down Menu](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-04.png)
+
+![Allow Apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-05.png)
+
+![Add App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-06.png)
+
+![Apps to Add](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-07.png)
+
+![Apply Changes](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-08.png)
+
+![Confirm Button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-09.png)
+
+![Setup Policies](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-10.png)
+
+![Add Apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-11.png)
+
+![Search Webex Call](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-12.png)
+
+![Add App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-13.png)
+
+![Add Apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-14.png)
+
+![Search Webex Call](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-15.png)
+
+![Add App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-16.png)
+
+![Pinned Apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-17.png)
+
+![Confirm Button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-18.png)
+
+![Teams App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-19.png)
+
+![Sign In](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-20.png)
+
+![Password](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-21.png)
+
+![Webex Log In](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-22.png)
+
+![Teams App](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration-23.png)

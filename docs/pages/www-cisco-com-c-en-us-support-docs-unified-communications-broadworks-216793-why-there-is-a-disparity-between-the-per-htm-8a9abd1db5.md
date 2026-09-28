@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216793-why-there-is-a-disparity-between-the-per-htm-8a9abd1db5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.html
-retrieved_at: 2026-09-07T13:02:45.220826+00:00
+retrieved_at: 2026-09-28T05:51:15.649234+00:00
 ---
 
 Why there is a disparity between the performance measurement bwNumberOfUsers and User License Count?
@@ -35,3 +35,9 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - BroadWorks
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

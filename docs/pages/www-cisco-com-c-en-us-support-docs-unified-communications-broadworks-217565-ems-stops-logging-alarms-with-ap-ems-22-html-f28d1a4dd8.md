@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217565-ems-stops-logging-alarms-with-ap-ems-22-html-f28d1a4dd8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.html
-retrieved_at: 2026-09-07T13:03:23.269386+00:00
+retrieved_at: 2026-09-28T05:51:41.054639+00:00
 ---
 
 EMS stops logging alarms with AP.ems.22.0.1123.ap362164 workaround
@@ -76,3 +76,9 @@ Contributed by Cisco Engineers
 |---|---|---|
 | 2.0 | 17-Nov-2021 | Initial Release |
 | 1.0 | 17-Nov-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

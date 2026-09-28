@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-212684-troubleshoot-finesse-mobile-agent-html-61cf994fb6
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212684-troubleshoot-finesse-mobile-agent.html
-retrieved_at: 2026-08-21T06:43:06.898185+00:00
+retrieved_at: 2026-09-28T05:48:54.350210+00:00
 ---
 
 Troubleshoot Finesse Mobile Agent
@@ -117,3 +117,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Jan-2018 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

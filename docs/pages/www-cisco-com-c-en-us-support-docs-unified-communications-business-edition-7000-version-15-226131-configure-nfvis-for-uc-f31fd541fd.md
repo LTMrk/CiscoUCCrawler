@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-f31fd541fd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html
-retrieved_at: 2026-09-02T01:39:50.690034+00:00
+retrieved_at: 2026-09-28T05:52:30.405337+00:00
 ---
 
 Configure NFVIS-for-UC OVS
@@ -98,20 +98,6 @@ BE7KH2-NFVIS# show system networks NETWORK BRIDGE PORTS TYPE VLAN --------------
 
 Initial Release
 
-### Contributed by Cisco Engineers
-
-Ben Wollak
-
-Technical Consulting Engineering Technical Leader
-
-Brent Huff
-
-Technical Consulting Engineer
-
-### This Document Applies to These Products
-
-- Business Edition 7000 Version 15
-
 | Usage | VLAN | IP | Gateway | pNIC | Bridge | Network | Uplink Switch Name | Uplink Switch Port |
 |---|---|---|---|---|---|---|---|---|
 | Appliance OOB CIMC | 100 | 10.0.100.10/24 | 10.0.100.1/24 | CIMC Management |  |  | mgmt-switch | Eth1/1 |
@@ -122,3 +108,15 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Jul-2026 | Initial Release |
+
+## Figuras
+
+![Cisco NFV Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs-00.png)
+
+![Navigate to Networks Page Dashboard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs-01.png)
+
+![Networks Page Default Configuration on BE7H-M5-K9](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs-02.png)
+
+![NVIS Networks Add Page vm-net-10 config and New Bridge](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs-03.png)
+
+![Networks Built](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs-04.png)

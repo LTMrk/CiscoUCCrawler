@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225067-upgrade-broadworks-adp-server-with-html-bd45662842
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.html
-retrieved_at: 2026-09-07T13:01:26.133482+00:00
+retrieved_at: 2026-09-28T05:52:09.424786+00:00
 ---
 
 Upgrade BroadWorks ADP Server with Mixed Applications
@@ -100,6 +100,30 @@ Note: The automatic application update behavior described is specific to the Jav
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Mike Dibert
+
+BroadWorks TAC
+
+Cormac Sloan
+
+BroadWorks TAC
+
+Artur Tyranski
+
+BroadWorks TAC
+
+### This Document Applies to These Products
+
+- BroadWorks
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Sep-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

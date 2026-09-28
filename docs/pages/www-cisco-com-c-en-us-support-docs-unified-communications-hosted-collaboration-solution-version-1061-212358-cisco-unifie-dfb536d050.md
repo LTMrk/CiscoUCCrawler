@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-1061-212358-cisco-unifie-dfb536d050
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.html
-retrieved_at: 2026-09-01T14:58:35.035936+00:00
+retrieved_at: 2026-09-28T05:53:55.996721+00:00
 ---
 
 Cisco Unified Communication Domain Manager 8.x (Cisco UCDM) usmcli Password Recovery
@@ -87,3 +87,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 22-Oct-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

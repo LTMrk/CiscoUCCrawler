@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200937-finesse-agent-supervisor-queue-skillgrou-html-0717d75f67
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200937-Finesse-Agent-Supervisor-Queue-SkillGrou.html
-retrieved_at: 2026-08-21T06:43:02.823216+00:00
+retrieved_at: 2026-09-28T05:48:42.067010+00:00
 ---
 
 Finesse Agent/Supervisor Queue/SkillGroup Stats Update Problem
@@ -207,3 +207,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 16-Jan-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

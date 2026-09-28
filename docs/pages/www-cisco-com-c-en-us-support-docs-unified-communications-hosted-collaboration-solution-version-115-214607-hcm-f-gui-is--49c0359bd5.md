@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-115-214607-hcm-f-gui-is--49c0359bd5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.html
-retrieved_at: 2026-09-01T14:58:47.576846+00:00
+retrieved_at: 2026-09-28T05:54:00.060246+00:00
 ---
 
 HCM-F services in STOPPED state after appliance upgrade
@@ -148,3 +148,9 @@ Cisco CX
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Jul-2019 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

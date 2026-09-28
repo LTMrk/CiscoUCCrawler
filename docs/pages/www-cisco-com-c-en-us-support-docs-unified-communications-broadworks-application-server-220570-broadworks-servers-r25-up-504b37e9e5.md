@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220570-broadworks-servers-r25-up-504b37e9e5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.html
-retrieved_at: 2026-09-07T13:01:17.333675+00:00
+retrieved_at: 2026-09-28T05:50:42.617221+00:00
 ---
 
 BroadWorks Servers R25 Upgrade Method Of Procedure
@@ -1876,3 +1876,13 @@ Initial Release
 |---|---|---|
 | 2.0 | 28-Oct-2025 | Re-allined to publication standards and removed information about TAC performed upgrades. |
 | 1.0 | 21-Jul-2023 | Initial Release |
+
+## Figuras
+
+![Upgrade order r25](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop-00.png)
+
+![DBS upgrade sequence](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![DBS revert sequence](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop-02.png)

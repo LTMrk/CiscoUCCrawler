@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226136-configure-nfvis-for-uc-ed291d9098
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.html
-retrieved_at: 2026-09-02T01:39:46.493417+00:00
+retrieved_at: 2026-09-28T05:52:38.826243+00:00
 ---
 
 Configure NFVIS-for-UC Management Network
@@ -146,3 +146,13 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Jul-2026 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Cisco NFV Login](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management-00.png)
+
+![Navigate to Networks Page Dashboard](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management-01.png)
+
+![Networks Page Default Configuration on BE7H-M5-K9](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management-02.png)

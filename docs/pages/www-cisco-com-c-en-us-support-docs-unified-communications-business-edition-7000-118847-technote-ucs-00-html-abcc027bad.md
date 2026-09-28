@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-118847-technote-ucs-00-html-abcc027bad
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/118847-technote-ucs-00.html
-retrieved_at: 2026-08-17T01:47:53.945485+00:00
+retrieved_at: 2026-09-28T05:52:43.466137+00:00
 ---
 
 BE7000 Migration from Single RAID5 Volume to Dual RAID5 Arrays without VM Rebuild
@@ -139,3 +139,9 @@ Cisco TAC Engineer.
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Mar-2015 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

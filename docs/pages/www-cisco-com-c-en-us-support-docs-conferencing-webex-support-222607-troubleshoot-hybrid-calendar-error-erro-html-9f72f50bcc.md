@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-support-222607-troubleshoot-hybrid-calendar-error-erro-html-9f72f50bcc
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.html
-retrieved_at: 2026-09-01T14:57:11.222036+00:00
+retrieved_at: 2026-09-28T05:48:29.698686+00:00
 ---
 
 Troubleshoot Hybrid Calendar error "Error validating specified account with the organizations verified domains."
@@ -134,3 +134,17 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Nov-2024 | Initial Release |
+
+## Figuras
+
+![Control Hub error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro-00.png)
+
+![HAR file](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro-01.png)
+
+![Claim Domain](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro-02.png)
+
+![Error fixed](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro-03.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

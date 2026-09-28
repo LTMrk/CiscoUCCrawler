@@ -1,15 +1,5 @@
 {
- "added": [
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/agents/AGENTS.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/adr/NNNN-decision-title.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/adr/index.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/architecture.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/getting-started.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/index.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/service.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/specs/README.template.md",
-  "webex/webex-js-sdk/.sdd/templates/repo-standards/docs/specs/module/README.template.md"
- ],
+ "added": [],
  "modified": [],
  "removed": []
 }

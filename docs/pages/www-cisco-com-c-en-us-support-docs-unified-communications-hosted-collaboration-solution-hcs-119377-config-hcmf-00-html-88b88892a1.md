@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-119377-config-hcmf-00-html-88b88892a1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00.html
-retrieved_at: 2026-09-01T14:58:26.366436+00:00
+retrieved_at: 2026-09-28T05:53:30.308557+00:00
 ---
 
 Configure HCM-F 10.X License and HLM Workflow
@@ -133,3 +133,27 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 20-Nov-2015 | Initial Release |
+
+## Figuras
+
+![119377-config-hcmf-00-00.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-00.jpeg)
+
+![119377-config-hcmf-00-01.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-01.jpeg)
+
+![119377-config-hcmf-00-02.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-02.jpeg)
+
+![119377-config-hcmf-00-03.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-03.jpeg)
+
+![119377-config-hcmf-00-04.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-04.jpeg)
+
+![119377-config-hcmf-00-05.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-05.jpeg)
+
+![119377-config-hcmf-00-06.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-06.jpeg)
+
+![119377-config-hcmf-00-07.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-07.jpeg)
+
+![119377-config-hcmf-00-08.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00-08.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

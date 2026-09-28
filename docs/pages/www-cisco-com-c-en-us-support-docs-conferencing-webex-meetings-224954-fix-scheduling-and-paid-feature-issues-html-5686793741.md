@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224954-fix-scheduling-and-paid-feature-issues-html-5686793741
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224954-fix-scheduling-and-paid-feature-issues.html
-retrieved_at: 2026-09-01T14:56:58.619166+00:00
+retrieved_at: 2026-09-28T05:48:12.606441+00:00
 ---
 
 Fix Scheduling and Paid Feature Issues after Activation (.My)
@@ -105,3 +105,13 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 18-Sep-2025 | Initial Release |
+
+## Figuras
+
+![Control Hub (Users)](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224954-fix-scheduling-and-paid-feature-issues-00.png)
+
+![Control Hub (Meeting Session Types)](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224954-fix-scheduling-and-paid-feature-issues-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

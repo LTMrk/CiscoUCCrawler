@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200375-cisco-unified-cdm-mod-4375144148
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.html
-retrieved_at: 2026-09-01T14:58:51.695058+00:00
+retrieved_at: 2026-09-28T05:53:43.131859+00:00
 ---
 
 Cisco Unified CDM Model that Supports Macros
@@ -103,3 +103,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 25-May-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

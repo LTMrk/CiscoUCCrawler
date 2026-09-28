@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-222768-record-webex-sessions-automatically-html-f21c88d087
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically.html
-retrieved_at: 2026-09-01T14:56:03.539485+00:00
+retrieved_at: 2026-09-28T05:48:00.271595+00:00
 ---
 
 Record Webex Sessions Automatically
@@ -125,3 +125,21 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 13-Feb-2025 | Initial Release |
+
+## Figuras
+
+![Allow Overage](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically-00.png)
+
+![Enable automatic recording](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Automatically record all meetings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically-02.png)
+
+![Automatic recording](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically-03.png)
+
+![Automatic recording option disabled](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

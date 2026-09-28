@@ -502,6 +502,57 @@ async def descubrir_por_sitemap(politica, semillas, solo_config=False):
 # Bucle principal
 # ---------------------------------------------------------------------------
 
+# Minimo de markdown para considerar que una pagina trae cuerpo propio.
+MIN_MARKDOWN = 200
+
+
+def componer_frontera(candidatas, pendientes, debe_visitar):
+    """Orden en que se encolan las URL. Devuelve (orden, nuevas, arrastradas).
+
+    Primero las candidatas (semillas y sitemaps de config), despues la
+    frontera arrastrada. Al reves quedaban detras de 7.388 URL pendientes:
+    con 120 por lote son 62 lotes, mas de once horas, y la frontera crece
+    por el camino, asi que podian no llegar nunca. Se vio en la ejecucion
+    del 2026-08-24T21:16, con 120 URL procesadas y cero de
+    developer.cisco.com.
+
+    La frontera arrastrada NO se filtra aqui por `debe_visitar`, a
+    diferencia de las candidatas: ya se filtra dentro del bucle, justo antes
+    de pedir cada URL, que es donde el TTL esta al dia.
+    """
+    orden, encolados = [], set()
+    nuevas = 0
+    for url in sorted(candidatas):
+        if url in encolados or not debe_visitar(url):
+            continue
+        orden.append((url, 0))
+        encolados.add(url)
+        nuevas += 1
+
+    arrastradas = 0
+    for url, profundidad in pendientes:
+        if url in encolados:
+            continue
+        orden.append((url, profundidad))
+        encolados.add(url)
+        arrastradas += 1
+
+    return orden, nuevas, arrastradas
+
+
+def clasificar_cuerpo(markdown, enlaces_internos, minimo=MIN_MARKDOWN):
+    """"contenido" | "descubrimiento" | "fallo" para una pagina sanitizada.
+
+    Una pagina sin cuerpo pero CON enlaces no es un fallo: en PubHub la
+    pagina de seccion es el unico sitio desde el que se descubren los
+    capitulos del doc-set, y tratarla como fallo la aparca catorce dias por
+    el backoff y se lleva por delante medio doc-set.
+    """
+    if len(markdown or "") >= minimo:
+        return "contenido"
+    return "descubrimiento" if enlaces_internos else "fallo"
+
+
 async def deep_crawl():
     # Import diferido: ver la nota de la cabecera del modulo.
     from crawl4ai import (
@@ -608,21 +659,11 @@ async def deep_crawl():
     #
     # Ponerlas delante no las recrawlea en cada lote: debe_visitar las filtra
     # en cuanto tienen TTL vigente, así que el coste es de un solo lote.
-    nuevas = 0
-    for u in sorted(candidatas):
-        if u in encolados or not manifiesto.debe_visitar(u):
-            continue
-        await cola.put((u, 0))
-        encolados.add(u)
-        nuevas += 1
-
-    arrastradas = 0
-    for u, d in pendientes:
-        if u in encolados:
-            continue
+    orden, nuevas, arrastradas = componer_frontera(
+        candidatas, pendientes, manifiesto.debe_visitar)
+    for u, d in orden:
         await cola.put((u, d))
         encolados.add(u)
-        arrastradas += 1
 
     manifiesto.deltas["semillas"] = nuevas
     log_info(f"Frontera: {cola.qsize()} URLs | {nuevas} desde semillas y "
@@ -844,23 +885,19 @@ async def deep_crawl():
                         # plantilla; el filtrado real se aplica al consolidar.
                         detector.observar(bloques)
 
-                    if len(markdown) < 200:
-                        # Con enlaces internos no es un fallo: es una página
-                        # de sección sin cuerpo propio. Las de PubHub son
-                        # así, y son el ÚNICO sitio desde el que se
-                        # descubren los capítulos del doc-set; aparcarlas
-                        # 14 días con el backoff de fallo deja fuera del
-                        # corpus la mitad de la referencia de API de DevNet.
-                        enlaces_internos = (getattr(resultado, "links", {})
-                                            or {}).get("internal") or []
-                        if enlaces_internos:
-                            manifiesto.registrar_descubrimiento(url)
-                            log_info(f"Página de sección sin cuerpo propio "
-                                     f"({len(markdown)} chars, "
-                                     f"{len(enlaces_internos)} enlaces): {url}")
-                        else:
-                            manifiesto.registrar_fallo(url)
-                            log_error(url, f"Markdown insuficiente tras sanitizar ({len(markdown)} chars).")
+                    enlaces_internos = (getattr(resultado, "links", {})
+                                        or {}).get("internal") or []
+                    clase = clasificar_cuerpo(markdown, enlaces_internos)
+                    if clase == "descubrimiento":
+                        manifiesto.registrar_descubrimiento(url)
+                        log_info(f"Página de sección sin cuerpo propio "
+                                 f"({len(markdown)} chars, "
+                                 f"{len(enlaces_internos)} enlaces): {url}")
+                        markdown = ""
+                    elif clase == "fallo":
+                        manifiesto.registrar_fallo(url)
+                        log_error(url, f"Markdown insuficiente tras sanitizar "
+                                       f"({len(markdown)} chars).")
                         markdown = ""
 
                 # -- Delta ---------------------------------------------------

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224955-configure-guest-email-requirement-for-html-230b4ecca1
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.html
-retrieved_at: 2026-09-01T14:56:24.956290+00:00
+retrieved_at: 2026-09-28T05:48:16.779076+00:00
 ---
 
 Configure Guest Email Requirement for Webex Meetings
@@ -98,3 +98,15 @@ Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 10-Oct-2025 | Initial Release |
 | 1.0 | 09-Oct-2025 | Initial Release |
+
+## Figuras
+
+![Select the Meetings Site](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for-00.png)
+
+![Navigate to Security Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for-01.png)
+
+![Enable the Option to Require Email Address From Guests](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

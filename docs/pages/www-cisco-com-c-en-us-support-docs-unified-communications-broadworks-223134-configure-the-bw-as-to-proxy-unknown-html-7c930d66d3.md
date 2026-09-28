@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-223134-configure-the-bw-as-to-proxy-unknown-html-7c930d66d3
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/223134-configure-the-bw-as-to-proxy-unknown.html
-retrieved_at: 2026-09-07T13:02:07.618410+00:00
+retrieved_at: 2026-09-28T05:52:05.411520+00:00
 ---
 
 Configure the BW AS to Proxy Unknown Headers and Options
@@ -169,3 +169,11 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Jun-2025 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

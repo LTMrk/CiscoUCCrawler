@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222998-troubleshoot-saml-assertion-expired-sso-html-5a8fffdd19
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html
-retrieved_at: 2026-08-21T06:32:27.038553+00:00
+retrieved_at: 2026-09-28T05:47:01.619865+00:00
 ---
 
 Troubleshoot SAML Assertion Expired SSO Configured with ADFS IdP
@@ -100,3 +100,7 @@ Initial Release
 |---|---|---|
 | 2.0 | 13-May-2025 | Initial Release, content update, removed bad links, removed future tense. |
 | 1.0 | 06-May-2025 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

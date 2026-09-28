@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-214861-exception-meetings-on-google-calendar-html-5ee57c8dd0
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.html
-retrieved_at: 2026-09-01T14:56:45.772115+00:00
+retrieved_at: 2026-09-28T05:47:31.125432+00:00
 ---
 
 Exception meetings on Google Calendar
@@ -107,3 +107,9 @@ Cisco TAC Engineers
 ### This Document Applies to These Products
 
 - WebEx Meetings
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
