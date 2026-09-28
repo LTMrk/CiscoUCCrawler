@@ -16,6 +16,7 @@ python3 src/copilot_pack.py --fuente devnet --zip   # ZIP solo de DevNet
 python3 tools/probe_devnet.py      # sondeo de developer.cisco.com (necesita red)
 python3 tools/purgar_fuera_de_allowlist.py          # informe; --aplicar borra
 python3 tools/evaluar_corpus.py    # mide si el corpus responde (33 s, sin red)
+bash tools/truncar_historia.sh     # informe; --aplicar colapsa la historia
 ```
 
 Dos workflows, y la separación es deliberada: `etl.yml` **extrae** (rastreo,
@@ -229,6 +230,18 @@ debería", sospecha del consumo antes que de las regex.
   cubre las dos piezas que producen respuestas falsas, la normalización por
   longitud y el idf; `K1` no está cubierto porque es una constante de ajuste
   y fijarla en una prueba solo congelaría un valor arbitrario.
+- **El repositorio pesa 886 MB** (281 MiB de pack, 588 MB de `docs/`,
+  17 MB de `logs/`) y crece entre 0,5 y 2 GB al año: cada lote commitea de
+  60 a 110 documentos modificados, a 35 KB de media. El 96% es salida
+  regenerable; lo único irreemplazable es `logs/manifest.json`.
+  `tools/truncar_historia.sh` colapsa la historia a un commit raíz
+  conservando el árbol. En un repositorio de prueba con el mismo patrón de
+  modificaciones, el pack baja de 36,94 MiB a 1,57 MiB.
+- **Archivar la historia en una rama o una etiqueta no ahorra nada**, y es
+  el error fácil: los objetos siguen alcanzables y el pack pesa igual. Por
+  eso `truncar_historia.sh` archiva en un *bundle*, un fichero fuera de
+  git. Y GitHub no recoge la basura a demanda: lo que baja de inmediato es
+  lo que descarga un clon nuevo, que es lo que le importa al ETL.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:
