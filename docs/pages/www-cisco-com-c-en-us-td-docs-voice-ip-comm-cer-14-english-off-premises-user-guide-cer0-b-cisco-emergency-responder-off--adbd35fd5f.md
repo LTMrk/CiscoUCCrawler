@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14-english-off-premises-user-guide-cer0-b-cisco-emergency-responder-off--adbd35fd5f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-1401/cer0_b_cisco-emergency-responder-off-premise-guide-1401_index.html
-retrieved_at: 2026-08-21T15:28:31.551631+00:00
+retrieved_at: 2026-09-28T11:27:54.041624+00:00
 ---
 
 Cisco Emergency Responder Off-Premise Location Management User Guide Release 14
@@ -61,3 +61,7 @@ Confirm and Update 1
 U
 
 Update your location 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

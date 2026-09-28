@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14-english-onsite-security-user-guide-cer0-b-cisco-emergency-responder-o-6fd4f8d74c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security-guide-1401/cer0_b_cisco-emergency-responder-onsite-security-guide-1251SU2_chapter_010.html
-retrieved_at: 2026-08-21T15:28:44.136755+00:00
+retrieved_at: 2026-09-28T11:28:09.977873+00:00
 ---
 
 Cisco Emergency Responder Onsite Security Guide for Release 14
@@ -51,3 +51,9 @@ This product
 
 For more
                            		information about U.S. export regulations, go to http://www.access.gpo.gov/bis/ear/ear_data.html .
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su5-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-fa1b0d6f22
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su5/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su5.html
-retrieved_at: 2026-08-21T08:26:44.730109+00:00
+retrieved_at: 2026-09-28T11:25:15.948409+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU5 Release Notes
@@ -3176,3 +3176,7 @@ CER-SSL Connection to Intrado (RedSky) Fails with certificate / keystore may be 
 | CSCvy50277 | SNMP Host Agent hrSWName missing process list if the node has zombie process |
 | CSCvy16549 | CER 12.5.1SU3 not detecting multiple IE5K switches |
 | CSCvx40261 | CER-SSL Connection to Intrado (RedSky) Fails with certificate / keystore may be corrupt error |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

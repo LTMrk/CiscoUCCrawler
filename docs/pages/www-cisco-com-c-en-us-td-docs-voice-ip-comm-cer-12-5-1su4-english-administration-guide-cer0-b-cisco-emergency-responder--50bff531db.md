@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su4-english-administration-guide-cer0-b-cisco-emergency-responder--50bff531db
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su4/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su4/cer0_b_cisco-emergency-responder-administration-guide-1251su3_chapter_0101.html
-retrieved_at: 2026-08-21T15:38:53.390637+00:00
+retrieved_at: 2026-09-28T11:22:31.368586+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU4
@@ -498,3 +498,9 @@ Click Update to change the schedule on the list of
 | Step 4 | Check the Enable Schedule check box to activate this schedule. |
 | Step 5 | Click Update to change the schedule on the list of
                                        			 schedules. |
+
+## Figuras
+
+![Figure 1. Understanding the Interactions Between Users, Emergency Responder, and Intrado](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/187001-188000/187211.eps/_jcr_content/renditions/187211.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

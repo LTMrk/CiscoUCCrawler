@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su5-english-administration-guide-cer0-b-cisco-emergency-responder--a63928923c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su5/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su5/cer0_b_cisco-emergency-responder-administration-guide-1251su3_appendix_010000.html
-retrieved_at: 2026-08-21T15:37:56.201057+00:00
+retrieved_at: 2026-09-28T11:23:26.882154+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU5
@@ -1557,3 +1557,7 @@ admin: |
                                                 				ntp server list to verify NTP servers. To add or
                                                 				delete an NTP server, use the utils
                                                    				  ntp server [add/delete] CLI command. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

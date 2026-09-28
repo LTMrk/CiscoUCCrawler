@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su1-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-bc8c1253e6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su1/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU1.html
-retrieved_at: 2026-08-21T06:39:00.698283+00:00
+retrieved_at: 2026-09-28T11:28:41.141559+00:00
 ---
 
 Cisco Emergency Responder Version 14SU1 Release Notes
@@ -3238,3 +3238,7 @@ CER sends randomly picked line to the Intrado/Redsky when the Offpremise Phone h
 | CSCvy16549 | CER 12.5.1SU3 not detecting multiple IE5K switches |
 | CSCvx40261 | CER - SSL/TLS connection/handshake with Intrado 911 (RedSky) fails |
 | CSCvx38439 | CER sends randomly picked line to the Intrado/Redsky when the Offpremise Phone having multiple lines |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

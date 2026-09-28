@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su4-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-1cf1107966
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su4/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su4.html
-retrieved_at: 2026-08-21T08:26:49.409800+00:00
+retrieved_at: 2026-09-28T11:23:23.197986+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU4 Release Notes
@@ -3178,3 +3178,7 @@ Subscribe to
 | CSCvv84530 | Issue when uploading branding file to CER |
 | CSCvw80131 | CER disregards proxy settings for licensing |
 | CSCvw44365 | CiscoJ should be top security method but CPU spikes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

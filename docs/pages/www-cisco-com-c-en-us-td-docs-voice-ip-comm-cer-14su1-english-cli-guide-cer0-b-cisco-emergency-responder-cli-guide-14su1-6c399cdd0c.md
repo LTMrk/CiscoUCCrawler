@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su1-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-14su1-6c399cdd0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-14su1/cer0_b_cisco-emergency-responder-cli-guide-1251su1_chapter_00.html
-retrieved_at: 2026-08-21T15:26:51.602154+00:00
+retrieved_at: 2026-09-28T11:28:23.130914+00:00
 ---
 
 Cisco Emergency Responder Command Line Interface Guide for Release 14SU1
@@ -291,3 +291,7 @@ options optional page\|detail\|reverse\|[date\|size] | Note | If you enter a
                                        			 logged in remotely, you are logged off and the SSH session is drops. If you are
                                        			 logged in locally, you are logged off and the login prompt returns. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

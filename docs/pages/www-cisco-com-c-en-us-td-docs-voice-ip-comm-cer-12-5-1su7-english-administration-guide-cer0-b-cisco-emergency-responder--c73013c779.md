@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su7-english-administration-guide-cer0-b-cisco-emergency-responder--c73013c779
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su7/cer0_m_configure-emergency-responder-and-redskynational.html
-retrieved_at: 2026-08-21T15:41:10.203078+00:00
+retrieved_at: 2026-09-28T11:27:03.495761+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU7
@@ -747,3 +747,7 @@ All calls originating from On-premise devices route the National Emergency Calli
 | Step 3 | Click Next . You will get the details of all the locations added through Cisco Emergency Responder Off-premises URL. |
 | Step 4 | Using the toggle buttons on the phone or device, choose a location and press the Select button. A few seconds later, the phones user interface should indicate the successful settings of the off-premises user’s location. Any error encountered during the setting of the location from the phone must be resolved through Emergency Responders Off-Premises
                                              User Page or working with the system administrator. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

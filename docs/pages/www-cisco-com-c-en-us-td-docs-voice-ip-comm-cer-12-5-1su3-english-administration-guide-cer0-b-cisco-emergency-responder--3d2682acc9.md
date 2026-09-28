@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su3-english-administration-guide-cer0-b-cisco-emergency-responder--3d2682acc9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su3/cer0_b_cisco-emergency-responder-administration-guide-1251su3_chapter_01000.html
-retrieved_at: 2026-08-21T15:44:48.238227+00:00
+retrieved_at: 2026-09-28T11:20:18.309582+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU3
@@ -1535,3 +1535,7 @@ Displays the tape identification information.
                                              						show_registration | Displays the currently configured registration. |
 | utils disaster_recovery
                                              						show_tapeid | Displays the tape identification information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

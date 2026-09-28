@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su1-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-14su1-87ebfda309
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-14su1.html
-retrieved_at: 2026-08-21T06:40:01.719286+00:00
+retrieved_at: 2026-09-28T11:28:18.850572+00:00
 ---
 
 Cisco Emergency Responder Command Line Interface Guide for Release 14SU1
@@ -29,3 +29,7 @@ Book Table of Contents
 ### This Document Applies to These Products
 
 - Emergency Responder 14
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

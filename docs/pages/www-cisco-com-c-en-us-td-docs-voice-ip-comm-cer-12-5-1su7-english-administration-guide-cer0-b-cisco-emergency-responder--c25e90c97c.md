@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su7-english-administration-guide-cer0-b-cisco-emergency-responder--c25e90c97c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su7/cer0_m_enhanced-e911-teleworkers-and-off-premises.html
-retrieved_at: 2026-08-21T15:41:05.908168+00:00
+retrieved_at: 2026-09-28T11:27:07.363919+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU7
@@ -804,3 +804,7 @@ Enter the Allowed Methods and Match type .
                                        processing nodes in the cluster. Any node that has phone registrations must have an Expressway-C entry to allow the XSI messages
                                        to be retrieved to complete the remote teleworker location selection process. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

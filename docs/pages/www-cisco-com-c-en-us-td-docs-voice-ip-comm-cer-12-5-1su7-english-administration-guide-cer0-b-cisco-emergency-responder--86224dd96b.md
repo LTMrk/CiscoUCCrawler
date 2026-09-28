@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su7-english-administration-guide-cer0-b-cisco-emergency-responder--86224dd96b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su7/cer0_b_cisco-emergency-responder-administration-guide-1251su3_chapter_01001.html
-retrieved_at: 2026-08-21T15:41:01.931091+00:00
+retrieved_at: 2026-09-28T11:26:13.029315+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU7
@@ -950,3 +950,9 @@ Solution : Run the Major discovery after sometime.
 | Note | By default, Emergency Responder actively queries the Cisco Jabber client every 2 minutes through AXL discovery on receipt
                                                       of the device location. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Basic Deployment of Enhanced Location Tracking](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394042.eps/_jcr_content/renditions/394042.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

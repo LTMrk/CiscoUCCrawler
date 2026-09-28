@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su3-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-248928dfa2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su3.html
-retrieved_at: 2026-08-21T08:26:54.426286+00:00
+retrieved_at: 2026-09-28T11:21:31.035723+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU3 Release Notes
@@ -3131,3 +3131,7 @@ Subscribe to
 | CSCvt97450 | Incremental discovery not working due to IPv6 address searched in an incorrect OID |
 | CSCvv23389 | RU failure: 10.5 to 12.5SU3 CER using Switch version No |
 | CSCvu48074 | CER SLM Connection Fails When Using Proxy |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

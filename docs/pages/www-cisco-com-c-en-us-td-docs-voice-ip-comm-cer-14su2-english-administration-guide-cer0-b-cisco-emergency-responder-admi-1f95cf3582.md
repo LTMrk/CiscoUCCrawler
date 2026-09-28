@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-1f95cf3582
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1251su3_chapter_01010.html
-retrieved_at: 2026-08-20T23:52:26.304477+00:00
+retrieved_at: 2026-09-28T11:28:44.866380+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -155,3 +155,7 @@ You can view the status of the upload in the Status box.
 | Step 3 | From the Select Upload config File Format drop-down list, choose the CSV format. |
 | Step 4 | From the Select File to Upload Config drop-down list, select the file to be uploaded. |
 | Step 5 | Click Upload . You can view the status of the upload in the Status box. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

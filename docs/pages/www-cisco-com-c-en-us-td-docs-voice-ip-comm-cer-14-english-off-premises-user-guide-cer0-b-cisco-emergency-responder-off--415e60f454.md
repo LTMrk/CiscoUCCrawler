@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14-english-off-premises-user-guide-cer0-b-cisco-emergency-responder-off--415e60f454
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-1401/cer0_b_cisco-emergency-responder-off-premise-guide-1251SU2_chapter_01.html
-retrieved_at: 2026-08-21T15:28:23.251874+00:00
+retrieved_at: 2026-09-28T11:27:45.104632+00:00
 ---
 
 Cisco Emergency Responder Off-Premise Location Management User Guide Release 14
@@ -777,3 +777,7 @@ The status of
                                        			 the delete operation is displayed at the top of the web page and the Associated
                                        			 Location field for this phone displays "No associated
                                           				locations." |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

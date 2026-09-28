@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14-english-release-notes-guide-cer0-b-cisco-emergency-responder-release--0d42935b16
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14.html
-retrieved_at: 2026-08-21T07:46:31.378275+00:00
+retrieved_at: 2026-09-28T11:28:15.417789+00:00
 ---
 
 Cisco Emergency Responder Version 14 Release Notes
@@ -3303,3 +3303,7 @@ Subscribe to
 | CSCvt97450 | Incremental discovery not working due to ipv6 address searched in an incorrect OID |
 | CSCvt73209 | Scheduled backups executed one hour early or later when DST takes effect |
 | CSCvs36001 | CER: During Refresh Upgrade, VM console showing blue screen for over 30 minutes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

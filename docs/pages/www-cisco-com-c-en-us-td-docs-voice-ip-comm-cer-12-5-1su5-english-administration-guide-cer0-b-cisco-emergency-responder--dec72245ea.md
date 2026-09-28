@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su5-english-administration-guide-cer0-b-cisco-emergency-responder--dec72245ea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su5/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su5/cer0_b_cisco-emergency-responder-administration-guide-1251su3_chapter_01011.html
-retrieved_at: 2026-08-21T15:37:29.494643+00:00
+retrieved_at: 2026-09-28T11:24:27.912284+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU5
@@ -183,3 +183,7 @@ Click Go .
                                        			 password for the new Cluster DBHost in the Confirm
                                           				Password text box. |
 | Step 6 | Click Go . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

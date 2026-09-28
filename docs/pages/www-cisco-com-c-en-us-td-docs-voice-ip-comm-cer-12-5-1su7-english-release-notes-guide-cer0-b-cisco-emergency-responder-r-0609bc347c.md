@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su7-english-release-notes-guide-cer0-b-cisco-emergency-responder-r-0609bc347c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su7/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su7.html
-retrieved_at: 2026-08-21T06:39:05.469325+00:00
+retrieved_at: 2026-09-28T11:27:12.578552+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU7 Release Notes
@@ -3243,3 +3243,7 @@ Customer is not able to hear onsite audio prompt if CTI port have multiple lines
 | CSCwd24228 | CER—No ethernet link detected after VM upgrade/move or ESXi upgrade |
 | CSCwb21404 | Backup CTI Manager 1&2 character limitation for table backup provider |
 | CSCwd18058 | Customer is not able to hear onsite audio prompt if CTI port have multiple lines |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-ed63a45eb0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_appendix_010001.html
-retrieved_at: 2026-08-20T23:53:16.702153+00:00
+retrieved_at: 2026-09-28T11:28:54.281137+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -2956,3 +2956,7 @@ diffie-hellman-group-exchange-sha1 |
 | Passphrase | Displays the generated pass phrase. |
 | Decode Version | Indicates the version of the decoder in use. |
 | Delete button or icon | Deletes the remote access account information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
