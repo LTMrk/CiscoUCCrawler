@@ -1,0 +1,133 @@
+---
+doc_id: webex-cloud-calling-get-telephony-config-queues
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+api_version: 1.0.0
+method: GET
+path: /telephony/config/queues
+operation_id: listCallQueues
+tags: Features:  Call Queue
+deprecated: false
+scopes: 
+license: CC-BY-4.0
+retrieved_at: 2026-09-27T10:51:19.409213+00:00
+---
+
+# GET /telephony/config/queues
+
+**API:** Webex Cloud Calling
+**Área:** Features:  Call Queue
+**operationId:** `listCallQueues`
+
+## Resumen
+Read the List of Call Queue or Customer Assist Queues
+
+## Descripción
+List all Call Queues for the organization.
+
+Call queues temporarily hold calls in the cloud, when all agents
+assigned to receive calls from the queue are unavailable. Queued calls are routed to 
+an available agent, when not on an active call. Each call queue is assigned a lead number, which is a telephone
+number that external callers can dial to reach the users assigned to the call queue.
+Call queues are also assigned an internal extension, which can be dialed
+internally to reach the users assigned to the call queue.
+
+Retrieving this list requires a full or read-only administrator auth token with a scope of `spark-admin:telephony_config_read`.
+
+## Parámetros
+- `orgId` [query] (string): Returns the list of call queues in this organization.
+- `locationId` [query] (string): Returns the list of call queues in this location.
+- `max` [query] (number): Limit the number of objects returned to this maximum count.
+- `start` [query] (number): Start at the zero-based offset in the list of matching objects.
+- `name` [query] (string): Returns only the call queues matching the given name.
+- `phoneNumber` [query] (string): Returns only the call queues matching the given primary phone number or extension.
+- `departmentId` [query] (string): Returns only call queues matching the given department ID.
+- `departmentName` [query] (string): Returns only call queues matching the given department name.
+- `hasCxEssentials` [query] (boolean): Returns only the list of call queues with Customer Assist license when `true`, otherwise returns the list of Customer Experience Basic call queues.
+- `digitalInboxEnabled` [query] (boolean): Returns only the list of call queues with digital inbox enabled when `true`, or disabled when `false`. This query parameter is only valid when `hasCxEssentials` is `true`.
+
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/queues' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `queues` (array) (**requerido**): Array of call queues.
+  - `id` (string) (**requerido**): A unique identifier for the call queue.
+  - `name` (string) (**requerido**): Unique name for the call queue.
+  - `hasCxEssentials` (boolean): Denotes if the call queue has Customer Assist license.
+  - `locationName` (string) (**requerido**): Name of location for call queue.
+  - `locationId` (string) (**requerido**): ID of location for call queue.
+  - `phoneNumber` (string): Primary phone number of the call queue.
+  - `extension` (string): Primary phone extension of the call queue.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of the call queue.
+  - `enabled` (boolean) (**requerido**): Whether or not the call queue is enabled.
+  - `tollFreeNumber` (boolean): Indicate if the number is toll free.
+  - `department` (object): The department information.
+    - `id` (string): Unique identifier of the department.
+    - `name` (string): Name of the department.
+  - `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "queues": [
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvNTg0Y2Y0Y2QtZWVhNy00YzhjLTgzZWUtNjdkODhmYzZlYWE1",
+      "name": "5714328359",
+      "hasCxEssentials": true,
+      "locationName": "WXCSIVDKCPAPIC4S1",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
+      "enabled": true,
+      "phoneNumber": "+15558675309",
+      "extension": "8000",
+      "routingPrefix": "1234",
+      "esn": "12348000",
+      "tollFreeNumber": false,
+      "department": {
+        "id": "Y2lzY29zcGFyazovL3VzL1NDSU1fR1JPVVAvZjA2ZWRiOGMtMjMxNC00ZTcxLWIzNzgtZTdiMmQwNjk3OTliOjk2YWJjMmFhLTNkY2MtMTFlNS1hMTUyLWZlMzQ4MTljZGM5YQ",
+        "name": "HR"
+      },
+      "digitalInboxEnabled": true
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvNmU1NTVjZDAtNjM0MS00MmI4LWEyMWMtZTc1ZjIxNDQ4Mjc0",
+      "name": "bram",
+      "hasCxEssentials": true,
+      "locationName": "Brampton",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzQwMjgw",
+      "phoneNumber": "+15558675309",
+      "enabled": true,
+      "digitalInboxEnabled": false
+    }
+  ]
+}
+```
+- Cabecera `Link`: 
+
+## Respuestas de error
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

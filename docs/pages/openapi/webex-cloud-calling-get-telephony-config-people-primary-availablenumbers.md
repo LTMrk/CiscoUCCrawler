@@ -1,0 +1,113 @@
+---
+doc_id: webex-cloud-calling-get-telephony-config-people-primary-availablenumbers
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+api_version: 1.0.0
+method: GET
+path: /telephony/config/people/primary/availableNumbers
+operation_id: getPersonPrimaryAvailablePhoneNumbers
+tags: User Call Settings (2/2)
+deprecated: false
+scopes: 
+license: CC-BY-4.0
+retrieved_at: 2026-09-27T10:51:19.531290+00:00
+---
+
+# GET /telephony/config/people/primary/availableNumbers
+
+**API:** Webex Cloud Calling
+**Área:** User Call Settings (2/2)
+**operationId:** `getPersonPrimaryAvailablePhoneNumbers`
+
+## Resumen
+Get Person Primary Available Phone Numbers
+
+## Descripción
+List numbers that are available to be assigned as a person's primary phone number.
+By default, this API returns standard and mobile numbers from all locations that are unassigned. The parameters `licenseType` and `locationId` must align with the person's settings to determine the appropriate number for assignment.
+Failure to provide these parameters may result in the unsuccessful assignment of the returned number.
+
+The available numbers APIs help identify candidate numbers and their owning entities to simplify the assignment or association of these numbers to members or features.
+
+Retrieving this list requires a full, read-only or location administrator auth token with a scope of `spark-admin:telephony_config_read`.
+
+## Parámetros
+- `orgId` [query] (string): List numbers for this organization.
+- `locationId` [query] (string): Return the list of phone numbers for this location within the given organization. The maximum length is 36.
+- `max` [query] (number): Limit the number of phone numbers returned to this maximum count. The default is 2000.
+- `start` [query] (number): Start at the zero-based offset in the list of matching phone numbers. The default is 0.
+- `phoneNumber` [query] (array): Filter phone numbers based on the comma-separated list provided in the `phoneNumber` array.
+- `licenseType` [query] (string): Used to search numbers according to the person's `licenseType` to which the number will be assigned. Valores: Webex Calling Professional, Webex Calling Standard.
+
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/people/primary/availableNumbers' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: OK
+- `phoneNumbers` (array) (**requerido**): Array of phone numbers.
+  - `phoneNumber` (string) (**requerido**): A unique identifier for the phone number.
+  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `isMainNumber` (boolean) (**requerido**): If the phone number is used as a location CLID.
+  - `telephonyType` (string) (**requerido**): The telephony type for the number.  * `PSTN_NUMBER` - The object is a PSTN number.  * `MOBILE_NUMBER` - The object is a mobile number. Valores: PSTN_NUMBER, MOBILE_NUMBER.
+  - `mobileNetwork` (string): Mobile Network for the number if the number's `telephonyType` is `MOBILE_NUMBER`.
+  - `routingProfile` (string): Routing Profile for the number if the number's `telephonyType` is `MOBILE_NUMBER`.
+  - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "phoneNumbers": [
+    {
+      "phoneNumber": "+12056350001",
+      "state": "ACTIVE",
+      "isMainNumber": false,
+      "includedTelephonyTypes": "MOBILE_NUMBER",
+      "mobileNetwork": "mobileNetwork",
+      "routingProfile": "AttRtPf",
+      "telephonyType": "PSTN_NUMBER",
+      "isServiceNumber": false
+    },
+    {
+      "phoneNumber": "+12056350002",
+      "state": "ACTIVE",
+      "isMainNumber": true,
+      "telephonyType": "PSTN_NUMBER",
+      "isServiceNumber": false
+    },
+    {
+      "phoneNumber": "+12056350003",
+      "state": "INACTIVE",
+      "isMainNumber": false,
+      "telephonyType": "PSTN_NUMBER",
+      "isServiceNumber": false
+    }
+  ]
+}
+```
+
+## Respuestas de error
+- **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The URI requested is invalid or the resource requested, such as a user, does not exist. Also returned when the requested format is not supported by the requested method.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **409**: Conflict: The request could not be processed because it conflicts with some established rule of the system. For example, a person may not be added to a room more than once.
+- **410**: Gone: The requested resource is no longer available.
+- **415**: Unsupported Media Type: The request was made to a resource without specifying a media type or used a media type that is not supported.
+- **423**: Locked: The requested resource is temporarily unavailable. A Retry-After header may be present that specifies how many seconds you need to wait before attempting the request again.
+- **428**: Precondition Required: File(s) cannot be scanned for malware and need to be force downloaded.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time and the request has been rate limited. A Retry-After header should be present that specifies how many seconds you need to wait before a successful request can be made.
+- **500**: Internal Server Error: Something went wrong on the server. If the issue persists, feel free to contact the [Webex Developer Support team](/explore/support).
+- **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
+- **503**: Service Unavailable: Server is overloaded with requests. Try again later.
+- **504**: Gateway Timeout: An upstream server failed to respond on time. If your query uses max parameter, please try to reduce it.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

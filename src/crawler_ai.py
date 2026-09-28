@@ -1,0 +1,986 @@
+"""
+crawler_ai.py — Orquestador del pipeline CiscoUCCrawler.
+
+FLUJO
+-----
+  1. Ingesta de la referencia de la API desde los OpenAPI oficiales
+     (openapi_ingest). No pasa por el WAF y da datos estructurados.
+  2. Determinación del modo: BOOTSTRAP si el manifiesto está vacío,
+     INCREMENTAL en adelante.
+  3. Construcción de la frontera: sitemaps declarados en robots.txt en la
+     primera pasada; frontera persistida en las siguientes.
+  4. Por cada URL dentro del presupuesto del lote: política de acceso ->
+     fetch -> sanitización -> comparación de hash -> escritura si hay delta.
+  5. Emisión de deltas.json, persistencia de frontera y more_work.flag,
+     un único commit al final.
+
+CORRECCIONES SOBRE LA VERSIÓN ANTERIOR
+--------------------------------------
+  - git_commit_and_push() se llamaba DENTRO del bucle: un push por página,
+    con rebase contra remoto en cada iteración. Ahora es un commit al final.
+  - Las URLs fallidas se añadían a `visited` pero nunca al estado, así que se
+    reintentaban indefinidamente entre ejecuciones. Ahora hay fail_count con
+    aparcado tras 5 fallos.
+  - La deduplicación por hash global descartaba páginas legítimamente
+    parecidas. Ahora la comparación es por URL.
+  - El markdown se escribía en modo append sobre un fichero consolidado, lo
+    que duplica chunks en cada recrawl. Ahora es un fichero por documento.
+"""
+
+import asyncio
+import json
+import os
+import re
+import subprocess
+import sys
+import time
+from datetime import datetime
+from urllib.parse import urljoin, urlparse
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+# crawl4ai NO se importa aqui a proposito: arrastra Playwright y, con el, la
+# descarga de un navegador. Solo deep_crawl() lo necesita, asi que el import
+# vive dentro de esa funcion. El resto del modulo (politicas de URL,
+# decisiones de redireccion, parseo de sitemap) queda importable sin instalar
+# nada de eso, que es lo que permite probarlo en CI en segundos.
+# tests/test_crawler.py verifica que esta propiedad se mantiene.
+
+from fetch_policy import (
+    HOSTS_BARRA_FINAL, USER_AGENT, PoliticaAcceso, canonicalizar_url,
+)
+from pdf_texto import descargar as descargar_pdf
+from pdf_texto import es_pdf, texto_de_pdf
+from sanitizer import DetectorBoilerplate, sanitizar
+from state_store import (
+    ManifestStore, cargar_frontera, guardar_frontera,
+)
+import openapi_ingest
+import repos_ingest
+import resumen_rag
+
+
+# ---------------------------------------------------------------------------
+# Configuración
+# ---------------------------------------------------------------------------
+
+def load_config():
+    config_path = "config.json"
+    default_config = {
+        "global_settings": {
+            "default_max_depth": 1,
+            "requests_per_minute": 20,
+            "respect_robots": True,
+            "bootstrap_budget": 400,
+            "incremental_budget": 120,
+            "boilerplate_threshold": 0.25,
+        },
+        "domain_depths": {},
+        "seeds": [],
+        "sitemaps": [],
+        "blocked_patterns": [],
+        "custom_behaviors": [],
+        "SELECTORES_RUIDO_CSS": [],
+    }
+    if os.path.exists(config_path):
+        try:
+            with open(config_path, "r", encoding="utf-8") as f:
+                usuario = json.load(f)
+            for clave, valor in usuario.items():
+                if isinstance(valor, dict) and isinstance(default_config.get(clave), dict):
+                    default_config[clave].update(valor)
+                else:
+                    default_config[clave] = valor
+        except Exception as e:
+            log_error("CONFIG", f"config.json ilegible, usando defaults: {e}")
+    return default_config
+
+
+CONFIG = load_config()
+GS = CONFIG.get("global_settings", {})
+
+# LIMITE POR RELOJ, ademas del presupuesto por URLs.
+# --------------------------------------------------
+# El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones/minuto
+# son 27 minutos SOLO de espera por rate limit, sin contar el renderizado de
+# cada pagina ni lo que tarde la instalacion de dependencias en el runner.
+# Si el job de GitHub se cancela por timeout, se pierde todo el lote: la
+# frontera, el manifiesto y el commit se escriben solo al final de
+# deep_crawl(). Con este limite el lote se cierra por su cuenta antes de que
+# eso ocurra, guarda estado y encadena el siguiente.
+MINUTOS_LIMITE = int(os.environ.get("MINUTOS_LIMITE", "0") or 0)
+BLOCKED_PATTERNS = CONFIG.get("blocked_patterns", [])
+SELECTORES_RUIDO_CSS = CONFIG.get("SELECTORES_RUIDO_CSS", [])
+
+# Hosts que canonicalizan con barra final. Si no se declara en config.json se
+# usa el valor por defecto del módulo de política.
+HOSTS_BARRA_FINAL_CFG = tuple(GS.get("hosts_barra_final") or HOSTS_BARRA_FINAL)
+
+# Tope de saltos por cadena de redirección. Cinco cubre los encadenamientos
+# reales (http -> https -> barra final -> ruta nueva) y corta los bucles.
+MAX_SALTOS_REDIRECCION = 5
+
+
+def _compilar(patrones, etiqueta):
+    """Compila regex tolerando errores: un patrón malformado se registra y se
+    descarta, en lugar de tumbar toda la ejecución."""
+    compiladas = []
+    for p in patrones:
+        try:
+            compiladas.append(re.compile(p))
+        except re.error as e:
+            log_error("CONFIG", f"Regex inválida en {etiqueta}: {p!r} -> {e}")
+    return compiladas
+
+
+BLOCKED_REGEX = _compilar(CONFIG.get("blocked_regex", []), "blocked_regex")
+PDF_PERMITIDOS_REGEX = _compilar(CONFIG.get("pdf_permitidos_regex", []),
+                                 "pdf_permitidos_regex")
+DISCOVERY_ONLY_REGEX = _compilar(CONFIG.get("discovery_only_regex", []), "discovery_only_regex")
+def _regex_docsets_devnet(docsets):
+    """Compone la allowlist de developer.cisco.com desde `devnet_docsets`.
+
+    Las claves son fragmentos de regex sobre el segmento del doc-set; se
+    unen en una sola alternacion anclada. Declarar el doc-set en un sitio
+    (config.json) en lugar de dos (una regex enorme aqui y otra lista en
+    copilot_pack) es lo que impide que un doc-set entre en el corpus sin
+    tener producto asignado y acabe en "misc".
+    """
+    if not docsets:
+        return []
+    alternacion = "|".join(docsets)
+    return [r"^https?://developer\.cisco\.com/(docs|site)/(%s)(/|$)" % alternacion]
+
+
+_ALLOWLIST_CRUDA = dict(CONFIG.get("path_allowlist_regex") or {})
+_ALLOWLIST_CRUDA["developer.cisco.com"] = (
+    list(_ALLOWLIST_CRUDA.get("developer.cisco.com", []))
+    + _regex_docsets_devnet(list(CONFIG.get("devnet_docsets") or {}))
+)
+
+PATH_ALLOWLIST = {
+    dominio: _compilar(patrones, f"path_allowlist_regex[{dominio}]")
+    for dominio, patrones in _ALLOWLIST_CRUDA.items()
+    if patrones
+}
+
+
+# ---------------------------------------------------------------------------
+# Filtros de URL (lógica preexistente, conservada)
+# ---------------------------------------------------------------------------
+
+def normalize_url(url):
+    """Forma canónica de una URL. La lógica vive en fetch_policy para poder
+    probarla sin importar crawl4ai; aquí solo se le inyecta la configuración."""
+    return canonicalizar_url(url, HOSTS_BARRA_FINAL_CFG)
+
+
+def is_blocked_by_user(url):
+    url_lower = url.lower()
+    if any(p in url_lower for p in BLOCKED_PATTERNS):
+        return True
+    if any(r.search(url) for r in PDF_PERMITIDOS_REGEX):
+        # Un PDF admitido salta SOLO el veto por extension de blocked_regex.
+        # Se reevalua la URL sin el sufijo, asi cualquier otro motivo de
+        # bloqueo (idioma, EoL, /codeexchange/) sigue vivo. Quitar el sufijo
+        # en lugar de identificar la regex de extensiones evita que la
+        # excepcion se rompa en silencio si alguien reordena blocked_regex.
+        # El corte es seguro porque todo patron de pdf_permitidos_regex
+        # termina en \.pdf$, y tests/test_pdf.py falla si alguno no lo hace.
+        sin_extension = url[: -len(".pdf")]
+        return any(r.search(sin_extension) for r in BLOCKED_REGEX)
+    return any(r.search(url) for r in BLOCKED_REGEX)
+
+
+def esta_en_allowlist(url):
+    """Deny-by-default, POR HOST Y POR RUTA. El host debe estar declarado en
+    `path_allowlist_regex` y la URL debe casar con alguna de sus regex.
+
+    Este es el control primario para www.cisco.com: el sitio tiene millones
+    de URLs y una blocklist nunca alcanzaría a cubrir el ruido. Con allowlist
+    se invierte la carga: solo entra lo que se ha declarado valioso.
+
+    EL DENY ALCANZA TAMBIÉN A LOS HOSTS NO DECLARADOS. Antes se devolvía True
+    para cualquier host sin allowlist, y `is_allowed_domain` acepta cualquier
+    cosa que contenga "cisco.com": bastaba un enlace de pie de página para
+    meter un subdominio entero en la frontera. El resultado medido sobre
+    logs/manifest.json eran 2.699 entradas en 54 hosts no declarados —
+    2.145 solo de bst.cloudapps.cisco.com (Bug Search Tool, que además
+    responde 403 y llenó la cuarentena con 1.369 URLs) — y 348 documentos de
+    marketing indexados desde marketplace.cisco.com, www.webex.com o
+    video.cisco.com, que en un RAG de ingeniería son ruido puro.
+
+    Añadir un subdominio nuevo es ahora un acto deliberado: declararlo en
+    config.json con las rutas que interesan.
+    """
+    netloc = urlparse(url).netloc.lower()
+    for dominio, patrones in PATH_ALLOWLIST.items():
+        if dominio in netloc:
+            return any(r.match(url) for r in patrones)
+    return not PATH_ALLOWLIST
+
+
+def es_solo_descubrimiento(url):
+    """Páginas que se rastrean para extraer enlaces pero no se indexan.
+    Un índice de guías es una lista de títulos: como chunk vectorial no
+    responde a nada y además compite en similitud con los documentos reales,
+    desplazándolos en el top-k."""
+    return any(r.match(url) for r in DISCOVERY_ONLY_REGEX)
+
+
+def is_strict_en_us(url):
+    parsed = urlparse(url.lower())
+    if "cisco.com" in parsed.netloc and "/c/" in parsed.path and "/c/en/us/" not in parsed.path:
+        return False
+    if ("webex.com" in parsed.netloc
+            and bool(re.search(r"/[a-z]{2}-[a-z]{2}/", parsed.path))
+            and "/en-us/" not in parsed.path):
+        return False
+    return True
+
+
+def is_allowed_domain(url):
+    return any(d in url for d in
+               ["cisco.com", "webex.com", "webexconnect.io", "webexengage.io"])
+
+
+def url_aceptable(url):
+    return (url.startswith("http")
+            and is_allowed_domain(url)
+            and is_strict_en_us(url)
+            and not is_blocked_by_user(url)
+            and esta_en_allowlist(url))
+
+
+def get_max_depth_for_url(url):
+    netloc = urlparse(url.lower()).netloc
+    for dominio, prof in CONFIG.get("domain_depths", {}).items():
+        if dominio in netloc:
+            return prof
+    return GS.get("default_max_depth", 1)
+
+
+def get_custom_behavior(url):
+    """Devuelve (css_selector, js_code). La purga por JS sigue siendo útil
+    para nodos que solo existen tras la hidratación; la poda dura la hace
+    después sanitizer.py sobre el HTML resultante."""
+    url_lower = url.lower()
+    js_purge = ""
+    if SELECTORES_RUIDO_CSS:
+        selectores = ",".join(SELECTORES_RUIDO_CSS).replace("'", "\\'")
+        js_purge = f"document.querySelectorAll('{selectores}').forEach(n => n?.remove());\n"
+
+    for comportamiento in CONFIG.get("custom_behaviors", []):
+        if comportamiento.get("pattern", "").lower() in url_lower:
+            js = comportamiento.get("js_code", "await new Promise(r => setTimeout(r, 1500));")
+            return comportamiento.get("css_selector"), js_purge + js
+
+    return None, js_purge + "await new Promise(r => setTimeout(r, 1500));"
+
+
+# ---------------------------------------------------------------------------
+# Utilidades
+# ---------------------------------------------------------------------------
+
+# Tope de logs/error.log. El fichero es append-only y se commitea en cada
+# lote, asi que sin recorte crece para siempre: el 2026-09-27 iba por 98.271
+# lineas y 19,9 MB, que cada checkout del ETL arrastra. Veinte mil lineas
+# cubren de sobra varios lotes de diagnostico, que es para lo unico que se
+# lee. El historico completo sigue en el artefacto logs-diagnostico de cada
+# ejecucion, con siete dias de retencion.
+MAX_LINEAS_ERROR_LOG = 20000
+
+
+def log_error(url, motivo):
+    os.makedirs("logs", exist_ok=True)
+    with open("logs/error.log", "a", encoding="utf-8") as f:
+        f.write(f"[{datetime.now().isoformat()}] {motivo} | {url}\n")
+
+
+def rotar_error_log(ruta="logs/error.log", max_lineas=MAX_LINEAS_ERROR_LOG):
+    """Recorta el log a sus ultimas `max_lineas`. Devuelve (antes, despues).
+
+    Se llama UNA vez al cerrar el lote, no en cada `log_error`: reescribir
+    el fichero en cada linea lo convertiria en cuadratico.
+    """
+    if not os.path.exists(ruta):
+        return 0, 0
+    with open(ruta, encoding="utf-8", errors="replace") as f:
+        lineas = f.readlines()
+    if len(lineas) <= max_lineas:
+        return len(lineas), len(lineas)
+    with open(ruta, "w", encoding="utf-8") as f:
+        f.writelines(lineas[-max_lineas:])
+    return len(lineas), max_lineas
+
+
+def log_info(mensaje):
+    print(f"[crawler] {mensaje}", flush=True)
+
+
+def git_commit_and_push(mensaje):
+    """Un único commit al final de la ejecución."""
+    try:
+        subprocess.run(["git", "config", "--global", "user.name",
+                        "github-actions[bot]"], check=True)
+        subprocess.run(["git", "config", "--global", "user.email",
+                        "github-actions[bot]@users.noreply.github.com"], check=True)
+        estado = subprocess.run(["git", "status", "--porcelain"],
+                                capture_output=True, text=True)
+        if not estado.stdout.strip():
+            log_info("Sin cambios que commitear.")
+            return
+        subprocess.run(["git", "add", "docs/", "logs/", "config.json"], check=True)
+        subprocess.run(["git", "commit", "-m", mensaje], check=True)
+
+        # Rama ACTUAL, no "main" fijo. Con main fijo, un ETL que corra en
+        # cualquier otra rama rebasa su lote encima de una rama ajena.
+        rama = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                              capture_output=True, text=True).stdout.strip()
+        destino = f"HEAD:{rama}" if rama and rama != "HEAD" else "HEAD"
+
+        # Se intenta el push DIRECTO primero, sin pull previo.
+        #
+        # El checkout del ETL es superficial (fetch-depth: 1). Con 2.693
+        # ejecuciones de historia y 260 MB de .git, el clon completo tardo
+        # mas de 20 minutos en el runner del 2026-09-27: un 40% del
+        # presupuesto del job gastado antes de rastrear una sola pagina.
+        #
+        # El grupo de concurrencia ya serializa los lotes, asi que la unica
+        # forma de divergir es que una persona empuje a la vez. Ese caso
+        # raro es el unico que paga el coste de traerse la historia entera:
+        # solo entonces se hace --unshallow y se rebasa.
+        if subprocess.run(["git", "push", "origin", destino]).returncode == 0:
+            return
+
+        log_info("Push rechazado: la rama ha divergido. Se trae la historia "
+                 "completa para rebasar.")
+        if rama and rama != "HEAD":
+            subprocess.run(["git", "fetch", "--unshallow", "origin", rama],
+                           check=False)
+            subprocess.run(["git", "pull", "--rebase", "origin", rama], check=False)
+        subprocess.run(["git", "push", "origin", destino], check=True)
+    except Exception as e:
+        log_error("GIT_PUSH", str(e))
+
+
+def destino_redireccion(url, resultado):
+    """URL de destino de un 3xx, normalizada, o None si no se puede deducir.
+
+    crawl4ai expone `redirected_url` cuando el navegador ya siguió el salto;
+    si no está, se recurre a la cabecera Location, que puede ser relativa.
+    """
+    destino = getattr(resultado, "redirected_url", None)
+
+    if not destino:
+        cabeceras = getattr(resultado, "response_headers", None) or {}
+        if isinstance(cabeceras, dict):
+            destino = cabeceras.get("location") or cabeceras.get("Location")
+
+    if not destino:
+        return None
+    return normalize_url(urljoin(url, destino.strip()))
+
+
+def decidir_redireccion(url, destino, saltos_previos=0,
+                        max_saltos=None, es_aceptable=None):
+    """Decide que hacer ante un 3xx. Funcion pura: no toca cola, manifiesto
+    ni log, para poder probar cada rama sin levantar un navegador.
+
+    Devuelve (accion, saltos), donde accion es una de:
+      'seguir'            -> encolar `destino` con ese numero de saltos
+      'sin_destino'       -> el 3xx no dice adonde ir
+      'bucle'             -> el destino es la propia URL ya normalizada
+      'demasiados_saltos' -> cadena mas larga que max_saltos
+      'no_aceptable'      -> el destino cae fuera de la politica de rastreo
+    """
+    if max_saltos is None:
+        max_saltos = MAX_SALTOS_REDIRECCION
+    if es_aceptable is None:
+        es_aceptable = url_aceptable
+
+    if not destino:
+        return "sin_destino", saltos_previos
+
+    # La normalizacion ya devuelve la forma canonica: si el origen redirige a
+    # donde ya estabamos, encolarlo otra vez seria un bucle infinito.
+    if destino == url:
+        return "bucle", saltos_previos
+
+    saltos = saltos_previos + 1
+    if saltos > max_saltos:
+        return "demasiados_saltos", saltos
+
+    if not es_aceptable(destino):
+        return "no_aceptable", saltos
+
+    return "seguir", saltos
+
+
+def parsear_sitemap(contenido):
+    """Interpreta el XML de un sitemap. Devuelve (es_indice, locs).
+
+    Separado de la descarga para poder probar el caso <sitemapindex> sin red:
+    un indice no contiene URLs de paginas sino de otros sitemaps, y no
+    distinguirlo hacia que el descubrimiento devolviera cero.
+    """
+    import xml.etree.ElementTree as ET
+
+    raiz = ET.fromstring(contenido)
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    locs = [(l.text or "").strip() for l in raiz.findall(".//s:loc", ns)]
+    return raiz.tag.endswith("sitemapindex"), [l for l in locs if l]
+
+
+async def descubrir_por_sitemap(politica, semillas, solo_config=False):
+    """Descubrimiento vía sitemap. Es la vía que el operador expone
+    deliberadamente: una petición devuelve cientos de URLs en lugar de
+    rastrear el sitio enlace a enlace.
+
+    Con solo_config=True se consultan unicamente los sitemaps declarados en
+    config.json, sin barrer los que anuncia cada robots.txt. La distincion
+    importa: los de config son una eleccion explicita del operador y salen
+    baratos, mientras que el barrido por robots es la exploracion amplia del
+    arranque y cuesta una peticion por dominio semilla.
+    """
+    import urllib.error
+    import urllib.request
+
+    encontradas = set()
+    sitemaps = list(CONFIG.get("sitemaps", []))
+    if not solo_config:
+        for semilla in semillas:
+            sitemaps.extend(politica.robots.sitemaps(semilla))
+
+    # Cola de trabajo en lugar de un simple bucle: un <sitemapindex> no
+    # contiene URLs de páginas sino de otros sitemaps, y sin seguirlos el
+    # descubrimiento devuelve cero. Se limita a MAX_NIVELES_SITEMAP para que un
+    # índice mal formado que se apunte a sí mismo no cuelgue el arranque.
+    MAX_NIVELES_SITEMAP = 2
+    pendientes = [(sm, 0) for sm in dict.fromkeys(sitemaps)]
+    vistos = set()
+
+    while pendientes:
+        sm, nivel = pendientes.pop(0)
+        if sm in vistos:
+            continue
+        vistos.add(sm)
+
+        try:
+            req = urllib.request.Request(sm, headers=politica.cabeceras())
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                es_indice, locs = parsear_sitemap(resp.read())
+
+            if es_indice:
+                hijos = [l for l in locs if nivel + 1 <= MAX_NIVELES_SITEMAP]
+                pendientes.extend((l, nivel + 1) for l in hijos)
+                log_info(f"Sitemap index con {len(hijos)} sitemaps hijos: {sm}")
+                continue
+
+            nuevas = 0
+            for loc in locs:
+                u = normalize_url(loc)
+                if url_aceptable(u):
+                    encontradas.add(u)
+                    nuevas += 1
+            log_info(f"Sitemap OK ({nuevas} URLs utiles): {sm}")
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                # El robots.txt de cisco.com declara sitemaps que ya no
+                # existen. Es ruido del origen, no un fallo nuestro: se
+                # informa pero no ensucia error.log.
+                log_info(f"Sitemap declarado en robots.txt pero inexistente (404): {sm}")
+            else:
+                log_error(sm, f"Sitemap HTTP {e.code}")
+        except Exception as e:
+            log_error(sm, f"Sitemap ilegible: {e}")
+
+    return encontradas
+
+
+# ---------------------------------------------------------------------------
+# Bucle principal
+# ---------------------------------------------------------------------------
+
+# Minimo de markdown para considerar que una pagina trae cuerpo propio.
+MIN_MARKDOWN = 200
+
+
+def componer_frontera(candidatas, pendientes, debe_visitar):
+    """Orden en que se encolan las URL. Devuelve (orden, nuevas, arrastradas).
+
+    Primero las candidatas (semillas y sitemaps de config), despues la
+    frontera arrastrada. Al reves quedaban detras de 7.388 URL pendientes:
+    con 120 por lote son 62 lotes, mas de once horas, y la frontera crece
+    por el camino, asi que podian no llegar nunca. Se vio en la ejecucion
+    del 2026-08-24T21:16, con 120 URL procesadas y cero de
+    developer.cisco.com.
+
+    La frontera arrastrada NO se filtra aqui por `debe_visitar`, a
+    diferencia de las candidatas: ya se filtra dentro del bucle, justo antes
+    de pedir cada URL, que es donde el TTL esta al dia.
+    """
+    orden, encolados = [], set()
+    nuevas = 0
+    for url in sorted(candidatas):
+        if url in encolados or not debe_visitar(url):
+            continue
+        orden.append((url, 0))
+        encolados.add(url)
+        nuevas += 1
+
+    arrastradas = 0
+    for url, profundidad in pendientes:
+        if url in encolados:
+            continue
+        orden.append((url, profundidad))
+        encolados.add(url)
+        arrastradas += 1
+
+    return orden, nuevas, arrastradas
+
+
+def clasificar_cuerpo(markdown, enlaces_internos, minimo=MIN_MARKDOWN):
+    """"contenido" | "descubrimiento" | "fallo" para una pagina sanitizada.
+
+    Una pagina sin cuerpo pero CON enlaces no es un fallo: en PubHub la
+    pagina de seccion es el unico sitio desde el que se descubren los
+    capitulos del doc-set, y tratarla como fallo la aparca catorce dias por
+    el backoff y se lleva por delante medio doc-set.
+    """
+    if len(markdown or "") >= minimo:
+        return "contenido"
+    return "descubrimiento" if enlaces_internos else "fallo"
+
+
+async def deep_crawl():
+    # Import diferido: ver la nota de la cabecera del modulo.
+    from crawl4ai import (
+        AsyncWebCrawler, BrowserConfig, CacheMode, CrawlerRunConfig,
+    )
+
+    os.makedirs("docs", exist_ok=True)
+    os.makedirs("logs", exist_ok=True)
+
+    manifiesto = ManifestStore()
+    modo = manifiesto.modo
+    presupuesto = (GS.get("bootstrap_budget", 400) if modo == ManifestStore.MODO_BOOTSTRAP
+                   else GS.get("incremental_budget", 120))
+    limite_reloj = time.monotonic() + MINUTOS_LIMITE * 60 if MINUTOS_LIMITE else None
+    log_info(f"Modo: {modo.upper()} | presupuesto de este lote: {presupuesto} URLs"
+             + (f" | limite de tiempo: {MINUTOS_LIMITE} min" if limite_reloj else ""))
+
+    # -- Paso 1: referencia de la API desde la fuente oficial ---------------
+    # El workflow expone `forzar_openapi` como input; sin leerlo aquí la
+    # opción no hacía absolutamente nada.
+    forzar_api = os.environ.get("FORZAR_OPENAPI", "").strip().lower() in ("1", "true", "yes")
+    if forzar_api:
+        log_info("FORZAR_OPENAPI activo: se regeneran todos los specs.")
+
+    resumen_api, deltas_api = openapi_ingest.ingerir_openapi(
+        token=os.environ.get("GITHUB_TOKEN"),
+        forzar=forzar_api,
+        specs_permitidos=CONFIG.get("openapi_specs_allowlist"),
+    )
+    total_ops = sum(v.get("operaciones", 0) for v in resumen_api.values()
+                    if isinstance(v, dict))
+    log_info(f"OpenAPI: {total_ops} operaciones | "
+             f"+{len(deltas_api['added'])} nuevas, "
+             f"-{len(deltas_api['removed'])} retiradas, "
+             f"!{len(deltas_api['deprecated'])} recién deprecadas")
+    for clave in deltas_api["added"][:15]:
+        log_info(f"  ENDPOINT NUEVO: {clave}")
+    for clave in deltas_api["deprecated"][:15]:
+        log_info(f"  DEPRECADO: {clave}")
+    for clave in deltas_api["removed"][:15]:
+        log_info(f"  RETIRADO: {clave}")
+
+    # -- Paso 1b: documentacion de integracion desde github.com/webex -------
+    # Va aqui, antes del crawl, por la misma razon que la ingesta OpenAPI: son
+    # peticiones a la API de GitHub, no al WAF de Cisco, y no consumen el
+    # presupuesto de rate limit del crawler.
+    resumen_repos, deltas_repos = repos_ingest.ingerir_repos(
+        token=os.environ.get("GITHUB_TOKEN"),
+        repos_permitidos=CONFIG.get("repos_allowlist"),
+        forzar=forzar_api,
+    )
+    log_info(f"Repos: {resumen_repos['documentos']} documentos de "
+             f"{resumen_repos['repos']} repositorios | "
+             f"+{len(deltas_repos['added'])} ~{len(deltas_repos['modified'])} "
+             f"-{len(deltas_repos['removed'])}")
+
+    politica = PoliticaAcceso(
+        peticiones_por_minuto=GS.get("requests_per_minute", 20),
+        respetar_robots=GS.get("respect_robots", True),
+    )
+
+    detector = DetectorBoilerplate(
+        umbral_frecuencia=GS.get("boilerplate_threshold", 0.25)
+    ).cargar()
+
+    # -- Paso 2: frontera ----------------------------------------------------
+    cola = asyncio.Queue()
+    encolados = set()
+    # Saltos acumulados por cadena de redirección, para cortar los bucles.
+    saltos_redireccion = {}
+
+    pendientes = cargar_frontera()
+    semillas = [normalize_url(s.strip()) for s in CONFIG.get("seeds", []) if s.strip()]
+    candidatas = set()
+
+    if not pendientes:
+        if modo == ManifestStore.MODO_BOOTSTRAP:
+            candidatas |= await descubrir_por_sitemap(politica, semillas)
+        else:
+            # En incremental se reevalúa lo conocido cuyo TTL haya vencido.
+            #
+            # El filtro por url_aceptable NO es redundante: el manifiesto
+            # arrastra URLs admitidas por allowlists anteriores. Sin él,
+            # endurecer la allowlist no retira nada — lo ya indexado se
+            # sigue revisitando en cada lote.
+            candidatas |= {u for u in manifiesto.entradas
+                           if manifiesto.debe_visitar(u) and url_aceptable(u)}
+
+    # Las semillas y los sitemaps declarados en config.json entran SIEMPRE,
+    # haya frontera previa o no. Una semilla es una declaración del operador
+    # ("empieza siempre por aquí"): añadir una debe surtir efecto en la
+    # ejecución siguiente. El barrido por robots.txt sí sigue siendo solo de
+    # arranque, porque es la exploración cara.
+    candidatas |= set(s for s in semillas if url_aceptable(s))
+    candidatas |= await descubrir_por_sitemap(politica, [], solo_config=True)
+
+    # ORDEN: primero las semillas, después la frontera arrastrada.
+    #
+    # Encolarlas al final las dejaba detrás de 7.388 URLs pendientes. Con un
+    # presupuesto de 120 por lote son 62 lotes —más de once horas de rastreo—
+    # antes de tocar la primera, y la frontera crece por el camino, así que
+    # podían no llegar nunca. Se vio en la ejecución del 2026-08-24T21:16:
+    # 120 URLs procesadas, cero de developer.cisco.com.
+    #
+    # Ponerlas delante no las recrawlea en cada lote: debe_visitar las filtra
+    # en cuanto tienen TTL vigente, así que el coste es de un solo lote.
+    orden, nuevas, arrastradas = componer_frontera(
+        candidatas, pendientes, manifiesto.debe_visitar)
+    for u, d in orden:
+        await cola.put((u, d))
+        encolados.add(u)
+
+    manifiesto.deltas["semillas"] = nuevas
+    log_info(f"Frontera: {cola.qsize()} URLs | {nuevas} desde semillas y "
+             f"sitemaps de config (encoladas primero) | {arrastradas} "
+             f"arrastradas del lote anterior.")
+
+    procesadas = 0
+    visitadas_este_lote = set()
+
+    # BrowserConfig: ajustes de navegador para TODA la sesión. Aquí es donde
+    # crawl4ai acepta `headers` — no en CrawlerRunConfig, que es por petición.
+    # Solo caben cabeceras estáticas; los validadores condicionales, que
+    # varían por URL, se resuelven con el HEAD previo (precheck_condicional).
+    browser_cfg = BrowserConfig(
+        headless=True,
+        user_agent=USER_AGENT,
+        headers={
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+        },
+        # No descarga imágenes: es un crawler de documentación, y reduce
+        # el ancho de banda que consumimos del origen.
+        text_mode=True,
+        verbose=False,
+    )
+
+    async with AsyncWebCrawler(config=browser_cfg) as crawler:
+        while not cola.empty() and procesadas < presupuesto:
+            if politica.breaker.abierto:
+                log_info("Circuit breaker abierto: demasiados errores. "
+                         "Se detiene el lote y se conserva la frontera.")
+                break
+
+            if limite_reloj and time.monotonic() >= limite_reloj:
+                log_info(f"Limite de tiempo alcanzado ({MINUTOS_LIMITE} min) tras "
+                         f"{procesadas} URLs. Se cierra el lote de forma limpia "
+                         f"para no perder el trabajo hecho.")
+                break
+
+            url, profundidad = await cola.get()
+            if url in visitadas_este_lote:
+                continue
+            visitadas_este_lote.add(url)
+
+            permitido, motivo = politica.puede_solicitar(url)
+            if not permitido:
+                log_error(url, f"Omitida: {motivo}")
+                continue
+
+            if not manifiesto.debe_visitar(url):
+                continue
+
+            await politica.antes_de_solicitar(url)
+            procesadas += 1
+
+            # -- PDF admitido -------------------------------------------
+            # No pasa por el navegador: Chromium devolveria el visor y el
+            # sanitizador se quedaria en cero caracteres, o sea un fallo
+            # mudo. Se baja directo y se extrae el texto.
+            if es_pdf(url):
+                codigo, datos = await asyncio.to_thread(
+                    descargar_pdf, url, USER_AGENT)
+                accion, espera = politica.tras_respuesta(url, codigo)
+                if accion != "ok":
+                    # Se reusa el mismo tratamiento que el resto: un 403 va
+                    # a cuarentena, un 404 deja tombstone, un 429 espera.
+                    if accion == "desaparecido":
+                        manifiesto.registrar_desaparecido(url)
+                    elif accion == "cuarentena":
+                        manifiesto.registrar_bloqueo(url, codigo)
+                    elif accion == "reintentar":
+                        await asyncio.sleep(espera)
+                        await cola.put((url, profundidad))
+                        visitadas_este_lote.discard(url)
+                        continue
+                    else:
+                        manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF: HTTP {codigo} -> {accion}.")
+                    continue
+
+                try:
+                    texto = await asyncio.to_thread(texto_de_pdf, datos)
+                except Exception as e:
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, f"PDF ilegible: {e}")
+                    continue
+
+                if not texto:
+                    # Un PDF sin capa de texto (escaneado) nunca va a dar
+                    # nada: se registra para que no se reencole cada lote.
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, "PDF sin texto extraible.")
+                    continue
+
+                cambio, doc_id = manifiesto.registrar_contenido(url, texto)
+                if cambio:
+                    manifiesto.escribir_documento(doc_id, url, texto)
+                    log_info(f"Delta PDF ({len(texto)} chars) -> {doc_id}")
+                continue
+
+            css, js = get_custom_behavior(url)
+            validadores = manifiesto.cabeceras_condicionales(url)
+
+            # HEAD condicional previo: si el origen dice 304, nos ahorramos
+            # levantar el navegador para esta URL.
+            previo = await politica.precheck_condicional(url, validadores)
+            if previo and previo[0] == 304:
+                manifiesto.registrar_no_modificado(url)
+                politica.breaker.registrar(True)
+                continue
+
+            try:
+                # CrawlerRunConfig: ajustes por petición. La firma antigua de
+                # arun() con kwargs sueltos (css_selector, page_timeout...)
+                # está deprecada desde la 0.8.x. Y `headers` NO va aquí:
+                # pertenece a BrowserConfig.
+                opciones_run = dict(
+                    cache_mode=CacheMode.BYPASS,
+                    exclude_external_links=True,
+                    remove_overlay_elements=True,
+                    process_iframes=False,
+                    js_code=js,
+                    page_timeout=45000,
+                    check_robots_txt=GS.get("respect_robots", True),
+                    verbose=False,
+                )
+                if css:
+                    opciones_run["css_selector"] = css
+
+                run_cfg = CrawlerRunConfig(**opciones_run)
+                resultado = await crawler.arun(url=url, config=run_cfg)
+
+                codigo = getattr(resultado, "status_code", None)
+                if codigo is None:
+                    codigo = 200 if getattr(resultado, "success", False) else 599
+
+                accion, espera = politica.tras_respuesta(url, codigo)
+
+                if accion == "no_modificado":
+                    manifiesto.registrar_no_modificado(url)
+                    continue
+
+                if accion == "redirigido":
+                    destino = destino_redireccion(url, resultado)
+                    manifiesto.registrar_redireccion(url, destino, codigo)
+
+                    que_hacer, saltos = decidir_redireccion(
+                        url, destino, saltos_redireccion.get(url, 0))
+
+                    if que_hacer == "sin_destino":
+                        log_error(url, f"HTTP {codigo} sin destino de redirección.")
+                        continue
+                    if que_hacer == "bucle":
+                        log_info(f"HTTP {codigo} a sí misma, se descarta: {url}")
+                        continue
+                    if que_hacer == "demasiados_saltos":
+                        log_error(url, f"Cadena de redirección demasiado larga "
+                                       f"({saltos} saltos), se abandona.")
+                        continue
+                    if que_hacer == "no_aceptable":
+                        log_info(f"HTTP {codigo} hacia URL no aceptable, se "
+                                 f"descarta: {url} -> {destino}")
+                        continue
+
+                    saltos_redireccion[destino] = saltos
+                    if destino not in encolados:
+                        encolados.add(destino)
+                        # Se retira de las visitadas del lote: si el destino ya
+                        # se descartó por normalización, ahora sí debe entrar.
+                        visitadas_este_lote.discard(destino)
+                        await cola.put((destino, profundidad))
+                    log_info(f"HTTP {codigo}: {url} -> {destino}")
+                    continue
+
+                if accion == "desaparecido":
+                    manifiesto.registrar_desaparecido(url)
+                    log_info(f"Tombstone emitido para {url}")
+                    continue
+
+                if accion == "cuarentena":
+                    manifiesto.registrar_bloqueo(url, codigo)
+                    log_error(url, f"HTTP {codigo}: en cuarentena, sin reintento automático.")
+                    continue
+
+                if accion == "reintentar":
+                    log_info(f"HTTP {codigo}: reintento tras {espera:.1f}s")
+                    await asyncio.sleep(espera)
+                    await cola.put((url, profundidad))
+                    visitadas_este_lote.discard(url)
+                    continue
+
+                if accion == "fallo" or not getattr(resultado, "html", None):
+                    manifiesto.registrar_fallo(url)
+                    log_error(url, f"HTTP {codigo} o DOM vacío.")
+                    continue
+
+                # -- Sanitización -------------------------------------------
+                solo_descubrimiento = es_solo_descubrimiento(url)
+
+                if solo_descubrimiento:
+                    # Página de navegación: no se sanitiza ni se indexa, pero
+                    # sí se recorren sus enlaces más abajo. Se REGISTRA, que
+                    # es lo que impide que se reencole en cada lote.
+                    markdown, bloques = "", []
+                    manifiesto.registrar_descubrimiento(url)
+                else:
+                    markdown, bloques = sanitizar(
+                        resultado.html,
+                        selectores_extra=SELECTORES_RUIDO_CSS,
+                        detector=detector if modo == ManifestStore.MODO_INCREMENTAL else None,
+                        # Los src de las imagenes suelen ser relativos; sin la
+                        # URL de la pagina quedarian como /c/dam/... y no se
+                        # podrian abrir desde el corpus.
+                        base_url=url,
+                    )
+
+                    if modo == ManifestStore.MODO_BOOTSTRAP:
+                        # En la captura completa se acumula estadística de
+                        # plantilla; el filtrado real se aplica al consolidar.
+                        detector.observar(bloques)
+
+                    enlaces_internos = (getattr(resultado, "links", {})
+                                        or {}).get("internal") or []
+                    clase = clasificar_cuerpo(markdown, enlaces_internos)
+                    if clase == "descubrimiento":
+                        manifiesto.registrar_descubrimiento(url)
+                        log_info(f"Página de sección sin cuerpo propio "
+                                 f"({len(markdown)} chars, "
+                                 f"{len(enlaces_internos)} enlaces): {url}")
+                        markdown = ""
+                    elif clase == "fallo":
+                        manifiesto.registrar_fallo(url)
+                        log_error(url, f"Markdown insuficiente tras sanitizar "
+                                       f"({len(markdown)} chars).")
+                        markdown = ""
+
+                # -- Delta ---------------------------------------------------
+                if markdown:
+                    cambio, doc_id = manifiesto.registrar_contenido(url, markdown)
+                    cabeceras_resp = getattr(resultado, "response_headers", None) or {}
+                    if isinstance(cabeceras_resp, dict):
+                        manifiesto.registrar_cabeceras(
+                            url,
+                            cabeceras_resp.get("etag") or cabeceras_resp.get("ETag"),
+                            cabeceras_resp.get("last-modified") or cabeceras_resp.get("Last-Modified"),
+                        )
+                    if cambio:
+                        manifiesto.escribir_documento(doc_id, url, markdown)
+                        log_info(f"Delta -> {doc_id}")
+
+                # -- Expansión de la frontera --------------------------------
+                if profundidad < get_max_depth_for_url(url):
+                    enlaces = getattr(resultado, "links", {}) or {}
+                    for enlace in enlaces.get("internal", []):
+                        href = enlace.get("href") if isinstance(enlace, dict) else None
+                        if not href:
+                            continue
+                        siguiente = normalize_url(urljoin(url, href))
+                        if (siguiente not in encolados
+                                and siguiente not in visitadas_este_lote
+                                and url_aceptable(siguiente)
+                                and manifiesto.debe_visitar(siguiente)):
+                            await cola.put((siguiente, profundidad + 1))
+                            encolados.add(siguiente)
+
+            except Exception as e:
+                manifiesto.registrar_fallo(url)
+                politica.breaker.registrar(False)
+                log_error(url, f"Excepción: {e}")
+
+    # -- Cierre ---------------------------------------------------------------
+    if modo == ManifestStore.MODO_BOOTSTRAP:
+        fingerprints = detector.consolidar()
+        log_info(f"Boilerplate detectado: {len(fingerprints)} bloques de plantilla "
+                 f"sobre {detector.total_documentos} documentos.")
+    detector.guardar()
+
+    restantes = []
+    while not cola.empty():
+        restantes.append(cola.get_nowait())
+    guardar_frontera(restantes)
+
+    manifiesto.guardar()
+    resumen = manifiesto.guardar_deltas()
+    politica.cuarentena.guardar()
+
+    log_info(f"Resumen: +{len(resumen['added'])} nuevos, "
+             f"~{len(resumen['modified'])} modificados, "
+             f"-{len(resumen['removed'])} retirados, "
+             f"{resumen['unchanged_count']} sin cambios, "
+             f"{len(resumen['blocked'])} bloqueados.")
+    log_info(f"Frontera pendiente: {len(restantes)} URLs.")
+    print(politica.cuarentena.informe(), flush=True)
+
+    # El inventario se regenera ANTES del commit: si se hiciera despues,
+    # quedaria fuera y describiria un corpus distinto al commiteado.
+    try:
+        ruta_resumen, stats = resumen_rag.generar()
+        log_info(f"Inventario: {ruta_resumen} | {stats['documentos']} documentos, "
+                 f"{stats['operaciones']} operaciones de API, "
+                 f"{stats['pendientes']} URLs pendientes.")
+    except Exception as e:  # noqa: BLE001
+        # Un fallo aqui no debe tirar el lote: el corpus ya esta en disco y lo
+        # que importa es commitearlo.
+        log_error("RESUMEN", f"No se pudo generar el inventario: {e}")
+
+    # Antes del commit, no despues: si se recortara luego, se commitearia
+    # el fichero largo y el recorte no llegaria nunca al repositorio.
+    antes, despues = rotar_error_log()
+    if antes != despues:
+        log_info(f"error.log recortado: {antes} -> {despues} lineas.")
+
+    git_commit_and_push(
+        f"docs({modo}): +{len(resumen['added'])} ~{len(resumen['modified'])} "
+        f"-{len(resumen['removed'])} | {total_ops} operaciones OpenAPI"
+    )
+
+
+if __name__ == "__main__":
+    asyncio.run(deep_crawl())

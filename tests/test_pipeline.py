@@ -1,0 +1,404 @@
+"""Pruebas offline del pipeline: sanitización, boilerplate y deltas."""
+import os
+import shutil
+import sys
+import tempfile
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "src"))
+
+from sanitizer import DetectorBoilerplate, sanitizar
+import state_store
+from state_store import ManifestStore
+
+
+AVISO_LEGAL = ("Cisco and the Cisco logo are trademarks or registered trademarks "
+               "of Cisco and/or its affiliates in the U.S. and other countries.")
+
+MENU = "".join(f'<a href="/p{i}">Producto {i}</a>' for i in range(12))
+
+
+def pagina(titulo, cuerpo, n=1):
+    return f"""
+    <html><body>
+      <header><h1>Cisco</h1><a href="/login">Sign in</a></header>
+      <nav>{MENU}</nav>
+      <div class="sidebar"><ul>{MENU}</ul></div>
+      <div id="onetrust-banner-sdk">We use cookies to improve your experience.</div>
+      <main>
+        <h1>{titulo}</h1>
+        <p>{cuerpo}</p>
+        <pre>curl -X GET https://webexapis.com/v1/people</pre>
+        <table><tr><th>Code</th><th>Meaning</th></tr><tr><td>429</td><td>Rate limited</td></tr></table>
+        <p class="notice">{AVISO_LEGAL}</p>
+      </main>
+      <div class="related-content">{MENU}</div>
+      <footer><p>{AVISO_LEGAL}</p><a href="/privacy">Privacy</a></footer>
+    </body></html>
+    """
+
+
+def test_sanitizacion_estructural():
+    md, _ = sanitizar(pagina("Crear knowledge base",
+                             "Una knowledge base almacena documentos indexados para el AI Receptionist."))
+    assert "Producto 3" not in md, "El menú de navegación sobrevivió a la poda"
+    assert "cookies" not in md.lower(), "El banner de cookies sobrevivió"
+    assert "Sign in" not in md, "La cabecera sobrevivió"
+    assert "knowledge base" in md.lower(), "Se perdió el contenido real"
+    assert "curl -X GET" in md, "Se perdió el bloque de código"
+    assert "429" in md, "Se perdió la tabla"
+    print("  OK poda estructural + heurística; código y tablas preservados")
+    return md
+
+
+def test_boilerplate_cross_documento():
+    detector = DetectorBoilerplate(umbral_frecuencia=0.25, min_documentos=5)
+
+    corpus = [pagina(f"Guía {i}", f"Contenido único y específico del documento número {i}. " * 6)
+              for i in range(12)]
+
+    # Fase BOOTSTRAP: observar sin filtrar.
+    for html in corpus:
+        _, bloques = sanitizar(html)
+        detector.observar(bloques)
+
+    fingerprints = detector.consolidar()
+    assert len(fingerprints) > 0, "No se detectó ningún bloque de plantilla"
+    assert detector.es_boilerplate(AVISO_LEGAL), "El aviso legal no fue marcado como boilerplate"
+    assert not detector.es_boilerplate("Contenido único y específico del documento número 3."), \
+        "Se marcó contenido único como boilerplate (falso positivo)"
+
+    # Fase INCREMENTAL: filtrar.
+    md_filtrado, _ = sanitizar(corpus[0], detector=detector)
+    assert "trademarks or registered trademarks" not in md_filtrado, \
+        "El aviso legal sobrevivió al filtro de boilerplate"
+    assert "documento número 0" in md_filtrado, "El filtro eliminó contenido legítimo"
+    print(f"  OK boilerplate: {len(fingerprints)} fingerprints, aviso legal eliminado, "
+          "contenido único intacto")
+
+
+def test_deltas_incrementales():
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    os.chdir(tmp)
+    try:
+        os.makedirs("logs", exist_ok=True)
+        url_a = "https://help.webex.com/en-us/article/aaa"
+        url_b = "https://help.webex.com/en-us/article/bbb"
+
+        # Ejecución 1: BOOTSTRAP
+        m = ManifestStore()
+        assert m.modo == ManifestStore.MODO_BOOTSTRAP, "Debería arrancar en bootstrap"
+        cambio_a, id_a = m.registrar_contenido(url_a, "Contenido A versión 1")
+        cambio_b, id_b = m.registrar_contenido(url_b, "Contenido B versión 1")
+        assert cambio_a and cambio_b
+        m.escribir_documento(id_a, url_a, "Contenido A versión 1")
+        m.escribir_documento(id_b, url_b, "Contenido B versión 1")
+        r1 = m.guardar_deltas()
+        m.guardar()
+        assert len(r1["added"]) == 2 and len(r1["modified"]) == 0
+
+        # Ejecución 2: INCREMENTAL, A cambia, B no
+        m2 = ManifestStore()
+        assert m2.modo == ManifestStore.MODO_INCREMENTAL, "Debería pasar a incremental"
+        cambio_a2, _ = m2.registrar_contenido(url_a, "Contenido A versión 2 MODIFICADO")
+        cambio_b2, _ = m2.registrar_contenido(url_b, "Contenido B versión 1")
+        assert cambio_a2 is True, "No detectó la modificación de A"
+        assert cambio_b2 is False, "Reportó cambio falso en B"
+        r2 = m2.guardar_deltas()
+        assert r2["modified"] == [id_a] and r2["unchanged_count"] == 1
+
+        # TTL adaptativo: B, sin cambios, se revisita más tarde que A
+        assert m2.entradas[url_b]["unchanged_runs"] == 1
+        assert m2.entradas[url_a]["unchanged_runs"] == 0
+
+        # Ejecución 3: B desaparece -> tombstone
+        m3 = ManifestStore()
+        m3.registrar_desaparecido(url_b)
+        r3 = m3.guardar_deltas()
+        assert r3["removed"] == [id_b], "No se emitió tombstone"
+        assert not os.path.exists(os.path.join(state_store.DIR_DOCS, f"{id_b}.md")), \
+            "El fichero del documento retirado sigue en disco"
+        assert m3.debe_visitar(url_b) is False, "Se sigue visitando una URL retirada"
+
+        # Cuarentena por 403: no se reintenta
+        m3.registrar_bloqueo("https://developer.webex.com/x", 403)
+        assert m3.debe_visitar("https://developer.webex.com/x") is False
+
+        print("  OK deltas: added/modified/unchanged/removed correctos, "
+              "tombstone emitido, TTL adaptativo, 403 en cuarentena")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_redirecciones_llegan_a_deltas():
+    """Las redirecciones seguidas solo se veian en el stdout del job, asi que
+    no habia forma de comprobar si el manejo de 3xx funcionaba sin bucear en
+    el log de Actions. Ahora quedan en deltas.json y en el resumen del lote.
+    """
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        m.registrar_redireccion("https://developer.cisco.com/docs/axl",
+                                "https://developer.cisco.com/docs/axl/", 301)
+        m.deltas["semillas"] = 48
+        resumen = m.guardar_deltas()
+
+        assert resumen["redirected"] == [
+            "https://developer.cisco.com/docs/axl"
+            " -> https://developer.cisco.com/docs/axl/"]
+        assert resumen["semillas_encoladas"] == 48
+
+        # Y el informe del job lo muestra, que es donde se mira de verdad.
+        import report
+        texto = report.construir_resumen()
+        assert "1 redirección(es) seguida(s)" in texto
+        assert "docs/axl -> https://developer.cisco.com/docs/axl/" in texto
+        assert "48 URL(s) encoladas desde semillas" in texto
+
+        print("  OK observabilidad: redirecciones y semillas en deltas y resumen")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_imagenes_conservan_pie_y_alt():
+    """En los manuales de Cisco el pie de figura suele ser lo que da sentido
+    al diagrama, y hasta ahora se tiraba entero: bloques_a_markdown no emitia
+    las imagenes de ninguna forma."""
+    html = """<main>
+      <h1>SIP trunk</h1>
+      <p>El trunk conecta CUCM con el CUBE sobre TCP 5060.</p>
+      <figure>
+        <img src="/i/topologia.png" alt="diagram">
+        <figcaption>Figura 3: topologia de SIP trunk entre CUCM y CUBE</figcaption>
+      </figure>
+      <img src="/i/flujo.png" alt="Flujo de llamada con recuperacion SRST">
+    </main>"""
+    md, _ = sanitizar(html, base_url="https://www.cisco.com/c/en/us/td/docs/guia.html")
+
+    # El pie manda sobre el alt: "diagram" no describe nada.
+    assert "Figura 3: topologia de SIP trunk entre CUCM y CUBE" in md
+    assert "Flujo de llamada con recuperacion SRST" in md
+    # Y el src relativo se resuelve contra la URL de la pagina.
+    assert "https://www.cisco.com/i/topologia.png" in md
+    print("  OK imagenes: pie de figura y alt conservados, src resuelto")
+
+
+def test_iconos_de_admonicion_no_son_figuras():
+    """Cada Note o Caution de un manual de Cisco lleva un gif con esa palabra
+    en el alt. Son cientos por guia y no describen ninguna figura."""
+    html = """<main><p>""" + ("Texto del procedimiento. " * 30) + """</p>
+      <img src="/i/note.gif" alt="Note">
+      <img src="/i/caution.gif" alt="Caution">
+      <img src="/i/spacer.gif" alt="">
+      <img src="/i/arrow.gif" alt="&gt;">
+    </main>"""
+    md, _ = sanitizar(html)
+    assert "## Figuras" not in md, f"emitio figuras que son iconos:\n{md}"
+
+    # Pero un pie que empieza igual y lleva contenido detras si entra.
+    html2 = """<main><p>""" + ("Texto. " * 30) + """</p>
+      <img src="/i/x.png" alt="Caution: el reinicio corta las llamadas activas">
+    </main>"""
+    md2, _ = sanitizar(html2)
+    assert "el reinicio corta las llamadas activas" in md2
+    print("  OK iconos: Note/Caution sueltos descartados, con prosa detras no")
+
+
+def test_imagen_embebida_conserva_el_texto_sin_url():
+    """Una imagen en base64 no tiene URL que citar, pero su descripcion sigue
+    siendo texto util."""
+    html = ("<main><p>" + ("Texto. " * 30) + "</p>"
+            "<img src='data:image/png;base64,iVBOR' alt='Grafico de latencia media'></main>")
+    md, _ = sanitizar(html)
+    assert "Figura: Grafico de latencia media" in md
+    assert "base64" not in md
+    print("  OK imagen embebida: descripcion sin URL, sin volcar el base64")
+
+
+def test_backoff_y_clasificacion():
+    from fetch_policy import PoliticaAcceso
+    p = PoliticaAcceso()
+    assert p.tras_respuesta("http://x/1", 200)[0] == "ok"
+    assert p.tras_respuesta("http://x/2", 304)[0] == "no_modificado"
+    assert p.tras_respuesta("http://x/3", 404)[0] == "desaparecido"
+    assert p.tras_respuesta("http://x/4", 403)[0] == "cuarentena"
+    assert p.cuarentena.contiene("http://x/4")
+
+    accion, espera = p.tras_respuesta("http://x/5", 429, retry_after="30", intento=0)
+    assert accion == "reintentar" and espera == 30.0, "No honró Retry-After"
+
+    accion, _ = p.tras_respuesta("http://x/5", 429, intento=99)
+    assert accion == "cuarentena", "Un 429 persistente debería aparcarse"
+
+    # El 403 nunca se reintenta, sea cual sea el intento.
+    assert p.backoff.debe_reintentar(0, 403) is False
+    print("  OK política: 403->cuarentena sin reintento, 429->backoff con Retry-After, "
+          "304->no modificado")
+
+
+def test_redirecciones():
+    """Un 3xx es una respuesta válida del origen, no un fallo de acceso.
+
+    Sin esta rama, developer.cisco.com respondía 301 en cada URL (canonicaliza
+    con barra final) y el pipeline lo contaba como fallo: 127 rebotes en
+    error.log sobre /docs/finesse, /docs/customer-voice-portal y compañía, y
+    ni una sola página de /docs/ llegó a rastrearse.
+    """
+    from fetch_policy import REDIRECCIONES, PoliticaAcceso
+    p = PoliticaAcceso()
+
+    for codigo in REDIRECCIONES:
+        accion, espera = p.tras_respuesta(f"http://x/{codigo}", codigo)
+        assert accion == "redirigido", f"HTTP {codigo} no se clasificó como redirección"
+        assert espera == 0
+
+    # No debe abrir el circuito: hay sitios que redirigen de forma rutinaria.
+    assert p.breaker.abierto is False, "Las redirecciones abrieron el breaker"
+    # Y no son cuarentena: la URL no está bloqueada, solo movida.
+    assert not p.cuarentena.contiene("http://x/301")
+    print(f"  OK redirecciones: {len(REDIRECCIONES)} códigos 3xx -> 'redirigido', "
+          "sin abrir el breaker")
+
+
+def test_estado_redireccion():
+    """registrar_redireccion no es ni tombstone ni fallo."""
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        origen = "https://developer.cisco.com/docs/finesse"
+        destino = "https://developer.cisco.com/docs/finesse/"
+
+        # Una URL conocida que arrastraba fallos de cuando el 3xx se tomaba
+        # por error.
+        m.registrar_contenido(origen, "# Finesse\n\n" + "contenido. " * 40)
+        m.registrar_fallo(origen)
+        m.registrar_fallo(origen)
+        assert m.entradas[origen]["fail_count"] == 2
+
+        m.registrar_redireccion(origen, destino, 301)
+        entrada = m.entradas[origen]
+        assert entrada["status"] == "redirect"
+        assert entrada["redirect_to"] == destino
+        assert entrada["fail_count"] == 0, "La redirección no limpió los fallos"
+        assert entrada["doc_id"] not in m.deltas["removed"], \
+            "Una redirección no debe emitir tombstone"
+
+        # 301 es permanente: no se vuelve a pedir.
+        assert m.debe_visitar(origen) is False
+        # 302 es temporal: se revisa cuando venza su TTL.
+        temporal = "https://developer.cisco.com/site/axl"
+        m.registrar_redireccion(temporal, "https://developer.cisco.com/site/axl/", 302)
+        assert m.entradas[temporal]["status"] == "redirect"
+        assert m.entradas[temporal].get("next_check"), "Un 302 se queda sin TTL"
+
+        print("  OK redirección: sin tombstone, sin fail_count, 301 no se revisita")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_url_que_nunca_sirve_contenido_deja_de_reencolarse():
+    """La corrección que hace converger la frontera.
+
+    registrar_fallo hacía `return` cuando la URL no estaba en el manifiesto,
+    que es el caso de toda URL que NUNCA ha servido contenido: DOM vacío, o
+    markdown por debajo del mínimo tras sanitizar. Sin entrada, debe_visitar
+    la da por desconocida, el enlace se redescubre al rastrear su página
+    padre y vuelve a encolarse en el lote siguiente, indefinidamente. Ese es
+    el motivo de que more_work.flag no se borrara nunca y el ETL se
+    encadenara sin fin: en logs/error.log hay 84.387 líneas de fallo sobre
+    unas 16.000 URLs.
+    """
+    tmp = tempfile.mkdtemp()
+    cwd = os.getcwd()
+    try:
+        os.chdir(tmp)
+        os.makedirs("docs/pages", exist_ok=True)
+        os.makedirs("logs", exist_ok=True)
+
+        m = ManifestStore()
+        url = "https://developer.cisco.com/docs/finesse/cisco-finesse-desktop-apis/"
+        assert m.debe_visitar(url) is True, "URL nueva: debe visitarse"
+
+        m.registrar_fallo(url)
+        assert url in m.entradas, "El fallo no dejó rastro en el manifiesto"
+        assert m.entradas[url]["fail_count"] == 1
+        assert m.debe_visitar(url) is False, \
+            "Se reencolaría en el lote siguiente: la frontera no converge"
+
+        # Y el backoff crece hasta aparcarla.
+        for _ in range(4):
+            m.registrar_fallo(url)
+        assert m.entradas[url]["fail_count"] == 5
+
+        # Un 404 sobre una URL nunca vista tampoco puede quedar sin registrar.
+        muerta = "https://developer.cisco.com/docs/jabber-bots/"
+        m.registrar_desaparecido(muerta)
+        assert m.entradas[muerta]["status"] == "gone"
+        assert m.debe_visitar(muerta) is False
+
+        # Si más tarde sí sirve contenido, vuelve a estar activa.
+        m2 = ManifestStore()
+        m2.entradas = m.entradas
+        m2.registrar_contenido(url, "# Desktop APIs\n\n" + "contenido. " * 40)
+        assert m2.entradas[url]["status"] == "active"
+        assert m2.entradas[url]["fail_count"] == 0
+
+        # Una pagina de seccion (sin cuerpo, pero con enlaces) no es un fallo:
+        # se registra como descubrimiento y se vuelve a recorrer con TTL, no
+        # se aparca 14 dias. En PubHub la pagina de seccion es el unico sitio
+        # desde el que se descubren los capitulos del doc-set.
+        seccion = "https://developer.cisco.com/docs/axl/axl-developer-guide/"
+        m.registrar_descubrimiento(seccion)
+        assert m.entradas[seccion]["status"] == "discovery"
+        assert m.entradas[seccion]["fail_count"] == 0
+        assert m.debe_visitar(seccion) is False, "se reencolaria en el lote siguiente"
+        assert m.entradas[seccion]["doc_id"] not in m.deltas["removed"]
+
+        print("  OK fallo sin contenido previo: queda registrado y no se reencola")
+    finally:
+        os.chdir(cwd)
+        shutil.rmtree(tmp, ignore_errors=True)
+
+
+def test_circuit_breaker():
+    from fetch_policy import CircuitBreaker
+    cb = CircuitBreaker(ventana=20, umbral_error=0.5, minimo_muestras=10)
+    for _ in range(5):
+        cb.registrar(False)
+    assert cb.abierto is False, "Se abrió con muestras insuficientes"
+    for _ in range(6):
+        cb.registrar(False)
+    assert cb.abierto is True, "No se abrió con ratio de error alto"
+    print("  OK circuit breaker")
+
+
+if __name__ == "__main__":
+    # Descubrimiento automatico en lugar de una lista escrita a mano. La
+    # lista se olvidaba: test_url_que_nunca_sirve_contenido_deja_de_reencolarse
+    # no llego a ejecutarse nunca al anadirla, y una prueba que no corre no
+    # protege nada.
+    md = None
+    pruebas = [v for k, v in sorted(globals().items())
+               if k.startswith("test_") and callable(v)]
+    for prueba in pruebas:
+        resultado = prueba()
+        if isinstance(resultado, str):
+            md = resultado
+
+    if md:
+        print("\n--- Markdown resultante de ejemplo ---")
+        print(md[:600])
+    print(f"\n{len(pruebas)} PRUEBAS PASARON")

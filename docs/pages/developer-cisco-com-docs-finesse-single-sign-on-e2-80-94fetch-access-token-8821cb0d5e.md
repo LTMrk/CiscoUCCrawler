@@ -1,0 +1,236 @@
+---
+doc_id: developer-cisco-com-docs-finesse-single-sign-on-e2-80-94fetch-access-token-8821cb0d5e
+source_url: https://developer.cisco.com/docs/finesse/single-sign-on%e2%80%94fetch-access-token/
+retrieved_at: 2026-09-07T14:07:14.424925+00:00
+---
+
+# Single Sign-On—Fetch Access Token
+
+This API gets the access token and refresh token from the Finesse server.
+
+Invoking this API might involve browser redirect to Cisco Identity Service and Identity Provider.
+
+In case of hybrid mode, cc_username=<agentid> request parameter is required.
+
+URI:
+
+https://<FQDN>/desktop/sso/token
+
+Example URI:
+
+https://finesse1.xyz.com/desktop/sso/token
+
+Security Constraints:
+
+Agents and supervisors can use this API.
+
+HTTP Method:
+
+GET
+
+Content Type:
+
+—
+
+Input/Output Format:
+
+JSON
+
+HTTP Request:
+
+—
+
+Request Parameters:
+
+(Optional) return_user=yes|no
+
+(Optional) return_refresh_token=true|false
+
+HTTP Response:
+
+200: Success
+
+400: Bad Request
+
+401: Unauthorized
+
+500: Internal Server Error
+
+Example Response:
+
+Response without any parameter:
+
+Code Snippet
+
+```
+{"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.
+eyJpc3MiOiJpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwi
+OltcImNjY19vbnByZW1fYXBwc1wiXSxcInJ0XCI6XCJmMGY5NGRjMjE4
+M2VhYjgzOGY5MThhNzdjOGFlMjBkMWJmMzgzOGVjXCIsXCJ1c2VyX2lkXCI
+6XCIxMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cIixcInVwbl
+wiOlwiMTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV
+0b2JvdC5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQ
+wODg2YjIzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImZhMjQ5NDA4ODBjODI
+zMzM5MjI1YTM5YTQ4ODYwZTgwOTkyN2ZlMmFcIixcImV4cGlyeVwiOjE2NzE3MTMz
+NTQzMDAsXCJ1c2FnZVwiOlwiYWNjZXNzXCIsXCJ2ZXJcIjpcIjEuMFwifSIsImV4cCI
+6MTY3MTcxMzM1NCwiaWF0IjoxNjcxNzEzMDU0LCJqdGkiOiJmYTI0OTQwODgwYzgyMzM
+zOTIyNWEzOWE0ODg2MGU4MDk5MjdmZTJhIn0.sqYP6iWCi0wYuqi42Ra6DkuSAo5J34IA
+uWri_OGRIUxzgKgz8ZziwuJTkNwotpU4Wp02-qo_mLse0B8CDFSVkQq-agtc3NCo7LKRuz
+7o4SkEe01_SPfJg5YSnQQIrBTEJUWdXxlxvTNm9ExXsKKiyTZgmEDsTAjaey2ZEt39-
+M11OxlctBqNcFt3qnqnEGzCE3ejrD7n7DUojMVyxhY1iK--x0L-w_ux--485U23-HC1C
+g8zzMltFGVHSCv01EZQzgjNFLUxgXc_7r5TMUfdnbc6UjMRvs2dIrBntujmBzz_pgIraU
+iqAO9mzjMku6gFlgIaPL0N-xEk_hwXj86T0g","expires_in":300}
+```
+
+Response with return_user=yes parameter:
+
+Code Snippet
+
+```
+{"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.
+eyJpc3MiOiJpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwi
+OltcImNjY19vbnByZW1fYXBwc1wiXSxcInJ0XCI6XCJmMGY5NGRjMjE4M2V
+hYjgzOGY5MThhNzdjOGFlMjBkMWJmMzgzOGVjXCIsXCJ1c2VyX2lkXCI6XCI
+xMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cIixcInVwblwiOlwi
+MTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV0b2JvdC
+5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQwODg2Y
+jIzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImZhMjQ5NDA4ODBjODIzMzM5M
+jI1YTM5YTQ4ODYwZTgwOTkyN2ZlMmFcIixcImV4cGlyeVwiOjE2NzE3MTMzNTQz
+MDAsXCJ1c2FnZVwiOlwiYWNjZXNzXCIsXCJ2ZXJcIjpcIjEuMFwifSIsImV4cCI6
+MTY3MTcxMzM1NCwiaWF0IjoxNjcxNzEzMDU0LCJqdGkiOiJmYTI0OTQwODgwYzgyMzMzOTI
+yNWEzOWE0ODg2MGU4MDk5MjdmZTJhIn0.sqYP6iWCi0wYuqi42Ra6DkuSAo5J34IAu
+Wri_OGRIUxzgKgz8ZziwuJTkNwotpU4Wp02-qo_mLse0B8CDFSVkQq-agtc3NCo7LKRuz
+7o4SkEe01_SPfJg5YSnQQIrBTEJUWdXxlxvTNm9ExXsKKiyTZgmEDsTAjaey2ZEt39-M11
+OxlctBqNcFt3qnqnEGzCE3ejrD7n7DUojMVyxhY1iK--x0L-w_ux--485U23-HC1Cg8zz
+MltFGVHSCv01EZQzgjNFLUxgXc_7r5TMUfdnbc6UjMRvs2dIrBntujmBzz_pgIraUiqAO9
+mzjMku6gFlgIaPL0N-xEk_hwXj86T0g","expires_in":284,"user_id":"1001005",
+"realm":"finesse.com","user_principal":"1001005@finesse.com"}
+```
+
+Response with return_refresh_token=true parameter:
+
+Code Snippet
+
+```
+{"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOi
+JpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwiOltcImNjY19vbnByZW1fYXB
+wc1wiXSxcInJ0XCI6XCJmYjhlYzAwNGM5MDMzOTQ0NjJmNWRiYjNhM2JhYWNhZGU2OWM5OT
+diXCIsXCJ1c2VyX2lkXCI6XCIxMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cI
+ixcInVwblwiOlwiMTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV0
+b2JvdC5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQwODg2Yj
+IzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImMyNTBjOWIwNTMwYWI2MWI3NTE1OGV
+iNmU4Y2VmOThmYTkxMDFiNFwiLFwiZXhwaXJ5XCI6MTY3MTcxMzQwNDA5NyxcInVzYWdl
+XCI6XCJhY2Nlc3NcIixcInZlclwiOlwiMS4wXCJ9IiwiZXhwIjoxNjcxNzEzNDA0LCJpYXQ
+iOjE2NzE3MTMxMDQsImp0aSI6ImMyNTBjOWIwNTMwYWI2MWI3NTE1OGViNmU4Y2VmOThmYT
+kxMDFiNCJ9.kOJgNu1YFqqadK0Y2jW-Y3-poy0-aq027vY-A8S-LRZdzfdFY7y-qERTXe81
+veawBZMMRQq3oXB3o-RYOsHzNqn2lpOLklKQiNruMcy1LNs9hIE8PQmot3OLSUrHoWNYnB7
+VY52YFL4AL7YJd_RxxcFJeiuWLAi8tWKGM_n5pmVSInqXzDSkNQcKrNUQXYMvxYWpXSICLu6-
+JVOYF5jtCMAhsSmDGnP7DI7l4Os5baxsedCVEW9IuYI58PwLTQ3EjlqgeFNZDzm6Edg3bnUGZ
+0japcWE48F4lUjPeJeYHA40rc1wbF_iwkMn2-3H0keyf1llb2AhxwjtUQogmS16uw",
+"refresh_token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpZHMuYXV0
+b2JvdC5jdnAiLCJzdWIiOiJ7XCJpZHNfaWRcIjpcImlkcy5hdXRvYm90LmN2cFwiLFwiY2xp
+ZW50X2lkXCI6XCJiZWRiYzU1ZWU4NjRiOTljOGY1NDA4ODZiMjNhZTM3YzUxODk0MDdlXCIs
+XCJ0b2tlblwiOlwiZmI4ZWMwMDRjOTAzMzk0NDYyZjVkYmIzYTNiYWFjYWRlNjljOTk3Ylwi
+LFwiZXhwaXJ5XCI6MTY3MTcyMDMwNDA5NyxcInVzYWdlXCI6XCJyZWZyZXNoXCIsXCJ2ZXJcI
+jpcIjEuMFwifSIsImV4cCI6MTY3MTcyMDMwNCwiaWF0IjoxNjcxNzEzMTA0LCJqdGkiOiJmY
+jhlYzAwNGM5MDMzOTQ0NjJmNWRiYjNhM2JhYWNhZGU2OWM5OTdiIn0.HCmDh_Tx-0x0cRSzVW
+thmkh_dNHP3Pnya7M2nDKWftNJBIQd82u7OmNfgyb8OE4o2uEMtZ7y6i64eSH6hkaOKnsrW_aX
+_xBuRS8ssrFGZoguAPa1sHRgjClPGiOwvSMw4gKmThGU-du71U6lz2ZZq8W7Wvg4ViM5DoHSs
+_iD0vmy3W-CVCi5puvUBtQH_1GXyzAE6FMGGmxMp9LY-qT_Tx0-KC4ixwpM1eAIcbMHZcLzJK5
+EUfZWI8Vkl2eVjK8W84OWPeBHCFX5f8vjZvDCSj3LHQ6WKglI6edjAz3nMq8UHmKGlaq6V6nT4
+GJf897SBl607MzCm032b4oO46md8Q","expires_in":300}
+```
+
+Example Failure Response:
+
+Code Snippet
+
+```
+{"error":"invalid_redirectUri","error_description":"Invalid Redirect 
+    URI."}
+```
+
+When you use the return_refresh_token=true query parameter in this API, access token and refresh token cookies are not added to the response. All information is provided as part of the response body, which can be directly used by the third-party clients.
+
+Use this query parameter when third-party clients use Cisco Finesse SSO APIs alongside Finesse desktop in the same browser. Using this query parameter prevents agent logout from Finesse desktop due to desktop cookie overriding by third-party clients.
+
+| Note | Invoking this API might involve browser redirect to Cisco Identity Service and Identity Provider. In case of hybrid mode, cc_username=<agentid> request parameter is required. |
+|---|---|
+
+| URI: | https://<FQDN>/desktop/sso/token |
+|---|---|
+| Example URI: | https://finesse1.xyz.com/desktop/sso/token |
+| Security Constraints: | Agents and supervisors can use this API. |
+| HTTP Method: | GET |
+| Content Type: | — |
+| Input/Output Format: | JSON |
+| HTTP Request: | — |
+| Request Parameters: | (Optional) return_user=yes\|no (Optional) return_refresh_token=true\|false |
+| HTTP Response: | 200: Success 400: Bad Request 401: Unauthorized 500: Internal Server Error |
+| Example Response: | Response without any parameter: Code Snippet {"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.
+eyJpc3MiOiJpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwi
+OltcImNjY19vbnByZW1fYXBwc1wiXSxcInJ0XCI6XCJmMGY5NGRjMjE4
+M2VhYjgzOGY5MThhNzdjOGFlMjBkMWJmMzgzOGVjXCIsXCJ1c2VyX2lkXCI
+6XCIxMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cIixcInVwbl
+wiOlwiMTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV
+0b2JvdC5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQ
+wODg2YjIzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImZhMjQ5NDA4ODBjODI
+zMzM5MjI1YTM5YTQ4ODYwZTgwOTkyN2ZlMmFcIixcImV4cGlyeVwiOjE2NzE3MTMz
+NTQzMDAsXCJ1c2FnZVwiOlwiYWNjZXNzXCIsXCJ2ZXJcIjpcIjEuMFwifSIsImV4cCI
+6MTY3MTcxMzM1NCwiaWF0IjoxNjcxNzEzMDU0LCJqdGkiOiJmYTI0OTQwODgwYzgyMzM
+zOTIyNWEzOWE0ODg2MGU4MDk5MjdmZTJhIn0.sqYP6iWCi0wYuqi42Ra6DkuSAo5J34IA
+uWri_OGRIUxzgKgz8ZziwuJTkNwotpU4Wp02-qo_mLse0B8CDFSVkQq-agtc3NCo7LKRuz
+7o4SkEe01_SPfJg5YSnQQIrBTEJUWdXxlxvTNm9ExXsKKiyTZgmEDsTAjaey2ZEt39-
+M11OxlctBqNcFt3qnqnEGzCE3ejrD7n7DUojMVyxhY1iK--x0L-w_ux--485U23-HC1C
+g8zzMltFGVHSCv01EZQzgjNFLUxgXc_7r5TMUfdnbc6UjMRvs2dIrBntujmBzz_pgIraU
+iqAO9mzjMku6gFlgIaPL0N-xEk_hwXj86T0g","expires_in":300} |
+| Response with return_user=yes parameter: Code Snippet {"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.
+eyJpc3MiOiJpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwi
+OltcImNjY19vbnByZW1fYXBwc1wiXSxcInJ0XCI6XCJmMGY5NGRjMjE4M2V
+hYjgzOGY5MThhNzdjOGFlMjBkMWJmMzgzOGVjXCIsXCJ1c2VyX2lkXCI6XCI
+xMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cIixcInVwblwiOlwi
+MTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV0b2JvdC
+5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQwODg2Y
+jIzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImZhMjQ5NDA4ODBjODIzMzM5M
+jI1YTM5YTQ4ODYwZTgwOTkyN2ZlMmFcIixcImV4cGlyeVwiOjE2NzE3MTMzNTQz
+MDAsXCJ1c2FnZVwiOlwiYWNjZXNzXCIsXCJ2ZXJcIjpcIjEuMFwifSIsImV4cCI6
+MTY3MTcxMzM1NCwiaWF0IjoxNjcxNzEzMDU0LCJqdGkiOiJmYTI0OTQwODgwYzgyMzMzOTI
+yNWEzOWE0ODg2MGU4MDk5MjdmZTJhIn0.sqYP6iWCi0wYuqi42Ra6DkuSAo5J34IAu
+Wri_OGRIUxzgKgz8ZziwuJTkNwotpU4Wp02-qo_mLse0B8CDFSVkQq-agtc3NCo7LKRuz
+7o4SkEe01_SPfJg5YSnQQIrBTEJUWdXxlxvTNm9ExXsKKiyTZgmEDsTAjaey2ZEt39-M11
+OxlctBqNcFt3qnqnEGzCE3ejrD7n7DUojMVyxhY1iK--x0L-w_ux--485U23-HC1Cg8zz
+MltFGVHSCv01EZQzgjNFLUxgXc_7r5TMUfdnbc6UjMRvs2dIrBntujmBzz_pgIraUiqAO9
+mzjMku6gFlgIaPL0N-xEk_hwXj86T0g","expires_in":284,"user_id":"1001005",
+"realm":"finesse.com","user_principal":"1001005@finesse.com"} |
+| Response with return_refresh_token=true parameter: Code Snippet {"token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOi
+JpZHMuYXV0b2JvdC5jdnAiLCJzdWIiOiJ7XCJzY29wZVwiOltcImNjY19vbnByZW1fYXB
+wc1wiXSxcInJ0XCI6XCJmYjhlYzAwNGM5MDMzOTQ0NjJmNWRiYjNhM2JhYWNhZGU2OWM5OT
+diXCIsXCJ1c2VyX2lkXCI6XCIxMDAxMDA1XCIsXCJyZWFsbVwiOlwiZmluZXNzZS5jb21cI
+ixcInVwblwiOlwiMTAwMTAwNUBmaW5lc3NlLmNvbVwiLFwiaWRzX2lkXCI6XCJpZHMuYXV0
+b2JvdC5jdnBcIixcImNsaWVudF9pZFwiOlwiYmVkYmM1NWVlODY0Yjk5YzhmNTQwODg2Yj
+IzYWUzN2M1MTg5NDA3ZVwiLFwidG9rZW5cIjpcImMyNTBjOWIwNTMwYWI2MWI3NTE1OGV
+iNmU4Y2VmOThmYTkxMDFiNFwiLFwiZXhwaXJ5XCI6MTY3MTcxMzQwNDA5NyxcInVzYWdl
+XCI6XCJhY2Nlc3NcIixcInZlclwiOlwiMS4wXCJ9IiwiZXhwIjoxNjcxNzEzNDA0LCJpYXQ
+iOjE2NzE3MTMxMDQsImp0aSI6ImMyNTBjOWIwNTMwYWI2MWI3NTE1OGViNmU4Y2VmOThmYT
+kxMDFiNCJ9.kOJgNu1YFqqadK0Y2jW-Y3-poy0-aq027vY-A8S-LRZdzfdFY7y-qERTXe81
+veawBZMMRQq3oXB3o-RYOsHzNqn2lpOLklKQiNruMcy1LNs9hIE8PQmot3OLSUrHoWNYnB7
+VY52YFL4AL7YJd_RxxcFJeiuWLAi8tWKGM_n5pmVSInqXzDSkNQcKrNUQXYMvxYWpXSICLu6-
+JVOYF5jtCMAhsSmDGnP7DI7l4Os5baxsedCVEW9IuYI58PwLTQ3EjlqgeFNZDzm6Edg3bnUGZ
+0japcWE48F4lUjPeJeYHA40rc1wbF_iwkMn2-3H0keyf1llb2AhxwjtUQogmS16uw",
+"refresh_token":"eyJjdHkiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJpZHMuYXV0
+b2JvdC5jdnAiLCJzdWIiOiJ7XCJpZHNfaWRcIjpcImlkcy5hdXRvYm90LmN2cFwiLFwiY2xp
+ZW50X2lkXCI6XCJiZWRiYzU1ZWU4NjRiOTljOGY1NDA4ODZiMjNhZTM3YzUxODk0MDdlXCIs
+XCJ0b2tlblwiOlwiZmI4ZWMwMDRjOTAzMzk0NDYyZjVkYmIzYTNiYWFjYWRlNjljOTk3Ylwi
+LFwiZXhwaXJ5XCI6MTY3MTcyMDMwNDA5NyxcInVzYWdlXCI6XCJyZWZyZXNoXCIsXCJ2ZXJcI
+jpcIjEuMFwifSIsImV4cCI6MTY3MTcyMDMwNCwiaWF0IjoxNjcxNzEzMTA0LCJqdGkiOiJmY
+jhlYzAwNGM5MDMzOTQ0NjJmNWRiYjNhM2JhYWNhZGU2OWM5OTdiIn0.HCmDh_Tx-0x0cRSzVW
+thmkh_dNHP3Pnya7M2nDKWftNJBIQd82u7OmNfgyb8OE4o2uEMtZ7y6i64eSH6hkaOKnsrW_aX
+_xBuRS8ssrFGZoguAPa1sHRgjClPGiOwvSMw4gKmThGU-du71U6lz2ZZq8W7Wvg4ViM5DoHSs
+_iD0vmy3W-CVCi5puvUBtQH_1GXyzAE6FMGGmxMp9LY-qT_Tx0-KC4ixwpM1eAIcbMHZcLzJK5
+EUfZWI8Vkl2eVjK8W84OWPeBHCFX5f8vjZvDCSj3LHQ6WKglI6edjAz3nMq8UHmKGlaq6V6nT4
+GJf897SBl607MzCm032b4oO46md8Q","expires_in":300} |
+| Example Failure Response: | Code Snippet {"error":"invalid_redirectUri","error_description":"Invalid Redirect 
+    URI."} |
+
+| Note | When you use the return_refresh_token=true query parameter in this API, access token and refresh token cookies are not added to the response. All information is provided as part of the response body, which can be directly used by the third-party clients. Use this query parameter when third-party clients use Cisco Finesse SSO APIs alongside Finesse desktop in the same browser. Using this query parameter prevents agent logout from Finesse desktop due to desktop cookie overriding by third-party clients. |
+|---|---|

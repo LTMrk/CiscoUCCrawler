@@ -1,0 +1,120 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-administration-guid-9701978df4
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/administration/guide/ccvp_b_1501-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1501_admin-preface.html
+retrieved_at: 2026-08-21T02:57:01.898668+00:00
+---
+
+Administration Guide for Cisco Unified Customer Voice Portal 15.0(1)
+
+# Administration Guide for Cisco Unified Customer Voice Portal 15.0(1)
+
+Updated: December 12, 2025
+
+Chapter: Preface
+
+## Chapter: Preface
+
+# Preface
+
+## Change History
+
+This table lists changes made to this guide. Most recent changes appear at the top.
+
+Change
+
+See
+
+Date
+
+Initial Release of Document for Release 15.0(1)
+
+August, 2025
+
+Added Smart Transport method in Transport Settings for the Smart Licensing.
+
+Smart Licensing > Configure transport settings for smart licensing
+
+April, 2025
+
+Added description on using a heartbeat mechanism over TCP/UDP to monitor SIP server reachability, adding unreachable servers
+                                       to a table and blocking SIP traffic through them.
+
+SIP Server Groups > View SIP Server Groups
+
+## About This
+                        	 Document
+
+The Administration Guide for
+                                    				  Cisco Unified Customer Voice Portal provides the following information:
+
+Understand the
+                                 			 Operations Console interface and how it is used for configuration, error
+                                 			 handling, and Control Center operations.
+
+Manage devices
+                                 			 and Cisco Unified CVP users.
+
+Perform bulk
+                                 			 administration, SNMP agent setup, and launch tools.
+
+## Audience
+
+Configuring Cisco Gateways
+
+Configuring Cisco Unified Communications Manager
+
+ICM Configuration Manager and ICM Script Editor tools for call
+                                    			 center operations and management
+
+## Related
+                        	 Documents
+
+Solution Design Guide for
+                                    				Cisco Unified Contact Center Enterprise
+
+Configuration Guide for
+                                    				Cisco Unified Customer Voice Portal
+
+Installation and Upgrade Guide for Cisco Virtualized Voice Browser
+
+Developer Guide for Cisco
+                                    				Virtualized Voice Browser
+
+Solution Port Utilization Guide for Cisco Unified Contact Center Solutions
+
+Operations Guide for Cisco
+                                    				Virtualized Voice Browser
+
+## Communications, Services, and Additional Information
+
+To receive timely, relevant information from Cisco, sign up at Cisco Profile Manager .
+
+To get the business results you’re looking for with the technologies that matter, visit Cisco Services .
+
+To submit a service request, visit Cisco Support .
+
+To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco DevNet .
+
+To obtain general networking, training, and certification titles, visit Cisco Press .
+
+To find warranty information for a specific product or product family, access Cisco Warranty Finder .
+
+### Cisco Bug Search Tool
+
+Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of defects
+                              and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
+                              and software.
+
+## Documentation Feedback
+
+Provide your comments about this document to:
+
+mailto:ccbu_docfeedback@cisco.com
+
+| Change | See | Date |
+|---|---|---|
+| Initial Release of Document for Release 15.0(1) | August, 2025 |
+|  |  |
+| Added Smart Transport method in Transport Settings for the Smart Licensing. | Smart Licensing > Configure transport settings for smart licensing | April, 2025 |
+| Added description on using a heartbeat mechanism over TCP/UDP to monitor SIP server reachability, adding unreachable servers
+                                       to a table and blocking SIP traffic through them. | SIP Server Groups > View SIP Server Groups |

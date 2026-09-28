@@ -1,0 +1,239 @@
+name: CiscoUCCrawler ETL
+
+# WORKFLOW DE EXTRACCION. Rastrea, ingiere y commitea el corpus. NO genera
+# los ZIP: eso vive en paquete.yml, que solo lee lo ya almacenado y se puede
+# lanzar solo, sin esperar 50 minutos de rastreo. Este workflow invoca aquel
+# al terminar, pero unicamente cuando la frontera queda vacia.
+
+on:
+  workflow_dispatch:
+    inputs:
+      forzar_openapi:
+        description: "Regenerar todos los docs OpenAPI aunque no haya cambios"
+        type: boolean
+        default: false
+      generar_paquete:
+        description: "Generar el paquete de Copilot aunque queden URLs pendientes"
+        type: boolean
+        default: false
+      lote:
+        description: "Numero de lote de la cadena. No tocar a mano."
+        type: string
+        default: "1"
+  schedule:
+    # Semanal. La documentación de producto no cambia a diario; un cron
+    # agresivo solo aumenta la probabilidad de que el WAF nos clasifique
+    # como carga abusiva sin aportar frescura real.
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+  actions: write
+
+# Impide que dos lotes se pisen: el segundo esperaría a que el primero
+# termine de escribir manifest.json, evitando commits en conflicto.
+concurrency:
+  group: crawler-etl
+  cancel-in-progress: false
+
+jobs:
+  process-documents:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    outputs:
+      # Lo consume el job del paquete para saber si el corpus ya esta completo.
+      pendientes: ${{ steps.frontera.outputs.pendientes }}
+    env:
+      # Debe coincidir con timeout-minutes del job. El pipeline lo usa para
+      # calcular cuanto tiempo real le queda tras instalar dependencias.
+      TIMEOUT_JOB_MIN: "50"
+      # Reserva para guardar frontera, commitear, subir artefactos y encadenar.
+      MARGEN_MIN: "6"
+    steps:
+      - name: Marcar inicio del job
+        # Sin esta marca no hay forma de saber cuanto tiempo consumio la
+        # instalacion, y el crawl no puede ajustar su propio limite.
+        run: echo "JOB_INICIO=$(date +%s)" >> "$GITHUB_ENV"
+
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          # Superficial A PROPOSITO. El repositorio lleva 2.693 ejecuciones
+          # de ETL commiteadas, 12.780 documentos y 260 MB de .git: con
+          # fetch-depth: 0 el checkout del 2026-09-27 paso de 20 minutos,
+          # un 40% del presupuesto del job gastado antes de rastrear nada.
+          #
+          # El pipeline no necesita historia: escribe ficheros, commitea y
+          # empuja. git_commit_and_push intenta el push directo y solo se
+          # trae la historia completa (--unshallow) si la rama ha divergido,
+          # que con el grupo de concurrencia solo pasa si empuja una persona
+          # a la vez.
+          fetch-depth: 1
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          # Sin esto, la accion busca **/requirements.txt o **/pyproject.toml
+          # y aborta si no encuentra ninguno — que es exactamente el fallo
+          # "No file ... matched to [**/requirements.txt or **/pyproject.toml]".
+          cache-dependency-path: requirements.lock.txt
+
+      - name: Cachear navegadores de Playwright
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          # La clave incluye el hash del lock, que es donde esta fijada la
+          # version de playwright: al cambiarla, la cache se invalida sola en
+          # lugar de servir un chromium incompatible.
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.lock.txt') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
+
+      - name: Instalar dependencias de Python
+        timeout-minutes: 10
+        run: |
+          python -m pip install --upgrade pip
+          # Desde el lock, no desde requirements.txt: este job corre por cron
+          # semanal y sin nadie mirando, y crawl4ai arrastra mas de noventa
+          # transitivas que de otro modo flotan. requirements.txt sigue siendo
+          # la declaracion de intencion; ver la cabecera del lock para
+          # regenerarlo.
+          pip install -r requirements.lock.txt
+
+      - name: Instalar Chromium para Playwright
+        timeout-minutes: 8
+        run: |
+          # `--with-deps` lanzaba apt-get como root en el mismo comando que la
+          # descarga del navegador. En los runners hospedados el mirror
+          # azure.archive.ubuntu.com falla de forma intermitente y apt se queda
+          # reintentando: el 2026-08-19 se comio los 50 minutos del job entero
+          # y GitHub lo cancelo antes de rastrear una sola pagina.
+          #
+          # Ahora van separados. Las librerias del sistema se reintentan y, si
+          # aun asi fallan, NO se aborta: la imagen ubuntu-latest ya trae
+          # Chrome y casi todas las dependencias de Chromium, asi que merece
+          # la pena intentar el crawl antes que tirar el lote.
+          for intento in 1 2 3; do
+            # Sin `sudo` delante: install-deps ya escala a root por su cuenta
+            # ("Switching to root user to install dependencies"). Prefijarlo
+            # con sudo rompe la resolucion del binario en el PATH del venv.
+            if playwright install-deps chromium; then
+              break
+            fi
+            echo "::warning::apt fallo (intento ${intento}/3). Reintento en 15s."
+            sleep 15
+          done
+          # Esto si es indispensable, pero sale de la cache y no toca apt.
+          playwright install chromium
+
+      - name: Pruebas de regresión
+        # Corren en segundos y sin red. Detectan fallos de contrato (esquemas
+        # de estado, regex de URL, extractor OpenAPI) ANTES de gastar el
+        # presupuesto del runner en un crawl que va a morir a mitad.
+        run: |
+          # Glob, no lista escrita a mano: anadir un fichero de pruebas ya no
+          # obliga a acordarse de registrarlo aqui y en tests.yml.
+          for prueba in tests/test_*.py; do
+            echo "::group::${prueba}"
+            python3 "${prueba}" || exit 1
+            echo "::endgroup::"
+          done
+
+      - name: Ejecutar pipeline
+        # El presupuesto en URLs no acota el tiempo: 400 URLs a 15 peticiones
+        # por minuto son 27 minutos solo de rate limit. Se le pasa al crawler
+        # el tiempo que REALMENTE queda del job para que cierre el lote por su
+        # cuenta y alcance a guardar frontera y commitear. Si se deja que lo
+        # cancele GitHub, se pierde el lote entero.
+        #
+        # 45 = TIMEOUT_JOB_MIN - MARGEN_MIN + 1. Es solo una red de seguridad
+        # por si el crawler se queda colgado en una peticion y no llega a
+        # evaluar su propio limite; en marcha normal nunca se dispara, porque
+        # `restante` siempre es menor.
+        timeout-minutes: 45
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FORZAR_OPENAPI: ${{ inputs.forzar_openapi }}
+        run: |
+          transcurrido=$(( ($(date +%s) - JOB_INICIO) / 60 ))
+          restante=$(( TIMEOUT_JOB_MIN - transcurrido - MARGEN_MIN ))
+          echo "Preparacion: ${transcurrido} min. Presupuesto del crawl: ${restante} min."
+          if [ "$restante" -lt 5 ]; then
+            echo "::error::Solo quedan ${restante} min utiles: la preparacion" \
+                 "consumio ${transcurrido} min. Se aborta sin gastar el runner."
+            exit 1
+          fi
+          MINUTOS_LIMITE="$restante" python3 src/crawler_ai.py
+
+      - name: Publicar resumen del lote
+        if: always()
+        run: python3 src/report.py
+
+      - name: Exportar diagnóstico
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: logs-diagnostico
+          path: logs/
+          retention-days: 7
+
+      - name: Encadenar siguiente lote
+        id: frontera
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOTE: ${{ inputs.lote || '1' }}
+          # Tope de la cadena. La frontera ya converge (registrar_fallo deja
+          # de reencolar lo que nunca sirve contenido), pero el tope es la
+          # red de seguridad que faltaba: sin el, cualquier regresion que
+          # vuelva a dejar more_work.flag escrito consume minutos de runner
+          # de forma indefinida y en silencio. Doce lotes de ~45 min cubren
+          # un rastreo completo; lo que quede lo recoge el cron semanal.
+          MAX_LOTES: "12"
+        run: |
+          # crawler_ai.py escribe este flag via state_store.guardar_frontera
+          # cuando quedan URLs pendientes.
+          if [ ! -f "logs/more_work.flag" ]; then
+            echo "pendientes=0" >> "$GITHUB_OUTPUT"
+            echo "Frontera vacia. ETL completo en el lote ${LOTE}."
+            exit 0
+          fi
+
+          pendientes=$(cat logs/more_work.flag)
+          echo "pendientes=${pendientes}" >> "$GITHUB_OUTPUT"
+
+          if [ "$LOTE" -ge "$MAX_LOTES" ]; then
+            echo "::warning::Tope de ${MAX_LOTES} lotes alcanzado con" \
+                 "${pendientes} URLs pendientes. Se corta la cadena; el cron" \
+                 "semanal la retoma. Si esto se repite, la frontera no esta" \
+                 "convergiendo: revisar logs/frontier.json."
+            exit 0
+          fi
+
+          # --ref es obligatorio: sin el, `gh workflow run` encola sobre la
+          # rama por defecto del repositorio, no sobre la que esta corriendo.
+          # Una cadena lanzada desde una rama de trabajo saltaria a main en
+          # el lote 2 y seguiria commiteando alli.
+          echo "Pendientes: ${pendientes} URLs. Encolando lote $((LOTE + 1))" \
+               "sobre ${GITHUB_REF_NAME}."
+          gh workflow run etl.yml --ref "$GITHUB_REF_NAME" -f lote="$((LOTE + 1))"
+
+  # ---------------------------------------------------------------------------
+  # Paquete para los agentes de M365 Copilot.
+  #
+  # El trabajo vive en paquete.yml, que tambien se puede lanzar solo. Aqui
+  # solo se decide CUANDO: al quedar la frontera vacia, es decir cuando el
+  # corpus esta completo. Generarlo en cada uno de los lotes encadenados
+  # seria tirar runner para producir varias veces un paquete incompleto.
+  # ---------------------------------------------------------------------------
+  paquete-copilot:
+    needs: process-documents
+    if: >-
+      always() &&
+      (needs.process-documents.outputs.pendientes == '0' ||
+       github.event.inputs.generar_paquete == 'true')
+    uses: ./.github/workflows/paquete.yml
+    with:
+      perfil: chat
+      fuente: todo

@@ -1,0 +1,61 @@
+---
+doc_id: help-webex-com-en-us-article-341eud-1b1903e194
+source_url: https://help.webex.com/en-us/article/341eud
+retrieved_at: 2026-09-01T21:38:25.551944+00:00
+---
+
+## Overview
+
+The Webex site linking process links a Webex site to Control Hub and gives you access to:
+
+Analytics for you Cloud Collaboration portfolio , including Webex Meetings. Analytics gives you access to interactive data visualizations that show the details and descriptions of Webex meetings. You can also access data about how many minutes people are spending in meetings, the quality of those meetings, and what type of audio people are using.
+
+Detailed troubleshooting data to pinpoint anything that could impact your meeting quality. You can access quality data about Webex meetings that are in progress or that have occurred within the past 30 days, and data about participant details, video quality, audio quality, and more.
+
+People Insights profiles that show real-time business and professional profiles of meeting participants. Each user's profile can include their title, work history, social media links, and more.
+
+A powerful REST API that allows for seamless Webex integration. Reach out to devsupport@webex.com to start using RESTful APIs. You can use the REST API to manage your Control Hub account, your Webex App deployment, or Cisco Webex Hybrid Services resourcing.
+
+Webex desk and room devices integration. Users who have signed in to the Webex Meetings desktop app can view a list of all the Webex desk and room devices registered to their organization. Users can also search for and find the device they want to connect with using the Webex Meetings desktop app.
+
+Webex site linking doesn’t change the privileges available to administrators in Site Administration or Control Hub.
+
+If you already have users in Control Hub, then they get linked to your Webex site for an enhanced meeting experience with Control Hub.
+
+## Cisco-initiated automatic site linking for Webex sites
+
+We are currently linking all Webex meetings sites managed in Webex Site Administration to Control Hub. The meetings sites link to an existing Control Hub organization based on the:
+
+Organization name.
+
+Organization ID.
+
+Administrators' email addresses.
+
+Verified domains.
+
+We create a new organization in Control Hub if we can't link the meetings sites to an existing organization.
+
+To check if your Webex meetings site has already been linked, sign in to Site Administration and look in the Site Information for Cisco Webex Control Hub: Enrolled .
+
+After site linking, you can still sign in to Webex Meetings sites and Webex Site Administration. You can also sign in to Control Hub at https://admin.webex.com using your Site Administration credentials.
+
+User linking
+
+- All active and verified users are linked to Control Hub.
+
+- Any changes that you make to user accounts in Site Administration won't automatically sync to Control Hub. You must make changes to user accounts in both Site Administration and Control Hub.
+
+- If you add new users in Site Administration after site linking, those users must verify their email addresses to link to Control Hub, and then they are linked within 48 hours.
+
+- If a user has access to more than one linked Webex site, then the preferred Webex site for that user is the first Webex site that was linked to Control Hub. An admin can use the CSV file to change the preferred Webex site for users.
+
+User licenses
+
+- Licenses assigned to users in Site Administration carry over to Control Hub.
+
+- If you have an automatic assignment license template on your Control Hub organization, users are assigned licenses from the template when they are created in Control Hub through site linking. If a user already exists in Control Hub before site linking, then the license template won't assign licenses to that user.
+
+Activation emails
+
+Users may or may not receive activation emails from Webex when they're linked from Site Administration. You can decide if you want to automatically or manually send activation emails with the control of activation emails setting in Control Hub .

@@ -1,0 +1,102 @@
+---
+doc_id: webex-widgets-ai-docs-templates-readme-md
+source_url: https://github.com/webex/widgets/blob/next/ai-docs/templates/README.md
+repo: webex/widgets
+ruta: ai-docs/templates/README.md
+licencia: sin declarar
+retrieved_at: 2026-08-24T09:09:03.600266+00:00
+---
+
+# widgets — ai-docs/templates/README.md
+
+Repositorio: webex/widgets
+Descripcion del repositorio: Embed the power of Webex in your web applications ✨
+
+# AI Templates Directory
+
+## Purpose
+
+Templates for generating and maintaining contact center widgets and components.
+
+## Structure
+
+```
+templates/
+├── new-widget/          # Widget generation (7 modules)
+├── existing-widget/     # Bug fixes, features (2 modules)
+├── documentation/       # Documentation generation (2 modules, reusable for all packages)
+└── playwright/          # Playwright E2E templates
+```
+
+## Templates
+
+### 1. New Widget Generation
+
+**Directory:** [new-widget/](./new-widget/)
+
+**Modules:**
+- [00-master.md](./new-widget/00-master.md) - Orchestrator & workflow
+- [01-pre-questions.md](./new-widget/01-pre-questions.md) - Requirements gathering
+- [02-code-generation.md](./new-widget/02-code-generation.md) - Widget code patterns
+- [03-component-generation.md](./new-widget/03-component-generation.md) - Presentational components (conditional)
+- [04-integration.md](./new-widget/04-integration.md) - cc-widgets + samples integration
+- [05-test-generation.md](./new-widget/05-test-generation.md) - Test patterns
+- [06-validation.md](./new-widget/06-validation.md) - Quality checklist
+
+### 2. Existing Widget Maintenance
+
+**Directory:** [existing-widget/](./existing-widget/)
+
+**Modules:**
+- [bug-fix.md](./existing-widget/bug-fix.md) - Bug fix workflow
+- [feature-enhancement.md](./existing-widget/feature-enhancement.md) - Feature addition workflow
+
+### 3. Documentation Generation
+
+**Directory:** [documentation/](./documentation/)
+
+**Reusable for:** Widgets, store, components, utilities
+
+**Modules:**
+- [create-agent-md.md](./documentation/create-agent-md.md) - Generate AGENTS.md
+- [create-architecture-md.md](./documentation/create-architecture-md.md) - Generate ARCHITECTURE.md
+
+### 4. Playwright E2E Work
+
+**Directory:** [playwright/](./playwright/)
+
+**Modules:**
+- [00-master.md](./playwright/00-master.md) - Orchestrator and workflow
+- [01-pre-questions.md](./playwright/01-pre-questions.md) - Mandatory intake
+- [02-test-implementation.md](./playwright/02-test-implementation.md) - Suites/tests/sets implementation
+- [03-framework-and-doc-updates.md](./playwright/03-framework-and-doc-updates.md) - Shared framework/docs updates
+- [04-validation.md](./playwright/04-validation.md) - Validation checklist
+
+---
+
+## Usage
+
+**New Widget:** Start with [new-widget/00-master.md](./new-widget/00-master.md)
+
+**Bug Fix:** Read [existing-widget/bug-fix.md](./existing-widget/bug-fix.md)
+
+**Feature Addition:** Read [existing-widget/feature-enhancement.md](./existing-widget/feature-enhancement.md)
+
+**Documentation Only:** Use [documentation/](./documentation/) templates
+
+**Playwright E2E Work:** Start with [playwright/00-master.md](./playwright/00-master.md)
+
+## Pattern References
+
+- [TypeScript Patterns](../patterns/typescript-patterns.md)
+- [React Patterns](../patterns/react-patterns.md)
+- [MobX Patterns](../patterns/mobx-patterns.md)
+- [Web Component Patterns](../patterns/web-component-patterns.md)
+- [Testing Patterns](../patterns/testing-patterns.md)
+
+---
+
+_Last Updated: 2026-03-04_
+
+---
+> Fuente: https://github.com/webex/widgets/blob/next/ai-docs/templates/README.md (licencia sin declarar)

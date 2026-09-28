@@ -1,0 +1,66 @@
+---
+doc_id: webex-contact-center-post-v1-notification-subscribe
+source: webex-openapi-specs/public-spec/webex-contact-center.json
+api: Webex Contact Center
+api_version: 1.0.0
+method: POST
+path: /v1/notification/subscribe
+operation_id: subscribeNotificationRoute
+tags: Notification
+deprecated: false
+scopes: 
+license: CC-BY-4.0
+retrieved_at: 2026-09-27T10:51:19.964078+00:00
+---
+
+# POST /v1/notification/subscribe
+
+**API:** Webex Contact Center
+**Área:** Notification
+**operationId:** `subscribeNotificationRoute`
+
+## Resumen
+Subscribe Notification
+
+## Descripción
+Access this endpoint when the user has to register for a WebSocket Session. Requires one of the following accepted registration scopes: `cjp:user` or `cloud-contact-center:pod_conv`. The `cjp-hybrid-conn:read` scope is also accepted when CCE authentication is enabled. Tokens with only admin or partner roles and no accepted registration scope are rejected.
+
+## Cuerpo de la petición (application/json)
+- `isKeepAliveEnabled` (boolean): This represents that a json message {\"keepalive\":\"true\"} is expected over the websocket connection from Client. This should be sent periodically (usually 4s). If there are no keep-alive messages from the client for a period of 16 seconds, the server will drop the websocket. Por defecto: False.
+- `clientType` (string): ClientType is used to identify a web application differently from other web applications. It is used to group connections together for a specific user coming from that specific web application, maximum length 20 characters. Por defecto: DefaultClient. Long. max: 20.
+- `allowMultiLogin` (boolean): This cannot be used without providing \"clientType\". When set to true, it informs the server to allow multiple logins for this user coming from the same clientType. Upto 10 multiple logins will be allowed. Por defecto: False.
+- `force` (boolean): When true, will drop a random connection and then subscribes if connections for a user exceed maximum limit. When allowMultiLogin is false and a multi-login is attempted, if set to true will drop all connections for that user of that clientType & then subscribes. Por defecto: False.
+
+## Ejemplo de invocación
+```bash
+curl -X POST '/v1/notification/subscribe' \
+  -H 'Authorization: Bearer <TOKEN>' \
+  -H 'Content-Type: application/json' \
+  -d '{}'
+```
+
+## Respuestas correctas
+**200**: OK
+- `webSocketUrl` (string) (**requerido**): Url used by the client to setup websocket.
+- `subscriptionId` (string) (**requerido**): Id used by client to subscribe to interested events.
+
+### Ejemplo — respuesta 200
+```json
+{
+  "webSocketUrl": "wss://api.wxcc-us1.cisco.com/v1/notification/subscription/AgentDesktop-ffffffac0f-39fa-4122-80d8-f2c2266e6391",
+  "subscriptionId": "AgentDesktop-ffffffac0f-39fa-4122-80d8-f2c2266e6391"
+}
+```
+
+## Respuestas de error
+- **401**: Unauthorized, Token is Invalid
+- **403**: Forbidden Request
+- **500**: Internal Server Error
+- **503**: Service Unavailable
+
+## Contexto de la API
+The Webex Contact Center APIs allow developers to deeply integrate, configure, and manage cloud-based contact center solutions. These APIs cover agent lifecycle management, queue and routing configuration, customer journey tracking, and access to real-time and historical analytics. Use cases include embedding agent controls in custom UIs, automating workforce management, integrating with CRM and ticketing systems, and building custom reporting dashboards. The APIs empower organizations to deliver personalized, efficient customer experiences and optimize contact center operations.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

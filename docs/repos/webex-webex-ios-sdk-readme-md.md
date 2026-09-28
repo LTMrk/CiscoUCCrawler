@@ -1,0 +1,91 @@
+---
+doc_id: webex-webex-ios-sdk-readme-md
+source_url: https://github.com/webex/webex-ios-sdk/blob/master/README.md
+repo: webex/webex-ios-sdk
+ruta: README.md
+licencia: NOASSERTION
+retrieved_at: 2026-08-24T09:08:27.055728+00:00
+---
+
+# webex-ios-sdk — README.md
+
+Repositorio: webex/webex-ios-sdk
+Descripcion del repositorio: iOS SDK for Webex
+
+# Cisco Webex iOS SDK
+
+[![CocoaPods](https://img.shields.io/cocoapods/v/WebexSDK.svg)](https://cocoapods.org/pods/WebexSDK)
+[![license](https://img.shields.io/github/license/webex/webex-ios-sdk.svg)](https://github.com/webex/webex-ios-sdk/blob/master/LICENSE)
+
+The Cisco Webex iOS SDK makes it easy to integrate and secure messaging, meeting and calling features in your iOS apps.
+
+## SDK types:
+
+- Message SDK : WebexSDK/Message
+     - This is a lightweight SDK which supports only messaging features
+     - It does not support calling and meeting related features
+
+Pod usage:
+
+```
+target 'MyApp' do
+  pod 'WebexSDK/Message'
+end
+```
+
+- WebexCalling SDK : WebexSDK/Wxc
+     - This SDK supports only WebexCalling feature
+     - It does not support CUCM calling
+
+Pod usage:
+
+```
+target 'MyApp' do
+  pod 'WebexSDK/Wxc'
+end
+```
+
+ - Meeting SDK : WebexSDK/Meeting
+     - This SDK supports Messaging and Meeting features
+     - It does not support CUCM Calling or Webex Calling
+     
+Pod usage:
+
+```
+target 'MyApp' do
+  pod 'WebexSDK/Meeting'
+end
+```
+
+ - Full SDK : WebexSDK
+     - Supports all the features.
+     - Details of all features can be found [here](https://developer.webex.com/calling/docs/sdks/ios-sdk-overview)
+     
+Pod usage:
+
+```
+target 'MyApp' do
+  pod 'WebexSDK'
+end
+```
+
+ All the SDKs are independent of each other. Developers can use either one of them to fulfil their use case.
+ 
+## Documentation
+- [Requirements & Feature List](https://developer.webex.com/calling/docs/sdks/ios-sdk-overview)
+- [Guides](https://github.com/webex/webex-ios-sdk/wiki)
+- [API Reference](https://webex.github.io/webex-ios-sdk/)
+- [Kitchen Sink Sample App](https://github.com/webex/webex-ios-sdk-example)
+
+## Support
+- [Webex Developer Support ](https://developer.webex.com/support)
+- Email: devsupport@webex.com
+
+## License
+
+&copy; 2016-2025 Cisco Systems, Inc. and/or its affiliates. All Rights Reserved.
+
+See [LICENSE](https://github.com/webex/webex-ios-sdk/blob/master/LICENSE) for details.
+
+---
+> Fuente: https://github.com/webex/webex-ios-sdk/blob/master/README.md (licencia NOASSERTION)

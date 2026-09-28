@@ -1,0 +1,346 @@
+---
+doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-config-guide-x14-0-basic-config-exwy-b-cisco-expressway-e-and-exp-b7d9c5e7bc
+source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/basic_config/exwy_b_cisco-expressway-e-and-expressway-c-basic-configuration-deployment-guide-x14-0/exwy_m_expressway-system-configuration.html
+retrieved_at: 2026-08-16T15:27:36.705024+00:00
+---
+
+Cisco Expressway-E and Expressway-C Basic Configuration Deployment Guide (X14.0)
+
+# Cisco Expressway-E and Expressway-C Basic Configuration Deployment Guide (X14.0)
+
+Updated: April 14, 2021
+
+Chapter: Expressway System Configuration
+
+## Chapter: Expressway System Configuration
+
+# Expressway System Configuration
+
+## Task 3: Setting the System Name
+
+The System name defines the name of the Expressway. It appears in various places in the web interface and is also used by Cisco TMS. We recommend
+                           using a name that lets you easily and uniquely identify the Expressway.
+
+### To Configure the System Name:
+
+Go to System > Administration .
+
+Configure the System name as follows:
+
+Expressway-C
+
+Expressway-E
+
+System name
+
+Enter EXPc
+
+Enter EXPe
+
+Click Save .
+
+## Task 4: Configuring DNS
+
+### System Host Name
+
+The System host name defines the DNS hostname that this system is known by. This is not the fully-qualified domain name, just the host label portion.
+
+<System host name>.<Domain name> = FQDN of this Expressway.
+
+#### To Configure the System Host Name:
+
+Go to System > DNS .
+
+Configure the System host name as follows:
+
+Expressway-C
+
+Expressway-E
+
+System host name
+
+Enter expc
+
+Enter expe
+
+Click Save .
+
+### Domain Name
+
+The Domain name is the name to append to an unqualified host name before querying the DNS server.
+
+#### To Configure the Domain Name:
+
+Go to System > DNS .
+
+Configure the Domain name as follows:
+
+Expressway-C
+
+Expressway-E
+
+Domain name
+
+Enter internal-domain.net
+
+Enter example.com
+
+Click Save .
+
+The fully qualified domain name for the Expressway-C is now expc.internal-domain.net
+
+The fully qualified domain name for the Expressway-E is now expe.example.com
+
+### DNS Servers
+
+The DNS server addresses specify the IP addresses of up to five domain name servers to be used for resolving domain names.
+                              In either of the following cases you must specify at least one default DNS server for address resolution:
+
+To use fully qualified domain names instead of IP addresses when specifying external addresses. For example, for LDAP and
+                                    NTP servers, neighbor zones and peers.
+
+To use features such as URI dialing or ENUM dialing.
+
+The Expressway queries one server at a time. If that server is unavailable the Expressway tries another server from the list.
+
+In the example deployment two DNS servers are configured for each Expressway, which provides a level of DNS server redundancy.
+                              The  Expressway-C is configured with DNS servers which are located on the internal network. The Expressway-E is configured with DNS servers which are publicly routable.
+
+#### To Configure the Default DNS Server Addresses:
+
+Go to System > DNS .
+
+Configure the DNS server Address fields as follows:
+
+Expressway-C
+
+Expressway-E
+
+Address 1
+
+Enter 10.0.0.11
+
+Enter 194.72.6.57
+
+Address 2
+
+Enter 10.0.0.12
+
+Enter 194.73.82.242
+
+Click Save .
+
+Expressway-C has a fully qualified domain name of <expc.internal-domain.net>
+
+Expressway-E has a fully qualified domain name of <expe.example.com>
+
+## Task 5: Replacing the Default Server Certificate
+
+For extra security, you may want to have the Expressway communicate with other systems (such as LDAP servers, neighbor Expressways,
+                           or clients such as SIP endpoints and web browsers) using TLS encryption.
+
+For this to work successfully in a connection between a client and server:
+
+The server must have a certificate installed that verifies its identity. The certificate must be signed by a Certificate Authority
+                                 (CA).
+
+The client must trust the CA that signed the certificate used by the server.
+
+The Expressway lets you install a certificate that can represent the Expressway as either a client or a server in connections
+                           using TLS. The Expressway can also authenticate client connections (typically from a web browser) over HTTPS. You can also
+                           upload certificate revocation lists (CRLs) for the CAs used to verify LDAP server and HTTPS client certificates.
+
+The Expressway can generate server certificate signing requests (CSRs). This removes the need to use an external mechanism
+                           to generate certificate requests.
+
+For secure communications (HTTPS and SIP/TLS), we recommend that you replace the Expressway default certificate with a certificate
+                           generated by a trusted certificate authority.
+
+In connections...
+
+The Expressway acts as...
+
+To an endpoint
+
+TLS server.
+
+To an LDAP server.
+
+Client.
+
+Between two Expressway systems.
+
+Either Expressway may be the client. The other Expressway is the TLS server.
+
+Over HTTPS.
+
+Web browser is the client. Expressway is the server.
+
+TLS can be difficult to configure. For example, when using it with an LDAP server we recommend verifying that the system works
+                           correctly over TCP, before you attempt to secure the connection with TLS. We also recommend using a third-party LDAP browser
+                           to verify that your LDAP server is correctly configured for TLS.
+
+Be careful not to allow your CA certificates or CRLs to expire. This may cause certificates signed by those CAs to be rejected.
+
+To load the trusted CA list, go to Maintenance > Security > Trusted CA certificate .
+
+To generate a CSR and/or upload the Expressway's server certificate, go to Maintenance > Security > Server certificate .
+
+Additional server certificate requirements apply when configuring your Expressway system for Unified Communications. For full
+                           information, see Expressway Certificate Creation and Use Deployment Guide on the Expressway Configuration Guides page.
+
+## Task 6: Configuring NTP Servers
+
+The NTP server address fields set the IP addresses or Fully Qualified Domain Names (FQDNs) of the NTP servers to be used to synchronize
+                           system time. The Time zone sets the local time zone of the Expressway.
+
+You can synchronize the Expressway-C and Expressway-E with different NTP servers, if the result is that the Expressway traversal
+                                       pair are synchronized.
+
+### To Configure the NTP Server Address and Time Zone:
+
+Go to System > Time .
+
+Configure the fields as follows , on both Expressway-C and Expressway-E :
+
+Expressway-C
+
+Expressway-E
+
+NTP server 1
+
+Enter pool.ntp.org
+
+Enter pool.ntp.org
+
+Time zone
+
+GMT in this example
+
+GMT in this example
+
+Click Save .
+
+## Task 7: Configuring SIP Domains
+
+The Expressway acts as a SIP Registrar for configured SIP domains, accepting registration requests for any SIP endpoints attempting
+                           to register with an alias that includes these domains.
+
+Registration restriction (Allow or Deny) rules can be configured to limit acceptable registrations. See Task 18: Configuring Registration Restriction Policy (Optional) .
+
+If authentication is enabled, only devices that can properly authenticate themselves will be allowed to register.
+
+### To Configure a SIP Domain:
+
+Go to Configuration > Domains .
+
+Click New .
+
+Enter the domain name into the Name field (on both Expressway-C and Expressway-E) :
+
+Expressway-C
+
+Expressway-E
+
+Name
+
+Enter example.com
+
+Enter example.com
+
+Click Create domain .
+
+The Domains page displays all configured SIP domain names.
+
+#### What to do next
+
+The Expressway system configuration is now complete. Go to the next section, Routing Configuration .
+
+| Step 1 | Go to System > Administration . |
+|---|---|
+| Step 2 | Configure the System name as follows: Expressway-C Expressway-E System name Enter EXPc Enter EXPe |  | Expressway-C | Expressway-E | System name | Enter EXPc | Enter EXPe |
+|  | Expressway-C | Expressway-E |
+| System name | Enter EXPc | Enter EXPe |
+| Step 3 | Click Save . Figure 1. Expressway-E |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| System name | Enter EXPc | Enter EXPe |
+
+| Note | <System host name>.<Domain name> = FQDN of this Expressway. |
+|---|---|
+
+| Step 1 | Go to System > DNS . |
+|---|---|
+| Step 2 | Configure the System host name as follows: Expressway-C Expressway-E System host name Enter expc Enter expe |  | Expressway-C | Expressway-E | System host name | Enter expc | Enter expe |
+|  | Expressway-C | Expressway-E |
+| System host name | Enter expc | Enter expe |
+| Step 3 | Click Save . |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| System host name | Enter expc | Enter expe |
+
+| Step 1 | Go to System > DNS . |
+|---|---|
+| Step 2 | Configure the Domain name as follows: Expressway-C Expressway-E Domain name Enter internal-domain.net Enter example.com |  | Expressway-C | Expressway-E | Domain name | Enter internal-domain.net | Enter example.com |
+|  | Expressway-C | Expressway-E |
+| Domain name | Enter internal-domain.net | Enter example.com |
+| Step 3 | Click Save . The fully qualified domain name for the Expressway-C is now expc.internal-domain.net The fully qualified domain name for the Expressway-E is now expe.example.com |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| Domain name | Enter internal-domain.net | Enter example.com |
+
+| Step 1 | Go to System > DNS . |
+|---|---|
+| Step 2 | Configure the DNS server Address fields as follows: Expressway-C Expressway-E Address 1 Enter 10.0.0.11 Enter 194.72.6.57 Address 2 Enter 10.0.0.12 Enter 194.73.82.242 |  | Expressway-C | Expressway-E | Address 1 | Enter 10.0.0.11 | Enter 194.72.6.57 | Address 2 | Enter 10.0.0.12 | Enter 194.73.82.242 |
+|  | Expressway-C | Expressway-E |
+| Address 1 | Enter 10.0.0.11 | Enter 194.72.6.57 |
+| Address 2 | Enter 10.0.0.12 | Enter 194.73.82.242 |
+| Step 3 | Click Save . Expressway-C has a fully qualified domain name of <expc.internal-domain.net> Expressway-E has a fully qualified domain name of <expe.example.com> |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| Address 1 | Enter 10.0.0.11 | Enter 194.72.6.57 |
+| Address 2 | Enter 10.0.0.12 | Enter 194.73.82.242 |
+
+| In connections... | The Expressway acts as... |
+|---|---|
+| To an endpoint | TLS server. |
+| To an LDAP server. | Client. |
+| Between two Expressway systems. | Either Expressway may be the client. The other Expressway is the TLS server. |
+| Over HTTPS. | Web browser is the client. Expressway is the server. |
+
+| Note | Be careful not to allow your CA certificates or CRLs to expire. This may cause certificates signed by those CAs to be rejected. |
+|---|---|
+
+| Note | You can synchronize the Expressway-C and Expressway-E with different NTP servers, if the result is that the Expressway traversal
+                                       pair are synchronized. |
+|---|---|
+
+| Step 1 | Go to System > Time . |
+|---|---|
+| Step 2 | Configure the fields as follows , on both Expressway-C and Expressway-E : Expressway-C Expressway-E NTP server 1 Enter pool.ntp.org Enter pool.ntp.org Time zone GMT in this example GMT in this example |  | Expressway-C | Expressway-E | NTP server 1 | Enter pool.ntp.org | Enter pool.ntp.org | Time zone | GMT in this example | GMT in this example |
+|  | Expressway-C | Expressway-E |
+| NTP server 1 | Enter pool.ntp.org | Enter pool.ntp.org |
+| Time zone | GMT in this example | GMT in this example |
+| Step 3 | Click Save . |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| NTP server 1 | Enter pool.ntp.org | Enter pool.ntp.org |
+| Time zone | GMT in this example | GMT in this example |
+
+| Step 1 | Go to Configuration > Domains . |
+|---|---|
+| Step 2 | Click New . |
+| Step 3 | Enter the domain name into the Name field (on both Expressway-C and Expressway-E) : Expressway-C Expressway-E Name Enter example.com Enter example.com |  | Expressway-C | Expressway-E | Name | Enter example.com | Enter example.com |
+|  | Expressway-C | Expressway-E |
+| Name | Enter example.com | Enter example.com |
+| Step 4 | Click Create domain . |
+| Step 5 | The Domains page displays all configured SIP domain names. |
+
+|  | Expressway-C | Expressway-E |
+|---|---|---|
+| Name | Enter example.com | Enter example.com |

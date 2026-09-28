@@ -1,0 +1,1866 @@
+---
+doc_id: roomos-cisco-com-doc-whatsnew-releasenotesroomos-11-0fb8b628ac
+source_url: https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11
+retrieved_at: 2026-08-21T12:43:53.872223+00:00
+---
+
+# RoomOS 11
+
+# Release notes
+
+D15504.34 - August 2026
+
+## Document revision history
+
+## Introduction to Cisco RoomOS 11
+
+This release note describes new software features and capabilities included in RoomOS 11 for on-premises deployment . RoomOS 11 is supported by the following Cisco collaboration devices:
+
+** These devices are NOT supported with RoomOS 11.1.2.x. Support was added in RoomOS 11.5.2.4 Note: If you have upgraded an unsupported device to RoomOS 11.1.2.x it will not damage the device but it will not work as expected. If you end up in a situation where you have upgraded an unsupported device, it is possible to downgrade normally using the web interface or other methods. Support for these devices was introduced in RoomOS 11.5.2.4.
+
+The software described in this document is released to https://www.cisco.com for on-premises deployment. If you register a Room Device to Webex you will be upgraded to the latest RoomOS cloud version available. RoomOS cloud software is not supported for on-premises deployment unless you are linked to Webex Edge for Devices with Cloud Software Management enabled .
+
+You can tell the difference between a cloud and on-premises RoomOS version by looking at the third version number. For example:
+
+- 11.X. 1 .x = Cloud
+
+- 11.X. X > 1 .x = On-premises
+
+RoomOS 11 is based on RoomOS 10 but have major upgrades
+
+This means that the first release of RoomOS 11 inherits most of the same underlying features seen in RoomOS 10.19.4.2 as of February 2023. The big difference is that RoomOS 11 comes with a powerful new user interface known as the RoomOS 11 UI Experience. This UI could optionally be enabled on RoomOS 10 for preview. In the future, there will be a feature gap between RoomOS 10 and RoomOS 11 since RoomOS 11 will be running on newer products and get new features tailored for the new UI.
+
+RoomOS 11 can be downloaded here .
+
+## General notes and warnings for RoomOS 11
+
+Please read this before upgrading to RoomOS 11
+
+NOTE: We have previously announced that SNMP would be removed from RoomOS 11. RoomOS 11 will continue to support basic SNMPv2 and SNMPv3.
+
+RoomOS 10 will soon be deprecated and EOS The next on-premises software release for RoomOS 11 targeted end of June 2023 will make RoomOS 10 obsolete and end of support. Cisco supports and releases new software versions for two minor software releases per product. Since all products that have support for RoomOS 10 also have support for RoomOS 11, the RoomOS 10 software line will go end of support quicker than for example CE9 that several legacy products still depends on.
+
+RoomOS 10 will not be removed from cisco.com right away, but will likely happen during the first quarter of 2024. Please prepare your devices and environment for upgrade to RoomOS 11 in order to stay on supported software.
+
+Provisioning Mode "VCS" will soon be obsolete The setting "xConfiguration Provisioning Mode: VCS" will be deprecated in one of the next RoomOS 11 minor releases. This provisioning mode has been used for TMS Provisioning Extension (TMSPE) and is no longer supported.
+
+Facility service is deprecated Facility Service  is deprecated from RoomOS 11 software because quick dial functionality can be created using UI Extensions and macros .
+
+Snap to whiteboard Snap to whiteboard is not available in RoomOS 11
+
+Software files have changed - specific upgrade paths may be applicable We have made a permanent change on the upgrade files that we release for our devices. This is a very important change and we recommend you to read the updated software upgrade section in this document. In short, we have deprecated the xx.k3.cop.sgn files by only releasing xx.k4.cop.sha512 files as these are signed with a more secure signature. This may affect your upgrade path depending on what software version you are currently upgrading from. We have released the xx.k4.cop.sha512 files for a while together with the xx.k3.cop.sgn files but the latter is now deprecated.
+
+# Release summary for RoomOS 11.32
+
+## Notes and warnings for this software release
+
+### RoomOS 11.32 – Transition to RoomOS 26: What You Need to Know
+
+RoomOS 11.32 is the final RoomOS 11 release supporting all Cisco collaboration devices.
+From the next major release, RoomOS 26 will power the current generation of devices.
+
+Future RoomOS 11 updates will focus only on the previous generation of products.
+This ensures stability for existing systems and enables faster innovation on new platforms.
+
+Support Matrix
+
+Below is a high-level overview of which devices continue on RoomOS 11 and which move forward on RoomOS 26. Note that previous generation devices running RoomOS 11 will continue to support currently compatible peripherals, such as the Cisco Room Navigator, Table Microphone Pro, and Quad Camera.
+
+For example, a Codec Pro (a current-generation device) paired only with a Cisco Room Navigator is supported on RoomOS 11.32 and earlier, and again on RoomOS 26 and later, but not on intermediate RoomOS 11 releases after 11.32.
+
+In contrast, a Codec Pro connected to a Cisco Touch 10 and/or a SpeakerTrack 60 will always remain on RoomOS 11, regardless of any other compatible peripherals attached.
+
+The presence of a Touch 10 or SpeakerTrack 60 therefore determines that the Codec Pro stays on the RoomOS 11 software line. None of the other current-generation devices support these peripherals so, this only applies to Codec Pro based devices.
+
+High level example (the future versions may not be the same as listed here):
+
+## RoomOS 11.32.7.0
+
+RoomOS 11.32.7.0 is a patch release and contains only bugfixes.
+
+Includes security fixes.
+
+- Click here for a list of resolved defects in RoomOS 11.32.7.0
+
+## RoomOS 11.32.6.0
+
+RoomOS 11.32.6.0 is a patch release and contains only bugfixes.
+
+Includes security fixes.
+
+- Click here for a list of resolved defects in RoomOS 11.32.6.0
+
+## RoomOS 11.32.5.1
+
+RoomOS 11.32.5.1 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.32.5.1
+
+## RoomOS 11.32.4.0
+
+RoomOS 11.32.4.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.32.4.0
+
+## RoomOS 11.32.3.0
+
+RoomOS 11.32.3.0 is a patch release and contains only bugfixes.
+
+Includes security fixes.
+
+- Click here for a list of resolved defects in RoomOS 11.32.3.0
+
+## RoomOS 11.32.2.1
+
+# RoomOS 11.32.2.1 feature descriptions
+
+## Zoom Lobby Management Controls
+
+The user interface now includes a numeric keypad for managing the Lobby and Roster List during Zoom CRC calls. The new “Show Keypad” option appears under the participant controls, allowing hosts to interact directly with Zoom’s lobby management features from the device interface.
+
+## Added side panel for Cisco Room Navigator
+
+The Cisco Room Navigator now features a collapsible side panel that provides quick access to commonly used controls such as volume, camera, microphone, and room functions like lighting, shades (custom macros).
+
+The updated layout enhances usability and offers a consistent experience across the device portfolio. The side panel is available both during and outside of calls.
+
+## Frames now supports two rows and up to 8 frames
+
+With this update, SpeakerTrack framing now supports up to 8 individual participants in a room, displayed over two rows. Previously, only 4 people could be framed simultaneously in a single row.
+
+If there are 9 or more people, the system will automatically revert to the standard grouped framing.
+
+This feature is disabled by default and must be enabled through xConfiguration:
+
+xConfiguration Cameras SpeakerTrack Frames RowConfiguration: <SingleRow (default) | MultiRow>
+
+SingleRow – Previous behavior, up to 4 frames
+
+MultiRow – New behavior, up to 8 frames (two rows)
+
+## Added support for LLDP network discovery
+
+RoomOS now supports LLDP (Link Layer Discovery Protocol) to enhance interoperability in multi-vendor network environments and simplify device discovery.
+
+Configuration should be handled with care, as LLDP can affect network parameters such as VLAN assignments.
+
+Administrators can choose between three LLDP modes:
+
+Passive (default): Listens for LLDP messages without transmitting.
+
+On: Actively participates in LLDP exchanges.
+Off: Disables LLDP entirely.
+
+You can also define how the device advertises its system name using the DiscoveryProtocol SystemName setting (Auto, FQDN, or SEPMAC).
+This feature is designed for network administrators who understand their environment and can validate correct LLDP behavior.
+
+## Support for Cisco Room Vision PTZ Camera
+
+RoomOS now supports the Cisco Room Vision PTZ Camera, enabling high-quality video with precision pan, tilt, and zoom control for medium to large meeting spaces.
+
+The camera integrates seamlessly with supported RoomOS devices, offering advanced framing, low-light optimization, and AI-enhanced tracking for a more natural meeting experience.
+
+For more information, visit the Cisco Room Vision PTZ Camera Data Sheet .
+
+## Cisco Room Navigator standalone now have macros and UI extension support
+
+The Room Scheduler now supports User Interface (UI) Extensions, enabling developers and administrators to customize the scheduler dashboard with custom panels and action buttons. These extensions allow users to streamline workflows, automate device tasks, or trigger external actions directly from the Room Scheduler interface.
+
+Key capabilities:
+
+- Add custom buttons and panels to the Room Scheduler dashboard
+
+- Trigger events that can be handled by macros or external systems via JSXAPI
+
+- Launch web apps directly from the device (in fullscreen or modal mode, requires WebEngine)
+
+- Enhance in-room automation (e.g., control lighting, blinds, etc.)
+
+Notes:
+
+- UI Extensions are visual only and require custom external logic or macros to handle events and functionality.
+
+- Web Widgets (a UI Extension feature - not the same as web apps) are not supported in Room Scheduler mode.
+
+- When running the Room Navigator in Persistent Web App (PWA) mode and not Scheduler, the macro framework can run in the background, but UI Extensions are not supported in this mode.
+
+You can create and manage UI Extensions and macros via:
+
+Cisco Room Navigator Web Interface: 
+UI Extensions Editor -> Create UI Extensions
+Macro Editor -> Create macros
+
+## Send anonymous usage and diagnostics to Cisco to help improve our products
+
+A new option is available to send anonymous diagnostics and usage logs to Cisco from devices not registered to any cloud backend, such as those managed through UCM or other on-premises systems.
+
+This setting is disabled by default and can be enabled during the initial setup wizard or later using:
+xConfiguration Webex Privacy AllowUsageDataLogging: Enabled
+
+The option can also be controlled centrally through UCM enterprise configurations (version 14 or later).
+
+This feature helps Cisco improve product reliability while maintaining user privacy.
+
+## Dynamic transitions between camera views
+
+This update introduces AI-powered dynamic transitions that deliver smoother, more natural camera movements when participants or speakers shift or move within the room.
+
+Instead of recreating the image for each change, the system now uses AI-based scene analysis to update the view seamlessly in real time, providing a more engaging and lifelike meeting experience.
+
+## Pen support for third-party touch screens
+
+This release adds Active Pen (stylus) support for whiteboarding on third-party touch screens connected to MTR and RoomOS devices, including Room Bar, Room Bar Pro, Codec EQ, and Codec Pro.
+Pens supported are those supplied with the compatible display.
+
+The feature can be enabled using:
+xConfiguration Video Output TouchInput ActivePenSupport: True
+(set to False to disable)
+
+## BeamAndExtMic mode enabled by default for Cisco Table Microphone Pro
+
+This feature, previously only available with the Cisco Ceiling Microphone Pro, is now being expanded to include the Cisco Table Microphone Pro.
+
+To deliver the best possible voice quality and make full use of the Table Microphone Pro’s advanced capabilities, we’ve enhanced the audio beam mixer on Room Bar Pro and Board Pro devices.
+
+When a Table Microphone Pro is connected and its voice tracking feature is enabled (by going through the wizard), the intelligent beam mixer dynamically selects the microphone closest to the active speaker, using camera intelligence to determine which way the person is facing. This ensures optimal clarity and natural voice pickup across the room.
+
+New Beam Mix Settings
+xConfiguration Audio Microphones BeamMix Inputs: <Auto, BeamsAndExtMics, OnlyExtMics>
+
+Auto (new default) – When a Table Microphone Pro is connected and its voice tracking wizard has been completed (if not it is disabled as before), the new smart audio mixer uses both the internal microphone beams and the Table Microphone Pro. For other external microphones, the internal beams are disabled.
+
+BeamsAndExtMics – The audio mixer continuously uses both internal beams and external microphones for voice pickup. However this do not include AI that uses the camera to chose the right beam. (Auto is recommended)
+
+OnlyExtMics (new) – Uses only external microphones for voice pickup and automatically falls back to internal beams if no external microphones are connected.
+
+## Extension mobility enhancements
+
+This release improves Extension Mobility handling on RoomOS devices. Previously, devices used a hardcoded service URL pointing to the CUCM IP on port 443, which required the Extension Mobility service to run on all CUCM nodes in the cluster.
+
+With this update, RoomOS now supports configured Extension Mobility service URLs defined in the SEP .cnf.xml file, as long as the service name is RoomOSExtensionMobility.
+
+Additionally, RoomOS now supports login types DN and SP in addition to UID, providing greater flexibility in user authentication.
+
+# Release summary for RoomOS 11.27
+
+## Notes and warnings for this software release
+
+### Passphrase requirement
+
+RoomOS 11.27.2.0 and above has a new passphrase policy that require the user to change the passphrase after logging in for the first time with the default passphrase. Please read more about it in the section below.
+
+## RoomOS 11.27.5.0
+
+RoomOS 11.27.5.0 is a patch release and contains only bugfixes.
+
+Includes security fixes.
+
+- Click here for a list of resolved defects in RoomOS 11.27.5.0
+
+## RoomOS 11.27.4.0
+
+RoomOS 11.27.4.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.27.4.0
+
+## RoomOS 11.27.3.0
+
+RoomOS 11.27.3.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.27.3.0
+
+## RoomOS 11.27.2.0
+
+# RoomOS 11.27.2.0 feature descriptions
+
+## Require passphrase change on first login
+
+This change affects video devices running RoomOS 11.27.2.0 or later that are in a factory reset state—either newly received devices or devices that have been manually reset.
+
+To comply with EU regulations and enhance device security, a passphrase is now required for the device admin account. By default, no passphrase is set, and you must create one before using the device.
+
+During the standard setup process, you'll be prompted to set a passphrase via the setup wizard. Once set, you can use it to log in normally.
+
+However, if you attempt to access the device through the web interface or other methods (e.g., SSH), you will be required to change the passphrase before access is granted.
+
+Important: If you use automation or scripted routines to configure devices, note that SSH access now requires a passphrase update. These scripts must be adapted to handle this new requirement during setup.
+
+## Director to use Virtual Lens
+
+This feature automatically extends the camera's reach using an AI-powered virtual lens, ensuring that active speakers—such as those seated at the far end of a long table—are captured in higher quality. No configuration or user interaction is required.
+
+## AirPlay FairPlay support
+
+Our AirPlay implementation now supports FairPlay and can now playback DRM protected content in out-of-call scenarios. Protected content will never play in call sharing scenarios.
+
+Note that applications that has no support for FairPlay, such as Netflix will not be able to playback content using AirPlay on the Room Devices.
+
+## Screen-reader support (Accessibility)
+
+We're introducing a new accessibility feature designed to improve usability for visually impaired users. Once enabled, the touch screen can be operated using specific gestures.
+
+To enable the screen reader, tap the screen with three fingers and swipe down. The screen reader will begin reading aloud the item currently selected. You can then navigate the interface by swiping to move between elements such as Call, Share, and more. When the desired option is selected, double-tap anywhere on the screen to activate it. When using the keypad, each selected letter will also be read aloud.
+
+To disable the screen reader, repeat the same gesture: tap with three fingers and swipe down.
+
+## Webview in share tray
+
+Previously, it was not possible to access or share a webview directly. With this update, when a webview is launched, it will now appear in the share tray, allowing users to easily select and share it during a call or meeting.
+
+We've also added support in the APIs to allow integrators to share webviews programmatically using the following command:
+xCommand Presentation Start PresentationSource: WebView WebViewId: ID
+
+The xStatus UserInterface WebView node provides the WebViewId, and the WebView X Sharing status will indicate "True" when a webview is actively being shared.
+
+This feature simplifies integration for developers and improves usability by allowing users to choose which webview to share—or to identify which one is currently being shared.
+
+## Whitebalance calibration for multicamera setup
+
+In a multicamera setup using Cross View, differences in white balance can make the video feeds appear inconsistent — especially when PTZ 4K cameras are used as side cameras. To address this, we’ve introduced three white balance profiles. When you select a profile on the touch panel, the video inputs will be displayed on screen, allowing you to compare them and choose the profile that best suits your meeting room.
+
+To access this feature, open the touch panel, go to Device Settings, then Cameras, and select White Balance. From there, you can view and test the different profiles directly with the live video inputs.
+
+# Release summary for RoomOS 11.24
+
+## Notes and warnings for this software release
+
+### AV Integrator Option no longer required for more than 3 Cisco Microphone Pro/Ceiling Microphone Pro
+
+The AV Integrator Option is still required to unlock Audio Console (Codec EQ/EQX) and AES67. However, we have removed the need for this option when adding more than three Cisco Microphone Pro units.
+
+Cisco Room Bar Pro, Board Pro, Board Pro G2, Codec EQ, EQX, and Room Kit EQ now support up to eight Cisco Microphone Pro or Ceiling Microphone Pro units without requiring the AV Integrator Option key.
+
+Additionally, Cisco Room Bar now supports one Ceiling Microphone Pro (or one Cisco Microphone Pro) still without the need for the AV Integrator Option.
+
+### Samsung QMH firmware
+
+Due to an issue with the Samsung QMH Series where Cisco Room devices in some scenarios are unable to wake up the screens from standby we have released a Firmware that will improve this behavior.
+The Samsung QMH Firmware is found on the respective product pages together with the normal RoomOS software.
+
+For update instructions follow the instructions provided in the "Update using USB" section here: https://www.samsung.com/us/support/answer/ANS00062224/
+
+## RoomOS 11.24.4.1
+
+RoomOS 11.24.4.1 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.24.4.1
+
+## RoomOS 11.24.3.0
+
+RoomOS 11.24.3.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.24.3.0
+
+## RoomOS 11.24.2.4
+
+# RoomOS 11.24.2.4 feature descriptions
+
+## Microsoft Teams Join Button Updates
+
+The Microsoft Teams Join Button will now prompt for a Video ID by default instead of the Meeting ID. 
+Meeting ID will still be available but promoted as an alternative.
+
+## Support for Cisco Ceiling Microphone Pro
+
+RoomOS 11.24.2.4 has full support for the Cisco Ceiling Microphone Pro together with supported systems. Click here to read more about the Cisco Ceiling Microphone Pro
+
+## Support for Cisco Room Bar BYOD
+
+With RoomOS 11.24.2 and later installed on a Cisco Room Bar without a Room Navigator connected, the device will boot into Cisco Room Bar BYOD mode. This feature is distinct from "Call from Laptop" and requires that no touch panels or touch screens are connected to the Cisco Room Bar in addition to being i factory default mode. In BYOD mode, the Room Bar can be connected via USB-C or USB-A to USB-C, functioning as an advanced web camera that provides audio input and output, video with built-in intelligent framing, and local presentation capabilities when connected to a screen.
+
+If a Cisco Room Navigator is connected, the device will automatically exit BYOD mode and function as a standard Cisco Room Bar. To return to BYOD mode, the Room Navigator must be disconnected, and the Cisco Room Bar must undergo a factory reset.
+
+The Cisco Room Bar BYOD can operate in three configurations. In the first, the device is not connected to any network via cable or Wi-Fi. Network connectivity is unnecessary in this setup, and the Room Bar serves as a web camera, microphone, and speaker system for a connected laptop. It can also act as a presentation device when a screen is connected to the HDMI output. In this no-network mode, access to device configurations is limited, so the default volume level set to 70% (as opposed to the standard 50%). Audio control must be managed from the connected laptop. Some providers may not allow volume adjustments on digital audio devices, requiring the Cisco Room Bar to manage volume. Configuration changes in no-network mode can only be made using a serial connection to the xAPI.
+
+When the Room Bar has network connectivity, either through Wi-Fi or Ethernet, additional configuration options become available via the web interface. Most settings and commands can be accessed, although the user interface remains limited in certain areas, such as displaying web views, custom prompts and alerts. However, functionalities like xConfiguration UserInterface CustomMessage are still supported.
+
+To connect the device to Wi-Fi (if supported), there are two options. The first involves using a serial connection to the xAPI and configuring Wi-Fi details with the xCommand Network Wifi Configure command. The device will connect to the Wi-Fi network within a few seconds if the configuration is correct. The second option is to use an SSH connection to the device's xAPI while it is connected to the network via Ethernet. The same command can be used to configure Wi-Fi details, after which the Ethernet cable can be removed, allowing the device to connect to the configured Wi-Fi network.
+
+When the Cisco Room Bar in BYOD mode has network connectivity, it can also be registered to Webex. This allows pairing with Webex clients for making calls and adds the device to Control Hub for simplified management. Registering the Room Bar to Webex in BYOD mode also enables automatic software updates.
+
+## Support for local ad-hoc bookings ahead of time
+
+The local booking UI for ad-hoc bookings now allow you to book the room ahead of time.
+
+## AirPlay auto share popup
+
+When AirPlay is connected during a call, an auto-share popup will appear, notifying the user that sharing will begin in 5 seconds and providing a countdown until the content is shared in the call. The popup can be dismissed by tapping outside of it or selecting "Dismiss," which will cancel the content share.
+
+## Content preview in share tray for cabled sources
+
+When you connect a content source, such as a PC, a snapshot of its content appears in the share tray. This helps you quickly identify the correct source. Note that this do not work for the Extended/Virtual sources feature event though the source is connected via Cable.
+
+## Release of Microsoft Teams Panel software for local upgrades
+
+For standalone Room Navigators that is running Microsoft Teams Panel we will be releasing a software package for local upgrades.
+
+See the updated list of released software packages in the software section.
+
+## Support for RFC5922 Domain Certificate in SIP
+
+Support for Domain Certificate verification in SIP according to RFC5922. The setting xConfiguration SIP TransportSecurity CertificateVerificationMode can be configured to one of three modes: Auto, Legacy, or RFC5922. In Auto or Legacy mode, verification is disabled.
+
+### Related xAPI Configurations
+
+The mode RFC5922 specifies how to validate names in an X.509 certificate received from a SIP remote. To enforce certificate verification for SIP calls, the following xConfiguration parameters must also be set:
+
+xConfiguration SIP DefaultTransport: Tls xConfiguration SIP TlsVerify: On xConfiguration SIP ListenPort: Off
+
+Note that the SIP ListenPort mode Off will effectively block incoming SIP calls.
+
+### Special Considerations
+
+Even if RFC5922 is enabled via the configuration above, it will be automatically disabled under the following conditions:
+
+xConfiguration Provisioning WebexCalling Mode: On xConfiguration SIP Type: Cisco xConfiguration SIP Proxy 1 Address: "non-empty"
+
+# Release summary for RoomOS 11.20
+
+## Notes and warnings for this software release
+
+Nothing noteworthy to mention for this release.
+
+## RoomOS 11.20.3.0
+
+RoomOS 11.20.3.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.20.3.0
+
+## RoomOS 11.20.2.3
+
+### Webex Edge for Devices
+
+Added support for Hot Spaces (Cisco Webex Board series)
+
+Bug fixes
+
+- Click here for a list of resolved defects in RoomOS 11.20.2.3
+
+# RoomOS 11.20.2.3 feature descriptions
+
+## Improvements when joining Zoom meetings
+
+In the Join Zoom interface, you will now see a list of selectable Zoom CRC domains under the "Advanced Options" for data center location preferences.
+
+A new feature has been introduced that automatically detects when you're dialing into a Zoom meeting from xCommand Dial (or from the normal UI Call interface). If a Zoom meeting is detected, Zoom Call Controls will be added to the user interface. Previously, these controls were only available when joining a meeting through the Join Zoom UI. Please note that if you join a meeting via xCommand Dial using a booking ID, the platform specified in the booking will take priority.
+
+We are now also removing the visual Zoom DTMF menu automatically if we detect a Zoom meeting by adding an option to the dial string. For example, 123456789@zoomcrc.com will become 123456789..504@zoomcrc.com .
+
+This addition happens automatically and will not cause issues even if the option is already present, as Zoom supports duplicate options.
+
+This addition of the 504 option disables the Zoom DTMF menu, leaving only our enhanced Zoom Call Controls, ensuring a better user experience.
+
+If you'd prefer to use the Zoom visual menu instead of our call controls, you can disable this feature by setting xConfiguration Zoom EnhancedCallControls to "disabled." This will disable the Zoom enhanced call controls all together.
+
+## Improved local share for devices in MTR mode
+
+This update brings significant quality improvements when previewing your screen in MTR mode on Cisco devices, including:
+
+- 4K screen previews with cable
+
+- Higher resolution Miracast previews
+
+- Support for up to 3 screens and multisource viewing (on multiscreen devices)
+
+- Touch redirect for Windows laptops
+
+Note: These features apply to out-of-call MTR mode only.
+
+## Expanded Cisco Table Microphone Pro and AES67 support
+
+We’ve added support for up to 8 Cisco Table Microphone Pro units for the Cisco Board Pro/G2 (requires the "AV Integrator" Option Key). The Cisco Board Pro/G2 also now supports AES67.
+
+Additionally, the Cisco Room Bar now supports connecting one (1) Cisco Table Microphone Pro.
+
+## Support one additional passive screen when using a third-party touch screen
+
+You can connect one third-party touchscreen (introduced in RoomOS 11.14) and one passive screen (new in RoomOS 11.20) to the Room Series device, and there are two possible setup options:
+
+Option 1: Screen 1 (left) as an interactive touchscreen and Screen 2 (right) as a passive screen
+
+In this configuration, interactive content will shift from Screen 2 to Screen 1 when, for example, annotating on an incoming presentation.
+
+Connect Screen 1's HDMI cable to connector 1.
+Connect Screen 1's USB cable to the USB-A port for touch functionality.
+Connect Screen 2's HDMI cable to connector 2.
+
+Option 2: Screen 1 (left) as a passive screen and Screen 2 (right) as an interactive touchscreen
+
+Here, content during a call will always be shown on Screen 2, whether it's interactive or not. Outside of a call, all interactive apps and elements will also be displayed on Screen 2.
+
+Connect Screen 1's display cable to connector 1.
+Connect Screen 2's display cable to connector 2.
+Connect Screen 2's USB cable to the USB-A port for touch recognition.
+
+To finalize the setup, configure the following setting:
+
+xConfiguration UserInterface OSD Output: 2
+
+Limitations:
+
+Touch redirect is not supported.
+Active styluses are not supported. Passive styluses may work.
+
+## Allow Microsoft teams meetings on different tenants through VIMT
+
+Allow existing VIMT (Video Interoperability Meeting Tenant) customers to seamlessly join Microsoft Teams meetings hosted by external tenants while maintaining the familiar Cloud Video Interop (CVI) experience.
+
+This ensures that users can continue to leverage their VIMT setup for enhanced video quality and functionality, even when participating in meetings outside their home tenant, delivering consistent and optimized meeting experiences across different organizations.
+
+## Extended reach speaker mode
+
+Get a front-row seat, wherever you are placed in the meeting space.
+
+Adaptive speaker tracking and intelligent framing by the Cisco Quad Camera and the Cisco PTZ 4K pan-tilt-zoom camera, capture the active speaker and other in-room participants, even in the largest spaces.
+
+## Added support for Cinematic meetings (CrossView)
+
+Cross-view is an AI-driven feature that enhances meetings with a cinematic experience by using two PTZ 4K or Quad cameras, along with a Codec EQ or Pro and Table Microphones Pro. The system analyzes room activity, identifies speakers, and tracks where participants are facing to automatically select the best camera angle. This setup ensures comprehensive coverage of discussions, even across the table, for more inclusive hybrid meetings.
+
+Please note, connecting more than one Quad Camera to a Codec is only supported for Cross-view. To achieve the best results, it's important to follow the recommended setup guidelines.
+
+For more information read the Cross View Setup guidelines by following this link:
+
+Cross-view setup guidelines
+
+## Pointing and annotation improvements on live presentations
+
+This feature allows presenters to live annotate and point directly on their presentations in real-time.
+
+Previously, a snapshot was taken of the presentation to draw on, but with this update, the presentation continues beneath the drawings.
+
+Additionally, a new tool, disappearing ink, has been introduced. It stays visible for about 5 seconds, helping presenters highlight key elements without interrupting the flow of the presentation.
+
+## Frames improvements
+
+The updated framing for groups of 2-4 people ensures that participants are no longer displayed in multiple frames.
+
+For groups of 5-6 participants, the new framing limits the display to two frames, providing a more stable and cohesive viewing experience.
+
+## Support for custom Cisco Scheduler setups without need for Webex Calendar
+
+We have added an option to enable ad-hoc bookings on a Room Device without having any integrations to a Webex Hybrid Calendar. This feature involves several new xConfigurations and xCommands for custom bookings.
+
+xConfiguration Bookings AdhocBooking Enabled
+
+Enable or disable ad-hoc booking on the device
+
+xConfiguration UserInterface RoomScheduler Mode
+
+Configure the scheduler to display the device calendar or only if the room is in use or available.
+
+xCommand Bookings Book
+
+Book a meeting via the xAPI
+
+```
+xCommand Bookings Book BookingRequestUUID: 1 MeetingPlatform: Webex Number: meeting@example.com OrganizerName: "Booker" Protocol: Spark Title: "Webex Local Booking"
+
+OK
+*r BookingsBookResult (status=OK):
+** end
+```
+
+xCommand Bookings Edit
+
+Edit a booking via the xAPI
+
+```
+xCommand Bookings Edit MeetingId: 1 Title: "MS Local Booking" Number: "differentmeeting@example.com" MeetingPlatform: MicrosoftTeams
+
+OK
+*r BookingsEditResult (status=OK):
+** end
+```
+
+Booking events for third-party integrations: Bookings Events
+
+## Added support for Hot Spaces (Cisco Webex Board series)
+
+Note: Applies to Webex Edge for Devices deployments with RoomOS 11.20.2.3 and above.
+
+Introducing hot spacing support for Boards, Board Pros, and Board Pro G2s similar to what we already have for Cisco Desk Series devices in the same deployment model.
+
+This update brings a new user experience to Boards, enabling hot spacing features that were previously exclusive to Desk series devices (hot desking).
+
+It allows automatic saving and retrieval of whiteboards to users' accounts, minimizing the need for binding spaces.
+
+Sign-in will now be triggered via QR code pairing, eliminating the need for USB-C pairing.
+
+The half wake function will remain the same unless a user is signed in, in which case the Reserved screen will be displayed.
+
+# Release summary for RoomOS 11.17
+
+## Notes and warnings for this software release
+
+### HTTP proxy authentication available in all proxy modes
+
+In earlier software versions, RoomOS has only supported HTTP proxy authentication when NetworkServices HTTP Proxy Mode has been set to Manual. Now, HTTP proxy authentication is also supported when using proxies through PAC and WPAD files.
+
+The authentication data is configured using the NetworkServices HTTP Proxy LoginName and Password settings.
+
+This feature requires the NetworkServices CommonProxy setting to be set to Enabled. This setting will be removed once the switchover to the new proxy support module (common proxy) is complete.
+
+### Configuration to allow legacy ciphers
+
+In a previous release, we removed support for the diffie-Hellman-group14-sha1-key-exchange cipher. This resulted in a breaking change for some customers using integration equipment with limited support for newer ciphers. Although this cipher is considered insecure by security scanners, we have implemented a configuration option to disable it to ensure backward compatibility.
+
+You can find the configuration option here: xConfiguration NetworkServices SSH KeyExchangeAlgorithms AllowLegacy . The default setting is "On" to prevent disruptions to existing integrations during an upgrade. However, Cisco does not recommend using older ciphers and encourages customers to transition their integration systems to equipment supporting modern ciphers. To avoid security scanners flagging this cipher, set this configuration to "Off".
+
+## RoomOS 11.17.4.0
+
+RoomOS 11.17.4.0 is a patch release and contains only bugfixes.
+
+- Click here for a list of resolved defects in RoomOS 11.17.4.0
+
+## RoomOS 11.17.3.0
+
+RoomOS 11.17.3.0 is a patch release and contains only bugfixes.
+
+Note: This release contains a bugfix for CSCwk70371 (CVE-2024-6387)
+
+- Click here for a list of resolved defects in RoomOS 11.17.3.0
+
+## RoomOS 11.17.2.2
+
+# RoomOS 11.17.2.2 feature descriptions
+
+## Updated the Settings Menu UI
+
+The settings menu UI is now adapted to the rest of the UI design.
+
+## Added support for Networked Standby for Board Pro
+
+Networked standby is already supported for most of the products, this is now added to the Board Pro
+
+## Added support for selecting USB Mode
+
+Some laptops do not support video bulk transfer over USB3. Since our products use bulk mode video streaming, using some USB-C cables with USB3 can cause intermittent video streaming issues on these laptops.
+
+To address this, we have introduced a new configuration feature that allows users to switch between USB2 and USB3 modes in such situations.
+
+Users can make these configuration changes via the codec web UI or over SSH.
+
+Please note that after adjusting the configuration, a system reboot is required.
+
+## Added support to set Max Resolution
+
+The "xConfiguration Video Input Connector N PreferredResolution" setting softly enforces the preferred resolution, allowing the source to override it and choose a higher resolution if needed.
+
+With the introduction of "xConfiguration Video Input Connector N MaxResolution," a hard limit is set by removing all resolutions above the specified value from the codec input EDID.
+
+To change the Video Input MaxResolution, you need to specify the input and select the MaxResolution. Note that the available values depend on what is supported for that input.
+
+Example:
+
+xConfiguration Video Input Connector[N] MaxResolution: <1920_1080_60, 3840_2160_30>
+
+## Check-in / Check-out of meetings
+
+This feature allows room resources to be freed up if the host does not "Check-in" when the meeting starts and within the set timeout.
+
+The meeting booking will be removed and free up the space for others to use. This is a feature that helps to avoid unspent resources being blocked.
+
+## Improved support for certificate responders
+
+With this feature, the application can always verify the revocation status of a certificate, especially when stapled OCSP responses are unavailable, thus maintaining secure and trustworthy communications.
+
+In summary, enabling the enhanced revocation checking feature in WebEngine allows the application to perform more accurate and current checks on the revocation status of digital certificates, ensuring higher security.
+
+In order to enable this feature you have to enable: xConfiguration WebEngine Certificates RevocationChecks NetworkAccess: <Allow/Deny> where Deny is the default setting (Which means that it is "Off" by default).
+
+WebEngine does not require 'Network Services HTTPS OCSP Mode' to be set to 'On' for performing certificate revocation checks ('Revocation Checks'). Even if DNS resolution or network access to the OCSP responder over TCP port 80 is unavailable, WebEngine performs a 'fail-open', where revocation checks do not prevent connection completion.
+
+When 'NetworkAccess' is set to 'Deny', and there is no 'stapled response', no revocation checks are performed, yet the connection still completes. This means that in scenarios where network access to the OCSP responder is blocked, and no 'stapled response' is available, WebEngine will still allow the HTTPS connection to complete without further revocation checks.
+
+# Release summary for RoomOS 11.14
+
+## Notes and warnings for this software release
+
+Version 11.14.2.3 of RoomOS introduces updates to the Macro Framework, along with additional enhancements such as HDMI output for Cisco Desk and Cisco Board Pro, and serial outbound connection capabilities through the xAPI.
+
+### Updated the Macro framework to use QuickJS by default
+
+While this should not cause any problems and the upgrade should be transparent for you, there is a known limitation related to this. Click here to learn more.
+
+### The phone capabilities are no longer always sent
+
+CSCwi79191    CDP and VLAN config should allow to enable CDP but not join voiceVLAN
+
+Previously, the phone flag was activated regardless of whether the xConfiguration Network 1 VLAN Voice Mode was enabled or disabled, which was not in line with the specifications. Moving forward, we will only activate the phone flag when this configuration is set to "On".
+
+## RoomOS 11.14.5.0
+
+RoomOS 11.14.5.0 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.14.5.0
+
+## RoomOS 11.14.4.0
+
+RoomOS 11.14.4.0 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.14.4.0
+
+Note: This release contains a bugfix for CSCwk70371 (CVE-2024-6387)
+
+## RoomOS 11.14.3.0
+
+RoomOS 11.14.3.0 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.14.3.0
+
+## RoomOS 11.14.2.3
+
+# RoomOS 11.14.2.3 feature descriptions
+
+## Extended shape library and text-in-shapes when using Whiteboard
+
+Introduced new features that allow for the insertion of text into shapes and added a square shape with rounded corners.
+
+## Custom buttons in control panel
+
+This update enhances the UI Extensions by allowing custom buttons to be added to the side panel (on touch screen devices) or the control panel of the Cisco Room Navigator. Configuration of these buttons is managed within the UI extensions editor, where their placement can be specified. These custom buttons function identically to standard ones, supporting interaction with macros.
+
+## Support third-party touch screens
+
+Support is now available for selected third-party touch screens, compatible with the Room Bar, Room Bar Pro, Room Kit EQ, and Codec Pro devices.
+
+To activate third-party touch screen functionality, adjust the settings as follows:
+
+Enable the feature by setting xConfiguration UserInterface ExternalTouchScreen Enabled to True.
+The xConfiguration Peripherals Profile TouchPanels now includes 'Auto' in its value space for easier configuration.
+Activating this feature provides support for third-party touch screens, similar to the Board experience, and introduces whiteboard for devices previously lacking these capabilities.
+
+Connect the touch-enabled display to the first HDMI connector and attach a USB cable for touch functionality. The process is automatic once the feature is enabled.
+
+Currently, support is limited to one touch screen per device. If a device supports multiple screens, additional screens cannot be connected alongside the touch screen. Future updates may allow for both a touch and a passive screen simultaneously.
+
+Officially supported touch screen models include:
+
+Dell C and P Series
+Samsung WAC-series
+
+## Dual screen support (HDMI OUT) for Desk Pro and Board Pro
+
+We are excited to announce the new HDMI output feature for the Desk Pro and Board Pro devices, enabling the connection of a second monitor to create a dynamic dual-screen video system. This enhancement allows users to extend their workspace, increasing productivity and interaction during meetings.
+
+With the HDMI out feature, users can now leverage the power of a second monitor to display additional content, visuals, or reference materials, providing a more immersive and comprehensive meeting experience. This functionality is ideal for facilitating extended discussions, conducting training sessions, and collaborating more effectively on projects.
+
+The dual-screen setup promotes better engagement and collaboration by allowing participants to view shared content simultaneously on both the primary device and the secondary monitor. This extended display capability improves visibility and ensures that all participants have a clear view of the presentation or discussion, enhancing the overall communication and understanding.
+
+Moreover, the HDMI output on the Desk Pro and Board Pro supports easy connection to external displays or projectors, offering flexibility and ensuring compatibility with a broad range of display devices. This feature simplifies the setup process and enhances the meeting environment, making it more versatile and productive.
+
+Embrace the full potential of your meetings with the Desk Pro and Board Pro's HDMI output capability, designed to deliver impactful, engaging, and efficiently communicated sessions to all participants.
+
+To activate the HDMI Out feature, users can navigate to the side menu and device settings to turn it on. This action requires a one-time device restart to implement the change. After rebooting, the device will automatically recognize signals from the HDMI port. Should the HDMI connection be removed later, the device will seamlessly transition back to a single screen setup without needing further actions from the user.
+
+## Support for USB serial outbound connections
+
+This new feature enables you to establish outbound serial connections, allowing you to send commands directly to third-party equipment. In the past, only external devices could connect to our serial interface to issue commands.
+
+The outbound serial port control in the system operates on a connectionless model, where the serial port connection between the codec and the peripheral is not constant. Instead, the connection is established only when a command is issued through xCommand SerialPort PeripheralControl Send and terminates once the command execution is complete. This transient connection approach facilitates direct command communication with peripherals like projectors and monitors.
+
+In terms of configuration, the outbound serial port control feature encompasses several adjustable parameters under xConfiguration SerialPort Outbound. These include the mode, which toggles the outbound control feature on or off, and the Port[1], which signifies the current support for a single serial port with an anticipation of future expansion to multiple ports. The BaudRate parameter allows the user to set the speed of data transmission, while the Description field provides a means to describe the connected peripheral device (cosmetic). Additionally, the Parity setting adjusts the parity bit to ensure the accuracy of the transmitted data. Please refer to the third-party equipment documentation to see their command and connectivity specifications.
+
+The core command for outbound serial data transmission, xCommand SerialPort PeripheralControl Send, incorporates several parameters such as PortId, which is set to 1 by default, ResponseTerminator, and ResponseTimeout, which define how the codec processes the response from the peripheral. The Text parameter specifies the actual data to be sent, with functionality to include special characters.
+
+Response handling in the codec is refined through the ResponseTerminator and ResponseTimeout settings. The ResponseTerminator enables the codec to buffer the response until a specified delimiter is met, filtering the data effectively. For instance, if set to "\n", the codec captures the response up to this character, ignoring any further data. This mechanism works in tandem with ResponseTimeout, dictating the duration the codec waits for a peripheral's response, capped at 5000 milliseconds. Absence of a ResponseTimeout setting results in the immediate conclusion of the command post-data transmission, bypassing the response phase. This intricate setup enhances the efficiency and flexibility of managing serial communications with third-party peripherals.
+
+## Management of paired Room Navigators
+
+RoomOS 11.14.2 enables the management of a remotely paired Room Navigator. Previously, pairing a Room Navigator prohibited access to the CLI and Web UI on the Room Navigator itself. Now, it's possible to create a new user directly on the Room Navigator using the device xAPI.
+
+To start, find the ID of the navigator you want to manage in the xStatus section under Peripherals. Then, enable device management with the command xCommand Peripherals DeviceManagement Enable ID: XX:XX:XX:XX:XX:XX.
+
+Next, you can create a new user on the Room Navigator with the command xCommand Peripherals UserManagement User Add Username: touchuser Passphrase: "<>" YourPassphrase: "<>" Active: True Role: Admin ID: XX:XX:XX:XX:XX:XX. Note that the username "admin" is reserved and should not be altered.
+
+Once enabled, you can access the Room Navigator using its IP address through SSH or HTTPS (Web UI) for additional management.
+
+If you disable device management using xCommand Peripherals DeviceManagement Disable ID: XX:XX:XX:XX:XX:XX, it will delete all the accounts created and block access to the CLI and Web UI.
+
+Managing the Room Navigator is useful for updating 802.1x Certificates or when other management or integration needs arise.
+
+## Support for controlling multiple lenses in the camera control menu
+
+With the standard camera controls, you can now choose specific lenses to set up presets or check various views in self-view. This selection feature is available if your camera, like the Cisco Quad Camera, has multiple lenses.
+
+## Support for Cisco Board Pro 55 and 75 G2
+
+RoomOS 11.14.2 adds support for a new device, the Cisco Board Pro 55 and 75 G2.
+
+Cisco® Board Pro G2 is an all-in-one, integrated video device and collaboration board that offers a complete hybrid meeting room solution to remove the distance between in-room and remote participants. It is an intelligent video conferencing appliance combining a dual camera system, built-in speakers and microphones, an interactive touch screen, an AI-powered computing engine, and several mounting options to customize the experience.
+
+For more information Click here
+
+## Added new diagnostics for Web Views when facing out of memory issues
+
+This feature is solely for diagnostics purposes and aids in pinpointing situations where the web app consumes excessive memory, leading to crashes in the integrated web engine. Given the web engine's limited resource allocation, it may crash if the web app demands more memory than available. Previously, the cause of such crashes was not clearly conveyed to users. Now, a dismissible diagnostic message will appear when this occurs.
+
+## Macro Engine update
+
+We've updated the Macro Framework to utilize QuickJS as its default engine, replacing Ducktape. This change should not affect your workflow, but there is an important note to consider. If you use the CLI to save macros, specifically through the xCommand Macros Macro Save command, ensure that the Transpile parameter is set to False. Additionally, you must configure xConfiguration Macros EvaluateTranspiled to False. We plan to fix this in an upcoming release. Note that saving macros via the browser (UI) does not encounter this problem.
+
+## Easier deployment of AirPlay
+
+Administrators no longer have to set the xConfiguration Bluetooth Enabled to "True" for emitting Airplay BLE beacons. This simplifies the configuration process for deploying Airplay.
+
+## Cisco Room Bar now has support for 1 Cisco Microphone Pro
+
+Cisco Room Bar now supports one Cisco Microphone Pro. AV Integrator Option is not required.
+
+# Release summary for RoomOS 11.9
+
+## Notes and warnings for this software release
+
+RoomOS 11.9 enables support for the new Cisco Room Kit EQX and lots of useful features. Please see below for more information.
+
+## RoomOS 11.9.3.1
+
+RoomOS 11.9.3.1 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.9.3.1
+
+## RoomOS 11.9.2.4
+
+# RoomOS 11.9.2.4 feature descriptions
+
+## Support for Cisco Room Kit EQX
+
+RoomOS 11.9.2.4 now comes with support for our new flagship model, the Cisco Room Kit EQX. Cisco Room Kit EQX is a state-of-the-art video conferencing bundle tailored for large meeting rooms, delivering an exceptional experience. Built on the advanced Room Kit EQ technology, it features the powerful Codec EQ and a fully integrated Quad Camera. This system works in perfect harmony with your external displays in sizes of 65" or 75" inches and boasts an integrated loudspeaker system with six main units and a sub-woofer, all driven by a single amplifier. Designed for AI, clarity and connectivity, the Room Kit EQX ensures every meeting is an immersive, high-fidelity encounter.
+
+For more information, please visit this link: https://www.webex.com/us/en/devices/room-series/cisco-room-kit-eqx.html
+
+For UCM registration, the Room Kit EQX may require that you install a new device pack.
+Room Kit EQX is supported in the latest device packs for UCM 12.5 and 14.0 (July 2023 release)
+
+UCM 12.5 Device packs UCM 14.0 Device packs
+
+## Home screen web widgets
+
+Now, you have the option to enable a compact web view that won't take over your entire screen like a regular web view. This is especially useful for displaying the web app in the form of a small card, for example, providing information about the environment or meeting room directly on your device's main screen next to the clock. It's important to remember that the device only renders the web app through an external URL and you can only have one Web Widget enabled on the home screen.
+
+You will find an option to configure the web widget in the UI Extensions editor on the device's web interface.
+
+The device must have Web Engine enabled for this feature to work.
+
+Note: The home screen web widget is displayed on the screen, not on peripherals like the Cisco Room Navigator.
+
+Follow this link for more information
+
+Supported products All products
+
+## Presenter and Audience Room Mode
+
+Presenter and Audience is a new Room Mode that is essentially a combination of Briefing Room and Classroom mode and will eventually replace these modes. The Briefing Room and Classroom modes are still there together with the Presenter and Audience for the lifespan of RoomOS 11.x. Briefing Room and Classroom modes are planned to be decommissioned with the release of RoomOS 12 in 2024.
+
+The main difference between Classroom and Briefing Room is the number of screens it supports. Briefing Room only offered support for three screens while Classroom offered more flexibility for two and three screens.
+
+Presenter and Audience is essentially the same as both Briefing Room and Classroom mode combined but with a few essential updates.
+
+In previous Classroom or Briefing Room configurations, we offered modes like Local Presenter, Remote Presenter, and Discussion to cater to various presentation scenarios. However, these modes often lacked sufficient control. For example, selecting 'Remote Presenter' could inadvertently switch to 'Local Presenter' if someone entered a specific area, leading to a less than ideal experience.
+
+To address this, we've introduced a 'manual mode' in our Presenter and Audience mode. Now, when you select a mode on the touch panel, it locks in until you decide to change it. For those who prefer the previous settings, selecting 'Auto' will retain the original automatic switching functionality.
+
+Additionally, we've refined the modes available. 'Discussion' mode has been replaced with 'Hybrid Presenter'—a versatile new option that merges 'Local Presenter' with 'Remote Presenter.' This allows for a dynamic presentation where you can share the stage with a remote participant displayed on the screen.
+
+We also added a new tool for Presenter and Audience in the device settings Issues and Diagnostics > Presenter & Audience Diagnostics. In this tool you can configure the microphone orientation for the connected microphones to be either "Audience" or "Stage". In addition you can see the live volume from the stage and audience including intelligent voice detection probability and more.
+
+Please refer to the setup documentation for more information. Setup documentation - will be available shortly after release.
+
+Supported products Cisco Codec EQ, Codec Pro, Codec Plus
+Cisco Room Kit EQX, Room 70 G2, Room 70, Room 55 Dual
+
+## Meeting Zone Configuration
+
+The "Meeting Zone" feature allows you to customize the area that your conference device monitors during meetings. To set it up, go to the device settings on the touch panel and navigate to the "Meeting Zone" settings. Here, you'll choose whether your meeting area is round or square. Based on your selection, you'll get a preset layout that you can adjust to define the exact meeting space.
+
+This function is particularly useful for rooms with glass walls where people passing by could unintentionally be counted as participants or in any sense, become an unintentional "focus". By configuring the "Meeting Zone", you can prevent this by specifying which areas are included in the meeting boundary. Individuals outside this zone won't affect the people count or disrupt your device intelligence in any way.
+
+Supported products All products
+This feature is not supported together with Speaker Track 60.
+
+## MS Teams join button for CVI
+
+We have added a Microsoft Teams Join button for CVI calls. You can now join a MS teams meeting directly from the device by typing in the meeting details prompted by the MS Teams Join button. WebRTC calls is not supported using this button for on-premises deployments. You configure the CVI tenant information using the following configuration that will be default.
+
+xConfiguration UserInterface MeetingJoin CVITenants
+
+Supported products All products
+
+## AES67 interoperability on Room Devices
+
+If the Cisco collaboration device and third-party microphones or loudspeakers support the AES67 standard, you can connect the third-party peripherals directly to the device using Ethernet.
+
+Selected Cisco devices support the AES67 standard for audio transport over Ethernet.
+
+Please read this comprehensive guide for more information about this feature.
+
+Supported products Codec EQ, Room Bar Pro, Codec Pro
+
+## CA Certificate synchronization between Room Device and Room Navigator
+
+With this feature enabled, the codec will sync it's CA certificates to it's connected Room Navigators. This will make certificate management of the Room Navigator easier.
+
+The feature is enabled by default but can be turned off, xConfiguration Peripherals Security Certificates SyncToPeripherals Enabled .
+
+Supported products All products
+
+## Enable Web Views to trust the devices own self-signed certificate
+
+This will allow the device to load a web view of it's own web interface while using a self-signed certificate. It will also allow web apps that is loaded on the device to connect to the xAPI using WebSockets, for example, the 'jsxapi' module and interact with the xAPI directly.
+
+It is important to note that this setting is only for the device's own self-signed certificate and will not work as a bypass for other websites.
+
+This feature is disabled by default, xConfiguration WebEngine Features AllowDeviceCertificate .
+
+Supported products All products
+
+## Standalone Room Navigator for on-premises management
+
+You can now choose to use the Cisco Room Navigator as a standalone device without having to connect it to a codec or register it anywhere.
+
+To set it up, the Cisco Room Navigator must be running RoomOS 11.9.x and be in a factory reset state. Follow the wizard on the Room Navigator and select "Setup as Standalone". In this mode, you will be prompted to setup a username and password, which can be used to access the Room Navigator Web Interface or xAPI.
+
+Important: In standalone mode, the Room Navigator is only supported with Persistent Web App mode. This means you'll need to run a web app on the device to use it with any of your custom setups.
+
+In this scenario, it is not possible to register the Room Navigator to a Cisco management system. The responsibility of managing the device, configurations, firmware, and web apps lies with the user or administrator.
+
+The Room Navigator is upgraded the same way as any Room Device using the web interface. You can also connect the Room Navigator to a codec that is running supported software as this will automatically upgrade the Cisco Room Navigator to match the software version.
+
+Supported products Cisco Room Navigator
+
+## Infrastructure mode in Miracast®
+
+Infrastructure mode or MS-MICE (1), xConfiguration Video Input Miracast Transport , will allow you to use the existing network to project content from Windows clients. The projecting device (i.e. laptop) must be on the same network as the Room Device when "Infrastructure" is enabled as transport. You can use the existing Wi-Fi network or Ethernet.
+
+Guest sharing (using Wi-Fi Direct will be disabled in this mode). This can also prevent the devices using Wi-Fi Direct to interfere with the existing Wi-Fi network.
+
+Please read this document for a more detailed overview of this feature.
+
+Supported products All products
+
+## Webex Edge for Devices
+
+Features that is available for devices in Webex Edge for Devices mode (non-optimized)
+
+## Media over HTTP Proxy
+
+Enabling the Media over HTTP Proxy feature allows the Proxy to handle both the signalling and media (Audio and Video) transmission. This implementation is aimed at meeting specific compliance requirements. However, it is important to note that enabling this feature can introduce various challenges, such as congestion and capacity issues, packet loss, latency, complex routing, rate limits, and IP filtering. It is advised to enable this feature only when there is no other option available for direct media transport.
+
+xConfiguration Webex Meetings HttpProxyForMedia Mode
+
+## Thousand Eyes Integration
+
+Support for Thousand Eyes Integration. Read more about the integration here, Thousand Eyes Integration with Control Hub
+
+## Other
+
+Other minor changes to note.
+
+## Improved meeting reminders
+
+We have improved the meeting reminder behavior. For example, you will see the meeting reminders in View PC mode, avatars of participants will be added if applicable and changing the "click away" action to snoozing a meeting and more.
+
+Supported products All products
+
+# Release summary for RoomOS 11.5
+
+## Notes and warnings for this software release
+
+RoomOS 11.5 enables support for Cisco Room Panorama, Room 70 Panorama and Room USB. RoomOS 11.1 did not have support for these devices. The list of limitations in the RoomOS 11.1 section has been resolved in this release.
+
+### Default configuration changes
+
+xConfiguration SIP ListenPort now has "Off" as its default value. 
+This may impact your setup if you are not registered to any service and are using the device for direct calling and have not explicitly set the configuration to "On". The solution is to turn it to "On" again after you have upgraded the device.
+
+Note: Configurations only follow the default value if the current configuration is default and not explicitly set to a value. For example, if the default value is "On" and you configure the configuration to "On" you have explicitly set the configuration to "On" and this particular configuration will no longer follow default value changes on upgrade.
+
+### Changes to how Proxy Auto-Configuration (PAC) works
+
+We have made som changes to how PAC matching works for pacmanager in RoomOS software. We are changing the shExpMatch function to use a matching similar to what browsers use. This means that RoomOS will work with the same PAC file matches as other web clients in the network.
+
+PAC files specifically written for RoomOS may need to be updated to keep working as intended!
+
+Please follow this link for more information and details
+
+## RoomOS 11.5.4.6
+
+RoomOS 11.5.4.6 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.5.4.6
+
+## RoomOS 11.5.3.3
+
+RoomOS 11.5.3.3 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.5.3.3
+
+## RoomOS 11.5.2.4
+
+# RoomOS 11.5.2.4 feature descriptions
+
+## Support for Cisco Room Bar Pro
+
+Cisco Room Bar Pro is an integrated, AI-enhanced video bar solution featuring intelligent dual cameras, a three-channel loudspeaker system, built-in microphone array, a powerful computing engine and rich connectivity options, combined with an intuitive touch controller and smart room accessories to provide intelligent, inclusive video collaboration for medium-sized meeting spaces.
+
+Supported with RoomOS 11.5.2.4 and above.
+
+Note that this device requires a new device package for UCM that is scheduled for release in July 2023 for UCM12.5 and UCM14.
+
+Device packages can be downloaded from here . Select the UCM software from the list, then click "Device Packages" when you are prompted to select a software type.
+
+For more information about this product, please follow this link
+
+## Re-styled First Time Wizard
+
+The First Time Wizard is an interactive setup wizard that helps the user get through the deployment process of a device, whether it is supposed to be registered on Webex, UCM or VCS.
+
+In RoomOS 11.5.2.4, we have updated the First Time Wizard to match the RoomOS 11 look and feel while keeping the functionality of the old wizard. This change applies to all products.
+
+In this release we have left the option to switch back to the old wizard from the UI.
+
+Supported products All products
+
+## Office hours for Cisco Room Navigator (Scheduler and PWA mode)
+
+Office hours configured on the codec will now be followed by the paired Cisco Room Navigators.
+
+Supported products All products
+
+## Added support for Cisco Panorama, Room 70 Panorama and Room USB
+
+These devices are supported with RoomOS 11.5.2.4 and above. The previous RoomOS 11.1 did not have support for these devices.
+
+## Hide information about recent meetings on a device
+
+Ability to hide meeting names and other display names in the recent calls list.
+
+xConfiguration CallHistory Recents DisplayName
+
+When setting the configuration to "Hidden" it will hide the meeting names and replace it with something non-descriptive, i.e. "Meeting".
+
+Supported products All products
+
+## Zoom call controls for Board and Desk
+
+This feature provides the call controls in Zoom meetings for Board and Desk devices when using the Zoom integration. This fixes the limitation of 11.1.2 where Board and Desk devices was not yet supported for Zoom call controls.
+
+Supported products All products
+
+## Updated popup UX for sharing content with Cable
+
+The cable share UX flows has been updated. Using the xConfiguration Video Input Connector[X] PresentationSelection the device will have different sharing flows.
+
+This feature introduces a sharing popup when content is connected and depending on what you have configured the behavior will differ.
+
+AutoShare The popup will be displayed and a 5 second countdown is started. If the countdown reaches 0 the input source will automatically be shared into the call and the popup will disappear. While the popup is displayed you can either dismiss it (stop it from automatically sharing into the call) or press "share" to bypass the countdown. By tapping outside of the popup the share is also cancelled while counting down.
+
+Desktop The popup will stay on screen until dismissed by pressing share, view, dismiss or tapping outside the popup
+
+Manual Nothing will be displayed, the source needs to be selected manually from the share tray.
+
+OnConnect The popup will stay on screen until dismissed by pressing share, dismiss or tapping outside the popup
+
+Supported products All products
+
+## Other
+
+Other minor changes to note.
+
+## Re-styled UI elements (UI Extensions)
+
+We are working on re-styling the rest of the UI extensions and other UI elements. In this version we have re-styled most of the UI Extension elements to align with the RoomOS 11 styling. This is a visual update.
+
+## Samsung Flip and Room Kit Mini
+
+Cisco Room Kit Mini with Samsung Flip has not been supported with the first releases of RoomOS 11. In RoomOS 11.5.2 we have re-introduced support for Room Kit Mini and Samsung Flip with the requirement of a macro to switch between modes.
+
+Please follow this link to download the macro
+
+Note: We only have support for Room Kit Mini together with Samsung Flip (WM55R and WM65R), any other combination is considered unsupported.
+
+# Release summary for RoomOS 11.1
+
+## Notes and warnings for this software release
+
+### RoomOS 11
+
+RoomOS 11 has a new app based UI that is designed for multitasking and modern navigation mechanics. The RoomOS 11 UI Experience has been available for a while and you could opt in to the RoomOS 11 UI Experience from RoomOS 10 since early 2022 for cloud and for on-premises since RoomOS 10.19. By enabling RoomOS 11 UI Experience on RoomOS 10 you could unlock the new and innovative features that have been announced over the last year. With the current release of RoomOS 11, the new UI is the only available UI.
+
+Features that have already been announced and requires the RoomOS 11 UI is now unlocked by default on RoomOS 11. Some of these features have already been announced in the RoomOS 10 Release notes and are considered released like for example AirPlay, Miracast® and more. You can find information about these features in the RoomOS 10 release notes .
+
+For a list of current limitations in RoomOS 11.1.2 compared to RoomOS 10, please see the list below.
+
+RoomOS 11.1 - Current known limitations compared to RoomOS 10
+
+- Room Panorama, Room USB, and Samsung Flip not supported yet (Resolved in 11.5.2)
+
+- PIP's including selfview will only be visible on the first monitor (Resolved in 11.5.2)
+
+## RoomOS 11.1.4.1
+
+RoomOS 11.1.4.1 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.1.4.1
+
+## RoomOS 11.1.3.1
+
+RoomOS 11.1.3.1 is a patch release and contains only bugfixes
+
+- Click here for a list of resolved defects in RoomOS 11.1.3.1
+
+## RoomOS 11.1.2.4
+
+# RoomOS 11.1.2.4 feature descriptions
+
+## RoomOS 11 User Interface
+
+The new RoomOS 11 UI gives the devices a modernized experience with an app centric navigation paradigm.
+
+Everything on the devices UI now runs as apps. This modularity simplifies navigation and task switching, making the difference between call controls, device controls and third-party applications more explicit.
+
+Device settings have been moved into a single location that is easy to reach in any state, just tap the configuration button in the top right or swipe from the right
+
+Supported products All products
+
+## Support for Cisco Room Kit EQ / Cisco Codec EQ
+
+RoomOS 11 introduces support for the new integrator device, the Cisco Room Kit EQ.
+
+Cisco Room Kit EQ is a next-generation video device bundle that seamlessly integrates with up to three external displays. Power your meetings with a modular room kit that includes the AI-powered Cisco Codec EQ, the intelligent Quad Camera, an intuitive touch controller, and room peripheral options.
+
+For more information about this product, please visit this link .
+
+Supported products Not applicable
+
+## Support for AirPlay
+
+RoomOS 11 introduces support for AirPlay, offering another simple and familiar sharing experience. Connect your iPhone, iPad or Mac to effortlessly share your screen, collaborate and playback audio and video content.
+
+Note that there may be network constraints, preventing the device from being discoverable out of the box. Check out the network requirements before getting started.
+
+Read more about setting up AirPlay here .
+
+Supported products All products except Board 55 / Board 70 (first generation) Note: Board 55S and Board 70S supports AirPlay and is a newer revision of the products Note: RoomOS 11 currently do not have support for FairPlay (DRM) - which means you cannot playback copy protected content at this time
+
+## Native Zoom button and in-call controls
+
+In previous versions it have been possible to join Zoom meetings as these are SIP calls. We have seen the need for a simpler way to join these meetings and are now introducing a native Zoom button that will allow you to type in the Zoom meeting ID and a passphrase for joining the meeting.
+
+You could create a similar user interface for joining Zoom meetings in the past using a combination of macros and UI Extensions but is now available as a native implementation in RoomOS 11. The button can be enabled using the following configuration:
+
+xConfiguration UserInterface Features Call JoinZoom
+
+This button is hidden by default and must be enabled, by using the above command from xAPI or setting the config from the web interface.
+
+Once you have joined the meeting you will now also see specific Zoom in-call controls. The submenus of these controls (Layout, Host options, Participants and More) makes it easier to perform distinct actions without memorizing DTMF sequences, for example when changing layout.
+
+Note: The in-call controls will be displayed even though you are not the host. The controls can be pressed but will not have any effect if you are not the host.
+
+Note: Currently there is no "admit all" button in the participant list
+
+When a Zoom meeting is booked on the device it will be displayed as a Zoom meeting with OBTP.
+
+To change the default Zoom domain you can use the following configuration:
+
+xConfiguration Zoom DefaultDomain
+
+Supported products All products Note: Board and Desk UI do not have support for the Zoom in-call controls yet (Resolved in 11.5.2)
+
+## New whiteboard version with improved usability
+
+A new version of the whiteboard is implemented in RoomOS 11. This version introduces new tools and operations.
+
+Some of the new tools include:
+
+- Create new shapes (squares, triangles or circles) with options for resizing the shapes and move them around
+
+- Select the shape to change color of the shape, make it transparent or delete the shape
+
+- Drag your finger or pen over the board to select objects, drawings or sticky notes to move them to other locations
+
+- When selected a delete button will appear. When pressed all the selected objects will be deleted
+
+- In previous versions you would have to delete each pixel, the new version will delete the whole stroke object
+
+- By selecting the name of the whiteboard in the top left corner you will be able to name the whiteboard
+
+- Select the file icon in the bottom left corner to bring up the whiteboard browser
+
+- Select saved whiteboards to continue working on previous whiteboards
+
+- The whiteboard can recognize basic shapes like, square, circles, triangles, rectangles, arrows and curved lines as you draw them and will straighten edges and close small gaps in the outline for you.
+
+For more information please follow this link
+
+## Persistent camera and microphone access for Web View and WebRTC meetings
+
+In previous version you had to grant camera and microphone access each time you accessed a web app that required the use of microphone or camera, for example in a WebRTC call.
+
+With this feature you can persistently add hostnames to a list where microphone and/or camera access should be allowed by default. This has to be performed from the xAPI using the following commands:
+
+```
+xCommand WebEngine MediaAccess Add
+Device(r)[2]: <Camera, Microphone>
+Hostname(r): <S: 0, 1024>
+xCommand WebEngine MediaAccess List
+xCommand WebEngine MediaAccess Remove
+Id(r): <0..65534>
+xCommand WebEngine MediaAccess RemoveAll
+```
+
+For example, if you use a specific service for WebRTC calls you can add the host to the list to allow microphone and / or camera access when this host is accessed.
+
+```
+xCommand WebEngine MediaAccess Add Device: Camera Device: Microphone Hostname: videoservice.domain.com
+```
+
+You can use the commands above to list the currently allowed hosts, remove a single entry or all of the entries at once.
+
+```
+xCommand WebEngine MediaAccess List
+*r MediaAccessListResult (status=OK):
+*r MediaAccessListResult Host 1 Devices 1 Device: Microphone
+*r MediaAccessListResult Host 1 Devices 2 Device: Camera
+*r MediaAccessListResult Host 1 Hostname: videoservice.domain.com"
+** end
+```
+
+Supported products All products
+
+## Support for Cisco Table Microphone Pro for Cisco Codec Pro, Codec EQ and Room 70 G2
+
+Cisco Table Microphone Pro is a multi-directional digital Ethernet microphone (audio over IP). In previous releases, this microphone was only supported by Cisco Room Panorama and Room 70 Panorama. We have now added support for Cisco Codec EQ, Codec Pro and Room 70 G2 from RoomOS 11.1.2.4
+
+Supported products All products
+
+## Other
+
+Other minor changes to note.
+
+## AV Integrator Option key
+
+A new option key that unlocks the Audio Console for products that have this option, i.e. Room Kit EQ.
+
+## Default passphrase policy updated
+
+While the default passphrase remains unchanged, the device will not allow calling until a passphrase has been set on the device. This means that we now require a passphrase to be set on the device in order to unlock the full functionality of the device. This will be noted in a warning displayed on the screen.
+
+# Software upgrade and downgrade
+
+## Upgrading software on a Cisco Room Device
+
+Before performing an upgrade or downgrade to a given version you should verify the compatibility level on the device and confirm the minimum version that is supported on your product. You can find a compatibility matrix in this document for reference.
+
+Due to the deprecations of the xx.k3.cop.sgn files for new releases, you are required to upgrade to RoomOS 10.15.x or later in order to upgrade to RoomOS 11 when using other upgrade methods. We are now only releasing xx.k4.cop.sha512 files going forward with RoomOS 11 and also lower maintenance releases. Support for upgrading devices using the cop files with the new signature from the codec itself was introduced with RoomOS 10.15.x.
+
+The reason for this requirement is that the device is unable to unpack the new cop files on earlier versions because it incorrectly assumes that the signature of the package is invalid.
+
+This limitation applies when upgrading using TMS, xAPI (SSH) or the codec web interface - because the codec will attempt to unpack the cop files in these scenarios. It does not apply when using UCM, because UCM unpacks the xx.k4.cop.sha512 before its applied to the codec.
+
+To avoid issues during upgrade, either upgrade using UCM or make sure the devices you are about to upgrade is running RoomOS 10.15.x or above. UCM 11.5 or higher with the latest dev pack installed is highly recommended.
+
+To illustrate the upgrade pattern using the files from https://www.cisco.com :
+
+Before you start, please make sure you have downloaded the software for the correct platform.
+
+## MTR version contained in the MTR cop file
+
+### RoomOS 11.32
+
+cmterm-s53300-mtr-ce11_32_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2025208203
+cmterm-s53350-mtp-ce11_32_ _ .k4.cop.sha512
+
+- MTP: 1449/1.0.97.2025102203
+
+### RoomOS 11.27
+
+cmterm-s53300-mtr-ce11_27_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2025020302 
+cmterm-s53350-mtp-ce11_27_ _ .k4.cop.sha512
+
+- MTP: 1449/1.0.97.2024122401
+
+### RoomOS 11.24
+
+cmterm-s53300-mtr-ce11_24_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2024110701 
+cmterm-s53350-mtp-ce11_24_ _ .k4.cop.sha512
+
+- MTP: 1449/1.0.97.2024102301
+
+### RoomOS 11.20
+
+cmterm-s53300-mtr-ce11_20_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2024080804
+
+### RoomOS 11.17
+
+cmterm-s53300-mtr-ce11_17_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2024061103
+
+### RoomOS 11.14
+
+cmterm-s53300-mtr-ce11_14_ _ .k4.cop.sha512
+
+- MTR: 1449/1.0.96.2024020802
+
+The "All products" cop file (super cop) must only be installed to a Unified CM. This package provides software to all supported video models and peripherals, so you only have to install one cop file if you have multiple products.
+
+*** Contains the MTR module, you can upgrade using this package in order to get the option to select between RoomOS and MTR
+
+NOTE: Upgrading from the device web interface using xx.k4.cop.sha512 files is supported from RoomOS 10.15.x and above
+
+WARNING: Do not delete ".pkg" files that are stated to be "Not in use" on Unified CM. The devices are pointed to a loads file that tells it what package to use for the different peripherals. UCM is not aware that the ".pkg" is in use. By deleting peripheral or device software the device will fail to upgrade or fail to upgrade its peripherals.
+
+### Software integrity verification after download
+
+To verify the integrity of the software image you have downloaded from cisco.com, you can calculate a SHA512 checksum and verify that it matches with the one listed on the software download page. To find the checksum, hover the mouse pointer over the software image you have downloaded.
+
+At the bottom you find the SHA512 checksum, if you do not see the whole checksum you can expand it by pressing the "..." at the end. 
+To calculate a SHA512 checksum on your local desktop please see below.
+
+#### SHA512 checksum calculation command examples
+
+Microsoft Windows
+
+Open a command line window and type the following command:
+
+```
+> certutil.exe -hashfile filename.k4.cop.sha512 SHA512
+```
+
+macOS
+
+Open a terminal window and type the following command:
+
+```
+$ shasum -a 512 filename.k4.cop.sha512
+```
+
+Linux
+
+Open a terminal window and type the following command:
+
+```
+$ sha512sum filename.k4.cop.sha512
+Or
+$ shasum -a 512 filename.k4.cop.sha512
+```
+
+If the SHA512 checksum matches, there is a high level of certainty that no one has tampered with the software image or the image has not been corrupted during download.
+
+If the SHA512 checksum does not match, we advise you to not attempt upgrading any systems with the software image. Download the software again and verify the SHA512 checksum again. If there is a constant mismatch, please open a case with the Cisco Technical Assistance Center.
+
+Note:
+You should always use the “.cop” file when upgrading the devices listed above. Upgrading using “.pkg” on these devices will leave the device unable to upgrade the peripherals and you may experience error messages regarding software mismatch after upgrade. Such issues could happen if you used the “.pkg” extension when upgrading the device from UCM or in other ways. To resolve this, upgrade the software again using the “.cop” file. Cisco only release “.cop” files for RoomOS 11 and above.
+
+Upgrade using the web interface
+
+Access the web interface of the device on:
+
+https://codecIP/web/software
+
+Upload the correct software package by following the instructions on the web page. The upgrade will start, and the device will reboot with the new software.
+
+If you are on an older software version like CE9.15 or below, please refer to the RoomOS 10 release note for further instructions before proceeding with the upgrade to RoomOS 11
+
+Upgrade using UCM
+
+Install the appropriate “xx.k4.cop.sha512” file containing the software for the device platform you wish to upgrade according to the cop installation process on UCM.
+
+Go into the device default loads on the UCM administration page and make sure the platform has populated the correct filename.
+
+For Cisco Room devices s53200 and s53300, the load file name should not contain any extension at all, for example:
+
+Platform Specific packages: s53200ce11_X_X_X.pkg ( wrong ) s53200ce11_X_X_X ( correct )
+
+All products (containing all software versions for all products): ce11_X_X_X ( correct )
+
+Upgrade using TMS
+
+Upload the software to TMS according to the TMS instructions of software upgrade.
+
+Note: There is a known limitation with older TMS versions. The affected versions do not accept the sha512 extension of the RoomOS software. Please upgrade to the latest TMS software version or refer to the TMS documentation for information about the minimum version you need to use.
+
+Also note that devices must be running RoomOS 10.15.x or above in order to do a successful upgrade to RoomOS 11 via TMS.
+
+Upgrade using the xAPI
+
+If none of the above methods are applicable, you can use an existing HTTP server or setup a HTTP server that is reachable by the device(s) you want to upgrade.
+
+Log into the xAPI CLI using SSH or Serial. Type the following command to initiate the upgrade:
+
+```
+xCommand SystemUnit SoftwareUpgrade URL: http(s)://yourHTTPserver/path/to/file
+xCommand SystemUnit SoftwareUpgrade URL: http(s)://yourUCMserver:6970/file
+xCommand SystemUnit SoftwareUpgrade URL: http(s)://yourTMSserver/public/path/to/file
+```
+
+/path/to/file is replaced with the location of the xx.k4.cop.sha512 file.
+
+The device will download the software package and upgrade without warning. If you want the user to be warned and postpone the upgrade, add the parameter: “Forced: False” to the command as the default is “Forced: True” .
+
+If you are upgrading to RoomOS 11 using this method, please make sure the device is running RoomOS 10.15.x or above.
+
+### Downgrading
+
+Downgrading is performed the same way as described above, using a software version lower than the one you are currently running. Not all products are compatible with all software versions. Please verify the minimum software version in the compatibility matrix before downgrading or upgrading your product.
+
+If you are planning to downgrade to a version lower than the one you are currently on, make sure your compatibility level is mentioned in the release note of that version with a minimum version. For example downgrading from RoomOS 11 to RoomOS 10. If the compatibility level of your device is listed with a version of RoomOS 10, then it will be supported from that version. If the number is not mentioned with a version of RoomOS 10 but only RoomOS 11, then the device cannot be downgraded. Check the respective release note of the version you are downgrading to as we do not mention previous version compatibility levels in newer versions of the release notes.
+
+## Software deferral policy
+
+A software version is deferred when we find critical issues within the software. This is to prevent users from downloading and installing affected software versions. Replacement software will always be in place before a software version is deferred.
+
+Older software versions will be deferred on a regular basis from the download section on https://www.cisco.com to avoid providing potential vulnerable software after security fixes. As a general rule you will be able to download the latest release and the version before. Older software versions will be removed from cisco.com regularly. Cisco always recommend using the latest available software.
+
+Example:
+
+RoomOS 10.X.Y.z = Major.Minor.Patch.Buildnumber
+
+For RoomOS versions that have been provided by the Webex cloud, "Y" will always be 1 (11.X. 1 .z) while a RoomOS version released to cisco.com the same number will always be higher than 1 and will increment by one for each patch release.
+
+If for example, RoomOS 11.1.2.x and RoomOS 11.3.2.x is released and RoomOS 11.6.2.x becomes available. RoomOS 11.1.2.x may be removed as part of the deferral policy for end of support. A minor software version is typically supported for two release cycles (6-9 months).
+
+Cisco supports the latest minor release (i.e. RoomOS 11.3.1.x) and the previous minor release (i.e. RoomOS 11.1.2.x) per product as a general rule.
+
+Exceptions are made if supported hardware or particular feature deployments are depending on a major release. Deferral of older maintenance releases still applies.
+
+## Deferred RoomOS 11 software
+
+## Open and resolved caveats in RoomOS 11
+
+### Using the Bug Search Tool
+
+You can use the Bug Search Tool to find information about caveats (bugs) for this release, including a description of the problems and available workarounds. The Bug Search Tool lists both open and resolved caveats. No subset of open or resolved bugs will be listed in the release notes unless deemed relevant for a particular software version.
+
+A pre-defined link will provide the correct list of all open or resolved bugs. Please note that the "Series/Model" listed in the pre-defined search is universal and will list all relevant bugs relating to all products that runs RoomOS Software.
+
+Please refer to the release summary for a link to open and resolved bugs under the specific release.
+
+To use the Bug Search Tool, follow these steps:
+
+- Step 1 Access the Bug Search Tool by navigating to https://bst.cloudapps.cisco.com/bugsearch/
+
+- Step 2 Log in with your Cisco.com user ID and password
+
+- Step 3 To look for information about a specific problem, enter the bug ID number in the ‘Search for bug ID’ field, then click ‘Go’
+
+## Known limitations and advisories for RoomOS 11
+
+### Resource consumption
+
+Extended Logging
+
+Extended logging is a troubleshooting feature and will consume a high amount of resources when enabled. Enabling extended logging can generate unexpected behavior in production calls and in rare cases, cause the device to crash due to resource consumption. This feature should therefore only be enabled in short periods if higher data collection is required when reproducing issues for example, in cooperation with Cisco TAC.
+
+Note on IP Filtering Capabilities
+
+Our devices supports IP filtering for SSH, HTTP and HTTPS in order to provide enhanced admin access control. However, other services such as SIP and H.323, do not currently support IP filtering. While this has always been the case, we recommend that customers deploy these services within secure network environments and use external security controls as needed to mitigate potential exposure to denial-of-service (DoS) attacks.
+
+Network Congestion
+
+Anything that degrades network performance can affect voice and video quality and, in some cases, can cause a call to drop. Sources of network degradation can include, but are not limited to, the following activities:
+
+- Administrative tasks such as an internal port scan or security scan
+
+- Attacks that occur on your network, such as a denial-of-service attack
+
+To reduce or eliminate any adverse effects to conferences, schedule any administrative network tasks during a time when the Cisco Room Device is not being used, or exclude the Cisco Room systems from the testing.
+
+### Wi-Fi Connection
+
+Due to compliance regulations, it is required to enable 802.11d in access points for the product to operate properly within 5725 MHz – 5875 MHz. As Wi-Fi connections can be used as a flexible option, an Ethernet connection is always preferred for high performance.
+
+WPA-EAP There is currently no diagnostic message for expired certificates
+
+CA Certificates CA certificates must be uploaded per endpoint, it is possible to use the xAPI to perform manual or automated mass-distribution of certificates to devices. Please also note that the endpoint must be connected to a wired or WPA2-PSK wireless network in order to upload a certificate before attempting to connect to a WPA-EAP enabled network that requires a CA certificate.
+
+Devices flagged with "NR" (No Radio) do not have Wi-Fi capability.
+
+Web Engine
+
+We only support resolutions of 1080p and above. Web engine is not capable of rendering web views in full screen when using 720p resolutions. 
+720p resolution is not supported with our devices, please use 1080p minimum.
+
+Platform sanity issues (MIC certificates)
+
+Related to bug CSCwf86271.
+
+Crash reported in logs: 
+platform-sanity: migration-tool.service failed to run, transition needed
+Diagnostics provides this error message: platform-sanity: migration-tool.service failed to run, transition needed
+
+Solution: 
+Downgrade to 10.19 (latest available), which will do this conversion automatically. Then upgrade back up to 11.x.
+
+Network paired Cisco Touch 10 / Navigator not supported when the video system is connected through Wi-Fi Even though this connectivity works, you may end up in cumbersome scenarios if the Wi-Fi connectivity is lost for any reason, for example when the Wi-Fi password is changed. In order to reconfigure the Wi-Fi connection, you need to setup a direct pairing between the video system and the Touch 10 / Navigator before reconnecting the Cisco Touch 10 / Navigator. When the video system is using Wi-Fi connectivity Cisco recommends that you have the Touch 10 directly paired with the video system.
+
+### Cisco Webex and Cisco Webex Edge for Devices
+
+Pairing Cisco Touch 10 or Room Navigator To activate a device on Webex with a LAN paired Cisco Touch 10 or Cisco Room Navigator panel, you should pair the touch device before you activate the system on Webex.
+
+In case you have registered the device to Webex and locked the device user accounts, you can initiate pin pairing of the touch panel fro Control Hub if the device is running RoomOS 10.11 or above.
+
+We always recommend that you upgrade to the latest available RoomOS version before activating your device on Webex.
+
+Encryption is required to activate a Room Device on Webex A Room Device with support for encryption is required to activate the device on Webex and Webex Edge for Devices. Cisco Room Devices with the K7 flag in the device part number (can be found in the xAPI by using xStatus), do not have support for encryption and cannot be registered or linked to Webex. Encryption support for Cisco Room Devices are determined by hardware and are not using encryption option keys.
+
+If the device do not have the encryption option, then the device is a K7 device. Devices flagged with K9 in the part number have support for encryption.
+
+You can check if the device have the encryption option key from the web interface under "option keys". This key can neither be added or removed as it is based on the hardware model you have with K7 (no crypto) or K9 (crypto) notation.
+
+### Peripherals
+
+Cisco Touch 10
+
+An area may appear dead on the Cisco Touch 10 controller’s screen if this area has been touched during start-up of the panel. In the start-up phase, a touch calibration process takes place. If something is in contact with the touch panel at this time, this area may lose its function until the Touch 10 has been restarted. Do not touch the touch panel during boot to avoid this.
+
+Max processed requests per second: Authenticated (for example POST to /putxml with basic authentication): 1 (queue 30)
+
+Using session cookies (for example being logged in to the web interface via a browser): 15 (queue 90)
+
+To explain what these numbers mean, let’s take for example the "authenticated" method: If you send 30 authenticated HTTP requests at once, it will take minimum 30 seconds before you get a response to the last request. If you send 31 requests, assuming all is coming in at the same time, the 31st request will get a http 503 response.
+
+If you hit the rate-limiting (max requests per second), the request is queued until others are processed. This happens until the queue is full, and then new requests will get a HTTP 503 response instead of being queued.
+
+Logs will show when the requests are being rate limited.
+
+All content is considered as HDCP when enabled When the input has been configured to support HDCP, it will consider anything connected to this input as HDCP content, even if it´s not. This will prevent you from sharing content from this port in a call. You can share anything locally the same way as before but note that on a dual screen device you may only see content on one screen. Check if your room device have support for one or two HDCP outputs.
+
+For Room Kit, Room Kit Mini, Codec Plus, Room 55, Room70 G1 :
+
+Upgrading to RoomOS 11 from CE9.14.4 and below may result in error “Hardware or Operating System Failure”, which can only be fixed by downgrading to RoomOS 10.15.2 software or above, and then upgrade back to RoomOS 11.
+
+Always verify the compatibility level when upgrading and downgrading devices.
+
+## Interoperability for RoomOS 11
+
+The interoperability section describes the equipment and software revisions that have been tested for interoperability with this release. Please note: The absence of a device or revision from this section does not imply a lack of interoperability.
+
+## Camera firmware and support
+
+Note: The camera firmware has parity with the version installed on the Room Device. Camera software for Cisco Quad Camera, Cisco TelePresence Precision 60 and Cisco TelePresence SpeakerTrack 60 will automatically be updated when the Room Device is upgraded or downgraded. The camera firmware should share the same hash as the current software installed on the Room Device.
+
+Third party cameras
+
+Third-party and older cameras may work with our Integration Room Devices but this is not tested and functionality cannot be guaranteed. TAC support may be rejected or limited.
+
+## Cisco collaboration certification program
+
+Cisco collaboration devices partner ecosystem is built on our certification program to ensure that customers get the best experience out of their Cisco collaboration devices and make integration as seamless as possible when integrating with third-party technology.
+
+For more information, click here
+
+HDMI Cable quality Cisco recommends use of high-quality HDMI 2.0 certified cables. Lower quality cables may work but may also have an impact on the image quality.
+
+If you experience problems and do not have access to high quality cables, try using shorter HDMI cables.
+
+## xAPI Changes
+
+We recommend endpoint configuration through the web interface and not from the xAPI command line.
+
+The admin user have access to only a subset of relevant commands and configuration from the xAPI. The admin user can fully manage the system from the web interface where all the configurations are available. The "remotesupport" user have access to the full list of xAPI commands when utilized (requires TAC engagement).
+
+Specific xAPI changes are not published in the release notes. Please refer to the Cisco API Reference Guides for the integrator products at the following locations:
+
+Cisco Room Series: https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-command-reference-list.html
+
+Cisco Boards: https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/products-command-reference-list.html
+
+Please also visit https://roomos.cisco.com for a great overview of the xAPI and other resources.
+
+## Hardware revision and software dependencies
+
+Due to occasional updates to hardware components, there can be constraints on running older software on newly manufactured Room Devices.
+
+To identify a Room Device compatibility level, you can access the web interface of the Room Device and click on Settings > Statuses. Scroll down to the compatibility level on this page. The below tables can be used to identify software constraints based on the compatibility level of your endpoint. Downgrading to an unsupported software version will fail. 
+The latest software release is backward compatible with previous hardware revisions.
+
+Note: When "all" is mentioned as the minimum version it is referring to all software versions of RoomOS 10 that is or has been released on https://www.cisco.com .
+
+## Cisco Room Series software compatibility matrix
+
+## Cisco Board Series Software Compatibility Matrix
+
+## Cisco Desk Series Software Compatibility Matrix
+
+## Cisco Peripheral Software Compatibility Matrix
+
+Cisco peripheral software compatibility refers to touch devices and cameras that are requesting software from the Room Device. Some of the peripherals may require a higher software version than the Room Device is currently running.
+
+Touch devices
+
+If you see an error on the touch screen about the software not being compatible with the current software, please upgrade the Room Device software to the latest available version and try again.
+
+Cameras
+
+Notes for Cisco Quad Camera
+
+Systems that support Quad Camera are Cisco Codec Pro, Codec Plus, Room 70 and Room 70 G2 (single / dual).
+Hardware revisions of the Quad Camera can be identified using xStatus.
+
+Example:
+
+```
+xStatus: Peripherals ConnectedDevice XXXX HardwareInfo: "73-100746-1".
+```
+
+Notes for Cisco TelePresence Precision 60
+
+Systems that support Cisco TelePresence Precision 60 with RoomOS 10 is Cisco Codec Pro, Codec Plus, Room 70 and Room 70 G2 (single / dual).
+
+Note: Room 70 Panorama do NOT support the Precision 60 camera
+
+New hardware revisions of the Cisco TelePresence Precision 60 camera are identified by production date printed on a sticker underneath the base. If there no sticker is present and you still see an error message on screen about the camera not being compatible with the current software version, please upgrade the room device to the latest software.
+
+Notes for Cisco PTZ 4K camera
+
+The camera setup switch is for selecting the video signal format to be "output" from the HDMI OUT terminal. This should always be set to 6 in order to be controlled by the Room Device.
+
+Please take note that the camera MAC address is being used as the serial number to identify and address the camera on the Room Device. The codec does not receive the serial number information from this camera. To find the actual serial number of the camera, please refer to the label located beneath the physical unit.
+
+For more information about the Webex PTZ 4K Camera, please follow this link .
+
+## Cisco Terms of Service
+
+Your use of Cisco software and cloud services are subject to these terms and conditions
+
+Your use of Cisco APIs is subject to the Cisco Webex Developer Terms of Service
+
+## Permitted Commercial Use for Scheduled Meeting Join Experience
+
+The following use case requires separate permission for commercial use:
+
+Providing a scheduled meeting join experience like one button to push.
+
+This includes use of any API that updates the device with calendar data from an external source to provide this functionality including ´xCommand Bookings Put´ or previous private API’s such as ´bookingsputxml´ In addition, using other APIs to accomplish the same functionality would also require permission for commercial use.
+
+If you are providing a Scheduled Meeting Join Experience you either must comply with the below permitted commercial use terms or it must be for non-commercial use. Non-commercial use is defined as being solely for your internal business operations only and not for any activities that involve you using the API as part of or in furtherance of an income-generating service or product, whether directly or indirectly.
+
+Any use to provide a Scheduled Meeting Join Experience that does not qualify under non-commercial use requires separate permission from Cisco. 
+Cisco reserves the right to revoke your license to use our API if, in our sole discretion, we deem that your use is for unauthorized commercial purposes or otherwise violates the Webex Developer Terms of Service.
+
+Please contact us at devsupport@webex.com if you have any questions about whether your intended use of the API is permitted, or to inquire about obtaining permission.
+
+## Webex Certified and Webex Compatible vendors
+
+To view a list of Webex Certified and Webex Compatible vendors, please visit: https://cs.co/certifiedvendors
+
+THE SPECIFICATIONS AND INFORMATION REGARDING THE PRODUCTS IN THIS MANUAL ARE SUBJECT TO CHANGE WITHOUT NOTICE. ALL STATEMENTS, INFORMATION, AND RECOMMENDATIONS IN THIS MANUAL ARE BELIEVED TO BE ACCURATE BUT ARE PRESENTED WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. USERS MUST TAKE FULL RESPONSIBILITY FOR THEIR APPLICATION OF ANY PRODUCTS.
+
+THE SOFTWARE LICENSE AND LIMITED WARRANTY FOR THE ACCOMPANYING PRODUCT ARE SET FORTH IN THE INFORMATION PACKET THAT SHIPPED WITH THE PRODUCT AND ARE INCORPORATED HEREIN BY THIS REFERENCE. IF YOU ARE UNABLE TO LOCATE THE SOFTWARE LICENSE OR LIMITED WARRANTY, CONTACT YOUR CISCO REPRESENTATIVE FOR A COPY.
+
+The Cisco implementation of TCP header compression is an adaptation of a program developed by the University of California, Berkeley (UCB) as part of UCB’s public domain version of the UNIX operating system. All rights reserved. Copyright © 1981, Regents of the University of California.
+
+NOTWITHSTANDING ANY OTHER WARRANTY HEREIN, ALL DOCUMENT FILES AND SOFTWARE OF THESE SUPPLIERS ARE PROVIDED “AS IS” WITH ALL FAULTS. CISCO AND THE ABOVE-NAMED SUPPLIERS DISCLAIM ALL WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THOSE OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OR ARISING FROM A COURSE OF DEALING, USAGE, OR TRADE PRACTICE.
+
+IN NO EVENT SHALL CISCO OR ITS SUPPLIERS BE LIABLE FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL, OR INCIDENTAL DAMAGES, INCLUDING, WITHOUT LIMITATION, LOST PROFITS OR LOSS OR DAMAGE TO DATA ARISING OUT OF THE USE OR INABILITY TO USE THIS MANUAL, EVEN IF CISCO OR ITS SUPPLIERS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Any Internet Protocol (IP) addresses and phone numbers used in this document are not intended to be actual addresses and phone numbers. Any examples, command display output, network topology diagrams, and other figures included in the document are shown for illustrative purposes only. Any use of actual IP addresses or phone numbers in illustrative content is unintentional and coincidental.
+
+All printed copies and duplicate soft copies are considered un-Controlled copies and the original on-line version should be referred to for latest version.
+
+Cisco has more than 200 offices worldwide. Addresses, phone numbers, and fax numbers are listed on the Cisco website at www.cisco.com/go/offices .
+
+Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or its affiliates in the U.S. and other countries. To view a list of Cisco trademarks, go to this URL: www.cisco.com/go/trademarks . Third-party trademarks mentioned are the property of their respective owners. The use of the word partner does not imply a partnership relationship between Cisco and any other company. (1110R)
+
+| Revision | Date | Description |
+|---|---|---|
+| 34 | August 18th 2026 | Release of RoomOS 11.32.7.0 ee07478fff1, Patch |
+| 33 | July 15th 2026 | Release of RoomOS 11.32.6.0 892432cc4de, Patch |
+| 32 | June 23rd 2026 | Software deferral of 11.17, 11.20 and 11.24 |
+| 31 | March 27th 2026 | Release of RoomOS 11.32.5.1 9ed4f162c00, Patch |
+| 30 | December 17th 2025 | Release of RoomOS 11.32.4.0 52d7071458f, Patch |
+| 29 | December 5th 2025 | Release of RoomOS 11.32.3.0 2c046fa7b4d, Patch Release of RoomOS 11.27.5.0 3efdee7fdaa, Patch |
+| 28 | October 13th 2025 | Release of RoomOS 11.32.2.1 c93004ff3e9, Minor |
+| 27 | September 24th 2025 | Release of RoomOS 11.27.4.0 dd09a9f8835, Patch |
+| 26 | June 10th 2025 | Release of RoomOS 11.27.3.0 0b62257d4e4, Patch |
+| 25 | May 8th 2025 | Release of RoomOS 11.27.2.0 8eb38e80605, Minor |
+| 24 | April 11th 2025 | Release of RoomOS 11.24.4.1 931e1c8c614, Patch |
+| 23 | March 7th 2025 | Release of RoomOS 11.24.3.0 ff597452e7d, Patch |
+| 22 | February 11th 2025 | Software deferral of 11.14 and some versions of 11.17 |
+| 21 | February 5th 2025 | Release of RoomOS 11.24.2.4 c2bc63070f1, Minor |
+| 20 | November 27th 2024 | Release of RoomOS 11.20.3.0 747a3a59da1, Patch |
+| 19 | October 16th 2024 | Release of RoomOS 11.14.5.0 da3520c7ba8, Patch |
+| 18 | October 15th 2024 | Release of RoomOS 11.17.4.0 b12646305a2, Patch |
+| 17 | October 7th 2024 | Release of RoomOS 11.20.2.3 0c4cc65e4e2, Minor |
+| 16 | July 24th 2024 | Release of RoomOS 11.14.4.0 4f4369205a1, Patch |
+| 15 | July 18th 2024 | Release of RoomOS 11.17.3.0 5b28ed3fc06, Patch |
+| 14 | June 27th 2024 | Release of RoomOS 11.17.2.2 6d10476cc76, Minor |
+| 13 | May 16th 2024 | Release of RoomOS 11.14.3.0 f5fdf020908, Patch |
+| 12 | April 30th 2024 | Minor corrections |
+| 11 | March 21st 2024 | Release of RoomOS 11.14.2.3 e98a3091ff6, Minor |
+| 10 | February 7th 2024 | Release of RoomOS 11.9.3.1 88903f816c0, Patch |
+| 9 | December 15th 2023 | Release of RoomOS 11.5.4.6 08c783a4691, Patch |
+| 8 | November 9th 2023 | Release of RoomOS 11.9.2.4 c05310d8c51, Minor |
+| 7 | September 21st 2023 | Minor corrections |
+| 6 | August 28th 2023 | Release of RoomOS 11.5.3.3 ca7b6d6a6ad, Patch |
+| 5 | June 29th 2023 | Release of RoomOS 11.5.2.4 eea5e67094e, Minor |
+| 4 | May 19th 2023 | Release of RoomOS 11.1.4.1 76178a670c8, Patch |
+| 3 | May 12th 2023 | EOS announcement for RoomOS 10 |
+| 2 | March 23rd 2023 | Release of RoomOS 11.1.3.1 4ddb830dec5, Patch |
+| 1 | February 6th 2023 | Release of RoomOS 11.1.2.4 b7224552262, Major |
+
+| Cisco Room Series |
+|---|
+| Cisco Room USB**, Room Kit Mini, Room Kit, Room Kit EQ, Room Kit EQX, Room Bar, Room Bar Pro, Room 55 Cisco Codec Plus, Codec Pro Cisco Room 55 Dual, Room 70 (Single/Dual), Room 70 G2 (Single/Dual) Cisco Room Panorama**, Room 70 Panorama** Cisco Room Navigator (Wall and Table Standalone) |
+| Cisco Board Series |
+| Cisco Board 55/55S, 70/70S and 85S Cisco Board Pro 55 and 75 Cisco Board Pro 55 and 75 G2 |
+| Cisco Desk Series |
+| Cisco Desk, Desk Pro, Desk Mini |
+
+| RoomOS 26 (Current generation) | RoomOS 11 only (Previous generation) |
+|---|---|
+| Board Pro 55/75 | Room Kit |
+| Board Pro 55/75 G2 | Room Kit Plus |
+| Cisco Desk | Room Kit Mini |
+| Desk Mini | Room 55 |
+| Desk Pro | Room 55 Dual |
+| Room Bar | Room 70 (Single / Dual) |
+| Room Bar Pro | Board 55 / 70 |
+| Room Kit EQX | Board 55S / 70S / 85S |
+| Room Kit EQ | Room USB |
+| Room Kit Pro | Room Kit Pro + Touch 10 / SpeakerTrack 60 |
+| Room 70 G2 | Room 70 G2 + Touch 10 / SpeakerTrack 60 |
+| Room Panorama | Room Panorama + Touch 10 / SpeakerTrack 60 |
+| Room 70 Panorama | Room 70 Panorama + Touch 10 / SpeakerTrack 60 |
+| Room Navigator (stand-alone mode) |  |
+
+| RoomOS Version | Codec Pro + Room Navigator and/or Quad Camera | Codec Pro + Touch 10 and/or SpeakerTrack 60 | Codec  Plus + any compatible peripheral |
+|---|---|---|---|
+| RoomOS 11.27.x | Supported | Supported | Supported |
+| RoomOS 11.32.x | Supported | Supported | Supported |
+| RoomOS 11.35.x | Not supported | Supported | Supported |
+| RoomOS 26 (next major) | Supported | Not supported | Not Supported |
+
+| What | Description |
+|---|---|
+| Current limitations with RoomOS 11.1.2 | Room Panorama, Room USB, and Samsung Flip not supported yet (Resolved in 11.5.2) PIP's including selfview will only be visible on the first monitor (Resolved in 11.5.2) |
+| xAPI (All resolved in 11.5.2) | xCommand Video Matrix Swap | Doesn't take effect before using xCommand Video Matrix Assign.​ |
+| xCommand Video Matrix Assign | Screen goes black for a couple of seconds before taking effect. |
+| xConfiguration UserInterface SettingsMenu Visibility | Not supported |
+| xConfiguration Video Selfview Default OnMonitorRole | PIP's and selfview is only visible on output connector 1. A workaround is to use the xAPI to swap the monitor role on the output connectors. |
+
+| From | To | UCM | TMS | Web | SSH |
+|---|---|---|---|---|---|
+| 10.19.x | 11.x | YES | YES | YES | YES |
+| 10.15.x | 11.x | YES | YES | YES | YES |
+| <=10.11.x | 11.x | YES | NO | NO | NO |
+
+| Device | Software platform identifier | Latest available RoomOS software |
+|---|---|---|
+| Cisco Codec Plus, Room USB, Room Kit Mini, Room Kit, Room 55, Room 55 Dual, Room 70, Board Series (except Cisco Board Pro 55 and 75) | s53200 | cmterm-s53200ce11_32_7_0.k4.cop.sha512 * |
+| Cisco Codec Pro, Codec EQ, Room Kit EQX, Room 70 G2, Room Bar, Room Bar Pro, Room 70 Panorama, Room Panorama, Desk Series, Cisco Board Pro 55 and 75, Cisco Board Pro 55 and 75 G2 | s53300 | cmterm-s53300ce11_32_7_0.k4.cop.sha512 * cmterm-s53300-mtr-ce11_32_7_0.k4.cop.sha512 *** |
+| Cisco Room Navigator (standalone) | s53350 | s53350ce11_32_7_0.pkg cmterm-s53350-mtp-ce11_32_7_0.k4.cop.sha512 |
+| All products | N/A | cmterm-ce11_32_7_0.k4.cop.sha512 |
+| Follow this link to find and download software for the device you are about to upgrade. |
+
+| Deferral date | Versions | Note |
+|---|---|---|
+| November 9th 2023 | 11.1.2.4 11.1.3.1 11.1.4.1 | Deferred according to policy (end of support for RoomOS 11.1) |
+| July 24th 2024 | 11.5.2.4 11.5.3.3 11.5.4.6 11.9.2.4 11.9.3.1 | Deferred according to policy (end of support for RoomOS 11.5 and 11.9) |
+| February 11th 2025 | 11.14.2.3 11.14.3.0 11.14.4.0 11.14.5.0 11.17.2.2 11.17.3.0 | Deferred according to policy |
+| June 23rd 2026 | 11.17.4.0 11.20.2.3 11.20.3.0 11.24.2.4 11.24.3.0 11.24.4.1 | Deferred according to policy |
+
+| Feature / equipment | Limitations and advisories |
+|---|---|
+| Unified CM | H.323 and SIP consideration when provisioned by UCM When using UCM provisioning, the endpoint cannot register to a VCS (SIP or H.323) at the same time. This use-case is not supported. When             UCM provisioning is active, H.323 mode is disabled. We recommend customers to migrate from H.323 to SIP. 
+Please note that being registered to UCM without having provisioning mode set to “CUCM” is not a supported scenario. NTP The collaboration endpoints do not support broadcast NTP servers from UCM, unicast only. |
+| SIP / H323 | SIP Listen Port diagnostics warning When registered to a SIP proxy and SIP Listen Port is enabled, a diagnostics warning will be displayed in the web interface “SIPListenPortAndRegistration”. We recommend that SIP Listen Port is turned off when registered to a SIP proxy Dual protocol enablement for SIP and H323 is not supported Having SIP and H323 enabled at the same time will generate a warning message on-screen indicating that having both protocols enabled (SIP and H323) is not supported. This message cannot be removed unless you disable one of the protocols. Having both protocols enabled and using them at the same time in different scenarios may introduce unexpected behavior. TAC will not support call scenarios where both protocols are enabled. |
+| Cisco Proximity | Please refer to the Cisco Support Forums for questions and support If you have issues with Cisco Intelligent Proximity, read the Cisco Proximity troubleshooting guide |
+| Web interface | HTTP Rate limiting To increase device stability and security rate limiting is in effect on the Room Devices. Max processed requests per second: Authenticated (for example POST to /putxml with basic authentication): 1 (queue 30) Using session cookies (for example being logged in to the web interface via a browser): 15 (queue 90) To explain what these numbers mean, let’s take for example the "authenticated" method: If you send 30 authenticated HTTP requests at once, it will take minimum 30 seconds before you get a response to the last request. If you send 31 requests, assuming all is coming in at the same time, the 31st request will get a http 503 response. If you hit the rate-limiting (max requests per second), the request is queued until others are processed. This happens until the queue is full, and then new requests will get a HTTP 503 response instead of being queued. Logs will show when the requests are being rate limited. |
+| SNMP | The Collaboration Endpoint Software is configured with the default SNMP community strings. SNMP community strings should be treated as credentials, and therefore these must be changed after initial configuration. RoomOS 11 only has basic support for SNMPv2 and SNMPv3 with default MIB only. |
+| Security | The codecs shipped with RoomOS 11 software do not meet the Cisco standard passphrase policy. Because of this, Cisco room devices requires that a passphrase is set in order to make full use of the device. Calling will be disabled when there is no passphrase set on the device (default passphrase). Once a passphrase is set the warning message will go away and calling will be unlocked. |
+| PresenterTrack | PresenterTrack is disabled in MultiSite calls The PresenterTrack feature is not available in MultiSite calls. 
+Note that PresenterTrack will work in a Dual Screen call with CMS from CE9. Trigger zone configuration There is a known limitation when configuring the trigger zone through the web interface; whenever the blue square is moved around and placed the trigger zone will be saved (regardless if the "save" button is pressed or not. The blue square that is displaying in the self-view on the endpoint do not disappear until the configuration has been saved manually from web or activate the PresenterTrack preset from the Touch interface. |
+| Startup Wizard | While the Startup Wizard is active the system will have “Do Not Disturb” mode enabled by design. The DND mode cannot be turned off while the Startup Wizard is active. To remove the Startup Wizard, finish the Startup Wizard normally by following the steps or turn off the “RunStartupWizard” by setting the value to “False”. If the Startup Wizard is active, a diagnostics message will be active in the web interface with a link to the configuration to turn it off. This should only be done by advanced users that wants to configure the system manually. |
+| HDCP | Device is not entering standby
+If you connect for example, a Google Chromecast, the device will not be able to enter standby because the standby activity makes the Chromecast send “Active” signal to the codec forcing it to wake up again. All content is considered as HDCP when enabled When the input has been configured to support HDCP, it will consider anything connected to this input as HDCP content, even if it´s not. This will prevent you from sharing content from this port in a call. You can share anything locally the same way as before but note that on a dual screen device you may only see content on one screen. Check if your room device have support for one or two HDCP outputs. |
+| Layout controls in Webex meetings | Layout control for on-premises devices in Webex Calls On-premises devices that are calling into Webex meetings will currently not have the same control options of the meeting that a Webex registered / linked device have. There are still some actions that are available through DTMF tones. Please visit https://help.webex.com/en-us/nli1uz4/DTMF-Commands-for-Video-Device-Enabled-Cisco-Webex-Meetings for a list of valid DTMF tones that can be sent to the Webex meeting to invoke certain actions. |
+| Cisco Room Panorama | Cisco Precision 60 camera Cisco Room Panorama do not have support for Precision 60 cameras. Please note this when upgrading a Room 70 into a Room 70 Panorama, in case you have one connected and want to keep using it. |
+| Encryption and Ciphers | Supported Ciphers You can check which ciphers that the device supports for its different services (HTTPS Server, SIP TLS, Syslog TLS, HTTPS Client) by typing xCommand Security Ciphers List in the xAPI. The supported ciphers may change between versions. |
+| Upgrade and downgrade | Upgrading from unsupported versions Some devices that have support for RoomOS 11 previously had support for CE9. This is no longer the case, and we have removed all CE9 software for these products and we will not release anything from CE9 to the new products. Some customers may still be running old and unsupported software. We recommend that the software is upgraded to RoomOS 10.15.x or above before upgrading to RoomOS 11. For Room Kit, Room Kit Mini, Codec Plus, Room 55, Room70 G1 : Upgrading to RoomOS 11 from CE9.14.4 and below may result in error “Hardware or Operating System Failure”, which can only be fixed by downgrading to RoomOS 10.15.2 software or above, and then upgrade back to RoomOS 11. Always verify the compatibility level when upgrading and downgrading devices. |
+
+| H323 gatekeepers / traversal servers | Minimum software |
+|---|---|
+| Cisco Expressway C / E (VCS) | Latest version available |
+| SIP registrars / proxy servers |
+| Cisco Expressway C / E (VCS) | Latest version available |
+| Unified CM | 11.5 For device support, please make sure you have the latest UCM device pack for your version installed. |
+| Conference bridge interoperability |
+| Cisco Meeting Server (CMS) | 3.5 For the latest conferencing features available in CMS, the latest available software is always recommended. |
+| Management server interoperability |
+| TelePresence Management Suite | Latest version available Older versions of TMS do not have support for uploading software files for upgrading devices |
+
+| Room Device | Camera | Comments |
+|---|---|---|
+| Cisco Codec Pro | Cisco TelePresence Precision 60 | Full support |
+| Cisco Quad Camera | Full support |
+| Cisco TelePresence SpeakerTrack 60 | Full support |
+| Webex PTZ 4K | Full support |
+| Sony SRG-120DH Sony EVI-120DH | Pairing over IP and basic usage with pan tilt and zoom functionality is supported, Camera firmware update is not supported. |
+| Cisco Room Codec Plus | Cisco TelePresence Precision 60 | Full support |
+| Webex PTZ 4K | Full support |
+| Sony SRG-120DH Sony EVI-120DH | Pairing over IP and basic usage with pan tilt and zoom functionality is supported, Camera firmware update is not supported. |
+| Cisco Quad Camera | Full support |
+| Cisco TelePresence SpeakerTrack 60 | Full support |
+| Cisco Room Codec EQ | Cisco TelePresence Precision 60 | Full support |
+| Webex PTZ 4K | Full support |
+| Sony SRG-120DH Sony EVI-120DH | Pairing over IP and basic usage with pan tilt and zoom functionality is supported, Camera firmware update is not supported. |
+| Cisco Quad Camera | Full support |
+
+| Device | Compatibility level | Minimum version of RoomOS 11 |
+|---|---|---|
+| Cisco Room Kit | 0-3 | All |
+| Cisco Codec Plus | 0-2 | All |
+| Cisco Room 55 Dual | 0-2 | All |
+| Cisco Room 70S/70D | 0-2 | All |
+| Cisco Room Kit EQX | 0 | 11.9.2.4 |
+| Cisco Room Kit EQ | 0 | All |
+| Cisco Codec Pro | 0-2 | All |
+| Cisco Room 70/70D G2 | 0-2 | All |
+| Cisco Room Kit Mini | 0 | All |
+| Cisco Room Bar | 0-2 | All |
+| 3 | 11.17.2.2 |
+| Cisco Room Bar Pro | 0 | 11.5.2.4 |
+| 1 | 11.14.2.3 |
+| Cisco Room USB | 0 | All |
+
+| Device | Compatibility level | Minimum version of RoomOS 11 |
+|---|---|---|
+| Cisco Board 55 | 0 | All |
+| Cisco Board 70 | 0 | All |
+| Cisco Board 55S | 0 | All |
+| Cisco Board 70S | 0 | All |
+| Cisco Board 85S | 0 | All |
+| Cisco Board Pro 55 | 0 | All |
+| Cisco Board Pro 75 | 0 | All |
+| Cisco Board Pro G2 | 0 | 11.14.2.3 |
+
+| Device | Compatibility level | Minimum version of RoomOS 11 |
+|---|---|---|
+| Cisco Desk Pro | 0-2 | All |
+| Cisco Desk | 0-2 | All |
+| 3 | 11.17.2.2 |
+| Cisco Desk Mini | 0-2 | All |
+| 3 | 11.17.2.2 |
+
+| Device | Compatibility level | Minimum version of RoomOS 11 |
+|---|---|---|
+| Cisco Touch 10 | 102300-3 102310-0 102310-1 | All |
+| Cisco Room Navigator | 101864-0 101864-1 | All |
+
+| Device | Compatibility level | Minimum version of RoomOS 11 |
+|---|---|---|
+| Cisco Quad Camera | 73-100746-0 73-100746-1 73-100746-2 73-100746-3 | All |
+| Cisco TelePresence Precision 60 | 2018/07 and earlier 2018/08 and later | All |
+| Webex PTZ 4K | N/A | All |

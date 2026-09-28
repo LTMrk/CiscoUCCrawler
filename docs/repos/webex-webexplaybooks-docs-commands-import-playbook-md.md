@@ -1,0 +1,445 @@
+---
+doc_id: webex-webexplaybooks-docs-commands-import-playbook-md
+source_url: https://github.com/webex/WebexPlaybooks/blob/main/docs/commands/import_playbook.md
+repo: webex/WebexPlaybooks
+ruta: docs/commands/import_playbook.md
+licencia: NOASSERTION
+retrieved_at: 2026-08-24T09:09:55.270053+00:00
+---
+
+# WebexPlaybooks — docs/commands/import_playbook.md
+
+Repositorio: webex/WebexPlaybooks
+
+# import-playbook — Core Instructions
+
+This document is the single source of truth for the import-playbook command.
+It is referenced by `.claude/commands/import-playbook.md` (Claude Code),
+`.cursor/rules/import-playbook.mdc` (Cursor), and
+`.codex/commands/import-playbook.md` (Codex). Do not duplicate content between those
+files — edit here and all adapters pick up the change.
+
+To produce a Playbook that **references** a canonical upstream repo without copying
+SDK or sample sources into `src/`, use [import_playbook_reference.md](import_playbook_reference.md).
+
+---
+
+## Purpose
+
+Convert an existing open source application into a Webex Integration Playbook — an
+implementation guide that shows how to integrate a third-party tool with Webex
+programmability (Teams, Meetings, Calling, Rooms, Contact Center).
+
+The source repo is an existing open source project, NOT a Webex project. The goal is
+to produce a Playbook that teaches a Webex developer how to integrate with it.
+
+---
+
+## Step 0 — Clone the source repo into the workspace
+
+Parse the GitHub URL to extract `owner` and `repo`. Derive the slug from the repo
+name: lowercase, kebab-case, strip any "webex-" or "cisco-" prefixes.
+
+Run a shallow clone into the workspace cache (avoids many raw content fetches):
+
+```bash
+mkdir -p .import-playbook-cache
+git clone --depth 1 https://github.com/<owner>/<repo>.git .import-playbook-cache/<slug>
+```
+
+The clone path is `.import-playbook-cache/<slug>/`. All source files are now local.
+
+If the clone fails (e.g. private repo, network error), note the error and fall back to
+fetching individual files via raw content URLs. Continue with Step 1 either way.
+
+---
+
+## Step 1 — Read the source repo thoroughly
+
+Read the following from the cloned repo at `.import-playbook-cache/<slug>/` (or fetch
+via raw URLs if the clone was skipped):
+
+- README.md (or README.rst / README.txt if no .md exists)
+- Any docs/ or documentation/ folder contents
+- package.json, setup.py, pyproject.toml, or equivalent manifest (for dependencies,
+  description, homepage)
+- Any existing API reference, openapi.yaml, swagger.json, or similar
+- LICENSE file
+- Any existing integration guides, examples/, or sample/ folders
+- CHANGELOG or releases page if accessible
+
+From this reading, extract:
+
+- What the tool does and who it is for
+- What APIs or webhooks it exposes that are relevant to a Webex integration
+- What authentication method it uses (OAuth, API key, JWT, etc.)
+- What prerequisites a developer would need (accounts, licenses, API access, environment)
+- What is the most natural Webex integration pattern: Teams bot, Meeting automation,
+  Calling analytics, WxCC screen pop, Rooms/device integration, etc.
+- Which Webex product(s) does this integrate with (Teams, Meetings, Calling, Rooms,
+  Contact Center)?
+- Any rate limits, known limitations, or deprecation notices in the docs
+- The license type (important for the Known Limitations section)
+
+**Competitor tools:** If the source repo is primarily for Genesys, NICE, Five9, or
+Talkdesk (contact center competitors), stop and explain that these are not allowed as
+primary targets per project policy. Do not proceed with the import.
+
+If a file cannot be read, note it and continue — do not stop.
+
+---
+
+## Step 2 — Determine the Playbook slug and APPHUB.yaml values
+
+Derive the folder slug from the repo name: lowercase, kebab-case, strip any "webex-"
+or "cisco-" prefixes (this is a third-party tool).
+
+Make your best determination of:
+
+- `categories` — App Hub category slugs. Include verticals (e.g. `healthcare`,
+  `financial-services`, `retail-ecommerce`) and app categories (e.g. `developer-tools`,
+  `productivity`, `recording-transcriptions`) as appropriate. At least one required.
+- `product_types` — derive from integration type (see mapping below). Valid values:
+  `teams`, `meetings`, `calling`, `rooms`, `contact_center`
+- `estimated_implementation_time` — realistic estimate based on auth flow and API
+  surface complexity
+
+**Integration type mapping:**
+
+| Integration type      | product_types    |
+| --------------------- | ---------------- |
+| Contact Center (WxCC) | `contact_center` |
+| Teams (Messaging)     | `teams`          |
+| Meetings              | `meetings`       |
+| Calling               | `calling`        |
+| Rooms / Devices       | `rooms`          |
+
+If the integration spans multiple products (e.g. Meetings + Teams), include multiple
+`product_types` values.
+
+---
+
+## Step 3 — Create the Playbook folder and files
+
+### Git working branch in WebexPlaybooks
+
+These steps apply to **this repository** (the WebexPlaybooks workspace), not to
+`.import-playbook-cache/<slug>/`. Run them **after** the slug is settled (end of Step 2)
+and **before** adding any files under `playbooks/<slug>/`. Branch naming must match
+[CONTRIBUTING.md — Branch naming](../../CONTRIBUTING.md#branch-naming): `playbook/<slug>`.
+
+1. Ensure a **clean working tree** in WebexPlaybooks (`git status`). If there are
+   uncommitted changes, stop and tell the user to stash, commit, or discard them — do
+   not proceed on a dirty tree.
+2. Update `main` and fast-forward only:
+
+   ```bash
+   git fetch origin
+   git checkout main
+   git pull --ff-only origin main
+   ```
+
+   If `git pull --ff-only` fails (e.g. local `main` has diverged), stop and tell the
+   user to reset or merge `main` with `origin/main` before importing.
+3. Create the playbook branch:
+
+   ```bash
+   git switch -c playbook/<slug>
+   ```
+
+   Use `git checkout -b playbook/<slug>` if `git switch` is unavailable.
+
+4. **If `playbook/<slug>` already exists:** check it out, merge `origin/main` into it
+   to reduce drift, then continue. If the merge conflicts, stop and tell the user to
+   resolve conflicts before creating playbook files.
+
+---
+
+Create the following structure:
+
+```text
+playbooks/<slug>/
+├── README.md                 # exactly one README in the playbook (see policy below)
+├── APPHUB.yaml
+├── diagrams/
+│   └── architecture-diagram.md
+├── docs/                     # optional — upstream notes, not a second README
+│   └── (e.g. upstream-overview.md)
+└── src/
+    ├── …                     # vendored code; preserve paths (see src/ section)
+    └── env.template          # at src/ when none copied from upstream
+```
+
+### Single README.md policy
+
+- There must be **exactly one** file named `README.md` under `playbooks/<slug>/`: the
+  playbook root file with the six required sections.
+- **Do not** create `src/README.md`, `diagrams/README.md`, or any other `README.md`
+  anywhere under the playbook folder.
+- When copying from `.import-playbook-cache/<slug>/`, **omit** upstream
+  `README.md`, `README.rst`, and `README.txt` from `src/` (and from nested paths if
+  they would introduce another `README.md`). If the upstream README contains content
+  developers still need (install steps, API quirks), add `docs/upstream-overview.md` or
+  `docs/source-repo-notes.md` with that material and link to it from the root README.
+
+### README.md
+
+Write all 6 required sections with real, substantive content drawn from your research.
+
+Do not leave placeholder text where you have enough information to write real content.
+Use `<!-- TODO: [specific instruction] -->` comments only where human judgment is
+genuinely required.
+
+#### ## Use Case Overview
+
+Describe what this integration does for a Webex user or admin. Lead with the business
+outcome, not the technical mechanism. Include who this is for (target persona) and a
+realistic estimated implementation time. Make it concrete — describe the moment in a
+workflow where this tool adds value.
+
+**Source attribution:** Add a line at the top of the README (after the title) crediting
+the original repo, e.g. "This Playbook is adapted from the [Project Name](https://github.com/owner/repo) sample on GitHub."
+
+#### ## Architecture
+
+Describe the integration architecture in prose, then refer to the Mermaid diagram in
+/diagrams/architecture-diagram.md. Explain which Webex component(s) are involved, how
+data flows between Webex and the third-party tool, and where authentication occurs.
+
+#### ## Prerequisites
+
+Exhaustive list based on source repo docs:
+
+- Webex requirements (product license, API access, org type — e.g. WxCC org, Webex org
+  with Teams)
+- Third-party tool requirements (account type, API access level, paid tier
+  requirements)
+- Developer environment (language runtime, package manager, etc.)
+- Network/firewall requirements if the tool requires inbound webhooks
+
+#### ## Code Scaffold
+
+Introduce the source code, explain what it demonstrates, and note what it does NOT do
+(not production-hardened, minimal error handling, secrets must move to environment
+variables). Describe the layout under `/src/` in this section. If lengthy upstream-only
+material lives in `docs/` (for example `docs/upstream-overview.md`), link to it here
+instead of adding a second README under `src/`.
+
+#### ## Deployment Guide
+
+Step-by-step instructions written for the target persona. Number every step. Each step
+is a single action with the exact command, UI path, or configuration value where known.
+Use `<!-- TODO: verify this step against your specific environment -->` only where
+environment-specific values are unavoidable.
+
+#### ## Known Limitations
+
+Based on source repo docs:
+
+- Any rate limits from the third-party API
+- Authentication token expiry / refresh requirements
+- Any deprecated endpoints noticed
+- License constraints (note the open source license type and commercial use implications).
+  Reference the playbook repo's LICENSE (e.g. `[LICENSE](../../LICENSE)`) rather than the
+  source repo's license.
+- Standard Webex disclaimer: "This Playbook is provided as a starting point. Webex does
+  not guarantee the functional accuracy of the source code. Test thoroughly before use
+  in a production environment."
+
+### APPHUB.yaml
+
+Use the full schema from PLAYBOOK_TEMPLATE/APPHUB.yaml. **Preserve the section comments** (the `# ---` separator lines and `# field_name — description` lines) from the template — do not strip them when generating APPHUB.yaml. Copy the comment structure from PLAYBOOK_TEMPLATE/APPHUB.yaml and substitute only the values. Derive from the source repo:
+
+- `friendly_id` — slug + `-playbook` (e.g. folder `meetings-exporter` →
+  `meetings-exporter-playbook`) to reduce App Hub name collisions with actual integrations
+- `title` — `{ThirdPartyTool} + Webex {Product} Integration`
+- `tag_line` — one-line value proposition (required, max 128 chars)
+- `description` — App Hub **supports Markdown** in this field. Use a YAML block scalar
+  (`description: |`) and separate sections with **blank lines**. Do **not** use
+  `description` for canonical upstream URLs, clone or install commands, or
+  “source lives elsewhere”—put those in **README** (and in **`src/README.md`** for
+  [reference imports](import_playbook_reference.md)). Keep **`tag_line`** as the short
+  one-liner (max 128 characters); `description` carries the expanded detail.
+
+  **Structure**
+
+  - **Opening paragraph:** Short summary of what the playbook offers; use **bold**
+    on key terms (Webex product, integration flow, language or stack).
+  - **Why use this playbook:** A line `**Why use this playbook**`, then **3–5
+    bullets** focused on user outcomes—for example faster delivery, fewer auth
+    mistakes, correct token or API usage, framework fit, a workable test path,
+    secrets loaded from environment variables.
+  - **What it does:** A line `**What it does**` (or equivalent), then bullets for
+    **concrete behaviors**: OAuth or callback handling, REST calls, named routes or
+    endpoints the sample exposes, configuration the reader can verify.
+
+  **Importer checklist**
+
+  - [ ] `description: |` with blank lines between the opening paragraph, Why, and What
+  - [ ] Opening paragraph uses **bold** on product, flow, and stack terms where helpful
+  - [ ] **Why use this playbook** has 3–5 outcome-oriented bullets
+  - [ ] **What it does** lists behaviors and endpoints that match the actual playbook
+  - [ ] No upstream repo links, package install lines, or pointer-only copy in
+    `description`
+
+  **Example shape:** For pacing, depth, and Markdown formatting, compare
+  [`playbooks/wxcc-token-java-sample/APPHUB.yaml`](../../playbooks/wxcc-token-java-sample/APPHUB.yaml)
+  (`description`). Generic pattern (substitute your integration’s facts):
+
+  ```yaml
+  description: |
+    A **Node.js** sample that wires **MyCRM** into **Webex Contact Center** for
+    agent screen pop: webhook intake, customer lookup, and Agent Desktop context.
+
+    **Why use this playbook**
+
+    - **Ship faster:** Reuse a minimal **Express** service pattern instead of
+      designing the flow from a blank editor.
+    - **Fewer auth mistakes:** Shows how to validate **Webex** signatures and store
+      tokens using **environment variables** only.
+    - **Right API shape:** Demonstrates the exact **REST** calls and payloads your
+      flow needs before you harden for production.
+    - **Testable path:** Includes a local run and curl-friendly checks so you can
+      confirm behavior before deploying.
+
+    **What it does**
+
+    - Receives **MyCRM**-originated events and normalizes them for **WxCC**.
+    - Calls documented **Webex** APIs with the scoped **access token** from your app.
+    - Returns structured customer context your **Agent Desktop** or flow can consume.
+  ```
+
+- `product_types` — from integration type mapping (Step 2)
+- `categories` — default `["productivity", "developer-tools"]`; include verticals
+  (healthcare, financial-services, retail-ecommerce) and app categories as appropriate
+- `company_name`, `company_url`, `support_url`, `privacy_url`, `logo` — use defaults
+  from template
+- `product_url` — `https://github.com/webex/WebexPlaybooks/tree/main/playbooks/<slug>`
+- `third_party_tool` (optional), `estimated_implementation_time` — from Step 2
+
+### diagrams/architecture-diagram.md
+
+Write a Mermaid sequence or flowchart diagram showing the integration data flow. Use
+real Webex component names and the actual tool name. Show:
+
+- The trigger event (incoming call, agent action, flow execution, message event, etc.)
+- The API call(s) between Webex and the third-party tool
+- Where authentication occurs
+- The response back to the agent, flow, or user
+
+Wrap in a ```mermaid code block.
+
+### src/
+
+Choose the language based on what the source repo uses (match their SDK language if
+they publish one). Default to Node.js if no clear preference. If the source repo is
+primarily documentation or config (e.g. no clear runtime), default to Node.js for
+Webex SDK compatibility.
+
+If the repo was cloned in Step 0, copy and adapt relevant files from
+`.import-playbook-cache/<slug>/` into `playbooks/<slug>/src/` rather than writing from
+scratch. Extract the minimal integration logic needed for the Playbook. Preserve
+original paths under `src/` where helpful, but **exclude** any `README*` files per the
+**Single README.md policy** above; summarize or relocate needed upstream readme content
+to `docs/upstream-overview.md` or `docs/source-repo-notes.md`.
+
+#### Flattening upstream source directories
+
+When the upstream repo stores its runtime source code inside a directory with the same
+name as the Playbook's `src/` (most commonly `upstream/src/`, but also `app/`, `lib/`,
+`source/`), copy the **contents** of that directory directly into `playbooks/<slug>/src/`
+— do not copy the directory itself.
+
+```
+# Correct — upstream src/connectors/foo.py becomes:
+playbooks/<slug>/src/connectors/foo.py
+
+# Wrong — never produce this:
+playbooks/<slug>/src/src/connectors/foo.py
+```
+
+After copying, check all source files for import statements that referenced the now-
+dropped directory name and update them:
+
+- Python static: `from src.connectors.foo import Foo` → `from connectors.foo import Foo`
+- Python dynamic: `importlib.import_module(f"src.{module_name}")` → `importlib.import_module(module_name)`
+- Python sys.path: `sys.path.insert(0, str(Path(__file__).parent / "src"))` → `sys.path.insert(0, str(Path(__file__).parent))`
+- JavaScript/TypeScript: `require('./src/module')` → `require('./module')`
+
+Run a quick grep after copying to catch any remaining stale references before moving on:
+
+```bash
+grep -rn "from src\.\|import src\.\|require.*['\"]\.\/src\/" \
+  --include="*.py" --include="*.js" --include="*.ts" \
+  playbooks/<slug>/src/
+```
+
+The source code must:
+
+- Authenticate with the third-party tool API using the method documented in the source
+  repo
+- Perform the primary action of the integration (fetch a record, create a ticket, push
+  an event, etc.)
+- Use environment variables for ALL secrets and configuration — never hardcode
+- Include a comment block at the top explaining what the code does, what it does NOT
+  do, and what environment variables must be set
+
+Use the tool's existing SDK or client library if one exists — do not use raw HTTP calls
+when an SDK is available.
+
+Include `src/env.template` listing all required environment variables with descriptive
+comments unless the copied upstream tree already has an equivalent env example under
+`src/` — in that case adapt it in place and do not add a redundant file. (Use
+`env.template` rather than `.env.example` to avoid dotfile limitations in some orgs.)
+
+---
+
+## Step 4 — Run validation checks
+
+After creating all files, output the validation command for the author to run (do not
+run it automatically). The local script runs the same checks as CI:
+
+```bash
+./scripts/validate-playbook-local.sh playbooks/<slug>
+```
+
+Prompt the author to run this and fix any failures before finishing. The script
+validates README sections, APPHUB.yaml fields (including product_types,
+categories), friendly_id, tag_line length, and folder structure.
+
+---
+
+## Step 5 — Report to the author
+
+Output a summary covering:
+
+1. **What was created** — list all files with their paths
+2. **Confidence levels** — for each major README section, note:
+   - High: substantive content written from source repo docs
+   - Medium: reasonable inferences made, should be verified
+   - Low: TODOs left because information was not available
+3. **TODOs requiring human input** — numbered list of every `<!-- TODO -->` comment,
+   extracted and listed for easy action
+4. **APPHUB.yaml review** — remind the author to review all fields (categories,
+   third_party_tool, estimated_implementation_time) and re-run validation if they
+   change anything
+5. **Suggested next steps** — confirm you are on branch `playbook/<slug>` (created in
+   Step 3), review the architecture diagram for accuracy, run the code against a real
+   Webex sandbox if applicable, then push and open a PR against `main`.
+
+Do not open a PR automatically — the author pushes and opens the PR when ready.
+
+---
+
+## Step 6 — Clean up the clone cache
+
+Remove the cloned repo from the workspace so it does not persist on the user's machine:
+
+```bash
+rm -rf .import-playbook-cache/<slug>
+```
+
+If the clone was skipped (fallback to raw URLs), this step is unnecessary.
+
+---
+> Fuente: https://github.com/webex/WebexPlaybooks/blob/main/docs/commands/import_playbook.md (licencia NOASSERTION)
