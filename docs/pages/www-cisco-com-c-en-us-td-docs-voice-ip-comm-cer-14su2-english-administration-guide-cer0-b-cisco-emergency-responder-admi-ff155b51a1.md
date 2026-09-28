@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-ff155b51a1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-20T23:51:25.006824+00:00
+retrieved_at: 2026-09-28T11:32:34.339714+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -211,3 +211,7 @@ March 31, 2021
 | Smart Licensing Registration through Authentication based Proxy | Provides extra authentication measures to register to Cisco Smart Software Manager using authentication based proxy server | National E911 Service Provider VUI Settings | March 31, 2021 |
 | Swtich Support | Added switch support for Catalyst 9300L, Cisco Catalyst 1000 Series, Cisco Industrial Ethernet 2000, 3000, 4000, and 5000
                                           Series Switches, and Cisco Meraki Switches MS120, MS125, and MS355 | Supported Voice Ready Lan Switches | March 31, 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

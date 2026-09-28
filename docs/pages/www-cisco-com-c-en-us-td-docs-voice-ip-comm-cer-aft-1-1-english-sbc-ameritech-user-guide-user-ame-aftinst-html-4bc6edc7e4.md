@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-ameritech-user-guide-user-ame-aftinst-html-4bc6edc7e4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_ameritech/user/guide/user_ame/AFTinst.html
-retrieved_at: 2026-08-21T15:50:54.457527+00:00
+retrieved_at: 2026-09-28T11:37:09.310410+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Ameritech
@@ -111,3 +111,7 @@ Related Topics
 • System Requirements
 
 • Chapter 3 "Using the ALI Formatting Tool"
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

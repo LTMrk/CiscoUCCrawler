@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-bell-canada-user-guide-user-can-aftinstall-html-6c0c6516d7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can/AFTinstall.html
-retrieved_at: 2026-08-21T15:50:25.491170+00:00
+retrieved_at: 2026-09-28T11:36:36.405465+00:00
 ---
 
 ALI Formatting Tool User Guide for Bell Canada
@@ -109,3 +109,7 @@ Related Topics
 • System Requirements
 
 • "Using the ALI Formatting Tool"
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

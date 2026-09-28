@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su6-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-e5c25c4c98
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su6/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU6.html
-retrieved_at: 2026-08-21T06:38:46.038380+00:00
+retrieved_at: 2026-09-28T11:32:55.465779+00:00
 ---
 
 Cisco Emergency Responder Version 14SU6 Release Notes
@@ -2541,6 +2541,10 @@ CER cannot update wireless phone location update in AXL discovery
 
 There are no known issues in this release.
 
+### This Document Applies to These Products
+
+- Emergency Responder 14
+
 | Item | Supported Software Release | Description |
 |---|---|---|
 | Cisco Unified Communications Manager | Cisco Unified Communications Manager 14 | The software that runs the telephony network. |
@@ -3183,3 +3187,7 @@ There are no known issues in this release.
 | Identifier | Headline |
 |---|---|
 | CSCwt00591 | CER cannot update wireless phone location update in AXL discovery |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

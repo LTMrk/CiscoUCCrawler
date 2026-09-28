@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-pacbell-user-guide-user-sbc-aftpref-html-eebd6d2402
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_pacbell/user/guide/user_sbc/AFTpref.html
-retrieved_at: 2026-08-21T15:51:15.633231+00:00
+retrieved_at: 2026-09-28T11:37:56.827869+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Pacific Bell
@@ -235,3 +235,7 @@ Before calling, please check with your network operations center to determine th
 | boldface screen font | Information you must enter is in boldface screen font. |
 | italic screen font | Arguments for which you supply values are in italic screen font. |
 | Action > Reports | Command paths in a graphical user interface (GUI). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-f088134ccd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_01011.html
-retrieved_at: 2026-08-20T23:52:47.732148+00:00
+retrieved_at: 2026-09-28T11:31:42.096037+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -388,3 +388,7 @@ See Troubleshoot Email Alerts for information to help you understand the email a
                                           					 your email ID is configured in the server group settings, CiscoEmergency
                                           					 Responder sends email alerts about critical errors to you. You are expected to
                                           					 understand the error and take action to correct the problem. See Troubleshoot Email Alerts for information to help you understand the email alerts and resolve problems. | Set Up a Server Group |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

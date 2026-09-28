@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-off-premises-user-guide-cer0-b-cisco-emergency-responder-off--5f77e6d1be
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-15/cer0_b_cisco-emergency-responder-off-premise-guide-1251SU2_chapter_010.html
-retrieved_at: 2026-08-21T15:28:02.255296+00:00
+retrieved_at: 2026-09-28T11:35:37.201938+00:00
 ---
 
 Cisco Emergency Responder Off-Premise Location Management User Guide Release 15 and SUs
@@ -48,3 +48,9 @@ Cisco Virtual
                            		off-premises device without providing your location, your emergency call may be
                            		delivered to an inappropriate emergency service responder, or with an incorrect
                            		location.
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

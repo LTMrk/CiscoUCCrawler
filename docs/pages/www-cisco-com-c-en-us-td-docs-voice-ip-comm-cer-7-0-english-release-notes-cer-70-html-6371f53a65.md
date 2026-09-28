@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-7-0-english-release-notes-cer-70-html-6371f53a65
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/7_0/english/release/notes/cer_70.html
-retrieved_at: 2026-08-21T08:30:05.824422+00:00
+retrieved_at: 2026-09-28T11:36:20.275279+00:00
 ---
 
 Release Notes for Cisco Emergency Responder 7.0(1)
@@ -2505,3 +2505,7 @@ Subscribe to the What's New in Cisco Product Documentation as a Really Simple Sy
 | Find | Select search criteria and click Find to list either existing Conventional ERLs or Intrado ERLs. From the search results list, you can select the ERLs that you wish to migrate |
 | Migrate to Intrado ERL Button | When you search for Conventional ERLs, you can select the ERLs that you wish to migrate to Intrado. When you click on the Migrate to Intrado ERL button, you can choose the following. • Intrado route point for all the selected ERLs. • Class of Service value for all the selected ERLs. • Type of Service value for all the selected ERLs. |
 | Migrate to Regular ERL | When you search for Intrado ERLs, you can select the ERLs that you wish to migrate to a conventional ERL data. When you click on the Migrate to Regular ERL button, you will have the option to enter a route point, specify whether the ERL is a test ER, and Test the ERL. Also, you can choose the following: • Class of Service value for all the selected ERLs. • Type of Service value for all the selected ERLs. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

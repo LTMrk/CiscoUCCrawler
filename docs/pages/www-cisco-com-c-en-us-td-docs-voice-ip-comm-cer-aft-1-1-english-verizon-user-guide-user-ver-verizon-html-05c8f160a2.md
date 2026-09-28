@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-verizon-user-guide-user-ver-verizon-html-05c8f160a2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/verizon/user/guide/user_ver/verizon.html
-retrieved_at: 2026-08-21T15:52:06.696707+00:00
+retrieved_at: 2026-09-28T11:39:11.402992+00:00
 ---
 
 ALI Formatting Tool User Guide for Verizon
@@ -113,3 +113,7 @@ When you use AFT to make updates, it creates two different entries for the Custo
 | TTY | Teletypewriter |
 | SI | Speech Impaired |
 | DD | Developmentally Disabled |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

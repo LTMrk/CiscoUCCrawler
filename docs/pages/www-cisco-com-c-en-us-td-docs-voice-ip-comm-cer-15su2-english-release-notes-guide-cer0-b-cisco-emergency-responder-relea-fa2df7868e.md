@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15su2-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-fa2df7868e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU2.html
-retrieved_at: 2026-08-21T06:39:20.399473+00:00
+retrieved_at: 2026-09-28T11:36:07.512906+00:00
 ---
 
 Cisco Emergency Responder Version 15SU2 Release Notes
@@ -3442,3 +3442,7 @@ CSCwj11507
 | CSCwj11516 | AXL discovery doesn't run when Incremental runs for long time |
 | CSCwk75221 | CER doesn't show any license unauthorized and PT service restart warning in welcome page |
 | CSCwj11507 | 911 calls matches defaults ERL due to IPSubnet hashmap rehashing |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

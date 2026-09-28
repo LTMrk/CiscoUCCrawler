@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-96f697df96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_m_cisco-emergency-responder-api-documentation.html
-retrieved_at: 2026-08-21T15:03:28.994216+00:00
+retrieved_at: 2026-09-28T11:34:43.598949+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -323,3 +323,7 @@ Access to CER User and access to Web Alert
 | User Group | Access to create, read, update, delete User Group details |
 | National E911 Service Provider VUI Settings | Access to CER System Administrator and access to National E911 Service Provider VUI Settings |
 | Web Alert | Access to CER User and access to Web Alert |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

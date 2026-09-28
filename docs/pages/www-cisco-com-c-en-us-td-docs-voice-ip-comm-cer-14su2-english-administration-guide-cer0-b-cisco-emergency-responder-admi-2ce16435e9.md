@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-2ce16435e9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_01100.html
-retrieved_at: 2026-08-20T23:52:51.689447+00:00
+retrieved_at: 2026-09-28T11:31:58.681045+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -504,3 +504,7 @@ Repeat this
                                                                						error occurs in fields that cannot be edited using AFT, you must use Emergency
                                                                						Responder to correct the fields. Then use AFT to regenerate the file. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

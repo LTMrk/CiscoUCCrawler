@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-verizon-user-guide-user-ver-aftpref-html-ae1cf3167a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/verizon/user/guide/user_ver/AFTpref.html
-retrieved_at: 2026-08-21T15:51:45.237546+00:00
+retrieved_at: 2026-09-28T11:39:03.038938+00:00
 ---
 
 ALI Formatting Tool User Guide for Verizon
@@ -295,3 +295,7 @@ http://www.cisco.com/en/US/learning/index.html
 | boldface screen font | Information you must enter is in boldface screen font. |
 | italic screen font | Arguments for which you supply values are in italic screen font. |
 | Action > Reports | Command paths in a graphical user interface (GUI). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-openssl-license-cer-ssllic-html-03d0bca502
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/openssl_license/cer_ssllic.html
-retrieved_at: 2026-08-21T06:40:18.275535+00:00
+retrieved_at: 2026-09-28T11:39:15.537732+00:00
 ---
 
 Open Source License Notices for Cisco Emergency Responder
@@ -97,3 +97,7 @@ The license and distribution terms for any publicly available version or derivat
 ### This Document Applies to These Products
 
 - Emergency Responder
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

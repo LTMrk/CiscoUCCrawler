@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-15-cer0--89d1a1bc45
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-15/cer0_b_cisco-emergency-responder-cli-guide-1251su1_chapter_01.html
-retrieved_at: 2026-08-21T15:26:32.914924+00:00
+retrieved_at: 2026-09-28T11:35:16.265673+00:00
 ---
 
 Cisco Emergency Responder Command Line Interface Guide for Release 15 and SUs
@@ -11243,3 +11243,7 @@ utils vmtools upgrade
 
 | Note | This command is not available or applicable on Cisco NFVIS-for-UC or Nutanix AHV hypervisors. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-bell-canada-user-guide-user-can-aftuse-html-d0e1cdbd2e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can/AFTuse.html
-retrieved_at: 2026-08-21T15:50:29.856140+00:00
+retrieved_at: 2026-09-28T11:36:48.807062+00:00
 ---
 
 ALI Formatting Tool User Guide for Bell Canada
@@ -305,3 +305,7 @@ Related Topics
 | Perform a bulk update to the ALI files | 1. Use one of these methods: – Click the Bulk Update icon. – Select Menu > Tools > Bulk Update (Ctrl+B) . AFT displays the bulk update form. 2. Select one of the following options: – To apply the changes to all records, click the first tab, Apply All . – To apply the changes to one area code, click the second tab, Apply by Area Code . – To apply the change to one area code and one city code, click the third tab, Apply by Area Code and City Code . | The bulk update feature saves the changes automatically. |
 | Save updates to the ALI file | Select Menu > Tools > Save Record (Ctrl+S) . | The new value is saved and displayed in the interface. If you modify an ALI record but do not save the changes, an alert asks if you want to save the changes. |
 | Close AFT | Select Menu > File > Exit . | If you try to close AFT without saving changes, AFT asks if you want to generate a formatted file. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

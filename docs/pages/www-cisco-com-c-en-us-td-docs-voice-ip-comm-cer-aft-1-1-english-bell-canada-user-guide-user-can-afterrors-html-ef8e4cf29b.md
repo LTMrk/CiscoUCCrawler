@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-bell-canada-user-guide-user-can-afterrors-html-ef8e4cf29b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can/AFTerrors.html
-retrieved_at: 2026-08-21T15:50:33.794485+00:00
+retrieved_at: 2026-09-28T11:36:32.174815+00:00
 ---
 
 ALI Formatting Tool User Guide for Bell Canada
@@ -89,3 +89,7 @@ C:\ProgramFiles\CiscoSystems\AFT\logs\< providername >
 Related Topics
 
 • Collecting Error and Trace Messages
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

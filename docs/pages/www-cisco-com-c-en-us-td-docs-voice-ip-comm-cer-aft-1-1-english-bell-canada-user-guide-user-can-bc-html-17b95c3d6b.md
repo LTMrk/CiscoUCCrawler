@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-bell-canada-user-guide-user-can-bc-html-17b95c3d6b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/bell_canada/user/guide/user_can/BC.html
-retrieved_at: 2026-08-21T15:50:38.295238+00:00
+retrieved_at: 2026-09-28T11:36:53.157526+00:00
 ---
 
 ALI Formatting Tool User Guide for Bell Canada
@@ -434,3 +434,7 @@ Note You do not configure the Language Indicator field using AFT; AFT sets the f
 | Location Number | Number of the location identified in the Location Type field (for example, apartment 2, floor 2) | 6 alphanumeric characters | May be blank. |
 | Service Municipality | City, town, village, borough or locality | 35 alphanumeric characters | Must not be blank. |
 | LSP ID | Unique code provided to the PS ALI customer by Bell Canada. It denotes the provider of local telephone service. | 5 alphanumeric characters | Must not be blank. Must be the valid LSP Identifier provided to the PS ALI customer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

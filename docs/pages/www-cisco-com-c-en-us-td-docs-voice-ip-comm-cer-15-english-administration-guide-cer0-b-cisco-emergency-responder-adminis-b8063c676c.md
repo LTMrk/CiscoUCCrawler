@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-b8063c676c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_m_new-and-changed-information.html
-retrieved_at: 2026-08-21T15:01:45.724782+00:00
+retrieved_at: 2026-09-28T11:34:56.116655+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -94,3 +94,7 @@ Floppy Drive is replaced with CDROM for unattended installation.
 | Smart Receiver Transport | System Licensing Prerequisites |
 | March 28, 2024 | IPv6 Subnet Support for Release 15SU1 | Configure IPv4 Subnet Configure IPv6 Subnet (Applicable from Release 15SU1 Onwards) |
 | December 18, 2023 | Migration of All Applications to 64-Bit System | Cisco Emergency Responder and all applications have moved to a 64-biy architecture. Some of the affected areas are: Hardware and EXSi specifications for upgrades and migrations Upgrade Paths Floppy Drive is replaced with CDROM for unattended installation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

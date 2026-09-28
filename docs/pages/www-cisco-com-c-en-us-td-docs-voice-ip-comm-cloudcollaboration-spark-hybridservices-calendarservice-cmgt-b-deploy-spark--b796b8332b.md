@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--b796b8332b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01011.html
-retrieved_at: 2026-08-20T23:54:15.238886+00:00
+retrieved_at: 2026-09-28T11:39:23.879216+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -138,3 +138,7 @@ Solution Check the resource calendar for the device, and see if it has accepted 
 | Step 3 | Click Roll back to reject the currently installed version, and replace it with the Target version . The page displays the formerly installed version number in the Rejected version field, which means that the will not allow that version to install itself in future. If you click Back to connector list , you can see the previous version is now running. An alarm is raised because you rejected an upgrade. You can safely ignore
                                           that alarm; it appears because of your choice, and it is lowered when a newer version is installed. When a newer version is available on Webex , the automatic upgrade resumes. |
 | Step 4 | To reverse your decision and accept the Rejected version , click Allow this upgrade . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

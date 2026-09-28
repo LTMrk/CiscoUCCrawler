@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-85b524ad27
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0100.html
-retrieved_at: 2026-08-21T06:38:27.408546+00:00
+retrieved_at: 2026-09-28T11:33:43.320327+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -7743,3 +7743,8 @@ Teleworkers
 
 | Note | From Release 15SU1 onwards, IP subnet based tracking is supported for IPv4 endpoints (IP Phones). |
 |---|---|
+
+## Figuras
+
+![Figure 1. IPv6
+                                 			 Endpoints](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393529.eps/_jcr_content/renditions/393529.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-ameritech-user-guide-user-ame-aftintro-html-7187ace0e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_ameritech/user/guide/user_ame/AFTintro.html
-retrieved_at: 2026-08-21T15:50:50.256054+00:00
+retrieved_at: 2026-09-28T11:37:13.671501+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Ameritech
@@ -150,3 +150,7 @@ Public safety answering point. This is the organization that receives emergency 
 | MSAG | Master street address guide. A database listing of all valid street address ranges within a community, the contents of which is typically managed by a local government organization. The MSAG database service can be managed by a local government organization, an incumbent local exchange carrier, or by a database service provider (often the same as the ALI database service provider). |
 | NENA | National Emergency Number Association. The organization that recommends data and file formats for ALI definitions and other emergency call requirements in the United States. Emergency Responder uses the NENA formats for ALI data export files. Your service provider might have additional restrictions on data format, so ensure that your ALI entries abide by your service provider's rules. |
 | PSAP | Public safety answering point. This is the organization that receives emergency calls, for example, the 911 operator. The PSAP is staffed by people trained in handling emergency calls. The PSAP talks to the emergency caller and notifies the appropriate public service organizations (such as police, fire, or ambulance) of the emergency and its location. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

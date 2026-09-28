@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su3-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-990f633744
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU3.html
-retrieved_at: 2026-08-21T06:39:35.687037+00:00
+retrieved_at: 2026-09-28T11:32:43.315013+00:00
 ---
 
 Cisco Emergency Responder Version 14SU3a Release Notes
@@ -3315,3 +3315,7 @@ Smart license registration fails for proxy transport setting
 | CSCwd18058 | Customer is not able to hear onsite audio prompt if CTI port have multiple lines |
 | CSCwc41268 | utils diagnose test output stuck at "test - tomcat " |
 | CSCwc85872 | Smart license registration fails for proxy transport setting |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

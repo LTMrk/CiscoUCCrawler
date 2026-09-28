@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-ameritech-user-guide-user-ame-afterror-html-8a8aa35b2f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_ameritech/user/guide/user_ame/AFTerror.html
-retrieved_at: 2026-08-21T15:51:02.971577+00:00
+retrieved_at: 2026-09-28T11:37:05.437427+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Ameritech
@@ -121,3 +121,7 @@ Related Topics
 • Collecting Error and Trace Messages
 
 • Troubleshooting AFT Problems
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

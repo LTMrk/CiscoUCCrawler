@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-7e1dac2c43
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0110.html
-retrieved_at: 2026-08-20T23:52:09.664710+00:00
+retrieved_at: 2026-09-28T11:31:54.494815+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -836,3 +836,7 @@ Click Download
                                           				File to refresh the log file you are viewing. |
 | Step 5 | Click Download
                                           				Log to download the log file you are viewing. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

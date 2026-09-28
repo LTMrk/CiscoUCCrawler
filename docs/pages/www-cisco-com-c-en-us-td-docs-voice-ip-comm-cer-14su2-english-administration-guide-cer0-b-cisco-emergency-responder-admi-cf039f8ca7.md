@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-cf039f8ca7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_01000.html
-retrieved_at: 2026-08-20T23:52:18.393525+00:00
+retrieved_at: 2026-09-28T11:31:26.151306+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -1548,3 +1548,7 @@ Displays the tape identification information.
                                              						show_registration | Displays the currently configured registration. |
 | utils disaster_recovery
                                              						show_tapeid | Displays the tape identification information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--7a4d3f8b62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01100.html
-retrieved_at: 2026-08-20T23:54:18.665893+00:00
+retrieved_at: 2026-09-28T11:39:27.639351+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -73,3 +73,7 @@ calendar connector integrates Webex with Microsoft Exchange 2013, 2016, 2019 or 
 The Exchange impersonation account is Microsoft's recommended method for this task . Expressway-C administrators don't need to know the password, because the value can be entered in the Expressway-C interface by an Exchange administrator. The password isn't clearly shown, even if the Expressway-C administrator has root access to the Expressway-C box. The password is stored encrypted using the same credential encryption mechanism as other passwords on the Expressway-C .
 
 For additional security, follow the steps in Deploy Expressway calendar connector for Microsoft Exchange to enable TLS in order to secure EWS connections on the wire.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

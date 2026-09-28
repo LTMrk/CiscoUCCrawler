@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-pacbell-user-guide-user-sbc-aftinstall-html-fd0d4e5c62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_pacbell/user/guide/user_sbc/AFTinstall.html
-retrieved_at: 2026-08-21T15:51:24.022536+00:00
+retrieved_at: 2026-09-28T11:37:46.973911+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Pacific Bell
@@ -111,3 +111,7 @@ Related Topics
 • System Requirements
 
 • "Using the ALI Formatting Tool"
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

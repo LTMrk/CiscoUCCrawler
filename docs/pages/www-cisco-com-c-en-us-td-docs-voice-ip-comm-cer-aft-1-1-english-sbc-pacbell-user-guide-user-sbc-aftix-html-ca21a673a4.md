@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-pacbell-user-guide-user-sbc-aftix-html-ca21a673a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_pacbell/user/guide/user_sbc/AFTIX.html
-retrieved_at: 2026-08-21T15:51:40.977619+00:00
+retrieved_at: 2026-09-28T11:37:35.702252+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Pacific Bell
@@ -103,3 +103,7 @@ U
 undoing a record change 3-4
 
 ### Let Us Help
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

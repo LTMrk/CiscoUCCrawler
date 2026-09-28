@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--3f8e0d1778
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_appendix_01010.html
-retrieved_at: 2026-08-20T22:17:08.354376+00:00
+retrieved_at: 2026-09-28T11:39:19.390368+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -305,6 +305,6 @@ You cannot customize the meeting details template that is used for meetings sche
 
 For issues involving the Join button and meetings list in the Webex app, see the Known Issues for Cisco Webex Meetings article.
 
-### Customers Also Viewed
+## Figuras
 
-- Troubleshooting Guide for Cisco Webex Hybrid Call Service Connect
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-cc36f7e032
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_appendix_010000.html
-retrieved_at: 2026-08-21T15:02:59.893729+00:00
+retrieved_at: 2026-09-28T11:33:03.462161+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -1772,3 +1772,7 @@ View or
 | SLM
                                                 						  Logs > TP | View or
                                           					 download TP log files. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

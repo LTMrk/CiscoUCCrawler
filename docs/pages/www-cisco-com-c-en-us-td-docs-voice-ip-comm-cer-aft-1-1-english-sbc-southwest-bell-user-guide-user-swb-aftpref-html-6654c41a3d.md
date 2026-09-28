@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-southwest-bell-user-guide-user-swb-aftpref-html-6654c41a3d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_southwest_bell/user/guide/user_swb/AFTpref.html
-retrieved_at: 2026-08-21T15:49:47.839515+00:00
+retrieved_at: 2026-09-28T11:38:29.375707+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Southwestern Bell
@@ -235,3 +235,7 @@ Before calling, please check with your network operations center to determine th
 | boldface screen font | Information you must enter is in boldface screen font. |
 | italic screen font | Arguments for which you supply values are in italic screen font. |
 | Action > Reports | Command paths in a graphical user interface (GUI). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-off-premises-user-guide-cer0-b-cisco-emergency-responder-off--1228d78b92
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/off-premises_user/guide/cer0_b_cisco-emergency-responder-off-premise-guide-15/cer0_b_cisco-emergency-responder-off-premise-guide-1251SU2_chapter_00.html
-retrieved_at: 2026-08-21T15:27:53.698459+00:00
+retrieved_at: 2026-09-28T11:35:28.018933+00:00
 ---
 
 Cisco Emergency Responder Off-Premise Location Management User Guide Release 15 and SUs
@@ -148,3 +148,7 @@ Scrolls
                                           					 one screen. |
 | Page Down | Scrolls
                                           					 down one screen. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

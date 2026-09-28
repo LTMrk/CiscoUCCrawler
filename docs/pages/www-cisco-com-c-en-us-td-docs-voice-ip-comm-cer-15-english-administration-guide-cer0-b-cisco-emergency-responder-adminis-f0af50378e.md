@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-f0af50378e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_010111.html
-retrieved_at: 2026-08-21T15:02:20.296997+00:00
+retrieved_at: 2026-09-28T11:34:07.546044+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -379,3 +379,7 @@ Emergency call Details Caller Extension:7975 Display Name :Test Phone Zone/ERL :
 | Step 8 | Click the radio button next to the ERL that you want to assign to the subnet and click Select ERL . The Find ERL page closes. |
 | Step 9 | Click Insert to add the subnet. A pop-up message requests that you perform a switch port update. You can do this after all the IP subnets have been added. |
 | Step 10 | To revert back to the last saved settings, click Cancel Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

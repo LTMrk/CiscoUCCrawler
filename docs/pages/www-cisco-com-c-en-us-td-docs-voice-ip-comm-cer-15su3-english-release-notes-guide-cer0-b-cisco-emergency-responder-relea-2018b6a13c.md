@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15su3-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-2018b6a13c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su3/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU3.html
-retrieved_at: 2026-08-21T06:38:55.830925+00:00
+retrieved_at: 2026-09-28T11:36:11.562228+00:00
 ---
 
 Cisco Emergency Responder Version 15SU3 Release Notes
@@ -3451,3 +3451,7 @@ DRF service is unavailable after reimaging the subscriber alone
 | CSCwo25073 | (CER) Smart License Registration failing with SSM On-Prem |
 | CSCwn44942 | Duplicate ERL causing ERL details page to load up blank |
 | CSCwm53810 | DRF service is unavailable after reimaging the subscriber alone |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

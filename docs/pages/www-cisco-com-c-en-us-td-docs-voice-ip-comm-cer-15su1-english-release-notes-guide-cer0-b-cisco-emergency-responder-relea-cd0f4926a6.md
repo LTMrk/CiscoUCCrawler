@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15su1-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-cd0f4926a6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15su1/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-15SU1.html
-retrieved_at: 2026-08-21T06:39:25.376639+00:00
+retrieved_at: 2026-09-28T11:36:03.485228+00:00
 ---
 
 Cisco Emergency Responder Version 15SU1a Release Notes
@@ -3360,3 +3360,7 @@ Telephony Setting Use IP Address from Call Signaling is not taking affect in CER
 | CSCwj89638 | 911 calls matches default ERL after introduction of IPV6 subnet tracking feature |
 | CSCwk02122 | 911 call from IPv6 Only device is routing through default ERL when using IP Subnet Tracking |
 | CSCwk09485 | Telephony Setting Use IP Address from Call Signaling is not taking affect in CER for some cases |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

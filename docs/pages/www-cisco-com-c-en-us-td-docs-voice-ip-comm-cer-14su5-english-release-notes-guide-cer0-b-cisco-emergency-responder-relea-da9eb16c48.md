@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su5-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-da9eb16c48
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su5/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU5.html
-retrieved_at: 2026-08-21T06:38:50.847490+00:00
+retrieved_at: 2026-09-28T11:32:51.436095+00:00
 ---
 
 Cisco Emergency Responder Version 14SU5 Release Notes
@@ -3226,3 +3226,7 @@ Duplicate ERL causing ERL details page to load up blank
 | CSCwn93353 | CER Access Point search view stuck in (locations tables being modified, Please wait) admin exception |
 | CSCwo25073 | (CER) Smart License Registration failing with SSM On-Prem |
 | CSCwn44942 | Duplicate ERL causing ERL details page to load up blank |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

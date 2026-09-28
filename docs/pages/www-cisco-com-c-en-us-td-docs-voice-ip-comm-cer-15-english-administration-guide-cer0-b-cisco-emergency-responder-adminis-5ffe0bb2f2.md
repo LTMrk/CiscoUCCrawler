@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-5ffe0bb2f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_01001.html
-retrieved_at: 2026-08-21T15:02:08.003602+00:00
+retrieved_at: 2026-09-28T11:33:51.237996+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -957,3 +957,7 @@ Solution : Run the Major discovery after sometime.
 | Note | Before you connect Emergency Responder with any Unified Communications Manager version lower than Release 15SU2, ensure that
                                           Emergency Responder is configured with the minimum TLS version 1.2. TLS 1.3 is offered from Release 15SU2 onwards. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Basic Deployment of Enhanced Location Tracking](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394042.eps/_jcr_content/renditions/394042.jpg)

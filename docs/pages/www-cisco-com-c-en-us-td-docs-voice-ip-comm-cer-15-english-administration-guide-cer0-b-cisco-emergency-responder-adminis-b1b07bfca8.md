@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-b1b07bfca8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0111.html
-retrieved_at: 2026-08-21T06:38:32.338361+00:00
+retrieved_at: 2026-09-28T11:34:29.579658+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -3063,3 +3063,11 @@ In this code, heading.heading.color is the branding property that you
 | 15 | Emergency Responder Administration text heading | splash.header.color |
 | 16 | System
                                              					 Version | splash.version.color |
+
+## Figuras
+
+![Figure 1. Branding
+                                       				Options for Cisco ER Administration Login Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393452.tif/_jcr_content/renditions/393452.jpg)
+
+![Figure 2. Branding
+                                       				Options for Cisco ER Administration Logged In Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393451.tif/_jcr_content/renditions/393451.jpg)

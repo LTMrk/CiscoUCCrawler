@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-pacbell-user-guide-user-sbc-pb-html-692061c292
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_pacbell/user/guide/user_sbc/PB.html
-retrieved_at: 2026-08-21T15:51:36.714013+00:00
+retrieved_at: 2026-09-28T11:38:04.126040+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Pacific Bell
@@ -61,3 +61,7 @@ Cisco Emergency  Responder initially generates ALI records with a function cod
 When Cisco ER generates the ALI record the second time after you make the change, it sets the Function Code to C because it assumes that the first file was accepted. Use AFT to change the Function Code for ELIN records from C to I.
 
 Then, generate the format using AFT, and send the reformatted file to PacBell.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

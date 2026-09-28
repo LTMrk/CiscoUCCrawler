@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su4-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-36ac5ba1b5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su4/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU4.html
-retrieved_at: 2026-08-21T06:39:30.649564+00:00
+retrieved_at: 2026-09-28T11:32:47.578802+00:00
 ---
 
 Cisco Emergency Responder Version 14SU4 Release Notes
@@ -3364,3 +3364,7 @@ HTTP Headers Missing SameSite=Strict in Emergency Responder
 | CSCwf99494 | Validate_Network Module in Diagnose tool throws error after upgrade to 14 SU3 |
 | CSCwi70220 | Repeated debug log lines printing in cer logs |
 | CSCwe04145 | HTTP Headers Missing SameSite=Strict in Emergency Responder |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

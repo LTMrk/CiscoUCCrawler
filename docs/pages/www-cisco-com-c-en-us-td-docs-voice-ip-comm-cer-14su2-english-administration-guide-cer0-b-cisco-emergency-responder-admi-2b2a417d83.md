@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-administration-guide-cer0-b-cisco-emergency-responder-admi-2b2a417d83
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-14su2/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_0101.html
-retrieved_at: 2026-08-20T23:52:05.397272+00:00
+retrieved_at: 2026-09-28T11:31:33.879203+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 14 and SUs
@@ -531,3 +531,9 @@ Click Update to change the schedule on the list of
 | Step 4 | Check the Enable Schedule check box to activate this schedule. |
 | Step 5 | Click Update to change the schedule on the list of
                                        			 schedules. |
+
+## Figuras
+
+![Figure 1. Understanding the Interactions Between Users, Emergency Responder, and National E911 Service Provider](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/466001-467000/466124.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

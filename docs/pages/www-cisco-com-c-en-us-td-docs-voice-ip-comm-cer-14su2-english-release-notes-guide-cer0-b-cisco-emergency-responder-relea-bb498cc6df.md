@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-14su2-english-release-notes-guide-cer0-b-cisco-emergency-responder-relea-bb498cc6df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/14su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-14SU2.html
-retrieved_at: 2026-08-21T06:39:40.529035+00:00
+retrieved_at: 2026-09-28T11:32:39.321263+00:00
 ---
 
 Cisco Emergency Responder Version 14SU2 Release Notes
@@ -3341,3 +3341,7 @@ QuoVadis root CA decommission on Cisco Emergency Responder
 | CSCwb21404 | Backup CTI Manager 1&2 character limitation for table backupprovider |
 | CSCvy52346 | CER failover fails by one round of iteration while fetching subscriber node |
 | CSCvx00538 | QuoVadis root CA decommission on Cisco Emergency Responder |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

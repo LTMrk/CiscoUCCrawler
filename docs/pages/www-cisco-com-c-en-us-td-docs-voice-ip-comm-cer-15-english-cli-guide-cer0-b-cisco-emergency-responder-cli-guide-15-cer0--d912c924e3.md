@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-15-cer0--d912c924e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-15/cer0_m_new-and-changed-information.html
-retrieved_at: 2026-08-21T15:26:20.837825+00:00
+retrieved_at: 2026-09-28T11:35:19.512261+00:00
 ---
 
 Cisco Emergency Responder Command Line Interface Guide for Release 15 and SUs
@@ -110,3 +110,7 @@ show open
 | September 2024 | Updated the license smart call-home destination address TransportGateway command for Release 15SU2 | license smart call-home destination address TransportGateway GatewayURL |
 | December 18, 2023 | Updated the set account command | set account |
 | December 18, 2023 | Updated the show open command | show open |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

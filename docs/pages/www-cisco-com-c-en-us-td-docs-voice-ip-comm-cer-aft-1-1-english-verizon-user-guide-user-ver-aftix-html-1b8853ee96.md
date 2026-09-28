@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-verizon-user-guide-user-ver-aftix-html-1b8853ee96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/verizon/user/guide/user_ver/AFTIX.html
-retrieved_at: 2026-08-21T15:52:10.622737+00:00
+retrieved_at: 2026-09-28T11:38:46.127515+00:00
 ---
 
 ALI Formatting Tool User Guide for Verizon
@@ -91,3 +91,7 @@ troubleshooting 4-1
 U
 
 undoing a record change 3-4
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

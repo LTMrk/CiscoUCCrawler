@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-15-english-administration-guide-cer0-b-cisco-emergency-responder-adminis-5717d52749
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/15/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-15/cer0_b_cisco-emergency-responder-administration-guide-1401_chapter_011.html
-retrieved_at: 2026-08-21T07:53:39.021925+00:00
+retrieved_at: 2026-09-28T11:34:12.259405+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 15 and SUs
@@ -2325,3 +2325,8 @@ Repeat steps 9
 | Note | You may need
                                                       				  to use Find Phones or Find Route Points to select the desired devices. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Understanding Inter-Cisco Emergency Responder Group Route
+                                    			 Patterns](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346680.tif/_jcr_content/renditions/346680.jpg)

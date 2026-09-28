@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-aft-1-1-english-sbc-ameritech-user-guide-user-ame-amer-html-7cd31f2381
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/aft/1_1/english/sbc_ameritech/user/guide/user_ame/amer.html
-retrieved_at: 2026-08-21T15:51:07.114921+00:00
+retrieved_at: 2026-09-28T11:37:25.899067+00:00
 ---
 
 ALI Formatting Tool User Guide for SBC Ameritech
@@ -35,3 +35,9 @@ Cisco ER initially generates ALI records with a function code of I, for insert.
 When Cisco ER generates the ALI record the second time after you make the change, it sets the Function Code to C because it assumes that the first file was accepted. Use AFT to change the Function Code for ELIN records from C to I.
 
 Then, generate the format using AFT, and send the reformatted file to Ameritech.
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

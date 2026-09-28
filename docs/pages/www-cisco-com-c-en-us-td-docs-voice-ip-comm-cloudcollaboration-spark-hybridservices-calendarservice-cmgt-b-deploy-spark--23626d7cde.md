@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-calendarservice-cmgt-b-deploy-spark--23626d7cde
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/calendarservice/cmgt_b_deploy-spark-hybrid-calendar-service/cmgt_b_deploy-spark-hybrid-calendar-service_chapter_0100.html
-retrieved_at: 2026-08-20T23:54:06.735617+00:00
+retrieved_at: 2026-09-28T11:39:32.417418+00:00
 ---
 
 Deployment guide for Hybrid Calendar
@@ -771,3 +771,7 @@ Click Save .
 | Step 4 | Select the calendar provider. |
 | Step 5 | Enter the email address of the room mailbox. (For help locating this email address, see " Create and manage room mailboxes " on the Microsoft Docs website.) This is the email address that will be used to schedule meetings. |
 | Step 6 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
