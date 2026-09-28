@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su8-english-release-notes-guide-cer0-b-cisco-emergency-responder--28bec89b99
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su8.html
-retrieved_at: 2026-08-21T08:26:40.033629+00:00
+retrieved_at: 2026-09-28T11:15:55.887644+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU8b Release Notes
@@ -3227,3 +3227,7 @@ ALI Formatting tool GUI formatting issue
 | Identifier | Headline |
 |---|---|
 | CSCwe61617 | ALI Formatting tool GUI formatting issue |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

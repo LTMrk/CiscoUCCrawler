@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su8-english-administration-guide-cer0-b-cisco-emergency-responder-52ba809cc5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su8/cer0_b_cisco-emergency-responder-administration-guide-1251su3_appendix_010111.html
-retrieved_at: 2026-08-21T15:31:05.352027+00:00
+retrieved_at: 2026-09-28T11:14:30.652131+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 12.5(1)SU8b-SU9
@@ -663,3 +663,7 @@ DRS Master Agent port
 | TCP | TCP | 1099 |  |  | AMC | AMC RMI Registry port |
 | TCP | TCP | 1090 |  |  | AMC | AMC RMI Object port |
 | TCP | TCP | 4040 |  |  | CiscoDRFMaster | DRS Master Agent port |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su2-english-release-notes-guide-cer0-b-cisco-emergency-responder-v-35523d2dff
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su2/english/release_notes/guide/cer0_b_cisco-emergency-responder-version-1251su2.html
-retrieved_at: 2026-08-21T08:26:59.035867+00:00
+retrieved_at: 2026-09-28T11:17:55.172127+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU2 Release Notes
@@ -3103,3 +3103,7 @@ Subscribe to
 | CSCvq27914 | CER—Cisco ER User and Cisco ER Serviceability pages are inaccessible when SSO is enabled |
 | CSCvq81487 | Unable to restart the services in enforce mode |
 | CSCvr39563 | CER 12.5.1 upgrade administrative pages use Java Scripts that require internet access |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

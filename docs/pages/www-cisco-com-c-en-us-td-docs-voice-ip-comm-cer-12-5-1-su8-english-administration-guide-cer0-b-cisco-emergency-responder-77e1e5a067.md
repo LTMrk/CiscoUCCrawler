@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su8-english-administration-guide-cer0-b-cisco-emergency-responder-77e1e5a067
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su8/cer0_b_cisco-emergency-responder-administration-guide-1251su3_appendix_010010.html
-retrieved_at: 2026-08-21T15:30:45.100120+00:00
+retrieved_at: 2026-09-28T11:14:09.846904+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 12.5(1)SU8b-SU9
@@ -2505,3 +2505,7 @@ Deletes the remote access account information.
 | Passphrase | Displays the generated pass phrase. |
 | Decode Version | Indicates the version of the decoder in use. |
 | Delete button or icon | Deletes the remote access account information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

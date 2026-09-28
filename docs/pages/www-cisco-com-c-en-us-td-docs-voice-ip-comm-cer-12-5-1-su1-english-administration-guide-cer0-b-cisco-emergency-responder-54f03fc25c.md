@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-administration-guide-cer0-b-cisco-emergency-responder-54f03fc25c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU1/cer0_b_cisco-emergency-responder-administration-guide-1251SU1_chapter_01100.html
-retrieved_at: 2026-08-21T15:33:37.415492+00:00
+retrieved_at: 2026-09-28T11:11:17.922226+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU1
@@ -2795,3 +2795,7 @@ Snmp ifmib ifindex persist
 | Note | Execute the show run\| inc snmp ifmib command to check whether the snmp-server ifindex persist configuration is present in the Switch. If the ifIndex persist configuration
                                           exists, the output is displayed as: Snmp ifmib ifindex persist |
 |---|---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

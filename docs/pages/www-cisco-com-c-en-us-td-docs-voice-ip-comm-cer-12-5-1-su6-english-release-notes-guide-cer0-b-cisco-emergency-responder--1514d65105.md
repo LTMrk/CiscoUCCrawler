@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su6-english-release-notes-guide-cer0-b-cisco-emergency-responder--1514d65105
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su6/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251su6.html
-retrieved_at: 2026-08-21T06:39:10.449130+00:00
+retrieved_at: 2026-09-28T11:13:57.268462+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU6 Release Notes
@@ -3305,3 +3305,7 @@ License smart reservation return failed in CER after upgrade
 | CSCwa77818 | Branding file upload is failing in CER |
 | CSCwa18371 | Unable to add cucm in cer |
 | CSCvz80450 | License smart reservation return failed in CER after upgrade |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

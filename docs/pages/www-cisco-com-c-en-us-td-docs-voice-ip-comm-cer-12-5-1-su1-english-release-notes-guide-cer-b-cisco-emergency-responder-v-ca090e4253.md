@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-release-notes-guide-cer-b-cisco-emergency-responder-v-ca090e4253
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/release_notes/guide/cer_b_cisco-emergency-responder-version-1251su1.html
-retrieved_at: 2026-08-21T08:27:03.354671+00:00
+retrieved_at: 2026-09-28T11:12:00.602397+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1)SU1 Release Notes
@@ -2359,3 +2359,7 @@ Subscribe to
 | CSCvo90743 | CER 12.5 - When restarting server restart sequence not saved on system-history.log |
 | CSCvo88459 | Unable to add more than 6 IP addresses under CER SNMP V3 user |
 | CSCvo26409 | CER ALI info in ERL shouldn't allow to configure spaces and more than 8 characters in zip code field |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

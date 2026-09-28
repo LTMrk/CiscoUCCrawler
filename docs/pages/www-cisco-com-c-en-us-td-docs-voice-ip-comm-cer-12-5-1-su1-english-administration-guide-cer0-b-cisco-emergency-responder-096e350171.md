@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su1-english-administration-guide-cer0-b-cisco-emergency-responder-096e350171
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU1/cer0_b_cisco-emergency-responder-administration-guide-1251SU1_appendix_010011.html
-retrieved_at: 2026-08-21T15:34:08.649537+00:00
+retrieved_at: 2026-09-28T11:10:12.006499+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU1
@@ -579,3 +579,7 @@ When you use
 | TTY | Teletypewriter |
 | SI | Speech Impaired |
 | DD | Developmentally Disabled |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

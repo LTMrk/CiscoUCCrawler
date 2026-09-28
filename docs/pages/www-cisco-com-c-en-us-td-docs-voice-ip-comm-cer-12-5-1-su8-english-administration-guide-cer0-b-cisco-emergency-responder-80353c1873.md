@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-su8-english-administration-guide-cer0-b-cisco-emergency-responder-80353c1873
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1_su8/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251su8/cer0_b_cisco-emergency-responder-administration-guide-1251su3_appendix_010011.html
-retrieved_at: 2026-08-21T15:30:48.743131+00:00
+retrieved_at: 2026-09-28T11:14:13.652961+00:00
 ---
 
 Cisco Emergency Responder Administration Guide, Release 12.5(1)SU8b-SU9
@@ -846,3 +846,7 @@ Refreshes the information about the current restore operation.
 | Restore Details | The following information about the current restore operation is
                                           					 displayed: Tar Filename Backup Device Operation Percentage Complete Feature Server Component Status Result Start Time Log File |
 | Refresh button or icon | Refreshes the information about the current restore operation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

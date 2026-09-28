@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1a-english-release-notes-guide-cer0-b-cisco-emergency-responder-rel-7ad3234eb0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1a/english/release_notes/guide/cer0_b_cisco-emergency-responder-release-notes-1251a.html
-retrieved_at: 2026-08-21T08:27:07.852420+00:00
+retrieved_at: 2026-09-28T11:16:04.838203+00:00
 ---
 
 Cisco Emergency Responder Version 12.5(1a) Release Notes
@@ -2371,3 +2371,7 @@ Subscribe to
 | CSCvm19834 | CER won't allow host names with both a dash and period in SNMP |
 | CSCvm49766 | Command to keep the switch's "ifindex" from changing in a CER environment |
 | CSCvm07949 | Repeated email alerts on a core file on CER server |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

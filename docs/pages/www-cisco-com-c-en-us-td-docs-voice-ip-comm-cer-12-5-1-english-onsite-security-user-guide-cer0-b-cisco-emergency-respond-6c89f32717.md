@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-english-onsite-security-user-guide-cer0-b-cisco-emergency-respond-6c89f32717
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security/cer0_b_cisco-emergency-responder-onsite-security_chapter_01.html
-retrieved_at: 2026-08-21T15:29:09.599576+00:00
+retrieved_at: 2026-09-28T11:09:46.286935+00:00
 ---
 
 Cisco Emergency Responder Onsite Security Guide for Release 12.5(1)
@@ -1209,3 +1209,7 @@ This
                                              					 field that contains an Edit Link that allows you to enter comments about
                                              					 the call. See View History of Emergency Calls for details about entering
                                              					 comments. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

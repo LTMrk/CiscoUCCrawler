@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1su2-english-administration-guide-cer0-b-cisco-emergency-responder--c70aa68b1e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1su2/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251SU2/cer0_m_cer-administration-web-interface.html
-retrieved_at: 2026-08-21T15:49:09.421982+00:00
+retrieved_at: 2026-09-28T11:17:50.452971+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)SU2
@@ -10688,3 +10688,7 @@ Click View
                                                          						cannot run this test until the IdP metadata file is imported to the server, and
                                                          						the server metadata file is exported to the IdP server. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

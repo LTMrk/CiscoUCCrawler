@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-english-onsite-security-user-guide-cer0-b-cisco-emergency-respond-e86738c95e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/onsite_security_user/guide/cer0_b_cisco-emergency-responder-onsite-security/cer0_b_cisco-emergency-responder-onsite-security_chapter_00.html
-retrieved_at: 2026-08-21T15:29:05.047101+00:00
+retrieved_at: 2026-09-28T11:09:41.630898+00:00
 ---
 
 Cisco Emergency Responder Onsite Security Guide for Release 12.5(1)
@@ -142,3 +142,7 @@ Scrolls
                                           					 one screen. |
 | Page Down | Scrolls
                                           					 down one screen. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
