@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212084-troubleshoot-cisco-jabber-directory-sear-html-d6fa1eaa65
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html
-retrieved_at: 2026-08-21T07:06:23.086860+00:00
+retrieved_at: 2026-09-28T06:16:19.505643+00:00
 ---
 
 Troubleshoot Cisco Jabber Directory Search Problems
@@ -87,3 +87,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

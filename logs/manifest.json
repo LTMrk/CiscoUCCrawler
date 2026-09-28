@@ -13,10 +13,10 @@
     "https://developer.cisco.com/docs/axl-schema-reference/": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-docs-axl-schema-reference-9b0bc00eea",
-      "fail_count": 1,
+      "fail_count": 2,
       "first_seen": "2026-09-27T10:51:53.947636+00:00",
-      "last_seen": "2026-09-27T10:51:53.947656+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:08.736541+00:00",
+      "next_check": "2026-09-30T06:10:08.736545+00:00",
       "status": "failed",
       "unchanged_runs": 0
     },
@@ -28,10 +28,10 @@
       "first_seen": "2026-08-24T22:11:30.642220+00:00",
       "last_changed": "2026-08-24T22:11:30.642220+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:20:57 GMT",
-      "last_seen": "2026-09-15T10:39:12.165415+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:09.116118+00:00",
+      "next_check": "2026-10-28T06:10:09.116118+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/axl/archived-references/": {
       "content_sha": "d3e56035a576722b794b015857c41eaec1f4cc9e24de293d0166a8a42d4d36aa",
@@ -106,10 +106,10 @@
       "first_seen": "2026-08-24T22:11:34.938864+00:00",
       "last_changed": "2026-08-24T22:11:34.938864+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:00:00 GMT",
-      "last_seen": "2026-09-15T10:39:16.626594+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:13.161068+00:00",
+      "next_check": "2026-10-28T06:10:13.161068+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/cer-config/": {
       "content_sha": "03e3f57fe55bbaf0eed532a06a4f7dbd0f3c36148e9efbd6c583781d146281ff",
@@ -119,10 +119,10 @@
       "first_seen": "2026-08-24T22:11:38.922873+00:00",
       "last_changed": "2026-08-24T22:11:38.922873+00:00",
       "last_modified": "Mon, 08 Jun 2026 12:06:54 GMT",
-      "last_seen": "2026-09-15T10:39:20.936622+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:17.277528+00:00",
+      "next_check": "2026-10-28T06:10:17.277528+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/cer-config/user-management/": {
       "content_sha": "f1607c857d8f2fdb0fa1032df9700cc6d7368236af400ee805765d688f306da8",
@@ -145,10 +145,10 @@
       "first_seen": "2026-08-24T22:11:43.209440+00:00",
       "last_changed": "2026-08-24T22:11:43.209440+00:00",
       "last_modified": "Mon, 22 Jun 2026 21:20:06 GMT",
-      "last_seen": "2026-09-15T10:39:25.136107+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:21.619718+00:00",
+      "next_check": "2026-10-28T06:10:21.619718+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su1/user-management/": {
       "content_sha": "d91e8230a05c56d4a3dd34aee05185fa924bc9aa9680a9a879938456dbff649a",
@@ -171,10 +171,10 @@
       "first_seen": "2026-08-24T22:11:47.554524+00:00",
       "last_changed": "2026-08-24T22:11:47.554524+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:41:05 GMT",
-      "last_seen": "2026-09-15T10:39:29.580210+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:25.936245+00:00",
+      "next_check": "2026-10-28T06:10:25.936245+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su2/user-management/": {
       "content_sha": "d91e8230a05c56d4a3dd34aee05185fa924bc9aa9680a9a879938456dbff649a",
@@ -197,23 +197,23 @@
       "first_seen": "2026-08-24T22:11:52.064068+00:00",
       "last_changed": "2026-08-24T22:11:52.064068+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:47:25 GMT",
-      "last_seen": "2026-09-15T10:39:33.832864+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:29.960942+00:00",
+      "next_check": "2026-10-28T06:10:29.960942+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/contact-center-express/": {
       "content_sha": "da4b03fc7ae0d13b3314f264c6c5872b49ad069e491d029cb6b297ddee471984",
       "doc_id": "developer-cisco-com-docs-contact-center-express-10617c8a2d",
-      "etag": "W/\"55966cac72464948c4316e5849cf7de4\"",
+      "etag": "W/\"9c0d1361f257fcf9ad57f9607330f1eb\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:11:56.672911+00:00",
       "last_changed": "2026-08-24T22:11:56.672911+00:00",
-      "last_modified": "Wed, 12 Aug 2026 00:10:53 GMT",
-      "last_seen": "2026-09-15T10:39:38.083064+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Thu, 17 Sep 2026 00:01:22 GMT",
+      "last_seen": "2026-09-28T06:10:37.889682+00:00",
+      "next_check": "2026-10-28T06:10:37.889682+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/contact-center-express/agent-state-masks/": {
       "content_sha": "428ae146671a778bc1366563e1810f61f4e7fe9796e15e5136781b676ebd8990",
@@ -522,10 +522,10 @@
       "first_seen": "2026-08-24T22:12:01.013701+00:00",
       "last_changed": "2026-08-24T22:12:01.013701+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:04:30 GMT",
-      "last_seen": "2026-09-15T10:39:42.036345+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:38.418085+00:00",
+      "next_check": "2026-10-28T06:10:38.418085+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/enterprise-chat-and-email/": {
       "content_sha": "c0a5b273edc217f064d3addd542d3321e2eb9a65d9ad12dc951f07378de920b8",
@@ -535,10 +535,10 @@
       "first_seen": "2026-08-24T22:12:05.301970+00:00",
       "last_changed": "2026-08-24T22:12:05.301970+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:13:42 GMT",
-      "last_seen": "2026-09-15T10:39:46.205613+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:42.550361+00:00",
+      "next_check": "2026-10-28T06:10:42.550361+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/enterprise-icm-vru-interface-specification/": {
       "content_sha": "f29864ed161131194223ebb3ce10644c2e95cff2fc6a255d595cc491a88d880a",
@@ -548,10 +548,10 @@
       "first_seen": "2026-08-24T22:12:09.588326+00:00",
       "last_changed": "2026-08-24T22:12:09.588326+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:43:52 GMT",
-      "last_seen": "2026-09-15T10:39:50.575857+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:46.814278+00:00",
+      "next_check": "2026-10-28T06:10:46.814278+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/extension-mobility-api/": {
       "content_sha": "0a8125f9bfba8ab08bfc3ca1b0da85ef92a1d2186a40d37812651a5ee64b9a93",
@@ -561,10 +561,10 @@
       "first_seen": "2026-08-24T22:12:13.892573+00:00",
       "last_changed": "2026-08-24T22:12:13.892573+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:27:06 GMT",
-      "last_seen": "2026-09-15T10:39:54.763710+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:50.890023+00:00",
+      "next_check": "2026-10-28T06:10:50.890023+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/finesse/": {
       "content_sha": "d784961a9ecabb16a6c7c7e9bbd2b1d23528848bccf5e6977e1f06ccb85a34b5",
@@ -574,10 +574,10 @@
       "first_seen": "2026-08-24T22:12:18.275177+00:00",
       "last_changed": "2026-08-24T22:12:18.275177+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:59:31 GMT",
-      "last_seen": "2026-09-15T10:39:59.021608+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:55.185707+00:00",
+      "next_check": "2026-10-28T06:10:55.185707+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/finesse/about-cisco-finesse-notifications/": {
       "content_sha": "3509553b16e4619e3e6826ccc58aa9e8691692cfebf9adc6aa7172d5f57b0fc6",
@@ -899,10 +899,10 @@
       "first_seen": "2026-08-24T22:12:22.913250+00:00",
       "last_changed": "2026-08-24T22:12:22.913250+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:01:36 GMT",
-      "last_seen": "2026-09-15T10:40:03.357062+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:10:59.569017+00:00",
+      "next_check": "2026-10-28T06:10:59.569017+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/ios-xe-voip/global-sip-configurations/": {
       "content_sha": "119d38a038350f18a33e0ad43d0579f11761fcb656e15fdf46167f2d26efbffb",
@@ -964,10 +964,10 @@
       "first_seen": "2026-08-24T22:12:27.270796+00:00",
       "last_changed": "2026-08-24T22:12:27.270796+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:54:00 GMT",
-      "last_seen": "2026-09-15T10:40:07.648655+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:03.526054+00:00",
+      "next_check": "2026-10-28T06:11:03.526054+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/multiplatform-phones/": {
       "content_sha": "c863a030490a6e35c85d712f5902791baee98048f3814e198767bb5931b093c0",
@@ -977,23 +977,23 @@
       "first_seen": "2026-08-24T22:12:31.568703+00:00",
       "last_changed": "2026-08-24T22:12:31.568703+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:49:15 GMT",
-      "last_seen": "2026-09-15T10:40:11.805788+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:07.835036+00:00",
+      "next_check": "2026-10-28T06:11:07.835036+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/packaged-contact-center/": {
       "content_sha": "7eda407f9a493e7b356effcd28fdd9d6ba1a850a5769bbf145032c9459f941be",
       "doc_id": "developer-cisco-com-docs-packaged-contact-center-2a5fed015d",
-      "etag": "W/\"99768b8c2f3f70fda8a84aac87067b60\"",
+      "etag": "W/\"6b5a5c000ffdcaefd710c5b226c192ed\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:12:36.007901+00:00",
       "last_changed": "2026-08-24T22:12:36.007901+00:00",
-      "last_modified": "Tue, 04 Aug 2026 05:33:08 GMT",
-      "last_seen": "2026-09-15T10:40:15.820166+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Fri, 18 Sep 2026 03:33:52 GMT",
+      "last_seen": "2026-09-28T06:11:15.255186+00:00",
+      "next_check": "2026-10-28T06:11:15.255186+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/packaged-contact-center/sandbox/": {
       "content_sha": "4e872f592899f4194ef01547b6e047f37332807901c1f5121161b9f0dcbf2f74",
@@ -1022,10 +1022,10 @@
       "doc_id": "developer-cisco-com-docs-sxml-898c1468cc",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:51:58.232186+00:00",
-      "last_seen": "2026-09-27T10:51:58.232186+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:25.438463+00:00",
+      "next_check": "2026-10-02T06:11:25.438463+00:00",
       "status": "discovery",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/docs/task-routing/": {
       "content_sha": "969e63687b97da7539bd22cedd1878fb13e8f0dc7d2a64522dec84a99b6b1235",
@@ -1035,10 +1035,10 @@
       "first_seen": "2026-08-24T22:12:44.569453+00:00",
       "last_changed": "2026-08-24T22:12:44.569453+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:36:35 GMT",
-      "last_seen": "2026-09-15T10:40:24.184882+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:25.667381+00:00",
+      "next_check": "2026-10-28T06:11:25.667381+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/task-routing/creating-script-selector/": {
       "content_sha": "9a7d27ee95d118ea2c5705e877af394f842307ec018697329355f0d1c00967cf",
@@ -1100,10 +1100,10 @@
       "first_seen": "2026-08-24T22:12:49.438336+00:00",
       "last_changed": "2026-08-24T22:12:49.438336+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:18:39 GMT",
-      "last_seen": "2026-09-15T10:40:28.539286+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:29.995416+00:00",
+      "next_check": "2026-10-28T06:11:29.995416+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webdialer-docs/": {
       "content_sha": "92beb7281ffbf890ceed1f699598739335bc8116cdb94901977a0f7405506447",
@@ -1113,10 +1113,10 @@
       "first_seen": "2026-08-24T22:12:53.680653+00:00",
       "last_changed": "2026-08-24T22:12:53.680653+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:36:37 GMT",
-      "last_seen": "2026-09-15T10:40:32.792662+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:34.012452+00:00",
+      "next_check": "2026-10-28T06:11:34.012452+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webdialer/": {
       "content_sha": "3b3a4975c5fb58f987763c77f5bafa67ab0695c069c35b68d8d8fd1dd11d7728",
@@ -1126,10 +1126,10 @@
       "first_seen": "2026-08-24T22:13:01.326815+00:00",
       "last_changed": "2026-08-24T22:13:01.326815+00:00",
       "last_modified": "Mon, 03 Aug 2026 06:11:08 GMT",
-      "last_seen": "2026-09-15T10:40:36.973425+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:38.226453+00:00",
+      "next_check": "2026-10-28T06:11:38.226453+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webdialer/webdialer-developer-guide/": {
       "content_sha": "3b3a4975c5fb58f987763c77f5bafa67ab0695c069c35b68d8d8fd1dd11d7728",
@@ -1152,10 +1152,10 @@
       "first_seen": "2026-08-24T22:13:05.551074+00:00",
       "last_changed": "2026-08-24T22:13:05.551074+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:08:58 GMT",
-      "last_seen": "2026-09-15T10:40:41.257758+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:42.459668+00:00",
+      "next_check": "2026-10-28T06:11:42.459668+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webex-connect-partner-resources/": {
       "content_sha": "c45ad7732c0413613b1730b8c9441ae862945b91d3a45db7fe45479fd03e0a94",
@@ -1165,23 +1165,23 @@
       "first_seen": "2026-08-24T22:13:09.817084+00:00",
       "last_changed": "2026-08-24T22:13:09.817084+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:14:54 GMT",
-      "last_seen": "2026-09-15T10:40:45.421708+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:46.782402+00:00",
+      "next_check": "2026-10-28T06:11:46.782402+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webex-meetings/": {
-      "content_sha": "72837a9287172e013d1e07d980d4e51e16bdb3f7f6a8db57fdcc816d584374f4",
+      "content_sha": "04d8ea516fb1bd63fbff8b43dd7c0968cd66a4abf0d14ef8d1104304c4c80dfe",
       "doc_id": "developer-cisco-com-docs-webex-meetings-6ed8fbfee5",
-      "etag": "W/\"b8fc7094a28c4a57f097f4309d00e905\"",
+      "etag": "W/\"7bb57ce48e6707c035436ba4c5f4950d\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:13.748850+00:00",
-      "last_changed": "2026-08-24T22:13:13.748850+00:00",
-      "last_modified": "Mon, 14 Sep 2026 06:07:17 GMT",
-      "last_seen": "2026-09-15T10:40:53.956631+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_changed": "2026-09-28T06:11:53.999920+00:00",
+      "last_modified": "Sun, 27 Sep 2026 20:36:39 GMT",
+      "last_seen": "2026-09-28T06:11:53.999920+00:00",
+      "next_check": "2026-09-29T06:11:53.999920+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/docs/webex-xml-api-reference-guide/": {
       "content_sha": "895e61f59f17c5a69a25458a92d007daad7779a0624911734345b8d3d73fd0d3",
@@ -1191,10 +1191,10 @@
       "first_seen": "2026-08-24T22:13:18.269839+00:00",
       "last_changed": "2026-08-24T22:13:18.269839+00:00",
       "last_modified": "Sun, 13 Sep 2026 23:27:57 GMT",
-      "last_seen": "2026-09-15T10:40:59.672386+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:11:55.529828+00:00",
+      "next_check": "2026-10-28T06:11:55.529828+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/axl/": {
       "content_sha": "808fd76f3db7461a3120fd72eb6516bff9535b0afe2b46fbebf7401ea6e2e52f",
@@ -1204,10 +1204,10 @@
       "first_seen": "2026-08-24T22:13:22.268539+00:00",
       "last_changed": "2026-08-24T22:13:22.268539+00:00",
       "last_modified": "Sat, 05 Sep 2026 21:25:04 GMT",
-      "last_seen": "2026-09-15T10:41:00.532532+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:00.025880+00:00",
+      "next_check": "2026-10-28T06:12:00.025880+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/axl/documents/operations-by-release/": {
       "content_sha": null,
@@ -1241,10 +1241,10 @@
       "first_seen": "2026-08-24T22:13:27.049888+00:00",
       "last_changed": "2026-08-24T22:13:27.049888+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:33:44 GMT",
-      "last_seen": "2026-09-15T10:41:04.612546+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:03.943777+00:00",
+      "next_check": "2026-10-28T06:12:03.943777+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/cer/discover/overview/": {
       "content_sha": "96861bcdec6bad90eaeeff4e2eac423f10b9db489906a71d020fafa97c99113a",
@@ -1277,10 +1277,10 @@
       "doc_id": "developer-cisco-com-site-collaboration-dc6023804a",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:02.283422+00:00",
-      "last_seen": "2026-09-27T10:52:02.283422+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:17.616713+00:00",
+      "next_check": "2026-10-02T06:12:17.616713+00:00",
       "status": "discovery",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/index.gsp": {
       "content_sha": null,
@@ -1314,10 +1314,10 @@
       "first_seen": "2026-08-24T22:13:42.625038+00:00",
       "last_changed": "2026-08-24T22:13:42.625038+00:00",
       "last_modified": "Mon, 22 Jun 2026 23:29:46 GMT",
-      "last_seen": "2026-09-15T10:41:18.230682+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:17.942330+00:00",
+      "next_check": "2026-10-28T06:12:17.942330+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/cti-protocol/": {
       "content_sha": "f1c393a52c35777c6cff0bacaf56a73dc652741981a8e8d7ac25ce03ab2d685c",
@@ -1327,10 +1327,10 @@
       "first_seen": "2026-08-24T22:13:47.029099+00:00",
       "last_changed": "2026-08-24T22:13:47.029099+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:15:44 GMT",
-      "last_seen": "2026-09-15T10:41:22.299171+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:22.170078+00:00",
+      "next_check": "2026-10-28T06:12:22.170078+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/cti-protocol/documentation/": {
       "content_sha": "dbefefcf7c8f69163f2f642e0d42b8c6764bf0aea160a33ab48d86c82d2b6512",
@@ -1374,15 +1374,15 @@
     "https://developer.cisco.com/site/ctios/": {
       "content_sha": "26a903ae10d58f49fe85f9f86458d677bc84f0a8fb6abbf666c189a5a8fb3794",
       "doc_id": "developer-cisco-com-site-ctios-b4a836ccc3",
-      "etag": "W/\"bdd73c8e8a6f4058a9bd7d824040a8bc\"",
+      "etag": "W/\"82e08c2a567348aadfdddcb1712fd77c\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:51.428234+00:00",
       "last_changed": "2026-08-24T22:13:51.428234+00:00",
-      "last_modified": "Mon, 08 Jun 2026 21:39:49 GMT",
-      "last_seen": "2026-09-15T10:41:26.679212+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Sun, 27 Sep 2026 19:05:58 GMT",
+      "last_seen": "2026-09-28T06:12:36.449630+00:00",
+      "next_check": "2026-10-28T06:12:36.449630+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/ctios/documentation/": {
       "content_sha": "fb452d703cb53c91bdbb6d9d0bfdb5c596eaa225cfbd08f7ce6a882f519fa6ac",
@@ -1431,10 +1431,10 @@
       "first_seen": "2026-08-24T22:13:55.914694+00:00",
       "last_changed": "2026-08-24T22:13:55.914694+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:14:26 GMT",
-      "last_seen": "2026-09-15T10:41:30.769625+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:36.736777+00:00",
+      "next_check": "2026-10-28T06:12:36.736777+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/curri/develop-and-test/documentation/latest-version/": {
       "content_sha": "a21f1ca21344d050ed9332bc4721c6cc9093236690ab57465b60b3493b7e58d8",
@@ -2044,10 +2044,10 @@
       "first_seen": "2026-08-24T22:14:00.190257+00:00",
       "last_changed": "2026-08-24T22:14:00.190257+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:12:08 GMT",
-      "last_seen": "2026-09-15T10:41:35.193847+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:41.257230+00:00",
+      "next_check": "2026-10-28T06:12:41.257230+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/customer-voice-portal/documents/rest-api/": {
       "content_sha": null,
@@ -2105,23 +2105,23 @@
       "first_seen": "2026-08-24T22:14:04.504916+00:00",
       "last_changed": "2026-08-24T22:14:04.504916+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:35:53 GMT",
-      "last_seen": "2026-09-15T10:41:39.183347+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:45.170680+00:00",
+      "next_check": "2026-10-28T06:12:45.170680+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/extension-mobility/": {
       "content_sha": "3e02bdf8942ac6f4eb60ff5f780508ad6931ac3bdda592b474a55777d7cad030",
       "doc_id": "developer-cisco-com-site-extension-mobility-3a520765b1",
-      "etag": "W/\"c07b4b0725a4f14cfb417eed75f5561e\"",
+      "etag": "W/\"9167a20df6c728903331f3ddb7054634\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:14:08.938681+00:00",
       "last_changed": "2026-08-24T22:14:08.938681+00:00",
-      "last_modified": "Mon, 14 Sep 2026 09:16:12 GMT",
-      "last_seen": "2026-09-15T10:41:48.800973+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Sat, 26 Sep 2026 17:59:16 GMT",
+      "last_seen": "2026-09-28T06:12:59.338841+00:00",
+      "next_check": "2026-10-28T06:12:59.338841+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/extension-mobility/develop-and-test/documentation/latest-version/emapi-developer-guide.gsp": {
       "content_sha": null,
@@ -2272,10 +2272,10 @@
       "first_seen": "2026-08-24T22:14:13.381482+00:00",
       "last_changed": "2026-08-24T22:14:13.381482+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:54:20 GMT",
-      "last_seen": "2026-09-15T10:41:49.589774+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:12:59.586628+00:00",
+      "next_check": "2026-10-28T06:12:59.586628+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/hcs/": {
       "content_sha": null,
@@ -2487,15 +2487,15 @@
     "https://developer.cisco.com/site/im-and-presence/": {
       "content_sha": "bae9a2573f9574efd53006b2c2df03435a06743b7d14613057882fabdf3e6607",
       "doc_id": "developer-cisco-com-site-im-and-presence-89e6cd4263",
-      "etag": "W/\"0077ea78df9613fe293486811a36699f\"",
+      "etag": "W/\"bc1307b96e8620b20810f5d9bf39b095\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:14:22.478539+00:00",
       "last_changed": "2026-08-24T22:14:22.478539+00:00",
-      "last_modified": "Mon, 14 Sep 2026 08:00:20 GMT",
-      "last_seen": "2026-09-15T10:41:58.342838+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Sat, 26 Sep 2026 17:45:03 GMT",
+      "last_seen": "2026-09-28T06:13:07.436055+00:00",
+      "next_check": "2026-10-28T06:13:07.436055+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/caxl_overview/": {
       "content_sha": "48e0af867badf6da25758aef7e54d7e1f20b443eed3472a74cbbf1a04aacff76",
@@ -2661,10 +2661,10 @@
       "first_seen": "2026-08-24T22:14:26.873173+00:00",
       "last_changed": "2026-08-24T22:14:26.873173+00:00",
       "last_modified": "Wed, 26 Aug 2026 00:19:05 GMT",
-      "last_seen": "2026-09-15T10:41:59.134201+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:07.948157+00:00",
+      "next_check": "2026-10-28T06:13:07.948157+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/ip-phone-services/discover/getting-started/": {
       "content_sha": "21844a303e7ac1dc78602009d437ff878edcb4fab87fa5c3bfe982c4a6057799",
@@ -2735,10 +2735,10 @@
       "first_seen": "2026-08-24T22:14:31.371667+00:00",
       "last_changed": "2026-08-24T22:14:31.371667+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:03:34 GMT",
-      "last_seen": "2026-09-15T10:42:03.304568+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:12.240905+00:00",
+      "next_check": "2026-10-28T06:13:12.240905+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_0_2-10_6_8/": {
       "content_sha": "74714787920fd85b25d20f8c570aa5df3369d66af2041a2a0d08c5e07d3adee3",
@@ -3164,10 +3164,10 @@
       "first_seen": "2026-08-24T22:14:35.820973+00:00",
       "last_changed": "2026-08-24T22:14:35.820973+00:00",
       "last_modified": "Mon, 14 Sep 2026 06:00:50 GMT",
-      "last_seen": "2026-09-15T10:42:12.841963+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:16.545139+00:00",
+      "next_check": "2026-10-28T06:13:16.545139+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/jtapi/cti-tapi-jtapi-supported-device-matrix/": {
       "content_sha": "c908de26760de517912a839f263ce907fe966ed62eef6bb180f2e9d3a51a5557",
@@ -3306,10 +3306,10 @@
       "first_seen": "2026-08-24T22:14:40.017566+00:00",
       "last_changed": "2026-08-24T22:14:40.017566+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:45:28 GMT",
-      "last_seen": "2026-09-15T10:42:13.783678+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:20.203689+00:00",
+      "next_check": "2026-10-28T06:13:20.203689+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/packaged-contact-center/documentation/": {
       "content_sha": null,
@@ -3355,10 +3355,10 @@
       "first_seen": "2026-08-24T22:14:44.369098+00:00",
       "last_changed": "2026-08-24T22:14:44.369098+00:00",
       "last_modified": "Mon, 22 Jun 2026 21:59:28 GMT",
-      "last_seen": "2026-09-15T10:42:17.962958+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:24.503407+00:00",
+      "next_check": "2026-10-28T06:13:24.503407+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/paws/discover/getting-started/": {
       "content_sha": "c3df259913cdea300eeecb0429b97431ca84292ad0d783de20a38f26dd3eb088",
@@ -3521,10 +3521,10 @@
       "first_seen": "2026-08-24T22:15:01.367743+00:00",
       "last_changed": "2026-08-24T22:15:01.367743+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:08:23 GMT",
-      "last_seen": "2026-09-15T10:42:26.056721+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:28.317925+00:00",
+      "next_check": "2026-10-28T06:13:28.317925+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/sxml/discover/overview/": {
       "content_sha": "7543a4a1e40c038b93301afab0a580129320fbcb00a5bb4c2025550fa03b466a",
@@ -3672,15 +3672,15 @@
     "https://developer.cisco.com/site/tapi/": {
       "content_sha": "ef7f05776ec293d5fbb47279fd7a6bcfb633a0efc5c38456811dee22c189307a",
       "doc_id": "developer-cisco-com-site-tapi-45949e79fa",
-      "etag": "W/\"f1a54528e48a7f1931e8489269c033f7\"",
+      "etag": "W/\"4bfdacfbe284289b508ace457bfc6d1e\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:15:05.844473+00:00",
       "last_changed": "2026-08-24T22:15:05.844473+00:00",
-      "last_modified": "Mon, 14 Sep 2026 08:07:52 GMT",
-      "last_seen": "2026-09-15T10:42:35.294439+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Sat, 26 Sep 2026 17:45:03 GMT",
+      "last_seen": "2026-09-28T06:13:42.586323+00:00",
+      "next_check": "2026-10-28T06:13:42.586323+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/tapi/developer-guides/": {
       "content_sha": "b936c406a48ff30ed75c97a7980871c95dcaeab48b2a4291e5244087edd38bbd",
@@ -3755,10 +3755,10 @@
       "first_seen": "2026-08-24T22:15:10.087603+00:00",
       "last_changed": "2026-08-24T22:15:10.087603+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:53:13 GMT",
-      "last_seen": "2026-09-15T10:42:36.099156+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:42.627951+00:00",
+      "next_check": "2026-10-28T06:13:42.627951+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/uc-express-services/": {
       "content_sha": "af9b1d0ee01be1e22b9b84e72698db0f0470f9a2dde8530a89f2875ddebad4e1",
@@ -3768,10 +3768,10 @@
       "first_seen": "2026-08-24T22:15:14.611921+00:00",
       "last_changed": "2026-08-24T22:15:14.611921+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:29:15 GMT",
-      "last_seen": "2026-09-15T10:42:40.148485+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:47.156681+00:00",
+      "next_check": "2026-10-28T06:13:47.156681+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/uc-express-services/discover/overview/": {
       "content_sha": "f6d098e5fe32171e674b3c31d35a492cf54a86548daf8b048b8b0a3c5886c099",
@@ -3833,10 +3833,10 @@
       "first_seen": "2026-08-24T22:15:19.171920+00:00",
       "last_changed": "2026-08-24T22:15:19.171920+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:42:20 GMT",
-      "last_seen": "2026-09-15T10:42:44.421024+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:51.017100+00:00",
+      "next_check": "2026-10-28T06:13:51.017100+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/uc-gateway-services/discover/getting-started/": {
       "content_sha": "7f66c00caaa048c320b92a6d916434bf0fb45666ba7772cc3dc214f5da148946",
@@ -3872,10 +3872,10 @@
       "first_seen": "2026-08-24T22:15:23.717173+00:00",
       "last_changed": "2026-08-24T22:15:23.717173+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:19:17 GMT",
-      "last_seen": "2026-09-15T10:42:48.615815+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:55.068758+00:00",
+      "next_check": "2026-10-28T06:13:55.068758+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/uc-manager-sip/discover/getting-started/": {
       "content_sha": "380296f34d471cc8d21151805ea6b294981fa8190b581f1be3dc6808420b6694",
@@ -3923,10 +3923,10 @@
       "first_seen": "2026-08-24T22:15:28.411745+00:00",
       "last_changed": "2026-08-24T22:15:28.411745+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:26:22 GMT",
-      "last_seen": "2026-09-15T10:42:52.699913+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:13:59.530709+00:00",
+      "next_check": "2026-10-28T06:13:59.530709+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/unity-connection/overview/": {
       "content_sha": "824881370e72b5a6fae0bd1521f0cf3aadff46864cf9ebeaf59360bcf5b40f44",
@@ -3974,10 +3974,10 @@
       "first_seen": "2026-08-24T22:15:32.850320+00:00",
       "last_changed": "2026-08-24T22:15:32.850320+00:00",
       "last_modified": "Mon, 22 Jun 2026 16:31:36 GMT",
-      "last_seen": "2026-09-15T10:42:56.797862+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:14:03.516573+00:00",
+      "next_check": "2026-10-28T06:14:03.516573+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/user-data-services/community-and-support/faq/": {
       "content_sha": "44afe38200ae2c8684ccb1a537dcf3ce12bd8c619357ff575d5ea1e4643ff3a0",
@@ -4228,15 +4228,15 @@
     "https://developer.cisco.com/site/webdialer/": {
       "content_sha": "77238cf6a0ed7754c78a8b7ab0b61bdae3e6b8354723bade1ed21c6e74e55c48",
       "doc_id": "developer-cisco-com-site-webdialer-0c6a2d1506",
-      "etag": "W/\"687c0cc200021ea925a5ff4969d3ba3f\"",
+      "etag": "W/\"e44ece8966ea4dca8a9a805336e2e443\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:15:37.363799+00:00",
       "last_changed": "2026-08-24T22:15:37.363799+00:00",
-      "last_modified": "Mon, 14 Sep 2026 06:51:24 GMT",
-      "last_seen": "2026-09-15T10:43:06.275447+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_modified": "Sat, 26 Sep 2026 17:42:53 GMT",
+      "last_seen": "2026-09-28T06:14:17.731505+00:00",
+      "next_check": "2026-10-28T06:14:17.731505+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/developer-guide/": {
       "content_sha": "716dd362d0d4219da0f21286cc89f4b391ed1a55fec8b84954bd47084e581880",
@@ -4400,10 +4400,10 @@
       "first_seen": "2026-08-24T22:15:46.062640+00:00",
       "last_changed": "2026-08-24T22:15:46.062640+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:41:09 GMT",
-      "last_seen": "2026-09-15T10:43:07.075356+00:00",
-      "next_check": "2026-09-28T00:00:00+00:00",
+      "last_seen": "2026-09-28T06:14:17.965593+00:00",
+      "next_check": "2026-10-28T06:14:17.965593+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://help.webex.com/article/2r5gv7": {
       "content_sha": "b7fbb7377753dbda05545e0bfa0299fd4c996e41ef39f61656bd51093862103b",
@@ -11974,15 +11974,15 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html": {
-      "content_sha": "0f8c4007263f841c09908c2b3858e600d486373b1d62e89b88a6d8565e589b6d",
+      "content_sha": "9316fc3221555db316544104a5931833e29624c6a70151428edd50c4081b6068",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-125-214796-hcm-f-smartli-cc7179357a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-01T14:58:22.258432+00:00",
-      "last_changed": "2026-09-01T14:58:22.258432+00:00",
+      "last_changed": "2026-09-28T06:14:21.938183+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T14:58:22.258432+00:00",
-      "next_check": "2026-09-02T14:58:22.258432+00:00",
+      "last_seen": "2026-09-28T06:14:21.938183+00:00",
+      "next_check": "2026-09-29T06:14:21.938183+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -12066,17 +12066,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html": {
-      "content_sha": "49397e201996e39d8e7417ab7e82118feb7b43e9b36e1d7097799b3af60bfebd",
+      "content_sha": "5724994876cee4ca2da421186acc8bd7fbaa91b868a71211987356d167044283",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-android-201013-configure-jabber-for-android-to-register-812610ccb8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:36:16.178366+00:00",
-      "last_changed": "2026-08-21T12:36:16.178366+00:00",
+      "last_changed": "2026-09-28T06:14:26.093180+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:32:18.317118+00:00",
-      "next_check": "2026-09-11T14:32:18.317118+00:00",
+      "last_seen": "2026-09-28T06:14:26.093180+00:00",
+      "next_check": "2026-09-29T06:14:26.093180+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html": {
       "content_sha": "29383a6cbda81bbc556da3da99564c7ccf96532513c6f112c3a76287c62f8a68",
@@ -12086,140 +12086,140 @@
       "first_seen": "2026-08-21T12:33:58.365421+00:00",
       "last_changed": "2026-08-21T12:33:58.365421+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:31:55.952535+00:00",
-      "next_check": "2026-09-11T14:31:55.952535+00:00",
+      "last_seen": "2026-09-28T06:14:30.475726+00:00",
+      "next_check": "2026-10-06T06:14:30.475726+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html": {
-      "content_sha": "901652d612ee6df226957e0cdb5ef2fc46f2c5152e8379e378591638843be207",
+      "content_sha": "76403f7fbd1d015beb4861708cb11b73365893aea180b00c17bf869db8ff7f0c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-guest-221621-htz-01-2024-download-jabber-profile-pho-ht-d3404908ec",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:11.744380+00:00",
-      "last_changed": "2026-08-21T07:05:11.744380+00:00",
+      "last_changed": "2026-09-28T06:14:34.657720+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:15:49.545016+00:00",
-      "next_check": "2026-09-11T14:15:49.545016+00:00",
+      "last_seen": "2026-09-28T06:14:34.657720+00:00",
+      "next_check": "2026-09-29T06:14:34.657720+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.html": {
-      "content_sha": "984f61f12d49d96da760c4abd0614b9085c8aac048d5dcd85b3dcba8d546633e",
+      "content_sha": "172c744d92d4265439a3a6ac5cbe72651327911bfc859356fd4c27f24e1564dd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-iphone-213950-jabber-for-iphone-quick-start-guide-html-7c6db4f6a5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:52.970300+00:00",
-      "last_changed": "2026-08-21T07:00:52.970300+00:00",
+      "last_changed": "2026-09-28T06:14:39.286464+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:39:55.918251+00:00",
-      "next_check": "2026-09-11T14:39:55.918251+00:00",
+      "last_seen": "2026-09-28T06:14:39.286464+00:00",
+      "next_check": "2026-09-29T06:14:39.286464+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/116682-technote-jabber-00.html": {
-      "content_sha": "fb745a43c75375a4b54f12579358eb12662ad70e09e69b2f6b77823c10f6476f",
+      "content_sha": "2432043f2487cd6ced6661964958cf7439d8fb0bf38d7d328eb43613caa032ad",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-116682-technote-jabber-00-html-58b68684e9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:23.155412+00:00",
-      "last_changed": "2026-08-21T07:00:23.155412+00:00",
+      "last_changed": "2026-09-28T06:14:42.982042+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:26.398004+00:00",
-      "next_check": "2026-09-11T11:52:26.398004+00:00",
+      "last_seen": "2026-09-28T06:14:42.982042+00:00",
+      "next_check": "2026-09-29T06:14:42.982042+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html": {
-      "content_sha": "924695c464ace68534b55f818444b7ddb435d025ae7610dd02a8a4fc32c13285",
+      "content_sha": "552f2d5e941cd5e5f6f5985bed9aa56cc637b902a520fc682f6d907c2ad0ba2c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-213951-jabber-for-mac-quick-start-guide-html-c0f769df93",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:19.387597+00:00",
-      "last_changed": "2026-08-21T07:00:19.387597+00:00",
+      "last_changed": "2026-09-28T06:14:47.646121+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:51:55.996163+00:00",
-      "next_check": "2026-09-11T11:51:55.996163+00:00",
+      "last_seen": "2026-09-28T06:14:47.646121+00:00",
+      "next_check": "2026-09-29T06:14:47.646121+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html": {
-      "content_sha": "ed81e7ba5086edc759884eda85a3a4c9be77fa30e967ee805d3980d51b3366b3",
+      "content_sha": "17d2ee3cca125c4deed95dcdabbbaff612c2ad32117de9189d6b141764f103c1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-software-development-kit-217613-troubleshoot-jabber-12--8660edabb8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:58.033613+00:00",
-      "last_changed": "2026-08-21T07:05:58.033613+00:00",
+      "last_changed": "2026-09-28T06:14:51.667424+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:44.124586+00:00",
-      "next_check": "2026-09-11T14:16:44.124586+00:00",
+      "last_seen": "2026-09-28T06:14:51.667424+00:00",
+      "next_check": "2026-09-29T06:14:51.667424+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html": {
-      "content_sha": "f6ed2a21fc586c21abaf6e5575321584c316dc1b39f73722783c714cdbd0639e",
+      "content_sha": "e71d30983f0cb1bb29d5df9134485e7ad24061816e008ca73017246f6e15baa1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116433-probsol-jabber-00-html-db1f79ed22",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:37.679673+00:00",
-      "last_changed": "2026-08-21T06:59:37.679673+00:00",
+      "last_changed": "2026-09-28T06:14:55.722717+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:27.176382+00:00",
-      "next_check": "2026-09-05T21:16:27.176382+00:00",
+      "last_seen": "2026-09-28T06:14:55.722717+00:00",
+      "next_check": "2026-09-29T06:14:55.722717+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html": {
-      "content_sha": "193da4a98370c560f91ae20f58270684344220d0e236270a9c40428e5ce86d1e",
+      "content_sha": "2cdfc4a6519bc02aab447aed61ea79b94cf7088d181375b0bf2b27c59a210c46",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116446-technote-product-00-html-48e8741869",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:14.969403+00:00",
-      "last_changed": "2026-08-21T07:00:14.969403+00:00",
+      "last_changed": "2026-09-28T06:15:00.051938+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:17:09.217614+00:00",
-      "next_check": "2026-09-05T21:17:09.217614+00:00",
+      "last_seen": "2026-09-28T06:15:00.051938+00:00",
+      "next_check": "2026-09-29T06:15:00.051938+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116517-problem-jabber-00.html": {
-      "content_sha": "b93934debba82f35a6a4c807da8bff509118521689f700fc4d6187b38002d624",
+      "content_sha": "142179cbae0595958779a6f2b9a587cf4b4789e7030c67770458e36595886511",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116517-problem-jabber-00-html-f1581a9699",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:11.025502+00:00",
-      "last_changed": "2026-08-21T07:00:11.025502+00:00",
+      "last_changed": "2026-09-28T06:15:04.108516+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:17:04.698445+00:00",
-      "next_check": "2026-09-05T21:17:04.698445+00:00",
+      "last_seen": "2026-09-28T06:15:04.108516+00:00",
+      "next_check": "2026-09-29T06:15:04.108516+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html": {
-      "content_sha": "50e19f6387686a1f78c98092a56ebcf24927f51ca4f4cbb0efce63d7ee221966",
+      "content_sha": "9e4b43ed37f58f2631a1c8f02db7b6561db3fce7aa685777cc25b3d52702f8f5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118161-technote-jabber-00-html-cb6c154256",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:45.974058+00:00",
-      "last_changed": "2026-08-21T06:59:45.974058+00:00",
+      "last_changed": "2026-09-28T06:15:08.256692+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:35.442918+00:00",
-      "next_check": "2026-09-05T21:16:35.442918+00:00",
+      "last_seen": "2026-09-28T06:15:08.256692+00:00",
+      "next_check": "2026-09-29T06:15:08.256692+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html": {
-      "content_sha": "c9f4d1490ab3038d2ad196fa1e4bd3d5ba9ceac6801ff507a9bf11da3ae011c9",
+      "content_sha": "2ca1d87e9edb7150b32dc8e071c312c18537001a071314de349b0c352438b2d5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118750-technote-jabber-00-html-160d121d9f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:41.988095+00:00",
-      "last_changed": "2026-08-21T06:59:41.988095+00:00",
+      "last_changed": "2026-09-28T06:15:12.442697+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:31.463365+00:00",
-      "next_check": "2026-09-05T21:16:31.463365+00:00",
+      "last_seen": "2026-09-28T06:15:12.442697+00:00",
+      "next_check": "2026-09-29T06:15:12.442697+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118773-configure-kerberos-00.html": {
       "content_sha": "7183af253bd0ec99228d6b4414dcfe94e25cc4dbe8262c6935f1ed7847fa8eab",
@@ -12261,69 +12261,69 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/119432-config-jabber-00.html": {
-      "content_sha": "8e3ab75ae468805db417e26cc2e8a9a01a319fbbab2f1b72d5714bdef67ffdcc",
+      "content_sha": "7aedd2bab9a8d03131e814c2f8c7f62946586e3851dec7bb8e2097fb8fd63fd9",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-119432-config-jabber-00-html-4e9ec22a17",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:57:27.296388+00:00",
-      "last_changed": "2026-09-01T21:16:06.358624+00:00",
+      "last_changed": "2026-09-28T06:15:16.550430+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:06.358624+00:00",
-      "next_check": "2026-09-02T21:16:06.358624+00:00",
+      "last_seen": "2026-09-28T06:15:16.550430+00:00",
+      "next_check": "2026-09-29T06:15:16.550430+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html": {
-      "content_sha": "ba405867b39feba1e99768c5bba26e887be23ef4f035d439c38ba3547ae9838e",
+      "content_sha": "8838c2dc29ab2061ce7e46e3ab280887cfa1cb0ba8168c1dfe160e838b6e28f4",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200120-troubleshoot-call-decline-issues-in-jabb-bedae0ca2a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:49.954068+00:00",
-      "last_changed": "2026-08-21T06:59:49.954068+00:00",
+      "last_changed": "2026-09-28T06:15:20.777172+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:43.931046+00:00",
-      "next_check": "2026-09-05T21:16:43.931046+00:00",
+      "last_seen": "2026-09-28T06:15:20.777172+00:00",
+      "next_check": "2026-09-29T06:15:20.777172+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.html": {
-      "content_sha": "89b901f50cc65c797977d8a51aea9fb5513a8d470bb34cc66df97de60a67655a",
+      "content_sha": "d5a23da0bac975ed59b54ffa62f38c5c87b6db309fd00a25ada3e39a53a5309e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200539-configuration-of-enterprise-group-via-ed-8ce7357361",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:57:23.267439+00:00",
-      "last_changed": "2026-08-21T06:57:23.267439+00:00",
+      "last_changed": "2026-09-28T06:15:24.848512+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:01.927167+00:00",
-      "next_check": "2026-09-05T21:16:01.927167+00:00",
+      "last_seen": "2026-09-28T06:15:24.848512+00:00",
+      "next_check": "2026-09-29T06:15:24.848512+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html": {
-      "content_sha": "772f143048f78d1ce89bc74a57fb0f28046cb96a942b670177dda541659fb683",
+      "content_sha": "2319de3758e2f83f8982a089375dfa17b7622a2acc8a1092988f690c29e5e82a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200637-avoid-jabber-authentication-with-the-web-c096292d45",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:06.474876+00:00",
-      "last_changed": "2026-08-21T07:00:06.474876+00:00",
+      "last_changed": "2026-09-28T06:15:28.867951+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:17:00.394519+00:00",
-      "next_check": "2026-09-05T21:17:00.394519+00:00",
+      "last_seen": "2026-09-28T06:15:28.867951+00:00",
+      "next_check": "2026-09-29T06:15:28.867951+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html": {
-      "content_sha": "915a4a7d222966d3805cc568de0f3ecac5e4b8b18366e6762456bd84c682f701",
+      "content_sha": "43a09ab6c62bf9c27785387b849965d509d1e05e6393972fd0384a26e286725e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-201016-technote-on-customization-of-jabber-msi--0b5d6f17b1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:02.430094+00:00",
-      "last_changed": "2026-08-21T07:00:02.430094+00:00",
+      "last_changed": "2026-09-28T06:15:33.533649+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:56.452779+00:00",
-      "next_check": "2026-09-05T21:16:56.452779+00:00",
+      "last_seen": "2026-09-28T06:15:33.533649+00:00",
+      "next_check": "2026-09-29T06:15:33.533649+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212176-How-to-collect-an-Audio-Capture-Dump-wit.html": {
       "content_sha": "e8e54fc8c0a9e15dd8231b4f9dbc9c93bbe65c71c84aef08e5e95094764644b7",
@@ -12339,56 +12339,56 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html": {
-      "content_sha": "81598641a63c521c0b7ce236b3242e01b77262c215d1c38664e4901f5a718628",
+      "content_sha": "b3dea5ed03c3388ffa1b01d887323bd7a89c38d1f6d7f2e286c5d55c5a1b6b36",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212180-troubleshoot-jabber-for-windows-auto-upd-61fbe77f0b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:58.244352+00:00",
-      "last_changed": "2026-08-21T06:59:58.244352+00:00",
+      "last_changed": "2026-09-28T06:15:37.912061+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:52.459290+00:00",
-      "next_check": "2026-09-05T21:16:52.459290+00:00",
+      "last_seen": "2026-09-28T06:15:37.912061+00:00",
+      "next_check": "2026-09-29T06:15:37.912061+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.html": {
-      "content_sha": "ca6dba86f0a58091537502433adee8531844306f7ca01a4b0f2d369c6057575d",
+      "content_sha": "61c274d8c10b3da25bc5b753b8d9948b45696fdd67361ad42b0aee3e00093826",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212429-configure-jabber-to-use-custom-audio-and-a1249a1306",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:59:54.333469+00:00",
-      "last_changed": "2026-08-21T06:59:54.333469+00:00",
+      "last_changed": "2026-09-28T06:15:42.036828+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:16:48.047955+00:00",
-      "next_check": "2026-09-05T21:16:48.047955+00:00",
+      "last_seen": "2026-09-28T06:15:42.036828+00:00",
+      "next_check": "2026-09-29T06:15:42.036828+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html": {
-      "content_sha": "cc1618191ce818fd2fae934a2d4ddc200f526be92788cbb0a4baf6961e6ece89",
+      "content_sha": "ea58223f4a18a3a04c94c89eb93ab44907c96e70e80034fab8cba68da9a5dcf1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-htm-676ebe4286",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T22:13:40.862402+00:00",
-      "last_changed": "2026-08-20T22:13:40.862402+00:00",
+      "last_changed": "2026-09-28T06:15:46.264169+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T03:51:53.021726+00:00",
-      "next_check": "2026-09-16T03:51:53.021726+00:00",
+      "last_seen": "2026-09-28T06:15:46.264169+00:00",
+      "next_check": "2026-09-29T06:15:46.264169+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html": {
-      "content_sha": "143255eecca396ace761629b8770ffeb03e5d3544fe41c9f3689f1a8d79aa109",
+      "content_sha": "e5ac2a51d68190eb0c556ea11438b73787f15565c6a1475c0ef9d14ee66962ac",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-217563-enable-jabber-log-in-for-cucm-local-user-61a442f581",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:57:18.983397+00:00",
-      "last_changed": "2026-08-21T06:57:18.983397+00:00",
+      "last_changed": "2026-09-28T06:15:50.263164+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:15:57.677207+00:00",
-      "next_check": "2026-09-05T21:15:57.677207+00:00",
+      "last_seen": "2026-09-28T06:15:50.263164+00:00",
+      "next_check": "2026-09-29T06:15:50.263164+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.epub": {
       "content_sha": null,
@@ -12424,121 +12424,121 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html": {
-      "content_sha": "d871048b2a3a801c2093e730c4d53e20962ff5afcf252e97266ab995fa5aa4c4",
+      "content_sha": "03ca22203c2cf638f469b5cea1cc0c754e3e398f22250b776e3823b187b435f7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221644-download-jabber-problem-report-prt-log-h-9e65ef723e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:57:14.949952+00:00",
-      "last_changed": "2026-08-21T06:57:14.949952+00:00",
+      "last_changed": "2026-09-28T06:15:54.441099+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:15:45.310255+00:00",
-      "next_check": "2026-09-05T21:15:45.310255+00:00",
+      "last_seen": "2026-09-28T06:15:54.441099+00:00",
+      "next_check": "2026-09-29T06:15:54.441099+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html": {
-      "content_sha": "efa356dbbfb3b57719d78296b10dce227d49ce045355015d7b30e7e7c5b21202",
+      "content_sha": "3c2db82b10c5cdf8a0df57b7dae0db96a3e38f8cf84e33ad7a307b7d31079d18",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T22:56:22.717476+00:00",
-      "last_changed": "2026-09-14T20:13:07.670543+00:00",
+      "last_changed": "2026-09-28T06:15:58.723187+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T20:13:07.670543+00:00",
-      "next_check": "2026-09-15T20:13:07.670543+00:00",
+      "last_seen": "2026-09-28T06:15:58.723187+00:00",
+      "next_check": "2026-09-29T06:15:58.723187+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html": {
-      "content_sha": "778ef09936bbb4461477e63de46be094327e609d8c05de88637377a48419f340",
+      "content_sha": "4876554d1ca369e7c90c6b85638a51479793f3cf0a53829edf82426240f29438",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212044-configure-charles-proxy-to-capture-https-html-8a1bba2ea1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:40.887878+00:00",
-      "last_changed": "2026-08-21T07:05:40.887878+00:00",
+      "last_changed": "2026-09-28T06:16:02.679157+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:18.807221+00:00",
-      "next_check": "2026-09-11T14:16:18.807221+00:00",
+      "last_seen": "2026-09-28T06:16:02.679157+00:00",
+      "next_check": "2026-09-29T06:16:02.679157+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html": {
-      "content_sha": "398b428794cf18bd5d38fa05333c9256b391983b70e0b1acdce5ef4a37d91d77",
+      "content_sha": "b3a126e48f4efdbeeeebfb0dd72ed012cb8e5e0670e9802da8b064f1aa0bc549",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212059-how-to-gather-microsoft-outlook-logs-for-html-d67d13f6b9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:27.152757+00:00",
-      "last_changed": "2026-08-21T07:06:27.152757+00:00",
+      "last_changed": "2026-09-28T06:16:07.140675+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:17:17.682886+00:00",
-      "next_check": "2026-09-11T14:17:17.682886+00:00",
+      "last_seen": "2026-09-28T06:16:07.140675+00:00",
+      "next_check": "2026-09-29T06:16:07.140675+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html": {
-      "content_sha": "0a0c01b68bdb6752421a5ddfb1735e2444bc621bf8b1e89a9f71f3a895d00a0c",
+      "content_sha": "b6f3c3a685858dd28e360e5c55e52bf9a471a8683a56d1a70f61441bd65128a4",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212081-jabber-log-in-failure-due-to-proxy-setti-html-a1da9df9b8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:06.289438+00:00",
-      "last_changed": "2026-08-21T07:06:06.289438+00:00",
+      "last_changed": "2026-09-28T06:16:11.191198+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:56.281682+00:00",
-      "next_check": "2026-09-11T14:16:56.281682+00:00",
+      "last_seen": "2026-09-28T06:16:11.191198+00:00",
+      "next_check": "2026-09-29T06:16:11.191198+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html": {
-      "content_sha": "cbec2f2055a955e4d7773e74e0623e017129a7e1f7f11883af866ddc75b28320",
+      "content_sha": "407b423dc677976311b1a41df3574481195a291872c9b1092b9319ccf8b48b88",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212082-how-to-collect-jabber-crash-dump-on-appl-html-2aceaeed4f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:14.801061+00:00",
-      "last_changed": "2026-08-21T07:06:14.801061+00:00",
+      "last_changed": "2026-09-28T06:16:14.953715+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:17:04.758515+00:00",
-      "next_check": "2026-09-11T14:17:04.758515+00:00",
+      "last_seen": "2026-09-28T06:16:14.953715+00:00",
+      "next_check": "2026-09-29T06:16:14.953715+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html": {
-      "content_sha": "b5b8844b33c7eec24158cbed5fbdd8895622c5e1a20c1db0a9a422218437773d",
+      "content_sha": "867c404bb2f38669166fe94b6b670f940b7cd7172228a21e26d884de9ad9a54f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212084-troubleshoot-cisco-jabber-directory-sear-html-d6fa1eaa65",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:23.086753+00:00",
-      "last_changed": "2026-08-21T07:06:23.086753+00:00",
+      "last_changed": "2026-09-28T06:16:19.505570+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:17:13.431966+00:00",
-      "next_check": "2026-09-11T14:17:13.431966+00:00",
+      "last_seen": "2026-09-28T06:16:19.505570+00:00",
+      "next_check": "2026-09-29T06:16:19.505570+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html": {
-      "content_sha": "960a08d419c14923a373d8078e6ff0f4ff7a755e52e00d7a38ba213419a4ed98",
+      "content_sha": "e84eb6245b1bfd0ff5104d1d6f07ce0c3272f8d93475d153e0f7e50177927670",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212088-how-to-pull-crash-dumps-for-jabber-for-i-html-420431a8f1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:18.773305+00:00",
-      "last_changed": "2026-08-21T07:06:18.773305+00:00",
+      "last_changed": "2026-09-28T06:16:23.174889+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:17:09.331179+00:00",
-      "next_check": "2026-09-11T14:17:09.331179+00:00",
+      "last_seen": "2026-09-28T06:16:23.174889+00:00",
+      "next_check": "2026-09-29T06:16:23.174889+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html": {
-      "content_sha": "415ec688756a3066230f0bd1043d73c6230759f85bdc97078d5157a0bf3e10d3",
+      "content_sha": "d59f1796d466188657d4e05002312e82b3f1b92ae78cd77bed5d8d665c838687",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212107-tech-note-on-cti-manager-call-flow-for-j-html-e5f2ef459f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:06:10.365655+00:00",
-      "last_changed": "2026-08-21T07:06:10.365655+00:00",
+      "last_changed": "2026-09-28T06:16:27.201317+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:17:00.787349+00:00",
-      "next_check": "2026-09-11T14:17:00.787349+00:00",
+      "last_seen": "2026-09-28T06:16:27.201317+00:00",
+      "next_check": "2026-09-29T06:16:27.201317+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html": {
       "content_sha": "c5457fefea7a478ab69f9c923d5fa5c762f756c91fd6e93b5be636641d6766ca",
@@ -12548,10 +12548,10 @@
       "first_seen": "2026-08-20T22:13:58.909739+00:00",
       "last_changed": "2026-09-07T14:16:52.225732+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:52.225732+00:00",
-      "next_check": "2026-09-08T14:16:52.225732+00:00",
+      "last_seen": "2026-09-28T06:16:31.127405+00:00",
+      "next_check": "2026-09-30T06:16:31.127405+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212471-jabber-login.html": {
       "content_sha": null,
@@ -12579,17 +12579,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html": {
-      "content_sha": "82ffd5a2a0ff16545ebd005fc97184188822e2c813f39df63f40985dfc7b0187",
+      "content_sha": "ff9f0e8680c1f4c056345de429ef967bd6fe13828b1a50270989ec729c85fb3b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212833-configure-jabber-group-configuration-fil-html-5582e3c8ff",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:37.058529+00:00",
-      "last_changed": "2026-08-21T07:05:37.058529+00:00",
+      "last_changed": "2026-09-28T06:16:35.418121+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:15.022407+00:00",
-      "next_check": "2026-09-11T14:16:15.022407+00:00",
+      "last_seen": "2026-09-28T06:16:35.418121+00:00",
+      "next_check": "2026-09-29T06:16:35.418121+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213403-configure-jabber-version-12-0-in-phone-m.html": {
       "content_sha": "39da2ab6e74b2901f6ea6afafa7464d1ebed3f74af9fd8d01cfc783957f32dac",
@@ -12625,10 +12625,10 @@
       "first_seen": "2026-08-21T07:06:02.136652+00:00",
       "last_changed": "2026-08-21T07:06:02.136652+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:48.287384+00:00",
-      "next_check": "2026-09-11T14:16:48.287384+00:00",
+      "last_seen": "2026-09-28T06:16:39.718021+00:00",
+      "next_check": "2026-10-06T06:16:39.718021+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.html": {
       "content_sha": "8131edc8e1a2bd0a6eaf6ff1ad927b2428f5a11ec2ef43ebc5de8932a44cd288",
@@ -12651,10 +12651,10 @@
       "first_seen": "2026-08-20T22:13:45.623561+00:00",
       "last_changed": "2026-08-20T22:13:45.623561+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:15:45.586410+00:00",
-      "next_check": "2026-09-11T14:15:45.586410+00:00",
+      "last_seen": "2026-09-28T06:16:44.030084+00:00",
+      "next_check": "2026-10-06T06:16:44.030084+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html": {
       "content_sha": "694f1bbd633199b89897e6c675c34905b155faaf13da9aed616ebb5ea6ab7f2c",
@@ -12664,10 +12664,10 @@
       "first_seen": "2026-08-20T22:13:54.804403+00:00",
       "last_changed": "2026-08-20T22:13:54.804403+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:02.392256+00:00",
-      "next_check": "2026-09-11T14:16:02.392256+00:00",
+      "last_seen": "2026-09-28T06:16:48.537541+00:00",
+      "next_check": "2026-10-06T06:16:48.537541+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.html": {
       "content_sha": "283f37584dba81b98499360347e48797982bf8cf8406a29db59d6d0337ff1781",
@@ -12690,23 +12690,23 @@
       "first_seen": "2026-08-20T22:13:49.450319+00:00",
       "last_changed": "2026-08-20T22:13:49.450319+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:39.696133+00:00",
-      "next_check": "2026-09-11T14:16:39.696133+00:00",
+      "last_seen": "2026-09-28T06:16:52.676632+00:00",
+      "next_check": "2026-10-06T06:16:52.676632+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html": {
-      "content_sha": "1f91b8f92ecc05c9396dd5a7fc2608e24f65064dffdb6376b0c258ea8f59023b",
+      "content_sha": "453aec3a0143b01451c5d8f1192964007d73df0ddaef95b4c59e65cb34e3e76f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-html-12ece0ea95",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T22:14:02.872923+00:00",
-      "last_changed": "2026-08-20T22:14:02.872923+00:00",
+      "last_changed": "2026-09-28T06:16:57.070868+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:35.506460+00:00",
-      "next_check": "2026-09-11T14:16:35.506460+00:00",
+      "last_seen": "2026-09-28T06:16:57.070868+00:00",
+      "next_check": "2026-09-29T06:16:57.070868+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/221845-troubleshoot-jabber-log-in-common-issu.html": {
       "content_sha": "a164661b016960b029b33607dcc5ec0c475427acd899c28acdaa543b0aa108b9",
@@ -12722,43 +12722,43 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html": {
-      "content_sha": "19e9b84a93abe42a227de36c5ab4178ded662c835bd9615125ea112b70d54740",
+      "content_sha": "69ebb9a9adee65610f0b22ccf1262605260d6c53fa8954591418e917a7575508",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-222555-collect-pcaps-to-troubleshoot-webex-jabb-html-7a48d62c5d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:53.557955+00:00",
-      "last_changed": "2026-08-21T07:05:53.557955+00:00",
+      "last_changed": "2026-09-28T06:17:01.114517+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:31.142553+00:00",
-      "next_check": "2026-09-11T14:16:31.142553+00:00",
+      "last_seen": "2026-09-28T06:17:01.114517+00:00",
+      "next_check": "2026-09-29T06:17:01.114517+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html": {
-      "content_sha": "bd7753db2f878a83140bfc3f56e5a7944593c56c57bc4fba9e6687d5001cb374",
+      "content_sha": "cdc6ea1e3dac460bb39fb65a0dcda0d2cce47c181e0e2d64d619958b7134d7c2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-html-f01b6435e0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:05:49.563212+00:00",
-      "last_changed": "2026-09-07T14:16:26.995550+00:00",
+      "last_changed": "2026-09-28T06:17:05.207020+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:16:26.995550+00:00",
-      "next_check": "2026-09-08T14:16:26.995550+00:00",
+      "last_seen": "2026-09-28T06:17:05.207020+00:00",
+      "next_check": "2026-09-29T06:17:05.207020+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html": {
-      "content_sha": "6648088c4c89010301c3f67c382018fb92cba8b3edacd085598f19dc269b7661",
+      "content_sha": "3d78cc115d93c351a75bb07a75e7eab320fa4fc5af6fb1b2cf659d84515fcf28",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-117059-configure-informacast-00-html-423128e0ee",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:40:03.068784+00:00",
-      "last_changed": "2026-08-21T12:40:03.068784+00:00",
+      "last_changed": "2026-09-28T06:17:09.308850+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:47:51.805602+00:00",
-      "next_check": "2026-09-11T15:47:51.805602+00:00",
+      "last_seen": "2026-09-28T06:17:09.308850+00:00",
+      "next_check": "2026-09-29T06:17:09.308850+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.html": {
       "content_sha": "89eb647763e2f3296df1af8f2e53d44b6adc783c809ca48df90a0f74493b49e1",
@@ -12787,30 +12787,30 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html": {
-      "content_sha": "f0eb1156ec342f13965e45341393fe73f1d6881320f0e335f18fb18d62ee92b5",
+      "content_sha": "ae1cfa08fee0dbed11ee3339fb97a8f8fc46407fb449f9d0bc07e2f4202a0ebc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216177-configure-and-troubleshoot-informacast-ht-337d1598c6",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:40:07.837807+00:00",
-      "last_changed": "2026-08-21T12:40:07.837807+00:00",
+      "last_changed": "2026-09-28T06:17:13.805638+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:47:56.473142+00:00",
-      "next_check": "2026-09-11T15:47:56.473142+00:00",
+      "last_seen": "2026-09-28T06:17:13.805638+00:00",
+      "next_check": "2026-09-29T06:17:13.805638+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html": {
-      "content_sha": "a2d86e4aa6be88833c99a6156483609b2f795a048ce1a80f0c582cf7111c319b",
+      "content_sha": "eca129eda8ee3f325c075929e1a0785a0f614cae5dccb5e8a390cac94070fb25",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-html-e1a801483e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T22:06:25.859188+00:00",
-      "last_changed": "2026-09-07T14:21:00.708174+00:00",
+      "last_changed": "2026-09-28T06:17:18.008017+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T20:03:04.824435+00:00",
-      "next_check": "2026-09-16T20:03:04.824435+00:00",
+      "last_seen": "2026-09-28T06:17:18.008017+00:00",
+      "next_check": "2026-09-29T06:17:18.008017+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/speechview/217535-troubleshoot-the-error-failed-to-fetch.html": {
       "content_sha": "bfbe3ec12d7c6d7d411720f23b4fe51bfad91efa650b393f1266a16372a4e77a",
@@ -12852,15 +12852,15 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html": {
-      "content_sha": "84737baa55b6769009c93f168561d012f503a43a3ad9365c9a9d326cea7eb79e",
+      "content_sha": "371d3fd9fefb14844b1d0c4e29f5902badaa310f35c94d0b150f9fa743e4a2d3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-20T22:17:21.120466+00:00",
-      "last_changed": "2026-09-14T20:03:17.095416+00:00",
+      "last_changed": "2026-09-28T06:17:21.656872+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T20:03:17.095416+00:00",
-      "next_check": "2026-09-15T20:03:17.095416+00:00",
+      "last_seen": "2026-09-28T06:17:21.656872+00:00",
+      "next_check": "2026-09-29T06:17:21.656872+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -12878,15 +12878,15 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.html": {
-      "content_sha": "5f588b89fa3e2ef7ed3d18560e22e961ba03287f60f15c3f7537d50fcd1411d1",
+      "content_sha": "f5679ef5f4c20aa2c5740391272b8b451df4656a45095a7b4bd471e1fdf22851",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-a4d7a5a914",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-14T20:03:08.694349+00:00",
-      "last_changed": "2026-09-14T20:03:08.694349+00:00",
+      "last_changed": "2026-09-28T06:17:25.762939+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T20:03:08.694349+00:00",
-      "next_check": "2026-09-15T20:03:08.694349+00:00",
+      "last_seen": "2026-09-28T06:17:25.762939+00:00",
+      "next_check": "2026-09-29T06:17:25.762939+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -12930,17 +12930,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
-      "content_sha": "2607956e50ac9c6b07c9af0fc1f0aff5145dc666444f5240022dbaf2e2c5960a",
+      "content_sha": "7c30b90f895c6d77a3f91e7128ce7e986a830485ae471e712c8e88c6f2dae9e5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-b6d286d690",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-16T22:47:52.023706+00:00",
-      "last_changed": "2026-08-16T22:47:52.023706+00:00",
+      "last_changed": "2026-09-28T06:17:29.861885+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:21:31.270674+00:00",
-      "next_check": "2026-08-28T05:21:31.270674+00:00",
+      "last_seen": "2026-09-28T06:17:29.861885+00:00",
+      "next_check": "2026-09-29T06:17:29.861885+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html": {
       "content_sha": "f47c614491ebc9cadd49558825b96c7f37ff0676977b1e5791c7c53de67964ab",
@@ -12956,93 +12956,93 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html": {
-      "content_sha": "f1870a68ac01dfe8a3b7c91f8e885f89d82d0163dfb5451419c34f980ff408c4",
+      "content_sha": "8afd1b268306bcf6483f47b88417dd795a7595d18e0eaac525a6b47df84f5f1e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200067-configure-logging-pa-3eb59564ca",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:33.889989+00:00",
-      "last_changed": "2026-09-07T15:48:33.889989+00:00",
+      "last_changed": "2026-09-28T06:17:34.180922+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:33.889989+00:00",
-      "next_check": "2026-09-08T15:48:33.889989+00:00",
+      "last_seen": "2026-09-28T06:17:34.180922+00:00",
+      "next_check": "2026-09-29T06:17:34.180922+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.html": {
-      "content_sha": "f1ac829d1caec8c107be732eaa912230b811d0a7065af9747daa7c962140736e",
+      "content_sha": "f000da803b9541a54992d34f98775eac00b192106a1f6522ff5d95898c7b3486",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200118-troubleshoot-unregis-78be30c417",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:32.602717+00:00",
-      "last_changed": "2026-09-07T15:49:32.602717+00:00",
+      "last_changed": "2026-09-28T06:17:38.595978+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:32.602717+00:00",
-      "next_check": "2026-09-08T15:49:32.602717+00:00",
+      "last_seen": "2026-09-28T06:17:38.595978+00:00",
+      "next_check": "2026-09-29T06:17:38.595978+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.html": {
-      "content_sha": "52d44b3e6b65b88e8a51349b82e199d38394e0a13879217f77bd8b1bbb5e7d76",
+      "content_sha": "faa68ae6d45e77104d5f494f223ba5ccfd0acd99bca736d0c50c7a4c485ac880",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200513-installation-of-repl-036668f1e9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:29.388910+00:00",
-      "last_changed": "2026-09-07T15:48:29.388910+00:00",
+      "last_changed": "2026-09-28T06:17:42.683864+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:29.388910+00:00",
-      "next_check": "2026-09-08T15:48:29.388910+00:00",
+      "last_seen": "2026-09-28T06:17:42.683864+00:00",
+      "next_check": "2026-09-29T06:17:42.683864+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.html": {
-      "content_sha": "d7ec1a79585911335194670ef9e1e5e1d9794740051b193eba78d548a62e6391",
+      "content_sha": "cdfa6a99e935091933ff17e8258b957b01128d5a7ccd670903dc3d42f8fec7b2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200514-cuac-60-day-evaulati-cb30b0a8c9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:50.178167+00:00",
-      "last_changed": "2026-09-07T15:48:50.178167+00:00",
+      "last_changed": "2026-09-28T06:17:46.936040+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:50.178167+00:00",
-      "next_check": "2026-09-08T15:48:50.178167+00:00",
+      "last_seen": "2026-09-28T06:17:46.936040+00:00",
+      "next_check": "2026-09-29T06:17:46.936040+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.html": {
-      "content_sha": "20f86b73a5f76273a2b16ed34eb81c166b620b44e9538bcee31f5c2d43370b2e",
+      "content_sha": "deb9d81f9fd3c75787f23464e43590e2a6c7151e279c7880b30649fbdf3a1a60",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-202617-technote-on-attendan-07ba5894d9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:28.307686+00:00",
-      "last_changed": "2026-09-07T15:49:28.307686+00:00",
+      "last_changed": "2026-09-28T06:17:51.095864+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:28.307686+00:00",
-      "next_check": "2026-09-08T15:49:28.307686+00:00",
+      "last_seen": "2026-09-28T06:17:51.095864+00:00",
+      "next_check": "2026-09-29T06:17:51.095864+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html": {
-      "content_sha": "b1b67241c45ba3f3fc37c9ce3f67d0845d11fc7cf22386f2e193570a47c55dfa",
+      "content_sha": "149254211a867711c79a82d08e3cfddf4dbda7e668d465f395d260c27d4eddb5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-211568-activating-and-insta-c95f8e488f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:20.177154+00:00",
-      "last_changed": "2026-09-07T15:49:20.177154+00:00",
+      "last_changed": "2026-09-28T06:17:55.274820+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:20.177154+00:00",
-      "next_check": "2026-09-08T15:49:20.177154+00:00",
+      "last_seen": "2026-09-28T06:17:55.274820+00:00",
+      "next_check": "2026-09-29T06:17:55.274820+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.html": {
-      "content_sha": "d29ef75ed4e2521848335851a94ff9378f83fe43240d8eb9dbe044033f418bca",
+      "content_sha": "61a2e41d39cd13e757accdcd111560567f01a6ddef14315319bbad9244a5dd0b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212100-windows-server-harde-a03c6f47c8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:11.746495+00:00",
-      "last_changed": "2026-09-07T15:49:11.746495+00:00",
+      "last_changed": "2026-09-28T06:17:59.679301+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:11.746495+00:00",
-      "next_check": "2026-09-08T15:49:11.746495+00:00",
+      "last_seen": "2026-09-28T06:17:59.679301+00:00",
+      "next_check": "2026-09-29T06:17:59.679301+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -13060,106 +13060,106 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.html": {
-      "content_sha": "eb9b40fc824c91ff368fc9330b2e6d442f76cb5b1ba8024aa354261ae9c1e5ce",
+      "content_sha": "bd06cd014162a53d831ea130e0ee571f3feb76afbd5754af69d7555dc28cb5eb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217593-troubleshoot-no-repl-6d30296d22",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:07.275439+00:00",
-      "last_changed": "2026-09-07T15:49:07.275439+00:00",
+      "last_changed": "2026-09-28T06:18:03.694657+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:07.275439+00:00",
-      "next_check": "2026-09-08T15:49:07.275439+00:00",
+      "last_seen": "2026-09-28T06:18:03.694657+00:00",
+      "next_check": "2026-09-29T06:18:03.694657+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.html": {
-      "content_sha": "9bc00a674fb2a45e9934f3704d1a73fa2350d65155a2301c63f11840e983ee99",
+      "content_sha": "dc39e1facf9ce30bd755a18f1a71a11c498e6210d5cf407e00bbfd15ca97a064",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217614-solve-cryptokey-erro-edec5a3dfa",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:02.983257+00:00",
-      "last_changed": "2026-09-07T15:49:02.983257+00:00",
+      "last_changed": "2026-09-28T06:18:07.948199+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:02.983257+00:00",
-      "next_check": "2026-09-08T15:49:02.983257+00:00",
+      "last_seen": "2026-09-28T06:18:07.948199+00:00",
+      "next_check": "2026-09-29T06:18:07.948199+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.html": {
-      "content_sha": "b2ecedecb32a9dffd6e1f38ed369f74d89f0e8e5ae7fc6b417e81a510a571cb7",
+      "content_sha": "d188a54bede33f30acb0c7a64b44783593cc12d35ea036aa453aef2a0dbbd945",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217618-resolve-the-not-avai-4ac48af18e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:58.852551+00:00",
-      "last_changed": "2026-09-07T15:48:58.852551+00:00",
+      "last_changed": "2026-09-28T06:18:11.869833+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:58.852551+00:00",
-      "next_check": "2026-09-08T15:48:58.852551+00:00",
+      "last_seen": "2026-09-28T06:18:11.869833+00:00",
+      "next_check": "2026-09-29T06:18:11.869833+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html": {
-      "content_sha": "9b6ae1ee9eb03af03b4c6951203982a9089ed48f2ae462325199fe65d95ecb9c",
+      "content_sha": "238ec0b4d123ccb954c86b8f5b56ed6265ffba337313be9e27820e75dd1444cd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-enterprise-edition-200175-cisco-unif-56c78579e6",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:54.563407+00:00",
-      "last_changed": "2026-09-07T15:48:54.563407+00:00",
+      "last_changed": "2026-09-28T06:18:16.066956+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:54.563407+00:00",
-      "next_check": "2026-09-08T15:48:54.563407+00:00",
+      "last_seen": "2026-09-28T06:18:16.066956+00:00",
+      "next_check": "2026-09-29T06:18:16.066956+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/119249-config-cuac-00.html": {
-      "content_sha": "d9eee31cc5a6241a1b2abb9dd97cc9857649969bfdc02c9af083b7171d18ba7b",
+      "content_sha": "65da3757178814bf2ae8fe5d402fcb8e6acb0d5c351202f646edba59d1500521",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-119249-config-cuac-00-html-399fade0c1",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:41.792815+00:00",
-      "last_changed": "2026-09-07T15:48:41.792815+00:00",
+      "last_changed": "2026-09-28T06:18:20.261114+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:41.792815+00:00",
-      "next_check": "2026-09-08T15:48:41.792815+00:00",
+      "last_seen": "2026-09-28T06:18:20.261114+00:00",
+      "next_check": "2026-09-29T06:18:20.261114+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.html": {
-      "content_sha": "2ad4534dcc7ab73657d42f67f2c33c6393bbac5d7ede14f47db6919738df4d4c",
+      "content_sha": "4d3a2d7737b7c1d9742bd5fdc96383e88f23097411a5b1b0e914c49ed2a6ceb0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-220242-configure-and-integr-2455861946",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:48:37.584852+00:00",
-      "last_changed": "2026-09-07T15:48:37.584852+00:00",
+      "last_changed": "2026-09-28T06:18:24.316184+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:48:37.584852+00:00",
-      "next_check": "2026-09-08T15:48:37.584852+00:00",
+      "last_seen": "2026-09-28T06:18:24.316184+00:00",
+      "next_check": "2026-09-29T06:18:24.316184+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.html": {
-      "content_sha": "6ddd56dfe51d12a7f2f2df3f5522cd0a6016aeccf9b16e602652e361373f9656",
+      "content_sha": "e1b91cb1bba25d59462cbf22ff2b89efe589e45a47a708ec257e7da631c596da",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118860-technote-cuacs-00-html-859650320d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:24.534599+00:00",
-      "last_changed": "2026-09-07T15:49:24.534599+00:00",
+      "last_changed": "2026-09-28T06:18:28.912797+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:24.534599+00:00",
-      "next_check": "2026-09-08T15:49:24.534599+00:00",
+      "last_seen": "2026-09-28T06:18:28.912797+00:00",
+      "next_check": "2026-09-29T06:18:28.912797+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118863-technote-cuac-00.html": {
-      "content_sha": "9980d484a8865a1e1203ecfb4fa44f28cb3838f7c7e15490b4809d1ec09029a2",
+      "content_sha": "9087095db6317ce0c0ec5bcedd0894697e78ce81b17695effe94b9c8b677b266",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118863-technote-cuac-00-html-0d8a6133e8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-07T15:49:16.034471+00:00",
-      "last_changed": "2026-09-07T15:49:16.034471+00:00",
+      "last_changed": "2026-09-28T06:18:32.519403+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T15:49:16.034471+00:00",
-      "next_check": "2026-09-08T15:49:16.034471+00:00",
+      "last_seen": "2026-09-28T06:18:32.519403+00:00",
+      "next_check": "2026-09-29T06:18:32.519403+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -13450,17 +13450,17 @@
       "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html": {
-      "content_sha": "6cc3e3ddf421408effe5934830463bea1d05cae3cec5aa4ae5521b0e1b66de5d",
+      "content_sha": "260d7f742b17c6eeca09e53881e6460569a1c647753b1143911995870d01a7d5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-c1829d4876",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T12:49:05.140420+00:00",
-      "last_changed": "2026-08-21T12:49:05.140420+00:00",
+      "last_changed": "2026-09-28T06:18:36.846518+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-14T22:27:17.951435+00:00",
-      "next_check": "2026-09-18T22:27:17.951435+00:00",
+      "last_seen": "2026-09-28T06:18:36.846518+00:00",
+      "next_check": "2026-09-29T06:18:36.846518+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/115785-anyconnect-vpn-00.html": {
       "content_sha": "edeb8a546f066da2664dce85d3e9c0d9b17ff7dafe8892b094f26891bbeeef05",
@@ -13522,10 +13522,10 @@
       "first_seen": "2026-08-20T22:52:05.162743+00:00",
       "last_changed": "2026-08-20T22:52:05.162743+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:21:47.914491+00:00",
-      "next_check": "2026-08-26T05:21:47.914491+00:00",
+      "last_seen": "2026-09-28T06:18:40.986267+00:00",
+      "next_check": "2026-10-02T06:18:40.986267+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118722-configure-cucm-00.html": {
       "content_sha": "aaf1584d914080bf02e8a4dab65f6b365424cf3a35af819df3138ff5c6fa50eb",
@@ -13619,10 +13619,10 @@
       "first_seen": "2026-09-08T01:21:38.375533+00:00",
       "last_changed": "2026-09-08T01:21:38.375533+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-08T01:21:38.375533+00:00",
-      "next_check": "2026-09-09T01:21:38.375533+00:00",
+      "last_seen": "2026-09-28T06:18:49.026233+00:00",
+      "next_check": "2026-09-30T06:18:49.026233+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118779-configure-cucm-00.html": {
       "content_sha": "398022ead81dab23443cd75793ed416c70f8b89bd8a9c3bf689d7d6923e56bb5",
@@ -14040,15 +14040,15 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.html": {
-      "content_sha": "eb9ffd2ea151d2dc5e39cb85ad07ca5e12fb02884506a58bdc0ce51cf4ea94c6",
+      "content_sha": "92883ac2a82dca16b2eb850aa2a0952f10634836156169f8c3ba22af12c0bbec",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--b7aa4ab11e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-25T08:33:39.780781+00:00",
-      "last_changed": "2026-08-25T08:33:39.780781+00:00",
+      "last_changed": "2026-09-28T06:18:52.959540+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T08:33:39.780781+00:00",
-      "next_check": "2026-08-26T08:33:39.780781+00:00",
+      "last_seen": "2026-09-28T06:18:52.959540+00:00",
+      "next_check": "2026-09-29T06:18:52.959540+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -14079,17 +14079,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html": {
-      "content_sha": "701b73dc046c8282f7c6ebc2649aa353740e49fe0d11e96f06327156f5ce0586",
+      "content_sha": "6823a31ba298c6ee6a33a320ea6f116895111e3fe4c9cdfc5eab600545b88bb2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-2aae407ed8",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T00:00:37.114023+00:00",
-      "last_changed": "2026-08-21T00:00:37.114023+00:00",
+      "last_changed": "2026-09-28T06:18:57.361702+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-24T05:23:37.262968+00:00",
-      "next_check": "2026-08-26T05:23:37.262968+00:00",
+      "last_seen": "2026-09-28T06:18:57.361702+00:00",
+      "next_check": "2026-09-29T06:18:57.361702+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.html": {
       "content_sha": "00b560f8818e2403241dca25b8e0c533a7fa5d29e8784d6bd1300d5d8d96f250",
@@ -14782,15 +14782,15 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html": {
-      "content_sha": "0c33abc8283f346fb21fd6ddc77c68e324a8549e89a59a018e852d9fbd67edc0",
+      "content_sha": "886b182b26d78795b5e8677be4966fad89fa5de7451c5292b8958d0124733ac2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-25T07:53:57.182625+00:00",
-      "last_changed": "2026-08-25T07:53:57.182625+00:00",
+      "last_changed": "2026-09-28T06:19:01.117072+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T07:53:57.182625+00:00",
-      "next_check": "2026-08-26T07:53:57.182625+00:00",
+      "last_seen": "2026-09-28T06:19:01.117072+00:00",
+      "next_check": "2026-09-29T06:19:01.117072+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -178457,5 +178457,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-09-28T05:54:00.211492+00:00"
+  "updated_at": "2026-09-28T06:19:01.213163+00:00"
 }

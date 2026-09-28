@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-220242-configure-and-integr-2455861946
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.html
-retrieved_at: 2026-09-07T15:48:37.584965+00:00
+retrieved_at: 2026-09-28T06:18:24.316258+00:00
 ---
 
 Configure and Integrate CUAC Standard IM and Presence Integration
@@ -133,3 +133,23 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Feb-2023 | Initial Release |
+
+## Figuras
+
+![Configure Options then the Presence Details are Validated with the IM and Presence Server When the Apply Button is Selected](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-00.png)
+
+![Warning Message that the Presence Server Connection Test Failed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-01.png)
+
+![Presence in the CUAC Client is Seen in Presence Oval to Left of User Last Name](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-02.png)
+
+![Busy/On a Call Meeting Presence is Displayed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-03.png)
+
+![DND is displayed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-04.png)
+
+![CUAC Client Uses the End User Account that is Configured in the Options to Send Presence Subscriptions for Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-05.png)
+
+![Apply Username Only](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

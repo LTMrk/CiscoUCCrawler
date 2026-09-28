@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-201016-technote-on-customization-of-jabber-msi--0b5d6f17b1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html
-retrieved_at: 2026-08-21T07:00:02.430189+00:00
+retrieved_at: 2026-09-28T06:15:33.533724+00:00
 ---
 
 TechNote on Customization of Jabber MSI Installer using MS Orca
@@ -99,3 +99,9 @@ Cisco TAC Engineer
 - Jabber
 
 - Jabber for Windows
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

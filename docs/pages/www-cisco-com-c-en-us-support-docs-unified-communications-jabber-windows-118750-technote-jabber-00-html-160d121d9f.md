@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118750-technote-jabber-00-html-160d121d9f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html
-retrieved_at: 2026-08-21T06:59:41.988195+00:00
+retrieved_at: 2026-09-28T06:15:12.442770+00:00
 ---
 
 Troubleshoot Microsoft Outlook Integrated with Cisco Jabber when Shows No Presence Status/Presence Bubble
@@ -109,3 +109,11 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Oct-2021 | Initial Release |
+
+## Figuras
+
+![118750-technote-jabber-01](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00-00.png)
+
+![118750-technote-jabber-02](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00-01.png)
+
+![http://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-04.png](http://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-04.png)

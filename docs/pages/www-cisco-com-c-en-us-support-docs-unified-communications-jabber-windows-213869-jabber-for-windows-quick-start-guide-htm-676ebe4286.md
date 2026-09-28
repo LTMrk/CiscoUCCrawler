@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-htm-676ebe4286
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html
-retrieved_at: 2026-08-20T22:13:40.862531+00:00
+retrieved_at: 2026-09-28T06:15:46.264243+00:00
 ---
 
 Configure Jabber for Windows - Quick Start Guide
@@ -393,3 +393,125 @@ Updated Section Names, Target Links, and Formatting. |
 | 4.0 | 14-Sep-2023 | Cleaned up machine translation, introduction, and grammatical issues. |
 | 3.0 | 20-Jul-2022 | Related Information Updated. |
 | 1.0 | 12-Nov-2018 | Initial Release |
+
+## Figuras
+
+![Device Phone Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-00.png)
+
+![Add New Phone](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-01.png)
+
+![New Phone CSF](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-02.png)
+
+![Save Phone Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-03.png)
+
+![Line Association to CSF - Modify Button Items](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-04.png)
+
+![Device Phone Menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-05.png)
+
+![Line Association to CSF](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-06.png)
+
+![UC Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-07.png)
+
+![Add UC Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-08.png)
+
+![UC Service Configuration - CTI Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-09.png)
+
+![UC Service Configuration - CTI Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-10.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-11.png)
+
+![Add Service Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-12.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-13.png)
+
+![CTI Configuration - Service Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-14.png)
+
+![Cisco Unity Connection User Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-15.png)
+
+![User Configuration on Unity Connection](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-16.png)
+
+![Class of Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-17.png)
+
+![Class of Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-18.png)
+
+![Class of Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-19.png)
+
+![API Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-20.png)
+
+![UC Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-21.png)
+
+![Add UC Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-22.png)
+
+![UC Service Configuration - Voicemail](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-23.png)
+
+![UC Service Configuration - Voicemail](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-24.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-25.png)
+
+![Add Service Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-26.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-27.png)
+
+![Service Profile Configuration - Voicemail](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-28.png)
+
+![UC Service Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-29.png)
+
+![Add UC Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-30.png)
+
+![UC Service Configuration - Directory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-31.png)
+
+![SUC Service Configuration - Directory](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-32.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-33.png)
+
+![Add Service Profile](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-34.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-35.png)
+
+![UC Service Configuration - Directory 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-36.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-37.png)
+
+![Service Profile Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-38.png)
+
+![UC Service Configuration - Directory 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-39.png)
+
+![Jabber Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-40.png)
+
+![End User Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-41.png)
+
+![End User Configuration - Find and List Users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-42.png)
+
+![Home Cluster Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-43.png)
+
+![Associated Devices](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-44.png)
+
+![End User Configuration - User Device Association](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-45.png)
+
+![Directory Number Association](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-46.png)
+
+![End User Configuration - Assigned Roles - Permission Information](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-47.png)
+
+![End User configuration - Assigned Roles - Access Control Groups](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-48.png)
+
+![SRV Discovery](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-49.jpeg)
+
+![SRV Records](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-50.png)
+
+![Create Resource Record Type (SRV)](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-51.png)
+
+![Download Jabber](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-52.png)
+
+![Jabber Executable MSI File](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-53.png)
+
+![Jabber Installation - Accept Agreement](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-54.png)
+
+![Jabber Installation - Finish](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-55.png)
+
+![Cisco Jabber Folder](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-56.png)
+
+![Cisco Jabber Location](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-57.png)
+
+![Cisco Jabber Initial Log in Prompt](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-58.png)
+
+![Cisco Jabber User and Password Prompt](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide-59.png)

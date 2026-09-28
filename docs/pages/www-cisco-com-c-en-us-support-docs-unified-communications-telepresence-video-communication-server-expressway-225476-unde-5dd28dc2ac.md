@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html
-retrieved_at: 2026-09-14T20:03:17.095491+00:00
+retrieved_at: 2026-09-28T06:17:21.656947+00:00
 ---
 
 Understand Mobile and Remote Access Certificate Requirements and Apache Traffic Server History
@@ -296,24 +296,62 @@ Reason - The traffic server service in Expressway sends its certificate whenever
 
 Initial Release
 
-### Contributed by Cisco Engineers
-
-Vikram Dutta
-
-Cisco TAC Engineer
-
-Stuart Anderson
-
-Cisco TAC Engineer
-
-### Customers Also Viewed
-
-- Navigate Client EKU Sunset with Expressway x15.5
-
-- Understand Effect of GoDaddy Root Migration on Expressway MRA
-
-- Troubleshoot Expressway Certificates
-
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Feb-2026 | Initial Release |
+
+## Figuras
+
+![Add CUCM on Exp-Core](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-00.png)
+
+![Exp-Core Note](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![CUCM Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-02.png)
+
+![Exp-Core CUCM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-03.png)
+
+![Ciphers](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-04.png)
+
+![CUCM RSA Enterprize Parameters](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-05.png)
+
+![Generating Tomcat CSR](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-06.png)
+
+![Upload CA Certificate as Tomcat Trust](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-07.png)
+
+![Upload Tomcat Certificate on CUCM](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-08.png)
+
+![Tomcat Certificate is now Signed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-09.png)
+
+![Reuse Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-10.png)
+
+![Tomcat Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-11.png)
+
+![Tomcat Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-12.png)
+
+![CLI Output 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-13.png)
+
+![CLI Output 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-14.png)
+
+![Certificate Verify](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-15.png)
+
+![CSR for Tomcat ECDSA](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-16.png)
+
+![ECDSA Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-17.png)
+
+![Upload Image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-18.png)
+
+![ECDSA](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-19.png)
+
+![Upload Image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-20.png)
+
+![Tomcat ECDSA](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-21.png)
+
+![Tomcat ECDSA](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-22.png)
+
+![CLI Output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-23.png)
+
+![CLI Output](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-24.png)
+
+![All Servers Added with TLS](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access-25.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217618-resolve-the-not-avai-4ac48af18e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.html
-retrieved_at: 2026-09-07T15:48:58.852666+00:00
+retrieved_at: 2026-09-28T06:18:11.869904+00:00
 ---
 
 Troubleshoot Not Available Failover Status Error on CUAC Advanced
@@ -125,3 +125,13 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Jan-2022 | Initial Release |
+
+## Figuras
+
+![CUAC-A Publisher Service Management with Subscriber Failover Status: Not Available](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu-00.png)
+
+![CUAC-A Subscriber Service Management with Publisher Failover Status: Not Available](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216177-configure-and-troubleshoot-informacast-ht-337d1598c6
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html
-retrieved_at: 2026-08-21T12:40:07.837913+00:00
+retrieved_at: 2026-09-28T06:17:13.805717+00:00
 ---
 
 Configure and Troubleshoot Informacast
@@ -1082,3 +1082,17 @@ Cisco TAC
 | Talking, active call | Busy | Busy |
 | On hold, inactive call on shared line | Busy | Not busy |
 | On hold, inactive call on unique line | Busy | Not busy |
+
+## Figuras
+
+![Bug-Preview for CSCve47332](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCuy56088](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCut91894](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCtb70375](https://techzone.cisco.com/html/assets/mag.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

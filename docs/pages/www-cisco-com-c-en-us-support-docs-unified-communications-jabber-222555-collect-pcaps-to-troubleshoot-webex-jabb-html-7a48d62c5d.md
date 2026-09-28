@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-222555-collect-pcaps-to-troubleshoot-webex-jabb-html-7a48d62c5d
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html
-retrieved_at: 2026-08-21T07:05:53.558062+00:00
+retrieved_at: 2026-09-28T06:17:01.114593+00:00
 ---
 
 Collect PCAPs to Troubleshoot Webex/Jabber Issues on iOS Devices
@@ -117,3 +117,17 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 31-Oct-2024 | Initial Release |
+
+## Figuras
+
+![Terminal 1](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb-00.png)
+
+![Terminal 2](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb-01.png)
+
+![Wireshark GUI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb-02.png)
+
+![Terminal 3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb-03.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

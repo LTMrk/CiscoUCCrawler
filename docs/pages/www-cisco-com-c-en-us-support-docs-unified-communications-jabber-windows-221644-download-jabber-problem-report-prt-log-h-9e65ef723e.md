@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221644-download-jabber-problem-report-prt-log-h-9e65ef723e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html
-retrieved_at: 2026-08-21T06:57:14.950055+00:00
+retrieved_at: 2026-09-28T06:15:54.441173+00:00
 ---
 
 Download Jabber Problem Report (PRT) Logs Using Web-Server.
@@ -317,3 +317,91 @@ Ramesh Balakrishnan
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Click the Next button in the setup wizard.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-00.png)
+
+![Select the mentioned components and click the Next button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-01.png)
+
+![Choose the installation folder and click the Next button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-02.png)
+
+![Choose the language and click the Next button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-03.png)
+
+![Click the Next button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-04.png)
+
+![Click the Next button to proceed with installation.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-05.png)
+
+![Installation is in progress.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-06.png)
+
+![Click the Finish button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-07.png)
+
+![Run the 'XAMPP Control Panel' as an administrator.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-08.png)
+
+![Click on the Config button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-09.png)
+
+![Select the mentioned components and click the Save button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-10.png)
+
+![Start the Apache service.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-11.png)
+
+![Open the php file.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-12.png)
+
+![Set the value of upload_max_filesize to 40M.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-13.png)
+
+![Click the Start button to bring up the Apache service.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-14.png)
+
+![Status messages display that the Apache service is running.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-15.png)
+
+![Specify the folder location to store the Jabber's PRT logs.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-16.png)
+
+![Open 'UC Service' on the CUCM Administration web page.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-17.png)
+
+![Configuring the Web Server's details in Jabber Client Configuration (jabber-config.xml) .](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-18.png)
+
+![Open 'Service Profile' on the CUCM Administration web page.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-19.png)
+
+![Assign the created Jabber Client Configuration to the 'Service Profile' and click the Save button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-20.png)
+
+![Assign the Service profile to the Jabber End User.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-21.png)
+
+![Collect the Jabber PRT.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-22.png)
+
+![The Web server contains the downloaded Jabber PRT file.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-23.png)
+
+![Wireshark capture on the Web server shows the PRT file transactions.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-24.png)
+
+![Run the command openssl via the Shell of the XAMPP Control panel.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-25.png)
+
+![Run the command genrsa -out server.key 2048](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-26.png)
+
+![Generate a Certificate Signing Request (CSR) for the Web Server.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-27.png)
+
+![Generated Certificate Signing Request (CSR) location.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-28.png)
+
+![Copy the CSR file to a new folder location.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-29.png)
+
+![Copy the server.key to a new folder location.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-30.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Sign the CSR by Certificiate Authority (CA) server and get the signed certificate.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-31.png)
+
+![Signed Certificate.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-32.png)
+
+![Upload the signed certificate.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-33.png)
+
+![Restart the Apache service by pressing the Stop & Start button.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-34.png)
+
+![Tomcat certificate signed by the same CA server.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-35.png)
+
+![Configuring the Web Server's details in Jabber Client Configuration (jabber-config.xml) .](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-36.png)
+
+![Collect the Jabber PRT.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-37.png)
+
+![Wireshark capture on the Web server shows the PRT file transactions happened securely.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-38.png)
+
+![The Web server contains the downloaded Jabber PRT file.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log-39.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

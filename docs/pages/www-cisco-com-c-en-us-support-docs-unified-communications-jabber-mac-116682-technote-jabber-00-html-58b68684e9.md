@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-116682-technote-jabber-00-html-58b68684e9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/116682-technote-jabber-00.html
-retrieved_at: 2026-08-21T07:00:23.155503+00:00
+retrieved_at: 2026-09-28T06:14:42.982116+00:00
 ---
 
 Jabber for Mac 9.2 Locate the Log File and Cache Location
@@ -69,3 +69,9 @@ Cisco TAC Engineer.
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 01-Nov-2013 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

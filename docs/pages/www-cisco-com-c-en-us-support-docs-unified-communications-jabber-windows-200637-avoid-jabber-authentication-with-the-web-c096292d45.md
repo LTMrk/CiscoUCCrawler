@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200637-avoid-jabber-authentication-with-the-web-c096292d45
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html
-retrieved_at: 2026-08-21T07:00:06.474973+00:00
+retrieved_at: 2026-09-28T06:15:28.868027+00:00
 ---
 
 Avoid Jabber Authentication with the WebEx Connect Cloud and Instead use an On-Premises Presence Server
@@ -101,3 +101,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 31-Aug-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

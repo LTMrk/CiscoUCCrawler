@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116433-probsol-jabber-00-html-db1f79ed22
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html
-retrieved_at: 2026-08-21T06:59:37.679767+00:00
+retrieved_at: 2026-09-28T06:14:55.722793+00:00
 ---
 
 Jabber Displays Incorrect Contact for a Number
@@ -90,3 +90,9 @@ Cisco TAC Engineer
 |---|---|---|
 | 2.0 | 13-Apr-2022 | Corrected a typographical error. |
 | 1.0 | 13-Nov-2013 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

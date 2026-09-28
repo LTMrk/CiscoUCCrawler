@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200513-installation-of-repl-036668f1e9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.html
-retrieved_at: 2026-09-07T15:48:29.389031+00:00
+retrieved_at: 2026-09-28T06:17:42.683968+00:00
 ---
 
 Installation of Replication for CUAC Advanced
@@ -87,3 +87,9 @@ There is currently no specific troubleshooting information available for this co
 Adrian Esquillo
 
 Cisco TAC Engineer
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

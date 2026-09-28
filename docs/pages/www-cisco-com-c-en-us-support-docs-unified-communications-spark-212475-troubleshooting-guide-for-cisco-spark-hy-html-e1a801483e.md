@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-html-e1a801483e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html
-retrieved_at: 2026-09-07T14:21:00.708253+00:00
+retrieved_at: 2026-09-28T06:17:18.008095+00:00
 ---
 
 Troubleshooting Guide for Cisco Webex Hybrid Call Service Connect
@@ -2016,3 +2016,9 @@ Cisco TAC Engineer
 | Request URI | sip: bob@example.com |
 |---|---|
 | Route Header | sip:us-cucm.example.com;lr |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

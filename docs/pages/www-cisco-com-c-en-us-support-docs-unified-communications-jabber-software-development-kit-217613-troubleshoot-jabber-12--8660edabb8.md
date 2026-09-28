@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-software-development-kit-217613-troubleshoot-jabber-12--8660edabb8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html
-retrieved_at: 2026-08-21T07:05:58.033732+00:00
+retrieved_at: 2026-09-28T06:14:51.667520+00:00
 ---
 
 Troubleshoot when Jabber Unable to Render Chatbot Content
@@ -132,3 +132,13 @@ Cisco TAC Engineer
 |---|---|---|
 | 2.0 | 01-Feb-2023 | Initial Release |
 | 1.0 | 02-Jan-2022 | Initial Release |
+
+## Figuras
+
+![Working Chatbot HTML Rendered Content](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t-00.png)
+
+![Non-working Chatbot HTML Rendered Content](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

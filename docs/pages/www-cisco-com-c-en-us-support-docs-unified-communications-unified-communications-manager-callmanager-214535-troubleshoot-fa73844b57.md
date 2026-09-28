@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html
-retrieved_at: 2026-08-25T07:53:57.182800+00:00
+retrieved_at: 2026-09-28T06:19:01.117149+00:00
 ---
 
 Troubleshoot Extension Mobility Cross Cluster (EMCC)
@@ -961,3 +961,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Unified Communications Manager (CallManager)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

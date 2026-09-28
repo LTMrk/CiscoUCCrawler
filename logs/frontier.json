@@ -1,273 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/116682-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116517-problem-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/119432-config-jabber-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/119249-config-cuac-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118863-technote-cuac-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118771-configure-samlsso-00.mobi/index.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html",
-    "depth": 0
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html",
     "depth": 0
   },
@@ -26097,6 +25829,530 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/cti-protocol-dev-guide/",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/scripting-and-development-guide/",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/configuration-api-dev-guide/",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/docs/contact-center-express/customer-collaboration-platform-dev-guide/",
+    "depth": 1
+  },
+  {
+    "url": "https://developer.cisco.com/docs/packaged-contact-center/api-dev-guide/",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-android/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/213902-jabber-for-android-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/jabber-iphone-ipad/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-installation-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-105/117827-configure-unifiedpresenceserver-00.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-voice-and-video/integrating-basic-cisco-paging-basic-informacast-with-cucm/ta-p/3161322",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/callservices/cmgt_b_ciscospark-hybrid-call-service-config-guide/cmgt_b_ciscospark-hybrid-call-service-config-guide_chapter_01001.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/products-installation-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-cloud-connected-uc/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.mobi",
     "depth": 1
   }
 ]

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-enterprise-edition-200175-cisco-unif-56c78579e6
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html
-retrieved_at: 2026-09-07T15:48:54.563537+00:00
+retrieved_at: 2026-09-28T06:18:16.067036+00:00
 ---
 
 CUAC Licensing and Troubleshoot Commonly Faced Issues
@@ -371,3 +371,9 @@ Cisco TAC Engineer
 ### Customers Also Viewed
 
 - Activation and Installation of a CUAC Advanced License
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

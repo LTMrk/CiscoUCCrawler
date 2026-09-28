@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212044-configure-charles-proxy-to-capture-https-html-8a1bba2ea1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html
-retrieved_at: 2026-08-21T07:05:40.887992+00:00
+retrieved_at: 2026-09-28T06:16:02.679228+00:00
 ---
 
 Configure Charles Proxy to Capture HTTPS Traffic Using Mac
@@ -81,3 +81,15 @@ Cisco TAC
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![212044-Configure-Charles-Proxy-to-Capture-HTTPS-00.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS-00.jpeg)
+
+![212044-Configure-Charles-Proxy-to-Capture-HTTPS-01.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS-01.jpeg)
+
+![212044-Configure-Charles-Proxy-to-Capture-HTTPS-02.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS-02.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

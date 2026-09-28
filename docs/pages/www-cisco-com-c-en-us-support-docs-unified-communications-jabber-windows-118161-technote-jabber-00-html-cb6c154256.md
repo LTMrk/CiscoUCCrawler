@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118161-technote-jabber-00-html-cb6c154256
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html
-retrieved_at: 2026-08-21T06:59:45.974151+00:00
+retrieved_at: 2026-09-28T06:15:08.256769+00:00
 ---
 
 Jabber for Windows Persistent Registry Keys Prevent Install
@@ -113,3 +113,11 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-Aug-2021 | Initial Release |
+
+## Figuras
+
+![Error 1714 - the older version of Jabber cannot be removed - caused by persistent registry keys for Cisco Jabber for Windows](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00-00.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-android-201013-configure-jabber-for-android-to-register-812610ccb8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html
-retrieved_at: 2026-08-21T12:36:16.178471+00:00
+retrieved_at: 2026-09-28T06:14:26.093260+00:00
 ---
 
 Configure Jabber for Android to Register as BOT or TAB Device
@@ -75,3 +75,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Mar-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118863-technote-cuac-00-html-0d8a6133e8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118863-technote-cuac-00.html
-retrieved_at: 2026-09-07T15:49:16.034589+00:00
+retrieved_at: 2026-09-28T06:18:32.519478+00:00
 ---
 
 CUAC Compatibility Matrix with Microsoft Server and SQL
@@ -447,3 +447,9 @@ Cisco TAC Engineer
 | 11.0.1 | X | X | X | X | X | X | X |  |
 | 11.0.2 | X | X | X | X | X | X | X |  |
 | 12.0.2 |  |  |  |  |  | X | X | X |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

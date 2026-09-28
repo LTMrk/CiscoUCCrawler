@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-117059-configure-informacast-00-html-423128e0ee
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html
-retrieved_at: 2026-08-21T12:40:03.068886+00:00
+retrieved_at: 2026-09-28T06:17:09.308931+00:00
 ---
 
 Configure CUCM Integration with Paging Server (InformaCast)
@@ -192,3 +192,23 @@ Technical Consulting Engineer
 | 2.0 | 06-Jul-2023 | Added Alt Text.
 Updated Title, Introduction, PII, Style Requirements, Spelling and Formatting. |
 | 1.0 | 27-Jan-2014 | Initial Release |
+
+## Figuras
+
+![Network Diagram and Architecture](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-00.jpeg)
+
+![CUCM Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-01.png)
+
+![Phone URL Parameters](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-02.png)
+
+![InformaCast Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-03.png)
+
+![Recipients then Edit Recipient Groups](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-04.png)
+
+![Associate a Specific Extension or CTI Route Point to a Recipient Group](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00-05.png)
+
+![Bug-Preview for CSCtb70375](https://techzone.cisco.com/html/assets/mag.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

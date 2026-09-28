@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-125-214796-hcm-f-smartli-cc7179357a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html
-retrieved_at: 2026-09-01T14:58:22.258502+00:00
+retrieved_at: 2026-09-28T06:14:21.938261+00:00
 ---
 
 Configure HCM-F Integration with Smart License Manager
@@ -334,3 +334,31 @@ Cisco TAC
 |---|---|---|
 | 2.0 | 26-May-2023 | Updating API information. |
 | 1.0 | 27-Aug-2019 | Initial Release |
+
+## Figuras
+
+![Cisco API Dev Portal API access req](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-00.png)
+
+![Cisco API Dev Portal create API Client](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-01.png)
+
+![pic3](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-02.jpeg)
+
+![lcorream_2-1685097902413](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-03.png)
+
+![pic5](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-04.jpeg)
+
+![pic6](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-05.jpeg)
+
+![pic7](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-06.jpeg)
+
+![pic8](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-07.jpeg)
+
+![pic9](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-08.jpeg)
+
+![pic10](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-09.jpeg)
+
+![pic11](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou-10.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

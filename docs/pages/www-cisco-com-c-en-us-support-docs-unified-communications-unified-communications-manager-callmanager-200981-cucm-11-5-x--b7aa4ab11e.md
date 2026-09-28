@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--b7aa4ab11e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.html
-retrieved_at: 2026-08-25T08:33:39.780966+00:00
+retrieved_at: 2026-09-28T06:18:52.959617+00:00
 ---
 
 CUCM 11.5.x TFTP Scale Architectural Improvements
@@ -182,3 +182,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Feb-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
