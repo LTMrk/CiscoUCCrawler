@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-211568-activating-and-insta-c95f8e488f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html
-retrieved_at: 2026-09-07T15:49:20.177262+00:00
+retrieved_at: 2026-09-28T06:17:55.274895+00:00
 ---
 
 Activation and Installation of a CUAC Advanced License
@@ -147,3 +147,9 @@ Cisco TAC Engineer
 ### Customers Also Viewed
 
 - CUAC Licensing and Troubleshoot Commonly Faced Issues
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

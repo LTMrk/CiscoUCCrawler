@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-html-f01b6435e0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html
-retrieved_at: 2026-09-07T14:16:26.995629+00:00
+retrieved_at: 2026-09-28T06:17:05.207096+00:00
 ---
 
 Troubleshoot Jabber Audio Issues with Wireshark
@@ -120,3 +120,17 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 01-Oct-2025 | Initial Release |
+
+## Figuras
+
+![Jabber Media Path](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-00.png)
+
+![Start Wireshark Pcap](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-01.png)
+
+![Stop Pcap](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-02.png)
+
+![Voip Calls Media Test](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-03.png)
+
+![RTP Player](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-04.png)
+
+![RTP Player Analyze](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with-05.png)

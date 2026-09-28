@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-b6d286d690
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html
-retrieved_at: 2026-08-16T22:47:52.023788+00:00
+retrieved_at: 2026-09-28T06:17:29.861959+00:00
 ---
 
 Troubleshoot Media Failure for Calls Over Expressways When SIP Inspection Is Turned On
@@ -80,12 +80,12 @@ Michael Pearson
 
 Cisco TAC Engineer
 
-### Customers Also Viewed
-
-- Troubleshoot Expressway Certificates
-
-- VCS Series or Expressway Series Xconfig and Xstatus Output Collection with PuTTY
-
 ### This Document Applies to These Products
 
 - TelePresence Video Communication Server (VCS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

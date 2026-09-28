@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-213951-jabber-for-mac-quick-start-guide-html-c0f769df93
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html
-retrieved_at: 2026-08-21T07:00:19.387699+00:00
+retrieved_at: 2026-09-28T06:14:47.646199+00:00
 ---
 
 Jabber for Mac - Quick Start Guide
@@ -376,3 +376,9 @@ Cisco TAC
 | Standard CTI Allow Control of Phones Supporting Rollover Mode | Allows control of all CTI devices that support rollover mode. | Used for CTI Control of Cisco Unified IP Phone 6900 series |
 | Standard CTI Allow Control of Phones Supporting Connected Xfer and conf | Allows control of all CTI devices that support connected transfer and conferencing | Used for CTI Control of Cisco Unified IP Phone 9900, 8900, or 8800 series or DX series |
 | Standard CTI Enabled | Enables CTI application control. | Used for CTI control of all other Jabber compatible CTI devices. |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

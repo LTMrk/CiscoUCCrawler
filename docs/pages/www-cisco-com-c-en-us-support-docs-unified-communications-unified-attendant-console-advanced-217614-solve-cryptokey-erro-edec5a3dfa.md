@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217614-solve-cryptokey-erro-edec5a3dfa
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.html
-retrieved_at: 2026-09-07T15:49:02.983367+00:00
+retrieved_at: 2026-09-28T06:18:07.948274+00:00
 ---
 
 Troubleshoot "Crypto Key" Error at CUAC-A Subscriber Installation
@@ -119,3 +119,11 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 03-Jan-2022 | Initial Release |
+
+## Figuras
+
+![Error message.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib-00.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

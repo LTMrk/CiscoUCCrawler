@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-guest-221621-htz-01-2024-download-jabber-profile-pho-ht-d3404908ec
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho.html
-retrieved_at: 2026-08-21T07:05:11.744546+00:00
+retrieved_at: 2026-09-28T06:14:34.657798+00:00
 ---
 
 Download Jabber Profile Photo from Windows LDAP Server.
@@ -141,3 +141,33 @@ Ramesh Balakrishnan
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Feb-2024 | Initial Release |
+
+## Figuras
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Users from the LDAP server show up in the 'CodeTwo Active Directory Photos' software interface.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-00.jpeg)
+
+![Upload an image to a user.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-01.jpeg)
+
+![Image updated for the user.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-02.jpeg)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Enable Advanced Features for Active Directory Users and Computers.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-03.jpeg)
+
+![Open the properties for the user.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-04.jpeg)
+
+![Confirm thumbnailPhoto field is updated with a value.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-05.jpeg)
+
+![Add a Directory service.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-06.jpeg)
+
+![Assign the created directory profile to the Service Profile.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-07.jpeg)
+
+![Ensure the UC Service Profile is assigned to the End User.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-08.jpeg)
+
+![Profile photo shows up in the Jabber.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-guest/221621-htz-01-2024-download-jabber-profile-pho-09.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

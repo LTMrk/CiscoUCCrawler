@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200120-troubleshoot-call-decline-issues-in-jabb-bedae0ca2a
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html
-retrieved_at: 2026-08-21T06:59:49.954170+00:00
+retrieved_at: 2026-09-28T06:15:20.777251+00:00
 ---
 
 Troubleshoot Call Decline Issues in Jabber for Windows
@@ -93,3 +93,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Jabber for Windows
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

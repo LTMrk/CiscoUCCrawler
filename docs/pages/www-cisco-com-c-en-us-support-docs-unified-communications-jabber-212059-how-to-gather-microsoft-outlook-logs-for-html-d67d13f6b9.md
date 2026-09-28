@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212059-how-to-gather-microsoft-outlook-logs-for-html-d67d13f6b9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html
-retrieved_at: 2026-08-21T07:06:27.152859+00:00
+retrieved_at: 2026-09-28T06:16:07.140750+00:00
 ---
 
 How to Gather Microsoft Outlook Logs for Jabber Presence issues
@@ -117,3 +117,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

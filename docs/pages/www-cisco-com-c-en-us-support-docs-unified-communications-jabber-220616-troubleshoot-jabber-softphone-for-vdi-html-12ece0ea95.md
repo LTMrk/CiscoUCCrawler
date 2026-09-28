@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-html-12ece0ea95
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html
-retrieved_at: 2026-08-20T22:14:02.873032+00:00
+retrieved_at: 2026-09-28T06:16:57.070943+00:00
 ---
 
 Troubleshoot Jabber Softphone for VDI - Common Issues
@@ -245,3 +245,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Jul-2023 | Initial Release |
+
+## Figuras
+
+![CTI Connection Failure](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-00.png)
+
+![CSF registered during CTI failure](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-01.png)
+
+![Standard CTI Enable CUCM end user role](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-02.png)
+
+![Directory Number CTI Permissions](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-03.png)
+
+![CUCM Controlled Devices](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-04.png)
+
+![CSF Device CTI Allow Control](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-05.png)
+
+![JVDI SIP Error](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-06.png)
+
+![CUCM CSF Unregistered](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi-07.png)

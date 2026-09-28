@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-119249-config-cuac-00-html-399fade0c1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/119249-config-cuac-00.html
-retrieved_at: 2026-09-07T15:48:41.792923+00:00
+retrieved_at: 2026-09-28T06:18:20.261189+00:00
 ---
 
 Configure Cisco Unified Attendant Console 10.5.x Standard Edition
@@ -101,3 +101,9 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 09-Nov-2015 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

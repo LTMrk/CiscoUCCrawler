@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-iphone-213950-jabber-for-iphone-quick-start-guide-html-7c6db4f6a5
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide.html
-retrieved_at: 2026-08-21T07:00:52.970412+00:00
+retrieved_at: 2026-09-28T06:14:39.286542+00:00
 ---
 
 Jabber for iPhone - Quick Start Guide
@@ -317,3 +317,111 @@ Cisco TAC
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Dec-2018 | Initial Release |
+
+## Figuras
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-00.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-01.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-02.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-03.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-04.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-05.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-06.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-07.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-08.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-09.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-10.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-11.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-12.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-13.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-14.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-15.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-16.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-17.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-18.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-19.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-20.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-21.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-22.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-23.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-24.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-25.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-26.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-27.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-28.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-29.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-30.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-31.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-32.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-33.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-34.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-35.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-36.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-37.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-38.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-39.jpeg)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-40.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-41.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-42.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-43.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-44.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-45.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-46.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-47.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-48.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-49.jpeg)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-iphone/213950-jabber-for-iphone-quick-start-guide-50.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

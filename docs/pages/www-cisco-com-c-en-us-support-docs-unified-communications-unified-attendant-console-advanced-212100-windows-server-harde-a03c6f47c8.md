@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212100-windows-server-harde-a03c6f47c8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.html
-retrieved_at: 2026-09-07T15:49:11.746617+00:00
+retrieved_at: 2026-09-28T06:17:59.679376+00:00
 ---
 
 Windows Server Hardening for Cisco Unified Attendant Console Advanced Server
@@ -248,3 +248,9 @@ Cisco TAC
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 15-Sep-2017 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

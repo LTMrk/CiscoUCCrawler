@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-2aae407ed8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html
-retrieved_at: 2026-08-21T00:00:37.114119+00:00
+retrieved_at: 2026-09-28T06:18:57.361780+00:00
 ---
 
 CUCM Certificate Management and Change Notification
@@ -2708,3 +2708,25 @@ chown certbase:ccmbase /usr/local/platform/.security/tomcat/trust-certs/tomcat-t
 Text of a script can be saved in file, and executed in following way:
 
 bash /root/truststore_repair.sh
+
+## Figuras
+
+![Bug-Preview for CSCul78787](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCto86463](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCth79451](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCup28852](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCtn50405](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCtt95983](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCup71297](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCup54818](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCud49047](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCup88555](https://techzone.cisco.com/html/assets/mag.gif)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116446-technote-product-00-html-48e8741869
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html
-retrieved_at: 2026-08-21T07:00:14.969495+00:00
+retrieved_at: 2026-09-28T06:15:00.052012+00:00
 ---
 
 Jabber for Windows Phone-Only Mode Feature Overview and Installation Tips
@@ -99,3 +99,11 @@ Complete these steps in order to restore full UC IM and Presence to Jabber for W
 - Exit the system and restart the client. Jabber for Windows is now in full UC IM and Presence mode.
 
 Note : For additional information about phone-only mode, reference the Cisco Jabber for Windows 9.2.1 Release Notes .
+
+## Figuras
+
+![116446-technote-product-01.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-01.png)
+
+![116446-technote-product-02.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-02.png)
+
+![116446-technote-product-03.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-03.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-html-1ea7545cdd
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html
-retrieved_at: 2026-09-14T20:13:07.670666+00:00
+retrieved_at: 2026-09-28T06:15:58.723262+00:00
 ---
 
 Collect Logs for UC Applications
@@ -261,3 +261,7 @@ Initial Release
 Added Note that CIPC is EOS. |
 | 2.0 | 17-Mar-2022 | New Links Added |
 | 1.0 | 07-Feb-2017 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

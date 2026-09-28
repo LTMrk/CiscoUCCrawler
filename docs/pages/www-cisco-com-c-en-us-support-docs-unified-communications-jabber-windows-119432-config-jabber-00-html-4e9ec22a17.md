@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-119432-config-jabber-00-html-4e9ec22a17
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/119432-config-jabber-00.html
-retrieved_at: 2026-09-01T21:16:06.358716+00:00
+retrieved_at: 2026-09-28T06:15:16.550506+00:00
 ---
 
 Configure Jabber for Windows 10.5 Call Pickup and Hunt Group Call Answer
@@ -119,3 +119,9 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 14-Jan-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

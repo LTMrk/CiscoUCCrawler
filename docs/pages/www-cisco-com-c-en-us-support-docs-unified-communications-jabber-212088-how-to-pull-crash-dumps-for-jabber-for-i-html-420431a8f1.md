@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212088-how-to-pull-crash-dumps-for-jabber-for-i-html-420431a8f1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html
-retrieved_at: 2026-08-21T07:06:18.773408+00:00
+retrieved_at: 2026-09-28T06:16:23.174963+00:00
 ---
 
 How to Pull Crash Dumps for Jabber for iOS
@@ -95,3 +95,9 @@ Cisco TAC
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

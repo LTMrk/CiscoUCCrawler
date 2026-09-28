@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-c1829d4876
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html
-retrieved_at: 2026-08-21T12:49:05.140514+00:00
+retrieved_at: 2026-09-28T06:18:36.846593+00:00
 ---
 
 Troubleshoot Jabber Log in Problems -  Non MRA
@@ -158,3 +158,21 @@ AM Mahesh Babu
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Apr-2023 | Initial Release |
+
+## Figuras
+
+![1 Login flow](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-00.png)
+
+![2 Set debug](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-01.png)
+
+![3 Collect RTMT logs](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-02.png)
+
+![4 Trace RTMT logs](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-03.png)
+
+![5 cluster CLI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-04.png)
+
+![7 Configuration GUI](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

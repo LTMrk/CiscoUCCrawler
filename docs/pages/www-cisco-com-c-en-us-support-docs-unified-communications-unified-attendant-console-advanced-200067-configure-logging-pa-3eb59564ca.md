@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200067-configure-logging-pa-3eb59564ca
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html
-retrieved_at: 2026-09-07T15:48:33.890106+00:00
+retrieved_at: 2026-09-28T06:17:34.180999+00:00
 ---
 
 Configure Logging Path for CUAC Advanced Server
@@ -95,3 +95,9 @@ There is currently no specific troubleshooting information available for this co
 Contributed by Cisco Engineers
 
 ### Contributed by Cisco Engineers
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

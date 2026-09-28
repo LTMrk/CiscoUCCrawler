@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212833-configure-jabber-group-configuration-fil-html-5582e3c8ff
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html
-retrieved_at: 2026-08-21T07:05:37.058648+00:00
+retrieved_at: 2026-09-28T06:16:35.418201+00:00
 ---
 
 Configure Jabber Group Configuration File in Non-Telephony Deployment
@@ -99,3 +99,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

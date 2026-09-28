@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217593-troubleshoot-no-repl-6d30296d22
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.html
-retrieved_at: 2026-09-07T15:49:07.275559+00:00
+retrieved_at: 2026-09-28T06:18:03.694731+00:00
 ---
 
 Troubleshoot "No Replication Records Found" in CUAC Advanced Replication Report
@@ -73,3 +73,13 @@ Cisco TAC
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 14-Dec-2021 | Initial Release |
+
+## Figuras
+
+![No replication records found within the Replication Report](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou-00.png)
+
+![DBC_XML_File.xml File location within the Windows Server](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

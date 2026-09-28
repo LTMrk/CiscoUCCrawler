@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212082-how-to-collect-jabber-crash-dump-on-appl-html-2aceaeed4f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html
-retrieved_at: 2026-08-21T07:06:14.801163+00:00
+retrieved_at: 2026-09-28T06:16:14.953788+00:00
 ---
 
 How to collect Jabber Crash Dump on Apple iPhone or iPad
@@ -101,3 +101,9 @@ Cisco TAC Engineer
 | Mac OS X: | ~/Library/Logs/CrashReporter/MobileDevice/<DEVICE_NAME> |
 | Windows XP | C:\Documents and Settings\<USERNAME>\Application Data\Apple Computer\Logs\CrashReporter\MobileDevice\<DEVICE_NAME> |
 | Windows Vista or 7 | C:\Users\<USERNAME>\AppData\Roaming\Apple Computer\Logs\CrashReporter\MobileDevice\<DEVICE_NAME> |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

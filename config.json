@@ -256,6 +256,17 @@
   "sitemaps": [
     "https://developer.cisco.com/data/sitemaps/pubhub.xml"
   ],
+  "_doc_custom_behaviors": [
+    "El js_code se concatena con la purga de SELECTORES_RUIDO_CSS y se",
+    "ejecuta como cuerpo de funcion asincrona. Para comprobar que no se ha",
+    "colado un error de sintaxis, sin levantar el navegador:",
+    "  node --check <(echo '(async () => {'; ...; echo '})')",
+    "developer.cisco.com duerme 2,5 s fijos. El 2026-09-28 se probo a",
+    "esperar hasta 8 s a que hubiera 40 enlaces, por si el indice del",
+    "doc-set no acababa de pintarse: se revisitaron 53 de las 59 raices y",
+    "no aparecio NI UNA URL nueva. El tiempo de pintado no es la causa, y",
+    "ocho segundos por pagina no se pagan por nada. Ver CLAUDE.md."
+  ],
   "custom_behaviors": [
     {
       "pattern": "www.cisco.com/c/en/us/td/docs",

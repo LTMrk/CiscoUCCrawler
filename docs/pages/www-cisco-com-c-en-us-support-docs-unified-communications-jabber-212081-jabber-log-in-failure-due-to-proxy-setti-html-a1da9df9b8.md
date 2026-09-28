@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212081-jabber-log-in-failure-due-to-proxy-setti-html-a1da9df9b8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html
-retrieved_at: 2026-08-21T07:06:06.289559+00:00
+retrieved_at: 2026-09-28T06:16:11.191274+00:00
 ---
 
 Jabber Log in Failure Due To Proxy Settings
@@ -99,3 +99,9 @@ Cisco TAC Engineers
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

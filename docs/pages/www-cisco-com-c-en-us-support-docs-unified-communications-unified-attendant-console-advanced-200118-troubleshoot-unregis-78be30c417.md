@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200118-troubleshoot-unregis-78be30c417
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.html
-retrieved_at: 2026-09-07T15:49:32.602832+00:00
+retrieved_at: 2026-09-28T06:17:38.596051+00:00
 ---
 
 Troubleshoot unregistered CTI ports after upgrade to CUAC 10.5 or Re-install of TSP
@@ -111,3 +111,9 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - Unified Attendant Consoles
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

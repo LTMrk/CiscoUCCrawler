@@ -57,8 +57,12 @@ que ese dominio era "una SPA que devuelve un shell vacío": era falso, y por
 esa creencia se perdieron 127 URLs de Finesse, CVP, PCCE y UCCX.
 
 **El índice de `/docs/` lo construye JavaScript**: rastrearlo no descubre
-ningún doc-set. El descubrimiento va por el sitemap de PubHub, declarado en
-`config.sitemaps`.
+ningún doc-set. Los doc-sets salen del sitemap de PubHub, declarado en
+`config.sitemaps`. Pero **el sitemap trae UNA sola URL por doc-set, la
+raíz**, y nada más: los capítulos solo pueden salir de los enlaces de esa
+página. Comprobado en el sondeo del 2026-09-28. Esa extracción de enlaces
+funciona —`docs/finesse` tiene 24 hijos y `docs/contact-center-express`
+23—, así que un doc-set flaco no es un fallo del mecanismo.
 
 **`robots.txt` de DevNet prohíbe `/web/`**, donde viven las versiones legacy
 de CURRI, SXML, JTAPI y TAPI. Pero `/site/curri/` y `/site/sxml/` SÍ están
@@ -178,12 +182,22 @@ debería", sospecha del consumo antes que de las regex.
   reevalúa la URL sin el sufijo contra el resto de `blocked_regex`. El corte
   de cuatro caracteres solo es correcto si todo patrón termina en `\.pdf$`,
   y `tests/test_pdf.py` falla si alguno no lo hace.
-- Las raíces de doc-set de DevNet siguen sin servir contenido:
-  `/docs/axl-schema-reference/` da 0 caracteres tras sanitizar (queda
-  `failed`) y `/docs/serviceability/` responde 404 (`gone`), como
-  `/docs/unity-connection/`. `/docs/axl/axl-developer-guide/` sí entra
-  (`active`), pero no enlaza sus capítulos: el índice también lo pinta
-  JavaScript. Las semillas no bastan; queda el `js_code`.
+- **El tiempo de pintado NO es la causa de los doc-sets flacos, y está
+  medido.** El 2026-09-28 se cambió el `js_code` de developer.cisco.com
+  para esperar hasta 8 s a que la página tuviera 40 enlaces, en vez de
+  dormir 2,5 s. Se adelantó el `next_check` de las raíces, se revisitaron
+  **53 de 59** y no apareció **ni una URL nueva**: 344 antes y 344 después,
+  doc-set por doc-set idéntico. Se revirtió, porque ocho segundos por
+  página no se pagan por nada. Queda descartada con medida, no por
+  opinión. Lo que sigue sin saberse es por qué `docs/finesse` expone 24
+  capítulos y `docs/webex-calling` uno. **El siguiente paso honesto es
+  mirar el DOM renderizado de una raíz flaca**, que hoy no se puede:
+  `tools/probe_devnet.py` es stdlib y no ejecuta JavaScript. Sin ese dato,
+  cualquier cambio de `js_code` es otra suposición.
+- Raíces de DevNet que no sirven contenido:
+  `/docs/axl-schema-reference/` da 0 caracteres tras sanitizar (`failed`) y
+  `/docs/serviceability/` responde 404 (`gone`), como
+  `/docs/unity-connection/`.
 - **`paquete.yml` no es del todo stdlib pura.** `copilot_pack.py` sí lo es,
   pero `tests/test_copilot_pack.py` importa `crawler_ai` para comprobar que
   la allowlist y la taxonomía salen de `devnet_docsets`, y eso arrastra

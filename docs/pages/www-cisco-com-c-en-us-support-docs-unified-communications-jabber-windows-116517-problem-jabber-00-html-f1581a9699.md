@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116517-problem-jabber-00-html-f1581a9699
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116517-problem-jabber-00.html
-retrieved_at: 2026-08-21T07:00:11.025597+00:00
+retrieved_at: 2026-09-28T06:15:04.108596+00:00
 ---
 
 Jabber for Windows Issue with Voicemail Credentials
@@ -68,6 +68,24 @@ Note : The User Must Change at Next Sign-in setting is often the default setting
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Scott Hills and Deliana Dalton
+
+Cisco TAC Engineers.
+
+### This Document Applies to These Products
+
+- Jabber for Windows
+
+- Unity Connection
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 23-Sep-2013 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

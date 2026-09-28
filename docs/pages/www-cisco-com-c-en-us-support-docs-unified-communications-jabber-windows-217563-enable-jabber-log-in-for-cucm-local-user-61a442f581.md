@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-217563-enable-jabber-log-in-for-cucm-local-user-61a442f581
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html
-retrieved_at: 2026-08-21T06:57:18.983483+00:00
+retrieved_at: 2026-09-28T06:15:50.263238+00:00
 ---
 
 Enable Jabber Log in for CUCM Local Users in an SSO Environment
@@ -80,7 +80,23 @@ Initial Release
 
 Initial Release
 
+### Contributed by Cisco Engineers
+
+Luis Miranda
+
+Cisco TAC
+
+### This Document Applies to These Products
+
+- Jabber for Windows
+
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 2.0 | 17-Nov-2021 | Initial Release |
 | 1.0 | 17-Nov-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

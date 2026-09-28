@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212107-tech-note-on-cti-manager-call-flow-for-j-html-e5f2ef459f
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html
-retrieved_at: 2026-08-21T07:06:10.365758+00:00
+retrieved_at: 2026-09-28T06:16:27.201393+00:00
 ---
 
 Tech Note on CTI Manager Call Flow for Jabber Deskphone Control Request
@@ -234,3 +234,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Jabber
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
