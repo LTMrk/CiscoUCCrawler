@@ -401,6 +401,89 @@ def test_rotar_error_log_sin_fichero_no_revienta():
         assert ca.rotar_error_log(os.path.join(d, "no-existe.log")) == (0, 0)
 
 
+# --- componer_frontera ------------------------------------------------
+# Es la decision que ya se rompio dos veces y en las dos el sintoma fue
+# silencio: las semillas entraban, pero detras de 7.388 URL, o sea 62 lotes
+# y once horas. Un rastreo "correcto" que no rastreaba nada nuevo.
+
+def _siempre(_url):
+    return True
+
+
+def test_las_semillas_van_delante_de_la_frontera_arrastrada():
+    arrastradas = [(f"https://x/vieja{i}", 3) for i in range(50)]
+    orden, nuevas, viejas = ca.componer_frontera(
+        {"https://x/semilla"}, arrastradas, _siempre)
+    assert orden[0] == ("https://x/semilla", 0), orden[:2]
+    assert (nuevas, viejas) == (1, 50)
+    assert len(orden) == 51
+
+
+def test_una_semilla_ya_en_la_frontera_no_se_duplica_y_entra_delante():
+    # Caso real: la semilla quedo pendiente del lote anterior a profundidad
+    # 2. Si se encolara dos veces se rastrearia dos veces; si solo valiera
+    # la copia arrastrada, volveria al fondo de la cola.
+    orden, nuevas, viejas = ca.componer_frontera(
+        {"https://x/a"}, [("https://x/a", 2), ("https://x/b", 1)], _siempre)
+    assert orden == [("https://x/a", 0), ("https://x/b", 1)]
+    assert (nuevas, viejas) == (1, 1)
+
+
+def test_debe_visitar_filtra_las_candidatas():
+    # Una semilla con TTL vigente no se recrawlea en cada lote: es lo que
+    # hace que ponerlas delante cueste un solo lote y no todos.
+    orden, nuevas, _ = ca.componer_frontera(
+        {"https://x/fresca", "https://x/vencida"}, [],
+        lambda u: u.endswith("vencida"))
+    assert orden == [("https://x/vencida", 0)]
+    assert nuevas == 1
+
+
+def test_la_frontera_arrastrada_no_pasa_por_debe_visitar():
+    # A proposito: el filtro real esta dentro del bucle, justo antes de
+    # pedir la URL. Si se filtrara tambien aqui, una URL que vence a mitad
+    # del lote se perderia hasta el siguiente.
+    orden, _, viejas = ca.componer_frontera(
+        set(), [("https://x/a", 1)], lambda _u: False)
+    assert orden == [("https://x/a", 1)]
+    assert viejas == 1
+
+
+def test_las_candidatas_se_encolan_en_orden_estable():
+    # `sorted`: sin el, el orden de un set varia entre ejecuciones y dos
+    # lotes identicos rastrearian cosas distintas al agotar presupuesto.
+    orden, _, _ = ca.componer_frontera(
+        {"https://x/c", "https://x/a", "https://x/b"}, [], _siempre)
+    assert [u for u, _ in orden] == ["https://x/a", "https://x/b", "https://x/c"]
+
+
+# --- clasificar_cuerpo ------------------------------------------------
+
+def test_pagina_con_cuerpo_es_contenido():
+    assert ca.clasificar_cuerpo("x" * ca.MIN_MARKDOWN, []) == "contenido"
+    # El minimo es inclusivo por un lado y no por el otro: se comprueba el
+    # borde porque un off-by-one aqui manda paginas validas a fallo.
+    assert ca.clasificar_cuerpo("x" * (ca.MIN_MARKDOWN - 1), []) == "fallo"
+
+
+def test_pagina_sin_cuerpo_pero_con_enlaces_es_descubrimiento():
+    # La pagina de seccion de PubHub. Tratarla como fallo la aparca catorce
+    # dias y se lleva por delante medio doc-set.
+    assert ca.clasificar_cuerpo("", ["https://x/cap1"]) == "descubrimiento"
+    assert ca.clasificar_cuerpo("corto", ["https://x/cap1"]) == "descubrimiento"
+
+
+def test_pagina_sin_cuerpo_y_sin_enlaces_es_fallo():
+    assert ca.clasificar_cuerpo("", []) == "fallo"
+    assert ca.clasificar_cuerpo(None, []) == "fallo"
+
+
+def test_el_cuerpo_manda_sobre_los_enlaces():
+    # Una pagina larga CON enlaces es contenido, no descubrimiento: si no,
+    # ninguna pagina normal se indexaria, porque casi todas tienen enlaces.
+    assert ca.clasificar_cuerpo("x" * 500, ["https://x/a"]) == "contenido"
+
+
 if __name__ == "__main__":
     pruebas = [v for k, v in sorted(globals().items())
                if k.startswith("test_") and callable(v)]

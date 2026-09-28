@@ -220,7 +220,11 @@ debería", sospecha del consumo antes que de las regex.
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:
   www.cisco.com, developer.cisco.com, help.webex.com y roomos.cisco.com.
 - `deep_crawl()` no tiene cobertura: es el bucle de E/S. Sus decisiones sí
-  están extraídas y probadas (`decidir_redireccion`, `parsear_sitemap`).
+  están extraídas y probadas: `decidir_redireccion`, `parsear_sitemap`,
+  `componer_frontera` y `clasificar_cuerpo`. Las dos últimas se sacaron
+  porque son justo las que ya se rompieron en silencio: el orden de la
+  frontera costó 62 lotes, y tratar una página de sección como fallo se
+  llevaba medio doc-set.
 
 ## Convenciones
 
