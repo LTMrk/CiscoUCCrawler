@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-o1-html-8f6912a808
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-o1.html
-retrieved_at: 2026-08-16T23:18:38.589513+00:00
+retrieved_at: 2026-09-28T10:53:38.854736+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -2026,3 +2026,7 @@ Configures the media policing profile.
 | Command | Description |
 |---|---|
 | media profile police | Configures the media policing profile. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

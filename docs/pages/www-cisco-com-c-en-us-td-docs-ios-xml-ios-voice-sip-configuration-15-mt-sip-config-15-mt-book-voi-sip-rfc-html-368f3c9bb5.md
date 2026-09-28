@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-rfc-html-368f3c9bb5
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-rfc.html
-retrieved_at: 2026-08-16T23:08:21.029427+00:00
+retrieved_at: 2026-09-28T10:52:32.129011+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -3715,3 +3715,30 @@ Last time SIP Statistics were cleared: <never> |
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and
                                           resolving technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product
                                           Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/cisco/web/support/index.html |
+
+## Figuras
+
+![Figure 1. UPDATE for Early Media](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98764.ps/_jcr_content/renditions/98764.jpg)
+
+![Figure 2. Initial UPDATE Rejected](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98765.ps/_jcr_content/renditions/98765.jpg)
+
+![Figure 3. UPDATE Request for Delayed Media](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98766.ps/_jcr_content/renditions/98766.jpg)
+
+![Figure 4. UPDATE Request Failure for Delayed Media](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98767.ps/_jcr_content/renditions/98767.jpg)
+
+![Figure 5. Error Cases for UPDATE Requests](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98769.ps/_jcr_content/renditions/98769.jpg)
+
+![Figure 6. UPDATE Request in the Active State](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98770.ps/_jcr_content/renditions/98770.jpg)
+
+![Figure 7. Error Response to an UPDATE Request in the Active State](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98771.ps/_jcr_content/renditions/98771.jpg)
+
+![Figure 8. Re-INVITE Request Rejected With a 5xx Response](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98772.ps/_jcr_content/renditions/98772.jpg)
+
+![Figure 9. Dialog Termination After a 481 or 408 Response to Re-INVITE
+                                    		  Request](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98773.ps/_jcr_content/renditions/98773.jpg)
+
+![Figure 10. Offer in PRACK Accepted](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98774.ps/_jcr_content/renditions/98774.jpg)
+
+![Figure 11. Reliable Provisional Response Failure](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/98001-99000/98775.ps/_jcr_content/renditions/98775.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

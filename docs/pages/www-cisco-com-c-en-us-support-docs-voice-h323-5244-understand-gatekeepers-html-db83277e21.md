@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-h323-5244-understand-gatekeepers-html-db83277e21
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/h323/5244-understand-gatekeepers.html
-retrieved_at: 2026-08-21T07:17:39.720681+00:00
+retrieved_at: 2026-09-28T10:50:14.043454+00:00
 ---
 
 Understanding H.323 Gatekeepers
@@ -275,3 +275,35 @@ Note: Refer to Understanding Cisco IOS Gatekeeper Call Routing for more informat
 | BRJ (Bandwith_Reject) | Sent by the gatekeeper and rejects the bandwidth change request. |
 | RAI (Resource Availability Indicator) | This is used by gateways to inform the gatekeeper whether resources are available in the gateway to take on additional calls. |
 | RAC (Resource Availability Confirm) | Notification from the gatekeeper to the gateway that acknowledges the reception of the RAI message. |
+
+## Figuras
+
+![leavingcisco.com](https://www.cisco.com/swa/i/icon_popup_short.gif)
+
+![gk-zones.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-zones.gif)
+
+![gk-01.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-01.gif)
+
+![h323-scope.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-h323-scope.gif)
+
+![gk-discovery.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-discovery.gif)
+
+![gk-registration.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-registration.gif)
+
+![gk-direct-call-sig.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-direct-call-sig.gif)
+
+![gkrcs-2.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gkrcs-2.gif)
+
+![intra-zone-call.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-intra-zone-call.gif)
+
+![inter-zone-call.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-inter-zone-call.gif)
+
+![inter-zone-directory-call.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-inter-zone-directory-call.gif)
+
+![inter-zone-proxy-call.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-inter-zone-proxy-call.gif)
+
+![gk-call-disconnect.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-call-disconnect.gif)
+
+![gk-scaling.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-gk-scaling.gif)
+
+![ras-messages.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/5244-ras-messages.gif)

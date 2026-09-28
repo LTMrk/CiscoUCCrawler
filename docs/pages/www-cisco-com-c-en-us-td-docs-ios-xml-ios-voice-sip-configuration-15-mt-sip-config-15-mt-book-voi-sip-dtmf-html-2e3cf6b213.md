@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-dtmf-html-2e3cf6b213
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-dtmf.html
-retrieved_at: 2026-08-20T23:45:49.637936+00:00
+retrieved_at: 2026-09-28T10:51:51.534052+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -2058,3 +2058,10 @@ SIP UAS CALL INFO
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and
                                           resolving technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product
                                           Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/cisco/web/support/index.html |
+
+## Figuras
+
+![Figure 1. Message Format of
+                              		  NOTIFY-Based Out-of-Band DTMF Relay](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/95001-96000/95051.ps/_jcr_content/renditions/95051.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

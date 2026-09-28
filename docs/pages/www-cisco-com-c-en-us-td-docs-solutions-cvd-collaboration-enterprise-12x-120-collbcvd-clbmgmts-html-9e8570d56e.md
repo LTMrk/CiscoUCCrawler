@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-clbmgmts-html-9e8570d56e
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd/clbmgmts.html
-retrieved_at: 2026-08-16T18:24:37.767174+00:00
+retrieved_at: 2026-09-28T10:55:41.848967+00:00
 ---
 
 Preferred Architecture for Cisco Collaboration 12.x Enterprise On-Premises Deployments, CVD
@@ -411,3 +411,19 @@ https://www.cisco.com/c/en/us/support/cloud-systems-management/prime-collaborati
 | Cisco Unified CM and IM and Presence Service | AXL SOAP over HTTPS API |
 | Cisco Unity Connection | REST and SQL over HTTPS |
 | Directory servers (Microsoft Active Directory) | LDAP over HTTPS (recommended) or LDAP over HTTP |
+
+## Figuras
+
+![349649.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349649.eps/_jcr_content/renditions/349649.jpg)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![313164.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313164.eps/_jcr_content/renditions/313164.jpg)
+
+![313128.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313128.eps/_jcr_content/renditions/313128.jpg)
+
+![349648.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349648.eps/_jcr_content/renditions/349648.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

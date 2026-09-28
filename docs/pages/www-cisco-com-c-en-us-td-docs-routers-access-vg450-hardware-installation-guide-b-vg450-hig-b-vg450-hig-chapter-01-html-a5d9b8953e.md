@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-chapter-01-html-a5d9b8953e
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_chapter_01.html
-retrieved_at: 2026-08-22T01:15:30.807278+00:00
+retrieved_at: 2026-09-28T10:55:15.806970+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -354,3 +354,7 @@ Initial operation verified
 | Signal distance limits verified |  |  |
 | Startup sequence steps completed |  |  |
 | Initial operation verified |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

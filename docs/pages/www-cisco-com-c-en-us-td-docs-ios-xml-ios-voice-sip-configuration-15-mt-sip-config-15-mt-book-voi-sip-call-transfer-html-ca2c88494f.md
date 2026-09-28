@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-call-transfer-html-ca2c88494f
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-call-transfer.html
-retrieved_at: 2026-08-20T23:45:13.960531+00:00
+retrieved_at: 2026-09-28T10:51:47.509489+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -2813,3 +2813,29 @@ comet 500, prack 500, rel1xx 500, notify 500 |
 | Note | To locate a release-specific configuration guide for your Cisco IOS software release, select the Cisco IOS and NX-OS Software
                                           category at the following Product Support page and navigate accordingly: http://www.cisco.com/web/psa/products/index.html . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Successful Refer Transaction](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/60001-65000/62001-63000/62158.ps/_jcr_content/renditions/62158.jpg)
+
+![Figure 2. Successful Blind or Unattended Transfer--Originator Initiating a Bye Request](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88031.ps/_jcr_content/renditions/88031.jpg)
+
+![Figure 3. Successful Blind or Unattended Transfer --Recipient Initiating a Bye Request](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88032.ps/_jcr_content/renditions/88032.jpg)
+
+![Figure 4. Failed Blind Transfer--Originator Returns to Original Call with Recipient](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88033.ps/_jcr_content/renditions/88033.jpg)
+
+![Figure 5. Successful Attended Transfer](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/60001-65000/62001-63000/62373.ps/_jcr_content/renditions/62373.jpg)
+
+![Figure 6. Attended Transfer with Early Completion](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88034.ps/_jcr_content/renditions/88034.jpg)
+
+![Figure 7. Call Transfer Using the Refer Method](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82893.ps/_jcr_content/renditions/82893.jpg)
+
+![Figure 8. Successful Attended Call Transfer Initiated by the
+                                    		  Originator](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82894.ps/_jcr_content/renditions/82894.jpg)
+
+![Figure 9. Unsuccessful Call Transfer--Recipient Hangs Up Before Transfer
+                                    		  Completes](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82895.ps/_jcr_content/renditions/82895.jpg)
+
+![Figure 10. Blind Call Transfer](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82932.ps/_jcr_content/renditions/82932.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

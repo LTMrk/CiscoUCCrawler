@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-appendix-0101-htm-d35098c965
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_appendix_0101.html
-retrieved_at: 2026-08-22T01:13:14.913697+00:00
+retrieved_at: 2026-09-28T10:54:13.329222+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -551,3 +551,15 @@ RX–
 | 6 | RX– |
 | 7 | – |
 | 8 | – |
+
+## Figuras
+
+![Figure 1. Console Port to PC—Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367806.jpg)
+
+![Figure 2. Console Port to ASCII Terminal—Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367807.jpg)
+
+![Figure 3. Auxiliary Port to Modem—Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367808.jpg)
+
+![Figure 4. RJ-45 Connector Wiring](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367809.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

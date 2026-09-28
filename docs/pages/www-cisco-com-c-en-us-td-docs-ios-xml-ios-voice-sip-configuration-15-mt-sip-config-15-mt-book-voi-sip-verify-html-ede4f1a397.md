@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-verify-html-ede4f1a397
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-verify.html
-retrieved_at: 2026-08-20T23:46:10.286658+00:00
+retrieved_at: 2026-09-28T10:52:57.440938+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -535,3 +535,7 @@ comet 500, prack 500, rel1xx 500, notify 500 refer 500, register 500 |
 
 | Note | Commands are listed in alphabetical order. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220386-set-up-voicemail-passcode-and-unlock-voi--9b25b45a1c
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.html
-retrieved_at: 2026-08-21T07:12:32.522227+00:00
+retrieved_at: 2026-09-28T10:49:02.574757+00:00
 ---
 
 Set-up Voicemail Passcode and Unlock Voice Portal
@@ -173,3 +173,13 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 12-Apr-2023 | Initial Release |
+
+## Figuras
+
+![Voice Portal Passcode](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi-00.png)
+
+![Default Voicemail Passcode](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi-01.png)
+
+![New User who has not Configured Voice Portal](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi-02.png)
+
+![Voice Portal Locked](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi-03.png)

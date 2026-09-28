@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-14-hybcvd-preface-html-0109a5fbb0
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd/preface.html
-retrieved_at: 2026-08-16T18:23:41.790352+00:00
+retrieved_at: 2026-09-28T10:57:24.823561+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -179,3 +179,19 @@ Warning Statements using this symbol are provided for additional information and
 | < > | Nonprinting characters such as passwords are in angle brackets. |
 | [ ] | Default responses to system prompts are in square brackets. |
 | !, # | An exclamation point (!) or a pound sign (#) at the beginning of a line of code indicates a comment line. |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![tip.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![caut.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![timesave.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/timesave.gif)
+
+![warn.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

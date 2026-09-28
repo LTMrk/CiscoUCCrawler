@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.html
-retrieved_at: 2026-09-01T20:43:02.562391+00:00
+retrieved_at: 2026-09-28T10:48:50.134291+00:00
 ---
 
 Configure Customer Voice Portal (CVP) Reporting Server Database User Password
@@ -191,3 +191,11 @@ TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 30-Jan-2023 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

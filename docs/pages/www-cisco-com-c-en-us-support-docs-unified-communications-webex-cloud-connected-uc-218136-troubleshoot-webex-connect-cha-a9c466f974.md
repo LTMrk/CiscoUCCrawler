@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218136-troubleshoot-webex-connect-cha-a9c466f974
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.html
-retrieved_at: 2026-08-21T12:49:13.468835+00:00
+retrieved_at: 2026-09-28T10:49:06.722278+00:00
 ---
 
 Troubleshoot Webex Connect Chat Creation Failure Error at Create Task Node
@@ -93,3 +93,25 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Sep-2022 | Initial Release |
+
+## Figuras
+
+![Error: This conversation has closed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-00.png)
+
+![Error seen at Create Task node](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-01.png)
+
+![Livechat User ID example](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-02.png)
+
+![Input Variables fields match](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-03.png)
+
+![Chat template Name and Email fields](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-04.png)
+
+![Chat template verify Name and Email fields](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-05.png)
+
+![Confirm change](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-06.png)
+
+![Create Task](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation-07.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

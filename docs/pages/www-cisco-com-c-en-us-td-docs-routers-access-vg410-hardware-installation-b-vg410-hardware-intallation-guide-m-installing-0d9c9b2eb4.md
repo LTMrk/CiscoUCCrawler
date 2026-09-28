@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-m-installing-0d9c9b2eb4
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-installing-the-cisco-vg410-voice-gateway.html
-retrieved_at: 2026-08-22T01:13:48.470388+00:00
+retrieved_at: 2026-09-28T10:54:46.419662+00:00
 ---
 
 Cisco VG410 Voice Gateway Hardware Installation Guide
@@ -321,3 +321,23 @@ Connect the opposite end of the grounding wire to the appropriate grounding poin
                                        Do not over tighten the screws. |
 | Step 7 | Connect the opposite end of the grounding wire to the appropriate grounding point at your site to ensure an adequate chassis
                                        ground. Figure 8. Chassis Grounding |
+
+## Figuras
+
+![Figure 1. Attach the Mounting Brackets](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358153.jpg)
+
+![Figure 2. I/O Side Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358192.jpg)
+
+![Figure 3. Mid mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358155.jpg)
+
+![Figure 4. Power Socket Side Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358193.jpg)
+
+![Figure 5. Front Mounted in Rack](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358152.jpg)
+
+![Figure 6. Location of the Feet](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358258.jpg)
+
+![Figure 7. Application of the Foot](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358259.jpg)
+
+![Figure 8. Chassis Grounding](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358032.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

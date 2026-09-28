@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-p2-html-535880a101
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-p2.html
-retrieved_at: 2026-08-16T23:13:52.882006+00:00
+retrieved_at: 2026-09-28T10:53:54.705470+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -7689,3 +7689,7 @@ Specifies the pulse dialing rate for a specified voice port.
 | Command | Description |
 |---|---|
 | timing pulse | Specifies the pulse dialing rate for a specified voice port. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

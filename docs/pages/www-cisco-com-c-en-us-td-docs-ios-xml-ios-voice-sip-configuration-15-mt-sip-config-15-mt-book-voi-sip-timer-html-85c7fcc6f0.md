@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-timer-html-85c7fcc6f0
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-timer.html
-retrieved_at: 2026-08-16T23:08:11.330105+00:00
+retrieved_at: 2026-09-28T10:52:49.918056+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -11302,3 +11302,66 @@ Total subscription requests sent = 3 |
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and
                                           resolving technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product
                                           Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![Figure 1. Wholesaler SIP Network](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82891.ps/_jcr_content/renditions/82891.jpg)
+
+![Figure 2. SIP-to-PSTN Default Call Flow with Remote-Party-ID](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82889.ps/_jcr_content/renditions/82889.jpg)
+
+![Figure 3. PSTN-to-SIP Default Call Flow with Remote-Party-ID Translation, No Privacy Requested](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82890.ps/_jcr_content/renditions/82890.jpg)
+
+![Figure 4. Discarding Calling Name and Number at Gateway](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72379.ps/_jcr_content/renditions/72379.jpg)
+
+![Figure 5. Overriding Calling Name and Number at Gateway](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72380.ps/_jcr_content/renditions/72380.jpg)
+
+![Figure 6. Overriding Calling Name and Number of From Header](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72382.ps/_jcr_content/renditions/72382.jpg)
+
+![Figure 7. Passing OLI from CAS to SIP](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72384.ps/_jcr_content/renditions/72384.jpg)
+
+![Figure 8. PSTN-to-SIP Call Flow with Remote-Party-ID Translation, No Privacy Requested](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72381.ps/_jcr_content/renditions/72381.jpg)
+
+![Figure 9. PSTN-to-SIP Call Flow with Remote-Party-ID, Privacy Requested](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72383.ps/_jcr_content/renditions/72383.jpg)
+
+![Figure 10. PSTN Interworking Using Reason Header Example](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103768.ps/_jcr_content/renditions/103768.jpg)
+
+![Figure 11. Reason Header in Action; Extinguishing the Ambiguity in SIP Status
+                                    		  Codes](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103769.ps/_jcr_content/renditions/103769.jpg)
+
+![Figure 12. Calling Name in Facility IE of Facility](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103770.ps/_jcr_content/renditions/103770.jpg)
+
+![Figure 13. SUBSCRIBE and NOTIFY Message Flow](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/89001-90000/89013.ps/_jcr_content/renditions/89013.jpg)
+
+![Figure 14. Successful Subscription](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88101.ps/_jcr_content/renditions/88101.jpg)
+
+![Figure 15. Subscription Completed](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88102.ps/_jcr_content/renditions/88102.jpg)
+
+![Figure 16. Subscription Termination by the Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88103.ps/_jcr_content/renditions/88103.jpg)
+
+![Figure 17. Subscription Termination by the Client](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88104.ps/_jcr_content/renditions/88104.jpg)
+
+![Figure 18. Successful Refer transaction](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135240.ps/_jcr_content/renditions/135240.jpg)
+
+![Figure 19. Successful Blind or Unattended Transfer--Originator Initiating a Bye Request](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135246.ps/_jcr_content/renditions/135246.jpg)
+
+![Figure 20. Successful Blind or Unattended Transfer--Recipient Initiating a Bye Request](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135247.ps/_jcr_content/renditions/135247.jpg)
+
+![Figure 21. Failed Blind Transfer--Originator Returns to Original Call with Recipient](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135248.ps/_jcr_content/renditions/135248.jpg)
+
+![Figure 22. Successful Attended Transfer](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135241.ps/_jcr_content/renditions/135241.jpg)
+
+![Figure 23. Attended Transfer with Early Completion](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135249.ps/_jcr_content/renditions/135249.jpg)
+
+![Figure 24. Call Transfer Using the Refer Message Request](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135242.ps/_jcr_content/renditions/135242.jpg)
+
+![Figure 25. Successful Attended Call Transfer Initiated by the
+                                       		  Originator](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135243.ps/_jcr_content/renditions/135243.jpg)
+
+![Figure 26. Unsuccessful Call Transfer--Recipient Hangs Up Before Transfer
+                                       		  Completes](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/135001-136000/135244.ps/_jcr_content/renditions/135244.jpg)
+
+![Figure 27. Message Format of NOTIFY-Based Out-of-Band DTMF Relay](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/95001-96000/95051.ps/_jcr_content/renditions/95051.jpg)
+
+![Figure 28. Successful QoS Call Establishment](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127864.ps/_jcr_content/renditions/127864.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

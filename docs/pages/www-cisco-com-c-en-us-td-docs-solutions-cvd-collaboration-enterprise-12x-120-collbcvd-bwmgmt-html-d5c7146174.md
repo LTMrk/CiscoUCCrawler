@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-bwmgmt-html-d5c7146174
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd/bwmgmt.html
-retrieved_at: 2026-08-16T18:24:48.002736+00:00
+retrieved_at: 2026-09-28T10:55:38.208305+00:00
 ---
 
 Preferred Architecture for Cisco Collaboration 12.x Enterprise On-Premises Deployments, CVD
@@ -1731,3 +1731,99 @@ Or 2 calls @ 576p (768 kbps) + 5 calls @ 288p (320 kbps) = 3136 kbps
 | Video_1.5MB | 1,500 kbps | 1,500 kbps | 1,500 kbps |
 | Video_2.5MB | 1,500 kbps | 2,500 kbps | 2,500 kbps |
 | Video_20MB | 1,500 kbps | 2,500 kbps | 20,000 kbps |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![349564.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349564.eps/_jcr_content/renditions/349564.jpg)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![313160.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313160.eps/_jcr_content/renditions/313160.jpg)
+
+![349566.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349566.eps/_jcr_content/renditions/349566.jpg)
+
+![349567.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349567.eps/_jcr_content/renditions/349567.jpg)
+
+![349568.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349568.eps/_jcr_content/renditions/349568.jpg)
+
+![313349.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313349.eps/_jcr_content/renditions/313349.jpg)
+
+![313350.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313350.eps/_jcr_content/renditions/313350.jpg)
+
+![313351.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313351.eps/_jcr_content/renditions/313351.jpg)
+
+![349572.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349572.eps/_jcr_content/renditions/349572.jpg)
+
+![349573.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349573.eps/_jcr_content/renditions/349573.jpg)
+
+![caut.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![349574.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349574.eps/_jcr_content/renditions/349574.jpg)
+
+![313352.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313352.eps/_jcr_content/renditions/313352.jpg)
+
+![313353.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313353.eps/_jcr_content/renditions/313353.jpg)
+
+![313354.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313354.eps/_jcr_content/renditions/313354.jpg)
+
+![349578.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349578.eps/_jcr_content/renditions/349578.jpg)
+
+![349579.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349579.eps/_jcr_content/renditions/349579.jpg)
+
+![349580.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349580.eps/_jcr_content/renditions/349580.jpg)
+
+![349581.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349581.eps/_jcr_content/renditions/349581.jpg)
+
+![349582.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349582.eps/_jcr_content/renditions/349582.jpg)
+
+![349583.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349583.eps/_jcr_content/renditions/349583.jpg)
+
+![349584.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349584.eps/_jcr_content/renditions/349584.jpg)
+
+![313161.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313161.eps/_jcr_content/renditions/313161.jpg)
+
+![313355.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313355.eps/_jcr_content/renditions/313355.jpg)
+
+![349587.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349587.eps/_jcr_content/renditions/349587.jpg)
+
+![313356.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313356.eps/_jcr_content/renditions/313356.jpg)
+
+![313357.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313357.eps/_jcr_content/renditions/313357.jpg)
+
+![313156.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313156.eps/_jcr_content/renditions/313156.jpg)
+
+![313157.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313157.eps/_jcr_content/renditions/313157.jpg)
+
+![313158.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313158.eps/_jcr_content/renditions/313158.jpg)
+
+![349593.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349593.eps/_jcr_content/renditions/349593.jpg)
+
+![349594.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349594.eps/_jcr_content/renditions/349594.jpg)
+
+![313358.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313358.eps/_jcr_content/renditions/313358.jpg)
+
+![349595.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349595.eps/_jcr_content/renditions/349595.jpg)
+
+![349596.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349596.eps/_jcr_content/renditions/349596.jpg)
+
+![349597.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349597.eps/_jcr_content/renditions/349597.jpg)
+
+![349598.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349598.eps/_jcr_content/renditions/349598.jpg)
+
+![349599.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349599.eps/_jcr_content/renditions/349599.jpg)
+
+![349600.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349600.eps/_jcr_content/renditions/349600.jpg)
+
+![313359.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313359.eps/_jcr_content/renditions/313359.jpg)
+
+![313360.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313360.eps/_jcr_content/renditions/313360.jpg)
+
+![349603.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349603.eps/_jcr_content/renditions/349603.jpg)
+
+![349604.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349604.eps/_jcr_content/renditions/349604.jpg)
+
+![349605.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/349001-350000/349605.eps/_jcr_content/renditions/349605.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

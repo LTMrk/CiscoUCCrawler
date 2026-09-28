@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-voice-quality-7934-bwidth-consume-html-ebc0ac6835
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/7934-bwidth-consume.html
-retrieved_at: 2026-08-20T23:26:57.755937+00:00
+retrieved_at: 2026-09-28T10:51:03.833049+00:00
 ---
 
 Modify Bandwidth Consumption Calculation for Voice Calls
@@ -220,3 +220,7 @@ Initial Release
 | 2.0 | 27-Sep-2022 | Article updated for technical content.
 Article updated for title requirements, style requirements, gerunds, SEO, introduction and formatting. |
 | 1.0 | 09-Nov-2001 | Initial Release |
+
+## Figuras
+
+![RTP Header Compression - Before and After](https://www.cisco.com/c/dam/en/us/support/docs/voice/voice-quality/7934-bwidth-consume-00.gif)

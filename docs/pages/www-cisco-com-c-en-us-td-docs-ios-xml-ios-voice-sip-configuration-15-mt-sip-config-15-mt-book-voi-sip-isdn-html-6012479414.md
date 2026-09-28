@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-isdn-html-6012479414
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-isdn.html
-retrieved_at: 2026-08-20T23:45:45.526810+00:00
+retrieved_at: 2026-09-28T10:52:00.546135+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -3389,3 +3389,26 @@ SDP application configuration:
 
 | Note | IP addresses and hostnames in examples are fictitious. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Calling Name in Display or Facility IE of an ISDN Setup
+                                    		  Message](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/95001-96000/95617.ps/_jcr_content/renditions/95617.jpg)
+
+![Figure 2. Calling Name in Facility IE of an ISDN Facility Message](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/95001-100000/95001-96000/95618.ps/_jcr_content/renditions/95618.jpg)
+
+![Figure 3. Path of INVITE request with CIC Parameter to SIP Gateway Receiving
+                                 		  and to ISDN](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82257.ps/_jcr_content/renditions/82257.jpg)
+
+![Figure 4. Call Flow for Blocking Caller ID Information When Privacy
+                                    		  Exists](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146087.ps/_jcr_content/renditions/146087.jpg)
+
+![Figure 5. Call Flow for Substituting the Calling Number for the Display Name
+                                    		  When the Display Name is Unavailable](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146088.ps/_jcr_content/renditions/146088.jpg)
+
+![Figure 6. Call Flow for Passing Through the Calling Number as
+                                    		  Network-Provided](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146089.ps/_jcr_content/renditions/146089.jpg)
+
+![Figure 7. ISUP Transparency Implementation](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82725.ps/_jcr_content/renditions/82725.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

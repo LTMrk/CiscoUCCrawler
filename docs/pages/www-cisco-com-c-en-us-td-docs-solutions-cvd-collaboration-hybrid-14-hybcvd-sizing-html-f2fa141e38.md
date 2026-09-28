@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-14-hybcvd-sizing-html-f2fa141e38
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd/sizing.html
-retrieved_at: 2026-08-16T18:24:03.322478+00:00
+retrieved_at: 2026-09-28T10:57:28.765225+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -106,3 +106,11 @@ Note To better summarize the overall VM requirements and placement for this simp
 |---|---|
 | Up to 2,500 users (5,000 devices) | 5 nodes (Medium OVA VM configuration): 1 publisher node 2 TFTP node 1 call processing pair (2 call processing subscriber nodes) |
 | Up to 5,000 users (10,000 devices) | 7 nodes (Medium OVA VM configuration): 1 publisher node 2 TFTP node 2 call processing pairs (4 call processing subscriber nodes) |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

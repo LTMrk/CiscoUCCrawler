@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-over-html-b4dd3b4b1c
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-over.html
-retrieved_at: 2026-08-20T23:43:00.523541+00:00
+retrieved_at: 2026-09-28T10:52:17.095317+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -1468,3 +1468,27 @@ http://www.cisco.com/techsupport
 | The Cisco Technical Support website contains thousands of pages of searchable technical content, including links to products,
                                           technologies, solutions, technical tips, and tools. Registered Cisco.com users can log in from this page to access even more
                                           content. | http://www.cisco.com/techsupport |
+
+## Figuras
+
+![Figure 1. SIP Architecture](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42870.ps/_jcr_content/renditions/42870.jpg)
+
+![Figure 2. SIP INVITE Request Through a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42871.ps/_jcr_content/renditions/42871.jpg)
+
+![Figure 3. SIP Response Through a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42872.ps/_jcr_content/renditions/42872.jpg)
+
+![Figure 4. SIP Session Through a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42873.ps/_jcr_content/renditions/42873.jpg)
+
+![Figure 5. SIP INVITE Through a Redirect Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42874.ps/_jcr_content/renditions/42874.jpg)
+
+![Figure 6. SIP Session Through a Redirect Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/40001-45000/42501-43000/42875.ps/_jcr_content/renditions/42875.jpg)
+
+![Figure 7. SIP Gateway-to-SIP Gateway--Call Setup and Disconnect](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/25001-30000/28501-29000/28936.ps/_jcr_content/renditions/28936.jpg)
+
+![Figure 8. SIP Gateway-to-SIP Gateway--Call via SIP Redirect Server](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/25001-30000/28501-29000/28938.ps/_jcr_content/renditions/28938.jpg)
+
+![Figure 9. SIP Gateway-to-SIP Gateway--Call via SIP Proxy Server with Record Route Enabled](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/25001-30000/28501-29000/28942.ps/_jcr_content/renditions/28942.jpg)
+
+![Figure 10. SIP Gateway-to-SIP Gateway--Call via a Proxy Server with Record Route Disabled](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/30001-35000/32501-33000/32707.ps/_jcr_content/renditions/32707.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

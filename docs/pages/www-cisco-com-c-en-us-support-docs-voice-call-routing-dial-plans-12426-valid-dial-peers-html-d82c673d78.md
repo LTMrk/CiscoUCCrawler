@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12426-valid-dial-peers-html-d82c673d78
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.html
-retrieved_at: 2026-08-20T23:24:31.963788+00:00
+retrieved_at: 2026-09-28T10:49:27.788626+00:00
 ---
 
 Understand the Operational Status of Dial Peers on Cisco IOS Platforms
@@ -173,3 +173,9 @@ ccastano
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 06-Dec-2001 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

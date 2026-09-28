@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-session-initiation-protocol-sip-111980-cpa-00-html-69a5ee56c8
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-00.html
-retrieved_at: 2026-08-16T23:27:10.328302+00:00
+retrieved_at: 2026-09-28T10:50:21.946378+00:00
 ---
 
 Call Progress Analysis Overview
@@ -169,3 +169,11 @@ debug ccsip messages
 - Voice Enhancement Features for Cisco IOS Release 12.4(24)T Cisco IOS Release 12.4 Command References
 
 - Technical Support & Documentation - Cisco Systems
+
+## Figuras
+
+![cpa-01.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-01.gif)
+
+![cpa-02.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-02.gif)
+
+![cpa-03.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/111980-cpa-03.gif)

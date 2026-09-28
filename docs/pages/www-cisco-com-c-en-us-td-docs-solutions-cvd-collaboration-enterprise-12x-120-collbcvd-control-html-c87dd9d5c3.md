@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-control-html-c87dd9d5c3
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd/control.html
-retrieved_at: 2026-08-16T18:24:19.639395+00:00
+retrieved_at: 2026-09-28T10:55:49.329749+00:00
 ---
 
 Preferred Architecture for Cisco Collaboration 12.x Enterprise On-Premises Deployments, CVD
@@ -4778,3 +4778,29 @@ BLF Presence is not based in Cisco Unified IM and Presence.
 | Route List with above route group as member | RL_UCM_EMEA | RL_UCM_US | Dedicated non-LRG route list for the intercluster trunk (see Table 2-62 ) |
 | SIP Route String | us.route | emea.route | SIP route string advertised by the Unified CM cluster |
 | SIP Route Pattern pointing to above route list | emea.route in partition onNetRemote | us.route in partition onNetRemote | Provisioned SIP route pattern matches on the SIP route string advertised by the other Unified CM cluster |
+
+## Figuras
+
+![313134.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313134.eps/_jcr_content/renditions/313134.jpg)
+
+![348932.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348932.eps/_jcr_content/renditions/348932.jpg)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![348922.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348922.eps/_jcr_content/renditions/348922.jpg)
+
+![348923.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348923.eps/_jcr_content/renditions/348923.jpg)
+
+![313159.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313159.eps/_jcr_content/renditions/313159.jpg)
+
+![313127.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313127.eps/_jcr_content/renditions/313127.jpg)
+
+![348924.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348924.eps/_jcr_content/renditions/348924.jpg)
+
+![348925.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348925.eps/_jcr_content/renditions/348925.jpg)
+
+![tip.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![348926.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/348001-349000/348926.eps/_jcr_content/renditions/348926.jpg)

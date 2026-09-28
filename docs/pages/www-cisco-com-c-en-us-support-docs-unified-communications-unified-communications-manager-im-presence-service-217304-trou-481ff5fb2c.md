@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-217304-trou-481ff5fb2c
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html
-retrieved_at: 2026-08-21T06:43:40.978643+00:00
+retrieved_at: 2026-09-28T10:48:41.726108+00:00
 ---
 
 Troubleshoot Services That Do Not Start on IM&P
@@ -503,3 +503,15 @@ Initial Release
 | 3.0 | 12-Jun-2025 | Recertification, corrected spelling errors, links to open to new page, and Cisco bug ID descriptions. |
 | 2.0 | 11-Jul-2023 | Recertification |
 | 1.0 | 16-Aug-2021 | Initial Release |
+
+## Figuras
+
+![IM&P Alert](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-00.png)
+
+![Out of Service](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-01.png)
+
+![Service not Activated](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-02.png)
+
+![Not Running](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on-03.png)
+
+![Bug-Preview for CSCur25679](https://techzone.cisco.com/html/assets/mag.gif)

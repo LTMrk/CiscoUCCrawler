@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-chapter-011-html-18474f2ed2
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_chapter_011.html
-retrieved_at: 2026-08-22T01:15:39.215718+00:00
+retrieved_at: 2026-09-28T10:55:28.567659+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -149,3 +149,7 @@ Contact Cisco
 | Faulty Cisco VG450 | Contact Cisco
                                     1
                                     or your Cisco reseller |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

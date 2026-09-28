@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-qos-html-659d3228aa
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-qos.html
-retrieved_at: 2026-08-16T23:07:30.193706+00:00
+retrieved_at: 2026-09-28T10:52:27.132694+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -4385,3 +4385,11 @@ comet 500, prack 500, rel1xx 500, notify 500, hold 2880 minutes |
 
 | Note | The timer receive-rtcp command configures a media activity timer that is common to both H.323 and SIP. If set, it affects both H.323 and SIP calls. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Start and Stop Hold Time](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88823.ps/_jcr_content/renditions/88823.jpg)
+
+![Figure 2. Hold Timer Expiration](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88822.ps/_jcr_content/renditions/88822.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

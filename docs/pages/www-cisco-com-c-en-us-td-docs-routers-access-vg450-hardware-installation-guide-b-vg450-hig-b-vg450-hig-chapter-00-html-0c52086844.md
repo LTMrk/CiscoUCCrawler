@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-chapter-00-html-0c52086844
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_chapter_00.html
-retrieved_at: 2026-08-22T01:15:26.496365+00:00
+retrieved_at: 2026-09-28T10:55:11.705406+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -827,3 +827,9 @@ HTTP-based configuration server: Provides access to the CLI from a web browser
 | Cisco Unified Communications Manager | 10.5.2(SU8), 11.5.1(SU6) and 12.5 |
 | Cisco Unified Communications Manager Express | Any version that is compatible with Cisco IOS XE Fuji 16.7.1 |
 | Third-party Call Control | IP-based trunk; SIP and H.323 |
+
+## Figuras
+
+![VG450 Chassis - Front Panel](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367801.jpg)
+
+![ornVG450 Chassis - Back Panel](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367802.jpg)

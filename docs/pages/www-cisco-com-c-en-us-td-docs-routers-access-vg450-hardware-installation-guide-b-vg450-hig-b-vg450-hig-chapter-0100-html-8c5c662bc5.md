@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-chapter-0100-html-8c5c662bc5
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_chapter_0100.html
-retrieved_at: 2026-08-22T01:15:43.068112+00:00
+retrieved_at: 2026-09-28T10:55:24.107614+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -31,3 +31,9 @@ Setup command facility: Remote configuration through a LAN
 SNMP-based application: CiscoView or HP OpenView
 
 HTTP-based configuration server: Provides access to the CLI from a web browser
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

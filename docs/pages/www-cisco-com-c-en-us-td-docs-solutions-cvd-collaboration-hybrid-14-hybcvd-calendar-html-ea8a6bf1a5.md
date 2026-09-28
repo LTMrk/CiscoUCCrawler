@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-14-hybcvd-calendar-html-ea8a6bf1a5
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd/calendar.html
-retrieved_at: 2026-08-16T18:23:55.631237+00:00
+retrieved_at: 2026-09-28T10:57:08.455086+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -412,3 +412,19 @@ Note Valid licenses are required to add and enable licensed services and feature
 | Configure Webex Site Settings. Add Webex information to facilitate use of Webex personal meeting rooms (PMRs) when using @webex in meeting invitations. Navigate to Applications > Hybrid Services > Calendar Service > Cisco Webex Configuration . Click New to begin adding Webex configuration information. (Refer to the Settings and Example Values columns for configuration values.) Click Save to complete the configuration. | WebEx Fully Qualified Site Name | ent-pa.webex.com |
 | WebEx account credentials | <account username @ domain / password> |
 | Default Site | Yes |
+
+## Figuras
+
+![313274.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313274.eps/_jcr_content/renditions/313274.jpg)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![313305.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313305.eps/_jcr_content/renditions/313305.jpg)
+
+![313601.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313601.eps/_jcr_content/renditions/313601.jpg)
+
+![313306.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313306.eps/_jcr_content/renditions/313306.jpg)
+
+![313307.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313307.eps/_jcr_content/renditions/313307.jpg)

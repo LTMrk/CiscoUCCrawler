@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12x-hybcvd-sizing-html-1e684014bf
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12x/hybcvd/sizing.html
-retrieved_at: 2026-08-16T18:25:41.963915+00:00
+retrieved_at: 2026-09-28T10:56:30.603471+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -190,3 +190,13 @@ Figure 7-3 Virtual Machine Placement Example Using the VMPT
 | VM Configuration Template | Video Calls Capacity per Node | Audio-Only Calls Capacity per Node |
 |---|---|---|
 | Virtual machine with small or medium VM configuration or Cisco Expressway CE1100 Appliance with 1 Gb small form-factor pluggable (SFP) transceivers | 100 | 200 |
+
+## Figuras
+
+![313316.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313316.eps/_jcr_content/renditions/313316.jpg)
+
+![313317.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313317.eps/_jcr_content/renditions/313317.jpg)
+
+![313318.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313318.eps/_jcr_content/renditions/313318.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

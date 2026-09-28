@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-chapter-0101-html-d354a6b8ab
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_0101.html
-retrieved_at: 2026-08-22T01:13:07.365145+00:00
+retrieved_at: 2026-09-28T10:54:25.228540+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -31,3 +31,9 @@ Setup command facility: Remote configuration through a LAN
 SNMP-based application: CiscoView or HP OpenView
 
 HTTP-based configuration server: Provides access to the CLI from a web browser
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

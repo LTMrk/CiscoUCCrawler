@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-intro-html-6457c63e96
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd/intro.html
-retrieved_at: 2026-08-16T18:24:11.802328+00:00
+retrieved_at: 2026-09-28T10:55:52.834889+00:00
 ---
 
 Preferred Architecture for Cisco Collaboration 12.x Enterprise On-Premises Deployments, CVD
@@ -255,3 +255,9 @@ Collaboration integrator and multipurpose room endpoint
 | Cisco MX Series | TelePresence multipurpose room endpoint |
 | Cisco SX Series | Integrator series TelePresence endpoint |
 | Cisco Webex Room Series | Collaboration integrator and multipurpose room endpoint |
+
+## Figuras
+
+![313130.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313130.eps/_jcr_content/renditions/313130.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

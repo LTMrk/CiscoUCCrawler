@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-ios-xe-config-ios-xe-book-m-courtesy-callback-support-for-srtp-html-61c88e294e
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book/m_courtesy-callback-support-for-srtp.html
-retrieved_at: 2026-08-16T23:12:54.517508+00:00
+retrieved_at: 2026-09-28T10:51:28.716773+00:00
 ---
 
 Cisco Unified Border Element Configuration Guide - Cisco IOS XE 17.6 Onwards
@@ -52,3 +52,7 @@ SRTP passthru cannot be used with Courtesy Call Back.
 
 | Feature Name | Releases | Feature Information |
 |---|---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

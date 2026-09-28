@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-k1-html-9f1f763b29
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-k1.html
-retrieved_at: 2026-08-16T23:18:10.866573+00:00
+retrieved_at: 2026-09-28T10:53:05.877154+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -486,3 +486,7 @@ Sets the time interval between sending Options message requests when the SIP ser
 | keepalive target | Identifies a SIP server that will receive keepalive packets from the SIP gateway. |
 | retry keepalive | Sets the retry keepalive for retransmission. |
 | timers keepalive | Sets the time interval between sending Options message requests when the SIP server is active or down. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

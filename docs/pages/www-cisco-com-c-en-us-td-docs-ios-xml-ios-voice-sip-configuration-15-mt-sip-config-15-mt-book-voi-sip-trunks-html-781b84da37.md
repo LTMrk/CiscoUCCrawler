@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-trunks-html-781b84da37
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-trunks.html
-retrieved_at: 2026-08-20T23:45:17.857097+00:00
+retrieved_at: 2026-09-28T10:52:53.492599+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -528,3 +528,7 @@ The following commands were introduced or modified: debug rai , rai target , voi
                                           Trunks | 15.1(2)T | The Support for Monitoring Utilization of Critical Resources on Gateway Router, Cisco UBE and Cisco UCME and Reporting Over
                                           SIP Trunks feature implements monitoring of resource utilization and reporting functionality over SIP trunk on Cisco IOS gateway,
                                           Cisco UBE and Cisco UCME. The following commands were introduced or modified: debug rai , rai target , voice class resource-group , show voice class resource-group . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

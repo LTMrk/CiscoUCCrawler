@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-voice-quality-18902-jitter-packet-voice-html-476be3a0b6
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/18902-jitter-packet-voice.html
-retrieved_at: 2026-08-21T07:21:21.249610+00:00
+retrieved_at: 2026-09-28T10:50:42.569785+00:00
 ---
 
 Understanding Jitter in Packet Voice Networks (Cisco IOS Platforms)
@@ -197,3 +197,11 @@ One method or the other should be used, they should not both be configured. If t
 Jitter is a variation in packet latency for voice packets. The DSPs inside the router can make up for some jitter, but can be overcome by excessive jitter. This results in poor voice quality. The cause of jitter is that a packet gets queued or delayed somewhere in the circuit, where there was no delay or queueing for other packets. This causes a variation in latency. Jitter can be caused both by router misconfiguration and by PVC misconfiguration by the carrier or provider.
 
 ## Related Information
+
+## Figuras
+
+![18902_Fg1.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/voice-quality/18902-Fg1.gif)
+
+![18902_Fg2.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/voice-quality/18902-Fg2.gif)
+
+![18902_Fg3.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/voice-quality/18902-Fg3.gif)

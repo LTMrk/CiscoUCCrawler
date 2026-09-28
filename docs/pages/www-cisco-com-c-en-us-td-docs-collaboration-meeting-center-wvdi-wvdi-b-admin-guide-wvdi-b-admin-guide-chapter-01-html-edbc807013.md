@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-collaboration-meeting-center-wvdi-wvdi-b-admin-guide-wvdi-b-admin-guide-chapter-01-html-edbc807013
 source_url: https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wvdi/wvdi-b-admin-guide/wvdi-b-admin-guide_chapter_01.html
-retrieved_at: 2026-09-01T20:32:26.488161+00:00
+retrieved_at: 2026-09-28T10:51:16.239685+00:00
 ---
 
 Administration Guide for the Cisco Webex Meetings Virtual Desktop Environments
@@ -153,3 +153,7 @@ The share functionality in not available on Webex Meetings Web App for Virtual D
 |---|---|
 | Step 2 | Select High DPI > Yes > Save . |
 | Step 3 | Check the resolution and scale ratio of your local machine. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-61083-voice-transla-rules-html-2b7677e467
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/61083-voice-transla-rules.html
-retrieved_at: 2026-08-20T23:24:40.275681+00:00
+retrieved_at: 2026-09-28T10:49:40.688440+00:00
 ---
 
 Determine Voice Translation Rules
@@ -527,3 +527,9 @@ Cisco TAC Engineers
 | 4.0 | 29-May-2026 | Recertification |
 | 2.0 | 13-Nov-2023 | Updated for Formatting and Spelling. |
 | 1.0 | 10-Aug-2004 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

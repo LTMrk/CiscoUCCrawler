@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-remove-and-replace-a-battery--7cb0013540
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/remove-and-replace-a-battery.html
-retrieved_at: 2026-08-22T01:12:53.134845+00:00
+retrieved_at: 2026-09-28T10:54:37.857346+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -133,3 +133,11 @@ Replace the cover and secure the screws.
 | Step 3 | Angle the battery so you can insert the edge of the battery into the holder base. |
 | Step 4 | Rotate the battery and press into the base in the same motion to install the battery firmly in the holder. Figure 2. Install the battery |
 | Step 5 | Replace the cover and secure the screws. |
+
+## Figuras
+
+![Figure 1. Remove the battery](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/359001-360000/359772.jpg)
+
+![Figure 2. Install the battery](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/359001-360000/359771.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

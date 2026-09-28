@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-cloud-223246-configure-fieldidm-7ba27236cb
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-cloud/223246-configure-fieldidmapping-on-broadworks.html
-retrieved_at: 2026-09-07T13:02:03.186782+00:00
+retrieved_at: 2026-09-28T10:48:37.426361+00:00
 ---
 
 Configure FieldIdMapping on BroadWorks AS
@@ -103,3 +103,9 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Jul-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

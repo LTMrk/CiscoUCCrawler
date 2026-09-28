@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-preface-reuse-routing-html-c5e6daef9f
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/preface-reuse-routing.html
-retrieved_at: 2026-08-22T01:12:29.404446+00:00
+retrieved_at: 2026-09-28T10:54:33.723829+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -202,3 +202,7 @@ Go to Products by Category and choose your product from the list, or enter the n
 
 | Note | Means reader take note . Notes contain helpful suggestions or references to materials that may not be contained in this manual. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

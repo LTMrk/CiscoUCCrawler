@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-mwi-html-1ed60db6c7
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-mwi.html
-retrieved_at: 2026-08-20T23:45:53.731687+00:00
+retrieved_at: 2026-09-28T10:52:12.961128+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -1421,3 +1421,9 @@ endpoint 8001  mwi status OFF |
 | SIP Audible Message-Waiting Indicator for FXS Phones | 12.3(8)T | This feature enables an FXS port on a voice gateway to receive audible MWI in a SIP-enabled network. |
 | SIP MWI NOTIFY - QSIG MWI Translation | 12.4(11)T | This feature was introduced. This feature is used to configure SIP MWI NOTIFY - QSIG MWI Translation on a gateway. |
 | VMWI on analog phones connected to FXS | 15.1(2)T | This feature introduces support fpor VMWI on analog phones connected to FXS. |
+
+## Figuras
+
+![Figure 1. MWI Notification Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/110001-120000/117001-118000/117411.ps/_jcr_content/renditions/117411.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

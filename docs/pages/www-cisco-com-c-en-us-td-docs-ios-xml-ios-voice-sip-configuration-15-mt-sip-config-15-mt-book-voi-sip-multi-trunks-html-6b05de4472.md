@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-multi-trunks-html-6b05de4472
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-multi-trunks.html
-retrieved_at: 2026-08-16T23:08:15.320707+00:00
+retrieved_at: 2026-09-28T10:52:08.629155+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -653,3 +653,7 @@ TDM --time-division multiplexing.
                                           Unified Communications Manager Express feature | 15.0(1)XA 15.1(1)T | This feature provides support for multiple registrars on SIP trunks on Cisco IOS SIP TDM gateways, Cisco Unified CME, and
                                           Cisco UBEs. This feature allows for a redundant registrar for each SIP trunk and enables registrar redundancy across multiple
                                           service providers. This feature includes the following new or modified commands: credentials , localhost , registrar , voice-class sip localhost . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-enterprise-12x-120-collbcvd-appendix-html-8a0ef55fe3
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/enterprise/12x/120/collbcvd/appendix.html
-retrieved_at: 2026-08-16T18:24:55.694392+00:00
+retrieved_at: 2026-09-28T10:55:32.629229+00:00
 ---
 
 Preferred Architecture for Cisco Collaboration 12.x Enterprise On-Premises Deployments, CVD
@@ -129,3 +129,7 @@ Scheduling, web conferencing integration, and other advanced video features
 | Cisco TelePresence SX Series | Integrator Series TelePresence endpoint | CE 9.5 or later |
 | Cisco Webex Room Series | Collaboration integrator and multipurpose room endpoint | CE 9.5 or later |
 | Cisco TelePresence Management Suite (TMS) | Scheduling, web conferencing integration, and other advanced video features | 15.8 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

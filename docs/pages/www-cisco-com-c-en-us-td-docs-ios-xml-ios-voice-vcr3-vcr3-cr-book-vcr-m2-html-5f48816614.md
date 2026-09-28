@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-m2-html-5f48816614
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-m2.html
-retrieved_at: 2026-08-16T23:18:21.953949+00:00
+retrieved_at: 2026-09-28T10:53:26.895001+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -4198,3 +4198,7 @@ Specifies the primary location where AAA retrieves its account identification in
 |---|---|
 | mmoip aaa receive - id secondary | Specifies the secondary location where AAA retrieves its account identification information for off-ramp faxing. |
 | mmoip aaa send - id primary | Specifies the primary location where AAA retrieves its account identification information for off-ramp faxing. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

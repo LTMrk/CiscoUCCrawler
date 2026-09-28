@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-42720-configuring-cor-html-832089bfb1
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/42720-configuring-cor.html
-retrieved_at: 2026-08-20T23:27:11.161046+00:00
+retrieved_at: 2026-09-28T10:49:36.350390+00:00
 ---
 
 Configure Class of Restrictions (COR)
@@ -313,3 +313,7 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 13-May-2003 | Initial Release |
+
+## Figuras
+
+![configuring-cor-1.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/call-routing-dial-plans/42720-configuring-cor-1.gif)

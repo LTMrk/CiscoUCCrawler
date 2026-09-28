@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-session-initiation-protocol-sip-222316-troubleshoot-cube-via-collaboration-solu-3fc659d30a
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu.html
-retrieved_at: 2026-08-16T23:24:56.618342+00:00
+retrieved_at: 2026-09-28T10:50:30.645869+00:00
 ---
 
 Troubleshoot CUBE via Collaboration Solutions Analyzer
@@ -405,3 +405,71 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Aug-2024 | Initial Release |
+
+## Figuras
+
+![CSA Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-00.png)
+
+![Log Analyzer Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-01.jpeg)
+
+![Log Analyzer Upload](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-02.png)
+
+![Log Analyzer Upload File](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-03.jpeg)
+
+![Log Analyzer Product Type](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-04.jpeg)
+
+![Log Analyzer Call Filter](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-05.jpeg)
+
+![Log Analyzer Call Leg Info](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-06.png)
+
+![Log Analyzer Ladder Tags](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-07.jpeg)
+
+![Log Analyzer Ladder Diagram](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-08.png)
+
+![Log Analyzer Ladder Diagram Message](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-09.png)
+
+![Log Analyzer Ladder Tags 1](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-10.png)
+
+![Log Analyzer Ladder Tags 2](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-11.png)
+
+![Log Analyzer Ladder Tags 3](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-12.png)
+
+![Log Analyzer Ladder Tags 4](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-13.png)
+
+![Log Analyzer Signaling](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-14.png)
+
+![Log Analyzer Signaling Message](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-15.png)
+
+![Log Analyzer Diagnostics Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-16.jpeg)
+
+![Log Analyzer Diagnostics overview](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-17.png)
+
+![Log Analzyer Packet Capture File](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-18.jpeg)
+
+![Log Analyzer PCAP analysis](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-19.png)
+
+![Log Analyzer PCAP RTP Stream](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-20.png)
+
+![Log Analyzer PCAP TCP UDP Streams](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-21.png)
+
+![SIP PROFILE Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-22.png)
+
+![SIP PROFILE Prebuilt](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-23.png)
+
+![SIP PROFILE Prebuilt Add Example](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-24.jpeg)
+
+![SIP PROFILE Modify Add Remove Example](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-25.png)
+
+![SIP PROFILE Modify Add Remove Example 2](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-26.jpeg)
+
+![SIP PROFILE Copylist Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-27.jpeg)
+
+![SIP PROFILE Copylist Example](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-28.png)
+
+![SIP PROFILE Copylist Example 2](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-29.jpeg)
+
+![Report Problem Home](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-30.jpeg)
+
+![Report Issue](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-31.png)
+
+![Icons](https://www.cisco.com/c/dam/en/us/support/docs/voice/session-initiation-protocol-sip/222316-troubleshoot-cube-via-collaboration-solu-32.jpeg)

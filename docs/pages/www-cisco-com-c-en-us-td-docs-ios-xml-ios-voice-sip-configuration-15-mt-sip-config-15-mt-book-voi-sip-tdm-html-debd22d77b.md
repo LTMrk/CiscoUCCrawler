@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-tdm-html-debd22d77b
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-tdm.html
-retrieved_at: 2026-08-20T23:45:35.978509+00:00
+retrieved_at: 2026-09-28T10:52:40.175803+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -740,3 +740,18 @@ URI--uniform resource identifier.
 | ISDN Q.931 Tunneling over SIP TDM Gateway | 12.4(15)XZ 12.4(20)T | This feature expands transparent tunneling of QSIG messages to all other Q.931 messages (SETUP, ALERTING, CONNECT, and RELEASE
                                           COMPLETE). The QSIG and Q.931 tunneling feature does not add any QSIG or Q.931 services to SIP interworking. |
 | Transparent Tunneling of QSIG and Q.931 over SIP-SIP Cisco Unified Border Element | 12.4(15)XZ 12.4(20)T | This feature extends support of QSIG and Q.931 tunneling to the Cisco Unified Border Element. |
+
+## Figuras
+
+![Figure 1. Tunneling QSIG (or Q.931) Messages Across a SIP Trunk](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280199.eps/_jcr_content/renditions/280199.jpg)
+
+![Figure 2. Tunneling QSIG (or Q.931) Messages Through a SIP-SIP Cisco Unified
+                                    		  Border Element](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/271001-272000/271604.eps/_jcr_content/renditions/271604.jpg)
+
+![Figure 3. Tunneling of Only QSIG Raw Messages over a SIP Trunk
+                                    			 (Interface-Level)](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280204.eps/_jcr_content/renditions/280204.jpg)
+
+![Figure 4. Tunneling of QSIG Messages Unconditionally over a SIP Trunk
+                                    			 (Interface-Level)](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280199.eps/_jcr_content/renditions/280199.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

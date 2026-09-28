@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-h323-14368-plar-config-html-55df212b79
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/h323/14368-plar-config.html
-retrieved_at: 2026-08-21T07:17:35.547624+00:00
+retrieved_at: 2026-09-28T10:50:01.693852+00:00
 ---
 
 Configuring Connection PLAR for VoIP Gateways
@@ -292,3 +292,7 @@ interface Serial0/0
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Feb-2006 | Initial Release |
+
+## Figuras
+
+![plar_config.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/14368-plar-config.gif)

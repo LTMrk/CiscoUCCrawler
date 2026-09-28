@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-m-setting-up-c2fb6bab7a
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-setting-up-the-power-supply.html
-retrieved_at: 2026-08-22T01:13:55.191887+00:00
+retrieved_at: 2026-09-28T10:54:54.543239+00:00
 ---
 
 Cisco VG410 Voice Gateway Hardware Installation Guide
@@ -107,3 +107,9 @@ If the device was turned off, turn the power back on to the device.
 | Step 2 | Install the AC power cord into the power socket on the power supply. |
 | Step 3 | If used, reapply the Velcro strap around the power cord and the power supply latch. |
 | Step 4 | If the device was turned off, turn the power back on to the device. |
+
+## Figuras
+
+![Figure 1. Cisco VG410 Voice Gateway AC Power Supply](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/358001-359000/358033.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

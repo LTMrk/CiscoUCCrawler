@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-digital-ccs-14072-direct-inward-dial-html-3dc77f15f4
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial.html
-retrieved_at: 2026-08-20T23:24:28.399098+00:00
+retrieved_at: 2026-09-28T10:49:44.889187+00:00
 ---
 
 Understand Direct-Inward-Dial (DID) on IOS Voice Digital (T1/E1) Interfaces
@@ -234,3 +234,7 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Dec-2001 | Initial Release |
+
+## Figuras
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/voice/digital-ccs/14072-direct-inward-dial-00.jpeg)

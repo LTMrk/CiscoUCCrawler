@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-ip-telephony-operating-system-212430-troubleshoot-basic-paging-upgrade-error-ht-7c3380bc43
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error.html
-retrieved_at: 2026-08-21T12:40:24.337213+00:00
+retrieved_at: 2026-09-28T10:50:17.951828+00:00
 ---
 
 Troubleshoot Basic Paging Upgrade Error
@@ -73,3 +73,13 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 09-Nov-2017 | Initial Release |
+
+## Figuras
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error-00.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/voice/ip-telephony-operating-system/212430-troubleshoot-basic-paging-upgrade-error-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

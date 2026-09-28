@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-h323-14003-e-m-overview-html-d0749bfdf7
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/h323/14003-e-m-overview.html
-retrieved_at: 2026-08-21T07:17:27.026237+00:00
+retrieved_at: 2026-09-28T10:49:48.729670+00:00
 ---
 
 Analog E&M Voice Signaling Overview
@@ -131,3 +131,7 @@ Delay Dial —In this technique, the originating side goes off-hook and waits fo
 Address signaling typically represents the digits dialed (called number of the party). There are two options used in order to pass address information. Either Pulse dial (rotary dialing) or Tone dial (DTMF) can be used. The default for Cisco routers and gateways is DTMF.
 
 ## Related Information
+
+## Figuras
+
+![e_m_overview.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/14003-e-m-overview.gif)

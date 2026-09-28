@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-appendix-0101-htm-f68296f8fd
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_appendix_0101.html
-retrieved_at: 2026-08-22T01:15:47.706782+00:00
+retrieved_at: 2026-09-28T10:55:07.422056+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -738,3 +738,17 @@ GND
 | 11 | 1136 | RingTip | 23 | 2348 | RingTip |
 | 12 | 1237 | RingTip | 24 | 2449 | RingTip |
 | — | — | — | — | 25, 50, 51, 52 | GND |
+
+## Figuras
+
+![Figure 1. Figure A-1 Console Port to PC - Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367806.jpg)
+
+![Figure 2. Console Port to ASCII Terminal—Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367807.jpg)
+
+![Figure 3. Auxiliary Port to Modem—Cable and Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367808.jpg)
+
+![Figure 4. RJ-45 Connector Wiring](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367809.jpg)
+
+![Figure 5. RJ-21 Connector Wiring](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/367001-368000/367810.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

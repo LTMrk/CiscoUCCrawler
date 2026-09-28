@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-voice-quality-20371-troubleshoot-qos-voice-html-6bb74d75ad
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/voice-quality/20371-troubleshoot-qos-voice.html
-retrieved_at: 2026-08-21T07:21:25.736476+00:00
+retrieved_at: 2026-09-28T10:50:46.729165+00:00
 ---
 
 Troubleshooting QoS Choppy Voice Issues
@@ -625,3 +625,9 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 22-Feb-2002 | Initial Release |
+
+## Figuras
+
+![leavingcisco.com](https://www.cisco.com/swa/i/icon_popup_short.gif)
+
+![troubleshoot_qos_voice1.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/voice-quality/20371-troubleshoot-qos-voice1.gif)

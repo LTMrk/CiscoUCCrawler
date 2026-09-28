@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-aaa-html-19b48a5136
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-aaa.html
-retrieved_at: 2026-08-20T23:45:23.198701+00:00
+retrieved_at: 2026-09-28T10:51:42.612756+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -3213,3 +3213,15 @@ registered=registration status |
 
 | Note | For general troubleshooting tips and a list of important debug commands, see the “General Troubleshooting Tips” section. |
 |---|---|
+
+## Figuras
+
+![Figure 1. SIP-Based Voice Termination](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72072.ps/_jcr_content/renditions/72072.jpg)
+
+![Figure 2. UA-to-UAS Call Flow with Register Message](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103764.ps/_jcr_content/renditions/103764.jpg)
+
+![Figure 3. UAC-to-UAS Call Flow with INVITE Message](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103765.ps/_jcr_content/renditions/103765.jpg)
+
+![Figure 4. Proxy-Server-to-UA Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103766.ps/_jcr_content/renditions/103766.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

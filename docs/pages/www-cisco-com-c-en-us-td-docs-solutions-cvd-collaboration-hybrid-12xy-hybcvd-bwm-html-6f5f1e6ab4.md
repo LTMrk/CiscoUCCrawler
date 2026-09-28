@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-bwm-html-6f5f1e6ab4
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/bwm.html
-retrieved_at: 2026-08-16T18:26:14.154233+00:00
+retrieved_at: 2026-09-28T10:56:35.591880+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -760,3 +760,41 @@ The following AireOS WLC software configuration creates an AVC profile to mark W
 | 512 kbps to 900 kbps | 1024x576 | 960x540 |
 | 900 kbps to 1.8 Mbps | 1280x720 | 1280x720 |
 | More than 1.8 Mbps | 1920x1080 | 1920x1080 |
+
+## Figuras
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![313289.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313289.eps/_jcr_content/renditions/313289.jpg)
+
+![313290.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313290.eps/_jcr_content/renditions/313290.jpg)
+
+![313291.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313291.eps/_jcr_content/renditions/313291.jpg)
+
+![313292.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313292.eps/_jcr_content/renditions/313292.jpg)
+
+![313387.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313387.eps/_jcr_content/renditions/313387.jpg)
+
+![313388.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313388.eps/_jcr_content/renditions/313388.jpg)
+
+![313386.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313386.eps/_jcr_content/renditions/313386.jpg)
+
+![313294.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313294.eps/_jcr_content/renditions/313294.jpg)
+
+![313295.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313295.eps/_jcr_content/renditions/313295.jpg)
+
+![313296.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313296.eps/_jcr_content/renditions/313296.jpg)
+
+![313297.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313297.eps/_jcr_content/renditions/313297.jpg)
+
+![313374.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313374.eps/_jcr_content/renditions/313374.jpg)
+
+![313375.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313375.eps/_jcr_content/renditions/313375.jpg)
+
+![313376.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313376.eps/_jcr_content/renditions/313376.jpg)
+
+![313377.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313377.eps/_jcr_content/renditions/313377.jpg)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-h323-22983-ringback-html-61cd762ca3
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/h323/22983-ringback.html
-retrieved_at: 2026-08-21T07:17:44.029326+00:00
+retrieved_at: 2026-09-28T10:50:09.946374+00:00
 ---
 
 Troubleshooting No Ringback Tone on ISDN-VoIP (H.323) Calls
@@ -349,3 +349,11 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 19-Apr-2002 | Initial Release |
+
+## Figuras
+
+![leavingcisco.com](https://www.cisco.com/swa/i/icon_popup_short.gif)
+
+![isdnsetup.gif](https://www.cisco.com/c/dam/en/us/support/docs/voice/h323/22983-isdnsetup.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

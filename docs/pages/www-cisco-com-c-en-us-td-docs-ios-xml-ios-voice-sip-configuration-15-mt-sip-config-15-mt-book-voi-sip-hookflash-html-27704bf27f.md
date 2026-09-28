@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-hookflash-html-27704bf27f
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-hookflash.html
-retrieved_at: 2026-08-20T23:46:02.416481+00:00
+retrieved_at: 2026-09-28T10:51:55.881309+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -1584,3 +1584,7 @@ Total call-legs: 3
 | SIP Support for Hookflash | 12.4(11)T | This feature was introduced. SIP Support for Hookflash feature allows you to configure IP Centrex supplementary services
                                           on SIP-enabled, Foreign Exchange Station (FXS) lines. |
 | SIP Support for Hookflash | 15.4(2)T | The feature was enhanced to support hookflash using G729 codec for 3-way conference. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

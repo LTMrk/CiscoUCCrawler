@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-q1-html-3c344cdbf4
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-q1.html
-retrieved_at: 2026-08-16T23:18:48.811844+00:00
+retrieved_at: 2026-09-28T10:53:58.132372+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -260,3 +260,7 @@ Configures the neighbor’s port number that is used for exchanging Annex G mess
                                           at the specified interval for their descriptors. |
 | local | Configures the identifier for the neighbor BE. |
 | session transport | Configures the neighbor’s port number that is used for exchanging Annex G messages. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

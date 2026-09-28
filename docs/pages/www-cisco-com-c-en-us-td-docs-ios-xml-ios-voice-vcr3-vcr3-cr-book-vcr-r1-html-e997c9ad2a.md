@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-r1-html-e997c9ad2a
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-r1.html
-retrieved_at: 2026-08-16T23:14:02.895748+00:00
+retrieved_at: 2026-09-28T10:54:09.739444+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -11510,3 +11510,7 @@ Negotiated QoS Direction : None |
 |---|---|
 | show voice translation-rule | Displays the parameters of a translation rule. |
 | voice translation-rule | Initiates the voice translation-rule definition. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

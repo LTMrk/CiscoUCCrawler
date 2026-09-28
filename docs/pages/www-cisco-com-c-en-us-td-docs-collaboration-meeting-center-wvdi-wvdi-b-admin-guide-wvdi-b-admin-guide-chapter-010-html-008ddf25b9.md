@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-collaboration-meeting-center-wvdi-wvdi-b-admin-guide-wvdi-b-admin-guide-chapter-010-html-008ddf25b9
 source_url: https://www.cisco.com/c/en/us/td/docs/collaboration/meeting_center/wvdi/wvdi-b-admin-guide/wvdi-b-admin-guide_chapter_010.html
-retrieved_at: 2026-09-01T20:32:22.608282+00:00
+retrieved_at: 2026-09-28T10:51:21.192440+00:00
 ---
 
 Administration Guide for the Cisco Webex Meetings Virtual Desktop Environments
@@ -1402,3 +1402,7 @@ Start the Webex Meetings Virtual Desktop App on HVD. The agent on HVD and client
                                        user configuration. |
 | LANGUAGE | LCID in decimal | Defines the Locale ID (LCID), in decimal, of the language that Cisco Jabber for Windows uses. The value is an LCID in decimal
                                           that corresponds to a supported language. For example, you can specify one of the following: 1033 specifies English 1036 specifies French See the LCID for Languages topic for a full list of the languages that you can specify. This argument is optional. If you do not specify a value, the Webex Meetings Virtual Desktop App uses the regional language for the current user as the default. The regional language is set at Control Panel > Region and Language > Change the date, time, or number format > Formats tab > Format dropdown . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

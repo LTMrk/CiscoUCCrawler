@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-chapter-010-html-c89093f0ae
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_010.html
-retrieved_at: 2026-08-22T01:12:45.124502+00:00
+retrieved_at: 2026-09-28T10:54:21.665012+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -532,3 +532,13 @@ Router> |
                                                    the router rebooting and ROM monitor information in the Cisco IOS Configuration Fundamentals Configuration Guide for your
                                                    Cisco IOS software release. |
 |---|---|
+
+## Figuras
+
+![VG400 Voice Gateway - Wall Mount](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/368001-369000/368280.jpg)
+
+![Figure 1. Bracket Installation for Front Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/368001-369000/368283.jpg)
+
+![Figure 2. Bracket Installation for Back Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/368001-369000/368287.jpg)
+
+![Figure 3. Chassis Ground Connection on the Voice Gateway](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/360001-370000/368001-369000/368279.jpg)

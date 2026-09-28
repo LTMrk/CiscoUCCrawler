@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-hcallsvc-html-681542df16
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/hcallsvc.html
-retrieved_at: 2026-08-16T18:26:09.928235+00:00
+retrieved_at: 2026-09-28T10:56:47.844523+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -739,3 +739,13 @@ Target: EMEA-UCM neighbor Zone
 | 1 | Zone | Default Zone | [0\|9]\d*(@.*)? | Reject |
 | 2 | Zone | Default Zone | ..*@example\.com.* | Reject |
 | 3 | Zone | Default Zone | .* | Reject |
+
+## Figuras
+
+![313414.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313414.eps/_jcr_content/renditions/313414.jpg)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

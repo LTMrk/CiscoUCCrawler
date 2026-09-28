@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-sip-config-15-mt-book-inde-8b41df0e0a
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/sip-config-15-mt-book_index.html
-retrieved_at: 2026-08-20T23:46:14.486075+00:00
+retrieved_at: 2026-09-28T10:51:37.205421+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -471,3 +471,7 @@ transport switch command 1
 V
 
 vmwi dc-voltage command 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

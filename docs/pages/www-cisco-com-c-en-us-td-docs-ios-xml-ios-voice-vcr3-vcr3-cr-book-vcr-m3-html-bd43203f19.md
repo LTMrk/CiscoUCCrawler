@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-m3-html-bd43203f19
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-m3.html
-retrieved_at: 2026-08-16T23:18:28.948382+00:00
+retrieved_at: 2026-09-28T10:53:34.361729+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -5688,3 +5688,7 @@ Enters voice-port configuration mode.
 | mwi | Enables MWI for a specified voice port. |
 | sip-us | Enables SIP user-agent configuration mode. |
 | voice-port | Enters voice-port configuration mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

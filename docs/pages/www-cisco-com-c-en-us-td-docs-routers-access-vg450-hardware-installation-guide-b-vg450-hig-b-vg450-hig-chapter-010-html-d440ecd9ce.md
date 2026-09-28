@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg450-hardware-installation-guide-b-vg450-hig-b-vg450-hig-chapter-010-html-d440ecd9ce
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/hardware/installation/guide/b_Vg450_hig/b_Vg450_hig_chapter_010.html
-retrieved_at: 2026-08-22T01:15:35.130567+00:00
+retrieved_at: 2026-09-28T10:55:20.000688+00:00
 ---
 
 Cisco VG450 Voice Gateway Hardware Installation Guide
@@ -613,3 +613,13 @@ Router> |
 | Note | If the rommon 1> prompt appears, your system has booted in ROM monitor mode. For information on the ROM monitor, refer to
                                                    the router rebooting and ROM monitor information in the Cisco IOS Configuration Fundamentals Configuration Guide for your Cisco IOS software release. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Bracket Installation for Front Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391427.eps/_jcr_content/renditions/391427.jpg)
+
+![Figure 2. Bracket Installation for Back Mounting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391427.eps/_jcr_content/renditions/391427.jpg)
+
+![Figure 4. Chassis Ground Connection on the Router](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/250001-251000/250915.eps/_jcr_content/renditions/250915.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

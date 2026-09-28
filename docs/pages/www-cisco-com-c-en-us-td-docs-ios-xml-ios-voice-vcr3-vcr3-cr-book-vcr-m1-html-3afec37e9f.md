@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-m1-html-3afec37e9f
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-m1.html
-retrieved_at: 2026-08-16T23:13:45.125518+00:00
+retrieved_at: 2026-09-28T10:53:20.607590+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -9233,3 +9233,7 @@ Displays the supported MGCP packages.
                                           						the MGCP daemon. |
 | mgcp default-package | Configures the default package capability type for the media gateway. |
 | show mgcp | Displays the supported MGCP packages. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

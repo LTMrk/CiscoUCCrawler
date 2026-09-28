@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-m-planning-t-7ff5668f42
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/m-planning-the-installation-vg410.html
-retrieved_at: 2026-08-22T01:13:42.099768+00:00
+retrieved_at: 2026-09-28T10:54:50.588864+00:00
 ---
 
 Cisco VG410 Voice Gateway Hardware Installation Guide
@@ -371,3 +371,7 @@ Changes and updates to Cisco IOS software
 | Warning | Statement 1005— Circuit Breaker This product relies on the building’s installation for short-circuit (overcurrent) protection. To reduce risk of electric
                                        shock or fire, ensure that the protective device is rated not greater than 20A. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

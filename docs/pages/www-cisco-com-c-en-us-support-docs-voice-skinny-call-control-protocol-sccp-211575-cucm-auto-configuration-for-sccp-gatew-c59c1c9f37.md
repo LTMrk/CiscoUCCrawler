@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-skinny-call-control-protocol-sccp-211575-cucm-auto-configuration-for-sccp-gatew-c59c1c9f37
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/211575-CUCM-Auto-Configuration-for-SCCP-Gateway.html
-retrieved_at: 2026-08-19T00:13:07.657630+00:00
+retrieved_at: 2026-09-28T10:50:38.456157+00:00
 ---
 
 CUCM Auto Configuration for SCCP Gateways
@@ -311,3 +311,9 @@ Cisco TAC
 | Step 4. | ccm-manager sccp local [Interface] Example: Router(config)# ccm-manager sccp local FastEthernet 0/0 | Select the local interface that the Skinny Client Control Protocol (SCCP) application uses to register with Cisco CallManager. • For the gateway to know which interface MAC address will be used to build the XML file name to request to CUCM. |
 | Step 5. | sccp local [Interface] Example: Router(config)# sccp local FastEthernet 0/0 | Select the local interface that the Skinny Client Control Protocol (SCCP) application uses to register with Cisco CallManager. •The interface that will be used to reach CUCM for registration. |
 | Step 6. | ccm-manager sccp Example: Router(config)# ccm-manager sccp | To enable Cisco CallManager autoconfiguration of the Cisco IOS gateway. •      Use this command to trigger TFTP download of the eXtensible Markup Language (XML) configuration file. Issuing this command immediately triggers the download, and also enables the Skinny Client Control Protocol (SCCP) and SCCP Telephony Control Application (STCAPP), applications that enable Cisco CallManager control of gateway-connected telephony endpoints. |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

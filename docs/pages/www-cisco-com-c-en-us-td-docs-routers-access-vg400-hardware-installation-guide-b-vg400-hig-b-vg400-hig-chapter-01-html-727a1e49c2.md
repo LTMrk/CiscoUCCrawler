@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-chapter-01-html-727a1e49c2
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_01.html
-retrieved_at: 2026-08-22T01:12:36.365378+00:00
+retrieved_at: 2026-09-28T10:54:17.282347+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -303,3 +303,7 @@ Initial operation verified
 | Signal distance limits verified |  |  |
 | Startup sequence steps completed |  |  |
 | Initial operation verified |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

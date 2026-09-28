@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-warning-header-htm-e6b3ff4a78
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-warning-header.html
-retrieved_at: 2026-08-20T23:46:06.025437+00:00
+retrieved_at: 2026-09-28T10:53:01.994633+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -254,3 +254,7 @@ SIP/2.0 500 Internal Server Error Via: SIP/2.0/UDP 9.45.33.11:5081;branch=z9hG4b
 | SIP Warning Header Enhancements | 15.3(2)T | The Warning Header text and Warning Code in a Session Initiation Protocol (SIP) response are used to point to the exact cause
                                           of failure. All system failures are, by default, reported in the warning header of a SIP error response 3xx/4xx/5xx. Reporting
                                           of certain failures (categorized as threshold failures), which disclose system capacity can be controlled. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

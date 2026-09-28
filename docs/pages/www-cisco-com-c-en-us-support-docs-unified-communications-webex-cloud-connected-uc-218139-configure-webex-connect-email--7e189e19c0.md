@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218139-configure-webex-connect-email--7e189e19c0
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.html
-retrieved_at: 2026-08-21T12:49:09.442285+00:00
+retrieved_at: 2026-09-28T10:49:11.075635+00:00
 ---
 
 Configure Webex Connect Email Asset with Open Authorization
@@ -110,9 +110,9 @@ Customer Delivery Engineer
 
 ### Customers Also Viewed
 
-- Configure Hybrid Calendar Service With Microsoft Exchange for WebEx
-
 - Troubleshoot Jabber Log in Problems - Non MRA
+
+- Configure Hybrid Calendar Service With Microsoft Exchange for WebEx
 
 ### This Document Applies to These Products
 
@@ -121,3 +121,33 @@ Customer Delivery Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Sep-2022 | Initial Release |
+
+## Figuras
+
+![Choose Internal or External](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-00.png)
+
+![User support email](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-01.png)
+
+![Google Cloud Platform](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-02.png)
+
+![User support email Google accoount](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-03.png)
+
+![Authorized domains](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-04.png)
+
+![Test users](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-05.png)
+
+![Create OAuth client ID](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-06.png)
+
+![Web application details](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-07.png)
+
+![OAuth client created](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-08.png)
+
+![Create an Asset](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-09.png)
+
+![Generate a token](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-10.png)
+
+![Generated token](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with-11.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

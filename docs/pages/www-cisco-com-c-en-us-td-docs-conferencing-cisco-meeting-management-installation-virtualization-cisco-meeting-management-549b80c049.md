@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-conferencing-cisco-meeting-management-installation-virtualization-cisco-meeting-management-549b80c049
 source_url: https://www.cisco.com/c/en/us/td/docs/conferencing/Cisco-Meeting-Management/Installation/virtualization-cisco-meeting-management.html
-retrieved_at: 2026-08-21T06:27:50.301657+00:00
+retrieved_at: 2026-09-28T10:51:24.773902+00:00
 ---
 
 Virtualization for Cisco Meeting Management
@@ -223,6 +223,14 @@ For more details, see Notes for VM Configurations .
 For all other details on hardware and VMware support, refer to Cisco Collaboration Infrastructure .
 
 Refer to Quote Collab for modeling VM placement on a user defined hardware configuration.
+
+### Customers Also Viewed
+
+- Configure Dial Blast on Cisco Meeting Manager
+
+### This Document Applies to These Products
+
+- Meeting Management
 
 | Virtualization for Cisco Meeting Management |
 |---|
@@ -458,3 +466,7 @@ Capacity Point | VM Configuration Requirements click to download OVA file for th
 
 |  |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

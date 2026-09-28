@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-skinny-call-control-protocol-sccp-118646-technote-sccp-00-html-4de5f10d1a
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/skinny-call-control-protocol-sccp/118646-technote-sccp-00.html
-retrieved_at: 2026-08-20T23:29:51.541182+00:00
+retrieved_at: 2026-09-28T10:50:34.557689+00:00
 ---
 
 Fax Troubleshoot Guide
@@ -803,3 +803,9 @@ Cisco TAC Engineers.
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 15-Jan-2015 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

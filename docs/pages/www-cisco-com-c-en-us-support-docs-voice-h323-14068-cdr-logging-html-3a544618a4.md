@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-h323-14068-cdr-logging-html-3a544618a4
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/h323/14068-cdr-logging.html
-retrieved_at: 2026-08-21T07:17:48.066047+00:00
+retrieved_at: 2026-09-28T10:49:52.818050+00:00
 ---
 
 CDR Logging Configuration with Syslog Servers and Cisco IOS Gateways
@@ -157,3 +157,7 @@ Note: Some Cisco IOS software releases might give many Disconnect Cause Code "0"
 | 0x2C | No requested circuit |
 | 0x2F | No resource |
 | 0x3F | Service or option not available, unspecified |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

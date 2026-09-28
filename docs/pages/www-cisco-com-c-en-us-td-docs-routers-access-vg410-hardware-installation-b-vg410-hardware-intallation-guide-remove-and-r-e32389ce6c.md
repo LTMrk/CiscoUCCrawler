@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg410-hardware-installation-b-vg410-hardware-intallation-guide-remove-and-r-e32389ce6c
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg410/hardware-installation/b-vg410-hardware-intallation-guide/remove-and-replace-the-battery.html
-retrieved_at: 2026-08-22T01:14:01.155953+00:00
+retrieved_at: 2026-09-28T10:55:03.191209+00:00
 ---
 
 Cisco VG410 Voice Gateway Hardware Installation Guide
@@ -128,3 +128,7 @@ Replace the cover and secure the screws.
 | Step 3 | Insert the battery into the holder so that one edge is under the overhang. |
 | Step 4 | Press the opposite edge down so it snaps into the holder. |
 | Step 5 | Replace the cover and secure the screws. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

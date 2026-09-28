@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-vcr3-vcr3-cr-book-vcr-p1-html-ff22478a9e
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/vcr3/vcr3-cr-book/vcr-p1.html
-retrieved_at: 2026-08-16T23:18:45.058599+00:00
+retrieved_at: 2026-09-28T10:53:45.621636+00:00
 ---
 
 Cisco IOS Voice Command Reference - K through R
@@ -5092,3 +5092,7 @@ Creates or modifies a voice class for matching dial peers to calls containing a 
 | show dialplan uri | Displays which outbound dial peer is matched for a specific destination URI. |
 | user-id | Matches a call based on the user-id field in the SIP URI. |
 | voice class uri | Creates or modifies a voice class for matching dial peers to calls containing a SIP or TEL URI. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

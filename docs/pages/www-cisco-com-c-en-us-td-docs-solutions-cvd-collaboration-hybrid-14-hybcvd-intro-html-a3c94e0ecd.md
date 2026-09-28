@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-14-hybcvd-intro-html-a3c94e0ecd
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd/intro.html
-retrieved_at: 2026-08-16T18:23:45.847631+00:00
+retrieved_at: 2026-09-28T10:57:20.757243+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -232,3 +232,9 @@ The Management Connector requires that certificates of the Certification Authori
 | Webex Room Kit Series | TelePresence multipurpose and integrator room endpoints |
 | Webex Room Series | TelePresence multipurpose and integrator room endpoints with built-in single or dual screens |
 | Webex Board Series | All-in-one presentation, white board, and audio/video multipurpose room endpoint |
+
+## Figuras
+
+![313270.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313270.eps/_jcr_content/renditions/313270.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

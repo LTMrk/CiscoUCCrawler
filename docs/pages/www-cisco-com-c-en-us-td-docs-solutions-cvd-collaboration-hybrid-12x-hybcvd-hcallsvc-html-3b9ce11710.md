@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12x-hybcvd-hcallsvc-html-3b9ce11710
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12x/hybcvd/hcallsvc.html
-retrieved_at: 2026-08-16T18:25:34.102924+00:00
+retrieved_at: 2026-09-28T10:56:14.165064+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -473,3 +473,33 @@ e. For further information on how to set up the Cisco Unified CM zone, refer to 
 | 4 | Zone | Default Zone | [0\|9]\d*(@.*)? | Reject |
 | 5 | Zone | Default Zone | .*@example\.com.* | Allow |
 | 6 | Zone | Default Zone | .* | Reject |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![313378.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313378.eps/_jcr_content/renditions/313378.jpg)
+
+![313379.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313379.eps/_jcr_content/renditions/313379.jpg)
+
+![313380.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313380.eps/_jcr_content/renditions/313380.jpg)
+
+![313287.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313287.eps/_jcr_content/renditions/313287.jpg)
+
+![313381.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313381.eps/_jcr_content/renditions/313381.jpg)
+
+![313311.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313311.eps/_jcr_content/renditions/313311.jpg)
+
+![313382.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313382.eps/_jcr_content/renditions/313382.jpg)
+
+![313216.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313216.eps/_jcr_content/renditions/313216.jpg)
+
+![313313.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313313.eps/_jcr_content/renditions/313313.jpg)
+
+![313314.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313314.eps/_jcr_content/renditions/313314.jpg)
+
+![313315.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313315.eps/_jcr_content/renditions/313315.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

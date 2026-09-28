@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-cube-map-configuration-xe-16-cube-map-xe-16x-cube-map-xe-16x-chapter-00--93705bbf84
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube_map/configuration/xe-16/cube-map-xe-16x/cube-map-xe-16x_chapter_00.html
-retrieved_at: 2026-08-16T15:54:44.042594+00:00
+retrieved_at: 2026-09-28T10:51:32.789210+00:00
 ---
 
 Cisco Unified Border Element Feature Roadmap, Cisco IOS XE Releases
@@ -71,3 +71,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or
                                        that is hardcoded in the user interfaces of the product software, language used based on RFP documentation, or language that
                                        is used by a referenced third-party product. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-srtp-html-7c35d2b346
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-srtp.html
-retrieved_at: 2026-08-20T23:45:57.874236+00:00
+retrieved_at: 2026-09-28T10:52:36.022400+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -1463,3 +1463,7 @@ URI --uniform resource identifier.
                                           					 feature provides the ability to support interworking between SRTP on one IP leg
                                           					 and RTP on another IP leg of a Cisco Unified Border Element. The
                                           					 following command was introduced or modified: tls . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

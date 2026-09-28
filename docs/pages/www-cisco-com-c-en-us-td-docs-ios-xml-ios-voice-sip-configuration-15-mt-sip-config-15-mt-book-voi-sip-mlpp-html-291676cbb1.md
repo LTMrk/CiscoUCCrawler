@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-mlpp-html-291676cbb1
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-mlpp.html
-retrieved_at: 2026-08-20T23:45:32.214053+00:00
+retrieved_at: 2026-09-28T10:52:04.945113+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -3555,3 +3555,24 @@ DSP#2: state RESET, 0 channels allocated |
 | The Cisco Support website provides extensive online resources, including documentation and tools for troubleshooting and
                                           resolving technical issues with Cisco products and technologies. To receive security and technical information about your products, you can subscribe to various services, such as the Product
                                           Alert Tool (accessed from Field Notices), the Cisco Technical Services Newsletter, and Really Simple Syndication (RSS) Feeds. Access to most tools on the Cisco Support website requires a Cisco.com user ID and password. | http://www.cisco.com/cisco/web/support/index.html |
+
+## Figuras
+
+![Figure 1. SIP Endpoints Not Communicating the SDP direction:<role>
+                                    		  Attribute](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82898.ps/_jcr_content/renditions/82898.jpg)
+
+![Figure 2. SIP Endpoints Communicating the SDP direction:<role>](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82899.ps/_jcr_content/renditions/82899.jpg)
+
+![Figure 3. Network Solution and System Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127905.ps/_jcr_content/renditions/127905.jpg)
+
+![Figure 4. R-P Header Origination with Loose Mode Selected](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127906.ps/_jcr_content/renditions/127906.jpg)
+
+![Figure 5. R-P Header Origination with Strict Mode Selected](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127907.ps/_jcr_content/renditions/127907.jpg)
+
+![Figure 6. Media Forking Application](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88365.ps/_jcr_content/renditions/88365.jpg)
+
+![Figure 7. Multiple Streams](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88366.ps/_jcr_content/renditions/88366.jpg)
+
+![Figure 8. Sample SIP Network Using Media Forking](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/85001-90000/88001-89000/88367.ps/_jcr_content/renditions/88367.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

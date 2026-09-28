@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-220387-configure-hybrid-calendar-serv-5b3d1da5a3
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.html
-retrieved_at: 2026-08-21T06:29:55.505995+00:00
+retrieved_at: 2026-09-28T10:49:15.579682+00:00
 ---
 
 Configure Hybrid Calendar Service With Microsoft Exchange for WebEx
@@ -497,3 +497,83 @@ Cisco PS
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 12-Apr-2023 | Initial Release |
+
+## Figuras
+
+![New ManagementRoleAssignment command](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-00.png)
+
+![Get-ManagementRoleAssignment command](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-01.png)
+
+![New-ThrottlingPolicy command](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-02.png)
+
+![Get-Mailbox command](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-03.png)
+
+![Get-ThrottlingPolicyAssociation command](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-04.png)
+
+![Trusted CA Certificate menu](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-05.png)
+
+![Append CA certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-06.png)
+
+![Hybrid Calendar with Exchange Card](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-07.png)
+
+![Hybrid Calendar Service Setup](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-08.png)
+
+![Deploy a new Expressway cluster](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-09.png)
+
+![Hybrid Calendar Service Setup Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-10.png)
+
+![Connector Management - Certificates management](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-11.png)
+
+![Connector Management - Register](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-12.png)
+
+![Allow Access to Expressway](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-13.png)
+
+![Expressway Registration Confirmed](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-14.png)
+
+![Management Connector Running Status](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-15.png)
+
+![Calendar Connector Not Configured](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-16.png)
+
+![Hybrid Calendar Not Operational](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-17.png)
+
+![Microsoft Excahnge Configuration in Expressway](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-18.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Calendar Connector On Prem Exchange](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-19.png)
+
+![Cisco Webex Meetings Site Configuration](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-20.png)
+
+![miguecas_2-1682380571383](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-21.png)
+
+![miguecas_3-1682380648414](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-22.png)
+
+![Configure @webex and @meet keywords](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-23.png)
+
+![Connecto Management Enabled](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-24.png)
+
+![Calendar Connector starts](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-25.png)
+
+![Calendar Service enabled in the user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-26.png)
+
+![Edit Hybrid Services under the selected user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-27.png)
+
+![Services enabled for the selected user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-28.png)
+
+![Activated MSFT Exchange/Office 365 Calendar integration for the selected user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-29.png)
+
+![Pending Activation for the user](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-30.png)
+
+![Calendar Service Activated](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-31.png)
+
+![Calendar Service Error](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-32.png)
+
+![Calendar Service No Operation connector found for the user. Check the cluster configuration and then try again.](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-33.png)
+
+![Hybrid Services Events History](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-34.png)
+
+![Send logs to Cisco Webex Cloud](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m-35.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-sizing-html-e63563fc3e
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/sizing.html
-retrieved_at: 2026-08-16T18:26:18.004342+00:00
+retrieved_at: 2026-09-28T10:57:03.952004+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -125,3 +125,11 @@ Figure 7-2 Virtual Machine Placement Example Using the VMPT
 | Up to 1,000 users (2,000 devices) | 2 nodes (1k-user VM configuration on Cisco Business Edition 6000H): 1 primary node (publisher, TFTP, and call processing node) 1 backup node (TFTP and call processing node) |
 | Up to 2,500 users (5,000 devices) | 5 nodes (7.5k-user VM configuration): 1 publisher node 2 TFTP node 1 call processing pair (2 call processing subscriber nodes) |
 | Up to 5,000 users (10,000 devices) | 7 nodes (7.5k-user VM configuration): 1 publisher node 2 TFTP node 2 call processing pairs (4 call processing subscriber nodes) |
+
+## Figuras
+
+![313316.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313316.eps/_jcr_content/renditions/313316.jpg)
+
+![313412.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313412.eps/_jcr_content/renditions/313412.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

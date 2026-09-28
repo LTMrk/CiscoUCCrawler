@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-ios-xml-ios-voice-sip-configuration-15-mt-sip-config-15-mt-book-voi-sip-pai-ppi-html-5b26660120
 source_url: https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/sip/configuration/15-mt/sip-config-15-mt-book/voi-sip-pai-ppi.html
-retrieved_at: 2026-08-20T23:45:40.103191+00:00
+retrieved_at: 2026-09-28T10:52:20.785399+00:00
 ---
 
 SIP Configuration Guide, Cisco IOS Release 15M&T
@@ -380,3 +380,7 @@ The following commands were introduced or modified: asserted-id , voice-class si
                                           header was supported for outgoing calls at global level. The PAI or PPI Header in Incoming and Outgoing SIP Calls feature
                                           is an enhancement to support the PAI or the PPI privacy header for incoming and outgoing calls at the global level and dial-peer
                                           configuration mode. The following commands were introduced or modified: asserted-id , voice-class sip asserted-id . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

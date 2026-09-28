@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-routers-access-vg400-hardware-installation-guide-b-vg400-hig-b-vg400-hig-chapter-011-html-5c528569c7
 source_url: https://www.cisco.com/c/en/us/td/docs/routers/access/vg400/hardware/installation/guide/b_vg400_hig/b_vg400_hig_chapter_011.html
-retrieved_at: 2026-08-22T01:13:00.974181+00:00
+retrieved_at: 2026-09-28T10:54:29.433842+00:00
 ---
 
 Cisco VG400 Voice Gateway Hardware Installation Guide
@@ -148,3 +148,7 @@ Contact Cisco
 | Faulty Cisco VG400 | Contact Cisco
                                     1
                                     or your Cisco reseller |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

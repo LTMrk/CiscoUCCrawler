@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-12xy-hybcvd-hms-html-687516e1e1
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/12xy/hybcvd/hms.html
-retrieved_at: 2026-09-07T16:22:18.366133+00:00
+retrieved_at: 2026-09-28T10:56:52.295229+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -986,3 +986,53 @@ More clusters can be added to the deployment by specifying a new cluster name fr
 |---|---|
 | IPv4 Pattern | ent-pa.webex.com |
 | SIP Trunk/Route List | Route list for Webex Meetings |
+
+## Figuras
+
+![313276.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313276.eps/_jcr_content/renditions/313276.jpg)
+
+![313320.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313320.eps/_jcr_content/renditions/313320.jpg)
+
+![313321.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313321.eps/_jcr_content/renditions/313321.jpg)
+
+![313322.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313322.eps/_jcr_content/renditions/313322.jpg)
+
+![313323.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313323.eps/_jcr_content/renditions/313323.jpg)
+
+![313324.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313324.eps/_jcr_content/renditions/313324.jpg)
+
+![313325.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313325.eps/_jcr_content/renditions/313325.jpg)
+
+![313327.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313327.eps/_jcr_content/renditions/313327.jpg)
+
+![313328.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313328.eps/_jcr_content/renditions/313328.jpg)
+
+![313383.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313383.eps/_jcr_content/renditions/313383.jpg)
+
+![313384.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313384.eps/_jcr_content/renditions/313384.jpg)
+
+![313385.jpg](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313385.eps/_jcr_content/renditions/313385.jpg)
+
+![313331.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313331.eps/_jcr_content/renditions/313331.jpg)
+
+![313332.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313332.eps/_jcr_content/renditions/313332.jpg)
+
+![313333.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313333.eps/_jcr_content/renditions/313333.jpg)
+
+![313334.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313334.eps/_jcr_content/renditions/313334.jpg)
+
+![313335.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313335.eps/_jcr_content/renditions/313335.jpg)
+
+![313336.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313336.eps/_jcr_content/renditions/313336.jpg)
+
+![313337.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313337.eps/_jcr_content/renditions/313337.jpg)
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![313340.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313340.eps/_jcr_content/renditions/313340.jpg)
+
+![313341.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313341.eps/_jcr_content/renditions/313341.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12164-dialpeer-call-leg-html-4b3ccfed88
 source_url: https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.html
-retrieved_at: 2026-08-20T23:24:19.984017+00:00
+retrieved_at: 2026-09-28T10:49:19.657355+00:00
 ---
 
 Understand Dial Peers and Call Legs on Cisco IOS Platforms
@@ -140,3 +140,9 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Dec-2001 | Initial Release |
+
+## Figuras
+
+![12164-in-out-dial-peers1](https://www.cisco.com/c/dam/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg-00.jpeg)
+
+![12164-cm-gw-peer](https://www.cisco.com/c/dam/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg-01.jpeg)

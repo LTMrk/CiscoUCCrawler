@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html
-retrieved_at: 2026-09-07T12:39:56.908719+00:00
+retrieved_at: 2026-09-28T10:48:45.860472+00:00
 ---
 
 Troubleshoot Cisco Headset 5XX Series
@@ -550,20 +550,32 @@ Visit Cisco IP Phone 8800 supported accessories for more information on the head
 
 Initial Release
 
-### Contributed by Cisco Engineers
-
-Victor Gutierrez Luna
-
-Cisco TAC Engineer
-
-### Customers Also Viewed
-
-- Collect Trace Data from a CUCM Cluster
-
-### This Document Applies to These Products
-
-- Unified Communications Manager Version 12.5
-
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 31-Oct-2019 | Initial Release |
+
+## Figuras
+
+![Bug-Preview for CSCvn41271](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvp96968](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvp32795](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvq03392](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn47014](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn66483](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn73816](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvp97802](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvo01194](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn79632](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn77884](https://techzone.cisco.com/html/assets/mag.gif)
+
+![Bug-Preview for CSCvn76631](https://techzone.cisco.com/html/assets/mag.gif)

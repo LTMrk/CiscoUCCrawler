@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-solutions-cvd-collaboration-hybrid-14-hybcvd-hcallsvc-html-9b48c13dcd
 source_url: https://www.cisco.com/c/en/us/td/docs/solutions/CVD/Collaboration/hybrid/14/hybcvd/hcallsvc.html
-retrieved_at: 2026-08-16T18:23:59.274121+00:00
+retrieved_at: 2026-09-28T10:57:16.465037+00:00
 ---
 
 Preferred Architecture for Cisco Webex Hybrid Services, CVD
@@ -384,3 +384,11 @@ Pre-requisites
 | SIP URI routing to non-Webex destinations | Through Unified CM | Through Unified CM |
 | Webex point-to-point destinations room02@ent-pa.room.webex.com | Through Webex | Through Unified CM |
 | Webex multipoint destinations | Through Webex | Through Webex |
+
+## Figuras
+
+![note.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![blank.gif](https://www.cisco.com/c/dam/en/us/td/i/templates/blank.gif)
+
+![313216.eps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/313001-314000/313216.eps/_jcr_content/renditions/313216.jpg)
