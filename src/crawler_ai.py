@@ -282,10 +282,36 @@ def get_custom_behavior(url):
 # Utilidades
 # ---------------------------------------------------------------------------
 
+# Tope de logs/error.log. El fichero es append-only y se commitea en cada
+# lote, asi que sin recorte crece para siempre: el 2026-09-27 iba por 98.271
+# lineas y 19,9 MB, que cada checkout del ETL arrastra. Veinte mil lineas
+# cubren de sobra varios lotes de diagnostico, que es para lo unico que se
+# lee. El historico completo sigue en el artefacto logs-diagnostico de cada
+# ejecucion, con siete dias de retencion.
+MAX_LINEAS_ERROR_LOG = 20000
+
+
 def log_error(url, motivo):
     os.makedirs("logs", exist_ok=True)
     with open("logs/error.log", "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now().isoformat()}] {motivo} | {url}\n")
+
+
+def rotar_error_log(ruta="logs/error.log", max_lineas=MAX_LINEAS_ERROR_LOG):
+    """Recorta el log a sus ultimas `max_lineas`. Devuelve (antes, despues).
+
+    Se llama UNA vez al cerrar el lote, no en cada `log_error`: reescribir
+    el fichero en cada linea lo convertiria en cuadratico.
+    """
+    if not os.path.exists(ruta):
+        return 0, 0
+    with open(ruta, encoding="utf-8", errors="replace") as f:
+        lineas = f.readlines()
+    if len(lineas) <= max_lineas:
+        return len(lineas), len(lineas)
+    with open(ruta, "w", encoding="utf-8") as f:
+        f.writelines(lineas[-max_lineas:])
+    return len(lineas), max_lineas
 
 
 def log_info(mensaje):
@@ -906,6 +932,12 @@ async def deep_crawl():
         # Un fallo aqui no debe tirar el lote: el corpus ya esta en disco y lo
         # que importa es commitearlo.
         log_error("RESUMEN", f"No se pudo generar el inventario: {e}")
+
+    # Antes del commit, no despues: si se recortara luego, se commitearia
+    # el fichero largo y el recorte no llegaria nunca al repositorio.
+    antes, despues = rotar_error_log()
+    if antes != despues:
+        log_info(f"error.log recortado: {antes} -> {despues} lineas.")
 
     git_commit_and_push(
         f"docs({modo}): +{len(resumen['added'])} ~{len(resumen['modified'])} "
