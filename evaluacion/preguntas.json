@@ -1,0 +1,81 @@
+{
+  "_doc": [
+    "Preguntas de control para tools/evaluar_corpus.py.",
+    "",
+    "Esta lista es PROVISIONAL: la escribio Claude a partir de lo que suele",
+    "preguntarse sobre Cisco UC, no de preguntas reales del equipo. Cinco o",
+    "seis preguntas que alguien haya hecho de verdad valen mas que veinte",
+    "inventadas, porque la mitad del valor esta en descubrir lo que la gente",
+    "pregunta y el corpus no cubre. Sustituyelas en cuanto las tengas.",
+    "",
+    "Las palabras clave van en INGLES aunque el equipo pregunte en espanol:",
+    "el corpus esta en ingles y la busqueda de la herramienta es lexica. Esa",
+    "distancia la salva Copilot, no esto. Ver la cabecera del script.",
+    "",
+    "url_esperada es una regex sobre la source_url del documento, no una URL",
+    "exacta: lo que se mide es si sale a flote un documento del area correcta,",
+    "no uno concreto."
+  ],
+  "preguntas": [
+    {
+      "pregunta": "AXL addPhone request to create a phone in CUCM",
+      "url_esperada": "developer\\.cisco\\.com/docs/axl/",
+      "nota": "La API de aprovisionamiento de CUCM. Si esto falla, DevNet no sirve."
+    },
+    {
+      "pregunta": "AXL authentication HTTP basic credentials",
+      "url_esperada": "developer\\.cisco\\.com/docs/axl/authentication",
+      "nota": "Pagina concreta y muy especifica: deberia ser un acierto facil."
+    },
+    {
+      "pregunta": "SAML SSO deployment with identity provider in Unified Communications Manager",
+      "url_esperada": "SAML_SSO_deployment_guide",
+      "nota": "24 paginas en el corpus."
+    },
+    {
+      "pregunta": "CUPI API create voicemail user in Unity Connection",
+      "url_esperada": "connection/REST-API/CUPI_API/",
+      "nota": "Cubre la parte developer de CUC, que es de lo que se pregunto."
+    },
+    {
+      "pregunta": "Finesse gadget REST API for agent state",
+      "url_esperada": "developer\\.cisco\\.com/docs/finesse/",
+      "nota": "El doc-set de DevNet con mas paginas: 25."
+    },
+    {
+      "pregunta": "Mobile and Remote Access MRA certificate requirements on Expressway",
+      "url_esperada": "expressway",
+      "nota": "Despliegue tipico. 126 paginas."
+    },
+    {
+      "pregunta": "UCCX database schema table reference",
+      "url_esperada": "uccx.*schema",
+      "nota": "Esquema de base de datos, que si esta en HTML al contrario que el de CUCM."
+    },
+    {
+      "pregunta": "CUBE SIP profile normalization on IOS XE voice gateway",
+      "url_esperada": "ios-xe-voip|unified-border-element|cube",
+      "nota": "Gateway de voz."
+    },
+    {
+      "pregunta": "Extension Mobility login service configuration",
+      "url_esperada": "extension-mobility|featureConfig",
+      "nota": "Hay doc de DevNet y guia de administracion: vale cualquiera."
+    },
+    {
+      "pregunta": "Unity Connection design guide sizing and capacity",
+      "url_esperada": "connection/.*design",
+      "nota": "106 paginas de guia de diseno de CUC."
+    },
+    {
+      "pregunta": "Cisco Collaboration SRND call processing deployment models",
+      "url_esperada": "cucm/srnd/|preferred-architecture",
+      "nota": "Los esquemas de implantacion que se pidieron. Solo 12 paginas: candidato a fallar."
+    },
+    {
+      "pregunta": "JTAPI developer guide CTI application",
+      "url_esperada": "jtapi",
+      "nota": "50 paginas en cucm/jtapi_dev mas el doc-set de DevNet."
+    }
+  ]
+}
