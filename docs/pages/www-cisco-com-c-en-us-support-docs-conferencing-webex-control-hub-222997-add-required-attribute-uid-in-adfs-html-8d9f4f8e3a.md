@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222997-add-required-attribute-uid-in-adfs-html-8d9f4f8e3a
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html
-retrieved_at: 2026-08-21T06:29:46.940479+00:00
+retrieved_at: 2026-09-28T05:46:57.549356+00:00
 ---
 
 Add Required Attribute UID in ADFS Server Manually
@@ -101,3 +101,15 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 06-May-2025 | Initial Release |
+
+## Figuras
+
+![Configurations](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs-00.png)
+
+![Create Rule](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs-01.png)
+
+![SSO](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222835-troubleshoot-webex-workspace-scheduling-html-abf6fa5a56
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.html
-retrieved_at: 2026-08-17T00:53:54.337118+00:00
+retrieved_at: 2026-09-28T05:46:45.279551+00:00
 ---
 
 Troubleshoot Webex Workspace Scheduling error "The booking request failed"
@@ -134,3 +134,21 @@ Initial Release
 |---|---|---|
 | 2.0 | 21-Oct-2025 | Initial Release |
 | 1.0 | 14-Mar-2025 | Initial Release |
+
+## Figuras
+
+![Scheduling Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-00.png)
+
+![Ad-hoc booking status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-01.png)
+
+![Calendar settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-02.png)
+
+![Scheduling Account](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-03.png)
+
+![Device Logs](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-04.png)
+
+![All.log file](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-05.png)
+
+![Scheduling Account](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling-06.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

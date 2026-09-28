@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220168-configure-webex-scheduler-add-in-for-a-h-html-a185457cb8
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.html
-retrieved_at: 2026-09-01T14:56:16.362119+00:00
+retrieved_at: 2026-09-28T05:47:39.193740+00:00
 ---
 
 Configure Webex Scheduler Add-in for a Hybrid Environment
@@ -158,3 +158,13 @@ Cisco Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 30-Jan-2023 | Initial Release |
 | 1.0 | 27-Jan-2023 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![M365 Settings for Webex Meeting Sites](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h-00.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

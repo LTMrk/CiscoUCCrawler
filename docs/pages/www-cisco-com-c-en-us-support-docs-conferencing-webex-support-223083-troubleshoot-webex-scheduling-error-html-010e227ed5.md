@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-support-223083-troubleshoot-webex-scheduling-error-html-010e227ed5
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.html
-retrieved_at: 2026-09-01T14:57:06.951747+00:00
+retrieved_at: 2026-09-28T05:48:33.947407+00:00
 ---
 
 Troubleshoot Webex Scheduling Error "Unauthorized from O365. Admin Action is Required."
@@ -148,3 +148,25 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Jun-2025 | Initial Release |
+
+## Figuras
+
+![Workspace Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-00.png)
+
+![Getting HTTP Inspection](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-01.png)
+
+![HTTP inspection](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-02.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Graph Explorer](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-03.png)
+
+![Domain Tenants](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-04.png)
+
+![Tenant Details](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-05.png)
+
+![Activation Succeded](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

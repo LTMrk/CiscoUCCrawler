@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-html-c86bc80770
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html
-retrieved_at: 2026-08-17T00:53:50.423591+00:00
+retrieved_at: 2026-09-28T05:47:22.891712+00:00
 ---
 
 Manage Profile Pictures Using Cisco Directory Connector
@@ -161,3 +161,37 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Mar-2026 | Initial Release |
+
+## Figuras
+
+![CodeTwo](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-00.png)
+
+![prompt](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-01.png)
+
+![Picture deleted](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-02.png)
+
+![Edit button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-03.png)
+
+![Clear button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-04.png)
+
+![Attribute Editor](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-05.png)
+
+![Control Hub view](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-06.png)
+
+![Verification](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-07.png)
+
+![Manage Profile Pictures](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-08.png)
+
+![Remove profile pictures](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-09.png)
+
+![Confirm button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-10.png)
+
+![Launch Event Viewer](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-11.png)
+
+![Find](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-12.png)
+
+![Find Next](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-13.png)
+
+![Profile picture removed](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco-14.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)

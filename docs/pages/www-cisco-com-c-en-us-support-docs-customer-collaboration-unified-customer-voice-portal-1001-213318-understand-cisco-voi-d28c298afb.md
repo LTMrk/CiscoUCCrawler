@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-1001-213318-understand-cisco-voi-d28c298afb
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.html
-retrieved_at: 2026-08-21T06:52:00.925917+00:00
+retrieved_at: 2026-09-28T05:49:48.555413+00:00
 ---
 
 Understand Cisco Voice Portal Courtesy Callback Status Information
@@ -751,3 +751,15 @@ Initial Release
 |---|---|---|
 | 2.0 | 10-Jan-2022 | Fixed formatting issue. |
 | 1.0 | 03-Jul-2018 | Initial Release |
+
+## Figuras
+
+![Understand Cisco Voice Portal Courtesy Callback Status Information - Callback Table](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c-00.png)
+
+![Understand Cisco Voice Portal Courtesy Callback Status Information - Callback Event Table](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c-01.png)
+
+![Understand Cisco Voice Portal Courtesy Callback Status Information - Callback Queue](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c-02.png)
+
+![Understand Cisco Voice Portal Courtesy Callback Status Information - Callback Queue After Being Called Back](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c-03.png)
+
+![Understand Cisco Voice Portal Courtesy Callback Status Information - Callback Queue After Being Called Back](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c-04.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-211537-troubleshoot-cvp-courtesy-de98063518
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html
-retrieved_at: 2026-09-07T13:23:38.012856+00:00
+retrieved_at: 2026-09-28T05:49:52.612567+00:00
 ---
 
 Troubleshoot CVP Courtesy Callback (CCB) Gateway Capacity Validation Failure
@@ -265,3 +265,21 @@ Cisco TAC Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 12-Sep-2017 | Initial Release |
+
+## Figuras
+
+![211537-Troubleshoot-CVP-Courtesy-Callback-CCB-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB-00.png)
+
+![211537-Troubleshoot-CVP-Courtesy-Callback-CCB-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB-01.png)
+
+![211537-Troubleshoot-CVP-Courtesy-Callback-CCB-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB-02.png)
+
+![211537-Troubleshoot-CVP-Courtesy-Callback-CCB-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB-03.png)
+
+![mag.gif](https://techzone.cisco.com/html/assets/mag.gif)
+
+![211537-Troubleshoot-CVP-Courtesy-Callback-CCB-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

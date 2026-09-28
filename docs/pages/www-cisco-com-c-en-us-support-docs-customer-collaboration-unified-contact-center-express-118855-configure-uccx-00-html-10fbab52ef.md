@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-html-10fbab52ef
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.html
-retrieved_at: 2026-09-01T21:19:27.361868+00:00
+retrieved_at: 2026-09-28T05:49:27.886034+00:00
 ---
 
 Configure UCCX Solution Certificate Management
@@ -393,8 +393,6 @@ Technical Consulting Engineer
 
 - Configure LSC on IP Phone with CUCM
 
-- CER Certificate Expiry and Deletion
-
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 4.0 | 17-Sep-2025 | Formatting, numbered steps. |
@@ -402,3 +400,17 @@ Technical Consulting Engineer
 | 2.0 | 20-Oct-2023 | Added Alt Text.
 Updated Title, Introduction, PII, SEO, Legal Disclaimer, Machine Translation, Style Requirements, and Formatting. |
 | 1.0 | 24-Mar-2015 | Initial Release |
+
+## Figuras
+
+![Certificate Architecture](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00-00.png)
+
+![Certificate Status, Settings and File Data](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00-01.jpeg)
+
+![Regenerate, Download or Generate CSR Options](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00-02.jpeg)
+
+![Upload Certificate, Certificate Chain](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00-03.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

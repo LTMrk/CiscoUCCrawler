@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-211307-unified-contact-cente-a3b5dc54c8
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE.html
-retrieved_at: 2026-08-21T11:53:05.310637+00:00
+retrieved_at: 2026-09-28T05:49:23.637260+00:00
 ---
 
 Unified Contact Center Enterprise (UCCE) Single Sign On (SSO) Certificates and Configuration
@@ -217,3 +217,53 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 30-May-2017 | Initial Release |
+
+## Figuras
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-00.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-01.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-02.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-03.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-04.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-05.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-06.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-06.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-07.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-07.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-08.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-08.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-09.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-09.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-10.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-10.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-11.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-11.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-12.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-12.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-13.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-13.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-14.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-14.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-15.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-15.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-16.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-16.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-17.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-17.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-18.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-18.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-19.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-19.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-20.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-20.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-21.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-21.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-22.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-22.png)
+
+![211307-Unified-Contact-Center-Enterprise-UCCE-23.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE-23.png)

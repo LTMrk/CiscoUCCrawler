@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-221084-configure-join-before-host-audio-for-pcn-html-8fca8ece41
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.html
-retrieved_at: 2026-08-21T06:29:51.383033+00:00
+retrieved_at: 2026-09-28T05:46:19.710105+00:00
 ---
 
 Configure Join before Host Audio for PCN or Control Hub Meeting
@@ -110,3 +110,23 @@ Cisco Technical Consulting Engineer
 |---|---|---|
 | 2.0 | 11-Oct-2023 | Initial Release |
 | 1.0 | 11-Oct-2023 | Initial Release |
+
+## Figuras
+
+![Control Hub Meetings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-00.png)
+
+![Common Settings Popup](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-01.png)
+
+![Attendee Menu to Enable Join Before Host](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-02.png)
+
+![Common Settings Menu](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-03.png)
+
+![Users Meetings Tab](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-04.png)
+
+![Advanced Settings Menu](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-05.png)
+
+![Allow Attendees to Join Before Host Check Box](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

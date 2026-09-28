@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-212634-troubleshoot-cisco-finesse-desktop-persi-html-1666f938f4
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html
-retrieved_at: 2026-08-20T21:16:26.626060+00:00
+retrieved_at: 2026-09-28T05:48:50.174879+00:00
 ---
 
 Troubleshoot Cisco Finesse Desktop Persistent Logging  Problem
@@ -79,3 +79,19 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-Jan-2018 | Initial Release |
+
+## Figuras
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-00.png)
+
+![mag.gif](https://techzone.cisco.com/html/assets/mag.gif)
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-01.png)
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-02.png)
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-03.png)
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-04.png)
+
+![212634-troubleshoot-cisco-finesse-desktop-persi-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi-05.png)

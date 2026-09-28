@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-221042-troubleshoot-cer-backup-failing-wit-0ff2cf2f93
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.html
-retrieved_at: 2026-08-17T00:11:11.425553+00:00
+retrieved_at: 2026-09-28T05:53:17.742192+00:00
 ---
 
 Troubleshoot CER Backup Failing with Error Message
@@ -159,3 +159,21 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Oct-2023 | Initial Release |
+
+## Figuras
+
+![CER Backup Error Message](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-00.png)
+
+![CER Enabling Debugs and Traces](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-01.png)
+
+![CER Collecting DRS Logs](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-02.png)
+
+![CER ipsec.pem Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-03.png)
+
+![CER ipsec.trust Certificate Upload](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-04.png)
+
+![CER ipsec.pem Regenerate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-05.png)
+
+![CER Cisco DRF Master Restart](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-06.png)
+
+![CER Cisco DRF Local Restart](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err-07.png)

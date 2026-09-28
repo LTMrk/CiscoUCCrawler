@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-215430-how-to-retrieve-a-webex-user-id-and-pass-html-ddd10539dc
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.html
-retrieved_at: 2026-09-01T14:56:20.423894+00:00
+retrieved_at: 2026-09-28T05:47:35.069349+00:00
 ---
 
 How to Retrieve a Webex User ID and Password
@@ -101,3 +101,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - WebEx Meetings
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

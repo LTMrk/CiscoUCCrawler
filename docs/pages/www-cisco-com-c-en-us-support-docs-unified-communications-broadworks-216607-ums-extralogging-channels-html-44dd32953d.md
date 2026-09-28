@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216607-ums-extralogging-channels-html-44dd32953d
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.html
-retrieved_at: 2026-09-07T13:02:36.936072+00:00
+retrieved_at: 2026-09-28T05:50:58.913410+00:00
 ---
 
 How to enable UMS ExtraLogging channels
@@ -135,3 +135,9 @@ Contributed by Cisco Engineers
 | v2 | ap374519 | isJabberIqRosterExtraLoggingActive isRosterFlatExtraLoggingActive | jabberIqRosterExtraLoggingActive rosterFlatExtraLoggingActive | Roster issue |
 | v3 | ap377180 | isMessageExtraLoggingActive isMessageHistoryExtraLoggingActive | messageExtraLoggingActive messageHistoryExtraLoggingActive | message-to-message issue (User A on N1 and user B on N2 are chatting) |
 | v4 | ap377373 | isReceiverBareJidLBExtraLoggingActive isComponentProtocolExtraLoggingActive | receiverBareJidLBExtraLoggingActive componentProtocolExtraLoggingActive | node-disconnect, MUC* & XMPP_Bind issues |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

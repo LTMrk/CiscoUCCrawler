@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220-221699-troubleshoot-webex-fo-9ba66c1573
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.html
-retrieved_at: 2026-09-07T13:03:14.971978+00:00
+retrieved_at: 2026-09-28T05:50:13.327357+00:00
 ---
 
 Troubleshoot Webex for Bworks "Failed to Parse the Configuration" Error
@@ -103,3 +103,11 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 16-Feb-2024 | Initial Release |
+
+## Figuras
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

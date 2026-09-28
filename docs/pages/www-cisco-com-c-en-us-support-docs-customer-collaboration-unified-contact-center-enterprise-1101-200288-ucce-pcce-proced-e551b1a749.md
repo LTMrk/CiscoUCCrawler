@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-1101-200288-ucce-pcce-proced-e551b1a749
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo.html
-retrieved_at: 2026-08-16T20:54:36.773728+00:00
+retrieved_at: 2026-09-28T05:49:07.155692+00:00
 ---
 
 UCCE\PCCE - Procedure to obtain and upload  Windows Server Self‐Signed or Certificate Authority (CA) Certificate on 2008 servers
@@ -115,3 +115,43 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Dec-2015 | Initial Release |
+
+## Figuras
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-00.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-01.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-02.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-03.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-04.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-05.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-06.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-06.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-07.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-07.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-08.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-08.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-09.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-09.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-10.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-10.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-11.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-11.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-12.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-12.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-13.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-13.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-14.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-14.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-15.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-15.png)
+
+![200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-16.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo-16.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

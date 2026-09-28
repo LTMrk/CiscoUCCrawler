@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-117777-config-ucce-00-html-a9105cbd5c
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00.html
-retrieved_at: 2026-09-21T19:57:38.953981+00:00
+retrieved_at: 2026-09-28T05:49:15.404698+00:00
 ---
 
 UCCE Integration with CM Configuration Example
@@ -97,3 +97,19 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Jun-2014 | Initial Release |
+
+## Figuras
+
+![117777-config-ucce-00-00.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00-00.jpeg)
+
+![117777-config-ucce-00-01.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00-01.jpeg)
+
+![117777-config-ucce-00-02.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00-02.jpeg)
+
+![117777-config-ucce-00-03.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00-03.jpeg)
+
+![117777-config-ucce-00-04.jpeg](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00-04.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

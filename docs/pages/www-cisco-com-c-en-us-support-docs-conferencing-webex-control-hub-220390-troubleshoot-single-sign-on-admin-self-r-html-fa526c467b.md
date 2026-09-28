@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-html-fa526c467b
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html
-retrieved_at: 2026-09-07T14:20:18.246985+00:00
+retrieved_at: 2026-09-28T05:46:06.994724+00:00
 ---
 
 Troubleshoot Single Sign On Admin Self Recovery Option
@@ -124,3 +124,27 @@ Initial Release
 |---|---|---|
 | 2.0 | 12-Aug-2026 | Updated Title, Introduction, grammar, spelling, inserted horizontal lines to separate sections for readability, updated URLs, and CCW alerts. |
 | 1.0 | 14-Apr-2023 | Initial Release |
+
+## Figuras
+
+![SSO Compromised](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-00.png)
+
+![Webex Control Hub Login](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-01.png)
+
+![Webex Control Hub Login - Request One Time Password](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-02.png)
+
+![Webex Control Hub - Enter PIN](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-03.png)
+
+![Webex Control Hub Sign-in](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-04.png)
+
+![SSO Recovery Options - Disable SSO and Update Certificate and Download Metadata](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-05.png)
+
+![Modify your Organization's SSO Authentication](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-06.png)
+
+![Deactivation Single Sign-on](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-07.png)
+
+![Webex Single Sign-on Upload](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-08.png)
+
+![Test SSO Setup](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-09.png)
+
+![Single Sign-on Successful Message](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r-10.png)

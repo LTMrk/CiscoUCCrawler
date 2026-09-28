@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-management-portal-200895-ccmp-reskill-a-fc50c469d0
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.html
-retrieved_at: 2026-08-21T12:08:15.767621+00:00
+retrieved_at: 2026-09-28T05:49:44.293984+00:00
 ---
 
 CCMP Reskill attempt generates error "Global Operation request failed: SEC_Provision_Route"
@@ -106,3 +106,9 @@ Jason Pare
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Dec-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

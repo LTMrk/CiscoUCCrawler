@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221617-configure-fmc-with-ansible--c0a1121b6b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.html
-retrieved_at: 2026-09-07T13:01:51.117301+00:00
+retrieved_at: 2026-09-28T05:50:09.863343+00:00
 ---
 
 Configure FMC with Ansible to Onboard FTD
@@ -185,3 +185,15 @@ Customer Delivery Engineering Technical Leader
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 02-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Topology](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft-00.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Device Management Page](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,485 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224954-fix-scheduling-and-paid-feature-issues.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200937-Finesse-Agent-Supervisor-Queue-SkillGrou.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/211321-Finesse-Silent-Monitoring-Getting-Una.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212684-troubleshoot-finesse-mobile-agent.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/mediasense/212050-Configure-Selective-Based-Workflow-for-I.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1101/200288-UCCE-PCCE-Procedure-to-obtain-and-uplo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/116215-configure-dblookup-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/117777-config-ucce-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/211307-Unified-Contact-Center-Enterprise-UCCE.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200651-UCCX-Version-11-5-Prerelease-Field-Commu.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal/211537-Troubleshoot-CVP-Courtesy-Callback-CCB.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/virtualized-voice-browser/200746-Installation-Steps-for-Cisco-Unified-Vir.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-database-server/225053-clarify-dbs-end-of-life-options.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220163-use-broadworks-switchdevicetype-feature.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/223134-configure-the-bw-as-to-proxy-unknown.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225514-upgrade-from-broadworks-release-24-0.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225943-guide-for-upgrading-from-broadworks.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/118847-technote-ucs-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.html",
-    "depth": 0
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html",
     "depth": 0
   },
@@ -25733,6 +25253,850 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-control-hub/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/spark/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/211330-Finesse-FIPPA-Phone-URL-Authentication.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-ansible-playbook/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/webex-broadworks/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-media-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/25/Documentation-Guide/cisco-broadworks-documentation-guide-release-25/1-planning-and-overview.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-delivery-platform/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-database-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-database-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-function-manager/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-profile-server/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-xtended-services-platform/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/24/Documentation-Guide/cisco-broadworks-documentation-guide-/planning-and-overview.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/Solution_Guide/wbxbw_b_solution-guide/wbxbw_b_SolutionGuide-PDF_chapter_00.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000-version-15/model.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_CF3D71B4_00_cucm_virtual_servers/CUCM_BK_CF3D71B4_00_cucm_virtual_servers_chapter_010.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1/english/administration/guide/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151_appendix_01101.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200199-CUCM-Certificate-Regeneration-Renewal-Pr.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.mobi",
     "depth": 1
   }
 ]

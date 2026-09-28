@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225553-how-to-resolve-impaired-service-error-html-cf1282c588
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html
-retrieved_at: 2026-08-21T06:32:14.170241+00:00
+retrieved_at: 2026-09-28T05:47:19.032371+00:00
 ---
 
 How to Resolve "Impaired Service" Error for VIMT on Webex Control Hub
@@ -41,3 +41,11 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 04-Mar-2026 | Initial Release |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

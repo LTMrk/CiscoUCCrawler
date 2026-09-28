@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224869-troubleshoot-meeting-stuck-in-calendar-html-ad89659e62
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar.html
-retrieved_at: 2026-09-01T14:57:02.566337+00:00
+retrieved_at: 2026-09-28T05:48:08.402988+00:00
 ---
 
 Troubleshoot Meeting Stuck in Calendar after Cancellation
@@ -105,3 +105,13 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 11-Sep-2025 | Initial Release |
+
+## Figuras
+
+![Meeting Cancellation Window](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar-00.png)
+
+![Cancellation Email](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

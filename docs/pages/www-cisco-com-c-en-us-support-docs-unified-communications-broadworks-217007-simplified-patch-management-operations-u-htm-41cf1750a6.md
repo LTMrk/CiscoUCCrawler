@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217007-simplified-patch-management-operations-u-htm-41cf1750a6
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.html
-retrieved_at: 2026-09-07T13:03:36.213240+00:00
+retrieved_at: 2026-09-28T05:51:28.348601+00:00
 ---
 
 Simplified patch management operations using NFM (Network Function Manager)
@@ -133,3 +133,19 @@ Contributed by Cisco Engineers
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Mar-2021 | Initial Release |
+
+## Figuras
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u-00.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u-01.gif)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u-02.png)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u-03.gif)
+
+![alt-tag-for-image](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u-04.jpeg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

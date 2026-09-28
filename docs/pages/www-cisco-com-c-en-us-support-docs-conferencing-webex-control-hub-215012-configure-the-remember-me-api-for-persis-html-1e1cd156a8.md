@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-215012-configure-the-remember-me-api-for-persis-html-1e1cd156a8
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.html
-retrieved_at: 2026-08-21T06:29:59.767977+00:00
+retrieved_at: 2026-09-28T05:45:41.757168+00:00
 ---
 
 Configure the Remember Me API for PST on Webex Sites Managed via Control Hub
@@ -118,3 +118,9 @@ Cisco TAC Engineer
 |---|---|
 | Content-Type | application/json |
 | Accept | application/json |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

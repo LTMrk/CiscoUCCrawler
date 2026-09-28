@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-online-217863-configure-graphics-card-to-fix-webex-vid-ht-5ff9599c29
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.html
-retrieved_at: 2026-09-01T14:56:41.256535+00:00
+retrieved_at: 2026-09-28T05:47:26.999025+00:00
 ---
 
 Configure Graphics Card to Fix Webex Video Image
@@ -156,3 +156,21 @@ CX
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-May-2022 | Initial Release |
+
+## Figuras
+
+![Partial View](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-00.png)
+
+![Cut Off View](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-01.png)
+
+![RMB-click, select NVIDIA Control Panel.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-02.png)
+
+![Adjust image settings with preview.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-03.png)
+
+![Manage 3D Setting.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-04.png)
+
+![Set PhysX Configuration.](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

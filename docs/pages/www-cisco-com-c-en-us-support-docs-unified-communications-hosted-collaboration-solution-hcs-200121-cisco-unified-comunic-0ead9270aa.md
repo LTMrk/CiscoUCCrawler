@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200121-cisco-unified-comunic-0ead9270aa
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.html
-retrieved_at: 2026-09-01T14:58:39.145534+00:00
+retrieved_at: 2026-09-28T05:53:39.032325+00:00
 ---
 
 Cisco Unified Communication Domain Manager (CUCDM) Platform Password Recovery
@@ -55,3 +55,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - Hosted Collaboration Solution (HCS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

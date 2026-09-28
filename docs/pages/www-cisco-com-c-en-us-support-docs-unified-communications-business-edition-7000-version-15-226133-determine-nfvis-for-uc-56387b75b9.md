@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226133-determine-nfvis-for-uc-56387b75b9
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html
-retrieved_at: 2026-09-02T01:39:55.011259+00:00
+retrieved_at: 2026-09-28T05:52:35.443902+00:00
 ---
 
 Determine NFVIS-for-UC Install Volume
@@ -179,3 +179,9 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 08-Jul-2026 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222958-troubleshoot-hybrid-calendar-error-an-html-a688ed3b07
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html
-retrieved_at: 2026-08-21T06:32:31.027170+00:00
+retrieved_at: 2026-09-28T05:46:53.502235+00:00
 ---
 
 Troubleshoot Hybrid Calendar Error "An unknown validation error occurred."
@@ -157,3 +157,25 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 16-Apr-2025 | Initial Release |
+
+## Figuras
+
+![Google error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-00.png)
+
+![HTTP Inspection](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-01.png)
+
+![Google API](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-02.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Google Resource](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-03.png)
+
+![200 OK](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-04.png)
+
+![Configuration applied](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-05.png)
+
+![Calendar Activated](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an-06.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

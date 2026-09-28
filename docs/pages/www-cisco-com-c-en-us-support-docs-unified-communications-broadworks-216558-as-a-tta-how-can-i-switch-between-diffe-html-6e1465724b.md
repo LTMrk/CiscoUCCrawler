@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216558-as-a-tta-how-can-i-switch-between-diffe-html-6e1465724b
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.html
-retrieved_at: 2026-09-07T13:02:40.988420+00:00
+retrieved_at: 2026-09-28T05:50:54.701799+00:00
 ---
 
 As a TTA, how can I switch between different ticketing groups?
@@ -39,3 +39,11 @@ Contributed by Cisco Engineers
 ### This Document Applies to These Products
 
 - BroadWorks
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

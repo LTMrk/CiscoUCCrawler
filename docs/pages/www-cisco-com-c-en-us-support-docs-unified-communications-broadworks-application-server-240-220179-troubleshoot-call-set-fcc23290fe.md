@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-220179-troubleshoot-call-set-fcc23290fe
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.html
-retrieved_at: 2026-09-07T13:03:10.924136+00:00
+retrieved_at: 2026-09-28T05:50:17.734953+00:00
 ---
 
 Troubleshoot Call Setup Issues with VTR and VTRI
@@ -1244,3 +1244,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 31-Jan-2023 | Initial Release |
+
+## Figuras
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Verify Translation and Routing](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr-00.png)
+
+![Verify Translation and Routing Parameters](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr-01.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Selective Call Acceptance](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225144-decommission-a-broadworks-database-html-b1162ae9b8
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.html
-retrieved_at: 2026-09-07T13:02:28.905765+00:00
+retrieved_at: 2026-09-28T05:52:13.727560+00:00
 ---
 
 Decommission a BroadWorks Database Server
@@ -181,3 +181,9 @@ Customer Delivery Leader
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 06-Oct-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-html-cb1a9fad6b
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html
-retrieved_at: 2026-08-20T21:10:03.594485+00:00
+retrieved_at: 2026-09-28T05:46:49.589927+00:00
 ---
 
 Troubleshoot Webex Scheduling Error "Not Found" from O365. Admin Action is Required
@@ -219,3 +219,43 @@ Initial Release
 |---|---|---|
 | 2.0 | 15-Apr-2025 | Initial Release |
 | 1.0 | 14-Apr-2025 | Initial Release |
+
+## Figuras
+
+![User Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-00.png)
+
+![Workspace Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-01.png)
+
+![Inspecting Status button](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-02.png)
+
+![Calendar Error status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-03.png)
+
+![Response entries](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-04.png)
+
+![Activation Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-05.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![Hover](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-06.png)
+
+![Workspace history](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-07.png)
+
+![Status History](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-08.png)
+
+![Response entry](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-09.png)
+
+![Graph Explorer](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-10.png)
+
+![Active users](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-11.png)
+
+![Licenses and apps](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-12.png)
+
+![User with license + mailbox](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-13.png)
+
+![Room Mailbox](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-14.png)
+
+![Resources](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-15.png)
+
+![Workspace fixed](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error-16.png)

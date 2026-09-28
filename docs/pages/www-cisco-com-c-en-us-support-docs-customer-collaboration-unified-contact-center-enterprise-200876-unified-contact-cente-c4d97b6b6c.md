@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-enterprise-200876-unified-contact-cente-c4d97b6b6c
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE.html
-retrieved_at: 2026-08-21T11:53:01.373991+00:00
+retrieved_at: 2026-09-28T05:49:19.529667+00:00
 ---
 
 Unified Contact Center Enterprise (UCCE) / Customer Voice Portal (CVP) Simple Network Management Protocol (SNMP) Trap Receiver Tool
@@ -89,3 +89,25 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 10-May-2017 | Initial Release |
+
+## Figuras
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-00.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-01.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-02.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-03.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-03.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-04.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-04.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-05.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-05.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-06.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-06.png)
+
+![200876-Unified-Contact-Center-Enterprise-UCCE-07.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise/200876-Unified-Contact-Center-Enterprise-UCCE-07.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

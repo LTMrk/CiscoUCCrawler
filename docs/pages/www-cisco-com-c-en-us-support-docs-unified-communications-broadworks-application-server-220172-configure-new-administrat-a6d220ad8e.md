@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220172-configure-new-administrat-a6d220ad8e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.html
-retrieved_at: 2026-09-07T13:01:55.603367+00:00
+retrieved_at: 2026-09-28T05:50:34.291771+00:00
 ---
 
 Configure New Administrator Users in BroadWorks
@@ -458,3 +458,21 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 30-Jan-2023 | Initial Release |
+
+## Figuras
+
+![Administrator Add a New System or Provisioning Administrator](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-00.png)
+
+![Navigate to System Profile Administrators and Search for Newly Created Account](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-01.png)
+
+![Log in with New Set of Credentials and Change Password](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-02.png)
+
+![Configure Administrators for Service Provider / Enterprise](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-03.png)
+
+![Verify the Newly Created Administrator](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-04.png)
+
+![Log in and Change Password](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

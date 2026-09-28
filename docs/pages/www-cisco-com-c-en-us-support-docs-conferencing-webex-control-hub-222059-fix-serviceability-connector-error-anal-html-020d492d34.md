@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222059-fix-serviceability-connector-error-anal-html-020d492d34
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html
-retrieved_at: 2026-08-21T06:32:39.541755+00:00
+retrieved_at: 2026-09-28T05:46:27.978683+00:00
 ---
 
 Fix Serviceability Connector Error "Analysis Cannot Be Completed"
@@ -77,3 +77,17 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 14-Jun-2024 | Initial Release |
+
+## Figuras
+
+![Error Message in Control Hub Connected UC](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal-00.png)
+
+![CUCM Trace Configuration](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal-01.png)
+
+![SDL Configuration](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal-02.png)
+
+![Trace Output Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal-03.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

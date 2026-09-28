@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222202-enable-directory-synchronization-on-the-html-65348b0b41
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html
-retrieved_at: 2026-08-17T00:53:46.093248+00:00
+retrieved_at: 2026-09-28T05:46:32.490158+00:00
 ---
 
 Enable Directory Synchronization on the Webex Control Hub
@@ -147,3 +147,43 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 24-Jul-2024 | Initial Release |
+
+## Figuras
+
+![1 Manage Users](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-00.png)
+
+![2 Add or Modify Users](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-01.png)
+
+![3 Manage Users Next](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-02.png)
+
+![4 Manage Users Download Install](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-03.png)
+
+![5 Directory Connector Folder](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-04.png)
+
+![6 Directory Connector file](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-05.png)
+
+![7 Default Local System](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-06.png)
+
+![8 Ready to Install](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-07.png)
+
+![9 Network Check](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-08.png)
+
+![10 Network functions](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-09.png)
+
+![11 Enter Email address](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-10.png)
+
+![12 Bind to Domain](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-11.png)
+
+![13 Confirm Domain](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-12.png)
+
+![14 Confirm Upgrade](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-13.png)
+
+![15 Confirm Dry Run](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-14.png)
+
+![16 Enable Synchronization](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-15.png)
+
+![17 Full Synchronization](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-16.png)
+
+![18 Directory Connector](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-17.png)
+
+![19 Org Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the-18.png)

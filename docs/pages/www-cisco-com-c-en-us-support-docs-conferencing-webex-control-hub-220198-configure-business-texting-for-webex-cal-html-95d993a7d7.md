@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-html-95d993a7d7
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html
-retrieved_at: 2026-08-20T21:12:40.500807+00:00
+retrieved_at: 2026-09-28T05:46:02.561085+00:00
 ---
 
 Configure Business Texting for Webex Calling Organization
@@ -188,3 +188,39 @@ Initial Release
 |---|---|---|
 | 2.0 | 15-Feb-2023 | Initial Release |
 | 1.0 | 02-Feb-2023 | Initial Release |
+
+## Figuras
+
+![Business Texting Provisioning at Service Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-00.png)
+
+![Enable Business Texting at Service Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-01.png)
+
+![Disable Business Texting at Service Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-02.png)
+
+![Provision Business Texting at User Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-03.png)
+
+![Override Organization's Configuration at User Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-04.png)
+
+![Override Toggle at User Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-05.png)
+
+![Accept Override by Choosing Save](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-06.png)
+
+![Send a Text Message to Verify](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-07.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Mobile Telephone Number must be in E-164 Format](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-08.png)
+
+![Business Texting at Organization's Service Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-09.png)
+
+![Prerequisites to Enable Business Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-10.png)
+
+![User Assigned to Location not using Cisco PSTN Provider](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-11.png)
+
+![User Assigned to Location with Cisco PSTN Provider outside US or Canada](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-12.png)
+
+![Primary Number does not Support Business Texting](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-13.png)
+
+![No Primary Number Assigned](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-14.png)
+
+![Business Texting is only Available for Enterprise Organizations](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal-15.png)

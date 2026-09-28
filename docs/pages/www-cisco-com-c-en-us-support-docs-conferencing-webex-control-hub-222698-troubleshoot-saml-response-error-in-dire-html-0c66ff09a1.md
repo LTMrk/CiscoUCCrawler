@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222698-troubleshoot-saml-response-error-in-dire-html-0c66ff09a1
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html
-retrieved_at: 2026-08-21T06:32:35.351445+00:00
+retrieved_at: 2026-09-28T05:46:40.900064+00:00
 ---
 
 Troubleshoot SAML Response Error in Directory Connector.
@@ -125,3 +125,9 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 16-Jan-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

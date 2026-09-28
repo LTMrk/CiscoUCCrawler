@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-223111-activate-enabledelayq-14868405bc
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.html
-retrieved_at: 2026-09-07T13:02:32.919068+00:00
+retrieved_at: 2026-09-28T05:50:21.789878+00:00
 ---
 
 Activate enableDelayQuickReinvite on the Broadworks AS
@@ -119,3 +119,9 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 20-Jun-2025 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

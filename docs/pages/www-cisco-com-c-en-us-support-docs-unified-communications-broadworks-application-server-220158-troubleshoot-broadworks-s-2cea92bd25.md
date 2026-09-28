@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220158-troubleshoot-broadworks-s-2cea92bd25
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.html
-retrieved_at: 2026-09-07T13:03:06.800771+00:00
+retrieved_at: 2026-09-28T05:50:26.136848+00:00
 ---
 
 Troubleshoot BroadWorks SNMP Availability Report Failure
@@ -227,3 +227,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 26-Jan-2023 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

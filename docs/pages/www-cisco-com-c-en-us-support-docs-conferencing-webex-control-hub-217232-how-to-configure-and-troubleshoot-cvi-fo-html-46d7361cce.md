@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-html-46d7361cce
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.html
-retrieved_at: 2026-08-17T00:53:37.924891+00:00
+retrieved_at: 2026-09-28T05:45:45.742122+00:00
 ---
 
 Configure and Troubleshoot CVI for Microsoft Teams
@@ -264,3 +264,65 @@ Initial Release
 | 4.0 | 16-Apr-2024 | Updated SEO, Alt Text and Formatting. |
 | 3.0 | 24-Feb-2023 | Recertification |
 | 1.0 | 06-Jul-2021 | Initial Release |
+
+## Figuras
+
+![Required Ports for Signal](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-00.png)
+
+![Required Ports for Media](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-01.png)
+
+![Set Up Video Integration](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-02.png)
+
+![Video Setup Authorization](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-03.png)
+
+![Requested Permissions](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-04.png)
+
+![Edit Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-05.png)
+
+![CLI Output](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-06.png)
+
+![CLI Output PowerShell](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-07.png)
+
+![CLI Output ConsoleHost Version 4](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-08.png)
+
+![CLI Output ConsoleHost Version 5.1](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-09.png)
+
+![CLI Output Install Module](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-10.png)
+
+![CLI Output Download Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-11.png)
+
+![CLI Output Swidtag](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-12.png)
+
+![CLI Output Administrator](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-13.png)
+
+![CLI Output NuGet Required](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-14.png)
+
+![CLI Output Untrusted Repository](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-15.png)
+
+![CLI Output Installing Microsoft Teams](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-16.png)
+
+![Module Installed0](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-17.png)
+
+![CLI Output](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-18.png)
+
+![GUI](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-19.png)
+
+![Meeting Message (GUI)](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-20.png)
+
+![Users](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-21.png)
+
+![Profile](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-22.png)
+
+![Meeting Message](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-23.png)
+
+![Workspaces0](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-24.png)
+
+![Meeting Calendar](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-25.png)
+
+![Meeting Calendar in Workspaces](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-26.png)
+
+![User Information](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-27.png)
+
+![Schedule](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-28.png)
+
+![User Profile](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo-29.png)

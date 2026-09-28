@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223200-troubleshoot-hybrid-management-html-144e6aa12b
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html
-retrieved_at: 2026-08-21T06:32:23.412419+00:00
+retrieved_at: 2026-09-28T05:47:05.864772+00:00
 ---
 
 Troubleshoot Hybrid Management Connector Stopped Status
@@ -214,3 +214,29 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 03-Jul-2025 | Initial Release |
+
+## Figuras
+
+![Control Hub error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-00.png)
+
+![Offline status](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-01.png)
+
+![Alarm](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-02.png)
+
+![Log Levels](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-03.png)
+
+![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![SSH](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-04.png)
+
+![fusion](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-05.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Restart connector](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-06.png)
+
+![Successful](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management-07.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

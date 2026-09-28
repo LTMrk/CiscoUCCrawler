@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220244-understand-webex-meetings-video-resoluti-html-37208a5aed
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.html
-retrieved_at: 2026-09-01T14:56:33.006655+00:00
+retrieved_at: 2026-09-28T05:47:43.372352+00:00
 ---
 
 Understand Webex Meetings Video Resolution
@@ -79,3 +79,21 @@ Angela Garcia Blancas
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 17-Feb-2023 | Initial Release |
+
+## Figuras
+
+![image2021-1-25_12-14-34](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-00.png)
+
+![image2021-1-25_12-15-52](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-01.png)
+
+![image2021-1-25_12-20-31](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-02.png)
+
+![image2021-1-25_12-21-28](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-03.png)
+
+![ActiveVideo](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-04.png)
+
+![videoresolution2](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

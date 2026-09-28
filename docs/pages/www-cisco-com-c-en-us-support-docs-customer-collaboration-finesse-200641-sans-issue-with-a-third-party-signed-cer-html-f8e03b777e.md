@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-200641-sans-issue-with-a-third-party-signed-cer-html-f8e03b777e
 source_url: https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer.html
-retrieved_at: 2026-08-20T21:16:22.359154+00:00
+retrieved_at: 2026-09-28T05:48:37.836407+00:00
 ---
 
 SANs issue with a Third Party Signed Certificate in Finesse
@@ -83,3 +83,15 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 01-Sep-2016 | Initial Release |
+
+## Figuras
+
+![200641-SANs-issue-with-a-Third-Party-Signed-Cer-00.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer-00.png)
+
+![200641-SANs-issue-with-a-Third-Party-Signed-Cer-01.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer-01.png)
+
+![200641-SANs-issue-with-a-Third-Party-Signed-Cer-02.png](https://www.cisco.com/c/dam/en/us/support/docs/customer-collaboration/finesse/200641-SANs-issue-with-a-Third-Party-Signed-Cer-02.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

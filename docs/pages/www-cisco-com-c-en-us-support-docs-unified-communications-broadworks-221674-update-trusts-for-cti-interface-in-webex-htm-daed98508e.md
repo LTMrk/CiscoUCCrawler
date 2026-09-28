@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221674-update-trusts-for-cti-interface-in-webex-htm-daed98508e
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.html
-retrieved_at: 2026-09-07T13:02:12.013893+00:00
+retrieved_at: 2026-09-28T05:52:01.241185+00:00
 ---
 
 Update Trusts for CTI Interface in Webex for Broadworks
@@ -195,3 +195,19 @@ Cisco Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 14-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Webex Partner Hub](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex-00.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Organization Setting Page Showing Certificate Download Link](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex-01.png)
+
+![Redacted Combined Certificate](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex-02.png)
+
+![Redacted Split Certificates](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex-03.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-200786-how-to-collect-logs-for-cer-html-9468dc7201
 source_url: https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER.html
-retrieved_at: 2026-08-17T00:10:58.427528+00:00
+retrieved_at: 2026-09-28T05:53:04.738091+00:00
 ---
 
 How to Collect Logs for CER
@@ -164,3 +164,25 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 01-Nov-2016 | Initial Release |
+
+## Figuras
+
+![200786-How-to-Collect-Logs-for-CER-00.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-00.png)
+
+![200786-How-to-Collect-Logs-for-CER-01.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-01.png)
+
+![200786-How-to-Collect-Logs-for-CER-02.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-02.png)
+
+![200786-How-to-Collect-Logs-for-CER-03.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-03.png)
+
+![200786-How-to-Collect-Logs-for-CER-04.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-04.png)
+
+![200786-How-to-Collect-Logs-for-CER-05.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-05.png)
+
+![200786-How-to-Collect-Logs-for-CER-06.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-06.png)
+
+![200786-How-to-Collect-Logs-for-CER-07.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-07.png)
+
+![200786-How-to-Collect-Logs-for-CER-08.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-08.png)
+
+![200786-How-to-Collect-Logs-for-CER-09.png](https://www.cisco.com/c/dam/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER-09.png)

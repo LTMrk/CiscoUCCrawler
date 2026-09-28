@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-223078-troubleshoot-webex-desktop-error-html-f05f532dd4
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.html
-retrieved_at: 2026-09-01T14:56:11.916663+00:00
+retrieved_at: 2026-09-28T05:48:04.118858+00:00
 ---
 
 Troubleshoot Webex Desktop Error "Meeting Not Scheduled!" - General Server Error
@@ -129,3 +129,19 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 05-Jun-2025 | Initial Release |
+
+## Figuras
+
+![Webex app Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error-00.png)
+
+![General Server Error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error-01.png)
+
+![Webex logs](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error-02.png)
+
+![Feedback ID](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error-03.png)
+
+![User status error](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error-04.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
