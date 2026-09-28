@@ -15,6 +15,7 @@ python3 src/resumen_rag.py         # regenera RESUMEN-CONOCIMIENTO.md
 python3 src/copilot_pack.py --fuente devnet --zip   # ZIP solo de DevNet
 python3 tools/probe_devnet.py      # sondeo de developer.cisco.com (necesita red)
 python3 tools/purgar_fuera_de_allowlist.py          # informe; --aplicar borra
+python3 tools/evaluar_corpus.py    # mide si el corpus responde (33 s, sin red)
 ```
 
 Dos workflows, y la separación es deliberada: `etl.yml` **extrae** (rastreo,
@@ -195,6 +196,25 @@ debería", sospecha del consumo antes que de las regex.
   repositorio en cada lote: el 2026-09-27 iba por 98.271 líneas y 19,9 MB,
   que cada checkout arrastraba. El histórico completo sigue en el artefacto
   `logs-diagnostico` de cada ejecución, con siete días de retención.
+- **`tools/evaluar_corpus.py` mide si el corpus responde**, contra las
+  preguntas de `evaluacion/preguntas.json`. Línea base del 2026-09-28:
+  **11 de 12 en el top 5**. Lo que NO mide es lo que hará Copilot: su
+  recuperación es semántica y aquí la búsqueda es léxica. Mide la parte que
+  sí controlamos, que es si el documento está y si sale a flote por
+  palabras. Un fallo es un fallo seguro; un acierto es condición necesaria,
+  no suficiente. El único fallo actual es el SRND de colaboración, que
+  encaja con las 12 páginas de `cucm/srnd/` que hay en el corpus.
+- **Las preguntas de `evaluacion/preguntas.json` son provisionales**: las
+  escribió Claude, no salen de preguntas reales del equipo. Cinco o seis
+  reales valen más que veinte inventadas, porque la mitad del valor está en
+  descubrir lo que la gente pregunta y el corpus no cubre.
+- **Puntuar con tf-idf a secas daba una medida engañosa.** Sin normalizar
+  por longitud gana el documento más largo: la página exacta de
+  `docs/axl/authentication/` quedaba en el puesto 307, y la medida decía 4
+  aciertos de 12 cuando eran 11. Por eso es BM25. `tests/test_evaluacion.py`
+  cubre las dos piezas que producen respuestas falsas, la normalización por
+  longitud y el idf; `K1` no está cubierto porque es una constante de ajuste
+  y fijarla en una prueba solo congelaría un valor arbitrario.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:
