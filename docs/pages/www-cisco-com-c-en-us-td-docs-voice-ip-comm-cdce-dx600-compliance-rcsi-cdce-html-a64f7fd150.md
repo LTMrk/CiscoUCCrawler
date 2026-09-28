@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cdce-dx600-compliance-rcsi-cdce-html-a64f7fd150
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cdce/dx600/compliance/rcsi-cdce.html
-retrieved_at: 2026-08-21T14:00:13.074100+00:00
+retrieved_at: 2026-09-28T11:05:43.999648+00:00
 ---
 
 Regulatory Compliance and Safety Information for Cisco DX Series
@@ -1548,3 +1548,7 @@ Copyright © 2015 Cisco Systems, Inc. All rights reserved.
 |  |  |
 |  |  |
 |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

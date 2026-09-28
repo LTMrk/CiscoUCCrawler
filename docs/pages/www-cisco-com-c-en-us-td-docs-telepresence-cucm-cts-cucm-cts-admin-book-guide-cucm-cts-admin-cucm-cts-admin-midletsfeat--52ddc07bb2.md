@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-midletsfeat--52ddc07bb2
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_midletsfeat.html
-retrieved_at: 2026-08-17T00:09:55.532125+00:00
+retrieved_at: 2026-09-28T10:59:54.782435+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -845,3 +845,7 @@ For more information about Cisco TelePresence features that you configure in Uni
 | Spanish - USA and Latin America | es_DEF | es_CO or es_MX | Español, República de Colombia |
 | Spanish - Spain | es_ES | es_ES | Español, Reino de España |
 | Turkish | tr_DEF | tr_TR | Tûrkçe, Türkiye |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at9x-m-ug-new-16530bbeeb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at9x_m_ug-new-and-changed-information.html
-retrieved_at: 2026-08-22T01:04:31.716677+00:00
+retrieved_at: 2026-09-28T11:04:39.869113+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter User Guide for Multiplatform Firmware
@@ -103,3 +103,7 @@ Make an Emergency Call from Your Analog Phone
 | Revision | New and Changed |
 |---|---|
 | Added a task for the E911 feature | Make an Emergency Call from Your Analog Phone |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

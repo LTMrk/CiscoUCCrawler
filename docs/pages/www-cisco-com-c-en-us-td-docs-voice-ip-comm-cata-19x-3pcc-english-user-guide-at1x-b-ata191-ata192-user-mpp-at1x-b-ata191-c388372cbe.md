@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at1x-b-ata191-c388372cbe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at1x_b_ata191-ata192-user-mpp_chapter_01.html
-retrieved_at: 2026-08-22T01:04:40.238029+00:00
+retrieved_at: 2026-09-28T11:04:22.300142+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter User Guide for Multiplatform Firmware
@@ -310,3 +310,7 @@ Step 3
 
 | Note | During a secure call, you might hear the secure indication tone regularly, depending on your administrator's configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

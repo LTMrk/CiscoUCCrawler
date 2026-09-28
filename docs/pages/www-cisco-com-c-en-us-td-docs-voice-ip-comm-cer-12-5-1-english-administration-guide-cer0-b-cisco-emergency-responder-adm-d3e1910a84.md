@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-english-administration-guide-cer0-b-cisco-emergency-responder-adm-d3e1910a84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251/cer0_b_cer-administration-online-help-1251_chapter_01.html
-retrieved_at: 2026-08-21T15:31:14.041861+00:00
+retrieved_at: 2026-09-28T11:06:22.232720+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)
@@ -2389,3 +2389,59 @@ On Emergency
                                        			 pattern. |
 | Step 3 | On Emergency
                                        			 Responder Administration, configure the LRG route pattern as the default ERL. |
+
+## Figuras
+
+![Figure 1. Reserve Licenses](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393982.eps/_jcr_content/renditions/393982.jpg)
+
+![Figure 2. Update Reserve Licenses](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393983.eps/_jcr_content/renditions/393983.jpg)
+
+![Figure 3. Remove a Product Instance - Emergency Responder](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393984.eps/_jcr_content/renditions/393984.jpg)
+
+![Figure 4. How Cisco
+                                 		  Emergency Responder Fits Into Your Network](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182287.eps/_jcr_content/renditions/182287.jpg)
+
+![Figure 5. Cisco
+                                 		  Emergency Responder and a Local Service Provider](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380073.tif/_jcr_content/renditions/380073.jpg)
+
+![Figure 6. Cisco
+                                 		  Emergency Responder and a SIP Trunk Service Provider](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380074.tif/_jcr_content/renditions/380074.jpg)
+
+![Figure 7. Cisco Emergency Responder and Intrado](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380072.tif/_jcr_content/renditions/380072.jpg)
+
+![Figure 8. How Cisco
+                                 		  Emergency Responder Routes Emergency Calls](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182288.eps/_jcr_content/renditions/182288.jpg)
+
+![Figure 9. Cisco
+                                 		  Emergency Responder Server Group](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347758.tif/_jcr_content/renditions/347758.jpg)
+
+![Figure 10. Understanding the Relationship Between Cisco Emergency Responder Groups and Cisco Emergency Responder Clusters](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182289.eps/_jcr_content/renditions/182289.jpg)
+
+![Figure 11. Deploying Cisco
+                                 		  Emergency Responder in One Main Site with One PSAP](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182290.eps/_jcr_content/renditions/182290.jpg)
+
+![Figure 12. Deploying Cisco
+                                 		  Emergency Responder in One Main Site with Two or More PSAPs](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182291.eps/_jcr_content/renditions/182291.jpg)
+
+![Figure 13. Deploying Cisco
+                                 		  Emergency Responder in One Main Site with Satellite Offices](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182292.eps/_jcr_content/renditions/182292.jpg)
+
+![Figure 13. Deploying Cisco
+                                 		  Emergency Responder in One Main Site with Satellite Offices](https://www.cisco.com/content/dam/en/us/td/i/templates/caut.gif)
+
+![Figure 14. Deploying
+                                 		  Emergency Responder in One Main Site Serving Two or More Sites](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/197001-198000/197882.eps/_jcr_content/renditions/197882.jpg)
+
+![Figure 15. Deploying
+                                 		  Cisco Emergency Responder in Two Main Sites](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182293.eps/_jcr_content/renditions/182293.jpg)
+
+![Figure 16. Deploying
+                                       				CiscoEmergency Responder in Two Main Sites with Clustering Over the
+                                       				WAN](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284555.eps/_jcr_content/renditions/284555.jpg)
+
+![Figure 17. JTAPI Over the WAN During Normal Operations](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284556.eps/_jcr_content/renditions/284556.jpg)
+
+![Figure 18. JTAPI Over the
+                                       			 WAN During Failover Operations](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284557.eps/_jcr_content/renditions/284557.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

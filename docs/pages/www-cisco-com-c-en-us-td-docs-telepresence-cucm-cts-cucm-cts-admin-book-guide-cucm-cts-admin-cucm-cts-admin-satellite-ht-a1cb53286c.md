@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-satellite-ht-a1cb53286c
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_satellite.html
-retrieved_at: 2026-08-17T00:10:11.844502+00:00
+retrieved_at: 2026-09-28T10:59:58.428051+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -151,3 +151,7 @@ Calling_Services   Restarting...done
 ## Additional Licensing Information
 
 See the Cisco TelePresence Administration Software Licensing Information page on Cisco.com.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

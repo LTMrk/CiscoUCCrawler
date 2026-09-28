@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at1x-b-ata191-91f1589155
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at1x_b_ata191-ata192-user-mpp_chapter_011.html
-retrieved_at: 2026-08-22T01:04:48.459570+00:00
+retrieved_at: 2026-09-28T11:04:34.977018+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter User Guide for Multiplatform Firmware
@@ -122,3 +122,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cata/19x/RCSI/RCSI-0342-
 | Caution | In European Union countries, use only external speakers, microphones, and headsets that are fully compliant with the EMC Directive
                                           [89/336/EC]. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

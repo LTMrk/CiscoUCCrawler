@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--480ca7846a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm/at91_b_ata191-user-guide-for-cucm_chapter_00.html
-retrieved_at: 2026-08-21T12:49:21.744250+00:00
+retrieved_at: 2026-09-28T11:01:47.605460+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter User Guide for Cisco Unified Communications Manager
@@ -337,3 +337,21 @@ Redial.
 | Step 3 | Insert a screw into each hole, leaving a gap of 5 mm (0.1968 in.) between the underside of each screw head and the surface
                                           of the wall. |
 | Step 4 | Place the unit wall-mount slots over the screws and slide the unit down until the screws fit snugly into the wall-mount slots. |
+
+## Figuras
+
+![The top panel of the ATA 191. From top to bottom the power LED, the network LED, phone 1 LED and phone 2 LED, and the PRT button with a LED.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393673.tif/_jcr_content/renditions/393673.jpg)
+
+![The ATA power LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384006.jpg)
+
+![The ATA network LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384007.jpg)
+
+![The phone LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384010.jpg)
+
+![The ATA PRT LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393671.jpg)
+
+![The back panel of the ATA 191. From left to right the RESET button, PHONE port 1, PHONE port 2, the NETWORK port, and the DC 5V POWER port.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393672.tif/_jcr_content/renditions/393672.jpg)
+
+![A number 6 pan head, 5/8 inch self-tapping screw with anchor.](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/199001-200000/199476.tif/_jcr_content/renditions/199476.jpg)
+
+![The ATA Wall Mount Kit panel with four holes in the corners for the ATA. There are two screw holes near the middle and a large rectangular hole in the middle.](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239752.tif/_jcr_content/renditions/239752.jpg)

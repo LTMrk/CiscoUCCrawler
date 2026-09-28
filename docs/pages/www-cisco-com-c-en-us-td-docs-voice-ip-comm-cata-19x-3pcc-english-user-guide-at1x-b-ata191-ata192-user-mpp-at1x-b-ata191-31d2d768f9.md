@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at1x-b-ata191-31d2d768f9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at1x_b_ata191-ata192-user-mpp_chapter_00.html
-retrieved_at: 2026-08-21T12:49:30.671838+00:00
+retrieved_at: 2026-09-28T11:04:18.596926+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter User Guide for Multiplatform Firmware
@@ -383,3 +383,7 @@ Redial.
 |---|---|
 | Step 2 | Select Voice > Information . |
 | Step 3 | Navigate to the section MIC Cert Refresh Status , and check the information. MIC Cert Provisioning Status : This field indicates that whether the certificate download is successful. If yes, the string is Download Successful . If no, this field shows the error message for your administrator's troubleshooting. By default, the field is empty. MIC CA Info : This field indicates that whether the MIC certificate is renewed successfully. If yes, the string is Cisco Manufacturing CA III . If no, this filed shows Cisco Manufacturing CA or Cisco Manufacturing CA II . By default, the field is empty. For more information about the MIC certificate renewal via a SUDI service, contact your administrator. |
+
+## Figuras
+
+![Figure 3. ATA 192—Back Panel](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393674.tif/_jcr_content/renditions/393674.jpg)

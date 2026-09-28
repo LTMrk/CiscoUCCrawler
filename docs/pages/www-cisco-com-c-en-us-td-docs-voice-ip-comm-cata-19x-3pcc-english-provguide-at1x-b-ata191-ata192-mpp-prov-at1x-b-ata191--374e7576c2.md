@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--374e7576c2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_010.html
-retrieved_at: 2026-08-22T01:05:13.897982+00:00
+retrieved_at: 2026-09-28T11:03:47.042288+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -455,3 +455,7 @@ Log_Resync_Failure_Msg
 | Note | When a phone connects to a network for the first time or after a factory reset, and there are no DHCP options set up, it contacts
                                                             a device activation server for zero touch provisioning. New phones use "activate.cisco.com" instead of "webapps.cisco.com" for provisioning. Phones with firmware release earlier than 11.2(1) continues to use "webapps.cisco.com" . We recommend that you allow both the domain names through your firewall. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

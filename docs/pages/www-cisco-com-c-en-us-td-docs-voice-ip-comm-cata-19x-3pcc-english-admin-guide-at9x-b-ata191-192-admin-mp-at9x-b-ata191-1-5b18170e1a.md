@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-5b18170e1a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_00.html
-retrieved_at: 2026-08-22T01:01:28.671812+00:00
+retrieved_at: 2026-09-28T11:02:38.781582+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Administration Guide for Multiplatform Firmware
@@ -513,3 +513,9 @@ The Line 1 and Line 2 (PHONE 1 and PHONE2) can select the SIP transport protocol
                                              codecs. |
 | G.729a | ITU G.729 voice coding algorithm used to compress digitized speech. G.729a is a reduced complexity version of G.729 requiring
                                              about half the processing power of G.729. The G.729 and G.729a bit streams are compatible and interoperable, but not identical. |
+
+## Figuras
+
+![Figure 1. Cisco Analog Telephone Adapter](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/423001-424000/423321.tif/_jcr_content/renditions/423321.jpg)
+
+![Figure 4. ATA 192—Back Panel](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393674.tif/_jcr_content/renditions/393674.jpg)

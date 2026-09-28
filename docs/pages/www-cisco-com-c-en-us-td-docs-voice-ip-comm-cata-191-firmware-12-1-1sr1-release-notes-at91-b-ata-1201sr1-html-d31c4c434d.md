@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-firmware-12-1-1sr1-release-notes-at91-b-ata-1201sr1-html-d31c4c434d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/firmware/12-1-1SR1/release_notes/at91_b_ata-1201sr1.html
-retrieved_at: 2026-08-22T01:11:30.573218+00:00
+retrieved_at: 2026-09-28T11:02:34.255590+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter Release Notes for Firmware Release 12.0(1)SR1
@@ -384,3 +384,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Step 3 | To look for
                                  			 information about a specific problem, enter the bug ID number in the Search for
                                  			 field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

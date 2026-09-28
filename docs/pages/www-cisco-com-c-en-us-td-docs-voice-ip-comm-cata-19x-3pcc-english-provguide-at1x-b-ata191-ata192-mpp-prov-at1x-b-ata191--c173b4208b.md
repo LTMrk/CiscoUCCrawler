@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--c173b4208b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_00.html
-retrieved_at: 2026-08-21T12:49:39.146120+00:00
+retrieved_at: 2026-09-28T11:03:38.227459+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -309,3 +309,7 @@ GPP_B Gp3sqLn…; # random CFG file path directory |
 | SEC-PRV-2 Secure Provisioning—Full Configuration | Profile resync operations subsequent to the initial SECPRV-1 provisioning retrieve the 256-bit encrypted CFG files that maintain
                                              the IP Telephony device in a state synchronized to the provisioning server. The profile parameters are reconfigured and maintained through this strongly encrypted profile. The encryption key and random
                                              directory location in the SEC-PRV-2 configuration can be changed periodically for extra security. |
+
+## Figuras
+
+![Figure 1. Retail Distribution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393515.eps/_jcr_content/renditions/393515.jpg)

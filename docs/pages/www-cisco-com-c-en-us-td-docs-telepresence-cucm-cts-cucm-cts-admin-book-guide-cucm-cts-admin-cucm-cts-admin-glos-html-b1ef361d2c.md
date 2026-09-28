@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-glos-html-b1ef361d2c
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_glos.html
-retrieved_at: 2026-08-17T00:10:16.374652+00:00
+retrieved_at: 2026-09-28T10:59:42.238762+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -682,3 +682,7 @@ Cisco WebEx collaboration tools combine real-time desktop sharing with phone con
 |---|---|
 | WebDAV | Web-based Distributed Authoring and Versioning (WebDAV) is a set of methods based on the Hypertext Transfer Protocol (HTTP) that facilitates collaboration between users in editing and managing documents and files stored on World Wide Web servers. WebDAV was defined in RFC 4918 by a working group of the Internet Engineering Task Force (IETF). |
 | WebEx | Cisco WebEx collaboration tools combine real-time desktop sharing with phone conferencing. See the Cisco TelePresence WebEx OneTouch Configuration Guide for the Cisco TelePresence System for first-time setup information. See also the Cisco TelePresence System User Guide that corresponds with your system. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

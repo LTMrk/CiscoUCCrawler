@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-english-cli-guide-cer0-b-cisco-emergency-responder-cli-guide-1251-2d1ac9c855
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/cli/guide/cer0_b_cisco-emergency-responder-cli-guide-1251/cer0_b_cisco-emergency-responder-cli-guide-1205_chapter_01.html
-retrieved_at: 2026-08-21T15:27:26.874172+00:00
+retrieved_at: 2026-09-28T11:07:40.825669+00:00
 ---
 
 Cisco Emergency Responder Command Line Interface Guide for Release 12.5
@@ -10931,3 +10931,7 @@ Applies to: Cisco
                                           					 recovery URL for SAML SSO based authentication. |
 | disable | Disables
                                           					 recovery URL for SAML SSO based authentication. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

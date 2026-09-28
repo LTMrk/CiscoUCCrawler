@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--3d04f1df6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm/at91_b_ata191-user-guide-for-cucm_chapter_0100.html
-retrieved_at: 2026-08-22T01:04:23.148002+00:00
+retrieved_at: 2026-09-28T11:01:55.900468+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter User Guide for Cisco Unified Communications Manager
@@ -122,3 +122,7 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cata/19x/RCSI/RCSI-0342-
 | Caution | In European Union countries, use only external speakers, microphones, and headsets that are fully compliant with the EMC Directive
                                           [89/336/EC]. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

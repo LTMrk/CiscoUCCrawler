@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-11-2-3-ata-release-notes-for-mpp-11-2-3-html-83dae327d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/11-2-3/ATA-Release-Notes-for-MPP-11-2-3.html
-retrieved_at: 2026-08-21T12:50:17.630269+00:00
+retrieved_at: 2026-09-28T11:05:12.444295+00:00
 ---
 
 Cisco ATA 191 and 192 Analog Telephone Adapter Release Notes for Multiplatform Firmware Release 11.2(3)
@@ -197,3 +197,7 @@ https://www.cisco.com/c/en/us/products/unified-communications/ata-190-series-ana
 | Step 6 | Unzip the files. |
 | Step 7 | Put the files on the tftp/http/https download directory. |
 | Step 8 | Configure the Upgrade Rule on the Provisioning tab in the web page with the valid URL. The format is: <schema>://<serv_ip[:port]>/filepath/ATA19x.xxxx.img Here is an example, http://192.168.1.100/firmware/ATA19x.11-2-3MPP0001-028.img After the firmware upgrade completes, the phone reboots automatically. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

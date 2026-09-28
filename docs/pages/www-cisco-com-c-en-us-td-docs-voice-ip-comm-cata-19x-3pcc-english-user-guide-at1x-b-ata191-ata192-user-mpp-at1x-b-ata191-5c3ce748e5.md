@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-user-guide-at1x-b-ata191-ata192-user-mpp-at1x-b-ata191-5c3ce748e5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/user-guide/at1x_b_ata191-ata192-user-mpp/at1x_b_ata191-ata192-user-mpp_chapter_0100.html
-retrieved_at: 2026-08-22T01:04:44.238907+00:00
+retrieved_at: 2026-09-28T11:04:26.636510+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter User Guide for Multiplatform Firmware
@@ -51,3 +51,9 @@ Follow the prompts.
 | Step 1 | Dial your voicemail phone number. |
 |---|---|
 | Step 2 | Follow the prompts. |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

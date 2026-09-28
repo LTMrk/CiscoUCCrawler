@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-verification-b62d275cef
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_verification.html
-retrieved_at: 2026-08-17T00:10:03.301072+00:00
+retrieved_at: 2026-09-28T11:00:02.604855+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -365,3 +365,7 @@ See the Cisco TelePresence System Troubleshooting Guide for information about sy
 | Orange question mark appears in the Administration interface Troubleshooting > Microphones page for the two outside microphones of the second row table (CTS 32x0 and TX9200 only). | The second row was configured for a “reduced configuration” second row that seats eight people rather than 12. The two outside microphones are not recognized by the system. | Change the Second Row Capacity setting from 8 to 12. See Product Specific Configuration Layout Area to update your Second Row Capacity settings. |
 | The Touch 12 device is not recognized or not available. | COP File Issues The image COP file was not installed or not correctly installed. Device Information Issues The Phone Load Name is not correct in Unified CM. Device Pack Issues The Device Pack was not installed or not correctly installed. The system software upgraded, but a new Device Pack was not installed. | Re-install the COP file. Refer to the “Upgrading From Cisco TelePresence Software Releases 1.7.4 and Above” section for instructions. Enter the correct Phone Load Name in Unified CM: –	Log in to Unified CM and navigate to Device > Phone. –	Enter search criteria for your device, and click on the hyperlink under Device Name to view the Device Information page. –	Enter the correct Phone Load Name. Re-install the Device Pack. |
 | Time does not show correctly on the system or Touch 12. | Network Time Protocol ( NTP) is not configured properly or the codec does not sync up with NTP. | 1.	If NTP is not configured, access Cisco Unified CM date/time group, configure NTP properly and assign to a system device pool. 2.	Make sure that the system can ping NTP, and there is no firewall blocking the 123 NTP port. See also the Cisco TelePresence System Administration Guide . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

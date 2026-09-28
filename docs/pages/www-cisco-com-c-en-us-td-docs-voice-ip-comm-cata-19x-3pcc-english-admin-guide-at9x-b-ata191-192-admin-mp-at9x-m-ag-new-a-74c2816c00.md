@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-m-ag-new-a-74c2816c00
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_m_ag-new-and-changed-information.html
-retrieved_at: 2026-08-22T01:01:32.293321+00:00
+retrieved_at: 2026-09-28T11:03:17.188599+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Administration Guide for Multiplatform Firmware
@@ -291,3 +291,7 @@ ATA with Firmware Release 11.1.0MSR3-9 and Older Doesn't Upgrade
 | Added a task for the remote PRT generation feature | Generate a Problem Report Remotely |
 | Updated the topic for the remote PRT generation feature | PRT Viewer |
 | Added a topic how to address the issue when ATA 11.1.0MSR3-9 and older doesn't upgrade | ATA with Firmware Release 11.1.0MSR3-9 and Older Doesn't Upgrade |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

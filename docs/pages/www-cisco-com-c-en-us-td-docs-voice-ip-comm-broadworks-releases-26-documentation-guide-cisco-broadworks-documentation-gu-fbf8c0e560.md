@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-broadworks-releases-26-documentation-guide-cisco-broadworks-documentation-gu-fbf8c0e560
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/26/Documentation-Guide/cisco-broadworks-documentation-guide-release-26/3-configuration.html
-retrieved_at: 2026-09-07T13:00:39.488870+00:00
+retrieved_at: 2026-09-28T11:01:01.605187+00:00
 ---
 
 Cisco BroadWorks Documentation Guide Release 26
@@ -159,7 +159,12 @@ This is an utility for testing the CTI interface. It's packaged as an archive (z
 
 XSI - CTI Schema Files
 
-This file incudes the schema for Xtended Services Interface Computer Telephony Integration.
+This file includes the schema for Xtended Services Interface Computer Telephony Integration.
+
+XSI - CTI Schema Files for XS-TAS
+
+This file includes the schema for Xtended Services Interface Computer Telephony Integration for the Telephony Application
+                                       Server in Execution Server mode.
 
 AS OCI Client
 
@@ -362,7 +367,9 @@ Cisco BroadWorks Partner Equipment Interoperability Summary
 | Document Title | Description |
 |---|---|
 | CTI Client | This is an utility for testing the CTI interface. It's packaged as an archive (zip file). |
-| XSI - CTI Schema Files | This file incudes the schema for Xtended Services Interface Computer Telephony Integration. |
+| XSI - CTI Schema Files | This file includes the schema for Xtended Services Interface Computer Telephony Integration. |
+| XSI - CTI Schema Files for XS-TAS | This file includes the schema for Xtended Services Interface Computer Telephony Integration for the Telephony Application
+                                       Server in Execution Server mode. |
 | AS OCI Client | These are the Application Server Open Client Interface files. Its packaged as an archive (zip file). |
 | Accounting CDR Schema Files | These are the Call Detail Record (CDR) schema files packaged together in an archive (zip file). |
 | Sample CDRs | These are the Cisco BroadWorks sample data files for Call Detail Records. The files are packaged together in an archive (zip

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-12-5-1-english-administration-guide-cer0-b-cisco-emergency-responder-adm-3a7ad03420
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/12_5_1/english/administration/guide/cer0_b_cisco-emergency-responder-administration-guide-1251/cer0_b_cer-administration-online-help-1251_chapter_010.html
-retrieved_at: 2026-08-21T15:31:18.076848+00:00
+retrieved_at: 2026-09-28T11:06:26.226285+00:00
 ---
 
 Cisco Emergency Responder Administration Guide for Release 12.5(1)
@@ -1702,3 +1702,7 @@ See "Performing Software Upgrades" section of the respective Cisco Emergency Res
 | Note | If the
                                                          				  Subscriber installation cannot validate the Publisher, See Cannot Validate Publisher in the Troubleshooting chapter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-at91-b-ata191-admin-g-d78f983b07
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/admin-guide/at91_b_ata191-admin-guide/at91_b_ata191-admin-guide_chapter_0111.html
-retrieved_at: 2026-08-22T01:12:08.377952+00:00
+retrieved_at: 2026-09-28T11:01:39.255565+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter Administration Guide for Cisco Unified Communications Manager
@@ -328,3 +328,7 @@ http://www.ietf.org/rfc/rfc2543.txt
 
 | Note | Cannot transmit RFC 2833 and in-band signaling, simultaneously. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

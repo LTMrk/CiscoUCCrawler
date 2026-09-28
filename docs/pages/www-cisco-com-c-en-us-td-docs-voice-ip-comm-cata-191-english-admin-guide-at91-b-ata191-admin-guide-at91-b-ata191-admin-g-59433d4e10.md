@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-admin-guide-at91-b-ata191-admin-guide-at91-b-ata191-admin-g-59433d4e10
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/admin-guide/at91_b_ata191-admin-guide/at91_b_ata191-admin-guide_chapter_00.html
-retrieved_at: 2026-08-22T01:05:01.486852+00:00
+retrieved_at: 2026-09-28T11:01:18.606149+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter Administration Guide for Cisco Unified Communications Manager
@@ -582,3 +582,21 @@ Power up the ATA.
 | Note | Success of fax transmission depends on network conditions and fax modem response to these conditions. The network must have
                                                 reasonably low network jitter, network delay, and packet loss rate. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Analog Telephone Adapter](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/423001-424000/423321.tif/_jcr_content/renditions/423321.jpg)
+
+![Figure 2. SIP Architecture](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72342.ps/_jcr_content/renditions/72342.jpg)
+
+![The top panel of the ATA 191. From top to bottom the power LED, the network LED, phone 1 LED and phone 2 LED, and the PRT button with a LED.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393673.tif/_jcr_content/renditions/393673.jpg)
+
+![The ATA power LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384006.jpg)
+
+![The ATA network LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384007.jpg)
+
+![The phone LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/384001-385000/384010.jpg)
+
+![The ATA PRT LED](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393671.jpg)
+
+![The back panel of the ATA 191. From left to right the RESET button, PHONE port 1, PHONE port 2, the NETWORK port, and the DC 5V POWER port.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393672.tif/_jcr_content/renditions/393672.jpg)

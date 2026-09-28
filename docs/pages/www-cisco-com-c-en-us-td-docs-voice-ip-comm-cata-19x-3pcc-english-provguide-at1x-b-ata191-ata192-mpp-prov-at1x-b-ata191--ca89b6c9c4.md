@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--ca89b6c9c4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_appendix_01001.html
-retrieved_at: 2026-08-22T01:05:44.315891+00:00
+retrieved_at: 2026-09-28T11:03:30.124221+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -373,3 +373,7 @@ Example
 | (GMT-10:00) Hawaii | -10 1 0 | <Time_Zone>-10 1 0</Time_Zone> |
 | (GMT-11:00) Midway Island, Samoa | -11 1 0 | <Time_Zone>-11 1 0</Time_Zone> |
 | (GMT-12:00) Baker Island | -12 1 0 | <Time_Zone>-12 1 0</Time_Zone> |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

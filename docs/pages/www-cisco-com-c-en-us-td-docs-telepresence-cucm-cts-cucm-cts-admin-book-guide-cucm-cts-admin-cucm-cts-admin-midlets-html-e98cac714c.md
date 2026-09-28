@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-midlets-html-e98cac714c
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_midlets.html
-retrieved_at: 2026-08-17T00:10:08.435626+00:00
+retrieved_at: 2026-09-28T10:59:50.837205+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -1851,3 +1851,7 @@ The cycling line button lights then change from yellow to red. Within a few minu
 | MIDlet fails to initialize properly, showing the following message: “Configuration error.” | Authentication Issues The MIDlet does not find Authentication Server URL or it does not recognize its format. Supported Character Issues Non-English characters are used on phone device profile. | 1.	Properly configure the Authentication Server URL for the phone 2.	Click Save. 3.	Reset the phone. Tip	Use only English characters. See Managing Cisco Unified IP Phones for information about configuring external URLs. See also the “Managing Phone Reset and Codec Connectivity” section for reset information. |
 | Cisco Unified IP Phone 7970 Series goes dead during CTS endpoint or MIDlet upgrade. | Phone Firmware Issues Occasionally, an unexpected phone power cycle can occur during a CTS endpoint or MIDlet version upgrade. During CTS endpoint upgrades, the CTS briefly powers off the phone then brings it back up when upgrade is complete. But if the phone power cycle is occurring at the same time, the phone's firmware image can be damaged and the phone will not power back on. | To avoid this problem, unplug the phone before upgrading the CTS endpoint. When upgrade is complete, plug the phone back in and upgrade the MIDlet. If you encounter a phone that will not power back on after a CTS endpoint or MIDlet upgrade, perform a phone factory reset to restore the firmware image. See Resetting the Cisco Unified IP Phone 7970 Series Factory Image . |
 | On some CTS 500 installations, the Cisco Unified IP Phone rejects a direct firmware upgrade. | During installation, Cisco Unified Communications Manager will automatically upgrade the firmware on Cisco Unified IP Phone 7970 Series to the minimum version required. But if the firmware on the IP phone is outdated, the phone may reject the direct firmware upgrade. | Upgrade the IP Phone 7970 Series to an intermediate unsigned firmware version before upgrading to the final firmware required by the endpoint. See Adding a Cisco TelePresence Image to the Cisco Unified Communications Manager Server for download instructions. See also the Cisco Unified Communications Operating System Administration Guide for complete software upgrade instructions. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

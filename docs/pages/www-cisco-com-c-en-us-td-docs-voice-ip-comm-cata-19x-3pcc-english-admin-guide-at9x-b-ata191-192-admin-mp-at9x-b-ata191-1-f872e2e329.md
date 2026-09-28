@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-admin-guide-at9x-b-ata191-192-admin-mp-at9x-b-ata191-1-f872e2e329
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/admin-guide/at9x_b_ata191-192-admin-mp/at9x_b_ata191-192-admin-mp_chapter_0101.html
-retrieved_at: 2026-08-22T01:03:45.427739+00:00
+retrieved_at: 2026-09-28T11:03:03.587332+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Administration Guide for Multiplatform Firmware
@@ -587,3 +587,7 @@ Display the DHCPv6 LAN address.
 | IPv6 Active DNS1 | Display the DHCPv6 Active DNS1. |
 | IPv6 Active DNS2 | Display the DHCPv6 Active DNS2. |
 | IPv6 LAN Address | Display the DHCPv6 LAN address. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

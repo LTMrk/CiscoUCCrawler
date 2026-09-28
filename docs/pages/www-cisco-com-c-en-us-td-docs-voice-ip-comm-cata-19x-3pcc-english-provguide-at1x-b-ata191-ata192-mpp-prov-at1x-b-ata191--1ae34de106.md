@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--1ae34de106
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_011.html
-retrieved_at: 2026-08-22T01:05:18.618646+00:00
+retrieved_at: 2026-09-28T11:04:01.214362+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -1120,3 +1120,7 @@ print “</GPP_D></flat-profile>”; |
 
 | Note | The ATA supports alias remapping of a limited number of parameters. It is not meant to rename all parameters in its configuration. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)

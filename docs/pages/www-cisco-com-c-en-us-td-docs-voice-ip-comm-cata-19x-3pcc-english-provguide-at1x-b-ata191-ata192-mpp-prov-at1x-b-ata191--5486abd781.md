@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--5486abd781
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_01.html
-retrieved_at: 2026-08-22T01:05:09.864151+00:00
+retrieved_at: 2026-09-28T11:03:43.215161+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -1498,3 +1498,7 @@ After making changes, click Submit to save your settings, or click Cancel to can
 | Step 1 | On the Change Password page, enter the username and password, as described below. Username—Enter a username. Old Password—Enter the existing password. New Password—Enter your new password. The password must contain at least 8 to 127 characters. Confirm New Password—Enter the new password again, to confirm. |
 |---|---|
 | Step 2 | After making changes, click Submit to save your settings, or click Cancel to cancel the settings. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

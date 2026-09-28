@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-191-english-user-guide-at91-b-ata191-user-guide-for-cucm-at91-b-ata191--d69e5f1198
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/191/english/user-guide/at91_b_ata191-user-guide-for-cucm/at91_b_ata191-user-guide-for-cucm_chapter_011.html
-retrieved_at: 2026-08-22T01:04:18.968049+00:00
+retrieved_at: 2026-09-28T11:02:00.024168+00:00
 ---
 
 Cisco ATA 191 Analog Telephone Adapter User Guide for Cisco Unified Communications Manager
@@ -45,3 +45,9 @@ Follow the prompts from your voice-messaging system to listen to and manage your
 | Step 1 | Press * then 0 . |
 |---|---|
 | Step 2 | Follow the prompts from your voice-messaging system to listen to and manage your voice messages. |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

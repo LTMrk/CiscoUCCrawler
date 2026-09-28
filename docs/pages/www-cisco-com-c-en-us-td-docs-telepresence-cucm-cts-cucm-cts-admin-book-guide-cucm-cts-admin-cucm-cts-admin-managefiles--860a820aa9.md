@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-telepresence-cucm-cts-cucm-cts-admin-book-guide-cucm-cts-admin-cucm-cts-admin-managefiles--860a820aa9
 source_url: https://www.cisco.com/c/en/us/td/docs/telepresence/cucm_cts/cucm_cts_admin_book/guide/cucm_cts_admin/cucm_cts_admin_managefiles.html
-retrieved_at: 2026-08-17T00:09:59.349836+00:00
+retrieved_at: 2026-09-28T10:59:46.131454+00:00
 ---
 
 Cisco Unified Communications Manager Configuration Guide for the Cisco TelePresence System
@@ -655,3 +655,7 @@ Step 5	Click Apply Config then click Save.
 | CTS-CTRL-DV12-A | Cisco TelePresence System 500-32 (PID: CTS-500-32) Cisco TelePresence System TX1300 47 (PID: CTS-1300-47) Cisco TelePresence System TX1310 65 (PID: CTS-TX1310-65) Cisco TelePresence System TX9000 (PID: CTS-TX9000) Cisco TelePresence System TX9200 (PID: CTS-TX9200) Includes the Touch 12 device, part number CTS-CTRL-DV12. |
 | CTS-CTRL-DV12-B | Cisco TelePresence System 1000 (PID: CTS-1000) Cisco TelePresence System 1100 (PID: CTS-1100) Cisco TelePresence System 1300-65 (PID: CTS-1300) Cisco TelePresence System 3000 (PID: CTS-3000) Cisco TelePresence System 3010 (PID: CTS-3010) Cisco TelePresence System 3200 (PID: CTS-3200) Cisco TelePresence System 3210 (PID: CTS-3210) Includes: CTS-CTRL-DV12—Touch 12 device AIR-PWRINJ4—The Power injector for the Touch 12 CTS-JUMPER-CORD—This cord connects the power injector to the power distribution unit (PDU) for your system. The PDU end of the cord uses a IEC 60320 C19 connector to connect to the PDU. |
 | CTS-CTRL-DV12-C | Cisco TelePresence System 500-37 (PID: CTS-500-37) CTS-CTRL-DV12-C contains the same parts as the CTS-CTRL-DV12-B; however the CTS-JUMPER-CORD is removed and replaced with a country-specific power cord. This change is required because a Cisco TelePresence System 500-37 does not ship with a PDU. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

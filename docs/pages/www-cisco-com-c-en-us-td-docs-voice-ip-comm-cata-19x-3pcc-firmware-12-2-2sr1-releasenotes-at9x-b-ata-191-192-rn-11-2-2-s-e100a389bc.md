@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-firmware-12-2-2sr1-releasenotes-at9x-b-ata-191-192-rn-11-2-2-s-e100a389bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/firmware/12-2-2SR1/releasenotes/at9x_b_ata-191-192-rn_11_2_2_sr1.html
-retrieved_at: 2026-08-21T12:50:21.824298+00:00
+retrieved_at: 2026-09-28T11:05:38.017980+00:00
 ---
 
 Cisco ATA 191 and 192 Analog Telephone Adapter Release Notes for Multiplatform Firmware Release 11.2(2)SR1
@@ -198,3 +198,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search for field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

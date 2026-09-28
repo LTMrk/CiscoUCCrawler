@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cata-19x-3pcc-english-provguide-at1x-b-ata191-ata192-mpp-prov-at1x-b-ata191--85176356b4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cata/19x/3PCC/english/provguide/at1x_b_ata191-ata192-mpp-prov/at1x_b_ata191-ata192-mpp-prov_chapter_0100.html
-retrieved_at: 2026-08-22T01:05:22.351538+00:00
+retrieved_at: 2026-09-28T11:03:51.144777+00:00
 ---
 
 Cisco ATA 191 and ATA 192 Analog Telephone Adapter Provisioning Guide for Multiplatform Firmware
@@ -582,3 +582,7 @@ Dialed number invalid according to given dial plan.
 | X40 | General SIP protocol error (for example, unacceptable codec in SDP in 200 and ACK messages, or times out while waiting for
                                           ACK). |
 | X60 | Dialed number invalid according to given dial plan. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
