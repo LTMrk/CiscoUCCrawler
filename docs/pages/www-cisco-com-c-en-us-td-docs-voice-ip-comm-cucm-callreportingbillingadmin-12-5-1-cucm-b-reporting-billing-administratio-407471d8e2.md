@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-12-5-1-cucm-b-reporting-billing-administratio-407471d8e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/12_5_1/cucm_b_reporting-billing-administration-guide-1251SU1/cucm_b_reporting-and-billing-administration-guide_chapter_01011.html
-retrieved_at: 2026-08-21T01:14:46.835151+00:00
+retrieved_at: 2026-09-28T12:39:36.847362+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -3365,3 +3365,7 @@ Changes take effect immediately. The new values get used whenever the next alert
 | Step 3 | In the Daily Charge Limit area, enter the number of monetary units (such as dollars, francs, or pounds) that, when exceeded by any user in the system,
                                              will trigger sending an email alert to the administrator. The alert is called the Charge Limit Notification. |
 | Step 4 | Click Update . Changes take effect immediately. The new values get used whenever the next alert is sent. |
+
+## Figuras
+
+![Figure 1. CDR Analysis and Reporting Initial Setup](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394121.eps/_jcr_content/renditions/394121.jpg)

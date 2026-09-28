@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-2ecb42860f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_0110.html
-retrieved_at: 2026-08-21T09:16:30.132729+00:00
+retrieved_at: 2026-09-28T12:36:42.236495+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -187,3 +187,7 @@ If the phones
 | Attention | If you did not enter individual MAC addresses in the CSV data file, you must check the Create Pseudo MAC Address check box. You can update this information manually later. Skip to Step 8 . If you supplied MAC addresses or device names in the data input file, do not choose this option. If you do not know the MAC address of the phone that is assigned to the user, then choose this option. When the phone is plugged
                                                       in, a MAC address registers for that device. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

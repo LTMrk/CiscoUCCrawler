@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-m-new-and-changed-a0f90a2254
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-21T09:07:46.578195+00:00
+retrieved_at: 2026-09-28T12:32:57.020462+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -82,3 +82,9 @@ May 18, 2023
 | Initial Release of Document for Release 14SU3 | — | — | May 18, 2023 |
 | Auto Provision of Webex App and Cisco Jabber Devices | You can now auto provision the Webex App or Cisco Jabber devices when new LDAP users are synchronized from Microsoft Active
                                           Directory. | Rename Jabber Devices | May 18, 2023 |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

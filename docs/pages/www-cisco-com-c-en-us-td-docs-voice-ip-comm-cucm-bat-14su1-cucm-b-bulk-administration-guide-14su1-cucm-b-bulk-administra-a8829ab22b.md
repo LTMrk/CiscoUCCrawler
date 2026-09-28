@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-a8829ab22b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_chapter_011110.html
-retrieved_at: 2026-08-21T09:09:55.184070+00:00
+retrieved_at: 2026-09-28T12:32:27.840353+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -159,3 +159,7 @@ For changes to take effect, you must restart CiscoUnifiedCM
                                                       				  update to an assistant or manager configuration, the changes are only partially
                                                       				  completed and the whole transaction record fails. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

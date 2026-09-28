@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-15-cucm-b-reporting-billing-administration-gu-95935321f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/15/cucm_b_reporting-billing-administration-guide-15/cucm_b_reporting-and-billing-administration-guide_chapter_01.html
-retrieved_at: 2026-08-17T00:24:59.784979+00:00
+retrieved_at: 2026-09-28T12:41:03.349696+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -502,6 +502,10 @@ CDRs enabled, CMRs enabled
 
 17.02
 
+### Customers Also Viewed
+
+- Install CUCM Cluster Using Data Export and Import Feature
+
 | Note | CAR does not handle iDivert calls (a feature that diverts calls to a voice-messaging system) and treats them as normal calls.
                                     The part of the call after the iDivert feature gets activated may not get charged to the correct party. |
 |---|---|
@@ -578,3 +582,7 @@ CDRs enabled, CMRs enabled
 | CDRs enabled, CMRs disabled | 6.99 | 12.10 | 13.18 | 8.57 |
 | CDRs disabled, CMRs enabled | 6.38 | 11.24 | 3.43 | 0.86 |
 | CDRs enabled, CMRs enabled | 7.71 | 13.04 | 24.92 | 17.02 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

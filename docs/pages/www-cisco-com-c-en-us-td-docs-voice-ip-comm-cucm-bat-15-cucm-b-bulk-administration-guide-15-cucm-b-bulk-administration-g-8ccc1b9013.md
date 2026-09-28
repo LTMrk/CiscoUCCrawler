@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-8ccc1b9013
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_0111110.html
-retrieved_at: 2026-08-21T09:20:28.151339+00:00
+retrieved_at: 2026-09-28T12:38:41.425594+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -775,3 +775,7 @@ Import/Export tool does not support updating the password and
                                                       				  not modify the User ID, User Pkid, Password, and Pin fields in the enduser.csv
                                                       				  in the exported file. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

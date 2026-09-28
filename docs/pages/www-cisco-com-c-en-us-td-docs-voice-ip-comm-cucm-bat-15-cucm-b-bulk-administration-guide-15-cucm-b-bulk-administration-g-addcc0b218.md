@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-addcc0b218
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_010000.html
-retrieved_at: 2026-08-21T09:17:12.563435+00:00
+retrieved_at: 2026-09-28T12:33:27.215632+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -588,3 +588,7 @@ Enter the
 
 | Note | Use the User Management > User Settings > Service Profile menu to set up service profiles for the users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

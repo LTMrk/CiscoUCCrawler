@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-14-cucm-b-reporting-billing-administration-gu-754801da87
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14/cucm_b_reporting-and-billing-administration-guide_chapter_01000.html
-retrieved_at: 2026-08-17T00:26:37.156066+00:00
+retrieved_at: 2026-09-28T12:40:10.752016+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -474,3 +474,7 @@ When working with CDRs, you may want to read other tables in the CAR database to
 | Step 2 | Reverse the order of the hex bytes, as shown below: CO A8 12 BC |
 | Step 3 | Convert the four bytes from hex to decimal, as shown below: 192 168 18 188 |
 | Step 4 | The IP address displays in the dotted decimal format: 192.168.18.188 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

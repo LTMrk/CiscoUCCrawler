@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-4b90d13051
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_chapter_011111.html
-retrieved_at: 2026-08-21T09:09:59.512324+00:00
+retrieved_at: 2026-09-28T12:32:40.401256+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -94,3 +94,7 @@ Click Submit to create a job for deleting the
 | Step 6 | Click Submit to create a job for deleting the
                                        			 required manager-assistant associations. Use the Job Configuration window to schedule
                                        			 and / or activate this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

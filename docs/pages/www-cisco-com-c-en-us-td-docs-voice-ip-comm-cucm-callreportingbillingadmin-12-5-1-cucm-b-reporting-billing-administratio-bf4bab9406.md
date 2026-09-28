@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-12-5-1-cucm-b-reporting-billing-administratio-bf4bab9406
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/12_5_1/cucm_b_reporting-billing-administration-guide-1251SU1/cucm_b_reporting-and-billing-administration-guide_chapter_01110.html
-retrieved_at: 2026-08-21T01:15:41.894733+00:00
+retrieved_at: 2026-09-28T12:39:53.906365+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -592,3 +592,7 @@ videoTransmissionMetrics_channel2
 | videoOneWayDelay_channel2 |  |
 | videoReceptionMetrics_channel2 |  |
 | videoTransmissionMetrics_channel2 |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

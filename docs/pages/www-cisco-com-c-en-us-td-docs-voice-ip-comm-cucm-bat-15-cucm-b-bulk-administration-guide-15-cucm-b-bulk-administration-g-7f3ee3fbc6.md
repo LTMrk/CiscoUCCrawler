@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-7f3ee3fbc6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_01010000.html
-retrieved_at: 2026-08-21T09:21:43.769243+00:00
+retrieved_at: 2026-09-28T12:35:45.540200+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -346,3 +346,7 @@ Within Cisco Unified CM Administration, you can enter directory URIs with embedd
 | Note | For compatibility with third party call control systems, Cisco recommends setting the value of the URI Lookup Policy enterprise
                                           parameter to case insensitive. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

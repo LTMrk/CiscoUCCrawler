@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-83d58157e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_010101.html
-retrieved_at: 2026-08-21T09:17:33.380846+00:00
+retrieved_at: 2026-09-28T12:35:54.241579+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -389,3 +389,7 @@ Tip
 
 | Tip | The log file displays the number of users that were updated and the number of records that failed, including an error code. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

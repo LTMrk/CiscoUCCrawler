@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-14-cucm-b-reporting-billing-administration-gu-daf75b45c4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-17T00:26:02.992356+00:00
+retrieved_at: 2026-09-28T12:40:58.892196+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -69,3 +69,9 @@ June 16, 2022
 | Additional Billing Server Support | You can now add up to eight billing servers in Unified Communications Manager. | CDR Management | March 31, 2021 |
 | Initial Release of Document for Release 14SU1 | — | — | October 27, 2021 |
 | Initial Release of Document for Release 14SU2 | — | — | June 16, 2022 |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

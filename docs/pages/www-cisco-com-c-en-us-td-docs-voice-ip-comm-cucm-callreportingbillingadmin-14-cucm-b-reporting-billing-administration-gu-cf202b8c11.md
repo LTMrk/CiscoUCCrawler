@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-14-cucm-b-reporting-billing-administration-gu-cf202b8c11
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14/cucm_b_reporting-and-billing-administration-guide_chapter_01001.html
-retrieved_at: 2026-08-17T00:26:55.648097+00:00
+retrieved_at: 2026-09-28T12:40:23.486048+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -16896,3 +16896,7 @@ orDeviceName=SEP000
 | Conference CDR 2 | ConfControllerDn=2001;ConfControlerDeviceName=SEP0003E333FEBD |
 | Conference CDR 3 | ConfControllerDn=2001;ConfControlerDeviceName=SEP0003E333FEBD |
 | Final CDR |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

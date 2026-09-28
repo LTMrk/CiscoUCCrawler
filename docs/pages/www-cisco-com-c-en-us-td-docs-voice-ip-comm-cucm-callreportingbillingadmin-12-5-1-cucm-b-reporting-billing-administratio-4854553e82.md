@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-12-5-1-cucm-b-reporting-billing-administratio-4854553e82
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/12_5_1/cucm_b_reporting-billing-administration-guide-1251SU1/cucm_b_reporting-and-billing-administration-guide_chapter_0101.html
-retrieved_at: 2026-08-21T01:15:06.571269+00:00
+retrieved_at: 2026-09-28T12:39:27.035904+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU1
@@ -1902,3 +1902,7 @@ INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, VARCHAR(
                                              the leg IDs. If the leg IDs of the CMR match the Orig/Dest leg ID of the CDR, the following record represents Orig/Dest CMR. |
 | Destination CMR | Only a single set of fields for origination and destination exists. You can find the origination or destination CMR by using
                                              the leg IDs. If the leg IDs of the CMR match the Orig/Dest leg ID of the CDR, the following record represents Orig/Dest CMR. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

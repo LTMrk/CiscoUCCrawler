@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-80fb856080
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_0111111.html
-retrieved_at: 2026-08-21T09:20:32.079813+00:00
+retrieved_at: 2026-09-28T12:38:45.281160+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -293,3 +293,7 @@ Some user groups associated to application users that are relevant
                                           			 entity; the other indicates whether the first entity was successfully updated
                                           			 with the value of the supporting entity. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

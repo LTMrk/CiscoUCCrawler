@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-14-cucm-b-reporting-billing-administration-gu-9746a25d4c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14/cucm_b_reporting-and-billing-administration-guide_chapter_010.html
-retrieved_at: 2026-08-17T00:26:18.762456+00:00
+retrieved_at: 2026-09-28T12:40:02.861011+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -2040,3 +2040,31 @@ Cisco IP Phone Services Report Sample Output displays sample output from the Cis
 | CiscoIPPhone Services | The name of the selected service. |
 | Number of Subscribers | The total number of subscribers for a given service. |
 | % Subscription | The percentage of users who are subscribed to a given service, out of the total number of subscriptions for all services. |
+
+## Figuras
+
+![Figure 1. Individual Bill Summary Report Sample](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280505.tif/_jcr_content/renditions/280505.jpg)
+
+![Figure 2. Department Bill Summary Report Sample](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280504.tif/_jcr_content/renditions/280504.jpg)
+
+![Figure 3. Individual Bill Detail Sample Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210716.tif/_jcr_content/renditions/210716.jpg)
+
+![Figure 4. Department Bill Detail Sample Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210718.tif/_jcr_content/renditions/210718.jpg)
+
+![Figure 5. Top N Charge by Destinations Sample Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210721.tif/_jcr_content/renditions/210721.jpg)
+
+![Figure 6. Top N Duration by Destinations Sample Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210724.tif/_jcr_content/renditions/210724.jpg)
+
+![Figure 7. Top N by Number of Calls Report Sample Output](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280501.tif/_jcr_content/renditions/280501.jpg)
+
+![Figure 8. Call Usage for Assistant Detail Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/201001-202000/201404.tif/_jcr_content/renditions/201404.jpg)
+
+![Figure 9. Call Usage for Assistant Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/200001-210000/201001-202000/201405.tif/_jcr_content/renditions/201405.jpg)
+
+![Figure 10. Call Usage for Manager Detail Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210730.tif/_jcr_content/renditions/210730.jpg)
+
+![Figure 11. Call Usage for Manager Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210729.tif/_jcr_content/renditions/210729.jpg)
+
+![Figure 12. Cisco IP Phone Services Report Sample Output](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280481.tif/_jcr_content/renditions/280481.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

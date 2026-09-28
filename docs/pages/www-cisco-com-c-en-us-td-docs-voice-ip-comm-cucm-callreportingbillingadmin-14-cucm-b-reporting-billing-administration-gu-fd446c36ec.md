@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-14-cucm-b-reporting-billing-administration-gu-fd446c36ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/14/cucm_b_reporting-billing-administration-guide-14/cucm_b_reporting-and-billing-administration-guide_chapter_0101.html
-retrieved_at: 2026-08-17T00:26:33.517574+00:00
+retrieved_at: 2026-09-28T12:40:27.853586+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -1448,6 +1448,10 @@ INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, VARCHAR(
                                  0, , , 0, , 3, 3, 0, 0, 64, 64, , , , 10.77.31.8, 10.77.31.5, 101,0,5,0,0,1,100,0,3,0,0,1,3,0000000000000108012BB4AE00000002,3,0000000000000108012BB4B200000000,2,5,7,1000,
                                  5555
 
+### Customers Also Viewed
+
+- Collect Trace Data from a CUCM Cluster
+
 | Step 1 | From CDR Analysis and Reporting, choose CDR > Export CDR/CMR . The Export CDR/CMR records window appears. |
 |---|---|
 | Step 2 | In the From Date and To Date drop-down list boxes, choose a date range for the CDR/CMR dump. |
@@ -1902,3 +1906,7 @@ INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, INTEGER, VARCHAR(
                                              the leg IDs. If the leg IDs of the CMR match the Orig/Dest leg ID of the CDR, the following record represents Orig/Dest CMR. |
 | Destination CMR | Only a single set of fields for origination and destination exists. You can find the origination or destination CMR by using
                                              the leg IDs. If the leg IDs of the CMR match the Orig/Dest leg ID of the CDR, the following record represents Orig/Dest CMR. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

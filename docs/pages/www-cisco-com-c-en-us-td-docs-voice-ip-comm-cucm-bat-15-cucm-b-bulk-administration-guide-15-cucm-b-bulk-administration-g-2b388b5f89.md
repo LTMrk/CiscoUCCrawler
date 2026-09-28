@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-2b388b5f89
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_0111101.html
-retrieved_at: 2026-08-21T09:20:23.513545+00:00
+retrieved_at: 2026-09-28T12:38:32.437157+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -131,3 +131,7 @@ Choose System > Service
                                                       				  parameter type specifies Cisco Unified Communications Manager and the four parameters of interest comprise
                                                       				  part of the Clusterwide Parameters (System - Location and Region) section. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-15-cucm-b-bulk-administration-guide-15-cucm-b-bulk-administration-g-bc443a6a5e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/15/cucm_b_bulk-administration-guide-15/cucm_b_bulk-administration-guide-1251su2_chapter_01000110.html
-retrieved_at: 2026-08-21T09:21:01.806451+00:00
+retrieved_at: 2026-09-28T12:34:17.191841+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -141,3 +141,7 @@ Use the Job Scheduler option in the Bulk Administration main menu to schedule
                                        			 Group. |
 | Step 4 | Use the Job Scheduler option in the Bulk Administration main menu to schedule
                                        			 and / or activate this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-af5c3fa504
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_preface_00.html
-retrieved_at: 2026-08-21T09:07:42.415095+00:00
+retrieved_at: 2026-09-28T12:32:53.159935+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -352,3 +352,7 @@ Further information regarding U.S. export regulations may be found at http://www
 | Warning | This warning symbol means danger. You are in a situation that could cause bodily injury. Before you work on any equipment,
                                           you must be aware of the hazards involved with electrical circuitry and familiar with standard practices for preventing accidents. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
