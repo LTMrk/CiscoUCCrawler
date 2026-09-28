@@ -256,6 +256,16 @@
   "sitemaps": [
     "https://developer.cisco.com/data/sitemaps/pubhub.xml"
   ],
+  "_doc_custom_behaviors": [
+    "El js_code se concatena con la purga de SELECTORES_RUIDO_CSS y se",
+    "ejecuta como cuerpo de funcion asincrona. Para comprobar que no se ha",
+    "colado un error de sintaxis, sin levantar el navegador:",
+    "  node --check <(echo '(async () => {'; ...; echo '})')",
+    "El de developer.cisco.com no duerme un tiempo fijo: espera a que el",
+    "indice del doc-set tenga enlaces, hasta 8 s. El sitemap de PubHub solo",
+    "lista la raiz de cada doc-set, asi que los capitulos SOLO pueden salir",
+    "de los enlaces de esa pagina."
+  ],
   "custom_behaviors": [
     {
       "pattern": "www.cisco.com/c/en/us/td/docs",
@@ -270,7 +280,7 @@
     {
       "pattern": "developer.cisco.com",
       "css_selector": null,
-      "js_code": "await new Promise(r => setTimeout(r, 2500));"
+      "js_code": "await new Promise(r => setTimeout(r, 1500)); for (let i = 0; i < 26 \u0026\u0026 document.querySelectorAll('a[href]').length < 40; i++) { await new Promise(r => setTimeout(r, 250)); }"
     }
   ],
   "_doc_repos_allowlist": "Repos de github.com/webex cuyo Markdown se ingiere. Aportan la documentacion de integracion (SDKs, widgets, embedded apps) que vive en developer.webex.com, que es una SPA no rastreable. La organizacion tiene 68 repos y NO se ingieren todos: quedan fuera los deprecados por su propio README (spark-ios-sdk, spark-android-sdk, spark-ios-sdk-example, SparkBotDemo), porque documentacion de algo retirado da respuestas activamente incorrectas; la fontaneria de bajo nivel (webrtc-core, webrtc-sframe, ts-sdp, ts-events, web-capabilities), que no responde a ninguna pregunta de colaboracion; y web-styleguide, que es guia de estilo interna.",
