@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--89293886c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_010101.html
-retrieved_at: 2026-09-07T11:18:02.436490+00:00
+retrieved_at: 2026-09-28T12:23:56.733918+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -831,3 +831,9 @@ http://www.cisco.com/en/US/products/ps7334/serv_home.html
 
 | Note | A message appears Call Home Configuration saved and all Call Home Messages sent successfully if the messages are sent successfully. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Smart Call Home Overview](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239157.tif/_jcr_content/renditions/239157.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

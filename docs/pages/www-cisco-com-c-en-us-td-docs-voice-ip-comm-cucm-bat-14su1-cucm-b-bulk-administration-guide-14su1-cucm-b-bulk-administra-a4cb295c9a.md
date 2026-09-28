@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-a4cb295c9a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_chapter_01111.html
-retrieved_at: 2026-08-21T09:08:52.793636+00:00
+retrieved_at: 2026-09-28T12:30:38.393533+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -418,3 +418,7 @@ Enter the maximum login time for Extension Mobility and Extension Mobility Cross
                                                       must use enclose the entire directory URI in double quotes and escape the embedded double quotes with a double quote. For
                                                       example, the Jared, "Jerry",Smith@test.com directory URI must be input as "Jared,""Jerry"",Smith@test.com" in the csv file. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

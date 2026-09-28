@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-b8b8915480
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_01000100.html
-retrieved_at: 2026-08-17T01:55:59.112840+00:00
+retrieved_at: 2026-09-28T12:22:40.841388+00:00
 ---
 
 Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -508,3 +508,7 @@ Consider a scenario where an old phone has the primary DN shared line with multi
 | Step 5 | (Optional) Enter a description for the new phone. For more information on the migration considerations and configuration settings, see
                                        the Cisco Unified CM Administration Online Help pages. |
 | Step 6 | Click Save . If a warning message displays that the new phone may lose feature functionality, click OK . After migration, the new device will inherit setting of the old phone. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

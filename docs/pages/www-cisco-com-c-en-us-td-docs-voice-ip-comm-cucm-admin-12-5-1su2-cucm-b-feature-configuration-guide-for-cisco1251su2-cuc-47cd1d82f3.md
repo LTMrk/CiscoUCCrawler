@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-12-5-1su2-cucm-b-feature-configuration-guide-for-cisco1251su2-cuc-47cd1d82f3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2/cucm_b_feature-configuration-guide-for-cisco1251SU2_chapter_0110100.html
-retrieved_at: 2026-08-17T01:56:03.525979+00:00
+retrieved_at: 2026-09-28T12:22:45.165529+00:00
 ---
 
 Feature Configuration Guide for Cisco Unified Communications Manager, Release 12.5(1)SU2
@@ -1135,3 +1135,7 @@ Check the Customer support upload URL parameter in the Enterprise, Profile, or D
 
 | Note | Check the Customer support upload URL parameter in the Enterprise, Profile, or Device level configuration page settings. Else, PRT generation fails. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

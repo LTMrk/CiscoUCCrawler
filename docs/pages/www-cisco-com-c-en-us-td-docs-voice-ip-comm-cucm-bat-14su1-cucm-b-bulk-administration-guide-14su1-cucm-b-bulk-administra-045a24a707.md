@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-045a24a707
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_chapter_0100101.html
-retrieved_at: 2026-08-21T09:10:24.654428+00:00
+retrieved_at: 2026-09-28T12:27:06.234883+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -419,3 +419,7 @@ You can also delete a file format by checking the corresponding
                                                          				  check box and clicking Delete . You can delete all the file
                                                          				  formats by clicking Select All and then clicking Delete Selected . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

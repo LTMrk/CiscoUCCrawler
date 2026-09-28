@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--89d24d7d5c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_010000.html
-retrieved_at: 2026-09-07T11:18:57.721121+00:00
+retrieved_at: 2026-09-28T12:23:10.005294+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -158,3 +158,7 @@ CAPF—All phones only if CAPF is activated.
 
 | Note | The following types of certificates determine phones that are restarted: CallManager—All phones only if TFTP service is activated on the node that the certificate belongs. TVS—Some phones based on CallManager group membership. CAPF—All phones only if CAPF is activated. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

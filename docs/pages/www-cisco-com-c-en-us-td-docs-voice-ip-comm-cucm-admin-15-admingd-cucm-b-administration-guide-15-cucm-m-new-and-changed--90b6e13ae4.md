@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-m-new-and-changed--90b6e13ae4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_m_new-and-changed-information-15.html
-retrieved_at: 2026-09-07T11:13:19.459255+00:00
+retrieved_at: 2026-09-28T12:25:03.735426+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -66,3 +66,9 @@ Cisco Unified Serviceability Troubleshooting Tools
 | October 01, 2024 | Updated information on bidirectional x.509 authentication for remote audit logs. | Configure Remote Audit Log Transfer Protocol |
 | December 18, 2023 | Added a note for the IPsec policy in the 'Manage IPsec Policies' section. | Manage IPsec Policies |
 | December 18, 2023 | Added a note for the .gzo file in the 'Cisco Unified Serviceability Troubleshooting Tools' section. | Cisco Unified Serviceability Troubleshooting Tools |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

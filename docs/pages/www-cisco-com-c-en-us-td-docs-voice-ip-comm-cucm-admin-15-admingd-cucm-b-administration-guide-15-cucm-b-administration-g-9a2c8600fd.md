@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-administration-g-9a2c8600fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_administration-guide-1251SU1_chapter_0100100.html
-retrieved_at: 2026-09-07T11:18:06.438546+00:00
+retrieved_at: 2026-09-28T12:22:49.014416+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -214,3 +214,7 @@ For more details on Serviceability Connector, see https://www.cisco.com/go/servi
                                              Serviceability Connectors through Webex cloud. TAC case management system with your case and associated logs
                                              that Serviceability Connector collected and uploaded to
                                              Customer eXperience Drive. |
+
+## Figuras
+
+![Figure 1. Deployment with Service Connector on Expressway](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453991.jpg)

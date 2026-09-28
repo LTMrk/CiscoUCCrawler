@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--7694ea81a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_0100010.html
-retrieved_at: 2026-09-07T11:18:44.810465+00:00
+retrieved_at: 2026-09-28T12:23:27.397031+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -907,3 +907,7 @@ The value
                                                                   						parameter. You must restart the Cisco Extended Functions service for the
                                                                   						changes to take effect. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--ead0c475e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_01100.html
-retrieved_at: 2026-09-07T11:18:28.078647+00:00
+retrieved_at: 2026-09-28T12:24:17.677694+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -163,3 +163,7 @@ After you read the confirmation prompt, click OK .
 |---|---|
 | Step 2 | Click Set to Default . |
 | Step 3 | After you read the confirmation prompt, click OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

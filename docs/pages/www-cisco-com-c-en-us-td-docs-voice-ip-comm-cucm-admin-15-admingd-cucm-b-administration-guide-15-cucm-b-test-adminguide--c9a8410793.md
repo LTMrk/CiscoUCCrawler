@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--c9a8410793
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_011001.html
-retrieved_at: 2026-09-07T11:19:38.323585+00:00
+retrieved_at: 2026-09-28T12:24:26.127574+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -143,3 +143,7 @@ For information on designing and troubleshooting IP telephony networks, see the 
 | Note | If you exhaust all the common causes and actions (either those outlined in this document or others that you have identified
                                           in your environment), contact Cisco TAC. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

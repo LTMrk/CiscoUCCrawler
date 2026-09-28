@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-974aa4d044
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_chapter_011000.html
-retrieved_at: 2026-08-21T09:09:30.503031+00:00
+retrieved_at: 2026-09-28T12:29:09.093422+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -423,3 +423,7 @@ This field, which supports all certificate operations,
                                           					 specifies 1024. Other options include 512 and 2048. |
 | Operation Completes by | This field, which supports all certificate operations,
                                           					 specifies the date and time by which you must complete the operation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

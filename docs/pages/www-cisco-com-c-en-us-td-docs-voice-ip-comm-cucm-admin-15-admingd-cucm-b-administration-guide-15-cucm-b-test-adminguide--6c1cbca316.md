@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--6c1cbca316
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_010.html
-retrieved_at: 2026-09-07T11:17:25.579701+00:00
+retrieved_at: 2026-09-28T12:22:57.929455+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -1799,3 +1799,7 @@ Standard Cisco Unified CM IM and Presence Reporting
 | Important | The maximum number of opened lines and park lines must not exceed 65,000. If the total exceeds 65,000, remove the Standard CTI Allow Call Park Monitoring role from the application user or reduce the
                                                       number of park lines that are configured. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Role Permissions with Access Control Groups](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394040.eps/_jcr_content/renditions/394040.jpg)

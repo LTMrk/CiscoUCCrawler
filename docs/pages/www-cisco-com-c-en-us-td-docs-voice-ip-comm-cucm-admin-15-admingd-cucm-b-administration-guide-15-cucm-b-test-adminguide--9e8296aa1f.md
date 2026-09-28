@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--9e8296aa1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_0100.html
-retrieved_at: 2026-09-07T11:17:33.314746+00:00
+retrieved_at: 2026-09-28T12:23:01.461983+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -431,3 +431,7 @@ If you have
                                           			 help for more information about the fields and their configuration options. |
 | Step 5 | If you have
                                           			 changed any settings, click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

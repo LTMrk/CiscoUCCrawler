@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--a8f499d981
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_011000.html
-retrieved_at: 2026-09-07T11:18:20.313295+00:00
+retrieved_at: 2026-09-28T12:24:22.742602+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -2392,3 +2392,7 @@ After you select the Reset button, the window refreshes and the service check bo
 | Note | Leaving troubleshooting trace enabled for a long time increases the size of the trace files and may affect the performance
                                                                   of the services. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

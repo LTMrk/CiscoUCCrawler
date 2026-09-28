@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-bat-14su1-cucm-b-bulk-administration-guide-14su1-cucm-b-bulk-administra-2f9eea2dba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/bat/14SU1/cucm_b_bulk-administration-guide-14SU1/cucm_b_bulk-administration-guide-1251su2_appendix_01010001.html
-retrieved_at: 2026-08-21T09:15:50.601059+00:00
+retrieved_at: 2026-09-28T12:25:21.655593+00:00
 ---
 
 Bulk Administration Guide for Cisco Unified Communications Manager, Release 14 and SUs
@@ -2924,3 +2924,7 @@ Click View
                                           				Infrastructure Device Configuration window opens. |
 | Step 5 | Click View
                                           				Sample File . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

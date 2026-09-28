@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-admin-15-admingd-cucm-b-administration-guide-15-cucm-b-test-adminguide--8061f23429
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/15/adminGd/cucm_b_administration-guide-15/cucm_b_test-adminguide_chapter_0100001.html
-retrieved_at: 2026-09-07T11:18:40.799024+00:00
+retrieved_at: 2026-09-28T12:23:18.823528+00:00
 ---
 
 Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -1033,3 +1033,10 @@ You can
 | Step 5 | Select Upload . |
 | Step 6 | Select Continue to display the uploaded file in the browser
                                           			 window. |
+
+## Figuras
+
+![Figure 1. UI
+                                 			 Components](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284945.tif/_jcr_content/renditions/284945.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
