@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-quick-start-guide-b-14cucqsgminiinbox-m-miniwebinbox-html-17770707e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsgminiinbox/m_miniwebinbox.html
-retrieved_at: 2026-08-17T03:39:48.907077+00:00
+retrieved_at: 2026-09-28T11:54:54.461235+00:00
 ---
 
 Quick Start Guide for the Cisco Unity Connection Mini Inbox (Release 14)
@@ -1118,3 +1118,27 @@ When playing a message from mobile if the user has given the same mobile number 
                                           voice message will now get open from the deleted items folder in the Connection Mini Web Inbox. The user is not allowed to
                                           perform any other operation other than the play and undelete option on the deleted message. Figure 9. Delete Window on computer Figure 10. Delete Window for Mobile |
 |---|
+
+## Figuras
+
+![Figure 1. Reply Window on Computer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302302.tif/_jcr_content/renditions/302302.jpg)
+
+![Figure 2. Reply Window on Mobile](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302301.tif/_jcr_content/renditions/302301.jpg)
+
+![Figure 3. Reply All Window on Computer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302302.tif/_jcr_content/renditions/302302.jpg)
+
+![Figure 4. Reply All Window on Mobile](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302301.tif/_jcr_content/renditions/302301.jpg)
+
+![Figure 5. Forward Window on computer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302296.tif/_jcr_content/renditions/302296.jpg)
+
+![Figure 6. Forward Window on Mobile](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302295.tif/_jcr_content/renditions/302295.jpg)
+
+![Figure 7. Mark Unread Window on computer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302297.tif/_jcr_content/renditions/302297.jpg)
+
+![Figure 8. Mark Unread Window on Mobile](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302299.tif/_jcr_content/renditions/302299.jpg)
+
+![Figure 9. Delete Window on computer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302294.tif/_jcr_content/renditions/302294.jpg)
+
+![Figure 10. Delete Window for Mobile](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302293.tif/_jcr_content/renditions/302293.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

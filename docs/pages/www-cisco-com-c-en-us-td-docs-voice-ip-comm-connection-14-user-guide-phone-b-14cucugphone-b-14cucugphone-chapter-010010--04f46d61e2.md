@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-phone-b-14cucugphone-b-14cucugphone-chapter-010010--04f46d61e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone/b_14cucugphone_chapter_010010.html
-retrieved_at: 2026-08-21T00:35:37.421687+00:00
+retrieved_at: 2026-09-28T11:56:20.825422+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 14)
@@ -37,3 +37,9 @@ Broadcast messages do not trigger the message indicator on your phone (for examp
 If you are using the voice-recognition option, you cannot use a voice command to delete a broadcast message. Instead, you
                            are prompted to press # when the message is finished playing. Once the message is deleted, you can continue using voice commands to play and manage
                            other messages.
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

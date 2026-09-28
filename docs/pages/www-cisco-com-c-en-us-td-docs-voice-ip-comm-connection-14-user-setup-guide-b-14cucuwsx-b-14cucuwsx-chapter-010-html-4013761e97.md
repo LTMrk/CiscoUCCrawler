@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-setup-guide-b-14cucuwsx-b-14cucuwsx-chapter-010-html-4013761e97
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user_setup/guide/b_14cucuwsx/b_14cucuwsx_chapter_010.html
-retrieved_at: 2026-08-17T02:41:48.247458+00:00
+retrieved_at: 2026-09-28T11:57:26.930129+00:00
 ---
 
 User Workstation Setup Guide for Cisco Unity Connection Release 14
@@ -2015,3 +2015,9 @@ If Microsoft Outlook users are not prompted for their Cisco PCA password, verif
 | Step 6 | Add the website that you are using for Unity Connection, for
                                           			 example, ucbu-cisco-vmxyz.cisco.com. |
 | Step 7 | Click Allow and then Close. |
+
+## Figuras
+
+![Figure 1. Media Master](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/60001-65000/61001-62000/61001-61500/61044.tif/_jcr_content/renditions/61044.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

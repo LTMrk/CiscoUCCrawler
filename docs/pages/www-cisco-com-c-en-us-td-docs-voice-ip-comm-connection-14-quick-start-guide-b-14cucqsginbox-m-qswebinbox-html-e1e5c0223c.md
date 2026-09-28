@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-quick-start-guide-b-14cucqsginbox-m-qswebinbox-html-e1e5c0223c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/quick_start/guide/b_14cucqsginbox/m_qswebinbox.html
-retrieved_at: 2026-08-21T00:28:06.090675+00:00
+retrieved_at: 2026-09-28T11:54:49.806449+00:00
 ---
 
 Quick Start Guide for the Cisco Unity Connection Web Inbox (Release 14)
@@ -519,3 +519,7 @@ Enter the Connection URL in the Add this website to the zone field.
 | Step 4 | Click Trusted sites in the Select a Zone to view or change security settings section. |
 | Step 5 | Click Sites . |
 | Step 6 | Enter the Connection URL in the Add this website to the zone field. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

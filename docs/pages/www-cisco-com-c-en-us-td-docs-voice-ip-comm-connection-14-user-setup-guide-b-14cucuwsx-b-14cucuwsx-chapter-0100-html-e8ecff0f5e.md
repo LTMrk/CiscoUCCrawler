@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-setup-guide-b-14cucuwsx-b-14cucuwsx-chapter-0100-html-e8ecff0f5e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user_setup/guide/b_14cucuwsx/b_14cucuwsx_chapter_0100.html
-retrieved_at: 2026-08-17T03:38:53.726737+00:00
+retrieved_at: 2026-09-28T11:57:30.294964+00:00
 ---
 
 User Workstation Setup Guide for Cisco Unity Connection Release 14
@@ -548,3 +548,7 @@ You can change how Unity Connection handles unsent messages when
                                                             						address messages by name are still able to find other users even if they have
                                                             						not recorded a name. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

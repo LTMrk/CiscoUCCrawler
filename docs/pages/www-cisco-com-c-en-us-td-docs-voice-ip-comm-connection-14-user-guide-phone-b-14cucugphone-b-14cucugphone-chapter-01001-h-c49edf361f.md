@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-phone-b-14cucugphone-b-14cucugphone-chapter-01001-h-c49edf361f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone/b_14cucugphone_chapter_01001.html
-retrieved_at: 2026-08-21T00:34:59.750908+00:00
+retrieved_at: 2026-09-28T11:56:16.668183+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 14)
@@ -124,3 +124,7 @@ To switch back to using voice commands, keep pressing * until you hear the "Voic
 
 | Tip | To switch back to using voice commands, keep pressing * until you hear the "Voice Command Conversation" prompt. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

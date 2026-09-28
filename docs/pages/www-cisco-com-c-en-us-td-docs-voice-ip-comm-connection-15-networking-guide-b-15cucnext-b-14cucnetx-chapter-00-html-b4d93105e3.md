@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-networking-guide-b-15cucnext-b-14cucnetx-chapter-00-html-b4d93105e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/networking/guide/b_15cucnext/b_14cucnetx_chapter_00.html
-retrieved_at: 2026-08-17T03:33:04.030490+00:00
+retrieved_at: 2026-09-28T11:59:44.358786+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 15
@@ -769,3 +769,14 @@ On each location, set up forwarded call routing rules specific to every other lo
                                              					 messages by phone to reply to a message from a user on another server by
                                              					 calling the user (according to the call transfer and screening settings of the
                                              					 called user). |
+
+## Figuras
+
+![Figure 1. A Unity
+                                 		  Connection Site Joined by Intrasite Links Among All Locations](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/251001-252000/251167.eps/_jcr_content/renditions/251167.jpg)
+
+![Figure 2. A Cisco
+                                    		  Voicemail Organization Consisting of Two Unity Connection Sites Connected
+                                    		  through an IntersiteLink](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/277001-278000/277991.eps/_jcr_content/renditions/277991.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-0101-a84a5dc147
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_010101.html
-retrieved_at: 2026-08-21T00:26:33.907130+00:00
+retrieved_at: 2026-09-28T11:51:31.634169+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -140,3 +140,7 @@ Follow the
 
 | Note | Sending video message using voice commands is not supported. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

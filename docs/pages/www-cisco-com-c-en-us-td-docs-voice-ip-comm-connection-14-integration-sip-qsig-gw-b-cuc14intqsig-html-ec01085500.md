@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-sip-qsig-gw-b-cuc14intqsig-html-ec01085500
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/sip-qsig_gw/b_cuc14intqsig.html
-retrieved_at: 2026-08-17T02:14:48.804799+00:00
+retrieved_at: 2026-09-28T11:53:38.319596+00:00
 ---
 
 QSIG-Enabled Phone System with Cisco ISR Voice Gateway Integration Guide for Cisco Unity Connection Release 14
@@ -1744,3 +1744,10 @@ Any Internet Protocol (IP) addresses used in this document are
                                  was successfully released when the call ended. |
 | Step 9 | Select Stop Polling . |
 | Step 10 | Sign out of RTMT. |
+
+## Figuras
+
+![Figure 1. Connections between the Phone System and Unity
+                     		  Connection](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/250001-251000/250379.eps/_jcr_content/renditions/250379.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

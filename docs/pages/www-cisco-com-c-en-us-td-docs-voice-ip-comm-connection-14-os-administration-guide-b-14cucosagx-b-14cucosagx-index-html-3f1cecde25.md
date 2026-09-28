@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-os-administration-guide-b-14cucosagx-b-14cucosagx-index-html-3f1cecde25
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/os_administration/guide/b_14cucosagx/b_14cucosagx_index.html
-retrieved_at: 2026-08-17T03:42:58.409973+00:00
+retrieved_at: 2026-09-28T11:54:40.983069+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 14
@@ -149,3 +149,7 @@ shutdown 1
 status
 
 fields (table) 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-https-networking-guide-b-15cuchttpsnet-b-15cuchttpsnet-chapter-ca273953df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/https_networking/guide/b_15cuchttpsnet/b_15cuchttpsnet_chapter_01.html
-retrieved_at: 2026-08-17T03:44:06.330558+00:00
+retrieved_at: 2026-09-28T11:58:33.274623+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 15
@@ -1696,3 +1696,13 @@ When a VPIM contact becomes a Unity Connection user, the contact is removed fro
                                              		that other users use, except for the addition of the partition containing the
                                              		master list. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Network Map of 10 Unity Connection Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/370001-371000/370706.tif/_jcr_content/renditions/370706.jpg)
+
+![Figure 2. Network Map of 17Unity Connection Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/370001-371000/370707.tif/_jcr_content/renditions/370707.jpg)
+
+![Figure 3. Network Map of 25 Unity Connection Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/370001-371000/370708.tif/_jcr_content/renditions/370708.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-cucm-sip-b-14cucintcucmsip-b-14cucintcucmsip-chapt-fb1dcf9f4a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/cucm_sip/b_14cucintcucmsip/b_14cucintcucmsip_chapter_010.html
-retrieved_at: 2026-08-17T02:25:33.886728+00:00
+retrieved_at: 2026-09-28T11:53:21.830620+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 14
@@ -4112,3 +4112,7 @@ AEAD_AES_256_GCM
 | All supported AES-256, AES-128 ciphers | AEAD_AES_256_GCM AEAD_AES_128_GCM AES_CM_128_HMAC_SHA1_32 AES_CM_128_HMAC_SHA1_80 |
 | AEAD AES-256, AES-28 GCM-based ciphers | AEAD_AES_256_GCM AEAD_AES_128_GCM |
 | AEAD AES256 GCM-based ciphers only | AEAD_AES_256_GCM |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

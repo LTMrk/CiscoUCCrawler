@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-https-networking-guide-b-14cuchttpsnet-b-14cuchttpsnet-chapter-8b0f38f9e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/https_networking/guide/b_14cuchttpsnet/b_14cuchttpsnet_chapter_011.html
-retrieved_at: 2026-08-17T03:50:40.932123+00:00
+retrieved_at: 2026-09-28T11:52:59.818235+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 14
@@ -427,3 +427,7 @@ Navigate to Netwoking and select HTTPS
                                           			 found in previous step. |
 | Step 3 | Navigate to Netwoking and select HTTPS
                                              				Links and then modify the IP or Hostname. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

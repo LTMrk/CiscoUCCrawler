@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-administration-guide-b-15cucsag-b-15cucsag-chapter-01000-html-90ebe1864d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag//b_15cucsag_chapter_01000.html
-retrieved_at: 2026-08-21T00:36:36.680006+00:00
+retrieved_at: 2026-09-28T11:57:55.906231+00:00
 ---
 
 System Administration Guide
@@ -955,3 +955,7 @@ To prevent users from saving local copies or forwarding voice
                                                                				  messages that have been forwarded to personal email addresses or to message
                                                                				  recordings that have been saved locally to user workstations. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

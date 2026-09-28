@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-integration-cucm-sip-b-15cucintcucmsip-b-15cucintcucmsip-chapt-b35ac4d6e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucm_sip/b_15cucintcucmsip/b_15cucintcucmsip_chapter_00.html
-retrieved_at: 2026-08-17T03:34:11.490095+00:00
+retrieved_at: 2026-09-28T11:58:57.918865+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 15
@@ -64,3 +64,7 @@ Unity Connection supports centralized voice messaging through the phone system, 
                            protocols, such as QSIG or DPNSS. Note that centralized voice messaging is a function of the phone system and its inter-phone
                            system networking, not voicemail. Unity Connection supports centralized voice messaging as long as the phone system and its
                            inter-phone system networking are properly configured. For details, see the “ Centralized Voice Messaging ” section in the “Integrating Cisco Unity Connection with the Phone System” chapter of the Design Guide for Cisco Unity Connection, Release 15 at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/design/guide/b_15cucdg.html .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

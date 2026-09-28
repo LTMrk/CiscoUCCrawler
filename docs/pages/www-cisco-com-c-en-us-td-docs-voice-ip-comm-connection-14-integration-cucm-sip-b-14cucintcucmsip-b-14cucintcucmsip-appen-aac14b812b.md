@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-cucm-sip-b-14cucintcucmsip-b-14cucintcucmsip-appen-aac14b812b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/cucm_sip/b_14cucintcucmsip/b_14cucintcucmsip_appendix_0100.html
-retrieved_at: 2026-08-17T03:38:03.135395+00:00
+retrieved_at: 2026-09-28T11:53:08.015241+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 14
@@ -331,3 +331,7 @@ AAR can route calls over the PSTN when the WAN is oversubscribed. However, when 
 | TLS Port | Enter the TLS port of the Cisco
                                                          						  Unified CM Express server that you are adding to the Cisco Unified CM port
                                                          						  group. We recommend that you use the default setting. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

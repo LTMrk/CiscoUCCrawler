@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-networking-guide-b-15cucnetx-b-15cucnetx-chapter-0100-html-8dd83e768e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/networking/guide/b_15cucnetx/b_15cucnetx_chapter_0100.html
-retrieved_at: 2026-08-17T03:32:50.307408+00:00
+retrieved_at: 2026-09-28T11:59:27.345956+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 15
@@ -355,3 +355,7 @@ Repeat Step
                                                             				  Objects Associated With Deleted Remote Sites task to run on the default
                                                          				schedule (or at another time during non-business hours). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

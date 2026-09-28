@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-pctr-b-14cucugpctr-b-14cucugpctr-chapter-011-html-e80f24689c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/pctr/b_14cucugpctr/b_14cucugpctr_chapter_011.html
-retrieved_at: 2026-08-21T00:34:09.565860+00:00
+retrieved_at: 2026-09-28T11:55:39.765872+00:00
 ---
 
 User Guide for the Cisco Unity Connection Personal Call Transfer Rules Web Tool (Release 14)
@@ -617,3 +617,7 @@ Repeat Step 1 through Step 4 for each additional basic transfer rule that you wa
 | Step 3 | In the When This Basic Rule Is Active field, select Apply Personal Call Transfer Rules . |
 | Step 4 | Select Save . |
 | Step 5 | Repeat Step 1 through Step 4 for each additional basic transfer rule that you want to set to use personal call transfer rules. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-https-networking-b-15cuchttpsnet-b-14cuchttpsnet-chapter-00-ht-75a9d81a7c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/https_networking/b_15cuchttpsnet/b_14cuchttpsnet_chapter_00.html
-retrieved_at: 2026-08-17T03:43:36.564652+00:00
+retrieved_at: 2026-09-28T11:58:04.061158+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 15
@@ -558,3 +558,9 @@ On each location, set up forwarded call routing rules specific to every other lo
                                           				  messages by phone to reply to a message from a user on another server by
                                           				  calling the user (according to the call transfer and screening settings of the
                                           				  called user). |
+
+## Figuras
+
+![Figure 1. A Cisco Unity Connection 15 Network Joined by HTTPS Links Among All Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/370001-371000/370710.tif/_jcr_content/renditions/370710.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

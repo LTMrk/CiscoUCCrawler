@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-networking-guide-b-14cucnetx-b-14cucnetx-chapter-011-html-29187186de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/networking/guide/b_14cucnetx/b_14cucnetx_chapter_011.html
-retrieved_at: 2026-08-17T03:23:03.119827+00:00
+retrieved_at: 2026-09-28T11:53:59.527085+00:00
 ---
 
 Networking Guide for Cisco Unity Connection Release 14
@@ -1563,3 +1563,9 @@ Push the contacts from the VPIM server to the Unity Connection location.
                                              				the Network Remover task to completely remove the location from the network.
                                              				The VPIM contacts get automatically deleted on deleting a VPIM location. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Sample VPIM Message](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/191001-192000/191734.eps/_jcr_content/renditions/191734.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

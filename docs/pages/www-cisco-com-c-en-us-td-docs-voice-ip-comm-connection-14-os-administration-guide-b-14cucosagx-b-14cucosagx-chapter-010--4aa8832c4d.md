@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-os-administration-guide-b-14cucosagx-b-14cucosagx-chapter-010--4aa8832c4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/os_administration/guide/b_14cucosagx/b_14cucosagx_chapter_010.html
-retrieved_at: 2026-08-17T03:42:37.459910+00:00
+retrieved_at: 2026-09-28T11:54:16.167370+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 14
@@ -708,3 +708,7 @@ Brief description of how the port is used.
                                                             								application and opened by the firewall Disabled—Blocked by the
                                                             								firewall and not in use |
 | Description | Brief description of how the port is used. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

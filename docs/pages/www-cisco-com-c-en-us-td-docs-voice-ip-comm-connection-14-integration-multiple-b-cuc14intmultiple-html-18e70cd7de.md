@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-multiple-b-cuc14intmultiple-html-18e70cd7de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/multiple/b_cuc14intmultiple.html
-retrieved_at: 2026-08-16T18:28:29.355887+00:00
+retrieved_at: 2026-09-28T11:53:29.260556+00:00
 ---
 
 Multiple Phone System Integration Guide for Cisco Unity Connection Release 14
@@ -315,3 +315,7 @@ Any Internet Protocol (IP)
                                     				  shown for illustrative purposes only. Any use of actual IP addresses in
                                     				  illustrative content is unintentional and coincidental. © 2015 Cisco Systems, Inc.
                                     				  All rights reserved. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

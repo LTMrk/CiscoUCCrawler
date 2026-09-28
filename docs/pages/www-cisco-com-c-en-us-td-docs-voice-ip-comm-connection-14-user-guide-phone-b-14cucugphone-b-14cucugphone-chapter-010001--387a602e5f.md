@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-phone-b-14cucugphone-b-14cucugphone-chapter-010001--387a602e5f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone/b_14cucugphone_chapter_010001.html
-retrieved_at: 2026-08-21T00:35:33.428369+00:00
+retrieved_at: 2026-09-28T11:56:12.679032+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 14)
@@ -232,3 +232,7 @@ Reset playback speed to the default setting
 |---|---|
 | Change speed | "Slower" or "Faster" |
 | Reset playback speed to the default setting | "Reset speed |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

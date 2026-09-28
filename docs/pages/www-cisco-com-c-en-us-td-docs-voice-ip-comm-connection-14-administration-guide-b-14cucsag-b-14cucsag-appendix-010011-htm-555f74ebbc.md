@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-administration-guide-b-14cucsag-b-14cucsag-appendix-010011-htm-555f74ebbc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/administration/guide/b_14cucsag/b_14cucsag_appendix_010011.html
-retrieved_at: 2026-08-17T02:24:01.719797+00:00
+retrieved_at: 2026-09-28T11:52:39.163412+00:00
 ---
 
 System Administration Guide
@@ -993,3 +993,7 @@ For example, when
                                     		to send, forward, or reply to messages through the Unity Connection server, see
                                     		the Integrated Messaging |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-administration-guide-b-15cucsag-b-15cucsag-chapter-010-html-60a0ab7283
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/administration/guide/b_15cucsag//b_15cucsag_chapter_010.html
-retrieved_at: 2026-08-21T00:36:03.262171+00:00
+retrieved_at: 2026-09-28T11:57:51.654488+00:00
 ---
 
 System Administration Guide
@@ -1128,3 +1128,7 @@ For more information on configuring Custom Roles, see the Configuring Roles sect
                                                       				  Full Access |
 | Step 3 | Assign the
                                                 			 role to the user. For more information on configuring Custom Roles, see the Configuring Roles section of System Settings chapter. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

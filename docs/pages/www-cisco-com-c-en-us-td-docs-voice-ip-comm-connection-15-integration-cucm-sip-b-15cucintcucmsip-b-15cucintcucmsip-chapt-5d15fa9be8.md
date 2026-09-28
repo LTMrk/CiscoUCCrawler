@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-integration-cucm-sip-b-15cucintcucmsip-b-15cucintcucmsip-chapt-5d15fa9be8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/integration/cucm_sip/b_15cucintcucmsip/b_15cucintcucmsip_chapter_01.html
-retrieved_at: 2026-08-17T03:34:15.412049+00:00
+retrieved_at: 2026-09-28T11:59:02.279192+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 15
@@ -191,10 +191,6 @@ If the functioning Unity Connection server does not have voice messaging ports f
                               incoming calls. Similarly, if the functioning Unity Connection server does not have voice messaging ports for dialing out,
                               the system cannot dial out (for example, to set MWIs).
 
-### Customers Also Viewed
-
-- Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 15 --- Setting Up a Cisco Unified Communications Manager SIP Trunk Integration
-
 | Field | Considerations |
 |---|---|
 | Enabled | Check this check box. |
@@ -210,3 +206,7 @@ If the functioning Unity Connection server does not have voice messaging ports f
                                           (voice messaging ports that are not set to Answer Calls). For example, if a voice messaging port is set only to Send MWI Requests,
                                           do not send calls to it. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

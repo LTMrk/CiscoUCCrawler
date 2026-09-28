@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-pctr-b-14cucugpctr-b-14cucugpctr-chapter-01-html-d2b2b07f40
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/pctr/b_14cucugpctr/b_14cucugpctr_chapter_01.html
-retrieved_at: 2026-08-21T00:34:00.943359+00:00
+retrieved_at: 2026-09-28T11:55:27.172737+00:00
 ---
 
 User Guide for the Cisco Unity Connection Personal Call Transfer Rules Web Tool (Release 14)
@@ -169,3 +169,7 @@ Select the Delete Selected Rows icon below the menu bar.
 | Step 2 | On the Caller Groups page, check the check box next to the group that you want to delete. You can check multiple check boxes
                                        to delete more than one group at a time. |
 | Step 3 | Select the Delete Selected Rows icon below the menu bar. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-15-https-networking-guide-b-15cuchttpsnet-b-15cuchttpsnet-chapter-7cc5f95e46
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/15/https_networking/guide/b_15cuchttpsnet/b_15cuchttpsnet_chapter_0100.html
-retrieved_at: 2026-08-17T03:44:18.955782+00:00
+retrieved_at: 2026-09-28T11:58:41.632596+00:00
 ---
 
 HTTPS Networking Guide for Cisco Unity Connection Release 15
@@ -1299,3 +1299,7 @@ Repeat the
 | Tip | After you have saved the changes on a page, use the Next and Previous buttons to quickly navigate through each location
                                                             				in the organization. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

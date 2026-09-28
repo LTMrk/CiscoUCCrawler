@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-011--8571fd3f9e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_011.html
-retrieved_at: 2026-08-21T00:25:22.769292+00:00
+retrieved_at: 2026-09-28T11:51:40.346153+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -383,3 +383,7 @@ Seleccione Planificar o Actualizar .
 
 | Note | No escriba varias direcciones de correo electrónico en el cuadro. Si lo hace, su Training Center no envía la notificación. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

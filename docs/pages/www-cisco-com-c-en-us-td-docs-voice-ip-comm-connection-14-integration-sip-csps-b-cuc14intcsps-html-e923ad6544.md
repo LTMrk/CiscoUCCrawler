@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-sip-csps-b-cuc14intcsps-html-e923ad6544
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/sip-csps/b_cuc14intcsps.html
-retrieved_at: 2026-08-21T00:27:45.510078+00:00
+retrieved_at: 2026-09-28T11:53:33.907996+00:00
 ---
 
 Cisco SIP Proxy Server Integration Guide for Cisco Unity Connection Release 14
@@ -1840,3 +1840,10 @@ To enable call forwarding when Cisco Unity Connection is
 |---|---|
 | 12.2(2)XB4 |  |
 | 12.2(2)XB6 |  |
+
+## Figuras
+
+![Figure 1. Connections Between the Cisco SIP Proxy Server Phone System and
+                     		  Unity Connection](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/130001-140000/132001-133000/132955.ps/_jcr_content/renditions/132955.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

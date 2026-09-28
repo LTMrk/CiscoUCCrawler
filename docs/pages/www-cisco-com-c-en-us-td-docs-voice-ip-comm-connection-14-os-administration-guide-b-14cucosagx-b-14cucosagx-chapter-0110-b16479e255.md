@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-os-administration-guide-b-14cucosagx-b-14cucosagx-chapter-0110-b16479e255
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/os_administration/guide/b_14cucosagx/b_14cucosagx_chapter_0110.html
-retrieved_at: 2026-08-17T03:42:50.098908+00:00
+retrieved_at: 2026-09-28T11:54:33.039077+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 14
@@ -465,3 +465,7 @@ In this code, header.navigation.color is the branding property that
                brandingHeaderMidRTL.gif (652*1 pixel image)
                ciscoLogo12pxMargin.gif (44*44 pixel image)
            branding_logo.png (44*25 pixel image) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-phone-b-14cucugphone-b-14cucugphone-chapter-0110-ht-f01deaa69a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone/b_14cucugphone_chapter_0110.html
-retrieved_at: 2026-08-21T00:34:47.290934+00:00
+retrieved_at: 2026-09-28T11:56:55.849556+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 14)
@@ -62,3 +62,7 @@ As Connection says the name or number of the person you are calling, you can say
 | Step 2 | When Connection asks, "What do you want to do," say: " Call <Name/alternate name> " to call a Connection user. (For example, "Call Frank Edwards.") Or " Call <Name/alternate name> at <home/work/mobile> " to call a contact at a particular number. (For example, "Call Bob on his mobile" or "Call Service Department at work.") Or " Call <Number> " to call a Connection extension or a phone number. Say each digit individually. (For example, for extension 12345, say "Call
                                           one two three four five," not "Call twelve three forty-five.") |
 | Step 3 | As Connection says the name or number of the person you are calling, you can say " Cancel " to halt the last action without losing your connection to the system. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

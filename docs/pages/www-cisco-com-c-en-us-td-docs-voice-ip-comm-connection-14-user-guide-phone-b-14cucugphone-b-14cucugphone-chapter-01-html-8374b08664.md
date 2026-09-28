@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-user-guide-phone-b-14cucugphone-b-14cucugphone-chapter-01-html-8374b08664
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/user/guide/phone/b_14cucugphone/b_14cucugphone_chapter_01.html
-retrieved_at: 2026-08-21T00:34:26.293267+00:00
+retrieved_at: 2026-09-28T11:55:51.917118+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 14)
@@ -81,3 +81,7 @@ Your Connection administrator determines whether the voice-recognition option is
 | Note | Some TTY phones (text phones) do not have the capability to send the appropriate tones. In this case, TTY users may need to
                                        use the phone keypad when navigating the Connection conversation. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

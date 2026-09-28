@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-0101-2561cc7323
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_010100.html
-retrieved_at: 2026-08-21T00:24:32.978779+00:00
+retrieved_at: 2026-09-28T11:51:28.349960+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -3481,3 +3481,7 @@ In addition to
 | Reply | Allows you to reply to a video message in audio format only. |
 | Reply to all | Allows you to reply to a video message to all the recipients in
                                        					 audio format only. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

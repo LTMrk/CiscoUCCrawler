@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-os-administration-guide-b-14cucosagx-b-14cucosagx-chapter-011--421c39398e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/os_administration/guide/b_14cucosagx/b_14cucosagx_chapter_011.html
-retrieved_at: 2026-08-17T03:42:41.759015+00:00
+retrieved_at: 2026-09-28T11:54:28.949225+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Unity Connection Release 14
@@ -506,3 +506,7 @@ On a Cisco Unity Connection server, if you changed the date or
 | Step 3 | Click Save . |
 | Step 4 | On a Cisco Unity Connection server, if you changed the date or
                                        			 if you changed the time by more than two minutes, use the CLI command utils system restart to restart the server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-12x-user-guide-phone-b-12xcucugphone-b-12xcucugphone-chapter-0111-4341f43d97
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/12x/user/guide/phone/b_12xcucugphone/b_12xcucugphone_chapter_0111.html
-retrieved_at: 2026-08-21T00:25:39.350040+00:00
+retrieved_at: 2026-09-28T11:51:57.024022+00:00
 ---
 
 User Guide for the Cisco Unity Connection Phone Interface (Release 12.x)
@@ -187,3 +187,7 @@ Follow the prompts to set up and join an immediate Cisco Unified MeetingPlace me
 |---|---|
 | Step 2 | When Connection asks, "What do you want to do," say: " Start Meeting ." |
 | Step 3 | Follow the prompts to set up and join an immediate Cisco Unified MeetingPlace meeting for the current time. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

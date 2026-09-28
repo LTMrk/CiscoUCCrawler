@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-14-integration-cucm-sip-b-14cucintcucmsip-b-14cucintcucmsip-chapt-3b0b9d9209
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/14/integration/cucm_sip/b_14cucintcucmsip/b_14cucintcucmsip_chapter_01.html
-retrieved_at: 2026-08-17T03:37:54.702733+00:00
+retrieved_at: 2026-09-28T11:53:16.377342+00:00
 ---
 
 Cisco Unified Communications Manager SIP Integration Guide for Cisco Unity Connection Release 14
@@ -206,3 +206,7 @@ If the functioning Unity Connection server does not have voice messaging ports f
                                           (voice messaging ports that are not set to Answer Calls). For example, if a voice messaging port is set only to Send MWI Requests,
                                           do not send calls to it. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
