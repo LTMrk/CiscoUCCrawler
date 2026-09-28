@@ -10,7 +10,7 @@ tags: Features: Hot Desking Sign-in via Voice Portal
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.440033+00:00
+retrieved_at: 2026-09-28T16:31:32.586954+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/features/hotDesking/guest

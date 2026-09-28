@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.382639+00:00
+retrieved_at: 2026-09-28T16:31:32.538723+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/emergencyCallNotification

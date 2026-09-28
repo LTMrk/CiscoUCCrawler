@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-15-cucm-b-reporting-billing-administration-gu-71a68c5321
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/15/cucm_b_reporting-billing-administration-guide-15/cucm_b_reporting-and-billing-administration-guide_chapter_01100.html
-retrieved_at: 2026-08-17T00:25:50.655128+00:00
+retrieved_at: 2026-09-28T16:32:42.316830+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -378,3 +378,7 @@ CDRs enabled, CMRs enabled
 | CDRs enabled, CMRs disabled | 6.99 | 12.10 | 13.18 | 8.57 |
 | CDRs disabled, CMRs enabled | 6.38 | 11.24 | 3.43 | 0.86 |
 | CDRs enabled, CMRs enabled | 7.71 | 13.04 | 24.92 | 17.02 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

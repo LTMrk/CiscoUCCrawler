@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su7-cucm-b-cli-reference-guide-release1251su7-cucm-b-cli--6d16c332a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU7/cucm_b_cli_reference-guide_release1251SU7/cucm_b_cli_reference_guide_release_1401_chapter_01001.html
-retrieved_at: 2026-08-16T23:56:11.868610+00:00
+retrieved_at: 2026-09-28T16:38:12.589019+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU7-SU8
@@ -9070,3 +9070,7 @@ admin:utils ucmgmt proxy list
 | Parameters | Description |
 |---|---|
 | organization_id | Organization ID can be found on the Control Hub. This is a mandatory field. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

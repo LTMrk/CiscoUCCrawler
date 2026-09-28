@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.436217+00:00
+retrieved_at: 2026-09-28T16:31:32.583887+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/cxEssentials/screenPop

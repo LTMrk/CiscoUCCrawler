@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.254354+00:00
+retrieved_at: 2026-09-28T16:31:32.373195+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/aiReceptionists/voices

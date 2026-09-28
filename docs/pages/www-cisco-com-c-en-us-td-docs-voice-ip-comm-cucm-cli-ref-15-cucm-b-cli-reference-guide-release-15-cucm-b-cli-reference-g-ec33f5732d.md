@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-15-cucm-b-cli-reference-guide-release-15-cucm-b-cli-reference-g-ec33f5732d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15/cucm_b_cli_reference_guide_release_1401_preface_00.html
-retrieved_at: 2026-08-16T23:52:36.141688+00:00
+retrieved_at: 2026-09-28T16:40:16.174860+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 15 and SUs
@@ -87,3 +87,7 @@ For the latest IM and Presence Service and Unified Communications Manager requir
 | Show commands | Lists all commands relating to the display of specified information. |
 | Unset commands | Lists all commands relating to the disabling of specified network and ipsec options. |
 | Utils commands | Lists all commands relating to utilities. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

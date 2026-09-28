@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-14su2-cucm-b-cli-reference-guide-release-14su2-cucm-m-new-and-c-2796be9612
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/14SU2/cucm_b_cli_reference_guide_release_14su2/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-16T23:53:37.382301+00:00
+retrieved_at: 2026-09-28T16:39:25.403252+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 14 and SUs
@@ -168,3 +168,7 @@ March 31, 2021
 | utils system upgrade dataexport initiate | Introduced the utils system upgrade dataexport initiate command | utils system upgrade dataexport initiate | March 31, 2021 |
 | utils system upgrade dataexport status | Introduced the utils system upgrade dataexport status command | utils system upgrade dataexport status | March 31, 2021 |
 | utils system upgrade dataexport cancel | Introduced the utils system upgrade dataexport cancel command | utils system upgrade dataexport cancel | March 31, 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

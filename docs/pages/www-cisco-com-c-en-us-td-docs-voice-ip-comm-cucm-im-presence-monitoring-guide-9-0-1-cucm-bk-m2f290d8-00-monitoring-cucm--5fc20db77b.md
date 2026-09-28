@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-monitoring-guide-9-0-1-cucm-bk-m2f290d8-00-monitoring-cucm--5fc20db77b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_0_1/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90_chapter_011.html
-retrieved_at: 2026-08-21T01:27:11.826058+00:00
+retrieved_at: 2026-09-28T16:40:44.710213+00:00
 ---
 
 Monitoring Cisco Unified Communications Manager IM and Presence, Release 9.0(1)
@@ -692,3 +692,7 @@ The Total Text Conferencing Rooms performance counter contains the total number 
 
 | Note | You can find the CSV files by navigating down the directory structure to cm/log/ris/csv .  This unusual directory structure is necessary as it is possible to use Unified RTMT to archive many different logs in one query. It is possible to use Trace and Log collection to archive every log the server generates. Each log will have its own specific path for the sake of organization. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

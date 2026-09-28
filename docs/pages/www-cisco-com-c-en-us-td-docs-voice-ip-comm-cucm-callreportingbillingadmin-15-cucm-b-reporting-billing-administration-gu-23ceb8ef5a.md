@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-callreportingbillingadmin-15-cucm-b-reporting-billing-administration-gu-23ceb8ef5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/callReportingBillingAdmin/15/cucm_b_reporting-billing-administration-guide-15/cucm_b_reporting-and-billing-administration-guide_chapter_011.html
-retrieved_at: 2026-08-17T00:25:15.264450+00:00
+retrieved_at: 2026-09-28T16:32:38.673134+00:00
 ---
 
 Call Reporting and Billing Administration Guide for Cisco Unified Communications Manager, Release 15 and SUs
@@ -2798,3 +2798,31 @@ The following figure displays sample output of the CDR Error report in PDF forma
 | No of Error CDRs | The total number of CDR records that were not processed during the CAR load because of an error. |
 | No of Valid CDRs | The total number of CDR records that were successfully loaded into CAR. |
 | % of Error CDRs | The percentage of failed CDR data records out of all the CDR data records to be loaded. |
+
+## Figuras
+
+![Figure 1. QoS Detail Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280493.tif/_jcr_content/renditions/280493.jpg)
+
+![Figure 2. QoS Summary Report in PDF Format](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/210001-220000/210001-211000/210699.tif/_jcr_content/renditions/210699.jpg)
+
+![Figure 3. QoS by Gateways Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280492.tif/_jcr_content/renditions/280492.jpg)
+
+![Figure 4. QoS by Call Types Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280491.tif/_jcr_content/renditions/280491.jpg)
+
+![Figure 5. Traffic Summary Report Results](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280503.tif/_jcr_content/renditions/280503.jpg)
+
+![Figure 6. Traffic Summary By Phone Number Report Results](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/198001-199000/198891.eps/_jcr_content/renditions/198891.jpg)
+
+![Figure 7. Authorization Code Name Call Details Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280482.tif/_jcr_content/renditions/280482.jpg)
+
+![Figure 8. Authorization Level Call Details Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280521.tif/_jcr_content/renditions/280521.jpg)
+
+![Figure 9. Client Matter Code Details Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280483.tif/_jcr_content/renditions/280483.jpg)
+
+![Figure 10. Malicious Calls Detail Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280489.tif/_jcr_content/renditions/280489.jpg)
+
+![Figure 11. Precedence Call Summary Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280490.tif/_jcr_content/renditions/280490.jpg)
+
+![Figure 12. CDR Error Report](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/280001-281000/280480.tif/_jcr_content/renditions/280480.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

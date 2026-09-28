@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su2-cucm-b-command-line-interface-reference-guide-1251su2-949e8ea3d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU2/cucm_b_command-line-interface-reference-guide-1251Su2/cucm_b_command-line-interface-reference-guide-1251Su2_chapter_01001.html
-retrieved_at: 2026-08-17T00:00:25.270761+00:00
+retrieved_at: 2026-09-28T16:34:10.433078+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU2
@@ -9078,3 +9078,7 @@ utils ucmgmt agent status
 | Parameters | Description |
 |---|---|
 | organization_id | Organization ID can be found on the Control Hub. This is a mandatory field. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

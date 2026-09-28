@@ -200,10 +200,10 @@
     "sha": "a4083af3ea50c15687380dfc220a1d9a270731c3"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-09-27T10:51:19.619529+00:00",
+    "actualizado": "2026-09-28T16:31:32.741095+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "45d4af5e41114fbc8aae79ddf3f79cce3d337509fcf7e78532d22ca22665a535",
+    "content_sha": "830153fcef0d25f22c922c520554a8ad8d3b0211697327a4ff3190161d7d956b",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -653,11 +653,13 @@
       "GET /telephony/config/people/{personId}/agent/availableCallerIds": "webex-cloud-calling-get-telephony-config-people-personid-agent-availablecallerids",
       "GET /telephony/config/people/{personId}/agent/callerId": "webex-cloud-calling-get-telephony-config-people-personid-agent-callerid",
       "GET /telephony/config/people/{personId}/anonymousCallReject": "webex-cloud-calling-get-telephony-config-people-personid-anonymouscallreject",
+      "GET /telephony/config/people/{personId}/answerSettings": "webex-cloud-calling-get-telephony-config-people-personid-answersettings",
       "GET /telephony/config/people/{personId}/applications/availableMembers": "webex-cloud-calling-get-telephony-config-people-personid-applications-availablemembers",
       "GET /telephony/config/people/{personId}/applications/availableMembers/count": "webex-cloud-calling-get-telephony-config-people-personid-applications-availablemembers-count",
       "GET /telephony/config/people/{personId}/applications/members": "webex-cloud-calling-get-telephony-config-people-personid-applications-members",
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": "webex-cloud-calling-get-telephony-config-people-personid-applications-applicationid-availablemembers",
       "GET /telephony/config/people/{personId}/applications/{applicationId}/members": "webex-cloud-calling-get-telephony-config-people-personid-applications-applicationid-members",
+      "GET /telephony/config/people/{personId}/availablePreferredAnswerEndpoints": "webex-cloud-calling-get-telephony-config-people-personid-availablepreferredanswerendpoints",
       "GET /telephony/config/people/{personId}/callCaptions": "webex-cloud-calling-get-telephony-config-people-personid-callcaptions",
       "GET /telephony/config/people/{personId}/callForwarding/availableNumbers": "webex-cloud-calling-get-telephony-config-people-personid-callforwarding-availablenumbers",
       "GET /telephony/config/people/{personId}/callIntercept/availableNumbers": "webex-cloud-calling-get-telephony-config-people-personid-callintercept-availablenumbers",
@@ -756,6 +758,8 @@
       "GET /telephony/config/virtualLines/{virtualLineId}": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid",
       "GET /telephony/config/virtualLines/{virtualLineId}/agent/availableCallerIds": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-agent-availablecallerids",
       "GET /telephony/config/virtualLines/{virtualLineId}/agent/callerId": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-agent-callerid",
+      "GET /telephony/config/virtualLines/{virtualLineId}/answerSettings": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-answersettings",
+      "GET /telephony/config/virtualLines/{virtualLineId}/availablePreferredAnswerEndpoints": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-availablepreferredanswerendpoints",
       "GET /telephony/config/virtualLines/{virtualLineId}/bargeIn": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-bargein",
       "GET /telephony/config/virtualLines/{virtualLineId}/callBridge": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-callbridge",
       "GET /telephony/config/virtualLines/{virtualLineId}/callForwarding": "webex-cloud-calling-get-telephony-config-virtuallines-virtuallineid-callforwarding",
@@ -789,6 +793,8 @@
       "GET /telephony/config/voicemailGroups": "webex-cloud-calling-get-telephony-config-voicemailgroups",
       "GET /telephony/config/workspaces/availableNumbers": "webex-cloud-calling-get-telephony-config-workspaces-availablenumbers",
       "GET /telephony/config/workspaces/{workspaceId}/anonymousCallReject": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-anonymouscallreject",
+      "GET /telephony/config/workspaces/{workspaceId}/answerSettings": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-answersettings",
+      "GET /telephony/config/workspaces/{workspaceId}/availablePreferredAnswerEndpoints": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-availablepreferredanswerendpoints",
       "GET /telephony/config/workspaces/{workspaceId}/bargeIn": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-bargein",
       "GET /telephony/config/workspaces/{workspaceId}/callBridge": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-callbridge",
       "GET /telephony/config/workspaces/{workspaceId}/callForwarding/availableNumbers": "webex-cloud-calling-get-telephony-config-workspaces-workspaceid-callforwarding-availablenumbers",
@@ -1266,6 +1272,7 @@
       "PUT /telephony/config/people/{personId}": "webex-cloud-calling-put-telephony-config-people-personid",
       "PUT /telephony/config/people/{personId}/agent/callerId": "webex-cloud-calling-put-telephony-config-people-personid-agent-callerid",
       "PUT /telephony/config/people/{personId}/anonymousCallReject": "webex-cloud-calling-put-telephony-config-people-personid-anonymouscallreject",
+      "PUT /telephony/config/people/{personId}/answerSettings": "webex-cloud-calling-put-telephony-config-people-personid-answersettings",
       "PUT /telephony/config/people/{personId}/applications/members": "webex-cloud-calling-put-telephony-config-people-personid-applications-members",
       "PUT /telephony/config/people/{personId}/applications/{applicationId}/members": "webex-cloud-calling-put-telephony-config-people-personid-applications-applicationid-members",
       "PUT /telephony/config/people/{personId}/callCaptions": "webex-cloud-calling-put-telephony-config-people-personid-callcaptions",
@@ -1321,6 +1328,7 @@
       "PUT /telephony/config/virtualExtensions/{extensionId}": "webex-cloud-calling-put-telephony-config-virtualextensions-extensionid",
       "PUT /telephony/config/virtualLines/{virtualLineId}": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid",
       "PUT /telephony/config/virtualLines/{virtualLineId}/agent/callerId": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-agent-callerid",
+      "PUT /telephony/config/virtualLines/{virtualLineId}/answerSettings": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-answersettings",
       "PUT /telephony/config/virtualLines/{virtualLineId}/bargeIn": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-bargein",
       "PUT /telephony/config/virtualLines/{virtualLineId}/callBridge": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-callbridge",
       "PUT /telephony/config/virtualLines/{virtualLineId}/callForwarding": "webex-cloud-calling-put-telephony-config-virtuallines-virtuallineid-callforwarding",
@@ -1347,6 +1355,7 @@
       "PUT /telephony/config/voicemail/settings": "webex-cloud-calling-put-telephony-config-voicemail-settings",
       "PUT /telephony/config/workspaces/{placeId}/voicemail/passcode": "webex-cloud-calling-put-telephony-config-workspaces-placeid-voicemail-passcode",
       "PUT /telephony/config/workspaces/{workspaceId}/anonymousCallReject": "webex-cloud-calling-put-telephony-config-workspaces-workspaceid-anonymouscallreject",
+      "PUT /telephony/config/workspaces/{workspaceId}/answerSettings": "webex-cloud-calling-put-telephony-config-workspaces-workspaceid-answersettings",
       "PUT /telephony/config/workspaces/{workspaceId}/bargeIn": "webex-cloud-calling-put-telephony-config-workspaces-workspaceid-bargein",
       "PUT /telephony/config/workspaces/{workspaceId}/callBridge": "webex-cloud-calling-put-telephony-config-workspaces-workspaceid-callbridge",
       "PUT /telephony/config/workspaces/{workspaceId}/callPolicies": "webex-cloud-calling-put-telephony-config-workspaces-workspaceid-callpolicies",
@@ -1389,7 +1398,7 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "718512a523bdca121ad40a9574d05ef9dedd02da"
+    "sha": "ee25873e16ca4b6761950ed529aa1933669fd731"
   },
   "webex-contact-center.json": {
     "actualizado": "2026-09-27T10:51:20.014497+00:00",

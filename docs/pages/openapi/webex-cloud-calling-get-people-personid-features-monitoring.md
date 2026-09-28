@@ -10,7 +10,7 @@ tags: Person Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.507519+00:00
+retrieved_at: 2026-09-28T16:31:32.644261+00:00
 ---
 
 # GET /people/{personId}/features/monitoring

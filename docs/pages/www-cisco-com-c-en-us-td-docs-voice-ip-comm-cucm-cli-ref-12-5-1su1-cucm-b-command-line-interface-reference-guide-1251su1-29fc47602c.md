@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su1-cucm-b-command-line-interface-reference-guide-1251su1-29fc47602c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU1/cucm_b_command-line-interface-reference-guide-1251Su1/cucm_b_command-line-interface-reference-guide-1251Su1_chapter_011.html
-retrieved_at: 2026-08-17T00:02:48.829080+00:00
+retrieved_at: 2026-09-28T16:33:29.130368+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU1
@@ -1551,3 +1551,7 @@ Applies to: Unified Communications Manager , Cisco Unity Connection
 
 | Caution | Do not use this command to view binary files because this can corrupt the terminal session. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

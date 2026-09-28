@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-cucm-b-install-guide-cucm-imp-1251-cucm-b-install-guide--481f9ff9d6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/cucm_b_install-guide-cucm-imp-1251/cucm_b_install-guide-cucm-imp-1251_chapter_01.html
-retrieved_at: 2026-08-17T00:07:05.770755+00:00
+retrieved_at: 2026-09-28T16:41:13.420431+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)
@@ -297,3 +297,7 @@ To look up each
                                           				DNS_name . |
 | Step 3 | To look up each
                                        			 server by IP address, enter nslookup IP_address . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

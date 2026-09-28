@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su5-cucm-b-cli-reference-guide-release1251su5-cucm-b-cli--16a432bf33
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU5/cucm_b_cli_reference-guide_release1251SU5/cucm_b_cli_reference_guide_release_1401_chapter_01.html
-retrieved_at: 2026-08-16T23:57:10.165606+00:00
+retrieved_at: 2026-09-28T16:36:11.849998+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU5
@@ -244,3 +244,7 @@ At the CLI prompt, enter quit . If you are logged in remotely, you get logged
 | Note | If you execute the command utils system switch-version and enter Yes to start the process, entering Ctrl-C exits the command but does not stop the
                                           			 switch-version process. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

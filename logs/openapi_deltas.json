@@ -1,7 +1,19 @@
 {
-  "run_at": "2026-09-28T12:32:01.903394+00:00",
-  "added": [],
+  "run_at": "2026-09-28T16:31:32.744520+00:00",
+  "added": [
+    "Webex Cloud Calling: GET /telephony/config/people/{personId}/answerSettings",
+    "Webex Cloud Calling: PUT /telephony/config/people/{personId}/answerSettings",
+    "Webex Cloud Calling: GET /telephony/config/people/{personId}/availablePreferredAnswerEndpoints",
+    "Webex Cloud Calling: GET /telephony/config/virtualLines/{virtualLineId}/answerSettings",
+    "Webex Cloud Calling: PUT /telephony/config/virtualLines/{virtualLineId}/answerSettings",
+    "Webex Cloud Calling: GET /telephony/config/virtualLines/{virtualLineId}/availablePreferredAnswerEndpoints",
+    "Webex Cloud Calling: GET /telephony/config/workspaces/{workspaceId}/answerSettings",
+    "Webex Cloud Calling: PUT /telephony/config/workspaces/{workspaceId}/answerSettings",
+    "Webex Cloud Calling: GET /telephony/config/workspaces/{workspaceId}/availablePreferredAnswerEndpoints"
+  ],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-cloud-calling.json"
+  ]
 }

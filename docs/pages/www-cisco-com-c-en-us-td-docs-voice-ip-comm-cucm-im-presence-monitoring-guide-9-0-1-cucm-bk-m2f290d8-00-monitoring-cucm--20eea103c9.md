@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-monitoring-guide-9-0-1-cucm-bk-m2f290d8-00-monitoring-cucm--20eea103c9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_0_1/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90_chapter_01.html
-retrieved_at: 2026-08-21T01:27:03.111686+00:00
+retrieved_at: 2026-09-28T16:40:36.368875+00:00
 ---
 
 Monitoring Cisco Unified Communications Manager IM and Presence, Release 9.0(1)
@@ -258,3 +258,7 @@ This alert occurs when there is a mismatch in the system version among all serve
 
 | Note | Unified Operations Manager maintains its own set of alerts that are related to IM and Presence Service . Some of these mirror existing native alerts. For example, the native alert LowAvailableVirtualMemory and the Unified Operations Manager alert InsufficientFreeVirtualMemory both alert on the same item and are based on the same data, yet the default threshold is different on Unified Operations Manager (< 15%) and Unified RTMT (< 25%). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

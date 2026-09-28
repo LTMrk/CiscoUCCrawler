@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-15-cucm-b-cli-reference-guide-release-15-cucm-b-cli-reference-g-2e7cc255ea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/15/cucm_b_cli_reference_guide_release_15/cucm_b_cli_reference_guide_release_1401_chapter_010.html
-retrieved_at: 2026-08-16T23:52:49.157713+00:00
+retrieved_at: 2026-09-28T16:39:40.587919+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 15 and SUs
@@ -332,3 +332,7 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
 | force | Causes the process to stop. |
 | terminate | Causes the operating system to terminate the process. |
 | crash | Crashes the process and produces a crash dump. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

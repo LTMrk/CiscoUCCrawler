@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su4-cucm-b-command-line-interface-reference-guide-125su4--f190a05f5b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU4/cucm_b_command-line-interface-reference-guide-125su4/cucm_b_command-line-interface-reference-guide-1251Su2_chapter_0110.html
-retrieved_at: 2026-08-16T23:58:29.269405+00:00
+retrieved_at: 2026-09-28T16:35:57.728609+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU4
@@ -4986,3 +4986,7 @@ Applies to: Unified Communications Manager , IM and Presence Service on Unified 
                                        					 working directory for TFTP files. |
 | directory | Represents
                                        					 the current working directory. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

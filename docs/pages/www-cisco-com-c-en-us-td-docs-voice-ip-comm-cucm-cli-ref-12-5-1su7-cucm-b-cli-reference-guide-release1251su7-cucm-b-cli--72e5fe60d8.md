@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su7-cucm-b-cli-reference-guide-release1251su7-cucm-b-cli--72e5fe60d8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU7/cucm_b_cli_reference-guide_release1251SU7/cucm_b_cli_reference_guide_release_1401_chapter_0101.html
-retrieved_at: 2026-08-16T23:55:44.945400+00:00
+retrieved_at: 2026-09-28T16:38:16.416776+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU7-SU8
@@ -446,3 +446,7 @@ admin: run pe sql ttsoft select * from presenceeventtable
 
 | Note | Users with ordinary privileges can run read-only SQL commands. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

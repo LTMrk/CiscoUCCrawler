@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su3-cucm-b-command-line-interface-reference-guide-1251su3-4f0989e5b3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU3/cucm_b_command-line-interface-reference-guide_1251su3/cucm_b_command-line-interface-reference-guide-1251Su2_chapter_0100.html
-retrieved_at: 2026-08-16T23:59:01.720496+00:00
+retrieved_at: 2026-09-28T16:34:47.239377+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU3
@@ -452,3 +452,7 @@ Applies to: Cisco Unified Communications Manager, Cisco Unity Connection.
 
 | Note | Export restricted feature name for Unified Communications Manager is <CUCM_Export_Restricted_Authorization_Key> Export restricted feature name for Cisco Unity Connection is <CUC_Export_Restricted_Authorization_Key> |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

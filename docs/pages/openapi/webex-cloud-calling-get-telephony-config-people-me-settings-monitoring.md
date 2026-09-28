@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.309505+00:00
+retrieved_at: 2026-09-28T16:31:32.426576+00:00
 ---
 
 # GET /telephony/config/people/me/settings/monitoring

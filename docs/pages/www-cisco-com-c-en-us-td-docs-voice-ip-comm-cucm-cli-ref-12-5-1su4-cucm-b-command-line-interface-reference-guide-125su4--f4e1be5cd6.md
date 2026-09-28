@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-cli-ref-12-5-1su4-cucm-b-command-line-interface-reference-guide-125su4--f4e1be5cd6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/cli_ref/12_5_1SU4/cucm_b_command-line-interface-reference-guide-125su4/cucm_b_command-line-interface-reference-guide-1251Su2_chapter_0111.html
-retrieved_at: 2026-08-16T23:58:36.911863+00:00
+retrieved_at: 2026-09-28T16:36:04.353047+00:00
 ---
 
 Command Line Interface Reference Guide for Cisco Unified Communications Solutions, Release 12.5(1)SU4
@@ -6556,3 +6556,7 @@ Applies to Unified Communications Manager and IM and Presence Service
 |---|---|
 | number | Specifies
                                        					 the number of most recent logins to display. The default is 20. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

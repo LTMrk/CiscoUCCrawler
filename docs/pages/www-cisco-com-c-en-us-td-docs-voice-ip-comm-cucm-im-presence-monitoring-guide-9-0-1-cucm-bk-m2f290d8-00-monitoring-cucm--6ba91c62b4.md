@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-im-presence-monitoring-guide-9-0-1-cucm-bk-m2f290d8-00-monitoring-cucm--6ba91c62b4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/monitoring_guide/9_0_1/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90/CUCM_BK_M2F290D8_00_monitoring-cucm-presence-guide-90_chapter_010.html
-retrieved_at: 2026-08-21T01:27:07.160147+00:00
+retrieved_at: 2026-09-28T16:40:39.862646+00:00
 ---
 
 Monitoring Cisco Unified Communications Manager IM and Presence, Release 9.0(1)
@@ -114,3 +114,7 @@ If the process consuming CPU is not in the preceding table, consult the followin
 | ttroute | Cisco Route Datastore |
 | ttsoft | Cisco Presence Datastore |
 | xcpConfigManager | Cisco XCP Config Manager |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

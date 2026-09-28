@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-ipchange-cucm-b-change-ip-address-hostname-1251-cucm-b-c-0c938f7e5c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/ipchange/cucm_b_change-ip-address-hostname-1251/cucm_b_change-ip-address-hostname-1251_chapter_00.html
-retrieved_at: 2026-08-21T01:27:35.963633+00:00
+retrieved_at: 2026-09-28T16:41:30.992947+00:00
 ---
 
 Changing the IP Address and Hostname for Cisco Unified Communications Manager and IM and Presence Service, Release 12.5(1)
@@ -114,3 +114,9 @@ You must complete all pre-change tasks and system health checks
                                           			 before you make these changes, and you must complete the post-change tasks
                                           			 after you make any of these changes. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Unified Communications Manager Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/351001-352000/351882.eps/_jcr_content/renditions/351882.jpg)
+
+![Figure 2. IM and Presence Service Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346990.eps/_jcr_content/renditions/346990.jpg)

@@ -10,7 +10,7 @@ tags: Call Controls, External Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.262881+00:00
+retrieved_at: 2026-09-28T16:31:32.381856+00:00
 ---
 
 # POST /telephony/calls/retrieve

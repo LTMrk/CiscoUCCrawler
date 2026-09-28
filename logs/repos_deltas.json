@@ -1,5 +1,11 @@
 {
- "added": [],
- "modified": [],
+ "added": [
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/features/contact-owner-change-refactor.md"
+ ],
+ "modified": [
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/CONTRACTS.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/src/metrics/ai-docs/metrics-spec.md",
+  "webex/webex-js-sdk/packages/@webex/contact-center/src/services/task/ai-docs/task-spec.md"
+ ],
  "removed": []
 }
