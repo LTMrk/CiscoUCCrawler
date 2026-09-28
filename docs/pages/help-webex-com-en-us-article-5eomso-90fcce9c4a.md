@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-5eomso-90fcce9c4a
 source_url: https://help.webex.com/en-us/article/5eomso
-retrieved_at: 2026-09-07T13:04:05.027467+00:00
+retrieved_at: 2026-09-28T04:44:45.853824+00:00
 ---
 
 ## NFC onboarding data
@@ -380,3 +380,7 @@ Wi-Fi_User_ID_1_:<user_id>
 Wi-Fi_Password_1_:<user_password>
 Security_Mode_1_:Auto
 Frequency_Band_1_:5 GHz | Signing Encryption + Signing | Unified CM |
+
+## Figuras
+
+![NFC icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/487001-488000/487988.png)

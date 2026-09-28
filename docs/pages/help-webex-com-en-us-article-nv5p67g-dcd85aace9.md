@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nv5p67g-dcd85aace9
 source_url: https://help.webex.com/en-us/article/nv5p67g
-retrieved_at: 2026-09-01T21:38:16.154505+00:00
+retrieved_at: 2026-09-28T04:49:04.842661+00:00
 ---
 
 Hybrid
@@ -595,3 +595,23 @@ Mobile and Remote Access users
 |---|---|---|
 | Calendar Service users (On-premises connector to Exchange) | 500 users | 500 users |
 | Mobile and Remote Access users | 100 | 100 |
+
+## Figuras
+
+![Hybrid Calendar User Capacity by Cluster Type for a Dedicated Cluster](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426308.jpg)
+
+![Hybrid Calendar On-Premises Exchange and Office 365 User Capacity](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426309.jpg)
+
+![Assignment](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/457001-458000/457822.jpg)
+
+![One Node in Cluster A Becomes Unavailable](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/457001-458000/457824.jpg)
+
+![Two Nodes in Cluster A Become Unavailable](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/457001-458000/457825.jpg)
+
+![Recovery and User Redistribution Across Active Nodes](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/457001-458000/457826.jpg)
+
+![Impact of Loss of Data Center](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/457001-458000/457827.jpg)
+
+![Hybrid Message User Scale on Dedicated Connector Host Clusters](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/430001-431000/430394.jpg)
+
+![Coresidency Example: Hybrid Message and Calendar Service User Scale by Cluster Type](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/431001-432000/431574.jpg)

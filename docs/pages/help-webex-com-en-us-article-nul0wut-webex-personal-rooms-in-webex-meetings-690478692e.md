@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nul0wut-webex-personal-rooms-in-webex-meetings-690478692e
 source_url: https://help.webex.com/en-us/article/nul0wut/Webex-Personal-Rooms-in-Webex-Meetings
-retrieved_at: 2026-09-07T12:42:04.761093+00:00
+retrieved_at: 2026-09-28T04:48:53.855430+00:00
 ---
 
 Your Webex Personal Room used with Meetings and Webex App
@@ -46,3 +46,7 @@ A cohost is someone who has permission to host your scheduled meetings or Person
 Make another participant the host and leave your Webex Personal Room meeting
 
 If you are the host and want to leave the room without ending the meeting, make another participant the host.
+
+## Figuras
+
+![starting a meeting](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/430001-431000/430142.jpg)

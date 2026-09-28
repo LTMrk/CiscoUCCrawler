@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-n0cswhcb-configure-advanced-branding-customizations-94d4c64832
 source_url: https://help.webex.com/en-us/article/n0cswhcb/Configure-Advanced-Branding-Customizations
-retrieved_at: 2026-09-07T12:42:54.236798+00:00
+retrieved_at: 2026-09-28T04:46:11.676141+00:00
 ---
 
 Partner administrators can use Advanced Branding Customizations to customize how Webex App looks for the customer organizations that they manage. Partner administrators can customize the following settings to ensure that Webex App reflects their company brand and identity:
@@ -746,3 +746,15 @@ Add Your Company Branding to Webex —Customer administrators can use this artic
                         operation, phone number for urgent support, etc.). Help site —The URL for your customer's knowledge
                         base, where users can access self-help resources. You may use internal-only URLs for the Contact Support URL and Help Site URL. To access them the user must be connected to the Enterprise network or connected through a VPN. |
 | 4 | Click Save . |
+
+## Figuras
+
+![Sample Desktop Color Palette](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/465001-466000/465912.jpg)
+
+![Sample Tablet and Mobile Palette](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/465001-466000/465913.jpg)
+
+![The Customizable "Fineprint" Links, and the custom problem report link, on the About page](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/454001-455000/454360.png)
+
+![The Customizable Help Link at Bottom of Side Menu](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/454001-455000/454361.png)
+
+![Help and support information example in Webex App for end users](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/483001-484000/483365.jpg)

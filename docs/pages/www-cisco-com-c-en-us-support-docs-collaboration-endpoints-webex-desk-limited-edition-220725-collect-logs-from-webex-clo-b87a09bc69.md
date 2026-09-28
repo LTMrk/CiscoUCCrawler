@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-limited-edition-220725-collect-logs-from-webex-clo-b87a09bc69
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.html
-retrieved_at: 2026-08-21T12:39:50.299602+00:00
+retrieved_at: 2026-09-28T04:51:40.754791+00:00
 ---
 
 Collect Logs from Webex Cloud Video Devices
@@ -136,3 +136,53 @@ Cisco Escalation Engineer
 |---|---|---|
 | 2.0 | 08-Jul-2024 | Initial Release |
 | 1.0 | 11-Aug-2023 | Initial Release |
+
+## Figuras
+
+![Control Hub Login Screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-00.jpeg)
+
+![Control Hub Devices](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-01.jpeg)
+
+![Control Hub Local Device Controls](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-02.jpeg)
+
+![System Logs Tab](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-03.jpeg)
+
+![Extended Logging Options](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-04.jpeg)
+
+![Log Download Options](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-05.jpeg)
+
+![Packet Captures Section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-06.jpeg)
+
+![Device Login Screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-07.jpeg)
+
+![System Logs Tab](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-08.jpeg)
+
+![Extended Logging Options](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-09.jpeg)
+
+![Log Download Options](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-10.jpeg)
+
+![Packet Captures Section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-11.jpeg)
+
+![Control Hub Login Screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-12.jpeg)
+
+![Control Hub Devices](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-13.jpeg)
+
+![Device Logs Support Section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-14.jpeg)
+
+![Generate Logs Button](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-15.jpeg)
+
+![Download Logs in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-16.jpeg)
+
+![Device home screen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-17.png)
+
+![Settings side window](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-18.png)
+
+![Device settings menu](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-19.png)
+
+![Extended logging option](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-20.png)
+
+![Send logs and feedback ID](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi-21.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

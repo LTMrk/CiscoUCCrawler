@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-70-panorama-217262-how-to-convert-a-webex-room-70d-6405087495
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html
-retrieved_at: 2026-08-21T12:39:29.439208+00:00
+retrieved_at: 2026-09-28T04:51:49.010560+00:00
 ---
 
 How to Convert a Webex Room 70D G2 to a Webex Room 70D Panorama
@@ -123,3 +123,9 @@ Oscar Monroy
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Jul-2021 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

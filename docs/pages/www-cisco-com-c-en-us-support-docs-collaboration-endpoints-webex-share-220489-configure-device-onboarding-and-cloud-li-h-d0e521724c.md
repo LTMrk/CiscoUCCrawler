@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-share-220489-configure-device-onboarding-and-cloud-li-h-d0e521724c
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.html
-retrieved_at: 2026-08-21T12:48:56.798714+00:00
+retrieved_at: 2026-09-28T04:52:06.318052+00:00
 ---
 
 Configure Device Onboarding and Cloud Linking for Webex Edge for Devices
@@ -155,3 +155,41 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 07-Jun-2023 | Initial Release |
+
+## Figuras
+
+![Download Webex Device Connector](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-00.png)
+
+![Install Webex Device Connector](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-01.png)
+
+![Install Webex Device Connector](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-02.png)
+
+![Sign in](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-03.png)
+
+![Select WDC service](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-04.png)
+
+![Select pull users from CUCM](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-05.png)
+
+![WDC connecting to cucm](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-06.png)
+
+![Information pulled from CUCM](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-07.png)
+
+![EP SIP Configuration](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-08.png)
+
+![Provisioning Status](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-09.png)
+
+![Provisioning Configuration](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-10.png)
+
+![Linked state](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-11.png)
+
+![Status on EP](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-12.png)
+
+![WDC Upgrade](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-13.png)
+
+![Downloading Webex Edge for devices](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-14.png)
+
+![Install new connector](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li-15.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

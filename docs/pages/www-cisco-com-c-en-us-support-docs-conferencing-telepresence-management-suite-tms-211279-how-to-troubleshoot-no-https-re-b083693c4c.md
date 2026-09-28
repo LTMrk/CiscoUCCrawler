@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211279-how-to-troubleshoot-no-https-re-b083693c4c
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.html
-retrieved_at: 2026-08-21T06:29:26.392750+00:00
+retrieved_at: 2026-09-28T04:52:31.844165+00:00
 ---
 
 How to Troubleshoot "No HTTPS response" Error on TMS After TC/CE Endpoints Upgrade
@@ -174,3 +174,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

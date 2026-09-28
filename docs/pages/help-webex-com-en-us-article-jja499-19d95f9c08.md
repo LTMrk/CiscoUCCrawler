@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-jja499-19d95f9c08
 source_url: https://help.webex.com/en-us/article/jja499
-retrieved_at: 2026-09-07T10:36:45.837919+00:00
+retrieved_at: 2026-09-28T04:45:45.151592+00:00
 ---
 
 Important items for Hybrid Services deployments
@@ -272,3 +272,17 @@ The Exchange impersonation account is Microsoft's recommended method for this ta
 For additional security, follow the steps in the Deployment Guide for Cisco Webex Hybrid Calendar Service to enable TLS in order to secure EWS connections on the wire.
 
 For additional security, follow the steps in Deploy Expressway Calendar Connector for Microsoft Exchange to enable TLS in order to secure EWS connections on the wire.
+
+## Figuras
+
+![Diagram showing the firewall traversal architecture](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416668.jpg)
+
+![Diagram of TLS handshake high-level overview](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416669.jpg)
+
+![Diagram of TLS handshake with mutual authentication where both TLS client and TLS server check the certificate of the other peer](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416670.jpg)
+
+![Verify Domain window with message stating "you must copy and paste the DNS verification token to the TXT record section to prove that you own the domain" and button ti verify](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416671.jpg)
+
+![Edit record set window with TXT record value populated](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416672.jpg)
+
+![cloud performing TXT DNS lookup with code](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/416001-417000/416673.jpg)

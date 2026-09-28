@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-server-200162-troubleshoot-telepresence-endpoint-7a2424575b
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.html
-retrieved_at: 2026-08-21T06:29:30.311744+00:00
+retrieved_at: 2026-09-28T04:52:14.605684+00:00
 ---
 
 Troubleshoot Telepresence Endpoint Added to TMS Changing to Behind the Firewall Status Automatically
@@ -97,3 +97,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Apr-2016 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

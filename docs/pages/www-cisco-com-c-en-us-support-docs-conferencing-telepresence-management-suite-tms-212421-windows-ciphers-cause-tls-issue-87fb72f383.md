@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212421-windows-ciphers-cause-tls-issue-87fb72f383
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.html
-retrieved_at: 2026-08-21T06:29:21.857981+00:00
+retrieved_at: 2026-09-28T04:52:44.556764+00:00
 ---
 
 Windows Ciphers Cause TLS Issue between TMS and OpenSSL Based Devices
@@ -69,3 +69,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

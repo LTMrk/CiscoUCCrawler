@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221681-recover-cloud-reg-26b559a7f0
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.html
-retrieved_at: 2026-09-01T19:35:09.141258+00:00
+retrieved_at: 2026-09-28T04:51:11.484329+00:00
 ---
 
 Recover Cloud-Registered Endpoint GUI when Offline in Control Hub
@@ -151,3 +151,29 @@ Initial Release
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 15-Feb-2024 | Initial Release |
+
+## Figuras
+
+![Register to Webex pop-up from endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-00.png)
+
+![Local Device Control in Contorl Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-01.png)
+
+![Local Device Controls pop-up in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-02.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Browser Time-Out Connection Message](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-03.png)
+
+![Endpoint Offline Status in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-04.png)
+
+![warning-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/warn.gif)
+
+![Register to Webex pop-up from endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-05.png)
+
+![Devices section in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-06.png)
+
+![Remote Access Key pop-up in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-07.png)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Access Denied SSH Prompt](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh-08.png)

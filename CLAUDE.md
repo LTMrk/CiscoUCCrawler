@@ -23,6 +23,15 @@ segundo es stdlib pura, tarda segundos en prepararse y se lanza solo desde
 Actions sin arrastrar un rastreo de 50 minutos. `etl.yml` lo invoca por
 `workflow_call` únicamente cuando la frontera queda vacía.
 
+`etl.yml` instala desde **`requirements.lock.txt`**, no desde
+`requirements.txt`. El primero es el árbol exacto (96 paquetes) con el que se
+sabe que funciona; el segundo es la declaración de intención y explica el
+porqué de cada pin. Al tocar `requirements.txt` hay que regenerar el lock: el
+comando está en su cabecera, y `tests/test_dependencias.py` falla si se
+desincronizan. `tests.yml` sigue instalando `requirements.txt` menos
+crawl4ai, a propósito: es una instalación parcial para probar que
+`crawler_ai` importa sin él.
+
 Las pruebas no usan pytest; cada fichero es un script:
 
 ```bash
@@ -180,6 +189,12 @@ debería", sospecha del consumo antes que de las regex.
   `sanitizer` -> `bs4`. El workflow instala `beautifulsoup4` y nada más. El
   fallo estuvo latente meses porque `paquete-copilot` solo se ejecuta cuando
   la frontera queda vacía, y hasta el 2026-09-27 nunca quedó.
+- **`logs/error.log` se recorta a 20.000 líneas al cerrar el lote**
+  (`crawler_ai.rotar_error_log`, justo antes del commit; si se recortara
+  después se commitearía el fichero largo). Es append-only y va al
+  repositorio en cada lote: el 2026-09-27 iba por 98.271 líneas y 19,9 MB,
+  que cada checkout arrastraba. El histórico completo sigue en el artefacto
+  `logs-diagnostico` de cada ejecución, con siete días de retención.
 - La purga ya se aplicó: −344 documentos, −2.694 entradas del manifiesto y
   −1.437 de la cuarentena, que baja de 1.440 a 3 (las tres son 403 reales
   del WAF de www.cisco.com). El manifiesto queda en cuatro hosts:

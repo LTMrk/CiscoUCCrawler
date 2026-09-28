@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-ndl247o-580c1e512b
 source_url: https://help.webex.com/en-us/article/ndl247o
-retrieved_at: 2026-09-01T20:21:38.407219+00:00
+retrieved_at: 2026-09-28T04:47:11.336408+00:00
 ---
 
 ## Configure organization-based automatic licensing for users
@@ -153,17 +153,13 @@ Group-based assignments always apply to new users who join the group. This is sh
 
 You can also choose to have the assignment apply to Existing users . This option changes the licenses assigned to all users who are already in that group. It happens when you save the change.
 
-If you choose Existing users , you can also decide to Preserve licenses for existing users . For example, if some
-              users in the group already have Advanced Messaging , then you change the
-              assignment to exclude that license, those users keep their advanced Messaging
-              features. Without the box checked, the existing users in that group would lose those
-              features.
+Select Existing users > Preserve licenses for existing users to let current group members keep any licenses that are removed from the group assignment. For example, some users in the group may already have Advanced Messaging . When you change the assignment to exclude that license and preserve licenses for existing users, those users keep Advanced Messaging . Clear Preserve licenses for existing users to remove licenses from existing users when those licenses are removed from the group assignment.
 
-Users that change groups always get the licenses from the new group. You can choose
-              whether they also keep the licensing they had before the move, or if they lose their
-              old assignments when they move. You control this with the Users > Licenses > Preserve licenses toggle.
+When group membership or a group license assignment changes, users keep licenses from any other applicable group assignments. If a user is no longer a member of a group with a license assignment, whether they keep licenses from that previous group assignment depends on the license preservation setting used when the assignment is applied or changed.
 
-Users will also lose any manually assigned licenses if the Preserve licenses toggle is deselected.
+See Group management for more information on group license assignments.
+
+Users will also lose any manually assigned licenses if Preserve licenses for existing users is deselected.
 
 Users will always receive a union of licenses assigned at the organization level and
               the group level. This means that licenses granted by both templates are combined for
@@ -299,3 +295,9 @@ Change to Preserve licenses toggle persists on Cancel If you disable the Preserv
           means that Webex doesn't automatically assign licenses to future members of the group or
           organization. You can assign these licenses manually if you prefer, or set up a new
           license assignment before you add new users. |
+
+## Figuras
+
+![License assignments page in Control Hub](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472593.jpg)
+
+![Image shows assigning the attendee role to a meeting account type](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/456001-457000/456820.jpg)

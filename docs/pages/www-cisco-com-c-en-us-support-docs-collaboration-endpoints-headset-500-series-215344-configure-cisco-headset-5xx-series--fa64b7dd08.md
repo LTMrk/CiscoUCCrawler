@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--fa64b7dd08
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html
-retrieved_at: 2026-09-07T12:39:48.593029+00:00
+retrieved_at: 2026-09-28T04:50:46.487528+00:00
 ---
 
 Configure Cisco Headset 5xx Series
@@ -370,18 +370,6 @@ Visit Cisco IP Phone 8800 supported accessories for more information on the head
 
 Initial Release
 
-### Contributed by Cisco Engineers
-
-Victor Gutierrez Luna
-
-### Customers Also Viewed
-
-- Cisco Headset Compatibility Guide --- Cisco Desk Phone 9800 Series
-
-### This Document Applies to These Products
-
-- Headset 500 Series
-
 | Headset Model | Connectors | 7800/8800 Support Non-USB | 7800/8800 Support USB | 7800/8800 Phone Firmware | Jabber Version | DX70/80 |
 |---|---|---|---|---|---|---|
 | 521/522 | USB & 3.5mm | N/A | 8851, 8861, and 8865 | 12.1(1) | 12.5 | CE9.3 |
@@ -402,3 +390,65 @@ Victor Gutierrez Luna
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 20-Mar-2020 | Initial Release |
+
+## Figuras
+
+![521_522 headset](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-00.png)
+
+![532_532 headset](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-01.png)
+
+![561_562 headset](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-02.png)
+
+![561_562 headset_multibase](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-03.png)
+
+![35mm](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-04.jpeg)
+
+![QD Device](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-05.png)
+
+![Standard base](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-06.png)
+
+![multibase](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-07.png)
+
+![serviceability](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-08.png)
+
+![Headset Service](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-09.png)
+
+![Wireless_detected](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-10.jpeg)
+
+![HeadsetManualSetup_78XX](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-11.png)
+
+![UpgradePhoneScreen](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-12.png)
+
+![Headset template1](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-13.png)
+
+![headset template2](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-14.png)
+
+![Headset template apply config](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-15.png)
+
+![enduser profile](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-16.png)
+
+![device_enduser](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-17.png)
+
+![upgrade1](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-18.png)
+
+![upgrade icon](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-19.png)
+
+![upgrade2](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-20.png)
+
+![bulk_enduser](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-21.png)
+
+![AUX_1](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-22.png)
+
+![Hookswitch](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-23.png)
+
+![Y cable Conexion](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-24.png)
+
+![Bluetooth](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-25.png)
+
+![Bluetooth](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-26.png)
+
+![List inventory](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-27.png)
+
+![Headset details](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-28.png)
+
+![headset summary](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series-29.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-niqovwv-hybrid-calendar-service-with-microsoft-365-integration-reference-0c9c8b6651
 source_url: https://help.webex.com/en-us/article/niqovwv/Hybrid-Calendar-Service-with-Microsoft-365-integration-reference
-retrieved_at: 2026-09-01T21:38:06.665962+00:00
+retrieved_at: 2026-09-28T04:47:38.252197+00:00
 ---
 
 ## Hybrid Calendar benefits
@@ -298,3 +298,7 @@ Retrieve roles assigned to user requesting consent.
                     tentativelyAccept} | Allows the user to accept/decline/tentatively-accept the status for a meeting. |
 | GET
                     /roleManagement/directory/roleAssignments | Retrieve roles assigned to user requesting consent. |
+
+## Figuras
+
+![Enterprise provisioning process sequence diagram](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/427001-428000/427968.jpg)

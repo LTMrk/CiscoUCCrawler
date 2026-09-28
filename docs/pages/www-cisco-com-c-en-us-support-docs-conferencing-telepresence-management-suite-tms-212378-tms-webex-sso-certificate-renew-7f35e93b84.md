@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212378-tms-webex-sso-certificate-renew-7f35e93b84
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.html
-retrieved_at: 2026-08-21T06:28:39.752407+00:00
+retrieved_at: 2026-09-28T04:52:40.165702+00:00
 ---
 
 TMS WebEx SSO Certificate Renewal - Cisco
@@ -103,3 +103,9 @@ Cisco TAC Engineer
 ### This Document Applies to These Products
 
 - TelePresence Management Suite (TMS)
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

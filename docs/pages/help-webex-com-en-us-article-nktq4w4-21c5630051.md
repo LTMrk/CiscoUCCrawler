@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nktq4w4-21c5630051
 source_url: https://help.webex.com/en-us/article/nktq4w4
-retrieved_at: 2026-09-01T21:38:29.794000+00:00
+retrieved_at: 2026-09-28T04:47:55.188737+00:00
 ---
 
 - Desktop
@@ -41,3 +41,7 @@ If you don't see your Personal Room link, follow the instructions for your Windo
                         Personal Room is not enabled for you on your site. Contact your site
                         administrator. |
 | 3 | Click Save . |
+
+## Figuras
+
+![Meetings button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/420001-421000/420217.jpg)

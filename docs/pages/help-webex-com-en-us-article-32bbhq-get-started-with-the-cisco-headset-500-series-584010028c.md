@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-32bbhq-get-started-with-the-cisco-headset-500-series-584010028c
 source_url: https://help.webex.com/en-us/article/32bbhq/Get-Started-with-the-Cisco-Headset-500-Series
-retrieved_at: 2026-09-07T12:41:56.045249+00:00
+retrieved_at: 2026-09-28T04:44:32.500477+00:00
 ---
 
 The Cisco Headset 500 Series is a series of headsets offering a range of optimized integrations with Cisco IP Phones, Webex, Webex Devices, and other calling solutions.
@@ -531,3 +531,37 @@ Press Call once.
 | 1 | Hold Call until you hear a tone. |
 |---|---|
 | 2 | Press Call once. |
+
+## Figuras
+
+![500 Series Hero Image](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/467001-468000/467891.jpg)
+
+![Cisco Headset 520 Series Controller](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.jpg)
+
+![the call button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425658.jpg)
+
+![Cisco Headset 530 Series controller](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393906.jpg)
+
+![Cisco Headset 560 Series Buttons](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.jpg)
+
+![the call button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393941.jpg)
+
+![the mute button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393942.jpg)
+
+![the volume controls](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393943.jpg)
+
+![Standard base LEDs](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393905.jpg)
+
+![Multibase LEDs](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393996.jpg)
+
+![Desk Phone icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393997.jpg)
+
+![USB to USB or Y-Cable connection](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393945.jpg)
+
+![Laptop icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393999.jpg)
+
+![Mini-USB connection](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393944.jpg)
+
+![Mobile Phone icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393998.jpg)
+
+![Bluetooth connection](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/300001-400000/390001-400000/393001-394000/393177.jpg)

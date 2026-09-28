@@ -14,6 +14,7 @@ pueda correr en CI en segundos.
 import json
 import os
 import sys
+import tempfile
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(RAIZ, "src"))
@@ -359,6 +360,45 @@ def test_config_declara_developer_cisco_com():
     assert "developer.cisco.com" in cfg["path_allowlist_regex"]
     assert "developer.cisco.com" in (
         cfg["global_settings"].get("hosts_barra_final") or [])
+
+
+def _escribir_log(directorio, n):
+    ruta = os.path.join(directorio, "error.log")
+    with open(ruta, "w", encoding="utf-8") as fh:
+        for i in range(n):
+            fh.write(f"[2026-09-28T00:00:00] motivo {i} | https://x/{i}\n")
+    return ruta
+
+
+def test_rotar_error_log_recorta_y_conserva_lo_reciente():
+    """El log es append-only y se commitea en cada lote: sin recorte crece
+    sin tope. Lo que importa conservar es la cola, que es lo que describe el
+    lote que se acaba de ejecutar."""
+    with tempfile.TemporaryDirectory() as d:
+        ruta = _escribir_log(d, 150)
+        antes, despues = ca.rotar_error_log(ruta, max_lineas=100)
+        assert (antes, despues) == (150, 100), (antes, despues)
+        with open(ruta, encoding="utf-8") as fh:
+            lineas = fh.readlines()
+        assert len(lineas) == 100
+        assert "motivo 50 " in lineas[0], lineas[0]
+        assert "motivo 149 " in lineas[-1], lineas[-1]
+
+
+def test_rotar_error_log_no_toca_un_log_corto():
+    # Reescribir un fichero que ya cabe solo genera ruido en el diff del
+    # commit incremental.
+    with tempfile.TemporaryDirectory() as d:
+        ruta = _escribir_log(d, 10)
+        antes_mtime = os.stat(ruta).st_mtime_ns
+        assert ca.rotar_error_log(ruta, max_lineas=100) == (10, 10)
+        assert os.stat(ruta).st_mtime_ns == antes_mtime, "lo ha reescrito"
+
+
+def test_rotar_error_log_sin_fichero_no_revienta():
+    # Primer lote de un clon limpio: logs/error.log todavia no existe.
+    with tempfile.TemporaryDirectory() as d:
+        assert ca.rotar_error_log(os.path.join(d, "no-existe.log")) == (0, 0)
 
 
 if __name__ == "__main__":

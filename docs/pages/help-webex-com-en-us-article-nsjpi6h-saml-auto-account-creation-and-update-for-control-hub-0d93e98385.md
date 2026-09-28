@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nsjpi6h-saml-auto-account-creation-and-update-for-control-hub-0d93e98385
 source_url: https://help.webex.com/en-us/article/nsjpi6h/SAML-Auto-Account-Creation-and-Update-for-Control-Hub
-retrieved_at: 2026-09-01T20:26:12.220566+00:00
+retrieved_at: 2026-09-28T04:48:33.132958+00:00
 ---
 
 ## Modify Single sign-on authentication in Control Hub
@@ -382,3 +382,7 @@ For a list of SAML assertion attributes for Webex Meetings, see SAML Assertion A
                       group for licensing or the setting service. |
 | groupexternalId | Example: groupexternalId | Map group attributes from IdP to Webex Identity group Attributes for the purpose of mapping that user to a
                       group for licensing or the setting service. |
+
+## Figuras
+
+![More menu](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/451001-452000/451601.jpg)

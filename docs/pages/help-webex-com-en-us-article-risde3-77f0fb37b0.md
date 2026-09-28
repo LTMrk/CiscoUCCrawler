@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-risde3-77f0fb37b0
 source_url: https://help.webex.com/en-us/article/risde3
-retrieved_at: 2026-09-07T12:44:24.126660+00:00
+retrieved_at: 2026-09-28T04:49:41.097344+00:00
 ---
 
 ## April 16, 2026
@@ -1454,3 +1454,11 @@ Zimbabwe
 |  |  |  |  | Uganda |  |
 |  |  |  |  | Western Sahara |  |
 |  |  |  |  | Zimbabwe |  |
+
+## Figuras
+
+![mute icon](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/425001-426000/425657.jpg)
+
+![Power off](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/440001-441000/440484.jpg)
+
+![Power on](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/459001-460000/459432.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-nqzpeei-show-real-time-translation-and-transcription-in-meetings-and-webinars-059490f2b9
 source_url: https://help.webex.com/en-us/article/nqzpeei/Show-real-time-translation-and-transcription-in-meetings-and-webinars
-retrieved_at: 2026-09-01T18:32:37.790125+00:00
+retrieved_at: 2026-09-28T04:48:26.578673+00:00
 ---
 
 This article is about Webex meetings and webinars. For information on Webex devices, see Closed captioning on Board, Desk, and Room
@@ -326,3 +326,11 @@ Real-time translation isn't supported on Webex App for web on the Webex Suite me
 | Yoruba | ✓ | — |
 | Yucatec Maya | ✓ | ✓ |
 | Zulu | ✓ | ✓ |
+
+## Figuras
+
+![Real-time translation and transcription in meetings and webinars](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/456001-457000/456406.jpg)
+
+![Show closed captions](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/442001-443000/442579.jpg)
+
+![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/450001-451000/450687.jpg)

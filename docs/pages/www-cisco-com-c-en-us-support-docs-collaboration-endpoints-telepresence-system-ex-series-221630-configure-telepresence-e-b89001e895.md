@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-system-ex-series-221630-configure-telepresence-e-b89001e895
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.html
-retrieved_at: 2026-08-16T22:18:28.728108+00:00
+retrieved_at: 2026-09-28T04:51:28.027412+00:00
 ---
 
 Configure Telepresence Endpoint SIP Registration to Expressway
@@ -154,16 +154,34 @@ Registration Control chapter from the Expressway Administrator Guide version X14
 
 Initial Release
 
-### Contributed by Cisco Engineers
-
-Fabio Achi
-
-Technical Consulting Engineer
-
-### This Document Applies to These Products
-
-- TelePresence System EX Series
-
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 06-Feb-2024 | Initial Release |
+
+## Figuras
+
+![run service setup](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-00.jpeg)
+
+![return to service setup](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-01.jpeg)
+
+![service setup choices](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-02.jpeg)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![create domain](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-03.jpeg)
+
+![restriction policy](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-04.jpeg)
+
+![allow rule](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-05.jpeg)
+
+![SIP settings](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-06.jpeg)
+
+![successdul registration](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-07.jpeg)
+
+![failed registration](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-08.jpeg)
+
+![successdul registration](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi-09.jpeg)

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-wbx000028782-c9b4168b12
 source_url: https://help.webex.com/en-us/article/WBX000028782
-retrieved_at: 2026-09-01T21:39:24.117819+00:00
+retrieved_at: 2026-09-28T04:45:12.390486+00:00
 ---
 
 Network Requirements for Webex Services
@@ -274,6 +274,8 @@ Revision Date
 
 New and Changed Information
 
+Removed the Webex for Broadworks product metadata
+
 In the IPv4 Subnets for Media Services section, updated the incorrect IP address range from 163.129.0.0/16 to 163.129.0.0/17.
 
 Corrected previous change (2/18) to reflect correct wording - 'Cloud registered Cisco Video devices use HTTPS signaling for all Webex services, including requests to activation.webex.com which sets the system time.'
@@ -415,6 +417,7 @@ Removed the row (starting with speech.googleapis.com and texttospeech.googleapis
 
 | Revision Date | New and Changed Information |
 |---|---|
+| 8/18/2026 | Removed the Webex for Broadworks product metadata |
 | 3/16/2026 | In the IPv4 Subnets for Media Services section, updated the incorrect IP address range from 163.129.0.0/16 to 163.129.0.0/17. |
 | 2/19/2026 | Corrected previous change (2/18) to reflect correct wording - 'Cloud registered Cisco Video devices use HTTPS signaling for all Webex services, including requests to activation.webex.com which sets the system time.' |
 | 2/18/2026 | Added note on cloud registered devices using the URL 'activation.webex.com' to get NTP to the 'Summary of device types and protocols supported by Webex' section. |

@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-zqvufbb-deployment-guide-for-directory-connector-9fa08b6dc4
 source_url: https://help.webex.com/en-us/article/zqvufbb/Deployment-Guide-for-Directory-Connector
-retrieved_at: 2026-09-01T14:55:59.961258+00:00
+retrieved_at: 2026-09-28T04:50:04.693476+00:00
 ---
 
 ### Cisco directory connector Deployment Task Flow
@@ -1566,3 +1566,37 @@ When a user uses Webex App on desktop or mobile to search and call a Room
                                                   Users —Modify users manually. Modify Users in
                                                   Control Hub with the CSV Template —Modify
                                                   users in bulk. |
+
+## Figuras
+
+![Multiple Domain Flow for Directory Connector](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/440001-450000/443001-444000/443045.jpg)
+
+![Object selection screen in Directory Connector](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/463001-464000/463235.jpg)
+
+![Map attributes from your local Active Directory](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/432001-433000/432637.jpg)
+
+![Information message in active directory for users have a valid email format](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/435001-436000/435128.jpg)
+
+![Warning message if the attribute can't be verified](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/435001-436000/435129.jpg)
+
+![View someone's contact information](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/430001-440000/435001-436000/435621.jpg)
+
+![Alternative email address mapping](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/470001-471000/470065.jpg)
+
+![More Options button](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/417001-418000/417371.jpg)
+
+![Create a Room Resource mailbox in Exchange.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426665.jpg)
+
+![Add the Fully Qualified SIP URI with a prefix of sip](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426666.jpg)
+
+![List of matched room objects in the dry run report](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/419001-420000/419511.jpg)
+
+![Directory Connector dry run results showing matched objects](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/419001-420000/419512.jpg)
+
+![Directory connector dashboard highlighting the cloud statistics window. The cloud statistics includes users, groups, rooms, and contacts.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/410001-420000/419001-420000/419513.jpg)
+
+![Detected Mismatched Objects in Directory Connector](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426472.jpg)
+
+![Directory Connector dry run results screen](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426302.jpg)
+
+![Directory Connector dry run results screen](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/420001-430000/426001-427000/426303.jpg)

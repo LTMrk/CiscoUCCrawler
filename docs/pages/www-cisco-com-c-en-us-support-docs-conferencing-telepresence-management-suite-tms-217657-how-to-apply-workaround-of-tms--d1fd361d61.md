@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217657-how-to-apply-workaround-of-tms--d1fd361d61
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.html
-retrieved_at: 2026-08-21T06:28:31.641975+00:00
+retrieved_at: 2026-09-28T04:53:09.880209+00:00
 ---
 
 How to Apply workaround of TMS Enhancement CSCvf19937
@@ -95,3 +95,13 @@ Amadeus Ubaldo
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 25-Jan-2022 | Initial Release |
+
+## Figuras
+
+![Participant Template](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme-00.png)
+
+![Number Settings](https://www.cisco.com/c/dam/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme-01.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -78,16 +78,16 @@ jobs:
           # Sin esto, la accion busca **/requirements.txt o **/pyproject.toml
           # y aborta si no encuentra ninguno — que es exactamente el fallo
           # "No file ... matched to [**/requirements.txt or **/pyproject.toml]".
-          cache-dependency-path: requirements.txt
+          cache-dependency-path: requirements.lock.txt
 
       - name: Cachear navegadores de Playwright
         uses: actions/cache@v4
         with:
           path: ~/.cache/ms-playwright
-          # La clave incluye el hash de requirements.txt: al subir la version
-          # de crawl4ai (y con ella la de playwright), la cache se invalida
-          # sola en lugar de servir un chromium incompatible.
-          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          # La clave incluye el hash del lock, que es donde esta fijada la
+          # version de playwright: al cambiarla, la cache se invalida sola en
+          # lugar de servir un chromium incompatible.
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.lock.txt') }}
           restore-keys: |
             playwright-${{ runner.os }}-
 
@@ -95,7 +95,12 @@ jobs:
         timeout-minutes: 10
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          # Desde el lock, no desde requirements.txt: este job corre por cron
+          # semanal y sin nadie mirando, y crawl4ai arrastra mas de noventa
+          # transitivas que de otro modo flotan. requirements.txt sigue siendo
+          # la declaracion de intencion; ver la cabecera del lock para
+          # regenerarlo.
+          pip install -r requirements.lock.txt
 
       - name: Instalar Chromium para Playwright
         timeout-minutes: 8

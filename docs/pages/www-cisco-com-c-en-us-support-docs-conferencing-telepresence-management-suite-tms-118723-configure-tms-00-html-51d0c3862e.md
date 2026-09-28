@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-118723-configure-tms-00-html-51d0c3862e
 source_url: https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/118723-configure-tms-00.html
-retrieved_at: 2026-08-17T01:46:26.538077+00:00
+retrieved_at: 2026-09-28T04:52:18.856837+00:00
 ---
 
 TMS Certificates with TMS Tools for TLS Communication Configuration Example
@@ -93,3 +93,9 @@ Cisco TAC Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 27-Jan-2015 | Initial Release |
+
+## Figuras
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

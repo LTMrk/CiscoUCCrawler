@@ -1,7 +1,7 @@
 ---
 doc_id: help-webex-com-en-us-article-n0h4eh4-webex-for-cisco-broadworks-solution-guide-3e0393053e
 source_url: https://help.webex.com/en-us/article/n0h4eh4/Webex-for-Cisco-BroadWorks-Solution-Guide
-retrieved_at: 2026-09-07T12:42:18.689947+00:00
+retrieved_at: 2026-09-28T04:46:18.189491+00:00
 ---
 
 ### Deployment Overview
@@ -2924,3 +2924,27 @@ Make test calls.
 |---|---|
 | 2 | Sign in as your test users on the two machines. |
 | 3 | Make test calls. |
+
+## Figuras
+
+![Tasks required for deploying flow-through provisioning](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/450001-451000/450415.jpg)
+
+![Tasks required for deploying flowthrough provisioning without trusted emails](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/452001-453000/452674.jpg)
+
+![Tasks required for deploying user self-provisioning](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/452001-453000/452675.jpg)
+
+![Results displayed after entering the get command, showing interfaces (IP addresses) and, for each, whether they are secure and whether they require client authentication.](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/450001-451000/450435.jpg)
+
+![Diagram of CTI Interface and Related Configuration for step 1, setup, and step 2, steady state](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/450001-460000/459001-460000/459330.jpg)
+
+![Add a new template screen displaying options for the Authentication Mode setting, with the option selected for Partner Authentication With OpenID Connect](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472833.jpg)
+
+![Add a new template screen options; includes default authentication mode options: Broadworks authentication, Webex authentication, and partner authentication](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/472001-473000/472834.jpg)
+
+![Webex Partner Hub page displaying CTI Interface and authentication service options](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/488001-489000/488862.jpg)
+
+![Select Caller ID](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/480001-490000/484001-485000/484977.png)
+
+![Setting and Clearing DND in Relation to Work Status](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/460001-470000/466001-467000/466599.jpg)
+
+![Diagram of barge-in process illustrating relationship between agent, customer and supervisor](https://cisco-api.ingeniuxondemand.com/DITA/content/en/us/td/i/400001-500000/470001-480000/475001-476000/475096.jpg)

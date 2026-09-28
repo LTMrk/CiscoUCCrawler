@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-h-eb06fdf0c6
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html
-retrieved_at: 2026-09-01T19:35:13.257884+00:00
+retrieved_at: 2026-09-28T04:51:06.767606+00:00
 ---
 
 Troubleshoot Video Endpoint Shut Down Due to High Temperature
@@ -155,3 +155,21 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 21-Jan-2025 | Initial Release |
+
+## Figuras
+
+![Devices Section of Control Hub Showing the Last Seen Online Date and Time](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-00.png)
+
+![Error Snippet from the Log Bundle](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-01.png)
+
+![Error Snippet Showing Temperature Exceeding Critical Limit](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-02.png)
+
+![Error Snippet Showing Thermal Shutdown Due to Critical Temperature](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-03.png)
+
+![Error Snippet Showing System Would Now Shutdown](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-04.png)
+
+![Acceptable Values for Operating and Storage Temperature and Humidity](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du-05.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

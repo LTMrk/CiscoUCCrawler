@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-precision-cameras-221771-troubleshoot-edid-and-c-35809b02dc
 source_url: https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.html
-retrieved_at: 2026-09-08T01:56:24.709842+00:00
+retrieved_at: 2026-09-28T04:51:19.689614+00:00
 ---
 
 Troubleshoot EDID and Camera Connection Issue on an Endpoint
@@ -245,3 +245,55 @@ Technical Consulting Engineer
 | Revision | Publish Date | Comments |
 |---|---|---|
 | 1.0 | 04-Mar-2024 | Initial Release |
+
+## Figuras
+
+![Connection Diagram](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-00.png)
+
+![note-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/note.gif)
+
+![Cameras Camera [n] Flip feature Configuration in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-01.png)
+
+![Cameras Camera [n] Flip feature description in the Administration Guide](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-02.png)
+
+![Control Hub Devices section](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-03.png)
+
+![Endpoint Configuration section in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-04.png)
+
+![Individual Device Configurations menu in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-05.png)
+
+![Cameras Camera [n] Flip feature Configuration in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-06.png)
+
+![Cameras Camera [n] Flip feature Review in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-07.png)
+
+![tip-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/tip.gif)
+
+![caution-icon](https://www.cisco.com/c/dam/en/us/td/i/templates/caut.gif)
+
+![Cameras Camera [n] AssignedSerialNumber in the Administration Guide](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-08.png)
+
+![Cameras Camera [n] AssignedSerialNumber Configuration in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-09.png)
+
+![Cameras Camera [n] AssignedSerialNumber Configuration in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-10.png)
+
+![Cameras Camera [n] AssignedSerialNumber Review in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-11.png)
+
+![Cameras Camera [n] AssignedSerialNumber Configuration in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-12.png)
+
+![Cameras Camera [n] Flip Configuration in Endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-13.png)
+
+![Cameras Camera [n] AssignedSerialNumber Configuration in Endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-14.png)
+
+![Endpoint Peripheral details on Endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-15.png)
+
+![Endpoint Peripheral details in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-16.png)
+
+![Camera details in Control Hub](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-17.png)
+
+![Log Collection from Endpoint GUI](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-18.png)
+
+![Peripheral Log file inspection](https://www.cisco.com/c/dam/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection-19.png)
+
+![TAC Authored](https://www.cisco.com/etc/designs/cdc/fw/i/TAC_lg-icon.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
