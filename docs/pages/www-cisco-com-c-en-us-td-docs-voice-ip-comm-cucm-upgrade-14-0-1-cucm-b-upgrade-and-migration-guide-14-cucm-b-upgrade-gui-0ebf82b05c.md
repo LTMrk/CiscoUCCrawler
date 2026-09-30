@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-14-0-1-cucm-b-upgrade-and-migration-guide-14-cucm-b-upgrade-gui-0ebf82b05c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/14_0_1/cucm_b_upgrade-and-migration-guide_14/cucm_b_upgrade-guide-1251su2_chapter_0111.html
-retrieved_at: 2026-08-17T00:04:48.405702+00:00
+retrieved_at: 2026-09-30T18:57:25.961160+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14
@@ -125,3 +125,7 @@ Refer to the Cisco Prime Collaboration Deployment Administration Guide at http:/
 | Step 1 | Refer to the upgrade documentation for the intermediate release and follow the instructions to upgrade your system. For Unified Communications Manager upgrade documentation, see http://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-guides-list.html . For IM and Presence Service (formerly Cisco Unified Presence) upgrade documentation, see http://www.cisco.com/c/en/us/support/unified-communications/unified-presence/products-installation-guides-list.html . |
 |---|---|
 | Step 2 | Refer to the Cisco Prime Collaboration Deployment Administration Guide at http://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html and follow the instructions to perform a PCD migration to the current release. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

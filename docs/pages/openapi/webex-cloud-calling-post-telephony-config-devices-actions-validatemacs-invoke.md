@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.740232+00:00
+retrieved_at: 2026-09-30T18:54:54.851961+00:00
 ---
 
 # POST /telephony/config/devices/actions/validateMacs/invoke

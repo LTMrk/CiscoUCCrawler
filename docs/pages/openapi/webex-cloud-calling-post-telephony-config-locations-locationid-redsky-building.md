@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.755149+00:00
+retrieved_at: 2026-09-30T18:54:54.867200+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/redSky/building

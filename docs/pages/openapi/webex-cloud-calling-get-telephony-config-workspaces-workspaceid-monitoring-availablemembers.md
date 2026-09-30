@@ -10,7 +10,7 @@ tags: Workspace Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.940993+00:00
+retrieved_at: 2026-09-30T18:54:55.058325+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/monitoring/availableMembers

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-qctinst-html-88f507c62b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/QCTinst.html
-retrieved_at: 2026-08-21T22:58:38.575619+00:00
+retrieved_at: 2026-09-30T18:59:07.631177+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -125,3 +125,7 @@ Step 7 If you want to start Cisco SDM when you dismiss the wizard, click Launch
 ## What to Do Next
 
 After installing the required Cisco IPC Express QCT and SDM files, you are ready to enter configuration parameters about your system. See "Configuring Cisco Business Communications Solution Verified Designs" chapter.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

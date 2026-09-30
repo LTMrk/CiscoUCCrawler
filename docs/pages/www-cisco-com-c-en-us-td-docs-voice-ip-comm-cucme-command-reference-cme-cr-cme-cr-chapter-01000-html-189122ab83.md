@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01000-html-189122ab83
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01000.html
-retrieved_at: 2026-08-21T22:56:17.110063+00:00
+retrieved_at: 2026-09-30T19:00:13.269762+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -2133,3 +2133,7 @@ Configures a preferred IP-address mode for SCCP IP phones in Cisco Unified CME.
 |---|---|
 | option | Configures DHCP server options. |
 | protocol mode | Configures a preferred IP-address mode for SCCP IP phones in Cisco Unified CME. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-ip-phones-6901-6911-english-user-guide-b-6901-11-ug-release9-0-b-6901--829872d7d5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/6901_6911/english/user/guide/b_6901_11_ug_release9_0/b_6901_11_ug_release9_0_chapter_00.html
-retrieved_at: 2026-08-21T14:26:54.481935+00:00
+retrieved_at: 2026-09-30T19:02:28.971277+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 User Guide for Cisco Unified Communications Manager Express Version 9.0 (SIP)
@@ -210,3 +210,7 @@ You can adjust the handset rest of a wall-mounted phone so that the receiver doe
 | Step 3 | Hold the tab between two fingers, with the small notches (in the corners) facing you. |
 | Step 4 | Make sure the tab lines up evenly with the slot in the cradle. |
 | Step 5 | Slide the tab back into the handset rest. An extension protrudes from the top of the rotated tab. Return the handset to the handset rest. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

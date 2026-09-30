@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.804506+00:00
+retrieved_at: 2026-09-30T18:54:54.919326+00:00
 ---
 
 # GET /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}/availableQueues

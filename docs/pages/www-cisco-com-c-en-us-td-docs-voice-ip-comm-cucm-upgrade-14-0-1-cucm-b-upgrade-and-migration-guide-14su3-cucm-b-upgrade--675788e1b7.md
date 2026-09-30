@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-14-0-1-cucm-b-upgrade-and-migration-guide-14su3-cucm-b-upgrade--675788e1b7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/14_0_1/cucm_b_upgrade-and-migration-guide_14su3/cucm_b_upgrade-migration-guide-1251su2_chapter_01000.html
-retrieved_at: 2026-08-17T00:05:05.609641+00:00
+retrieved_at: 2026-09-30T18:58:00.538080+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14SU3 and SU4
@@ -393,3 +393,7 @@ Perform a DRS
 | Step 4 | Perform a fresh installation of the same software release of IM and Presence Service or Unified Communications Manager on the new VM using the same hostname and IP address. |
 | Step 5 | Perform a DRS
                                           			 restore on the new VM. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010010-html-c68d52bfe6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010010.html
-retrieved_at: 2026-08-21T22:57:10.502739+00:00
+retrieved_at: 2026-09-30T19:00:46.107548+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -6975,3 +6975,7 @@ Enter the Skinny Port for Cisco CallManager Express:  [2000]: | IP
                                           						autoconfigure. |
 | voice-port (voice-gateway) | Identifies the ports on the voice gateway that register to
                                           						Cisco Unified CME. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

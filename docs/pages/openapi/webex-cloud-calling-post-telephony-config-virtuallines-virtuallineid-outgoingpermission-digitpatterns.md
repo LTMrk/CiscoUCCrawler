@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.924887+00:00
+retrieved_at: 2026-09-30T18:54:55.042955+00:00
 ---
 
 # POST /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns

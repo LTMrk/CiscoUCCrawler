@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-ip-phones-3905-english-user-guide-b-3905-ug-release8-8-b-3905-ug-relea-ac009f107f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/3905/english/user/guide/b_3905_ug_release8_8/b_3905_ug_release8_8_chapter_01.html
-retrieved_at: 2026-08-21T14:34:43.126833+00:00
+retrieved_at: 2026-09-30T19:02:20.337185+00:00
 ---
 
 Cisco Unified IP Phone 3905 User Guide for Cisco Unified Communications Manager Express Version 8.8 (SIP)
@@ -218,3 +218,7 @@ Listen for a stutter tone when you lift the handset.
 
 | Note | You can configure the visual message waiting lamp using your User Options web pages. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

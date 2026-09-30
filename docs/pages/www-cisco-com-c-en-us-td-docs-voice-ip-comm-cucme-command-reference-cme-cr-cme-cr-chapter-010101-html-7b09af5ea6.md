@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010101-html-7b09af5ea6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010101.html
-retrieved_at: 2026-08-21T22:57:25.927733+00:00
+retrieved_at: 2026-09-30T19:01:11.041047+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -374,3 +374,7 @@ Enters telephony-service configuration mode.
 |  | Description |
 |---|---|
 | telephony-service | Enters telephony-service configuration mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

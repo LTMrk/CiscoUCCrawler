@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.921236+00:00
+retrieved_at: 2026-09-30T18:54:55.039427+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/callForwarding

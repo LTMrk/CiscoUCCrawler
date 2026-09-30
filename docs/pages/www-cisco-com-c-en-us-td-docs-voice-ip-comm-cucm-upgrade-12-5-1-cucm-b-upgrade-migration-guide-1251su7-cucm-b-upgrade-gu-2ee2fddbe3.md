@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-12-5-1-cucm-b-upgrade-migration-guide-1251su7-cucm-b-upgrade-gu-2ee2fddbe3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su7/cucm_b_upgrade-guide-1251su2_chapter_01011.html
-retrieved_at: 2026-08-17T00:08:37.395217+00:00
+retrieved_at: 2026-09-30T18:56:01.841989+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU7
@@ -567,3 +567,7 @@ Solution Download and apply the COP file ciscocm.free_common_cup_space_v<latest_
 | Step 2 | Fix your system issue. |
 | Step 3 | When you are ready to resume your upgrade, run the utils system upgrade initiate CLI command and select the Local Image option. |
 | Step 4 | Complete your system upgrade. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

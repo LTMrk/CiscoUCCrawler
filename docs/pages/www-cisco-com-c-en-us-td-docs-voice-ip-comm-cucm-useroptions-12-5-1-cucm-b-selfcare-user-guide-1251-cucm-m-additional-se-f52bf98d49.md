@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-12-5-1-cucm-b-selfcare-user-guide-1251-cucm-m-additional-se-f52bf98d49
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_selfcare-user-guide-1251/cucm_m_additional-settings.html
-retrieved_at: 2026-08-17T00:22:24.820678+00:00
+retrieved_at: 2026-09-30T18:58:26.025229+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 12.5(1)
@@ -343,3 +343,7 @@ Step 5
                                                                						is non-editable and so, the Save and Cancel buttons do not appear for this
                                                                						field. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

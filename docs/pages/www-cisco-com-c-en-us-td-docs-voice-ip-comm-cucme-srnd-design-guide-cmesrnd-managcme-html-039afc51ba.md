@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-managcme-html-039afc51ba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/managcme.html
-retrieved_at: 2026-08-21T22:58:25.833755+00:00
+retrieved_at: 2026-09-30T19:03:07.018256+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -1077,3 +1077,7 @@ Integrated Research's Prognosis tool can be used for monitoring Cisco Unified CM
 • Systems and protocol monitoring—Monitors CPU and process memory, software version, application/voice traffic
 
 Note For more information, see this URL: http://www.prognosis.com/
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

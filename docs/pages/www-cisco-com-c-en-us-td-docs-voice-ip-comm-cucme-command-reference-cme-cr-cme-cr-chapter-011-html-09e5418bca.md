@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-011-html-09e5418bca
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_011.html
-retrieved_at: 2026-08-21T22:55:53.690993+00:00
+retrieved_at: 2026-09-30T19:01:30.632320+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -9981,3 +9981,7 @@ Specifies how an H.323 or SIP gateway relays DTMF tones
 |---|---|
 | dtmf-relay (voice over IP) | Specifies how an H.323 or SIP gateway relays DTMF tones
                                           						between telephony interfaces and an IP network. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

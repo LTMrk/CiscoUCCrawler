@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.894371+00:00
+retrieved_at: 2026-09-30T18:54:55.011054+00:00
 ---
 
 # GET /telephony/config/people/{personId}/callIntercept/availableNumbers

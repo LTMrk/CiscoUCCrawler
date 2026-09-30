@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-intcmecm-html-dbe61ecb33
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/intcmecm.html
-retrieved_at: 2026-08-21T22:58:07.941028+00:00
+retrieved_at: 2026-09-30T19:02:58.711777+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -201,3 +201,7 @@ Cisco Unified CME sends these display IE messages for all H.323 calls regardless
 ## Using H.450.x Cisco IP-to-IP Gateway
 
 One final point to understand in planning your Cisco Unified CallManager-to-Cisco Unified CME connections is the advantages that an H.450 Cisco IP-to-IP gateway can provide. You can insert an H.450 Cisco IP-to-IP gateway into the call path between your Cisco Unified CME network and Cisco Unified CallManager, and use it to mitigate some of the issues that arise from the use of VoIP-to-VoIP call paths. If an intersite call transfer or forward initiated by a Cisco Unified CME creates a VoIP hairpin call, you can often use an H.450 Cisco IP-to-IP gateway co-located with your Cisco Unified CallManager to avoid most of the voice path delay caused. Just hairpin the media stream through the Cisco Unified CME system located at the end of a narrow-bandwidth WAN link. See "Connecting Multiple Cisco Unified CallManager Express Systems with VoIP," for more details about IP-to-IP gateways.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

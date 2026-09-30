@@ -10,7 +10,7 @@ tags: Features: Announcement Playlist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.760724+00:00
+retrieved_at: 2026-09-30T18:54:54.872971+00:00
 ---
 
 # DELETE /telephony/config/announcements/playlists/{playlistId}

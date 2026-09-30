@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010110-html-bd7f352547
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010110.html
-retrieved_at: 2026-08-21T22:57:30.184319+00:00
+retrieved_at: 2026-09-30T19:01:21.469788+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -555,3 +555,7 @@ Configures a new privilege level for users and associates
 |---|---|
 | privilege | Configures a new privilege level for users and associates
                                           						commands with that privilege level. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

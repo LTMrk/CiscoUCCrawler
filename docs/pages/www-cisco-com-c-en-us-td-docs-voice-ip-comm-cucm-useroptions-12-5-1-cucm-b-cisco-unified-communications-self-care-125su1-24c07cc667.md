@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-12-5-1-cucm-b-cisco-unified-communications-self-care-125su1-24c07cc667
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_cisco-unified-communications-self-care_125SU1/cucm_b_cisco-unified-communications-self-care_125SU1_chapter_0100.html
-retrieved_at: 2026-08-17T00:22:44.001154+00:00
+retrieved_at: 2026-09-30T18:58:17.418409+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 12.5(1) SU1
@@ -46,3 +46,7 @@ Check the Automatically update status when there is a meeting on my calendar che
 | Step 1 | From Unified Communications Self Care Portal , choose IM & Availability > Status Policy . |
 |---|---|
 | Step 2 | Check the Automatically update status when there is a meeting on my calendar check box, click Status Policy , and click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

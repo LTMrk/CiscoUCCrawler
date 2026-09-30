@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-s1ht-html-b03e0be493
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_s1ht.html
-retrieved_at: 2026-08-21T20:39:54.454189+00:00
+retrieved_at: 2026-09-30T19:02:08.263711+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -4557,3 +4557,7 @@ Applies template to voice register pool being configured.
 						phones. |
 | show sip-ua status | Displays the status of SIP call service on a SIP gateway. |
 | template (voice register pool) | Applies template to voice register pool being configured. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

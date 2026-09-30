@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01101-html-34b3dda1f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01101.html
-retrieved_at: 2026-08-21T22:56:42.149488+00:00
+retrieved_at: 2026-09-30T19:01:43.950778+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -496,3 +496,7 @@ Router(config-voice-hunt-group)# overwrite-dyn-stats
 | 15.6(3)M 16.3.1 | Cisco
                                           						Unified CME 11.5 | This
                                           						command was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-12-5-1-cucm-b-selfcare-user-guide-1251-cucm-m-phones-html-53a313c860
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_selfcare-user-guide-1251/cucm_m_phones.html
-retrieved_at: 2026-08-17T00:22:20.795887+00:00
+retrieved_at: 2026-09-30T18:58:30.391218+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 12.5(1)
@@ -608,3 +608,9 @@ Click Save .
 | Step 4 | Click Advanced calling rules . |
 | Step 5 | Use the drop-down list boxes to configure call forwarding options for both internal and external calls. |
 | Step 6 | Click Save . |
+
+## Figuras
+
+![Figure 1. Linked Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347598.jpg)
+
+![Figure 2. Unlinked Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347600.jpg)

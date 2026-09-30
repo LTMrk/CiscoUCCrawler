@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-socccli-html-8363cfcf53
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/SOCCcli.html
-retrieved_at: 2026-08-21T22:58:47.047253+00:00
+retrieved_at: 2026-09-30T18:59:29.459899+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -606,3 +606,7 @@ To configure security on the voice network, see the "Configuring Security on the
 | Step 13 | exit Example: Switch(config-if)# exit | Exits interface configuration mode. |
 | Step 14 | exit Example: Switch(config)# exit | Exits global configuration mode. |
 | Step 15 | wr Example: Switch# wr | Writes the changes to the configuration file. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

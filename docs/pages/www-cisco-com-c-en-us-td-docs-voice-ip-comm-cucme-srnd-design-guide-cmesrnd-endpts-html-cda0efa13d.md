@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-endpts-html-cda0efa13d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/endpts.html
-retrieved_at: 2026-08-21T22:58:30.714706+00:00
+retrieved_at: 2026-09-30T19:02:46.905938+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -3064,3 +3064,7 @@ Y
 
 | 1 Note that the complete names of these products have been truncated to save space in this table (each product number is preceded by the phrase "Cisco Unified IP Phone." 2 One 10BaseT 3 Two 10BaseT/100BaseT 4 One 10BaseT/100BaseT 5 Last Number Redial 6 Supports only unicast MoH 7 One-way listen mode 8 The only supported headset for the Cisco Unified IP Phone 7920 is one with a 2.5 mm jack. 9 Signaling and Media Encryption are available with Static WEP and LEAP security configurations. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

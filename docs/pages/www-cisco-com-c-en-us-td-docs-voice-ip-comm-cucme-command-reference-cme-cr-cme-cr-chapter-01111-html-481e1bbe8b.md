@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01111-html-481e1bbe8b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01111.html
-retrieved_at: 2026-08-21T22:56:57.140810+00:00
+retrieved_at: 2026-09-30T19:02:02.898359+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -2372,3 +2372,7 @@ Initiates the voice translation-rule definition.
 |---|---|
 | show voice translation-rule | Displays the parameters of a translation rule. |
 | voice translation-rule | Initiates the voice translation-rule definition. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

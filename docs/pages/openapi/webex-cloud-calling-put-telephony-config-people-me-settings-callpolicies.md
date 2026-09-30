@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.688277+00:00
+retrieved_at: 2026-09-30T18:54:54.742915+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/callPolicies

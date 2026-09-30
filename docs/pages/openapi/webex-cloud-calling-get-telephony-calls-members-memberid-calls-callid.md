@@ -10,7 +10,7 @@ tags: Call Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.643155+00:00
+retrieved_at: 2026-09-30T18:54:54.697441+00:00
 ---
 
 # GET /telephony/calls/members/{memberId}/calls/{callId}

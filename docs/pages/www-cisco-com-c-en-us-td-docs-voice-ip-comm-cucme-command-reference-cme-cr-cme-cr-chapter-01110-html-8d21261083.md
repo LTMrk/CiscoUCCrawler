@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01110-html-8d21261083
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01110.html
-retrieved_at: 2026-08-21T22:56:52.315575+00:00
+retrieved_at: 2026-09-30T19:01:58.340048+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -11951,3 +11951,7 @@ Specifies which type of tag is used by the extension assigner application to
 |---|---|
 | extension-assigner tag-type | Specifies which type of tag is used by the extension assigner application to
                                           						identify an ephone configuration. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-10-0-english-user-guide-ip05-bk-u2fc56ce-00-user-guide-3905-10-0-1257836ece
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/user_guide/IP05_BK_U2FC56CE_00_user-guide-3905_10_0/IP05_BK_U2FC56CE_00_user-guide-3905_10_0_chapter_00.html
-retrieved_at: 2026-08-21T14:34:05.443676+00:00
+retrieved_at: 2026-09-30T19:04:30.633773+00:00
 ---
 
 Cisco Unified SIP Phone 3905 User Guide for Cisco Unified Communications Manager 10.0 (SIP)
@@ -278,3 +278,11 @@ Be aware of your surroundings. When you use your headset, it may block out impor
 
 |  | High Sound Pressure—Avoid listening to high volume levels for long periods to prevent possible hearing damage. |
 |---|---|
+
+## Figuras
+
+![Figure 1. A rough diagram of connecting a phone to the network](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/310001-311000/310202.eps/_jcr_content/renditions/310202.jpg)
+
+![Figure 2. Adjust the Handset Rest](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

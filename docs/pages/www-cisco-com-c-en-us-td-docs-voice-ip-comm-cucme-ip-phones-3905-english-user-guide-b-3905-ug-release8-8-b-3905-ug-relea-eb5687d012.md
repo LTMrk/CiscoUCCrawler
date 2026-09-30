@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-ip-phones-3905-english-user-guide-b-3905-ug-release8-8-b-3905-ug-relea-eb5687d012
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/3905/english/user/guide/b_3905_ug_release8_8/b_3905_ug_release8_8_chapter_00.html
-retrieved_at: 2026-08-21T14:34:39.454106+00:00
+retrieved_at: 2026-09-30T19:02:15.709619+00:00
 ---
 
 Cisco Unified IP Phone 3905 User Guide for Cisco Unified Communications Manager Express Version 8.8 (SIP)
@@ -161,3 +161,7 @@ You can adjust the handset rest of a wall-mounted phone so that the receiver doe
 | Step 3 | Hold the tab between two fingers, with the small notches (in the corners) facing you. |
 | Step 4 | Make sure the tab lines up evenly with the slot in the cradle. |
 | Step 5 | Slide the tab back into the handset rest. An extension protrudes from the top of the rotated tab. Return the handset to the handset rest. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

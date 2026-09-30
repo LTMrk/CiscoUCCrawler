@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-pref-html-145ebdd38e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/pref.html
-retrieved_at: 2026-08-21T22:57:38.473799+00:00
+retrieved_at: 2026-09-30T19:03:23.939462+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -443,3 +443,7 @@ http://www.cisco.com/web/learning/index.html
 | Convention | Description |
 |---|---|
 | The letter y used in a phone number prefix. | Represents the prefix for a telephone number. Example: 506.5yy.1234. This convention is used when phone numbers outside the range of 555-0100 to 555-0199 are required for a given example. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

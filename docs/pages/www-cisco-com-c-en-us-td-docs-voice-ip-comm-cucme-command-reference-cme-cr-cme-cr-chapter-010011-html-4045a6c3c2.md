@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010011-html-4045a6c3c2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010011.html
-retrieved_at: 2026-08-21T22:57:15.260908+00:00
+retrieved_at: 2026-09-30T19:00:51.022167+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -2959,3 +2959,7 @@ Assigns the phone type to an SCCP phone.
 |---|---|
 | device-id | Specifies the device ID for a phone type. |
 | type | Assigns the phone type to an SCCP phone. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.791830+00:00
+retrieved_at: 2026-09-30T18:54:54.905936+00:00
 ---
 
 # GET /telephony/config/queues/agents/{id}
@@ -86,7 +86,8 @@ curl -X GET '/telephony/config/queues/agents/<id>' \
       "name": "RCDN",
       "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzZhZjk4ZGViLWVlZGItNGFmYi1hMDAzLTEzNzgyYjdjODAxYw"
     },
-    "type": "PEOPLE"
+    "type": "PEOPLE",
+    "agentACDState": "AVAILABLE"
   },
   "queues": [
     {

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01011-html-c668ce8ed9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01011.html
-retrieved_at: 2026-08-21T22:56:32.977838+00:00
+retrieved_at: 2026-09-30T19:01:17.821114+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -5832,3 +5832,7 @@ Associates a telephone or extension number with a directory
 | mwi (ephone and ephone template) | Enables a directory number to receive MWI. |
 | number | Associates a telephone or extension number with a directory
                                           						number in a Cisco Unified CME system. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

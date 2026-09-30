@@ -10,7 +10,7 @@ tags: User Call Settings Members
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.915026+00:00
+retrieved_at: 2026-09-30T18:54:55.033389+00:00
 ---
 
 # GET /telephony/voiceMessages/members/{memberId}/memberships

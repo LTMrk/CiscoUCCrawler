@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-12-5-1-cucm-b-selfcare-user-guide-1251-cucm-mp-cc679b45-00--15f310991b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/12_5_1/cucm_b_selfcare-user-guide-1251/cucm_mp_cc679b45_00_cisco-unified-communications-self-care.html
-retrieved_at: 2026-08-17T00:22:15.661761+00:00
+retrieved_at: 2026-09-30T18:58:34.582207+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 12.5(1)
@@ -100,3 +100,9 @@ Enter your username and password and click Sign In .
 | Note | Cisco Jabber users can access the portal directly from the Jabber client interface by selecting the Self Care Portal option
                                           within the Settings menu. |
 |---|---|
+
+## Figuras
+
+![Figure 1. User Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347599.tif/_jcr_content/renditions/347599.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

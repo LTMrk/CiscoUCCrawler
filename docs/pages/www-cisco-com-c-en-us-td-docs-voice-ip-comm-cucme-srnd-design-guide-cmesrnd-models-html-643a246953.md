@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-models-html-643a246953
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/models.html
-retrieved_at: 2026-08-21T22:57:46.579209+00:00
+retrieved_at: 2026-09-30T19:03:10.628333+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -222,12 +222,12 @@ Place the IP phone handset into a coupling device on the TTY/TDD. Acoustic coupl
 
 • If stutter dial tone is required, use an analog phone in conjunction with an FXS port on the Cisco VG224 or Cisco ATA 188.
 
-### Customers Also Viewed
-
-- Cisco Unified CallManager Express Solution Reference Network Design Guide --- Network Infrastructure
-
 | Call Processing Agent | Recommended Size | Comments |
 |---|---|---|
 | Cisco Unified CME | Up to 240 phones | • For small remote sites. • Capacity depends on Cisco IOS platform; see platform-specific support documentation for more details. |
 | Cisco Unified CallManager | 50 to 30,000 phones | • Small to large sites, depending on the size of the Cisco Unified CallManager cluster. • Supports centralized or distributed call processing. |
 | Legacy PBX with VoIP gateway | Depends on PBX | • Number of IP WAN calls and functionality depend on the PBX-to-VoIP gateway protocol and the gateway platform. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

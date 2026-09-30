@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-0101-html-0d587a51e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_0101.html
-retrieved_at: 2026-08-21T22:56:03.434326+00:00
+retrieved_at: 2026-09-30T19:00:55.655101+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -2414,3 +2414,7 @@ Performs a fast reboot of one or all phones associated with
                                           						Cisco CME router. |
 | restart (telephony-service) | Performs a fast reboot of one or all phones associated with
                                           						a Cisco CME router. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-010100-html-90586279d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_010100.html
-retrieved_at: 2026-08-21T22:57:22.306359+00:00
+retrieved_at: 2026-09-30T19:01:07.325386+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -5903,3 +5903,7 @@ Defines a vpn-group.
 | Command | Description |
 |---|---|
 | vpn-grouptrustpoint | Defines a vpn-group. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

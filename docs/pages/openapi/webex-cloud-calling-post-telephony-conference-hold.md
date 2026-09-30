@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.720663+00:00
+retrieved_at: 2026-09-30T18:54:54.829980+00:00
 ---
 
 # POST /telephony/conference/hold

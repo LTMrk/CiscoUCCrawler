@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-gatewy-html-1db91da3ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/gatewy.html
-retrieved_at: 2026-08-21T22:57:55.831786+00:00
+retrieved_at: 2026-09-30T19:02:54.937919+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -1057,3 +1057,7 @@ Note For more information about the preference command in relation to dial peer 
 | NM-HDV2 | Analog, BRI, T1, and E1 | Up to 4 T1/E1 ports, or 2 T1/E1 ports and 2 BRI ports. Up to 120 voice channels. Has up to 2 onboard T1/E1 ports. For the additional ports, a VWIC-1MFT-T1/E1 or VWIC-2MFT-T1/E1 is used. For BRI, the VIC2-2BRI-NT/TE card is used inside the NM. |
 | EVM-HD-8FXS/DID, EM-4BRI-NT/TE | Analog and BRI | Up to 8 BRI ports (16 voice channels). |
 | VWIC-1MFT-T1/E1 or VWIC-2MFT-T1/E1 in a WIC slot | T1 and E1 | Up to 2 T1/E1 ports. Channel density depends on the router platform and where the DSPs are accessed from. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucmac-os-license-cuac-lic-html-f1cb92349c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucmac/os_license/cuac_lic.html
-retrieved_at: 2026-09-07T15:48:20.725780+00:00
+retrieved_at: 2026-09-30T18:58:59.072773+00:00
 ---
 
 Open Source License Notices for Cisco Unified Attendant Consoles
@@ -97,3 +97,7 @@ The license and distribution terms for any publicly available version or derivat
 ### This Document Applies to These Products
 
 - Unified Attendant Consoles
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

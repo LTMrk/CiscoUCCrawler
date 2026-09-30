@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.886305+00:00
+retrieved_at: 2026-09-30T18:54:55.004686+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/numbers

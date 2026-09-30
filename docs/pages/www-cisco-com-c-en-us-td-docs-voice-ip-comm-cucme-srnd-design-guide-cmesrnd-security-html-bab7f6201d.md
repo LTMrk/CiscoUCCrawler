@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-security-html-bab7f6201d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/security.html
-retrieved_at: 2026-08-21T22:58:21.574190+00:00
+retrieved_at: 2026-09-30T19:03:28.871772+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -2363,3 +2363,7 @@ Cisco Unified CME CLI access
 | SSH | TCP 22 | Secure Cisco Unified CME CLI access |
 | Syslog | UDP 514 | System monitoring, CDR accounting |
 | Telnet | TCP 23 | Cisco Unified CME CLI access |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

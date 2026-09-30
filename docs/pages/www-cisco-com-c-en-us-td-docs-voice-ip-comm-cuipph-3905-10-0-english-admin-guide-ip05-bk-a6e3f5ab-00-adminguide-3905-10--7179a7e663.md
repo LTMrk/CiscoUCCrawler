@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-10-0-english-admin-guide-ip05-bk-a6e3f5ab-00-adminguide-3905-10--7179a7e663
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01001.html
-retrieved_at: 2026-08-21T14:35:25.844524+00:00
+retrieved_at: 2026-09-30T19:03:49.981457+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Administration Guide for Cisco Unified Communications Manager 10.0
@@ -2164,3 +2164,7 @@ When the RTCP Control Protocol is disabled, no data generates for this field and
 | Note | The MOS LQK score can vary based on the type of codec that
                                                          						the Cisco Unified IP Phone uses. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

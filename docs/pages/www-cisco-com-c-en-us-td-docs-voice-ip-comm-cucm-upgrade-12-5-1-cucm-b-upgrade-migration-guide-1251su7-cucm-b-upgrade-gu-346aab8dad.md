@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-12-5-1-cucm-b-upgrade-migration-guide-1251su7-cucm-b-upgrade-gu-346aab8dad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su7/cucm_b_upgrade-guide-1251su2_chapter_00.html
-retrieved_at: 2026-08-17T00:08:07.249107+00:00
+retrieved_at: 2026-09-30T18:55:53.394838+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU7
@@ -1445,3 +1445,7 @@ Cisco Collaboration Sizing Tool at http://tools.cisco.com/cucst .
 | Replace existing hardware while preserving the configuration | Replace a Single Server or Cluster for Cisco Unified Communications Manager at https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-guides-list.html . |
 | Review VMware requirements | For VMware requirements and best practices, go to https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html . For VMware vendor documentation, go to http://www.VMware.com . |
 | Additional Planning and Sizing Resources | These documents also contain information that may help you to plan and size your upgraded system: Cisco Collaboration Systems Solution Reference Network Designs (SRND) for at http://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/products-implementation-design-guides-list.html . Cisco Preferred Architecture guides and Cisco Validated Design guides at http://www.cisco.com/c/en/us/solutions/enterprise/design-zone-collaboration/index.html . Collaboration Virtual Machine Replacement Tool at http://ucs.cloudapps.cisco.com/ . Cisco Quote Collab Tool at http://www.cisco.com/go/quotecollab . Cisco Collaboration Sizing Tool at http://tools.cisco.com/cucst . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

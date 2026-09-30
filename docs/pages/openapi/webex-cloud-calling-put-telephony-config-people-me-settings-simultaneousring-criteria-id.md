@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 4
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.712118+00:00
+retrieved_at: 2026-09-30T18:54:54.820348+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/simultaneousRing/criteria/{id}

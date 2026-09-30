@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.657978+00:00
+retrieved_at: 2026-09-30T18:54:54.711979+00:00
 ---
 
 # PUT /telephony/config/premisePstn/dialPlans/{dialPlanId}/dialPatterns

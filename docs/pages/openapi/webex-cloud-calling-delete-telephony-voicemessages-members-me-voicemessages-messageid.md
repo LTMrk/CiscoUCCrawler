@@ -10,7 +10,7 @@ tags: User Call Settings Members Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.915759+00:00
+retrieved_at: 2026-09-30T18:54:55.034145+00:00
 ---
 
 # DELETE /telephony/voiceMessages/members/me/voiceMessages/{messageId}

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-ip-phones-6901-6911-english-user-guide-b-6901-11-ug-release9-0-b-6901--e832c16294
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/ip_phones/6901_6911/english/user/guide/b_6901_11_ug_release9_0/b_6901_11_ug_release9_0_chapter_01.html
-retrieved_at: 2026-08-21T14:26:58.575088+00:00
+retrieved_at: 2026-09-30T19:02:32.826348+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 User Guide for Cisco Unified Communications Manager Express Version 9.0 (SIP)
@@ -369,3 +369,7 @@ To check for voice messages:
 | Step 3 | Enter the transfer recipient’s phone number or press a Speed Dial button. |
 | Step 4 | Wait for the recipient to answer. You may skip to Step 5 while the call is ringing. |
 | Step 5 | Press the Transfer button again. The transfer is complete. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

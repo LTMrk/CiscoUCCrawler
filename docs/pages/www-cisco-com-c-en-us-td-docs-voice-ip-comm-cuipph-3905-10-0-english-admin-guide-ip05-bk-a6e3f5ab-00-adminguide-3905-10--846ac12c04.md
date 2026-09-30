@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-10-0-english-admin-guide-ip05-bk-a6e3f5ab-00-adminguide-3905-10--846ac12c04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_010.html
-retrieved_at: 2026-08-21T14:34:56.423854+00:00
+retrieved_at: 2026-09-30T19:03:36.493974+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Administration Guide for Cisco Unified Communications Manager 10.0
@@ -209,3 +209,9 @@ Voice Messaging System
 | Auto Barge | cBarge |
 | Message Indicators | Message Waiting Indicator (MWI) or Message Waiting Lamp |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. A rough diagram of connecting a phone to the network](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/310001-311000/310202.eps/_jcr_content/renditions/310202.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

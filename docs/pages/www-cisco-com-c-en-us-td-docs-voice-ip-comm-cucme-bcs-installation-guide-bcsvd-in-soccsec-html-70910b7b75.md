@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-soccsec-html-70910b7b75
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/SOCCsec.html
-retrieved_at: 2026-08-21T22:58:50.916645+00:00
+retrieved_at: 2026-09-30T18:59:33.422502+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -265,3 +265,7 @@ Step 10 Click Yes to exit Security Audit Wizard (see Figure 148 ):
 Figure 148 Exiting Security Audit Wizard
 
 The installation of Cisco BCS Verified Designs is now finished.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

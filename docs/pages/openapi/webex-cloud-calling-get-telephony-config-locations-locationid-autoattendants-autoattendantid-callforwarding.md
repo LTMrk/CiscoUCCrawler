@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.769345+00:00
+retrieved_at: 2026-09-30T18:54:54.881773+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding

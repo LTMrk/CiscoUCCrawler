@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-dialplan-html-7af2d63a31
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/dialplan.html
-retrieved_at: 2026-08-21T22:58:16.530205+00:00
+retrieved_at: 2026-09-30T19:02:41.108705+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -247,3 +247,7 @@ There are also other special types of numbers, such as the AA and voice mail pil
 Class of Restriction (COR) and call blocking are features that determine which numbers might not be dialed on the system.
 
 Note Dial plans are a wide topic that extends well beyond the scope of Cisco Unified CME. Visit the Cisco.com website and search for "Cisco Unified CME dial plans" for more information.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

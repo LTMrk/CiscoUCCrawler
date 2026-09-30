@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.930969+00:00
+retrieved_at: 2026-09-30T18:54:55.048697+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/callBridge

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-01-html-4cb25dccb3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_01.html
-retrieved_at: 2026-08-21T22:55:44.914442+00:00
+retrieved_at: 2026-09-30T18:59:52.413939+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -2318,3 +2318,7 @@ Displays ephone-template configurations.
 |---|---|
 | ephone-template (ephone) | Applies template to an ephone. |
 | show telephony-service ephone-template | Displays ephone-template configurations. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

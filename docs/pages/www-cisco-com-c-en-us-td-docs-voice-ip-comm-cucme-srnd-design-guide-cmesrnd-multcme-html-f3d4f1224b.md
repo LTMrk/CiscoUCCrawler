@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-multcme-html-f3d4f1224b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/multcme.html
-retrieved_at: 2026-08-21T22:58:04.424153+00:00
+retrieved_at: 2026-09-30T19:03:15.831969+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -1561,3 +1561,7 @@ Because Cisco Unified CME is based on top of the H.323 and SIP software that is 
 | H.225 RAS | 1719 | UDP |
 | Unicast GK Discovery | 1718 | UDP |
 | Multicast GK Discovery | 223.0.1.4 | UDP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

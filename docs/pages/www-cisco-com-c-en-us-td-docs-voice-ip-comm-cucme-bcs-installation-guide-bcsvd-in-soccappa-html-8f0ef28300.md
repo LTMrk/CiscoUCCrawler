@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-soccappa-html-8f0ef28300
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/SOCCAppA.html
-retrieved_at: 2026-08-21T22:58:54.975615+00:00
+retrieved_at: 2026-09-30T18:59:20.308977+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -23,3 +23,9 @@ For information about recommended Cisco Unified CME version, see the Cisco Unifi
 For information about the number of phones supported on a Cisco router, see the Supported Firmware, Platforms, Memory, and Voice for your Cisco Unified CME version at http://www.cisco.com/en/US/products/sw/voicesw/ps4625/products_device_support_tables_list.html
 
 For information about Cisco routers, see Cisco Integrated Service Routers at http://www.cisco.com/en/US/products/hw/routers/index.html#~all-prod
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

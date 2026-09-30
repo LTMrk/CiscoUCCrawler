@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.880964+00:00
+retrieved_at: 2026-09-30T18:54:54.999099+00:00
 ---
 
 # GET /telephony/config/jobs/person/moveLocation

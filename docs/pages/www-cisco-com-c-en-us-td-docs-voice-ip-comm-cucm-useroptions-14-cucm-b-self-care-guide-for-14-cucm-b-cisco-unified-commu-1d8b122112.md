@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-14-cucm-b-self-care-guide-for-14-cucm-b-cisco-unified-commu-1d8b122112
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/cucm_b_self-care-guide-for-14/cucm_b_cisco-unified-communications-self-care_125SU1_chapter_01.html
-retrieved_at: 2026-08-17T00:21:58.544218+00:00
+retrieved_at: 2026-09-30T18:58:38.853771+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 14
@@ -114,3 +114,9 @@ Edit a phone setting, update the name and description of your additional phone, 
 |  | Linked | Share an updated setting with your other phones. |
 |  | Unlinked | Unshare an updated setting with your other phones. |
 |  | Settings | Edit a phone setting, update the name and description of your additional phone, and download a phone manual. |
+
+## Figuras
+
+![Figure 1. Self Care Portal Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394048.tif/_jcr_content/renditions/394048.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

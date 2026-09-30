@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.865632+00:00
+retrieved_at: 2026-09-30T18:54:54.983302+00:00
 ---
 
 # GET /people/{personId}/features/bargeIn

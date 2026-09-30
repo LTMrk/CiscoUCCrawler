@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.947576+00:00
+retrieved_at: 2026-09-30T18:54:55.065104+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/features/intercept/actions/announcementUpload/invoke

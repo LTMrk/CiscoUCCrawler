@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-14-0-1-cucm-b-upgrade-and-migration-guide-14su3-cucm-m-sequenci-54e6e48cd4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/14_0_1/cucm_b_upgrade-and-migration-guide_14su3/cucm_m_sequencing-rules-time-requirements-1251.html
-retrieved_at: 2026-08-17T00:05:10.121355+00:00
+retrieved_at: 2026-09-30T18:58:04.916759+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14SU3 and SU4
@@ -450,3 +450,7 @@ a system that is healthy and that has been optimized for the upgrade, as describ
 
 | Note | WAN latency can significantly lengthen these times. The maximum WAN latency accepted is 80m. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

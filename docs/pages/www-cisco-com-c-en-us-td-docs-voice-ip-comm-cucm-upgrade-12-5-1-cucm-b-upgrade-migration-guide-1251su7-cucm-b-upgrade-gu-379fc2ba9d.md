@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-12-5-1-cucm-b-upgrade-migration-guide-1251su7-cucm-b-upgrade-gu-379fc2ba9d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su7/cucm_b_upgrade-guide-1251su2_chapter_01101.html
-retrieved_at: 2026-08-17T00:08:29.589315+00:00
+retrieved_at: 2026-09-30T18:56:14.919014+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU7
@@ -1379,3 +1379,7 @@ Select Cisco Emergency Responder and click Restart .
 | Step 1 | From the Cisco Emergency Responder serviceability interface, select Tools > Control Center . |
 |---|---|
 | Step 2 | Select Cisco Emergency Responder and click Restart . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

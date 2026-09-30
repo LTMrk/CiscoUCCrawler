@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-qctsyspm-html-7779a1d49c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/QCTsyspm.html
-retrieved_at: 2026-08-21T22:58:43.195715+00:00
+retrieved_at: 2026-09-30T18:59:16.961246+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -819,3 +819,7 @@ After entering configuration parameters for Cisco SOCC, you are ready to use the
 | Call Forward Busy | Enter the extension number where you want to transfer calls to if an incoming call to an extension is busy. |
 | Call Forward No Answer | Enter the extension number where you want to transfer calls to if an incoming call to an extension is not answered. |
 | Ringing Timeout | Specify a value in seconds before transferring an unanswered call to another extension. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

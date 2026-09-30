@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.741113+00:00
+retrieved_at: 2026-09-30T18:54:54.852798+00:00
 ---
 
 # POST /telephony/config/jobs/devices/callDeviceSettings

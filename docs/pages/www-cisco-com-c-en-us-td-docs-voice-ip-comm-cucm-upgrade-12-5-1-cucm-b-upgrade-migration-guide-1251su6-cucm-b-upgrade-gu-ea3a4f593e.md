@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-12-5-1-cucm-b-upgrade-migration-guide-1251su6-cucm-b-upgrade-gu-ea3a4f593e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-1251su6/cucm_b_upgrade-guide-1251su2_chapter_01001.html
-retrieved_at: 2026-08-17T00:09:04.070073+00:00
+retrieved_at: 2026-09-30T18:55:19.746421+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU6
@@ -1996,3 +1996,7 @@ Confirm that the external database is running and that all chat rooms are visibl
 
 | Note | Contact Cisco TAC to obtain a copy of this script. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

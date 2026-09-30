@@ -10,7 +10,7 @@ tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.860151+00:00
+retrieved_at: 2026-09-30T18:54:54.977531+00:00
 ---
 
 # POST /telephony/pstn/locations/{locationId}/emergencyAddress/lookup

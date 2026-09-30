@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-0100-html-9c95566b1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_0100.html
-retrieved_at: 2026-08-21T22:55:58.833738+00:00
+retrieved_at: 2026-09-30T19:00:08.637907+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -3524,3 +3524,7 @@ Router(config)# voice register global Router(config-register-global)# external-r
 | Cisco IOS Release | Cisco Product | Modification |
 |---|---|---|
 | 12.4(4)T | Cisco CME 3.4 Cisco SIP SRST 3.4 | This command was introduced. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

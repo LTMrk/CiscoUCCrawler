@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-useroptions-14-cucm-b-self-care-guide-for-14-cucm-b-cisco-unified-commu-b52d7dc1be
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/useroptions/14/cucm_b_self-care-guide-for-14/cucm_b_cisco-unified-communications-self-care_125SU1_chapter_010.html
-retrieved_at: 2026-08-17T00:22:02.312457+00:00
+retrieved_at: 2026-09-30T18:58:43.071152+00:00
 ---
 
 Cisco Unified Communications Self Care Portal User Guide, Release 14
@@ -190,3 +190,7 @@ From Unified Communications Self Care Portal , click your display name, and choo
 | Step 1 | From Unified Communications Self Care Portal , choose Phones > My Phones . |
 |---|---|
 | Step 2 | Hover over your additional phone, click the Settings icon, and choose Download Manual . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

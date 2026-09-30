@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-upgrade-12-5-1-cucm-b-upgrade-migration-guide-125x-cucm-b-upgrade-guide-e6bc61a771
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/upgrade/12_5_1/cucm_b_upgrade-migration-guide-125x/cucm_b_upgrade-guide-1251su2_chapter_0110.html
-retrieved_at: 2026-08-17T00:06:57.193796+00:00
+retrieved_at: 2026-09-30T18:56:44.025267+00:00
 ---
 
 Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)
@@ -117,3 +117,7 @@ For information about upgrading your AXL applications, see https://developer.cis
                                                       110GB OVA template and rebuilt the node. Or on current 80GB OVA, prior to clean install, go to VM > Edit Settings , and increase the HDD size from 80GB to 90GB/110GB. Other specs remain the same. Adding HDD disk to the system already installed
                                                       only adds additional HDD space to common partition. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

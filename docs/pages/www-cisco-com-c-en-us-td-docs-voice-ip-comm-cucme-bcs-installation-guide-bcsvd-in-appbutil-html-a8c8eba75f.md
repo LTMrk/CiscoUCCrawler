@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-appbutil-html-a8c8eba75f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/AppBUtil.html
-retrieved_at: 2026-08-21T22:58:59.416965+00:00
+retrieved_at: 2026-09-30T18:59:03.201858+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -115,3 +115,7 @@ Figure 155 Logs Folder
 | Display Configuration | Enables the display of the configuration on your PC when the Generate Configuration button is pressed. |
 | Enable Debug | Enables debugging after pushing configuration to router. |
 | Enable Logging | Enables logging after pushing configuration to router. Log information is stored in a folder named logs inside your locally installed QCT folder (see Figure 155 ). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

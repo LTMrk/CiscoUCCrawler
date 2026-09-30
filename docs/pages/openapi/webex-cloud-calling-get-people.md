@@ -10,7 +10,7 @@ tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.856566+00:00
+retrieved_at: 2026-09-30T18:54:54.974103+00:00
 ---
 
 # GET /people

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-10-0-english-admin-guide-ip05-bk-a6e3f5ab-00-adminguide-3905-10--e9794a9600
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_01010.html
-retrieved_at: 2026-08-21T14:35:29.615079+00:00
+retrieved_at: 2026-09-30T19:03:58.069638+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Administration Guide for Cisco Unified Communications Manager 10.0
@@ -869,3 +869,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8
 
 | Check that the DNS Server 1 field is set correctly. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

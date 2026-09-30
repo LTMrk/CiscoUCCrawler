@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-bcs-installation-guide-bcsvd-in-socccfig-html-8daaa36b1d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/bcs/installation/guide/bcsvd_in/SOCCcfig.html
-retrieved_at: 2026-08-21T22:59:04.511970+00:00
+retrieved_at: 2026-09-30T18:59:25.571185+00:00
 ---
 
 Installing Cisco Business Communications Solution Verified Designs
@@ -2882,3 +2882,7 @@ login
 ```
 end
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-intro-html-42cdba8f53
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/intro.html
-retrieved_at: 2026-08-21T22:57:42.500844+00:00
+retrieved_at: 2026-09-30T19:03:02.591120+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -207,3 +207,7 @@ CiscoWorks IP Communications Operations Manager (CiscoWorks IPCOM) provides a
 • Alerts and activities display (AAD) — Provides a proactive, web-based operations screen for real-time status and alerting of actual and suspected problems in the underlying IP network as well as in the Cisco Unified IP Telephony implementation.
 
 • Cisco Unified IPCOM Multiview — Enables large enterprise customers and managed service providers to partition specific user communities and manage each from a single Cisco Unified IPCOM implementation.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

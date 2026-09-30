@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-nstrct-html-0576138a63
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/nstrct.html
-retrieved_at: 2026-08-21T22:57:51.660879+00:00
+retrieved_at: 2026-09-30T19:03:20.092008+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -1298,10 +1298,6 @@ Note The QBSS value is simply an estimation of the channel utilization for a par
 
 The QBSS information element is sent by the AP only if QoS Element for Wireless Phones has been enable on the AP. (See the "Wireless AP Configuration and Design" section .)
 
-### Customers Also Viewed
-
-- Cisco Unified CallManager Express Solution Reference Network Design Guide --- IP Telephony Deployment Models
-
 | Infrastructure Role | Required Features |
 |---|---|
 | Campus Access Switch | • In-Line Power • Multiple Queue Support • 802.1p and 802.1Q • Fast Link Convergence |
@@ -1354,3 +1350,7 @@ The QBSS information element is sent by the AP only if QoS Element for Wireless 
 
 | 1 140 kbps of unnecessary bandwidth must be configured in the LLQ voice class. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

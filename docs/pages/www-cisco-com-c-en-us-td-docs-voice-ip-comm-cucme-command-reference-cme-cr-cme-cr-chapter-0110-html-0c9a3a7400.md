@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-cr-chapter-0110-html-0c9a3a7400
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_cr_chapter_0110.html
-retrieved_at: 2026-08-21T22:56:07.033019+00:00
+retrieved_at: 2026-09-30T19:01:34.269175+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -681,3 +681,7 @@ Enters
 | voice register
                                                 							 template | Enters
                                           						voice register template configuration mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

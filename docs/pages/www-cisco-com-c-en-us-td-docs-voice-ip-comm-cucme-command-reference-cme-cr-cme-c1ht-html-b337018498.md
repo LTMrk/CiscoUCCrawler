@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-command-reference-cme-cr-cme-c1ht-html-b337018498
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/command/reference/cme_cr/cme_c1ht.html
-retrieved_at: 2026-08-21T20:40:07.233378+00:00
+retrieved_at: 2026-09-30T18:59:42.382194+00:00
 ---
 
 Cisco Unified Communications Manager Express Command Reference
@@ -10051,3 +10051,7 @@ Specifies the name of the trustpoint to be associated with a
 					 SRST router. |
 | trustpoint (credentials) | Specifies the name of the trustpoint to be associated with a
 					 Cisco Unified CME CTL provider certificate or with an SRST router certificate. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

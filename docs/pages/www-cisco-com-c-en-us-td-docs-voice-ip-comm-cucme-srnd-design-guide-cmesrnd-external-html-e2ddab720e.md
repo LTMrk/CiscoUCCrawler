@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucme-srnd-design-guide-cmesrnd-external-html-e2ddab720e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/srnd/design/guide/cmesrnd/external.html
-retrieved_at: 2026-08-21T22:58:12.876722+00:00
+retrieved_at: 2026-09-30T19:02:50.995722+00:00
 ---
 
 Cisco Unified CallManager Express Solution Reference Network Design Guide
@@ -1588,3 +1588,7 @@ You can have a services button, a directory button, and an idle phone applicatio
 | lineSetStatusMessages | TSPI_lineSetStatusMessages | Lets TAPI specify which notification messages the service provider should generate for events related to status changes for the specified line or any of its addresses. |
 | lineSetupTransfer | TSPI_lineSetupTransfer | Initiates a transfer of a call. |
 | lineUnhold | TSPI_lineUnhold | Retrieves the specified held call. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

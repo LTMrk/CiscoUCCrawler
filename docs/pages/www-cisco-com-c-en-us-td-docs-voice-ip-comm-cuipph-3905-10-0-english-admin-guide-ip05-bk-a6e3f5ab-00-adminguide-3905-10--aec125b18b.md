@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-10-0-english-admin-guide-ip05-bk-a6e3f5ab-00-adminguide-3905-10--aec125b18b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/10_0/english/admin_guide/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0/IP05_BK_A6E3F5AB_00_adminguide-3905-10_0_chapter_0101.html
-retrieved_at: 2026-08-21T14:35:08.182939+00:00
+retrieved_at: 2026-09-30T19:03:53.630720+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Administration Guide for Cisco Unified Communications Manager 10.0
@@ -126,3 +126,7 @@ Select Save .
 | Step 2 | In the Self Care Portal area, set the Self Care Portal Default Server field. |
 | Step 3 | Enable or disable the parameters that the users can access in the portal. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

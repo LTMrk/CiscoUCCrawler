@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:19.700080+00:00
+retrieved_at: 2026-09-30T18:54:54.757719+00:00
 ---
 
 # GET /telephony/config/people/me/location/assignedNumbers
