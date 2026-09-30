@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-firmware-9-4-1-sr1-english-releasenotes-ip05-bk-304441da-00-3905-d3ebccbb4f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR1/english/releasenotes/IP05_BK_304441DA_00_3905-rn-941-sr1/IP05_BK_304441DA_00_3905-rn-941-sr1_chapter_00.html
-retrieved_at: 2026-08-21T14:31:20.691803+00:00
+retrieved_at: 2026-09-30T19:07:05.342441+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Release Notes for Firmware Release 9.4(1)SR1
@@ -525,3 +525,7 @@ requests |
 
 | Note | The following information will be added to the "Make Calls" section of the next version of the User Guide. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

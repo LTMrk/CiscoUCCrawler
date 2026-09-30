@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-8800-english-accessories-p881-b-accessorie-guide-for-cisco-ip-p8-edbd8d6d5d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip/p881_b_accessorie-guide-for-cisco-ip_chapter_01.html
-retrieved_at: 2026-08-21T13:25:36.356197+00:00
+retrieved_at: 2026-09-30T19:10:47.495962+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Accessories Guide for Cisco Unified Communications Manager
@@ -618,3 +618,13 @@ Cisco IP Phone 8851 with 2 expansion modules: 802.3at PoE is supported only with
                                                 version information on the lower back of the phone as part of the TAN and PID label. Version information is also located on
                                                 the individual phone packaging. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 8865 with Three Cisco IP Phone 8865 Key Expansion Modules](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425427.jpg)
+
+![Figure 2. Cisco IP Phone 8861 with Three Cisco IP Phone 8800 Key Expansion Modules](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415831.jpg)
+
+![Figure 4. A Cisco IP Phone 8800 Key Expansion Module in One Column Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393625.tif/_jcr_content/renditions/393625.jpg)
+
+![Figure 5. A Cisco IP Phone 8800 Key Expansion Module in Two Column Mode](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415833.jpg)

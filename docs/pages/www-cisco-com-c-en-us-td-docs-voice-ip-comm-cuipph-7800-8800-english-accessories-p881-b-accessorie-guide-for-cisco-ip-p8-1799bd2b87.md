@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-8800-english-accessories-p881-b-accessorie-guide-for-cisco-ip-p8-1799bd2b87
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip/p881_b_accessorie-guide-for-cisco-ip_chapter_0100.html
-retrieved_at: 2026-08-21T13:25:44.318039+00:00
+retrieved_at: 2026-09-30T19:10:55.972721+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Accessories Guide for Cisco Unified Communications Manager
@@ -231,3 +231,13 @@ Using poor quality
                                        		  the microphone very close to the loudspeaker may result in undesirable echo for
                                        		  other parties on your speakerphone calls. |
 |---|---|
+
+## Figuras
+
+![Silicone case installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455568.jpg)
+
+![Cisco IP Phone handset silicone case](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455569.jpg)
+
+![Cisco IP phone handset case installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455570.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

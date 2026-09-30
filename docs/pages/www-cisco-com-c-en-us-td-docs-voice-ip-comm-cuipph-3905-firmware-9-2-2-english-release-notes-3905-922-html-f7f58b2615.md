@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-firmware-9-2-2-english-release-notes-3905-922-html-f7f58b2615
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9_2_2/english/release/notes/3905_922.html
-retrieved_at: 2026-08-21T06:25:23.143328+00:00
+retrieved_at: 2026-09-30T19:07:29.404845+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Release Notes for Firmware Release 9.2(2)
@@ -280,3 +280,7 @@ Subscribe to the What's New in Cisco Product Documentation as a Really Simple Sy
 |---|---|
 | CSCtq01228 | Phone MWI will not light until back to idle screen |
 | CSCtq12036 | Incoming call fails when caller ID and display name exceeds 48 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-b7b6da85a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_preface_00.html
-retrieved_at: 2026-08-21T14:27:11.830959+00:00
+retrieved_at: 2026-09-30T19:09:26.626146+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -312,3 +312,7 @@ SAVE THESE INSTRUCTIONS
                                           				  statement number provided at the end of each warning to locate its translation
                                           				  in the translated safety warnings that accompanied this device. Statement 1071 SAVE THESE INSTRUCTIONS |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

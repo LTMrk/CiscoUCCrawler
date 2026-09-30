@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-84486585f1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_appendix_01101.html
-retrieved_at: 2026-08-21T14:04:41.510840+00:00
+retrieved_at: 2026-09-30T19:08:40.739213+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -218,6 +218,10 @@ Hold the tab between two fingers, with the corner notches facing you.
 Line up the tab with the slot in the cradle, and press the tab evenly into the slot. An extension protrudes from the top of
                                           the rotated tab. Return the handset to the handset rest.
 
+### Customers Also Viewed
+
+- Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP) --- Troubleshooting and Maintenance
+
 | 1 | RJ45 Connector | 2 | Leviton Wall Mount Plate |
 |---|---|---|---|
 
@@ -283,3 +287,29 @@ Line up the tab with the slot in the cradle, and press the tab evenly into the s
 | 3 | Hold the tab between two fingers, with the corner notches facing you. |
 | 4 | Line up the tab with the slot in the cradle, and press the tab evenly into the slot. An extension protrudes from the top of
                                           the rotated tab. Return the handset to the handset rest. |
+
+## Figuras
+
+![Figure 1. Leviton Wall Mount plate](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253654.eps/_jcr_content/renditions/253654.jpg)
+
+![Figure 2. RJ45 Connector in the Phone Jack](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253655.eps/_jcr_content/renditions/253655.jpg)
+
+![Figure 3. RJ45 Connector in the Wall Mount Jack](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253656.eps/_jcr_content/renditions/253656.jpg)
+
+![Figure 4. Mounting Holes](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253657.eps/_jcr_content/renditions/253657.jpg)
+
+![Figure 5. Sliding the IP Phone](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253658.eps/_jcr_content/renditions/253658.jpg)
+
+![Figure 6. Wall Mount Kit for Cisco Unified IP Phone 6911](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274935.eps/_jcr_content/renditions/274935.jpg)
+
+![Figure 7. Mounting the Wall Bracket](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274936.eps/_jcr_content/renditions/274936.jpg)
+
+![Figure 8. Attaching the Phone Bracket](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274937.eps/_jcr_content/renditions/274937.jpg)
+
+![Figure 9. Attaching the Cables](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274939.eps/_jcr_content/renditions/274939.jpg)
+
+![Figure 10. Attaching the Phone to the Wall Bracket](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/275001-276000/275668.eps/_jcr_content/renditions/275668.jpg)
+
+![Figure 11. Adjust the Handset Hook](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

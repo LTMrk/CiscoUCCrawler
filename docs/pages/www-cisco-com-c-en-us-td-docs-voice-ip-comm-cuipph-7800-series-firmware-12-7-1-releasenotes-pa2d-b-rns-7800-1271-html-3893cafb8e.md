@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-firmware-12-7-1-releasenotes-pa2d-b-rns-7800-1271-html-3893cafb8e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-7-1/releasenotes/pa2d_b_rns-7800-1271.html
-retrieved_at: 2026-08-21T13:23:58.779299+00:00
+retrieved_at: 2026-09-30T19:14:11.248714+00:00
 ---
 
 Cisco IP Phone 7800 Series Release Notes for Firmware Release 12.7(1)
@@ -443,3 +443,7 @@ The latest
                                  			 Locale Installer may not be immediately available; continue to check the
                                  			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

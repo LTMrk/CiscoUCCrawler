@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-e25bb9d29d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_011.html
-retrieved_at: 2026-08-21T13:26:05.220000+00:00
+retrieved_at: 2026-09-30T19:12:43.057109+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -554,3 +554,21 @@ Voice Messaging System
 | Message Indicators | Message Waiting Indicator (MWI) or Message Waiting Lamp |
 | Programmable Feature Button | Programmable Button or Programmable Line Key (PLK) |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 7800 Series Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393087.eps/_jcr_content/renditions/393087.jpg)
+
+![Feature button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381329.tif/_jcr_content/renditions/381329.jpg)
+
+![Softkey button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381339.tif/_jcr_content/renditions/381339.jpg)
+
+![Navigation cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380634.tif/_jcr_content/renditions/380634.jpg)
+
+![Hold/Resume button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381330.tif/_jcr_content/renditions/381330.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393038.eps/_jcr_content/renditions/393038.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393039.eps/_jcr_content/renditions/393039.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393040.eps/_jcr_content/renditions/393040.jpg)

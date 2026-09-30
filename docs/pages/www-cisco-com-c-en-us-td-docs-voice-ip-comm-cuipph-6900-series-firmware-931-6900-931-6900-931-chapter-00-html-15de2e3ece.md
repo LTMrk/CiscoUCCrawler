@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6900-series-firmware-931-6900-931-6900-931-chapter-00-html-15de2e3ece
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/931/6900_931/6900_931_chapter_00.html
-retrieved_at: 2026-08-21T14:23:24.515779+00:00
+retrieved_at: 2026-09-30T19:08:07.321056+00:00
 ---
 
 Cisco Unified IP Phone 6900 Series Release Notes for Firmware Release 9.3(1)
@@ -803,3 +803,7 @@ cucm. |
 is 1 |
 | CSCtz15149 | 69XX phones should not set Do Not Fragment bit |
 | CSCty29289 | 69xx phones freeze due to get_clog_ext_hdr malloc failed |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

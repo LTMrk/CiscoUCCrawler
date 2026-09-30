@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-121d7134e4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_preface_00.html
-retrieved_at: 2026-08-21T13:25:52.563881+00:00
+retrieved_at: 2026-09-30T19:13:08.066562+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -195,3 +195,7 @@ Further information regarding U.S. export regulations can be found at https://ww
                                           				  statement number provided at the end of each warning to locate its translation
                                           				  in the translated safety warnings that accompanied this device. Statement 1071 SAVE THESE INSTRUCTIONS |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

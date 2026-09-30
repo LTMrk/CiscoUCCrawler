@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-firmware-9-1-1-english-release-notes-6900-911-html-f3db385e12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_1_1/english/release/notes/6900_911.html
-retrieved_at: 2026-08-21T06:24:22.889691+00:00
+retrieved_at: 2026-09-30T19:10:13.147932+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Release Notes for Firmware Release 9.1(1) (SCCP and SIP)
@@ -492,3 +492,7 @@ Subscribe to the What's New in Cisco Product Documentation as a Really Simple Sy
 |---|---|---|
 | Restart phone | Unplug the power cable and plug it back in. | Resets any user and network configuration changes that you have made, but that the phone has not written to its Flash memory, to previously saved settings, then restarts the phone. |
 | Reset Settings | Reset the phone to its factory settings. | Resets user and network configuration settings to their default values, and restarts the phone. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-firmware-9-0-2-english-release-notes-69x1-902-html-39ac970a9d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_0_2/english/release/notes/69x1_902.html
-retrieved_at: 2026-08-21T06:23:53.287615+00:00
+retrieved_at: 2026-09-30T19:10:08.984935+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 (SCCP) Release Notes for Firmware Release 9.0(2)
@@ -255,3 +255,7 @@ Any Internet Protocol (IP) addresses used in this document are not intended to b
 © 2010 Cisco Systems, Inc. All rights reserved.
 
 ### © 2010 Cisco Systems, Inc. All rights reserved.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

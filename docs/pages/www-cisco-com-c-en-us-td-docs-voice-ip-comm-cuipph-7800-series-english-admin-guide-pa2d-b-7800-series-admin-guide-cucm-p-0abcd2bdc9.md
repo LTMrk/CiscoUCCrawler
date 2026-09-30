@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-0abcd2bdc9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_0110.html
-retrieved_at: 2026-08-21T13:26:17.293032+00:00
+retrieved_at: 2026-09-30T19:12:47.147666+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -126,3 +126,7 @@ Select Save .
 | Step 2 | In the Self Care Portal area, set the Self Care Portal Default Server field. |
 | Step 3 | Enable or disable the parameters that the users can access in the portal. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

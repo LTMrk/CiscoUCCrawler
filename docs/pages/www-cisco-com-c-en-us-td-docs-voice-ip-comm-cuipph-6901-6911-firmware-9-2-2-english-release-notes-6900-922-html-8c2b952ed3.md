@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-firmware-9-2-2-english-release-notes-6900-922-html-8c2b952ed3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_2_2/english/release/notes/6900_922.html
-retrieved_at: 2026-08-21T06:24:14.430860+00:00
+retrieved_at: 2026-09-30T19:10:21.345700+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Release Notes for Firmware Release 9.2(2) (SCCP and SIP)
@@ -323,3 +323,7 @@ Subscribe to the What's New in Cisco Product Documentation as a Really Simple Sy
 | Identifier | Headline |
 |---|---|
 | CSCts39379 | Intermittent one way audio on 6901 phones |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

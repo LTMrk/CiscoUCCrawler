@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-c74f6756dd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_010000.html
-retrieved_at: 2026-08-21T13:26:53.816642+00:00
+retrieved_at: 2026-09-30T19:12:20.529576+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -66,3 +66,7 @@ For example, the phone screen will show text in Korean, but the 2 key on the key
                                           			 Locale Installer may not be immediately available; continue to check the
                                           			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

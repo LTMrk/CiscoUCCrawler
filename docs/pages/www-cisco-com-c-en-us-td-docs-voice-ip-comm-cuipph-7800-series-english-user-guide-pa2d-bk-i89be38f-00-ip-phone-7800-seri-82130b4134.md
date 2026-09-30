@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-82130b4134
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_0111.html
-retrieved_at: 2026-08-17T01:07:15.292756+00:00
+retrieved_at: 2026-09-30T19:13:34.486286+00:00
 ---
 
 Cisco IP Phone 7800 Series User Guide
@@ -1209,3 +1209,51 @@ Put the cover back on the phone.
 
 | Note | Use a low-strength cleaning agent to prolong the life and look of the case. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Headset 521](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393954.tif/_jcr_content/renditions/393954.jpg)
+
+![Figure 2. Cisco Headset 522](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393955.tif/_jcr_content/renditions/393955.jpg)
+
+![Figure 3. Cisco Headset 531](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393957.tif/_jcr_content/renditions/393957.jpg)
+
+![Figure 4. Cisco Headset 532](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393956.tif/_jcr_content/renditions/393956.jpg)
+
+![Figure 5. Cisco Headset 561](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393952.tif/_jcr_content/renditions/393952.jpg)
+
+![Figure 6. Cisco Headset 562](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393953.tif/_jcr_content/renditions/393953.jpg)
+
+![Figure 7. Cisco Headset 561 and 562 Headset Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![Figure 8. LED Display on the Standard Base for Cisco 561 and 562 Headset](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393905.eps/_jcr_content/renditions/393905.jpg)
+
+![Figure 9. Multibase LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393996.eps/_jcr_content/renditions/393996.jpg)
+
+![Desk Phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393997.tif/_jcr_content/renditions/393997.jpg)
+
+![USB to USB or Y-Cable connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393945.eps/_jcr_content/renditions/393945.jpg)
+
+![Laptop icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393999.tif/_jcr_content/renditions/393999.jpg)
+
+![Mini-USB connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393944.eps/_jcr_content/renditions/393944.jpg)
+
+![Mobile Phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393998.tif/_jcr_content/renditions/393998.jpg)
+
+![Bluetooth connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393177.tif/_jcr_content/renditions/393177.jpg)
+
+![Figure 10. Standard Headset Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393116.eps/_jcr_content/renditions/393116.jpg)
+
+![the applications button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371845.tif/_jcr_content/renditions/371845.jpg)
+
+![Figure 11. No Audio Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393937.eps/_jcr_content/renditions/393937.jpg)
+
+![Figure 12. Poor Audio](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393938.eps/_jcr_content/renditions/393938.jpg)
+
+![Figure 13. Cisco Headset 561 and 562 Headset Placement](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393932.tif/_jcr_content/renditions/393932.jpg)
+
+![Silicone case installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455568.jpg)
+
+![Cisco IP Phone handset silicone case](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455569.jpg)
+
+![Cisco IP phone handset case installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455570.jpg)

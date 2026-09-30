@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-user-guide-p691-bk-u69f61bf-00-user-guide-6901-37243ff495
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/user_guide/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0_chapter_0100.html
-retrieved_at: 2026-08-21T14:26:37.342074+00:00
+retrieved_at: 2026-09-30T19:09:47.678103+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 User Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -120,3 +120,7 @@ Contact your
                                        				unplugging the phone from the power source, wait one minute, and then plug the
                                        				phone back in. If the message indicator still flashes red light, contact your
                                        				system administrator. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

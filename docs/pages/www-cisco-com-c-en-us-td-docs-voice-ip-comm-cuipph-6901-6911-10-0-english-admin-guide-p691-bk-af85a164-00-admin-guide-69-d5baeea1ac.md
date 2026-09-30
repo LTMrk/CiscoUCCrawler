@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-d5baeea1ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_chapter_01000.html
-retrieved_at: 2026-08-21T14:04:37.423694+00:00
+retrieved_at: 2026-09-30T19:09:06.427526+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -881,6 +881,10 @@ Voice quality metrics do not account for noise or distortion, only frame loss.
 To clean your CiscoUnified IP Phone, use only a dry soft cloth to gently wipe the phone. Do not apply liquids or powders directly
                               on the phone. As with all non-weatherproof electronics, liquids and powders can damage the components and cause failures.
 
+### Customers Also Viewed
+
+- Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP) --- Cisco Unified IP Phone Wall Mount
+
 | Step 1 | Determine the IP address of the TFTP server used by the
                                              			 phone by pressing the * , # , and 0 buttons simultaneously, entering the password, and then
                                              			 following the voice prompts to review the network setting. |
@@ -1039,3 +1043,7 @@ To clean your CiscoUnified IP Phone, use only a dry soft cloth to gently wipe th
 
 | Note | Voice quality metrics do not account for noise or distortion, only frame loss. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

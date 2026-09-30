@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-28aabbe4f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_chapter_010.html
-retrieved_at: 2026-08-21T14:27:19.568320+00:00
+retrieved_at: 2026-09-30T19:08:58.145857+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -738,3 +738,7 @@ Display the web page for the phone and click the Device
 | Step 3 | Install the phones. |
 | Step 4 | Change the Auto Registration Protocol enterprise parameter to SIP. |
 | Step 5 | Autoregister the SIP phones. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-firmware-14-2-1sr1-cisco-ip-phone-7800-release-notes-for--1e80d3744b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/14_2_1SR1/Cisco-IP-Phone-7800-Release-Notes-for-Firmware-14-2-1SR1.html
-retrieved_at: 2026-08-21T13:23:16.737784+00:00
+retrieved_at: 2026-09-30T19:14:40.271359+00:00
 ---
 
 Cisco IP Phone 7800 Release Notes for Firmware Release 14.2(1)SR1
@@ -79,3 +79,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284883944&r
 Cisco IP Phone Firmware Support Policy
 
 For information on the support policy for phones, see https://cisco.com/go/phonefirmwaresupport .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

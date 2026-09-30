@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-14-1-1-pa2d-b-cisco-ip-confernce-phone-7800-html-139a788473
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/14-1-1/pa2d_b_cisco-ip-confernce-phone-7800.html
-retrieved_at: 2026-08-21T13:23:33.926420+00:00
+retrieved_at: 2026-09-30T19:11:46.402874+00:00
 ---
 
 Cisco IP Phone 7800 Release Notes for Firmware Release 14.1(1)
@@ -444,3 +444,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

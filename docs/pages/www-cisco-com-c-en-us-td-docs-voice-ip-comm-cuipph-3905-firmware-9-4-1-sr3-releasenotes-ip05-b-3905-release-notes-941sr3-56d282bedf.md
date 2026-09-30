@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-3905-firmware-9-4-1-sr3-releasenotes-ip05-b-3905-release-notes-941sr3-56d282bedf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/3905/firmware/9-4-1-SR3/releasenotes/ip05_b_3905-release-notes-941sr3.html
-retrieved_at: 2026-08-21T06:25:05.983581+00:00
+retrieved_at: 2026-09-30T19:07:20.553772+00:00
 ---
 
 Cisco Unified SIP Phone 3905 Release Notes for Firmware Release 9.4(1)SR3
@@ -516,3 +516,7 @@ You may want to bookmark the web pages for the phone models that are deployed in
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-ee6c8a5312
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_01010.html
-retrieved_at: 2026-08-21T13:26:25.626179+00:00
+retrieved_at: 2026-09-30T19:12:32.402791+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -239,3 +239,7 @@ Restart your phones.
 | Step 5 | Set Always Use Dial Tone to one of the following: Outside Inside Default |
 | Step 6 | Select Save . |
 | Step 7 | Restart your phones. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

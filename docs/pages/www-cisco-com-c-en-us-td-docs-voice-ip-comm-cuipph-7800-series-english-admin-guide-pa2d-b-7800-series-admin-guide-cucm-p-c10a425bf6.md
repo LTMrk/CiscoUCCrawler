@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-c10a425bf6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_01001.html
-retrieved_at: 2026-08-21T13:26:21.994099+00:00
+retrieved_at: 2026-09-30T19:12:24.863412+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -836,3 +836,7 @@ Disabled—If the switch does not support multidomain authentication, disable th
 | Note | Secure calling is supported between two phones. For protected phones, some features, such as conference calling, shared lines,
                                              and Extension Mobility, are not available when secure calling is configured. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

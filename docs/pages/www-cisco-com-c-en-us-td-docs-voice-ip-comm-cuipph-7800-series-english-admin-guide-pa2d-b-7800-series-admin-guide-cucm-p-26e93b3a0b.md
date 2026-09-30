@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-admin-guide-pa2d-b-7800-series-admin-guide-cucm-p-26e93b3a0b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/admin-guide/pa2d_b_7800-series-admin-guide-cucm/pa2d_b_7800-series-admin-guide-cucm_chapter_01.html
-retrieved_at: 2026-08-21T13:25:56.727125+00:00
+retrieved_at: 2026-09-30T19:12:07.638221+00:00
 ---
 
 Cisco IP Phone 7800 Series Administration Guide for Cisco Unified Communications Manager
@@ -451,3 +451,7 @@ Set the Label for a Line .
 | Updated
                                              					 these section for improved Problem Report Tool(PRT) support: | Problem Report Tool . Configure a Customer Support Upload URL |
 | Added for Line Text Label | Set the Label for a Line . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

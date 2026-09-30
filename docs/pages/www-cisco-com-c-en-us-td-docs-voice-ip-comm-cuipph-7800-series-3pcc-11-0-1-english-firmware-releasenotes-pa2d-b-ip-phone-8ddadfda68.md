@@ -1,16 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-3pcc-11-0-1-english-firmware-releasenotes-pa2d-b-ip-phone-8ddadfda68
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/3pcc/11-0-1/english/firmware/releasenotes/pa2d_b_ip-phone-7800-release-notes.html
-retrieved_at: 2026-08-21T13:25:10.386117+00:00
+retrieved_at: 2026-09-30T19:12:03.392694+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(1)
 
 # Cisco IP Phone 7800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(1)
-
-- 11.0(1)
-
-- 11.0(0)
 
 ### Download Options
 
@@ -373,3 +369,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | CSCvd76913 | Web Time is wrong during DST |
 | CSCvd86536 | phone sometimes fails to resolve the sip outbound proxy dns |
 | CSCvd91751 | Need to press softkey twice if backlight turned off |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

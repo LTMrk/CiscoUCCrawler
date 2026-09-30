@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-firmware-9-2-1-english-release-notes-6900-921-html-45608b35c3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_2_1/english/release/notes/6900_921.html
-retrieved_at: 2026-08-21T06:24:18.531107+00:00
+retrieved_at: 2026-09-30T19:10:17.300961+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Release Notes for Firmware Release 9.2(1) (SCCP and SIP)
@@ -504,3 +504,7 @@ Subscribe to the What's New in Cisco Product Documentation as a Really Simple Sy
 |---|---|
 | CSCtn59279 | The Cisco Unified IP Phones 6901 and 6911 certificate Subject CN should match EAP-TLS identity case |
 | CSCtl08991 | The Cisco Unified IP Phone 6911 does not respond to EAP-TLS fragments |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6900-series-firmware-9-4-1sr2-release-notes-p690-bk-619ca545-00-6900--bf9c6419df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6900_series/firmware/9-4-1SR2/Release_Notes/P690_BK_619CA545_00_6900-series-release_notes-941sr2.html
-retrieved_at: 2026-08-21T06:23:57.665337+00:00
+retrieved_at: 2026-09-30T19:07:58.845326+00:00
 ---
 
 Cisco Unified IP Phone 6900 Series Release Notes for Firmware Release 9.4(1)SR2
@@ -942,3 +942,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

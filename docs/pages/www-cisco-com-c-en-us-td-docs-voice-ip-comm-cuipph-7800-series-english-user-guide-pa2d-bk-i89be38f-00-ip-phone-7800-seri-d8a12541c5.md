@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-english-user-guide-pa2d-bk-i89be38f-00-ip-phone-7800-seri-d8a12541c5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/english/user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide/PA2D_BK_I89BE38F_00_ip_phone-7800-series-user-guide_chapter_01000.html
-retrieved_at: 2026-08-21T01:49:54.854394+00:00
+retrieved_at: 2026-09-30T19:13:16.335368+00:00
 ---
 
 Cisco IP Phone 7800 Series User Guide
@@ -228,3 +228,9 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/7800-series/regul
 | 7821 | 3844-13-1086 |
 | 7841 | 3842-13-1086 |
 | 7861 | 3844-13-1086 |
+
+## Figuras
+
+![EnergyStar logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394262.tif/_jcr_content/renditions/394262.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)

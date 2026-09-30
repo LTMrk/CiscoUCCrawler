@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-3pcc-11-0-0-english-release-notes-pa2d-b-7800-mpp-1101-ht-14cd56591a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/3pcc/11-0-0/english/release-notes/pa2d_b_7800-mpp-1101.html
-retrieved_at: 2026-08-21T13:25:15.017799+00:00
+retrieved_at: 2026-09-30T19:11:59.345458+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(0)
@@ -494,3 +494,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Identifier | Headline |
 |---|---|
 |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

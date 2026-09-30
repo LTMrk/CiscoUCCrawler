@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-admin-guide-p691-bk-af85a164-00-admin-guide-69-4488dcd4c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/admin_guide/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0/P691_BK_AF85A164_00_admin-guide-6901-6911-10_0_appendix_01110.html
-retrieved_at: 2026-08-21T14:27:57.634709+00:00
+retrieved_at: 2026-09-30T19:08:44.840075+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Administration Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -156,3 +156,23 @@ Press firmly inwards (towards the phone) to disengage the tabs, lift up on the p
 |---|---|
 | Step 2 | Press firmly inwards (towards the phone) to disengage the tabs, lift up on the phone to release the phone from the wall bracket,
                                           and then pull the phone towards you. Figure 8. Disengage Tabs. The following figure shows how to disengage the tabs. |
+
+## Figuras
+
+![Figure 1. Back View of ADA Non-Lockable Wall Mount Kit Installed on Phone. The following figure shows the wall mount kit installed on the phone.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345754.eps/_jcr_content/renditions/345754.jpg)
+
+![Figure 2. Side View of ADA Non-Lockable Wall Mount Kit Installed on Phone. The following figure shows the phone with the wall mount kit from the side.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345757.eps/_jcr_content/renditions/345757.jpg)
+
+![Figure 3. Components. The following figure shows the contents of the Wall Mount kit.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345758.eps/_jcr_content/renditions/345758.jpg)
+
+![Figure 4. Mount Wall Bracket. The following figure shows the steps to mount the wall bracket.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345755.eps/_jcr_content/renditions/345755.jpg)
+
+![Figure 5. Attach Phone Bracket. The following figure shows how to attach the phone bracket.](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274937.eps/_jcr_content/renditions/274937.jpg)
+
+![Figure 6. Attach Cables. The following figure shows the cable attachment.](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/274001-275000/274939.eps/_jcr_content/renditions/274939.jpg)
+
+![Figure 7. Tab Location. The following figure shows the tab location.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345759.eps/_jcr_content/renditions/345759.jpg)
+
+![Figure 8. Disengage Tabs. The following figure shows how to disengage the tabs.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345760.eps/_jcr_content/renditions/345760.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

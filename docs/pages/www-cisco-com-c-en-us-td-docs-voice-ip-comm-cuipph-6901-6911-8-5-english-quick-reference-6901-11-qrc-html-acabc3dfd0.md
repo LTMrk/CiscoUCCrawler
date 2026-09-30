@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-8-5-english-quick-reference-6901-11-qrc-html-acabc3dfd0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/8_5/english/quick_reference/6901-11_qrc.html
-retrieved_at: 2026-08-21T06:24:53.433522+00:00
+retrieved_at: 2026-09-30T19:10:04.585880+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 Quick Reference for Cisco Unified CM 8.5 (SCCP and SIP)
@@ -170,3 +170,7 @@ http://www.cisco.com/en/US/products/ps10326/products_user_guide_list.html
 | Forward a call | Set up call forwarding on your User Options Web pages. See your system administrator for access to your User Options Web pages. |
 | Start a standard Conference call | Press and release the hookswitch to get a dial tone. Dial the participant and press the hookswitch again. |
 | Listen to voice messages | Go off-hook and dial the voicemail system number provided by your system administrator. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

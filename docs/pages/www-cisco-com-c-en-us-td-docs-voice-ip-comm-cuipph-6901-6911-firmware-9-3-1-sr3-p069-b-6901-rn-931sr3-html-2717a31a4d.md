@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-firmware-9-3-1-sr3-p069-b-6901-rn-931sr3-html-2717a31a4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/firmware/9_3_1_SR3/p069_b_6901-rn-931sr3.html
-retrieved_at: 2026-08-21T06:23:49.086881+00:00
+retrieved_at: 2026-09-30T19:10:38.622658+00:00
 ---
 
 Cisco Unified IP Phone 6901 Release Notes for Firmware Release 9.3(1)SR3 (SCCP and SIP)
@@ -522,3 +522,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-series-firmware-12-6-1-sr1-pa2d-b-7800-release-notes-1261sr1-htm-b4180db196
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-series/firmware/12-6-1-sr1/pa2d_b_7800-release-notes-1261sr1.html
-retrieved_at: 2026-08-21T13:24:03.026633+00:00
+retrieved_at: 2026-09-30T19:14:06.825457+00:00
 ---
 
 Cisco IP Phone 7800 Series Release Notes for Firmware Release 12.6(1)SR1
@@ -426,3 +426,7 @@ You may want to bookmark the web pages for the phone models that are deployed in
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

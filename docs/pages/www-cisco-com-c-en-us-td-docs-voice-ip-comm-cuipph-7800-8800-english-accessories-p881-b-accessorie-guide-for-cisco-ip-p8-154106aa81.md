@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-8800-english-accessories-p881-b-accessorie-guide-for-cisco-ip-p8-154106aa81
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip/p881_b_accessorie-guide-for-cisco-ip_chapter_010.html
-retrieved_at: 2026-08-21T13:25:40.490818+00:00
+retrieved_at: 2026-09-30T19:10:51.885838+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Accessories Guide for Cisco Unified Communications Manager
@@ -572,3 +572,19 @@ Return the handset to the handset rest.
 | Step 4 | Line up the tab with the slot in the cradle and press the tab evenly into the slot. An extension protrudes from the top of
                                        the rotated tab. |
 | Step 5 | Return the handset to the handset rest. |
+
+## Figuras
+
+![Figure 1. Components of Spare Wall Mount Kit for Cisco IP Phone 7811](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393500.tif/_jcr_content/renditions/393500.jpg)
+
+![Figure 2. Components of Spare Wall Mount Kit for Cisco IP Phone 7800 Series](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393501.tif/_jcr_content/renditions/393501.jpg)
+
+![Figure 3. Components of Spare Wall Mount Kit for Cisco IP Phone 7861](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393502.tif/_jcr_content/renditions/393502.jpg)
+
+![Figure 4. Components of Spare Wall Mount Kit for Cisco IP Phone 8800 Series](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393503.tif/_jcr_content/renditions/393503.jpg)
+
+![Figure 5. Components of Spare Wall Mount Kit for Cisco IP Phone 8800 Series with Single 28-key Key Expansion Module (Lockable)](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/421001-422000/421712.eps/_jcr_content/renditions/421712.jpg)
+
+![Figure 6. Components of Spare Wall Mount Kit for Cisco IP Phone 8800 Series with Single 36-key Key Expansion Module](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393504.tif/_jcr_content/renditions/393504.jpg)
+
+![Figure 7. Components of Spare Wall Mount Kit for Cisco IP Phone 8800 Video Series](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393505.tif/_jcr_content/renditions/393505.jpg)

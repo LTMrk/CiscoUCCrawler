@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-8800-english-accessories-p881-b-accessorie-guide-for-cisco-ip-p8-c42b3e22f8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip/p881_b_accessorie-guide-for-cisco-ip_chapter_00.html
-retrieved_at: 2026-08-21T13:25:32.560167+00:00
+retrieved_at: 2026-09-30T19:10:43.692847+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Accessories Guide for Cisco Unified Communications Manager
@@ -2164,3 +2164,41 @@ Your Cisco Headset 561 and 562 holds a charge for up to 8 hours of continuous us
 | Step 1 | Press Applications |
 |---|---|
 | Step 2 | Navigate to Accessories . Select Show detail . |
+
+## Figuras
+
+![Figure 1. Cisco Headset 521](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393954.tif/_jcr_content/renditions/393954.jpg)
+
+![Figure 2. Cisco Headset 522](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393955.tif/_jcr_content/renditions/393955.jpg)
+
+![Figure 3. Cisco Headset 531](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393957.tif/_jcr_content/renditions/393957.jpg)
+
+![Figure 4. Cisco Headset 532](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393956.tif/_jcr_content/renditions/393956.jpg)
+
+![Figure 5. Cisco Headset 561](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393952.tif/_jcr_content/renditions/393952.jpg)
+
+![Figure 6. Cisco Headset 562](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393953.tif/_jcr_content/renditions/393953.jpg)
+
+![Figure 7. Cisco Headset 521 and 522 Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.eps/_jcr_content/renditions/393936.jpg)
+
+![Figure 8. Cisco Headset USB Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393906.eps/_jcr_content/renditions/393906.jpg)
+
+![Figure 9. Cisco Headset 561 and 562 Headset Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![Figure 10. Standard Base LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393905.eps/_jcr_content/renditions/393905.jpg)
+
+![Figure 11. Multibase LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393996.eps/_jcr_content/renditions/393996.jpg)
+
+![Figure 12. Left and Right Sides of the Cisco Headset 730](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394287.eps/_jcr_content/renditions/394287.jpg)
+
+![Figure 13. Standard Headset Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393116.eps/_jcr_content/renditions/393116.jpg)
+
+![mute button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425657.eps/_jcr_content/renditions/425657.jpg)
+
+![the applications button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371845.jpg)
+
+![Figure 14. No Audio Workflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393937.eps/_jcr_content/renditions/393937.jpg)
+
+![Figure 15. Poor Audio](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393938.eps/_jcr_content/renditions/393938.jpg)
+
+![Figure 16. Cisco Headset 561 and 562 Headset Placement](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393932.tif/_jcr_content/renditions/393932.jpg)

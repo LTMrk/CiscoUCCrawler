@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7800-8800-english-accessories-p881-b-accessorie-guide-for-cisco-ip-p8-459f0df248
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7800-8800/english/accessories/p881_b_accessorie-guide-for-cisco-ip/p881_b_accessorie-guide-for-cisco-ip_chapter_0101.html
-retrieved_at: 2026-08-21T13:25:48.445657+00:00
+retrieved_at: 2026-09-30T19:10:59.728543+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Accessories Guide for Cisco Unified Communications Manager
@@ -94,3 +94,9 @@ The End User License Agreement (EULA) is located here: https://www.cisco.com/go/
 ### Regulatory Compliance and Safety Information
 
 Regulatory Compliance and Safety Information (RCSI) is located here:
+
+## Figuras
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

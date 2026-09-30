@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-6901-6911-10-0-english-user-guide-p691-bk-u69f61bf-00-user-guide-6901-4a5853bd12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/6901_6911/10_0/english/user_guide/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0/P691_BK_U69F61BF_00_user-guide-6901-6911-10_0_chapter_0101.html
-retrieved_at: 2026-08-21T14:26:41.467078+00:00
+retrieved_at: 2026-09-30T19:09:51.946149+00:00
 ---
 
 Cisco Unified IP Phone 6901 and 6911 User Guide for Cisco Unified Communications Manager 10.0 (SCCP and SIP)
@@ -59,3 +59,7 @@ You can also find more information about accessibility at
                               		  this Cisco website:
 
 http://www.cisco.com/web/about/responsibility/accessibility/index.html
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
