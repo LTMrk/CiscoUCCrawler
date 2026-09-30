@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su2-releasenotes-cplm-b-release-notes-cplm-1151su2-cplm-b-re-9ee44c808c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_01.html
-retrieved_at: 2026-08-20T22:35:48.996558+00:00
+retrieved_at: 2026-09-30T18:33:41.229001+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU2
@@ -73,3 +73,7 @@ For more
                               		  information about the minimum TLS version commands, see the "Set Commands" chapter and the " Show
                                  			 Commands" chapter of the Command Line
                                  			 Interface Reference Guide for Cisco Unified Communications Solutions at http://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-maintenance-guides-list.html .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

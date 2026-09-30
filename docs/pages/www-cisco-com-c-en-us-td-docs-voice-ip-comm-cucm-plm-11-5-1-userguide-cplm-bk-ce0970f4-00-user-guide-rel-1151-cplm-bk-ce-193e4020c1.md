@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-userguide-cplm-bk-ce0970f4-00-user-guide-rel-1151-cplm-bk-ce-193e4020c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1/userguide/CPLM_BK_CE0970F4_00_user-guide-rel-1151/CPLM_BK_CE0970F4_00_user-guide-rel-1151_chapter_011.html
-retrieved_at: 2026-09-08T04:59:46.250267+00:00
+retrieved_at: 2026-09-30T18:32:47.490931+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)
@@ -305,3 +305,7 @@ Check the
 | Step 5 | When
 			 asked to automatically switch versions if the upgrade is successful, enter yes. Automatically switch versions if the upgrade is successful (yes/no): yes |
 | Step 6 | Enter yes to start installation. Start installation (yes/no): yes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

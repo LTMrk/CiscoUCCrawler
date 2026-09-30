@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-0-1-releasenotes-cplm-bk-pfc9d799-00-plm-rn-1101-caveats-1101-ht-ca6d73cd2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_0_1/releasenotes/CPLM_BK_PFC9D799_00_plm-rn-1101/caveats_1101.html
-retrieved_at: 2026-09-08T04:51:00.243454+00:00
+retrieved_at: 2026-09-30T18:31:05.716043+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.0(1)
@@ -70,3 +70,7 @@ Click Help on the Bug Search page for information about
 | Identifier | Severity | Product | Headline | Workaround |
 |---|---|---|---|---|
 | CSCur73170 | 3 | prime_lm | JPN: UI: PLM10.5.2 Strings need to be pulled from PLM JS file |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

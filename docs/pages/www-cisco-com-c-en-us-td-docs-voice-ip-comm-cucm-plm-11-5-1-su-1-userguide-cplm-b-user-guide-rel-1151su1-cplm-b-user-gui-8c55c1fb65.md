@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su-1-userguide-cplm-b-user-guide-rel-1151su1-cplm-b-user-gui-8c55c1fb65
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU_1/userguide/cplm_b_user-guide-rel-1151SU1/cplm_b_user-guide-rel-1151a_chapter_00.html
-retrieved_at: 2026-09-08T04:59:03.606522+00:00
+retrieved_at: 2026-09-30T18:37:11.850230+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)SU1
@@ -324,3 +324,7 @@ The following
 			 browsers and operating systems are not currently supported: Opera, Linux OS,
 			 Google Chrome OS. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

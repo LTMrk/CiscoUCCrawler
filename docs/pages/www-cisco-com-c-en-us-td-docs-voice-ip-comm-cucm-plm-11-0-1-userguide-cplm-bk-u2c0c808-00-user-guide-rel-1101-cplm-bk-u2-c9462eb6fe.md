@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-0-1-userguide-cplm-bk-u2c0c808-00-user-guide-rel-1101-cplm-bk-u2-c9462eb6fe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_0_1/userguide/CPLM_BK_U2C0C808_00_user-guide-rel-1101/CPLM_BK_U2C0C808_00_user-guide-rel-1101_appendix_0110.html
-retrieved_at: 2026-09-08T05:01:06.175879+00:00
+retrieved_at: 2026-09-30T18:31:27.140448+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.0(1)
@@ -469,3 +469,7 @@ Applies to: Cisco
 | debug | Provides
 					 detailed information about the flow of the process. We recommend that you use
 					 set this parameter on an as needed basis only. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

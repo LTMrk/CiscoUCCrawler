@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su6-userguide-cplm-b-userguide-11-5-1-su6-cplm-b-userguide-1-31f39bed04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU6/userguide/cplm_b_userguide_11_5_1_SU6/cplm_b_userguide_11_5_1_SU6_chapter_0100.html
-retrieved_at: 2026-09-08T04:53:56.731519+00:00
+retrieved_at: 2026-09-30T18:35:47.785753+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)SU6
@@ -891,3 +891,7 @@ A standalone deployment does not support a custom log-on message.
 
 | Note | A standalone deployment does not support a custom log-on message. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-2su10-cucm-b-cplm-b-release-notes-plm-1052-su10-cucm-m-caveats-e62bf78254
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2SU10/cucm_b_cplm_b_release-notes-plm-1052-su10/cucm_m_caveats.html
-retrieved_at: 2026-09-08T04:51:16.667137+00:00
+retrieved_at: 2026-09-30T18:29:15.569429+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 10.5(2)SU10
@@ -81,3 +81,7 @@ There are no known issues in this release.
 | Identifier | Headline |
 |---|---|
 | CSCvs95452 | PLM Remove validation for DB Application User Pwd at install/upgrade time for special characters |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

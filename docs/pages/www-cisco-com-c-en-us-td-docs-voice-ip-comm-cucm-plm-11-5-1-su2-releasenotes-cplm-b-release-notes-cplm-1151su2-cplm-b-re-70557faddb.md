@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su2-releasenotes-cplm-b-release-notes-cplm-1151su2-cplm-b-re-70557faddb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/releasenotes/cplm_b_release-notes-cplm-1151su2/cplm_b_release-notes-cplm-1151su2_chapter_010.html
-retrieved_at: 2026-08-21T07:08:58.720979+00:00
+retrieved_at: 2026-09-30T18:33:45.487949+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU2
@@ -209,3 +209,7 @@ If you see an application error during synchronization with Unified Communicatio
 
 | Note | We recommend that you use the latest version for all the web browsers supported. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

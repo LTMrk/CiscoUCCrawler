@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1su10-cplm-b-release-notes-plm-1151su10-cucm-m-introduction-ht-b6d2341978
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1SU10/cplm-b-release-notes-plm-1151su10/cucm_m_introduction.html
-retrieved_at: 2026-09-08T04:48:38.437261+00:00
+retrieved_at: 2026-09-30T18:33:08.267971+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU10
@@ -141,3 +141,7 @@ Yes
 | CUCM 10.0(1) to 11.5 | Yes W/ License Definition Updates | Yes |
 | CUC 10.0(1) to 11.5 | Yes W/ License Definition Updates | Yes |
 | CER 10.0(1) to 11.5 | No | Yes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

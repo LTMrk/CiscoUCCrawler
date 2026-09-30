@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su6-releasenotes-cucm-b-release-notes-plm-1151-su6-cucm-b-re-2b451c64de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU6/ReleaseNotes/cucm_b_release-notes-plm-1151-su6/cucm_b_release-notes-plm-1151-su6_chapter_010.html
-retrieved_at: 2026-09-08T04:49:36.880874+00:00
+retrieved_at: 2026-09-30T18:35:30.051338+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU6
@@ -81,3 +81,7 @@ There are no known issues in this release.
 | Identifier | Headline |
 |---|---|
 | CSCvo88649 | PostgreSQL JDBC Driver SSL Factory Man-in-the-Middle Attack Vulnerab ... |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

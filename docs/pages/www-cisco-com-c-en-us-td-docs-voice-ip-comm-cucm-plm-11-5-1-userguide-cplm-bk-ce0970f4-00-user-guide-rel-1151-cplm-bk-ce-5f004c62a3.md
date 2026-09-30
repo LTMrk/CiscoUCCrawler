@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-userguide-cplm-bk-ce0970f4-00-user-guide-rel-1151-cplm-bk-ce-5f004c62a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1/userguide/CPLM_BK_CE0970F4_00_user-guide-rel-1151/CPLM_BK_CE0970F4_00_user-guide-rel-1151_chapter_01.html
-retrieved_at: 2026-09-08T04:59:37.655270+00:00
+retrieved_at: 2026-09-30T18:32:30.254520+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)
@@ -551,3 +551,7 @@ Note that this
 			 you would like to proceed with the removal by entering y . |
 | Step 3 | Perform a
 			 system reboot. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

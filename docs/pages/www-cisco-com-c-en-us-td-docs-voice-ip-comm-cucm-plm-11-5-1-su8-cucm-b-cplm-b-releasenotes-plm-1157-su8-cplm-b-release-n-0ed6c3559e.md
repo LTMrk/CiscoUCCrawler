@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su8-cucm-b-cplm-b-releasenotes-plm-1157-su8-cplm-b-release-n-0ed6c3559e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU8/cucm_b_cplm_b_releasenotes_plm_1157_su8/cplm_b_release-notes-plm-1151-su7_chapter_01.html
-retrieved_at: 2026-09-08T04:49:20.073409+00:00
+retrieved_at: 2026-09-30T18:36:29.879020+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU8
@@ -206,3 +206,7 @@ Install the ciscocm.elm.switchversion.V1.k3.cop.sgn COP file, while upgrading Ci
 
 | Note | We recommend that you use the latest version for all the web browsers supported. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-2su10-cucm-b-cplm-b-release-notes-plm-1052-su10-cplm-b-release-43899ac74c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2SU10/cucm_b_cplm_b_release-notes-plm-1052-su10/cplm_b_release-notes-cplm-1052su9_chapter_01.html
-retrieved_at: 2026-09-08T04:51:08.277983+00:00
+retrieved_at: 2026-09-30T18:29:07.699838+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 10.5(2)SU10
@@ -29,3 +29,9 @@ If you are running  Cisco Unified Communications Manager or Cisco Unity Connecti
 In standalone mode, run Cisco Prime License Manager 10.5(2)SU1a or higher
 
 In co-resident mode, run Cisco Prime License Manager 10.5(2)SU6 or higher
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

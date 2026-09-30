@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-0-1-releasenotes-cplm-bk-pfc9d799-00-plm-rn-1101-important-notes-f0ae2aa117
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_0_1/releasenotes/CPLM_BK_PFC9D799_00_plm-rn-1101/important_notes_1101.html
-retrieved_at: 2026-09-08T04:50:51.689167+00:00
+retrieved_at: 2026-09-30T18:31:10.509751+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.0(1)
@@ -138,3 +138,7 @@ Russian
 | Internet Explorer | 9, 10 |
 | Chrome | 23 - 38 |
 | Safari | 6.0 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

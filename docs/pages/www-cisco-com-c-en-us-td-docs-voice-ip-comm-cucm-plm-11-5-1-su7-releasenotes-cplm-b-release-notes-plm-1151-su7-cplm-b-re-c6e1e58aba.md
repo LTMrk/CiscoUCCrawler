@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su7-releasenotes-cplm-b-release-notes-plm-1151-su7-cplm-b-re-c6e1e58aba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU7/ReleaseNotes/cplm_b_release-notes-plm-1151-su7/cplm_b_release-notes-plm-1151-su7_chapter_010.html
-retrieved_at: 2026-09-08T04:49:11.877028+00:00
+retrieved_at: 2026-09-30T18:36:21.342523+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 11.5(1)SU7
@@ -81,3 +81,7 @@ There are no known issues in this release.
 | Identifier | Headline |
 |---|---|
 | CSCvq97227 | Cisco Prime License Manager Unauthorized Password Reset Vulnerability |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

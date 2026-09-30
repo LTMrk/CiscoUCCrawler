@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su5-userguide-cplm-b-userguide-1151-su5-cplm-b-userguide-115-beaaeca3ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU5/userguide/CPLM_b_userguide_1151_SU5/CPLM_b_userguide_1151_SU5_appendix_0111.html
-retrieved_at: 2026-09-08T04:58:59.514876+00:00
+retrieved_at: 2026-09-30T18:34:48.203605+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)SU5
@@ -559,3 +559,7 @@ Applies to: Cisco
                                           					 parameter is set by default. |
 | debug | Provides detailed information about the flow of the process.
                                           					 We recommend that you use set this parameter on an as needed basis only. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

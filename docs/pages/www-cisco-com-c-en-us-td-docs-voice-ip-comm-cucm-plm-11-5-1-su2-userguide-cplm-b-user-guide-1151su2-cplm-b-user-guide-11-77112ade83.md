@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su2-userguide-cplm-b-user-guide-1151su2-cplm-b-user-guide-11-77112ade83
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU2/userguide/cplm_b_user-guide-1151su2/cplm_b_user-guide-1151su2_chapter_0110.html
-retrieved_at: 2026-09-08T05:00:28.183331+00:00
+retrieved_at: 2026-09-30T18:34:23.182245+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)SU2
@@ -218,3 +218,7 @@ If, across all the
 		  licenses and can click Next to move to the next window in the wizard. For more
 		  information, see Create a License Plan |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

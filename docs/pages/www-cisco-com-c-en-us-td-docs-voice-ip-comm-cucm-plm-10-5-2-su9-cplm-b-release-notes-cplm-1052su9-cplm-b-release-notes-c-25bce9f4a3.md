@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-2-su9-cplm-b-release-notes-cplm-1052su9-cplm-b-release-notes-c-25bce9f4a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_2_SU9/cplm_b_release-notes-cplm-1052su9/cplm_b_release-notes-cplm-1052su9_chapter_011.html
-retrieved_at: 2026-09-08T04:51:33.567131+00:00
+retrieved_at: 2026-09-30T18:30:57.092039+00:00
 ---
 
 Release Notes for Cisco Prime License Manager, Release 10.5(2)SU9
@@ -103,3 +103,7 @@ There are no known issues in this release.
 | CSCvn42153 | CiscoSSL update to 6.1.479 / 6.2.323 |
 | CSCvo90929 | Multiple Vulnerabilities in libssh2 |
 | CSCvo46223 | Python X509 Certificate NULL Pointer Dereference Denial of Service V ... |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

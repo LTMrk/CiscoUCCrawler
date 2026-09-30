@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-11-5-1-su5-userguide-cplm-b-userguide-1151-su5-cplm-b-userguide-115-bdfb59c53b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/11_5_1_SU5/userguide/CPLM_b_userguide_1151_SU5/CPLM_b_userguide_1151_SU5_chapter_0101.html
-retrieved_at: 2026-09-08T04:54:38.420361+00:00
+retrieved_at: 2026-09-30T18:35:05.162841+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 11.5(1)SU5
@@ -1466,3 +1466,9 @@ The Global
                                           			 License Migration Request to Cisco licensing support using the link provided. |
 | Step 10 | Click Close to
                                           			 return to the License Planning window. |
+
+## Figuras
+
+![CUCM License Migration flow chart](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/350001-360000/352001-353000/352001.eps/_jcr_content/renditions/352001.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
