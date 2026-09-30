@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-enterprise-to-mpp-cuip-b-conversion-guide-ipphone--2a6f6cd46e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/enterprise-to-mpp/cuip_b_conversion-guide-ipphone/cuip_b_conversion-guide-ipphone_appendix_010.html
-retrieved_at: 2026-09-01T15:42:22.995176+00:00
+retrieved_at: 2026-09-30T20:10:44.816046+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Migration Guide (On-Premises to Multiplatform Phones)
@@ -285,3 +285,7 @@ After the phone reboots, the main screen appears.
 
 | Caution | Do not power down the phone until it completes the factory reset process, and the main screen appears. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

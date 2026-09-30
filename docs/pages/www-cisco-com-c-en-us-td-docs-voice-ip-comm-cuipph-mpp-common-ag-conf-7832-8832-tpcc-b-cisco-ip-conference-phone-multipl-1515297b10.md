@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-1515297b10
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_cisco-ip-phone-install-mpp1133.html
-retrieved_at: 2026-08-21T13:48:58.180569+00:00
+retrieved_at: 2026-09-30T20:11:34.193944+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -5468,3 +5468,7 @@ If the *code is not to be followed by a phone number, such as *73 to cancel call
                                              such as *72‘c‘\|*67‘p‘. Below are a list of allowed tone parameters (note the use of back quotes surrounding the parameter
                                              without spaces) • c = Cfwd Dial Tone • d = Dial Tone • m = MWI Dial Tone • o = Outside Dial Tone • p = Prompt Dial Tone • s = Second Dial Tone • x = No tones are place, x is any digit not used above If no tone parameter is specified, the phone plays Prompt tone by default. If the *code is not to be followed by a phone number, such as *73 to cancel call forward, do not include it in this parameter.
                                              In that case, simple add that *code in the dial plan and the phone sends INVITE *73@..... as usual when user dials *73. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b03axcfg-html-3fa9c7dbae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b03axcfg.html
-retrieved_at: 2026-08-21T16:11:53.769375+00:00
+retrieved_at: 2026-09-30T20:17:32.116502+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -33,3 +33,9 @@ Step 2 Enter the AXL username and password.
 Step 3 Confirm the AXL password.
 
 Step 4 To save your settings, click the Save icon that displays in the tool bar in the upper, left corner of the window (or click the Save button that displays at the bottom of the window).
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

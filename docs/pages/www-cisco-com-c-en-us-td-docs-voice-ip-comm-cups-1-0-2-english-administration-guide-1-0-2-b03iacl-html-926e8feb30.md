@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b03iacl-html-926e8feb30
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b03iacl.html
-retrieved_at: 2026-08-21T16:11:28.748857+00:00
+retrieved_at: 2026-09-30T20:17:40.159669+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -118,3 +118,7 @@ See the "Related Topics" section .
 |---|---|
 | Description | This parameter specifies a general description of the ACL entry. |
 | Address Pattern | This parameter specifies the address or pattern of the incoming host or domain as either an IP address or a fully qualified domain name. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

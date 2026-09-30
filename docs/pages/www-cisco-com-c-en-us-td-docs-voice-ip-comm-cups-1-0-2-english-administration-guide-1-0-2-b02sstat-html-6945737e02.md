@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b02sstat-html-6945737e02
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b02sstat.html
-retrieved_at: 2026-08-21T16:11:03.573979+00:00
+retrieved_at: 2026-09-30T20:17:19.508458+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -82,3 +82,7 @@ Step 3 To display the devices associated with a user, click the Devices link.
 |---|---|
 | Sync Information | This read-only field displays the IP address of the publisher server and when the sync occurred. |
 | System Information | System Information displays the following read-only fields: • Number of end users • Number of phone devices • Number of licensed Cisco Unified Presence Server end users • Number of licensed Cisco Unified Personal Communicator end users • Number of assigned Microsoft Office Communicator end users |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

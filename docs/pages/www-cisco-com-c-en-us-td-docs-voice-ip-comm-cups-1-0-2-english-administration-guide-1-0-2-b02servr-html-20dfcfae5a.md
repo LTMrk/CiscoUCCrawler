@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b02servr-html-20dfcfae5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b02servr.html
-retrieved_at: 2026-08-21T16:10:46.887667+00:00
+retrieved_at: 2026-09-30T20:17:15.254369+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -175,3 +175,7 @@ For this optional entry, enter a description of the server.
 | Host Name/ IP Address | If your network uses DNS services, you can enter the host name of the Cisco Unified Presence Server server. Otherwise, you must enter the full IP address of the server. Note You must update the DNS server with the appropriate Cisco Unified Presence Server name and address information before using that information here. |
 | MAC Address | For this optional entry, enter the media access control (MAC) address of the network interface card (NIC) in the Cisco Unified Presence Server server. The MAC address specifies the permanent hardware address of the NIC. Tip If you plan to move the server periodically to different locations on the network, you must enter the MAC address, so other devices on the network can always identify the server. If you do not plan to relocate the server, consider entry of the MAC address as optional. |
 | Description | For this optional entry, enter a description of the server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

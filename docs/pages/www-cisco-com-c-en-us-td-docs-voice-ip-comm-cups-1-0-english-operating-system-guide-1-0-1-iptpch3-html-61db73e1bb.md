@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch3-html-61db73e1bb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch3.html
-retrieved_at: 2026-08-21T02:47:03.135837+00:00
+retrieved_at: 2026-09-30T20:14:48.737445+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -317,3 +317,7 @@ Displays the amount of total, free, and disk space that is used for disk logging
 | Disk/active | Displays the amount of total, free, and used disk space on the active disk. |
 | Disk/inactive | Displays the amount of total, free, and used disk space on the inactive disk. |
 | Disk/logging | Displays the amount of total, free, and disk space that is used for disk logging. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

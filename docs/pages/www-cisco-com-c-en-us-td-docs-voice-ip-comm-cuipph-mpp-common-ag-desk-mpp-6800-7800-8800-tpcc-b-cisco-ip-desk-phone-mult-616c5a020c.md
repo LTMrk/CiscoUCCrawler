@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-616c5a020c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_scripting.html
-retrieved_at: 2026-08-21T13:46:13.268389+00:00
+retrieved_at: 2026-09-30T20:14:05.087502+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1512,3 +1512,7 @@ http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath
 
 | To upgrade the phone with a URL in a web browser, enter this command: http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

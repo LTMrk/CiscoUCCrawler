@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-user-1-0-1-ippmcon-html-42abe81210
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmcon.html
-retrieved_at: 2026-08-21T02:47:46.013391+00:00
+retrieved_at: 2026-09-30T20:16:50.319588+00:00
 ---
 
 Cisco Unified IP Phone Messenger User Guide, Release 1.0(1)
@@ -263,3 +263,7 @@ Not applicable
 |---|---|---|
 | Overall availability | You can display the overall status. Choose > Phone Messenger > Contacts . Status is calculated by the server and displays with these caveats: • displays when at least one device is available. • displays if the phone is available, but Cisco IP Phone Messenger is not. | Not applicable |
 | Availability by device | You can display how many devices each contact has available, their capability (instant messages, phone, video), and the status for each device. 1. Choose > Phone Messenger > Contacts . 2. Use the Navigation button to scroll to select a contact. 3. Press Details . | Not applicable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

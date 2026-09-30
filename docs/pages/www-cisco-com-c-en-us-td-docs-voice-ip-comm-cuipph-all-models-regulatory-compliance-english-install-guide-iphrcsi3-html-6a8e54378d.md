@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-all-models-regulatory-compliance-english-install-guide-iphrcsi3-html-6a8e54378d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/regulatory_compliance/english/install/guide/iphrcsi3.html
-retrieved_at: 2026-08-21T06:24:41.876995+00:00
+retrieved_at: 2026-09-30T20:14:27.149101+00:00
 ---
 
 Regulatory Compliance and Safety Information for Cisco Unified IP Phones
@@ -1730,3 +1730,7 @@ Copyright © 2017 Cisco Systems, Inc. All rights reserved.
 |  |  |
 |  |  |
 |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

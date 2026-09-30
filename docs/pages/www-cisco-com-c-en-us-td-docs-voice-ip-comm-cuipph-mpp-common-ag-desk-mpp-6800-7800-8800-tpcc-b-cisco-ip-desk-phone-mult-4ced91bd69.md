@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-4ced91bd69
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_tpcc-call-control-1131.html
-retrieved_at: 2026-08-21T13:46:20.938154+00:00
+retrieved_at: 2026-09-30T20:14:13.114226+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -342,3 +342,7 @@ $file_put_contents($file, $report_data);
 | Caution | If you need to use the [--delta]xml-delta file rule and the [--status]xml-status file rule together, you must separate the
                                                       two rules with a space . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

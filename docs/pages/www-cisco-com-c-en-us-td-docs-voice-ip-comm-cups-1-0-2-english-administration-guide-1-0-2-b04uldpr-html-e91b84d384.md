@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04uldpr-html-e91b84d384
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04uldpr.html
-retrieved_at: 2026-08-21T16:12:52.358518+00:00
+retrieved_at: 2026-09-30T20:19:07.067212+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -226,3 +226,7 @@ See the "Related Topics" section .
 | LDAP Server Information |
 | Primary LDAP Server | This parameter specifies the primary LDAP server. From the dropdown list, you can choose from the LDAP servers that you have already defined on the system. |
 | Backup LDAP Server | This parameter specifies the backup LDAP server. From the dropdown list, you can choose from the LDAP servers that you have already defined on the system. You can specify two backup LDAP servers. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

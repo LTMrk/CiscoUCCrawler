@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sacdrm-html-e3f1c32399
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sacdrm.html
-retrieved_at: 2026-08-21T16:08:05.377143+00:00
+retrieved_at: 2026-09-30T20:15:26.165215+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -233,3 +233,7 @@ CDRs
 | Password | Enter the FTP password for the application billing server. |
 | Protocol | Choose the protocol, either FTP or SFTP, that you want to use to send the CDR files to the configured billing servers. |
 | Directory Path | Enter the directory path on the application billing server to which you want to send the CDRs. You should end the path that you specify with a "/" or "\", depending on the operating system that is running on the application billing server. Note Make sure the FTP user has write permission to the directory. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

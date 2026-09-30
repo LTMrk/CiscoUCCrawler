@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sartmt-html-d54f81be73
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sartmt.html
-retrieved_at: 2026-08-21T16:07:36.390870+00:00
+retrieved_at: 2026-09-30T20:15:51.898920+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -654,3 +654,7 @@ See the Related Topics .
 | Service | Monitor > Service > Cisco TFTP (or Heartbeat or Database Summary) | • Cisco TFTP—Displays Cisco TFTP status for each Cisco Unified Presence Server server in the cluster, including total TFTP requests, total TFTP requests found, and total TFTP requests aborted • Heartbeat—Displays heartbeat information for the Cisco Unified Presence Server, Cisco TFTP, and the Cisco Presence Server Attendant Console service • Database Summary—Displays summary information for the database on the Cisco Unified Presence Server server, including connection requests that are queued in the database, connection requests that are queued in memory, total number of clients connected, and the number of device resets that are in the queue. |
 | Device | Monitor > Device Summary (or Phone Summary) | Device Summary displays information for each Cisco Unified Presence Server server in the cluster, including the number of registered phone devices, registered gateway devices, and registered media resource devices. Device Search displays cluster name and device types in tree hierarchy and allows you to query for information on phones and devices. Phone Summary displays information for each Cisco Unified Presence Server server in the cluster, including the number of registered phones, registered SIP phones, registered SCCP phones, partially registered phones, and the number of failed registration attempts. Tip Instead of choosing Monitor > Device Summary or Monitor > Phone Summary, you can choose Device > Open Device Search to display the cluster name and device or phone types in the tree hierarchy. Tip To monitor devices, you must perform additional configuration steps, as described in the "Finding Specific Devices to Monitor" section . |
 | Performance | Performance > Open Performance | Displays perfmon counters. For more information on using perfmon counters, see the "Configuring and Using Performance Monitoring" section on page 9-1 . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

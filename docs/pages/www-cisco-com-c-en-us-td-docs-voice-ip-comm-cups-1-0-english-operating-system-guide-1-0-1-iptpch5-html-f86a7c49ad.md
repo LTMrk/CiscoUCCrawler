@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch5-html-f86a7c49ad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch5.html
-retrieved_at: 2026-08-21T02:47:11.127687+00:00
+retrieved_at: 2026-09-30T20:14:56.727026+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -65,3 +65,7 @@ The Shutdown System window displays.
 Step 2 To shut down the system, click Shutdown , or to stop the operation, click Cancel .
 
 If you click Shutdown , the system halts all processes and shuts down.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

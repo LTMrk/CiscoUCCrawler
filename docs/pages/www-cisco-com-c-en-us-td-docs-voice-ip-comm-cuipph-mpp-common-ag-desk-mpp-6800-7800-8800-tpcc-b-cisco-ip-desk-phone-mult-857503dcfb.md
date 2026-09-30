@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-857503dcfb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_monitoring-phone-systems-1131.html
-retrieved_at: 2026-08-21T13:47:22.231729+00:00
+retrieved_at: 2026-09-30T20:12:51.410597+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -335,3 +335,7 @@ In this file, tags Reboot_Reason_1 to Reboot_Reason_3 store the reboot history, 
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

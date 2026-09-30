@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-71e7f10b9f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_provisioning-methods-mpp.html
-retrieved_at: 2026-08-21T13:46:04.880688+00:00
+retrieved_at: 2026-09-30T20:13:56.721222+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1924,3 +1924,9 @@ print “</GPP_D></flat-profile>”; |
 
 | Note | Don't change the URL. Only the default URL is supported for the MIC certificate renewal. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

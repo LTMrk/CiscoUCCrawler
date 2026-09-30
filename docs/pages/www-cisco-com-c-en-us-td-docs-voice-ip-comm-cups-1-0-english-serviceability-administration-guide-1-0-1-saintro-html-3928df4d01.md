@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-saintro-html-3928df4d01
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/saintro.html
-retrieved_at: 2026-08-21T16:07:09.996725+00:00
+retrieved_at: 2026-09-30T20:15:35.215264+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -303,3 +303,7 @@ See the Related Topics .
 | End | Moves to the end of a line of user-entered text. Moves to the bottom of the window if more than one screenful of information exists. |
 | Page Up | Scrolls up one screen. |
 | Page Down | Scrolls down one screen. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

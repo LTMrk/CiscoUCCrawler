@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-mpp-to-enterprise-tpcc-b-7800-8800-miration-guide--22a6eacc00
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/mpp-to-enterprise/tpcc_b_7800-8800-miration-guide-mpp-to/tpcc_b_7800-8800-miration-guide-mpp-to_chapter_01.html
-retrieved_at: 2026-09-01T17:22:28.928532+00:00
+retrieved_at: 2026-09-30T20:11:00.942791+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Migration Guide (Multiplatform Phones to On-Premises)
@@ -374,3 +374,7 @@ The second part URL2 or IP2 is attempted based on the above DHCP options.
 
 | Note | Ensure that Transition authorization Type parameter is set every time you set the Transition Authorization Rule . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

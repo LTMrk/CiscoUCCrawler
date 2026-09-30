@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-0584c99595
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_new-changed-info-8800.html
-retrieved_at: 2026-08-21T13:45:56.349741+00:00
+retrieved_at: 2026-09-30T20:13:48.289851+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1834,3 +1834,7 @@ Auto Detection of Key Expansion Modules
 | Added information on a star code is added to Conference hard key from the phone web page | Enable Conference Button with a Star Code |
 | Logo can be added as boot display | Add a Logo as the Boot Display |
 | Key expansion modue will be auto-detected when plugged in | Auto Detection of Key Expansion Modules |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

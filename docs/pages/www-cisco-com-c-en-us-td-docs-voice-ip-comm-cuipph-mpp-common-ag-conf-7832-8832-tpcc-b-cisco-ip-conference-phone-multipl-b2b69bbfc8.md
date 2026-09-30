@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-b2b69bbfc8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_cisco-ip-phone-security-mpp1133.html
-retrieved_at: 2026-08-21T13:48:21.980016+00:00
+retrieved_at: 2026-09-30T20:11:39.274234+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -2406,3 +2406,7 @@ Further information regarding U.S. export regulations can be found at https://ww
 | Config file encryption | Profile resync | SRTP |
 | 802.1x | Onboard service | SIP digest (RFC 8760) |
 | HTTPs server | Webex on-boarding, Webex call logs, Webex directory | Http Proxy |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-12532db392
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_provisioning-scripts-mpp1133.html
-retrieved_at: 2026-08-21T13:48:08.133543+00:00
+retrieved_at: 2026-09-30T20:12:19.217066+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -1433,3 +1433,7 @@ http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath
 
 | To upgrade the phone with a URL in a web browser, enter this command: http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

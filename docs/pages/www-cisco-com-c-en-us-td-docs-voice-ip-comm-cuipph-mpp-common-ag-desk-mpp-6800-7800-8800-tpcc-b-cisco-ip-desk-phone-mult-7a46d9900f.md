@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-7a46d9900f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_technical-details_deskphone-1201.html
-retrieved_at: 2026-08-21T13:47:30.555842+00:00
+retrieved_at: 2026-09-30T20:14:09.131698+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1305,3 +1305,7 @@ The Cisco IP Phone does not support IEEE 802.X and does not work in a 802.1X wir
 | 1 | Network Policy |
 | 4 | Extended Power via MDI-PD |
 | 5 | Inventory |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

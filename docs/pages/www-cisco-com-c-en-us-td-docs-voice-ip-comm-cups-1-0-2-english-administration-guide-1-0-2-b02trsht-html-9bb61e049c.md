@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b02trsht-html-9bb61e049c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b02trsht.html
-retrieved_at: 2026-08-21T16:11:07.894902+00:00
+retrieved_at: 2026-09-30T20:17:28.365817+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -147,3 +147,7 @@ Verify that the CTI Gateway service is running.
 | Verify that the preferred SIP Proxy listener is using transport type of TCP. |
 | Verify that the CTI Gateway service is active. |
 | Verify that the CTI Gateway service is running. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

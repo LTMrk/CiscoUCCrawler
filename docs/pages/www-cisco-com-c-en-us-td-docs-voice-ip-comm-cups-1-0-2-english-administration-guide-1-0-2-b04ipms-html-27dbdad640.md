@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04ipms-html-27dbdad640
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04ipms.html
-retrieved_at: 2026-08-21T16:12:02.027115+00:00
+retrieved_at: 2026-09-30T20:18:32.905156+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -109,3 +109,7 @@ See the "Related Topics" section .
 • Logging Out an IPPM End User
 
 • Sending a Broadcast Message
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

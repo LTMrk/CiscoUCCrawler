@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-enterprise-to-mpp-cuip-b-conversion-guide-ipphone--32edabd90f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/enterprise-to-mpp/cuip_b_conversion-guide-ipphone/cuip_b_conversion-guide-ipphone_chapter_00.html
-retrieved_at: 2026-09-01T15:42:18.418393+00:00
+retrieved_at: 2026-09-30T20:10:48.354711+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Migration Guide (On-Premises to Multiplatform Phones)
@@ -104,6 +104,10 @@ Cisco IP Phone 8800 Series with Mulitplatform Firmware— Cisco IP Phone 8800 Se
 
 https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/products-installation-guides-list.html
 
+### Customers Also Viewed
+
+- Cisco IP Phone 7800 and 8800 Series Migration Guide (On-Premises to Multiplatform Phones) --- Migration Process
+
 | 7800 Series (* limitations apply) | 8800 Audio series | 8800 Video series |
 |---|---|---|
 | CP-7811-K9= | CP-8811-K9= | CP-8845-K9= |
@@ -111,3 +115,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-seri
 | CP-7841-K9= *(V04 or later) | CP-8851-K9= |  |
 | CP-7861-K9= *(V03 or later) | CP-8861-K9= |  |
 | CP-7832-K9= | CP-8832-K9= *(V07 and earlier) |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

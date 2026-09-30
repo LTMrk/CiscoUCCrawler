@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch7-html-b7cefb1450
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch7.html
-retrieved_at: 2026-08-21T02:47:19.739761+00:00
+retrieved_at: 2026-09-30T20:15:05.155370+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -321,3 +321,7 @@ Note If you want to modify a file that is already in the TFTP directory, you can
 | [LOCALE] Could not create /usr/local/cm/application_locale/cmservices/ipma/com/cisco/ipma/client/locales/maDialogs_<ll>_<CC>.properties.Checksum. [LOCALE] Could not create /usr/local/cm/application_locale/cmservices/ipma/com/cisco/ipma/client/locales/maMessages_<ll>_<CC>.properties.Checksum. [LOCALE] Could not create /usr/local/cm/application_locale/cmservices/ipma/com/cisco/ipma/client/locales/maGlobalUI_<ll>_<CC>.properties.Checksum. [LOCALE] Could not create /usr/local/cm/application_locale/cmservices/ipma/LocaleMasterVersion.txt.Checksum. | These errors could occur when the system fails to create a checksum file, caused by an absent Java executable, /usr/local/thirdparty/java/j2sdk/jre/bin/java, an absent or damaged Java archive file, /usr/local/cm/jar/cmutil.jar, or absent or damaged Java class, com.cisco.ccm.util.Zipper. Even if these errors occur, the locale will continue to work correctly, with the exception of Unified CM Assistant, which cannot detect a change in localized Unified CM Assistant files. |
 | [LOCALE] Could not find /usr/local/cm/application_locale/cmservices/ipma/LocaleMasterVersion.txt in order to update Unified CM Assistant locale information. | This error occurs when the file has not been found in the correct location, which is most likely due to an error in the build process. |
 | [LOCALE] Addition of <RPM-file-name> to the Cisco Unified CallManager database has failed! | This error occurs because of the collective result of any failure that occurs when a locale is being installed; it indicates a terminal condition. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

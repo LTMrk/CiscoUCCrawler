@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-eaef07f69f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_8832-new-and-changed-ag.html
-retrieved_at: 2026-08-21T13:47:51.070239+00:00
+retrieved_at: 2026-09-30T20:11:14.429211+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -1243,3 +1243,7 @@ BroadSoft XMPP
 | Factory Reset Button in the Phone Web Page | Factory Reset the Phone from the Phone Web Interface Factory Reset |
 | IPv6 Support | Network Configuration Fields IPv6 Information Network Settings IPv6 Settings |
 | Presence | Set Up a Phone for Presence BroadSoft XMPP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

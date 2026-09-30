@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch1-html-d5f7c5345b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch1.html
-retrieved_at: 2026-08-21T02:45:01.833092+00:00
+retrieved_at: 2026-09-30T20:14:40.015532+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -123,3 +123,7 @@ The application provides the following operating system utilities:
 ## Command Line Interface
 
 The command line interface, which you can access from the console or through a secure shell connection to the server, provides a subset of the operating system functionality that is available through the operating system user interface. Keep in mind that the command line interface is designed for system emergencies and not as a replacement for the user interface.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

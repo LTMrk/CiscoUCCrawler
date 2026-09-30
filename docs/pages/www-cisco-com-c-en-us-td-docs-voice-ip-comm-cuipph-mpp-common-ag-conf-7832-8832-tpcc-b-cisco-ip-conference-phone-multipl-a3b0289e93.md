@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-a3b0289e93
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_b_8832-mpp-adminguide_appendix_010011.html
-retrieved_at: 2026-08-21T13:49:14.212065+00:00
+retrieved_at: 2026-09-30T20:11:05.095117+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -865,3 +865,7 @@ If the same application type is used for the network policy but different Layer 
 | 1 | Network Policy |
 | 4 | Extended Power via MDI-PD |
 | 5 | Inventory |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

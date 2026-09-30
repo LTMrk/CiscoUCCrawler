@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-user-1-0-1-ippmmes-html-eab1946841
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmmes.html
-retrieved_at: 2026-08-21T02:47:50.252227+00:00
+retrieved_at: 2026-09-30T20:16:58.609044+00:00
 ---
 
 Cisco Unified IP Phone Messenger User Guide, Release 1.0(1)
@@ -345,3 +345,7 @@ You can delete personal messages one at a time.
 | Re-order personal response messages | Not applicable | You can rearrange the order in which your personal response messages appear on the list. 1. Choose User Options > Response Messages . 2. Click Up and Down to rearrange the order of your personal messages. |
 | Delete all personal response messages | Not applicable | You can delete all personal messages at once. 1. Choose User Options > Response Messages . 2. Click Select All. 3. Click Delete Selected . 4. Click OK to accept or Cancel . |
 | Delete a specific personal response message | Not applicable | You can delete personal messages one at a time. 1. Choose User Options > Response Messages. 2. Click the checkbox next to the contact's name you want to delete. 3. Click Delete Selected . 4. Click OK to accept or Cancel . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

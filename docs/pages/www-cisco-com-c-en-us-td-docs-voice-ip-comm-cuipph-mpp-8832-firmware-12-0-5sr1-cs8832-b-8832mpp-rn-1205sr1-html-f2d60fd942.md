@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-firmware-12-0-5sr1-cs8832-b-8832mpp-rn-1205sr1-html-f2d60fd942
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/firmware/12-0-5sr1/cs8832_b_8832mpp-rn-1205sr1.html
-retrieved_at: 2026-08-21T13:43:36.525173+00:00
+retrieved_at: 2026-09-30T20:10:40.442745+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Release Notes for Firmware Release 12.0(5)SR1
@@ -272,3 +272,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 
 | Click one of the following links: To view all caveats that affect this release: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286319904&rls=12.0(5)&sb=anfr&bt=custV To view open caveats that affect this release: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286319904&rls=12.0(5)&sb=anfr&sts=open&bt=custV To view resolved caveats that affect this release: https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286319904&rls=12.0(5)&sb=anfr&sts=fd&bt=custV |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

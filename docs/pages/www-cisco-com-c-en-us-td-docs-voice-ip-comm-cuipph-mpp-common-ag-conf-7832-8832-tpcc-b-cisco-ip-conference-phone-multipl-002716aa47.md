@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-002716aa47
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_provisioning-methods-mpp1133.html
-retrieved_at: 2026-08-21T13:47:59.898087+00:00
+retrieved_at: 2026-09-30T20:12:06.682711+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -1834,3 +1834,9 @@ print “</GPP_D></flat-profile>”; |
 
 | Note | Don't change the URL. Only the default URL is supported for the MIC certificate renewal. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

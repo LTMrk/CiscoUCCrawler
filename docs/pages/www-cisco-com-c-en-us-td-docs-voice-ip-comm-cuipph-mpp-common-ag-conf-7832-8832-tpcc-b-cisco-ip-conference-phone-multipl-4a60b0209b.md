@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-4a60b0209b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_troubleshooting-mpp1133.html
-retrieved_at: 2026-08-21T13:49:01.856537+00:00
+retrieved_at: 2026-09-30T20:12:27.031609+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -715,3 +715,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-seri
 
 | Note | Voice quality metrics do not account for noise or distortion, only frame loss. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

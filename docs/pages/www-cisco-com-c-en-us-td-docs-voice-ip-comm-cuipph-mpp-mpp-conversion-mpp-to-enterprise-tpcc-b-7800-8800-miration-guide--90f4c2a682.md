@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-mpp-conversion-mpp-to-enterprise-tpcc-b-7800-8800-miration-guide--90f4c2a682
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/MPP-conversion/mpp-to-enterprise/tpcc_b_7800-8800-miration-guide-mpp-to/tpcc_b_7800-8800-miration-guide-mpp-to_appendix_010.html
-retrieved_at: 2026-09-01T17:22:33.026900+00:00
+retrieved_at: 2026-09-30T20:10:52.929634+00:00
 ---
 
 Cisco IP Phone 7800 and 8800 Series Migration Guide (Multiplatform Phones to On-Premises)
@@ -269,3 +269,7 @@ Generate a Wireshark pcap file under such situation, which gets the failure.
 |---|---|
 | Step 2 | Wait 5 seconds. |
 | Step 3 | On earlier hardware versions, the Mute button lights up. Wait for the Mute button to turn off. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

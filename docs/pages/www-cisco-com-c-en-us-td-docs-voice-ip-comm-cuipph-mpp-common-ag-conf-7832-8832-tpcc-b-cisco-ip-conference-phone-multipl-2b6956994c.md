@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-2b6956994c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_phone-features-setup-mpp1133.html
-retrieved_at: 2026-08-21T13:48:29.304251+00:00
+retrieved_at: 2026-09-30T20:11:58.077566+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -6615,3 +6615,7 @@ num=800;listen=yes;pri=1;codec=g722</Group_1_Paging_Script> In the phone web int
 | Step 2 | Select Yes for the parameter X-SWITCH-INFO Support . To disable the feature, select No . You can also configure this parameter in the phone configuration XML file (cfg.xml) by entering a string in this format: <X-SWITCH-INFO_Support ua=”na“>Yes</X-SWITCH-INFO_Support> Default: No . |
 | Step 3 | For wired phone, do the following: Select Voice > System > VLAN Settings > Enable LLDP-MED . |
 | Step 4 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-b2ea0547f1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_access-control-config-mpp1133.html
-retrieved_at: 2026-08-21T13:48:12.069775+00:00
+retrieved_at: 2026-09-30T20:11:18.518747+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -458,3 +458,7 @@ Save the changes to the cfg.xml file.
 |---|---|
 | Step 2 | Insert the <User_Password> tag using one of these options. No password (start and end tag) – <User_Password></User_Password> Password value (4-127 characters) – <User_Password >Abc123</User_Password> No password (start tag only) – <User_Password /> |
 | Step 3 | Save the changes to the cfg.xml file. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

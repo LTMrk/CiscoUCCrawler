@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-531bc697aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_m_vido-configuration-1131.html
-retrieved_at: 2026-08-21T13:46:54.207197+00:00
+retrieved_at: 2026-09-30T20:13:09.252756+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -401,3 +401,7 @@ Default: AES 128
 | H264 BP1 Enable | Enables the H264 Base Profile 1 codec when you select Yes and disables it when you select No . Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <H264_BP1_Enable_1_ ua="na">Yes</H264_BP1_Enable_1_> In the phone web interface, set this field to Yes or No to enable or disable the H264 BP1 codec. Allowed values: Yes\|No Default: Yes |
 | H264 HP Enable | Enables the H264 High Profile codec when you select Yes and disables it when you select No . Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <H264_HP_Enable_1_ ua="na">Yes</H264_HP_Enable_1_> In the phone web interface, set this field to Yes or No to enable or disable the H264 HP codec. Allowed values: Yes\|No Default: Yes |
 | Encryption Method | Encryption method to be used during secured call. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <Viedo_Encryption_Method_1_ ua="na">AES 128</Viedo_Encryption_Method_1_> In the phone web interface, select your preferred encryption method from the list. Allowed values: AES 128\|AES 256 GCM Default: AES 128 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

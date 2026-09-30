@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-b6b0913eb7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_phone-info-display-config-mpp1133.html
-retrieved_at: 2026-08-21T13:48:32.784404+00:00
+retrieved_at: 2026-09-30T20:12:02.110473+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -498,3 +498,7 @@ Telecom Use the + character to add spaces for formatting. You can add multiple +
 |---|---|
 | Step 2 | In the Supplementary Services section, set the parameter Keep Focus On Active Call to Yes . You can also configure this parameter in the configuration file: <Keep_Focus_On_Active_Call ua="na">Yes</Keep_Focus_On_Active_Call> Allowed values: Yes and No Default: No |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

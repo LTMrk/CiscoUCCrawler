@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b03tlsc-html-a683914d7c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b03tlsc.html
-retrieved_at: 2026-08-21T16:11:45.223450+00:00
+retrieved_at: 2026-09-30T20:18:05.864952+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -145,3 +145,7 @@ See the "Related Topics" section .
 | Authorization Policy | This parameter specifies the authorization type for this particular TLS context. From the drop-down list, choose either Server or Peer (default). |
 | TLS Cipher Mapping | These fields display the available and selected TLS ciphers. |
 | TLS Peer Subject Mapping | These fields display the available and selected TLS peer subjects. Note You can define TLS peer subjects in the TLS Peer Subjects window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

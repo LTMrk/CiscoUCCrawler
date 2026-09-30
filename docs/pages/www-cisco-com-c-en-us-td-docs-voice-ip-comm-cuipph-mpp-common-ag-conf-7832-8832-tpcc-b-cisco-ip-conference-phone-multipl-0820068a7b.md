@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-0820068a7b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_provisioning-parameters-mpp1133.html
-retrieved_at: 2026-08-21T13:48:03.457889+00:00
+retrieved_at: 2026-09-30T20:12:14.756416+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -623,3 +623,7 @@ Dialed number invalid according to given dial plan.
 | X40 | General SIP protocol error (for example, unacceptable codec in SDP in 200 and ACK messages, or times out while waiting for
                                           ACK). |
 | X60 | Dialed number invalid according to given dial plan. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

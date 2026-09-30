@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b03petl-html-7414bca4a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b03petl.html
-retrieved_at: 2026-08-21T16:11:41.046805+00:00
+retrieved_at: 2026-09-30T20:17:56.602347+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -151,3 +151,7 @@ See the "Related Topics" section .
 | Protocol Type | This parameter specifies what type of protocol this SIP transport will use, TCP, UDP, or TLS. |
 | Service Type | This parameter specifies the service type of this transport listener: • Cisco Proxy Server • Cisco Presence • Cisco Unified Client Profile Agent |
 | TLS Context | This parameter specifies the TLS context that is associated with this transport listener and only applies when you choose the TLS protocol type. Note The available TLS contexts get configured in the TLS Context Configuration window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

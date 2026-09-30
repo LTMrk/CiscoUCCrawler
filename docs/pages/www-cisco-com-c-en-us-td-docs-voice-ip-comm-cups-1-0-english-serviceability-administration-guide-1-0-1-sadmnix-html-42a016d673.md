@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sadmnix-html-42a016d673
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sadmnIX.html
-retrieved_at: 2026-08-21T16:07:01.385899+00:00
+retrieved_at: 2026-09-30T20:15:30.686955+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -601,3 +601,7 @@ user-defined alarm descriptions 4-1
 Z
 
 zooming a counter 9-7
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-54a2a21458
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_voice-mail-configuration-1131.html
-retrieved_at: 2026-08-21T13:46:58.345244+00:00
+retrieved_at: 2026-09-30T20:14:21.741399+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -480,3 +480,7 @@ sub=group_vm@domain;vid=1;nme=Group;</Extended_Function_2_> |
 | Label | The label of the PLK. For example, VM 3300. If this parameter is missing, the key displays the name part of the User ID parameter. This parameter is optional. |
 | User ID | The SIP address of a voicemail account. For example, 4085283300@$PROXY. This parameter is mandatory. |
 | Number | The speed dial number or the SIP URI. For example, 8000 ,3300#,123456# |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

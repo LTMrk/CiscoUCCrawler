@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-3bfc5c3622
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_cisco-ip-phone-hardware.html
-retrieved_at: 2026-08-21T13:45:51.824847+00:00
+retrieved_at: 2026-09-30T20:13:23.890201+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1309,3 +1309,19 @@ The Cisco IP Phone 6821 has a limited number of hard buttons. You use the softke
 | 7 | Speakerphone , Mute , and Headset | Speakerphone Toggle the speakerphone on or off. When the speakerphone is on, the button is lit. Mute Toggle the microphone on or off. When the microphone is muted, the button is lit. Headset Toggle the headset on or off. When the headset is on, the button is lit. |
 | 8 | Contacts , Applications , and Messages | Contacts Access personal and corporate directories. Applications Access call history, user preferences, phone settings, and phone model information. Messages Autodial your voice messaging system. |
 | 9 | Volume button | Adjust the handset, headset, and speakerphone volume (off hook) and the ringer volume (on hook). |
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 6800 Series Multiplatform Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394279.tif/_jcr_content/renditions/394279.jpg)
+
+![Figure 2. Cisco IP Phone 6821 Multiplatform Phones Connections](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393816.eps/_jcr_content/renditions/393816.jpg)
+
+![Figure 3. Cisco IP Phone 6821 Multiplatform Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393811.eps/_jcr_content/renditions/393811.jpg)
+
+![Figure 4. Cisco IP Phone 6841, 6851, and 6861 Multiplatform Phones Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393655.eps/_jcr_content/renditions/393655.jpg)
+
+![Figure 5. Cisco IP Phone 6871 Multiplatform Phones Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394211.eps/_jcr_content/renditions/394211.jpg)
+
+![Figure 6. Cisco IP Phone 7800 Series Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393563.tif/_jcr_content/renditions/393563.jpg)
+
+![Figure 7. Cisco IP Phone 8845 Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393088.eps/_jcr_content/renditions/393088.jpg)

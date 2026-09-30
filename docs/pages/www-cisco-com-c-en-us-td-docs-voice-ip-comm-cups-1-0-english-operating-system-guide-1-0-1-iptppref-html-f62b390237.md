@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptppref-html-f62b390237
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptppref.html
-retrieved_at: 2026-08-21T02:44:57.880184+00:00
+retrieved_at: 2026-09-30T20:15:13.933100+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -347,3 +347,7 @@ http://www.cisco.com/en/US/learning/index.html
 
 |  | Warning This warning symbol means danger. You are in a situation that could cause bodily injury. Before you work on any equipment, you must be aware of the hazards involved with electrical circuitry and familiar with standard practices for preventing accidents. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

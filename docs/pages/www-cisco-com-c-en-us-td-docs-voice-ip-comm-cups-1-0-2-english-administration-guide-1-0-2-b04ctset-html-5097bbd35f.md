@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04ctset-html-5097bbd35f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04ctset.html
-retrieved_at: 2026-08-21T16:13:00.919597+00:00
+retrieved_at: 2026-09-30T20:18:28.519566+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -91,3 +91,7 @@ Configuring CTI Gateway Settings
 | CTI Address (Failover) | This parameter specifies the IP address or fully qualified domain name of the failover CTI gateway. Note Ensure the failover CTI address is not the same as the primary CTI address. |
 | Heartbeat Interval (seconds) | This parameter specifes the heartbeat interval in seconds. Range: 5-20 seconds Default: 8 seconds |
 | Session Timer (seconds) | This parameter specifies the value of the session time in seconds. Range: 1810-2000 seconds Default: 1810 seconds |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

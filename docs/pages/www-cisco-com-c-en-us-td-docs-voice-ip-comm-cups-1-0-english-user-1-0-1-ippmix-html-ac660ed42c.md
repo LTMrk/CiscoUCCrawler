@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-user-1-0-1-ippmix-html-ac660ed42c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmIX.html
-retrieved_at: 2026-08-21T02:47:33.520278+00:00
+retrieved_at: 2026-09-30T20:16:42.194058+00:00
 ---
 
 Cisco Unified IP Phone Messenger User Guide, Release 1.0(1)
@@ -363,3 +363,7 @@ Yes, softkey
 definition 2
 
 usage 2 , 4
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

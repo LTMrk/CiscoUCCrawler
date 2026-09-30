@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-2cd96eb7f9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_tr-069-parameter-comparision-mpp1133.html
-retrieved_at: 2026-08-21T13:49:18.781855+00:00
+retrieved_at: 2026-09-30T20:12:23.067108+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -593,3 +593,7 @@ CWMP_V1.2_Support
 | Device.X_CISCO_UserConfigurableResync | User_Configurable_Resync |
 | Device.X_CISCO_HTTPReportMethod | HTTP_Report_Method |
 | Device.X_CISCO_CWMPV1dot2Support | CWMP_V1.2_Support |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sartmtpm-html-57ba43c7ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sartmtpm.html
-retrieved_at: 2026-08-21T16:07:44.594509+00:00
+retrieved_at: 2026-09-30T20:16:00.733292+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -498,3 +498,7 @@ To reset the chart to the initial default view, click Reset View or right-mouse 
 | Select Counters | Allows you to add counters that you want to display in the performance log viewer. To not display a counter, uncheck the Display column next to the counter. |
 | Reset View | Resets the performance log viewer to the initial default view. |
 | Save Downloaded File | Allows you to save the log file to your local computer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

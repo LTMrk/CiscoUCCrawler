@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sattrace-html-3c288f7d46
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sattrace.html
-retrieved_at: 2026-08-21T16:07:31.905274+00:00
+retrieved_at: 2026-09-30T20:16:37.310693+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -43,3 +43,7 @@ See the Related Topics .
 ## Related Topics
 
 • Trace Configuration
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

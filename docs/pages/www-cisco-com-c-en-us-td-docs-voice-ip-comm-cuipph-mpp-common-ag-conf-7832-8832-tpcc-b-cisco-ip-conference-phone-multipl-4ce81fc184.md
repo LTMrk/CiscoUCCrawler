@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-4ce81fc184
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_calling-features-config-mpp1133.html
-retrieved_at: 2026-08-21T13:48:38.861549+00:00
+retrieved_at: 2026-09-30T20:11:28.357907+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -3122,3 +3122,7 @@ vid=<extension_n_to_be_associated> The PSK softkey toggle always starts with the
 | Step 2 | Select Voice > Ext n > XSI Line Service . |
 | Step 3 | Select Yes for the parameter User ExternalID . To disable the feature, select No . You can also configure this parameter in the phone configuration XML file (cfg.xml) by entering a string in this format: <User_ExternalID_1_ ua=”na“>Yes</User_ExternalID_1_ ua> Default: No . |
 | Step 4 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

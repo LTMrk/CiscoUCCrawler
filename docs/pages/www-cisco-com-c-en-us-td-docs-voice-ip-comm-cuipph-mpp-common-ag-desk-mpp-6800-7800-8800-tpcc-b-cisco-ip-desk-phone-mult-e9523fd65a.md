@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-e9523fd65a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_directory-setup.html
-retrieved_at: 2026-08-21T13:47:02.974118+00:00
+retrieved_at: 2026-09-30T20:13:32.927709+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -1321,3 +1321,7 @@ Click Submit All Changes .
 |---|---|
 | Step 2 | In the Supplementary Services area, set the Reverse Phone Lookup Serv parameter to Yes to enable this feature. You can also configure this parameter in the configuration file (cfg.xml) by entering a string in this format: <Reverse_Phone_Lookup_Serv ua="na">Yes</Reverse_Phone_Lookup_Serv> The allowed values are Yes\|No. The default value is Yes. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

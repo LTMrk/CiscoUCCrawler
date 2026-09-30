@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-a653108e6a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_monitoring-phone-systems-mpp1133.html
-retrieved_at: 2026-08-21T13:49:05.893419+00:00
+retrieved_at: 2026-09-30T20:11:51.077135+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -460,3 +460,7 @@ In this file, tags Reboot_Reason_1 to Reboot_Reason_3 store the reboot history, 
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

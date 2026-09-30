@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-b3d0be5362
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_troubleshooting-mpp.html
-retrieved_at: 2026-08-21T13:47:18.498760+00:00
+retrieved_at: 2026-09-30T20:14:17.958846+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -893,3 +893,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-seri
 
 | Note | Voice quality metrics do not account for noise or distortion, only frame loss. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

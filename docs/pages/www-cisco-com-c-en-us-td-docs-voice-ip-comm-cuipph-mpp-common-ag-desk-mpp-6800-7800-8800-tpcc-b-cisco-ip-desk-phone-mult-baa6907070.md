@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-baa6907070
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_key-expansion-module-8800_6800.html
-retrieved_at: 2026-08-21T13:47:07.000811+00:00
+retrieved_at: 2026-09-30T20:13:43.632343+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -920,3 +920,11 @@ sub=group_vm@domain;vid=1;nme=Group;</Unit_1_Key_1_> |
 | Step 2 | Go to the Unit (n) section, where n is unit number of the key expansion module. |
 | Step 3 | Configure the Unit n Key m field, where n is unit number of the key expansion module, and m is the key number. fnc=inert; where fnc=inert means function=inert. You can also configure the parameter in the configuration file (cfg.xml) with a string in this format: <Unit_n_Key_m_ ua="na">fnc=inert;</Unit_n_Key_m_> where n is the unit number of the key expansion module, and m is the key number. |
 | Step 4 | Click Submit All Changes . |
+
+## Figuras
+
+![Figure 1. Key Expansion Module with Single LCD Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394017.tif/_jcr_content/renditions/394017.jpg)
+
+![Figure 2. Cisco IP Phone 8851/8861 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394009.tif/_jcr_content/renditions/394009.jpg)
+
+![Figure 3. Cisco IP Phone 8865 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393993.tif/_jcr_content/renditions/393993.jpg)

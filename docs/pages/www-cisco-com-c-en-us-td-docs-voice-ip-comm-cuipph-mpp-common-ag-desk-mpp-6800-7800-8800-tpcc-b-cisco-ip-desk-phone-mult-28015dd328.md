@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-28015dd328
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/tpcc_m_phone-info-and-display-mpp.html
-retrieved_at: 2026-08-21T13:46:40.017513+00:00
+retrieved_at: 2026-09-30T20:13:52.115876+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -716,3 +716,7 @@ Telecom Use the + character to add spaces for formatting. You can add multiple +
 |---|---|
 | Step 2 | Under the Cisco Headset Firmware Upgrade section, enter the configuration file name in the Cisco Headset Upgrade Rule parameter. For example: <upgrade protocol>://<upgrade server ip address>[:<port>]>/<path>/<file name>.xml HTTP, HTTPS, and TFTP are supported. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

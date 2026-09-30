@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-desk-mpp-6800-7800-8800-tpcc-b-cisco-ip-desk-phone-mult-1b39435c30
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_desk_mpp_6800_7800_8800/tpcc_b_cisco-ip-desk-phone-multiplatform/p881_b_8800-mpp-ag_new_appendix_010110.html
-retrieved_at: 2026-08-21T13:47:34.894207+00:00
+retrieved_at: 2026-09-30T20:12:39.374632+00:00
 ---
 
 Cisco IP Desk Phone with Multiplatform Firmware (MPP) － Administration Guide
@@ -597,3 +597,7 @@ CWMP_V1.2_Support
 | Device.X_CISCO_UserConfigurableResync | User_Configurable_Resync |
 | Device.X_CISCO_HTTPReportMethod | HTTP_Report_Method |
 | Device.X_CISCO_CWMPV1dot2Support | CWMP_V1.2_Support |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

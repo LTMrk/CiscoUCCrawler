@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-operating-system-guide-1-0-1-iptpch4-html-d3c4449845
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/operating_system/guide/1_0_1/iptpch4.html
-retrieved_at: 2026-08-21T02:47:06.973812+00:00
+retrieved_at: 2026-09-30T20:14:53.090521+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide, Release 1.0(1)
@@ -148,3 +148,7 @@ Step 3 Click Save .
 | Port Settings IP Address | Shows the IP address of the system. |
 | Mask | Shows the IP subnet mask address. |
 | Gateway IP Address | Shows the IP address of the network gateway. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

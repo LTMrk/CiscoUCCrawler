@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-satrace-html-ef5ec6f910
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/satrace.html
-retrieved_at: 2026-08-21T16:07:27.768079+00:00
+retrieved_at: 2026-09-30T20:16:33.061706+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -218,3 +218,7 @@ See the Related Topics .
 |---|---|
 | Maximum number of files | This field specifies the total number of trace files for a given service. Cisco Unified Presence Server automatically appends a sequence number to the file name to indicate which file it is; for example, ccm299.txt. When the last file in the sequence is full, the trace data begins writing over the first file. The default varies by service. |
 | Maximum file size (MB) | This field specifies the maximum size of the trace file in megabytes. The default varies by service. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

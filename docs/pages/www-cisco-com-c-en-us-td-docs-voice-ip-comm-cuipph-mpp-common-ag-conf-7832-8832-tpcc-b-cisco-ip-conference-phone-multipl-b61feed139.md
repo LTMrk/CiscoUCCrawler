@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-common-ag-conf-7832-8832-tpcc-b-cisco-ip-conference-phone-multipl-b61feed139
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/common/ag_conf_7832_8832/tpcc_b_cisco-ip-conference-phone-multiplatform/cs88_m_3rd-party-call-control-setup-mpp1133.html
-retrieved_at: 2026-08-21T13:48:16.421833+00:00
+retrieved_at: 2026-09-30T20:11:09.158395+00:00
 ---
 
 Cisco IP Conference Phone Multiplatform Phone Administration Guide
@@ -342,3 +342,7 @@ $file_put_contents($file, $report_data);
 | Caution | If you need to use the [--delta]xml-delta file rule and the [--status]xml-status file rule together, you must separate the
                                                       two rules with a space . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

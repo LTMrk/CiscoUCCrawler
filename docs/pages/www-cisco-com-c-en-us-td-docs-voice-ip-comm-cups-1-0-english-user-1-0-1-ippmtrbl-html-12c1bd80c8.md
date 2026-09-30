@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-user-1-0-1-ippmtrbl-html-12c1bd80c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/user/1_0_1/ippmtrbl.html
-retrieved_at: 2026-08-21T02:47:54.195044+00:00
+retrieved_at: 2026-09-30T20:17:02.624470+00:00
 ---
 
 Cisco Unified IP Phone Messenger User Guide, Release 1.0(1)
@@ -299,3 +299,7 @@ and 9999. | You cannot enter an interval outside the given range (in minutes). |
 | Cisco IP Phone Messenger User Options |
 | I am accessing the User Options web page, but I do not see any of the options mentioned. | Verify that you are accessing the User Options web pages for Cisco IP Phone Messenger, not Cisco Unified CallManager. Contact your system administrator for assistance and see the "Logging into Cisco IP Phone Messenger" section . |
 | Why do I have to re-enter my user name and password? | The User Options web pages automatically log you out after a period of inactivity for increased security. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

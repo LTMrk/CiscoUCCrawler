@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-english-serviceability-administration-guide-1-0-1-sasnmpmb-html-e13ba19fb0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0/english/serviceability/administration/guide/1_0_1/sasnmpmb.html
-retrieved_at: 2026-08-21T16:10:29.826755+00:00
+retrieved_at: 2026-09-30T20:16:12.316779+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(1)
@@ -53,3 +53,7 @@ See the Related Topics .
 • SNMP V1/V2c Configuration, page 16-1
 
 • SNMP V3 Configuration, page 17-1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
