@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-developersguide-w800-b-wireless-800-developers-guide-w800--2e7504ff76
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/developersguide/w800_b_wireless-800-developers-guide/w800_m_appendix.html
-retrieved_at: 2026-08-21T23:36:37.119094+00:00
+retrieved_at: 2026-09-30T19:20:50.099533+00:00
 ---
 
 Cisco Wireless Phone 800 Series Developer's Guide
@@ -363,3 +363,11 @@ XHTML
 | None | After Push XML After Push closed | Reverts to default. Visual alert. Sound for alert and media file. Remains at default. | Na |
 | Alarms only | After Push XML After Push closed | Na | Reverts to default. Visual alert. Sound for alert and media file. Remains at default. |
 | Priority/ Priority only | After Push XML After Push closed | No mode change. Visual alert. Sound for alert and media file. Phone remains in Priority only. | Reverts to default. Visual alert. Sound for alert and media file. Remains at default. |
+
+## Figuras
+
+![Figure 1. The Apps URLs widget box](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471922.JPG)
+
+![Figure 2. Softkey buttons in the browser view](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471923.JPG)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

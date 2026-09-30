@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-adminguide-p881-bk-c136782f-00-cisco-ip-phone-880-4ea0c21336
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8800_series_chapter_010010.html
-retrieved_at: 2026-08-21T09:48:43.384905+00:00
+retrieved_at: 2026-09-30T19:22:39.893300+00:00
 ---
 
 Cisco IP Phone 8800 Series Administration Guide for Cisco Unified Communications Manager
@@ -631,3 +631,7 @@ Set the Label for a Line .
 | Added for
                                           					 Application Dial Rule support | Application Dial Rules |
 | Added for Line Text Label | Set the Label for a Line . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

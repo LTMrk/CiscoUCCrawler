@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--718be90b3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_0110.html
-retrieved_at: 2026-08-21T13:27:32.817072+00:00
+retrieved_at: 2026-09-30T19:18:38.208438+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -2537,3 +2537,7 @@ Select Save .
 | Step 4 | (Optional) If the label needs to be applied to other devices that share the line, check the Update Shared Device
                                           Settings check box and click Propagate Selected . |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

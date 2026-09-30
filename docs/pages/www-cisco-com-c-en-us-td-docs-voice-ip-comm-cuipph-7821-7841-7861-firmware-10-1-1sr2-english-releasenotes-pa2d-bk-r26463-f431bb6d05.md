@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1sr2-english-releasenotes-pa2d-bk-r26463-f431bb6d05
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10-1-1SR2/english/releasenotes/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2/PA2D_BK_R264634B_00_rn-7821-7841-7861-10_1_1_sr2_chapter_00.html
-retrieved_at: 2026-08-25T12:27:30.946948+00:00
+retrieved_at: 2026-09-30T19:17:29.725108+00:00
 ---
 
 Cisco IP Phone 7821, 7841, and 7861 Release Notes for Firmware Release 10.1(1)SR2
@@ -587,3 +587,7 @@ Heartbleed |
 | CSCuo17174 | 7861 phone becomes unresponsive to a softkeys, buttons on the
 phone |
 | CSCuo23398 | 7861 : Memory issue on shared line |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

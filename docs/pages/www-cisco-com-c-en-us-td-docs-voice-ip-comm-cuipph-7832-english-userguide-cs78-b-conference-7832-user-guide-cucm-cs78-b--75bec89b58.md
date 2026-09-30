@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--75bec89b58
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_00.html
-retrieved_at: 2026-08-21T01:50:28.661154+00:00
+retrieved_at: 2026-09-30T19:18:54.243795+00:00
 ---
 
 Cisco IP Conference Phone 7832 User Guide
@@ -1057,3 +1057,23 @@ Your formal Warranty Statement, including the warranties and license agreements 
 | Step 2 | Enter the date and time that you experienced the problem in the Date of problem and Time of problem fields. |
 | Step 3 | Select Problem description . |
 | Step 4 | Select a description from the displayed list, then press Submit . |
+
+## Figuras
+
+![Figure 1. Conference Phone Power Options](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/416001-417000/416537.jpg)
+
+![Figure 2. Cisco IP Conference Phone 7832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393460.eps/_jcr_content/renditions/393460.jpg)
+
+![handset with left arrow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393210.tif/_jcr_content/renditions/393210.jpg)
+
+![handset with right arrow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393211.tif/_jcr_content/renditions/393211.jpg)
+
+![handset with left arrow over the top](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/444001-445000/444297.eps/_jcr_content/renditions/444297.jpg)
+
+![Figure 3. Hearing-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393468.eps/_jcr_content/renditions/393468.jpg)
+
+![Figure 4. Vision-Impaired and Blind Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393469.eps/_jcr_content/renditions/393469.jpg)
+
+![Figure 5. Mobility-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393470.eps/_jcr_content/renditions/393470.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

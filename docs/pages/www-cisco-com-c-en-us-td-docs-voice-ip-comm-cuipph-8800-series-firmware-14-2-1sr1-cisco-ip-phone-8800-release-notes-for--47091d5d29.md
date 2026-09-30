@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-14-2-1sr1-cisco-ip-phone-8800-release-notes-for--47091d5d29
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-2-1SR1/Cisco-IP-Phone-8800-Release-Notes-for-Firmware-14-2-1SR1.html
-retrieved_at: 2026-08-21T13:29:21.304486+00:00
+retrieved_at: 2026-09-30T19:25:25.013521+00:00
 ---
 
 Cisco IP Phone 8800 Release Notes for Firmware Release 14.2(1)SR1
@@ -79,3 +79,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&r
 Cisco IP Phone Firmware Support Policy
 
 For information on the support policy for phones, see https://cisco.com/go/phonefirmwaresupport .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

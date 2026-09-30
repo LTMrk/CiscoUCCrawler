@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-firmware-10-1-1-english-release-notes-pa2d-bk-rfc9d799-cadc8b26ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/firmware/10_1_1/english/release_notes/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861/PA2D_BK_RFC9D799_00_rn-10_1_1-7821-7841-7861_chapter_00.html
-retrieved_at: 2026-08-25T12:27:39.398066+00:00
+retrieved_at: 2026-09-30T19:17:42.191725+00:00
 ---
 
 Cisco IP Phone 7821, 7841, and 7861 Release Notes for Firmware Release 10.1(1)
@@ -1014,3 +1014,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | CSCuj93985 | Shouldn't show Swap softkey when phone cbarge to shareline |
 | CSCuj94036 | Shouldn't show caller softkey when two calls both on remote use |
 | CSCuj95943 | link local DAD not work |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

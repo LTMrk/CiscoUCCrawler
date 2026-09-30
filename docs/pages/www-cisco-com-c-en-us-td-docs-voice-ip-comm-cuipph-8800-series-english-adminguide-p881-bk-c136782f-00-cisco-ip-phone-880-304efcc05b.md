@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-adminguide-p881-bk-c136782f-00-cisco-ip-phone-880-304efcc05b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8811-8841_chapter_0101.html
-retrieved_at: 2026-08-21T09:49:04.628132+00:00
+retrieved_at: 2026-09-30T19:23:04.957902+00:00
 ---
 
 Cisco IP Phone 8800 Series Administration Guide for Cisco Unified Communications Manager
@@ -126,3 +126,7 @@ Select Save .
 | Step 2 | In the Self Care Portal area, set the Self Care Portal Default Server field. |
 | Step 3 | Enable or disable the parameters that the users can access in the portal. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

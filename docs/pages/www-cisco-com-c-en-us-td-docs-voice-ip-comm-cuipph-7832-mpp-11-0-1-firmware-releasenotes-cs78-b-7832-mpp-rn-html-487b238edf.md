@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-mpp-11-0-1-firmware-releasenotes-cs78-b-7832-mpp-rn-html-487b238edf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832-mpp/11-0-1/firmware/releasenotes/cs78_b_7832-mpp-rn.html
-retrieved_at: 2026-08-21T13:22:59.982112+00:00
+retrieved_at: 2026-09-30T19:17:51.310239+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Release Notes for Firmware Release 11.0(1)
@@ -145,3 +145,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 
 | Note | The loads file is put in the file path of the above url. The zip file contains other file types also. Only the loads file is used in the above URL. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

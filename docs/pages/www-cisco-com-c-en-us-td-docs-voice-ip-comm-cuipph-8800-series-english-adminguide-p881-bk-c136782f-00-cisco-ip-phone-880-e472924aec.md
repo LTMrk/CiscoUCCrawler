@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-adminguide-p881-bk-c136782f-00-cisco-ip-phone-880-e472924aec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8811-8841_chapter_010.html
-retrieved_at: 2026-08-21T09:48:51.854589+00:00
+retrieved_at: 2026-09-30T19:22:48.503685+00:00
 ---
 
 Cisco IP Phone 8800 Series Administration Guide for Cisco Unified Communications Manager
@@ -635,3 +635,19 @@ If you do not have the box, carefully wrap the phone with foam or bubble wrap to
 | Step 2 | If you do not have the box, carefully wrap the phone with foam or bubble wrap to protect the camera. Ensure that the foam
                                        protects and surrounds the camera so that nothing can press against the camera from any direction or the camera may be damaged
                                        in transport. |
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 8845 Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393088.eps/_jcr_content/renditions/393088.jpg)
+
+![Programmable feature buttons and line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381329.tif/_jcr_content/renditions/381329.jpg)
+
+![Softkey button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381339.tif/_jcr_content/renditions/381339.jpg)
+
+![Volume](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371854.tif/_jcr_content/renditions/371854.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393038.eps/_jcr_content/renditions/393038.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393039.eps/_jcr_content/renditions/393039.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393040.eps/_jcr_content/renditions/393040.jpg)

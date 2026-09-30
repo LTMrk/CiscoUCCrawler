@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--af50337437
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_00.html
-retrieved_at: 2026-08-21T13:27:02.414211+00:00
+retrieved_at: 2026-09-30T19:17:54.812684+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -205,3 +205,9 @@ Voice Messaging System
 |---|---|
 | Message Indicators | Message Waiting Indicator (MWI) |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. Cisco IP Conference Phone 7832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393460.eps/_jcr_content/renditions/393460.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

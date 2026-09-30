@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-3pcc-11-0-1-english-firmware-releasenotes-p881-b-ip-phone-c27f4f3dcb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-1/english/firmware/releasenotes/p881_b_ip-phone-8800-release-notes.html
-retrieved_at: 2026-08-21T13:33:06.523457+00:00
+retrieved_at: 2026-09-30T19:22:27.850860+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(1)
@@ -500,3 +500,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | CSCve12673 | User set brightness is not being preserved |
 | CSCve36260 | 88xx-3PCC: CID is not update after call to BS VP |
 | CSCve78758 | 88xx-3PCC: Device is continuously ringing after callprk |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

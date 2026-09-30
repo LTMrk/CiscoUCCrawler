@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-firmware-14-2-1-cisco-ip-conference-phone-7832-release-notes-for-4620876433
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_2_1/Cisco-IP-Conference-Phone-7832-Release-Notes-for-Firmware-14-2-1.html
-retrieved_at: 2026-08-21T13:22:05.278362+00:00
+retrieved_at: 2026-09-30T19:20:04.695704+00:00
 ---
 
 Cisco IP Conference Phone 7832 Release Notes for Firmware Release 14.2(1)
@@ -113,3 +113,7 @@ We report open and resolved customer-found bugs of severity 1 to 3. You can find
 Cisco IP Phone Firmware Support Policy
 
 For information on the support policy for phones, see https://cisco.com/go/phonefirmwaresupport .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

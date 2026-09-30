@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-1-0-w800-b-wireless-800-rln-110-html-79a5ff41e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-1-0/w800_b_wireless-800-rln-110.html
-retrieved_at: 2026-08-21T23:36:19.925095+00:00
+retrieved_at: 2026-09-30T19:20:59.340274+00:00
 ---
 
 Webex Wireless Phone 840 and 860 Release Notes for Firmware Release 1.1(0)
@@ -323,3 +323,7 @@ CSCvw24841 CAPF stuck in pending state
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search for field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

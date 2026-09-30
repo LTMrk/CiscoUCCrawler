@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-developersguide-w800-b-wireless-800-developers-guide-w800--1b37a1e91b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/developersguide/w800_b_wireless-800-developers-guide/w800_m_api_specification.html
-retrieved_at: 2026-08-21T23:36:28.260271+00:00
+retrieved_at: 2026-09-30T19:20:46.089294+00:00
 ---
 
 Cisco Wireless Phone 800 Series Developer's Guide
@@ -623,3 +623,7 @@ Cisco Wireless Phone is a Google certified device and accordingly the software n
 | “keyrelease” | When key is released |
 | “shortpress” | Indicates key was pressed for short duration |
 | “longpress” | Indicates key was pressed for a duration exceeding the Android longpress threshold |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

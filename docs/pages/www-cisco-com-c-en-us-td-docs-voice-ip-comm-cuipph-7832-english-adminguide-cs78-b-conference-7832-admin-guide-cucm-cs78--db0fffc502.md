@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--db0fffc502
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_01001.html
-retrieved_at: 2026-08-21T13:27:45.192005+00:00
+retrieved_at: 2026-09-30T19:18:16.077627+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -1139,3 +1139,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8
 | Note | When the Log
                                                       				  Server cannot be reached, the phone stops sending debug messages. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

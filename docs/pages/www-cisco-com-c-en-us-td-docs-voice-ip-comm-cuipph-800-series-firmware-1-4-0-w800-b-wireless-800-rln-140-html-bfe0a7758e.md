@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-4-0-w800-b-wireless-800-rln-140-html-bfe0a7758e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-4-0/w800_b_wireless-800-rln-140.html
-retrieved_at: 2026-08-21T23:36:07.459044+00:00
+retrieved_at: 2026-09-30T19:21:16.671795+00:00
 ---
 
 Webex Wireless Phone 840 and 860 Release Notes for Firmware Release 1.4(0)
@@ -406,3 +406,7 @@ CSCvz41661 Phone is able to get to EM app login screen even when Extension Mobil
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search For field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

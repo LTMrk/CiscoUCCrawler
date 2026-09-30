@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-push-to-ta-2c4d7ca7c2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_push-to-talk-app.html
-retrieved_at: 2026-08-21T23:26:42.979222+00:00
+retrieved_at: 2026-09-30T19:22:05.581980+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -269,3 +269,11 @@ Follow the steps to make a call.
 | Step 1 | Access the Cisco Phone app. |
 |---|---|
 | Step 2 | Follow the steps to make a call. |
+
+## Figuras
+
+![A Wi-Fi signal icon to represent the Transmit tab.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451134.jpg)
+
+![A clock icon to represent the Activity tab.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451135.jpg)
+
+![A walkie-talkie icon to represent the Channels tab.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451136.jpg)

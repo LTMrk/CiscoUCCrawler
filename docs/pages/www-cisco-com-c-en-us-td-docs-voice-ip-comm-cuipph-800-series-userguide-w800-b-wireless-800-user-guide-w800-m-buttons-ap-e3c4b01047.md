@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-buttons-ap-e3c4b01047
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_buttons-app.html
-retrieved_at: 2026-08-21T23:26:51.522150+00:00
+retrieved_at: 2026-09-30T19:21:51.331211+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -190,3 +190,11 @@ Tap the desired action from the list.
 |---|---|
 | Step 2 | From the Buttons settings screen, tap the desired button. |
 | Step 3 | Tap the desired action from the list. |
+
+## Figuras
+
+![Figure 1. Programmable buttons on the Cisco Wireless Phone 840 and 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455356.jpg)
+
+![Figure 2. Programmable buttons on the Cisco Wireless Phone 860 and 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455950.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-3pcc-11-0-0-english-release-notes-p881-b-8800-mpp-1101-ht-197274050e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/11-0-0/english/release-notes/p881_b_8800-mpp-1101.html
-retrieved_at: 2026-08-21T13:33:15.024716+00:00
+retrieved_at: 2026-09-30T19:22:23.554821+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(0)
@@ -626,3 +626,7 @@ Phone |
 | CSCvd43575 | Extension mobility - $MPWD macro not expanding |
 | CSCvd43657 | Wrong User Agent 88xx phones |
 | CSCvd51053 | Inconsistent behavior of missed call numbers on LCD after device restarts |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

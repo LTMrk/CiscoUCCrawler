@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-releasenotes-p881-bk-cab208a2-00-cisco-ip-phone-8-4e850b6898
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/releasenotes/P881_BK_CAB208A2_00_cisco-ip-phone-8800-series.html
-retrieved_at: 2026-08-21T13:32:46.231136+00:00
+retrieved_at: 2026-09-30T19:23:44.704680+00:00
 ---
 
 Cisco IP Phone 8800 Series Release Notes for Firmware Release 10.3(2)
@@ -497,3 +497,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 
 | Tip | Administrators may want to bookmark the web pages for the phone models that are deployed in their company and send these URLs to their users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

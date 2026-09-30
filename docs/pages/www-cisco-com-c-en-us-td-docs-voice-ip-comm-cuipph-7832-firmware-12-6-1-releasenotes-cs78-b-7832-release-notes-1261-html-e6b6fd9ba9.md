@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-firmware-12-6-1-releasenotes-cs78-b-7832-release-notes-1261-html-e6b6fd9ba9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/12-6-1/releasenotes/cs78_b_7832-release-notes-1261.html
-retrieved_at: 2026-08-21T13:23:04.114003+00:00
+retrieved_at: 2026-09-30T19:19:39.881059+00:00
 ---
 
 Cisco IP Conference Phone 7832 Release Notes for Firmware Release 12.6(1)
@@ -347,3 +347,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

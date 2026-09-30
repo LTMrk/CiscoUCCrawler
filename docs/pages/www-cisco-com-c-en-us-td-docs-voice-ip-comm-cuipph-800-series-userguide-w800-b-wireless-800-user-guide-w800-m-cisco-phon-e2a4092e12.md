@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-cisco-phon-e2a4092e12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_cisco-phone-app.html
-retrieved_at: 2026-08-21T23:26:35.438514+00:00
+retrieved_at: 2026-09-30T19:21:57.439091+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -1825,3 +1825,17 @@ Tap Yes to log out of extension mobility.
 | Step 3 | Select Features > Applications . |
 | Step 4 | Tap the extension mobility service. |
 | Step 5 | Tap Yes to log out of extension mobility. |
+
+## Figuras
+
+![A phone receiver off the hook.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451060.jpg)
+
+![An outline of the head and shoulders of a person.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451061.jpg)
+
+![Ten dots in configuration of the ten keys on a phone keypad.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451062.jpg)
+
+![An image of a cassette tape.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451063.jpg)
+
+![Figure 1. Multiple lines](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/459001-460000/459274.jpg)
+
+![Figure 2. Active line among multiple lines](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/459001-460000/459076.jpg)

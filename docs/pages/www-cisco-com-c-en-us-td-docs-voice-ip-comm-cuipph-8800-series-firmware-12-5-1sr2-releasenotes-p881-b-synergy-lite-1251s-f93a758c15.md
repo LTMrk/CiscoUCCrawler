@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-12-5-1sr2-releasenotes-p881-b-synergy-lite-1251s-f93a758c15
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-5-1SR2/releasenotes/p881_b_synergy-lite-1251sr2.html
-retrieved_at: 2026-08-21T13:32:07.910355+00:00
+retrieved_at: 2026-09-30T19:24:26.164672+00:00
 ---
 
 Cisco IP Phone 8800 Series Release Notes for Firmware Release 12.5(1)SR2
@@ -713,3 +713,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

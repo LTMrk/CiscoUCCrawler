@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--b835c600e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_010.html
-retrieved_at: 2026-08-21T01:50:36.585597+00:00
+retrieved_at: 2026-09-30T19:19:02.184129+00:00
 ---
 
 Cisco IP Conference Phone 7832 User Guide
@@ -250,3 +250,7 @@ For more information, see the "Cisco Web Dialer" document in https://www.cisco.c
 | Step 3 | Select Personal Fast Dials and search for a fast-dial code. |
 | Step 4 | Select the required code and press Remove . |
 | Step 5 | Select the index and press Remove . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

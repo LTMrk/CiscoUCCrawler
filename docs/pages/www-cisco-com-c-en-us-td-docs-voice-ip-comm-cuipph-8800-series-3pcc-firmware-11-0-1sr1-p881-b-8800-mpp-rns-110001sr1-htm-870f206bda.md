@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-3pcc-firmware-11-0-1sr1-p881-b-8800-mpp-rns-110001sr1-htm-870f206bda
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/3pcc/firmware/11-0-1sr1/p881_b_8800-mpp-rns-110001sr1.html
-retrieved_at: 2026-08-21T13:33:10.391140+00:00
+retrieved_at: 2026-09-30T19:22:31.365615+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(1)SR1
@@ -234,3 +234,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Step 3 | To look for
 			 information about a specific problem, enter the bug ID number in the Search for
 			 field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

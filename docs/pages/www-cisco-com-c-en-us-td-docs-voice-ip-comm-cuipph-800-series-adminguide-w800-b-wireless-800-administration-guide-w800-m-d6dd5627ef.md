@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-d6dd5627ef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_appendix.html
-retrieved_at: 2026-08-21T23:27:36.812261+00:00
+retrieved_at: 2026-09-30T19:20:17.799881+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -490,3 +490,7 @@ AppUrl Buttons PIT Call Quality
 | Web API | android.permission.ACCESS_FINE_LOCATION <br> android.permission.READ_PHONE_STATE <br> android.permission.POST_NOTIFICATIONS
                                           <br> android.permission.ACCESS_COARSE_LOCATION <br> android.permission.CALL_PHONE |
 | AppUrl Buttons PIT Call Quality | (No permission requested) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-fc2618b9eb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_the-phone.html
-retrieved_at: 2026-08-21T23:27:21.063688+00:00
+retrieved_at: 2026-09-30T19:20:30.915234+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -1452,3 +1452,50 @@ See Phone configuration and Cisco app configuration .
 | Step 4 | Choose one of the following: (Recommended, especially if you need third-party apps) Configure an EMM application console and generate a QR code to program the phones to connect to a WPA2 PSK WLAN and EMM application . (Recommended, if you don't have an EMM application ) Configure the Cisco Wireless Phone Configuration Management tool and generate a QR code to program the phones to connect to a WPA2 PSK WLAN. (Recommended only for small deployments) If not using an EMM application or Cisco Wireless Phone Configuration Management tool , manually configure the SSID settings to program the phones to connect to the wireless network. | See Phone configuration and Cisco app configuration . |
 | Step 5 | Phones contact Unified Communications Manager and, if used, the EMM application , or configuration file created in the Cisco Wireless Phone Configuration Management tool : Each phone uses DHCP option 150 or 66 to locate its HTTP (Alt TFTP) servers. Using its Unified Communications Manager device name (based on its MAC address) the phone downloads its configuration file in the Unified Communications Manager . Each phone connects to the WLAN. (Optional) Each phone enrolls with the EMM application . The EMM application provides the phone apps, certificates, and configuration for all non- Unified Communications Manager related functionality. | See Phone configuration and Cisco app configuration . |
 | Step 6 | The phone is fully functional and downloads software updates from the server, which is administered through the Unified Communications Manager . If used, the EMM application provides app updates. | See Phone configuration and Cisco app configuration . |
+
+## Figuras
+
+![Figure 1. Cisco Wireless Phone 840 and Cisco Wireless Phone 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455045.jpg)
+
+![Figure 2. Cisco Wireless Phone 860 and Cisco Wireless Phone 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451752.jpg)
+
+![Figure 3. Cisco Wireless Phone 840 and 840S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455355.jpg)
+
+![Figure 4. Cisco Wireless Phone 860 and 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451059.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451750.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465618.jpg)
+
+![Figure 5. Sample launcher screens: factory default launcher, smart launcher with multiple apps, and smart launcher with a single open
+                                 app](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465640.jpg)
+
+![A phone receiver is on the blue Cisco Phone app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451117.jpg)
+
+![A barcode is on the blue Barcode app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451756.jpg)
+
+![A battery is on the blue Battery Life app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451123.jpg)
+
+![A finger presses a button on the blue Buttons app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451119.jpg)
+
+![A phone receiver with a small settings gear icon is on the blue Call Quality Settings app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451121.jpg)
+
+![An image of a mobile phone is on the Custom Settings app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451124.jpg)
+
+![A closed lock is on the blue Emergency app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451118.jpg)
+
+![A piece of paper with text is on the blue Logging app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451122.jpg)
+
+![A walkie-talkie is on the blue Push to Talk app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451757.jpg)
+
+![A download arrow is on the blue System Updater app icon.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451125.jpg)
+
+![An image of the globe is on the blue Web API app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451120.jpg)
+
+![An image of a house is on the blue Smart Launcher app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465857.jpg)
+
+![An image of a lock in a cicrcle is on the blue Device Policy Controller app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465858.jpg)
+
+![An image of a metrics in a cicrcle is on the blue Diagnostics app.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/474001-475000/474089.jpg)

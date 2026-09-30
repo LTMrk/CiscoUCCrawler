@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-firmware-14-0-1-cs78-b-release-notes-html-f521a54fa0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/firmware/14_0_1/cs78_b_release-notes.html
-retrieved_at: 2026-08-21T13:22:22.181896+00:00
+retrieved_at: 2026-09-30T19:20:00.816142+00:00
 ---
 
 Cisco IP Conference Phone 7832 Release Notes for Firmware Release 14.0(1)
@@ -407,3 +407,7 @@ The latest
                                  			 Locale Installer may not be immediately available; continue to check the
                                  			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

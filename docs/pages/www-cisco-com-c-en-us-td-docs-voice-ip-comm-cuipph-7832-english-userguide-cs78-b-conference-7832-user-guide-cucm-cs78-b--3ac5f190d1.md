@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--3ac5f190d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_0111.html
-retrieved_at: 2026-08-21T01:50:49.459815+00:00
+retrieved_at: 2026-09-30T19:19:14.896654+00:00
 ---
 
 Cisco IP Conference Phone 7832 User Guide
@@ -214,3 +214,11 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/7832/regulatory_c
 | Model | Number |
 |---|---|
 | 7832 | 00748-18-01086 |
+
+## Figuras
+
+![EnergyStar logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394262.tif/_jcr_content/renditions/394262.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7821-7841-7861-10-1-english-release-notes-pa2d-bk-r1b754c7-00-rn-10-1-163fe234b2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7821_7841_7861/10_1/english/release_notes/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-61-sr1/PA2D_BK_R1B754C7_00_rn-10_1_1-7821-41-64-sr1_chapter_00.html
-retrieved_at: 2026-08-25T12:23:13.448016+00:00
+retrieved_at: 2026-09-30T19:17:20.820905+00:00
 ---
 
 Cisco IP Phone 7821, 7841, and 7861 Release Notes for Firmware Release 10.1(1)SR1
@@ -884,3 +884,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Note | The fix
                                                       				  for this defect will be available with the next device pack. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

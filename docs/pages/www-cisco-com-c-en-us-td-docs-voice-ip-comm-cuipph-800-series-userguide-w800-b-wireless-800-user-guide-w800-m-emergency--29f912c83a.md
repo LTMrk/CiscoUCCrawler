@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-emergency--29f912c83a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_emergency-app.html
-retrieved_at: 2026-08-21T23:26:38.741736+00:00
+retrieved_at: 2026-09-30T19:22:01.849838+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -204,3 +204,7 @@ To cancel the Panic alarm, swipe across the red Panic screen from left to right 
 
 | To cancel the Panic alarm, swipe across the red Panic screen from left to right over the arrows. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

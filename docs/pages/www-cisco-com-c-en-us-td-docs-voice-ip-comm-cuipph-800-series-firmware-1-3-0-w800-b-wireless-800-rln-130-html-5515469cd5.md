@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-3-0-w800-b-wireless-800-rln-130-html-5515469cd5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-3-0/w800_b_wireless-800-rln-130.html
-retrieved_at: 2026-08-21T23:36:11.739700+00:00
+retrieved_at: 2026-09-30T19:21:13.105828+00:00
 ---
 
 Webex Wireless Phone 840 and 860 Release Notes for Firmware Release 1.3(0)
@@ -471,3 +471,7 @@ CSCvy27764 860 can't connected to PSK SSID with adaptive 11r enabled
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search For field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-barcode-ap-3990c246fc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_barcode-app.html
-retrieved_at: 2026-08-21T23:26:55.336658+00:00
+retrieved_at: 2026-09-30T19:21:42.772953+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -155,3 +155,9 @@ Wipe the scanner window.
 | Step 1 | Spray glass cleaner onto a soft cloth. |
 |---|---|
 | Step 2 | Wipe the scanner window. |
+
+## Figuras
+
+![Figure 1. Barcode scanner on the Cisco Wireless Phone 860S](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451754.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-8042a938fc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_accessories.html
-retrieved_at: 2026-08-21T23:27:28.832503+00:00
+retrieved_at: 2026-09-30T19:20:13.491973+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -687,3 +687,33 @@ CP-860S-CASE=
 |---|---|
 | Cisco Wireless Phone 860 case | CP-860-CASE= |
 | Cisco Wireless Phone 860S case | CP-860S-CASE= |
+
+## Figuras
+
+![Figure 1. Cisco Wireless Phone 840 Desktop Charger and Cisco Wireless Phone 840 Desktop Dual Charger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455049.jpg)
+
+![Figure 2. Cisco Wireless Phone 860 Desktop Dual Charger Module and Cisco Wireless Phone 860 Desktop Battery Charger Module](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/454001-455000/454099.jpg)
+
+![860 desktop dual charger with a plug being inserted in it.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451987.jpg)
+
+![Desktop dual charger module with a phone in the front slot and a battery in back charger slot.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451988.jpg)
+
+![Desktop battery charger module with two batteries inserted.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451989.jpg)
+
+![Figure 3. Cisco Wireless Phone 840 Multicharger and Cisco Wireless Phone 840 Battery Multicharger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455050.jpg)
+
+![Figure 4. Cisco Wireless Phone 860 Multicharger Base with 860 Desktop Charger Modules](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/454001-455000/454100.jpg)
+
+![Image of the 860 multicharger base, with room for four desktop chargers.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451983.jpg)
+
+![Image of an 860 desktop battery charger module on an angle with its tabs lined up with the slots on the multicharger base.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451984.jpg)
+
+![Image of the desktop charger being rolled down to snap into place on the multicharger base.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451985.jpg)
+
+![Image illustrating text.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451986.jpg)
+
+![Figure 5. Cisco Wireless Phone 840S with scanner handle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455047.jpg)
+
+![Figure 6. Cisco Wireless Phone 840S in the scanner handle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/457001-458000/457400.jpg)
+
+![Figure 7. Cisco Wireless Phone 840 and 840S and clips](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455048.jpg)

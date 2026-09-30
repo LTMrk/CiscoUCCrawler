@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w800-m-battery-li-424ccc8acc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w800_m_battery-life-app.html
-retrieved_at: 2026-08-21T23:26:47.077846+00:00
+retrieved_at: 2026-09-30T19:21:47.232135+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -107,3 +107,7 @@ To stop the battery alarm, either plug the phone into a charger or change the ba
 |---|---|
 | Step 2 | To stop the battery alarm, either plug the phone into a charger or change the battery to one with more charge than the low
                                        battery threshold. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

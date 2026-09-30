@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-adminguide-w800-b-wireless-800-administration-guide-w800-m-3716d2e130
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/adminguide/w800_b_wireless-800-administration-guide/w800_m_phone-setup.html
-retrieved_at: 2026-08-21T23:27:24.487548+00:00
+retrieved_at: 2026-09-30T19:20:26.354509+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Administration Guide for Cisco Unified Communications Manager
@@ -572,3 +572,25 @@ Plug the USB cable into a USB port on a computer.
 | Step 1 | Plug the USB cable into the bottom of the phone with the pins aligned. |
 |---|---|
 | Step 2 | Plug the USB cable into a USB port on a computer. |
+
+## Figuras
+
+![Figure 1. Battery contact location on the Cisco Wireless Phone 840 and Cisco Wireless Phone 860](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/455001-456000/455811.jpg)
+
+![Image of battery with the two tabs on the top highlighted.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451695.jpg)
+
+![Image of the back of the phone with no battery in it and red highlights on the two battery slots.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451696.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451697.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451698.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451699.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451700.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451701.jpg)
+
+![Illustration of step description.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451702.jpg)
+
+![Figure 2. Cisco Wireless Phone 860 battery contact damage](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/451001-452000/451694.jpg)

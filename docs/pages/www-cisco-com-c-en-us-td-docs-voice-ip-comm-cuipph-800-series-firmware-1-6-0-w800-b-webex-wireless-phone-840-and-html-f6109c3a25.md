@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-6-0-w800-b-webex-wireless-phone-840-and-html-f6109c3a25
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-6-0/w800_b_webex-wireless-phone-840-and.html
-retrieved_at: 2026-08-21T23:35:58.908687+00:00
+retrieved_at: 2026-09-30T19:21:24.723430+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 Release Notes for Firmware Release 1.6(0)
@@ -350,3 +350,7 @@ CSCwb31325 Cisco 860 phone displays the wrong number after transfer
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search For field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

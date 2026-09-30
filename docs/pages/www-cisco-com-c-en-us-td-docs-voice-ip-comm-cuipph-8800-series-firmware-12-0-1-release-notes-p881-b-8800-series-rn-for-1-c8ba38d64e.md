@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-firmware-12-0-1-release-notes-p881-b-8800-series-rn-for-1-c8ba38d64e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-0-1/release_notes/p881_b_8800-series-RN-for_12_0_1.html
-retrieved_at: 2026-08-21T13:32:20.147886+00:00
+retrieved_at: 2026-09-30T19:24:13.766160+00:00
 ---
 
 Cisco IP Phone 8800 Series Release Notes for Firmware Release 12.0(1)
@@ -722,3 +722,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 
 | Tip | Administrators may want to bookmark the web pages for the phone models that are deployed in their company and send these URLs to their users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-userguide-cs78-b-conference-7832-user-guide-cucm-cs78-b--562b0f1f86
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/userguide/cs78_b_conference-7832-user-guide-cucm/cs78_b_conference-7832-user-guide-cucm_chapter_0110.html
-retrieved_at: 2026-08-21T01:50:45.174503+00:00
+retrieved_at: 2026-09-30T19:19:10.776324+00:00
 ---
 
 Cisco IP Conference Phone 7832 User Guide
@@ -57,3 +57,7 @@ Your phone can display text in many languages. Your administrator sets the langu
 
 | Press Volume up or down to adjust the volume while you are on a call. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

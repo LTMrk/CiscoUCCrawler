@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--2aaf5bc9b9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_01101.html
-retrieved_at: 2026-08-21T13:26:58.140789+00:00
+retrieved_at: 2026-09-30T19:18:45.906810+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -261,3 +261,7 @@ Call Statistics Fields
 | Support for Mobile and Remote Access Through Expressway | Mobile and Remote Access Through Expressway Deployment Scenarios Configure User Credentials Persistent for Expressway Sign-In |
 | Support for enabling or disabling TLS 1.2 for web server access | Product Specific Configuration |
 | Support for G722.2 AMR-WB audio codec | The Cisco IP Conference Phone 7832 Call Statistics Fields |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

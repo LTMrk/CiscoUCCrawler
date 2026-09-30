@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-firmware-1-5-0-w800-b-wireless-rln-150-html-21320a72d3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/firmware/1-5-0/w800_b_wireless_rln_150.html
-retrieved_at: 2026-08-21T23:36:03.371919+00:00
+retrieved_at: 2026-09-30T19:21:20.755940+00:00
 ---
 
 Webex Wireless Phone 840 and 860 Release Notes for Firmware Release 1.5(0)
@@ -343,3 +343,7 @@ CSCvz93805  Auto-rotate Screen option in the Custom Settings app is not managing
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) Enter the bug ID number in the Search For field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

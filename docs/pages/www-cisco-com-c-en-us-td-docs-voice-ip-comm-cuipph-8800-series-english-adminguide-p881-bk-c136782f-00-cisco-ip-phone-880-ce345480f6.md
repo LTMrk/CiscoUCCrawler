@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8800-series-english-adminguide-p881-bk-c136782f-00-cisco-ip-phone-880-ce345480f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/english/adminguide/P881_BK_C136782F_00_cisco-ip-phone-8800_series/P881_BK_C136782F_00_cisco-ip-phone-8811-8841_chapter_010000.html
-retrieved_at: 2026-08-21T09:49:36.091227+00:00
+retrieved_at: 2026-09-30T19:22:56.485469+00:00
 ---
 
 Cisco IP Phone 8800 Series Administration Guide for Cisco Unified Communications Manager
@@ -67,3 +67,7 @@ Chinese input works similar to PCs and mobile phones in Chinese. The Chinese loc
                                           			 Locale Installer may not be immediately available; continue to check the
                                           			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

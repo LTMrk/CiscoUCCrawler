@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-userguide-w800-b-wireless-800-user-guide-w88x-m-product-sa-f61702a395
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/userguide/w800_b_wireless-800-user-guide/w88x_m_product-safety-and-security.html
-retrieved_at: 2026-08-21T23:27:07.815294+00:00
+retrieved_at: 2026-09-30T19:22:19.468971+00:00
 ---
 
 Cisco Wireless Phone 840 and 860 User Guide
@@ -515,3 +515,13 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/800-series/RCSI/r
                                                 or modification to said product not expressly approved by Cisco, including the use of non-Cisco antennas, could void the user’s
                                                 authority to operate this device. |
 |---|---|
+
+## Figuras
+
+![SAR logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393241.tif/_jcr_content/renditions/393241.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

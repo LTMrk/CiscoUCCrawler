@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--6d5e79211f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_01011.html
-retrieved_at: 2026-08-21T09:48:30.732385+00:00
+retrieved_at: 2026-09-30T19:18:28.288360+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -65,3 +65,7 @@ From the CiscoIP Phone—Choose Contacts to search the corporate directory or th
 To
                            		configure Personal Directory from a web browser, users must access their Self
                            		Care Portal. You must provide users with a URL and sign-in information.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

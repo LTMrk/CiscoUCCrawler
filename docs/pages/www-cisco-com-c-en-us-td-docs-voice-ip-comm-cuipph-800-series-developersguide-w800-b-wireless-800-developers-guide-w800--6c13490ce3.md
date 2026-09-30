@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-800-series-developersguide-w800-b-wireless-800-developers-guide-w800--6c13490ce3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/800-series/developersguide/w800_b_wireless-800-developers-guide/w800_m_web_developers_guide.html
-retrieved_at: 2026-08-21T23:36:33.517397+00:00
+retrieved_at: 2026-09-30T19:20:55.579081+00:00
 ---
 
 Cisco Wireless Phone 800 Series Developer's Guide
@@ -2970,3 +2970,17 @@ Document.getElementById(“demo”).innerHTML=”Key pressed”;
 | DHCP server | DHCP server. |
 | Packet analyzer software | Useful for debugging. |
 | Virtual SIP PBX | Virtual SIP PBX software can be downloaded from various sites at no charge. |
+
+## Figuras
+
+![Figure 1. The REST API Push URL Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471917.JPG)
+
+![Figure 2. The REST API Push Data Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471918.JPG)
+
+![Figure 3. The REST API Polling Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471919.JPG)
+
+![Figure 4. The REST API Post notification event](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471920.JPG)
+
+![Figure 5. Controlled Test Environment](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/471001-472000/471921.JPG)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

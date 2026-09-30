@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-7832-english-adminguide-cs78-b-conference-7832-admin-guide-cucm-cs78--4790584282
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/7832/english/adminguide/cs78_b_conference-7832-admin-guide-cucm/cs78_b_conference-7832-admin-guide-cucm_chapter_010.html
-retrieved_at: 2026-08-21T13:27:11.026760+00:00
+retrieved_at: 2026-09-30T19:18:03.464994+00:00
 ---
 
 Cisco IP Conference Phone 7832 Administration Guide for Cisco Unified Communication Manager
@@ -915,3 +915,9 @@ If there is more than one device for the user, select the device to replace and 
 | Step 5 | If the old phone had a PIN assigned, enter the PIN. |
 | Step 6 | Press Submit . |
 | Step 7 | If there is more than one device for the user, select the device to replace and press Continue . |
+
+## Figuras
+
+![Figure 1. Conference Phone Power Options](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/416001-417000/416537.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
