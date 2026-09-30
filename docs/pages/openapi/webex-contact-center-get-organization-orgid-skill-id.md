@@ -10,7 +10,7 @@ tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.934776+00:00
+retrieved_at: 2026-09-30T18:17:20.558545+00:00
 ---
 
 # GET /organization/{orgid}/skill/{id}

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.638410+00:00
+retrieved_at: 2026-09-30T18:17:19.865032+00:00
 ---
 
 # GET /people/{personId}/features/applications

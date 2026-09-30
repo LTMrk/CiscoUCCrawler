@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.676270+00:00
+retrieved_at: 2026-09-30T18:17:19.909899+00:00
 ---
 
 # POST /telephony/config/people/{personId}/simultaneousRing/criteria

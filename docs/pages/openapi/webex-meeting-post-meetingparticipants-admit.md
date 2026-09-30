@@ -10,7 +10,7 @@ tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.383327+00:00
+retrieved_at: 2026-09-30T18:17:21.641474+00:00
 ---
 
 # POST /meetingParticipants/admit

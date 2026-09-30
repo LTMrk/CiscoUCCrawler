@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1su5-cucm-b-install-guide-cucm-imp-1251su5-cucm-b-install--a2e5845404
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1SU5/cucm_b_install-guide-cucm-imp-1251su5/cucm_b_install-guide-cucm-imp-14_chapter_0100.html
-retrieved_at: 2026-08-17T00:08:01.986229+00:00
+retrieved_at: 2026-09-30T18:20:13.135461+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU5
@@ -149,3 +149,7 @@ Perform a fresh install of the node.
 
 | Note | If you do not complete all of these steps in the order shown, recovery of the IM and Presence Service subscriber node will fail. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

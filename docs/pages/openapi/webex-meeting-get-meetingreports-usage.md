@@ -10,7 +10,7 @@ tags: Meetings Summary Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.395263+00:00
+retrieved_at: 2026-09-30T18:17:21.653486+00:00
 ---
 
 # GET /meetingReports/usage

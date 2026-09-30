@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1su6-cucm-b-install-guide-cucm-imp-1251su6-cucm-b-install--90d3396c0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1SU6/cucm_b_install-guide-cucm-imp-1251su6/cucm_b_install-guide-cucm-imp-14_chapter_010.html
-retrieved_at: 2026-08-17T00:07:32.740252+00:00
+retrieved_at: 2026-09-30T18:20:30.951105+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU6
@@ -2368,3 +2368,7 @@ If you are planning to use DHCP for the cluster node IP addresses, enable this c
 
 | Note | If you are planning to use DHCP for the cluster node IP addresses, enable this configuration using the set network dhcp eth0 command. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

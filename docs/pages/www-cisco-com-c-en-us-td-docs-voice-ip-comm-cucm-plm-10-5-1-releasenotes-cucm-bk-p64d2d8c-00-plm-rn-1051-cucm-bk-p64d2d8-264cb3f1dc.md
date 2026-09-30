@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-1-releasenotes-cucm-bk-p64d2d8c-00-plm-rn-1051-cucm-bk-p64d2d8-264cb3f1dc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P64D2D8C_00_plm-rn-1051/CUCM_BK_P64D2D8C_00_plm-rn-1051_chapter_010.html
-retrieved_at: 2026-09-08T04:53:14.516477+00:00
+retrieved_at: 2026-09-30T18:24:18.476222+00:00
 ---
 
 Release Notes for Cisco Prime License Manager Release 10.5(1)
@@ -89,3 +89,7 @@ Electronic Migration supports the migration of licenses to Cisco Prime License M
 ## Welcome Screen
 
 A welcome screen has been added to Cisco Prime License Manager to provide direction to new users who may want to add product instances or install licenses. The welcome screen can be disabled when it is no longer needed.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

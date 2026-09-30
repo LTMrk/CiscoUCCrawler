@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1-ipchange-cucm-b-change-ip-address-hostname-1251-cucm-b-c-cbce176960
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1/ipchange/cucm_b_change-ip-address-hostname-1251/cucm_b_change-ip-address-hostname-1251_chapter_011.html
-retrieved_at: 2026-08-21T01:27:48.627323+00:00
+retrieved_at: 2026-09-30T18:19:54.831759+00:00
 ---
 
 Changing the IP Address and Hostname for Cisco Unified Communications Manager and IM and Presence Service, Release 12.5(1)
@@ -1139,3 +1139,7 @@ server4.example.com |
 | Step 4 | Enter the command show network eth0 to check if the new domain name
                                        			 is updated after the reboot. |
 | Step 5 | Repeat this procedure for all cluster nodes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

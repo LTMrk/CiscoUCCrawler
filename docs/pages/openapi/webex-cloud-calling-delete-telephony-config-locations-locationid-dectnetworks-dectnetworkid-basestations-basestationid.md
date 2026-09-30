@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.364748+00:00
+retrieved_at: 2026-09-30T18:17:19.622152+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations/{baseStationId}

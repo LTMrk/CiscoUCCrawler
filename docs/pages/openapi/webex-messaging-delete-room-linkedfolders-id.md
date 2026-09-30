@@ -10,7 +10,7 @@ tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.557041+00:00
+retrieved_at: 2026-09-30T18:17:22.067908+00:00
 ---
 
 # DELETE /room/linkedFolders/{id}

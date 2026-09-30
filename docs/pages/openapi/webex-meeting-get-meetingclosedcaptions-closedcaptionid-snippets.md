@@ -10,7 +10,7 @@ tags: Closed Captions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.379070+00:00
+retrieved_at: 2026-09-30T18:17:21.637449+00:00
 ---
 
 # GET /meetingClosedCaptions/{closedCaptionId}/snippets

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-userguide-cplm-bk-u7066cd8-00-user-guide-rel-10-0-1-cplm-bk--b8ed400256
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/userguide/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1_chapter_0101.html
-retrieved_at: 2026-09-08T05:03:57.476729+00:00
+retrieved_at: 2026-09-30T18:23:20.645558+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 10.0(1)
@@ -1872,3 +1872,7 @@ Pressing the Restart button below restarts all Cisco Prime License
 | Restart | Pressing the Restart button below restarts all Cisco Prime License
 						  Manager services. This generally takes less than a minute and you
 						will automatically be taken to the login screen when the restart is complete. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

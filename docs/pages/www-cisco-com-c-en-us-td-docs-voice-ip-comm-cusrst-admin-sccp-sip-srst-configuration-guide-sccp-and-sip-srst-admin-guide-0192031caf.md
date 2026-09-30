@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html
-retrieved_at: 2026-09-27T10:53:30.948094+00:00
+retrieved_at: 2026-09-30T18:19:41.979118+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
 
 # Cisco Unified SRST Administration Guide (All Versions)
 
-Updated: April 25, 2026
+Updated: September 29, 2026
 
 Chapter: Cisco Unified SRST Feature Overview
 

@@ -10,7 +10,7 @@ tags: Agent Personal Greeting Files
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:19.870860+00:00
+retrieved_at: 2026-09-30T18:17:20.490048+00:00
 ---
 
 # GET /organization/{orgid}/v2/agent-personal-greeting/{id}

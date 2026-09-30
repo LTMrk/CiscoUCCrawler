@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-userguide-cplm-bk-u7066cd8-00-user-guide-rel-10-0-1-cplm-bk--7a62bd783c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/userguide/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1_chapter_0110.html
-retrieved_at: 2026-09-08T05:04:01.018975+00:00
+retrieved_at: 2026-09-30T18:23:28.315018+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 10.0(1)
@@ -240,3 +240,7 @@ If, across all the
 		  licenses and can click Next to move to the next screen in the wizard. For more
 		  information, see License Planning |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

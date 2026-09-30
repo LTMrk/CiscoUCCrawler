@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.410616+00:00
+retrieved_at: 2026-09-30T18:17:21.668390+00:00
 ---
 
 # PUT /meetings/{meetingId}/simultaneousInterpretation

@@ -1,10 +1,10 @@
 {
   "_schema_version": 2,
   "webex-admin.json": {
-    "actualizado": "2026-09-27T10:51:18.774417+00:00",
+    "actualizado": "2026-09-30T18:17:18.431082+00:00",
     "api": "Webex Admin",
     "api_version": "1.0.0",
-    "content_sha": "442388b24f26e333f267cb148ed1f887e8e2ca827244e946637e5ea0382ef7b4",
+    "content_sha": "588b0d20aac5f45a85241aef7c828fcf56d5639766cff8c7aab78e9e46979301",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -168,13 +168,13 @@
       "PUT /workspaceLocations/{locationId}": "webex-admin-put-workspacelocations-locationid",
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-admin-put-workspacelocations-locationid-floors-floorid"
     },
-    "sha": "47969ba240d96127f60d9d2b907f2d62092144a1"
+    "sha": "9efc02456b29159642656398fbca10a4aa5e6473"
   },
   "webex-broadworks.json": {
-    "actualizado": "2026-09-27T10:51:18.915857+00:00",
+    "actualizado": "2026-09-30T18:17:18.954138+00:00",
     "api": "Webex Broadworks Calling",
     "api_version": "1.0.0",
-    "content_sha": "3f88d760be921c109fdae151c68fdabd50884aa31a04c0dff439b8d9fd3efbc6",
+    "content_sha": "0fcd4b524c289a58824369f2eac5782319705699bc64b051c6545ea2b4ac6b51",
     "deprecadas": {},
     "operaciones": {
       "DELETE /broadworks/billing/reports/{id}": "webex-broadworks-delete-broadworks-billing-reports-id",
@@ -197,13 +197,13 @@
       "PUT /broadworks/subscribers/{subscriberId}": "webex-broadworks-put-broadworks-subscribers-subscriberid",
       "PUT /broadworks/workspaces/{workspaceId}": "webex-broadworks-put-broadworks-workspaces-workspaceid"
     },
-    "sha": "a4083af3ea50c15687380dfc220a1d9a270731c3"
+    "sha": "c10b1260c6d10db0ccec0e5cbbbb9de635b38ab2"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-09-28T16:31:32.741095+00:00",
+    "actualizado": "2026-09-30T18:17:19.982504+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "830153fcef0d25f22c922c520554a8ad8d3b0211697327a4ff3190161d7d956b",
+    "content_sha": "71a1a737de4aba7e2d642729a4a67b567a3f462262c2332ca628ff52d17ceff8",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -1398,13 +1398,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "ee25873e16ca4b6761950ed529aa1933669fd731"
+    "sha": "542f242611a4f214fdbabde47028afb4de4f0b84"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-27T10:51:20.014497+00:00",
+    "actualizado": "2026-09-30T18:17:20.640246+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "4586c278e20171fc942f75e4024b4f9674ff0a008009e9dbfbed58372790be60",
+    "content_sha": "cf4894d4545068b64a1691f2a165ae8d3abe474198683d5f6cbe24e7c82721b2",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1936,13 +1936,13 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "a78484cc3db6aa8b823e2c7633d3fc435b308f29"
+    "sha": "4cea20f4d05b8a8bdf126d85c784ea0907e7dcc9"
   },
   "webex-device.json": {
-    "actualizado": "2026-09-27T10:51:20.216231+00:00",
+    "actualizado": "2026-09-30T18:17:21.065001+00:00",
     "api": "Webex Device",
     "api_version": "1.0.0",
-    "content_sha": "7437540a236ae2475588979bed9613cc35ebc7524140ecfb238da590421783fe",
+    "content_sha": "dd653a8a7f4e0fc289dcbc2bc26fdbecb252b3e90be0f0addfa16279a1f74c1e",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -2058,13 +2058,13 @@
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-device-put-workspacelocations-locationid-floors-floorid",
       "PUT /workspaces/{workspaceId}": "webex-device-put-workspaces-workspaceid"
     },
-    "sha": "f76d4bf30b7041cd08812708e2fc7c65156a41cd"
+    "sha": "86afaa6888cd736e8b26a9df196ef2fb9a2b1e3c"
   },
   "webex-meeting.json": {
-    "actualizado": "2026-09-27T10:51:20.447301+00:00",
+    "actualizado": "2026-09-30T18:17:21.700496+00:00",
     "api": "Webex Meetings",
     "api_version": "1.0.0",
-    "content_sha": "befd4424aa9834a771ffee893184d9620da7c4168077bf97c0d42be6a2e2b4a6",
+    "content_sha": "e69a9a9fb9cdd726e83c8f7a1c7b2a36498a0d05bb51785fabce1ee423118317",
     "deprecadas": {},
     "operaciones": {
       "DELETE /admin/meeting/config/trackingCodes/{trackingCodeId}": "webex-meeting-delete-admin-meeting-config-trackingcodes-trackingcodeid",
@@ -2239,13 +2239,13 @@
       "PUT /people/{personId}": "webex-meeting-put-people-personid",
       "PUT /webhooks/{webhookId}": "webex-meeting-put-webhooks-webhookid"
     },
-    "sha": "ac52e6d3ac5a2a1b792e7301cc65e8d176423113"
+    "sha": "f76769c438f2b174d2af7dd375588b5c75a06545"
   },
   "webex-messaging.json": {
-    "actualizado": "2026-09-27T10:51:20.577297+00:00",
+    "actualizado": "2026-09-30T18:17:22.086913+00:00",
     "api": "Webex Messaging",
     "api_version": "1.0.0",
-    "content_sha": "794b8656058d98c37a0170d41d677e2d17faa3e9d8caf4ce7827880c7e4a41af",
+    "content_sha": "df394a91e770b40919a6fb3d039613b02f59c99b9e6e4d0317e30576d1ecdda2",
     "deprecadas": {},
     "operaciones": {
       "DELETE /memberships/{membershipId}": "webex-messaging-delete-memberships-membershipid",
@@ -2312,24 +2312,24 @@
       "PUT /teams/{teamId}": "webex-messaging-put-teams-teamid",
       "PUT /webhooks/{webhookId}": "webex-messaging-put-webhooks-webhookid"
     },
-    "sha": "5303fc9a5dcdd705abc17019746bee0fed919c62"
+    "sha": "2685bcc38de4e5cc43db258e253b12287aa789d6"
   },
   "webex-ucm.json": {
-    "actualizado": "2026-09-27T10:51:20.704627+00:00",
+    "actualizado": "2026-09-30T18:17:22.348810+00:00",
     "api": "Webex for UCM",
     "api_version": "1.0.0",
-    "content_sha": "cbc8c6a8cc925647aaa5441f384594df312ee9cdf20e5f9f030f7955499f450c",
+    "content_sha": "317f3f5831f44d945e88f58a165a2d69874cdbdd8e277c4e286d0e02ec2c54e9",
     "deprecadas": {},
     "operaciones": {
       "GET /telephony/config/callingProfiles": "webex-ucm-get-telephony-config-callingprofiles"
     },
-    "sha": "9d19becfaf70c1e3971a17282e5bfb8682fe751f"
+    "sha": "a67b8fe43a12dad784158e0b78c23109c554767d"
   },
   "webex-wholesale.json": {
-    "actualizado": "2026-09-27T10:51:20.837581+00:00",
+    "actualizado": "2026-09-30T18:17:22.641435+00:00",
     "api": "Webex Wholesale",
     "api_version": "1.0.0",
-    "content_sha": "f1ac2829ead032008b5d374fe6277dd6ac86029d443fa7009cb5d5d58fa54122",
+    "content_sha": "d738a0f33cda6a42e5b988fc37fcab968101d65cd88f36b0afa5a51202cbd70b",
     "deprecadas": {},
     "operaciones": {
       "DELETE /wholesale/billing/reports/{id}": "webex-wholesale-delete-wholesale-billing-reports-id",
@@ -2351,6 +2351,6 @@
       "PUT /wholesale/customers/{customerId}": "webex-wholesale-put-wholesale-customers-customerid",
       "PUT /wholesale/subscribers/{subscriberId}": "webex-wholesale-put-wholesale-subscribers-subscriberid"
     },
-    "sha": "da8157179328b98159970fe79cd19edade117097"
+    "sha": "9a49322b453ea2202bb09c97708ed3f7e43ccf0d"
   }
 }

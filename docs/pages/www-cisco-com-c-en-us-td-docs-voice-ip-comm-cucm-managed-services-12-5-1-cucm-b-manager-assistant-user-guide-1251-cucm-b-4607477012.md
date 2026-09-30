@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-4607477012
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_0101.html
-retrieved_at: 2026-08-21T01:28:51.279664+00:00
+retrieved_at: 2026-09-30T18:21:47.678542+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -843,3 +843,7 @@ For more information about the Cisco Extension Mobility feature, see the
                                                       is also the case when your assistant places an intercom call to you at a time when you are on another call.) For other phones,
                                                       the assistant does not need to answer the call to hear the intercom, as described at the beginning of this step. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

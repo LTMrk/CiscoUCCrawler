@@ -10,7 +10,7 @@ tags: Recording Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.636359+00:00
+retrieved_at: 2026-09-30T18:17:19.862839+00:00
 ---
 
 # GET /recordingReport/meetingArchives/{archiveId}

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-14-su2-cucm-b-install-guide-cucm-imp-14su2-cucm-b-install-guide-363765acd2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/14_SU2/cucm_b_install-guide-cucm-imp-14su2/cucm_b_install-guide-cucm-imp-14_chapter_01.html
-retrieved_at: 2026-08-17T00:06:04.693558+00:00
+retrieved_at: 2026-09-30T18:21:04.123852+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14SU2
@@ -297,3 +297,7 @@ To look up each
                                           				DNS_name . |
 | Step 3 | To look up each
                                        			 server by IP address, enter nslookup IP_address . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-12-5-1-cucm-b-release-notes-pcd-12-6-1-cucm-b-release-notes-pc-c9a85ecad1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_release-notes-PCD-12-6-1/cucm_b_release-notes-PCD-12-6-1_chapter_010.html
-retrieved_at: 2026-08-21T01:29:27.441329+00:00
+retrieved_at: 2026-09-30T18:22:25.271160+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 12.6(1)
@@ -144,3 +144,7 @@ Insert step option for tasks is not behaving as expected
 |---|---|
 | CSCvo80807 | PCD: Max thread count to have as configurable value |
 | CSCvp86872 | Insert step option for tasks is not behaving as expected |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

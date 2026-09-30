@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.186505+00:00
+retrieved_at: 2026-09-30T18:17:21.038175+00:00
 ---
 
 # GET /telephony/config/jobs/devices/applyLineKeyTemplate

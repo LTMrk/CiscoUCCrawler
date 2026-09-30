@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.193988+00:00
+retrieved_at: 2026-09-30T18:17:21.045210+00:00
 ---
 
 # DELETE /telephony/config/devices/backgroundImages

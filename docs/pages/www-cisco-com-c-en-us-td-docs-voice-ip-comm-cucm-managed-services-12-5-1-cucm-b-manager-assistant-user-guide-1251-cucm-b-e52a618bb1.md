@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-e52a618bb1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_010.html
-retrieved_at: 2026-08-21T01:28:38.708766+00:00
+retrieved_at: 2026-09-30T18:21:39.749663+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -926,3 +926,7 @@ You or your manager can customize manager features from the Manager Configuratio
                                           			 of the shortcut. |
 | Step 4 | Click Save to assign the new keyboard shortcut to the selected
                                           			 command. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

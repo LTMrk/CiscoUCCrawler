@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-12-5-1-cucm-b-release-notes-pcd-12-6-1-cucm-b-release-notes-pc-448fcdcea4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_release-notes-PCD-12-6-1/cucm_b_release-notes-PCD-12-6-1_chapter_01.html
-retrieved_at: 2026-08-21T01:29:23.198895+00:00
+retrieved_at: 2026-09-30T18:22:21.263243+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 12.6(1)
@@ -149,3 +149,7 @@ The "*" indicates a new feature where you get the email notifications after you 
 ESXi passwords configured in Cisco Prime Collabroration Deployment can be less than 32 characters, Unified Communications
                               Manager cluster passwords configured in Cisco Prime Collabroration Deployment can be less than 16 characters, please refer
                               CSCvo66994 for more information.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

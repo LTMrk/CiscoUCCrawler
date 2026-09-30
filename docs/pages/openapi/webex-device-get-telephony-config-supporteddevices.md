@@ -10,7 +10,7 @@ tags: Device Call Settings With Device Dynamic Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.182783+00:00
+retrieved_at: 2026-09-30T18:17:21.034606+00:00
 ---
 
 # GET /telephony/config/supportedDevices
@@ -76,6 +76,7 @@ curl -X GET '/telephony/config/supportedDevices' \
   - `allowConfigureLinesEnabled` (boolean) (**requerido**): Enables / disables configure lines.
   - `allowConfigurePhoneSettingsEnabled` (boolean) (**requerido**): Enables / disables configure phone settings.
   - `supportsHotlineEnabled` (boolean) (**requerido**): Enables / disables hotline support.
+  - `supportsVirtualLineEnabled` (boolean) (**requerido**): Indicates whether the device supports virtual line configuration.
   - `maxNumberOfLineAppearances` (number): Maximum number of line appearances available on the device.
   - `lineKeyTypeExcludeList` (array): List of `lineKeyType` values not supported by the device layout and templates.
   - `numberOfLineKeyButtonColumns` (integer): Number of columns in the device's line key layout. If not specified, it defaults to 2.
@@ -130,10 +131,9 @@ curl -X GET '/telephony/config/supportedDevices' \
       "supportsApplyChangesEnabled": false,
       "allowConfigureLinesEnabled": true,
       "allowConfigurePhoneSettingsEnabled": false,
-      "supportsHotlineEnabled": false
-    },
-    {
-      "model": "DMS Polycom EE4
+      "supportsHotlineEnabled": false,
+      "supportsVirtualLineEnabled": false
+ 
   ... (truncado)
 ```
 - Cabecera `Link`: 

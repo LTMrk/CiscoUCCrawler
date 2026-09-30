@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-51cd40dfa4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_0100.html
-retrieved_at: 2026-08-21T01:28:46.481656+00:00
+retrieved_at: 2026-09-30T18:21:43.611972+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -674,3 +674,9 @@ To associate a new ring type, press the Select and OK softkeys and then press Ex
 | Note | To identify which manager proxy line on your phone is associated with a particular manager, look at the My Calls panel of the Assistant Console . This is the area where manager proxy lines and manager names are displayed. (A manager’s proxy line is the line on which
                                                       you receive incoming calls for that manager.) |
 |---|---|
+
+## Figuras
+
+![Figure 1. Manager Status Screen](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/140001-150000/146001-147000/146010.tif/_jcr_content/renditions/146010.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

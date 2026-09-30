@@ -10,7 +10,7 @@ tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.570389+00:00
+retrieved_at: 2026-09-30T18:17:22.080586+00:00
 ---
 
 # DELETE /rooms/{roomId}

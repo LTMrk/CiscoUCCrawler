@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-816ecaf22a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_011.html
-retrieved_at: 2026-08-21T01:28:42.247603+00:00
+retrieved_at: 2026-09-30T18:21:51.597134+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -253,3 +253,7 @@ You can also perform this task from your Cisco Unified IP Phone . Answer the cal
 | Step 1 | Select one of these options: Click the Transfer to Voice Mail call-control button. Right-click on the call and choose Transfer to Voicemail from the popup menu. From the menu bar, choose Call > Transfer to Voicemail . Use the associated keyboard shortcut. |
 |---|---|
 | Step 2 | You can also perform this task from your Cisco Unified IP Phone . Answer the call and then press the TrnsfVM softkey on your Cisco Unified IP Phone to transfer the manager’s call to the voice-messaging service. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

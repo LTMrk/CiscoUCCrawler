@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-12-5-1su6-cucm-b-install-guide-cucm-imp-1251su6-cucm-b-install--b2044767c4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/12_5_1SU6/cucm_b_install-guide-cucm-imp-1251su6/cucm_b_install-guide-cucm-imp-14_chapter_00.html
-retrieved_at: 2026-08-17T00:07:23.567334+00:00
+retrieved_at: 2026-09-30T18:20:21.955295+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU6
@@ -1187,3 +1187,7 @@ You
                                                 						  Federation > XMPP Federation > Settings | You cannot configure the security mode. It is set to NO TLS . |
 | Proxy Configuration Settings | Presence > Routing > Settings | You
                                           						cannot set any TLS or HTTPS listeners as the preferred proxy listener. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

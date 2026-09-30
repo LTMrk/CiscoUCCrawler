@@ -10,7 +10,7 @@ tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.436557+00:00
+retrieved_at: 2026-09-30T18:17:21.690295+00:00
 ---
 
 # GET /videoMesh/testResults/reachabilityTest/nodes

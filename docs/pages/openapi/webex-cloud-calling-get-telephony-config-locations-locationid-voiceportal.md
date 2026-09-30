@@ -10,7 +10,7 @@ tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.619994+00:00
+retrieved_at: 2026-09-30T18:17:19.845254+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicePortal

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-14-su2-cucm-b-install-guide-cucm-imp-14su2-cucm-b-install-guide-4decceccc1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/14_SU2/cucm_b_install-guide-cucm-imp-14su2/cucm_b_install-guide-cucm-imp-14_chapter_011.html
-retrieved_at: 2026-09-14T21:01:14.856249+00:00
+retrieved_at: 2026-09-30T18:21:13.370053+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14SU2
@@ -1109,3 +1109,7 @@ System Configuration Guide for Cisco Unified Communications Manager
 
 | Note | You must complete this task on each server that you install in an IM and Presence cluster. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-14-cucm-b-pcd-rns-1401-cucm-b-pcd-rns-1401-chapter-01-html-67a24bfb49
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14/cucm_b_pcd-rns_1401/cucm_b_pcd-rns_1401_chapter_01.html
-retrieved_at: 2026-08-21T01:29:35.871911+00:00
+retrieved_at: 2026-09-30T18:22:33.812944+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 14
@@ -34,3 +34,9 @@ The feature is used to have the maximum thread count as the configurable value. 
 When the maximum nodes count exceeds the maximum defined limit for tasks (Cluster Discovery, Install Task, Migrate Task, Upgrade
                               Task, Switch Version Task, Server Restart Task, and Readdress Task), a warning message is displayed. For more information
                               on how to configure, see Prime Collaboration Deployment Administration Guide
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

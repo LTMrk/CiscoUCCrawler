@@ -1,19 +1,17 @@
 {
-  "run_at": "2026-09-28T16:31:32.744520+00:00",
-  "added": [
-    "Webex Cloud Calling: GET /telephony/config/people/{personId}/answerSettings",
-    "Webex Cloud Calling: PUT /telephony/config/people/{personId}/answerSettings",
-    "Webex Cloud Calling: GET /telephony/config/people/{personId}/availablePreferredAnswerEndpoints",
-    "Webex Cloud Calling: GET /telephony/config/virtualLines/{virtualLineId}/answerSettings",
-    "Webex Cloud Calling: PUT /telephony/config/virtualLines/{virtualLineId}/answerSettings",
-    "Webex Cloud Calling: GET /telephony/config/virtualLines/{virtualLineId}/availablePreferredAnswerEndpoints",
-    "Webex Cloud Calling: GET /telephony/config/workspaces/{workspaceId}/answerSettings",
-    "Webex Cloud Calling: PUT /telephony/config/workspaces/{workspaceId}/answerSettings",
-    "Webex Cloud Calling: GET /telephony/config/workspaces/{workspaceId}/availablePreferredAnswerEndpoints"
-  ],
+  "run_at": "2026-09-30T18:17:22.645111+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
   "specs_cambiados": [
-    "webex-cloud-calling.json"
+    "webex-admin.json",
+    "webex-broadworks.json",
+    "webex-cloud-calling.json",
+    "webex-contact-center.json",
+    "webex-device.json",
+    "webex-meeting.json",
+    "webex-messaging.json",
+    "webex-ucm.json",
+    "webex-wholesale.json"
   ]
 }

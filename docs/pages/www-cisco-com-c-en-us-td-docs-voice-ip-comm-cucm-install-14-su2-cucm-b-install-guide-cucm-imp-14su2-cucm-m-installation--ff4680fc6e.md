@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-install-14-su2-cucm-b-install-guide-cucm-imp-14su2-cucm-m-installation--ff4680fc6e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/install/14_SU2/cucm_b_install-guide-cucm-imp-14su2/cucm_m_installation-methods.html
-retrieved_at: 2026-08-17T00:06:10.511038+00:00
+retrieved_at: 2026-09-30T18:21:18.674662+00:00
 ---
 
 Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service, Release 14SU2
@@ -2368,3 +2368,7 @@ If you need to simultaneously install multiple Unified Communications Manager an
                                           Service nodes. The following scenarios are supported: Installing only multiple Unified Communications Manager nodes Installing only one Unified Communications Manager node (publisher) and multiple and IM and Presence Service nodes If you need to simultaneously install multiple Unified Communications Manager and IM and Presence Service nodes, you need
                                           to use one of the above scenarios and install additional nodes manually. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

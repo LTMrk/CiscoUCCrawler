@@ -10,7 +10,7 @@ tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.208487+00:00
+retrieved_at: 2026-09-30T18:17:21.057684+00:00
 ---
 
 # GET /workspaceLocations/{locationId}/floors

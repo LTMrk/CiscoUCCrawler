@@ -10,7 +10,7 @@ tags: Device Call Settings With Device Dynamic Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.518866+00:00
+retrieved_at: 2026-09-30T18:17:19.735644+00:00
 ---
 
 # GET /telephony/config/supportedDevices
@@ -108,10 +108,9 @@ curl -X GET '/telephony/config/supportedDevices' \
       "supportsApplyChangesEnabled": false,
       "allowConfigureLinesEnabled": true,
       "allowConfigurePhoneSettingsEnabled": false,
-      "supportsHotlineEnabled": false
-    },
-    {
-      "model": "DMS Polycom EE4
+      "supportsHotlineEnabled": false,
+      "supportsVirtualLineEnabled": false
+ 
   ... (truncado)
 ```
 - Cabecera `Link`: 

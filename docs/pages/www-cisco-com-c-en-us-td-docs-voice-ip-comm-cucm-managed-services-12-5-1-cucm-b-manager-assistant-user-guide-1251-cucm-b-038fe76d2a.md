@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-038fe76d2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_01.html
-retrieved_at: 2026-08-21T01:28:33.762845+00:00
+retrieved_at: 2026-09-30T18:21:35.218806+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -236,3 +236,12 @@ For more
                                                    				Watch , Filter
                                                    				Calls , and Filter
                                                    				Mode . |
+
+## Figuras
+
+![Figure 1. Shared-Line-Mode Display on Cisco Unified IP
+                                 			 Phones](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182530.tif/_jcr_content/renditions/182530.jpg)
+
+![Figure 2. Proxy-Line-Mode Display on Cisco Unified IP Phones](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/182001-183000/182542.tif/_jcr_content/renditions/182542.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

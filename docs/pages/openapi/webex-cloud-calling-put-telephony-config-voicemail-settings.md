@@ -10,7 +10,7 @@ tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.498859+00:00
+retrieved_at: 2026-09-30T18:17:19.716280+00:00
 ---
 
 # PUT /telephony/config/voicemail/settings

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-userguide-cplm-bk-u7066cd8-00-user-guide-rel-10-0-1-cplm-bk--0f9ace30e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/userguide/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1_chapter_01000.html
-retrieved_at: 2026-09-08T05:03:52.925973+00:00
+retrieved_at: 2026-09-30T18:23:15.785530+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 10.0(1)
@@ -328,3 +328,7 @@ The password
 				  test, you must use a data CD, not a music CD. The system tests to ensure that
 				  you have inserted the disk. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

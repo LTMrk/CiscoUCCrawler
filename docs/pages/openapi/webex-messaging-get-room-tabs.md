@@ -10,7 +10,7 @@ tags: Room Tabs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.567697+00:00
+retrieved_at: 2026-09-30T18:17:22.078129+00:00
 ---
 
 # GET /room/tabs

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-1-userguide-cplm-bk-ud1156ad-00-user-guide-rel-1051-cplm-bk-ud-57f4068c1a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/userguide/CPLM_BK_UD1156AD_00_user-guide-rel-1051/CPLM_BK_UD1156AD_00_user-guide-rel-1051_appendix_0110.html
-retrieved_at: 2026-09-08T05:03:23.603121+00:00
+retrieved_at: 2026-09-30T18:26:12.945686+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 10.5(1)
@@ -274,3 +274,7 @@ Applies to: Enterprise License Manager , Cisco Prime License Manager
 					 server. |
 | deactivate | Deactivates a given service on the Cisco Prime License Manager
 					 server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

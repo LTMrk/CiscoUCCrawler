@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-releasenotes-cucm-bk-p73d8919-00-plm-rn-1001-cucm-bk-p73d891-bee4738606
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/releasenotes/CUCM_BK_P73D8919_00_plm_rn_1001/CUCM_BK_P73D8919_00_plm_rn_1001_chapter_010.html
-retrieved_at: 2026-09-08T04:53:39.583936+00:00
+retrieved_at: 2026-09-30T18:22:54.860043+00:00
 ---
 
 Release Notes for Cisco Prime License Manager Release 10.0(1)
@@ -104,3 +104,7 @@ prime_lm
 | CSCuj67023 | 4 | prime_lm | Electronic fulfillment timeout prevents further fulfillment. | Restart the Prime LM server using the Prime LM GUI. |
 | CSCul25065 | 4 | prime_lm | System restart does not clear user session. | Logout
 					 from the Prime LM GUI and login again. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

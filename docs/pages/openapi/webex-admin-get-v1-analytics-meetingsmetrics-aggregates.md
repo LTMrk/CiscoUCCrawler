@@ -10,7 +10,7 @@ tags: Historical Analytics APIs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:18.734932+00:00
+retrieved_at: 2026-09-30T18:17:18.390287+00:00
 ---
 
 # GET /v1/analytics/meetingsMetrics/aggregates

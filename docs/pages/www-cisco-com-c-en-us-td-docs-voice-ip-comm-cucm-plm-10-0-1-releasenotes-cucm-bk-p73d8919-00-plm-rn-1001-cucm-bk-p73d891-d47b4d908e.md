@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-releasenotes-cucm-bk-p73d8919-00-plm-rn-1001-cucm-bk-p73d891-d47b4d908e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/releasenotes/CUCM_BK_P73D8919_00_plm_rn_1001/CUCM_BK_P73D8919_00_plm_rn_1001_chapter_00.html
-retrieved_at: 2026-09-08T04:53:31.244470+00:00
+retrieved_at: 2026-09-30T18:22:46.583930+00:00
 ---
 
 Release Notes for Cisco Prime License Manager Release 10.0(1)
@@ -95,3 +95,7 @@ New features in this release include:
 - Additional browser support
 
 - Additional language support
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

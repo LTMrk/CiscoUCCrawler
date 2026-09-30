@@ -10,7 +10,7 @@ tags: SCIM 2 Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:18.764273+00:00
+retrieved_at: 2026-09-30T18:17:18.420972+00:00
 ---
 
 # DELETE /identity/scim/{orgId}/v2/Users/{userId}

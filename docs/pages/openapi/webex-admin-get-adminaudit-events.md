@@ -10,7 +10,7 @@ tags: Admin Audit Events
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:18.724099+00:00
+retrieved_at: 2026-09-30T18:17:18.379206+00:00
 ---
 
 # GET /adminAudit/events

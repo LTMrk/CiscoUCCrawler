@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-1-releasenotes-cucm-bk-p64d2d8c-00-plm-rn-1051-cucm-bk-p64d2d8-81ca96a976
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P64D2D8C_00_plm-rn-1051/CUCM_BK_P64D2D8C_00_plm-rn-1051_chapter_011.html
-retrieved_at: 2026-09-08T04:53:18.664001+00:00
+retrieved_at: 2026-09-30T18:24:22.503426+00:00
 ---
 
 Release Notes for Cisco Prime License Manager Release 10.5(1)
@@ -160,3 +160,7 @@ When adding the IPv6 product instance, use the hostname or place brackets [ ] ar
 | CSCum89149 | 3 | prime_lm | Standalone Cisco Prime License Manager CLI login banner unchangeable after Enterprise License Manager upgrade | There is no workaround. |
 | CSCun77018 | 3 | prime_lm | Enterprise License Manager DB fails to start - PID created in wrong directory | The Cisco Enterprise License Manager database shows as not running in the CLI and GUI, however this is incorrect. The Cisco Enterprise License Manager database and Cisco Enterprise License Manager are fully functional. You can correct the display by performing the following steps: Log in to the system using a remote account. Enter the following: < Is /etc/init.d/ # . Search for a file with the format of postgresql-x.x, where x.x is the release, such as 9.1 or 9.2. Enter the following: > touch /var/lock/subsys/postgresql-x.x , where x.x is the release found above. Enter the following: > su - <your_admin_account_name> In the CLI, execute the following command to restart the ELM DB: utils service restart Cisco Prime LM DB . |
 | CSCuo35143 | 3 | prime_lm | Cisco Prime License Manager - Sync fails for IPv6 product instance if added using IP address | When adding the IPv6 product instance, use the hostname or place brackets [ ] around the IP address. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

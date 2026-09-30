@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-5-1-releasenotes-cucm-bk-p7eb4ea9-00-plm-rn-1052-cucm-bk-p7eb4ea-0430fbd676
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_5_1/releasenotes/CUCM_BK_P7EB4EA9_00_plm-rn-1052/CUCM_BK_P7EB4EA9_00_plm-rn-1052_chapter_011.html
-retrieved_at: 2026-09-08T04:52:24.204448+00:00
+retrieved_at: 2026-09-30T18:24:47.831789+00:00
 ---
 
 Release Notes for Cisco Prime License Manager Release 10.5(2)
@@ -93,3 +93,7 @@ Inability to paste password in ELM/PLM
 | Incident | Headline |
 |---|---|
 | CSCvn59991 | Inability to paste password in ELM/PLM |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

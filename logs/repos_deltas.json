@@ -1,11 +1,19 @@
 {
  "added": [
-  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/features/contact-owner-change-refactor.md"
+  "webex/widgets/ai-docs/features/agent-wellness-break-intake.md"
  ],
  "modified": [
   "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/CONTRACTS.md",
-  "webex/webex-js-sdk/packages/@webex/contact-center/src/metrics/ai-docs/metrics-spec.md",
-  "webex/webex-js-sdk/packages/@webex/contact-center/src/services/task/ai-docs/task-spec.md"
+  "webex/webex-js-sdk/packages/@webex/contact-center/ai-docs/contact-center-spec.md",
+  "webex/webex-js-sdk/packages/@webex/plugin-authorization-browser-first-party/README.md",
+  "webex/widgets/ai-docs/ARCHITECTURE.md",
+  "webex/widgets/ai-docs/CONTRACTS.md",
+  "webex/widgets/ai-docs/SPEC_INDEX.md",
+  "webex/widgets/packages/contact-center/ai-assistant/ai-docs/ai-assistant-spec.md",
+  "webex/widgets/packages/contact-center/cc-components/ai-docs/cc-components-spec.md",
+  "webex/widgets/packages/contact-center/cc-widgets/ai-docs/cc-widgets-spec.md",
+  "webex/widgets/packages/contact-center/store/ai-docs/store-spec.md",
+  "webex/widgets/packages/contact-center/user-state/ai-docs/user-state-spec.md"
  ],
  "removed": []
 }

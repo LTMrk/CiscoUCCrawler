@@ -10,7 +10,7 @@ tags: Teams
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.573086+00:00
+retrieved_at: 2026-09-30T18:17:22.082585+00:00
 ---
 
 # POST /teams

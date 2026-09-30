@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/SPEC_INDEX.md
 repo: webex/widgets
 ruta: ai-docs/SPEC_INDEX.md
 licencia: sin declarar
-retrieved_at: 2026-08-25T11:27:00.871073+00:00
+retrieved_at: 2026-09-30T18:17:28.766927+00:00
 ---
 
 # widgets â€” ai-docs/SPEC_INDEX.md
@@ -30,7 +30,7 @@ Descripcion del repositorio: Embed the power of Webex in your web applications â
 | `station-login/` | Agent login: team + device selection | DRAFT | `packages/contact-center/station-login/ai-docs/station-login-spec.md` |
 | `user-state/` | Agent state: state, idle codes, timer | DRAFT | `packages/contact-center/user-state/ai-docs/user-state-spec.md` |
 | `task/` | Task widget bundle: CallControl, IncomingTask, OutdialCall, TaskList, CallControlCAD | DRAFT | `packages/contact-center/task/ai-docs/task-spec.md` |
-| `ai-assistant/` | AI Assistant widget: chrome + Real-time Assist requests, transcript, feedback | DRAFT | `packages/contact-center/ai-assistant/ai-docs/ai-assistant-spec.md` |
+| `ai-assistant/` | AI Assistant widget: chrome, Real-time Assist, and Agent Wellness Break orchestration | DRAFT | `packages/contact-center/ai-assistant/ai-docs/ai-assistant-spec.md` |
 | `ui-logging/` | Metrics/telemetry: `withMetrics`, `metricsLogger` | DRAFT | `packages/contact-center/ui-logging/ai-docs/ui-logging-spec.md` |
 | `test-fixtures/` | Shared test mocks/helpers | DRAFT | `packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md` |
 | `@webex/widgets/` | Legacy meetings widgets (separate family) | DRAFT | `packages/@webex/widgets/ai-docs/widgets-spec.md` |

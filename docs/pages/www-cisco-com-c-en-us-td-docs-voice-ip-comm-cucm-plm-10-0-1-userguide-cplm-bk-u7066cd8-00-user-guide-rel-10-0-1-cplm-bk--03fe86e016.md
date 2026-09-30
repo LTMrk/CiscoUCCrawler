@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-plm-10-0-1-userguide-cplm-bk-u7066cd8-00-user-guide-rel-10-0-1-cplm-bk--03fe86e016
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/plm/10_0_1/userguide/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1/CPLM_BK_U7066CD8_00_user-guide-rel-10-0-1_preface_00.html
-retrieved_at: 2026-09-08T05:03:36.520107+00:00
+retrieved_at: 2026-09-30T18:23:32.208783+00:00
 ---
 
 Cisco Prime License Manager User Guide, Release 10.0(1)
@@ -123,3 +123,7 @@ For information on
 			 or you can have several Cisco Prime License Manager s and divide the enterprise
 			 in a manner that best suits your needs. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.396118+00:00
+retrieved_at: 2026-09-30T18:17:21.654266+00:00
 ---
 
 # GET /admin/meetings/{meetingId}

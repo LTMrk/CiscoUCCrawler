@@ -10,7 +10,7 @@ tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.572085+00:00
+retrieved_at: 2026-09-30T18:17:22.081871+00:00
 ---
 
 # PUT /team/memberships/{membershipId}

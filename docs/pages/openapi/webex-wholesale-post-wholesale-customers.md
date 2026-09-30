@@ -10,7 +10,7 @@ tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-27T10:51:20.833171+00:00
+retrieved_at: 2026-09-30T18:17:22.636596+00:00
 ---
 
 # POST /wholesale/customers

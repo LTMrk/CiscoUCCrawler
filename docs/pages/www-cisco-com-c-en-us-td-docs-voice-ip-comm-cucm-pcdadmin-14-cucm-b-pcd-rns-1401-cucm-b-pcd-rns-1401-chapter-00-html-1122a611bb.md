@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-14-cucm-b-pcd-rns-1401-cucm-b-pcd-rns-1401-chapter-00-html-1122a611bb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14/cucm_b_pcd-rns_1401/cucm_b_pcd-rns_1401_chapter_00.html
-retrieved_at: 2026-08-21T01:29:31.620116+00:00
+retrieved_at: 2026-09-30T18:22:29.516877+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 14
@@ -105,3 +105,7 @@ Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Ci
 | Cisco Unified Communications Manager | http://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/tsd-products-support-series-home.html |
 | Cisco Unified Contact Center Express | http://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-series-home.html |
 | Cisco Unity Connection | http://www.cisco.com/c/en/us/support/unified-communications/unity-connection/tsd-products-support-series-home.html |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-pcdadmin-14-cucm-b-pcd-rns-1401-cucm-b-pcd-rns-1401-chapter-010-html-7e731ff45c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/14/cucm_b_pcd-rns_1401/cucm_b_pcd-rns_1401_chapter_010.html
-retrieved_at: 2026-08-21T01:29:40.171518+00:00
+retrieved_at: 2026-09-30T18:22:37.956393+00:00
 ---
 
 Release Notes for Cisco Prime Collaboration Deployment, Release 14
@@ -89,3 +89,7 @@ Need feature to estimate size of migration files to export
 | CSCvp65829 | PCD does not provide any information on post cop installation steps to be taken |
 | CSCvf49904 | Cluster refresh without the need to expand cluster and refresh nodes individually |
 | CSCvq45271 | Need feature to estimate size of migration files to export |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

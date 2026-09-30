@@ -10,7 +10,7 @@ tags: Call Controls, External Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-28T16:31:32.380834+00:00
+retrieved_at: 2026-09-30T18:17:19.636516+00:00
 ---
 
 # POST /telephony/calls/unmute

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-managed-services-12-5-1-cucm-b-manager-assistant-user-guide-1251-cucm-b-dcc3537425
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/managed_services/12_5_1/cucm_b_manager-assistant-user-guide-1251/cucm_b_manager-assistant-user-guide-1251_chapter_0110.html
-retrieved_at: 2026-08-21T01:28:54.854894+00:00
+retrieved_at: 2026-09-30T18:21:55.843662+00:00
 ---
 
 Manager Assistant User Guide for Cisco Unified Communications Manager, Release 12.5(1)
@@ -272,3 +272,7 @@ Recreate the manager or assistant configuration
 | Step 3 | Update device |
 | Step 4 | Associate device |
 | Step 5 | Recreate the manager or assistant configuration |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
