@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b05apusr-html-1d46090b2d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b05apusr.html
-retrieved_at: 2026-08-21T16:13:09.081820+00:00
+retrieved_at: 2026-09-30T20:21:47.418661+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -324,3 +324,7 @@ See the "Related Topics" section .
 | Permissions Information |
 | Groups | This list box displays after an application user has been added. The list box displays the groups to which the application user belongs. |
 | Roles | This list box displays after an application user has been added. The list box displays the roles that are assigned to the application user. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

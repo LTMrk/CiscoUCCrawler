@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-cucosadmin-ccvp-b-1261-cvvb-cu-c0b8a41c4e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/cucosadmin/ccvp_b_1261-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_0100.html
-retrieved_at: 2026-08-21T16:31:27.453029+00:00
+retrieved_at: 2026-09-30T20:29:44.696357+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -148,3 +148,7 @@ A switch
                                           			 done on the Unified CCX system when
                                           			 it is in progress. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--f38e2def35
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_0101.html
-retrieved_at: 2026-08-21T16:34:12.752020+00:00
+retrieved_at: 2026-09-30T20:27:56.044815+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -958,3 +958,7 @@ Click OK on the
                                           			 only for End User accounts, such as Agent Flow or SAML. SSO is not supported
                                           			 for Application User accounts. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

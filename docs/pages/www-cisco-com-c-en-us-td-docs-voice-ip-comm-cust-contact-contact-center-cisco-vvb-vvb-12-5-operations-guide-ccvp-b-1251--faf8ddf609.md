@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--faf8ddf609
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide_chapter_0101.html
-retrieved_at: 2026-08-21T16:34:50.048444+00:00
+retrieved_at: 2026-09-30T20:27:13.214667+00:00
 ---
 
 Cisco Virtualized Voice Browser Serviceability Administration Guide, Release 12.5(1)
@@ -159,3 +159,7 @@ Choose Help > About from the VVB Serviceability menu bar to access VVB version
                                        			 information The VVB Serviceability
                                        			 web page opens, displaying version information and package information. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

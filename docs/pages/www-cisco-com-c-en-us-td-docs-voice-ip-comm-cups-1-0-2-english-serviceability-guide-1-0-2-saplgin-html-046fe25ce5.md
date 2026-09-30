@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-serviceability-guide-1-0-2-saplgin-html-046fe25ce5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/serviceability/guide/1_0_2/saplgin.html
-retrieved_at: 2026-08-21T16:06:36.071883+00:00
+retrieved_at: 2026-09-30T20:22:41.569074+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(2)
@@ -47,3 +47,7 @@ Refer to the application document for usage information.
 ## Related Topics
 
 For more information on Cisco Voice Log Translator, refer to the Cisco Voice Log Translator User Guide .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

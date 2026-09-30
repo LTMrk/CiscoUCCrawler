@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusm-express-12-5-1-su1-install-guide-ccp-b-1251su1install-and-upgrade-ccp-b-e26d79c566
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusm/express_12_5_1_SU1/install/guide/ccp_b_1251su1install-and-upgrade/ccp_b_1261install-and-upgrade_chapter_010.html
-retrieved_at: 2026-08-16T21:13:03.131333+00:00
+retrieved_at: 2026-09-30T20:24:42.697568+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide Release 12.5(1) SU1
@@ -205,3 +205,7 @@ Restart Cisco Tomcat for the changes to take effect
 
 | Note | IP address range and subnet masks are not supported. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

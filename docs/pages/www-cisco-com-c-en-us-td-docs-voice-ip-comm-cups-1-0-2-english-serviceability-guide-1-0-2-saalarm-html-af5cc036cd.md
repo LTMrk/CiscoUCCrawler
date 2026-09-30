@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-serviceability-guide-1-0-2-saalarm-html-af5cc036cd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/serviceability/guide/1_0_2/saalarm.html
-retrieved_at: 2026-08-21T16:05:57.900404+00:00
+retrieved_at: 2026-09-30T20:22:29.063588+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(2)
@@ -166,3 +166,7 @@ See the Related Topics .
 | Notice | This level designates a normal but significant condition. |
 | Informational | This level designates information messages only. |
 | Debug | This level designates detailed event information that Cisco TAC engineers use for debugging. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

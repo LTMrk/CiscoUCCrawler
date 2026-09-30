@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-0-installation-guide-cvvp-b-migr-da271dde86
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_0/installation/guide/cvvp_b_migration-guide-1201/cvvp_b_migration-guide-1201_preface_00.html
-retrieved_at: 2026-08-21T16:28:34.307724+00:00
+retrieved_at: 2026-09-30T20:28:57.512103+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.0(1)
@@ -93,3 +93,7 @@ To provide
 |---|---|---|
 | Initial Release of Document for Release 12.5(1) | January 2020 |
 | Added HTTP streaming | Features Comparison |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

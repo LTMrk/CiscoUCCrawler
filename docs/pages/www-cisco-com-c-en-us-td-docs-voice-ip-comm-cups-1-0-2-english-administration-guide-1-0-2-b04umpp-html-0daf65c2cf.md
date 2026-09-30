@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04umpp-html-0daf65c2cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04umpp.html
-retrieved_at: 2026-08-21T16:12:36.028052+00:00
+retrieved_at: 2026-09-30T20:21:22.547568+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -174,3 +174,7 @@ See the "Related Topics" section .
 | Description | This parameter provides a general description of the Cisco MeetingPlace Express profile. Maximum characters: 128 |
 | Primary MeetingPlace Express Server | This parameter specifies the primary Cisco MeetingPlace Express server. From the dropdown list, you can choose from the Cisco MeetingPlace Express servers that you have already defined on the system. |
 | Backup MeetingPlace Express Server | This parameter specifies the backup Cisco MeetingPlace Express server. From the dropdown list, you can choose from the Cisco MeetingPlace Express servers that you have already defined on the system. You can specify two backup Cisco MeetingPlace Express servers. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

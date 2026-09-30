@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b06usexp-html-e002a4a9ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b06usexp.html
-retrieved_at: 2026-08-21T16:13:33.586369+00:00
+retrieved_at: 2026-09-30T20:22:08.513992+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -87,3 +87,7 @@ You can search and download the exported file by using the Upload/Download Files
 ## Related Topic
 
 • Exporting User Records
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

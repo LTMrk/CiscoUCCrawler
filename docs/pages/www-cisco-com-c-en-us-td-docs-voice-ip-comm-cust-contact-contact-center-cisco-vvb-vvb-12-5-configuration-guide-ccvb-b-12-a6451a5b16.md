@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-configuration-guide-ccvb-b-12-a6451a5b16
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/configuration/guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide_chapter_010.html
-retrieved_at: 2026-08-21T16:30:06.388430+00:00
+retrieved_at: 2026-09-30T20:25:28.744480+00:00
 ---
 
 Cisco Virtualized Voice Browser Administration and Configuration Guide, Release 12.5(1)
@@ -3816,3 +3816,7 @@ Enter the hostname:: |
                                                                						  option is disabled either when client is not connected to the server or report
                                                                						  is not selected. To connect to the server, select an option from Report menu. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

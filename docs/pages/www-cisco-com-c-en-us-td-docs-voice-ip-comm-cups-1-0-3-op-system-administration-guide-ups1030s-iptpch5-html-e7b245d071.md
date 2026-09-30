@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptpch5-html-e7b245d071
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptpch5.html
-retrieved_at: 2026-08-21T02:48:23.496983+00:00
+retrieved_at: 2026-09-30T20:24:09.552883+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -67,3 +67,7 @@ Step 2 To shut down the system, click Shutdown , or to stop the operation, clic
 If you click Shutdown , the system halts all processes and shuts down.
 
 Note The hardware does not power down automatically.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

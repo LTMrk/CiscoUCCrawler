@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-cpsprf-html-ea7d9eaf90
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/cpsprf.html
-retrieved_at: 2026-08-21T16:10:38.660492+00:00
+retrieved_at: 2026-09-30T20:22:24.756467+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -366,3 +366,7 @@ http://www.cisco.com/en/US/learning/index.html
 |  | This pointer highlights an important line of text in an example. |
 | ^ | The symbol ^ represents the key labeled Control—for example, the key combination ^D in a screen display means hold down the Control key while you press the D key. |
 | <   > | Nonprinting characters, such as passwords, are in angle brackets. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

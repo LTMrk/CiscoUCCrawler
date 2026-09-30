@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04upxp-html-a75491944a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04upxp.html
-retrieved_at: 2026-08-21T16:12:56.736956+00:00
+retrieved_at: 2026-09-30T20:21:34.816823+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -176,3 +176,7 @@ See the "Related Topics" section .
 | Description | This parameter provides a general description of the proxy profile. |
 | Primary Proxy Server | This parameter specifies the primary proxy server. From the dropdown list, you can choose from the proxy servers that you already defined on the system. |
 | Backup Proxy Server | This parameter specifies the backup proxy server. From the dropdown list, you can choose from the proxy servers that you already defined on the system. You can specify two backup proxy servers. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

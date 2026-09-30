@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusm-express-12-5-1-su1-install-guide-ccp-b-1251su1install-and-upgrade-ccp-b-5660538b40
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusm/express_12_5_1_SU1/install/guide/ccp_b_1251su1install-and-upgrade/ccp_b_1261install-and-upgrade_preface_00.html
-retrieved_at: 2026-08-16T21:12:54.527582+00:00
+retrieved_at: 2026-09-30T20:24:51.670988+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide Release 12.5(1) SU1
@@ -68,3 +68,7 @@ contactcenterproducts_docfeedback@cisco.com
 | Added COP file details | Important Considerations for Upgrade>Upgrade Overview |
 | Updated the procedure to Install COP file | Important Considerations for Upgrade>Upgrade Tasks>Install COP File |
 | Updated the upgrade path | Important Considerations for Upgrade>Upgrade Tasks |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-0-installation-guide-cvvp-b-migr-8c53a55695
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_0/installation/guide/cvvp_b_migration-guide-1201/cvvp_b_migration-guide-1201_chapter_011.html
-retrieved_at: 2026-08-21T16:28:46.976643+00:00
+retrieved_at: 2026-09-30T20:28:41.056695+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.0(1)
@@ -267,3 +267,7 @@ To know whether any script changes are required while migrating from IOS VXML to
 | Digit Element | Grammar accepts only digits from 0 – 9 | Grammar accepts digits from 0 – 9 , "#", and "*". "#" is the default termination character. You can mark any digit or DTMF
                                        character as termination character by adding it in custom VXML property. |
 | Custom SIP header passing to a VXML server | Supported | Supported For more information, see Custom SIP header passing to a VXML server in Solution Design Guide for Cisco Unified Contact Center Enterprise and Solution Design Guide for Cisco Packaged Contact Center Enterprise. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

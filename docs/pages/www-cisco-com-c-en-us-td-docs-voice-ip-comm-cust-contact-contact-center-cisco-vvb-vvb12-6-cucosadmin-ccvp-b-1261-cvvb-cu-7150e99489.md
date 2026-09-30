@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-cucosadmin-ccvp-b-1261-cvvb-cu-7150e99489
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/cucosadmin/ccvp_b_1261-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_010.html
-retrieved_at: 2026-08-21T16:31:18.999177+00:00
+retrieved_at: 2026-09-30T20:29:41.077086+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -439,3 +439,7 @@ Brief description of how the port is used.
 | Status | Status of port usage: Enabled—In use by the application and opened by the
                                                                   								firewall Disabled—Blocked by the firewall and not in use |
 | Description | Brief description of how the port is used. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

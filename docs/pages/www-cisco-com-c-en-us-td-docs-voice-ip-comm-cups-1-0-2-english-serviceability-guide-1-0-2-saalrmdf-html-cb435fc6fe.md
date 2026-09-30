@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-serviceability-guide-1-0-2-saalrmdf-html-cb435fc6fe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/serviceability/guide/1_0_2/saalrmdf.html
-retrieved_at: 2026-08-21T16:06:02.304619+00:00
+retrieved_at: 2026-09-30T20:22:33.385027+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(2)
@@ -140,3 +140,7 @@ All Cisco TFTP alarm definitions
 | LpmTctCatalog | All Log Partition Monitor Trace Collection Tool alarms |
 | SystemAccessCatalog | All process and thread monitoring alarms |
 | TFTPAlarmCatalog | All Cisco TFTP alarm definitions |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

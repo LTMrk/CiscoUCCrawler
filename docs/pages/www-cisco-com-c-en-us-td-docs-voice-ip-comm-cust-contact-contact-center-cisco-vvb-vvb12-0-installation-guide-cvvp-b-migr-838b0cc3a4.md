@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-0-installation-guide-cvvp-b-migr-838b0cc3a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_0/installation/guide/cvvp_b_migration-guide-1201/cvvp_b_migration-guide-1201_chapter_0100.html
-retrieved_at: 2026-08-21T16:28:51.362747+00:00
+retrieved_at: 2026-09-30T20:28:32.442054+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.0(1)
@@ -243,3 +243,7 @@ Cisco
 | Note | Customer
                                                    						cannot modify these. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

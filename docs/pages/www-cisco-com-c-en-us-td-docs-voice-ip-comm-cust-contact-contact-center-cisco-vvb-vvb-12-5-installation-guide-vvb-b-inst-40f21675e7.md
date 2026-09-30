@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-installation-guide-vvb-b-inst-40f21675e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/installation/guide/vvb_b_install-and-upgrade-guide-12-5/vvb_b_install-and-upgrade-guide-12-5_chapter_0100.html
-retrieved_at: 2026-08-21T16:27:52.028390+00:00
+retrieved_at: 2026-09-30T20:26:27.250606+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -106,3 +106,7 @@ Name                    Status             Package Name
 
 | Note | The output of the command must be empty. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

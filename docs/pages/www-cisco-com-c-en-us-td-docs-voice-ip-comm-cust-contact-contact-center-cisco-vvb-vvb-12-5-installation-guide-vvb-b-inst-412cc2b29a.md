@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-installation-guide-vvb-b-inst-412cc2b29a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/installation/guide/vvb_b_install-and-upgrade-guide-12-5/vvb_b_install-and-upgrade-guide-12-5_chapter_011.html
-retrieved_at: 2026-08-21T16:27:47.838263+00:00
+retrieved_at: 2026-09-30T20:26:31.502083+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -385,3 +385,7 @@ admin: utils system restart Note Changing the hostname fails if the hostname inc
 
 | Note | Changing the hostname fails if the hostname includes any of these wildcard characters: “.”, “_” , “@”, “!”,”#”, “$”, “%” Engine takes around 5 minutes to be in service after the server comes back up. API and configuration services take around 10 minutes to be in service. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

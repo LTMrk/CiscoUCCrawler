@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b06jobs-html-8f3e3ecc05
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b06jobs.html
-retrieved_at: 2026-08-21T16:13:25.848922+00:00
+retrieved_at: 2026-09-30T20:21:59.901625+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -285,3 +285,7 @@ Step 5 To go back to the list of jobs, choose Back to Find/List from the Relate
 | Frequency | From the following options, choose the frequency of the transaction: • Once • Monthly • Weekly • Daily • Hourly For example, if you choose Daily, the transaction will repeat daily at the time that is entered in the Schedule Time and Date field. |
 | Job End Time | This field displays the end time for recurring (frequency) job. |
 | Last Modified By | This field displays the user ID of the administrator who last modified this job. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--3893a4f798
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_00.html
-retrieved_at: 2026-08-21T16:31:48.382141+00:00
+retrieved_at: 2026-09-30T20:27:38.448032+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -218,3 +218,7 @@ For more information, see the Command Line Interface Reference Guide for Cisco U
                                           			 install or use third-party or Windows-based software applications that you may
                                           			 have been using with a previous version of Unified CCX. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-cpsintro-html-bb7a184f6e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/cpsintro.html
-retrieved_at: 2026-08-21T16:10:42.737723+00:00
+retrieved_at: 2026-09-30T20:22:20.970938+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -394,3 +394,7 @@ Many of the windows in Cisco Unified Presence Server and Cisco PCA have button
 |  |  |  |
 | IP Communicator | NA | Yes |
 | Cisco Unified Personal Communicator | No | NA |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04usrv-html-52400f52f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04usrv.html
-retrieved_at: 2026-08-21T16:12:22.963820+00:00
+retrieved_at: 2026-09-30T20:21:43.302461+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -157,3 +157,7 @@ See the "Related Topics" section .
 | Hostname/IP Address | This parameter specifies the host name or IP Address of the Cisco Unity Connection server. |
 | Port | This parameter specifies the port number that is configured for the Cisco Unity Connection server. Default: 143 |
 | Protocol Type | This parameter specifies the protocol to use when contacting the Cisco Unity Connection server. Choose one of the following values: • TCP • UDP • TLS Default: TCP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

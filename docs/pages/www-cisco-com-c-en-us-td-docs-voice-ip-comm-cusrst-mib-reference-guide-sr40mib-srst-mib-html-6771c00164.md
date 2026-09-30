@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-mib-reference-guide-sr40mib-srst-mib-html-6771c00164
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/mib/reference/guide/sr40mib/srst_mib.html
-retrieved_at: 2026-08-25T17:05:26.056806+00:00
+retrieved_at: 2026-09-30T20:25:02.171644+00:00
 ---
 
 Cisco Unified SRST SNMP MIB Release 4.0 Guide
@@ -5255,3 +5255,7 @@ VoFR — Voice over Frame Relay
 | Step 6 | snmp-server community xxxxx RW Example: Router(config)# snmp-server community xxxxxx RW | Enables the read-write (RW ) community string, where xxxxxx represents the read-write community string. |
 | Step 7 | exit Example: Router(config)# exit | Exits global configuration mode and returns you to privileged EXEC mode. |
 | Step 8 | write memor y Example: Router# write memory | Writes the modified configuration to nonvolatile memory (NVRAM), permanently saving the settings. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

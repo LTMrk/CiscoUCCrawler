@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptpappa-html-57730ab005
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptpappa.html
-retrieved_at: 2026-08-21T02:48:42.169206+00:00
+retrieved_at: 2026-09-30T20:23:49.298684+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -3185,3 +3185,7 @@ sActive" |
 | Command | Parameters | Description |
 |---|---|---|
 | run sql | sql_statement Where sql_statement represents the SQL command to run. Options None | This command allows you to run an SQL command. Command privilege level: 1 Allowed during upgrade: No Example: Run an SQL command run sql select name from device |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

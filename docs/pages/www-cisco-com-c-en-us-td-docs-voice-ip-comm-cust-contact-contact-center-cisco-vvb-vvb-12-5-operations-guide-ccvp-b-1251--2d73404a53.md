@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--2d73404a53
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-ccvb-operations-guide-for-cisco-vvb/ccvp_b_1251-ccvb-operations-guide-for-cisco-vvb_preface_00.html
-retrieved_at: 2026-08-21T16:34:58.217506+00:00
+retrieved_at: 2026-09-30T20:26:56.196401+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -98,3 +98,7 @@ To provide
 | Initial Release of Document for Release 12.5(1) | January 2020 |
 | Added Cisco Speechserver utility to list of services. | utils service list |
 | Added file get commands for VVB | file vvb get |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

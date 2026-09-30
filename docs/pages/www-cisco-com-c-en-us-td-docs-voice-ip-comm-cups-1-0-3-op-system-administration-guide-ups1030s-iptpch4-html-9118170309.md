@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptpch4-html-9118170309
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptpch4.html
-retrieved_at: 2026-08-21T02:48:19.486967+00:00
+retrieved_at: 2026-09-30T20:24:06.010121+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -152,3 +152,7 @@ Step 3 Click Save .
 | Port Settings IP Address | Shows the IP address of the system. |
 | Mask | Shows the IP subnet mask address. |
 | Gateway IP Address | Shows the IP address of the network gateway. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

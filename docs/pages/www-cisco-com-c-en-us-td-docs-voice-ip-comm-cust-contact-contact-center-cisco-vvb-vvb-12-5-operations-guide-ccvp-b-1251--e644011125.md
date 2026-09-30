@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--e644011125
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_0111.html
-retrieved_at: 2026-08-21T16:34:20.503542+00:00
+retrieved_at: 2026-09-30T20:28:07.998094+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.5(1)
@@ -191,3 +191,7 @@ To delete the
                                                       						expires. |
 | Passphrase | Displays the generated pass phrase. |
 | Decode version | Indicates the version of the decoder in use. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

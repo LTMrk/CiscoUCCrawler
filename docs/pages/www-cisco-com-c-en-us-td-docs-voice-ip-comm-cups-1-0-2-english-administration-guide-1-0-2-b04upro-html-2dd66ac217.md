@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04upro-html-2dd66ac217
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04upro.html
-retrieved_at: 2026-08-21T16:12:26.862512+00:00
+retrieved_at: 2026-09-30T20:21:30.309618+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -179,3 +179,7 @@ See the "Related Topics" section .
 | Voice Messaging Pilot | This parameter specifies the voice-messaging pilot that is associated with this Cisco Unity Connection profile. You can also choose No Voice Mail from the dropdown list. |
 | Primary Unity Connection Server | This parameter specifies the primary Cisco Unity Connection server. From the dropdown list, you can choose from the Cisco Unity Connection servers that you have already defined on the system. |
 | Backup Unity Connection Server | This parameter specifies the backup Cisco Unity Connection server. From the dropdown list, you can choose from the Cisco Unity Connection servers that you have already defined on the system. You can specify two backup Cisco Unity Connection servers. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

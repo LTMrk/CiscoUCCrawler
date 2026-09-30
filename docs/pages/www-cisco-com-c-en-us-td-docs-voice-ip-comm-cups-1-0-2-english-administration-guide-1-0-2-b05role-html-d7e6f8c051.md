@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b05role-html-d7e6f8c051
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b05role.html
-retrieved_at: 2026-08-21T16:13:13.404975+00:00
+retrieved_at: 2026-09-30T20:21:51.442071+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -212,3 +212,7 @@ Note If the list of resources displays on more than one page, this button applie
 | (list of resource names for the chosen application) | In the Resource Access Information pane, click the check box(es) next to the resource(s) that you want this role to include. Note In some applications, only one check box applies for each resource. In the Cisco Unified Presence Server Administration application, a read check box and an update check box apply to each resource. |
 | Grant access to all | Click this button to grant privileges for all resources that display on this page for this role. Note If the list of resources displays on more than one page, this button applies only to the resources that display on the current page. You must display other pages and use the button on those pages to change the access of the resources that are listed on those pages. |
 | Deny access to all | Click this button to remove privileges for all resources that display on this page for this role. Note If the list of resources displays on more than one page, this button applies only to the resources that display on the current page. You must display other pages and use the button on those pages to change the access of the resources that are listed on those pages. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

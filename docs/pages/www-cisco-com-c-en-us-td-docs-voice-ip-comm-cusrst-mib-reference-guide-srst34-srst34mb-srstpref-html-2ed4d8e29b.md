@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-mib-reference-guide-srst34-srst34mb-srstpref-html-2ed4d8e29b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/mib/reference/guide/srst34/srst34mb/SRSTPref.html
-retrieved_at: 2026-09-01T21:28:29.448509+00:00
+retrieved_at: 2026-09-30T20:25:05.574937+00:00
 ---
 
 Cisco SRST SNMP MIB Release 3.4 Guide
@@ -472,3 +472,7 @@ string." |
 | Subject | Document Number and Change Date | Change Summary |
 |---|---|---|
 | — | OL-7959-01, October 26, 2005 | Initial release |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

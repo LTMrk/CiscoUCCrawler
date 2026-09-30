@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b05usgrp-html-87a4506814
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b05usgrp.html
-retrieved_at: 2026-08-21T16:13:17.569537+00:00
+retrieved_at: 2026-09-30T20:21:55.919078+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -341,3 +341,7 @@ See the "Related Topics" section .
 • End User Configuration, Cisco Unified CallManager System Guide
 
 • Application User Configuration, Cisco Unified CallManager System Guide
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

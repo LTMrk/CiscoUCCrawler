@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-serviceability-guide-1-0-2-sarlpm-html-3cfcdc17af
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/serviceability/guide/1_0_2/sarlpm.html
-retrieved_at: 2026-08-21T16:06:41.197105+00:00
+retrieved_at: 2026-09-30T20:22:49.552822+00:00
 ---
 
 Cisco Unified Presence Server Serviceability Administration Guide, Release 1.0(2)
@@ -55,3 +55,7 @@ See the Related Topics .
 • Alert Configuration in RTMT , Cisco Unified CallManager Serviceability System Guide
 
 • Trace Collection and Log Central in RTMT , Cisco Unified Presence Server Serviceability Administration Guide
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

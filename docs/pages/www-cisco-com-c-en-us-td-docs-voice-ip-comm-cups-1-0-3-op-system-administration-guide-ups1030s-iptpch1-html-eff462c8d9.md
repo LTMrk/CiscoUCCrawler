@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptpch1-html-eff462c8d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptpch1.html
-retrieved_at: 2026-08-21T02:48:07.415132+00:00
+retrieved_at: 2026-09-30T20:23:52.886611+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -141,3 +141,7 @@ For more information see Chapter 8, "Services."
 The command line interface, which you can access from the console or through a secure shell connection to the server, provides a subset of the operating system functionality that is available through the operating system user interface. Keep in mind that the command line interface is designed for system emergencies and not as a replacement for the user interface.
 
 For more information see Appendix A, "Command Line Interface."
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-mib-reference-guide-srst34-srst34mb-srst-mib-html-76b6ab1b9f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/mib/reference/guide/srst34/srst34mb/srst_mib.html
-retrieved_at: 2026-09-01T21:28:35.891502+00:00
+retrieved_at: 2026-09-30T20:25:11.629730+00:00
 ---
 
 Cisco SRST SNMP MIB Release 3.4 Guide
@@ -5227,3 +5227,7 @@ VoFR — Voice over Frame Relay
 | csrstSipConfGroup | 1.3.6.1.4.1.9.9.441.2.2.4 |
 | csrstMIBNotifsGroup | 1.3.6.1.4.1.9.9.441.2.2.5 |
 |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

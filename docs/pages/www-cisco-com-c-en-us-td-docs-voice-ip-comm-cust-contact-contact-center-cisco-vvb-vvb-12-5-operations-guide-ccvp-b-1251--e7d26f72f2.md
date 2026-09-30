@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--e7d26f72f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide_chapter_0100.html
-retrieved_at: 2026-08-21T16:34:46.109794+00:00
+retrieved_at: 2026-09-30T20:27:09.344932+00:00
 ---
 
 Cisco Virtualized Voice Browser Serviceability Administration Guide, Release 12.5(1)
@@ -555,3 +555,7 @@ Click the Update
                                        			 the JVM options by clicking Enable or Disable radio buttons in this page. Click the Update
                                              				  JVM Options icon or button to update the new settings for selected
                                           				service on selected node. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

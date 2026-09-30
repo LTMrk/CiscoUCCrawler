@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptppref-html-ee0d8ebe11
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptppref.html
-retrieved_at: 2026-08-21T02:48:02.875936+00:00
+retrieved_at: 2026-09-30T20:24:30.115254+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -338,3 +338,7 @@ http://www.cisco.com/en/US/learning/index.html
 |  | This pointer highlights an important line of text in an example. |
 | ^ | The symbol ^ represents the key labeled Control—for example, the key combination ^D in a screen display means hold down the Control key while you press the D key. |
 | <   > | Nonprinting characters, such as passwords, are in angle brackets. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

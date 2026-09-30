@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-3-op-system-administration-guide-ups1030s-iptpch8-html-587944175e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_3/op_system/administration/guide/ups1030s/iptpch8.html
-retrieved_at: 2026-08-21T02:48:36.513572+00:00
+retrieved_at: 2026-09-30T20:24:21.877781+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide For Cisco Unified Presence Server Release 1.0(3)
@@ -108,3 +108,7 @@ Displays the generated pass phrase.
 | Account name | Displays the name of the remote support account. |
 | Expires | Displays the date and time when access to the remote account expires. |
 | Pass phrase | Displays the generated pass phrase. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

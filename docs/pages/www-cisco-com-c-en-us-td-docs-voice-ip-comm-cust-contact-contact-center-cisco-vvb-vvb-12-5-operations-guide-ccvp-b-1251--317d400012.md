@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-5-operations-guide-ccvp-b-1251--317d400012
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/VVB_12_5/operations/guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide/ccvp_b_1251-cisco-virtualized-voice-browser-serviceability-administration-guide_chapter_011.html
-retrieved_at: 2026-08-21T16:34:41.377543+00:00
+retrieved_at: 2026-09-30T20:27:17.498110+00:00
 ---
 
 Cisco Virtualized Voice Browser Serviceability Administration Guide, Release 12.5(1)
@@ -460,3 +460,7 @@ The trace
 | Step 2 | The trace
                                           			 setting for the selected profile is transferred to system's trace settings and
                                           			 on successful activation, a message will be displayed in the status bar. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

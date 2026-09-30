@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cups-1-0-2-english-administration-guide-1-0-2-b04uset-html-0100471d6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cups/1_0_2/english/administration/guide/1_0_2/b04uset.html
-retrieved_at: 2026-08-21T16:12:18.816312+00:00
+retrieved_at: 2026-09-30T20:21:38.921196+00:00
 ---
 
 Cisco Unified Presence Server Administration Guide, Release 1.0(2)
@@ -146,3 +146,7 @@ See the "Related Topics" section .
 | CTI Gateway Profile | This parameter comprises a dropdown list of the available Cisco CTI gateway profiles. If the list is empty, you may need to configure a Cisco CTI gateway profile for Cisco Unified Personal Communicator. |
 | LDAP Profile | This parameter comprises a dropdown list of the available Cisco LDAP profiles. If the list is empty, you may need to configure a Cisco LDAP profile for Cisco Unified Personal Communicator. |
 | SIP Proxy Profile | This parameter comprises a dropdown list of SIP proxy profiles and can be empty. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
