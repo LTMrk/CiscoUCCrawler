@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-provisioning-pa2d-b-mpp-7800-provisioning-guide-pa2d-ca107cf2b4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide/pa2d_b_mpp-7800-provisioning-guide_chapter_011.html
-retrieved_at: 2026-08-21T02:22:45.594346+00:00
+retrieved_at: 2026-09-30T19:52:13.927951+00:00
 ---
 
 Cisco IP Phone 7800 Series and Cisco IP Conference Phone 7832 Multiplatform Phones Provisioning Guide
@@ -922,3 +922,9 @@ print “</GPP_D></flat-profile>”; |
 | Step 2 | Insert the <Privacy_Header_N_ ua="na"> Value </Privacy_Header_N_> tag, where N is the line extension number (1–10), and use one of the following values. Default value: Disabled none header session user id |
 | Step 3 | (Optional) Provision any addition line extensions using the same tag with the required line extension number. |
 | Step 4 | Save the changes to the config.xml file. |
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

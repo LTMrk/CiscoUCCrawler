@@ -10,7 +10,7 @@ tags: Channel
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.500837+00:00
+retrieved_at: 2026-09-30T19:48:25.219237+00:00
 ---
 
 # POST /organization/{orgid}/channel

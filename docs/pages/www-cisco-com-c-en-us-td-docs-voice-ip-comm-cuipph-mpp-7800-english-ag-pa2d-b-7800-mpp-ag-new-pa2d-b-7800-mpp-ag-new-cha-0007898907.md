@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-0007898907
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_01110.html
-retrieved_at: 2026-08-21T23:21:16.521238+00:00
+retrieved_at: 2026-09-30T19:50:25.427792+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -1715,3 +1715,7 @@ Further information regarding U.S. export regulations can be found at https://ww
 | VPN Password | Password of the specified username to access the VPN server. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <VPN_Password ua="rw">Example</VPN_Password> On the phone web interface, enter the password. Default: Empty |
 | VPN Tunnel Group | Tunnel group assigned to the VPN user. Tunnel group is used to identify the group policy for the VPN connection. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <VPN_Tunnel_Group ua="rw">Example</VPN_Tunnel_Group> On the phone web interface, enter the name of the tunnel group. Default: Empty |
 | Connect on Bootup | Enables or disables the automatic connection to the VPN server after the phone reboots. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <Connect_on_Bootup ua="rw">No</Connect_on_Bootup> On the phone web interface, set this field Yes or No as needed. Allowed values: Yes and No Default: No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

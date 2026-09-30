@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-firmware-11-2-1-cs78-b-release-notes-for-7832mpp-1121-html-57610213bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/firmware/11-2-1/cs78_b_release-notes-for-7832mpp-1121.html
-retrieved_at: 2026-08-21T23:18:19.817037+00:00
+retrieved_at: 2026-09-30T19:57:09.735400+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Release Notes for Firmware Release 11.2(1)
@@ -458,3 +458,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) To look for information about a specific problem, enter the bug ID number ( CSCxxnnnnn ) in the Search for field, and press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

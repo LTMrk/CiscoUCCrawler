@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-b561208d7f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_0110.html
-retrieved_at: 2026-08-21T23:20:41.489038+00:00
+retrieved_at: 2026-09-30T19:50:03.617912+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -474,3 +474,15 @@ Voice Messaging System
 |---|---|
 | Message Indicators | Message Waiting Indicator (MWI) or Message Waiting Lamp |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 7800 Series Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393563.tif/_jcr_content/renditions/393563.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393038.eps/_jcr_content/renditions/393038.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393039.eps/_jcr_content/renditions/393039.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393040.eps/_jcr_content/renditions/393040.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

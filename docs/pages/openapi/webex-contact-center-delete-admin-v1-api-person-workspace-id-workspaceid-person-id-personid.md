@@ -10,7 +10,7 @@ tags: Journey - Customer Identification API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.618632+00:00
+retrieved_at: 2026-09-30T19:48:25.369229+00:00
 ---
 
 # DELETE /admin/v1/api/person/workspace-id/{workspaceId}/person-id/{personId}
@@ -50,6 +50,7 @@ curl -X DELETE '/admin/v1/api/person/workspace-id/<workspaceId>/person-id/<perso
   - `email` (array): Email
   - `temporaryId` (array): Temporary Id
   - `customerId` (array): Customer Id
+  - `socialId` (array): Social Id
   - `aliases` (array): Aliases
 
 ## Respuestas de error

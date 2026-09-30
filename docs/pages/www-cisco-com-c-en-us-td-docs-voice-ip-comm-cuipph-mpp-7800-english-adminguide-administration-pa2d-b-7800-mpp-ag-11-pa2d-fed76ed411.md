@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-fed76ed411
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/adminguide/administration/pa2d_b_7800-mpp-ag-11/pa2d_b_7800-mpp-ag-11_chapter_01001.html
-retrieved_at: 2026-09-01T15:41:22.672486+00:00
+retrieved_at: 2026-09-30T19:50:58.234373+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide
@@ -300,3 +300,7 @@ Further information regarding U.S. export regulations can be found at https://ww
 |---|---|
 | Step 2 | In the LDAP section, enter a server address in the Server field. For example, enter ldaps://<ldaps_server>[:port] . where: ldaps:// = The server string starts with ldaps:// before you enter the IP address or domain name ldaps_server = IP address or domain name port = Port number. Default: 636 |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-provisioning-pa2d-b-mpp-7800-provisioning-guide-pa2d-5b4a28dbe1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide/pa2d_b_mpp-7800-provisioning-guide_chapter_010.html
-retrieved_at: 2026-08-21T02:22:41.379001+00:00
+retrieved_at: 2026-09-30T19:52:05.444536+00:00
 ---
 
 Cisco IP Phone 7800 Series and Cisco IP Conference Phone 7832 Multiplatform Phones Provisioning Guide
@@ -459,3 +459,7 @@ Log_Failure_Msg
 | Note | When a phone connects to a network for the first time or after a factory reset, and there are no DHCP options set up, it contacts
                                                             a device activation server for zero touch provisioning. New phones use "activate.cisco.com" instead of "webapps.cisco.com" for provisioning. Phones with firmware release earlier than 11.2(1) continues to use "webapps.cisco.com" . We recommend that you allow both the domain names through your firewall. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

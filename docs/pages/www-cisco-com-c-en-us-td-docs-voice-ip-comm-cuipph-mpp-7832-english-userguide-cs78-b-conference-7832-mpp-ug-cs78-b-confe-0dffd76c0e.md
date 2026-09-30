@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-0dffd76c0e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_010.html
-retrieved_at: 2026-08-21T02:29:17.397252+00:00
+retrieved_at: 2026-09-30T19:56:28.327569+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -1461,3 +1461,7 @@ XML Directory
 | Step 3 | Select Personal address book . |
 | Step 4 | Search for the contact that you want to remove. |
 | Step 5 | Highlight the address entry of the contact and press Option > Delete to delete the entry. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

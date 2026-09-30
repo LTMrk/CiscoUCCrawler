@@ -10,7 +10,7 @@ tags: Campaign Manager
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.630354+00:00
+retrieved_at: 2026-09-30T19:48:25.381039+00:00
 ---
 
 # DELETE /v1/dialer/campaign/{campaignId}

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-ag-cs78-b-7832-mpp-ag-new-cs78-b-7832-mpp-adminguide-7bd3015081
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/AG/cs78_b_7832-mpp-ag_new/cs78_b_7832-mpp-adminguide_appendix_010110.html
-retrieved_at: 2026-08-21T23:26:06.855450+00:00
+retrieved_at: 2026-09-30T19:54:50.327052+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -593,3 +593,7 @@ CWMP_V1.2_Support
 | Device.X_CISCO_UserConfigurableResync | User_Configurable_Resync |
 | Device.X_CISCO_HTTPReportMethod | HTTP_Report_Method |
 | Device.X_CISCO_CWMPV1dot2Support | CWMP_V1.2_Support |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

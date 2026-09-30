@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-5673d1c2f3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_010001.html
-retrieved_at: 2026-08-21T23:21:33.669680+00:00
+retrieved_at: 2026-09-30T19:49:23.984702+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -2856,3 +2856,7 @@ vid=<extension_n_to_be_associated> The PSK softkey toggle always starts with the
 | xfer | Transfer | Performs a call transfer. Requires that Attn Xfer Serv is enabled and there is at least one connected call and one idle call. | Connected, Start-Xfer, Start-Conf |
 | xferlx | Xfer line | Transfers an active line on the phone to a called number. Requires that Attn Xfer Serv is enabled and there are two or more
                                              calls that are active or on hold. | Connected |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

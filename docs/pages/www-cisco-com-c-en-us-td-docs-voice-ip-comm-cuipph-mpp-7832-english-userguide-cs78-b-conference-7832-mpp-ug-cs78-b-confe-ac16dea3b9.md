@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-ac16dea3b9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_01000.html
-retrieved_at: 2026-08-21T02:29:25.192636+00:00
+retrieved_at: 2026-09-30T19:56:32.230666+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -302,3 +302,7 @@ LED Off
                                              						interacts with the phone and calls the voicemail to retrieve a message. |
 | No
                                              						Voicemail, No Missed Call | No event | LED Off | - |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

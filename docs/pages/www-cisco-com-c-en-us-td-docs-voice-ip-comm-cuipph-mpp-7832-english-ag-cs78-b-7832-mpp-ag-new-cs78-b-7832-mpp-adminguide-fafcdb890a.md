@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-ag-cs78-b-7832-mpp-ag-new-cs78-b-7832-mpp-adminguide-fafcdb890a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/AG/cs78_b_7832-mpp-ag_new/cs78_b_7832-mpp-adminguide_chapter_010.html
-retrieved_at: 2026-08-21T23:24:46.932851+00:00
+retrieved_at: 2026-09-30T19:55:02.666381+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -791,3 +791,7 @@ C
 | 503 Service Unavailable | The server is currently unavailable (overloaded or down for maintenance). This is a temporary state. | Phone behavior is C. |
 | 504 Gateway Timeout | The server behaves as a gateway or proxy and does not receive timely response from the upstream server. | C |
 | 5xx | Other server error | C |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

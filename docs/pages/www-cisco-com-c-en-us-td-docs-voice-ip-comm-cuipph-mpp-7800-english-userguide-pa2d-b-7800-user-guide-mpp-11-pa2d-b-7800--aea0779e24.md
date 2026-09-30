@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-userguide-pa2d-b-7800-user-guide-mpp-11-pa2d-b-7800--aea0779e24
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/userguide/pa2d_b_7800-user-guide-mpp-11/pa2d_b_7800-user-guide-mpp-11_chapter_0110.html
-retrieved_at: 2026-08-21T02:23:32.266168+00:00
+retrieved_at: 2026-09-30T19:52:43.713162+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones User Guide
@@ -165,3 +165,9 @@ Step 2
 | Step 1 | Before you make or answer a call, press Headset . |
 |---|---|
 | Step 2 | (Optional) If you place a call, dial the number. |
+
+## Figuras
+
+![Figure 1. Standard Headset Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393116.eps/_jcr_content/renditions/393116.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

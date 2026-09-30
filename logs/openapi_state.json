@@ -1401,10 +1401,10 @@
     "sha": "49b5def74b00fb490fc47c67b9a93d7c6bdfaff4"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-09-30T18:17:20.640246+00:00",
+    "actualizado": "2026-09-30T19:48:25.392434+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "cf4894d4545068b64a1691f2a165ae8d3abe474198683d5f6cbe24e7c82721b2",
+    "content_sha": "9c0307821d6deda925315b84379f77ed0ee4bbf6e3c12c43045e20a11b47473f",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1936,7 +1936,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "4cea20f4d05b8a8bdf126d85c784ea0907e7dcc9"
+    "sha": "b770d7c0a64d0fd784f97296eeb1606790f57cb7"
   },
   "webex-device.json": {
     "actualizado": "2026-09-30T18:17:21.065001+00:00",

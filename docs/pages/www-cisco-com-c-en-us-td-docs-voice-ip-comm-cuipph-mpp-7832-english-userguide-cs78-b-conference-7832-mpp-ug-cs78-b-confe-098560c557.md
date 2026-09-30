@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-098560c557
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_00.html
-retrieved_at: 2026-08-21T02:27:09.102849+00:00
+retrieved_at: 2026-09-30T19:56:19.816915+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -1877,3 +1877,17 @@ Your formal Warranty Statement, including the warranties and license agreements 
 |---|---|
 | Step 2 | Find the information from the MIC Cert Refresh Status section. MIC Cert Provisioning Status : This field includes the date and time of the performed certificate renewal, the HTTP request URL, and result messages. MIC Cert Info : This field shows the overall status of the certificate renewal procedure. Typically, it shows whether the MIC certificate
                                                       of your phone is renewed successfully. For more information, contact your administrator. |
+
+## Figuras
+
+![Figure 1. Conference Phone Power Options](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/416001-417000/416537.jpg)
+
+![Figure 2. Cisco IP Conference Phone 7832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393570.tif/_jcr_content/renditions/393570.jpg)
+
+![Figure 3. Hearing-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393468.eps/_jcr_content/renditions/393468.jpg)
+
+![Figure 4. Vision-Impaired and Blind Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393469.eps/_jcr_content/renditions/393469.jpg)
+
+![Figure 5. Mobility-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393470.eps/_jcr_content/renditions/393470.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

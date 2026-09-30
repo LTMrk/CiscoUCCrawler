@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-60e3745741
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/adminguide/administration/pa2d_b_7800-mpp-ag-11/pa2d_b_7800-mpp-ag-11_chapter_01000.html
-retrieved_at: 2026-08-25T12:12:05.798417+00:00
+retrieved_at: 2026-09-30T19:50:49.317453+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide
@@ -806,3 +806,75 @@ Return the handset to the handset rest.
 | Step 4 | Line up the tab with the slot in the cradle and press the tab evenly into the slot. An extension protrudes from the top of
                                        the rotated tab. |
 | Step 5 | Return the handset to the handset rest. |
+
+## Figuras
+
+![Figure 1. Wall Mount Kit Components for 7811](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393294.eps/_jcr_content/renditions/393294.jpg)
+
+![Figure 2. Back View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393295.eps/_jcr_content/renditions/393295.jpg)
+
+![Figure 3. Side View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393296.eps/_jcr_content/renditions/393296.jpg)
+
+![Figure 4. Bracket
+                                                				  Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345748.eps/_jcr_content/renditions/345748.jpg)
+
+![Figure 5. Phone Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393297.eps/_jcr_content/renditions/393297.jpg)
+
+![Figure 6. Cable Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393298.eps/_jcr_content/renditions/393298.jpg)
+
+![Figure 7. Phone to Wall Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393299.eps/_jcr_content/renditions/393299.jpg)
+
+![Figure 8. Tab
+                                    			 Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393300.eps/_jcr_content/renditions/393300.jpg)
+
+![Figure 9. Disengage Tabs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393301.eps/_jcr_content/renditions/393301.jpg)
+
+![Figure 10. Wall Mount Kit Components](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345758.eps/_jcr_content/renditions/345758.jpg)
+
+![Figure 11. Back View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371091.eps/_jcr_content/renditions/371091.jpg)
+
+![Figure 12. Side View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371092.eps/_jcr_content/renditions/371092.jpg)
+
+![Figure 13. Bracket
+                                                				  Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345748.eps/_jcr_content/renditions/345748.jpg)
+
+![Figure 14. Phone Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371153.eps/_jcr_content/renditions/371153.jpg)
+
+![Figure 15. Cable Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371125.eps/_jcr_content/renditions/371125.jpg)
+
+![Figure 16. Phone to Wall Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371126.eps/_jcr_content/renditions/371126.jpg)
+
+![Figure 17. Tab
+                                    			 Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371093.eps/_jcr_content/renditions/371093.jpg)
+
+![Figure 18. Disengage Tabs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371094.eps/_jcr_content/renditions/371094.jpg)
+
+![Figure 19. Wall Mount Kit Components for 7861](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393373.eps/_jcr_content/renditions/393373.jpg)
+
+![Figure 20. Back View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393374.eps/_jcr_content/renditions/393374.jpg)
+
+![Figure 21. Side View of
+                                 			 ADA Non-Lockable Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393375.eps/_jcr_content/renditions/393375.jpg)
+
+![Figure 22. Bracket
+                                                				  Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345748.eps/_jcr_content/renditions/345748.jpg)
+
+![Figure 23. Phone Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393376.eps/_jcr_content/renditions/393376.jpg)
+
+![Figure 24. Cable Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393377.eps/_jcr_content/renditions/393377.jpg)
+
+![Figure 25. Phone to Wall Bracket Attachment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393378.eps/_jcr_content/renditions/393378.jpg)
+
+![Figure 26. Tab
+                                    			 Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393379.eps/_jcr_content/renditions/393379.jpg)
+
+![Figure 27. Disengage Tabs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393380.eps/_jcr_content/renditions/393380.jpg)
+
+![Figure 28. Adjust the Handset Rest](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

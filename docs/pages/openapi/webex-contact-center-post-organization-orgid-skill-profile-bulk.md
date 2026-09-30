@@ -10,7 +10,7 @@ tags: Skill Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.561613+00:00
+retrieved_at: 2026-09-30T19:48:25.275473+00:00
 ---
 
 # POST /organization/{orgid}/skill-profile/bulk

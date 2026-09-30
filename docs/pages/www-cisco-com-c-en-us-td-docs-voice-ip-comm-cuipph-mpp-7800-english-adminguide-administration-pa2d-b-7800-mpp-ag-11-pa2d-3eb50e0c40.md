@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-3eb50e0c40
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/adminguide/administration/pa2d_b_7800-mpp-ag-11/pa2d_b_7800-mpp-ag-11_chapter_01111.html
-retrieved_at: 2026-09-01T15:41:45.720785+00:00
+retrieved_at: 2026-09-30T19:51:41.553155+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide
@@ -7055,3 +7055,7 @@ To edit contact information, click Edit Contacts .
 
 | Note | If you do not configure the above parameters, you can also fetch them through DHCP options 60,43, and 125. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

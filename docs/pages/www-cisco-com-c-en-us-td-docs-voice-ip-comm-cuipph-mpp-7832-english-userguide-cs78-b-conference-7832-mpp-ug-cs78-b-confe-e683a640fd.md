@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-e683a640fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_01.html
-retrieved_at: 2026-08-21T02:29:12.882492+00:00
+retrieved_at: 2026-09-30T19:56:23.997759+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -1107,3 +1107,7 @@ You can enter preferred emergency escalation number, or you can leave it empty i
 |---|---|
 | Step 2 | In the Emergency Escalation window, click OK . You can enter preferred emergency escalation number, or you can leave it empty if you do not have any supervisor preference.
                                              You will not see any emergency escalation number. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

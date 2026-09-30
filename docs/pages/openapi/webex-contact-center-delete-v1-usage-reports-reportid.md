@@ -10,7 +10,7 @@ tags: Usage Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.595206+00:00
+retrieved_at: 2026-09-30T19:48:25.346566+00:00
 ---
 
 # DELETE /v1/usage-reports/{reportId}

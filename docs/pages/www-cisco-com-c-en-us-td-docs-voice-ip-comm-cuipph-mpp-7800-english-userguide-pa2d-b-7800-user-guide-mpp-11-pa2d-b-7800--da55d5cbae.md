@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-userguide-pa2d-b-7800-user-guide-mpp-11-pa2d-b-7800--da55d5cbae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/userguide/pa2d_b_7800-user-guide-mpp-11/pa2d_b_7800-user-guide-mpp-11_chapter_00.html
-retrieved_at: 2026-08-21T02:23:07.377090+00:00
+retrieved_at: 2026-09-30T19:52:19.134036+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones User Guide
@@ -2318,3 +2318,11 @@ Your formal Warranty Statement, including the warranties and license agreements 
 |---|---|
 | Step 2 | Find the information from the MIC Cert Refresh Status section. MIC Cert Provisioning Status : This field includes the date and time of the performed certificate renewal, the HTTP request URL, and result messages. MIC Cert Info : This field shows the overall status of the certificate renewal procedure. Typically, it shows whether the MIC certificate
                                                       of your phone is renewed successfully. For more information, contact your administrator. |
+
+## Figuras
+
+![Figure 1. Adjust the Handset Rest](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![Figure 2. Cisco IP Phone 7800 Series Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393563.tif/_jcr_content/renditions/393563.jpg)
+
+![Figure 3. Cisco IP Phone 7800 Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393564.tif/_jcr_content/renditions/393564.jpg)

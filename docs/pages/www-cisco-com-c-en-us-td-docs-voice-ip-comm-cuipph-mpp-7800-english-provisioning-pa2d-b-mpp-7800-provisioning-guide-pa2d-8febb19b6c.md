@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-provisioning-pa2d-b-mpp-7800-provisioning-guide-pa2d-8febb19b6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide/pa2d_b_mpp-7800-provisioning-guide_chapter_00.html
-retrieved_at: 2026-08-21T02:20:34.693951+00:00
+retrieved_at: 2026-09-30T19:51:57.406768+00:00
 ---
 
 Cisco IP Phone 7800 Series and Cisco IP Conference Phone 7832 Multiplatform Phones Provisioning Guide
@@ -538,3 +538,9 @@ Save the changes to the cfg.xml file.
 |---|---|
 | Step 2 | Insert the <User_Password> tag using one of these options. No password (start and end tag) – <User_Password></User_Password> Password value (4 to 127 characters) – <User_Password ua="rw">Abc123</User_Password> No password (start tag only) – <User_Password /> |
 | Step 3 | Save the changes to the cfg.xml file. |
+
+## Figuras
+
+![Figure 1. Retail Distribution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393515.eps/_jcr_content/renditions/393515.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

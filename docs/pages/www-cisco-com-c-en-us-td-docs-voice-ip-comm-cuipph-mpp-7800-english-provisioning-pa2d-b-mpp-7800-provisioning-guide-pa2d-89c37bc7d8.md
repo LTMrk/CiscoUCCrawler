@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-provisioning-pa2d-b-mpp-7800-provisioning-guide-pa2d-89c37bc7d8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide/pa2d_b_mpp-7800-provisioning-guide_appendix_0110.html
-retrieved_at: 2026-08-21T02:22:58.054647+00:00
+retrieved_at: 2026-09-30T19:51:49.602314+00:00
 ---
 
 Cisco IP Phone 7800 Series and Cisco IP Conference Phone 7832 Multiplatform Phones Provisioning Guide
@@ -618,3 +618,7 @@ Extensible Markup Language
 | VQ | Voice Quality |
 | WAN | Wide Area Network |
 | XML | Extensible Markup Language |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

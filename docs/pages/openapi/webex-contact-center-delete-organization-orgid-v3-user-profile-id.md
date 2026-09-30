@@ -10,7 +10,7 @@ tags: User Profiles
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.571584+00:00
+retrieved_at: 2026-09-30T19:48:25.285142+00:00
 ---
 
 # DELETE /organization/{orgid}/v3/user-profile/{id}

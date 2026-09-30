@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-60fd7c0283
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_0111.html
-retrieved_at: 2026-08-21T02:29:21.071840+00:00
+retrieved_at: 2026-09-30T19:56:44.472520+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -444,3 +444,7 @@ Press OK .
 | Step 3 | Select All calls . |
 | Step 4 | Press Option and select Delete all . |
 | Step 5 | Press OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

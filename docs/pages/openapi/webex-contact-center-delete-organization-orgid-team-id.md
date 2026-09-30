@@ -10,7 +10,7 @@ tags: Team
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.566786+00:00
+retrieved_at: 2026-09-30T19:48:25.280601+00:00
 ---
 
 # DELETE /organization/{orgid}/team/{id}

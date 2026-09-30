@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-c76c0d4747
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_010000.html
-retrieved_at: 2026-08-21T23:21:27.692225+00:00
+retrieved_at: 2026-09-30T19:49:18.309877+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -416,3 +416,7 @@ Telecom Use the + character to add spaces for formatting. You can add multiple +
 |---|---|
 | Step 2 | In the Supplementary Services section, set the parameter Keep Focus On Active Call to Yes . You can also configure this parameter in the configuration file: <Keep_Focus_On_Active_Call ua="na">Yes</Keep_Focus_On_Active_Call> Allowed values: Yes and No Default: No |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

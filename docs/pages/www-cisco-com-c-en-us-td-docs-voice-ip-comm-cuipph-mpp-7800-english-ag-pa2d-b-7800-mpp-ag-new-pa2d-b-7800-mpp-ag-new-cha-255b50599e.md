@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-255b50599e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_010100.html
-retrieved_at: 2026-08-21T23:21:41.319467+00:00
+retrieved_at: 2026-09-30T19:49:40.887272+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -442,3 +442,7 @@ sub=group_vm@domain;vid=1;nme=Group;</Extended_Function_2_> |
 | Label | The label of the PLK. For example, VM 3300. If this parameter is missing, the key displays the name part of the User ID parameter. This parameter is optional. |
 | User ID | The SIP address of a voicemail account. For example, 4085283300@$PROXY. This parameter is mandatory. |
 | Number | The speed dial number or the SIP URI. For example, 8000 ,3300#,123456# |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

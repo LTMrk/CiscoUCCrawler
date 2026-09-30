@@ -10,7 +10,7 @@ tags: Journey - Customer Identification API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.618901+00:00
+retrieved_at: 2026-09-30T19:48:25.369489+00:00
 ---
 
 # PATCH /admin/v1/api/person/workspace-id/{workspaceId}/person-id/{personId}
@@ -24,9 +24,9 @@ retrieved_at: 2026-09-30T18:17:20.618901+00:00
 Add/Remove/Replace details of a Person
 
 ## Descripción
-The Patch Api can be used to add/remove identities(email, phone, customerId) or replace firstName and lastName of an Individual. We support only add, replace and remove operations. 
+The Patch Api can be used to add/remove identities (email, phone, customerId, temporaryId, and socialId) or replace firstName and lastName of an Individual. We support only add, replace, and remove operations. 
 
-For a more information on Patch Requests, see this  [JSON PATCH guide](https://jsonpatch.com). 
+For more information on Patch Requests, see this [JSON PATCH guide](https://jsonpatch.com). 
 
 Role and Scope: Requires id full admin role with cjp:config_write or any role with cjp:user or cjp:config_write scope.
 
@@ -36,8 +36,8 @@ Role and Scope: Requires id full admin role with cjp:config_write or any role wi
 
 ## Cuerpo de la petición (application/json-patch+json)
 - (array de:)
-  - `op` (string) (**requerido**): The operation to be performed Valores: add, update, remove.
-  - `path` (string) (**requerido**): A JSON-Pointer
+  - `op` (string) (**requerido**): The operation to be performed Valores: add, remove, replace.
+  - `path` (string) (**requerido**): A JSON-Pointer. Allowed paths depend on the operation: `add` supports `/phone/-`, `/email/-`, `/customerId/-`, `/temporaryId/-`, and `/socialId/-`; `remove` supports `/phone/{index}`, `/email/{index}`, `/customerId/{index}`, `/temporaryId/{index}`, and `/socialId/{index}`; `replace` supports `/firstName` and `/lastName`.
   - `value` (string): The value to be used within the operations.
 
 ## Ejemplo de invocación
@@ -60,6 +60,7 @@ curl -X PATCH '/admin/v1/api/person/workspace-id/<workspaceId>/person-id/<person
   - `email` (array): Email
   - `temporaryId` (array): Temporary Id
   - `customerId` (array): Customer Id
+  - `socialId` (array): Social Id
   - `aliases` (array): Aliases
 
 ## Respuestas de error

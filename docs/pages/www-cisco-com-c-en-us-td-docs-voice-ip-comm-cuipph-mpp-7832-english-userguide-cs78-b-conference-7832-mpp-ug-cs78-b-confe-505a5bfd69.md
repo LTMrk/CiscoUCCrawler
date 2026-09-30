@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-userguide-cs78-b-conference-7832-mpp-ug-cs78-b-confe-505a5bfd69
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/userguide/cs78_b_conference_7832-mpp-ug/cs78_b_conference_7832-mpp-ug_chapter_0101.html
-retrieved_at: 2026-08-21T02:29:29.833573+00:00
+retrieved_at: 2026-09-30T19:56:36.548024+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phone User Guide
@@ -1065,3 +1065,7 @@ Press Save to add the locations to the Locations list.
 | Step 5 | Add contact number and name in the Locations screen. Maximum length of a name that you can enter is 25. You can also keep the Name field empty. Maximum length of a number that you can enter is 20. |
 | Step 6 | Enable or disable the location. |
 | Step 7 | Press Save to add the locations to the Locations list. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

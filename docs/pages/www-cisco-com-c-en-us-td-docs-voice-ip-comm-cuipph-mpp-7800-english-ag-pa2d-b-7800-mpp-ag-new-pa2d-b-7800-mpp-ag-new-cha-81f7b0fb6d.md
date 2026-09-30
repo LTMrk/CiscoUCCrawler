@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-81f7b0fb6d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_01111.html
-retrieved_at: 2026-08-21T23:21:24.080368+00:00
+retrieved_at: 2026-09-30T19:50:32.460835+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -7112,3 +7112,7 @@ sub=< group_vm >@< domain >[;vid=< n >][;nme=< softkey_display_name >] fnc=mwi+s
 | Step 2 | (Optional) If you don't want to manually disable the line key as described in Step 1 , you can enable the Direct PLK Configuration feature. For more information, see Enable Direct PLK Configuration . |
 | Step 3 | Set the Inert mode for the specific line key. Select Voice > Phone . Select the target line key. In the Extended Function parameter, enter a string in this format: fnc=inert; where fnc=inert means function=inert. You can also configure this parameter in the phone configuration file (cfg.xml). The parameter is line-specific. Enter a string
                                                 in this format: <Extended_Function_ n _ ua="na">fnc=inert;</Extended_Function_ n _> where n is the extension number. Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

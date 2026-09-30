@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-english-ag-cs78-b-7832-mpp-ag-new-cs78-b-7832-mpp-adminguide-4a47773884
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/english/AG/cs78_b_7832-mpp-ag_new/cs78_b_7832-mpp-adminguide_chapter_00.html
-retrieved_at: 2026-08-21T23:24:36.088543+00:00
+retrieved_at: 2026-09-30T19:54:53.901178+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -153,3 +153,9 @@ Voice Messaging System
 |---|---|
 | Message Indicators | Message Waiting Indicator (MWI) |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. Cisco IP Conference Phone 7832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393570.tif/_jcr_content/renditions/393570.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

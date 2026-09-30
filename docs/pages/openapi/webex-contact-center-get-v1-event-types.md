@@ -10,7 +10,7 @@ tags: Subscriptions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.592291+00:00
+retrieved_at: 2026-09-30T19:48:25.341065+00:00
 ---
 
 # GET /v1/event-types

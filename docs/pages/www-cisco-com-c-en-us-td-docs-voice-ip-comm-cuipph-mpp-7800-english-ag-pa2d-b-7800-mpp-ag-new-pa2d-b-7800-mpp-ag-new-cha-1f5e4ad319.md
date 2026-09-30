@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-ag-pa2d-b-7800-mpp-ag-new-pa2d-b-7800-mpp-ag-new-cha-1f5e4ad319
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/AG/pa2d_b_7800_mpp_ag_new/pa2d_b_7800_mpp_ag_new_chapter_010111.html
-retrieved_at: 2026-08-21T23:21:56.191224+00:00
+retrieved_at: 2026-09-30T19:49:59.514522+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -751,3 +751,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-seri
 
 | Note | Voice quality metrics do not account for noise or distortion, only frame loss. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

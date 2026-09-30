@@ -10,7 +10,7 @@ tags: Journey - Customer Identification API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.620231+00:00
+retrieved_at: 2026-09-30T19:48:25.370751+00:00
 ---
 
 # POST /admin/v1/api/person/merge/workspace-id/{workspaceId}/primary-person-id/{primaryPersonId}
@@ -55,6 +55,7 @@ curl -X POST '/admin/v1/api/person/merge/workspace-id/<workspaceId>/primary-pers
   - `email` (array): Email
   - `temporaryId` (array): Temporary Id
   - `customerId` (array): Customer Id
+  - `socialId` (array): Social Id
   - `aliases` (array): Aliases
 
 ## Respuestas de error

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-firmware-12-0-2-p780-b-7800mpp-rn-1202-html-91bf309a7b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/firmware/12-0-2/p780_b_7800mpp-rn-1202.html
-retrieved_at: 2026-08-21T23:19:01.009648+00:00
+retrieved_at: 2026-09-30T19:54:20.310002+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Release Notes for Firmware Release 12.0(2)
@@ -387,3 +387,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) For information about a specific caveat, enter the bug ID number ( CSCxxnnnnn ) in the Search for field, and press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

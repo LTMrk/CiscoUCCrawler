@@ -10,7 +10,7 @@ tags: Journey - Customer Identification API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.619161+00:00
+retrieved_at: 2026-09-30T19:48:25.369740+00:00
 ---
 
 # PATCH /admin/v1/api/person/add-identities/workspace-id/{workspaceId}/person-id/{personId}
@@ -58,6 +58,7 @@ curl -X PATCH '/admin/v1/api/person/add-identities/workspace-id/<workspaceId>/pe
   - `email` (array): Email
   - `temporaryId` (array): Temporary Id
   - `customerId` (array): Customer Id
+  - `socialId` (array): Social Id
   - `aliases` (array): Aliases
 
 ## Respuestas de error

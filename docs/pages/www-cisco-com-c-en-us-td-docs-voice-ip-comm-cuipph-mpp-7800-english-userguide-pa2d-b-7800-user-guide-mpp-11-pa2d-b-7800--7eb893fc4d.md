@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-userguide-pa2d-b-7800-user-guide-mpp-11-pa2d-b-7800--7eb893fc4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/userguide/pa2d_b_7800-user-guide-mpp-11/pa2d_b_7800-user-guide-mpp-11_chapter_01.html
-retrieved_at: 2026-08-21T02:23:11.985115+00:00
+retrieved_at: 2026-09-30T19:52:23.471400+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones User Guide
@@ -1542,3 +1542,9 @@ You can enter preferred emergency escalation number, or you can leave it empty i
 |---|---|
 | Step 2 | In the Emergency Escalation window, click OK . You can enter preferred emergency escalation number, or you can leave it empty if you do not have any supervisor preference.
                                              You will not see any emergency escalation number. |
+
+## Figuras
+
+![Figure 1. Call Park in Call Park Extensions](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446810.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

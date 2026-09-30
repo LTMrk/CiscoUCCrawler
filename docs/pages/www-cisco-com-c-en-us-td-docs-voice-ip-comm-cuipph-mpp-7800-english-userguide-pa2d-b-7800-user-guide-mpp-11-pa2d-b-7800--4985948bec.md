@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-userguide-pa2d-b-7800-user-guide-mpp-11-pa2d-b-7800--4985948bec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/userguide/pa2d_b_7800-user-guide-mpp-11/pa2d_b_7800-user-guide-mpp-11_chapter_01001.html
-retrieved_at: 2026-08-21T02:23:19.921978+00:00
+retrieved_at: 2026-09-30T19:52:31.171468+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones User Guide
@@ -461,3 +461,7 @@ Press OK .
 | Step 3 | Select All calls . |
 | Step 4 | Press Option and select Delete all . |
 | Step 5 | Press OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

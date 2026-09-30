@@ -1,7 +1,9 @@
 {
-  "run_at": "2026-09-30T19:37:50.949988+00:00",
+  "run_at": "2026-09-30T19:48:25.395623+00:00",
   "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": []
+  "specs_cambiados": [
+    "webex-contact-center.json"
+  ]
 }

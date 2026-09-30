@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-adminguide-administration-pa2d-b-7800-mpp-ag-11-pa2d-e442b38fac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/adminguide/administration/pa2d_b_7800-mpp-ag-11/pa2d_b_7800-mpp-ag-11_chapter_01010.html
-retrieved_at: 2026-09-01T15:41:27.535822+00:00
+retrieved_at: 2026-09-30T19:51:07.255342+00:00
 ---
 
 Cisco IP Phone 7800 Series Multiplatform Phones Administration Guide
@@ -1398,3 +1398,7 @@ Click Submit All Changes .
                                                 application, the button connects to the URL configured above. If this is not what you want, you need to enter a different
                                                 URL when you configure the line button. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

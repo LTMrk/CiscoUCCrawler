@@ -10,7 +10,7 @@ tags: Auto CSAT
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:20.468860+00:00
+retrieved_at: 2026-09-30T19:48:25.182827+00:00
 ---
 
 # GET /organization/{orgid}/v2/auto-csat/{autoCsatId}/question

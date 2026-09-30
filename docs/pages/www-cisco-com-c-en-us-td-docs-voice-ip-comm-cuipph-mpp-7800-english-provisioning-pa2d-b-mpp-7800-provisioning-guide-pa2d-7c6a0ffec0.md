@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7800-english-provisioning-pa2d-b-mpp-7800-provisioning-guide-pa2d-7c6a0ffec0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7800/english/provisioning/pa2d_b_mpp-7800-provisioning-guide/pa2d_b_mpp-7800-provisioning-guide_chapter_01.html
-retrieved_at: 2026-08-21T02:20:38.662412+00:00
+retrieved_at: 2026-09-30T19:52:01.877118+00:00
 ---
 
 Cisco IP Phone 7800 Series and Cisco IP Conference Phone 7832 Multiplatform Phones Provisioning Guide
@@ -1361,3 +1361,7 @@ http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath
 
 | To upgrade the phone with a URL in a web browser, enter this command: http://<phone_ip>/admin/upgrade?<schema>://<serv_ip[:port]>/filepath |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
