@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-c4ca5fead5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_010001.html
-retrieved_at: 2026-08-21T23:16:34.314734+00:00
+retrieved_at: 2026-09-30T19:43:01.006614+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -422,3 +422,7 @@ In this file, tags Reboot_Reason_1 to Reboot_Reason_3 store the reboot history, 
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

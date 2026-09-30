@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-4159c76e4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_01000.html
-retrieved_at: 2026-08-21T02:11:07.735250+00:00
+retrieved_at: 2026-09-30T19:39:08.129151+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -67,3 +67,7 @@ Press Close , then press Exit .
 | Step 2 | Select Running applications . |
 | Step 3 | Select a running application and press Close app to close the application. |
 | Step 4 | Press Close , then press Exit . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

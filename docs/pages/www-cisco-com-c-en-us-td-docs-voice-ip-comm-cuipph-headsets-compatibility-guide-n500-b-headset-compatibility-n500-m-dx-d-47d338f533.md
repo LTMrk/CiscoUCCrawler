@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-dx-d-47d338f533
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_dx-devices.html
-retrieved_at: 2026-08-21T09:50:22.913790+00:00
+retrieved_at: 2026-09-30T19:41:32.964908+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -1935,3 +1935,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaborat
 | Log Collection | No |
 | Inventory | Yes (USB cable only) |
 | Headset Metrics | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

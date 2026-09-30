@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-66b5310bdc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_010.html
-retrieved_at: 2026-08-17T01:05:20.894930+00:00
+retrieved_at: 2026-09-30T19:44:45.575647+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -1619,3 +1619,7 @@ XML Directory
 | Step 3 | Select Personal address book . |
 | Step 4 | Search for the contact that you want to remove. |
 | Step 5 | Highlight the address entry of the contact and press Option > Delete to delete the entry. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

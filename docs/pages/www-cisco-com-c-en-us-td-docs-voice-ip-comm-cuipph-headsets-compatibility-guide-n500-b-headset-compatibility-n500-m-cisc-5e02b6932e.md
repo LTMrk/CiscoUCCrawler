@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-cisc-5e02b6932e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500-m-cisco-ip-phone-7800-series-with-multiplatform-firmware.html
-retrieved_at: 2026-08-21T09:49:57.107931+00:00
+retrieved_at: 2026-09-30T19:40:40.526413+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -424,3 +424,7 @@ http://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-7800-serie
 | Adjust equalizer | No |
 | Reset settings | No |
 | Headset upgrades | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

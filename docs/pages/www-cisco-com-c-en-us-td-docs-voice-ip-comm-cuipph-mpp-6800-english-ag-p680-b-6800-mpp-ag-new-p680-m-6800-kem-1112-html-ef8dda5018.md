@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-m-6800-kem-1112-html-ef8dda5018
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_m_6800-kem-1112.html
-retrieved_at: 2026-08-21T23:16:19.495437+00:00
+retrieved_at: 2026-09-30T19:44:01.950109+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -509,3 +509,7 @@ sub=group_vm@domain;vid=1;nme=Group;</Unit_1_Key_1_> |
 | Step 2 | Go to the Unit (n) section, where n is unit number of the key expansion module. |
 | Step 3 | Configure the Unit n Key m field, where n is unit number of the key expansion module, and m is the key number. fnc=inert; where fnc=inert means function=inert. You can also configure the parameter in the configuration file (cfg.xml) with a string in this format: <Unit_n_Key_m_ ua="na">fnc=inert;</Unit_n_Key_m_> where n is the unit number of the key expansion module, and m is the key number. |
 | Step 4 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

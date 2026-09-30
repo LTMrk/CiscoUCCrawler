@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-a46612bd3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_00.html
-retrieved_at: 2026-08-21T02:10:47.660669+00:00
+retrieved_at: 2026-09-30T19:38:56.246982+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -1266,3 +1266,59 @@ Your formal Warranty Statement, including the warranties and license agreements 
 | Step 3 | Enter the date and time that you experienced the problem in the Date of problem and Time of problem fields. |
 | Step 4 | Select Problem description . |
 | Step 5 | Select a description from the displayed list, then press Submit . |
+
+## Figuras
+
+![Figure 1. Cisco IP Conference Phone 8832](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/420001-421000/420636.jpg)
+
+![Cisco IP Conference Phone 8832 PoE Injector with PoE power](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393676.eps/_jcr_content/renditions/393676.jpg)
+
+![Cisco IP Conference Phone 8832 Non-PoE Ethernet Injector with Ethernet power](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393705.eps/_jcr_content/renditions/393705.jpg)
+
+![Figure 4. Wi-Fi Network Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393621.eps/_jcr_content/renditions/393621.jpg)
+
+![Figure 5. Wired Expansion Microphone Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393725.eps/_jcr_content/renditions/393725.jpg)
+
+![Figure 6. Wireless Microphone Charging Cradle Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393724.eps/_jcr_content/renditions/393724.jpg)
+
+![Figure 7. Smart Adapter Power Port and LAN Port](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393766.eps/_jcr_content/renditions/393766.jpg)
+
+![Figure 10. Conference Phone Installation in Daisy Chain Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393700.eps/_jcr_content/renditions/393700.jpg)
+
+![Figure 11. Cisco IP Conference Phone 8832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393603.eps/_jcr_content/renditions/393603.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393618.tif/_jcr_content/renditions/393618.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393617.tif/_jcr_content/renditions/393617.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393616.tif/_jcr_content/renditions/393616.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393615.tif/_jcr_content/renditions/393615.jpg)
+
+![handset with left arrow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393210.tif/_jcr_content/renditions/393210.jpg)
+
+![handset with right arrow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393211.tif/_jcr_content/renditions/393211.jpg)
+
+![handset with left arrow over the top](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/444001-445000/444297.eps/_jcr_content/renditions/444297.jpg)
+
+![wi-fi icon with 4 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393180.tif/_jcr_content/renditions/393180.jpg)
+
+![wi-fi icon with 3 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393183.tif/_jcr_content/renditions/393183.jpg)
+
+![wi-fi icon with 2 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393182.tif/_jcr_content/renditions/393182.jpg)
+
+![wi-fi icon with 1 active bar](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393181.tif/_jcr_content/renditions/393181.jpg)
+
+![wi-fi icon with no active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393184.tif/_jcr_content/renditions/393184.jpg)
+
+![Figure 12. Wired Expansion Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393622.eps/_jcr_content/renditions/393622.jpg)
+
+![Figure 13. Wireless Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393702.jpg)
+
+![Figure 14. Wireless Microphone Mounted on the Charging Cradle](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393701.jpg)
+
+![Figure 15. Hearing-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393604.eps/_jcr_content/renditions/393604.jpg)
+
+![Figure 16. Vision-Impaired and Blind Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393605.eps/_jcr_content/renditions/393605.jpg)
+
+![Figure 17. Mobility-Impaired Accessibility Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393606.eps/_jcr_content/renditions/393606.jpg)

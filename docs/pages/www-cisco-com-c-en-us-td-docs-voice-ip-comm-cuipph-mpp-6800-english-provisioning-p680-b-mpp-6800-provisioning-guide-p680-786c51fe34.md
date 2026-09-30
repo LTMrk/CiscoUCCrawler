@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-provisioning-p680-b-mpp-6800-provisioning-guide-p680-786c51fe34
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0110.html
-retrieved_at: 2026-08-21T02:14:30.520877+00:00
+retrieved_at: 2026-09-30T19:44:10.471576+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Provisioning Guide
@@ -618,3 +618,7 @@ Extensible Markup Language
 | VQ | Voice Quality |
 | WAN | Wide Area Network |
 | XML | Extensible Markup Language |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

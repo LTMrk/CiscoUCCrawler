@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-56b2dc8d55
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_011.html
-retrieved_at: 2026-08-21T02:14:43.502593+00:00
+retrieved_at: 2026-09-30T19:44:53.485021+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -479,3 +479,7 @@ Press OK .
 | Step 3 | Select All calls . |
 | Step 4 | Press Option and select Delete all . |
 | Step 5 | Press OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

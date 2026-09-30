@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-ip-p-c1f6fbe74f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_ip-phone-800.html
-retrieved_at: 2026-08-21T09:50:26.430424+00:00
+retrieved_at: 2026-09-30T19:41:40.952617+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -749,3 +749,7 @@ You can also access the Cisco Wireless Phone 840 and 860 Deployment Guide from t
 | Log Collection | N/A | No |
 | Inventory | N/A | No |
 | Headset Metrics | N/A | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

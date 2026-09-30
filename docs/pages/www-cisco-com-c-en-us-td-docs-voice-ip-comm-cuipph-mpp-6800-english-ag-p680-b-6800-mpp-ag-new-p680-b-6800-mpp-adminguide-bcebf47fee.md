@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-bcebf47fee
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_0111.html
-retrieved_at: 2026-08-21T23:15:40.680115+00:00
+retrieved_at: 2026-09-30T19:43:47.436370+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -334,3 +334,7 @@ $file_put_contents($file, $report_data);
 | Caution | If you need to use the [--delta]xml-delta file rule and the [--status]xml-status file rule together, you must separate the
                                                       two rules with a space . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

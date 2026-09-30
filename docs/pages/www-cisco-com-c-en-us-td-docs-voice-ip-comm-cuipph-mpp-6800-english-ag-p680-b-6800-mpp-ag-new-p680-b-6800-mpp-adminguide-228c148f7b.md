@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-228c148f7b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_00.html
-retrieved_at: 2026-08-21T23:15:11.008931+00:00
+retrieved_at: 2026-09-30T19:42:35.591671+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -517,3 +517,17 @@ Configuration Utility
 | Message Indicators | Message Waiting Indicator (MWI) or Message Waiting Lamp |
 | Voicemail System | Voice Messaging System |
 | Phone Web Page | Configuration Utility |
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 6800 Series Multiplatform Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394279.tif/_jcr_content/renditions/394279.jpg)
+
+![Figure 2. Cisco IP Phone 6821 Multiplatform Phones Connections](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393816.eps/_jcr_content/renditions/393816.jpg)
+
+![Figure 3. Cisco IP Phone 6821 Multiplatform Phones](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393811.eps/_jcr_content/renditions/393811.jpg)
+
+![Figure 4. Cisco IP Phone 6841, 6851, and 6861 Multiplatform Phones Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393655.eps/_jcr_content/renditions/393655.jpg)
+
+![Figure 5. Cisco IP Phone 6871 Multiplatform Phones Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394211.eps/_jcr_content/renditions/394211.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

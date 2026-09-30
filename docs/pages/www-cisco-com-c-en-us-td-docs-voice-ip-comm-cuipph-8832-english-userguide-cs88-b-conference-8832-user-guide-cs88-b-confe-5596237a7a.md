@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-5596237a7a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_0110.html
-retrieved_at: 2026-08-21T02:11:03.656039+00:00
+retrieved_at: 2026-09-30T19:39:16.724986+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -59,3 +59,7 @@ Your phone can display text in many languages. Your administrator sets the langu
 
 | Press Volume up or down to adjust the volume while you are on a call. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

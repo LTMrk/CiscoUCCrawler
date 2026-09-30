@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-2-3-p680-b-11-2-3-html-f35a389a4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-2-3/p680_b_11_2_3.html
-retrieved_at: 2026-08-21T23:14:16.779038+00:00
+retrieved_at: 2026-09-30T19:45:44.242730+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Release Notes for Firmware Release 11.2(3)
@@ -482,3 +482,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) For information about a specific caveat, enter the bug ID number ( CSCxxnnnnn ) in the Search for field, and press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

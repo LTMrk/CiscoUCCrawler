@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-4d5bb33d8a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_011.html
-retrieved_at: 2026-08-21T23:15:24.708906+00:00
+retrieved_at: 2026-09-30T19:43:31.240157+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -1638,3 +1638,9 @@ print “</GPP_D></flat-profile>”; |
 
 | Caution | Do not change the headset XML file contents. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

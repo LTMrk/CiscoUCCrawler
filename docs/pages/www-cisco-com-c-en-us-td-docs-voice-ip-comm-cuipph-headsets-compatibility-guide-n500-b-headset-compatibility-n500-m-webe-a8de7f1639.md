@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-webe-a8de7f1639
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_webex-meetings.html
-retrieved_at: 2026-08-21T09:50:43.303119+00:00
+retrieved_at: 2026-09-30T19:41:58.075614+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -1263,3 +1263,7 @@ https://help.webex.com/
 | Log Collection | No |
 | Inventory | No |
 | Headset Metrics | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

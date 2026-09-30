@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--8945383ca9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0100.html
-retrieved_at: 2026-09-07T12:39:44.325204+00:00
+retrieved_at: 2026-09-30T19:42:10.539653+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -545,10 +545,6 @@ Push the new ear pad toward the speaker.
 
 Rotate the new ear pad clockwise.
 
-### Customers Also Viewed
-
-- Cisco Headset Compatibility Guide --- Cisco IP Phone 7800 Series
-
 | Note | If the headset does not have the most recent software load, the headset will begin to update. |
 |---|---|
 
@@ -650,3 +646,19 @@ Rotate the new ear pad clockwise.
 | Step 2 | Pull the old ear pad away from the speaker. |
 | Step 3 | Push the new ear pad toward the speaker. |
 | Step 4 | Rotate the new ear pad clockwise. |
+
+## Figuras
+
+![the call button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393941.eps/_jcr_content/renditions/393941.jpg)
+
+![Cisco Headset 531 and 532 controller](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425654.eps/_jcr_content/renditions/425654.jpg)
+
+![Cisco Headset 561 and 562 mute button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393933.tif/_jcr_content/renditions/393933.jpg)
+
+![Mobile Phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393998.tif/_jcr_content/renditions/393998.jpg)
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428033.jpg)
+
+![Applications button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371845.jpg)
+
+![applications icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371845.jpg)

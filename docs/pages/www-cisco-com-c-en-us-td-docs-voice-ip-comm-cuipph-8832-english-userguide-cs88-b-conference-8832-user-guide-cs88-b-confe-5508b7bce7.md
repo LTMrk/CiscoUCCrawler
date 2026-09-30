@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-5508b7bce7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_010.html
-retrieved_at: 2026-08-21T02:10:55.514103+00:00
+retrieved_at: 2026-09-30T19:39:04.231397+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -250,3 +250,7 @@ For more information, see the "Cisco Web Dialer" document in https://www.cisco.c
 | Step 3 | Select Personal Fast Dials and search for a fast-dial code. |
 | Step 4 | Select the required code and press Remove . |
 | Step 5 | Select the index and press Remove . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-3226c6bc6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0110.html
-retrieved_at: 2026-08-21T02:14:52.961396+00:00
+retrieved_at: 2026-09-30T19:44:58.565359+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -2105,3 +2105,29 @@ Return the handset to the handset rest.
 | Step 4 | Line up the tab with the slot in the cradle and press the tab evenly into the slot. An extension protrudes from the top of
                                           the rotated tab. |
 | Step 5 | Return the handset to the handset rest. |
+
+## Figuras
+
+![Figure 1. Cisco Headset 521 and 522 Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.eps/_jcr_content/renditions/393936.jpg)
+
+![Figure 2. Cisco Headset USB Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393987.eps/_jcr_content/renditions/393987.jpg)
+
+![Figure 3. Cisco Headset 561 and 562 Headset Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![Figure 4. Standard Headset Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393116.eps/_jcr_content/renditions/393116.jpg)
+
+![Figure 5. Cisco IP Phone 6800 Series Multiplatform Phones Wall Mount Kit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393678.eps/_jcr_content/renditions/393678.jpg)
+
+![Figure 6. Leviton Wall Mount Plate](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253654.eps/_jcr_content/renditions/253654.jpg)
+
+![Figure 7. RJ45 Connector in the Phone Jack](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393817.eps/_jcr_content/renditions/393817.jpg)
+
+![Figure 8. RJ45 Connector in the Wall Mount Jack](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393818.eps/_jcr_content/renditions/393818.jpg)
+
+![Figure 9. Mounting Holes](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393819.eps/_jcr_content/renditions/393819.jpg)
+
+![Figure 10. Sliding the IP Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393820.eps/_jcr_content/renditions/393820.jpg)
+
+![Figure 11. Adjust the Handset Rest](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

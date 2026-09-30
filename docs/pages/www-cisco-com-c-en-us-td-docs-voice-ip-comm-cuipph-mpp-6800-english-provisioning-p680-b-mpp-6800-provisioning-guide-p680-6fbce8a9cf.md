@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-provisioning-p680-b-mpp-6800-provisioning-guide-p680-6fbce8a9cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_010.html
-retrieved_at: 2026-08-21T02:14:14.258311+00:00
+retrieved_at: 2026-09-30T19:44:23.212901+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Provisioning Guide
@@ -461,3 +461,7 @@ Log_Failure_Msg
 
 | Note | This product includes the Cisco IP Phone 6800 Series Multiplatform Phones. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

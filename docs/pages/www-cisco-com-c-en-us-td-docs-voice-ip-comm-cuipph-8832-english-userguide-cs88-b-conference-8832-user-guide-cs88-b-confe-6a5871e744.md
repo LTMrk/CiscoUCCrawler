@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-6a5871e744
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_011.html
-retrieved_at: 2026-08-21T02:10:59.685854+00:00
+retrieved_at: 2026-09-30T19:39:12.510711+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -90,3 +90,7 @@ Press Delete again to confirm.
 | Step 2 | Highlight the individual record or call group that you want to delete. |
 | Step 3 | Press Delete . |
 | Step 4 | Press Delete again to confirm. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

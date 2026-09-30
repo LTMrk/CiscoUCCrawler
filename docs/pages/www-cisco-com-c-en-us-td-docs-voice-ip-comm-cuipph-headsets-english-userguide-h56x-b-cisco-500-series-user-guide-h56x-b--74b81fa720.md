@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--74b81fa720
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_00.html
-retrieved_at: 2026-08-21T12:40:28.910866+00:00
+retrieved_at: 2026-09-30T19:42:06.198915+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -918,3 +918,37 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaborat
 | Updated for new headset settings in Cisco Jabber | Adjust Your Equalizer Settings in Cisco Jabber Adjust Your Sidetone in Cisco Jabber |
 | Reset Cisco Headset Settings to the Administration settings | Reset Cisco Headset Settings from Your Phone |
 | Webex Teams Call Support | Cisco Headset 520 Series Cisco Headset 530 Series Cisco Headset 560 Series Webex Headset Customization |
+
+## Figuras
+
+![Figure 1. Cisco Headset 520 Series Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.eps/_jcr_content/renditions/393936.jpg)
+
+![Figure 2. Cisco Headset 530 Series Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393906.eps/_jcr_content/renditions/393906.jpg)
+
+![Cisco Headset 530 Series Trainer Cable](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/437001-438000/437076.jpg)
+
+![Figure 3. Cisco Headset 561 and 562 Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![the call button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393941.eps/_jcr_content/renditions/393941.jpg)
+
+![the mute button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393942.eps/_jcr_content/renditions/393942.jpg)
+
+![the volume controls](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393943.eps/_jcr_content/renditions/393943.jpg)
+
+![Figure 4. Standard Base LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393905.eps/_jcr_content/renditions/393905.jpg)
+
+![Figure 5. Multibase LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393996.eps/_jcr_content/renditions/393996.jpg)
+
+![Desk Phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393997.tif/_jcr_content/renditions/393997.jpg)
+
+![USB to USB or Y-Cable connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393945.eps/_jcr_content/renditions/393945.jpg)
+
+![Laptop icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393999.tif/_jcr_content/renditions/393999.jpg)
+
+![Mini-USB connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393944.eps/_jcr_content/renditions/393944.jpg)
+
+![Mobile Phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393998.tif/_jcr_content/renditions/393998.jpg)
+
+![Bluetooth connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393177.tif/_jcr_content/renditions/393177.jpg)
+
+![Figure 6. Multibase Conferencing LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394041.eps/_jcr_content/renditions/394041.jpg)

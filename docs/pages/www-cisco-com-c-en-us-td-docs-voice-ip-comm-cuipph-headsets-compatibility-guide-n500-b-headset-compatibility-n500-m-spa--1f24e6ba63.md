@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-spa--1f24e6ba63
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_spa-series-phone.html
-retrieved_at: 2026-08-21T09:50:17.808197+00:00
+retrieved_at: 2026-09-30T19:41:48.612605+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -51,3 +51,7 @@ The Bang & Olufsen Cisco 950 isn't compatible with the Cisco Small Business SPA3
 ## Bang & Olufsen Cisco 980
 
 The Bang & Olufsen Cisco 980 isn't compatible with the Cisco Small Business SPA300 Series or Cisco Small Business SPA500 Series IP Phones.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

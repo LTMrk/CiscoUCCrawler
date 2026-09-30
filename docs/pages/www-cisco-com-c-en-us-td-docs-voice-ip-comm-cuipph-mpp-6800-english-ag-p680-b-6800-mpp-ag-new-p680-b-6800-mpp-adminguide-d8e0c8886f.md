@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-d8e0c8886f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01010.html
-retrieved_at: 2026-08-21T23:15:57.831272+00:00
+retrieved_at: 2026-09-30T19:43:21.418414+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -501,3 +501,7 @@ Telecom Use the + character to add spaces for formatting. You can add multiple +
                                           in the Peripheral-Data header. All subsequent Registers do not carry peripheral information. The Peripheral-Data header is
                                           included for each peripheral, for example, if there are two headsets present, the header appears twice. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

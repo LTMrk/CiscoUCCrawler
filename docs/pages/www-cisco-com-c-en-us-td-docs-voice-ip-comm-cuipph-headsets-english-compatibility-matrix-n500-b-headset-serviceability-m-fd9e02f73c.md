@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-compatibility-matrix-n500-b-headset-serviceability-m-fd9e02f73c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/compatibility_matrix/n500_b_headset-serviceability-matrix.html
-retrieved_at: 2026-08-21T12:41:36.164054+00:00
+retrieved_at: 2026-09-30T19:42:01.547149+00:00
 ---
 
 Cisco Headset Serviceability Matrix
@@ -288,3 +288,7 @@ Cisco Headset 500 Series Administration Guide
 | Local configuration reset | — | — | — | — | X | X |
 | Local UI configuration | — | — | X | X | X | X |
 | Local headset version display | — | — | — | — | X | X |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

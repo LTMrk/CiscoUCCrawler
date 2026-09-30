@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-provisioning-p680-b-mpp-6800-provisioning-guide-p680-63c729fbef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_appendix_0101.html
-retrieved_at: 2026-08-21T02:14:26.538417+00:00
+retrieved_at: 2026-09-30T19:44:05.960731+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Provisioning Guide
@@ -1410,3 +1410,7 @@ hold|1;endcall|2;join|4;phold;crdstart|5;crdpause|5;crdresume|5;crdstop|6;dnd;
  <!--  <BACKUP_ACS_Password ua="na"/>  -->
 </flat-profile>
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

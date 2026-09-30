@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--022470316f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_0110.html
-retrieved_at: 2026-08-21T13:36:59.414236+00:00
+retrieved_at: 2026-09-30T19:38:37.803527+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -201,3 +201,7 @@ Restart your phones.
 | Step 5 | Set Always Use Dial Tone to one of the following: Outside Inside Default |
 | Step 6 | Select Save . |
 | Step 7 | Restart your phones. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

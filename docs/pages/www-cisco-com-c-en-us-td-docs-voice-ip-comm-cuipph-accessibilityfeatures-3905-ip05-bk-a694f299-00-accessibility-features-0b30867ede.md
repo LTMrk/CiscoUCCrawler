@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-accessibilityfeatures-3905-ip05-bk-a694f299-00-accessibility-features-0b30867ede
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/3905/IP05_BK_A694F299_00_accessibility-features-3905.html
-retrieved_at: 2026-08-21T06:25:31.260709+00:00
+retrieved_at: 2026-09-30T19:40:27.732993+00:00
 ---
 
 Accessibility Features for the Cisco Unified SIP Phone 3905
@@ -502,3 +502,16 @@ For more information about third-party applications, contact your administrator.
                                  button, call log, or directory listing on the phone. In addition, you can use BLF pickup to monitor incoming calls on a directory number. When the DN receives an incoming call, the system alerts the you so that you can then pick up the call. | Standard on all Cisco IP Phones; configuration is required. |
 | Phone support pages: User Options web pages (Cisco Unified CM 9.1 and earlier) Self Care Portal (Cisco Unified CM 10.0 and later) | The Cisco IP Phone is a network device that enables you to do the following actions: Share information with other network devices in your company, including your personal computer. Use your computer to log in to your phone support pages, where you can subscribe to services, set up speed dial and call forwarding
                                        numbers, configure ring settings, and create a personal address book. | Standard on all Cisco IP Phones; configuration is required. |
+
+## Figuras
+
+![Figure 1. Hearing-Impaired Features of the Cisco Unified SIP Phone
+                        			 3905](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/310001-311000/310313.eps/_jcr_content/renditions/310313.jpg)
+
+![Figure 2. Vision-Impaired and Blind Accessibility Features of the Cisco
+                        			 Unified SIP Phone 3905](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/310001-311000/310314.eps/_jcr_content/renditions/310314.jpg)
+
+![Figure 3. Mobility-Impaired Features of the Cisco Unified SIP Phone
+                        			 3905](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/310001-320000/310001-311000/310315.eps/_jcr_content/renditions/310315.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

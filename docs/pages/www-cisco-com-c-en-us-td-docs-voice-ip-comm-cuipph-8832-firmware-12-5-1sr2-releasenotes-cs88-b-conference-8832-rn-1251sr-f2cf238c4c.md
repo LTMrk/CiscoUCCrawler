@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-firmware-12-5-1sr2-releasenotes-cs88-b-conference-8832-rn-1251sr-f2cf238c4c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/12-5-1SR2/releasenotes/cs88_b_conference-8832-rn-1251sr2.html
-retrieved_at: 2026-08-21T13:28:52.359763+00:00
+retrieved_at: 2026-09-30T19:39:33.266074+00:00
 ---
 
 Cisco IP Conference Phone 8832 Release Notes for Firmware Release 12.5(1)SR2
@@ -589,3 +589,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

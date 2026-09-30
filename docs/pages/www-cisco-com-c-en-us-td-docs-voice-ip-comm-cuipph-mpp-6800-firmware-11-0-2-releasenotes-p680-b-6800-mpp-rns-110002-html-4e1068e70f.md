@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-0-2-releasenotes-p680-b-6800-mpp-rns-110002-html-4e1068e70f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11-0-2/releasenotes/p680_b_6800-mpp-rns-110002.html
-retrieved_at: 2026-09-07T12:39:22.560798+00:00
+retrieved_at: 2026-09-30T19:45:10.361499+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Release Notes for Firmware Release 11.0(2)
@@ -264,3 +264,9 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 
 | Note | A registered cisco.com user ID is required to access this information online. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco IP Phone 6800 Series Multiplatform Phones](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422258.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

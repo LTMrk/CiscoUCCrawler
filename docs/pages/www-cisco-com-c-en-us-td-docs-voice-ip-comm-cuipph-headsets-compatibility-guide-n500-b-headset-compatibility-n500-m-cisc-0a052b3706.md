@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-compatibility-guide-n500-b-headset-compatibility-n500-m-cisc-0a052b3706
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/Compatibility_Guide/n500_b_headset-compatibility/n500_m_cisco-wireless-phone-9821.html
-retrieved_at: 2026-08-21T23:07:49.882895+00:00
+retrieved_at: 2026-09-30T19:41:19.670114+00:00
 ---
 
 Cisco Headset Compatibility Guide
@@ -714,3 +714,7 @@ https://cisco.com/go/wp9821help
 | Log Collection | No |
 | Inventory | No |
 | Headset Metrics | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

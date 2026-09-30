@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--80aeea3ef5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_01100.html
-retrieved_at: 2026-08-21T13:37:24.397526+00:00
+retrieved_at: 2026-09-30T19:38:42.101574+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -66,3 +66,7 @@ For example, the phone screen will show text in Korean, but the 2 key on the key
                                           			 Locale Installer may not be immediately available; continue to check the
                                           			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

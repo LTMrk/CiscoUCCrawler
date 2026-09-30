@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-firmware-14-0-1sr2-cs88-b-cisco-ip-phone-8832-release-html-bfa7100086
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14-0-1SR2/cs88_b_cisco-ip-phone-8832-release.html
-retrieved_at: 2026-08-21T13:28:18.356624+00:00
+retrieved_at: 2026-09-30T19:40:02.591464+00:00
 ---
 
 Cisco IP Phone 8832 Release Notes for Firmware Release 14.0(1)SR2
@@ -385,3 +385,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

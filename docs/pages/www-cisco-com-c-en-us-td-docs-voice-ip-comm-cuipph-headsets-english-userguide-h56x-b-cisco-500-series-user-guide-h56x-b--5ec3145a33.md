@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--5ec3145a33
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0110.html
-retrieved_at: 2026-08-22T00:54:10.017510+00:00
+retrieved_at: 2026-09-30T19:42:23.190026+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -276,3 +276,19 @@ Firmware version 1-6-0-150 or later
 | Cisco Headset 530 Series | Headset Firmware 2.3(1) or later |
 | Cisco Headset 560 Series | Headset Firmware 2.1(1) or later |
 | Cisco Headset 730 | Firmware version 1-6-0-150 or later |
+
+## Figuras
+
+![the call button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425658.eps/_jcr_content/renditions/425658.jpg)
+
+![down](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425661.eps/_jcr_content/renditions/425661.jpg)
+
+![the mute button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425656.eps/_jcr_content/renditions/425656.jpg)
+
+![the call button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393941.eps/_jcr_content/renditions/393941.jpg)
+
+![the volume controls](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393943.eps/_jcr_content/renditions/393943.jpg)
+
+![the mute button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393942.eps/_jcr_content/renditions/393942.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

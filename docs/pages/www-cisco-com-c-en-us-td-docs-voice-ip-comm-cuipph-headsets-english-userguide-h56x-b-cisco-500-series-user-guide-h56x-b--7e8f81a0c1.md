@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-headsets-english-userguide-h56x-b-cisco-500-series-user-guide-h56x-b--7e8f81a0c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/Headsets/English/userguide/h56x_b_cisco-500-series-user-guide/h56x_b_cisco-500-series-user-guide_chapter_0101.html
-retrieved_at: 2026-08-22T00:54:14.316389+00:00
+retrieved_at: 2026-09-30T19:42:14.440629+00:00
 ---
 
 Cisco Headset 500 Series User Guide
@@ -111,3 +111,11 @@ Le périphérique a été testé et déclaré conforme aux réglementations appl
                                                 or modification to said product not expressly approved by Cisco, including the use of non-Cisco antennas, could void the user’s
                                                 authority to operate this device. |
 |---|---|
+
+## Figuras
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

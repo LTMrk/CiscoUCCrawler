@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-4f25cf8796
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01011.html
-retrieved_at: 2026-08-21T23:16:03.395219+00:00
+retrieved_at: 2026-09-30T19:43:26.918261+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -2947,3 +2947,7 @@ vid=<extension_n_to_be_associated> The PSK softkey toggle always starts with the
 | divert | Divert | Only available to executive assistants. Activates call diversion for the user (assistant). All incoming calls to the user,
                                              for executives that the user handles, are diverted to the specified destination. | Available when you navigate the menu Settings > Assistant . It is also available when you press the line key that is configured as Assistant . |
 | proxycall | Proxy call | Only available to executive assistants. Initiates a call on behalf of the selected executive. | Available when you navigate the menu Settings > Assistant . It is also available when you press the line key that is configured as Assistant . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

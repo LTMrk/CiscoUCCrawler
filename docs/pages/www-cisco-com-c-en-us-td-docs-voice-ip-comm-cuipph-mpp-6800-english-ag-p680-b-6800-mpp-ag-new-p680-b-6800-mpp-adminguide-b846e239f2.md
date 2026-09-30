@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-ag-p680-b-6800-mpp-ag-new-p680-b-6800-mpp-adminguide-b846e239f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/AG/p680_b_6800-mpp-ag_new/p680_b_6800-mpp-adminguide_chapter_01111.html
-retrieved_at: 2026-08-21T23:16:26.497468+00:00
+retrieved_at: 2026-09-30T19:43:58.358363+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -5967,3 +5967,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-6800-seri
 | Important | If you change any of the service activation codes used by executives or assistants, you must update the corresponding settings
                                                          in BroadWorks. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

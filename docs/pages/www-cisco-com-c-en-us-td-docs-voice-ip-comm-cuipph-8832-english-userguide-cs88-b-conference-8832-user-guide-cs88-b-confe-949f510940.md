@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-userguide-cs88-b-conference-8832-user-guide-cs88-b-confe-949f510940
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/userguide/cs88_b_conference-8832-user-guide/cs88_b_conference-8832-user-guide_chapter_0111.html
-retrieved_at: 2026-08-21T02:11:11.947298+00:00
+retrieved_at: 2026-09-30T19:39:20.739087+00:00
 ---
 
 Cisco IP Conference Phone 8832 User Guide
@@ -124,3 +124,9 @@ The End User License Agreement (EULA) is located here: https://www.cisco.com/go/
 ### Regulatory Compliance and Safety Information
 
 Regulatory Compliance and Safety Information (RCSI) is located here:
+
+## Figuras
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

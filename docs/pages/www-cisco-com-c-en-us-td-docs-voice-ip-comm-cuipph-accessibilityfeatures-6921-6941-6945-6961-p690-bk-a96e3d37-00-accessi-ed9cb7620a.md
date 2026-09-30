@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-accessibilityfeatures-6921-6941-6945-6961-p690-bk-a96e3d37-00-accessi-ed9cb7620a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/AccessibilityFeatures/6921-6941-6945-6961/P690_BK_A96E3D37_00_accessibility-features-6921_41_45_61.html
-retrieved_at: 2026-08-21T06:24:35.619528+00:00
+retrieved_at: 2026-09-30T19:40:36.348735+00:00
 ---
 
 Accessibility Features for the Cisco Unified IP Phone 6921, 6941, 6945, and 6961
@@ -797,3 +797,7 @@ For more information about third-party applications, contact your administrator.
 							 services, set up speed dial and call forwarding numbers, configure ring
 							 settings, and create a personal address book. | Standard
 						on all Cisco IP Phones; configuration is required. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

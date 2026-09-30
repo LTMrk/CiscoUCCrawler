@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--c569655a15
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_0101.html
-retrieved_at: 2026-08-21T13:36:55.362766+00:00
+retrieved_at: 2026-09-30T19:38:21.630595+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -1424,3 +1424,7 @@ Disabled—If the switch does not support multidomain authentication, disable th
                                                    Server check box to activate the SCEP parameter. |
 | Step 5 | Check the WLAN Root CA Fingerprint
                                                    (SHA256 or SHA1) check box to activate the SCEP QED parameter. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

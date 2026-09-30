@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-60c710a6aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_01.html
-retrieved_at: 2026-08-21T02:14:39.952269+00:00
+retrieved_at: 2026-09-30T19:44:40.975012+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -1608,3 +1608,7 @@ The number of calls that you can initiate in parallel on behalf of executives is
 |---|---|
 | Step 2 | When you are prompted to enter the destination number, dial the appropriate service activation code provided by your administrator,
                                           for joining or transferring a call to yourself. |
+
+## Figuras
+
+![Figure 1. Call Park in Call Park Extensions](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446810.jpg)

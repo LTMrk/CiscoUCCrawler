@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-firmware-14-2-1sr1-cisco-ip-conference-phone-8832-release-notes--e43498804a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/firmware/14_2_1SR1/Cisco-IP-Conference-Phone-8832-Release-Notes-for-Firmware-14-2-1SR1.html
-retrieved_at: 2026-08-21T13:28:01.207075+00:00
+retrieved_at: 2026-09-30T19:40:10.666306+00:00
 ---
 
 Cisco IP Conference Phone 8832 Release Notes for Firmware Release 14.2(1)SR1
@@ -83,3 +83,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=284729655&r
 Cisco IP Phone Firmware Support Policy
 
 For information on the support policy for phones, see https://cisco.com/go/phonefirmwaresupport .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

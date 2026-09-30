@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-provisioning-p680-b-mpp-6800-provisioning-guide-p680-ebd89c15b2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/provisioning/p680_b_mpp-6800-provisioning-guide/p680_b_mpp-6800-provisioning-guide_chapter_0111.html
-retrieved_at: 2026-08-21T02:14:06.172727+00:00
+retrieved_at: 2026-09-30T19:44:36.480922+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones Provisioning Guide
@@ -625,3 +625,9 @@ Save the changes to the cfg.xml file.
 |---|---|
 | Step 2 | Insert the <User_Password> tag using one of these options. No password (start and end tag) – <User_Password></User_Password> Password value (4 to 127 characters) – <User_Password ua="rw">Abc123</User_Password> No password (start tag only) – <User_Password /> |
 | Step 3 | Save the changes to the cfg.xml file. |
+
+## Figuras
+
+![Figure 1. Retail Distribution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393515.eps/_jcr_content/renditions/393515.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

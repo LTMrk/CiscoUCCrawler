@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--ea0730a6cd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_01101.html
-retrieved_at: 2026-08-21T13:36:33.767685+00:00
+retrieved_at: 2026-09-30T19:38:46.581918+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -275,3 +275,7 @@ Call Statistics Fields
 | Support for Mobile and Remote Access Through Expressway | Mobile and Remote Access Through Expressway Deployment Scenarios Configure User Credentials Persistent for Expressway Sign-In |
 | Support for enabling or disabling TLS 1.2 for web server access. | Product Specific Configuration |
 | Support for G722.2 AMR-WB audio codec | Cisco IP Conference Phone 8832 Call Statistics Fields |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

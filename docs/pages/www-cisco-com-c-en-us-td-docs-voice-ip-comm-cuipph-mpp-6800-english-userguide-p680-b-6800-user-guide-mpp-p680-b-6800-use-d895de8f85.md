@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-english-userguide-p680-b-6800-user-guide-mpp-p680-b-6800-use-d895de8f85
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/english/userguide/p680_b_6800-user-guide-mpp/p680_b_6800-user-guide-mpp_chapter_0111.html
-retrieved_at: 2026-08-21T02:14:56.788211+00:00
+retrieved_at: 2026-09-30T19:45:02.099262+00:00
 ---
 
 Cisco IP Phone 6800 Series Multiplatform Phones User Guide
@@ -376,3 +376,25 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800-DECT/RCS
 | 6851 | 00261-18-01086 |
 | 6861 | Not approved |
 | 6871 | 07648-19-01086 |
+
+## Figuras
+
+![EnergyStar logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394262.tif/_jcr_content/renditions/394262.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Cisco IP Phone 6821 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393919.tif/_jcr_content/renditions/393919.jpg)
+
+![Cisco IP Phone 6841 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393921.tif/_jcr_content/renditions/393921.jpg)
+
+![Cisco IP Phone 6851 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393920.tif/_jcr_content/renditions/393920.jpg)
+
+![Cisco IP Phone 6861 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394135.tif/_jcr_content/renditions/394135.jpg)
+
+![Cisco IP Phone 6871 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394278.tif/_jcr_content/renditions/394278.jpg)
+
+![Warnings in Chinese](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/435001-436000/435060.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-6800-firmware-11-3-1sr4-p680-b-6800mpp-rn-1131sr4-html-d34f66dde0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/6800/firmware/11--3-1sr4/p680_b_6800mpp-rn-1131sr4.html
-retrieved_at: 2026-08-21T23:14:57.708810+00:00
+retrieved_at: 2026-09-30T19:45:06.249404+00:00
 ---
 
 Cisco IP Phone 6821 Multiplatform Phones Release Notes for Firmware Release 11.3(1)SR4
@@ -159,3 +159,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 
 | Note | Specify the <file name>.loads file in the URL. The <file name>.zip file contains other files. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
