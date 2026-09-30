@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-15-rtmt-cucm-b-cisco-unified-rtmt-administration-15-cucm-b-cisc-f4baffb875
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_01.html
-retrieved_at: 2026-08-17T00:24:02.747671+00:00
+retrieved_at: 2026-09-30T18:46:15.167140+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
 # Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
-Updated: August 6, 2026
+Updated: September 9, 2026
 
 Chapter: Administration Overview
 
@@ -49,7 +49,7 @@ Generate various alerts, in the form of email messages, for objects when values 
 
 Collect and view traces in various default viewers that exist in Unified RTMT.
 
-View syslog messages in SysLog Viewer.
+View syslog messages in the SysLog Viewer.
 
 Work with performance-monitoring counters.
 
@@ -68,6 +68,8 @@ A server on a cluster (to monitor the health of the cluster).
 
 The Oracle JDK 1.8 (8u341 or later) version natively supports the TLS 1.3 protocol. To ensure compatibility, the 15SU2 Release
                               version of the Unified RTMT client must be run on JDK 1.8 (8u341 or later).
+
+Unified RTMT is not IPv6 compliant and is not officially supported in IPv6 deployments.
 
 ## Operating System Support
 
@@ -97,6 +99,9 @@ Unified RTMT runs on 32 bit and 64 bit Windows platforms.
 
 | Note | From Release 15SU2 onwards, Unified CM supports the TLS 1.3 protocol. The other supported TLS versions are TLS 1.0, 1.1, and
                                        1.2. |
+|---|---|
+
+| Note | Unified RTMT is not IPv6 compliant and is not officially supported in IPv6 deployments. |
 |---|---|
 
 | Note | For Windows 10 and later, ensure that you launch Unified RTMT in 'Run as administrator' mode. Otherwise, User Access Control

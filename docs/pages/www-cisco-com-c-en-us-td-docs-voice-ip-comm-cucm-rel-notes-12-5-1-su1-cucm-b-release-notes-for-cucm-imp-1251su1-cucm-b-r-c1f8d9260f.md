@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su1-cucm-b-release-notes-for-cucm-imp-1251su1-cucm-b-r-c1f8d9260f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1/cucm_b_release-notes-for-cucm-imp-1251su1_chapter_00.html
-retrieved_at: 2026-08-21T01:29:52.250052+00:00
+retrieved_at: 2026-09-30T18:39:14.751904+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU1
@@ -155,3 +155,7 @@ Before you upgrade to Release 12.5(1) or above, we recommend that you work with 
 | Push Notifications Deployment for Cisco Jabber on iPhone and iPad | This document describes how to configure Push Notifications for Cisco Jabber on iPhone and iPad with Cisco Unified Communications
                                           Manager and the IM and Presence Service. The guide is updated to include Push Notifications support for Cisco Jabber and Cisco
                                           Webex clients that run on both Android devices and iOS devices. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

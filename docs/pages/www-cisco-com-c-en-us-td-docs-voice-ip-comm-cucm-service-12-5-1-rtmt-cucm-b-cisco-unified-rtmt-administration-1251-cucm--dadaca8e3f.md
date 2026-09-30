@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--dadaca8e3f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_pfefd90a_00_performance-counters-and-alerts.html
-retrieved_at: 2026-08-21T01:39:28.822012+00:00
+retrieved_at: 2026-09-30T18:42:03.392216+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -17568,3 +17568,7 @@ For a complete list of system error messages, see the System Error Messages for 
 | Schedule | 24 hours daily |
 | Enable Email | Selected |
 | Trigger Alert Action | Default |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

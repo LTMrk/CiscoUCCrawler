@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su4-cucm-b-release-notes-for-cucm-imp-1251su4-cucm-m-n-c22577a287
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU4/cucm_b_release-notes-for-cucm-imp-1251su4/cucm_m_new-and-changed-features.html
-retrieved_at: 2026-08-17T00:03:52.391539+00:00
+retrieved_at: 2026-09-30T18:40:18.063529+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU4
@@ -168,3 +168,7 @@ Android push (FCM) supported on 12.5(1)SU4 (or newer) versions
 | 11.5(1)SU8 (and lower) or 12.5(1)SU2 (and lower) with 12.5(1)SU4 (and higher) | OFF | Android push (FCM) supported on 12.5(1)SU4 (or newer) versions |
 | 11.5(1)SU9 (and higher) or 12.5(1)SU4 (and higher) with 12.5(1)SU3 | ON | Android push (FCM) supported on version 12.5(1)SU3 and higher |
 | 11.5(1)SU9 (and higher) with 12.5(1)SU4 (and higher) | Flag not required (Expressway 12.7 relies fully on the new discovery mechanism) | Android push (FCM) supported on 12.5(1)SU4 (or newer) versions |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-new-and-changed-i-586f17585f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-09-15T21:49:16.073310+00:00
+retrieved_at: 2026-09-30T18:41:20.982547+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: April 6, 2026
+Updated: September 22, 2026
 
 Chapter: New and Changed Information
 
@@ -123,3 +123,7 @@ FIPS Setup
 | Oauth—Eliminate Refresh token dependency on Unified CM publisher | Refer to the 'Common Enterprise Parameters section of the System Configuration Guide for Cisco Unified Communications Manager |
 | Support for OCSP Certificate Revocation List | Certificate Revocation Configuration Refer to the 'Common Enterprise Parameters' section of the System Configuration Guide for Cisco Unified Communications Manager |
 | Upgrade from Cisco SSL6 to Cisco SSL7 | FIPS Setup |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-14-0-1-cucm-b-release-notes-for-cucm-imp-14-0-1-cucm-m-import-46129e5301
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/cucm_b_release-notes-for-cucm-imp-14_0_1/cucm_m_important-notes.html
-retrieved_at: 2026-08-16T23:51:13.640252+00:00
+retrieved_at: 2026-09-30T18:40:47.538234+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 14
@@ -186,3 +186,7 @@ Cisco ATA 191 Analog Telephone Adapter
 |---|---|---|---|
 | Cisco ATA 190 Analog Telephone Adapter | 11.5(1) and later | 12.5(1) and later | 14 and later |
 | Cisco ATA 191 Analog Telephone Adapter | 11.5(1)SU4 and later | 12.5(1) and later | 14 and later |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

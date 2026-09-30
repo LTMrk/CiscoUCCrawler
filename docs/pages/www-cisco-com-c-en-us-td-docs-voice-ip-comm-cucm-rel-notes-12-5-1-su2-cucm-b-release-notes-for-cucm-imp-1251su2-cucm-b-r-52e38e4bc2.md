@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su2-cucm-b-release-notes-for-cucm-imp-1251su2-cucm-b-r-52e38e4bc2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU2/cucm_b_release-notes-for-cucm-imp-1251su2/cucm_b_release-notes-for-cucm-imp-1251su2_chapter_010.html
-retrieved_at: 2026-08-21T01:30:13.255442+00:00
+retrieved_at: 2026-09-30T18:39:39.924527+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU2
@@ -291,3 +291,7 @@ We recommend that you restart the Cisco Tomcat service after enabling or disabli
                                                    the following actions trigger and upgrade the database by changing the column type to nvarchar(MAX): Restarting Cisco XCP Config Manager followed by restarting Cisco XCP Router service; or During schema verification of the external database—when you assign the database to Text Conferencing (TC), Message Archiver
                                                          (MA) or Asynchronous File transfer (AFT) services, and reload the External Database Settings page. (From the Cisco Unified CM IM and Presence Administration user interface, choose Messaging > External Server Setup > External Databases , and then find and select the database to load the External Database Settings page.) |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

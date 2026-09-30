@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--dfb59611d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_m0150c96_00_manage-analysis-manager.html
-retrieved_at: 2026-08-21T01:39:01.362240+00:00
+retrieved_at: 2026-09-30T18:41:34.614777+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -1660,3 +1660,7 @@ Save the recent Unified Analysis Manager log files and contact Unified Analysis 
 | 6 | NOT_SUPPORTED_CODE | Not supported | This version of the specified product is not supported for this release. Upgrade this product to a supported version. |
 | 7 | CERTIFICATE_HANDLING_ERROR_CODE | SSL handshake failed. The client and server could not negotiate desired level of security | Verify that you have accepted the certificate that was sent to the client from the server. |
 | 8 | GENERAL_CONNECTION_ERROR_CODE | An internal error has occurred | Save the recent Unified Analysis Manager log files and contact Unified Analysis Manager support for help. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

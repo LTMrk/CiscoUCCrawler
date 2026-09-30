@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-15-rtmt-cucm-b-cisco-unified-rtmt-administration-15-cucm-b-cisc-5b579a3696
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_0110.html
-retrieved_at: 2026-08-17T00:24:26.418134+00:00
+retrieved_at: 2026-09-30T18:46:36.594075+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
 # Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
-Updated: August 6, 2026
+Updated: September 9, 2026
 
 Chapter: Performance Counters
 
@@ -1769,3 +1769,7 @@ You can
                                                          				  file by using the Performance Log Viewer in RTMT or by using the Microsoft
                                                          				  Windows performance tool. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

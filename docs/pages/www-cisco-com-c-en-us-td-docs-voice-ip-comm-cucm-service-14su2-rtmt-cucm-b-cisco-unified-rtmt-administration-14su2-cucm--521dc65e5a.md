@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-14su2-rtmt-cucm-b-cisco-unified-rtmt-administration-14su2-cucm--521dc65e5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2/cucm_b_cisco-unified-rtmt-administration-1251su2_appendix_01001.html
-retrieved_at: 2026-08-17T00:23:51.049991+00:00
+retrieved_at: 2026-09-30T18:45:29.680300+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 14 and SUs
@@ -20885,3 +20885,7 @@ For a complete list of system error messages, see the System Error Messages for 
 | Schedule | 24 hours daily |
 | Enable Email | Selected |
 | Trigger Alert Action | Default |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su3-cucm-b-release-notes-for-cucm-imp-1251su3-cucm-m-a-0270c67e1c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU3/cucm_b_release-notes-for-cucm-imp-1251su3/cucm_m_about-this-release.html
-retrieved_at: 2026-08-21T01:30:21.752683+00:00
+retrieved_at: 2026-09-30T18:39:48.394072+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU3
@@ -241,3 +241,7 @@ Restart of the Cisco Tomcat service will internally restart the HAProxy service.
 |---|---|
 | Restructured Documents (Existing) : New Documents : Call Reporting and Billing Administration Guide | The following documents are deprecated for 12.5(1)SU1 and later: Cisco Unified CDR Analysis and Reporting Administration Guide —Material moved to call reporting and billing documentation Call Detail Records Administration Guide —Material moved to call reporting and billing documentation Cisco Unified Reporting Administration Guide —Material is now with administration Guide Cisco Unified Serviceability Administration Guide —Most sections are now in the Administration Guide. CDR Repository Manager and billing server sections are with call reporting
                                                    and billing documentation Changing the IP Address, Hostname and Domain —Material moved to the Administration Guide |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

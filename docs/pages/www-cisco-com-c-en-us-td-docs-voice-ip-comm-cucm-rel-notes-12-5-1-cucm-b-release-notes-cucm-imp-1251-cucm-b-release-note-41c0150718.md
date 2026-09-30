@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-cucm-b-release-notes-cucm-imp-1251-cucm-b-release-note-41c0150718
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/cucm_b_release-notes-cucm-imp-1251/cucm_b_release-notes-cucm-imp-1251_chapter_011.html
-retrieved_at: 2026-08-21T01:31:02.253215+00:00
+retrieved_at: 2026-09-30T18:40:30.304892+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)
@@ -61,3 +61,7 @@ Before you upgrade to Release 12.5(1) or above, we recommend that you work with 
 | Note | In the past, export licenses, government regulations, and import restrictions have limited our supply of Unified Communications Manager and IM and Presence Service worldwide. We have obtained an unrestricted U.S. export classification to address this issue; IM and Presence Service supports an export unrestricted (XU) version only. The unrestricted version differs from previous releases of IM and Presence Service in that it does not contain strong encryption capabilities. After you install an unrestricted release, you can never upgrade to a restricted version. You are not allowed to perform a
                                        fresh installation of a restricted version on a system that contains an unrestricted version. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

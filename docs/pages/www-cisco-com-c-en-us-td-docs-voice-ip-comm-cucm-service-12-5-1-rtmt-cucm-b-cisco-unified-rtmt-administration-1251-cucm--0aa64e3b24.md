@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--0aa64e3b24
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_m9efee35_00_manage-system-performance-monitoring.html
-retrieved_at: 2026-08-21T01:38:57.556725+00:00
+retrieved_at: 2026-09-30T18:41:46.828335+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -2781,3 +2781,7 @@ Click Start Polling . The Port Monitor window displays the status of all voice m
 | Step 2 | In the Node drop-down box, choose a Cisco Unity Connection server. |
 | Step 3 | In the Polling Rate field, accept the default or enter the number of seconds between updates in the data on the Port Monitor tab; then, click Set Polling Rate . |
 | Step 4 | Click Start Polling . The Port Monitor window displays the status of all voice messaging ports on Cisco Unity Connection . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su1-cucm-b-release-notes-for-cucm-imp-1251su1-cucm-b-r-e3de38126f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU1/cucm_b_release-notes-for-cucm-imp-1251su1/cucm_b_release-notes-for-cucm-imp-1251su1_chapter_0100.html
-retrieved_at: 2026-08-21T01:30:05.091953+00:00
+retrieved_at: 2026-09-30T18:39:23.337844+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU1
@@ -622,3 +622,7 @@ The Cisco ATA 191 Analog Telephone Adapter was released after Cisco Unified Comm
 | Elliptic Curve Support | 12.5(1)SR2 |
 | Transport Layer Security 1.2 and Wireless Authentication | 12.5(1)SR2 |
 | Whisper Paging and Cisco Unified Communications Manager Express | 12.5(1)SR2 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

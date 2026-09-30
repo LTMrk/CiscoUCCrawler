@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-14su2-cucm-b-security-guide-14su2-cucm-m-certificate-authority-eec8547e92
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_certificate-authority-proxy-function_su2_reorg.html
-retrieved_at: 2026-09-15T22:46:58.452514+00:00
+retrieved_at: 2026-09-30T18:40:56.307838+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager Release 14 and SUs
@@ -1213,3 +1213,7 @@ Phone can’t connect to CAPF.
 | IPv4 stack | IPv4 | IPv6 | Phone can’t connect to CAPF. |
 | IPv6 stack | IPv6 | IPv6 | Phone uses an IPv6 address to connect to CAPF. |
 | IPv6 stack | IPv6 | IPv4 | Phone can’t connect to CAPF. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

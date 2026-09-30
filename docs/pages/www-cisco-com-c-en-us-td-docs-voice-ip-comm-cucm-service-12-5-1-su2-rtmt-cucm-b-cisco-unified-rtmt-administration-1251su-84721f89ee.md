@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-su2-rtmt-cucm-b-cisco-unified-rtmt-administration-1251su-84721f89ee
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1_su2/rtmt/cucm_b_cisco-unified-rtmt-administration-1251su2/cucm_b_cisco-unified-rtmt-administration-1251su2_preface_00.html
-retrieved_at: 2026-08-21T01:41:57.775382+00:00
+retrieved_at: 2026-09-30T18:45:19.795915+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU2
@@ -251,3 +251,7 @@ Provides a complete list of performance objects
 | Caution | Means reader be careful . In this situation, you might do something
                                           			 that could result in equipment damage or loss of data. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

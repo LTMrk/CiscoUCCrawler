@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--9dda5f290c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_afb1795d_00_administration-overview.html
-retrieved_at: 2026-08-21T01:38:52.579875+00:00
+retrieved_at: 2026-09-30T18:41:24.918847+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -88,3 +88,7 @@ Unified RTMT runs on 32 bit and 64 bit Windows platforms.
 | Note | Even when Unified RTMT is not running as an application on your desktop, tasks such as alarm and performance monitoring updates
                                        continue to take place on the server in the background. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

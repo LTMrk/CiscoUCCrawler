@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-14su2-rtmt-cucm-b-cisco-unified-rtmt-administration-14su2-cucm--be26ab405c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-17T00:22:54.836631+00:00
+retrieved_at: 2026-09-30T18:46:10.938065+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 14 and SUs
@@ -102,3 +102,7 @@ March 31, 2021
 | Serviceability enhancement for Jabber over MRA registrations | This feature lists the number of registered dual-mode devices (supports only the TCT and BOT device types) in the phone summary
                                           page. | Predefined Cisco Unified Communications Manager Objects Cisco CallManager | October 27, 2021 |
 | Initial Release of Document for Release 14 | — | — | March 31, 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

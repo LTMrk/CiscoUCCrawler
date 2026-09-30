@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1su1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251su1-78bd5a5665
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251su1/cucm_b_cisco-unified-rtmt-administration-1251su1_chapter_0110.html
-retrieved_at: 2026-08-21T01:39:57.485592+00:00
+retrieved_at: 2026-09-30T18:42:46.469814+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU1
@@ -1731,3 +1731,7 @@ You can
                                                          				  file by using the Performance Log Viewer in RTMT or by using the Microsoft
                                                          				  Windows performance tool. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

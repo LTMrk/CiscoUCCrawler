@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1su1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251su1-506442b167
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251su1/cucm_b_cisco-unified-rtmt-administration-1251su1_chapter_0111.html
-retrieved_at: 2026-08-21T01:40:01.515970+00:00
+retrieved_at: 2026-09-30T18:42:50.726811+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU1
@@ -1104,3 +1104,7 @@ Attach the collected files to your Cisco technical support case.
                                                       						Logs > CiscoSyslog to view and
                                                 				  save the log file. |
 | Step 6 | Attach the collected files to your Cisco technical support case. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

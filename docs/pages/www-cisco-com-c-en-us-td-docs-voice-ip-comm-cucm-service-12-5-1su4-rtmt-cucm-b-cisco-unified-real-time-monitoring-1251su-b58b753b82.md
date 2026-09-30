@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1su4-rtmt-cucm-b-cisco-unified-real-time-monitoring-1251su-b58b753b82
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU4/rtmt/cucm_b_cisco-unified-real-time-monitoring-1251su4/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_010.html
-retrieved_at: 2026-08-21T01:41:17.562560+00:00
+retrieved_at: 2026-09-30T18:43:59.204388+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU4
@@ -1822,3 +1822,7 @@ Finish uninstalling the plug-in.
 |---|---|
 | Step 2 | To uninstall Unified RTMT, perform one of the following actions: For a Windows client, choose Start > Settings > Control Panel > Add/Remove Programs For a Red  Hat Linux installation with KDE or GNOME client, choose Start > Accessories > Uninstall Real-time Monitoring tool from the task bar. |
 | Step 3 | Finish uninstalling the plug-in. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

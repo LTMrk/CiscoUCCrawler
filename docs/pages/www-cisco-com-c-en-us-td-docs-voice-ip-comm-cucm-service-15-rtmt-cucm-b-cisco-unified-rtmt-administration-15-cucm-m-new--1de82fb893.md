@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-15-rtmt-cucm-b-cisco-unified-rtmt-administration-15-cucm-m-new--1de82fb893
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15/cucm_m_new-and-changed-information.html
-retrieved_at: 2026-08-17T00:23:58.990108+00:00
+retrieved_at: 2026-09-30T18:46:53.043306+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
 # Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
-Updated: August 6, 2026
+Updated: September 9, 2026
 
 Chapter: New and Changed Information
 
@@ -72,3 +72,7 @@ Ramfs
 | December 18, 2023 | Updated the "Operating System Support" section to include support for Windows 11. | Operating System Support |
 | December 18, 2023 | Added support for Certificate-based authentication support for Unified RTMT. | Launch Unified RTMT Launch Unified RTMT using certificate based authentication—Windows Launch Unified RTMT using certificate based authentication—Linux |
 | December 18, 2023 | From Release 15 onwards, the following counters are updated to 64 bit: Network Interface and Ramfs . | Network Interface Ramfs |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

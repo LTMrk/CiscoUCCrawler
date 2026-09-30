@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--fa4eebec0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_meb9f00e_00_manage-profiles-and-categories.html
-retrieved_at: 2026-08-21T01:39:04.790320+00:00
+retrieved_at: 2026-09-30T18:41:50.447649+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -262,3 +262,7 @@ Click the category tab that you want to delete and choose Edit > Remove Category
 | Step 2 | Enter the new
                                           			 name and click OK . The renamed
                                              				category displays at the bottom of the window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

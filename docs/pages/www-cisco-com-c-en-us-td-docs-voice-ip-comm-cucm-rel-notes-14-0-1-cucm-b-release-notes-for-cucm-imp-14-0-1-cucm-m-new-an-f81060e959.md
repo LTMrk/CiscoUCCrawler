@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-14-0-1-cucm-b-release-notes-for-cucm-imp-14-0-1-cucm-m-new-an-f81060e959
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/14_0_1/cucm_b_release-notes-for-cucm-imp-14_0_1/cucm_m_new-and-changed-features.html
-retrieved_at: 2026-08-16T23:51:09.834129+00:00
+retrieved_at: 2026-09-30T18:40:51.911735+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 14
@@ -692,3 +692,7 @@ For more information, see the 'User Session Report for Device Capacity Monitorin
 | 11.5(1)SU8 (and lower) or 12.5(1)SU2 (and lower) with 12.5(1)SU4 (and higher) | OFF | Android push (FCM) supported on 12.5(1)SU4 (or newer) versions |
 | 11.5(1)SU9 (and higher) or 12.5(1)SU4 (and higher) with 12.5(1)SU3 | ON | Android push (FCM) supported on version 12.5(1)SU3 and higher |
 | 11.5(1)SU9 (and higher) with 12.5(1)SU4 (and higher) | Flag not required (Expressway 12.7 relies fully on the new discovery mechanism) | Android push (FCM) supported on 12.5(1)SU4 (or newer) versions |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

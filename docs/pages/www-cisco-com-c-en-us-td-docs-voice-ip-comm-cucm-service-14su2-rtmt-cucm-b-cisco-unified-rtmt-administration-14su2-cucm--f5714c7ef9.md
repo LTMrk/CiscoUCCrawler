@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-14su2-rtmt-cucm-b-cisco-unified-rtmt-administration-14su2-cucm--f5714c7ef9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_01.html
-retrieved_at: 2026-08-17T00:22:59.503290+00:00
+retrieved_at: 2026-09-30T18:45:33.095787+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 14 and SUs
@@ -95,3 +95,7 @@ Unified RTMT runs on 32 bit and 64 bit Windows platforms.
 | Note | For Windows 10 and later, ensure that you launch Unified RTMT in 'Run as administrator' mode. Otherwise, User Access Control
                                        (UAC) rights are disabled. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

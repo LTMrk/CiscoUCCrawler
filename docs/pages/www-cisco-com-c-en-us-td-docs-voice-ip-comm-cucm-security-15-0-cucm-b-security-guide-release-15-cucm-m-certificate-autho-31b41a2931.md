@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-certificate-autho-31b41a2931
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_certificate-authority-proxy-function_su2_reorg.html
-retrieved_at: 2026-09-15T21:49:29.217690+00:00
+retrieved_at: 2026-09-30T18:41:09.378958+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: April 6, 2026
+Updated: September 22, 2026
 
 Chapter: Certificate Authority Proxy Function
 
@@ -482,6 +482,9 @@ For details on configuring feature group templates and LDAP directories, see the
 
 Use Update Phones query of Bulk Administration to configure CAPF settings and LSC certificates for many existing phones in a single operation.
 
+To reduce CAPF service load, run bulk LSC operations in controlled batches during a maintenance window. Correct endpoints
+                                             that repeatedly fail or retry CAPF connections before starting another bulk operation.
+
 If you haven't provisioned the phones, use Insert Phones menu of the Bulk Administration to provision new phones with CAPF settings from a CSV file. See the "Phones Insertions" section
                                              of Bulk Administration Guide for Cisco Unified Communications Manager for details on how to insert phones from CSV files.
 
@@ -748,6 +751,12 @@ Beginning from Unified Communications Manager Release 11.5(1) SU1, SHA-256 algor
                                        series models supports SHA-256 signed LSC certificates and external SHA2 identity certificates (Tomcat, Unified Communications Manager , CAPF, TVS, and so on). Only SHA-1 supports any other cryptographic operation that requires validation of signature.
 
 We recommend using the Unified Communications Manager before 11.5(1) SU1 release for phone models in End of Software Maintenance or End of Life,
+
+High-volume LSC Operations
+
+When many endpoints establish CAPF connections simultaneously or repeatedly retry connections, the CAPF service can become
+                                       slow or temporarily unresponsive. Run bulk LSC operations in controlled batches during a maintenance window. Correct endpoints
+                                       that repeatedly retry connections before starting another batch.
 
 ### CAPF Examples with 7942 and 7962 Phones
 
@@ -1086,6 +1095,10 @@ Phone can’t connect to CAPF.
                                                          for phones. |
 |---|---|
 
+| Note | To reduce CAPF service load, run bulk LSC operations in controlled batches during a maintenance window. Correct endpoints
+                                             that repeatedly fail or retry CAPF connections before starting another bulk operation. |
+|---|---|
+
 | Note | If you haven't provisioned the phones, use Insert Phones menu of the Bulk Administration to provision new phones with CAPF settings from a CSV file. See the "Phones Insertions" section
                                              of Bulk Administration Guide for Cisco Unified Communications Manager for details on how to insert phones from CSV files. |
 |---|---|
@@ -1188,6 +1201,9 @@ Phone can’t connect to CAPF.
 | Certificate Encryption | Beginning from Unified Communications Manager Release 11.5(1) SU1, SHA-256 algorithm signs all the LSC certificates issued by CAPF service. Therefore, IP Phones 7900/8900/9900
                                        series models supports SHA-256 signed LSC certificates and external SHA2 identity certificates (Tomcat, Unified Communications Manager , CAPF, TVS, and so on). Only SHA-1 supports any other cryptographic operation that requires validation of signature. Note We recommend using the Unified Communications Manager before 11.5(1) SU1 release for phone models in End of Software Maintenance or End of Life, | Note | We recommend using the Unified Communications Manager before 11.5(1) SU1 release for phone models in End of Software Maintenance or End of Life, |
 | Note | We recommend using the Unified Communications Manager before 11.5(1) SU1 release for phone models in End of Software Maintenance or End of Life, |
+| High-volume LSC Operations | When many endpoints establish CAPF connections simultaneously or repeatedly retry connections, the CAPF service can become
+                                       slow or temporarily unresponsive. Run bulk LSC operations in controlled batches during a maintenance window. Correct endpoints
+                                       that repeatedly retry connections before starting another batch. |
 
 | Note | We recommend using the Unified Communications Manager before 11.5(1) SU1 release for phone models in End of Software Maintenance or End of Life, |
 |---|---|

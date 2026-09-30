@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-cucm-b-release-notes-cucm-imp-1251-cucm-b-release-note-319c896873
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/cucm_b_release-notes-cucm-imp-1251/cucm_b_release-notes-cucm-imp-1251_chapter_0101.html
-retrieved_at: 2026-08-21T01:31:10.758289+00:00
+retrieved_at: 2026-09-30T18:40:26.295431+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)
@@ -491,3 +491,7 @@ jabberd deadlock on startup results in eventual core
 | CSCvn78563 | Cisco Presence Engine crashes when connecting to Microsoft Exchange server via EWS |
 | CSCvn90001 | Reserve Port 37239 for ICSA |
 | CSCvo01877 | jabberd deadlock on startup results in eventual core |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

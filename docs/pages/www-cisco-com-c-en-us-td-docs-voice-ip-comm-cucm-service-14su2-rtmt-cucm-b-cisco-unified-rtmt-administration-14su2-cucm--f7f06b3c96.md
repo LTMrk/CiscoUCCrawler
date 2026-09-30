@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-14su2-rtmt-cucm-b-cisco-unified-rtmt-administration-14su2-cucm--f7f06b3c96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/14SU2/rtmt/cucm_b_cisco-unified-rtmt-administration-14Su2/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_01000.html
-retrieved_at: 2026-08-17T00:23:36.000681+00:00
+retrieved_at: 2026-09-30T18:45:46.562882+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 14 and SUs
@@ -5929,3 +5929,7 @@ The application appears in the plugin window. See the application document for u
 
 | Under System > Tools > Plugin , choose the plug-in that you want to launch. The application appears in the plugin window. See the application document for usage information. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

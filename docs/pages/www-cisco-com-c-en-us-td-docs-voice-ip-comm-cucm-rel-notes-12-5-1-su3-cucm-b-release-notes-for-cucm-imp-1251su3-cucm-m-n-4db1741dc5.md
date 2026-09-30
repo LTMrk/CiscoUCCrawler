@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-rel-notes-12-5-1-su3-cucm-b-release-notes-for-cucm-imp-1251su3-cucm-m-n-4db1741dc5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/rel_notes/12_5_1/SU3/cucm_b_release-notes-for-cucm-imp-1251su3/cucm_m_new-and-changed-features.html
-retrieved_at: 2026-08-17T00:03:48.168342+00:00
+retrieved_at: 2026-09-30T18:40:01.194356+00:00
 ---
 
 Release Notes for Cisco Unified Communications Manager and the IM and Presence Service, Release 12.5(1)SU3
@@ -266,3 +266,7 @@ For detailed information on how to configure intercluster peer sync interval, se
 | Note | Android Push Notifications do not support Caller ID within the Push Notification. The CallKit launches only when the client
                                        receives the SIP INVITE. In addition, Android Push Notifications are not supported in China. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

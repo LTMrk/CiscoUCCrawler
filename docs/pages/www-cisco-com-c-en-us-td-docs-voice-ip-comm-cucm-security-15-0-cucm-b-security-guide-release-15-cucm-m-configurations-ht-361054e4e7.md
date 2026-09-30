@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-15-0-cucm-b-security-guide-release-15-cucm-m-configurations-ht-361054e4e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/15_0/cucm_b_security-guide-release-15/cucm_m_configurations.html
-retrieved_at: 2026-08-20T16:05:55.499814+00:00
+retrieved_at: 2026-09-30T18:41:12.867791+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
 # Security Guide for Cisco Unified Communications Manager, Release 15 and SUs
 
-Updated: April 6, 2026
+Updated: September 22, 2026
 
 Chapter: Configurations
 

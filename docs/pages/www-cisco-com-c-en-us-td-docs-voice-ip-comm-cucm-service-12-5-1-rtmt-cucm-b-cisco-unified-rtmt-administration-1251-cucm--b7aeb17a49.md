@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1-rtmt-cucm-b-cisco-unified-rtmt-administration-1251-cucm--b7aeb17a49
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1/rtmt/cucm_b_cisco-unified-rtmt-administration-1251/cucm_mp_p39d3358_00_preface.html
-retrieved_at: 2026-08-21T01:38:48.681994+00:00
+retrieved_at: 2026-09-30T18:41:54.560140+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)
@@ -254,3 +254,7 @@ Provides a complete list of performance objects
 | Caution | Means reader be careful . In this situation, you might do something
                                           			 that could result in equipment damage or loss of data. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

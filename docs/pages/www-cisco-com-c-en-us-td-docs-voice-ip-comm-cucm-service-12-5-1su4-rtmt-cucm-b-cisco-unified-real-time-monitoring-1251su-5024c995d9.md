@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-12-5-1su4-rtmt-cucm-b-cisco-unified-real-time-monitoring-1251su-5024c995d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/12_5_1SU4/rtmt/cucm_b_cisco-unified-real-time-monitoring-1251su4/cucm_b_cisco-unified-rtmt-administration-1251su2_chapter_0101.html
-retrieved_at: 2026-08-21T01:41:29.362279+00:00
+retrieved_at: 2026-09-30T18:44:12.304077+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 12.5(1)SU4
@@ -252,3 +252,7 @@ Click the category tab that you want to delete and choose Edit > Remove Category
 | Step 2 | Enter the new
                                           			 name and click OK . The renamed
                                              				category displays at the bottom of the window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

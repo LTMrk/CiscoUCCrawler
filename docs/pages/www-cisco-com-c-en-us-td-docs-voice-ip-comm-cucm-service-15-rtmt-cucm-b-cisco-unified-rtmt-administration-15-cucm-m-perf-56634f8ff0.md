@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-service-15-rtmt-cucm-b-cisco-unified-rtmt-administration-15-cucm-m-perf-56634f8ff0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/service/15/rtmt/cucm_b_cisco-unified-rtmt-administration-15/cucm_m_performance-counters-and-alerts-15.html
-retrieved_at: 2026-08-17T00:24:51.897193+00:00
+retrieved_at: 2026-09-30T18:47:03.018668+00:00
 ---
 
 Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
 # Cisco Unified Real-Time Monitoring Tool Administration Guide, Release 15 and SUs
 
-Updated: August 6, 2026
+Updated: September 9, 2026
 
 Chapter: Performance Counters and Alerts
 
@@ -15765,9 +15765,9 @@ Default
 
 ### LicenseExpired
 
-Cisco Unity Connection licenses several features, including users and ports. The system enforces these licenses. If a customer uses a time-limited
-                                 license to sample a feature, this license includes an expiration date. When the license expiration date is reached, the license
-                                 becomes invalid, and this alert occurs.
+Cisco Unity Connection licenses several features, including users and ports. The system enforces these licenses. If a customer
+                                 uses a time-limited license to sample a feature, this license includes an expiration date. When the license expiration date
+                                 is reached, the license becomes invalid, and this alert occurs.
 
 #### Default Configuration
 

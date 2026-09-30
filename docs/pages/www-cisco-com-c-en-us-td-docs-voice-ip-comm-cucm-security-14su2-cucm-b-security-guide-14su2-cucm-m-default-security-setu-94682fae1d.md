@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-security-14su2-cucm-b-security-guide-14su2-cucm-m-default-security-setu-94682fae1d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/security/14SU2/cucm_b_security-guide-14su2/cucm_m_default-security-setup_su2_reorg.html
-retrieved_at: 2026-09-15T22:46:49.150636+00:00
+retrieved_at: 2026-09-30T18:41:05.220413+00:00
 ---
 
 Security Guide for Cisco Unified Communications Manager Release 14 and SUs
@@ -1415,3 +1415,7 @@ To add a node to a secure cluster, see Installing Cisco Unified Communications M
 
 | Important | You can use the utils ctl CLI command set to set up the encryption.  For more information about this option, see the Command Line Interface Guide for Cisco Unified Communications Solutions . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
