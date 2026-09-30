@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--5b7f0a8852
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0100.html
-retrieved_at: 2026-08-21T02:39:06.993904+00:00
+retrieved_at: 2026-09-30T20:06:55.263762+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -122,3 +122,7 @@ When prompted, enter your voicemail credentials.
 | Step 1 | In the screen, press the Audio softkey. |
 |---|---|
 | Step 2 | When prompted, enter your voicemail credentials. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

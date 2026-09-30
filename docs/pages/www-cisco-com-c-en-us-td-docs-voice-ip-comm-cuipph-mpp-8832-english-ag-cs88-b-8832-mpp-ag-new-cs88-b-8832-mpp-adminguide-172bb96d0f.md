@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-172bb96d0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01100.html
-retrieved_at: 2026-08-21T13:50:29.990881+00:00
+retrieved_at: 2026-09-30T20:06:12.238552+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -486,3 +486,7 @@ Default parameter = 0 (no periodic SIP Publish Message)
 | Voice Quality Report Address | Allows you to enter one of the following options: Domain Name IP address The SIP UDP port number along with the domain name In the phone XML configuration file (cfg.xml), enter a string in this format: <Voice_Quality_Report_Address_1_ ua="na">fake_vq_collector</Voice_Quality_Report_Address_1_> Default parameter = empty (no report) Default SIP UDP Port = 5060 |
 | Voice Quality Report Group | Allows you to enter a voice quality report name. Your report name cannot begin with a: hyphen (-) semicolon (;) space In the phone XML configuration file (cfg.xml), enter a string in this format: <Voice_Quality_Report_Group_1_ ua="na">test-group-1</Voice_Quality_Report_Group_1_> Default parameter = empty (The report will use the canonical name in the form of identifier@ipAddress .) |
 | Voice Quality Report Interval | Allows you to determine when the phones send SIP Publish messages. If you have properly configured the Voice Quality Report Address , the SIP Publish messages can be sent: When the call has ended or is placed on hold. Periodically, when you enter an interval in seconds for this parameter. Example: 20 for 20-second intervals. In the phone XML configuration file (cfg.xml), enter a string in this format: <VQ_Report_Interval_1_ ua="na">20</VQ_Report_Interval_1_> Default parameter = 0 (no periodic SIP Publish Message) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

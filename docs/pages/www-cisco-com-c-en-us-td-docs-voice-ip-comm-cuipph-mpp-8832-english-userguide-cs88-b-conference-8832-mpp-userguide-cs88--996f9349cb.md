@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--996f9349cb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_00.html
-retrieved_at: 2026-08-21T02:38:50.187271+00:00
+retrieved_at: 2026-09-30T20:06:43.717828+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -1712,3 +1712,21 @@ Your formal Warranty Statement, including the warranties and license agreements 
 |---|---|
 | Step 2 | Find the information from the MIC Cert Refresh Status section. MIC Cert Provisioning Status : This field includes the date and time of the performed certificate renewal, the HTTP request URL, and result messages. MIC Cert Info : This field shows the overall status of the certificate renewal procedure. Typically, it shows whether the MIC certificate
                                                       of your phone is renewed successfully. For more information, contact your administrator. |
+
+## Figuras
+
+![Cisco IP Conference Phone 8832 PoE Injector with PoE power](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393676.eps/_jcr_content/renditions/393676.jpg)
+
+![Cisco IP Conference Phone 8832 Non-PoE Ethernet Injector with Ethernet power](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393705.eps/_jcr_content/renditions/393705.jpg)
+
+![Figure 4. Wired Expansion Microphone Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393725.eps/_jcr_content/renditions/393725.jpg)
+
+![Figure 5. Wireless Microphone Charging Cradle Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393724.eps/_jcr_content/renditions/393724.jpg)
+
+![Figure 6. Cisco IP Conference Phone 8832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393989.jpg)
+
+![Figure 7. Wired Expansion Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393622.eps/_jcr_content/renditions/393622.jpg)
+
+![Figure 8. Wireless Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393702.jpg)
+
+![Figure 9. Wireless Microphone Mounted on the Charging Cradle](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393701.jpg)

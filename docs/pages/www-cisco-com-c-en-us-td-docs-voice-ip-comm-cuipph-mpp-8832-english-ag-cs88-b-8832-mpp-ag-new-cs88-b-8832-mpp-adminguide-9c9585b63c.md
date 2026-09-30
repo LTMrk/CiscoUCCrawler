@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-9c9585b63c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_011.html
-retrieved_at: 2026-08-21T13:49:48.633252+00:00
+retrieved_at: 2026-09-30T20:06:03.699354+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -1587,3 +1587,9 @@ print “</GPP_D></flat-profile>”; |
 
 | Note | Don't change the URL. Only the default URL is supported for the MIC certificate renewal. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Certificate Authority Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/239001-240000/239117.tif/_jcr_content/renditions/239117.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

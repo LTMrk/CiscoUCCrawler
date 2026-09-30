@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-provisioning-p881-b-mpp-8800-provisioning-guide-p881-d45d215727
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/provisioning/p881_b_mpp-8800-provisioning-guide/p881_b_mpp-8800-provisioning-guide_chapter_00.html
-retrieved_at: 2026-08-21T02:34:48.790730+00:00
+retrieved_at: 2026-09-30T20:02:32.857804+00:00
 ---
 
 Cisco IP Phone 8800 Series and Cisco IP Conference Phone 8832 Multiplatform Phones Provisioning Guide
@@ -623,3 +623,7 @@ Save the changes to the cfg.xml file.
 |---|---|
 | Step 2 | Insert the <User_Password> tag using one of these options. No password (start and end tag) – <User_Password></User_Password> Password value (4 to 127 characters) – <User_Password ua="rw">Abc123</User_Password> No password (start tag only) – <User_Password /> |
 | Step 3 | Save the changes to the cfg.xml file. |
+
+## Figuras
+
+![Figure 1. Retail Distribution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393515.eps/_jcr_content/renditions/393515.jpg)

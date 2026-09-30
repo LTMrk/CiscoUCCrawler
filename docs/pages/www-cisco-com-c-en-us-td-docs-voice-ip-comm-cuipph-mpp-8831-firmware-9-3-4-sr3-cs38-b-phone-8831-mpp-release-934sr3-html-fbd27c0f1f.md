@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8831-firmware-9-3-4-sr3-cs38-b-phone-8831-mpp-release-934sr3-html-fbd27c0f1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8831/firmware/9-3-4-sr3/cs38_b_phone-8831-mpp-release-934sr3.html
-retrieved_at: 2026-08-21T13:34:00.851681+00:00
+retrieved_at: 2026-09-30T20:05:06.513766+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 Multiplatform Phones Release Notes for Firmware Release 9.3(4)SR3
@@ -197,3 +197,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Step 3 | To look for
 			 information about a specific problem, enter the bug ID number in the Search for
 			 field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

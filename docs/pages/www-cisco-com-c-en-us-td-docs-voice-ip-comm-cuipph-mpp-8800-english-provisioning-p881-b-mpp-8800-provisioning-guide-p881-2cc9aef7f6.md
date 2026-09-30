@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-provisioning-p881-b-mpp-8800-provisioning-guide-p881-2cc9aef7f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/provisioning/p881_b_mpp-8800-provisioning-guide/p881_b_mpp-8800-provisioning-guide_appendix_0110.html
-retrieved_at: 2026-08-21T02:35:13.154235+00:00
+retrieved_at: 2026-09-30T20:02:23.918539+00:00
 ---
 
 Cisco IP Phone 8800 Series and Cisco IP Conference Phone 8832 Multiplatform Phones Provisioning Guide
@@ -618,3 +618,7 @@ Extensible Markup Language
 | VQ | Voice Quality |
 | WAN | Wide Area Network |
 | XML | Extensible Markup Language |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

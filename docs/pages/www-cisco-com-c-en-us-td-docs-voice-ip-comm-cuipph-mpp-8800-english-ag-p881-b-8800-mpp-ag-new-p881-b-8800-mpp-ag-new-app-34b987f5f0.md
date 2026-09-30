@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-new-app-34b987f5f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_new_appendix_010101.html
-retrieved_at: 2026-08-21T09:57:43.758055+00:00
+retrieved_at: 2026-09-30T20:01:20.441996+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -2296,3 +2296,45 @@ sub=group_vm@domain;vid=1;nme=Group;</Unit_1_Key_1_> |
 | Step 4 | Line up the tab with the slot in the cradle and press the tab evenly into the slot. An extension protrudes from the top of
                                           the rotated tab. |
 | Step 5 | Return the handset to the handset rest. |
+
+## Figuras
+
+![Figure 1. Cisco Headset 521 and 522 Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.eps/_jcr_content/renditions/393936.jpg)
+
+![Figure 2. Cisco Headset 561 and 562 Headset Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![Figure 3. Key Expansion Module with Single LCD Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394017.tif/_jcr_content/renditions/394017.jpg)
+
+![Figure 4. Cisco IP Phone 8851/8861 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394009.tif/_jcr_content/renditions/394009.jpg)
+
+![Figure 5. Cisco IP Phone 8865 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393993.tif/_jcr_content/renditions/393993.jpg)
+
+![Figure 6. Components](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372318.eps/_jcr_content/renditions/372318.jpg)
+
+![Figure 7. Back view of Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372315.eps/_jcr_content/renditions/372315.jpg)
+
+![Figure 8. Side View of Wall Mount Kit Installed on Phone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372316.eps/_jcr_content/renditions/372316.jpg)
+
+![Figure 9. Bracket
+                                                   				  Installation. The
+                                                      				  following figure shows the bracket installation steps.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372307.eps/_jcr_content/renditions/372307.jpg)
+
+![Figure 10. Attach Phone Bracket. The
+                                                            						following figure shows how the bracket attaches to the phone.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372317.eps/_jcr_content/renditions/372317.jpg)
+
+![Figure 11. Attach
+                                                   				  Cables. The
+                                                      				  following figure shows the cables.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372319.eps/_jcr_content/renditions/372319.jpg)
+
+![Figure 12. Attach
+                                                   				  Phone to Wall Bracket. The
+                                                      				  following figure shows how you attach the phone to the wall bracket.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372320.eps/_jcr_content/renditions/372320.jpg)
+
+![Figure 13. Tab
+                                       			 Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372321.eps/_jcr_content/renditions/372321.jpg)
+
+![Figure 14. Disengage Tabs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372322.eps/_jcr_content/renditions/372322.jpg)
+
+![Figure 15. Adjust the Handset Rest](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/192001-193000/192897.eps/_jcr_content/renditions/192897.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

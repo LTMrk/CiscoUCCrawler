@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-appendi-d9b2957e87
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_appendix_01000.html
-retrieved_at: 2026-08-21T09:57:38.783139+00:00
+retrieved_at: 2026-09-30T20:00:32.444965+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -994,3 +994,7 @@ The Cisco IP Phone does not support IEEE 802.X and does not work in a 802.1X wir
 | 1 | Network Policy |
 | 4 | Extended Power via MDI-PD |
 | 5 | Inventory |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

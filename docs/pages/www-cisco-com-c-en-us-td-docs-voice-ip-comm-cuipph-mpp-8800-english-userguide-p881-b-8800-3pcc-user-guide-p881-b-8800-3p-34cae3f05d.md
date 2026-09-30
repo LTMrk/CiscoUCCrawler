@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-userguide-p881-b-8800-3pcc-user-guide-p881-b-8800-3p-34cae3f05d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/userguide/p881_b_8800-3pcc-user-guide/p881_b_8800-3pcc-user-guide-110_chapter_01000.html
-retrieved_at: 2026-08-21T02:36:00.204825+00:00
+retrieved_at: 2026-09-30T20:02:58.328695+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones User Guide
@@ -399,3 +399,17 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/8800-series/regul
 | 8861 | 0463-15-1086 |
 | 8865 | 06125-16-01086 |
 | 8865NR | 06125-16-01086 |
+
+## Figuras
+
+![EnergyStar logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394262.tif/_jcr_content/renditions/394262.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Warnings in Chinese](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/435001-436000/435060.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![qr code](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452132.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-chapter-40514adf14
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_chapter_01001.html
-retrieved_at: 2026-08-21T09:56:37.907204+00:00
+retrieved_at: 2026-09-30T20:00:52.143786+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -617,3 +617,7 @@ Dialed number invalid according to given dial plan.
 | X40 | General SIP protocol error (for example, unacceptable codec in SDP in 200 and ACK messages, or times out while waiting for
                                           ACK). |
 | X60 | Dialed number invalid according to given dial plan. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

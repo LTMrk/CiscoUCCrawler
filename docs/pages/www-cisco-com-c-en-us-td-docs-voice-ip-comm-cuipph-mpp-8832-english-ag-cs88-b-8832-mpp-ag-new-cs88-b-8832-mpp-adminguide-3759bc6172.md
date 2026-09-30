@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-3759bc6172
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01110.html
-retrieved_at: 2026-08-21T13:50:39.351442+00:00
+retrieved_at: 2026-09-30T20:06:20.462910+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -1229,3 +1229,7 @@ Click Submit All Changes .
 |---|---|
 | Step 2 | In the Supplementary Services area, set the Reverse Phone Lookup Serv parameter to Yes to enable this feature. You can also configure this parameter in the configuration file (cfg.xml) by entering a string in this format: <Reverse_Phone_Lookup_Serv ua="na">Yes</Reverse_Phone_Lookup_Serv> The allowed values are Yes\|No. The default value is Yes. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

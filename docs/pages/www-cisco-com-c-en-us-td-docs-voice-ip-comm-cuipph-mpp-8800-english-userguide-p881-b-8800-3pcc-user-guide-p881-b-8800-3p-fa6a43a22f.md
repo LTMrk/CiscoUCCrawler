@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-userguide-p881-b-8800-3pcc-user-guide-p881-b-8800-3p-fa6a43a22f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/userguide/p881_b_8800-3pcc-user-guide/p881_b_8800-3pcc-user-guide-110_chapter_0111.html
-retrieved_at: 2026-08-21T02:35:56.199515+00:00
+retrieved_at: 2026-09-30T20:03:21.373668+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones User Guide
@@ -2736,3 +2736,43 @@ Select None from the list and press Set .
 | Step 1 | Press and hold the line key on the key expansion module for two seconds. The feature list is displayed. |
 |---|---|
 | Step 2 | Select None from the list and press Set . |
+
+## Figuras
+
+![Figure 1. Cisco Headset 521 and 522 Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393936.eps/_jcr_content/renditions/393936.jpg)
+
+![Figure 2. Cisco Headset USB Adapter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393987.eps/_jcr_content/renditions/393987.jpg)
+
+![Figure 3. Cisco Headset 561 and 562 Headset Buttons](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393935.eps/_jcr_content/renditions/393935.jpg)
+
+![Figure 4. Standard Headset Connection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393116.eps/_jcr_content/renditions/393116.jpg)
+
+![Figure 5. Key Expansion Module with Single LCD Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394017.tif/_jcr_content/renditions/394017.jpg)
+
+![Figure 6. Cisco IP Phone 8851/8861 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394009.tif/_jcr_content/renditions/394009.jpg)
+
+![Figure 7. Cisco IP Phone 8865 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393993.tif/_jcr_content/renditions/393993.jpg)
+
+![Figure 8. Cisco IP Phone Key Expansion Module (Single LCD) Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/421001-422000/421618.eps/_jcr_content/renditions/421618.jpg)
+
+![Figure 9. Cisco IP Phone Key Expansion Module (Dual LCD) Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/394000.eps/_jcr_content/renditions/394000.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/381001-382000/381329.tif/_jcr_content/renditions/381329.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393038.eps/_jcr_content/renditions/393038.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393040.eps/_jcr_content/renditions/393040.jpg)
+
+![Line button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393039.eps/_jcr_content/renditions/393039.jpg)
+
+![Page 1 button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393123.eps/_jcr_content/renditions/393123.jpg)
+
+![Page 1 button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393126.eps/_jcr_content/renditions/393126.jpg)
+
+![Page 1 button](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393124.eps/_jcr_content/renditions/393124.jpg)
+
+![Figure 10. Cisco IP Phone 8851/8861 Key Expansion Module](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394001.tif/_jcr_content/renditions/394001.jpg)
+
+![Figure 11. Cisco IP Phone 8865 Key Expansion Module](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394002.tif/_jcr_content/renditions/394002.jpg)
+
+![Figure 12. Cisco IP Phone 8800 Key Expansion Module](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415833.jpg)

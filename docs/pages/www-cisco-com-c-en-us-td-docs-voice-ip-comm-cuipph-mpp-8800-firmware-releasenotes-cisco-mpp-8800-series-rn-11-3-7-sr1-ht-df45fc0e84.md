@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-firmware-releasenotes-cisco-mpp-8800-series-rn-11-3-7-sr1-ht-df45fc0e84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/ReleaseNotes/cisco-mpp-8800-series-rn-11-3-7-sr1.html
-retrieved_at: 2026-08-21T13:42:38.264060+00:00
+retrieved_at: 2026-09-30T20:05:02.525493+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.3(7)SR1
@@ -181,3 +181,7 @@ We report open and resolved customer-found bugs of severity 1 to 3. You can find
 | CSCwc78405 | S3 | Privilege escalation to root user via continually executing script |
 | CSCwb65732 | S3 | Camera LED is still on after hanging up the video call |
 | CSCwb92297 | S2 | Original 7821, 7841, 7861 Enterprise phones with hardware version V20 or later converted to MPP firmware cannot convert back to Enterprise firmware. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

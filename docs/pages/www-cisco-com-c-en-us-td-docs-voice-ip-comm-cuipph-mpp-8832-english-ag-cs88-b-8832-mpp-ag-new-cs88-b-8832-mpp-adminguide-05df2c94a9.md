@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-05df2c94a9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_0110.html
-retrieved_at: 2026-08-21T13:50:00.740069+00:00
+retrieved_at: 2026-09-30T20:06:07.380440+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -328,3 +328,7 @@ Save the changes to the cfg.xml file.
 |---|---|
 | Step 2 | Insert the <User_Password> tag using one of these options. No password (start and end tag) – <User_Password></User_Password> Password value (4-127 characters) – <User_Password >Abc123</User_Password> No password (start tag only) – <User_Password /> |
 | Step 3 | Save the changes to the cfg.xml file. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

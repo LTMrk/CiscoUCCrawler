@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-firmware-11-3-3sr1-p881-b-8800mpp-rn-1133sr1-html-077f3b9334
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/11-3-3sr1/p881_b_8800mpp-rn-1133sr1.html
-retrieved_at: 2026-08-21T13:44:26.862806+00:00
+retrieved_at: 2026-09-30T20:04:23.926383+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.3(3)SR1
@@ -255,3 +255,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) For information about a specific caveat, enter the bug ID number ( CSCxxnnnnn ) in the Search for field, and press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

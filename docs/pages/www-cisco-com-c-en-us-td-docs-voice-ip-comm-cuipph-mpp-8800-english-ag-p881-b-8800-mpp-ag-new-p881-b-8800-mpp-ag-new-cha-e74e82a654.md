@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-new-cha-e74e82a654
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_new_chapter_010010.html
-retrieved_at: 2026-08-21T09:57:13.450140+00:00
+retrieved_at: 2026-09-30T20:01:28.343919+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -442,3 +442,7 @@ sub=group_vm@domain;vid=1;nme=Group;</Extended_Function_2_> |
 | Label | The label of the PLK. For example, VM 3300. If this parameter is missing, the key displays the name part of the User ID parameter. This parameter is optional. |
 | User ID | The SIP address of a voicemail account. For example, 4085283300@$PROXY. This parameter is mandatory. |
 | Number | The speed dial number or the SIP URI. For example, 8000 ,3300#,123456# |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

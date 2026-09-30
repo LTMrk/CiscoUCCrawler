@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-chapter-0e773af01f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_chapter_0101.html
-retrieved_at: 2026-08-21T09:57:23.226447+00:00
+retrieved_at: 2026-09-30T20:00:58.784384+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -6142,3 +6142,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-seri
 | Important | If you change any of the service activation codes used by executives or assistants, you must update the corresponding settings
                                                          in BroadWorks. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

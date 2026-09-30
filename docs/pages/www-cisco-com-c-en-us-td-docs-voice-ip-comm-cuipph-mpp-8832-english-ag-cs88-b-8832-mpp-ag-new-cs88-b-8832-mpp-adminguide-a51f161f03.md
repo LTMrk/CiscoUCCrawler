@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-a51f161f03
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01011.html
-retrieved_at: 2026-08-21T13:50:26.360590+00:00
+retrieved_at: 2026-09-30T20:05:59.790506+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -2637,3 +2637,7 @@ vid=<extension_n_to_be_associated> The PSK softkey toggle always starts with the
 | xfer | Transfer | Performs a call transfer. Requires that Attn Xfer Serv is enabled and there is at least one connected call and one idle call. | Connected, Start-Xfer, Start-Conf |
 | xferlx | Xfer line | Transfers an active line on the phone to a called number. Requires that Attn Xfer Serv is enabled and there are two or more
                                              calls that are active or on hold. | Connected Connected Video |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

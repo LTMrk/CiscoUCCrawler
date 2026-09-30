@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-7832-firmware-11-3-1sr4-cs78-b-7832mpp-rn-1131-sr4-html-8b40d8f70f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/7832/firmware/11-3-1sr4/cs78_b_7832mpp-rn-1131_sr4.html
-retrieved_at: 2026-09-01T17:21:25.325108+00:00
+retrieved_at: 2026-09-30T19:59:34.229315+00:00
 ---
 
 Cisco IP Conference Phone 7832 Multiplatform Phones Release Notes for Firmware Release 11.3(1)SR4
@@ -151,3 +151,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 
 | Note | Specify the <file name>.loads file in the URL. The <file name>.zip file contains other files. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

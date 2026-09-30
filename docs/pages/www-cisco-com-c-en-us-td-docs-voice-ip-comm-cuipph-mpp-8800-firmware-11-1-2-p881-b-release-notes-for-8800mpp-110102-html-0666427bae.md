@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-firmware-11-1-2-p881-b-release-notes-for-8800mpp-110102-html-0666427bae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/11-1-2/p881_b_release_notes_for_8800mpp_110102.html
-retrieved_at: 2026-08-21T13:45:13.146416+00:00
+retrieved_at: 2026-09-30T20:03:37.763295+00:00
 ---
 
 Cisco IP Phone 8800 Series with Multiplatform Firmware Release Notes for Firmware Release 11.1(2)
@@ -688,3 +688,9 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Note | Some caveats only apply to specific Cisco IP Phone 8800 Series with Multiplatform Firmware phones. The list annotates these
                                     caveats using this notation: [8845 and 8865 only] . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Headset USB Adapter](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425275.eps/_jcr_content/renditions/425275.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

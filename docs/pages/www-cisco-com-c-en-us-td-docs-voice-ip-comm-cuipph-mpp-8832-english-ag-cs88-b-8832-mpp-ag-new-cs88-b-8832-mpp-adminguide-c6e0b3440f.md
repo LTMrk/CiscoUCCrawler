@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-c6e0b3440f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_010001.html
-retrieved_at: 2026-08-21T13:50:53.185166+00:00
+retrieved_at: 2026-09-30T20:05:36.338031+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -418,3 +418,7 @@ In this file, tags Reboot_Reason_1 to Reboot_Reason_3 store the reboot history, 
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

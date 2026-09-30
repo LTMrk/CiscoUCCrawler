@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-provisioning-p881-b-mpp-8800-provisioning-guide-p881-5b5c4e7d6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/provisioning/p881_b_mpp-8800-provisioning-guide/p881_b_mpp-8800-provisioning-guide_chapter_010.html
-retrieved_at: 2026-08-21T02:34:56.909669+00:00
+retrieved_at: 2026-09-30T20:02:40.554912+00:00
 ---
 
 Cisco IP Phone 8800 Series and Cisco IP Conference Phone 8832 Multiplatform Phones Provisioning Guide
@@ -455,3 +455,7 @@ Log_Failure_Msg
 | Note | When a phone connects to a network for the first time or after a factory reset, and there are no DHCP options set up, it contacts
                                                             a device activation server for zero touch provisioning. New phones use "activate.cisco.com" instead of "webapps.cisco.com" for provisioning. Phones with firmware release earlier than 11.2(1) continues to use "webapps.cisco.com" . We recommend that you allow both the domain names through your firewall. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

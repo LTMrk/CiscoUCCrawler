@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-new-cha-a94f4e777e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_new_chapter_01110.html
-retrieved_at: 2026-08-21T09:57:04.890944+00:00
+retrieved_at: 2026-09-30T20:02:03.129006+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -680,3 +680,7 @@ Default parameter = 0 (no periodic SIP Publish Message)
 | Voice Quality Report Address | Allows you to enter one of the following options: Domain Name IP address The SIP UDP port number along with the domain name In the phone XML configuration file (cfg.xml), enter a string in this format: <Voice_Quality_Report_Address_1_ ua="na">fake_vq_collector</Voice_Quality_Report_Address_1_> Default parameter = empty (no report) Default SIP UDP Port = 5060 |
 | Voice Quality Report Group | Allows you to enter a voice quality report name. Your report name cannot begin with a: hyphen (-) semicolon (;) space In the phone XML configuration file (cfg.xml), enter a string in this format: <Voice_Quality_Report_Group_1_ ua="na">test-group-1</Voice_Quality_Report_Group_1_> Default parameter = empty (The report will use the canonical name in the form of identifier@ipAddress .) |
 | Voice Quality Report Interval | Allows you to determine when the phones send SIP Publish messages. If you have properly configured the Voice Quality Report Address , the SIP Publish messages can be sent: When the call has ended or is placed on hold. Periodically, when you enter an interval in seconds for this parameter. Example: 20 for 20-second intervals. In the phone XML configuration file (cfg.xml), enter a string in this format: <VQ_Report_Interval_1_ ua="na">20</VQ_Report_Interval_1_> Default parameter = 0 (no periodic SIP Publish Message) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

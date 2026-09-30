@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--4ab8083e45
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_010.html
-retrieved_at: 2026-08-21T02:38:59.158777+00:00
+retrieved_at: 2026-09-30T20:06:51.916721+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -1461,3 +1461,7 @@ XML Directory
 | Step 3 | Select the XML directory. By default, the directory name is "Corporate directory (XML)" . |
 | Step 4 | In the Directories screen, use the outer ring of the navigation cluster to highlight an entry. The phone displays an entry together with one or more contact numbers. |
 | Step 5 | Do one of the following actions: If the entry contains only one contact number: Press Edit call . Edit the number as necessary. Press Call . If the entry contains multiple contact numbers (separated by comma) and you want to edit one of the contact numbers: Press the Select button of the Navigation Cluster to view details of the highlighted entry. In the Corporate directory (XML) address entry screen, use the outer ring of the navigation cluster to highlight a contact number. An entry can contain up to 5 contact numbers. Press Edit call . Edit the number as necessary. Press Call . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

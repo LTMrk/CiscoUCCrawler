@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-c50d3546c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01001.html
-retrieved_at: 2026-08-21T13:50:16.969302+00:00
+retrieved_at: 2026-09-30T20:05:42.924423+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -5992,3 +5992,7 @@ num=800;listen=yes;pri=1;codec=g722</Group_1_Paging_Script> In the phone web int
 |---|---|
 | Step 2 | In the LDAP section, set the parameter Unified Search Enable to Yes to enable the LDAP unified search. If the parameter is set to Yes , the phone transfers requests with OR filter. If you set the value to No , the phone uses simple or advanced search and transfers requests with AND filter. Default value is No . You can configure this parameter in the phone configuration XML file (cfg.xml) by entering a string in this format: <LDAP_Unified_Search_Enable>Yes</LDAP_Unified_Search_Enable> Conditions based on Browse Mode Enable and Unified Search Enable parameter values: Browse Mode Enable parameter is No and Unified Search Enable parameter is No －when the user chooses the LDAP directory on the phone, the Query LDAP server screen displays Simple search and Advanced search menus. Browse Mode Enable parameter is No and Unified Search Enable parameter is Yes －when the user chooses the LDAP directory, the phone navigates to the LDAP query form (unified search screen) directly. If there is no value in the search box, the search displays all contacts in the directory. Browse Mode Enable parameter is Yes and Unified Search Enable parameter is No －when the user navigates to the LDAP directory and clicks the Option softkey, the phone displays the Simple search and the Advanced search menus. Browse Mode Enable parameter is Yes and Unified Search Enable parameter is Yes －when the user navigates to the LDAP directory and clicks the Option softkey, the phone displays only one Search menu. After clicking the Search menu, the unified search screen LDAP query form appears. |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

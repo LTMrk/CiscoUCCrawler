@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--35fa3961bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_011.html
-retrieved_at: 2026-08-21T02:39:02.918326+00:00
+retrieved_at: 2026-09-30T20:06:59.795084+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -449,3 +449,7 @@ Press OK .
 | Step 3 | Select All calls . |
 | Step 4 | Press Option and select Delete all . |
 | Step 5 | Press OK . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

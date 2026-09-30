@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--1378e3080c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0111.html
-retrieved_at: 2026-08-21T02:39:16.091209+00:00
+retrieved_at: 2026-09-30T20:07:08.476655+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -352,3 +352,23 @@ https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cuipph/8832/regulatory_c
 | Model | Certificate Number |
 |---|---|
 | 8832 |  |
+
+## Figuras
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Cisco IP Conference Phone 8832 Telepermit](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425008.jpg)
+
+![DGT statement 1](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/197001-198000/197048.tif/_jcr_content/renditions/197048.jpg)
+
+![DGT statement 2](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425011.jpg)
+
+![DGT statement 3](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425010.jpg)
+
+![Warnings in Chinese](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/435001-436000/435060.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![EAC logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391859.tif/_jcr_content/renditions/391859.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

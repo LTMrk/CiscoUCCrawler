@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-new-cha-41f56eabcd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_new_chapter_010111.html
-retrieved_at: 2026-08-21T09:56:25.632926+00:00
+retrieved_at: 2026-09-30T20:01:53.815621+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -1523,3 +1523,7 @@ Auto Detection of Key Expansion Modules
 | Added information on a star code is added to Conference hard key from the phone web page | Enable Conference Button with a Star Code |
 | Logo can be added as boot display | Add a Logo as the Boot Display |
 | Key expansion modue will be auto-detected when plugged in | Auto Detection of Key Expansion Modules |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

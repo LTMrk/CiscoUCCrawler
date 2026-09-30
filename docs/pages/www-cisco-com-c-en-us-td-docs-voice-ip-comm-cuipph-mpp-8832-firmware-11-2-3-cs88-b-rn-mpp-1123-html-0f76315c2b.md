@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-firmware-11-2-3-cs88-b-rn-mpp-1123-html-0f76315c2b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/firmware/11-2-3/cs88_b_rn-mpp-1123.html
-retrieved_at: 2026-08-21T13:43:28.468978+00:00
+retrieved_at: 2026-09-30T20:07:12.360951+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Release Notes for Firmware Release 11.2(3)
@@ -172,3 +172,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 
 | Note | Specify the <file name>.loads file in the URL. The <file name>.zip file contains other files. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

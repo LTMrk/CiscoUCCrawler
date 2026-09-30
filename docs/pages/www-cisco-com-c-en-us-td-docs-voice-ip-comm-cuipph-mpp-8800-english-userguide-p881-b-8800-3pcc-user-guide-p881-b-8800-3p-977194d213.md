@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-userguide-p881-b-8800-3pcc-user-guide-p881-b-8800-3p-977194d213
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/userguide/p881_b_8800-3pcc-user-guide/p881_b_8800-3pcc-user-guide-110_chapter_01.html
-retrieved_at: 2026-08-21T02:35:32.038630+00:00
+retrieved_at: 2026-09-30T20:02:54.653016+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones User Guide
@@ -2782,3 +2782,7 @@ Do one of the following actions:
 
 | Do one of the following actions: Hang up the handset. Press Release . Answer another call on the desk phone. |
 |---|
+
+## Figuras
+
+![Figure 1. Call Park in Call Park Extensions](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446810.jpg)

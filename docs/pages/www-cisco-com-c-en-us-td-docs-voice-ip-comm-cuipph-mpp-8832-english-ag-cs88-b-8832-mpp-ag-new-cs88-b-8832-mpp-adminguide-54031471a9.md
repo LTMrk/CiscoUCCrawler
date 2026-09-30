@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-54031471a9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01000.html
-retrieved_at: 2026-08-21T13:50:10.120008+00:00
+retrieved_at: 2026-09-30T20:05:28.653159+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -1480,3 +1480,7 @@ Further information regarding U.S. export regulations can be found at https://ww
                                              requires. This parameter is configured according to the actual behaviour of the proxy server. If you set the parameter to Yes , you must configure Username and Password . For details about the parameters, see Username and Password . The parameter configuration takes effect when Proxy Mode is set to Manual . Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <Proxy_Server_Requires_Authentication ua="rw">No</Proxy_Server_Requires_Authentication> On the phone web interface, set this field Yes or No as needed. Allowed values: Yes and No Default: No |
 | Username | Username for a credential user on the proxy server. If Proxy Mode is set to Manual and Proxy Server Requires Authentication is set to Yes , you must configure the parameter. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <Proxy_Username ua="rw">Example</Proxy_Username> On the phone web interface, enter the username. Default: Empty |
 | Password | Password of the specified username for the proxy authentication purpose. If Proxy Mode is set to Manual and Proxy Server Requires Authentication is set to Yes , you must configure the parameter. Perform one of the following: In the phone configuration file with XML(cfg.xml), enter a string in this format: <Proxy_Password ua="rw">Example</Proxy_Password> On the phone web interface, enter a valid password for the proxy authentication of the user. Default: Empty |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

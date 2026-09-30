@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-8abd06ee6b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01010.html
-retrieved_at: 2026-08-21T13:50:20.696971+00:00
+retrieved_at: 2026-09-30T20:05:54.802712+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -434,3 +434,7 @@ Telecom Use the + character to add spaces for formatting. You can add multiple +
 |---|---|
 | Step 2 | In the Supplementary Services section, set the parameter Keep Focus On Active Call to Yes . You can also configure this parameter in the configuration file: <Keep_Focus_On_Active_Call ua="na">Yes</Keep_Focus_On_Active_Call> Allowed values: Yes and No Default: No |
 | Step 3 | Click Submit All Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-a2b0033213
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_010000.html
-retrieved_at: 2026-08-21T13:50:49.268768+00:00
+retrieved_at: 2026-09-30T20:05:32.435925+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -569,3 +569,7 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-seri
 
 | Note | Voice quality metrics do not account for noise or distortion, only frame loss. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

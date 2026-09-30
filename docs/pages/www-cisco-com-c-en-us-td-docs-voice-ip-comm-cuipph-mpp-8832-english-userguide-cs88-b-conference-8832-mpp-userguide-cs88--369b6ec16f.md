@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-userguide-cs88-b-conference-8832-mpp-userguide-cs88--369b6ec16f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/userguide/cs88_b_conference-8832-mpp-userguide/cs88_b_conference-8832-user-guide_chapter_0110.html
-retrieved_at: 2026-08-21T02:39:12.229475+00:00
+retrieved_at: 2026-09-30T20:07:04.615899+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phone User Guide
@@ -1313,3 +1313,7 @@ The font size change is applied immediately.
 |---|---|
 | Step 2 | Select Accessibility > Font size . |
 | Step 3 | Press the Select button to check the font size options. Press Set to choose and save a font size. Regular Large The font size change is applied immediately. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

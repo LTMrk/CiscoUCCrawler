@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-firmware-11-1-1sr1-p881-b-release-notes2-8800mpp-110101sr1-h-5ea442075e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/firmware/11-1-1sr1/p881_b_release_notes2_8800mpp_110101sr1.html
-retrieved_at: 2026-08-21T13:45:21.472260+00:00
+retrieved_at: 2026-09-30T20:03:28.822546+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phones Release Notes for Firmware Release 11.1(1)SR1
@@ -289,3 +289,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 
 | Note | Seven caveats apply only to the Cisco IP 8845 and 8865 Multiplatform Phones. The list annotates these caveats as [8845 and 8865 only] . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

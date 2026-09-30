@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-firmware-11-3-4-cs88-b-8832mpp-rn-1134-html-e2431e8f64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/firmware/11-3-4/cs88_b_8832mpp-rn-1134.html
-retrieved_at: 2026-08-21T13:42:55.198843+00:00
+retrieved_at: 2026-09-30T20:07:45.789256+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Release Notes for Firmware Release 11.3(4)
@@ -442,3 +442,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 |---|---|
 | Step 2 | When prompted, log in with your Cisco.com user ID and password. |
 | Step 3 | (Optional) For information about a specific caveat, enter the bug ID number ( CSCxxnnnnn ) in the Search for field, and press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

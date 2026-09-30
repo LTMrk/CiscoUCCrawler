@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-ag-new-cha-5752886a81
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-ag_new_chapter_010010.html
-retrieved_at: 2026-08-21T13:49:35.206877+00:00
+retrieved_at: 2026-09-30T20:06:31.015118+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -202,3 +202,15 @@ Voice Messaging System
 |---|---|
 | Message Indicators | Message Waiting Indicator (MWI) |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 2. Cisco IP Conference Phone 8832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393989.eps/_jcr_content/renditions/393989.jpg)
+
+![Figure 3. Wired Expansion Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393622.eps/_jcr_content/renditions/393622.jpg)
+
+![Figure 4. Wireless Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393702.jpg)
+
+![Figure 5. Wireless Microphone Mounted on the Charging Cradle](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393701.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

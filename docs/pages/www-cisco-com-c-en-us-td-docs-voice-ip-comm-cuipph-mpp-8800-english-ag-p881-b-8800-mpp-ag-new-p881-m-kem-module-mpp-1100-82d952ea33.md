@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-m-kem-module-mpp-1100-82d952ea33
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_m_kem-module-mpp-1100.html
-retrieved_at: 2026-08-21T02:36:04.438025+00:00
+retrieved_at: 2026-09-30T20:02:15.460765+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -1030,3 +1030,11 @@ sub=group_vm@domain;vid=1;nme=Group;</Unit_1_Key_1_> |
 | Step 3 | Enter ? to see all available commands and options. |
 | Step 4 | Use the applicable commands and options to find the desired information. |
 | Step 5 | To exit debug mode, press Ctrl-C . |
+
+## Figuras
+
+![Figure 1. Key Expansion Module with Single LCD Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394017.tif/_jcr_content/renditions/394017.jpg)
+
+![Figure 2. Cisco IP Phone 8851/8861 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394009.tif/_jcr_content/renditions/394009.jpg)
+
+![Figure 3. Cisco IP Phone 8865 Key Expansion Module with Dual Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393993.tif/_jcr_content/renditions/393993.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8832-english-ag-cs88-b-8832-mpp-ag-new-cs88-b-8832-mpp-adminguide-34411f538b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8832/english/AG/cs88_b_8832-mpp-ag_new/cs88_b_8832-mpp-adminguide_chapter_01111.html
-retrieved_at: 2026-08-21T13:50:45.503055+00:00
+retrieved_at: 2026-09-30T20:06:26.278622+00:00
 ---
 
 Cisco IP Conference Phone 8832 Multiplatform Phones Administration Guide for Release 11.3(1) and Later
@@ -5041,3 +5041,11 @@ https://www.cisco.com/c/en/us/support/collaboration-endpoints/ip-phone-8800-seri
                                              such as *72‘c‘\|*67‘p‘. Below are a list of allowed tone parameters (note the use of back quotes surrounding the parameter
                                              without spaces) • c = Cfwd Dial Tone • d = Dial Tone • m = MWI Dial Tone • o = Outside Dial Tone • p = Prompt Dial Tone • s = Second Dial Tone • x = No tones are place, x is any digit not used above If no tone parameter is specified, the phone plays Prompt tone by default. If the *code is not to be followed by a phone number, such as *73 to cancel call forward, do not include it in this parameter.
                                              In that case, simple add that *code in the dial plan and the phone sends INVITE *73@..... as usual when user dials *73. |
+
+## Figuras
+
+![Cisco IP Conference Phone 8832 PoE Injector with the PoE power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393676.eps/_jcr_content/renditions/393676.jpg)
+
+![Cisco IP Conference Phone 8832 Ethernet Injector with the PoE power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393619.eps/_jcr_content/renditions/393619.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

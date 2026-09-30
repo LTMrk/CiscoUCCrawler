@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-mpp-8800-english-ag-p881-b-8800-mpp-ag-new-p881-b-8800-mpp-ag-new-cha-1d7a1605e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/MPP/8800/english/AG/p881_b_8800-mpp-ag_new/p881_b_8800-mpp-ag_new_chapter_010101.html
-retrieved_at: 2026-08-21T09:57:30.563380+00:00
+retrieved_at: 2026-09-30T20:01:41.011379+00:00
 ---
 
 Cisco IP Phone 8800 Series Multiplatform Phone Administration Guide for Release 11.3(1) and Later
@@ -422,3 +422,7 @@ In this file, tags Reboot_Reason_1 to Reboot_Reason_3 store the reboot history, 
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
