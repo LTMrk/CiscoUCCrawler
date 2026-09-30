@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--7c05712ff4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_010.html
-retrieved_at: 2026-08-21T09:53:54.090153+00:00
+retrieved_at: 2026-09-30T19:36:11.960005+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -1685,3 +1685,25 @@ If there is more than one device for the user, select the device to replace and 
 | Step 5 | If the old phone had a PIN assigned, enter the PIN. |
 | Step 6 | Press Submit . |
 | Step 7 | If there is more than one device for the user, select the device to replace and press Continue . |
+
+## Figuras
+
+![Cisco IP Conference Phone 8832 PoE Injector with the PoE power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393676.eps/_jcr_content/renditions/393676.jpg)
+
+![Cisco IP Conference Phone 8832 Ethernet Injector with the PoE power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393619.eps/_jcr_content/renditions/393619.jpg)
+
+![Cisco IP Conference Phone 8832 Non-PoE Ethernet Injector with the Ethernet power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393705.eps/_jcr_content/renditions/393705.jpg)
+
+![Cisco IP Conference Phone 8832 Ethernet Injector with the Ethernet power option](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393620.eps/_jcr_content/renditions/393620.jpg)
+
+![Figure 3. Conference Phone Power Option When Connected to a Wi-Fi Network](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393621.eps/_jcr_content/renditions/393621.jpg)
+
+![Figure 4. Conference Phone Power Option in Daisy Chain Mode. The following figure shows the power option when the phone is connected in daisy chain mode.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393700.eps/_jcr_content/renditions/393700.jpg)
+
+![Figure 5. Wired Expansion Microphone Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393725.eps/_jcr_content/renditions/393725.jpg)
+
+![Figure 6. Wireless Microphone Charging Cradle Installation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393724.eps/_jcr_content/renditions/393724.jpg)
+
+![Figure 7. Smart Adapter Power Port and LAN Port](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393766.eps/_jcr_content/renditions/393766.jpg)
+
+![Figure 10. Conference Phone Installation in Daisy Chain Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393700.eps/_jcr_content/renditions/393700.jpg)

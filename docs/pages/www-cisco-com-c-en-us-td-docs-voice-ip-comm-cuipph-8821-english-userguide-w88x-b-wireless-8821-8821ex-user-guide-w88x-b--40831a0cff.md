@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--40831a0cff
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_00.html
-retrieved_at: 2026-08-20T20:45:28.623135+00:00
+retrieved_at: 2026-09-30T19:29:46.319179+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX User Guide
@@ -1192,3 +1192,77 @@ The warranty period of the battery is 6 months after the manufacturing date.
                                              water into the battery compartment, make sure that the compartment
                                              is tightly closed. See Install the Cisco Wireless IP Phone 8821 Battery . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Wireless IP Phone 8821 and 8821-EX](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393165.tif/_jcr_content/renditions/393165.jpg)
+
+![Figure 2. Cisco Wireless IP Phone 8821 Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393155.tif/_jcr_content/renditions/393155.jpg)
+
+![protective cover over the headset port](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393187.eps/_jcr_content/renditions/393187.jpg)
+
+![small round button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/180001-181000/180390.ps/_jcr_content/renditions/180390.jpg)
+
+![round button surrounded by a 4 way ring](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393157.tif/_jcr_content/renditions/393157.jpg)
+
+![press up for Recents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393190.tif/_jcr_content/renditions/393190.jpg)
+
+![press left for Contacts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393191.tif/_jcr_content/renditions/393191.jpg)
+
+![press right for Apps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393193.tif/_jcr_content/renditions/393193.jpg)
+
+![press down for Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393194.tif/_jcr_content/renditions/393194.jpg)
+
+![small oblong button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/187001-188000/187840.eps/_jcr_content/renditions/187840.jpg)
+
+![long rocker button, press up to increase and press down to decrease](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380610.tif/_jcr_content/renditions/380610.jpg)
+
+![small round button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/187001-188000/187511.eps/_jcr_content/renditions/187511.jpg)
+
+![Navigation Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393226.eps/_jcr_content/renditions/393226.jpg)
+
+![outline of a speaker](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393167.tif/_jcr_content/renditions/393167.jpg)
+
+![headset](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393168.tif/_jcr_content/renditions/393168.jpg)
+
+![microphone with a line through it](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393169.tif/_jcr_content/renditions/393169.jpg)
+
+![bell with a link through it](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/424001-425000/424398.jpg)
+
+![Bluetooth icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393177.tif/_jcr_content/renditions/393177.jpg)
+
+![dark oval with Bluetooth icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393178.tif/_jcr_content/renditions/393178.jpg)
+
+![oulined oval with Bluetooth icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393179.tif/_jcr_content/renditions/393179.jpg)
+
+![wi-fi icon with 4 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393180.tif/_jcr_content/renditions/393180.jpg)
+
+![wi-fi icon with 3 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393183.tif/_jcr_content/renditions/393183.jpg)
+
+![wi-fi icon with 2 active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393182.tif/_jcr_content/renditions/393182.jpg)
+
+![wi-fi icon with 1 active bar](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393181.tif/_jcr_content/renditions/393181.jpg)
+
+![wi-fi icon with no active bars](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393184.tif/_jcr_content/renditions/393184.jpg)
+
+![network icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393186.tif/_jcr_content/renditions/393186.jpg)
+
+![battery: all green](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393176.tif/_jcr_content/renditions/393176.jpg)
+
+![battery: three quarters green](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393171.tif/_jcr_content/renditions/393171.jpg)
+
+![battery: half green](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393172.tif/_jcr_content/renditions/393172.jpg)
+
+![battery: one quarter green](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393173.tif/_jcr_content/renditions/393173.jpg)
+
+![battery: one quarter red](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393174.tif/_jcr_content/renditions/393174.jpg)
+
+![battery outline](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393175.tif/_jcr_content/renditions/393175.jpg)
+
+![battery outline with question mark](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393170.tif/_jcr_content/renditions/393170.jpg)
+
+![Figure 3. Application View](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422728.jpg)
+
+![Figure 4. Line View](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422729.jpg)
+
+![graphic representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393677.eps/_jcr_content/renditions/393677.jpg)

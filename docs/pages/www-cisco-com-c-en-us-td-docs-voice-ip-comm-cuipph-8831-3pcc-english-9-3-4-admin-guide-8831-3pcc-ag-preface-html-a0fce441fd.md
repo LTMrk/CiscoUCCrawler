@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-preface-html-a0fce441fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/preface.html
-retrieved_at: 2026-08-21T02:09:09.219947+00:00
+retrieved_at: 2026-09-30T19:34:00.257433+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -104,3 +104,7 @@ A code sample or system output.
 | <parameter> | Angle brackets (<>) identify parameters that appear on the configuration pages of the administration web server. |
 | Italic | A variable that should be replaced with a literal value. |
 | Monospaced Font | A code sample or system output. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

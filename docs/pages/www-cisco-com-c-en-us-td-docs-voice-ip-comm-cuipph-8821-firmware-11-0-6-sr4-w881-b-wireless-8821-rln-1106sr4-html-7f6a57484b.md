@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-firmware-11-0-6-sr4-w881-b-wireless-8821-rln-1106sr4-html-7f6a57484b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR4/w881-b-wireless-8821-rln-1106sr4.html
-retrieved_at: 2026-08-21T13:34:35.683271+00:00
+retrieved_at: 2026-09-30T19:31:50.676635+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Release Notes for Firmware Release 11.0(6)SR4
@@ -466,3 +466,7 @@ For information on the support policy for phones, see the Cisco IP Phone Firmwar
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

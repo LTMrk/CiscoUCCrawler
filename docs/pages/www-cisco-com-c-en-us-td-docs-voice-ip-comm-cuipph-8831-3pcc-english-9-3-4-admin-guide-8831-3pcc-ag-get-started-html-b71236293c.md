@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-get-started-html-b71236293c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/get-started.html
-retrieved_at: 2026-08-21T02:09:13.551596+00:00
+retrieved_at: 2026-09-30T19:33:56.156656+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -196,3 +196,7 @@ Refer to the Cisco Unified IP Conference Phone 8831 for Third-Party Call Control
 | RC | The reboot was triggered as a result of remote customization. |
 | User Triggered | The user manually triggered a cold reboot. |
 | IP Changed | The reboot was triggered after the phone IP address was changed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-5fc6495bab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_0100.html
-retrieved_at: 2026-08-21T02:08:39.037087+00:00
+retrieved_at: 2026-09-30T19:33:26.177454+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -50,3 +50,9 @@ You may need
 | Press Msgs to listen to voice messages. You may need
                                           				to press More first. |
 |---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

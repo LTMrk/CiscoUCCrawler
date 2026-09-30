@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--aea01fce78
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_011.html
-retrieved_at: 2026-08-21T01:57:12.827522+00:00
+retrieved_at: 2026-09-30T19:30:15.097329+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX User Guide
@@ -324,3 +324,7 @@ Press Clear to confirm the deletion.
 | Step 3 | Select a line or All recents . |
 | Step 4 | Press More and select Clear List . |
 | Step 5 | Press Clear to confirm the deletion. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

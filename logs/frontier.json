@@ -1,485 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR1/cs88_b_8832-rn-1431sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-3-1SR1/p881_b_8800-rn-1431sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14-4/p881_b_8800-rn-1441.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1/p881_b_release-notes-for-140.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR1/p881_b_release-notes-1401sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR2/p881_b_cisco-ip-phone-8800-release.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/releasenotes/p881_b_cisco-ip-phone-8800-series.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-2-2/releasenotes/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2/P881_BK_81C61BA9_00_8800-phone-series-rn-10_2_2_index.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-3-1/releasenotes/P881_BK_CA4C768A_00_cisco-ip-phone-8800-series.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix/w88x_m_wireless-8821-8821ex-compatibility-matrix.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01000.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01001.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_0110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01100.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_0111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01000.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01001.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_0101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_0110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_0111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR1/w88x_b_cisco-8821-rns-110002sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR2/w88x_b_cisco-8821-rns-110002sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2/w882_b_cisco-8821-rns-110002.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR1/w881_b_cisco-8821-rns-110003sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR2/w881_b_cisco-8821-rns-110003sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR3/w881_b_cisco-8821-rns-110003sr3.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR4/w881_b_cisco-8821-rns-110003sr4.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR5/w881_b_cisco-8821-rns-110003sr5.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR6/w881_b_cisco-8821-rns-110003sr6.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3/w881_b_cisco-8821-rns-110003.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr1/w881_b_wireless-8821-rns-110004sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr3/w881_b_wireless-8821-rns-110004sr3.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4/w881_b_wireless-8821-rns-110004.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5-SR3/w881_b_wireless-8821-rns-110005sr3.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR4/w881-b-wireless-8821-rln-1106sr4.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR5/w881-b-wireless-8821-rln-1106sr5.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01100.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_0100.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_01000.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_01001.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_0101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_0110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_0111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_01110.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_01111.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_0100.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01000.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01001.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_0101.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_011.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/dial-plan.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/field-reference.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/get-started.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/preface.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/provisioning.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/regional.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/related-doc.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/security-quality.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/sip.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/standard-features.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/release-notes/8831-3pcc-934-rn.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Deployment.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Preface.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Provisioning_Appendix_WhereToGo.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Reference.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Scripting.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Server.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Tutorial.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/acronyms.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/spc_ex.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/firmware/9-3-4-sr2/cs38_b_phone-8831-3pcc-release-934sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr1/english/release-notes/CS38_BK_826679D6_00_8831-rns-10_3_1sr1.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr2/english/release-notes/cs38_b_phone-8831-release-notes-1031sr2.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr6/cs38_b_rns-8831-1031sr6.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1sr7/releasenotes/cs38_b_cisco-unified-ip-conference-phone.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_2-8831_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_3-8831_index.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_00.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_01.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_010.html",
-    "depth": 0
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_0100.html",
-    "depth": 0
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_01000.html",
     "depth": 0
   },
@@ -20325,6 +19845,350 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/12-8-1/p881_b_rns-8800-1281.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/9-1-1/CUIP_BK_P82B3B16_00_phones-services-application-development-notes/CUIP_BK_P82B3B16_00_phones-services-application-development-notes_chapter_011.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR2/p881_b_cisco-ip-phone-8800-release.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/14_0_1SR2/p881_b_cisco-ip-phone-8800-release.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/releasenotes/p881_b_cisco-ip-phone-8800-series.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8800-series/firmware/releasenotes/p881_b_cisco-ip-phone-8800-series.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-3-1/releasenotes/P881_BK_CA4C768A_00_cisco-ip-phone-8800-series.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8811_8841_8851_8861/firmware/10-3-1/releasenotes/P881_BK_CA4C768A_00_cisco-ip-phone-8800-series.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/214638-how-to-download-certificates-from-cisco.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/feature/phone_feature/phone_feature_support_guide.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucme/admin/configuration/manual/cmeadm.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR2/w88x_b_cisco-8821-rns-110002sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-2-SR2/w88x_b_cisco-8821-rns-110002sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-8800-series/products-maintenance-guides-list.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR2/w881_b_cisco-8821-rns-110003sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR2/w881_b_cisco-8821-rns-110003sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR4/w881_b_cisco-8821-rns-110003sr4.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR4/w881_b_cisco-8821-rns-110003sr4.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR5/w881_b_cisco-8821-rns-110003sr5.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR5/w881_b_cisco-8821-rns-110003sr5.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR6/w881_b_cisco-8821-rns-110003sr6.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-3-SR6/w881_b_cisco-8821-rns-110003sr6.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr1/w881_b_wireless-8821-rns-110004sr1.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr1/w881_b_wireless-8821-rns-110004sr1.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr2/w881_b_wireless-8821-rns-110004sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr3/w881_b_wireless-8821-rns-110004sr3.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4-sr3/w881_b_wireless-8821-rns-110004sr3.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4/w881_b_wireless-8821-rns-110004.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-4/w881_b_wireless-8821-rns-110004.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5/w881_b_wireless-8821-rns-110005.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr1/w881_b_wireless-8821-rns-110005sr1.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-5sr2/w881_b_wireless-8821-rns-110005sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR1/w881-b-wireless-8821-rln-1106sr1.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6-SR2/w881-b-wireless-8821-rln-1106sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/firmware/11-0-6/w881_b_wireless-8821-rns-110006.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/all_models/xsi/9-1-1/CUIP_BK_P82B3B16_00_phones-services-application-development-notes/CUIP_BK_P82B3B16_00_phones-services-application-development-notes1_chapter_0101.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-8800-series/211425-Perform-a-Hard-Factory-Reset-on-an-8831.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/release-notes/8831-3pcc-934-rn.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/release-notes/8831-3pcc-934-rn.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/firmware/9-3-4-sr2/cs38_b_phone-8831-3pcc-release-934sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/firmware/9-3-4-sr2/cs38_b_phone-8831-3pcc-release-934sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr1/english/release-notes/CS38_BK_826679D6_00_8831-rns-10_3_1sr1.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr1/english/release-notes/CS38_BK_826679D6_00_8831-rns-10_3_1sr1.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr2/english/release-notes/cs38_b_phone-8831-release-notes-1031sr2.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr2/english/release-notes/cs38_b_phone-8831-release-notes-1031sr2.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr4b/cs38_b_rns-8831-883nr-1031sr4b.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr5/cs38_b_rns-8831-8831nr-1031sr5.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1/english/release_note/CS38_BK_CF3CC967_00_cisco-unified-ip-conference-phone.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831.mobi",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.html",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.epub",
+    "depth": 1
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm.mobi",
     "depth": 1
   }
 ]

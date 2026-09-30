@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-compatibility-w88x-b-wireless-8821-8821ex-compatibility--cd0dd4f10a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/Compatibility/w88x_b_wireless-8821-8821ex-compatibility-matrix/w88x_m_wireless-8821-8821ex-compatibility-matrix.html
-retrieved_at: 2026-08-21T01:53:54.940027+00:00
+retrieved_at: 2026-09-30T19:28:38.846729+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Solution Compatibility Matrix
@@ -145,3 +145,7 @@ For Wireless IP Phone 8821 deployment guide, refer to: Cisco Wireless IP Phone 8
 
 | Note | T: Validation has been performed for this solution. N/A: Not supported solution. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

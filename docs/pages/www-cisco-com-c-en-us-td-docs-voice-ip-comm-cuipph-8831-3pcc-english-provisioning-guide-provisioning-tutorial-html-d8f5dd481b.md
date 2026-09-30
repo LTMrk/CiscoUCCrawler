@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-tutorial-html-d8f5dd481b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Tutorial.html
-retrieved_at: 2026-08-21T02:10:17.284257+00:00
+retrieved_at: 2026-09-30T19:34:59.352159+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -511,3 +511,7 @@ Step 4	Click Submit All Changes .
 The IP Telephony device now resyncs to both the first and second profiles, in that order, whenever a resync operation is due.
 
 Step 5	Observe the syslog trace to confirm the expected behavior.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-sip-html-b584df885d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/sip.html
-retrieved_at: 2026-08-21T02:09:22.036323+00:00
+retrieved_at: 2026-09-30T19:34:21.985792+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -504,3 +504,7 @@ Step 7 Configure the firewall settings on your router to allow SIP traffic. See 
 | Password | Password for this line. Defaults to blank (no password required). |
 | Auth ID | Authentication ID for SIP authentication. Defaults to blank. |
 | Reversed Auth Realm | The IP address for an authentication realm other than the proxy IP address. The default value is blank; the proxy IP address is used as the authentication realm. The parameter for extension 1 appears as follows in the phone configuration file: <Reversed_Auth_Realm_1_ ua="na"> </Reversed_Auth_Realm_1_> |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

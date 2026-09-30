@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-firmware-9-3-3-english-release-notes-new-cs38-bk-r67e3e94-00-rn--2e9daaf978
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/9_3_3/english/release_notes_new/CS38_BK_R67E3E94_00_rn-9_3_3-8831/CS38_BK_R67E3E94_00_rn-9_3_2-8831_chapter_00.html
-retrieved_at: 2026-08-25T13:52:30.617720+00:00
+retrieved_at: 2026-09-30T19:35:54.540732+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 Release Notes for Firmware Release 9.3(3)
@@ -2145,3 +2145,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | CSCue78002 | Locale: In HK, Call 2 of 2 is not translated correctly during call |
 | CSCuf52937 | LM upgrade failed due to no reboot command from primary |
 | CSCug20247 | Can't conf another conference via Calls softkey |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

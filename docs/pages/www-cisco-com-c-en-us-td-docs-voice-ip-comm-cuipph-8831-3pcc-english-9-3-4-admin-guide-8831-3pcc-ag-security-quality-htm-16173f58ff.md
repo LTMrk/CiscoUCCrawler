@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-security-quality-htm-16173f58ff
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/security-quality.html
-retrieved_at: 2026-08-21T02:09:26.077655+00:00
+retrieved_at: 2026-09-30T19:34:17.306272+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -569,3 +569,7 @@ Enter the delay in seconds for the switch to get to the forwarding state before 
 | Enable CDP | Enable CDP only if you are using a switch that has CDP. CDP is negotiation-based and determines on which VLAN the IP phone resides. |
 | Enable LLDP-MED | Choose Yes to enable LLDP-MED for the phone to advertise itself to devices that use that discovery protocol. (By default, this setting is enabled.) When the LLDP-MED feature is enabled, after the phone has initialized and Layer 2 connectivity is established, the phone sends out LLDP-MED PDU frames. If the phone receives no acknowledgment, the manually configured VLAN or default VLAN is used if applicable. If CDP is used concurrently, a waiting period of 6 seconds is used. The waiting period increases the overall startup time for the phone. |
 | Network Startup Delay | Enter the delay in seconds for the switch to get to the forwarding state before the phone sends out the first LLDP-MED packet. The default delay is 3 seconds. For configuration of some switches, it might be necessary to increase this value to a higher value for LLDP-MED to work. Configuring a delay can be important for networks that use Spanning Tree Protocol. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

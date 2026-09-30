@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-46bb997c3a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01000.html
-retrieved_at: 2026-08-21T02:08:47.986122+00:00
+retrieved_at: 2026-09-30T19:33:30.331357+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -167,3 +167,7 @@ Select a general problem from a list of categories and choose reason codes.
                                        					 model information | Choose Apps > Admin Settings > Phone
                                              						  Information , and then navigate to the item that you
                                        					 want to view. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-adminguide-cs38-bk-ad57597a-00-adminguide-8831-cs-ad8e929735
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01011.html
-retrieved_at: 2026-08-21T13:38:30.961559+00:00
+retrieved_at: 2026-09-30T19:32:07.544564+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR Administration Guide
@@ -71,3 +71,7 @@ The latest
                                           			 Locale Installer may not be immediately available; continue to check the
                                           			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

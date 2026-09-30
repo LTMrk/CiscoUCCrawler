@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-reference-html-da87100c9f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Reference.html
-retrieved_at: 2026-08-21T02:10:21.341794+00:00
+retrieved_at: 2026-09-30T19:34:46.610165+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -347,3 +347,7 @@ Dialed number invalid according to given dial plan.
 | X20 | SIP request times out while waiting for a response. |
 | X40 | General SIP protocol error (for example, unacceptable codec in SDP in 200 and ACK messages, or times out while waiting for ACK). |
 | X60 | Dialed number invalid according to given dial plan. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

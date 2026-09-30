@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-9ef4f3772b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_00.html
-retrieved_at: 2026-08-21T02:08:22.804192+00:00
+retrieved_at: 2026-09-30T19:33:13.166603+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -224,3 +224,7 @@ http://www.cisco.com/web/about/responsibility/accessibility/index.html
 | Caution | In European Union countries, use only external speakers, microphones, and headsets that are fully compliant with the EMC Directive
                                              [89/336/EC]. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

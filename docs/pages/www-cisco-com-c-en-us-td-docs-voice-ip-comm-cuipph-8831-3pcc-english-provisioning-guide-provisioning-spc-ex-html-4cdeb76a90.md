@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-spc-ex-html-4cdeb76a90
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/spc_ex.html
-retrieved_at: 2026-08-21T02:10:25.897102+00:00
+retrieved_at: 2026-09-30T19:35:07.882677+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -21,3 +21,7 @@ Sample Configuration Profiles XML Open Format Sample <?xml version="1.0" encodin
 ## Sample Configuration Profiles
 
 ## XML Open Format Sample
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-3f46b30716
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_010.html
-retrieved_at: 2026-08-21T02:08:31.023297+00:00
+retrieved_at: 2026-09-30T19:33:22.720297+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -420,3 +420,7 @@ For information on accessing and changing the Administrator Settings, contact yo
 | Step 3 | Connect the power cable to the primary device and plug into a wall plug. The secondary Sound Base does not need to be plugged into external power, but in Linked Mode the primary unit must be connected
                                              to external power. |
 | Step 4 | Use the provided daisy cable to connect the primary unit to the secondary sound base. Voice, dial tone, ringer and base LEDs synchronize between the two units. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

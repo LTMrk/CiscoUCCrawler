@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--b4769f15f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01101.html
-retrieved_at: 2026-08-21T01:56:47.588849+00:00
+retrieved_at: 2026-09-30T19:29:37.767522+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -571,3 +571,13 @@ Regulatory Compliance and Safety Information (RCSI) is located here:
 |---|---|
 | 8821 | 03114-17-01086 |
 | 8821-EX | 03114-17-01086 |
+
+## Figuras
+
+![SAR logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393241.tif/_jcr_content/renditions/393241.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--3bed9f0109
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_0111.html
-retrieved_at: 2026-08-21T01:56:26.603353+00:00
+retrieved_at: 2026-09-30T19:29:42.160233+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -1614,3 +1614,7 @@ Sender encrypted
 | Receiver report time received |  |
 | Rcvr encrypted |  |
 | Sender encrypted |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

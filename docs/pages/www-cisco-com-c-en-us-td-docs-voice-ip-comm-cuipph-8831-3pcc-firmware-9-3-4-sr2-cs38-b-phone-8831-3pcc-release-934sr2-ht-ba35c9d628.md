@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-firmware-9-3-4-sr2-cs38-b-phone-8831-3pcc-release-934sr2-ht-ba35c9d628
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/firmware/9-3-4-sr2/cs38_b_phone-8831-3pcc-release-934sr2.html
-retrieved_at: 2026-08-21T13:34:05.143528+00:00
+retrieved_at: 2026-09-30T19:35:11.710535+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third Party Call Control Release Notes for Firmware Release 9.3(4)SR2
@@ -264,3 +264,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | CSCuw96949 | Show Wireless Region Code with debugSH command 'show emic' |
 | CSCuw96967 | remove the braces around the number on 8831 display |
 | CSCux27616 | 8831 3PCC needs to prevent downgrading |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

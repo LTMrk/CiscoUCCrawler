@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-8ecef1d7b3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_01.html
-retrieved_at: 2026-08-20T20:43:22.513877+00:00
+retrieved_at: 2026-09-30T19:28:47.556389+00:00
 ---
 
 Cisco Wireless IP Phone 882x Series Accessory Guide
@@ -1390,3 +1390,67 @@ EN 60601-1-2
 | Safety | IEC 60950-1 EN 60950-1 UL 60950-1 CSA C22.2 No. 60950-1 AS/NZS 60950.1 |
 | Electromagnetic compatibility (EMC) and electromagnetic
                                           interference (EMI) | FCC Parer 15 (CFR 47) Class A ICES-003 Class A EN 55022 Class A CISPR 22 Class A AS/NZS CISPR22 VCCI Class A CSPR 24 EN 55024 EN 61000-3-2 EN 61000-3-3 EN 61000-4-2 EN 61000-4-3 EN 61000-4-4 EN 61000-4-5 EN 61000-4-6 EN 61000-4-8 EN 61000-4-11 EN 61000-6-1 EN 61000-63 EN 60601-1-2 |
+
+## Figuras
+
+![A side view of a swollen battery. The center is thicker than the edges.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443051.jpg)
+
+![another swollen battery. One side is flat, but the other side is rounded.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446029.jpg)
+
+![Phone shows that a swollen battery doesn't lie flat in the battery compartment.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443050.jpg)
+
+![Phone shows how the center of the battery back door can't close when the battery is swollen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443049.jpg)
+
+![battery on a table to show a bend](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443046.jpg)
+
+![battery with a broken end cap](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443047.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393217.eps/_jcr_content/renditions/393217.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393218.eps/_jcr_content/renditions/393218.jpg)
+
+![graphical representation of the procedure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393223.eps/_jcr_content/renditions/393223.jpg)
+
+![graphical representation of the procedure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393224.eps/_jcr_content/renditions/393224.jpg)
+
+![Figure 1. Cisco Wireless IP Phone 8821 and Cisco Wireless IP Phone 8821 Desktop Charger](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393332.eps/_jcr_content/renditions/393332.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393315.eps/_jcr_content/renditions/393315.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393311.eps/_jcr_content/renditions/393311.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393310.jpg)
+
+![Figure 2. Cisco Wireless IP Phone 8821 and Cisco Wireless IP Phone 8821 Multi Charger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414281.jpg)
+
+![graphical representation of the next substeps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393305.eps/_jcr_content/renditions/393305.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393308.eps/_jcr_content/renditions/393308.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393307.eps/_jcr_content/renditions/393307.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393309.eps/_jcr_content/renditions/393309.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414275.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414278.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414277.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414280.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414279.jpg)
+
+![Figure 3. Cisco Wireless IP Phone 8821 and Cisco Wireless IP Phone 8821 Silicone Case](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/448001-449000/448047.jpg)
+
+![graphic representation of the step](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/447001-448000/447738.jpg)
+
+![graphic representation of the step](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/447001-448000/447739.jpg)
+
+![graphic representation of the step](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/447001-448000/447740.jpg)
+
+![graphic representation of the step](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/448001-449000/448048.jpg)
+
+![picture of the lanyard](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414276.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393426.eps/_jcr_content/renditions/393426.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-adminguide-cs38-bk-ad57597a-00-adminguide-8831-cs-2736b321bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_chapter_00.html
-retrieved_at: 2026-08-21T13:37:36.755515+00:00
+retrieved_at: 2026-09-30T19:32:20.870471+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR Administration Guide
@@ -286,3 +286,7 @@ SAVE THESE INSTRUCTIONS
                                           				  statement number provided at the end of each warning to locate its translation
                                           				  in the translated safety warnings that accompanied this device. Statement 1071 SAVE THESE INSTRUCTIONS |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

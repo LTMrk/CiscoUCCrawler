@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--292d6be476
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01011.html
-retrieved_at: 2026-08-21T01:56:43.323589+00:00
+retrieved_at: 2026-09-30T19:29:20.464428+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -254,3 +254,7 @@ The primary reason that a particular headset would be
 
 | Caution | The Cisco Wireless IP Phone 8821-EX has not been tested or certified to use any Bluetooth accessories, including headsets, in hazardous environments. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

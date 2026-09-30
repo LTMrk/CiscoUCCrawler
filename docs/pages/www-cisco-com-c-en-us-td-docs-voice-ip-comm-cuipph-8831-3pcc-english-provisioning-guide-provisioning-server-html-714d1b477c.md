@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-server-html-714d1b477c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Server.html
-retrieved_at: 2026-08-21T02:10:13.168722+00:00
+retrieved_at: 2026-09-30T19:34:55.256065+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -275,3 +275,7 @@ The Cisco Client Certificate Root Authority signs each unique certificate. The c
 | 0x0062 | TLS_RSA_EXPORT1024_WITH_RC4_56_SHA |
 | 0x0060 | TLS_RSA_EXPORT1024_WITH_RC4_56_MD5 |
 | 0x0003 | TLS_RSA_EXPORT_WITH_RC4_40_MD5 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

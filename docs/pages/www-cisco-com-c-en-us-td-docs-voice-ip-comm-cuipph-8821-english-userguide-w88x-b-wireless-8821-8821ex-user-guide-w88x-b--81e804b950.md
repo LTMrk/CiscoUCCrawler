@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--81e804b950
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_0101.html
-retrieved_at: 2026-08-21T01:57:16.923987+00:00
+retrieved_at: 2026-09-30T19:30:06.736781+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX User Guide
@@ -63,3 +63,7 @@ Use Talk and Stop to send and receive audio.
 |---|---|
 | Step 2 | Select Apps . |
 | Step 3 | Select Push to Talk . Use Application to start and end a transmission depending on how your service is configured. Use Talk and Stop to send and receive audio. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

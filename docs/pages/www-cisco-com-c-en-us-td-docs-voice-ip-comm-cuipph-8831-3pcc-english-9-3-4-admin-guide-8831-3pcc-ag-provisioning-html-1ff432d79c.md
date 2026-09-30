@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-provisioning-html-1ff432d79c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/provisioning.html
-retrieved_at: 2026-08-21T02:09:30.274719+00:00
+retrieved_at: 2026-09-30T19:34:04.323497+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -331,3 +331,7 @@ To configure general purpose parameters, navigate to Admin Login > advanced > Vo
 | Upgrade Enable | Allows firmware update operations independent of resync actions. Defaults to Yes. |
 | Upgrade Error Retry Delay | The interval applied in the event of an upgrade failure. The firmware upgrade error timer activates after a failed firmware upgrade attempt and is initialized with this value. The next firmware upgrade attempt occurs when this timer counts down to zero. The default is 3600 seconds. |
 | Upgrade Rule | A firmware upgrade script that defines upgrade conditions and associated firmware URLs. It uses the same syntax as Profile Rule. (See “Manually Provision a Phone from the Keypad” section for the Upgrade Rule syntax.) The default is (empty). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

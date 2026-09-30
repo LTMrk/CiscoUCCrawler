@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-firmware-10-3-1-sr3-cs38-b-rn-8831-8831nr-1031sr3-html-919b9ab3a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10-3-1-sr3/cs38_b_rn-8831-8831nr-1031sr3.html
-retrieved_at: 2026-08-21T13:33:44.170625+00:00
+retrieved_at: 2026-09-30T19:35:24.730112+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR Release Notes for Firmware Release 10.3(1)SR3
@@ -825,3 +825,7 @@ Subscribe to the What’s New in Cisco Product Documentation as a Really Simple 
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

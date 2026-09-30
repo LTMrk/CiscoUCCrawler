@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-firmware-10-3-1sr7-releasenotes-cs38-b-cisco-unified-ip-conferen-8f91ce9e40
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/firmware/10_3_1sr7/releasenotes/cs38_b_cisco-unified-ip-conference-phone.html
-retrieved_at: 2026-08-21T13:33:27.802049+00:00
+retrieved_at: 2026-09-30T19:35:45.682481+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 Release Notes for Firmware Release 10.3(1)SR7
@@ -642,3 +642,7 @@ For information on the support policy for phones, see https://cisco.com/go/phone
 | Tip | You may want to bookmark the web pages for the phone models that are deployed in your company and send these URLs to your
                                  users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

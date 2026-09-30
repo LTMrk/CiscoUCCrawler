@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--b8d1708ad4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01.html
-retrieved_at: 2026-08-21T01:57:04.602032+00:00
+retrieved_at: 2026-09-30T19:29:50.477934+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX User Guide
@@ -997,3 +997,15 @@ Press Yes .
 |---|---|
 | Step 2 | Press More and select Merge . |
 | Step 3 | Press Yes . |
+
+## Figuras
+
+![triangle with the number 1 inside](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373650.tif/_jcr_content/renditions/373650.jpg)
+
+![triangle with the number 2 inside](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373651.tif/_jcr_content/renditions/373651.jpg)
+
+![triangle with the number 3 inside](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373652.tif/_jcr_content/renditions/373652.jpg)
+
+![triangle with the number 4 inside](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373653.tif/_jcr_content/renditions/373653.jpg)
+
+![triangle with the number 5 inside](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373654.tif/_jcr_content/renditions/373654.jpg)

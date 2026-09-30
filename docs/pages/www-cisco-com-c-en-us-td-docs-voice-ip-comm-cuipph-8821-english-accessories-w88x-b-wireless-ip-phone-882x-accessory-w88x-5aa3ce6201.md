@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-5aa3ce6201
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_010.html
-retrieved_at: 2026-08-21T01:55:52.798390+00:00
+retrieved_at: 2026-09-30T19:28:51.350376+00:00
 ---
 
 Cisco Wireless IP Phone 882x Series Accessory Guide
@@ -62,3 +62,7 @@ We recommend that you test your headsets in your own environment to determine su
 
 | Note | We recommend that you test your headsets in your own environment to determine suitable performance. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

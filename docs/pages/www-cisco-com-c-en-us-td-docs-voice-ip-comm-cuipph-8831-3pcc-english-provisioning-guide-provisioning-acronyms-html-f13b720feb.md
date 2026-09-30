@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-acronyms-html-f13b720feb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/acronyms.html
-retrieved_at: 2026-08-21T02:10:29.909733+00:00
+retrieved_at: 2026-09-30T19:35:03.401187+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -427,3 +427,7 @@ Extensible Markup Language
 | VQ | Voice Quality |
 | WAN | Wide Area Network |
 | XML | Extensible Markup Language |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--9e61724311
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01.html
-retrieved_at: 2026-08-21T01:56:09.347469+00:00
+retrieved_at: 2026-09-30T19:28:59.839200+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -1143,3 +1143,9 @@ Use Cisco Unified Communications Manager to set up a message waiting indicator (
 | Note | If the phone model that you want to configure does not appear in the Phone Type drop-down list in Cisco Unified Communications
                                        Manager Administration, install the latest device package for your version of Cisco Unified Communications Manager from Cisco.com. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Typical WLAN Topology](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393318.eps/_jcr_content/renditions/393318.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

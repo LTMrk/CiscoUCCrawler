@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--bd6c59bc91
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_01100.html
-retrieved_at: 2026-08-21T01:56:13.561502+00:00
+retrieved_at: 2026-09-30T19:29:33.569458+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -866,3 +866,61 @@ After the phone is connected to the call control system, it should automatically
 | Step 1 | Connect the long connecter of the USB cable to the bottom of the  phone with the pins aligned. |
 |---|---|
 | Step 2 | Plug the other end into the USB port in the computer. |
+
+## Figuras
+
+![graphical representation of the substeps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393219.eps/_jcr_content/renditions/393219.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393220.eps/_jcr_content/renditions/393220.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393614.eps/_jcr_content/renditions/393614.jpg)
+
+![graphical representation of the substep](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393612.eps/_jcr_content/renditions/393612.jpg)
+
+![graphical representation of the substeps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393221.eps/_jcr_content/renditions/393221.jpg)
+
+![graphical representation of the substep](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393717.eps/_jcr_content/renditions/393717.jpg)
+
+![graphical representation of the substep](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393718.eps/_jcr_content/renditions/393718.jpg)
+
+![graphical representation of the substep](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393719.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394136.eps/_jcr_content/renditions/394136.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394246.eps/_jcr_content/renditions/394246.jpg)
+
+![put the bottom in first](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/436001-437000/436234.eps/_jcr_content/renditions/436234.jpg)
+
+![press the top, middle, and bottom sides of the cover to click closed](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/436001-437000/436235.eps/_jcr_content/renditions/436235.jpg)
+
+![turn screw right to close](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/436001-437000/436232.eps/_jcr_content/renditions/436232.jpg)
+
+![graphical representation of the substep](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393219.eps/_jcr_content/renditions/393219.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393613.eps/_jcr_content/renditions/393613.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393614.eps/_jcr_content/renditions/393614.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393612.eps/_jcr_content/renditions/393612.jpg)
+
+![A side view of a swollen battery. The center is thicker than the edges.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443051.jpg)
+
+![another swollen battery. One side is flat, but the other side is rounded.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446029.jpg)
+
+![Phone shows that a swollen battery doesn't lie flat in the battery compartment.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443050.jpg)
+
+![Phone shows how the center of the battery back door can't close when the battery is swollen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443049.jpg)
+
+![battery on a table to show a bend](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443046.jpg)
+
+![battery with a broken end cap](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443047.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393217.eps/_jcr_content/renditions/393217.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393218.eps/_jcr_content/renditions/393218.jpg)
+
+![graphical representation of the procedure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393223.eps/_jcr_content/renditions/393223.jpg)
+
+![graphical representation of the procedure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393224.eps/_jcr_content/renditions/393224.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

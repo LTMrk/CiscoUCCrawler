@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-release-notes-8831-3pcc-934-rn-html-9de07fc071
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/release-notes/8831-3pcc-934-rn.html
-retrieved_at: 2026-08-21T13:34:13.563776+00:00
+retrieved_at: 2026-09-30T19:34:29.737023+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Release Notes for Firmware Release 9.3(4)
@@ -230,3 +230,7 @@ Copyright © 2009-2017 Cisco Systems, Inc. All rights reserved.
 | Brazil | cp-8831-sip.9-3-4-4-3PCC-BR.bin.sgn |
 | Taiwan | cp-8831-sip.9-3-4-4-3PCC-TW.bin.sgn |
 | Japan | cp-8831-sip.9-3-4-4-3PCC-JP.bin.sgn |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

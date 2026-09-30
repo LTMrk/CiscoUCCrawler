@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-userguide-w88x-b-wireless-8821-8821ex-user-guide-w88x-b--240ee198ba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/userguide/w88x_b_wireless-8821-8821ex-user-guide/w88x_b_wireless-8821-8821ex-user-guide_chapter_01001.html
-retrieved_at: 2026-08-21T01:57:33.679321+00:00
+retrieved_at: 2026-09-30T19:30:02.860962+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX User Guide
@@ -571,3 +571,15 @@ Regulatory Compliance and Safety Information (RCSI) is located here:
 |---|---|
 | 8821 | 03114-17-01086 |
 | 8821-EX | 03114-17-01086 |
+
+## Figuras
+
+![SAR logo](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393241.tif/_jcr_content/renditions/393241.jpg)
+
+![CE logo](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453998.jpg)
+
+![DGT statement 1](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/190001-200000/197001-198000/197048.tif/_jcr_content/renditions/197048.jpg)
+
+![Complies with IMDA Standards DB101992](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/419001-420000/419770.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

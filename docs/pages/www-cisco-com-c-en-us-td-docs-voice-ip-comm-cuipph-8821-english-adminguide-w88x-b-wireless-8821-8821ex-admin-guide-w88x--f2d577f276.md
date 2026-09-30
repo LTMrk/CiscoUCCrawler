@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--f2d577f276
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_00.html
-retrieved_at: 2026-08-21T01:56:05.461792+00:00
+retrieved_at: 2026-09-30T19:28:55.741239+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -1081,3 +1081,33 @@ User guide or quick reference for your voicemail system
 |---|---|
 | FIPS 140-2 Level 1 Support | Feature removed in 11.0(5). |
 | Power Saving Enhancements | Best Practices for Battery Power Conservation |
+
+## Figuras
+
+![Figure 1. Cisco Wireless IP Phone 8821 and 8821-EX](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393165.tif/_jcr_content/renditions/393165.jpg)
+
+![Figure 2. Cisco Wireless IP Phone 8821 Buttons and Hardware](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393155.tif/_jcr_content/renditions/393155.jpg)
+
+![protective cover over the headset port](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393187.eps/_jcr_content/renditions/393187.jpg)
+
+![small round button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/180001-181000/180390.ps/_jcr_content/renditions/180390.jpg)
+
+![round button surrounded by a 4 way ring](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393157.tif/_jcr_content/renditions/393157.jpg)
+
+![press up for Recents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393190.tif/_jcr_content/renditions/393190.jpg)
+
+![press left for Contacts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393191.tif/_jcr_content/renditions/393191.jpg)
+
+![press right for Apps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393193.tif/_jcr_content/renditions/393193.jpg)
+
+![press down for Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393194.tif/_jcr_content/renditions/393194.jpg)
+
+![small oblong button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/187001-188000/187840.eps/_jcr_content/renditions/187840.jpg)
+
+![long rocker button, press up to increase and press down to decrease](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380610.tif/_jcr_content/renditions/380610.jpg)
+
+![small round button](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/180001-190000/187001-188000/187511.eps/_jcr_content/renditions/187511.jpg)
+
+![graphic representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393677.eps/_jcr_content/renditions/393677.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

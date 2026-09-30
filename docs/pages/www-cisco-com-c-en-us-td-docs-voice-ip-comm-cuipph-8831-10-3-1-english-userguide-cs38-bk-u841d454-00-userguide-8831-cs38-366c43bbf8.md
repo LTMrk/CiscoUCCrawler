@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-366c43bbf8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_0101.html
-retrieved_at: 2026-08-21T02:08:44.573352+00:00
+retrieved_at: 2026-09-30T19:33:39.788375+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -2004,3 +2004,7 @@ Select Logout to sign out.
                                        			 password in the Password field. |
 | Step 6 | Select Login . |
 | Step 7 | Select Logout to sign out. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

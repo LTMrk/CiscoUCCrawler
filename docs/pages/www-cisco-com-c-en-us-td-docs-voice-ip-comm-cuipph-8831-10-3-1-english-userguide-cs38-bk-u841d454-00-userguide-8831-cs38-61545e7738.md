@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-userguide-cs38-bk-u841d454-00-userguide-8831-cs38-61545e7738
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/UserGuide/CS38_BK_U841D454_00_userguide-8831/CS38_BK_U841D454_00_userguide-8831_chapter_01.html
-retrieved_at: 2026-08-21T02:08:27.438296+00:00
+retrieved_at: 2026-09-30T19:33:18.672953+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR User Guide for Cisco Unified Communications Manager
@@ -1554,3 +1554,29 @@ Enhanced Room Coverage
 
 | Note | The Cisco Unified IP Conference Phone 8831NR does not support wireless microphones. |
 |---|---|
+
+## Figuras
+
+![DCU top view](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346710.eps/_jcr_content/renditions/346710.jpg)
+
+![Sound Base top view](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346711.eps/_jcr_content/renditions/346711.jpg)
+
+![on hook](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346770.tif/_jcr_content/renditions/346770.jpg)
+
+![off hook](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346769.tif/_jcr_content/renditions/346769.jpg)
+
+![call rining in](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346773.tif/_jcr_content/renditions/346773.jpg)
+
+![connected call](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346763.tif/_jcr_content/renditions/346763.jpg)
+
+![call on hold](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346764.tif/_jcr_content/renditions/346764.jpg)
+
+![shared line](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346774.tif/_jcr_content/renditions/346774.jpg)
+
+![microphone connected](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346768.tif/_jcr_content/renditions/346768.jpg)
+
+![Linked mode active](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346765.tif/_jcr_content/renditions/346765.jpg)
+
+![Locked icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346766.tif/_jcr_content/renditions/346766.jpg)
+
+![Sound Base bottom view](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346668.eps/_jcr_content/renditions/346668.jpg)

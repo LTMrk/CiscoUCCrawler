@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-adminguide-w88x-b-wireless-8821-8821ex-admin-guide-w88x--374d5aa6e5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/adminguide/w88x_b_wireless-8821-8821ex-admin-guide/w88x_b_wireless-8821-8821ex-admin-guide_chapter_0110.html
-retrieved_at: 2026-08-21T01:56:22.035978+00:00
+retrieved_at: 2026-09-30T19:29:29.110128+00:00
 ---
 
 Cisco Wireless IP Phone 8821 and 8821-EX Administration Guide for Cisco Unified Communications Manager
@@ -380,3 +380,25 @@ Lock the cable lock.
 | Step 4 | Press and hold the locking button to align the locking teeth. |
 | Step 5 | Insert the cable lock into the lock slot of your charger and release the locking button. |
 | Step 6 | Lock the cable lock. |
+
+## Figuras
+
+![Figure 1. Cisco Wireless IP Phone 8821 and Cisco Wireless IP Phone 8821 Desktop Charger](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393332.eps/_jcr_content/renditions/393332.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393315.eps/_jcr_content/renditions/393315.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393311.eps/_jcr_content/renditions/393311.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393310.jpg)
+
+![Figure 2. Cisco Wireless IP Phone 8821 and Cisco Wireless IP Phone 8821 Multi Charger](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414281.jpg)
+
+![graphical representation of the next substeps](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393305.eps/_jcr_content/renditions/393305.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393308.eps/_jcr_content/renditions/393308.jpg)
+
+![graphical representation of the text](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393307.eps/_jcr_content/renditions/393307.jpg)
+
+![graphical representation of the step](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393309.eps/_jcr_content/renditions/393309.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

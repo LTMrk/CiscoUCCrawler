@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8821-english-accessories-w88x-b-wireless-ip-phone-882x-accessory-w88x-3c59c7dc52
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8821/english/accessories/w88x_b_wireless-ip-phone-882x-accessory/w88x_b_wireless-ip-phone-882x-accessory_chapter_00.html
-retrieved_at: 2026-08-21T01:54:07.624627+00:00
+retrieved_at: 2026-09-30T19:28:43.091128+00:00
 ---
 
 Cisco Wireless IP Phone 882x Series Accessory Guide
@@ -182,3 +182,7 @@ Further information regarding U.S. export regulations may be
 
 |  | High Sound Pressure—Avoid listening to high volume levels for long periods to prevent possible hearing damage. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

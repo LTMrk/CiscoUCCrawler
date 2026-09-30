@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--f0d79cca23
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_01.html
-retrieved_at: 2026-08-21T13:36:42.373105+00:00
+retrieved_at: 2026-09-30T19:36:07.825093+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -543,3 +543,7 @@ For support model of Cisco certified 3rd party applications/solutions, please re
 | Note | If the phone model that you want to configure does not appear in the Phone Type drop-down list in Cisco Unified Communications
                                        Manager Administration, install the latest device package for your version of Cisco Unified Communications Manager from Cisco.com. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

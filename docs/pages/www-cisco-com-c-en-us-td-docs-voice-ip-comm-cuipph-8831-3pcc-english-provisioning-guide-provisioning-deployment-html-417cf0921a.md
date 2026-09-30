@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-provisioning-guide-provisioning-deployment-html-417cf0921a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/provisioning-guide/Provisioning/Deployment.html
-retrieved_at: 2026-08-21T02:10:04.690923+00:00
+retrieved_at: 2026-09-30T19:34:33.980231+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Provisioning Guide, Release 9.3(3)
@@ -148,3 +148,7 @@ The configuration parameters communicated to the device can contain authorizatio
 | SP-CUST Service Provider Customization | The Profile_Rule parameter points to a device-specific configuration profile by using a provisioning server that is specific to the service provider. The methods for initiating resynchronization are: Auto-configuration by using a local DHCP server. A TFTP server name or IPv4 address is specified by DHCP. The TFTP server includes the Profile_Rule parameter in the configuration file. Entering a resync URL. The URL starts a web browser and requests a resync to a specific TFTP server by entering the URL syntax: http:// x.x.x.x /admin/resync? prvserv / device.cfg , where: x.x.x.x is the IP address of the IP Telephony device, prvserv is the target TFTP server, and device.cfg is the name of the configuration file on the server. Editing the Profile_Rule parameter by opening the provisioning pane on the web interface and entering the TFTP URL in the Profile_Rule parameter. For example, prserv /spa962.cfg. Modifying the configuration file Profile_Rule and to contact a specific TFTP server and request a configuration file identified by the MAC-address. For example, this entry contacts a provisioning server, requesting a profile unique to the device with a MAC address identified by the $MA parameter: Profile_Rule tftp.callme.com/profile/$MA/spa962.cfg; |
 | SEC-PRV-1 Secure Provisioning—Initial Configuration | An initial, device-unique CFG file is targeted to a IP Telephony device by compiling the CFG file with the SPC --target option. This provides an encryption that does not require the exchange of keys. The initial, device-unique CFG file reconfigures the device profile to enable stronger encryption by programming a 256-bit encryption key and pointing to a randomly-generated TFTP directory. For example, the CFG file might contain: Profile_Rule [--key $A] tftp.callme.com/profile/$B/spa962.cfg; GPP_A 8e4ca259…; # 256 bit key GPP_B Gp3sqLn…; # random CFG file path directory |
 | SEC-PRV-2 Secure Provisioning—Full Configuration | Profile resync operations subsequent to the initial SEC-PRV-1 provisioning retrieve the 256-bit encrypted CFG files that maintain the IP Telephony device in a state synchronized to the provisioning server. The profile parameters are reconfigured and maintained through this strongly encrypted profile. The encryption key and random directory location in the SEC-PRV-2 configuration can be changed periodically for extra security. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

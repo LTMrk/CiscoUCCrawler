@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-3pcc-english-9-3-4-admin-guide-8831-3pcc-ag-regional-html-7e6c759a3d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/3PCC/english/9_3_4/admin-guide/8831-3pcc-ag/regional.html
-retrieved_at: 2026-08-21T02:09:38.694851+00:00
+retrieved_at: 2026-09-30T19:34:08.758751+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 for Third-Party Call Control Administration Guide, Release 9.3(4)
@@ -221,3 +221,7 @@ Locale: fr-FR
 | Dictionary Server Script | Defines the location of the dictionary server, the languages available, and the associated dictionary. See the “Create a Dictionary Server Script” section . |
 | Language Selection | Specifies the default language. The value must match one of the languages supported by the dictionary server. The script (dx value) is: <Language_Selection ua="na"> </Language_Selection> Defaults to blank; the maximum number of characters is 512. For example: <Language_Selection ua="na"> Spanish </Language_Selection> |
 | Locale | Choose the locale that should be set in the HTTP Accept-Language header. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

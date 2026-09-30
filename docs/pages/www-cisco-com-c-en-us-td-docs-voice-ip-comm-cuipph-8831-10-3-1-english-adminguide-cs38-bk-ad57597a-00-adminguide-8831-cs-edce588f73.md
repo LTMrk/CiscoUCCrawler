@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8831-10-3-1-english-adminguide-cs38-bk-ad57597a-00-adminguide-8831-cs-edce588f73
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8831/10_3_1/english/AdminGuide/CS38_BK_AD57597A_00_adminguide-8831/CS38_BK_AD57597A_00_adminguide-8831_appendix_01101.html
-retrieved_at: 2026-08-21T13:38:39.381543+00:00
+retrieved_at: 2026-09-30T19:32:16.612577+00:00
 ---
 
 Cisco Unified IP Conference Phone 8831 and 8831NR Administration Guide
@@ -583,3 +583,7 @@ Select Save .
                                        			 Mobility area, check the Enable Extension Mobility Cross Cluster box if the
                                        			 user is allowed for Extension Mobility Cross Cluster service. |
 | Step 6 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

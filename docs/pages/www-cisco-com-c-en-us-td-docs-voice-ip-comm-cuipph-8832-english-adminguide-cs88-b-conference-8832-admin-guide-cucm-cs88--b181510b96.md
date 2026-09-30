@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cuipph-8832-english-adminguide-cs88-b-conference-8832-admin-guide-cucm-cs88--b181510b96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cuipph/8832/english/adminguide/cs88_b_conference-8832-admin-guide-cucm/cs88_b_conference-8832-admin-guide-cucm_chapter_00.html
-retrieved_at: 2026-08-21T13:36:38.033763+00:00
+retrieved_at: 2026-09-30T19:36:02.491461+00:00
 ---
 
 Cisco IP Conference Phone 8832 Administration Guide for Cisco Unified Communications Manager
@@ -259,3 +259,25 @@ Voice Messaging System
 |---|---|
 | Message Indicators | Message Waiting Indicator (MWI) |
 | Voicemail System | Voice Messaging System |
+
+## Figuras
+
+![Figure 1. Cisco IP Conference Phone 8832](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/420001-421000/420636.jpg)
+
+![Figure 2. Cisco IP Conference Phone 8832 Buttons and Features](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393603.eps/_jcr_content/renditions/393603.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393618.tif/_jcr_content/renditions/393618.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393617.tif/_jcr_content/renditions/393617.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393616.tif/_jcr_content/renditions/393616.jpg)
+
+![Mute key](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393615.tif/_jcr_content/renditions/393615.jpg)
+
+![Figure 3. Wired Expansion Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393622.eps/_jcr_content/renditions/393622.jpg)
+
+![Figure 4. Wireless Microphone](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393702.jpg)
+
+![Figure 5. Wireless Microphone Mounted on the Charging Cradle](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393701.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
