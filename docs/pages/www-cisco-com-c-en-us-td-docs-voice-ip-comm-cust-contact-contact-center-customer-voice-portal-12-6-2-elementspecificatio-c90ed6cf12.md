@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-elementspecificatio-c90ed6cf12
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/elementspecification/guide/ccvp_b_1262-element-specifications-guide/ccvp_m_1251-generic-custom-voicexml-properties.html
-retrieved_at: 2026-08-21T17:14:54.140113+00:00
+retrieved_at: 2026-10-05T11:59:22.588795+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(2)
@@ -250,3 +250,7 @@ fetchaudio : URI of the audio file (usually a .wav file).
 
 | Note | The Synthesize.voiceGender property is applicable only for cloud based (GRPC) synthesizer and is not supported with MRCP. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

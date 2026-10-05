@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-user-guide-uccx-b-1501-finesse--23e5b30e10
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_finesse-agent-and-supervisor-desktop-user-guide-release-150/uccx_m_1501_cisco-webex-experience-management.html
-retrieved_at: 2026-08-16T21:22:25.998943+00:00
+retrieved_at: 2026-10-05T11:54:25.319997+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 15.0
@@ -48,3 +48,9 @@ Use the same ID to login to Agent Desktop and ECE gadgets so that the key metric
 
 | Note | Use the same ID to login to Agent Desktop and ECE gadgets so that the key metrics are displayed properly. |
 |---|---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

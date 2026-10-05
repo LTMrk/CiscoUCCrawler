@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-0ccbd53769
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_01000.html
-retrieved_at: 2026-08-21T11:57:34.124907+00:00
+retrieved_at: 2026-10-05T11:57:06.147527+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -206,3 +206,7 @@ No
                                           						  correctly. | None | Text must match the text entered in the Password field | No |
 | Port | The port to which the Unified CM server connects while
                                           						  establishing initial contact. | 8443 | 1 through 65,535 | No |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

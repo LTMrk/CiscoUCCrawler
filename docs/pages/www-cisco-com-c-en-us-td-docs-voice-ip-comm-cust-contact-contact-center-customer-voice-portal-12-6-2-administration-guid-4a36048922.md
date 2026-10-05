@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-administration-guid-4a36048922
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/administration/guide/ccvp_b_1262-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-admin-guide-for-cisco-unified-customer-voice-portal_chapter_0100.html
-retrieved_at: 2026-08-21T02:56:04.052122+00:00
+retrieved_at: 2026-10-05T11:56:14.952345+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(2)
@@ -231,3 +231,7 @@ Select Refresh to refresh the list of statuses.
 |---|---|
 | Step 2 | Select the File Transfer Status button on the resulting
                                           			 page. The status for the transfer is listed in the table. Select Refresh to refresh the list of statuses. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

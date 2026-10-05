@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-user-guide-uccx-b-1501-reportin-06aa5e5e1d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_reporting_user_guide/uccx_m_1501_gadget-toolbar.html
-retrieved_at: 2026-08-16T21:23:08.243016+00:00
+retrieved_at: 2026-10-05T11:55:12.332901+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 15.0
@@ -80,3 +80,7 @@ The gadget toolbar displays a Help icon. When you click the help icon, a window 
 
 | Note | When the button is paused and updates are available on the gadget, a notification appears over the pause or play button. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

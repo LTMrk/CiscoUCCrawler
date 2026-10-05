@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-7a9d9f7bab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_configuration-guide-12-0_chapter_010111.html
-retrieved_at: 2026-08-21T11:58:47.415285+00:00
+retrieved_at: 2026-10-05T11:58:52.206020+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -378,3 +378,7 @@ cvp
 | Web Services Manager | WebServicesManager |
 | SNMP Management | "Cisco CVP SNMP Management" |
 | Informix IDS | cvp |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

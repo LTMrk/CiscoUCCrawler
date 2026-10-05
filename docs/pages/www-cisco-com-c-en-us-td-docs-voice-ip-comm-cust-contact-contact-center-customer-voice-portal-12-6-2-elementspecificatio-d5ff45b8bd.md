@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-elementspecificatio-d5ff45b8bd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/elementspecification/guide/ccvp_b_1262-element-specifications-guide/ccvp_m_local-variables.html
-retrieved_at: 2026-08-21T17:19:39.367741+00:00
+retrieved_at: 2026-10-05T11:59:52.122481+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(2)
@@ -99,3 +99,7 @@ Choose the location where you want to move the marked local
 |---|---|
 | Step 2 | Choose the location where you want to move the marked local
                                        			 variable, right-click and choose Move Variable . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

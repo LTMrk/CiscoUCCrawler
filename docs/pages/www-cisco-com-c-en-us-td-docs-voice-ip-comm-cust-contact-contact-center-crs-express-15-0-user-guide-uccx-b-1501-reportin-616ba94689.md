@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-user-guide-uccx-b-1501-reportin-616ba94689
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_reporting_user_guide/uccx_m_1501_permalinks.html
-retrieved_at: 2026-08-16T21:23:04.666677+00:00
+retrieved_at: 2026-10-05T11:55:41.418882+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 15.0
@@ -440,3 +440,7 @@ htmlType&viewType=Grid&VoiceIAQStats.esdName=CL |
 | Short and Long Term Average | https://<Server Name>:8444/cuicui/permalink/?viewId=
 C8EE241910000140000000C30A4E5E6B&linkType=
 htmlType&viewType=Grid&VoiceIAQStats.esdName=CL |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

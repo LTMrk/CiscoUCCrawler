@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-user-guide-uccx-b-1501-finesse--a70b7e050c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_finesse-agent-and-supervisor-desktop-user-guide-release-150/uccx_m_1501_finesse-ip-phone-agent-tasks.html
-retrieved_at: 2026-08-16T21:22:17.664411+00:00
+retrieved_at: 2026-10-05T11:54:33.971239+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 15.0
@@ -387,3 +387,17 @@ When Finesse IPPA phone is powered off or reset, you will be logged out of the p
 | Step 7 | If your administrator requests that you enter your credentials, enter the required values for your agent id, password, and
                                        extension. |
 | Step 8 | Click Save . |
+
+## Figuras
+
+![Figure 1. Cisco Finesse - IP Phone Services Menu](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510099.jpg)
+
+![Figure 2. Cisco Finesse - Sign In](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510100.jpg)
+
+![Figure 3. Cisco Finesse - Home Screen](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510102.jpg)
+
+![Figure 4. Cisco Finesse - QStats](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510103.jpg)
+
+![Figure 5. Cisco Finesse - CData](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510104.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

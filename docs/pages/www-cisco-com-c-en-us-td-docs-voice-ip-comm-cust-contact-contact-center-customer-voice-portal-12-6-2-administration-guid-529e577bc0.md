@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-administration-guid-529e577bc0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/administration/guide/ccvp_b_1262-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_m_admin-preface-12-62.html
-retrieved_at: 2026-08-21T02:55:36.819096+00:00
+retrieved_at: 2026-10-05T11:56:40.131306+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(2)
@@ -121,3 +121,7 @@ mailto:ccbu_docfeedback@cisco.com
 | Specific License Reservation | Cisco Unified Customer Voice Portal > Operations Console (NOAMP) > Smart Licensing |
 | Task Flow for SLR | Cisco Unified Customer Voice Portal > Operations Console (NOAMP) > Smart Licensing |
 | Error Scenario for Location Synchronization Failure | Cisco Unified Customer Voice Portal > Operations Console (OAMP) > Synchronize Error Scenarios | October 2024 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

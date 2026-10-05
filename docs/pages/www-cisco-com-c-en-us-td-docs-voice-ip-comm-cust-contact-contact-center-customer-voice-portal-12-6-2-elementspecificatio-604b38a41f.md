@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-elementspecificatio-604b38a41f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/elementspecification/guide/ccvp_b_1262-element-specifications-guide/ccvp_m_1261-dialogflowcx-element.html
-retrieved_at: 2026-08-21T17:19:01.387027+00:00
+retrieved_at: 2026-10-05T11:59:35.649293+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(2)
@@ -255,3 +255,7 @@ This property is to be assigned the value "cloudTTS" , for transiting to the clo
 | Recognize.model | String | Contains the model name. The default value is null . |
 | Recognize.modelVariant | String | Contains the model variant name. The following 4 values are supported as model variant name: USE_STANDARD SPEECH_MODEL_VARIANT_UNSPECIFIED USE_ENHANCED USE_BEST_AVAILABLE (default) |
 | com.cisco.tts-server | String | This property is to be assigned the value "cloudTTS" , for transiting to the cloud. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

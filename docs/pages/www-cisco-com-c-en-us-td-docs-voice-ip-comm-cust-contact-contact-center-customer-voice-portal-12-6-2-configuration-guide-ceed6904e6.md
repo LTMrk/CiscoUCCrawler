@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-ceed6904e6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_0111.html
-retrieved_at: 2026-08-21T11:57:30.748174+00:00
+retrieved_at: 2026-10-05T11:58:26.802612+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -3356,3 +3356,9 @@ Caution
 | Caution | Do not remove CVPSNMPLogger because doing so disables viewing of SNMP events and
                                           alerts. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Payload icon](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510432.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

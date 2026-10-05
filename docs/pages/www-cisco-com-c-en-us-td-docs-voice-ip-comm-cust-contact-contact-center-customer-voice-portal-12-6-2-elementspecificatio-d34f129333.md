@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-elementspecificatio-d34f129333
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/elementspecification/guide/ccvp_b_1262-element-specifications-guide/ccvp_m_1261-vav-element.html
-retrieved_at: 2026-08-21T17:21:06.857912+00:00
+retrieved_at: 2026-10-05T11:59:43.756454+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(2)
@@ -361,3 +361,7 @@ Contains the language format which will be used for playing the prompts, such as
 | com.cisco.responseThreshold | Integer > 0 | Threshold wait time to receive the welcome response from the server. If the welcome response is not received within this time,
                                        a syslog alarm is raised. The default value is 5000 ms. |
 | com.cisco.language | String | Contains the language format which will be used for playing the prompts, such as "en-US". |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

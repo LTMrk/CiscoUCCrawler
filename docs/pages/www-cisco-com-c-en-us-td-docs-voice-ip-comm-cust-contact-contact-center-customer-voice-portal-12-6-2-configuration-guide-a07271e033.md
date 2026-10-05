@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-a07271e033
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_010100.html
-retrieved_at: 2026-08-21T11:58:34.330101+00:00
+retrieved_at: 2026-10-05T11:57:43.018305+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -520,3 +520,7 @@ The Ingress Gateway to
 >sip-ua
 >protocol mode dual-stack preference ipv6 |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

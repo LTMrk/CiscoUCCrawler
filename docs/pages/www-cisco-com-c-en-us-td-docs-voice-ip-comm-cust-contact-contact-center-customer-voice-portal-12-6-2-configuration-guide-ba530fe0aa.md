@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-ba530fe0aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_010011.html
-retrieved_at: 2026-08-21T11:58:30.216043+00:00
+retrieved_at: 2026-10-05T11:57:29.236548+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -694,3 +694,9 @@ sip-server ipv4:10.78.26.31 |
 | Note | In order to get the "?", press CTRL-V before pressing the question
                                     		mark. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Server Group Diagnostics](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341202.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

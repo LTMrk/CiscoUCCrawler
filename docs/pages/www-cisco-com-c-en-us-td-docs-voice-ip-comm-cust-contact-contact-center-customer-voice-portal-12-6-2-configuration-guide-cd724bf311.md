@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-cd724bf311
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_010010.html
-retrieved_at: 2026-08-21T11:58:26.518832+00:00
+retrieved_at: 2026-10-05T11:57:25.196010+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -1930,3 +1930,29 @@ The user.microapp.isPostCallSurvey setting takes effect on CVP
                                                          				  do not want the survey to run, without first reaching an agent (such as 'after
                                                          				  hours of treatment'), you must set the isPostCallSurvey to n before the initial 'Run script request'. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Call Transfer to a Label](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230204.jpg)
+
+![Figure 2. Network VRU
+                                 		  Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230207.jpg)
+
+![Figure 3. Sample ICM Configuration Manager and Script Editor
+                                 Screen](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230203.jpg)
+
+![Figure 4. Running VRU Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230206.jpg)
+
+![Figure 5. Network Transfer Setting](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230205.jpg)
+
+![Figure 6. Queue to Skill
+                                    		  Group Properties](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230201.jpg)
+
+![Figure 7. Requery
+                                    		  Mechanism](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230202.jpg)
+
+![Figure 8. Cisco Unified CM Administration—Find and List Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341181.jpg)
+
+![Figure 9. Phone Configuration Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341182.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

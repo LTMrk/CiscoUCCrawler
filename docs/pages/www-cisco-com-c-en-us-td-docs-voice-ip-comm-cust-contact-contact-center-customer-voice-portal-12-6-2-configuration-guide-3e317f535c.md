@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-3e317f535c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_chapter_0100.html
-retrieved_at: 2026-08-21T11:57:17.295273+00:00
+retrieved_at: 2026-10-05T11:57:02.560248+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -2195,3 +2195,7 @@ If you have specified an IP Address instead of a hostname, then ensure that the 
                                                             its associated Reporting Server in the respective entries. If you have specified an IP Address instead of a hostname, then ensure that the IP address is in the CN or SAN fields of the
                                                             SSL certificate of that host. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

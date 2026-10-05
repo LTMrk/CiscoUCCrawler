@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-configuration-guide-8ea8dd342d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/configuration/guide/ccvp_b_1262-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-configuration-guide-for-cisco-unified-customer-voice-portal-release-1252_preface_00.html
-retrieved_at: 2026-08-21T11:56:58.547021+00:00
+retrieved_at: 2026-10-05T11:58:39.565415+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -109,3 +109,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Updated process for generating CVP ECDSA certificate with OpenSSL. | Unified CVP Security > Generate CVP ECDSA Certificate with OpenSSL | January 2024 |
 | Initial Release of Document for Release 12.6(2) ES09 | November 2023 |
 | Introduced Custom Code isolation feature | Added a new chapter Remote Custom API Server Configuration . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
