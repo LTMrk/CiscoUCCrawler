@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-administration-gu-2f9cde49e9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal_index.html
-retrieved_at: 2026-08-21T03:10:52.252959+00:00
+retrieved_at: 2026-10-05T12:48:50.775317+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(1)
@@ -1225,3 +1225,7 @@ VXML Server
 statistics 1
 
 transferring script files 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

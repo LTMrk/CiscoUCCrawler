@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-programming-guide-2e1f3a1d68
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/programming/guide/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_appendix_01111.html
-retrieved_at: 2026-08-21T17:30:28.019947+00:00
+retrieved_at: 2026-10-05T12:54:53.497810+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(1)
@@ -331,3 +331,12 @@ com.audium.core.vfc.form.UsedInFilled – This class is a Java
                                           of the <catch> tag so are not produced by the
                                           VFCs. |
 |---|---|
+
+## Figuras
+
+![Figure 1. VForm and Its
+                              		  Extensions](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340891.jpg)
+
+![Figure 2. VForm Class Hierarchy](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340892.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

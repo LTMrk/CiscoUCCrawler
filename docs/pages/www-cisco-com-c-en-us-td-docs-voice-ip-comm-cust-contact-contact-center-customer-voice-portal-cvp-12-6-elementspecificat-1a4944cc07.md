@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-elementspecificat-1a4944cc07
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide/ccvp_mp_m011be71_00_menu-support-for-2-10.html
-retrieved_at: 2026-08-21T17:25:31.923022+00:00
+retrieved_at: 2026-10-05T12:51:38.517579+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(1)
@@ -617,3 +617,7 @@ com.audium.server.voiceElement.menu.MFoundationXOptionMenu
                                              Element Folder Name | Class Name |
 |---|---|
 | Menu | com.audium.server.voiceElement.menu.MFoundationXOptionMenu |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

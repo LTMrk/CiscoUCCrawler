@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-845ea7a1e5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-config-preface.html
-retrieved_at: 2026-08-21T06:52:09.000302+00:00
+retrieved_at: 2026-10-05T12:47:42.569149+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -107,3 +107,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Initial Release of Document for Release 12.6(1) | May 2021 |
 | Added Internal REST API Endpoints Appendix | Internal REST API Endpoints |
 | Added New Properties for WXM, VAV, Agent Answers, and Smart Licensing Appendix | New Properties for WXM, VAV, Agent Answers, and Smart Licensing |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

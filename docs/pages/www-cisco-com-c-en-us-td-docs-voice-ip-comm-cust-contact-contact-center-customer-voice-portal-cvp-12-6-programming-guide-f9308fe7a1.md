@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-programming-guide-f9308fe7a1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/programming/guide/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_0100.html
-retrieved_at: 2026-08-21T17:29:41.560773+00:00
+retrieved_at: 2026-10-05T12:55:23.191084+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(1)
@@ -157,3 +157,7 @@ vxml_response – This optional tag encapsulates the VoiceXML page that is to be
                                     document whose <result> tag is
                                     empty. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-documentation-gui-f2aca703ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/documentation/guide/ccvp_b_1261-cisco-unified-customer-voice-portal-documentation-guide.html
-retrieved_at: 2026-08-21T06:50:28.042615+00:00
+retrieved_at: 2026-10-05T12:48:55.156273+00:00
 ---
 
 Cisco Unified Customer Voice Portal Documentation Guide, Release 12.6(1)
@@ -292,3 +292,7 @@ For information on existing security issues, see Cisco Security Advisories, Resp
 |---|---|
 | Unified CCE Solution Compatibility Matrix | Updated to meet Unified CCE Solution requirements for the current release. To view the Compatibility Matrix, see: https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html . |
 | Virtualization for Unified CVP | Updated to meet Unified CVP Release requirements for the current release. To view the page, see: https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-unified-customer-voice-portal.html |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

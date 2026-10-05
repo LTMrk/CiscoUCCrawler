@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-elementspecificat-5ea77da5a8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide/ccvp_m_1261-preface.html
-retrieved_at: 2026-08-21T17:22:51.177570+00:00
+retrieved_at: 2026-10-05T12:49:32.013061+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(1)
@@ -58,3 +58,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Change | See | Date |
 |---|---|---|
 | Initial Release of Document for Release 12.6(1) | May 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

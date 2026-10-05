@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-programming-guide-a02756bae4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/programming/guide/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_01000.html
-retrieved_at: 2026-08-21T17:29:58.572894+00:00
+retrieved_at: 2026-10-05T12:55:31.924871+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(1)
@@ -924,3 +924,10 @@ See Element Specifications for
 | Note | pref is expected to
                                        		be a valid VPreference object. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Voice Element
+                              		  Interaction with the VXML Server and the Voice Browser](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340887.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

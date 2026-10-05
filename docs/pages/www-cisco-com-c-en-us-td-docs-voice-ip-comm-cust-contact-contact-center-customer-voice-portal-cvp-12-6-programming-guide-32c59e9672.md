@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-programming-guide-32c59e9672
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/programming/guide/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_0110.html
-retrieved_at: 2026-08-21T17:29:50.128121+00:00
+retrieved_at: 2026-10-05T12:56:02.278843+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(1)
@@ -122,3 +122,9 @@ invalidate_session – This tag, if included in the XML, will prompt VXML Server
                                  after the method of the standard action element is completed. This tag is rarely used and would be needed in a few circumstances
                                  where some external process takes the call away from VXML Server such as when using a CTI system to transfer the call to an
                                  agent.
+
+## Figuras
+
+![Figure 1. ActionElementsDTD](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340885.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

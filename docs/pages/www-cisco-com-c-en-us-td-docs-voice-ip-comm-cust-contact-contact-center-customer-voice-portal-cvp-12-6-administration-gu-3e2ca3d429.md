@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-administration-gu-3e2ca3d429
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-admin-guide-for-cisco-unified-customer-voice-portal_chapter_0110.html
-retrieved_at: 2026-08-21T03:10:43.483735+00:00
+retrieved_at: 2026-10-05T12:48:38.551539+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(1)
@@ -138,3 +138,7 @@ Go to Tools > NOAMP .
 
 | Go to Tools > NOAMP . You are logged in to NOAMP automatically. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

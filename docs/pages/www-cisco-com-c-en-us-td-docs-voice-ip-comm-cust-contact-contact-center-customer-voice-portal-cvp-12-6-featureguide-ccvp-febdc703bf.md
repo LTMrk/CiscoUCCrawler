@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-featureguide-ccvp-febdc703bf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/featureguide/ccvp_b_1261-feature-guide-writing-scripts-for-cisco/ccvp_b_1252-feature-guide-writing-scripts-for-cisco_preface_01.html
-retrieved_at: 2026-08-21T17:08:50.357583+00:00
+retrieved_at: 2026-10-05T12:53:34.959508+00:00
 ---
 
 Feature Guide-Writing Scripts for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -105,3 +105,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 |---|---|---|
 | Initial Release of Document for Release 12.6(1) | May 2021 |
 | Added the following sections: Configure Call Studio App Data Format Configure ICM Script | Scripting for Webex Experience Management |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

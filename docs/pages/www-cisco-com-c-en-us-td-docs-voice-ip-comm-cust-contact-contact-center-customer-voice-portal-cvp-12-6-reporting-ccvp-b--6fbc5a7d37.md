@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-reporting-ccvp-b--6fbc5a7d37
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/reporting/ccvp_b_1261-reportingguide-cvp/ccvp_b_1261-reportingguide-cvp_chapter_00.html
-retrieved_at: 2026-08-21T03:11:00.501944+00:00
+retrieved_at: 2026-10-05T12:56:31.116047+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -166,3 +166,10 @@ See Configuration Guide for
                                        		  the system throughput. See Failure
                                           			 and Restoration . |
 |---|---|
+
+## Figuras
+
+![Figure 1. CVP
+                                    				Architecture](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510009.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

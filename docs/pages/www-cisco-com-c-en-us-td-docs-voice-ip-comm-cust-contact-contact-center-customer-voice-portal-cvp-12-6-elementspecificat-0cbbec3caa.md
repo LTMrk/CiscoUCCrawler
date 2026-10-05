@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-elementspecificat-0cbbec3caa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide/ccvp_mp_s373d96f_00_subflow-call.html
-retrieved_at: 2026-08-21T17:23:12.023165+00:00
+retrieved_at: 2026-10-05T12:52:24.102490+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(1)
@@ -122,3 +122,7 @@ The default exit state.
 | next | The default exit state.
                                           				  The events that are entered for this element as added as the exit state in the
                                           				  call flow. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

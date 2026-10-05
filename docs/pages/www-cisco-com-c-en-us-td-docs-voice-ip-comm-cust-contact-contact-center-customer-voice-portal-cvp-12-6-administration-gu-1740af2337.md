@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-administration-gu-1740af2337
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-admin-guide-for-cisco-unified-customer-voice-portal_preface_00.html
-retrieved_at: 2026-08-21T03:10:10.723564+00:00
+retrieved_at: 2026-10-05T12:48:46.093752+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(1)
@@ -109,3 +109,7 @@ mailto:ccbu_docfeedback@cisco.com
 |---|---|---|
 | Initial Release of Document for Release 12.6(1) | May 2021 |
 | Added Contact Center AI section | Cisco Unified Customer Voice Portal | May 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

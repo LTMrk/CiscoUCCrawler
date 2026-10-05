@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-elementspecificat-81e814325e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/elementspecification/guide/ccvp_b_1261-element-specifications-guide/ccvp_mp_na5fd92f_00_number_with_confirm.html
-retrieved_at: 2026-08-21T17:25:40.366410+00:00
+retrieved_at: 2026-10-05T12:51:51.313915+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(1)
@@ -742,3 +742,7 @@ MBasicNumberWithConfirm
                                              Element Folder Name | Class Name |
 |---|---|
 | Number Capture | com.audium.server.voiceElement.number. MBasicNumberWithConfirm |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

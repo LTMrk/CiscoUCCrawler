@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-installandupgrade-a03717ed2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/installandupgrade/guide/ccvp_b_1261-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal_chapter_010.html
-retrieved_at: 2026-08-21T17:03:58.630261+00:00
+retrieved_at: 2026-10-05T12:53:52.287742+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -433,3 +433,7 @@ Do you want to continue the upgrade? Click Yes to proceed only if the installed 
 | Note | The server type argument should be MEDIA, VXML , or VXML_STANDALONE type. If the server type argument is not provided, the metadata is synched with all the VXML applications on VXML servers
                                                          and all media files on Media servers. Logs for synch command tool can be found at the following location: |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

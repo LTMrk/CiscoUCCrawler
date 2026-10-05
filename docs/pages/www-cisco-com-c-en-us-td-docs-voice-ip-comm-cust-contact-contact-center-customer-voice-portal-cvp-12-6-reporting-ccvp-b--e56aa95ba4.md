@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-reporting-ccvp-b--e56aa95ba4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/reporting/ccvp_b_1261-reportingguide-cvp/ccvp_b_1261-reportingguide-cvp_chapter_010.html
-retrieved_at: 2026-08-21T03:11:09.808182+00:00
+retrieved_at: 2026-10-05T12:56:40.329062+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -695,3 +695,7 @@ The maximum resource used, from Usage.ResourceMax.
                                        		  when you attempt to access the report. The error message received is "Import could not be
                                           			 completed: Query validation failed against the selected data source." |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

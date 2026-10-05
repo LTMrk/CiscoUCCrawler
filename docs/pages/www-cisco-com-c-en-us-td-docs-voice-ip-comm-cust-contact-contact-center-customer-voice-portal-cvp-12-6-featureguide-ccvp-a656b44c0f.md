@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-featureguide-ccvp-a656b44c0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/featureguide/ccvp_b_1261-feature-guide-writing-scripts-for-cisco/ccvp_b_1261-feature-guide-writing-scripts-for-cisco_index.html
-retrieved_at: 2026-08-21T17:09:02.333678+00:00
+retrieved_at: 2026-10-05T12:53:39.294488+00:00
 ---
 
 Feature Guide-Writing Scripts for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -425,3 +425,7 @@ scripting 1
 VRU
 
 Run VRU Script node 1 2
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

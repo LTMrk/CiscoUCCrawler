@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-administration-gu-c4b64e5fdf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/administration/guide/ccvp_b_1261-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-admin-guide-for-cisco-unified-customer-voice-portal_chapter_011.html
-retrieved_at: 2026-08-21T03:10:31.414538+00:00
+retrieved_at: 2026-10-05T12:48:34.464341+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 12.6(1)
@@ -1038,3 +1038,7 @@ Click Save .
 | Step 2 | To remove a user from a group, select the user from the Selected pane, and then click the left arrow to
                                              move the user group to the Available pane. |
 | Step 3 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
