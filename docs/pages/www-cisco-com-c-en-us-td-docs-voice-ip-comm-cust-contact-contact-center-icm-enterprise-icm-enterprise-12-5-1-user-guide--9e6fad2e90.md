@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--9e6fad2e90
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_reporting_user_guide-1251_index.html
-retrieved_at: 2026-08-22T00:02:17.124907+00:00
+retrieved_at: 2026-10-05T13:26:52.001384+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -137,3 +137,7 @@ U
 Unified IC
 
 and 15-minute data 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--abdfd3f9ef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_cisco-unified-contact-center-enterprise-125_chapter_0100.html
-retrieved_at: 2026-08-22T00:01:10.690818+00:00
+retrieved_at: 2026-10-05T13:25:37.058949+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -208,3 +208,7 @@ Un-Auth Report Permalink Different Cluster
 | Un-Auth Dashboard | Not Supported | Not Supported | Not Supported | Supported | Supported | Supported |
 | Auth Dashboard | Supported | Not Supported | Not Supported | Supported | Supported | Supported |
 | Dashboard Viewer | Supported | Not Supported | Not Supported | Supported | Supported | Supported |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

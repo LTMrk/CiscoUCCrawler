@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-8daceecd78
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_01.html
-retrieved_at: 2026-08-22T00:10:50.107645+00:00
+retrieved_at: 2026-10-05T13:19:52.911282+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -176,3 +176,7 @@ The ACD Supplements
 
 | Note | This manual deals with Unified ICM. For information on Unified CCE, see and the . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

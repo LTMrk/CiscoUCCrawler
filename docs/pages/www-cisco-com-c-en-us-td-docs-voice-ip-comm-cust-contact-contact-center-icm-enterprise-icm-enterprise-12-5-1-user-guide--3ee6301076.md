@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--3ee6301076
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_010100.html
-retrieved_at: 2026-08-22T00:03:45.535851+00:00
+retrieved_at: 2026-10-05T13:24:25.348075+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -868,3 +868,11 @@ Using the SkillTargetID value (6000), look up the corresponding
 | TalkTimeHalf | TalkTimeHalf |  |
 | TalkTimeTo5 | TalkTimeTo5 |  |
 | TalkTimeToday | TalkTimeToday |  |
+
+## Figuras
+
+![Figure 1. Child Skill Group/Parent Service](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170813.ps/_jcr_content/renditions/170813.jpg)
+
+![Figure 2. Data Mapping Between Unified CCE Child and Unified ICM Parent](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170814.ps/_jcr_content/renditions/170814.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

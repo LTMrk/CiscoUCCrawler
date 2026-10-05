@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-4e6e6b6f67
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_5/ucce_m_cvlan_tsapi_migration-12_5.html
-retrieved_at: 2026-08-16T19:46:24.336902+00:00
+retrieved_at: 2026-10-05T13:22:31.651863+00:00
 ---
 
 Cisco Unified ICM ACD Supplement for Avaya Communication Manager, Release 12.5(1) and 12.5(2)
@@ -175,3 +175,7 @@ PG2B-pim1 Trace: [TSAPILIB] Succesfully connected to TSAPI Server [AVAYA#ACM6ENV
 
 | Note | All the TSAPI library-level traces are prefixed with [TSAPILIB] in the PIM logs. For example: PG2B-pim1 Trace: [TSAPILIB] Succesfully connected to TSAPI Server [AVAYA#ACM6ENV1#CSTA#AESENV2] |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

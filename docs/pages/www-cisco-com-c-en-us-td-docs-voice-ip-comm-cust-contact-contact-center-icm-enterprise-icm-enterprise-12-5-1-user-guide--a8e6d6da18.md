@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--a8e6d6da18
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_0100.html
-retrieved_at: 2026-08-21T12:03:28.349489+00:00
+retrieved_at: 2026-10-05T13:27:05.722719+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -2188,3 +2188,83 @@ Click OK to apply changes and close the
 | Note | You can also set the initial condition of the 10 call variables for
                                        the first run of the External Script. |
 |---|---|
+
+## Figuras
+
+![Figure 1. The Agent Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340677.jpg)
+
+![Figure 2. Agent Properties - Routing Target Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340678.jpg)
+
+![Figure 3. The Skill Group Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340803.jpg)
+
+![Figure 4. Skill Group Properties - Explicit Target References](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/409001-410000/409860.tif/_jcr_content/renditions/409860.jpg)
+
+![Figure 5. Skill Group Properties -
+                                    Look up Target References by Expression](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/409001-410000/409861.tif/_jcr_content/renditions/409861.jpg)
+
+![Figure 6. The Queue Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340774.jpg)
+
+![Figure 7. The Service Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340800.jpg)
+
+![Figure 8. Service Properties - Routing Target Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340801.jpg)
+
+![Figure 9. The Enterprise Skill Group Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340722.jpg)
+
+![Figure 10. Enterprise Skill Group Properties - Routing Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340723.jpg)
+
+![Figure 11. The Enterprise Service Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340720.jpg)
+
+![Figure 12. Enterprise Service Properties - Routing Target tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340721.jpg)
+
+![Figure 13. Announcement Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340683.jpg)
+
+![Figure 14. Announcement Properties - Announcement Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340682.jpg)
+
+![Figure 15. Schedule Select Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340794.jpg)
+
+![Figure 16. Schedule Select Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340795.jpg)
+
+![Figure 17. Ring Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340785.jpg)
+
+![Figure 18. Busy Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340684.jpg)
+
+![Figure 19. Label Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340741.jpg)
+
+![Figure 20. Label Properties - Label Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340742.jpg)
+
+![Figure 21. Divert Label Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340718.jpg)
+
+![Figure 22. Select Node Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340797.jpg)
+
+![Figure 23. Select Properties - Select Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340798.jpg)
+
+![Figure 24. Distribute Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340716.jpg)
+
+![Figure 25. Distribute Properties - Distribute Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340717.jpg)
+
+![Figure 26. Route Select Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340789.jpg)
+
+![Figure 27. Route Select Properties - Route Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340790.jpg)
+
+![Figure 28. Route Select Type](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340791.jpg)
+
+![Figure 29. Agent to Agent Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340679.jpg)
+
+![Figure 30. Agent to Agent Properties](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510235.jpg)
+
+![Figure 31. ICM Gateway Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340735.jpg)
+
+![Figure 32. ICM Gateway Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340736.jpg)
+
+![Figure 33. End Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340719.jpg)
+
+![Figure 34. Termination Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340811.jpg)
+
+![Figure 35. Termination Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340812.jpg)
+
+![Figure 36. Release Call
+                                    			 Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340782.jpg)
+
+![Figure 37. Call Tracer Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340685.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

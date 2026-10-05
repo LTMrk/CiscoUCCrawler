@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--983b186c3e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_010.html
-retrieved_at: 2026-08-22T00:02:30.195142+00:00
+retrieved_at: 2026-10-05T13:23:43.112477+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -455,3 +455,7 @@ The Database Schema Handbook also lists field values such as Agent State values 
 
 | Note | By default, the Event and Application_Event data is not replicated to the HDS database. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

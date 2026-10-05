@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--f6ca0807d8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_cisco-unified-contact-center-enterprise-125_chapter_010001.html
-retrieved_at: 2026-08-22T00:02:09.299417+00:00
+retrieved_at: 2026-10-05T13:25:53.039715+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -8455,3 +8455,7 @@ Skill Group ID—The unique identifier of the Skill Group.
 | Handled | The number of inbound calls that were answered and have completed wrap-up by agents in the skill group today. |
 | Avg Handle Time | The average time spent by  agents in handling a task today, measured in HH:MM:SS (hours, minutes, seconds). |
 | % Ready | The percentage of Logged On time during which an agent was Ready today. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

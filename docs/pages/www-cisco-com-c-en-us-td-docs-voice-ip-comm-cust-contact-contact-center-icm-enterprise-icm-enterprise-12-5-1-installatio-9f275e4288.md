@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-9f275e4288
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_0101.html
-retrieved_at: 2026-08-22T00:11:06.499610+00:00
+retrieved_at: 2026-10-05T13:20:13.861510+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -215,3 +215,16 @@ Connecting multiple
                                                 				the number of CTIOS agents and number of VRU ports as factors in determining
                                                 				server capacity. |
 |---|---|
+
+## Figuras
+
+![Figure 1. PG Contact
+                           		  Center Configurations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340493.jpg)
+
+![Figure 2. PG Fault Tolerance ACD2PG](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340494.jpg)
+
+![Figure 3. PG Platform Examples](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340495.jpg)
+
+![Figure 4. Standard PG Configuration (Duplexed PGs)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340496.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

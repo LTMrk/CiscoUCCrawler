@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--9c76880cbe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125/ucce_b_ctios-supervisor-desktop-user-guide-125_chapter_0110.html
-retrieved_at: 2026-08-22T00:00:49.252293+00:00
+retrieved_at: 2026-10-05T13:23:30.898437+00:00
 ---
 
 CTIOS Supervisor Desktop User Guide
@@ -1325,3 +1325,7 @@ The total number of emergency calls that agents in the skill group completed.
 | MonitorCallsToday | The total number of supervisor call monitors completed in the skill group. |
 | WhisperCallsToday | The total number of supervisor call whispers completed by agents in the skill group. |
 | EmergencyCallsToday | The total number of emergency calls that agents in the skill group completed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

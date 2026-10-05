@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--40fafc4526
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_cisco-unified-contact-center-enterprise-125_chapter_01011.html
-retrieved_at: 2026-08-22T00:01:40.529738+00:00
+retrieved_at: 2026-10-05T13:26:18.361875+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -6103,3 +6103,7 @@ Derived from System_Capacity_Real_Time.AverageCPS
 | Adjusted Capacity in CPS | Adjusted Call per second capacity during run time. Derived from System_Capacity_Real_Time.AdjustedCapacity |
 | Avg
                                           						CPS | Runtime weighed averaged call per second. Derived from System_Capacity_Real_Time.AverageCPS |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

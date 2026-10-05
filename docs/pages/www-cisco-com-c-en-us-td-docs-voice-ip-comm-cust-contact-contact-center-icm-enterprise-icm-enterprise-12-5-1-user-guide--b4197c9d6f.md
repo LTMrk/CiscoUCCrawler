@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--b4197c9d6f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125/ucce_b_ctios-supervisor-desktop-user-guide-125_chapter_01.html
-retrieved_at: 2026-08-22T00:00:27.380377+00:00
+retrieved_at: 2026-10-05T13:23:09.304772+00:00
 ---
 
 CTIOS Supervisor Desktop User Guide
@@ -114,3 +114,16 @@ This window
 
 | Note | The CTI Toolkit Supervisor Desktop is supported for use on Cisco Unified Contact Center Enterprise (Unified CCE) and Cisco Unified Contact Center Hosted (Unified CCH) . It is not supported for use on Time Division Multiplexing (TDM) peripherals. |
 |---|---|
+
+## Figuras
+
+![Figure 1. CTI Toolkit
+                                 			 Supervisor Desktop (Win32)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373689.tif/_jcr_content/renditions/373689.jpg)
+
+![Figure 2. CTI Toolkit
+                                 			 Real-Time Status for Voice](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373691.tif/_jcr_content/renditions/373691.jpg)
+
+![Figure 3. CTI
+                                 			 Statistics Window](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373690.tif/_jcr_content/renditions/373690.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-9bd83129a1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125-database-schema-handbook-for/ucce_b_125-database-schema-handbook-for_chapter_0101.html
-retrieved_at: 2026-08-16T19:34:10.304600+00:00
+retrieved_at: 2026-10-05T13:21:13.108273+00:00
 ---
 
 Database Schema Handbook for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -634,3 +634,7 @@ Vru_Defaults contains a single row of data that contains the default values for 
 
 Vru_Locale contains a list of locales (a locale is a combination of language and
                            country) supported by VRU micro-applications.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-974c48c4e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125cti-server-message-reference-guide/ucce_b_125cti-server-message-reference-guide_chapter_011.html
-retrieved_at: 2026-08-16T19:48:07.442339+00:00
+retrieved_at: 2026-10-05T13:21:52.641251+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 23) for Cisco Unified Contact Center Enterprise, Release 12.5(1)
@@ -2332,3 +2332,13 @@ UINT
 | MessageHeader | Standard message header. MessageType = 2. | MHDR | 8 |
 | Status | A status code indicating the cause of the failure.
                                           The possible status codes are defined in the Failure Indication Message status code table. | UINT | 4 |
+
+## Figuras
+
+![Figure 1. CTI Server Message Format](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408139.tif/_jcr_content/renditions/408139.jpg)
+
+![Figure 2. CTI Server Floating Field Format](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408140.tif/_jcr_content/renditions/408140.jpg)
+
+![Figure 3. Sample CSTA Call/Device/ConnectionID Values](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408141.tif/_jcr_content/renditions/408141.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

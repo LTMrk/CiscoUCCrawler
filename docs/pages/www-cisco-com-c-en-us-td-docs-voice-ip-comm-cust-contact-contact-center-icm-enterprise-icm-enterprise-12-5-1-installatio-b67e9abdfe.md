@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-b67e9abdfe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_01000.html
-retrieved_at: 2026-08-22T00:11:19.175907+00:00
+retrieved_at: 2026-10-05T13:20:05.614963+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -198,3 +198,9 @@ Writing test
 | Note | Before implementing the Gateway SQL and DB Lookup functionality, consider a Unified CVP VXML Application for database lookup
                                           instead. The DB Lookup node will interrupt routing while doing it's queries. The Unified CVP VXML Application will scale well. |
 |---|---|
+
+## Figuras
+
+![Figure 1. ICM Gateway SQL Duplexed Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340402.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--453055530e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_0111.html
-retrieved_at: 2026-08-22T00:02:50.637664+00:00
+retrieved_at: 2026-10-05T13:25:11.623020+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -254,3 +254,7 @@ Perskg12: Outbound
 | Note | For agents in more than one skill group, you can also use the agent
                                        		  by skill group templates as a tool for monitoring agent performance. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

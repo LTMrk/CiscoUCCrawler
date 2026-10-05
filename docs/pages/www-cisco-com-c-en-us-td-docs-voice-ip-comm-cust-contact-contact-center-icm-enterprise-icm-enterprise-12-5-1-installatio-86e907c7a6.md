@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-86e907c7a6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_0110.html
-retrieved_at: 2026-08-22T00:11:10.868789+00:00
+retrieved_at: 2026-10-05T13:20:30.551949+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -456,3 +456,23 @@ As part of CTI
 
 | Note | Most, but not all, ACDs support third-party call control. |
 |---|---|
+
+## Figuras
+
+![Figure 1. CTI Server
+                                 			 Overview](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340497.jpg)
+
+![Figure 2. Shared CTI
+                                    			 Server Platform](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340498.jpg)
+
+![Figure 3. Duplexed CTI
+                                    			 Server](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340499.jpg)
+
+![Figure 4. CTI Bridge
+                                          				  Model](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340500.jpg)
+
+![Figure 5. Desktop First-Party Call Control](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340392.jpg)
+
+![Figure 6. Desktop Third-Party Call Control](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340393.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

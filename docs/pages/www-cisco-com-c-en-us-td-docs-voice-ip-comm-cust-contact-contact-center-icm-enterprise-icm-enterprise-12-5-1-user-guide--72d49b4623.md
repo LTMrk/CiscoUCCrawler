@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--72d49b4623
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_01110.html
-retrieved_at: 2026-08-22T00:03:20.169909+00:00
+retrieved_at: 2026-10-05T13:25:15.886387+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -301,3 +301,7 @@ Unified Intelligence Center Peripheral Service Real Time
 | Note | Short calls are configured globally for all call
                                              types. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

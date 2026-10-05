@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-e4a41ec81a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_011.html
-retrieved_at: 2026-08-22T00:10:58.334469+00:00
+retrieved_at: 2026-10-05T13:20:26.449305+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -329,3 +329,14 @@ The major carriers provide options for route diversity. Check with
 | Note | For more
                                        		  information on Unified ICM system fault tolerance, see the for more information. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Network
+                                 			 Interface Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340489.jpg)
+
+![Figure 2. Redundant Links](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340490.jpg)
+
+![Figure 3. Redundant Links and Route Diversity](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340491.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

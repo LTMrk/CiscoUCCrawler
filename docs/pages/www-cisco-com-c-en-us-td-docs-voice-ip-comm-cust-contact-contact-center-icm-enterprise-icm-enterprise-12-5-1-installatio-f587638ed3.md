@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-f587638ed3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_0100.html
-retrieved_at: 2026-08-22T00:11:02.548016+00:00
+retrieved_at: 2026-10-05T13:20:01.828310+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -87,3 +87,10 @@ To ensure that your ACD software version is compatible with Unified ICM software
                                     		Supplements provide more technical details on the ICM-to-ACD interface than is
                                     		provided in this document. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Peripheral
+                                 			 Gateway ACD/PBX Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340492.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

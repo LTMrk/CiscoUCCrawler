@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--ba27d428ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125/ucce_b_ctios-supervisor-desktop-user-guide-125_chapter_0101.html
-retrieved_at: 2026-08-22T00:00:44.420343+00:00
+retrieved_at: 2026-10-05T13:23:21.917960+00:00
 ---
 
 CTIOS Supervisor Desktop User Guide
@@ -338,3 +338,7 @@ Unified CM rejects requests to silent monitor agents whose devices have security
                                        to monitor an agent using a 7.2 desktop, CTI OS rejects the request to silent monitor the agent. The supervisor desktop displays
                                        a dialog containing error code 0x15. |
 | Supervisor Silent Monitors Agent Whose Device has Security Enabled | Unified CM rejects requests to silent monitor agents whose devices have security enabled. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-076efaaee6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125cti-server-message-reference-guide/ucce_b_125cti-server-message-reference-guide_chapter_01.html
-retrieved_at: 2026-08-16T19:47:58.062819+00:00
+retrieved_at: 2026-10-05T13:21:25.493411+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 23) for Cisco Unified Contact Center Enterprise, Release 12.5(1)
@@ -308,3 +308,14 @@ Messages
                                           					 Control | Messages
                                           					 related to the direct control of agent state (for example, sign-in, sign-out)
                                           					 and control of inbound and outbound calls. |
+
+## Figuras
+
+![Figure 1. CTI Server
+                              		  Overview](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/35001-40000/37001-37500/37103.eps/_jcr_content/renditions/37103.jpg)
+
+![Figure 2. Typical Duplex Configuration Environment](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/35001-40000/37001-37500/37102.eps/_jcr_content/renditions/37102.jpg)
+
+![Figure 3. CTI Bridge to Existing CTI Application](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/35001-40000/37001-37500/37105.eps/_jcr_content/renditions/37105.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

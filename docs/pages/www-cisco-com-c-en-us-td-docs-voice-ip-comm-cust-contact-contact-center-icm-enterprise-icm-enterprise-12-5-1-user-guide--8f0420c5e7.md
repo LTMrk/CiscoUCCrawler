@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--8f0420c5e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_0111.html
-retrieved_at: 2026-08-21T04:30:45.890642+00:00
+retrieved_at: 2026-10-05T13:27:47.942100+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -2397,3 +2397,9 @@ Click Save .
 | Step 11 | Click OK to close the Formula Editor dialog box. |
 | Step 12 | Click OK to close the IF Properties dialog box. |
 | Step 13 | Click Save . |
+
+## Figuras
+
+![Figure 1. Payload icon](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510432.jpg)
+
+![Figure 2. Set Properties Window](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340802.jpg)

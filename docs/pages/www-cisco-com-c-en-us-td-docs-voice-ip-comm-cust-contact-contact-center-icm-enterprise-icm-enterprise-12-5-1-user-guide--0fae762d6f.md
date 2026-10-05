@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--0fae762d6f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_01011.html
-retrieved_at: 2026-08-21T12:03:54.015097+00:00
+retrieved_at: 2026-10-05T13:27:26.677232+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -1547,3 +1547,39 @@ The following diagram displays an example routing script using the
 
 | Note | Translation routes are not used in the Unified CCE System PG, so routing scripts using this PG do not need to use this object. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Unified CCE Gateway PG](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510064.jpg)
+
+![Figure 2. Setting Skill Group Variables (OutboundControl and OutboundPercent)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72158.tif/_jcr_content/renditions/72158.jpg)
+
+![Figure 3. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with Unified IP IVR](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127139.tif/_jcr_content/renditions/127139.jpg)
+
+![Figure 4. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with CVP/ISN](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127138.tif/_jcr_content/renditions/127138.jpg)
+
+![Figure 5. Example Routing Script Using the Dialed Number for the MR Routing Client](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82972.tif/_jcr_content/renditions/82972.jpg)
+
+![Figure 6. Queue to Agent Properties](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82971.tif/_jcr_content/renditions/82971.jpg)
+
+![Figure 7. Example Unified CCE System PG for Outbound Option Campaign Administrative Script](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127400.tif/_jcr_content/renditions/127400.jpg)
+
+![Figure 8. Example Routing Script Using the Queue to Skill Group Node](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127401.tif/_jcr_content/renditions/127401.jpg)
+
+![Figure 9. Unified CCE Gateway PG](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510064.jpg)
+
+![Figure 10. Setting Skill Group Variables (OutboundControl and OutboundPercent)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72158.tif/_jcr_content/renditions/72158.jpg)
+
+![Figure 11. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with Unified IP IVR](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127139.tif/_jcr_content/renditions/127139.jpg)
+
+![Figure 12. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with CVP/ISN](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127138.tif/_jcr_content/renditions/127138.jpg)
+
+![Figure 13. Example Routing Script Using the Dialed Number for the MR Routing Client](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82972.tif/_jcr_content/renditions/82972.jpg)
+
+![Figure 14. Queue to Agent Properties](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82971.tif/_jcr_content/renditions/82971.jpg)
+
+![Figure 15. Example Unified CCE System PG for Outbound Option Campaign Administrative Script](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127400.tif/_jcr_content/renditions/127400.jpg)
+
+![Figure 16. Example Routing Script Using the Queue to Skill Group Node](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127401.tif/_jcr_content/renditions/127401.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

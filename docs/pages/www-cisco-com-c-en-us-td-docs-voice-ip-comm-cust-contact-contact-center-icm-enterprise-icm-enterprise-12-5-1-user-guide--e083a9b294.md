@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--e083a9b294
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_0101.html
-retrieved_at: 2026-08-21T12:03:33.025889+00:00
+retrieved_at: 2026-10-05T13:27:18.400540+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -1762,3 +1762,53 @@ Optionally, add
 |---|---|
 | Step 2 | Optionally, add
                                        			 comments or connection labels. |
+
+## Figuras
+
+![Figure 1. The Send to
+                                 			 VRU Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340799.jpg)
+
+![Figure 2. The Translation Route to VRU Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340815.jpg)
+
+![Figure 3. Translation Route to VRU Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340816.jpg)
+
+![Figure 4. The Run External Script icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340792.jpg)
+
+![Figure 5. Run External Script Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340793.jpg)
+
+![Figure 6. The Queue Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340774.jpg)
+
+![Figure 7. Queue to Skill Group Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340775.jpg)
+
+![Figure 8. Precision
+                                 			 Queue Script Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340772.jpg)
+
+![Figure 9. Precision Queue Properties Dialog Box—Static Precision Queue](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371442.tif/_jcr_content/renditions/371442.jpg)
+
+![Figure 10. Precision Queue Properties Dialog Box—Dynamic Precision Queue](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371443.tif/_jcr_content/renditions/371443.jpg)
+
+![Figure 11. The Queue Priority Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340780.jpg)
+
+![Figure 12. Queue Priority Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340781.jpg)
+
+![Figure 13. The Cancel Queuing Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340688.jpg)
+
+![Figure 15. Collect Data Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340699.jpg)
+
+![Figure 16. The Menu Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340745.jpg)
+
+![Figure 17. Menu Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340746.jpg)
+
+![Figure 18. The Play Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340764.jpg)
+
+![Figure 19. Play Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340765.jpg)
+
+![Figure 20. The VRU Settings Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340823.jpg)
+
+![Figure 21. VRU Settings Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340824.jpg)
+
+![Figure 22. The Wait Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340825.jpg)
+
+![Figure 23. Wait Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340826.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

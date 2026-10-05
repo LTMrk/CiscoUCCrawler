@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--e48bc7214e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_0100.html
-retrieved_at: 2026-08-22T00:02:38.155996+00:00
+retrieved_at: 2026-10-05T13:23:47.110785+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -391,3 +391,14 @@ Because VRUs
 | Note | When the HDS database is newly created, the replication from the Logger to HDS does not copy the first record for historical
                                           tables. The impact to historical reporting is negligible, as the records are queried based on the interval datetime. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Central Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340246.jpg)
+
+![Figure 2. Peripherals
+                                 			 and Peripheral Gateways](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340247.jpg)
+
+![Figure 3. Administration & Data Server](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510208.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

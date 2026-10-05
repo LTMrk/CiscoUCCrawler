@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--6622466555
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_cisco-unified-contact-center-enterprise-125_chapter_010010.html
-retrieved_at: 2026-08-22T00:02:13.014164+00:00
+retrieved_at: 2026-10-05T13:26:01.077893+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -1075,3 +1075,7 @@ A count of the call completion rows in the Route_Call_Detail routed to each Queu
 | Queue | The name of the Queue configured on the target Unified CCE systems. It is the same as the EnterpriseName of the precision queue or skill group. If any calls cannot be routed, they are displayed in the report as a separate Errors queue. Derived from: Contact_Share_Group.QueueName |
 | Interval | The interval for which the calls are being reported. |
 | Calls | The number of calls routed to each Queue during the interval. A count of the call completion rows in the Route_Call_Detail routed to each Queue. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--8ad7996bc5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_010010.html
-retrieved_at: 2026-08-22T00:03:37.177871+00:00
+retrieved_at: 2026-10-05T13:24:08.238925+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -403,3 +403,16 @@ If Unified CVP receives pre-routed calls (for
                                              					 script. |
 | Service Level | Starts as soon as the call enters the call type that has the
                                              					 service level defined. | Starts when the call enters the service. | Not Applicable |
+
+## Figuras
+
+![Figure 1. VRU Reporting
+                                    			 Options](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340260.jpg)
+
+![Figure 2. Sample Routing Script for Information Gathering Queuing](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340261.jpg)
+
+![Figure 3. Call Type Data for Calls That Abandon After Call Type Is Changed](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103744.ps/_jcr_content/renditions/103744.jpg)
+
+![Figure 4. Call Type for Calls That Abandon Before Call Type Is Changed](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103745.ps/_jcr_content/renditions/103745.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

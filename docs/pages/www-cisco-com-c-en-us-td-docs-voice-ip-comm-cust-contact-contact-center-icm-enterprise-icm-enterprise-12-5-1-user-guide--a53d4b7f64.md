@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--a53d4b7f64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting-concepts-for-cisco-unified12_5/ucce_b_reporting-concepts-for-cisco-unified12_5_chapter_011001.html
-retrieved_at: 2026-08-22T00:04:06.600852+00:00
+retrieved_at: 2026-10-05T13:25:03.595800+00:00
 ---
 
 Reporting Concepts for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1)
@@ -786,3 +786,16 @@ Avg.Handle
                                              						Handled Avg.Talk
                                              						Time Avg.Handle
                                              						Time |
+
+## Figuras
+
+![Figure 1. Deployments with Enterprise Routing](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340263.jpg)
+
+![Figure 2. Sample
+                                       				Script for Enterprise Routing](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340264.jpg)
+
+![Figure 3. Deployments with Hybrid Routing](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340267.jpg)
+
+![Figure 4. Sample Script for Hybrid Routing](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340268.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

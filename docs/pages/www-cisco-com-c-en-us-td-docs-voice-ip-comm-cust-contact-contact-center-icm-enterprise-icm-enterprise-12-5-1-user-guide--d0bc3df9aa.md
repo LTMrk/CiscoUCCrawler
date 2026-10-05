@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--d0bc3df9aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_01100.html
-retrieved_at: 2026-08-21T12:03:57.938824+00:00
+retrieved_at: 2026-10-05T13:27:38.440145+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -60,3 +60,17 @@ For the Line Connector node, you define the connection labels:
 | Note | If you choose the Auto-Size Height option, you cannot adjust the height of
                                        the comment. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Start Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340805.jpg)
+
+![Figure 2. The Comment Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340700.jpg)
+
+![Figure 3. Comment Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340701.jpg)
+
+![Figure 4. The Line Connector Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340743.jpg)
+
+![Figure 5. Line Connector Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340744.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

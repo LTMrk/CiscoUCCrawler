@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--45285ac171
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_ctios-supervisor-desktop-user-guide-125/ucce_b_ctios-supervisor-desktop-user-guide-125_chapter_0100.html
-retrieved_at: 2026-08-22T00:00:40.330422+00:00
+retrieved_at: 2026-10-05T13:23:17.937983+00:00
 ---
 
 CTIOS Supervisor Desktop User Guide
@@ -382,3 +382,11 @@ Using the Call Recording feature requires that you install third-party recording
 | Note | Using the Call Recording feature requires that you install third-party recording hardware/software. Contact your Cisco representative
                                        for more information. |
 |---|---|
+
+## Figuras
+
+![Figure 1. CTI Toolkit Team Real-Time Status for Voice (Team State Information Grid)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373691.tif/_jcr_content/renditions/373691.jpg)
+
+![Figure 2. CTI OS Chat Window](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373701.tif/_jcr_content/renditions/373701.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

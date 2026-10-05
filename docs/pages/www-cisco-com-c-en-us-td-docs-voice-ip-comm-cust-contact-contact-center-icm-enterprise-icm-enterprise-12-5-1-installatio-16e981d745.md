@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-16e981d745
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_0111.html
-retrieved_at: 2026-08-22T00:11:15.158030+00:00
+retrieved_at: 2026-10-05T13:20:38.932860+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -268,3 +268,28 @@ For information on
                                           		  VRUs are connected to a PG, VRUs that use poll-based monitoring cannot be mixed
                                           		  with VRUs using any other kind of monitoring. |
 |---|---|
+
+## Figuras
+
+![Figure 1. VRU/ICM
+                                 			 Integration Overview](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340394.jpg)
+
+![Figure 2. Configuration
+                                    			 with an ACD PG Only](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340395.jpg)
+
+![Figure 3. Configuration
+                                    			 with IVR and ACD PGs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340396.jpg)
+
+![Figure 4. Network-Side
+                                    			 VRU with VRU and ACD PGs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340397.jpg)
+
+![Figure 5. In-Network VRU
+                                    			 with VRU and ACD PGs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340399.jpg)
+
+![Figure 6. VRU Transfer
+                                    			 Routing with Third-Party Call Control](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340400.jpg)
+
+![Figure 7. VRU-to-PG
+                                    			 Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340401.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

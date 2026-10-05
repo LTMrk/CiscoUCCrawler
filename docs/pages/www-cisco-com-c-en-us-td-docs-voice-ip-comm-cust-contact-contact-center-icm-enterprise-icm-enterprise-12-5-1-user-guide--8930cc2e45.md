@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--8930cc2e45
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_scripting-and-media-routing-guide_12_5/ucce_b_scripting-and-media-routing-guide_12_5_chapter_010.html
-retrieved_at: 2026-08-21T12:03:19.410173+00:00
+retrieved_at: 2026-10-05T13:27:00.519580+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.5(1) and 12.5(2)
@@ -338,3 +338,7 @@ CCE assigns the task to an agent who is logged into the "Sales" skill group in t
 | Note | These Expanded Call Context (ECC) variables are optional. Before you use these ECC variables, configure them for Unified CCE
                                           in the Configuration Manager's Expanded Call Variable List Tool and also in ECE . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

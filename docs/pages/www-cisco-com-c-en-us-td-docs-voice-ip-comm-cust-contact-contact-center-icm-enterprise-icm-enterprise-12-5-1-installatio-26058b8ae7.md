@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-26058b8ae7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_01100.html
-retrieved_at: 2026-08-22T00:11:36.162938+00:00
+retrieved_at: 2026-10-05T13:20:34.951805+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -719,3 +719,7 @@ For each Admin Site IP router, define a static route to one
                                           					 central controller (to the central site visible network IP router). |
 | Admin Site IP Routers | Visible | For each Admin Site IP router, define a static route to one
                                           					 side of the central controller (to the central site visible network IP router). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

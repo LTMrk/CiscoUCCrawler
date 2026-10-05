@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-program-gui-cb4a6c0e4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/program/guide/ucce_b_cisco-contact-center-gateway-deployment12_5/ucce_b_cisco-contact-center-gateway-deployment12_5_chapter_011.html
-retrieved_at: 2026-08-16T20:31:00.458665+00:00
+retrieved_at: 2026-10-05T13:21:00.452390+00:00
 ---
 
 Cisco Contact Center Gateway Deployment Guide for Cisco Unified ICM/CCE 12.5(1)
@@ -765,3 +765,13 @@ Save the script and activate it.
 | Step 2 | Add a Queue to Skill Group and call it SG1 . |
 | Step 3 | Add Run External Script nodes that run the CVPCallImportant script. |
 | Step 4 | Save the script and activate it. |
+
+## Figuras
+
+![Figure 1. Example Parent Call Flow Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371558.tif/_jcr_content/renditions/371558.jpg)
+
+![Figure 2. Example Child Call Flow Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371556.tif/_jcr_content/renditions/371556.jpg)
+
+![Figure 3. Translation Routing Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371559.tif/_jcr_content/renditions/371559.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

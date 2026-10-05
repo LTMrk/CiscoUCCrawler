@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-program-gui-76cc8b13e6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/program/guide/ucce_b_cisco-contact-center-gateway-deployment12_5/ucce_b_cisco-contact-center-gateway-deployment12_5_chapter_01.html
-retrieved_at: 2026-08-16T20:30:51.498460+00:00
+retrieved_at: 2026-10-05T13:20:52.230892+00:00
 ---
 
 Cisco Contact Center Gateway Deployment Guide for Cisco Unified ICM/CCE 12.5(1)
@@ -410,3 +410,13 @@ https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-vo
                                        					 ICM or Unified CCE | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html |
 | Unified
                                        					 CVP | https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/tsd-products-support-series-home.html |
+
+## Figuras
+
+![Figure 1. Two Parents with One Child](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371669.tif/_jcr_content/renditions/371669.jpg)
+
+![Figure 2. One Parent with Two Children](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371668.tif/_jcr_content/renditions/371668.jpg)
+
+![Figure 3. Parent Unified CVP Controls Multiple Child Unified CCE Sites](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371667.tif/_jcr_content/renditions/371667.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

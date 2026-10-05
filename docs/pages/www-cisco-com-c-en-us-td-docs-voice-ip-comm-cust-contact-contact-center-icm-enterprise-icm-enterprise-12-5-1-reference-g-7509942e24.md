@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-7509942e24
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_125cti-server-message-reference-guide/ucce_b_125cti-server-message-reference-guide_chapter_0100.html
-retrieved_at: 2026-08-16T19:48:11.300404+00:00
+retrieved_at: 2026-10-05T13:21:34.152214+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 23) for Cisco Unified Contact Center Enterprise, Release 12.5(1)
@@ -1443,3 +1443,13 @@ UINT
 | MessageHeader | Standard message header. MessageType = 8. | MHDR | 8 |
 | InvokeID | Set to the value of the InvokeID from the corresponding
                                           CLOSE_REQ message. | UINT | 4 |
+
+## Figuras
+
+![Figure 1. Session Initialization Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408142.tif/_jcr_content/renditions/408142.jpg)
+
+![Figure 2. Heartbeat Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408143.tif/_jcr_content/renditions/408143.jpg)
+
+![Figure 3. Session Termination Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408144.tif/_jcr_content/renditions/408144.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

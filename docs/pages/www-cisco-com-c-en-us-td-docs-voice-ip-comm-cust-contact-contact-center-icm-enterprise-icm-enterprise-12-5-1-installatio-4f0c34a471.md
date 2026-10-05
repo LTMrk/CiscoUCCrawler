@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-4f0c34a471
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_01011.html
-retrieved_at: 2026-08-22T00:11:32.522514+00:00
+retrieved_at: 2026-10-05T13:20:23.096359+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -1960,3 +1960,51 @@ You can have
                                              					 derived from the packet's destination address). | If sending to any other address. |
 | UDP | If source or destination port number is in the range
                                              					 39000–39999. | All other UDP packets. |
+
+## Figuras
+
+![Figure 1. ICM System Network Overview](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340405.jpg)
+
+![Figure 2. Role of Synchronizers](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340406.jpg)
+
+![Figure 3. Geographically
+                                 			 Distributed Central Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340407.jpg)
+
+![Figure 4. Co-located
+                                 			 Central Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340408.jpg)
+
+![Figure 5. Central Site
+                                    			 Signaling Access Network](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340409.jpg)
+
+![Figure 6. CallRouter
+                                    			 Network Connections](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340410.jpg)
+
+![Figure 7. CallRouter and
+                                    			 Logger Combination](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340411.jpg)
+
+![Figure 8. Logger as a
+                                       				Separate Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340412.jpg)
+
+![Figure 9. Optional
+                                    			 Database Server](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340413.jpg)
+
+![Figure 10. Administration
+                                    			 & Data Server at a Central Site](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340414.jpg)
+
+![Figure 11. Peripheral Gateway at a Central Site](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340415.jpg)
+
+![Figure 12. Duplexed Peripheral Gateways at a Central Site](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340416.jpg)
+
+![Figure 13. Contact Center
+                                    			 with Simplexed PG](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340417.jpg)
+
+![Figure 14. Fault Tolerant
+                                    			 Contact Center](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340418.jpg)
+
+![Figure 15. Fault Tolerant
+                                    			 Contact Center—IVR on Separate LAN](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340419.jpg)
+
+![Figure 16. Admin Site
+                                    			 Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340420.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

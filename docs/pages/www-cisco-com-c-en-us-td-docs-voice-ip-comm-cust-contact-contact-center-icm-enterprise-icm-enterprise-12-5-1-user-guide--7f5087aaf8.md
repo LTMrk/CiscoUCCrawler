@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-user-guide--7f5087aaf8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/user/guide/ucce_b_reporting_user_guide-1251/ucce_b_cisco-unified-contact-center-enterprise-125_chapter_01001.html
-retrieved_at: 2026-08-22T00:01:27.586902+00:00
+retrieved_at: 2026-10-05T13:25:56.370142+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release12.5(1)
@@ -248,3 +248,7 @@ In
 | Half-Hour
                                           					 (Outbound Option only) | Half-Hour
                                           					 tables are: Campaign_Half_Hour Campaign_Query_Rule_Half_Hour Dialer_Half_Hour Dialer_Skill_Group_Half_Hour |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

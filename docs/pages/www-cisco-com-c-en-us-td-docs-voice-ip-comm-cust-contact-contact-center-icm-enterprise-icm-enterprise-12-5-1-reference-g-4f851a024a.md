@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-reference-g-4f851a024a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_5/ucce_b_acd-supplement-guide-for-avaya-12_5_chapter_00.html
-retrieved_at: 2026-08-16T19:46:15.369383+00:00
+retrieved_at: 2026-10-05T13:22:14.623168+00:00
 ---
 
 Cisco Unified ICM ACD Supplement for Avaya Communication Manager, Release 12.5(1) and 12.5(2)
@@ -300,3 +300,10 @@ PIM supports a maximum of eight CTI links per CVLAN and a maximum of two CVLANs.
 
 | Note | The Avaya PG does not support Unified ICM integration with the Avaya ProLogix System. PIM supports a maximum of eight CTI links per CVLAN and a maximum of two CVLANs. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Avaya ACD
+                                    			 Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393350.tif/_jcr_content/renditions/393350.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

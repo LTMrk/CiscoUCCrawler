@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-5-1-installatio-35ee789aa0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_5_1/installation/guide/ucce_b_pre-installation-planning-guide-for-cisco/ucce_b_pre-installation-planning-guide-for-cisco_chapter_01010.html
-retrieved_at: 2026-08-22T00:11:27.596618+00:00
+retrieved_at: 2026-10-05T13:20:18.251556+00:00
 ---
 
 Pre-installation Planning Guide for Cisco Unified Intelligent Contact Management, Release 12.5(1)
@@ -67,3 +67,7 @@ Order any extra cabling or equipment. Order any additional equipment in time for
 | Step 5 | Determine if you require extra cabling or other equipment. You may need equipment such as rack-mounting hardware or an uninterruptible
                                        power supply (UPS). |  |
 | Step 6 | Order any extra cabling or equipment. Order any additional equipment in time for the arrival of the Unified ICM system components. |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
