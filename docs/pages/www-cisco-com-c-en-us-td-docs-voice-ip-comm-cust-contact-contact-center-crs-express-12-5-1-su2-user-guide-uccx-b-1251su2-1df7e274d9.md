@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-user-guide-uccx-b-1251su2-1df7e274d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/user/guide/uccx_b_1251su2_finesse-agent-supervisor-desktop-user-guide/uccx_m_1251su2_cisco-finesse-desktop-interface.html
-retrieved_at: 2026-08-16T21:23:52.132984+00:00
+retrieved_at: 2026-10-05T11:46:30.304770+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1) SU2
@@ -1393,3 +1393,15 @@ The URLs of the agents and supervisors may be different when they access the Fin
 
 | Note | The letters used in the keyboard shortcuts are not case-sensitive. If you are using Mac keyboard, then press Option instead of Alt . For example, to access the keyboard shortcuts list press Control–Option–F . If you are using Mac machine running Firefox browser, then set the Full Keyboard Access to All controls ( System Preferences > Keyboard > Shortcuts ) to shift the keyboard focus to all controls. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Multi-Tab Gadgets](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453767.jpg)
+
+![Figure 2. History](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453766.jpg)
+
+![Figure 4. Notification](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511164.jpg)
+
+![Figure 6. Call Control Gadget in Multi-Tab](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511165.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

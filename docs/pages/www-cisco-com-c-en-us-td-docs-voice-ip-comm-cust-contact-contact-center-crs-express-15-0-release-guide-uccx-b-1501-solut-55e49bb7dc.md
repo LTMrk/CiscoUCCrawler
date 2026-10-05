@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-release-guide-uccx-b-1501-solut-55e49bb7dc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/release/guide/uccx_b_1501_solution-release-notes/uccx_m_1501_caveats.html
-retrieved_at: 2026-08-16T20:57:16.730678+00:00
+retrieved_at: 2026-10-05T11:51:52.102060+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 15.0
@@ -99,3 +99,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=283613136&r
 
 | Note | If the list of caveats does not automatically appear when you open the browser, refresh the browser. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

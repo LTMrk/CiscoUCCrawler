@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-user-guide-uccx-b-1501-finesse--2fbe0ad67e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/user/guide/uccx_b_1501_finesse-agent-and-supervisor-desktop-user-guide-release-150/appendix.html
-retrieved_at: 2026-08-16T21:22:30.239063+00:00
+retrieved_at: 2026-10-05T11:52:17.159946+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 15.0
@@ -405,3 +405,7 @@ As the skill English(8) is common for both GeneralQueue and SalesQueue, Minimal 
 | Note | As the skill English(8) is common for both GeneralQueue and SalesQueue, Minimal Impact or Partial Revert cannot be applied.
                                                    Michael will be removed from both the queues. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

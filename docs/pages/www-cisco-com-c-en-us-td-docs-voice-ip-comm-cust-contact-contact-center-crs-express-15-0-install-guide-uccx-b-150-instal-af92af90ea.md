@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-install-guide-uccx-b-150-instal-af92af90ea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/uccx_b_150_install-and-upgrade-guide/uccx_m_150_postinstallation-tasks.html
-retrieved_at: 2026-08-16T21:09:12.046494+00:00
+retrieved_at: 2026-10-05T11:51:04.074085+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 15.0
@@ -308,3 +308,7 @@ XbRBYlZpO5v7rd6HbQ==
 -----END CERTIFICATE----- |
 | Step 4 | Log in to Unified CCX CLI using administrator credentials. |
 | Step 5 | Enter the set cert import trust tomcat command to provide the CUCM certificate details. Paste the copied CUCM certificate details and press Return . The CUCM certificate is imported to Unified CCX Tomcat trust store. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-install-guide-uccx-b-1251-4b06e41a15
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/install/guide/uccx_b_1251su2_install-and-upgrade-guide/uccx_m_1251su2_post-installation-tasks.html
-retrieved_at: 2026-08-16T21:12:29.598804+00:00
+retrieved_at: 2026-10-05T11:45:05.679589+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1) SU2
@@ -318,3 +318,7 @@ XbRBYlZpO5v7rd6HbQ==
 -----END CERTIFICATE----- |
 | Step 4 | Log in to Unified CCX CLI using administrator credentials. |
 | Step 5 | Enter the set cert import trust tomcat command to provide the CUCM certificate details. Paste the copied CUCM certificate details and press Return . The CUCM certificate is imported to Unified CCX Tomcat trust store. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

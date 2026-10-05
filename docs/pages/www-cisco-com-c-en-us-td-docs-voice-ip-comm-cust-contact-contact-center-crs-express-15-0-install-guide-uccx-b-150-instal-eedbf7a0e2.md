@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-install-guide-uccx-b-150-instal-eedbf7a0e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/uccx_b_150_install-and-upgrade-guide/uccx_b_150_install-and-upgrade-guide_index.html
-retrieved_at: 2026-09-07T18:25:40.299602+00:00
+retrieved_at: 2026-10-05T11:50:51.616498+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 15.0
@@ -37,3 +37,9 @@ adding components 1
 U
 
 uploading licenses 1
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

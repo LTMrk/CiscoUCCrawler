@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-release-guide-uccx-b-1501-solut-6bcc0834ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/release/guide/uccx_b_1501_solution-release-notes/uccx_m_1501_cisco-unified-intelligence-center.html
-retrieved_at: 2026-08-16T20:56:59.560457+00:00
+retrieved_at: 2026-10-05T11:52:08.930197+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 15.0
@@ -64,3 +64,7 @@ None.
 ## Third-Party Software Impact
 
 For the list of third-party softwares, see Open Source Documents . Filter by Product/Release Name and Version to download the required Open Source document.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

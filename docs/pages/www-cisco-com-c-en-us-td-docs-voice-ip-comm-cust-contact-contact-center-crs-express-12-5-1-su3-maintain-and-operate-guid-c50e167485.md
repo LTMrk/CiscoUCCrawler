@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su3-maintain-and-operate-guid-c50e167485
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-1251su3/uccx_m_1251su3_security.html
-retrieved_at: 2026-08-16T21:29:58.683391+00:00
+retrieved_at: 2026-10-05T11:48:40.684239+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1) SU3
@@ -977,3 +977,7 @@ Consolidate the exported certificates.
 
 | Note | The Security > Bulk Certificate Management menu option is not applicable for Unified CCX 9.0(x) . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

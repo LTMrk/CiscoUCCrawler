@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-install-guide-uccx-b-1251-a500c3dbee
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/install/guide/uccx_b_1251su2_install-and-upgrade-guide/uccx_m_1251su2_unified-ccx-rollback.html
-retrieved_at: 2026-08-16T21:12:38.091594+00:00
+retrieved_at: 2026-10-05T11:45:26.911492+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1) SU2
@@ -212,3 +212,7 @@ Click Update .
 | Step 2 | Choose Tools > User Management > Reporting Capability . |
 | Step 3 | Select the users that you want to update. |
 | Step 4 | Click Update . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-15-0-install-guide-ccp-b-installatio-1c2af90598
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_15_0/install/guide/ccp_b_installation-and-upgrade-guide-release-150/preface.html
-retrieved_at: 2026-08-16T21:08:39.101944+00:00
+retrieved_at: 2026-10-05T11:50:42.946335+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide, Release 15.0
@@ -73,3 +73,7 @@ contactcenterproducts_docfeedback@cisco.com
 | Updated the "Upgrade Overview" section. | Upgrade Overview |
 | Updated the "Upgrade Tasks" section. | Upgrade Tasks |
 | Updated the "Update Virtual Machine Settings" section. | Update Virtual Machine Settings |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-release-guide-uccx-b-1251-9717ca843a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/release/guide/uccx_b_1251su2_solution-release-notes/uccx_b_1252solution-release-notes_chapter_01.html
-retrieved_at: 2026-08-16T21:00:42.368118+00:00
+retrieved_at: 2026-10-05T11:45:48.159435+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 12.5(1) SU2
@@ -546,3 +546,7 @@ See the Unified CCX
 | Note | All agents who currently have the Unified CCX extension to be shared must log out before you configure additional agents to
                                                       share that extension. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

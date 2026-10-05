@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-features-guide-uccx-b-125-0e729578fc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/features/guide/uccx_b_1251su2_features-guide/uccx_m_1251su2_cisco-webex-experience-management-survey.html
-retrieved_at: 2026-08-16T21:17:53.431041+00:00
+retrieved_at: 2026-10-05T11:44:24.302982+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5(1) SU2
@@ -384,3 +384,7 @@ For a sample template script, see /wfavvid/Scripts/Templates/WXM/wxm_survey.aef 
 
 | Note | For a sample template script, see /wfavvid/Scripts/Templates/WXM/wxm_survey.aef directory which gets installed automatically when Unified CCX editor web launcher is launched. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

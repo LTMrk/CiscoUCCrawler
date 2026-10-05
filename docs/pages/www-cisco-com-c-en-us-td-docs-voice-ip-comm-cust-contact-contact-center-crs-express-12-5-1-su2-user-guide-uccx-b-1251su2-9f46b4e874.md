@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su2-user-guide-uccx-b-1251su2-9f46b4e874
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su2/user/guide/uccx_b_1251su2_finesse-agent-supervisor-desktop-user-guide/uccx_m_1251su2_supervisor-tasks.html
-retrieved_at: 2026-08-16T21:24:09.319773+00:00
+retrieved_at: 2026-10-05T11:46:46.940881+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1) SU2
@@ -1136,3 +1136,7 @@ Click Save . A confirmation message is displayed.
 | Step 6 | Enable Schedule . |
 | Step 7 | Click Save . A confirmation message is displayed. The contacts from the predefined file are imported into the Unified CCX database at the scheduled date and time. To view the
                                                 status of the scheduled import of contacts, revisit this tab. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

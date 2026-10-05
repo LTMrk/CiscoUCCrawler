@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su3-documentation-guide-uccx--ab0bd7a6cd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su3/documentation/guide/uccx_b_1251su3_documentation-guide/uccx_m_1251su3doc-guide.html
-retrieved_at: 2026-08-16T21:03:09.014394+00:00
+retrieved_at: 2026-10-05T11:47:03.538748+00:00
 ---
 
 Cisco Unified Contact Center Express Documentation Guide, Release 12.5(1) SU3
@@ -425,3 +425,7 @@ https://www.cisco.com/en/US/partner/products/ps8293/tsd_products_support_series_
                                           						Cisco Unified Intelligence Center documentation, see: https://www.cisco.com/en/US/products/ps9755/tsd_products_support_series_home.html . |
 | Unified Workforce Optimization Workforce Management | For Cisco Unified Workforce Optimization Workforce Management documentation, see: https://www.cisco.com/en/US/partner/products/ps8293/tsd_products_support_series_home.html . |
 | Unified Workforce Optimization Advanced Quality Management | For Cisco Unified Workforce Optimization Advanced Quality Management documentation, see: https://www.cisco.com/en/US/partner/products/ps8293/tsd_products_support_series_home.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
