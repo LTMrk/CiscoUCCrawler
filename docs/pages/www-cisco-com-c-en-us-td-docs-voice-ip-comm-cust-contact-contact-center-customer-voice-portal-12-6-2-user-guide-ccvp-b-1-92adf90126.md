@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-user-guide-ccvp-b-1-92adf90126
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/user/guide/ccvp_b_1262-user-guide-for-cisco-unified-cvp-vxml-server-and-call-studio/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_010.html
-retrieved_at: 2026-08-21T17:40:51.351189+00:00
+retrieved_at: 2026-10-05T12:09:45.257495+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.6(2)
@@ -1744,3 +1744,7 @@ averageCallDuration —Returns the average duration of all
 | Update
                                              Common Classes | Yes | Yes | Reloads all classes deployed in the common directory of VXML
                                              Server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

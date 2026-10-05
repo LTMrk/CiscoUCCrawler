@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-reporting-guide-ccv-12f6210c03
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/reporting/guide/ccvp_b_1262-reportingguide-cvp/ccvp_b_1261-reportingguide-cvp_chapter_011.html
-retrieved_at: 2026-08-21T02:56:49.947381+00:00
+retrieved_at: 2026-10-05T12:08:11.392504+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -5575,3 +5575,17 @@ EWT,
 | DBDateTime | datetime
                                              					 year to fraction(3) | No | No | The date
                                              					 and time of the database operation. |
+
+## Figuras
+
+![Figure 1. Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340932.jpg)
+
+![Figure 2. Call Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340933.jpg)
+
+![Figure 3. Callback Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340934.jpg)
+
+![Figure 4. Summary Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340935.jpg)
+
+![Figure 5. Trunk Group Utilization Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340936.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

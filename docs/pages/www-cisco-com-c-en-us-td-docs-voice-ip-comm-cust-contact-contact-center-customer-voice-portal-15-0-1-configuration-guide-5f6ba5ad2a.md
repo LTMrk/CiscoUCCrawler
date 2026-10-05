@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-5f6ba5ad2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/gateway_configuration.html
-retrieved_at: 2026-08-21T02:59:01.360036+00:00
+retrieved_at: 2026-10-05T12:11:59.220172+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -1663,3 +1663,7 @@ ip host _sip._udp.cvp.cisco.com srv 50 50 5060 cvp4cc1.cisco.com Note The DNS
 | Step 5 | If the script or media file is listed in the Select From
                                           			 Available Script Files drop box, select the script or media file. |
 | Step 6 | Click Transfer to send the file to the device. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

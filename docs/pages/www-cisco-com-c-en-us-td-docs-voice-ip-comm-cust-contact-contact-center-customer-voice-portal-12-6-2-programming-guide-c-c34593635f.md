@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-programming-guide-c-c34593635f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/programming/guide/ccvp_b_1262-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio1/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_0100.html
-retrieved_at: 2026-08-21T17:21:52.521773+00:00
+retrieved_at: 2026-10-05T12:06:48.780525+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(2)
@@ -168,3 +168,7 @@ For example: http://<IP>:<Port>/<target_path>/?classurl=<fully_qualified_java_cl
 
 | Note | If a direct remote server URI is provided, then that IP:Port will be used and not fetched from the Remote Url Settings property tab. For example: http://<IP>:<Port>/<target_path>/?classurl=<fully_qualified_java_class_path> |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

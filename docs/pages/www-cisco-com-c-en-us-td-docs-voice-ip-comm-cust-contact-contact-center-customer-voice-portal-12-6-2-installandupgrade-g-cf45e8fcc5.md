@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-installandupgrade-g-cf45e8fcc5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/installandupgrade/guide/ccvp_b_1262-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal_chapter_01.html
-retrieved_at: 2026-08-21T11:56:29.168320+00:00
+retrieved_at: 2026-10-05T12:05:29.057300+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -90,3 +90,7 @@ To allow required access to installation program files or folders, add the follo
 | Caution | The 12.6(2) release replaces the JRE and Tomcat versions. If you have updated any files in Tomcat (from the %CVP_HOME%\VXMLServer\Tomcat\webapps\CVP folder) or JRE configurations (from the %CVP_HOME%\JRE folder), ensure that you take a backup of the files before you proceed with the installation. You can restore the backup
                                        after the installation is complete. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

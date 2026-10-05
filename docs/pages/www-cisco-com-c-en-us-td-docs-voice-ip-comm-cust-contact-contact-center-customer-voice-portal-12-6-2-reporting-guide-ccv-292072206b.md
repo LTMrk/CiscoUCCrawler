@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-reporting-guide-ccv-292072206b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/reporting/guide/ccvp_b_1262-reportingguide-cvp/ccvp_b_reporting-guide-for-cvp-1201_preface_00.html
-retrieved_at: 2026-08-21T02:56:29.382263+00:00
+retrieved_at: 2026-10-05T12:08:14.679384+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -99,3 +99,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Change | See | Date |
 |---|---|---|
 | Initial release of document for release 12.6(2) | April 2023 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

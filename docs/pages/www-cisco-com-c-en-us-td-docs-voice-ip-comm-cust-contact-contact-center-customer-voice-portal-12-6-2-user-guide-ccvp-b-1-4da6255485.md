@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-user-guide-ccvp-b-1-4da6255485
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/user/guide/ccvp_b_1262-user-guide-for-cisco-unified-cvp-vxml-server-and-call-studio/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_0110.html
-retrieved_at: 2026-08-21T17:41:07.838062+00:00
+retrieved_at: 2026-10-05T12:10:05.786756+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.6(2)
@@ -248,3 +248,7 @@ hh:mm:ss pm -12 hour format
 | String timeFormat | This is the format in which the input time has to be provided. |
 | return value | If the input date is in the valid format, the return value is 1. If the input date is not in the valid format, the return value
                                        				  is 0. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-installandupgrade-g-601f230eba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/installandupgrade/guide/ccvp_b_1262-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1252-installation-and-upgrade-guide-for-cisco-unified-customer-voice-portal_chapter_0110.html
-retrieved_at: 2026-08-21T11:56:41.728546+00:00
+retrieved_at: 2026-10-05T12:05:41.268957+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -138,3 +138,7 @@ The Unified CVP uninstallation procedure does not clean up all the files and fol
                                                       folders in the wwwroot and use the relative paths, as it simplifies the migration process for the future releases of Unified CVP that supports A-law,
                                                       u-law, and G729 files. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

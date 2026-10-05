@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-69172fdb01
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp-m-1501-tls-cipher-configuration.html
-retrieved_at: 2026-08-21T02:59:18.571680+00:00
+retrieved_at: 2026-10-05T12:11:35.948650+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -125,3 +125,7 @@ Restart the Reporting server.
 | Step 4 | Edit the SIP.Secure.Ciphers property field. |
 | Step 5 | Click Save . |
 | Step 6 | Restart the Reporting server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-user-guide-ccvp-b-1-a12fb16ad2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/user/guide/ccvp_b_1262-user-guide-for-cisco-unified-cvp-vxml-server-and-call-studio/ccvp_m_1261-introduction.html
-retrieved_at: 2026-08-21T17:40:42.517955+00:00
+retrieved_at: 2026-10-05T12:10:23.005032+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.6(2)
@@ -767,3 +767,37 @@ Detailed descriptions of all Call Studio features, element types, and functional
 | Step 3 | In the To directory field, browse to the directory you want to move the call studio application. |
 | Step 4 | In the Options section, do not change the default selections. |
 | Step 5 | Click Finish . |
+
+## Figuras
+
+![Figure 1. Setting Preferences in Call Studio](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371560.tif/_jcr_content/renditions/371560.jpg)
+
+![Figure 2. Create a new Call Studio project](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371561.tif/_jcr_content/renditions/371561.jpg)
+
+![Figure 3. Name the Call Studio Project](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341038.jpg)
+
+![Figure 4. Call Studio General Settings for new project](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/404001-405000/404155.tif/_jcr_content/renditions/404155.jpg)
+
+![Figure 5. Call Studio Audio Settings for new project](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510110.jpg)
+
+![Figure 6. New project Endpoint Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341041.jpg)
+
+![Figure 7. Root Doc Settings for new project](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341042.jpg)
+
+![Figure 8. Remote Url Settings for new project](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/478001-479000/478932.jpg)
+
+![Figure 9. New project showing in Navigator tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341043.jpg)
+
+![Figure 10. New project automatically started in call flow editor](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341044.jpg)
+
+![Figure 11. Create Subflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391564.tif/_jcr_content/renditions/391564.jpg)
+
+![Figure 12. Name the Subflow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391565.tif/_jcr_content/renditions/391565.jpg)
+
+![Figure 13. New Subflow Created](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391566.tif/_jcr_content/renditions/391566.jpg)
+
+![Figure 14. Subflow Folder Created](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/391001-392000/391567.tif/_jcr_content/renditions/391567.jpg)
+
+![Figure 15. Call Studio Online Help Access](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371564.tif/_jcr_content/renditions/371564.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

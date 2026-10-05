@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-3b5644f691
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/configure_high_availability_for_unified_cvp.html
-retrieved_at: 2026-08-21T02:59:38.152184+00:00
+retrieved_at: 2026-10-05T12:11:54.698890+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -694,3 +694,9 @@ sip-server ipv4:10.78.26.31 |
 | Note | In order to get the "?", press CTRL-V before pressing the question
                                     		mark. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Server Group Diagnostics](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341202.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

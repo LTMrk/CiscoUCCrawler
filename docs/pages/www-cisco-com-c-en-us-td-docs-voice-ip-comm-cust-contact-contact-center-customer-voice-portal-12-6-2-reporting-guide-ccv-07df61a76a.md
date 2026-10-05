@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-reporting-guide-ccv-07df61a76a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/reporting/guide/ccvp_b_1262-reportingguide-cvp/ccvp_b_1261-reportingguide-cvp_chapter_0101.html
-retrieved_at: 2026-08-21T02:56:57.675462+00:00
+retrieved_at: 2026-10-05T12:08:04.743552+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -599,3 +599,7 @@ On occasion, messages are dropped. even for an otherwise
 
 | Warning | Do not ever write a SQL statement that selects into temp without specifying the 'no log' option. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

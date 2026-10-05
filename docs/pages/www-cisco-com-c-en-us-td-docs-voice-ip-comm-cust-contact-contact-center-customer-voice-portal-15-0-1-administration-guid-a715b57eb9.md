@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-administration-guid-a715b57eb9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/administration/guide/ccvp_b_1501-admin-guide-for-cisco-unified-customer-voice-portal/cisco-unified-customer-voice-portal.html
-retrieved_at: 2026-08-21T02:57:12.621922+00:00
+retrieved_at: 2026-10-05T12:11:11.872019+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 15.0(1)
@@ -10295,3 +10295,7 @@ Restart the
 | Step 4 | Save the vxml.properties file. |
 | Step 5 | Restart the
                                                 			 VXML Server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-programming-guide-c-ca362457ec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/programming/guide/ccvp_b_1262-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio1/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_0111.html
-retrieved_at: 2026-08-21T17:22:04.938437+00:00
+retrieved_at: 2026-10-05T12:07:30.080308+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(2)
@@ -128,3 +128,9 @@ Add Events in the Element Configuration to handle any particular or general exce
 
 | Note | If a direct remote server URI is provided, then that IP:Port is used and not fetched from the Remote Url Setting property tab. For example: http://<IP>:<Port>/<target_path>/?classurl=<fully_qualified_java_class_path> |
 |---|---|
+
+## Figuras
+
+![Figure 1. Standard Decision Elements DTD Diagram](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340886.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

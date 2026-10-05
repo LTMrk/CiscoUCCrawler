@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-c4500152c9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/preconfiguration.html
-retrieved_at: 2026-08-21T02:58:05.281026+00:00
+retrieved_at: 2026-10-05T12:12:25.224633+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -830,3 +830,7 @@ ccbu-doc-gw4#show debug
 
 | Note | Do not edit, delete, or access these files without contacting Cisco TAC. Any change to these files can cause operational impact. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

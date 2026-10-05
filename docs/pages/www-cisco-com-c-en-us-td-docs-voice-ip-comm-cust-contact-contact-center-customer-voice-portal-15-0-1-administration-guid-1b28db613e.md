@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-administration-guid-1b28db613e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/administration/guide/ccvp_b_1501-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1501_launch-tools.html
-retrieved_at: 2026-08-21T02:57:40.027488+00:00
+retrieved_at: 2026-10-05T12:10:44.481126+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 15.0(1)
@@ -138,3 +138,7 @@ Go to Tools > NOAMP .
 
 | Go to Tools > NOAMP . You are logged in to NOAMP automatically. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

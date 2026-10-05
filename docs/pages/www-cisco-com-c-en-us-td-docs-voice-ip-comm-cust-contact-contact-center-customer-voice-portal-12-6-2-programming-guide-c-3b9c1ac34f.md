@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-programming-guide-c-3b9c1ac34f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/programming/guide/ccvp_b_1262-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio1/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_01101.html
-retrieved_at: 2026-08-21T17:22:30.377503+00:00
+retrieved_at: 2026-10-05T12:07:26.120647+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 12.6(2)
@@ -36,3 +36,9 @@ The on error notification class must be deployed in the common directory of VXML
 
 To configure VXML Server to use this class if an error occurs, a file named global_config.xml found in the conf directory of VXML Server must be used. This XML file contains a tag named <error_class> that should encapsulate the full Java name of this class (package name included). The changes will take effect only the next
                            time the Java application server on which VXML Server is installed is restarted.
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

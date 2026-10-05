@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-elementspecificatio-17ff0af414
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/elementspecification/guide/ccvp_b_1262-element-specifications-guide/ccvp_mp_t4e2a5b5_00_throw.html
-retrieved_at: 2026-08-21T17:21:23.185187+00:00
+retrieved_at: 2026-10-05T12:04:54.662043+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.6(2)
@@ -84,3 +84,7 @@ You can
                                           				  enter the value in this field from the substitutions tag, the last exception
                                           				  session variable will be used for the same. The last exception session variable
                                           				  will hold the last thrown exception. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

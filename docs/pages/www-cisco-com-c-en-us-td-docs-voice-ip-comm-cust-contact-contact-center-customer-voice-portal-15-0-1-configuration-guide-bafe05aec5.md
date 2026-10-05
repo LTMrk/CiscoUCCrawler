@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-bafe05aec5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/java_runtime_environment_minor_update.html
-retrieved_at: 2026-08-21T02:59:50.828807+00:00
+retrieved_at: 2026-10-05T12:12:06.988669+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -76,3 +76,7 @@ Ensure that the script output displays the updated JRE version.
 
 | Note | The jre folder is available in the JDK root folder. For example: C:\jdk17.0.13\jre . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

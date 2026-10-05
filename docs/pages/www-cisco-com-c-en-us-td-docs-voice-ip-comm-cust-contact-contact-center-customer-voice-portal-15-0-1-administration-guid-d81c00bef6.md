@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-administration-guid-d81c00bef6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/administration/guide/ccvp_b_1501-admin-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1501_managing-devices.html
-retrieved_at: 2026-08-21T02:57:22.682979+00:00
+retrieved_at: 2026-10-05T12:10:53.705376+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal 15.0(1)
@@ -10783,3 +10783,7 @@ dial-peer voice xxxx voip (Dial-peer to CVP)
 | Note | If this is a Reporting Server, Call Server, VXML Server,
                                                          				Unified CVP VXML Server (standalone), or Speech Server, you must click Save & Deploy . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

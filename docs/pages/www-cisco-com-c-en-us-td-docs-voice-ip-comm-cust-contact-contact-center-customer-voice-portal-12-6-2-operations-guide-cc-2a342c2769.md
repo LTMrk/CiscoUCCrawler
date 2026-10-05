@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-operations-guide-cc-2a342c2769
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/operations/guide/ccvp_b_1262-operations-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal_chapter_01.html
-retrieved_at: 2026-08-21T17:40:25.397350+00:00
+retrieved_at: 2026-10-05T12:06:07.207969+00:00
 ---
 
 Operations Guide for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -1102,3 +1102,7 @@ debug h245 asn1
                                        ccsip err deb cch323 err deb voip app vxml err deb http client err deb mrcp err deb
                                        rtsp err deb h225 asn1 err deb h245 asn1 err 2 - debug isdn q931 debug h225 events debug h245 events debug voip ccapi inout debug
                                        vtsp events 3 - debug ccsip messages debug h225 q931 debug h225 asn1 debug h245 asn1 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

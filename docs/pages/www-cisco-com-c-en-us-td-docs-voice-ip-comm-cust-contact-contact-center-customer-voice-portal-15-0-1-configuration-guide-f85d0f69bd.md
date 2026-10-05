@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-f85d0f69bd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_150-configuration-guide-for-cisco-unified-customer-voice-portal/transfer_and_queue_calls_with_unified_cvp.html
-retrieved_at: 2026-08-21T02:59:34.398280+00:00
+retrieved_at: 2026-10-05T12:12:59.699611+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -1955,3 +1955,29 @@ When PCS and CX KPI Survey are configured, PCS takes precedence.
 
 | Note | When PCS and CX KPI Survey are configured, PCS takes precedence. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Call Transfer to a Label](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230204.jpg)
+
+![Figure 2. Network VRU
+                                 		  Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230207.jpg)
+
+![Figure 3. Sample ICM Configuration Manager and Script Editor
+                                 Screen](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230203.jpg)
+
+![Figure 4. Running VRU Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230206.jpg)
+
+![Figure 5. Network Transfer Setting](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230205.jpg)
+
+![Figure 6. Queue to Skill
+                                    		  Group Properties](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230201.jpg)
+
+![Figure 7. Requery
+                                    		  Mechanism](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230202.jpg)
+
+![Figure 8. Cisco Unified CM Administration—Find and List Locations](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341181.jpg)
+
+![Figure 9. Phone Configuration Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341182.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

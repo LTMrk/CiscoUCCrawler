@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-12-6-2-sayitsmart-guide-cc-e31d83bd46
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/12-6-2/sayitsmart/guide/ccvp_b_1262-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/ccvp_b_1251-say-it-smart-specifications-for-cisco-unified-customer-voice-portal_chapter_011.html
-retrieved_at: 2026-08-21T17:39:35.097653+00:00
+retrieved_at: 2026-10-05T12:09:01.092830+00:00
 ---
 
 Say It Smart Specifications for Cisco Unified Customer Voice Portal, Release 12.6(2)
@@ -372,3 +372,7 @@ There are no
 | Output Format: | standard_no_ssml |
 | Fileset | none |
 | Playback: | a.wav (with TTS backup "backup for a" ) b.wav (with TTS backup "backup for b" ) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
