@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-rcct-b-v-f35abb382f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/rcct_b_vpn-less-finesse/rcct_m_150_frequently-asked-questions.html
-retrieved_at: 2026-08-16T19:58:09.252443+00:00
+retrieved_at: 2026-10-05T13:13:10.169624+00:00
 ---
 
 Cisco Contact Center Enterprise Reverse Proxy Installation and Upgrade Guide, Release 15.0(1)
@@ -149,3 +149,7 @@ podman exec <proxy_instance_name> | grep resty_rpm_version | cut -d ":" -f2
                                           configured on IdS and Finesse boxes. It should contain the reverse-proxy hostname, and whitelisted IP address. |
 | Intermittent Finesse REST API failures | — | Gadgets fails to load in Finesse desktop due to the rate limit issue at NGINX proxy. | Check if the rate limit of the values configured on the core.env are correct. Also, validate if the bug CSCwc65529 fixed is present on the current config. |
 | To check the OpenResty® version being run in the Installer | — | — | Run the following command in the proxy instance to check the OpenResty® version: podman exec <proxy_instance_name> \| grep resty_rpm_version \| cut -d ":" -f2 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

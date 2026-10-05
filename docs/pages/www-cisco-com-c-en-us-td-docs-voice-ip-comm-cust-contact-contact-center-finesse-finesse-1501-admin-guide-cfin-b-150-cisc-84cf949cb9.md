@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-84cf949cb9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-team-resources.html
-retrieved_at: 2026-08-21T12:04:44.344895+00:00
+retrieved_at: 2026-10-05T13:11:46.037812+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage Team Resources
 
@@ -507,3 +507,7 @@ Click Save .
 | Step 2 | Click the Workflows tab. |
 | Step 3 | Click the red X next to the workflow to unassign. |
 | Step 4 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

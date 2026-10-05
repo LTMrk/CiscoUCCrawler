@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-0f5a5e251d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_cisco-finesse-failover-mechanisms.html
-retrieved_at: 2026-08-21T12:05:13.239159+00:00
+retrieved_at: 2026-10-05T13:11:00.803662+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Cisco Finesse Failover Mechanisms
 
@@ -620,6 +620,10 @@ Delay in completing the maintenance mode can also cause the Finesse maintenance 
 
 Alternate Cisco Finesse node's unavailability or disconnection can cause the Finesse maintenance mode operation to be abandoned.
 
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
+
 | Note | An agent or supervisor who signs in after being on an active conference with other devices (which are not associated with
                                              another agent or supervisor) may experience unpredictable behavior with the Finesse desktop due to incorrect call notifications
                                              from Unified CCE. These limitations also encompass failover scenarios where a failover occurs while the agent or supervisor
@@ -721,3 +725,7 @@ Alternate Cisco Finesse node's unavailability or disconnection can cause the Fin
                                           agents to be migrated in 60 minutes. The maintenance mode is marked as failed if any of the agents are not logged out or migrated
                                           within the specified time. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-cfin-b-1-b4061ea02f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/cfin_b_1501_cisco-installation-and-upgrade-guide-15_0/cfin_m_1501_initial-configuration.html
-retrieved_at: 2026-08-21T15:53:05.307271+00:00
+retrieved_at: 2026-10-05T13:12:28.406261+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 15.0(1)
@@ -1394,3 +1394,7 @@ Verify that the agent's device is properly configured in
 
 | Note | Finesse agents can use either their loginID or loginName to sign in. Ensure that each agent's loginID and loginName are unique across both sets of data. If one agent's loginID matches another agent's loginName , neither agent can sign in. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-11c4c87106
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261_manage-connected-agents.html
-retrieved_at: 2026-08-21T15:55:46.500430+00:00
+retrieved_at: 2026-10-05T13:09:31.045028+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -92,3 +92,7 @@ The time at which the agent information was last fetched from the server is disp
 | Connected Time | The total duration (in hh:mm:ss) for which the agent has been logged in. |
 | Connected Side | Publisher/Subscriber/Both Sides. |
 | Finesse Host | The Finesse host through which the agent is connected. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

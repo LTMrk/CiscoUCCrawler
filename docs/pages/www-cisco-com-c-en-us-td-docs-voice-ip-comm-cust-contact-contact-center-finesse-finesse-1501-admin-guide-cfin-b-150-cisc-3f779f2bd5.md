@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-3f779f2bd5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_certificates-for-cisco-identity-service.html
-retrieved_at: 2026-08-21T04:32:41.748698+00:00
+retrieved_at: 2026-10-05T13:10:47.314593+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Certificates for Cisco Identity Service
 
@@ -103,3 +103,7 @@ Perform the same steps for both the primary and secondary Finesse nodes.
 | Step 4 | In the Upload File field, click Choose File and browse to the tomcat.pem file that you saved on your system. |
 | Step 5 | Click Upload . |
 | Step 6 | Reboot the Cisco Finesse server to apply the certificate changes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

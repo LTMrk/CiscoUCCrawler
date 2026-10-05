@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-a35a515302
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-phone-books.html
-retrieved_at: 2026-08-21T12:04:36.027893+00:00
+retrieved_at: 2026-10-05T13:11:29.174132+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage Phone Books
 
@@ -20,12 +20,12 @@ Chapter: Manage Phone Books
 
 Finesse supports the following number of phone books:
 
-10 global phone books
+10 global phone books with release 15.0(1). When you install Finesse ES202511, Finesse supports up to 25 global phone books
 
 300 team phone books
 
-The system supports a total of 50,000 contacts. The total number of contacts per agent across all phone books is limited to
-                              6000.
+The system supports a total of 50,000 contacts with release 15.0(1). When you install Finesse ES202511, the system supports
+                              a total of 100,000 contacts. The total number of contacts per agent across all phone books is limited to 6000
 
 Use the Manage Phone Books gadget to view, add, edit, or delete phone books and phone book contacts. Click the Name or Assign
                               To headers to sort the phone books in ascending or descending order. Click the last Name, First Name, Number, or Note headers
@@ -382,3 +382,7 @@ Click Yes to confirm the deletion of the selected contact.
 | Step 2 | Select the contact that you want to delete. |
 | Step 3 | Click Delete . |
 | Step 4 | Click Yes to confirm the deletion of the selected contact. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

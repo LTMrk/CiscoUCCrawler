@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-965aae92fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-third-party-gadgets.html
-retrieved_at: 2026-08-21T12:05:04.677170+00:00
+retrieved_at: 2026-10-05T13:11:49.840226+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage Third-Party Gadgets
 
@@ -161,6 +161,10 @@ For a CA-signed certificate, install the root, intermediate, and actual (externa
 Enable the shindig allowed list to allow the Finesse server to communicate with the external server using the shindig proxy.
                                                             For more information, see Gadget Source Allowed List CLI .
 
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
+
 | Note | If you plan to upload third-party gadgets to the Finesse server, you must have a developer support services contract or work
                                           with a Cisco partner who has a developer support services contract. For more information about uploading third-party gadgets,
                                           see the Cisco Finesse Web Services Developer Guide . |
@@ -202,3 +206,7 @@ Enable the shindig allowed list to allow the Finesse server to communicate with 
 | Note | For a CA-signed certificate, install the root, intermediate, and actual (external server) certificates in the correct order. Enable the shindig allowed list to allow the Finesse server to communicate with the external server using the shindig proxy.
                                                             For more information, see Gadget Source Allowed List CLI . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

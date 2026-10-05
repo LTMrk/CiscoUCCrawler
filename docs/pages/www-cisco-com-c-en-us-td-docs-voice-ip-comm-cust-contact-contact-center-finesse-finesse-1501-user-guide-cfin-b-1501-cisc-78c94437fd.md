@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-user-guide-cfin-b-1501-cisc-78c94437fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/user/guide/cfin_b_1501_cisco-desktop-user-guide/cfin_m_1501_cisco-finesse-desktop-interface.html
-retrieved_at: 2026-09-07T17:42:53.628054+00:00
+retrieved_at: 2026-10-05T13:13:32.273537+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 15.0(1)
@@ -1729,3 +1729,39 @@ If you are using Mac machine running Firefox browser, then set the Full Keyboard
 | Note | The letters used in the keyboard shortcuts are not case-sensitive. The navigation group shortcuts are limited to nine shortcut keys, ranging from Ctrl+Alt+1 to Ctrl+Alt+9. If the number of
                                                    navigation tabs exceeds nine, use the arrow keys to navigate through the tabs. If you are using Mac keyboard, then press Option instead of Alt . For example, to access the keyboard shortcuts list press Control–Option–F . If you are using Mac machine running Firefox browser, then set the Full Keyboard Access to All controls ( System Preferences > Keyboard > Shortcuts ) to shift the keyboard focus to all controls. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Finesse Agent Desktop](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511252.jpg)
+
+![Figure 2. Finesse Supervisor Desktop](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510467.jpg)
+
+![Figure 3. Multi-Tab Gadgets](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453767.jpg)
+
+![Figure 4. History](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453766.jpg)
+
+![Figure 5. Notification](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511164.jpg)
+
+![Figure 6. Call Control Gadget in Multi-Tab](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511165.jpg)
+
+![Figure 7. Cisco AI Assistant pane on Cisco Finesse desktop](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495504.png)
+
+![Figure 8. Virtual agent transfer summries](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495377.png)
+
+![Figure 9. Call Transcript](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495384.png)
+
+![Figure 10. Call Transcript with Filter](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495387.png)
+
+![Figure 11. Get assistance](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495505.png)
+
+![Figure 12. Real-Time Assist](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495506.png)
+
+![Figure 13. Wrap-Up Summary - Summary of the Conversation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495388.png)
+
+![Figure 14. Wrap-Up Summary - Wrap-up Reason](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495389.png)
+
+![Figure 15. Warp-up Summary - Cisco AI Assistant Panel - Collapsed](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495390.png)
+
+![Figure 16. Wrap-Up Summary - Cisco AI Assistant Panel - Expanded](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495391.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

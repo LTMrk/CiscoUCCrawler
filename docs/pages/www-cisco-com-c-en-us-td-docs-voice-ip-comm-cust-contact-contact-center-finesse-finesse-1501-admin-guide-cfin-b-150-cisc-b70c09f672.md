@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-b70c09f672
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-system-settings.html
-retrieved_at: 2026-08-21T04:32:28.386738+00:00
+retrieved_at: 2026-10-05T13:11:41.929955+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage System Settings
 
@@ -30,6 +30,12 @@ After you change and save any value on the Contact Center Enterprise Administrat
                               agents must sign out and sign in again. To avoid this, you can make Contact Center Enterprise Administration & Data Server
                               settings changes and restart the Cisco Finesse Tomcat service during hours when agents are not signed in to the Cisco Finesse
                               desktop.
+
+For configuring secure connection select the Enable SSL encryption check box.
+
+Test the Administration & Data Server connection for given configuration using the Test Connection button.
+
+The secure encryption and Test Connection functionality is supported only from Unified CCE 15.0(1) ES202607.
 
 The following table describes the fields on the Unified CCE Administration & Data Server Settings gadget:
 
@@ -78,6 +84,10 @@ Password
 
 The password required to sign in to the AWDB.
 
+Enable SSL encryption
+
+Check this box to enable secure encryption.
+
 For more information about these settings, see the Administration Guide for Cisco Unified Contact Center Enterprise and the Staging Guide for Cisco Unified ICM/Contact Center Enterprise .
 
 Actions on the Unified CCE Administration & Data Server Settings gadget:
@@ -86,7 +96,17 @@ Save: Saves your configuration changes
 
 Revert: Retrieves the most recently saved enterprise database settings
 
-When you update any of the following fields and click Save, Cisco Finesse attempts to connect to the AWDB:
+Test Connection: Tests the CTI connection.
+
+If Test Connection is successful for Side A or B of the Administration & Data Server (AWDB) and the other side fails, it is a valid configuration
+                                          as Administration & Data Server works in active-passive mode and connects to the active node. Inactive Administration & Data
+                                          Server node will refuse connection on the AWDB port. However, Administrator has to ensure that the failed side also has a
+                                          valid entry for Administration & Data Server host and port field. System cannot verify this due to server restrictions.
+
+If Test Connection is successful on Side A and B of the Administration & Data Server cluster, then there is an error in the system configuration.
+                                          Verify that the Side A and B of the Administration & Data Server node have valid entries for port and host.
+
+When you update any of the following fields and click Save , Cisco Finesse attempts to connect to the AWDB:
 
 Primary Host/IP Address
 
@@ -98,11 +118,15 @@ Backup Database Port
 
 AW Database Name
 
+Enable SSL encryption
+
 If Cisco Finesse cannot connect to the AWDB, an error message appears and you are asked if you still want to save. If you
                               click Yes , the settings are saved. If you click No , the settings are not saved. You can change the settings and try again or click Revert to retrieve the previously saved settings.
 
 When you update the Username or Password fields and click Save , Cisco Finesse attempts to authenticate against the AWDB. If authentication fails, an error message appears and you are asked
                               if you still want to save. Click Yes to save the settings or click No to change the settings. Click Revert to retrieve the previously saved settings.
+
+For information on how to establish trust between Finesse and Administration & Data Server, see Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
 Finesse will not come into service in case of AWDB errors when connecting Cisco Finesse 11.5(1) and higher versions to Unified
                                           CCE 11.5(1) and higher versions.
@@ -551,9 +575,16 @@ For more information on agent desk settings, see the Agent Administration Tasks 
 If you have enabled the device selection feature, when an agent or a supervisor sign in with the desired extension, the device
                               selection screen displays a list of associated devices. For more information on device selection, see the Select Active Device section in Cisco Finesse Agent and Supervisor Desktop User Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-user-guide-list.html .
 
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
+
 | Note | Primary Administration & Data Server is configured on Side A and Secondary Administration & Data Server is configured on Side
                                           B. Make sure Cisco Finesse server on both sides connect to Primary Administration & Data Server on side A and fall back to
                                           Secondary Administration & Data Server on side B only when Primary Administration & Data Server goes down. |
+|---|---|
+
+| Note | The secure encryption and Test Connection functionality is supported only from Unified CCE 15.0(1) ES202607. |
 |---|---|
 
 | Field | Description |
@@ -571,12 +602,20 @@ If you have enabled the device selection feature, when an agent or a supervisor 
 | Note | If you specify a domain, this user refers to the Administrator Domain user that the AWDB uses to synchronize with the logger.
                                                       In which case, the AWDB server must use Windows authentication and the configured username must be a domain user. If you do not specify a domain, this user must be an SQL user. |
 | Password | The password required to sign in to the AWDB. |
+| Enable SSL encryption | Check this box to enable secure encryption. |
 
 | Note | If the backup database port is not configured, Cisco Finesse uses the primary database port for the backup host AWDB connection. |
 |---|---|
 
 | Note | If you specify a domain, this user refers to the Administrator Domain user that the AWDB uses to synchronize with the logger.
                                                       In which case, the AWDB server must use Windows authentication and the configured username must be a domain user. If you do not specify a domain, this user must be an SQL user. |
+|---|---|
+
+| Note | If Test Connection is successful for Side A or B of the Administration & Data Server (AWDB) and the other side fails, it is a valid configuration
+                                          as Administration & Data Server works in active-passive mode and connects to the active node. Inactive Administration & Data
+                                          Server node will refuse connection on the AWDB port. However, Administrator has to ensure that the failed side also has a
+                                          valid entry for Administration & Data Server host and port field. System cannot verify this due to server restrictions. If Test Connection is successful on Side A and B of the Administration & Data Server cluster, then there is an error in the system configuration.
+                                          Verify that the Side A and B of the Administration & Data Server node have valid entries for port and host. |
 |---|---|
 
 | Note | Finesse will not come into service in case of AWDB errors when connecting Cisco Finesse 11.5(1) and higher versions to Unified
@@ -719,3 +758,7 @@ If you have enabled the device selection feature, when an agent or a supervisor 
                                                 work on the gadget that is currently active (open in the active tab). For example, the default shortcut key Ctrl + Shift + 4 activates the Ready for Email state on whichever gadget (ECE or Digital Channel) is currently active. If the ECE gadget is active, ECE's Email channel
                                                 transitions to the Ready state. Similarly, if the Digital Channel gadget is open, Digital Channel's Email channel transitions to the Ready state |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

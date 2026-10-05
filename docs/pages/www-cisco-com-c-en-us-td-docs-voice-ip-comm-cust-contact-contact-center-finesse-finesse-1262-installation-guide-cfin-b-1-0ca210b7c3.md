@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-installation-guide-cfin-b-1-0ca210b7c3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/installation/guide/cfin_b_1262_cisco-finesse-installation-and-upgrade/cfin_m_1261-installation-preparation.html
-retrieved_at: 2026-08-21T15:53:21.695807+00:00
+retrieved_at: 2026-10-05T13:10:05.100026+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 12.6(2)
@@ -612,3 +612,7 @@ You can obtain the Cisco Virtual Server (OVA) files needed to create a virtual m
 | Note | Starting with Release 12.5(1) SU, valid characters for the hostname are uppercase and lowercase letters, the numbers 0 through
                                                       9, and a dash (-). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

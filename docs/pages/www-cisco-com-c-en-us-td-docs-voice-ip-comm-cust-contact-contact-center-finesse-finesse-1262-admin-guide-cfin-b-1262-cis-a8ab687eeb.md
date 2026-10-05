@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-a8ab687eeb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-manage-reasons.html
-retrieved_at: 2026-08-21T15:55:33.972045+00:00
+retrieved_at: 2026-10-05T13:08:53.293893+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -885,3 +885,7 @@ Click Yes to confirm the deletion of the selected reason code.
 |---|---|
 | Step 2 | Click Delete . |
 | Step 3 | Click Yes to confirm the deletion of the selected reason code. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

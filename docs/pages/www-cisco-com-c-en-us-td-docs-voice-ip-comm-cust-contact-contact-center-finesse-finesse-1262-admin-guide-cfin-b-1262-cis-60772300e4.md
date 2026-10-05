@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-60772300e4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-manage-system-settings.html
-retrieved_at: 2026-08-21T15:55:11.703911+00:00
+retrieved_at: 2026-10-05T13:09:02.008290+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -709,3 +709,7 @@ If you have enabled the device selection feature, when an agent or a supervisor 
                                                 desktop user experience. The ECE (Enterprise Chat and Email) keyboard shortcuts are available only if ECE gadget is configured in the Unified CCE deployment.
                                                 If it is not configured, the third-party gadget developers can use the ECE shortcut keys that are listed in Keyboard Shortcuts List . For more information, see the Cisco Finesse Agent and Supervisor Desktop User Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-user-guide-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

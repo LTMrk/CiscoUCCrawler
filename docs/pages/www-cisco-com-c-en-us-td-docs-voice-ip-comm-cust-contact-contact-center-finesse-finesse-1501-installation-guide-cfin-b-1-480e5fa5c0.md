@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-cfin-b-1-480e5fa5c0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/cfin_b_1501_cisco-installation-and-upgrade-guide-15_0/cfin_m_1501_installation-preparation.html
-retrieved_at: 2026-08-24T16:39:05.566814+00:00
+retrieved_at: 2026-10-05T13:12:32.318449+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 15.0(1)
@@ -629,3 +629,7 @@ You must purchase the Cisco Finesse media kit to obtain the installer. For more 
 | Note | The Readme file for Cisco Finesse Release 15.0(1) SU1 is not available as a standalone download. Instead, it is packaged within
                                              the OVA file. To access the Readme file: Download the Cisco Finesse 15.0 (1) SU1 OVA file from the Cisco Software Download portal. Extract the contents of the OVA file. Locate the Readme file (.txt format) within the extracted files. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

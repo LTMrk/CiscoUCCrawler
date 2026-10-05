@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-doc-guide-cfin-b-1262-cisco-28f97a34f8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/doc/guide/cfin_b_1262_cisco-finesse-documentation-guide/cfin_m_1262_cisco-finesse-documentation-guide.html
-retrieved_at: 2026-08-21T15:52:23.243558+00:00
+retrieved_at: 2026-10-05T13:09:39.647408+00:00
 ---
 
 Cisco Finesse Documentation Guide, Release 12.6(2)
@@ -381,3 +381,7 @@ For the latest Packaged Contact Center Enterprise documentation, go to https://w
 |---|---|
 | Release Notes for Cisco Contact Center Enterprise Solutions Release 12.6(2) | Updated to meet the Contact Center Enterprise Solutions, Release 12.6(2) requirements. To view the page, see https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-release-notes-list.html . |
 | Compatibility Matrix for Contact Center Enterprise 12.6(2) | Updated to meet the Contact Center Enterprise, Release 12.6(2) requirements. To view the page, see https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

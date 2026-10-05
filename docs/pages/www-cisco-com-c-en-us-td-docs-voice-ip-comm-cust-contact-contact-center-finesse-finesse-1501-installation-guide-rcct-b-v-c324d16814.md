@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-rcct-b-v-c324d16814
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/rcct_b_vpn-less-finesse/rcct_m_1501_vpn-less-access-to-finesse-desktop.html
-retrieved_at: 2026-08-16T19:57:56.892733+00:00
+retrieved_at: 2026-10-05T13:13:02.048821+00:00
 ---
 
 Cisco Contact Center Enterprise Reverse Proxy Installation and Upgrade Guide, Release 15.0(1)
@@ -816,6 +816,10 @@ Finesse Desktop supports only WebSocket notification mechanism over reverse-prox
 
 When SystemInfo API is accessed via a reverse-proxy, the authorization headers are required.
 
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
+
 | Note | The desktop layout changes will take approximately 5 minutes to update on the desktop accessed via the reverse proxy. |
 |---|---|
 
@@ -913,3 +917,13 @@ When SystemInfo API is accessed via a reverse-proxy, the authorization headers a
                                                 as gadgets in VPN-less supervisor desktop, run the command, set cuic properties allow-proxy-custom-report on . To configure the data set size for Historical report, run the command, set cuic properties vpnless-response-size-ht . By default, the data set size for HT is set to 8MB. To configure the data set size for Real Time report, run the command, set cuic properties vpnless-response-size-rt . By default, the data size for RT is set to 300KB. If the data set size is more than the configured value, the gadget will display the following error message: Failed to load the gadget. Response size is more than allowed limit. Please contact your Administrator. This limitation is applicable on VPN-less deployments only. For more information about configuring the data set size, see
                                                 the Set Cisco Unified Intelligence Center properties section in Administration Console User Guide for Cisco Unified Intelligence Center . |
 |---|---|
+
+## Figuras
+
+![Figure 3. Hostname Mapping Example](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511238.jpg)
+
+![Figure 4. Network Architecture Example](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511239.jpg)
+
+![Figure 5. Multiple reverse proxy containers on a single host](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/485001-486000/485663.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

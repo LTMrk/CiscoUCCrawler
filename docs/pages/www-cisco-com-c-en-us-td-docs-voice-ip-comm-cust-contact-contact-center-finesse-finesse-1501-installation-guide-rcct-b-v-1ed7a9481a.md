@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-rcct-b-v-1ed7a9481a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/rcct_b_vpn-less-finesse/rcct_m_150_security.html
-retrieved_at: 2026-08-16T19:58:05.162885+00:00
+retrieved_at: 2026-10-05T13:13:19.336035+00:00
 ---
 
 Cisco Contact Center Enterprise Reverse Proxy Installation and Upgrade Guide, Release 15.0(1)
@@ -680,3 +680,7 @@ bantime = 180 |
 | Step 5 | Validate static resource URLs. All valid endpoints which can be accessed without authentication are actively tracked in the
                                        proxy scripts. Requests to these unauthenticated paths are actively rejected, if an invalid URI is requested, without sending these requests
                                           to the upstream server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

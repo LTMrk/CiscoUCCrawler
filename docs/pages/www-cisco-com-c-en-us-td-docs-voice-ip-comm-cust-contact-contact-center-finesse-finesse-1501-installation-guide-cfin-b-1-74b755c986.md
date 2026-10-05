@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-cfin-b-1-74b755c986
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/cfin_b_1501_cisco-installation-and-upgrade-guide-15_0/cfin_m_1501_cisco-finesse-virtualization.html
-retrieved_at: 2026-08-21T15:53:08.997960+00:00
+retrieved_at: 2026-10-05T13:12:24.023479+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 15.0(1)
@@ -194,3 +194,7 @@ Save the change and exit BIOS setup.
 | Note | After finishing the installation, consider changing the boot order back so that the Hard Drive device is again listed before
                                                    the CD-ROM device. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

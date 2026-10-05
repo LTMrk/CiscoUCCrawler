@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-a6c3325055
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_certificates-for-live-data.html
-retrieved_at: 2026-08-21T12:05:25.240845+00:00
+retrieved_at: 2026-10-05T13:10:51.704348+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Certificates for Live Data
 
@@ -167,3 +167,7 @@ Follow the instructions provided in the Unified CCE Solution: Procedure to Obtai
 | Step 6 | Select the file, and click Upload File . |
 | Step 7 | Repeat steps 3 to 6 for the remaining unloaded certificate. |
 | Step 8 | Reboot the Cisco Finesse server to apply the certificate changes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

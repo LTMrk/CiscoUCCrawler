@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-06ccec03fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_getting-started.html
-retrieved_at: 2026-08-21T12:04:23.909220+00:00
+retrieved_at: 2026-10-05T13:11:04.354148+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Getting Started
 
@@ -164,6 +164,15 @@ When an agent or supervisor account is locked, subsequent attempts to sign in, e
                                                    reset and the user must wait another 5 minutes.
 
 To view the list of locked users, use the utils finesse locked_out_users list CLI command.
+
+###### Disable User Account Lockout
+
+To disable the account lockout for agents and supervisors, use the command utils finesse set_property webservices enableAgentLockout false . For more information, see the Enable or Disable User Account Lockout section under Security Properties .
+
+Account lockout is enabled by default and applies only to Finesse local authentication.
+
+For SSO login, account lockout behavior is managed by the Identity Provider (IdP). To enable or disable account lockout for
+                                                         SSO or for additional details, refer to your IdP documentation.
 
 ### CLI
 
@@ -909,6 +918,10 @@ Agent usernames and team names that consist of characters other than Latin-1
 
 Locale-based searching and sorting may not work as expected.
 
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
+
 | Note | Finesse administration tasks are performed only on the primary Finesse server. |
 |---|---|
 
@@ -990,6 +1003,10 @@ Locale-based searching and sorting may not work as expected.
 | Note | When an agent or supervisor account is locked, subsequent attempts to sign in, even with correct credentials, reset the lockout
                                                    period to 5 minutes again. For example, if a locked user tries to sign in again after only 4 minutes, the lockout period is
                                                    reset and the user must wait another 5 minutes. |
+|---|---|
+
+| Note | Account lockout is enabled by default and applies only to Finesse local authentication. For SSO login, account lockout behavior is managed by the Identity Provider (IdP). To enable or disable account lockout for
+                                                         SSO or for additional details, refer to your IdP documentation. |
 |---|---|
 
 | Important | You cannot change the IP address of a Finesse server after it is installed. |
@@ -1207,3 +1224,7 @@ Locale-based searching and sorting may not work as expected.
 
 | Note | Locale-based searching and sorting may not work as expected. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

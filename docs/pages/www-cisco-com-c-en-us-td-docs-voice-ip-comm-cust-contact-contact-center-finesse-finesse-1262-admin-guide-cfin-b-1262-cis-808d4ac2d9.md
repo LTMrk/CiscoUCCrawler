@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-808d4ac2d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-manage-team-resources.html
-retrieved_at: 2026-08-21T15:55:37.981097+00:00
+retrieved_at: 2026-10-05T13:09:05.647126+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -507,3 +507,7 @@ Click Save .
 | Step 2 | Click the Workflows tab. |
 | Step 3 | Click the red X next to the workflow to unassign. |
 | Step 4 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

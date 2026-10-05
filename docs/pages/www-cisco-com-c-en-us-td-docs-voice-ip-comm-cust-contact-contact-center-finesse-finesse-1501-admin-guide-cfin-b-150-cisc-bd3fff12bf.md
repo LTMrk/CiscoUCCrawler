@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-bd3fff12bf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-workflows.html
-retrieved_at: 2026-08-21T12:04:48.793438+00:00
+retrieved_at: 2026-10-05T13:11:54.524897+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage Workflows
 
@@ -690,3 +690,7 @@ Click Yes to confirm the deletion of the selected workflow.
 |---|---|
 | Step 2 | Click Delete . |
 | Step 3 | Click Yes to confirm the deletion of the selected workflow. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

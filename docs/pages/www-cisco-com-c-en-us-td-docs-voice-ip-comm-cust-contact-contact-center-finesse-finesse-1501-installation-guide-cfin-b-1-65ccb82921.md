@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-installation-guide-cfin-b-1-65ccb82921
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/installation/guide/cfin_b_1501_cisco-installation-and-upgrade-guide-15_0/network_and_system_services_used_for_cisco_finesse.html
-retrieved_at: 2026-08-21T15:53:13.252838+00:00
+retrieved_at: 2026-10-05T13:12:45.076916+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 15.0(1)
@@ -105,3 +105,7 @@ System Application Agent[STARTED]
 
 | Note | Cisco DRF Primary should be started only on the Finesse primary (A Side) server. Status on the Finesse primary (A Side) server should be "STARTED" . Status on the Finesse secondary (B Side) server should be "STOPPED" Command Out of Service. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

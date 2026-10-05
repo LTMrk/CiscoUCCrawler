@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-50e6f945d3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_manage-reasons.html
-retrieved_at: 2026-08-21T12:04:40.358842+00:00
+retrieved_at: 2026-10-05T13:11:33.614353+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Manage Reasons
 
@@ -647,6 +647,10 @@ Step 3
 
 Click Yes to confirm the deletion of the selected reason code.
 
+### Customers Also Viewed
+
+- Troubleshoot Cisco Finesse Desktop Persistent Logging Problem
+
 | Note | Cisco Finesse supports a maximum of 100 global and 1500 team Wrap-Up reasons. No more than 100 Wrap-Up reasons can be assigned
                                           to any one team. |
 |---|---|
@@ -885,3 +889,7 @@ Click Yes to confirm the deletion of the selected reason code.
 |---|---|
 | Step 2 | Click Delete . |
 | Step 3 | Click Yes to confirm the deletion of the selected reason code. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

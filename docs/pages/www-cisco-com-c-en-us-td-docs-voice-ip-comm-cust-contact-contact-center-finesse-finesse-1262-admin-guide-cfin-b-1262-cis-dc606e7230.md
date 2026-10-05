@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-dc606e7230
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-perform-routine-maintenance.html
-retrieved_at: 2026-08-21T15:56:03.496628+00:00
+retrieved_at: 2026-10-05T13:09:18.428668+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -893,3 +893,7 @@ utils remote_account status
 | PeakThreadCount | The maximum number of threads run at the same time since the JVM was started or the peak was reset. | java.lang:type = Threading | 300 |
 | ThreadCount | The number of threads running at the current moment. | java.lang:type = Threading | 300 |
 | processCPULoad | The recent CPU usage for the Java Virtual Machine process. | java.lang:type = OperatingSystem | 0.6 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

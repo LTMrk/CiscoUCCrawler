@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-bf3fc827b7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_1501_preface.html
-retrieved_at: 2026-08-21T12:04:19.137738+00:00
+retrieved_at: 2026-10-05T13:10:39.142256+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Preface
 
@@ -25,6 +25,10 @@ Change
 See
 
 Date
+
+Added new chapter
+
+Certificates for Administration and Data Server
 
 Updated Account Locked after Five Failed Sign In Attempts section with "Disable User Account Lockout."
 
@@ -197,6 +201,7 @@ A
 
 | Change | See | Date |
 |---|---|---|
+| Added new chapter | Certificates for Administration and Data Server | September, 2026 |
 | Updated Account Locked after Five Failed Sign In Attempts section with "Disable User Account Lockout." | Account Locked after Five Failed Sign in Attempts | November, 2025 |
 | Updated Security Properties section with "Added Enable or Disable User Account Lockout." | Security Properties |
 | Updated Release 15.0(1) | April 30, 2025 |
@@ -232,3 +237,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,14 +1,14 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1501-admin-guide-cfin-b-150-cisc-16cc54e583
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1501/admin/guide/cfin_b_150_cisco-finesse-administration-guide/cfin_m_150_cisco-finesse-cli.html
-retrieved_at: 2026-08-21T04:32:33.606853+00:00
+retrieved_at: 2026-10-05T13:10:56.559610+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 15.0(1)
 
 # Cisco Finesse Administration Guide, Release 15.0(1)
 
-Updated: December 12, 2025
+Updated: July 24, 2026
 
 Chapter: Cisco Finesse CLI
 
@@ -560,7 +560,9 @@ All CLIs are node specific and must be run on all nodes in the cluster.
 
 Shindig proxies requests from the Finesse desktop to external servers and this introduces the possibility of server side request
                               forgery (SSRF). To prevent SSRF, you can choose to allow outgoing connections for specified sources to be used in the gadgets
-                              by adding URLs to the allowed list. Note that this functionality is disabled by default for Cisco Finesse.
+                              by adding URLs to the allowed list.
+
+This feature is enabled by default in Cisco Finesse
 
 Use the following CLIs to enable or disable Gadget Source allowed list functionality and to configure source(s) in the allowed
                               list:
@@ -1694,6 +1696,19 @@ Restart Cisco Finesse Tomcat Service for the changes to take effect:
 utils service restart Cisco Finesse Tomcat
 ```
 
+### Enable or Disable User Account Lockout
+
+Use the following CLI commands to enable or disable account lockout for agents and supervisors. When enabled, Finesse blocks
+                              access to a user account after five consecutive failed login attempts. The lockout period is 5 minutes and applies only to
+                              Finesse local authentication. When disabled, Finesse doesn’t lock the user's account after multiple failed login attempts.
+                              By default, the enableAgentLockout property is set to true .
+
+To enable: utils finesse set_property webservices enableAgentLockout true
+
+To disable: utils finesse set_property webservices enableAgentLockout false
+
+To view: utils finesse show_property webservices enableAgentLockout
+
 ### Restrict Access to Agent Notifications
 
 By default, Cisco Finesse restricts access to /finesse/api/User/<id>/Queues REST API details . Only the agent, the supervisor
@@ -2506,6 +2521,9 @@ No service restart required. Ensure the desktop browser is refreshed for the cha
 |---|---|
 
 | Note | The wildcard character star (*) isn’t supported |
+|---|---|
+
+| Note | This feature is enabled by default in Cisco Finesse |
 |---|---|
 
 | Note | Wildcard character * is not supported. The allowed list feature does not perform hostname resolutions. The format of the allowed list entry should match the format
