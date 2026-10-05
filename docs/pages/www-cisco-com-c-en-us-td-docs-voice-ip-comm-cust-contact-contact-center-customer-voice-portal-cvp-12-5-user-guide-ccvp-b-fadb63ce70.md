@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-fadb63ce70
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal_preface_00.html
-retrieved_at: 2026-08-21T03:08:05.413673+00:00
+retrieved_at: 2026-10-05T12:42:03.464159+00:00
 ---
 
 Operations Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -90,3 +90,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Change | See | Date |
 |---|---|---|
 | Initial Release of Document for Release 12.5(1) | January 2020 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

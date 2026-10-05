@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-a946bd6ee5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1261-ccai-services-configuration.html
-retrieved_at: 2026-08-21T06:54:01.730803+00:00
+retrieved_at: 2026-10-05T12:45:52.735887+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -120,3 +120,7 @@ Restart the OAMP server from Windows services.
 -Dorg.asynchttpclient.useProxyProperties=true
 -Dhttp.nonProxyHosts=<hostname> |
 | Step 4 | Restart the OAMP server from Windows services. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-5cdc518488
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-speech-server-configuration.html
-retrieved_at: 2026-08-21T06:52:55.102762+00:00
+retrieved_at: 2026-10-05T12:45:05.035538+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -294,3 +294,7 @@ https://www.cisco.com/en/US/products/sw/custcosw/ps1006/products_installation_an
                                        		  the same feature in Cisco VVB, see section "Cisco VVB
                                           			 configuration for Comprehensive Call Flows" . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

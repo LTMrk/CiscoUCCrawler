@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-89a0176b13
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-operations-guide-for-cisco-unified-customer-voice-portal_chapter_010.html
-retrieved_at: 2026-08-21T03:08:14.490601+00:00
+retrieved_at: 2026-10-05T12:41:55.609650+00:00
 ---
 
 Operations Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -2840,3 +2840,7 @@ VXML_LICENSE_ALERT is raised when the VXML Port license utilization exceeds 90% 
 | Note | VXML_LICENSE_ALERT is raised when the VXML Port license utilization exceeds 90% of the total deployed license ports and the
                                        VXML_LICENSE_ALERT_CLEAR is raised when the VXML port license utilization drops below 70% of the total deployed license ports. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

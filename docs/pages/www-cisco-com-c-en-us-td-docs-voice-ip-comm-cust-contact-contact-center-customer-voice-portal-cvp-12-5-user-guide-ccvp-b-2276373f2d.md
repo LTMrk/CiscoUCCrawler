@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-2276373f2d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_appendix_01010.html
-retrieved_at: 2026-08-21T03:10:02.468971+00:00
+retrieved_at: 2026-10-05T12:43:11.575240+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.5(1)
@@ -369,3 +369,7 @@ This folder
                                     				holds all the resources that will be deployed along with the given application.
                                     				It can contain such components as custom Java classes and libraries as well as
                                     				custom data files. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

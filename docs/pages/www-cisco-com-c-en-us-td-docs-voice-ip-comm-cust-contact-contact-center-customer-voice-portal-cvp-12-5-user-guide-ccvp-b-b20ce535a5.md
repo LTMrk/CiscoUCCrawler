@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-b20ce535a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/ccvp_b_1251-say-it-smart-specifications-for-cisco-unified-customer-voice-portal_chapter_01100.html
-retrieved_at: 2026-08-21T03:09:12.657781+00:00
+retrieved_at: 2026-10-05T12:42:55.513947+00:00
 ---
 
 Say It Smart Specifications for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -1225,3 +1225,7 @@ Playback:
 | Output Format: | period |
 | Fileset | enhanced_period |
 | Playback: | "99" "minutes" "59" "seconds" |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

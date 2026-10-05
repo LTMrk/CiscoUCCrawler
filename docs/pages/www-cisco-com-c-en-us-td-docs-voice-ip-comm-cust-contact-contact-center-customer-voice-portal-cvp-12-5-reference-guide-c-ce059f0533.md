@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-ce059f0533
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_mp_c95bbdfe_00_cvp-subdialog-return.html
-retrieved_at: 2026-08-21T17:32:05.209558+00:00
+retrieved_at: 2026-10-05T12:37:58.677252+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -225,3 +225,7 @@ com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement
                                              Element Folder Name | Class Name |
 |---|---|
 | Cisco | com.audium.server.voiceElement.internal.CiscoSubdialogReturnElement |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

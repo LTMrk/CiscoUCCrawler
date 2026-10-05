@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-77b46679d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_01000.html
-retrieved_at: 2026-08-21T03:09:54.272386+00:00
+retrieved_at: 2026-10-05T12:43:33.220727+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.5(1)
@@ -134,3 +134,7 @@ Start: Tue Jan 1 11:47:56 EDT 2000
 Error: Project is not valid. Aborting. See details below:
 [Start Of Call] Exit States Error: Please connect all the exit states for this element.
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

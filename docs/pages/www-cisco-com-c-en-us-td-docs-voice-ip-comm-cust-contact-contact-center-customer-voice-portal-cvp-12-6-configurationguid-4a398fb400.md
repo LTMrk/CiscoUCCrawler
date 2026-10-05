@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-4a398fb400
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-reporting-server-configuration.html
-retrieved_at: 2026-08-21T06:52:36.877136+00:00
+retrieved_at: 2026-10-05T12:44:52.716502+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -556,3 +556,7 @@ Delete the existing Media Server and create a new one with the Call Server IP ad
 | Note | Make sure to change the configuration of VXML Application, Gateway, VVB, ICM PIM, Proxy, and CUCM to reflect the new Call
                                                             Server IP address. Associate Reporting Server to the Call Server. Delete the existing Media Server and create a new one with the Call Server IP address and deploy the Media Server. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

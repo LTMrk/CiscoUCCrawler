@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-3605e7ddf6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_mp_f6e664af_00_form.html
-retrieved_at: 2026-08-21T17:32:56.302131+00:00
+retrieved_at: 2026-10-05T12:38:40.829035+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -1182,3 +1182,7 @@ You can select Java Exception , VXML Event , or Hotlink as event handler for thi
 | Name (Label) | Notes |
 |---|---|
 | Event Type | You can select Java Exception , VXML Event , or Hotlink as event handler for this element. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

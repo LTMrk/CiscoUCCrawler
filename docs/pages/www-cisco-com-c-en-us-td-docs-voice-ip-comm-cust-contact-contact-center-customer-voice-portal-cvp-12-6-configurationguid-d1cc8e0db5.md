@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-d1cc8e0db5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-media-server-configuration.html
-retrieved_at: 2026-08-21T06:52:51.436245+00:00
+retrieved_at: 2026-10-05T12:44:36.480589+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -4188,3 +4188,9 @@ This feature is not required for Cisco VVB as DNS is used to resolve
 | Note | This feature is not required for Cisco VVB as DNS is used to resolve
                                        		  the hostname. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Location of Media Files](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341203.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

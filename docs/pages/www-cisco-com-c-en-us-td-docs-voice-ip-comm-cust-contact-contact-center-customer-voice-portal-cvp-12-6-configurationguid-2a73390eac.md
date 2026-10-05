@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-2a73390eac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-network-based-recording-configuration.html
-retrieved_at: 2026-08-21T06:53:45.377298+00:00
+retrieved_at: 2026-10-05T12:44:40.545577+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -530,3 +530,7 @@ For more information, please refer the section Network-Based Recording in Cisco 
 
 | Note | When using ISR G2 for network-based recording, ensure that the VXML Voice Gateway functionality is not enabled on the same gateway. In case of multiple subscribers, specify the URL for each subscriber and select the Run on All Active CM Nodes check box in CUCM SIP trunk. For more information, please refer the section Network-Based Recording in Cisco Unified Border Element Configuration Guide at https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-installation-and-configuration-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

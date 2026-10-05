@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-1572651924
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-cisco-vvb-configuration.html
-retrieved_at: 2026-08-21T06:53:05.697361+00:00
+retrieved_at: 2026-10-05T12:44:22.291754+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -3866,3 +3866,7 @@ Enter the hostname:: |
 | Note | Without this configuration, the proxy needs to support h2/ALPN and HTTP2/0 protocols for GRPC, which most of the proxies do
                                                       not support. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

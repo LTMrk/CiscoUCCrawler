@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-248060dba2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_01.html
-retrieved_at: 2026-08-21T03:09:25.570150+00:00
+retrieved_at: 2026-10-05T12:43:20.787066+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.5(1)
@@ -1491,3 +1491,23 @@ namelist=element_log_var1|element_nolog_var2|session_sessvar|custom_custlog">
 
 | Note | The VoiceXML shown here may not function on all browsers without modification. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Example of Tags for Defining a Decision](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341046.jpg)
+
+![Figure 2. call_data Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341047.jpg)
+
+![Figure 3. data Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341048.jpg)
+
+![Figure 4. user_info Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341049.jpg)
+
+![Figure 5. general_date_time Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341050.jpg)
+
+![Figure 6. caller_activity Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341051.jpg)
+
+![Figure 7. <historical_data> Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341052.jpg)
+
+![Figure 8. <historical_data> Tag](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341052.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

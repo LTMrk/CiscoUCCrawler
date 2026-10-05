@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-14d503f2cf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_0111.html
-retrieved_at: 2026-08-21T03:09:49.849785+00:00
+retrieved_at: 2026-10-05T12:43:50.257705+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.5(1)
@@ -333,3 +333,7 @@ Cisco Unified Call Studio includes a new utility that allows you to
                                                                						VXML standard trusted CA, do not import the CA certificate on the REST Server
                                                                						truststore. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-user-guide-ccvp-b-184927dca7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/user/guide/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_0100.html
-retrieved_at: 2026-08-21T03:09:38.131772+00:00
+retrieved_at: 2026-10-05T12:43:29.892275+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.5(1)
@@ -1235,3 +1235,13 @@ Starting in Release 8.0(1), VXML Server (by default) receives callid (which cont
 | Note | The Debug Logger does not require the enforce call event order to be turned on, however, without it there could be situations
                                              where under load the HTTP requests and responses are out of order or mixed together in the file. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Global Error Log Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341054.jpg)
+
+![Figure 2. Activity Logger Configuration File Format](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341055.jpg)
+
+![Figure 3. Error Logger Configuration Format](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341056.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

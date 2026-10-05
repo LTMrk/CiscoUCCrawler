@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-3c8ac2e11a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_mp_s45ed662_00_alert.html
-retrieved_at: 2026-08-21T17:32:46.670832+00:00
+retrieved_at: 2026-10-05T12:39:40.220695+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -123,3 +123,7 @@ The element is successfully run.
 | Name | Notes |
 |---|---|
 | done | The element is successfully run. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

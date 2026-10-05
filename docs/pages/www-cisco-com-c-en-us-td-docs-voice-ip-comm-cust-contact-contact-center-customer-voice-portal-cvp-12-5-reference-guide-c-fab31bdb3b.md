@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-fab31bdb3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_mp_s7e8e740_00_subdialog-invoke.html
-retrieved_at: 2026-08-21T17:34:06.772532+00:00
+retrieved_at: 2026-10-05T12:39:48.462331+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -189,3 +189,7 @@ The VXML
 |---|---|
 | Event Type | The VXML
                                           				  Event handler type is available for this element. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

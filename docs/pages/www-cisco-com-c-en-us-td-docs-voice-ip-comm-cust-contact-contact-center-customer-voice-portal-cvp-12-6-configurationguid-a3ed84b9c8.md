@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-configurationguid-a3ed84b9c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/ConfigurationGuideCVP12_6/guide/ccvp_b_1261-configuration-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1252-unified-cvp-call-flow-models.html
-retrieved_at: 2026-08-21T06:52:19.754313+00:00
+retrieved_at: 2026-10-05T12:45:29.481587+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.6(1)
@@ -4172,3 +4172,34 @@ ip host _sip._udp.cvp.cisco.com srv 50 50 5060 cvp4cc1.cisco.com Note The DNS
                                                          						agent header of the INVITE indicates an IOS gateway. The
                                                          						pattern matcher on the label is configured for send-to-origin. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Call Flow for the Unified CVP VXML Server (Standalone) Call Flow Model using VXML Gateway](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511219.jpg)
+
+![Figure 2. Call Flow for the Unified CVP VXML Server (Standalone) Call Flow Model using Cisco VVB](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170605.eps/_jcr_content/renditions/170605.jpg)
+
+![Figure 3. Comprehensive Call Flow Model for ICME Using SIP Without a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170385.ps/_jcr_content/renditions/170385.jpg)
+
+![Figure 4. Comprehensive Call Flow Model for ICME Using SIP With a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155738.ps/_jcr_content/renditions/155738.jpg)
+
+![Figure 5. Comprehensive Call Flow Model for ICMH Using SIP Without a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390302.eps/_jcr_content/renditions/390302.jpg)
+
+![Figure 6. Comprehensive Call Flow Model for ICMH Using SIP With a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390303.eps/_jcr_content/renditions/390303.jpg)
+
+![Figure 7. Call Director Call Flow Model for ICME Using SIP Without a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170387.ps/_jcr_content/renditions/170387.jpg)
+
+![Figure 8. Call Director Call Flow Model for ICME Using SIP With a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155740.ps/_jcr_content/renditions/155740.jpg)
+
+![Figure 9. Call Director Call Flow Model for ICMH Using SIP Without a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170388.ps/_jcr_content/renditions/170388.jpg)
+
+![Figure 10. Call Director Call Flow Model for ICMH Using SIP With a Proxy Server](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155741.ps/_jcr_content/renditions/155741.jpg)
+
+![Figure 11. Type 8
+                                    			 VRU-Only Call Flow Model Where NIC Transfers a Call](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155782.ps/_jcr_content/renditions/155782.jpg)
+
+![Figure 12. Type 8
+                                    			 VRU-Only Call Flow Model for ICMH](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170681.ps/_jcr_content/renditions/170681.jpg)
+
+![Figure 13. Type 7
+                                    			 VRU-Only Call Flow Model Network VRU for ICMH](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155726.ps/_jcr_content/renditions/155726.jpg)
