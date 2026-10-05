@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-fe16b8c089
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1reporting-user-guide/uccx_b_1252reporting-user-guide_chapter_01001.html
-retrieved_at: 2026-08-16T20:56:07.143724+00:00
+retrieved_at: 2026-10-05T11:42:05.055524+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1) SU1
@@ -2001,3 +2001,7 @@ End Scenario Contact Service Queue Activity Report Abandoned Call Detail Activit
                                           				  for the "auto
                                              					 attendant" application and once for the "musician
                                              					 demonstration" application. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

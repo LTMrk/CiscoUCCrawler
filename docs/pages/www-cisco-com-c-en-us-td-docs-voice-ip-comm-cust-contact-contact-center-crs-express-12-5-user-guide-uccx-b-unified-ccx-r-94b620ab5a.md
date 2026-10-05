@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-unified-ccx-r-94b620ab5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_unified-ccx-reporting-user-guide-125/uccx_b_unified-ccx-reporting-user-guide-125_appendix_01010.html
-retrieved_at: 2026-08-16T21:26:52.733864+00:00
+retrieved_at: 2026-10-05T11:37:01.589951+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1)
@@ -582,3 +582,7 @@ Agent is logged in to one device (computer or phone) and tries to log in to a se
 
 | Attention | If an agent’s device is added to the Restricted list, it affects the function of RmCm subsystem. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

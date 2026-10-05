@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-maintain-and-operate-guid-8e1d3f20f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/maintain_and_operate/guide/uccx_b_1251su1unified-ccx-operating-system/uccx_b_1261unified-ccx-operating-system_chapter_0100.html
-retrieved_at: 2026-08-16T21:40:52.103904+00:00
+retrieved_at: 2026-10-05T11:39:27.300529+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1) SU1
@@ -262,3 +262,7 @@ On a Unified CCX server, if you changed the date or if you changed the time by m
 | Step 4 | On a Unified CCX server, if you changed the date or if you changed the time by more than two
                                        			 minutes, use the CLI command utils
                                           				system restart to restart the server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

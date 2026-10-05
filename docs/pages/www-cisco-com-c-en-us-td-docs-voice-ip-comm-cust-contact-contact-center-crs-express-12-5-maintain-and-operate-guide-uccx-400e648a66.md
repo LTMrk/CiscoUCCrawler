@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-maintain-and-operate-guide-uccx-400e648a66
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-125/uccx_b_unified-ccx-operating-system-125_chapter_010.html
-retrieved_at: 2026-08-16T21:41:37.912175+00:00
+retrieved_at: 2026-10-05T11:34:04.823506+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1)
@@ -190,3 +190,7 @@ Restart the system for the changes to take effect.
 
 | Note | Restart the system for the changes to take effect. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

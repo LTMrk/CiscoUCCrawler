@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-maintain-and-operate-guid-e0f22db069
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/maintain_and_operate/guide/uccx_b_1251su1unified-ccx-operating-system/uccx_b_1261unified-ccx-operating-system_chapter_01000.html
-retrieved_at: 2026-08-16T21:41:16.499958+00:00
+retrieved_at: 2026-10-05T11:39:31.435233+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1) SU1
@@ -180,3 +180,7 @@ To delete the
                                                       						expires. |
 | Passphrase | Displays the generated pass phrase. |
 | Decode version | Indicates the version of the decoder in use. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-875db22f69
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1reporting-user-guide/uccx_b_1252reporting-user-guide_chapter_0100.html
-retrieved_at: 2026-08-16T20:55:48.979950+00:00
+retrieved_at: 2026-10-05T11:41:55.224526+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1) SU1
@@ -521,3 +521,7 @@ Reports that are scheduled to run only once, are updated with a new schedule tim
 | Note | Scheduler relies on the Refresh Rate parameter in the Report Definition. You can configure the Refresh Rate parameter lower
                                        than the Scheduler Frequency. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

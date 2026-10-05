@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-reference-guide-uccx-b-125repor-6b7c515c6d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/reference/guide/uccx_b_125report-developers-guide/uccx_b_125report-developers-guide_chapter_011.html
-retrieved_at: 2026-08-16T21:04:17.857016+00:00
+retrieved_at: 2026-10-05T11:35:37.367354+00:00
 ---
 
 Cisco Unified Contact Center Express Report Developer Guide, Release 12.5(1)
@@ -2541,3 +2541,7 @@ Writes ASDR (Ready).
 | Contact disconnects | Collects TACDR2, TCCDE. Writes TACDR1, TACDR2, TCDR, TCQDR,
                                              					 TCCDR. |
 | Agent leaves Work state | Writes ASDR (Ready). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-maintain-and-operate-guid-74db3e852e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/maintain_and_operate/guide/uccx_b_1251su1unified-ccx-operating-system/uccx_b_1261unified-ccx-operating-system_chapter_0111.html
-retrieved_at: 2026-08-16T21:41:11.112300+00:00
+retrieved_at: 2026-10-05T11:39:48.599678+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1) SU1
@@ -108,3 +108,7 @@ By default, there is no custom message configured for Cisco Finesse.
 
 | Note | By default, there is no custom message configured for Cisco Finesse. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

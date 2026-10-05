@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-uccx-b-125install-c11ad2577d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/uccx_b_125install-and-upgrade-guide/uccx_b_125install-and-upgrade-guide_chapter_0100.html
-retrieved_at: 2026-08-16T21:14:31.286071+00:00
+retrieved_at: 2026-10-05T11:33:48.681799+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1)
@@ -214,3 +214,7 @@ Click Update .
 | Step 2 | Choose Tools > User Management > Reporting Capability . |
 | Step 3 | Select the users that you want to update. |
 | Step 4 | Click Update . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

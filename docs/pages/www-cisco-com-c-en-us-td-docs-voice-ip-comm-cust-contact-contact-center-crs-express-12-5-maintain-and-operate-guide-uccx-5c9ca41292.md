@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-maintain-and-operate-guide-uccx-5c9ca41292
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/maintain_and_operate/guide/uccx_b_unified-ccx-operating-system-125/uccx_b_unified-ccx-operating-system-125_chapter_011.html
-retrieved_at: 2026-08-16T21:41:43.263678+00:00
+retrieved_at: 2026-10-05T11:34:21.561133+00:00
 ---
 
 Cisco Unified Operating System Administration Guide for Cisco Unified CCX and Cisco Unified IP IVR, Release 12.5(1)
@@ -439,3 +439,7 @@ Brief description of how the port is used.
 | Status | Status of port usage: Enabled—In use by the application and opened by the
                                                                   								firewall Disabled—Blocked by the firewall and not in use |
 | Description | Brief description of how the port is used. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

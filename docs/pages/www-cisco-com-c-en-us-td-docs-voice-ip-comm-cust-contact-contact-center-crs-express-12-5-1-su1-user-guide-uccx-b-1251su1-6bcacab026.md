@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-6bcacab026
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1finesse-agent-supervisor-desktop-guide/uccx_b_1252finesse-agent-supervisor-desktop-guide_chapter_0110.html
-retrieved_at: 2026-08-16T21:25:51.684589+00:00
+retrieved_at: 2026-10-05T11:41:21.372303+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1)SU1
@@ -343,3 +343,7 @@ When Finesse IPPA phone is powered off or reset, you will be logged out of the p
 | Step 7 | If your administrator requests that you enter your credentials, enter the required values for your agent id, password, and
                                        extension. |
 | Step 8 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

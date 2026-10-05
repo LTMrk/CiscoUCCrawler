@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-unified-ccx-r-73a9d411d0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_unified-ccx-reporting-user-guide-125/uccx_b_unified-ccx-reporting-user-guide-125_appendix_01100.html
-retrieved_at: 2026-08-16T21:27:01.180638+00:00
+retrieved_at: 2026-10-05T11:37:09.600333+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1)
@@ -176,3 +176,7 @@ One call record for the call with the caller (Inbound + transfer-in) to indicate
 | Detailed Call by Call CCDR Report (System perspective) | One call record with type = 1 (incoming) for the call between the caller and agent1. One call record with type = 3 (internal) for the consult call between the two agents. One call record with type = 5 (transferred-in) for the call between the caller and agent2. |
 | Agent Detail Report (Agent perspective) | For agent1: One call record for call with the caller (Inbound + transfer-out) to indicate that this call was transferred out to another
                                                    agent. One call record for the consult call with agent2 (outbound). For agent2: One call record for the consult call with agent1 (Inbound Non-ACD). Consult calls are always Non-ACD in Historical reports. One call record for the call with the caller (Inbound + transfer-in) to indicate that a transferred call was received. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

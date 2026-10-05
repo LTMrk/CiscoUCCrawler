@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-37a66a0de1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1finesse-agent-supervisor-desktop-guide/uccx_b_1252finesse-agent-supervisor-desktop-guide_appendix_01010.html
-retrieved_at: 2026-08-16T21:26:09.881399+00:00
+retrieved_at: 2026-10-05T11:40:52.985454+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1)SU1
@@ -3014,3 +3014,7 @@ None
 | CSQ
                                              						Name | Displays information for the CSQs that belong to the specified
                                              						queues. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

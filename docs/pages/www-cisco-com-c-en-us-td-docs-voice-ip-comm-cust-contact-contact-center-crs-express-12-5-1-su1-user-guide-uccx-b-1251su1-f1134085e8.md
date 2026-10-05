@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-f1134085e8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1finesse-agent-supervisor-desktop-guide/uccx_b_1252finesse-agent-supervisor-desktop-guide_chapter_0111.html
-retrieved_at: 2026-08-16T21:25:55.880498+00:00
+retrieved_at: 2026-10-05T11:41:25.422614+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1)SU1
@@ -266,3 +266,7 @@ No error appears in Finesse when this occurs. However, a customer may
 
 Let the customer know that you did not receive the image. Ask the
                               		  customer to resend it as an attachment.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

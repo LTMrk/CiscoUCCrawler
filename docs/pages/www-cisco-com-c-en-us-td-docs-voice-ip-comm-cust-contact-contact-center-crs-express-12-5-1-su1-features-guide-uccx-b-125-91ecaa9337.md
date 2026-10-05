@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-features-guide-uccx-b-125-91ecaa9337
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/features/guide/uccx_b_1251su1features-guide/uccx_b_1252features-guide_chapter_01000.html
-retrieved_at: 2026-08-16T21:19:23.410446+00:00
+retrieved_at: 2026-10-05T11:38:16.141002+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5.1 SU1
@@ -748,3 +748,13 @@ Specific License Reservation is removed from the product instance.
 |---|---|
 | Step 2 | Use the Reservation Return Code in Cisco SSM or Cisco SSM On-Prem . Reserved licenses are returned to the virtual pool. |
 | Step 3 | Run the license smart reservation disable command. |
+
+## Figuras
+
+![Figure 1. License States](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510721.jpg)
+
+![Figure 2. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510657.jpg)
+
+![Figure 3. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510658.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

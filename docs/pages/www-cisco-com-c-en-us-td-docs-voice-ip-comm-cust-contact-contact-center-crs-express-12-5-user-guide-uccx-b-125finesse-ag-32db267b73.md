@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-125finesse-ag-32db267b73
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_125finesse-agent-supervisor-desktop-guide/uccx_b_125finesse-agent-supervisor-desktop-guide_chapter_0100.html
-retrieved_at: 2026-08-16T21:24:56.265474+00:00
+retrieved_at: 2026-10-05T11:36:32.491094+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1)
@@ -685,3 +685,7 @@ When you discard an unsent reply that has attachments, the draft of the reply fr
 | Step 2 | Click Discard icon on the Email Reply panel. You are prompted to discard the selected email message. |
 | Step 3 | Click Yes to confirm. The email message is discarded. When you discard an unsent reply that has attachments, the draft of the reply from the agent and the attachments are deleted.
                                              The original email message sent by the email contact remains in the Exchange mailbox. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-unified-ccx-r-4c13779a61
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_unified-ccx-reporting-user-guide-125/uccx_b_unified-ccx-reporting-user-guide-125_chapter_01.html
-retrieved_at: 2026-08-16T21:26:17.618837+00:00
+retrieved_at: 2026-10-05T11:37:13.894544+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1)
@@ -359,3 +359,7 @@ You can configure template help for the report from the Reports page > Add Help 
                                        			 report in the run mode. |
 |---|---|
 | Step 2 | Click the Template Help icon in the report toolbar. The report template help appears in a new browser window. You can configure template help for the report from the Reports page > Add Help . For more information, see Add Template Help section. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-125finesse-ag-41bf9ac1ad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_125finesse-agent-supervisor-desktop-guide/uccx_b_125finesse-agent-supervisor-desktop-guide_chapter_011.html
-retrieved_at: 2026-08-16T21:24:51.641101+00:00
+retrieved_at: 2026-10-05T11:36:44.676173+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide for Cisco Unified Contact Center Express, Release 12.5(1)
@@ -422,3 +422,7 @@ The customer call is transferred directly to another contact and
                                        			 contacts or enter the number into the keypad. |
 | Step 3 | On the keypad, click Call . The customer call is transferred directly to another contact and
                                           				the call ends for you. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

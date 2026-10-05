@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-release-guide-uccx-b-1251-fa817d48ad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/release/guide/uccx_b_1251su1solution-release-notes/uccx_b_1252solution-release-notes_chapter_011.html
-retrieved_at: 2026-08-16T21:01:23.787400+00:00
+retrieved_at: 2026-10-05T11:40:43.180821+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 12.5(1) SU1
@@ -100,3 +100,7 @@ None.
 
 | Note | The Multi-Tab gadget cannot host the Advanced Capabilities gadget and the Manage Chat and Email gadget. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

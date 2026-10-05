@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-release-guide-uccx-b-uccx-solut-fb738a640b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/release/guide/uccx_b_uccx-solution-release-notes-125/uccx_b_uccx-solution-release-notes-125_chapter_00.html
-retrieved_at: 2026-08-16T21:01:44.493807+00:00
+retrieved_at: 2026-10-05T11:35:49.432249+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 12.5(1)
@@ -51,3 +51,7 @@ For more information, see Configuration of CA-Signed Multi-Server Subject Altern
 
 | Note | Cisco SocialMiner has been renamed as Customer Collaboration Platform (CCP). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

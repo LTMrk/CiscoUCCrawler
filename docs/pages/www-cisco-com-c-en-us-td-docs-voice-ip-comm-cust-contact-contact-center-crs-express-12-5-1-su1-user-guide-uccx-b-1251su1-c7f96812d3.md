@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-user-guide-uccx-b-1251su1-c7f96812d3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/user/guide/uccx_b_1251su1reporting-user-guide/uccx_b_1252reporting-user-guide_chapter_0101.html
-retrieved_at: 2026-08-16T20:55:53.132109+00:00
+retrieved_at: 2026-10-05T11:42:08.540662+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1) SU1
@@ -289,3 +289,7 @@ Log in to Finesse desktop and check the report.
 | Step 7 | Replace the viewID value in the stock report permalink with the viewID value from the permalink of the customized report. Example: After replacing the viewID value with the viewID of the customized report, the customized report permalink appears as follows: https://<Server Name>:8444/cuicui/permalink/?viewId= B27986B510000142000004D60A4E5B33 &linkType=htmlType&viewType=Grid&ResourceIAQStats.resourceId=CL |
 | Step 8 | Add the customized gadget URL to Desktop Layout in the Finesse Administration console and save. |
 | Step 9 | Log in to Finesse desktop and check the report. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

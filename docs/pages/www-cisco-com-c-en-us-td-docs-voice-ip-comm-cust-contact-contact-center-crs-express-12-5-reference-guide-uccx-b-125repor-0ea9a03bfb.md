@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-reference-guide-uccx-b-125repor-0ea9a03bfb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/reference/guide/uccx_b_125report-developers-guide/uccx_b_125report-developers-guide_preface_00.html
-retrieved_at: 2026-08-16T21:04:04.044449+00:00
+retrieved_at: 2026-10-05T11:35:40.650278+00:00
 ---
 
 Cisco Unified Contact Center Express Report Developer Guide, Release 12.5(1)
@@ -234,3 +234,7 @@ contactcenterproducts_docfeedback@cisco.com
 
 | Note | From Unified CCX Release 12.5(1), CCP documents are available in the Cisco Unified CCX documentation folder. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

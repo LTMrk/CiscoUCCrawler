@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-1-su1-features-guide-uccx-b-125-7df4c83639
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5_1_su1/features/guide/uccx_b_1251su1features-guide/uccx_b_1252features-guide_chapter_010.html
-retrieved_at: 2026-08-16T21:19:02.052348+00:00
+retrieved_at: 2026-10-05T11:38:07.461468+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5.1 SU1
@@ -759,3 +759,10 @@ Perform the SSO Test to check if all the SSO components are registered. Verify t
 | Note | Cisco IdS supports SAML self-signed certificates for authentication. If the IdP certificates are automatically rolled-over, manually renewed, or updated by the administrator, then re-establish
                                                 the trust relationship between the IdS and the IdP. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Authentication
+                              		  and Authorization Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393363.eps/_jcr_content/renditions/393363.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

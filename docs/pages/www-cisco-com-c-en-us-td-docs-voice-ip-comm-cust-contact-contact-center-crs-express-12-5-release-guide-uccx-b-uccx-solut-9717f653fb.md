@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-release-guide-uccx-b-uccx-solut-9717f653fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/release/guide/uccx_b_uccx-solution-release-notes-125/uccx_b_uccx-solution-release-notes-125_chapter_0101.html
-retrieved_at: 2026-08-16T21:02:10.445876+00:00
+retrieved_at: 2026-10-05T11:36:02.524775+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 12.5(1)
@@ -95,3 +95,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=283613136&r
 
 | Note | If the list of caveats does not automatically appear when you open the browser, refresh the browser. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

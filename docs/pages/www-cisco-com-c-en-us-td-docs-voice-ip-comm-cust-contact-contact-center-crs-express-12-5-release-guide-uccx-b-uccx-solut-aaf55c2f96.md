@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-release-guide-uccx-b-uccx-solut-aaf55c2f96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/release/guide/uccx_b_uccx-solution-release-notes-125/uccx_b_uccx-solution-release-notes-125_chapter_0100.html
-retrieved_at: 2026-08-16T21:02:01.777509+00:00
+retrieved_at: 2026-10-05T11:35:57.598418+00:00
 ---
 
 Release Notes for Cisco Unified Contact Center Express Solution, Release 12.5(1)
@@ -50,3 +50,7 @@ Access to Cisco Customer Collaboration Platform Administration UI is restricted.
 ## Third Party Software Impacts
 
 None.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-user-guide-uccx-b-unified-ccx-r-7d060dcb52
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/user/guide/uccx_b_unified-ccx-reporting-user-guide-125/uccx_b_unified-ccx-reporting-user-guide-125_appendix_01011.html
-retrieved_at: 2026-08-16T21:26:56.685629+00:00
+retrieved_at: 2026-10-05T11:37:05.526664+00:00
 ---
 
 Cisco Unified Contact Center Express Reporting User Guide, Release 12.5(1)
@@ -187,3 +187,7 @@ A call that
 Wait time
                                     				  is the time that elapsed between the time a call entered the queue and the time
                                     				  the call was answered by an agent or was disconnected.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
