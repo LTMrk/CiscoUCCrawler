@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-digital-channels-user-guide-rcct-b-manage-digita-a5f4eefb07
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/digital-channels/user/guide/rcct_b_manage-digital-channels/rcct_m_manage_digital_channels_preface.html
-retrieved_at: 2026-08-16T20:33:31.089152+00:00
+retrieved_at: 2026-10-05T13:01:37.063060+00:00
 ---
 
 Cisco Contact Center Enterprise Manage Digital Channels Gadget User Guide
@@ -211,3 +211,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

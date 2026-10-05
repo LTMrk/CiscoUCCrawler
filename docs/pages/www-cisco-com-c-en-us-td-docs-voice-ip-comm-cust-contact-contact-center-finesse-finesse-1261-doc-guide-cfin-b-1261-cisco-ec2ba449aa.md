@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-doc-guide-cfin-b-1261-cisco-ec2ba449aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/doc/guide/cfin_b_1261_cisco-finesse-documentation-guide.html
-retrieved_at: 2026-08-21T06:42:12.023424+00:00
+retrieved_at: 2026-10-05T13:05:30.948582+00:00
 ---
 
 Cisco Finesse Documentation Guide, Release 12.6(1)
@@ -452,3 +452,7 @@ For the latest Hosted Collaboration Solution documentation, go to https://www.ci
 |---|---|
 | Release Notes for Cisco Contact Center Enterprise Solutions Release 12.6(1) | Updated to meet the Contact Center Enterprise Solutions, Release 12.6(1) requirements. To view the page, see https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-release-notes-list.html . |
 | Compatibility Matrix for Contact Center Enterprise 12.6(1) | Updated to meet the Contact Center Enterprise, Release 12.6(1) requirements. To view the page, see https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

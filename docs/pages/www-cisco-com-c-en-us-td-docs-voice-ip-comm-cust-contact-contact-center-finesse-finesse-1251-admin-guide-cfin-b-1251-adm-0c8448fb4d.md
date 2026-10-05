@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-0c8448fb4d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_010011.html
-retrieved_at: 2026-08-21T10:14:22.904626+00:00
+retrieved_at: 2026-10-05T13:02:18.961883+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.5(1)
@@ -676,3 +676,7 @@ Stopping Service Manager...
 | Step 10 | Enable Shindig allowed list to add Cisco Finesse new FQDN for Cisco Finesse, Unified Intelligence Center, and Live Data. |
 | Step 11 | Verify and update Finesse desktop layout with new FQDN for the resource loading. |
 | Step 12 | Update Unified CCE inventory with the Cisco Finesse IP address. From Step 6 to Step 10, after you complete each step, you must restart the services to reflect new changes. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

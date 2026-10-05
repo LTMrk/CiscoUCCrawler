@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-60aa9c1cdb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-certificates-for-live-data.html
-retrieved_at: 2026-08-21T16:00:12.435565+00:00
+retrieved_at: 2026-10-05T13:04:12.315822+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(1)
@@ -167,3 +167,7 @@ Follow the instructions provided in the Unified CCE Solution: Procedure to Obtai
 | Step 6 | Select the file, and click Upload File . |
 | Step 7 | Repeat steps 3 to 6 for the remaining unloaded certificate. |
 | Step 8 | After you upload both certificates, restart Cisco Finesse Tomcat on the Finesse server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

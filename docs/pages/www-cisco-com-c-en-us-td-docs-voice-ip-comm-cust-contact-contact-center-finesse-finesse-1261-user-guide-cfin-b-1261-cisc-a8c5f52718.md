@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-user-guide-cfin-b-1261-cisc-a8c5f52718
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/guide/cfin_b_1261-cisco-desktop-user-guide/cfin_b_1261-cisco-desktop-user-guide_chapter_0100.html
-retrieved_at: 2026-08-21T03:12:41.621955+00:00
+retrieved_at: 2026-10-05T13:06:17.432502+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 12.6(1)
@@ -378,3 +378,7 @@ When Finesse IPPA phone is powered off or reset, you will be logged out of the p
 | Step 7 | If your administrator requests that you enter your credentials, enter the required values for your agent id, password, and
                                        extension. |
 | Step 8 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-38a7ead68e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-manage-call-variables-layouts.html
-retrieved_at: 2026-08-21T15:55:20.043805+00:00
+retrieved_at: 2026-10-05T13:06:54.810390+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -301,3 +301,7 @@ For more details, see the section, "Adding an HTTP Request Workflow Action" in t
 | Note | If a user.layout and a user.Layout are specified, Finesse will prioritize user.layout over user.Layout. If the layout specified
                                                       in the user.Layout or user.layout is not found, Finesse uses the Default layout. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

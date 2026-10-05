@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-1c73d62d42
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-backup-and-restore.html
-retrieved_at: 2026-08-21T15:56:11.716644+00:00
+retrieved_at: 2026-10-05T13:06:29.824401+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -448,3 +448,7 @@ Always check the
                                           			 dbreplication status after any restore, using the CLI command utils
                                              				dbreplication runtimestate . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-0ac2fef3c7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-manage-security.html
-retrieved_at: 2026-08-21T15:57:10.866681+00:00
+retrieved_at: 2026-10-05T13:04:53.304442+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(1)
@@ -160,3 +160,7 @@ For more information on CLI commands, see Service Properties .
 | Step 3 | If there is a disk in the disk drive, remove it. When you are ready, press any key to continue. The system checks to ensure that you have removed the disk from the drive. The following message appears: Insert a valid CD or DVD into the disk drive. |
 | Step 4 | Connect the CD/DVD drive and point it to the ISO image. The system checks to ensure you have inserted the disk. After the system verifies that you have inserted a disk, you are prompted to choose one of the following options: Enter 'a' for admin password reset. Enter 's' for security password reset. Enter 'q' for quit. |
 | Step 5 | Select the appropriate option and provide the new password. The system resets the password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-user-guide-cfin-b-1251-desk-167c139285
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/user/guide/cfin_b_1251-desktop-user-guide/cfin_b_1251-desktop-user-guide_preface_00.html
-retrieved_at: 2026-08-21T03:11:44.842323+00:00
+retrieved_at: 2026-10-05T13:03:59.530328+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 12.5(1)
@@ -259,3 +259,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

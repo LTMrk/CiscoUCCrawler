@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-installation-guide-cfin-b-1-9fd87c071a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/installation/guide/cfin_b_1251-cisco-finesse-installation-and-upgrade/cfin_b_1251-cisco-finesse-installation-and-upgrade_chapter_010.html
-retrieved_at: 2026-08-21T15:54:24.436482+00:00
+retrieved_at: 2026-10-05T13:03:21.445585+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 12.5(1)
@@ -907,3 +907,9 @@ Cisco Finesse < version number >
                                           						situation, you must reinstall from the beginning, but first you must attach a
                                           						serial port to the VM. Then, you dump the install logs into the serial port of
                                           						the VM. |
+
+## Figuras
+
+![Figure 1. Virtual Machine Message](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341163.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

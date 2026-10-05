@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-3745706ad8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-cisco-finesse-cli.html
-retrieved_at: 2026-08-21T15:56:21.256462+00:00
+retrieved_at: 2026-10-05T13:06:42.778229+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -2414,3 +2414,7 @@ No service restart required. Ensure the desktop browser is refreshed for the cha
 | Note | After the system reboots, the self-signed and CA certificates of the servers, whose certificate type has changed, must be
                                              regenerated and re-uploaded into the client servers. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

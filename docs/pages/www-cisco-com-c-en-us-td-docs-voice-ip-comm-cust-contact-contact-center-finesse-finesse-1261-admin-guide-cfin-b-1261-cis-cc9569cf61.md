@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-cc9569cf61
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-supported-cisco-unified-communications-os.html
-retrieved_at: 2026-08-21T16:00:08.556597+00:00
+retrieved_at: 2026-10-05T13:05:22.793753+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(1)
@@ -208,3 +208,7 @@ Cisco SNMP integration with Finesse is restricted to platform MIBs. Finesse does
 
 | Note | Cisco SNMP integration with Finesse is restricted to platform MIBs. Finesse does not have any application-specific MIBs. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

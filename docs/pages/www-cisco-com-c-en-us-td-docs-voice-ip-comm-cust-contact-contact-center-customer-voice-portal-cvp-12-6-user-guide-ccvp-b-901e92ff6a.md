@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-6-user-guide-ccvp-b-901e92ff6a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_6/user/guide/ccvp_b_1261-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1261/ccvp_b_1251-user-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio-release-1251_chapter_0111.html
-retrieved_at: 2026-08-21T17:42:48.620469+00:00
+retrieved_at: 2026-10-05T13:01:24.532178+00:00
 ---
 
 User Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio Release 12.6(1)
@@ -391,3 +391,7 @@ The output of the expression is Hello .
                                                                						VXML standard trusted CA, do not import the CA certificate on the REST Server
                                                                						truststore. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

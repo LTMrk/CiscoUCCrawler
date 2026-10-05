@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-installation-guide-cfin-b-1-e545f1316f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/installation/guide/cfin_b_1251-cisco-finesse-installation-and-upgrade/cfin_b_1251-cisco-finesse-installation-and-upgrade_chapter_011.html
-retrieved_at: 2026-08-21T15:54:28.702376+00:00
+retrieved_at: 2026-10-05T13:03:34.071395+00:00
 ---
 
 Cisco Finesse Installation and Upgrade Guide, Release 12.5(1)
@@ -330,3 +330,7 @@ After you enter these commands, wait again for 1 hour (or more depending on the 
                                                          all utils dbreplication reset
                                                          all After you enter these commands, wait again for 1 hour (or more depending on the volume of data) before again using the utils dbreplication runtimestate command to confirm the  replication is successful. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-4a46183dac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_01011.html
-retrieved_at: 2026-08-21T10:16:56.256013+00:00
+retrieved_at: 2026-10-05T13:02:31.387827+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.5(1)
@@ -250,3 +250,7 @@ For more information on Cisco Enterprise Chat and Email, see https://www.cisco.c
 | Note | The feature requires participating gadgets to publish and subscribe for the activity notifications. The Finesse desktop by
                                              itself cannot provide these notifications or provide task activity processing based on these notifications. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

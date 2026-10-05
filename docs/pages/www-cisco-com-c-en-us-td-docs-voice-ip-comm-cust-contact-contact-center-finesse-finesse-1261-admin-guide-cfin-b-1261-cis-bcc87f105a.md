@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-bcc87f105a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-manage-finesse-ip-phone-agent.html
-retrieved_at: 2026-08-21T15:57:15.683143+00:00
+retrieved_at: 2026-10-05T13:04:37.302552+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(1)
@@ -903,3 +903,7 @@ This Finesse Service is unavailable due to maintenance in progress. Please sign 
 | Note | In a two-node Finesse setup with two services configured, the agents must enter their credentials on the primary and secondary
                                           Finesse services. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

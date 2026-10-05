@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-77e3ccab04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_010001.html
-retrieved_at: 2026-08-21T10:17:04.848434+00:00
+retrieved_at: 2026-10-05T13:02:10.380208+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.5(1)
@@ -448,3 +448,7 @@ Always check the
                                           			 dbreplication status after any restore, using the CLI command utils
                                              				dbreplication runtimestate . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

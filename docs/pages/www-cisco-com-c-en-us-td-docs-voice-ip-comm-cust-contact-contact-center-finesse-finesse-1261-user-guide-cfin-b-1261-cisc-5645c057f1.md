@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-user-guide-cfin-b-1261-cisc-5645c057f1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/guide/cfin_b_1261-cisco-desktop-user-guide/cfin_b_1261-cisco-desktop-user-guide_chapter_01.html
-retrieved_at: 2026-08-21T03:12:28.967517+00:00
+retrieved_at: 2026-10-05T13:06:08.849069+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 12.6(1)
@@ -1400,3 +1400,17 @@ If you are using Mac machine running Firefox browser, then set the Full Keyboard
 
 | Note | The letters used in the keyboard shortcuts are not case-sensitive. If you are using Mac keyboard, then press Option instead of Alt . For example, to access the keyboard shortcuts list press Control–Option–F . If you are using Mac machine running Firefox browser, then set the Full Keyboard Access to All controls ( System Preferences > Keyboard > Shortcuts ) to shift the keyboard focus to all controls. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Finesse Agent Desktop](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511252.jpg)
+
+![Figure 2. Finesse Supervisor Desktop](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510467.jpg)
+
+![Figure 3. Multi-Tab Gadgets](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453767.jpg)
+
+![Figure 4. History](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453766.jpg)
+
+![Figure 5. Notification](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511164.jpg)
+
+![Figure 6. Call Control Gadget in Multi-Tab](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511165.jpg)

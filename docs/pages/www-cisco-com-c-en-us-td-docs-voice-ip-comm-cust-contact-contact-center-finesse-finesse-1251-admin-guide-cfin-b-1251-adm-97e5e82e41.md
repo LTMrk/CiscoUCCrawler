@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-97e5e82e41
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_0100.html
-retrieved_at: 2026-08-21T10:14:32.257166+00:00
+retrieved_at: 2026-10-05T13:02:02.571219+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.5(1)
@@ -2331,3 +2331,7 @@ viewId_1=5C90012F10000140000000830A4E5B33&filterId_1=agent.id=CL%20teamName&
 viewId_2=99E6C8E210000141000000D80A0006C4&filterId_2=agent.id=CL%20teamName</gadget> Make sure that the filterId value matches the type required by the report type, as follows: Agent Reports: filterId_ N =agent.id=CL%20teamName Agent Skill Group Reports: filterId_ N =agent.id=CL%20teamName Skill Group Reports: filterId_ N =skillGroup.id=CL%20teamName Precision Queue Reports: filterId_ N =precisionQueue.id=CL%20teamName |
 | Step 5 | Replace my-cuic-server with the FQDN of your Cisco Unified Intelligence Center Server. |
 | Step 6 | Add the customized gadget URL to the desktop layout XML in the Manage Desktop Layout gadget and click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

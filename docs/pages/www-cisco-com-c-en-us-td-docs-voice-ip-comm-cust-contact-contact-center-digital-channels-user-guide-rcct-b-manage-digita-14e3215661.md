@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-digital-channels-user-guide-rcct-b-manage-digita-14e3215661
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/digital-channels/user/guide/rcct_b_manage-digital-channels/rcct_m_manage-digital-channels.html
-retrieved_at: 2026-08-16T20:33:35.819814+00:00
+retrieved_at: 2026-10-05T13:01:33.340215+00:00
 ---
 
 Cisco Contact Center Enterprise Manage Digital Channels Gadget User Guide
@@ -1258,3 +1258,15 @@ Tooltips appear when users hover over or focus on an element, making them access
 
 | Note | If you are using Mac keyboard, then press Option instead of Alt . For example, for Language Selector Drop-Down press Option–Down Arrow. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Digital Channels State Change Selection](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/470001-471000/470756.JPG)
+
+![Figure 2. Visual Representation of Digital Channels State](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/470001-471000/470757.png)
+
+![Figure 3. Automatic State Change](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/470001-471000/470758.png)
+
+![Figure 4. Failover](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/470001-471000/470759.jpg)
+
+![Figure 5. Failback](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/470001-471000/470760.jpg)

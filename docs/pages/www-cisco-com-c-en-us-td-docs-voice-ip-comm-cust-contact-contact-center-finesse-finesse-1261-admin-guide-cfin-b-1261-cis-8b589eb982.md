@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-admin-guide-cfin-b-1261-cis-8b589eb982
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/admin/guide/cfin_b_1261-cisco-finesse-administration-guide/cfin_m_1261-manage-third-party-gadgets.html
-retrieved_at: 2026-08-21T15:59:52.419591+00:00
+retrieved_at: 2026-10-05T13:05:06.133548+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(1)
@@ -253,3 +253,7 @@ For more information on Cisco Enterprise Chat and Email, see https://www.cisco.c
 | Note | The feature requires participating gadgets to publish and subscribe for the activity notifications. The Finesse desktop by
                                              itself cannot provide these notifications or provide task activity processing based on these notifications. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

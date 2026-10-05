@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1251-admin-guide-cfin-b-1251-adm-44184eb22b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1251/admin/guide/cfin_b_1251-administration-guide/cfin_b_1251-administration-guide_chapter_0111.html
-retrieved_at: 2026-08-21T10:14:40.086343+00:00
+retrieved_at: 2026-10-05T13:02:52.153606+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.5(1)
@@ -526,3 +526,7 @@ Click Save .
 | Step 2 | Click the Workflows tab. |
 | Step 3 | Click the red X next to the workflow to unassign. |
 | Step 4 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

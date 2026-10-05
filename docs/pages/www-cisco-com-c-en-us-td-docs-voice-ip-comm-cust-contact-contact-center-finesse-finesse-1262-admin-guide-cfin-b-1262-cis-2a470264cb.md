@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1262-admin-guide-cfin-b-1262-cis-2a470264cb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1262/admin/guide/cfin_b_1262_cisco-finesse-administration-guide/cfin_m_1261-cisco-finesse-failover-mechanisms.html
-retrieved_at: 2026-08-21T15:56:07.962575+00:00
+retrieved_at: 2026-10-05T13:06:46.548046+00:00
 ---
 
 Cisco Finesse Administration Guide, Release 12.6(2)
@@ -721,3 +721,7 @@ Alternate Cisco Finesse node's unavailability or disconnection can cause the Fin
                                           agents to be migrated in 60 minutes. The maintenance mode is marked as failed if any of the agents are not logged out or migrated
                                           within the specified time. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

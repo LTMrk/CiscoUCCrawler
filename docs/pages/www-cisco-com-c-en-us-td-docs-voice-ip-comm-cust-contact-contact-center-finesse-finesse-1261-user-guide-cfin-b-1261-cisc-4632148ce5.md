@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-user-guide-cfin-b-1261-cisc-4632148ce5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/guide/cfin_b_1261-cisco-desktop-user-guide/cfin_b_1261-cisco-desktop-user-guide_chapter_011.html
-retrieved_at: 2026-08-21T03:12:37.342017+00:00
+retrieved_at: 2026-10-05T13:06:21.487750+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 12.6(1)
@@ -507,3 +507,7 @@ As there are no individual limitations on supervisors, either one or all supervi
                                           message is deleted or it expires. As there are no individual limitations on supervisors, either one or all supervisors can broadcast messages up to the maximum
                                           active messages limit. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

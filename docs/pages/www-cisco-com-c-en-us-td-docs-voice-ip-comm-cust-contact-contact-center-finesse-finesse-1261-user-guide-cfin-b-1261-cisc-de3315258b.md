@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-finesse-finesse-1261-user-guide-cfin-b-1261-cisc-de3315258b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/finesse/finesse_1261/user/guide/cfin_b_1261-cisco-desktop-user-guide/cfin_b_1261-cisco-desktop-user-guide_chapter_010.html
-retrieved_at: 2026-08-21T03:12:33.836677+00:00
+retrieved_at: 2026-10-05T13:06:13.578150+00:00
 ---
 
 Cisco Finesse Agent and Supervisor Desktop User Guide, Release 12.6(1)
@@ -2357,3 +2357,7 @@ For information about how to use the Contact Center AI Gadgets, see Contact Cent
 
 | Note | Use the same ID to login to Agent Desktop and ECE gadgets so that the key metrics are displayed properly. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
