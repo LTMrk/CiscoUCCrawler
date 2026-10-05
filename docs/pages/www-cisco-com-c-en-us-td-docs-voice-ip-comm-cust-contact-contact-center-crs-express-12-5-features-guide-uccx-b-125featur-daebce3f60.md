@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-features-guide-uccx-b-125featur-daebce3f60
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/features/guide/uccx_b_125features-guide/uccx_b_125features-guide_chapter_011.html
-retrieved_at: 2026-08-16T21:18:41.714525+00:00
+retrieved_at: 2026-10-05T11:31:03.883762+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5(1)
@@ -3588,3 +3588,15 @@ All the historical and live data reports are available at the following location
 | Step 3 | Click OK to close the Wrap-Up Reasons selection pane. You can change
                                           				your selection at any time. Click Wrap-Up Reasons(0) ; to open the Wrap-Up Reasons
                                           				selection pane. You can select a maximum number of five (5) Wrap-Up Reasons. |
+
+## Figuras
+
+![Figure 1. Customer Web Site in DMZ](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510217.jpg)
+
+![Figure 2. Email Reply panel](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/400001-401000/400585.tif/_jcr_content/renditions/400585.jpg)
+
+![Figure 3. Chat Interaction Panel](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510090.jpg)
+
+![Figure 4. Initiate Group Chat Invite Interface](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510089.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

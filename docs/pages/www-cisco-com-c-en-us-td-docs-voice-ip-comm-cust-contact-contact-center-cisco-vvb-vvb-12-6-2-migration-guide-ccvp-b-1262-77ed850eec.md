@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-migration-guide-ccvp-b-1262-77ed850eec
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/migration/guide/ccvp_b_1262-migration-guide-for-cisco-virtualized-voice-browser-release/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_chapter_011.html
-retrieved_at: 2026-08-21T16:26:11.524756+00:00
+retrieved_at: 2026-10-05T11:28:28.746886+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -276,3 +276,7 @@ To know whether any script changes are required while migrating from IOS VXML to
                                        character as termination character by adding it in custom VXML property. |
 | HTTP Streaming | Not Supported | Supported For more information, see the Audio chapter in Element Specifications Guide for Cisco Unified CVP VXML Server and Call Studio at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/tsd-products-support-series-home.html |
 | Custom SIP header passing to a VXML server | Supported | Supported For more information, see Custom SIP header passing to a VXML server in Solution Design Guide for Cisco Unified Contact Center Enterprise and Solution Design Guide for Cisco Packaged Contact Center Enterprise. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

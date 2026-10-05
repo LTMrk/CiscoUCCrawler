@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-cucosadmin-ccvp-b-1261-cvvb-cu-8a454719dd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/cucosadmin/ccvp_b_1261-cvvb-cuc-os-administration-guide/ccvp_b_1261-cvvb-cuc-os-administration-guide_index.html
-retrieved_at: 2026-08-21T16:31:44.271525+00:00
+retrieved_at: 2026-10-05T11:25:39.282996+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -243,3 +243,7 @@ time settings 1
 V
 
 version, restart 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

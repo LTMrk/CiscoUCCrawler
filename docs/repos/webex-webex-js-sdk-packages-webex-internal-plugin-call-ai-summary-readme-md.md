@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-call-ai-summary/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:10.765130+00:00
+retrieved_at: 2026-10-05T11:22:40.511430+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-call-ai-summary/README.md
@@ -244,20 +244,25 @@ yarn test
 
 ```
 src/
-  index.ts          # Self-registration via registerInternalPlugin('aisummary', ...)
-  ai-summary.ts     # Plugin implementation (WebexPlugin.extend)
-  config.ts         # Plugin config
-  constants.ts      # Service name, error messages
-  types.ts          # TypeScript interfaces
+  index.ts                     # Self-registration via registerInternalPlugin('aisummary', ...)
+  ai-summary.ts                # Plugin implementation (WebexPlugin.extend)
+  config.ts                    # Plugin config
+  constants.ts                 # Service name, error messages
+  types.ts                     # TypeScript interfaces
+  manual-pragya-api-test.js    # Manual Pragya response-structure script
+  manual-integration-test.js   # Manual end-to-end script
+  docs/README.md               # Canonical module specification
 test/
   unit/
-    spec/
-      ai-summary.ts # Unit tests (26 tests)
-    data/
-      responses.ts  # Mock API response fixtures
-ai-docs/
-  ARCHITECTURE.md   # Detailed architecture document
+    spec/ai-summary.ts         # Unit tests (35 tests)
+    fixture/responses.ts       # Pragya / AI Bridge wire fixtures
+docs/                          # Repository-level SDD specifications
+AGENTS.md                      # Agent instructions for this package
 ```
+
+> **Note:** fixtures must live under `test/unit/fixture/`. Jest collects every `test/unit/**`
+> subdirectory except `lib` and `fixture`, so a `data/` directory would be picked up as a test
+> suite and fail.
 
 ## Dependencies
 
@@ -268,7 +273,7 @@ ai-docs/
 
 ## Architecture
 
-See [ai-docs/ARCHITECTURE.md](ai-docs/ARCHITECTURE.md) for the full architecture document covering data flows, API request/response details, DTOs, security considerations, and testing strategy.
+See [docs/architecture.md](docs/architecture.md) for repository-wide architecture and [src/docs/README.md](src/docs/README.md) for the module specification covering data flows, API request/response details, encryption and error handling.
 
 ---
 > Fuente: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/internal-plugin-call-ai-summary/README.md (licencia NOASSERTION)

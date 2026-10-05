@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-opsguide-guide-ccvp-b-1501--14d04804ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/opsguide/guide/ccvp_b_1501-operations-guide-for-cisco-virtualized-voice-browser/ccvb_m_preface-1501.html
-retrieved_at: 2026-08-21T16:30:31.680104+00:00
+retrieved_at: 2026-10-05T11:30:06.852218+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 15.0(1)
@@ -124,3 +124,7 @@ To provide
 | Initial Release of Document for Release 15.0(1) | April, 2025 |
 | Added the Cipher Management topic. | Command Line Interface > Cipher Management |
 | Added the following set commands: show vvb call blindTransferContinueOnerror set vvb call blindTransferContinueOnerror utils service restart Engine | Command Line Interface > Show Commands Command Line Interface > Set Commands Command Line Interface > Utils Commands |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

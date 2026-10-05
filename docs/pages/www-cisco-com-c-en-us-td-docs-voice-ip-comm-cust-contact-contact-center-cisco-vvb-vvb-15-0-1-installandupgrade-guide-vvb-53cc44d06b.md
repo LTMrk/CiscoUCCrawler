@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-installandupgrade-guide-vvb-53cc44d06b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/installandupgrade/guide/vvb_b_1501_install-and-upgrade-guide/cisco_vvb_installation.html
-retrieved_at: 2026-08-21T04:32:00.383101+00:00
+retrieved_at: 2026-10-05T11:29:41.613836+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1)
@@ -699,3 +699,7 @@ From the Navigation drop-down list, select Cisco VVB Serviceability and click GO
 | Step 1 | Log in to Cisco Virtualized Voice Browser Administration web page. |
 |---|---|
 | Step 2 | From the Navigation drop-down list, select Cisco VVB Serviceability and click GO . Cisco VVB Serviceability web page is displayed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-operations-guide-ccvp-b-126-6952661d46
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/operations/guide/ccvp_b_1262-operations-guide-for-cisco-virtualized-voice-browser/ccvb_m_preface-1262.html
-retrieved_at: 2026-08-21T16:30:44.497564+00:00
+retrieved_at: 2026-10-05T11:28:54.106928+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -113,3 +113,7 @@ To provide
 | Initial Release of Document for Release 12.6(2) | April 2023 |
 | Added the following set commands: set speechserver logJVMStats set speechserver audioPacketSizeInBytes default set speechserver audioPacketSizeInBytes set vvb https strict_hostname_verifier set vvb http pna | Command Line Interface > Set Commands |
 | Added the following show commands: show speechserver logJVMStats show speechserver audioPacketSizeInBytes show vvb https strict_hostname_verifier show vvb http pna-status | Command Line Interface > Show Commands |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

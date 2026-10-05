@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-installandupgrade-guide-vvb-3b257a4eba
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/installandupgrade/guide/vvb_b_install-and-upgrade-guide-12-62/vvb_b_install-and-upgrade-guide-12-5_preface_00.html
-retrieved_at: 2026-08-21T16:25:38.193283+00:00
+retrieved_at: 2026-10-05T11:28:03.526424+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -100,3 +100,7 @@ To provide
 | Initial Release of Document for Release 12.6(2) | April 2023 |
 | Added task list for upgrading from Cisco VVB, Release 12.6(1) to Cisco VVB, Release 12.6(2) | Cisco VVB Upgrade |
 | Added Note Statement for Configure DNS Server section | Cisco VVB Installation | June 2024 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

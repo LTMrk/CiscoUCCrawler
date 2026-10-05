@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-ccp-b-125install--8c519a5e09
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/ccp_b_125install-and-upgrade/ccp_b_125install-and-upgrade_chapter_011.html
-retrieved_at: 2026-08-16T21:14:06.015382+00:00
+retrieved_at: 2026-10-05T11:31:11.855961+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide Release 12.5(1)
@@ -576,3 +576,7 @@ Power on the
                                           		  to perform a switch-back to previous versions after upgrade, you do not need to
                                           		  modify the virtual machine parameters. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

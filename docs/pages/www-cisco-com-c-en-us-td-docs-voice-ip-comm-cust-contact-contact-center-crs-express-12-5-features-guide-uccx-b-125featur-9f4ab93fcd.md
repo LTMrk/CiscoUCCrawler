@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-features-guide-uccx-b-125featur-9f4ab93fcd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/features/guide/uccx_b_125features-guide/uccx_b_125features-guide_chapter_01010.html
-retrieved_at: 2026-08-16T21:18:35.742431+00:00
+retrieved_at: 2026-10-05T11:30:58.289208+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5(1)
@@ -372,3 +372,7 @@ When an Unified CCX application is associated with a survey, the script can use 
 | Note | When a customer selects a language through Unified CCX application and if the same language is not configured for that survey
                                                          in Experience Management , the customer is asked to choose from the language selection options before accessing the survey. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

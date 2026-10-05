@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-installandupgrade-guide-vvb-69c810786d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/installandupgrade/guide/vvb_b_1501_install-and-upgrade-guide/cisco_vvb_upgrade.html
-retrieved_at: 2026-08-21T12:05:42.284822+00:00
+retrieved_at: 2026-10-05T11:29:54.354734+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1)
@@ -469,3 +469,7 @@ Disaster Recovery Service and CLI commands from Cisco Voice Operating System (VO
                                                             						the command utils vvb switch-version db-recover to restore the
                                                             						database. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

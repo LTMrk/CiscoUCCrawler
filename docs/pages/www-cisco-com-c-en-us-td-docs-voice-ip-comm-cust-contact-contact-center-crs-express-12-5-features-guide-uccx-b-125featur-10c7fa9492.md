@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-features-guide-uccx-b-125featur-10c7fa9492
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/features/guide/uccx_b_125features-guide/uccx_b_125features-guide_chapter_0101.html
-retrieved_at: 2026-08-16T21:18:49.467686+00:00
+retrieved_at: 2026-10-05T11:30:53.874506+00:00
 ---
 
 Cisco Unified Contact Center Express Features Guide, Release 12.5(1)
@@ -137,3 +137,7 @@ During failover, the team message banner and the failover banner will be display
 
 | Note | During failover, the team message banner and the failover banner will be displayed together. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

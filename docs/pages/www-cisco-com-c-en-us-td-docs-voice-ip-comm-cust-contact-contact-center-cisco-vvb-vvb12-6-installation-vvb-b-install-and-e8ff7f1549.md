@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-installation-vvb-b-install-and-e8ff7f1549
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/installation/vvb_b_install-and-upgrade-guide-12-6/vvb_b_install-and-upgrade-guide-12-5_chapter_010.html
-retrieved_at: 2026-08-21T16:26:45.607503+00:00
+retrieved_at: 2026-10-05T11:25:51.673630+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -483,3 +483,7 @@ Disaster Recovery Service and CLI commands from Cisco Voice Operating System (VO
                                                             						the command utils vvb switch-version db-recover to restore the
                                                             						database. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

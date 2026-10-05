@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-cucosadmin-ccvp-b-1261-cvvb-cu-59723afc5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/cucosadmin/ccvp_b_1261-cvvb-cuc-os-administration-guide/ccvp_b_1251-cvvb-cuc-os-administration-guide_chapter_011.html
-retrieved_at: 2026-08-21T16:31:23.107103+00:00
+retrieved_at: 2026-10-05T11:25:26.369877+00:00
 ---
 
 Cisco Unified Communications Operating System Administration Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -262,3 +262,7 @@ On a Unified CCX server, if you changed the date or if you changed the time by m
 | Step 4 | On a Unified CCX server, if you changed the date or if you changed the time by more than two
                                        			 minutes, use the CLI command utils
                                           				system restart to restart the server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

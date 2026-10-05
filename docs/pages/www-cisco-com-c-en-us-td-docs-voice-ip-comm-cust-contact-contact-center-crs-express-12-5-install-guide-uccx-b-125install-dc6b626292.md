@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-uccx-b-125install-dc6b626292
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/uccx_b_125install-and-upgrade-guide/uccx_b_125install-and-upgrade-guide_chapter_01.html
-retrieved_at: 2026-08-16T21:14:18.585879+00:00
+retrieved_at: 2026-10-05T11:31:41.178635+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1)
@@ -376,3 +376,7 @@ Once the
                                                                						  the path with a forward slash and use forward slashes throughout the path. Start
                                                                						  the path from the FTP or SFTP root directory on the server. Do not enter a
                                                                						  Windows absolute path, which starts with a drive letter; for example, "C:" . Example: /patches |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

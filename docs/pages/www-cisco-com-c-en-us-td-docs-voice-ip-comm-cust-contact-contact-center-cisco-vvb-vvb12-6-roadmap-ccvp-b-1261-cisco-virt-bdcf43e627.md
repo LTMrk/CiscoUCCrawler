@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-roadmap-ccvp-b-1261-cisco-virt-bdcf43e627
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/roadmap/ccvp_b_1261-cisco-virtualized-voice-browser-documentation-guide.html
-retrieved_at: 2026-08-21T06:45:33.318958+00:00
+retrieved_at: 2026-10-05T11:27:08.361305+00:00
 ---
 
 Cisco Virtualized Voice Browser Documentation Guide, Release 12.6(1)
@@ -222,3 +222,7 @@ For information on existing security issues, see Cisco Security Advisories, Resp
 |---|---|
 | Unified CCE Solution Compatibility Matrix | Updated to meet Unified CCE Solution requirements for the latest release. To view the tool, see: https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-device-support-tables-list.html . |
 | Virtualization for Cisco Virtualized Voice Browser | Updated to meet Cisco VVB requirements for the latest release. To view the page, see: https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/virtualization-cisco-virtualized-voice-browser.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-uccx-b-125install-6362cbd85d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/uccx_b_125install-and-upgrade-guide/uccx_b_125install-and-upgrade-guide_appendix_0110.html
-retrieved_at: 2026-08-16T21:14:39.684564+00:00
+retrieved_at: 2026-10-05T11:31:32.493259+00:00
 ---
 
 Cisco Unified Contact Center Express Install and Upgrade Guide, Release 12.5(1)
@@ -205,3 +205,7 @@ As the number of licensed
                                                       				  a .zip file, ensure that all .lic files that need to be added are in the root
                                                       				  of the .zip file and are not in subfolders in the .zip file. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

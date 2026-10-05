@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-migration-guide-ccvp-b-1262-487db11ab2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/migration/guide/ccvp_b_1262-migration-guide-for-cisco-virtualized-voice-browser-release/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_preface_00.html
-retrieved_at: 2026-08-21T16:25:58.896782+00:00
+retrieved_at: 2026-10-05T11:28:41.209701+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -89,3 +89,7 @@ To provide
 |---|---|---|
 | Added custom SIP header passing to VXML as part of 12.6(2) ES updates. | Features Comparison | August 2023 |
 | Initial Release of Document for Release 12.6(2) | April 2023 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

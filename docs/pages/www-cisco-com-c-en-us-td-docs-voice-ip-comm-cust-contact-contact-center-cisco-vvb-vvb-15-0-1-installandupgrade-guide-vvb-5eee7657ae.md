@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-installandupgrade-guide-vvb-5eee7657ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/installandupgrade/guide/vvb_b_1501_install-and-upgrade-guide/preface.html
-retrieved_at: 2026-08-21T12:05:38.269219+00:00
+retrieved_at: 2026-10-05T11:29:58.413278+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1)
@@ -90,3 +90,7 @@ To provide
 |---|---|---|
 | Initial Release of Document for Release 15.0(1) | April, 2025 |
 | Updates made to the procedure to Access Cisco VVB Administration Web Interface | Cisco VVB Installation > Access Cisco VVB Administration Web Interface |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

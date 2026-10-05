@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-adminconfig-guide-ccvb-b-15-fc2d331673
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/adminconfig/guide/ccvb_b_150_cisco-virtualized-voice-browser-administration-and-configuration-guide/cisco_vvb_configuration.html
-retrieved_at: 2026-08-21T16:30:19.628040+00:00
+retrieved_at: 2026-10-05T11:29:20.722579+00:00
 ---
 
 Cisco Virtualized Voice Browser Administration and Configuration Guide, Release 15.0(1)
@@ -2609,3 +2609,7 @@ Enter the hostname:: |
 | Step 2 | Select Tools > Control Center - Network Services . |
 | Step 3 | Select the Engine radio button  and click your desired operation button. The page displays the following information for the network services: Name of the network services, their dependent subsystems, managers, or components Status of the service (IN SERVICE, PARTIAL SERVICE, or SHUT DOWN; for individual subsystems, the status can be OUT OF SERVICE
                                                    or NOT CONFIGURED) Start Time of the service Up Time of the service |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

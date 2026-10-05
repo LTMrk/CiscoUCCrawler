@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-ccp-b-125install--5c60f92ee9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/ccp_b_125install-and-upgrade/ccp_b_125install-and-upgrade_preface_011.html
-retrieved_at: 2026-08-16T21:13:53.504461+00:00
+retrieved_at: 2026-10-05T11:31:15.807148+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide Release 12.5(1)
@@ -63,3 +63,7 @@ contactcenterproducts_docfeedback@cisco.com
 | Initial Release of Document for Release 12.5(1) | January 2020 |
 | Cisco SocialMiner (SM) has been renamed as Customer Collaboration Platform (CCP). | Customer Collaboration Platform Installation >> Install Customer Collaboration Platform |
 | Updated the Upgrade Overview section | Upgrade Overview |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

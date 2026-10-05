@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-operations-guide-ccvp-b-126-d4a39164a2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/operations/guide/ccvp_b_1262-operations-guide-for-cisco-virtualized-voice-browser/ccvp_b_1252-operations-guide-for-cisco-virtualized-voice-browser_appendix_010.html
-retrieved_at: 2026-08-21T16:30:54.284918+00:00
+retrieved_at: 2026-10-05T11:28:59.315431+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -3131,3 +3131,7 @@ file get activelog /speechserver/logs/SpeechConfig
 | Note | There are other commands exposed by platform CLI, which may or may not be applicable for Cisco VVB. Running these commands
                                        can affect the usual system behavior of Cisco VVB. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

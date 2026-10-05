@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-migration-guide-ccvp-b-1262-d3de303f1a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/migration/guide/ccvp_b_1262-migration-guide-for-cisco-virtualized-voice-browser-release/ccvp_b_1251-migration-guide-for-cisco-virtualized-voice-browser-release-1251_chapter_0110.html
-retrieved_at: 2026-08-21T16:26:24.031639+00:00
+retrieved_at: 2026-10-05T11:28:32.714575+00:00
 ---
 
 Migration Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -72,3 +72,7 @@ Survivability is currently unavailable for Standalone Model
 | Note | Survivability is currently unavailable for Standalone Model
                                           		  deployment. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

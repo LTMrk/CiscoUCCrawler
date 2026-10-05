@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-15-0-1-opsguide-guide-ccvp-b-1501--e322f61364
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_15_0_1/opsguide/guide/ccvp_b_1501-operations-guide-for-cisco-virtualized-voice-browser/ccvp_m_1501-command-line-interface.html
-retrieved_at: 2026-08-24T14:17:10.878775+00:00
+retrieved_at: 2026-10-05T11:30:16.738076+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 15.0(1)
@@ -3527,3 +3527,7 @@ file tail activelog mediaservice/logs/MediaService/Mediaservice.log
 | Note | There are other commands exposed by platform CLI, which may or may not be applicable for Cisco VVB. Running these commands
                                        can affect the usual system behavior of Cisco VVB. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

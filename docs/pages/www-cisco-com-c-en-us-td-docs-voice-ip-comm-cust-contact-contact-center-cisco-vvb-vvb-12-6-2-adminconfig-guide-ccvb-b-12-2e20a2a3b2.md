@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-adminconfig-guide-ccvb-b-12-2e20a2a3b2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/adminconfig/guide/ccvb_b_1262-ciscovvb-administrationconfiguration-guide/ccvb_b_1251-ciscovvb-administrationconfiguration-guide_chapter_01.html
-retrieved_at: 2026-08-21T16:29:16.515063+00:00
+retrieved_at: 2026-10-05T11:27:24.875050+00:00
 ---
 
 Cisco Virtualized Voice Browser Administration and Configuration Guide, Release 12.6(2)
@@ -335,3 +335,7 @@ Customer can configure the dial number.
 | Error | Used for
                                        					 playing error tone. | 929292* |
 | VRUComprehensive | Used for VRU-only calls | Customer can configure the dial number. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb12-6-operations-ccvp-b-1261-operati-6cb863b2f5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb12_6/operations/ccvp_b_1261-operations-guide-for-cisco-virtualized-voice-browser/ccvp_b_1252-operations-guide-for-cisco-virtualized-voice-browser_preface_00.html
-retrieved_at: 2026-08-21T16:30:57.766080+00:00
+retrieved_at: 2026-10-05T11:27:03.927244+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 12.6(1)
@@ -85,3 +85,7 @@ To provide
 | Change | See | Date |
 |---|---|---|
 | Initial Release of Document for Release 12.6(1) | May 2021 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

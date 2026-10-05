@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-crs-express-12-5-install-guide-ccp-b-125install--e148a1ecd9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/crs/express_12_5/install/guide/ccp_b_125install-and-upgrade/cusm_b_125install-and-upgrade_chapter_01.html
-retrieved_at: 2026-08-16T21:14:01.839462+00:00
+retrieved_at: 2026-10-05T11:31:24.006908+00:00
 ---
 
 Cisco Customer Collaboration Platform Installation and Upgrade Guide Release 12.5(1)
@@ -222,3 +222,7 @@ If you want to
 | Step 3 | If you want to
                                        			 use Cisco Unified Intelligence Center, set up the reporting user so that the
                                        			 reporting tool can access the reporting database. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

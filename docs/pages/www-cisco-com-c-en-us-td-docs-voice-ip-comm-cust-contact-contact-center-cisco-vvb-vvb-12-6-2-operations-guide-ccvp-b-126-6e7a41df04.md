@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-cisco-vvb-vvb-12-6-2-operations-guide-ccvp-b-126-6e7a41df04
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/cisco_vvb/vvb_12_6_2/operations/guide/ccvp_b_1262-operations-guide-for-cisco-virtualized-voice-browser/ccvp_b_1252-operations-guide-for-cisco-virtualized-voice-browser_chapter_01.html
-retrieved_at: 2026-08-21T16:30:49.111009+00:00
+retrieved_at: 2026-10-05T11:29:02.639304+00:00
 ---
 
 Operations Guide for Cisco Virtualized Voice Browser, Release 12.6(2)
@@ -73,3 +73,7 @@ For more information, see Cisco Virtualized Voice Browser Serviceability Adminis
 
 | Note | For more information, see Cisco Virtualized Voice Browser Serviceability Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/virtualized-voice-browser/tsd-products-support-series-home.html |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
