@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-b5db26b3d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_1501-configuration-guide-for-cisco-customer-voice-portal-release/appendix-2.html
-retrieved_at: 2026-08-21T12:07:58.647066+00:00
+retrieved_at: 2026-10-05T12:15:36.504823+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -41,3 +41,9 @@ https://<CVP_HOSTNAME_OR_IP>:8111/cvp-orm/rest/cvpconfig/properties
 https://<CVP_HOSTNAME_OR_IP>:8111/cvp-orm/rest/stats
 https://<CVP_HOSTNAME_OR_IP>:8111/cvp-orm/rest/smartlicense/smartlicenseinfo
 ```
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

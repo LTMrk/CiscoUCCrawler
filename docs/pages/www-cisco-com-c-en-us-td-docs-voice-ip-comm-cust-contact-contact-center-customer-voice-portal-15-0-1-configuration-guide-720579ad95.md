@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-720579ad95
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_1501-configuration-guide-for-cisco-customer-voice-portal-release/network_based_recording_configuration.html
-retrieved_at: 2026-08-21T12:07:37.896075+00:00
+retrieved_at: 2026-10-05T12:16:33.334439+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -528,3 +528,7 @@ For more information, please refer the section Network-Based Recording in Cisco 
 
 | Note | In case of multiple subscribers, specify the URL for each subscriber and select the Run on All Active CM Nodes check box in CUCM SIP trunk. For more information, please refer the section Network-Based Recording in Cisco Unified Border Element Configuration Guide at https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-installation-and-configuration-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

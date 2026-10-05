@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-programming-guide-c-2b0ee36348
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/programming/guide/ccvp_b_1501-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_010.html
-retrieved_at: 2026-08-21T17:13:38.557808+00:00
+retrieved_at: 2026-10-05T12:23:15.624032+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 15.0(1)
@@ -344,3 +344,12 @@ Again, these two documents are sent as HTTP POST
                                              is used here, not the display name. Gateway Adapter real
                                              names can be seen by reading the folder name for that adapter in the gateways folder of VXML Server. |
 |---|---|
+
+## Figuras
+
+![Figure 1. XML Example
+                                 		  Diagram for Document Sent to All Components in "inputs"](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340878.jpg)
+
+![Figure 2. DTD Diagram for XML Document Sent to All Components in Settings Argument](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340879.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

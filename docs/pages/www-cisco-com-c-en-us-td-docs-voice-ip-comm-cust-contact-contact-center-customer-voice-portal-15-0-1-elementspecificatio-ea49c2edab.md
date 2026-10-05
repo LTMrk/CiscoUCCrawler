@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-elementspecificatio-ea49c2edab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/elementspecification/guide/ccvp_b_150-element-specifications-guide-for-cvp-vxml-and-call-studio/dialogflowintent.html
-retrieved_at: 2026-08-21T17:10:55.862012+00:00
+retrieved_at: 2026-10-05T12:19:36.081216+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 15.0(1)
@@ -523,3 +523,7 @@ Played when the form data capture is completed and the voice element exits with 
 | Name (Label) | Required | Max1 | Notes |
 |---|---|---|---|
 | done_audio_group (Done) | No | Yes | Played when the form data capture is completed and the voice element exits with the Done exit state. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

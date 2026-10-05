@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-installation-guide--72908152e4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/installation/guide/ccvp_b_1501_installation-upgrade-guide-cisco-unified-customer-voice-portal/ccvp_b_install_and_upgrade_12-5_chapter_0101.html
-retrieved_at: 2026-09-08T00:25:48.937085+00:00
+retrieved_at: 2026-10-05T12:22:12.381774+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -707,6 +707,9 @@ Click Next to proceed through the configuration summary.
 
 Click Install to begin the upgrade process.
 
+The installer may close without displaying a successful installation confirmation. To confirm that the installation completed
+                                                         successfully, proceed with Steps 4 and 5.
+
 Step 4
 
 After the installation, start Informix Service by following the below steps:
@@ -1244,9 +1247,17 @@ Restart the CVP server.
 | Step 1 | Open the Windows Command Prompt as an administrator and run the following command: onstat - . Verify that the output displays version 14.10.FC10W2 . |
 |---|---|
 | Step 2 | Download and extract the downloaded Informix 14.10.FC12W5 package to a temporary local directory on the server. |
-| Step 3 | Run the installer and execute the file ids_install.exe from the unzipped folder by following the steps below: Right-click on ids_install.exe and select Run as administrator . On the Installation page, click Next . On the License Agreement page, select I accept the terms in the license agreement and click Next . Specify the Informix installation location. Select Continue to proceed with the installation. Click Next to proceed through the configuration summary. Click Install to begin the upgrade process. |
+| Step 3 | Run the installer and execute the file ids_install.exe from the unzipped folder by following the steps below: Right-click on ids_install.exe and select Run as administrator . On the Installation page, click Next . On the License Agreement page, select I accept the terms in the license agreement and click Next . Specify the Informix installation location. Select Continue to proceed with the installation. Click Next to proceed through the configuration summary. Click Install to begin the upgrade process. Note The installer may close without displaying a successful installation confirmation. To confirm that the installation completed
+                                                         successfully, proceed with Steps 4 and 5. | Note | The installer may close without displaying a successful installation confirmation. To confirm that the installation completed
+                                                         successfully, proceed with Steps 4 and 5. |
+| Note | The installer may close without displaying a successful installation confirmation. To confirm that the installation completed
+                                                         successfully, proceed with Steps 4 and 5. |
 | Step 4 | After the installation, start Informix Service by following the below steps: Open the Windows Services management console. Locate the Informix IDS service. Right-click on the service and select Start . |
 | Step 5 | Verify the successful upgrade of the database engine by following the steps below: Open the Windows Command Prompt as an administrator. Run the following command: onstat - Confirm that the version output displays the required Informix version. Verify that all CCE-dependent services have successfully reconnected to the database. |
+
+| Note | The installer may close without displaying a successful installation confirmation. To confirm that the installation completed
+                                                         successfully, proceed with Steps 4 and 5. |
+|---|---|
 
 | Note | After successful upgrade of Unified CVP server, the CVP Call Server Service Startup Type is set to Automatic by default. |
 |---|---|

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-installation-guide--f265fc62d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/installation/guide/ccvp_b_1501_installation-upgrade-guide-cisco-unified-customer-voice-portal/ccvp_m_1501_install_preface.html
-retrieved_at: 2026-08-21T03:00:53.452441+00:00
+retrieved_at: 2026-10-05T12:22:20.021896+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -136,3 +136,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Added section on "User Level Access Control for Call Studio" | Unified CVP Installation > User Level Access Control for Call Studio |
 | Changed title of "pre-installation Tasks" to "Pre-Upgrade Tasks" | Upgrade Unified CVP> Pre-Upgrade Tasks |
 | Rearranged Upgrade Windows Server and Upgrade Unified CVP Components topics | Upgrade Unified CVP |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

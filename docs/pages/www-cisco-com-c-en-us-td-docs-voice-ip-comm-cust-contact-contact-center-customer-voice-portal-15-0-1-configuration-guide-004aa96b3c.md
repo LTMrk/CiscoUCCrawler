@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-004aa96b3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_1501-configuration-guide-for-cisco-customer-voice-portal-release/preface.html
-retrieved_at: 2026-08-21T12:05:59.059678+00:00
+retrieved_at: 2026-10-05T12:16:45.662907+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -115,3 +115,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Added TLS Cipher Configuration chapter | TLS Cipher Configuration | April, 2025 |
 | Added new sections Running Custom Code using Remote Server to run custom code using remote server on windows and linux | Remote Custom API Server Configuration > Running Custom Code using Remote Server on Windows Remote Custom API Server Configuration > Running Custom Code using Remote Server on Linux |
 | Updated the JDK versions to version 17.0.13 | Remote Custom API Server Configuration > Installation and Configurations Remote Custom API Server Configuration > Remote Server Application Properties Remote Custom API Server Configuration > Generate Self-Signed Certificate for Remote Custom Server HTTP or gRPC Unified CVP Security > Upgrading to OpenJDK JRE Java Runtime Environment Minor Update |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

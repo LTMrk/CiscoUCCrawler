@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-c8a931ab96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_1501-configuration-guide-for-cisco-customer-voice-portal-release/unified_cvp_security.html
-retrieved_at: 2026-08-21T04:32:11.907187+00:00
+retrieved_at: 2026-10-05T12:17:35.226498+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -3629,10 +3629,6 @@ To verify the base installer version, go to Control Panel > Programs > Programs 
 
 For migrating Unified CVP 15.0(1) to OpenJDK, see Upgrading to OpenJDK JRE .
 
-### Customers Also Viewed
-
-- Implement CA Signed Certificates in a CCE Solution
-
 | Note | This release supports only TLS 1.2. For more information, see Contact Center Enterprise Solution Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/tsd-products-support-series-home.html . To configure TLS Cipher on CVP server , see TLS Cipher Configuration . As per security guidelines, limit the validity of the generated or the requested SSL certificates to 2-3 years or shorter. If you are testing with the self-signed TLS certificates that are generated as a part of the installation, ensure that you
                                           map the CN/SANs on the certificate to the corresponding IP through DNS or hosts file entries. For generating the keystore password, go to the %CVP_HOME%\bin folder and run the DecryptKeystoreUtil.bat file. Ensure that the common name of the certificate matches the Fully Qualified Domain Name (FQDN) or hostname of the machine. |
 |---|---|
@@ -5024,3 +5020,7 @@ https://<wsm ip>:8111 |
 
 | Note | To verify the base installer version, go to Control Panel > Programs > Programs and Features > Cisco CVP <version> . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

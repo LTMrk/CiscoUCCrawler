@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-elementspecificatio-751232af37
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/elementspecification/guide/ccvp_b_150-element-specifications-guide-for-cvp-vxml-and-call-studio/ftp_client.html
-retrieved_at: 2026-08-21T17:11:33.972398+00:00
+retrieved_at: 2026-10-05T12:20:09.546901+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 15.0(1)
@@ -417,3 +417,7 @@ The output of the Customer_Lookup element can be in JSON format . To know more a
 |---|---|
 | Event Type | You can
                                           				  select Java Exception as event handler type. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

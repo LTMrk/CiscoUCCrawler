@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-configuration-guide-6ed193e4d6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/configuration/guide/ccvp_b_1501-configuration-guide-for-cisco-customer-voice-portal-release/operations_console.html
-retrieved_at: 2026-08-21T12:06:12.827781+00:00
+retrieved_at: 2026-10-05T12:16:37.488598+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -789,3 +789,7 @@ Restart the CVP server.
 | Step 7 | In the Supported Ciphers field, type TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256 and click Add . |
 | Step 8 | Click Save & Deploy . |
 | Step 9 | Restart the CVP server. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

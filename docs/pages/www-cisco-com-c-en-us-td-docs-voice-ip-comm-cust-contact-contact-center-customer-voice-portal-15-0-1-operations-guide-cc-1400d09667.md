@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-operations-guide-cc-1400d09667
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/operations/guide/ccvp_b_1501-operations-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1501-operations-guide-for-cisco-unified-customer-voice-portal_index.html
-retrieved_at: 2026-08-21T03:01:44.768553+00:00
+retrieved_at: 2026-10-05T12:22:53.632238+00:00
 ---
 
 Operations Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -207,3 +207,7 @@ Web Services Manager
 create user 1
 
 overview 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

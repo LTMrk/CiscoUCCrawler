@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-elementspecificatio-60316f9578
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/elementspecification/guide/ccvp_b_150-element-specifications-guide-for-cvp-vxml-and-call-studio/web_service.html
-retrieved_at: 2026-08-21T17:13:08.645922+00:00
+retrieved_at: 2026-10-05T12:21:54.925290+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 15.0(1)
@@ -453,3 +453,18 @@ The most significant
 | Note | Unified CVP Call Studio does not support SOAP Encode Schema. For all request and response parameters use the XMLSchema namespace
                                        format as listed in the XML Schema document. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Element
+                                 			 Configuration Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380284.tif/_jcr_content/renditions/380284.jpg)
+
+![Figure 2. Configure Request Parameters](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341059.jpg)
+
+![Figure 3. Add Parameter](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341060.jpg)
+
+![Figure 4. Repeatable Parameters](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341061.jpg)
+
+![Figure 5. Configure Response Parameters](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341062.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

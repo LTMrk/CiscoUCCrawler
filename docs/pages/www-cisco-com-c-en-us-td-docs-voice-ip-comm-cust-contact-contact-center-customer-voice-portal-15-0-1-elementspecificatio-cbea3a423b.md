@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-elementspecificatio-cbea3a423b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/elementspecification/guide/ccvp_b_150-element-specifications-guide-for-cvp-vxml-and-call-studio/database.html
-retrieved_at: 2026-08-21T17:10:39.291035+00:00
+retrieved_at: 2026-10-05T12:19:14.855588+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 15.0(1)
@@ -413,3 +413,7 @@ url="jdbc:mysql://HOSTNAME_OR_IP:PORT/DB_NAME" />
                                                          are not re-established automatically. The connections can be re-established only after the VXMLServer tomcat service is restarted. The commons-dbcp connection pool library does not have this problem. The commons-dbcp library is used by default, and the
                                                          tomcat-jdbc-pool is only used if the tomcat context.xml file contains the following line: factory="org.apache.tomcat.jdbc.pool.DataSourceFactory" Due to this issue, Cisco does not recommend using the tomcat-jdbc-pool library. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
