@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-administration-gu-49313ea333
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/administration/guide/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal_preface_0111.html
-retrieved_at: 2026-08-21T03:05:34.373478+00:00
+retrieved_at: 2026-10-05T12:30:35.651714+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -130,3 +130,7 @@ mailto:ccbu_docfeedback@cisco.com
 | Initial Release of Document for Release 12.5(1) | January 2020 |
 | Added section on Operations Console (NOAMP) | Operations Console (NOAMP) |
 | Added Smart Licensing information | Smart Licensing |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

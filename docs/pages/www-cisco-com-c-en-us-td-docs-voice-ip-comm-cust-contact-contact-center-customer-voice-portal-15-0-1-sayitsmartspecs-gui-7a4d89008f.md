@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-sayitsmartspecs-gui-7a4d89008f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/sayitsmartspecs/guide/cvp_b_1501-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/cvvp_b_say_it-smart_specifications-for-cisco_cvp-12-0_preface_00.html
-retrieved_at: 2026-08-21T03:04:31.355027+00:00
+retrieved_at: 2026-10-05T12:28:12.137696+00:00
 ---
 
 Say It Smart Specifications for Cisco Unified Customer Voice Portal Release 15.0(1)
@@ -124,3 +124,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
                                        		  Unified Customer Voice Portal Release Design Guide before configuring
                                     		your Unified CVP solution. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

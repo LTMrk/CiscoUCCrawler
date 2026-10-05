@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-user-guide-ccvp-b-1-c7f4300700
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/user/guide/ccvp_b_1501_user-guide-for-unified-cvp-vxml-server-and-unified-cvp-call-studio-release/standalone_application_builder.html
-retrieved_at: 2026-08-21T17:36:55.428614+00:00
+retrieved_at: 2026-10-05T12:28:54.880018+00:00
 ---
 
 User Guide for Unified CVP VXML Server and Unified CVP Call Studio, Release 15.0(1)
@@ -179,3 +179,7 @@ To deploy CallStudio applications, change the default deployment location to a d
 |---|---|
 | Step 2 | The following workspace folder is created and selected by default for users (%user_directory%\Cisco\CallStudio\workspace) . |
 | Step 3 | To deploy CallStudio applications, change the default deployment location to a desired folder where the user has write privileges. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

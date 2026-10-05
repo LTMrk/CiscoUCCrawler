@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-installation-guid-e5ba29422b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/installation/guide/ccvp_b_install_and_upgrade_12-5/ccvp_b_install_and_upgrade_12-5_chapter_01.html
-retrieved_at: 2026-08-21T03:07:14.951910+00:00
+retrieved_at: 2026-10-05T12:33:27.230851+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -517,3 +517,7 @@ The machine that you are using for the Unified CVP Call Server must have only on
 
 | Note | If the verification fails do not proceed with the installation, contact Cisco Support for a valid ISO . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-configuration-gui-02dcacbb64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/configuration/guide/ccvp_b_configuration-guide-12-5-1/ccvp_b_configuration-guide-12-5-1_preface_00.html
-retrieved_at: 2026-08-21T17:04:31.841512+00:00
+retrieved_at: 2026-10-05T12:33:06.953579+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -211,3 +211,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
 | Secure HTTP Communication between VXML Server and Dialogflow | Unified CVP Security |
 | Smart Licensing Configurations | Preconfiguration |
 | Added secure JMX communication with mutual authentication | Unified CVP Security |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

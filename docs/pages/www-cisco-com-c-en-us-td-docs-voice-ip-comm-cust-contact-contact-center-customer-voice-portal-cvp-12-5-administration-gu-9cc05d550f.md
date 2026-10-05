@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-administration-gu-9cc05d550f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/administration/guide/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal_chapter_01.html
-retrieved_at: 2026-08-21T03:05:42.905389+00:00
+retrieved_at: 2026-10-05T12:29:57.872403+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -9183,3 +9183,7 @@ Only one Unified CVP VXML server can be deployed at any given time. The other VX
 | Note | Deployment operations are mutually exclusive. Only one deployment process can run at any given time. If a process is already
                                                 running, you cannot start another process. You will receive an error message. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

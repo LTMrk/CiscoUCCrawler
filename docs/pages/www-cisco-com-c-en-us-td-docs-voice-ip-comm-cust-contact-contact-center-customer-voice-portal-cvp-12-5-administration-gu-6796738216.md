@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-administration-gu-6796738216
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/administration/guide/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal/ccvp_b_1251-administration-guide-for-cisco-unified-customer-voice-portal_chapter_0101.html
-retrieved_at: 2026-08-21T03:06:03.155621+00:00
+retrieved_at: 2026-10-05T12:30:15.167047+00:00
 ---
 
 Administration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -1841,3 +1841,7 @@ See the Configuration Guide for
 | Step 5 | Edit the fields
                                           			 for backup severs and port numbers for secondary syslog server. |
 | Step 6 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

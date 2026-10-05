@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-sayitsmartspecs-gui-af59ad02e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/sayitsmartspecs/guide/cvp_b_1501-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/ccvp_m_1501-string.html
-retrieved_at: 2026-08-21T03:05:17.642150+00:00
+retrieved_at: 2026-10-05T12:27:59.507435+00:00
 ---
 
 Say It Smart Specifications for Cisco Unified Customer Voice Portal Release 15.0(1)
@@ -180,3 +180,7 @@ myfile.wav (as
 | Fileset | none |
 | Playback: | myfile.wav (as
                                           				  TTS). |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

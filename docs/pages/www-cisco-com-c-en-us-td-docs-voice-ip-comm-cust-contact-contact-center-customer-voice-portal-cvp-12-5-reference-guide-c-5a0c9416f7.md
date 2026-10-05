@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-5a0c9416f7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_m_1251-generic-custom-voicexml-properties.html
-retrieved_at: 2026-08-21T17:30:49.830656+00:00
+retrieved_at: 2026-10-05T12:34:22.304902+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -279,3 +279,7 @@ Set the gender type for Synthesize operation.
 
 | Note | For more information on content of this file, refer to third-party documentation. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-user-guide-ccvp-b-1-5b072212b9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/user/guide/ccvp_b_1501_user-guide-for-unified-cvp-vxml-server-and-unified-cvp-call-studio-release/ccvp_m_150-preface.html
-retrieved_at: 2026-08-21T17:36:17.928644+00:00
+retrieved_at: 2026-10-05T12:28:33.720251+00:00
 ---
 
 User Guide for Unified CVP VXML Server and Unified CVP Call Studio, Release 15.0(1)
@@ -109,3 +109,7 @@ Provide your comments about this document to: mailto:contactcenterproducts_docfe
                                        		  Unified CVP solution is an important part of the process in setting up Unified
                                        		  CVP. Read Solution Design Guide for Cisco Unified Contact Center Enterprise before you configure Unified CVP solution. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-engineeringspecials-index--471939b7e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1261_virtualized-voice-browser-engineering-specials-for-release.html
-retrieved_at: 2026-08-21T17:03:33.188460+00:00
+retrieved_at: 2026-10-05T12:29:28.387625+00:00
 ---
 
 Cisco Unified CVP, Call Studio and VVB Engineering Specials
@@ -168,3 +168,7 @@ For more information, refer to the Release Notes.
 | ES03 | VVB 12.6(1) cumulative ES for defect fixes. Note : This ES is to be installed using CLI only . Reboot of system is mandatory after applying the patch. | CSCwa47397 CSCvz37282 CSCvz37287 CSCvz32641 | NA | Patch | Notes | 25-Dec-21 |
 | ES02 | VVB 12.6(1) cumulative ES for defect fixes. Note : This ES is to be installed using CLI only . Reboot of system is mandatory after applying the patch. | CSCvy03369 CSCvz64566 CSCvy73950 CSCvz39792 CSCvz33035 CSCvz01258 CSCvz64398 | NA | Patch | Notes | 29-Oct-21 |
 | ES01 | VVB 12.6(1) ES for defect fixes and feature enhancements. Note : This ES is to be installed using CLI only . Reboot of system is mandatory after applying the patch. | CSCvy39534 CSCvy12144 CSCvy25404 CSCvy30996 CSCvy80418 CSCvy39529 CSCvy30206 CSCvy24297 | SSML speak tag ECDSA NBest support for ASR For more information, refer to the Release Notes. | Patch | Notes | 06-Aug-21 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

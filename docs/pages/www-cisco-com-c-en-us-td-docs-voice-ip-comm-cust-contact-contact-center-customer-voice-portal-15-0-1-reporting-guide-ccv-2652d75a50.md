@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-reporting-guide-ccv-2652d75a50
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/reporting/guide/ccvp_b_150_reporting-guide-for-cisco-unified-customer-voice-portal/ccvp_m_1501-cisco-unified-intelligence-center-reporting-application.html
-retrieved_at: 2026-08-21T03:01:59.849177+00:00
+retrieved_at: 2026-10-05T12:26:42.393782+00:00
 ---
 
 Reporting Guide for Cisco Unified Customer Voice Portal, Release 15.0(1)
@@ -3846,3 +3846,11 @@ System Administration User
 | User Roles | User Roles
                                           					 confer the actions and capabilities that a user has in Unified Intelligence
                                           					 Center. There are seven User Roles, and each user can have multiple roles. |
+
+## Figuras
+
+![Figure 1. Unified IC Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340898.jpg)
+
+![Figure 2. Unified IC Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340898.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

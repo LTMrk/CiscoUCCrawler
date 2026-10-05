@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-reference-guide-c-40391a6146
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/reference/guide/ccvp_b_1251-element-specification-guide-cvp/ccvp_mp_c1cd90f8_00_callback_add.html
-retrieved_at: 2026-08-21T17:31:19.264347+00:00
+retrieved_at: 2026-10-05T12:35:08.471003+00:00
 ---
 
 Element Specifications for Cisco Unified CVP VXML Server and Call Studio, Release 12.5(1)
@@ -262,3 +262,7 @@ The output of the Customer_Lookup element can be in JSON format . To know more a
 |---|---|
 | Event Type | You can
                                           				  select Java Exception as event handler type. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

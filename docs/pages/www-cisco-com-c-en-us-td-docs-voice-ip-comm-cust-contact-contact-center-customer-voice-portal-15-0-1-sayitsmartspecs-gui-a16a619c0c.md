@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-sayitsmartspecs-gui-a16a619c0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/sayitsmartspecs/guide/cvp_b_1501-say-it-smart-specifications-for-cisco-unified-customer-voice-portal/cvp_b_1501-say-it-smart-specifications-for-cisco-unified-customer-voice-portal_index.html
-retrieved_at: 2026-08-21T03:05:30.178164+00:00
+retrieved_at: 2026-10-05T12:28:07.628589+00:00
 ---
 
 Say It Smart Specifications for Cisco Unified Customer Voice Portal Release 15.0(1)
@@ -101,3 +101,7 @@ time plugin, multiple input formats 1
 time plugin, multiple output formats 1
 
 type, plugin component, defined 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

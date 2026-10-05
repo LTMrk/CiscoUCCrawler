@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-feature-guide-ccv-a2a901030f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/feature/guide/ccvp_b_1251-feature-guide-cisco-unifiedcvp/ccvp_b_1251-feature-guide-cisco-unifiedcvp_chapter_01.html
-retrieved_at: 2026-08-21T03:07:02.835340+00:00
+retrieved_at: 2026-10-05T12:33:15.132514+00:00
 ---
 
 Feature Guide-Writing Scripts for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -10093,3 +10093,8 @@ Char
 | ¿ | 191 | question_
                                        				mark_ inverted | inverted
                                        				question mark | Char |
+
+## Figuras
+
+![Figure 1. Example Script
+                                       			 Configuration](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/170001-180000/170001-171000/170203.jpg)

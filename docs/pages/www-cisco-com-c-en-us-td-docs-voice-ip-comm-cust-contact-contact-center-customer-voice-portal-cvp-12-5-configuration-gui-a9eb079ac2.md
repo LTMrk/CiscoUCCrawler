@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-configuration-gui-a9eb079ac2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/configuration/guide/ccvp_b_configuration-guide-12-5-1/ccvp_b_configuration-guide-12-5-1_chapter_010010.html
-retrieved_at: 2026-08-21T17:08:12.706111+00:00
+retrieved_at: 2026-10-05T12:31:51.616231+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -307,3 +307,10 @@ Unified ICME sends a temporary connection back to Unified CVP, which queues the 
                                           			 for five seconds before completing the automatic consult transfer to avoid race
                                           			 conditions. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Unified ICME
+                                 			 Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/230001-240000/230001-231000/230230.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

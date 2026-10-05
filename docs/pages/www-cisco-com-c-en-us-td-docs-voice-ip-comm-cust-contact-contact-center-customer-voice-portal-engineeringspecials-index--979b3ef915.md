@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-engineeringspecials-index--979b3ef915
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/m_1251-customer-voice-portal-engineering-specials-for-release.html
-retrieved_at: 2026-08-21T17:03:21.030080+00:00
+retrieved_at: 2026-10-05T12:29:41.359417+00:00
 ---
 
 Cisco Unified CVP, Call Studio and VVB Engineering Specials
@@ -338,3 +338,7 @@ CSCvu06714
                                                 to Spring MVC Framework(5.2.7) with Spring Security(5.2.5). | CSCvs04334 | Patch | Notes | 09-Aug-20 |
 | ES-08 | Needs to be installed on top of CVP 12.5(1) for Webex Experience Management support and defect fixes. | CSCvs62001 CSCvt08503 CSCvt65315 CSCvt72000 CSCvu06714 CSCvu22331 CSCvu65114 | Patch | Notes | 26-June-20 |
 | ES-06 | Needs to be installed on top of CVP 12.5(1) for Webex Experience Management support and defect fixes. | CSCvs62001 CSCvt08503 CSCvt65315 CSCvt72000 CSCvu06714 | Patch | Notes | 04-May-20 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

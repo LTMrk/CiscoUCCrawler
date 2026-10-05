@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-configuration-gui-3974db3093
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/configuration/guide/ccvp_b_configuration-guide-12-5-1/ccvp_b_configuration-guide-12-5-1_chapter_010100.html
-retrieved_at: 2026-08-21T17:08:21.538335+00:00
+retrieved_at: 2026-10-05T12:32:10.235569+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -570,3 +570,9 @@ sip-server ipv4:10.78.26.31 |
                                                    				  Settings > Language , and specify
                                              			 “en–us” as the language. Certain third-party software and hardware are compatible only with
                                                 				US English. |
+
+## Figuras
+
+![Figure 1. Server Group Diagnostics](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341202.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

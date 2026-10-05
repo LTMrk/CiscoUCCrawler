@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-user-guide-ccvp-b-1-0727d10bdd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/user/guide/ccvp_b_1501_user-guide-for-unified-cvp-vxml-server-and-unified-cvp-call-studio-release/appendix-1.html
-retrieved_at: 2026-08-21T17:39:06.159000+00:00
+retrieved_at: 2026-10-05T12:28:20.557209+00:00
 ---
 
 User Guide for Unified CVP VXML Server and Unified CVP Call Studio, Release 15.0(1)
@@ -612,3 +612,7 @@ If any data
                                     				specified. |
 | GeneralAniInfo.AniNumCalls[. ANI ] | The number of
                                     				calls received from the current phone number or ANI if specified. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

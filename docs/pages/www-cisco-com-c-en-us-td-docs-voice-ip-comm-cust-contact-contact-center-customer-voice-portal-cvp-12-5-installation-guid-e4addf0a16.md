@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-installation-guid-e4addf0a16
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/installation/guide/ccvp_b_install_and_upgrade_12-5/ccvp_b_install_and_upgrade_12-5_chapter_0101.html
-retrieved_at: 2026-08-21T03:07:32.121806+00:00
+retrieved_at: 2026-10-05T12:33:40.538022+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -1097,3 +1097,7 @@ com.sun.management.jmxremote.ssl.enabled.protocols=TLSv1.2 Restart the CVP and V
 | WebServices Manager | 12.0(1) to 12.5(1) | No configuration required. |
 | Operations Console | 12.0(1) to 12.5(1) | No configuration required. |
 | Reporting Server | 12.0(1) to 12.5(1) | No configuration required. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

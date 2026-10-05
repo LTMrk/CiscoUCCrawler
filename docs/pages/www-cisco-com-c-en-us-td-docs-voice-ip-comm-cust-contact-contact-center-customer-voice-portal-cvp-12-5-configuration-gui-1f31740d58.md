@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-configuration-gui-1f31740d58
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/configuration/guide/ccvp_b_configuration-guide-12-5-1/ccvp_b_configuration-guide-12-5-1_chapter_010000.html
-retrieved_at: 2026-08-21T17:08:03.621478+00:00
+retrieved_at: 2026-10-05T12:31:38.735977+00:00
 ---
 
 Configuration Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -4165,3 +4165,7 @@ GW81(config-app)# |
                                                       				example of scheduling the script refer to Getting Started with Cisco Unified Customer Voice Portal , the Create a
                                                          				  Call Type Manager Entity Routing Script and Call Schedule topic. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

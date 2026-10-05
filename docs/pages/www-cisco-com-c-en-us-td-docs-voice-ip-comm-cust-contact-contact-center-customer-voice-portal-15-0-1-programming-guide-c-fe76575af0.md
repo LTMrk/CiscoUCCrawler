@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-programming-guide-c-fe76575af0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/programming/guide/ccvp_b_1501-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio/ccvp_b_1261-programming-guide-for-cisco-unified-cvp-vxml-server-and-cisco-unified-call-studio_chapter_01110.html
-retrieved_at: 2026-08-21T17:14:28.811533+00:00
+retrieved_at: 2026-10-05T12:26:28.073786+00:00
 ---
 
 Programming Guide for Cisco Unified CVP VXML Server and Cisco Unified Call Studio, Release 15.0(1)
@@ -308,3 +308,11 @@ AbstractMetricsObserver – This is
                                     responsible for handling the errors themselves or let them propagate to the JMX
                                     console. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Management Relationship Example: MBeans](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340889.jpg)
+
+![Figure 2. Application Management Static Class Structure](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340890.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

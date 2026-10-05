@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-engineeringspecials-index--6fc282065f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1262_virtualized-voice-browser-engineering-specials-for-release.html
-retrieved_at: 2026-08-21T17:03:29.116190+00:00
+retrieved_at: 2026-10-05T12:29:32.990417+00:00
 ---
 
 Cisco Unified CVP, Call Studio and VVB Engineering Specials
@@ -235,3 +235,7 @@ Speech Recognition Model Variant Support for Google Dialogflow ES.
                                     ES’s will not create any repercussions. | CSCwf35130 CSCwf83214 CSCwf84081 CSCwf83531 CSCwf36954 CSCwf92952 CSCwf87601 CSCwh18670 | Cookie Handling Custom SIP Headers Inclusive Language Support Speech Recognition Model Variant Support for Google Dialogflow ES AppD Upgrade | Patch | Notes | 30-Aug-23 |
 | ES01 | VVB 12.6(2) ES-01 installation instructions. This ES (ciscovb.1262.ES01.cop.sgn)is to be installed on VVB Version 12.6(2)
                                     using CLI only. | NA | Partial Response for Google Dialogflow CX via VVB. Partial Response for Google Dialogflow CX via UH. Speech Recognition Model Variant Support for Google Dialogflow ES. | Patch | Notes | 16-June-23 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-15-0-1-user-guide-ccvp-b-1-910f4f5982
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/15-0-1/user/guide/ccvp_b_1501_user-guide-for-unified-cvp-vxml-server-and-unified-cvp-call-studio-release/user_management.html
-retrieved_at: 2026-08-21T17:36:35.000274+00:00
+retrieved_at: 2026-10-05T12:28:59.033814+00:00
 ---
 
 User Guide for Unified CVP VXML Server and Unified CVP Call Studio, Release 15.0(1)
@@ -408,3 +408,9 @@ This is the date and time the flag was triggered.
 | call_id | integer | This refers to the call ID of the call. |
 | flag_name | varchar(100) | This is the name of the flag that was triggered. |
 | flag_time | datetime | This is the date and time the flag was triggered. |
+
+## Figuras
+
+![Figure 1. Database ER Diagram](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341053.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

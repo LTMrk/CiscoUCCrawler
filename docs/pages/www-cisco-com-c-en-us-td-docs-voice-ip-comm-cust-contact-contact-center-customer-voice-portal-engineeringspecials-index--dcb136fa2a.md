@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-engineeringspecials-index--dcb136fa2a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/EngineeringSpecials/index/ccvp_b_cisco-unified-cvp-call-studio-and-vvb-engineering-specials/cvvb_m_1251_virtualized-voice-browser-engineering-specials-for-release.html
-retrieved_at: 2026-08-21T17:03:37.758518+00:00
+retrieved_at: 2026-10-05T12:29:24.262193+00:00
 ---
 
 Cisco Unified CVP, Call Studio and VVB Engineering Specials
@@ -241,3 +241,7 @@ show vvb http client response timeout |
 | ES04 | This is a cumulative ES addressing few critical issues in 12.5(1). Note : This ES is to be installed using CLI only . Reboot of system is mandatory after applying the patch. | CSCvv84242 CSCvv50011 | Patch | Notes | 25-Oct-20 |
 | ES03 | This is a cumulative ES addressing few critical issues in 12.5(1). Note : This ES is to be installed using CLI only . Reboot of system is mandatory after applying the patch. | CSCvv74227 CSCvv74235 | Patch | Notes | 17-Sep-20 |
 | ES02 | This is a cumulative ES addressing few critical issues in 12.5(1). Note : This ES is to be installed using CLI only . | CSCvv10864 CSCvv10863 CSCvu67590 CSCvs36021 CSCvt80236 CSCvu44291 CSCvu76340 CSCvu79257 | Patch | Notes | 23-Jul-20 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

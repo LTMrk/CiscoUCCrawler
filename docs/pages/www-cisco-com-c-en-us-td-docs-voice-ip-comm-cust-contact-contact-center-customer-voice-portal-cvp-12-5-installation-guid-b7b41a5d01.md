@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-customer-voice-portal-cvp-12-5-installation-guid-b7b41a5d01
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/customer_voice_portal/cvp_12_5/installation/guide/ccvp_b_install_and_upgrade_12-5/ccvp_b_install_and_upgrade_12-5_chapter_01000.html
-retrieved_at: 2026-08-21T03:07:23.294169+00:00
+retrieved_at: 2026-10-05T12:33:35.485983+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 12.5(1)
@@ -75,3 +75,7 @@ For example, if a customer has purchased 1500 Self-Service ports, these ports ca
 | Note | Whenever Unified CVP is installed or upgraded, the Web Service Manager certificate from Unified CVP Call Server/Unified CVP
                                           VXML Server needs to be imported into the keystore of the Unified CVP OAMP/PCCE Server. For information on the detailed steps, see the Unified CVP Security > Secure Communication between CVP and OAMP Server section of the Cisco CVP Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-installation-and-configuration-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
