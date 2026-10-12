@@ -10,7 +10,7 @@ tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.934934+00:00
+retrieved_at: 2026-10-12T11:51:20.487656+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/singleNumberReach/availableNumbers

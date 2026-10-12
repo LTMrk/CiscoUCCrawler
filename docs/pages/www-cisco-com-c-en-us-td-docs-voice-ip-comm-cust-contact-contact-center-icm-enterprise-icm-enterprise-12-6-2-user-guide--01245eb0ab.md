@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-guide--01245eb0ab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/rcct_b_contact-center-ai-gadgets/rcct_m_contact-center-ai-gadgets_new.html
-retrieved_at: 2026-08-21T04:30:35.944825+00:00
+retrieved_at: 2026-10-12T11:59:16.338021+00:00
 ---
 
 Contact Center AI Gadgets User Guide for Cisco Contact Center Enterprise
@@ -174,3 +174,11 @@ When a Contact Center AI Service is disabled for an agent in Unified CC Enterpri
 | Note | Transcripts are displayed only during the call and they are cleared when the call ends. If you don't see the transcripts, check if the Contact Center AI Service is enabled. For information on how to enable the Contact Center AI Service , see the Contact Center AI Services section in the Administration Guide for Cisco Unified Contact Center Enterprise . When a Contact Center AI Service is disabled for an agent in Unified CC Enterprise Administration, the change takes effect in the Cisco Finesse Desktop when
                                                    the agent logs off and logs in to the desktop. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Agent Answers Gadget Interface](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511154.jpg)
+
+![Figure 2. Transcript Gadget Interface](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465621.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

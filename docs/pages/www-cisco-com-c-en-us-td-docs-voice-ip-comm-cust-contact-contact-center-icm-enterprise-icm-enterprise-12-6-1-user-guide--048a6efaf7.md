@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--048a6efaf7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_01100.html
-retrieved_at: 2026-08-21T04:27:25.693454+00:00
+retrieved_at: 2026-10-12T11:53:19.525449+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -1235,3 +1235,7 @@ Derived from: (((Campaign_Query_Rule.EndHours * 60) + (Campaign_Query_Rule.EndMi
 
 | Note | Campaign_Query_Rule_Real_Time report is not applicable for API campaign. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

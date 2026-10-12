@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-reference-g-8c0b813669
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1261/ucce_b_cti-servermessagereferenceguideprotocolversion24-for-1261_preface_00.html
-retrieved_at: 2026-08-16T19:46:32.707103+00:00
+retrieved_at: 2026-10-12T11:55:57.417462+00:00
 ---
 
 CTI Server Message Reference Guide(Protocol Version 24) for Cisco Unified Contact Center Enterprise, Release 12.6(1)
@@ -185,3 +185,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-4a1bdbd440
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_mobile_agent-1261.html
-retrieved_at: 2026-08-21T11:55:29.349515+00:00
+retrieved_at: 2026-10-12T11:56:45.283563+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -1915,3 +1915,19 @@ For information about Agent Greeting Play Script .
 
 | Note | This fix may add a short delay of one to two seconds to the call flow. For information about Agent Greeting Play Script . |
 |---|---|
+
+## Figuras
+
+![Figure 2. Mobile Agent Codec Selection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346498.tif/_jcr_content/renditions/346498.jpg)
+
+![Figure 3. Mobile Agent Inbound Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155900.ps/_jcr_content/renditions/155900.jpg)
+
+![Figure 4. Mobile Agent Consult Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155901.ps/_jcr_content/renditions/155901.jpg)
+
+![Figure 5. Mobile Agent Remote Consult Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155904.ps/_jcr_content/renditions/155904.jpg)
+
+![Figure 6. Mobile Agent Remote Conference Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155903.ps/_jcr_content/renditions/155903.jpg)
+
+![Figure 7. Mobile Agent Outbound Call Flow](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/150001-160000/155001-156000/155902.ps/_jcr_content/renditions/155902.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

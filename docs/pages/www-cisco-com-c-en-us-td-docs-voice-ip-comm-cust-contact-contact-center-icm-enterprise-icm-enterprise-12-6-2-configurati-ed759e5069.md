@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-ed759e5069
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_ivr-transcription-1262.html
-retrieved_at: 2026-08-21T11:55:53.546691+00:00
+retrieved_at: 2026-10-12T11:56:40.133024+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -124,3 +124,7 @@ Gadget auto-hide/un-hide and notifications capability is available only if the g
 | Note | Gadget auto-hide/un-hide and notifications capability is available only if the gadget is configured as a multitab gadget in
                                                       Cisco Finesse. For more details, see Call Transcript Gadget in the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

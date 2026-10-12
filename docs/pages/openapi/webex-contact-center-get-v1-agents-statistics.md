@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T19:48:25.348365+00:00
+retrieved_at: 2026-10-12T11:51:21.011787+00:00
 ---
 
 # GET /v1/agents/statistics

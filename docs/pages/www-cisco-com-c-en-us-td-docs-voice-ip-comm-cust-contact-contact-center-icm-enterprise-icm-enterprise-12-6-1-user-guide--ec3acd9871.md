@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--ec3acd9871
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_01110.html
-retrieved_at: 2026-08-21T04:27:34.582409+00:00
+retrieved_at: 2026-10-12T11:53:33.280070+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -1645,3 +1645,7 @@ ELSE (select ReasonText from Reason_Code where ReasonCode = Agent_Skill_Group­_
                                              are ringing at an agent voice terminal. It does not include direct agent calls. Derived from: Skill_Group_Real_Time.TotalQueuedNow |
 | Longest Queued | The time spent in queue for the longest currently queued task, measured in HH:MM:SS (hours, minutes, seconds) format. This is a calculated field, calculated by subtracting the time the task entered the queue from the current time and derived
                                              from: DATEDIFF(ss, Skill_Group_Real_Time.RouterLongestCallQ, (SELECT NowTime from Controller_Time)),0) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

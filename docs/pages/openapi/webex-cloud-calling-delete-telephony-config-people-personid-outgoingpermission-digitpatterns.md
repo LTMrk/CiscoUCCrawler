@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:55.003614+00:00
+retrieved_at: 2026-10-12T11:51:20.557328+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/outgoingPermission/digitPatterns

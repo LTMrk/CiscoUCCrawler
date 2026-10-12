@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--b743cab683
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_0101.html
-retrieved_at: 2026-08-21T04:26:59.239044+00:00
+retrieved_at: 2026-10-12T11:52:56.708023+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -831,3 +831,7 @@ To
                                           						Original Time, 3.30 (–5.30 +2) hours subtracted | Friday, January 1, 2010
                                              						  12:00:00 AM IST To
                                           						Original Time, 0 (– 5.30 +5.30) hours added |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

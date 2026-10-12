@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T19:48:25.288074+00:00
+retrieved_at: 2026-10-12T11:51:20.988666+00:00
 ---
 
 # GET /organization/{orgid}/user/by-call-monitoring-id/{id}

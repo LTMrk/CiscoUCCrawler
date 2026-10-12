@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/CallingClient/line/ai-docs/ARCHITECTURE.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T10:07:30.161042+00:00
+retrieved_at: 2026-10-12T11:51:31.086012+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/CallingClient/line/ai-docs/ARCHITECTURE.md
@@ -186,6 +186,11 @@ The actual implementation uses `this.#mutex.runExclusive()` to prevent concurren
 
 ```typescript
 async register(): Promise<void> {
+  // Refresh the host ip addresses the registration will report, outside the mutex
+  if (this.#localAudioStream) {
+    await discoverHostIps(this.#localAudioStream);
+  }
+
   await this.#mutex.runExclusive(async () => {
     // Emit CONNECTING to notify application
     this.emit(LINE_EVENTS.CONNECTING);

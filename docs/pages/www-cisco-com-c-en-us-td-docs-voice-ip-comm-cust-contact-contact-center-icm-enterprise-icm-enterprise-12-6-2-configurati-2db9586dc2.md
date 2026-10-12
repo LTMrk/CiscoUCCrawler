@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-2db9586dc2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_auditing_12_6_1.html
-retrieved_at: 2026-08-22T00:20:59.096723+00:00
+retrieved_at: 2026-10-12T11:57:26.802108+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -291,3 +291,7 @@ ConfigMessage - the field names impacted, such as Peripheral Name , Enterprise N
                                           					 events are generated when a user restarts or shuts down the Domain Controller. System events are also generated
                                           					 when an event occurs that affects either the system security or the security
                                           					 log. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

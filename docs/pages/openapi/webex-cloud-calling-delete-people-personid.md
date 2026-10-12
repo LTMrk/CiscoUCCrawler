@@ -10,7 +10,7 @@ tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.975690+00:00
+retrieved_at: 2026-10-12T11:51:20.527498+00:00
 ---
 
 # DELETE /people/{personId}

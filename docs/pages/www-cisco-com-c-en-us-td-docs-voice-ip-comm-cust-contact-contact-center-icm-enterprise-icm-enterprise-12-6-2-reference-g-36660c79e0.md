@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-reference-g-36660c79e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_6_2/ucce_b_acd-supplement-guide-for-avaya-12_5_chapter_010.html
-retrieved_at: 2026-08-16T19:45:54.161692+00:00
+retrieved_at: 2026-10-12T11:58:51.709691+00:00
 ---
 
 Cisco Unified ICM ACD Supplement for Avaya Communication Manager, Release 12.6(2)
@@ -1202,3 +1202,10 @@ It is imperative
 | TalkingOther | AUX IN/OUT,
                                           				ACW IN/OUT |
 | Other | OTHER |
+
+## Figuras
+
+![Figure 1. PIM
+                                 			 Configuration UI for TSAPI interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393341.tif/_jcr_content/renditions/393341.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

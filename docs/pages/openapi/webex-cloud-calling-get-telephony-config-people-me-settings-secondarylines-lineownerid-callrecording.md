@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.731404+00:00
+retrieved_at: 2026-10-12T11:51:20.287880+00:00
 ---
 
 # GET /telephony/config/people/me/settings/secondaryLines/{lineownerId}/callRecording

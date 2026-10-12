@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-4b91dec544
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_post_call_survey-1261.html
-retrieved_at: 2026-08-21T11:55:32.601755+00:00
+retrieved_at: 2026-10-12T11:56:48.696769+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -150,3 +150,7 @@ Select the Enabled check box then click Save .
 | Step 2 | Create a new ECC Variable with Name:user.microapp.isPostCallSurvey . |
 | Step 3 | Set Maximum Length to 1. |
 | Step 4 | Select the Enabled check box then click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

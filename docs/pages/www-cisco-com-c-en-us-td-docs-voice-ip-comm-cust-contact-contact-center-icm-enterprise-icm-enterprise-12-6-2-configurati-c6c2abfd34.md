@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-c6c2abfd34
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_single_sign_on-1261.html
-retrieved_at: 2026-08-21T11:55:41.882434+00:00
+retrieved_at: 2026-10-12T11:56:57.481532+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -1663,3 +1663,7 @@ Login.submitLoginRequest = function () {
 | Note | Users enabled for single sign-on are at risk of having their accounts misused by others if the browser is not closed completely.
                                        If the browser is left open, a different user can access the application from the browser page without entering credentials. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

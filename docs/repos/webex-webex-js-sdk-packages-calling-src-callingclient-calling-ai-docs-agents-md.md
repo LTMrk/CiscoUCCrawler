@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/CallingClient/calling/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:08:06.280309+00:00
+retrieved_at: 2026-10-12T11:51:30.677884+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/CallingClient/calling/ai-docs/AGENTS.md
@@ -74,7 +74,8 @@ All paths are relative to `CallingClient/calling/` (the directory containing `ca
 | `Eventing` | `../../Events/impl` |
 | `CallError`, `createCallError` | `../../Errors/catalog/CallError` |
 | `ERROR_LAYER`, `ERROR_TYPE`, `ErrorContext` | `../../Errors/types` |
-| `handleCallErrors`, `modifySdpForIPv4`, `parseMediaQualityStatistics`, `serviceErrorCodeHandler`, `uploadLogs` | `../../common/Utils` |
+| `handleCallErrors`, `parseMediaQualityStatistics`, `serviceErrorCodeHandler`, `uploadLogs` | `../../common/Utils` |
+| `getHostIpsFromSdp`, `modifySdpForIPv4` | `../../common/callUtils` |
 | `CallDetails`, `CallDirection`, `CallId`, `CorrelationId`, `DisplayInformation`, `HTTP_METHODS`, `ServiceIndicator`, `WebexRequestPayload`, `ALLOWED_SERVICES` | `../../common/types` |
 | `SDKConnector` | `../../SDKConnector` |
 | `ISDKConnector`, `WebexSDK` | `../../SDKConnector/types` |

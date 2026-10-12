@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-reference-g-19f0c1c64a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1261/ucce_b_cti-servermessagereferenceguideprotocolversion24-for-1261_chapter_0111.html
-retrieved_at: 2026-08-16T19:47:20.624088+00:00
+retrieved_at: 2026-10-12T11:55:54.114604+00:00
 ---
 
 CTI Server Message Reference Guide(Protocol Version 24) for Cisco Unified Contact Center Enterprise, Release 12.6(1)
@@ -975,3 +975,7 @@ New peripheral types PT_SIEMENS_9005 and PT_ALCATEL added to the PeripheralType 
 
 | Important | In the CTI Server Protocol Version 20 the floating field tag and length size changed from 1 byte to 2 byte USHORT. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

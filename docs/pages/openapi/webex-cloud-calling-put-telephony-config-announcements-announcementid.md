@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.875508+00:00
+retrieved_at: 2026-10-12T11:51:20.428335+00:00
 ---
 
 # PUT /telephony/config/announcements/{announcementId}
@@ -39,7 +39,7 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - `name` (string) (**requerido**): Name of the announcement. Long. max: 256.
 - `fileUri` (string) (**requerido**): URI of the announcement file. Long. max: 256.
 - `fileName` (string) (**requerido**): File name of the announcement. Long. max: 80.
-- `isTextToSpeech` (boolean) (**requerido**): Indicates whether the announcement is text-to-speech.
+- `isTextToSpeech` (boolean): Indicates whether the announcement is text-to-speech. If omitted or set to null or false, the announcement is stored as non-text-to-speech and text-to-speech metadata, such as the text, voice, and language, is not retained.
 
 ### Ejemplo — petición
 ```json
@@ -56,7 +56,7 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 curl -X PUT '/telephony/config/announcements/<announcementId>' \
   -H 'Authorization: Bearer <TOKEN>' \
   -H 'Content-Type: application/json' \
-  -d '{"name": "<name>", "fileUri": "<fileUri>", "fileName": "<fileName>", "isTextToSpeech": true}'
+  -d '{"name": "<name>", "fileUri": "<fileUri>", "fileName": "<fileName>"}'
 ```
 
 ## Respuestas correctas

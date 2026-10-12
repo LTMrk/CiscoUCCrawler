@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-dd60a443a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_business_hours-1261.html
-retrieved_at: 2026-08-21T11:55:15.902211+00:00
+retrieved_at: 2026-10-12T11:56:27.013620+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -233,3 +233,7 @@ If any configuration is changed, the status is re-evaluated and updated to refle
 | Note | When you update the configured Business Hours, remove any elapsed schedules and then update the new schedules for any new
                                           special hours or holidays in a Business Hour configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

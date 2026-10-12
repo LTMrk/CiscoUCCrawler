@@ -10,7 +10,7 @@ tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.838065+00:00
+retrieved_at: 2026-10-12T11:51:20.389745+00:00
 ---
 
 # GET /convergedRecordings/{recordingId}
@@ -65,6 +65,7 @@ curl -X GET '/convergedRecordings/<recordingId>' \
 - `ownerEmail` (string) (**requerido**): Webex email for recording owner/host.
 - `ownerType` (string) (**requerido**): * `user` - Recording belongs to a user.  * `place` - Recording belongs to a workspace device.  * `virtualLine` - Recording belongs to a workspace device. Valores: user, place, virtualLine, callQueue.
 - `storageRegion` (string) (**requerido**): Storage location for recording within Webex datacenters.
+- `transcriptLanguage` (string): The language of the recording's transcript. This attribute is only present when a transcript is available for the recording.
 - `serviceData` (object): Fields relevant to each service Type.
   - `locationId` (string): Webex calling location for recording user.
   - `callSessionId` (string): Call ID for which recording was done.

@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.946364+00:00
+retrieved_at: 2026-10-12T11:51:20.498932+00:00
 ---
 
 # GET /telephony/config/routeChoices

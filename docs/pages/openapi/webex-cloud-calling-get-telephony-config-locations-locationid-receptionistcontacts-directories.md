@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.948839+00:00
+retrieved_at: 2026-10-12T11:51:20.501193+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/receptionistContacts/directories

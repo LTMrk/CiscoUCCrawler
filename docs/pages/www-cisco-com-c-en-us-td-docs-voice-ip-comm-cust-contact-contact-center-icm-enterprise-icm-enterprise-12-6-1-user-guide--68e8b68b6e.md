@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--68e8b68b6e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_scripting-and-media-routing-guide_12_6/ucce_b_scripting-and-media-routing-guide_chapter_01110.html
-retrieved_at: 2026-08-21T11:55:03.351584+00:00
+retrieved_at: 2026-10-12T11:54:46.438269+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(1)
@@ -225,3 +225,21 @@ It then enters
 | Note | A RunVRU Script or Queue node is an "implicit" SendToVRU node,
                                           although error handling is easier if you use the explicit "SendToVRU" node. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Example NAM Routing Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340749.jpg)
+
+![Figure 2. NetworkTransferEnabled Set Variable Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340750.jpg)
+
+![Figure 3. ECC Variable user.microapp.media_server Set Variable Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340751.jpg)
+
+![Figure 4. ICM Gateway Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340752.jpg)
+
+![Figure 5. Changing the
+                                    			 Queue Type to Enable Requery](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340787.jpg)
+
+![Figure 6. RONA Scripting
+                                    			 in Unified CCE Edition](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340788.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

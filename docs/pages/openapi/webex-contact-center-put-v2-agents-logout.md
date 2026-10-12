@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T19:48:25.348869+00:00
+retrieved_at: 2026-10-12T11:51:21.012250+00:00
 ---
 
 # PUT /v2/agents/logout

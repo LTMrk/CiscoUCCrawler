@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-reference-g-14fdfbd46d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1261/ucce_b_cti-servermessagereferenceguideprotocolversion24-for-1261_chapter_0110.html
-retrieved_at: 2026-08-16T19:47:16.667462+00:00
+retrieved_at: 2026-10-12T11:55:50.113992+00:00
 ---
 
 CTI Server Message Reference Guide(Protocol Version 24) for Cisco Unified Contact Center Enterprise, Release 12.6(1)
@@ -15029,3 +15029,7 @@ Task is
 | TASK_STATE_NOT_READY | Not used. | 6 |
 | TASK_STATE_LOGGED_OUT | Task is
                                           					 terminated. | 7 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

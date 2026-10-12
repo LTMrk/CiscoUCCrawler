@@ -10,7 +10,7 @@ tags: Call Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.696796+00:00
+retrieved_at: 2026-10-12T11:51:20.252914+00:00
 ---
 
 # POST /telephony/calls/members/{memberId}/hangup

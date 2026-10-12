@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-guide--3eade5f9b9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1262/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_0111.html
-retrieved_at: 2026-08-21T11:59:49.196780+00:00
+retrieved_at: 2026-10-12T12:00:25.931063+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(2)
@@ -245,3 +245,7 @@ RELDATE%20THISWEEK&@end_date=RELDATE%20THISWEEK&@agent.id=~loginId~ |
 
 | Note | When the button is paused and updates are available on the gadget, a notification appears over the pause or play button. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

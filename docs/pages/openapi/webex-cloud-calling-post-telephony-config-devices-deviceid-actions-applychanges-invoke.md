@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.841911+00:00
+retrieved_at: 2026-10-12T11:51:20.393498+00:00
 ---
 
 # POST /telephony/config/devices/{deviceId}/actions/applyChanges/invoke

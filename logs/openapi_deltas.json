@@ -1,7 +1,30 @@
 {
-  "run_at": "2026-10-05T13:18:37.553810+00:00",
-  "added": [],
+  "run_at": "2026-10-12T11:51:21.060100+00:00",
+  "added": [
+    "Webex Contact Center: POST /organization/{orgid}/call-monitoring",
+    "Webex Contact Center: POST /organization/{orgid}/call-monitoring/delete-reference",
+    "Webex Contact Center: GET /organization/{orgid}/call-monitoring/{id}",
+    "Webex Contact Center: PUT /organization/{orgid}/call-monitoring/{id}",
+    "Webex Contact Center: DELETE /organization/{orgid}/call-monitoring/{id}",
+    "Webex Contact Center: PATCH /organization/{orgid}/call-monitoring/{id}",
+    "Webex Contact Center: GET /organization/{orgid}/v2/call-monitoring",
+    "Webex Contact Center: GET /organization/{orgid}/organization-setting",
+    "Webex Contact Center: GET /organization/{orgid}/organization-setting/{id}",
+    "Webex Contact Center: PUT /organization/{orgid}/organization-setting/{id}",
+    "Webex Contact Center: PATCH /organization/{orgid}/organization-setting/{id}",
+    "Webex Contact Center: GET /organization/{orgid}/v2/organization-setting",
+    "Webex Contact Center: GET /organization/{orgid}/tenant-configuration",
+    "Webex Contact Center: GET /organization/{orgid}/tenant-configuration/{id}",
+    "Webex Contact Center: PUT /organization/{orgid}/tenant-configuration/{id}",
+    "Webex Contact Center: GET /organization/{orgid}/v2/tenant-configuration"
+  ],
   "removed": [],
-  "deprecated": [],
-  "specs_cambiados": []
+  "deprecated": [
+    "Webex Contact Center: GET /organization/{orgid}/organization-setting",
+    "Webex Contact Center: GET /organization/{orgid}/tenant-configuration"
+  ],
+  "specs_cambiados": [
+    "webex-cloud-calling.json",
+    "webex-contact-center.json"
+  ]
 }

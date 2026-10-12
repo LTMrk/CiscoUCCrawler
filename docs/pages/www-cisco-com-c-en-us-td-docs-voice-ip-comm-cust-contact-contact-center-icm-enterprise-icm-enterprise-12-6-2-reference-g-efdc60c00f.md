@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-reference-g-efdc60c00f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1262/ucce_m_introduction_12_6_1.html
-retrieved_at: 2026-08-16T19:34:39.502434+00:00
+retrieved_at: 2026-10-12T11:58:33.848191+00:00
 ---
 
 Database Schema Handbook for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -382,3 +382,7 @@ Termination_Call_Variable
                                        		  populated because these tables are not supported. These tables are replaced by
                                        		  the Interval database tables. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

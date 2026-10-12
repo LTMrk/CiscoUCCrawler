@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-e0614b0247
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_contact_sharing-1261.html
-retrieved_at: 2026-08-21T11:55:25.011270+00:00
+retrieved_at: 2026-10-12T11:56:36.469328+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -2102,3 +2102,11 @@ Route only among the same skill groups and precision queues that are part of the
 | Tip | If you see all calls routing to one target system, check the IP Addresses in the machine inventory table and your script.
                                                    The relationship between the Application Gateway ID and the IP Addresses might be wrong. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Contact Sharing Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393072.eps/_jcr_content/renditions/393072.jpg)
+
+![Figure 2. Sample Contact Sharing Script](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/405001-406000/405465.tif/_jcr_content/renditions/405465.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

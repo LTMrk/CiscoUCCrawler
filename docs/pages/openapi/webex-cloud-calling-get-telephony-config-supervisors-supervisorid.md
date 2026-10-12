@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.904287+00:00
+retrieved_at: 2026-10-12T11:51:20.458052+00:00
 ---
 
 # GET /telephony/config/supervisors/{supervisorId}
@@ -55,6 +55,9 @@ curl -X GET '/telephony/config/supervisors/<supervisorId>' \
   - `extension` (string): Primary phone extension of the agent.
   - `esn` (string): Routing prefix + extension of a agent.
   - `phoneNumber` (string): Primary phone number of the agent.
+  - `location` (object): Location of the agent.
+    - `id` (string): Agent's location ID.
+    - `name` (string): Agent's location name.
 
 ### Ejemplo — respuesta 200
 ```json
@@ -66,21 +69,33 @@ curl -X GET '/telephony/config/supervisors/<supervisorId>' \
       "lastName": ".",
       "firstName": "Barn61",
       "extension": "1060",
-      "esn": "1060"
+      "esn": "1060",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Nzg4MGFjLTQ4NDItNGZlMy1hOWZlLWFlMzU5ZTgzOGY2Mw",
+        "name": "San Jose"
+      }
     },
     {
       "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NTA4OTc4ZC05YmFkLTRmYWEtYTljNC0wOWQ4NWQ4ZmRjZTY",
       "lastName": "user",
       "firstName": "test",
       "extension": "892827",
-      "esn": "892827"
+      "esn": "892827",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Nzg4MGFjLTQ4NDItNGZlMy1hOWZlLWFlMzU5ZTgzOGY2Mw",
+        "name": "San Jose"
+      }
     },
     {
       "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9iZjE5YWQzMC00NzAyLTQ3NWMtOTg0Ni1lM2M0M2Y1NGFlYzk",
       "lastName": ".",
       "firstName": "Test9",
       "routingPrefix": "34543",
-      "phoneNumber": "+19729989982"
+      "phoneNumber": "+19729989982",
+      "location": {
+        "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Nzg4MGFjLTQ4NDItNGZlMy1hOWZlLWFlMzU5ZTgzOGY2Mw",
+        "name": "San Jose"
+      }
     }
   ]
 }

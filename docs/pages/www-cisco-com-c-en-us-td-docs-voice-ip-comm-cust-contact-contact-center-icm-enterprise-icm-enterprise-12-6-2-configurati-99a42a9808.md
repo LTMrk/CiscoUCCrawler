@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-99a42a9808
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_your-security-strategy-and-unified-cce.html
-retrieved_at: 2026-08-22T00:20:25.491984+00:00
+retrieved_at: 2026-10-12T11:58:21.603348+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -827,3 +827,9 @@ Data that could be used to facilitate identity theft (such as mother’s maiden 
 | Note | Cisco does not support C2 event capturing for audits in Microsoft SQL Server in contact center enterprise solutions due to
                                                    degradation in transaction performance. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Unified CCE Business Transactions (Call Flows between Components)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392090.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

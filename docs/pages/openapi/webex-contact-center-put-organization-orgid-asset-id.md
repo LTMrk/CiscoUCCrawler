@@ -10,7 +10,7 @@ tags: Asset
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T19:48:25.205950+00:00
+retrieved_at: 2026-10-12T11:51:20.896997+00:00
 ---
 
 # PUT /organization/{orgid}/asset/{id}

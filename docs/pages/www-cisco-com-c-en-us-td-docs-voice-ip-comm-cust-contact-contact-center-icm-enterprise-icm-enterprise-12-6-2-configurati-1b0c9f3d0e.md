@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-1b0c9f3d0e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/rcct_m_webex-experience-management-integration1261.html
-retrieved_at: 2026-08-21T11:55:57.948426+00:00
+retrieved_at: 2026-10-12T11:56:18.816979+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -495,3 +495,7 @@ Select the survey from the pop-up window and click Save .
 | Step 3 | Select the Enable Experience Management check box to associate the Webex Experience Management survey. The Experience Management tab is enabled with the following options: Inline Survey (post-call voice survey) Deferred Survey (post-call Email and SMS survey) |
 | Step 4 | Click on the magnifying glass icon, and the configured surveys will be populated in the pop-up window. |
 | Step 5 | Select the survey from the pop-up window and click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

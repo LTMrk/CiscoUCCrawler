@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 5
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.821499+00:00
+retrieved_at: 2026-10-12T11:51:20.373006+00:00
 ---
 
 # GET /telephony/config/people/me/voicemail/rules

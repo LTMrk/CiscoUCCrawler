@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-reference-g-1870692155
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_6_2/ucce_b_acd-supplement-guide-for-avaya-12_5_chapter_01.html
-retrieved_at: 2026-08-16T19:45:49.440124+00:00
+retrieved_at: 2026-10-12T11:58:47.678416+00:00
 ---
 
 Cisco Unified ICM ACD Supplement for Avaya Communication Manager, Release 12.6(2)
@@ -784,3 +784,26 @@ When running
                                           		  CMS server going down, leads to CMS Data Feed failure; this results in a brief
                                        		outage on a simplex PG. |
 |---|---|
+
+## Figuras
+
+![Figure 1. TSAPI Link Setup Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393334.tif/_jcr_content/renditions/393334.jpg)
+
+![Figure 2. TSAPI Advanced Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393335.tif/_jcr_content/renditions/393335.jpg)
+
+![Figure 3. Defining
+                                                				  Agent Hunt Groups](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393347.tif/_jcr_content/renditions/393347.jpg)
+
+![Figure 4. Modifying Agent Login ID](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393343.tif/_jcr_content/renditions/393343.jpg)
+
+![Figure 5. Vector](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393333.tif/_jcr_content/renditions/393333.jpg)
+
+![Figure 6. Call Vector](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393349.tif/_jcr_content/renditions/393349.jpg)
+
+![Figure 7. GUI
+                                                   					 for Vector Directory Number](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393344.tif/_jcr_content/renditions/393344.jpg)
+
+![Figure 8. Dual PG
+                                    			 Overview](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393346.tif/_jcr_content/renditions/393346.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

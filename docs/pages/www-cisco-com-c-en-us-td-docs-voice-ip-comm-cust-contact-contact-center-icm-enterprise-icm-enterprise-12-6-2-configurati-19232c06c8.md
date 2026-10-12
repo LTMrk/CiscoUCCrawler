@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-19232c06c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce-m-cce-orchestration-windows-openssh-hardening-126.html
-retrieved_at: 2026-08-22T00:21:24.343138+00:00
+retrieved_at: 2026-10-12T11:57:22.574513+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -185,3 +185,7 @@ Run the command utils deployment test-connection in Cloud Connect CLI, from both
 | Step 7 | Restart the OpenSSH services. See the Orchestration section in CCE Install and Upgrade Guide for details on the OpenSSH services. |
 | Step 8 | Run the command utils deployment test-connection in Cloud Connect CLI, from both publisher and subscriber against this particular Windows node. This is to make sure the Cloud
                                           Connect server is able to establish password-less Secure Shell (SSH) connection to Windows nodes (ICM and CVP) for Orchestration. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

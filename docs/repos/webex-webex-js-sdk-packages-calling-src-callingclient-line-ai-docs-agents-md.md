@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/CallingClient/line/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T10:07:29.154536+00:00
+retrieved_at: 2026-10-12T11:51:30.952796+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/CallingClient/line/ai-docs/AGENTS.md
@@ -64,6 +64,7 @@ constructor(
   logLevel: LOGGER,                            // Log verbosity
   serviceDataConfig?: CallingClientConfig['serviceData'],  // Backend config
   jwe?: string,                                // Optional JWE token
+  localAudioStream?: LocalMicrophoneStream,    // Optional mic stream, used by register() for host ip discovery
   phoneNumber?: string,                        // Optional initial phone number (from provisioning)
   extension?: string,                          // Optional initial extension
   voicemail?: string,                          // Optional voicemail number

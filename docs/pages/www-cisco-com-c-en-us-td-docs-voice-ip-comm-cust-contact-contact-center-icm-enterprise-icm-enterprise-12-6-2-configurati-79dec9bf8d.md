@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-79dec9bf8d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_virtual_agent_voice-1262.html
-retrieved_at: 2026-08-21T04:29:40.582660+00:00
+retrieved_at: 2026-10-12T11:57:06.504196+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -2523,3 +2523,9 @@ To ensure connection with the Cisco Finesse gadget, you must enable the POD.ID E
 | 24 | Trinidad and Tobago | United States | US1 | US1 | US1 | US1 |
 | 25 | United States | United States | US1 | US1 | US1 | US1 |
 | 26 | Canada | Canada | CA1 | CA1 | CA1 | CA1 |
+
+## Figuras
+
+![Figure 1. Contact Center AI Services Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465745.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

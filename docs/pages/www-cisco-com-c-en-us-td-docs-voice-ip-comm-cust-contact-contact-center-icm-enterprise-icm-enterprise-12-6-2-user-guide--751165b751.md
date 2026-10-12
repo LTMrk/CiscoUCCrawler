@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-guide--751165b751
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_cisco-unified-contact-center-enterprise-reporting-user-guide-release1262/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_010.html
-retrieved_at: 2026-08-21T11:59:27.239822+00:00
+retrieved_at: 2026-10-12T11:59:24.491137+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(2)
@@ -408,3 +408,7 @@ For more information on Report Filters, see Report Filters .
                                        The browser cache is retained up to 30 days. Every time you run the report, the filter data in the browser cache is validated for permissions. If there is a permission
                                        mismatch, an error message appears that the filter you selected before is no longer valid and select the filters again. Also, if any other user sign-in to the same browser, that user cannot view your filter settings. The filter settings stored in your browser cache are cleared only: If you have not used the Dashboard for the last 30 days. If you manually clear the cache. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

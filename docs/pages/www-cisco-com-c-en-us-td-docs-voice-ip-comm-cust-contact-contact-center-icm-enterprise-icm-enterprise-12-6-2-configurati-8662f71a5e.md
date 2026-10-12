@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-8662f71a5e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_security-guide-for-cisco-unified-icm_contact_center_-enterprise_release_1262/ucce_m_other-security-considerations_12_6_1.html
-retrieved_at: 2026-08-22T00:21:16.260900+00:00
+retrieved_at: 2026-10-12T11:57:52.536234+00:00
 ---
 
 Security Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -934,3 +934,7 @@ https://<server>/setup/api/logger/1
                                        		  receive hardware prefailure alerts. Unified CCE servers only support 32-bit
                                        		  extension agents. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

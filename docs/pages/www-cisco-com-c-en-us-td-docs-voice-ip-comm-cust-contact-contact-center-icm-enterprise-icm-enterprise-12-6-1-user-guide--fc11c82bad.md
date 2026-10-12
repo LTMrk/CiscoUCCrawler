@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--fc11c82bad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_011.html
-retrieved_at: 2026-08-21T04:26:51.158437+00:00
+retrieved_at: 2026-10-12T11:53:11.655796+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -1828,3 +1828,7 @@ Custom
 | Note | If necessary, you can rename the report or the report folder. Do not change the file extension (Reports or report folder:
                                                       zip). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

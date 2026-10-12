@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:54:54.991456+00:00
+retrieved_at: 2026-10-12T11:51:20.545416+00:00
 ---
 
 # PUT /people/{personId}/features/outgoingPermission

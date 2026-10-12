@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-reference-g-7d1674fcb2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/reference/guide/ucce_b_acd-supplement-guide-for-avaya-12_6_2/ucce_b_acd-supplement-guide-for-avaya-12_5_chapter_00.html
-retrieved_at: 2026-08-16T19:45:45.052458+00:00
+retrieved_at: 2026-10-12T11:58:42.492837+00:00
 ---
 
 Cisco Unified ICM ACD Supplement for Avaya Communication Manager, Release 12.6(2)
@@ -291,3 +291,10 @@ The Avaya PG does not support Unified ICM integration with the Avaya ProLogix Sy
 
 | Note | The Avaya PG does not support Unified ICM integration with the Avaya ProLogix System. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Avaya ACD
+                                    			 Interface](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393350.tif/_jcr_content/renditions/393350.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

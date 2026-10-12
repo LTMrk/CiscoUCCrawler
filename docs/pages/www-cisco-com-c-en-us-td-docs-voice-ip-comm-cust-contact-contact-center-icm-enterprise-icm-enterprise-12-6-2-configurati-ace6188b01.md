@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-ace6188b01
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_whisper_announcement-1261.html
-retrieved_at: 2026-08-21T11:56:02.302368+00:00
+retrieved_at: 2026-10-12T11:57:14.668617+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -581,3 +581,7 @@ Usually, agents that use Whisper Announcement handle different types of calls: f
                                                 You must create these maps manually or change these references to point to existing Network VRU scripts, skill groups, and
                                                 Precision Queues in your system. |
 | Step 3 | Repeat steps 2 and 3 for the remaining script. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-configurati-bcb2f1a3da
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/configuration/guide/ucce_b_features-guide-1262/ucce_m_agent_request-1261.html
-retrieved_at: 2026-08-21T11:55:12.069211+00:00
+retrieved_at: 2026-10-12T11:56:23.441136+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -882,3 +882,13 @@ Calls which do
 
 | Note | Agent requests that fail before being routed to CCE will not be included in the CCE solution-level reports. The Customer Collaboration Platform search function can be used to identify these requests. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Agent Request Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510635.jpg)
+
+![Figure 1. Agent Request Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510640.jpg)
+
+![Script for Agent Request](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390341.tif/_jcr_content/renditions/390341.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

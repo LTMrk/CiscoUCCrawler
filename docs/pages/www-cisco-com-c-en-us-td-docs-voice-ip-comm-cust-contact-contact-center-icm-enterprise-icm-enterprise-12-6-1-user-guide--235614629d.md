@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-1-user-guide--235614629d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_1/User/guide/ucce_b_cisco-unified-contact-center-enterprise-1261/ucce_b_cisco-unified-contact-center-enterprise-1261_chapter_010000.html
-retrieved_at: 2026-08-21T04:27:45.446462+00:00
+retrieved_at: 2026-10-12T11:52:41.038389+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -8457,3 +8457,7 @@ The unique identifier for a record.
 | Peripheral ID | The unique identifier of the peripheral that the agent belongs to. |
 | Reason Code | The Reason code used by agent. |
 | Record ID | The unique identifier for a record. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

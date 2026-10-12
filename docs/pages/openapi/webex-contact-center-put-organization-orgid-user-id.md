@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T19:48:25.329393+00:00
+retrieved_at: 2026-10-12T11:51:20.994806+00:00
 ---
 
 # PUT /organization/{orgid}/user/{id}
@@ -59,8 +59,8 @@ Update an existing User by ID in a given organization.
 - `userLevelAutoCSATInclusion` (string) (DEPRECADO): User level AutoCSAT inclusion type. Used only when Agent inclusion is set to 'Specific Agents' at the org level Cisco AI Assistant>Auto CSAT config. During entity creation(single or bulk), if this parameter is not provided or null, default will be set to 'EXCLUDED' During entity update(single or bulk), if this parameter is not provided or null, the previous value will be retained. Valores: INCLUDED, EXCLUDED.
 - `userLevelWellnessBreakReminders` (string): User level Wellness break reminder type. If top level Agent burnout config has wellness break reminders enabled, this property determines if an Agent is enabled/disabled for receiving break reminders. If the value is missing in response, the consumer should assume a value as DISABLED. This is applicable/available only when AI Assistant add-on offer/license is added to the organization. Valores: DISABLED, ENABLED.
 - `userLevelSummariesInclusion` (string) (DEPRECADO): User level Generated Summaries inclusion type. Used only when Generated Summaries is set to 'Specific Agents' at the org level Cisco AI Assistant>Generated Summaries. During entity creation(single or bulk), if this parameter is not provided or null, default will be set to 'EXCLUDED' During entity update(single or bulk), if this parameter is not provided or null, the previous value will be retained. Valores: INCLUDED, EXCLUDED.
-- `supervisorCapabilitiesEnabled` (boolean): Indicates whether supervisor capabilities are enabled for the user.
-- `agentCapabilitiesEnabled` (boolean): Indicates whether agent capabilities are enabled for the user.
+- `supervisorCapabilitiesEnabled` (boolean): Indicates whether supervisor capabilities are enabled for the user. This setting applies to License Administrator and Supervisor profiles. To enable it, contactCenterEnabled must be true and agentProfileId must be provided.
+- `agentCapabilitiesEnabled` (boolean): Indicates whether agent capabilities are enabled for the user. To enable it, contactCenterEnabled must be true, and siteId, at least one teamIds value, and agentProfileId must be provided.
 - `dynamicSkills` (array): The list of dynamic skills assigned to the user
   - `organizationId` (string/uuid): ID of the contact center organization. This field is required for all bulk save operations. Long. max: 36.
   - `id` (string): ID of this contact center resource. It should not be specified when creating a new resource. However, it is mandatory when updating a resource.
