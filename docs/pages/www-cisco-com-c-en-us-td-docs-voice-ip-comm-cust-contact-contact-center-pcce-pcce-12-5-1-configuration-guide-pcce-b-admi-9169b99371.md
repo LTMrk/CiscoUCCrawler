@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-9169b99371
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_chapter_01011.html
-retrieved_at: 2026-08-21T04:44:46.151624+00:00
+retrieved_at: 2026-10-19T10:16:41.254709+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
@@ -588,3 +588,29 @@ For example Enterprise Chat and
 | Note | Queue to Agent is not
                                           		supported. |
 |---|---|
+
+## Figuras
+
+![Figure 1. MRD Domain Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340747.jpg)
+
+![Figure 2. Media Routing Domain Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340748.jpg)
+
+![Figure 3. Queue Agent Type](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340779.jpg)
+
+![Figure 4. Agent Direct Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340776.jpg)
+
+![Figure 5. Queue to Agent  Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340777.jpg)
+
+![Figure 6. Selecting Agents from Skill Groups](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413912.tif/_jcr_content/renditions/413912.jpg)
+
+![Figure 7. Categorizing by MRD with Skill Groups](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413913.tif/_jcr_content/renditions/413913.jpg)
+
+![Figure 8. Categorizing by MRD with Precision Queues](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410155.tif/_jcr_content/renditions/410155.jpg)
+
+![Figure 9. Queuing to Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340819.jpg)
+
+![Figure 10. Example RONA and Transfer Script](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410193.tif/_jcr_content/renditions/410193.jpg)
+
+![Figure 11. Example Estimated Wait Time Script](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410494.tif/_jcr_content/renditions/410494.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

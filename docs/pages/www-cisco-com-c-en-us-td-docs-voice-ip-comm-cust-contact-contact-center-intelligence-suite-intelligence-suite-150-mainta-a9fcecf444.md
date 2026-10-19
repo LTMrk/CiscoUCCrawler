@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-a9fcecf444
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/configured_devices_CUIC_reporting_process_device_config.html
-retrieved_at: 2026-08-21T04:41:45.527129+00:00
+retrieved_at: 2026-10-19T10:13:55.307000+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -147,3 +147,7 @@ Actions on this page are Save (changes) and Cancel (changes).
                                              procedure to change the IP address of Unified Intelligence Center nodes in a cluster, see Changing the IP Address and hostname in Unified Intelligence Center . |
 | Description | The
                                              					 description of the device. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

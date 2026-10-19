@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-doc-g-2d28b8b26f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/doc/guide/cuic_b_1262-documentation-guide.html
-retrieved_at: 2026-08-21T06:43:44.971910+00:00
+retrieved_at: 2026-10-19T10:11:05.110712+00:00
 ---
 
 Cisco Unified Intelligence Center Documentation Guide, Release 12.6(2)
@@ -226,3 +226,7 @@ For Cisco Unified Contact Center Enterprise documentation, see: https://www.cisc
 |---|---|
 | Installation and Upgrade Guide for Cisco Unified Intelligence Center | This document contains updated content related to: Updated references for 12.6(2) upgrade details. |
 | Administration Console User Guide for Cisco Unified Intelligence Center | This document contains  content related to: Updated Logging and Tracing information for OAMP. Removed topics Edit Syslong Server Connection Settingsfor OAMPandSubsystem Trace Definitions. Updated the following commands: utils oamp show logging-level utils oamp update logging-level |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

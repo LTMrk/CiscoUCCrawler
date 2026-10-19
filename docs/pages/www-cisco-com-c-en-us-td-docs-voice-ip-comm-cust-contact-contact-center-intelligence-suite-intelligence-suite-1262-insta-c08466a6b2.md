@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-insta-c08466a6b2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262/cuic_m_installation-all-nodes-1261.html
-retrieved_at: 2026-08-21T16:14:20.835777+00:00
+retrieved_at: 2026-10-19T10:11:33.947675+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -694,3 +694,7 @@ Cisco requires
                                        		  keys that are preformatted to be compatible with Linux 2.6.32 for the
                                        		  configuration file. These keys will have a W95 FAT32 format. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

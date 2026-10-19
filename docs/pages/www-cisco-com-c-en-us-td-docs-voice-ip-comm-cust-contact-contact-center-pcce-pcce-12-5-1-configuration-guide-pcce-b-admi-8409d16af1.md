@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-8409d16af1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_chapter_01.html
-retrieved_at: 2026-08-21T04:43:46.026768+00:00
+retrieved_at: 2026-10-19T10:15:58.396154+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
@@ -10182,3 +10182,11 @@ nonVolatile |
 
 | Note | Every time the Active Directory credentials are updated, the credentials configured here must be updated as well. |
 |---|---|
+
+## Figuras
+
+![Figure 1. NAT64 Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393312.eps/_jcr_content/renditions/393312.jpg)
+
+![Figure 2. IPv6 Translation of IPv4 Address](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/404001-405000/404537.tif/_jcr_content/renditions/404537.jpg)
+
+![Figure 3. Example ICM Database Look Up](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/290001-300000/292001-293000/292516.tif/_jcr_content/renditions/292516.jpg)

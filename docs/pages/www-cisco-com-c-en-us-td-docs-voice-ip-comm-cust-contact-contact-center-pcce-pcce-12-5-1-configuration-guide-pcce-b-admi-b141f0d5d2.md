@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-b141f0d5d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_chapter_0100.html
-retrieved_at: 2026-08-21T04:44:16.879819+00:00
+retrieved_at: 2026-10-19T10:16:07.261969+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
@@ -286,3 +286,7 @@ For information on restrictions that apply to Configuration Manager tools while 
 | Expanded Call Variables Payload List | Go to Unified CCE Administration > User Setup > Roles > Call Settings . Unselect the Expanded Call Variables checkbox and then click Save . Select the Expanded Call Variables checkbox and then click Save . |
 | Agent Desk Settings Tool | Go to Unified CCE Administration > User Setup > Roles > Desktop Settings . Unselect the Desk Settings checkbox and then click Save . Select the Desk Settings checkbox and then click Save . |
 | Bulk Configuration Tools | Go to Unified CCE Administration > User Setup > Roles . Unselect the Bulk Import checkbox and then click Save . Select the Bulk Import checkbox and then click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

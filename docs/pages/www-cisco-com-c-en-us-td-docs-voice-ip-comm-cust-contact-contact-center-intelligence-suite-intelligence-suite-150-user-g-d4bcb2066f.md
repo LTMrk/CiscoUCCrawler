@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-d4bcb2066f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_report-customization-guide-1501/cuic_m_configure-1501.html
-retrieved_at: 2026-08-21T04:43:19.576358+00:00
+retrieved_at: 2026-10-19T10:15:12.082946+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 15.0(1)
@@ -32,6 +32,31 @@ User Role (a user can have one or more of the six User Roles).
 User Groups in which the user is a member.
 
 For an object, the user can access, the object-level permissions that are assigned by the person who created that object.
+
+## Single Sign-On
+
+Single Sign-On (SSO) allows users to access Cisco Unified Intelligence Center (CUIC) and other integrated applications with
+                           a single set of login credentials, eliminating the need to re-authenticate for each service. SSO login allows supervisors
+                           to access CUIC, and agents to access CUIC reports from Cisco Finesse.
+
+### Cisco Identity Service for Single Sign-On
+
+CUIC uses Single Sign-On (SSO) to allow agents and supervisors to authenticate once and gain access to multiple Cisco browser-based
+                              applications. SSO login is supported to agents, supervisors, and administrators. CUIC utilizes SAML 2.0 to facilitate the
+                              secure exchange of authentication and authorization information between an Identity Provider (IdP) and Cisco Identity Service
+                              (IdS), streamlining user access across CUIC and related Cisco applications.
+
+### Webex Common Identity for Single Sign-On
+
+CUIC integrates with Webex Common Identity (CI) to establish a unified identity framework that centralizes user profiles and
+                              access permissions. This integration supports hybrid service deployments for both on-premises environments. CUIC uses SAML
+                              2.0 for secure authentication flows. Webex CI SSO support is provided to agents and supervisors. CUIC offers flexible authentication
+                              by supporting both Cisco IdS and Webex CI-based SSO; however, each user can use only one SSO method at a time. This unified
+                              approach enhances productivity and simplifies identity management across CUIC.
+
+Webex CI support is limited only to agents and supervisors, but not supported to Administrators.
+
+For more information about the single sign-on, see the Single Sign-On Administration chapter in the Administration Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-maintenance-guides-list.html .
 
 ## User Permissions
 
@@ -874,6 +899,9 @@ When you launch the Data Sources listing page for the first time (after
 When using Self-Signed certificates, you must accept them explicitly before you can use Cisco Unified Intelligence Center
                                                 functionalities which includes using Live Data Reports. For more information, see Browser Support and Self -Signed Certificates section in Cisco Unified Intelligence Center User Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-user-guide-list.html .
 
+| Note | Webex CI support is limited only to agents and supervisors, but not supported to Administrators. |
+|---|---|
+
 | Note | Permissions set on categories are not recursive. For all entities under Dashboard, Report, or Report Definition types, you
                                                 need separate View or Edit permissions. |
 |---|---|
@@ -1180,3 +1208,7 @@ When using Self-Signed certificates, you must accept them explicitly before you 
                                                 certificates. When using Self-Signed certificates, you must accept them explicitly before you can use Cisco Unified Intelligence Center
                                                 functionalities which includes using Live Data Reports. For more information, see Browser Support and Self -Signed Certificates section in Cisco Unified Intelligence Center User Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-user-guide-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

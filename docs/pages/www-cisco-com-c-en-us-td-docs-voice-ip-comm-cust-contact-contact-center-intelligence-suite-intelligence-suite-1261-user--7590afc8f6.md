@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-user--7590afc8f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_user-guide-1261/cuic_b_user-guide-1205_preface_0111.html
-retrieved_at: 2026-08-21T16:16:05.822777+00:00
+retrieved_at: 2026-10-19T10:10:56.899480+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 12.6(1)
@@ -102,3 +102,7 @@ We appreciate your comments.
 | Initial Release of Document for Release 12.6(1) | May 2021 |
 | Updated the custom logon messages for users during sign in. | Access Unified Intelligence Center |  |
 | Updated browser support for Edge Chromium (Microsoft Edge) and added the self-signed certificates for browsers. | Browser Support and Self-Signed Certificates |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

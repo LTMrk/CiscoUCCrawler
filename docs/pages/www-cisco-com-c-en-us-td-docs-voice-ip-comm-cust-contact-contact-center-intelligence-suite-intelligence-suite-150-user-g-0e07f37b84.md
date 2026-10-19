@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-0e07f37b84
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_report-customization-guide-1501/cuic_m_cuic-sql-syntax-1501.html
-retrieved_at: 2026-08-21T04:43:27.171061+00:00
+retrieved_at: 2026-10-19T10:15:15.458914+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 15.0(1)
@@ -108,3 +108,7 @@ group by CallTypeID, TimeZone
 having sum(CallsHandled) in(3, 5, 13) and avg(CallsHandled) > 0
 order by CallTypeID
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

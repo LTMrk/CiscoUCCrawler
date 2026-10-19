@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-8de29cca2b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/control_center_drawer.html
-retrieved_at: 2026-08-21T04:41:57.749888+00:00
+retrieved_at: 2026-10-19T10:13:59.480360+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -95,3 +95,7 @@ Restart the device.
 | Start | Start the device. |
 | Shutdown | Shut down the device. Respond OK or Cancel to the confirmation message. |
 | Restart | Restart the device. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

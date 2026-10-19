@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-maint-4b3d46b85b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/maintain_and_operate/guide/cuic_b_1262-admin-console-user-guide/cuic_m_1262-user-interface.html
-retrieved_at: 2026-08-21T04:39:58.827529+00:00
+retrieved_at: 2026-10-19T10:12:33.903054+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -198,3 +198,7 @@ The System
                                        		unique System Administrator credentials for Member nodes, use those credentials
                                        		to access the CLI for those Member servers. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

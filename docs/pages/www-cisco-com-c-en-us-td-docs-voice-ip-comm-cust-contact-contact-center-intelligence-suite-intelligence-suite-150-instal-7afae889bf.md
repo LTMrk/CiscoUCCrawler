@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-7afae889bf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_upgrades.html
-retrieved_at: 2026-08-21T04:41:25.386132+00:00
+retrieved_at: 2026-10-19T10:13:37.412641+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -131,6 +131,10 @@ As mentioned earlier in this chapter, all the nodes in a cluster must be on the 
 Stop the Intelligence Center Reporting Service on all the nodes that aren’t upgraded and then restart the upgraded nodes.
 
 Before the upgrade, change the cluster mode to UDP on all the nodes using the utils cuic cluster mode CLI command. After upgrading all the nodes, set the cluster mode to TCP. For more information, see the Cluster Configuration for JVM Using Hazelcast section in the Administration Console User Guide for Cisco Unified Intelligence Center .
+
+### Before you begin
+
+Before you begin the upgrade from 12.6(1) to 15.0(1), you must install the COP file ucos.keymanagement.v02.cop.sgn on the base version.
 
 Step 1
 
@@ -474,6 +478,10 @@ Choose Settings > Version . This opens the Version Settings screen, which shows 
 
 It takes about half an hour to complete the Switch Version and the restart.
 
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
+
 | Note | For important notes, caveats, and other considerations, see the Cisco Unified Intelligence Center chapter in the Release Notes for Cisco Unified Contact Center Enterprise Solution available at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-release-notes-list.html . If you’re upgrading the Cisco Unified Intelligence Center (coresident) deployment, Live Data is also upgraded. As Live Data
                                                 must be of the same version as Central Controller Components, Central Controller Components must be upgraded in the same window. Upgrading Cisco IdS to 15.0(1) via maintenance mode is supported only on the primary node. Upgrade the secondary node to 15.0(1)
                                                 using the standard system upgrade procedure. If a failover occurs during the initial login process (with IdP authentication
@@ -661,3 +669,10 @@ It takes about half an hour to complete the Switch Version and the restart.
 
 | Note | It takes about half an hour to complete the Switch Version and the restart. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Software
+                                             				  Upgrade Page](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/405001-406000/405228.tif/_jcr_content/renditions/405228.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

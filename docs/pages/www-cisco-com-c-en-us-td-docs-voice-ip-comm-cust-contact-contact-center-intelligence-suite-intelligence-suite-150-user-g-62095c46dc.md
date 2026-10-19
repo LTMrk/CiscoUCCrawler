@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-62095c46dc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_report-customization-guide-1501/cuic_m_rcg-permalinks-1501.html
-retrieved_at: 2026-08-21T04:43:23.298218+00:00
+retrieved_at: 2026-10-19T10:15:23.837379+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 15.0(1)
@@ -369,3 +369,7 @@ In the above URL, &@team_list is the name of the parameter and TestColl_FF_15201
 | Note | If you do not provide specific collection names after the =CL keyword, the report will be filtered using all the collections that the user has permissions for. The user in this case is
                                        the person using the permalink. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

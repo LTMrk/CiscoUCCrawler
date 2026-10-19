@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-09c9ed4063
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_administration_console_signin.html
-retrieved_at: 2026-08-21T04:41:16.555972+00:00
+retrieved_at: 2026-10-19T10:12:55.178128+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -102,3 +102,7 @@ Enter this
                                        			 must indicate that the node is synchronized with an NTP server. If the
                                        			 Controller node is not synchronized with an NTP server, the installation of the
                                        			 Member node will fail. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

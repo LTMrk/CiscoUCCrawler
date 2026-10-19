@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-user--e923c29a6e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_user-guide-1261/cuic_mp_report_and_time_zones.html
-retrieved_at: 2026-08-21T16:16:18.878592+00:00
+retrieved_at: 2026-10-19T10:11:01.022331+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 12.6(1)
@@ -324,3 +324,7 @@ To
                                           						Original Time, 3.30 (–5.30 +2) hours subtracted | Friday, January 1, 2010
                                              						  12:00:00 AM IST To
                                           						Original Time, 0 (– 5.30 +5.30) hours added |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

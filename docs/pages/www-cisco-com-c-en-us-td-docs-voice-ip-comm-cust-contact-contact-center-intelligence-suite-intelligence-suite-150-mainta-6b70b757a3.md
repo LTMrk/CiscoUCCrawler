@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-6b70b757a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/tools_drawer.html
-retrieved_at: 2026-08-21T04:31:56.364705+00:00
+retrieved_at: 2026-10-19T10:14:21.851581+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -3019,6 +3019,22 @@ Recommended Action
 
 Check the CUIC catalina log at the path - /opt/cisco/cuic/cuicsrvr/logs/catalina.outto identify the root cause for same.
 
+##### CUIC Alert Notifications
+
+###### CUIC SNMP and System-Condition Alerts
+
+Trigger
+
+System Condition
+
+Channel
+
+###### CUIC Syslog-Only Triggers
+
+Trigger
+
+Channel
+
 ##### ThreadPool
                                  	 Events
 
@@ -4365,6 +4381,33 @@ Ciphers are used to encrypt data to protect sensitive information. Ciphers enabl
 | Impact to Solution | Data across the nodes in the cluster may not be synchronized. |
 | Recommended Action | Check the CUIC catalina log at the path - /opt/cisco/cuic/cuicsrvr/logs/catalina.outto identify the root cause for same. |
 
+| Trigger | System Condition | Channel |
+|---|---|---|
+| CUIC DB service is unavailable | CUIC_DATABASE_UNAVAILABLE raise | SNMP + system alert |
+| CUIC DB service is available again | CUIC_DATABASE_UNAVAILABLE clear | SNMP + system alert clear |
+| CUIC DB replication reports an error | CUIC_DB_REPLICATION_FAILED raise | SNMP + system alert |
+| CUIC DB replication is available again | CUIC_DB_REPLICATION_FAILED clear | SNMP + system alert clear |
+| Hazelcast cluster is missing expected nodes | CUIC_HAZELCAST_CLUSTER_BROKEN raise | SNMP + system alert |
+| Hazelcast cluster membership is restored | CUIC_HAZELCAST_CLUSTER_BROKEN clear | SNMP + system alert clear |
+| Report worker hits a critical dataset execution failure | CUIC_REPORT_EXECUTION_FAILED raise | Syslog + SNMP + system alert |
+| A later report run succeeds after execution failures | CUIC_REPORT_EXECUTION_FAILED clear | Syslog + SNMP + system alert clear |
+| Initial stock report import fails | CUIC_INITIAL_REPORT_IMPORT_FAILED raise | SNMP + system alert |
+| Initial stock report import succeeds | CUIC_INITIAL_REPORT_IMPORT_FAILED clear | SNMP + system alert clear |
+| Dashboard widget migration fails | CUIC_MSG_DASHBOARD_MIGRATION_FAILED raise | Syslog + SNMP + system alert |
+| Dashboard widget migration succeeds | CUIC_MSG_DASHBOARD_MIGRATION_FAILED clear | Syslog + SNMP + system alert clear |
+| CUIC reaches in-service startup path | Clears CUIC_DATABASE_UNAVAILABLE , CUIC_UNRECOVERABLE_ERROR , CUIC_LIVE_DATA_FEEDS_STOPPED | SNMP + system alert clear |
+
+| Trigger | Channel |
+|---|---|
+| CUIC web server state change | Syslog |
+| Datasource failover/switch invoked | Syslog |
+| Value list or collection hard limit reached | Syslog |
+| Report worker is given an invalid report definition or filter | Syslog |
+| Report worker exceeds in-memory row capacity | Syslog |
+| Data Processing Center rejects a load request because row capacity is exhausted | Syslog |
+| Data Processing Center enters or leaves row-throttler congestion | Syslog |
+| Hazelcast member added or removed event | Syslog |
+
 | Object | Description |
 |---|---|
 | ThreadsMaxAvailable | The
@@ -4422,3 +4465,27 @@ Ciphers are used to encrypt data to protect sensitive information. Ciphers enabl
 | Step 3 | Click Choose File , to upload the customized message file. |
 | Step 4 | Select the file and click Open . |
 | Step 5 | Click Upload File . |
+
+## Figuras
+
+![Figure 1. RTMT
+                                    			 TraceLog for CUIC](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403284.tiff/_jcr_content/renditions/403284.jpg)
+
+![Figure 2. RTMT TraceLog for Live Data](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403285.tiff/_jcr_content/renditions/403285.jpg)
+
+![Figure 3. RTMT
+                                    			 Critical Services](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403286.tiff/_jcr_content/renditions/403286.jpg)
+
+![Figure 4. RTMT
+                                    			 Alerts](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403287.tiff/_jcr_content/renditions/403287.jpg)
+
+![Figure 5. RTMT
+                                    			 Performance Interface](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403288.tiff/_jcr_content/renditions/403288.jpg)
+
+![Figure 6. Report
+                                    			 Execution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340146.jpg)
+
+![Figure 7. RTMT Counter
+                                 		  Help](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340147.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

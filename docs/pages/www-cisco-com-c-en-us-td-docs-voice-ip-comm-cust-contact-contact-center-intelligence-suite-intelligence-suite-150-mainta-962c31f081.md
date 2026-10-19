@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-962c31f081
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/preface.html
-retrieved_at: 2026-08-21T04:41:37.408739+00:00
+retrieved_at: 2026-10-19T10:14:16.042715+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -122,3 +122,7 @@ We
 | Added the section utils cuic olh allowed url | Command Line Interface > Utils Command >utils cuic>utils cuic olh allowed url |
 | Added the topic Cipher Management | Tools > Cisco Unified Intelligence OS Administration |
 | Added the following cloud-connect configuration commands: unset cloud-connect configuration show cloud-connect configuration set cloud-connect configuration | Command Line Interface > Unset Command > unset cloud-connect configuration Command Line Interface > Show Command > show cloud-connect configuration Command Line Interface > set Command > set cloud-connect configuration |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

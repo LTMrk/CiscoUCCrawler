@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-9ef42e6ded
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_view-help.html
-retrieved_at: 2026-08-21T04:42:49.893951+00:00
+retrieved_at: 2026-10-19T10:15:07.278664+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -60,3 +60,7 @@ You can configure template help for the report from the Reports page > Add Help 
                                        			 report in the run mode. |
 |---|---|
 | Step 2 | Click the Template Help icon in the report toolbar. The report template help appears in a new browser window. You can configure template help for the report from the Reports page > Add Help . For more information, see Add Template Help section. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

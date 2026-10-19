@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-51f74cb1df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_report-customization-guide-1501/cuic_m_report-definition-1501.html
-retrieved_at: 2026-08-21T04:43:11.577047+00:00
+retrieved_at: 2026-10-19T10:15:37.192866+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 15.0(1)
@@ -832,10 +832,7 @@ String
 
 ${str1} + ${str2} (Concatenates the strings. You cannot subtract, multiply, or divide the strings.)
 
-"<a href=" + ${URL_FIELD} + " target=_blank>" + ${LINK_NAME_FIELD} + "</a>" (Concatenates field values with string constants
-                                             to create HTML elements.)
-
-${str1} + ${num1) (Concatenates the str1 and num1 field values.)
+${str1} + ${num1} (Concatenates the str1 and num1 field values.)
 
 Null values are considered as empty.
 
@@ -928,6 +925,10 @@ Rate at which the report is automatically refreshed (in seconds). The minimum Re
 
 For new report definitions of type historical, the default Refresh Rate is 3600 seconds. For type real time, the default Refresh
                                                       Rate is 900 seconds.
+
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
 
 | Note | Unified Intelligence Center installs a stock Report Definition for each report template. You cannot rename a Stock Report Definition. |
 |---|---|
@@ -1298,3 +1299,7 @@ For new report definitions of type historical, the default Refresh Rate is 3600 
 | Note | For new report definitions of type historical, the default Refresh Rate is 3600 seconds. For type real time, the default Refresh
                                                       Rate is 900 seconds. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

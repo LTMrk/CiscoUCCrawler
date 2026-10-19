@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-configuration-guide-pcce-b-admi-669d7ed6e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/configuration/guide/pcce_b_admin-and-config-guide_12_5/pcce_b_admin-and-config-guide_12_5_chapter_0111.html
-retrieved_at: 2026-08-21T04:44:29.612543+00:00
+retrieved_at: 2026-10-19T10:17:17.514308+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.5(1)
@@ -141,3 +141,7 @@ CCE assigns the task to an agent who is logged into the "Sales" skill group in t
 
 | Note | You can also use the call type qualifiers for categorization within a script. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

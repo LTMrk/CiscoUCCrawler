@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-2f972cecdd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_installation.html
-retrieved_at: 2026-08-21T04:41:12.523689+00:00
+retrieved_at: 2026-10-19T10:13:12.048551+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -285,3 +285,7 @@ For more information, see the Cluster Configuration for JVM Using Hazelcast sect
                                                             in the cluster. Perform "Synchronize Cluster" from Cisco Unified Intelligence Center to ensure that cache is in sync across
                                                             the cluster. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

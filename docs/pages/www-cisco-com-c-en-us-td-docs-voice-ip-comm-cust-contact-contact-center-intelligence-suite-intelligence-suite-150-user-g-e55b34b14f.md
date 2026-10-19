@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-e55b34b14f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_permalinks.html
-retrieved_at: 2026-08-21T04:42:41.864210+00:00
+retrieved_at: 2026-10-19T10:14:42.182578+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -214,3 +214,7 @@ Un-Auth Report Permalink Different Cluster
 | Un-Auth Dashboard | Not Supported | Not Supported | Not Supported | Supported | Supported | Supported |
 | Auth Dashboard | Supported | Not Supported | Not Supported | Supported | Supported | Supported |
 | Dashboard Viewer | Supported | Not Supported | Not Supported | Supported | Supported | Supported |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

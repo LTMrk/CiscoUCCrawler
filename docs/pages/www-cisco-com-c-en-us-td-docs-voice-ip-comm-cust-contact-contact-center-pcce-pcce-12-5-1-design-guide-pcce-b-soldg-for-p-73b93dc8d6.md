@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-design-guide-pcce-b-soldg-for-p-73b93dc8d6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/design/guide/pcce_b_soldg-for-packaged-cce-12_5/rcct_m_bandwidth-latency-qos-considerations-12_5.html
-retrieved_at: 2026-08-21T16:38:23.369694+00:00
+retrieved_at: 2026-10-19T10:18:26.772894+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, 12.5(1) & 12.5(2)
@@ -1938,3 +1938,7 @@ Because Cisco VVB does not have a dial-peer to the ASR, you cannot use this tech
 
 | Note | Because Cisco VVB does not have a dial-peer to the ASR, you cannot use this technique with Cisco VVB. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-insta-4d5b0d1e9b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262/cuic_m_member-configuration-1261.html
-retrieved_at: 2026-08-21T16:14:37.621832+00:00
+retrieved_at: 2026-10-19T10:11:42.196980+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -241,3 +241,7 @@ Select Back .
 | You
                                                       							 want to proceed. | Select OK . The installation begins. |
 | You want to revisit screens to modify the configuration. | Select Back . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-a52e82c315
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_installation_all_nodes.html
-retrieved_at: 2026-08-21T04:41:04.360660+00:00
+retrieved_at: 2026-10-19T10:13:16.449170+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -338,6 +338,103 @@ Select No to open the First Node Configuration Warning
 
 Continue to Complete Configuration for Member Node .
 
+## Cloud Connect and Live Data Certificates
+
+Import Cloud Connect and Live Data certificates to the trust store of Cisco Unified Intelligence Center to communicate with
+                              the Cloud Connect and Live Data server using HTTPS. You must import a valid non-expired X.509 CA or self-signed certificate
+                              into the Cisco Unified Intelligence Center trust store.
+
+### CA-Signed Certificate
+
+Step 1
+
+Obtain the CA-signed certificate from the certification authority for Cloud Connect server.
+
+Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform .
+
+Generate the CSR and sign it from the certification authority. For more information about CSR, see the Manage Certificates chapter of Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-maintenance-guides-list.html .
+
+Step 2
+
+Import the CA-signed certificate of Cloud Connect server to the Cisco Unified Intelligence Center server trust store as tomcat-trust . For more information, see Import Cloud Connect and Live Data Certificates .
+
+### Export Cloud Connect and Live Data Certificates
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the Cloud Connect and Live Data server using the following URL:
+
+Cloud Connect server: https://FQDN of Cloud Connect server:8443/cmplatform
+
+Live Data server: https://FQDN of Live Data server:8443/cmplatform
+
+Step 2
+
+Select Security > Certificate Management .
+
+Step 3
+
+Enter the search criteria as tomcat and then click Find to filter the certificate.
+
+The tomcat certificates list is displayed.
+
+Step 4
+
+Click Download .PEM File .
+
+Step 5
+
+Save the .PEM file in your local machine.
+
+#### What to do next
+
+Follow the same steps for both publisher and subscriber nodes.
+
+### Import Cloud Connect and Live Data Certificates
+
+#### Before you begin
+
+Export Tomcat certificate for all Cloud Connect nodes and Live Data, and save them to your local machine. For more information,
+                                 see Export Cloud Connect and Live Data Certificates .
+
+Step 1
+
+Sign in to Cisco Unified OS Administration on the primary Cisco Unified Intelligence Center server using the following URL:
+
+https://FQDN of CUIC server:8443/cmplatform
+
+Step 2
+
+Select Security > Certificate Management > Upload Certificate/Certificate chain .
+
+Step 3
+
+Upload the Cloud Connect and Live Data certificates.
+
+From the Certificate Purpose drop-down list, select tomcat-trust .
+
+In the Upload File field, click Browse and browse to the Cloud Connect certificate file and Live Data certificate file.
+
+Click Upload .
+
+Step 4
+
+Reboot the Cisco Unified Intelligence Center server.
+
+### Configuring Cloud Connect using Util Command
+
+To connect Cisco Unified Intelligence Center to Cloud Connect and validate the Webex Common Identity token, do the following:
+
+Step 1
+
+Run the following CLI command on Unified Intelligence Center to update Cloud Connect details:
+
+Command syntax
+
+Step 2
+
+Import the Cloud Connect certificate into the Unified Intelligence Center nodes to establish a secure connection.
+
 ## Post-Install Configuration
 
 If Live data is supported and installed in the customer deployment, you must also perform some Live Data configuration tasks.
@@ -377,7 +474,7 @@ https:// <finesse-FQDN>
 
 https://: <finesse-FQDN>:port
 
-For more information, see Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/%20products-maintenance-guides-list.html
+For more information, see Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-maintenance-guides-list.html
 
 ### Self-Signed Certificates
 
@@ -683,6 +780,31 @@ Cisco requires
                                                       							 Member). | Select No to open the First Node Configuration Warning
                                                       							 screen. Continue to Complete Configuration for Member Node . |
 
+| Step 1 | Obtain the CA-signed certificate from the certification authority for Cloud Connect server. Sign in to Cisco Unified OS Administration on the Cloud Connect server using the following URL: https://FQDN of Cloud Connect server:8443/cmplatform . Generate the CSR and sign it from the certification authority. For more information about CSR, see the Manage Certificates chapter of Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-maintenance-guides-list.html . |
+|---|---|
+| Step 2 | Import the CA-signed certificate of Cloud Connect server to the Cisco Unified Intelligence Center server trust store as tomcat-trust . For more information, see Import Cloud Connect and Live Data Certificates . |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the Cloud Connect and Live Data server using the following URL: Cloud Connect server: https://FQDN of Cloud Connect server:8443/cmplatform Live Data server: https://FQDN of Live Data server:8443/cmplatform |
+|---|---|
+| Step 2 | Select Security > Certificate Management . |
+| Step 3 | Enter the search criteria as tomcat and then click Find to filter the certificate. The tomcat certificates list is displayed. |
+| Step 4 | Click Download .PEM File . |
+| Step 5 | Save the .PEM file in your local machine. |
+
+| Step 1 | Sign in to Cisco Unified OS Administration on the primary Cisco Unified Intelligence Center server using the following URL: https://FQDN of CUIC server:8443/cmplatform |
+|---|---|
+| Step 2 | Select Security > Certificate Management > Upload Certificate/Certificate chain . |
+| Step 3 | Upload the Cloud Connect and Live Data certificates. From the Certificate Purpose drop-down list, select tomcat-trust . In the Upload File field, click Browse and browse to the Cloud Connect certificate file and Live Data certificate file. Click Upload . |
+| Step 4 | Reboot the Cisco Unified Intelligence Center server. |
+
+| Step 1 | Run the following CLI command on Unified Intelligence Center to update Cloud Connect details: Command syntax utils system cloudconnectinfo save [CloudConnect Publisher FQDN] [Cloud Connect Application User] Note Ensure you provide the two mandatory parameters: the CloudConnect publisher FQDN and the Cloud Connect Application User. | Note | Ensure you provide the two mandatory parameters: the CloudConnect publisher FQDN and the Cloud Connect Application User. |
+|---|---|---|---|
+| Note | Ensure you provide the two mandatory parameters: the CloudConnect publisher FQDN and the Cloud Connect Application User. |
+| Step 2 | Import the Cloud Connect certificate into the Unified Intelligence Center nodes to establish a secure connection. |
+
+| Note | Ensure you provide the two mandatory parameters: the CloudConnect publisher FQDN and the Cloud Connect Application User. |
+|---|---|
+
 | Note | Follow the below steps, if you are using self-signed certificates. |
 |---|---|
 
@@ -710,3 +832,7 @@ Cisco requires
                                        		  keys that are preformatted to be compatible with Linux 2.6.32 for the
                                        		  configuration file. These keys will have a W95 FAT32 format. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-982881223d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_member_configuration.html
-retrieved_at: 2026-08-21T04:41:20.532303+00:00
+retrieved_at: 2026-10-19T10:13:24.351178+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -241,3 +241,7 @@ Select Back .
 | You
                                                       							 want to proceed. | Select OK . The installation begins. |
 | You want to revisit screens to modify the configuration. | Select Back . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

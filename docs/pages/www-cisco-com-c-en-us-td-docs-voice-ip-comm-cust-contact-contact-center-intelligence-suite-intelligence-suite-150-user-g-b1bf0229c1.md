@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-b1bf0229c1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_unified-intelligence-center-gadgets-in-cisco-finesse.html
-retrieved_at: 2026-08-21T04:42:54.161027+00:00
+retrieved_at: 2026-10-19T10:15:03.032360+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -343,3 +343,7 @@ RELDATE%20THISWEEK&@end_date=RELDATE%20THISWEEK&@agent.id=~loginId~ |
 
 | Note | When the button is paused and updates are available on the gadget, a notification appears over the pause or play button. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

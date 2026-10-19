@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-2a549a225b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/command_line_interface.html
-retrieved_at: 2026-08-21T04:42:08.920237+00:00
+retrieved_at: 2026-10-19T10:13:51.950036+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -4302,6 +4302,10 @@ If you choose to configure Unified Intelligence Center with Live Data using CLI 
 
 Certain CLI commands are useful for specific inquiries.
 
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
+
 | Note | This command is available in Cisco Unified Intelligence Center standalone, Live Data standalone, and Cisco Unified Intelligence
                                              Center/Live Data coresident. |
 |---|---|
@@ -4437,3 +4441,7 @@ Certain CLI commands are useful for specific inquiries.
 
 | Note | If you choose to configure Unified Intelligence Center with Live Data using CLI commands, refer chapter 4 on Live Data Installation in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

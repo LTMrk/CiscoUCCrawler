@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-00489e7d83
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_dashboards.html
-retrieved_at: 2026-08-21T04:42:29.175575+00:00
+retrieved_at: 2026-10-19T10:14:33.978498+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -402,3 +402,7 @@ For more information on Report Filters, see Report Filters .
                                        The browser cache is retained up to 30 days. Every time you run the report, the filter data in the browser cache is validated for permissions. If there is a permission
                                        mismatch, an error message appears that the filter you selected before is no longer valid and select the filters again. Also, if any other user sign-in to the same browser, that user cannot view your filter settings. The filter settings stored in your browser cache are cleared only: If you have not used the Dashboard for the last 30 days. If you manually clear the cache. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

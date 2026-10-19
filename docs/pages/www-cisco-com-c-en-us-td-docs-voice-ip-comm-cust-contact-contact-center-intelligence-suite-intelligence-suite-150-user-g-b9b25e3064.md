@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-b9b25e3064
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_schedule-report.html
-retrieved_at: 2026-08-21T04:42:45.984904+00:00
+retrieved_at: 2026-10-19T10:14:59.061582+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -521,3 +521,7 @@ Reports that are scheduled to run only once, are updated with a new schedule tim
 | Note | Scheduler relies on the Refresh Rate parameter in the Report Definition. You can configure the Refresh Rate parameter lower
                                        than the Scheduler Frequency. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

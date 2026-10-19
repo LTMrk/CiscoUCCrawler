@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-maint-5c3dd92c70
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/maintain_and_operate/guide/cuic_b_1262-admin-console-user-guide/cuic_m_1262-log-and-trace-settings.html
-retrieved_at: 2026-08-21T04:40:11.763569+00:00
+retrieved_at: 2026-10-19T10:12:26.197769+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -1651,3 +1651,7 @@ ReplicateCount -> Replicate_State = 2 Be aware that the Replicate_State object s
 | Step 3 | To enable IPv6, check the Enable IPv6 check box (or uncheck the box to disable IPv6). |
 | Step 4 | Enter values for IPv6 Address , Subnet Mask , and Default Gateway . |
 | Step 5 | To restart after you save the changes, check the Update with Reboot check box. Click Save |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

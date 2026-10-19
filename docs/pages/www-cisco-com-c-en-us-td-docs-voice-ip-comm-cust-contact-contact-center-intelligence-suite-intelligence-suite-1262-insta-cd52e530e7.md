@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-insta-cd52e530e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262/cuic_m_controller-configuration-1261.html
-retrieved_at: 2026-08-21T16:14:24.743531+00:00
+retrieved_at: 2026-10-19T10:11:21.405426+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -215,3 +215,7 @@ In
                                                    				The Application User credentials entered during the Controller installation are
                                                    				the only ones recognized by Unified CCE. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

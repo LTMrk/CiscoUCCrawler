@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-installation-guide-pcce-b-cisco-89a6dc4b48
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/installation/guide/pcce_b_cisco-pcce-installationandupgrade-guide-12_5/pcce_b_cisco-pcce-installationandupgrade-guide-12_5_appendix_01100.html
-retrieved_at: 2026-08-21T16:39:34.572541+00:00
+retrieved_at: 2026-10-19T10:18:30.187083+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.5(1) and 12.5(2)
@@ -238,3 +238,7 @@ Repeat the steps for all CCE solutions.
 
 | Note | To revert to older version of tomcat, execute same command with path to older tomcat installer. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

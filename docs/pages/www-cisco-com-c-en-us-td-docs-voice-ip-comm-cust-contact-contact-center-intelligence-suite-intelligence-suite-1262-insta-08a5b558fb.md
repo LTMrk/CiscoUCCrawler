@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1262-insta-08a5b558fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1262/install/guide/cuic_b_install-and-upgrade-guide-1262/cuic_m_language-pack-for-cuic-1261.html
-retrieved_at: 2026-08-21T16:14:46.162239+00:00
+retrieved_at: 2026-10-19T10:11:37.968949+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(2)
@@ -70,3 +70,7 @@ When the installation is complete on both Cisco Unified Intelligence Center serv
 | Step 5 | Reboot the server. |
 | Step 6 | Repeat step 2 through step 5 on the secondary Cisco Unified Intelligence Center server. |
 | Step 7 | When the installation is complete on both Cisco Unified Intelligence Center servers, and all Cisco Unified Intelligence Center users must clear their browser cache and cookies. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

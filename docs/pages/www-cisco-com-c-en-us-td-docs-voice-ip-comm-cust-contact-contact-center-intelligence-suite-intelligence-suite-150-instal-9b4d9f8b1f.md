@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-instal-9b4d9f8b1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/install/guide/cuic_b_install_upgrade_guide_15_0/cuic_m_1501_preface.html
-retrieved_at: 2026-08-21T04:40:51.256027+00:00
+retrieved_at: 2026-10-19T10:13:28.682351+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -77,7 +77,7 @@ To get the business results you’re looking for with the technologies that matt
 
 To submit a service request, visit Cisco Support .
 
-To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco DevNet .
+To discover and browse secure, validated enterprise-class apps, products, solutions and services, visit Cisco Marketplace .
 
 To obtain general networking, training, and certification titles, visit Cisco Press .
 
@@ -85,8 +85,8 @@ To find warranty information for a specific product or product family, access Ci
 
 ### Cisco Bug Search Tool
 
-Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of
-                              defects and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
+Cisco Bug Search Tool (BST) is a web-based tool that acts as a gateway to the Cisco bug tracking system that maintains a comprehensive list of defects
+                              and vulnerabilities in Cisco products and software. BST provides you with detailed defect information about your products
                               and software.
 
 ## Documentation
@@ -107,3 +107,7 @@ We appreciate your comments.
 | Note | This document might not represent the latest Cisco product information available. Obtain the most current documentation at
                                     this URL: https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/tsd-products-support-series-home.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

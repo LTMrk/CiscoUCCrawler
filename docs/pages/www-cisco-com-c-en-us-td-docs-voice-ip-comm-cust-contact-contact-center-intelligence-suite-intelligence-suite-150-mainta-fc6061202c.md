@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-mainta-fc6061202c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/maintain_and_operate/guide/cuic_b_150_admin-console-user-guide/cluster_config_drawer.html
-retrieved_at: 2026-08-21T04:32:24.452770+00:00
+retrieved_at: 2026-10-19T10:13:46.049701+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1)
@@ -250,6 +250,9 @@ Save saves the configuration information you entered for SMTP settings.
 Clicking Save does not validate the configuration . Use the Test Connection button to test the connection.
 
 To manage the TLS version used by Unified Intelligence Center to connect with the SMTP server, refer set tls client min-version . By default, it uses TLSv1.2. For more information, see Set Commands .
+
+For authenticated SMTP connections, Unified Intelligence Center supports only the AUTH PLAIN authentication mechanism. Ensure
+                                                that the configured SMTP server supports AUTH PLAIN; other authentication mechanisms are not supported.
 
 ### Upload Self-Signed Certificates
 
@@ -533,6 +536,10 @@ Member/subscriber node is added in OAMP, but the cluster mode in the newly added
 
 For more information, contact Cisco support to troubleshoot and reset the cluster.
 
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
+
 | Note | Cisco Unified
                                           			 Intelligence Center uses LDAP V2 which does not support all Unicode characters
                                           			 that are used in the first name or surname of LDAP users. |
@@ -640,6 +647,10 @@ For more information, contact Cisco support to troubleshoot and reset the cluste
 | Note | To manage the TLS version used by Unified Intelligence Center to connect with the SMTP server, refer set tls client min-version . By default, it uses TLSv1.2. For more information, see Set Commands . |
 |---|---|
 
+| Note | For authenticated SMTP connections, Unified Intelligence Center supports only the AUTH PLAIN authentication mechanism. Ensure
+                                                that the configured SMTP server supports AUTH PLAIN; other authentication mechanisms are not supported. |
+|---|---|
+
 | Step 1 | Log in to cmplatform and navigate to Security > Certificate Management . |
 |---|---|
 | Step 2 | Click Upload Certificate/Certificate Chain . The Upload
@@ -729,3 +740,7 @@ For more information, contact Cisco support to troubleshoot and reset the cluste
 | Note | If any of the above mentioned cases cause issue because of the restrictions on multicasting in the customer environment, you
                                              can use TCP/IP for Hazelcast discovery. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

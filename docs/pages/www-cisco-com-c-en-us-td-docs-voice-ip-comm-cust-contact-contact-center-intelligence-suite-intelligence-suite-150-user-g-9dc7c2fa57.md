@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-150-user-g-9dc7c2fa57
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_150/user/guide/cuic_b_1501_user-guide/cuic_m_1501_reports.html
-retrieved_at: 2026-08-21T04:42:34.123489+00:00
+retrieved_at: 2026-10-19T10:14:55.553078+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 15.0(1)
@@ -1307,6 +1307,10 @@ Step 3
 
 Click OK .
 
+### Customers Also Viewed
+
+- Configuring of Standalone CUIC with UCCX 12.5
+
 | Note | All actions on the Reports interface are based on user role and on the user's object permissions for reports and for folders. |
 |---|---|
 
@@ -1830,3 +1834,7 @@ Click OK .
 | Note | If necessary, you can rename the report or the report folder. Do not change the file extension (Reports or report folder:
                                                       zip). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
