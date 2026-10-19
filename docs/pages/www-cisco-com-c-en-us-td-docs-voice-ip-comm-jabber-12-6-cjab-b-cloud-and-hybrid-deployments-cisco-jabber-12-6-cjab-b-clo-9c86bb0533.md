@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-cloud-and-hybrid-deployments-cisco-jabber-12-6-cjab-b-clo-9c86bb0533
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6_chapter_01001.html
-retrieved_at: 2026-08-21T19:09:28.089955+00:00
+retrieved_at: 2026-10-19T11:18:42.783857+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.6
@@ -310,3 +310,7 @@ Users exit or are not signed in to the client.
 
 | Note | The Device Information section on the Phone Configuration window contains a Active Remote Destination field. When users select a remote destination in the client, it displays as the value of Active Remote Destination . none displays as the value of Active Remote Destination if: Users do not select a remote destination in the client. Users exit or are not signed in to the client. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

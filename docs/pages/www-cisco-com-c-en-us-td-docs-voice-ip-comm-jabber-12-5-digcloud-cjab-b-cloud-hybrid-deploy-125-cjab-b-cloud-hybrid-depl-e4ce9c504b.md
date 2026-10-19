@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-e4ce9c504b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_01111.html
-retrieved_at: 2026-08-21T21:13:34.499811+00:00
+retrieved_at: 2026-10-19T11:14:38.525620+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -2788,3 +2788,7 @@ To install Jabber Softphone for VDI, follow the instructions in the Deployment a
 | Step 1 | Complete the workflow for deploying Jabber. |
 |---|---|
 | Step 2 | To install Jabber Softphone for VDI, follow the instructions in the Deployment and Installation Guide for Cisco Jabber Softphone for VDI for the client you are installing. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

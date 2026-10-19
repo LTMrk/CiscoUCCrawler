@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-feature-configuration-cisco-jabber-12-6-cjab-b-feature-co-eda47b8f2e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_feature-configuration-cisco-jabber_12-6/cjab_b_feature-configuration-cisco-jabber_12-6_preface_00.html
-retrieved_at: 2026-08-21T05:14:10.869623+00:00
+retrieved_at: 2026-10-19T11:19:55.086566+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.6
@@ -163,3 +163,7 @@ Meeting Controls for Video Device-Enabled Meetings
                                        or CAPF enrolment deployed. | ActiveControl |
 |  | New | Users can join a Webex meeting in Jabber without needing to launch the Webex app for video device-enabled meetings. | Meeting Controls for Video Device-Enabled Meetings |
 | November, 2019 | Changed | The Wireless Location Service feature works for all Cisco Jabber clients. | Wireless Location Monitoring Service |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

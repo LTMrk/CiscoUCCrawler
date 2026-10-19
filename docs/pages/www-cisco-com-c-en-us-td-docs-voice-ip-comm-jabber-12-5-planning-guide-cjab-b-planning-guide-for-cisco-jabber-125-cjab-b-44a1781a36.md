@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-planning-guide-cjab-b-planning-guide-for-cisco-jabber-125-cjab-b-44a1781a36
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Planning_Guide/cjab_b_planning-guide-for-cisco-jabber-125/cjab_b_planning-guide-for-cisco-jabber-125_chapter_01.html
-retrieved_at: 2026-08-21T19:10:06.160460+00:00
+retrieved_at: 2026-10-19T11:17:30.726830+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.5
@@ -528,3 +528,7 @@ X
 | Thai 
                                           					 - Thailand | X | X |  | 1054 |
 | Turkish | X | X | X | 1055 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

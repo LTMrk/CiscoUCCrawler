@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-parameter-guide-cjab-b-parameters-reference-guide-jabber-125-cja-ef6b6af9d4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_010.html
-retrieved_at: 2026-08-21T05:13:24.475800+00:00
+retrieved_at: 2026-10-19T11:16:49.026663+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.5
@@ -121,3 +121,7 @@ The following is
   </Directory>
 </config>
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

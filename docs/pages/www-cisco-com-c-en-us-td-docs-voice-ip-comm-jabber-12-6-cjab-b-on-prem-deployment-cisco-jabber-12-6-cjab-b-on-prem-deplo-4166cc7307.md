@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-on-prem-deployment-cisco-jabber-12-6-cjab-b-on-prem-deplo-4166cc7307
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_on-prem-deployment-cisco-jabber_12-6/cjab_b_on-prem-deployment-cisco-jabber_12-6_chapter_01110.html
-retrieved_at: 2026-08-21T21:08:19.277675+00:00
+retrieved_at: 2026-10-19T11:21:15.645410+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.6
@@ -267,3 +267,7 @@ Tap the device Settings > Security > Install from device storage and follow the 
 | Step 1 | Download the CA certificate to the device. |
 |---|---|
 | Step 2 | Tap the device Settings > Security > Install from device storage and follow the instructions. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

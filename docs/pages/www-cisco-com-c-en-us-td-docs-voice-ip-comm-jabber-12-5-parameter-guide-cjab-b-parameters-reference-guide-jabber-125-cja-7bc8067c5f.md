@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-parameter-guide-cjab-b-parameters-reference-guide-jabber-125-cja-7bc8067c5f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_chapter_0101.html
-retrieved_at: 2026-08-21T05:13:37.129959+00:00
+retrieved_at: 2026-10-19T11:17:05.828822+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.5
@@ -275,3 +275,7 @@ Example: <useCUCMGroupForCti>true</useCUCMGroupForCti>
                                              				an invalid meeting site, users cannot add, or edit, any meetings sites in the
                                              				client user interface. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

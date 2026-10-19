@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-parameter-guide-cjab-b-parameters-reference-guide-jabber-125-cja-3194af233d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Parameter_Guide/cjab_b_parameters-reference-guide-jabber_125/cjab_b_parameters-reference-guide-jabber_125_preface_00.html
-retrieved_at: 2026-08-21T05:13:15.972108+00:00
+retrieved_at: 2026-10-19T11:17:26.390793+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.5
@@ -106,3 +106,9 @@ Jabber Client Configuration Methods
 |---|---|---|---|
 | November, 2018 | Changed | UC Manager Configuration feature update | Purpose of this Guide |
 | New | UC Manager Configuration feature | Jabber Client Configuration Methods |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

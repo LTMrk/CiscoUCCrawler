@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-dig-onprem-cjab-b-on-premises-deployment-cisco-jabber-125-cjab-b-3bbd6014dd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIG_OnPrem/cjab_b_on-premises-deployment-cisco-jabber_125/cjab_b_on-premises-deployment-cisco-jabber_125_chapter_0111.html
-retrieved_at: 2026-08-21T21:09:22.986835+00:00
+retrieved_at: 2026-10-19T11:15:58.141884+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.5
@@ -174,3 +174,7 @@ Select Save .
 
 | Note | You cannot synchronize the credentials you specify in Cisco Unified Communications Manager with credentials you specify in Cisco Webex Meetings Server. For example, if you specify that instant messaging and presence credentials for a user are synchronized with their Cisco Webex Meetings Server credentials, the instant messaging and presence credentials for that user change. You must update the Cisco Webex Meetings Server credentials for that user to match that change. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-planning-guide-for-cisco-jabber-12-6-cjab-b-planning-guid-d1161a3191
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_chapter_01001.html
-retrieved_at: 2026-08-21T05:16:06.010695+00:00
+retrieved_at: 2026-10-19T11:22:27.169230+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.6
@@ -77,3 +77,7 @@ RDP requires port 3389 by default. IM-only screen share default port range is 49
 Applies to all Cisco Jabber clients.
 
 You can escalate to an instant Webex Meetings and share your screen using the Webex Meetings controls.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

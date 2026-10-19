@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-parameters-reference-guide-cisco-jabber-12-6-cjab-b-param-dcde1b3255
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_011.html
-retrieved_at: 2026-08-21T05:14:55.273577+00:00
+retrieved_at: 2026-10-19T11:21:58.054213+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.6
@@ -908,3 +908,7 @@ When this parameter is specified in the jabber-config.xml file on a TFTP server,
 | Note | When this parameter is specified in the jabber-config.xml file on a TFTP server, it becomes effective only after the client
                                           is restarted ( File > Exit ). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

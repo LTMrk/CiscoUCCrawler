@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-on-prem-deployment-cisco-jabber-12-6-cjab-b-on-prem-deplo-5bc02b31cd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_on-prem-deployment-cisco-jabber_12-6/cjab_b_on-prem-deployment-cisco-jabber_12-6_chapter_01011.html
-retrieved_at: 2026-08-21T21:08:06.622325+00:00
+retrieved_at: 2026-10-19T11:20:50.922589+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.6
@@ -692,3 +692,7 @@ Select Save on the End User
 
 | Remember | If you are provisioning users with secure phone capabilities, do not assign the users to the Standard CTI Secure Connection group. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

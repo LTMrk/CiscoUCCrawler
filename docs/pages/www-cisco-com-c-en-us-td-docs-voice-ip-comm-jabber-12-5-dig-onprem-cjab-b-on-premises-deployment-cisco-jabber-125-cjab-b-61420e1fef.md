@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-dig-onprem-cjab-b-on-premises-deployment-cisco-jabber-125-cjab-b-61420e1fef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIG_OnPrem/cjab_b_on-premises-deployment-cisco-jabber_125/cjab_b_on-premises-deployment-cisco-jabber_125_chapter_010000.html
-retrieved_at: 2026-08-21T21:12:09.756863+00:00
+retrieved_at: 2026-10-19T11:15:04.271526+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.5
@@ -2686,3 +2686,7 @@ Example: <AllowURLProvisioning> false </AllowURLProvisioning>
 | Note | To enable CC_MODE, the RSA key size must be at least 2048 bits. For more information about how to set up Jabber to run in
                                              common criteria mode, read about how to Deploy Cisco Jabber Applications in the On-Premises Deployment Guide for Cisco Jabber 12.5 . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

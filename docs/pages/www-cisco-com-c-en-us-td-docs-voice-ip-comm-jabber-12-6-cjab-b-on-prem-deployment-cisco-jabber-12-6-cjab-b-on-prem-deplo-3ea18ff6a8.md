@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-on-prem-deployment-cisco-jabber-12-6-cjab-b-on-prem-deplo-3ea18ff6a8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_on-prem-deployment-cisco-jabber_12-6/cjab_b_on-prem-deployment-cisco-jabber_12-6_chapter_01000.html
-retrieved_at: 2026-08-21T21:07:54.186469+00:00
+retrieved_at: 2026-10-19T11:20:12.329547+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.6
@@ -147,3 +147,7 @@ Select Save .
 | Step 3 | Find and select your service profile. Service Profile Configuration window opens. |
 | Step 4 | Navigate to CTI Profile section, and select up to three services from the following drop-down lists: Primary Secondary Tertiary |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

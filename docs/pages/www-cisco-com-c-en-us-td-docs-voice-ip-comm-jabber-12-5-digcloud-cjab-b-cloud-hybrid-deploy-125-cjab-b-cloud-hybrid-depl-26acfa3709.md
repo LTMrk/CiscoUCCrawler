@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-26acfa3709
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_01100.html
-retrieved_at: 2026-08-21T21:13:16.070436+00:00
+retrieved_at: 2026-10-19T11:14:20.070282+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -92,3 +92,7 @@ Displays _collab-edge. exampledomain : Non-existent
 | Step 3 | Enter set type=SRV . |
 | Step 4 | Enter the name for each of your SRV records. For example _collab-edge. exampledomain Displays server and address—SRV record is accessible. Displays _collab-edge. exampledomain : Non-existent
                                                       						domain —There is an issue with your SRV record. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

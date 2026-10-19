@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-cloud-and-hybrid-deployments-cisco-jabber-12-6-cjab-b-clo-a0bfa5bc15
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6_chapter_0101.html
-retrieved_at: 2026-08-21T19:09:11.511947+00:00
+retrieved_at: 2026-10-19T11:18:46.942096+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.6
@@ -609,3 +609,7 @@ Select Save to save the policy group assignment and return
                                        			 group and select Assign to assign the policy to this user. |
 | Step 9 | Select Save to save the policy group assignment and return
                                        			 to the User tab. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-planning-guide-cjab-b-planning-guide-for-cisco-jabber-125-cjab-b-b623733c60
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Planning_Guide/cjab_b_planning-guide-for-cisco-jabber-125/cjab_b_planning-guide-for-cisco-jabber-125_chapter_01000.html
-retrieved_at: 2026-08-21T19:12:39.041904+00:00
+retrieved_at: 2026-10-19T11:17:43.642025+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.5
@@ -77,3 +77,7 @@ Mobile Clients —Jabber signs out automatically. You then receive a pop-up noti
 | IM_Enabled | All Clients | Sign out |
 | Disallow-jaibreak-device | Mobile Clients | Sign out |
 | EnableChats | Jabber Windows only | Sign out |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

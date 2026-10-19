@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-cloud-and-hybrid-deployments-cisco-jabber-12-6-cjab-b-clo-4fcf243308
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6_chapter_0111.html
-retrieved_at: 2026-08-21T19:09:19.914789+00:00
+retrieved_at: 2026-10-19T11:19:12.455070+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.6
@@ -546,3 +546,7 @@ Select Close to close the Device Reset dialog box.
 | Step 7 | Select Reset . The Device Reset dialog box opens. |
 | Step 8 | Select Reset . |
 | Step 9 | Select Close to close the Device Reset dialog box. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

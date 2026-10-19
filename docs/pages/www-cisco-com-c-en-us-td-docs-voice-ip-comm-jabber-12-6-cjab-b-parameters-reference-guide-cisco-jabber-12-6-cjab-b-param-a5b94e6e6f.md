@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-parameters-reference-guide-cisco-jabber-12-6-cjab-b-param-a5b94e6e6f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_chapter_0100.html
-retrieved_at: 2026-08-21T05:14:59.120681+00:00
+retrieved_at: 2026-10-19T11:21:36.959481+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.6
@@ -615,3 +615,7 @@ Example: <UserBridgeUriAdmin>%%uid%%@example.com</UserBridgeUriAdmin>
 | Important | Server settings take priority over this parameter in the client configuration file. However, if users change the default option
                                           in the client user interface, that setting takes priority over both the server and client configurations. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

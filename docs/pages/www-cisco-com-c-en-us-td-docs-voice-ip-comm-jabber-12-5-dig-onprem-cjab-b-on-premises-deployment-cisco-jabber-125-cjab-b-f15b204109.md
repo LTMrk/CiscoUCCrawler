@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-dig-onprem-cjab-b-on-premises-deployment-cisco-jabber-125-cjab-b-f15b204109
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIG_OnPrem/cjab_b_on-premises-deployment-cisco-jabber_125/cjab_b_on-premises-deployment-cisco-jabber_125_chapter_010001.html
-retrieved_at: 2026-08-21T21:12:13.722507+00:00
+retrieved_at: 2026-10-19T11:15:07.782534+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.5
@@ -588,3 +588,7 @@ Select Save .
 | Step 4 | In the Mobile and Remote Access Policy section, select Enable Mobile and Remote Access . |
 | Step 5 | In the Jabber Policies drop-down, choose a policy: No Service —Users cannot access any Cisco Jabber service. IM & Presence only —Users can access only IM, presence, voicemail, and contact search. IM & Presence, Voice and Video calls —Users can access all Cisco Jabber services. |
 | Step 6 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-parameters-reference-guide-cisco-jabber-12-6-cjab-b-param-d285fb34cc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_parameters-reference-guide-cisco-jabber_12-6/cjab_b_parameters-reference-guide-cisco-jabber_12-6_preface_00.html
-retrieved_at: 2026-08-21T05:14:41.943697+00:00
+retrieved_at: 2026-10-19T11:22:10.197880+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.6
@@ -177,3 +177,7 @@ March, 2019
 |---|---|---|---|
 | March, 2019 |  |  |  |
 |  |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-dig-onprem-cjab-b-on-premises-deployment-cisco-jabber-125-cjab-b-17f057212c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIG_OnPrem/cjab_b_on-premises-deployment-cisco-jabber_125/cjab_b_on-premises-deployment-cisco-jabber_125_chapter_0100.html
-retrieved_at: 2026-08-21T21:09:10.329175+00:00
+retrieved_at: 2026-10-19T11:14:54.652170+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.5
@@ -481,3 +481,7 @@ In the UriPrefix parameter, specify any prefix text that precedes each contact I
 | Note | When you deploy intradomain federation and the client connects with Expressway for Mobile and Remote Access from outside the
                                                          firewall, contact search is supported only when the contact ID uses one of the following formats: sAMAccountName@domain UserPrincipleName (UPN)@domain EmailAddress@domain employeeNumber@domain phoneNumber@domain |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

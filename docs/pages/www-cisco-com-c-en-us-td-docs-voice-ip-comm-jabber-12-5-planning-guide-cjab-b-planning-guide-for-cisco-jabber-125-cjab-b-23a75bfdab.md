@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-planning-guide-cjab-b-planning-guide-for-cisco-jabber-125-cjab-b-23a75bfdab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Planning_Guide/cjab_b_planning-guide-for-cisco-jabber-125/cjab_b_planning-guide-for-cisco-jabber-125_chapter_0101.html
-retrieved_at: 2026-08-21T19:12:27.396228+00:00
+retrieved_at: 2026-10-19T11:17:52.822362+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.5
@@ -1111,3 +1111,26 @@ Group configuration is supported on TCT and BOT with COP file later than 14122 v
 | Parameter value is set | Parameter value is blank | Service profile |
 | Parameter value is blank | Parameter value is set | Configuration file |
 | Parameter value is blank | Parameter value is blank | Service profile blank (default) value |
+
+## Figuras
+
+![Figure 1. Login Flow for Service Discovery](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371475.eps/_jcr_content/renditions/371475.jpg)
+
+![Figure 2. Client Connecting to Internal Services](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380422.tif/_jcr_content/renditions/380422.jpg)
+
+![Figure 3. Client Connects through Expressway for Mobile and Remote Access](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371476.eps/_jcr_content/renditions/371476.jpg)
+
+![Figure 4. UDS SRV
+                                 		  Record Login Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380427.tif/_jcr_content/renditions/380427.jpg)
+
+![Figure 5. Collaboration Edge Record Login Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/401001-402000/401333.tif/_jcr_content/renditions/401333.jpg)
+
+![Figure 6. Separate Domain Design](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380426.tif/_jcr_content/renditions/380426.jpg)
+
+![Figure 7. Single Domain, Split-Brain](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380425.tif/_jcr_content/renditions/380425.jpg)
+
+![Figure 8. Single Domain, Not Split-Brain](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380424.tif/_jcr_content/renditions/380424.jpg)
+
+![Figure 9. Client Behavior During a Failover](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/373001-374000/373352.eps/_jcr_content/renditions/373352.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

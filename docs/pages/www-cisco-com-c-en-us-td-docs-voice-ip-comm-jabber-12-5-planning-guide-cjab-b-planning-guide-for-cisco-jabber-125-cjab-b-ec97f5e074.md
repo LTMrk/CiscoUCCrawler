@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-planning-guide-cjab-b-planning-guide-for-cisco-jabber-125-cjab-b-ec97f5e074
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Planning_Guide/cjab_b_planning-guide-for-cisco-jabber-125/cjab_b_planning-guide-for-cisco-jabber-125_preface_00.html
-retrieved_at: 2026-08-21T19:10:01.755024+00:00
+retrieved_at: 2026-10-19T11:18:12.863561+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.5
@@ -112,3 +112,7 @@ Added information about Common Criteria to the Security and Certificates section
 | November, 2018 | Changed | Requirements | Updated requirements for the 12.5 release. |
 |  | New | Jabber team messaging mode | Added Hybrid Cloud-Based Deployments for Cisco Webex Messaging Service Added information about migrating contacts in Contacts in Jabber Team Messaging Mode . |
 |  | New | Common Criteria mode | Added information about Common Criteria to the Security and Certificates section. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

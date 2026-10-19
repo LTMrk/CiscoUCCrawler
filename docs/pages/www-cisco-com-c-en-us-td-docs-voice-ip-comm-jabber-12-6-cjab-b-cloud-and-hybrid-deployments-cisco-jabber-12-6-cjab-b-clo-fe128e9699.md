@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-cloud-and-hybrid-deployments-cisco-jabber-12-6-cjab-b-clo-fe128e9699
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6_chapter_01011.html
-retrieved_at: 2026-08-21T19:09:36.095229+00:00
+retrieved_at: 2026-10-19T11:18:55.254749+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.6
@@ -201,3 +201,7 @@ Associate the upgrade profile to appropriate users.
 | Step 3 | Name the profile, and specify the upgrade paths for Jabber for Windows and Jabber for Mac users. Automatically upgrade users to the latest version. Upgrade their clients to a specific version. |
 | Step 4 | Save the upgrade profile. |
 | Step 5 | Associate the upgrade profile to appropriate users. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

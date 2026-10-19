@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-cloud-and-hybrid-deployments-cisco-jabber-12-6-cjab-b-clo-85e72c37c8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6/cjab_b_cloud-and-hybrid-deployments-cisco-jabber-12-6_chapter_01100.html
-retrieved_at: 2026-08-21T19:09:39.966648+00:00
+retrieved_at: 2026-10-19T11:19:08.016798+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.6
@@ -99,3 +99,7 @@ Import the CSV file with the Webex Administration Tool.
 | Step 3 | Save the CSV
                                           			 file. |
 | Step 4 | Import the CSV file with the Webex Administration Tool. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

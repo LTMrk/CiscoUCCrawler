@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-features-guide-cjab-b-feature-config-125-cjab-b-feature-config-1-52d2265b96
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/Features_Guide/cjab_b_feature-config-125/cjab_b_feature-config-125_chapter_01.html
-retrieved_at: 2026-08-21T05:12:45.535543+00:00
+retrieved_at: 2026-10-19T11:16:14.994016+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.5
@@ -477,3 +477,7 @@ All clients except Cisco Jabber Softphone for VDI
 | Voicemail Avoidance | Voicemail avoidance is a feature that prevents calls from being answered by the mobile service provider voicemail. | All clients |
 | Wireless Location Monitoring Service | Wireless location monitoring service allows you to determine the physical location from where your Cisco Jabber users connect
                                           to the corporate network. | All clients except Cisco Jabber Softphone for VDI |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

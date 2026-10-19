@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-on-prem-deployment-cisco-jabber-12-6-cjab-b-on-prem-deplo-8d127d68f9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_on-prem-deployment-cisco-jabber_12-6/cjab_b_on-prem-deployment-cisco-jabber_12-6_chapter_01101.html
-retrieved_at: 2026-08-21T21:08:15.305095+00:00
+retrieved_at: 2026-10-19T11:21:07.287275+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.6
@@ -566,3 +566,15 @@ The client retrieves device and client configuration.
 | Remember | You can
                                              			 automatically set the default server address with the _cuplogin SRV record. |
 |---|---|
+
+## Figuras
+
+![Connect through bootstrap file](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346840.tif/_jcr_content/renditions/346840.jpg)
+
+![Client gets address from the bootstrap file](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346836.tif/_jcr_content/renditions/346836.jpg)
+
+![User enters connection settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346841.tif/_jcr_content/renditions/346841.jpg)
+
+![User enters connection settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346837.tif/_jcr_content/renditions/346837.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

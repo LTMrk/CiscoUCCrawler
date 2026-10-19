@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-on-prem-deployment-cisco-jabber-12-6-cjab-b-on-prem-deplo-c5651e7852
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_on-prem-deployment-cisco-jabber_12-6/cjab_b_on-prem-deployment-cisco-jabber_12-6_chapter_011.html
-retrieved_at: 2026-08-21T21:07:32.651008+00:00
+retrieved_at: 2026-10-19T11:20:54.787339+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.6
@@ -80,3 +80,9 @@ Create the UC services for your deployment.
 | Note | On Cisco Unified Communications Manager release 9.x only, users who have IM only capabilities must use the default service
                                                       profile. For this reason, select Use Default . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Service profiles workflow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413378.tif/_jcr_content/renditions/413378.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
