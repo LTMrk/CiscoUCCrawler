@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-deploy-jabber-on-premises-127-cjab-b-deploy-jabber-on-pre-8b184d2bd0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_deploy-jabber-on-premises-127/cjab_b_deploy-jabber-on-premises-127_chapter_010100.html
-retrieved_at: 2026-08-21T21:07:12.059771+00:00
+retrieved_at: 2026-10-19T11:25:32.546739+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.7
@@ -73,3 +73,7 @@ SIP URI
 Email
 
 For more information about the ContactsDiagnosticsToolEnabled installation parameter, see On-Premises Deployment for Cisco Jabber , or Cloud and Hybrid Deployments for Cisco Jabber , depending on your deployment.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

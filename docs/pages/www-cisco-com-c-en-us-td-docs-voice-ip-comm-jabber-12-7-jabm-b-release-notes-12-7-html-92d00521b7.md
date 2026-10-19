@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-jabm-b-release-notes-12-7-html-92d00521b7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabm_b_release-notes-12-7.html
-retrieved_at: 2026-08-21T07:00:31.598452+00:00
+retrieved_at: 2026-10-19T11:29:32.271223+00:00
 ---
 
 Release Notes for Cisco Jabber for Mac 12.7
@@ -741,3 +741,7 @@ Jabber MAC strips country code when dialling out from call history.
 | CSCvq28009 | 3 | Jabber bot: typing in HTML <textarea> moves focus to client's message input window |
 | CSCvq66901 | 3 | Jabber for Mac 12.6.1 Unable to see Participant list when calling into Webex |
 | CSCvq97047 | 3 | Jabber MAC strips country code when dialling out from call history. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

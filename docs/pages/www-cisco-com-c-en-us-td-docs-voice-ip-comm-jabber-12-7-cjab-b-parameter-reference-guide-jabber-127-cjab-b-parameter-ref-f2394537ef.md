@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-parameter-reference-guide-jabber-127-cjab-b-parameter-ref-f2394537ef
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_preface_00.html
-retrieved_at: 2026-08-21T05:16:57.014550+00:00
+retrieved_at: 2026-10-19T11:28:34.889201+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.7
@@ -188,3 +188,7 @@ Client
 |  | StartCallsWithVideoOverCellular | New parameter | Client |
 |  | UnreadMessageDeleteAlert | New parameter | Client |
 |  | UXModel | New parameter | Client |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

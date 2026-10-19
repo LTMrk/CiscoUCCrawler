@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-feature-configuration-for-jabber-127-cjab-b-feature-confi-914894ff53
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_011.html
-retrieved_at: 2026-08-21T05:16:41.389587+00:00
+retrieved_at: 2026-10-19T11:27:40.084193+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.7
@@ -3690,3 +3690,7 @@ The voicemail server's administrator can also create distribution lists to which
                                                 					 release 10 with Dial via Office In the Single Number Reach Voicemail Policy drop-down list, select Timer Control . In the Dial-via-Office Reverse Voicemail
                                                          							 Policy drop-down list, select User Control . |
 | Step 5 | Click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-feature-configuration-for-jabber-128-cjab-b-feature-confi-4b8f3e70d1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_feature-configuration-for-jabber-128/cjab_b_feature-configuration-for-jabber-128_chapter_011.html
-retrieved_at: 2026-08-21T05:21:43.469122+00:00
+retrieved_at: 2026-10-19T11:32:36.893780+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.8
@@ -3720,3 +3720,7 @@ Jabber doesn't support Extension Mobility in contact center deployments.
 
 | Note | Jabber doesn't support Extension Mobility in contact center deployments. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

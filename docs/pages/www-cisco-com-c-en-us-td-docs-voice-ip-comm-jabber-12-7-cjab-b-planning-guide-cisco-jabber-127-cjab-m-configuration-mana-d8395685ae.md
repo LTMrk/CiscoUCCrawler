@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-planning-guide-cisco-jabber-127-cjab-m-configuration-mana-d8395685ae
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_planning-guide-cisco-jabber-127/cjab_m_configuration-management-127.html
-retrieved_at: 2026-08-21T19:08:33.171610+00:00
+retrieved_at: 2026-10-19T11:28:42.904409+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.7
@@ -84,3 +84,7 @@ Sign out
 | IM_Enabled | All Clients | Sign out |
 | Disallow-jaibreak-device | Mobile Clients | Sign out |
 | EnableChats | Jabber Windows only | Sign out |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

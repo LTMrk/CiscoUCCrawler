@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-6-cjab-b-planning-guide-for-cisco-jabber-12-6-cjab-b-planning-guid-f78a0afeb2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_6/cjab_b_planning-guide-for-cisco-jabber-12-6/cjab_b_planning-guide-for-cisco-jabber-12-6_preface_00.html
-retrieved_at: 2026-08-21T05:15:32.819748+00:00
+retrieved_at: 2026-10-19T11:24:38.268001+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.6
@@ -144,3 +144,7 @@ Deployment Scenarios
 |  | Changed | Updated ChromeBook Support | Hardware Requirements |
 |  | Changed | Updated HD Video Device Support | Hardware Requirements |
 |  | New | Deploy Jabber Softphone for VDI | Deployment Scenarios |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

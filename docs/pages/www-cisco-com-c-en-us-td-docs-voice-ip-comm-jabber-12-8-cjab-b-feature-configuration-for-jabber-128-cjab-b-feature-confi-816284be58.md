@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-feature-configuration-for-jabber-128-cjab-b-feature-confi-816284be58
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_feature-configuration-for-jabber-128/cjab_b_feature-configuration-for-jabber-128_preface_00.html
-retrieved_at: 2026-08-21T05:21:28.505343+00:00
+retrieved_at: 2026-10-19T11:32:44.204704+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.8
@@ -157,3 +157,7 @@ Jabber Analytics in Webex Control Hub
 | Updated | Added support on mobile clients for several voicemail features. | Voice Messages |
 | New | Added ability to see your sent voice messages. | Show Sent Voice Messages |
 | New | You can now access Jabber analytics in  Webex Control Hub. | Jabber Analytics in Webex Control Hub |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

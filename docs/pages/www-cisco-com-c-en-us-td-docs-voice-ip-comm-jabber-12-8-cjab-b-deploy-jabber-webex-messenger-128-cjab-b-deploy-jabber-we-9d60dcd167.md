@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-webex-messenger-128-cjab-b-deploy-jabber-we-9d60dcd167
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-webex-messenger-128/cjab_b_deploy-jabber-webex-messenger-128_chapter_0101.html
-retrieved_at: 2026-08-21T19:07:16.812790+00:00
+retrieved_at: 2026-10-19T11:31:31.091685+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.8
@@ -609,3 +609,7 @@ Select Save to save the policy group assignment and return
                                        			 group and select Assign to assign the policy to this user. |
 | Step 9 | Select Save to save the policy group assignment and return
                                        			 to the User tab. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

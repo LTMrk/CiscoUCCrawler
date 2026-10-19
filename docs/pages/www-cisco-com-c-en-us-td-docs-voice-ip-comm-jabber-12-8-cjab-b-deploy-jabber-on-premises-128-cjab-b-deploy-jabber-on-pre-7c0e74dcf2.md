@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-on-premises-128-cjab-b-deploy-jabber-on-pre-7c0e74dcf2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128/cjab_b_deploy-jabber-on-premises-128_chapter_01100.html
-retrieved_at: 2026-08-21T05:20:45.819951+00:00
+retrieved_at: 2026-10-19T11:30:48.656663+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.8
@@ -310,3 +310,7 @@ Users exit or are not signed in to the client.
 
 | Note | The Device Information section on the Phone Configuration window contains a Active Remote Destination field. When users select a remote destination in the client, it displays as the value of Active Remote Destination . none displays as the value of Active Remote Destination if: Users do not select a remote destination in the client. Users exit or are not signed in to the client. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

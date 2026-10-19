@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-deploy-jabber-on-premises-127-cjab-b-deploy-jabber-on-pre-f805dcd09c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_deploy-jabber-on-premises-127/cjab_b_deploy-jabber-on-premises-127_chapter_0110.html
-retrieved_at: 2026-08-21T21:06:13.190820+00:00
+retrieved_at: 2026-10-19T11:25:45.257036+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.7
@@ -576,3 +576,7 @@ Cloud-Based
                                              				deployments can use the configuration file parameter VoicemailService_UseCredentialsFrom . Set this parameter
                                              				to the value phone to use the Cisco Unified Communications Manager credentials to sign in to Cisco Unity Connection. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

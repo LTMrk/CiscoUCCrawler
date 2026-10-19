@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-deploy-jabber-on-premises-127-cjab-b-deploy-jabber-on-pre-05e7c0193f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_deploy-jabber-on-premises-127/cjab_b_deploy-jabber-on-premises-127_chapter_010011.html
-retrieved_at: 2026-08-21T21:07:08.182155+00:00
+retrieved_at: 2026-10-19T11:25:15.556210+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.7
@@ -389,3 +389,7 @@ A to D
                                                 				the XMPP: and IM: handlers to create group chats. Use a semi-colon to delimit
                                                 				contacts, as in the following example: XMPP:user_a@domain.com;user_b@domain.com;user_c@domain.com;user_d@domain.com |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

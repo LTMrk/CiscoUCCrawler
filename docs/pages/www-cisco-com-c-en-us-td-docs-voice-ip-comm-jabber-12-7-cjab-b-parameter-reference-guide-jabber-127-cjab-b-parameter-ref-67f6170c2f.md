@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-parameter-reference-guide-jabber-127-cjab-b-parameter-ref-67f6170c2f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_parameter-reference-guide-jabber-127/cjab_b_parameter-reference-guide-jabber-127_chapter_011.html
-retrieved_at: 2026-08-21T05:17:10.312106+00:00
+retrieved_at: 2026-10-19T11:28:21.862439+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.7
@@ -1011,3 +1011,7 @@ Example: <UXModel>modern</UXModel>
 | Note | When this parameter is specified in the jabber-config.xml file on a TFTP server, it becomes effective only after the client
                                           is restarted ( File > Exit ). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

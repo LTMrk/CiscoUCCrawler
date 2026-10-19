@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-deploy-jabber-webex-messenger-127-cjab-b-deploy-jabber-we-28312ca13e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_deploy-jabber-webex-messenger-127/cjab_b_deploy-jabber-webex-messenger-127_chapter_0100.html
-retrieved_at: 2026-08-21T21:04:56.340752+00:00
+retrieved_at: 2026-10-19T11:26:23.155882+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.7
@@ -313,3 +313,7 @@ Select Save .
 | Mailstore Inbox Folder Name | Name of the inbox folder configured at the mailstore server |
 |---|---|
 | Mailstore Trash Folder Name | Name of the trash or deleted items folder configured at the mailstore server |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

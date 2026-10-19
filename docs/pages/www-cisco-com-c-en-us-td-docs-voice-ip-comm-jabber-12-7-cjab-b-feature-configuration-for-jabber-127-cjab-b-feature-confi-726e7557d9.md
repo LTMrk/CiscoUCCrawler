@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-feature-configuration-for-jabber-127-cjab-b-feature-confi-726e7557d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_preface_00.html
-retrieved_at: 2026-08-21T05:16:26.716975+00:00
+retrieved_at: 2026-10-19T11:27:48.128779+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.7
@@ -161,3 +161,7 @@ The Wireless Location Monitoring Service works for all Jabber clients.
 |  | New | Added information on the Voice Message feature. | Voice Messages |
 |  | Updated | Added information on whitelisting to URL parameter. | Custom Embedded Tab Definitions |
 | November, 2019 | Updated | The Wireless Location Monitoring Service works for all Jabber clients. | Wireless Location Monitoring Service |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

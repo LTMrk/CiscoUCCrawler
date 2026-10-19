@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-on-premises-128-cjab-b-deploy-jabber-on-pre-e251246b41
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128/cjab_b_deploy-jabber-on-premises-128_chapter_01111.html
-retrieved_at: 2026-08-21T05:20:54.307660+00:00
+retrieved_at: 2026-10-19T11:31:01.205747+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.8
@@ -667,3 +667,7 @@ This
                                                             					 method is only supported on devices with Android OS 5.0 and later, and Cisco DX
                                                             					 series devices. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

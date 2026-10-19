@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-webex-messenger-128-cjab-b-deploy-jabber-we-06c4d1ae0a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-webex-messenger-128/cjab_b_deploy-jabber-webex-messenger-128_chapter_0110.html
-retrieved_at: 2026-08-21T19:07:20.944082+00:00
+retrieved_at: 2026-10-19T11:31:48.224361+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.8
@@ -398,3 +398,7 @@ Select Save .
                                           			 credentials and a user search base as appropriate. See the Cisco Unified Communications Manager Administration Guide for
                                              				information about the fields on the LDAP Authentication window. |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

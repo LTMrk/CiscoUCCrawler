@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-feature-configuration-for-jabber-127-cjab-b-feature-confi-493c6f466f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_0110.html
-retrieved_at: 2026-08-21T05:16:53.341416+00:00
+retrieved_at: 2026-10-19T11:27:43.721917+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.7
@@ -763,3 +763,7 @@ Restart Cisco Jabber to apply the change.
 | Step 6 | Locate and select the proxyAddresses attribute in the Attributes list box. |
 | Step 7 | Select Edit to open the Multi-valued String Editor dialog box. |
 | Step 8 | In the Value to add text box, specify the following value: SIP:user@cupdomain . For example, SIP:msmith@cisco.com . Where the user@cupdomain value is the user's instant messaging address. cupdomain corresponds to the domain for Cisco Unified Presence or Cisco Unified Communications Manager IM and Presence Service . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

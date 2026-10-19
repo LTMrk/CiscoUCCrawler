@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-jabi-b-release-notes-12-7-html-12193fbf3f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/jabi_b_release-notes-12-7.html
-retrieved_at: 2026-08-21T07:01:05.181484+00:00
+retrieved_at: 2026-10-19T11:29:28.448237+00:00
 ---
 
 Release Notes for Cisco Jabber for iPhone and iPad 12.7
@@ -682,3 +682,7 @@ Jabber does not prompt for session about to expire when in background and call c
 | CSCvp25135 | 3 | Intermittent no audio issue after "Hold & Accept" operation for 2nd call |
 | CSCvq70474 | 3 | iPhone showing presence offline when away |
 | CSCvq95562 | 4 | Jabber does not prompt for session about to expire when in background and call comes in |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

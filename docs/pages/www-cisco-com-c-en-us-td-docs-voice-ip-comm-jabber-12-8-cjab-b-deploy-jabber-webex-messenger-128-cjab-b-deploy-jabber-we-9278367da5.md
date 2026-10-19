@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-webex-messenger-128-cjab-b-deploy-jabber-we-9278367da5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-webex-messenger-128/cjab_b_deploy-jabber-webex-messenger-128_preface_00.html
-retrieved_at: 2026-08-21T19:06:56.011114+00:00
+retrieved_at: 2026-10-19T11:32:13.581265+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.8
@@ -96,3 +96,9 @@ Initial Publication
 | March 2020 | Updated | Removed limitation on number of DNS SRV records checked. | DNS Requirements |
 | Updated | Added information on the new EMM clients: Jabber for Intune and Jabber for BlackBerry. | Mobile Configuration Using Enterprise Mobility Management |
 | January 2020 |  | Initial Publication |  |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

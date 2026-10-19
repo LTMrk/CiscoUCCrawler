@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-on-premises-128-cjab-b-deploy-jabber-on-pre-81fb6a1b5a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128/cjab_b_deploy-jabber-on-premises-128_chapter_01.html
-retrieved_at: 2026-08-21T05:19:59.386023+00:00
+retrieved_at: 2026-10-19T11:29:44.967264+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.8
@@ -53,3 +53,7 @@ Cisco Jabber for Android
 Cisco Jabber Softphone for VDI
 
 For more information about the Cisco Jabber suite of products, see https://www.cisco.com/go/jabber or https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/index.html .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

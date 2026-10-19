@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-deploy-jabber-on-premises-128-cjab-b-deploy-jabber-on-pre-bc17ec96f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_deploy-jabber-on-premises-128/cjab_b_deploy-jabber-on-premises-128_preface_00.html
-retrieved_at: 2026-08-21T05:19:55.239398+00:00
+retrieved_at: 2026-10-19T11:31:05.265335+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.8
@@ -119,3 +119,7 @@ Supported Codecs
 | Updated | Added information on the new EMM clients: Jabber for Intune and Jabber for BlackBerry. | Mobile Configuration Using Enterprise Mobility Management |
 | January 2020 |  | Initial publication |  |
 | Updated | Added H.264 High profile support. | Supported Codecs |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

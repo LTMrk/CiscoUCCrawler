@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-7-cjab-b-feature-configuration-for-jabber-127-cjab-b-feature-confi-500f322f0a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_7/cjab_b_feature-configuration-for-jabber-127/cjab_b_feature-configuration-for-jabber-127_chapter_0100.html
-retrieved_at: 2026-08-21T05:16:45.078941+00:00
+retrieved_at: 2026-10-19T11:27:30.806429+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.7
@@ -405,3 +405,7 @@ After you set this parameter, Jabber detects the configuration change and asks u
 
 | Note | The option to disable telemetry is not available to Jabber team messaging mode users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

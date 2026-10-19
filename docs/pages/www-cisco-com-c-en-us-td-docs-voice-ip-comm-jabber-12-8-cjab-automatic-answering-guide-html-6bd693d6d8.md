@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-automatic-answering-guide-html-6bd693d6d8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_automatic-answering-guide.html
-retrieved_at: 2026-08-21T07:00:56.619174+00:00
+retrieved_at: 2026-10-19T11:29:41.062430+00:00
 ---
 
 Set Up Automatic Answering for Cisco Jabber for iPhone and iPad
@@ -102,3 +102,7 @@ Toggle Auto Answer to on.
 | Step 1 | Tap your profile picture, and then go to Settings > Call Option . |
 |---|---|
 | Step 2 | Toggle Auto Answer to on. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
