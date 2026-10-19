@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-planning-guide-cisco-jabber-128-cjab-m-planning-federatio-94cc5c716e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128/cjab_m_planning-federation-128.html
-retrieved_at: 2026-08-21T19:06:47.717109+00:00
+retrieved_at: 2026-10-19T11:35:36.021713+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.8
@@ -71,3 +71,7 @@ Cisco Unified Communications Manager IM and Presence Service: Partitioned Intrad
                                                          over Expressway for Mobile and Remote Access can use XMPP Interdomain federation if it has been enabled on Cisco Unified Communications
                                                          Manager IM and Presence. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

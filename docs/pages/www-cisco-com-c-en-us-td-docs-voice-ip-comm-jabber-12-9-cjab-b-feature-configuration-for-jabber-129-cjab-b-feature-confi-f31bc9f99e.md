@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-feature-configuration-for-jabber-129-cjab-b-feature-confi-f31bc9f99e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_feature-configuration-for-jabber-129/cjab_b_feature-configuration-for-jabber-129_chapter_01.html
-retrieved_at: 2026-08-21T05:24:22.473454+00:00
+retrieved_at: 2026-10-19T11:38:48.969797+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.9
@@ -505,3 +505,7 @@ All clients except Cisco Jabber Softphone for VDI
 | Note | When Push Notifications are enabled and Cisco Jabber for Android is inactive, the Android title bar does not display a Jabber
                                                       icon. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

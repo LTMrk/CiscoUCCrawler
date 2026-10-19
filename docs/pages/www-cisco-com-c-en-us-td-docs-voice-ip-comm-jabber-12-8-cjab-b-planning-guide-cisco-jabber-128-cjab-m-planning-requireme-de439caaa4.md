@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-planning-guide-cisco-jabber-128-cjab-m-planning-requireme-de439caaa4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128/cjab_m_planning-requirements-128.html
-retrieved_at: 2026-08-21T19:06:14.730970+00:00
+retrieved_at: 2026-10-19T11:35:45.672869+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.8
@@ -2984,3 +2984,7 @@ For more information about configuring Cisco Unified Communications Manager CMR 
                                                 						kbps | Sufficient bandwidth for any audio codec. | 640 x
                                                 						360 at 20 fps |
 | 1024 kbps | Sufficient bandwidth for any audio codec. | 1280 x 720 at 20 fps |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

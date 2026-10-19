@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-webex-messenger-129-cjab-b-deploy-jabber-we-3468fde880
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-webex-messenger-129/cjab_b_deploy-jabber-webex-messenger-129_chapter_01001.html
-retrieved_at: 2026-08-21T21:04:08.807347+00:00
+retrieved_at: 2026-10-19T11:37:59.147905+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.9
@@ -310,3 +310,7 @@ Users exit or are not signed in to the client.
 
 | Note | The Device Information section on the Phone Configuration window contains a Active Remote Destination field. When users select a remote destination in the client, it displays as the value of Active Remote Destination . none displays as the value of Active Remote Destination if: Users do not select a remote destination in the client. Users exit or are not signed in to the client. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

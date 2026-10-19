@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-jabi-b-release-notes-128-html-fe9aad92e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/jabi_b_release-notes-128.html
-retrieved_at: 2026-08-21T07:01:01.098818+00:00
+retrieved_at: 2026-10-19T11:36:06.084667+00:00
 ---
 
 Release Notes for Cisco Jabber for iPhone and iPad 12.8
@@ -704,3 +704,7 @@ Jabber for iPhone version 12.7 the search menu disappears when seraching contact
 | CSCvr12542 | 3 | Jabber does not refresh access token in failover scenario over MRA |
 | CSCvr97701 | 3 | Jabber for iOS crashes when searching contacts |
 | CSCvs51394 | 3 | Jabber for iPhone version 12.7 the search menu disappears when seraching contacts |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

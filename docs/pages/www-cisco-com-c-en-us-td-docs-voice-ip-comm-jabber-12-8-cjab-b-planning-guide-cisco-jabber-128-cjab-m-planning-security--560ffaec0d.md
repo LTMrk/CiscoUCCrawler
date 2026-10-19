@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-planning-guide-cisco-jabber-128-cjab-m-planning-security--560ffaec0d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128/cjab_m_planning-security-and-certificates-128.html
-retrieved_at: 2026-08-21T19:06:35.437406+00:00
+retrieved_at: 2026-10-19T11:35:53.558388+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.8
@@ -738,3 +738,7 @@ C:\ProgramData\Cisco Systems\Cisco Jabber
 | Note | Webex certificates are signed by a public Certificate Authority (CA). Cisco Jabber validates these certificates to establish secure
                                           connections with cloud-based services. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

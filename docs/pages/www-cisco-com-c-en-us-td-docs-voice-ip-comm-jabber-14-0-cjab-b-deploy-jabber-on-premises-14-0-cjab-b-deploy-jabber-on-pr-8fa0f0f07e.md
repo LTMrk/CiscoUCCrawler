@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-on-premises-14-0-cjab-b-deploy-jabber-on-pr-8fa0f0f07e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0/cjab_b_deploy-jabber-on-premises-129_chapter_0101.html
-retrieved_at: 2026-08-21T07:06:52.696406+00:00
+retrieved_at: 2026-10-19T11:41:33.765997+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 14.0
@@ -365,3 +365,7 @@ Restart the Cisco XCP Router service.
 | Step 1 | From Cisco Unified CM IM and Presence Administration , go to Presence > Settings > Standard Configuration . |
 |---|---|
 | Step 2 | Uncheck Enable availability sharing and click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-planning-guide-cisco-jabber-128-cjab-m-planning-screen-sh-d2118a4205
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128/cjab_m_planning-screen-share-128.html
-retrieved_at: 2026-08-21T19:06:43.580579+00:00
+retrieved_at: 2026-10-19T11:35:49.016272+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.8
@@ -84,3 +84,7 @@ You can escalate to an instant Webex Meetings and share your screen using the We
 | Note | In Jabber for Windows, the Screen Share button starts a BFCP screen share by default. If BFCP-based sharing is unavailable, the button starts an IM-only screen share
                                              if possible. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

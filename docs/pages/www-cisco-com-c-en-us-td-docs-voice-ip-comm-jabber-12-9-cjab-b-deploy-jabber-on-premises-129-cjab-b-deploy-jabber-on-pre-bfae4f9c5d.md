@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-on-premises-129-cjab-b-deploy-jabber-on-pre-bfae4f9c5d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129/cjab_b_deploy-jabber-on-premises-129_chapter_010010.html
-retrieved_at: 2026-08-21T05:24:01.906151+00:00
+retrieved_at: 2026-10-19T11:36:43.701867+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.9
@@ -465,3 +465,7 @@ You should mark signaling packets as AF31.
                                              				Differentiated Service for Calls . |
 |---|---|
 | Step 2 | In Cisco Jabber for mobile clients, go to Jabber > Settings > Audio and Video and select Enable Differentiated Service for Calls . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-planning-guide-cisco-jabber-129-cjab-b-planning-guide-cis-c00672a781
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_planning-guide-cisco-jabber-129/cjab_b_planning-guide-cisco-jabber-129_preface_00.html
-retrieved_at: 2026-08-21T19:05:22.061794+00:00
+retrieved_at: 2026-10-19T11:40:51.726265+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.9
@@ -145,3 +145,7 @@ Supported Services
 |  | Updated | iOS 12.x no longer supported | Hardware Requirements for Cisco Jabber for iPhone and iPad |
 |  | Updated | Unified SIP SRST 12.8 now supported | Survivable Remote Site Telephony |
 |  | Updated | Clarifications to "Summary of Supported Services for Expressway for Mobile and Remote Access" table | Supported Services |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

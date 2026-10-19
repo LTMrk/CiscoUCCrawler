@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-jabw-b-release-notes-128-html-abff7aa5a9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/jabw_b_release-notes-128.html
-retrieved_at: 2026-08-21T06:55:55.013157+00:00
+retrieved_at: 2026-10-19T11:36:14.915063+00:00
 ---
 
 Release Notes for Cisco Jabber for Windows 12.8
@@ -1839,3 +1839,7 @@ Jabber 12.7 Dark mode - Status popup window request is unreadable
 | CSCvs49239 | 3 | Jabber Windows 12.7.1 Losing Chat History when switching from classic view to modern view |
 | CSCvt13830 | 3 | Jabber issue with GetAdaptersAddresses() fail causing voicemail re-connect |
 | CSCvs21185 | 5 | Jabber 12.7 Dark mode - Status popup window request is unreadable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

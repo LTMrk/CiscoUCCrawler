@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-planning-guide-cisco-jabber-129-cjab-b-planning-guide-cis-e7aa960c8a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_planning-guide-cisco-jabber-129/cjab_b_planning-guide-cisco-jabber-129_chapter_011.html
-retrieved_at: 2026-08-21T19:05:35.733198+00:00
+retrieved_at: 2026-10-19T11:40:39.213695+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.9
@@ -380,3 +380,7 @@ The node then reroutes subsequent messages to this new client.
                                           highest presence priority. If the presence priority is the same on all devices, then priority is given to the latest client
                                           the user logged in to. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

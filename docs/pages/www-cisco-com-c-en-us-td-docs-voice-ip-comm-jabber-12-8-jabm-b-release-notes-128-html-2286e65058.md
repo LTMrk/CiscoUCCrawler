@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-jabm-b-release-notes-128-html-2286e65058
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/jabm_b_release-notes-128.html
-retrieved_at: 2026-08-21T07:00:27.734117+00:00
+retrieved_at: 2026-10-19T11:36:10.620782+00:00
 ---
 
 Release Notes for Cisco Jabber for Mac 12.8
@@ -872,3 +872,7 @@ On Jabber 12.7.1 MAC the notification badge does not loads if the preload parame
 | CSCvs18528 | 3 | Classic UXModel parameter not applied on Jabber MAC |
 | CSCvs39539 | 3 | Jaber for MAC 12 IM service logs out when making changes to IM account settings on Jabber settings |
 | CSCvs51098 | 4 | On Jabber 12.7.1 MAC the notification badge does not loads if the preload parameter is set to true |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

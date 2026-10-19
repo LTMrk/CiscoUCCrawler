@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-parameter-reference-guide-jabber-128-cjab-b-parameter-ref-e2492f3db6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_parameter-reference-guide-jabber-128/cjab_b_parameter-reference-guide-jabber-128_chapter_0101.html
-retrieved_at: 2026-08-21T05:22:20.993505+00:00
+retrieved_at: 2026-10-19T11:34:49.963477+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.8
@@ -284,3 +284,7 @@ false (default)—Show domain name for the same domain, and show SIP URI for dif
                                              				an invalid meeting site, users cannot add, or edit, any meetings sites in the
                                              				client user interface. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

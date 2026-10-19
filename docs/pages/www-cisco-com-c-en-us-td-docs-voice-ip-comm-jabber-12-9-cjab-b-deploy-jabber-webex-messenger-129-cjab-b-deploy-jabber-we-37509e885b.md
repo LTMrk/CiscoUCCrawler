@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-webex-messenger-129-cjab-b-deploy-jabber-we-37509e885b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-webex-messenger-129/cjab_b_deploy-jabber-webex-messenger-129_chapter_010.html
-retrieved_at: 2026-08-21T21:03:39.598254+00:00
+retrieved_at: 2026-10-19T11:37:46.581320+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.9
@@ -111,3 +111,7 @@ Remote Access
 | Step 9 | Configure the Clients |  |
 | Step 10 | Deploy Cisco Jabber Applications and Jabber Softphone for VDI |  |
 | Step 11 | Remote Access |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

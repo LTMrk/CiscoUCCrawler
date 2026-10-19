@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-on-premises-129-cjab-b-deploy-jabber-on-pre-a338f03058
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129/cjab_b_deploy-jabber-on-premises-129_chapter_010.html
-retrieved_at: 2026-08-21T05:23:03.385488+00:00
+retrieved_at: 2026-10-19T11:36:22.915791+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.9
@@ -677,3 +677,7 @@ Choose how to install the clients for your users.
 | Step 14 | Configure Certificate Validation | Set up the required certificates for each server. |
 | Step 15 | Configure the Clients | Choose what features to include in the client configuration files. |
 | Step 16 | Deploy Cisco Jabber Applications and Jabber Softphone for VDI | Choose how to install the clients for your users. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-on-premises-129-cjab-b-deploy-jabber-on-pre-fd906d71b8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-on-premises-129/cjab_b_deploy-jabber-on-premises-129_preface_00.html
-retrieved_at: 2026-08-21T05:22:54.529106+00:00
+retrieved_at: 2026-10-19T11:37:38.111426+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.9
@@ -62,3 +62,9 @@ Initial publication
 | August 2020 | Updated | Clarified effect of EnableAccessoriesManager on headset call controls. | Accessories Manager |
 |  | New | Added information on ATS with Jabber for BlackBerry and Intune. | App Transport Security on iOS |
 | July 2020 |  | Initial publication |  |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

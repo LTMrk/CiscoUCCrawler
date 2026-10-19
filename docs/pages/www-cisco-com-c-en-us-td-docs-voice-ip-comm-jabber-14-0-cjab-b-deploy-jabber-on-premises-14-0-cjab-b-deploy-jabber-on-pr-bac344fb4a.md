@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-on-premises-14-0-cjab-b-deploy-jabber-on-pr-bac344fb4a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0/cjab_b_deploy-jabber-on-premises-129_chapter_01001.html
-retrieved_at: 2026-08-21T07:07:09.554371+00:00
+retrieved_at: 2026-10-19T11:41:21.610589+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 14.0
@@ -1101,3 +1101,9 @@ Select Save .
 | Step 3 | To enable user searches to be performed using an enterprise LDAP directory server, check the Enable user search to Enterprise Directory Server check box. |
 | Step 4 | Configure the fields in the LDAP Search Configuration window. See the online help for more information about the fields and their configuration options. |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![Directory attribute synchronization](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380388.tif/_jcr_content/renditions/380388.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

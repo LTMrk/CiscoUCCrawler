@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-deploy-jabber-webex-messenger-129-cjab-b-deploy-jabber-we-da7f406257
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_deploy-jabber-webex-messenger-129/cjab_b_deploy-jabber-webex-messenger-129_chapter_01111.html
-retrieved_at: 2026-08-21T21:04:35.034142+00:00
+retrieved_at: 2026-10-19T11:38:40.274344+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 12.9
@@ -107,3 +107,7 @@ The Cisco Jabber Diagnostics Tool is available by default. To disable this tool,
 | Step 7 | Click Import to import the certificate. If the certificate is not according to the format specified for an X.509 certificate, an error is  displayed. |
 | Step 8 | Click Close twice to return to the SSO Related Options screen. |
 | Step 9 | Click Save to save your Federated Web single sign-on configuration details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

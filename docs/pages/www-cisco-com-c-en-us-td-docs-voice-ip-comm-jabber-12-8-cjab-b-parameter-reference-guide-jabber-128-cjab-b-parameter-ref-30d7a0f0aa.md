@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-parameter-reference-guide-jabber-128-cjab-b-parameter-ref-30d7a0f0aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_parameter-reference-guide-jabber-128/cjab_b_parameter-reference-guide-jabber-128_chapter_01010.html
-retrieved_at: 2026-08-21T05:22:47.100688+00:00
+retrieved_at: 2026-10-19T11:34:54.506564+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.8
@@ -1767,3 +1767,7 @@ Simple authentication lets you connect to a directory server using simple binds,
 |---|---|
 | PhotoUriWithToken | Contact photo URL when inside the corporate firewall. |
 | UdsPhotoUriWithToken | contact photo URL when outside the corporate firewall. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

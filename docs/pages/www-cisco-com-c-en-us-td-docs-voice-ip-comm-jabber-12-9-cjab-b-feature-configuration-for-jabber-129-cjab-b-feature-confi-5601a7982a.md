@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-9-cjab-b-feature-configuration-for-jabber-129-cjab-b-feature-confi-5601a7982a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_9/cjab_b_feature-configuration-for-jabber-129/cjab_b_feature-configuration-for-jabber-129_chapter_0101.html
-retrieved_at: 2026-08-21T05:24:41.935086+00:00
+retrieved_at: 2026-10-19T11:39:01.457659+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.9
@@ -920,3 +920,7 @@ For more information on configuring this parameter, See the Parameter Reference 
 |---|
 | On-Premises | Webex Messenger | Team Messaging Mode | Softphone for VDI |
 | Yes | Yes | Yes | Yes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

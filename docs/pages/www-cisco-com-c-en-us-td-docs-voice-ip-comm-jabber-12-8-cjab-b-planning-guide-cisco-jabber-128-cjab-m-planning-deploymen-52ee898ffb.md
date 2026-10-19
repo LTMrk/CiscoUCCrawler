@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-8-cjab-b-planning-guide-cisco-jabber-128-cjab-m-planning-deploymen-52ee898ffb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_8/cjab_b_planning-guide-cisco-jabber-128/cjab_m_planning-deployment-scenarios-128.html
-retrieved_at: 2026-08-21T19:06:19.051175+00:00
+retrieved_at: 2026-10-19T11:35:32.563899+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.8
@@ -1588,3 +1588,19 @@ The Identity Provider used must have the same internal and external URL. If the 
 | Note | An embedded browser can’t share a cookie with an external browser when using SSO
                                              					with Cisco Jabber for Android. |
 |---|---|
+
+## Figuras
+
+![Figure 1. On-Premises Deployment with Cisco Unified Communications Manager IM and Presence
+                                       				  Service](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346958.tif/_jcr_content/renditions/346958.jpg)
+
+![Figure 2. On-Premises
+                                    			 Deployment in Phone Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346993.tif/_jcr_content/renditions/346993.jpg)
+
+![Figure 3. Phone Mode with Contacts Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346958.tif/_jcr_content/renditions/346958.jpg)
+
+![Diagram of Jabber cloud-based deployment using Cisco Webex Messenger.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346955.jpg)
+
+![Figure 4. How the Client Connects to the Expressway for Mobile and Remote Access. The following diagram illustrates the architecture of an Expressway for Mobile and Remote Access environment.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393742.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

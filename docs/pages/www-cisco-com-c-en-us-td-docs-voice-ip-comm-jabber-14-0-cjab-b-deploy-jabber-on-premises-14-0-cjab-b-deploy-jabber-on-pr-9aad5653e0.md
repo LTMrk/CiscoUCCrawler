@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-on-premises-14-0-cjab-b-deploy-jabber-on-pr-9aad5653e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-on-premises-14_0/cjab_b_deploy-jabber-on-premises-129_chapter_01110.html
-retrieved_at: 2026-08-21T07:07:26.198218+00:00
+retrieved_at: 2026-10-19T11:42:11.601653+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 14.0
@@ -267,3 +267,7 @@ Tap the device Settings > Security > Install from device storage and follow the 
 | Step 1 | Download the CA certificate to the device. |
 |---|---|
 | Step 2 | Tap the device Settings > Security > Install from device storage and follow the instructions. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
