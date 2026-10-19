@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-ce7cce6a57
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01010.html
-retrieved_at: 2026-08-21T16:57:57.520502+00:00
+retrieved_at: 2026-10-19T10:22:00.614483+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -1117,3 +1117,9 @@ For the agent, the call is
                                              default skill group |
 |---|---|
 | InterceptCalls | InterceptCalls |
+
+## Figuras
+
+![Figure 1. Agent State and Task State Relationship](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393259.eps/_jcr_content/renditions/393259.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-45b76a3809
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01101.html
-retrieved_at: 2026-08-21T16:58:09.921971+00:00
+retrieved_at: 2026-10-19T10:22:42.731179+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -152,3 +152,7 @@ Because the Unified CVP application performs a requery to redirect the
                                        call to a different agent or skill group instead of branching to another
                                        script, the CallsRONA field is not incremented for the call type. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

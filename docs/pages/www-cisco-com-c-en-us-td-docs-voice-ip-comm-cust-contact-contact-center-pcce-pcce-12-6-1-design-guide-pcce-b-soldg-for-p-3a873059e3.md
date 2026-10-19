@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-3a873059e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/pcce_b_soldg-for-packaged-cce-12_6_chapter_0111.html
-retrieved_at: 2026-08-21T16:36:24.436591+00:00
+retrieved_at: 2026-10-19T10:29:43.881587+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -3019,3 +3019,45 @@ The impact of Whisper Announcement on solution component sizing is not as signif
 | 2000 Agent | Cisco IdS is coresident with Unified Intelligence Center and Live Data on a single VM. |
 | 4000 Agent | Standalone Cisco IdS VM |
 | 12000 Agent | Standalone Cisco IdS VM |
+
+## Figuras
+
+![Figure 1. Agent Greeting Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392107.eps/_jcr_content/renditions/392107.jpg)
+
+![Figure 2. Application Gateway Call Flows](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510238.jpg)
+
+![Figure 3. Contact Center AI Services Architecture](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511049.jpg)
+
+![Figure 4. Contact Center AI Services Call Flow Diagram](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511300.jpg)
+
+![Figure 5. Architecture](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510616.jpg)
+
+![Figure 6. Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/464001-465000/464348.jpg)
+
+![Figure 7. SIP Dialer Agent Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392165.eps/_jcr_content/renditions/392165.jpg)
+
+![Figure 8. SIP Dialer Unattended VRU Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392166.eps/_jcr_content/renditions/392166.jpg)
+
+![Figure 9. Single Gateway Deployment for SIP Dialer](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253280.eps/_jcr_content/renditions/253280.jpg)
+
+![Figure 10. Multiple Gateway Deployment for SIP Dialer](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253281.eps/_jcr_content/renditions/253281.jpg)
+
+![Figure 11. Distributed Deployment Example for Agent-Based Campaign](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392168.eps/_jcr_content/renditions/392168.jpg)
+
+![Figure 12. Distributed Outbound SIP Dialer Deployment for an Agent-Based Campaign](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392168.eps/_jcr_content/renditions/392168.jpg)
+
+![Figure 13. Distributed Outbound SIP Dialer Deployment for Transfer to a VRU Campaign with CVP](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392167.eps/_jcr_content/renditions/392167.jpg)
+
+![Figure 14. Courtesy Callback Components. This figure shows the components used for the Courtesy Callback feature.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340893.jpg)
+
+![Figure 14. Courtesy Callback Components. This figure shows the components used for the Courtesy Callback feature.](https://www.cisco.com/content/dam/en/us/td/i/templates/note.gif)
+
+![Figure 16. Cisco Unified Mobile Agent Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392156.eps/_jcr_content/renditions/392156.jpg)
+
+![Figure 17. Voice Survey Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510868.jpg)
+
+![Figure 18. Email/SMS Survey Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510870.jpg)
+
+![Figure 19. Whisper Announcement Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392108.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

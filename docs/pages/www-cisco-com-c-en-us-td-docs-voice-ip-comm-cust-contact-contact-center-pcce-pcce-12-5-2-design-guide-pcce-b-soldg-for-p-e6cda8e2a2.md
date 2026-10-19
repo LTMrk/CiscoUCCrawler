@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-2-design-guide-pcce-b-soldg-for-p-e6cda8e2a2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/design/guide/pcce_b_soldg-for-packaged-cce-12_5/pcce_b_soldg-for-packaged-cce-12_5_preface_00.html
-retrieved_at: 2026-08-21T16:36:49.569349+00:00
+retrieved_at: 2026-10-19T10:25:55.770452+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, 12.5(1) & 12.5(2)
@@ -332,3 +332,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

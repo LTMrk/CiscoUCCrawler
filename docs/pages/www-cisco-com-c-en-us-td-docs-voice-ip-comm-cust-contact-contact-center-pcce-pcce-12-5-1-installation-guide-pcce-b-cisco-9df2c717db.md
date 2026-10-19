@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-installation-guide-pcce-b-cisco-9df2c717db
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/installation/guide/pcce_b_cisco-pcce-installationandupgrade-guide-12_5/pcce_m_125_scenarios.html
-retrieved_at: 2026-08-21T16:38:43.646673+00:00
+retrieved_at: 2026-10-19T10:21:09.084690+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.5(1) and 12.5(2)
@@ -98,3 +98,7 @@ Technology Refresh Upgrade is the supported upgrade option for platform upgrade.
                                        				Microsoft Windows Server 2016 and Microsoft SQL Server 2017 platform, where platform
                                        				upgrade is not planned. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

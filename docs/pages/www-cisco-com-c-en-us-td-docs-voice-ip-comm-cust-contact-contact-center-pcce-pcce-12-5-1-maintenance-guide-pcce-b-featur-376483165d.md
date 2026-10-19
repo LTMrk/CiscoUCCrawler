@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-376483165d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_0111.html
-retrieved_at: 2026-08-21T04:47:39.148562+00:00
+retrieved_at: 2026-10-19T10:24:07.664993+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5(1)
@@ -1786,3 +1786,7 @@ GW81(config-app)# |
                                              parameter
                                              wait=X. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

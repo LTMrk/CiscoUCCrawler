@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-cb1307138f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/pcce_b_soldg-for-packaged-cce-12_6_chapter_0101.html
-retrieved_at: 2026-08-21T16:36:14.893560+00:00
+retrieved_at: 2026-10-19T10:29:25.141637+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -3493,3 +3493,55 @@ Automatic Speech Recognition (ASR) or Text-to-Speech (TTS) Server cannot
 | Note | CVP expects a BYE or a final NOTIFY that terminates the subscription from the SBC when the transfer is complete. If the SBC
                                                       does not send either of these, the call ends for the duration of the subscription and the CVP license is not released. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Detailed 2000 Agent Reference Design](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510580.jpg)
+
+![Figure 2. Detailed 4000 Agent Reference Design](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510836.jpg)
+
+![Figure 3. Detailed 12000 Agent Reference Design](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510837.jpg)
+
+![Figure 4. Distributed Deployment Over WAN](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392136.eps/_jcr_content/renditions/392136.jpg)
+
+![Figure 5. High Availability Design for Central Controller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393022.eps/_jcr_content/renditions/393022.jpg)
+
+![Figure 6. High Availability Design for Unified CM Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392179.eps/_jcr_content/renditions/392179.jpg)
+
+![Figure 7. Deploy Agent PG for Each Pair of Subscribers in a Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392139.eps/_jcr_content/renditions/392139.jpg)
+
+![Figure 8. 2 Agent PG Pairs for Unified CM Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392178.eps/_jcr_content/renditions/392178.jpg)
+
+![Figure 9. Deploy Single Agent PG for Entire Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392140.eps/_jcr_content/renditions/392140.jpg)
+
+![Figure 10. Single Agent PG Pair for Entire Unified CM Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392179.eps/_jcr_content/renditions/392179.jpg)
+
+![Figure 11. Unified Intelligence Center Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392148.eps/_jcr_content/renditions/392148.jpg)
+
+![Figure 12. Unified Intelligence Center Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393064.eps/_jcr_content/renditions/393064.jpg)
+
+![Figure 13. Live Data Reports in Contact Center Enterprise](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392143.jpg)
+
+![Figure 14. Unified Intelligence Center Deployment with Unified CCE for Historical and Real-Time Reporting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392149.eps/_jcr_content/renditions/392149.jpg)
+
+![Figure 15. Unified CM SME Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392147.eps/_jcr_content/renditions/392147.jpg)
+
+![Figure 16. UCS Network Reference Design for Global Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392150.eps/_jcr_content/renditions/392150.jpg)
+
+![Figure 17. Task Routing for Third-party Multichannel Applications Solution Components](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510636.jpg)
+
+![Figure 18. Enterprise Chat and Email Design Considerations](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510651.jpg)
+
+![Figure 19. Collocated Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372770.eps/_jcr_content/renditions/372770.jpg)
+
+![Figure 20. Distributed-Server Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/372001-373000/372772.eps/_jcr_content/renditions/372772.jpg)
+
+![Figure 21. Call Transcript Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510656.jpg)
+
+![Figure 23. Network-Based Recording Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510685.jpg)
+
+![Figure 24. Call Transcript Call Flow Diagram](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510656.jpg)
+
+![Figure 25. SBC Implementation](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392145.eps/_jcr_content/renditions/392145.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

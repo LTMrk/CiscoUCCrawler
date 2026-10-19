@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--364f05beb2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_010.html
-retrieved_at: 2026-08-21T04:48:52.148356+00:00
+retrieved_at: 2026-10-19T10:24:32.107560+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -164,3 +164,7 @@ None.
                                     or upgrade to Cisco Unified Intelligence Center 12.5(1) SU on supported virtual machines from previous versions. For more
                                     information, see the ReadMe . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

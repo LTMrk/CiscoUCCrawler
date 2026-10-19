@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-787727b5b7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_01011.html
-retrieved_at: 2026-08-21T04:47:59.175755+00:00
+retrieved_at: 2026-10-19T10:23:50.201150+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5(1)
@@ -470,3 +470,7 @@ To identify
 | Step 4 | To identify
                                           			 answers to survey questions, in the CauseRef table, the CauseID is 20, and the
                                           			 Cause is Post Call Answer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

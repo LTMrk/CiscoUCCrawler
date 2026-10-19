@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-b0bfd4dc1f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/pcce_b_soldg-for-packaged-cce-12_6_chapter_0100.html
-retrieved_at: 2026-08-21T16:36:09.424730+00:00
+retrieved_at: 2026-10-19T10:29:10.342448+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -2539,3 +2539,7 @@ You cannot
 | Automated
                                           					 Call Distributor (ACD) | You cannot
                                           					 use a third-party ACD in a Reference Design. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

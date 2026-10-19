@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--4f55e6b72f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_0110.html
-retrieved_at: 2026-08-21T04:48:56.622958+00:00
+retrieved_at: 2026-10-19T10:24:57.451128+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -461,3 +461,7 @@ None.
                                           same Agent PG , they also receive notifications of the changed call data though CTI call events. However, application scripts or databases
                                           that are used to populate the call variables are not directly affected by this edit. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

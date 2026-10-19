@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-2-design-guide-pcce-b-soldg-for-p-c759f0b56c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/design/guide/pcce_b_soldg-for-packaged-cce-12_5/pcce_b_soldg-for-packaged-cce-12_5_chapter_01001.html
-retrieved_at: 2026-08-21T16:37:36.556756+00:00
+retrieved_at: 2026-10-19T10:25:24.248423+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, 12.5(1) & 12.5(2)
@@ -228,3 +228,9 @@ The CTI OS server interfaces to any desktop application built using the CTI Tool
 
 | Note | The CTI OS server interfaces to any desktop application built using the CTI Toolkit SDK. |
 |---|---|
+
+## Figuras
+
+![Figure 1. CTI OS Desktop Architecture](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510498.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

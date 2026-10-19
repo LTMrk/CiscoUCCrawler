@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-4a8b35c109
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_0110.html
-retrieved_at: 2026-08-21T16:57:40.038969+00:00
+retrieved_at: 2026-10-19T10:22:30.559905+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -521,3 +521,7 @@ Reports that are scheduled to run only once, are updated with a new schedule tim
 | Note | Scheduler relies on the Refresh Rate parameter in the Report Definition. You can configure the Refresh Rate parameter lower
                                        than the Scheduler Frequency. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

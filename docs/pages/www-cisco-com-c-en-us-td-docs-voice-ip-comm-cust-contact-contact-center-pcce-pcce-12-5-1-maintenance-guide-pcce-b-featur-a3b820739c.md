@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-a3b820739c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_chapter_010100.html
-retrieved_at: 2026-08-21T04:47:43.084057+00:00
+retrieved_at: 2026-10-19T10:23:42.089127+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5(1)
@@ -374,3 +374,7 @@ See CVA Speech Configuration section in VVB Developer Guide at https://developer
 | Proxy settings for VXML Server | See the VXML Server Configuration > Proxy Settings in VXML Server for Customer Virtual Assistant section in CVP Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-installation-and-configuration-guides-list.html . |
 | Configuration of Call Studio elements for CVA | The following chapters in CVP Element Specification Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-programming-reference-guides-list.html : Dialogflow Element DialogflowIntent Element DialogflowParam Element Transcribe Element |
 | CVA Speech Configuration APIs | See CVA Speech Configuration section in VVB Developer Guide at https://developer.cisco.com/site/customer-voice-portal/documents/virtual-voice-browser/ . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

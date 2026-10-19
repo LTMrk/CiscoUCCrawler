@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-c68df45f21
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/pcce_b_soldg-for-packaged-cce-12_6_chapter_011.html
-retrieved_at: 2026-08-21T16:36:04.434266+00:00
+retrieved_at: 2026-10-19T10:29:34.780433+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -4051,3 +4051,100 @@ You can dynamically change the ASR server value with the cisco property com.cisc
 | Note | These performance counters for CPU, memory, disk, and network are applicable to all Windows-based applications within the
                                           deployment. The sample rate is 15 seconds. For more information on monitoring your VMs, see Cisco Collaboration Virtualization at http://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Typical Unified CCE Solution Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392087.eps/_jcr_content/renditions/392087.jpg)
+
+![Figure 2. Ingress, Egress, and VXML Gateways](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392089.eps/_jcr_content/renditions/392089.jpg)
+
+![Figure 3. Unified CVP in a Contact Center Enterprise Solution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392090.jpg)
+
+![Figure 4. Call Studio
+                                    		  Generates the Code for You](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392084.eps/_jcr_content/renditions/392084.jpg)
+
+![Figure 5. Typical Use of the Web Services Layer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371708.tif/_jcr_content/renditions/371708.jpg)
+
+![Figure 6. Unified CCE in a Contact Center Enterprise Solution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392091.eps/_jcr_content/renditions/392091.jpg)
+
+![Figure 7. Communications Between the PG and the Other Components](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393281.eps/_jcr_content/renditions/393281.jpg)
+
+![Figure 8. Configuration and Real-Time Reporting AW](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392125.eps/_jcr_content/renditions/392125.jpg)
+
+![Figure 9. Configuration-Only AW](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392126.eps/_jcr_content/renditions/392126.jpg)
+
+![Figure 10. Historical Data Server and Detail Data Server (HDS-DDS)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392127.eps/_jcr_content/renditions/392127.jpg)
+
+![Figure 11. Administration Server and Historical Data Server (AW-HDS)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392128.eps/_jcr_content/renditions/392128.jpg)
+
+![Figure 13. Communication Between Central Controller and Multiple Administration & Data Servers](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392131.eps/_jcr_content/renditions/392131.jpg)
+
+![Figure 14. Administration Server, Historical Data Server, and Detail Data Server (AW-HDS-DDS)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392129.eps/_jcr_content/renditions/392129.jpg)
+
+![Figure 15. Live Data Reporting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392088.eps/_jcr_content/renditions/392088.jpg)
+
+![Figure 16. Cisco Finesse in a Contact Center Enterprise Solution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392095.eps/_jcr_content/renditions/392095.jpg)
+
+![Figure 17. Unified Intelligence Center](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392193.jpg)
+
+![Figure 18. Customer Collaboration Platform in Contact Center Enterprise Solutions](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510637.jpg)
+
+![Figure 19. CUSP in a Contact Center Enterprise Solution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392096.eps/_jcr_content/renditions/392096.jpg)
+
+![Figure 20. ECE in Contact Center Enterprise Solutions](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392102.eps/_jcr_content/renditions/392102.jpg)
+
+![Figure 21. Speech Servers in Contact Center Enterprise Solutions](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392097.eps/_jcr_content/renditions/392097.jpg)
+
+![Figure 22. Agent Greeting](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392113.eps/_jcr_content/renditions/392113.jpg)
+
+![Figure 23. Courtesy Callback](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392114.eps/_jcr_content/renditions/392114.jpg)
+
+![Figure 24. Authentication
+                                    		  and Authorization Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393363.eps/_jcr_content/renditions/393363.jpg)
+
+![Figure 25. Logical Component Connectivity](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510648.jpg)
+
+![Figure 26. Basic Call Flow with VRU and Queue to an
+                                       				Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392098.eps/_jcr_content/renditions/392098.jpg)
+
+![Figure 27. Internal Help Desk Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392123.eps/_jcr_content/renditions/392123.jpg)
+
+![Figure 28. Detailed Call Flow for New Incoming Call](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510649.jpg)
+
+![Figure 29. Blind Transfer Call Flow with VRU and
+                                          Queue to a Second Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392099.eps/_jcr_content/renditions/392099.jpg)
+
+![Figure 30. Consult Call Flow with VRU and Queue to
+                                          a Second Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392106.eps/_jcr_content/renditions/392106.jpg)
+
+![Figure 31. Contact Center
+                                 		  Enterprise Solution Topology and Remote Office Options](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392109.eps/_jcr_content/renditions/392109.jpg)
+
+![Figure 32. Topologies](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393282.jpg)
+
+![Figure 33. Local Agent—Physical View](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510684.jpg)
+
+![Figure 34. Geographically Redundant Sites with Clustering over WAN](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392117.eps/_jcr_content/renditions/392117.jpg)
+
+![Figure 35. Remote CVP
+                                    		  Deployment Topology](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392118.jpg)
+
+![Figure 36. Remote
+                                    		  Unified Communications Manager Clusters Topology](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392119.eps/_jcr_content/renditions/392119.jpg)
+
+![Figure 37. Global
+                                    		  Deployment Topology](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392111.eps/_jcr_content/renditions/392111.jpg)
+
+![Figure 38. Remote Office with Agents—Physical View](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510681.jpg)
+
+![Figure 39. Remote Offices with Agents and Local Trunks](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392120.eps/_jcr_content/renditions/392120.jpg)
+
+![Figure 40. Remote Office with Agents and Voice Gateway—Physical View](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510680.jpg)
+
+![Figure 41. Typical Branch Office Deployment.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392120.eps/_jcr_content/renditions/392120.jpg)
+
+![Figure 42. Service Creation Environment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392130.jpg)
+
+![Figure 43. High-Level Commands for Unified System CLI](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392121.eps/_jcr_content/renditions/392121.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

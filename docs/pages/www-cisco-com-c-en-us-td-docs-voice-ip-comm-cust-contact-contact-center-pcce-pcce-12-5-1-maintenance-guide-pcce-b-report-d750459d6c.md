@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-d750459d6c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010101.html
-retrieved_at: 2026-08-21T16:58:46.526616+00:00
+retrieved_at: 2026-10-19T10:22:10.163891+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -4104,3 +4104,7 @@ Note: These calls are not counted as attempted.
                                           						number of preview or callback calls that were rejected by the agent (these
                                           						customers are not dialed). Derived from:
                                           						Campaign_Query_Rule_Interval.AgentClosedDetect Note: These calls are not counted as attempted. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

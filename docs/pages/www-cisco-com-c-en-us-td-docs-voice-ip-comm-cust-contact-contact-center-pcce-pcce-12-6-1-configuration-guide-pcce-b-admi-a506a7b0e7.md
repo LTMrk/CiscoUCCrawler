@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-configuration-guide-pcce-b-admi-a506a7b0e7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/configuration/guide/pcce_b_admin_configuration_guide_12_6_1/pcce_b_admin_configuration_guide_12_6_1_chapter_010110.html
-retrieved_at: 2026-08-21T16:53:00.372722+00:00
+retrieved_at: 2026-10-19T10:28:51.791838+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(1)
@@ -167,3 +167,9 @@ Save the script.
 |---|---|
 | Step 2 | Fill the ECC variable POD.ID values from user.microapp.FromExtVXML array and pass it to ICM. Example: POD.ID=cc_CustomerId=xyz;Email=abcd@cisco.com;cc_language=en-US;Optin=yes;Mobile=911234567890; |
 | Step 3 | Save the script. |
+
+## Figuras
+
+![Figure 1. Example](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510861.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-2cae480676
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_pcce_features_guide_12_5_appendix_010010.html
-retrieved_at: 2026-08-21T04:48:32.253667+00:00
+retrieved_at: 2026-10-19T10:23:24.850793+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5(1)
@@ -67,3 +67,7 @@ For design details, scalability constraints and sizing factors, see the Solution
 
 | Note | The Application Gateway List tool only supports remote ICM configuration. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-configuration-guide-pcce-b-admi-fd02516918
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/configuration/guide/pcce_b_admin_configuration_guide_12_6_1/pcce_b_admin_configuration_guide_12_5_2_chapter_01001.html
-retrieved_at: 2026-08-21T16:52:24.584829+00:00
+retrieved_at: 2026-10-19T10:27:44.804252+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(1)
@@ -749,3 +749,30 @@ Click OK to close the properties dialog box.
 | Step 4 | Click OK to close the dialog box. |
 | Step 5 | Click OK to close the properties dialog box. |
 | Step 6 | For the Label, Select and Precision Queue nodes: For Select nodes: For the Label and Select nodes: Open the node properties. Check Enable Target Requery . Click OK to close the properties dialog box. |
+
+## Figuras
+
+![Figure 1. Agent to Agent Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340679.jpg)
+
+![Figure 2. Agent to Agent Properties](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510235.jpg)
+
+![Figure 3. The Enterprise Skill Group Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340722.jpg)
+
+![Figure 4. Enterprise Skill Group Properties - Routing Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340723.jpg)
+
+![Figure 5. The Enterprise Service Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340720.jpg)
+
+![Figure 6. Enterprise Service Properties - Routing Target tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340721.jpg)
+
+![Figure 7. The Service Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340800.jpg)
+
+![Figure 8. Service Properties - Routing Target Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340801.jpg)
+
+![Figure 9. Translation Route to VRU Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340816.jpg)
+
+![Figure 10. End Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340719.jpg)
+
+![Figure 11. Release Call
+                                    			 Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340782.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

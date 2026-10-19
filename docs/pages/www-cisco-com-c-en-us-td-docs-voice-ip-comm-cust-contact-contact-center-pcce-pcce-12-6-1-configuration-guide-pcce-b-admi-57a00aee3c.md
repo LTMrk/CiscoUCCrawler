@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-configuration-guide-pcce-b-admi-57a00aee3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/configuration/guide/pcce_b_admin_configuration_guide_12_6_1/pcce_b_admin_configuration_guide_12_5_2_chapter_011.html
-retrieved_at: 2026-08-21T16:51:59.948470+00:00
+retrieved_at: 2026-10-19T10:28:18.586515+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(1)
@@ -21250,3 +21250,13 @@ and state history of an agent. -->
 | At Most | Shows the maximum capacity of each configurable object that is allowed. |
 | Actual | Shows the number of objects currently configured on your system. |
 | % Used | Shows the percentage of the maximum capacity represented by your configuration. |
+
+## Figuras
+
+![Figure 1. License States](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510721.jpg)
+
+![Figure 2. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510715.jpg)
+
+![Figure 3. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510716.jpg)
+
+![Figure 4. Payload icon](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510432.jpg)

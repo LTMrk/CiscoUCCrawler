@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-installation-guide-pcce-b-cisco-192c6a2251
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/installation/guide/pcce_b_cisco-pcce-installationandupgrade-guide-12_5/pcce_b_cisco-pcce-installationandupgrade-guide-12_5_chapter_01001.html
-retrieved_at: 2026-08-21T16:39:22.593699+00:00
+retrieved_at: 2026-10-19T10:20:52.585620+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.5(1) and 12.5(2)
@@ -1642,3 +1642,7 @@ After upgrading the Central Controller to 12.5(1) , if you intend to keep the PG
 | 10 | Agent and Supervisor Desktops | CTI OS Desktops | For CTI OS Desktop client installation instructions, see the CTI OS System Manager Guide for Cisco Unified ICM at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html . |
 | 11 | Call Processing Components | Cisco Unified Communications Manager (Unified Communications Manager) | For installation or upgrade instructions, see the Installation Guide for Cisco Unified Communications Manager and the IM and Presence Service or Upgrade and Migration Guide for Cisco Unified Communications Manager and the IM and Presence Service at https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-guides-list.html |
 | JTAPI client on Agent (Cisco Unified Communications Manager) PG | Upgrade Cisco JTAPI Client on PG |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

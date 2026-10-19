@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--b6a44d9bd6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_01000.html
-retrieved_at: 2026-08-21T04:49:00.436604+00:00
+retrieved_at: 2026-10-19T10:24:40.395679+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -159,3 +159,7 @@ The Kiwi template for chat is deprecated with ECE 12.5.
 ## Third-party Software Impacts
 
 None.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

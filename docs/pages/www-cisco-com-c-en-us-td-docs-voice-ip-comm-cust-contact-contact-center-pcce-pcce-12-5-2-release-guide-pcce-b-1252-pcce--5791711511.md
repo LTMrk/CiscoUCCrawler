@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-2-release-guide-pcce-b-1252-pcce--5791711511
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/release/guide/pcce_b_1252_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_011.html
-retrieved_at: 2026-08-16T19:38:47.756908+00:00
+retrieved_at: 2026-10-19T10:26:33.745657+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(2)
@@ -284,3 +284,7 @@ Xstream—Upgraded to version 1.4.19.
 
 | Note | Customer Journey Analyzer was available for trials only in Release 12.5(1). The trials have been discontinued. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--9cc34ea1d4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_0100.html
-retrieved_at: 2026-08-21T04:48:47.848890+00:00
+retrieved_at: 2026-10-19T10:24:36.176833+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -162,3 +162,7 @@ None.
 | Deprecated Feature | Announced in Release | Replacement | Notes |
 |---|---|---|---|
 | Internet Explorer 11 | Not applicable 1 | Edge Chromium (Microsoft Edge v79 and later) | None. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

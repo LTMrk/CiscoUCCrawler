@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--76725b661c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_0111.html
-retrieved_at: 2026-08-21T04:49:12.994058+00:00
+retrieved_at: 2026-10-19T10:25:01.581795+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -111,3 +111,7 @@ https://bst.cloudapps.cisco.com/bugsearch/search?kw=*&pf=prdNm&pfVal=286325307&r
 
 | Note | If the list of caveats does not automatically appear when you open the browser, refresh the browser. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

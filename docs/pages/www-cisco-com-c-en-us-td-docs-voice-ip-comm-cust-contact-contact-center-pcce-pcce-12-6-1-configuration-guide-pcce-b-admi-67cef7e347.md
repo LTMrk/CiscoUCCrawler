@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-configuration-guide-pcce-b-admi-67cef7e347
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/configuration/guide/pcce_b_admin_configuration_guide_12_6_1/pcce_b_admin_configuration_guide_12_5_2_chapter_01.html
-retrieved_at: 2026-08-21T16:51:34.263229+00:00
+retrieved_at: 2026-10-19T10:27:22.543881+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(1)
@@ -10608,3 +10608,9 @@ nonVolatile |
 
 | Note | Every time the Active Directory credentials are updated, the credentials configured here must be updated as well. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Example ICM Database Look Up](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/290001-300000/292001-293000/292516.tif/_jcr_content/renditions/292516.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

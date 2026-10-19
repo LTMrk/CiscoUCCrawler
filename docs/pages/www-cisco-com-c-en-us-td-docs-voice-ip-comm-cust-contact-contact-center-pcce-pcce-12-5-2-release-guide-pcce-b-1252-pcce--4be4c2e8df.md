@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-2-release-guide-pcce-b-1252-pcce--4be4c2e8df
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/release/guide/pcce_b_1252_pcce-release-notes/rcct-m-wfo-1501.html
-retrieved_at: 2026-08-16T19:39:23.666366+00:00
+retrieved_at: 2026-10-19T10:26:38.392837+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(2)
@@ -738,3 +738,7 @@ https://wfohelp.com/doc/Content/user-guides/insights-bi/turn-off-data-explorer.h
                                        your data access and visibility within Webex WFO. Reasons to get excited about Insights : The Insights experience is designed for streamlined data exploration and analysis, while being easy for non-technical users
                                              to independently create reports and dashboards. Highly customizable to help accelerate decision making Offers a broad range of visualizations Suitable for both efficient ad-hoc analysis and rich dash-boarding. Here is a short video to provide an overview of the capabilities that Insights brings to the table. https://wfohelp.com/doc/Content/user-guides/insights-bi/get-started/how-insights-works.htm?tocpath=Data%20Analysts%7cInsights%7c_____1 . If your organization has already completed the transition to Insights, you also have the option to manually disable Data Explorer
                                        before it is automatically decommissioned. https://wfohelp.com/doc/Content/user-guides/insights-bi/turn-off-data-explorer.htm . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

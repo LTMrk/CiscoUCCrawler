@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--2928d46728
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/rcct-m-wfo-1501.html
-retrieved_at: 2026-08-21T04:49:09.063557+00:00
+retrieved_at: 2026-10-19T10:25:05.949278+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -17,6 +17,63 @@ Chapter: Webex Workforce Optimization
 # Webex Workforce Optimization
 
 ## New Features
+
+### WFM - Managing Schedule Periods in the Web
+
+Webex WFO has introduced Schedule Periods, a capability currently available in the WFM Client, to the People module on the
+                              web. This new capability will enable organizations to configure how agents' working hours and days off are balanced over specified
+                              and recurring schedule periods.
+
+The client version will continue to be supported and will not be retired.
+
+### On-Demand Hours
+
+Webex WFO has introduced On-Demand Hours, giving supervisors more flexibility to address short-term staffing gaps. Supervisors
+                              can offer extra hours to specific agent groups, while agents with matching skills can claim shifts that fit their availability.
+
+This capability empowers agents to take control of their schedules and helps contact centers maintain staffing stability with
+                              booking limits and cancellation rules that support last-minute needs.
+
+For more information, see Review Staffing Levels .
+
+### Auto Coaching in Performance Management
+
+Webex WFO Performance Management has introduced Auto Coaching, a new feature that automates the creation of coaching sessions
+                              based on specific business rules and performance thresholds. By leveraging real-time data, Auto Coaching ensures that agents
+                              receive timely, personalized feedback while significantly reducing the administrative burden on supervisors.
+
+Key Benefits:
+
+Automates session creation, freeing supervisors from manual scheduling tasks.
+
+Triggers coaching precisely when performance metrics indicate a need for intervention.
+
+Provides agents with consistent, relevant guidance tailored to their individual performance.
+
+Strengthens the feedback loop, ensuring that performance goals are tracked and addressed consistently.
+
+For more information, see Create rules for automatically scheduled coaching sessions in Performance Management .
+
+Performance Management requires customers to sign in through their configured Tenant Specific URL. For more information, refer
+                                          to Tenant Specific URL for Webex WFO Users .
+
+This feature will require a minimum of Webex WFO Bundle SKU, or Full WFM, or Full QM. For more information pertaining to Webex
+                                          WFO SKUs, see Webex WFO: Feature Specific SKUs .
+
+### WFM - Manage External Log-on in the Web
+
+Webex WFO has enhanced external log-on management by adding web-based capabilities alongside existing client support. External
+                              log-ons link agent statistics from systems like Automatic Call Distribution (ACD), Customer Relationship Management (CRM),
+                              or Payroll and are automatically updated every night. Agents can have multiple external log-ons, but sharing them is not recommended
+                              to maintain accurate per-agent statistics.
+
+For more information, see https://wfohelp.com/doc/Content/user-guides/people/manage-basic-user-info.htm .
+
+This update enables administrators and users to manage external log-ons directly via the web interface, streamlining work
+                              flows while retaining client functionality. It supports improved usability and administrative efficiency in workforce management.
+
+This feature will be available on both the web interface and the client application, maintaining full functionality across
+                                          both platforms.
 
 ### WFM - Intraday Re-forecasting
 
@@ -692,6 +749,21 @@ If your organization has already completed the transition to Insights, you also 
 
 https://wfohelp.com/doc/Content/user-guides/insights-bi/turn-off-data-explorer.htm .
 
+| Note | The client version will continue to be supported and will not be retired. |
+|---|---|
+
+| Note | Performance Management requires customers to sign in through their configured Tenant Specific URL. For more information, refer
+                                          to Tenant Specific URL for Webex WFO Users . |
+|---|---|
+
+| Note | This feature will require a minimum of Webex WFO Bundle SKU, or Full WFM, or Full QM. For more information pertaining to Webex
+                                          WFO SKUs, see Webex WFO: Feature Specific SKUs . |
+|---|---|
+
+| Note | This feature will be available on both the web interface and the client application, maintaining full functionality across
+                                          both platforms. |
+|---|---|
+
 | Note | The client version of the forecast page will continue to be supported and will not be retired. |
 |---|---|
 
@@ -738,3 +810,7 @@ https://wfohelp.com/doc/Content/user-guides/insights-bi/turn-off-data-explorer.h
                                        your data access and visibility within Webex WFO. Reasons to get excited about Insights : The Insights experience is designed for streamlined data exploration and analysis, while being easy for non-technical users
                                              to independently create reports and dashboards. Highly customizable to help accelerate decision making Offers a broad range of visualizations Suitable for both efficient ad-hoc analysis and rich dash-boarding. Here is a short video to provide an overview of the capabilities that Insights brings to the table. https://wfohelp.com/doc/Content/user-guides/insights-bi/get-started/how-insights-works.htm?tocpath=Data%20Analysts%7cInsights%7c_____1 . If your organization has already completed the transition to Insights, you also have the option to manually disable Data Explorer
                                        before it is automatically decommissioned. https://wfohelp.com/doc/Content/user-guides/insights-bi/turn-off-data-explorer.htm . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-2-design-guide-pcce-b-soldg-for-p-b53b414f2d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_2/design/guide/pcce_b_soldg-for-packaged-cce-12_5/pcce_b_soldg-for-packaged-cce-12_5_chapter_01000.html
-retrieved_at: 2026-08-21T16:37:40.977354+00:00
+retrieved_at: 2026-10-19T10:25:19.783479+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, 12.5(1) & 12.5(2)
@@ -86,3 +86,7 @@ An administrator can create certain AD objects. A prime example is the OU contai
 | Note | All created groups are Domain Local Security Groups, and all user accounts are domain accounts. The Service Logon domain account
                                           is added to the Local Administrators' group of the application servers. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

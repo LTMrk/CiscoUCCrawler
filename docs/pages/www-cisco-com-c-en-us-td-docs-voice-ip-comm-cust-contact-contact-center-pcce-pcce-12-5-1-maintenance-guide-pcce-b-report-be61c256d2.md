@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-be61c256d2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010011.html
-retrieved_at: 2026-08-21T16:58:37.728960+00:00
+retrieved_at: 2026-10-19T10:21:53.000533+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -3590,3 +3590,7 @@ END |
                                           						Ready Time spent in 20003; the agent is not in Not Ready state. A request is
                                           						made to place the agent in Not Ready state and then a logout request is made to
                                           						log the agent out. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-b951345dd2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/pcce_b_soldg-for-packaged-cce-12_6_chapter_01.html
-retrieved_at: 2026-08-21T16:35:53.223690+00:00
+retrieved_at: 2026-10-19T10:29:00.252338+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -130,3 +130,7 @@ Partial gadget-based CCE Administration, Unified Contact Center Management Porta
 | Hardware | Tested Reference Configuration ( B-Series and C-Series) Spec-based UCS support (B-Series and C-Series) Spec-based (Non-UCS), third-party hardware support | Tested Reference Configuration ( B-Series and C-Series) Spec-based UCS support (B-Series and C-Series) Spec-based (Non-UCS), third-party hardware support |
 | Architecture |
 | Configuration and Administration tools | Gadget-based CCE Administration and other tools | Partial gadget-based CCE Administration, Unified Contact Center Management Portal, ICM Configuration Manager, and other tools |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

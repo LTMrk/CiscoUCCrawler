@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-343da5b0c5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01110.html
-retrieved_at: 2026-08-21T16:58:13.995107+00:00
+retrieved_at: 2026-10-19T10:22:47.142842+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -300,3 +300,7 @@ To avoid inconsistencies in reporting, create a new Bucket Interval List with yo
                                           errors from ServiceLevelCallsOffered, you can use this formula in a custom report:
                                           ServiceLevelCallsOffered – (Errors – SLErrors). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-featur-ecebc4eca8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_features_guide_12_5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01000.html
-retrieved_at: 2026-08-21T04:47:47.169069+00:00
+retrieved_at: 2026-10-19T10:23:07.979168+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5(1)
@@ -344,3 +344,7 @@ To configure ECC variables, use Unified CCE Administration, navigate to Overview
 
 | Note | Make note of your FTP connection information -- connection type, user name, password, and port number. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

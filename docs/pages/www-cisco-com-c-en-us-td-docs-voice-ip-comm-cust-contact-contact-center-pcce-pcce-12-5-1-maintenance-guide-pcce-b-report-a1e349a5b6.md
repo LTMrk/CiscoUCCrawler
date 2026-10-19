@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-maintenance-guide-pcce-b-report-a1e349a5b6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/maintenance/guide/pcce_b_Reporting-User-Guide-12-5/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010111.html
-retrieved_at: 2026-08-21T16:58:55.531985+00:00
+retrieved_at: 2026-10-19T10:22:23.052784+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.5(1)
@@ -3970,3 +3970,7 @@ The percentage of Logged On time during which an agent was Ready today.
 | Handled | The number of inbound calls that were answered and have completed wrap-up by agents in the skill group today. |
 | Avg Handle Time | The average time spent by  agents in handling a task today, measured in HH:MM:SS (hours, minutes, seconds). |
 | % Ready | The percentage of Logged On time during which an agent was Ready today. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

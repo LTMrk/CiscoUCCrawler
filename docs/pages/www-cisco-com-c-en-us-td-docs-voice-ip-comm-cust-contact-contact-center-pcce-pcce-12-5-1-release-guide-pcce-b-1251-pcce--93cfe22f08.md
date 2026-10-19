@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-5-1-release-guide-pcce-b-1251-pcce--93cfe22f08
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_5_1/release/guide/pcce_b_1251_pcce-release-notes/pcce_b_1251_pcce-release-notes_chapter_0101.html
-retrieved_at: 2026-08-21T04:48:43.848764+00:00
+retrieved_at: 2026-10-19T10:24:49.352001+00:00
 ---
 
 Release Notes for Packaged Contact Center Enterprise Solution, Release 12.5(1)
@@ -505,3 +505,7 @@ See the Contact Center Enterprise Compatibility Matrix for this release at https
 | SHA-1 certificate | 12.5(1) | SHA-256 |
 | TLS 1.0 and TLS 1.1 | 12.5(1) | TLS 1.2 |
 | Cisco Remote Expert Mobile | 12.5(1) | None. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
