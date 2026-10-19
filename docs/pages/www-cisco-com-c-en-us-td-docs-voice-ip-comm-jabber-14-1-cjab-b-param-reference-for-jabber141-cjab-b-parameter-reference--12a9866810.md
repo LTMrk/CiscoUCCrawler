@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-param-reference-for-jabber141-cjab-b-parameter-reference--12a9866810
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_param-reference-for-jabber141/cjab_b_parameter-reference-guide-jabber-129_chapter_01010.html
-retrieved_at: 2026-08-21T21:17:06.480089+00:00
+retrieved_at: 2026-10-19T11:49:41.626852+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.1
@@ -76,3 +76,7 @@ Example:
 <Video_Start_Port_Range>2048</Video_Start_Port_Range>
 <Video_End_Port_Range>2053</Video_End_Port_Range>
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-12-6-jabw-b-release-notes-12-6-html-bcd19f71a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/12_6/jabw-b-release-notes-12-6.html
-retrieved_at: 2026-08-21T06:56:03.279036+00:00
+retrieved_at: 2026-10-19T11:52:12.854127+00:00
 ---
 
 Release Notes for Cisco Jabber for Windows 12.6
@@ -1401,3 +1401,7 @@ Jabber for Windows randomly sending UDS bulk search query in a loop causing high
 | CSCvo88091 | 3 | Presence won't change to unavailable for users who added you as temp buddy becomes offline. |
 | CSCvo92221 | 3 | Jabber is not prompting for a sign-out to re-login into the new server. |
 | CSCvp17557 | 3 | Memory Leak seen with Jabber Video calls. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

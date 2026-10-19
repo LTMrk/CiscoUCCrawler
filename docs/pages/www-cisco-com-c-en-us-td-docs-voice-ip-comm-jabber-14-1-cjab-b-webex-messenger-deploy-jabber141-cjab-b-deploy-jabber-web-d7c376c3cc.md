@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-webex-messenger-deploy-jabber141-cjab-b-deploy-jabber-web-d7c376c3cc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141/cjab_b_deploy-jabber-webex-messenger-129_chapter_01100.html
-retrieved_at: 2026-08-21T19:13:42.375097+00:00
+retrieved_at: 2026-10-19T11:51:36.449106+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 14.1
@@ -801,3 +801,7 @@ This
                                                             					 method is only supported on devices with Android OS 5.0 and later, and Cisco DX
                                                             					 series devices. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

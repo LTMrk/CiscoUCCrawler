@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-param-reference-for-jabber141-cjab-b-parameter-reference--e20372d4e0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_param-reference-for-jabber141/cjab_b_parameter-reference-guide-jabber-129_chapter_0110.html
-retrieved_at: 2026-08-21T21:16:49.094631+00:00
+retrieved_at: 2026-10-19T11:49:54.553423+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.1
@@ -105,3 +105,7 @@ Example: <ShowScreenCaptureButton>false</ShowScreenCaptureButton>
 
 | Note | Disabling this parameter will hide the Screen capture button in Windows and disable it for Mac. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

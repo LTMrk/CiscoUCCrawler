@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-planning-guide-for-jabber141-cjab-m-planning-new-changed--a521dc5825
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_planning-guide-for-jabber141/cjab_m_planning-new-changed-141.html
-retrieved_at: 2026-08-21T19:03:53.253314+00:00
+retrieved_at: 2026-10-19T11:50:28.326842+00:00
 ---
 
 Planning Guide for Cisco Jabber 14.1
@@ -76,3 +76,9 @@ Operating Systems for Cisco Jabber for Windows
 |  | Updated minimum requirements and supported devices for Jabber for Android. | Hardware requirements for Cisco Jabber for Android |
 |  | Updated minimum requirements and supported devices for Jabber for iPhone and iPad. | Hardware requirements for Cisco Jabber for iPhone and iPad |
 |  | Added support for Windows 11 | Operating Systems for Cisco Jabber for Windows |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

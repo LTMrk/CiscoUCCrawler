@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-feature-config-for-jabber141-cjab-m-feature-voice-video-1-a229182e9b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_feature-config-for-jabber141/cjab_m_feature-voice-video-141.html
-retrieved_at: 2026-08-21T05:26:27.149061+00:00
+retrieved_at: 2026-10-19T11:47:43.837707+00:00
 ---
 
 Feature Configuration for Cisco Jabber 14.1
@@ -4758,3 +4758,7 @@ If you need to reduce this load, you can use the DisableCallHistoryResolution pa
 
 | Note | Jabber doesn't support Extension Mobility in contact center deployments. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

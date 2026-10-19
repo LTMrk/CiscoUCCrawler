@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-android-9-1-jaba-bk-j0ae313a-00-jabber-voice-android-faq-9-1-4-html-bbdc187b67
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Android/9_1/JABA_BK_J0AE313A_00_jabber-voice-android-faq-9-1-4.html
-retrieved_at: 2026-08-21T12:36:12.595557+00:00
+retrieved_at: 2026-10-19T11:52:04.386591+00:00
 ---
 
 Frequently Asked Questions: Cisco Jabber Voice 9.1(4) for Android
@@ -2505,3 +2505,7 @@ Cisco and the Cisco logo are trademarks or registered trademarks of Cisco and/or
 
 | A. | If your administrator sets the Dial via Office feature from enabled to disabled on the device page for a user, you may see the wrong text or no text under the Corporate Wi-Fi Network field on the Settings screen. To resolve this issue, navigate away from the Settings menu and then navigate back to the Settings menu. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

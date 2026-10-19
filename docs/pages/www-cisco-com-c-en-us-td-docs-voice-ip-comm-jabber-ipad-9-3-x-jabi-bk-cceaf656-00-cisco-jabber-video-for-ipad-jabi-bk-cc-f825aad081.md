@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-f825aad081
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0111.html
-retrieved_at: 2026-08-21T19:43:59.217294+00:00
+retrieved_at: 2026-10-19T11:53:02.551934+00:00
 ---
 
 Cisco Jabber Video for iPad 9.3.4 Administration Guide
@@ -182,3 +182,7 @@ To learn more about sending account information from the TMS, consult the approp
 
 | Caution | If users sign in to their Cisco Unified Communications Manager accounts first, they cannot set up Cisco Unified Presence in the application. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

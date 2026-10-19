@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-8bfe7439cc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_01.html
-retrieved_at: 2026-08-21T19:43:34.440879+00:00
+retrieved_at: 2026-10-19T11:52:37.592784+00:00
 ---
 
 Cisco Jabber Video for iPad 9.3.4 Administration Guide
@@ -266,3 +266,7 @@ Contact your system administrator before performing manual service discovery. Pe
 
 | Note | Contact your system administrator before performing manual service discovery. Performing service discovery signs you out of your current account and may remove existing account settings. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-planning-guide-for-jabber141-cjab-m-planning-deployment-s-054b4a542a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_planning-guide-for-jabber141/cjab_m_planning-deployment-scenarios-129.html
-retrieved_at: 2026-08-21T19:04:03.429002+00:00
+retrieved_at: 2026-10-19T11:50:16.351790+00:00
 ---
 
 Planning Guide for Cisco Jabber 14.1
@@ -1610,3 +1610,17 @@ RedSky E911  for Cisco
 
 | Note | If you want the change before updating CER, you'll need to install a COP file for CER. |
 |---|---|
+
+## Figuras
+
+![Figure 1. On-Premises Deployment with Cisco Unified Communications Manager IM and Presence
+                                       				  Service](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346958.tif/_jcr_content/renditions/346958.jpg)
+
+![Figure 2. On-Premises
+                                    			 Deployment in Phone Mode](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346993.tif/_jcr_content/renditions/346993.jpg)
+
+![Figure 3. Phone Mode with Contacts Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346958.tif/_jcr_content/renditions/346958.jpg)
+
+![Diagram of Jabber cloud-based deployment using Cisco Webex Messenger.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346955.jpg)
+
+![Figure 4. How the Client Connects to the Expressway for Mobile and Remote Access. The following diagram illustrates the architecture of an Expressway for Mobile and Remote Access environment.](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393742.jpg)

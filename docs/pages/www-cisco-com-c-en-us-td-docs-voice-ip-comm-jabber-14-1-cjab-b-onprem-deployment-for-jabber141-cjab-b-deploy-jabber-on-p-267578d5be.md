@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-onprem-deployment-for-jabber141-cjab-b-deploy-jabber-on-p-267578d5be
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_onprem-deployment-for-jabber141/cjab_b_deploy-jabber-on-premises-129_chapter_01000.html
-retrieved_at: 2026-08-21T19:02:55.913084+00:00
+retrieved_at: 2026-10-19T11:47:59.818323+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 14.1
@@ -147,3 +147,7 @@ Select Save .
 | Step 3 | Find and select your service profile. Service Profile Configuration window opens. |
 | Step 4 | Navigate to CTI Profile section, and select up to three services from the following drop-down lists: Primary Secondary Tertiary |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

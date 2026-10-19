@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-param-reference-for-jabber141-cjab-b-parameter-reference--c4022d84c0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_param-reference-for-jabber141/cjab_b_parameter-reference-guide-jabber-129_chapter_01001.html
-retrieved_at: 2026-08-21T21:17:01.747992+00:00
+retrieved_at: 2026-10-19T11:49:33.201813+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.1
@@ -97,3 +97,7 @@ The following is an example of the voicemail service credentials parameter:
 	</Voicemail> 
 </config>
 ```
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

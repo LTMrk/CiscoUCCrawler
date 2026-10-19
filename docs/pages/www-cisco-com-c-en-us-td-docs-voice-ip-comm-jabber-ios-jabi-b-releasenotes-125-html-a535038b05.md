@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ios-jabi-b-releasenotes-125-html-a535038b05
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/jabi_b_releasenotes_125.html
-retrieved_at: 2026-08-21T07:01:13.899499+00:00
+retrieved_at: 2026-10-19T11:52:24.949247+00:00
 ---
 
 Release Notes for Cisco Jabber for iPhone and iPad 12.5
@@ -515,3 +515,7 @@ To look for information about a specific problem, enter the bug ID number in the
 |---|---|---|
 | CSCvk79433 | 3 | Crash at NSProgress which is Apple's issue. |
 | CSCvn45734 | 3 | Jabber All Rooms tab does not load. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

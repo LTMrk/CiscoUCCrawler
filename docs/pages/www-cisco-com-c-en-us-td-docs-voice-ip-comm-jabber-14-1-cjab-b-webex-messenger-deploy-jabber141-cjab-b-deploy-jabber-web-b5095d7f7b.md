@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-webex-messenger-deploy-jabber141-cjab-b-deploy-jabber-web-b5095d7f7b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141/cjab_b_deploy-jabber-webex-messenger-129_chapter_011.html
-retrieved_at: 2026-08-21T19:13:04.154234+00:00
+retrieved_at: 2026-10-19T11:51:27.840675+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 14.1
@@ -459,3 +459,7 @@ Enabled
 | HD Video | Controls the HD Video feature on computer to computer calls when
                                           						External Video or Internal Video policies are enabled | Disabled —Prevents HD Video for all computer to
                                           						computer calls. | Enabled |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

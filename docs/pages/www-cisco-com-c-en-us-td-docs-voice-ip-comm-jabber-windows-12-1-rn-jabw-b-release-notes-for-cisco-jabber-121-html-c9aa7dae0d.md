@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-windows-12-1-rn-jabw-b-release-notes-for-cisco-jabber-121-html-c9aa7dae0d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/Windows/12_1/RN/jabw_b_release-notes-for-cisco-jabber_121.html
-retrieved_at: 2026-08-21T06:56:07.921989+00:00
+retrieved_at: 2026-10-19T11:52:08.813473+00:00
 ---
 
 Release Notes for Cisco Jabber for Windows 12.1
@@ -2110,3 +2110,7 @@ Jabber does not get SIP invite in a CUCM fail-over situation, causing no audio.
 | CSCvk20364 | 3 | PRT decryption results in no OpenSSL_Applink. |
 | CSCvk08387 | 3 | Mandatory upgrade task is not being advertised on initial sign-in. |
 | CSCvn11462 | 3 | Jabber does not get SIP invite in a CUCM fail-over situation, causing no audio. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

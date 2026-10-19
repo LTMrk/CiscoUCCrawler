@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-planning-guide-cisco-jabber-14-0-cjab-b-planning-guide-ci-e9c66ea85d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_planning-guide-cisco-jabber-14_0/cjab_b_planning-guide-cisco-jabber-129_preface_00.html
-retrieved_at: 2026-08-21T19:04:39.838249+00:00
+retrieved_at: 2026-10-19T11:46:20.216034+00:00
 ---
 
 Planning Guide for Cisco Jabber 14.0
@@ -103,3 +103,7 @@ Hardware Requirements for Cisco Jabber for Android
 | March 2021 |  | Initial Publication |  |
 |  | Updated | Added macOS Big Sur | Operating System for Cisco Jabber for Mac |
 |  | Updated | Add new supported hardware | Hardware Requirements for Cisco Jabber for Android |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-feature-config-for-jabber141-cjab-m-feature-chat-presence-004d99d894
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_feature-config-for-jabber141/cjab_m_feature-chat-presence-141.html
-retrieved_at: 2026-08-21T05:26:21.124101+00:00
+retrieved_at: 2026-10-19T11:47:20.991721+00:00
 ---
 
 Feature Configuration for Cisco Jabber 14.1
@@ -2161,3 +2161,7 @@ Cisco Jabber does not display temporary presence.
 | Step 3 | Uncheck Enable
                                           				ad-hoc presence subscriptions and then select Save . Cisco Jabber does not display temporary presence.
                                           				Users can see availability status only for contacts in their contact list. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

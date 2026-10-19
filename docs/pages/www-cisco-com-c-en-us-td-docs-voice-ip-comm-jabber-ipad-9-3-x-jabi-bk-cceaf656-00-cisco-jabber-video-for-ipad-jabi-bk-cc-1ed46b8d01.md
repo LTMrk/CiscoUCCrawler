@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-1ed46b8d01
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0101.html
-retrieved_at: 2026-08-21T19:43:51.801888+00:00
+retrieved_at: 2026-10-19T11:52:50.833419+00:00
 ---
 
 Cisco Jabber Video for iPad 9.3.4 Administration Guide
@@ -791,3 +791,7 @@ The Directory Number Configuration window opens.
 | Step 2 | Configure the voicemail pilot. Select Advanced Features > Voice Mail > Voice Mail Pilot . The Find and List Voice Mail Pilots window opens. Select Add New . The Voice Mail Pilot Configuration window opens. Specify the appropriate details on the Voice Mail Pilot Configuration window. Select Save . |
 | Step 3 | Add the voicemail pilot to the voicemail profile. Select Advanced Features > Voice Mail > Voice Mail Profile . The Find and List Voice Mail Mail Profiles window opens. Specify the appropriate filters in the Find Voice Mail Profile where Voice Mail Profile Name field and then select Find to retrieve a list of profiles. Select the appropriate profile from the list. The Voice Mail Pilot Configuration window opens. Select the voicemail pilot from the Voice Mail Pilot drop-down list. Select Save . |
 | Step 4 | Specify the voicemail profile in the directory number configuration. Select Device > Phone . The Find and List Phones window opens. Specify the appropriate filters in the Find Phone where field and then select Find to retrieve a list of devices. Select the appropriate device from the list. The Phone Configuration window opens. Locate the Association Information section. Select the appropriate device number. The Directory Number Configuration window opens. Locate the Directory Number Settings section. Select the voicemail profile from the Voice Mail Profile drop-down list. Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

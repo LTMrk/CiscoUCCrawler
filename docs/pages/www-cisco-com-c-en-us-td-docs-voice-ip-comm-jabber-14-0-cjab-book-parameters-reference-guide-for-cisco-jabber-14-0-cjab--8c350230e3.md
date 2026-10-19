@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-book-parameters-reference-guide-for-cisco-jabber-14-0-cjab--8c350230e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_book_parameters-reference-guide-for-cisco-jabber-14_0/cjab_b_parameter-reference-guide-jabber-129_chapter_01000.html
-retrieved_at: 2026-08-21T21:03:14.186948+00:00
+retrieved_at: 2026-10-19T11:46:36.830972+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.0
@@ -126,3 +126,7 @@ Example: <PresenceServerAddress> hostname </PresenceServerAddress>
 Specifies the Central Authentication Service (CAS) URL for the Webex Messenger service.
 
 Example: <PresenceServerURL> https://loginp.webexconnect.com/cas/sso/ ex_org /orgadmin.app </PresenceServerURL>
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

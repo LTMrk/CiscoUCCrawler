@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ios-12-6-jabi-b-releasenotes-12-6-html-db08b36e3f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iOS/12_6/jabi_b_releasenotes-12-6.html
-retrieved_at: 2026-08-21T07:01:09.634484+00:00
+retrieved_at: 2026-10-19T11:52:20.815957+00:00
 ---
 
 Release Notes for Cisco Jabber for iPhone and iPad 12.6
@@ -622,3 +622,7 @@ There are no new open caveats for this maintenance release.
 | CSCvo13245 | 3 | J4IOS- Add contact failed warn 'Adding this contact will exceed the maximum limit of 1000 contacts'. |
 | CSCvo31907 | 3 | Jabber sending non-batch request after receiving 200 ok for batch request. |
 | CSCvo42923 | 3 | Jabber sends single number UDS query if batch number query returns empty results. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

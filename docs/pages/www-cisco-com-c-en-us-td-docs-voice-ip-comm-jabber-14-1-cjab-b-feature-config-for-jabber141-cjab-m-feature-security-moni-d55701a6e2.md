@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-feature-config-for-jabber141-cjab-m-feature-security-moni-d55701a6e2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_feature-config-for-jabber141/cjab_m_feature-security-monitoring-141.html
-retrieved_at: 2026-08-21T05:26:31.036106+00:00
+retrieved_at: 2026-10-19T11:47:33.223365+00:00
 ---
 
 Feature Configuration for Cisco Jabber 14.1
@@ -931,3 +931,7 @@ After you set this parameter, Jabber detects the configuration change and asks u
 |---|
 | On-Premises | Webex Messenger | Team Messaging Mode | Softphone for VDI |
 | Yes | — | — | Yes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

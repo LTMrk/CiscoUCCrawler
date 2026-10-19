@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-79b3cc82b3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0100.html
-retrieved_at: 2026-08-21T19:43:47.296134+00:00
+retrieved_at: 2026-10-19T11:52:46.414889+00:00
 ---
 
 Cisco Jabber Video for iPad 9.3.4 Administration Guide
@@ -701,3 +701,7 @@ Cisco Jabber for Android does not support SIP Digest Authentication feature with
 | Step 3 | On each Cisco Jabber for Tablet device page, complete the profile information in the Protocol Specific Information section. In the Device Security Profile list, select the phone security profile you just created. In the DigestUser list, select the digest user. |
 | Step 4 | On the same device page, complete the authentication details in the Product Specific Configuration Layout section: In the Enable SIP Digest Authentication list, select Enabled . For the SIP Digest Username , enter the digest user you just selected. |
 | Step 5 | Restart Cisco Jabber and step through the setup wizard again. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-ipad-9-3-x-jabi-bk-cceaf656-00-cisco-jabber-video-for-ipad-jabi-bk-cc-fa9fa7bfa5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_3_x/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad/JABI_BK_CCEAF656_00_cisco-jabber-video-for-ipad_chapter_0110.html
-retrieved_at: 2026-08-21T19:43:55.668860+00:00
+retrieved_at: 2026-10-19T11:52:58.784802+00:00
 ---
 
 Cisco Jabber Video for iPad 9.3.4 Administration Guide
@@ -654,3 +654,7 @@ Automatic adaptations take time. Cisco recommends that you set up the applicatio
 
 | Note | Automatic adaptations take time. Cisco recommends that you set up the application to fit the network and system capabilities. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

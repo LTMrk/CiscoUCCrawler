@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-webex-messenger-deploy-jabber141-cjab-b-deploy-jabber-web-fafd32a50e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_webex-messenger-deploy-jabber141/cjab_b_deploy-jabber-webex-messenger-129_chapter_01111.html
-retrieved_at: 2026-08-21T19:13:55.576189+00:00
+retrieved_at: 2026-10-19T11:51:53.874276+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 14.1
@@ -119,3 +119,7 @@ If Cisco Jabber can reconnect
 | Step 7 | Click Import to import the certificate. If the certificate is not according to the format specified for an X.509 certificate, an error is  displayed. |
 | Step 8 | Click Close twice to return to the SSO Related Options screen. |
 | Step 9 | Click Save to save your Federated Web single sign-on configuration details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

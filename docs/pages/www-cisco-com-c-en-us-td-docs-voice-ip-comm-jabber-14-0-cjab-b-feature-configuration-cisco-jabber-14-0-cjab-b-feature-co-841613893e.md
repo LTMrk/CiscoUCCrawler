@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-feature-configuration-cisco-jabber-14-0-cjab-b-feature-co-841613893e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_feature-configuration-cisco-jabber-14_0/cjab_b_feature-configuration-for-jabber-129_chapter_0100.html
-retrieved_at: 2026-08-21T05:25:59.287055+00:00
+retrieved_at: 2026-10-19T11:45:16.005886+00:00
 ---
 
 Feature Configuration for Cisco Jabber 14.0
@@ -909,3 +909,7 @@ After you set this parameter, Jabber detects the configuration change and asks u
 |---|
 | On-Premises | Webex Messenger | Team Messaging Mode | Softphone for VDI |
 | Yes | — | — | Yes |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

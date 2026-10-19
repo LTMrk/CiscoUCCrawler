@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-book-parameters-reference-guide-for-cisco-jabber-14-0-cjab--f02b62a485
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_book_parameters-reference-guide-for-cisco-jabber-14_0/cjab_param_14_0_new-and-changed-information.html
-retrieved_at: 2026-08-21T21:02:39.561795+00:00
+retrieved_at: 2026-10-19T11:47:11.270679+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 14.0
@@ -120,3 +120,7 @@ Common Policies
 |  | MaxNumberOfFilesMobile | Edit | Common Policies |
 |  | SaveLogToLocal | New | Common Policies |
 |  | UserEnabledDetailedLogging | New | Common Policies |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

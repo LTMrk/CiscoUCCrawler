@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-admintasks-cjab-b-cisco-jabber-administration-tasks-html-841dbe9519
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/admintasks/cjab_b_cisco-jabber-administration-tasks.html
-retrieved_at: 2026-08-21T06:59:33.250861+00:00
+retrieved_at: 2026-10-19T11:52:16.416290+00:00
 ---
 
 Cisco Jabber Administration Tasks
@@ -676,3 +676,13 @@ It can take up to 24 hours for changes in Microsoft Teams to take effect.
 | Step 9 | Click Add > Add Apps ,  search for Jabber , and click Add . |
 | Step 10 | Click Add at the bottom of the screen to confirm. |
 | Step 11 | Click Save . It can take up to 24 hours for changes in Microsoft Teams to take effect. |
+
+## Figuras
+
+![Rooms icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/427001-428000/427213.jpg)
+
+![Edit Room icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428653.jpg)
+
+![information icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428654.jpg)
+
+![plus icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428656.jpg)

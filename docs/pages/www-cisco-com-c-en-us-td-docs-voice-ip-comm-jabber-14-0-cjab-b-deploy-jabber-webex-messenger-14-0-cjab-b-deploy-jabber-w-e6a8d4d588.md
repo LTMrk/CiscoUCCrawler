@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-0-cjab-b-deploy-jabber-webex-messenger-14-0-cjab-b-deploy-jabber-w-e6a8d4d588
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_0/cjab_b_deploy-jabber-webex-messenger-14_0/cjab_b_deploy-jabber-webex-messenger-129_chapter_0111.html
-retrieved_at: 2026-08-21T19:14:29.826445+00:00
+retrieved_at: 2026-10-19T11:44:50.924640+00:00
 ---
 
 Webex Messenger Deployment for Cisco Jabber 14.0
@@ -546,3 +546,7 @@ Select Close to close the Device Reset dialog box.
 | Step 7 | Select Reset . The Device Reset dialog box opens. |
 | Step 8 | Select Reset . |
 | Step 9 | Select Close to close the Device Reset dialog box. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

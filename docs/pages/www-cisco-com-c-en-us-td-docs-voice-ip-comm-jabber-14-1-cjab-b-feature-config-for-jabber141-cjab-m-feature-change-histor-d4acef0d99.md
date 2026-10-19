@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-14-1-cjab-b-feature-config-for-jabber141-cjab-m-feature-change-histor-d4acef0d99
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/14_1/cjab_b_feature-config-for-jabber141/cjab_m_feature-change-history-141.html
-retrieved_at: 2026-08-21T05:26:11.321541+00:00
+retrieved_at: 2026-10-19T11:47:15.393680+00:00
 ---
 
 Feature Configuration for Cisco Jabber 14.1
@@ -52,3 +52,9 @@ Custom embedded tabs
 | February 2022 | Initial publication |  |
 |  | Added load balancing for persistent chat rooms. | Persistent chat rooms |
 |  | Added information on replacement of Apple  WebView with WKWebView. | Custom embedded tabs |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
