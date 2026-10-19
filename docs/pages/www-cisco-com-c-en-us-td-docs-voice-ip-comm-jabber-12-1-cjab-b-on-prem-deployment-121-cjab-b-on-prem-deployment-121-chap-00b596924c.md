@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-on-prem-deployment-121-cjab-b-on-prem-deployment-121-chap-00b596924c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_on-prem-deployment-121/cjab_b_on-prem-deployment-121_chapter_01010.html
-retrieved_at: 2026-08-21T21:15:37.186526+00:00
+retrieved_at: 2026-10-19T11:09:09.742464+00:00
 ---
 
 On-Premises Deployment for Cisco Jabber 12.1
@@ -648,3 +648,7 @@ Click Save .
 | Note | Using the CAPF Authentication mode By Null String with JVDI and Jabber for Windows CSF devices is not supported. It causes Jabber registration with Cisco Unified Communications
                                                          Manager to fail. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-cloud-and-hybrid-deployments-121-cjab-b-cloud-and-hybrid--7cbb5dd366
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_cloud-and-hybrid-deployments_121/cjab_b_cloud-and-hybrid-deployments_121_chapter_0100.html
-retrieved_at: 2026-08-21T21:14:03.198675+00:00
+retrieved_at: 2026-10-19T11:06:49.743028+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.1
@@ -271,3 +271,7 @@ Select Save .
 | Mailstore Inbox Folder Name | Name of the inbox folder configured at the mailstore server |
 |---|---|
 | Mailstore Trash Folder Name | Name of the trash or deleted items folder configured at the mailstore server |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

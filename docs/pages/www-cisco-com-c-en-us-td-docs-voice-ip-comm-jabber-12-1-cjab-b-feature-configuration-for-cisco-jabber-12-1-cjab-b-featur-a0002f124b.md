@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-feature-configuration-for-cisco-jabber-12-1-cjab-b-featur-a0002f124b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_0100.html
-retrieved_at: 2026-08-21T05:11:13.150828+00:00
+retrieved_at: 2026-10-19T11:07:59.969823+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.1
@@ -317,3 +317,7 @@ For Expressway for Mobile and Remote Access deployments, you can configure wirel
 
 | Note | The option to disable telemetry is not available to Jabber team messaging mode users. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

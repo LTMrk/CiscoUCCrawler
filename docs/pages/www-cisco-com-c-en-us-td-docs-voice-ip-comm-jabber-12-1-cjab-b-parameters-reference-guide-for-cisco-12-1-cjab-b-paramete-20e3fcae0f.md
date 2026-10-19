@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-parameters-reference-guide-for-cisco-12-1-cjab-b-paramete-20e3fcae0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_preface_00.html
-retrieved_at: 2026-08-21T05:11:42.205067+00:00
+retrieved_at: 2026-10-19T11:10:38.022376+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.1
@@ -133,3 +133,9 @@ Presence
 | AdminConfiguredBot | Updated | Options |
 | EnablePromoteMobile | New | Common Policies |
 | DomainsForOutlookPresence | Updated | Presence |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

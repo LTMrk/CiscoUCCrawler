@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-4fe6ba3fb3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_0111.html
-retrieved_at: 2026-08-25T21:46:25.773977+00:00
+retrieved_at: 2026-10-19T11:05:27.105270+00:00
 ---
 
 Cisco Jabber 11.0 Deployment and Installation Guide
@@ -1537,3 +1537,7 @@ Configure Audio and Video Services
 |---|---|---|
 | Step 1 | Configure Audio and Video Services |  |
 | Step 2 | Add Teleconferencing Service Name Accounts |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

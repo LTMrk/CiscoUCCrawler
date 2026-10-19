@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-6-cjab-b-planning-guide-cisco-jabber-116-cjab-b-planning-guide-cis-ea1e345061
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_6/cjab_b_planning-guide-cisco-jabber-116/cjab_b_planning-guide-cisco-jabber-116_chapter_010.html
-retrieved_at: 2026-08-25T21:47:23.492462+00:00
+retrieved_at: 2026-10-19T11:05:51.175032+00:00
 ---
 
 Planning Guide for Cisco Jabber 11.6
@@ -3035,3 +3035,7 @@ Cisco Jabber users should expect video calls to begin at lower resolution and sc
                                                 						kbps | Sufficient bandwidth for any audio codec. | 640 x
                                                 						360 at 20 fps |
 | 1024 kbps | Sufficient bandwidth for any audio codec. | 1280 x 720 at 20 fps |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

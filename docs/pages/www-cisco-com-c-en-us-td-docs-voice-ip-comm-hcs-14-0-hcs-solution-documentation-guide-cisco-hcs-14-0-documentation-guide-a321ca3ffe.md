@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-a321ca3ffe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_related-component-level-documentaion.html
-retrieved_at: 2026-09-01T20:55:20.667849+00:00
+retrieved_at: 2026-10-19T11:03:20.141063+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 14 Documentation Guide
@@ -228,3 +228,7 @@ Refer to the
 
 - SIP Device (Basic and
                                  			 Advanced)
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

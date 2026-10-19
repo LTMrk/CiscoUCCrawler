@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-parameters-reference-guide-for-cisco-12-1-cjab-b-paramete-5673d3170c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_parameters-reference-guide-for-cisco_12_1/cjab_b_parameters-reference-guide-for-cisco_12_1_chapter_0111.html
-retrieved_at: 2026-08-21T05:12:12.662565+00:00
+retrieved_at: 2026-10-19T11:10:34.647903+00:00
 ---
 
 Parameters Reference Guide for Cisco Jabber 12.1
@@ -1421,3 +1421,7 @@ Example: <WhitelistBot>bot1@example.com;bot2@example.com;bot3@example.com</White
 | Note | Only one protocol handler can be processed at one time. Any other protocol handler arriving when the user already has a call
                                        alert are either discarded or queued up. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

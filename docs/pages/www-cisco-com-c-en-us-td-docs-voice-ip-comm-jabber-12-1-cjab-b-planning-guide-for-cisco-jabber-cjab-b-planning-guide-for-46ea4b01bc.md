@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-planning-guide-for-cisco-jabber-cjab-b-planning-guide-for-46ea4b01bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_planning-guide-for-cisco-jabber/cjab_b_planning-guide-for-cisco-jabber_chapter_0110.html
-retrieved_at: 2026-08-21T19:01:57.233373+00:00
+retrieved_at: 2026-10-19T11:11:16.975607+00:00
 ---
 
 Planning Guide for Cisco Jabber 12.1
@@ -1094,3 +1094,11 @@ For example,
 | Tip | Resizing contact photos can result in less than optimal resolution. For this reason, use contact photos that are 128 pixels
                                                    by 128 pixels so that the client does not automatically resize them. |
 |---|---|
+
+## Figuras
+
+![CDI diagram](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393462.eps/_jcr_content/renditions/393462.jpg)
+
+![UDS diagram](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346967.tif/_jcr_content/renditions/346967.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

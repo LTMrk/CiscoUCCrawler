@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-6-cjab-b-planning-guide-cisco-jabber-116-cjab-b-planning-guide-cis-4cfc9fbff2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_6/cjab_b_planning-guide-cisco-jabber-116/cjab_b_planning-guide-cisco-jabber-116_chapter_01001.html
-retrieved_at: 2026-08-25T21:47:48.114694+00:00
+retrieved_at: 2026-10-19T11:06:03.525507+00:00
 ---
 
 Planning Guide for Cisco Jabber 11.6
@@ -69,3 +69,7 @@ In the jabber-config.xml file you set the attribute for the user ID in the SipUr
                                                          over Expressway for Mobile and Remote Access can use XMPP Interdomain federation if it has been enabled on Cisco Unified Communications
                                                          Manager IM and Presence. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-rn-jabi-b-release-notes-for-cisco-jabber-121-html-3a1a5595bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/rn/jabi_b_release-notes-for-cisco-jabber_121.html
-retrieved_at: 2026-08-21T07:01:18.791498+00:00
+retrieved_at: 2026-10-19T11:11:24.825396+00:00
 ---
 
 Release Notes for Cisco Jabber for iPhone and iPad 12.1
@@ -1708,3 +1708,7 @@ Cisco Jabber crashes during launch because of the configurationparse error in th
 | CSCvj72793 | 3 | Presence between Jabber for Windows and Jabber for iPhone and iPad does not sync after the app is brought to foreground. |
 | CSCvj53337 | 3 | The cache results of the initial Domain Name System (DNS) is re-used for each connection in a session. |
 | CSCvj95723 | 3 | Cisco Jabber crashes during launch because of the configurationparse error in the Telephony. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

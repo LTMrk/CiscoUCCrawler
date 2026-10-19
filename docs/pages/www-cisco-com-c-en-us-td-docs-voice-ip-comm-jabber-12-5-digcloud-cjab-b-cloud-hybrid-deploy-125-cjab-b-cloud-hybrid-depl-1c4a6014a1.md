@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-1c4a6014a1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_010000.html
-retrieved_at: 2026-08-21T21:13:20.098297+00:00
+retrieved_at: 2026-10-19T11:11:41.141237+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -156,3 +156,7 @@ Enable Jabber calling —The Jabber user is assigned Jabber calling.
                                              service to Jabber. Enable Jabber calling —The Jabber user is assigned Jabber calling. (Optional) You can choose a Cisco UC Manager profile for the user. Or, if you don't choose a profile, then Jabber uses the
                                              services_domain, the voice services domain, the domain of the user name, or the UPN domain to query the DNS SRV records to
                                              connect to your Cisco UC Manager. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

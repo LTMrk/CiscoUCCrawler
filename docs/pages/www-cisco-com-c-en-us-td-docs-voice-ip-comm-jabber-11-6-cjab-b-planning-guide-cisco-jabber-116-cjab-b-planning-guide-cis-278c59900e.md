@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-6-cjab-b-planning-guide-cisco-jabber-116-cjab-b-planning-guide-cis-278c59900e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_6/cjab_b_planning-guide-cisco-jabber-116/cjab_b_planning-guide-cisco-jabber-116_chapter_01000.html
-retrieved_at: 2026-08-25T21:47:44.334133+00:00
+retrieved_at: 2026-10-19T11:05:58.644380+00:00
 ---
 
 Planning Guide for Cisco Jabber 11.6
@@ -77,3 +77,7 @@ The port range for
 Applies to all Cisco Jabber clients.
 
 You can escalate to an instant Cisco Webex Meetings and share your screen using the Cisco Webex Meetings controls.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

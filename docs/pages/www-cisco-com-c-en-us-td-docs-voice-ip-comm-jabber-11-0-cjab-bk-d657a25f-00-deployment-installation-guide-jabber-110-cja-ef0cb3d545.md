@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-ef0cb3d545
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_010001.html
-retrieved_at: 2026-08-25T21:46:46.987278+00:00
+retrieved_at: 2026-10-19T11:04:48.007005+00:00
 ---
 
 Cisco Jabber 11.0 Deployment and Installation Guide
@@ -39,3 +39,9 @@ The certificate must be in a .CER or .CRT file format.
 | Step 7 | Click Import to import the certificate. If the certificate is not according to the format specified for an X.509 certificate, an error is  displayed. |
 | Step 8 | Click Close twice to return to the SSO Related Options screen. |
 | Step 9 | Click Save to save your Federated Web single sign-on configuration details. |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

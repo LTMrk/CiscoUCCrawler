@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-feature-configuration-for-cisco-jabber-12-1-cjab-b-featur-6eb709d554
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_preface_00.html
-retrieved_at: 2026-08-21T05:10:55.175792+00:00
+retrieved_at: 2026-10-19T11:08:20.854626+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.1
@@ -81,3 +81,9 @@ Platform chapter
 | Enable Multiline MRA Access | New | Voice and Video chapter |
 | Administer and Moderate Persistent Chat Rooms | Updated | Chat and Presence chapter |
 | Cisco Jabber Mobile App Promotion | New | Platform chapter |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

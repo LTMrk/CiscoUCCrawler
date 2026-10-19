@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-89882a9b48
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01011.html
-retrieved_at: 2026-08-25T21:46:39.003527+00:00
+retrieved_at: 2026-10-19T11:05:05.275541+00:00
 ---
 
 Cisco Jabber 11.0 Deployment and Installation Guide
@@ -965,3 +965,7 @@ You can configure
 | Step 3 | Add the directory services to the directory profile. See the Directory Profile Parameters topic for information about
 			 the specific settings that are needed for the directory profile. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

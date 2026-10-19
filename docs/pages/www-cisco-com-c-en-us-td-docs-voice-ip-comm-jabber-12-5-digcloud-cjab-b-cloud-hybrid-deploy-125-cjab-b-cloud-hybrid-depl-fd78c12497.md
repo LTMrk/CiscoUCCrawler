@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-fd78c12497
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_0101.html
-retrieved_at: 2026-08-21T21:12:46.867716+00:00
+retrieved_at: 2026-10-19T11:11:57.941058+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -459,3 +459,7 @@ Enabled
 | HD Video | Controls the HD Video feature on computer to computer calls when
                                           						External Video or Internal Video policies are enabled | Disabled —Prevents HD Video for all computer to
                                           						computer calls. | Enabled |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

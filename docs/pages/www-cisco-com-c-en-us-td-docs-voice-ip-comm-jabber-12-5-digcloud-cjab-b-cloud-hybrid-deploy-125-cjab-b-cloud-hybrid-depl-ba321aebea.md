@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-ba321aebea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_010010.html
-retrieved_at: 2026-08-21T21:13:38.131889+00:00
+retrieved_at: 2026-10-19T11:11:49.698820+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -611,3 +611,7 @@ For more information, see the Enabling and Adjusting Dead Peer Detection topic o
                                                          After Resume . For more information, see the Configuring Auto Reconnect topic in the Configuring AnyConnect Features chapter (Release 2.5) or Configuring VPN Access chapter (releases 3.0 or 3.1) of the Cisco AnyConnect Secure Mobility Client Administrator Guide for your release. |
 | Step 3 | Set the idle timeout value. Create a group policy that is specific to Cisco Jabber clients. Set the idle timeout value to 30 minutes. For more information, see the vpn-idle-timeout section of the Cisco ASA 5580 Adaptive Security Appliance Command Reference for your release |
 | Step 4 | Set up Dead Peer Detection (DPD). Disable server-side DPD. Enable client-side DPD. For more information, see the Enabling and Adjusting Dead Peer Detection topic of the Configuring VPN chapter of the Cisco ASA 5500 Series Configuration Guide using the CLI, 8.4 and 8.6 . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

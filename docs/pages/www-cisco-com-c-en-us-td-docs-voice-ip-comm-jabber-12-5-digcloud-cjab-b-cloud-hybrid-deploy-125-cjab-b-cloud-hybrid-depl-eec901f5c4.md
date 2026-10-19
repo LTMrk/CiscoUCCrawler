@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-eec901f5c4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_01000.html
-retrieved_at: 2026-08-21T21:12:59.416345+00:00
+retrieved_at: 2026-10-19T11:11:36.695359+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -403,3 +403,7 @@ Select Save .
                                           			 credentials and a user search base as appropriate. See the Cisco Unified Communications Manager Administration Guide for
                                              				information about the fields on the LDAP Authentication window. |
 | Step 5 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

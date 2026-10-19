@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-feature-configuration-for-cisco-jabber-12-1-cjab-b-featur-3ecb4f0d30
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1/cjab_b_feature-configuration-for-cisco-jabber_12_1_chapter_0101.html
-retrieved_at: 2026-08-21T05:11:17.496691+00:00
+retrieved_at: 2026-10-19T11:08:04.788526+00:00
 ---
 
 Feature Configuration for Cisco Jabber 12.1
@@ -729,3 +729,7 @@ For more information on configuring this parameter, See the Parameter Reference 
 | HTTP proxy(UDS) | TCP | >=1024 | 8443 |
 | Media | UDP | >=1024 | 36002 to 59999 |
 | SIP signaling | TLS | >=1024 | 5061 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

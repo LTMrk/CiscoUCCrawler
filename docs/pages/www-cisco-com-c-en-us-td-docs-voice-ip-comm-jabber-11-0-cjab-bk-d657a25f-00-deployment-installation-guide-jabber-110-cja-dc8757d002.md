@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-dc8757d002
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01111.html
-retrieved_at: 2026-08-25T21:46:57.263933+00:00
+retrieved_at: 2026-10-19T11:05:37.481173+00:00
 ---
 
 Cisco Jabber 11.0 Deployment and Installation Guide
@@ -519,3 +519,7 @@ You should
 | Step 2 | In Cisco
 			 Jabber for mobile clients, go to Jabber > Settings > Audio and Video and select Enable
 				Differentiated Service for Calls . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

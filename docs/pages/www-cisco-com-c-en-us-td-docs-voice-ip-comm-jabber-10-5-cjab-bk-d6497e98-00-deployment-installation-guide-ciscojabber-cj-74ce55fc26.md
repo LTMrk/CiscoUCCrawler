@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-74ce55fc26
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01001.html
-retrieved_at: 2026-08-21T05:10:38.705377+00:00
+retrieved_at: 2026-10-19T11:03:46.927430+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -4162,3 +4162,11 @@ WEBEX,CUCM
 | Remember | The default emoticons definitions file contains the following key combinations that enable users to request calls from other
                                                 users: :callme :telephone |
 |---|---|
+
+## Figuras
+
+![Directory integration with Cisco Unified Communications Manager](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346965.tif/_jcr_content/renditions/346965.jpg)
+
+![Directory attribute synchronization](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380388.tif/_jcr_content/renditions/380388.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

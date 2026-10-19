@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-49a67a0ad6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0110.html
-retrieved_at: 2026-08-21T05:10:14.380696+00:00
+retrieved_at: 2026-10-19T11:04:15.375974+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -7992,3 +7992,9 @@ Click Save .
                                                    					 release 10 with Dial via Office In the Single Number Reach Voicemail Policy drop-down list, select Timer Control . In the Dial-via-Office Reverse Voicemail
                                                             							 Policy drop-down list, select User Control . |
 | Step 5 | Click Save . |
+
+## Figuras
+
+![Lock icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380070.tif/_jcr_content/renditions/380070.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

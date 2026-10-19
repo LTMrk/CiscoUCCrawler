@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-d7b456c7b0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_01010.html
-retrieved_at: 2026-08-21T21:13:07.805911+00:00
+retrieved_at: 2026-10-19T11:12:02.245777+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -746,3 +746,7 @@ Click Save .
 | Note | Using the CAPF Authentication mode By Null String with JVDI and Jabber for Windows CSF devices is not supported. It causes Jabber registration with Cisco Unified Communications
                                                          Manager to fail. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

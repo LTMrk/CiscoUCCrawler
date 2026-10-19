@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-cloud-and-hybrid-deployments-121-cjab-b-cloud-and-hybrid--f624d5a0f0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_cloud-and-hybrid-deployments_121/cjab_b_cloud-and-hybrid-deployments_121_chapter_01.html
-retrieved_at: 2026-08-21T21:13:50.752466+00:00
+retrieved_at: 2026-10-19T11:06:41.449864+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.1
@@ -52,3 +52,7 @@ Cisco Jabber for Windows
 Cisco Jabber Softphone for VDI
 
 For more information about the Cisco Jabber suite of products, see https://www.cisco.com/go/jabber or https://www.cisco.com/c/en/us/products/unified-communications/jabber-softphone-for-vdi/index.html .
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

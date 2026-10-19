@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-cloud-and-hybrid-deployments-121-cjab-b-cloud-and-hybrid--29b00d674a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_cloud-and-hybrid-deployments_121/cjab_b_cloud-and-hybrid-deployments_121_chapter_010.html
-retrieved_at: 2026-08-21T21:13:54.834015+00:00
+retrieved_at: 2026-10-19T11:06:45.142616+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.1
@@ -79,3 +79,7 @@ Remote Access
 | Step 9 | Configure the Clients |  |
 | Step 10 | Deploy Cisco Jabber Applications and Jabber Softphone for VDI |  |
 | Step 11 | Remote Access |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-422cc4650f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_0100.html
-retrieved_at: 2026-08-21T21:12:42.263900+00:00
+retrieved_at: 2026-10-19T11:11:32.565257+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -155,3 +155,7 @@ Deploy Cisco Jabber Applications and Jabber Softphone for VDI
 | Step 7 | Configure Cisco Webex Control Hub |  |
 | Step 8 | Configure the Clients |  |
 | Step 9 | Deploy Cisco Jabber Applications and Jabber Softphone for VDI |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

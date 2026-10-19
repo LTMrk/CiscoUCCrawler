@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-f4480653f9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0101.html
-retrieved_at: 2026-08-21T05:10:06.807473+00:00
+retrieved_at: 2026-10-19T11:03:51.337536+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -1544,3 +1544,7 @@ Select Save .
 | Note | When searching for contacts in your organization, users can see the temporary availability status of all users in the organization.
                                                             However, if User A blocks User B, User B cannot see the temporary availability status of User A in the search list. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-5-digcloud-cjab-b-cloud-hybrid-deploy-125-cjab-b-cloud-hybrid-depl-125a155a55
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_5/DIGCloud/cjab_b_cloud-hybrid-deploy-125/cjab_b_cloud-hybrid-deploy-125_chapter_010011.html
-retrieved_at: 2026-08-21T21:13:41.868241+00:00
+retrieved_at: 2026-10-19T11:11:53.795900+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.5
@@ -107,3 +107,7 @@ The Cisco Jabber Diagnostics Tool is available by default. To disable this tool,
 | Step 7 | Click Import to import the certificate. If the certificate is not according to the format specified for an X.509 certificate, an error is  displayed. |
 | Step 8 | Click Close twice to return to the SSO Related Options screen. |
 | Step 9 | Click Save to save your Federated Web single sign-on configuration details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

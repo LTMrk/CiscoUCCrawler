@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-ccf08b8d0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01011.html
-retrieved_at: 2026-08-21T05:10:28.254273+00:00
+retrieved_at: 2026-10-19T11:04:00.878083+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -3098,3 +3098,7 @@ Root of the directory service or the
 | BDIUserAccountName | Unique identifier such as uid or cn |
 | BDISearchBase1 | Root of the directory service or the
                                                       					 organizational unit (OU) |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

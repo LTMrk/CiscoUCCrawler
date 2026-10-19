@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-6-cjab-b-planning-guide-cisco-jabber-116-cjab-b-planning-guide-cis-0c5d9a0bd7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_6/cjab_b_planning-guide-cisco-jabber-116/cjab_b_planning-guide-cisco-jabber-116_chapter_0111.html
-retrieved_at: 2026-08-25T21:47:40.379964+00:00
+retrieved_at: 2026-10-19T11:06:20.158121+00:00
 ---
 
 Planning Guide for Cisco Jabber 11.6
@@ -710,3 +710,11 @@ For more information about root certificates for Cisco Jabber for Mac, see https
 | Note | Cisco Webex certificates are signed by a public Certificate Authority (CA). Cisco Jabber validates these certificates to establish secure
                                           connections with cloud-based services. |
 |---|---|
+
+## Figuras
+
+![Lock icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380070.tif/_jcr_content/renditions/380070.jpg)
+
+![Padlock icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380071.tif/_jcr_content/renditions/380071.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

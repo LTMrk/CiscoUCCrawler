@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-11-0-cjab-bk-d657a25f-00-deployment-installation-guide-jabber-110-cja-fb8e938837
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/11_0/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110/CJAB_BK_D657A25F_00_deployment-installation-guide-jabber-110_chapter_01100.html
-retrieved_at: 2026-08-21T19:20:56.319302+00:00
+retrieved_at: 2026-10-19T11:05:18.457411+00:00
 ---
 
 Cisco Jabber 11.0 Deployment and Installation Guide
@@ -1997,3 +1997,7 @@ Upgrading in the Mac OS X environment is performed automatically by the applicat
 | Step 1 | To install Cisco Jabber for Android, download the app from Google Play from your mobile device. |
 |---|---|
 | Step 2 | To install Cisco Jabber for iPhone and iPad, download the app from the App Store from your mobile device. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

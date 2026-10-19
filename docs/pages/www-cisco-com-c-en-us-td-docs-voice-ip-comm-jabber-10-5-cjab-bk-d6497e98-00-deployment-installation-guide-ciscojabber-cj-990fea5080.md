@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-990fea5080
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_0100.html
-retrieved_at: 2026-08-17T03:31:47.515405+00:00
+retrieved_at: 2026-10-19T11:03:36.580369+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -916,3 +916,22 @@ If you have
                                              			 required to perform a first-time SSO sign in. If users signed in to Cisco
                                              			 Jabber previously, this prompt is not needed because the required information
                                              			 is available. |
+
+## Figuras
+
+![Figure 1. Cloud-Based
+                                    			 Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346955.tif/_jcr_content/renditions/346955.jpg)
+
+![Figure 2. Hybrid 
+                                    			 Cloud-Based Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346964.tif/_jcr_content/renditions/346964.jpg)
+
+![Figure 3. On-Premises
+                                    			 Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346961.tif/_jcr_content/renditions/346961.jpg)
+
+![Figure 4. On-Premises
+                                    			 Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346958.tif/_jcr_content/renditions/346958.jpg)
+
+![Figure 5. Phone Mode
+                                    			 Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346993.tif/_jcr_content/renditions/346993.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

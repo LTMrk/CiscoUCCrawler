@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-12-1-cjab-b-cloud-and-hybrid-deployments-121-cjab-b-cloud-and-hybrid--dacb521978
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/12_1/cjab_b_cloud-and-hybrid-deployments_121/cjab_b_cloud-and-hybrid-deployments_121_chapter_01111.html
-retrieved_at: 2026-08-21T21:14:50.472944+00:00
+retrieved_at: 2026-10-19T11:07:41.380439+00:00
 ---
 
 Cloud and Hybrid Deployments for Cisco Jabber 12.1
@@ -101,3 +101,7 @@ If Cisco Jabber can reconnect
 | Step 7 | Click Import to import the certificate. If the certificate is not according to the format specified for an X.509 certificate, an error is  displayed. |
 | Step 8 | Click Close twice to return to the SSO Related Options screen. |
 | Step 9 | Click Save to save your Federated Web single sign-on configuration details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

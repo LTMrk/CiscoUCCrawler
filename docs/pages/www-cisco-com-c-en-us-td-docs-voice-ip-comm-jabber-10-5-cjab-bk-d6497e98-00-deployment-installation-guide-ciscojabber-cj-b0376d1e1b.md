@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-10-5-cjab-bk-d6497e98-00-deployment-installation-guide-ciscojabber-cj-b0376d1e1b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/10_5/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber/CJAB_BK_D6497E98_00_deployment-installation-guide-ciscojabber_chapter_01100.html
-retrieved_at: 2026-08-21T05:10:32.329359+00:00
+retrieved_at: 2026-10-19T11:04:18.917422+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber, Release 10.5
@@ -464,3 +464,7 @@ Import the CSV file with the Cisco Webex Administration Tool.
 | Step 3 | Save the CSV
                                              			 file. |
 | Step 4 | Import the CSV file with the Cisco Webex Administration Tool. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
