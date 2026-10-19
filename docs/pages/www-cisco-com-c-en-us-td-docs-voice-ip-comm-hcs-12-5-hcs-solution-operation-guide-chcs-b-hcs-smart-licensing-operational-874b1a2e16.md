@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-874b1a2e16
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_01.html
-retrieved_at: 2026-09-01T20:56:05.586850+00:00
+retrieved_at: 2026-10-19T11:00:53.986450+00:00
 ---
 
 Cisco Hosted Collaboration Solution Smart Licensing Operation Guide, Release 12.5
@@ -514,3 +514,7 @@ Complete view of all Smart Software Licenses used in the network using a consoli
                                        software license as part of the Return Material Authorization (RMA) process. |
 | Limited visibility into all software licenses being used in the network. Licenses are tracked only on per node basis. | Complete view of all Smart Software Licenses used in the network using a consolidated usage report of software licenses and
                                        devices in one easy-to-use portal. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

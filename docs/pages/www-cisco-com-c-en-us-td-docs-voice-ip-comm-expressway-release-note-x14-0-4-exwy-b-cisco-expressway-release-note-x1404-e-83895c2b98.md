@@ -1,22 +1,12 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-release-note-x14-0-4-exwy-b-cisco-expressway-release-note-x1404-e-83895c2b98
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/release_note/X14-0-4/exwy_b_cisco-expressway-release-note-x1404/exwy_m_about-the-documentation-x1404.html
-retrieved_at: 2026-08-16T22:06:39.252977+00:00
+retrieved_at: 2026-10-19T10:59:17.623156+00:00
 ---
 
 Cisco Expressway Release Note (X14.0.4)
 
 # Cisco Expressway Release Note (X14.0.4)
-
-Book Contents
-
-- Book Title Page
-
-- About the Documentation
-
-Find Matches in This Book
-
-## Results
 
 Updated: December 1, 2021
 
@@ -2444,3 +2434,7 @@ Expressway-C (no change)
 
 | Note | SSO mode = Off in X8.9 is two settings in X8.10: Authentication path = UCM/LDAP Authorize by user credentials = On SSO Mode = Exclusive in X8.9 is two settings in X8.10: Authentication path = SAML SSO Authorize by OAuth token = On SSO Mode = On in X8.9 is three settings in X8.10: Authentication path = SAML SSO/and UCM/LDAP Authorize by OAuth token = On Authorize by user credentials = On |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

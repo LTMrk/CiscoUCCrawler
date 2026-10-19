@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-eb69b0849f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01000.html
-retrieved_at: 2026-09-01T20:56:59.908313+00:00
+retrieved_at: 2026-10-19T11:00:02.970488+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -665,3 +665,10 @@ For Cisco Unified Communications Domain Manager 10.x/11.5(x) customers, Classes 
 | Customer 2 |
 | Site 1 | 12123423000-12123423999 | 12123423044 |
 | Site 2 | 2000-2999 | 2050 |
+
+## Figuras
+
+![Figure 1. Role-Based
+                                    		  Access Control Hierarchy](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/370001-380000/371001-372000/371170.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

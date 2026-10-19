@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-5bf5bbb5a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0110.html
-retrieved_at: 2026-09-01T20:56:17.947768+00:00
+retrieved_at: 2026-10-19T11:01:10.511011+00:00
 ---
 
 Cisco Hosted Collaboration Solution Smart Licensing Operation Guide, Release 12.5
@@ -112,3 +112,7 @@ For more information on License Dashboard and how to view the license summary de
 | Note | Similar to Service Inventory report format, the HLM reports maintained with name/hostname/IP address of the PLM are replaced
                                        with the Virtual Account and Smart Account names Virtual Account Name @ Smart Account Name . The LM Name column of the HLM report shows the virtual account along with the PLM. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

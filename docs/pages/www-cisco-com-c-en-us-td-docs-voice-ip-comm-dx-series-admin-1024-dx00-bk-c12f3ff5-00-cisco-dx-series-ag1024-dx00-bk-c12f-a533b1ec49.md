@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1024-dx00-bk-c12f3ff5-00-cisco-dx-series-ag1024-dx00-bk-c12f-a533b1ec49
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_preface_00.html
-retrieved_at: 2026-08-21T04:57:46.265220+00:00
+retrieved_at: 2026-10-19T10:53:33.856465+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(4)
@@ -233,3 +233,7 @@ Further information
 | Voicemail
 					 System | Voice
 					 Messaging System |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-14-0-hcs-solution-documentation-guide-cisco-hcs-14-0-documentation-guide-db7ac7b071
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide/chcs_m_documentation-changes.html
-retrieved_at: 2026-09-01T20:55:08.413589+00:00
+retrieved_at: 2026-10-19T11:01:27.184745+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 14 Documentation Guide
@@ -116,3 +116,7 @@ The following documents have been updated for Cisco Hosted Collaboration Solutio
                                        (Cisco HCS) is based on the Domain Manager that you have deployed in your network. If you are using Cisco Unified Communications Domain Manager (Unified CDM), see the Cisco HCS Compatibility Matrix for the
                                        supported UC application versions. |
 | Cisco Hosted Collaboration Solution, Cisco Unity Connection Feature Support |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

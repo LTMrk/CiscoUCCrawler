@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1023sr1-dx00-bk-r1761000-00-release-notes-dx-series-1023-e8ff67df13
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1023sr1/DX00_BK_R1761000_00_release-notes-dx-series-1023sr.html
-retrieved_at: 2026-08-22T00:57:26.936711+00:00
+retrieved_at: 2026-10-19T10:54:54.717994+00:00
 ---
 
 Release Notes for Cisco DX Series Firmware Release 10.2(3)SR1
@@ -203,3 +203,7 @@ firmware files to the server. |
 | Step 3 | To look for
 			 information about a specific problem, enter the bug ID number in the Search for
 			 field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-1ffa847a75
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_01.html
-retrieved_at: 2026-09-01T20:55:35.228142+00:00
+retrieved_at: 2026-10-19T10:59:29.305124+00:00
 ---
 
 Cisco Hosted Collaboration Solution Release 12.5 Documentation Guide
@@ -179,3 +179,7 @@ The following documents have also been updated between the HCS 11.5 and 12.5 rel
                                        and configuration. |
 | Cisco Hosted Collaboration Solution Flexibility Guide | This was also a temporary guide, introducing the flexibility in solution design that is now a core characterstic of HCS 12.5. |
 | Cisco HCS Large Enterprise Reference Guide | This guide was relevant to a previous HCS offering that is positioned differently for HCS 12.5. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

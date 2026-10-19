@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-cisco-expressway-on-virtual-machine-exwy-b-v-0417c705c6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_cisco-expressway-on-virtual-machine/exwy_b_vm-install-guide_chapter_0101.html
-retrieved_at: 2026-08-21T18:07:51.583880+00:00
+retrieved_at: 2026-10-19T10:58:18.221478+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.7)
@@ -87,3 +87,7 @@ Click Close to exit the Snapshot Manager.
 | Step 5 | In the Snapshot Manager , select Delete All Snapshots . |
 | Step 6 | Click Yes in the confirmation dialog box. |
 | Step 7 | Click Close to exit the Snapshot Manager. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

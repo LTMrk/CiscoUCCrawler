@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-c3ac25547c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_preface_00.html
-retrieved_at: 2026-09-01T20:55:30.679659+00:00
+retrieved_at: 2026-10-19T10:59:46.021008+00:00
 ---
 
 Cisco Hosted Collaboration Solution Release 12.5 Documentation Guide
@@ -56,3 +56,9 @@ Initial issue of document.
 | 11/5/2019 | New Documents | Added information related to the release of HCM-F 12.5(1) SU1. Rebranded Webex |
 | 7/30/2019 | Documentation Changes | Added information about the newly issued Cisco Hosted Collaboration Solution Smart Licensing Guide, Release 12.5 . |
 | 6/25/2019 |  | Initial issue of document. |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

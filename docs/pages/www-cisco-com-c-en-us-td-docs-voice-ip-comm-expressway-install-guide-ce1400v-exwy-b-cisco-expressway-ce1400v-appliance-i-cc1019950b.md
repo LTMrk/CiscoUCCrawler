@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-ce1400v-exwy-b-cisco-expressway-ce1400v-appliance-i-cc1019950b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_rear-panel-layout.html
-retrieved_at: 2026-08-16T22:09:24.662266+00:00
+retrieved_at: 2026-10-19T10:55:59.056790+00:00
 ---
 
 Cisco Expressway CE1400V Appliance Installation Guide (M7 Appliances, zero factory preload)
@@ -181,3 +181,11 @@ Amber, solid—Critical error detected; 12 V main power off (for example, over-c
 | 6 | RJ-45 COM port |  |
 | 7 | RJ -45 COM port |  |
 | 8 | Power supply status (one LED each power supply unit) | AC power supplies: Off—No AC input (12 V main power off, 12 V standby power off). Green, blinking—12 V main power off; 12 V standby power on. Green, solid—12 V main power on; 12 V standby power on. Amber, blinking—Warning threshold detected but 12 V main power on. Amber, solid—Critical error detected; 12 V main power off (for example, over-current, over-voltage, or over-temperature failure). DC power supplies: Off—No DC input (12 V main power off, 12 V standby power off). Green, blinking—12 V main power off; 12 V standby power on. Green, solid—12 V main power on; 12 V standby power on. Amber, blinking—Warning threshold detected but 12 V main power on. Amber, solid—Critical error detected; 12 V main power off (for example, over-current, over-voltage, or over-temperature failure). |
+
+## Figuras
+
+![Figure 1. Rear Panel View, Half Height, ¾ Length PCIe Cards](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/472001-473000/472713.jpg)
+
+![Figure 2. Rear Panel LEDs](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/472001-473000/472717.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

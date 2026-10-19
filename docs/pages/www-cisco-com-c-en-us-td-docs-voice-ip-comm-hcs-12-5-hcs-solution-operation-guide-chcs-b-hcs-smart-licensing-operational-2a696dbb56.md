@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-2a696dbb56
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_010.html
-retrieved_at: 2026-09-01T20:56:10.260440+00:00
+retrieved_at: 2026-10-19T11:00:58.750163+00:00
 ---
 
 Cisco Hosted Collaboration Solution Smart Licensing Operation Guide, Release 12.5
@@ -1587,3 +1587,11 @@ Perpetual licenses might not have Subscription ID.
 
 | Note | Perpetual licenses might not have Subscription ID. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Task Flow of the Operational License Without Satellite Account](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394276.eps/_jcr_content/renditions/394276.jpg)
+
+![Figure 2. Task Flow of the Operational License with Satellite Account](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394277.eps/_jcr_content/renditions/394277.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

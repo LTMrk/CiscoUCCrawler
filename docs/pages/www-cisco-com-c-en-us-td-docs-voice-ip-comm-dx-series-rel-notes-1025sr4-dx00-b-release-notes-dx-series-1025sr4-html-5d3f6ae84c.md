@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr4-dx00-b-release-notes-dx-series-1025sr4-html-5d3f6ae84c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr4/dx00_b_release-notes-dx-series-1025sr4.html
-retrieved_at: 2026-08-22T00:57:05.593763+00:00
+retrieved_at: 2026-10-19T10:55:28.151585+00:00
 ---
 
 Release Notes for Cisco DX Series Firmware Release 10.2(5)SR4
@@ -209,3 +209,7 @@ http:/​/​www.cisco.com/​go/​ptrdocs
 | English, Britain ( en_GB ) | Lithuanian, Lithuania ( lt_LT ) | Thai, Thailand ( th_TH ) |
 | English, US ( en_US ) | Norwegian bokmål , Norway ( nb_NO ) | Turkish, Turkey ( tr_TR ) |
 | Finnish, Finland ( fi_FI ) | Polish ( pl_PL ) |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-1a88b7228c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_0101.html
-retrieved_at: 2026-08-21T20:58:24.685029+00:00
+retrieved_at: 2026-10-19T10:54:04.143680+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -1237,3 +1237,9 @@ If the device completes these stages successfully, it has
                                           			 indicate that the key sequence was detected. |
 | Step 3 | The TFTP configuration screen appears. Enter the TFTP server
                                           			 address and tap Confirm . |
+
+## Figuras
+
+![More](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346152.tif/_jcr_content/renditions/346152.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

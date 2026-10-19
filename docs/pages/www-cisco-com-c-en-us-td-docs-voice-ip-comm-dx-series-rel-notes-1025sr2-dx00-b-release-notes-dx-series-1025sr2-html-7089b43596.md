@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-rel-notes-1025sr2-dx00-b-release-notes-dx-series-1025sr2-html-7089b43596
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/rel-notes/1025sr2/dx00_b_release-notes-dx-series-1025sr2.html
-retrieved_at: 2026-08-22T00:57:14.238961+00:00
+retrieved_at: 2026-10-19T10:55:19.738753+00:00
 ---
 
 Release Notes for Cisco DX Series Firmware Release 10.2(5)SR2
@@ -213,3 +213,7 @@ http:/​/​www.cisco.com/​go/​ptrdocs
 |---|---|
 | Step 2 | Log in with your Cisco.com user ID and password. |
 | Step 3 | To look for information about a specific problem, enter the bug ID number in the Search for field, then press Enter . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

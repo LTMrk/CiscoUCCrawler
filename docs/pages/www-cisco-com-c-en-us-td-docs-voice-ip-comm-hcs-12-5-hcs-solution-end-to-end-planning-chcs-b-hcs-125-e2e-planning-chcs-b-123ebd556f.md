@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-123ebd556f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01101.html
-retrieved_at: 2026-09-01T20:57:16.637705+00:00
+retrieved_at: 2026-10-19T11:00:32.710556+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -365,3 +365,7 @@ For components that require frequent (daily) backup, identify the
                                        			 backup mechanism you will use. |
 | Step 4 | For components that require frequent (daily) backup, identify the
                                        			 backup mechanism you will use. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

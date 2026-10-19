@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-0f0923a510
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_01011.html
-retrieved_at: 2026-08-21T20:58:49.764581+00:00
+retrieved_at: 2026-10-19T10:54:13.172503+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -233,3 +233,7 @@ If your phone system is configured for international call logging (calling party
                                           			 Locale Installer may not be immediately available; continue to check the
                                           			 website for updates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

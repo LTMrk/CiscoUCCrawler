@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-5afc078d3f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_appendix-troubleshooting.html
-retrieved_at: 2026-08-16T22:17:08.059036+00:00
+retrieved_at: 2026-10-19T10:56:16.057387+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -177,3 +177,7 @@ Click Save Changes .
 | Step 3 | Go to Chassis > Power management > Power Cap Configuration . |
 | Step 4 | Click Disable Power Characterization . |
 | Step 5 | Click Save Changes . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

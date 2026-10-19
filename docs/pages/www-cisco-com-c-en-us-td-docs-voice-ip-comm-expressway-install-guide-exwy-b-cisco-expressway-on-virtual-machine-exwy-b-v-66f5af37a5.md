@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-cisco-expressway-on-virtual-machine-exwy-b-v-66f5af37a5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_cisco-expressway-on-virtual-machine/exwy_b_vm-install-guide_chapter_011.html
-retrieved_at: 2026-08-21T18:07:43.538708+00:00
+retrieved_at: 2026-10-19T10:58:21.962173+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.7)
@@ -435,3 +435,45 @@ There are multiple ways to automate the deployment, for example, you can use Pyt
 |---|---|
 | Step 2 | Configure the root and admin passwords using ssh on port 5022. Refer the section Set the Root and Admin Password Using SSH . |
 | Step 3 | There are multiple ways to automate the deployment, for example, you can use Python Paramiko SSH library command: {{command = '{"admin.password": "x", "root.password": “x”}\n’}} |
+
+## Figuras
+
+![Figure 1. Deploy OVF Template](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394179.tif/_jcr_content/renditions/394179.jpg)
+
+![Figure 2. Browse .ova file](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394201.tif/_jcr_content/renditions/394201.jpg)
+
+![Figure 3. Name and Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394198.tif/_jcr_content/renditions/394198.jpg)
+
+![Figure 4. Select Deployment Size](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394195.tif/_jcr_content/renditions/394195.jpg)
+
+![Figure 5. Select Host or Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394197.tif/_jcr_content/renditions/394197.jpg)
+
+![Figure 6. Select Resource Pool](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394200.tif/_jcr_content/renditions/394200.jpg)
+
+![Figure 7. Select Destination Storage](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394202.tif/_jcr_content/renditions/394202.jpg)
+
+![Figure 8. Select Disk Format](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394203.tif/_jcr_content/renditions/394203.jpg)
+
+![Figure 9. Select Network Mapping](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394199.tif/_jcr_content/renditions/394199.jpg)
+
+![Figure 10. Configure Network Properties](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/454001-455000/454335.jpg)
+
+![Figure 11. Enter Root and Admin Password](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394175.tif/_jcr_content/renditions/394175.jpg)
+
+![Figure 12. Configuration Applied](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394177.tif/_jcr_content/renditions/394177.jpg)
+
+![Figure 13. Connect as User "wizard"](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394193.tif/_jcr_content/renditions/394193.jpg)
+
+![Figure 14. Set Admin and Root Password](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394192.tif/_jcr_content/renditions/394192.jpg)
+
+![Figure 15. Configuration Applied](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394177.tif/_jcr_content/renditions/394177.jpg)
+
+![Figure 16. Deploy OVF Template](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394179.tif/_jcr_content/renditions/394179.jpg)
+
+![Figure 17. Browse .ova File](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394207.tif/_jcr_content/renditions/394207.jpg)
+
+![Figure 18. Name and Location](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394206.tif/_jcr_content/renditions/394206.jpg)
+
+![Figure 19. Deployment Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394204.tif/_jcr_content/renditions/394204.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

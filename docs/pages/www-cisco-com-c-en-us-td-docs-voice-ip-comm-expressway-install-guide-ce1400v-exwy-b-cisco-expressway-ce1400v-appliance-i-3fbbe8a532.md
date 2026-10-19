@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-ce1400v-exwy-b-cisco-expressway-ce1400v-appliance-i-3fbbe8a532
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_hardware-components.html
-retrieved_at: 2026-08-16T22:09:16.290257+00:00
+retrieved_at: 2026-10-19T10:55:36.751857+00:00
 ---
 
 Cisco Expressway CE1400V Appliance Installation Guide (M7 Appliances, zero factory preload)
@@ -171,3 +171,7 @@ If you need to begin a Return Material Authorization (RMA) for any reason, go to
 
 | Caution | To avoid compatibility issues, use only the supplied SFPs, and follow the other requirements for SFPs in Task 2: Insert the SFP Network Connection Modules . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

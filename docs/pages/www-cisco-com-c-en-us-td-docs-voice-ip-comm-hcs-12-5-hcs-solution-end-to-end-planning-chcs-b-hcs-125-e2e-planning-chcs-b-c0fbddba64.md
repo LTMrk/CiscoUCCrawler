@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-c0fbddba64
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01001.html
-retrieved_at: 2026-09-01T20:57:03.591379+00:00
+retrieved_at: 2026-10-19T11:00:06.864948+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -231,3 +231,7 @@ Desktop client support: Determine the software applications that you plan to sup
                                              				  desktop clients. Phone support: Determine the clients that you plan to support, such as user downloading clients from the Apple app store or
                                                       Google Play. Desktop client support: Determine the software applications that you plan to support. These applications are stored on servers,
                                                       and will factor into your data center planning. For more details on data center requirements, see Determine Data Center Requirements . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

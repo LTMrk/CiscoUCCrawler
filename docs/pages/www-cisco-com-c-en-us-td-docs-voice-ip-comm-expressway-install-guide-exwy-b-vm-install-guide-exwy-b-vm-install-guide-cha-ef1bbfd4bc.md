@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-ef1bbfd4bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_chapter_01.html
-retrieved_at: 2026-08-21T18:10:33.202228+00:00
+retrieved_at: 2026-10-19T10:58:46.569692+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -232,3 +232,7 @@ The following documents may help with setting up your environment:
 | August 2014 | Removed misleading RAID 5 prerequisite for UCS. |  |
 | June 2014 | Republished for X8.2 |  |
 | December 2013 | Initial release of Expressway variant of this document. | X8.1 release |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-25daf7711b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_0101.html
-retrieved_at: 2026-09-01T20:56:22.696852+00:00
+retrieved_at: 2026-10-19T11:01:07.143072+00:00
 ---
 
 Cisco Hosted Collaboration Solution Smart Licensing Operation Guide, Release 12.5
@@ -1519,3 +1519,7 @@ AuthenticationFailed
 | 500 | INTERNAL_SERVER_ERROR | The requested operation was not successful due to communication send error |  |
 | licensedetails | 500 | INTERNAL_SERVER_ERROR | Unable to fetch license count from database |  |
 | All APIs | 401 | NOT_AUTHORIZED | User is not authorized to perform this operation | Use correct priviledge to run commands AuthenticationFailed |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

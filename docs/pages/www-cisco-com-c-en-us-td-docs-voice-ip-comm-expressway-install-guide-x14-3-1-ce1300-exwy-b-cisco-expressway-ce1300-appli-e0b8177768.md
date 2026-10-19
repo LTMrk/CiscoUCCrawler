@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-3-1-ce1300-exwy-b-cisco-expressway-ce1300-appli-e0b8177768
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-3-1/CE1300/exwy_b_cisco-expressway-ce1300-appliance-installation-guide-x1431/exwy_m_introduction.html
-retrieved_at: 2026-08-16T22:09:50.051750+00:00
+retrieved_at: 2026-10-19T10:57:27.037256+00:00
 ---
 
 Cisco Expressway CE1300 Appliance Installation Guide (X14.3.1)
@@ -154,3 +154,7 @@ Creating and maintaining a cluster of Cisco Expressways is described in the Cisc
 
 | Note | CE1300 physical hardware uses Self-Encrypting-Disks (SED's) and ships with encryption disabled. To enable encryption, see Appendix A: Enable Encryption on Self Encrypting Disks . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

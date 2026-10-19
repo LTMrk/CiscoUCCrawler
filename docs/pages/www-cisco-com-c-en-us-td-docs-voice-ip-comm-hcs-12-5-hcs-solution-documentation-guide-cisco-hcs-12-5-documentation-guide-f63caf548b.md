@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-f63caf548b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_011.html
-retrieved_at: 2026-09-01T20:55:43.712468+00:00
+retrieved_at: 2026-10-19T10:59:41.434959+00:00
 ---
 
 Cisco Hosted Collaboration Solution Release 12.5 Documentation Guide
@@ -49,3 +49,7 @@ Finally, you can find the Cisco Hosted Collaboration Solution Ordering Guide on 
 
 - Cisco Hosted Collaboration Mediation Fulfillment Developer Guide : This document describes the Cisco HCS REST North Bound Interface Web Service APIs and the Cisco HCS SOAP North Bound Interface
                               Web Service APIs.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

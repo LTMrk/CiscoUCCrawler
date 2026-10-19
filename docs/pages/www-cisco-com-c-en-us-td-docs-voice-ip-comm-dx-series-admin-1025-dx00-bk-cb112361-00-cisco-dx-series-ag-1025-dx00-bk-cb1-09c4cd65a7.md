@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-09c4cd65a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_010000.html
-retrieved_at: 2026-08-21T20:58:02.893004+00:00
+retrieved_at: 2026-10-19T10:53:54.754490+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -63,3 +63,9 @@ Set Administrator Password for Settings
 | Updated contact search | Contacts Search |
 | Added automatic problem report upload | Configure Product-Specific Options |
 | Added adminstrator password for Settings | Set Administrator Password for Settings |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

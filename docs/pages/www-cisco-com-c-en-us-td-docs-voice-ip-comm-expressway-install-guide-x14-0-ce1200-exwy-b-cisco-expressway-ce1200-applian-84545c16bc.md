@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-84545c16bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_introduction.html
-retrieved_at: 2026-08-16T22:16:30.209749+00:00
+retrieved_at: 2026-10-19T10:56:36.373405+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -149,3 +149,7 @@ Creating and maintaining a cluster of Cisco Expressways is described in the Cisc
                                           				does not support appliances running earlier versions than those specified in the
                                           				table. This requirement applies to any UCS C220 M5L-based appliance. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

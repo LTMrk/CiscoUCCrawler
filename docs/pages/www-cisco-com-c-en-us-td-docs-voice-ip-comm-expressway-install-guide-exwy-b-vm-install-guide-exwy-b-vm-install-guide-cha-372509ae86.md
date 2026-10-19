@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-372509ae86
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_chapter_0110.html
-retrieved_at: 2026-08-21T18:10:54.920897+00:00
+retrieved_at: 2026-10-19T10:59:08.006422+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -70,3 +70,11 @@ After a few seconds the Expressway will be able to communicate over the physical
 | Step 7 | Select the appropriate Network label (Virtual Machine Port Group) to associate the Expressway LAN interface with the required
                                        physical NIC. |
 | Step 8 | After a few seconds the Expressway will be able to communicate over the physical interface. |
+
+## Figuras
+
+![Figure 1. Edit Settings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394180.tif/_jcr_content/renditions/394180.jpg)
+
+![Figure 2. Select Network Adaptor](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/394001-395000/394187.tif/_jcr_content/renditions/394187.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

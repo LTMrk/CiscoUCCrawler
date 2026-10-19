@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-3a3660ab2f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_notices.html
-retrieved_at: 2026-08-16T22:17:12.028568+00:00
+retrieved_at: 2026-10-19T10:56:40.306620+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -55,3 +55,7 @@ http://www.cisco.com/web/about/responsibility/accessibility/legal_regulatory/vpa
 You can find more information about accessibility here:
 
 www.cisco.com/web/about/responsibility/accessibility/index.html
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

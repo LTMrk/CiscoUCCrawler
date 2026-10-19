@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-6895817d30
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_010.html
-retrieved_at: 2026-08-21T20:58:11.353729+00:00
+retrieved_at: 2026-10-19T10:53:41.608582+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -84,3 +84,9 @@ The No Radio (NR) hardware versions of Cisco DX70 and Cisco DX80 do not support 
 | 3 | 3.5-mm stereo line in/out jack | 8 | USB 2.0 port |
 | 4 | Power port | 9 | HDMI type A port |
 | 5 | Network port |  |  |
+
+## Figuras
+
+![Cisco DX650 back view](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346658.eps/_jcr_content/renditions/346658.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

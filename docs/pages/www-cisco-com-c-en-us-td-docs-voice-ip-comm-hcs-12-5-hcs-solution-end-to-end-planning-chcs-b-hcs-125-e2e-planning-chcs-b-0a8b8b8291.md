@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-0a8b8b8291
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0111.html
-retrieved_at: 2026-09-01T20:56:55.691014+00:00
+retrieved_at: 2026-10-19T11:00:36.879629+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -228,3 +228,7 @@ For details on
 
 | Note | The OVA defines configuration of the virtual machine that includes the CPU, memory, disk, and network resources. We recommend that you install and run Prime Collaboration on Cisco Unified Computing System (UCS), which is VMware-certified. Prime Collaboration Assurance allows you to configure a second NIC (network adapter). See the Cisco Hosted Collaboration Solution, Customer Onboarding Guide for details. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

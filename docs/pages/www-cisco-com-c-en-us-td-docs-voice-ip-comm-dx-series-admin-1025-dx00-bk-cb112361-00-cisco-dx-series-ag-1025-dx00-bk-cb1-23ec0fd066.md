@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-23ec0fd066
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_01000.html
-retrieved_at: 2026-08-21T20:58:37.010131+00:00
+retrieved_at: 2026-10-19T10:53:51.069254+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -569,3 +569,21 @@ You can store the lock-down key on the key hook at the bottom of the phone brack
 |---|---|---|---|
 | 2 | Phone bracket | 5 | AC adapter port |
 | 3 | Network port | 6 | Power cable |
+
+## Figuras
+
+![More](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346152.tif/_jcr_content/renditions/346152.jpg)
+
+![Figure 1. Wall-Mount Kit for Single-Phone Assembly](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380115.eps/_jcr_content/renditions/380115.jpg)
+
+![Figure 2. Attach Wall Bracket](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380116.eps/_jcr_content/renditions/380116.jpg)
+
+![Figure 3. Attach Phone Bracket](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380117.eps/_jcr_content/renditions/380117.jpg)
+
+![Figure 4. Attach Cables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380118.eps/_jcr_content/renditions/380118.jpg)
+
+![Figure 5. Attach Device to Wall Bracket](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380119.eps/_jcr_content/renditions/380119.jpg)
+
+![Figure 6. Phone Bracket with Key Hook](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/380001-390000/380001-381000/380100.eps/_jcr_content/renditions/380100.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

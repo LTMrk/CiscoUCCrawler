@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-ce1400v-exwy-b-cisco-expressway-ce1400v-appliance-i-c3a2beebd8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_set-up-your-appliance.html
-retrieved_at: 2026-08-16T22:09:37.426173+00:00
+retrieved_at: 2026-10-19T10:56:02.919923+00:00
 ---
 
 Cisco Expressway CE1400V Appliance Installation Guide (M7 Appliances, zero factory preload)
@@ -304,3 +304,21 @@ Click Save to add the NIC that is connected to the data network.
                                              up. If you want to re upload or version-upgrade this license, follow these steps: Locate your license document that has the license serial number you use on the appliance. Navigate to Manage > License > Assign License . Type in or copy or paste the license serial number from the license document. Click Check License to validate the license key. |
 | Step 4 | Configure NTP settings: Navigate to Manage > System > Time & date . Click Edit settings to launch the Edit time configuration screen. Check Manually configure the date and time on this host check box. Update the Time. Check the Use Network Time Protocol (enable NTP client) check box. Select Start and stop with host from NTP service startup policy drop-down. Type the IP address of the NTP server in NTP servers . If you want to add multiple NTP servers, type the IP address of NTP servers that are separated by commas. Click Save . |
 | Step 5 | (Optional) Configure fault tolerance by using the NIC teaming feature in VMware: Navigate to the Networking > Management Network . Click Edit settings to launch Edit port group- Management Network . In the Edit port group Management Network screen, enter the name, VLANID, and virtual switch details. Expand NIC teaming, enter the required details. Click Save to add the NIC that is connected to the data network. |
+
+## Figuras
+
+![Figure 1. Press F8 at the CIMC Boot Screen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425709.tif/_jcr_content/renditions/425709.jpg)
+
+![Figure 2. Enter the CIMC IP Address Details](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422147.tif/_jcr_content/renditions/422147.jpg)
+
+![Figure 3. Console Screen After ESXi Loads](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/453001-454000/453855.jpg)
+
+![Figure 4. ESXi System Customization Menu. For the default username and password, see the technical documentation at Broadcom.com.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422149.tif/_jcr_content/renditions/422149.jpg)
+
+![Figure 5. Assign Static IP Address to ESXi Host](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422263.tif/_jcr_content/renditions/422263.jpg)
+
+![Figure 6. Hypervisor Welcome Page](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422262.tif/_jcr_content/renditions/422262.jpg)
+
+![Figure 7. Access Virtualization Software Using VMware Embedded Host Client](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/422001-423000/422150.tif/_jcr_content/renditions/422150.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

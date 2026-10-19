@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-d20d9d8083
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_0100.html
-retrieved_at: 2026-08-21T20:58:19.837311+00:00
+retrieved_at: 2026-10-19T10:53:46.599828+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -613,3 +613,7 @@ SRST does not support IPv6.
 
 | Note | SRST does not support IPv6. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

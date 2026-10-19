@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-ce1400v-exwy-b-cisco-expressway-ce1400v-appliance-i-42d8d4b073
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_install-the-appliance.html
-retrieved_at: 2026-08-16T22:09:33.063968+00:00
+retrieved_at: 2026-10-19T10:55:41.226147+00:00
 ---
 
 Cisco Expressway CE1400V Appliance Installation Guide (M7 Appliances, zero factory preload)
@@ -107,3 +107,7 @@ The CIMC has a power monitoring utility that you can use to track power consumpt
 | Step 4 | The first boot takes approximately 5 minutes due to the initial power characterization test. Any subsequent boot of the system
                                        takes approximately 2 minutes. The power characterization test displays the message Performing Platform Characterization … when running. |
 | Step 5 | If the power characterization test runs on subsequent bootups, causing a lag in the boot time, it is important that you disable it . It is especially important to disable the test in a clustered environment to avoid issues. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

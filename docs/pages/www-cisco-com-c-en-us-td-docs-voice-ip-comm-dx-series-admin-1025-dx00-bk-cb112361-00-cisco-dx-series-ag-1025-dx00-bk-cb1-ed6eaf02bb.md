@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-ed6eaf02bb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_0111.html
-retrieved_at: 2026-08-21T20:58:32.231499+00:00
+retrieved_at: 2026-10-19T10:54:33.772872+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -107,3 +107,7 @@ Select Save .
 | Step 2 | In the Self Care Portal area, set the Self Care Portal Default Server field. |
 | Step 3 | Enable or disable the parameters that the users can access in the portal. |
 | Step 4 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

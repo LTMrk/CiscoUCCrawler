@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-d273cdb6e1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_preparing-to-install.html
-retrieved_at: 2026-08-16T22:16:46.396613+00:00
+retrieved_at: 2026-10-19T10:56:49.454605+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -50,3 +50,7 @@ UCS serial number in format WZPxxxxxxxx . Displayed on the hardware pullout
 
 Software serial number in format 52ENNNNN . Displayed on the top panel of
                                  					the appliance, and in the Cisco Expressway web interface or through SSH.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-0d62d2971d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_chapter_010.html
-retrieved_at: 2026-08-21T18:10:36.997244+00:00
+retrieved_at: 2026-10-19T10:58:50.838056+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -212,3 +212,7 @@ Sharing disk storage subsystem is supported, subject to correct performance (lat
 
 | Note | If you migrate an existing VM to a different host, you must shut down the VM before you move it. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-app-4392dc352b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_appendix_01000.html
-retrieved_at: 2026-08-21T18:11:03.789328+00:00
+retrieved_at: 2026-10-19T10:58:34.466184+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -333,3 +333,7 @@ You will be prompted for a new password.
 | Step 4 | In the vSphere console log in with the username pwrec . No password is required. |
 | Step 5 | When prompted, select the account (root or the username of the administrator account) whose password you want to change. |
 | Step 6 | You will be prompted for a new password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

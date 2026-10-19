@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b568f8d751
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_010.html
-retrieved_at: 2026-09-01T20:56:35.025695+00:00
+retrieved_at: 2026-10-19T10:59:54.959627+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -801,3 +801,7 @@ Local breakout is a simple setup, that allows you to rely on another organizatio
                                              you. Local breakout may be a good alternative if you do not: Want the expense of investing in centralized aggregation infrastructure such as session border controllers. Want the additional burden of complying with and offering regulatory services. Have the license or operating in jurisdictions that do not allow certain organizations to offer central interconnect services,
                                                    such as SIP or SS7. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

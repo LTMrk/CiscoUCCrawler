@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-a903afcc9a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_01010.html
-retrieved_at: 2026-09-01T20:57:08.451185+00:00
+retrieved_at: 2026-10-19T11:00:15.423195+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -152,3 +152,7 @@ The Cisco Collaboration cloud infrastructure provides WebEx capabilities to mobi
                                           on the enterprise premises. All services (audio, video, and content sharing) are securely hosted in the Internet or the cloud.
                                           All the content, voice, and video traffic from every client traverses the Internet and is mixed and managed in the cloud at
                                           the Webex data center. The Cisco Collaboration cloud infrastructure provides WebEx capabilities to mobile clients and devices. Webex Meetings provides web-based voice and video conferencing with content sharing. Webex Messenger provides XMPP-based IM and presence as well as point-to-point audio and video calling. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

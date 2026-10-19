@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-3ccd43494a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_preface_00.html
-retrieved_at: 2026-09-01T20:56:26.024850+00:00
+retrieved_at: 2026-10-19T11:00:40.987497+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -49,3 +49,9 @@ Initial document
 | 7, July 2020 | These options are removed from the Platform Manager tab in the HCM-F interface: Create an Install/Upgrade, Create a Switch-Version, and Create a Restart System from the Task menu. File Servers from the Inventory menu under the Task List. See Task creation for details. The CHPA and UCPA functionality to communicate with UC Applications and Expressway is replaced with CAA services. See Limitations and restrictions for details. |
 | 5, November 2019 | Rebranded Webex |
 | 25, June 2019 | Initial document |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

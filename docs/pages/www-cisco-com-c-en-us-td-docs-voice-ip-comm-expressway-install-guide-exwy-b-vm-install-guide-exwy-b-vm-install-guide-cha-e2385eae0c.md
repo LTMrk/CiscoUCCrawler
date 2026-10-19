@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-e2385eae0c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_chapter_0111.html
-retrieved_at: 2026-08-21T18:10:59.237992+00:00
+retrieved_at: 2026-10-19T10:59:12.443396+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -95,3 +95,7 @@ Information on how to deploy and operate VMware products in a secure manner is a
 | Step 3 | Restore the configuration of the (old) smaller (or the larger for downgrade) VM
                                        					onto the newly deployed VM. Note that profile information will not be included
                                        					in the backup/restore. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-operation-guide-chcs-b-hcs-smart-licensing-operational-096beb45e9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide/chcs_b_hcs-smart-licensing-operational-guide_chapter_00.html
-retrieved_at: 2026-09-01T20:56:00.717953+00:00
+retrieved_at: 2026-10-19T11:00:49.477068+00:00
 ---
 
 Cisco Hosted Collaboration Solution Smart Licensing Operation Guide, Release 12.5
@@ -112,3 +112,7 @@ HCM-F does not support Smart Software Manager satellite Classic Edition (CE).
 
 | Note | HCM-F does not support Smart Software Manager satellite Classic Edition (CE). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

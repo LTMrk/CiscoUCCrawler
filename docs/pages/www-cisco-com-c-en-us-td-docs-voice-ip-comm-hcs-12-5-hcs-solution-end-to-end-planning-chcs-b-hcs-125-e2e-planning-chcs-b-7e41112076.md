@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-7e41112076
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0101.html
-retrieved_at: 2026-09-01T20:56:47.615083+00:00
+retrieved_at: 2026-10-19T11:00:11.164399+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -209,3 +209,7 @@ Determine
 |---|---|
 | Step 2 | Determine
                                        			 wireless LAN (WLAN) network including Access Points (APs), refer to http://docwiki.cisco.com/wiki/Internetworking_Technology_Handbook#LAN_Technologies for more information. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

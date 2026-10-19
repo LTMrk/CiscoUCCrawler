@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-b01dd195ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0110.html
-retrieved_at: 2026-09-01T20:56:52.228809+00:00
+retrieved_at: 2026-10-19T11:00:28.701193+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -505,3 +505,7 @@ To set up the disk requirements, the disk has to be set up on the VMWare GUI Res
 | HCM-F | 4 x 1.8 GHz | 16 (Res) | 80 | 200 |  |
 | PLM | 1 vCPU x 1.8 GHz | 4 | 50 | - |  |
 | CCDM | 8 | 32 | 100 | 775 (DB server) 565 (web server) | Microsoft Windows |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

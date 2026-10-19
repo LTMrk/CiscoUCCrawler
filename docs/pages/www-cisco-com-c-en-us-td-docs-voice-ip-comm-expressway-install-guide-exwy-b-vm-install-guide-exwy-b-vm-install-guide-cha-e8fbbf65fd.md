@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-exwy-b-vm-install-guide-exwy-b-vm-install-guide-cha-e8fbbf65fd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/exwy_b_vm-install-guide/exwy_b_vm-install-guide_chapter_00.html
-retrieved_at: 2026-08-21T18:08:12.046452+00:00
+retrieved_at: 2026-10-19T10:58:42.277359+00:00
 ---
 
 Cisco Expressway on Virtual Machine Installation Guide (X12.6)
@@ -33,3 +33,9 @@ Cisco Expressay (Expressway) software supports flexible deployment options and i
 
 If you use PAK-based licensing, option keys for licenses can be obtained after the Expressway VM is installed, using the Expressway
                            VM serial number (available from the Option key page and in the footer of the Expressway web interface).
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

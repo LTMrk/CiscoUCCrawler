@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-e1d7114883
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_011.html
-retrieved_at: 2026-08-21T20:58:15.891637+00:00
+retrieved_at: 2026-10-19T10:54:17.593194+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -775,3 +775,7 @@ http://www.cisco.com/en/US/products/hw/wireless/ps4570/prod_technical_reference0
 | PEAP-GTC | WPA or WPA2 with optional CCKM | TKIP or AES | 802.1x EAP > PEAP > GTC |
 | EAP-TLS | WPA or WPA2 with optional CCKM | TKIP or AES | 802.1x EAP > TLS |
 | WPA/WPA2-PSK | WPA-PSK or WPA2-PSK | TKIP or AES | WPA/WPA2 PSK |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

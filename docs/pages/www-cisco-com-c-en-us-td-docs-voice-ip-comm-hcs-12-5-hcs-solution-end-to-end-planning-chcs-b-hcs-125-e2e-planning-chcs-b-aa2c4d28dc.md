@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-end-to-end-planning-chcs-b-hcs-125-e2e-planning-chcs-b-aa2c4d28dc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/End_to_End_Planning/chcs_b_hcs-125-e2e-planning/chcs_b_hcs-125-e2e-planning_chapter_0100.html
-retrieved_at: 2026-09-01T20:56:43.507107+00:00
+retrieved_at: 2026-10-19T10:59:58.736565+00:00
 ---
 
 Cisco Hosted Collaboration Solution, Release 12.5 End-to-End Planning Guide
@@ -347,3 +347,7 @@ For more information
                                        		  add-on, session based licenses. They are managed separately from HLM/PLM and
                                        		  installed in Cisco Expressway. For more information see http://www.cisco.com/c/en/us/support/unified-communications/expressway-series/tsd-products-support-series-home.html |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

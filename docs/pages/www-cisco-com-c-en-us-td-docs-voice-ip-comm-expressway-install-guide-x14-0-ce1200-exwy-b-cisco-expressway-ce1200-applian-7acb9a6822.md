@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-7acb9a6822
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_hardware-components.html
-retrieved_at: 2026-08-16T22:16:34.508692+00:00
+retrieved_at: 2026-10-19T10:56:28.553490+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -175,3 +175,7 @@ If you need to begin a Return Material Authorization (RMA) for any reason, go to
                                                 						other requirements for SFPs in Task 2: Insert the SFP
                                                    							Network Connection Modules |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

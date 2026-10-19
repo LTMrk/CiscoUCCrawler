@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-x14-0-ce1200-exwy-b-cisco-expressway-ce1200-applian-89d2665630
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/X14-0/CE1200/exwy_b_cisco-expressway-ce1200-appliance-installation-guide-x14-0/exwy_m_rear-panel-layout.html
-retrieved_at: 2026-08-16T22:16:42.218396+00:00
+retrieved_at: 2026-10-19T10:56:53.413991+00:00
 ---
 
 Cisco Expressway CE1200 Appliance Installation Guide (X14.0)
@@ -123,3 +123,9 @@ For more information on the method to configure a Dedicated Management Interface
 | Note | Currently, with Expressway release X12.7 and later, support is available for a Dedicated Management Interface (DMI) which
                                                    uses LAN3 as an out-of-band management interface. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Rear view of the Cisco Expressway](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/305001-306000/305951.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

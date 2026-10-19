@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1025-dx00-bk-cb112361-00-cisco-dx-series-ag-1025-dx00-bk-cb1-5ad1fab6be
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025/DX00_BK_CB112361_00_cisco-dx-series-ag-1025_chapter_01010.html
-retrieved_at: 2026-08-21T20:58:46.001689+00:00
+retrieved_at: 2026-10-19T10:54:09.325333+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(5)
@@ -2368,3 +2368,7 @@ Click Subscribe .
 | Step 5 | In the Subscribed Cisco IP Phone Services window for the device, use the Select a service drop-down list box to choose the service that you created. This action triggers subscription of the device to the service that you specify. |
 | Step 6 | Click Next . |
 | Step 7 | Click Subscribe . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

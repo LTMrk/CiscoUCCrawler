@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-expressway-install-guide-ce1400v-exwy-b-cisco-expressway-ce1400v-appliance-i-5206e5716e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/install_guide/CE1400V/exwy_b_cisco-expressway-ce1400v-appliance-installation-guide/exwy_m_front-panel-layout.html
-retrieved_at: 2026-08-16T22:09:20.352834+00:00
+retrieved_at: 2026-10-19T10:55:32.348500+00:00
 ---
 
 Cisco Expressway CE1400V Appliance Installation Guide (M7 Appliances, zero factory preload)
@@ -185,3 +185,11 @@ Amber, blinking—One or more temperature sensors breached the non-recoverable t
 | 5 | Fan status ( ) | Green—All fan modules are operating properly. Amber, blinking—One or more fan modules breached the non-recoverable threshold. |
 | 6 | Network link activity ( ) | Off—The Ethernet LOM port link is idle. Green—One or more Ethernet LOM ports are link-active, but there is no activity. Green, blinking—One or more Ethernet LOM ports are link-active, with activity. |
 | 7 | Temperature status ( ) | Green—The server is operating at normal temperature. Amber, steady—One or more temperature sensors breached the critical threshold. Amber, blinking—One or more temperature sensors breached the non-recoverable threshold. |
+
+## Figuras
+
+![Figure 1. Front Panel View](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/309001-310000/309134.jpg)
+
+![Figure 2. Front Panel LEDs](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/309001-310000/309154.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

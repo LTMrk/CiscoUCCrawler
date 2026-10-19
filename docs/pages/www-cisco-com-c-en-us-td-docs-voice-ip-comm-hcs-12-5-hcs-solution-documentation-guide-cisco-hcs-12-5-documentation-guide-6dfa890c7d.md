@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-hcs-12-5-hcs-solution-documentation-guide-cisco-hcs-12-5-documentation-guide-6dfa890c7d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide_chapter_0100.html
-retrieved_at: 2026-09-01T20:55:48.027560+00:00
+retrieved_at: 2026-10-19T10:59:37.758037+00:00
 ---
 
 Cisco Hosted Collaboration Solution Release 12.5 Documentation Guide
@@ -297,3 +297,7 @@ Refer to the
 
 - SIP Device (Basic and
                                  			 Advanced)
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
