@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-maint-1a4dbd615e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_b_admin-console-user-guide-1205_chapter_01010.html
-retrieved_at: 2026-08-21T04:37:35.717028+00:00
+retrieved_at: 2026-10-19T10:04:42.019489+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -139,3 +139,7 @@ Two server certificates — intelligencecenter-jms and intelligencecenter-srvr ,
                                                 the certificates. You can access Cisco Unified Intelligence Center by using the alternate hostname as well. To avoid the certificate exception warning, you must access the servers using the Fully qualified domain name (FQDN) name.
                                                 That is, leave the Distribution field in the CSR as the FQDN of the server. Ensure that the Certificate Authority (CA) certificate is RSA-signed. Cisco Unified Intelligence Center CSR certificates are signed with sha1WithRSAEncryption using a 2048-bit RSA public key. Cisco Unified Intelligence Center does not support wildcard certificates. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

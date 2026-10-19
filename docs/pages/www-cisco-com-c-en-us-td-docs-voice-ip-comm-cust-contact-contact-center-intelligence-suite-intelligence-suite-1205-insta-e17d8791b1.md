@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-insta-e17d8791b1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/install/guide/cuic_b_installation-and-upgrade-guide-1205/cuic_b_installation-and-upgrade-guide-1205_chapter_01001.html
-retrieved_at: 2026-08-21T04:36:47.889401+00:00
+retrieved_at: 2026-10-19T10:03:44.592989+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -299,3 +299,9 @@ You can also do this from the Cisco Unified Communications Operating System Admi
 | Important | Leaving the serial port (or any other virtual hardware) can negatively impact performance of the virtual machine. The serial
                                                       port has no other use other than dumping the install logs and you will not need it again, unless you perform a fresh install. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Installation Failed Screen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340111.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--5e9b539e9e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/common_task.html
-retrieved_at: 2026-08-16T20:36:13.955999+00:00
+retrieved_at: 2026-10-19T10:02:27.373205+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -770,3 +770,39 @@ Choose a node in the list and that node is highlighted in the
                                                    stating: "Cannot find any node with reference to string
                                                    <xxx>." (where <xxx> is the string selected). |
 |---|---|
+
+## Figuras
+
+![Figure 1. Palette
+                                 			 Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340758.jpg)
+
+![Figure 2. General Tab of the Palette](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510399.jpg)
+
+![Figure 3. Routing Tab of the Palette](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510405.jpg)
+
+![Figure 4. Targets Tab of the Palette](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510407.jpg)
+
+![Figure 5. Queue Tab of the Palette](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510404.jpg)
+
+![Figure 6. New Dialog
+                                             				  Box](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340703.jpg)
+
+![Figure 7. Routing
+                                             				  Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340704.jpg)
+
+![Figure 9. Comment Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340702.jpg)
+
+![Figure 10. Connection Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340744.jpg)
+
+![Figure 11. Validate
+                                             				  All Query Dialog](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340821.jpg)
+
+![Figure 12. Call Type Manager Dialog Box—Call Directory Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340708.jpg)
+
+![Figure 13. Call Type Manager Dialog Box - Schedules Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340706.jpg)
+
+![Figure 14. Add Call Type Dialog Box - Script Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340707.jpg)
+
+![Figure 15. Add Call Type Schedule Dialog Box - Period Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340705.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

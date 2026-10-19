@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-e2214ec72b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1501/ucce-m-application-level-interfaces-1501.html
-retrieved_at: 2026-08-16T19:45:22.354672+00:00
+retrieved_at: 2026-10-19T10:00:29.001520+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 25) for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -26512,3 +26512,20 @@ Partial
                                              					 configuration exists on the CTI Server. |
 | CONFIGEND_PARTIAL | 5 | Partial
                                              					 configuration was sent. |
+
+## Figuras
+
+![Figure 1. Monitor Start Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408146.tif/_jcr_content/renditions/408146.jpg)
+
+![Figure 2. Monitor Stop Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408147.tif/_jcr_content/renditions/408147.jpg)
+
+![Figure 3. Change Monitor Mask Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408148.tif/_jcr_content/renditions/408148.jpg)
+
+![Figure 4. Session
+                                       				Monitor Start message flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/409001-410000/409233.tif/_jcr_content/renditions/409233.jpg)
+
+![Figure 5. Session Monitor Stop Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408149.tif/_jcr_content/renditions/408149.jpg)
+
+![Figure 6. Release Call Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408151.tif/_jcr_content/renditions/408151.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

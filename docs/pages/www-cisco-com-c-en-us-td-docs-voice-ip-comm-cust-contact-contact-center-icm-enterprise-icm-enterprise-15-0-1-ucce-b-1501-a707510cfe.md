@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-a707510cfe
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_virtual-agent-voice.html
-retrieved_at: 2026-08-20T19:10:56.690516+00:00
+retrieved_at: 2026-10-19T10:02:19.336709+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -2523,3 +2523,9 @@ After you enable the POD.ID, you must restart the VRU PG during non-production t
 | Note | After you enable the POD.ID, you must restart the VRU PG during non-production time or a scheduled maintenance window for
                                                       the changes to take full effect. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Contact Center AI Services Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/465001-466000/465745.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

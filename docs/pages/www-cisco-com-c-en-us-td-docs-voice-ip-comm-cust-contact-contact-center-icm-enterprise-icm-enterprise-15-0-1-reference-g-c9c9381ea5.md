@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-c9c9381ea5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1501/ucce_m_tables-by-group_15_0_1.html
-retrieved_at: 2026-08-16T19:44:31.906486+00:00
+retrieved_at: 2026-10-19T10:00:09.432533+00:00
 ---
 
 Database Schema Handbook for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1408,6 +1408,10 @@ Phone_Strategy
 
 Phone_Strategy_Node
 
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
+
 | index_name | index_description | index_keys |
 |---|---|---|
 | XPKSmart_License_Info | Primary key | SmartLicenseInfoID |
@@ -1539,3 +1543,67 @@ Phone_Strategy_Node
 | ProductTag | Is a unique id defined for each product like UCCE PCCE | VARCHAR (255) | NOT NULL |
 | ProductVersion | Product Version is usually 1.0 unless multiple versions are required by the product. | VARCHAR (30) | NULL |
 | SmartLicenseProductID | Gets the Smart License ID from the Next_Available_Number table. | DBINT | PK Clustered |
+
+## Figuras
+
+![Figure 1. Blended
+                              		  Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340831.jpg)
+
+![Figure 3. Device](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340832.jpg)
+
+![Figure 4. Peripheral
+                                 		  Detail](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340833.jpg)
+
+![Figure 5. Trunk Details](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340834.jpg)
+
+![Figure 6. Enterprise](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340835.jpg)
+
+![Figure 7. Media Routing Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340837.jpg)
+
+![Figure 8. Precision Queue Tables](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510211.jpg)
+
+![Figure 9. Precision Queue Detail](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510218.jpg)
+
+![Figure 10. Route
+                              		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340838.jpg)
+
+![Figure 11. Route Details
+                              		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340839.jpg)
+
+![Figure 12. Schedule
+                              		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340840.jpg)
+
+![Figure 13. Script Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340841.jpg)
+
+![Figure 14. Call Type
+                                 		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340842.jpg)
+
+![Figure 15. Region Detail Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340843.jpg)
+
+![Figure 16. Script Detail](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340844.jpg)
+
+![Figure 17. Security Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340845.jpg)
+
+![Figure 18. Skill Target
+                              		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340846.jpg)
+
+![Figure 19. Agent
+                                 		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340847.jpg)
+
+![Figure 20. Service
+                                 		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340848.jpg)
+
+![Figure 21. Skill Group
+                                 		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340849.jpg)
+
+![Figure 22. Skill Group
+                                 		  Member Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340850.jpg)
+
+![Figure 23. System
+                              		  Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340851.jpg)
+
+![Figure 24. User Preferences Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340852.jpg)
+
+![Figure 25. VRU Micro-application Tables](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340853.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

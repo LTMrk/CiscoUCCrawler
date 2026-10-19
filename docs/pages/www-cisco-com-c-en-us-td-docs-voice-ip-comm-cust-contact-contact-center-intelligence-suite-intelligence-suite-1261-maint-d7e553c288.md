@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-maint-d7e553c288
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/maintain_and_operate/guide/cuic_b_1261-admin-console-user-guide/cuic_b_1261-admin-console-user-guide_chapter_0111.html
-retrieved_at: 2026-08-21T04:39:31.505472+00:00
+retrieved_at: 2026-10-19T10:07:19.869280+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.6(1)
@@ -260,3 +260,7 @@ In When using this certificate dropdown, select Always trust and close the windo
                                           if prompted.) |
 | Step 4 | Double-click the newly imported certificate and click the expand icon beside Trust . |
 | Step 5 | In When using this certificate dropdown, select Always trust and close the window. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

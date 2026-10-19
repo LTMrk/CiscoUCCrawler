@@ -1,14 +1,7 @@
 {
-  "run_at": "2026-10-19T09:48:26.466139+00:00",
-  "added": [
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/debugLevel"
-  ],
+  "run_at": "2026-10-19T09:59:01.709697+00:00",
+  "added": [],
   "removed": [],
-  "deprecated": [
-    "Webex Contact Center: POST /v1/monitor"
-  ],
-  "specs_cambiados": [
-    "webex-cloud-calling.json",
-    "webex-contact-center.json"
-  ]
+  "deprecated": [],
+  "specs_cambiados": []
 }

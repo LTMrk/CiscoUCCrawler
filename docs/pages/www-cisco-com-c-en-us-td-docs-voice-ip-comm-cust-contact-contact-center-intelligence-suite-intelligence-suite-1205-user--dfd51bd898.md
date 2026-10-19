@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-user--dfd51bd898
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_report-customization-guide-1205/cuic_b_report-customization-guide-1205_chapter_0100.html
-retrieved_at: 2026-08-21T04:38:10.957665+00:00
+retrieved_at: 2026-10-19T10:05:21.913648+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 12.5(1)
@@ -406,3 +406,7 @@ Maximum number of Values Per Collection = 5000
                                                       (Operation Administration Maintenance and Provisioning). This setting must be configured prior to using the Identifier type Collection. System collections are automatic and there is no ability to modify or delete them. System collections exist for Agent and
                                                       Agent Team. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

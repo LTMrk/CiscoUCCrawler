@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-maint-1dd0160fc4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/maintain_and_operate/guide/cuic_b_1261-admin-console-user-guide/cuic_m_1261-tools.html
-retrieved_at: 2026-08-21T04:39:28.001425+00:00
+retrieved_at: 2026-10-19T10:07:39.430133+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.6(1)
@@ -4432,3 +4432,30 @@ Click Upload File .
 | Step 3 | Click Choose File , to upload the customized message file. |
 | Step 4 | Select the file and click Open . |
 | Step 5 | Click Upload File . |
+
+## Figuras
+
+![Figure 1. RTMT
+                                                      						Desktop Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340141.jpg)
+
+![Figure 2. RTMT
+                                    			 TraceLog for CUIC](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403284.tiff/_jcr_content/renditions/403284.jpg)
+
+![Figure 3. RTMT TraceLog for Live Data](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403285.tiff/_jcr_content/renditions/403285.jpg)
+
+![Figure 4. RTMT
+                                    			 Critical Services](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403286.tiff/_jcr_content/renditions/403286.jpg)
+
+![Figure 5. RTMT
+                                    			 Alerts](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403287.tiff/_jcr_content/renditions/403287.jpg)
+
+![Figure 6. RTMT
+                                    			 Performance Interface](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/403001-404000/403288.tiff/_jcr_content/renditions/403288.jpg)
+
+![Figure 7. Report
+                                    			 Execution](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340146.jpg)
+
+![Figure 8. RTMT Counter
+                                 		  Help](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340147.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

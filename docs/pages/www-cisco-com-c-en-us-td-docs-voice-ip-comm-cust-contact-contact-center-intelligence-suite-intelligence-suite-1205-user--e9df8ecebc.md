@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-user--e9df8ecebc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_report-customization-guide-1205/cuic_b_report-customization-guide-1205_chapter_011.html
-retrieved_at: 2026-08-21T04:38:07.347513+00:00
+retrieved_at: 2026-10-19T10:05:30.349580+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 12.5(1)
@@ -1298,3 +1298,7 @@ For new report definitions of type historical, the default Refresh Rate is 3600 
 | Note | For new report definitions of type historical, the default Refresh Rate is 3600 seconds. For type real time, the default Refresh
                                                       Rate is 900 seconds. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-f61a3c243e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1501/ucc-m-cti-client-application-guidelines-1501.html
-retrieved_at: 2026-08-16T19:44:57.006017+00:00
+retrieved_at: 2026-10-19T10:00:13.466839+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 25) for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -185,3 +185,7 @@ A failure of the
                                  			 datalink between the Unified CCE Peripheral Gateway and the Central Controller
                                  			 does not prevent event messages, however, the failure does prevent use of the
                                  			 Unified CCE post-routing and translation-routing features.
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

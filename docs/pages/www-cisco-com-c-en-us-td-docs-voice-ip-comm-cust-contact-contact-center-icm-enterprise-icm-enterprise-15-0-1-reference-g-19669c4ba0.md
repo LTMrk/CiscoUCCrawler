@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-19669c4ba0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1501/ucce_m_introduction_15_0_1.html
-retrieved_at: 2026-08-16T19:43:53.179870+00:00
+retrieved_at: 2026-10-19T10:00:04.261475+00:00
 ---
 
 Database Schema Handbook for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -303,6 +303,10 @@ Termination_Call_Detail
 
 Termination_Call_Variable
 
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
+
 | Database | Database Name |
 |---|---|
 | Central | <customer>_sideA or <customer>_sideB |
@@ -382,3 +386,7 @@ Termination_Call_Variable
                                        		  populated because these tables are not supported. These tables are replaced by
                                        		  the Interval database tables. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

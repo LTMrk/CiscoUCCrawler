@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-6c42dfa544
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202603/rcct-m-caveats-and-limitations-1501-es202603.html
-retrieved_at: 2026-08-16T19:36:03.271211+00:00
+retrieved_at: 2026-10-19T10:01:17.902594+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU1/ES202603
@@ -79,3 +79,9 @@ Live Data and Cloud Connect are included as part of Unified CCE.
 
 | Note | Cisco IdS is included as part of Unified Intelligence Center. Live Data and Cloud Connect are included as part of Unified CCE. |
 |---|---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

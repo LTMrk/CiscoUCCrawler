@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-90b51925e3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1501/ucce-m-session-management-1501.html
-retrieved_at: 2026-08-16T19:45:06.168605+00:00
+retrieved_at: 2026-10-19T10:01:02.163869+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 25) for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1621,3 +1621,13 @@ Clients send this message to the CTI Server that went to Maintenance Mode to ind
 | Field Name | Value | Data Type | Byte Size |
 |---|---|---|---|
 | MaintenanceModeStatus | Indicates whether the PG and CTI Server continuing with the Maintenance Mode or not. 1 - MaintenanceModeContinue. 0 -MaintenanceModeCancel. | BOOL | 2 |
+
+## Figuras
+
+![Figure 1. Session Initialization Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408142.tif/_jcr_content/renditions/408142.jpg)
+
+![Figure 2. Heartbeat Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408143.tif/_jcr_content/renditions/408143.jpg)
+
+![Figure 3. Session Termination Message Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/408001-409000/408144.tif/_jcr_content/renditions/408144.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

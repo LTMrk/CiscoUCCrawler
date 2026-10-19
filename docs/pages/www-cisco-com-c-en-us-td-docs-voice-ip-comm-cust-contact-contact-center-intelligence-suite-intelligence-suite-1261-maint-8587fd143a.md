@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-maint-8587fd143a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/maintain_and_operate/guide/cuic_b_1261-admin-console-user-guide/cuic_m_user-interface-1261.html
-retrieved_at: 2026-08-21T04:39:01.317270+00:00
+retrieved_at: 2026-10-19T10:07:59.714394+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.6(1)
@@ -266,3 +266,7 @@ If a Unified Intelligence Center user reaches the maximum configured session cou
 
 | Note | It is best to perform this action during off-hours. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-user--98904681ce
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_user-guide-1205/cuic_b_user-guide-1205_preface_0111.html
-retrieved_at: 2026-08-21T04:38:27.697350+00:00
+retrieved_at: 2026-10-19T10:06:08.089724+00:00
 ---
 
 Cisco Unified Intelligence Center User Guide, Release 12.5(1)
@@ -95,3 +95,7 @@ We appreciate your comments.
 | Updated Browser Support | Browser Support |
 | Addressed injection vulnerabilities | Dashboards > Overview |
 | Changed Large Schedule Frequency | Create a Schedule for a Report |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

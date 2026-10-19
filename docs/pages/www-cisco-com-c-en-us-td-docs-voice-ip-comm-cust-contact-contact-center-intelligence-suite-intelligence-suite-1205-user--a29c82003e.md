@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-user--a29c82003e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/user/guide/cuic_b_report-customization-guide-1205/cuic_b_report-customization-guide-1205_preface_00.html
-retrieved_at: 2026-08-21T04:37:54.468517+00:00
+retrieved_at: 2026-10-19T10:05:37.690754+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 12.5(1)
@@ -76,3 +76,7 @@ We appreciate your comments.
 | Introduced Conditional Duration Fields | Datasource and Query Tab |
 | Changes to User Roles are updated in Log Files | User Roles |
 | Added Edge to existing note in the streaming data source | Streaming Data Source |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

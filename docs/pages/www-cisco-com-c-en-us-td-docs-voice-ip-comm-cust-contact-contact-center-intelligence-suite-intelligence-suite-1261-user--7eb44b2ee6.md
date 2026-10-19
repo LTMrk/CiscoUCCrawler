@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-user--7eb44b2ee6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_report-customization-guide-1261/cuic_b_report-customization-guide-1205_preface_00.html
-retrieved_at: 2026-08-21T16:15:36.177121+00:00
+retrieved_at: 2026-10-19T10:08:42.578475+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 12.6(1)
@@ -78,3 +78,7 @@ We appreciate your comments.
 |---|---|---|
 | Initial Release of Document for Release 12.6(1) | May 2021 |
 | Existing note is updated with the introduction of Edge Chromium (Microsoft Edge) browser. | Streaming Data Source |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

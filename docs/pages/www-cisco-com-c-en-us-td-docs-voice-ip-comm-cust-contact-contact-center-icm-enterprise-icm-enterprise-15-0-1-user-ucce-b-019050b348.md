@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-ucce-b-019050b348
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/ucce_b_150_outbound-option-guide-for-unified/outbound_option_business_concepts.html
-retrieved_at: 2026-08-20T19:14:23.823320+00:00
+retrieved_at: 2026-10-19T10:03:24.373363+00:00
 ---
 
 Outbound Option Guide for Unified Contact Center Enterprise, Release 15.0(1)
@@ -1130,3 +1130,10 @@ You then use Web
 | Note | Enable IP AMD when using CPA. If you do not enable IP AMD, the SIP dialer instructs the gateway to transfer the call to an
                                           agent without waiting for detection. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Outbound
+                                 			 Option Component Relationships](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/270001-280000/271001-272000/271574.eps/_jcr_content/renditions/271574.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

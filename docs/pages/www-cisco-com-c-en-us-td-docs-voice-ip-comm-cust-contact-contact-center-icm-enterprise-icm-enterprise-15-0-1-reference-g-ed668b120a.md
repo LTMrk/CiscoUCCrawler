@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-ed668b120a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce_b_cti-servermessage-reference-guide-for-1501/ucce-m-constants-and-status-codes-1501.html
-retrieved_at: 2026-08-16T19:45:33.358168+00:00
+retrieved_at: 2026-10-19T10:00:43.228765+00:00
 ---
 
 CTI Server Message Reference Guide (Protocol Version 25) for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -14971,3 +14971,7 @@ Task is
 | TASK_STATE_NOT_READY | Not used. | 6 |
 | TASK_STATE_LOGGED_OUT | Task is
                                           					 terminated. | 7 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

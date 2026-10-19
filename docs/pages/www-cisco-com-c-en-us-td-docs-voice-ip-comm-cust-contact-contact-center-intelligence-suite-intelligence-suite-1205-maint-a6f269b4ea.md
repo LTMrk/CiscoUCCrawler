@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-maint-a6f269b4ea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_m_acg-preface-1205.html
-retrieved_at: 2026-08-21T04:37:00.439392+00:00
+retrieved_at: 2026-10-19T10:05:04.755943+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -125,3 +125,7 @@ We
 | Updated topics under chapter Tools | Tools |
 | Added topics under chapter Command Line Interface | Command Line Interface > Utils Command > utils cuic cors Command Line Interface > Set Commands > set cuic analyzer url |
 | Removed Unified Intelligence Center License information | Multiple topics |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

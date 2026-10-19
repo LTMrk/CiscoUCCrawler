@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-user--286ba69817
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/user/guide/cuic_b_report-customization-guide-1261/cuic_b_report-customization-guide-1205_chapter_011.html
-retrieved_at: 2026-08-21T12:17:21.320575+00:00
+retrieved_at: 2026-10-19T10:08:34.657310+00:00
 ---
 
 Cisco Unified Intelligence Center Report Customization Guide, Release 12.6(1)
@@ -832,10 +832,7 @@ String
 
 ${str1} + ${str2} (Concatenates the strings. You cannot subtract, multiply, or divide the strings.)
 
-"<a href=" + ${URL_FIELD} + " target=_blank>" + ${LINK_NAME_FIELD} + "</a>" (Concatenates field values with string constants
-                                             to create HTML elements.)
-
-${str1} + ${num1) (Concatenates the str1 and num1 field values.)
+${str1} + ${num1} (Concatenates the str1 and num1 field values.)
 
 Null values are considered as empty.
 

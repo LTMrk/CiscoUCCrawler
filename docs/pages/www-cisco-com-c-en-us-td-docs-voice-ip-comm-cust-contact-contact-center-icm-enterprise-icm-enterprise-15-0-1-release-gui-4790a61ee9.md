@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-4790a61ee9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202607/rcct-m-feature-summary-1501-es202607.html
-retrieved_at: 2026-08-16T19:35:47.382649+00:00
+retrieved_at: 2026-10-19T10:01:35.770795+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU2/ES202607
@@ -58,6 +58,19 @@ Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release
 Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) .
 
 Email Synchronization Updates for CCE Users in Webex Engage
+
+Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
+                                          see the Installation chapter in the following guides:
+
+Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
+
+Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
+
+Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) .
+
+Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect .
+
+New AI engine for Webex AI Agent
 
 Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
                                           see the Installation chapter in the following guides:
@@ -181,19 +194,13 @@ Unified CCE and Packaged CCE
 
 Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG.
 
-For more information, see the Installation chapter in the following guides:
+Install 15.0(1) ES202607 on Unified CCMP.
 
-Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
+Upgrade Finesse to 15.0(1) SU2.
 
-Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
+Upgrade Cloud Connect to 15.0(1) SU2.
 
-Install 15.0(1) ES202607 on Unified CCMP. For more information, see the Installation and Configuration Guide for Cisco Unified Contact Center Management Portal, Release 15.0(1) .
-
-Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) .
-
-Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect .
-
-Upgrade Unified Intelligence Center to 15.0(1) SU2. For information on how to upgrade, see Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1) .
+Upgrade Unified Intelligence Center to 15.0(1) SU2.
 
 ### Beta Features
 
@@ -221,21 +228,15 @@ Real-time assist
 
 Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG.
 
-For more information, see the Installation chapter in the following guides:
+Upgrade Finesse to 15.0(1) SU2.
 
-Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
+Upgrade Cloud Connect to 15.0(1) SU2.
 
-Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
+Upgrade Unified Intelligence Center to 15.0(1) SU2.
 
-Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) .
+Install 15.0(1) ES202607 on Unified CVP.
 
-Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect .
-
-Upgrade Unified Intelligence Center to 15.0(1) SU2. For information on how to upgrade, see Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1) .
-
-Install 15.0(1) ES202607 on Unified CVP. For more information, see the Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1) .
-
-Upgrade Cisco VVB to 15.0(1) SU2. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) .
+Upgrade Cisco VVB to 15.0(1) SU2.
 
 ## ES202607
 
@@ -363,6 +364,22 @@ You can now view Media Gateway statistics for Packaged CCE 2000, 4000, and 12000
 
 For more information, see the Media Gateway Statistics section in the Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
+##### New AI engine for Webex AI Agent
+
+To help you create more meaningful and reliable customer connections, the Webex AI Agent has been upgraded from GPT-4.1 to
+                                    GPT-5.4. This enhancement is designed to deliver greater accuracy, more natural conversations, and improved prompt adherence,
+                                    helping your AI agents remain closely aligned with your specific business goals. The new engines are available from the drop-down
+                                    list as Webex AI Pro 2.0, Webex AI Pro US 2.0, and Webex AI Pro EU 2.0.
+
+We recommend upgrading your existing agents to version 2.0 to benefit from these enhancements, as support for version 1.0
+                                    engines will end soon.
+
+For more information, see the Webex AI Agent Studio section in the Webex Ai Agent chapter of the following guides:
+
+Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
+
+Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
+
 ##### Webex AI Agent Enhancements
 
 ###### A-law Codec Support for Webex AI Agent and Webex AI Assistant
@@ -457,6 +474,30 @@ Unified CCMP now connects to the Cloud Connect feature flag framework to enable 
 
 For more information, see the Configuring Cloud Connect Feature Flag Integration section in the Installation and Configuration Guide for Cisco Unified Contact Center Management Portal, Release 15.0(1) .
 
+#### Important Notes
+
+##### Java Runtime Environment Upgrade for Unified CCE and Packaged CCE
+
+With 15.0(1) SU2/ES202607, Unified CCE and Packaged CCE application nodes are upgraded from Java Runtime Environment (JRE)
+                                    17 to JRE 21. The qualified version is Java 21.0.11.
+
+The 15.0(1) base release and earlier Engineering Specials continue to use JRE 17. Unified CVP remains on its qualified JRE
+                                    17 version.
+
+During the upgrade, JRE 17 is retained to support rollback. When ES202607 is uninstalled, the installer switches the CCE applications
+                                    back to JRE 17.
+
+If JRE 17 has been manually removed after the upgrade, uninstalling ES202607 displays a warning and prompts you to set the CCE_JAVA_HOME environment variable to the JRE 17 installation directory before continuing.
+
+For more information, see the JAVA, JRE, and Tomcat section in the Contact Center Enterprise Solution Compatibility Matrix, Release 15.0(1) .
+
+##### Cloud Connect compatibility with Cisco Webex Control Hub
+
+This ES addresses a compatibility issue with Cisco Webex Control Hub. The Control Hub APIs have been updated, causing the
+                                    Cloud Connect cluster to appear as Not Operational in Control Hub.
+
+To resolve this issue, re-register Cloud Connect with Control Hub after upgrading.
+
 #### Updated Features
 
 ##### ECE Features and Enhancements
@@ -515,12 +556,6 @@ CCE supports SSO with Cisco IdS and Webex Common Identity, but only one can be c
 
 As part of the unified identity platform, Webex Common Identity integrates with CCE and is managed through Control Hub.
 
-For more information, see the Onboarding User to Webex Common Identity section in the Webex Common Identity chapter of the following guides:
-
-Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
-
-Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
-
 #### Webex Common Identity for Single Sign-On in Unified CCMP
 
 Unified CCMP now supports provisioning agents with Webex Common Identity-based single sign-on (SSO) when integrated with Unified
@@ -572,11 +607,42 @@ Real-time assist: AI-generated real-time assist enhances agent productivity and 
 
 Currently, CCE supports either Google CCAI or Cisco AI Assistant, but not both in the same deployment.
 
-For more information, see the Configuration Taskflow for Cisco AI Assistant section in the Cisco AI Assistant chapter of the following guides:
+### Deprecated Features
 
-Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
+Deprecated features are fully supported. However, there is no additional development for deprecated features. These features
+                              may be scheduled to be removed in a future release. Plan to transition to the designated replacement feature. If you are implementing
+                              a new deployment, use the replacement technology rather than the deprecated feature.
 
-Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
+Deprecated Feature
+
+Announced
+
+Replacement
+
+Notes
+
+Pro 1.0, Pro US 1.0, and Pro Europe 1.0 engines, powered by GPT-4.1
+
+15.0(1) SU2/ES 202607
+
+Pro 2.0, Pro US 2.0, and Pro Europe 2.0 engines, powered by GPT-5.4
+
+The Pro 1.0, Pro US 1.0, and Pro Europe 1.0 engines will be permanently removed on February 15, 2027. We recommend migrating
+                                          to the corresponding 2.0 engines after the model provider announces end of support. The 2.0 engines are designed to provide
+                                          improved accuracy and performance.
+
+Before updating production agents, we recommend testing your use cases with the corresponding 2.0 engine. GPT-5.4 offers improved
+                                          prompt adherence and performs best when instructions are accurate, clear, and free of conflicts. You can optionally also use
+                                          our recently released Optimize Instructions feature to review and refine your prompts before migration.
+
+Testing can be performed manually, through an external vendor of your choice such as Cekura.
+
+Effective September 14, 2026, new agents can no longer be created using the 1.0 engines. Existing agents will remain supported
+                                          until February 15, 2027, and the deprecated engines will be clearly identified in the user interface.
+
+After February 15, 2027, any agent still using a 1.0 engine will be automatically migrated to its corresponding 2.0 engine.
+                                          We encourage you to begin planning and validating your migration early to ensure a smooth transition and confirm that your
+                                          agent performs as expected before the retirement date.
 
 ## ES202603
 
@@ -590,10 +656,6 @@ For more information, see the Release notes for Cisco Contact Center Enterprise 
 
 For more information, see the Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202508 .
 
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
-
 | Solution or Component | General Availability Features | Installation or Upgrade Requirements |
 |---|---|---|
 | Unified CCE and Packaged CCE | Support for Fresh Install and Migration to Nutanix | Fresh Install on Nutanix is supported for all Windows-based and VOS-based CCE components. Follow the existing Fresh Install
@@ -603,6 +665,8 @@ For more information, see the Release notes for Cisco Contact Center Enterprise 
 | Configure Custom SQL Server Port | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
                                           see the Installation chapter in the following guides: Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . |
 | Email Synchronization Updates for CCE Users in Webex Engage | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
+                                          see the Installation chapter in the following guides: Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect . |
+| New AI engine for Webex AI Agent | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
                                           see the Installation chapter in the following guides: Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect . |
 | Packaged CCE | Increased Reliability and Scale for Contact Center AI Features | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information,
                                           see the Installation chapter in the Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Install 15.0(1) ES202607 on Unified CVP. For more information, see the Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1) . Upgrade Cisco VVB to 15.0(1) SU2. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) . |
@@ -626,11 +690,11 @@ For more information, see the Release notes for Cisco Contact Center Enterprise 
 
 | Solution or Component | Controlled Availability Features | Installation or Upgrade Requirements |
 |---|---|---|
-| Unified CCE and Packaged CCE | Webex Common Identity for Single Sign-On in CCE | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information, see the Installation chapter in the following guides: Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) Install 15.0(1) ES202607 on Unified CCMP. For more information, see the Installation and Configuration Guide for Cisco Unified Contact Center Management Portal, Release 15.0(1) . Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect . Upgrade Unified Intelligence Center to 15.0(1) SU2. For information on how to upgrade, see Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1) . |
+| Unified CCE and Packaged CCE | Webex Common Identity for Single Sign-On in CCE | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. Install 15.0(1) ES202607 on Unified CCMP. Upgrade Finesse to 15.0(1) SU2. Upgrade Cloud Connect to 15.0(1) SU2. Upgrade Unified Intelligence Center to 15.0(1) SU2. |
 
 | Solution or Component | Beta Features | Installation or Upgrade Requirements |
 |---|---|---|
-| Unified CCE and Packaged CCE | Cisco AI Assistant Virtual agent transfer summaries Call transcript Wrap-up summaries Real-time assist | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. For more information, see the Installation chapter in the following guides: Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) Upgrade Finesse to 15.0(1) SU2. For information on how to upgrade, see the Upgrade chapter of the Cisco Finesse Installation and Upgrade Guide, Release 15.0(1) . Upgrade Cloud Connect to 15.0(1) SU2. For information on how to upgrade, see Upgrade Cloud Connect . Upgrade Unified Intelligence Center to 15.0(1) SU2. For information on how to upgrade, see Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 15.0(1) . Install 15.0(1) ES202607 on Unified CVP. For more information, see the Installation and Upgrade Guide for Cisco Unified Customer Voice Portal, Release 15.0(1) . Upgrade Cisco VVB to 15.0(1) SU2. For information on how to upgrade Cisco VVB, see the Cisco VVB Upgrade chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser, Release 15.0(1) . |
+| Unified CCE and Packaged CCE | Cisco AI Assistant Virtual agent transfer summaries Call transcript Wrap-up summaries Real-time assist | Install 15.0(1) ES202607 on the Administration & Data Server, Administration Client, Router, Logger, and PG. Upgrade Finesse to 15.0(1) SU2. Upgrade Cloud Connect to 15.0(1) SU2. Upgrade Unified Intelligence Center to 15.0(1) SU2. Install 15.0(1) ES202607 on Unified CVP. Upgrade Cisco VVB to 15.0(1) SU2. |
 
 | Note | VMware-to-Nutanix migration is GA in 15.0(1) SU2. Use the dedicated Nutanix-specific OVA files for all CCE components. The
                                                 Nutanix-specific OVA files use the same resource specifications as the 15.0(1) VMware OVAs. |
@@ -654,3 +718,18 @@ For more information, see the Release notes for Cisco Contact Center Enterprise 
 
 | Note | Currently, CCE supports either Google CCAI or Cisco AI Assistant, but not both in the same deployment. |
 |---|---|
+
+| Deprecated Feature | Announced | Replacement | Notes |
+|---|---|---|---|
+| Pro 1.0, Pro US 1.0, and Pro Europe 1.0 engines, powered by GPT-4.1 | 15.0(1) SU2/ES 202607 | Pro 2.0, Pro US 2.0, and Pro Europe 2.0 engines, powered by GPT-5.4 | The Pro 1.0, Pro US 1.0, and Pro Europe 1.0 engines will be permanently removed on February 15, 2027. We recommend migrating
+                                          to the corresponding 2.0 engines after the model provider announces end of support. The 2.0 engines are designed to provide
+                                          improved accuracy and performance. Before updating production agents, we recommend testing your use cases with the corresponding 2.0 engine. GPT-5.4 offers improved
+                                          prompt adherence and performs best when instructions are accurate, clear, and free of conflicts. You can optionally also use
+                                          our recently released Optimize Instructions feature to review and refine your prompts before migration. Testing can be performed manually, through an external vendor of your choice such as Cekura. Effective September 14, 2026, new agents can no longer be created using the 1.0 engines. Existing agents will remain supported
+                                          until February 15, 2027, and the deprecated engines will be clearly identified in the user interface. After February 15, 2027, any agent still using a 1.0 engine will be automatically migrated to its corresponding 2.0 engine.
+                                          We encourage you to begin planning and validating your migration early to ensure a smooth transition and confirm that your
+                                          agent performs as expected before the retirement date. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

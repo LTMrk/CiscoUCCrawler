@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--afa122d872
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/scripting_specifics_in_cce_environment.html
-retrieved_at: 2026-08-16T20:39:01.956492+00:00
+retrieved_at: 2026-10-19T10:03:05.908887+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -658,3 +658,17 @@ The following illustration displays the Queue to Agent tab of the
                                           connecting the "X" (output terminal failure) on the Select object to the
                                           End object runs partially under the Select object. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Setting Skill Group Variables (OutboundControl and OutboundPercent)](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72158.tif/_jcr_content/renditions/72158.jpg)
+
+![Figure 2. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with Unified IP IVR](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127139.tif/_jcr_content/renditions/127139.jpg)
+
+![Figure 3. Example Routing Script for a Transfer to VRU Campaign Using Outbound Option with CVP/ISN](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127138.tif/_jcr_content/renditions/127138.jpg)
+
+![Figure 4. Example Routing Script Using the Dialed Number for the MR Routing Client](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82972.tif/_jcr_content/renditions/82972.jpg)
+
+![Figure 5. Queue to Agent Properties](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82971.tif/_jcr_content/renditions/82971.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

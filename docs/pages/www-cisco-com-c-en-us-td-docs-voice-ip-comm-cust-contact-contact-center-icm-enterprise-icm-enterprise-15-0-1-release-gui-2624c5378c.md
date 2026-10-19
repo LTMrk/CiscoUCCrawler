@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-2624c5378c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-for-es/rcct-m-introduction-15-01-es.html
-retrieved_at: 2026-08-16T19:36:20.408340+00:00
+retrieved_at: 2026-10-19T10:01:48.932101+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202508
@@ -122,3 +122,7 @@ For information on
 | Router |
 | Administration & Data Server |
 | PG |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

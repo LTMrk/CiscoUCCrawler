@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-insta-3cae4cb8f9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/install/guide/cuic_b_install-and-upgrade-guide-1261/cuic_m_upgrades-1261.html
-retrieved_at: 2026-08-21T16:15:23.881589+00:00
+retrieved_at: 2026-10-19T10:07:07.173648+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(1)
@@ -790,3 +790,10 @@ It takes about half an hour to complete the Switch Version and the restart.
 
 | Note | It takes about half an hour to complete the Switch Version and the restart. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Software
+                                             				  Upgrade Page](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/405001-406000/405228.tif/_jcr_content/renditions/405228.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

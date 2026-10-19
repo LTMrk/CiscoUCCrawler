@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-doc-g-2da43cabe4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/doc/guide/cuic_b_1261-documentation-guide.html
-retrieved_at: 2026-08-21T06:43:49.178934+00:00
+retrieved_at: 2026-10-19T10:06:16.503103+00:00
 ---
 
 Cisco Unified Intelligence Center Documentation Guide, Release 12.6(1)
@@ -314,3 +314,7 @@ For Cisco Hosted Collaboration Solution for Contact Center documentation, see: h
 | Cisco Unified Intelligence Center Report Customization Guide | This document contains updated content related to: Existing note is updated with the introduction of Edge Chromium (Microsoft Edge) browser. |
 | Cisco Unified Intelligence Center User Guide | This document contains updated content related to: Updated the custom logon messages for users during sign in. Updated browser support for Edge Chromium (Microsoft Edge) and added the self-signed certificates for browsers. |
 | Administration Console User Guide for Cisco Unified Intelligence Center | This document contains updated content related to: Added user session details. Added Unified Intelligence Center logging details. Added TLS details. Added self-signed certificate upload details. Added member/subscriber node details in OAMP. Added dashboard permalinks details. Updated reporting engine details. Added custom logon message configuration details. Added logging commands. Added following show commands: show cuic properties allow-external-links show cuic properties report-query-timeout Added following set commands: set cuic properties allow-external-links set cuic properties report-query-timeout Added unrestricted resources access details. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-maint-d75ac502a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_b_admin-console-user-guide-1205_appendix_01100.html
-retrieved_at: 2026-08-21T04:37:45.718963+00:00
+retrieved_at: 2026-10-19T10:04:25.986076+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -55,3 +55,9 @@ Load balancing
                                           			 for Live Data reports in Unified Intelligence Center is not supported in any
                                           			 deployments. |
 |---|---|
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

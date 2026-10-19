@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1261-insta-6f33f8c213
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1261/install/guide/cuic_b_install-and-upgrade-guide-1261/cuic_b_installation-and-upgrade-guide-1205_preface_00.html
-retrieved_at: 2026-08-21T16:14:50.300632+00:00
+retrieved_at: 2026-10-19T10:06:24.947096+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.6(1)
@@ -117,3 +117,7 @@ We appreciate your comments.
 | Note | This document might not represent the latest Cisco product information available. Obtain the most current documentation at
                                     this URL: https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/tsd-products-support-series-home.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

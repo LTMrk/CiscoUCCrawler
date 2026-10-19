@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-reference-g-d13bdcbe58
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/reference/guide/ucce-b-database-schema-handbook-for-cisco-unified-icm-contact-center-enterprise-release-1501/ucce_m_database-rules_15_0_1.html
-retrieved_at: 2026-08-16T19:44:40.723068+00:00
+retrieved_at: 2026-10-19T09:59:55.218127+00:00
 ---
 
 Database Schema Handbook for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -638,3 +638,7 @@ Vru_Locale contains a list of locales (a locale is a combination of language and
 
 | Note | The following Contact Share information is not supported in 15.0(1) release. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

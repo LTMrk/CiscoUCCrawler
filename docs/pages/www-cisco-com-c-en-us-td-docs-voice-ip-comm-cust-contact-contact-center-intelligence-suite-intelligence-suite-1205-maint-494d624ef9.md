@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-maint-494d624ef9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/maintain_and_operate/guide/cuic_b_admin-console-user-guide-1205/cuic_b_admin-console-user-guide-1205_index.html
-retrieved_at: 2026-08-21T04:37:50.678436+00:00
+retrieved_at: 2026-10-19T10:05:00.378185+00:00
 ---
 
 Administration Console User Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -389,3 +389,7 @@ TCP 1
 Thread 1
 
 Unified Intelligence Center System Condition 1
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

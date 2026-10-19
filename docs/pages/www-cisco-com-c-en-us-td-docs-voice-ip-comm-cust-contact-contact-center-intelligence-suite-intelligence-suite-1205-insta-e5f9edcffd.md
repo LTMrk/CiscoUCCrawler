@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-intelligence-suite-intelligence-suite-1205-insta-e5f9edcffd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/intelligence_suite/intelligence_suite_1205/install/guide/cuic_b_installation-and-upgrade-guide-1205/cuic_b_installation-and-upgrade-guide-1205_chapter_01.html
-retrieved_at: 2026-08-21T04:34:20.143678+00:00
+retrieved_at: 2026-10-19T10:03:27.759596+00:00
 ---
 
 Installation and Upgrade Guide for Cisco Unified Intelligence Center, Release 12.5(1)
@@ -350,3 +350,7 @@ Up or Down arrow keys
 | Go to the previous screen | Tab to Back and press the Spacebar |
 | Get information on a screen | Tab to Help and press the Spacebar |
 | Scroll up and down a list | Up or Down arrow keys |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

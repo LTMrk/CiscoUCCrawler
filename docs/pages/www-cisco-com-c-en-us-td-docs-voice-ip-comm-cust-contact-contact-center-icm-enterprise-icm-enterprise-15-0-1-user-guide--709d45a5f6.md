@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--709d45a5f6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/example_scripts.html
-retrieved_at: 2026-09-07T17:52:58.396324+00:00
+retrieved_at: 2026-10-19T10:02:36.085177+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -813,10 +813,6 @@ The <constant> value is site
                                  day and the proper AvgHandledCallsTime has
                                  not been calculated.
 
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
-
 | Note | For the Run External Script node to work, there must be an entry in
                                           the Network VRU list pointing to the URL map file. After the Run
                                           External Script node, the script functions just as the preceding
@@ -889,3 +885,51 @@ The <constant> value is site
                                           conditions: A value of 0 indicates that there are no calls queued in the skill group or precision queue. A value of -1 indicates that there is not enough call data within the last five-minute window to calculate the estimated wait
                                                 time (EWT). |
 |---|---|
+
+## Figuras
+
+![Figure 1. Web Request Routing Process](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340827.jpg)
+
+![Figure 2. Example - Queuing a Web Request to a Skill Group](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340689.jpg)
+
+![Figure 3. Pushing URL to Waiting Caller](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340693.jpg)
+
+![Figure 4. Queuing Directly to an Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340691.jpg)
+
+![Figure 5. Direct Reference to Agent](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340692.jpg)
+
+![Figure 6. Routing Based on MRD](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393142.tif/_jcr_content/renditions/393142.jpg)
+
+![Figure 7. Queuing E-mail to Skill Group](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340727.jpg)
+
+![Figure 8. Routing Based on Priority](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510219.jpg)
+
+![Figure 9. Routing Based on Push/Pull/Pick](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510344.jpg)
+
+![Figure 10. Selecting Agents from Skill Groups](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413912.tif/_jcr_content/renditions/413912.jpg)
+
+![Figure 11. Categorizing by MRD with Skill Groups](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413913.tif/_jcr_content/renditions/413913.jpg)
+
+![Figure 12. Categorizing by MRD with Precision Queues](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410155.tif/_jcr_content/renditions/410155.jpg)
+
+![Figure 13. Queuing to Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340819.jpg)
+
+![Figure 14. Example RONA and Transfer Script](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410193.tif/_jcr_content/renditions/410193.jpg)
+
+![Figure 15. Example Estimated Wait Time Script](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410494.tif/_jcr_content/renditions/410494.jpg)
+
+![Figure 16. Reroute on Ring No Answer](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340713.jpg)
+
+![Figure 17. Reroute on Ring No Answer Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340786.jpg)
+
+![Figure 18. Agent to Agent Node Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340807.jpg)
+
+![Figure 19. Setting the OutboundControl Variable and Skill Group Reservation Percentage](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72158.tif/_jcr_content/renditions/72158.jpg)
+
+![Figure 20. Queue to Agent Node Properties](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82971.tif/_jcr_content/renditions/82971.jpg)
+
+![Figure 21. Using the Dialed Number for the MR Routing Client and Routing Through a Select Node to a Skill Group](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/80001-85000/82001-83000/82972.tif/_jcr_content/renditions/82972.jpg)
+
+![Figure 22. Transfer to VRU Using Outbound Option with Unified IP IVR](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/120001-130000/127001-128000/127139.tif/_jcr_content/renditions/127139.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

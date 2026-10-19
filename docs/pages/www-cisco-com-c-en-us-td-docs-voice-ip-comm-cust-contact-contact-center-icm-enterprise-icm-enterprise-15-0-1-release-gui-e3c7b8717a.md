@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-e3c7b8717a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202607/rcct-m-introduction-1501-es202607.html
-retrieved_at: 2026-08-25T00:14:27.043515+00:00
+retrieved_at: 2026-10-19T10:01:39.751619+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions Engineering Specials, 15.0(1) SU2/ES202607
@@ -42,6 +42,11 @@ This document is intended for system administrators and support personnel respon
 
 ES releases are cumulative. If you are installing ES202607 without having previously installed an earlier ES release of 15.0(1),
                                  review the Key Considerations for Installation sections of preceding ES release notes at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-release-notes-list.html for any actions that may apply to your deployment.
+
+After you install this ES202607, verify custom configurations, including TLS and certificate settings. Reapply any settings
+                                 that the installation resets or changes, and validate the affected CCE connections before returning the system to service.
+
+For more information about the certificate procedures, see the Certificate Management for Secured Connections chapter in the Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
 OVA Template Naming Convention
 
@@ -193,6 +198,10 @@ For information on
                               		  existing security issues, see Cisco
                                  			 Security Advisories, Responses, and Alerts at https://tools.cisco.com/security/center/publicationListing.x .
 
+### Customers Also Viewed
+
+- Configure Webex AI Agent for CCE
+
 | Note | All features, caveats, and limitations listed in these release notes also apply to Packaged CCE, unless explicitly stated
                                        otherwise. |
 |---|---|
@@ -224,3 +233,7 @@ For information on
 | Unified Intelligence Center | Download Link |
 | Cisco IdS |
 | Live Data |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

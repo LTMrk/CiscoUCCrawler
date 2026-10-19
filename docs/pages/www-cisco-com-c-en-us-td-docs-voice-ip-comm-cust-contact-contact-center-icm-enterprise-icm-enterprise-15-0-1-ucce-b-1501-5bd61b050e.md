@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-ucce-b-1501-5bd61b050e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/ucce_b_1501_features-guide/rcct_m_1501_ece-and-wxconnect-on-same-deployment.html
-retrieved_at: 2026-09-16T00:02:45.066762+00:00
+retrieved_at: 2026-10-19T10:02:05.245922+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -560,3 +560,7 @@ Complete your Flow by creating connections between the various nodes within the 
                                                 in the Flow Builder. To configure the Webhook node: On the Configuration tab, keep the default selection of the Select existing webhook radio button. From the Webhook Name field, select the Webhook you created earlier. On the Transition Actions (optional) tab, add the necessary variables for your flow as shown in the below screenshot, then click Save . You can also include the custom variables created in Webex Engage during step 2 by selecting Add Params . Additionally, you have the option to add default variables like 'n2.chatid' that are readily available in Webex Engage.
                                                       Ensure that the variables you enter in Webex Connect match exactly with those in Webex Engage. For more information, see Transition Actions . Add the Evaluate node if your business logic needs it. Drag the Live Chat or In-App Messaging node onto the Flow builder canvas. Double-click the node, enter the following,: Destination Type — Set to UserId Destination — Set to $(CustomerID). Thread ID — Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread. Set Message Type to Form, the Content Type to STATIC , and set Form Template to an existing Call Survey form. Click Save . Drag the Receive node onto the Flow builder canvas. Double-click the node and enter the following: Form(threadId) —Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread. Form(userId) —Set to $(CustomerId). Set Event Name to Form Response, the Content Type to STATIC , and Form Template to an existing Call Survey form. Click Save . In the Transition Actions (Optional) tab, you can opt to generate logs when the flow exits this node by adding a logID, as shown below. Drag the Append Conversation node onto the Flow builder canvas. Double-click the node and enter the following: Method Name — Choose Append Chat. Node Authentication —Choose WxmTestEngage. Channel — Choose Livechat. Conversation ID —Enter $(ConversationId). |
 | Step 4 | Complete your Flow by creating connections between the various nodes within the canvas, as illustrated below. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

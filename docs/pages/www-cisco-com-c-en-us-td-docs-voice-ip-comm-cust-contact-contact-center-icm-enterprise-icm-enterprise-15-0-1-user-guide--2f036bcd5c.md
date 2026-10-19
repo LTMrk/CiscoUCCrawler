@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--2f036bcd5c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/multichannel_routing.html
-retrieved_at: 2026-08-16T20:36:35.697322+00:00
+retrieved_at: 2026-10-19T10:02:44.469275+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -604,3 +604,21 @@ A Run External Script node to apply a Network VRU script that returns the estima
 | Note | Queue to Agent is not
                                           		supported. |
 |---|---|
+
+## Figuras
+
+![Figure 1. MRD Domain Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340747.jpg)
+
+![Figure 2. Media Routing Domain Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340748.jpg)
+
+![Figure 3. Queue Agent Type](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340779.jpg)
+
+![Figure 4. Agent Direct Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340776.jpg)
+
+![Figure 5. Queue to Agent  Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340777.jpg)
+
+![Figure 6. No Enterprise Route or Route Chosen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340725.jpg)
+
+![Figure 7. Both an Enterprise Route and a Route Chosen](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340724.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

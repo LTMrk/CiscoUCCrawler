@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-release-gui-a1b5d33b8e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/release/guide/rcct-b-cce-release-notes-1501_es202511/rcct-m-feature-summary-1501-es202511.html
-retrieved_at: 2026-08-16T19:36:12.098409+00:00
+retrieved_at: 2026-10-19T10:01:10.117829+00:00
 ---
 
 Release notes for Cisco Contact Center Enterprise Solutions 15.0(1) Engineering Specials, ES202511
@@ -367,3 +367,7 @@ Seamless integration: Once integrated, your Virtual Agents can function smoothly
 | Note | Account lockout settings apply only to Finesse local authentication; SSO account lockouts are managed by the Identity Provider
                                           (IdP), and  Webex Common Identity user lockouts are managed by Webex Control Hub. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

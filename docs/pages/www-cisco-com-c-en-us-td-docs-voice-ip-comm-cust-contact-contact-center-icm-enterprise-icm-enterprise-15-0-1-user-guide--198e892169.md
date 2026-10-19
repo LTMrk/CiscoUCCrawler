@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-user-guide--198e892169
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/user/guide/ucce_b_scripting-and-media-routing-guide-for-cisco-unified-icm-contact-center-enterprise-release-15_0/script_administration.html
-retrieved_at: 2026-08-16T20:38:49.852743+00:00
+retrieved_at: 2026-10-19T10:02:57.416959+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1)
@@ -1047,3 +1047,7 @@ No access to scripts that reference objects that are associated with departments
                                        your deployment. | Can be run on a local machine. |
 | Can be used by global administrators. | Can be used by global administrators and departmental administrators. |
 | Imposes no scripting access restrictions for global administrators. | Imposes scripting access restrictions for departmental administrators. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
