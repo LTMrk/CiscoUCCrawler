@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-9ce358528c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_b_features-guide-1261_chapter_01011.html
-retrieved_at: 2026-08-21T16:41:28.812466+00:00
+retrieved_at: 2026-10-19T10:35:17.946783+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -1672,3 +1672,9 @@ For information about Agent Greeting Play Script .
 
 | Note | This fix may add a short delay of one to two seconds to the call flow. For information about Agent Greeting Play Script . |
 |---|---|
+
+## Figuras
+
+![Figure 2. Mobile Agent Codec Selection](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/346001-347000/346498.tif/_jcr_content/renditions/346498.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-design-guide-pcce-b-soldg-for-p-53151afb6a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/design/guide/pcce_b_soldg-for-packaged-cce-12_6_2/pcce_b_soldg-for-packaged-cce-12_6_chapter_01010.html
-retrieved_at: 2026-08-21T04:50:06.427725+00:00
+retrieved_at: 2026-10-19T10:38:28.809550+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(2)
@@ -105,3 +105,9 @@ For more information on secured connections and certificate management, see the 
 | Note | All created groups are Domain Local Security Groups, and all user accounts are domain accounts. The Service Logon domain account
                                           is added to the Local Administrators' group of the application servers. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Secured Connection Example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495220.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-5877e384a4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce-m-custom-sql-server-port.html
-retrieved_at: 2026-08-21T12:15:01.261282+00:00
+retrieved_at: 2026-10-19T10:36:11.866872+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -258,3 +258,13 @@ If you are unable to start the remote registry service on Administration Client 
 
 | Note | Changes made to Publisher CUIC, automatically gets synchronized to Subscriber CUIC. |
 |---|---|
+
+## Figuras
+
+![Figure 1. SQL Server Configuration Manager](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/493001-494000/493583.png)
+
+![Figure 2. Cisco Finesse Administrator Console](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/493001-494000/493582.png)
+
+![Figure 3. Cisco Unified Intelligence Center Administrator Console](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/493001-494000/493622.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

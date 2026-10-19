@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-bd7b7e599b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_0111.html
-retrieved_at: 2026-08-21T12:15:18.075345+00:00
+retrieved_at: 2026-10-19T10:37:30.775083+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -159,3 +159,7 @@ CCE assigns the task to an agent who is logged into the "Sales" skill group in t
 | Note | Wildcard pattern is supported in dialed number configuration. Only the last two characters of the dialed number can be configured as wildcards. The supported wildcard character is X. You cannot assign a valid number in the wildcard defined range, when the last two digits of dialed number are defined as wildcards.
                                                    For example, you cannot configure the valid dialed number 18000001101 under the wildcard entry 180000011XX. During DNlookup in the script editor, the dialed number is evaluated based on the wildcard-configured dialed number. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

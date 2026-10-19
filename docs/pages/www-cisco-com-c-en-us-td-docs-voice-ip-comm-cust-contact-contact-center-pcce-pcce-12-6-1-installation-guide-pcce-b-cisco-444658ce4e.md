@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-installation-guide-pcce-b-cisco-444658ce4e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/installation/guide/pcce_b_cisco_pcce_installationandupgrade_guide_12_6_1/pcce_b_cisco_pcce_installationandupgrade_guide_12_5_2_chapter_0100.html
-retrieved_at: 2026-08-21T16:40:02.300036+00:00
+retrieved_at: 2026-10-19T10:32:08.619650+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.6(1)
@@ -737,3 +737,7 @@ See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications
 | 1 | Using Packaged-CCE-cloudconnect.ova, Create a Virtual Machine from the OVA . |
 | 2 | Set Cloud Connect Secondary Node. See Set Cloud Connect Secondary Node . |
 | 3 | Install the Cloud Connect Subscriber. See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

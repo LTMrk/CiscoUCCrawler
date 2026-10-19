@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-3bf3f62ee8
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/pcce_b_features-guide-1261_appendix_010010.html
-retrieved_at: 2026-08-21T12:29:46.857184+00:00
+retrieved_at: 2026-10-19T10:39:46.277822+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -100,3 +100,7 @@ You can also view historical and real-time stock reports for Avaya ACD. For more
 | Dialed Number/Script Selector List | Supports addition of Dialed Numbers for Avaya Agents and NIC Routing Clients |
 | Skill Group Explorer | Only supports Avaya PG configurations |
 | Bulk Configuration Tools | The following bulk tools only support Avaya PG configurations. Agent Bulk Insert Dialed Number Bulk Insert Skill Group Bulk Insert Agent Bulk Edit Dialed Number Bulk Edit Skill Group Bulk Edit Person Bulk Insert Person Bulk Edit |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

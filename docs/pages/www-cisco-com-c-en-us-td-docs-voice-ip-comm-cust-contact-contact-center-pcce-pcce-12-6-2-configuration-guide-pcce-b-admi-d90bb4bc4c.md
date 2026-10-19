@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-d90bb4bc4c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_appendix_010100.html
-retrieved_at: 2026-08-21T12:16:56.103150+00:00
+retrieved_at: 2026-10-19T10:36:20.589758+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -1535,3 +1535,7 @@ Re-enter new keystore password:  <new-password> |
                                              					 IVR Service, this metric will be increased by one. |
 | Database Writes | The total number of writes to the database made by the Unified CVP Reporting Server since startup. For each write to the database
                                              by the Unified CVP Reporting Server, this metric will be increased by one. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

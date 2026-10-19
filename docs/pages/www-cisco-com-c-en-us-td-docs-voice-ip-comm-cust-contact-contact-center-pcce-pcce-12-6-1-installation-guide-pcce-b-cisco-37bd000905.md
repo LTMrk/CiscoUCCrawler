@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-installation-guide-pcce-b-cisco-37bd000905
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/installation/guide/pcce_b_cisco_pcce_installationandupgrade_guide_12_6_1/pcce_b_cisco_pcce_installationandupgrade_guide_12_5_2_chapter_0110.html
-retrieved_at: 2026-08-21T16:40:10.339268+00:00
+retrieved_at: 2026-10-19T10:32:29.115473+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.6(1)
@@ -384,3 +384,7 @@ Configure Permissions in the Local Machine
 | 9 | Install Microsoft SQL Server |
 | 10 | Install Cisco Unified Contact Center Enterprise |
 | 11 | Configure Permissions in the Local Machine |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

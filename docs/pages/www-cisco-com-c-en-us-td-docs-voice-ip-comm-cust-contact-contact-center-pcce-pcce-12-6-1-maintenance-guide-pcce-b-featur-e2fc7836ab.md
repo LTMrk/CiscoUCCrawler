@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-e2fc7836ab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_m_1262es04_appendix-reverse-proxy-configuration.html
-retrieved_at: 2026-08-21T16:42:29.163465+00:00
+retrieved_at: 2026-10-19T10:35:51.791524+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -1508,3 +1508,7 @@ bantime = 180 |
 | Step 9 | Change SELinux to enforce mode by using the setenforce command. |
 | Step 10 | Reboot the system. |
 | Step 11 | Repeat this procedure until all the violations are fixed. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

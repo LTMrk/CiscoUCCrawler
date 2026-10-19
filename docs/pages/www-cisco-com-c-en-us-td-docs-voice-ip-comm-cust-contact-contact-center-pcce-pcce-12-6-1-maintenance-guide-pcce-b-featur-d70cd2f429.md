@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-d70cd2f429
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_b_features-guide-1261_chapter_01111.html
-retrieved_at: 2026-08-21T16:41:46.869393+00:00
+retrieved_at: 2026-10-19T10:35:43.579549+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -1487,3 +1487,9 @@ See the Cisco Packaged Contact Center Enterprise Reporting User Guide at https:/
                                              				information about uploading third-party gadgets to the Finesse server, see the
                                              				"Third Party Gadgets" chapter in the at https://developer.cisco.com/site/finesse/ . For more information about adding third-party gadgets to the Finesse desktop, see the "Manage Third-Party Gadgets" chapter
                                              in the at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/tsd-products-support-series-home.html . |
+
+## Figuras
+
+![Figure 1. Task Routing for Third-party Multichannel Applications Solution Components](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510636.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

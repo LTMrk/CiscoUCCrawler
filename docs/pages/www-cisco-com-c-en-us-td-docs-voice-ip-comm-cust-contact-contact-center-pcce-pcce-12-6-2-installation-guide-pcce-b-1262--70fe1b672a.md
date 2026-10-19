@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-installation-guide-pcce-b-1262--70fe1b672a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/installation/guide/pcce_b_1262_cisco_pcce_installationandupgrade_guide/pcce_b_cisco_pcce_installationandupgrade_guide_12_5_2_chapter_0101.html
-retrieved_at: 2026-08-21T04:50:39.601829+00:00
+retrieved_at: 2026-10-19T10:39:16.834812+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.6(2)
@@ -708,3 +708,7 @@ Install VMware Tools
 | 3 | Install the Cisco Identity Service Subscriber node. See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications . |
 | 4 | Set IdS Subscriber Node |
 | 5 | Install VMware Tools |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

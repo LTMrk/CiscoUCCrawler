@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-3e9b21a80d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_b_features-guide-1261_chapter_011.html
-retrieved_at: 2026-08-21T16:41:03.177881+00:00
+retrieved_at: 2026-10-19T10:35:21.793444+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -817,3 +817,9 @@ Calls which do
 
 | Note | Agent requests that fail before being routed to CCE will not be included in the CCE solution-level reports. The Customer Collaboration Platform search function can be used to identify these requests. |
 |---|---|
+
+## Figuras
+
+![Script for Agent Request](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390341.tif/_jcr_content/renditions/390341.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

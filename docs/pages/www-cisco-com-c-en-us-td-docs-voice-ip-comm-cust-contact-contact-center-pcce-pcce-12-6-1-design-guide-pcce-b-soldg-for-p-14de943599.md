@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-design-guide-pcce-b-soldg-for-p-14de943599
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/design/guide/pcce_b_soldg-for-packaged-cce-12_6/rcct_b_ucce_soldg-for-unified-cce-1261_chapter_01001.html
-retrieved_at: 2026-08-21T16:36:29.192865+00:00
+retrieved_at: 2026-10-19T10:31:42.194245+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(1)
@@ -1909,3 +1909,7 @@ Because Cisco VVB does not have a dial-peer to the ASR, you cannot use this tech
 
 | Note | Because Cisco VVB does not have a dial-peer to the ASR, you cannot use this technique with Cisco VVB. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

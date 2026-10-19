@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-053ba02cb4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_b_features-guide-1261_chapter_010101.html
-retrieved_at: 2026-08-21T16:40:55.134173+00:00
+retrieved_at: 2026-10-19T10:35:13.441365+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -684,3 +684,7 @@ Loading http://www.cisco.com/security/pki/trs/ios_core.p7b
 | Step 3 | In the Unified CCE Administration console, enable or disable CCAI Services for an agent or multiple agents. For more details, see Enable or Disable Contact Center AI Features for Agents . |
 | Step 4 | Undo these CCAI settings configured when Packaged CCE was in 12.5: Delete the "call.user.configid" ECC variable you created for the Answers feature and remove the association of this variable
                                                 with the CCE script. For more details, see the Contact Center AI Services Task Flow section in the Cisco Packaged Contact Center Enterprise Features Guide, Release 12.5 at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . In Cisco Finesse, run the following CLI command to disable the CCAI services from all the Cisco Finesse clusters: utils finesse set_property webservices enableCustomAgentServices false For more details, see the AI Services Configuration topic in the Cisco Finesse Administration Guide, Release 12.6(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-report-f8d4c11894
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_Reporting-User-Guide-12_6_1/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01011.html
-retrieved_at: 2026-08-21T16:56:16.325384+00:00
+retrieved_at: 2026-10-19T10:33:40.840484+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -120,3 +120,7 @@ Emergency and Supervisor
                                        		  not incremented for the default skill group, because the default skill group
                                        		  can not be referenced in any script. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

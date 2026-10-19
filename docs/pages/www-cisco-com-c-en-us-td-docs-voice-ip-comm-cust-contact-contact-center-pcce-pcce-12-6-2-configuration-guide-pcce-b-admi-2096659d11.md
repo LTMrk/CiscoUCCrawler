@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-2096659d11
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_011.html
-retrieved_at: 2026-08-21T12:14:57.660952+00:00
+retrieved_at: 2026-10-19T10:37:14.507718+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -13451,6 +13451,10 @@ Step 5
 
 Paste the URL in the Webhook URL field in the Unified CCE Administration portal ( Overview > Digital Channels > Digital Channel Settings > Integration > Webhook ).
 
+Step 6
+
+Click Save to save the Webhook details.
+
 ##### Manage connection between Cloud Connect and MR PG
 
 To customize the connection parameters between Cloud Connect and Media Routing Peripheral Gateway (MR PG):
@@ -21067,6 +21071,7 @@ and state history of an agent. -->
 | Step 3 | Click Save to save the OAuth2 authentication details. |
 | Step 4 | Go to the Webhook tab to register the Webhook URL in the Digital Routing service. To fetch the Webhook URL: In the Webex Connect portal, navigate to Assets > Integrations . In the CCE pre-built integrations row, from the Actions column, select Manage . The Manage Integration - Prebuilt Integration page appears. In the Inbound Events section, copy the Webhook URL. |
 | Step 5 | Paste the URL in the Webhook URL field in the Unified CCE Administration portal ( Overview > Digital Channels > Digital Channel Settings > Integration > Webhook ). |
+| Step 6 | Click Save to save the Webhook details. |
 
 | Step 1 | In the Unified CCE Administration portal, navigate to Overview > Digital Channels > Digital Channel Settings > Advanced Settings . |
 |---|---|
@@ -21808,3 +21813,13 @@ and state history of an agent. -->
 | At Most | Shows the maximum capacity of each configurable object that is allowed. |
 | Actual | Shows the number of objects currently configured on your system. |
 | % Used | Shows the percentage of the maximum capacity represented by your configuration. |
+
+## Figuras
+
+![Figure 1. License States](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510721.jpg)
+
+![Figure 2. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510715.jpg)
+
+![Figure 3. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510716.jpg)
+
+![Figure 4. Payload icon](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510432.jpg)

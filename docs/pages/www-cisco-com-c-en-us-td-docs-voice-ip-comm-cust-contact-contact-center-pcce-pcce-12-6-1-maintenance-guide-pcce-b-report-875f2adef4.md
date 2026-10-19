@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-report-875f2adef4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_Reporting-User-Guide-12_6_1/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010110.html
-retrieved_at: 2026-08-21T16:57:05.604754+00:00
+retrieved_at: 2026-10-19T10:33:45.408859+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -1249,3 +1249,7 @@ Derived from: (((Campaign_Query_Rule.EndHours * 60) + (Campaign_Query_Rule.EndMi
 
 | Note | Campaign_Query_Rule_Real_Time report is not applicable for API campaign. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

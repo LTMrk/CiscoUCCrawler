@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-f57c0b6b79
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_01000.html
-retrieved_at: 2026-08-21T12:15:22.856452+00:00
+retrieved_at: 2026-10-19T10:36:34.139695+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -489,3 +489,53 @@ Optionally, add comments and connection labels.
 
 | Note | If you select this option, Unified ICM cannot retrieve any data from the external application. |
 |---|---|
+
+## Figuras
+
+![Figure 1. The Call Type Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340686.jpg)
+
+![Figure 2. Call Type Properties Dialog Box - Static Call Type](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/343001-344000/343001.tif/_jcr_content/renditions/343001.jpg)
+
+![Figure 3. Call Type
+                                    			 Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340686.jpg)
+
+![Figure 4. Call Type
+                                    			 Properties Dialog Box - Dynamic Call Type](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/343001-344000/343002.tif/_jcr_content/renditions/343002.jpg)
+
+![Figure 5. The Requalify Call Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340783.jpg)
+
+![Figure 6. The Requalify Properties - Requalify Call Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340784.jpg)
+
+![Figure 7. The Dialed Number Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340714.jpg)
+
+![Figure 8. DN Properties - Dialed numbers Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340715.jpg)
+
+![Figure 9. Time Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340813.jpg)
+
+![Figure 10. Time Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340814.jpg)
+
+![Figure 11. Add Time Dialog](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340676.jpg)
+
+![Figure 12. Day of Week Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340709.jpg)
+
+![Figure 13. Day of Week Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340710.jpg)
+
+![Figure 14. Go To Script Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340733.jpg)
+
+![Figure 15. Go To Script Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340734.jpg)
+
+![Figure 16. Percent Allocation Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340762.jpg)
+
+![Figure 17. % Allocation Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340763.jpg)
+
+![Figure 18. If Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340738.jpg)
+
+![Figure 19. If Properties](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340739.jpg)
+
+![Figure 20. Gateway Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340730.jpg)
+
+![Figure 21. App Gateway Properties - Send](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340732.jpg)
+
+![Figure 22. App Gateway Properties - Receive](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340731.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

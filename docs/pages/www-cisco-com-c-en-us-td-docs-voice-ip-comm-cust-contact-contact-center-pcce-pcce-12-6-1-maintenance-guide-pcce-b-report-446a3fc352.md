@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-report-446a3fc352
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_Reporting-User-Guide-12_6_1/pcce_b_cisco-packaged-contact-center-enterprise_chapter_01111.html
-retrieved_at: 2026-08-21T16:56:32.223949+00:00
+retrieved_at: 2026-10-19T10:34:18.516333+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -182,3 +182,16 @@ You can
                                        				  Level | Starts as
                                        				  soon as the call enters the call type that has the service level defined. | Not
                                        				  Applicable |
+
+## Figuras
+
+![Figure 1. Changing a
+                              		  Call Type Prior to the Queue to Skill Group Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/344001-345000/344521.tif/_jcr_content/renditions/344521.jpg)
+
+![Figure 2. Call Type Data
+                              		  for Calls That Abandon After Call Type Is Changed](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103744.ps/_jcr_content/renditions/103744.jpg)
+
+![Figure 3. Call Type for
+                              		  Calls That Abandon Before Call Type Is Changed](https://www.cisco.com/c/dam/en/us/td/i/100001-200000/100001-110000/103001-104000/103745.ps/_jcr_content/renditions/103745.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

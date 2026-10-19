@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-report-7dc6af935f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_Reporting-User-Guide-12_6_1/pcce_b_cisco-packaged-contact-center-enterprise_chapter_011000.html
-retrieved_at: 2026-08-21T16:53:51.560589+00:00
+retrieved_at: 2026-10-19T10:34:06.115817+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -60,3 +60,7 @@ You can configure template help for the report from the Reports page > Add Help 
                                        			 report in the run mode. |
 |---|---|
 | Step 2 | Click the Template Help icon in the report toolbar. The report template help appears in a new browser window. You can configure template help for the report from the Reports page > Add Help . For more information, see Add Template Help section. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

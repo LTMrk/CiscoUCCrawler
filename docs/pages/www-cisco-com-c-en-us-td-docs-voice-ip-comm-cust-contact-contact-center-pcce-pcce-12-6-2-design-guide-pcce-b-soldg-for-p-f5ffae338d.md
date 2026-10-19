@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-design-guide-pcce-b-soldg-for-p-f5ffae338d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/design/guide/pcce_b_soldg-for-packaged-cce-12_6_2/pcce_b_soldg-for-packaged-cce-12_6_chapter_010.html
-retrieved_at: 2026-08-21T04:49:38.060597+00:00
+retrieved_at: 2026-10-19T10:38:07.571057+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(2)
@@ -2176,3 +2176,21 @@ The maximum
                                        		  allowed round-trip time between any remote office and the data center is 200
                                        		  ms. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Contact Center Enterprise Components and Features](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510652.jpg)
+
+![Figure 2. 2000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/466001-467000/466145.jpg)
+
+![Figure 3. 4000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/466001-467000/466146.jpg)
+
+![Figure 4. 4000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510612.jpg)
+
+![Figure 5. 12000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/466001-467000/466147.jpg)
+
+![Figure 6. 12000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510614.jpg)
+
+![Figure 7. Contact Director Solution with Two Unified CCE Target Instances](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510471.jpg)
+
+![Figure 8. Reference Design Topologies](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393282.jpg)

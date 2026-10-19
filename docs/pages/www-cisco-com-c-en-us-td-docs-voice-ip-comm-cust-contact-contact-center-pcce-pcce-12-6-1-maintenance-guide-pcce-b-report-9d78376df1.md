@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-report-9d78376df1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_Reporting-User-Guide-12_6_1/pcce_b_cisco-packaged-contact-center-enterprise_chapter_010001.html
-retrieved_at: 2026-08-21T16:56:43.641325+00:00
+retrieved_at: 2026-10-19T10:33:08.190605+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Reporting User Guide, Release 12.6(1)
@@ -6886,3 +6886,7 @@ Report Summary: The summary line shows an average for the Avg
 | Longest Queued | The
                                              						longest time a call had to wait before it was dispositioned (abandoned or
                                              						answered) in this interval. Derived from:Skill_Group_Interval. MaxCallWaitTime. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-1-maintenance-guide-pcce-b-featur-d4ecd1e7bc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_1/maintenance/guide/pcce_b_features-guide-1261/pcce_b_features-guide-1261_chapter_0101.html
-retrieved_at: 2026-08-21T16:41:11.571655+00:00
+retrieved_at: 2026-10-19T10:35:04.690039+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(1)
@@ -226,3 +226,7 @@ If any configuration is changed, the status is re-evaluated and updated to refle
 | Note | In case, any new Timezone definition is added or updated at the Windows Operating System (OS) through patch, apply that OS
                                           patch at both Side A and Side B at the same time. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-design-guide-pcce-b-soldg-for-p-604b48020f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/design/guide/pcce_b_soldg-for-packaged-cce-12_6_2/pcce_b_soldg-for-packaged-cce-12_6_chapter_01000.html
-retrieved_at: 2026-08-21T04:49:58.971364+00:00
+retrieved_at: 2026-10-19T10:38:16.390443+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 12.6(2)
@@ -2426,3 +2426,13 @@ vMotion for Contact Center Enterprise solution components is not supported acros
 | Note | vMotion for Contact Center Enterprise solution components is not supported across HyperFlex clusters, or in HyperFlex Stretched
                                           Cluster deployments. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Inbound Call Timeline](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253357.eps/_jcr_content/renditions/253357.jpg)
+
+![Figure 2. Packaged CCE Deployment with Only IPv6 Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393028.eps/_jcr_content/renditions/393028.jpg)
+
+![Figure 3. Packaged CCE Deployment with Both IPv4 and IPv6 Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393026.eps/_jcr_content/renditions/393026.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

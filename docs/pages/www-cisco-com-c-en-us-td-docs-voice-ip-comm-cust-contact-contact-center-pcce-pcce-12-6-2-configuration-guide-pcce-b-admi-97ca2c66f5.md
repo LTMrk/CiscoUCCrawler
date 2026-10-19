@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-configuration-guide-pcce-b-admi-97ca2c66f5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/configuration/guide/pcce_b_admin_configuration_guide_12_6_2/pcce_b_admin_configuration_guide_12_5_2_chapter_0110.html
-retrieved_at: 2026-08-21T12:15:13.920007+00:00
+retrieved_at: 2026-10-19T10:37:18.102767+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 12.6(2)
@@ -391,3 +391,27 @@ For more information
 | Note | The schedule is not saved until you click OK in
                                                    the Call Type Manager dialog box. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Palette
+                                 			 Icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340758.jpg)
+
+![Figure 2. New Dialog
+                                             				  Box](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340703.jpg)
+
+![Figure 3. Routing
+                                             				  Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340704.jpg)
+
+![Figure 5. Comment Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340702.jpg)
+
+![Figure 6. Validate
+                                             				  All Query Dialog](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340821.jpg)
+
+![Figure 7. Call Type Manager Dialog Box—Schedules Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/344001-345000/344837.tif/_jcr_content/renditions/344837.jpg)
+
+![Figure 8. Add Call Type Dialog Box - Script Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340707.jpg)
+
+![Figure 9. Add Call Type Schedule Dialog Box - Period Tab](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340705.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

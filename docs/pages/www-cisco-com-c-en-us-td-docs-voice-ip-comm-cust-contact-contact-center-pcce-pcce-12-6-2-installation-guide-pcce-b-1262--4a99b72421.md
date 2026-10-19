@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-installation-guide-pcce-b-1262--4a99b72421
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/installation/guide/pcce_b_1262_cisco_pcce_installationandupgrade_guide/pcce_b_cisco_pcce_installationandupgrade_guide_12_5_2_appendix_01001.html
-retrieved_at: 2026-08-21T04:51:05.587732+00:00
+retrieved_at: 2026-10-19T10:38:55.764795+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 12.6(2)
@@ -624,3 +624,7 @@ Resolution
 | Mixed-mode clients cannot connect | Confirm that Enable secure-only connection is not enabled. Mixed mode must be used until all components are upgraded. |
 | Dialer cannot connect to Campaign Manager | Ensure that ICM12.6.2_ES103 is installed on the Logger and Logger Security. From Logger Security, enable secure connection between Campaign Manager and
                                        Dialer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
