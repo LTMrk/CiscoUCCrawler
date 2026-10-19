@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-0ceaa43e62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501_preface.html
-retrieved_at: 2026-08-21T12:09:58.961878+00:00
+retrieved_at: 2026-10-19T10:48:46.662734+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -183,3 +183,7 @@ Packaged CCE preceded or followed by an em dash (—) indicates that the content
 | < > | Angle brackets are used to indicate the following: For arguments where the context does not allow italic, such as ASCII output. A character string that the user enters but that does not appear on the window such as a password. |
 | —Unified CCE or Unified CCE— or Unified CCE only— | Unified CCE preceded or followed by an em dash (—) indicates that the content is specific to Unified CCE. |
 | —Packaged CCE or Packaged CCE— or Packaged CCE only— | Packaged CCE preceded or followed by an em dash (—) indicates that the content is specific to Packaged CCE. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

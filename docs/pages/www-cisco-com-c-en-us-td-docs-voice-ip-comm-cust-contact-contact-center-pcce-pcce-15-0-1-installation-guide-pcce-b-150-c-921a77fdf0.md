@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-921a77fdf0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/packaged_CCE_2000_agents_installation.html
-retrieved_at: 2026-08-21T12:09:00.876586+00:00
+retrieved_at: 2026-10-19T10:46:48.961845+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -15,6 +15,13 @@ Chapter: Packaged CCE 2000 Agents Installation
 ## Chapter: Packaged CCE 2000 Agents Installation
 
 # Packaged CCE 2000 Agents Installation
+
+## Fresh Install on Nutanix
+
+Fresh installation on Nutanix is supported for all Windows-based and VOS-based CCE components. Use the appropriate Nutanix
+                           OVA. For fresh-install procedures, see the Installation chapter in the applicable guide:
+
+Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
 
 ## Installation Tasks
 
@@ -465,8 +472,7 @@ See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications
 
 Install VMware Tools
 
-#### Create VM for
-                              	 Cisco Unified CVP Reporting Server
+#### Create VM for Cisco Unified CVP Reporting Server
 
 Follow this sequence of tasks to create a virtual machine for the Unified CVP Reporting Server. The Unified CVP Reporting
                                  Server is an optional component.
@@ -475,16 +481,13 @@ Task
 
 Using the Packaged-CCE-CVP.ova template, create a virtual machine. For more information, see Create a Virtual Machine from the OVA .
 
-The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the
-                                                         									annotation name used should be generic. By default, the VM
-                                                         									annotation is named as CVP VM template. After the VM is
-                                                         									deployed, you must change the name. Do not use the terms Cisco,
-                                                         									Finesse, CUIC, and CVP in the name because they are reserved for
-                                                         									the core components. For example, instead of
-                                                         									CVP-VM-Reporting-Server.ova, use
-                                                         									SelfService-Reporting-Server.ova. If any of the core component
-                                                         									names are used, the CVP Reporting Server fails the VM
-                                                         									validation.
+The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the annotation name used should be generic.
+                                                         By default, the VM annotation is named as CVP VM template. After the VM is deployed, you must change the name. Do not use
+                                                         the terms Cisco, Finesse, CUIC, and CVP in the name because they are reserved for the core components. For example, instead
+                                                         of CVP-VM-Reporting-Server.ova, use SelfService-Reporting-Server.ova.
+
+Starting with Release 15.0(1) SU2/ES202607 and later Engineering Specials, VM-level validation is not performed for Packaged
+                                                         CCE 2000 Agents deployments. Therefore, the VM-validation failure condition described for earlier releases does not apply.
 
 Select Cisco Unified CVP Reporting Server from the drop-down list.
 
@@ -685,35 +688,21 @@ See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications
 
 | Sequence | Task |
 |---|---|
-| 1 | Using the Packaged-CCE-CVP.ova template, create a virtual machine. For more information, see Create a Virtual Machine from the OVA . Note The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the
-                                                         									annotation name used should be generic. By default, the VM
-                                                         									annotation is named as CVP VM template. After the VM is
-                                                         									deployed, you must change the name. Do not use the terms Cisco,
-                                                         									Finesse, CUIC, and CVP in the name because they are reserved for
-                                                         									the core components. For example, instead of
-                                                         									CVP-VM-Reporting-Server.ova, use
-                                                         									SelfService-Reporting-Server.ova. If any of the core component
-                                                         									names are used, the CVP Reporting Server fails the VM
-                                                         									validation. Select Cisco Unified CVP Reporting Server from the drop-down list. | Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the
-                                                         									annotation name used should be generic. By default, the VM
-                                                         									annotation is named as CVP VM template. After the VM is
-                                                         									deployed, you must change the name. Do not use the terms Cisco,
-                                                         									Finesse, CUIC, and CVP in the name because they are reserved for
-                                                         									the core components. For example, instead of
-                                                         									CVP-VM-Reporting-Server.ova, use
-                                                         									SelfService-Reporting-Server.ova. If any of the core component
-                                                         									names are used, the CVP Reporting Server fails the VM
-                                                         									validation. |
-| Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the
-                                                         									annotation name used should be generic. By default, the VM
-                                                         									annotation is named as CVP VM template. After the VM is
-                                                         									deployed, you must change the name. Do not use the terms Cisco,
-                                                         									Finesse, CUIC, and CVP in the name because they are reserved for
-                                                         									the core components. For example, instead of
-                                                         									CVP-VM-Reporting-Server.ova, use
-                                                         									SelfService-Reporting-Server.ova. If any of the core component
-                                                         									names are used, the CVP Reporting Server fails the VM
-                                                         									validation. |
+| 1 | Using the Packaged-CCE-CVP.ova template, create a virtual machine. For more information, see Create a Virtual Machine from the OVA . Note The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the annotation name used should be generic.
+                                                         By default, the VM annotation is named as CVP VM template. After the VM is deployed, you must change the name. Do not use
+                                                         the terms Cisco, Finesse, CUIC, and CVP in the name because they are reserved for the core components. For example, instead
+                                                         of CVP-VM-Reporting-Server.ova, use SelfService-Reporting-Server.ova. Note Starting with Release 15.0(1) SU2/ES202607 and later Engineering Specials, VM-level validation is not performed for Packaged
+                                                         CCE 2000 Agents deployments. Therefore, the VM-validation failure condition described for earlier releases does not apply. Select Cisco Unified CVP Reporting Server from the drop-down list. | Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the annotation name used should be generic.
+                                                         By default, the VM annotation is named as CVP VM template. After the VM is deployed, you must change the name. Do not use
+                                                         the terms Cisco, Finesse, CUIC, and CVP in the name because they are reserved for the core components. For example, instead
+                                                         of CVP-VM-Reporting-Server.ova, use SelfService-Reporting-Server.ova. | Note | Starting with Release 15.0(1) SU2/ES202607 and later Engineering Specials, VM-level validation is not performed for Packaged
+                                                         CCE 2000 Agents deployments. Therefore, the VM-validation failure condition described for earlier releases does not apply. |
+| Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the annotation name used should be generic.
+                                                         By default, the VM annotation is named as CVP VM template. After the VM is deployed, you must change the name. Do not use
+                                                         the terms Cisco, Finesse, CUIC, and CVP in the name because they are reserved for the core components. For example, instead
+                                                         of CVP-VM-Reporting-Server.ova, use SelfService-Reporting-Server.ova. |
+| Note | Starting with Release 15.0(1) SU2/ES202607 and later Engineering Specials, VM-level validation is not performed for Packaged
+                                                         CCE 2000 Agents deployments. Therefore, the VM-validation failure condition described for earlier releases does not apply. |
 | 2 | Install Microsoft Windows Server NTP configuration is required if this machine is not in the same domain as the Unified CCE Roggers, AWs, and PGs. See NTP and Time Synchronization . |
 | 3 | Install VMware Tools |
 | 4 | Configure Network Adapters for Cisco Unified CVP |
@@ -723,16 +712,14 @@ See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications
 | 8 | Install Cisco Unified CVP Reporting Server |
 | 9 | Add Machine to Domain |
 
-| Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the
-                                                         									annotation name used should be generic. By default, the VM
-                                                         									annotation is named as CVP VM template. After the VM is
-                                                         									deployed, you must change the name. Do not use the terms Cisco,
-                                                         									Finesse, CUIC, and CVP in the name because they are reserved for
-                                                         									the core components. For example, instead of
-                                                         									CVP-VM-Reporting-Server.ova, use
-                                                         									SelfService-Reporting-Server.ova. If any of the core component
-                                                         									names are used, the CVP Reporting Server fails the VM
-                                                         									validation. |
+| Note | The CVP Reporting Server can use the CVP Call Server’s OVA template. However, the annotation name used should be generic.
+                                                         By default, the VM annotation is named as CVP VM template. After the VM is deployed, you must change the name. Do not use
+                                                         the terms Cisco, Finesse, CUIC, and CVP in the name because they are reserved for the core components. For example, instead
+                                                         of CVP-VM-Reporting-Server.ova, use SelfService-Reporting-Server.ova. |
+|---|---|
+
+| Note | Starting with Release 15.0(1) SU2/ES202607 and later Engineering Specials, VM-level validation is not performed for Packaged
+                                                         CCE 2000 Agents deployments. Therefore, the VM-validation failure condition described for earlier releases does not apply. |
 |---|---|
 
 | Sequence | Task |
@@ -745,3 +732,7 @@ See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications
 | 1 | Using Packaged-CCE-cloudconnect.ova, Create a Virtual Machine from the OVA . |
 | 2 | Set Cloud Connect Secondary Node. See Set Cloud Connect Secondary Node . |
 | 3 | Install the Cloud Connect Subscriber. See Install Subscribers/Secondary Nodes of VOS-Based Contact Center Applications . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

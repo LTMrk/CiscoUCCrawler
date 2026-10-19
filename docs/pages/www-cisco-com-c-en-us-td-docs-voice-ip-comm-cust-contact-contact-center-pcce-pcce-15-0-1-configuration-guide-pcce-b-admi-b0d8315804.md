@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-b0d8315804
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_post-installation-configuration_15_0.html
-retrieved_at: 2026-08-25T01:21:33.774715+00:00
+retrieved_at: 2026-10-19T10:44:42.576414+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -727,9 +727,9 @@ Disables the Reasons gadget in Finesse Administration.
 
 ### System Inventory for Packaged CCE 2000 Agents Deployment
 
-After the ES 15.0(1) SU2/ES202607 patch is applied, for Nutanix-based and VMware-based deployments, the system does not support
-                                             auto-discovery. Inventory management for these environments is handled exclusively through the CSV import process (For more
-                                             information, see Initialize the Packaged CCE 2000 Agents Deployment Type ). Periodic inventory validation is turned off for both VMware and Nutanix platforms.
+Starting with Release 15.0(1) SU2/ES202607, automatic discovery and periodic VM-level validation are not supported for Nutanix-based
+                                             or VMware-based Packaged CCE 2000 Agents deployments. Manage the inventory for these deployments exclusively through the CSV
+                                             import process. For more information, see Initialize the Packaged CCE 2000 Agents Deployment Type .
 
 The System Inventory is a visual display of the machines in your deployment, including: Virtual Machine Hosts (ESXi servers),
                                  Virtual Machines (VMs) on Side A, VMs on Side B, External Machines, Gateways, and Cisco Virtualized Voice Browsers (VVB).
@@ -933,9 +933,9 @@ A VVB can be set as a Principal VVB provided its Sync Status is "In Sync" and it
 
 #### Monitor Server Status Rules for Packaged CCE 2000 Agents Deployment
 
-The System Health and VM server status categories apply only to VMware-based Packaged CCE 2000 Agents deployments before CCE15.0(1) SU2/ES202607 is
-                                                installed. After the ES is installed, these VMware host and VM validation rules do not apply to VMware-based or Nutanix-based
-                                                Packaged CCE 2000 Agent deployments.
+The System Health and VM server status categories apply only to VMware-based Packaged CCE 2000 Agents deployments before Release 15.0(1) SU2/ES202607
+                                                is installed. After the ES is installed, these VMware host and VM validation rules do not apply to VMware-based or Nutanix-based
+                                                Packaged CCE 2000 Agents deployments.
 
 In Packaged CCE 2000 Agents deployment, the Inventory displays the total number of alerts for machines with validation rules.
                                     Click the alert count to open the Server Status popup window, which lists all of the rules for that machine and indicates which have warnings and errors. Rules are grouped
@@ -943,12 +943,10 @@ In Packaged CCE 2000 Agents deployment, the Inventory displays the total number 
 
 Configuration
 
-Rules
-                                                					for installation and configuration of a component.
+Rules for installation and configuration of a component.
 
-These
-                                                					rules identify problems with mismatched configuration between components,
-                                                					missing services, and incorrectly configured services.
+These rules identify problems with mismatched configuration between components, missing services, and incorrectly configured
+                                                services.
 
 Unified CCE Rogger: The trace level must be set to normal to ensure performance.
 
@@ -959,12 +957,9 @@ Cloud Connect: The Cloud Connect Publisher must be configured with the supported
 
 Operations
 
-Rules
-                                                					for the runtime status of a component.
+Rules for the runtime status of a component.
 
-These
-                                                					rules identify services and processes that cannot be reached, are not running,
-                                                					or are not in the expected state.
+These rules identify services and processes that cannot be reached, are not running, or are not in the expected state.
 
 Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs.
 
@@ -972,12 +967,11 @@ Cloud Connect: Type is either Publisher or Subscriber.
 
 System Health
 
-Metrics to monitor the CPU, memory, and disk usage of a component's Virtual Machine (VM) as reported by ESXi over the last
-                                                10 minutes. The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts, these
-                                                metrics also include datastore performance information.
+Metrics to monitor the CPU and memory usage of a component's Virtual Machine (VM) as reported by ESXi over the last 10 minutes.
+                                                The memory and CPU usage may differ slightly from system tools reported by the VM itself.
 
 For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
-                                                CPU oversubscription, memory reservation and datastore utilization information.
+                                                CPU oversubscription, and memory reservation.
 
 All: Memory usage as reported by ESXi - 17%
 
@@ -988,8 +982,6 @@ Maximum CPU Reservation - 65%
 Maximum CPU Oversubscription - 200%
 
 Maximum Memory Reservation - 80%
-
-Maximum Storage Usage per Datastore - 80%
 
 VM
 
@@ -1014,11 +1006,11 @@ Side A Unified CCE AW-HDS-DDS: Application Instance: Up to 12 Application Instan
 
 #### VM Validation
 
-This section applies only to VMware-based Packaged CCE 2000 Agents deployments before release 15.0(1) SU2/ES202607 is installed.
+This section applies only to VMware-based Packaged CCE 2000 Agents deployments before Release 15.0(1) SU2/ES202607 is installed.
                                              After the ES is installed, VM validation is not supported for VMware-based or Nutanix-based Packaged CCE 2000 Agents deployments.
 
-The validation for the Packaged CCE: CCE-PAC-M1 deployment type makes the following checks to ensure hardware compliance and
-                                 conformance with the Cisco-provided OVA files.
+The validation for the Packaged CCE: 2000 Agents deployment type makes the following checks to ensure hardware compliance
+                                    and conformance with the Cisco-provided OVA files.
 
 For Hosts:
 
@@ -1031,8 +1023,6 @@ ESXi version
 Minimum number of CPU cores
 
 Minimum memory
-
-Data store size
 
 For VMs:
 
@@ -1047,10 +1037,6 @@ VM is powered on
 CPU reservation
 
 Exact memory
-
-Exact disk size
-
-Exact number of disks
 
 VMware tools
 
@@ -1523,15 +1509,13 @@ Cycle VRU PG.
 The following table lists components from which self-signed certificates are generated and components into which self-signed
                                  certificates are imported.
 
-Import Self-signed Certificates to Target Server
-
-Generate Self-signed Certificates from Source Component Server
+Import Self-signed Certificates to Target (Client) Machine
 
 Links
 
-AW Machines
-
 Unified CCE Components (Router, Logger 1 , Rogger 2 , PGs, AWs, and HDS
+
+AW Machines
 
 Import Unified CCE Component Certificates
 
@@ -1539,55 +1523,39 @@ Import Diagnostic Framework Portico Certificate into AWMachines
 
 Customer Voice Portal (CVP) Call Server/CVP Reporting Server
 
-Email and Chat (ECE)
-
 Cisco Finesse Primary and Secondary
-
-Cisco Unified Communications Manager (CUCM) Publisher and Subscriber
 
 Virtualized Voice Browser (VVB)
 
 Cisco Unified Intelligence Center (CUIC) Publisher and Subscriber
 
-Cisco Identity Service (IdS) Publisher and Subscriber
-
 Cloud Connect Publisher and Subscriber
 
-Customer Collaboration Platform
+Cisco Identity Service (IdS) Publisher and Subscriber
 
 Live Data Publisher and Subscriber
 
-Finesse
+Cisco Unified Communications Manager (CUCM) Publisher and Subscriber
+
+Customer Collaboration Platform
+
+Email and Chat (ECE)
 
 AWDB
 
-Import and Export SSC of Finesse to Administration and Data Server
+Finesse
 
-Import and Export SSC of Administration and Data Server to Finesse
+TLS support and certificate management.
 
-PG
+For more information about the secure connection between AWDB and Finesse, see the Connect Clients to SQL Server Over TLS section in Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html .
 
-Import and Export Self-Signed Certificate of PG to Finesse
+Upload the Self-signed certificate of AWDB to Cisco Finesse server
 
-Import and Export self-signed certificate of Cisco Finesse to PG
-
-Cloud Connect
-
-Export Cloud Connect Certificate
-
-Import Cloud Connect Certificate
+For more information about Self-signed certificate for AWDB, see the Certificate for Administration and Data Server chapter in Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html .
 
 CUCM Publisher
 
-Logger
-
-AW
-
-Import Unified CCE Component Certificates
-
-Rogger
-
-CVP
+PG
 
 ##### Generate Certificate on CVP Call Server
 
@@ -7592,9 +7560,9 @@ Enter
                                           			Intelligence Center | Updates the historical and real-time data sources. Disables the AW database synchronization |
 | Cisco Finesse | Configures the CTI Server settings. Configures the connection to the AW database. Disables the Reasons gadget in Finesse Administration. |
 
-| Note | After the ES 15.0(1) SU2/ES202607 patch is applied, for Nutanix-based and VMware-based deployments, the system does not support
-                                             auto-discovery. Inventory management for these environments is handled exclusively through the CSV import process (For more
-                                             information, see Initialize the Packaged CCE 2000 Agents Deployment Type ). Periodic inventory validation is turned off for both VMware and Nutanix platforms. |
+| Note | Starting with Release 15.0(1) SU2/ES202607, automatic discovery and periodic VM-level validation are not supported for Nutanix-based
+                                             or VMware-based Packaged CCE 2000 Agents deployments. Manage the inventory for these deployments exclusively through the CSV
+                                             import process. For more information, see Initialize the Packaged CCE 2000 Agents Deployment Type . |
 |---|---|
 
 | Item | Notes | Actions |
@@ -7688,26 +7656,20 @@ Enter
                                                                To set a VVB as a Principal VVB, see Edit External Machines . |
 |---|---|
 
-| Note | The System Health and VM server status categories apply only to VMware-based Packaged CCE 2000 Agents deployments before CCE15.0(1) SU2/ES202607 is
-                                                installed. After the ES is installed, these VMware host and VM validation rules do not apply to VMware-based or Nutanix-based
-                                                Packaged CCE 2000 Agent deployments. |
+| Note | The System Health and VM server status categories apply only to VMware-based Packaged CCE 2000 Agents deployments before Release 15.0(1) SU2/ES202607
+                                                is installed. After the ES is installed, these VMware host and VM validation rules do not apply to VMware-based or Nutanix-based
+                                                Packaged CCE 2000 Agents deployments. |
 |---|---|
 
 | Server Status Category | Description | Example Rules |
 |---|---|---|
-| Configuration | Rules
-                                                					for installation and configuration of a component. These
-                                                					rules identify problems with mismatched configuration between components,
-                                                					missing services, and incorrectly configured services. | Unified CCE Rogger: The trace level must be set to normal to ensure performance. Unified CVP: The names of the SIP Server Groups on CVP containing Communications Manager addresses must match the Communications Manager
+| Configuration | Rules for installation and configuration of a component. These rules identify problems with mismatched configuration between components, missing services, and incorrectly configured
+                                                services. | Unified CCE Rogger: The trace level must be set to normal to ensure performance. Unified CVP: The names of the SIP Server Groups on CVP containing Communications Manager addresses must match the Communications Manager
                                                 Cluster Fully Qualified Domain Name. Cloud Connect: The Cloud Connect Publisher must be configured with the supported cloud services. |
-| Operations | Rules
-                                                					for the runtime status of a component. These
-                                                					rules identify services and processes that cannot be reached, are not running,
-                                                					or are not in the expected state. | Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs. Cloud Connect: Type is either Publisher or Subscriber. |
-| System Health | Metrics to monitor the CPU, memory, and disk usage of a component's Virtual Machine (VM) as reported by ESXi over the last
-                                                10 minutes. The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts, these
-                                                metrics also include datastore performance information. For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
-                                                CPU oversubscription, memory reservation and datastore utilization information. | All: Memory usage as reported by ESXi - 17% For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration: Maximum CPU Reservation - 65% Maximum CPU Oversubscription - 200% Maximum Memory Reservation - 80% Maximum Storage Usage per Datastore - 80% |
+| Operations | Rules for the runtime status of a component. These rules identify services and processes that cannot be reached, are not running, or are not in the expected state. | Unified CCE Rogger: The central controller agent process (ccagent.exe) must be in service for both PGs. Cloud Connect: Type is either Publisher or Subscriber. |
+| System Health | Metrics to monitor the CPU and memory usage of a component's Virtual Machine (VM) as reported by ESXi over the last 10 minutes.
+                                                The memory and CPU usage may differ slightly from system tools reported by the VM itself. For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration, these metrics include CPU reservation,
+                                                CPU oversubscription, and memory reservation. | All: Memory usage as reported by ESXi - 17% For VM Hosts under M5 Tested Reference Configuration / Specification Based Configuration: Maximum CPU Reservation - 65% Maximum CPU Oversubscription - 200% Maximum Memory Reservation - 80% |
 | VM | VM requirements for a component. | All: VMware Tools must be up to date |
 | System Validation | Rules for Unified CCE database and configuration settings. These rules identify whether the configuration of objects in your deployment match the requirements and limits for Packaged
                                                 Contact Center Enterprise. Note The System Validation category is available only for the Side A Unified CCE AW-HDS-DDS. | Note | The System Validation category is available only for the Side A Unified CCE AW-HDS-DDS. | Side A Unified CCE AW-HDS-DDS: Agent Desk Settings: Ring No Answer Times must not be set. Side A Unified CCE AW-HDS-DDS: Application Gateway Side A Unified CCE AW-HDS-DDS: Application Instance: Up to 12 Application Instances can be defined. |
@@ -7716,7 +7678,7 @@ Enter
 | Note | The System Validation category is available only for the Side A Unified CCE AW-HDS-DDS. |
 |---|---|
 
-| Note | This section applies only to VMware-based Packaged CCE 2000 Agents deployments before release 15.0(1) SU2/ES202607 is installed.
+| Note | This section applies only to VMware-based Packaged CCE 2000 Agents deployments before Release 15.0(1) SU2/ES202607 is installed.
                                              After the ES is installed, VM validation is not supported for VMware-based or Nutanix-based Packaged CCE 2000 Agents deployments. |
 |---|---|
 
@@ -7908,26 +7870,21 @@ An optional company name []:cisco The client certificate and key are generated a
                                           (right click over the Command Prompt and select Run as administrator ). |
 |---|---|
 
-| Import Self-signed Certificates to Target Server | Generate Self-signed Certificates from Source Component Server | Links |
+| Generate Self-signed Certificates for the Source Machine | Import Self-signed Certificates to Target (Client) Machine | Links |
 |---|---|---|
-| AW Machines | Unified CCE Components (Router, Logger 1 , Rogger 2 , PGs, AWs, and HDS | Import Unified CCE Component Certificates Import Diagnostic Framework Portico Certificate into AWMachines |
+| Unified CCE Components (Router, Logger 1 , Rogger 2 , PGs, AWs, and HDS | AW Machines | Import Unified CCE Component Certificates Import Diagnostic Framework Portico Certificate into AWMachines |
 | Customer Voice Portal (CVP) Call Server/CVP Reporting Server | Generate Self-signed WSM Certificate for CVP |
-| Email and Chat (ECE) | Import ECE Web Server Certificate into AW Machines |
 | Cisco Finesse Primary and Secondary | Import VOS Components Certificate |
-| Cisco Unified Communications Manager (CUCM) Publisher and Subscriber |
 | Virtualized Voice Browser (VVB) |
 | Cisco Unified Intelligence Center (CUIC) Publisher and Subscriber |
-| Cisco Identity Service (IdS) Publisher and Subscriber |
 | Cloud Connect Publisher and Subscriber |
-| Customer Collaboration Platform |
+| Cisco Identity Service (IdS) Publisher and Subscriber |
 | Live Data Publisher and Subscriber |
-| Finesse | AWDB | Import and Export SSC of Finesse to Administration and Data Server Import and Export SSC of Administration and Data Server to Finesse |
-| PG | Import and Export Self-Signed Certificate of PG to Finesse Import and Export self-signed certificate of Cisco Finesse to PG |
-| Cloud Connect | Export Cloud Connect Certificate Import Cloud Connect Certificate |
-| PG | CUCM Publisher | Import VOS Components Certificate |
-| Logger | AW | Import Unified CCE Component Certificates |
-| Rogger |
-| CVP | Import AW Certificate into Cisco Unified CVP Servers |
+| Cisco Unified Communications Manager (CUCM) Publisher and Subscriber |
+| Customer Collaboration Platform |
+| Email and Chat (ECE) | Import ECE Web Server Certificate into AW Machines |
+| AWDB | Finesse | TLS support and certificate management. For more information about the secure connection between AWDB and Finesse, see the Connect Clients to SQL Server Over TLS section in Security Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html . Upload the Self-signed certificate of AWDB to Cisco Finesse server For more information about Self-signed certificate for AWDB, see the Certificate for Administration and Data Server chapter in Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html . |
+| CUCM Publisher | PG | Import VOS Components Certificate |
 
 | Step 1 | http://acrsrv-app-prd-01:8080/ Export the Call Server certificate by
                                                 running. %CVP_HOME%\jre\bin\keytool.exe -export -v -keystore
@@ -10328,3 +10285,13 @@ nonVolatile |
 
 | Note | Every time the Active Directory credentials are updated, the credentials configured here must be updated as well. |
 |---|---|
+
+## Figuras
+
+![Figure 1. NAT64 Configuration](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393312.eps/_jcr_content/renditions/393312.jpg)
+
+![Figure 2. IPv6 Translation of IPv4 Address](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/404001-405000/404537.tif/_jcr_content/renditions/404537.jpg)
+
+![Figure 3. Example ICM Database Look Up](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/290001-300000/292001-293000/292516.tif/_jcr_content/renditions/292516.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-418094f63e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_010.html
-retrieved_at: 2026-08-21T21:01:31.524513+00:00
+retrieved_at: 2026-10-19T10:49:39.345930+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -155,3 +155,7 @@ Cisco DX80 also includes two microphone array beam forming. If the user moves ou
 | 3 | 3.5-mm stereo line in/out jack | 8 | USB 2.0 port |
 | 4 | Power port | 9 | HDMI type A port |
 | 5 | Network port |  |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

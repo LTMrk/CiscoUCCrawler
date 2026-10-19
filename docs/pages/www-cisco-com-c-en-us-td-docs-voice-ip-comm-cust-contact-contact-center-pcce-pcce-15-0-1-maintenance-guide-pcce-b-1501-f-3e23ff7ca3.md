@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-3e23ff7ca3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501_task-routing.html
-retrieved_at: 2026-08-21T12:11:09.621573+00:00
+retrieved_at: 2026-10-19T10:48:55.671090+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -1419,3 +1419,9 @@ Skill Group — Live Data
 |---|---|
 | Step 2 | Read the sample application's readme.txt file to complete the prerequisites and use the sample application. For more information about uploading third-party gadgets to the Finesse server, see the "Third Party Gadgets" chapter in the Cisco Finesse Web Services Developer Guide at https://developer.cisco.com/site/finesse/ . For more information about adding third-party gadgets to the Finesse desktop, see the "Manage Third-Party Gadgets" chapter
                                              in the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/tsd-products-support-series-home.html . |
+
+## Figuras
+
+![Figure 1. Task Routing for Third-party Multichannel Applications Solution Components](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510636.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

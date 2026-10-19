@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-818c5ad106
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/ucce_m_virtual_agent_voice-nuancemix-1262.html
-retrieved_at: 2026-08-21T12:29:22.144062+00:00
+retrieved_at: 2026-10-19T10:43:38.985058+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -218,3 +218,7 @@ VirtualAgentVoice chapter in the CVP Element Specification Guide at https://www.
 | VAV configuration in Packaged CCE Deployment | Virtual Agent–Voice section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . |
 | Proxy settings for VXML Server | VXML Server Configuration > Proxy Settings in VXML Server for Virtual Agent–Voice section in CVP Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-installation-and-configuration-guides-list.html . |
 | Configuration of Call Studio elements for VAV | VirtualAgentVoice chapter in the CVP Element Specification Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/products-programming-reference-guides-list.html . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

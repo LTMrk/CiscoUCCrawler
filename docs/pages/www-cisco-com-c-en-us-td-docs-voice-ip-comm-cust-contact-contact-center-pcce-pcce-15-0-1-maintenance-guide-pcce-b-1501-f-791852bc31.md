@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-791852bc31
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/ucce_m_1501_whisper-announcement.html
-retrieved_at: 2026-08-21T12:11:26.809354+00:00
+retrieved_at: 2026-10-19T10:49:16.937954+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -418,3 +418,7 @@ Usually, agents that use Whisper Announcement handle different types of calls: f
                                                 You must create these maps manually or change these references to point to existing Network VRU scripts, skill groups, and
                                                 Precision Queues in your system. |
 | Step 3 | Repeat steps 2 and 3 for the remaining script. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

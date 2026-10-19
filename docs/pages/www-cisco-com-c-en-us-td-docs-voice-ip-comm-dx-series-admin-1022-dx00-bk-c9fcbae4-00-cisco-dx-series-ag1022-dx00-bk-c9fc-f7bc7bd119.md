@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-f7bc7bd119
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_01011.html
-retrieved_at: 2026-08-21T21:02:14.643765+00:00
+retrieved_at: 2026-10-19T10:50:05.777827+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -676,3 +676,7 @@ release the * key. The device uses the alternate image to boot. |
 
 | Press the Vol Down button and Power/Lock button for three seconds. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

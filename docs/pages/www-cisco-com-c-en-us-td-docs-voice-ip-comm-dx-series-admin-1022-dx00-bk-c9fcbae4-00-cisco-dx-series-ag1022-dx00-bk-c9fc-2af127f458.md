@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-2af127f458
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_011.html
-retrieved_at: 2026-08-21T21:01:36.167400+00:00
+retrieved_at: 2026-10-19T10:50:10.200351+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -1511,3 +1511,7 @@ Therefore, Cisco recommends that you disable SIP CAC. |
 | PEAP-GTC | WPA or WPA2 with optional CCKM | TKIP or AES | 802.1x EAP > PEAP > GTC |
 | EAP-TLS | WPA or WPA2 with optional CCKM | TKIP or AES | 802.1x EAP > TLS |
 | WPA/WPA2-PSK | WPA-PSK or WPA2-PSK | TKIP or AES | WPA/WPA2 PSK |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1024-dx00-bk-c12f3ff5-00-cisco-dx-series-ag1024-dx00-bk-c12f-bc3ee1b8ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_chapter_01001.html
-retrieved_at: 2026-08-21T04:58:26.016109+00:00
+retrieved_at: 2026-10-19T10:51:00.490357+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(4)
@@ -1979,3 +1979,7 @@ This feature allows the user to reset the PIN/password that
 | Step 7 | In the Permissions Information window, choose Standard CCM End Users . |
 | Step 8 | Click Save and Apply Config . After the device reregisters,
 			 the user is configured to the device. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

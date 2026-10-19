@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-e4663b9448
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/rcct_m_agent-call-transcription_fg.html
-retrieved_at: 2026-08-21T12:28:33.868321+00:00
+retrieved_at: 2026-10-19T10:43:07.681755+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -401,3 +401,7 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | userName | Username or Agent ID | Username of the agent for which you want to enable or disable the Contact Center AI Features . If no agent is found with the given username, the Contact Center AI Features association fails. |
 | agentServices | Yes (to enable Contact Center AI Features ) | The type of Contact Center AI Features to be associated with the agent. Supported values are AgentAnswers , VAV Transcript, and Transcript. To associate more than one services, seperate the values using semicolon (;). If the value is updated, any existing enabled service gets overwritten. If the value is left empty, no service gets associated
                                              with the agent. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

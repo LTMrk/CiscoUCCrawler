@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-1d7f2e5040
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_0111.html
-retrieved_at: 2026-08-21T21:01:57.270214+00:00
+retrieved_at: 2026-10-19T10:50:27.014604+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -995,3 +995,7 @@ Figure 6. Phone Bracket with Key Hook
 |---|---|---|---|
 | 2 | Phone bracket | 5 | AC adapter port |
 | 3 | Network port | 6 | Power cable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

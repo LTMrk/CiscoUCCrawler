@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-ff04feaa8d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/preface_m_150.html
-retrieved_at: 2026-08-21T16:49:19.440440+00:00
+retrieved_at: 2026-10-19T10:45:37.563609+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -25,6 +25,16 @@ Change
 See
 
 Date
+
+Added a row pertaining to secure connections between AWDB and Finesse to the CA and Self-Signed Certificates table.
+
+Chapter: Security Certificates
+
+Topic: CA Certificates
+
+Topic: Self-signed Certificates
+
+September 2026
 
 Added 'Configuring Custom SQL Server Port During Packaged CCE 2000 Agents Fresh Install'
 
@@ -266,6 +276,7 @@ A
 
 | Change | See | Date |
 |---|---|---|
+| Added a row pertaining to secure connections between AWDB and Finesse to the CA and Self-Signed Certificates table. | Chapter: Security Certificates Topic: CA Certificates Topic: Self-signed Certificates | September 2026 |
 | Added 'Configuring Custom SQL Server Port During Packaged CCE 2000 Agents Fresh Install' | Chapter: Custom SQL Server Port Topic: Configuring Custom SQL Server Port During Packaged CCE 2000 Agents Fresh Install | July 2026 |
 | Added 'Custom SQL Server' | Chapter: Custom SQL Server Port | November 2025 |
 | Added new topic "Modify Logger" | Post Installation Configuration > Modify Logger | April 2025 |
@@ -313,3 +324,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

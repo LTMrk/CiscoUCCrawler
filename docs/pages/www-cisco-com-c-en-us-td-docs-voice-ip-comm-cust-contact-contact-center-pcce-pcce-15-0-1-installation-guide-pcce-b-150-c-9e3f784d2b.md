@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-9e3f784d2b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/security_considerations.html
-retrieved_at: 2026-08-21T12:09:43.707835+00:00
+retrieved_at: 2026-10-19T10:47:21.933952+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -617,3 +617,7 @@ Resolution
 | Mixed-mode clients cannot connect | Confirm that Enable secure-only connection is not enabled. Mixed mode must be used until all components are upgraded. |
 | Dialer cannot connect to Campaign Manager | Ensure that ICM12.6.2_ES103 is installed on the Logger and Logger Security. From Logger Security, enable secure connection between Campaign Manager and
                                        Dialer. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-772ed35896
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_01110.html
-retrieved_at: 2026-08-21T21:01:48.027543+00:00
+retrieved_at: 2026-10-19T10:50:31.016819+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -409,3 +409,7 @@ extension> . |
 | Step 2 | Choose Add New to create a new application dial rule, or choose an existing application dial rule to edit it. |
 | Step 3 | Fill in the following fields: Name This field comprises a unique name for the dial rule that can contain up to 20 alphanumeric characters and any combination of spaces, periods (.), hyphens (-), and underscore characters (_). Description This field comprises a brief description that you enter for the dial rule. Number Begins With This field comprises the initial digits of the directory numbers to which you want to apply this application dial rule. Number of Digits This required field comprises the initial digits of the directory numbers to which you want to apply this application dial rule. Total Digits to be Removed This required field comprises the number of digits that you want Cisco Unified Communications Manager to remove from directory numbers that apply to this dial rule. Prefix With Pattern This required field comprises the pattern to prepend to directory numbers that apply to this application dial rule. Application Dial Rule Priority This field displays when you enter the Prefix With Pattern information. The field allows you to set the priority order of the application dial rules. |
 | Step 4 | Restart Cisco Unified Communications Manager . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

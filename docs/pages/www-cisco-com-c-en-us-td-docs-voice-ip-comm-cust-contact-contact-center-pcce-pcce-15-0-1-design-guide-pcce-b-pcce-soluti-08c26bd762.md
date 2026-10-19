@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-08c26bd762
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/rcct_m_sizing-and-operating-conditions_15_0.html
-retrieved_at: 2026-08-21T12:14:22.994715+00:00
+retrieved_at: 2026-10-19T10:46:18.157656+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -1900,6 +1900,10 @@ Cisco Contact Center Enterprise solution components, including Cisco Unified Com
 vMotion for Contact Center Enterprise solution components is not supported across HyperFlex clusters, or in HyperFlex Stretched
                                           Cluster deployments.
 
+### Customers Also Viewed
+
+- Implement CA-Signed Certificates in a CCE 12.6 Solution
+
 | Note | We use queue as a common term for skill groups and precision queues. |
 |---|---|
 
@@ -2181,3 +2185,13 @@ vMotion for Contact Center Enterprise solution components is not supported acros
 | Note | vMotion for Contact Center Enterprise solution components is not supported across HyperFlex clusters, or in HyperFlex Stretched
                                           Cluster deployments. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Inbound Call Timeline](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253357.eps/_jcr_content/renditions/253357.jpg)
+
+![Figure 2. Packaged CCE Deployment with Only IPv6 Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393028.eps/_jcr_content/renditions/393028.jpg)
+
+![Figure 3. Packaged CCE Deployment with Both IPv4 and IPv6 Agents](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393026.eps/_jcr_content/renditions/393026.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

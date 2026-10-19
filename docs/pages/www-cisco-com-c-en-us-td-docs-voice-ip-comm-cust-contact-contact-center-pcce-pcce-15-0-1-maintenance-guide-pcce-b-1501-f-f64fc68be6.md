@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-f64fc68be6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501_single-sign-on.html
-retrieved_at: 2026-08-21T12:11:05.421468+00:00
+retrieved_at: 2026-10-19T10:48:51.225659+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -931,6 +931,36 @@ The component status table displays the status of setting the SSO mode on each c
 
 If the SSO mode fails to be set on a component, correct the error, and then select the mode again.
 
+## Hostname or IP Address Change
+
+If you change the Hostname or IP Address of the Cisco IdS server, then perform the following steps:
+
+### SUMMARY STEPS
+
+- Re-generate the SAML certificate.
+
+- Re-establish trust relationship between IdP and IdS.
+
+- If the components are registered earlier, then:
+
+### DETAILED STEPS
+
+Step 1
+
+Re-generate the SAML certificate.
+
+Step 2
+
+Re-establish trust relationship between IdP and IdS.
+
+Step 3
+
+If the components are registered earlier, then:
+
+Re-register all the SSO components.
+
+Perform the SSO Test to check if all the SSO components are registered. Verify that the test is successful for each component.
+
 ## Single Sign-On and the Agent Tool
 
 When the global SSO-enabled setting is Hybrid, you can use the Unified CCE Administration Agent Tool to enable  agents individually
@@ -1124,6 +1154,10 @@ The new bulk job appears in the list of bulk jobs. Optionally, click the bulk jo
 
 After all of the agents and supervisors in your deployment are migrated to SSO accounts, you can enable SSO globally in your
                               deployment.
+
+### Customers Also Viewed
+
+- Implement CA-Signed Certificates in a CCE 12.6 Solution
 
 | Note | Before enabling SSO in Unified CCE, sign in to the Cisco Unified Intelligence Center OAMP interface and perform the Unified
                                           CCE User Integration operation ( Cluster Configuration > UCCE User Integration ) once manually to import the Supervisors with the required roles. |
@@ -1358,6 +1392,11 @@ Login.submitLoginRequest = function () {
                                           IdS successfully generates access tokens. Each component that you are setting up for SSO is tested. The component status table displays the status of testing each component. If a test is unsuccessful, correct the error, and then click Test again. Test results are not saved. If you refresh the page, run the test again before enabling SSO. |
 | Step 5 | Select the SSO mode for the system from the Set Mode drop-down menu: Non-SSO: This mode disables SSO for all agents and supervisors. Users log in using existing Active Directory-based local authentication. Hybrid: This mode allows you to enable agents and supervisors selectively for SSO. SSO: This mode enables SSO for all agents and supervisors. The component status table displays the status of setting the SSO mode on each component. If the SSO mode fails to be set on a component, correct the error, and then select the mode again. |
 
+| Step 1 | Re-generate the SAML certificate. |
+|---|---|
+| Step 2 | Re-establish trust relationship between IdP and IdS. |
+| Step 3 | If the components are registered earlier, then: Re-register all the SSO components. Perform the SSO Test to check if all the SSO components are registered. Verify that the test is successful for each component. |
+
 | Note | The check box is disabled when the global SSO mode is set to SSO or non-SSO. |
 |---|---|
 
@@ -1396,3 +1435,7 @@ Login.submitLoginRequest = function () {
 | firstName | No | The user's first name. |
 | lastName | No | The user's last name. |
 | newUserName | No | The user's new SSO username. Enter up to 255 ASCII characters. If you want to enable a user for SSO, but keep the current username, leave newUserName blank, or copy the value of userName into newUserName . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

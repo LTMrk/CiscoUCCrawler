@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-a3ada09142
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/orchestration.html
-retrieved_at: 2026-08-21T12:09:39.667203+00:00
+retrieved_at: 2026-10-19T10:46:40.816790+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -450,13 +450,6 @@ Expected Outcome
 
 Displays message on the CLI if the authentication method configuration is a success or a failure.
 
-Identity Token is the default authentication method that is configured in release 15.0(1)SU2 and later.
-
-You can run this command only from the publisher node of the Cloud Connect server. When the utils image-repository authentication-type set command runs successfully on the publisher node, the authentication method configured on the publisher node is replicated
-                                                      automatically on the subscriber node.
-
-After configuring the authentication method using the utils image-repository authentication-type set command, configure Identity Token by running the utils image-repository set command.
-
 #### Generate Artifactory Authentication Credentials
 
 Artifactory supports authentication via Identity Token. For details on configuring the authentication method, refer to the
@@ -848,6 +841,9 @@ In case the upgrade or rollback on VOS node fails, then the respective VOS node
 To check the currently installed software version and patches on a node or group of nodes or all nodes in either Windows
                                  or VOS systems, run the utils deployment show status command.
 
+After a manual or orchestration upgrade of a Unified CVP node, utils deployment show status displays the previous version because the Cloud Connect deployment cache is stale. To resolve this, on the Cloud Connect
+                                             publisher, run utils deployment cache initiate , select Refresh Deployment Nodes Cache Data , and then rerun utils deployment show status .
+
 #### Install or Roll Back Patch or Upgrade Cloud Connect Server
 
 To install a patch or to roll back a previously installed patch on Cloud Connect server or to upgrade Cloud Connect Server to next available version , run the utils system upgrade initiate command. The Local Repository option in this command lists the patches and upgrade options available from Cisco artifactory for patch install or rollback or upgrade on Cloud Connect server. This command can be run separately on the Cloud Connect publisher and subscriber nodes.
@@ -960,8 +956,22 @@ Expected Inputs
 From the list of Windows/VOS nodes displayed, select the node or group of Windows/VOS nodes on which the patch needs to be
                                                 rolled back. Once you select the nodes, only the nodes for which Windows/VOS patch rollback is available will be displayed.
                                                 For example, if you select 3 nodes and Windows/VOS patch rollback is available for only 1 of them, you are asked to proceed
-                                                with only one node. There is also a message displayed indicating that the machine would restart after the patch is rolled
-                                                back. Confirm to proceed.
+                                                with only one node.
+
+If the selected nodes include a ROGGER, LOGGER, or DISTRIBUTOR component for ICM, and the patch being rolled back included
+                                                an ICM database schema upgrade, you must select a database schema rollback strategy to proceed. This option is available only
+                                                when Cloud Connect is at version 15.0(1) SU3 or later.
+
+Permanent: Reverts the database schema to the pre-patch version. You must perform a database backup before proceeding. CCE services
+                                                      will start automatically following the rollback.
+
+Temporary: Skips the database schema rollback. CCE services will stop and must remain stopped until the patch is reinstalled. Use this
+                                                      option only if you intend to reinstall the patch immediately.
+
+The selected strategy applies only to the Unified ICM database nodes. Other components included in the operation are rolled
+                                                            back as usual.
+
+There is also a message displayed indicating that the machine would restart after the patch is rolled back. Confirm to proceed.
 
 The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
                                                 to 15.0.1 SU1 or later.
@@ -974,9 +984,15 @@ These new options enable parallel rollback of patches on either all Side A or al
 
 For more information, refer to Prerequisites for All Side A/B options section of Install Patch to Specific Node or Group of Nodes .
 
+The database schema rollback strategy selection is displayed for applicable Unified ICM database nodes when you choose either
+                                                the All Side A Windows nodes or All Side B Windows nodes option. This feature requires Cloud Connect version 15.0(1) SU3 or later.
+
 Selection of components such as Finesse, CVP Call Server, IdS, PG, Router, and Rogger that are running on supported version
                                                 of the maintenance mode, will provide the options "With maintenance mode” and “Without maintenance mode”. For details on maintenance
                                                 mode supported version and prerequisites, see the Initiate maintenance mode for a specific nodes .
+
+If you select "Temporary" database schema rollback strategy for a cluster node, the "With maintenance mode" and "Without maintenance
+                                                mode" options are unavailable.
 
 If you select a group of nodes with some nodes on maintenance mode supported version and some nodes on unsupported version,
                                                 then "With maintenance mode” or “Without maintenance mode” option is not available. If maintenance mode option is required,
@@ -989,7 +1005,9 @@ If you select “With maintenance mode” option, the maintenance mode is initia
 
 Next, you are asked to provide confirmation on rebooting the node after rollback.
 
-To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services
+To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services .
+
+This step does not apply to Unified ICM database nodes if the "Temporary" database schema rollback strategy is selected.
 
 You can check the status of patch rollback which is currently in-progress. For more information, see Check Status .
 
@@ -1866,6 +1884,9 @@ Orchestration patch manager CLIs : Uses cache when Cloud Connect is running vers
 
 Orchestration upgrade manager CLIs for VOS nodes : Uses cache when Cloud Connect is running version 15.0(1) SU2 or later.
 
+utils deployment show status : Version and patch information can remain stale after a component is manually/orchestration upgraded or patched outside Orchestration.
+                                       Refresh the deployment-nodes cache before relying on this output for a subsequent upgrade, rollback, or patch operation.
+
 Manual component upgrades or patch operations do not automatically update the internal cache. To ensure the cache reflects
                                  the current system state, perform the following steps based on the installed version:
 
@@ -2105,10 +2126,6 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
 | Expected Inputs | CLI displays the currently configured authentication method and user confirmation is required to proceed to switch the authentication
                                                 method. |
 | Expected Outcome | Displays message on the CLI if the authentication method configuration is a success or a failure. |
-
-| Note | Identity Token is the default authentication method that is configured in release 15.0(1)SU2 and later. You can run this command only from the publisher node of the Cloud Connect server. When the utils image-repository authentication-type set command runs successfully on the publisher node, the authentication method configured on the publisher node is replicated
-                                                      automatically on the subscriber node. After configuring the authentication method using the utils image-repository authentication-type set command, configure Identity Token by running the utils image-repository set command. |
-|---|---|
 
 | Note | The CCO ID used to generate Artifactory authentication credentials must possess valid software entitlements, such as an active
                                                    SWSS (service contract) or Flex subscription. Cisco recommends generating unique credentials for each distinct deployment (e.g., test, staging, production) using different
@@ -2414,6 +2431,10 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
                                           patch installed, a message "No patch installed" is displayed to indicate
                                           that along with software version. |
 
+| Note | After a manual or orchestration upgrade of a Unified CVP node, utils deployment show status displays the previous version because the Cloud Connect deployment cache is stale. To resolve this, on the Cloud Connect
+                                             publisher, run utils deployment cache initiate , select Refresh Deployment Nodes Cache Data , and then rerun utils deployment show status . |
+|---|---|
+
 | Note | The Cloud Connect publisher should be upgraded before upgrading the subscriber. The
                                              switch version on publisher should be done first before doing switch version on
                                              subscriber, use utils system switch version command to switch
@@ -2494,19 +2515,32 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
 | Expected Inputs | From the list of Windows/VOS nodes displayed, select the node or group of Windows/VOS nodes on which the patch needs to be
                                                 rolled back. Once you select the nodes, only the nodes for which Windows/VOS patch rollback is available will be displayed.
                                                 For example, if you select 3 nodes and Windows/VOS patch rollback is available for only 1 of them, you are asked to proceed
-                                                with only one node. There is also a message displayed indicating that the machine would restart after the patch is rolled
-                                                back. Confirm to proceed. The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
-                                                to 15.0.1 SU1 or later. All Side A VOS node and All Side B VOS nodes under the VOS platform. All Side A Windows node and All Side B Windows nodes under the Windows platform. These new options enable parallel rollback of patches on either all Side A or all Side B nodes (Windows/VOS) within the deployment. For more information, refer to Prerequisites for All Side A/B options section of Install Patch to Specific Node or Group of Nodes . Selection of components such as Finesse, CVP Call Server, IdS, PG, Router, and Rogger that are running on supported version
+                                                with only one node. If the selected nodes include a ROGGER, LOGGER, or DISTRIBUTOR component for ICM, and the patch being rolled back included
+                                                an ICM database schema upgrade, you must select a database schema rollback strategy to proceed. This option is available only
+                                                when Cloud Connect is at version 15.0(1) SU3 or later. Permanent: Reverts the database schema to the pre-patch version. You must perform a database backup before proceeding. CCE services
+                                                      will start automatically following the rollback. Temporary: Skips the database schema rollback. CCE services will stop and must remain stopped until the patch is reinstalled. Use this
+                                                      option only if you intend to reinstall the patch immediately. Note The selected strategy applies only to the Unified ICM database nodes. Other components included in the operation are rolled
+                                                            back as usual. There is also a message displayed indicating that the machine would restart after the patch is rolled back. Confirm to proceed. The Patch Rollback Orchestration CLI is supported with additional options for platform selection when Cloud Connect is upgraded
+                                                to 15.0.1 SU1 or later. All Side A VOS node and All Side B VOS nodes under the VOS platform. All Side A Windows node and All Side B Windows nodes under the Windows platform. These new options enable parallel rollback of patches on either all Side A or all Side B nodes (Windows/VOS) within the deployment. For more information, refer to Prerequisites for All Side A/B options section of Install Patch to Specific Node or Group of Nodes . The database schema rollback strategy selection is displayed for applicable Unified ICM database nodes when you choose either
+                                                the All Side A Windows nodes or All Side B Windows nodes option. This feature requires Cloud Connect version 15.0(1) SU3 or later. Selection of components such as Finesse, CVP Call Server, IdS, PG, Router, and Rogger that are running on supported version
                                                 of the maintenance mode, will provide the options "With maintenance mode” and “Without maintenance mode”. For details on maintenance
-                                                mode supported version and prerequisites, see the Initiate maintenance mode for a specific nodes . If you select a group of nodes with some nodes on maintenance mode supported version and some nodes on unsupported version,
+                                                mode supported version and prerequisites, see the Initiate maintenance mode for a specific nodes . If you select "Temporary" database schema rollback strategy for a cluster node, the "With maintenance mode" and "Without maintenance
+                                                mode" options are unavailable. If you select a group of nodes with some nodes on maintenance mode supported version and some nodes on unsupported version,
                                                 then "With maintenance mode” or “Without maintenance mode” option is not available. If maintenance mode option is required,
                                                 select the respective node which is on maintenance mode supported version. If you select “With maintenance mode” option, the maintenance mode is initiated for the selected node to failover active traffic
                                                 gracefully or shutdown the services gracefully without interrupting the active traffic or causing outage for new traffic before
                                                 rollback and automatically rebooting. If you select, “Without maintenance mode” option, you are initially asked to confirm
-                                                to proceed. Next, you are asked to provide confirmation on rebooting the node after rollback. |
+                                                to proceed. Next, you are asked to provide confirmation on rebooting the node after rollback. | Note | The selected strategy applies only to the Unified ICM database nodes. Other components included in the operation are rolled
+                                                            back as usual. |
+| Note | The selected strategy applies only to the Unified ICM database nodes. Other components included in the operation are rolled
+                                                            back as usual. |
 | Expected Outcome | The previously installed patch is rolled back on the selected node or group of nodes. |
 
-| Note | To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services |
+| Note | The selected strategy applies only to the Unified ICM database nodes. Other components included in the operation are rolled
+                                                            back as usual. |
+|---|---|
+
+| Note | To start Unified ICM services, post the successful completion of patch rollback with reboot on Unified ICM nodes. See Start ICM Services . This step does not apply to Unified ICM database nodes if the "Temporary" database schema rollback strategy is selected. |
 |---|---|
 
 | Note | You can check the status of patch rollback which is currently in-progress. For more information, see Check Status . |
@@ -2938,3 +2972,7 @@ Version Reversion: When reverting Cloud Connect from 15.0(1) to 12.6(x), ensure 
 | Note | When Cloud Connect is running version 15.0(1) SU1, if you perform patch operations immediately after an upgrade, you must
                                              first update the cache by executing the utils deployment cache initiate command. This ensures the cache reflects the updated node versions before patching. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-d43e9a5d3c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501_virtual-agent-voice-call-transcription.html
-retrieved_at: 2026-08-21T12:11:18.239284+00:00
+retrieved_at: 2026-10-19T10:48:59.281398+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -155,3 +155,7 @@ Gadget auto-hide/un-hide and notifications capability is available only if the g
 | Note | Gadget auto-hide/un-hide and notifications capability is available only if the gadget is configured as a multitab gadget in
                                                       Cisco Finesse. For more details, see Call Transcript Gadget in the Cisco Finesse Administration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/products-maintenance-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

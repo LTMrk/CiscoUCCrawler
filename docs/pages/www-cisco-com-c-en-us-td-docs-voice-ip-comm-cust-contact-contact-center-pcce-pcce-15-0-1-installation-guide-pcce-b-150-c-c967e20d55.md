@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-c967e20d55
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/reference.html
-retrieved_at: 2026-08-21T12:09:51.019078+00:00
+retrieved_at: 2026-10-19T10:47:18.102647+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -577,6 +577,120 @@ If you want to install Unified CCE on a multilingual version of Windows Server, 
                                              in installing Microsoft Windows Server Multilingual language packs.
 
 If Unified CCE language pack is applied on Chinese Windows OS machine, set the screen resolution to 1600 x 1200.
+
+### Install Microsoft Windows 11 for Administration Client
+
+Download Win 11 OVA and deploy the VM using the OVA. For Windows 11, the SecureBoot and TPM devices are mandatory which must
+                                 be added after deploying the VM from OVA. Windows 11 installation may vary depending on your vSphere version. For more details,
+                                 refer https://core.vmware.com/resource/windows-11-support-vsphere#section1 .
+
+If the ESXi version is 7.0 U2 and above you must upgrade the VM Hardware version.
+
+Step 1
+
+Mount the Microsoft Windows 11 ISO image to the VM.
+
+Select the Connect at power on check box while mounting the ISO. For more information, see Mount ISO Files and Unmount ISO Files .
+
+Step 2
+
+Power on the VM.
+
+Step 3
+
+Enter the Language, Time and Currency Format, Keyboard settings and click Next .
+
+Step 4
+
+Click Install Now .
+
+Step 5
+
+Select the Windows 11 Enterprise or Windows 11 Pro option and click Next .
+
+Step 6
+
+If prompted, enter the product key for Windows 11 and click Next .
+
+Step 7
+
+Accept the license terms and click Next .
+
+Step 8
+
+Select Custom: Install Windows only (advanced) , select Drive 0 and click Next .
+
+Step 9
+
+Enter and confirm the password for the administrator account. Click Next .
+
+Step 10
+
+Enable Remote Desktop connections as follows:
+
+Navigate to Control Panel > System and Security > System .
+
+Click Remote Settings .
+
+Click the Remote tab.
+
+Select the Allow remote connections to this computer option.
+
+The Remote Desktop Connection dialog displays a notification that the Remote Desktop Firewall exception is enabled. Click OK .
+
+Step 11
+
+Install VMWare tools.
+
+Step 12
+
+Open the Network and Sharing Center . In the View your basic network info and set up connections section, click Ethernet .
+
+Step 13
+
+In the Ethernet Status window, click Properties .
+
+Step 14
+
+In the Ethernet Properties dialog box, configure the network settings and the Domain Name System (DNS) data.
+
+Clear the Internet Protocol Version 6 (TCP/IPv6) option.
+
+Select Internet Protocol Version 4 (TCP/IPv4) and click Properties .
+
+Select Use the Following IP Address .
+
+Enter the IP Address , Subnet Mask , and Default Gateway .
+
+Select Use the following DNS Server Address .
+
+Entered the preferred DNS server address and click OK .
+
+Step 15
+
+Navigate to Control Panel > System and Security > System .
+
+Click Advanced system settings .
+
+In the Compute Name tab, clcik Change .
+
+Change the Compute name . The name must not contain an underscore or space.
+
+Select Domain from the Member of pane.
+
+Enter a qualified domain name and click OK .
+
+In the Windows security dialog, validate the domain credentials and click OK .
+
+On successful authentication, click OK .
+
+Reboot the machine and sign in with domain credentials.
+
+Restart your system for the change to take effect.
+
+Step 16
+
+Go to Settings > Update & Security and run Microsoft Windows Update .
 
 ### Install Microsoft SQL Server
 
@@ -1321,6 +1435,8 @@ Before using the Configuration Manager tool, configure the required registry and
 
 #### Configure Registry  Permissions
 
+This procedure only applies to all the AW machines. Grant the required registry permissions for the UcceConfig group on the local machine.
+
 Step 1
 
 Run the regedit.exe utility.
@@ -1371,8 +1487,7 @@ SQL login account <Machine netbios name>\UcceConfig is created during CCE instal
 
 #### Configure Folder Permissions
 
-Grant the required folder permissions to the UcceConfig group on
-                                    the local machine.
+Grant the required folder permissions to the UcceConfig group on the local machine.
 
 Step 1
 
@@ -3488,6 +3603,27 @@ a setting to
                                              in installing Microsoft Windows Server Multilingual language packs. If Unified CCE language pack is applied on Chinese Windows OS machine, set the screen resolution to 1600 x 1200. |
 |---|---|
 
+| Note | If the ESXi version is 7.0 U2 and above you must upgrade the VM Hardware version. |
+|---|---|
+
+| Step 1 | Mount the Microsoft Windows 11 ISO image to the VM. Select the Connect at power on check box while mounting the ISO. For more information, see Mount ISO Files and Unmount ISO Files . |
+|---|---|
+| Step 2 | Power on the VM. |
+| Step 3 | Enter the Language, Time and Currency Format, Keyboard settings and click Next . |
+| Step 4 | Click Install Now . |
+| Step 5 | Select the Windows 11 Enterprise or Windows 11 Pro option and click Next . |
+| Step 6 | If prompted, enter the product key for Windows 11 and click Next . |
+| Step 7 | Accept the license terms and click Next . |
+| Step 8 | Select Custom: Install Windows only (advanced) , select Drive 0 and click Next . |
+| Step 9 | Enter and confirm the password for the administrator account. Click Next . |
+| Step 10 | Enable Remote Desktop connections as follows: Navigate to Control Panel > System and Security > System . Click Remote Settings . Click the Remote tab. Select the Allow remote connections to this computer option. The Remote Desktop Connection dialog displays a notification that the Remote Desktop Firewall exception is enabled. Click OK . |
+| Step 11 | Install VMWare tools. |
+| Step 12 | Open the Network and Sharing Center . In the View your basic network info and set up connections section, click Ethernet . |
+| Step 13 | In the Ethernet Status window, click Properties . |
+| Step 14 | In the Ethernet Properties dialog box, configure the network settings and the Domain Name System (DNS) data. Clear the Internet Protocol Version 6 (TCP/IPv6) option. Select Internet Protocol Version 4 (TCP/IPv4) and click Properties . Select Use the Following IP Address . Enter the IP Address , Subnet Mask , and Default Gateway . Select Use the following DNS Server Address . Entered the preferred DNS server address and click OK . |
+| Step 15 | Navigate to Control Panel > System and Security > System . Click Advanced system settings . The System Properties dialog is displayed. In the Compute Name tab, clcik Change . Change the Compute name . The name must not contain an underscore or space. Select Domain from the Member of pane. Enter a qualified domain name and click OK . In the Windows security dialog, validate the domain credentials and click OK . On successful authentication, click OK . Reboot the machine and sign in with domain credentials. Restart your system for the change to take effect. |
+| Step 16 | Go to Settings > Update & Security and run Microsoft Windows Update . Microsoft Windows 11 is installed. |
+
 | Note | For information about supported editions, see
                                              					the Contact Center Enterprise Compatibility Matrix at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-device-support-tables-list.html . |
 |---|---|
@@ -4444,3 +4580,7 @@ GO Note For example, <SQL Server TempDB path> = C:\Program Files\Microsoft SQL S
                                                                   needs to be retained, the server startup options has to be updated
                                                                   using the -T(upper case) option. For more information, see https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/database-engine-service-startup-options?view=sql-server-ver15 . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-e5c7d3d85d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/common_ground_upgrade_process.html
-retrieved_at: 2026-08-21T12:09:24.581098+00:00
+retrieved_at: 2026-10-19T10:46:31.444917+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -81,7 +81,9 @@ If you already have a Customer Collaboration Platform added in the remote site, 
 
 Make sure that you are running the minimum supported version of ESXi. For information about supported ESXi versions, see the Virtualization for Cisco Packaged CCE at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/virtualization/pcce_virt_index.html .
 
-In the Unified CCE Administration console, departments cannot be named Global or Service . If you have already created departments with these names, update the department names before upgrading ECE.
+In the Unified CCE Administration console, departments cannot be named Global or Service . If you have already created departments with these names, update the department names before upgrading CCE.
+
+Before upgrading from Packaged CCE 12.6(1) to a later version, review all department names and rename any departments named global or service . If you do not rename them in advance, the system automatically renames them to global_upgrade_renamed and service_upgrade_renamed after the upgrade. Update the dependent configuration after renaming the departments.
 
 Following the upgrade of Packaged CCE, wait for a few minutes for the system to finish loading before logging in to the Unified
                                  CCE Administration console.
@@ -1303,3 +1305,7 @@ If you upgrade to CUCM 12.5 on the servers, ensure that you deploy CUCM off-box.
 
 | Note | For Live Data VM, you have to increase the RAM before upgrading. See https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

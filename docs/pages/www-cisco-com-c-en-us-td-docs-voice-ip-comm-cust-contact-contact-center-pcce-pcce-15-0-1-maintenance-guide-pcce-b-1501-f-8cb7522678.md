@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-8cb7522678
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_1501_outbound-option.html
-retrieved_at: 2026-08-21T12:10:56.836820+00:00
+retrieved_at: 2026-10-19T10:48:13.496601+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -2734,3 +2734,31 @@ no vad |
 | Note | When the active Campaign Manager fails over, partial campaign interval reports are generated for the relevant interval based
                                                 on the data that was available after failover. Some of the campaign statistics collected prior to failover will be missing. The campaign interval tables used in Reporting are impacted due to this scenario. |
 |---|---|
+
+## Figuras
+
+![Figure 1. SIP Dialer Agent Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345712.tif/_jcr_content/renditions/345712.jpg)
+
+![Figure 2. SIP Dialer Unattended IVR Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/489001-490000/489617.jpg)
+
+![Figure 3. SIP Security Profile](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284955.tif/_jcr_content/renditions/284955.jpg)
+
+![Figure 4. Create a New SIP Trunk](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347384.tif/_jcr_content/renditions/347384.jpg)
+
+![Figure 5. Add Normalization Script](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284952.tif/_jcr_content/renditions/284952.jpg)
+
+![Figure 6. Associate Script with Trunk](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/280001-290000/284001-285000/284953.tif/_jcr_content/renditions/284953.jpg)
+
+![Figure 7. Sample Administrative Script](https://www.cisco.com/c/dam/en/us/td/i/000001-100000/70001-75000/72001-73000/72158.tif/_jcr_content/renditions/72158.jpg)
+
+![Figure 8. ServiceLevelControl Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345676.tif/_jcr_content/renditions/345676.jpg)
+
+![Figure 9. Sample Script for Agent Campaign Without Personal Callback (Using Select Node)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345677.tif/_jcr_content/renditions/345677.jpg)
+
+![Figure 10. Sample Script for Agent Campaign Without Personal Callback (Using Dynamic Route Target by ID)](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393314.eps/_jcr_content/renditions/393314.jpg)
+
+![Figure 11. Sample Script for Agent Campaign With Personal Callback](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345844.tif/_jcr_content/renditions/345844.jpg)
+
+![Figure 12. Sample Script for VRU Campaign](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/345001-346000/345678.tif/_jcr_content/renditions/345678.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

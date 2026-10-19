@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-91ac6bf92d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_script-editor12_6_2.html
-retrieved_at: 2026-08-21T16:50:08.428301+00:00
+retrieved_at: 2026-10-19T10:44:59.539635+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -278,3 +278,7 @@ After the InstallShield Wizard indicates that the installation is complete, clic
 
 | Note | You cannot use Internet Script Editor during the upgrade. You can also open the iscripteditor.exe file directly from the web page. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

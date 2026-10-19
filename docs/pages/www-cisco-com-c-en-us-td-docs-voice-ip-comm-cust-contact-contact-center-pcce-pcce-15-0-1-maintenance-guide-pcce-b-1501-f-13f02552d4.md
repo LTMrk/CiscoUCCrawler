@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-13f02552d4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_1501_do-not-call-table.html
-retrieved_at: 2026-08-21T12:11:31.014623+00:00
+retrieved_at: 2026-10-19T10:47:50.524999+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -72,3 +72,7 @@ Do not perform manual operations on database including database replication.
 
 | Note | Although the phone number extension is imported into the table, it is currently not used for any dialing operations. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-e1808a915b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce-m-custom-sql-server-port.html
-retrieved_at: 2026-08-21T16:50:00.123346+00:00
+retrieved_at: 2026-10-19T10:43:42.967994+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -374,3 +374,13 @@ For standard deployments, the installer continues to use SQL Server port 1433 . 
 | Step 7 | On the Settings page, perform the following: Select the required values from the drop-down list for each Rogger and Service Account field. Click Next . |
 | Step 8 | On the Initialize page, the fresh install task is triggered. |
 | Step 9 | Click Next to deploy Packaged CCE 2000 Agents. |
+
+## Figuras
+
+![Figure 1. SQL Server Configuration Manager](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/493001-494000/493583.png)
+
+![Figure 2. Cisco Finesse Administrator Console](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/497001-498000/497948.png)
+
+![Figure 3. Cisco Unified Intelligence Center Administrator Console](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/493001-494000/493622.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-da078d3dab
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_graceful-shutdown_15_0.html
-retrieved_at: 2026-08-21T16:51:11.710573+00:00
+retrieved_at: 2026-10-19T10:44:04.042258+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -391,3 +391,7 @@ REPORTINGSERVER-IP-ADDRESS: <IP-Address of the REPORTING SERVER> Note To shut do
 | 13 | Querying status | 400-NOVALIDCOMP-400 | Maintenance mode scripts are run on a VM which has no Router service installed. |
 | 14 | Querying status | 400-NODISCRETECOMP-400 | Maintenance mode scripts are run on a VM which has Router service installed but there are other services that don't support
                                        maintenance mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

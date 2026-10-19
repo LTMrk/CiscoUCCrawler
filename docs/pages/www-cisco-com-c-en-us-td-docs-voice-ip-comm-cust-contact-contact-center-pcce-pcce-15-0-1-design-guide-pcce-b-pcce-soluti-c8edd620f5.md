@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-c8edd620f5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/rcct_m_cisco-unified-contact-center-solutions_15_0.html
-retrieved_at: 2026-08-21T12:11:43.507845+00:00
+retrieved_at: 2026-10-19T10:45:55.065062+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -130,3 +130,7 @@ Partial gadget-based CCE Administration, Unified Contact Center Management Porta
 | Hardware | Tested Reference Configuration ( B-Series and C-Series) Spec-based UCS support (B-Series and C-Series) Spec-based (Non-UCS), third-party hardware support | Tested Reference Configuration ( B-Series and C-Series) Spec-based UCS support (B-Series and C-Series) Spec-based (Non-UCS), third-party hardware support |
 | Architecture |
 | Configuration and Administration tools | Gadget-based CCE Administration and other tools | Partial gadget-based CCE Administration, Unified Contact Center Management Portal, ICM Configuration Manager, and other tools |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

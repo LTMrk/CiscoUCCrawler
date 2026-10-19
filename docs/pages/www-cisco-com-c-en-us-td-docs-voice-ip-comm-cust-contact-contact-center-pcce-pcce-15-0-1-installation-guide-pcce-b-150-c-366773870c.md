@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-366773870c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/technology_refresh_upgrade_process.html
-retrieved_at: 2026-08-21T12:09:29.190208+00:00
+retrieved_at: 2026-10-19T10:47:30.715510+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -76,6 +76,8 @@ If you already have a Customer Collaboration Platform added in the remote site, 
 Make sure that you are running the minimum supported version of ESXi. For information about supported ESXi versions, see the Virtualization for Cisco Packaged CCE at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/virtualization/pcce_virt_index.html .
 
 In the Unified CCE Administration, departments cannot be named Global or Service . If you already have departments created with these names, update the department names before upgrading Email and Chat.
+
+Before upgrading from Packaged CCE 12.6(1) to later versions, review all department names and rename any departments called global or service . If they are not renamed in advance, the upgrade automatically changes them to global_upgrade_renamed and service_upgrade_renamed . Update dependent configuration after renaming.
 
 ### NTP Configuration
                            	 Requirements
@@ -1282,6 +1284,9 @@ Upgrade Cisco JTAPI Client on PG
 
 - Implement CA-Signed Certificates in a CCE 12.6 Solution
 
+| Note | Before upgrading from Packaged CCE 12.6(1) to later versions, review all department names and rename any departments called global or service . If they are not renamed in advance, the upgrade automatically changes them to global_upgrade_renamed and service_upgrade_renamed . Update dependent configuration after renaming. |
+|---|---|
+
 | Note | During the Technology Refresh (TR) Upgrade process, the installer is designed to identify any unsupported features present
                                        in the source deployment. These features are then listed in a dialog box for you to review. You have two options on how to
                                        proceed: Select "Yes": By choosing "Yes", you instruct the installer to exclude all the identified unsupported features during the
@@ -1644,3 +1649,7 @@ Upgrade Cisco JTAPI Client on PG
 
 | Note | Installing Cisco Reverse Proxy is optional and is applicable only for VPN-less Finesse and digital channels deployments. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

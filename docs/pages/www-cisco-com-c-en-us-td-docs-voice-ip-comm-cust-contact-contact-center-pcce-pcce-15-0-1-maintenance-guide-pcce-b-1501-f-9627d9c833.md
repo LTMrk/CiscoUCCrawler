@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-9627d9c833
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501_call-transcription.html
-retrieved_at: 2026-08-21T12:10:29.561323+00:00
+retrieved_at: 2026-10-19T10:48:34.558208+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -39,6 +39,8 @@ Ensure that you have selected Media Gateway (MGW) as the mode in the Cisco VVB U
                                     section Post Installation in the Cisco VVB Installation chapter of the Installation and Upgrade Guide for Cisco Virtualized Voice Browser .
 
 There are no additional license requirements for either the Cisco VVB or the Media Gateway service.
+
+The default setting for SIP.EnableSIPREC in the sip.properties file is false . Change this setting to true to enable SIP Recording (SIPREC).
 
 ## Contact Center AI Features Task Flow
 
@@ -158,10 +160,30 @@ To enable regionalized media support, refer to the Regional Media Data Center Re
 
 ## Contact Center AI Configuration
 
-In the Unified CCE Administration console, the Contact Center AI feature tab allows administrators to view the Default Configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) with all the call types (default configuration). Upon associating a configuration with a specific call type, the default
-                              configuration (if any) gets overridden for the specific call type.
+Contact Center AI configuration sets up and manages AI capabilities for customer and agent interactions. It defines integrations, virtual-agent
+                              behavior, routing, knowledge sources, and access controls.
+
+Contact Center AI configuration is created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ).
+
+You can associate the Contact Center AI configuration with all call types or a specific call type. Upon associating Contact Center AI configuration with a specific call type, the default configuration (if any) gets overridden for the specific call type.
 
 To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register.
+
+In the Unified CCE Administration Console, navigate to Overview > Features > Contact Center AI. Select Cisco-billed AI Features . The following tabs appear:
+
+Overview tab: Displays the following details in a table format:
+
+The available AI features enabled across configured agents.
+
+The type of connectors and their corresponding call types.
+
+The Contact Center AI configurations used for different call types, along with their associated connector types.
+
+Contact Center AI Configs tab: Displays the default configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) along with all other available Contact Center AI configurations, each showing its corresponding connector type. Click the Sync button to retrieve the latest configuration from the Control Hub and show them in CCE. The last synced time gets updated.
+                                    For more information, see the Sync Contact Center AI Global Configuration section in this Guide.
+
+To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                          in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
 
 ### Associate Contact Center AI Configuration with All Call Types
 
@@ -188,6 +210,9 @@ This sync button displays the latest AI configuration and updates the last synce
 ### Associate Contact Center AI Configuration with a Call Type
 
 You can view, update, or delete the Contact Center AI configuration associated with a specific call type.
+
+If a Contact Center AI configuration associated with a call type is deleted or recreated, the system displays an error message.
+                                          Re-associate the affected call types with a new configuration.
 
 #### View Contact Center AI Configuration
 
@@ -1289,6 +1314,9 @@ recorder profile 105 siprec
 
 Run the following CLI commands on the SBC terminal to receive and match incoming calls at the dial-peer level:
 
+This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only.
+
 ```
 dial-peer voice 800555 voip
  description GW ingress dial-peer
@@ -1302,6 +1330,9 @@ dial-peer voice 800555 voip
 ```
 
 Run the following CLI Commands on the SBC terminal to forward calls to the required destination:
+
+This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only.
 
 ```
 dial-peer voice 80055 voip
@@ -1322,9 +1353,9 @@ The values for the incoming called-number and destination-pattern shown in the f
                                        only. Ensure you configure these parameters with the appropriate values that correspond to your specific environment and setup.
 
 ```
-dial-peer voice 80055 voip
+dial-peer voice 939393 voip
  description SIPREC Destination Recorder
- destination-pattern 8005551199T
+ destination-pattern 9393939393
  session protocol sipv2
  session target ipv4: <CVP_IP_Address> session transport tcp
  voice-class sip profiles 999
@@ -1550,9 +1581,17 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | Note | To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register. |
 |---|---|
 
+| Note | To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                          in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . |
+|---|---|
+
 | Step 1 | In the Unified CCE Administration , navigate to Overview > Features > Contact Center AI . |
 |---|---|
 | Step 2 | In the Contact Center AI Configuration , the Sync button is located on the right side of the screen. Click the Sync button to view the sync status. This sync button displays the latest AI configuration and updates the last synced time. |
+
+| Note | If a Contact Center AI configuration associated with a call type is deleted or recreated, the system displays an error message.
+                                          Re-associate the affected call types with a new configuration. |
+|---|---|
 
 | Step 1 | In the Unified CCE Administration , navigate to Overview > Call Settings > Route Settings . |
 |---|---|
@@ -1810,6 +1849,14 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | Note | After you enable the POD.ID , you must restart the VRU PG during non-production time or a scheduled maintenance window for the changes to take full effect. |
 |---|---|
 
+| Note | This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only. |
+|---|---|
+
+| Note | This configuration represents the default Contact Center call flow behavior, and the values shown below are for illustration
+                                       purposes only. |
+|---|---|
+
 | Note | The values for the incoming called-number and destination-pattern shown in the following example are for illustration purposes
                                        only. Ensure you configure these parameters with the appropriate values that correspond to your specific environment and setup. |
 |---|---|
@@ -1860,3 +1907,7 @@ If the value is updated, any existing enabled service gets overwritten. If the v
 | agentServices | Yes (to enable Contact Center AI Features ) | The type of Contact Center AI Features to be associated with the agent. Supported values are AgentAnswers, VAV Transcript, and Transcript. To associate more than
                                                 one services, seperate the values using semicolon (;). If the value is updated, any existing enabled service gets overwritten. If the value is left empty, no service gets associated
                                                 with the agent. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

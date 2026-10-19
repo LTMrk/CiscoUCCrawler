@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-b052960525
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_150_digital-channels-integration-using-webex-connect.html
-retrieved_at: 2026-08-21T12:10:34.381119+00:00
+retrieved_at: 2026-10-19T10:49:09.022015+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -2226,3 +2226,7 @@ The individual tasks that are escalated to CCE can be queried using the Route_Ca
 | Note | Arrays are not supported with the Web Callback feature. The CCE solutions support the Latin 1 character set only for Expanded
                                                       Call Context variables and Call variables. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

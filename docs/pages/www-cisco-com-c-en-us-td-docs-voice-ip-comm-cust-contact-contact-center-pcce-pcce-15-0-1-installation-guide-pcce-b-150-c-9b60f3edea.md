@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-9b60f3edea
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/pcce_m_150_migration-vmware-to-nutanix.html
-retrieved_at: 2026-08-21T12:09:16.116840+00:00
+retrieved_at: 2026-10-19T10:46:59.661915+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -38,18 +38,10 @@ Migrating Cisco Enterprise Chat and Email (ECE) and Cisco Unified Contact Center
 
 ### Nutanix Support for CCE Components
 
-CCE Windows-based Components:
-
-Packaged CCE components and Unified CVP are supported on Nutanix with version 15.0(1).
-
-ECE and Unified CCMP are supported on Nutanix with 15.0(1) ES202511 or later.
-
-CCE VOS-based Components:
+#### VOS Platform Components
 
 Cisco Cloud Connect (Cloud Connect), Cisco Finesse (Finesse), Cisco Virtualized Voice Browser (Cisco VVB), and Cisco Unified
-                                 Intelligence Center (Unified Intelligence Center) are supported on Nutanix starting with the 15.0(1) SU2 release.
-
-#### VOS Platform Components
+                                          Intelligence Center (Unified Intelligence Center) are supported on Nutanix starting with the 15.0(1) SU2 release.
 
 Migration Method: Migration is supported using the Fresh Install with Import option introduced in the 15.0(1) SU2.
 
@@ -66,12 +58,16 @@ Platform data migration is a one-time event during component deployment on Nutan
 
 #### CCE Windows-based Components
 
-Unified CCE components that run on Windows can be migrated from VMware to Nutanix by using the Technology Refresh procedure.
+Packaged CCE components and Unified CVP are supported on Nutanix with version 15.0(1).
+
+ECE and Unified CCMP are supported on Nutanix with Release 15.0(1) ES202607 or later.
+
+Packaged CCE components that run on Windows can be migrated from VMware to Nutanix by using the Technology Refresh procedure.
 
 For more information, see the Technology Refresh Upgrade Process chapter.
 
-Alternatively, Unified CCE and Unified CVP components that run on Windows can be migrated by using Nutanix Move, a virtual-to-virtual
-                                    (V2V) migration tool. For Nutanix Move concepts, prerequisites, and procedures, see Nutanix Move Migration
+Alternatively, Packaged CCE and Unified CVP components that run on Windows can be migrated by using Nutanix Move, a virtual-to-virtual (V2V) migration
+                                    tool. For Nutanix Move concepts, prerequisites, and procedures, see Nutanix Move Migration
 
 ## Important Considerations
 
@@ -111,7 +107,7 @@ Finesse
 
 15.0(1) SU2
 
-12.6(2) ES 07
+12.6(2) ES 08
 
 Cisco VVB
 
@@ -139,9 +135,9 @@ Cisco Identity Service (Cisco IdS)
 
 CCE Windows-based Components
 
-Unified CCE
+Packaged CCE
 
-15.0(1) with ES202607 or later
+Release 15.0(1) ES202607 or later
 
 12.6(2) with
 
@@ -161,7 +157,7 @@ Unified CCMP
 
 12.6(1) ES 15 or later
 
-For more information about installing an Engineering Special on 12.6(2) or 15.0(1), see the Cisco Unified Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1) .
+For more information about installing an Engineering Special on 12.6(2) or 15.0(1), see the Cisco Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1) .
 
 ### Nutanix Requirements
 
@@ -218,9 +214,9 @@ Cisco validates the CCE 15.0(1) release on Cisco Compute Hyperconverged with Nut
 
 Supported Deployment Types:
 
-We provide the following Cisco recommendations to optimize costs for running Nutanix Unified CCE deployments:
+We provide the following Cisco recommendations to optimize costs for running Nutanix Packaged CCE deployments:
 
-Unified CCE 2000 Agent Deployments : Use a single-node (ROBO/Edge) Nutanix solution with NCI Edge licensing. License only the required VMs, configured with Replication
+Packaged CCE 2000 Agent Deployments : Use a single-node (ROBO/Edge) Nutanix solution with NCI Edge licensing. License only the required VMs, configured with Replication
                                     Factor 2 (RF2) across the drives of a single node.
 
 Remote Sites : Use a single-node (ROBO/Edge) Nutanix solution with NCI Edge licensing. License only the required VMs, configured with Replication
@@ -246,23 +242,25 @@ Cisco recommends you take backup of the components as part of migration from VMw
 
 CCE on VMware:
 
-Before exporting platform and application data, take a Disaster Recovery System (DRS) backup of each CCE VOS-based component.
+Before exporting platform and application data, take a Disaster Recovery System
+                                       (DRS) backup of each CCE VOS-based component.
 
 CCE on Nutanix:
 
 CCE Windows Components: Create recovery point on Nutanix (VM Snapshot).
 
-Uninstallation of the Unified CCE base installation on Windows Server is not supported for Release 15.0(1). This limitation
-                                                   does not apply to Unified CCE client packages, which can be removed and reinstalled. For more information, see the Uninstallation
-                                                   chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
+Uninstallation of the Packaged CCE base installation on Windows Server is not supported for Release 15.0(1). This limitation does not apply to Packaged CCE client packages, which can be removed and reinstalled. For more information, see the Uninstallation chapter of the Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) .
 
 CCE VOS Components:
 
-Create a recovery point on Nutanix (VM Snapshot) after performing the platform migration to 15.0(1) SU2 using the Fresh Install with Import option, and before initiating the component application data migration.
+Create a recovery point on Nutanix (VM Snapshot) after performing the platform
+                                          migration to 15.0(1) SU2 using the Fresh Install with Import option,
+                                          and before initiating the component application data migration.
 
 Recovery Point
 
-Create a recovery point on Nutanix (VM Snapshot) after performing the platform migration to 15.0(1) SU2 using the Fresh Install with Import option, and before initiating the component application data migration.
+Create a recovery point on Nutanix (VM Snapshot) after performing the platform
+                                    migration to 15.0(1) SU2 using the Fresh Install with Import option, and before initiating the component application data migration.
 
 For UEFI Secure Boot requirements and initial VM boot behavior, see CCE Virtualization OVA .
 
@@ -270,23 +268,50 @@ For UEFI Secure Boot requirements and initial VM boot behavior, see CCE Virtuali
 
 Following are the important considerations when you perform the backup and restore procedures:
 
-Before you run a backup or restore, ensure that all nodes in the cluster are running the same version of the VOS-based component.
-                                       If different nodes are running different versions, you will have a certificate mismatch and your backup or restore fails.
+Before you run a backup or restore, ensure that all nodes in the cluster are running
+                                       the same version of the VOS-based component. If different nodes are running different
+                                       versions, you will have a certificate mismatch and your backup or restore fails.
 
-Before restoring a VOS-based component, ensure that its hostname, IP address, DNS configuration, and deployment type match
-                                       the corresponding values in the backup file.
+Before restoring a VOS-based component, ensure that its hostname, IP address, DNS
+                                       configuration, and deployment type match the corresponding values in the backup file.
 
-Before you restore a VOS-based component, ensure that the version that is installed on the server matches the version of
-                                       the backup file that you want to restore. Cisco DRS supports restore only for matching versions.
+Before you restore a VOS-based component, ensure that the version installed on the
+                                       server matches the version of the backup file that you want to restore. Cisco DRS
+                                       supports restore only for matching versions.
 
-Schedule backups during off-peak hours to avoid call-processing interruptions and impact to service.
+Schedule backups during off-peak hours to avoid call-processing interruptions and
+                                       impact to service.
 
-After you use the recovery disk to bring a server with a corrupted file system into a bootable and semi- functional state,
-                                       rebuild the server.
+After you use the recovery disk to bring a server with a corrupted file system into
+                                       a bootable and semi-functional state, rebuild the server.
 
-If you do not rebuild the server, you may notice missing directories, lost permissions, or corrupted soft links.
+If you do not rebuild the server, you may notice missing directories, lost
+                                                   permissions, or corrupted soft links.
 
-For details on how to perform the backup, see the Backup Procedure Taskflow topic in the Tools chapter of the Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1) .
+For details on how to perform the backup, see the Backup Procedure Taskflow topic in the Tools chapter of the Administration Console User Guide for Cisco Unified Intelligence Center,
+                                       Release 15.0(1) .
+
+### Mixed-Hypervisor Support
+
+Cisco recommends fully migrating CCE to a single hypervisor rather than operating in a mixed-hypervisor state long-term. Mixed-hypervisor
+                                 configurations are supported only as a temporary condition during migration, not as a permanent deployment model.
+
+During migration, the following guidance applies to a CCE application cluster (for example, a Cisco Finesse cluster consisting
+                                 of primary and secondary nodes):
+
+Single Application Cluster: All nodes in the cluster must run the same software version and reside on the same hypervisor. A single cluster cannot be
+                                       split across VMware and Nutanix; for example, running a Cisco Finesse primary node on Nutanix and its corresponding secondary
+                                       node on VMware is not supported.
+
+Multiple Clusters of the Same Application: These may reside on different hypervisors temporarily. For example, one Cisco Finesse cluster can run on Nutanix while another
+                                       Cisco Finesse cluster runs on VMware.
+
+Different Applications: These may also reside on different hypervisors temporarily. For example, Cisco VVB can run on Nutanix while Cisco Unified
+                                       Intelligence Center can run on VMware.
+
+This approach enables a phased, cluster-by-cluster migration to Nutanix AHV. The mandatory requirement is that an individual
+                                 application cluster must never be split across two hypervisors. Once all clusters have been migrated, the environment should
+                                 converge on a single hypervisor.
 
 ### Migration Planning and Preparation
 
@@ -371,13 +396,13 @@ tempesta-ova-15.0.1-SU2-nutanix.zip
 
 Logger, Router, Rogger, Administration and Data Server, PG, Administration Client
 
-Download Unified CCE OVAs
+Download CCE OVAs
 
 UCCE_15.0.1_Nutanix_v3.0_OVAs.ova.zip
 
-Starting with OVA version 2.0, Nutanix Rogger, Router, Logger, AW, PG OVAs use UEFI BIOS with Secure Boot enabled. This introduces
-                           a one-time user interaction during the initial VM power-on. When the VM is powered on, the console displays a "Press any key
-                           to continue" prompt before the operating system installation begins.
+Starting with OVA version 3.0, the Nutanix Rogger, Router, Logger, AW, and PG OVAs use UEFI BIOS with Secure Boot enabled.
+                           This introduces a one-time user interaction during the initial VM power-on. When the VM is powered on, the console displays
+                           a "Press any key to continue" prompt before the operating system installation begins.
 
 If the key press is not registered (for example, due to console latency), use Ctrl + Alt + Delete from the VM console to restart the VM, and press any key when the prompt appears again.
 
@@ -793,30 +818,23 @@ Note: Edge Chromium (Microsoft Edge) is not installed by default on the Windows 
 
 #### Install Microsoft Windows 11 for Administration Client
 
-For more information, see the Install Microsoft Windows 11 for Administration Client section in Cisco Unified Contact Center Enterprise Installation and Upgrade Guide .
-
-Perform the following additional steps to install Microsoft Windows 11 on Nutanix AHV. After completing Steps 1 through 7 in the Install Microsoft Windows 11 for Administration Client section, perform the following steps to ensure that the virtual
-                                    disk drive is recognized:
-
 Step 1
 
-On the screen, Where do you want to install Windows , click Load Driver .
+On the screen, Where do you want to install Windows ,
+                                             click Load Driver .
 
 Step 2
 
-Click Browse and navigate to the Nutanix VirtIO ISO (mounted as a second CD-ROM).
+Click Browse and navigate to the Nutanix VirtIO ISO
+                                             mounted as a second CD-ROM.
 
 Step 3
 
-Navigate to w11\amd64 and click OK .
+Navigate to w11\amd64\ and click OK .
 
 Step 4
 
 Select all the drivers and click Next .
-
-##### What to do next
-
-Once the disk appears, proceed with the remaining instructions from Step 8 of the Install Microsoft Windows 11 for Administration Client section.
 
 #### Install Microsoft SQL Server
 
@@ -965,6 +983,9 @@ You do not need to shut down all secondary VMs in the cluster together. Shut dow
 
 To perform a Fresh Install with Import for a standalone, primary, or secondary node, complete the following steps:
 
+Fresh Install with Data Import does not support domain-name changes. The domain name on the destination node must match the
+                                             domain name on the source node.
+
 Fresh Install with Import Using an Answer File
 
 To perform a Fresh Install with Import for a VOS-based component by using an answer file, open the Cisco Unified Communications Answer File Generator . In Software Location of Data to Import , select Configure Software Location of Data to Import , enter the remote SFTP server and export-data directory details, and generate the answer file for the destination component.
@@ -1055,8 +1076,6 @@ CA-signed certificates, including root and intermediate CA certificates
 
 Component certificates uploaded to the Tomcat trust store
 
-Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
-
 Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname.
 
@@ -1112,35 +1131,9 @@ To check the dbreplication state, run the following command and if the replicati
 Not applicable for single-node publisher-only systems. If the command is run on these systems, the following error message
                                                    will be displayed:
 
-To check the system history and validate if the import is successful, run the following CLI command:
+To check the system history and validate that the import was successful, run the following CLI command:
 
-If the import is successful, the command output will display the following (the highlighted line indicates a successful import
-                                       and shows the version numbers of the source and the destination):
-
-The following output is from Cisco Unified Intelligence Center (CUIC). Output details vary by VOS-based component and release.
-
-```
-admin:show version active
-Active Master Version: 15.0.1.10100-41
-Active Version Installed Software Options:
-No Installed Software Options Found.
-admin:file view install system-history.log
-
-=======================================
-Product Name - Cisco Unified Intelligence Center with Live Data and IdS
-Product Version - 15.0.1.10100-41
-Kernel Image - 4.18.0-553.22.1.el8_10.x86_64
-=======================================
-02/23/2026 13:21:59 | root: Install 15.0.1.10100-41 Start
-02/23/2026 13:33:28 | root: Boot 15.0.1.10100-41 Start
-02/23/2026 14:20:09 | root: Import during Install 15.0.1.10000-196-to-15.0.1.10100-41 Success
-02/23/2026 14:20:09 | root: Product Version 15.0.1.10100-41
-02/23/2026 14:20:09 | root: Kernel Image 4.18.0-553.22.1.el8_10.x86_64
-02/23/2026 14:20:09 | root: Restart 15.0.1.10100-41 Start
-02/23/2026 14:21:46 | root: Boot 15.0.1.10100-41 Start
-02/23/2026 14:22:42 | root: Restart 15.0.1.10100-41 Start
-02/23/2026 14:24:27 | root: Boot 15.0.1.10100-41 Start
-```
+Verify that the Import during Install entry ends with Success and that the displayed product version corresponds to the installed release.
 
 Verify and restore customized security settings
 
@@ -1247,27 +1240,23 @@ Install Microsoft Windows 11 for Administration Client
 
 #### CCE Components
 
-The CCE components (Router, Logger, Peripheral Gateway, and Administration & Data Server) can be migrated from VMware to Nutanix
-                                    using either of the following methods:
+The CCE components (Router, Logger, Peripheral Gateway, and Administration & Data Server)
+                                    can be migrated from VMware to Nutanix using either of the following methods:
 
 Technology Refresh upgrade
 
-For information, see Technology Refresh Upgrade Process
+For information, see Technology Refresh Upgrade Process .
 
 Nutanix Move
 
-For information, see
+For information, see the Migrate Windows Components Using Nutanix Move .
 
 #### Administration Client
 
-As Technology Refresh is not supported for the Administration Client, perform a fresh installation of the Administration Client
-                                 version 15.0(1) on Nutanix and then install ES202607 or later on Administration Client installed on Nutanix.
-
-Microsoft Visual C++ Redistributable is a prerequisite to install Administration Client on Windows VM deployed on Nutanix.
-                                             The latest version of Visual C++ Redistributable can be downloaded from Microsoft, also same is available in AdminClientInstaller
-                                             folder.
-
-For more information, see the Install Unified CCE Administration Client topic in the Installation chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html
+As Technology Refresh is not supported for the Administration Client,
+                                 perform a fresh installation of the Administration Client version 15.0(1)
+                                 on Nutanix and then install ES202607 or later on Administration Client
+                                 installed on Nutanix.
 
 #### Important Considerations
 
@@ -1304,6 +1293,28 @@ Before you begin, ensure that the Nutanix Move appliance is deployed and configu
 The following table lists the tasks to migrate a Windows component using Nutanix Move:
 
 Nutanix Move performs a virtual-to-virtual (V2V) migration. The cutover requires the source VM to be shut down on the source hypervisor , which results in service disruption. Schedule the migration during a planned maintenance window.
+
+##### Restore the Source VM After Migration Failure
+
+Use this procedure to restore the source VM if migration fails.
+
+The source VMware virtual machine is powered off, and its network interface is changed to a disconnected state.
+
+Step 1
+
+Log in to VMware vCenter and locate the source virtual machine used for migration.
+
+Step 2
+
+Edit the VM settings and update the network adapter.
+
+Set the network adapter to Connected .
+
+Select Connect At Power On .
+
+Step 3
+
+Power on the virtual machine.
 
 ### Unified CVP- Migration from VMware to Nutanix
 
@@ -1717,8 +1728,6 @@ CA-signed certificates, including root and intermediate CA certificates
 
 Component certificates uploaded to the Tomcat trust store
 
-Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
-
 Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname.
 
@@ -1943,7 +1952,7 @@ Prerequisite: Ensure that the Cloud Connect destination instance is part of the 
 If the destination Cloud Connect instance uses a different hostname or IP address, update the Cloud Connect details in Finesse
                                     Administration (cfadmin) and the Media Routing Peripheral Gateway (MR PG) configuration to point to the destination instance.
 
-For more information, see the Web-Based CCE Administration chapter of the Administration Guide for Cisco Unified Contact Center Enterprise .
+For more information, see the Packaged CCE Administration chapter of the Administration and Configuration Guide for Cisco Packaged Contact Center Enterprise .
 
 Procedure: Register the Cloud Connect instance, configure the proxy settings, and activate the required devices or services to establish
                                        secure communication with the cloud services used by the enabled Cloud Connect features.
@@ -1989,7 +1998,7 @@ Save the certificate as a PEM file and upload it to Control Hub to replace the c
                                     integration. Verify the reverse proxy configuration and, if necessary, update it to point to the destination Cloud Connect
                                     instance.
 
-For more information, see the Digital Channels Integration Using Webex Connect chapter in the Cisco Unified Contact Center Enterprise Features Guide, Release 15.0(1) .
+For more information, see the Digital Channels Integration Using Webex Connect chapter in the Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 Cloud Connect Configuration for Orchestration feature
 
@@ -2190,7 +2199,7 @@ Version 15.0(1) SU1
 
 Version 15.0(1) SU2
 
-Version 12.6(2) ES07
+Version 12.6(2) ES08
 
 Verify Cisco VVB Service Status
 
@@ -2490,7 +2499,7 @@ Version 15.0(1) SU1
 
 Version 15.0(1) SU2
 
-Version 12.6(2) ES07
+Version 12.6(2) ES08
 
 #### Export Platform Data from the Source to the Remote Server
 
@@ -2722,7 +2731,7 @@ Version 15.0(1) SU1
 
 Version 15.0(1) SU2
 
-Version 12.6(2) ES07
+Version 12.6(2) ES08
 
 #### Export Platform Data from the Source to the Remote Server
 
@@ -2851,13 +2860,13 @@ In case the Cisco IdS hostname is different:
 If the Cisco IdS hostname has changed after migration, re-establish the trust between the Cisco IdS (Cisco IdS) and the Identity
                                     Provider (AD FS) by performing the following procedures:
 
-Integrate Cisco IdS with AD FS topic in the Cisco IdS for Single Sign-On chapter of the Unified CCE Features Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-feature-guides-list.html
+See the Integrate Cisco IdS with AD FS topic in the Cisco IdS for Single Sign-On chapter of Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
-Enable Signed SAML Assertions topic in the Cisco IdS for Single Sign-On chapter of the Unified CCE Features Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-feature-guides-list.html
+See the Enable Signed SAML Assertions topic in the Cisco IdS for Single Sign-On chapter of Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 In case the Cisco IdS hostname is same:
 
-If the Cisco IdS hostname remains unchanged after migration, refresh the metadata exchanged  between the Cisco IdS and the
+If the Cisco IdS hostname remains unchanged after migration, refresh the metadata exchanged between the Cisco IdS and the
                                     Identity Provider (AD FS):
 
 Upload the IdP metadata in Cisco IdS:
@@ -2891,7 +2900,7 @@ In the Cisco IdS Trust tab, download the XML file.
 Update the Cisco IdS metadata in the IdP by running the following command:
 
 ```
-Update-AdfsRelyingPartyTrust -MetadataFile <path to downloaded Cisco IdS metadata file>  -TargetName  <Relying Party Trust Display Name>
+Update-AdfsRelyingPartyTrust -MetadataFile <path to downloaded Cisco IdS metadata file> -TargetName <Relying Party Trust Display Name>
 ```
 
 ### Unified Intelligence Center - Migration from VMware to Nutanix
@@ -2966,7 +2975,7 @@ Version 15.0(1) SU1
 
 Version 15.0(1) SU2
 
-Version 12.6(2) ES06
+Version 12.6(2) ES08
 
 Ensure that the Cisco DB, Cisco DB Replicator, and Unified Intelligence Center Reporting Service services are started.
 
@@ -3096,6 +3105,8 @@ For more information, see the Shut down in the Source VM(s) section in this guid
 #### Fresh Install VM with Import option on Nutanix Using Exported Platform Data
 
 For more information, see the Fresh Install VM with Import option on Nutanix Using Exported Platform Data section in this guide.
+
+Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x.
 
 #### Import Unified Intelligence Center Data from the Remote Server to the Destination VM (Publisher)
 
@@ -3364,8 +3375,6 @@ For more information, see the show live-data failover section in the Live Data S
 
 Verify that the Live Data Administration and Data Server Database (AWDB) configuration is correct. Run the following CLI command:
 
-For more information, see the CLI commands chapter in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html .
-
 Use this workflow only for a standalone Live Data deployment. For a 2000-agent co-resident deployment, follow the Unified
                                                 Intelligence Center migration workflow.
 
@@ -3623,8 +3632,6 @@ Live Data stores the certificates for the Unified Intelligence Center and the AW
                                                 for the Unified Intelligence Center or AWDB change, import their certificates into Live Data using Cisco Unified OS Administration.
 
 For more information about Self-Signed Certificates, see the Post Installation section in the Installation chapter of Installation and Upgrade Guide for Cisco Unified Intelligence Center.
-
-##### Example
 
 ### Enterprise Chat and Email-Migration from VMware to Nutanix
 
@@ -4064,28 +4071,6 @@ After validation is complete, return to the Nutanix Move dashboard and continue 
 
 When you proceed with cutover, Nutanix Move removes the test VM that was created on the Nutanix cluster.
 
-### Restore the Source VM After Migration Failure
-
-Use this procedure to restore the source VM if migration fails.
-
-The source VMware virtual machine is powered off, and its network interface is changed to a disconnected state.
-
-Step 1
-
-Log in to VMware vCenter and locate the source virtual machine used for migration.
-
-Step 2
-
-Edit the VM settings and update the network adapter.
-
-Set the network adapter to Connected .
-
-Select Connect At Power On .
-
-Step 3
-
-Power on the virtual machine.
-
 ## Troubleshooting
 
 Sequence
@@ -4261,8 +4246,6 @@ Check the LD CORS configuration by running the following CLI command:
 utils live-data cors allowed_origins list
 ```
 
-For more information, see the Configure Cross Origin Resource Sharing (CORS) for Live Data section in the Installation chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html
-
 Ensure that the correct Finesse hostnames are listed in the URLs.
 
 Ensure Live Data failover state is either Active or Standby by running the following CLI command:
@@ -4305,8 +4288,6 @@ To update the Live Data configuration on Unified Intelligence Center, run the fo
 set live-data cuic-datasource
 ```
 
-For more information on the CLI commands, see the CLI commands chapter in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html
-
 Live Data reports do not load
 
 Ensure Live Data failover state is either Active or Standby by running the following CLI command:
@@ -4342,8 +4323,6 @@ set live-data machine-services
 ```
 
 To update the LD configuration on Unified Intelligence Center, run the set live-data cuic-datasource .
-
-For more information on the CLI commands, see the CLI commands chapter in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html
 
 ### Finesse
 
@@ -4436,25 +4415,20 @@ Invalid SSO client configuration
 
 As part of the Cisco IdS data migration, all Cisco IdS client data has been migrated. If the IP address, hostname, or port
                                           configuration of the SSO clients differs on the Nutanix system, modify or add those clients accordingly and validate the changes.
-                                          
-                                          
-                                          For more information, see the Hostname or IP Address Change section in the Cisco IdS for Single Sign-On chapter of
 
-Cisco Unified Contact Center Enterprise Features Guide .
+For more information, see the Hostname or IP Address Change section in the Cisco IdS for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 Unknown certificate error
 
-Upload the Cisco IdS Tomcat certificate to the SSO clients' trust store. 
-                                          
-                                          For more information, see the Certificates for Cisco IdS chapter of Cisco Finesse Administration Guide .
+Upload the Cisco IdS Tomcat certificate to the SSO clients' trust store.
+
+For more information, see the Certificates for Cisco IdS chapter of Cisco Finesse Administration Guide .
 
 Cisco IdS-to-IdP trust failure
 
-It is necessary to regenerate the SAML certificate in Cisco IdS and establish trust between Cisco IdS and the IdP. 
-                                          
-                                          For more information, see the Configure an Identity Provider section in the Cisco IdS for Single Sign-On chapter
+It is necessary to regenerate the SAML certificate in Cisco IdS and establish trust between Cisco IdS and the IdP.
 
-of Cisco Unified Contact Center Enterprise Features Guide.
+For more information, see the Configure an Identity Provider section in the Cisco IdS for Single Sign-On chapter of Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 ## Caveats
 
@@ -4465,6 +4439,19 @@ Component
 Description
 
 Any Impact
+
+VOS-based components
+
+On deployments where the Component Data Export and Import CLI commands are introduced through a COP/ES installation, the commands
+                                          do not work for privileged users created before the COP/ES installation. Use the Platform Administration account or create
+                                          a new privileged user after installing the COP/ES. This caveat does not apply to fresh installations where the commands are
+                                          included by default.
+
+For the common platform-data procedure, see Platform Data Migration Common Procedures for VOS-based Components .
+                                          For component-specific export and import procedures, see the topics listed in Contact Center Enterprise Components Migration from VMware to Nutanix .
+                                          For COP/ES installation details, see the Engineering Specials Installation Guide .
+
+Affected users cannot perform component data export or import until the workaround is used.
 
 Unified Intelligence Center
 
@@ -4487,11 +4474,11 @@ No functional impact
 |  | Supported 15.0(1) VMware source version | Supported 12.6(2) VMware source version |
 | CCE VOS-based Components |
 | Cloud Connect | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 04 | 15.0(1) SU2 |
-| Finesse | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 07 |
+| Finesse | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |
 | Cisco VVB | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |
 | Unified Intelligence Center Cisco Live Data Cisco Identity Service (Cisco IdS) | 15.0(1) with ES202511 (or) 15.0(1) SU1 (or) 15.0(1) SU2 | 12.6(2) ES 08 |  |
 | CCE Windows-based Components |
-| Unified CCE | 15.0(1) with ES202607 or later | 12.6(2) with ES 102 on AW, ES 108 on PG, ES 103 on Router, Logger, & Rogger | 15.0(1) with ES202607 or later |
+| Packaged CCE | Release 15.0(1) ES202607 or later | 12.6(2) with ES 102 on AW, ES 108 on PG, ES 103 on Router, Logger, & Rogger | 15.0(1) with ES202607 or later |
 | Unified CVP | 12.6(2) with ES 25 or later |
 | ECE | 12.6(1) ES 13 or later |
 | Unified CCMP | 12.6(1) ES 15 or later |
@@ -4504,12 +4491,11 @@ No functional impact
                                              Nutanix tools and technologies. |
 |---|---|
 
-| Note | Uninstallation of the Unified CCE base installation on Windows Server is not supported for Release 15.0(1). This limitation
-                                                   does not apply to Unified CCE client packages, which can be removed and reinstalled. For more information, see the Uninstallation
-                                                   chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . |
+| Note | Uninstallation of the Packaged CCE base installation on Windows Server is not supported for Release 15.0(1). This limitation does not apply to Packaged CCE client packages, which can be removed and reinstalled. For more information, see the Uninstallation chapter of the Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) . |
 |---|---|
 
-| Note | If you do not rebuild the server, you may notice missing directories, lost permissions, or corrupted soft links. |
+| Note | If you do not rebuild the server, you may notice missing directories, lost
+                                                   permissions, or corrupted soft links. |
 |---|---|
 
 | CCE Components | Download Link | OVA |
@@ -4523,7 +4509,7 @@ No functional impact
 | Unified CCMP | Download Unified CCMP OVA | Nutanix_CCMP_OVAs-v3.0.zip |
 | Unified Intelligence Center | Download Unified Intelligence Center and Live Data OVAs | cuic-ova-15.0.1-SU2-nutanix.zip |
 | Live Data | tempesta-ova-15.0.1-SU2-nutanix.zip |
-| Logger, Router, Rogger, Administration and Data Server, PG, Administration Client | Download Unified CCE OVAs | UCCE_15.0.1_Nutanix_v3.0_OVAs.ova.zip |
+| Logger, Router, Rogger, Administration and Data Server, PG, Administration Client | Download CCE OVAs | UCCE_15.0.1_Nutanix_v3.0_OVAs.ova.zip |
 
 | Note | On Nutanix, the VM boot mode (Legacy or UEFI) cannot be changed after VM creation. If a VM was created using Legacy BIOS and
                                        UEFI Secure Boot is required, the VM must be deleted and recreated using the appropriate OVA and boot settings. |
@@ -4624,10 +4610,12 @@ No functional impact
 | Step 32 | Reboot the server and sign in with domain credentials. |
 | Step 33 | Go to Settings > Update & Security and run Microsoft Windows Update. |
 
-| Step 1 | On the screen, Where do you want to install Windows , click Load Driver . |
+| Step 1 | On the screen, Where do you want to install Windows ,
+                                             click Load Driver . |
 |---|---|
-| Step 2 | Click Browse and navigate to the Nutanix VirtIO ISO (mounted as a second CD-ROM). |
-| Step 3 | Navigate to w11\amd64 and click OK . |
+| Step 2 | Click Browse and navigate to the Nutanix VirtIO ISO
+                                             mounted as a second CD-ROM. |
+| Step 3 | Navigate to w11\amd64\ and click OK . |
 | Step 4 | Select all the drivers and click Next . |
 
 | Sequence | Task |
@@ -4670,6 +4658,10 @@ No functional impact
                                                 performing a fresh installation with import (migration) . |
 |---|---|
 
+| Note | Fresh Install with Data Import does not support domain-name changes. The domain name on the destination node must match the
+                                             domain name on the source node. |
+|---|---|
+
 | Step 1 | Create a Virtual Machine using the OVA Template. Mount the 15.0(1) SU2 bootable image to the Virtual Machine (VM) and power
                                              on the VM. For more information, see the following sections in this guide: Upload OVA to Nutanix Upload Images to Nutanix Create a Virtual Machine from the OVA on Nutanix |
 |---|---|
@@ -4689,14 +4681,14 @@ No functional impact
 | Step 14 | Enter the SFTP server IP address, the complete path to the exported platform-data directory, the login ID, and the password.
                                           Specify the platform-data directory in the following format: cluster-<source-primary-IP-address> Then click OK . |
 | Step 15 | Provide the organization information on the Certificate Information page and click OK . Note During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Step 16 | For a standalone node such as Cisco VVB, skip this step. In the First Node Configuration screen, specify whether you are configuring the first node based on the following: If you are installing the primary node, click Yes under First Node Configuration . If you are installing the secondary node, click No under First Node Configuration . A warning message states that you must configure the first node before continuing. If the first node is already configured,
@@ -4706,16 +4698,13 @@ No functional impact
 | Step 19 | On the Platform Configuration Confirmation page, click OK . |
 
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                         and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 |---|---|
 
 | Note | Not applicable for single-node publisher-only systems. If the command is run on these systems, the following error message
                                                    will be displayed: Runtime state cannot be performed on a cluster with a single active node; aborting operation |
-|---|---|
-
-| Note | The following output is from Cisco Unified Intelligence Center (CUIC). Output details vary by VOS-based component and release. |
 |---|---|
 
 |  | Task |
@@ -4753,11 +4742,6 @@ No functional impact
 | Install Microsoft SQL Server for Rogger, Logger and Administration & Data Server VM(s) | Install Microsoft SQL Server |
 | Install Microsoft Windows 11 for Administration Client | Install Microsoft Windows 11 for Administration Client |
 
-| Note | Microsoft Visual C++ Redistributable is a prerequisite to install Administration Client on Windows VM deployed on Nutanix.
-                                             The latest version of Visual C++ Redistributable can be downloaded from Microsoft, also same is available in AdminClientInstaller
-                                             folder. |
-|---|---|
-
 | Sequence | Task |
 |---|---|
 | 1 | Create and Execute a Migration Plan |
@@ -4765,6 +4749,11 @@ No functional impact
 
 | Note | Nutanix Move performs a virtual-to-virtual (V2V) migration. The cutover requires the source VM to be shut down on the source hypervisor , which results in service disruption. Schedule the migration during a planned maintenance window. |
 |---|---|
+
+| Step 1 | Log in to VMware vCenter and locate the source virtual machine used for migration. |
+|---|---|
+| Step 2 | Edit the VM settings and update the network adapter. Set the network adapter to Connected . Select Connect At Power On . |
+| Step 3 | Power on the virtual machine. |
 
 | Sequence | Task |
 |---|---|
@@ -4870,14 +4859,14 @@ admin: |
 | Step 14 | Provide the SFTP server IP address, login ID, and password. For the directory, specify the cluster directory containing the
                                              exported platform data. Use the following format: <Export-Data-Directory>/cluster-<source-publisher-IP-address> For example: /cloudconnect-export/cluster-10.10.10.20 Use this cluster directory when installing both the destination publisher and subscriber. |
 | Step 15 | Enter the organization information on the Certificate Information page, and click OK . Note During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 | Step 16 | In the First Node Configuration screen, specify whether you are configuring the first node based on the following: If you are installing a primary node, then click Yes under the First Node Configuration. If you are installing a secondary node, then click No and provide the hostname and IP address of the destination publisher. A warning message states that you must configure the first node before continuing. If the first node is already configured,
@@ -4887,7 +4876,7 @@ admin: |
 | Step 19 | On the Platform Configuration Confirmation page, click OK . |
 
 | Note | During a fresh installation with data import, certificate migration depends on whether the destination uses the same hostname
-                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
+                                                               and IP address as the source: Same hostname and IP address: All source certificates are migrated, including: Tomcat RSA and ECDSA certificates Tomcat trust certificates IPsec and IPsec trust certificates CA-signed certificates, including root and intermediate CA certificates Component certificates uploaded to the Tomcat trust store Different hostname or IP address: Only certificates in the Tomcat trust store, including component certificates uploaded for trust, are migrated. No other
                                                                      source certificates are migrated. The destination generates a new self-signed RSA certificate based on the new hostname. The migrated Tomcat trust store can contain obsolete source-node certificates. These certificates do not cause functional
                                                                      issues. You can remove them from Cisco Unified OS Administration by choosing Security > Certificate Management . Verify the certificates on the destination node to ensure that all required trust relationships are established. |
 |---|---|
@@ -5145,6 +5134,9 @@ admin: |
 | Step 7 | Monitor the data export progress in the log by running the file tail command available on the CLI interface. |
 | Step 8 | To check the data export status, run the following command: utils component datamigration status |
 
+| Note | Unified Intelligence Center JMS and server certificates ( intelligencecenter-jms , intelligencecenter-jms-trust , intelligencecenter-srvr , and intelligencecenter-srvr-trust ) are not migrated because these services are not present in Release 15.x. |
+|---|---|
+
 | Step 1 | Log in to the Unified Intelligence Center publisher CLI using administrator credentials. |
 |---|---|
 | Step 2 | Run the following CLI command to initiate the import: utils component dataimport initiate |
@@ -5376,11 +5368,6 @@ admin: |
 | Note | When you proceed with cutover, Nutanix Move removes the test VM that was created on the Nutanix cluster. |
 |---|---|
 
-| Step 1 | Log in to VMware vCenter and locate the source virtual machine used for migration. |
-|---|---|
-| Step 2 | Edit the VM settings and update the network adapter. Set the network adapter to Connected . Select Connect At Power On . |
-| Step 3 | Power on the virtual machine. |
-
 | Sequence | Troubleshooting |
 |---|---|
 | 1 | Common Issues for Windows-based CCE Components |
@@ -5429,8 +5416,8 @@ admin: |
                                           Active Directory Settings section in the Cluster Configuration chapter of the Administration Console User Guide for Cisco Unified Intelligence Center . |
 | Unified Intelligence Center Historical Gadgets in Finesse desktop does not load | Check the Unified Intelligence Center CORS configuration by running the following CLI command: utils cuic cors allowed_origins list Ensure the correct Finesse hostnames are listed in the URLs. For more information, see the utils cuic cors section in the Command Line Interface chapter of the Administration Console User Guide for Cisco Unified Intelligence Center, Release 15.0(1) . |
 | Live Data |
-| Live Data Gadgets in Finesse desktop does not load | Check the LD CORS configuration by running the following CLI command: utils live-data cors allowed_origins list For more information, see the Configure Cross Origin Resource Sharing (CORS) for Live Data section in the Installation chapter of the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html Ensure that the correct Finesse hostnames are listed in the URLs. Ensure Live Data failover state is either Active or Standby by running the following CLI command: show live-data failover If LD is shown as out-of-service Check Live Data aw-access configuration by running the following CLI command: show live-data aw-access Ensure that the test connection is successful. If Test connection fails, run the following CLI command to re-configure the AWDB details: set live-data aw-access primary set live-data aw-access secondary Only for 4000 and above deployment models To register LD details on AWDB, run the following CLI command: set live-data machine-services To update the Live Data configuration on Unified Intelligence Center, run the following CLI command: set live-data cuic-datasource For more information on the CLI commands, see the CLI commands chapter in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html |
-| Live Data reports do not load | Ensure Live Data failover state is either Active or Standby by running the following CLI command: show live-data failover If LD is shown as out-of-service check Live Data aw-access configuration by running the following CLI command: show live-data aw-access Ensure that the test connection is successful. If Test connection fails, run the following CLI command to re-configure the AWDB details: set live-data aw-access primary set live-data aw-access secondary Only on 4000 and above deployment models Run the following CLI command to register LD details on AWDB: set live-data machine-services To update the LD configuration on Unified Intelligence Center, run the set live-data cuic-datasource . For more information on the CLI commands, see the CLI commands chapter in the Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html |
+| Live Data Gadgets in Finesse desktop does not load | Check the LD CORS configuration by running the following CLI command: utils live-data cors allowed_origins list Ensure that the correct Finesse hostnames are listed in the URLs. Ensure Live Data failover state is either Active or Standby by running the following CLI command: show live-data failover If LD is shown as out-of-service Check Live Data aw-access configuration by running the following CLI command: show live-data aw-access Ensure that the test connection is successful. If Test connection fails, run the following CLI command to re-configure the AWDB details: set live-data aw-access primary set live-data aw-access secondary Only for 4000 and above deployment models To register LD details on AWDB, run the following CLI command: set live-data machine-services To update the Live Data configuration on Unified Intelligence Center, run the following CLI command: set live-data cuic-datasource |
+| Live Data reports do not load | Ensure Live Data failover state is either Active or Standby by running the following CLI command: show live-data failover If LD is shown as out-of-service check Live Data aw-access configuration by running the following CLI command: show live-data aw-access Ensure that the test connection is successful. If Test connection fails, run the following CLI command to re-configure the AWDB details: set live-data aw-access primary set live-data aw-access secondary Only on 4000 and above deployment models Run the following CLI command to register LD details on AWDB: set live-data machine-services To update the LD configuration on Unified Intelligence Center, run the set live-data cuic-datasource . |
 
 | Issues | Resolution |
 |---|---|
@@ -5456,18 +5443,29 @@ admin: |
 | Issues | Resolution |
 |---|---|
 | Invalid SSO client configuration | As part of the Cisco IdS data migration, all Cisco IdS client data has been migrated. If the IP address, hostname, or port
-                                          configuration of the SSO clients differs on the Nutanix system, modify or add those clients accordingly and validate the changes.
-                                          
-                                          
-                                          For more information, see the Hostname or IP Address Change section in the Cisco IdS for Single Sign-On chapter of Cisco Unified Contact Center Enterprise Features Guide . |
-| Unknown certificate error | Upload the Cisco IdS Tomcat certificate to the SSO clients' trust store. 
-                                          
-                                          For more information, see the Certificates for Cisco IdS chapter of Cisco Finesse Administration Guide . |
-| Cisco IdS-to-IdP trust failure | It is necessary to regenerate the SAML certificate in Cisco IdS and establish trust between Cisco IdS and the IdP. 
-                                          
-                                          For more information, see the Configure an Identity Provider section in the Cisco IdS for Single Sign-On chapter of Cisco Unified Contact Center Enterprise Features Guide. |
+                                          configuration of the SSO clients differs on the Nutanix system, modify or add those clients accordingly and validate the changes. For more information, see the Hostname or IP Address Change section in the Cisco IdS for Single Sign-On chapter of the Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
+| Unknown certificate error | Upload the Cisco IdS Tomcat certificate to the SSO clients' trust store. For more information, see the Certificates for Cisco IdS chapter of Cisco Finesse Administration Guide . |
+| Cisco IdS-to-IdP trust failure | It is necessary to regenerate the SAML certificate in Cisco IdS and establish trust between Cisco IdS and the IdP. For more information, see the Configure an Identity Provider section in the Cisco IdS for Single Sign-On chapter of Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
 
 | Component | Description | Any Impact |
 |---|---|---|
+| VOS-based components | On deployments where the Component Data Export and Import CLI commands are introduced through a COP/ES installation, the commands
+                                          do not work for privileged users created before the COP/ES installation. Use the Platform Administration account or create
+                                          a new privileged user after installing the COP/ES. This caveat does not apply to fresh installations where the commands are
+                                          included by default. For the common platform-data procedure, see Platform Data Migration Common Procedures for VOS-based Components .
+                                          For component-specific export and import procedures, see the topics listed in Contact Center Enterprise Components Migration from VMware to Nutanix .
+                                          For COP/ES installation details, see the Engineering Specials Installation Guide . | Affected users cannot perform component data export or import until the workaround is used. |
 | Unified Intelligence Center | Unified Intelligence Center VM exhibits a surge in CPU usage in the Nutanix environment. | No functional impact |
 | Finesse | Finesse VM exhibits a surge in CPU usage on the Nutanix environment. | No functional impact |
+
+## Figuras
+
+![Figure 1. Platform Service Status on the Source Cloud Connect VM](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/497001-498000/497307.png)
+
+![Figure 2. Test Network Selection](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/497001-498000/497286.png)
+
+![Figure 3. Create Test VM](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/497001-498000/497287.png)
+
+![Figure 4. Test Migration Cutover](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/497001-498000/497288.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-79e5222a0f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_1501_media_server.html
-retrieved_at: 2026-08-21T12:10:46.252300+00:00
+retrieved_at: 2026-10-19T10:48:03.371197+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -215,3 +215,7 @@ For example, if you include a Set Variable node for the media server with a valu
                                              variable must be 33 or greater. Otherwise, the server name is truncated in the HTTP request for the file and the file is not
                                              found. |
 |---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

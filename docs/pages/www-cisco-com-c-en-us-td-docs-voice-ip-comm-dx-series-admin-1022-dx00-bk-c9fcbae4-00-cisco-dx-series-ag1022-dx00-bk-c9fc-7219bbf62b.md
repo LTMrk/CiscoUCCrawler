@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-7219bbf62b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_01100.html
-retrieved_at: 2026-08-21T21:02:19.235686+00:00
+retrieved_at: 2026-10-19T10:50:18.537714+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -1877,3 +1877,7 @@ DSCP value for sender RTP packets
 						payload type 19 comfort noise packets that Cisco gateways generate, which
 						increments this counter. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-6160e616c4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/rcct_m_1262_guidelines-for-custom-reverse-proxy-deployment.html
-retrieved_at: 2026-08-21T12:30:05.945765+00:00
+retrieved_at: 2026-10-19T10:43:03.052755+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -304,3 +304,7 @@ The reverse-proxy clears the Accept-Encoding header to have better control over 
                                              has to be done so that the Finesse server decides the connection management and not the Finesse client. This prevents security
                                              outages. |
 | Accept-Encoding | The reverse-proxy clears the Accept-Encoding header to have better control over compression aspects of the response. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

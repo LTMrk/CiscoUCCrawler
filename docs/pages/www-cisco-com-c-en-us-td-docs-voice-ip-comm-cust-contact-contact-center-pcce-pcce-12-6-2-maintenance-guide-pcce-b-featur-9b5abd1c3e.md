@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-9b5abd1c3e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/ucce_b_ucce-features-guide-12_5_chapter_01111.html
-retrieved_at: 2026-08-21T12:29:38.704148+00:00
+retrieved_at: 2026-10-19T10:43:35.044738+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -361,3 +361,7 @@ Select the survey from the pop-up window and click Save .
 | Step 3 | Select the Enable Experience Management check box to associate the Webex Experience Management survey. The Experience Management tab is enabled with the following options: Inline Survey Deferred Survey |
 | Step 4 | Select Inline Survey for email and chat. Click on the magnifying glass icon, and the configured surveys will be populated in the pop-up window. |
 | Step 5 | Select the survey from the pop-up window and click Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-78e3744dbc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/rcct_m_configuration-limits-and-feature-availability-15-0.html
-retrieved_at: 2026-08-25T01:22:47.690021+00:00
+retrieved_at: 2026-10-19T10:46:00.080117+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -2226,6 +2226,10 @@ Automated
 You cannot
                                           					 use a third-party ACD in a Reference Design.
 
+### Customers Also Viewed
+
+- Implement CA-Signed Certificates in a CCE 12.6 Solution
+
 | Note | The first four chapters of this book are for anyone who wants to get familiar with the contact center enterprise solutions: Packaged Contact Center Enterprise Unified Contact Center Enterprise For information about design considerations and guidelines specific to Packaged CCE , see the remaining chapters. |
 |---|---|
 
@@ -2560,3 +2564,7 @@ You cannot
 | Automated
                                           					 Call Distributor (ACD) | You cannot
                                           					 use a third-party ACD in a Reference Design. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

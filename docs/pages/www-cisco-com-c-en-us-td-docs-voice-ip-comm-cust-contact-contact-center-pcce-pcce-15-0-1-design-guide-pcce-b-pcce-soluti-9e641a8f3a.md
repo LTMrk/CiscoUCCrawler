@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-9e641a8f3a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/design_considerations_for_integrated_features.html
-retrieved_at: 2026-08-21T04:33:24.622631+00:00
+retrieved_at: 2026-10-19T10:45:43.102545+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -1134,7 +1134,7 @@ With call throttling of 60 cps on the SIP Dialer, a 20% hit rate for the transfe
 60 * (26 * 40 + 20% *100 + (1 – 20%)*49.6) = 67660.8 kbps = 67.66 Mbps
 ```
 
-## Contact Center AI Services Design Considerations
+## Contact Center AI Features Design Considerations
 
 ### Webex AI Agent Considerations
 
@@ -1378,16 +1378,16 @@ For the bandwidth and latency considerations specific to the regional media, ref
 
 The existing serviceability guidelines apply to regional media as well. For more information, refer to the Serviceability Guide for Cisco Unified ICM/Contact Center Enterprise .
 
-### Contact Center AI Services Considerations
+### Contact Center AI Features Considerations
 
 Cisco Unified CCE solution leverages Artificial Intelligence (AI) and Natural Language Understanding (NLU) to provide the
-                              following Contact Center AI services:
+                              following Contact Center AI features:
 
 Call Transcription : Assists the agents via Call Transcript gadget on the Cisco Finesse desktop.
 
 Virtual Agent–Voice (VAV) via cloud-based connector : Enables the customers to resolve issues within the IVR by integrating the IVR platform with cloud-based speech services.
 
-The CCE solution integrates with the following components to provide the Contact Center AI Services:
+The CCE solution integrates with the following components to provide the Contact Center AI features:
 
 Session Border Controller (SBC) terminates the PSTN SIP trunk and establishes SIP/TLS signaling with Unified CVP. It facilitates
                                     media flows between the caller and SBC, as well as between SBC and Cisco VVB (during IVR) and the agent phone (following a
@@ -1396,7 +1396,7 @@ Session Border Controller (SBC) terminates the PSTN SIP trunk and establishes SI
 Cisco Unified Border Element (CUBE) serves as the SBC, ensuring secure and reliable session management.
 
 CCAI Orchestrator Service is a cloud-based service located within the Regional Media data center. It receives the caller’s
-                                    audio stream from Cisco VVB via gRPC and routes it through to the chosen AI Service provider (such as Speech-to-Text (STT),
+                                    audio stream from Cisco VVB via gRPC and routes it through to the chosen AI feature provider (such as Speech-to-Text (STT),
                                     and Text-to-Speech (TTS) services) in real time. It generates the call transcript and agent caller summary, and publishes
                                     the data to downstream services.
 
@@ -1425,18 +1425,18 @@ Unified CVP controls a SIP recording (SIP-REC) directly on the SBC, which then a
 
 For more information on the Media Gateway service, see Media Gateway for CCAI Services .
 
-In CCE, customers associate Contact Center AI Services with either all call types or specific call types and then provision
-                              these services for individual agents or groups of agents.
+In CCE, customers associate Contact Center AI features with either all call types or specific call types and then provision
+                              these features for individual agents or groups of agents.
 
 Within the CCE Administration interface, agents must be enabled for the Call Transcription feature. In Cisco Finesse, customers
                               configure the Call Transcript gadget for the relevant teams.
 
 When an incoming call is received, if both the CCE and Agent Desktop configurations are correctly set for the agent and the
-                              call is associated with the AI services, the gadget becomes visible to the agent. During the conversation between the agent
+                              call is associated with the AI features, the gadget becomes visible to the agent. During the conversation between the agent
                               and the caller, the Call Transcript gadget dynamically converts the conversation into text, presenting it to the agent for
                               immediate reference.
 
-#### Contact Center AI Services Call Flow
+#### Contact Center AI Features Call Flow
 
 The following figure illustrates the call flow that demonstrates how Contact Center AI services operate within the system.
 
@@ -1490,6 +1490,114 @@ The Call Transcript gadget starts displaying the response received from the CCAI
                                        If the call has gone through the IVR/VAV phase, the call transcript of that conversation is also displayed in the gadget.
 
 For details on how to configure Contact Center AI Services, see the Virtual Agent–Voice , and the Call Transcription chapters in the Cisco Unified Contact Center Enterprise Features Guide and Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
+
+### Cisco AI Assistant Design Consideration
+
+Cisco AI Assistant gadget on the Cisco Finesse desktop provides real-time AI-driven guidance to boost efficiency, reduce burnout,
+                              and improve service quality. Key features include AI agent transfer summaries for quick interaction recaps, real-time assist
+                              during live interaction, and wrap-up summaries.
+
+AI Assistant Skill Studio is the admin workspace for creating, managing, previewing, publishing, and assigning Real-Time Assist
+                              skills that deliver context-aware suggestions and recommended actions to the right agents during customer interactions. For
+                              more information, see Create and manage AI Assistant skills article.
+
+Control Hub is Cisco’s centralized administration interface for configuring Webex Contact Center AI features and delivering
+                              related cloud services to the agent desktop.
+
+The following figure represents Cisco AI Assistant deployment model. The cloud layer hosts AI orchestration, and assistant
+                              services, while the enterprise layer keeps PSTN ingress, voice anchoring, routing, and the agent desktop under the control
+                              of the CCE deployment.
+
+The CCE solution integrates with the following components to provide the Cisco AI Assistant Features:
+
+Session Border Controller (SBC) terminates the PSTN SIP trunk and establishes SIP/TLS signaling with Unified CVP. It facilitates
+                                    media flows between the caller and SBC, as well as between SBC and Media Gateway and the agent phone (following a transfer).
+
+Cisco Unified Border Element (CUBE) serves as the SBC, ensuring secure and reliable session management.
+
+CCAI Orchestrator Service is a cloud-based service located within the Regional Media data center. It receives the caller’s
+                                    audio stream from Media Gateway via gRPC. It generates the call transcript and agent caller summary, and publishes the data
+                                    to downstream services.
+
+For more information on regional media data centers, see Regionalized Media Support for Contact Center AI Services .
+
+The CCAI Serving API and related services reside in the Webex Contact Center data center. When a call is transferred from
+                                    an AI agent to a human agent, the Cisco Finesse Agent Desktop uses the WebSocket based streaming Serving API to retrieve the
+                                    call transcript and the agent-caller summary.
+
+Cloud Connect serves as the primary gateway for on-premises components to communicate with cloud services by managing authentication
+                                    tokens (fetching, distributing, and revoking). Cisco VVB authenticates to Cloud Connect using admin credentials, obtains an
+                                    access token, and uses it  as a bearer token to secure the gRPC connection to the CCAI Orchestrator service.
+
+Unified CVP controls a SIP recording (SIP-REC) directly on the SBC, which then actively forks the media streams from both
+                                    the agent and the caller, directing these streams to the Media Gateway service. Subsequently, the Media Gateway transmits
+                                    these forked media streams to the CCAI Orchestrator service via the GRPC protocol.
+
+For more information on the Media Gateway service, see Media Gateway for CCAI Services .
+
+The Cisco AI Assistant on the Cisco Finesse desktop provides an on-screen AI panel that agents use during customer interactions.
+                                    It offers quick access to AI-generated assistance, including real-time guidance and conversation summaries.
+
+In the CCE deployment, customers associate Contact Center AI features with either all CallTypes or specific CallTypes and
+                              then provision these features for individual agents or groups of agents.
+
+Within the CCE Administration interface, agents must be enabled for the available AI Assistant features. In Cisco Finesse,
+                              customers configure the AI Assistant features for the relevant teams.
+
+When an incoming call is received, if both the CCE and Agent Desktop configurations are correctly set for the agent and the
+                              call is associated with the AI features, the agent sees the gadget on the desktop.
+
+For more information, see the Configuring Taskflow for Cisco AI Assistant topic in Cisco AI Assistant chapter in Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/series.html .
+
+#### Cisco AI Assistant - Call Flow
+
+The following figure illustrates the end-to-end call flow and shows how Cisco AI Assistant functions within the overall contact
+                                 center system.
+
+An incoming call arrives at the SBC.
+
+The SBC sends the call to Unified CVP by using SIP INVITE.
+
+Unified CVP sends a route request to CCE.
+
+CCE returns the routing response to Unified CVP and directs Unified CVP to apply the standard self-service treatment.
+
+Unified CVP connects the call to Cisco VVB.
+
+Cisco VVB invokes InsightInfer over gRPC and sends the configuration ID and call audio to the CCAI Orchestrator service.
+
+The CCAI Orchestrator service exchanges media with the AI providers (STT/TTS/NLU), invokes the required analysis, and returns
+                                       the response to Cisco VVB.
+
+Cisco VVB plays the response to the caller and continues the self-service interaction by processing voice and DTMF input.
+
+The CCAI Orchestrator service stores the transcript and related virtual agent interaction data in the CCAI API Service.
+
+After the virtual agent interaction is complete, the CCAI Orchestrator service initiates the transfer flow for handoff to
+                                       an agent.
+
+Cisco VVB initiates the transfer through Unified CVP.
+
+CCE sends the GED CONNECT-125 message to Unified CVP and indicates which Contact Center AI Features are enabled for the agent.
+
+CCE sends call event information, including the enabled Cisco AI Assistant features, to Finesse.
+
+Finesse sends the call notification to the Agent Desktop.
+
+If at least one Contact Center AI feature is enabled, Unified CVP signals the SBC to initiate the SIPREC session.
+
+The SBC forks the caller and agent media streams to the Media Gateway by using SIPREC/RTP.
+
+Media Gateway converts the forked media to gRPC and sends InsightInfer, including the configuration ID and audio, to the CCAI
+                                       Orchestrator service.
+
+CCAI Orchestrator service sends the real-time analysis request to the CCAI API Service.
+
+CCE and Finesse make the agent desktop AI features available in the active call context.
+
+The Cisco AI Assistant gadget on the Agent Desktop receives the call transcript and Real-Time Assist updates.
+
+For details on how to configure Contact Center AI features, see the Cisco AI Assistant chapters in the Cisco Packaged Contact Center Enterprise Features Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
 
 ### Bring Your Own Virtual Agent (BYO VA) Considerations
 
@@ -3382,7 +3490,7 @@ The Webex Contact Center AI Features (CCAI) platform is used for providing VAV c
 
 The VirtualAgentVoice element of Cisco Unified Call Studio is used for enabling these services.
 
-For architecture diagram and call flow details, refer to the Contact Center AI Services Considerations section in this chapter.
+For architecture diagram and call flow details, refer to the Contact Center AI Features Considerations section in this chapter.
 
 #### VAV Call Flow via Premise-Based Connector
 
@@ -3720,6 +3828,9 @@ The custom code (written by developers in Java to fulfill the business logic) ca
 | Note | Cisco Unified Border Element (CUBE) serves as the SBC, ensuring secure and reliable session management. |
 |---|---|
 
+| Note | Cisco Unified Border Element (CUBE) serves as the SBC, ensuring secure and reliable session management. |
+|---|---|
+
 | Note | The high-level media path is the same for both Scripted and Autonomous modes; the primary difference lies in the virtual agent
                                           processing logic. |
 |---|---|
@@ -3861,3 +3972,73 @@ The custom code (written by developers in Java to fulfill the business logic) ca
 
 | Note | DispatchId tells the CVP call server that Email/SMS needs to be sent back to the caller after the call ends. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Agent Greeting Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392107.eps/_jcr_content/renditions/392107.jpg)
+
+![Figure 2. Application Gateway Call Flows](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510238.jpg)
+
+![Figure 3. SIP Dialer Agent Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392165.eps/_jcr_content/renditions/392165.jpg)
+
+![Figure 4. SIP Dialer Unattended VRU Campaign Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392166.eps/_jcr_content/renditions/392166.jpg)
+
+![Figure 5. Single Gateway Deployment for SIP Dialer](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253280.eps/_jcr_content/renditions/253280.jpg)
+
+![Figure 6. Multiple Gateway Deployment for SIP Dialer](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/250001-260000/253001-254000/253281.eps/_jcr_content/renditions/253281.jpg)
+
+![Figure 7. Distributed Deployment Example for Agent-Based Campaign](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392168.eps/_jcr_content/renditions/392168.jpg)
+
+![Figure 8. Distributed Outbound SIP Dialer Deployment for an Agent-Based Campaign](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392168.eps/_jcr_content/renditions/392168.jpg)
+
+![Figure 9. Distributed Outbound SIP Dialer Deployment for Transfer to a VRU Campaign with CVP](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392167.eps/_jcr_content/renditions/392167.jpg)
+
+![Figure 10. Architecture – Webex AI Agent - Voice Channels](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/491001-492000/491934.jpg)
+
+![Figure 11. Webex AI Agent Call Flow Diagram](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/492001-493000/492163.jpg)
+
+![Figure 12. Architecture – Webex AI Agent - Digital Channels](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495188.jpg)
+
+![Figure 13. Webex AI Agent Digital Channel Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495212.jpg)
+
+![Figure 14. Contact Center AI Services Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/492001-493000/492162.jpg)
+
+![Figure 15. Contact Center AI Services Call Flow Diagram](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495299.jpg)
+
+![Figure 16. Cisco AI Assistant - Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/496001-497000/496182.png)
+
+![Figure 17. Cisco AI Assistant Call Flow Diagram](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/496001-497000/496185.jpg)
+
+![Figure 18. BYOVA - Voice Channel Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495438.jpg)
+
+![Figure 19. BYOVA Call Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495439.jpg)
+
+![Figure 20. Courtesy Callback Components. This figure shows the components used for the Courtesy Callback feature.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/489001-490000/489444.jpg)
+
+![Figure 20. Courtesy Callback Components. This figure shows the components used for the Courtesy Callback feature.](https://www.cisco.com/content/dam/en/us/td/i/templates/new_note.svg)
+
+![Figure 22. Digital Channels Integration with Webex Connect—Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/469001-470000/469658.jpg)
+
+![Figure 23. New Task Request](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473586.jpg)
+
+![Figure 24. Transfer Task Request](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473588.jpg)
+
+![Figure 25. Close Task Request](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473587.jpg)
+
+![Figure 26. Abandoned Task on Agent Desktop](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473591.jpg)
+
+![Figure 27. Abandoned Task at CCE Router Queue](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473590.jpg)
+
+![Figure 28. Abandoned Task at Digital Routing Service Queue](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473589.jpg)
+
+![Figure 29. Cisco Unified Mobile Agent Architecture](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392156.eps/_jcr_content/renditions/392156.jpg)
+
+![Figure 30. Architecture](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/464001-465000/464348.jpg)
+
+![Figure 31. Voice Survey Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510868.jpg)
+
+![Figure 32. Email/SMS Survey Call Flow](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510870.jpg)
+
+![Figure 33. Whisper Announcement Call Flow](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392108.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

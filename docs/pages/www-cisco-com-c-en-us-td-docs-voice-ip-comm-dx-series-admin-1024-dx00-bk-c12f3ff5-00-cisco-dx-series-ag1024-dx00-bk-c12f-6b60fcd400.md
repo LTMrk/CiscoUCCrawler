@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1024-dx00-bk-c12f3ff5-00-cisco-dx-series-ag1024-dx00-bk-c12f-6b60fcd400
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024/DX00_BK_C12F3FF5_00_cisco-dx-series-ag1024_chapter_01010.html
-retrieved_at: 2026-08-21T04:58:31.568685+00:00
+retrieved_at: 2026-10-19T10:51:10.171767+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(4)
@@ -4369,3 +4369,7 @@ relate to lock screen timeout. |
 | Step 5 | In the Subscribed Cisco IP Phone Services window for the device, use the Select a service drop-down list box to choose the service that you created. This action triggers subscription of the device to the service that you specify. |
 | Step 6 | Click Next . |
 | Step 7 | Click Subscribe . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-cdac45aa91
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/rcct_m_high-availability-and-network-design_15_0.html
-retrieved_at: 2026-08-21T12:14:14.036482+00:00
+retrieved_at: 2026-10-19T10:46:09.586752+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -3004,3 +3004,58 @@ On receipt of the message to resumes task routing, from the MR PIM, the Digital 
 
 | Note | This is not applicable for conversations that are initiated through email. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Unified CCE
+                              		  Component Redundancy](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393021.eps/_jcr_content/renditions/393021.jpg)
+
+![Figure 2. Network Requirements for Cisco UCS B-Series Servers](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510800.jpg)
+
+![Figure 3. Network Requirements for Cisco UCS C-Series Servers](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510813.jpg)
+
+![Figure 4. High Availability Ingress Points](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392160.eps/_jcr_content/renditions/392160.jpg)
+
+![Figure 5. Example of Public and Private Network Segments for a Unified CCE System](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341385.jpg)
+
+![Figure 6. High Availability Ingress Points](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392160.eps/_jcr_content/renditions/392160.jpg)
+
+![Figure 7. Unified CVP High Availability Deployment](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392180.eps/_jcr_content/renditions/392180.jpg)
+
+![Figure 8. Redundant
+                              		  Unified CVP System](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392155.eps/_jcr_content/renditions/392155.jpg)
+
+![Figure 9. CTI Manager with Agent PG Connection Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392188.eps/_jcr_content/renditions/392188.jpg)
+
+![Figure 10. Unified Communications Manager Without Link to Agent PG Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392189.eps/_jcr_content/renditions/392189.jpg)
+
+![Figure 11. Agent PG Cannot Connect to Backup CTI Manager](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392182.eps/_jcr_content/renditions/392182.jpg)
+
+![Figure 12. Unified Communications Manager and CTI Manager Fail](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392184.eps/_jcr_content/renditions/392184.jpg)
+
+![Figure 13. Agent PG Side A Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392183.eps/_jcr_content/renditions/392183.jpg)
+
+![Figure 14. CTI Server Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392186.eps/_jcr_content/renditions/392186.jpg)
+
+![Figure 15. VRU PG Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392187.eps/_jcr_content/renditions/392187.jpg)
+
+![Figure 16. Primary Real-Time Distributor Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390021.eps/_jcr_content/renditions/390021.jpg)
+
+![Figure 17. Live Data Reporting Topology](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393018.eps/_jcr_content/renditions/393018.jpg)
+
+![Figure 18. Connections in
+                              		  Unified Communications Manager Cluster](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/347001-348000/347695.eps/_jcr_content/renditions/347695.jpg)
+
+![Figure 19. Redundancy Configuration Options](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392161.eps/_jcr_content/renditions/392161.jpg)
+
+![Figure 20. Multiple Cisco Finesse Servers](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/392001-393000/392162.eps/_jcr_content/renditions/392162.jpg)
+
+![Figure 21. Cisco Finesse Server Fails](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/390001-391000/390026.eps/_jcr_content/renditions/390026.jpg)
+
+![Figure 22. Digital Channels Integration Using Webex Connect—High Availability Design](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/472001-473000/472665.jpg)
+
+![Figure 23. Router Failure](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473792.jpg)
+
+![Figure 24. MR PG Failure](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/470001-480000/473001-474000/473793.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

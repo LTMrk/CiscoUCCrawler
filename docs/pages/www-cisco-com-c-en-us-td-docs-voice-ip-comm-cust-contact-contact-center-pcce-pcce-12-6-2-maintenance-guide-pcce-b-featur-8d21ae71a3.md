@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-12-6-2-maintenance-guide-pcce-b-featur-8d21ae71a3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_12_6_2/maintenance/guide/pcce_b_features-guide-1262/rcct_m_vpn-less-access-to-finesse-desktop_1262.html
-retrieved_at: 2026-08-21T12:29:31.078815+00:00
+retrieved_at: 2026-10-19T10:43:22.044784+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 12.6(2)
@@ -1145,3 +1145,11 @@ When the SystemInfo API is accessed through a reverse-proxy, the authorization h
 | Note | Stock reports and custom reports can be viewed in VPN-less supervisor desktop. However, before viewing the custom reports
                                                    as gadgets in VPN-less supervisor desktop, run the command, set cuic properties allow-proxy-custom-report on . To configure the data set size for Historical report, run the command, set cuic properties vpnless-response-size-ht . By default, the data set size for HT is set to 8MB. To configure the data set size for Real Time report, run the command, set cuic properties vpnless-response-size-rt . By default, the data set size for RT is set to 300KB. If the data set size is more than the configured value, the gadget will display the following error message: Failed to load the gadget. Response size is more than allowed limit. Please contact your Administrator. This limitation is applicable on VPN-less deployments only. For more information about configuring the data set size, see set Cisco Unified Intelligence Center properties section in Administration Console User Guide for Cisco Unified Intelligence Center at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-intelligence-center/products-maintenance-guides-list.html . |
 |---|---|
+
+## Figuras
+
+![Figure 3. Hostname Mapping Example](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511238.jpg)
+
+![Figure 4. Network Architecture Example](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/511001-512000/511239.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

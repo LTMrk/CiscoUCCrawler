@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-66cc9f59c2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_scripting-specifics-in-a-packaged-cce-environment_15_0.html
-retrieved_at: 2026-08-21T16:50:42.223358+00:00
+retrieved_at: 2026-10-19T10:45:04.179541+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -317,3 +317,7 @@ You set the interruptibility of a VRU script through the Network VRU Scripts gad
 
 | Note | The router waits indefinitely on the last step, irrespective of the selection of this check box. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

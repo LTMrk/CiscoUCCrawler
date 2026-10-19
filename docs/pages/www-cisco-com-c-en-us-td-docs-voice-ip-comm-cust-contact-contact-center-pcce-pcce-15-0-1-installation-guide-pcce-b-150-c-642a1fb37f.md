@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-installation-guide-pcce-b-150-c-642a1fb37f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/packaged_CCE_12000_agents_installation.html
-retrieved_at: 2026-08-21T12:09:08.765489+00:00
+retrieved_at: 2026-10-19T10:46:44.505078+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -15,6 +15,13 @@ Chapter: Packaged CCE 12000 Agents Installation
 ## Chapter: Packaged CCE 12000 Agents Installation
 
 # Packaged CCE 12000 Agents Installation
+
+## Fresh Install on Nutanix
+
+Fresh installation on Nutanix is supported for all Windows-based and VOS-based CCE components. Use the appropriate Nutanix
+                           OVA. For fresh-install procedures, see the Installation chapter in the applicable guide:
+
+Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
 
 ## Installation Tasks
 
@@ -388,3 +395,7 @@ Configure Permissions in the Local Machine
 | 9 | Install Microsoft SQL Server |
 | 10 | Install Cisco Unified Contact Center Enterprise |
 | 11 | Configure Permissions in the Local Machine |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

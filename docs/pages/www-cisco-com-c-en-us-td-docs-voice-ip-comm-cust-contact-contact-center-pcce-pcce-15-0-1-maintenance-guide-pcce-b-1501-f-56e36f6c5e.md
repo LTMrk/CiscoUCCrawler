@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-56e36f6c5e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_150_agent-greeting.html
-retrieved_at: 2026-08-21T12:10:07.890810+00:00
+retrieved_at: 2026-10-19T10:48:17.579363+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -817,10 +817,6 @@ There is no counter for the number of failed agent greeting calls.
 When system components fail, Agent Greeting may be impacted. For example, if a requested greeting audio file cannot be found
                                  for any reason, the call proceeds normally without the Agent Greeting.
 
-### Customers Also Viewed
-
-- Implement CA-Signed Certificates in a CCE 12.6 Solution
-
 | Note | If you disable BIB, the system attempts to use a conference bridge for Agent Greeting call flow and raises a warning event. |
 |---|---|
 
@@ -970,3 +966,13 @@ When system components fail, Agent Greeting may be impacted. For example, if a r
 
 | Note | There is no counter for the number of failed agent greeting calls. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Agent Greeting Record Script](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302476.tif/_jcr_content/renditions/302476.jpg)
+
+![Figure 2. Script with Descriptive Greeting Type Strings](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302475.tif/_jcr_content/renditions/302475.jpg)
+
+![Figure 3. Agent Greeting Play Script Example](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/300001-310000/302001-303000/302473.tif/_jcr_content/renditions/302473.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

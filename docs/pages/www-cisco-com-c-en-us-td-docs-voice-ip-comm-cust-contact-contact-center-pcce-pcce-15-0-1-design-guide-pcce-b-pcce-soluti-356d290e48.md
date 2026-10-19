@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-design-guide-pcce-b-pcce-soluti-356d290e48
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/design/guide/pcce_b_pcce-solution-design-guide-15-0/rcct_m_unified-cce-reference-designs_15_0.html
-retrieved_at: 2026-08-21T12:11:48.734533+00:00
+retrieved_at: 2026-10-19T10:46:27.229149+00:00
 ---
 
 Solution Design Guide for Cisco Packaged Contact Center Enterprise, Release 15.0(1)
@@ -281,6 +281,11 @@ The Reference
                            see the Cisco Collaboration Virtualization page for your solution at http://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/uc_system/virtualization/cisco-collaboration-virtualization.html .
 
 The following notes apply to all the Reference Designs:
+
+Nutanix hypervisor platforms, introduced in release 15.0(1) SU2/ES202607, are supported in accordance with spec-based policies
+                                 only.
+
+For more information, see the Migration from VMware to Nutanix chapter in the Cisco Packaged Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1) at https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/installation/guide/pcce_b_150_cisco_pcce_installationandupgrade_guide/pcce_m_150_migration-vmware-to-nutanix.html
 
 Cisco UCS C240 M7 and Cisco UCS C240 M8 rack servers are supported in accordance with spec-based policies only.
 
@@ -1511,3 +1516,19 @@ The maximum
                                        		  allowed round-trip time between any remote office and the data center is 200
                                        		  ms. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Contact Center Enterprise Components and Features](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510652.jpg)
+
+![Figure 2. 2000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/488001-489000/488700.jpg)
+
+![Figure 3. 4000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/488001-489000/488702.jpg)
+
+![Figure 4. 12000 Agent Reference Design Model](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/488001-489000/488704.jpg)
+
+![Figure 5. Contact Director Solution with Three Unified CCE Target Instances](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/489001-490000/489380.jpg)
+
+![Figure 6. Reference Design Topologies](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393282.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-4db6487637
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_packaged-cce-administration_15_0.html
-retrieved_at: 2026-08-25T01:21:25.974965+00:00
+retrieved_at: 2026-10-19T10:44:33.766663+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -5692,9 +5692,6 @@ Email Address
 
 no
 
-The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered.
-
 The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected.
 
 The following must be true for any email address:
@@ -7780,6 +7777,8 @@ If you create
                                  		  administrator and object. These are called departmental administrators and objects. Your Packaged CCE configuration can include a mix
                                  		  of global and departmental administrators and objects.
 
+Departments named global or service are reserved in Packaged CCE and are unsupported starting with release 12.6(1).
+
 You can creating
                                  		  routing scripts for a department by referencing objects from that department in
                                  		  the scripts.
@@ -7947,7 +7946,8 @@ Name (Required)
 
 Important
 
-Do not name the department as Service or Global .
+Do not name the department as Service or Global ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1) to avoid configuration
+                                                                  issues, including lost agent attributes or department-assignment problems.
 
 Description (Optional) Enter a maximum of 255 characters to describe the department. See Character Sets for details on valid characters for this field.
 
@@ -13846,6 +13846,20 @@ Packaged CCE webadmin provides the following optional features that you can conf
 
 #### Contact Center AI Configuration
 
+In the Unified CCE Administration console, the Contact Center AI feature tab allows administrators to view the Default Configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) with all the call types (default configuration). Upon associating a configuration with a specific call type, the default
+                                    configuration (if any) gets overridden for the specific call type.
+
+To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register.
+
+Contact Center AI configuration sets up and manages AI capabilities for customer and agent interactions. It defines integrations, virtual-agent
+                                    behavior, routing, knowledge sources, and access controls.
+
+Contact Center AI is created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) with all the call types (Global configuration).
+
+You can associate the Contact Center AI configuration with all call types or a specific call type. Upon associating Contact Center AI configuration with a specific call type, the default configuration (if any) gets overridden for the specific call type.
+
+To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register.
+
 In the Unified CCE Administration Console, navigate to Overview > Features > Contact Center AI. Select Cisco-billed AI Features . The following tabs appear:
 
 Overview tab: Displays the following details in a table format:
@@ -13857,10 +13871,10 @@ The type of connectors and their corresponding call types.
 The Contact Center AI configurations used for different call types, along with their associated connector types.
 
 Contact Center AI Configs tab: Displays the default configuration (created or configured in the Cisco Webex Control Hub at https://admin.webex.com/ ) along with all other available Contact Center AI configurations, each showing its corresponding connector type. Click the Sync button to retrieve the latest configuration from the Control Hub and show them in CCE. The last synced time gets updated.
-                                       For more information, see the Sync Contact Center AI Global Configuration section in this Guide.
+                                          For more information, see the Sync Contact Center AI Global Configuration section in this Guide.
 
-To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and  registered
-                                             in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
+To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                                in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html .
 
 ##### Associate Contact Center AI Configuration with All Call Types
 
@@ -16187,9 +16201,19 @@ A global
                                                    						already exist. It appears in the List of Departments with the description
                                                    						BulkJob ID ####, where #### is the number of the bulk job.
 
+Important
+
+Do not name the department as Service or Global .
+
 If the
                                                    						department already exists, then that department can be entered by a global
                                                    						administrator or by an administrator who administers that department.
+
+Important
+
+Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems.
 
 site Name
 
@@ -16319,8 +16343,18 @@ The department for this dialed number.
 A global administrator's entry of department creates that department if it does not already exist. It appears in the List
                                                    of Departments with the description BulkJob ID ####, where #### is the number of the bulk job.
 
+Important
+
+Do not name the department as Service or Global .
+
 If the department already exists, then that department can be entered by a global administrator or by an administrator who
                                                    administers that department.
+
+Important
+
+Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems.
 
 site Name
 
@@ -16452,17 +16486,26 @@ departmentName
 
 no
 
-The
-                                                   						department for this call type.
+The department for this call type.
 
 A global
                                                    						administrator's entry of department creates that department if it does not
                                                    						already exist. It appears in the List of Departments with the description
                                                    						BulkJob ID ####, where #### is the number of the bulk job.
 
+Important
+
+Do not name the department as Service or Global .
+
 If the
                                                    						department already exists, then that department can be entered by a global
                                                    						administrator or by an administrator who administers that department.
+
+Important
+
+Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems.
 
 ##### Bulk Skill Group Content File
 
@@ -16553,8 +16596,18 @@ The department for this skill group.
 A global administrator's entry of department creates that department if it does not already exist. It appears in the List
                                                    of Departments with the description BulkJob ID ####, where #### is the number of the bulk job.
 
+Important
+
+Do not name the department as Service or Global .
+
 If the department already exists, then that department can be entered by a global administrator or by an administrator who
                                                    administers that department.
+
+Important
+
+Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems.
 
 site Name
 
@@ -18917,15 +18970,12 @@ Login.submitLoginRequest = function () {
                                                             For more information, see https://help.webex.com/en-us/article/n24wo0fb/Register-Cloud-Connect . Support Email & Chat (ECE) no This check box appears only when ECE is configured for a peripheral set or a data center. By default, it is not checked. Screen Name yes The screen name of the ECE-enabled agent. The screen name must be at least 1 character and no more than 30 characters. The
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
-                                                            128. This field is required if Support Email & Chat is checked. Email Address no Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. Note When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            128. This field is required if Support Email & Chat is checked. Email Address no Note The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. Note When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
                                                             that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. | Field | Required? | Description | Support Digital Channel | No | Check the check box to enable the agent for digital channel interaction. This check box appears only if you have added Cloud Connect in your inventory and you have registered it in the Control Hub.
                                                             For more information, see https://help.webex.com/en-us/article/n24wo0fb/Register-Cloud-Connect . | Support Email & Chat (ECE) | no | This check box appears only when ECE is configured for a peripheral set or a data center. By default, it is not checked. | Screen Name | yes | The screen name of the ECE-enabled agent. The screen name must be at least 1 character and no more than 30 characters. The
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
-                                                            128. This field is required if Support Email & Chat is checked. | Email Address | no | Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
+                                                            128. This field is required if Support Email & Chat is checked. | Email Address | no | Note The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note |  | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
                                                             that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. |
 | Field | Required? | Description |
 | Support Digital Channel | No | Check the check box to enable the agent for digital channel interaction. This check box appears only if you have added Cloud Connect in your inventory and you have registered it in the Control Hub.
@@ -18935,11 +18985,8 @@ Login.submitLoginRequest = function () {
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
                                                             128. This field is required if Support Email & Chat is checked. |
-| Email Address | no | Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
-| Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. |
+| Email Address | no | Note The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note |  | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
+| Note |  |
 | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
 | Note | When ECE and Webex Connect Digital Channels are configured in the same deployment, select both Support Digital Channel and Support Email & Chat (ECE) for an agent who handles interactions from both platforms. Ensure that SSO is enabled for both ECE and Webex Connect and
                                                             that the agent belongs to the skill groups associated with the applicable ECE and Webex Connect Media Routing Domains. |
@@ -19042,15 +19089,11 @@ Login.submitLoginRequest = function () {
                                                             following characters can be used in screen names: Uppercase and lowercase alpha numeric characters (A-Z, a-z, 0-9); at sign
                                                             (@); space ( ); colon (:); period (.); underscore (_); hyphen (-); ampersand (&); and all the characters above ASCII codeset
                                                             128. This field is required if Support Email & Chat is checked. |
-| Email Address | no | Note The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
-| Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. |
+| Email Address | no | Note The email address of the  agent. Maximum length is 50 characters. Email address is mandatory when this check box is selected. The following must be true for any email address: Must include only one @ character. Must include at least one character between @ and dot ( . ). Must include one dot (.) after @ character. Dot (.) must not be the last character. Note Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. | Note |  | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
+| Note |  |
 | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
 
-| Note | The Email Address field is enabled only for IDS SSO and non-Webex Common Identity users. For Webex Common Identity users, the email address
-                                                                        is auto-populated and remains unaltered. |
+| Note |  |
 |---|---|
 
 | Note | Characters like round bracket (), angular bracket <> ,  and double quote " should not be included in the email address. |
@@ -19921,6 +19964,9 @@ Login.submitLoginRequest = function () {
                                                 (LLA). |
 |---|---|
 
+| Note | Departments named global or service are reserved in Packaged CCE and are unsupported starting with release 12.6(1). |
+|---|---|
+
 | Object Type | Can be associated with
                                           				  Global object? | Can be associated with
                                           				  Departmental object? |
@@ -19941,8 +19987,11 @@ Login.submitLoginRequest = function () {
                                                 				Department window. |
 | Step 3 | Complete the
                                              			 fields on the General tab: Name (Required)
-                                                   				  Enter a unique name for the department, using a maximum of 32 characters. Important Do not name the department as Service or Global . Description (Optional) Enter a maximum of 255 characters to describe the department. See Character Sets for details on valid characters for this field. | Important | Do not name the department as Service or Global . |
-| Important | Do not name the department as Service or Global . |
+                                                   				  Enter a unique name for the department, using a maximum of 32 characters. Important Do not name the department as Service or Global ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1) to avoid configuration
+                                                                  issues, including lost agent attributes or department-assignment problems. Description (Optional) Enter a maximum of 255 characters to describe the department. See Character Sets for details on valid characters for this field. | Important | Do not name the department as Service or Global ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1) to avoid configuration
+                                                                  issues, including lost agent attributes or department-assignment problems. |
+| Important | Do not name the department as Service or Global ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1) to avoid configuration
+                                                                  issues, including lost agent attributes or department-assignment problems. |
 | Step 4 | Click the Administrators tab. This tab shows
                                                 				the Username and Domain of the administrators who currently serve as department
                                                 				administrators and allows you to add or remove administrators. Click Add to open the Add Administrators popup window. Click one
@@ -19951,7 +20000,8 @@ Login.submitLoginRequest = function () {
 | Step 5 | Click Save to return to the list window, where a message
                                              			 confirms the successful creation of the department. |
 
-| Important | Do not name the department as Service or Global . |
+| Important | Do not name the department as Service or Global ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1) to avoid configuration
+                                                                  issues, including lost agent attributes or department-assignment problems. |
 |---|---|
 
 | Step 1 | In Unified CCE Administration , choose Organization > Campaigns . |
@@ -22490,8 +22540,14 @@ and state history of an agent. -->
 | VRU | Unified CVP Label |
 | Multichannel | Outbound Label |
 
-| Note | To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and  registered
-                                             in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . |
+| Note | To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register. |
+|---|---|
+
+| Note | To access this feature, add Cloud Connect to the inventory in the Unified CCE Administration console and register. |
+|---|---|
+
+| Note | To access this feature, Cloud Connect must be added to the inventory in the Unified CCE Administration console and registered
+                                                in Control Hub. For more information, see the Configure Cloud Connect section in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide at https://www.cisco.com/c/en/us/support/customer-collaboration/packaged-contact-center-enterprise/products-maintenance-guides-list.html . |
 |---|---|
 
 | Note | To access this feature, ensure that you add Cloud Connect to the inventory in the Unified CCE Administration portal and register
@@ -23253,9 +23309,17 @@ and state history of an agent. -->
                                                    						department for this dialed number. A global
                                                    						administrator's entry of department creates that department if it does not
                                                    						already exist. It appears in the List of Departments with the description
-                                                   						BulkJob ID ####, where #### is the number of the bulk job. If the
+                                                   						BulkJob ID ####, where #### is the number of the bulk job. Important Do not name the department as Service or Global . If the
                                                    						department already exists, then that department can be entered by a global
-                                                   						administrator or by an administrator who administers that department. |
+                                                   						administrator or by an administrator who administers that department. Important Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. | Important | Do not name the department as Service or Global . | Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+| Important | Do not name the department as Service or Global . |
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
 | site Name | no | The site name for this dialed number. For remote sites, the value must match an existing remote site name. For the main site, do not specify any value. |
 | ringtoneMediaFileName | no | Note Use this field when the routing type is External Voice. Enter the custom ringtone filename. Enter a maximum of 255 characters without any spaces. | Note | Use this field when the routing type is External Voice. |
 | Note | Use this field when the routing type is External Voice. |
@@ -23267,6 +23331,14 @@ and state history of an agent. -->
 |---|---|
 
 | Note | The following routing types are not supported: 8 (Digital Routing) 9 (Forking Dialed Number) |
+|---|---|
+
+| Important | Do not name the department as Service or Global . |
+|---|---|
+
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
 |---|---|
 
 | Note | Use this field when the routing type is External Voice. |
@@ -23296,8 +23368,16 @@ and state history of an agent. -->
                                                    of Call Types with the description BulkJob ID ####, where #### is the number of the bulk job. |
 | mediaRoutingDomainName | yes, for routingType 4, 5, and 6 | Optional for routingTypes 1, 2, and 3. If supplied, must be Cisco_Voice. Required for routingTypes 4, 5, and 6. The value must be Cisco_Voice or match an existing Media Routing Domain name. |
 | departmentName | no | The department for this dialed number. A global administrator's entry of department creates that department if it does not already exist. It appears in the List
-                                                   of Departments with the description BulkJob ID ####, where #### is the number of the bulk job. If the department already exists, then that department can be entered by a global administrator or by an administrator who
-                                                   administers that department. |
+                                                   of Departments with the description BulkJob ID ####, where #### is the number of the bulk job. Important Do not name the department as Service or Global . If the department already exists, then that department can be entered by a global administrator or by an administrator who
+                                                   administers that department. Important Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. | Important | Do not name the department as Service or Global . | Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+| Important | Do not name the department as Service or Global . |
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
 | site Name | no | Note This field is mandatory. The site name for this dialed number. For remote sites, the value must match an existing remote site name. For the main site, do not specify any value. | Note | This field is mandatory. |
 | Note | This field is mandatory. |
 | ringtoneMediaFileName | no | Note Use this field when the routing type is External Voice. Enter the custom ringtone filename. Enter a maximum of 255 characters without any spaces. | Note | Use this field when the routing type is External Voice. |
@@ -23312,6 +23392,14 @@ and state history of an agent. -->
 |---|---|
 
 | Note | The following routing types are not supported: 8 (Digital Routing) 9 (Forking Dialed Number) |
+|---|---|
+
+| Important | Do not name the department as Service or Global . |
+|---|---|
+
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
 |---|---|
 
 | Note | This field is mandatory. |
@@ -23349,13 +23437,28 @@ and state history of an agent. -->
 | bucketIntervalName | no | Identifier of the bucket interval, used for reporting. If
                                                    						specified, the value must match an existing bucket interval. If not
                                                    						specified, this field is set to the system default. |
-| departmentName | no | The
-                                                   						department for this call type. A global
+| departmentName | no | The department for this call type. A global
                                                    						administrator's entry of department creates that department if it does not
                                                    						already exist. It appears in the List of Departments with the description
-                                                   						BulkJob ID ####, where #### is the number of the bulk job. If the
+                                                   						BulkJob ID ####, where #### is the number of the bulk job. Important Do not name the department as Service or Global . If the
                                                    						department already exists, then that department can be entered by a global
-                                                   						administrator or by an administrator who administers that department. |
+                                                   						administrator or by an administrator who administers that department. Important Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. | Important | Do not name the department as Service or Global . | Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+| Important | Do not name the department as Service or Global . |
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+
+| Important | Do not name the department as Service or Global . |
+|---|---|
+
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+|---|---|
 
 | Field | Required? | Description |
 |---|---|---|
@@ -23371,12 +23474,28 @@ and state history of an agent. -->
                                                    and alphanumeric. The first character must be alphanumeric. If specified, the value must match an existing Media Routing Domain name. If not specified, this field is set to Cisco_Voice. You cannot change the mediaRoutingDomainName in an UPDATE operation. You must either leave this field blank or enter the existing
                                                    mediaRoutingDomainName value. |
 | departmentName | no | The department for this skill group. A global administrator's entry of department creates that department if it does not already exist. It appears in the List
-                                                   of Departments with the description BulkJob ID ####, where #### is the number of the bulk job. If the department already exists, then that department can be entered by a global administrator or by an administrator who
-                                                   administers that department. |
+                                                   of Departments with the description BulkJob ID ####, where #### is the number of the bulk job. Important Do not name the department as Service or Global . If the department already exists, then that department can be entered by a global administrator or by an administrator who
+                                                   administers that department. Important Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. | Important | Do not name the department as Service or Global . | Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+| Important | Do not name the department as Service or Global . |
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
 | site Name | no | Note This field is mandatory for Packaged CCE 4000 agent  and 12000 agent deployments. The site name for this dialed number. For remote sites, the value must match an existing remote site name. For the main site, do not specify any value. | Note | This field is mandatory for Packaged CCE 4000 agent  and 12000 agent deployments. |
 | Note | This field is mandatory for Packaged CCE 4000 agent  and 12000 agent deployments. |
 | peripheralSetName | yes | Note This mandatory field is available only for Packaged CCE 4000 agent and 12000 agent deployments. The peripheral set name for this skill group. The value must match an existing peripheral set name configured for the site specified in the site Name column. In an UPDATE operation, you cannot change peripheralSetName. In a DELETE operation, you cannot delete peripheralSetName. | Note | This mandatory field is available only for Packaged CCE 4000 agent and 12000 agent deployments. |
 | Note | This mandatory field is available only for Packaged CCE 4000 agent and 12000 agent deployments. |
+
+| Important | Do not name the department as Service or Global . |
+|---|---|
+
+| Important | Rename departments named global or service ; these are reserved names in Packaged CCE. Departments using these names are unsupported as of release 12.6(1). Before upgrading
+                                                               to a later release of Packaged CCE, rename any such departments to avoid configuration issues, including lost agent attributes
+                                                               or department-assignment problems. |
+|---|---|
 
 | Note | This field is mandatory for Packaged CCE 4000 agent  and 12000 agent deployments. |
 |---|---|
@@ -23432,3 +23551,19 @@ and state history of an agent. -->
 | At Most | Shows the maximum capacity of each configurable object that is allowed. |
 | Actual | Shows the number of objects currently configured on your system. |
 | % Used | Shows the percentage of the maximum capacity represented by your configuration. |
+
+## Figuras
+
+![Figure 2. License States](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510721.jpg)
+
+![Figure 3. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510715.jpg)
+
+![Figure 4. License Computation](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510716.jpg)
+
+![Figure 5. Payload icon](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510432.jpg)
+
+![Figure 9. Set Variable Properties](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510687.jpg)
+
+![Figure 10. Add Label Node](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/510001-520000/510001-511000/510686.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

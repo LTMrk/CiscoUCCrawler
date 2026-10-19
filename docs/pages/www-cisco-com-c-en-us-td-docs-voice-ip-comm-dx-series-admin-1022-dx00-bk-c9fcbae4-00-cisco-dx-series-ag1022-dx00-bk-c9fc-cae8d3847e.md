@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-dx-series-admin-1022-dx00-bk-c9fcbae4-00-cisco-dx-series-ag1022-dx00-bk-c9fc-cae8d3847e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/dx/series/admin/1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022/DX00_BK_C9FCBAE4_00_cisco-dx-series-ag1022_chapter_01101.html
-retrieved_at: 2026-08-21T21:02:23.718682+00:00
+retrieved_at: 2026-10-19T10:50:23.068590+00:00
 ---
 
 Cisco DX Series Administration Guide, Release 10.2(2)
@@ -3447,3 +3447,7 @@ When the RTP Control
 						Protocol is disabled, no data is generated for this field and therefore it
 						displays as 0. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

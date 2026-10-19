@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-13b4202f76
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/rcct_m_1501-bring-your-own-virtual-agent.html
-retrieved_at: 2026-08-21T12:10:19.983651+00:00
+retrieved_at: 2026-10-19T10:48:25.933674+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -573,3 +573,19 @@ Successful BYOVA is more than API reachability. The end-to-end service must be f
 | Area | Cisco Responsibilities | Partner or Customer Responsibilities | Shared Readiness Areas |
 |---|---|---|---|
 | Platform integration | Provide orchestration contracts and tenant boundaries. | Host connector, meet published interfaces, operate connector and provider VA. | The partner or customer submits the required documentation and test results for approval. Cisco reviews the submission and approves the service integration if the results meet the required criteria. |
+
+## Figuras
+
+![Figure 1. End-to-End Onboarding Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495393.png)
+
+![Figure 2. Phase-Based Qualification View](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495394.png)
+
+![Figure 3. Scale Readiness Checklist](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495396.png)
+
+![Figure 4. Validation Readiness Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495395.png)
+
+![Figure 5. Responsibility Boundary View](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495397.png)
+
+![Figure 6. What the Customer Should Understand by the End of the Guide](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/490001-500000/495001-496000/495398.png)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

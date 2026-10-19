@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-091f13ff28
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_database-administration_15_0.html
-retrieved_at: 2026-08-21T16:51:01.799975+00:00
+retrieved_at: 2026-10-19T10:44:00.415815+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -1587,3 +1587,9 @@ When the command
 | Step 4 | When prompted, Type Y to continue, upon which
                                           					configuration of target database will be deleted and synced with source
                                           					database. |
+
+## Figuras
+
+![Expand Database](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/480001-490000/489001-490000/489666.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

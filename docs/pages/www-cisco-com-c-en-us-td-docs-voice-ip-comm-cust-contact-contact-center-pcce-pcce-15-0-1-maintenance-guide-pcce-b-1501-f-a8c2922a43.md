@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-maintenance-guide-pcce-b-1501-f-a8c2922a43
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/maintenance/guide/pcce_b_1501_features-guide/pcce_m_1501_ece-webex-connect-co-deployment.html
-retrieved_at: 2026-08-21T12:10:38.214253+00:00
+retrieved_at: 2026-10-19T10:47:54.874799+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1)
@@ -18,15 +18,15 @@ Chapter: ECE and Webex Connect Co-deployment in Packaged CCE
 
 ## Overview
 
-CCE customers have been using ECE for digital channels (Chat and Email) for an extended period. With the introduction of Digital
-                           Channels Integration using Webex Connect in 12.6(2), a wide variety of communication channels such as SMS, Email, Facebook
-                           Messenger, and Whatsapp were made available.
+CCE customers have been using ECE for digital channels, such as Chat and Email, for an extended period. With Digital Channels
+                           Integration using Webex Connect in 12.6(2), Packaged CCE supports a wide variety of communication channels, including SMS,
+                           Email, Facebook Messenger, WhatsApp, Live Chat, and Apple Messages for Business.
 
-CCE now empowers customers to deploy both Webex Connect and ECE on a single Packaged CCE instance, allowing Contact Center
-                           agents to independently leverage digital channels from both platforms.
+You can deploy Webex Connect and ECE together on a single Packaged CCE instance. This co-deployment enables contact center
+                           agents to handle ECE interactions and Webex Connect digital-channel interactions independently from the same Cisco Finesse
+                           desktop.
 
-This feature will significantly improve the agent's experience, ensuring a seamless, cohesive, and uninterrupted workflow.
-                           Consequently, customer support across digital channels will be greatly enhanced.
+This co-deployment improves the agent experience by providing a seamless and consistent workflow across digital channels.
 
 ## Prerequisites
 
@@ -34,8 +34,9 @@ Before you configure ECE and Webex Connect in the same Packaged CCE deployment, 
 
 Configure ECE and Webex Connect individually.
 
-Use Packaged CCE, Cloud Connect, ECE, and Cisco Finesse Release 15.0(1). This feature does not require a feature-specific
-                                 Engineering Special or Service Update.
+Install ECE and provision Webex Connect for your organization through Cisco Commerce Workspace (CCW) or Control Hub.
+
+Use Packaged CCE and ECE Release 15.0(1) SU2/ES202607. Use Cloud Connect and Cisco Finesse Release 15.0(1) SU2.
 
 Enable Single Sign-On (SSO) for agents in both Packaged CCE and ECE. The Manage Digital Channels gadget authenticates with
                                  Webex Engage in SSO mode.
@@ -44,14 +45,12 @@ Create separate Media Routing Domains (MRDs) for ECE and Webex Connect. The two 
 
 Ensure that agents belong to the skill groups associated with the applicable nonvoice MRDs.
 
-Ensure that the Cloud Connect publisher is reachable. The DataConn service that synchronizes agents is active only on the
-                                 publisher.
+For deployments with multiple Agent PGs across main and remote sites, see Configuring Application Path in chapter Prepare Packaged CCE for the Integration of the Enterprise Chat and Email Installation and Configuration Guide for Packaged Contact Center Enterprise, Release 15.0(1) .
 
 Obtain administrator access to Packaged CCE Administration, Configuration Manager, Cloud Connect, ECE, Webex Connect, Webex
                                  Engage, and Cisco Finesse.
 
-This feature was qualified in the PCCE 2000-agent reference design. Confirm support for other Packaged CCE reference designs
-                           in the applicable solution-design documentation before deployment.
+This feature supports Packaged CCE deployments across the supported reference designs.
 
 ## Workflow for Configuring ECE and Webex Connect Co-deployment
 
@@ -65,44 +64,28 @@ Webex Connect Digital Channels
 
 1
 
-Review the Packaged CCE objects that are created automatically.
+Establish certificate trust.
 
-Packaged CCE creates the DigitalRouting peripheral, the DigitalRouting routing client, the membership that associates the existing Agent_Targeting_Rule with the DigitalRouting routing client, and the Media Routing Peripheral Gateway (MR PG).
-
-You must configure the Media Routing PIMs, establish certificate trust, add Cloud Connect to the Packaged CCE inventory, associate
-                                       the ECE and Webex Connect media routing domains with their application paths, synchronize agents and ECC variables, configure
-                                       the Webex Connect integration, and enable both gadgets in the Finesse desktop layout.
+For more information, see the
+                                       Establish secured connection between Cloud Connect and MR PG using self-signed certificate
+                                       and
+                                       Establish secured connection between Cloud Connect and MR PG using CA-signed certificate
+                                       of the Certificate Management for Secured Connections chapter in Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) .
 
 2
 
-Establish certificate trust.
-
-Export the platform certificate from both the Cloud Connect publisher and subscriber. On the MR PG, install each Cloud Connect
-                                       certificate in the Personal certificate store and restart the MR PG.
-
-Export or generate the MR PG certificate. RSA certificates are stored under <install_drive>:\icm\ssl\rsa ; ECDSA certificates are stored under <install_drive>:\icm\ssl\ecdsa . Import the MR PG certificate into the Cloud Connect publisher. Cloud Connect replicates it to the subscriber.
-
-Restart the Digital Routing service on Cloud Connect:
-
-```
-utils cloudconnect stop digitalrouting
-utils cloudconnect start digitalrouting
-```
-
-Also import the Cloud Connect publisher and subscriber certificates into the AW truststore. Restart Apache Tomcat after importing
-                                       the certificates.
-
-For certificate exchange procedures, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise .
-
-3
-
 Add Cloud Connect to the Packaged CCE inventory.
 
-In Packaged CCE Administration, go to Overview > Inventory . Click New , enter the publisher and subscriber details for Cloud Connect, and save the inventory configuration.
+In Packaged CCE Administration, go to Overview > Inventory . Click New and enter the Cloud Connect publisher details. Cloud Connect automatically discovers the subscriber details from the publisher.
+                                       Verify the discovered subscriber details and save the inventory configuration.
 
-For the deployment-specific procedure, see Configure Cloud Connect for 2000 Agent Deployment or Configure Cloud Connect for 4000/12000 Agent Deployment in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide .
+For more information, see
+                                       Configure Cloud Connect for 2000 Agent Deployment
+                                       or
+                                       Configure Cloud Connect for 4000/12000 Agent Deployment
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
 
-4
+3
 
 Configure the Media Routing PIMs.
 
@@ -110,15 +93,19 @@ The MR PG is created automatically in Packaged CCE, but you must configure its P
 
 In the Peripheral Gateway Component Properties window, click Add . From Client Type , select Media Routing . Select the required Media Routing PIM and click OK .
 
-Enable the PIM and enter its peripheral name. In Peripheral ID , enter the logical controller ID of the applicable peripheral. The database names include Multichannel for ECE and DigitalRouting for Webex Connect.
+Enable the PIM and enter its peripheral name. In Peripheral ID , enter the Peripheral ID of the applicable peripheral. Do not enter the Logical Controller ID.
 
-In Application Hostname (1) , enter the hostname or IP address of the media-routing services server. In Application Connection Port (1) , enter the application port. The default port is 38001 .
+In Application Hostname (1) , enter the hostname or IP address of the Cloud Connect publisher. In Application Connection Port (1) , enter the application port. The default port is 38001 .
 
-Leave the secondary application hostname and port empty unless your deployment requires them. Set the heartbeat interval to 5 seconds and the reconnect interval to 10 seconds. Enable the secure connection and click OK .
+In Application Hostname (2) , enter the hostname or IP address of the Cloud Connect subscriber. In Application Connection Port (2) , enter 38001 . Leave these fields empty only when a secondary Cloud Connect server is not deployed.
 
-For the complete field descriptions, see Add PIMs to the Media Routing Peripheral Gateway in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide .
+Set the heartbeat interval to 5 seconds and the reconnect interval to 10 seconds. Enable the secure connection and click OK .
 
-5
+For complete field descriptions, see
+                                       Add PIMs to the Media Routing Peripheral Gateway
+                                       of the Optional Configurations chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
+
+4
 
 Create unique MRDs and associate them with application paths.
 
@@ -127,30 +114,41 @@ Create a unique media routing domain for each ECE channel, such as chat and emai
 For each Agent PG, create an ECE application path and add all ECE MRD-peripheral combinations that apply to the Agent PG.
                                        The application path can carry inbound email, outbound email, chat, callback, and delayed-callback activities.
 
-Use the Media Routing Domain List tool to create the MRDs. For field-level instructions, open Configuration Manager, navigate
-                                       to List Tools > Media Routing Domain List > Media Routing Domain List Box > Attributes Tab (Media Routing Domain) , and press F1 to open the integrated help.
+Use the Media Routing Domain List tool to create the MRDs.
+
+For more information, see
+                                       Add and Maintain Media Routing Domains
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
 
 Create unique MRDs for the Webex Connect digital channels that require separate reporting or queue behavior. You can also
                                        map multiple Webex Connect-powered channels under a single MRD if your deployment does not require channel-specific routing
                                        behavior.
 
-Associate the Webex Connect MRDs with the system-defined application path whose name ends in UQ.Desktop . This application path identifies Cisco Finesse as a client of the Agent PG and controls agent states for Webex Connect digital
-                                       channels.
+For more information, see
+                                       Add and Maintain Media Routing Domains
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
 
-For MRD creation in Packaged CCE Administration, see Add and Maintain Media Routing Domains . To map the MRD to a Webex Connect channel, see Set up Media Channels in the Cisco Packaged Contact Center Enterprise Features Guide .
+If you create the MRD in Packaged CCE Administration, it is automatically associated with the system-defined application path
+                                       whose name ends in UQ.Desktop . If you create the MRD using Configuration Manager, manually associate it with the system-defined application path in List Tools > Application Path List Box > Attributes .
 
-If you use Configuration Manager to create the MRD, associate it with the system-defined application path in List Tools > Application Path List Box > Attributes tab . Press F1 to open the integrated help for the selected field.
+For more information, see
+                                       Set up Media Channels
+                                       of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
-6
+5
 
 Create skill groups and assign agents.
 
 Create skill groups or precision queues for the applicable nonvoice MRDs. Ensure that each agent belongs to a skill group
                                        associated with the nonvoice MRD that is linked to the required application path.
 
-For Packaged CCE procedures, see Add and Maintain Skill Groups and Precision Queues . For Configuration Manager field-level help, open Explorer Tools Features > Skill Group Explorer and press F1 .
+For more information, see
+                                       Add and Maintain Skill Groups
+                                       and
+                                       Add and Maintain Precision Queues
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
 
-7
+6
 
 Configure SSO and agent synchronization.
 
@@ -164,17 +162,22 @@ In Packaged CCE Administration, configure Digital Channels > Digital Channel Set
 Disable User Sync before rebuilding an AW database. Re-enable it only after the AW database has synchronized with the central
                                        controller database.
 
-For the complete procedure, see Configure User Sync in the Cisco Packaged Contact Center Enterprise Features Guide .
+For more information, see Configure User Sync of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
+
+7
+
+Configure ECC variables for Digital Routing.
+
+Configure the ECE ECC variables required for chat, inbound email, outbound email, callback, and delayed-callback activities.
+                                       For chat, inbound email, and outbound email, configure user.ece.activity.id . For callback and delayed-callback activities, configure user.ece.activity.id and user.ece.customer.name .
+
+For more information, see Configuring Expanded Call Context (ECC) Variables of the Prepare Packaged CCE for the Integration chapter in Enterprise Chat and Email Installation and Configuration Guide for Packaged Contact Center Enterprise, Release 15.0(1) .
+
+In Packaged CCE Administration, navigate to Overview > Digital Channels > Digital Channel Settings > ECC Variable . Select and save user_DR_Primary , user_DR_Backup , and user_DR_MediaResourceID as mandatory variables, and user_DR_CustomerName and user_DR_MediaChannelName as optional variables.
+
+For the complete procedure and the required variables, see Define ECC variables of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 8
-
-Select ECC variables for DRAPI.
-
-In Packaged CCE Administration, open Digital Channels > Digital Channel Settings > ECC Variable . Add the required non-built-in ECC variables and save the configuration. The selected variables are synchronized to DRAPI.
-
-For the complete procedure and the required variables, see Define ECC variables in the Cisco Packaged Contact Center Enterprise Features Guide .
-
-9
 
 Integrate Cloud Connect with Webex Connect.
 
@@ -182,15 +185,15 @@ In Digital Channels > Digital Channel Settings > Integration , configure the OAu
 
 In Webex Connect, open the CCE prebuilt integration and copy its inbound Webhook URL. Paste this URL into the Webhook configuration in Packaged CCE Administration and save the integration.
 
-For the complete procedure, see Integrate Cloud Connect with Webex Connect in the Cisco Packaged Contact Center Enterprise Features Guide .
+For more information, see Integrate Cloud Connect with Webex Connect of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
-10
+9
 
 Add the ECE and Webex Connect Digital Channels gadgets to the Cisco Finesse desktop layout.
 
 Add the ECE gadget to the applicable Finesse desktop layout.
 
-For details, see the Configuring Finesse topic in the Post-Installation Tasks chapter of the Enterprise Chat and Email Installation and Configuration Guide .
+For more information, see Configuring Finesse of the Prepare Packaged CCE for the Integration chapter in Enterprise Chat and Email Installation and Configuration Guide for Packaged Contact Center Enterprise, Release 15.0(1) .
 
 For information about using the ECE gadgets, see the Enterprise Chat and Email User Guide for Agents and Supervisors .
 
@@ -200,9 +203,11 @@ Add the Manage Digital Channels gadget to the applicable Finesse desktop layout.
 If ECE and Webex Connect use the same keyboard shortcut, Finesse reports a shortcut conflict and disables the key combination
                                        until the conflict is resolved. Adjust or disable conflicting shortcuts in the Finesse system settings.
 
-For the gadget procedure, see Add Manage Digital Channels gadget in the Cisco Finesse Administration Guide . For the Packaged CCE desktop-layout procedure, see Manage Desktop Layouts .
+For more information, see Add Manage Digital Channels gadget of the Manage Desktop Layouts chapter in Cisco Finesse Administration Guide .
 
-11
+For more information, see Manage Desktop Layouts of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) .
+
+10
 
 Optionally, configure workflows, rules, or events.
 
@@ -213,12 +218,9 @@ For more information, see Manage Workflows in the Cisco Finesse Administration G
 Configure workflows in Cisco Finesse, or configure rules and events in Webex Engage. Rules and events in Webex Engage provide
                                        similar functionality as workflows in Cisco Finesse.
 
-For the Packaged CCE workflow procedure, see Manage Workflows . For Webex Engage rules and events, see the Events and Rules topic in the Administration and Setup Guide for Webex Engage with Cisco Contact Center Enterprise .
+For more information, see Manage Workflows of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . For Webex Engage rules and events, see the Events and Rules topic in the Administration and Setup Guide for Webex Engage with Cisco Contact Center Enterprise .
 
-You can also refer to Example of Webex Connect Flow . This topic explains how to set up a Flow for a Call Survey that can be embedded in a chat channel. The Flow is designed
-                                       within Webex Connect and uses an Event created in Webex Engage.
-
-12
+11
 
 Verify reporting.
 
@@ -230,7 +232,7 @@ For ECE historical reporting, see the Enterprise Chat and Email Administrator's 
 Verify that CUIC reports display agent and queue activity for the Webex Connect MRDs. Use Webex Connect reports for platform-specific
                                        message and interaction details.
 
-For the supported report types and stock templates, see Reporting in the Cisco Packaged Contact Center Enterprise Features Guide .
+For more information, see Reporting of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) .
 
 ## Enable Notifications for ECE Gadget
 
@@ -398,173 +400,53 @@ At times, failover and failback of the ECE server may not work seamlessly.
 
 Digital Channel gadgets failover and failback as expected.
 
-## Example of Webex Connect Flow
-
-This section explains how to set up a Flow for a Call Survey that can be embedded in a chat channel. The Flow is designed
-                              within Webex Connect and uses an Event created in Webex Engage.
-
-The following example illustrates how Webex Engage and Webex Connect can be used to establish a call survey, and it should
-                                          be regarded as a reference rather than a comprehensive guide. When creating a flow in your deployment, you will need to make
-                                          adjustments based on your specific business requirements and system environment.
-
-Step 1
-
-In Webex Connect, create a new Webhook URL to start a Webex Connect Flow that triggers a survey right after a call ends.
-
-Log into Webex Connect.
-
-On the left pane, select Services.
-
-On the Services page, choose the required service.
-
-From the left sidebar, click on Assets , and then select Integrations from the displayed menu.
-
-On the Integrations page, click Add Integration , and then select Inbound Webhook from the displayed menu.
-
-On the Configure New Integration - Inbound Webhook dialog, the Webhook URL is displayed by default. This URL triggers the Call Survey Event that you will create in the upcoming
-                                             steps. Enter a unique name in the Webhook name field.
-
-Click the copy icon to copy the Webhook URL to your clipboard.
-
-Click Save .
-
-The new Inbound Webhook is created and displayed on the Integrations page.
-
-Step 2
-
-In Webex Engage, create a new event.
-
-Log into Webex Engage.
-
-From the left sidebar, select Groups .
-
-From the list of groups, select your group.
-
-Webex Engage displays its only team: the default team. Click on Default to access it.
-
-Go to the Events and Rules tab and click Add new event .
-
-In the Configure Events section, enter the following:
-
-Name —Enter a unique name for the new event.
-
-Method —Choose POST.
-
-URL —Paste the Webhook URL you copied in the previous step (1 g).
-
-Expected Response Format —Choose JSON.
-
-Add Param —Include the variables you want in your flow. Useful options are shown in the following screenshot.
-
-Click Save changes .
-
-Step 3
-
-In Webex Connect, create the Flow for the Call Survey.
-
-From the left sidebar, select Services .
-
-On the Services page, choose the required service.
-
-Select the Flows tab and then click Create Flow in the upper-right corner.
-
-On the Create Flow dialog, enter the following:
-
-Flow Name — Enter a name for the new Flow.
-
-Type — Select Work Flow .
-
-Method — Choose New Flow .
-
-Click Start from Scratch .
-
-Click Create .
-
-On the Select Trigger Category dialog, select Webhook .
-
-Webex Connect displays the Flow Builder canvas with the Webhook node. The Configure Webhook page opens, enabling you to configure the Webhook node. Alternatively, you can access this page by double-clicking the node
-                                                in the Flow Builder.
-
-To configure the Webhook node:
-
-On the Configuration tab, keep the default selection of the Select existing webhook radio button. From the Webhook Name field, select the Webhook you created earlier.
-
-On the Transition Actions (optional) tab, add the necessary variables for your flow as shown in the below screenshot, then click Save . You can also include the custom variables created in Webex Engage during step 2 by selecting Add Params . Additionally, you have the option to add default variables like 'n2.chatid' that are readily available in Webex Engage.
-                                                      Ensure that the variables you enter in Webex Connect match exactly with those in Webex Engage. For more information, see Transition Actions .
-
-Add the Evaluate node if your business logic needs it.
-
-Drag the Live Chat or In-App Messaging node onto the Flow builder canvas. Double-click the node, enter the following,:
-
-Destination Type — Set to UserId
-
-Destination — Set to $(CustomerID).
-
-Thread ID — Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread.
-
-Set Message Type to Form, the Content Type to STATIC , and set Form Template to an existing Call Survey form.
-
-Click Save .
-
-Drag the Receive node onto the Flow builder canvas. Double-click the node and enter the following:
-
-Form(threadId) —Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread.
-
-Form(userId) —Set to $(CustomerId).
-
-Set Event Name to Form Response, the Content Type to STATIC , and Form Template to an existing Call Survey form.
-
-Click Save .
-
-In the Transition Actions (Optional) tab, you can opt to generate logs when the flow exits this node by adding a logID, as shown below.
-
-Drag the Append Conversation node onto the Flow builder canvas. Double-click the node and enter the following:
-
-Method Name — Choose Append Chat.
-
-Node Authentication —Choose WxmTestEngage.
-
-Channel — Choose Livechat.
-
-Conversation ID —Enter $(ConversationId).
-
-Step 4
-
-Complete your Flow by creating connections between the various nodes within the canvas, as illustrated below.
-
 | Step | Task | ECE Digital Channels | Webex Connect Digital Channels |
 |---|---|---|---|
-| 1 | Review the Packaged CCE objects that are created automatically. | Packaged CCE creates the DigitalRouting peripheral, the DigitalRouting routing client, the membership that associates the existing Agent_Targeting_Rule with the DigitalRouting routing client, and the Media Routing Peripheral Gateway (MR PG). You must configure the Media Routing PIMs, establish certificate trust, add Cloud Connect to the Packaged CCE inventory, associate
-                                       the ECE and Webex Connect media routing domains with their application paths, synchronize agents and ECC variables, configure
-                                       the Webex Connect integration, and enable both gadgets in the Finesse desktop layout. |
-| 2 | Establish certificate trust. | Export the platform certificate from both the Cloud Connect publisher and subscriber. On the MR PG, install each Cloud Connect
-                                       certificate in the Personal certificate store and restart the MR PG. Export or generate the MR PG certificate. RSA certificates are stored under <install_drive>:\icm\ssl\rsa ; ECDSA certificates are stored under <install_drive>:\icm\ssl\ecdsa . Import the MR PG certificate into the Cloud Connect publisher. Cloud Connect replicates it to the subscriber. Restart the Digital Routing service on Cloud Connect: utils cloudconnect stop digitalrouting
-utils cloudconnect start digitalrouting Also import the Cloud Connect publisher and subscriber certificates into the AW truststore. Restart Apache Tomcat after importing
-                                       the certificates. For certificate exchange procedures, see Certificate management for digital channels interaction in the Security Guide for Cisco Unified Contact Center Enterprise . |
-| 3 | Add Cloud Connect to the Packaged CCE inventory. | In Packaged CCE Administration, go to Overview > Inventory . Click New , enter the publisher and subscriber details for Cloud Connect, and save the inventory configuration. For the deployment-specific procedure, see Configure Cloud Connect for 2000 Agent Deployment or Configure Cloud Connect for 4000/12000 Agent Deployment in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide . |
-| 4 | Configure the Media Routing PIMs. | The MR PG is created automatically in Packaged CCE, but you must configure its PIMs. In the Peripheral Gateway Component Properties window, click Add . From Client Type , select Media Routing . Select the required Media Routing PIM and click OK . Enable the PIM and enter its peripheral name. In Peripheral ID , enter the logical controller ID of the applicable peripheral. The database names include Multichannel for ECE and DigitalRouting for Webex Connect. In Application Hostname (1) , enter the hostname or IP address of the media-routing services server. In Application Connection Port (1) , enter the application port. The default port is 38001 . Leave the secondary application hostname and port empty unless your deployment requires them. Set the heartbeat interval to 5 seconds and the reconnect interval to 10 seconds. Enable the secure connection and click OK . For the complete field descriptions, see Add PIMs to the Media Routing Peripheral Gateway in the Cisco Packaged Contact Center Enterprise Administration and Configuration Guide . |
-| 5 | Create unique MRDs and associate them with application paths. | Create a unique media routing domain for each ECE channel, such as chat and email, and map the MRD to the ECE instance. For each Agent PG, create an ECE application path and add all ECE MRD-peripheral combinations that apply to the Agent PG.
-                                       The application path can carry inbound email, outbound email, chat, callback, and delayed-callback activities. Use the Media Routing Domain List tool to create the MRDs. For field-level instructions, open Configuration Manager, navigate
-                                       to List Tools > Media Routing Domain List > Media Routing Domain List Box > Attributes Tab (Media Routing Domain) , and press F1 to open the integrated help. | Create unique MRDs for the Webex Connect digital channels that require separate reporting or queue behavior. You can also
+| 1 | Establish certificate trust. | For more information, see the
+                                       Establish secured connection between Cloud Connect and MR PG using self-signed certificate
+                                       and
+                                       Establish secured connection between Cloud Connect and MR PG using CA-signed certificate
+                                       of the Certificate Management for Secured Connections chapter in Security Guide for Cisco Unified Contact Center Enterprise, Release 15.0(1) . |
+| 2 | Add Cloud Connect to the Packaged CCE inventory. | In Packaged CCE Administration, go to Overview > Inventory . Click New and enter the Cloud Connect publisher details. Cloud Connect automatically discovers the subscriber details from the publisher.
+                                       Verify the discovered subscriber details and save the inventory configuration. For more information, see
+                                       Configure Cloud Connect for 2000 Agent Deployment
+                                       or
+                                       Configure Cloud Connect for 4000/12000 Agent Deployment
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . |
+| 3 | Configure the Media Routing PIMs. | The MR PG is created automatically in Packaged CCE, but you must configure its PIMs. In the Peripheral Gateway Component Properties window, click Add . From Client Type , select Media Routing . Select the required Media Routing PIM and click OK . Enable the PIM and enter its peripheral name. In Peripheral ID , enter the Peripheral ID of the applicable peripheral. Do not enter the Logical Controller ID. In Application Hostname (1) , enter the hostname or IP address of the Cloud Connect publisher. In Application Connection Port (1) , enter the application port. The default port is 38001 . In Application Hostname (2) , enter the hostname or IP address of the Cloud Connect subscriber. In Application Connection Port (2) , enter 38001 . Leave these fields empty only when a secondary Cloud Connect server is not deployed. Set the heartbeat interval to 5 seconds and the reconnect interval to 10 seconds. Enable the secure connection and click OK . For complete field descriptions, see
+                                       Add PIMs to the Media Routing Peripheral Gateway
+                                       of the Optional Configurations chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . |
+| 4 | Create unique MRDs and associate them with application paths. | Create a unique media routing domain for each ECE channel, such as chat and email, and map the MRD to the ECE instance. For each Agent PG, create an ECE application path and add all ECE MRD-peripheral combinations that apply to the Agent PG.
+                                       The application path can carry inbound email, outbound email, chat, callback, and delayed-callback activities. Use the Media Routing Domain List tool to create the MRDs. For more information, see
+                                       Add and Maintain Media Routing Domains
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . | Create unique MRDs for the Webex Connect digital channels that require separate reporting or queue behavior. You can also
                                        map multiple Webex Connect-powered channels under a single MRD if your deployment does not require channel-specific routing
-                                       behavior. Associate the Webex Connect MRDs with the system-defined application path whose name ends in UQ.Desktop . This application path identifies Cisco Finesse as a client of the Agent PG and controls agent states for Webex Connect digital
-                                       channels. For MRD creation in Packaged CCE Administration, see Add and Maintain Media Routing Domains . To map the MRD to a Webex Connect channel, see Set up Media Channels in the Cisco Packaged Contact Center Enterprise Features Guide . If you use Configuration Manager to create the MRD, associate it with the system-defined application path in List Tools > Application Path List Box > Attributes tab . Press F1 to open the integrated help for the selected field. |
-| 6 | Create skill groups and assign agents. | Create skill groups or precision queues for the applicable nonvoice MRDs. Ensure that each agent belongs to a skill group
-                                       associated with the nonvoice MRD that is linked to the required application path. For Packaged CCE procedures, see Add and Maintain Skill Groups and Precision Queues . For Configuration Manager field-level help, open Explorer Tools Features > Skill Group Explorer and press F1 . |
-| 7 | Configure SSO and agent synchronization. | Enable Agent SSO in ECE. For ECE configuration guidance, see the Enterprise Chat and Email administration documentation . | In Packaged CCE Administration, configure Digital Channels > Digital Channel Settings > User Sync . Enter the load-balancer or reverse-proxy FQDN in Network Entry Point , enter the primary and secondary AW database connection details, test the primary connection, enable failover to the secondary
+                                       behavior. For more information, see
+                                       Add and Maintain Media Routing Domains
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . If you create the MRD in Packaged CCE Administration, it is automatically associated with the system-defined application path
+                                       whose name ends in UQ.Desktop . If you create the MRD using Configuration Manager, manually associate it with the system-defined application path in List Tools > Application Path List Box > Attributes . For more information, see
+                                       Set up Media Channels
+                                       of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
+| 5 | Create skill groups and assign agents. | Create skill groups or precision queues for the applicable nonvoice MRDs. Ensure that each agent belongs to a skill group
+                                       associated with the nonvoice MRD that is linked to the required application path. For more information, see
+                                       Add and Maintain Skill Groups
+                                       and
+                                       Add and Maintain Precision Queues
+                                       of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . |
+| 6 | Configure SSO and agent synchronization. | Enable Agent SSO in ECE. For ECE configuration guidance, see the Enterprise Chat and Email administration documentation . | In Packaged CCE Administration, configure Digital Channels > Digital Channel Settings > User Sync . Enter the load-balancer or reverse-proxy FQDN in Network Entry Point , enter the primary and secondary AW database connection details, test the primary connection, enable failover to the secondary
                                        AW, enable scheduled synchronization or use Sync Now , review the last-sync status and agent synchronization details, and save the configuration. Disable User Sync before rebuilding an AW database. Re-enable it only after the AW database has synchronized with the central
-                                       controller database. For the complete procedure, see Configure User Sync in the Cisco Packaged Contact Center Enterprise Features Guide . |
-| 8 | Select ECC variables for DRAPI. | In Packaged CCE Administration, open Digital Channels > Digital Channel Settings > ECC Variable . Add the required non-built-in ECC variables and save the configuration. The selected variables are synchronized to DRAPI. For the complete procedure and the required variables, see Define ECC variables in the Cisco Packaged Contact Center Enterprise Features Guide . |
-| 9 | Integrate Cloud Connect with Webex Connect. |  | In Digital Channels > Digital Channel Settings > Integration , configure the OAuth2 client ID, client secret, token-request URL, POST method, application/x-www-form-urlencoded content type, and access_token JSON path. In Webex Connect, open the CCE prebuilt integration and copy its inbound Webhook URL. Paste this URL into the Webhook configuration in Packaged CCE Administration and save the integration. For the complete procedure, see Integrate Cloud Connect with Webex Connect in the Cisco Packaged Contact Center Enterprise Features Guide . |
-| 10 | Add the ECE and Webex Connect Digital Channels gadgets to the Cisco Finesse desktop layout. | Add the ECE gadget to the applicable Finesse desktop layout. For details, see the Configuring Finesse topic in the Post-Installation Tasks chapter of the Enterprise Chat and Email Installation and Configuration Guide . For information about using the ECE gadgets, see the Enterprise Chat and Email User Guide for Agents and Supervisors . | Add the Manage Digital Channels gadget to the applicable Finesse desktop layout. Agents can then work on ECE and Webex Connect
+                                       controller database. For more information, see Configure User Sync of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
+| 7 | Configure ECC variables for Digital Routing. | Configure the ECE ECC variables required for chat, inbound email, outbound email, callback, and delayed-callback activities.
+                                       For chat, inbound email, and outbound email, configure user.ece.activity.id . For callback and delayed-callback activities, configure user.ece.activity.id and user.ece.customer.name . For more information, see Configuring Expanded Call Context (ECC) Variables of the Prepare Packaged CCE for the Integration chapter in Enterprise Chat and Email Installation and Configuration Guide for Packaged Contact Center Enterprise, Release 15.0(1) . | In Packaged CCE Administration, navigate to Overview > Digital Channels > Digital Channel Settings > ECC Variable . Select and save user_DR_Primary , user_DR_Backup , and user_DR_MediaResourceID as mandatory variables, and user_DR_CustomerName and user_DR_MediaChannelName as optional variables. For the complete procedure and the required variables, see Define ECC variables of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
+| 8 | Integrate Cloud Connect with Webex Connect. |  | In Digital Channels > Digital Channel Settings > Integration , configure the OAuth2 client ID, client secret, token-request URL, POST method, application/x-www-form-urlencoded content type, and access_token JSON path. In Webex Connect, open the CCE prebuilt integration and copy its inbound Webhook URL. Paste this URL into the Webhook configuration in Packaged CCE Administration and save the integration. For more information, see Integrate Cloud Connect with Webex Connect of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
+| 9 | Add the ECE and Webex Connect Digital Channels gadgets to the Cisco Finesse desktop layout. | Add the ECE gadget to the applicable Finesse desktop layout. For more information, see Configuring Finesse of the Prepare Packaged CCE for the Integration chapter in Enterprise Chat and Email Installation and Configuration Guide for Packaged Contact Center Enterprise, Release 15.0(1) . For information about using the ECE gadgets, see the Enterprise Chat and Email User Guide for Agents and Supervisors . | Add the Manage Digital Channels gadget to the applicable Finesse desktop layout. Agents can then work on ECE and Webex Connect
                                        tasks from the same Finesse desktop. If ECE and Webex Connect use the same keyboard shortcut, Finesse reports a shortcut conflict and disables the key combination
-                                       until the conflict is resolved. Adjust or disable conflicting shortcuts in the Finesse system settings. For the gadget procedure, see Add Manage Digital Channels gadget in the Cisco Finesse Administration Guide . For the Packaged CCE desktop-layout procedure, see Manage Desktop Layouts . |
-| 11 | Optionally, configure workflows, rules, or events. | Configure workflows in Cisco Finesse. For more information, see Manage Workflows in the Cisco Finesse Administration Guide . | Configure workflows in Cisco Finesse, or configure rules and events in Webex Engage. Rules and events in Webex Engage provide
-                                       similar functionality as workflows in Cisco Finesse. For the Packaged CCE workflow procedure, see Manage Workflows . For Webex Engage rules and events, see the Events and Rules topic in the Administration and Setup Guide for Webex Engage with Cisco Contact Center Enterprise . You can also refer to Example of Webex Connect Flow . This topic explains how to set up a Flow for a Call Survey that can be embedded in a chat channel. The Flow is designed
-                                       within Webex Connect and uses an Event created in Webex Engage. |
-| 12 | Verify reporting. | Verify that CUIC reports display agent and queue activity for the ECE MRDs. Use ECE reporting applications for platform-specific
+                                       until the conflict is resolved. Adjust or disable conflicting shortcuts in the Finesse system settings. For more information, see Add Manage Digital Channels gadget of the Manage Desktop Layouts chapter in Cisco Finesse Administration Guide . For more information, see Manage Desktop Layouts of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . |
+| 10 | Optionally, configure workflows, rules, or events. | Configure workflows in Cisco Finesse. For more information, see Manage Workflows in the Cisco Finesse Administration Guide . | Configure workflows in Cisco Finesse, or configure rules and events in Webex Engage. Rules and events in Webex Engage provide
+                                       similar functionality as workflows in Cisco Finesse. For more information, see Manage Workflows of the Packaged CCE Administration chapter in Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1) . For Webex Engage rules and events, see the Events and Rules topic in the Administration and Setup Guide for Webex Engage with Cisco Contact Center Enterprise . |
+| 11 | Verify reporting. | Verify that CUIC reports display agent and queue activity for the ECE MRDs. Use ECE reporting applications for platform-specific
                                        interaction details. For ECE historical reporting, see the Enterprise Chat and Email Administrator's Guide to Reports Console . For CUIC reporting, see the Cisco Unified Intelligence Center User Guide . | Verify that CUIC reports display agent and queue activity for the Webex Connect MRDs. Use Webex Connect reports for platform-specific
-                                       message and interaction details. For the supported report types and stock templates, see Reporting in the Cisco Packaged Contact Center Enterprise Features Guide . |
+                                       message and interaction details. For more information, see Reporting of the Digital Channels Integration Using Webex Connect chapter in Cisco Packaged Contact Center Enterprise Features Guide, Release 15.0(1) . |
 
 | Note | This feature would enable Notifications for new activities like chat or email, not for subsequent updates on an existing conversation. |
 |---|---|
@@ -605,16 +487,6 @@ utils cloudconnect start digitalrouting Also import the Cloud Connect publisher 
 | Inactive gadget pause during Gadget Switch | The ECE gadget does not automatically pause and stays active. | Digital Channel gadget pauses as expected. |
 | Failover and failback of gadgets | At times, failover and failback of the ECE server may not work seamlessly. | Digital Channel gadgets failover and failback as expected. |
 
-| Note | The following example illustrates how Webex Engage and Webex Connect can be used to establish a call survey, and it should
-                                          be regarded as a reference rather than a comprehensive guide. When creating a flow in your deployment, you will need to make
-                                          adjustments based on your specific business requirements and system environment. |
-|---|---|
+## Figuras
 
-| Step 1 | In Webex Connect, create a new Webhook URL to start a Webex Connect Flow that triggers a survey right after a call ends. Log into Webex Connect. On the left pane, select Services. On the Services page, choose the required service. From the left sidebar, click on Assets , and then select Integrations from the displayed menu. On the Integrations page, click Add Integration , and then select Inbound Webhook from the displayed menu. On the Configure New Integration - Inbound Webhook dialog, the Webhook URL is displayed by default. This URL triggers the Call Survey Event that you will create in the upcoming
-                                             steps. Enter a unique name in the Webhook name field. Click the copy icon to copy the Webhook URL to your clipboard. Click Save . The new Inbound Webhook is created and displayed on the Integrations page. |
-|---|---|
-| Step 2 | In Webex Engage, create a new event. Log into Webex Engage. From the left sidebar, select Groups . From the list of groups, select your group. Webex Engage displays its only team: the default team. Click on Default to access it. Go to the Events and Rules tab and click Add new event . In the Configure Events section, enter the following: Name —Enter a unique name for the new event. Method —Choose POST. URL —Paste the Webhook URL you copied in the previous step (1 g). Expected Response Format —Choose JSON. Add Param —Include the variables you want in your flow. Useful options are shown in the following screenshot. Click Save changes . For more information on adding parameters, see the Add a New Event section in the Administration and Setup Guide for Webex Engage with Cisco Contact Center Enterprise at https://www.cisco.com/c/dam/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/wxengage_for_digital_channels/admin/guide/Administration_and_Setup_Guide_for_Webex_Engage_with_CCE.pdf . |
-| Step 3 | In Webex Connect, create the Flow for the Call Survey. From the left sidebar, select Services . On the Services page, choose the required service. Select the Flows tab and then click Create Flow in the upper-right corner. On the Create Flow dialog, enter the following: Flow Name — Enter a name for the new Flow. Type — Select Work Flow . Method — Choose New Flow . Click Start from Scratch . Click Create . On the Select Trigger Category dialog, select Webhook . Webex Connect displays the Flow Builder canvas with the Webhook node. The Configure Webhook page opens, enabling you to configure the Webhook node. Alternatively, you can access this page by double-clicking the node
-                                                in the Flow Builder. To configure the Webhook node: On the Configuration tab, keep the default selection of the Select existing webhook radio button. From the Webhook Name field, select the Webhook you created earlier. On the Transition Actions (optional) tab, add the necessary variables for your flow as shown in the below screenshot, then click Save . You can also include the custom variables created in Webex Engage during step 2 by selecting Add Params . Additionally, you have the option to add default variables like 'n2.chatid' that are readily available in Webex Engage.
-                                                      Ensure that the variables you enter in Webex Connect match exactly with those in Webex Engage. For more information, see Transition Actions . Add the Evaluate node if your business logic needs it. Drag the Live Chat or In-App Messaging node onto the Flow builder canvas. Double-click the node, enter the following,: Destination Type — Set to UserId Destination — Set to $(CustomerID). Thread ID — Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread. Set Message Type to Form, the Content Type to STATIC , and set Form Template to an existing Call Survey form. Click Save . Drag the Receive node onto the Flow builder canvas. Double-click the node and enter the following: Form(threadId) —Enter $(ChatThreadVariable). This entry makes sure the Call Survey form is sent to the correct chat thread. Form(userId) —Set to $(CustomerId). Set Event Name to Form Response, the Content Type to STATIC , and Form Template to an existing Call Survey form. Click Save . In the Transition Actions (Optional) tab, you can opt to generate logs when the flow exits this node by adding a logID, as shown below. Drag the Append Conversation node onto the Flow builder canvas. Double-click the node and enter the following: Method Name — Choose Append Chat. Node Authentication —Choose WxmTestEngage. Channel — Choose Livechat. Conversation ID —Enter $(ConversationId). |
-| Step 4 | Complete your Flow by creating connections between the various nodes within the canvas, as illustrated below. |
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

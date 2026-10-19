@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-pcce-pcce-15-0-1-configuration-guide-pcce-b-admi-906965b66c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/pcce/pcce_15_0_1/configuration/guide/pcce_b_admin-and-config-guide-15_0_1/pcce_m_unified-cvp-scripting_15_0.html
-retrieved_at: 2026-08-21T16:50:53.512330+00:00
+retrieved_at: 2026-10-19T10:45:19.991990+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Administration and Configuration Guide, Release 15.0(1)
@@ -6601,3 +6601,16 @@ C:\Program Files\Cisco\CallStudio
 | Note | The sample folder is C:\Cisco\CallStudio, which is also the default
                                                       folder. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Packaged CCE Script with Call Flow](https://www.cisco.com/c/dam/en/us/td/i/200001-300000/290001-300000/292001-293000/292577.tif/_jcr_content/renditions/292577.jpg)
+
+![Figure 2. Run External
+                                 		  Script Node](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341168.jpg)
+
+![Figure 3. Packaged CCE Script with Play Media Using ECC Variable](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341169.jpg)
+
+![Figure 4. Packaged CCE Script with Play Media Using Default Media Server](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/341001-342000/341170.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
