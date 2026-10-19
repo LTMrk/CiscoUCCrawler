@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.011198+00:00
+retrieved_at: 2026-10-19T09:48:26.420831+00:00
 ---
 
 # POST /v1/agents/buddyList
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.011198+00:00
 Buddy Agents List
 
 ## Descripción
-Returns the list of agents in the given state and media according to agent profile settings. Requires 'cjp:user' scope for authorization.
+Returns the list of agents in the given state and media according to agent profile settings. Requires an agent or supervisor access token with the 'cjp:user' scope.
 
 ## Cuerpo de la petición (application/json)
 - `agentProfileId` (string) (**requerido**): The profile ID of a particular agent. Can be obtained from [Users API](/docs/users), maximum length 36 characters.

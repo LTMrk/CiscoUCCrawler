@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.014693+00:00
+retrieved_at: 2026-10-19T09:48:26.423735+00:00
 ---
 
 # DELETE /v1/monitor/{requestId}
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.014693+00:00
 Delete Monitoring Request
 
 ## Descripción
-Delete a particular monitoring request that was created. Requires scope 'cloud-contact-center:pod_conv' and 'cjp.supervisor'.
+Deletes a monitoring request. Requires the 'cloud-contact-center:pod_conv' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The user profile must grant access to the Call Monitoring module. This operation is unavailable when Continuous Scheduled Monitoring is enabled.
 
 ## Parámetros
 - `requestId` [path] (string/UUID) (**requerido**): The id with which the monitoring request has been created.

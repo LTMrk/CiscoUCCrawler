@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-3c48f6d9ac
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_snmp_guide_1501/ucce_m_cisco-snmp-installation-and-basic-configuration_1501.html
-retrieved_at: 2026-08-20T18:59:59.726556+00:00
+retrieved_at: 2026-10-19T09:56:37.496605+00:00
 ---
 
 SNMP Guide for Cisco Contact Center Enterprise, Release 15.0(1)
@@ -974,3 +974,7 @@ To restart the Cisco Contact Center SNMP Management Service,
 | Step 2 | Double-click Administrative Tools . |
 | Step 3 | Double-click Services . The Services window appears. |
 | Step 4 | Look at the Status field in the Cisco Contact Center SNMP Management service row. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

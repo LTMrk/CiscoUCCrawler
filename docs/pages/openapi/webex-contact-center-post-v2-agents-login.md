@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.012026+00:00
+retrieved_at: 2026-10-19T09:48:26.421575+00:00
 ---
 
 # POST /v2/agents/login
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.012026+00:00
 Login
 
 ## Descripción
-Allows the user to login to their desktop. It does not allow a duplicate login and sends an error message over websocket, if an active session already exists. Requires 'cjp:user' scope for authorization. For a list of possible response messages, see the [Call Control API Guide](/documentation/guides/contact-control-apis).
+Allows the user to login to their desktop. It does not allow a duplicate login and sends an error message over websocket if an active session already exists. Requires the 'cjp:user' scope. When Licensed Administrator access is enabled for the organization, the access token must also contain at least one of the following roles: 'cjp.standard_agent', 'cjp.premium_agent', 'cjp.supervisor', 'cjp.admin', or 'id_full_admin'. A Licensed Administrator logging in with supervisor capabilities must have the 'cjp.admin' or 'id_full_admin' role, the 'cjp.premium_agent' role, and supervisor capabilities enabled. For a list of possible response messages, see the [Call Control API Guide](/documentation/guides/contact-control-apis).
 
 ## Parámetros
 - `Authorization` [header] (string) (**requerido**): The bearer token would be sent to validate the active users.

@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.014292+00:00
+retrieved_at: 2026-10-19T09:48:26.423374+00:00
 ---
 
 # POST /v1/monitor/{taskId}/unhold
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.014292+00:00
 Unhold Monitoring Request
 
 ## Descripción
-Resume a particular monitoring request that was on hold already. Requires scope 'cloud-contact-center:pod_conv' and 'cjp.supervisor'.
+Resumes a monitoring session that is on hold. Requires the 'cloud-contact-center:pod_conv' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The user profile must grant access to the Call Monitoring module.
 
 ## Parámetros
 - `taskId` [path] (string/UUID) (**requerido**): The unique ID representing the task that needs to be resumed and was on hold already.

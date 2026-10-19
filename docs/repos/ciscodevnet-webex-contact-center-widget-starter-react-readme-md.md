@@ -4,7 +4,7 @@ source_url: https://github.com/CiscoDevNet/webex-contact-center-widget-starter/b
 repo: CiscoDevNet/webex-contact-center-widget-starter
 ruta: react/README.md
 licencia: MIT
-retrieved_at: 2026-08-24T09:11:53.121958+00:00
+retrieved_at: 2026-10-19T09:48:52.649594+00:00
 ---
 
 # webex-contact-center-widget-starter — react/README.md
@@ -21,6 +21,10 @@ An interactive API documentation and testing tool for the `@wxcc-desktop/sdk`. T
 ## Overview
 
 The SDK Explorer lets you test `@wxcc-desktop/sdk` APIs directly from the desktop UI.
+
+## Iframe shell demos
+
+`src/components/IframeShell/` sketches the same patterns as the published Desktop tags in [`Examples/Widgets/iframe-shell/`](../Examples/Widgets/iframe-shell/). After `yarn start`, use the **Iframe shell** view. To see header clipping and sibling relay, paste [`Examples/Layouts/Iframe_Shell_Partner_Fixes.json`](../Examples/Layouts/Iframe_Shell_Partner_Fixes.json) into Desktop Layout.
 
 ## Getting Started
 

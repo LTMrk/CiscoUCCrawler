@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/src/services/agent/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:00.478351+00:00
+retrieved_at: 2026-10-19T09:48:28.110615+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/src/services/agent/ai-docs/AGENTS.md
@@ -28,7 +28,7 @@ const cc = webex.cc;
 // Register and login
 const profile = await cc.register();
 await cc.stationLogin({
-  teamId: profile.teams[0].teamId,
+  teamId: profile.teams[0].id,
   loginOption: 'BROWSER',
 });
 

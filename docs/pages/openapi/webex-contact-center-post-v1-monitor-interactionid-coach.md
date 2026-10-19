@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.013472+00:00
+retrieved_at: 2026-10-19T09:48:26.422843+00:00
 ---
 
 # POST /v1/monitor/{interactionId}/coach
@@ -23,9 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.013472+00:00
 Whisper Coach Request
 
 ## Descripción
-This feature is currently in Beta. Contact your Cisco team if you want access to this feature.
-
-Create a Whisper Coach request for the supervisor to coach the agent on a call that is being monitored already. Requires scope 'cloud-contact-center:pod_conv' and 'cjp.supervisor'.
+Creates a Whisper Coach request to coach an agent on a call that is already being monitored. Requires the 'cloud-contact-center:pod_conv' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The user profile must grant Call Monitoring edit access and the Whisper Coach permission, and Whisper Coach must be enabled for the organization.
 
 ## Parámetros
 - `interactionId` [path] (string/UUID) (**requerido**): The unique ID representing the monitored interaction that the supervisor needs to coach.

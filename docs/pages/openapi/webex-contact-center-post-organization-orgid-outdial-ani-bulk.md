@@ -10,7 +10,7 @@ tags: Outdial ANI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.956377+00:00
+retrieved_at: 2026-10-19T09:48:26.367727+00:00
 ---
 
 # POST /organization/{orgid}/outdial-ani/bulk

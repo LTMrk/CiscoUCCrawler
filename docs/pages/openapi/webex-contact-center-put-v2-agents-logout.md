@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.012250+00:00
+retrieved_at: 2026-10-19T09:48:26.421831+00:00
 ---
 
 # PUT /v2/agents/logout
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.012250+00:00
 Logout
 
 ## Descripción
-Allows the user to logout from their Desktop. This API needs to be called once the WSS session has been successfully established. Requires 'cjp:user','id_full_admin','id_readonly_admin','atlas-portal.partner.salesadmin','cjp.admin','cjp.supervisor','atlas-portal.partner.provision_admin' scope for authorization. For a list of possible response messages, see the [Call Control API Guide](/documentation/guides/contact-control-apis).
+Allows the user to logout from their Desktop. This API needs to be called once the WSS session has been successfully established. Self logout for an agent or supervisor requires the 'cjp:user' scope. Logout on behalf of another user is available to a supervisor with the 'cjp:user' scope and 'cjp.supervisor' role, or to an authorized administrator, help-desk user, or partner with the applicable role: 'id_full_admin', 'id_readonly_admin', 'cjp.admin', 'atlas-portal.partner.salesadmin', 'atlas-portal.partner.helpdesk', or 'atlas-portal.partner.provision_admin'. Partner and external-administrator requests must also be authorized for the managed organization and include the organization and agent identifiers. For a list of possible response messages, see the [Call Control API Guide](/documentation/guides/contact-control-apis).
 
 ## Parámetros
 - `Authorization` [header] (string) (**requerido**): The bearer token would be sent to validate the active users.

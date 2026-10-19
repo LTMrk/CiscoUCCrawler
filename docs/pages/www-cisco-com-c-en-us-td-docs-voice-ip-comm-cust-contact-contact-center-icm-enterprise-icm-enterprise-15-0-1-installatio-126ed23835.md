@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-126ed23835
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/rcct-b-cce-es-installation-guide--release-15_01_es/rcct-m-manual-es-installation.html
-retrieved_at: 2026-09-07T17:03:33.582651+00:00
+retrieved_at: 2026-10-19T09:57:02.627348+00:00
 ---
 
 Cisco Contact Center Enterprise Engineering Specials Installation Guide, Release 15.0(1)
@@ -392,3 +392,7 @@ Remove patches in the reverse order of their installation. For example, if you i
 | Note | Remove patches in the reverse order of their installation. For example, if you installed patches 3, then 5, then 10 for a
                                              product, you must uninstall patches 10, 5, and 3, in that order, to remove the patches from that product. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

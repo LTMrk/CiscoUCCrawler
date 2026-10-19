@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.011787+00:00
+retrieved_at: 2026-10-19T09:48:26.421362+00:00
 ---
 
 # GET /v1/agents/statistics
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.011787+00:00
 Get Agent Statistics
 
 ## Descripción
-Retrieve Agent statistics information for specified time duration and interval.
+Retrieve agent statistics for the specified time duration and interval. Requires a bearer access token authorized to access the requested organization and agent data.
 For this API, response compression using gzip can be enabled by including 'Accept-Encoding' header  in the request with its value as 'gzip'. 
 The response will be compressed only if its size exceeds 1 MB.
 If the header is not present in the request or if gzip is not listed as one of the encodings in the header's value (comma separated encodings), then API response will not be compressed and this can impact the latency as observed from clients.

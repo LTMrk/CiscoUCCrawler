@@ -10,7 +10,7 @@ tags: Journey - Customer Identification API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.034132+00:00
+retrieved_at: 2026-10-19T09:48:26.441664+00:00
 ---
 
 # PATCH /admin/v1/api/person/workspace-id/{workspaceId}/person-id/{personId}

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6e8075ac62
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/common_upgrade_tasks.html
-retrieved_at: 2026-09-22T01:53:31.855573+00:00
+retrieved_at: 2026-10-19T09:57:07.679127+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -1294,10 +1294,6 @@ New keystore password:  <new-password>
 Re-enter new keystore password:  <new-password>
 ```
 
-### Customers Also Viewed
-
-- Configure Webex AI Agent for CCE
-
 | Step 1 | For VXML gateways only, perform this step. For all other gateways, proceed to the next step. Run the #copy tftp flash <IP Address> <filename>.bin command to copy the flash from a remote machine to the gateway. |
 |---|---|
 | Step 2 | Run the #sh flash command to check the version. |
@@ -1708,3 +1704,7 @@ GO Note For example, <SQL Server TempDB path> = C:\Program Files\Microsoft SQL S
 | Step 3 | Change the truststore password by running the following command: keytool.exe -storepasswd -keystore <ICM install dir>\ssl\cacerts Enter keystore password:  <old-password>
 New keystore password:  <new-password>
 Re-enter new keystore password:  <new-password> |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

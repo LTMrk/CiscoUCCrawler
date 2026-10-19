@@ -7,13 +7,15 @@ method: POST
 path: /v1/monitor
 operation_id: createMonitoringRequest
 tags: Call Monitoring
-deprecated: false
+deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.012959+00:00
+retrieved_at: 2026-10-19T09:48:26.422445+00:00
 ---
 
 # POST /v1/monitor
+
+> **ENDPOINT DEPRECADO.** No usar en integraciones nuevas.
 
 **API:** Webex Contact Center
 **Área:** Call Monitoring
@@ -23,11 +25,11 @@ retrieved_at: 2026-10-12T11:51:21.012959+00:00
 Create Monitoring Request
 
 ## Descripción
-Create a successful monitoring request. It can be done either on an on-going or next successful inbound/outbound call. Requires scope 'cloud-contact-center:pod_conv' and 'cjp.supervisor'.
+Creates a monitoring request for an ongoing call or the next successful inbound or outbound call. Requires the 'cloud-contact-center:pod_conv' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The applicable Call Monitoring profile permissions and resource access are required. When Continuous Scheduled Monitoring is enabled, ad hoc and continuous requests are rejected; use POST /v2/monitor/{taskId} for mid-call monitoring.
 
 ## Cuerpo de la petición (application/json)
 - `id` (string) (**requerido**): The id represents the unique request id with which the Monitoring Request will be created, maximum length 36 characters.
-- `monitorType` (string) (**requerido**): It represents the type of the monitoring request. It can to be ```midcall```, ```adhoc``` and ```continuous```
+- `monitorType` (string) (**requerido**): It represents the type of the monitoring request. Only allowed type is ```midcall```
 - `taskId` (string/UUID): The unique ID representing the task that needs to be monitored. Mandatory for ```midcall``` type.
 - `queueIds` (array): If the call is routed to an agent and the agent is assigned to a queue, the queueId can be entered here to initiate a successful call monitoring request for that particular queue, maximum length of each queue is 36 characters and maximum number of queueIds 250.
 - `teams` (array): If the call is routed to an agent and the agent is assigned to a team, the teamId can be entered here to initiate a successful monitoring request for that particular team, maximum length of each team is 36 characters and maximum number of teams 100.

@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.011498+00:00
+retrieved_at: 2026-10-19T09:48:26.421103+00:00
 ---
 
 # GET /v1/agents/activities
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.011498+00:00
 Get Agent Activities
 
 ## Descripción
-Retrieve agent activities. Sorted by start time ascending.
+Retrieve agent activities. Requires a bearer access token authorized to access the requested organization and agent data. Results are sorted by start time in ascending order.
 Maximum number of records that can be fetched for the given from and to is 10,000. 
 For this API, response compression using gzip can be enabled by including 'Accept-Encoding' header  in the request with its value as 'gzip'. 
 The response will be compressed only if its size exceeds 1 MB.

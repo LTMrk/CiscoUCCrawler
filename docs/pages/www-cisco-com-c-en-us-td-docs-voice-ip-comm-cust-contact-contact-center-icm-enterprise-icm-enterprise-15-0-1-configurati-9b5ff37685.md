@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-9b5ff37685
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_snmp_guide_1501/ucce_m_preface_1501.html
-retrieved_at: 2026-08-20T19:00:07.678932+00:00
+retrieved_at: 2026-10-19T09:56:45.322554+00:00
 ---
 
 SNMP Guide for Cisco Contact Center Enterprise, Release 15.0(1)
@@ -182,3 +182,7 @@ A
                                              						  arguments where the context does not allow italic, such as ASCII output. A
                                              						  character string that the user enters but that does not appear on the window
                                              						  such as a password. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

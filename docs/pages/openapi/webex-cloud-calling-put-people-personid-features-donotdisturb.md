@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.541917+00:00
+retrieved_at: 2026-10-19T09:48:25.671214+00:00
 ---
 
 # PUT /people/{personId}/features/doNotDisturb

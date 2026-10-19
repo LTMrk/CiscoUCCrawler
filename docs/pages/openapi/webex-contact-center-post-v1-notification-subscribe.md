@@ -10,7 +10,7 @@ tags: Notification
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.003901+00:00
+retrieved_at: 2026-10-19T09:48:26.414069+00:00
 ---
 
 # POST /v1/notification/subscribe

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-17e4186557
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_icm-to-icm-gateway-user-guide/ucce_m_1501_icm-to-icm-gateway-overview.html
-retrieved_at: 2026-08-20T18:54:47.585848+00:00
+retrieved_at: 2026-10-19T09:56:28.882094+00:00
 ---
 
 ICM to ICM Gateway User Guide for Unified CCE, Release 15.0(1)
@@ -225,3 +225,7 @@ Refer to the Unified Contact Center Enterprise (Unified CCE) Software Compatibil
 
 | Note | For a more complete discussion of Unified CCE Fault Tolerance, refer to the Solution Design Guide for Cisco Unified Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-implementation-design-guides-list.html and the Serviceability Guide for Cisco Contact Center Enterprise at https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-and-configuration-guides-list.html |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/typedoc.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:07.567415+00:00
+retrieved_at: 2026-10-19T09:48:29.459063+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/typedoc.md
@@ -105,7 +105,7 @@ async function initializeAgent() {
 
     // 2. Login with browser-based calling
     await cc.stationLogin({
-      teamId: profile.teams[0].teamId,
+      teamId: profile.teams[0].id,
       loginOption: 'BROWSER',
     });
 

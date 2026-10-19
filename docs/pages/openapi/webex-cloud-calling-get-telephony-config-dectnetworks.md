@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.229714+00:00
+retrieved_at: 2026-10-19T09:48:25.394600+00:00
 ---
 
 # GET /telephony/config/dectNetworks
@@ -53,6 +53,8 @@ curl -X GET '/telephony/config/dectNetworks' \
   - `numberOfBaseStations` (number) (**requerido**): Number of base stations in the DECT network.
   - `numberOfHandsetsAssigned` (number) (**requerido**): Number of handsets assigned to the DECT network.
   - `numberOfLines` (number) (**requerido**): Number of lines in the DECT network.
+  - `debugLevel` (string) (**requerido**): * `STANDARD` - Standard logging level for normal operations.  * `DEBUG` - Debug logging level for detailed diagnostic information. Valores: STANDARD, DEBUG.
+  - `serviceabilityPasswordEnabled` (boolean) (**requerido**): Indicates whether serviceability password is enabled for the DECT network. When enabled, allows access to advanced diagnostic and troubleshooting features on DECT base stations.
   - `location` (object) (**requerido**):
     - `id` (string) (**requerido**): Location identifier associated with the members.
     - `name` (string) (**requerido**): Location name associated with the member.
@@ -72,6 +74,8 @@ curl -X GET '/telephony/config/dectNetworks' \
       "numberOfBaseStations": 2,
       "numberOfHandsetsAssigned": 5,
       "numberOfLines": 2,
+      "debugLevel": "STANDARD",
+      "serviceabilityPasswordEnabled": true,
       "location": {
         "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OL2E4Mjg5NzIyLTFiODAtNDFiNy05Njc4LTBlNzdhZThjMTA5OA",
         "name": "Cisco-HQ"

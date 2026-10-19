@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/contact-center/t
 repo: webex/widgets
 ruta: packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:09:21.335746+00:00
+retrieved_at: 2026-10-19T09:48:38.322922+00:00
 ---
 
 # widgets — packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
@@ -47,6 +47,8 @@ Every generated requirement below must cite concrete source evidence using `file
 The package is structured as a flat set of fixture modules under `src/`, each one re-exported by the barrel `src/index.ts`. `src/fixtures.ts` holds the core SDK-shaped mocks (`mockCC`, `mockProfile`, `mockTask`, queues, agents, address book, campaign-preview tasks). `src/incomingTaskFixtures.ts` and `src/taskListFixtures.ts` hold plain UI-data records keyed by scenario for the task widgets. `src/components/task/outdialCallFixtures.ts` composes `mockCC` into outdial-specific mocks.
 
 The load-bearing contract of this module is structural: each exported mock is typed against the real SDK / store / cc-components type (e.g. `mockCC: IContactCenter`, `mockProfile: Profile`, `mockTask: ITask`) so that when a consuming test passes a fixture into production code, the shape matches what production code expects at compile time. A maintainer changing a fixture should start at `src/fixtures.ts` and keep the declared types intact.
+
+`mockTask` and `makeMockTask` use the store's exported `ITask` contract. They provide disabled AI summary capabilities and stub request/response methods, so store consumers see the same task shape in tests.
 
 ## Purpose / Responsibility
 Provides shared, type-checked mock SDK instances, mock profile/task/queue/agent data, and component-prop fixtures consumed by other packages' Jest tests; it does NOT provide runtime behavior, test runners, or shared test-render helpers.
@@ -135,6 +137,9 @@ The module is a pass-through fixture library: no control flow, no async orchestr
 Shape fidelity is achieved by importing the real SDK/store types and annotating each fixture (`const mockCC: IContactCenter = {…}`). `tsc` then fails the build if a fixture drifts from the production type, which is the package's only automated guard. Where the SDK type is broader than what a fixture can fully populate, the code uses a targeted cast (`as unknown as TaskData`, `as {} as AddressBook`) — a deliberate, localized escape hatch documented in Pitfalls.
 
 Isolation is offered two ways. Static fixtures (`mockTask`, `mockCC`) are shared singletons — cheap but mutable, so tests that mutate must clone. Factory functions (`makeMockTask`, `makeMockCampaignTask`, `makeMockAddressBook`) return fresh objects with brand-new `jest.fn()`s each call, which is the safe path for tests that mutate or assert call counts.
+
+`mockCC.aiSummaries` starts empty to match the widget-owned state on `IContactCenter`; tests that
+populate it must reset or replace it to keep summary state isolated.
 
 Composition keeps the SDK mock single-sourced: outdial fixtures spread `mockCC` rather than redeclaring it, so a change to `mockCC` propagates. The same principle is why `mockQueuesResponse` is derived by mapping `mockQueueDetails` instead of being hand-written twice.
 
@@ -240,6 +245,19 @@ The package ships no tests of its own (no `tests/` directory; confirmed by tree)
 | `test-fixtures-R-006` (outdial composition) | None found | Consumed by outdial widget tests only |
 | `test-fixtures-R-007` (barrel surface) | None found | No test guarding the public export list |
 | `test-fixtures-R-008` (task UI controls) | Call-control consumer tests; `@webex/test-fixtures` and `@webex/cc-components` builds | No package-local assertion for destination override merging |
+
+## AI summary fixtures
+
+`src/aiSummaryFixtures.ts` exports inputs checked against the SDK summary type through
+`AISummaryEntry['content']` from the store. They are used by the store's widget-integration
+tests: initiating mid-call sections/plain text, receiving-agent Adaptive Cards with
+SDK summary text distinct from the displayed card, unsupported content, and post-call
+content with Outcome boundaries. The receiver text verifies that feedback preserves
+the SDK payload rather than reconstructing it from card labels. The barrel
+re-exports `aiSummaryFixtures`. SDK transport, request ordering and package admission
+fixtures belong to the SDK repository.
+
+Consumers: the AI summary and lifecycle selector cases in `store/tests/storeEventsWrapper.ts`.
 
 ## Traceability
 - Repo architecture: [`ARCHITECTURE.md`](../../../../ai-docs/ARCHITECTURE.md) · Registry: [`SPEC_INDEX.md`](../../../../ai-docs/SPEC_INDEX.md)

@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.386854+00:00
+retrieved_at: 2026-10-19T09:48:25.532835+00:00
 ---
 
 # POST /telephony/conference/members/me/addParticipant

@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.010772+00:00
+retrieved_at: 2026-10-19T09:48:26.420419+00:00
 ---
 
 # PUT /v1/agents/session/state
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.010772+00:00
 State Change
 
 ## Descripción
-Allows the user to toggle between the Idle and Available states. An Administrator within the organization having an Agent license can perform a self state change when they have an active agent session. Supervisors can perform a self state change as well as state changes for agents and admin users within their authorized teams when 'Change Agent States' module is enabled. Requires 'cjp:user' scope for authorization.For a list of possible response messages, see the [Call Control API Guide](/docs/contact-control-apis).
+Allows the user to toggle between the Idle and Available states. Self state changes for an agent, supervisor or Licensed Administrator with agent capability enabled, require the 'cjp:user' scope and an active agent session. Cross-agent state changes require the 'cjp:user' scope and 'cjp.supervisor' role, and are limited to users in the supervisor's authorized teams when the 'Change Agent States' module is enabled. A Licensed Administrator can perform a cross-agent state change when Licensed Administrator access is enabled and the token contains the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role; the administrator must also have supervisor capabilities enabled and access to the target user's team. For a list of possible response messages, see the [Call Control API Guide](/docs/contact-control-apis).
 
 ## Cuerpo de la petición (application/json)
 - `state` (string) (**requerido**): It represents the current state of the user. Can be set to ```Available``` or ```Idle```.

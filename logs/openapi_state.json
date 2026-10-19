@@ -200,10 +200,10 @@
     "sha": "c10b1260c6d10db0ccec0e5cbbbb9de635b38ab2"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-10-12T11:51:20.661092+00:00",
+    "actualizado": "2026-10-19T09:48:25.775997+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "b93ae564e8c179688e24b106bc8bb69886aa770a2e973c66ba3f0a8bcea1ba25",
+    "content_sha": "6dcfd87679337c926e29516eb536acaa0b63c091d220d1e9dbbf28c6ed036ddf",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -1182,6 +1182,7 @@
       "PUT /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}": "webex-cloud-calling-put-telephony-config-locations-locationid-callrouting-translationpatterns-translationid",
       "PUT /telephony/config/locations/{locationId}/dataPolicies": "webex-cloud-calling-put-telephony-config-locations-locationid-datapolicies",
       "PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}": "webex-cloud-calling-put-telephony-config-locations-locationid-dectnetworks-dectnetworkid",
+      "PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/debugLevel": "webex-cloud-calling-put-telephony-config-locations-locationid-dectnetworks-dectnetworkid-debuglevel",
       "PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/{handsetId}": "webex-cloud-calling-put-telephony-config-locations-locationid-dectnetworks-dectnetworkid-handsets-handsetid",
       "PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword": "webex-cloud-calling-put-telephony-config-locations-locationid-dectnetworks-dectnetworkid-serviceabilitypassword",
       "PUT /telephony/config/locations/{locationId}/emergencyCallNotification": "webex-cloud-calling-put-telephony-config-locations-locationid-emergencycallnotification",
@@ -1398,13 +1399,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "22514fd704b3c90735554339f96a04efcf581fa4"
+    "sha": "b562129e814c3ba2268557513f2ab461550be6ec"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-10-12T11:51:21.056147+00:00",
+    "actualizado": "2026-10-19T09:48:26.462609+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "068ce08bd66e829227dd74ad4f378a54bbc13cb1da506d6d8bddcecdd3f71168",
+    "content_sha": "c2cde9d5005e69bc747340110cebb0ec693b4a51b8d9eb7a60b0a2eef846b3f8",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1454,6 +1455,7 @@
       "POST /organization/{orgid}/auto-csat/{autoCsatId}/question/bulk": true,
       "POST /organization/{orgid}/dial-plan": true,
       "POST /organization/{orgid}/dial-plan/bulk": true,
+      "POST /v1/monitor": true,
       "PUT /organization/{orgid}/address-book/{id}": true,
       "PUT /organization/{orgid}/agent-burnout/{id}": true,
       "PUT /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1954,7 +1956,7 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "0db081c0d53236af37379ffb6e86832e9954a597"
+    "sha": "2fc12787890f99c011a0571b4ab415c3292b81fe"
   },
   "webex-device.json": {
     "actualizado": "2026-09-30T18:17:21.065001+00:00",

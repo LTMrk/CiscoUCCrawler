@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-bfc5b88070
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_ecc-payload-api_1501.html
-retrieved_at: 2026-08-21T16:46:31.645756+00:00
+retrieved_at: 2026-10-19T09:53:45.273449+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
@@ -193,3 +193,7 @@ This API does not support advanced search parameters.
 
 | Note | This API does not support advanced search parameters. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

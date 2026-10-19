@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-12-6-2-user-guide--bbde772d77
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_12_6_2/user/guide/ucce_b_scripting-and-media-routing-guide_1262/ucce_b_scripting-and-media-routing-guide_chapter_010.html
-retrieved_at: 2026-08-16T20:31:34.738659+00:00
+retrieved_at: 2026-10-19T09:50:52.651105+00:00
 ---
 
 Scripting and Media Routing Guide for Cisco Unified ICM/Contact Center Enterprise, Release 12.6(2)
@@ -381,3 +381,7 @@ CCE assigns the task to an agent who is logged into the "Sales" skill group in t
 | Note | Ensure that you have integrated Webex Connect with CCE and provisioned the digital channel capabilities. For more information,
                                           see the Workflow for enabling and managing digital channel interactions in the Cisco Unified Contact Center Enterprise Features Guide . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

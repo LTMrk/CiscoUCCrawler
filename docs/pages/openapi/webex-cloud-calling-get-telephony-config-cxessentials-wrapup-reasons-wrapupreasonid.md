@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.471577+00:00
+retrieved_at: 2026-10-19T09:48:25.608621+00:00
 ---
 
 # GET /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}

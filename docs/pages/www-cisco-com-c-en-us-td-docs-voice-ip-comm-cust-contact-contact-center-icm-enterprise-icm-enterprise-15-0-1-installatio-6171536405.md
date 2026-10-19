@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-installatio-6171536405
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/installation/guide/ucce_b_150_install_upgrade_guide/preparation.html
-retrieved_at: 2026-08-25T00:10:12.893513+00:00
+retrieved_at: 2026-10-19T09:57:11.121932+00:00
 ---
 
 Cisco Unified Contact Center Enterprise Installation and Upgrade Guide, Release 15.0(1)
@@ -360,3 +360,7 @@ Administration Client machine will remain in OpenLogic-OpenJDK JRE 8 (32-bit).
 
 | Note | Administration Client machine will remain in OpenLogic-OpenJDK JRE 8 (32-bit). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

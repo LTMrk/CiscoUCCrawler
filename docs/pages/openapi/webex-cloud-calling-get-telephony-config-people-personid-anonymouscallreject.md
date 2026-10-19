@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.583714+00:00
+retrieved_at: 2026-10-19T09:48:25.706686+00:00
 ---
 
 # GET /telephony/config/people/{personId}/anonymousCallReject

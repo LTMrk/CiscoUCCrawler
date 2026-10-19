@@ -4,7 +4,7 @@ source_url: https://github.com/CiscoDevNet/webex-contact-center-widget-starter/b
 repo: CiscoDevNet/webex-contact-center-widget-starter
 ruta: Examples/README.md
 licencia: MIT
-retrieved_at: 2026-08-24T09:11:44.791597+00:00
+retrieved_at: 2026-10-19T09:48:50.700256+00:00
 ---
 
 # webex-contact-center-widget-starter — Examples/README.md
@@ -13,6 +13,8 @@ Repositorio: CiscoDevNet/webex-contact-center-widget-starter
 Descripcion del repositorio: WebEx Contact Center widget starter
 
 # Demo Widget
+
+Iframe-shell partner examples (header clip vs `Desktop.popover`, sibling `postMessage`) live in [`Widgets/iframe-shell/`](Widgets/iframe-shell/). Paste [`Layouts/Iframe_Shell_Partner_Fixes.json`](Layouts/Iframe_Shell_Partner_Fixes.json) into Desktop Layout to see them. Source is in that folder. That is not `agentx-wc-iframe` and not `prebuild-app-widget`.
 
 ### Build and Publish
 

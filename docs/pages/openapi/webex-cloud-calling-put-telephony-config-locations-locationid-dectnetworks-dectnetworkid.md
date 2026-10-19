@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.230408+00:00
+retrieved_at: 2026-10-19T09:48:25.395261+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:20.230408+00:00
 Update DECT Network
 
 ## Descripción
-Update the details of a DECT network.
+Update the details of a DECT network. `debugLevel` will not be supported in this API; use Update DECT Network Debug Level API for changing the debug level.
 
 DECT Networks provide roaming voice services via base stations and wireless handsets. A DECT network can be provisioned up to 1000 lines across up to 254 base stations.
 

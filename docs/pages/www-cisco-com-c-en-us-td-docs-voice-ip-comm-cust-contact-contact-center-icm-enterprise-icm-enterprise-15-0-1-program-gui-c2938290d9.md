@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-c2938290d9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_cvp-device-configuration-api_15_0_1.html
-retrieved_at: 2026-08-21T16:45:58.090763+00:00
+retrieved_at: 2026-10-19T09:53:20.239089+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
@@ -242,3 +242,7 @@ Default Media Server must be one of the configured Media Servers.
 
 | Note | You must configure atleast one Media Server. Default Media Server must be one of the configured Media Servers. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

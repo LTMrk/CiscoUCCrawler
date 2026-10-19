@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-e804405a3b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_1501_icm-to-icm-gateway-user-guide/ucce_m_1501_icm-to-icm-gateway-configuration.html
-retrieved_at: 2026-08-20T18:54:43.938229+00:00
+retrieved_at: 2026-10-19T09:56:25.036146+00:00
 ---
 
 ICM to ICM Gateway User Guide for Unified CCE, Release 15.0(1)
@@ -921,3 +921,9 @@ Specify the
 | Note | You can specify the label that the server script returns from other Script Editor nodes, such as the Label node. Refer to
                                           the Scripting and Media Routing Guide for Cisco Contact Center Enterprise for more information. |
 |---|---|
+
+## Figuras
+
+![Figure 13: ICM Gateway](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/340001-350000/340001-341000/340513.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

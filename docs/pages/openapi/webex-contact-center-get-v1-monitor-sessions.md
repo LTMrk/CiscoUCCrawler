@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.014493+00:00
+retrieved_at: 2026-10-19T09:48:26.423562+00:00
 ---
 
 # GET /v1/monitor/sessions
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.014493+00:00
 Fetch Monitoring Sessions
 
 ## Descripción
-Fetches all active subscriptions for a given clientID.
+Fetches all active monitoring subscriptions for the requesting user. Requires the 'cloud-contact-center:pod_read' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The user profile must grant access to the Call Monitoring module. This operation is unavailable when Continuous Scheduled Monitoring is enabled; use realtime data for active monitoring sessions in that mode.
 
 ## Ejemplo de invocación
 ```bash

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-7b3b43fc65
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_inventory-import-api_1501.html
-retrieved_at: 2026-08-21T16:47:04.825035+00:00
+retrieved_at: 2026-10-19T09:54:23.405447+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
@@ -138,3 +138,7 @@ Machine
 
 | Note | To get the polling status of any task, go to GET /unifiedconfig/inventory/results?taskId=<task_id> If the name field in the payload is set to Main (case-sensitive), then the operation is performed on the Main data center. If not, a new remote data center is created. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

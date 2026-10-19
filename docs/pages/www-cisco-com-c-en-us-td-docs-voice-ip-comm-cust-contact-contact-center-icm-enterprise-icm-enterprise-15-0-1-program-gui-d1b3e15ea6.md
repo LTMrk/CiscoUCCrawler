@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-d1b3e15ea6
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_working-with-cisco-packaged-contact-center-enterprise-apis_1501.html
-retrieved_at: 2026-08-21T16:42:33.209297+00:00
+retrieved_at: 2026-10-19T09:56:16.972531+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
@@ -917,3 +917,7 @@ Wrap-up summaries
 | VATransferSummaries | Virtual agent transfer summaries |
 | RealTimeAssist | Real-Time Assist |
 | WrapUpSummaries | Wrap-up summaries |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

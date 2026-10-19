@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.013163+00:00
+retrieved_at: 2026-10-19T09:48:26.422641+00:00
 ---
 
 # POST /v1/monitor/{taskId}/bargeIn
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.013163+00:00
 BargeIn Request
 
 ## Descripción
-Create a successful barge-in request for the supervisor to barge in the call that is being monitored already. Requires scope 'cloud-contact-center:pod_conv' and 'cjp.supervisor'.
+Creates a barge-in request to join a call that is already being monitored. Requires the 'cloud-contact-center:pod_conv' scope and either the 'cjp.supervisor' role with a supervisor profile or, when Licensed Administrator access is enabled, the 'cjp.admin' or 'id_full_admin' role together with the 'cjp.premium_agent' role and an administrator profile. When Licensed Administrator access is enabled, contact-center access and supervisor capabilities must also be enabled. The user profile must grant the Call Monitoring Barge In permission.
 
 ## Parámetros
 - `taskId` [path] (string/UUID) (**requerido**): The unique ID representing the task that needs to be barged by the supervisor.

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-program-gui-637b0e9403
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/Program/guide/pcce_b_cisco_packaged_cce_developer_reference_release_1501/pcce_m_reason-code-api_1501.html
-retrieved_at: 2026-08-21T16:47:55.792778+00:00
+retrieved_at: 2026-10-19T09:55:05.150850+00:00
 ---
 
 Cisco Packaged Contact Center Enterprise Developer Reference, Release 15.0(1)
@@ -191,3 +191,7 @@ Failure - The configuration updates to AW DB is failed.
 | Not-ready Reason Codes | Packaged CCE 2000 Agents Deployment - 100 Packaged CCE 4000 Agents Deployment - 1000 Packaged CCE 12000 Agents Deployment - 3000 | Packaged CCE 2000 Agents Deployment - 100 Packaged CCE 4000 Agents Deployment - 100 Packaged CCE 12000 Agents Deployment - 100 |
 | Sign-out Reason Codes | Packaged CCE 2000 Agents Deployment - 100 Packaged CCE 4000 Agents Deployment - 1000 Packaged CCE 12000 Agents Deployment - 3000 | Packaged CCE 2000 Agents Deployment - 100 Packaged CCE 4000 Agents Deployment - 100 Packaged CCE 12000 Agents Deployment - 100 |
 | Wrap-up Reason Labels | Packaged CCE 2000 Agents Deployment - 1500 Packaged CCE 4000 Agents Deployment - 1500 Packaged CCE 12000 Agents Deployment - 1500 | Packaged CCE 2000 Agents Deployment - 100 Packaged CCE 4000 Agents Deployment - 100 Packaged CCE 12000 Agents Deployment - 100 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

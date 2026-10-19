@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:21.010964+00:00
+retrieved_at: 2026-10-19T09:48:26.420597+00:00
 ---
 
 # POST /v1/agents/reload
@@ -23,7 +23,7 @@ retrieved_at: 2026-10-12T11:51:21.010964+00:00
 Reload
 
 ## Descripción
-Allows the user to receive all the contact assigned to particular agent and state. Requires 'cjp:user' scope for authorization.
+Requests restoration of the active agent session, including agent state and assigned interaction context. This asynchronous API returns `202 Accepted` when the request is accepted for processing; the restoration result is delivered over WebSocket. The success notification is selected by the API version persisted when the agent logged in, not by the reload endpoint version. A V1 login session receives `AgentReloginSuccess`, and a V2 login session receives `AgentChannelReloginSuccess`; therefore, either reload endpoint can result in either success notification. The active session remains on its login version until the agent logs out and starts a new session. See [AgentReloginSuccess](/docs/contact-control-apis#agentreloginsuccess) and [AgentChannelReloginSuccess](/docs/contact-control-apis#agentchannelreloginsuccess) in the Contact Control API Guide. Requires the 'cjp:user' scope for authorization.
 
 ## Ejemplo de invocación
 ```bash

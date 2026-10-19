@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-12T11:51:20.632922+00:00
+retrieved_at: 2026-10-19T09:48:25.750486+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadNoAnswerGreeting/invoke

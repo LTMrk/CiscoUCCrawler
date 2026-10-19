@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-configurati-9bc81af4aa
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/configuration/guide/ucce_b_snmp_guide_1501/ucce_m_response-to-alarms_1501.html
-retrieved_at: 2026-08-20T19:00:11.688308+00:00
+retrieved_at: 2026-10-19T09:56:49.547296+00:00
 ---
 
 SNMP Guide for Cisco Contact Center Enterprise, Release 15.0(1)
@@ -66,3 +66,7 @@ Unified CCE SNMP
 | Note | Some raise event have no automatic clear and must be manually cleared. You should set up an escalation path within your NMS
                                        for events that do not have a corresponding clear event. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

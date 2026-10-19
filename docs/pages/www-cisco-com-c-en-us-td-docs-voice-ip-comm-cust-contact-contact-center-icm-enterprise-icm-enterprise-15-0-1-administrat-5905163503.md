@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cust-contact-contact-center-icm-enterprise-icm-enterprise-15-0-1-administrat-5905163503
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cust_contact/contact_center/icm_enterprise/icm_enterprise_15_0_1/administration/guide/ucce_b_150_administration-guide-for-cisco-unified-contact-center-enterprise/ucce_m_150_graceful-shutdown.html
-retrieved_at: 2026-09-16T00:13:31.613828+00:00
+retrieved_at: 2026-10-19T09:56:20.797348+00:00
 ---
 
 Administration Guide for Cisco Unified Contact Center Enterprise Release, 15.0(1)
@@ -350,3 +350,7 @@ Router/Logger Specific codes : All codes to be prefixed with "MMRequest-".
 | 13 | Querying status | 400-NOVALIDCOMP-400 | Maintenance mode scripts are run on a VM which has no Router service installed. |
 | 14 | Querying status | 400-NODISCRETECOMP-400 | Maintenance mode scripts are run on a VM which has Router service installed but there are other services that don't support
                                        maintenance mode. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

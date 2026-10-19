@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/ai-
 repo: webex/webex-js-sdk
 ruta: packages/calling/ai-docs/GETTING_STARTED.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:47.457914+00:00
+retrieved_at: 2026-10-19T09:48:33.366888+00:00
 ---
 
 # webex-js-sdk — packages/calling/ai-docs/GETTING_STARTED.md
@@ -47,7 +47,7 @@ yarn install
 
 ## Configuration & Secrets
 
-- Unit tests use mocks/fixtures. Playwright journeys require approved runtime accounts/tokens and environment configuration; obtain them through the team mechanism and never store them in source or logs.
+- Unit tests use mocks/fixtures. Jest resolves selected `@webex/*` workspace dependencies to local stub mocks under `test/mocks/` (`internal-plugin-metrics`, `internal-plugin-device`, and `internal-plugin-feature`) and maps others (`media-helpers`, `common`, `common-timers`, and `test-helper-*`) to their workspace source so specs run without the real plugins. Playwright journeys require approved runtime accounts/tokens and environment configuration; obtain them through the team mechanism and never store them in source or logs.
 
 ## Dev Environment
 
