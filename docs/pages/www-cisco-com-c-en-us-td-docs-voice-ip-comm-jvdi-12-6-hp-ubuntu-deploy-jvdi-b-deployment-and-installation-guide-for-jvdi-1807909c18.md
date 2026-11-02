@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-hp-ubuntu-deploy-jvdi-b-deployment-and-installation-guide-for-jvdi-1807909c18
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/hp_ubuntu/deploy/jvdi_b_deployment-and-installation-guide-for-jvdi-hp-ubuntu-12-6/jvdi_b_deployment-and-installation-guide-for-jvdi-hp-ubuntu-12-6_chapter_0101.html
-retrieved_at: 2026-08-22T00:34:36.207931+00:00
+retrieved_at: 2026-11-02T12:47:33.089051+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.6
@@ -252,3 +252,7 @@ admin@LWT44d3ca76ba19:~> |
 | Important | Download of the CNF.xml file follows the system setting for HTTP proxy. Ensure that the proxy does not route the HTTP request
                                           from the thin client outside of the corporate network. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-jvdi-m-whats-new-14-0-html-a824c57b24
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/jvdi_m_whats-new-14-0.html
-retrieved_at: 2026-08-25T23:18:00.004108+00:00
+retrieved_at: 2026-11-02T12:52:20.360783+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.0
@@ -160,3 +160,7 @@ Cisco Headset Integration with Jabber VDI Client for Linux
 | Cisco Jabber Softphone for VDI Release 14.0(2) Cisco JVDI Agent Cisco JVDI Client | 14.0.2.306216 |
 | Cisco Jabber Softphone for VDI Release 14.0(1) Cisco JVDI Agent Cisco JVDI Client | 14.0.1.305989 |
 | Cisco Jabber Softphone for VDI Release 14.0 Cisco JVDI Agent Cisco JVDI Client | 14.0.0.305549 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

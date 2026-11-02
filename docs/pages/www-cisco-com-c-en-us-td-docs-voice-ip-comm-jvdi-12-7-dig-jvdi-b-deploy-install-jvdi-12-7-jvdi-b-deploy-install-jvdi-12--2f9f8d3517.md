@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-7-dig-jvdi-b-deploy-install-jvdi-12-7-jvdi-b-deploy-install-jvdi-12--2f9f8d3517
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7/jvdi_b_deploy-install-jvdi-12-7_preface_010.html
-retrieved_at: 2026-08-22T00:33:29.397109+00:00
+retrieved_at: 2026-11-02T12:48:53.038256+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.7
@@ -60,3 +60,9 @@ Initial publication. This restructured guide covers all Cisco Jabber Softphone f
 | October, 2019 | New | Added a new topic to address CSCvr84303. | Verify Device Registration with Cisco Unified Communications Manager |
 | September, 2019 | Changed | Updated parameter name: HeadsetPreferenceOnVDI . | The User Experience |
 | New | Initial publication. This restructured guide covers all Cisco Jabber Softphone for VDI platforms. |  |
+
+## Figuras
+
+![Back to Top](https://www.cisco.com/etc/designs/cdc/fw/i/responsive/Default-bTop-36.svg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

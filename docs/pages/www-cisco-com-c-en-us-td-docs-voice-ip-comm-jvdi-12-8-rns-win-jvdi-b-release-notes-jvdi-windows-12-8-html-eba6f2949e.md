@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-8-rns-win-jvdi-b-release-notes-jvdi-windows-12-8-html-eba6f2949e
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/rns/win/jvdi_b_release-notes-jvdi-windows-12-8.html
-retrieved_at: 2026-08-22T00:41:50.076775+00:00
+retrieved_at: 2026-11-02T12:50:04.971531+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Windows Release 12.8
@@ -780,3 +780,7 @@ horizon client plus vdi plus cisco jabber component connection issue
 | CSCvs39980 | 3 | Jabber for Windows 12.7 CTI failover does not work when network card is removed from primary CTI |
 | CSCvs44378 | 3 | The handles of JabberCisco.exe increases fast due to openprocess leak |
 | CSCvs56213 | 3 | horizon client plus vdi plus cisco jabber component connection issue |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-9-dig-jvdi-b-deploy-install-jvdi-12-9-jvdi-b-deploy-install-jvdi-12--416b2768fb
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/dig/jvdi_b_deploy-install-jvdi-12-9/jvdi_b_deploy-install-jvdi-12-9_chapter_0110.html
-retrieved_at: 2026-08-22T00:32:13.905929+00:00
+retrieved_at: 2026-11-02T12:50:42.824872+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.9
@@ -142,3 +142,7 @@ Jabber VDI fallback mode offers short-term support for basic audio and video cal
 
 | Tip | If the SIP status is Connected , but the Softphone CTI status is Not connected , check the CTI configuration in CUCM. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

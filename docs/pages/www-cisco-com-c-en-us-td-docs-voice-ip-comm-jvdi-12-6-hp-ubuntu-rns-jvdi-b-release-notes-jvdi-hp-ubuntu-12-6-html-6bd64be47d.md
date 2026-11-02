@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-hp-ubuntu-rns-jvdi-b-release-notes-jvdi-hp-ubuntu-12-6-html-6bd64be47d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/hp_ubuntu/rns/jvdi_b_release-notes-jvdi-hp-ubuntu-12-6.html
-retrieved_at: 2026-09-01T18:02:15.390309+00:00
+retrieved_at: 2026-11-02T12:47:37.530098+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.6
@@ -683,3 +683,7 @@ Heading
 | CSCvo51948 | 3 | Jabber for Windows has incorrect verification process for VXME mode |
 | CSCvo61811 | 3 | Jabber soft phone would not register after being idle for some time |
 | CSCvo69822 | 3 | [eLux]JVDI - Ringtone file "Ringer.wav" is absent on thin client |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

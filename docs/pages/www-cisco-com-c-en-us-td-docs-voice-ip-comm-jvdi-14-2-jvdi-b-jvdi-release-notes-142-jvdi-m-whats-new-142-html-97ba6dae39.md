@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-whats-new-142-html-97ba6dae39
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_whats-new-142.html
-retrieved_at: 2026-08-25T23:18:34.009496+00:00
+retrieved_at: 2026-11-02T12:53:52.574423+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.2
@@ -79,3 +79,7 @@ See Release Notes for Cisco Jabber 14.2 .
 |---|---|
 | Cisco Jabber Softphone for VDI Release 14.2.1 Cisco JVDI Agent Cisco JVDI Client | 14.2.1.58150 build 308150 |
 | Cisco Jabber Softphone for VDI Release 14.2 Cisco JVDI Agent Cisco JVDI Client | 14.2.0.58051 build 308051 |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

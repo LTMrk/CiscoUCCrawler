@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-9-rns-jvdi-b-release-notes-jvdi-129-jvdi-b-release-notes-jvdi-129-ch-6a848fcf3a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_011.html
-retrieved_at: 2026-08-21T12:36:53.228044+00:00
+retrieved_at: 2026-11-02T12:51:17.182324+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 12.9
@@ -94,3 +94,7 @@ Use of a camera with a built-in hardware decoder reduces the load on the CPU.
 | Step 6 | Set Open phone line to On. |
 | Step 7 | Set PC audio to Off. |
 | Step 8 | Click Apply . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

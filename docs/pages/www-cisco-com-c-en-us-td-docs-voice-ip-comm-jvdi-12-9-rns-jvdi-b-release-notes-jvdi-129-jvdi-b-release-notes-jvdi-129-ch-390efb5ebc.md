@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-9-rns-jvdi-b-release-notes-jvdi-129-jvdi-b-release-notes-jvdi-129-ch-390efb5ebc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_00.html
-retrieved_at: 2026-08-21T12:36:40.972811+00:00
+retrieved_at: 2026-11-02T12:51:00.053810+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 12.9
@@ -303,3 +303,7 @@ If the parameter is set to False, Jabber still shows as available when the HVD d
 | Step 2 | Read the EULA and, if you agree, click Continue . |
 | Step 3 | Click Install , and if a prompt appears that Citrix Viewer must be closed first, click Close Application and Install . You can also click Install Later if you cannot close Citrix at the time. |
 | Step 4 | Click through the remaining screens to complete the installation. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

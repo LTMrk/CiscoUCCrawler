@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-6-jvdi-b-d-a49007d143
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6/jvdi_b_deployment-installation-jvdi-elux-12-6_chapter_0101.html
-retrieved_at: 2026-08-22T00:36:46.262583+00:00
+retrieved_at: 2026-11-02T12:47:04.184015+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.6
@@ -227,3 +227,7 @@ admin@LWT44d3ca76ba19:~> |
 | Important | Download of the CNF.xml file follows the system setting for HTTP proxy. Ensure that the proxy does not route the HTTP request
                                           from the thin client outside of the corporate network. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

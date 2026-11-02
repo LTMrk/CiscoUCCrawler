@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-deploy-install-jvdi-141-jvdi-m-configuration-windows-12-6-h-39747b8c1a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_deploy-install-jvdi-141/jvdi_m_configuration-windows-12-6.html
-retrieved_at: 2026-08-22T00:35:56.045113+00:00
+retrieved_at: 2026-11-02T12:53:11.218919+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 14.1
@@ -432,3 +432,7 @@ Select Save .
 | Step 4 | In the End User Configuration window, in the Password field, enter a new password for the user. |
 | Step 5 | In the Confirm Password field, enter the  new password for the user again. |
 | Step 6 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

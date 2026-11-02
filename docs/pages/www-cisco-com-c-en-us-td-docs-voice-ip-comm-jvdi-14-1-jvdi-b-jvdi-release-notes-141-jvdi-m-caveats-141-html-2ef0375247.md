@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-jvdi-release-notes-141-jvdi-m-caveats-141-html-2ef0375247
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_jvdi-release-notes-141/jvdi_m_caveats-141.html
-retrieved_at: 2026-08-25T23:18:29.580359+00:00
+retrieved_at: 2026-11-02T12:53:19.197457+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.1
@@ -310,3 +310,7 @@ JabberVDI for macOS overwrites login key chains
 | CSCwa33411 | 3 | Unable to disable screen sharing in Jabber VDI |
 | CSCwa38601 | 3 | jabber on vdi generating prt will timeout |
 | CSCwa75037 | 3 | JabberVDI for macOS overwrites login key chains |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

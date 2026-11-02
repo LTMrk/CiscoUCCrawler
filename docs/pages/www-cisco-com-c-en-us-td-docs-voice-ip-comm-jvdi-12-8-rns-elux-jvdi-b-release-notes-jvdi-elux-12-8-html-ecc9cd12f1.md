@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-8-rns-elux-jvdi-b-release-notes-jvdi-elux-12-8-html-ecc9cd12f1
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/rns/elux/jvdi_b_release-notes-jvdi-elux-12-8.html
-retrieved_at: 2026-08-22T00:41:54.363248+00:00
+retrieved_at: 2026-11-02T12:49:56.384179+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.8
@@ -640,3 +640,7 @@ CSCvs50906
 | CSCvs28536 | 3 | VDI client is not reachable error notification on JVDI version 12.7 |
 | CSCvs44378 | 3 | The handles of JabberCisco.exe increases fast due to openprocess leak |
 | CSCvs50906 | 3 | 12.7 JVDI on eLux - call drops when minimizing J4W window |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

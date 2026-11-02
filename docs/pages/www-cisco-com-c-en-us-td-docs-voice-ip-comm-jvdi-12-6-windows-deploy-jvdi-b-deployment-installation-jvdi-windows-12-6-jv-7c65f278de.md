@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-6-jv-7c65f278de
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-6/jvdi_b_deployment-installation-jvdi-windows-12-6_chapter_0100.html
-retrieved_at: 2026-08-22T00:38:10.460400+00:00
+retrieved_at: 2026-11-02T12:47:58.699543+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Windows Release 12.6
@@ -163,3 +163,7 @@ To complete the installation, select Finish .
 
 | Note | During the modification of Cisco JVDI Client only components that were installed with the previous version are reinstalled. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-9-rns-jvdi-b-release-notes-jvdi-129-jvdi-b-release-notes-jvdi-129-ch-207e30134f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_0100.html
-retrieved_at: 2026-08-21T12:36:57.462655+00:00
+retrieved_at: 2026-11-02T12:51:12.910138+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 12.9
@@ -250,3 +250,7 @@ Jabber 12.7 while using HVD via JVDI, Remove from Conference Feature Unavailable
 |---|---|---|
 | CSCvu37138 | 4 | Jabber in VDI fallback mode shows incorrect channel information under "Show connection Status" |
 | CSCvs49186 | 6 | Jabber 12.7 while using HVD via JVDI, Remove from Conference Feature Unavailable |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

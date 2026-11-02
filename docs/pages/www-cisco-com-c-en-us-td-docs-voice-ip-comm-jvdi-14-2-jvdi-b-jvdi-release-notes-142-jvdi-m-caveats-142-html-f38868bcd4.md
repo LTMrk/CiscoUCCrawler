@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-2-jvdi-b-jvdi-release-notes-142-jvdi-m-caveats-142-html-f38868bcd4
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_2/jvdi_b_jvdi-release-notes-142/jvdi_m_caveats-142.html
-retrieved_at: 2026-08-25T23:18:41.960833+00:00
+retrieved_at: 2026-11-02T12:53:40.089054+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.2
@@ -136,3 +136,7 @@ HDMI Audio Speakers are shown as microphones in JVDI Client 14.1.3.
 | Caveat ID | Severity | Description |
 |---|---|---|
 | CSCwh08984 | 3 | HDMI Audio Speakers are shown as microphones in JVDI Client 14.1.3. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

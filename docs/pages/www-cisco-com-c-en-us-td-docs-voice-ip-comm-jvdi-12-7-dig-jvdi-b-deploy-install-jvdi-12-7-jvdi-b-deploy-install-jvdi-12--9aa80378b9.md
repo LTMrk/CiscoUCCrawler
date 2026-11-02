@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-7-dig-jvdi-b-deploy-install-jvdi-12-7-jvdi-b-deploy-install-jvdi-12--9aa80378b9
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7/jvdi_b_deploy-install-jvdi-12-7_chapter_0110.html
-retrieved_at: 2026-08-22T00:33:54.820159+00:00
+retrieved_at: 2026-11-02T12:48:44.789702+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.7
@@ -216,3 +216,7 @@ dump_when_collect_log = True You can set the dump_type to Fulldump or Minidump. 
 |---|---|
 | Step 2 | Save the file. |
 | Step 3 | Restart the vxc process by logging out and back in to the HVD. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-limitations-and-restrictions-14-0-html-fc7fa23372
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/limitations-and-restrictions-14-0.html
-retrieved_at: 2026-08-25T23:18:08.694170+00:00
+retrieved_at: 2026-11-02T12:52:24.722517+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.0
@@ -300,3 +300,7 @@ For Windows, Cisco Jabber Softphone for VDI for VDI does not support mutiple vir
 
 | Important | Do not choose Authentication Mode By Null string when using the Certificate Authority Proxy Function (CAPF). This setting breaks Cisco Jabber Softphone for VDI registration to Cisco Unified Communications Manager. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

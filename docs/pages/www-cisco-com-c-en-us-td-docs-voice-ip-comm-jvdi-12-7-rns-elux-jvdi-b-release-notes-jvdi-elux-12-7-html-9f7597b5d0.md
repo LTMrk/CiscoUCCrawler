@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-7-rns-elux-jvdi-b-release-notes-jvdi-elux-12-7-html-9f7597b5d0
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/rns/elux/jvdi_b_release-notes-jvdi-elux-12-7.html
-retrieved_at: 2026-08-22T00:42:06.951249+00:00
+retrieved_at: 2026-11-02T12:48:57.510080+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI— Unicon eLux Release 12.7
@@ -643,3 +643,7 @@ JVDI - Device Selection menu on the Call Conversation window
 | CSCvq59211 | 3 | [VMware]JVDI softphone not reconnecting |
 | CSCvr15121 | 3 | Jabber HVD is not able to verify Exp-E certificate |
 | CSCvp95567 | 6 | JVDI - Device Selection menu on the Call Conversation window |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

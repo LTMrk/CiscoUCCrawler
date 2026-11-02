@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-7-dig-jvdi-b-deploy-install-jvdi-12-7-jvdi-b-deploy-install-jvdi-12--599986a261
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/dig/jvdi_b_deploy-install-jvdi-12-7/jvdi_b_deploy-install-jvdi-12-7_chapter_0101.html
-retrieved_at: 2026-08-22T00:33:50.854699+00:00
+retrieved_at: 2026-11-02T12:48:36.093849+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.7
@@ -68,3 +68,7 @@ If you're not upgrading the Cisco JVDI Client , you can skip the steps to instal
 
 | Important | Both the Cisco JVDI Agent and Cisco JVDI Client are required for softphone registration to succeed. The Cisco Jabber for Windows and Cisco JVDI Agent versions must always match. However, the Cisco JVDI Client version can be the same, or the previous version. The earlier software version determines the available feature set. If you're not upgrading the Cisco JVDI Client , you can skip the steps to install it. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

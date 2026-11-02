@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-windows-rns-jvdi-b-release-notes-jvdi-windows-12-6-html-15d4d20d2f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/windows/rns/jvdi_b_release-notes-jvdi-windows-12-6.html
-retrieved_at: 2026-08-22T00:42:23.646747+00:00
+retrieved_at: 2026-11-02T12:48:07.074660+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Windows Release 12.6
@@ -777,3 +777,7 @@ Heading
 | CSCvo41918 | 3 | Jabber VXME calling wrong API to distinguish between Citrix published desktop and published app |
 | CSCvo51948 | 3 | Jabber for Windows has incorrect verification process for VXME mode |
 | CSCvo61811 | 3 | Jabber soft phone would not register after being idle for some time |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

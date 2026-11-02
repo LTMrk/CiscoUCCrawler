@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-deploy-install-jvdi-141-jvdi-b-deploy-install-jvdi-12-9-cha-b023d96e44
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_deploy-install-jvdi-141/jvdi_b_deploy-install-jvdi-12-9_chapter_01.html
-retrieved_at: 2026-08-22T00:35:39.237576+00:00
+retrieved_at: 2026-11-02T12:52:33.143825+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 14.1
@@ -576,3 +576,11 @@ Cisco Jabber Softphone for VDI supports full-screen and windowed display for Win
 
 | Important | Before you install the Cisco JVDI Client, install the Citrix Receiver or VMware Horizon Client on the thin client. If you change from a Citrix environment to a VMware environment (or from VMware to Citrix), reinstall the Cisco JVDI Client. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Jabber Softphone for VDI—Architecture and Protocol Sessions](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449665.jpg)
+
+![Figure 2. Cisco Jabber Softphone for VDI—Data Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/441001-442000/441519.jpg)
+
+![Figure 3. Do You Need Cisco Jabber Softphone for VDI ?](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425707.jpg)

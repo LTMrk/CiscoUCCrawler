@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-7-rns-windows-jvdi-b-release-notes-jvdi-windows-12-7-html-d083e59a37
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_7/rns/windows/jvdi_b_release-notes-jvdi-windows-12-7.html
-retrieved_at: 2026-08-22T00:42:02.640510+00:00
+retrieved_at: 2026-11-02T12:49:06.211974+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Windows Release 12.7
@@ -756,3 +756,7 @@ JVDI - Device Selection menu on the Call Conversation window
 | CSCvr15121 | 3 | Jabber HVD is not able to verify Exp-E certificate |
 | CSCvr13324 | 4 | VXME for Windows 12.6.1 - jabber.log file saved in thin client desktop |
 | CSCvp95567 | 6 | JVDI - Device Selection menu on the Call Conversation window |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

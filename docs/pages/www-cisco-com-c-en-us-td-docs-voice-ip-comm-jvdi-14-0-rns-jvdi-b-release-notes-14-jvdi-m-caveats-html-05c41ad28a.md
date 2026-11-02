@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-0-rns-jvdi-b-release-notes-14-jvdi-m-caveats-html-05c41ad28a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_0/rns/jvdi_b_release-notes-14/jvdi_m_caveats.html
-retrieved_at: 2026-08-25T23:18:12.565641+00:00
+retrieved_at: 2026-11-02T12:52:12.230379+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 14.0
@@ -322,3 +322,7 @@ JVDI Client Installation Files Install in Unexpected Location
                                           									6 |
 | CSCvs60636 | 4 | Multiple Vulnerabilities in openssl |
 | CSCvx13782 | 5 | JVDI Client Installation Files Install in Unexpected Location |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

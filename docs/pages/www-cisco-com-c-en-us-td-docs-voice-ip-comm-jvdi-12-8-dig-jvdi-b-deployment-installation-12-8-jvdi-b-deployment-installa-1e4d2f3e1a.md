@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-8-dig-jvdi-b-deployment-installation-12-8-jvdi-b-deployment-installa-1e4d2f3e1a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8/jvdi_b_deployment-installation-12-8_chapter_0100.html
-retrieved_at: 2026-08-22T00:32:55.919126+00:00
+retrieved_at: 2026-11-02T12:49:22.983301+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.8
@@ -352,3 +352,7 @@ In the Deploy Software dialog box, select Assigned , and then select OK .
 | Important | Enter the Uniform Naming Convention (UNC) path for the location of the MSI file. If you do not enter the UNC path, Group Policy
                                                       cannot deploy Cisco JVDI Client . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

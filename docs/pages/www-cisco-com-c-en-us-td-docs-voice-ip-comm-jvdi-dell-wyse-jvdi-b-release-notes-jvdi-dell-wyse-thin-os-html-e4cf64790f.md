@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-dell-wyse-jvdi-b-release-notes-jvdi-dell-wyse-thin-os-html-e4cf64790f
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/dell-wyse/jvdi_b_release-notes-jvdi-dell-wyse-thin-os.html
-retrieved_at: 2026-08-22T00:41:45.771134+00:00
+retrieved_at: 2026-11-02T12:53:56.990360+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Dell Wyse ThinOS
@@ -578,3 +578,7 @@ Dell Wyse owns support for Cisco Jabber Softphone for VDI installed on Wyse Thin
 | Step 6 | Set Open phone line to On. |
 | Step 7 | Set PC audio to Off. |
 | Step 8 | Click Apply . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

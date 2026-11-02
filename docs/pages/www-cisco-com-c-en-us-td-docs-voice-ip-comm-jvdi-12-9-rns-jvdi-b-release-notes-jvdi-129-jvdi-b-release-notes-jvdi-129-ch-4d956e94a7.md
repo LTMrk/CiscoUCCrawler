@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-9-rns-jvdi-b-release-notes-jvdi-129-jvdi-b-release-notes-jvdi-129-ch-4d956e94a7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_9/rns/jvdi_b_release-notes-jvdi-129/jvdi_b_release-notes-jvdi-129_chapter_01.html
-retrieved_at: 2026-08-21T12:36:45.365227+00:00
+retrieved_at: 2026-11-02T12:51:04.360022+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI Release 12.9
@@ -501,3 +501,7 @@ Cisco Jabber for Windows Release N.A(x), Cisco JVDI Agent Release
                                                 example, 14.0), the JVDI client is also supported on the two previous
                                                 releases (for example, 12.9 and 12.8). |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

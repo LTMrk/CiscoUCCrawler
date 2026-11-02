@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-8-dig-jvdi-b-deployment-installation-12-8-jvdi-b-deployment-installa-85992cece5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8/jvdi_b_deployment-installation-12-8_chapter_011.html
-retrieved_at: 2026-08-22T00:32:51.251495+00:00
+retrieved_at: 2026-11-02T12:49:39.520946+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.8
@@ -78,3 +78,7 @@ For assistance locating the file, contact Unicon support.
 | Step 1 | Visit the Unicon web site. |
 |---|---|
 | Step 2 | Locate and download the file: vpnsystem . For assistance locating the file, contact Unicon support. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

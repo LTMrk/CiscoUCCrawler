@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-8-dig-jvdi-b-deployment-installation-12-8-jvdi-b-deployment-installa-9d3eca2af3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_8/dig/jvdi_b_deployment-installation-12-8/jvdi_b_deployment-installation-12-8_chapter_01000.html
-retrieved_at: 2026-08-22T00:33:12.368448+00:00
+retrieved_at: 2026-11-02T12:49:26.934524+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 12.8
@@ -107,3 +107,7 @@ thinuser 6547 6538 8 Mar14 ? 13:02:16 vxc -m
 admin 31576 31303 0 11:05 pts/0 00:00:00 grep -r vxc
 
 admin@LWT44d3ca76ba19:~> |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

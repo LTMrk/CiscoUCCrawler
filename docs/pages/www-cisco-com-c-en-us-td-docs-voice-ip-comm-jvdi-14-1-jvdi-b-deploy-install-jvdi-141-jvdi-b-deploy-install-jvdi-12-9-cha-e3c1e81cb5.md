@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-deploy-install-jvdi-141-jvdi-b-deploy-install-jvdi-12-9-cha-e3c1e81cb5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_deploy-install-jvdi-141/jvdi_b_deploy-install-jvdi-12-9_chapter_0110.html
-retrieved_at: 2026-08-22T00:36:03.834471+00:00
+retrieved_at: 2026-11-02T12:53:02.658513+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 14.1
@@ -159,3 +159,7 @@ false—Disables BFCP screen sharing
 
 | Tip | If the SIP status is Connected , but the Softphone CTI status is Not connected , check the CTI configuration in CUCM. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

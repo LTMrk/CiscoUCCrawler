@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-14-1-jvdi-b-deploy-install-jvdi-141-jvdi-b-deploy-install-jvdi-12-9-cha-a02dfcf99d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/14_1/jvdi_b_deploy-install-jvdi-141/jvdi_b_deploy-install-jvdi-12-9_chapter_010.html
-retrieved_at: 2026-08-22T00:35:42.758439+00:00
+retrieved_at: 2026-11-02T12:52:37.295224+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI Release 14.1
@@ -65,3 +65,7 @@ Follow the version support strategy, outlined in this guide and in the release
 
 | Important | You must create CSF devices for Cisco Jabber Softphone for VDI users, and add each user to the following Access Control Groups: Standard CCM End Users Standard CTI Enabled Standard CTI Allow Call Recording (Required for ad-hoc recording/Built in Bridge functionality) |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)
