@@ -8358,6 +8358,18 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-administration-software/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-administration-software-series-html-b7ceba7eb7",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:22:03.922779+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-02T13:22:03.922791+00:00",
+      "next_check": "2026-11-03T13:22:03.922791+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-telepresence-administration-software.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-integrator-c-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-integrator-c-series-tsd-products-support-series-home--ed0c420077",
@@ -8394,6 +8406,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precision-cameras/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-precision-cameras-series-html-470049e82c",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:22:08.165357+00:00",
+      "last_seen": "2026-11-02T13:22:08.165357+00:00",
+      "next_check": "2026-11-04T13:22:08.165357+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-precision-cameras/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-precision-cameras-tsd-products-support-series-home-ht-5a7b2c4298",
@@ -8429,6 +8451,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-quick-set-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-telepresence-speaker-track-60-series-html-aa6157ef04",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:22:20.593540+00:00",
+      "last_seen": "2026-11-02T13:22:20.593540+00:00",
+      "next_check": "2026-11-04T13:22:20.593540+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/telepresence-speaker-track-60/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -10389,6 +10421,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-precision-cameras-221771-troubleshoot-edid-and-c-f950060624",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:21:56.550589+00:00",
+      "last_seen": "2026-11-02T13:21:56.550601+00:00",
+      "next_check": "2026-11-03T13:21:56.550604+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-epub-1ad86b7ee8",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:08.636156+00:00",
+      "last_seen": "2026-11-02T13:22:08.636167+00:00",
+      "next_check": "2026-11-03T13:22:08.636171+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00.html": {
       "content_sha": "191055ee571f9d622cd361f46646f2f2327318f43c6f3dc6fc6afe53127a52ab",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-html-b7a58354bf",
@@ -10400,6 +10452,26 @@
       "last_seen": "2026-09-28T04:51:23.943556+00:00",
       "next_check": "2026-09-29T04:51:23.943556+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-speakertrack-60/118733-config-speaker-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-speakertrack-60-118733-config-speaker-00-mobi-570d5ecc03",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:12.819511+00:00",
+      "last_seen": "2026-11-02T13:22:12.819523+00:00",
+      "next_check": "2026-11-03T13:22:12.819527+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-system-ex-series-221630-configure-telepresence-e-6eec834192",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:21.384002+00:00",
+      "last_seen": "2026-11-02T13:22:21.384015+00:00",
+      "next_check": "2026-11-03T13:22:21.384020+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.html": {
@@ -10415,6 +10487,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-system-ex-series/221630-configure-telepresence-endpoint-sip-regi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-system-ex-series-221630-configure-telepresence-e-06c377c3a9",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:25.374272+00:00",
+      "last_seen": "2026-11-02T13:22:25.374286+00:00",
+      "next_check": "2026-11-03T13:22:25.374289+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/116684-technote-ipphone-00.html": {
       "content_sha": "2bbef97588b5893e1f375b2ca38f23f6d44122485bd052acacdf04fee92f1bcd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-116684-technote-ipphone-00-html-5f666bc43b",
@@ -10428,6 +10510,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-200410-troubleshoot-ip-phone-unr-0b23d78fe4",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:29.666747+00:00",
+      "last_seen": "2026-11-02T13:22:29.666759+00:00",
+      "next_check": "2026-11-03T13:22:29.666763+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.html": {
       "content_sha": "fb2ad4ffa148e5a0a87fd2f35dda96febc907a312e7ab0b231be207b1e79fc8c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-200410-troubleshoot-ip-phone-unr-014e9563ea",
@@ -10440,6 +10532,16 @@
       "next_check": "2026-10-06T04:51:32.422816+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/200410-Troubleshoot-IP-Phone-Unregistration-A.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-unified-ip-phone-7900-series-200410-troubleshoot-ip-phone-unr-5ba71de134",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:22:33.889692+00:00",
+      "last_seen": "2026-11-02T13:22:33.889706+00:00",
+      "next_check": "2026-11-03T13:22:33.889711+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/unified-ip-phone-7900-series/212061-How-To-Make-A-Cisco-IP-Phone-Console-Cab.html": {
       "content_sha": "f7ddbf8fc0caa2fd30072626ae062c76a00827fd8d6d3f906052c9de43759420",
@@ -181301,5 +181403,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:20:08.477727+00:00"
+  "updated_at": "2026-11-02T13:22:33.961295+00:00"
 }
