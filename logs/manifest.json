@@ -9183,6 +9183,26 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-installation-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-tms-products-installation-guides-list-html-c62389359a",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:31:55.925038+00:00",
+      "last_seen": "2026-11-02T13:31:55.925038+00:00",
+      "next_check": "2026-11-04T13:31:55.925038+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-tms-series-html-69d351464d",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:31:43.883726+00:00",
+      "last_seen": "2026-11-02T13:31:43.883726+00:00",
+      "next_check": "2026-11-04T13:31:43.883726+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-telepresence-management-suite-tms-tsd-products-support-series-home-html-83198394e7",
@@ -11791,6 +11811,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-200915-install-a-telepresence-manageme-d3b60d2bea",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:31:44.258394+00:00",
+      "last_seen": "2026-11-02T13:31:44.258410+00:00",
+      "next_check": "2026-11-03T13:31:44.258413+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.html": {
       "content_sha": "e7a20f841733d5e6ff3c7bdeefad511d0224607210eb20103d5ce1a14af8606c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-200915-install-a-telepresence-manageme-5ff5aeb52c",
@@ -11802,6 +11832,26 @@
       "last_seen": "2026-09-28T04:52:23.322430+00:00",
       "next_check": "2026-09-29T04:52:23.322430+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-200915-install-a-telepresence-manageme-f339c52077",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:31:48.923633+00:00",
+      "last_seen": "2026-11-02T13:31:48.923645+00:00",
+      "next_check": "2026-11-03T13:31:48.923648+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211266-how-to-create-a-file-based-phon-4ca54b9d43",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:31:57.026612+00:00",
+      "last_seen": "2026-11-02T13:31:57.026627+00:00",
+      "next_check": "2026-11-03T13:31:57.026631+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.html": {
@@ -11817,6 +11867,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211266-how-to-create-a-file-based-phon-585c66cf8f",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:32:01.321714+00:00",
+      "last_seen": "2026-11-02T13:32:01.321726+00:00",
+      "next_check": "2026-11-03T13:32:01.321729+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211279-how-to-troubleshoot-no-https-re-7a14feed6d",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:32:05.464073+00:00",
+      "last_seen": "2026-11-02T13:32:05.464087+00:00",
+      "next_check": "2026-11-03T13:32:05.464090+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.html": {
       "content_sha": "4bad4e11c01823fab01285edebdf857246eb90bb348f9ba2652080f13c15767a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211279-how-to-troubleshoot-no-https-re-b083693c4c",
@@ -11830,6 +11900,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-211279-how-to-troubleshoot-no-https-re-0cafa1afe6",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:32:09.419560+00:00",
+      "last_seen": "2026-11-02T13:32:09.419571+00:00",
+      "next_check": "2026-11-03T13:32:09.419574+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212319-tms-sql-database-migration-from-437777086a",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:32:13.973709+00:00",
+      "last_seen": "2026-11-02T13:32:13.973720+00:00",
+      "next_check": "2026-11-03T13:32:13.973723+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.html": {
       "content_sha": "12aa635e94759ba4602d4ba8d63a7fd151163b96d5338eccccf5883d699650f6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212319-tms-sql-database-migration-from-6e2e7e98b4",
@@ -11841,6 +11931,16 @@
       "last_seen": "2026-09-28T04:52:36.058957+00:00",
       "next_check": "2026-09-29T04:52:36.058957+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212319-tms-sql-database-migration-from-6bc749e2df",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:32:17.859518+00:00",
+      "last_seen": "2026-11-02T13:32:17.859535+00:00",
+      "next_check": "2026-11-03T13:32:17.859539+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.html": {
@@ -181703,5 +181803,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:29:54.761550+00:00"
+  "updated_at": "2026-11-02T13:32:17.915316+00:00"
 }

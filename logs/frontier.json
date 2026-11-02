@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-installation-guides-list.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.epub",
     "depth": 1
   },
@@ -9921,6 +9881,106 @@
   },
   {
     "url": "https://community.cisco.com/t5/cisco-remanufactured-equipment-knowledge-base/telia-case-study/ta-p/4571243",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/118723-configure-tms-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212319-tms-sql-database-migration-from-one-sql.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211279-How-to-Troubleshoot-No-HTTPS-response.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/tms-product-support-information-kb-704.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/226382-plan-tms-application-upgrade-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server/212298-cisco-meeting-server-acano-tms-integ.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/211266-How-to-Create-a-File-Based-Phonebook-in.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200915-Install-a-Telepresence-Management-Suite.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/200263-Configure-TMS-to-change-Provisioning-of.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/tms/config_guide/webex_enabled_telepresence/config_vcse_certs/vcse_certs_part_1.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/infrastructure/articles/mcu_tms_configure_work_together_kb_288.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-programming-reference-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/conferencing/telepresence-management-suite-tms/products-maintenance-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-mcu-4203/112803-pqa-112803-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/213287-create-a-local-server-site-administrator.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/understanding-dial-plan-and-call-routing-on-cisco-meeting-server/ta-p/4777896",
     "depth": 2
   }
 ]
