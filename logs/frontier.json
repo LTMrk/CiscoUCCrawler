@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/conferencing/webex-control-hub/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.mobi",
     "depth": 1
   },
@@ -9941,6 +9901,110 @@
   },
   {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/understanding-dial-plan-and-call-routing-on-cisco-meeting-server/ta-p/4777896",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225038-troubleshoot-hybrid-calendar-with.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-app/223080-troubleshoot-webex-desktop-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222202-enable-directory-synchronization-on-the.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222020-troubleshoot-e911-location-with-webex-uc.html",
     "depth": 2
   }
 ]

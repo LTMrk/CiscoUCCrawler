@@ -9347,6 +9347,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/webex-control-hub/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-control-hub-series-html-3cecfb4f94",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:36:42.373447+00:00",
+      "last_seen": "2026-11-02T13:36:42.373447+00:00",
+      "next_check": "2026-11-04T13:36:42.373447+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meeting-center-tsd-products-support-series-home-html-3726e2404a",
@@ -12121,6 +12131,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217245-how-to-configure-office-365-hyb-40525d7774",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:15.864254+00:00",
+      "last_seen": "2026-11-02T13:36:15.864264+00:00",
+      "next_check": "2026-11-03T13:36:15.864266+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.html": {
       "content_sha": "11c51b342cf9b19e41453cada79937196f8784fae8e8423a6bad4b3f6b997c4e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217245-how-to-configure-office-365-hyb-dd8579e8bb",
@@ -12132,6 +12152,26 @@
       "last_seen": "2026-09-28T04:53:05.729737+00:00",
       "next_check": "2026-09-29T04:53:05.729737+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217245-how-to-configure-office-365-hyb-29729b12c1",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:18.677213+00:00",
+      "last_seen": "2026-11-02T13:36:18.677227+00:00",
+      "next_check": "2026-11-03T13:36:18.677230+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217657-how-to-apply-workaround-of-tms--f5a9a52ba4",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:22.816088+00:00",
+      "last_seen": "2026-11-02T13:36:22.816101+00:00",
+      "next_check": "2026-11-03T13:36:22.816103+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.html": {
@@ -12147,6 +12187,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217657-how-to-apply-workaround-of-tms-enhanceme.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-217657-how-to-apply-workaround-of-tms--ae4a6d8ce6",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:26.977361+00:00",
+      "last_seen": "2026-11-02T13:36:26.977374+00:00",
+      "next_check": "2026-11-03T13:36:26.977377+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-mcu-4203/112803-pqa-112803-00.html": {
       "content_sha": "5f08bb30d8c19c3ae46f501cb27c018a54a98ecbe64678f7c41e1ac307437ffc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-mcu-4203-112803-pqa-112803-00-html-9bb9b43742",
@@ -12158,6 +12208,16 @@
       "last_seen": "2026-09-28T04:53:13.899346+00:00",
       "next_check": "2026-09-29T04:53:13.899346+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-215012-configure-the-remember-me-api-for-persis-epub-61e3ce0fe5",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:30.937757+00:00",
+      "last_seen": "2026-11-02T13:36:30.937769+00:00",
+      "next_check": "2026-11-03T13:36:30.937772+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.html": {
@@ -12173,6 +12233,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/215012-configure-the-remember-me-api-for-persis.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-215012-configure-the-remember-me-api-for-persis-mobi-7a62f3bcd1",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:34.993920+00:00",
+      "last_seen": "2026-11-02T13:36:34.993931+00:00",
+      "next_check": "2026-11-03T13:36:34.993934+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-epub-dc39c08442",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:43.536206+00:00",
+      "last_seen": "2026-11-02T13:36:43.536220+00:00",
+      "next_check": "2026-11-03T13:36:43.536223+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.html": {
       "content_sha": "8598eee92a2a9b327b89ab79eb836d45f998f5f063db3039d391da358f89b81f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-html-46d7361cce",
@@ -12184,6 +12264,26 @@
       "last_seen": "2026-09-28T05:45:45.742040+00:00",
       "next_check": "2026-09-29T05:45:45.742040+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/217232-how-to-configure-and-troubleshoot-cvi-fo.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-217232-how-to-configure-and-troubleshoot-cvi-fo-mobi-8b43dc4be2",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:47.590517+00:00",
+      "last_seen": "2026-11-02T13:36:47.590530+00:00",
+      "next_check": "2026-11-03T13:36:47.590532+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218072-configure-a-user-as-a-full-external-admi-epub-fbfc4aa7fc",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:36:51.758272+00:00",
+      "last_seen": "2026-11-02T13:36:51.758299+00:00",
+      "next_check": "2026-11-03T13:36:51.758302+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.html": {
@@ -181903,5 +182003,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:34:34.495112+00:00"
+  "updated_at": "2026-11-02T13:36:51.814227+00:00"
 }
