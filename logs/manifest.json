@@ -4474,6 +4474,19 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/article/WBX67566": {
+      "content_sha": "361b93c30aa6eb61b04eca46b47ce6dc785d6421b8959db49d2a3c6a784b98a4",
+      "doc_id": "help-webex-com-article-wbx67566-3aff253851",
+      "etag": "\"31100-dyKoykLP+FhdbdiASTJIDmjgkWM\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:08.523537+00:00",
+      "last_changed": "2026-11-02T13:15:08.523537+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:08.523537+00:00",
+      "next_check": "2026-11-03T13:15:08.523537+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/article/e2okky": {
       "content_sha": "36ad9dd95fedeea4cab4b275b65997bf443c5991005c5ef2324ccdb47fcbb76c",
       "doc_id": "help-webex-com-article-e2okky-a567015859",
@@ -4535,6 +4548,19 @@
       "next_check": "2026-09-29T19:34:50.368530+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://help.webex.com/article/lfu88u/Single-Sign-On-Integration-in-Control-Hub": {
+      "content_sha": "88b4daffe63e150bf93cf5b51ddfe835f79068b0334d53daaa8961031c304305",
+      "doc_id": "help-webex-com-article-lfu88u-single-sign-on-integration-in-control-hub-8228ae0cbe",
+      "etag": "\"4ab5b-jjme8ZzlmHuNLX8AqN3bkhKF018\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:55.016728+00:00",
+      "last_changed": "2026-11-02T13:14:55.016728+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:55.016728+00:00",
+      "next_check": "2026-11-03T13:14:55.016728+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://help.webex.com/article/lk7294": {
       "content_sha": "8b56f44cb847da5c1bcd025da3b6fb74b272b118a72448aa43072b076b743d54",
@@ -4653,6 +4679,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/article/zvm4sj/Webex-App-%7C-Change-your-default-Webex-site": {
+      "content_sha": "ca55c8e8482a7ca3eeb9738e4b7927c92aca4717e8a24258b66edeef12ea5768",
+      "doc_id": "help-webex-com-article-zvm4sj-webex-app-7c-change-your-default-webex-site-c4825eb843",
+      "etag": "\"2e2f5-VT6izu4rwSOnG4VkH3FedgR42Tw\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:26.994915+00:00",
+      "last_changed": "2026-11-02T13:15:26.994915+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:26.994915+00:00",
+      "next_check": "2026-11-03T13:15:26.994915+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/all-products": {
       "content_sha": null,
       "doc_id": "help-webex-com-en-us-all-products-06d703e07d",
@@ -4712,6 +4751,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/1hrvr5": {
+      "content_sha": "00f79adf02eb19b342c68ea8d7d0744a72147b3f57f4f7d50981e1aebd858537",
+      "doc_id": "help-webex-com-en-us-article-1hrvr5-1c2f1a974a",
+      "etag": "\"52d9a-AP7W9Ilo3Dix92OfWmkW0uxJ3Rc\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:04.395427+00:00",
+      "last_changed": "2026-11-02T13:10:04.395427+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:04.395427+00:00",
+      "next_check": "2026-11-03T13:10:04.395427+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/1mqb9cb": {
       "content_sha": "5953e617e6e2312452c1f000708388b00b7bcfde7b07c4f12561d1c3de3de8fc",
       "doc_id": "help-webex-com-en-us-article-1mqb9cb-f8f6d3021f",
@@ -4738,6 +4790,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/1z4z8s": {
+      "content_sha": "9e94d3bbfe20ad3b0fe4a57a85b58c4cf4a254e89bf2b501be1ff8acb2731693",
+      "doc_id": "help-webex-com-en-us-article-1z4z8s-539ec3f4f4",
+      "etag": "\"2f10e-EBlvVAyGOdVL6lPBmXNzGIWBbFo\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:17.665672+00:00",
+      "last_changed": "2026-11-02T13:16:17.665672+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:17.665672+00:00",
+      "next_check": "2026-11-03T13:16:17.665672+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/212ytk": {
       "content_sha": "8f0fdeb82285fc829d1fc457fc4284d7f07921feceef9f9068cc23460be50a5a",
       "doc_id": "help-webex-com-en-us-article-212ytk-5330352d05",
@@ -4748,6 +4813,32 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:07:18.348516+00:00",
       "next_check": "2026-11-03T13:07:18.348516+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/25oy59": {
+      "content_sha": "4262b437c0e31e5e8ab4fd404a9366dddfb4b1f52709ef92642a70a38377e63f",
+      "doc_id": "help-webex-com-en-us-article-25oy59-5bbb7afbc5",
+      "etag": "\"378b7-efz6v9JMu6A+jG7Vsk6qwyEi8Cg\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:56.767483+00:00",
+      "last_changed": "2026-11-02T13:11:56.767483+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:56.767483+00:00",
+      "next_check": "2026-11-03T13:11:56.767483+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/29odsb": {
+      "content_sha": "fc02d0f996d9bab5013a72408569e7098894494195e4895c16b52e0bd7fb3ba7",
+      "doc_id": "help-webex-com-en-us-article-29odsb-e0f3f50560",
+      "etag": "\"896f0-5jQXO9Ao9W1htCI6blU8mv7iyrc\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:09.169312+00:00",
+      "last_changed": "2026-11-02T13:11:09.169312+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:09.169312+00:00",
+      "next_check": "2026-11-03T13:11:09.169312+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -4829,6 +4920,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/2tc9yx": {
+      "content_sha": "a9f46356ac16f7e84e25c7ed0c8d6113ed1c8f1f9a08122a90f23e92aa0823e3",
+      "doc_id": "help-webex-com-en-us-article-2tc9yx-61fb0053d4",
+      "etag": "\"30756-rkTN8YzJpkNdd4Ps2tmN47iwGuw\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:04.534004+00:00",
+      "last_changed": "2026-11-02T13:16:04.534004+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:04.534004+00:00",
+      "next_check": "2026-11-03T13:16:04.534004+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/2y8qmt/Partner-Administrator-Roles-for-Webex-for-BroadWorks-and-Wholesale-RTM": {
       "content_sha": "80a6a0d93923530b6fa4ecd0861409127c3b0d719d3c9a46ccdc0f8bfe9a9c9e",
       "doc_id": "help-webex-com-en-us-article-2y8qmt-partner-administrator-roles-for-webex-for-broadworks-and-wholesale-rtm-0c08cdfbc0",
@@ -4907,6 +5011,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/3l43yy": {
+      "content_sha": "0fea404cfa7d38836f923e20f95e57db2e404a4ac8d841452b0005c723542c80",
+      "doc_id": "help-webex-com-en-us-article-3l43yy-cf44f99f76",
+      "etag": "\"5230d-AiKOIv2M+AEyeC5/YQgDG5kdC+c\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:41.172072+00:00",
+      "last_changed": "2026-11-02T13:13:41.172072+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:41.172072+00:00",
+      "next_check": "2026-11-03T13:13:41.172072+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/54vvw": {
       "content_sha": "6c0d094d83a35ae4b84576722c8c0f4892d226cd57d2c271d691cc76b44aceea",
       "doc_id": "help-webex-com-en-us-article-54vvw-6f037a5207",
@@ -4930,6 +5047,32 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:44:45.853759+00:00",
       "next_check": "2026-09-29T04:44:45.853759+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/5geecr/Closed-captioning-on-Board,-Desk,-and-Room-Series": {
+      "content_sha": "ee54244f24367da3a3c760d4773c2a8c52898b60daf990b2c1086ab00dc2c246",
+      "doc_id": "help-webex-com-en-us-article-5geecr-closed-captioning-on-board-desk-and-room-series-d971e65339",
+      "etag": "\"36d60-wqonAU4iZ7ZL1ereO7k6JTlCgGw\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:41.073274+00:00",
+      "last_changed": "2026-11-02T13:14:41.073274+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:41.073274+00:00",
+      "next_check": "2026-11-03T13:14:41.073274+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/6aoom1": {
+      "content_sha": "19359981e8eda76fc52423909151ac4f49e39ddeec735e1125e1447cd7bac2a1",
+      "doc_id": "help-webex-com-en-us-article-6aoom1-29c4a73856",
+      "etag": "\"31e83-Q7VkYWJLCkt+FMnkfnOdgYSo8OQ\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:42.665672+00:00",
+      "last_changed": "2026-11-02T13:11:42.665672+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:42.665672+00:00",
+      "next_check": "2026-11-03T13:11:42.665672+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5011,6 +5154,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/8mpiieb": {
+      "content_sha": "bc000b6f5b5ebfca2408aff5db0b957827e435986449e52e66f384f93f1c1d11",
+      "doc_id": "help-webex-com-en-us-article-8mpiieb-d165d78038",
+      "etag": "\"30255-rJKRjB/+Duz8nBxf4FQvczUAAoY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:46.732067+00:00",
+      "last_changed": "2026-11-02T13:11:46.732067+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:46.732067+00:00",
+      "next_check": "2026-11-03T13:11:46.732067+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/934ty8": {
       "content_sha": "42028f56b0c15aec087c4ba14c65776b40f9837fd85c8944f2174b6a1a94ca42",
       "doc_id": "help-webex-com-en-us-article-934ty8-fe53c28c67",
@@ -5024,6 +5180,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/9geimz": {
+      "content_sha": "a8c568dd5eb2f417334471249bd326e342b44b7ac8cedbcb8acbe271a1a8297d",
+      "doc_id": "help-webex-com-en-us-article-9geimz-7e65668b64",
+      "etag": "\"10a3a8-rnTQTeaF2XhC4gmC015R83gxRI4\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:03.896970+00:00",
+      "last_changed": "2026-11-02T13:12:03.896970+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:03.896970+00:00",
+      "next_check": "2026-11-03T13:12:03.896970+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/9geimz/Configure-9800-and-8875-phones-on-Unified-CM": {
       "content_sha": "a8c568dd5eb2f417334471249bd326e342b44b7ac8cedbcb8acbe271a1a8297d",
       "doc_id": "help-webex-com-en-us-article-9geimz-configure-9800-and-8875-phones-on-unified-cm-9e3c7bd4f6",
@@ -5034,6 +5203,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:05:39.469731+00:00",
       "next_check": "2026-11-03T13:05:39.469731+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/9geimz/Phone-features-and-setup-on-Unified-CM": {
+      "content_sha": "a8c568dd5eb2f417334471249bd326e342b44b7ac8cedbcb8acbe271a1a8297d",
+      "doc_id": "help-webex-com-en-us-article-9geimz-phone-features-and-setup-on-unified-cm-ace4e66c2a",
+      "etag": "\"10a8d8-r9QEoeR43AsKh8ApAx64gZcT1s8\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:24.495193+00:00",
+      "last_changed": "2026-11-02T13:13:24.495193+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:24.495193+00:00",
+      "next_check": "2026-11-03T13:13:24.495193+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5151,6 +5333,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/WBX42698": {
+      "content_sha": null,
+      "doc_id": "help-webex-com-en-us-article-wbx42698-6a54ce9607",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:14.870137+00:00",
+      "last_seen": "2026-11-02T13:14:14.870137+00:00",
+      "next_check": "2026-11-04T13:14:14.870137+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://help.webex.com/en-us/article/WBX9000036960": {
       "content_sha": "3b45eea6cb0550f2723764ac874ce5a471b4c362a2b45e51e94501b463cf7192",
       "doc_id": "help-webex-com-en-us-article-wbx9000036960-3046579eca",
@@ -5229,6 +5421,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/d68vi1": {
+      "content_sha": "6109d2024d62db2681c0194264707bc54f2d493df4f229f6a623156d850b51ac",
+      "doc_id": "help-webex-com-en-us-article-d68vi1-d1fca50636",
+      "etag": "\"a2d22-hwHPfnfc+Tv1j6qjuiAGL7PEduk\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:01.283517+00:00",
+      "last_changed": "2026-11-02T13:14:01.283517+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:01.283517+00:00",
+      "next_check": "2026-11-03T13:14:01.283517+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/dyidod": {
       "content_sha": "a65a1057ad0779b8844f19d3003ad90644426225f078251eb93567c0b374d038",
       "doc_id": "help-webex-com-en-us-article-dyidod-755e59f8dc",
@@ -5239,6 +5444,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:00:04.516465+00:00",
       "next_check": "2026-11-03T13:00:04.516465+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/e7l52d/Webex-App-%7C-Set-up-your-Personal-Room": {
+      "content_sha": "fe74b02840c905e82c4db20afb22b5101bdf59eb38d5670b5021f07aec6aaf12",
+      "doc_id": "help-webex-com-en-us-article-e7l52d-webex-app-7c-set-up-your-personal-room-8be15f6669",
+      "etag": "\"2f744-dwUiCh+SKCMA5g3XANBUZUEgkDg\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:31.613532+00:00",
+      "last_changed": "2026-11-02T13:14:31.613532+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:31.613532+00:00",
+      "next_check": "2026-11-03T13:14:31.613532+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5307,6 +5525,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/fozeml": {
+      "content_sha": "a1752108b7b6b49f1fb7e65529fb49ee8198d85827e391149321a4911a1714b5",
+      "doc_id": "help-webex-com-en-us-article-fozeml-b58c048336",
+      "etag": "\"54da0-kDZsXEdAHLSsm+yMsAXPH1yKm3I\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:33.691523+00:00",
+      "last_changed": "2026-11-02T13:11:33.691523+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:33.691523+00:00",
+      "next_check": "2026-11-03T13:11:33.691523+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/fs78p5": {
       "content_sha": "b0fc66edfe0efc99e1a05bdb7a8d74c9015e421ee4d38304168968a7892bf841",
       "doc_id": "help-webex-com-en-us-article-fs78p5-b54f8fbd08",
@@ -5356,6 +5587,32 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:03:06.490700+00:00",
       "next_check": "2026-11-03T13:03:06.490700+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/hgcx2cb": {
+      "content_sha": "e1fd37f4e64032c2edd8dfc168b8a278dceeb8f07a8fb9278b16b5f9cc54e084",
+      "doc_id": "help-webex-com-en-us-article-hgcx2cb-67ffd88981",
+      "etag": "\"2c5a1-g2nrE0F/sgSKkJ9eGRs4QqHCtJc\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:16.993191+00:00",
+      "last_changed": "2026-11-02T13:15:16.993191+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:16.993191+00:00",
+      "next_check": "2026-11-03T13:15:16.993191+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/i3evlab": {
+      "content_sha": "b04bfe7f5d8ee26b0938282166f7430acf5bbbbcf7f2d8a38ef548b79f41c6a1",
+      "doc_id": "help-webex-com-en-us-article-i3evlab-8b7ac5249e",
+      "etag": "\"2feef-Md8L8yFujbPv4pxaEJEASOLo3sY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:54.247047+00:00",
+      "last_changed": "2026-11-02T13:13:54.247047+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:54.247047+00:00",
+      "next_check": "2026-11-03T13:13:54.247047+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5476,6 +5733,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/kwekcg": {
+      "content_sha": "9a482c75b279e19207db108f9c43b9064a19a76d110a9e0063c637c133e013a5",
+      "doc_id": "help-webex-com-en-us-article-kwekcg-dba0b9eb96",
+      "etag": "\"5934b-MquN+DVv1gxlYH5btQf6UEf62c8\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:25.277903+00:00",
+      "last_changed": "2026-11-02T13:11:25.277903+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:25.277903+00:00",
+      "next_check": "2026-11-03T13:11:25.277903+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/l2belbb/Bring-Your-Own-PSTN-Solution": {
       "content_sha": null,
       "doc_id": "help-webex-com-en-us-article-l2belbb-bring-your-own-pstn-solution-a455355339",
@@ -5512,6 +5782,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/lq7r0c": {
+      "content_sha": "4df7f041e909351a1624d5a67b0b029a7d527542bda0b4f62c3340939f7d61f7",
+      "doc_id": "help-webex-com-en-us-article-lq7r0c-7faa474fc1",
+      "etag": "\"2f79b-9aOOScoW3SC1Oo6kp93TckQo+9A\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:23.972217+00:00",
+      "last_changed": "2026-11-02T13:16:23.972217+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:23.972217+00:00",
+      "next_check": "2026-11-03T13:16:23.972217+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/lukemeb": {
       "content_sha": "f85a4f7bcbb39b05181876b84293fae2f2dd2a618b0b73a79593806db404bc9a",
       "doc_id": "help-webex-com-en-us-article-lukemeb-d7de623f6c",
@@ -5524,6 +5807,19 @@
       "next_check": "2026-09-30T04:45:49.322513+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://help.webex.com/en-us/article/lv5lcc/Make-and-answer-a-paging-call": {
+      "content_sha": "d8ee8b54197cfb3a7db43544531688e0b48df06d9be9d6e46c724e2e4b7ee56b",
+      "doc_id": "help-webex-com-en-us-article-lv5lcc-make-and-answer-a-paging-call-b26b8271e9",
+      "etag": "\"3143f-up+ybqJCCZtG5O7RtdsjDnWtFCM\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:38.783316+00:00",
+      "last_changed": "2026-11-02T13:12:38.783316+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:38.783316+00:00",
+      "next_check": "2026-11-03T13:12:38.783316+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/m2az0i": {
       "content_sha": "514aa95c6e2229640d2073ec0711bf4ac27bc80f3dcd44196af50fee3cb3d4f1",
@@ -5574,6 +5870,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:06:34.121983+00:00",
       "next_check": "2026-11-03T13:06:34.121983+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/mdos1db/Configure-calling-features": {
+      "content_sha": "a89679e5a4a52ab6bb0828d27570a2fa7501dbf065a46a7d404ce21ad171dc92",
+      "doc_id": "help-webex-com-en-us-article-mdos1db-configure-calling-features-f90aa851f3",
+      "etag": "\"a3441-bc8yOVDuGc60tXaXnlyTsOyDGiA\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:11.942698+00:00",
+      "last_changed": "2026-11-02T13:13:11.942698+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:11.942698+00:00",
+      "next_check": "2026-11-03T13:13:11.942698+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5629,6 +5938,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/n08a4lb": {
+      "content_sha": "f61fd83536c923c894c04617f104560c64203efae958b199e45df40ebe881d7f",
+      "doc_id": "help-webex-com-en-us-article-n08a4lb-b7506526b5",
+      "etag": "\"3622b-sn25DSFvWVfxIr2lBSFNd2mcgBs\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:44.302267+00:00",
+      "last_changed": "2026-11-02T13:12:44.302267+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:44.302267+00:00",
+      "next_check": "2026-11-03T13:12:44.302267+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/n0cswhcb/Configure-Advanced-Branding-Customizations": {
       "content_sha": "80eadb5ab14582b13ea3947de6eba07a424745326d9d223383da87c7336d6db9",
       "doc_id": "help-webex-com-en-us-article-n0cswhcb-configure-advanced-branding-customizations-94d4c64832",
@@ -5665,6 +5987,32 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:46:18.189415+00:00",
       "next_check": "2026-09-29T04:46:18.189415+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n0p6xa1/Data-Locality-in-Webex-Contact-Center": {
+      "content_sha": "534917fa0e96f06cf2e616032be65c43f2d02c232ee2577ddca5fa403173d67b",
+      "doc_id": "help-webex-com-en-us-article-n0p6xa1-data-locality-in-webex-contact-center-447d3e5ce7",
+      "etag": "\"3793f-/Y98kF2q0StICezXyVEaUVuBZ3c\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:50.729675+00:00",
+      "last_changed": "2026-11-02T13:15:50.729675+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:50.729675+00:00",
+      "next_check": "2026-11-03T13:15:50.729675+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n0pf1t7": {
+      "content_sha": "b25754fb7258410c7b4e6bd5385f38afe8139f9be005f15ed68126ccfc50854b",
+      "doc_id": "help-webex-com-en-us-article-n0pf1t7-3652684028",
+      "etag": "\"5ca1c-GR2dilGIdIGhJVSzxWrpdS8kmgg\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:52.140067+00:00",
+      "last_changed": "2026-11-02T13:11:52.140067+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:52.140067+00:00",
+      "next_check": "2026-11-03T13:11:52.140067+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5746,6 +6094,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/n2bsfgj/Feature-line-keys-and-softkeys": {
+      "content_sha": "290ac72f152ee96d9e060af31241055664c23806ce93ee8d80897dd8426b6805",
+      "doc_id": "help-webex-com-en-us-article-n2bsfgj-feature-line-keys-and-softkeys-dfe015f756",
+      "etag": "\"5e192-zEfIIf02yVGvTvCvsFHtgb04EKQ\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:24.643451+00:00",
+      "last_changed": "2026-11-02T13:14:24.643451+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:24.643451+00:00",
+      "next_check": "2026-11-03T13:14:24.643451+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/n3kkl4v/Deploy-your-Webex-Share": {
       "content_sha": "c029e0a6219efe75103e2a752789d0a9ea64878e43b82ac3c97bbf012b607ba6",
       "doc_id": "help-webex-com-en-us-article-n3kkl4v-deploy-your-webex-share-29e6518857",
@@ -5794,6 +6155,19 @@
       "next_check": "2026-11-04T13:05:04.073078+00:00",
       "status": "discovery",
       "unchanged_runs": 1
+    },
+    "https://help.webex.com/en-us/article/n5dkowx": {
+      "content_sha": "e0337eda42615a798ce5b71a183d40704aaa13f9fc96a3e434fcaf1a7df2911c",
+      "doc_id": "help-webex-com-en-us-article-n5dkowx-29aec2f186",
+      "etag": "\"3a3a4-JVLzNVSp6DtNG0GgpyVYMeMKV0E\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:29.378275+00:00",
+      "last_changed": "2026-11-02T13:11:29.378275+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:29.378275+00:00",
+      "next_check": "2026-11-03T13:11:29.378275+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://help.webex.com/en-us/article/n5hs5mg/Deployment-guide-for-Webex-Hybrid-Data-Security": {
       "content_sha": "834c6d6e4288fef1965ba5a64ba9e1e8742cda9c8396df91d204a01a7a7c01c2",
@@ -5847,6 +6221,32 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/n6he59h": {
+      "content_sha": "0db507904e4621231573c1fa5432b8ad47608f7f1f3de669847a329755707647",
+      "doc_id": "help-webex-com-en-us-article-n6he59h-9c665f6e44",
+      "etag": "\"32532-SegHPrjA2X/RjOnQUkq86ZlHA6w\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:20.706456+00:00",
+      "last_changed": "2026-11-02T13:11:20.706456+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:20.706456+00:00",
+      "next_check": "2026-11-03T13:11:20.706456+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n6hwxiv": {
+      "content_sha": "1e0987b68737e661e542ffb9c0593b9d02d0167ae9c625da0c1ee7c86005691f",
+      "doc_id": "help-webex-com-en-us-article-n6hwxiv-291da4ac4e",
+      "etag": "\"356e1-i5xMZQrJoh/+v8ZtBZxBYAfH/7o\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:37.758990+00:00",
+      "last_changed": "2026-11-02T13:10:37.758990+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:37.758990+00:00",
+      "next_check": "2026-11-03T13:10:37.758990+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/n6r7p3m": {
       "content_sha": "4ab7f0ac4fdd98bc9243b2f9bb1be45b914d3f127d829feca8f3e90b08f95f4f",
       "doc_id": "help-webex-com-en-us-article-n6r7p3m-fd7165a808",
@@ -5896,6 +6296,45 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:05:32.565598+00:00",
       "next_check": "2026-11-03T13:05:32.565598+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n72q8yeb/Configure-Cisco-Desk-Phone-9800-Series-on-Control-Hub": {
+      "content_sha": "3e3b1f1ccb8320f8a15d9b00675aabe79aa8ddf205d34563806b9db3994cb6a3",
+      "doc_id": "help-webex-com-en-us-article-n72q8yeb-configure-cisco-desk-phone-9800-series-on-control-hub-08fde26f73",
+      "etag": "\"7842d-nA+tMRKcUrvv5rTOE3dbYcdZWik\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:00.223360+00:00",
+      "last_changed": "2026-11-02T13:13:00.223360+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:00.223360+00:00",
+      "next_check": "2026-11-03T13:13:00.223360+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n75csww": {
+      "content_sha": "bfd627454ee4f7a5107b6a764f36ff358512d4743c0fb9fdacc7dc94eff3c251",
+      "doc_id": "help-webex-com-en-us-article-n75csww-5673fd8dce",
+      "etag": "\"3b5cd-JZdaQNFnMAbN4HZ0t7ysuFrfZwc\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:49.623346+00:00",
+      "last_changed": "2026-11-02T13:13:49.623346+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:49.623346+00:00",
+      "next_check": "2026-11-03T13:13:49.623346+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/n76ogrbb": {
+      "content_sha": "197a132fc09f58b355e6d95fdc2ed71afb147306568b938ce51a42a0b2b979bb",
+      "doc_id": "help-webex-com-en-us-article-n76ogrbb-bcfa5e1851",
+      "etag": "\"4eb16-Hwps+t3QiqW4eLv8LNsF+OjXNEM\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:27.488502+00:00",
+      "last_changed": "2026-11-02T13:12:27.488502+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:27.488502+00:00",
+      "next_check": "2026-11-03T13:12:27.488502+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -5964,6 +6403,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nacjvk6": {
+      "content_sha": "a247f4045e7f092c446223348262d3ca1c88625bf128644823b4295aa0b37f77",
+      "doc_id": "help-webex-com-en-us-article-nacjvk6-64870126da",
+      "etag": "\"310d0-u1Vaaj1qA+a716NEpPSVNyWR8g4\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:05.523695+00:00",
+      "last_changed": "2026-11-02T13:14:05.523695+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:05.523695+00:00",
+      "next_check": "2026-11-03T13:14:05.523695+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nadqbhab": {
       "content_sha": "b9dcd857f7b28c3ad2658159eb1a3caad0bbe9556f75ad61e849f1d0aff3992b",
       "doc_id": "help-webex-com-en-us-article-nadqbhab-799ca438ba",
@@ -6029,6 +6481,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/ncd9ukq/Grant-Licenses-for-Real-time-Translation": {
+      "content_sha": "7455ba28e228298ab43b1fc7b33ab74acdd3c2d7ec609a3604a86b854206043f",
+      "doc_id": "help-webex-com-en-us-article-ncd9ukq-grant-licenses-for-real-time-translation-b37cdcf45c",
+      "etag": "\"2f26a-aAt/H/jKIe30p1COBegTuS8koNE\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:45.333316+00:00",
+      "last_changed": "2026-11-02T13:14:45.333316+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:45.333316+00:00",
+      "next_check": "2026-11-03T13:14:45.333316+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nckc1aeb": {
       "content_sha": "241e7bca0896aafd66119a53b96fbe9609620f75f2cc7244b322c1628f58c976",
       "doc_id": "help-webex-com-en-us-article-nckc1aeb-54a3f61127",
@@ -6078,6 +6543,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T12:57:09.338882+00:00",
       "next_check": "2026-11-03T12:57:09.338882+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nezuuhu": {
+      "content_sha": "f1e10f5b1f95b741a9f17b705d2ba06de3973848d45b6023df62278d53665fca",
+      "doc_id": "help-webex-com-en-us-article-nezuuhu-d724f5e4ce",
+      "etag": "\"33c03-oCBOVSwFIvfDHMQP6XhvKSSp8lY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:10.420157+00:00",
+      "last_changed": "2026-11-02T13:12:10.420157+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:10.420157+00:00",
+      "next_check": "2026-11-03T13:12:10.420157+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6224,6 +6702,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/niwf73f": {
+      "content_sha": "4a15624c189bb66d6cba312c367fea6b3ce111ddfc5127fe1f210bed65005f28",
+      "doc_id": "help-webex-com-en-us-article-niwf73f-5f7f99c575",
+      "etag": "\"2cae6-N40Qfy2qkJ0Ftd7e+uwTz3m2ex4\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:14.276020+00:00",
+      "last_changed": "2026-11-02T13:12:14.276020+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:14.276020+00:00",
+      "next_check": "2026-11-03T13:12:14.276020+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nj34yk2": {
       "content_sha": "a3259f7514008853a820f7629a063d0e20dfbe906c2a9ebe34f69ced02d2d720",
       "doc_id": "help-webex-com-en-us-article-nj34yk2-6fb72a001f",
@@ -6302,6 +6793,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nlm43xbb": {
+      "content_sha": "4e74c0d5d2fe73c0f5eda7c7daa8db1e045bf50ad274377c1c7e9ed6b4610fd3",
+      "doc_id": "help-webex-com-en-us-article-nlm43xbb-88bb06f97f",
+      "etag": "\"2f0e3-GPHNvhJVH6a/15Rn8JUsRDZGzfE\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:09.296061+00:00",
+      "last_changed": "2026-11-02T13:10:09.296061+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:09.296061+00:00",
+      "next_check": "2026-11-03T13:10:09.296061+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services": {
       "content_sha": "d121705847487881447974176fb037e586df14a5c84ea3e0f0323e517e9250a2",
       "doc_id": "help-webex-com-en-us-article-nm1m8zv-get-started-with-webex-hybrid-services-e4af129038",
@@ -6348,6 +6852,19 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:48:12.197475+00:00",
       "next_check": "2026-09-29T04:48:12.197475+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nods0mo/Send-Expressway-connector-logs-to-Webex": {
+      "content_sha": "72c1686199e725426fdf9e76cd79289d18b338294a53033a8c678b970cc181e7",
+      "doc_id": "help-webex-com-en-us-article-nods0mo-send-expressway-connector-logs-to-webex-f806ca4fe5",
+      "etag": "\"2dc12-6Akw1KtBaVyZ3o1PKkXXN3cWc48\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:19.443212+00:00",
+      "last_changed": "2026-11-02T13:14:19.443212+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:19.443212+00:00",
+      "next_check": "2026-11-03T13:14:19.443212+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6468,6 +6985,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/nqvsbmq/Directory-Connector-release-notes": {
+      "content_sha": "0e207433e49c6d746ed8acc3333f5ae80b4538807b937d31d6a5a0daf4775160",
+      "doc_id": "help-webex-com-en-us-article-nqvsbmq-directory-connector-release-notes-85bf3a0eab",
+      "etag": "\"3c264-2IysPb3Yh9Nv/2DG7Vj1TCN96pw\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:36.356229+00:00",
+      "last_changed": "2026-11-02T13:14:36.356229+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:36.356229+00:00",
+      "next_check": "2026-11-03T13:14:36.356229+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nqw6me": {
       "content_sha": "358a006df88e8cc3c68f2dcd3d95e2aaad38104a91ac75f69c2830b28081012f",
       "doc_id": "help-webex-com-en-us-article-nqw6me-c9164067db",
@@ -6481,6 +7011,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nqzhfbo": {
+      "content_sha": "852e6de426bb69bea5e0c148c6bf2982e2a0d7eda23b02c5d7286f111a6c95bb",
+      "doc_id": "help-webex-com-en-us-article-nqzhfbo-7a82c63a3e",
+      "etag": "\"3b13b-orZwu/f3DUFUiXQ3o45QvQJCi/c\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:10.409593+00:00",
+      "last_changed": "2026-11-02T13:14:10.409593+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:10.409593+00:00",
+      "next_check": "2026-11-03T13:14:10.409593+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nqzpeei/Show-real-time-translation-and-transcription-in-meetings-and-webinars": {
       "content_sha": "a2009a7ef4c8d9c6d34485f9e89e6f3069320a3cc919256da0325baea471be9a",
       "doc_id": "help-webex-com-en-us-article-nqzpeei-show-real-time-translation-and-transcription-in-meetings-and-webinars-059490f2b9",
@@ -6491,6 +7034,32 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:48:26.578595+00:00",
       "next_check": "2026-09-29T04:48:26.578595+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nqzpeei/Show-real-time-translation-in-meetings-and-webinars": {
+      "content_sha": "a2009a7ef4c8d9c6d34485f9e89e6f3069320a3cc919256da0325baea471be9a",
+      "doc_id": "help-webex-com-en-us-article-nqzpeei-show-real-time-translation-in-meetings-and-webinars-873d277624",
+      "etag": "\"4f855-cD3ts2leRUhCXxeTBP+VjiWoiZc\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:14:50.665702+00:00",
+      "last_changed": "2026-11-02T13:14:50.665702+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:14:50.665702+00:00",
+      "next_check": "2026-11-03T13:14:50.665702+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nrrmxa0": {
+      "content_sha": "64d52e3eee68c8535228197b895af175214835c41d33c8e2b6fe22196a3b215c",
+      "doc_id": "help-webex-com-en-us-article-nrrmxa0-66155a218b",
+      "etag": "\"343bd-mvSWb7n5D1VadhpAkMUzDa9VFt4\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:13.203313+00:00",
+      "last_changed": "2026-11-02T13:10:13.203313+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:13.203313+00:00",
+      "next_check": "2026-11-03T13:10:13.203313+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6520,6 +7089,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nt45atdb": {
+      "content_sha": "c01ead8d476b72c096bfeb9c31bdde0358a133d646de3042a7308a08741b3244",
+      "doc_id": "help-webex-com-en-us-article-nt45atdb-615acf5fc8",
+      "etag": "\"3a171-OwHN9IyBQz7wC/jiC7xIHYnBv/c\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:34.692448+00:00",
+      "last_changed": "2026-11-02T13:12:34.692448+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:34.692448+00:00",
+      "next_check": "2026-11-03T13:12:34.692448+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nt815zm": {
       "content_sha": "b9986e4648cfe17ecf4737e6028dd9ffae2d2fcf11134c52f900d19842e9a7bb",
       "doc_id": "help-webex-com-en-us-article-nt815zm-82e618fff5",
@@ -6546,6 +7128,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/ntlf2i6": {
+      "content_sha": "87238ffd392bb04459bf5326484b42a062bde9a027a4a28f277ded2a4f1ba3f7",
+      "doc_id": "help-webex-com-en-us-article-ntlf2i6-d0117b4131",
+      "etag": "\"7c3ae-Pje9B4aayLQqyFzry+/ulMwVNek\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:56.680341+00:00",
+      "last_changed": "2026-11-02T13:10:56.680341+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:56.680341+00:00",
+      "next_check": "2026-11-03T13:10:56.680341+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/ntypdwb": {
       "content_sha": "f796cf8708b01a1e47248aec4a6364f9db7389beb56a8f2d62f49e8ea4f31c25",
       "doc_id": "help-webex-com-en-us-article-ntypdwb-c645c2b53f",
@@ -6569,6 +7164,32 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:48:45.903711+00:00",
       "next_check": "2026-09-29T04:48:45.903711+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nu5w9x3/Webex-App-%7C-Schedule-a-meeting-from-a-space": {
+      "content_sha": "4860aaddab5f8448ae890e15e637fa8535b15752f8bedca2ddd44ba5dbd82bbd",
+      "doc_id": "help-webex-com-en-us-article-nu5w9x3-webex-app-7c-schedule-a-meeting-from-a-space-287b790341",
+      "etag": "\"525fb-SKg1fO1GDnn1+WX7G/wWdrdUf4c\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:21.225878+00:00",
+      "last_changed": "2026-11-02T13:15:21.225878+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:21.225878+00:00",
+      "next_check": "2026-11-03T13:15:21.225878+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nufqmkg": {
+      "content_sha": "6e9addb94ce5c06cd5881e1737ca680206cb725520334b1701704b4239adad9f",
+      "doc_id": "help-webex-com-en-us-article-nufqmkg-d21e528eab",
+      "etag": "\"43db0-mYOB7maPCyahLk59pnc69PP1LtM\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:37.912146+00:00",
+      "last_changed": "2026-11-02T13:11:37.912146+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:37.912146+00:00",
+      "next_check": "2026-11-03T13:11:37.912146+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6624,6 +7245,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/nv5p67g/User-Capacity-Limits-for-Expressway-Based-Hybrid-Services": {
+      "content_sha": "60d699234b0731c808fda9048deef60904421bbdc5447ae7fd266ec3c63e28b6",
+      "doc_id": "help-webex-com-en-us-article-nv5p67g-user-capacity-limits-for-expressway-based-hybrid-services-bdd4d10c36",
+      "etag": "\"55ddf-1PlczChGunqahwkUnKwPrTqKWIA\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:31.689242+00:00",
+      "last_changed": "2026-11-02T13:15:31.689242+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:31.689242+00:00",
+      "next_check": "2026-11-03T13:15:31.689242+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nv7ydfv": {
       "content_sha": "3bddae7cd2d0447fe07c997c00b2cd65c8376a65a95a2584f9485b01b62bfc33",
       "doc_id": "help-webex-com-en-us-article-nv7ydfv-3d1c9bb3ce",
@@ -6634,6 +7268,19 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:49:10.482825+00:00",
       "next_check": "2026-09-29T04:49:10.482825+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nv7ydfv/Integrate-teams-in-Webex-with-groups-in-Microsoft-365": {
+      "content_sha": "3bddae7cd2d0447fe07c997c00b2cd65c8376a65a95a2584f9485b01b62bfc33",
+      "doc_id": "help-webex-com-en-us-article-nv7ydfv-integrate-teams-in-webex-with-groups-in-microsoft-365-d70826c8f0",
+      "etag": "\"36468-RR31ygQvvHADpDcrVGhOWgO80Bg\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:38.272734+00:00",
+      "last_changed": "2026-11-02T13:15:38.272734+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:38.272734+00:00",
+      "next_check": "2026-11-03T13:15:38.272734+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6676,6 +7323,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/nwwodwp": {
+      "content_sha": "51653177527c854e6d0433fdf952cf22bdf918714506a192808e3e17f82a4d7a",
+      "doc_id": "help-webex-com-en-us-article-nwwodwp-1f8b4dec91",
+      "etag": "\"4f5e5-iahVcs/7xAn6PbdLORBTmmBJyPw\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:26.742488+00:00",
+      "last_changed": "2026-11-02T13:10:26.742488+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:26.742488+00:00",
+      "next_check": "2026-11-03T13:10:26.742488+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/nwwodwp/Configure-Office-Hours-for-9800/8875-(Control-Hub)": {
       "content_sha": "51653177527c854e6d0433fdf952cf22bdf918714506a192808e3e17f82a4d7a",
       "doc_id": "help-webex-com-en-us-article-nwwodwp-configure-office-hours-for-9800-8875-control-hub-59e28b4530",
@@ -6686,6 +7346,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:05:43.610375+00:00",
       "next_check": "2026-11-03T13:05:43.610375+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/nx0ux3db": {
+      "content_sha": "0fea404cfa7d38836f923e20f95e57db2e404a4ac8d841452b0005c723542c80",
+      "doc_id": "help-webex-com-en-us-article-nx0ux3db-d8ddc6b0e3",
+      "etag": "\"52351-T73fhHJwScGb8WFngMXUtPP732o\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:45.460639+00:00",
+      "last_changed": "2026-11-02T13:13:45.460639+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:45.460639+00:00",
+      "next_check": "2026-11-03T13:13:45.460639+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6738,6 +7411,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:07:40.790945+00:00",
       "next_check": "2026-11-03T13:07:40.790945+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/ny3ch3m": {
+      "content_sha": "ff8b5c524cf0960b25536140bfdd74cf8eae18db6f549c2880e3f16a50ae5c05",
+      "doc_id": "help-webex-com-en-us-article-ny3ch3m-2f582f9de4",
+      "etag": "\"324c9-Lb9DY1PQLCXOcvSJYVQ1Aj079ZY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:28.025607+00:00",
+      "last_changed": "2026-11-02T13:16:28.025607+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:28.025607+00:00",
+      "next_check": "2026-11-03T13:16:28.025607+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6803,6 +7489,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/opwsrv": {
+      "content_sha": "46db56890c3cca7cc167376838ccbb51f465aad4748b1b59123ec73f0e02d12f",
+      "doc_id": "help-webex-com-en-us-article-opwsrv-58a05d9538",
+      "etag": "\"42018-Pqd+z6hXS/aQ5Xb2h41o08Sk+ys\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:19.894323+00:00",
+      "last_changed": "2026-11-02T13:12:19.894323+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:19.894323+00:00",
+      "next_check": "2026-11-03T13:12:19.894323+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/ou5lpe": {
       "content_sha": "c0fcc6b9d7e248e9467a7fe5f0bbd719893cc23eb6e75c461e8f8d25fe0e380a",
       "doc_id": "help-webex-com-en-us-article-ou5lpe-84d35f36f2",
@@ -6813,6 +7512,19 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:49:27.846797+00:00",
       "next_check": "2026-09-29T04:49:27.846797+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/ou5lpe/Webex-App-%7C-Generate-an-activation-code-for-your-personal-cloud-device": {
+      "content_sha": "c0fcc6b9d7e248e9467a7fe5f0bbd719893cc23eb6e75c461e8f8d25fe0e380a",
+      "doc_id": "help-webex-com-en-us-article-ou5lpe-webex-app-7c-generate-an-activation-code-for-your-personal-cloud-device-d54900b0fa",
+      "etag": "\"315a3-FW7+r/rwct9MyQN64iriy8NVgGk\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:15:46.806422+00:00",
+      "last_changed": "2026-11-02T13:15:46.806422+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:15:46.806422+00:00",
+      "next_check": "2026-11-03T13:15:46.806422+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6904,6 +7616,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://help.webex.com/en-us/article/r1gu0": {
+      "content_sha": "2dd555f13125abb8c8c8256ed944ba7566bc474d7034bae2897467d8463f0fa3",
+      "doc_id": "help-webex-com-en-us-article-r1gu0-298c44b049",
+      "etag": "\"31d12-i1AELL2vSppmIV3ISCkwwCQMiYY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:53.936269+00:00",
+      "last_changed": "2026-11-02T13:12:53.936269+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:53.936269+00:00",
+      "next_check": "2026-11-03T13:12:53.936269+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/risde3": {
       "content_sha": "b73e379263a1eb8acc1bc60faf8b4775409a12cb48f1336e0221952a079ff736",
       "doc_id": "help-webex-com-en-us-article-risde3-77f0fb37b0",
@@ -6914,6 +7639,19 @@
       "last_modified": null,
       "last_seen": "2026-09-28T04:49:41.097281+00:00",
       "next_check": "2026-09-29T04:49:41.097281+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/risde3/Cisco-Headset-730-release-notes": {
+      "content_sha": "b73e379263a1eb8acc1bc60faf8b4775409a12cb48f1336e0221952a079ff736",
+      "doc_id": "help-webex-com-en-us-article-risde3-cisco-headset-730-release-notes-f82c8fc071",
+      "etag": "\"73bc3-aIL0XiCfsE5T+aj0IYaQD0U6srk\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:13.836923+00:00",
+      "last_changed": "2026-11-02T13:16:13.836923+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:13.836923+00:00",
+      "next_check": "2026-11-03T13:16:13.836923+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -6953,6 +7691,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T12:59:26.408069+00:00",
       "next_check": "2026-11-03T12:59:26.408069+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/tb5ei1": {
+      "content_sha": "34a57397fb5b231536aca0b507f42a990a9df7ee52a993a60ee0bd4cf462575e",
+      "doc_id": "help-webex-com-en-us-article-tb5ei1-23d5463da2",
+      "etag": "\"313ce-YpZ+3S5ZwDL+4oe4PDU8acTmAaQ\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:12:49.936824+00:00",
+      "last_changed": "2026-11-02T13:12:49.936824+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:12:49.936824+00:00",
+      "next_check": "2026-11-03T13:12:49.936824+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -7005,6 +7756,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/umgzzi": {
+      "content_sha": "cb8da66fb966e8525cb9e9b3d6e6e479ba91bdbd00d9a5be7cc69de1fffff4ab",
+      "doc_id": "help-webex-com-en-us-article-umgzzi-5949244f95",
+      "etag": "\"2dc3c-CdqgUgoIVjQOFNSql5S6bWThGjY\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:13:36.072031+00:00",
+      "last_changed": "2026-11-02T13:13:36.072031+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:13:36.072031+00:00",
+      "next_check": "2026-11-03T13:13:36.072031+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/utqcm7/Webex-Contact-Center-Architecture": {
       "content_sha": "ee86671dd1a82a2fe86b35ff58a3627fcd651bf364b6886c934feeb28cfbabf2",
       "doc_id": "help-webex-com-en-us-article-utqcm7-webex-contact-center-architecture-8a6570d9e7",
@@ -7031,6 +7795,19 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://help.webex.com/en-us/article/uuhc6x/License-Requirements-for-Hybrid-Services": {
+      "content_sha": "c77e2811c2ed2ec7088bcbc52e618a466ba3cba6d0d49b76e9144b9903248821",
+      "doc_id": "help-webex-com-en-us-article-uuhc6x-license-requirements-for-hybrid-services-d6c40e0e6f",
+      "etag": "\"30079-OEJWI+Wke0baULc0Nuh/t81OP1I\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:33.015266+00:00",
+      "last_changed": "2026-11-02T13:16:33.015266+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:33.015266+00:00",
+      "next_check": "2026-11-03T13:16:33.015266+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://help.webex.com/en-us/article/v71ztb": {
       "content_sha": "842251a604103869fe96b053b2866b91f1b697743d852d0d6647307ecbb4e6f4",
       "doc_id": "help-webex-com-en-us-article-v71ztb-10081da783",
@@ -7041,6 +7818,45 @@
       "last_modified": null,
       "last_seen": "2026-11-02T12:58:32.314074+00:00",
       "next_check": "2026-11-03T12:58:32.314074+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/vx7pc7": {
+      "content_sha": "ea4b83c177d19561139876532ed16cfec21b22fb27649ce6d23bbf1f908eac1c",
+      "doc_id": "help-webex-com-en-us-article-vx7pc7-127afd1500",
+      "etag": "\"c8e0c-amvlgum068+dgdH5hvijQzApLqg\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:10:20.820874+00:00",
+      "last_changed": "2026-11-02T13:10:20.820874+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:10:20.820874+00:00",
+      "next_check": "2026-11-03T13:10:20.820874+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/w5u384": {
+      "content_sha": "09750eed107e5335ad8e90ea33eb85a49d1d825ce5e1118c2dbb3574df757b19",
+      "doc_id": "help-webex-com-en-us-article-w5u384-f6978fbef8",
+      "etag": "\"9976d-5ByofAPcpGP4aG5YitspWPy5RAQ\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:03.350477+00:00",
+      "last_changed": "2026-11-02T13:11:03.350477+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:03.350477+00:00",
+      "next_check": "2026-11-03T13:11:03.350477+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/wej14b": {
+      "content_sha": "03d5c2c73ad99fe010bf813891bb939f7120a0f5be4836feb27256d623109a1f",
+      "doc_id": "help-webex-com-en-us-article-wej14b-ef5ff7ee49",
+      "etag": "\"2ca79-+2P8QBG2PytUrTbu4O28x4Hp6wM\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:08.325520+00:00",
+      "last_changed": "2026-11-02T13:16:08.325520+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:16:08.325520+00:00",
+      "next_check": "2026-11-03T13:16:08.325520+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -7106,6 +7922,19 @@
       "last_modified": null,
       "last_seen": "2026-11-02T13:06:38.389830+00:00",
       "next_check": "2026-11-03T13:06:38.389830+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://help.webex.com/en-us/article/zkxiyb": {
+      "content_sha": "bd3f5f1185b5473f8ceeee44841271aae3fcf22ed7bd6b45113ce998943edc23",
+      "doc_id": "help-webex-com-en-us-article-zkxiyb-1372db62fa",
+      "etag": "\"3d554-MYqEboEM+tLKW2NWOilMQRBZ3Ls\"",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:11:16.675009+00:00",
+      "last_changed": "2026-11-02T13:11:16.675009+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-02T13:11:16.675009+00:00",
+      "next_check": "2026-11-03T13:11:16.675009+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -7257,6 +8086,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/dx80/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-dx80-model-html-e37871fbd2",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:16:53.188993+00:00",
+      "last_seen": "2026-11-02T13:16:53.188993+00:00",
+      "next_check": "2026-11-04T13:16:53.188993+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-300-series/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-headset-300-series-series-html-47b8d15fc1",
@@ -7268,6 +8107,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-320/model.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-headset-500-series-series-html-17f96bcfb0",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:17:06.413516+00:00",
+      "last_seen": "2026-11-02T13:17:06.413516+00:00",
+      "next_check": "2026-11-04T13:17:06.413516+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/headset-500-series/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -7434,6 +8283,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/ix5000-series/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eq/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-room-kit-eq-model-html-b02324ee46",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:17:31.862168+00:00",
+      "last_seen": "2026-11-02T13:17:31.862168+00:00",
+      "next_check": "2026-11-04T13:17:31.862168+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-plus/model.html": {
       "content_sha": null,
@@ -7850,6 +8709,16 @@
       "first_seen": "2026-09-27T10:58:40.773728+00:00",
       "last_seen": "2026-09-27T10:58:40.773728+00:00",
       "next_check": "2026-09-29T10:58:40.773728+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-bar/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-bar-model-html-812509f15b",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:17:19.061046+00:00",
+      "last_seen": "2026-11-02T13:17:19.061046+00:00",
+      "next_check": "2026-11-04T13:17:19.061046+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -8817,10 +9686,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-express-series-html-23d9ec7c28",
       "fail_count": 0,
       "first_seen": "2026-09-27T11:18:24.005062+00:00",
-      "last_seen": "2026-09-27T11:18:24.005062+00:00",
-      "next_check": "2026-09-29T11:18:24.005062+00:00",
+      "last_seen": "2026-11-02T13:16:37.318936+00:00",
+      "next_check": "2026-11-06T13:16:37.318936+00:00",
       "status": "discovery",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -8885,10 +9754,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-customer-voice-portal-series-html-44ac916794",
       "fail_count": 0,
       "first_seen": "2026-09-27T11:13:05.131005+00:00",
-      "last_seen": "2026-09-27T11:13:05.131005+00:00",
-      "next_check": "2026-09-29T11:13:05.131005+00:00",
+      "last_seen": "2026-11-02T13:16:41.037075+00:00",
+      "next_check": "2026-11-06T13:16:41.037075+00:00",
       "status": "discovery",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-customer-voice-portal/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -9060,6 +9929,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-epub-72c84f49e5",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:16:41.654959+00:00",
+      "last_seen": "2026-11-02T13:16:41.654973+00:00",
+      "next_check": "2026-11-03T13:16:41.654978+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html": {
       "content_sha": "047d6795ffbb6fb68b0ab144a70ce8bf652735f62dbb913e2d67d14d2f9703ba",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-html-3a4a8d556f",
@@ -9073,6 +9952,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-dx80-212294-how-to-upload-background-image-on-dx80-a-mobi-3a308f0894",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:16:46.203059+00:00",
+      "last_seen": "2026-11-02T13:16:46.203071+00:00",
+      "next_check": "2026-11-03T13:16:46.203075+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--5af3c3e37d",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:16:54.288623+00:00",
+      "last_seen": "2026-11-02T13:16:54.288635+00:00",
+      "next_check": "2026-11-03T13:16:54.288638+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.html": {
       "content_sha": "c08bc92b8e878ec7bae2f83f5a7e95f0ddbfcecf044621fef1df3e20152875a8",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--fa64b7dd08",
@@ -9084,6 +9983,16 @@
       "last_seen": "2026-09-28T04:50:46.487445+00:00",
       "next_check": "2026-09-29T04:50:46.487445+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/headset-500-series/215344-configure-cisco-headset-5xx-series.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-headset-500-series-215344-configure-cisco-headset-5xx-series--e387de25e8",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:16:58.660206+00:00",
+      "last_seen": "2026-11-02T13:16:58.660223+00:00",
+      "next_check": "2026-11-03T13:16:58.660227+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/ip-phone-7800-series/200850-Troubleshoot-Cisco-Phone-7800-8800-Serie.html": {
@@ -9216,6 +10125,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-bar-221018-collect-packet-capture-from-mtr-register-epub-dfc30c32d5",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:07.401473+00:00",
+      "last_seen": "2026-11-02T13:17:07.401486+00:00",
+      "next_check": "2026-11-03T13:17:07.401490+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.html": {
       "content_sha": "66609ad7d2524434ad29a499a867feededdf972b71f8127d243aca31b6b76405",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-bar-221018-collect-packet-capture-from-mtr-register-html-cfb82982d0",
@@ -9227,6 +10146,26 @@
       "last_seen": "2026-09-28T04:50:50.506011+00:00",
       "next_check": "2026-09-29T04:50:50.506011+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-bar/221018-collect-packet-capture-from-mtr-register.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-bar-221018-collect-packet-capture-from-mtr-register-mobi-1219350502",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:10.874644+00:00",
+      "last_seen": "2026-11-02T13:17:10.874659+00:00",
+      "next_check": "2026-11-03T13:17:10.874664+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-eq-221037-configure-mtr-device-to-join-third-party-e-ec30f9fdda",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:19.419619+00:00",
+      "last_seen": "2026-11-02T13:17:19.419630+00:00",
+      "next_check": "2026-11-03T13:17:19.419634+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html": {
@@ -9242,6 +10181,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-eq-221037-configure-mtr-device-to-join-third-party-m-bb36cf63a6",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:23.633919+00:00",
+      "last_seen": "2026-11-02T13:17:23.633931+00:00",
+      "next_check": "2026-11-03T13:17:23.633935+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html": {
       "content_sha": "bf169be3ed1e327ea08865bbe161b7a79d5150ab17cff5f301c730b1abf5e020",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-kit-222702-troubleshoot-a-video-endpoint-showing-me-html-472290c2bd",
@@ -9255,6 +10204,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-navigator-221673-create-replacement-for-slow-touch-panel-ed500c48ad",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:32.309530+00:00",
+      "last_seen": "2026-11-02T13:17:32.309543+00:00",
+      "next_check": "2026-11-03T13:17:32.309548+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.html": {
       "content_sha": "00b0ab700803f628102feac8fe8c598c0febfe742df6b5d4577835f240d05d53",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-navigator-221673-create-replacement-for-slow-touch-panel-b1a734a759",
@@ -9266,6 +10225,16 @@
       "last_seen": "2026-09-28T04:51:02.693947+00:00",
       "next_check": "2026-09-29T04:51:02.693947+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-navigator-221673-create-replacement-for-slow-touch-panel-3f99670171",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:17:36.370034+00:00",
+      "last_seen": "2026-11-02T13:17:36.370047+00:00",
+      "next_check": "2026-11-03T13:17:36.370051+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html": {
@@ -180232,5 +181201,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:08:04.486651+00:00"
+  "updated_at": "2026-11-02T13:17:36.465013+00:00"
 }
