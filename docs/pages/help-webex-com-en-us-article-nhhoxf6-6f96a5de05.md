@@ -1,0 +1,65 @@
+---
+doc_id: help-webex-com-en-us-article-nhhoxf6-6f96a5de05
+source_url: https://help.webex.com/en-us/article/nhhoxf6
+retrieved_at: 2026-11-02T12:57:51.305134+00:00
+---
+
+For a successful first-time registration to the cloud, you must use an officially supported version of Expressway, Video Mesh node, or Hybrid Data Security node software; otherwise, you see an error message if you try to register an old version of the software:
+
+For information on supported Expressway releases and where to get the latest software image, see Expressway Connector Host Support for Cisco Webex Hybrid Services .
+
+For information on where to get the latest Video Mesh node software image, see Install Webex Video Mesh Node Software in the Deployment Guide for Cisco Webex Video Mesh .
+
+For information on where to get the latest Hybrid Data Security software image, see Download Installation Files in the Deployment Guide for
+              Cisco Webex Hybrid Data Security
+
+Before you begin
+
+If you upgrade multiple Expressway-C connector hosts, you won't see any downtime.
+
+Calendar Connector does not yet support active-active redundancy. Expect a brief downtime while an upgrade installs. After the upgrade when the connector restarts, it will synchronize all missed meetings; you won't lose any meetings that were created while the connector was down.
+
+From the customer view in https://admin.webex.com , go to Services , and under All Resources , click View from the on-premises resources card, and then choose Settings for the resource whose upgrade schedule you want to set.
+
+Choose a time, frequency, and time zone under the Automatic Software Upgrades section.
+
+You can specify a different upgrade schedule for each cluster.
+
+This feature only supports one scheduled upgrade time for each cluster. If you have a single Expressway-C, you will experience a brief outage while an upgrade occurs. We recommend that you schedule a convenient time for upgrades (for example, after hours).
+
+For Expressway-based clusters, choose a time for the Urgent upgrade schedule .
+
+For Video Mesh and Hybrid Data Security, urgent upgrades are applied as soon as they are available.
+
+Confirm your changes.
+
+You can see the next scheduled upgrade time on this page.
+
+Choose Postpone if you want to delay the upgrade one time.
+
+You will receive an email before and after every upgrade. In case of an upgrade failure, you are sent an email and asked to intervene.
+
+The node makes periodic requests to the cloud to see if an update is available.
+
+The cloud does not make the upgrade available until the cluster's upgrade window arrives. Once the upgrade window arrives, the update information is given to the node during its next periodic update request to the cloud.
+
+The node pulls updates over a secure channel.
+
+(Video Mesh only.) Existing services are gracefully shut down so that no new calls are routed to the node, and existing calls have time to complete (up to 2 hours).
+
+The upgrade is installed.
+
+The cloud only triggers the upgrade on one node at a time (Expressways) or for a percentage of nodes at a time (Video Mesh and Hybrid Data Security) in a cluster.
+
+What to do next
+
+To upgrade your clusters outside of the scheduled upgrade time that you set, you can go to Services , choose View all from the Hybrid Service card, then click a registered cluster to open the overview page.
+
+If you see a standard or urgent software upgrade, you can click Upgrade Now to apply the upgrade immediately, outside of the scheduled upgrade time.
+
+| 1 | From the customer view in https://admin.webex.com , go to Services , and under All Resources , click View from the on-premises resources card, and then choose Settings for the resource whose upgrade schedule you want to set. |
+|---|---|
+| 2 | Choose a time, frequency, and time zone under the Automatic Software Upgrades section. You can specify a different upgrade schedule for each cluster. This feature only supports one scheduled upgrade time for each cluster. If you have a single Expressway-C, you will experience a brief outage while an upgrade occurs. We recommend that you schedule a convenient time for upgrades (for example, after hours). |
+| 3 | For Expressway-based clusters, choose a time for the Urgent upgrade schedule . For Video Mesh and Hybrid Data Security, urgent upgrades are applied as soon as they are available. |
+| 4 | Confirm your changes. You can see the next scheduled upgrade time on this page. |
+| 5 | Choose Postpone if you want to delay the upgrade one time. You will receive an email before and after every upgrade. In case of an upgrade failure, you are sent an email and asked to intervene. |
