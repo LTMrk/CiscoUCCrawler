@@ -8062,6 +8062,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/conferencing-cameras/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-conferencing-cameras-series-html-c4433b004a",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:27:08.097980+00:00",
+      "last_seen": "2026-11-02T13:27:08.097980+00:00",
+      "next_check": "2026-11-04T13:27:08.097980+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-phone-9800-series/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desk-phone-9800-series-series-html-413186277a",
@@ -8321,6 +8331,16 @@
       "first_seen": "2026-11-02T13:24:39.774317+00:00",
       "last_seen": "2026-11-02T13:24:39.774317+00:00",
       "next_check": "2026-11-04T13:24:39.774317+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-55/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-55-model-html-3852beec66",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:27:21.116557+00:00",
+      "last_seen": "2026-11-02T13:27:21.116557+00:00",
+      "next_check": "2026-11-04T13:27:21.116557+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -8801,6 +8821,26 @@
       "first_seen": "2026-09-27T10:58:40.773728+00:00",
       "last_seen": "2026-09-27T10:58:40.773728+00:00",
       "next_check": "2026-09-29T10:58:40.773728+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-g2/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-70-g2-model-html-8ba19a9243",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:26:43.228384+00:00",
+      "last_seen": "2026-11-02T13:26:43.228384+00:00",
+      "next_check": "2026-11-04T13:26:43.228384+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-panorama/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-70-panorama-model-html-bf7adcf181",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:26:47.054786+00:00",
+      "last_seen": "2026-11-02T13:26:47.054786+00:00",
+      "next_check": "2026-11-04T13:26:47.054786+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -10695,6 +10735,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-navigator-217265-how-to-setup-a-webex-room-navigat-be01871fc7",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:26:47.522976+00:00",
+      "last_seen": "2026-11-02T13:26:47.522989+00:00",
+      "next_check": "2026-11-03T13:26:47.522994+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html": {
       "content_sha": "50972047822b6285b76269872ff6d3468f4e941dee1cb1b893e5f35faac1d9fc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-navigator-217265-how-to-setup-a-webex-room-navigat-cf2db75ba8",
@@ -10706,6 +10756,26 @@
       "last_seen": "2026-09-28T04:51:53.370633+00:00",
       "next_check": "2026-09-29T04:51:53.370633+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-navigator-217265-how-to-setup-a-webex-room-navigat-6b727b2bf6",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:26:51.684910+00:00",
+      "last_seen": "2026-11-02T13:26:51.684922+00:00",
+      "next_check": "2026-11-03T13:26:51.684926+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-215671-console-access-for-webex-room-series-514837bd83",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:26:56.084922+00:00",
+      "last_seen": "2026-11-02T13:26:56.084934+00:00",
+      "next_check": "2026-11-03T13:26:56.084937+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.html": {
@@ -10721,6 +10791,26 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/215671-console-access-for-webex-room-series-dev.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-215671-console-access-for-webex-room-series-b1d021fe66",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:27:00.334853+00:00",
+      "last_seen": "2026-11-02T13:27:00.334865+00:00",
+      "next_check": "2026-11-03T13:27:00.334869+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-217247-how-to-configure-macros-to-switch-be-473efc8f1c",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:27:09.282610+00:00",
+      "last_seen": "2026-11-02T13:27:09.282625+00:00",
+      "next_check": "2026-11-03T13:27:09.282629+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.html": {
       "content_sha": "5440f53930239d493e9f270024aef94a674a694460dc9e2efb14a41ccf623261",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-217247-how-to-configure-macros-to-switch-be-081bb4f28d",
@@ -10732,6 +10822,16 @@
       "last_seen": "2026-09-28T04:52:01.806287+00:00",
       "next_check": "2026-09-29T04:52:01.806287+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-series/217247-how-to-configure-macros-to-switch-betwee.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-series-217247-how-to-configure-macros-to-switch-be-87d1e354f8",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:27:13.382935+00:00",
+      "last_seen": "2026-11-02T13:27:13.382947+00:00",
+      "next_check": "2026-11-03T13:27:13.382951+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.html": {
@@ -181503,5 +181603,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:25:01.516871+00:00"
+  "updated_at": "2026-11-02T13:27:21.199938+00:00"
 }
