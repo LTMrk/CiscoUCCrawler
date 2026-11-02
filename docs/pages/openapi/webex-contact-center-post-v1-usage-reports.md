@@ -10,7 +10,7 @@ tags: Usage Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.418662+00:00
+retrieved_at: 2026-11-02T12:35:57.593283+00:00
 ---
 
 # POST /v1/usage-reports
@@ -36,24 +36,47 @@ files** are generated under the same report.
 
 **Examples:**
 
-- Requested range: `2025-12-23` ~ `2026-03-20`
+- Requested range: **`2025-12-23`** ~ **`2026-03-20`**
   - Generated result:
     - Report ID: single report
     - Report files:
-      - `2025-12-23` ~ `2025-12-31`
-      - `2026-01-01` ~ `2026-01-31`
-      - `2026-02-01` ~ `2026-02-28`
-      - `2026-03-01` ~ `2026-03-20`
-
-- Requested range: `2025-12-23` ~ `2026-01-21`
+      - **`2025-12-23`** ~ **`2025-12-31`**
+      - **`2026-01-01`** ~ **`2026-01-31`**
+      - **`2026-02-01`** ~ **`2026-02-28`**
+      - **`2026-03-01`** ~ **`2026-03-20`**
+- Requested range: **`2025-12-23`** ~ **`2026-01-21`**
   - Generated result:
     - Report ID: single report
     - Report files:
-      - `2025-12-23` ~ `2026-01-21`
+      - **`2025-12-23`** ~ **`2026-01-21`**
 
-**Important Notes:**
-- Only one usage report can be processed at a time for the same organization.
-  If there is an ongoing report, new report creation requests will be rejected.
+**Concurrent file-generation limit:**
+
+- The concurrency check is calculated by **report file**, not by usage report or `reportId`.
+- Each item in `reportFiles[]` requires a separate file-generation task and counts as one
+  active task while it is `queued` or `in progress`. Tasks in terminal states no longer
+  count toward the limit.
+- At request time, the service counts all active report-file generation tasks for the same
+  organization across all reports. A report with four active files and another report with
+  three active files count as **7 active tasks**, not 2 reports.
+- The service checks the existing active task count **before creating the new report**.
+  If this count is below 10, the request passes this concurrency check even when the new
+  report creates enough files to bring the total above 10. The new report's files are
+  not added to the count used for this check.
+
+**Example:**
+
+- Requested range: **`2025-01-01`** ~ **`2025-12-31`**
+  - Existing active file-generation tasks: **0**
+  - Generated result:
+    - Request: **accepted**
+    - Report ID: single report
+    - Report files: **12 monthly report files**, one per calendar month
+    - File-generation tasks created: **12**
+    - Active tasks after creation: **12**, exceeding the threshold of 10
+  - Subsequent report creation requests:
+    - Existing active tasks **10 or more**: rejected with **HTTP 429**
+    - Existing active tasks **below 10**: allowed by the concurrency check
 
 ## Cuerpo de la petición (application/json)
 - `resourceType` (string): Type of resource this report contains.
@@ -97,7 +120,7 @@ curl -X POST '/v1/usage-reports' \
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further
 - **401**: Unauthorized: Authentication credentials were missing or incorrect.
 - **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
-- **429**: Too Many Requests: There is already a running report for this organization
+- **429**: Too Many Requests: The organization already has 10 or more active report-file generation tasks before this request. The limit is calculated from report files whose generation tasks are queued or in progress, not from the number of reports or reportIds. If the existing count is below 10, the request passes this concurrency check even if its new files bring the total above 10.
 - **500**: Internal Server Error: Something went wrong on the server
 - **502**: Bad Gateway: The server received an invalid response from an upstream server while processing the request. Try again later.
 - **503**: Service Unavailable: Server is overloaded with requests. Try again later.

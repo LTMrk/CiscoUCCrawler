@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.692952+00:00
+retrieved_at: 2026-11-02T12:35:57.240352+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/settings/msTeams

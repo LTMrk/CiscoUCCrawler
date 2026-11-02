@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-6-jabm-b-release-notes-12-6-html-4bf01be7dc
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.html
-retrieved_at: 2026-08-21T07:00:35.694377+00:00
+retrieved_at: 2026-11-02T12:40:29.583728+00:00
 ---
 
 Release Notes for Cisco Jabber for Mac 12.6
@@ -477,3 +477,7 @@ Requests for new functionality or feature improvements.
 | CSCvo13089 | 3 | Cisco Jabber for Mac has incorrect year in call History. |
 | CSCvo27156 | 3 | Jabber bot HTML formatted messages do not render/work correctly. |
 | CSCvo59911 | 4 | Jabber for Mac is wrongly resolving numbers in format +99(0)12 3123456. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

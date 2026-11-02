@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/GETTING_STARTED.m
 repo: webex/widgets
 ruta: ai-docs/GETTING_STARTED.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:08:40.798232+00:00
+retrieved_at: 2026-11-02T12:36:04.439030+00:00
 ---
 
 # widgets — ai-docs/GETTING_STARTED.md
@@ -31,6 +31,9 @@ yarn install           # installs all workspace deps (Yarn PnP)
 yarn build:dev         # build all packages — required before cross-package tsc imports resolve
 ```
 A fresh clone (or a new git worktree) has no `node_modules`; `yarn install` followed by `yarn build:dev` must complete before any per-package test or cross-package import will resolve.
+
+The store's Webpack build emits JavaScript and TypeScript declarations together.
+`yarn workspace @webex/cc-store build:watch` refreshes both when store source changes.
 
 ## Build / Run / Test
 | Task | Command |

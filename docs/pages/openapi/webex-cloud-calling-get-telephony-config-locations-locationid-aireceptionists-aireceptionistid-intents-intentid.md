@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.404406+00:00
+retrieved_at: 2026-11-02T12:35:56.859990+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}
@@ -56,7 +56,7 @@ curl -X GET '/telephony/config/locations/<locationId>/aiReceptionists/<aiRecepti
 ```json
 {
   "id": "Y2lzY29zcGFyazovL3VzL0lOVEVOVC82OGVhZTIyNDQ3NDZiZDJlMjJiZGY2ODY",
-  "name": "Physical Therapy",
+  "name": "PhysicalTherapy",
   "description": "Connect the caller to knowledgeable representative if they seek assistance with Physical Therapy",
   "transferTo": {
     "contactType": "PEOPLE",

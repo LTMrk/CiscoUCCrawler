@@ -10,7 +10,7 @@ tags: AI Feature
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.281106+00:00
+retrieved_at: 2026-11-02T12:35:57.464800+00:00
 ---
 
 # PATCH /organization/{orgid}/ai-feature/{id}

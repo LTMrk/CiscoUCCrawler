@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-6-jvdi-b-d-efa410931d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6/jvdi_b_deployment-installation-jvdi-elux-12-6_chapter_00.html
-retrieved_at: 2026-08-22T00:36:29.234673+00:00
+retrieved_at: 2026-11-02T12:44:39.865168+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.6
@@ -101,3 +101,11 @@ If Cisco Jabber is also installed on the thin clients, ensure that everyone exit
 | Important | If Cisco Jabber is also installed on the thin clients, ensure that everyone exits Jabber before signing in to their HVD. If Cisco Jabber is running on the local desktop, and one tries to sign in to Jabber on their HVD, the Cisco JVDI Client cannot register.
                                           Problems with accessories can also occur. |
 |---|---|
+
+## Figuras
+
+![Figure 1. Cisco Jabber Softphone for VDI—Data Flow](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/441001-442000/441519.jpg)
+
+![Figure 2. Do You Need Cisco Jabber Softphone for VDI ?](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425707.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

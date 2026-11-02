@@ -10,7 +10,7 @@ tags: Chats
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.636809+00:00
+retrieved_at: 2026-11-02T12:35:57.740202+00:00
 ---
 
 # DELETE /meetings/postMeetingChats

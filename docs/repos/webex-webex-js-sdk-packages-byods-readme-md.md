@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/byods/READM
 repo: webex/webex-js-sdk
 ruta: packages/byods/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:45.561434+00:00
+retrieved_at: 2026-11-02T12:36:01.368921+00:00
 ---
 
 # webex-js-sdk — packages/byods/README.md
@@ -23,12 +23,13 @@ Descripcion del repositorio: JavaScript SDK for Webex
 - [Samples](#samples)
 - [Consuming SDK](#consuming-sdk)
   - [NPM](#npm)
+  - [Single organization setup](#single-organization-setup)
 
 ---
 
 ## Getting Started
 
-The BYoDS Node.js SDK makes it easy for developers to register their data sources to the BYoDS system. It allows developers to build data sources without needing to manage the complexities of integration. With features like customizable storage, service app token management, and auto refresh of JWS tokens. The BYoDS SDK provides a solid foundation for creating secure and reliable data sources.
+The BYoDS Node.js SDK registers and manages data sources for one Webex organization per SDK instance. It provides Service App token management, custom token storage, JWS verification, and scheduled JWS renewal.
 
 ## Developing
 
@@ -56,12 +57,12 @@ yarn workspace @webex/byods run build:src
 ## Samples
 
 ```bash
-  yarn workspace @webex/byods-demo-server dev:hot
+  yarn workspace byods-demo-server dev
 ```
 
 ## Consuming SDK
 
-To consume the latest stable version of the BYoDS SDK, you can use NPM.
+Use the following package name to install the SDK.
 
 # NPM
 
@@ -76,8 +77,32 @@ To consume the latest stable version of the BYoDS SDK, you can use NPM.
 ```
 
 ```javascript
-  import BYoDS from '@webex/byods';
+  import {BYODS} from '@webex/byods';
 ```
+
+## Single organization setup
+
+Set the organization when you construct the SDK. Token methods use that organization and one stored token pair. Supply Service App tokens issued for this organization.
+
+```javascript
+import {BYODS} from '@webex/byods';
+
+const sdk = new BYODS({clientId, clientSecret, orgId});
+
+// Use a Service App refresh token obtained from Webex.
+await sdk.tokenManager.saveServiceAppRegistrationData(refreshToken);
+
+// Alternatively, obtain the pair using the Service App owner's PAT.
+// await sdk.tokenManager.getServiceAppTokenUsingPAT(personalAccessToken);
+
+const {data: sources} = await sdk.dataSource.list();
+```
+
+The default adapter stores one access token, refresh token, and their expiry times in memory. Each write replaces the stored pair. Access-token renewal is automatic when an expired token is requested. `sdk.tokenManager.deleteToken()` removes that pair.
+
+A custom `TokenStorageAdapter` must implement `setToken(token: ServiceAppToken)`, `getToken()`, and `deleteToken()`. Use a separate adapter and storage record for each SDK instance. The adapter must return expiry values as `Date` objects. `ServiceAppToken`, `SDKConfig`, and `TokenStorageAdapter` are exported types.
+
+DataSource responses include the Webex API's `orgId` metadata.
 
 ---
 > Fuente: https://github.com/webex/webex-js-sdk/blob/next/packages/byods/README.md (licencia NOASSERTION)

@@ -10,7 +10,7 @@ tags: Global Variables
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.360036+00:00
+retrieved_at: 2026-11-02T12:35:57.538070+00:00
 ---
 
 # GET /organization/{orgid}/cad-variable/{id}/incoming-references

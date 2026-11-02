@@ -10,7 +10,7 @@ tags: Flows
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.433388+00:00
+retrieved_at: 2026-11-02T12:35:57.609203+00:00
 ---
 
 # POST /{orgId}/project/{projectId}/flows/{flowId}:publish
@@ -34,7 +34,6 @@ Scope: `cjp:config_write`. Roles: [`Organizational Full Admin`, `Supervisor`, `C
 - `orgId` [path] (string) (**requerido**): Organization ID.
 - `projectId` [path] (string) (**requerido**): Project ID. System generated value which is the same across orgs and environments. Always use: 5e5c9ad6d61f870d6d778c1b.
 - `TrackingId` [header] (string): ID for tracking.
-- `skipValidation` [query] (boolean): If true, the flow's pre-publish validation is skipped. Use with care. Por defecto: False.
 - `flowType` [query] (string): Either of 'FLOW' or 'SUBFLOW'. Por defecto: FLOW.
 
 ## Cuerpo de la petición (application/json)

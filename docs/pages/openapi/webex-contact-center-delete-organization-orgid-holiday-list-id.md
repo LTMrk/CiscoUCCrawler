@@ -10,7 +10,7 @@ tags: Holiday List
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.295384+00:00
+retrieved_at: 2026-11-02T12:35:57.475553+00:00
 ---
 
 # DELETE /organization/{orgid}/holiday-list/{id}

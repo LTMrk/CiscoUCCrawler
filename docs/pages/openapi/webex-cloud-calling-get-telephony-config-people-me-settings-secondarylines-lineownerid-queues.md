@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.454310+00:00
+retrieved_at: 2026-11-02T12:35:56.967042+00:00
 ---
 
 # GET /telephony/config/people/me/settings/secondaryLines/{lineownerId}/queues
@@ -42,7 +42,7 @@ curl -X GET '/telephony/config/people/me/settings/secondaryLines/<lineownerId>/q
 
 ## Respuestas correctas
 **200**: OK
-- `agentACDState` (string): * `SIGN_IN` - Agent has signed in.  * `SIGN_OUT` - Agent has signed out.  * `AVAILABLE` - Agent is available.  * `UNAVAILABLE` - Agent is unavailable.  * `WRAP_UP` - Agent has wrapped up. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
+- `agentACDState` (string): The Automatic Call Distribution (ACD) state of the call queue agent.  * `SIGN_IN` - Signs the agent in to call queue service so the agent can receive queue calls when available.  * `SIGN_OUT` - Signs the agent out of call queue service so the agent does not receive queue calls.  * `AVAILABLE` - Marks the signed-in agent as ready to receive routed queue calls.  * `UNAVAILABLE` - Marks the agent as unavailable for routed queue calls.  * `WRAP_UP` - Places the agent in wrap-up after a call, making the agent unavailable for new queue calls while completing post-call work. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
 - `queues` (array): Indicates a list of call centers the agent has joined or may join.
   - `id` (string) (**requerido**): Unique call queue identifier.
   - `hasCxEssentials` (boolean): Indicates if the call queue is `normal` or `CxEssentials`.

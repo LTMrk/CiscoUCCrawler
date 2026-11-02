@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-4f9b11290d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_0101.html
-retrieved_at: 2026-08-22T00:38:48.565696+00:00
+retrieved_at: 2026-11-02T12:42:43.633590+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Windows Release 12.1
@@ -134,3 +134,7 @@ The executable gathers the logs from the thin client and saves them to the deskt
 
 | Note | We recommend that users provide a description of the circumstances that lead up to the error. Users must accept the privacy agreement to run the PRT. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

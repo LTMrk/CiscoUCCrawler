@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/AGENTS.md
 repo: webex/webex-js-sdk
 ruta: AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:06:33.664412+00:00
+retrieved_at: 2026-11-02T12:35:58.655331+00:00
 ---
 
 # webex-js-sdk — AGENTS.md
@@ -77,6 +77,16 @@ When asked to find all occurrences of a logical pattern (e.g. "where state is LE
 1. Search for **both** named constants (e.g. `_LEFT_`, `_MOVED_`) **and** raw string literals (e.g. `'LEFT'`, `'MOVED'`, `"LEFT"`, `"MOVED"`). The codebase is inconsistent — some call sites use imported constants while others use inline strings.
 2. Also search for related enum values (e.g. `LOCUS.STATE.*`, `MEETING_STATE.STATES.*`) that may represent the same logical concept.
 3. After finding all matches, **list every occurrence** and confirm the full set with the user before making changes, to avoid missing any.
+
+
+<!-- sdd-package-routing:start -->
+## SDD package routing
+
+| Package | Path | Agent entry | Docs | Manifest |
+| --- | --- | --- | --- | --- |
+| `@webex/internal-plugin-feature` | `packages/@webex/internal-plugin-feature/` | [AGENTS.md](packages/@webex/internal-plugin-feature/AGENTS.md) | [docs/index.md](packages/@webex/internal-plugin-feature/docs/index.md) | [.sdd/manifest.json](packages/@webex/internal-plugin-feature/.sdd/manifest.json) |
+| `@webex/internal-plugin-user` | `packages/@webex/internal-plugin-user/` | [AGENTS.md](packages/@webex/internal-plugin-user/AGENTS.md) | [docs/index.md](packages/@webex/internal-plugin-user/docs/index.md) | [.sdd/manifest.json](packages/@webex/internal-plugin-user/.sdd/manifest.json) |
+<!-- sdd-package-routing:end -->
 
 ---
 > Fuente: https://github.com/webex/webex-js-sdk/blob/next/AGENTS.md (licencia NOASSERTION)

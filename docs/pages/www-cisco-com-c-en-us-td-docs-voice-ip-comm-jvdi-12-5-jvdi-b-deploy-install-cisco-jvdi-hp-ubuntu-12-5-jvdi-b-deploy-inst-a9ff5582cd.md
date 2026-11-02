@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-a9ff5582cd
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_0101.html
-retrieved_at: 2026-08-22T00:35:09.545922+00:00
+retrieved_at: 2026-11-02T12:43:46.119777+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.5
@@ -193,3 +193,7 @@ admin@LWT44d3ca76ba19:~> |
 | Important | Problem reports include logs from the thin client, the hosted virtual desktop, and any detailed information that users enter.
                                           You can use this information to help troubleshoot the issue. If there is a problem with the virtual channel, or if Cisco Jabber is not running, the problem report does not include logs from the thin client. For more information, see Virtual Channel Problem . |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -10,7 +10,7 @@ tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.641474+00:00
+retrieved_at: 2026-11-02T12:35:57.745045+00:00
 ---
 
 # POST /meetingParticipants/admit
@@ -23,7 +23,7 @@ retrieved_at: 2026-09-30T18:17:21.641474+00:00
 Admit Participants
 
 ## Descripción
-Admit multiple participants to a meeting in progress.
+To admit participants into a live meeting or its breakout sessions in bulk. If `breakoutSessionId` is null for all the requested participants, they are admitted into the main session of the meeting. If `breakoutSessionId` is not null for all the requested participants, they are admitted into the breakout sessions specified by each `breakoutSessionId`. It's not allowed that some requested participants have `breakoutSessionId` and the others haven't.
 
 This API limits the maximum size of `items` in the request body to 100.
 
@@ -39,10 +39,12 @@ Each `participantId` of `items` in the request body should have the same prefix 
 {
   "items": [
     {
-      "participantId": "560d7b784f5143e3be2fc3064a5c4999_I_204252993233618782_23e16d67-17f3-3ef1-b830-f33d17c0232e"
+      "participantId": "560d7b784f5143e3be2fc3064a5c4999_I_204252993233618782_23e16d67-17f3-3ef1-b830-f33d17c0232e",
+      "breakoutSessionId": "23e16d67-17f3-3ef1-b830-f33d17c0232e"
     },
     {
-      "participantId": "560d7b784f5143e3be2fc3064a5c4999_I_204252993233618782_23e16d67-17f3-3ef1-b830-f33d17c0233d"
+      "participantId": "560d7b784f5143e3be2fc3064a5c4999_I_204252993233618782_23e16d67-17f3-3ef1-b830-f33d17c0233d",
+      "breakoutSessionId": "046afcde-d6c0-44da-aa79-96cb88762151"
     }
   ]
 }

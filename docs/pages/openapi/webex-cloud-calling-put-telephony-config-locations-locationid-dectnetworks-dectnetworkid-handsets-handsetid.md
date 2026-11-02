@@ -10,7 +10,7 @@ tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.398165+00:00
+retrieved_at: 2026-11-02T12:35:56.853371+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/{handsetId}

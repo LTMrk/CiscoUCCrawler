@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-calls-ug-html-85c264044b
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_calls_ug.html
-retrieved_at: 2026-08-21T06:55:50.741349+00:00
+retrieved_at: 2026-11-02T12:40:34.327670+00:00
 ---
 
 Cisco Jabber User Guide
@@ -883,3 +883,15 @@ Tap Call Statistics .
 | Step 1 | From the in-call view, tap More . |
 |---|---|
 | Step 2 | Tap Call Statistics . |
+
+## Figuras
+
+![phone icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413396.jpg)
+
+![phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393359.jpg)
+
+![ellipsis button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413620.jpg)
+
+![conference call icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410307.tif/_jcr_content/renditions/410307.jpg)
+
+![ellipsis icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428576.jpg)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-contacts-and-contact--b03f1922d3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_contacts-and-contact-groups-ug.html
-retrieved_at: 2026-08-21T07:08:13.653350+00:00
+retrieved_at: 2026-11-02T12:40:42.514248+00:00
 ---
 
 Cisco Jabber User Guide
@@ -623,3 +623,23 @@ Enter your message in the Broadcast message text box and tap Send .
 | Step 1 | From the Contacts screen, tap a Group Contact Name, and then choose Send broadcast message . |
 |---|---|
 | Step 2 | Enter your message in the Broadcast message text box and tap Send . |
+
+## Figuras
+
+![XML example](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428575.jpg)
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428033.jpg)
+
+![chat icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/424001-425000/424735.jpg)
+
+![phone icon](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393359.jpg)
+
+![favorite icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/413001-414000/413394.jpg)
+
+![Add contact icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443894.jpg)
+
+![contacts icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443891.jpg)
+
+![plus sign icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/435001-436000/435590.jpg)
+
+![plus sign icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/401001-402000/401491.tif/_jcr_content/renditions/401491.jpg)

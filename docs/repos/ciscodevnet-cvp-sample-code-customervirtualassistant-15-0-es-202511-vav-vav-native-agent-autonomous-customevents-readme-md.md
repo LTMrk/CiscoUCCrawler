@@ -4,7 +4,7 @@ source_url: https://github.com/CiscoDevNet/cvp-sample-code/blob/master/CustomerV
 repo: CiscoDevNet/cvp-sample-code
 ruta: CustomerVirtualAssistant/15.0 ES 202511 VAV/VAV_Native_Agent_Autonomous_CustomEvents/README.md
 licencia: MIT
-retrieved_at: 2026-08-24T09:11:06.496988+00:00
+retrieved_at: 2026-11-02T12:36:13.476888+00:00
 ---
 
 # cvp-sample-code — CustomerVirtualAssistant/15.0 ES 202511 VAV/VAV_Native_Agent_Autonomous_CustomEvents/README.md
@@ -23,7 +23,7 @@ Demonstrates the capabilities of the Virtual Agent Voice Call Studio element wit
 - VAV handles the internal conversational loop by streaming caller audio to the Webex AI Agent, receiving and playing responses, and continuing until the agent provides an exit condition.
 - In a multiple-bot flow, the caller is routed to the VirtualAgentVoice element configured for the subsequent bot. When `dynamic_welcome_message` is enabled, that bot plays its dynamic welcome prompt upon entry.
 - For a custom exit, VAV exposes `eventName` and `eventData` from the AI Agent's custom payload. The Call Studio flow can perform an intermediate action and then re-enter the same or another VirtualAgentVoice element.
-- Decision logic evaluates VAV element data such as agent handoff, `end_session`, custom exit, and error events to determine the next flow path.
+- Decision logic evaluates VAV element data such as `agent handoff`, `end_session`, `custom exit`, and error events to determine the next flow path.
 - Agent handoff is supported by capturing metadata from the VAV response and processing it through the Set Value element before playing a transfer prompt.
 - Fallback handling allows the application to respond gracefully to VXML `error.badfetch`, `error.noresource`, and adapter-level gRPC errors.
 - gRPC errors are handled through the error handler block, which plays a dedicated audio prompt before returning to the calling application.
@@ -35,7 +35,7 @@ Demonstrates the capabilities of the Virtual Agent Voice Call Studio element wit
 - A **Connector Type** dropdown has been added to the VirtualAgentVoice element.
 - Select **Webex CCAI** and **Autonomous** mode to configure the required **Agent ID**.
 - Information from the custom payload sent by the Webex AI Agent is stored as `eventData` and `eventName` in the VirtualAgentVoice element data.
-- A custom exit occurs when `Execute_Request` and `Event_Name` are present in the custom payload.
+- A custom exit occurs when `Event_Name` is present in the custom payload.
 - After digit or value collection, the application can re-enter through the same or a different VirtualAgentVoice element. This sample uses a different element for re-entry.
 - The VirtualAgentVoice element's `eventData` output can be parsed and used as required.
 - Values in the **Event Data** attribute use name-value pairs and support strings, valid JSON, and substitution with a valid value.

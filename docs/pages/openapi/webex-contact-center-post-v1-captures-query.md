@@ -10,7 +10,7 @@ tags: Captures
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.452736+00:00
+retrieved_at: 2026-11-02T12:35:57.629273+00:00
 ---
 
 # POST /v1/captures/query
@@ -30,7 +30,7 @@ Retrieve a list of Captures given a set of task IDs.
 Not all tasks will have captures by default and they will be available based on the organization's configurations and retention policy. Querying closed tasks is recommended, as open tasks may return incomplete data.
 
 Transcripts retrieved through this API are post-interaction artifacts.
-- For voice, transcripts are available when at least one transcript based configuration/feature is enabled such as Auto CSAT, Agent Well Being, Call Drop Summary, Topics Analytics.
+- For voice transcripts are available when at least one transcript based configuration/feature is enabled such as Auto CSAT, Agent Well Being, Call Drop Summary, Topics Analytics, Real Time Transcription etc. Please refer the [guide to get started with the transcripts](/docs/guide-for-contact-center-transcripts).
 
 - For digital channels such as Chat, Email, Social, Work Item, and Custom Messaging, transcripts are generated from the conversation messages. Please refer [guide for digital transcripts](/docs/guide-for-digital-transcripts) for more details
 
@@ -103,14 +103,15 @@ This behavior is intentional to allow partial results when multiple taskIds are 
       - `callType` (string): main if recording belongs to main call; consult if recording belongs to consult call; va-main if recording belongs to virtual agent in main call; va-consult if recording belongs to virtual agent in consult call.
       - `sensitive` (boolean): Applicable only to virtual agent recordings. Flag; (true) indicates the virtual agent recording may contain sensitive information, (false) otherwise.
   - `transcription` (array) (**requerido**):
-    - `Source` (string): Source of the transcription
-    - `Provider` (string): Provider of the generated transcription
+    - `source` (string): Source of the transcription
+    - `provider` (string): Provider of the generated transcription
     - `id` (string): Voice Channel Transcript: Ccai ConfigId, Digital Channel Transcript: Conversation Id
     - `fileName` (string): The file name of the transcript.
-    - `filePath` (string): Capture download url. Please refer [Transcript Details Guide](/docs/digital-transcript-json-details) for more details.
+    - `filePath` (string): Capture download url
     - `startTime` (string): Begin time of capture(epoch timestamp)
     - `languageCode` (string): Language of the transcript
     - `createTime` (string): Create time of capture(epoch timestamp)
+    - `transcriptSchemaVersion` (string): Indicates the version of the transcript schema being used. This field specifies whether the transcript data conforms to the old format or the new VCON format, enabling the system to correctly interpret and process the transcript payload. For more details, see the [migration guide](/docs/migrating-to-cc-vcon-transcripts).
   - `screenRecordings` (array):
     - `id` (string) (**requerido**): The ID of the screen recording.
     - `attributes` (object) (**requerido**):

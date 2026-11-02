@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.404663+00:00
+retrieved_at: 2026-11-02T12:35:56.860277+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}
@@ -36,7 +36,7 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 - `orgId` [query] (string): Optional target organization identifier. Defaults to token's organization if not provided.
 
 ## Cuerpo de la petición (application/json)
-- `name` (string): Name of the intent. Long. max: 64.
+- `name` (string): New name of the intent. 1–64 characters; can only contain alphanumeric characters, hyphens (-), and underscores (_). Long. max: 64.
 - `description` (string): Description of the intent (Action). Long. max: 1024.
 - `transferTo` (object): Transfer destination configuration for the intent.
   - `contactType` (string) (**requerido**): Contact type. - PEOPLE - A person in the organization. - RESOURCE_GROUP - A group resource such as a call queue or hunt group. - CONTACT - An organization contact. - PHONE_NUMBER - A raw phone number or extension. Valores: PEOPLE, RESOURCE_GROUP, CONTACT, PHONE_NUMBER.
@@ -46,7 +46,7 @@ This API requires a full administrator auth token with a scope of `spark-admin:t
 ### Ejemplo — petición
 ```json
 {
-  "name": "For Physical Therapy",
+  "name": "ForPhysicalTherapy",
   "description": "Connect the caller to knowledgeable representative if they seek assistance with Physical Therapy",
   "transferTo": {
     "contactType": "PEOPLE",

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-windows-12-5-html-165adc6827
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-windows-12-5.html
-retrieved_at: 2026-08-22T00:42:19.434626+00:00
+retrieved_at: 2026-11-02T12:44:31.516348+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Windows Release 12.5
@@ -725,3 +725,11 @@ Self-View is not visible during a video call between two JVDI clients in full sc
 | CSCvm03694 | 3 | Jabber softphone doesn't connect after switching from CTI (extend and connect) |
 | CSCvm10783 | 3 | JVDI 12.1.0 - Volume Setting Changes are not saved. |
 | CSCvm41595 | 3 | Self-View is not visible during a video call between two JVDI clients in full screen mode |
+
+## Figuras
+
+![Figure 1. Select Customize Installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/432001-433000/432115.jpg)
+
+![Figure 2. VMware Customized Installation Settings](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/432001-433000/432116.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

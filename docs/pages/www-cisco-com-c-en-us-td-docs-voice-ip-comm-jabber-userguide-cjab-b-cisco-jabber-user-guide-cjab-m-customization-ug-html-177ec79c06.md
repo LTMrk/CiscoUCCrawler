@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-customization-ug-html-177ec79c06
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_customization-ug.html
-retrieved_at: 2026-08-21T18:11:32.202408+00:00
+retrieved_at: 2026-11-02T12:40:47.293494+00:00
 ---
 
 Cisco Jabber User Guide
@@ -1315,3 +1315,11 @@ Go to Jabber > Preferences > Calls , and select Always start my calls with video
 
 | Go to Jabber > Preferences > Calls , and select Always start my calls with video . |
 |---|
+
+## Figuras
+
+![sample screens](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/439001-440000/439442.jpg)
+
+![phone control icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425308.jpg)
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428033.jpg)

@@ -10,7 +10,7 @@ tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.738242+00:00
+retrieved_at: 2026-11-02T12:35:57.288952+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/outgoingPermission

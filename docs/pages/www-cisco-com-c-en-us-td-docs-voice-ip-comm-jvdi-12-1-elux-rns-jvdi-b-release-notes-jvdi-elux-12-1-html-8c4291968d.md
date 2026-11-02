@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-rns-jvdi-b-release-notes-jvdi-elux-12-1-html-8c4291968d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/rns/jvdi_b_release-notes-jvdi-elux-12-1.html
-retrieved_at: 2026-09-01T18:02:31.962449+00:00
+retrieved_at: 2026-11-02T12:41:41.815593+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -557,3 +557,7 @@ VXME didn't work after thin client change network
 | CSCvi74603 | 3 | Jabber VXME loses configured audio devices |
 | CSCvj55836 | 3 | Duplicate devices seen in advanced audio options |
 | CSCvk30206 | 3 | VXME didn't work after thin client change network |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

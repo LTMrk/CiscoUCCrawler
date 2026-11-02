@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-getting-started-ug-ht-f24e83e5ee
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_getting-started-ug.html
-retrieved_at: 2026-08-21T06:55:46.502566+00:00
+retrieved_at: 2026-11-02T12:40:51.392309+00:00
 ---
 
 Cisco Jabber User Guide
@@ -1197,3 +1197,41 @@ For more information, contact your Site Administrator or CSM .
 
 | Note | Mobile application management currently isn't supported for Webex Meetings Online customers. |
 |---|---|
+
+## Figuras
+
+![sample screen with callouts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393747.jpg)
+
+![sample screen with callouts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393737.jpg)
+
+![sample screen with callouts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393739.jpg)
+
+![sample screen with callouts](https://www.cisco.com/c/dam/en/us/td/i/300001-400000/390001-400000/393001-394000/393735.jpg)
+
+![emoticon tab icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425239.jpg)
+
+![animated emoticon tab icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425240.jpg)
+
+![Call Me emoticon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/418001-419000/418024.jpg)
+
+![green circle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410531.tif/_jcr_content/renditions/410531.jpg)
+
+![green circle with checkmark](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410534.tif/_jcr_content/renditions/410534.jpg)
+
+![yellow circle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410532.tif/_jcr_content/renditions/410532.jpg)
+
+![yellow circle with horizontal lline](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410535.tif/_jcr_content/renditions/410535.jpg)
+
+![red circle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410533.tif/_jcr_content/renditions/410533.jpg)
+
+![red circle with slanted line](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410536.tif/_jcr_content/renditions/410536.jpg)
+
+![gray circle](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410576.tif/_jcr_content/renditions/410576.jpg)
+
+![yellow circle with horizontal line](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410535.tif/_jcr_content/renditions/410535.jpg)
+
+![red circle with slated line](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410536.tif/_jcr_content/renditions/410536.jpg)
+
+![yellow circle with a horizontal line](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410535.tif/_jcr_content/renditions/410535.jpg)
+
+![red circle with a slanted line](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/410001-411000/410536.tif/_jcr_content/renditions/410536.jpg)

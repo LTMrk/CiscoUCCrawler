@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-63dd4584f7
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_0100.html
-retrieved_at: 2026-08-22T00:37:40.806969+00:00
+retrieved_at: 2026-11-02T12:41:28.703674+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -91,3 +91,7 @@ Install Cisco Jabber .
 
 | Important | If Cisco Jabber is running during the installation, exit and restart Cisco Jabber to enable virtualization. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

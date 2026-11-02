@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.547721+00:00
+retrieved_at: 2026-11-02T12:35:57.082336+00:00
 ---
 
 # GET /telephony/config/devices/dectNetworks/supportedDevices

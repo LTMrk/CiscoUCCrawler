@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-aa4ff43a6a
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_0101.html
-retrieved_at: 2026-08-22T00:35:34.413540+00:00
+retrieved_at: 2026-11-02T12:42:10.327717+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.1
@@ -173,3 +173,7 @@ admin@LWT44d3ca76ba19:~> |
 
 | Note | Users must accept the privacy agreement to run the PRT. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

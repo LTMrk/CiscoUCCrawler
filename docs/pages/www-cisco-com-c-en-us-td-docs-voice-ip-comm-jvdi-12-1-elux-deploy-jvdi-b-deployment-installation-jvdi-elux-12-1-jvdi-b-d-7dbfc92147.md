@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-7dbfc92147
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_0101.html
-retrieved_at: 2026-08-22T00:37:45.176120+00:00
+retrieved_at: 2026-11-02T12:41:32.734659+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -148,3 +148,7 @@ admin@LWT44d3ca76ba19:~> |
 
 | Note | Users must accept the privacy agreement to run the PRT. |
 |---|---|
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

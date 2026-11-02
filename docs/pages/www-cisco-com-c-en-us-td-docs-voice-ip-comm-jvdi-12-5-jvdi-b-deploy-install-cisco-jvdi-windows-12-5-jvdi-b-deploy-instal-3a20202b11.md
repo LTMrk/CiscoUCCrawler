@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-3a20202b11
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_01.html
-retrieved_at: 2026-08-22T00:39:05.726757+00:00
+retrieved_at: 2026-11-02T12:44:02.495907+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone—VDI Windows Release 12.5
@@ -343,3 +343,7 @@ Opus is supported on Cisco Unified Communications
 | G.729a |  |
 | Opus Opus is supported on Cisco Unified Communications
                                           Manager 11.0 or later. |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: developer-cisco-com-site-axl-8624944788
 source_url: https://developer.cisco.com/site/axl/
-retrieved_at: 2026-08-24T22:13:22.268634+00:00
+retrieved_at: 2026-11-02T12:38:10.885660+00:00
 ---
 
 Cisco Administrative XML (AXL)
@@ -33,3 +33,11 @@ JOIN THE DISCUSSION
 AXL Forum
 
 Bring your questions to the AXL community! Engage, collaborate and share with your fellow experts in the developer forum.
+
+## Figuras
+
+![Cisco UC Manager 12.0 Sandbox](https://pubhub.devnetcloud.com/media/axl/site/images/cucm.png)
+
+![Developer Support](https://static.production.devnetcloud.com/pubhubsdk/img/support-ticket.png)
+
+![AXL Forum](https://static.production.devnetcloud.com/pubhubsdk/img/support-forum.png)

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/contact-center/t
 repo: webex/widgets
 ruta: packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
 licencia: sin declarar
-retrieved_at: 2026-10-19T09:48:38.322922+00:00
+retrieved_at: 2026-11-02T12:36:05.247681+00:00
 ---
 
 # widgets — packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
@@ -49,6 +49,10 @@ The package is structured as a flat set of fixture modules under `src/`, each on
 The load-bearing contract of this module is structural: each exported mock is typed against the real SDK / store / cc-components type (e.g. `mockCC: IContactCenter`, `mockProfile: Profile`, `mockTask: ITask`) so that when a consuming test passes a fixture into production code, the shape matches what production code expects at compile time. A maintainer changing a fixture should start at `src/fixtures.ts` and keep the declared types intact.
 
 `mockTask` and `makeMockTask` use the store's exported `ITask` contract. They provide disabled AI summary capabilities and stub request/response methods, so store consumers see the same task shape in tests.
+
+`mockProfile.teams` follows the SDK `TeamList` shape: `id`, `name`, and the required
+team, site, membership and queue-ranking metadata. The fixture uses the SDK's
+current profile contract rather than the older `teamId`/`teamName` fields.
 
 ## Purpose / Responsibility
 Provides shared, type-checked mock SDK instances, mock profile/task/queue/agent data, and component-prop fixtures consumed by other packages' Jest tests; it does NOT provide runtime behavior, test runners, or shared test-render helpers.
@@ -138,8 +142,8 @@ Shape fidelity is achieved by importing the real SDK/store types and annotating 
 
 Isolation is offered two ways. Static fixtures (`mockTask`, `mockCC`) are shared singletons — cheap but mutable, so tests that mutate must clone. Factory functions (`makeMockTask`, `makeMockCampaignTask`, `makeMockAddressBook`) return fresh objects with brand-new `jest.fn()`s each call, which is the safe path for tests that mutate or assert call counts.
 
-`mockCC.aiSummaries` starts empty to match the widget-owned state on `IContactCenter`; tests that
-populate it must reset or replace it to keep summary state isolated.
+Summary state belongs to `Store.aiSummaries`; consumer tests reset that map between
+cases. The SDK-shaped `mockCC` contains no widget-owned summary state.
 
 Composition keeps the SDK mock single-sourced: outdial fixtures spread `mockCC` rather than redeclaring it, so a change to `mockCC` propagates. The same principle is why `mockQueuesResponse` is derived by mapping `mockQueueDetails` instead of being hand-written twice.
 

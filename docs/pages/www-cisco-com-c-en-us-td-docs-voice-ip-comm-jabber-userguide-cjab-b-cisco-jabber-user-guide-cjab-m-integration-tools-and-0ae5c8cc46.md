@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-integration-tools-and-0ae5c8cc46
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_integration-tools-and-accessories-ug.html
-retrieved_at: 2026-08-21T07:08:18.114802+00:00
+retrieved_at: 2026-11-02T12:40:55.679833+00:00
 ---
 
 Cisco Jabber User Guide
@@ -1040,3 +1040,59 @@ Cisco Jabber Softphone for VDI—Windows Release 12. 8 (and later) supports the 
 | Step 2 | Go to Help > Show connection status . A green checkmark indicates a successful connection. |
 | Step 3 | To copy the information to your clipboard, click Copy . You can paste the information into an email to send to your system administrator. |
 | Step 4 | For more information, including the JVDI Agent and the JVDI Client versions, click JVDI Details . |
+
+## Figuras
+
+![screen dsplay](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452469.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452552.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452553.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/452001-453000/452555.jpg)
+
+![plus icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/401001-402000/401491.tif/_jcr_content/renditions/401491.jpg)
+
+![phone icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/417001-418000/417356.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/445001-446000/445306.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/445001-446000/445303.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446325.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/461001-462000/461012.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449234.jpg)
+
+![image of screen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/445001-446000/445302.jpg)
+
+![image of screen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/445001-446000/445304.jpg)
+
+![image of screen](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/445001-446000/445305.jpg)
+
+![page display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449231.jpg)
+
+![page display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/449001-450000/449232.jpg)
+
+![image of step results](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/460001-470000/460001-461000/460908.jpg)
+
+![screen with callouts](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/450001-460000/450001-451000/450454.jpg)
+
+![search icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446306.jpg)
+
+![sreen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446418.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446417.jpg)
+
+![call icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446308.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/446001-447000/446307.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/447001-448000/447333.jpg)
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/434001-435000/434636.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/435001-436000/435651.jpg)
+
+![screen display](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/438001-439000/438853.jpg)

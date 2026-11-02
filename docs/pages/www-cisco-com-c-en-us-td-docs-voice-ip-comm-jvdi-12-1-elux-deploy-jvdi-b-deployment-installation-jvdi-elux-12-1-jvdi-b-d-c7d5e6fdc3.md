@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-c7d5e6fdc3
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_011.html
-retrieved_at: 2026-08-22T00:37:36.790286+00:00
+retrieved_at: 2026-11-02T12:41:37.045459+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -411,3 +411,7 @@ Select Save .
 | Step 4 | In the End User Configuration window, in the Password field, enter a new password for the user. |
 | Step 5 | In the Confirm Password field, enter the  new password for the user again. |
 | Step 6 | Select Save . |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

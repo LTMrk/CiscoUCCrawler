@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-elux-12-5-html-6e3b84bb8d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-elux-12-5.html
-retrieved_at: 2026-08-22T00:42:27.690003+00:00
+retrieved_at: 2026-11-02T12:44:23.380564+00:00
 ---
 
 Release Notes for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.5
@@ -608,3 +608,7 @@ Self-View is not visible during a video call between two JVDI clients in full sc
 | CSCvm03694 | 3 | Jabber softphone doesn't connect after switching from CTI (extend and connect) |
 | CSCvm10783 | 3 | JVDI 12.1.0 - Volume Setting Changes are not saved. |
 | CSCvm41595 | 3 | Self-View is not visible during a video call between two JVDI clients in full screen mode |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-f605dbdc68
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_01.html
-retrieved_at: 2026-08-22T00:35:17.873945+00:00
+retrieved_at: 2026-11-02T12:41:54.646323+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.1
@@ -286,3 +286,7 @@ Opus is supported on Cisco Unified Communications
 | G.729a |  |
 | Opus Opus is supported on Cisco Unified Communications
                                           Manager 11.0 or later. |  |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

@@ -10,7 +10,7 @@ tags: Functions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:26.438490+00:00
+retrieved_at: 2026-11-02T12:35:57.614143+00:00
 ---
 
 # DELETE /v1/{orgId}/functions/{id}

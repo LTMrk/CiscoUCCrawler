@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-aab59525c5
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_00.html
-retrieved_at: 2026-08-22T00:37:23.938325+00:00
+retrieved_at: 2026-11-02T12:41:15.802356+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -88,3 +88,9 @@ Some menus and options are different in a virtual deployment. For example, Video
 
 | Note | You can disable video globally or on a per-device basis on the Cisco Unified Communications Manager. Navigate to System > Enterprise Phone Configuration and set Video Calling to Disabled . |
 |---|---|
+
+## Figuras
+
+![Figure 1. Do You Need Cisco Jabber Softphone for VDI ? . Use the following flowchart to determine whether you require Cisco Jabber Softphone for VDI for your virtual environment.](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425707.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

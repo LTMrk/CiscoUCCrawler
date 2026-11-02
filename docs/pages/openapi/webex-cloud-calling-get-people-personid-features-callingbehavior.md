@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.670517+00:00
+retrieved_at: 2026-11-02T12:35:57.215772+00:00
 ---
 
 # GET /people/{personId}/features/callingBehavior

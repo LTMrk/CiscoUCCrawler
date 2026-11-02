@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-2f42ab1fad
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_010.html
-retrieved_at: 2026-08-22T00:34:56.915060+00:00
+retrieved_at: 2026-11-02T12:43:37.966767+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—HP Thin Pro and Ubuntu Release 12.5
@@ -297,3 +297,7 @@ Click Download or Add to cart and follow the prompts.
 | Step 2 | Go to Products > Unified Communications > Unified Communications Applications > Messaging > Cisco Jabber Softphone for VDI for HP Thin Pro and Ubuntu . |
 | Step 3 | From the list, choose the file for your release. |
 | Step 4 | Click Download or Add to cart and follow the prompts. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

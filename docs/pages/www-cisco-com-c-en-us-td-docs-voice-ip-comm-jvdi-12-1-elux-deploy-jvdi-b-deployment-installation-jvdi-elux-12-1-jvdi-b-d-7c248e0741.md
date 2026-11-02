@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-7c248e0741
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_010.html
-retrieved_at: 2026-08-22T00:37:32.309874+00:00
+retrieved_at: 2026-11-02T12:41:24.306852+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Unicon eLux Release 12.1
@@ -186,3 +186,7 @@ Locate and download the package.
 | Step 1 | Visit the Unicon web site: http://www.myelux.com . |
 |---|---|
 | Step 2 | Locate and download the package. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

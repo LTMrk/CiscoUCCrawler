@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-troubleshooting-ug-ht-614e9dbb56
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_troubleshooting-ug.html
-retrieved_at: 2026-08-21T07:08:05.045720+00:00
+retrieved_at: 2026-11-02T12:41:03.419415+00:00
 ---
 
 Cisco Jabber User Guide
@@ -246,3 +246,9 @@ Don't remove the certificate or you won't be able to use any calling features un
 
 | Note | Don't remove the certificate or you won't be able to use any calling features until your administrator reconfigures it. |
 |---|---|
+
+## Figuras
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428033.jpg)
+
+![gear icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425305.jpg)

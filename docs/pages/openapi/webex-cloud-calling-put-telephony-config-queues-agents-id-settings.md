@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-10-19T09:48:25.598426+00:00
+retrieved_at: 2026-11-02T12:35:57.134350+00:00
 ---
 
 # PUT /telephony/config/queues/agents/{id}/settings
@@ -30,12 +30,15 @@ An agent can be assigned to one or more call queues and can be managed by superv
 
 This operation requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
+The `agentACDState` request property is available when the `wxc_customerassist_webex_server_server_CALL-217518` feature toggle is enabled.
+
 ## Parámetros
 - `id` [path] (string) (**requerido**): Identifier of the agent to be updated.
 - `orgId` [query] (string): Update the settings of an agent in this organization.
 - `hasCxEssentials` [query] (boolean): Must be set to `true` to modify an agent that has Customer Assist license. This can otherwise be ommited or set to `false`.
 
 ## Cuerpo de la petición (application/json)
+- `agentACDState` (string): The Automatic Call Distribution (ACD) state of the call queue agent.  * `SIGN_IN` - Signs the agent in to call queue service so the agent can receive queue calls when available.  * `SIGN_OUT` - Signs the agent out of call queue service so the agent does not receive queue calls.  * `AVAILABLE` - Marks the signed-in agent as ready to receive routed queue calls.  * `UNAVAILABLE` - Marks the agent as unavailable for routed queue calls.  * `WRAP_UP` - Places the agent in wrap-up after a call, making the agent unavailable for new queue calls while completing post-call work. Valores: SIGN_IN, SIGN_OUT, AVAILABLE, UNAVAILABLE, WRAP_UP.
 - `settings` (array) (**requerido**):
   - `queueId` (string) (**requerido**): Unique call queue identifier.
   - `joinEnabled` (boolean) (**requerido**): Whether or not the call queue is enabled.
@@ -45,14 +48,15 @@ This operation requires a full administrator auth token with a scope of `spark-a
 {
   "settings": [
     {
-      "queueId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS85NTA4OTc4ZC05YmFkLTRmYWEtYTljNC0wOWQ4NWQ4ZmRjZTY",
+      "queueId": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvZjM4NDIxZGYtN2MxOC00NGI1LThlNmQtNDFmZTEyMTFlZDFk",
       "joinEnabled": true
     },
     {
-      "queueId": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS9iYzIyMTRlNi0zYzdlLTRkZDAtOTc3Yy0zNzRlOWE2ZDk4MWM",
+      "queueId": "Y2lzY29zcGFyazovL3VzL0NBTExfUVVFVUUvOTUwODk3OGQtOWJhZC00ZmFhLWE5YzQtMDlkODVkOGZkY2U2",
       "joinEnabled": false
     }
-  ]
+  ],
+  "agentACDState": "AVAILABLE"
 }
 ```
 

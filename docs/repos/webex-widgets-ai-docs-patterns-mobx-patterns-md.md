@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/patterns/mobx-pat
 repo: webex/widgets
 ruta: ai-docs/patterns/mobx-patterns.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:09:00.404467+00:00
+retrieved_at: 2026-11-02T12:36:04.675067+00:00
 ---
 
 # widgets — ai-docs/patterns/mobx-patterns.md
@@ -109,6 +109,7 @@ not at all.
 
 **Where it appears**
 - `packages/contact-center/store/src/storeEventsWrapper.ts` (dozens of setters and event handlers wrap writes in `runInAction`) , `packages/contact-center/task/src/helper.ts` , `packages/contact-center/user-state/src/helper.ts`
+- `packages/contact-center/store/src/store.ts` (`aiSummaries` is a store-owned `observable.ref` field; widgets call store methods for response bookkeeping)
 
 **Edge cases / exceptions**
 - Reads never need `runInAction`; only writes to observables do.

@@ -13,10 +13,10 @@
     "https://developer.cisco.com/docs/axl-schema-reference/": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-docs-axl-schema-reference-9b0bc00eea",
-      "fail_count": 5,
+      "fail_count": 6,
       "first_seen": "2026-09-27T10:51:53.947636+00:00",
-      "last_seen": "2026-10-12T11:51:56.079752+00:00",
-      "next_check": "2026-10-26T11:51:56.079756+00:00",
+      "last_seen": "2026-11-02T12:36:25.869571+00:00",
+      "next_check": "2026-11-16T12:36:25.869574+00:00",
       "status": "failed",
       "unchanged_runs": 0
     },
@@ -28,10 +28,10 @@
       "first_seen": "2026-08-24T22:11:30.642220+00:00",
       "last_changed": "2026-08-24T22:11:30.642220+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:20:57 GMT",
-      "last_seen": "2026-09-28T06:10:09.116118+00:00",
-      "next_check": "2026-10-28T06:10:09.116118+00:00",
+      "last_seen": "2026-11-02T12:36:26.145542+00:00",
+      "next_check": "2026-12-02T12:36:26.145542+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/axl/archived-references/": {
       "content_sha": "d3e56035a576722b794b015857c41eaec1f4cc9e24de293d0166a8a42d4d36aa",
@@ -106,10 +106,10 @@
       "first_seen": "2026-08-24T22:11:34.938864+00:00",
       "last_changed": "2026-08-24T22:11:34.938864+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:00:00 GMT",
-      "last_seen": "2026-09-28T06:10:13.161068+00:00",
-      "next_check": "2026-10-28T06:10:13.161068+00:00",
+      "last_seen": "2026-11-02T12:36:30.134643+00:00",
+      "next_check": "2026-12-02T12:36:30.134643+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/cer-config/": {
       "content_sha": "03e3f57fe55bbaf0eed532a06a4f7dbd0f3c36148e9efbd6c583781d146281ff",
@@ -119,10 +119,10 @@
       "first_seen": "2026-08-24T22:11:38.922873+00:00",
       "last_changed": "2026-08-24T22:11:38.922873+00:00",
       "last_modified": "Mon, 08 Jun 2026 12:06:54 GMT",
-      "last_seen": "2026-09-28T06:10:17.277528+00:00",
-      "next_check": "2026-10-28T06:10:17.277528+00:00",
+      "last_seen": "2026-11-02T12:36:34.495042+00:00",
+      "next_check": "2026-12-02T12:36:34.495042+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/cer-config/user-management/": {
       "content_sha": "f1607c857d8f2fdb0fa1032df9700cc6d7368236af400ee805765d688f306da8",
@@ -145,10 +145,10 @@
       "first_seen": "2026-08-24T22:11:43.209440+00:00",
       "last_changed": "2026-08-24T22:11:43.209440+00:00",
       "last_modified": "Mon, 22 Jun 2026 21:20:06 GMT",
-      "last_seen": "2026-09-28T06:10:21.619718+00:00",
-      "next_check": "2026-10-28T06:10:21.619718+00:00",
+      "last_seen": "2026-11-02T12:36:38.424750+00:00",
+      "next_check": "2026-12-02T12:36:38.424750+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su1/user-management/": {
       "content_sha": "d91e8230a05c56d4a3dd34aee05185fa924bc9aa9680a9a879938456dbff649a",
@@ -171,10 +171,10 @@
       "first_seen": "2026-08-24T22:11:47.554524+00:00",
       "last_changed": "2026-08-24T22:11:47.554524+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:41:05 GMT",
-      "last_seen": "2026-09-28T06:10:25.936245+00:00",
-      "next_check": "2026-10-28T06:10:25.936245+00:00",
+      "last_seen": "2026-11-02T12:36:42.743830+00:00",
+      "next_check": "2026-12-02T12:36:42.743830+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/cisco-emergency-responder-configuration-api-v15su2/user-management/": {
       "content_sha": "d91e8230a05c56d4a3dd34aee05185fa924bc9aa9680a9a879938456dbff649a",
@@ -197,10 +197,10 @@
       "first_seen": "2026-08-24T22:11:52.064068+00:00",
       "last_changed": "2026-08-24T22:11:52.064068+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:47:25 GMT",
-      "last_seen": "2026-09-28T06:10:29.960942+00:00",
-      "next_check": "2026-10-28T06:10:29.960942+00:00",
+      "last_seen": "2026-11-02T12:36:46.912135+00:00",
+      "next_check": "2026-12-02T12:36:46.912135+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/contact-center-express/": {
       "content_sha": "da4b03fc7ae0d13b3314f264c6c5872b49ad069e491d029cb6b297ddee471984",
@@ -210,10 +210,10 @@
       "first_seen": "2026-08-24T22:11:56.672911+00:00",
       "last_changed": "2026-08-24T22:11:56.672911+00:00",
       "last_modified": "Thu, 17 Sep 2026 00:01:22 GMT",
-      "last_seen": "2026-09-28T06:10:37.889682+00:00",
-      "next_check": "2026-10-28T06:10:37.889682+00:00",
+      "last_seen": "2026-11-02T12:36:51.409176+00:00",
+      "next_check": "2026-12-02T12:36:51.409176+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/contact-center-express/agent-state-masks/": {
       "content_sha": "428ae146671a778bc1366563e1810f61f4e7fe9796e15e5136781b676ebd8990",
@@ -522,10 +522,10 @@
       "first_seen": "2026-08-24T22:12:01.013701+00:00",
       "last_changed": "2026-08-24T22:12:01.013701+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:04:30 GMT",
-      "last_seen": "2026-09-28T06:10:38.418085+00:00",
-      "next_check": "2026-10-28T06:10:38.418085+00:00",
+      "last_seen": "2026-11-02T12:36:55.339665+00:00",
+      "next_check": "2026-12-02T12:36:55.339665+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/enterprise-chat-and-email/": {
       "content_sha": "c0a5b273edc217f064d3addd542d3321e2eb9a65d9ad12dc951f07378de920b8",
@@ -535,10 +535,10 @@
       "first_seen": "2026-08-24T22:12:05.301970+00:00",
       "last_changed": "2026-08-24T22:12:05.301970+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:13:42 GMT",
-      "last_seen": "2026-09-28T06:10:42.550361+00:00",
-      "next_check": "2026-10-28T06:10:42.550361+00:00",
+      "last_seen": "2026-11-02T12:36:59.609596+00:00",
+      "next_check": "2026-12-02T12:36:59.609596+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/enterprise-icm-vru-interface-specification/": {
       "content_sha": "f29864ed161131194223ebb3ce10644c2e95cff2fc6a255d595cc491a88d880a",
@@ -548,10 +548,10 @@
       "first_seen": "2026-08-24T22:12:09.588326+00:00",
       "last_changed": "2026-08-24T22:12:09.588326+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:43:52 GMT",
-      "last_seen": "2026-09-28T06:10:46.814278+00:00",
-      "next_check": "2026-10-28T06:10:46.814278+00:00",
+      "last_seen": "2026-11-02T12:37:03.706098+00:00",
+      "next_check": "2026-12-02T12:37:03.706098+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/extension-mobility-api/": {
       "content_sha": "0a8125f9bfba8ab08bfc3ca1b0da85ef92a1d2186a40d37812651a5ee64b9a93",
@@ -561,10 +561,10 @@
       "first_seen": "2026-08-24T22:12:13.892573+00:00",
       "last_changed": "2026-08-24T22:12:13.892573+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:27:06 GMT",
-      "last_seen": "2026-09-28T06:10:50.890023+00:00",
-      "next_check": "2026-10-28T06:10:50.890023+00:00",
+      "last_seen": "2026-11-02T12:37:07.742340+00:00",
+      "next_check": "2026-12-02T12:37:07.742340+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/finesse/": {
       "content_sha": "d784961a9ecabb16a6c7c7e9bbd2b1d23528848bccf5e6977e1f06ccb85a34b5",
@@ -574,10 +574,10 @@
       "first_seen": "2026-08-24T22:12:18.275177+00:00",
       "last_changed": "2026-08-24T22:12:18.275177+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:59:31 GMT",
-      "last_seen": "2026-09-28T06:10:55.185707+00:00",
-      "next_check": "2026-10-28T06:10:55.185707+00:00",
+      "last_seen": "2026-11-02T12:37:12.165735+00:00",
+      "next_check": "2026-12-02T12:37:12.165735+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/finesse/about-cisco-finesse-notifications/": {
       "content_sha": "3509553b16e4619e3e6826ccc58aa9e8691692cfebf9adc6aa7172d5f57b0fc6",
@@ -899,10 +899,10 @@
       "first_seen": "2026-08-24T22:12:22.913250+00:00",
       "last_changed": "2026-08-24T22:12:22.913250+00:00",
       "last_modified": "Mon, 22 Jun 2026 14:01:36 GMT",
-      "last_seen": "2026-09-28T06:10:59.569017+00:00",
-      "next_check": "2026-10-28T06:10:59.569017+00:00",
+      "last_seen": "2026-11-02T12:37:16.437270+00:00",
+      "next_check": "2026-12-02T12:37:16.437270+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/ios-xe-voip/global-sip-configurations/": {
       "content_sha": "119d38a038350f18a33e0ad43d0579f11761fcb656e15fdf46167f2d26efbffb",
@@ -964,10 +964,10 @@
       "first_seen": "2026-08-24T22:12:27.270796+00:00",
       "last_changed": "2026-08-24T22:12:27.270796+00:00",
       "last_modified": "Mon, 22 Jun 2026 10:54:00 GMT",
-      "last_seen": "2026-09-28T06:11:03.526054+00:00",
-      "next_check": "2026-10-28T06:11:03.526054+00:00",
+      "last_seen": "2026-11-02T12:37:20.851683+00:00",
+      "next_check": "2026-12-02T12:37:20.851683+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/multiplatform-phones/": {
       "content_sha": "c863a030490a6e35c85d712f5902791baee98048f3814e198767bb5931b093c0",
@@ -977,10 +977,10 @@
       "first_seen": "2026-08-24T22:12:31.568703+00:00",
       "last_changed": "2026-08-24T22:12:31.568703+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:49:15 GMT",
-      "last_seen": "2026-09-28T06:11:07.835036+00:00",
-      "next_check": "2026-10-28T06:11:07.835036+00:00",
+      "last_seen": "2026-11-02T12:37:25.120065+00:00",
+      "next_check": "2026-12-02T12:37:25.120065+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/packaged-contact-center/": {
       "content_sha": "7eda407f9a493e7b356effcd28fdd9d6ba1a850a5769bbf145032c9459f941be",
@@ -990,10 +990,10 @@
       "first_seen": "2026-08-24T22:12:36.007901+00:00",
       "last_changed": "2026-08-24T22:12:36.007901+00:00",
       "last_modified": "Fri, 18 Sep 2026 03:33:52 GMT",
-      "last_seen": "2026-09-28T06:11:15.255186+00:00",
-      "next_check": "2026-10-28T06:11:15.255186+00:00",
+      "last_seen": "2026-11-02T12:37:29.194545+00:00",
+      "next_check": "2026-12-02T12:37:29.194545+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/packaged-contact-center/sandbox/": {
       "content_sha": "4e872f592899f4194ef01547b6e047f37332807901c1f5121161b9f0dcbf2f74",
@@ -1035,10 +1035,10 @@
       "first_seen": "2026-08-24T22:12:44.569453+00:00",
       "last_changed": "2026-08-24T22:12:44.569453+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:36:35 GMT",
-      "last_seen": "2026-09-28T06:11:25.667381+00:00",
-      "next_check": "2026-10-28T06:11:25.667381+00:00",
+      "last_seen": "2026-11-02T12:37:33.190709+00:00",
+      "next_check": "2026-12-02T12:37:33.190709+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/task-routing/creating-script-selector/": {
       "content_sha": "9a7d27ee95d118ea2c5705e877af394f842307ec018697329355f0d1c00967cf",
@@ -1100,10 +1100,10 @@
       "first_seen": "2026-08-24T22:12:49.438336+00:00",
       "last_changed": "2026-08-24T22:12:49.438336+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:18:39 GMT",
-      "last_seen": "2026-09-28T06:11:29.995416+00:00",
-      "next_check": "2026-10-28T06:11:29.995416+00:00",
+      "last_seen": "2026-11-02T12:37:37.140596+00:00",
+      "next_check": "2026-12-02T12:37:37.140596+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/webdialer-docs/": {
       "content_sha": "92beb7281ffbf890ceed1f699598739335bc8116cdb94901977a0f7405506447",
@@ -1113,10 +1113,10 @@
       "first_seen": "2026-08-24T22:12:53.680653+00:00",
       "last_changed": "2026-08-24T22:12:53.680653+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:36:37 GMT",
-      "last_seen": "2026-09-28T06:11:34.012452+00:00",
-      "next_check": "2026-10-28T06:11:34.012452+00:00",
+      "last_seen": "2026-11-02T12:37:41.479155+00:00",
+      "next_check": "2026-12-02T12:37:41.479155+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/webdialer/": {
       "content_sha": "3b3a4975c5fb58f987763c77f5bafa67ab0695c069c35b68d8d8fd1dd11d7728",
@@ -1126,10 +1126,10 @@
       "first_seen": "2026-08-24T22:13:01.326815+00:00",
       "last_changed": "2026-08-24T22:13:01.326815+00:00",
       "last_modified": "Mon, 03 Aug 2026 06:11:08 GMT",
-      "last_seen": "2026-09-28T06:11:38.226453+00:00",
-      "next_check": "2026-10-28T06:11:38.226453+00:00",
+      "last_seen": "2026-11-02T12:37:45.586299+00:00",
+      "next_check": "2026-12-02T12:37:45.586299+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/webdialer/webdialer-developer-guide/": {
       "content_sha": "3b3a4975c5fb58f987763c77f5bafa67ab0695c069c35b68d8d8fd1dd11d7728",
@@ -1152,10 +1152,10 @@
       "first_seen": "2026-08-24T22:13:05.551074+00:00",
       "last_changed": "2026-08-24T22:13:05.551074+00:00",
       "last_modified": "Mon, 22 Jun 2026 13:08:58 GMT",
-      "last_seen": "2026-09-28T06:11:42.459668+00:00",
-      "next_check": "2026-10-28T06:11:42.459668+00:00",
+      "last_seen": "2026-11-02T12:37:49.610697+00:00",
+      "next_check": "2026-12-02T12:37:49.610697+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/webex-connect-partner-resources/": {
       "content_sha": "c45ad7732c0413613b1730b8c9441ae862945b91d3a45db7fe45479fd03e0a94",
@@ -1165,10 +1165,10 @@
       "first_seen": "2026-08-24T22:13:09.817084+00:00",
       "last_changed": "2026-08-24T22:13:09.817084+00:00",
       "last_modified": "Mon, 08 Jun 2026 07:14:54 GMT",
-      "last_seen": "2026-09-28T06:11:46.782402+00:00",
-      "next_check": "2026-10-28T06:11:46.782402+00:00",
+      "last_seen": "2026-11-02T12:37:54.046505+00:00",
+      "next_check": "2026-12-02T12:37:54.046505+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/docs/webex-meetings/": {
       "content_sha": "04d8ea516fb1bd63fbff8b43dd7c0968cd66a4abf0d14ef8d1104304c4c80dfe",
@@ -1178,10 +1178,10 @@
       "first_seen": "2026-08-24T22:13:13.748850+00:00",
       "last_changed": "2026-09-28T06:11:53.999920+00:00",
       "last_modified": "Sun, 27 Sep 2026 20:36:39 GMT",
-      "last_seen": "2026-10-12T11:51:56.347891+00:00",
-      "next_check": "2026-10-20T11:51:56.347891+00:00",
+      "last_seen": "2026-11-02T12:37:58.090459+00:00",
+      "next_check": "2026-11-18T12:37:58.090459+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://developer.cisco.com/docs/webex-xml-api-reference-guide/": {
       "content_sha": "895e61f59f17c5a69a25458a92d007daad7779a0624911734345b8d3d73fd0d3",
@@ -1191,23 +1191,23 @@
       "first_seen": "2026-08-24T22:13:18.269839+00:00",
       "last_changed": "2026-08-24T22:13:18.269839+00:00",
       "last_modified": "Sun, 13 Sep 2026 23:27:57 GMT",
-      "last_seen": "2026-09-28T06:11:55.529828+00:00",
-      "next_check": "2026-10-28T06:11:55.529828+00:00",
+      "last_seen": "2026-11-02T12:38:02.277777+00:00",
+      "next_check": "2026-12-02T12:38:02.277777+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/axl/": {
-      "content_sha": "808fd76f3db7461a3120fd72eb6516bff9535b0afe2b46fbebf7401ea6e2e52f",
+      "content_sha": "b185760dcf570e9cd80194149a206f61dce1741827624ed64e708120ad9a4c98",
       "doc_id": "developer-cisco-com-site-axl-8624944788",
-      "etag": "W/\"242a5d32fc272d57e40f8a0dac43e025\"",
+      "etag": "W/\"34782cda7e6be4cad816615f7522b937\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:22.268539+00:00",
-      "last_changed": "2026-08-24T22:13:22.268539+00:00",
-      "last_modified": "Sat, 05 Sep 2026 21:25:04 GMT",
-      "last_seen": "2026-09-28T06:12:00.025880+00:00",
-      "next_check": "2026-10-28T06:12:00.025880+00:00",
+      "last_changed": "2026-11-02T12:38:10.885562+00:00",
+      "last_modified": "Sat, 17 Oct 2026 12:41:06 GMT",
+      "last_seen": "2026-11-02T12:38:10.885562+00:00",
+      "next_check": "2026-11-03T12:38:10.885562+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/site/axl/documents/operations-by-release/": {
       "content_sha": null,
@@ -1241,10 +1241,10 @@
       "first_seen": "2026-08-24T22:13:27.049888+00:00",
       "last_changed": "2026-08-24T22:13:27.049888+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:33:44 GMT",
-      "last_seen": "2026-09-28T06:12:03.943777+00:00",
-      "next_check": "2026-10-28T06:12:03.943777+00:00",
+      "last_seen": "2026-11-02T12:38:11.133908+00:00",
+      "next_check": "2026-12-02T12:38:11.133908+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/cer/discover/overview/": {
       "content_sha": "96861bcdec6bad90eaeeff4e2eac423f10b9db489906a71d020fafa97c99113a",
@@ -1314,10 +1314,10 @@
       "first_seen": "2026-08-24T22:13:42.625038+00:00",
       "last_changed": "2026-08-24T22:13:42.625038+00:00",
       "last_modified": "Mon, 22 Jun 2026 23:29:46 GMT",
-      "last_seen": "2026-09-28T06:12:17.942330+00:00",
-      "next_check": "2026-10-28T06:12:17.942330+00:00",
+      "last_seen": "2026-11-02T12:38:15.249711+00:00",
+      "next_check": "2026-12-02T12:38:15.249711+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/cti-protocol/": {
       "content_sha": "f1c393a52c35777c6cff0bacaf56a73dc652741981a8e8d7ac25ce03ab2d685c",
@@ -1327,10 +1327,10 @@
       "first_seen": "2026-08-24T22:13:47.029099+00:00",
       "last_changed": "2026-08-24T22:13:47.029099+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:15:44 GMT",
-      "last_seen": "2026-09-28T06:12:22.170078+00:00",
-      "next_check": "2026-10-28T06:12:22.170078+00:00",
+      "last_seen": "2026-11-02T12:38:19.446856+00:00",
+      "next_check": "2026-12-02T12:38:19.446856+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/cti-protocol/documentation/": {
       "content_sha": "dbefefcf7c8f69163f2f642e0d42b8c6764bf0aea160a33ab48d86c82d2b6512",
@@ -1379,10 +1379,10 @@
       "first_seen": "2026-08-24T22:13:51.428234+00:00",
       "last_changed": "2026-08-24T22:13:51.428234+00:00",
       "last_modified": "Sun, 27 Sep 2026 19:05:58 GMT",
-      "last_seen": "2026-09-28T06:12:36.449630+00:00",
-      "next_check": "2026-10-28T06:12:36.449630+00:00",
+      "last_seen": "2026-11-02T12:38:23.558772+00:00",
+      "next_check": "2026-12-02T12:38:23.558772+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/ctios/documentation/": {
       "content_sha": "fb452d703cb53c91bdbb6d9d0bfdb5c596eaa225cfbd08f7ce6a882f519fa6ac",
@@ -1431,10 +1431,10 @@
       "first_seen": "2026-08-24T22:13:55.914694+00:00",
       "last_changed": "2026-08-24T22:13:55.914694+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:14:26 GMT",
-      "last_seen": "2026-09-28T06:12:36.736777+00:00",
-      "next_check": "2026-10-28T06:12:36.736777+00:00",
+      "last_seen": "2026-11-02T12:38:27.583946+00:00",
+      "next_check": "2026-12-02T12:38:27.583946+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/curri/develop-and-test/documentation/latest-version/": {
       "content_sha": "a21f1ca21344d050ed9332bc4721c6cc9093236690ab57465b60b3493b7e58d8",
@@ -2044,10 +2044,10 @@
       "first_seen": "2026-08-24T22:14:00.190257+00:00",
       "last_changed": "2026-08-24T22:14:00.190257+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:12:08 GMT",
-      "last_seen": "2026-09-28T06:12:41.257230+00:00",
-      "next_check": "2026-10-28T06:12:41.257230+00:00",
+      "last_seen": "2026-11-02T12:38:32.015290+00:00",
+      "next_check": "2026-12-02T12:38:32.015290+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/customer-voice-portal/documents/rest-api/": {
       "content_sha": null,
@@ -2105,10 +2105,10 @@
       "first_seen": "2026-08-24T22:14:04.504916+00:00",
       "last_changed": "2026-08-24T22:14:04.504916+00:00",
       "last_modified": "Mon, 08 Jun 2026 18:35:53 GMT",
-      "last_seen": "2026-09-28T06:12:45.170680+00:00",
-      "next_check": "2026-10-28T06:12:45.170680+00:00",
+      "last_seen": "2026-11-02T12:38:36.234549+00:00",
+      "next_check": "2026-12-02T12:38:36.234549+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/extension-mobility/": {
       "content_sha": "3e02bdf8942ac6f4eb60ff5f780508ad6931ac3bdda592b474a55777d7cad030",
@@ -2118,10 +2118,10 @@
       "first_seen": "2026-08-24T22:14:08.938681+00:00",
       "last_changed": "2026-08-24T22:14:08.938681+00:00",
       "last_modified": "Sat, 26 Sep 2026 17:59:16 GMT",
-      "last_seen": "2026-09-28T06:12:59.338841+00:00",
-      "next_check": "2026-10-28T06:12:59.338841+00:00",
+      "last_seen": "2026-11-02T12:38:40.408130+00:00",
+      "next_check": "2026-12-02T12:38:40.408130+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/extension-mobility/develop-and-test/documentation/latest-version/emapi-developer-guide.gsp": {
       "content_sha": null,
@@ -2272,10 +2272,10 @@
       "first_seen": "2026-08-24T22:14:13.381482+00:00",
       "last_changed": "2026-08-24T22:14:13.381482+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:54:20 GMT",
-      "last_seen": "2026-09-28T06:12:59.586628+00:00",
-      "next_check": "2026-10-28T06:12:59.586628+00:00",
+      "last_seen": "2026-11-02T12:38:44.573838+00:00",
+      "next_check": "2026-12-02T12:38:44.573838+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/hcs/": {
       "content_sha": null,
@@ -2492,10 +2492,10 @@
       "first_seen": "2026-08-24T22:14:22.478539+00:00",
       "last_changed": "2026-08-24T22:14:22.478539+00:00",
       "last_modified": "Sat, 26 Sep 2026 17:45:03 GMT",
-      "last_seen": "2026-09-28T06:13:07.436055+00:00",
-      "next_check": "2026-10-28T06:13:07.436055+00:00",
+      "last_seen": "2026-11-02T12:38:48.953058+00:00",
+      "next_check": "2026-12-02T12:38:48.953058+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/im-and-presence/discover/api_overviews/caxl_overview/": {
       "content_sha": "48e0af867badf6da25758aef7e54d7e1f20b443eed3472a74cbbf1a04aacff76",
@@ -2661,10 +2661,10 @@
       "first_seen": "2026-08-24T22:14:26.873173+00:00",
       "last_changed": "2026-08-24T22:14:26.873173+00:00",
       "last_modified": "Wed, 26 Aug 2026 00:19:05 GMT",
-      "last_seen": "2026-09-28T06:13:07.948157+00:00",
-      "next_check": "2026-10-28T06:13:07.948157+00:00",
+      "last_seen": "2026-11-02T12:38:53.223635+00:00",
+      "next_check": "2026-12-02T12:38:53.223635+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/ip-phone-services/discover/getting-started/": {
       "content_sha": "21844a303e7ac1dc78602009d437ff878edcb4fab87fa5c3bfe982c4a6057799",
@@ -2735,10 +2735,10 @@
       "first_seen": "2026-08-24T22:14:31.371667+00:00",
       "last_changed": "2026-08-24T22:14:31.371667+00:00",
       "last_modified": "Mon, 08 Jun 2026 03:03:34 GMT",
-      "last_seen": "2026-09-28T06:13:12.240905+00:00",
-      "next_check": "2026-10-28T06:13:12.240905+00:00",
+      "last_seen": "2026-11-02T12:38:57.259297+00:00",
+      "next_check": "2026-12-02T12:38:57.259297+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/jabber-guestsdk/documents/guest-server-api/v10_0_2-10_6_8/": {
       "content_sha": "74714787920fd85b25d20f8c570aa5df3369d66af2041a2a0d08c5e07d3adee3",
@@ -3159,15 +3159,15 @@
     "https://developer.cisco.com/site/jtapi/": {
       "content_sha": "b98c4219374eee0af79c6ac0a391f949cffd203d5591030adfd4ce53c3df5dd7",
       "doc_id": "developer-cisco-com-site-jtapi-9153bec021",
-      "etag": "W/\"458199b2fc1e0531c9ed8df39c44bffb\"",
+      "etag": "W/\"780f5ecf789820ea60170abfec946e64\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:14:35.820973+00:00",
       "last_changed": "2026-08-24T22:14:35.820973+00:00",
-      "last_modified": "Mon, 14 Sep 2026 06:00:50 GMT",
-      "last_seen": "2026-09-28T06:13:16.545139+00:00",
-      "next_check": "2026-10-28T06:13:16.545139+00:00",
+      "last_modified": "Thu, 15 Oct 2026 12:51:01 GMT",
+      "last_seen": "2026-11-02T12:39:05.535782+00:00",
+      "next_check": "2026-12-02T12:39:05.535782+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/jtapi/cti-tapi-jtapi-supported-device-matrix/": {
       "content_sha": "c908de26760de517912a839f263ce907fe966ed62eef6bb180f2e9d3a51a5557",
@@ -3306,10 +3306,10 @@
       "first_seen": "2026-08-24T22:14:40.017566+00:00",
       "last_changed": "2026-08-24T22:14:40.017566+00:00",
       "last_modified": "Mon, 08 Jun 2026 05:45:28 GMT",
-      "last_seen": "2026-09-28T06:13:20.203689+00:00",
-      "next_check": "2026-10-28T06:13:20.203689+00:00",
+      "last_seen": "2026-11-02T12:39:05.876021+00:00",
+      "next_check": "2026-12-02T12:39:05.876021+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/packaged-contact-center/documentation/": {
       "content_sha": null,
@@ -3350,15 +3350,15 @@
     "https://developer.cisco.com/site/paws/": {
       "content_sha": "ac18d2ac680746c5cbe4b75a684c347f10b79dc7238941b9254d3606b615d70b",
       "doc_id": "developer-cisco-com-site-paws-012d6a50a0",
-      "etag": "W/\"f0598e992df05bca0675e5238c975d0e\"",
+      "etag": "W/\"33fc5a00017a84d3a2f4dab6ffb856f2\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:14:44.369098+00:00",
       "last_changed": "2026-08-24T22:14:44.369098+00:00",
-      "last_modified": "Mon, 22 Jun 2026 21:59:28 GMT",
-      "last_seen": "2026-09-28T06:13:24.503407+00:00",
-      "next_check": "2026-10-28T06:13:24.503407+00:00",
+      "last_modified": "Wed, 07 Oct 2026 11:30:00 GMT",
+      "last_seen": "2026-11-02T12:39:13.988594+00:00",
+      "next_check": "2026-12-02T12:39:13.988594+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/paws/discover/getting-started/": {
       "content_sha": "c3df259913cdea300eeecb0429b97431ca84292ad0d783de20a38f26dd3eb088",
@@ -3521,10 +3521,10 @@
       "first_seen": "2026-08-24T22:15:01.367743+00:00",
       "last_changed": "2026-08-24T22:15:01.367743+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:08:23 GMT",
-      "last_seen": "2026-09-28T06:13:28.317925+00:00",
-      "next_check": "2026-10-28T06:13:28.317925+00:00",
+      "last_seen": "2026-11-02T12:39:14.283854+00:00",
+      "next_check": "2026-12-02T12:39:14.283854+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/sxml/discover/overview/": {
       "content_sha": "7543a4a1e40c038b93301afab0a580129320fbcb00a5bb4c2025550fa03b466a",
@@ -3672,15 +3672,15 @@
     "https://developer.cisco.com/site/tapi/": {
       "content_sha": "ef7f05776ec293d5fbb47279fd7a6bcfb633a0efc5c38456811dee22c189307a",
       "doc_id": "developer-cisco-com-site-tapi-45949e79fa",
-      "etag": "W/\"4bfdacfbe284289b508ace457bfc6d1e\"",
+      "etag": "W/\"eef1833d5d362f4db6fa4c67ff428ede\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:15:05.844473+00:00",
       "last_changed": "2026-08-24T22:15:05.844473+00:00",
-      "last_modified": "Sat, 26 Sep 2026 17:45:03 GMT",
-      "last_seen": "2026-09-28T06:13:42.586323+00:00",
-      "next_check": "2026-10-28T06:13:42.586323+00:00",
+      "last_modified": "Tue, 13 Oct 2026 17:22:27 GMT",
+      "last_seen": "2026-11-02T12:39:22.778902+00:00",
+      "next_check": "2026-12-02T12:39:22.778902+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/tapi/developer-guides/": {
       "content_sha": "b936c406a48ff30ed75c97a7980871c95dcaeab48b2a4291e5244087edd38bbd",
@@ -3755,10 +3755,10 @@
       "first_seen": "2026-08-24T22:15:10.087603+00:00",
       "last_changed": "2026-08-24T22:15:10.087603+00:00",
       "last_modified": "Mon, 08 Jun 2026 06:53:13 GMT",
-      "last_seen": "2026-09-28T06:13:42.627951+00:00",
-      "next_check": "2026-10-28T06:13:42.627951+00:00",
+      "last_seen": "2026-11-02T12:39:23.055548+00:00",
+      "next_check": "2026-12-02T12:39:23.055548+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/uc-express-services/": {
       "content_sha": "af9b1d0ee01be1e22b9b84e72698db0f0470f9a2dde8530a89f2875ddebad4e1",
@@ -3768,10 +3768,10 @@
       "first_seen": "2026-08-24T22:15:14.611921+00:00",
       "last_changed": "2026-08-24T22:15:14.611921+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:29:15 GMT",
-      "last_seen": "2026-09-28T06:13:47.156681+00:00",
-      "next_check": "2026-10-28T06:13:47.156681+00:00",
+      "last_seen": "2026-11-02T12:39:27.158063+00:00",
+      "next_check": "2026-12-02T12:39:27.158063+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/uc-express-services/discover/overview/": {
       "content_sha": "f6d098e5fe32171e674b3c31d35a492cf54a86548daf8b048b8b0a3c5886c099",
@@ -3833,10 +3833,10 @@
       "first_seen": "2026-08-24T22:15:19.171920+00:00",
       "last_changed": "2026-08-24T22:15:19.171920+00:00",
       "last_modified": "Mon, 22 Jun 2026 19:42:20 GMT",
-      "last_seen": "2026-09-28T06:13:51.017100+00:00",
-      "next_check": "2026-10-28T06:13:51.017100+00:00",
+      "last_seen": "2026-11-02T12:39:31.121812+00:00",
+      "next_check": "2026-12-02T12:39:31.121812+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/uc-gateway-services/discover/getting-started/": {
       "content_sha": "7f66c00caaa048c320b92a6d916434bf0fb45666ba7772cc3dc214f5da148946",
@@ -3872,10 +3872,10 @@
       "first_seen": "2026-08-24T22:15:23.717173+00:00",
       "last_changed": "2026-08-24T22:15:23.717173+00:00",
       "last_modified": "Mon, 08 Jun 2026 08:19:17 GMT",
-      "last_seen": "2026-09-28T06:13:55.068758+00:00",
-      "next_check": "2026-10-28T06:13:55.068758+00:00",
+      "last_seen": "2026-11-02T12:39:35.345696+00:00",
+      "next_check": "2026-12-02T12:39:35.345696+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/uc-manager-sip/discover/getting-started/": {
       "content_sha": "380296f34d471cc8d21151805ea6b294981fa8190b581f1be3dc6808420b6694",
@@ -3923,10 +3923,10 @@
       "first_seen": "2026-08-24T22:15:28.411745+00:00",
       "last_changed": "2026-08-24T22:15:28.411745+00:00",
       "last_modified": "Mon, 22 Jun 2026 11:26:22 GMT",
-      "last_seen": "2026-09-28T06:13:59.530709+00:00",
-      "next_check": "2026-10-28T06:13:59.530709+00:00",
+      "last_seen": "2026-11-02T12:39:39.428179+00:00",
+      "next_check": "2026-12-02T12:39:39.428179+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/unity-connection/overview/": {
       "content_sha": "824881370e72b5a6fae0bd1521f0cf3aadff46864cf9ebeaf59360bcf5b40f44",
@@ -3974,10 +3974,10 @@
       "first_seen": "2026-08-24T22:15:32.850320+00:00",
       "last_changed": "2026-08-24T22:15:32.850320+00:00",
       "last_modified": "Mon, 22 Jun 2026 16:31:36 GMT",
-      "last_seen": "2026-09-28T06:14:03.516573+00:00",
-      "next_check": "2026-10-28T06:14:03.516573+00:00",
+      "last_seen": "2026-11-02T12:39:43.490761+00:00",
+      "next_check": "2026-12-02T12:39:43.490761+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/user-data-services/community-and-support/faq/": {
       "content_sha": "44afe38200ae2c8684ccb1a537dcf3ce12bd8c619357ff575d5ea1e4643ff3a0",
@@ -4233,10 +4233,10 @@
       "first_seen": "2026-08-24T22:15:37.363799+00:00",
       "last_changed": "2026-08-24T22:15:37.363799+00:00",
       "last_modified": "Sat, 26 Sep 2026 17:42:53 GMT",
-      "last_seen": "2026-09-28T06:14:17.731505+00:00",
-      "next_check": "2026-10-28T06:14:17.731505+00:00",
+      "last_seen": "2026-11-02T12:39:47.880989+00:00",
+      "next_check": "2026-12-02T12:39:47.880989+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/webdialer/develop-and-test/documentation/developer-guide/": {
       "content_sha": "716dd362d0d4219da0f21286cc89f4b391ed1a55fec8b84954bd47084e581880",
@@ -4400,10 +4400,10 @@
       "first_seen": "2026-08-24T22:15:46.062640+00:00",
       "last_changed": "2026-08-24T22:15:46.062640+00:00",
       "last_modified": "Mon, 08 Jun 2026 09:41:09 GMT",
-      "last_seen": "2026-09-28T06:14:17.965593+00:00",
-      "next_check": "2026-10-28T06:14:17.965593+00:00",
+      "last_seen": "2026-11-02T12:39:52.064052+00:00",
+      "next_check": "2026-12-02T12:39:52.064052+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://help.webex.com/article/2r5gv7": {
       "content_sha": "b7fbb7377753dbda05545e0bfa0299fd4c996e41ef39f61656bd51093862103b",
@@ -18649,8 +18649,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:28.936156+00:00",
       "http_status": 302,
-      "last_seen": "2026-10-19T09:50:24.164664+00:00",
-      "next_check": "2026-10-20T09:50:24.164664+00:00",
+      "last_seen": "2026-11-02T12:39:56.540449+00:00",
+      "next_check": "2026-11-03T12:39:56.540449+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -18833,8 +18833,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-24T22:16:54.567413+00:00",
       "http_status": 302,
-      "last_seen": "2026-10-19T09:50:32.121733+00:00",
-      "next_check": "2026-10-20T09:50:32.121733+00:00",
+      "last_seen": "2026-11-02T12:40:00.394804+00:00",
+      "next_check": "2026-11-03T12:40:00.394804+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -43405,10 +43405,10 @@
       "first_seen": "2026-08-17T02:20:49.377142+00:00",
       "last_changed": "2026-08-17T02:20:49.377142+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-27T10:53:17.278344+00:00",
-      "next_check": "2026-10-27T10:53:17.278344+00:00",
+      "last_seen": "2026-11-02T12:40:03.986784+00:00",
+      "next_check": "2026-12-02T12:40:03.986784+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API.html": {
       "content_sha": null,
@@ -107514,10 +107514,10 @@
       "first_seen": "2026-08-21T01:10:47.336569+00:00",
       "last_changed": "2026-09-30T18:19:41.979038+00:00",
       "last_modified": null,
-      "last_seen": "2026-10-19T09:50:48.796845+00:00",
-      "next_check": "2026-10-27T09:50:48.796845+00:00",
+      "last_seen": "2026-11-02T12:40:09.030999+00:00",
+      "next_check": "2026-11-18T12:40:09.030999+00:00",
       "status": "active",
-      "unchanged_runs": 3
+      "unchanged_runs": 4
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_roadmap.html": {
       "content_sha": "1871145ef4245ba8365e368b3b33378896d6c5fc976f238c7d74c11b0d5ebb2e",
@@ -174849,11 +174849,13 @@
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:01:22.453784+00:00",
+      "http_status": 301,
       "last_changed": "2026-08-21T07:01:22.453784+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:40:25.177944+00:00",
-      "next_check": "2026-09-11T14:40:25.177944+00:00",
-      "status": "active",
+      "last_seen": "2026-11-02T12:40:12.295169+00:00",
+      "next_check": "2026-11-06T12:40:12.295169+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/all-products.html",
+      "status": "redirect",
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/iPad/9_x/JABP_BK_CFB4249A_00_cisco-jabber-for-ipad-932.html": {
@@ -174862,168 +174864,170 @@
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:01:47.991209+00:00",
+      "http_status": 301,
       "last_changed": "2026-08-21T07:01:47.991209+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:40:50.109828+00:00",
-      "next_check": "2026-09-11T14:40:50.109828+00:00",
-      "status": "active",
+      "last_seen": "2026-11-02T12:40:16.706456+00:00",
+      "next_check": "2026-11-06T12:40:16.706456+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/all-products.html",
+      "status": "redirect",
       "unchanged_runs": 2
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.html": {
-      "content_sha": "ef357481ad730af8bf62c935f2d8ee39ae5cb55f55e93bbdf8ac7b52db30eec0",
+      "content_sha": "615c6516a8e5a8229068e418819f477ea9df5a0fee57448df5944b9056bd4399",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-1-rn-jabm-b-release-notes-for-cisco-jabber-121-mac-html-af228cb64c",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:44.330010+00:00",
-      "last_changed": "2026-08-21T07:00:44.330010+00:00",
+      "last_changed": "2026-11-02T12:40:21.537049+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:16.919293+00:00",
-      "next_check": "2026-09-11T11:52:16.919293+00:00",
+      "last_seen": "2026-11-02T12:40:21.537049+00:00",
+      "next_check": "2026-11-03T12:40:21.537049+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.html": {
-      "content_sha": "1c2a920dface76384de19604d1471ddaebc3d9b69149c859686ca1e11a5bc197",
+      "content_sha": "6bccdb232d657b4d18b9f4b455365d9facde097eedd6e19e08678c9142262e87",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-5-jabm-b-releasenotes-125-html-988953069d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:39.719506+00:00",
-      "last_changed": "2026-08-21T07:00:39.719506+00:00",
+      "last_changed": "2026-11-02T12:40:25.456951+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:13.082038+00:00",
-      "next_check": "2026-09-11T11:52:13.082038+00:00",
+      "last_seen": "2026-11-02T12:40:25.456951+00:00",
+      "next_check": "2026-11-03T12:40:25.456951+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_6/jabm_b_release-notes_12-6.html": {
-      "content_sha": "a36a3e6ad59ac7e7af3246dde877da3038301ddc63c49865f868f6fa502ef27b",
+      "content_sha": "9c27ee5a62949dd546dec61ca13a959f5571e11d4732d4d7dbfe375326e3cb3a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-6-jabm-b-release-notes-12-6-html-4bf01be7dc",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:00:35.694278+00:00",
-      "last_changed": "2026-08-21T07:00:35.694278+00:00",
+      "last_changed": "2026-11-02T12:40:29.583638+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T11:52:08.838958+00:00",
-      "next_check": "2026-09-11T11:52:08.838958+00:00",
+      "last_seen": "2026-11-02T12:40:29.583638+00:00",
+      "next_check": "2026-11-03T12:40:29.583638+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_calls_ug.html": {
-      "content_sha": "a66735453fad66e550f00103d41b5a13fe0450a4ab7c53534c7069d5bffac1ac",
+      "content_sha": "9701636144d9507bac8534fc6e3195ed2b158e6c6c962c451b043584341cc039",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-calls-ug-html-85c264044b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:55:50.741233+00:00",
-      "last_changed": "2026-08-21T06:55:50.741233+00:00",
+      "last_changed": "2026-11-02T12:40:34.327578+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:14:54.037908+00:00",
-      "next_check": "2026-09-05T21:14:54.037908+00:00",
+      "last_seen": "2026-11-02T12:40:34.327578+00:00",
+      "next_check": "2026-11-03T12:40:34.327578+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_chat-ug.html": {
-      "content_sha": "feb5b83c60fecf9bb8a7acaafd29d73a844fcf3930a0283dd1f5287be1bfd5ec",
+      "content_sha": "3b1c24d946698130065cb57fb6a8e5de0a24041033b45540d62c96b22c971794",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-chat-ug-html-1f4da9a325",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T18:11:22.287024+00:00",
-      "last_changed": "2026-08-21T18:11:22.287024+00:00",
+      "last_changed": "2026-11-02T12:40:38.356035+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:07:48.545147+00:00",
-      "next_check": "2026-08-27T04:07:48.545147+00:00",
+      "last_seen": "2026-11-02T12:40:38.356035+00:00",
+      "next_check": "2026-11-03T12:40:38.356035+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_contacts-and-contact-groups-ug.html": {
-      "content_sha": "557b78214f662b9b75d8dbf4b7e7f41da630818d3fd4399cdcb52ea6904d1749",
+      "content_sha": "80530c813ee2a986a0ff7529921926d2d3b45f3bf8f03526bcc64dee693f178e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-contacts-and-contact--b03f1922d3",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:08:13.653226+00:00",
-      "last_changed": "2026-08-21T07:08:13.653226+00:00",
+      "last_changed": "2026-11-02T12:40:42.514150+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:07:53.046247+00:00",
-      "next_check": "2026-08-27T04:07:53.046247+00:00",
+      "last_seen": "2026-11-02T12:40:42.514150+00:00",
+      "next_check": "2026-11-03T12:40:42.514150+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_customization-ug.html": {
-      "content_sha": "a82e7253baf9b1df1dd9f45d0e048eb1f9418343a8ed5a2af5cc3ba8c752dc36",
+      "content_sha": "f61d78362e9a8b5d10a323191d286e0486eadb5ad28a099613ea01c3155c7782",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-customization-ug-html-177ec79c06",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T18:11:32.202299+00:00",
-      "last_changed": "2026-08-21T18:11:32.202299+00:00",
+      "last_changed": "2026-11-02T12:40:47.293406+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:07:57.354264+00:00",
-      "next_check": "2026-08-27T04:07:57.354264+00:00",
+      "last_seen": "2026-11-02T12:40:47.293406+00:00",
+      "next_check": "2026-11-03T12:40:47.293406+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_getting-started-ug.html": {
-      "content_sha": "0987eed671af97c50eb8a83e77fcc1e6df7ccf4c6e0d1e1ab16bbf37abe90c07",
+      "content_sha": "1ac5da433f53dff2609b3c144aa5a9216e9dcb3ce8f42a465c5494e8493e59f5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-getting-started-ug-ht-f24e83e5ee",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T06:55:46.502465+00:00",
-      "last_changed": "2026-08-21T06:55:46.502465+00:00",
+      "last_changed": "2026-11-02T12:40:51.392218+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T21:14:49.959103+00:00",
-      "next_check": "2026-09-05T21:14:49.959103+00:00",
+      "last_seen": "2026-11-02T12:40:51.392218+00:00",
+      "next_check": "2026-11-03T12:40:51.392218+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_integration-tools-and-accessories-ug.html": {
-      "content_sha": "305530b2de140ac2f9192ee7d383e511ae46595fedf3ccc9e57fc5cefec4bd6f",
+      "content_sha": "fd8362b6f128234699944bdc21941b8f7abc53d62d67ffaaedb61835a9987b98",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-integration-tools-and-0ae5c8cc46",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:08:18.114688+00:00",
-      "last_changed": "2026-08-21T07:08:18.114688+00:00",
+      "last_changed": "2026-11-02T12:40:55.679747+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:05.651679+00:00",
-      "next_check": "2026-08-27T04:08:05.651679+00:00",
+      "last_seen": "2026-11-02T12:40:55.679747+00:00",
+      "next_check": "2026-11-03T12:40:55.679747+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_meetings-ug.html": {
-      "content_sha": "9e787feb2c8d32d73108dc127317e9640d38d9ae15f77511120dafe9b4c355ed",
+      "content_sha": "f199e82bc6e25fa0b0465baa944d498377e24cbe789bce6a42435c068093f5b4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-meetings-ug-html-a87d810065",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T18:11:26.442884+00:00",
-      "last_changed": "2026-08-21T18:11:26.442884+00:00",
+      "last_changed": "2026-11-02T12:40:59.362017+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:09.112982+00:00",
-      "next_check": "2026-08-27T04:08:09.112982+00:00",
+      "last_seen": "2026-11-02T12:40:59.362017+00:00",
+      "next_check": "2026-11-03T12:40:59.362017+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_troubleshooting-ug.html": {
-      "content_sha": "d3234a3a83b36e0b065fe68da0ff7ffc380ddeffdf70490e4bd16f6711f7ac02",
+      "content_sha": "4ac7fada291d362956dfcef9cc0985933e5d8aa55e2578a14d5ab1861dac391f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-troubleshooting-ug-ht-614e9dbb56",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:08:05.045613+00:00",
-      "last_changed": "2026-08-21T07:08:05.045613+00:00",
+      "last_changed": "2026-11-02T12:41:03.419324+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:32:00.206369+00:00",
-      "next_check": "2026-09-11T14:32:00.206369+00:00",
+      "last_seen": "2026-11-02T12:41:03.419324+00:00",
+      "next_check": "2026-11-03T12:41:03.419324+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_voicemail-ug.html": {
-      "content_sha": "e387b87b106202e339e7d496c7821cefdc38c8e8476ce55baf41d113abd9b6cb",
+      "content_sha": "5143d47c144d921d201037e071c4b5f433c80152bc7f8e0577cb92f69997f080",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-voicemail-ug-html-a0455b0031",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T07:08:09.159393+00:00",
-      "last_changed": "2026-08-21T07:08:09.159393+00:00",
+      "last_changed": "2026-11-02T12:41:07.416992+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:32:04.435922+00:00",
-      "next_check": "2026-09-11T14:32:04.435922+00:00",
+      "last_seen": "2026-11-02T12:41:07.416992+00:00",
+      "next_check": "2026-11-03T12:41:07.416992+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1.html": {
       "content_sha": "409c40a14e89d8a4e5474efe54cc7582548fd7591eb4a9ff6e79bcd438f52967",
@@ -175033,99 +175037,99 @@
       "first_seen": "2026-08-21T12:38:20.807016+00:00",
       "last_changed": "2026-08-21T12:38:20.807016+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:43:10.338505+00:00",
-      "next_check": "2026-09-11T14:43:10.338505+00:00",
+      "last_seen": "2026-11-02T12:41:11.211571+00:00",
+      "next_check": "2026-11-10T12:41:11.211571+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_00.html": {
-      "content_sha": "28dd4b412dfc2d7eb339eef4df19ebbb8940ffec6e01baaaf0779aaa068a27fa",
+      "content_sha": "41108d809fac7e1f17b1568d840fe6355ecad27cf5562cec09ccfe8b836e7db5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-aab59525c5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:23.938239+00:00",
-      "last_changed": "2026-08-22T00:37:23.938239+00:00",
+      "last_changed": "2026-11-02T12:41:15.802271+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:25.265304+00:00",
-      "next_check": "2026-08-27T04:08:25.265304+00:00",
+      "last_seen": "2026-11-02T12:41:15.802271+00:00",
+      "next_check": "2026-11-03T12:41:15.802271+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_01.html": {
-      "content_sha": "8e7b7b08889b42aef3db19266ffc409d2deaed88b899741b33a3481648219278",
+      "content_sha": "0b1532f7a0430fed879b3d793855a2d86116b9f1ae963c15b13e84ff5d84ed83",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-21d6bd75b5",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:27.792053+00:00",
-      "last_changed": "2026-08-22T00:37:27.792053+00:00",
+      "last_changed": "2026-11-02T12:41:20.111163+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:29.693899+00:00",
-      "next_check": "2026-08-27T04:08:29.693899+00:00",
+      "last_seen": "2026-11-02T12:41:20.111163+00:00",
+      "next_check": "2026-11-03T12:41:20.111163+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_010.html": {
-      "content_sha": "c0e573313f15be988ac75aa2e2bf2fe0b7d478490d8799e8036a03805f41b5d5",
+      "content_sha": "d01b90833009ac9aeea1ef398e7a068f3d5ed187ae59441092919ba36637ed85",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-7c248e0741",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:32.309756+00:00",
-      "last_changed": "2026-08-22T00:37:32.309756+00:00",
+      "last_changed": "2026-11-02T12:41:24.306767+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:33.620838+00:00",
-      "next_check": "2026-08-27T04:08:33.620838+00:00",
+      "last_seen": "2026-11-02T12:41:24.306767+00:00",
+      "next_check": "2026-11-03T12:41:24.306767+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_0100.html": {
-      "content_sha": "16febfcd2127fec545a6dbac0dfdde9223f528ea7c45598fea85c830ec4c7d4b",
+      "content_sha": "90c86cf02edb37108678b4e560e41bc8e789cd15da24d25d47ac5900d8e6fec7",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-63dd4584f7",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:40.806872+00:00",
-      "last_changed": "2026-08-22T00:37:40.806872+00:00",
+      "last_changed": "2026-11-02T12:41:28.703585+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:37.765897+00:00",
-      "next_check": "2026-08-27T04:08:37.765897+00:00",
+      "last_seen": "2026-11-02T12:41:28.703585+00:00",
+      "next_check": "2026-11-03T12:41:28.703585+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_0101.html": {
-      "content_sha": "6b1746e5dad6e3ec98952d5a1917253951d35ed462b121494e35cd24cc31f4a8",
+      "content_sha": "e80e704d2f3f955a93723eceeecfd36fc38718e0dbbe6ba263cd4e36a5ade92f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-7dbfc92147",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:45.176018+00:00",
-      "last_changed": "2026-08-22T00:37:45.176018+00:00",
+      "last_changed": "2026-11-02T12:41:32.734567+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:42.035541+00:00",
-      "next_check": "2026-08-27T04:08:42.035541+00:00",
+      "last_seen": "2026-11-02T12:41:32.734567+00:00",
+      "next_check": "2026-11-03T12:41:32.734567+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-1/jvdi_b_deployment-installation-jvdi-elux-12-1_chapter_011.html": {
-      "content_sha": "b534ccb2201f6476ab847afc6d15c80283e51c6cbb9756ad77d055054478cb4d",
+      "content_sha": "62efa9359685738049708172c95c138b4e0aec664c41f0b528092772d09ffcdd",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-1-jvdi-b-d-c7d5e6fdc3",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:36.790192+00:00",
-      "last_changed": "2026-08-22T00:37:36.790192+00:00",
+      "last_changed": "2026-11-02T12:41:37.045374+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:46.389299+00:00",
-      "next_check": "2026-08-27T04:08:46.389299+00:00",
+      "last_seen": "2026-11-02T12:41:37.045374+00:00",
+      "next_check": "2026-11-03T12:41:37.045374+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/elux/rns/jvdi_b_release-notes-jvdi-elux-12-1.html": {
-      "content_sha": "2464cc2851a642a4dd0ab049e04d66401d815d4b302c6d5aaceae6d5ccd1decd",
+      "content_sha": "669ec411320df60d41fa29d4330407a0ee8737832ed0fdf2e4a9eb8d14844602",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-elux-rns-jvdi-b-release-notes-jvdi-elux-12-1-html-8c4291968d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-01T18:02:31.962327+00:00",
-      "last_changed": "2026-09-01T18:02:31.962327+00:00",
+      "last_changed": "2026-11-02T12:41:41.815508+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:02:31.962327+00:00",
-      "next_check": "2026-09-02T18:02:31.962327+00:00",
+      "last_seen": "2026-11-02T12:41:41.815508+00:00",
+      "next_check": "2026-11-03T12:41:41.815508+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -175137,99 +175141,99 @@
       "first_seen": "2026-08-21T12:38:04.129078+00:00",
       "last_changed": "2026-08-21T12:38:04.129078+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:42:57.535142+00:00",
-      "next_check": "2026-09-11T14:42:57.535142+00:00",
+      "last_seen": "2026-11-02T12:41:45.242935+00:00",
+      "next_check": "2026-11-10T12:41:45.242935+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_00.html": {
-      "content_sha": "caa15e8689a9a44087dfc6cbe21a1362e73ba285d72b3e969f3409ecb79c8241",
+      "content_sha": "a16a5a998f3e8d26ef5dcda1f3fbc7284787983cd385283c32c3d4fd2e876044",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-f40b88a83b",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:13.595424+00:00",
-      "last_changed": "2026-08-22T00:35:13.595424+00:00",
+      "last_changed": "2026-11-02T12:41:49.230783+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:54.186889+00:00",
-      "next_check": "2026-08-27T04:08:54.186889+00:00",
+      "last_seen": "2026-11-02T12:41:49.230783+00:00",
+      "next_check": "2026-11-03T12:41:49.230783+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_01.html": {
-      "content_sha": "303338e711db2b468017e8153171cbc9be1c3033cffe0f1a76a6f619916a86fb",
+      "content_sha": "076d5bf240f2f7e316089a795f2f9d8492280a6f60f56d543b725be61206e353",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-f605dbdc68",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:17.873853+00:00",
-      "last_changed": "2026-08-22T00:35:17.873853+00:00",
+      "last_changed": "2026-11-02T12:41:54.646237+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:08:58.690492+00:00",
-      "next_check": "2026-08-27T04:08:58.690492+00:00",
+      "last_seen": "2026-11-02T12:41:54.646237+00:00",
+      "next_check": "2026-11-03T12:41:54.646237+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_010.html": {
-      "content_sha": "abf5520e2d9a2ac7e7bc8cc6b287da802f6c215cacf57a553920ac5a550a49e6",
+      "content_sha": "b84e65ea9577ab2c6fa68b69eac79d629eaded077e9987fa693cbe8704626144",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-5681784ccb",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:21.977825+00:00",
-      "last_changed": "2026-08-22T00:35:21.977825+00:00",
+      "last_changed": "2026-11-02T12:42:00.807198+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:02.990023+00:00",
-      "next_check": "2026-08-27T04:09:02.990023+00:00",
+      "last_seen": "2026-11-02T12:42:00.807198+00:00",
+      "next_check": "2026-11-03T12:42:00.807198+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_0100.html": {
-      "content_sha": "e830674d74f2a7ecc88c12e81f9fc6b8116480a976263f1f89a10dbe58823982",
+      "content_sha": "794429b37df30ffd38705863c19a7ac99d13c03fa791ce958ed9d391081a2135",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-9955a63cd6",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:30.237525+00:00",
-      "last_changed": "2026-08-22T00:35:30.237525+00:00",
+      "last_changed": "2026-11-02T12:42:06.641231+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:06.888143+00:00",
-      "next_check": "2026-08-27T04:09:06.888143+00:00",
+      "last_seen": "2026-11-02T12:42:06.641231+00:00",
+      "next_check": "2026-11-03T12:42:06.641231+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_0101.html": {
-      "content_sha": "b2d7620382d363ab816377727b898b641ad2501e0757b43402687516d8b7d7e8",
+      "content_sha": "193941b092332a8653cc18d645f6160e4f64955147b2c173ed2c147ae41bfb98",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-aa4ff43a6a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:34.413437+00:00",
-      "last_changed": "2026-08-22T00:35:34.413437+00:00",
+      "last_changed": "2026-11-02T12:42:10.327630+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:11.025013+00:00",
-      "next_check": "2026-08-27T04:09:11.025013+00:00",
+      "last_seen": "2026-11-02T12:42:10.327630+00:00",
+      "next_check": "2026-11-03T12:42:10.327630+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/deploy/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1/jvdi_b_deployment-installation-jvdi-hp-unbuntu-12-1_chapter_011.html": {
-      "content_sha": "59779abb1ab06bd88b3bd42db869fc5f63666869aa209533bf93116e80390be6",
+      "content_sha": "7f78cd51a54ef86ff845451eb8b278321a5c354ee0882ff62d2b0421ea799159",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-deploy-jvdi-b-deployment-installation-jvdi-hp-unbuntu-12-3de8bb4af3",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:26.476292+00:00",
-      "last_changed": "2026-08-22T00:35:26.476292+00:00",
+      "last_changed": "2026-11-02T12:42:14.673707+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:15.643441+00:00",
-      "next_check": "2026-08-27T04:09:15.643441+00:00",
+      "last_seen": "2026-11-02T12:42:14.673707+00:00",
+      "next_check": "2026-11-03T12:42:14.673707+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/hp_ubuntu/rns/jvdi_b_release-notes-jvdi-hp-ubuntu-12-1.html": {
-      "content_sha": "9fdf7a2656d6a2f68e8a11ea71485c8c0a441214976d7cd69c7dd4ce66b26394",
+      "content_sha": "24294cf90270033e73284542d04b32e2c2bab3827110e5ffe468c17efc06b1ca",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-hp-ubuntu-rns-jvdi-b-release-notes-jvdi-hp-ubuntu-12-1-html-2bf23152c9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-01T18:02:23.752101+00:00",
-      "last_changed": "2026-09-01T18:02:23.752101+00:00",
+      "last_changed": "2026-11-02T12:42:18.945373+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:02:23.752101+00:00",
-      "next_check": "2026-09-02T18:02:23.752101+00:00",
+      "last_seen": "2026-11-02T12:42:18.945373+00:00",
+      "next_check": "2026-11-03T12:42:18.945373+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
@@ -175241,101 +175245,101 @@
       "first_seen": "2026-08-21T12:38:29.301245+00:00",
       "last_changed": "2026-08-21T12:38:29.301245+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:43:14.496722+00:00",
-      "next_check": "2026-09-11T14:43:14.496722+00:00",
+      "last_seen": "2026-11-02T12:42:22.722120+00:00",
+      "next_check": "2026-11-10T12:42:22.722120+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_00.html": {
-      "content_sha": "550861ea1c3daa6b4d4f89c809e21a2845f04ff39b3edfc1d1c9a47ae3636097",
+      "content_sha": "ac4e0821b83c5a9c940375ad13ad65f3d878f58d63a75bbbad70839fbc2a36b4",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-67271b599e",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:27.556683+00:00",
-      "last_changed": "2026-08-22T00:38:27.556683+00:00",
+      "last_changed": "2026-11-02T12:42:26.968993+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:24.058139+00:00",
-      "next_check": "2026-08-27T04:09:24.058139+00:00",
+      "last_seen": "2026-11-02T12:42:26.968993+00:00",
+      "next_check": "2026-11-03T12:42:26.968993+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_01.html": {
-      "content_sha": "69852605cb57baa4995f99cd32ca19f66873c851bd4424f6c67a50644eb8083f",
+      "content_sha": "711b26300a77b370dec7bffd99f9588c361f59be1edc54d5e4404472b7c3f7ad",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-65ef3cb1de",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:32.033483+00:00",
-      "last_changed": "2026-08-22T00:38:32.033483+00:00",
+      "last_changed": "2026-11-02T12:42:31.255304+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:28.342360+00:00",
-      "next_check": "2026-08-27T04:09:28.342360+00:00",
+      "last_seen": "2026-11-02T12:42:31.255304+00:00",
+      "next_check": "2026-11-03T12:42:31.255304+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_010.html": {
-      "content_sha": "84a3e6be9e184ea49889da347018a9d622a9de4d76d2273ed88010b2fbca3032",
+      "content_sha": "c526c1fea750b160808eea80fb7ab6ecdaf3d39cb76781f03dfafef96d887989",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-6de90237f2",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:36.311365+00:00",
-      "last_changed": "2026-08-22T00:38:36.311365+00:00",
+      "last_changed": "2026-11-02T12:42:35.072044+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:32.652654+00:00",
-      "next_check": "2026-08-27T04:09:32.652654+00:00",
+      "last_seen": "2026-11-02T12:42:35.072044+00:00",
+      "next_check": "2026-11-03T12:42:35.072044+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_0100.html": {
-      "content_sha": "2ec6e5329c4b0450b2d9375f42ad6561a76a6e46156b1f7487d4becf1d71fa06",
+      "content_sha": "c7f868f42079d5d065cddc2a77b2b127489befae3e2d59a89e004c45f558140e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-b364f4c1ce",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:44.260806+00:00",
-      "last_changed": "2026-08-22T00:38:44.260806+00:00",
+      "last_changed": "2026-11-02T12:42:39.257728+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:36.747174+00:00",
-      "next_check": "2026-08-27T04:09:36.747174+00:00",
+      "last_seen": "2026-11-02T12:42:39.257728+00:00",
+      "next_check": "2026-11-03T12:42:39.257728+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_0101.html": {
-      "content_sha": "80f321b8ac0872a4a37172fb3fd556758d27c647bc49e2939bccad9c7c0cea09",
+      "content_sha": "70621932fecebfbe8723d1b8f4083e35e14093a0fd18111d1a990c5298e6d670",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-4f9b11290d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:48.565612+00:00",
-      "last_changed": "2026-08-22T00:38:48.565612+00:00",
+      "last_changed": "2026-11-02T12:42:43.633495+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:40.848782+00:00",
-      "next_check": "2026-08-27T04:09:40.848782+00:00",
+      "last_seen": "2026-11-02T12:42:43.633495+00:00",
+      "next_check": "2026-11-03T12:42:43.633495+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_011.html": {
-      "content_sha": "9dd02ea27b22f22e0a071ebcbbf53122beba0138f8ed7edf98949a21e7824b99",
+      "content_sha": "37fb25a8ce8bacee59b5030cecf72d89a6bb3d32854c35be7e9c51c6e676dd8d",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-6665354e13",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:38:40.434018+00:00",
-      "last_changed": "2026-08-22T00:38:40.434018+00:00",
+      "last_changed": "2026-11-02T12:42:47.895848+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:45.252438+00:00",
-      "next_check": "2026-08-27T04:09:45.252438+00:00",
+      "last_seen": "2026-11-02T12:42:47.895848+00:00",
+      "next_check": "2026-11-03T12:42:47.895848+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/rns/jvdi_b_release-notes-jvdi-windows-12-1.html": {
-      "content_sha": "d3e2e6c62960d22c8be62528af93877f96de43c87f2248e8c39860443ee66818",
+      "content_sha": "f11ba87e9e006af4794787dcc8898745cb055968744846d1d59133f87dc475df",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-rns-jvdi-b-release-notes-jvdi-windows-12-1-html-6d37fcfc60",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:42:15.130208+00:00",
-      "last_changed": "2026-08-22T00:42:15.130208+00:00",
+      "last_changed": "2026-11-02T12:42:52.075070+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:42:07.870391+00:00",
-      "next_check": "2026-09-11T14:42:07.870391+00:00",
+      "last_seen": "2026-11-02T12:42:52.075070+00:00",
+      "next_check": "2026-11-03T12:42:52.075070+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5.html": {
       "content_sha": "9d9644b4eb3eb0fa103cff9a49891f2c333cc427fe11d42bfd98824c089137f7",
@@ -175345,88 +175349,88 @@
       "first_seen": "2026-08-21T12:38:16.573462+00:00",
       "last_changed": "2026-08-21T12:38:16.573462+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:43:06.131953+00:00",
-      "next_check": "2026-09-11T14:43:06.131953+00:00",
+      "last_seen": "2026-11-02T12:42:55.984335+00:00",
+      "next_check": "2026-11-10T12:42:55.984335+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_00.html": {
-      "content_sha": "8039cd1108beaab789f2721e6eeb8390530bae93820bb8b4ddd1c375e5ee5cf9",
+      "content_sha": "03a5598ffb709d78fbc529d2428af6a7d15aae31253dc7c7780c184235a93148",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-78953fff6a",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:36:58.540135+00:00",
-      "last_changed": "2026-08-22T00:36:58.540135+00:00",
+      "last_changed": "2026-11-02T12:43:00.156009+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:09:57.424707+00:00",
-      "next_check": "2026-08-27T04:09:57.424707+00:00",
+      "last_seen": "2026-11-02T12:43:00.156009+00:00",
+      "next_check": "2026-11-03T12:43:00.156009+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_01.html": {
-      "content_sha": "9bfeaf58434d5605b46294a292dd583bebbfea1815eca4794a81c66ae436143d",
+      "content_sha": "7a2dbec38a96596883a3757ef1e866dfa20853c899cce5ece1c66c20d586b3e8",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-a0916d44df",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:02.757975+00:00",
-      "last_changed": "2026-08-22T00:37:02.757975+00:00",
+      "last_changed": "2026-11-02T12:43:04.546933+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:01.639433+00:00",
-      "next_check": "2026-08-27T04:10:01.639433+00:00",
+      "last_seen": "2026-11-02T12:43:04.546933+00:00",
+      "next_check": "2026-11-03T12:43:04.546933+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_010.html": {
-      "content_sha": "ce3111ed72aa6f52d6f4f3af0b8d1f641d69e7574acb21e6c6817a893e98b0b5",
+      "content_sha": "9f9d2a33cf4c0b49f7acd976c1d1c202522ddba315d2d8918535fd0aec2d8d4b",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-a272cb12d0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:07.295340+00:00",
-      "last_changed": "2026-08-22T00:37:07.295340+00:00",
+      "last_changed": "2026-11-02T12:43:09.417890+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:05.788377+00:00",
-      "next_check": "2026-08-27T04:10:05.788377+00:00",
+      "last_seen": "2026-11-02T12:43:09.417890+00:00",
+      "next_check": "2026-11-03T12:43:09.417890+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_0100.html": {
-      "content_sha": "28f39ef0c1715a5a0a9b78d547a20b574a118b0cfc362b9615006404390f225c",
+      "content_sha": "aad4c8cddab5add153952ca365c978d652cf81f8f2f5683bde1da1b7c5149998",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-55bfafb3f9",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:15.377062+00:00",
-      "last_changed": "2026-08-22T00:37:15.377062+00:00",
+      "last_changed": "2026-11-02T12:43:13.373964+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:09.906662+00:00",
-      "next_check": "2026-08-27T04:10:09.906662+00:00",
+      "last_seen": "2026-11-02T12:43:13.373964+00:00",
+      "next_check": "2026-11-03T12:43:13.373964+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_0101.html": {
-      "content_sha": "0f57f251b14baf85f1de0ed09d9fc7dd3974c2df30e38b3ddf4339bec9626167",
+      "content_sha": "745bf8a957811de3567e25107ee654176981dd4f66586519ecb02e61a9a08427",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-51732064a0",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:19.462112+00:00",
-      "last_changed": "2026-08-22T00:37:19.462112+00:00",
+      "last_changed": "2026-11-02T12:43:16.874634+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:14.021374+00:00",
-      "next_check": "2026-08-27T04:10:14.021374+00:00",
+      "last_seen": "2026-11-02T12:43:16.874634+00:00",
+      "next_check": "2026-11-03T12:43:16.874634+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5/jvdi_b_deploy-install-cisco-jvdi-elux-12-5_chapter_011.html": {
-      "content_sha": "43098eb5e8ac0c6047f9084f829602995407ea2e468340532559493434dd863e",
+      "content_sha": "ab91560acd1a261fc32bf9e7e1bdbc9cade815fb26256bc029a7c5ea51122a42",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-elux-12-5-jvdi-b-deploy-install-c-5124dbe352",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:37:10.937706+00:00",
-      "last_changed": "2026-08-22T00:37:10.937706+00:00",
+      "last_changed": "2026-11-02T12:43:21.749519+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:18.639211+00:00",
-      "next_check": "2026-08-27T04:10:18.639211+00:00",
+      "last_seen": "2026-11-02T12:43:21.749519+00:00",
+      "next_check": "2026-11-03T12:43:21.749519+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5.html": {
       "content_sha": "027719cf658489595710a5157e11a36802d76d70eabb4645cc12dd76a68b1995",
@@ -175436,88 +175440,88 @@
       "first_seen": "2026-08-21T12:37:59.851739+00:00",
       "last_changed": "2026-08-21T12:37:59.851739+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:42:53.163282+00:00",
-      "next_check": "2026-09-11T14:42:53.163282+00:00",
+      "last_seen": "2026-11-02T12:43:25.871498+00:00",
+      "next_check": "2026-11-10T12:43:25.871498+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_00.html": {
-      "content_sha": "00271eea7d2d5f004fa8f56cef0ceabcdaff9e562ea26fa48a669595235f0631",
+      "content_sha": "f46cb900c60c0c0c4cb0ed686d9b0e959f7a77674313f91450745c6ed77248a6",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-5765081010",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:34:48.288103+00:00",
-      "last_changed": "2026-08-22T00:34:48.288103+00:00",
+      "last_changed": "2026-11-02T12:43:29.351424+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:26.936348+00:00",
-      "next_check": "2026-08-27T04:10:26.936348+00:00",
+      "last_seen": "2026-11-02T12:43:29.351424+00:00",
+      "next_check": "2026-11-03T12:43:29.351424+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_01.html": {
-      "content_sha": "1c6a257a62ab0ecbc0b814918f6f30342eb4e8ffa92f6e670ff006feb75b3e5d",
+      "content_sha": "b0f6008108992665c335bb5818b8d5ebcf05c56150fa0140f48df870a54533d9",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-2fd22b7775",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:34:52.430981+00:00",
-      "last_changed": "2026-08-22T00:34:52.430981+00:00",
+      "last_changed": "2026-11-02T12:43:33.841545+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:31.444709+00:00",
-      "next_check": "2026-08-27T04:10:31.444709+00:00",
+      "last_seen": "2026-11-02T12:43:33.841545+00:00",
+      "next_check": "2026-11-03T12:43:33.841545+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_010.html": {
-      "content_sha": "82200002b56877339634fb0aa4d964cee4365dfff94cea1f86d9b71a91c25bc7",
+      "content_sha": "d741a3b82ca149651b1ae98b028c9b1733de891e6b7dcc9ec822032f8568699a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-2f42ab1fad",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:34:56.914959+00:00",
-      "last_changed": "2026-08-22T00:34:56.914959+00:00",
+      "last_changed": "2026-11-02T12:43:37.966665+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:35.737064+00:00",
-      "next_check": "2026-08-27T04:10:35.737064+00:00",
+      "last_seen": "2026-11-02T12:43:37.966665+00:00",
+      "next_check": "2026-11-03T12:43:37.966665+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_0100.html": {
-      "content_sha": "81c86a954ae74dc32adabe74f5117a3905c136525d1a1bb2d7263389085d4ddf",
+      "content_sha": "951ea0b45adfc763b72b9159ebffc627d6adb28d876c87052c81652183e034f0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-e8ed2ef303",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:05.249622+00:00",
-      "last_changed": "2026-08-22T00:35:05.249622+00:00",
+      "last_changed": "2026-11-02T12:43:41.904956+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:39.837123+00:00",
-      "next_check": "2026-08-27T04:10:39.837123+00:00",
+      "last_seen": "2026-11-02T12:43:41.904956+00:00",
+      "next_check": "2026-11-03T12:43:41.904956+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_0101.html": {
-      "content_sha": "9562ccc1fa876c4647b9bdc020b40680aeb0479fb79959766b2b1a10c34ab1c1",
+      "content_sha": "d15ab321df99e7391e3c6aa08d943cf28aa15c42df023fcace79ef41416cd920",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-a9ff5582cd",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:09.545815+00:00",
-      "last_changed": "2026-08-22T00:35:09.545815+00:00",
+      "last_changed": "2026-11-02T12:43:46.119680+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:43.992616+00:00",
-      "next_check": "2026-08-27T04:10:43.992616+00:00",
+      "last_seen": "2026-11-02T12:43:46.119680+00:00",
+      "next_check": "2026-11-03T12:43:46.119680+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5/jvdi_b_deploy-install-cisco-jvdi-hp-ubuntu-12-5_chapter_011.html": {
-      "content_sha": "8249d1793b1c94bcd733ce6cb76ed0cf400197c22b8b56699ddde51c34817656",
+      "content_sha": "d206579306b163cd9991c58e61560ea1bec1b6e9baa466b9eb667b2d5f7ce569",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-hp-ubuntu-12-5-jvdi-b-deploy-inst-3472e952e4",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:35:01.327414+00:00",
-      "last_changed": "2026-08-22T00:35:01.327414+00:00",
+      "last_changed": "2026-11-02T12:43:50.450139+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:48.373078+00:00",
-      "next_check": "2026-08-27T04:10:48.373078+00:00",
+      "last_seen": "2026-11-02T12:43:50.450139+00:00",
+      "next_check": "2026-11-03T12:43:50.450139+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5.html": {
       "content_sha": "3627340c99e965cfc2ff6389264c22a40984703c5a8692e2cdea9e4a0770c549",
@@ -175527,127 +175531,127 @@
       "first_seen": "2026-08-21T12:38:33.661810+00:00",
       "last_changed": "2026-08-21T12:38:33.661810+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:43:23.014281+00:00",
-      "next_check": "2026-09-11T14:43:23.014281+00:00",
+      "last_seen": "2026-11-02T12:43:54.142110+00:00",
+      "next_check": "2026-11-10T12:43:54.142110+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_00.html": {
-      "content_sha": "a38e5197ea0515ca23a00088b5d5a767dccd51f03423f0c91023af5a1f542a78",
+      "content_sha": "5f6b41e8a517934555d8ae5f674bbdb8f6ef83c83c008445e12daf6f8634f52a",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-f0726f212c",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:39:01.698120+00:00",
-      "last_changed": "2026-08-22T00:39:01.698120+00:00",
+      "last_changed": "2026-11-02T12:43:58.538842+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:10:56.257672+00:00",
-      "next_check": "2026-08-27T04:10:56.257672+00:00",
+      "last_seen": "2026-11-02T12:43:58.538842+00:00",
+      "next_check": "2026-11-03T12:43:58.538842+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_01.html": {
-      "content_sha": "6fe74a6b3107666d8b61718347841e850f8772feec8a6880ec206039f0d3e36b",
+      "content_sha": "71c467f2248f306dde47fbf0159db88209940bda5ef635fb728ce867ac08cdca",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-3a20202b11",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:39:05.726654+00:00",
-      "last_changed": "2026-08-22T00:39:05.726654+00:00",
+      "last_changed": "2026-11-02T12:44:02.495809+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:00.550328+00:00",
-      "next_check": "2026-08-27T04:11:00.550328+00:00",
+      "last_seen": "2026-11-02T12:44:02.495809+00:00",
+      "next_check": "2026-11-03T12:44:02.495809+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_010.html": {
-      "content_sha": "2bed9524836fc41694b8d690241a9a94c29d05a1c0f00ef109df7aa7323caf07",
+      "content_sha": "9f736e20f383c1203a5880194db474d0ac8369fc191cee7dec7670c93cd7abfb",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-51aac66418",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:41:12.622586+00:00",
-      "last_changed": "2026-08-22T00:41:12.622586+00:00",
+      "last_changed": "2026-11-02T12:44:06.850697+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:04.821602+00:00",
-      "next_check": "2026-08-27T04:11:04.821602+00:00",
+      "last_seen": "2026-11-02T12:44:06.850697+00:00",
+      "next_check": "2026-11-03T12:44:06.850697+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_0100.html": {
-      "content_sha": "5c06321c130ccc53af60bf7ce15361c32c78dfe4a9f47b02c8d6fe6a50fcba19",
+      "content_sha": "a522fd4a4303edcfddf3ffbb232a1728c4077cd2df95697adaf5536248d30d78",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-844618956c",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:41:20.812406+00:00",
-      "last_changed": "2026-08-22T00:41:20.812406+00:00",
+      "last_changed": "2026-11-02T12:44:11.120310+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:08.941765+00:00",
-      "next_check": "2026-08-27T04:11:08.941765+00:00",
+      "last_seen": "2026-11-02T12:44:11.120310+00:00",
+      "next_check": "2026-11-03T12:44:11.120310+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_0101.html": {
-      "content_sha": "1ff830034650340258e6e0f7c5541246f14c41070a4e1ab5bcfbb2abce581f57",
+      "content_sha": "3ca050658f98f3af91e9b4b578790fef2a1222ab20bf2dfc14de486c6fabb1b5",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-68021de771",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:41:24.798221+00:00",
-      "last_changed": "2026-08-22T00:41:24.798221+00:00",
+      "last_changed": "2026-11-02T12:44:15.433111+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:13.149530+00:00",
-      "next_check": "2026-08-27T04:11:13.149530+00:00",
+      "last_seen": "2026-11-02T12:44:15.433111+00:00",
+      "next_check": "2026-11-03T12:44:15.433111+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5/jvdi_b_deploy-install-cisco-jvdi-windows-12-5_chapter_011.html": {
-      "content_sha": "66018f9e5ea6a0f78ac09fa1856a49a427cb16771038c07b2243a04fffed71c8",
+      "content_sha": "1a65d5a1ef332e2d537f27e72a295a435957bb92c15f96cc3f50bcf79fb4ad5e",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-deploy-install-cisco-jvdi-windows-12-5-jvdi-b-deploy-instal-43e6fd327f",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:41:16.538234+00:00",
-      "last_changed": "2026-08-22T00:41:16.538234+00:00",
+      "last_changed": "2026-11-02T12:44:19.576825+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:17.459731+00:00",
-      "next_check": "2026-08-27T04:11:17.459731+00:00",
+      "last_seen": "2026-11-02T12:44:19.576825+00:00",
+      "next_check": "2026-11-03T12:44:19.576825+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-elux-12-5.html": {
-      "content_sha": "9923507d8f371d0bafd1c362b04f52b93870ca57fc742a928f248c0811c1ff13",
+      "content_sha": "95468e3719700a084a64826ad993437e183ca77a1726131f8e118ee1f876f6d0",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-elux-12-5-html-6e3b84bb8d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:42:27.689887+00:00",
-      "last_changed": "2026-08-22T00:42:27.689887+00:00",
+      "last_changed": "2026-11-02T12:44:23.380461+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:42:20.311885+00:00",
-      "next_check": "2026-09-11T14:42:20.311885+00:00",
+      "last_seen": "2026-11-02T12:44:23.380461+00:00",
+      "next_check": "2026-11-03T12:44:23.380461+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-hp-ubuntu-12-5.html": {
-      "content_sha": "dc1f9b33caa64b249da530de0ca3215cc65edf30a367a6a17860ae2804f2c703",
+      "content_sha": "0ce70c357b03470db2d0302644e38c40a1c9ef8878ea1bf99bfdd84b65895a43",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-hp-ubuntu-12-5-html-4755f62c85",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-09-01T18:02:19.879816+00:00",
-      "last_changed": "2026-09-01T18:02:19.879816+00:00",
+      "last_changed": "2026-11-02T12:44:27.342396+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-01T18:02:19.879816+00:00",
-      "next_check": "2026-09-02T18:02:19.879816+00:00",
+      "last_seen": "2026-11-02T12:44:27.342396+00:00",
+      "next_check": "2026-11-03T12:44:27.342396+00:00",
       "status": "active",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_5/jvdi_b_release-notes-jvdi-windows-12-5.html": {
-      "content_sha": "726f708bfd0cc1ee139e87878d62806cd5eb3d60a0c6f9fa11d5f12fd8feb8bb",
+      "content_sha": "424c5a4ca31e63ef4fea4415a58a7017650e09fabc833d114042e0a40e8ac23c",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-5-jvdi-b-release-notes-jvdi-windows-12-5-html-165adc6827",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:42:19.434509+00:00",
-      "last_changed": "2026-08-22T00:42:19.434509+00:00",
+      "last_changed": "2026-11-02T12:44:31.516251+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:42:11.790466+00:00",
-      "next_check": "2026-09-11T14:42:11.790466+00:00",
+      "last_seen": "2026-11-02T12:44:31.516251+00:00",
+      "next_check": "2026-11-03T12:44:31.516251+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6.html": {
       "content_sha": "2af3f54454b94648c816ddf1e0fde7c7d2b676cc4f94af5d3e22af0a64b38e91",
@@ -175657,36 +175661,36 @@
       "first_seen": "2026-08-21T12:38:12.529280+00:00",
       "last_changed": "2026-08-21T12:38:12.529280+00:00",
       "last_modified": null,
-      "last_seen": "2026-09-07T14:43:02.089409+00:00",
-      "next_check": "2026-09-11T14:43:02.089409+00:00",
+      "last_seen": "2026-11-02T12:44:36.038619+00:00",
+      "next_check": "2026-11-10T12:44:36.038619+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6/jvdi_b_deployment-installation-jvdi-elux-12-6_chapter_00.html": {
-      "content_sha": "062f1fec1d5cb649d2079dfeceb6967d15b82010aadba5ed625585aac05cf751",
+      "content_sha": "c4c6b1ed4b18bcc48d0865df2bee147aa1248e52f0c6ab4d5c47584d2bf3811f",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-6-jvdi-b-d-efa410931d",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:36:29.234586+00:00",
-      "last_changed": "2026-08-22T00:36:29.234586+00:00",
+      "last_changed": "2026-11-02T12:44:39.865072+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:34.483120+00:00",
-      "next_check": "2026-08-27T04:11:34.483120+00:00",
+      "last_seen": "2026-11-02T12:44:39.865072+00:00",
+      "next_check": "2026-11-03T12:44:39.865072+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6/jvdi_b_deployment-installation-jvdi-elux-12-6_chapter_01.html": {
-      "content_sha": "f0a185baebed21200c35674c6c8af0e8a5746bd007bebc84ce27add05bbd8e34",
+      "content_sha": "2c74a89daea61663037378bd5d1c0e00fac591ecd18395077fe73a596f6ed982",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-6-elux-deploy-jvdi-b-deployment-installation-jvdi-elux-12-6-jvdi-b-d-69dfed8c45",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-22T00:36:33.268757+00:00",
-      "last_changed": "2026-08-22T00:36:33.268757+00:00",
+      "last_changed": "2026-11-02T12:44:44.204355+00:00",
       "last_modified": null,
-      "last_seen": "2026-08-25T04:11:38.747032+00:00",
-      "next_check": "2026-08-27T04:11:38.747032+00:00",
+      "last_seen": "2026-11-02T12:44:44.204355+00:00",
+      "next_check": "2026-11-03T12:44:44.204355+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_6/elux/deploy/jvdi_b_deployment-installation-jvdi-elux-12-6/jvdi_b_deployment-installation-jvdi-elux-12-6_chapter_010.html": {
       "content_sha": "64b896358ebc942cea478da381dcdb39a921db15db8c7753985e7a6bae8a2026",
@@ -178661,5 +178665,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-10-19T11:53:10.730442+00:00"
+  "updated_at": "2026-11-02T12:44:44.288711+00:00"
 }

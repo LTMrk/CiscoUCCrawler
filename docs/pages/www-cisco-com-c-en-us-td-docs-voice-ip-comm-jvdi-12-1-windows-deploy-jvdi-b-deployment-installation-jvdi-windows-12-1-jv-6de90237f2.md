@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jvdi-12-1-windows-deploy-jvdi-b-deployment-installation-jvdi-windows-12-1-jv-6de90237f2
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jvdi/12_1/windows/deploy/jvdi_b_deployment-installation-jvdi-windows-12-1/jvdi_b_deployment-installation-jvdi-windows-12-1_chapter_010.html
-retrieved_at: 2026-08-22T00:38:36.311463+00:00
+retrieved_at: 2026-11-02T12:42:35.072131+00:00
 ---
 
 Deployment and Installation Guide for Cisco Jabber Softphone for VDI—Windows Release 12.1
@@ -380,3 +380,11 @@ Specify a name for the modified file,  and then select Save .
 | Step 12 | Select File > Save As . |
 | Step 13 | Select a location to which to save the modified Cisco JVDI Client file. |
 | Step 14 | Specify a name for the modified file,  and then select Save . |
+
+## Figuras
+
+![Figure 1. Select Customize Installation](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/432001-433000/432115.jpg)
+
+![Figure 2. VMware Customized Installation Settings](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/432001-433000/432116.jpg)
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

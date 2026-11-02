@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-voicemail-ug-html-a0455b0031
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_voicemail-ug.html
-retrieved_at: 2026-08-21T07:08:09.159502+00:00
+retrieved_at: 2026-11-02T12:41:07.417088+00:00
 ---
 
 Cisco Jabber User Guide
@@ -276,3 +276,11 @@ The voicemail plays through your earpiece.
 | Step 1 | Go to Settings , tap Audio and Video . |
 |---|---|
 | Step 2 | Tap Disable Speaker for Voice Messages . The voicemail plays through your earpiece. |
+
+## Figuras
+
+![voicemail icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/424001-425000/424105.jpg)
+
+![i icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/424001-425000/424737.jpg)
+
+![chat icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/424001-425000/424735.jpg)

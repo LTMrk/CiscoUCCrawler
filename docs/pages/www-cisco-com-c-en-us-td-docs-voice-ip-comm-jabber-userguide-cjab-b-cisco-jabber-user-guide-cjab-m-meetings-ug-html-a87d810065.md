@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-meetings-ug-html-a87d810065
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_meetings-ug.html
-retrieved_at: 2026-08-21T18:11:26.442991+00:00
+retrieved_at: 2026-11-02T12:40:59.362102+00:00
 ---
 
 Cisco Jabber User Guide
@@ -335,3 +335,13 @@ Accept the prompt to integrate your device calendar with Jabber.
 | Step 1 | Launch Jabber. |
 |---|---|
 | Step 2 | Accept the prompt to integrate your device calendar with Jabber. |
+
+## Figuras
+
+![meetings icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443893.jpg)
+
+![Start sharing button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/439001-440000/439436.jpg)
+
+![Change application button](https://www.cisco.com/c/dam/en/us/td/i/500001-600000/500001-510000/502001-503000/502598.jpg)
+
+![Pause or Stop button](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/425001-426000/425602.jpg)

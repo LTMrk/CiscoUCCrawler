@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-meetings/ai-docs/ARCHITECTURE.md
 licencia: NOASSERTION
-retrieved_at: 2026-09-27T10:51:24.127596+00:00
+retrieved_at: 2026-11-02T12:36:00.886223+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-meetings/ai-docs/ARCHITECTURE.md
@@ -190,6 +190,7 @@ flowchart TD
 ## Release & Versioning
 
 - `@webex/plugin-meetings` builds to `dist/index.js` with declarations under `dist/types` and publishes through the repository npm release workflow.
+- The default `meetings.assetsBaseUrl` uses `/assets/plugin-meetings/` in development and versionless local builds. SDK releases use `SDK_VERSION` to resolve assets from the matching `webex` UMD package on unpkg. Standalone plugin npm releases fall back to `PACKAGE_VERSION` and resolve assets from that plugin's package.
 - Treat exports in `src/index.ts`, consumer-visible class methods, events, types, and error shapes as semver-sensitive. Deprecate before removal and update consumer docs/specs and changelog material in the same release change.
 
 ## Host Integration & Theming

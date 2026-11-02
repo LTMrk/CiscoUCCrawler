@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-1-rn-jabm-b-release-notes-for-cisco-jabber-121-mac-html-af228cb64c
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_1/RN/jabm_b_release-notes-for-cisco-jabber_121_mac.html
-retrieved_at: 2026-08-21T07:00:44.330109+00:00
+retrieved_at: 2026-11-02T12:40:21.537139+00:00
 ---
 
 Release Notes for Cisco Jabber for Mac 12.1
@@ -976,3 +976,7 @@ No chat sounds received in IM Only account.
 | CSCvj53345 | 3 | Cache initial DNS results and reuse results for every connection in a session. |
 | CSCvf88433 | 4 | Jabber 11.9 voicemail menu calls Voicemail directly. |
 | CSCvf92476 | 6 | No chat sounds received in IM Only account. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

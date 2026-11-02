@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-mac-12-5-jabm-b-releasenotes-125-html-988953069d
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/mac/12_5/jabm_b_releasenotes_125.html
-retrieved_at: 2026-08-21T07:00:39.719604+00:00
+retrieved_at: 2026-11-02T12:40:25.457045+00:00
 ---
 
 Release Notes for Cisco Jabber for Mac 12.5
@@ -407,3 +407,7 @@ Requests for new functionality or feature improvements.
 | CSCvk48746 | 3 | Jabber for Mac user authentication with IM&P does not time out. |
 | CSCvm77105 | 3 | Typing a complete phone number may result in dialing a number from 'Contacts and recents' list. |
 | CSCvm85867 | 3 | Webex meeting call-in Jabber doesn't work on Mac. |
+
+## Figuras
+
+![login required](https://www.cisco.com/etc/designs/cdc/fw/i/icon_lock_small.png)

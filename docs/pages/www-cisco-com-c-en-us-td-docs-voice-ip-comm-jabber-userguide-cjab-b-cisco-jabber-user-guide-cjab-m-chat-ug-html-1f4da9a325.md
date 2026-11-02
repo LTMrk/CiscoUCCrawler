@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-jabber-userguide-cjab-b-cisco-jabber-user-guide-cjab-m-chat-ug-html-1f4da9a325
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/jabber/userguide/cjab_b_cisco-jabber-user-guide/cjab_m_chat-ug.html
-retrieved_at: 2026-08-21T18:11:22.287142+00:00
+retrieved_at: 2026-11-02T12:40:38.356119+00:00
 ---
 
 Cisco Jabber User Guide
@@ -643,3 +643,33 @@ In the chat room, type @, enter the person's name, and select it from the search
 
 | In the chat room, type @, enter the person's name, and select it from the search results. |
 |---|
+
+## Figuras
+
+![screen capture, send a file, mention a user, inserts an emoticon, change font, add participants, and show chat icons](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/414001-415000/414286.jpg)
+
+![rooms icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/427001-428000/427213.jpg)
+
+![chat icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/417001-418000/417470.jpg)
+
+![contacts icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443891.jpg)
+
+![send icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/440001-450000/443001-444000/443899.jpg)
+
+![Make a call icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428034.jpg)
+
+![ellipsis icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428576.jpg)
+
+![paper clip icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/430001-440000/433001-434000/433937.jpg)
+
+![plus sign icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415716.jpg)
+
+![Add contact icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/410001-420000/415001-416000/415823.jpg)
+
+![Plus sign icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/401001-402000/401491.tif/_jcr_content/renditions/401491.jpg)
+
+![Conference icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/400001-410000/404001-405000/404499.tif/_jcr_content/renditions/404499.jpg)
+
+![Webex icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428037.jpg)
+
+![three horizontal lines icon](https://www.cisco.com/c/dam/en/us/td/i/400001-500000/420001-430000/428001-429000/428655.jpg)

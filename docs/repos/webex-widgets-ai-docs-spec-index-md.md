@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/SPEC_INDEX.md
 repo: webex/widgets
 ruta: ai-docs/SPEC_INDEX.md
 licencia: sin declarar
-retrieved_at: 2026-09-30T18:17:28.766927+00:00
+retrieved_at: 2026-11-02T12:36:04.565572+00:00
 ---
 
 # widgets — ai-docs/SPEC_INDEX.md
@@ -49,6 +49,7 @@ Descripcion del repositorio: Embed the power of Webex in your web applications �
 | Naming a concept | `GLOSSARY.md` |
 | Anything touching input/identity/logging | `SECURITY.md` |
 | Review & merge | `REVIEW_CHECKLIST.md` |
+| Consumer builds / release checks | `CONSUMER_BUILDS.md` |
 
 ## Intake Routing
 ```
@@ -82,6 +83,7 @@ The intake record confirms scope/modules **against the code** and sets the chang
 | Review catalog | `ai-docs/REVIEW_CHECKLIST.md` | 6-core + 4-coverage + 3-cross-cutting review checks |
 | SDK reference | `@webex/contact-center` types (`node_modules/@webex/contact-center/dist/types/index.d.ts`) | installed SDK `.d.ts` surface — verify every SDK call |
 | Participant Drop intake | `ai-docs/features/participant-drop-intake.md` | Cross-repository SDK/widget contract, behavior, delivery gates, and verification |
+| Consumer build release checks | `ai-docs/CONSUMER_BUILDS.md` | Bundler configuration, candidate archives, release gate, and local checks |
 
 _No `DATA_MODEL.md`: this repo owns no persistent datastore (all domain data comes from the SDK at runtime)._
 

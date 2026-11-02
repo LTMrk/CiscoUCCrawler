@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.666821+00:00
+retrieved_at: 2026-11-02T12:35:57.769354+00:00
 ---
 
 # POST /meetings/{meetingId}/registrants/approve
