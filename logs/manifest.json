@@ -8344,6 +8344,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-70/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-70-model-html-2517499957",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:29:24.578359+00:00",
+      "last_seen": "2026-11-02T13:29:24.578359+00:00",
+      "next_check": "2026-11-04T13:29:24.578359+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-plus/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-kit-plus-model-html-8c51c37654",
@@ -8824,6 +8834,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-55-dual/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-55-dual-model-html-a92dab6abd",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:29:20.692870+00:00",
+      "last_seen": "2026-11-02T13:29:20.692870+00:00",
+      "next_check": "2026-11-04T13:29:20.692870+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-g2/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-70-g2-model-html-8ba19a9243",
@@ -8872,6 +8892,16 @@
       "last_seen": "2026-09-27T10:52:09.872629+00:00",
       "status": "gone",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-share/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-share-series-html-cd98b855df",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:29:37.161680+00:00",
+      "last_seen": "2026-11-02T13:29:37.161680+00:00",
+      "next_check": "2026-11-04T13:29:37.161680+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-wireless-phone/products-release-notes-list.html": {
       "content_sha": null,
@@ -8976,6 +9006,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/conferencing/retired.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-meeting-management-series-html-62eccf849c",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:29:49.972955+00:00",
+      "last_seen": "2026-11-02T13:29:49.972955+00:00",
+      "next_check": "2026-11-04T13:29:49.972955+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/conferencing/meeting-management/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -10834,6 +10874,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-share-220489-configure-device-onboarding-and-cloud-li-e-0a5162ec14",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:25.192918+00:00",
+      "last_seen": "2026-11-02T13:29:25.192928+00:00",
+      "next_check": "2026-11-03T13:29:25.192931+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.html": {
       "content_sha": "703a3a8c72baccc381cb43fec70fbae68f9c358eed214e2d341a30e201267e98",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-share-220489-configure-device-onboarding-and-cloud-li-h-d0e521724c",
@@ -10845,6 +10895,16 @@
       "last_seen": "2026-09-28T04:52:06.317993+00:00",
       "next_check": "2026-09-29T04:52:06.317993+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-share/220489-configure-device-onboarding-and-cloud-li.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-share-220489-configure-device-onboarding-and-cloud-li-m-0a932d46e8",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:29.227723+00:00",
+      "last_seen": "2026-11-02T13:29:29.227737+00:00",
+      "next_check": "2026-11-03T13:29:29.227741+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/wireless-ip-phone-8821/201021-troubleshoot-8821-ip-phone-display-mic.html": {
@@ -10925,6 +10985,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-meeting-management-218237-configure-dial-blast-on-cisco-meeting-ma-epub-be04e6520d",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:38.038474+00:00",
+      "last_seen": "2026-11-02T13:29:38.038484+00:00",
+      "next_check": "2026-11-03T13:29:38.038487+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.html": {
       "content_sha": "3d06c998786dfc4c6865682cd2cc2821ec3b1aaca89eb35c58fc025ccb03c115",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-meeting-management-218237-configure-dial-blast-on-cisco-meeting-ma-html-2d1563db41",
@@ -10936,6 +11006,16 @@
       "last_seen": "2026-09-28T04:52:10.347374+00:00",
       "next_check": "2026-09-29T04:52:10.347374+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-management/218237-configure-dial-blast-on-cisco-meeting-ma.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-meeting-management-218237-configure-dial-blast-on-cisco-meeting-ma-mobi-16802507df",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:42.234862+00:00",
+      "last_seen": "2026-11-02T13:29:42.234874+00:00",
+      "next_check": "2026-11-03T13:29:42.234878+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/meeting-server-1000/216271-how-to-configure-ldap-import-on-cms-vers.html": {
@@ -11652,6 +11732,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-server-200162-troubleshoot-telepresence-endpoint-552b468787",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:50.492013+00:00",
+      "last_seen": "2026-11-02T13:29:50.492027+00:00",
+      "next_check": "2026-11-03T13:29:50.492032+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.html": {
       "content_sha": "1701251e841dd9aa2ab856cb2684a0d1afa3960ba7d478ef140e9c2adb8acba0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-server-200162-troubleshoot-telepresence-endpoint-7a2424575b",
@@ -11663,6 +11753,16 @@
       "last_seen": "2026-09-28T04:52:14.605623+00:00",
       "next_check": "2026-09-29T04:52:14.605623+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-server/200162-Troubleshoot-Telepresence-Endpoint-Added.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-server-200162-troubleshoot-telepresence-endpoint-880b536e3e",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:29:54.694526+00:00",
+      "last_seen": "2026-11-02T13:29:54.694537+00:00",
+      "next_check": "2026-11-03T13:29:54.694540+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/118723-configure-tms-00.html": {
@@ -181603,5 +181703,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:27:21.199938+00:00"
+  "updated_at": "2026-11-02T13:29:54.761550+00:00"
 }
