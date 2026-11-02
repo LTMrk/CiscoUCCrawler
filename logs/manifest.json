@@ -7977,6 +7977,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://roomos.cisco.com/doc/WhatsNew": {
+      "content_sha": null,
+      "doc_id": "roomos-cisco-com-doc-whatsnew-5f43ce77a2",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:20:07.288152+00:00",
+      "last_seen": "2026-11-02T13:20:07.288152+00:00",
+      "next_check": "2026-11-04T13:20:07.288152+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_10": {
       "content_sha": "b704939a51e2e34574f547354a5de3eb71f78ae25fb4bb2e6d4bd653a31e589b",
       "doc_id": "roomos-cisco-com-doc-whatsnew-releasenotesroomos-10-1c4c26e61d",
@@ -8301,6 +8311,16 @@
       "first_seen": "2026-09-27T10:58:32.642552+00:00",
       "last_seen": "2026-09-27T10:58:32.642552+00:00",
       "next_check": "2026-09-29T10:58:32.642552+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-room-kit-series-series-html-4dcc66cc0c",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:19:51.430618+00:00",
+      "last_seen": "2026-11-02T13:19:51.430618+00:00",
+      "next_check": "2026-11-04T13:19:51.430618+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -8719,6 +8739,16 @@
       "first_seen": "2026-11-02T13:17:19.061046+00:00",
       "last_seen": "2026-11-02T13:17:19.061046+00:00",
       "next_check": "2026-11-04T13:17:19.061046+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-navigator/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-room-navigator-series-html-2da18488eb",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:19:39.207206+00:00",
+      "last_seen": "2026-11-02T13:19:39.207206+00:00",
+      "next_check": "2026-11-04T13:19:39.207206+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -10237,6 +10267,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-e-db39a1cfb5",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:19:39.431607+00:00",
+      "last_seen": "2026-11-02T13:19:39.431619+00:00",
+      "next_check": "2026-11-03T13:19:39.431623+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.html": {
       "content_sha": "063ce8d4dda6a4ec885f23b0f33ac6a26b54624b6bacc312b31487252977a6e7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-h-eb06fdf0c6",
@@ -10248,6 +10288,26 @@
       "last_seen": "2026-09-28T04:51:06.767549+00:00",
       "next_check": "2026-09-29T04:51:06.767549+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-room-series-222708-troubleshoot-video-endpoint-shut-down-du-m-3fd5e799af",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:19:43.752280+00:00",
+      "last_seen": "2026-11-02T13:19:43.752294+00:00",
+      "next_check": "2026-11-03T13:19:43.752299+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221681-recover-cloud-reg-beb8717317",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:19:51.803362+00:00",
+      "last_seen": "2026-11-02T13:19:51.803377+00:00",
+      "next_check": "2026-11-03T13:19:51.803383+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.html": {
@@ -10263,6 +10323,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221681-recover-cloud-reg-32b9e19823",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:19:56.134305+00:00",
+      "last_seen": "2026-11-02T13:19:56.134316+00:00",
+      "next_check": "2026-11-03T13:19:56.134319+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-b23d5faf35",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:20:00.119324+00:00",
+      "last_seen": "2026-11-02T13:20:00.119338+00:00",
+      "next_check": "2026-11-03T13:20:00.119343+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.html": {
       "content_sha": "64d57211b8dd31dd19ecd0e559d2e768b7ea0392ed0c6ee85642b731623f0a41",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-050cead41a",
@@ -10274,6 +10354,26 @@
       "last_seen": "2026-09-28T04:51:15.559953+00:00",
       "next_check": "2026-09-29T04:51:15.559953+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-administration-software-221683-upgrade-downgrade-1128c9a0c1",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:20:04.512156+00:00",
+      "last_seen": "2026-11-02T13:20:04.512170+00:00",
+      "next_check": "2026-11-03T13:20:04.512175+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-telepresence-precision-cameras-221771-troubleshoot-edid-and-c-bb886b69ec",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:20:08.403122+00:00",
+      "last_seen": "2026-11-02T13:20:08.403135+00:00",
+      "next_check": "2026-11-03T13:20:08.403140+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.html": {
@@ -181201,5 +181301,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:17:36.465013+00:00"
+  "updated_at": "2026-11-02T13:20:08.477727+00:00"
 }

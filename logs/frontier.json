@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-navigator/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-series/222708-troubleshoot-video-endpoint-shut-down-du.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221681-recover-cloud-registered-endpoint-gui-wh.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-administration-software/221683-upgrade-downgrade-cloud-registered-end.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://roomos.cisco.com/doc/WhatsNew",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/telepresence-precision-cameras/221771-troubleshoot-edid-and-camera-connection.mobi",
     "depth": 1
   },
@@ -9873,6 +9833,126 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit-eq/221037-configure-mtr-device-to-join-third-party.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-navigator/221673-create-replacement-for-slow-touch-panels.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/the-hidden-radio-ble-location-done-right-with-cisco-spaces/ta-p/5583778",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/config-guide-thousandeyes-sso-w-cisco-identity-amp-azure-entra/ta-p/5366178",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/cisco-spaces-in-practice-what-no-one-tells-you/ta-p/5569619",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-bar-pro/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-kit-mini/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-usb/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-eqx/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-plus/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-kit-pro/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/room-kit-pro-g2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-panorama/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_11",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-technical-reference-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-room-kit-series/products-maintenance-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/room-kit/222702-troubleshoot-a-video-endpoint-showing-me.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/the-smart-hospital-revolution-cisco-spaces-for-healthcare/ta-p/5555129",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/Welcome/Welcome",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/TechDocs",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/Features",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/UseCases",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/MTR",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/UsefulLinks/Resources",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_10",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesRoomOS_26",
+    "depth": 2
+  },
+  {
+    "url": "https://roomos.cisco.com/doc/WhatsNew/ReleaseNotesCloud",
     "depth": 2
   }
 ]
