@@ -11943,6 +11943,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212378-tms-webex-sso-certificate-renew-3252e8126a",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:33:57.544260+00:00",
+      "last_seen": "2026-11-02T13:33:57.544271+00:00",
+      "next_check": "2026-11-03T13:33:57.544274+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.html": {
       "content_sha": "c7e3c952417dc6b08c4e675f291b91e5712a146a01fbd60e2868a076e5c7dd11",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212378-tms-webex-sso-certificate-renew-7f35e93b84",
@@ -11954,6 +11964,26 @@
       "last_seen": "2026-09-28T04:52:40.165637+00:00",
       "next_check": "2026-09-29T04:52:40.165637+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212378-tms-webex-sso-certificate-renewal-cisc.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212378-tms-webex-sso-certificate-renew-5352b34d77",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:00.913218+00:00",
+      "last_seen": "2026-11-02T13:34:00.913233+00:00",
+      "next_check": "2026-11-03T13:34:00.913236+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212421-windows-ciphers-cause-tls-issue-43ec09fb18",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:05.006564+00:00",
+      "last_seen": "2026-11-02T13:34:05.006576+00:00",
+      "next_check": "2026-11-03T13:34:05.006579+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.html": {
@@ -11969,6 +11999,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/212421-windows-ciphers-cause-tls-issue-between.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-212421-windows-ciphers-cause-tls-issue-e04a36b168",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:09.161875+00:00",
+      "last_seen": "2026-11-02T13:34:09.161887+00:00",
+      "next_check": "2026-11-03T13:34:09.161890+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/213287-create-a-local-server-site-administrator.html": {
       "content_sha": "6cbd26f98f1a09b7f028743c44a5f5795080f4bb3a2e6a7baacc69c9472695b7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-213287-create-a-local-server-site-admi-8faa375e3b",
@@ -11980,6 +12020,16 @@
       "last_seen": "2026-09-28T04:52:48.415947+00:00",
       "next_check": "2026-09-29T04:52:48.415947+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-214388-tms-xe-pe-screencast-video-list-33965f8208",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:13.439168+00:00",
+      "last_seen": "2026-11-02T13:34:13.439181+00:00",
+      "next_check": "2026-11-03T13:34:13.439184+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.html": {
@@ -11995,6 +12045,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/214388-tms-xe-pe-screencast-video-list.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-214388-tms-xe-pe-screencast-video-list-478b3e2673",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:17.632975+00:00",
+      "last_seen": "2026-11-02T13:34:17.632989+00:00",
+      "next_check": "2026-11-03T13:34:17.632993+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215223-tms-phone-books-troubleshoot-gu-ad8f69cff2",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:21.954241+00:00",
+      "last_seen": "2026-11-02T13:34:21.954254+00:00",
+      "next_check": "2026-11-03T13:34:21.954257+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.html": {
       "content_sha": "cedaef92d3828056719f84db7a97b097a25eccbb39d2870103f4db43ae85e19c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215223-tms-phone-books-troubleshoot-gu-f11dc17602",
@@ -12008,6 +12078,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215223-tms-phone-books-troubleshoot-guide.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215223-tms-phone-books-troubleshoot-gu-006d52d8bb",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:26.151084+00:00",
+      "last_seen": "2026-11-02T13:34:26.151098+00:00",
+      "next_check": "2026-11-03T13:34:26.151101+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215426-configure-conference-end-notifi-8f1c06a37f",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:30.194943+00:00",
+      "last_seen": "2026-11-02T13:34:30.194954+00:00",
+      "next_check": "2026-11-03T13:34:30.194957+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.html": {
       "content_sha": "97f82a7746ece300687defffa3c03bc7ce7724dee3f97ff8e9dfb795348a6c2f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215426-configure-conference-end-notifi-5384f268d2",
@@ -12019,6 +12109,16 @@
       "last_seen": "2026-09-28T04:53:01.357471+00:00",
       "next_check": "2026-09-29T04:53:01.357471+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/215426-configure-conference-end-notifications-f.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-telepresence-management-suite-tms-215426-configure-conference-end-notifi-0cc092cc7f",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:34:34.444052+00:00",
+      "last_seen": "2026-11-02T13:34:34.444065+00:00",
+      "next_check": "2026-11-03T13:34:34.444068+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/telepresence-management-suite-tms/217245-how-to-configure-office-365-hybrid-calen.html": {
@@ -181803,5 +181903,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:32:17.915316+00:00"
+  "updated_at": "2026-11-02T13:34:34.495112+00:00"
 }
