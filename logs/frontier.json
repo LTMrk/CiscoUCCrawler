@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-limited-edition/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-room-70-g2/model.html",
     "depth": 1
   },
@@ -9925,6 +9885,90 @@
   },
   {
     "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cucm-generating-lsc-certificates-for-secure-phones/ta-p/3119717",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/cisco-uc-certificates-renewal-guide/ta-p/4077131",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/cisco-ucs-monitoring-resource-handbook/ta-p/3646478",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/spa50xg-ip-phone-recovery-utility-sos-mode-recovery/ta-p/3294366",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/small-business-support-knowledge-base/uc500-software-download-cisco-smart-business-communication/ta-p/3293614",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/upgrade-downgrade-firmware-of-specific-ip-phone/ta-p/3137526",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/collaboration-knowledge-base/how-to-configure-freeftpd-for-unified-communications/ta-p/3115265",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/products-installation-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/meraki-migration-information/meraki-community-migration-where-d-it-go/ta-p/5369775",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/smart-licensing-enterprise-agreements-saas-knowledge-base/enterprise-agreement-educational-tutorials/ta-p/4923461",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-mini/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-pro/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desk-pro-g2/model.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-command-reference-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/telepresence/endpoint/desk-series/compliance-safety-guide/RCSI-0430-book.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/dx80/212294-how-to-upload-background-image-on-dx80-a.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/products-installation-and-configuration-guides-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/networking-knowledge-base/how-to-configure-port-monitoring-span-on-a-catalyst-2940-2950/ta-p/3132032",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/unified-computing-system-knowledge-base/ucs-platform-emulator-downloads-ucspe-4-2-2a-ucspe-4-1-2c/ta-p/3648177",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/additional-resources-technology-and-support-events/apjc-expert-insights-series/ta-p/5314645",
     "depth": 2
   }
 ]

@@ -8072,6 +8072,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx600-series-series-html-cbef8a210a",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:24:43.853281+00:00",
+      "last_seen": "2026-11-02T13:24:43.853281+00:00",
+      "next_check": "2026-11-04T13:24:43.853281+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/desktop-collaboration-experience-dx600-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-desktop-collaboration-experience-dx600-series-tsd-products-support-5ee2d68632",
@@ -8301,6 +8311,16 @@
       "first_seen": "2026-11-02T13:17:31.862168+00:00",
       "last_seen": "2026-11-02T13:17:31.862168+00:00",
       "next_check": "2026-11-04T13:17:31.862168+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/spark-board/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-spark-board-series-html-18c1d13cea",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:24:39.774317+00:00",
+      "last_seen": "2026-11-02T13:24:39.774317+00:00",
+      "next_check": "2026-11-04T13:24:39.774317+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -8638,6 +8658,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-7900-series-series-html-a834e36d9a",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:24:26.645642+00:00",
+      "last_seen": "2026-11-02T13:24:26.645642+00:00",
+      "next_check": "2026-11-04T13:24:26.645642+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7900-series/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-unified-ip-phone-7900-series-tsd-products-support-series-home-html-d9b08526ec",
@@ -8753,6 +8783,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-limited-edition/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-collaboration-endpoints-webex-desk-limited-edition-model-html-0012b6b064",
+      "fail_count": 0,
+      "first_seen": "2026-11-02T13:24:48.068563+00:00",
+      "last_seen": "2026-11-02T13:24:48.068563+00:00",
+      "next_check": "2026-11-04T13:24:48.068563+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/collaboration-endpoints/webex-desk-pro/model.html": {
       "content_sha": null,
@@ -10556,6 +10596,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-limited-edition-220725-collect-logs-from-webex-clo-b6f1d205d0",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:24:27.939768+00:00",
+      "last_seen": "2026-11-02T13:24:27.939778+00:00",
+      "next_check": "2026-11-03T13:24:27.939780+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.html": {
       "content_sha": "1ff6d3a03583aca540c504e96fea71ef628e31ec8643ba6f13f00ce6ecd77493",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-limited-edition-220725-collect-logs-from-webex-clo-b87a09bc69",
@@ -10567,6 +10617,26 @@
       "last_seen": "2026-09-28T04:51:40.754729+00:00",
       "next_check": "2026-09-29T04:51:40.754729+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-limited-edition/220725-collect-logs-from-webex-cloud-video-devi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-limited-edition-220725-collect-logs-from-webex-clo-1d020adb92",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:24:32.039979+00:00",
+      "last_seen": "2026-11-02T13:24:32.039991+00:00",
+      "next_check": "2026-11-03T13:24:32.039995+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-pro-217223-collaboration-endpoint-file-is-too-larg-9aab696535",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:24:49.020709+00:00",
+      "last_seen": "2026-11-02T13:24:49.020719+00:00",
+      "next_check": "2026-11-03T13:24:49.020721+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.html": {
@@ -10582,6 +10652,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-desk-pro/217223-collaboration-endpoint-file-is-too-larg.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-desk-pro-217223-collaboration-endpoint-file-is-too-larg-7620f04e22",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:24:53.039476+00:00",
+      "last_seen": "2026-11-02T13:24:53.039487+00:00",
+      "next_check": "2026-11-03T13:24:53.039490+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-70-panorama-217262-how-to-convert-a-webex-room-70d-bbf15527cc",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:24:57.104761+00:00",
+      "last_seen": "2026-11-02T13:24:57.104771+00:00",
+      "next_check": "2026-11-03T13:24:57.104773+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.html": {
       "content_sha": "6a6feed13475a4a3b1326dc92b9c0f93eb842b9e916e92550b811b3ea73c80aa",
       "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-70-panorama-217262-how-to-convert-a-webex-room-70d-6405087495",
@@ -10593,6 +10683,16 @@
       "last_seen": "2026-09-28T04:51:49.010499+00:00",
       "next_check": "2026-09-29T04:51:49.010499+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-70-panorama/217262-how-to-convert-a-webex-room-70d-g2-to-a.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-collaboration-endpoints-webex-room-70-panorama-217262-how-to-convert-a-webex-room-70d-7e1ffa95dc",
+      "fail_count": 1,
+      "first_seen": "2026-11-02T13:25:01.454483+00:00",
+      "last_seen": "2026-11-02T13:25:01.454494+00:00",
+      "next_check": "2026-11-03T13:25:01.454498+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/collaboration-endpoints/webex-room-navigator/217265-how-to-setup-a-webex-room-navigator.html": {
@@ -181403,5 +181503,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:22:33.961295+00:00"
+  "updated_at": "2026-11-02T13:25:01.516871+00:00"
 }
