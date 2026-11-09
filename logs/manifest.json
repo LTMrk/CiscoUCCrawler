@@ -13057,6 +13057,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-214861-exception-meetings-on-google-calendar-epub-aa9a8dc9df",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:56:55.565500+00:00",
+      "last_seen": "2026-11-09T12:56:55.565511+00:00",
+      "next_check": "2026-11-10T12:56:55.565514+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.html": {
       "content_sha": "910beaa064e57d48d91af0ebbda585cb140f82d47396dadfc4bf13128dac81db",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-214861-exception-meetings-on-google-calendar-html-5ee57c8dd0",
@@ -13068,6 +13078,26 @@
       "last_seen": "2026-09-28T05:47:31.125358+00:00",
       "next_check": "2026-09-29T05:47:31.125358+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-214861-exception-meetings-on-google-calendar-mobi-0936141564",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:56:59.352086+00:00",
+      "last_seen": "2026-11-09T12:56:59.352100+00:00",
+      "next_check": "2026-11-10T12:56:59.352104+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-215430-how-to-retrieve-a-webex-user-id-and-pass-epub-069259ccd3",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:03.416800+00:00",
+      "last_seen": "2026-11-09T12:57:03.416811+00:00",
+      "next_check": "2026-11-10T12:57:03.416814+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.html": {
@@ -13083,6 +13113,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/215430-how-to-retrieve-a-webex-user-id-and-pass.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-215430-how-to-retrieve-a-webex-user-id-and-pass-mobi-dffaad348b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:07.531191+00:00",
+      "last_seen": "2026-11-09T12:57:07.531212+00:00",
+      "next_check": "2026-11-10T12:57:07.531218+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220168-configure-webex-scheduler-add-in-for-a-h-epub-2e5c1ceed0",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:11.744295+00:00",
+      "last_seen": "2026-11-09T12:57:11.744306+00:00",
+      "next_check": "2026-11-10T12:57:11.744309+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.html": {
       "content_sha": "9a8d26afd414bb76f92932de851abac49e6aeebf35de18f675df0af15154c01a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220168-configure-webex-scheduler-add-in-for-a-h-html-a185457cb8",
@@ -13094,6 +13144,26 @@
       "last_seen": "2026-09-28T05:47:39.193662+00:00",
       "next_check": "2026-09-29T05:47:39.193662+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220168-configure-webex-scheduler-add-in-for-a-h.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220168-configure-webex-scheduler-add-in-for-a-h-mobi-3822d19c7c",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:16.141223+00:00",
+      "last_seen": "2026-11-09T12:57:16.141236+00:00",
+      "next_check": "2026-11-10T12:57:16.141240+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220244-understand-webex-meetings-video-resoluti-epub-b036205148",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:20.155548+00:00",
+      "last_seen": "2026-11-09T12:57:20.155560+00:00",
+      "next_check": "2026-11-10T12:57:20.155564+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.html": {
@@ -13109,6 +13179,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/220244-understand-webex-meetings-video-resoluti.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-220244-understand-webex-meetings-video-resoluti-mobi-0b53692078",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:24.471599+00:00",
+      "last_seen": "2026-11-09T12:57:24.471610+00:00",
+      "next_check": "2026-11-10T12:57:24.471630+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221074-understand-the-different-webex-webinar-t-epub-e38a10cfb0",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:28.543057+00:00",
+      "last_seen": "2026-11-09T12:57:28.543069+00:00",
+      "next_check": "2026-11-10T12:57:28.543072+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.html": {
       "content_sha": "90ed7e8de7a132a6840b0a4a57e71f23d30ae0856a2db12d45754a137a7c9605",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221074-understand-the-different-webex-webinar-t-html-2fec290a84",
@@ -13120,6 +13210,16 @@
       "last_seen": "2026-09-28T05:47:47.525410+00:00",
       "next_check": "2026-09-29T05:47:47.525410+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221074-understand-the-different-webex-webinar-t.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221074-understand-the-different-webex-webinar-t-mobi-b9ace417a1",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:57:32.572280+00:00",
+      "last_seen": "2026-11-09T12:57:32.572291+00:00",
+      "next_check": "2026-11-10T12:57:32.572294+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.html": {
@@ -182413,5 +182513,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:54:55.720532+00:00"
+  "updated_at": "2026-11-09T12:57:32.627998+00:00"
 }
