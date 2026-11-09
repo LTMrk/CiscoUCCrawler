@@ -10,7 +10,7 @@ tags: Functions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.615012+00:00
+retrieved_at: 2026-11-09T12:44:28.646563+00:00
 ---
 
 # POST /v1/{orgId}/functions/{id}:lock

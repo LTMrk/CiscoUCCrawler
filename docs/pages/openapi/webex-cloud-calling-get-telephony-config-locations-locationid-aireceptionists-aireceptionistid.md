@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.858245+00:00
+retrieved_at: 2026-11-09T12:44:27.925143+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}
@@ -58,6 +58,7 @@ curl -X GET '/telephony/config/locations/<locationId>/aiReceptionists/<aiRecepti
 - `defaultAction` (object): Default action configuration for the AI Receptionist
 - `aiAgent` (object): AI Agent configuration
 - `intentCount` (integer) (**requerido**): Number of intents configured for this AI Receptionist
+- `callRecordingEnabled` (boolean) (**requerido**): Flag to indicate if call recording is enabled for AI Receptionist.
 
 ### Ejemplo — respuesta 200
 ```json

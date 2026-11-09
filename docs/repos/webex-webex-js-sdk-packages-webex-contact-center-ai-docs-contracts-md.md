@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/ai-docs/CONTRACTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-19T09:48:27.614333+00:00
+retrieved_at: 2026-11-09T12:44:33.043421+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/ai-docs/CONTRACTS.md
@@ -20,6 +20,7 @@ Descripcion del repositorio: JavaScript SDK for Webex
 | Contract ID | Owner module/package | Symbol | Signature / shape | Stability / deprecation | Schema / detail link | Defined at |
 |---|---|---|---|---|---|---|
 | `contact-center.plugin` | Contact Center | `ContactCenter` / default plugin | WebexPlugin implementing `IContactCenter` | semver public | `ai-docs/contact-center-spec.md` | `src/index.ts` |
+| `contact-center.browser-voice-state` | Contact Center / Calling | `cc.getVoiceConnectionState()`, `voice:connectionStateChange`, `VoiceConnectionState`, and exported voice status/error enums | Snapshot distinguishes local browser line registration and Mobius socket state from the Contact Center WebSocket; only local BROWSER logins with WebRTC registration enabled require voice. Silent relogin preserves browser-line registration unless explicitly disabled. A non-BROWSER station-login notification clears stale local voice requirements. `setAgentState` rejects only transitions into `Available` while required voice is unavailable, using the standard `BROWSER_VOICE_NOT_READY` validation error. | Additive semver public API and event; state is reset on local line deregistration. | `ai-docs/contact-center-spec.md` | `src/cc.ts`, `src/types.ts`, `src/services/config/types.ts`, `src/index.ts` |
 | `contact-center.routing-agent` | Agent/Core | `routingAgent` | `(routing: AqmReqs) => {stationLogin, logout, stateChange, buddyAgents, reload}`; BROWSER login payload follows `contact-center.station-login-browser-dn` | semver public export; returned methods follow backend contracts | `src/services/agent/ai-docs/agent-spec.md` | `src/index.ts`, `src/services/agent/index.ts` |
 | `contact-center.station-login-browser-dn` | Contact Center / Agent | `cc.stationLogin` BROWSER payload on `POST /v1/agents/login` | BROWSER sends `dialNumber` and `deviceId` as `webrtc-{agentId}`; EXTENSION and AGENT_DN continue to send the caller-supplied dial number for both fields | backend contract alignment; public `stationLogin({loginOption: 'BROWSER'})` input unchanged | `src/services/agent/ai-docs/agent-spec.md` AGENT-R-006 | `src/cc.ts` |
 | `contact-center.task` | Task | `Task`, `ITask`, task payload/control types | task instance and compatibility interface | semver public | `src/services/task/ai-docs/task-spec.md` | `src/index.ts` |
@@ -46,6 +47,7 @@ Descripcion del repositorio: JavaScript SDK for Webex
 | `rtd.events` | Task | realtime transcription/suggestion | consume then publish per task | task spec | websocket best-effort according to remote service | additive payloads | `src/services/task/TaskManager.ts` |
 | `task.ai-summary` | Task | `task:midCallSummaryReceived` | consume RTD summaries, then publish on `taskCollection[conversationId]` | task spec AI summary APIs / types | RTD conversation ID is the task collection key; latest payload for an unavailable task is retained in memory without expiry until registration or session cleanup; creation/merge replay follows public task publication; cleanup cancels requests and clears task flags and pending maps, while ContactCenter deregistration removes the RTD listener | existing event and payload; direct task lookup and no cache expiry timer | `src/services/task/TaskManager.ts`, `src/services/task/types.ts`, `src/cc.ts` |
 | `wellness.notification.events` | Contact Center | `CC_AGENT_EVENTS.WELLNESS_BREAK` | consume validated wellness payloads from the primary data-notification socket, then publish normalized application events | Contact Center spec/types | exact current agent/org; notification session is diagnostic and is not compared with the active session; canonical optional `actionText` is normalized to public `actionText`; malformed/stale payloads are ignored | additive | `src/cc.ts`, `src/types.ts`, `src/services/config/types.ts` |
+| `contact-center.browser-voice-state.events` | Contact Center / Calling | `voice:connectionStateChange` | Calling service updates emitted on the Contact Center plugin event surface | `VoiceConnectionState` | Emits only when the snapshot changes; line and Mobius transport remain separate; a keepalive `RECONNECTED` event does not clear an active Mobius disconnect cause | additive | `src/services/WebCallingService.ts`, `src/services/config/types.ts`, `src/cc.ts` |
 
 ### Telemetry / Metrics Events
 

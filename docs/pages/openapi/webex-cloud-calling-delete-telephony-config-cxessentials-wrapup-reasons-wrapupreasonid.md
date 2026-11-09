@@ -10,7 +10,7 @@ tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.146287+00:00
+retrieved_at: 2026-11-09T12:44:28.070469+00:00
 ---
 
 # DELETE /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}

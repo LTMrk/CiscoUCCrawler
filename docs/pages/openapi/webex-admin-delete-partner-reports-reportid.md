@@ -10,7 +10,7 @@ tags: Partner Reports/Templates
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:18.398849+00:00
+retrieved_at: 2026-11-09T12:44:27.092277+00:00
 ---
 
 # DELETE /partner/reports/{reportId}

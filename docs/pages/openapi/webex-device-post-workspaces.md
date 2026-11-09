@@ -10,7 +10,7 @@ tags: Workspaces
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.060938+00:00
+retrieved_at: 2026-11-09T12:44:28.936771+00:00
 ---
 
 # POST /workspaces
@@ -34,6 +34,8 @@ The `locationId`, `workspaceLocationId`, `floorId`, `indoorNavigation`, `capacit
 * When creating a `webexCalling` workspace that is not hot desk only, a `locationId` and either a `phoneNumber` or `extension` or both is required. Furthermore, it is possible to set the `licenses` field with a list of Webex Calling license IDs, if desired. If multiple license IDs are provided, the oldest suitable one will be applied. If no licenses are supplied, the oldest suitable one from the active subscriptions will be automaticaly applied.
 
 * When creating a hot desk only workspace, `phoneNumber` and `extension` fields are not applicable. Furthermore, `deviceHostedMeetingsEnabled`, and `calendar` services are not applicable. If any of these fields are provided the API will return an error. The `calling` type is `webexCalling`.
+
+* Enabling Enhanced AI requires `calling.type` to be `webexCalling` with a Professional workspace license. Common Area, Hotdesk Only, and other calling types are not supported. To enable Enhanced AI, set `enhancedAI.enabled` to `true`. Specify an Enhanced AI license in `enhancedAI.license`, or omit `license` to automatically select a license from the oldest suitable subscription with available capacity. Omitting `enhancedAI` creates the workspace without Enhanced AI.
 
 ## Cuerpo de la petición (application/json)
 - `displayName` (string) (**requerido**): A friendly name for the workspace.
@@ -60,6 +62,9 @@ The `locationId`, `workspaceLocationId`, `floorId`, `indoorNavigation`, `capacit
 - `deviceHostedMeetings` (object): To enable device hosted meetings, set a Webex `siteUrl` and the `enabled` flag to `true`.
   - `enabled` (boolean): Set to `true` to enable or `false` to disable.
   - `siteUrl` (string): The Webex site for device hosting meetings.
+- `enhancedAI` (object): To enable Enhanced AI on the workspace, set the enabled flag to true. This can only be applied to a Webex Calling Professional workspace, and you must have a subscription with an Enhanced AI license.
+  - `enabled` (boolean) (**requerido**): Set to `true` to enable Enhanced AI or `false` to disable it and remove its license.
+  - `license` (string): This optional field lets you specify an Enhanced AI license. This is useful if you have multiple subscriptions with Enhanced AI licenses and want to choose a specific license. Omit this field to have a license automatically assigned from your available Enhanced AI licenses.
 - `supportedDevices` (string): The supported devices for the workspace. Default is `collaborationDevices`.  * `collaborationDevices` - Workspace supports collaboration devices.  * `phones` - Workspace supports MPP phones. Valores: collaborationDevices, phones.
 - `indoorNavigation` (object): Indoor navigation configuration.
   - `url` (string): URL of a map locating the workspace.
@@ -95,6 +100,10 @@ The `locationId`, `workspaceLocationId`, `floorId`, `indoorNavigation`, `capacit
   "deviceHostedMeetings": {
     "enabled": true,
     "siteUrl": "'example.webex.com'"
+  },
+  "enhancedAI": {
+    "enabled": true,
+    "license": "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvMTExMTExMTEtMTExMS00MTExLTgxMTEtMTExMTExMTExMTExOlBSRU1BSV8yMjIyMjIyMi0yMjIyLTQyMjItODIyMi0yMjIyMjIyMjIyMjI"
   },
   "supportedDevices": "collaborationDevices",
   "indoorNavigation": {}
@@ -136,6 +145,9 @@ curl -X POST '/workspaces' \
 - `deviceHostedMeetings` (object): Device hosted meetings configuration.
   - `enabled` (boolean): `true` if enabled or `false` otherwise.
   - `siteUrl` (string): The Webex site for the device hosting meetings.
+- `enhancedAI` (object): Enhanced AI licensing state. When disabled, this object contains `enabled: false` without a `license`.
+  - `enabled` (boolean) (**requerido**): Whether an Enhanced AI license is applied to the workspace.
+  - `license` (string): The applied Enhanced AI license. Present only when `enabled` is `true`. This is the actual applied license, including when a license was selected automatically.
 - `devicePlatform` (string): The device platform.  * `cisco` - Cisco.  * `microsoftTeamsRoom` - Microsoft Teams Room. Valores: cisco, microsoftTeamsRoom.
 - `indoorNavigation` (object): Indoor navigation configuration.
   - `url` (string): URL of a map locating the workspace.
@@ -168,9 +180,6 @@ curl -X POST '/workspaces' \
   - `primarySipUrl` (string): The primary SIP address to dial this device.
   - `sipUrls` (array): All SIP addresses to dial this device.
   - `serial` (string): Serial number for the device.
-  - `software` (string): The operating system name data and version tag.
-  - `upgradeChannel` (string): The upgrade channel the device is assigned to.
-  - `created` (string) (**requerido**): The date and time that the device was registered, in ISO8601 format.
 
 ### Ejemplo — respuesta 201
 ```json
@@ -191,6 +200,10 @@ curl -X POST '/workspaces' \
         "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvMmQzMzIyZDItYTAzNS00YmEzLWI3ZjYtNDc1ODM3Y2UzOTVhOkJDQ0FfNDZlM2YxYWQtZGJhYi00YmQ0LTg3YTAtOWExZmVhNzMxN2Jm"
       ]
     }
+  },
+  "enhancedAI": {
+    "enabled": true,
+    "license": "Y2lzY29zcGFyazovL3VzL0xJQ0VOU0UvMTExMTExMTEtMTExMS00MTExLTgxMTEtMTExMTExMTExMTExOlBSRU1BSV8yMjIyMjIyMi0yMjIyLTQyMjItODIyMi0yMjIyMjIyMjIyMjI"
   },
   "calendar": {
     "type": "microsoft",

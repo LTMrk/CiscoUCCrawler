@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/docs/index.md
 repo: webex/webex-js-sdk
 ruta: docs/index.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-02T12:35:58.738262+00:00
+retrieved_at: 2026-11-09T12:44:32.670019+00:00
 ---
 
 # webex-js-sdk — docs/index.md
@@ -43,6 +43,8 @@ package owns its architecture, specifications, and decisions beside its code. Th
 | --- | --- | --- | --- | --- |
 | `@webex/internal-plugin-feature` | `packages/@webex/internal-plugin-feature/` | [AGENTS.md](../packages/@webex/internal-plugin-feature/AGENTS.md) | [docs/index.md](../packages/@webex/internal-plugin-feature/docs/index.md) | [.sdd/manifest.json](../packages/@webex/internal-plugin-feature/.sdd/manifest.json) |
 | `@webex/internal-plugin-user` | `packages/@webex/internal-plugin-user/` | [AGENTS.md](../packages/@webex/internal-plugin-user/AGENTS.md) | [docs/index.md](../packages/@webex/internal-plugin-user/docs/index.md) | [.sdd/manifest.json](../packages/@webex/internal-plugin-user/.sdd/manifest.json) |
+| `@webex/internal-plugin-wdm` | `packages/@webex/internal-plugin-wdm/` | [AGENTS.md](../packages/@webex/internal-plugin-wdm/AGENTS.md) | [docs/index.md](../packages/@webex/internal-plugin-wdm/docs/index.md) | [.sdd/manifest.json](../packages/@webex/internal-plugin-wdm/.sdd/manifest.json) |
+| `@webex/plugin-authorization-browser-first-party` | `packages/@webex/plugin-authorization-browser-first-party/` | [AGENTS.md](../packages/@webex/plugin-authorization-browser-first-party/AGENTS.md) | [docs/index.md](../packages/@webex/plugin-authorization-browser-first-party/docs/index.md) | [.sdd/manifest.json](../packages/@webex/plugin-authorization-browser-first-party/.sdd/manifest.json) |
 <!-- sdd-package-routing:end -->
 
 ## Decisions

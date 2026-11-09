@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/src/services/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:01.497932+00:00
+retrieved_at: 2026-11-09T12:44:33.418680+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/src/services/ai-docs/AGENTS.md
@@ -172,7 +172,7 @@ Each service folder contains its own `ai-docs/` with detailed documentation. **A
 
 **Data services** (AddressBook, Queue, EntryPoint) do not have dedicated ai-docs. Read their source files directly. They share direct REST, pagination, logging, metrics, and error propagation, but cache policy is service-owned: AddressBook/Queue use PageCache when eligible and EntryPoint always fetches its profile-scoped mapping.
 
-**WebCallingService** also has no dedicated ai-docs, but it follows a different pattern: EventEmitter-based call lifecycle orchestration around `@webex/calling` (`createClient`, line registration/deregistration, `ICall` events), `callTaskMap` tracking, and async registration flows with timeout handling. Read [`WebCallingService.ts`](../WebCallingService.ts) directly when changing browser calling behavior.
+**WebCallingService** also has no dedicated ai-docs, but it follows a different pattern: EventEmitter-based call lifecycle orchestration around `@webex/calling` (`createClient`, line registration/deregistration, `ICall` events), `callTaskMap` tracking, and async registration flows with timeout handling. It tracks browser voice readiness from line lifecycle and Mobius socket events; consumers query `cc.getVoiceConnectionState()` and subscribe to `voice:connectionStateChange`. The snapshot keeps Mobius socket status separate from Contact Center WebSocket health. `cc.setAgentState()` is guarded only when browser WebRTC registration is required. Read [`WebCallingService.ts`](../WebCallingService.ts) directly when changing browser calling behavior.
 
 ---
 

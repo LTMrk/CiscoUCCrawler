@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.956368+00:00
+retrieved_at: 2026-11-09T12:44:27.975706+00:00
 ---
 
 # GET /telephony/config/people/me/settings/callRecording

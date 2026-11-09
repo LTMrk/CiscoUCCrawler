@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.597467+00:00
+retrieved_at: 2026-11-09T12:44:28.634430+00:00
 ---
 
 # POST /v1/monitor/{taskId}/bargeIn

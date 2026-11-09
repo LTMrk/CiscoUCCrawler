@@ -10,7 +10,7 @@ tags: Desktop Profile
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.521075+00:00
+retrieved_at: 2026-11-09T12:44:28.582020+00:00
 ---
 
 # GET /organization/{orgid}/agent-profile

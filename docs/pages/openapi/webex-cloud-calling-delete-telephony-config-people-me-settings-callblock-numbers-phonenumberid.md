@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.965807+00:00
+retrieved_at: 2026-11-09T12:44:27.982351+00:00
 ---
 
 # DELETE /telephony/config/people/me/settings/callBlock/numbers/{phoneNumberId}

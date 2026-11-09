@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.772299+00:00
+retrieved_at: 2026-11-09T12:44:29.467566+00:00
 ---
 
 # GET /meetings/{meetingId}/breakoutSessions

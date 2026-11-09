@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/contact-center/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:06:43.411044+00:00
+retrieved_at: 2026-11-09T12:44:32.847952+00:00
 ---
 
 # webex-js-sdk — packages/@webex/contact-center/AGENTS.md
@@ -74,6 +74,7 @@ src/utils/                            pagination/page cache contracts
 | Build | `yarn workspace @webex/contact-center build:src` |
 | Test | `yarn workspace @webex/contact-center test:unit` |
 | Lint/format | `yarn workspace @webex/contact-center test:style` |
+| E2E | `yarn workspace @webex/contact-center test:e2e` (runs `cc_playwright/`; see its README) |
 
 ## Developer Workflow
 

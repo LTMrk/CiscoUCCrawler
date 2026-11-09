@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.315775+00:00
+retrieved_at: 2026-11-09T12:44:28.208659+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/availablePreferredAnswerEndpoints

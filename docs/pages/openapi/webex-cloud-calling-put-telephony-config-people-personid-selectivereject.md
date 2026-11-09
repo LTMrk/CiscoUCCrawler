@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.244122+00:00
+retrieved_at: 2026-11-09T12:44:28.143679+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/selectiveReject

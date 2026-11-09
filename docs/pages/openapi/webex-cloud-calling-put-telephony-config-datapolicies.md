@@ -10,7 +10,7 @@ tags: Call Settings Configurable Storage Region
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.149273+00:00
+retrieved_at: 2026-11-09T12:44:28.072503+00:00
 ---
 
 # PUT /telephony/config/dataPolicies

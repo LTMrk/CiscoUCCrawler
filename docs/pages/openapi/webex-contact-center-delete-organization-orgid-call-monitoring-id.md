@@ -10,7 +10,7 @@ tags: Call Monitoring Request
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.500760+00:00
+retrieved_at: 2026-11-09T12:44:28.561709+00:00
 ---
 
 # DELETE /organization/{orgid}/call-monitoring/{id}

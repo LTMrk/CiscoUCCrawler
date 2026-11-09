@@ -1,10 +1,10 @@
 {
   "_schema_version": 2,
   "webex-admin.json": {
-    "actualizado": "2026-09-30T18:17:18.431082+00:00",
+    "actualizado": "2026-11-09T12:44:27.115653+00:00",
     "api": "Webex Admin",
     "api_version": "1.0.0",
-    "content_sha": "588b0d20aac5f45a85241aef7c828fcf56d5639766cff8c7aab78e9e46979301",
+    "content_sha": "cae6297e436408909c47bd46933cbd5204d0c43becac463490b7e69ff4bc9220",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -168,13 +168,13 @@
       "PUT /workspaceLocations/{locationId}": "webex-admin-put-workspacelocations-locationid",
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-admin-put-workspacelocations-locationid-floors-floorid"
     },
-    "sha": "9efc02456b29159642656398fbca10a4aa5e6473"
+    "sha": "64ecddc1b1ce4f8f59c9743032297c9330039449"
   },
   "webex-broadworks.json": {
-    "actualizado": "2026-09-30T18:17:18.954138+00:00",
+    "actualizado": "2026-11-09T12:44:27.378328+00:00",
     "api": "Webex Broadworks Calling",
     "api_version": "1.0.0",
-    "content_sha": "0fcd4b524c289a58824369f2eac5782319705699bc64b051c6545ea2b4ac6b51",
+    "content_sha": "29f17c60652a6faf5d92069cdf63395143e4b1ef51a4065fa7c0b55d6603ce6e",
     "deprecadas": {},
     "operaciones": {
       "DELETE /broadworks/billing/reports/{id}": "webex-broadworks-delete-broadworks-billing-reports-id",
@@ -197,13 +197,13 @@
       "PUT /broadworks/subscribers/{subscriberId}": "webex-broadworks-put-broadworks-subscribers-subscriberid",
       "PUT /broadworks/workspaces/{workspaceId}": "webex-broadworks-put-broadworks-workspaces-workspaceid"
     },
-    "sha": "c10b1260c6d10db0ccec0e5cbbbb9de635b38ab2"
+    "sha": "64bad2628601ca37c1a47525404bb8557b24f189"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-11-02T12:35:57.332499+00:00",
+    "actualizado": "2026-11-09T12:44:28.220623+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "3ae100a00b5fc2d4719cc63352b45fea419013ec74d81978b480221d150a4180",
+    "content_sha": "43a6a4d4758391138a7f84dc5bcf400489579ffa2ea9a1f938411c5c4c4000c1",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -386,6 +386,7 @@
       "GET /telephony/config/announcements/{announcementId}": "webex-cloud-calling-get-telephony-config-announcements-announcementid",
       "GET /telephony/config/announcements/{announcementId}/fileUri": "webex-cloud-calling-get-telephony-config-announcements-announcementid-fileuri",
       "GET /telephony/config/autoAttendants": "webex-cloud-calling-get-telephony-config-autoattendants",
+      "GET /telephony/config/autoAttendants/{autoAttendantId}/voicemail/availableMembers": "webex-cloud-calling-get-telephony-config-autoattendants-autoattendantid-voicemail-availablemembers",
       "GET /telephony/config/callCaptions": "webex-cloud-calling-get-telephony-config-callcaptions",
       "GET /telephony/config/callParkExtensions": "webex-cloud-calling-get-telephony-config-callparkextensions",
       "GET /telephony/config/callRecording": "webex-cloud-calling-get-telephony-config-callrecording",
@@ -425,6 +426,7 @@
       "GET /telephony/config/emergencyCallNotification": "webex-cloud-calling-get-telephony-config-emergencycallnotification",
       "GET /telephony/config/huntGroups": "webex-cloud-calling-get-telephony-config-huntgroups",
       "GET /telephony/config/huntGroups/{huntGroupId}/emergencyCallbackNumber/dependencies": "webex-cloud-calling-get-telephony-config-huntgroups-huntgroupid-emergencycallbacknumber-dependencies",
+      "GET /telephony/config/huntGroups/{huntGroupId}/voicemail/availableMembers": "webex-cloud-calling-get-telephony-config-huntgroups-huntgroupid-voicemail-availablemembers",
       "GET /telephony/config/jobs/callRecording": "webex-cloud-calling-get-telephony-config-jobs-callrecording",
       "GET /telephony/config/jobs/callRecording/{jobId}": "webex-cloud-calling-get-telephony-config-jobs-callrecording-jobid",
       "GET /telephony/config/jobs/callRecording/{jobId}/errors": "webex-cloud-calling-get-telephony-config-jobs-callrecording-jobid-errors",
@@ -462,6 +464,7 @@
       "GET /telephony/config/locations/{locationId}/aiReceptionists/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-availablenumbers",
       "GET /telephony/config/locations/{locationId}/aiReceptionists/voices": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-voices",
       "GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-aireceptionistid",
+      "GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/callRecordings": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-aireceptionistid-callrecordings",
       "GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-aireceptionistid-intents",
       "GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}": "webex-cloud-calling-get-telephony-config-locations-locationid-aireceptionists-aireceptionistid-intents-intentid",
       "GET /telephony/config/locations/{locationId}/announcements/usage": "webex-cloud-calling-get-telephony-config-locations-locationid-announcements-usage",
@@ -470,10 +473,13 @@
       "GET /telephony/config/locations/{locationId}/autoAttendants/alternate/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-alternate-availablenumbers",
       "GET /telephony/config/locations/{locationId}/autoAttendants/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-availablenumbers",
       "GET /telephony/config/locations/{locationId}/autoAttendants/callForwarding/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-callforwarding-availablenumbers",
+      "GET /telephony/config/locations/{locationId}/autoAttendants/faxMessage/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-faxmessage-availablenumbers",
       "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid",
       "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/announcements": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid-announcements",
       "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding",
       "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules/{ruleId}": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding-selectiverules-ruleid",
+      "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail",
+      "GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/members": "webex-cloud-calling-get-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail-members",
       "GET /telephony/config/locations/{locationId}/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-availablenumbers",
       "GET /telephony/config/locations/{locationId}/callCaptions": "webex-cloud-calling-get-telephony-config-locations-locationid-callcaptions",
       "GET /telephony/config/locations/{locationId}/callIntercept/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-callintercept-availablenumbers",
@@ -509,9 +515,12 @@
       "GET /telephony/config/locations/{locationId}/huntGroups/alternate/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-alternate-availablenumbers",
       "GET /telephony/config/locations/{locationId}/huntGroups/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-availablenumbers",
       "GET /telephony/config/locations/{locationId}/huntGroups/callForwarding/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-callforwarding-availablenumbers",
+      "GET /telephony/config/locations/{locationId}/huntGroups/faxMessage/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-faxmessage-availablenumbers",
       "GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid",
       "GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding",
       "GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/selectiveRules/{ruleId}": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding-selectiverules-ruleid",
+      "GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail",
+      "GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/members": "webex-cloud-calling-get-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail-members",
       "GET /telephony/config/locations/{locationId}/intercept": "webex-cloud-calling-get-telephony-config-locations-locationid-intercept",
       "GET /telephony/config/locations/{locationId}/internalDialing": "webex-cloud-calling-get-telephony-config-locations-locationid-internaldialing",
       "GET /telephony/config/locations/{locationId}/musicOnHold": "webex-cloud-calling-get-telephony-config-locations-locationid-musiconhold",
@@ -529,6 +538,7 @@
       "GET /telephony/config/locations/{locationId}/queues/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-availablenumbers",
       "GET /telephony/config/locations/{locationId}/queues/callForwarding/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-callforwarding-availablenumbers",
       "GET /telephony/config/locations/{locationId}/queues/dnis/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-dnis-availablenumbers",
+      "GET /telephony/config/locations/{locationId}/queues/faxMessage/availableNumbers": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-faxmessage-availablenumbers",
       "GET /telephony/config/locations/{locationId}/queues/{queueId}": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid",
       "GET /telephony/config/locations/{locationId}/queues/{queueId}/announcements": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-announcements",
       "GET /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-callforwarding",
@@ -542,6 +552,8 @@
       "GET /telephony/config/locations/{locationId}/queues/{queueId}/holidayService": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-holidayservice",
       "GET /telephony/config/locations/{locationId}/queues/{queueId}/nightService": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-nightservice",
       "GET /telephony/config/locations/{locationId}/queues/{queueId}/strandedCalls": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-strandedcalls",
+      "GET /telephony/config/locations/{locationId}/queues/{queueId}/voicemail": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-voicemail",
+      "GET /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/members": "webex-cloud-calling-get-telephony-config-locations-locationid-queues-queueid-voicemail-members",
       "GET /telephony/config/locations/{locationId}/receptionistContacts/directories": "webex-cloud-calling-get-telephony-config-locations-locationid-receptionistcontacts-directories",
       "GET /telephony/config/locations/{locationId}/receptionistContacts/directories/{directoryId}": "webex-cloud-calling-get-telephony-config-locations-locationid-receptionistcontacts-directories-directoryid",
       "GET /telephony/config/locations/{locationId}/redSky": "webex-cloud-calling-get-telephony-config-locations-locationid-redsky",
@@ -732,6 +744,7 @@
       "GET /telephony/config/queues/agents/availableAgents": "webex-cloud-calling-get-telephony-config-queues-agents-availableagents",
       "GET /telephony/config/queues/agents/{id}": "webex-cloud-calling-get-telephony-config-queues-agents-id",
       "GET /telephony/config/queues/settings": "webex-cloud-calling-get-telephony-config-queues-settings",
+      "GET /telephony/config/queues/{queueId}/voicemail/availableMembers": "webex-cloud-calling-get-telephony-config-queues-queueid-voicemail-availablemembers",
       "GET /telephony/config/redSky": "webex-cloud-calling-get-telephony-config-redsky",
       "GET /telephony/config/redSky/complianceStatus": "webex-cloud-calling-get-telephony-config-redsky-compliancestatus",
       "GET /telephony/config/redSky/status": "webex-cloud-calling-get-telephony-config-redsky-status",
@@ -1019,6 +1032,7 @@
       "POST /telephony/config/locations/{locationId}/autoAttendants": "webex-cloud-calling-post-telephony-config-locations-locationid-autoattendants",
       "POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/actions/switchMode/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding-actions-switchmode-invoke",
       "POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules": "webex-cloud-calling-post-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding-selectiverules",
+      "POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/actions/uploadNoAnswerGreeting/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail-actions-uploadnoanswergreeting-invoke",
       "POST /telephony/config/locations/{locationId}/callParkExtensions": "webex-cloud-calling-post-telephony-config-locations-locationid-callparkextensions",
       "POST /telephony/config/locations/{locationId}/callParks": "webex-cloud-calling-post-telephony-config-locations-locationid-callparks",
       "POST /telephony/config/locations/{locationId}/callPickups": "webex-cloud-calling-post-telephony-config-locations-locationid-callpickups",
@@ -1031,6 +1045,7 @@
       "POST /telephony/config/locations/{locationId}/huntGroups": "webex-cloud-calling-post-telephony-config-locations-locationid-huntgroups",
       "POST /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/actions/switchMode/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding-actions-switchmode-invoke",
       "POST /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/selectiveRules": "webex-cloud-calling-post-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding-selectiverules",
+      "POST /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/actions/uploadNoAnswerGreeting/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail-actions-uploadnoanswergreeting-invoke",
       "POST /telephony/config/locations/{locationId}/numbers": "webex-cloud-calling-post-telephony-config-locations-locationid-numbers",
       "POST /telephony/config/locations/{locationId}/outgoingPermission/accessCodes": "webex-cloud-calling-post-telephony-config-locations-locationid-outgoingpermission-accesscodes",
       "POST /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns": "webex-cloud-calling-post-telephony-config-locations-locationid-outgoingpermission-digitpatterns",
@@ -1039,6 +1054,7 @@
       "POST /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding/actions/switchMode/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-queues-queueid-callforwarding-actions-switchmode-invoke",
       "POST /telephony/config/locations/{locationId}/queues/{queueId}/callForwarding/selectiveRules": "webex-cloud-calling-post-telephony-config-locations-locationid-queues-queueid-callforwarding-selectiverules",
       "POST /telephony/config/locations/{locationId}/queues/{queueId}/dnis": "webex-cloud-calling-post-telephony-config-locations-locationid-queues-queueid-dnis",
+      "POST /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/actions/uploadNoAnswerGreeting/invoke": "webex-cloud-calling-post-telephony-config-locations-locationid-queues-queueid-voicemail-actions-uploadnoanswergreeting-invoke",
       "POST /telephony/config/locations/{locationId}/receptionistContacts/directories": "webex-cloud-calling-post-telephony-config-locations-locationid-receptionistcontacts-directories",
       "POST /telephony/config/locations/{locationId}/redSky/building": "webex-cloud-calling-post-telephony-config-locations-locationid-redsky-building",
       "POST /telephony/config/locations/{locationId}/schedules": "webex-cloud-calling-post-telephony-config-locations-locationid-schedules",
@@ -1166,11 +1182,15 @@
       "PUT /telephony/config/knowledgeBases/{knowledgeBaseId}/documents/{documentId}": "webex-cloud-calling-put-telephony-config-knowledgebases-knowledgebaseid-documents-documentid",
       "PUT /telephony/config/locations/{locationId}": "webex-cloud-calling-put-telephony-config-locations-locationid",
       "PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}": "webex-cloud-calling-put-telephony-config-locations-locationid-aireceptionists-aireceptionistid",
+      "PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/callRecordings": "webex-cloud-calling-put-telephony-config-locations-locationid-aireceptionists-aireceptionistid-callrecordings",
       "PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/intents/{intentId}": "webex-cloud-calling-put-telephony-config-locations-locationid-aireceptionists-aireceptionistid-intents-intentid",
       "PUT /telephony/config/locations/{locationId}/announcements/{announcementId}": "webex-cloud-calling-put-telephony-config-locations-locationid-announcements-announcementid",
       "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid",
       "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding",
       "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules/{ruleId}": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid-callforwarding-selectiverules-ruleid",
+      "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail",
+      "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/members": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail-members",
+      "PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/passcode": "webex-cloud-calling-put-telephony-config-locations-locationid-autoattendants-autoattendantid-voicemail-passcode",
       "PUT /telephony/config/locations/{locationId}/callCaptions": "webex-cloud-calling-put-telephony-config-locations-locationid-callcaptions",
       "PUT /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}": "webex-cloud-calling-put-telephony-config-locations-locationid-callparkextensions-callparkextensionid",
       "PUT /telephony/config/locations/{locationId}/callParks/settings": "webex-cloud-calling-put-telephony-config-locations-locationid-callparks-settings",
@@ -1191,6 +1211,9 @@
       "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid",
       "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding",
       "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/selectiveRules/{ruleId}": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid-callforwarding-selectiverules-ruleid",
+      "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail",
+      "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/members": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail-members",
+      "PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/passcode": "webex-cloud-calling-put-telephony-config-locations-locationid-huntgroups-huntgroupid-voicemail-passcode",
       "PUT /telephony/config/locations/{locationId}/intercept": "webex-cloud-calling-put-telephony-config-locations-locationid-intercept",
       "PUT /telephony/config/locations/{locationId}/internalDialing": "webex-cloud-calling-put-telephony-config-locations-locationid-internaldialing",
       "PUT /telephony/config/locations/{locationId}/musicOnHold": "webex-cloud-calling-put-telephony-config-locations-locationid-musiconhold",
@@ -1212,6 +1235,9 @@
       "PUT /telephony/config/locations/{locationId}/queues/{queueId}/holidayService": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-holidayservice",
       "PUT /telephony/config/locations/{locationId}/queues/{queueId}/nightService": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-nightservice",
       "PUT /telephony/config/locations/{locationId}/queues/{queueId}/strandedCalls": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-strandedcalls",
+      "PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-voicemail",
+      "PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/members": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-voicemail-members",
+      "PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/passcode": "webex-cloud-calling-put-telephony-config-locations-locationid-queues-queueid-voicemail-passcode",
       "PUT /telephony/config/locations/{locationId}/receptionistContacts/directories/{directoryId}": "webex-cloud-calling-put-telephony-config-locations-locationid-receptionistcontacts-directories-directoryid",
       "PUT /telephony/config/locations/{locationId}/redSky/building": "webex-cloud-calling-put-telephony-config-locations-locationid-redsky-building",
       "PUT /telephony/config/locations/{locationId}/redSky/status": "webex-cloud-calling-put-telephony-config-locations-locationid-redsky-status",
@@ -1399,13 +1425,13 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "4dd8a83f45aabe8f915fa16b2a79b28969cd323b"
+    "sha": "58f25aafbd0ff00367bf3a508a52852d234a5d56"
   },
   "webex-contact-center.json": {
-    "actualizado": "2026-11-02T12:35:57.639494+00:00",
+    "actualizado": "2026-11-09T12:44:28.662441+00:00",
     "api": "Webex Contact Center",
     "api_version": "1.0.0",
-    "content_sha": "5a6ee89577824ff2112c147fb92b60b3e3f140701978395f9d235e90884f54fa",
+    "content_sha": "1a498840680f8691df22ca7f65a196521abe93c64c67ba591f676f12eb46e93b",
     "deprecadas": {
       "DELETE /organization/{orgid}/address-book/{id}": true,
       "DELETE /organization/{orgid}/agent-personal-greeting/{id}": true,
@@ -1956,13 +1982,13 @@
       "PUT /v2/agents/logout": "webex-contact-center-put-v2-agents-logout",
       "PUT /v2/agents/session/state": "webex-contact-center-put-v2-agents-session-state"
     },
-    "sha": "37d0557f17f1f3f34d1ab6674dbd7a6f12a1e892"
+    "sha": "197e8255906cb04c9e3ddbf835af774c957cfd4e"
   },
   "webex-device.json": {
-    "actualizado": "2026-09-30T18:17:21.065001+00:00",
+    "actualizado": "2026-11-09T12:44:28.939338+00:00",
     "api": "Webex Device",
     "api_version": "1.0.0",
-    "content_sha": "dd653a8a7f4e0fc289dcbc2bc26fdbecb252b3e90be0f0addfa16279a1f74c1e",
+    "content_sha": "77acc5cc7e967f63278e9ee49026fb5052ee5045a737332519e241ff776e4b79",
     "deprecadas": {
       "DELETE /workspaceLocations/{locationId}": true,
       "DELETE /workspaceLocations/{locationId}/floors/{floorId}": true,
@@ -2078,13 +2104,13 @@
       "PUT /workspaceLocations/{locationId}/floors/{floorId}": "webex-device-put-workspacelocations-locationid-floors-floorid",
       "PUT /workspaces/{workspaceId}": "webex-device-put-workspaces-workspaceid"
     },
-    "sha": "86afaa6888cd736e8b26a9df196ef2fb9a2b1e3c"
+    "sha": "98c1466edf0bd8a8247546315d23f82d35880fd6"
   },
   "webex-meeting.json": {
-    "actualizado": "2026-11-02T12:35:57.803349+00:00",
+    "actualizado": "2026-11-09T12:44:29.489098+00:00",
     "api": "Webex Meetings",
     "api_version": "1.0.0",
-    "content_sha": "f85a957eb4ee113e8fa8338fd9d5eb65cc1d50b54cf9f7f999e2ddf3cbb1a2a8",
+    "content_sha": "90219493dec9d00cbdaf1ca2cfc298f46b4862abb8e1935bc22b46d1601445e0",
     "deprecadas": {},
     "operaciones": {
       "DELETE /admin/meeting/config/trackingCodes/{trackingCodeId}": "webex-meeting-delete-admin-meeting-config-trackingcodes-trackingcodeid",
@@ -2259,13 +2285,13 @@
       "PUT /people/{personId}": "webex-meeting-put-people-personid",
       "PUT /webhooks/{webhookId}": "webex-meeting-put-webhooks-webhookid"
     },
-    "sha": "b72e73256cf6ab235779766343018b03113ec5b4"
+    "sha": "ebe8724a3acec796bab98c1b26472f26c0545238"
   },
   "webex-messaging.json": {
-    "actualizado": "2026-09-30T18:17:22.086913+00:00",
+    "actualizado": "2026-11-09T12:44:29.752789+00:00",
     "api": "Webex Messaging",
     "api_version": "1.0.0",
-    "content_sha": "df394a91e770b40919a6fb3d039613b02f59c99b9e6e4d0317e30576d1ecdda2",
+    "content_sha": "37d3d0b68e0912363cbc9f830ee2a2c29c7c10302b4382bad3de04e110121cbb",
     "deprecadas": {},
     "operaciones": {
       "DELETE /memberships/{membershipId}": "webex-messaging-delete-memberships-membershipid",
@@ -2332,24 +2358,24 @@
       "PUT /teams/{teamId}": "webex-messaging-put-teams-teamid",
       "PUT /webhooks/{webhookId}": "webex-messaging-put-webhooks-webhookid"
     },
-    "sha": "2685bcc38de4e5cc43db258e253b12287aa789d6"
+    "sha": "2931a4f29eb8d57a1cdfd95bdab93c5b8158ce00"
   },
   "webex-ucm.json": {
-    "actualizado": "2026-09-30T18:17:22.348810+00:00",
+    "actualizado": "2026-11-09T12:44:30.063117+00:00",
     "api": "Webex for UCM",
     "api_version": "1.0.0",
-    "content_sha": "317f3f5831f44d945e88f58a165a2d69874cdbdd8e277c4e286d0e02ec2c54e9",
+    "content_sha": "9978cf7951448c1db1c9b35760a25f3de975de6a6076b4b8bbfe4bced5eafda2",
     "deprecadas": {},
     "operaciones": {
       "GET /telephony/config/callingProfiles": "webex-ucm-get-telephony-config-callingprofiles"
     },
-    "sha": "a67b8fe43a12dad784158e0b78c23109c554767d"
+    "sha": "ea6c8e95cff5f302f4eed6afd0390cc9e248b7fd"
   },
   "webex-wholesale.json": {
-    "actualizado": "2026-09-30T18:17:22.641435+00:00",
+    "actualizado": "2026-11-09T12:44:30.606040+00:00",
     "api": "Webex Wholesale",
     "api_version": "1.0.0",
-    "content_sha": "d738a0f33cda6a42e5b988fc37fcab968101d65cd88f36b0afa5a51202cbd70b",
+    "content_sha": "1bff13f11dede03fd6069f30c9b2a36f0dd7b196fb23b0fefbd1d5b763137115",
     "deprecadas": {},
     "operaciones": {
       "DELETE /wholesale/billing/reports/{id}": "webex-wholesale-delete-wholesale-billing-reports-id",
@@ -2371,6 +2397,6 @@
       "PUT /wholesale/customers/{customerId}": "webex-wholesale-put-wholesale-customers-customerid",
       "PUT /wholesale/subscribers/{subscriberId}": "webex-wholesale-put-wholesale-subscribers-subscriberid"
     },
-    "sha": "9a49322b453ea2202bb09c97708ed3f7e43ccf0d"
+    "sha": "2b632dbeda4dd721a2379c192df797351e329f11"
   }
 }

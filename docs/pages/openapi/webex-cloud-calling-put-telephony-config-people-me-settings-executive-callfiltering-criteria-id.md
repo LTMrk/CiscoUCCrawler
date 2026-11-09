@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.969532+00:00
+retrieved_at: 2026-11-09T12:44:27.984987+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/executive/callFiltering/criteria/{id}

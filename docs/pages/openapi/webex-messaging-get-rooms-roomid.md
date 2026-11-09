@@ -10,7 +10,7 @@ tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:22.080067+00:00
+retrieved_at: 2026-11-09T12:44:29.748220+00:00
 ---
 
 # GET /rooms/{roomId}

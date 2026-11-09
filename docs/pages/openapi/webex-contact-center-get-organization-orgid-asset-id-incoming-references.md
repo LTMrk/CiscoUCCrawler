@@ -10,7 +10,7 @@ tags: Asset
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.493184+00:00
+retrieved_at: 2026-11-09T12:44:28.556431+00:00
 ---
 
 # GET /organization/{orgid}/asset/{id}/incoming-references

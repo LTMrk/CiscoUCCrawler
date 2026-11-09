@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.957005+00:00
+retrieved_at: 2026-11-09T12:44:27.976211+00:00
 ---
 
 # GET /telephony/config/people/me

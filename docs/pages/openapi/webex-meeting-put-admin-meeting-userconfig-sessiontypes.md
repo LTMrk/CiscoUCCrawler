@@ -10,7 +10,7 @@ tags: Session Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.753408+00:00
+retrieved_at: 2026-11-09T12:44:29.447980+00:00
 ---
 
 # PUT /admin/meeting/userconfig/sessionTypes

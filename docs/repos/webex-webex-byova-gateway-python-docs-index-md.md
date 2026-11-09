@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/i
 repo: webex/webex-byova-gateway-python
 ruta: docs/index.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-31T15:15:12.428207+00:00
+retrieved_at: 2026-11-09T12:44:50.252785+00:00
 ---
 
 # webex-byova-gateway-python — docs/index.md
@@ -55,10 +55,12 @@ A fully functional voice AI system where customers can:
 - **[Local Development](LOCAL_DEVELOPMENT.md)** - Install, run, and troubleshoot the sample locally
 - **[JWT Authentication](JWT_AUTHENTICATION.md)** - Configure Webex runtime token validation
 - **[Testing](TESTING.md)** - Run automated, HTTP, gRPC, and end-to-end tests
+- **[BYOVA WebSocket Transport](WEBSOCKET_TRANSPORT.md)** - Run gRPC and WebSocket from one
+  gateway and configure the independent WebSocket datasource
 - **[BYOVA Handoff Summary](BYOVA_HANDOFF_CONTEXT.md)** - Pass a provider-neutral handoff
   summary to the receiving WxCC agent
 - **[Setup Guide](https://developer.webex.com/webex-contact-center/docs/byova-and-aws-lex)** - Complete step-by-step setup
-- **[AWS Test Deployment Considerations](AWS_TEST_DEPLOYMENT_CONSIDERATIONS.md)** - Sanitized ALB-to-EC2 test topology, Lex access, release flow, and validation boundaries
+- **[AWS Test Deployment Considerations](AWS_TEST_DEPLOYMENT_CONSIDERATIONS.md)** - Sanitized dual-protocol ALB-to-EC2 test topology, Lex access, release flow, and validation boundaries
 - **[GECX Setup Guide](guides/byova-gecx-setup.md)** - Google CX Agent Studio integration walkthrough
 - **[Productization and Production Readiness Guide](PRODUCTION_READINESS.md)** - Requirements for operating a derivative of this sample at high call volume
 - **[Protocol Definitions](https://github.com/webex/webex-byova-gateway-python/tree/main/proto)** - BYOVA and health protocol source files

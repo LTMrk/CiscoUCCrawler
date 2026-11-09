@@ -10,7 +10,7 @@ tags: Legacy Flows
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.615914+00:00
+retrieved_at: 2026-11-09T12:44:28.647174+00:00
 ---
 
 # GET /flow-store/{orgId}/project/{projectId}/flows/{flowId}:export

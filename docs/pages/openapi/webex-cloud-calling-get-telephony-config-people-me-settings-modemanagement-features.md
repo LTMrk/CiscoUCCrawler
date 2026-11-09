@@ -10,7 +10,7 @@ tags: Mode Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.988118+00:00
+retrieved_at: 2026-11-09T12:44:27.997845+00:00
 ---
 
 # GET /telephony/config/people/me/settings/modeManagement/features

@@ -10,7 +10,7 @@ tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:22.637618+00:00
+retrieved_at: 2026-11-09T12:44:30.603654+00:00
 ---
 
 # DELETE /wholesale/customers/{customerId}

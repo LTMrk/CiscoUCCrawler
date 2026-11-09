@@ -10,7 +10,7 @@ tags: Summaries
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.753695+00:00
+retrieved_at: 2026-11-09T12:44:29.448174+00:00
 ---
 
 # GET /meetingSummaries

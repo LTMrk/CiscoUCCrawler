@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.134350+00:00
+retrieved_at: 2026-11-09T12:44:28.061396+00:00
 ---
 
 # PUT /telephony/config/queues/agents/{id}/settings
@@ -30,7 +30,7 @@ An agent can be assigned to one or more call queues and can be managed by superv
 
 This operation requires a full administrator auth token with a scope of `spark-admin:telephony_config_write`.
 
-The `agentACDState` request property is available when the `wxc_customerassist_webex_server_server_CALL-217518` feature toggle is enabled.
+The `agentACDState`.
 
 ## Parámetros
 - `id` [path] (string) (**requerido**): Identifier of the agent to be updated.

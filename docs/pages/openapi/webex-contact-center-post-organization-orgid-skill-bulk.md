@@ -10,7 +10,7 @@ tags: Skill
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.558144+00:00
+retrieved_at: 2026-11-09T12:44:28.607170+00:00
 ---
 
 # POST /organization/{orgid}/skill/bulk

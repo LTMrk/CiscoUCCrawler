@@ -10,7 +10,7 @@ tags: Device Configurations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.049934+00:00
+retrieved_at: 2026-11-09T12:44:28.929896+00:00
 ---
 
 # PATCH /deviceConfigurations

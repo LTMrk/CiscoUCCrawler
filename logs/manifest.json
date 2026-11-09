@@ -5,10 +5,10 @@
       "doc_id": "developer-cisco-com-docs-9970d53a46",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:51:49.369295+00:00",
-      "last_seen": "2026-10-19T09:49:04.284109+00:00",
-      "next_check": "2026-11-04T09:49:04.284109+00:00",
+      "last_seen": "2026-11-09T12:45:10.315259+00:00",
+      "next_check": "2026-12-09T12:45:10.315259+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/axl-schema-reference/": {
       "content_sha": null,
@@ -67,10 +67,10 @@
       "first_seen": "2026-09-27T15:05:05.905449+00:00",
       "last_changed": "2026-09-27T15:05:05.905449+00:00",
       "last_modified": "Sat, 04 Jul 2026 19:47:20 GMT",
-      "last_seen": "2026-10-19T09:49:05.068920+00:00",
-      "next_check": "2026-11-04T09:49:05.068920+00:00",
+      "last_seen": "2026-11-09T12:45:10.742334+00:00",
+      "next_check": "2026-12-09T12:45:10.742334+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/axl/operations-by-release/": {
       "content_sha": "c59526a477f1271a0b33d232fb10e139522ee5e0ac46568595f7878a40680cda",
@@ -1022,10 +1022,10 @@
       "doc_id": "developer-cisco-com-docs-sxml-898c1468cc",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:51:58.232186+00:00",
-      "last_seen": "2026-10-19T09:49:12.383574+00:00",
-      "next_check": "2026-11-04T09:49:12.383574+00:00",
+      "last_seen": "2026-11-09T12:45:18.534017+00:00",
+      "next_check": "2026-12-09T12:45:18.534017+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/task-routing/": {
       "content_sha": "969e63687b97da7539bd22cedd1878fb13e8f0dc7d2a64522dec84a99b6b1235",
@@ -1199,15 +1199,15 @@
     "https://developer.cisco.com/site/axl/": {
       "content_sha": "b185760dcf570e9cd80194149a206f61dce1741827624ed64e708120ad9a4c98",
       "doc_id": "developer-cisco-com-site-axl-8624944788",
-      "etag": "W/\"34782cda7e6be4cad816615f7522b937\"",
+      "etag": "W/\"ba46ea96ee941e093e87ed4842643f87\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:22.268539+00:00",
       "last_changed": "2026-11-02T12:38:10.885562+00:00",
-      "last_modified": "Sat, 17 Oct 2026 12:41:06 GMT",
-      "last_seen": "2026-11-02T12:38:10.885562+00:00",
-      "next_check": "2026-11-03T12:38:10.885562+00:00",
+      "last_modified": "Thu, 05 Nov 2026 11:12:21 GMT",
+      "last_seen": "2026-11-09T12:45:22.714662+00:00",
+      "next_check": "2026-11-11T12:45:22.714662+00:00",
       "status": "active",
-      "unchanged_runs": 0
+      "unchanged_runs": 1
     },
     "https://developer.cisco.com/site/axl/documents/operations-by-release/": {
       "content_sha": null,
@@ -1267,20 +1267,20 @@
       "first_seen": "2026-08-24T22:13:34.102799+00:00",
       "last_changed": "2026-08-24T22:13:34.102799+00:00",
       "last_modified": "Sun, 27 Sep 2026 21:15:57 GMT",
-      "last_seen": "2026-10-05T11:23:33.528986+00:00",
-      "next_check": "2026-11-04T11:23:33.528986+00:00",
+      "last_seen": "2026-11-09T12:45:23.045359+00:00",
+      "next_check": "2026-12-09T12:45:23.045359+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/collaboration/": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-site-collaboration-dc6023804a",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:02.283422+00:00",
-      "last_seen": "2026-10-19T09:49:16.666386+00:00",
-      "next_check": "2026-11-04T09:49:16.666386+00:00",
+      "last_seen": "2026-11-09T12:45:30.983720+00:00",
+      "next_check": "2026-12-09T12:45:30.983720+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/site/collaboration/call-control/unified-presence/documentation/index.gsp": {
       "content_sha": null,
@@ -3528,10 +3528,10 @@
       "first_seen": "2026-08-24T22:14:56.719880+00:00",
       "last_changed": "2026-08-24T22:14:56.719880+00:00",
       "last_modified": "Mon, 22 Jun 2026 12:04:48 GMT",
-      "last_seen": "2026-10-05T11:23:38.162003+00:00",
-      "next_check": "2026-11-04T11:23:38.162003+00:00",
+      "last_seen": "2026-11-09T12:45:31.395529+00:00",
+      "next_check": "2026-12-09T12:45:31.395529+00:00",
       "status": "active",
-      "unchanged_runs": 5
+      "unchanged_runs": 6
     },
     "https://developer.cisco.com/site/sxml/": {
       "content_sha": "7ff1fa1ed55b0159a92a5e0288bb7f7b6abdeb48df8323fbd81bc2876ef694c4",
@@ -4697,10 +4697,10 @@
       "doc_id": "help-webex-com-en-us-all-products-06d703e07d",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:06.451099+00:00",
-      "last_seen": "2026-10-19T09:49:21.979249+00:00",
-      "next_check": "2026-11-04T09:49:21.979249+00:00",
+      "last_seen": "2026-11-09T12:45:37.430027+00:00",
+      "next_check": "2026-12-09T12:45:37.430027+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://help.webex.com/en-us/article/0cbcpl/Webex-for-Cisco-BroadWorks-Configuration-Guide": {
       "content_sha": null,
@@ -9054,10 +9054,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-meeting-server-products-installation-and-configuration-guides-list-html-3f71951f1e",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:14.125754+00:00",
-      "last_seen": "2026-10-19T09:49:25.273562+00:00",
-      "next_check": "2026-11-04T09:49:25.273562+00:00",
+      "last_seen": "2026-11-09T12:45:40.662393+00:00",
+      "next_check": "2026-12-09T12:45:40.662393+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/conferencing/meeting-server/products-programming-reference-guides-list.html": {
       "content_sha": null,
@@ -9754,10 +9754,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-enterprise-products-installation-and-configu-2d62a3d7cb",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:18.741163+00:00",
-      "last_seen": "2026-10-19T09:49:29.133617+00:00",
-      "next_check": "2026-11-04T09:49:29.133617+00:00",
+      "last_seen": "2026-11-09T12:45:44.841091+00:00",
+      "next_check": "2026-12-09T12:45:44.841091+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-enterprise/products-installation-guides-list.html": {
       "content_sha": null,
@@ -9866,10 +9866,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-express-products-installation-and-configurat-a831266b29",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:22.597399+00:00",
-      "last_seen": "2026-10-19T09:49:33.184320+00:00",
-      "next_check": "2026-11-04T09:49:33.184320+00:00",
+      "last_seen": "2026-11-09T12:45:48.753174+00:00",
+      "next_check": "2026-12-09T12:45:48.753174+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-express/products-programming-reference-guides-list.html": {
       "content_sha": null,
@@ -10126,10 +10126,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-webex-contact-center-products-installation-and-configuration-guides-38355b7244",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:26.663357+00:00",
-      "last_seen": "2026-10-19T09:49:37.451653+00:00",
-      "next_check": "2026-11-04T09:49:37.451653+00:00",
+      "last_seen": "2026-11-09T12:45:53.271087+00:00",
+      "next_check": "2026-12-09T12:45:53.271087+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/webex-contact-center/series.html": {
       "content_sha": null,
@@ -12299,6 +12299,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218072-configure-a-user-as-a-full-external-admi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218072-configure-a-user-as-a-full-external-admi-mobi-a754b10c30",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:02.086608+00:00",
+      "last_seen": "2026-11-09T12:47:02.086619+00:00",
+      "next_check": "2026-11-10T12:47:02.086622+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-epub-3c94fca776",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:06.251104+00:00",
+      "last_seen": "2026-11-09T12:47:06.251115+00:00",
+      "next_check": "2026-11-10T12:47:06.251117+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.html": {
       "content_sha": "6004ab950426f3d86f1f912d43c87fd5224353d93d2016c45c72e355bc9d4141",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-html-4329b170a0",
@@ -12310,6 +12330,26 @@
       "last_seen": "2026-09-28T05:45:54.011668+00:00",
       "next_check": "2026-09-29T05:45:54.011668+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218104-configure-directory-connector-to-soft-de.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218104-configure-directory-connector-to-soft-de-mobi-8ce12aa60f",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:10.341137+00:00",
+      "last_seen": "2026-11-09T12:47:10.341153+00:00",
+      "next_check": "2026-11-10T12:47:10.341156+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-epub-6a27c7a25a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:14.677707+00:00",
+      "last_seen": "2026-11-09T12:47:14.677716+00:00",
+      "next_check": "2026-11-10T12:47:14.677719+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.html": {
@@ -12325,6 +12365,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/218127-understand-ediscovery-reports-to-search.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-218127-understand-ediscovery-reports-to-search-mobi-3de5278ad3",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:19.353855+00:00",
+      "last_seen": "2026-11-09T12:47:19.353866+00:00",
+      "next_check": "2026-11-10T12:47:19.353868+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-epub-823b3a34bf",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:23.502142+00:00",
+      "last_seen": "2026-11-09T12:47:23.502154+00:00",
+      "next_check": "2026-11-10T12:47:23.502157+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.html": {
       "content_sha": "bcc68293fae83a676574e79b65a76987d3f531aa6bde63b190a546cf9f351426",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-html-95d993a7d7",
@@ -12338,6 +12398,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220198-configure-business-texting-for-webex-cal.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220198-configure-business-texting-for-webex-cal-mobi-40ae439a17",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:27.788659+00:00",
+      "last_seen": "2026-11-09T12:47:27.788671+00:00",
+      "next_check": "2026-11-10T12:47:27.788675+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-epub-739000efc1",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:31.825009+00:00",
+      "last_seen": "2026-11-09T12:47:31.825021+00:00",
+      "next_check": "2026-11-10T12:47:31.825024+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.html": {
       "content_sha": "2165fd5a46f91767d2d3c7cf14fd3f97e553823930437cb1350b7e5f4dd1e379",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-html-fa526c467b",
@@ -12349,6 +12429,26 @@
       "last_seen": "2026-09-28T05:46:06.994650+00:00",
       "next_check": "2026-09-29T05:46:06.994650+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220390-troubleshoot-single-sign-on-admin-self-r.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220390-troubleshoot-single-sign-on-admin-self-r-mobi-36f6a42703",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:36.276972+00:00",
+      "last_seen": "2026-11-09T12:47:36.276984+00:00",
+      "next_check": "2026-11-10T12:47:36.276987+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220476-clear-azure-ad-integration-error-reques-epub-ed24a3627e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:47:44.863099+00:00",
+      "last_seen": "2026-11-09T12:47:44.863110+00:00",
+      "next_check": "2026-11-10T12:47:44.863112+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.html": {
@@ -21112,10 +21212,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-expressway-series-products-installation-and-configuration-guides-li-f1f356e129",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:31.300619+00:00",
-      "last_seen": "2026-10-19T09:49:41.708333+00:00",
-      "next_check": "2026-11-04T09:49:41.708333+00:00",
+      "last_seen": "2026-11-09T12:45:57.182708+00:00",
+      "next_check": "2026-12-09T12:45:57.182708+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/expressway-series/products-installation-guides-list.html": {
       "content_sha": null,
@@ -21383,6 +21483,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/spark/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-spark-series-html-199daafba2",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T12:47:43.857164+00:00",
+      "last_seen": "2026-11-09T12:47:43.857164+00:00",
+      "next_check": "2026-11-11T12:47:43.857164+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/tdm-gateways/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-tdm-gateways-series-html-d8a3e41790",
@@ -21444,20 +21554,20 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-border-element-products-configuration-examples-list-html-58b5141be3",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:35.350494+00:00",
-      "last_seen": "2026-10-19T09:49:45.789741+00:00",
-      "next_check": "2026-11-04T09:49:45.789741+00:00",
+      "last_seen": "2026-11-09T12:46:01.522403+00:00",
+      "next_check": "2026-12-09T12:46:01.522403+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-border-element-products-installation-and-configuration-guid-6e754de90d",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:39.332632+00:00",
-      "last_seen": "2026-10-19T09:49:49.900413+00:00",
-      "next_check": "2026-11-04T09:49:49.900413+00:00",
+      "last_seen": "2026-11-09T12:46:05.896085+00:00",
+      "next_check": "2026-12-09T12:46:05.896085+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/series.html": {
       "content_sha": null,
@@ -21518,20 +21628,20 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-implementation--7c70bdb34a",
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:14.144425+00:00",
-      "last_seen": "2026-10-19T09:49:54.294428+00:00",
-      "next_check": "2026-11-04T09:49:54.294428+00:00",
+      "last_seen": "2026-11-09T12:46:09.937365+00:00",
+      "next_check": "2026-12-09T12:46:09.937365+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-installation-an-8e9d71d5fa",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:43.554458+00:00",
-      "last_seen": "2026-10-19T09:49:58.291876+00:00",
-      "next_check": "2026-11-04T09:49:58.291876+00:00",
+      "last_seen": "2026-11-09T12:46:14.136281+00:00",
+      "next_check": "2026-12-09T12:46:14.136281+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-installation-guides-list.html": {
       "content_sha": null,
@@ -21558,10 +21668,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-programming-ref-533c9786d9",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:48.337129+00:00",
-      "last_seen": "2026-10-19T09:50:02.328486+00:00",
-      "next_check": "2026-11-04T09:50:02.328486+00:00",
+      "last_seen": "2026-11-09T12:46:18.445695+00:00",
+      "next_check": "2026-12-09T12:46:18.445695+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-release-notes-list.html": {
       "content_sha": null,
@@ -21600,10 +21710,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-manager-callmanager-products-troubleshooting-038abe6fed",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:52.073940+00:00",
-      "last_seen": "2026-10-19T09:50:06.451399+00:00",
-      "next_check": "2026-11-04T09:50:06.451399+00:00",
+      "last_seen": "2026-11-09T12:46:22.912511+00:00",
+      "next_check": "2026-12-09T12:46:22.912511+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html": {
       "content_sha": null,
@@ -21738,10 +21848,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-communications-system-products-implementation-design-guides-65380a87c4",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:52:56.082455+00:00",
-      "last_seen": "2026-10-19T09:50:10.616504+00:00",
-      "next_check": "2026-11-04T09:50:10.616504+00:00",
+      "last_seen": "2026-11-09T12:46:26.874189+00:00",
+      "next_check": "2026-12-09T12:46:26.874189+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-system/series.html": {
       "content_sha": null,
@@ -21926,20 +22036,20 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-connection-products-implementation-design-guides-list-html-3a83aba0bc",
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:23.246348+00:00",
-      "last_seen": "2026-10-19T09:50:14.802889+00:00",
-      "next_check": "2026-11-04T09:50:14.802889+00:00",
+      "last_seen": "2026-11-09T12:46:31.195396+00:00",
+      "next_check": "2026-12-09T12:46:31.195396+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unity-connection-products-installation-and-configuration-guides-lis-b977de0305",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:53:00.485812+00:00",
-      "last_seen": "2026-10-19T09:50:18.760432+00:00",
-      "next_check": "2026-11-04T09:50:18.760432+00:00",
+      "last_seen": "2026-11-09T12:46:35.444901+00:00",
+      "next_check": "2026-12-09T12:46:35.444901+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-maintenance-guides-list.html": {
       "content_sha": null,
@@ -21957,8 +22067,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:28.936156+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-02T12:39:56.540449+00:00",
-      "next_check": "2026-11-03T12:39:56.540449+00:00",
+      "last_seen": "2026-11-09T12:46:40.992326+00:00",
+      "next_check": "2026-11-10T12:46:40.992326+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -22072,10 +22182,10 @@
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-vg-series-gateways-products-installation-and-configuration-guides-l-efe4cfdb57",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:53:04.326377+00:00",
-      "last_seen": "2026-10-19T09:50:27.167622+00:00",
-      "next_check": "2026-11-04T09:50:27.167622+00:00",
+      "last_seen": "2026-11-09T12:46:44.052444+00:00",
+      "next_check": "2026-12-09T12:46:44.052444+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/vg-series-gateways/series.html": {
       "content_sha": null,
@@ -22141,8 +22251,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-24T22:16:54.567413+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-02T12:40:00.394804+00:00",
-      "next_check": "2026-11-03T12:40:00.394804+00:00",
+      "last_seen": "2026-11-09T12:46:48.920864+00:00",
+      "next_check": "2026-11-10T12:46:48.920864+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -26200,10 +26310,10 @@
       "first_seen": "2026-08-22T01:15:01.084530+00:00",
       "last_changed": "2026-09-27T10:53:13.779133+00:00",
       "last_modified": null,
-      "last_seen": "2026-10-19T09:50:35.736798+00:00",
-      "next_check": "2026-11-04T09:50:35.736798+00:00",
+      "last_seen": "2026-11-09T12:46:52.822364+00:00",
+      "next_check": "2026-12-09T12:46:52.822364+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/td/docs/routers/access/vg450/software/configuration/guide/vg450-scg/vg450-scg_chapter_01.html": {
       "content_sha": "dccbe0dbc43fb4fec98aca834c714be45f630b2cafc57fc522eccce3e1170f5b",
@@ -47029,10 +47139,10 @@
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-connection-rest-api-cupi-api-b-cupi-api-html-7d304f551e",
       "fail_count": 0,
       "first_seen": "2026-09-27T10:53:21.707544+00:00",
-      "last_seen": "2026-10-19T09:50:39.782331+00:00",
-      "next_check": "2026-11-04T09:50:39.782331+00:00",
+      "last_seen": "2026-11-09T12:46:56.454411+00:00",
+      "next_check": "2026-12-09T12:46:56.454411+00:00",
       "status": "discovery",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API/b_CUPI-API/b_CUPI-API_chapter_0100000.html": {
       "content_sha": "f6c08c7b5b96e3c2cef897d7ef92faa57c4660f83ba91ef3e005593947aff910",
@@ -48057,10 +48167,10 @@
       "first_seen": "2026-08-21T01:01:05.398620+00:00",
       "last_changed": "2026-09-27T10:53:26.647268+00:00",
       "last_modified": null,
-      "last_seen": "2026-10-19T09:50:44.349750+00:00",
-      "next_check": "2026-11-04T09:50:44.349750+00:00",
+      "last_seen": "2026-11-09T12:47:00.976075+00:00",
+      "next_check": "2026-12-09T12:47:00.976075+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API/b_CUTI_API_chapter_010.html": {
       "content_sha": "8a69e01ff9f045cda5624c451341bc90fd91963dcbdf6ed25eb9e075366001fa",
@@ -182003,5 +182113,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-02T13:36:51.814227+00:00"
+  "updated_at": "2026-11-09T12:47:44.922472+00:00"
 }

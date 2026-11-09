@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.127701+00:00
+retrieved_at: 2026-11-09T12:44:28.056592+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/holidayService

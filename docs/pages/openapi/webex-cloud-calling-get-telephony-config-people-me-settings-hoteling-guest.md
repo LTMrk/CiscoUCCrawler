@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 5
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.053675+00:00
+retrieved_at: 2026-11-09T12:44:28.002831+00:00
 ---
 
 # GET /telephony/config/people/me/settings/hoteling/guest

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/REA
 repo: webex/webex-js-sdk
 ruta: packages/calling/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:46.228169+00:00
+retrieved_at: 2026-11-09T12:44:37.465297+00:00
 ---
 
 # webex-js-sdk — packages/calling/README.md
@@ -52,7 +52,7 @@ yarn build:local
 ## Testing
 
 ```bash
- yarn workspace @webex/calling run test
+ yarn workspace @webex/calling run test:unit
 ```
 
 ## Samples 

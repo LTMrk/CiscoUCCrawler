@@ -10,7 +10,7 @@ tags: Resource Group Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:18.409465+00:00
+retrieved_at: 2026-11-09T12:44:27.100116+00:00
 ---
 
 # GET /resourceGroup/memberships/{resourceGroupMembershipId}

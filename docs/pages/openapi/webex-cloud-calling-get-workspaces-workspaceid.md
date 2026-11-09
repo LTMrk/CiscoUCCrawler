@@ -10,7 +10,7 @@ tags: Workspaces
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.317278+00:00
+retrieved_at: 2026-11-09T12:44:28.209715+00:00
 ---
 
 # GET /workspaces/{workspaceId}
@@ -26,6 +26,8 @@ Get Workspace Details
 Shows details for a workspace, by ID.
 
 The `locationId`, `workspaceLocationId`, `floorId`, `indoorNavigation`, `capacity`, `type` and `notes` fields will only be present if they have been set for the workspace. Specify the workspace ID in the `workspaceId` parameter in the URI.
+
+`enhancedAI.enabled` indicates whether a license is applied to the workspace. When `true`, `enhancedAI.license` contains the applied license, including a license selected automatically.
 
 ## Parámetros
 - `workspaceId` [path] (string) (**requerido**): A unique identifier for the workspace.
@@ -65,6 +67,9 @@ curl -X GET '/workspaces/<workspaceId>' \
 - `deviceHostedMeetings` (object): Device hosted meetings configuration.
   - `enabled` (boolean): `true` if enabled or `false` otherwise.
   - `siteUrl` (string): The Webex site for the device hosting meetings.
+- `enhancedAI` (object): Enhanced AI licensing state. When disabled, this object contains `enabled: false` without a `license`.
+  - `enabled` (boolean) (**requerido**): Whether an Enhanced AI license is applied to the workspace.
+  - `license` (string): The applied Enhanced AI license. Present only when `enabled` is `true`. This is the actual applied license, including when a license was selected automatically.
 - `devicePlatform` (string): The device platform.  * `cisco` - Cisco.  * `microsoftTeamsRoom` - Microsoft Teams Room. Valores: cisco, microsoftTeamsRoom.
 - `indoorNavigation` (object): Indoor navigation configuration.
   - `url` (string): URL of a map locating the workspace.
@@ -97,9 +102,6 @@ curl -X GET '/workspaces/<workspaceId>' \
   - `primarySipUrl` (string): The primary SIP address to dial this device.
   - `sipUrls` (array): All SIP addresses to dial this device.
   - `serial` (string): Serial number for the device.
-  - `software` (string): The operating system name data and version tag.
-  - `upgradeChannel` (string): The upgrade channel the device is assigned to.
-  - `created` (string) (**requerido**): The date and time that the device was registered, in ISO8601 format.
 
 ### Ejemplo — respuesta 200
 ```json
@@ -136,6 +138,9 @@ curl -X GET '/workspaces/<workspaceId>' \
     "enabled": true,
     "siteUrl": "'example.webex.com'"
   },
+  "enhancedAI": {
+    "enabled": false
+  },
   "devicePlatform": "cisco",
   "indoorNavigation": {},
   "health": {
@@ -156,8 +161,7 @@ curl -X GET '/workspaces/<workspaceId>' \
   "devices": [
     {
       "id": "Y2lzY29zcGFyazovL3VybjpURUFNOnVzLWVhc3QtMV9pbnQxMy9ERVZJQ0UvNTEwMUIwN0ItNEY4Ri00RUY3LUI1NjUtREIxOUM3QjcyM0Y3",
-      "displayName": "SFO12-3-PanHandle",
-      "placeId": "Y2lzY29zcGFyazovL3Vz
+      "displayName": "SFO12-3-PanHan
   ... (truncado)
 ```
 

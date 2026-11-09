@@ -10,7 +10,7 @@ tags: Campaign Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.631036+00:00
+retrieved_at: 2026-11-09T12:44:28.657318+00:00
 ---
 
 # GET /v3/campaign-management/campaign-groups/{campaignGroupName}/campaigns

@@ -10,7 +10,7 @@ tags: Contact Service Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.512534+00:00
+retrieved_at: 2026-11-09T12:44:28.569784+00:00
 ---
 
 # POST /organization/{orgid}/contact-service-queue/v2/bulk

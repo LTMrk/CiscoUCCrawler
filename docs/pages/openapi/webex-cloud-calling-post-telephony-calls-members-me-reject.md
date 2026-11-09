@@ -10,7 +10,7 @@ tags: Call Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.881335+00:00
+retrieved_at: 2026-11-09T12:44:27.958635+00:00
 ---
 
 # POST /telephony/calls/members/me/reject

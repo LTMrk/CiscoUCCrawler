@@ -10,7 +10,7 @@ tags: Business Hour
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.471501+00:00
+retrieved_at: 2026-11-09T12:44:28.541480+00:00
 ---
 
 # GET /organization/{orgid}/business-hours/{id}

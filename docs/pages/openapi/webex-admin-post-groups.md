@@ -10,7 +10,7 @@ tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:18.387541+00:00
+retrieved_at: 2026-11-09T12:44:27.083373+00:00
 ---
 
 # POST /groups

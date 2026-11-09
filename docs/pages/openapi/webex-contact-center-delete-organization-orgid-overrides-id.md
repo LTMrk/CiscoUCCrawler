@@ -10,7 +10,7 @@ tags: Overrides
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.479169+00:00
+retrieved_at: 2026-11-09T12:44:28.546685+00:00
 ---
 
 # DELETE /organization/{orgid}/overrides/{id}

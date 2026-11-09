@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.230264+00:00
+retrieved_at: 2026-11-09T12:44:28.127457+00:00
 ---
 
 # POST /telephony/config/people/{personId}/outgoingPermission/accessCodes

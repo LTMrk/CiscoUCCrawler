@@ -10,7 +10,7 @@ tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:21.058744+00:00
+retrieved_at: 2026-11-09T12:44:28.935341+00:00
 ---
 
 # DELETE /workspaceLocations/{locationId}/floors/{floorId}

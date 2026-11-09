@@ -10,7 +10,7 @@ tags: External Data Updates
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.588123+00:00
+retrieved_at: 2026-11-09T12:44:28.628015+00:00
 ---
 
 # PUT /v1/data/updateExternal

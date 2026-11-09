@@ -10,7 +10,7 @@ tags: DNC Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.629679+00:00
+retrieved_at: 2026-11-09T12:44:28.656409+00:00
 ---
 
 # POST /v3/campaign-management/dncList/{dncListName}/phoneNumber

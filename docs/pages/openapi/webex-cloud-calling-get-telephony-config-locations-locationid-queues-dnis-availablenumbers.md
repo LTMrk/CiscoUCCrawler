@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.137965+00:00
+retrieved_at: 2026-11-09T12:44:28.063938+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/dnis/availableNumbers
@@ -43,12 +43,12 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/dnis/availableNumbe
 ## Respuestas correctas
 **200**: OK
 - `phoneNumbers` (array): List of available phone numbers.
-  - `phoneNumber` (string): The phone number.
-  - `state` (string): Defines whether the number is active or not. Valores: ACTIVE, INACTIVE.
-  - `isMainNumber` (boolean): Flag to indicate if the number is used as location main number.
-  - `telephonyType` (string): Define type of number. Currently API supports only PSTN_NUMBER.
-  - `tollFreeNumber` (boolean): Flag to indicate if the number is toll free.
-  - `isServiceNumber` (boolean): Flag to indicate if the number is a Service Number.
+  - `phoneNumber` (string) (**requerido**): A unique identifier for the PSTN phone number.
+  - `state` (string) (**requerido**): Phone number's state.  - `ACTIVE` - Phone number is in the active state. - `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
+  - `telephonyType` (string) (**requerido**): The telephony type for the number.  - `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
+  - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
 
 ### Ejemplo — respuesta 200
 ```json

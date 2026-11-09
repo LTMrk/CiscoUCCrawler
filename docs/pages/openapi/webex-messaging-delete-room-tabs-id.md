@@ -10,7 +10,7 @@ tags: Room Tabs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:22.079145+00:00
+retrieved_at: 2026-11-09T12:44:29.747543+00:00
 ---
 
 # DELETE /room/tabs/{id}

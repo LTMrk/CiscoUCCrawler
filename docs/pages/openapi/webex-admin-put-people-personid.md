@@ -10,7 +10,7 @@ tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-09-30T18:17:18.400860+00:00
+retrieved_at: 2026-11-09T12:44:27.093639+00:00
 ---
 
 # PUT /people/{personId}

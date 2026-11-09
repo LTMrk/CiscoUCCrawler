@@ -10,7 +10,7 @@ tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:57.119639+00:00
+retrieved_at: 2026-11-09T12:44:28.050825+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}

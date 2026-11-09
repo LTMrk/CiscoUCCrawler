@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/T
 repo: webex/webex-byova-gateway-python
 ruta: docs/TESTING.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:10:45.038367+00:00
+retrieved_at: 2026-11-09T12:44:49.488322+00:00
 ---
 
 # webex-byova-gateway-python — docs/TESTING.md
@@ -13,8 +13,8 @@ Repositorio: webex/webex-byova-gateway-python
 
 # Testing Guide
 
-This guide covers the automated test suite and local smoke tests for the HTTP monitoring and
-gRPC services.
+This guide covers the automated test suite and local smoke tests for the HTTP monitoring,
+gRPC, and WebSocket services.
 
 ## Prerequisites
 
@@ -56,6 +56,28 @@ python run_tests.py tests/test_jwt_validation.py
 python run_tests.py tests/test_wxcc_gateway_server.py::TestConversationProcessor
 ```
 
+The WebSocket-focused local suite is:
+
+```bash
+python -m pytest \
+  tests/test_conversation_registry.py \
+  tests/test_websocket_models.py \
+  tests/test_websocket_adapter.py \
+  tests/test_websocket_server.py \
+  tests/test_gecx_websocket_connector.py \
+  tests/test_aws_lex_websocket_connector.py \
+  tests/test_main_websocket.py \
+  tests/test_virtual_agent_router.py
+```
+
+It uses local aiohttp test listeners and fake providers; it does not call Webex,
+AWS, or another external service.
+
+The socket tests also exercise cancelled worker admission, cleanup under worker
+saturation, queued cleanup during shutdown, and audio chunk size boundaries.
+Follow [WebSocket Live Testing](WEBSOCKET_LIVE_TESTING.md) after the local suite;
+local test success does not establish live WxCC or CES acceptance.
+
 List collected tests:
 
 ```bash
@@ -76,6 +98,9 @@ python main.py
 ```
 
 Do not use disabled authentication for a public or production endpoint.
+
+For a local dual-listener run and the discovery/session smoke client, follow
+[BYOVA WebSocket Transport](WEBSOCKET_TRANSPORT.md).
 
 ## HTTP Smoke Tests
 

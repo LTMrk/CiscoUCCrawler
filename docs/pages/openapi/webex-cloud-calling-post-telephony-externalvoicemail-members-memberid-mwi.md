@@ -10,7 +10,7 @@ tags: External Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-02T12:35:56.878641+00:00
+retrieved_at: 2026-11-09T12:44:27.956670+00:00
 ---
 
 # POST /telephony/externalVoicemail/members/{memberId}/mwi
