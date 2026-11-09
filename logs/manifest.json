@@ -15034,6 +15034,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-webrtc-server-221083-compare-cvi-and-webrtc-differe-8b0262a9af",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:21.934500+00:00",
+      "last_seen": "2026-11-09T13:14:21.934512+00:00",
+      "next_check": "2026-11-10T13:14:21.934515+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.html": {
       "content_sha": "e682eaa41822949e95051343e3e624522765555a072165d25b68ce403c6a0e77",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-webrtc-server-221083-compare-cvi-and-webrtc-differe-af82483efc",
@@ -15045,6 +15055,26 @@
       "last_seen": "2026-09-28T05:50:50.656573+00:00",
       "next_check": "2026-09-29T05:50:50.656573+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-webrtc-server-221083-compare-cvi-and-webrtc-differe-1fd6775e7c",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:26.063761+00:00",
+      "last_seen": "2026-11-09T13:14:26.063776+00:00",
+      "next_check": "2026-11-10T13:14:26.063780+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216558-as-a-tta-how-can-i-switch-between-diffe-epub-a1c5a51f61",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:30.143393+00:00",
+      "last_seen": "2026-11-09T13:14:30.143408+00:00",
+      "next_check": "2026-11-10T13:14:30.143412+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.html": {
@@ -15060,6 +15090,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216558-as-a-tta-how-can-i-switch-between-diffe-mobi-58c81d48b7",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:34.169869+00:00",
+      "last_seen": "2026-11-09T13:14:34.169881+00:00",
+      "next_check": "2026-11-10T13:14:34.169883+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216607-ums-extralogging-channels-epub-d9be7bd5a5",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:38.510802+00:00",
+      "last_seen": "2026-11-09T13:14:38.510814+00:00",
+      "next_check": "2026-11-10T13:14:38.510816+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.html": {
       "content_sha": "3b41bcb5abdf9d1baefbb44fd9e942895bce617e37053ca253858920460fbf0f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216607-ums-extralogging-channels-html-44dd32953d",
@@ -15073,6 +15123,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216607-ums-extralogging-channels-mobi-82a4cd0d96",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:42.698504+00:00",
+      "last_seen": "2026-11-09T13:14:42.698518+00:00",
+      "next_check": "2026-11-10T13:14:42.698523+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216690-working-with-large-sip-packets-epub-1af9045b99",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:46.808240+00:00",
+      "last_seen": "2026-11-09T13:14:46.808256+00:00",
+      "next_check": "2026-11-10T13:14:46.808260+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.html": {
       "content_sha": "06014f60f91295ef385914a24679039d451d89fd5a594083ca8a465092c30ba9",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216690-working-with-large-sip-packets-html-15386dc67e",
@@ -15084,6 +15154,16 @@
       "last_seen": "2026-09-28T05:51:02.973537+00:00",
       "next_check": "2026-09-29T05:51:02.973537+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216690-working-with-large-sip-packets-mobi-5b5895b68e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:14:50.852136+00:00",
+      "last_seen": "2026-11-09T13:14:50.852150+00:00",
+      "next_check": "2026-11-10T13:14:50.852155+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.html": {
@@ -22048,6 +22128,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-delivery-platform/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-application-delivery-platform-model-html-04b9af1780",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:13:55.540894+00:00",
+      "last_seen": "2026-11-09T13:13:55.540894+00:00",
+      "next_check": "2026-11-11T13:13:55.540894+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-server/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-application-server-model-html-ff7fee7f9c",
@@ -22058,6 +22148,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-database-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-database-server-model-html-a517929a1a",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:13:59.927638+00:00",
+      "last_seen": "2026-11-09T13:13:59.927638+00:00",
+      "next_check": "2026-11-11T13:13:59.927638+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-media-server/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-media-server-model-html-98442dbfac",
@@ -22065,6 +22165,56 @@
       "first_seen": "2026-11-09T13:11:49.096576+00:00",
       "last_seen": "2026-11-09T13:11:49.096576+00:00",
       "next_check": "2026-11-11T13:11:49.096576+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-database-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-network-database-server-model-html-51d69099ab",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:14:04.485878+00:00",
+      "last_seen": "2026-11-09T13:14:04.485878+00:00",
+      "next_check": "2026-11-11T13:14:04.485878+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-function-manager/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-network-function-manager-model-html-e9d4f43dd3",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:14:08.376827+00:00",
+      "last_seen": "2026-11-09T13:14:08.376827+00:00",
+      "next_check": "2026-11-11T13:14:08.376827+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-network-server-model-html-c328d77608",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:14:12.564632+00:00",
+      "last_seen": "2026-11-09T13:14:12.564632+00:00",
+      "next_check": "2026-11-11T13:14:12.564632+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-profile-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-profile-server-model-html-2bca83fb50",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:14:16.686933+00:00",
+      "last_seen": "2026-11-09T13:14:16.686933+00:00",
+      "next_check": "2026-11-11T13:14:16.686933+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-xtended-services-platform/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-xtended-services-platform-model-html-bc439c6d6a",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:14:20.821594+00:00",
+      "last_seen": "2026-11-09T13:14:20.821594+00:00",
+      "next_check": "2026-11-11T13:14:20.821594+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -28348,6 +28498,19 @@
       "next_check": "2026-09-30T11:00:48.677270+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/25/Documentation-Guide/cisco-broadworks-documentation-guide-release-25/1-planning-and-overview.html": {
+      "content_sha": "d4b4ef26cd3124f9cc65928af882f24ba708113957d6a620cff33d074846af46",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-broadworks-releases-25-documentation-guide-cisco-broadworks-documentation-gu-054e67bf01",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:13:51.570681+00:00",
+      "last_changed": "2026-11-09T13:13:51.570681+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-09T13:13:51.570681+00:00",
+      "next_check": "2026-11-10T13:13:51.570681+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/26/Documentation-Guide/cisco-broadworks-documentation-guide-release-26.html": {
       "content_sha": "b3b2d34c2b0b8fb7b18037eea8eaed235c74da6ade720cd3084b70abcf4e6502",
@@ -183116,5 +183279,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:11:54.074868+00:00"
+  "updated_at": "2026-11-09T13:14:50.914529+00:00"
 }

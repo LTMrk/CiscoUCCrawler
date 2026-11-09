@@ -1,69 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/25/Documentation-Guide/cisco-broadworks-documentation-guide-release-25/1-planning-and-overview.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-delivery-platform/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-database-server/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-database-server/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-function-manager/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-network-server/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-profile-server/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-xtended-services-platform/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-webrtc-server/221083-compare-cvi-and-webrtc-differences-and.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216558-as-a-tta-how-can-i-switch-between-diffe.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216607-ums-extralogging-channels.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216690-working-with-large-sip-packets.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.epub",
     "depth": 1
   },
@@ -10193,6 +10129,10 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks/products-release-notes-list.html",
     "depth": 2
   }
 ]
