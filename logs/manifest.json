@@ -9523,6 +9523,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-12-6-1/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-contact-center-unified-customer-voice-portal-12-6-1-model-html-2566cc612a",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:06:39.010934+00:00",
+      "last_seen": "2026-11-09T13:06:39.010934+00:00",
+      "next_check": "2026-11-11T13:06:39.010934+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/contact-center/unified-customer-voice-portal-15-0-1/model.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-contact-center-unified-customer-voice-portal-15-0-1-model-html-c8f72b1d49",
@@ -14648,6 +14658,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ata-190-series-analog-telephone-adapters-211318-configure-and--d67ef16483",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:06:39.699750+00:00",
+      "last_seen": "2026-11-09T13:06:39.699762+00:00",
+      "next_check": "2026-11-10T13:06:39.699766+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.html": {
       "content_sha": "f7d8e502a38932ea70c87a338efc6a15901b60f03a4b23910c37a8cf557dba7f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ata-190-series-analog-telephone-adapters-211318-configure-and--92e78fcb35",
@@ -14660,6 +14680,26 @@
       "next_check": "2026-10-02T05:50:01.054569+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/ata-190-series-analog-telephone-adapters/211318-Configure-and-Troubleshoot-PLAR-for-Anal.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-ata-190-series-analog-telephone-adapters-211318-configure-and--3a6fc2baa9",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:06:43.883032+00:00",
+      "last_seen": "2026-11-09T13:06:43.883044+00:00",
+      "next_check": "2026-11-10T13:06:43.883048+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221616-configure-fmc-with-ansible--7446634350",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:06:52.211368+00:00",
+      "last_seen": "2026-11-09T13:06:52.211379+00:00",
+      "next_check": "2026-11-10T13:06:52.211382+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.html": {
       "content_sha": "9795113ddd1e3a4f0c7c42e0b78ddaec8b2e4626d01e2f79430fb1fb67018f92",
@@ -14674,6 +14714,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221616-configure-fmc-with-ansible-to-update-ftd.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221616-configure-fmc-with-ansible--d9f5237853",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:06:56.234102+00:00",
+      "last_seen": "2026-11-09T13:06:56.234113+00:00",
+      "next_check": "2026-11-10T13:06:56.234115+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221617-configure-fmc-with-ansible--3c4831e63b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:07:08.712116+00:00",
+      "last_seen": "2026-11-09T13:07:08.712126+00:00",
+      "next_check": "2026-11-10T13:07:08.712129+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.html": {
       "content_sha": "51d796d41dfd1d0ebffce5cf628c45303c06633940ec9d38d02aa45671fd36f0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221617-configure-fmc-with-ansible--c0a1121b6b",
@@ -14685,6 +14745,16 @@
       "last_seen": "2026-09-28T05:50:09.863267+00:00",
       "next_check": "2026-09-29T05:50:09.863267+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-ansible-playbook/221617-configure-fmc-with-ansible-to-onboard-ft.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-ansible-playbook-221617-configure-fmc-with-ansible--b9275a6824",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:07:12.996652+00:00",
+      "last_seen": "2026-11-09T13:07:12.996663+00:00",
+      "next_check": "2026-11-10T13:07:12.996666+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.html": {
@@ -21730,6 +21800,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/security/defense-center-virtual-appliance/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-security-defense-center-virtual-appliance-series-html-f2a8674040",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:07:08.265795+00:00",
+      "last_seen": "2026-11-09T13:07:08.265795+00:00",
+      "next_check": "2026-11-11T13:07:08.265795+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c-series-integrated-management-controller/products-installation-and-configuration-guides-list.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-servers-unified-computing-ucs-c-series-integrated-management-controller-products-installat-0e9c75551e",
@@ -21776,6 +21856,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-ata-190-series-analog-telephone-adapters-series-html-c8537cf2a6",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:06:51.554004+00:00",
+      "last_seen": "2026-11-09T13:06:51.554004+00:00",
+      "next_check": "2026-11-11T13:06:51.554004+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-ata-190-series-analog-telephone-adapters-tsd-products-support-serie-553ccab52a",
@@ -21787,6 +21877,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/ata-190-series-analog-telephone-adapters/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-ansible-playbook/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-ansible-playbook-model-html-66de6096d0",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:07:04.027170+00:00",
+      "last_seen": "2026-11-09T13:07:04.027170+00:00",
+      "next_check": "2026-11-11T13:07:04.027170+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-3000/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -182816,5 +182916,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:04:50.541731+00:00"
+  "updated_at": "2026-11-09T13:07:13.061887+00:00"
 }
