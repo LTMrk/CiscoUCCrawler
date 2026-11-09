@@ -14889,6 +14889,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220164-configure-broadworks-ocis-846d0c8d0a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:19.836530+00:00",
+      "last_seen": "2026-11-09T13:11:19.836541+00:00",
+      "next_check": "2026-11-10T13:11:19.836544+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.html": {
       "content_sha": "5c0424c0a4f50fc3b89afb647aab131bbd9ebf5a1a79924a916109b713568fe7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220164-configure-broadworks-ocis-20e4e74d50",
@@ -14902,6 +14912,26 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220164-configure-broadworks-ocis-3526609ed0",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:24.135203+00:00",
+      "last_seen": "2026-11-09T13:11:24.135219+00:00",
+      "next_check": "2026-11-10T13:11:24.135223+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220172-configure-new-administrat-0c5678c2a2",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:28.990659+00:00",
+      "last_seen": "2026-11-09T13:11:28.990670+00:00",
+      "next_check": "2026-11-10T13:11:28.990678+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.html": {
       "content_sha": "cbd1d0c0ec348342df034eb258dbe93f4b1867c8698771ea024c777860f7c30e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220172-configure-new-administrat-a6d220ad8e",
@@ -14913,6 +14943,26 @@
       "last_seen": "2026-09-28T05:50:34.291690+00:00",
       "next_check": "2026-09-29T05:50:34.291690+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220172-configure-new-administrator-users-in-bro.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220172-configure-new-administrat-f0383c287a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:32.714336+00:00",
+      "last_seen": "2026-11-09T13:11:32.714350+00:00",
+      "next_check": "2026-11-10T13:11:32.714354+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220176-explain-announcement-play-35089bb96e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:36.942843+00:00",
+      "last_seen": "2026-11-09T13:11:36.942854+00:00",
+      "next_check": "2026-11-10T13:11:36.942857+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.html": {
@@ -14928,6 +14978,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220176-explain-announcement-playback-mechanism.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220176-explain-announcement-play-d8b3bfd07b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:41.274591+00:00",
+      "last_seen": "2026-11-09T13:11:41.274603+00:00",
+      "next_check": "2026-11-10T13:11:41.274606+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220570-broadworks-servers-r25-up-a947f6df97",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:49.884891+00:00",
+      "last_seen": "2026-11-09T13:11:49.884904+00:00",
+      "next_check": "2026-11-10T13:11:49.884909+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.html": {
       "content_sha": "f59d6c06bfccc4262006bfc2ea7101b204151cd320f9a644d502e8683732d3a1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220570-broadworks-servers-r25-up-504b37e9e5",
@@ -14939,6 +15009,16 @@
       "last_seen": "2026-09-28T05:50:42.617150+00:00",
       "next_check": "2026-09-29T05:50:42.617150+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220570-broadworks-servers-r25-upgrade-mop.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220570-broadworks-servers-r25-up-f00460f09a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:11:53.998186+00:00",
+      "last_seen": "2026-11-09T13:11:53.998196+00:00",
+      "next_check": "2026-11-10T13:11:53.998200+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-database-server/225053-clarify-dbs-end-of-life-options.html": {
@@ -21965,6 +22045,26 @@
       "first_seen": "2026-11-09T13:07:04.027170+00:00",
       "last_seen": "2026-11-09T13:07:04.027170+00:00",
       "next_check": "2026-11-11T13:07:04.027170+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-application-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-application-server-model-html-ff7fee7f9c",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:11:19.468762+00:00",
+      "last_seen": "2026-11-09T13:11:19.468762+00:00",
+      "next_check": "2026-11-11T13:11:19.468762+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks-media-server/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-media-server-model-html-98442dbfac",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:11:49.096576+00:00",
+      "last_seen": "2026-11-09T13:11:49.096576+00:00",
+      "next_check": "2026-11-11T13:11:49.096576+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -183016,5 +183116,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:09:29.414986+00:00"
+  "updated_at": "2026-11-09T13:11:54.074868+00:00"
 }
