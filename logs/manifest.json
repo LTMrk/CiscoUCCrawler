@@ -9635,6 +9635,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-finesse-series-html-844376cb33",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:02:18.334789+00:00",
+      "last_seen": "2026-11-09T13:02:18.334789+00:00",
+      "next_check": "2026-11-11T13:02:18.334789+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/finesse/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-finesse-tsd-products-support-series-home-html-76162e1908",
@@ -13426,6 +13436,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-215434-how-to-contact-the-customer-success-mana-epub-54ef78bab4",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:01:49.987755+00:00",
+      "last_seen": "2026-11-09T13:01:49.987767+00:00",
+      "next_check": "2026-11-10T13:01:49.987770+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.html": {
       "content_sha": "136b6e7b66ba63f6f1e1ee51fe28054adb6d31494918f40ce3e33fa76f72ed7f",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-215434-how-to-contact-the-customer-success-mana-html-3a3e618f7b",
@@ -13437,6 +13457,26 @@
       "last_seen": "2026-09-28T05:48:25.314039+00:00",
       "next_check": "2026-09-29T05:48:25.314039+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-215434-how-to-contact-the-customer-success-mana-mobi-11c9dc7d85",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:01:53.713637+00:00",
+      "last_seen": "2026-11-09T13:01:53.713650+00:00",
+      "next_check": "2026-11-10T13:01:53.713654+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-222607-troubleshoot-hybrid-calendar-error-erro-epub-6f34d5351b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:01:57.873820+00:00",
+      "last_seen": "2026-11-09T13:01:57.873831+00:00",
+      "next_check": "2026-11-10T13:01:57.873834+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.html": {
@@ -13452,6 +13492,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/222607-troubleshoot-hybrid-calendar-error-erro.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-222607-troubleshoot-hybrid-calendar-error-erro-mobi-f809864a65",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:02:02.004227+00:00",
+      "last_seen": "2026-11-09T13:02:02.004241+00:00",
+      "next_check": "2026-11-10T13:02:02.004245+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-223083-troubleshoot-webex-scheduling-error-epub-532b85b8a0",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:02:06.610170+00:00",
+      "last_seen": "2026-11-09T13:02:06.613218+00:00",
+      "next_check": "2026-11-10T13:02:06.613223+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.html": {
       "content_sha": "ff62a46088199d5e8aaac537a08d687883324d53cf600f866194f997ad639e9c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-223083-troubleshoot-webex-scheduling-error-html-010e227ed5",
@@ -13463,6 +13523,16 @@
       "last_seen": "2026-09-28T05:48:33.947326+00:00",
       "next_check": "2026-09-29T05:48:33.947326+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/223083-troubleshoot-webex-scheduling-error.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-support-223083-troubleshoot-webex-scheduling-error-mobi-3a48e3b467",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:02:10.459376+00:00",
+      "last_seen": "2026-11-09T13:02:10.459389+00:00",
+      "next_check": "2026-11-10T13:02:10.459392+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-webcasting/222148-verify-webex-calling-license-usage.epub": {
@@ -13576,6 +13646,19 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/211330-Finesse-FIPPA-Phone-URL-Authentication.html": {
+      "content_sha": "623b33845db8398040fa15598aa9fb7bbfec17a31a5ef68cb63a55302a0c25fd",
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-211330-finesse-fippa-phone-url-authentication-html-badb0166d1",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:02:22.142129+00:00",
+      "last_changed": "2026-11-09T13:02:22.142129+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-09T13:02:22.142129+00:00",
+      "next_check": "2026-11-10T13:02:22.142129+00:00",
+      "status": "active",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/finesse/212634-troubleshoot-cisco-finesse-desktop-persi.html": {
       "content_sha": "4c224240e293c61ae39fa85fd9fea07b1cc4988afa0df7bfb1427becd7e684fb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-finesse-212634-troubleshoot-cisco-finesse-desktop-persi-html-1666f938f4",
@@ -13666,6 +13749,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-socialminer-200892-integrate-uccx-with-socialminer-for-agen-ep-ba69e00385",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:02:22.699212+00:00",
+      "last_seen": "2026-11-09T13:02:22.699229+00:00",
+      "next_check": "2026-11-10T13:02:22.699235+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.html": {
       "content_sha": "93128db6dc46f7ea7bf501c56ff1590929ad5fb4ea197e8ee6d5b1927f7a5b17",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-socialminer-200892-integrate-uccx-with-socialminer-for-agen-ht-afa800b9d5",
@@ -13677,6 +13770,16 @@
       "last_seen": "2026-09-28T05:49:03.163822+00:00",
       "next_check": "2026-09-29T05:49:03.163822+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/socialminer/200892-integrate-uccx-with-socialminer-for-agen.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-socialminer-200892-integrate-uccx-with-socialminer-for-agen-mo-a8bb18b75d",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:02:26.670631+00:00",
+      "last_seen": "2026-11-09T13:02:26.670642+00:00",
+      "next_check": "2026-11-10T13:02:26.670645+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-enterprise-1001/213399-configure-mobile-agent-on-ucce.html": {
@@ -182613,5 +182716,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:59:51.995829+00:00"
+  "updated_at": "2026-11-09T13:02:26.738658+00:00"
 }
