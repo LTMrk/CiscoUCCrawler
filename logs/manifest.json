@@ -13222,6 +13222,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221842-use-qr-code-on-android-phone-to-join-web-epub-fe1f609a50",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:14.934912+00:00",
+      "last_seen": "2026-11-09T12:59:14.934922+00:00",
+      "next_check": "2026-11-10T12:59:14.934925+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.html": {
       "content_sha": "c0c7077af2395146e4e6d2c008edfbd88b0ce3ebfac1153dcb45eddc581f38ef",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221842-use-qr-code-on-android-phone-to-join-web-html-4412b4b7a5",
@@ -13233,6 +13243,26 @@
       "last_seen": "2026-09-28T05:47:52.529322+00:00",
       "next_check": "2026-09-29T05:47:52.529322+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/221842-use-qr-code-on-android-phone-to-join-web.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-221842-use-qr-code-on-android-phone-to-join-web-mobi-9b4041ded6",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:18.581385+00:00",
+      "last_seen": "2026-11-09T12:59:18.581395+00:00",
+      "next_check": "2026-11-10T12:59:18.581398+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-222722-troubleshoot-camera-issues-in-webex-app-epub-878b93a53d",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:22.643809+00:00",
+      "last_seen": "2026-11-09T12:59:22.643818+00:00",
+      "next_check": "2026-11-10T12:59:22.643821+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.html": {
@@ -13248,6 +13278,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222722-troubleshoot-camera-issues-in-webex-app.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-222722-troubleshoot-camera-issues-in-webex-app-mobi-0a5337005d",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:26.698450+00:00",
+      "last_seen": "2026-11-09T12:59:26.698461+00:00",
+      "next_check": "2026-11-10T12:59:26.698463+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/222768-record-webex-sessions-automatically.html": {
       "content_sha": "76753c32f41c9fe544bd749c2b46ad3b11ad2acee2c99f8afe1cbab94fd9b8c0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-222768-record-webex-sessions-automatically-html-f21c88d087",
@@ -13261,6 +13301,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-223078-troubleshoot-webex-desktop-error-epub-7c4eace1c8",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:30.949443+00:00",
+      "last_seen": "2026-11-09T12:59:30.949455+00:00",
+      "next_check": "2026-11-10T12:59:30.949459+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.html": {
       "content_sha": "b22469e3e50c210a38426ab3c9de2225289090632173fd1885389c7f48e0f3b8",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-223078-troubleshoot-webex-desktop-error-html-f05f532dd4",
@@ -13272,6 +13322,16 @@
       "last_seen": "2026-09-28T05:48:04.118784+00:00",
       "next_check": "2026-09-29T05:48:04.118784+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/223078-troubleshoot-webex-desktop-error.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-223078-troubleshoot-webex-desktop-error-mobi-b2f839c708",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:35.019197+00:00",
+      "last_seen": "2026-11-09T12:59:35.019208+00:00",
+      "next_check": "2026-11-10T12:59:35.019212+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224869-troubleshoot-meeting-stuck-in-calendar.html": {
@@ -13300,6 +13360,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224955-configure-guest-email-requirement-for-epub-55f357d717",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:39.113789+00:00",
+      "last_seen": "2026-11-09T12:59:39.113802+00:00",
+      "next_check": "2026-11-10T12:59:39.113805+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.html": {
       "content_sha": "9175613486a2a5f4e8ffe395588983f9b0bf9669c9d50bee887c6aa707225d09",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224955-configure-guest-email-requirement-for-html-230b4ecca1",
@@ -13313,6 +13383,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/224955-configure-guest-email-requirement-for.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-224955-configure-guest-email-requirement-for-mobi-24b2ab68a2",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:43.613966+00:00",
+      "last_seen": "2026-11-09T12:59:43.613977+00:00",
+      "next_check": "2026-11-10T12:59:43.613980+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-225637-troubleshoot-cloud-devices-failed-to-epub-3cde8b83d6",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:47.659761+00:00",
+      "last_seen": "2026-11-09T12:59:47.659778+00:00",
+      "next_check": "2026-11-10T12:59:47.659781+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.html": {
       "content_sha": "32cc3ed7800f8587a44fc100e605807eb789336c70e469ab2b0205050c1465da",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-225637-troubleshoot-cloud-devices-failed-to-html-bcee34f8b8",
@@ -13324,6 +13414,16 @@
       "last_seen": "2026-09-28T05:48:21.071789+00:00",
       "next_check": "2026-09-29T05:48:21.071789+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/225637-troubleshoot-cloud-devices-failed-to.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-225637-troubleshoot-cloud-devices-failed-to-mobi-538a83fa51",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:59:51.942004+00:00",
+      "last_seen": "2026-11-09T12:59:51.942013+00:00",
+      "next_check": "2026-11-10T12:59:51.942016+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-support/215434-how-to-contact-the-customer-success-mana.html": {
@@ -182513,5 +182613,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:57:32.627998+00:00"
+  "updated_at": "2026-11-09T12:59:51.995829+00:00"
 }
