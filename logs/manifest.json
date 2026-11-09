@@ -14757,6 +14757,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220-221699-troubleshoot-webex-fo-c5eba0e141",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:08:51.979770+00:00",
+      "last_seen": "2026-11-09T13:08:51.979781+00:00",
+      "next_check": "2026-11-10T13:08:51.979784+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.html": {
       "content_sha": "98f82ae3660d1d67de382ee7911bf09e721487d0d79b498a5ede46a53564450c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220-221699-troubleshoot-webex-fo-9ba66c1573",
@@ -14768,6 +14778,26 @@
       "last_seen": "2026-09-28T05:50:13.327287+00:00",
       "next_check": "2026-09-29T05:50:13.327287+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-220/221699-troubleshoot-webex-for-bworks-failed-to.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220-221699-troubleshoot-webex-fo-374a62c830",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:08:55.826283+00:00",
+      "last_seen": "2026-11-09T13:08:55.826294+00:00",
+      "next_check": "2026-11-10T13:08:55.826297+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-220179-troubleshoot-call-set-317607cc65",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:04.266811+00:00",
+      "last_seen": "2026-11-09T13:09:04.266823+00:00",
+      "next_check": "2026-11-10T13:09:04.266828+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.html": {
@@ -14783,6 +14813,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/220179-troubleshoot-call-setup-issues-with-vtr.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-220179-troubleshoot-call-set-15cbe77d04",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:08.379245+00:00",
+      "last_seen": "2026-11-09T13:09:08.379256+00:00",
+      "next_check": "2026-11-10T13:09:08.379260+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-223111-activate-enabledelayq-ddfa6245a8",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:12.526969+00:00",
+      "last_seen": "2026-11-09T13:09:12.526980+00:00",
+      "next_check": "2026-11-10T13:09:12.526984+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.html": {
       "content_sha": "d01ab36ddb3b336fa53ca594f4ce154b98e5ab2bde15912335441c63e4f8c884",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-223111-activate-enabledelayq-14868405bc",
@@ -14796,6 +14846,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server-240/223111-activate-enabledelayquickreinvite-on.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-240-223111-activate-enabledelayq-5dfb312daf",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:16.680205+00:00",
+      "last_seen": "2026-11-09T13:09:16.680216+00:00",
+      "next_check": "2026-11-10T13:09:16.680219+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220158-troubleshoot-broadworks-s-ed32d95720",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:25.209515+00:00",
+      "last_seen": "2026-11-09T13:09:25.209527+00:00",
+      "next_check": "2026-11-10T13:09:25.209530+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.html": {
       "content_sha": "79b12275fe115472416c4df3a83d0ddf22708a884e208d7415e4aa755c7f974c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220158-troubleshoot-broadworks-s-2cea92bd25",
@@ -14807,6 +14877,16 @@
       "last_seen": "2026-09-28T05:50:26.136775+00:00",
       "next_check": "2026-09-29T05:50:26.136775+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220158-troubleshoot-broadworks-snmp-availabilit.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-application-server-220158-troubleshoot-broadworks-s-ce9a5dd86e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:09:29.349554+00:00",
+      "last_seen": "2026-11-09T13:09:29.349565+00:00",
+      "next_check": "2026-11-10T13:09:29.349568+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks-application-server/220164-configure-broadworks-ocisendertool.html": {
@@ -21888,6 +21968,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/broadworks/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-broadworks-series-html-1a2b1b75c3",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:09:24.934795+00:00",
+      "last_seen": "2026-11-09T13:09:24.934795+00:00",
+      "next_check": "2026-11-11T13:09:24.934795+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-3000/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-3000-tsd-products-support-series-home-html-2d8e404cd4",
@@ -23035,6 +23125,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/virtualization-experience-media-engine/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/webex-broadworks/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-webex-broadworks-series-html-8c9ef1e8c1",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:09:03.458327+00:00",
+      "last_seen": "2026-11-09T13:09:03.458327+00:00",
+      "next_check": "2026-11-11T13:09:03.458327+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling-app/series.html": {
       "content_sha": null,
@@ -182916,5 +183016,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:07:13.061887+00:00"
+  "updated_at": "2026-11-09T13:09:29.414986+00:00"
 }
