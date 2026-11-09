@@ -1,44 +1,7 @@
 {
-  "run_at": "2026-11-09T12:44:30.608559+00:00",
-  "added": [
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/callRecordings",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/aiReceptionists/{aiReceptionistId}/callRecordings",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail",
-    "Webex Cloud Calling: GET /telephony/config/autoAttendants/{autoAttendantId}/voicemail/availableMembers",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/passcode",
-    "Webex Cloud Calling: POST /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail/actions/uploadNoAnswerGreeting/invoke",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/autoAttendants/faxMessage/availableNumbers",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/queues/{queueId}/voicemail",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail",
-    "Webex Cloud Calling: GET /telephony/config/queues/{queueId}/voicemail/availableMembers",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/passcode",
-    "Webex Cloud Calling: POST /telephony/config/locations/{locationId}/queues/{queueId}/voicemail/actions/uploadNoAnswerGreeting/invoke",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/queues/faxMessage/availableNumbers",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail",
-    "Webex Cloud Calling: GET /telephony/config/huntGroups/{huntGroupId}/voicemail/availableMembers",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/members",
-    "Webex Cloud Calling: PUT /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/passcode",
-    "Webex Cloud Calling: POST /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/voicemail/actions/uploadNoAnswerGreeting/invoke",
-    "Webex Cloud Calling: GET /telephony/config/locations/{locationId}/huntGroups/faxMessage/availableNumbers"
-  ],
+  "run_at": "2026-11-09T12:49:10.812334+00:00",
+  "added": [],
   "removed": [],
   "deprecated": [],
-  "specs_cambiados": [
-    "webex-admin.json",
-    "webex-broadworks.json",
-    "webex-cloud-calling.json",
-    "webex-contact-center.json",
-    "webex-device.json",
-    "webex-meeting.json",
-    "webex-messaging.json",
-    "webex-ucm.json",
-    "webex-wholesale.json"
-  ]
+  "specs_cambiados": []
 }

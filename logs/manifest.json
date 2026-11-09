@@ -12464,6 +12464,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220476-clear-azure-ad-integration-error-reques.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220476-clear-azure-ad-integration-error-reques-mobi-1b50f2e206",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:33.424097+00:00",
+      "last_seen": "2026-11-09T12:49:33.424107+00:00",
+      "next_check": "2026-11-10T12:49:33.424110+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-epub-1b3e30fc5f",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:36.890316+00:00",
+      "last_seen": "2026-11-09T12:49:36.890331+00:00",
+      "next_check": "2026-11-10T12:49:36.890335+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.html": {
       "content_sha": "0d3ff65eb7f53e08e0f33238ee13c5fbaa64eeaea67f1bbc6ba08246ab3bc633",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-html-6cf88413aa",
@@ -12475,6 +12495,26 @@
       "last_seen": "2026-09-28T05:46:15.412515+00:00",
       "next_check": "2026-09-29T05:46:15.412515+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/220504-deploy-and-use-of-webex-call-integration.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-220504-deploy-and-use-of-webex-call-integration-mobi-cf1e9ae10c",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:40.993721+00:00",
+      "last_seen": "2026-11-09T12:49:40.993732+00:00",
+      "next_check": "2026-11-10T12:49:40.993735+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-221084-configure-join-before-host-audio-for-pcn-epub-e0c382861f",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:45.260576+00:00",
+      "last_seen": "2026-11-09T12:49:45.260587+00:00",
+      "next_check": "2026-11-10T12:49:45.260590+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.html": {
@@ -12490,6 +12530,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/221084-configure-join-before-host-audio-for-pcn.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-221084-configure-join-before-host-audio-for-pcn-mobi-10cdf371aa",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:49.525493+00:00",
+      "last_seen": "2026-11-09T12:49:49.525505+00:00",
+      "next_check": "2026-11-10T12:49:49.525509+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222013-troubleshoot-invalid-email-invitations-i-epub-6b85ccbb0a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:53.729068+00:00",
+      "last_seen": "2026-11-09T12:49:53.729078+00:00",
+      "next_check": "2026-11-10T12:49:53.729081+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.html": {
       "content_sha": "56f3104b96f109f9ee517f6f3675c29efdc50e745ca1d6f1de19b44392a03a9d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222013-troubleshoot-invalid-email-invitations-i-html-f6ce484adc",
@@ -12501,6 +12561,16 @@
       "last_seen": "2026-09-28T05:46:23.906858+00:00",
       "next_check": "2026-09-29T05:46:23.906858+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222013-troubleshoot-invalid-email-invitations-i.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222013-troubleshoot-invalid-email-invitations-i-mobi-80525ad85b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:49:57.761196+00:00",
+      "last_seen": "2026-11-09T12:49:57.761206+00:00",
+      "next_check": "2026-11-10T12:49:57.761208+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222020-troubleshoot-e911-location-with-webex-uc.html": {
@@ -12516,6 +12586,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222059-fix-serviceability-connector-error-anal-epub-ee5620e312",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:50:02.664821+00:00",
+      "last_seen": "2026-11-09T12:50:02.664833+00:00",
+      "next_check": "2026-11-10T12:50:02.664836+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.html": {
       "content_sha": "a55487f915be9466f7ac9d4ff9836dc681c67fb1ddb0f7720a95e60361cdb116",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222059-fix-serviceability-connector-error-anal-html-020d492d34",
@@ -12527,6 +12607,16 @@
       "last_seen": "2026-09-28T05:46:27.978612+00:00",
       "next_check": "2026-09-29T05:46:27.978612+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222059-fix-serviceability-connector-error-anal.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222059-fix-serviceability-connector-error-anal-mobi-01638505b7",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:50:06.744710+00:00",
+      "last_seen": "2026-11-09T12:50:06.744722+00:00",
+      "next_check": "2026-11-10T12:50:06.744725+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222139-create-a-pega-ticket-from-control-hub.epub": {
@@ -12573,6 +12663,16 @@
       "last_seen": "2026-09-28T05:46:32.490087+00:00",
       "next_check": "2026-09-29T05:46:32.490087+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222559-enable-1080p-video-resolution-for-webex-epub-bfca01b9e6",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:50:10.625872+00:00",
+      "last_seen": "2026-11-09T12:50:10.625882+00:00",
+      "next_check": "2026-11-10T12:50:10.625886+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.html": {
@@ -182113,5 +182213,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:47:44.922472+00:00"
+  "updated_at": "2026-11-09T12:50:10.683075+00:00"
 }
