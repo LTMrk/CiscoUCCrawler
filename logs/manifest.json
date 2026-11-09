@@ -9935,6 +9935,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-management-portal-series-html-dd5c6d1a58",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T13:04:45.295222+00:00",
+      "last_seen": "2026-11-09T13:04:45.295222+00:00",
+      "next_check": "2026-11-11T13:04:45.295222+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/customer-collaboration/unified-contact-center-management-portal/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-customer-collaboration-unified-contact-center-management-portal-tsd-products-support-serie-1eba6bc0c6",
@@ -13951,6 +13961,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-epub-aa4115ca74",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:13.088627+00:00",
+      "last_seen": "2026-11-09T13:04:13.088639+00:00",
+      "next_check": "2026-11-10T13:04:13.088642+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.html": {
       "content_sha": "6d8be9ec071245cd2edbbb0164a43020d6854151829b3b67fe6820b77df5d5f5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-html-10fbab52ef",
@@ -13962,6 +13982,16 @@
       "last_seen": "2026-09-28T05:49:27.885948+00:00",
       "next_check": "2026-09-29T05:49:27.885948+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/118855-configure-uccx-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-118855-configure-uccx-00-mobi-eb0a501ebf",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:16.979099+00:00",
+      "last_seen": "2026-11-09T13:04:16.979114+00:00",
+      "next_check": "2026-11-10T13:04:16.979119+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/119428-technote-uccx-00.html": {
@@ -14015,6 +14045,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200764-uccx-call-back-feature-a-e24c42d06e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:21.030564+00:00",
+      "last_seen": "2026-11-09T13:04:21.030580+00:00",
+      "next_check": "2026-11-10T13:04:21.030586+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.html": {
       "content_sha": "543f6afb37be84a292fd7e17d8d274af44f30473601469df9130563210a20b01",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200764-uccx-call-back-feature-a-3757899202",
@@ -14027,6 +14067,16 @@
       "next_check": "2026-10-14T05:49:36.315043+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/200764-UCCX-Call-Back-Feature-as-seen-on-CUCM-a.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-200764-uccx-call-back-feature-a-da3835fdab",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:25.554847+00:00",
+      "last_seen": "2026-11-09T13:04:25.554860+00:00",
+      "next_check": "2026-11-10T13:04:25.554863+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/210485-uccx-agent-login-issues.html": {
       "content_sha": "52f44911a6fd7e406fd09329b274d030e685b993d75b668d6bf5c7f9111a4b4c",
@@ -14078,6 +14128,16 @@
       "last_seen": "2026-09-28T05:49:40.384848+00:00",
       "next_check": "2026-09-29T05:49:40.384848+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211530-Unsupported-configurations-for-UCCX-and.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-express-211530-unsupported-configuratio-570a12f895",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:29.557643+00:00",
+      "last_seen": "2026-11-09T13:04:29.557654+00:00",
+      "next_check": "2026-11-10T13:04:29.557658+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-express/211578-Install-and-Configure-the-Shibboleth-Ide.html": {
@@ -14171,6 +14231,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-management-portal-200895-ccmp-reskill-a-f5959205fb",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:33.768427+00:00",
+      "last_seen": "2026-11-09T13:04:33.768440+00:00",
+      "next_check": "2026-11-10T13:04:33.768443+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.html": {
       "content_sha": "2925fc88ccc2802dc4c62722f4fc0a598ace4343aa4c3da7b2ba066da509286e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-management-portal-200895-ccmp-reskill-a-fc50c469d0",
@@ -14184,6 +14254,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-contact-center-management-portal/200895-CCMP-Reskill-attempt-generates-error-Gl.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-contact-center-management-portal-200895-ccmp-reskill-a-c567b48b9c",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:37.809723+00:00",
+      "last_seen": "2026-11-09T13:04:37.809737+00:00",
+      "next_check": "2026-11-10T13:04:37.809743+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-1001-213318-understand-cisco-voi-30716afe70",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:46.368643+00:00",
+      "last_seen": "2026-11-09T13:04:46.368658+00:00",
+      "next_check": "2026-11-10T13:04:46.368662+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.html": {
       "content_sha": "b7b85e260799dd56288c75352fe470d308799474d4f395d6238f226fd70ca4a0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-1001-213318-understand-cisco-voi-d28c298afb",
@@ -14195,6 +14285,16 @@
       "last_seen": "2026-09-28T05:49:48.555337+00:00",
       "next_check": "2026-09-29T05:49:48.555337+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-1001/213318-understand-cisco-voice-portal-courtesy-c.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-customer-collaboration-unified-customer-voice-portal-1001-213318-understand-cisco-voi-e1a7c76676",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T13:04:50.471919+00:00",
+      "last_seen": "2026-11-09T13:04:50.471932+00:00",
+      "next_check": "2026-11-10T13:04:50.471937+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/customer-collaboration/unified-customer-voice-portal-901/116178-technote-cvp-00.html": {
@@ -182716,5 +182816,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:02:26.738658+00:00"
+  "updated_at": "2026-11-09T13:04:50.541731+00:00"
 }
