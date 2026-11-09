@@ -9357,6 +9357,16 @@
       "status": "discovery",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meeting-center-series-html-953c34c864",
+      "fail_count": 0,
+      "first_seen": "2026-11-09T12:54:41.679089+00:00",
+      "last_seen": "2026-11-09T12:54:41.679089+00:00",
+      "next_check": "2026-11-11T12:54:41.679089+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/conferencing/webex-meeting-center/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-conferencing-webex-meeting-center-tsd-products-support-series-home-html-3726e2404a",
@@ -12866,6 +12876,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222998-troubleshoot-saml-assertion-expired-sso-mobi-b2ec934331",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:17.134523+00:00",
+      "last_seen": "2026-11-09T12:54:17.134536+00:00",
+      "next_check": "2026-11-10T12:54:17.134538+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223200-troubleshoot-hybrid-management.html": {
       "content_sha": "84c336d206a684cb010ebb060f0f54bc25fc17769926c84b794fcbd120a5351c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223200-troubleshoot-hybrid-management-html-144e6aa12b",
@@ -12877,6 +12897,16 @@
       "last_seen": "2026-09-28T05:47:05.864695+00:00",
       "next_check": "2026-09-29T05:47:05.864695+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223574-troubleshoot-errors-when-adding-domain-epub-98278fbaff",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:21.477458+00:00",
+      "last_seen": "2026-11-09T12:54:21.477469+00:00",
+      "next_check": "2026-11-10T12:54:21.477471+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.html": {
@@ -12892,6 +12922,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/223574-troubleshoot-errors-when-adding-domain.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-223574-troubleshoot-errors-when-adding-domain-mobi-fa5568ce88",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:25.701310+00:00",
+      "last_seen": "2026-11-09T12:54:25.701327+00:00",
+      "next_check": "2026-11-10T12:54:25.701335+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225038-troubleshoot-hybrid-calendar-with.html": {
       "content_sha": "8c7ff7f606519ca9e274936174de2704fc6fb2e786ba486e31c71d8357d466ce",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225038-troubleshoot-hybrid-calendar-with-html-bf87d21898",
@@ -12905,6 +12945,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225439-identify-if-webex-app-is-restricted-in-epub-5655ff439f",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:30.000508+00:00",
+      "last_seen": "2026-11-09T12:54:30.000522+00:00",
+      "next_check": "2026-11-10T12:54:30.000524+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.html": {
       "content_sha": "74caecb3484c2f71dcffa10e004753912f01dc8899cb6c82bd9ec715b70a560d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225439-identify-if-webex-app-is-restricted-in-html-ad5d6cef7a",
@@ -12916,6 +12966,16 @@
       "last_seen": "2026-09-28T05:47:14.679122+00:00",
       "next_check": "2026-09-29T05:47:14.679122+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225439-identify-if-webex-app-is-restricted-in.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225439-identify-if-webex-app-is-restricted-in-mobi-621948f48b",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:34.088191+00:00",
+      "last_seen": "2026-11-09T12:54:34.088208+00:00",
+      "next_check": "2026-11-10T12:54:34.088211+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225553-how-to-resolve-impaired-service-error.html": {
@@ -12931,6 +12991,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-epub-82522ac0ea",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:42.849509+00:00",
+      "last_seen": "2026-11-09T12:54:42.849530+00:00",
+      "next_check": "2026-11-10T12:54:42.849534+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.html": {
       "content_sha": "2862419402bca2ac528938a1a480ea745b8cf7e40584fd2186d6bff411156b4e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-html-c86bc80770",
@@ -12944,6 +13014,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/225668-manage-profile-pictures-using-cisco.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-225668-manage-profile-pictures-using-cisco-mobi-337a931455",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:47.074686+00:00",
+      "last_seen": "2026-11-09T12:54:47.074697+00:00",
+      "next_check": "2026-11-10T12:54:47.074699+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-online-217863-configure-graphics-card-to-fix-webex-vid-ep-afaeefd719",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:51.189765+00:00",
+      "last_seen": "2026-11-09T12:54:51.189778+00:00",
+      "next_check": "2026-11-10T12:54:51.189780+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.html": {
       "content_sha": "f391cb8c2d7b21a13fa78daa220139dc52b8fdf3e5d6cda3028b7740d5f0a558",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-online-217863-configure-graphics-card-to-fix-webex-vid-ht-5ff9599c29",
@@ -12955,6 +13045,16 @@
       "last_seen": "2026-09-28T05:47:26.998949+00:00",
       "next_check": "2026-09-29T05:47:26.998949+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings-online/217863-configure-graphics-card-to-fix-webex-vid.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-meetings-online-217863-configure-graphics-card-to-fix-webex-vid-mo-f862e499c5",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:54:55.667591+00:00",
+      "last_seen": "2026-11-09T12:54:55.667604+00:00",
+      "next_check": "2026-11-10T12:54:55.667606+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-meetings/214861-exception-meetings-on-google-calendar.html": {
@@ -182313,5 +182413,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:52:39.551672+00:00"
+  "updated_at": "2026-11-09T12:54:55.720532+00:00"
 }
