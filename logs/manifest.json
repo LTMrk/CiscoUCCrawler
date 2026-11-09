@@ -12688,6 +12688,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222559-enable-1080p-video-resolution-for-webex.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222559-enable-1080p-video-resolution-for-webex-mobi-82991b0860",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:02.068696+00:00",
+      "last_seen": "2026-11-09T12:52:02.068707+00:00",
+      "next_check": "2026-11-10T12:52:02.068711+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222698-troubleshoot-saml-response-error-in-dire.html": {
       "content_sha": "59ff30359a33b8f13a103d659e7523b9d9469de59782cd54929504a59962aa95",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222698-troubleshoot-saml-response-error-in-dire-html-0c66ff09a1",
@@ -12699,6 +12709,16 @@
       "last_seen": "2026-09-28T05:46:40.899988+00:00",
       "next_check": "2026-09-29T05:46:40.899988+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222835-troubleshoot-webex-workspace-scheduling-epub-aabd1f6b20",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:06.092032+00:00",
+      "last_seen": "2026-11-09T12:52:06.092047+00:00",
+      "next_check": "2026-11-10T12:52:06.092051+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.html": {
@@ -12714,6 +12734,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222835-troubleshoot-webex-workspace-scheduling.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222835-troubleshoot-webex-workspace-scheduling-mobi-8fda095fd1",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:10.158778+00:00",
+      "last_seen": "2026-11-09T12:52:10.158791+00:00",
+      "next_check": "2026-11-10T12:52:10.158795+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-epub-26d6b5f7b7",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:14.437673+00:00",
+      "last_seen": "2026-11-09T12:52:14.437686+00:00",
+      "next_check": "2026-11-10T12:52:14.437690+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.html": {
       "content_sha": "4e10dc7cb1ad6d1a7062fbd2c00ad90a6194139a17e835c85a2192571c30b4fc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-html-cb1a9fad6b",
@@ -12725,6 +12765,26 @@
       "last_seen": "2026-09-28T05:46:49.589836+00:00",
       "next_check": "2026-09-29T05:46:49.589836+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222952-troubleshoot-webex-scheduling-error.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222952-troubleshoot-webex-scheduling-error-mobi-456c29028a",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:18.482080+00:00",
+      "last_seen": "2026-11-09T12:52:18.482093+00:00",
+      "next_check": "2026-11-10T12:52:18.482098+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222958-troubleshoot-hybrid-calendar-error-an-epub-4cc7e5d946",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:22.781758+00:00",
+      "last_seen": "2026-11-09T12:52:22.781769+00:00",
+      "next_check": "2026-11-10T12:52:22.781773+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.html": {
@@ -12740,6 +12800,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222958-troubleshoot-hybrid-calendar-error-an.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222958-troubleshoot-hybrid-calendar-error-an-mobi-908b0a6a9c",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:26.801533+00:00",
+      "last_seen": "2026-11-09T12:52:26.801547+00:00",
+      "next_check": "2026-11-10T12:52:26.801552+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222997-add-required-attribute-uid-in-adfs-epub-d5c4bbb7c4",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:31.249916+00:00",
+      "last_seen": "2026-11-09T12:52:31.249928+00:00",
+      "next_check": "2026-11-10T12:52:31.249931+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.html": {
       "content_sha": "ad39d37304cd2740afea77a30737503a4041e5372ae4213223bedf61f9548371",
       "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222997-add-required-attribute-uid-in-adfs-html-8d9f4f8e3a",
@@ -12751,6 +12831,26 @@
       "last_seen": "2026-09-28T05:46:57.549280+00:00",
       "next_check": "2026-09-29T05:46:57.549280+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222997-add-required-attribute-uid-in-adfs.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222997-add-required-attribute-uid-in-adfs-mobi-986fcf7d4e",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:35.383132+00:00",
+      "last_seen": "2026-11-09T12:52:35.383145+00:00",
+      "next_check": "2026-11-10T12:52:35.383149+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-conferencing-webex-control-hub-222998-troubleshoot-saml-assertion-expired-sso-epub-03b15cacfe",
+      "fail_count": 1,
+      "first_seen": "2026-11-09T12:52:39.485468+00:00",
+      "last_seen": "2026-11-09T12:52:39.485483+00:00",
+      "next_check": "2026-11-10T12:52:39.485488+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/conferencing/webex-control-hub/222998-troubleshoot-saml-assertion-expired-sso.html": {
@@ -182213,5 +182313,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T12:50:10.683075+00:00"
+  "updated_at": "2026-11-09T12:52:39.551672+00:00"
 }
