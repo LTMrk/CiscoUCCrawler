@@ -16873,6 +16873,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200121-cisco-unified-comunic-80c98212e3",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:10.317559+00:00",
+      "last_seen": "2026-11-16T13:31:10.317572+00:00",
+      "next_check": "2026-11-17T13:31:10.317575+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.html": {
       "content_sha": "c5b4b55d978120722f362ccc459aaf9f74f5d1ce18a02458b2a3ba401f098ca0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200121-cisco-unified-comunic-0ead9270aa",
@@ -16884,6 +16894,16 @@
       "last_seen": "2026-09-28T05:53:39.032243+00:00",
       "next_check": "2026-09-29T05:53:39.032243+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200121-cisco-unified-comunic-c7f1c70875",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:14.038302+00:00",
+      "last_seen": "2026-11-16T13:31:14.038321+00:00",
+      "next_check": "2026-11-17T13:31:14.038326+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.html": {
@@ -16899,6 +16919,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200375-cisco-unified-cdm-mod-b53f2cc4f2",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:17.876601+00:00",
+      "last_seen": "2026-11-16T13:31:17.876625+00:00",
+      "next_check": "2026-11-17T13:31:17.876630+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.html": {
       "content_sha": "7b7cc6b7a1ad999e6d734277eef925bdeff87baf1ab63203049c5b64f9f45607",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200375-cisco-unified-cdm-mod-4375144148",
@@ -16910,6 +16940,26 @@
       "last_seen": "2026-09-28T05:53:43.131790+00:00",
       "next_check": "2026-09-29T05:53:43.131790+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-200375-cisco-unified-cdm-mod-08d332a67b",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:21.900982+00:00",
+      "last_seen": "2026-11-16T13:31:21.900999+00:00",
+      "next_check": "2026-11-17T13:31:21.901004+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-212706-troubleshoot-noncisco-f9d8d6505a",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:26.119203+00:00",
+      "last_seen": "2026-11-16T13:31:26.119219+00:00",
+      "next_check": "2026-11-17T13:31:26.119223+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.html": {
@@ -16925,6 +16975,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-212706-troubleshoot-noncisco-2dea3f5a7d",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:30.780474+00:00",
+      "last_seen": "2026-11-16T13:31:30.780486+00:00",
+      "next_check": "2026-11-17T13:31:30.780488+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-222630-configure-deployment--637e9bbebf",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:35.091359+00:00",
+      "last_seen": "2026-11-16T13:31:35.091375+00:00",
+      "next_check": "2026-11-17T13:31:35.091379+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.html": {
       "content_sha": "5ddb0071db2f66f845d71517720d1078a31548cf360de19f1320f8837cac1da6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-222630-configure-deployment--e25c26b566",
@@ -16938,6 +17008,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-222630-configure-deployment--2303647c87",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:38.689647+00:00",
+      "last_seen": "2026-11-16T13:31:38.689659+00:00",
+      "next_check": "2026-11-17T13:31:38.689662+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-1061-212358-cisco-unifie-1494e97141",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:42.984681+00:00",
+      "last_seen": "2026-11-16T13:31:42.984693+00:00",
+      "next_check": "2026-11-17T13:31:42.984696+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.html": {
       "content_sha": "1e8a39ef16f8bd55930a64af2df0a9af64de1b96afff5e810023754be626901d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-1061-212358-cisco-unifie-dfb536d050",
@@ -16949,6 +17039,16 @@
       "last_seen": "2026-09-28T05:53:55.996640+00:00",
       "next_check": "2026-09-29T05:53:55.996640+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-1061-212358-cisco-unifie-2a9973e738",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:31:47.329048+00:00",
+      "last_seen": "2026-11-16T13:31:47.329070+00:00",
+      "next_check": "2026-11-17T13:31:47.329078+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.html": {
@@ -183950,5 +184050,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T13:29:25.870128+00:00"
+  "updated_at": "2026-11-16T13:31:47.385561+00:00"
 }
