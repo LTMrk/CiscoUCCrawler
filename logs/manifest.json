@@ -15430,6 +15430,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217565-ems-stops-logging-alarms-with-ap-ems-22-epub-940811dff4",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:27.141055+00:00",
+      "last_seen": "2026-11-16T12:43:27.141066+00:00",
+      "next_check": "2026-11-17T12:43:27.141069+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.html": {
       "content_sha": "9e63b804dddd1d20abc5107801343c58daac2951c02bea2ada30998b91c72dbd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217565-ems-stops-logging-alarms-with-ap-ems-22-html-f28d1a4dd8",
@@ -15441,6 +15451,16 @@
       "last_seen": "2026-09-28T05:51:41.054565+00:00",
       "next_check": "2026-09-29T05:51:41.054565+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217565-ems-stops-logging-alarms-with-ap-ems-22-mobi-fda3689e1b",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:31.010596+00:00",
+      "last_seen": "2026-11-16T12:43:31.010612+00:00",
+      "next_check": "2026-11-17T12:43:31.010617+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220163-use-broadworks-switchdevicetype-feature.html": {
@@ -15456,6 +15476,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-220174-troubleshoot-commpilot-error-ssl-error-epub-13aa1fe581",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:35.231181+00:00",
+      "last_seen": "2026-11-16T12:43:35.231193+00:00",
+      "next_check": "2026-11-17T12:43:35.231196+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.html": {
       "content_sha": "b38a8175c1905aa5e59cf8dcc15a75507c788e66ab588366c7644b94c9901e5a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-220174-troubleshoot-commpilot-error-ssl-error-html-78fd09458f",
@@ -15467,6 +15497,26 @@
       "last_seen": "2026-09-28T05:51:48.995007+00:00",
       "next_check": "2026-09-29T05:51:48.995007+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/220174-troubleshoot-commpilot-error-ssl-error.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-220174-troubleshoot-commpilot-error-ssl-error-mobi-b367968f84",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:39.187356+00:00",
+      "last_seen": "2026-11-16T12:43:39.187367+00:00",
+      "next_check": "2026-11-17T12:43:39.187371+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221119-guide-for-upgrading-from-broadworks-21-s-epu-c0f706f8a0",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:43.464451+00:00",
+      "last_seen": "2026-11-16T12:43:43.464464+00:00",
+      "next_check": "2026-11-17T12:43:43.464467+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.html": {
@@ -15482,6 +15532,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221119-guide-for-upgrading-from-broadworks-21-s.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221119-guide-for-upgrading-from-broadworks-21-s-mob-7597a14f2e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:47.703681+00:00",
+      "last_seen": "2026-11-16T12:43:47.703694+00:00",
+      "next_check": "2026-11-17T12:43:47.703699+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221143-guide-for-upgrading-from-broadworks-22-0-epu-4aa99f7639",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:43:56.169007+00:00",
+      "last_seen": "2026-11-16T12:43:56.169023+00:00",
+      "next_check": "2026-11-17T12:43:56.169028+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.html": {
       "content_sha": "1d5e763eddc5953757c65d440413f87049d44230a29651ba912c6338c92cc9cc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221143-guide-for-upgrading-from-broadworks-22-0-htm-a67c021fa5",
@@ -15493,6 +15563,26 @@
       "last_seen": "2026-09-28T05:51:57.342955+00:00",
       "next_check": "2026-09-29T05:51:57.342955+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221143-guide-for-upgrading-from-broadworks-22-0.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221143-guide-for-upgrading-from-broadworks-22-0-mob-3fe6335d59",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:44:00.515941+00:00",
+      "last_seen": "2026-11-16T12:44:00.515956+00:00",
+      "next_check": "2026-11-17T12:44:00.515959+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221674-update-trusts-for-cti-interface-in-webex-epu-389d55d788",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:44:04.553523+00:00",
+      "last_seen": "2026-11-16T12:44:04.553537+00:00",
+      "next_check": "2026-11-17T12:44:04.553542+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.html": {
@@ -28645,6 +28735,19 @@
       "next_check": "2026-09-30T11:00:44.289267+00:00",
       "status": "active",
       "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/24/Documentation-Guide/cisco-broadworks-documentation-guide-/planning-and-overview.html": {
+      "content_sha": "bfdc4c39b4612066c3eaf75c695101986f7ed326f6a5158df766ce6d43440786",
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-broadworks-releases-24-documentation-guide-cisco-broadworks-documentation-gu-ba8d49fb5e",
+      "etag": null,
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:43:55.522460+00:00",
+      "last_changed": "2026-11-16T12:43:55.522460+00:00",
+      "last_modified": null,
+      "last_seen": "2026-11-16T12:43:55.522460+00:00",
+      "next_check": "2026-11-17T12:43:55.522460+00:00",
+      "status": "active",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/broadworks/Releases/25/Documentation-Guide/cisco-broadworks-documentation-guide-release-25.html": {
       "content_sha": "e84b93a64ccff467e66e7efe06003eea70a74124117252bb2ecaf0efdb520d0a",
@@ -183439,5 +183542,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:41:27.479978+00:00"
+  "updated_at": "2026-11-16T12:44:04.619035+00:00"
 }
