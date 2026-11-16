@@ -15265,6 +15265,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217005-tools-for-managing-broadworks-nfm-vs-cs-epub-fadd89488e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:40:50.239447+00:00",
+      "last_seen": "2026-11-16T12:40:50.239457+00:00",
+      "next_check": "2026-11-17T12:40:50.239459+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.html": {
       "content_sha": "4e790940acc149d3dd968cb1373367dccc08573dc69bae5f15a9df1e21806100",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217005-tools-for-managing-broadworks-nfm-vs-cs-html-a4f1265bab",
@@ -15276,6 +15286,26 @@
       "last_seen": "2026-09-28T05:51:19.788018+00:00",
       "next_check": "2026-09-29T05:51:19.788018+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217005-tools-for-managing-broadworks-nfm-vs-cs-mobi-a3987946ca",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:40:53.807083+00:00",
+      "last_seen": "2026-11-16T12:40:53.807097+00:00",
+      "next_check": "2026-11-17T12:40:53.807100+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217006-collaboration-solution-analyser-csa-epub-dff5094938",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:40:57.920135+00:00",
+      "last_seen": "2026-11-16T12:40:57.920149+00:00",
+      "next_check": "2026-11-17T12:40:57.920151+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.html": {
@@ -15291,6 +15321,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217006-collaboration-solution-analyser-csa.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217006-collaboration-solution-analyser-csa-mobi-907c2f8ea0",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:02.015089+00:00",
+      "last_seen": "2026-11-16T12:41:02.015101+00:00",
+      "next_check": "2026-11-17T12:41:02.015103+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217007-simplified-patch-management-operations-u-epu-e814c74572",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:06.254397+00:00",
+      "last_seen": "2026-11-16T12:41:06.254411+00:00",
+      "next_check": "2026-11-17T12:41:06.254414+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.html": {
       "content_sha": "078404d509837cb1a24cb0ae8fd1a552d22a83f31f9d69f7ca1be2113780f6c0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217007-simplified-patch-management-operations-u-htm-41cf1750a6",
@@ -15302,6 +15352,26 @@
       "last_seen": "2026-09-28T05:51:28.348522+00:00",
       "next_check": "2026-09-29T05:51:28.348522+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217007-simplified-patch-management-operations-u.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217007-simplified-patch-management-operations-u-mob-1459656395",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:10.546834+00:00",
+      "last_seen": "2026-11-16T12:41:10.546844+00:00",
+      "next_check": "2026-11-17T12:41:10.546846+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217558-configuring-http-2-for-broadworks-nps-wi-epu-823b254dda",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:14.948543+00:00",
+      "last_seen": "2026-11-16T12:41:14.948552+00:00",
+      "next_check": "2026-11-17T12:41:14.948554+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.html": {
@@ -15317,6 +15387,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217558-configuring-http-2-for-broadworks-nps-wi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217558-configuring-http-2-for-broadworks-nps-wi-mob-6b2d7909da",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:18.942957+00:00",
+      "last_seen": "2026-11-16T12:41:18.942967+00:00",
+      "next_check": "2026-11-17T12:41:18.942969+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217564-cap-needs-to-be-disabled-post-22-0-upgra-epu-f505ac0167",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:23.251226+00:00",
+      "last_seen": "2026-11-16T12:41:23.251235+00:00",
+      "next_check": "2026-11-17T12:41:23.251237+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.html": {
       "content_sha": "e3dfd6fcd6b7a93cbd7b6c7f3c7bb34b04a99798bad7e5955f4fc50c1258a079",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217564-cap-needs-to-be-disabled-post-22-0-upgra-htm-0f3c55564e",
@@ -15328,6 +15418,16 @@
       "last_seen": "2026-09-28T05:51:36.743000+00:00",
       "next_check": "2026-09-29T05:51:36.743000+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217564-cap-needs-to-be-disabled-post-22-0-upgra.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-217564-cap-needs-to-be-disabled-post-22-0-upgra-mob-94c034dc53",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:41:27.438109+00:00",
+      "last_seen": "2026-11-16T12:41:27.438120+00:00",
+      "next_check": "2026-11-17T12:41:27.438122+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217565-ems-stops-logging-alarms-with-ap-ems-22.html": {
@@ -183339,5 +183439,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:38:25.410806+00:00"
+  "updated_at": "2026-11-16T12:41:27.479978+00:00"
 }
