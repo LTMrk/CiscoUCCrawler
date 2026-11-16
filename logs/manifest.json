@@ -280,6 +280,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://developer.cisco.com/docs/contact-center-express/configuration-api-dev-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-docs-contact-center-express-configuration-api-dev-guide-a4f803b556",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:33:57.419709+00:00",
+      "last_seen": "2026-11-16T13:33:57.419709+00:00",
+      "next_check": "2026-11-18T13:33:57.419709+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://developer.cisco.com/docs/contact-center-express/configuration-api-overview/": {
       "content_sha": "6ffb5b57df46e2abadeb49593d386802010be7bcb44f94e08ece037c7d558398",
       "doc_id": "developer-cisco-com-docs-contact-center-express-configuration-api-overview-d380558ae3",
@@ -306,6 +316,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://developer.cisco.com/docs/contact-center-express/cti-protocol-dev-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-docs-contact-center-express-cti-protocol-dev-guide-cc663917ca",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:33:48.036272+00:00",
+      "last_seen": "2026-11-16T13:33:48.036272+00:00",
+      "next_check": "2026-11-18T13:33:48.036272+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://developer.cisco.com/docs/contact-center-express/cti-protocol-overview/": {
       "content_sha": "2b64865ab8574f36e5714bcaa030b4636706d8694a1ad9904b9446376390714b",
       "doc_id": "developer-cisco-com-docs-contact-center-express-cti-protocol-overview-7c8061aa3c",
@@ -330,6 +350,16 @@
       "last_seen": "2026-09-27T16:03:54.048334+00:00",
       "next_check": "2026-09-29T16:03:54.048334+00:00",
       "status": "active",
+      "unchanged_runs": 1
+    },
+    "https://developer.cisco.com/docs/contact-center-express/customer-collaboration-platform-dev-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-docs-contact-center-express-customer-collaboration-platform-dev-guide-6805a9302d",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:34:02.345831+00:00",
+      "last_seen": "2026-11-16T13:34:02.345831+00:00",
+      "next_check": "2026-11-18T13:34:02.345831+00:00",
+      "status": "discovery",
       "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/error-e-status-codes/": {
@@ -434,6 +464,16 @@
       "last_seen": "2026-09-27T16:04:27.498309+00:00",
       "next_check": "2026-09-29T16:04:27.498309+00:00",
       "status": "active",
+      "unchanged_runs": 1
+    },
+    "https://developer.cisco.com/docs/contact-center-express/scripting-and-development-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-docs-contact-center-express-scripting-and-development-guide-3e32a51a4b",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:33:52.670426+00:00",
+      "last_seen": "2026-11-16T13:33:52.670426+00:00",
+      "next_check": "2026-11-18T13:33:52.670426+00:00",
+      "status": "discovery",
       "unchanged_runs": 1
     },
     "https://developer.cisco.com/docs/contact-center-express/scripting-overview/": {
@@ -994,6 +1034,15 @@
       "next_check": "2026-12-02T12:37:29.194545+00:00",
       "status": "active",
       "unchanged_runs": 6
+    },
+    "https://developer.cisco.com/docs/packaged-contact-center/api-dev-guide/": {
+      "content_sha": null,
+      "doc_id": "developer-cisco-com-docs-packaged-contact-center-api-dev-guide-2873d2a900",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:34:06.497757+00:00",
+      "last_seen": "2026-11-16T13:34:06.497771+00:00",
+      "status": "gone",
+      "unchanged_runs": 0
     },
     "https://developer.cisco.com/docs/packaged-contact-center/sandbox/": {
       "content_sha": "4e872f592899f4194ef01547b6e047f37332807901c1f5121161b9f0dcbf2f74",
@@ -17051,6 +17100,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-115-214607-hcm-f-gui-is--39aa3e9016",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:33:38.225778+00:00",
+      "last_seen": "2026-11-16T13:33:38.225789+00:00",
+      "next_check": "2026-11-17T13:33:38.225792+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.html": {
       "content_sha": "6a7b02f46c416b7ffab7cb92510e23eb6d4f0a44966ccf9bbd1daa4aa9dedba0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-115-214607-hcm-f-gui-is--49c0359bd5",
@@ -17064,6 +17123,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-115-214607-hcm-f-gui-is--1f2df5f69d",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:33:42.424668+00:00",
+      "last_seen": "2026-11-16T13:33:42.424685+00:00",
+      "next_check": "2026-11-17T13:33:42.424690+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-125-214796-hcm-f-smartli-22c91897b3",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:34:06.628154+00:00",
+      "last_seen": "2026-11-16T13:34:06.628165+00:00",
+      "next_check": "2026-11-17T13:34:06.628168+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html": {
       "content_sha": "9316fc3221555db316544104a5931833e29624c6a70151428edd50c4081b6068",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-125-214796-hcm-f-smartli-cc7179357a",
@@ -17075,6 +17154,16 @@
       "last_seen": "2026-09-28T06:14:21.938183+00:00",
       "next_check": "2026-09-29T06:14:21.938183+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-version-125-214796-hcm-f-smartli-2120cc1b22",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:34:10.884763+00:00",
+      "last_seen": "2026-11-16T13:34:10.884778+00:00",
+      "next_check": "2026-11-17T13:34:10.884785+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/ios-gateways-session-initiation-protocol-sip/212411-how-to-get-packet-capture-from-vxml-gate.epub": {
@@ -17154,6 +17243,16 @@
       "last_seen": "2026-09-27T12:53:34.693301+00:00",
       "next_check": "2026-09-28T12:53:34.693301+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-android-201013-configure-jabber-for-android-to-register-a1c38c7b57",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:34:15.446488+00:00",
+      "last_seen": "2026-11-16T13:34:15.446501+00:00",
+      "next_check": "2026-11-17T13:34:15.446506+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-android/201013-Configure-Jabber-for-Android-to-register.html": {
@@ -184050,5 +184149,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T13:31:47.385561+00:00"
+  "updated_at": "2026-11-16T13:34:15.519566+00:00"
 }

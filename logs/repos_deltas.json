@@ -1,5 +1,17 @@
 {
  "added": [],
- "modified": [],
+ "modified": [
+  "webex/webex-js-sdk/docs/index.md",
+  "webex/webex-js-sdk/packages/@webex/common-timers/src/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/helper-html/src/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/internal-plugin-llm/src/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/internal-plugin-mercury/src/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/internal-plugin-mercury/src/socket/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/plugin-logger/src/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/web-extension-bridge/docs/specs/README.md",
+  "webex/webex-js-sdk/packages/@webex/web-extension-bridge/src/core/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/web-extension-bridge/src/extension/docs/README.md",
+  "webex/webex-js-sdk/packages/@webex/web-extension-bridge/src/web/docs/README.md"
+ ],
  "removed": []
 }

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/we
 repo: webex/webex-js-sdk
 ruta: packages/@webex/web-extension-bridge/docs/specs/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:44.838969+00:00
+retrieved_at: 2026-11-16T13:33:11.773328+00:00
 ---
 
 # webex-js-sdk — packages/@webex/web-extension-bridge/docs/specs/README.md
@@ -59,8 +59,8 @@ One row per module in `.sdd/manifest.json`, which stays authoritative; this tabl
 | Module | Responsibility | Manifest coverage state | Start here |
 | --- | --- | --- | --- |
 | `src/core` | Env-agnostic protocol, validation, correlation, rate limit, errors, and logger | Partial | `src/core/docs/README.md` |
-| `src/web` | Page adapter: `createWebBridge` over `window.postMessage` | Partial | `src/web/docs/README.md` |
 | `src/extension` | Isolated-world relay, privileged worker bridge, and extension UI client | Partial | `src/extension/docs/README.md` |
+| `src/web` | Page adapter: `createWebBridge` over `window.postMessage` | Partial | `src/web/docs/README.md` |
 
 ## Change and verification routing
 
