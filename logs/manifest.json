@@ -15805,6 +15805,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226133-determine-nfvis-for-uc-c41b75ea21",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:26.495523+00:00",
+      "last_seen": "2026-11-16T12:48:26.495537+00:00",
+      "next_check": "2026-11-17T12:48:26.495540+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html": {
       "content_sha": "e39508387ceedd5fa4025f414bb15f0bc5deb82300817abac82902b4c0e2a847",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226133-determine-nfvis-for-uc-56387b75b9",
@@ -15816,6 +15826,26 @@
       "last_seen": "2026-09-28T05:52:35.443820+00:00",
       "next_check": "2026-09-29T05:52:35.443820+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226133-determine-nfvis-for-uc-e2a7607b14",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:30.557491+00:00",
+      "last_seen": "2026-11-16T12:48:30.557510+00:00",
+      "next_check": "2026-11-17T12:48:30.557514+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226136-configure-nfvis-for-uc-f3928ce7fc",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:34.706532+00:00",
+      "last_seen": "2026-11-16T12:48:34.706546+00:00",
+      "next_check": "2026-11-17T12:48:34.706549+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.html": {
@@ -15831,6 +15861,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226136-configure-nfvis-for-uc-d18636d1ec",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:38.757110+00:00",
+      "last_seen": "2026-11-16T12:48:38.757122+00:00",
+      "next_check": "2026-11-17T12:48:38.757125+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/118847-technote-ucs-00.html": {
       "content_sha": "374d049c01702c1c311d1724fddc732c227df77ea85a65636a13adfc707e69b3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-118847-technote-ucs-00-html-abcc027bad",
@@ -15844,6 +15884,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-221005-upgrade-esxi-for-a-business-editi-9c1db710b9",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:46.900997+00:00",
+      "last_seen": "2026-11-16T12:48:46.901009+00:00",
+      "next_check": "2026-11-17T12:48:46.901012+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.html": {
       "content_sha": "f0751b331bc6cdf1c51ec92591c0656a32ae7be2a7ce9d3e44352374de88b4b6",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-221005-upgrade-esxi-for-a-business-editi-1deba02550",
@@ -15855,6 +15905,26 @@
       "last_seen": "2026-09-28T05:52:47.231053+00:00",
       "next_check": "2026-09-29T05:52:47.231053+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-221005-upgrade-esxi-for-a-business-editi-dec45a6a2b",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:51.130286+00:00",
+      "last_seen": "2026-11-16T12:48:51.130304+00:00",
+      "next_check": "2026-11-17T12:48:51.130309+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-223082-uc-on-ucs-hardware-replacement-fo-f6c7924472",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:48:55.269910+00:00",
+      "last_seen": "2026-11-16T12:48:55.269924+00:00",
+      "next_check": "2026-11-17T12:48:55.269928+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.html": {
@@ -22615,6 +22685,26 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-6000/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000-version-15/model.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-7000-version-15-model-html-3132b0b821",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:48:26.217893+00:00",
+      "last_seen": "2026-11-16T12:48:26.217893+00:00",
+      "next_check": "2026-11-18T12:48:26.217893+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-business-edition-7000-series-html-deaf019293",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:48:19.997098+00:00",
+      "last_seen": "2026-11-16T12:48:19.997098+00:00",
+      "next_check": "2026-11-18T12:48:19.997098+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -95879,6 +95969,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T11:03:10.622259+00:00",
       "next_check": "2026-08-26T11:03:10.622259+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_CF3D71B4_00_cucm_virtual_servers/CUCM_BK_CF3D71B4_00_cucm_virtual_servers_chapter_010.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cucm-virtual-cucm-bk-cf3d71b4-00-cucm-virtual-servers-cucm-bk-cf3d71b4-00-cu-25bc99c653",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:48:46.026039+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-16T12:48:46.026050+00:00",
+      "next_check": "2026-11-17T12:48:46.026050+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -183644,5 +183746,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:46:23.844420+00:00"
+  "updated_at": "2026-11-16T12:48:55.335460+00:00"
 }

@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/business-edition-7000-version-15/model.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_CF3D71B4_00_cucm_virtual_servers/CUCM_BK_CF3D71B4_00_cucm_virtual_servers_chapter_010.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.epub",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.mobi",
     "depth": 1
   },
@@ -9989,6 +9949,62 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/unified-communications/broadworks/products-release-notes-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/releasenotes/15/business-edition-6000-software-load-summary-export-restricted-version-14x15x-k9-17-and-unrestricted-version-14x15x-xu-17.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE6000/releasenotes/15/business-edition-6000-software-load-summary-export-restricted-version-14x15x-k9-16-and-unrestricted-version-14x15x-xu-16.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/releasenotes/business-edition-7000-software-load-summary-export-restricted-version-12x14x-k9-15-and-unrestricted-version-12x14x-xu-15.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/releasenotes/business-edition-7000-software-load-summary-export-restricted-version-12x14x-k9-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/releasenotes/business-edition-7000-software-load-summary-export-unrestricted-version-12x14x-xu-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/BE7000/installationguide/14/cucm_b_installation-be7k-14.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/221005-upgrade-esxi-for-a-business-edition-be6.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226136-configure-nfvis-for-uc-management.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/118847-technote-ucs-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/security-knowledge-base/cisco-fmc-intrusion-policy-management-export-edit-amp-apply/ta-p/5144417",
     "depth": 2
   }
 ]
