@@ -13,10 +13,10 @@
     "https://developer.cisco.com/docs/axl-schema-reference/": {
       "content_sha": null,
       "doc_id": "developer-cisco-com-docs-axl-schema-reference-9b0bc00eea",
-      "fail_count": 6,
+      "fail_count": 7,
       "first_seen": "2026-09-27T10:51:53.947636+00:00",
-      "last_seen": "2026-11-02T12:36:25.869571+00:00",
-      "next_check": "2026-11-16T12:36:25.869574+00:00",
+      "last_seen": "2026-11-16T12:37:54.479146+00:00",
+      "next_check": "2026-11-30T12:37:54.479149+00:00",
       "status": "failed",
       "unchanged_runs": 0
     },
@@ -1204,10 +1204,10 @@
       "first_seen": "2026-08-24T22:13:22.268539+00:00",
       "last_changed": "2026-11-02T12:38:10.885562+00:00",
       "last_modified": "Thu, 05 Nov 2026 11:12:21 GMT",
-      "last_seen": "2026-11-09T12:45:22.714662+00:00",
-      "next_check": "2026-11-11T12:45:22.714662+00:00",
+      "last_seen": "2026-11-16T12:37:54.723728+00:00",
+      "next_check": "2026-11-20T12:37:54.723728+00:00",
       "status": "active",
-      "unchanged_runs": 1
+      "unchanged_runs": 2
     },
     "https://developer.cisco.com/site/axl/documents/operations-by-release/": {
       "content_sha": null,
@@ -15166,6 +15166,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216691-call-center-call-forward-not-available-epub-efb1157c49",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:04.974476+00:00",
+      "last_seen": "2026-11-16T12:38:04.974488+00:00",
+      "next_check": "2026-11-17T12:38:04.974492+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.html": {
       "content_sha": "9e15efab610ebbaafa002fc09030c41b77d892fcd0946dfa2afdb645a420b257",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216691-call-center-call-forward-not-available-html-b30b89aa3e",
@@ -15177,6 +15187,26 @@
       "last_seen": "2026-09-28T05:51:07.195737+00:00",
       "next_check": "2026-09-29T05:51:07.195737+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216691-call-center-call-forward-not-available.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216691-call-center-call-forward-not-available-mobi-fe24ad2a01",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:09.047703+00:00",
+      "last_seen": "2026-11-16T12:38:09.047714+00:00",
+      "next_check": "2026-11-17T12:38:09.047718+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216692-what-is-static-and-dynamic-user-monitori-epu-48edb11f44",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:13.122120+00:00",
+      "last_seen": "2026-11-16T12:38:13.122132+00:00",
+      "next_check": "2026-11-17T12:38:13.122135+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.html": {
@@ -15192,6 +15222,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216692-what-is-static-and-dynamic-user-monitori.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216692-what-is-static-and-dynamic-user-monitori-mob-cdaf48620e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:17.140522+00:00",
+      "last_seen": "2026-11-16T12:38:17.140536+00:00",
+      "next_check": "2026-11-17T12:38:17.140541+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216793-why-there-is-a-disparity-between-the-per-epu-f6fd0dafba",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:21.438739+00:00",
+      "last_seen": "2026-11-16T12:38:21.438750+00:00",
+      "next_check": "2026-11-17T12:38:21.438753+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.html": {
       "content_sha": "318fa5d9998ade33ab5b72f856b36394ead3d21d367bddf4022698ee37a48689",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216793-why-there-is-a-disparity-between-the-per-htm-8a9abd1db5",
@@ -15203,6 +15253,16 @@
       "last_seen": "2026-09-28T05:51:15.649154+00:00",
       "next_check": "2026-09-29T05:51:15.649154+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/216793-why-there-is-a-disparity-between-the-per.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-216793-why-there-is-a-disparity-between-the-per-mob-356743c886",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:38:25.338052+00:00",
+      "last_seen": "2026-11-16T12:38:25.338065+00:00",
+      "next_check": "2026-11-17T12:38:25.338070+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/217005-tools-for-managing-broadworks-nfm-vs-cs.html": {
@@ -23210,8 +23270,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:28.936156+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-09T12:46:40.992326+00:00",
-      "next_check": "2026-11-10T12:46:40.992326+00:00",
+      "last_seen": "2026-11-16T12:37:59.520461+00:00",
+      "next_check": "2026-11-17T12:37:59.520461+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -23404,8 +23464,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-24T22:16:54.567413+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-09T12:46:48.920864+00:00",
-      "next_check": "2026-11-10T12:46:48.920864+00:00",
+      "last_seen": "2026-11-16T12:38:04.739527+00:00",
+      "next_check": "2026-11-17T12:38:04.739527+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -183279,5 +183339,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-09T13:14:50.914529+00:00"
+  "updated_at": "2026-11-16T12:38:25.410806+00:00"
 }

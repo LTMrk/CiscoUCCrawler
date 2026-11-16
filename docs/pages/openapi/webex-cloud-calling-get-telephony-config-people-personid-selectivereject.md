@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.143505+00:00
+retrieved_at: 2026-11-16T12:36:50.802760+00:00
 ---
 
 # GET /telephony/config/people/{personId}/selectiveReject
@@ -44,8 +44,8 @@ curl -X GET '/telephony/config/people/<personId>/selectiveReject' \
 - `enabled` (boolean) (**requerido**): `true` if the Selective Reject feature is enabled.
 - `criteria` (array): A list of criteria specifying conditions when selective reject is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the selective reject is in effect.
-  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Selective reject criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective reject criteria applies for calls from specific numbers.  * `FORWARDED` - Selective reject criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the selective reject is in effect.
+  - `source` (object) (**requerido**): If criteria are applicable for calls from any phone number, specific phone number or forwarded ones.
   - `rejectEnabled` (boolean) (**requerido**): This setting specifies to choose to reject or not to reject the calls that fit within these parameters.
 
 ### Ejemplo — respuesta 200

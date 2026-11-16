@@ -10,7 +10,7 @@ tags: Campaign Manager
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.655336+00:00
+retrieved_at: 2026-11-16T12:36:51.215179+00:00
 ---
 
 # POST /v1/dialer/campaign
@@ -57,28 +57,7 @@ A start campaign API allows businesses to programmatically start outbound campai
 - `previewActionsDisabled` (array): (Optional) The list of preview actions to be disabled for the agent when a preview campaign record is offered. Can be empty if no action should be disabled, otherwise should be one of "SKIP", "REMOVE" or both. The default is an empty list
 - `validCampaignTimes` (object): (Optional) Defines the valid operating hours for the campaign based on a weekly schedule and optional date-specific overrides. The campaign will only be active during the specified time windows.
   - `timeZone` (string) (**requerido**): The IANA timezone name (e.g., 'America/New_York') that defines the timezone for all shift times in the schedule. This timezone is used to interpret the start and end times in the weekly schedule and date overrides.
-  - `weeklySchedule` (object) (**requerido**):
-    - `monday` (array) (**requerido**): List of shift times for Monday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `tuesday` (array) (**requerido**): List of shift times for Tuesday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `wednesday` (array) (**requerido**): List of shift times for Wednesday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `thursday` (array) (**requerido**): List of shift times for Thursday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `friday` (array) (**requerido**): List of shift times for Friday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `saturday` (array) (**requerido**): List of shift times for Saturday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
-    - `sunday` (array) (**requerido**): List of shift times for Sunday. Can be empty if no shifts are scheduled.
-      - `start` (string) (**requerido**): The start time of the shift in 24-hour format (HH:MM). Must be earlier than the end time.
-      - `end` (string) (**requerido**): The end time of the shift in 24-hour format (HH:MM). Must be later than the start time.
+  - `weeklySchedule` (object) (**requerido**): The recurring weekly schedule that defines when the campaign should be active. Each day of the week can have multiple shift time ranges.
   - `dateOverrides` (array): Optional list of date-specific schedule overrides that take precedence over the weekly schedule for particular dates (e.g., holidays, special events).
     - `date` (string) (**requerido**): The specific date for which the shift schedule should be overridden, in YYYY-MM-DD format.
     - `shiftTimes` (array) (**requerido**): The list of shift times that apply on this specific date, overriding the weekly schedule. An empty array indicates no shifts are scheduled for this date (e.g., holidays, company closures).

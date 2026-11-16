@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /v1/analytics/meetingsMetrics/aggregates
-operation_id: Historical Data related to Meetings
+operation_id: historicalDataRelatedToMeetings
 tags: Historical Analytics APIs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.085714+00:00
+retrieved_at: 2026-11-16T12:36:50.137355+00:00
 ---
 
 # GET /v1/analytics/meetingsMetrics/aggregates
 
 **API:** Webex Admin
 **Área:** Historical Analytics APIs
-**operationId:** `Historical Data related to Meetings`
+**operationId:** `historicalDataRelatedToMeetings`
 
 ## Resumen
 Historical Data related to Meetings

@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: GET
 path: /wholesale/customers
-operation_id: List Wholesale Customers
+operation_id: listWholesaleCustomers
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.602651+00:00
+retrieved_at: 2026-11-16T12:36:51.890713+00:00
 ---
 
 # GET /wholesale/customers
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `List Wholesale Customers`
+**operationId:** `listWholesaleCustomers`
 
 ## Resumen
 List Wholesale Customers
@@ -56,7 +56,7 @@ curl -X GET '/wholesale/customers' \
   - `packages` (array): List of package names provisioned
   - `resourceDetails` (object):
     - `packages` (array):
-      - `name` (string): * `common_area_calling` - Webex Common Area Calling Package.  * `webex_calling` - Webex Calling Package.  * `webex_meetings` - Webex Meetings Package.  * `webex_suite` - Webex Suite Package.  * `webex_voice` - Webex Voice Package.  * `cx_essentials` - Customer Assist Package.  * `webex_calling_standard` - Webex Calling Standard Package.  * `cisco_calling_plan` - Cisco Calling Plan Package.  * `attendant_console` - Attendant Console Package.  * `cx_premium_agent` - Contact Center Premium Agent Package.  * `cx_standard_agent` - Contact Center Standard Agent Package.  * `cx_voice_ports` - Contact Center Voice Ports Package.  * `cx_ai_assistant` - Contact Center AI Assistant Package.  * `webex_ai_agent` - Webex AI Agent Package. Valores: common_area_calling, webex_calling, webex_meetings, webex_suite, webex_voice, cx_essentials, webex_calling_standard, cisco_calling_plan, attendant_console, cx_premium_agent, cx_standard_agent, cx_voice_ports, cx_ai_assistant, webex_ai_agent.
+      - `name` (object): The Webex Wholesale Packages assigned to the customer.
       - `status` (string): The provisioning status of the a particular package.  * `provisioned` - Customer is fully provisioned on Cisco Webex.  * `provisioning` - Customer is provisioning.  * `deleting` - Customer is being deleted.  * `error` - An error occurred provisioning the customer on Cisco Webex. Valores: provisioned, provisioning, deleting, error.
       - `warnings` (array): List of warnings that occurred during that last attempt to provision/update this customer.   *Note:*  + This list captures errors that occurred during *asynchronous or background* provisioning of the customer, *after* the API has been accepted and 202 response returned.  + Any errors that occur during initial API request validation will be captured directly in error response with appropriate HTTP status code.
         - `errorCode` (number): An error code that identifies the reason for the error.

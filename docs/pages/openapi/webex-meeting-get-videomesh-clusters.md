@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/clusters
-operation_id: List Cluster Details
+operation_id: listClusterDetails
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.482554+00:00
+retrieved_at: 2026-11-16T12:36:51.555722+00:00
 ---
 
 # GET /videoMesh/clusters
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `List Cluster Details`
+**operationId:** `listClusterDetails`
 
 ## Resumen
 List Cluster Details
@@ -45,23 +45,13 @@ curl -X GET '/videoMesh/clusters?orgId=<orgId>' \
       - `nodes` (array): The Video Mesh nodes in the cluster.
         - (cualquiera de:)
       - `releaseChannel` (string): Release Channel of the Video Mesh cluster.
-      - `upgradeSchedule` (object):
-        - `scheduleDays` (array): Days of the week when scheduled upgrades will occur for the Video Mesh cluster.
-        - `scheduleTime` (string): Time when scheduled upgrade will occur for the Video Mesh cluster.
-        - `scheduleTimeZone` (string): Timezone of the scheduled upgrade of Video Mesh cluster.
-        - `upgradePending` (boolean): Upgrade Pending information.
-        - `nextUpgradeTime` (string): Time when the next upgrade is scheduled for the Video Mesh cluster.
+      - `upgradeSchedule` (object): Upgrade Schedule details of the Video Mesh cluster.
       - `clusterId` (string): ID of the Video Mesh cluster.
       - `clusterName` (string): Name of the Video Mesh cluster.
       - `nodes` (array): The Video Mesh nodes in the cluster.
         - (cualquiera de:)
       - `releaseChannel` (string): Release Channel of the Video Mesh cluster.
-      - `upgradeSchedule` (object):
-        - `scheduleDays` (array): Days of the week when scheduled upgrades will occur for the Video Mesh cluster.
-        - `scheduleTime` (string): Time when scheduled upgrade will occur for the Video Mesh cluster.
-        - `scheduleTimeZone` (string): Timezone of the scheduled upgrade of Video Mesh cluster.
-        - `upgradePending` (boolean): Upgrade Pending information.
-        - `nextUpgradeTime` (string): Time when the next upgrade is scheduled for the Video Mesh cluster.
+      - `upgradeSchedule` (object): Upgrade Schedule details of the Video Mesh cluster.
 
 ### Ejemplo — respuesta 200
 ```json

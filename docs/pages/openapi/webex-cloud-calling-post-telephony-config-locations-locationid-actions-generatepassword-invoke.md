@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/actions/generatePassword/invoke
-operation_id: Generate example password for Location
+operation_id: generateExamplePasswordForLocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.094069+00:00
+retrieved_at: 2026-11-16T12:36:50.739068+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/actions/generatePassword/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Generate example password for Location`
+**operationId:** `generateExamplePasswordForLocation`
 
 ## Resumen
 Generate example password for Location

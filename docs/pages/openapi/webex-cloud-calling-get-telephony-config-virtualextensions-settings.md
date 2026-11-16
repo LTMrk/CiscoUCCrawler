@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualExtensions/settings
-operation_id: Get Virtual extension settings
+operation_id: getVirtualExtensionSettings
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.083938+00:00
+retrieved_at: 2026-11-16T12:36:50.724709+00:00
 ---
 
 # GET /telephony/config/virtualExtensions/settings
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Get Virtual extension settings`
+**operationId:** `getVirtualExtensionSettings`
 
 ## Resumen
 Get Virtual extension settings

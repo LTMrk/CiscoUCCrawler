@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.151957+00:00
+retrieved_at: 2026-11-16T12:36:50.814166+00:00
 ---
 
 # POST /telephony/config/people/{personId}/simultaneousRing/criteria
@@ -36,7 +36,7 @@ Modifying requires a full, user, or location administrator auth token with a sco
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule which determines when the simultaneous ring is in effect.
 - `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `LOCATION` - Indicates the schedule is configured at the location level.  * `PEOPLE` - Indicates the schedule is configured at the person level. Valores: LOCATION, PEOPLE.
+- `scheduleLevel` (string): * `LOCATION` - Indicates the schedule is configured at the location level.  * `PEOPLE` - Indicates the schedule is configured at the person level.  * `ORGANIZATION` - Indicates the schedule is configured at the organization level. Valores: LOCATION, PEOPLE, ORGANIZATION.
 - `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
 - `anonymousCallersEnabled` (boolean): When `true`, the criteria applies to calls from anonymous callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true`, the criteria applies to calls from unavailable callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.

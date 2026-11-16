@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingTranscripts/{transcriptId}/snippets/{snippetId}
-operation_id: Update a Transcript Snippet
+operation_id: updateATranscriptSnippet
 tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.449748+00:00
+retrieved_at: 2026-11-16T12:36:51.515275+00:00
 ---
 
 # PUT /meetingTranscripts/{transcriptId}/snippets/{snippetId}
 
 **API:** Webex Meetings
 **Área:** Transcripts
-**operationId:** `Update a Transcript Snippet`
+**operationId:** `updateATranscriptSnippet`
 
 ## Resumen
 Update a Transcript Snippet

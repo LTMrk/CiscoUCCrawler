@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /people/me
-operation_id: Get My Own Details
+operation_id: getMyOwnDetails
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.472921+00:00
+retrieved_at: 2026-11-16T12:36:51.540493+00:00
 ---
 
 # GET /people/me
 
 **API:** Webex Meetings
 **Área:** People
-**operationId:** `Get My Own Details`
+**operationId:** `getMyOwnDetails`
 
 ## Resumen
 Get My Own Details

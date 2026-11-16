@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingPreferences/video
-operation_id: Get Video Options
+operation_id: getVideoOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.444861+00:00
+retrieved_at: 2026-11-16T12:36:51.508258+00:00
 ---
 
 # GET /meetingPreferences/video
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Get Video Options`
+**operationId:** `getVideoOptions`
 
 ## Resumen
 Get Video Options

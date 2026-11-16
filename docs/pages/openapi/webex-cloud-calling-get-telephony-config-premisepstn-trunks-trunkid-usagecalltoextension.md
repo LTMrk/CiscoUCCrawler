@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}/usageCallToExtension
-operation_id: Get Local Gateway Call to On-Premises Extension Usage for a Trunk
+operation_id: getLocalGatewayCallToOnPremisesExtensionUsageForATrunk
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.969276+00:00
+retrieved_at: 2026-11-16T12:36:50.565731+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}/usageCallToExtension
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Local Gateway Call to On-Premises Extension Usage for a Trunk`
+**operationId:** `getLocalGatewayCallToOnPremisesExtensionUsageForATrunk`
 
 ## Resumen
 Get Local Gateway Call to On-Premises Extension Usage for a Trunk

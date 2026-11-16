@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /partner/tags/organizations/{orgId}
-operation_id: Get customer organization's tags
+operation_id: getCustomerOrganizationSTags
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.110892+00:00
+retrieved_at: 2026-11-16T12:36:50.168862+00:00
 ---
 
 # GET /partner/tags/organizations/{orgId}
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Get customer organization's tags`
+**operationId:** `getCustomerOrganizationSTags`
 
 ## Resumen
 Get customer organization's tags

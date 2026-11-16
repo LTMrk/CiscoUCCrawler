@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingPreferences/schedulingOptions
-operation_id: Update Scheduling Options
+operation_id: updateSchedulingOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.445632+00:00
+retrieved_at: 2026-11-16T12:36:51.509266+00:00
 ---
 
 # PUT /meetingPreferences/schedulingOptions
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Update Scheduling Options`
+**operationId:** `updateSchedulingOptions`
 
 ## Resumen
 Update Scheduling Options

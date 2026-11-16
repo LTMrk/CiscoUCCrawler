@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.125312+00:00
+retrieved_at: 2026-11-16T12:36:50.786811+00:00
 ---
 
 # POST /telephony/config/jobs/person/moveLocation
@@ -444,30 +444,7 @@ curl -X POST '/telephony/config/jobs/person/moveLocation' \
 }
 ```
 **201**: Created
-- `response` (object) (**requerido**):
-  - `name` (string) (**requerido**): Job name.
-  - `id` (string) (**requerido**): Unique identifier of the job.
-  - `trackingId` (string) (**requerido**): Unique identifier to track the flow of HTTP requests.
-  - `sourceUserId` (string) (**requerido**): Unique identifier of the user who ran the job.
-  - `sourceCustomerId` (string) (**requerido**): Unique identifier of the customer who ran the job.
-  - `targetCustomerId` (string) (**requerido**): Unique identifier of the customer for whom the job was run.
-  - `instanceId` (number) (**requerido**): Unique identifier of the job instance.
-  - `jobExecutionStatus` (array): Most recent step's execution status, including statuses of all steps in the job execution.
-    - `id` (number) (**requerido**): Unique identifier for each instance of the job.
-    - `startTime` (string) (**requerido**): Start date and time of the job in UTC format.
-    - `lastUpdated` (string): Last update date and time of the job in UTC format after a step execution completion.
-    - `statusMessage` (string) (**requerido**): Status for the overall steps that are part of the job.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-    - `exitCode` (string): Overall result of the job.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-    - `createdTime` (string) (**requerido**): Creation date and time of the job in UTC format.
-    - `timeElapsed` (string): Time elapsed in seconds since the job execution started.
-  - `latestExecutionStatus` (string) (**requerido**): Most recent status of the job at the time of invocation.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
-  - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-  - `counts` (object) (**requerido**):
-    - `totalMoves` (number) (**requerido**): Total number of user moves requested.
-    - `moved` (number) (**requerido**): Total number of user moves completed successfully.
-    - `failed` (number) (**requerido**): Total number of user moves that were completed with failures.
-    - `pending` (number) (**requerido**): Total number of user moves that were pending with number orders.
-    - `skipped` (number) (**requerido**): Total number of user moves that were skipped.
+- `response` (object) (**requerido**): Contains the response for the user moves.
 
 ### Ejemplo — respuesta 201
 ```json

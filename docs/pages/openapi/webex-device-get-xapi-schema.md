@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /xapi/schema
-operation_id: Query Schema
+operation_id: querySchema
 tags: xAPI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.938186+00:00
+retrieved_at: 2026-11-16T12:36:51.389991+00:00
 ---
 
 # GET /xapi/schema
 
 **API:** Webex Device
 **Área:** xAPI
-**operationId:** `Query Schema`
+**operationId:** `querySchema`
 
 ## Resumen
 Query Schema

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/moh/settings
-operation_id: Update the organization Music on Hold configuration
+operation_id: updateTheOrganizationMusicOnHoldConfiguration
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.005935+00:00
+retrieved_at: 2026-11-16T12:36:50.614007+00:00
 ---
 
 # PUT /telephony/config/moh/settings
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Update the organization Music on Hold configuration`
+**operationId:** `updateTheOrganizationMusicOnHoldConfiguration`
 
 ## Resumen
 Update the organization Music on Hold configuration

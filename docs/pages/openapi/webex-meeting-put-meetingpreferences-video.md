@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingPreferences/video
-operation_id: Update Video Options
+operation_id: updateVideoOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.445093+00:00
+retrieved_at: 2026-11-16T12:36:51.508592+00:00
 ---
 
 # PUT /meetingPreferences/video
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Update Video Options`
+**operationId:** `updateVideoOptions`
 
 ## Resumen
 Update Video Options

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
-operation_id: Delete an Operating Mode Holiday
+operation_id: deleteAnOperatingModeHoliday
 tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.079726+00:00
+retrieved_at: 2026-11-16T12:36:50.718676+00:00
 ---
 
 # DELETE /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Operating Modes
-**operationId:** `Delete an Operating Mode Holiday`
+**operationId:** `deleteAnOperatingModeHoliday`
 
 ## Resumen
 Delete an Operating Mode Holiday

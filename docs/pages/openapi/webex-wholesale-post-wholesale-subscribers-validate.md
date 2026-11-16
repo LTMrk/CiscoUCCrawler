@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: POST
 path: /wholesale/subscribers/validate
-operation_id: Precheck a Wholesale Subscriber Provisioning
+operation_id: precheckAWholesaleSubscriberProvisioning
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.605349+00:00
+retrieved_at: 2026-11-16T12:36:51.894457+00:00
 ---
 
 # POST /wholesale/subscribers/validate
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Precheck a Wholesale Subscriber Provisioning`
+**operationId:** `precheckAWholesaleSubscriberProvisioning`
 
 ## Resumen
 Precheck a Wholesale Subscriber Provisioning

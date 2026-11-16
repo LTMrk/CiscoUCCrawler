@@ -10,7 +10,7 @@ tags: Journey - Trigger Actions API
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.653818+00:00
+retrieved_at: 2026-11-16T12:36:51.213055+00:00
 ---
 
 # GET /admin/v1/api/journey-actions/workspace-id/{workspaceId}/template-id/{templateId}/action-id/{actionId}

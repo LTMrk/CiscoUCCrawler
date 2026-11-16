@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.060732+00:00
+retrieved_at: 2026-11-16T12:36:50.688660+00:00
 ---
 
 # GET /telephony/config/supervisors/availableAgents
@@ -55,7 +55,7 @@ curl -X GET '/telephony/config/supervisors/availableAgents' \
   - `extension` (string): Primary phone extension of the agent.
   - `routingPrefix` (string): Routing prefix of location.
   - `esn` (string): Routing prefix + extension of a person.
-  - `type` (string) (**requerido**): * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object) (**requerido**): Type of the person, workspace or virtual line.
 
 ### Ejemplo — respuesta 200
 ```json

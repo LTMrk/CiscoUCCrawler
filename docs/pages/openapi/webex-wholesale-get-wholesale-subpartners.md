@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: GET
 path: /wholesale/subPartners
-operation_id: List Wholesale Sub-partners
+operation_id: listWholesaleSubPartners
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.604081+00:00
+retrieved_at: 2026-11-16T12:36:51.892677+00:00
 ---
 
 # GET /wholesale/subPartners
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `List Wholesale Sub-partners`
+**operationId:** `listWholesaleSubPartners`
 
 ## Resumen
 List Wholesale Sub-partners

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/settings/msTeams
-operation_id: Get an Organization's MS Teams Settings
+operation_id: getAnOrganizationSMSTeamsSettings
 tags: Client Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.006890+00:00
+retrieved_at: 2026-11-16T12:36:50.614985+00:00
 ---
 
 # GET /telephony/config/settings/msTeams
 
 **API:** Webex Cloud Calling
 **Área:** Client Call Settings
-**operationId:** `Get an Organization's MS Teams Settings`
+**operationId:** `getAnOrganizationSMSTeamsSettings`
 
 ## Resumen
 Get an Organization's MS Teams Settings

@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.045435+00:00
+retrieved_at: 2026-11-16T12:36:50.664904+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding
@@ -39,29 +39,7 @@ Updating call forwarding settings for an auto attendant requires a full administ
 - `orgId` [query] (string): Update auto attendant forwarding settings from this organization.
 
 ## Cuerpo de la petición (application/json)
-- `callForwarding` (object) (**requerido**):
-  - `always` (object):
-    - `enabled` (boolean): `Always` call forwarding is enabled or disabled.
-    - `destination` (string): Destination for `Always` call forwarding. Required if field `enabled` is set tu true.
-    - `ringReminderEnabled` (boolean): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-    - `sendToVoicemailEnabled` (boolean): Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `selective` (object):
-    - `enabled` (boolean): `Busy` call forwarding is enable or disabled.
-    - `destination` (string): Destination for `Busy` call forwarding.
-    - `ringReminderEnabled` (boolean): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-    - `sendToVoicemailEnabled` (boolean): Indicates enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `rules` (array): Rules for selectively forwarding calls. (Rules which are omitted in the list will not be deleted.)
-    - `id` (string) (**requerido**): A unique identifier for the auto attendant call forward selective rule.
-    - `enabled` (boolean): Flag to indicate if always call forwarding selective rule criteria is active. If not set, flag will be set to false.
-  - `operatingModes` (object): Configuration for forwarding via Operating modes (Schedule Based Routing).
-    - `enabled` (boolean) (**requerido**): Indicates whether operating modes forwarding is enabled.
-    - `modes` (array) (**requerido**): List of operating mode configurations.
-      - `normalOperationEnabled` (boolean) (**requerido**): Normal operation is enabled or disabled.
-      - `id` (string) (**requerido**): The ID of the operating mode.
-      - `forwardTo` (object) (**requerido**): Forward to settings.
-        - `selection` (string) (**requerido**): The selection for forwarding.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the hunt group.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
-        - `destination` (string): The destination for forwarding. Required when the selection is set to `FORWARD_TO_SPECIFIED_NUMBER`.
-        - `destinationVoicemailEnabled` (boolean): Sending incoming calls to voicemail is enabled/disabled when the destination is an internal phone number and that number has the voicemail service enabled.
+- `callForwarding` (object) (**requerido**): Settings related to `Always`, `Busy`, and `No Answer` call forwarding.
 
 ### Ejemplo — petición
 ```json
@@ -108,7 +86,7 @@ Updating call forwarding settings for an auto attendant requires a full administ
 curl -X PUT '/telephony/config/locations/<locationId>/autoAttendants/<autoAttendantId>/callForwarding' \
   -H 'Authorization: Bearer <TOKEN>' \
   -H 'Content-Type: application/json' \
-  -d '{"callForwarding": {}}'
+  -d '{"callForwarding": "<callForwarding>"}'
 ```
 
 ## Respuestas correctas

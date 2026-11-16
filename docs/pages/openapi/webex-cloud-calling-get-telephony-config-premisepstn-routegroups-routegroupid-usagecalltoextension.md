@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}/usageCallToExtension
-operation_id: Read the Call to Extension Locations of a Routing Group
+operation_id: readTheCallToExtensionLocationsOfARoutingGroup
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.967177+00:00
+retrieved_at: 2026-11-16T12:36:50.562926+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}/usageCallToExtension
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the Call to Extension Locations of a Routing Group`
+**operationId:** `readTheCallToExtensionLocationsOfARoutingGroup`
 
 ## Resumen
 Read the Call to Extension Locations of a Routing Group

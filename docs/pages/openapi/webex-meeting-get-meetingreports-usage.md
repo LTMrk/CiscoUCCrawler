@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingReports/usage
-operation_id: List Meeting Usage Reports
+operation_id: listMeetingUsageReports
 tags: Meetings Summary Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.450145+00:00
+retrieved_at: 2026-11-16T12:36:51.515868+00:00
 ---
 
 # GET /meetingReports/usage
 
 **API:** Webex Meetings
 **Área:** Meetings Summary Report
-**operationId:** `List Meeting Usage Reports`
+**operationId:** `listMeetingUsageReports`
 
 ## Resumen
 List Meeting Usage Reports

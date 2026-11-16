@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/nodes/availability
-operation_id: List Node Availability
+operation_id: listNodeAvailability
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.478771+00:00
+retrieved_at: 2026-11-16T12:36:51.548380+00:00
 ---
 
 # GET /videoMesh/nodes/availability
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `List Node Availability`
+**operationId:** `listNodeAvailability`
 
 ## Resumen
 List Node Availability

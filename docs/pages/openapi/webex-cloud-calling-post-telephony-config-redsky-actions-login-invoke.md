@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/redSky/actions/login/invoke
-operation_id: Login to a RedSky Admin Account
+operation_id: loginToARedSkyAdminAccount
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.034364+00:00
+retrieved_at: 2026-11-16T12:36:50.649145+00:00
 ---
 
 # POST /telephony/config/redSky/actions/login/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Login to a RedSky Admin Account`
+**operationId:** `loginToARedSkyAdminAccount`
 
 ## Resumen
 Login to a RedSky Admin Account

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/dialPlans
-operation_id: Create a Dial Plan
+operation_id: createADialPlan
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.963599+00:00
+retrieved_at: 2026-11-16T12:36:50.555987+00:00
 ---
 
 # POST /telephony/config/premisePstn/dialPlans
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create a Dial Plan`
+**operationId:** `createADialPlan`
 
 ## Resumen
 Create a Dial Plan
@@ -38,7 +38,7 @@ Creating a dial plan requires a full administrator auth token with a scope of `s
 ## Cuerpo de la petición (application/json)
 - `name` (string) (**requerido**): A unique name for the dial plan.
 - `routeId` (string) (**requerido**): ID of route type associated with the dial plan.
-- `routeType` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+- `routeType` (object) (**requerido**): Route Type associated with the dial plan.
 - `dialPatterns` (array): An Array of dial patterns.
 
 ## Ejemplo de invocación

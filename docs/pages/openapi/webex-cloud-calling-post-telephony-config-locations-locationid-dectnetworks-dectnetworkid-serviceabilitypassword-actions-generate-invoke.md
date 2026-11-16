@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword/actions/generate/invoke
-operation_id: Generate and Enable DECT Serviceability Password
+operation_id: generateAndEnableDECTServiceabilityPassword
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.923132+00:00
+retrieved_at: 2026-11-16T12:36:50.523506+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword/actions/generate/invoke
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Generate and Enable DECT Serviceability Password`
+**operationId:** `generateAndEnableDECTServiceabilityPassword`
 
 ## Resumen
 Generate and Enable DECT Serviceability Password

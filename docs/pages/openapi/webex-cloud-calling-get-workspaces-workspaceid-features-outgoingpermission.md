@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/outgoingPermission
-operation_id: Retrieve Outgoing Permission Settings for a Workspace
+operation_id: retrieveOutgoingPermissionSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.190384+00:00
+retrieved_at: 2026-11-16T12:36:50.847811+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/outgoingPermission
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Retrieve Outgoing Permission Settings for a Workspace`
+**operationId:** `retrieveOutgoingPermissionSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Outgoing Permission Settings for a Workspace

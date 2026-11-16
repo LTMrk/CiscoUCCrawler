@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/selectiveAccept/criteria/{id}
-operation_id: Retrieve Selective Accept Criteria for a Workspace
+operation_id: retrieveSelectiveAcceptCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.204272+00:00
+retrieved_at: 2026-11-16T12:36:50.866760+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/selectiveAccept/criteria/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Selective Accept Criteria for a Workspace`
+**operationId:** `retrieveSelectiveAcceptCriteriaForAWorkspace`
 
 ## Resumen
 Retrieve Selective Accept Criteria for a Workspace
@@ -46,10 +46,10 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/selectiveAccept/criteria
 ## Respuestas correctas
 **200**: OK
 - `id` (string) (**requerido**): Unique identifier for criteria.
-- `scheduleName` (string): Name of the location's schedule which determines when the selective accept is in effect.
-- `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The Schedule applies to select phone number defined in the `phoneNumbers` property.  * `FORWARDED` - The Schedule applies to the forwarded calls only. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
+- `scheduleName` (string): Name of the schedule which determines when the selective accept is in effect.
+- `scheduleType` (object): The Schedule type whether `businessHours` or `holidays`.
+- `scheduleLevel` (object): The Schedule level.
+- `callsFrom` (object) (**requerido**): Indicates whether to apply the selective accept criteria for calls from Any Phone Number, Select Phone Numbers or Forwarded ones.
 - `anonymousCallersEnabled` (boolean): When `true`, enables selective accept to calls from anonymous callers.
 - `unavailableCallersEnabled` (boolean): When `true`, enables selective accept to calls if the callers are unavailable.
 - `phoneNumbers` (array): the list of phone numbers that will checked against incoming calls for a match.

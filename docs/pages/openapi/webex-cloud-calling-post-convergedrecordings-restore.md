@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /convergedRecordings/restore
-operation_id: restore_recordings_from_recycle_bin
+operation_id: restoreRecordingsFromRecycleBin
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.015555+00:00
+retrieved_at: 2026-11-16T12:36:50.626172+00:00
 ---
 
 # POST /convergedRecordings/restore
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `restore_recordings_from_recycle_bin`
+**operationId:** `restoreRecordingsFromRecycleBin`
 
 ## Resumen
 Restore Recordings from Recycle Bin

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /people
-operation_id: List People
+operation_id: listPeople
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.092740+00:00
+retrieved_at: 2026-11-16T12:36:50.145958+00:00
 ---
 
 # GET /people
 
 **API:** Webex Admin
 **Área:** People
-**operationId:** `List People`
+**operationId:** `listPeople`
 
 ## Resumen
 List People

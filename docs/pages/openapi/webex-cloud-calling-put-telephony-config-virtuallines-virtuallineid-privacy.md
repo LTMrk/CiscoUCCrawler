@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/privacy
-operation_id: Configure a Virtual Line's Privacy Settings
+operation_id: configureAVirtualLineSPrivacySettings
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.183284+00:00
+retrieved_at: 2026-11-16T12:36:50.837953+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/privacy
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure a Virtual Line's Privacy Settings`
+**operationId:** `configureAVirtualLineSPrivacySettings`
 
 ## Resumen
 Configure a Virtual Line's Privacy Settings

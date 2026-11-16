@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingParticipants/callout
-operation_id: Call Out a SIP Participant
+operation_id: callOutASIPParticipant
 tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.442486+00:00
+retrieved_at: 2026-11-16T12:36:51.504722+00:00
 ---
 
 # POST /meetingParticipants/callout
 
 **API:** Webex Meetings
 **Área:** Participants
-**operationId:** `Call Out a SIP Participant`
+**operationId:** `callOutASIPParticipant`
 
 ## Resumen
 Call Out a SIP Participant

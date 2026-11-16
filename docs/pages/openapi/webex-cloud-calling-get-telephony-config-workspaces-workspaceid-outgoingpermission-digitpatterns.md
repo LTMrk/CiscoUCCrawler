@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
-operation_id: Retrieve all Digit Patterns for a Workspace
+operation_id: retrieveAllDigitPatternsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.193065+00:00
+retrieved_at: 2026-11-16T12:36:50.851468+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve all Digit Patterns for a Workspace`
+**operationId:** `retrieveAllDigitPatternsForAWorkspace`
 
 ## Resumen
 Retrieve all Digit Patterns for a Workspace

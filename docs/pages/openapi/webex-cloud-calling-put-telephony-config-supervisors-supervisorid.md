@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.060302+00:00
+retrieved_at: 2026-11-16T12:36:50.687990+00:00
 ---
 
 # PUT /telephony/config/supervisors/{supervisorId}
@@ -37,7 +37,7 @@ This operation requires a full administrator auth token with a scope of `spark-a
 ## Cuerpo de la petición (application/json)
 - `agents` (array) (**requerido**): People, workspaces and virtual lines that are eligible to receive calls. **WARNING**: The `id` returned is in UUID format, since we don't have agentType from OCI response. This will be converting to Hydra type in future release.
   - `id` (string) (**requerido**): ID of person, workspace or virtual line. **WARNING**: The `id` returned is always of type `PEOPLE` even if the agent is a workspace or virtual line. The `type` of the agent `id` will be corrected in a future release.
-  - `action` (string) (**requerido**): * `ADD` - Assign an agent to a supervisor.  * `DELETE` - Remove an agent from a supervisor. Valores: ADD, DELETE.
+  - `action` (object) (**requerido**): Enumeration that indicates whether an agent needs to be added (`ADD`) or deleted (`DELETE`) from a supervisor.
 
 ### Ejemplo — petición
 ```json

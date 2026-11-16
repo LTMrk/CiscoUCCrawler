@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/dataPolicies
-operation_id: ModifyDataPolicySettings
+operation_id: modifyDataPolicySettings
 tags: Call Settings Configurable Storage Region
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.072503+00:00
+retrieved_at: 2026-11-16T12:36:50.706384+00:00
 ---
 
 # PUT /telephony/config/dataPolicies
 
 **API:** Webex Cloud Calling
 **Área:** Call Settings Configurable Storage Region
-**operationId:** `ModifyDataPolicySettings`
+**operationId:** `modifyDataPolicySettings`
 
 ## Resumen
 Update the Data (Storage) Policy Settings for the Organization

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}/events/{eventId}
-operation_id: Delete a Schedule Event
+operation_id: deleteAScheduleEvent
 tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.099506+00:00
+retrieved_at: 2026-11-16T12:36:50.746384+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}/events/{eventId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Schedules
-**operationId:** `Delete a Schedule Event`
+**operationId:** `deleteAScheduleEvent`
 
 ## Resumen
 Delete a Schedule Event

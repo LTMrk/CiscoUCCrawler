@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualExtensions
-operation_id: Read the List of Virtual Extensions
+operation_id: readTheListOfVirtualExtensions
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.083247+00:00
+retrieved_at: 2026-11-16T12:36:50.723616+00:00
 ---
 
 # GET /telephony/config/virtualExtensions
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Read the List of Virtual Extensions`
+**operationId:** `readTheListOfVirtualExtensions`
 
 ## Resumen
 Read the List of Virtual Extensions

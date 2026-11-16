@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/callCaptions
-operation_id: Get the organization call captions settings
+operation_id: getTheOrganizationCallCaptionsSettings
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.006481+00:00
+retrieved_at: 2026-11-16T12:36:50.614492+00:00
 ---
 
 # GET /telephony/config/callCaptions
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Get the organization call captions settings`
+**operationId:** `getTheOrganizationCallCaptionsSettings`
 
 ## Resumen
 Get the organization call captions settings

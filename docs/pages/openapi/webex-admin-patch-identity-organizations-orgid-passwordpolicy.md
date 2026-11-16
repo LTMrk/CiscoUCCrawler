@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /identity/organizations/{orgId}/passwordPolicy
-operation_id: Update Organization Password Policy
+operation_id: updateOrganizationPasswordPolicy
 tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.082335+00:00
+retrieved_at: 2026-11-16T12:36:50.133564+00:00
 ---
 
 # PATCH /identity/organizations/{orgId}/passwordPolicy
 
 **API:** Webex Admin
 **Área:** Identity Organization
-**operationId:** `Update Organization Password Policy`
+**operationId:** `updateOrganizationPasswordPolicy`
 
 ## Resumen
 Update Organization Password Policy

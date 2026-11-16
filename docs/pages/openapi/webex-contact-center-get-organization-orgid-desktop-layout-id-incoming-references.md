@@ -10,7 +10,7 @@ tags: Desktop Layout
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.581417+00:00
+retrieved_at: 2026-11-16T12:36:51.100967+00:00
 ---
 
 # GET /organization/{orgid}/desktop-layout/{id}/incoming-references

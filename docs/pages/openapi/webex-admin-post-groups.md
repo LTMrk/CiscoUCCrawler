@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /groups
-operation_id: Create a Group
+operation_id: createAGroup
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.083373+00:00
+retrieved_at: 2026-11-16T12:36:50.134826+00:00
 ---
 
 # POST /groups
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `Create a Group`
+**operationId:** `createAGroup`
 
 ## Resumen
 Create a Group

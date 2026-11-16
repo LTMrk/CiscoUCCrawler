@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}/usageDialPlan
-operation_id: Get Local Gateway Dial Plan Usage for a Trunk
+operation_id: getLocalGatewayDialPlanUsageForATrunk
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.962048+00:00
+retrieved_at: 2026-11-16T12:36:50.553859+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}/usageDialPlan
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Local Gateway Dial Plan Usage for a Trunk`
+**operationId:** `getLocalGatewayDialPlanUsageForATrunk`
 
 ## Resumen
 Get Local Gateway Dial Plan Usage for a Trunk

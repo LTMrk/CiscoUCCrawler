@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /hybrid/connectors
-operation_id: List Hybrid Connectors
+operation_id: listHybridConnectors
 tags: Hybrid Connectors
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.086342+00:00
+retrieved_at: 2026-11-16T12:36:50.138097+00:00
 ---
 
 # GET /hybrid/connectors
 
 **API:** Webex Admin
 **Área:** Hybrid Connectors
-**operationId:** `List Hybrid Connectors`
+**operationId:** `listHybridConnectors`
 
 ## Resumen
 List Hybrid Connectors
@@ -43,14 +43,14 @@ curl -X GET '/hybrid/connectors' \
   - `orgId` (string): The ID of the organization to which this hybrid connector belongs.
   - `hybridClusterId` (string): The ID of the cluster this connector belongs to.
   - `hostname` (string): The hostname of the system the connector is running on.
-  - `status` (string):  Valores: operational, impaired, outage, maintenanceMode.
+  - `status` (object): The status of the connector:  - `operational` indicates that the connector is working as it should.  - `impaired` indicates that the connector has problems with one or more dependent components.  - `outage` indicates that the connector is completely non-functional.  - `maintenanceMode` reports the current maintenance mode state of the connector.
   - `created` (string): The date and time the connector was created.
-  - `type` (string):  Valores: expresswayManagement, calendar, call, message, expresswayServiceability, ecpServiceability, videoMesh, dataSecurity, care, careManagement.
+  - `type` (object): The type of connector.
   - `version` (string): The version of the software installed.
   - `alarms` (array): A list of alarms raised on the connector.
     - `id` (string): A unique identifier for the alarm.
     - `created` (string): The date and time the alarm was raised.
-    - `severity` (string):  Valores: critical, warning, alert, error.
+    - `severity` (object): The severity level of the alarm:  - `critical`  - `error`  - `warning`  - `alert`
     - `title` (string): The title of the alarm.
     - `description` (string): A description of the alarm.
     - `hybridConnectorId` (string): The ID of the connector the alarm is raised on.

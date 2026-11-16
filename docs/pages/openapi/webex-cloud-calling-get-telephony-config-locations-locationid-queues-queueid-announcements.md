@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.054307+00:00
+retrieved_at: 2026-11-16T12:36:50.679966+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}/announcements
@@ -48,8 +48,8 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>/announcem
   - `id` (string) (**requerido**): ID of the announcement.
   - `fileName` (string) (**requerido**): Name of greeting file.
   - `fileSize` (string) (**requerido**): Size of greeting file in kilo-bytes.
-  - `mediaFileType` (string) (**requerido**): * `WMA` - WMA File Extension.  * `WAV` - WAV File Extension.  * `GP` - 3GP File Extension.  * `MOV` - MOV File Extension. Valores: WMA, WAV, GP, MOV.
-  - `level` (string) (**requerido**): * `ORGANIZATION` - Organization level.  * `LOCATION` - Location level.  * `ENTITY` - Entity level. Valores: ORGANIZATION, LOCATION, ENTITY.
+  - `mediaFileType` (object) (**requerido**): Media file type of the announcement.
+  - `level` (object) (**requerido**): Level where the announcement is created.
   - `isTextToSpeech` (boolean) (**requerido**): Indicates whether the announcement is a text-to-speech file.
 
 ### Ejemplo — respuesta 200

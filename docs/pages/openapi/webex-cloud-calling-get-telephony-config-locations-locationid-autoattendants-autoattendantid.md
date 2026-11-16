@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.044043+00:00
+retrieved_at: 2026-11-16T12:36:50.663312+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}
@@ -63,45 +63,12 @@ curl -X GET '/telephony/config/locations/<locationId>/autoAttendants/<autoAttend
 - `extensionDialing` (string) (**requerido**): Extension dialing setting. If the values are not set default will be set as `ENTERPRISE`.  * `ENTERPRISE` - Enterprise (organization) level extension dialing.  * `GROUP` - Group (location) level extension dialing. Valores: ENTERPRISE, GROUP.
 - `nameDialing` (string) (**requerido**): Name dialing setting. If the values are not set default will be set as `ENTERPRISE`.  * `ENTERPRISE` - Enterprise (organization) level name dialing.  * `GROUP` - Group (location) level name dialing. Valores: ENTERPRISE, GROUP.
 - `timeZone` (string): Time zone defined for the auto attendant.
-- `businessHoursMenu` (object) (**requerido**):
-  - `greeting` (string) (**requerido**): Greeting type defined for the auto attendant.  * `DEFAULT` - Play default greeting.  * `CUSTOM` - Play custom greeting. Valores: DEFAULT, CUSTOM.
-  - `extensionEnabled` (boolean) (**requerido**): If `true`, extension dialing without requiring a menu item is enabled.
-  - `audioAnnouncementFile` (object):
-    - `id` (string) (**requerido**): A unique identifier for the announcement.
-    - `fileName` (string) (**requerido**): Audio announcement file name.
-    - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-    - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
-  - `keyConfigurations` (object) (**requerido**):
-    - `key` (string) (**requerido**): Key assigned to specific menu configuration.  * `0` - When the 0 key is pressed, perform the operation specified by the `action` field.  * `1` - When the 1 key is pressed, perform the operation specified by the `action` field.  * `2` - When the 2 key is pressed, perform the operation specified by the `action` field.  * `3` - When the 3 key is pressed, perform the operation specified by the `action` field.  * `4` - When the 4 key is pressed, perform the operation specified by the `action` field.  * `5` - When the 5 key is pressed, perform the operation specified by the `action` field.  * `6` - When the 6 key is pressed, perform the operation specified by the `action` field.  * `7` - When the 7 key is pressed, perform the operation specified by the `action` field.  * `8` - When the 8 key is pressed, perform the operation specified by the `action` field.  * `9` - When the 9 key is pressed, perform the operation specified by the `action` field.  * `*` - When the * key is pressed, perform the operation specified by the `action` field.  * `#` - When the # key is pressed, perform the operation specified by the `action` field. Valores: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, *, #.
-    - `action` (string) (**requerido**): Action assigned to specific menu key configuration.  * `PLAY_ANNOUNCEMENT` - Plays a recorded message and then returns to the current Auto Attendant menu.  * `TRANSFER_WITH_PROMPT` - Plays the message and then transfers the call to the specified number.  * `TRANSFER_WITHOUT_PROMPT` - Transfers the call to the specified number, without playing a transfer prompt.  * `TRANSFER_TO_OPERATOR` - Plays the message and then transfers the call to the specified operator number.  * `TRANSFER_TO_MAILBOX` - Transfers the call to the configured mailbox, without playing a transfer prompt.  * `NAME_DIALING` - Brings the user into the automated name directory.  * `EXTENSION_DIALING` - Prompts the user for an extension, and transfers the user.  * `REPEAT_MENU` - Replays the Auto Attendant greeting.  * `EXIT` - Terminates the call. Valores: PLAY_ANNOUNCEMENT, TRANSFER_WITH_PROMPT, TRANSFER_WITHOUT_PROMPT, TRANSFER_TO_OPERATOR, TRANSFER_TO_MAILBOX, NAME_DIALING, EXTENSION_DIALING, REPEAT_MENU, EXIT.
-    - `description` (string): The description of each menu key.
-    - `value` (string): Value based on actions.
-    - `audioAnnouncementFile` (object):
-      - `id` (string) (**requerido**): A unique identifier for the announcement.
-      - `fileName` (string) (**requerido**): Audio announcement file name.
-      - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-      - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
-  - `callTreatment` (object):
-    - `retryAttemptForNoInput` (string): Number of times to repeat the Welcome greeting when the user does not provide an input. By default, NO_REPEAT is set.  * `NO_REPEAT` - Announcement will not be repeated.  * `ONE_TIME` - Repeat the announcement once.  * `TWO_TIMES` - Repeat the announcement twice.  * `THREE_TIMES` - Repeat the announcement thrice. Valores: NO_REPEAT, ONE_TIME, TWO_TIMES, THREE_TIMES.
-    - `noInputTimer` (string): Interval the Auto Attendant service waits before timing out. By default, 10 seconds. Min value is 1, and max value is 60.
-    - `actionToBePerformed` (object):
-      - `action` (string) (**requerido**): Action to perform after the retry attempt is reached.  * `PLAY_MESSAGE_AND_DISCONNECT` - Plays a recorded message and then disconnects the call.  * `TRANSFER_WITHOUT_PROMPT` - Transfers the call to the specified number, without playing a transfer prompt.  * `TRANSFER_WITH_PROMPT` - Plays the message and then transfers the call to the specified number.  * `TRANSFER_TO_OPERATOR` - Plays the message and then transfers the call to the specified operator number.  * `TRANSFER_TO_MAILBOX` - Transfers the call to the configured mailbox, without playing a transfer prompt.  * `DISCONNECT` - Disconnect the call. Valores: PLAY_MESSAGE_AND_DISCONNECT, TRANSFER_WITHOUT_PROMPT, TRANSFER_WITH_PROMPT, TRANSFER_TO_OPERATOR, TRANSFER_TO_MAILBOX, DISCONNECT.
-      - `greeting` (string) (**requerido**): Greeting type is defined when `action` is set to `PLAY_MESSAGE_AND_DISCONNECT`.  * `DEFAULT` - Play default greeting.  * `CUSTOM` - Play custom greeting. Valores: DEFAULT, CUSTOM.
-      - `audioAnnouncementFile` (object):
-        - `id` (string) (**requerido**): A unique identifier for the announcement.
-        - `fileName` (string) (**requerido**): Audio announcement file name.
-        - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-        - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
-      - `transferCallTo` (string): Transfer call to the specified number when `action` is set to `TRANSFER_WITH_PROMPT`, `TRANSFER_WITHOUT_PROMPT` and `TRANSFER_TO_OPERATOR` and `TRANSFER_TO_MAILBOX`.
-- `afterHoursMenu` (object) (**requerido**):
-  - `greeting` (string) (**requerido**): Greeting type defined for the auto attendant.  * `DEFAULT` - Play default greeting.  * `CUSTOM` - Play custom greeting. Valores: DEFAULT, CUSTOM.
-  - `extensionEnabled` (boolean) (**requerido**): If `true`, extension dialing without requiring a menu item is enabled.
-  - `audioAnnouncementFile` (object):
-    - `id` (string) (**requerido**): A unique identifier for the announcement.
-    - `fileName` (string) (**requerido**): Audio announcement file name.
-    - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-    - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
-  - `keyConfigurations` (object) (**requerido**):
+- `businessHoursMenu` (object) (**requerido**): Business hours menu defined for the auto attendant.
+- `afterHoursMenu` (object) (**requerido**): After hours menu defined for the auto attendant.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this auto attendant.
+- `dialByName` (string): The name to be used for dial by name functions.
+- `businessScheduleLevel` (string): Level of the business schedule.  * `LOCATION` - The schedule belongs to the location.  * `ORGANIZATION` - The schedule belongs to the organization. Valores: LOCATION, ORGANIZATION.
+- `holidayScheduleLevel` (string): Level of the holiday schedule.  * `LOCATION` - The schedule belongs to the location.  * `ORGANIZATION` - The schedule belongs to the organization. Valores: LOCATION, ORGANIZATION.
 
 ### Ejemplo — respuesta 200
 ```json

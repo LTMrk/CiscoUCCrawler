@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: DELETE
 path: /hotdesk/sessions/{sessionId}
-operation_id: Delete Session
+operation_id: deleteSession
 tags: Hot Desk
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.931627+00:00
+retrieved_at: 2026-11-16T12:36:51.379858+00:00
 ---
 
 # DELETE /hotdesk/sessions/{sessionId}
 
 **API:** Webex Device
 **Área:** Hot Desk
-**operationId:** `Delete Session`
+**operationId:** `deleteSession`
 
 ## Resumen
 Delete Session

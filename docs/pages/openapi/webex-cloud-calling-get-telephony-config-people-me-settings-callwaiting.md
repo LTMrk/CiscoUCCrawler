@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.996089+00:00
+retrieved_at: 2026-11-16T12:36:50.600710+00:00
 ---
 
 # GET /telephony/config/people/me/settings/callWaiting

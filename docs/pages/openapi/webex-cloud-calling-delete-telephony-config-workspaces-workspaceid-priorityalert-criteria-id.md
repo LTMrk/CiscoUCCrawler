@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/workspaces/{workspaceId}/priorityAlert/criteria/{id}
-operation_id: Delete Priority Alert Criteria for a Workspace
+operation_id: deletePriorityAlertCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.205850+00:00
+retrieved_at: 2026-11-16T12:36:50.868953+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/priorityAlert/criteria/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Delete Priority Alert Criteria for a Workspace`
+**operationId:** `deletePriorityAlertCriteriaForAWorkspace`
 
 ## Resumen
 Delete Priority Alert Criteria for a Workspace

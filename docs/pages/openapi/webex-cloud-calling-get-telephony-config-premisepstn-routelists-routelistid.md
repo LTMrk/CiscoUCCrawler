@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeLists/{routeListId}
-operation_id: Get a Route List
+operation_id: getARouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.968503+00:00
+retrieved_at: 2026-11-16T12:36:50.564698+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeLists/{routeListId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get a Route List`
+**operationId:** `getARouteList`
 
 ## Resumen
 Get a Route List
@@ -42,13 +42,8 @@ curl -X GET '/telephony/config/premisePstn/routeLists/<routeListId>' \
 ## Respuestas correctas
 **200**: OK
 - `name` (string) (**requerido**): Route list name.
-- `location` (object) (**requerido**): Location associated with the hot desking member.
-  - `id` (string) (**requerido**): Unique identifier for the location.
-  - `name` (string) (**requerido**): Name of the location.
-- `routeGroup` (object):
-  - `id` (string) (**requerido**): Route group ID the Route list is associated with.
-  - `name` (string) (**requerido**): Name of the Route group the Route list associated with.
-  - `inUse` (boolean) (**requerido**): Flag to indicate if the route group is used.
+- `location` (object) (**requerido**): Location associated with the Route List.
+- `routeGroup` (object): Route group associated with the Route list.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.142221+00:00
+retrieved_at: 2026-11-16T12:36:50.801152+00:00
 ---
 
 # GET /telephony/config/people/{personId}/selectiveAccept
@@ -44,8 +44,8 @@ curl -X GET '/telephony/config/people/<personId>/selectiveAccept' \
 - `enabled` (boolean) (**requerido**): `true` if the Selective Accept feature is enabled.
 - `criteria` (array): A list of criteria specifying conditions when selective accept is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the selective reject is in effect.
-  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Selective accept criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective accept criteria applies for calls from specific numbers.  * `FORWARDED` - Selective accept criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the selective reject is in effect.
+  - `source` (object) (**requerido**): If criteria are applicable for calls from any phone number, specific phone number or forwarded ones.
   - `acceptEnabled` (boolean) (**requerido**): This setting specifies to choose to accept or not to accept the calls that fit within these parameters.
 
 ### Ejemplo — respuesta 200

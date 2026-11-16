@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualExtensions
-operation_id: Create a Virtual Extension
+operation_id: createAVirtualExtension
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.083035+00:00
+retrieved_at: 2026-11-16T12:36:50.723283+00:00
 ---
 
 # POST /telephony/config/virtualExtensions
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Create a Virtual Extension`
+**operationId:** `createAVirtualExtension`
 
 ## Resumen
 Create a Virtual Extension

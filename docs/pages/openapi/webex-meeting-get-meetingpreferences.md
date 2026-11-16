@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingPreferences
-operation_id: Get Meeting Preference Details
+operation_id: getMeetingPreferenceDetails
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.443641+00:00
+retrieved_at: 2026-11-16T12:36:51.506484+00:00
 ---
 
 # GET /meetingPreferences
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Get Meeting Preference Details`
+**operationId:** `getMeetingPreferenceDetails`
 
 ## Resumen
 Get Meeting Preference Details
@@ -85,12 +85,7 @@ curl -X GET '/meetingPreferences' \
     - `deviceName` (string) (**requerido**): Video system name. It cannot be empty. This attribute can be modified with the [Update Video Options](/docs/api/v1/meeting-preferences/update-video-options) API.
     - `deviceAddress` (string) (**requerido**): Video address. It cannot be empty and must be in valid email format. This attribute can be modified with the [Update Video Options](/docs/api/v1/meeting-preferences/update-video-options) API.
     - `isDefault` (boolean) (**requerido**): Flag identifying the device as the default video device. If user's video device list is not empty, one and only one device must be set as default. This attribute can be modified with the [Update Video Options](/docs/api/v1/meeting-preferences/update-video-options) API.
-- `schedulingOptions` (object) (**requerido**):
-  - `enabledJoinBeforeHost` (boolean) (**requerido**): Flag to enable/disable ***Join Before Host***. The period during which invitees can join before the start time is defined by `autoLockMinutes`. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options) API. ***Note***: This feature is only effective if the site supports the ***Join Before Host*** feature. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options) API.
-  - `joinBeforeHostMinutes` (number) (**requerido**): Number of minutes before the start time that an invitee can join a meeting if `enabledJoinBeforeHost` is true. Valid options are 0, 5, 10 and 15. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options) API.
-  - `enabledAutoShareRecording` (boolean) (**requerido**): Flag to enable/disable the automatic sharing of the meeting recording with invitees when it is available. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options) API.
-  - `enabledWebexAssistantByDefault` (boolean): Flag to automatically enable Webex Assistant whenever you start a meeting. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options) API.
-  - `delegateEmails` (array): You can allow other hosts to schedule meetings on your behalf by entering their email addresses here. This attribute can be modified with the [Update Scheduling Options](/docs/api/v1/meeting-preferences/update-scheduling-options), [Insert Delegate Emails](/docs/api/v1/meeting-preferences/insert-delegate-emails), and [Update Scheduling Options](/docs/api/v1/meeting-preferences/delete-delegate-emails) APIs.
+- `schedulingOptions` (object) (**requerido**): Meeting scheduling options.
 - `sites` (array): List of user's Webex meeting sites including default site.
   - `siteUrl` (string) (**requerido**): Access URL for the site. ***Note***: This is a read-only attribute. The value can be assigned as user's default site with the [Update Default Site](/docs/api/v1/meeting-preferences/update-default-site) API.
   - `default` (boolean) (**requerido**): Flag identifying the site as the default site. Users can list meetings and recordings, and create meetings on the default site.

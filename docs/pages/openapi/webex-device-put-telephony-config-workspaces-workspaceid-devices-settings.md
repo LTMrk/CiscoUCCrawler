@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.926358+00:00
+retrieved_at: 2026-11-16T12:36:51.371879+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/devices/settings
@@ -34,7 +34,7 @@ This API requires a full, location, or user administrator auth token with a scop
 - `orgId` [query] (string): Modify the device settings for a workspace in this organization.
 
 ## Cuerpo de la petición (application/json)
-- `compression` (string) (**requerido**): * `ON` - Minimize data use during compression.  * `OFF` - Ignore data use during compression. Valores: ON, OFF.
+- `compression` (object) (**requerido**): Toggles compression ON and OFF.
 
 ### Ejemplo — petición
 ```json

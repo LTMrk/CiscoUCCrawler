@@ -10,7 +10,7 @@ tags: Address Book
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.548410+00:00
+retrieved_at: 2026-11-16T12:36:51.059834+00:00
 ---
 
 # GET /organization/{orgid}/address-book/{addressBookId}/entry/{id}

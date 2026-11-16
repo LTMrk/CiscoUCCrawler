@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /workspaces/{workspaceId}/features/intercept
-operation_id: Configure Call Intercept Settings for a Workspace
+operation_id: configureCallInterceptSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.191863+00:00
+retrieved_at: 2026-11-16T12:36:50.849735+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/intercept
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Configure Call Intercept Settings for a Workspace`
+**operationId:** `configureCallInterceptSettingsForAWorkspace`
 
 ## Resumen
 Configure Call Intercept Settings for a Workspace
@@ -35,21 +35,8 @@ This API requires a full or read-only administrator or location administrator au
 
 ## Cuerpo de la petición (application/json)
 - `enabled` (boolean): `true` if call interception is enabled.
-- `incoming` (object):
-  - `type` (string): Incoming calls are intercepted.  * `INTERCEPT_ALL` - Incoming calls are intercepted.  * `ALLOW_ALL` - Incoming calls are not intercepted. Valores: INTERCEPT_ALL, ALLOW_ALL.
-  - `voicemailEnabled` (boolean): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `announcements` (object):
-    - `greeting` (string): System default message is placed when incoming calls are intercepted.  * `CUSTOM` - A custom greeting is played when incoming calls are intercepted.  * `DEFAULT` - A System default greeting is played when incoming calls are intercepted. Valores: CUSTOM, DEFAULT.
-    - `newNumber` (object):
-      - `enabled` (boolean): If `true`, the caller hears this new number when the call is intercepted.
-      - `destination` (string): New number the caller hears announced.
-    - `zeroTransfer` (object):
-      - `enabled` (boolean): If `true`, the caller hears this new number when the call is intercepted.
-      - `destination` (string): New number the caller hears announced.
-- `outgoing` (object):
-  - `type` (string): All outgoing calls are intercepted.  * `INTERCEPT_ALL` - Outgoing calls are intercepted.  * `ALLOW_LOCAL_ONLY` - Only non-local calls are intercepted. Valores: INTERCEPT_ALL, ALLOW_LOCAL_ONLY.
-  - `transferEnabled` (boolean): If `true`, allows transfer and forwarding for the call type.
-  - `destination` (string): Number to which the outbound call be transferred.
+- `incoming` (object): Settings related to how incoming calls are handled when the intercept feature is enabled.
+- `outgoing` (object): Settings related to how outgoing calls are handled when the intercept feature is enabled.
 
 ### Ejemplo — petición
 ```json

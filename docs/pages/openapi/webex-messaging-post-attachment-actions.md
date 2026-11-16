@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /attachment/actions
-operation_id: Create an Attachment Action
+operation_id: createAnAttachmentAction
 tags: Attachment Actions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.738097+00:00
+retrieved_at: 2026-11-16T12:36:51.653469+00:00
 ---
 
 # POST /attachment/actions
 
 **API:** Webex Messaging
 **Área:** Attachment Actions
-**operationId:** `Create an Attachment Action`
+**operationId:** `createAnAttachmentAction`
 
 ## Resumen
 Create an Attachment Action

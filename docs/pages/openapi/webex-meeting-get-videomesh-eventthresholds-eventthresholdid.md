@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/eventThresholds/{eventThresholdId}
-operation_id: Get Event Threshold Configuration
+operation_id: getEventThresholdConfiguration
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.485894+00:00
+retrieved_at: 2026-11-16T12:36:51.560471+00:00
 ---
 
 # GET /videoMesh/eventThresholds/{eventThresholdId}
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Event Threshold Configuration`
+**operationId:** `getEventThresholdConfiguration`
 
 ## Resumen
 Get Event Threshold Configuration
@@ -42,9 +42,7 @@ curl -X GET '/videoMesh/eventThresholds/<eventThresholdId>' \
   - `eventThresholdId` (string): Unique ID of the event threshold configuration.
   - `eventScope` (string): The `eventScope` is scope of event.
   - `entityId` (string): The `entityId` is the unique ID of the Organization or the unique ID of the Video Mesh Cluster.
-  - `thresholdConfig` (object):
-    - `minThreshold` (number): Threshold value (in percentage) to trigger an event.
-    - `defaultMinThreshold` (number): Deafault Threshold value (in percentage) to trigger an event.
+  - `thresholdConfig` (object): Threshold configuration of an `entityId`.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/paging/{pagingId}
-operation_id: Delete a Paging Group
+operation_id: deleteAPagingGroup
 tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.080948+00:00
+retrieved_at: 2026-11-16T12:36:50.720393+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/paging/{pagingId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Paging Group
-**operationId:** `Delete a Paging Group`
+**operationId:** `deleteAPagingGroup`
 
 ## Resumen
 Delete a Paging Group

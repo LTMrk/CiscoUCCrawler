@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /admin/meetingPreferences/personalMeetingRoom/refreshId
-operation_id: Batch Refresh Personal Meeting Room ID
+operation_id: batchRefreshPersonalMeetingRoomID
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.446609+00:00
+retrieved_at: 2026-11-16T12:36:51.510749+00:00
 ---
 
 # POST /admin/meetingPreferences/personalMeetingRoom/refreshId
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Batch Refresh Personal Meeting Room ID`
+**operationId:** `batchRefreshPersonalMeetingRoomID`
 
 ## Resumen
 Batch Refresh Personal Meeting Room ID

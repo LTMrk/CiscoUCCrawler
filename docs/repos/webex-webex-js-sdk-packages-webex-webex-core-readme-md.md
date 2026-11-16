@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/we
 repo: webex/webex-js-sdk
 ruta: packages/@webex/webex-core/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:07:44.479042+00:00
+retrieved_at: 2026-11-16T12:37:21.791616+00:00
 ---
 
 # webex-js-sdk — packages/@webex/webex-core/README.md
@@ -106,7 +106,7 @@ const webex = new WebexCore({
 
 The default configuration includes the following service urls:
 
-- `U2C_SERVICE_URL` [U2C] - `https://u2c.wbx2.com/u2c/api/v1`
+- `U2C_SERVICE_URL` [U2C] - `https://u2c.svc.webex.com/u2c/api/v1`
 - `HYDRA_SERVICE_URL` [Hydra] - `https://webexapis.com/v1`
 - `SQDISCOVERY_SERVICE_URL` [SQDISCOVERY] - `https://ds.ciscospark.com/v1/region`
 

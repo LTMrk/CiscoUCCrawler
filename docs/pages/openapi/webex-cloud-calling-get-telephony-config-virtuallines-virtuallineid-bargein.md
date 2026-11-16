@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/bargeIn
-operation_id: Read Barge in Settings for a Virtual Line
+operation_id: readBargeInSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.182650+00:00
+retrieved_at: 2026-11-16T12:36:50.837161+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/bargeIn
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Barge in Settings for a Virtual Line`
+**operationId:** `readBargeInSettingsForAVirtualLine`
 
 ## Resumen
 Read Barge in Settings for a Virtual Line

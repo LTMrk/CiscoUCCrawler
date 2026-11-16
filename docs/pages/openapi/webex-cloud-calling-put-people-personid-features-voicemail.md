@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/voicemail
-operation_id: Configure Voicemail Settings for a Person
+operation_id: configureVoicemailSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.124383+00:00
+retrieved_at: 2026-11-16T12:36:50.785675+00:00
 ---
 
 # PUT /people/{personId}/features/voicemail
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Voicemail Settings for a Person`
+**operationId:** `configureVoicemailSettingsForAPerson`
 
 ## Resumen
 Configure Voicemail Settings for a Person

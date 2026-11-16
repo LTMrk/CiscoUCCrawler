@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /authorizations
-operation_id: Delete authorization of org and client ID
+operation_id: deleteAuthorizationOfOrgAndClientID
 tags: Authorizations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.077485+00:00
+retrieved_at: 2026-11-16T12:36:50.127808+00:00
 ---
 
 # DELETE /authorizations
 
 **API:** Webex Admin
 **Área:** Authorizations
-**operationId:** `Delete authorization of org and client ID`
+**operationId:** `deleteAuthorizationOfOrgAndClientID`
 
 ## Resumen
 Delete authorization of org and client ID

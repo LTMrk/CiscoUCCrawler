@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /hotdesk/sessions
-operation_id: List Sessions
+operation_id: listSessions
 tags: Hot Desk
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.931469+00:00
+retrieved_at: 2026-11-16T12:36:51.379637+00:00
 ---
 
 # GET /hotdesk/sessions
 
 **API:** Webex Device
 **Área:** Hot Desk
-**operationId:** `List Sessions`
+**operationId:** `listSessions`
 
 ## Resumen
 List Sessions

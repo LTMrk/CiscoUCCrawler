@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/%40webex/widgets
 repo: webex/widgets
 ruta: packages/@webex/widgets/ai-docs/widgets-spec.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:09:13.128691+00:00
+retrieved_at: 2026-11-16T12:37:27.842767+00:00
 ---
 
 # widgets — packages/@webex/widgets/ai-docs/widgets-spec.md
@@ -153,9 +153,15 @@ Compatibility notes:
   `new WebexSDKAdapter(webex)` (`WebexMeetings.jsx:277`).
 - `@webex/components` `1.277.1` (pinned) — supplies `WebexMeeting`, `WebexMediaAccess`, and the
   `withAdapter`/`withMeeting` HOCs (`WebexMeetings.jsx:4`) plus the `webex-components.css`.
-- `@webex/component-adapter-interfaces` `^1.30.5` — meeting-state enum (`MeetingState`) and adapter
+- `@webex/component-adapter-interfaces` `^1.30.22` — meeting-state enum (`MeetingState`) and adapter
   interfaces used by the adapter/components layers.
+  Version 1.30.22 removes unused build tools and keeps Jest tools in `devDependencies`,
+  removing the `timespan` and `inflight` production dependency paths from this package.
 - Peer: `react` / `react-dom` `18.3.1`, `prop-types` `^15.7.2` — host must provide these.
+- The root manifest requires `node-forge` `^1.4.3` through its `resolutions` policy.
+  The lockfile resolves `1.4.3` for the SDK's `node-jose` and the development server's
+  `selfsigned` dependencies. Host applications resolve the external `webex` dependency
+  with their own lockfile.
 - Build globals: `__appVersion__` (defined by webpack/jest) is read in the SDK config.
 - Versions are authoritative in `packages/@webex/widgets/package.json` — do not hardcode them elsewhere.
 

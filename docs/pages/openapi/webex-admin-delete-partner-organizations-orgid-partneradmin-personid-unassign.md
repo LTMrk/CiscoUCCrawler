@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /partner/organizations/{orgId}/partnerAdmin/{personId}/unassign
-operation_id: Unassign partner admin from a customer
+operation_id: unassignPartnerAdminFromACustomer
 tags: Partner Administrators
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.091178+00:00
+retrieved_at: 2026-11-16T12:36:50.144159+00:00
 ---
 
 # DELETE /partner/organizations/{orgId}/partnerAdmin/{personId}/unassign
 
 **API:** Webex Admin
 **Área:** Partner Administrators
-**operationId:** `Unassign partner admin from a customer`
+**operationId:** `unassignPartnerAdminFromACustomer`
 
 ## Resumen
 Unassign partner admin from a customer

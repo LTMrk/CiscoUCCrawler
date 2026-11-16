@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/jobs/numbers/manageNumbers/{jobId}/actions/pause/invoke
-operation_id: Pause the Manage Numbers Job
+operation_id: pauseTheManageNumbersJob
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.106950+00:00
+retrieved_at: 2026-11-16T12:36:50.757042+00:00
 ---
 
 # POST /telephony/config/jobs/numbers/manageNumbers/{jobId}/actions/pause/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Pause the Manage Numbers Job`
+**operationId:** `pauseTheManageNumbersJob`
 
 ## Resumen
 Pause the Manage Numbers Job

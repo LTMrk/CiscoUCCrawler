@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/virtualExtensions/{extensionId}
-operation_id: Delete a Virtual Extension
+operation_id: deleteAVirtualExtension
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.083772+00:00
+retrieved_at: 2026-11-16T12:36:50.724360+00:00
 ---
 
 # DELETE /telephony/config/virtualExtensions/{extensionId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Delete a Virtual Extension`
+**operationId:** `deleteAVirtualExtension`
 
 ## Resumen
 Delete a Virtual Extension

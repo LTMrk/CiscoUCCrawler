@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}/availableQueues
-operation_id: Read Available Queues
+operation_id: readAvailableQueues
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.070839+00:00
+retrieved_at: 2026-11-16T12:36:50.704201+00:00
 ---
 
 # GET /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}/availableQueues
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Read Available Queues`
+**operationId:** `readAvailableQueues`
 
 ## Resumen
 Read Available Queues

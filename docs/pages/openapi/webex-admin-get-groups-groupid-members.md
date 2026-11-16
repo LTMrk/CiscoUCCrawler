@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /groups/{groupId}/members
-operation_id: Get Group Members
+operation_id: getGroupMembers
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.084609+00:00
+retrieved_at: 2026-11-16T12:36:50.136112+00:00
 ---
 
 # GET /groups/{groupId}/members
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `Get Group Members`
+**operationId:** `getGroupMembers`
 
 ## Resumen
 Get Group Members

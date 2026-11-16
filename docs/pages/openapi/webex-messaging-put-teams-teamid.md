@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: PUT
 path: /teams/{teamId}
-operation_id: Update a Team
+operation_id: updateATeam
 tags: Teams
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.750520+00:00
+retrieved_at: 2026-11-16T12:36:51.672412+00:00
 ---
 
 # PUT /teams/{teamId}
 
 **API:** Webex Messaging
 **Área:** Teams
-**operationId:** `Update a Team`
+**operationId:** `updateATeam`
 
 ## Resumen
 Update a Team

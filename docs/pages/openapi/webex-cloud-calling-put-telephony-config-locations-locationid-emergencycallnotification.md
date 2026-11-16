@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/emergencyCallNotification
-operation_id: Update a Location Emergency Call Notification
+operation_id: updateALocationEmergencyCallNotification
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.035994+00:00
+retrieved_at: 2026-11-16T12:36:50.651582+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/emergencyCallNotification
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Update a Location Emergency Call Notification`
+**operationId:** `updateALocationEmergencyCallNotification`
 
 ## Resumen
 Update a Location Emergency Call Notification

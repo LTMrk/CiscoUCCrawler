@@ -5,12 +5,12 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /workspaceLocations/{locationId}/floors
-operation_id: List Workspace Location Floors
+operation_id: listWorkspaceLocationFloors
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.934597+00:00
+retrieved_at: 2026-11-16T12:36:51.384318+00:00
 ---
 
 # GET /workspaceLocations/{locationId}/floors
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:28.934597+00:00
 
 **API:** Webex Device
 **Área:** Workspace Locations
-**operationId:** `List Workspace Location Floors`
+**operationId:** `listWorkspaceLocationFloors`
 
 ## Resumen
 List Workspace Location Floors

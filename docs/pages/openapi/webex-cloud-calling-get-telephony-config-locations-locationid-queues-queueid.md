@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.053732+00:00
+retrieved_at: 2026-11-16T12:36:50.679379+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/queues/{queueId}
@@ -69,43 +69,31 @@ curl -X GET '/telephony/config/locations/<locationId>/queues/<queueId>' \
   - `distinctiveRingEnabled` (boolean) (**requerido**): Distinctive Ringing selected for the alternate numbers in the call queue overrides the normal ringing patterns set for Alternate Number.
   - `alternateNumbers` (array) (**requerido**): Allows up to 10 numbers, each with an optional distinctive ring setting override.
     - `phoneNumber` (string) (**requerido**): Alternate phone number for the hunt group.
-    - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
-- `callPolicies` (object) (**requerido**):
-  - `policy` (string) (**requerido**): * `CIRCULAR` - This option cycles through all agents after the last agent that took a call. It sends calls to the next available agent.  * `REGULAR` - Send the call through the queue of agents in order, starting from the top each time.  * `SIMULTANEOUS` - Sends calls to all agents at once  * `UNIFORM` - Sends calls to the agent that has been idle the longest. If they don't answer, proceed to the next agent who has been idle the second longest, and so on until the call is answered.  * `WEIGHTED` - Sends call to idle agents based on percentages you assign to each agent (up to 100%). Valores: CIRCULAR, REGULAR, SIMULTANEOUS, UNIFORM, WEIGHTED.
-  - `callBounce` (object) (**requerido**): Settings for when the call into the call queue is not answered.
-    - `callBounceEnabled` (boolean) (**requerido**): If enabled, bounce calls after the set number of rings.
-    - `callBounceMaxRings` (number) (**requerido**): Number of rings after which to bounce call, if call bounce is enabled.
-    - `agentUnavailableEnabled` (boolean) (**requerido**): Bounce if agent becomes unavailable.
-    - `alertAgentEnabled` (boolean) (**requerido**): Alert agent if call on hold more than alertAgentMaxSeconds.
-    - `alertAgentMaxSeconds` (number) (**requerido**): Number of second after which to alert agent if alertAgentEnabled.
-    - `callBounceOnHoldEnabled` (boolean) (**requerido**): Bounce if call on hold more than callBounceMaxSeconds.
-    - `callBounceOnHoldMaxSeconds` (number) (**requerido**): Number of second after which to bounce if callBounceEnabled.
-  - `distinctiveRing` (object) (**requerido**): Whether or not the call queue has the distinctive ring option enabled.
-    - `enabled` (boolean) (**requerido**): Whether or not the distinctive ring is enabled.
-    - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
-  - `routingType` (string): * `PRIORITY_BASED` - Default routing type which directly uses the routing policy to dispatch calls to the agents.  * `SKILL_BASED` - This option uses skill level as the criteria to route calls to agents. When there is more than one agent with the same skill level, the selected `policy` helps dispatch the calls to the agents. Valores: PRIORITY_BASED, SKILL_BASED.
-- `queueSettings` (object) (**requerido**):
-  - `queueSize` (number) (**requerido**): The maximum number of calls for this call queue. Once this number is reached, the overflow settings are triggered.
-  - `callOfferToneEnabled` (boolean): Play ringing tone to callers when their call is set to an available agent.
-  - `resetCallStatisticsEnabled` (boolean): Reset caller statistics upon queue entry.
-  - `overflow` (object) (**requerido**): Settings for incoming calls exceed queueSize.
-    - `action` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `PERFORM_BUSY_TREATMENT` - The caller hears a fast-busy tone.  * `PLAY_RINGING_UNTIL_CALLER_HANGS_UP` - The caller hears ringing until they disconnect.  * `TRANSFER_TO_PHONE_NUMBER` - Number where you want to transfer overflow calls. Valores: PERFORM_BUSY_TREATMENT, PLAY_RINGING_UNTIL_CALLER_HANGS_UP, TRANSFER_TO_PHONE_NUMBER.
-    - `sendToVoicemail` (boolean): When `true`, forwards all calls to a voicemail service of an internal number. This option is ignored when an external `transferNumber` is entered.
-    - `transferNumber` (string): Destination number for overflow calls when `action` is set to `TRANSFER_TO_PHONE_NUMBER`.
-    - `overflowAfterWaitEnabled` (boolean): After calls wait for the configured number of seconds and no agent is available, the overflow treatment is triggered.
-    - `overflowAfterWaitTime` (number): Number of seconds to wait before the overflow treatment is triggered when no agent is available.
-    - `playOverflowGreetingEnabled` (boolean): Indicate overflow audio to be played, otherwise callers will hear the hold music until the call is answered by a user.
-    - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-    - `audioFiles` (array): Array of announcement file name strings to be played as overflow greetings. These files are from the list of announcements files associated with this call queue.
-  - `welcomeMessage` (object): Play a message when callers first reach the queue. For example, “Thank you for calling. An agent will be with you shortly.” It can be set as mandatory. If the mandatory option is not selected and a caller reaches the call queue while there is an available agent, the caller will not hear this announcement and is transferred to an agent. The welcome message feature is enabled by default.
-    - `enabled` (boolean): If enabled play entrance message. The default value is `true`.
-    - `alwaysEnabled` (boolean): Mandatory entrance message. The default value is `false`.
-    - `greeting` (string) (**requerido**): Indicates how to handle new calls when the queue is full.  * `CUSTOM` - Play the custom announcement specified by the `fileName` field.  * `DEFAULT` - Play default announcement. Valores: CUSTOM, DEFAULT.
-    - `audioAnnouncementFiles` (array): Array of announcement files to be played as `welcomeMessage` greetings. These files are from the list of announcement files associated with this call queue. For `CUSTOM` announcement, a minimum of 1 file is mandatory, and the maximum is 4.
-      - `id` (string) (**requerido**): Unique identifier of the Announcement file.
-      - `name` (string) (**requerido**): Name of the announcement file.
-      - `mediaFileType` (string) (**requerido**): Media file type of announcement file.
-      - `level` (string) (**requerido**): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION, ENTITY.
+    - `ringPattern` (object): Ring pattern for when this alternate number is called. Only available when `distinctiveRing` is enabled for the hunt group.
+- `callPolicies` (object) (**requerido**): Policy controlling how calls are routed to agents.
+- `queueSettings` (object) (**requerido**): Overall call queue settings.
+- `allowCallWaitingForAgentsEnabled` (boolean): Flag to indicate whether call waiting is enabled for agents.
+- `agents` (array) (**requerido**): People, workspaces and virtual lines that are eligible to receive calls.
+  - `id` (string) (**requerido**): ID of person, workspace or virtual line.
+  - `type` (string) (**requerido**): Type of the person, workspace or virtual line.  * `PEOPLE` - Indicates that this object is a user.  * `PLACE` - Indicates that this object is a place.  * `VIRTUAL_LINE` - Indicates that this object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `firstName` (string): First name of person, workspace or virtual line.
+  - `lastName` (string): First name of person, workspace or virtual line.
+  - `phoneNumber` (string): Phone number of person, workspace or virtual line.
+  - `extension` (string): Extension of person, workspace or virtual line.
+  - `routingPrefix` (string): Routing prefix of location.
+  - `esn` (string): Routing prefix + extension of a person, workspace or virtual line.
+  - `weight` (string): Weight of person, workspace or virtual line. Only applied when call policy is `WEIGHTED`.
+  - `skillLevel` (number): Skill level of person, workspace or virtual line. Only applied when the call `routingType` is `SKILL_BASED`.
+  - `joinEnabled` (boolean): Indicates the join status of the agent for this queue. The default value while creating call queue is `true`.
+  - `location` (object): Location of the call queue.
+  - `hasCxEssentials` (boolean): Person has the CX Essentials license.
+- `allowAgentJoinEnabled` (boolean): Whether or not to allow agents to join or unjoin a queue.
+- `department` (object): The department information.
+  - `id` (string): Unique identifier of the department.
+  - `name` (string): Name of the department.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this call queue.
+- `dialByName` (string): The name to be used for dial by name functions.
+- `digitalInboxEnabled` (boolean): Digital Inbox enabled for Queue. This field is applicable for queue which has `hasCxEssentials=true`.
 
 ### Ejemplo — respuesta 200
 ```json

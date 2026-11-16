@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/announcementLanguages
-operation_id: Read the List of Announcement Languages
+operation_id: readTheListOfAnnouncementLanguages
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.004597+00:00
+retrieved_at: 2026-11-16T12:36:50.612395+00:00
 ---
 
 # GET /telephony/config/announcementLanguages
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Read the List of Announcement Languages`
+**operationId:** `readTheListOfAnnouncementLanguages`
 
 ## Resumen
 Read the List of Announcement Languages

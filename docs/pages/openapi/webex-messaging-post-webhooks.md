@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /webhooks
-operation_id: Create a Webhook
+operation_id: createAWebhook
 tags: Webhooks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.751079+00:00
+retrieved_at: 2026-11-16T12:36:51.673195+00:00
 ---
 
 # POST /webhooks
 
 **API:** Webex Messaging
 **Área:** Webhooks
-**operationId:** `Create a Webhook`
+**operationId:** `createAWebhook`
 
 ## Resumen
 Create a Webhook

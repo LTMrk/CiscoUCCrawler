@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/paging
-operation_id: Create a new Paging Group
+operation_id: createANewPagingGroup
 tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.080780+00:00
+retrieved_at: 2026-11-16T12:36:50.720176+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/paging
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Paging Group
-**operationId:** `Create a new Paging Group`
+**operationId:** `createANewPagingGroup`
 
 ## Resumen
 Create a new Paging Group
@@ -44,9 +44,7 @@ Creating a paging group requires a full administrator or location administrator 
 - `originatorCallerIdEnabled` (boolean): Determines what is shown on target users caller ID when a group page is performed. If true shows page originator ID.
 - `originators` (array): An array of people, workspace, and virtual lines IDs who can originate pages to this paging group.
 - `targets` (array): An array of people, workspaces and virtual lines IDs will add to a paging group as paging call targets.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this paging group.
 - `dialByName` (string): The name to be used for dial by name functions.  Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición

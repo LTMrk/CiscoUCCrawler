@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/emergencyCallNotification
-operation_id: Get a Location Emergency Call Notification
+operation_id: getALocationEmergencyCallNotification
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.035828+00:00
+retrieved_at: 2026-11-16T12:36:50.651254+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/emergencyCallNotification
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get a Location Emergency Call Notification`
+**operationId:** `getALocationEmergencyCallNotification`
 
 ## Resumen
 Get a Location Emergency Call Notification

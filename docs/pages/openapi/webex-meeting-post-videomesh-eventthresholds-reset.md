@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /videoMesh/eventThresholds/reset
-operation_id: Reset Event Threshold Configuration
+operation_id: resetEventThresholdConfiguration
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.486105+00:00
+retrieved_at: 2026-11-16T12:36:51.560770+00:00
 ---
 
 # POST /videoMesh/eventThresholds/reset
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Reset Event Threshold Configuration`
+**operationId:** `resetEventThresholdConfiguration`
 
 ## Resumen
 Reset Event Threshold Configuration
@@ -52,9 +52,7 @@ curl -X POST '/videoMesh/eventThresholds/reset' \
   - `eventThresholdId` (string): Unique ID of the event threshold configuration.
   - `eventScope` (string): The `eventScope` is scope of event.
   - `entityId` (string): The `entityId` is the unique ID of the Organization or the unique ID of the Video Mesh Cluster.
-  - `thresholdConfig` (object):
-    - `minThreshold` (number): Threshold value (in percentage) to trigger an event.
-    - `defaultMinThreshold` (number): Deafault Threshold value (in percentage) to trigger an event.
+  - `thresholdConfig` (object): Threshold configuration of an `entityId`.
 - `failedEventThresholdIds` (array): List of failed or invalid event threshold IDs.
 
 ### Ejemplo — respuesta 200

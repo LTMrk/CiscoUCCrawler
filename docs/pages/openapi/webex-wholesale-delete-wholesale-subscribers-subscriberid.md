@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: DELETE
 path: /wholesale/subscribers/{subscriberId}
-operation_id: Remove a Wholesale Subscriber
+operation_id: removeAWholesaleSubscriber
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.605141+00:00
+retrieved_at: 2026-11-16T12:36:51.894149+00:00
 ---
 
 # DELETE /wholesale/subscribers/{subscriberId}
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Remove a Wholesale Subscriber`
+**operationId:** `removeAWholesaleSubscriber`
 
 ## Resumen
 Remove a Wholesale Subscriber

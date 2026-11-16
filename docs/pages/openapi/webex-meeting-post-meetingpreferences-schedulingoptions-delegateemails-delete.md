@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingPreferences/schedulingOptions/delegateEmails/delete
-operation_id: Delete Delegate Emails
+operation_id: deleteDelegateEmails
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.446007+00:00
+retrieved_at: 2026-11-16T12:36:51.509836+00:00
 ---
 
 # POST /meetingPreferences/schedulingOptions/delegateEmails/delete
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Delete Delegate Emails`
+**operationId:** `deleteDelegateEmails`
 
 ## Resumen
 Delete Delegate Emails

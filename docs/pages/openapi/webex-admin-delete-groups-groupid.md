@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /groups/{groupId}
-operation_id: Delete a Group
+operation_id: deleteAGroup
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.084410+00:00
+retrieved_at: 2026-11-16T12:36:50.135873+00:00
 ---
 
 # DELETE /groups/{groupId}
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `Delete a Group`
+**operationId:** `deleteAGroup`
 
 ## Resumen
 Delete a Group

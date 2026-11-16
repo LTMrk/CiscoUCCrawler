@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /people/{personId}
-operation_id: Delete a Person
+operation_id: deleteAPerson
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.109565+00:00
+retrieved_at: 2026-11-16T12:36:50.762950+00:00
 ---
 
 # DELETE /people/{personId}
 
 **API:** Webex Cloud Calling
 **Área:** People
-**operationId:** `Delete a Person`
+**operationId:** `deleteAPerson`
 
 ## Resumen
 Delete a Person

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.141831+00:00
+retrieved_at: 2026-11-16T12:36:50.800600+00:00
 ---
 
 # GET /telephony/config/people/{personId}/modeManagement/features
@@ -45,17 +45,15 @@ curl -X GET '/telephony/config/people/<personId>/modeManagement/features' \
 - `features` (array) (**requerido**): Array of assigned features.
   - `id` (string) (**requerido**): A unique identifier for the feature.
   - `name` (string) (**requerido**): Unique name for the feature.
-  - `type` (string) (**requerido**): * `AUTO_ATTENDANT` - Specifies the feature is an Auto Attendant.  * `CALL_QUEUE` - Specifies the feature is a Call Queue.  * `HUNT_GROUP` - Specifies the feature is a Hunt Group. Valores: AUTO_ATTENDANT, CALL_QUEUE, HUNT_GROUP.
+  - `type` (object) (**requerido**): Defines the scheduling of the operating mode.
   - `phoneNumber` (string): The primary phone number configured for the feature.
   - `extension` (string): The extension configured for the feature.
   - `modeBasedForwardingEnabled` (boolean) (**requerido**): A flag to indicate whether mode-based call forwarding is enabled for the feature.
   - `forwardDestination` (string): The destination for call forwarding if mode-based call forwarding is enabled.
   - `currentOperatingModeName` (string): Name of the current operating mode.
   - `currentOperatingModeId` (string): Unique identifier for the current operating mode.
-  - `exceptionType` (string) (**requerido**): * `MANUAL_SWITCH_BACK` - The mode was switched to or extended by the user for manual switch back and runs as an exception until the user manually switches the feature back to normal operation or a different mode.  * `AUTOMATIC_SWITCH_BACK_EARLY_START` - The mode was switched to by the user before its start time and runs as an exception until its end time is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_EXTENSION` - The current mode was extended by the user before its end time and runs as an exception until the extension end time (mode's end time + extension of up to 12 hours) is reached, at which point it automatically switches the feature back to normal operation.  * `AUTOMATIC_SWITCH_BACK_STANDARD` - The mode will remain the current operating mode for the feature until its normal end time is reached. Valores: MANUAL_SWITCH_BACK, AUTOMATIC_SWITCH_BACK_EARLY_START, AUTOMATIC_SWITCH_BACK_EXTENSION, AUTOMATIC_SWITCH_BACK_STANDARD.
-  - `location` (object):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `exceptionType` (object) (**requerido**): Defines the exception through which the current operating mode is set as active for the feature.
+  - `location` (object): Location object that has a unique identifier for the location and its name.
 
 ### Ejemplo — respuesta 200
 ```json

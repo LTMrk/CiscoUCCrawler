@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callParks/availableRecallHuntGroups
-operation_id: Get available recall hunt groups from Call Parks
+operation_id: getAvailableRecallHuntGroupsFromCallParks
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.049740+00:00
+retrieved_at: 2026-11-16T12:36:50.673896+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callParks/availableRecallHuntGroups
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Get available recall hunt groups from Call Parks`
+**operationId:** `getAvailableRecallHuntGroupsFromCallParks`
 
 ## Resumen
 Get available recall hunt groups from Call Parks

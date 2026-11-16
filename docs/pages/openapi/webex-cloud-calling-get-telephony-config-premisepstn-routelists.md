@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeLists
-operation_id: Read the List of Route Lists
+operation_id: readTheListOfRouteLists
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.967925+00:00
+retrieved_at: 2026-11-16T12:36:50.563980+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeLists
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the List of Route Lists`
+**operationId:** `readTheListOfRouteLists`
 
 ## Resumen
 Read the List of Route Lists

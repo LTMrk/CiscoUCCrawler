@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /dataSources/{dataSourceId}
-operation_id: Retrieve Data Source Details
+operation_id: retrieveDataSourceDetails
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.627360+00:00
+retrieved_at: 2026-11-16T12:36:51.173961+00:00
 ---
 
 # GET /dataSources/{dataSourceId}
 
 **API:** Webex Contact Center
 **Área:** Data Sources
-**operationId:** `Retrieve Data Source Details`
+**operationId:** `retrieveDataSourceDetails`
 
 ## Resumen
 Retrieve Data Source Details

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /recordingReport/meetingArchives/{archiveId}
-operation_id: Get Meeting Archive Details
+operation_id: getMeetingArchiveDetails
 tags: Recording Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.095279+00:00
+retrieved_at: 2026-11-16T12:36:50.149018+00:00
 ---
 
 # GET /recordingReport/meetingArchives/{archiveId}
 
 **API:** Webex Admin
 **Área:** Recording Report
-**operationId:** `Get Meeting Archive Details`
+**operationId:** `getMeetingArchiveDetails`
 
 ## Resumen
 Get Meeting Archive Details

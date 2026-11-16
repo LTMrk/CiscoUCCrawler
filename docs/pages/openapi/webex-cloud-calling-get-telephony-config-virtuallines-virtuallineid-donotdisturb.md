@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/doNotDisturb
-operation_id: Get Virtual Line DoNotDisturb
+operation_id: getVirtualLineDoNotDisturb
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.184629+00:00
+retrieved_at: 2026-11-16T12:36:50.839932+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/doNotDisturb
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Get Virtual Line DoNotDisturb`
+**operationId:** `getVirtualLineDoNotDisturb`
 
 ## Resumen
 Retrieve DoNotDisturb Settings for a Virtual Line

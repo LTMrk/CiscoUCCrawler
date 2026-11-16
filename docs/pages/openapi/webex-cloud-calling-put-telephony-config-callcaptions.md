@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/callCaptions
-operation_id: Update the organization call captions settings
+operation_id: updateTheOrganizationCallCaptionsSettings
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.006684+00:00
+retrieved_at: 2026-11-16T12:36:50.614728+00:00
 ---
 
 # PUT /telephony/config/callCaptions
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Update the organization call captions settings`
+**operationId:** `updateTheOrganizationCallCaptionsSettings`
 
 ## Resumen
 Update the organization call captions settings

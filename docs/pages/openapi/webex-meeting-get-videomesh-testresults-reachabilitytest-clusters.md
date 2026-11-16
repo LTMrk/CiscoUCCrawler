@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/reachabilityTest/clusters
-operation_id: Get Reachability Test results for cluster V2
+operation_id: getReachabilityTestResultsForClusterV2
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.482024+00:00
+retrieved_at: 2026-11-16T12:36:51.554958+00:00
 ---
 
 # GET /videoMesh/testResults/reachabilityTest/clusters
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Reachability Test results for cluster V2`
+**operationId:** `getReachabilityTestResultsForClusterV2`
 
 ## Resumen
 Get Reachability Test results for cluster V2

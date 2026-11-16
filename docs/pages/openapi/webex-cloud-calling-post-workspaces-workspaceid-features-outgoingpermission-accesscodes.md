@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /workspaces/{workspaceId}/features/outgoingPermission/accessCodes
-operation_id: Create Access Codes for a Workspace
+operation_id: createAccessCodesForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.191218+00:00
+retrieved_at: 2026-11-16T12:36:50.848955+00:00
 ---
 
 # POST /workspaces/{workspaceId}/features/outgoingPermission/accessCodes
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Create Access Codes for a Workspace`
+**operationId:** `createAccessCodesForAWorkspace`
 
 ## Resumen
 Create Access Codes for a Workspace

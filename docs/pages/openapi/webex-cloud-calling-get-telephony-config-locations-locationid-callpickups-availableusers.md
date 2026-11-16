@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callPickups/availableUsers
-operation_id: Get available agents from Call Pickups
+operation_id: getAvailableAgentsFromCallPickups
 tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.052196+00:00
+retrieved_at: 2026-11-16T12:36:50.677395+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callPickups/availableUsers
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Pickup
-**operationId:** `Get available agents from Call Pickups`
+**operationId:** `getAvailableAgentsFromCallPickups`
 
 ## Resumen
 Get available agents from Call Pickups

@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: PUT
 path: /wholesale/subscribers/{subscriberId}
-operation_id: Update a Wholesale Subscriber
+operation_id: updateAWholesaleSubscriber
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.604966+00:00
+retrieved_at: 2026-11-16T12:36:51.893946+00:00
 ---
 
 # PUT /wholesale/subscribers/{subscriberId}
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Update a Wholesale Subscriber`
+**operationId:** `updateAWholesaleSubscriber`
 
 ## Resumen
 Update a Wholesale Subscriber
@@ -46,7 +46,7 @@ Either `packages` or `package` field is required but not both.
 - `onBehalfOfSubPartnerOrgId` [query] (string): The encoded organization ID for the sub partner.
 
 ## Cuerpo de la petición (application/json)
-- `package` (string): * `webex_calling` - Calling Basic Package.  * `webex_meetings` - Meetings Package.  * `webex_suite` - Suite Package.  * `webex_voice` - Voice Package.  * `cx_essentials` - Customer Assist Package.  * `webex_calling_standard` - Webex Calling Standard Package.  * `attendant_console` - Attendant Console Package.  * `cx_premium_agent` - Contact Center Premium Agent Package.  * `cx_standard_agent` - Contact Center Standard Agent Package. Valores: webex_calling, webex_meetings, webex_suite, webex_voice, cx_essentials, webex_calling_standard, attendant_console, cx_premium_agent, cx_standard_agent.
+- `package` (object): The Webex Wholesale package to be assigned to the subscriber. **NOTE:** This parameter will be deprecated soon. Please  use `packages` instead.
 - `packages` (array): The complete list of Webex Wholesale packages assigned to the subscriber. Currently accepts only one package in the list.
 - `provisioningParameters` (object):
   - `primaryPhoneNumber` (string): The primary phone number configured for the subscriber. A primary phone number, extension, or both must be supplied when changing from the webex_meetings package to any calling-enabled package.

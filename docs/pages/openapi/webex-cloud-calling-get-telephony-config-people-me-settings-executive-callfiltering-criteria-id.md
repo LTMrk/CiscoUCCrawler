@@ -10,7 +10,7 @@ tags: Beta Call Settings For Me With Userhub Phase1
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.984780+00:00
+retrieved_at: 2026-11-16T12:36:50.586048+00:00
 ---
 
 # GET /telephony/config/people/me/settings/executive/callFiltering/criteria/{id}
@@ -44,7 +44,7 @@ curl -X GET '/telephony/config/people/me/settings/executive/callFiltering/criter
 - `filterName` (string) (**requerido**): Name of the criteria.
 - `scheduleName` (string): Name of the schedule associated with this criteria.
 - `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: holidays, businessHours.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group (Location) level. Valores: PEOPLE, GROUP.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule is at People level.  * `GROUP` - The schedule is at Group (Location) level.  * `ORGANIZATION` - The schedule level that identifies an organization-wide schedule. Valores: PEOPLE, GROUP, ORGANIZATION.
 - `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The criteria applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The criteria applies to selected phone numbers.  * `ANY_INTERNAL` - The criteria applies to any internal number.  * `ANY_EXTERNAL` - The criteria applies to any external number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
 - `anonymousCallersEnabled` (boolean): Indicates if the criteria applies to anonymous callers.
 - `unavailableCallersEnabled` (boolean): Indicates if the criteria applies to unavailable callers.

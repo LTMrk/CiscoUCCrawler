@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers
-operation_id: Modify Transfer Numbers Settings for a Workspace
+operation_id: modifyTransferNumbersSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.192276+00:00
+retrieved_at: 2026-11-16T12:36:50.850249+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Modify Transfer Numbers Settings for a Workspace`
+**operationId:** `modifyTransferNumbersSettingsForAWorkspace`
 
 ## Resumen
 Modify Transfer Numbers Settings for a Workspace

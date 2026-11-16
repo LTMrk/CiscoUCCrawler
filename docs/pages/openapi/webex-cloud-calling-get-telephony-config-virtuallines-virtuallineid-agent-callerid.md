@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/agent/callerId
-operation_id: Retrieve Agent's Caller ID Information
+operation_id: retrieveAgentSCallerIDInformation
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.179826+00:00
+retrieved_at: 2026-11-16T12:36:50.833295+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/agent/callerId
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Retrieve Agent's Caller ID Information`
+**operationId:** `retrieveAgentSCallerIDInformation`
 
 ## Resumen
 Retrieve Agent's Caller ID Information
@@ -41,12 +41,7 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>/agent/callerId' \
 
 ## Respuestas correctas
 **200**: OK
-- `selectedCallerId` (object) (**requerido**):
-  - `id` (string) (**requerido**): When not null, this is the call queue or hunt group's unique identifier.
-  - `type` (string) (**requerido**): * `CALL_QUEUE` - A call queue has been selected for the agent's caller ID.  * `HUNT_GROUP` - A hunt group has been selected for the agent's caller ID. Valores: CALL_QUEUE, HUNT_GROUP.
-  - `name` (string) (**requerido**): When not null, indicates the call queue's or hunt group's name.
-  - `phoneNumber` (string) (**requerido**): When not null, indicates the call queue's or hunt group's phone number.
-  - `extension` (string) (**requerido**): When not null, indicates the call queue's or hunt group's extension number.
+- `selectedCallerId` (object) (**requerido**): Indicates agent's Caller ID choice for outgoing calls.
 
 ### Ejemplo — respuesta 200
 ```json

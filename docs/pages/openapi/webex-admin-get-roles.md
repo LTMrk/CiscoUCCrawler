@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /roles
-operation_id: List Roles
+operation_id: listRoles
 tags: Roles
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.101237+00:00
+retrieved_at: 2026-11-16T12:36:50.156348+00:00
 ---
 
 # GET /roles
 
 **API:** Webex Admin
 **Área:** Roles
-**operationId:** `List Roles`
+**operationId:** `listRoles`
 
 ## Resumen
 List Roles

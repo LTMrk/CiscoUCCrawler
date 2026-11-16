@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /identity/organizations/{orgId}
-operation_id: Update an organization
+operation_id: updateAnOrganization
 tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.081874+00:00
+retrieved_at: 2026-11-16T12:36:50.132973+00:00
 ---
 
 # PATCH /identity/organizations/{orgId}
 
 **API:** Webex Admin
 **Área:** Identity Organization
-**operationId:** `Update an organization`
+**operationId:** `updateAnOrganization`
 
 ## Resumen
 Update an organization
@@ -80,10 +80,7 @@ curl -X PATCH '/identity/organizations/<orgId>' \
 - `id` (string) (**requerido**): Webex Identity assigned organization identifier.
 - `displayName` (string) (**requerido**): Full name of the organization.
 - `preferredLanguage` (string): It is the default preferredLanguage for user creation in this org. It is set in ISO639 format.
-- `meta` (object):
-  - `created` (string) (**requerido**): The date and time the organization was created.
-  - `lastModified` (string) (**requerido**): The last modification time of the organization.
-  - `version` (string) (**requerido**): The version information of the organization.
+- `meta` (object): Meta data information of organization.
 
 ### Ejemplo — respuesta 200
 ```json

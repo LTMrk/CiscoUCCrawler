@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /identity/scim/{orgId}/v2/Groups/{groupId}/Members
-operation_id: Get Group Members
+operation_id: getGroupMembers
 tags: SCIM 2 Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.103652+00:00
+retrieved_at: 2026-11-16T12:36:50.159581+00:00
 ---
 
 # GET /identity/scim/{orgId}/v2/Groups/{groupId}/Members
 
 **API:** Webex Admin
 **Área:** SCIM 2 Groups
-**operationId:** `Get Group Members`
+**operationId:** `getGroupMembers`
 
 ## Resumen
 Get Group Members

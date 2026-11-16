@@ -10,7 +10,7 @@ tags: Organization Setting
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.597809+00:00
+retrieved_at: 2026-11-16T12:36:51.127418+00:00
 ---
 
 # PATCH /organization/{orgid}/organization-setting/{id}

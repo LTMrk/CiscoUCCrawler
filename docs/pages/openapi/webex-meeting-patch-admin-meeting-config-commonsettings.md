@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PATCH
 path: /admin/meeting/config/commonSettings
-operation_id: Update Meeting Common Settings Configuration
+operation_id: updateMeetingCommonSettingsConfiguration
 tags: Site
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.477844+00:00
+retrieved_at: 2026-11-16T12:36:51.547105+00:00
 ---
 
 # PATCH /admin/meeting/config/commonSettings
 
 **API:** Webex Meetings
 **Área:** Site
-**operationId:** `Update Meeting Common Settings Configuration`
+**operationId:** `updateMeetingCommonSettingsConfiguration`
 
 ## Resumen
 Update Meeting Common Settings Configuration

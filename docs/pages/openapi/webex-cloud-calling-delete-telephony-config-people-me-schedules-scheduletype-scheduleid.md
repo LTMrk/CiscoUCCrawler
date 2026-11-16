@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.989329+00:00
+retrieved_at: 2026-11-16T12:36:50.592074+00:00
 ---
 
 # DELETE /telephony/config/people/me/schedules/{scheduleType}/{scheduleId}

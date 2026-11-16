@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /meetings/postMeetingChats
-operation_id: Delete Meeting Chats
+operation_id: deleteMeetingChats
 tags: Chats
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.438768+00:00
+retrieved_at: 2026-11-16T12:36:51.499720+00:00
 ---
 
 # DELETE /meetings/postMeetingChats
 
 **API:** Webex Meetings
 **Área:** Chats
-**operationId:** `Delete Meeting Chats`
+**operationId:** `deleteMeetingChats`
 
 ## Resumen
 Delete Meeting Chats

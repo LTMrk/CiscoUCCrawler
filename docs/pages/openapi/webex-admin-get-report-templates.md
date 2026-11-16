@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /report/templates
-operation_id: List Report Templates
+operation_id: listReportTemplates
 tags: Report Templates
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.098717+00:00
+retrieved_at: 2026-11-16T12:36:50.153688+00:00
 ---
 
 # GET /report/templates
 
 **API:** Webex Admin
 **Área:** Report Templates
-**operationId:** `List Report Templates`
+**operationId:** `listReportTemplates`
 
 ## Resumen
 List Report Templates

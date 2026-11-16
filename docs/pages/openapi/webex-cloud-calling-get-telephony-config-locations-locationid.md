@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}
-operation_id: Get Location Webex Calling Details
+operation_id: getLocationWebexCallingDetails
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.086563+00:00
+retrieved_at: 2026-11-16T12:36:50.728244+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get Location Webex Calling Details`
+**operationId:** `getLocationWebexCallingDetails`
 
 ## Resumen
 Get Location Webex Calling Details
@@ -48,7 +48,7 @@ curl -X GET '/telephony/config/locations/<locationId>' \
   - `name` (string) (**requerido**): Group calling line ID name. By default the Org name.
   - `phoneNumber` (string) (**requerido**): Directory Number / Main number in E.164 Format.
 - `connection` (object) (**requerido**): Connection details are only returned for local PSTN types of `TRUNK` or `ROUTE_GROUP`.
-  - `type` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+  - `type` (object) (**requerido**): Webex Calling location only suppports `TRUNK` and `ROUTE_GROUP` connection type.
   - `id` (string) (**requerido**): A unique identifier of route type.
 - `subscriptionId` (string): PSTN connection ID given for locations with a PSTN subscription.
 - `externalCallerIdName` (string) (**requerido**): External Caller ID Name value. Unicode characters.

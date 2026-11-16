@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /partner/organizations/{orgId}/partnerAdmin/{personId}/assign
-operation_id: Assign partner admin to a customer
+operation_id: assignPartnerAdminToACustomer
 tags: Partner Administrators
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.091013+00:00
+retrieved_at: 2026-11-16T12:36:50.143950+00:00
 ---
 
 # POST /partner/organizations/{orgId}/partnerAdmin/{personId}/assign
 
 **API:** Webex Admin
 **Área:** Partner Administrators
-**operationId:** `Assign partner admin to a customer`
+**operationId:** `assignPartnerAdminToACustomer`
 
 ## Resumen
 Assign partner admin to a customer

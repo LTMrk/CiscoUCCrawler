@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingPreferences/personalMeetingRoom
-operation_id: Update Personal Meeting Room Options
+operation_id: updatePersonalMeetingRoomOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.444169+00:00
+retrieved_at: 2026-11-16T12:36:51.507237+00:00
 ---
 
 # PUT /meetingPreferences/personalMeetingRoom
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Update Personal Meeting Room Options`
+**operationId:** `updatePersonalMeetingRoomOptions`
 
 ## Resumen
 Update Personal Meeting Room Options

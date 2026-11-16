@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/bargeIn
-operation_id: Retrieve Barge In Call Settings for a Workspace
+operation_id: retrieveBargeInCallSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.196498+00:00
+retrieved_at: 2026-11-16T12:36:50.855934+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/bargeIn
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Barge In Call Settings for a Workspace`
+**operationId:** `retrieveBargeInCallSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Barge In Call Settings for a Workspace

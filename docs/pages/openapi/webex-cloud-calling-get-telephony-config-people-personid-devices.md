@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.019176+00:00
+retrieved_at: 2026-11-16T12:36:50.630339+00:00
 ---
 
 # GET /telephony/config/people/{personId}/devices
@@ -43,21 +43,14 @@ curl -X GET '/telephony/config/people/<personId>/devices' \
   - `id` (string) (**requerido**): Unique identifier for a device.
   - `description` (array): Comma separated array of tags used to describe device.
   - `model` (string) (**requerido**): Identifier for device model.
-  - `modelType` (string): * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
+  - `modelType` (object): Identifier for device model type.
   - `mac` (string): MAC address of device.
   - `ipAddress` (string): IP address of device.
   - `primaryOwner` (boolean) (**requerido**): Indicates whether the person or the workspace is the owner of the device, and points to a primary Line/Port of the device.
-  - `type` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device.  * `MOBILITY` - Device is a shared line.  * `HOTDESKING_GUEST` - Device is a hotdesking guest. Valores: PRIMARY, SHARED_CALL_APPEARANCE, MOBILITY, HOTDESKING_GUEST.
-  - `hoteling` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Enable/Disable hoteling Host. Enabling the device for hoteling means that a guest(end user) can log into this host(workspace device) and use this device  as if it were their own. This is useful when traveling to a remote office but still needing to place/receive calls with their telephone number and access features normally available to them on their office phone.
-    - `limitGuestUse` (boolean): Enable limiting the time a guest can use the device. The time limit is configured via `guestHoursLimit`.
-    - `guestHoursLimit` (number): Time Limit in hours until hoteling is enabled. Mandatory if `limitGuestUse` is enabled.
-  - `owner` (object) (**requerido**):
-    - `id` (string) (**requerido**): Unique identifier of a person or a workspace.
-    - `type` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-    - `firstName` (string): The first name of the device owner.
-    - `lastName` (string): The last name of the device owner.
-  - `activationState` (string) (**requerido**): * `activating` - Device is activating using an activation code.  * `activated` - Device has been activated using an activation code.  * `deactivated` - Device has not been activated using an activation code. Valores: activating, activated, deactivated.
+  - `type` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
+  - `hoteling` (object) (**requerido**): Hoteling login settings, which are available when the device is the owner's primary device and device type is PRIMARY. Hoteling login settings are set at the owner level.
+  - `owner` (object) (**requerido**): Owner of device.
+  - `activationState` (object) (**requerido**): Activation state of device.
 - `maxDeviceCount` (number) (**requerido**): Maximum number of devices a person can be assigned to.
 - `maxOwnedDeviceCount` (number) (**requerido**): Maximum number of devices a person can own.
 

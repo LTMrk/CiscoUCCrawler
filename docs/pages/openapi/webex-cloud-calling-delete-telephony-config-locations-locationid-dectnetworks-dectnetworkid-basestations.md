@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
-operation_id: Delete Bulk DECT Network Base Stations
+operation_id: deleteBulkDECTNetworkBaseStations
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.920297+00:00
+retrieved_at: 2026-11-16T12:36:50.519592+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Delete Bulk DECT Network Base Stations`
+**operationId:** `deleteBulkDECTNetworkBaseStations`
 
 ## Resumen
 Delete Bulk DECT Network Base Stations

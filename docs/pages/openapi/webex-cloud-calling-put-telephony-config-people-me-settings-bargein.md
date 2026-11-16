@@ -10,7 +10,7 @@ tags: Beta Settings Features For Barge-In
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.985522+00:00
+retrieved_at: 2026-11-16T12:36:50.587022+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/bargeIn

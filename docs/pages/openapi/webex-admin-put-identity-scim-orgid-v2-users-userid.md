@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PUT
 path: /identity/scim/{orgId}/v2/Users/{userId}
-operation_id: Update a user with PUT
+operation_id: updateAUserWithPUT
 tags: SCIM 2 Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.107597+00:00
+retrieved_at: 2026-11-16T12:36:50.165061+00:00
 ---
 
 # PUT /identity/scim/{orgId}/v2/Users/{userId}
 
 **API:** Webex Admin
 **Área:** SCIM 2 Users
-**operationId:** `Update a user with PUT`
+**operationId:** `updateAUserWithPUT`
 
 ## Resumen
 Update a user with PUT
@@ -77,7 +77,7 @@ Once a user's role or managed roles are changed, all tokens associated with that
 ## Cuerpo de la petición (application/json)
 - `schemas` (array) (**requerido**): Input JSON schemas.
 - `userName` (string) (**requerido**): A unique identifier for the user and authenticates the user in Webex.  This must be set to the user's primary email address.  No other user in Webex may have the same `userName` value and thus this value is required to be unique within Webex.
-- `userType` (string) (**requerido**):  Valores: user, room, external_calling, calling_service.
+- `userType` (object) (**requerido**): User type.
 - `title` (string): The user's business title.  Examples of a title is "Business Manager". "Senior Accountant", "Engineer" etc.
 - `active` (boolean): A boolean value of "true" or "false" indicating whether the user is allowed to login to Webex.
 - `roles` (array): List of roles assigned to the user.
@@ -122,7 +122,7 @@ Once a user's role or managed roles are changed, all tokens associated with that
   - `manager` (object): The user's manager.
     - `value` (string) (**requerido**): Webex Identity assigned user identifier of the user's manager. The manager must belong to the same org as the user.
 - `urn:scim:schemas:extension:cisco:webexidentity:2.0:User` (object): cisco extension of SCIM 2
-  - `accountStatus` (string) (**requerido**): An array of additional information about a user's status. Valores: active, pending, transient, disabled, fraud, fraud_transient, compliance_transient, pending_transient.
+  - `accountStatus` (object) (**requerido**): An array of additional information about a user's status.
   - `sipAddresses` (array): `sipAddress` values for the user.
     - `value` (string) (**requerido**): The `sipAddress` value.
     - `type` (string): `sipAddress` type. Valores: enterprise.
@@ -220,11 +220,6 @@ curl -X PUT '/identity/scim/<orgId>/v2/Users/<userId>' \
   - `type` (string): name
   - `display` (string): A human-readable name, primarily used for display purposes.
 - `name` (object): The components of the user's real name.
-  - `givenName` (string): The given name of the user, or first name in most Western languages (e.g., "Sarah" given the full name "Ms. Sarah J Henderson, III").
-  - `familyName` (string): The family name of the user, or last name in most Western languages (e.g., "Henderson" given the full name "Ms. Sarah J Henderson, III").
-  - `middleName` (string): The middle name(s) of the user (e.g., "Jane" given the full name "Ms. Sarah J Henderson, III").
-  - `honorificPrefix` (string): The honorific prefix(es) of the user, or title in most Western languages (e.g., "Ms." given the full name "Ms. Sarah J Henderson, III").
-  - `honorificSuffix` (string): The honorific suffix(es) of the user, or suffix in most Western languages (e.g., "III" given the full name "Ms. Sarah J Henderson, III").
 - `displayName` (string): The name displayed for the user in Webex.
 - `nickName` (string): A casual name of the user. For example, Bob when the user's formal name is Robert.
 - `emails` (array): A list of the user's email addresses, including primary and alternative emails. The primary work email address must match the value of the user's username.
@@ -232,7 +227,7 @@ curl -X PUT '/identity/scim/<orgId>/v2/Users/<userId>' \
   - `type` (string): The type of the email. Valores: work, home, room, other.
   - `display` (string): A human-readable description, primarily used for display purposes.
   - `primary` (boolean): Email status boolean value. If the type is work and primary is true, the value must equal `userName`.
-- `userType` (string) (**requerido**):  Valores: user, room, external_calling, calling_service.
+- `userType` (object) (**requerido**): User type.
 - `profileUrl` (string): A fully qualified URL pointing to a page representing the user's online profile.
 - `title` (string): The user's business title.  Examples of a title is "Business Manager". "Senior Accountant", "Engineer" etc.
 - `preferredLanguage` (string): User's preferred language. Acceptable values for this field are based on the [ISO-696](http://www.loc.gov/standards/iso639-2/php/code_list.php) and [ISO-3166](https://www.iso.org/obp/ui/#search) with the 2 letter language code followed by an _ and then the 2 letter country code.  Examples are:                                      en_US : for United States English or fr_FR for Parisian French.
@@ -263,14 +258,19 @@ curl -X PUT '/identity/scim/<orgId>/v2/Users/<userId>' \
   - `department` (string): Name of a department.
   - `employeeNumber` (string): Numeric or alphanumeric identifier assigned to a person, typically based on the order of hire or association with an organization.
   - `manager` (object): The user's manager.
-    - `value` (string) (**requerido**): Webex Identity assigned user identifier of the user's manager. The manager must belong to the same org as the user.
-    - `displayName` (string): The name displayed for the manager in Webex.
-    - `$ref` (string): The URI corresponding to a SCIM user that is the manager.
 - `urn:scim:schemas:extension:cisco:webexidentity:2.0:User` (object): The Cisco extension of SCIM 2.
-  - `accountStatus` (string) (**requerido**): An array of additional information about a user's status. Valores: active, pending, transient, disabled, fraud, fraud_transient, compliance_transient, pending_transient.
+  - `accountStatus` (object) (**requerido**): An array of additional information about a user's status.
   - `sipAddresses` (array): `sipAddress` values for the user.
     - `value` (string) (**requerido**): The `sipAddress` value.
     - `type` (string): `sipAddress` type. Valores: enterprise.
+    - `display` (string): A human-readable description, primarily used for display purposes.
+    - `primary` (boolean): Designate the primary `sipAddress`.
+  - `managedOrgs` (array): Organizations that the user can manage.
+    - `orgId` (string) (**requerido**): Webex Identity assigned organization identifier.
+    - `role` (string) (**requerido**): Role in the target organization for the user.
+  - `managedGroups` (array): Groups that the user can manage.
+    - `orgId` (string) (**requerido**): Webex Identity assigned organization identifier.
+    - `groupId` (string) (**requerido**): Webex Identity assigned group identifier.
 
 ## Respuestas de error
 - **400**: Bad Request: The request was invalid or cannot be otherwise served. An accompanying error message will explain further.

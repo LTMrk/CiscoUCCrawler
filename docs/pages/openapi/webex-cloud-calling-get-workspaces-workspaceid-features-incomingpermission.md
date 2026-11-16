@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/incomingPermission
-operation_id: Retrieve Incoming Permission Settings for a Workspace
+operation_id: retrieveIncomingPermissionSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.189963+00:00
+retrieved_at: 2026-11-16T12:36:50.847191+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/incomingPermission
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Retrieve Incoming Permission Settings for a Workspace`
+**operationId:** `retrieveIncomingPermissionSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Incoming Permission Settings for a Workspace

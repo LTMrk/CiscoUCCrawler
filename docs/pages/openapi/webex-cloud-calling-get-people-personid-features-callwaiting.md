@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/callWaiting
-operation_id: Read Call Waiting Settings for a Person
+operation_id: readCallWaitingSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.116612+00:00
+retrieved_at: 2026-11-16T12:36:50.772843+00:00
 ---
 
 # GET /people/{personId}/features/callWaiting
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Read Call Waiting Settings for a Person`
+**operationId:** `readCallWaitingSettingsForAPerson`
 
 ## Resumen
 Read Call Waiting Settings for a Person

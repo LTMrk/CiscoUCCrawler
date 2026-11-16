@@ -10,7 +10,7 @@ tags: Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.097809+00:00
+retrieved_at: 2026-11-16T12:36:50.152542+00:00
 ---
 
 # POST /recordings/{recordingId}/accessList

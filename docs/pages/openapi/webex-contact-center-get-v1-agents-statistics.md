@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.633478+00:00
+retrieved_at: 2026-11-16T12:36:51.183233+00:00
 ---
 
 # GET /v1/agents/statistics
@@ -45,7 +45,6 @@ curl -X GET '/v1/agents/statistics?from=<from>&to=<to>' \
 ## Respuestas correctas
 **200**: OK
 - `meta` (object) (**requerido**): Response metadata.
-  - `orgId` (string): Organization ID to which resources belong.
 - `data` (array) (**requerido**): List of Agent Statistics records retrieved according to query parameters.
   - `intervalStartTime` (integer/int64): Time in GMT
   - `agentId` (string): The ID of the agent.

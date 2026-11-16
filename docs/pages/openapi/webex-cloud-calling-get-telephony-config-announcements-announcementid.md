@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/announcements/{announcementId}
-operation_id: Fetch details of a binary announcement greeting at the organization level
+operation_id: fetchDetailsOfABinaryAnnouncementGreetingAtTheOrganizationLevel
 tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.040720+00:00
+retrieved_at: 2026-11-16T12:36:50.659104+00:00
 ---
 
 # GET /telephony/config/announcements/{announcementId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Announcement Repository
-**operationId:** `Fetch details of a binary announcement greeting at the organization level`
+**operationId:** `fetchDetailsOfABinaryAnnouncementGreetingAtTheOrganizationLevel`
 
 ## Resumen
 Fetch details of a binary announcement greeting at the organization level

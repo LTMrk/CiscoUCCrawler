@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/announcements/{announcementId}
-operation_id: Delete an announcement greeting in a location
+operation_id: deleteAnAnnouncementGreetingInALocation
 tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.041862+00:00
+retrieved_at: 2026-11-16T12:36:50.660587+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/announcements/{announcementId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Announcement Repository
-**operationId:** `Delete an announcement greeting in a location`
+**operationId:** `deleteAnAnnouncementGreetingInALocation`
 
 ## Resumen
 Delete an announcement greeting in a location

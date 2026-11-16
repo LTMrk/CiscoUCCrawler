@@ -10,7 +10,7 @@ tags: Search Metadata
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.629017+00:00
+retrieved_at: 2026-11-16T12:36:51.176391+00:00
 ---
 
 # GET /search/v2/meta

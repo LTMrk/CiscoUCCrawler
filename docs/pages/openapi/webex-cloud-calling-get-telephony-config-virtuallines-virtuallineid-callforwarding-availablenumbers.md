@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/callForwarding/availableNumbers
-operation_id: Get Virtual Line Call Forward Available Phone Numbers
+operation_id: getVirtualLineCallForwardAvailablePhoneNumbers
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.183733+00:00
+retrieved_at: 2026-11-16T12:36:50.838575+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/callForwarding/availableNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Get Virtual Line Call Forward Available Phone Numbers`
+**operationId:** `getVirtualLineCallForwardAvailablePhoneNumbers`
 
 ## Resumen
 Get Virtual Line Call Forward Available Phone Numbers
@@ -50,14 +50,14 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>/callForwarding/avail
 - `phoneNumbers` (array) (**requerido**): Array of phone numbers.
   - `phoneNumber` (string): A unique identifier for the PSTN phone number.
   - `extension` (string): Extension for a number.
-  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `state` (object) (**requerido**): Phone number's state.
   - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
-  - `telephonyType` (string) (**requerido**): * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `telephonyType` (object) (**requerido**): The telephony type for the number.
   - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
   - `owner` (object):
     - `id` (string) (**requerido**): Unique identifier of the owner to which the number is assigned.
-    - `type` (string) (**requerido**): * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
+    - `type` (object) (**requerido**): Type of the number's owner.
     - `firstName` (string): First name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
     - `lastName` (string): Last name of the number's owner. This field will be present only when the owner `type` is `PEOPLE` or `VIRTUAL_LINE`.
     - `displayName` (string): Display name of the number's owner.

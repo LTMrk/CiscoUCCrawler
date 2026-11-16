@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/emergencyCallbackNumber/dependencies
-operation_id: Retrieve Workspace Emergency Callback Number Dependencies
+operation_id: retrieveWorkspaceEmergencyCallbackNumberDependencies
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.037523+00:00
+retrieved_at: 2026-11-16T12:36:50.653492+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/emergencyCallbackNumber/dependencies
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Retrieve Workspace Emergency Callback Number Dependencies`
+**operationId:** `retrieveWorkspaceEmergencyCallbackNumberDependencies`
 
 ## Resumen
 Retrieve Workspace Emergency Callback Number Dependencies

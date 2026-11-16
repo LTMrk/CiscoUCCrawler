@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/secondary/availableNumbers
-operation_id: Get Workspace Secondary Available Phone Numbers
+operation_id: getWorkspaceSecondaryAvailablePhoneNumbers
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.207715+00:00
+retrieved_at: 2026-11-16T12:36:50.871541+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/secondary/availableNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Get Workspace Secondary Available Phone Numbers`
+**operationId:** `getWorkspaceSecondaryAvailablePhoneNumbers`
 
 ## Resumen
 Get Workspace Secondary Available Phone Numbers
@@ -49,9 +49,9 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/secondary/availableNumbe
 **200**: OK
 - `phoneNumbers` (array) (**requerido**): Array of phone numbers.
   - `phoneNumber` (string) (**requerido**): A unique identifier for the phone number.
-  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `state` (object) (**requerido**): Phone number's state.
   - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
-  - `telephonyType` (string) (**requerido**): * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `telephonyType` (object) (**requerido**): The telephony type for the number.
   - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
 
 ### Ejemplo — respuesta 200

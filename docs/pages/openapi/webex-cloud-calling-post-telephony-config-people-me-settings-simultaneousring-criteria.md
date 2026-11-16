@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 4
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.002050+00:00
+retrieved_at: 2026-11-16T12:36:50.609077+00:00
 ---
 
 # POST /telephony/config/people/me/settings/simultaneousRing/criteria
@@ -32,7 +32,7 @@ Creating criteria requires a user auth token with a scope of `spark:telephony_co
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the simultaneous ring is in effect.
 - `scheduleType` (string) (**requerido**): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string) (**requerido**): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+- `scheduleLevel` (object) (**requerido**): Scope of the associated schedule.
 - `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
 - `anonymousCallersEnabled` (boolean): When `true`, the criteria applies to calls from anonymous callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true`, the criteria applies to calls from unavailable callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.

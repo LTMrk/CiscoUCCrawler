@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.131299+00:00
+retrieved_at: 2026-11-16T12:36:50.794930+00:00
 ---
 
 # GET /telephony/voiceMessages
@@ -39,12 +39,7 @@ curl -X GET '/telephony/voiceMessages' \
 - `items` (array) (**requerido**):
   - `id` (string) (**requerido**): The message identifier of the voicemail message.
   - `duration` (number): The duration (in seconds) of the voicemail message.  Duration is not present for a FAX message.
-  - `callingParty` (object) (**requerido**):
-    - `name` (string): The party's name. Only present when the name is available and privacy is not enabled.
-    - `number` (string): The party's number. Only present when the number is available and privacy is not enabled. The number can be digits or a URI. Some examples for number include: `1234`, `2223334444`, `+12223334444`, `*73`, and `user@company.domain`.
-    - `personId` (string): The party's person ID. Only present when the person ID is available and privacy is not enabled.
-    - `placeId` (string): The party's place ID. Only present when the place ID is available and privacy is not enabled.
-    - `privacyEnabled` (boolean) (**requerido**): if `true`, denotes privacy is enabled for the name, number and `personId`/`placeId`.
+  - `callingParty` (object) (**requerido**): The calling party's details. For example, if user A calls user B and leaves a voicemail message, then A is the calling party.
   - `urgent` (boolean): `true` if the voicemail message is urgent.
   - `confidential` (boolean): `true` if the voicemail message is confidential.
   - `read` (boolean): `true` if the voicemail message has been read.

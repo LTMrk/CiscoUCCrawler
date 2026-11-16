@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/operatingModes
-operation_id: Read the List of Operating Modes
+operation_id: readTheListOfOperatingModes
 tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.078115+00:00
+retrieved_at: 2026-11-16T12:36:50.716598+00:00
 ---
 
 # GET /telephony/config/operatingModes
 
 **API:** Webex Cloud Calling
 **Área:** Features: Operating Modes
-**operationId:** `Read the List of Operating Modes`
+**operationId:** `readTheListOfOperatingModes`
 
 ## Resumen
 Read the List of Operating Modes
@@ -49,15 +49,10 @@ curl -X GET '/telephony/config/operatingModes?limitToLocationId=<limitToLocation
 - `operatingModes` (array) (**requerido**): Array of `operating modes`.
   - `id` (string) (**requerido**): A unique identifier for the `operating mode`.
   - `name` (string) (**requerido**): Unique name for the `operating mode`.
-  - `type` (string) (**requerido**): * `SAME_HOURS_DAILY` - Specifies the `operating mode` is active during the same hours daily (i.e., same schedule for Monday to Friday, and Saturday to Sunday).  * `DIFFERENT_HOURS_DAILY` - Specifies the `operating mode` is active during different hours for different days of the week.  * `HOLIDAY` - Specifies the `operating mode` is active during holidays with their own days, and recurrence.  * `NONE` - Specifies the `operating mode` doesn't have any schedules defined. Valores: SAME_HOURS_DAILY, DIFFERENT_HOURS_DAILY, HOLIDAY, NONE.
-  - `level` (string) (**requerido**): * `ORGANIZATION` - Specifies this `operating mode` is configured across the organization.  * `LOCATION` - Specifies this `operating mode` is configured across a location. Valores: ORGANIZATION, LOCATION.
-  - `location` (object):
-    - `id` (string): The ID of the location.
-    - `name` (string): The name of the location.
-  - `callForwarding` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Call forwarding is enabled, or disabled. `False` if the flag is not set.
-    - `destination` (string) (**requerido**): The destination for forwarding.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): The destination voicemail enabled. `False` if the flag is not set.
+  - `type` (object) (**requerido**): Defines the scheduling of the `operating mode`.
+  - `level` (object) (**requerido**): Level at which the `operating mode` would be defined.
+  - `location` (object): Location object having a unique identifier for the location, and its name. Mandatory if level is `LOCATION`.
+  - `callForwarding` (object) (**requerido**): Call forwarding settings for an `operating mode`.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.015973+00:00
+retrieved_at: 2026-11-16T12:36:50.626734+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}/members
@@ -54,7 +54,7 @@ curl -X GET '/telephony/config/devices/<deviceId>/members' \
   - `primaryOwner` (boolean) (**requerido**): This field indicates whether the person or the workspace is the owner of the device, and points to a primary Line/Port of the device.
   - `port` (number) (**requerido**): Port number assigned to person or workspace.
   - `t38FaxCompressionEnabled` (boolean): T.38 Fax Compression setting and is available only for ATA Devices. Choose T.38 fax compression if the device requires this option. This will override user level compression options.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): Line type is used to differentiate Primary and SCA, at which endpoint it is assigned.
   - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
   - `hostIP` (string): Registration Host IP address for the line port.
   - `remoteIP` (string): Registration Remote IP address for the line port.
@@ -63,10 +63,8 @@ curl -X GET '/telephony/config/devices/<deviceId>/members' \
   - `allowCallDeclineEnabled` (boolean) (**requerido**): Set how a person's device behaves when a call is declined. When set to true, a call decline request is extended to all the endpoints on the device. When set to false, a call decline request only declines the current endpoint.
   - `lineLabel` (string): Device line label.
   - `linePort` (string): SIP username used in SIP signaling, for example, in registration.
-  - `memberType` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-  - `location` (object):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `memberType` (object) (**requerido**): Indicates if the member is of type `PEOPLE` or `PLACE`.
+  - `location` (object): Location object having a unique identifier for the location and its name.
 - `maxLineCount` (number) (**requerido**): Maximum number of lines available for the device.
 
 ### Ejemplo — respuesta 200

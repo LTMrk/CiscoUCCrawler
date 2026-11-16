@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/privacy
-operation_id: Get a Virtual Line's Privacy Settings
+operation_id: getAVirtualLineSPrivacySettings
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.183083+00:00
+retrieved_at: 2026-11-16T12:36:50.837722+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/privacy
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Get a Virtual Line's Privacy Settings`
+**operationId:** `getAVirtualLineSPrivacySettings`
 
 ## Resumen
 Get a Virtual Line's Privacy Settings
@@ -50,7 +50,7 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>/privacy' \
   - `lastName` (string): Last name of the person.
   - `firstName` (string): First name of the person.
   - `displayName` (string): Display name of the person.
-  - `type` (string): * `PEOPLE` - Person or list of people.  * `PLACE` - Workspace that is not assigned to a specific person such as for a shared device in a common area.  * `VIRTUAL_LINE` - Virtual line or list of virtual lines. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object): Type usually indicates `PEOPLE`, `PLACE` or `VIRTUAL_LINE`. Push-to-Talk and Privacy features only supports `PEOPLE`.
   - `email` (string): Email address of the person.
   - `numbers` (array): List of phone numbers of the person.
     - `external` (string): External phone number of the person.

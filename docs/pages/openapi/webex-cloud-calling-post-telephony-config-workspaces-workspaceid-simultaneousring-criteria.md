@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria
-operation_id: Create Simultaneous Ring Criteria for a Workspace
+operation_id: createSimultaneousRingCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.202281+00:00
+retrieved_at: 2026-11-16T12:36:50.863886+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Create Simultaneous Ring Criteria for a Workspace`
+**operationId:** `createSimultaneousRingCriteriaForAWorkspace`
 
 ## Resumen
 Create Simultaneous Ring Criteria for a Workspace
@@ -37,10 +37,10 @@ This API requires a full, user or location administrator auth token with the `sp
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
-- `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the simultaneous ring is in effect.
-- `scheduleType` (string) (**requerido**): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string) (**requerido**): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
+- `scheduleName` (string) (**requerido**): Name of the schedule which determines when the simultaneous ring is in effect.
+- `scheduleType` (object) (**requerido**): The Schedule type whether `businessHours` or `holidays`.
+- `scheduleLevel` (object) (**requerido**): The Schedule level.
+- `callsFrom` (object) (**requerido**): Indicates whether to apply simultaneously ring for calls from Any Phone Number or Select Phone Numbers.
 - `anonymousCallersEnabled` (boolean): When `true`, enables calls from anonymous callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true`, enables calls even if callers are unavailable. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `phoneNumbers` (array): the list of phone numbers that will checked against incoming calls for a match. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.

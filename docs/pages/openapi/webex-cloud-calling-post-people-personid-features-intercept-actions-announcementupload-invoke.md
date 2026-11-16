@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/intercept/actions/announcementUpload/invoke
-operation_id: Configure Call Intercept Greeting for a Person
+operation_id: configureCallInterceptGreetingForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.115973+00:00
+retrieved_at: 2026-11-16T12:36:50.771948+00:00
 ---
 
 # POST /people/{personId}/features/intercept/actions/announcementUpload/invoke
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Call Intercept Greeting for a Person`
+**operationId:** `configureCallInterceptGreetingForAPerson`
 
 ## Resumen
 Configure Call Intercept Greeting for a Person

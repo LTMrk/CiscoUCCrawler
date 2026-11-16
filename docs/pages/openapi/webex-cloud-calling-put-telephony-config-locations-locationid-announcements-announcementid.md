@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/announcements/{announcementId}
-operation_id: Modify a binary announcement greeting at location level
+operation_id: modifyABinaryAnnouncementGreetingAtLocationLevel
 tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.042269+00:00
+retrieved_at: 2026-11-16T12:36:50.661134+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/announcements/{announcementId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Announcement Repository
-**operationId:** `Modify a binary announcement greeting at location level`
+**operationId:** `modifyABinaryAnnouncementGreetingAtLocationLevel`
 
 ## Resumen
 Modify a binary announcement greeting at location level

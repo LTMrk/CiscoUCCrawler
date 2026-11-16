@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/postMeetingChats
-operation_id: List Meeting Chats
+operation_id: listMeetingChats
 tags: Chats
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.438360+00:00
+retrieved_at: 2026-11-16T12:36:51.499311+00:00
 ---
 
 # GET /meetings/postMeetingChats
 
 **API:** Webex Meetings
 **Área:** Chats
-**operationId:** `List Meeting Chats`
+**operationId:** `listMeetingChats`
 
 ## Resumen
 List Meeting Chats

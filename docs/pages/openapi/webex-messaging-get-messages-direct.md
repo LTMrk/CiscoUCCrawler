@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /messages/direct
-operation_id: List Direct Messages
+operation_id: listDirectMessages
 tags: Messages
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.744384+00:00
+retrieved_at: 2026-11-16T12:36:51.664061+00:00
 ---
 
 # GET /messages/direct
 
 **API:** Webex Messaging
 **Área:** Messages
-**operationId:** `List Direct Messages`
+**operationId:** `listDirectMessages`
 
 ## Resumen
 List Direct Messages

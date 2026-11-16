@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/pollResults
-operation_id: Get Meeting PollResults
+operation_id: getMeetingPollResults
 tags: Meeting Polls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.443128+00:00
+retrieved_at: 2026-11-16T12:36:51.505752+00:00
 ---
 
 # GET /meetings/pollResults
 
 **API:** Webex Meetings
 **Área:** Meeting Polls
-**operationId:** `Get Meeting PollResults`
+**operationId:** `getMeetingPollResults`
 
 ## Resumen
 Get Meeting PollResults
@@ -66,15 +66,7 @@ curl -X GET '/meetings/pollResults?meetingId=<meetingId>' \
       - `value` (string): The content of the answer.
       - `totalRespondents` (number): The total number of people who selected this answer.
       - `isCorrect` (boolean): Whether the answer is correct.
-    - `respondents` (object):
-      - `links` (object):
-        - `prev` (string): Link to the previous question's respondents.
-        - `self` (string): Link to the current question's respondents.
-        - `next` (string): Link to the next page question's respondents.
-      - `items` (array): An array of answers.
-        - `displayName` (string): The name of the person who answers the question.
-        - `email` (string): The email of the person who answers the question.
-        - `answers` (array): An array of answers. Single answer or text questions contain only a single answer.
+    - `respondents` (object): Question's respondents.
 
 ### Ejemplo — respuesta 200
 ```json

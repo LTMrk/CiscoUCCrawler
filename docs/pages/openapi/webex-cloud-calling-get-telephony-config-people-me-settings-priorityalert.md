@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.987403+00:00
+retrieved_at: 2026-11-16T12:36:50.589371+00:00
 ---
 
 # GET /telephony/config/people/me/settings/priorityAlert
@@ -25,7 +25,7 @@ Get Priority Alert Settings
 ## Descripción
 Get Priority Alert Settings for the authenticated user.
 
-Priority alert allows you to set up a unique ringtone based on predefined criteria. This is helpful, when the user wants to be quickly notified that a specific phone number is calling.
+Priority alert allows you to set up a distinctive ringtone based on predefined criteria. This is helpful, when the user wants to be quickly notified that a specific phone number is calling.
 
 This API requires a user auth token with a scope of `spark:telephony_config_read`.
 
@@ -38,11 +38,12 @@ curl -X GET '/telephony/config/people/me/settings/priorityAlert' \
 ## Respuestas correctas
 **200**: Priority Alert Settings retrieved successfully for the authenticated user.
 - `enabled` (boolean) (**requerido**): `true` if the Priority Alert feature is enabled.
-- `criteria` (array): A list of criteria specifying conditions when priority alert is in effect.
+- `criteria` (array) (**requerido**): A list of criteria specifying conditions when priority alert is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string): Name of the location's schedule which determines when the priority alert is in effect.
-  - `source` (string) (**requerido**): If criteria are applicable for calls from any phone number or specific phone number.  * `ALL_NUMBERS` - Indicates that priority alert criteria apply for all incoming numbers.  * `SPECIFIC_NUMBERS` - Indicates priority alert criteria only apply to specific incoming numbers. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS.
-  - `notificationEnabled` (boolean) (**requerido**): When set to `true` notification is enabled for calls that meet the current criteria. Criteria with `notificationEnabled` set to `false` take priority.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the priority alert is in effect.
+  - `source` (string) (**requerido**): If criteria are applicable for calls from any phone number or specific phone number. `ALL_NUMBERS` is equivalent to `ANY_PHONE_NUMBER` and `SPECIFIC_NUMBERS` is equivalent to `SELECT_PHONE_NUMBERS` in the criteria detail APIs.  * `ALL_NUMBERS` - Indicates that priority alert criteria apply for all incoming external numbers.  * `SPECIFIC_NUMBERS` - Indicates priority alert criteria only apply to specific incoming numbers.  * `ANY_INTERNAL` - Indicates that priority alert criteria apply for any internal call. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, ANY_INTERNAL.
+  - `notificationEnabled` (boolean) (**requerido**): Determines whether priority alerting is applied for calls matching this criteria. If `true`, priority alerting is applied. If `false`, this criteria acts as a 'Don't Alert' rule, preventing priority alerting. Criteria with `notificationEnabled` set to `false` (Don't Alert) take precedence over criteria with `notificationEnabled` set to `true` (Alert).
+  - `ringPattern` (string): Distinctive ringtone pattern for incoming calls matching this criteria.  * `NORMAL` - Standard ring pattern.  * `LONG_LONG` - Two long rings.  * `SHORT_LONG_SHORT` - Short ring, long ring, short ring pattern.  * `SHORT_SHORT_LONG` - Two short rings followed by one long ring. Valores: NORMAL, LONG_LONG, SHORT_LONG_SHORT, SHORT_SHORT_LONG.
 
 ### Ejemplo — respuesta 200
 ```json
@@ -53,7 +54,8 @@ curl -X GET '/telephony/config/people/me/settings/priorityAlert' \
       "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY",
       "scheduleName": "CustomHoliday(Group)",
       "source": "ALL_NUMBERS",
-      "notificationEnabled": false
+      "notificationEnabled": true,
+      "ringPattern": "LONG_LONG"
     }
   ]
 }

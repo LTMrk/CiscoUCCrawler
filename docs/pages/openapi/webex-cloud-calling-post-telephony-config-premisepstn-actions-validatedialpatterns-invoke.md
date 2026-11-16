@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/actions/validateDialPatterns/invoke
-operation_id: Validate a Dial Pattern
+operation_id: validateADialPattern
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.963195+00:00
+retrieved_at: 2026-11-16T12:36:50.555457+00:00
 ---
 
 # POST /telephony/config/premisePstn/actions/validateDialPatterns/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Validate a Dial Pattern`
+**operationId:** `validateADialPattern`
 
 ## Resumen
 Validate a Dial Pattern
@@ -48,10 +48,10 @@ curl -X POST '/telephony/config/premisePstn/actions/validateDialPatterns/invoke'
 
 ## Respuestas correctas
 **200**: OK
-- `status` (string): * `ERRORS` - In case one or more dial pattern validation failed  * `OK` - If all the patterns are validated successfully Valores: ERRORS, OK.
+- `status` (object): Overall validation result status.
 - `dialPatternStatus` (array): Patterns validation result.
   - `dialPattern` (string): Input dial pattern that is being validated.
-  - `patternStatus` (string): * `INVALID` - Invalid pattern  * `DUPLICATE` - Duplicate pattern  * `DUPLICATE_IN_LIST` - Duplicate in input Valores: INVALID, DUPLICATE, DUPLICATE_IN_LIST.
+  - `patternStatus` (object): Validation status.
   - `message` (string): Failure details.
 
 ### Ejemplo — respuesta 200

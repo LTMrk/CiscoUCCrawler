@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/redSky
-operation_id: Get a Location's RedSky Emergency Calling Parameters
+operation_id: getALocationSRedSkyEmergencyCallingParameters
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.034550+00:00
+retrieved_at: 2026-11-16T12:36:50.649392+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/redSky
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get a Location's RedSky Emergency Calling Parameters`
+**operationId:** `getALocationSRedSkyEmergencyCallingParameters`
 
 ## Resumen
 Get a Location's RedSky Emergency Calling Parameters

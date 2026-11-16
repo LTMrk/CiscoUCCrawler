@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/emergencyCallbackNumber
-operation_id: Get a Person's Emergency Callback Number
+operation_id: getAPersonSEmergencyCallbackNumber
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.036396+00:00
+retrieved_at: 2026-11-16T12:36:50.652143+00:00
 ---
 
 # GET /telephony/config/people/{personId}/emergencyCallbackNumber
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get a Person's Emergency Callback Number`
+**operationId:** `getAPersonSEmergencyCallbackNumber`
 
 ## Resumen
 Get a Person's Emergency Callback Number
@@ -41,33 +41,33 @@ curl -X GET '/telephony/config/people/<personId>/emergencyCallbackNumber' \
 
 ## Respuestas correctas
 **200**: OK
-- `selected` (string): * `DIRECT_LINE` - Returned calls from the Public Safety Answering Point go directly to the member. The Emergency Service Address configured by the PSTN to the member's phone is specific to the member’s location.  * `LOCATION_ECBN` - Each location can have an ECBN configured that is different from the location’s main number. Location Default ECBN is typically configured for users without dedicated telephone numbers or with only an extension.  * `LOCATION_MEMBER_NUMBER` - Configure one user with another user’s telephone number as an ECBN. This option is used in place of a location’s main number when the location has multiple floors or buildings. This allows the ECBN assigned to have a more accurate Emergency Service Address associated with it.  * `NONE` - When no other option is selected. Valores: DIRECT_LINE, LOCATION_ECBN, LOCATION_MEMBER_NUMBER, NONE.
+- `selected` (object): Selected number type to configure emergency callback.
 - `directLineInfo` (object): Data relevant to the ECBN for this user/location/virtual line/hunt group.
   - `phoneNumber` (string): The callback phone number that is associated with the direct line.
   - `firstName` (string): The first name of the user.
   - `lastName` (string): The last name of the user.
-  - `effectiveLevel` (string): * `DIRECT_LINE` - Returned calls from the Public Safety Answering Point go directly to the member. The Emergency Service Address configured by the PSTN to the member's phone is specific to the member’s location.  * `LOCATION_ECBN` - Each location can have an ECBN configured that is different from the location’s main number. Location Default ECBN is typically configured for users without dedicated telephone numbers or with only an extension.  * `LOCATION_NUMBER` - A location’s main number that is suitable for when the location has a single building with a single floor.  * `NONE` - There is no effective level type selected. Valores: DIRECT_LINE, LOCATION_ECBN, LOCATION_NUMBER, NONE.
+  - `effectiveLevel` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call, applying fallback rules as necessary.
   - `effectiveValue` (string): The field contains the valid ECBN number at the location level, or the user's main number if valid, defaulting to the location's main number if both are unavailable.
-  - `quality` (string): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
+  - `quality` (object): Used to represent whether a number is a recommended ECBN.
 - `locationECBNInfo` (object): Data relevant to the ECBN for this user/location/virtual line/hunt group.
   - `firstName` (string): The first name of the user, location member, or group name.
   - `lastName` (string): The last name of the user or location member.
   - `phoneNumber` (string): The callback phone number that is associated with the location's ECBN configuration.
-  - `effectiveLevel` (string): * `DIRECT_LINE` - Returned calls from the Public Safety Answering Point go directly to the member. The Emergency Service Address configured by the PSTN to the member's phone is specific to the member’s location.  * `LOCATION_ECBN` - Each location can have an ECBN configured that is different from the location’s main number. Location Default ECBN is typically configured for users without dedicated telephone numbers or with only an extension.  * `LOCATION_NUMBER` - A location’s main number that is suitable for when the location has a single building with a single floor.  * `NONE` - There is no effective level type selected. Valores: DIRECT_LINE, LOCATION_ECBN, LOCATION_NUMBER, NONE.
+  - `effectiveLevel` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call, applying fallback rules as necessary.
   - `effectiveValue` (string): The field contains the valid ECBN number at the location level, or the user's main number if valid, defaulting to the location's main number if both are unavailable.
-  - `quality` (string): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
+  - `quality` (object): Used to represent whether a number is a recommended ECBN.
 - `locationMemberInfo` (object): Data relevant to the ECBN for this user/location/virtual line/hunt group.
   - `phoneNumber` (string): The callback phone number that is associated with member configured for the location ECBN.
   - `firstName` (string): The first name of the user.
   - `lastName` (string): The last name of the user.
   - `memberId` (string): Member ID of user/place/virtual line/hunt group within the location
-  - `memberType` (string): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-  - `effectiveLevel` (string): * `DIRECT_LINE` - Returned calls from the Public Safety Answering Point go directly to the member. The Emergency Service Address configured by the PSTN to the member's phone is specific to the member’s location.  * `LOCATION_ECBN` - Each location can have an ECBN configured that is different from the location’s main number. Location Default ECBN is typically configured for users without dedicated telephone numbers or with only an extension.  * `LOCATION_NUMBER` - A location’s main number that is suitable for when the location has a single building with a single floor.  * `LOCATION_MEMBER_NUMBER` - Configure one user with another user’s telephone number as an ECBN. This option is used in place of a location’s main number when the location has multiple floors or buildings. This allows the ECBN assigned to have a more accurate Emergency Service Address associated with it.  * `NONE` - When no other option is selected. Valores: DIRECT_LINE, LOCATION_ECBN, LOCATION_NUMBER, LOCATION_MEMBER_NUMBER, NONE.
+  - `memberType` (object): Type of the member.
+  - `effectiveLevel` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call, applying fallback rules as necessary.
   - `effectiveValue` (string): The field contains the valid ECBN number at the location level, or the user's main number if valid, defaulting to the location's main number if both are unavailable.
-  - `quality` (string): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
+  - `quality` (object): Used to represent whether a number is a recommended ECBN.
 - `defaultInfo` (object): Gives Emergency Callback Number effective value when none of the above is assigned or some other value is set behind the scene.
   - `effectiveValue` (string): The field contains the ECBN number.
-  - `quality` (string): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
+  - `quality` (object): Used to represent whether a number is a recommended ECBN.
 - `elinEnabled` (boolean): Indicates whether this person is allowed to use an Emergency Location Identification Number (ELIN) for emergency calls made from one of their devices.
 - `elinForWebexAppEnabled` (boolean): Indicates whether this person is allowed to use an Emergency Location Identification Number (ELIN) for emergency calls made using Webex App.
 

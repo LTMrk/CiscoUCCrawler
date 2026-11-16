@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns/{digitPatternId}
-operation_id: Modify a Digit Pattern for a Virtual Profile
+operation_id: modifyADigitPatternForAVirtualProfile
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.178321+00:00
+retrieved_at: 2026-11-16T12:36:50.831675+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns/{digitPatternId}
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Modify a Digit Pattern for a Virtual Profile`
+**operationId:** `modifyADigitPatternForAVirtualProfile`
 
 ## Resumen
 Modify a Digit Pattern for a Virtual Profile

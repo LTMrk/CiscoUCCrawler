@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.146431+00:00
+retrieved_at: 2026-11-16T12:36:50.806855+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/applications/members
@@ -37,7 +37,7 @@ This API requires a full, user, or location administrator auth token with the `s
   - `id` (string) (**requerido**): Unique identifier for the person or workspace.
   - `port` (number) (**requerido**): Device port number assigned to person or workspace.
   - `primaryOwner` (string) (**requerido**): If `true` the person or the workspace is the owner of the device. Points to primary line/port of the device.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
   - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
   - `allowCallDeclineEnabled` (boolean): Set how a device behaves when a call is declined. When set to `true`, a call decline request is extended to all the endpoints on the device. When set to `false`, a call decline request is only declined at the current endpoint.
   - `lineLabel` (string): Device line label.

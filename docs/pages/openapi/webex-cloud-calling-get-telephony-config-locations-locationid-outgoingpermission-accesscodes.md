@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/outgoingPermission/accessCodes
-operation_id: Get Outgoing Permission Location Access Code
+operation_id: getOutgoingPermissionLocationAccessCode
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.095949+00:00
+retrieved_at: 2026-11-16T12:36:50.741595+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/outgoingPermission/accessCodes
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Get Outgoing Permission Location Access Code`
+**operationId:** `getOutgoingPermissionLocationAccessCode`
 
 ## Resumen
 Get Outgoing Permission Location Access Code

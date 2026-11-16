@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}
-operation_id: Fetch a Subscription
+operation_id: fetchASubscription
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.111686+00:00
+retrieved_at: 2026-11-16T12:36:50.169818+00:00
 ---
 
 # GET /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Fetch a Subscription`
+**operationId:** `fetchASubscription`
 
 ## Resumen
 Fetch a Subscription

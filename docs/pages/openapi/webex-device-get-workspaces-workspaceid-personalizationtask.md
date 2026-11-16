@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/personalizationTask
-operation_id: Get Personalization Task
+operation_id: getPersonalizationTask
 tags: Workspace Personalization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.936050+00:00
+retrieved_at: 2026-11-16T12:36:51.386531+00:00
 ---
 
 # GET /workspaces/{workspaceId}/personalizationTask
 
 **API:** Webex Device
 **Área:** Workspace Personalization
-**operationId:** `Get Personalization Task`
+**operationId:** `getPersonalizationTask`
 
 ## Resumen
 Get Personalization Task

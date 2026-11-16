@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/queues/{queueId}/cxEssentials/screenPop
-operation_id: Update Screen Pop Configuration
+operation_id: updateScreenPopConfiguration
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.071654+00:00
+retrieved_at: 2026-11-16T12:36:50.705299+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/queues/{queueId}/cxEssentials/screenPop
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Update Screen Pop Configuration`
+**operationId:** `updateScreenPopConfiguration`
 
 ## Resumen
 Update Screen Pop Configuration
@@ -38,10 +38,7 @@ Modifying the screen pop configuration requires a full or device administrator a
 - `enabled` (boolean): Enable/disable screen pop.
 - `screenPopUrl` (string): The screen pop URL that integrates Webex calls with other business apps like CRM, ticketing tools, and order entry systems.
 - `desktopLabel` (string): A label for the screen pop configuration.
-- `queryParams` (object):
-  - `example_param_1` (string): An example key-value pair that will be sent to the agent.
-  - `example_param_2` (string): Another example key-value pair that will be sent to the agent.
-  - `example_param_3` (string): Another example key-value pair that will be sent to the agent.
+- `queryParams` (object): The additional user-defined key-value pairs that must be sent to the agent.
 
 ### Ejemplo — petición
 ```json

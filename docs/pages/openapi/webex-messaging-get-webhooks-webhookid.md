@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /webhooks/{webhookId}
-operation_id: Get Webhook Details
+operation_id: getWebhookDetails
 tags: Webhooks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.751307+00:00
+retrieved_at: 2026-11-16T12:36:51.673471+00:00
 ---
 
 # GET /webhooks/{webhookId}
 
 **API:** Webex Messaging
 **Área:** Webhooks
-**operationId:** `Get Webhook Details`
+**operationId:** `getWebhookDetails`
 
 ## Resumen
 Get Webhook Details

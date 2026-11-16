@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/voicemailGroups
-operation_id: Create a new Voicemail Group for a Location
+operation_id: createANewVoicemailGroupForALocation
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.102149+00:00
+retrieved_at: 2026-11-16T12:36:50.750356+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/voicemailGroups
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Create a new Voicemail Group for a Location`
+**operationId:** `createANewVoicemailGroupForALocation`
 
 ## Resumen
 Create a new Voicemail Group for a Location
@@ -57,9 +57,7 @@ Creating a voicemail group for the given location requires a full or user admini
 - `emailCopyOfMessage` (object) (**requerido**): Message copy information
   - `enabled` (boolean) (**requerido**): Set to `true` to enable email message copy.
   - `emailId` (string): Set email to receive message copy to the email address provided.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this voicemail group.
 - `dialByName` (string): The name to be used for dial by name functions.  Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición
@@ -67,7 +65,7 @@ Creating a voicemail group for the given location requires a full or user admini
 {
   "name": "Voicemail Group Name",
   "phoneNumber": "+16066412147",
-  "extension": "1273",
+  "extension": 1273,
   "firstName": "rcdnfTest",
   "lastName": "rcdnlTest",
   "passcode": "1373",

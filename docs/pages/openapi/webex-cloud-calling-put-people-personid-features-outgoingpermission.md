@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/outgoingPermission
-operation_id: Modify Outgoing Calling Permissions Settings for a Person
+operation_id: modifyOutgoingCallingPermissionsSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.120547+00:00
+retrieved_at: 2026-11-16T12:36:50.780099+00:00
 ---
 
 # PUT /people/{personId}/features/outgoingPermission
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Modify Outgoing Calling Permissions Settings for a Person`
+**operationId:** `modifyOutgoingCallingPermissionsSettingsForAPerson`
 
 ## Resumen
 Modify a person's Outgoing Calling Permissions Settings

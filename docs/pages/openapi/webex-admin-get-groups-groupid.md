@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /groups/{groupId}
-operation_id: Get Group Details
+operation_id: getGroupDetails
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.084196+00:00
+retrieved_at: 2026-11-16T12:36:50.135674+00:00
 ---
 
 # GET /groups/{groupId}
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `Get Group Details`
+**operationId:** `getGroupDetails`
 
 ## Resumen
 Get Group Details
@@ -29,7 +29,7 @@ Optionally, the members may be retrieved with this request. The maximum number o
 
 ## Parámetros
 - `groupId` [path] (string) (**requerido**): A unique identifier for the group.
-- `includeMembers` [query] (boolean): Include the members as part of the response. Por defecto: false.
+- `includeMembers` [query] (boolean): Include the members as part of the response. Por defecto: False.
 
 ## Ejemplo de invocación
 ```bash

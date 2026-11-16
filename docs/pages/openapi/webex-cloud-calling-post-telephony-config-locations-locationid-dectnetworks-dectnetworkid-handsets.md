@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets
-operation_id: Add a Handset to a DECT Network
+operation_id: addAHandsetToADECTNetwork
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.920946+00:00
+retrieved_at: 2026-11-16T12:36:50.520391+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Add a Handset to a DECT Network`
+**operationId:** `addAHandsetToADECTNetwork`
 
 ## Resumen
 Add a Handset to a DECT Network

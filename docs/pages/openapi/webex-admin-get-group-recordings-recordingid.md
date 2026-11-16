@@ -10,7 +10,7 @@ tags: Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.098524+00:00
+retrieved_at: 2026-11-16T12:36:50.153414+00:00
 ---
 
 # GET /group/recordings/{recordingId}

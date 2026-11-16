@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /Schemas/SCIM2/User
-operation_id: Get User Schema
+operation_id: getUserSchema
 tags: SCIM 2 Schemas
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.105860+00:00
+retrieved_at: 2026-11-16T12:36:50.162776+00:00
 ---
 
 # GET /Schemas/SCIM2/User
 
 **API:** Webex Admin
 **Área:** SCIM 2 Schemas
-**operationId:** `Get User Schema`
+**operationId:** `getUserSchema`
 
 ## Resumen
 Get User Schema
@@ -60,7 +60,7 @@ curl -X GET '/Schemas/SCIM2/User' \
   - `attributes` (array): A list of attributes of this user.
     - `name` (string): The name of the user.
     - `type` (string): The type of the user.
-    - `referenceTypes` (string) (**requerido**): * `external` - Represents a reference to entities or resources that exist outside the current system or organization.  * `Group` - Refers to a reference type that identifies a collection of users or entities within a system.  * `User` - Denotes a reference to an individual who interacts with the system.  * `Machine` - Indicates a reference to a computing device or automated system. Valores: external, Group, User, Machine.
+    - `referenceTypes` (object) (**requerido**): An array of additional information about reference types of the group.
     - `multiValued` (boolean): A boolean value for the user.
     - `description` (string): Description of the user.
     - `required` (boolean): A boolean value for the user.
@@ -90,7 +90,7 @@ curl -X GET '/Schemas/SCIM2/User' \
   - `attributes` (array): A list of attributes of this user.
     - `name` (string): The name of the user.
     - `type` (string): The type of the user.
-    - `referenceTypes` (string) (**requerido**): * `external` - Represents a reference to entities or resources that exist outside the current system or organization.  * `Group` - Refers to a reference type that identifies a collection of users or entities within a system.  * `User` - Denotes a reference to an individual who interacts with the system.  * `Machine` - Indicates a reference to a computing device or automated system. Valores: external, Group, User, Machine.
+    - `referenceTypes` (object) (**requerido**): An array of additional information about reference types of the group.
     - `multiValued` (boolean): A boolean value for the user.
     - `description` (string): Description of the user.
     - `required` (boolean): A boolean value for the user.

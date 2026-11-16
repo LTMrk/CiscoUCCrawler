@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/voicemail
-operation_id: Update Location Voicemail
+operation_id: updateLocationVoicemail
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.100144+00:00
+retrieved_at: 2026-11-16T12:36:50.747899+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/voicemail
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Update Location Voicemail`
+**operationId:** `updateLocationVoicemail`
 
 ## Resumen
 Update Location Voicemail

@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.046140+00:00
+retrieved_at: 2026-11-16T12:36:50.665909+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules/{ruleId}
@@ -42,22 +42,13 @@ Updating a selective call forwarding rule's settings for an auto attendant requi
 ## Cuerpo de la petición (application/json)
 - `name` (string) (**requerido**): Unique name for the selective rule in the auto attendant.
 - `enabled` (boolean): Reflects if rule is enabled.
-- `businessSchedule` (string): Name of the location's business schedule which determines when this selective call forwarding rule is in effect.
-- `holidaySchedule` (string): Name of the location's holiday schedule which determines when this selective call forwarding rule is in effect.
-- `forwardTo` (object):
-  - `phoneNumber` (string): Phone number used if selection is `FORWARD_TO_SPECIFIED_NUMBER`.
-  - `selection` (string) (**requerido**): Controls what happens when the rule matches.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the auto attendant.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
-- `callsFrom` (object):
-  - `selection` (string) (**requerido**): If `CUSTOM`, use `customNumbers` to specify which incoming caller ID values cause this rule to match. `ANY` means any incoming call matches assuming the rule is in effect based on the associated schedules.  * `ANY` - Rule matches for calls from any number.  * `CUSTOM` - Rule matches based on the numbers and options in customNumbers. Valores: ANY, CUSTOM.
-  - `customNumbers` (object):
-    - `privateNumberEnabled` (boolean) (**requerido**): Match if caller ID indicates the call is from a private number.
-    - `unavailableNumberEnabled` (boolean) (**requerido**): Match if callerID is unavailable.
-    - `numbers` (array) (**requerido**): Array of number strings to be matched against incoming caller ID.
-- `callsTo` (object):
-  - `numbers` (array): Array of numbers to be matched against the calling destination number.
-    - `phoneNumber` (string): AutoCalls To phone number. Either phone number or extension should be present as mandatory.
-    - `extension` (string): Calls To extension.  Either `phoneNumber` or `extension` is mandatory.
-    - `type` (string) (**requerido**): Calls to type options.  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
+- `businessSchedule` (string): Name of the business schedule which determines when this selective call forwarding rule is in effect.
+- `businessScheduleLevel` (string): Level of the business schedule named by `businessSchedule`. Defaults to `LOCATION` when omitted. A non-blank `businessSchedule` is required when this field is set.  * `LOCATION` - The schedule is a location schedule.  * `ORGANIZATION` - The schedule is an organization schedule. Valores: LOCATION, ORGANIZATION.
+- `holidaySchedule` (string): Name of the holiday schedule which determines when this selective call forwarding rule is in effect. Omit to keep the current schedule. Send `null` or an empty string to clear it.
+- `holidayScheduleLevel` (string): Level of the holiday schedule named by `holidaySchedule`. Defaults to `LOCATION` when omitted. A non-blank `holidaySchedule` is required when this field is set.  * `LOCATION` - The schedule is a location schedule.  * `ORGANIZATION` - The schedule is an organization schedule. Valores: LOCATION, ORGANIZATION.
+- `forwardTo` (object): Controls what happens when the rule matches including the destination number for the call forwarding.
+- `callsFrom` (object): Settings related the rule matching based on incoming caller ID.
+- `callsTo` (object): Settings related to the rule matching based on the destination number.
 
 ### Ejemplo — petición
 ```json

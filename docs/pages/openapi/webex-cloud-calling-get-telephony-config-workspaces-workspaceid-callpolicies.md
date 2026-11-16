@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/callPolicies
-operation_id: Read Call Policy Settings for a Workspace
+operation_id: readCallPolicySettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.199800+00:00
+retrieved_at: 2026-11-16T12:36:50.860533+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/callPolicies
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Read Call Policy Settings for a Workspace`
+**operationId:** `readCallPolicySettingsForAWorkspace`
 
 ## Resumen
 Read Call Policy Settings for a Workspace
@@ -48,7 +48,7 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/callPolicies' \
 ### Ejemplo — respuesta 200
 ```json
 {
-  "connectedLineIdPrivacyOnRedirectedCalls": "<NO_PRIVACY | PRIVACY_FOR_EXTERNAL_CALLS | PRIVACY_FOR_ALL_CALLS>"
+  "connectedLineIdPrivacyOnRedirectedCalls": "NO_PRIVACY"
 }
 ```
 

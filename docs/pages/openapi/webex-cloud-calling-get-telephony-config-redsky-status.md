@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/redSky/status
-operation_id: Get the Organization Compliance Status for a RedSky Account
+operation_id: getTheOrganizationComplianceStatusForARedSkyAccount
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.033973+00:00
+retrieved_at: 2026-11-16T12:36:50.648592+00:00
 ---
 
 # GET /telephony/config/redSky/status
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get the Organization Compliance Status for a RedSky Account`
+**operationId:** `getTheOrganizationComplianceStatusForARedSkyAccount`
 
 ## Resumen
 Get the Organization Compliance Status for a RedSky Account
@@ -40,17 +40,12 @@ curl -X GET '/telephony/config/redSky/status' \
 
 ## Respuestas correctas
 **200**: OK
-- `orgStatus` (string) (**requerido**): * `INITIALISE` - RedSky account configuration process is in progress.  * `ENABLED` - RedSky account configuration process is complete.  * `OPTED_OUT` - Customer has opted out of the E911 service. Valores: INITIALISE, ENABLED, OPTED_OUT.
-- `complianceStatus` (string) (**requerido**): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `EXEMPTED` - RedSky account compliance status has been exempted.  * `NON_COMPLIANT` - RedSky account is non-compliant.  * `COMPLIANT` - RedSky account is compliant. Valores: OPTED_OUT, EXEMPTED, NON_COMPLIANT, COMPLIANT.
+- `orgStatus` (object) (**requerido**): The RedSky account configuration status for the organization.
+- `complianceStatus` (object) (**requerido**): The RedSky account's compliance status.
 - `companyId` (string): The RedSky held token from the secret response.
 - `redSkyOrgId` (string): The RedSky organization ID for the organization which can be found in the RedSky portal.
 - `adminExists` (boolean): `true` if an Admin has been created in RedSky.
-- `locationsStatus` (object):
-  - `state` (string): * `LOCATION_SETUP` - RedSky account is pending location setup.  * `ALERTS` - RedSky account is pending email notification configuration.  * `NETWORK_ELEMENTS` - RedSky account is pending network element setup.  * `ROUTING_ENABLE` - RedSky account is pending the routing enable setup stage. Valores: LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLE.
-  - `count` (number): Total count of locations available in the organization.
-  - `locations` (array): List of locations that have completed the least amount of setup. Only 4 locations are included in this list.
-    - `id` (string) (**requerido**): Unique identifier for the location.
-    - `name` (string) (**requerido**): Name of the location.
+- `locationsStatus` (object): Object that contains a list of locations, the `count` for the location list, and the `state` for the location that has completed the least amount of setup. Available if at least one location is exists.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
-operation_id: Get Outgoing Permission Digit Pattern for a Location
+operation_id: getOutgoingPermissionDigitPatternForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.096695+00:00
+retrieved_at: 2026-11-16T12:36:50.742638+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Get Outgoing Permission Digit Pattern for a Location`
+**operationId:** `getOutgoingPermissionDigitPatternForALocation`
 
 ## Resumen
 Get Outgoing Permission Digit Pattern for a Location

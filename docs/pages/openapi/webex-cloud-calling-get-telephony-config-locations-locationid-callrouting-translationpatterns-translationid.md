@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}
-operation_id: Retrieve a specific Translation Pattern for a Location
+operation_id: retrieveASpecificTranslationPatternForALocation
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.970631+00:00
+retrieved_at: 2026-11-16T12:36:50.567489+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Retrieve a specific Translation Pattern for a Location`
+**operationId:** `retrieveASpecificTranslationPatternForALocation`
 
 ## Resumen
 Retrieve a specific Translation Pattern for a Location

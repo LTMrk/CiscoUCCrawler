@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/anonymousCallReject
-operation_id: Retrieve Anonymous Call Settings for a Workspace
+operation_id: retrieveAnonymousCallSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.196056+00:00
+retrieved_at: 2026-11-16T12:36:50.855383+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/anonymousCallReject
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Anonymous Call Settings for a Workspace`
+**operationId:** `retrieveAnonymousCallSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Anonymous Call Settings for a Workspace

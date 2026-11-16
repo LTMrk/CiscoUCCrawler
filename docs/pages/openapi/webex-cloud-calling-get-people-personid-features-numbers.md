@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/numbers
-operation_id: Get a List of Phone Numbers for a Person
+operation_id: getAListOfPhoneNumbersForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.120751+00:00
+retrieved_at: 2026-11-16T12:36:50.780381+00:00
 ---
 
 # GET /people/{personId}/features/numbers
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Get a List of Phone Numbers for a Person`
+**operationId:** `getAListOfPhoneNumbersForAPerson`
 
 ## Resumen
 Get a List of Phone Numbers for a Person

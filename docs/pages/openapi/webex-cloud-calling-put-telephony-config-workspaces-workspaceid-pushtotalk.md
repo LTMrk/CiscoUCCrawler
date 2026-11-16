@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/pushToTalk
-operation_id: Configure Push-to-Talk Settings for a Workspace
+operation_id: configurePushToTalkSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.197933+00:00
+retrieved_at: 2026-11-16T12:36:50.857829+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/pushToTalk
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Configure Push-to-Talk Settings for a Workspace`
+**operationId:** `configurePushToTalkSettingsForAWorkspace`
 
 ## Resumen
 Configure Push-to-Talk Settings for a Workspace
@@ -37,8 +37,8 @@ This API requires a full or user administrator or location administrator auth to
 
 ## Cuerpo de la petición (application/json)
 - `allowAutoAnswer` (boolean): `true` if Push-to-Talk feature is enabled.
-- `connectionType` (string): * `ONE_WAY` - Push-to-Talk initiators can chat with this workspace but only in one direction. The workspace you enable Push-to-Talk for cannot respond.  * `TWO_WAY` - Push-to-Talk initiators can chat with this workspace in a two-way conversation. The workspace you enable Push-to-Talk for can respond. Valores: ONE_WAY, TWO_WAY.
-- `accessType` (string): * `ALLOW_MEMBERS` - List of people/workspaces that are allowed to use the Push-to-Talk feature to interact with the workspace being configured.  * `BLOCK_MEMBERS` - List of people/workspaces that are disallowed to interact using the Push-to-Talk feature with the workspace being configured. Valores: ALLOW_MEMBERS, BLOCK_MEMBERS.
+- `connectionType` (object): Specifies the connection type to be used.
+- `accessType` (object): Specifies the access type to be applied when evaluating the member list.
 - `members` (array): List of people that are allowed or disallowed to interact using the Push-to-Talk feature.
 
 ### Ejemplo — petición

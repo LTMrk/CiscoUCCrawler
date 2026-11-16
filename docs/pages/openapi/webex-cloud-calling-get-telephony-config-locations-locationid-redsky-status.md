@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/redSky/status
-operation_id: Get a Location's RedSky Compliance Status
+operation_id: getALocationSRedSkyComplianceStatus
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.034746+00:00
+retrieved_at: 2026-11-16T12:36:50.649676+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/redSky/status
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get a Location's RedSky Compliance Status`
+**operationId:** `getALocationSRedSkyComplianceStatus`
 
 ## Resumen
 Get a Location's RedSky Compliance Status
@@ -41,17 +41,12 @@ curl -X GET '/telephony/config/locations/<locationId>/redSky/status' \
 
 ## Respuestas correctas
 **200**: OK
-- `orgStatus` (string) (**requerido**): * `INITIALISE` - RedSky account configuration process is in progress.  * `ENABLED` - RedSky account configuration process is complete.  * `OPTED_OUT` - Customer has opted out of the E911 service. Valores: INITIALISE, ENABLED, OPTED_OUT.
-- `complianceStatus` (string) (**requerido**): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `EXEMPTED` - RedSky account compliance status has been exempted.  * `NON_COMPLIANT` - RedSky account is non-compliant.  * `COMPLIANT` - RedSky account is compliant. Valores: OPTED_OUT, EXEMPTED, NON_COMPLIANT, COMPLIANT.
+- `orgStatus` (object) (**requerido**): The RedSky account configuration status for the organization.
+- `complianceStatus` (object) (**requerido**): The RedSky account's compliance status.
 - `companyId` (string): The RedSky held token from the secret response.
 - `redSkyOrgId` (string): The RedSky organization ID for the organization which can be found in the RedSky portal.
 - `adminExists` (boolean): `true` if an Admin has been created in RedSky.
-- `locationsStatus` (object):
-  - `state` (string): * `OPTED_OUT` - Customer has opted out of the E911 service.  * `EXEMPTED` - RedSky account compliance status has been exempted.  * `LOCATION_SETUP` - RedSky account is pending location setup.  * `ALERTS` - RedSky account is pending email notification configuration.  * `NETWORK_ELEMENTS` - RedSky account is pending network element setup.  * `ROUTING_ENABLE` - RedSky account is pending the routing enable setup stage.  * `COMPLIANT` - RedSky account is compliant. Valores: OPTED_OUT, EXEMPTED, LOCATION_SETUP, ALERTS, NETWORK_ELEMENTS, ROUTING_ENABLE, COMPLIANT.
-  - `count` (number): Total count of the `locations` list.
-  - `locations` (array): Object that contains the `id` and the `name` for the location in the request.
-    - `id` (string) (**requerido**): Unique identifier for the location.
-    - `name` (string) (**requerido**): Name of the location.
+- `locationsStatus` (object): Object that contains the `state`, `id`, and `name` for the `locationId` in the request.
 
 ### Ejemplo — respuesta 200
 ```json

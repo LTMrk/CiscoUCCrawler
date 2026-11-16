@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}
-operation_id: Remove a Route Group from an Organization
+operation_id: removeARouteGroupFromAnOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.966816+00:00
+retrieved_at: 2026-11-16T12:36:50.562396+00:00
 ---
 
 # DELETE /telephony/config/premisePstn/routeGroups/{routeGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Remove a Route Group from an Organization`
+**operationId:** `removeARouteGroupFromAnOrganization`
 
 ## Resumen
 Remove a Route Group from an Organization

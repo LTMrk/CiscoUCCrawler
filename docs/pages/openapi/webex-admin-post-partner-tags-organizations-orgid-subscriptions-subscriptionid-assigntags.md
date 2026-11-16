@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}/assignTags
-operation_id: Create or Replace existing subscription tags with the provided ones
+operation_id: createOrReplaceExistingSubscriptionTagsWithTheProvidedOnes
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.111306+00:00
+retrieved_at: 2026-11-16T12:36:50.169338+00:00
 ---
 
 # POST /partner/tags/organizations/{orgId}/subscriptions/{subscriptionId}/assignTags
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Create or Replace existing subscription tags with the provided ones`
+**operationId:** `createOrReplaceExistingSubscriptionTagsWithTheProvidedOnes`
 
 ## Resumen
 Create or Replace existing subscription tags with the provided ones

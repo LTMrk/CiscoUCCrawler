@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: PUT
 path: /dataSources/{dataSourceId}
-operation_id: Update a Data Source
+operation_id: updateADataSource
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.627552+00:00
+retrieved_at: 2026-11-16T12:36:51.174232+00:00
 ---
 
 # PUT /dataSources/{dataSourceId}
 
 **API:** Webex Contact Center
 **Área:** Data Sources
-**operationId:** `Update a Data Source`
+**operationId:** `updateADataSource`
 
 ## Resumen
 Update a Data Source

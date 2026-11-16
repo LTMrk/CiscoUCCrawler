@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/emergencyCallbackNumber
-operation_id: Update a Person's Emergency Callback Number
+operation_id: updateAPersonSEmergencyCallbackNumber
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.036593+00:00
+retrieved_at: 2026-11-16T12:36:50.652396+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/emergencyCallbackNumber
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Update a Person's Emergency Callback Number`
+**operationId:** `updateAPersonSEmergencyCallbackNumber`
 
 ## Resumen
 Update a Person's Emergency Callback Number
@@ -34,7 +34,7 @@ To update an emergency callback number requires a full, location, user, or read-
 - `orgId` [query] (string): ID of the organization within which the person resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access API.
 
 ## Cuerpo de la petición (application/json)
-- `selected` (string): * `DIRECT_LINE` - Returned calls from the Public Safety Answering Point go directly to the member. The Emergency Service Address configured by the PSTN to the member's phone is specific to the member’s location.  * `LOCATION_ECBN` - Each location can have an ECBN configured that is different from the location’s main number. Location Default ECBN is typically configured for users without dedicated telephone numbers or with only an extension.  * `LOCATION_MEMBER_NUMBER` - Configure one user with another user’s telephone number as an ECBN. This option is used in place of a location’s main number when the location has multiple floors or buildings. This allows the ECBN assigned to have a more accurate Emergency Service Address associated with it. Valores: DIRECT_LINE, LOCATION_ECBN, LOCATION_MEMBER_NUMBER.
+- `selected` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call.
 - `locationMemberId` (string): Member ID of person/workspace/virtual line/hunt group within the location. Required when `selected` is `LOCATION_MEMBER_NUMBER`.
 - `elinEnabled` (boolean): Indicates whether this person is allowed to use an Emergency Location Identification Number (ELIN) for emergency calls made from one of their devices.
 - `elinForWebexAppEnabled` (boolean): Indicates whether this member is allowed to use an Emergency Location Identification Number (ELIN) for emergency calls made using Webex App.

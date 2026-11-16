@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.975505+00:00
+retrieved_at: 2026-11-16T12:36:50.573894+00:00
 ---
 
 # PUT /telephony/config/people/me/endpoints/{endpointId}

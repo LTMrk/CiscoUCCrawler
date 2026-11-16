@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /teams
-operation_id: Create a Team
+operation_id: createATeam
 tags: Teams
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.750137+00:00
+retrieved_at: 2026-11-16T12:36:51.671921+00:00
 ---
 
 # POST /teams
 
 **API:** Webex Messaging
 **Área:** Teams
-**operationId:** `Create a Team`
+**operationId:** `createATeam`
 
 ## Resumen
 Create a Team

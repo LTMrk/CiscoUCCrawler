@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /contacts/organizations/{orgId}/contacts/bulk/delete
-operation_id: Bulk Delete Contacts
+operation_id: bulkDeleteContacts
 tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.089873+00:00
+retrieved_at: 2026-11-16T12:36:50.142622+00:00
 ---
 
 # POST /contacts/organizations/{orgId}/contacts/bulk/delete
 
 **API:** Webex Admin
 **Área:** Organization Contacts
-**operationId:** `Bulk Delete Contacts`
+**operationId:** `bulkDeleteContacts`
 
 ## Resumen
 Bulk Delete Contacts

@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: GET
 path: /broadworks/subscribers/{subscriberId}
-operation_id: Get a BroadWorks Subscriber
+operation_id: getABroadWorksSubscriber
 tags: BroadWorks Subscribers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.376273+00:00
+retrieved_at: 2026-11-16T12:36:50.253937+00:00
 ---
 
 # GET /broadworks/subscribers/{subscriberId}
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Subscribers
-**operationId:** `Get a BroadWorks Subscriber`
+**operationId:** `getABroadWorksSubscriber`
 
 ## Resumen
 Get a BroadWorks Subscriber
@@ -74,7 +74,7 @@ curl -X GET '/broadworks/subscribers/<subscriberId>' \
   "created": "2019-10-18T14:26:16.000Z",
   "lastStatusChange": "2020-03-18T16:05:34.000Z",
   "provisioningId": "ZjViMzYxODctYzhkZC00NzI3LThiMmYtZjljNDQ3ZjI5MDQ2OjQyODVmNTk0LTViNTEtNDdiZS05Mzk2LTZjMzZlMmFkODNhNQ",
-  "selfActivated": "false"
+  "selfActivated": false
 }
 ```
 

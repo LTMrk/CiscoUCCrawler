@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/callingBehavior
-operation_id: Configure Calling Behavior for a person
+operation_id: configureCallingBehaviorForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.117642+00:00
+retrieved_at: 2026-11-16T12:36:50.774222+00:00
 ---
 
 # PUT /people/{personId}/features/callingBehavior
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Calling Behavior for a person`
+**operationId:** `configureCallingBehaviorForAPerson`
 
 ## Resumen
 Configure a person's Calling Behavior

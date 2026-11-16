@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callParks/{callParkId}
-operation_id: Get Details for a Call Park
+operation_id: getDetailsForACallPark
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.049120+00:00
+retrieved_at: 2026-11-16T12:36:50.672962+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callParks/{callParkId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Get Details for a Call Park`
+**operationId:** `getDetailsForACallPark`
 
 ## Resumen
 Get Details for a Call Park
@@ -46,10 +46,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/<callParkId>' \
 **200**: OK
 - `id` (string) (**requerido**): A unique identifier for the call park.
 - `name` (string) (**requerido**): Unique name for the call park. The maximum length is 80.
-- `recall` (object) (**requerido**):
-  - `huntGroupId` (string): Alternate user which is a hunt group ID for call park recall alternate destination.
-  - `huntGroupName` (string): Unique name for the hunt group.
-  - `option` (string) (**requerido**): Call park recall options.  * `ALERT_PARKING_USER_ONLY` - Alert parking user only.  * `ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP` - Alert parking user first, then hunt group.  * `ALERT_HUNT_GROUP_ONLY` - Alert hunt group only. Valores: ALERT_PARKING_USER_ONLY, ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP, ALERT_HUNT_GROUP_ONLY.
+- `recall` (object) (**requerido**): Recall options that are added to call park.
 - `agents` (array): People, workspaces and virtual lines that are eligible to receive calls.
   - `id` (string) (**requerido**): ID of a person, workspace or virtual line.
   - `firstName` (string): First name of a person, workspace or virtual line.
@@ -90,7 +87,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/<callParkId>' \
           "extension": "8080",
           "routingPrefix": "1234",
           "esn": "12348080",
-          "primary": "true"
+          "primary": true
         }
       ]
     },
@@ -107,7 +104,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/<callParkId>' \
           "extension": "8081",
           "routingPrefix": "1234",
           "esn": "12348081",
-          "primary": "true"
+          "primary": true
         }
       ]
     }
@@ -115,7 +112,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/<callParkId>' \
   "parkOnAgentsEnabled": false,
   "callParkExtensions": [
     {
-      "id": "Y3lzY29zcGFyazovL
+      "id": "Y3lzY29zcGFyazovL3VzL
   ... (truncado)
 ```
 

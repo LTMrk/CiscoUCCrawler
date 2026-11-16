@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.989542+00:00
+retrieved_at: 2026-11-16T12:36:50.592411+00:00
 ---
 
 # POST /telephony/config/people/me/schedules/{scheduleType}/{scheduleId}/events
@@ -94,7 +94,7 @@ curl -X POST '/telephony/config/people/me/schedules/<scheduleType>/<scheduleId>/
 
 ## Respuestas correctas
 **200**: Schedule Event created successfully. Returns the user schedule event ID.
-- `id` (string): The unique identifier for the criteria.
+- `id` (string) (**requerido**): The unique identifier for the criteria.
 
 ### Ejemplo — respuesta 200
 ```json

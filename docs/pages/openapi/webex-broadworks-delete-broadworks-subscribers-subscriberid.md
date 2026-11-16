@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: DELETE
 path: /broadworks/subscribers/{subscriberId}
-operation_id: Remove a BroadWorks Subscriber
+operation_id: removeABroadWorksSubscriber
 tags: BroadWorks Subscribers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.376698+00:00
+retrieved_at: 2026-11-16T12:36:50.254490+00:00
 ---
 
 # DELETE /broadworks/subscribers/{subscriberId}
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Subscribers
-**operationId:** `Remove a BroadWorks Subscriber`
+**operationId:** `removeABroadWorksSubscriber`
 
 ## Resumen
 Remove a BroadWorks Subscriber

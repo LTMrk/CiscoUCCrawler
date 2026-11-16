@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/redSky
-operation_id: Create an Account and Admin in RedSky
+operation_id: createAnAccountAndAdminInRedSky
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.033335+00:00
+retrieved_at: 2026-11-16T12:36:50.647688+00:00
 ---
 
 # POST /telephony/config/redSky
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Create an Account and Admin in RedSky`
+**operationId:** `createAnAccountAndAdminInRedSky`
 
 ## Resumen
 Create an Account and Admin in RedSky
@@ -33,7 +33,7 @@ Creating a RedSky account requires a full administrator auth token with a scope 
 - `orgId` [query] (string): Create RedSky account for the organization.
 
 ## Cuerpo de la petición (application/json)
-- `orgPrefix` (string): * `wxc` - The customer is Webex calling.  * `wxc-whs` - The customer is a wholesale. Valores: wxc, wxc-whs.
+- `orgPrefix` (object): Represents whether the customer is 'Webex Calling' or not.
 - `email` (string) (**requerido**): The email for the RedSky account administrator.
 - `partnerRedskyOrgId` (string): New organization is created under this partner organization ID if present, otherwise it will be created under a Cisco partner.
 

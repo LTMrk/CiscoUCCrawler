@@ -10,7 +10,7 @@ tags: Work Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.625503+00:00
+retrieved_at: 2026-11-16T12:36:51.171265+00:00
 ---
 
 # GET /organization/{orgid}/work-type/{id}

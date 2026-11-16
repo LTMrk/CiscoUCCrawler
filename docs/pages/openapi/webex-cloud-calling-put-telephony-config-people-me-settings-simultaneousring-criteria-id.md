@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 4
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.001680+00:00
+retrieved_at: 2026-11-16T12:36:50.608594+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/simultaneousRing/criteria/{id}
@@ -35,7 +35,7 @@ Modifying criteria requires a user auth token with a scope of `spark:telephony_c
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule which determines when the simultaneous ring is in effect.
 - `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule is at People level.  * `GROUP` - The schedule is at Group level.  * `ORGANIZATION` - The schedule is at Organization level. Valores: PEOPLE, GROUP, ORGANIZATION.
 - `callsFrom` (string): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
 - `anonymousCallersEnabled` (boolean): When `true`, the criteria applies to calls from anonymous callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true`, the criteria applies to calls from unavailable callers. Value for this attribute is required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
@@ -47,7 +47,7 @@ Modifying criteria requires a user auth token with a scope of `spark:telephony_c
 {
   "scheduleName": "Business Vacation YearEnd",
   "scheduleType": "holidays",
-  "scheduleLevel": "LOCATION",
+  "scheduleLevel": "ORGANIZATION",
   "callsFrom": "SELECT_PHONE_NUMBERS",
   "anonymousCallersEnabled": true,
   "unavailableCallersEnabled": true,

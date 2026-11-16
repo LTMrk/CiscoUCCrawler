@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callParks/availableUsers
-operation_id: Get available agents from Call Parks
+operation_id: getAvailableAgentsFromCallParks
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.049559+00:00
+retrieved_at: 2026-11-16T12:36:50.673556+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callParks/availableUsers
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Get available agents from Call Parks`
+**operationId:** `getAvailableAgentsFromCallParks`
 
 ## Resumen
 Get available agents from Call Parks
@@ -75,7 +75,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/availableUsers' 
           "extension": "8080",
           "routingPrefix": "1234",
           "esn": "12348080",
-          "primary": "true"
+          "primary": true
         }
       ]
     },
@@ -92,7 +92,7 @@ curl -X GET '/telephony/config/locations/<locationId>/callParks/availableUsers' 
           "extension": "8081",
           "routingPrefix": "1234",
           "esn": "12348081",
-          "primary": "true"
+          "primary": true
         }
       ]
     }

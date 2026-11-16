@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callPickups/{callPickupId}
-operation_id: Get Details for a Call Pickup
+operation_id: getDetailsForACallPickup
 tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.051795+00:00
+retrieved_at: 2026-11-16T12:36:50.676794+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callPickups/{callPickupId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Pickup
-**operationId:** `Get Details for a Call Pickup`
+**operationId:** `getDetailsForACallPickup`
 
 ## Resumen
 Get Details for a Call Pickup

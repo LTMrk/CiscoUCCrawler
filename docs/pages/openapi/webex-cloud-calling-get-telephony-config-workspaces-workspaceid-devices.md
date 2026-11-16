@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.019595+00:00
+retrieved_at: 2026-11-16T12:36:50.630947+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/devices
@@ -46,17 +46,10 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/devices' \
   - `mac` (string): MAC address of device.
   - `ipAddress` (string): IP address of device.
   - `primaryOwner` (boolean) (**requerido**): Indicates whether the person or the workspace is the owner of the device and points to a primary Line/Port of the device.
-  - `type` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-  - `hoteling` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Enable/Disable hoteling Host. Enabling the device for hoteling means that a guest(end user) can log into this host(workspace device) and use this device  as if it were their own. This is useful when traveling to a remote office but still needing to place/receive calls with their telephone number and access features normally available to them on their office phone.
-    - `limitGuestUse` (boolean) (**requerido**): Enable limiting the time a guest can use the device. The time limit is configured via `guestHoursLimit`.
-    - `guestHoursLimit` (number): Time Limit in hours until hoteling is enabled. Mandatory if `limitGuestUse` is enabled.
-  - `owner` (object) (**requerido**):
-    - `id` (string) (**requerido**): Unique identifier of a person or a workspace.
-    - `type` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-    - `firstName` (string): The first name of the device owner.
-    - `lastName` (string): The last name of the device owner.
-  - `activationState` (string) (**requerido**): * `ACTIVATING` - Indicates a device is activating.  * `ACTIVATED` - Indicates a device is activated.  * `DEACTIVATED` - Indicates a device is deactivated. Valores: ACTIVATING, ACTIVATED, DEACTIVATED.
+  - `type` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
+  - `hoteling` (object) (**requerido**): Indicates Hoteling details of a device.
+  - `owner` (object) (**requerido**): Owner of the device.
+  - `activationState` (object) (**requerido**): Activation state of a device.
 - `maxDeviceCount` (number) (**requerido**): Maximum number of devices a workspace can be assigned to.
 - `maxOwnedDeviceCount` (number) (**requerido**): Maximum number of devices a workspace can own.
 

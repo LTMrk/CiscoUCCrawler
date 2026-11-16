@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /admin/meeting/userconfig/sessionTypes
-operation_id: List User Session Type
+operation_id: listUserSessionType
 tags: Session Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.447778+00:00
+retrieved_at: 2026-11-16T12:36:51.512467+00:00
 ---
 
 # GET /admin/meeting/userconfig/sessionTypes
 
 **API:** Webex Meetings
 **Área:** Session Types
-**operationId:** `List User Session Type`
+**operationId:** `listUserSessionType`
 
 ## Resumen
 List User Session Type

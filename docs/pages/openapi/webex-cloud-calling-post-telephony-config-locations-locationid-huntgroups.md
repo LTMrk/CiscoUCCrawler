@@ -10,7 +10,7 @@ tags: Features:  Hunt Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.074243+00:00
+retrieved_at: 2026-11-16T12:36:50.708836+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/huntGroups
@@ -41,34 +41,13 @@ Creating a hunt group requires a full administrator or location administrator au
 - `firstName` (string): First name to be shown when calls are forwarded out of this hunt group. Defaults to `.`. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `lastName` (string): Last name to be shown when calls are forwarded out of this hunt group. Defaults to the phone number if set, otherwise defaults to call group name. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `timeZone` (string): Time zone for the hunt group.
-- `callPolicies` (object) (**requerido**):
-  - `policy` (string) (**requerido**): * `CIRCULAR` - This option cycles through all agents after the last agent that took a call. It sends calls to the next available agent. This is supported for `SKILL_BASED`.  * `REGULAR` - Send the call through the queue of agents in order, starting from the top each time. This is supported for `SKILL_BASED`.  * `SIMULTANEOUS` - Sends calls to all agents at once  * `UNIFORM` - Sends calls to the agent that has been idle the longest. If they don't answer, proceed to the next agent who has been idle the second longest, and so on until the call is answered. This is supported for `SKILL_BASED`.  * `WEIGHTED` - Sends calls to idle agents based on percentages you assign to each agent (up to 100%). Valores: CIRCULAR, REGULAR, SIMULTANEOUS, UNIFORM, WEIGHTED.
-  - `waitingEnabled` (boolean): If `false`, then the option is treated as "Advance when busy". The hunt group won't ring agents when they're on a call and advances to the next agent. If a hunt group agent has call waiting enabled and the call is advanced to them, the call waits until that hunt group agent isn't busy.
-  - `groupBusyEnabled` (boolean): If `true`, the hunt group busy status will be set to busy. All new calls will get busy treatment. If `busyRedirect` is enabled, the calls are routed to the destination specified in `busyRedirect`.
-  - `allowMembersToControlGroupBusyEnabled` (boolean): If true, agents can change the hunt group busy status.
-  - `noAnswer` (object) (**requerido**): Settings for when the call into the hunt group is not answered.
-    - `nextAgentEnabled` (boolean) (**requerido**): If enabled, advance to next agent after the `nextAgentRings` has occurred.
-    - `nextAgentRings` (number) (**requerido**): Number of rings before call will be forwarded if unanswered and `nextAgentEnabled` is true.
-    - `forwardEnabled` (boolean) (**requerido**): If `true`, forwards unanswered calls to the destination after the number of rings occurs.
-    - `numberOfRings` (number) (**requerido**): Number of rings before forwarding calls if `forwardEnabled` is true.
-    - `destination` (string): Destination if `forwardEnabled` is True.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): If `forwardEnabled` is true, enables and disables sending incoming to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled. If `destinationVoicemailEnabled` is enabled, then *55 is added as a prefix for `destination`.
-  - `busyRedirect` (object): Settings for sending calls to a specified destination when all agents are busy or when the hunt group busy status is set to busy.
-    - `enabled` (boolean): If `true`, calls are diverted to a defined phone number when all agents are busy, or when the hunt group busy status is set to busy.
-    - `destination` (string): Destination for busy redirect.
-    - `destinationVoicemailEnabled` (boolean): The enabled or disabled state of sending diverted incoming calls to the `destination` number's voicemail if the `destination` is an internal phone number and that number has the voicemail service enabled. If `destinationVoicemailEnabled` is enabled, then *55 is added as a prefix for `destination`.
-  - `businessContinuityRedirect` (object): Settings for sending calls to a specified destination if the phone is not connected to the network for any reason, such as a power outage, failed internet connection, or wiring problem.
-    - `enabled` (boolean): If `true`, unreachable, unanswered calls are diverted to a defined phone number. For persons with only a mobile device, calls won't be diverted if there is a network outage.
-    - `destination` (string): Destination for business continuity redirect.
-    - `destinationVoicemailEnabled` (boolean): The enabled or disabled state of sending diverted incoming calls to the `destination` number's voicemail if the `destination` is an internal phone number and that number has the voicemail service enabled. If `destinationVoicemailEnabled` is enabled, then *55 is added as a prefix for `destination`.
+- `callPolicies` (object) (**requerido**): Policy controlling how calls are routed to agents.
 - `agents` (array) (**requerido**): People, workspaces and virtual lines that are eligible to  receive calls.
   - `id` (string) (**requerido**): ID of person, workspace or virtual line.
   - `weight` (string): Weight of person, workspace or virtual line. Only applied when call policy is `WEIGHTED`.
 - `enabled` (boolean) (**requerido**): Whether or not the hunt group is enabled.
 - `huntGroupCallerIdForOutgoingCallsEnabled` (boolean): Enable the hunt group to be used as the caller ID when the agent places outgoing calls. When set to true the hunt group's caller ID will be used.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this hunt group.
 - `dialByName` (string): The name to be used for dial by name functions.  Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición
@@ -128,7 +107,7 @@ Creating a hunt group requires a full administrator or location administrator au
 curl -X POST '/telephony/config/locations/<locationId>/huntGroups' \
   -H 'Authorization: Bearer <TOKEN>' \
   -H 'Content-Type: application/json' \
-  -d '{"name": "<name>", "callPolicies": {}, "agents": [], "enabled": true}'
+  -d '{"name": "<name>", "callPolicies": "<callPolicies>", "agents": [], "enabled": true}'
 ```
 
 ## Respuestas correctas

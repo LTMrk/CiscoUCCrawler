@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/callRouting/translationPatterns
-operation_id: Create a Translation Pattern for an Organization
+operation_id: createATranslationPatternForAnOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.969482+00:00
+retrieved_at: 2026-11-16T12:36:50.565993+00:00
 ---
 
 # POST /telephony/config/callRouting/translationPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create a Translation Pattern for an Organization`
+**operationId:** `createATranslationPatternForAnOrganization`
 
 ## Resumen
 Create a Translation Pattern for an Organization
@@ -56,7 +56,7 @@ curl -X POST '/telephony/config/callRouting/translationPatterns' \
 
 ## Respuestas correctas
 **201**: Created
-- `id` (string): The unique identifier for the criteria.
+- `id` (string) (**requerido**): The unique identifier for the criteria.
 
 ### Ejemplo — respuesta 201
 ```json

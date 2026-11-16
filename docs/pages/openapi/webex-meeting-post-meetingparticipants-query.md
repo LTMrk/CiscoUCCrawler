@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingParticipants/query
-operation_id: Query Meeting Participants with Email
+operation_id: queryMeetingParticipantsWithEmail
 tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.441540+00:00
+retrieved_at: 2026-11-16T12:36:51.503469+00:00
 ---
 
 # POST /meetingParticipants/query
 
 **API:** Webex Meetings
 **Área:** Participants
-**operationId:** `Query Meeting Participants with Email`
+**operationId:** `queryMeetingParticipantsWithEmail`
 
 ## Resumen
 Query Meeting Participants with Email

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/privacy
-operation_id: Modify Privacy Settings for a Workspace
+operation_id: modifyPrivacySettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.198352+00:00
+retrieved_at: 2026-11-16T12:36:50.858496+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/privacy
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Privacy Settings for a Workspace`
+**operationId:** `modifyPrivacySettingsForAWorkspace`
 
 ## Resumen
 Modify Privacy Settings for a Workspace

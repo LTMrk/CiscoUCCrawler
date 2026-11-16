@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/features/hotDesking/guest
-operation_id: Voice Portal Hot desking sign in details for a user
+operation_id: voicePortalHotDeskingSignInDetailsForAUser
 tags: Features: Hot Desking Sign-in via Voice Portal
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.073597+00:00
+retrieved_at: 2026-11-16T12:36:50.707901+00:00
 ---
 
 # GET /telephony/config/people/{personId}/features/hotDesking/guest
 
 **API:** Webex Cloud Calling
 **Área:** Features: Hot Desking Sign-in via Voice Portal
-**operationId:** `Voice Portal Hot desking sign in details for a user`
+**operationId:** `voicePortalHotDeskingSignInDetailsForAUser`
 
 ## Resumen
 Voice Portal Hot desking sign in details for a user

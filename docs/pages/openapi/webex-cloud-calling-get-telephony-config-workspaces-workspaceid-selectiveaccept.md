@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/selectiveAccept
-operation_id: Retrieve Selective Accept Settings for a Workspace
+operation_id: retrieveSelectiveAcceptSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.203861+00:00
+retrieved_at: 2026-11-16T12:36:50.866199+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/selectiveAccept
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Selective Accept Settings for a Workspace`
+**operationId:** `retrieveSelectiveAcceptSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Selective Accept Settings for a Workspace
@@ -47,8 +47,8 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/selectiveAccept' \
 - `enabled` (boolean) (**requerido**): `true` if the Selective Accept feature is enabled.
 - `criteria` (array): A list of criteria specifying conditions when selective accept is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the selective reject is in effect.
-  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Selective accept criteria applies for all incoming numbers.  * `SPECIFIC_NUMBERS` - Selective accept criteria applies for calls from specific numbers.  * `FORWARDED` - Selective accept criteria applies for all forwarded calls. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, FORWARDED.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the selective reject is in effect.
+  - `source` (object) (**requerido**): If criteria are applicable for calls from any phone number, specific phone number or forwarded ones.
   - `acceptEnabled` (boolean) (**requerido**): This setting specifies to choose to accept or not to accept the calls that fit within these parameters.
 
 ### Ejemplo — respuesta 200

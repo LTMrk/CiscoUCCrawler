@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /licenses/{licenseId}
-operation_id: Get_License_Details
+operation_id: getLicenseDetails
 tags: Licenses
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.087003+00:00
+retrieved_at: 2026-11-16T12:36:50.138934+00:00
 ---
 
 # GET /licenses/{licenseId}
 
 **API:** Webex Admin
 **Área:** Licenses
-**operationId:** `Get_License_Details`
+**operationId:** `getLicenseDetails`
 
 ## Resumen
 Get License Details

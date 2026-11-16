@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /people/{personId}
-operation_id: Get Person Details
+operation_id: getPersonDetails
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.472197+00:00
+retrieved_at: 2026-11-16T12:36:51.539455+00:00
 ---
 
 # GET /people/{personId}
 
 **API:** Webex Meetings
 **Área:** People
-**operationId:** `Get Person Details`
+**operationId:** `getPersonDetails`
 
 ## Resumen
 Get Person Details

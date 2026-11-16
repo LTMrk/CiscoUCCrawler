@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /licenses/users
-operation_id: Assign_Licenses_to_Users
+operation_id: assignLicensesToUsers
 tags: Licenses
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.087319+00:00
+retrieved_at: 2026-11-16T12:36:50.139332+00:00
 ---
 
 # PATCH /licenses/users
 
 **API:** Webex Admin
 **Área:** Licenses
-**operationId:** `Assign_Licenses_to_Users`
+**operationId:** `assignLicensesToUsers`
 
 ## Resumen
 Assign Licenses to Users

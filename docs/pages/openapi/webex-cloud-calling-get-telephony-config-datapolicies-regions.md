@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/dataPolicies/regions
-operation_id: GetAvailableDataPolicyRegions
+operation_id: getAvailableDataPolicyRegions
 tags: Call Settings Configurable Storage Region
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.072693+00:00
+retrieved_at: 2026-11-16T12:36:50.706653+00:00
 ---
 
 # GET /telephony/config/dataPolicies/regions
 
 **API:** Webex Cloud Calling
 **Área:** Call Settings Configurable Storage Region
-**operationId:** `GetAvailableDataPolicyRegions`
+**operationId:** `getAvailableDataPolicyRegions`
 
 ## Resumen
 Get All the Storage Regions Available for Configuring as Data Policy Region

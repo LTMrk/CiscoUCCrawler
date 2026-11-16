@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks
-operation_id: Read the List of Trunks
+operation_id: readTheListOfTrunks
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.964737+00:00
+retrieved_at: 2026-11-16T12:36:50.559557+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the List of Trunks`
+**operationId:** `readTheListOfTrunks`
 
 ## Resumen
 Read the List of Trunks
@@ -50,11 +50,9 @@ curl -X GET '/telephony/config/premisePstn/trunks' \
 - `trunks` (array) (**requerido**): Array of trunks.
   - `id` (string) (**requerido**): Unique identifier for the trunk.
   - `name` (string) (**requerido**): A unique name for the trunk.
-  - `location` (object): Location associated with the hot desking member.
-    - `id` (string) (**requerido**): Unique identifier for the location.
-    - `name` (string) (**requerido**): Name of the location.
+  - `location` (object): Location associated with the trunk.
   - `inUse` (boolean): Trunk in use flag.
-  - `trunkType` (string): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+  - `trunkType` (object): Trunk Type associated with the trunk.
   - `isRestrictedToDedicatedInstance` (boolean): Flag to indicate if the trunk is restricted to a dedicated instance.
 
 ### Ejemplo — respuesta 200

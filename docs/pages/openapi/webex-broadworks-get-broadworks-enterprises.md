@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: GET
 path: /broadworks/enterprises
-operation_id: List BroadWorks Enterprises
+operation_id: listBroadWorksEnterprises
 tags: BroadWorks Enterprises
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.374651+00:00
+retrieved_at: 2026-11-16T12:36:50.251826+00:00
 ---
 
 # GET /broadworks/enterprises
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Enterprises
-**operationId:** `List BroadWorks Enterprises`
+**operationId:** `listBroadWorksEnterprises`
 
 ## Resumen
 List BroadWorks Enterprises

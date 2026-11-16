@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/{handsetId}
-operation_id: Update DECT Network Handset
+operation_id: updateDECTNetworkHandset
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.921612+00:00
+retrieved_at: 2026-11-16T12:36:50.521308+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/{handsetId}
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Update DECT Network Handset`
+**operationId:** `updateDECTNetworkHandset`
 
 ## Resumen
 Update DECT Network Handset

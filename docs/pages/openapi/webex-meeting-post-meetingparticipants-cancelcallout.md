@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingParticipants/cancelCallout
-operation_id: Cancel Calling Out a SIP Participant
+operation_id: cancelCallingOutASIPParticipant
 tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.442673+00:00
+retrieved_at: 2026-11-16T12:36:51.505081+00:00
 ---
 
 # POST /meetingParticipants/cancelCallout
 
 **API:** Webex Meetings
 **Área:** Participants
-**operationId:** `Cancel Calling Out a SIP Participant`
+**operationId:** `cancelCallingOutASIPParticipant`
 
 ## Resumen
 Cancel Calling Out a SIP Participant

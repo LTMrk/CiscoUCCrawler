@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/autoTransferNumbers
-operation_id: Modify Transfer Numbers for a Virtual Line
+operation_id: modifyTransferNumbersForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.177136+00:00
+retrieved_at: 2026-11-16T12:36:50.830086+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/autoTransferNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Modify Transfer Numbers for a Virtual Line`
+**operationId:** `modifyTransferNumbersForAVirtualLine`
 
 ## Resumen
 Modify Transfer Numbers for a Virtual Line

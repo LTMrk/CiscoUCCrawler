@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: POST
 path: /workspaces/{workspaceId}/personalize
-operation_id: Personalize a Workspace
+operation_id: personalizeAWorkspace
 tags: Workspace Personalization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.935884+00:00
+retrieved_at: 2026-11-16T12:36:51.386251+00:00
 ---
 
 # POST /workspaces/{workspaceId}/personalize
 
 **API:** Webex Device
 **Área:** Workspace Personalization
-**operationId:** `Personalize a Workspace`
+**operationId:** `personalizeAWorkspace`
 
 ## Resumen
 Personalize a Workspace

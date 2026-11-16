@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.130247+00:00
+retrieved_at: 2026-11-16T12:36:50.793539+00:00
 ---
 
 # GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers
@@ -56,10 +56,8 @@ curl -X GET '/telephony/config/people/<personId>/applications/<applicationId>/av
   - `extension` (string): Phone extension of the member.
   - `routingPrefix` (string): Routing prefix of the location.
   - `esn` (string): Routing prefix plus extension of a person or workspace.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-  - `location` (object):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `lineType` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
+  - `location` (object): Location object containing a unique identifier for the location and its name.
 
 ### Ejemplo — respuesta 200
 ```json

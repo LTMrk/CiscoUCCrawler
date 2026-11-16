@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/actions/validateExtensions/invoke
-operation_id: Validate the List of Extensions
+operation_id: validateTheListOfExtensions
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.088510+00:00
+retrieved_at: 2026-11-16T12:36:50.731003+00:00
 ---
 
 # POST /telephony/config/actions/validateExtensions/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Validate the List of Extensions`
+**operationId:** `validateTheListOfExtensions`
 
 ## Resumen
 Validate the List of Extensions

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/outgoingPermission/accessCodes
-operation_id: Delete all Outgoing Permission Access Code for a Location
+operation_id: deleteAllOutgoingPermissionAccessCodeForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.096506+00:00
+retrieved_at: 2026-11-16T12:36:50.742338+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/outgoingPermission/accessCodes
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Delete all Outgoing Permission Access Code for a Location`
+**operationId:** `deleteAllOutgoingPermissionAccessCodeForALocation`
 
 ## Resumen
 Delete all Outgoing Permission Access Code for a Location

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /partner/tags/organizations
-operation_id: Fetch all customers for a given set of tags
+operation_id: fetchAllCustomersForAGivenSetOfTags
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.111084+00:00
+retrieved_at: 2026-11-16T12:36:50.169092+00:00
 ---
 
 # GET /partner/tags/organizations
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Fetch all customers for a given set of tags`
+**operationId:** `fetchAllCustomersForAGivenSetOfTags`
 
 ## Resumen
 Fetch all customers for a given set of tags

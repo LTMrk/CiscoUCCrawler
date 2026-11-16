@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/voicePortal/availableNumbers
-operation_id: Get VoicePortal Available Phone Numbers
+operation_id: getVoicePortalAvailablePhoneNumbers
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.102834+00:00
+retrieved_at: 2026-11-16T12:36:50.751335+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicePortal/availableNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Get VoicePortal Available Phone Numbers`
+**operationId:** `getVoicePortalAvailablePhoneNumbers`
 
 ## Resumen
 Get VoicePortal Available Phone Numbers
@@ -47,10 +47,10 @@ curl -X GET '/telephony/config/locations/<locationId>/voicePortal/availableNumbe
 **200**: OK
 - `phoneNumbers` (array) (**requerido**): Array of phone numbers.
   - `phoneNumber` (string) (**requerido**): A unique identifier for the PSTN phone number.
-  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `state` (object) (**requerido**): Phone number's state.
   - `isMainNumber` (boolean) (**requerido**): If `true`, the phone number is used as a location CLID.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
-  - `telephonyType` (string) (**requerido**): * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `telephonyType` (object) (**requerido**): The telephony type for the number.
   - `isServiceNumber` (boolean) (**requerido**): If `true`, the phone number is a service number; otherwise, it is a standard number. Service numbers are high-utilization or high-concurrency PSTN phone numbers that are neither mobile nor toll-free.
 
 ### Ejemplo — respuesta 200

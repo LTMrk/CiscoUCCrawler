@@ -5,12 +5,12 @@ api: Webex Admin
 api_version: 1.0.0
 method: PUT
 path: /workspaceLocations/{locationId}
-operation_id: Update a Workspace Location
+operation_id: updateAWorkspaceLocation
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.112543+00:00
+retrieved_at: 2026-11-16T12:36:50.170885+00:00
 ---
 
 # PUT /workspaceLocations/{locationId}
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:27.112543+00:00
 
 **API:** Webex Admin
 **Área:** Workspace Locations
-**operationId:** `Update a Workspace Location`
+**operationId:** `updateAWorkspaceLocation`
 
 ## Resumen
 Update a Workspace Location

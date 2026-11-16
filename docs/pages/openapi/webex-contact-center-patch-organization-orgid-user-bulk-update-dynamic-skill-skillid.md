@@ -10,7 +10,7 @@ tags: Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.618572+00:00
+retrieved_at: 2026-11-16T12:36:51.160040+00:00
 ---
 
 # PATCH /organization/{orgid}/user/bulk/update-dynamic-skill/{skillId}
@@ -63,10 +63,7 @@ curl -X PATCH '/organization/<orgid>/user/bulk/update-dynamic-skill/<skillId>' \
   - `href` (string): The resource URI of an entity.
   - `apiError` (object): Response body for an API error.
     - `trackingId` (string): An opaque identifier for mapping protocol failures to service internal codes.   When specified in a request, it can be used for co-relating events across services
-    - `error` (object): Details of an error.
-      - `key` (string): An application defined error code.
-      - `message` (array): A message providing details about the error.
-        - `description` (string): A human readable explanation for the occurrence of an error.
+    - `error` (object): An object containing details about the error.
 - `items` (array):
   - `itemIdentifier` (integer/int32): Unique item identifier for a bulk operation.
   - `status` (integer/int32): Indicates the error status code.
@@ -74,10 +71,7 @@ curl -X PATCH '/organization/<orgid>/user/bulk/update-dynamic-skill/<skillId>' \
   - `href` (string): The resource URI of an entity.
   - `apiError` (object): Response body for an API error.
     - `trackingId` (string): An opaque identifier for mapping protocol failures to service internal codes.   When specified in a request, it can be used for co-relating events across services
-    - `error` (object): Details of an error.
-      - `key` (string): An application defined error code.
-      - `message` (array): A message providing details about the error.
-        - `description` (string): A human readable explanation for the occurrence of an error.
+    - `error` (object): An object containing details about the error.
 
 ## Respuestas de error
 - **400**: The request was invalid and cannot be served. An accompanying error message will explain further

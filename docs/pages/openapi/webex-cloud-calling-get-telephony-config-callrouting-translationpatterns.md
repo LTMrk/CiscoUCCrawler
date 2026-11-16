@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/callRouting/translationPatterns
-operation_id: Retrieve the list of Translation Patterns
+operation_id: retrieveTheListOfTranslationPatterns
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.969684+00:00
+retrieved_at: 2026-11-16T12:36:50.566260+00:00
 ---
 
 # GET /telephony/config/callRouting/translationPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Retrieve the list of Translation Patterns`
+**operationId:** `retrieveTheListOfTranslationPatterns`
 
 ## Resumen
 Retrieve the list of Translation Patterns
@@ -53,9 +53,7 @@ curl -X GET '/telephony/config/callRouting/translationPatterns' \
   - `matchingPattern` (string) (**requerido**): Matching pattern given to a translation pattern for an organization.
   - `replacementPattern` (string) (**requerido**): Replacement pattern given to a translation pattern for an organization.
   - `level` (string) (**requerido**): Level at which the translation pattern is created. The level can either be `Organization` or `Location`.
-  - `location` (object): Location associated with the hot desking member.
-    - `id` (string) (**requerido**): Unique identifier for the location.
-    - `name` (string) (**requerido**): Name of the location.
+  - `location` (object): Location details for the translation pattern when the level is `Location`.
 
 ### Ejemplo — respuesta 200
 ```json

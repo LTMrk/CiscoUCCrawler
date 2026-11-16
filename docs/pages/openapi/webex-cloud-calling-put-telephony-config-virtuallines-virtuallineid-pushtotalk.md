@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/pushToTalk
-operation_id: Configure Push-to-Talk Settings for a Virtual Line
+operation_id: configurePushToTalkSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.182055+00:00
+retrieved_at: 2026-11-16T12:36:50.836397+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/pushToTalk
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Push-to-Talk Settings for a Virtual Line`
+**operationId:** `configurePushToTalkSettingsForAVirtualLine`
 
 ## Resumen
 Configure Push-to-Talk Settings for a Virtual Line
@@ -35,8 +35,8 @@ Updating the Push-to-Talk settings for a virtual line requires a full, user, or 
 
 ## Cuerpo de la petición (application/json)
 - `allowAutoAnswer` (boolean): `true` if Push-to-Talk feature is enabled.
-- `connectionType` (string): * `ONE_WAY` - Push-to-Talk initiators can chat with this workspace but only in one direction. The workspace you enable Push-to-Talk for cannot respond.  * `TWO_WAY` - Push-to-Talk initiators can chat with this workspace in a two-way conversation. The workspace you enable Push-to-Talk for can respond. Valores: ONE_WAY, TWO_WAY.
-- `accessType` (string): * `ALLOW_MEMBERS` - List of people/workspaces that are allowed to use the Push-to-Talk feature to interact with the workspace being configured.  * `BLOCK_MEMBERS` - List of people/workspaces that are disallowed to interact using the Push-to-Talk feature with the workspace being configured. Valores: ALLOW_MEMBERS, BLOCK_MEMBERS.
+- `connectionType` (object): Specifies the connection type to be used.
+- `accessType` (object): Specifies the access type to be applied when evaluating the member list.
 - `members` (array): List of people that are allowed or disallowed to interact using the Push-to-Talk feature.
 
 ### Ejemplo — petición

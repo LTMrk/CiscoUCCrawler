@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
-operation_id: Update Wrap Up Reason
+operation_id: updateWrapUpReason
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.070294+00:00
+retrieved_at: 2026-11-16T12:36:50.703464+00:00
 ---
 
 # PUT /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Update Wrap Up Reason`
+**operationId:** `updateWrapUpReason`
 
 ## Resumen
 Update Wrap Up Reason

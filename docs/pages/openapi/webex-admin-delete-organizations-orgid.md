@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /organizations/{orgId}
-operation_id: Delete Organization
+operation_id: deleteOrganization
 tags: Organizations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.090460+00:00
+retrieved_at: 2026-11-16T12:36:50.143261+00:00
 ---
 
 # DELETE /organizations/{orgId}
 
 **API:** Webex Admin
 **Área:** Organizations
-**operationId:** `Delete Organization`
+**operationId:** `deleteOrganization`
 
 ## Resumen
 Delete Organization

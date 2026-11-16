@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/unmute
-operation_id: Unmute
+operation_id: unmute
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.008194+00:00
+retrieved_at: 2026-11-16T12:36:50.616629+00:00
 ---
 
 # POST /telephony/conference/unmute
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Unmute`
+**operationId:** `unmute`
 
 ## Resumen
 Unmute

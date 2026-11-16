@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /groups
-operation_id: List and Search Groups
+operation_id: listAndSearchGroups
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.083656+00:00
+retrieved_at: 2026-11-16T12:36:50.135100+00:00
 ---
 
 # GET /groups
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `List and Search Groups`
+**operationId:** `listAndSearchGroups`
 
 ## Resumen
 List and Search Groups

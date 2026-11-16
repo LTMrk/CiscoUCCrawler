@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
-operation_id: Delete all Outgoing Permission Digit Patterns for a Location
+operation_id: deleteAllOutgoingPermissionDigitPatternsForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.097072+00:00
+retrieved_at: 2026-11-16T12:36:50.743143+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Delete all Outgoing Permission Digit Patterns for a Location`
+**operationId:** `deleteAllOutgoingPermissionDigitPatternsForALocation`
 
 ## Resumen
 Delete all Outgoing Permission Digit Patterns for a Location

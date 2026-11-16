@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/intercept
-operation_id: Get Location Intercept
+operation_id: getLocationIntercept
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.094660+00:00
+retrieved_at: 2026-11-16T12:36:50.739889+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/intercept
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Get Location Intercept`
+**operationId:** `getLocationIntercept`
 
 ## Resumen
 Get Location Intercept

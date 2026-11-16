@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/trunks
-operation_id: Create a Trunk
+operation_id: createATrunk
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.964938+00:00
+retrieved_at: 2026-11-16T12:36:50.559864+00:00
 ---
 
 # POST /telephony/config/premisePstn/trunks
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create a Trunk`
+**operationId:** `createATrunk`
 
 ## Resumen
 Create a Trunk
@@ -38,7 +38,7 @@ Creating a trunk requires a full administrator auth token with a scope of `spark
 - `locationId` (string) (**requerido**): ID of location associated with the trunk.
 - `password` (string) (**requerido**): A password to use on the trunk.
 - `dualIdentitySupportEnabled` (boolean): Dual Identity Support setting impacts the handling of the From header and P-Asserted-Identity header when sending an initial SIP `INVITE` to the trunk for an outbound call.
-- `trunkType` (string) (**requerido**): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+- `trunkType` (object) (**requerido**): Trunk Type associated with the trunk.
 - `deviceType` (string): Device type assosiated with trunk.
 - `address` (string): FQDN or SRV address. Required to create a static certificate-based trunk.
 - `domain` (string): Domain name. Required to create a static certificate based trunk.

@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.022882+00:00
+retrieved_at: 2026-11-16T12:36:50.635084+00:00
 ---
 
 # GET /telephony/config/jobs/devices/applyLineKeyTemplate/{jobId}/errors
@@ -44,10 +44,7 @@ curl -X GET '/telephony/config/jobs/devices/applyLineKeyTemplate/<jobId>/errors'
 ## Respuestas correctas
 **200**: OK
 - `trackingId` (string) (**requerido**): Unique identifier to track the HTTP requests.
-- `error` (object):
-  - `description` (string): Error message.
-  - `code` (string): Internal error code.
-  - `locationId` (string): Error messages describing the location ID in which the error occurs. For a move operation, this is the target location ID.
+- `error` (object): Description of errors in the job.
 
 ### Ejemplo — respuesta 200
 ```json

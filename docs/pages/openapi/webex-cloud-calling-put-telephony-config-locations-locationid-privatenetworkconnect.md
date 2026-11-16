@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/privateNetworkConnect
-operation_id: Update Private Network Connect
+operation_id: updatePrivateNetworkConnect
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.089491+00:00
+retrieved_at: 2026-11-16T12:36:50.732404+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/privateNetworkConnect
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Update Private Network Connect`
+**operationId:** `updatePrivateNetworkConnect`
 
 ## Resumen
 Update Private Network Connect

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualExtensionRanges
-operation_id: Get a list of a Virtual Extension Range
+operation_id: getAListOfAVirtualExtensionRange
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.084687+00:00
+retrieved_at: 2026-11-16T12:36:50.725803+00:00
 ---
 
 # GET /telephony/config/virtualExtensionRanges
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Get a list of a Virtual Extension Range`
+**operationId:** `getAListOfAVirtualExtensionRange`
 
 ## Resumen
 Get a list of a Virtual Extension Range

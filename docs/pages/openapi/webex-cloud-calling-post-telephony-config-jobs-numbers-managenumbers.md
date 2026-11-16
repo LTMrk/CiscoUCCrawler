@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/jobs/numbers/manageNumbers
-operation_id: Initiate Number Jobs
+operation_id: initiateNumberJobs
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.106522+00:00
+retrieved_at: 2026-11-16T12:36:50.756424+00:00
 ---
 
 # POST /telephony/config/jobs/numbers/manageNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Initiate Number Jobs`
+**operationId:** `initiateNumberJobs`
 
 ## Resumen
 Initiate Number Jobs
@@ -93,12 +93,7 @@ curl -X POST '/telephony/config/jobs/numbers/manageNumbers' \
 - `operationType` (string) (**requerido**): The operation type that was carried out.
 - `sourceLocationId` (string) (**requerido**): Unique location identifier for which the job was run.
 - `targetLocationId` (string) (**requerido**): Unique location identifier for which the numbers have been moved.
-- `counts` (object) (**requerido**):
-  - `totalMoves` (number) (**requerido**): Total number of user moves requested.
-  - `moved` (number) (**requerido**): Total number of user moves completed successfully.
-  - `failed` (number) (**requerido**): Total number of user moves that were completed with failures.
-  - `pending` (number) (**requerido**): Total number of user moves that were pending with number orders.
-  - `skipped` (number) (**requerido**): Total number of user moves that were skipped.
+- `counts` (object) (**requerido**): Job statistics.
 
 ### Ejemplo — respuesta 201
 ```json

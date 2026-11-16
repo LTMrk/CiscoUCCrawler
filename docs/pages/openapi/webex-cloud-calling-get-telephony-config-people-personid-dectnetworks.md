@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/dectNetworks
-operation_id: GET List of DECT Networks Associated with a Person
+operation_id: getListOfDECTNetworksAssociatedWithAPerson
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.922460+00:00
+retrieved_at: 2026-11-16T12:36:50.522565+00:00
 ---
 
 # GET /telephony/config/people/{personId}/dectNetworks
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `GET List of DECT Networks Associated with a Person`
+**operationId:** `getListOfDECTNetworksAssociatedWithAPerson`
 
 ## Resumen
 GET List of DECT Networks Associated with a Person

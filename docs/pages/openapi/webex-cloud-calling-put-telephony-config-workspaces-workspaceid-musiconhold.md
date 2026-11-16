@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/musicOnHold
-operation_id: Modify Music On Hold Settings for a Workspace
+operation_id: modifyMusicOnHoldSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.192682+00:00
+retrieved_at: 2026-11-16T12:36:50.850937+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/musicOnHold
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Music On Hold Settings for a Workspace`
+**operationId:** `modifyMusicOnHoldSettingsForAWorkspace`
 
 ## Resumen
 Modify Music On Hold Settings for a Workspace
@@ -38,11 +38,7 @@ This API requires a full or device administrator or location administrator auth 
 ## Cuerpo de la petición (application/json)
 - `mohEnabled` (boolean): Music on hold is enabled or disabled for the workspace.
 - `greeting` (string): Greeting type for the workspace.  * `DEFAULT` - Play music configured at location level.  * `CUSTOM` - Play custom music when call is placed on hold or parked. An audio file must already have been successfully uploaded to specify this option. Valores: DEFAULT, CUSTOM.
-- `audioAnnouncementFile` (object):
-  - `id` (string): A unique identifier for the [announcement](/docs/api/v1/features-announcement-repository). `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement. If all four fields are provided, file with given `id` is used and other fields are ignored.
-  - `fileName` (string): Audio announcement file name.
-  - `mediaFileType` (string): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-  - `level` (string): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
+- `audioAnnouncementFile` (object): Announcement Audio File details when greeting is selected to be `CUSTOM`.
 
 ### Ejemplo — petición
 ```json

@@ -1,0 +1,39 @@
+---
+doc_id: webex-webex-js-sdk-packages-webex-internal-plugin-flag-docs-adr-index-md
+source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/internal-plugin-flag/docs/adr/index.md
+repo: webex/webex-js-sdk
+ruta: packages/@webex/internal-plugin-flag/docs/adr/index.md
+licencia: NOASSERTION
+retrieved_at: 2026-11-16T12:37:00.040828+00:00
+---
+
+# webex-js-sdk — packages/@webex/internal-plugin-flag/docs/adr/index.md
+
+Repositorio: webex/webex-js-sdk
+Descripcion del repositorio: JavaScript SDK for Webex
+
+<!-- sdd-generated-metadata
+doc_kind: standing-doc
+generated_from: adr-index@0.3.0
+generated_by: claude-cowork
+approved_by: akulakum@cisco.com
+updated_at: 2026-11-12T14:31:48Z
+validation_status: pass-with-warnings
+-->
+
+# Architectural decision records
+
+Numbered, append-only records of structural decisions for this package and its documentation. The
+module specification owns current behavior. An ADR owns why a documentation or structural choice was
+made. Supersede an accepted ADR with a new one instead of editing its outcome.
+
+## Index
+
+| ADR | Title | Status |
+| --- | ----- | ------ |
+| [0001](0001-retain-product-readme.md) | Retain the product README | Accepted |
+
+Keep this list in numeric order.
+
+---
+> Fuente: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/internal-plugin-flag/docs/adr/index.md (licencia NOASSERTION)

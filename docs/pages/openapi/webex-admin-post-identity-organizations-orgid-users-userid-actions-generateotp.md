@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /identity/organizations/{orgId}/users/{userId}/actions/generateOtp
-operation_id: Generate OTP
+operation_id: generateOTP
 tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.082527+00:00
+retrieved_at: 2026-11-16T12:36:50.133802+00:00
 ---
 
 # POST /identity/organizations/{orgId}/users/{userId}/actions/generateOtp
 
 **API:** Webex Admin
 **Área:** Identity Organization
-**operationId:** `Generate OTP`
+**operationId:** `generateOTP`
 
 ## Resumen
 Generate OTP

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}
-operation_id: Get Details for a Call Park Extension
+operation_id: getDetailsForACallParkExtension
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.050496+00:00
+retrieved_at: 2026-11-16T12:36:50.674912+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Get Details for a Call Park Extension`
+**operationId:** `getDetailsForACallParkExtension`
 
 ## Resumen
 Get Details for a Call Park Extension

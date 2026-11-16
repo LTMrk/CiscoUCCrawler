@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/reception
-operation_id: Read Receptionist Client Settings for a Person
+operation_id: readReceptionistClientSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.121780+00:00
+retrieved_at: 2026-11-16T12:36:50.781858+00:00
 ---
 
 # GET /people/{personId}/features/reception
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Read Receptionist Client Settings for a Person`
+**operationId:** `readReceptionistClientSettingsForAPerson`
 
 ## Resumen
 Read Receptionist Client Settings for a Person
@@ -47,7 +47,7 @@ curl -X GET '/people/<personId>/features/reception' \
   - `lastName` (string): Last name of the monitored person, workspace or virtual line.
   - `firstName` (string): First name of the monitored person, workspace or virtual line.
   - `displayName` (string): Display name of the monitored person, workspace or virtual line.
-  - `type` (string) (**requerido**): * `PEOPLE` - Person or list of people.  * `PLACE` - Workspace that is not assigned to a specific person such as for a shared device in a common area.  * `VIRTUAL_LINE` - Virtual line or list of virtual lines. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object) (**requerido**): Indicates whether type is person, workspace or virtual line.
   - `email` (string): Email address of the monitored person, workspace or virtual line.
   - `numbers` (array): List of phone numbers of the monitored person, workspace or virtual line.
     - `external` (string): External phone number of the monitored person, workspace or virtual line.

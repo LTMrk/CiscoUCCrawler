@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /rooms
-operation_id: Create a Room
+operation_id: createARoom
 tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.748012+00:00
+retrieved_at: 2026-11-16T12:36:51.669122+00:00
 ---
 
 # POST /rooms
 
 **API:** Webex Messaging
 **Área:** Rooms
-**operationId:** `Create a Room`
+**operationId:** `createARoom`
 
 ## Resumen
 Create a Room

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/voicemail
-operation_id: Read Voicemail Settings for a Workspace
+operation_id: readVoicemailSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.198601+00:00
+retrieved_at: 2026-11-16T12:36:50.858832+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/voicemail
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Read Voicemail Settings for a Workspace`
+**operationId:** `readVoicemailSettingsForAWorkspace`
 
 ## Resumen
 Read Voicemail Settings for a Workspace
@@ -107,6 +107,14 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/voicemail' \
   "emailCopyOfMessage": {
     "enabled": false,
     "emailId": "julie@example.com"
+  },
+  "messageStorage": {
+    "mwiEnabled": true,
+    "storageType": "INTERNAL",
+    "externalEmail": "julie@example.com"
+  },
+  "faxMessage": {
+    "enabled": false
   }
 }
 ```

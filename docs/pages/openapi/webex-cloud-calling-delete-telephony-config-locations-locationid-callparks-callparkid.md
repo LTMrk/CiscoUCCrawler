@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/callParks/{callParkId}
-operation_id: Delete a Call Park
+operation_id: deleteACallPark
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.048888+00:00
+retrieved_at: 2026-11-16T12:36:50.672629+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/callParks/{callParkId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Delete a Call Park`
+**operationId:** `deleteACallPark`
 
 ## Resumen
 Delete a Call Park

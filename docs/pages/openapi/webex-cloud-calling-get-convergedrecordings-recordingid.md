@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /convergedRecordings/{recordingId}
-operation_id: get_recording_details
+operation_id: getRecordingDetails
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.014475+00:00
+retrieved_at: 2026-11-16T12:36:50.624688+00:00
 ---
 
 # GET /convergedRecordings/{recordingId}
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `get_recording_details`
+**operationId:** `getRecordingDetails`
 
 ## Resumen
 Get Recording Details

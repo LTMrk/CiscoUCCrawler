@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.636731+00:00
+retrieved_at: 2026-11-16T12:36:51.187713+00:00
 ---
 
 # GET /v1/tasks
@@ -45,7 +45,6 @@ curl -X GET '/v1/tasks?from=<from>' \
 ## Respuestas correctas
 **200**: OK
 - `meta` (object) (**requerido**): Response metadata.
-  - `orgId` (string): Organization ID to which resources belong.
 - `data` (array) (**requerido**): List of tasks retrieved according to query parameters.
   - `id` (string) (**requerido**): ID of the task.
   - `attributes` (object) (**requerido**): Attributes of the task.

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /team/memberships/{membershipId}
-operation_id: Get Team Membership Details
+operation_id: getTeamMembershipDetails
 tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.749393+00:00
+retrieved_at: 2026-11-16T12:36:51.670947+00:00
 ---
 
 # GET /team/memberships/{membershipId}
 
 **API:** Webex Messaging
 **Área:** Team Memberships
-**operationId:** `Get Team Membership Details`
+**operationId:** `getTeamMembershipDetails`
 
 ## Resumen
 Get Team Membership Details

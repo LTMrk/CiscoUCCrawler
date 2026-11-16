@@ -1,0 +1,86 @@
+---
+doc_id: webex-cloud-calling-get-telephony-config-locations-locationid-schedules-scheduletype-scheduleid-usage
+source: webex-openapi-specs/public-spec/webex-cloud-calling.json
+api: Webex Cloud Calling
+api_version: 1.0.0
+method: GET
+path: /telephony/config/locations/{locationId}/schedules/{scheduleType}/{scheduleId}/usage
+operation_id: listLocationScheduleUsage
+tags: Location Call Settings:  Schedules
+deprecated: false
+scopes: 
+license: CC-BY-4.0
+retrieved_at: 2026-11-16T12:36:50.747158+00:00
+---
+
+# GET /telephony/config/locations/{locationId}/schedules/{scheduleType}/{scheduleId}/usage
+
+**API:** Webex Cloud Calling
+**Área:** Location Call Settings:  Schedules
+**operationId:** `listLocationScheduleUsage`
+
+## Resumen
+List People and Features Using a Location Schedule
+
+## Descripción
+Lists people and calling feature instances that use the specified location schedule. Results use offset pagination through the Link response header.
+
+A time schedule establishes a set of times during the day or holidays in the year in which a feature, for example auto attendants, can perform a specific action.
+
+Retrieving this list requires a full administrator or read-only administrator or location administrators or user administrators or delegated organization schedule auth token with a scope of `spark-admin:telephony_config_read`.
+
+## Parámetros
+- `locationId` [path] (string) (**requerido**): Location containing the schedule.
+- `scheduleType` [path] (string) (**requerido**): Type of the location schedule. Valores: businessHours, holidays.
+- `scheduleId` [path] (string) (**requerido**): The schedule whose usage is returned.
+- `orgId` [query] (string): The Organization to which the schedule belongs.
+- `max` [query] (integer): Maximum number of usage records to return. Defaults to 2000 and cannot exceed 2000. Por defecto: 2000.
+- `start` [query] (integer): Zero-based offset of the first usage record to return. Defaults to 0. The sum of `start` and `max` must not exceed 2000; because `max` defaults to 2000, reduce `max` when `start` is greater than 0. Por defecto: 0.
+
+## Ejemplo de invocación
+```bash
+curl -X GET '/telephony/config/locations/<locationId>/schedules/<scheduleType>/<scheduleId>/usage' \
+  -H 'Authorization: Bearer <TOKEN>'
+```
+
+## Respuestas correctas
+**200**: Schedule usage retrieved successfully.
+- `usedBy` (array) (**requerido**): People and calling feature instances that use the location schedule.
+  - `type` (string) (**requerido**): Resource type of the person, workspace, or calling feature that uses the schedule. * `PEOPLE` - A person uses the schedule. * `PLACE` - A workspace uses the schedule. * `AUTO_ATTENDANT` - An auto attendant uses the schedule. * `CALL_QUEUE` - A call queue uses the schedule. * `HUNT_GROUP` - A hunt group uses the schedule. Valores: PEOPLE, PLACE, AUTO_ATTENDANT, CALL_QUEUE, HUNT_GROUP.
+  - `id` (string) (**requerido**): Unique identifier for the person, workspace, or calling feature indicated by `type`.
+  - `name` (string) (**requerido**): Name of the person or calling feature that uses the schedule.
+  - `locationName` (string) (**requerido**): Name of the associated location
+  - `locationId` (string) (**requerido**): Unique identifier of the associated location
+
+### Ejemplo — respuesta 200
+```json
+{
+  "usedBy": [
+    {
+      "type": "PEOPLE",
+      "id": "Y2lzY29zcGFyazovL3VzL1BFT1BMRS83MGU3MjYzMC1mZjlmLTExZWItODU5YS0xZjhiYjRjNzc1MWQ",
+      "name": "Alice",
+      "locationName": "San Jose",
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzEyMzQ1"
+    }
+  ]
+}
+```
+- Cabecera `Link`: Link to the next page of schedule usage when another page is available.
+
+## Respuestas de error
+- **400**: Bad Request: The schedule type, location ID, or pagination parameters are invalid.
+- **401**: Unauthorized: Authentication credentials were missing or incorrect.
+- **403**: Forbidden: The request is understood, but it has been refused or access is not allowed.
+- **404**: Not Found: The schedule or organization does not exist.
+- **405**: Method Not Allowed: The request was made to a resource using an HTTP request method that is not supported.
+- **415**: Unsupported Media Type: The request was made without a supported media type.
+- **429**: Too Many Requests: Too many requests have been sent in a given amount of time.
+- **500**: Internal Server Error: Something went wrong on the server.
+
+## Contexto de la API
+The Webex Cloud Calling APIs enable comprehensive management of cloud-based calling services, including user provisioning, device assignment, call routing, feature configuration, and number management. These APIs facilitate integration with enterprise directories, automation of telephony workflows, and centralized management of global calling infrastructure. Use cases include automated onboarding, self-service portals, integration with CRM/ERP systems, and real-time monitoring of call quality and usage.
+
+---
+> Fuente: webex/webex-openapi-specs (Cisco), licencia CC BY 4.0.
+> https://github.com/webex/webex-openapi-specs

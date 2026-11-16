@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/cxEssentials/wrapup/reasons
-operation_id: List Wrap Up Reasons
+operation_id: listWrapUpReasons
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.069697+00:00
+retrieved_at: 2026-11-16T12:36:50.702535+00:00
 ---
 
 # GET /telephony/config/cxEssentials/wrapup/reasons
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `List Wrap Up Reasons`
+**operationId:** `listWrapUpReasons`
 
 ## Resumen
 List Wrap Up Reasons

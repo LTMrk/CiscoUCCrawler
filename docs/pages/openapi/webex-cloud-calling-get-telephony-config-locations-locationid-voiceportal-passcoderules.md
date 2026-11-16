@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/voicePortal/passcodeRules
-operation_id: Get VoicePortal Passcode Rule
+operation_id: getVoicePortalPasscodeRule
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.100840+00:00
+retrieved_at: 2026-11-16T12:36:50.748774+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicePortal/passcodeRules
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Get VoicePortal Passcode Rule`
+**operationId:** `getVoicePortalPasscodeRule`
 
 ## Resumen
 Get VoicePortal Passcode Rule

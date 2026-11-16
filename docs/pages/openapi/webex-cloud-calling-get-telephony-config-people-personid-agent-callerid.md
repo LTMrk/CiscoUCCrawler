@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.133873+00:00
+retrieved_at: 2026-11-16T12:36:50.796150+00:00
 ---
 
 # GET /telephony/config/people/{personId}/agent/callerId
@@ -40,12 +40,7 @@ curl -X GET '/telephony/config/people/<personId>/agent/callerId' \
 
 ## Respuestas correctas
 **200**: OK
-- `selectedCallerId` (object) (**requerido**):
-  - `id` (string) (**requerido**): When not null, this is the call queue or hunt group's unique identifier.
-  - `type` (string) (**requerido**): * `CALL_QUEUE` - A call queue has been selected for the agent's caller ID.  * `HUNT_GROUP` - A hunt group has been selected for the agent's caller ID. Valores: CALL_QUEUE, HUNT_GROUP.
-  - `name` (string) (**requerido**): When not null, indicates the call queue's or hunt group's name.
-  - `phoneNumber` (string) (**requerido**): When not null, indicates the call queue's or hunt group's phone number.
-  - `extension` (string) (**requerido**): When not null, indicates the call queue's or hunt group's extension number.
+- `selectedCallerId` (object) (**requerido**): Indicates agent's Caller ID choice for outgoing calls.
 
 ### Ejemplo — respuesta 200
 ```json

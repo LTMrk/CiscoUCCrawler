@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /admin/meeting/userconfig/sessionTypes
-operation_id: Update User Session Types
+operation_id: updateUserSessionTypes
 tags: Session Types
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.447980+00:00
+retrieved_at: 2026-11-16T12:36:51.512760+00:00
 ---
 
 # PUT /admin/meeting/userconfig/sessionTypes
 
 **API:** Webex Meetings
 **Área:** Session Types
-**operationId:** `Update User Session Types`
+**operationId:** `updateUserSessionTypes`
 
 ## Resumen
 Update User Session Types

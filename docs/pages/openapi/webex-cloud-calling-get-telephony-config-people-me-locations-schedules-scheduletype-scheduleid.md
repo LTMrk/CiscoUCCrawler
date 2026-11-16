@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.990422+00:00
+retrieved_at: 2026-11-16T12:36:50.593543+00:00
 ---
 
 # GET /telephony/config/people/me/locations/schedules/{scheduleType}/{scheduleId}
@@ -55,21 +55,9 @@ curl -X GET '/telephony/config/people/me/locations/schedules/<scheduleType>/<sch
   - `recurrence` (object):
     - `recurForEver` (boolean): Flag to indicate if event will recur forever.
     - `recurEndDate` (string): End date of recurrence.
-    - `recurWeekly` (object):
-      - `sunday` (boolean) (**requerido**): Frequency of occurrence in weeks and select the day - Sunday.
-      - `monday` (boolean): Frequency of occurrence in weeks and select the day - Monday.
-      - `tuesday` (boolean): Frequency of occurrence in weeks and select the day - Tuesday.
-      - `wednesday` (boolean): Frequency of occurrence in weeks and select the day - Wednesday.
-      - `thursday` (boolean): Frequency of occurrence in weeks and select the day - Thursday.
-      - `friday` (boolean): Frequency of occurrence in weeks and select the day - Friday.
-      - `saturday` (boolean): Frequency of occurrence in weeks and select the day - Saturday.
-    - `recurYearlyByDate` (object):
-      - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-      - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-    - `recurYearlyByDay` (object):
-      - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-      - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-      - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+    - `recurWeekly` (object): Weekly recurrence definition.
+    - `recurYearlyByDate` (object): Recurrence definition yearly by date.
+    - `recurYearlyByDay` (object): Recurrence definition yearly by day.
 
 ### Ejemplo — respuesta 200
 ```json

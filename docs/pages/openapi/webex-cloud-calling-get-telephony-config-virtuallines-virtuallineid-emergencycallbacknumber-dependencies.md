@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/emergencyCallbackNumber/dependencies
-operation_id: Get Dependencies for a Virtual Line Emergency Callback Number
+operation_id: getDependenciesForAVirtualLineEmergencyCallbackNumber
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.037769+00:00
+retrieved_at: 2026-11-16T12:36:50.653817+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/emergencyCallbackNumber/dependencies
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get Dependencies for a Virtual Line Emergency Callback Number`
+**operationId:** `getDependenciesForAVirtualLineEmergencyCallbackNumber`
 
 ## Resumen
 Get Dependencies for a Virtual Line Emergency Callback Number

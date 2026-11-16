@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /identity/scim/{orgId}/v2/Groups/{groupId}
-operation_id: Delete a group
+operation_id: deleteAGroup
 tags: SCIM 2 Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.103425+00:00
+retrieved_at: 2026-11-16T12:36:50.159302+00:00
 ---
 
 # DELETE /identity/scim/{orgId}/v2/Groups/{groupId}
 
 **API:** Webex Admin
 **Área:** SCIM 2 Groups
-**operationId:** `Delete a group`
+**operationId:** `deleteAGroup`
 
 ## Resumen
 Delete a group

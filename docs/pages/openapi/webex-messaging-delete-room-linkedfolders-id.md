@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: DELETE
 path: /room/linkedFolders/{id}
-operation_id: Unlink an ECM linked folder
+operation_id: unlinkAnECMLinkedFolder
 tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.739633+00:00
+retrieved_at: 2026-11-16T12:36:51.655327+00:00
 ---
 
 # DELETE /room/linkedFolders/{id}
 
 **API:** Webex Messaging
 **Área:** ECM folder linking
-**operationId:** `Unlink an ECM linked folder`
+**operationId:** `unlinkAnECMLinkedFolder`
 
 ## Resumen
 Unlink an ECM linked folder

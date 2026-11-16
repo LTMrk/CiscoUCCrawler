@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /identity/organizations/{orgId}/jobs/sendActivationEmails/{jobId}/status
-operation_id: Get Bulk Activation Email Resend Job Status
+operation_id: getBulkActivationEmailResendJobStatus
 tags: Send Activation Email
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.109179+00:00
+retrieved_at: 2026-11-16T12:36:50.167003+00:00
 ---
 
 # GET /identity/organizations/{orgId}/jobs/sendActivationEmails/{jobId}/status
 
 **API:** Webex Admin
 **Área:** Send Activation Email
-**operationId:** `Get Bulk Activation Email Resend Job Status`
+**operationId:** `getBulkActivationEmailResendJobStatus`
 
 ## Resumen
 Get Bulk Activation Email Resend Job Status
@@ -51,17 +51,13 @@ curl -X GET '/identity/organizations/<orgId>/jobs/sendActivationEmails/<jobId>/s
   - `startTime` (string): Step execution start time in UTC format.
   - `endTime` (string): Step execution end time in UTC format.
   - `lastUpdated` (string): Last time the step's execution status was updated in UTC format.
-  - `statusMessage` (string): * `COMPLETED` - Step or job has completed.  * `STARTING` - Step or job is starting.  * `STARTED` - Step or job is running.  * `STOPPING` - Step or job is stopping.  * `FAILED` - Step or job has failed with an error.  * `ABANDONED` - Step or job has been abandone (manually stopped).  * `UNKNOWN` - Step or job status is unknown. Valores: COMPLETED, STARTING, STARTED, STOPPING, FAILED, ABANDONED, UNKNOWN.
-  - `exitCode` (string): * `COMPLETED` - Step or job has completed.  * `STARTING` - Step or job is starting.  * `STARTED` - Step or job is running.  * `STOPPING` - Step or job is stopping.  * `FAILED` - Step or job has failed with an error.  * `ABANDONED` - Step or job has been abandone (manually stopped).  * `UNKNOWN` - Step or job status is unknown. Valores: COMPLETED, STARTING, STARTED, STOPPING, FAILED, ABANDONED, UNKNOWN.
+  - `statusMessage` (object): Displays the most recent execution status of the step.
+  - `exitCode` (object): Final execution status of the step.
   - `name` (string): Step name.
   - `timeElapsed` (string): Time elapsed since the step execution started.
-- `latestExecutionStatus` (string) (**requerido**): * `COMPLETED` - Step or job has completed.  * `STARTING` - Step or job is starting.  * `STARTED` - Step or job is running.  * `STOPPING` - Step or job is stopping.  * `FAILED` - Step or job has failed with an error.  * `ABANDONED` - Step or job has been abandone (manually stopped).  * `UNKNOWN` - Step or job status is unknown. Valores: COMPLETED, STARTING, STARTED, STOPPING, FAILED, ABANDONED, UNKNOWN.
+- `latestExecutionStatus` (object) (**requerido**): Indicates the most recent status of the job at the time of invocation.
 - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
-- `counts` (object) (**requerido**):
-  - `userResendInviteSent` (number) (**requerido**): Count of users sent an invitation.
-  - `userResendInviteFailed` (number) (**requerido**): Count of users who failed to receive an invitation.
-  - `userResendInviteSkipped` (number) (**requerido**): Count of users who were skipped.
-  - `totalUsers` (number) (**requerido**): Total count of users processed.
+- `counts` (object) (**requerido**): Summary of statuses.
 - `allowAdminInviteEmails` (boolean): Indicates if the org allows admin invite emails to be sent.
 
 ### Ejemplo — respuesta 200

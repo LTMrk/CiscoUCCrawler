@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/schedules
-operation_id: Read the List of Schedules
+operation_id: readTheListOfSchedules
 tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.097830+00:00
+retrieved_at: 2026-11-16T12:36:50.744260+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/schedules
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Schedules
-**operationId:** `Read the List of Schedules`
+**operationId:** `readTheListOfSchedules`
 
 ## Resumen
 Read the List of Schedules
@@ -32,8 +32,8 @@ Retrieving this list requires a full or read-only administrator or location admi
 ## Parámetros
 - `locationId` [path] (string) (**requerido**): Return the list of schedules for this location.
 - `orgId` [query] (string): List schedules for this organization.
-- `max` [query] (number): Limit the number of objects returned to this maximum count.
-- `start` [query] (number): Start at the zero-based offset in the list of matching objects.
+- `max` [query] (integer): Limit the number of objects returned to this maximum count. Default: 2000. Maximum: 2000. Por defecto: 2000.
+- `start` [query] (integer): Start at the zero-based offset in the list of matching objects. Default: 0. Por defecto: 0.
 - `name` [query] (string): Only return schedules with the matching name.
 - `type` [query] (string): Type of the schedule. Valores: businessHours, holidays.
 
@@ -49,26 +49,35 @@ curl -X GET '/telephony/config/locations/<locationId>/schedules' \
   - `id` (string) (**requerido**): A unique identifier for the schedule.
   - `name` (string) (**requerido**): Unique name for the schedule.
   - `type` (string) (**requerido**): Type of the schedule.  * `businessHours` - Business hours schedule type.  * `holidays` - Holidays schedule type. Valores: businessHours, holidays.
-  - `locationName` (string) (**requerido**): Name of location for schedule.
-  - `locationId` (string) (**requerido**): ID of the location for the schedule.
+  - `locationName` (string): Name of the location for a location schedule. Omitted for organization schedules.
+  - `locationId` (string): ID of the location for a location schedule. Omitted for organization schedules.
+  - `level` (string) (**requerido**): Schedule ownership level.  - `LOCATION` - Identifies a location schedule. - `ORGANIZATION` - Identifies an organization schedule. Valores: LOCATION, ORGANIZATION.
 
 ### Ejemplo — respuesta 200
 ```json
 {
   "schedules": [
     {
-      "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V3",
+      "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V3PT0",
       "name": "AUTOATTENDANT-BUSINESS-HOURS",
       "type": "businessHours",
       "locationName": "Alaska",
-      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx"
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
+      "level": "LOCATION"
     },
     {
       "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFJVDB4SlJFRlo",
       "name": "AUTOATTENDANT-HOLIDAY",
       "type": "holidays",
       "locationName": "Alaska",
-      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx"
+      "locationId": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzMxMTYx",
+      "level": "LOCATION"
+    },
+    {
+      "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1QxSkhMVUpWVTBsT1JWTlRMVWhQVlZKVA",
+      "name": "ORG-BUSINESS-HOURS",
+      "type": "businessHours",
+      "level": "ORGANIZATION"
     }
   ]
 }

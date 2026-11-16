@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}/events/{eventId}
-operation_id: Update a Schedule Event
+operation_id: updateAScheduleEvent
 tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.099332+00:00
+retrieved_at: 2026-11-16T12:36:50.746171+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/schedules/{type}/{scheduleId}/events/{eventId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Schedules
-**operationId:** `Update a Schedule Event`
+**operationId:** `updateAScheduleEvent`
 
 ## Resumen
 Update a Schedule Event
@@ -45,24 +45,7 @@ Updating a schedule event requires a full administrator or location administrato
 - `startTime` (string): Start time of event. Mandatory if the event is not all day.
 - `endTime` (string): End time of event. Mandatory if the event is not all day.
 - `allDayEnabled` (boolean): An indication of whether given event is an all-day event or not. Mandatory if the `startTime` and `endTime` are not defined.
-- `recurrence` (object):
-  - `recurForEver` (boolean): Flag to indicate if event will recur forever.
-  - `recurEndDate` (string): End date of recurrence.
-  - `recurWeekly` (object):
-    - `sunday` (boolean) (**requerido**): Frequency of occurrence in weeks and select the day - Sunday.
-    - `monday` (boolean): Frequency of occurrence in weeks and select the day - Monday.
-    - `tuesday` (boolean): Frequency of occurrence in weeks and select the day - Tuesday.
-    - `wednesday` (boolean): Frequency of occurrence in weeks and select the day - Wednesday.
-    - `thursday` (boolean): Frequency of occurrence in weeks and select the day - Thursday.
-    - `friday` (boolean): Frequency of occurrence in weeks and select the day - Friday.
-    - `saturday` (boolean): Frequency of occurrence in weeks and select the day - Saturday.
-  - `recurYearlyByDate` (object):
-    - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-    - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-  - `recurYearlyByDay` (object):
-    - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-    - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-    - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+- `recurrence` (object): Recurrence definition.
 
 ### Ejemplo — petición
 ```json

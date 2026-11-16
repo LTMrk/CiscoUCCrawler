@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /recordingReport/accessSummary
-operation_id: List of Recording Audit Report Summaries
+operation_id: listOfRecordingAuditReportSummaries
 tags: Recording Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.111929+00:00
+retrieved_at: 2026-11-16T12:36:50.766248+00:00
 ---
 
 # GET /recordingReport/accessSummary
 
 **API:** Webex Cloud Calling
 **Área:** Recording Report
-**operationId:** `List of Recording Audit Report Summaries`
+**operationId:** `listOfRecordingAuditReportSummaries`
 
 ## Resumen
 List of Recording Audit Report Summaries

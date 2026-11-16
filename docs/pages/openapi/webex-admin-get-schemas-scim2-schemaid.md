@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /Schemas/SCIM2/{schemaId}
-operation_id: Get Schema using Group Schema ID
+operation_id: getSchemaUsingGroupSchemaID
 tags: SCIM 2 Schemas
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.106140+00:00
+retrieved_at: 2026-11-16T12:36:50.163154+00:00
 ---
 
 # GET /Schemas/SCIM2/{schemaId}
 
 **API:** Webex Admin
 **Área:** SCIM 2 Schemas
-**operationId:** `Get Schema using Group Schema ID`
+**operationId:** `getSchemaUsingGroupSchemaID`
 
 ## Resumen
 Get Schema using Group Schema ID

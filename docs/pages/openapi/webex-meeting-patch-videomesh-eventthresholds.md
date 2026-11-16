@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PATCH
 path: /videoMesh/eventThresholds
-operation_id: Update Event Threshold Configuration
+operation_id: updateEventThresholdConfiguration
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.485701+00:00
+retrieved_at: 2026-11-16T12:36:51.560180+00:00
 ---
 
 # PATCH /videoMesh/eventThresholds
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Update Event Threshold Configuration`
+**operationId:** `updateEventThresholdConfiguration`
 
 ## Resumen
 Update Event Threshold Configuration
@@ -65,9 +65,7 @@ curl -X PATCH '/videoMesh/eventThresholds' \
   - `eventThresholdId` (string): Unique ID of the event threshold configuration.
   - `eventScope` (string): The `eventScope` is scope of event.
   - `entityId` (string): The `entityId` is the unique ID of the Organization or the unique ID of the Video Mesh Cluster.
-  - `thresholdConfig` (object):
-    - `minThreshold` (number): Threshold value (in percentage) to trigger an event.
-    - `defaultMinThreshold` (number): Deafault Threshold value (in percentage) to trigger an event.
+  - `thresholdConfig` (object): Threshold configuration of an `entityId`.
 - `failedEventThresholdIds` (array): List of failed or invalid event threshold IDs.
 
 ### Ejemplo — respuesta 200

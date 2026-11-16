@@ -10,7 +10,7 @@ tags: Features:  Hunt Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.077191+00:00
+retrieved_at: 2026-11-16T12:36:50.713045+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/actions/switchMode/invoke

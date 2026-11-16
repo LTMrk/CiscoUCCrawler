@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/cxEssentials/wrapup/reasons/actions/validateName/invoke
-operation_id: Validate Wrap Up Reason
+operation_id: validateWrapUpReason
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.070649+00:00
+retrieved_at: 2026-11-16T12:36:50.703930+00:00
 ---
 
 # POST /telephony/config/cxEssentials/wrapup/reasons/actions/validateName/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Validate Wrap Up Reason`
+**operationId:** `validateWrapUpReason`
 
 ## Resumen
 Validate Wrap Up Reason

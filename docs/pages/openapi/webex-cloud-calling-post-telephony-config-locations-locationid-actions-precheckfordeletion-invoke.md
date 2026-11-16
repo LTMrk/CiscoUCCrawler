@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/actions/precheckForDeletion/invoke
-operation_id: Safe Delete Check Before Disabling Calling Location
+operation_id: safeDeleteCheckBeforeDisablingCallingLocation
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.092748+00:00
+retrieved_at: 2026-11-16T12:36:50.737149+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/actions/precheckForDeletion/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Safe Delete Check Before Disabling Calling Location`
+**operationId:** `safeDeleteCheckBeforeDisablingCallingLocation`
 
 ## Resumen
 Safe Delete Check Before Disabling a Location for Webex Calling

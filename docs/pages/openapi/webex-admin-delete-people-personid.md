@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /people/{personId}
-operation_id: Delete a Person
+operation_id: deleteAPerson
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.093848+00:00
+retrieved_at: 2026-11-16T12:36:50.147383+00:00
 ---
 
 # DELETE /people/{personId}
 
 **API:** Webex Admin
 **Área:** People
-**operationId:** `Delete a Person`
+**operationId:** `deleteAPerson`
 
 ## Resumen
 Delete a Person

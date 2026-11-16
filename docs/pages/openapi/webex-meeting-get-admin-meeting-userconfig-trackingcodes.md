@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /admin/meeting/userconfig/trackingCodes
-operation_id: Get User Tracking Codes
+operation_id: getUserTrackingCodes
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.471158+00:00
+retrieved_at: 2026-11-16T12:36:51.537869+00:00
 ---
 
 # GET /admin/meeting/userconfig/trackingCodes
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `Get User Tracking Codes`
+**operationId:** `getUserTrackingCodes`
 
 ## Resumen
 Get User Tracking Codes

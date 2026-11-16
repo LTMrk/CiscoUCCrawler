@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}/usageRouteGroup
-operation_id: Get Route Groups Using the Local Gateway
+operation_id: getRouteGroupsUsingTheLocalGateway
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.962446+00:00
+retrieved_at: 2026-11-16T12:36:50.554378+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}/usageRouteGroup
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Route Groups Using the Local Gateway`
+**operationId:** `getRouteGroupsUsingTheLocalGateway`
 
 ## Resumen
 Get Route Groups Using the Local Gateway

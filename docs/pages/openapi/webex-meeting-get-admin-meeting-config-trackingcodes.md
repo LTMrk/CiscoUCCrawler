@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /admin/meeting/config/trackingCodes
-operation_id: List Tracking Codes
+operation_id: listTrackingCodes
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.469997+00:00
+retrieved_at: 2026-11-16T12:36:51.535793+00:00
 ---
 
 # GET /admin/meeting/config/trackingCodes
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `List Tracking Codes`
+**operationId:** `listTrackingCodes`
 
 ## Resumen
 List Tracking Codes

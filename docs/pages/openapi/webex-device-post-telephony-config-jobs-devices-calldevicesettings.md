@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.923368+00:00
+retrieved_at: 2026-11-16T12:36:51.367781+00:00
 ---
 
 # POST /telephony/config/jobs/devices/callDeviceSettings
@@ -39,64 +39,7 @@ Running a job requires a full or read-only administrator auth token with a scope
 ## Cuerpo de la petición (application/json)
 - `locationId` (string): Location within an organization where changes of device setings will be applied to all the devices within it.
 - `locationCustomizationsEnabled` (boolean): Indicates if all the devices within this location will be customized with new requested customizations(if set to `true`) or will be overridden with the one at organization level (if set to `false` or any other value). This field has no effect when the job is being triggered at organization level.
-- `customizations` (object):
-  - `ata` (object):
-    - `audioCodecPriority` (object) (**requerido**):
-      - `selection` (string) (**requerido**): * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
-      - `primary` (string) (**requerido**): Indicates the primary Audio Codec.
-      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec.
-      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec.
-    - `ataDtmfMode` (string) (**requerido**): * `STRICT` - A DTMF digit requires an extra hold time after detection and the DTMF level threshold is raised to -20 dBm.  * `NORMAL` - Normal threshold mode. Valores: STRICT, NORMAL.
-    - `ataDtmfMethod` (string) (**requerido**): * `INBAND` - Sends DTMF by using the audio path.  * `AVT` - Audio video transport. Sends DTMF as AVT events.  * `AUTO` - Uses InBand or AVT based on the outcome of codec negotiation. Valores: INBAND, AVT, AUTO.
-    - `cdpEnabled` (boolean) (**requerido**): Enable/disable Cisco Discovery Protocol for local devices.
-    - `lldpEnabled` (boolean) (**requerido**): Enable/disable Link Layer Discovery Protocol for local devices.
-    - `qosEnabled` (boolean) (**requerido**): Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
-    - `vlan` (object) (**requerido**):
-      - `enabled` (boolean) (**requerido**): Denotes whether the VLAN object of an ATA is enabled.
-      - `value` (number) (**requerido**): The value of the VLAN Object of an ATA object.
-    - `webAccessEnabled` (boolean) (**requerido**): Enable/disable user level web access to the local device.
-    - `nightlyResyncEnabled` (boolean) (**requerido**): Enable/disable the automatic nightly configuration resync of the MPP device.
-    - `snmp` (object) (**requerido**):
-      - `enabled` (boolean) (**requerido**): Denotes whether the Simple Network Management Protocol of an ATA is enabled.
-      - `trustedIP` (string) (**requerido**): Trusted IPv4 address and subnet mask in this order: 0.0.0.0/0.0.0.0.
-      - `getCommunity` (string) (**requerido**): Read-only community string that allows/denies access to other device's statistics. Default value is `public`.
-      - `setCommunity` (string) (**requerido**): Read-write community string that protects the device against unauthorized changes. Must never be set to `public`.
-      - `snmpV3Enabled` (boolean) (**requerido**): Denotes whether the SNMPv3 security is enabled.
-  - `dect` (object):
-    - `audioCodecPriority` (object) (**requerido**):
-      - `selection` (string) (**requerido**): * `REGIONAL` - Indicates the regional selection type for audio codec priority.  * `CUSTOM` - Indicates the custom selection type for audio codec priority. Valores: REGIONAL, CUSTOM.
-      - `primary` (string) (**requerido**): Indicates the primary Audio Codec.
-      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec.
-      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec.
-    - `cdpEnabled` (boolean) (**requerido**): Enable/disable Cisco Discovery Protocol for local devices.
-    - `dect6825HandsetEmergencyNumber` (string) (**requerido**): Specify the destination number to be dialled from the DECT Handset top button when pressed.
-    - `lldpEnabled` (boolean) (**requerido**): Enable/disable Link Layer Discovery Protocol for local devices.
-    - `multicast` (string) (**requerido**): Specify up to 3 multicast group URLs each with a unique listening port.
-    - `qosEnabled` (boolean) (**requerido**): Enable/disable quality of service tagging of packets from the local device to the Webex Calling platform.
-    - `vlan` (object) (**requerido**):
-      - `enabled` (boolean) (**requerido**): Denotes whether the VLAN object of DECT is enabled.
-      - `value` (number) (**requerido**): Value of the VLAN Object of DECT.
-    - `webAccessEnabled` (boolean) (**requerido**): Enable/disable user level web access to the local device.
-    - `nightlyResyncEnabled` (boolean) (**requerido**): Enable/disable phone's default behavior regarding the nightly maintenance synchronization with the Webex Calling platform.
-  - `mpp` (object):
-    - `pnacEnabled` (boolean) (**requerido**): Indicates whether the PNAC of MPP object is enabled or not.
-    - `audioCodecPriority` (object) (**requerido**):
-      - `selection` (string) (**requerido**): Indicates the selection of the Audio Codec Priority Object for an MPP object.
-      - `primary` (string) (**requerido**): Indicates the primary Audio Codec for an MPP object.
-      - `secondary` (string) (**requerido**): Indicates the secondary Audio Codec for an MPP object.
-      - `tertiary` (string) (**requerido**): Indicates the tertiary Audio Codec for an MPP object.
-    - `backlightTimer` (string) (**requerido**): * `ONE_MIN` - Set the phone's backlight to be on for one minute.  * `FIVE_MIN` - Set the phone's backlight to be on for five minutes.  * `THIRTY_MIN` - Set the phone's backlight to be on for thirty minutes.  * `ALWAYS_ON` - Keep the phone's backlight always on. Valores: ONE_MIN, FIVE_MIN, THIRTY_MIN, ALWAYS_ON.
-    - `background` (object) (**requerido**):
-      - `image` (string): * `NONE` - Indicates that there will be no background image set for the devices.  * `DARK_BLUE` - Indicates that dark blue background image will be set for the devices.  * `CISCO_DARK_BLUE` - Indicates that Cisco themed dark blue background image will be set for the devices.  * `WEBEX_DARK_BLUE` - Indicates that Cisco Webex dark blue background image will be set for the devices.  * `CUSTOM_BACKGROUND` - Indicates that a custom background image will be set for the devices.  * `customUrl` - When this option is selected, a field 'Custom Background URL' needs to be added with the image url. URLs provided must link directly to an image file and be in HTTP, HTTPS, or filepath format. Valores: NONE, DARK_BLUE, CISCO_DARK_BLUE, WEBEX_DARK_BLUE, CUSTOM_BACKGROUND.
-      - `customUrl` (string):
-    - `displayNameFormat` (string): * `PERSON_NUMBER` - Indicates that devices will display the person's phone number, or if a person doesn't have a phone number, the location number will be displayed.  * `PERSON_FIRST_THEN_LAST_NAME` - Indicates that devices will display the name in first name then last name format.  * `PERSON_LAST_THEN_FIRST_NAME` - Indicates that devices will display the name in last name then first name format. Valores: PERSON_NUMBER, PERSON_FIRST_THEN_LAST_NAME, PERSON_LAST_THEN_FIRST_NAME.
-    - `cdpEnabled` (boolean) (**requerido**): Allows you to enable/disable CDP for local devices.
-    - `defaultLoggingLevel` (string) (**requerido**): * `STANDARD` - Enables standard logging.  * `DEBUGGING` - Enables detailed debugging logging. Valores: STANDARD, DEBUGGING.
-    - `dndServicesEnabled` (boolean) (**requerido**): Enable/disable Do-Not-Disturb capabilities for Multi-Platform Phones.
-    - `acd` (object) (**requerido**):
-      - `enabled` (boolean) (**requerido**): Indicates whether the ACD object is enabled.
-      - `displayCallqueueAgentSoftkeys` (string) (**requerido**):  Valores: FRONT_PAGE, LAST_PAGE.
-    - `shortInterdigitTimer` (number) (**requerido**): Indicates the short inter digit timer value.
+- `customizations` (object): Indicates the settings for ATA devices, DECT devices and MPP devices.
 
 ### Ejemplo — petición
 ```json
@@ -192,11 +135,7 @@ curl -X POST '/telephony/config/jobs/devices/callDeviceSettings' \
 - `operationType` (string) (**requerido**): Indicates operation type that was carried out.
 - `sourceLocationId` (string) (**requerido**): Unique location identifier for which the job was run.
 - `targetLocationId` (string) (**requerido**): Unique location identifier for which the numbers have been moved.
-- `counts` (object) (**requerido**):
-  - `totalNumbers` (number) (**requerido**): Indicates the total number of phone numbers requested to be moved.
-  - `numbersDeleted` (number) (**requerido**): Indicates the total number of phone numbers successfully deleted.
-  - `numbersMoved` (number) (**requerido**): Indicates the total number of phone numbers successfully moved.
-  - `numbersFailed` (number) (**requerido**): Indicates the total number of phone numbers failed.
+- `counts` (object) (**requerido**): Job statistics.
 
 ### Ejemplo — respuesta 200
 ```json

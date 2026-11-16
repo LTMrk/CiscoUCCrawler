@@ -10,7 +10,7 @@ tags: Audio Files
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.557650+00:00
+retrieved_at: 2026-11-16T12:36:51.074030+00:00
 ---
 
 # PATCH /organization/{orgid}/audio-file/{id}

@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: POST
 path: /broadworks/enterprises/{id}/broadworksDirectorySync
-operation_id: Trigger Directory Sync for an Enterprise
+operation_id: triggerDirectorySyncForAnEnterprise
 tags: BroadWorks Enterprises
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.375102+00:00
+retrieved_at: 2026-11-16T12:36:50.252388+00:00
 ---
 
 # POST /broadworks/enterprises/{id}/broadworksDirectorySync
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Enterprises
-**operationId:** `Trigger Directory Sync for an Enterprise`
+**operationId:** `triggerDirectorySyncForAnEnterprise`
 
 ## Resumen
 Trigger Directory Sync for an Enterprise

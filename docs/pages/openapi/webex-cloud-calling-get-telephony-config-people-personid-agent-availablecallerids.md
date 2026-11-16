@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.132039+00:00
+retrieved_at: 2026-11-16T12:36:50.795900+00:00
 ---
 
 # GET /telephony/config/people/{personId}/agent/availableCallerIds
@@ -41,7 +41,7 @@ curl -X GET '/telephony/config/people/<personId>/agent/availableCallerIds' \
 **200**: OK
 - `availableCallerIds` (array) (**requerido**): A list of call queues and hunt groups that the agent belongs to and are available to be selected as the Caller ID for outgoing calls. Call queues and hunt groups which have disabled using the phone number as Caller ID are not returned.
   - `id` (string) (**requerido**): Call queue or hunt group's unique identifier.
-  - `type` (string) (**requerido**): * `CALL_QUEUE` - A call queue has been selected for the agent's caller ID.  * `HUNT_GROUP` - A hunt group has been selected for the agent's caller ID. Valores: CALL_QUEUE, HUNT_GROUP.
+  - `type` (object) (**requerido**): Member is of type `CALL_QUEUE` or `HUNT_GROUP`.
   - `name` (string) (**requerido**): Call queue or hunt group's name.
   - `phoneNumber` (string): When not null, it is call queue or hunt group's phone number.
   - `extension` (string): When not null, it is call queue or hunt group's extension number.

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /guests/token
-operation_id: Create a Guest
+operation_id: createAGuest
 tags: Guest Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.084815+00:00
+retrieved_at: 2026-11-16T12:36:50.136357+00:00
 ---
 
 # POST /guests/token
 
 **API:** Webex Admin
 **Área:** Guest Management
-**operationId:** `Create a Guest`
+**operationId:** `createAGuest`
 
 ## Resumen
 Create a Guest

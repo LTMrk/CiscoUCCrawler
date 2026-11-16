@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /dataSources/{dataSourceId}
-operation_id: Delete a Data Source
+operation_id: deleteADataSource
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.079601+00:00
+retrieved_at: 2026-11-16T12:36:50.130034+00:00
 ---
 
 # DELETE /dataSources/{dataSourceId}
 
 **API:** Webex Admin
 **Área:** Data Sources
-**operationId:** `Delete a Data Source`
+**operationId:** `deleteADataSource`
 
 ## Resumen
 Delete a Data Source

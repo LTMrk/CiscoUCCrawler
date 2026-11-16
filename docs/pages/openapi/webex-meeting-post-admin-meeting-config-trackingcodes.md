@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /admin/meeting/config/trackingCodes
-operation_id: Create a Tracking Code
+operation_id: createATrackingCode
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.470274+00:00
+retrieved_at: 2026-11-16T12:36:51.536289+00:00
 ---
 
 # POST /admin/meeting/config/trackingCodes
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `Create a Tracking Code`
+**operationId:** `createATrackingCode`
 
 ## Resumen
 Create a Tracking Code

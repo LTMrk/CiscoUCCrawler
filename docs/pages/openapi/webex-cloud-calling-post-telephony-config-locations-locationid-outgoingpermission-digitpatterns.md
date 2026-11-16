@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
-operation_id: Create Outgoing Permission a new Digit Pattern for a location
+operation_id: createOutgoingPermissionANewDigitPatternForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.096909+00:00
+retrieved_at: 2026-11-16T12:36:50.742930+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Create Outgoing Permission a new Digit Pattern for a location`
+**operationId:** `createOutgoingPermissionANewDigitPatternForALocation`
 
 ## Resumen
 Create Outgoing Permission a new Digit Pattern for a location

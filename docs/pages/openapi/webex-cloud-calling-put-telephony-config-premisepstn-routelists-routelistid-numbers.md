@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/routeLists/{routeListId}/numbers
-operation_id: Modify Numbers for Route List
+operation_id: modifyNumbersForRouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.968891+00:00
+retrieved_at: 2026-11-16T12:36:50.565196+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeLists/{routeListId}/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify Numbers for Route List`
+**operationId:** `modifyNumbersForRouteList`
 
 ## Resumen
 Modify Numbers for Route List
@@ -36,7 +36,7 @@ Retrieving a Route List requires a full or read-only administrator auth token wi
 ## Cuerpo de la petición (application/json)
 - `numbers` (array): Array of the numbers to be deleted/added.
   - `number` (string) (**requerido**): Number to be deleted/added.
-  - `action` (string) (**requerido**): * `ADD` - Add a phone number to the Route List.  * `DELETE` - Delete a phone number from the Route List. Valores: ADD, DELETE.
+  - `action` (object) (**requerido**): Possible value, `ADD` or `DELETE`.
 - `deleteAllNumbers` (boolean): If present, the numbers array is ignored and all numbers in the route list are deleted.
 
 ## Ejemplo de invocación
@@ -51,7 +51,7 @@ curl -X PUT '/telephony/config/premisePstn/routeLists/<routeListId>/numbers' \
 **200**: OK
 - `numberStatus` (array): Array of number statuses.
   - `phoneNumber` (string) (**requerido**): Phone Number whose status is being reported.
-  - `numberStatus` (string) (**requerido**):  Valores: INVALID, DUPLICATE, DUPLICATE_IN_LIST, UNAVAILABLE.
+  - `numberStatus` (object) (**requerido**): Status of the number. Possible values are `INVALID`, `DUPLICATE`, `DUPLICATE_IN_LIST`, or `UNAVAILABLE`.
   - `message` (string) (**requerido**): Message of the number add status.
 
 ### Ejemplo — respuesta 200

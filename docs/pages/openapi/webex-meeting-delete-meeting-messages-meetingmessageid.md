@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /meeting/messages/{meetingMessageId}
-operation_id: Delete a Meeting Message
+operation_id: deleteAMeetingMessage
 tags: Messages
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.441007+00:00
+retrieved_at: 2026-11-16T12:36:51.502697+00:00
 ---
 
 # DELETE /meeting/messages/{meetingMessageId}
 
 **API:** Webex Meetings
 **Área:** Messages
-**operationId:** `Delete a Meeting Message`
+**operationId:** `deleteAMeetingMessage`
 
 ## Resumen
 Delete a Meeting Message

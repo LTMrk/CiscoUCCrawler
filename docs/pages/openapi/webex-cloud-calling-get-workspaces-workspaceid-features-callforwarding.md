@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/callForwarding
-operation_id: Retrieve Call Forwarding Settings for a Workspace
+operation_id: retrieveCallForwardingSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.187556+00:00
+retrieved_at: 2026-11-16T12:36:50.844086+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/callForwarding
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Retrieve Call Forwarding Settings for a Workspace`
+**operationId:** `retrieveCallForwardingSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Call Forwarding Settings for a Workspace
@@ -49,26 +49,8 @@ curl -X GET '/workspaces/<workspaceId>/features/callForwarding' \
 
 ## Respuestas correctas
 **200**: OK
-- `callForwarding` (object) (**requerido**):
-  - `always` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): "Always" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "Always" call forwarding.
-    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `busy` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): "Busy" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "Busy" call forwarding.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `noAnswer` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): "No Answer" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "No Answer" call forwarding.
-    - `numberOfRings` (number) (**requerido**): Number of rings before the call will be forwarded if unanswered.
-    - `systemMaxNumberOfRings` (number) (**requerido**): System-wide maximum number of rings allowed for `numberOfRings` setting.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enables and disables sending incoming to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
-- `businessContinuity` (object) (**requerido**):
-  - `enabled` (boolean) (**requerido**): Business Continuity is enabled or disabled.
-  - `destination` (string): Destination for Business Continuity.
-  - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+- `callForwarding` (object) (**requerido**): Call forwarding settings for a Workspace.
+- `businessContinuity` (object) (**requerido**): Settings for sending calls to a destination of your choice if your phone is not connected to the network for any reason, such as power outage, failed Internet connection, or wiring problem.
 
 ### Ejemplo — respuesta 200
 ```json

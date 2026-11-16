@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: POST
 path: /wholesale/customers
-operation_id: Provision a Wholesale Customer
+operation_id: provisionAWholesaleCustomer
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.602933+00:00
+retrieved_at: 2026-11-16T12:36:51.891117+00:00
 ---
 
 # POST /wholesale/customers
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Provision a Wholesale Customer`
+**operationId:** `provisionAWholesaleCustomer`
 
 ## Resumen
 Provision a Wholesale Customer

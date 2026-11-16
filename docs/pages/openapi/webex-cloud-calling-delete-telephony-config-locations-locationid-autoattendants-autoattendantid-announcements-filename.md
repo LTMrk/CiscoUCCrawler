@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.047360+00:00
+retrieved_at: 2026-11-16T12:36:50.669276+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/announcements/{fileName}
@@ -32,7 +32,7 @@ Deleting an announcement file for a auto attendant requires a full administrator
 ## Parámetros
 - `locationId` [path] (string) (**requerido**): Delete an announcement for a auto attendant in this location.
 - `autoAttendantId` [path] (string) (**requerido**): Delete an announcement for the auto attendant with this identifier.
-- `fileName` [path] (string) (**requerido**):
+- `fileName` [path] (string) (**requerido**): Name of the announcement file to delete.
 - `orgId` [query] (string): Delete auto attendant announcement from this organization.
 
 ## Ejemplo de invocación

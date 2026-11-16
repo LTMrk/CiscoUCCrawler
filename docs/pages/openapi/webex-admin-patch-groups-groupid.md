@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /groups/{groupId}
-operation_id: Update a Group
+operation_id: updateAGroup
 tags: Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.083907+00:00
+retrieved_at: 2026-11-16T12:36:50.135399+00:00
 ---
 
 # PATCH /groups/{groupId}
 
 **API:** Webex Admin
 **Área:** Groups
-**operationId:** `Update a Group`
+**operationId:** `updateAGroup`
 
 ## Resumen
 Update a Group

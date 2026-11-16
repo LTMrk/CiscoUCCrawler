@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
-operation_id: Delete Wrap Up Reason
+operation_id: deleteWrapUpReason
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.070469+00:00
+retrieved_at: 2026-11-16T12:36:50.703678+00:00
 ---
 
 # DELETE /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Delete Wrap Up Reason`
+**operationId:** `deleteWrapUpReason`
 
 ## Resumen
 Delete Wrap Up Reason

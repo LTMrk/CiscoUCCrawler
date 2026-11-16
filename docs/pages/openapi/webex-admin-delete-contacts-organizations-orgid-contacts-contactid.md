@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /contacts/organizations/{orgId}/contacts/{contactId}
-operation_id: Delete a Contact
+operation_id: deleteAContact
 tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.089026+00:00
+retrieved_at: 2026-11-16T12:36:50.141568+00:00
 ---
 
 # DELETE /contacts/organizations/{orgId}/contacts/{contactId}
 
 **API:** Webex Admin
 **Área:** Organization Contacts
-**operationId:** `Delete a Contact`
+**operationId:** `deleteAContact`
 
 ## Resumen
 Delete a Contact

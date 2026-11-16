@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /identity/organizations/{orgId}/actions/verifyDomain
-operation_id: Verify Domain
+operation_id: verifyDomain
 tags: API - Domain Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.080757+00:00
+retrieved_at: 2026-11-16T12:36:50.131545+00:00
 ---
 
 # POST /identity/organizations/{orgId}/actions/verifyDomain
 
 **API:** Webex Admin
 **Área:** API - Domain Management
-**operationId:** `Verify Domain`
+**operationId:** `verifyDomain`
 
 ## Resumen
 Verify Domain

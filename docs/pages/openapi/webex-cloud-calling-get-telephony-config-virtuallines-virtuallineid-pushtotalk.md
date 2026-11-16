@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/pushToTalk
-operation_id: Read Push-to-Talk Settings for a Virtual Line
+operation_id: readPushToTalkSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.181869+00:00
+retrieved_at: 2026-11-16T12:36:50.836054+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/pushToTalk
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Push-to-Talk Settings for a Virtual Line`
+**operationId:** `readPushToTalkSettingsForAVirtualLine`
 
 ## Resumen
 Read Push-to-Talk Settings for a Virtual Line
@@ -42,14 +42,14 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>/pushToTalk' \
 ## Respuestas correctas
 **200**: OK
 - `allowAutoAnswer` (boolean) (**requerido**): Set to `true` to enable the Push-to-Talk feature.  When enabled, a workspace receives a Push-to-Talk call and answers the call automatically.
-- `connectionType` (string) (**requerido**): * `ONE_WAY` - Push-to-Talk initiators can chat with this workspace but only in one direction. The workspace you enable Push-to-Talk for cannot respond.  * `TWO_WAY` - Push-to-Talk initiators can chat with this workspace in a two-way conversation. The workspace you enable Push-to-Talk for can respond. Valores: ONE_WAY, TWO_WAY.
-- `accessType` (string) (**requerido**): * `ALLOW_MEMBERS` - List of people/workspaces that are allowed to use the Push-to-Talk feature to interact with the workspace being configured.  * `BLOCK_MEMBERS` - List of people/workspaces that are disallowed to interact using the Push-to-Talk feature with the workspace being configured. Valores: ALLOW_MEMBERS, BLOCK_MEMBERS.
+- `connectionType` (object) (**requerido**): Specifies the connection type to be used.
+- `accessType` (object) (**requerido**): Specifies the access type to be applied when evaluating the member list.
 - `members` (array): List of people/workspaces that are allowed or disallowed to interact using the Push-to-Talk feature.
   - `id` (string): Unique identifier of the person.
   - `lastName` (string): Last name of the person.
   - `firstName` (string): First name of the person.
   - `displayName` (string): Display name of the person.
-  - `type` (string): * `PEOPLE` - Person or list of people.  * `PLACE` - Workspace that is not assigned to a specific person such as for a shared device in a common area.  * `VIRTUAL_LINE` - Virtual line or list of virtual lines. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object): Type usually indicates `PEOPLE`, `PLACE` or `VIRTUAL_LINE`. Push-to-Talk and Privacy features only supports `PEOPLE`.
   - `email` (string): Email address of the person.
   - `numbers` (array): List of phone numbers of the person.
     - `external` (string): External phone number of the person.

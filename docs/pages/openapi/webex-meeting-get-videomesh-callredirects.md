@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/callRedirects
-operation_id: List Cluster Redirect details
+operation_id: listClusterRedirectDetails
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.480420+00:00
+retrieved_at: 2026-11-16T12:36:51.552738+00:00
 ---
 
 # GET /videoMesh/callRedirects
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `List Cluster Redirect details`
+**operationId:** `listClusterRedirectDetails`
 
 ## Resumen
 List Cluster Redirect details

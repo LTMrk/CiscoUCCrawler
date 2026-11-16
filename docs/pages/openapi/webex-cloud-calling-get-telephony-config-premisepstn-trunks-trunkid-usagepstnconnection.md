@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}/usagePstnConnection
-operation_id: Get Locations Using the Local Gateway as PSTN Connection Routing
+operation_id: getLocationsUsingTheLocalGatewayAsPSTNConnectionRouting
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.962252+00:00
+retrieved_at: 2026-11-16T12:36:50.554108+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}/usagePstnConnection
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Locations Using the Local Gateway as PSTN Connection Routing`
+**operationId:** `getLocationsUsingTheLocalGatewayAsPSTNConnectionRouting`
 
 ## Resumen
 Get Locations Using the Local Gateway as PSTN Connection Routing

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/announcements/usage
-operation_id: Fetch repository usage for announcements in a location
+operation_id: fetchRepositoryUsageForAnnouncementsInALocation
 tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.041691+00:00
+retrieved_at: 2026-11-16T12:36:50.660358+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/announcements/usage
 
 **API:** Webex Cloud Calling
 **Área:** Features: Announcement Repository
-**operationId:** `Fetch repository usage for announcements in a location`
+**operationId:** `fetchRepositoryUsageForAnnouncementsInALocation`
 
 ## Resumen
 Fetch repository usage for announcements in a location

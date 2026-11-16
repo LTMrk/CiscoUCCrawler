@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingInvitees/bulkInsert
-operation_id: Create Meeting Invitees
+operation_id: createMeetingInvitees
 tags: Invitees
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.440239+00:00
+retrieved_at: 2026-11-16T12:36:51.501607+00:00
 ---
 
 # POST /meetingInvitees/bulkInsert
 
 **API:** Webex Meetings
 **Área:** Invitees
-**operationId:** `Create Meeting Invitees`
+**operationId:** `createMeetingInvitees`
 
 ## Resumen
 Create Meeting Invitees

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: PUT
 path: /team/memberships/{membershipId}
-operation_id: Update a Team Membership
+operation_id: updateATeamMembership
 tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.749585+00:00
+retrieved_at: 2026-11-16T12:36:51.671211+00:00
 ---
 
 # PUT /team/memberships/{membershipId}
 
 **API:** Webex Messaging
 **Área:** Team Memberships
-**operationId:** `Update a Team Membership`
+**operationId:** `updateATeamMembership`
 
 ## Resumen
 Update a Team Membership

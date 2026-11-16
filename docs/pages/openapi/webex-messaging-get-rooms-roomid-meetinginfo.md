@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /rooms/{roomId}/meetingInfo
-operation_id: Get Room Meeting Details
+operation_id: getRoomMeetingDetails
 tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.748815+00:00
+retrieved_at: 2026-11-16T12:36:51.670145+00:00
 ---
 
 # GET /rooms/{roomId}/meetingInfo
 
 **API:** Webex Messaging
 **Área:** Rooms
-**operationId:** `Get Room Meeting Details`
+**operationId:** `getRoomMeetingDetails`
 
 ## Resumen
 Get Room Meeting Details

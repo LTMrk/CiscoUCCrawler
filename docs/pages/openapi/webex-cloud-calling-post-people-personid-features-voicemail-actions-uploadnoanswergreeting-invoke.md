@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/voicemail/actions/uploadNoAnswerGreeting/invoke
-operation_id: Configure No Answer Voicemail Greeting for a Person
+operation_id: configureNoAnswerVoicemailGreetingForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.124748+00:00
+retrieved_at: 2026-11-16T12:36:50.786117+00:00
 ---
 
 # POST /people/{personId}/features/voicemail/actions/uploadNoAnswerGreeting/invoke
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure No Answer Voicemail Greeting for a Person`
+**operationId:** `configureNoAnswerVoicemailGreetingForAPerson`
 
 ## Resumen
 Configure No Answer Voicemail Greeting for a Person

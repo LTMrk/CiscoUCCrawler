@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/jobs/numbers/manageNumbers/{jobId}/actions/resume/invoke
-operation_id: Resume the Manage Numbers Job
+operation_id: resumeTheManageNumbersJob
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.107118+00:00
+retrieved_at: 2026-11-16T12:36:50.757260+00:00
 ---
 
 # POST /telephony/config/jobs/numbers/manageNumbers/{jobId}/actions/resume/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Resume the Manage Numbers Job`
+**operationId:** `resumeTheManageNumbersJob`
 
 ## Resumen
 Resume the Manage Numbers Job

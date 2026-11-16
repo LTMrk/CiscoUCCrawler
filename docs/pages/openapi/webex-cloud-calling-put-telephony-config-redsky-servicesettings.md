@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/redSky/serviceSettings
-operation_id: Update RedSky Service Settings
+operation_id: updateRedSkyServiceSettings
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.033158+00:00
+retrieved_at: 2026-11-16T12:36:50.647422+00:00
 ---
 
 # PUT /telephony/config/redSky/serviceSettings
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Update RedSky Service Settings`
+**operationId:** `updateRedSkyServiceSettings`
 
 ## Resumen
 Update RedSky Service Settings

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/voicePortal
-operation_id: Get VoicePortal
+operation_id: getVoicePortal
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.100356+00:00
+retrieved_at: 2026-11-16T12:36:50.748170+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicePortal
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Get VoicePortal`
+**operationId:** `getVoicePortal`
 
 ## Resumen
 Get VoicePortal
@@ -50,9 +50,7 @@ curl -X GET '/telephony/config/locations/<locationId>/voicePortal' \
 - `phoneNumber` (string): Phone Number of incoming call.
 - `firstName` (string): Caller ID First Name. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
 - `lastName` (string): Caller ID Last Name. This field has been deprecated. Please use `directLineCallerIdName` and `dialByName` instead.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this voice portal.
 - `dialByName` (string): The name to be used for dial by name functions.
 
 ### Ejemplo — respuesta 200

@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.130685+00:00
+retrieved_at: 2026-11-16T12:36:50.794139+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/applications/{applicationId}/members
@@ -39,7 +39,7 @@ This API requires a full or user administrator or location administrator auth to
   - `port` (number) (**requerido**): Device port number assigned to person or workspace.
   - `t38FaxCompressionEnabled `true`` (boolean): T.38 Fax Compression setting. Valid only for ATA Devices. Overrides user level compression options.
   - `primaryOwner` (string) (**requerido**): If `true` the person or the workspace is the owner of the device. Points to primary line/port of the device.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): If the line is acting as a primary line or a shared line for this device.
   - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
   - `hotlineEnabled` (boolean) (**requerido**): Configure this line to automatically call a predefined number whenever taken off-hook. Once enabled, the line can only make calls to the predefined number set in `hotlineDestination`.
   - `hotlineDestination` (string) (**requerido**): Preconfigured number for the hotline. Required only if `hotlineEnabled` is set to `true`.

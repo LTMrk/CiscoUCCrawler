@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.145477+00:00
+retrieved_at: 2026-11-16T12:36:50.805513+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/selectiveForward/criteria/{id}
@@ -38,9 +38,9 @@ Requires a full, user, or location administrator auth token with a scope of `spa
 - `forwardToPhoneNumber` (string) (**requerido**): Number to which calls needs to be forwarded.
 - `sendToVoicemailEnabled` (boolean) (**requerido**): Boolean flag to enable/disable sending calls to voicemail.
 - `scheduleName` (string): Name of the schedule to which the criteria is created.
-- `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `ANY_INTERNAL` - Criteria only apply for any internal incoming numbers.  * `ANY_EXTERNAL` - Criteria only apply for any external incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+- `scheduleType` (object): The type of schedule.
+- `scheduleLevel` (object): The schedule level of the criteria.
+- `callsFrom` (object) (**requerido**): Reject calls selection.
 - `anonymousCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, private numbers are enabled.
 - `unavailableCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, unavailable numbers are enabled.
 - `phoneNumbers` (array): List of phone numbers. It does not include extensions. In some regions phone numbers are not returned in E.164 format. This will be supported in a future update.

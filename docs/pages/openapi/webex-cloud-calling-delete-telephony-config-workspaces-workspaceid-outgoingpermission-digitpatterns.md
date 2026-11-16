@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
-operation_id: Delete all Digit Patterns for a Workspace
+operation_id: deleteAllDigitPatternsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.193625+00:00
+retrieved_at: 2026-11-16T12:36:50.852221+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Delete all Digit Patterns for a Workspace`
+**operationId:** `deleteAllDigitPatternsForAWorkspace`
 
 ## Resumen
 Delete all Digit Patterns for a Workspace

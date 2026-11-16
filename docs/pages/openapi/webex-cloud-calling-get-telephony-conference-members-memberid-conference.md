@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.009947+00:00
+retrieved_at: 2026-11-16T12:36:50.618781+00:00
 ---
 
 # GET /telephony/conference/members/{memberId}/conference
@@ -37,11 +37,11 @@ curl -X GET '/telephony/conference/members/<memberId>/conference' \
 
 ## Respuestas correctas
 **200**: OK
-- `state` (string) (**requerido**): * `connected` - The controller is an active participant.  * `held` - The controller has held the conference and so is no longer an active participant.  * `disconnected` - The conference has been released. Valores: connected, held, disconnected.
+- `state` (object) (**requerido**): The state of the conference.
 - `appearance` (number): The appearance index for the conference leg. Only present when the conference has an appearance value assigned.
 - `created` (string) (**requerido**): The conference start time in ISO 8601 format.
 - `muted` (boolean) (**requerido**): Indicates if the host of the conference has been muted.
-- `type` (string):  Valores: bargeIn, silentMonitoring, coaching.
+- `type` (object): The type of conference for a non-standard conference.
 - `participants` (array): The participants in the conference.
   - `callId` (string) (**requerido**): The callId of the call.
   - `muted` (boolean) (**requerido**): Indicates if the participant has been muted.

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /room/linkedFolders
-operation_id: Create an ECM folder configuration
+operation_id: createAnECMFolderConfiguration
 tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.739022+00:00
+retrieved_at: 2026-11-16T12:36:51.654533+00:00
 ---
 
 # POST /room/linkedFolders
 
 **API:** Webex Messaging
 **Área:** ECM folder linking
-**operationId:** `Create an ECM folder configuration`
+**operationId:** `createAnECMFolderConfiguration`
 
 ## Resumen
 Create an ECM folder configuration

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /admin/meeting/userconfig/trackingCodes
-operation_id: Update User Tracking Codes
+operation_id: updateUserTrackingCodes
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.471377+00:00
+retrieved_at: 2026-11-16T12:36:51.538201+00:00
 ---
 
 # PUT /admin/meeting/userconfig/trackingCodes
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `Update User Tracking Codes`
+**operationId:** `updateUserTrackingCodes`
 
 ## Resumen
 Update User Tracking Codes

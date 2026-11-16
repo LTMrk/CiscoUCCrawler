@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /workspaces/{workspaceId}/features/callWaiting
-operation_id: Modify Call Waiting Settings for a Workspace
+operation_id: modifyCallWaitingSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.188154+00:00
+retrieved_at: 2026-11-16T12:36:50.844871+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/callWaiting
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Modify Call Waiting Settings for a Workspace`
+**operationId:** `modifyCallWaitingSettingsForAWorkspace`
 
 ## Resumen
 Modify Call Waiting Settings for a Workspace

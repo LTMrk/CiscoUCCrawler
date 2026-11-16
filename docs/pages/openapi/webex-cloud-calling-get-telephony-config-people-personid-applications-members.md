@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.146248+00:00
+retrieved_at: 2026-11-16T12:36:50.806610+00:00
 ---
 
 # GET /telephony/config/people/{personId}/applications/members
@@ -52,7 +52,7 @@ curl -X GET '/telephony/config/people/<personId>/applications/members' \
   - `port` (number) (**requerido**): Device port number assigned to the person or workspace.
   - `t38FaxCompressionEnabled `true`` (boolean): T.38 Fax Compression setting. Valid only for ATA Devices. Overrides user-level compression options.
   - `primaryOwner` (string) (**requerido**): If `true`, the person or workspace is the owner of the device. Points to the primary line/port of the device.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
   - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
   - `hostIP` (string): Registration home IP for the line port.
   - `remoteIP` (string): Registration remote IP for the line port.
@@ -60,10 +60,8 @@ curl -X GET '/telephony/config/people/<personId>/applications/members' \
   - `hotlineDestination` (string) (**requerido**): Preconfigured number for the hotline. Required only if `hotlineEnabled` is set to `true`.
   - `allowCallDeclineEnabled` (boolean) (**requerido**): Set how a device behaves when a call is declined. When set to `true`, a call decline request is extended to all endpoints on the device. When set to `false`, a call decline request is only declined at the current endpoint.
   - `lineLabel` (string): Device line label.
-  - `memberType` (string) (**requerido**): * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-  - `location` (object):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `memberType` (object) (**requerido**): Indicates if the member is of type `PEOPLE` or `PLACE`.
+  - `location` (object): Location object containing a unique identifier for the location and its name.
 - `maxLineCount` (number) (**requerido**): Maximum number of device ports.
 
 ### Ejemplo — respuesta 200

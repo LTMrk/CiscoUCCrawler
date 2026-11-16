@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.152160+00:00
+retrieved_at: 2026-11-16T12:36:50.814542+00:00
 ---
 
 # GET /telephony/config/people/{personId}/simultaneousRing/criteria/{id}
@@ -45,7 +45,7 @@ curl -X GET '/telephony/config/people/<personId>/simultaneousRing/criteria/<id>'
 - `id` (string) (**requerido**): Unique identifier for criteria.
 - `scheduleName` (string): Name of the schedule which determines when the simultaneous ring is in effect.
 - `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `LOCATION` - Indicates the schedule is configured at the location level.  * `PEOPLE` - Indicates the schedule is configured at the person level. Valores: LOCATION, PEOPLE.
+- `scheduleLevel` (string): * `LOCATION` - Indicates the schedule is configured at the location level.  * `PEOPLE` - Indicates the schedule is configured at the person level.  * `ORGANIZATION` - Indicates the schedule is configured at the organization level. Valores: LOCATION, PEOPLE, ORGANIZATION.
 - `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
 - `anonymousCallersEnabled` (boolean) (**requerido**): When `true`, the criteria applies to calls from anonymous callers.
 - `unavailableCallersEnabled` (boolean) (**requerido**): When `true`, the criteria applies to calls from unavailable callers.

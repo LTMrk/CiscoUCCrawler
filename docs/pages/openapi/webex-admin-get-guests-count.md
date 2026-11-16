@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /guests/count
-operation_id: Get Guest Count
+operation_id: getGuestCount
 tags: Guest Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.085001+00:00
+retrieved_at: 2026-11-16T12:36:50.136576+00:00
 ---
 
 # GET /guests/count
 
 **API:** Webex Admin
 **Área:** Guest Management
-**operationId:** `Get Guest Count`
+**operationId:** `getGuestCount`
 
 ## Resumen
 Get Guest Count

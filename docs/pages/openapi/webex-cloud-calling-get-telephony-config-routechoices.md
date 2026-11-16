@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/routeChoices
-operation_id: Read the List of Routing Choices
+operation_id: readTheListOfRoutingChoices
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.089677+00:00
+retrieved_at: 2026-11-16T12:36:50.732742+00:00
 ---
 
 # GET /telephony/config/routeChoices
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Read the List of Routing Choices`
+**operationId:** `readTheListOfRoutingChoices`
 
 ## Resumen
 Read the List of Routing Choices
@@ -48,7 +48,7 @@ curl -X GET '/telephony/config/routeChoices' \
 - `routeIdentities` (array) (**requerido**): Array of route identities.
   - `id` (string) (**requerido**): ID of the route type.
   - `name` (string) (**requerido**): A unique name for the route identity.
-  - `type` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+  - `type` (object) (**requerido**): Type associated with the identity.
 
 ### Ejemplo — respuesta 200
 ```json

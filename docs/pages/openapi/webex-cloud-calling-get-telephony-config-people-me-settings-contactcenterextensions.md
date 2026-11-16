@@ -5,18 +5,18 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/people/me/settings/contactCenterExtensions
-operation_id: Read the Contact Center Extensions
+operation_id: readTheContactCenterExtensions
 tags: 
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.013689+00:00
+retrieved_at: 2026-11-16T12:36:50.623687+00:00
 ---
 
 # GET /telephony/config/people/me/settings/contactCenterExtensions
 
 **API:** Webex Cloud Calling
-**operationId:** `Read the Contact Center Extensions`
+**operationId:** `readTheContactCenterExtensions`
 
 ## Resumen
 Read the Contact Center Extensions
@@ -39,18 +39,18 @@ curl -X GET '/telephony/config/people/me/settings/contactCenterExtensions' \
 - `ccExtensions` (array) (**requerido**): List of user extensions.
   - `directNumber` (string) (**requerido**): Direct number of the user.
   - `extension` (string) (**requerido**): Extension of the user.
-  - `type` (string) (**requerido**): * `PRIMARY` - Indicates that the extension is owned by the user.  * `SECONDARY` - Indicates that the extension is not owned by the user and is a secondary line on one of the users devices. Valores: PRIMARY, SECONDARY.
-  - `lineOwnerType` (string) (**requerido**): * `PEOPLE` - The line is owned by a person.  * `PLACE` - The line is owned by a workspace.  * `VIRTUAL_LINE` - The line is owned by a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object) (**requerido**): Type of User Extension.
+  - `lineOwnerType` (object) (**requerido**): Type of the line owner. Indicates whether the line is owned by a person, workspace, or virtual line.
   - `lineOwnerId` (string) (**requerido**): Unique identifier of the line owner.
   - `preferredAnsweringEndPointId` (string) (**requerido**): Unique identifier of the set preferred answering endpoint.
   - `endpoints` (array) (**requerido**): List of user endpoints with type.
     - `id` (string) (**requerido**): Unique identifier of the endpoint.
-    - `type` (string) (**requerido**): * `CALLING_DEVICE` - Endpoint is a calling device.  * `APPLICATION` - Endpoint is an application.  * `HOTDESKING_GUEST` - Endpoint is a hotdesking guest. Valores: CALLING_DEVICE, APPLICATION, HOTDESKING_GUEST.
+    - `type` (object) (**requerido**): Type of the endpoint.
 - `endpoints` (array) (**requerido**): List of user endpoints details.
   - `id` (string) (**requerido**): Unique identifier of the endpoint.
-  - `type` (string) (**requerido**): * `CALLING_DEVICE` - Endpoint is a calling device.  * `APPLICATION` - Endpoint is an application.  * `HOTDESKING_GUEST` - Endpoint is a hotdesking guest. Valores: CALLING_DEVICE, APPLICATION, HOTDESKING_GUEST.
+  - `type` (object) (**requerido**): Type of the endpoint.
   - `name` (string) (**requerido**): Name of the endpoint.
-  - `status` (string) (**requerido**): * `CONNECTED` - Device is connected.  * `NOT_CONNECTED` - Device is not connected. Valores: CONNECTED, NOT_CONNECTED.
+  - `status` (object) (**requerido**): SIP Registration status of the device.
 
 ### Ejemplo — respuesta 200
 ```json

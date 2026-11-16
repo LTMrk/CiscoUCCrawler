@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: DELETE
 path: /rooms/{roomId}
-operation_id: Delete a Room
+operation_id: deleteARoom
 tags: Rooms
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.748627+00:00
+retrieved_at: 2026-11-16T12:36:51.669901+00:00
 ---
 
 # DELETE /rooms/{roomId}
 
 **API:** Webex Messaging
 **Área:** Rooms
-**operationId:** `Delete a Room`
+**operationId:** `deleteARoom`
 
 ## Resumen
 Delete a Room

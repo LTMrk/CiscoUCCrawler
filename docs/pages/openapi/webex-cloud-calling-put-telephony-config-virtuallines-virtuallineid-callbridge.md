@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/callBridge
-operation_id: Configure Call Bridge Settings for a Virtual Line
+operation_id: configureCallBridgeSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.182450+00:00
+retrieved_at: 2026-11-16T12:36:50.836918+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/callBridge
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Call Bridge Settings for a Virtual Line`
+**operationId:** `configureCallBridgeSettingsForAVirtualLine`
 
 ## Resumen
 Configure Call Bridge Settings for a Virtual Line

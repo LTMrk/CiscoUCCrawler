@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/musicOnHold
-operation_id: Retrieve Music on Hold Settings for a Virtual Line
+operation_id: retrieveMusicOnHoldSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.181458+00:00
+retrieved_at: 2026-11-16T12:36:50.835497+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/musicOnHold
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Retrieve Music on Hold Settings for a Virtual Line`
+**operationId:** `retrieveMusicOnHoldSettingsForAVirtualLine`
 
 ## Resumen
 Retrieve Music on Hold Settings for a Virtual Line
@@ -44,11 +44,7 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>/musicOnHold' \
 - `mohEnabled` (boolean) (**requerido**): Music on hold enabled or disabled for the workspace.
 - `mohLocationEnabled` (boolean) (**requerido**): Music on hold enabled or disabled for the location. The music on hold setting returned in the response is used only when music on hold is enabled at the location level. When `mohLocationEnabled` is false and `mohEnabled` is true, music on hold is disabled for the workspace. When `mohLocationEnabled` is true and `mohEnabled` is false, music on hold is turned off for the workspace. In both cases, music on hold will not be played.
 - `greeting` (string) (**requerido**): Greeting type for the workspace.  * `DEFAULT` - Play music configured at location level.  * `CUSTOM` - Play previously uploaded custom music when call is placed on hold or parked. Valores: DEFAULT, CUSTOM.
-- `audioAnnouncementFile` (object):
-  - `id` (string) (**requerido**): A unique identifier for the announcement.
-  - `fileName` (string) (**requerido**): Audio announcement file name.
-  - `mediaFileType` (string) (**requerido**): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-  - `level` (string) (**requerido**): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
+- `audioAnnouncementFile` (object): Announcement Audio File details when greeting is selected to be `CUSTOM`.
 
 ### Ejemplo — respuesta 200
 ```json

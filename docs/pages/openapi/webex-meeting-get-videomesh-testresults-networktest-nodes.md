@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/networkTest/nodes
-operation_id: Get Network Test results for node
+operation_id: getNetworkTestResultsForNode
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.484733+00:00
+retrieved_at: 2026-11-16T12:36:51.558782+00:00
 ---
 
 # GET /videoMesh/testResults/networkTest/nodes
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Network Test results for node`
+**operationId:** `getNetworkTestResultsForNode`
 
 ## Resumen
 Get Network Test results for node

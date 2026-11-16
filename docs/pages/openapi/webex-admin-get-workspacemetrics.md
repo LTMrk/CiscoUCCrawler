@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /workspaceMetrics
-operation_id: Workspace Metrics
+operation_id: workspaceMetrics
 tags: Workspace Metrics
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.113939+00:00
+retrieved_at: 2026-11-16T12:36:50.172642+00:00
 ---
 
 # GET /workspaceMetrics
 
 **API:** Webex Admin
 **Área:** Workspace Metrics
-**operationId:** `Workspace Metrics`
+**operationId:** `workspaceMetrics`
 
 ## Resumen
 Workspace Metrics

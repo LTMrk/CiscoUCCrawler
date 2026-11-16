@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PUT
 path: /resourceGroup/memberships/{resourceGroupMembershipId}
-operation_id: Update a Resource Group Membership
+operation_id: updateAResourceGroupMembership
 tags: Resource Group Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.100341+00:00
+retrieved_at: 2026-11-16T12:36:50.155653+00:00
 ---
 
 # PUT /resourceGroup/memberships/{resourceGroupMembershipId}
 
 **API:** Webex Admin
 **Área:** Resource Group Memberships
-**operationId:** `Update a Resource Group Membership`
+**operationId:** `updateAResourceGroupMembership`
 
 ## Resumen
 Update a Resource Group Membership

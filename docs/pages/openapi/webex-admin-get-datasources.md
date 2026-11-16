@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /dataSources/
-operation_id: Retrieve All Data Sources
+operation_id: retrieveAllDataSources
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.078963+00:00
+retrieved_at: 2026-11-16T12:36:50.129374+00:00
 ---
 
 # GET /dataSources/
 
 **API:** Webex Admin
 **Área:** Data Sources
-**operationId:** `Retrieve All Data Sources`
+**operationId:** `retrieveAllDataSources`
 
 ## Resumen
 Retrieve All Data Sources

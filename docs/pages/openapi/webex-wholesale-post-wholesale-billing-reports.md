@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: POST
 path: /wholesale/billing/reports
-operation_id: Create a Wholesale Billing Report
+operation_id: createAWholesaleBillingReport
 tags: Wholesale Billing Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.601955+00:00
+retrieved_at: 2026-11-16T12:36:51.889782+00:00
 ---
 
 # POST /wholesale/billing/reports
 
 **API:** Webex Wholesale
 **Área:** Wholesale Billing Reports
-**operationId:** `Create a Wholesale Billing Report`
+**operationId:** `createAWholesaleBillingReport`
 
 ## Resumen
 Create a Wholesale Billing Report

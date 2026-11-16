@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/receptionistContacts/directories/{directoryId}
-operation_id: Delete a Receptionist Contact Directory
+operation_id: deleteAReceptionistContactDirectory
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.091677+00:00
+retrieved_at: 2026-11-16T12:36:50.735562+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/receptionistContacts/directories/{directoryId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Delete a Receptionist Contact Directory`
+**operationId:** `deleteAReceptionistContactDirectory`
 
 ## Resumen
 Delete a Receptionist Contact Directory

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/mediaHealthMonitorTest/clusters
-operation_id: Get Media Health Monitoring Tool Test results for clusters V2
+operation_id: getMediaHealthMonitoringToolTestResultsForClustersV2
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.479716+00:00
+retrieved_at: 2026-11-16T12:36:51.551283+00:00
 ---
 
 # GET /videoMesh/testResults/mediaHealthMonitorTest/clusters
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Media Health Monitoring Tool Test results for clusters V2`
+**operationId:** `getMediaHealthMonitoringToolTestResultsForClustersV2`
 
 ## Resumen
 Get Media Health Monitoring Tool Test results for clusters V2

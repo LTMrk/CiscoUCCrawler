@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/features/intercept/actions/announcementUpload/invoke
-operation_id: Upload Call Intercept Announcement file for a Workspace
+operation_id: uploadCallInterceptAnnouncementFileForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.194361+00:00
+retrieved_at: 2026-11-16T12:36:50.853229+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/features/intercept/actions/announcementUpload/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Upload Call Intercept Announcement file for a Workspace`
+**operationId:** `uploadCallInterceptAnnouncementFileForAWorkspace`
 
 ## Resumen
 Upload Call Intercept Announcement file for a Workspace

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: DELETE
 path: /teams/{teamId}
-operation_id: Delete a Team
+operation_id: deleteATeam
 tags: Teams
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.750684+00:00
+retrieved_at: 2026-11-16T12:36:51.672627+00:00
 ---
 
 # DELETE /teams/{teamId}
 
 **API:** Webex Messaging
 **Área:** Teams
-**operationId:** `Delete a Team`
+**operationId:** `deleteATeam`
 
 ## Resumen
 Delete a Team

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
-operation_id: Modify Location Voicemail Group
+operation_id: modifyLocationVoicemailGroup
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.101575+00:00
+retrieved_at: 2026-11-16T12:36:50.749763+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Modify Location Voicemail Group`
+**operationId:** `modifyLocationVoicemailGroup`
 
 ## Resumen
 Modify Location Voicemail Group
@@ -61,9 +61,7 @@ Modifying the voicemail group location details requires a full, user administrat
 - `emailCopyOfMessage` (object): Message copy information
   - `enabled` (boolean): Set to `true` to enable email message copy.
   - `emailId` (string): Set email to receive message copy to the email address provided.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): Sets or clears the custom direct line caller ID name.  To clear the `customName`, the attribute must be set to null or empty string. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this voicemail group.
 - `dialByName` (string): Sets or clears the name to be used for dial by name functions. To clear the `dialByName`, the attribute must be set to null or empty string. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición
@@ -71,7 +69,7 @@ Modifying the voicemail group location details requires a full, user administrat
 {
   "name": "Voicemail Group Name",
   "phoneNumber": "+16066412147",
-  "extension": "1273",
+  "extension": 1273,
   "firstName": "rcdnfTest",
   "lastName": "rcdnlTest",
   "passcode": "1234",

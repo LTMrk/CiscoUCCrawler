@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /identity/organizations/{orgId}
-operation_id: Get an organization
+operation_id: getAnOrganization
 tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.081645+00:00
+retrieved_at: 2026-11-16T12:36:50.132616+00:00
 ---
 
 # GET /identity/organizations/{orgId}
 
 **API:** Webex Admin
 **Área:** Identity Organization
-**operationId:** `Get an organization`
+**operationId:** `getAnOrganization`
 
 ## Resumen
 Get an organization
@@ -54,10 +54,7 @@ curl -X GET '/identity/organizations/<orgId>' \
 - `id` (string) (**requerido**): Webex Identity assigned organization identifier.
 - `displayName` (string) (**requerido**): Full name of the organization.
 - `preferredLanguage` (string): It is the default preferredLanguage for user creation in this org. It is set in ISO639 format.
-- `meta` (object):
-  - `created` (string) (**requerido**): The date and time the organization was created.
-  - `lastModified` (string) (**requerido**): The last modification time of the organization.
-  - `version` (string) (**requerido**): The version information of the organization.
+- `meta` (object): Meta data information of organization.
 
 ### Ejemplo — respuesta 200
 ```json

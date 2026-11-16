@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/utilization
-operation_id: List Clusters Utilization
+operation_id: listClustersUtilization
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.480969+00:00
+retrieved_at: 2026-11-16T12:36:51.553423+00:00
 ---
 
 # GET /videoMesh/utilization
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `List Clusters Utilization`
+**operationId:** `listClustersUtilization`
 
 ## Resumen
 List Clusters Utilization

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/updateRoutingPrefix/{jobId}/errors
-operation_id: Get job errors for update routing prefix job
+operation_id: getJobErrorsForUpdateRoutingPrefixJob
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.087636+00:00
+retrieved_at: 2026-11-16T12:36:50.729731+00:00
 ---
 
 # GET /telephony/config/jobs/updateRoutingPrefix/{jobId}/errors
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get job errors for update routing prefix job`
+**operationId:** `getJobErrorsForUpdateRoutingPrefixJob`
 
 ## Resumen
 Get job errors for update routing prefix job

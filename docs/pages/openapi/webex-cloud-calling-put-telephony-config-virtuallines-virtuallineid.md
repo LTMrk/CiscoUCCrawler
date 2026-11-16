@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}
-operation_id: Update a Virtual Line
+operation_id: updateAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.158270+00:00
+retrieved_at: 2026-11-16T12:36:50.824303+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Update a Virtual Line`
+**operationId:** `updateAVirtualLine`
 
 ## Resumen
 Update a Virtual Line

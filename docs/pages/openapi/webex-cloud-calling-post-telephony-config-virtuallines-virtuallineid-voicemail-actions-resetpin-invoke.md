@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualLines/{virtualLineId}/voicemail/actions/resetPin/invoke
-operation_id: Reset Voicemail PIN for a Virtual Line
+operation_id: resetVoicemailPINForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.181064+00:00
+retrieved_at: 2026-11-16T12:36:50.834947+00:00
 ---
 
 # POST /telephony/config/virtualLines/{virtualLineId}/voicemail/actions/resetPin/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Reset Voicemail PIN for a Virtual Line`
+**operationId:** `resetVoicemailPINForAVirtualLine`
 
 ## Resumen
 Reset Voicemail PIN for a Virtual Line

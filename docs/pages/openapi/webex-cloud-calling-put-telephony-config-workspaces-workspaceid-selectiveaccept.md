@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/selectiveAccept
-operation_id: Modify Selective Accept Settings for a Workspace
+operation_id: modifySelectiveAcceptSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.204053+00:00
+retrieved_at: 2026-11-16T12:36:50.866486+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/selectiveAccept
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Selective Accept Settings for a Workspace`
+**operationId:** `modifySelectiveAcceptSettingsForAWorkspace`
 
 ## Resumen
 Modify Selective Accept Settings for a Workspace

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/numbers
-operation_id: List numbers associated with a specific workspace
+operation_id: listNumbersAssociatedWithASpecificWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.189773+00:00
+retrieved_at: 2026-11-16T12:36:50.846948+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `List numbers associated with a specific workspace`
+**operationId:** `listNumbersAssociatedWithASpecificWorkspace`
 
 ## Resumen
 List numbers associated with a specific workspace
@@ -42,10 +42,10 @@ curl -X GET '/workspaces/<workspaceId>/features/numbers' \
 - `distinctiveRingEnabled` (boolean): Enables a distinctive ring pattern for the person.
 - `phoneNumbers` (array) (**requerido**): List of phone numbers that are assigned to a person.
   - `primary` (boolean) (**requerido**): If `true` marks the phone number as primary.
-  - `action` (string) (**requerido**): * `ADD` - Add action.  * `DELETE` - Delete action. Valores: ADD, DELETE.
+  - `action` (object) (**requerido**): Either 'ADD' to add phone numbers or 'DELETE' to remove phone numbers.
   - `directNumber` (string) (**requerido**): Phone numbers that are assigned.
   - `extension` (string): Extension that is assigned.
-  - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
+  - `ringPattern` (object): Ring Pattern of this number.
 
 ### Ejemplo — respuesta 200
 ```json

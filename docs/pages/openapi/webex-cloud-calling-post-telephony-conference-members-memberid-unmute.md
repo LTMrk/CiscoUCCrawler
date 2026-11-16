@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.010475+00:00
+retrieved_at: 2026-11-16T12:36:50.619504+00:00
 ---
 
 # POST /telephony/conference/members/{memberId}/unmute

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events/{eventId}
-operation_id: Delete an Event for Person Schedule
+operation_id: deleteAnEventForPersonSchedule
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.123699+00:00
+retrieved_at: 2026-11-16T12:36:50.784555+00:00
 ---
 
 # DELETE /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events/{eventId}
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Delete an Event for Person Schedule`
+**operationId:** `deleteAnEventForPersonSchedule`
 
 ## Resumen
 Delete an Event for a person's Schedule

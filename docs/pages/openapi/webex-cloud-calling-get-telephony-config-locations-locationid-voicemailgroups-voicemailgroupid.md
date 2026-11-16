@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
-operation_id: Get Location Voicemail Group
+operation_id: getLocationVoicemailGroup
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.101307+00:00
+retrieved_at: 2026-11-16T12:36:50.749412+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Get Location Voicemail Group`
+**operationId:** `getLocationVoicemailGroup`
 
 ## Resumen
 Get Location Voicemail Group
@@ -73,9 +73,7 @@ curl -X GET '/telephony/config/locations/<locationId>/voicemailGroups/<voicemail
   - `enabled` (boolean) (**requerido**): Enable/disable to email message copy.
   - `emailId` (string): Email message copy to email address provided.
 - `voiceMessageForwardingEnabled` (boolean) (**requerido**): Enable/disable to forward voice message.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this voicemail group.
 - `dialByName` (string): The name to be used for dial by name functions.
 
 ### Ejemplo — respuesta 200
@@ -84,10 +82,10 @@ curl -X GET '/telephony/config/locations/<locationId>/voicemailGroups/<voicemail
   "id": "a7dd4d39-4a78-4516-955f-7810dbe379cf",
   "name": "Voicemail Group Name",
   "phoneNumber": "+16066412147",
-  "extension": "1273",
+  "extension": 1273,
   "routingPrefix": "123",
   "esn": "1231273",
-  "tollFreeNumber": "false",
+  "tollFreeNumber": false,
   "firstName": "rcdnfTest",
   "lastName": "rcdnlTest",
   "enabled": true,

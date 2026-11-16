@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/paging/{pagingId}
-operation_id: Get Details for a Paging Group
+operation_id: getDetailsForAPagingGroup
 tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.081182+00:00
+retrieved_at: 2026-11-16T12:36:50.720765+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/paging/{pagingId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Paging Group
-**operationId:** `Get Details for a Paging Group`
+**operationId:** `getDetailsForAPagingGroup`
 
 ## Resumen
 Get Details for a Paging Group
@@ -72,9 +72,7 @@ curl -X GET '/telephony/config/locations/<locationId>/paging/<pagingId>' \
   - `extension` (string): Agent's extension. Minimum length is 2. Maximum length is 10. Either phoneNumber or extension is mandatory.
   - `routingPrefix` (string): Routing prefix of location.
   - `esn` (string): Routing prefix + extension of a person or workspace.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this Group Paging.
 - `dialByName` (string): The name to be used for dial by name functions.
 
 ### Ejemplo — respuesta 200

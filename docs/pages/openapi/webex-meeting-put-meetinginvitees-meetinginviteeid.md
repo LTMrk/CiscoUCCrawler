@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingInvitees/{meetingInviteeId}
-operation_id: Update a Meeting Invitee
+operation_id: updateAMeetingInvitee
 tags: Invitees
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.440660+00:00
+retrieved_at: 2026-11-16T12:36:51.502231+00:00
 ---
 
 # PUT /meetingInvitees/{meetingInviteeId}
 
 **API:** Webex Meetings
 **Área:** Invitees
-**operationId:** `Update a Meeting Invitee`
+**operationId:** `updateAMeetingInvitee`
 
 ## Resumen
 Update a Meeting Invitee

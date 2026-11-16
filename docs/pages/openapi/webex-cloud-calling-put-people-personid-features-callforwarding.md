@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/callForwarding
-operation_id: Configure Call Forwarding Settings for a Person
+operation_id: configureCallForwardingSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.115358+00:00
+retrieved_at: 2026-11-16T12:36:50.771097+00:00
 ---
 
 # PUT /people/{personId}/features/callForwarding
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Call Forwarding Settings for a Person`
+**operationId:** `configureCallForwardingSettingsForAPerson`
 
 ## Resumen
 Configure Call Forwarding Settings for a Person

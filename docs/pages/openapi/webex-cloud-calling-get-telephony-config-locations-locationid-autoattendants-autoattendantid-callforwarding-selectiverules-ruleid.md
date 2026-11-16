@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.045908+00:00
+retrieved_at: 2026-11-16T12:36:50.665614+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/callForwarding/selectiveRules/{ruleId}
@@ -50,22 +50,13 @@ curl -X GET '/telephony/config/locations/<locationId>/autoAttendants/<autoAttend
 - `id` (string) (**requerido**): Unique ID for the rule.
 - `name` (string) (**requerido**): Unique name for the selective rule in the auto attendant.
 - `enabled` (boolean) (**requerido**): Reflects if rule is enabled.
-- `businessSchedule` (string) (**requerido**): Name of the location's business schedule which determines when this selective call forwarding rule is in effect.
-- `holidaySchedule` (string): Name of the location's holiday schedule which determines when this selective call forwarding rule is in effect.
-- `forwardTo` (object) (**requerido**):
-  - `phoneNumber` (string): Phone number used if selection is `FORWARD_TO_SPECIFIED_NUMBER`.
-  - `selection` (string) (**requerido**): Controls what happens when the rule matches.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the auto attendant.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
-- `callsFrom` (object) (**requerido**):
-  - `selection` (string) (**requerido**): If `CUSTOM`, use `customNumbers` to specify which incoming caller ID values cause this rule to match. `ANY` means any incoming call matches assuming the rule is in effect based on the associated schedules.  * `ANY` - Rule matches for calls from any number.  * `CUSTOM` - Rule matches based on the numbers and options in customNumbers. Valores: ANY, CUSTOM.
-  - `customNumbers` (object):
-    - `privateNumberEnabled` (boolean) (**requerido**): Match if caller ID indicates the call is from a private number.
-    - `unavailableNumberEnabled` (boolean) (**requerido**): Match if callerID is unavailable.
-    - `numbers` (array) (**requerido**): Array of number strings to be matched against incoming caller ID.
-- `callsTo` (object) (**requerido**):
-  - `numbers` (array): Array of numbers to be matched against the calling destination number.
-    - `phoneNumber` (string): AutoCalls To phone number. Either phone number or extension should be present as mandatory.
-    - `extension` (string): Calls To extension.  Either `phoneNumber` or `extension` is mandatory.
-    - `type` (string) (**requerido**): Calls to type options.  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
+- `businessSchedule` (string) (**requerido**): Name of the business schedule which determines when this selective call forwarding rule is in effect.
+- `businessScheduleLevel` (string): Level of the business schedule named by `businessSchedule`.  * `LOCATION` - The schedule is a location schedule.  * `ORGANIZATION` - The schedule is an organization schedule. Valores: LOCATION, ORGANIZATION.
+- `holidaySchedule` (string): Name of the holiday schedule which determines when this selective call forwarding rule is in effect.
+- `holidayScheduleLevel` (string): Level of the holiday schedule named by `holidaySchedule`.  * `LOCATION` - The schedule is a location schedule.  * `ORGANIZATION` - The schedule is an organization schedule. Valores: LOCATION, ORGANIZATION.
+- `forwardTo` (object) (**requerido**): Controls what happens when the rule matches including the destination number for the call forwarding.
+- `callsFrom` (object) (**requerido**): Settings related to the rule matching based on incoming caller ID.
+- `callsTo` (object) (**requerido**): Settings related to the rule matching based on the destination number.
 
 ### Ejemplo — respuesta 200
 ```json

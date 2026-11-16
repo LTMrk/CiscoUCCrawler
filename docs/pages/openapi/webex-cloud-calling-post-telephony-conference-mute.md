@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/mute
-operation_id: Mute
+operation_id: mute
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.008019+00:00
+retrieved_at: 2026-11-16T12:36:50.616391+00:00
 ---
 
 # POST /telephony/conference/mute
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Mute`
+**operationId:** `mute`
 
 ## Resumen
 Mute

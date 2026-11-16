@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/actions/resume/invoke
-operation_id: Resume Paused Disable Calling Location Job
+operation_id: resumePausedDisableCallingLocationJob
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.093083+00:00
+retrieved_at: 2026-11-16T12:36:50.737574+00:00
 ---
 
 # POST /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/actions/resume/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Resume Paused Disable Calling Location Job`
+**operationId:** `resumePausedDisableCallingLocationJob`
 
 ## Resumen
 Resume a Paused Disable Calling Location Job

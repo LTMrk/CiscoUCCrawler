@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.915713+00:00
+retrieved_at: 2026-11-16T12:36:51.323578+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}/availableMembers
@@ -56,12 +56,10 @@ curl -X GET '/telephony/config/devices/<deviceId>/availableMembers' \
   - `lastName` (string): Last name of a person or workspace.
   - `phoneNumber` (string): Phone Number of a person or workspace.
   - `t38FaxCompressionEnabled` (boolean): T.38 Fax Compression setting and available only for ATA Devices. Choose T.38 fax compression if the device requires this option. this will override user level compression options.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): Line type is used to differentiate Primary and SCA, at which endpoint it is assigned.
   - `allowCallDeclineEnabled` (boolean) (**requerido**): Set how a person's device behaves when a call is declined. When set to true, a call decline request is extended to all the endpoints on the device. When set to false, a call decline request only declines the current endpoint.
-  - `memberType` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace.  * `VIRTUAL_LINE` - Indicates the associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-  - `location` (object):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `memberType` (object) (**requerido**): Indicates if member is of type `PEOPLE` or `PLACE`.
+  - `location` (object): Location object having a unique identifier for the location and its name.
 
 ### Ejemplo — respuesta 200
 ```json

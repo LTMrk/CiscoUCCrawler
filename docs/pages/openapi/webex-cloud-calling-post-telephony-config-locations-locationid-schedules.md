@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/schedules
-operation_id: Create a Schedule
+operation_id: createASchedule
 tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.098201+00:00
+retrieved_at: 2026-11-16T12:36:50.744725+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/schedules
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Schedules
-**operationId:** `Create a Schedule`
+**operationId:** `createASchedule`
 
 ## Resumen
 Create a Schedule
@@ -27,7 +27,7 @@ Create new Schedule for the given location.
 
 A time schedule establishes a set of times during the day or holidays in the year in which a feature, for example auto attendants, can perform a specific action.
 
-Creating a schedule requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`.
+Creating a location schedule requires a full administrator or location administrator auth token with a scope of `spark-admin:telephony_config_write`. Creating an location schedule also allows delegated organization schedule access with a scope of `spark-admin:telephony_config_write`.
 
 ## Parámetros
 - `locationId` [path] (string) (**requerido**): Create the schedule for this location.
@@ -35,7 +35,7 @@ Creating a schedule requires a full administrator or location administrator auth
 
 ## Cuerpo de la petición (application/json)
 - `type` (string) (**requerido**): Type of the schedule.  * `businessHours` - Business hours schedule type.  * `holidays` - Holidays schedule type. Valores: businessHours, holidays.
-- `name` (string) (**requerido**): Unique name for the schedule.
+- `name` (string) (**requerido**): Unique name for the schedule. Name must not contain slashes
 - `events` (array): List of schedule events.
   - `name` (string) (**requerido**): Name for the event.
   - `startDate` (string) (**requerido**): Start date of event.
@@ -43,24 +43,7 @@ Creating a schedule requires a full administrator or location administrator auth
   - `startTime` (string): Start time of event. Mandatory if the event is not all day.
   - `endTime` (string): End time of event. Mandatory if the event is not all day.
   - `allDayEnabled` (boolean): An indication of whether given event is an all-day event or not. Mandatory if the `startTime` and `endTime` are not defined.
-  - `recurrence` (object):
-    - `recurForEver` (boolean): Flag to indicate if event will recur forever.
-    - `recurEndDate` (string): End date of recurrence.
-    - `recurWeekly` (object):
-      - `sunday` (boolean) (**requerido**): Frequency of occurrence in weeks and select the day - Sunday.
-      - `monday` (boolean): Frequency of occurrence in weeks and select the day - Monday.
-      - `tuesday` (boolean): Frequency of occurrence in weeks and select the day - Tuesday.
-      - `wednesday` (boolean): Frequency of occurrence in weeks and select the day - Wednesday.
-      - `thursday` (boolean): Frequency of occurrence in weeks and select the day - Thursday.
-      - `friday` (boolean): Frequency of occurrence in weeks and select the day - Friday.
-      - `saturday` (boolean): Frequency of occurrence in weeks and select the day - Saturday.
-    - `recurYearlyByDate` (object):
-      - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-      - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-    - `recurYearlyByDay` (object):
-      - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-      - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-      - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+  - `recurrence` (object): Recurrence definition.
 
 ### Ejemplo — petición
 ```json
@@ -147,7 +130,7 @@ curl -X POST '/telephony/config/locations/<locationId>/schedules' \
 ### Ejemplo — respuesta 201
 ```json
 {
-  "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V3"
+  "id": "Y2lzY29zcGFyazovL3VzL1NDSEVEVUxFL1FWVlVUMEZVVkVWT1JFRk9WQzFDVlZOSlRrVlRVeTFJVDFWU1V3PT0"
 }
 ```
 

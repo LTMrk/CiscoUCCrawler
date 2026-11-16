@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/callPickups
-operation_id: Read the List of Call Pickups
+operation_id: readTheListOfCallPickups
 tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.051175+00:00
+retrieved_at: 2026-11-16T12:36:50.675949+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/callPickups
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Pickup
-**operationId:** `Read the List of Call Pickups`
+**operationId:** `readTheListOfCallPickups`
 
 ## Resumen
 Read the List of Call Pickups

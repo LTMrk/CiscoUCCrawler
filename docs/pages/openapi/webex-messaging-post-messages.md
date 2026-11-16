@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /messages
-operation_id: Create a Message
+operation_id: createAMessage
 tags: Messages
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.744144+00:00
+retrieved_at: 2026-11-16T12:36:51.663742+00:00
 ---
 
 # POST /messages
 
 **API:** Webex Messaging
 **Área:** Messages
-**operationId:** `Create a Message`
+**operationId:** `createAMessage`
 
 ## Resumen
 Create a Message
@@ -36,10 +36,7 @@ The `files` parameter is an array, which accepts multiple values to allow for fu
 - `markdown` (string): The message, in Markdown format. The maximum message length is 7439 bytes.
 - `files` (array): The public URL to a binary file to be posted into the room. Only one file is allowed per message. Uploaded files are automatically converted into a format that all Webex clients can render. For the supported media types and the behavior of uploads, see the [Message Attachments Guide](/docs/basics#message-attachments).
 - `attachments` (array): Content attachments to attach to the message. Only one card per message is supported. See the [Cards Guide](/docs/buttons-and-cards) for more information.
-  - `content` (object):
-    - `fileId` (string) (**requerido**): The `fileId` of the attachment.
-    - `type` (string) (**requerido**): The type of attachment.  * `external` - Attachment stored externally.  * `native` - Attachment stored within the Webex platform. Valores: external, native.
-    - `contentUrl` (string) (**requerido**): The URL for the content.
+  - `content` (object): Enterprise Content Management file.
 
 ### Ejemplo — petición
 ```json
@@ -98,10 +95,7 @@ curl -X POST '/messages' \
 - `markdown` (string): The message, in Markdown format.
 - `files` (array): Public URLs for files attached to the message. For the supported media types and the behavior of file uploads, see [Message Attachments](/docs/api/basics#message-attachments).
 - `attachments` (array): Content attachments attached to the message.
-  - `content` (object):
-    - `fileId` (string) (**requerido**): The `fileId` of the attachment.
-    - `type` (string) (**requerido**): The type of attachment.  * `external` - Attachment stored externally.  * `native` - Attachment stored within the Webex platform. Valores: external, native.
-    - `contentUrl` (string) (**requerido**): The URL for the content.
+  - `content` (object): Enterprise Content Management file.
 - `personId` (string): The person ID of the message author.
 - `personEmail` (string): The email address of the message author.
 - `mentionedPeople` (array): People IDs for anyone mentioned in the message.

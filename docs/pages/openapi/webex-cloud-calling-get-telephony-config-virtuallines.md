@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines
-operation_id: Read the List of Virtual Lines
+operation_id: readTheListOfVirtualLines
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.157042+00:00
+retrieved_at: 2026-11-16T12:36:50.822478+00:00
 ---
 
 # GET /telephony/config/virtualLines
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read the List of Virtual Lines`
+**operationId:** `readTheListOfVirtualLines`
 
 ## Resumen
 Read the List of Virtual Lines

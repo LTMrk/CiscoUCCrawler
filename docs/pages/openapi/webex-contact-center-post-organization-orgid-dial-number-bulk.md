@@ -10,7 +10,7 @@ tags: Dial Number
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.585619+00:00
+retrieved_at: 2026-11-16T12:36:51.107586+00:00
 ---
 
 # POST /organization/{orgid}/dial-number/bulk
@@ -67,10 +67,7 @@ curl -X POST '/organization/<orgid>/dial-number/bulk' \
   - `href` (string): The resource URI of an entity.
   - `apiError` (object): Response body for an API error.
     - `trackingId` (string): An opaque identifier for mapping protocol failures to service internal codes.   When specified in a request, it can be used for co-relating events across services
-    - `error` (object): Details of an error.
-      - `key` (string): An application defined error code.
-      - `message` (array): A message providing details about the error.
-        - `description` (string): A human readable explanation for the occurrence of an error.
+    - `error` (object): An object containing details about the error.
 
 ## Respuestas de error
 - **400**: The request was invalid and cannot be served. An accompanying error message will explain further

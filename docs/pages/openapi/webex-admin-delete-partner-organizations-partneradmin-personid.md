@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /partner/organizations/partnerAdmin/{personId}
-operation_id: Revoke all partner admin roles for a given person ID
+operation_id: revokeAllPartnerAdminRolesForAGivenPersonID
 tags: Partner Administrators
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.091338+00:00
+retrieved_at: 2026-11-16T12:36:50.144355+00:00
 ---
 
 # DELETE /partner/organizations/partnerAdmin/{personId}
 
 **API:** Webex Admin
 **Área:** Partner Administrators
-**operationId:** `Revoke all partner admin roles for a given person ID`
+**operationId:** `revokeAllPartnerAdminRolesForAGivenPersonID`
 
 ## Resumen
 Revoke all partner admin roles for a given person ID

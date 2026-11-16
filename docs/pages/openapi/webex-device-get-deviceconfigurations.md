@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /deviceConfigurations
-operation_id: List Device Configurations for device
+operation_id: listDeviceConfigurationsForDevice
 tags: Device Configurations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.929628+00:00
+retrieved_at: 2026-11-16T12:36:51.376939+00:00
 ---
 
 # GET /deviceConfigurations
 
 **API:** Webex Device
 **Área:** Device Configurations
-**operationId:** `List Device Configurations for device`
+**operationId:** `listDeviceConfigurationsForDevice`
 
 ## Resumen
 List Device Configurations for device

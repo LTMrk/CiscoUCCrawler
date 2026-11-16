@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/voicePortal
-operation_id: Update VoicePortal
+operation_id: updateVoicePortal
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.100614+00:00
+retrieved_at: 2026-11-16T12:36:50.748477+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/voicePortal
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Update VoicePortal`
+**operationId:** `updateVoicePortal`
 
 ## Resumen
 Update VoicePortal
@@ -44,9 +44,7 @@ Updating voice portal information for an organization and/or rules requires a fu
 - `passcode` (object): Voice Portal Admin Passcode.
   - `newPasscode` (string): New passcode.
   - `confirmPasscode` (string): Confirm new passcode.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): Sets or clears the custom direct line caller ID name.  To clear the `customName`, the attribute must be set to null or empty string. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this voice portal.
 - `dialByName` (string): Sets or clears the name to be used for dial by name functions. To clear the `dialByName`, the attribute must be set to null or empty string. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición

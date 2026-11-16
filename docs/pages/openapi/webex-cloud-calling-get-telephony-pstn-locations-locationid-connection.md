@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/pstn/locations/{locationId}/connection
-operation_id: Retrieve PSTN Connection for a Location
+operation_id: retrievePSTNConnectionForALocation
 tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.110456+00:00
+retrieved_at: 2026-11-16T12:36:50.764118+00:00
 ---
 
 # GET /telephony/pstn/locations/{locationId}/connection
 
 **API:** Webex Cloud Calling
 **Área:** PSTN
-**operationId:** `Retrieve PSTN Connection for a Location`
+**operationId:** `retrievePSTNConnectionForALocation`
 
 ## Resumen
 Retrieve PSTN Connection for a Location
@@ -44,8 +44,8 @@ curl -X GET '/telephony/pstn/locations/<locationId>/connection' \
 - `id` (string) (**requerido**): A unique identifier for the connection.
 - `displayName` (string): The display name of the PSTN connection.
 - `pstnServices` (array): The PSTN services available for this connection.
-- `pstnConnectionType` (string) (**requerido**): * `LOCAL_GATEWAY` - PSTN connection type for a premises-based connection.  * `NON_INTEGRATED_CCP` - PSTN connection type for a Non-Integrated Cloud Connected PSTN connection.  * `INTEGRATED_CCP` - PSTN connection type for an Integrated Cloud Connected PSTN connection. Updating the location with this connection type is currently not supported using the API.  * `CISCO_PSTN` - PSTN connection type for a Cisco PSTN connection. Updating the location with this connection type is currently not supported using the API. Valores: LOCAL_GATEWAY, NON_INTEGRATED_CCP, INTEGRATED_CCP, CISCO_PSTN.
-- `routeType` (string): * `ROUTE_GROUP` - A route group has been selected for premises-based PSTN.  * `TRUNK` - A trunk group has been selected for premises-based PSTN. Valores: ROUTE_GROUP, TRUNK.
+- `pstnConnectionType` (object) (**requerido**): The PSTN connection type set for the location.
+- `routeType` (object): Premise route type. This is required if connection type is LOCAL_GATEWAY.
 - `routeId` (string): Premise route ID. This refers to either a Trunk ID or a Route Group ID. This field is optional but required if the connection type is LOCAL_GATEWAY.
 
 ### Ejemplo — respuesta 200

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /adminAudit/events
-operation_id: List Admin Audit Events
+operation_id: listAdminAuditEvents
 tags: Admin Audit Events
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.076485+00:00
+retrieved_at: 2026-11-16T12:36:50.126835+00:00
 ---
 
 # GET /adminAudit/events
 
 **API:** Webex Admin
 **Área:** Admin Audit Events
-**operationId:** `List Admin Audit Events`
+**operationId:** `listAdminAuditEvents`
 
 ## Resumen
 List Admin Audit Events

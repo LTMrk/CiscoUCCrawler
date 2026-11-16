@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}
-operation_id: Read a Route Group for a Organization
+operation_id: readARouteGroupForAOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.966450+00:00
+retrieved_at: 2026-11-16T12:36:50.561902+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read a Route Group for a Organization`
+**operationId:** `readARouteGroupForAOrganization`
 
 ## Resumen
 Read a Route Group for a Organization
@@ -42,9 +42,7 @@ curl -X GET '/telephony/config/premisePstn/routeGroups/<routeGroupId>' \
 ## Respuestas correctas
 **200**: OK
 - `name` (string) (**requerido**): Name of the route group.
-- `organization` (object) (**requerido**):
-  - `name` (string) (**requerido**): Name of the organization.
-  - `id` (string) (**requerido**): ID of the organization.
+- `organization` (object) (**requerido**): Organization details.
 - `localGateways` (array) (**requerido**): Local Gateways that are part of this Route Group.
   - `id` (string) (**requerido**): ID of type local gateway.
   - `name` (string): Name of the local gateway.

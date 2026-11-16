@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualLines/{virtualLineId}/intercept/actions/announcementUpload/invoke
-operation_id: Configure Call Intercept Greeting for a Virtual Line
+operation_id: configureCallInterceptGreetingForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.179117+00:00
+retrieved_at: 2026-11-16T12:36:50.832761+00:00
 ---
 
 # POST /telephony/config/virtualLines/{virtualLineId}/intercept/actions/announcementUpload/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Call Intercept Greeting for a Virtual Line`
+**operationId:** `configureCallInterceptGreetingForAVirtualLine`
 
 ## Resumen
 Configure Call Intercept Greeting for a Virtual Line

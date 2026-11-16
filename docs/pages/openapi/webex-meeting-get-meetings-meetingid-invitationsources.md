@@ -10,7 +10,7 @@ tags: Meetings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.469061+00:00
+retrieved_at: 2026-11-16T12:36:51.534487+00:00
 ---
 
 # GET /meetings/{meetingId}/invitationSources

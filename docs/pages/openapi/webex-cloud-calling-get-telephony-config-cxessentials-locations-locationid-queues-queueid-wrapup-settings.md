@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/cxEssentials/locations/{locationId}/queues/{queueId}/wrapup/settings
-operation_id: Read Wrap Up Reason Settings
+operation_id: readWrapUpReasonSettings
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.071038+00:00
+retrieved_at: 2026-11-16T12:36:50.704488+00:00
 ---
 
 # GET /telephony/config/cxEssentials/locations/{locationId}/queues/{queueId}/wrapup/settings
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Read Wrap Up Reason Settings`
+**operationId:** `readWrapUpReasonSettings`
 
 ## Resumen
 Read Wrap Up Reason Settings

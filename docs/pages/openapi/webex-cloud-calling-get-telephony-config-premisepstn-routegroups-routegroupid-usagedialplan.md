@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}/usageDialPlan
-operation_id: Read the Dial Plan Locations of a Routing Group
+operation_id: readTheDialPlanLocationsOfARoutingGroup
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.967375+00:00
+retrieved_at: 2026-11-16T12:36:50.563178+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}/usageDialPlan
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the Dial Plan Locations of a Routing Group`
+**operationId:** `readTheDialPlanLocationsOfARoutingGroup`
 
 ## Resumen
 Read the Dial Plan Locations of a Routing Group

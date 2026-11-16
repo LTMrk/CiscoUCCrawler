@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /identity/scim/{orgId}/v2/Users/{userId}
-operation_id: Delete a user
+operation_id: deleteAUser
 tags: SCIM 2 Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.108146+00:00
+retrieved_at: 2026-11-16T12:36:50.165822+00:00
 ---
 
 # DELETE /identity/scim/{orgId}/v2/Users/{userId}
 
 **API:** Webex Admin
 **Área:** SCIM 2 Users
-**operationId:** `Delete a user`
+**operationId:** `deleteAUser`
 
 ## Resumen
 Delete a user

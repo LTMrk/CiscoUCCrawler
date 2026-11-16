@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/redSky
-operation_id: Retrieve RedSky Account Details for an Organization
+operation_id: retrieveRedSkyAccountDetailsForAnOrganization
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.033562+00:00
+retrieved_at: 2026-11-16T12:36:50.647998+00:00
 ---
 
 # GET /telephony/config/redSky
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Retrieve RedSky Account Details for an Organization`
+**operationId:** `retrieveRedSkyAccountDetailsForAnOrganization`
 
 ## Resumen
 Retrieve RedSky Account Details for an Organization

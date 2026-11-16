@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/selectiveForward/criteria
-operation_id: Create Selective Forward Criteria for a Workspace
+operation_id: createSelectiveForwardCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.207312+00:00
+retrieved_at: 2026-11-16T12:36:50.870888+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/selectiveForward/criteria
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Create Selective Forward Criteria for a Workspace`
+**operationId:** `createSelectiveForwardCriteriaForAWorkspace`
 
 ## Resumen
 Create Selective Forward Criteria for a Workspace
@@ -39,10 +39,10 @@ This API requires a full, user or location administrator auth token with the `sp
 ## Cuerpo de la petición (application/json)
 - `forwardToPhoneNumber` (string): Phone number to forward calls to during this schedule.
 - `destinationVoicemailEnabled` (boolean): Enables forwarding for all calls to voicemail. This option is only available for internal phone numbers or extensions.
-- `scheduleName` (string): Name of the location's schedule which determines when the selective forward is in effect.
-- `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The schedule applies to select phone number defined in the `phoneNumbers` property.  * `ANY_INTERNAL` - The schedule applies to any internal phone number.  * `ANY_EXTERNAL` - The schedule applies to any external phone number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+- `scheduleName` (string): Name of the schedule which determines when the selective forward is in effect.
+- `scheduleType` (object): The Schedule type whether `businessHours` or `holidays`.
+- `scheduleLevel` (object): The Schedule level.
+- `callsFrom` (object) (**requerido**): Indicates whether to apply the selective forward criteria for calls from Any Phone Number, Select Phone Numbers or Forwarded ones.
 - `anonymousCallersEnabled` (boolean): When `true`, enables selective forward to calls from anonymous callers.
 - `unavailableCallersEnabled` (boolean): When `true`, enables selective forward to calls if the callers are unavailable.
 - `numbers` (array): List of phone numbers checked against incoming calls for a match.

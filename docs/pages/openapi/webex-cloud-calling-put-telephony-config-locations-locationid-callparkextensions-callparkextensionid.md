@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}
-operation_id: Update a Call Park Extension
+operation_id: updateACallParkExtension
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.050825+00:00
+retrieved_at: 2026-11-16T12:36:50.675390+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callParkExtensions/{callParkExtensionId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Update a Call Park Extension`
+**operationId:** `updateACallParkExtension`
 
 ## Resumen
 Update a Call Park Extension

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/clusters/{clusterId}
-operation_id: Get Cluster Details
+operation_id: getClusterDetails
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.482784+00:00
+retrieved_at: 2026-11-16T12:36:51.556044+00:00
 ---
 
 # GET /videoMesh/clusters/{clusterId}
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Cluster Details`
+**operationId:** `getClusterDetails`
 
 ## Resumen
 Get Cluster Details
@@ -46,18 +46,13 @@ curl -X GET '/videoMesh/clusters/<clusterId>' \
         - `nodeId` (string): ID of the Video Mesh node.
         - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
         - `deploymentType` (string): Deployment Type of the Video Mesh node.
-        - `location` (object):
+        - `location` (object): Location details of the Video Mesh node.
         - `nodeId` (string): ID of the Video Mesh node.
         - `hostNameOrIp` (string): Host Name or the IP of the Video Mesh node.
         - `deploymentType` (string): Deployment Type of the Video Mesh node.
-        - `location` (object):
+        - `location` (object): Location details of the Video Mesh node.
     - `releaseChannel` (string): Release Channel of the Video Mesh cluster.
-    - `upgradeSchedule` (object):
-      - `scheduleDays` (array): Days of the week when scheduled upgrades will occur for the Video Mesh cluster.
-      - `scheduleTime` (string): Time when scheduled upgrade will occur for the Video Mesh cluster.
-      - `scheduleTimeZone` (string): Timezone of the scheduled upgrade of Video Mesh cluster.
-      - `upgradePending` (boolean): Upgrade Pending information.
-      - `nextUpgradeTime` (string): Time when the next upgrade is scheduled for the Video Mesh cluster.
+    - `upgradeSchedule` (object): Upgrade Schedule details of the Video Mesh cluster.
 
 ### Ejemplo — respuesta 200
 ```json

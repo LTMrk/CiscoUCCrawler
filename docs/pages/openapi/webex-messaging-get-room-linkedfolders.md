@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /room/linkedFolders
-operation_id: List ECM folder
+operation_id: listECMFolder
 tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.738784+00:00
+retrieved_at: 2026-11-16T12:36:51.654198+00:00
 ---
 
 # GET /room/linkedFolders
 
 **API:** Webex Messaging
 **Área:** ECM folder linking
-**operationId:** `List ECM folder`
+**operationId:** `listECMFolder`
 
 ## Resumen
 List ECM folder

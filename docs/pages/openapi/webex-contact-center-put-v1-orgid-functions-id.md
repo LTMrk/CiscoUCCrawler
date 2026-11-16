@@ -10,7 +10,7 @@ tags: Functions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.645819+00:00
+retrieved_at: 2026-11-16T12:36:51.200999+00:00
 ---
 
 # PUT /v1/{orgId}/functions/{id}

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/chargeNumber/availableNumbers
-operation_id: GetAvailableChargeNumbersList
+operation_id: getAvailableChargeNumbersList
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.092102+00:00
+retrieved_at: 2026-11-16T12:36:50.736155+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/chargeNumber/availableNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `GetAvailableChargeNumbersList`
+**operationId:** `getAvailableChargeNumbersList`
 
 ## Resumen
 Get Available Charge Numbers for a Location with Given Criteria

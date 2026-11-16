@@ -5,12 +5,12 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke
-operation_id: Validate Local Gateway FQDN and Domain for a Trunk
+operation_id: validateLocalGatewayFQDNAndDomainForATrunk
 tags: Call Routing
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.964519+00:00
+retrieved_at: 2026-11-16T12:36:50.559032+00:00
 ---
 
 # POST /telephony/config/premisePstn/trunks/actions/fqdnValidation/invoke
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:27.964519+00:00
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Validate Local Gateway FQDN and Domain for a Trunk`
+**operationId:** `validateLocalGatewayFQDNAndDomainForATrunk`
 
 ## Resumen
 Validate Local Gateway FQDN and Domain for a Trunk

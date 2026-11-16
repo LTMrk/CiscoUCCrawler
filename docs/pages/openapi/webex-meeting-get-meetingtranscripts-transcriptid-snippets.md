@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingTranscripts/{transcriptId}/snippets
-operation_id: List Snippets of a Meeting Transcript
+operation_id: listSnippetsOfAMeetingTranscript
 tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.449379+00:00
+retrieved_at: 2026-11-16T12:36:51.514716+00:00
 ---
 
 # GET /meetingTranscripts/{transcriptId}/snippets
 
 **API:** Webex Meetings
 **Área:** Transcripts
-**operationId:** `List Snippets of a Meeting Transcript`
+**operationId:** `listSnippetsOfAMeetingTranscript`
 
 ## Resumen
 List Snippets of a Meeting Transcript

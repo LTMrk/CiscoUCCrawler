@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualExtensionRanges/actions/validate/invoke
-operation_id: Validate the prefix and extension pattern for a Virtual Extension Range
+operation_id: validateThePrefixAndExtensionPatternForAVirtualExtensionRange
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.085475+00:00
+retrieved_at: 2026-11-16T12:36:50.726878+00:00
 ---
 
 # POST /telephony/config/virtualExtensionRanges/actions/validate/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Validate the prefix and extension pattern for a Virtual Extension Range`
+**operationId:** `validateThePrefixAndExtensionPatternForAVirtualExtensionRange`
 
 ## Resumen
 Validate the prefix and extension pattern for a Virtual Extension Range
@@ -70,7 +70,7 @@ curl -X POST '/telephony/config/virtualExtensionRanges/actions/validate/invoke' 
   - `pattern` (string): Pattern used for a virtual extension range validation.
   - `errorCode` (string) (**requerido**): Error code for the virtual extension range validation.
   - `message` (string) (**requerido**): Error message for the virtual extension range validation.
-  - `status` (string) (**requerido**): * `VALID` - Validation is successful.  * `DUPLICATE` - Duplicate patterns for virtual extension range.  * `DUPLICATE_IN_LIST` - Duplicate routing number in the pattern list.  * `INVALID` - Invalid prefix length.  * `LIMIT_EXCEEDED` - Exceeding pattern limit of 100 in the request. Valores: VALID, DUPLICATE, DUPLICATE_IN_LIST, INVALID, LIMIT_EXCEEDED.
+  - `status` (object) (**requerido**): Virtual extension range validation status.
 
 ### Ejemplo — respuesta 200
 ```json

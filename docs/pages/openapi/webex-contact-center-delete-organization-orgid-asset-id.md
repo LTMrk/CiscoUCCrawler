@@ -10,7 +10,7 @@ tags: Asset
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.555858+00:00
+retrieved_at: 2026-11-16T12:36:51.071308+00:00
 ---
 
 # DELETE /organization/{orgid}/asset/{id}

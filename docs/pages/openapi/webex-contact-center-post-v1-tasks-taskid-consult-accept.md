@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.639278+00:00
+retrieved_at: 2026-11-16T12:36:51.191191+00:00
 ---
 
 # POST /v1/tasks/{taskId}/consult/accept

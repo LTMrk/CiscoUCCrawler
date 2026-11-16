@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/receptionistContacts/directories
-operation_id: Create a Receptionist Contact Directory
+operation_id: createAReceptionistContactDirectory
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.091076+00:00
+retrieved_at: 2026-11-16T12:36:50.734690+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/receptionistContacts/directories
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Create a Receptionist Contact Directory`
+**operationId:** `createAReceptionistContactDirectory`
 
 ## Resumen
 Create a Receptionist Contact Directory

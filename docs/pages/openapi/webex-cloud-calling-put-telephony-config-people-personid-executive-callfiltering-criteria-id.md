@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.147541+00:00
+retrieved_at: 2026-11-16T12:36:50.808709+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/executive/callFiltering/criteria/{id}
@@ -37,7 +37,7 @@ This API requires a full, user or location administrator auth token with a scope
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule associated with this criteria.
 - `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: holidays, businessHours.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group (Location) level. Valores: PEOPLE, GROUP.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule is at People level.  * `GROUP` - The schedule is at Group (Location) level.  * `ORGANIZATION` - The schedule level that identifies an organization-wide schedule. Valores: PEOPLE, GROUP, ORGANIZATION.
 - `callsFrom` (string): * `ANY_PHONE_NUMBER` - The criteria applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The criteria applies to selected phone numbers.  * `ANY_INTERNAL` - The criteria applies to any internal number.  * `ANY_EXTERNAL` - The criteria applies to any external number. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
 - `anonymousCallersEnabled` (boolean): Set to enable or disable the criteria for anonymous callers.
 - `unavailableCallersEnabled` (boolean): Set to enable or disable the criteria for unavailable callers.

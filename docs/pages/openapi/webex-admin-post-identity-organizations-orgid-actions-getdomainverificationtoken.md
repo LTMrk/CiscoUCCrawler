@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /identity/organizations/{orgId}/actions/getDomainVerificationToken
-operation_id: Get Domain Verification Token
+operation_id: getDomainVerificationToken
 tags: API - Domain Management
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.080496+00:00
+retrieved_at: 2026-11-16T12:36:50.131248+00:00
 ---
 
 # POST /identity/organizations/{orgId}/actions/getDomainVerificationToken
 
 **API:** Webex Admin
 **Área:** API - Domain Management
-**operationId:** `Get Domain Verification Token`
+**operationId:** `getDomainVerificationToken`
 
 ## Resumen
 Get Domain Verification Token

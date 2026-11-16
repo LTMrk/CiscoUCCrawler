@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/operatingModes/{modeId}/holidays
-operation_id: Create an Operating Mode Holiday
+operation_id: createAnOperatingModeHoliday
 tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.079938+00:00
+retrieved_at: 2026-11-16T12:36:50.718972+00:00
 ---
 
 # POST /telephony/config/operatingModes/{modeId}/holidays
 
 **API:** Webex Cloud Calling
 **Área:** Features: Operating Modes
-**operationId:** `Create an Operating Mode Holiday`
+**operationId:** `createAnOperatingModeHoliday`
 
 ## Resumen
 Create an Operating Mode Holiday
@@ -40,14 +40,7 @@ Creating an `Operating Mode Holiday` requires a full, or location administrator 
 - `endDate` (string) (**requerido**): End date of the `operating mode holiday`.
 - `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
 - `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
-- `recurrence` (object):
-  - `recurYearlyByDate` (object):
-    - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-    - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-  - `recurYearlyByDay` (object):
-    - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-    - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-    - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+- `recurrence` (object): Recurrence configuration for the `operating mode holiday`.
 
 ### Ejemplo — petición
 ```json

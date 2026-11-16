@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /dataSources
-operation_id: Register a Data Source
+operation_id: registerADataSource
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.078729+00:00
+retrieved_at: 2026-11-16T12:36:50.129138+00:00
 ---
 
 # POST /dataSources
 
 **API:** Webex Admin
 **Área:** Data Sources
-**operationId:** `Register a Data Source`
+**operationId:** `registerADataSource`
 
 ## Resumen
 Register a Data Source

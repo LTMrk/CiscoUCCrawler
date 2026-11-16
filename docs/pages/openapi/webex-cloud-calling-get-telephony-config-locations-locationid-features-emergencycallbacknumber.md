@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/features/emergencyCallbackNumber
-operation_id: Get a Location Emergency callback number
+operation_id: getALocationEmergencyCallbackNumber
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.088070+00:00
+retrieved_at: 2026-11-16T12:36:50.730399+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/features/emergencyCallbackNumber
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get a Location Emergency callback number`
+**operationId:** `getALocationEmergencyCallbackNumber`
 
 ## Resumen
 Get a Location Emergency callback number
@@ -42,19 +42,19 @@ curl -X GET '/telephony/config/locations/<locationId>/features/emergencyCallback
 - `locationInfo` (object) (**requerido**): Data relevant to this location.
   - `phoneNumber` (string): The location DN.
   - `name` (string): The name of the location.
-  - `effectiveLevel` (string): * `LOCATION_NUMBER` - Location TN.  * `LOCATION_MEMBER_NUMBER` - Assigned number of a user, workspace, virtual line or hunt group in the location.  * `NONE` - When no other option is selected. Valores: LOCATION_NUMBER, LOCATION_MEMBER_NUMBER, NONE.
+  - `effectiveLevel` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call, applying fallback rules as necessary.
   - `effectiveValue` (string) (**requerido**): Location calling line ID (CLID) number. Avaliable only when number is present and quality would be invalid.
-  - `quality` (string) (**requerido**): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
+  - `quality` (object) (**requerido**): Used to represent whether a number is a recommended ECBN.
 - `locationMemberInfo` (object) (**requerido**): Data relevant to the user/place/virtual line/hunt group (member) selected for ECBN.
   - `phoneNumber` (string): The member DN.
   - `firstName` (string): The member first name.
   - `lastName` (string): The member last name.
   - `memberId` (string): Member ID of user/place/virtual line/hunt group within the location.
-  - `memberType` (string): * `PEOPLE` - Associated member is a person.  * `PLACE` - Associated member is a workspace.  * `VIRTUAL_LINE` - Associated member is a virtual line.  * `HUNT_GROUP` - Associated member is a hunt group. Valores: PEOPLE, PLACE, VIRTUAL_LINE, HUNT_GROUP.
-  - `effectiveLevel` (string): * `LOCATION_NUMBER` - Location TN.  * `LOCATION_MEMBER_NUMBER` - Assigned number of a user, workspace, virtual line or hunt group in the location.  * `NONE` - When no other option is selected. Valores: LOCATION_NUMBER, LOCATION_MEMBER_NUMBER, NONE.
+  - `memberType` (object): Member Type.
+  - `effectiveLevel` (object): The source from which the emergency calling line ID (CLID) is selected for an actual emergency call, applying fallback rules as necessary.
   - `effectiveValue` (string) (**requerido**): Location CLID number. Avaliable only when number is present and quality would be invalid.
-  - `quality` (string) (**requerido**): * `RECOMMENDED` - An activated number, associated with a User or Workspace.  * `NOT_RECOMMENDED` - An activated number, associated with anything else, like Auto Attendant or Hunt Group.  * `INVALID` - An inactive or non-existent number. Valores: RECOMMENDED, NOT_RECOMMENDED, INVALID.
-- `selected` (string) (**requerido**): * `LOCATION_NUMBER` - Location TN.  * `LOCATION_MEMBER_NUMBER` - Assigned number of a user, workspace, virtual line or hunt group in the location. Valores: LOCATION_NUMBER, LOCATION_MEMBER_NUMBER.
+  - `quality` (object) (**requerido**): Used to represent whether a number is a recommended ECBN.
+- `selected` (object) (**requerido**): Selected number type to configure emergency call back.
 - `elinExpiryTimeMinutes` (integer) (**requerido**): ELIN (Emergency Location Identification Number) provides location-specific callback information to emergency responders. This field indicates the time in minutes that the ELIN association remains active after being established. The default value is 60 minutes, and the valid values range from 10 to 1440 minutes.
 
 ### Ejemplo — respuesta 200

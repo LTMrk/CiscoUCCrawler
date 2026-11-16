@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.971847+00:00
+retrieved_at: 2026-11-16T12:36:50.569127+00:00
 ---
 
 # GET /telephony/config/people/me/settings/secondaryLines/{lineOwnerId}/availablePreferredAnswerEndpoints
@@ -44,6 +44,7 @@ curl -X GET '/telephony/config/people/me/settings/secondaryLines/<lineOwnerId>/a
   - `id` (string) (**requerido**): Unique identifier for the endpoint.
   - `type` (string) (**requerido**): * `DEVICE` - The endpoint is a device.  * `APPLICATION` - The endpoint is a application. Valores: DEVICE, APPLICATION.
   - `name` (string) (**requerido**): The `name` field in the response is calculated using device tag. Admins have the ability to set tags for devices. If a `name=<value>` tag is set, for example “name=home phone“, then the `<value>` is included in the `name` field of the API response. In this example “home phone”.
+  - `isPreferredAnswerEndpoint` (boolean) (**requerido**): Indicates if this endpoint has been set as the preferred answer endpoint.
 
 ### Ejemplo — respuesta 200
 ```json

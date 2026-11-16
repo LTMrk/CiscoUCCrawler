@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.129568+00:00
+retrieved_at: 2026-11-16T12:36:50.792576+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/numbers
@@ -37,10 +37,10 @@ Assigning or unassigning an alternate phone number to a person requires a full a
 - `distinctiveRingEnabled` (boolean): Enables a distinctive ring pattern for the person.
 - `phoneNumbers` (array) (**requerido**): List of phone numbers that are assigned to a person.
   - `primary` (boolean) (**requerido**): If `true` marks the phone number as primary.
-  - `action` (string) (**requerido**): * `ADD` - Add action.  * `DELETE` - Delete action. Valores: ADD, DELETE.
+  - `action` (object) (**requerido**): Either 'ADD' to add phone numbers or 'DELETE' to remove phone numbers.
   - `directNumber` (string) (**requerido**): Phone numbers that are assigned.
   - `extension` (string): Extension that is assigned.
-  - `ringPattern` (string): * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
+  - `ringPattern` (object): Ring Pattern of this number.
 
 ### Ejemplo — petición
 ```json

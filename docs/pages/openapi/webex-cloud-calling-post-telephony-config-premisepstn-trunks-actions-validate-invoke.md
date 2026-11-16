@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/trunks/actions/validate/invoke
-operation_id: Validate a Trunk
+operation_id: validateATrunk
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.964331+00:00
+retrieved_at: 2026-11-16T12:36:50.557181+00:00
 ---
 
 # POST /telephony/config/premisePstn/trunks/actions/validate/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Validate a Trunk`
+**operationId:** `validateATrunk`
 
 ## Resumen
 Validate a Trunk
@@ -38,7 +38,7 @@ Validating a trunk requires a full administrator auth token with a scope of `spa
 - `fqdnAddress` (string): FQDN or SRV address of the trunk.
 - `fqdnDomain` (string): Domain name of the trunk.
 - `fqdnPort` (integer): FQDN port of the trunk.
-- `trunkType` (string): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+- `trunkType` (object): Trunk Type associated with the trunk.
 - `isRestrictedToDedicatedInstance` (boolean): Flag to indicate if the trunk is restricted to a dedicated instance.
 - `peerIdentity` (string): Peer identity for certificate-based trunks. Used for TLS peer verification.
 

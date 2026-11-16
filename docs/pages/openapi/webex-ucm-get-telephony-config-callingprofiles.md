@@ -5,19 +5,19 @@ api: Webex for UCM
 api_version: 1.0.0
 method: GET
 path: /telephony/config/callingProfiles
-operation_id: Read the List of UC Manager Profiles
+operation_id: readTheListOfUCManagerProfiles
 tags: UCM Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.062500+00:00
+retrieved_at: 2026-11-16T12:36:51.789797+00:00
 ---
 
 # GET /telephony/config/callingProfiles
 
 **API:** Webex for UCM
 **Área:** UCM Profile
-**operationId:** `Read the List of UC Manager Profiles`
+**operationId:** `readTheListOfUCManagerProfiles`
 
 ## Resumen
 Read the List of UC Manager Profiles

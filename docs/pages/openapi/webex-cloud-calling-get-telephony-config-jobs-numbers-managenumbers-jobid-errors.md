@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/numbers/manageNumbers/{jobId}/errors
-operation_id: List Manage Numbers Job errors
+operation_id: listManageNumbersJobErrors
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.107334+00:00
+retrieved_at: 2026-11-16T12:36:50.757568+00:00
 ---
 
 # GET /telephony/config/jobs/numbers/manageNumbers/{jobId}/errors
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `List Manage Numbers Job errors`
+**operationId:** `listManageNumbersJobErrors`
 
 ## Resumen
 List Manage Numbers Job Errors

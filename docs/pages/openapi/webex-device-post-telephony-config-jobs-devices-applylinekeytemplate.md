@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.921585+00:00
+retrieved_at: 2026-11-16T12:36:51.365196+00:00
 ---
 
 # POST /telephony/config/jobs/devices/applyLineKeyTemplate
@@ -41,12 +41,7 @@ Applying a Line Key Template or resetting devices to their default Line Key conf
 - `excludeDevicesWithCustomLayout` (boolean): Indicates whether to exclude devices with custom layout.
 - `includeDeviceTags` (array): Include devices only with these tags.
 - `excludeDeviceTags` (array): Exclude devices with these tags.
-- `advisoryTypes` (object):
-  - `moreSharedAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More shared/virtual line appearances than shared/virtual lines requested".
-  - `fewSharedAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More shared/virtual lines requested than shared/virtual line appearances".
-  - `moreMonitorAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More monitored line appearances than monitored lines in the user's monitoring list".
-  - `moreCPEAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More call park extension line appearances than call park extensions in user's monitoring list".
-  - `moreModeManagementAppearancesEnabled` (boolean): Refine search to apply changes to devices that contain the warning "More mode management lines configured for the device". The default value is false.
+- `advisoryTypes` (object): Refine search with advisories.
 
 ### Ejemplo — petición
 ```json
@@ -67,8 +62,8 @@ Applying a Line Key Template or resetting devices to their default Line Key conf
   "advisoryTypes": {
     "moreSharedAppearancesEnabled": true,
     "fewSharedAppearancesEnabled": true,
-    "moreMonitorAppearancesEnabled": "true",
-    "moreCPEAppearancesEnabled": "true",
+    "moreMonitorAppearancesEnabled": true,
+    "moreCPEAppearancesEnabled": true,
     "moreModeManagementAppearancesEnabled": true
   }
 }

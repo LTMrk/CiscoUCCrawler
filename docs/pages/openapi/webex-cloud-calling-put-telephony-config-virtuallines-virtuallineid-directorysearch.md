@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/directorySearch
-operation_id: Update Directory Search for a Virtual Line
+operation_id: updateDirectorySearchForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.158700+00:00
+retrieved_at: 2026-11-16T12:36:50.824839+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/directorySearch
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Update Directory Search for a Virtual Line`
+**operationId:** `updateDirectorySearchForAVirtualLine`
 
 ## Resumen
 Update Directory Search for a Virtual Line
@@ -39,7 +39,7 @@ Updating Directory search for a virtual line requires a full, user, or location 
 ### Ejemplo — petición
 ```json
 {
-  "enabled": "true"
+  "enabled": true
 }
 ```
 

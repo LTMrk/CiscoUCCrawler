@@ -10,7 +10,7 @@ tags: Contact Service Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.567845+00:00
+retrieved_at: 2026-11-16T12:36:51.089716+00:00
 ---
 
 # POST /organization/{orgid}/contact-service-queue/fetch-by-dynamic-skills-and-skillProfile

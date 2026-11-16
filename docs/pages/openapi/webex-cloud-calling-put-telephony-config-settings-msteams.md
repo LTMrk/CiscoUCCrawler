@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/settings/msTeams
-operation_id: Update an Organization's MS Teams Setting
+operation_id: updateAnOrganizationSMSTeamsSetting
 tags: Client Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.007092+00:00
+retrieved_at: 2026-11-16T12:36:50.615241+00:00
 ---
 
 # PUT /telephony/config/settings/msTeams
 
 **API:** Webex Cloud Calling
 **Área:** Client Call Settings
-**operationId:** `Update an Organization's MS Teams Setting`
+**operationId:** `updateAnOrganizationSMSTeamsSetting`
 
 ## Resumen
 Update an Organization's MS Teams Setting

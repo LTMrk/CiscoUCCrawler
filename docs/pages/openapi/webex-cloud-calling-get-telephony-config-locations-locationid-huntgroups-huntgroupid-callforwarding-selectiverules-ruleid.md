@@ -10,7 +10,7 @@ tags: Features:  Hunt Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.075875+00:00
+retrieved_at: 2026-11-16T12:36:50.711251+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/huntGroups/{huntGroupId}/callForwarding/selectiveRules/{ruleId}
@@ -50,8 +50,8 @@ curl -X GET '/telephony/config/locations/<locationId>/huntGroups/<huntGroupId>/c
 - `name` (string) (**requerido**): Unique name for the selective rule in the hunt group.
 - `id` (string) (**requerido**): Unique ID for the rule.
 - `enabled` (boolean): Reflects if rule is enabled.
-- `holidaySchedule` (string): Name of the location's holiday schedule which determines when this selective call forwarding rule is in effect.
-- `businessSchedule` (string): Name of the location's business schedule which determines when this selective call forwarding rule is in effect.
+- `holidaySchedule` (string): Name of the holiday schedule which determines when this selective call forwarding rule is in effect.
+- `businessSchedule` (string): Name of the business schedule which determines when this selective call forwarding rule is in effect.
 - `forwardTo` (object): Controls what happens when the rule matches including the destination number for the call forwarding.
   - `selection` (string) (**requerido**): Controls what happens when the rule matches.  * `FORWARD_TO_DEFAULT_NUMBER` - When the rule matches, forward to the destination for the hunt group.  * `FORWARD_TO_SPECIFIED_NUMBER` - When the rule matches, forward to the destination for this rule.  * `DO_NOT_FORWARD` - When the rule matches, do not forward to another number. Valores: FORWARD_TO_DEFAULT_NUMBER, FORWARD_TO_SPECIFIED_NUMBER, DO_NOT_FORWARD.
   - `phoneNumber` (string): Phone number used if selection is `FORWARD_TO_SPECIFIED_NUMBER`.
@@ -66,6 +66,8 @@ curl -X GET '/telephony/config/locations/<locationId>/huntGroups/<huntGroupId>/c
     - `phoneNumber` (string): Only return call queues with matching primary phone number or extension.
     - `extension` (string): Primary phone extension of the call queue.
     - `type` (string) (**requerido**): Type of  * `PRIMARY` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is a primary number or extension.  * `ALTERNATE` - Indicates that the given `phoneNumber` or `extension` associated with this rule's containing object is an alternate number or extension. Valores: PRIMARY, ALTERNATE.
+- `businessScheduleLevel` (string): The level of the business schedule. This field is omitted when the schedule level cannot be determined.  * `LOCATION` - The schedule belongs to the location.  * `ORGANIZATION` - The schedule belongs to the organization. Valores: LOCATION, ORGANIZATION.
+- `holidayScheduleLevel` (string): The level of the holiday schedule. This field is omitted when the schedule level cannot be determined.  * `LOCATION` - The schedule belongs to the location.  * `ORGANIZATION` - The schedule belongs to the organization. Valores: LOCATION, ORGANIZATION.
 
 ### Ejemplo — respuesta 200
 ```json

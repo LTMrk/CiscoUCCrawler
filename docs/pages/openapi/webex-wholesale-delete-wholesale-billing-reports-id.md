@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: DELETE
 path: /wholesale/billing/reports/{id}
-operation_id: Delete a Wholesale Billing Report
+operation_id: deleteAWholesaleBillingReport
 tags: Wholesale Billing Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.602372+00:00
+retrieved_at: 2026-11-16T12:36:51.890308+00:00
 ---
 
 # DELETE /wholesale/billing/reports/{id}
 
 **API:** Webex Wholesale
 **Área:** Wholesale Billing Reports
-**operationId:** `Delete a Wholesale Billing Report`
+**operationId:** `deleteAWholesaleBillingReport`
 
 ## Resumen
 Delete a Wholesale Billing Report

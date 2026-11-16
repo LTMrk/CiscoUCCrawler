@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /events/{eventId}
-operation_id: Get Event Details
+operation_id: getEventDetails
 tags: Events
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.740146+00:00
+retrieved_at: 2026-11-16T12:36:51.656063+00:00
 ---
 
 # GET /events/{eventId}
 
 **API:** Webex Messaging
 **Área:** Events
-**operationId:** `Get Event Details`
+**operationId:** `getEventDetails`
 
 ## Resumen
 Get Event Details
@@ -39,8 +39,8 @@ curl -X GET '/events/<eventId>' \
 ## Respuestas correctas
 **200**: OK
 - `id` (string) (**requerido**): The unique identifier for the event.
-- `resource` (string) (**requerido**): * `attachmentActions` - State changed on a card attachment  * `businessTexts` - A user sent or received a SMS message  * `call_records` - A Webex call was made to/from a user  * `convergedRecordings` - A Webex call was recorded for a user  * `file_transcodings` - State change on a file preview  * `files` - State changed on a file download  * `meetingMessages` - State changed on a meeting message, i.e. message exchanged as part of a meeting  * `meetings` - State change on a meeting ( here combined with type = 'ended' )  * `meetingTranscripts` - State change on a automatic transcript resource for Webex Assistant  * `memberships` - State changed on a memberships resource  * `messages` - State changed on a messages resource  * `rooms` - State changed on a space classification  * `tabs` - State changed on a room tabs in a space Valores: attachmentActions, businessTexts, call_records, convergedRecordings, file_transcodings, files, meetingMessages, meetings, meetingTranscripts, memberships, messages, rooms, tabs.
-- `type` (string) (**requerido**): * `created` - The resource has been created  * `updated` - A property on the resource has been updated  * `deleted` - The resource has been deleted  * `ended` - The meeting has ended Valores: created, updated, deleted, ended.
+- `resource` (object) (**requerido**): The type of resource in the event.
+- `type` (object) (**requerido**): The action which took place in the event.
 - `appId` (string): The ID of the application for the event.
 - `actorId` (string) (**requerido**): The ID of the person who performed the action.
 - `orgId` (string) (**requerido**): The ID of the organization for the event.

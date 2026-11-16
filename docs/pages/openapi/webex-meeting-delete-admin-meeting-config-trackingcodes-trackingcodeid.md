@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /admin/meeting/config/trackingCodes/{trackingCodeId}
-operation_id: Delete a Tracking Code
+operation_id: deleteATrackingCode
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.470967+00:00
+retrieved_at: 2026-11-16T12:36:51.537576+00:00
 ---
 
 # DELETE /admin/meeting/config/trackingCodes/{trackingCodeId}
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `Delete a Tracking Code`
+**operationId:** `deleteATrackingCode`
 
 ## Resumen
 Delete a Tracking Code

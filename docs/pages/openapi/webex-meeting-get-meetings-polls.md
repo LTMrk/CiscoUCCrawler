@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/polls
-operation_id: List Meeting Polls
+operation_id: listMeetingPolls
 tags: Meeting Polls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.442894+00:00
+retrieved_at: 2026-11-16T12:36:51.505391+00:00
 ---
 
 # GET /meetings/polls
 
 **API:** Webex Meetings
 **Área:** Meeting Polls
-**operationId:** `List Meeting Polls`
+**operationId:** `listMeetingPolls`
 
 ## Resumen
 List Meeting Polls

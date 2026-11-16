@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase2
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.988148+00:00
+retrieved_at: 2026-11-16T12:36:50.590421+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/priorityAlert/criteria/{id}
@@ -25,7 +25,7 @@ Modify Settings for a Priority Alert Criteria
 ## Descripción
 Modify Priority Alert Criteria Settings for the authenticated user.
 
-Priority alert allows you to set up a unique ringtone based on predefined criteria. This API allows modifying attributes such as name, phoneNumbers etc for a particular criteria.
+Priority alert allows you to set up a distinctive ringtone based on predefined criteria. This API allows modifying attributes such as name, phoneNumbers etc for a particular criteria.
 
 This API requires a user auth token with a scope of `spark:telephony_config_write`.
 
@@ -33,14 +33,15 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 - `id` [path] (string) (**requerido**): The `id` parameter specifies the unique identifier for the priority alert criteria. Example: `Y2lzY29zcGFyazovL3VzL0NSSVRFUklBL1oxNzU0MzgzODQzNTA5NzY`.
 
 ## Cuerpo de la petición (application/json)
-- `scheduleName` (string): Name of the schedule to be associated with the criteria.
-- `scheduleType` (string): Type of the schedule.  * `businessHours` - Business hours schedule type.  * `holidays` - Holidays schedule type. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule is at the user level.  * `LOCATION` - The schedule is at the location level. Valores: PEOPLE, LOCATION.
-- `callsFrom` (string): Specifies the type of callsFrom, categorizing incoming data based on callsFrom types or numbers that match the current criteria.  * `ANY_PHONE_NUMBER` - The criteria applies to any phone number. * `SELECT_PHONE_NUMBERS` - The criteria applies to selected phone numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
-- `anonymousCallersEnabled` (boolean): Indicates whether anonymous callers are included in this criteria. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
-- `unavailableCallersEnabled` (boolean): Indicates whether unavailable callers are included in this criteria. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
-- `phoneNumbers` (array): List of phone numbers to update for this criteria. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
-- `notificationEnabled` (boolean): Determines whether priority alerting is applied for calls matching this criteria. If `true`, priority alerting is applied. If `false`, this criteria acts as a 'Don't Alert' rule, preventing priority alerting. Criteria with `notificationEnabled` set to `false` (Don't Alert) take precedence over criteria with `notificationEnabled` set to `true` (Alert).
+- `scheduleName` (string): Name of the schedule to be associated with the criterion. When provided with a non-empty value, `scheduleType` and `scheduleLevel` must also be provided. Set `scheduleName` to `null` or an empty string to remove the current schedule association. When no schedule is associated, the criterion is active every day, all day. Omit it to preserve the existing schedule. Valid schedule names are 1 to 40 characters. An empty string is allowed in PUT requests only to remove the schedule association. Long. max: 40.
+- `scheduleType` (string): Type of the schedule. Provide this with a non-empty `scheduleName` and matching `scheduleLevel`. Omit it when `scheduleName` is omitted or used to clear the schedule. This field is not independently clearable.  * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the days when your organization is not open. Valores: businessHours, holidays.
+- `scheduleLevel` (string): This indicates the level of the schedule specified by `scheduleName`. Provide this with a non-empty `scheduleName` and matching `scheduleType`. Omit it when `scheduleName` is omitted or used to clear the schedule. This field is not independently clearable.  * `PEOPLE` - The schedule is at the person level.  * `LOCATION` - The schedule is at the location level.  * `ORGANIZATION` - The schedule is at the organization level. Valores: PEOPLE, LOCATION, ORGANIZATION.
+- `callsFrom` (string): Identifies which incoming calls this criterion applies to. Omit it to preserve the existing call source selection. When set to `SELECT_PHONE_NUMBERS`, `anonymousCallersEnabled`, `unavailableCallersEnabled`, and `phoneNumbers` are required, and at least one phone number or caller flag must be provided. `ANY_PHONE_NUMBER` is equivalent to `ALL_NUMBERS` and `SELECT_PHONE_NUMBERS` is equivalent to `SPECIFIC_NUMBERS` in the priority alert settings API.  * `ANY_PHONE_NUMBER` - Criterion applies to any external phone number.  * `SELECT_PHONE_NUMBERS` - Criterion applies to selected phone numbers.  * `ANY_INTERNAL` - Criterion applies to any internal source. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, ANY_INTERNAL.
+- `anonymousCallersEnabled` (boolean): Indicates whether anonymous callers are included in this criterion. Required when `callsFrom` is `SELECT_PHONE_NUMBERS`; omit otherwise.
+- `unavailableCallersEnabled` (boolean): Indicates whether unavailable callers are included in this criterion. Required when `callsFrom` is `SELECT_PHONE_NUMBERS`; omit otherwise.
+- `phoneNumbers` (array): List of phone numbers to update for this criterion. Required when `callsFrom` is `SELECT_PHONE_NUMBERS`; omit otherwise. An empty array is allowed only when `anonymousCallersEnabled` or `unavailableCallersEnabled` is `true`.
+- `notificationEnabled` (boolean): Determines whether priority alerting is applied for calls matching this criterion. Omit it to preserve the current value. This field cannot be cleared with `null`. If `true`, priority alerting is applied. If `false`, this criterion acts as a 'Don't Alert' rule, preventing priority alerting. Criteria with `notificationEnabled` set to `false` (Don't Alert) take precedence over criteria with `notificationEnabled` set to `true` (Alert).
+- `ringPattern` (string): The distinctive ringtone pattern applied to incoming calls that match the priority alert criterion, allowing the person to distinguish priority calls from regular calls by their ringtone pattern. Omit it to preserve the current value. This field cannot be cleared with `null`.  * `NORMAL` - Standard ring pattern.  * `LONG_LONG` - Two long rings.  * `SHORT_LONG_SHORT` - Short ring, long ring, short ring.  * `SHORT_SHORT_LONG` - Two short rings followed by a long ring. Valores: NORMAL, LONG_LONG, SHORT_LONG_SHORT, SHORT_SHORT_LONG.
 
 ### Ejemplo — petición
 ```json
@@ -51,10 +52,11 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
   "callsFrom": "SELECT_PHONE_NUMBERS",
   "anonymousCallersEnabled": true,
   "unavailableCallersEnabled": true,
-  "notificationEnabled": false,
+  "notificationEnabled": true,
   "phoneNumbers": [
     "+16177817766"
-  ]
+  ],
+  "ringPattern": "LONG_LONG"
 }
 ```
 

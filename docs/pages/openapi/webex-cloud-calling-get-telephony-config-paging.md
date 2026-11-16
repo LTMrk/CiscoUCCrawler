@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/paging
-operation_id: Read the List of Paging Groups
+operation_id: readTheListOfPagingGroups
 tags: Features:  Paging Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.080565+00:00
+retrieved_at: 2026-11-16T12:36:50.719875+00:00
 ---
 
 # GET /telephony/config/paging
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Paging Group
-**operationId:** `Read the List of Paging Groups`
+**operationId:** `readTheListOfPagingGroups`
 
 ## Resumen
 Read the List of Paging Groups

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/people/{personId}/emergencyCallbackNumber/dependencies
-operation_id: Retrieve A Person's Emergency Callback Number Dependencies
+operation_id: retrieveAPersonSEmergencyCallbackNumberDependencies
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.036768+00:00
+retrieved_at: 2026-11-16T12:36:50.652670+00:00
 ---
 
 # GET /telephony/config/people/{personId}/emergencyCallbackNumber/dependencies
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Retrieve A Person's Emergency Callback Number Dependencies`
+**operationId:** `retrieveAPersonSEmergencyCallbackNumberDependencies`
 
 ## Resumen
 Retrieve A Person's Emergency Callback Number Dependencies

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks
-operation_id: Create a DECT Network
+operation_id: createADECTNetwork
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.914829+00:00
+retrieved_at: 2026-11-16T12:36:50.517045+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Create a DECT Network`
+**operationId:** `createADECTNetwork`
 
 ## Resumen
 Create a DECT Network

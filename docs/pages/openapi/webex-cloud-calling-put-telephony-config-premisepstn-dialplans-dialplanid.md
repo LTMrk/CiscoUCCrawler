@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/dialPlans/{dialPlanId}
-operation_id: Modify a Dial Plan
+operation_id: modifyADialPlan
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.963965+00:00
+retrieved_at: 2026-11-16T12:36:50.556509+00:00
 ---
 
 # PUT /telephony/config/premisePstn/dialPlans/{dialPlanId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify a Dial Plan`
+**operationId:** `modifyADialPlan`
 
 ## Resumen
 Modify a Dial Plan
@@ -39,7 +39,7 @@ Modifying a dial plan requires a full administrator auth token with a scope of `
 ## Cuerpo de la petición (application/json)
 - `name` (string) (**requerido**): A unique name for the dial plan.
 - `routeId` (string) (**requerido**): ID of route type associated with the dial plan.
-- `routeType` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+- `routeType` (object) (**requerido**): Route Type associated with the dial plan.
 
 ## Ejemplo de invocación
 ```bash

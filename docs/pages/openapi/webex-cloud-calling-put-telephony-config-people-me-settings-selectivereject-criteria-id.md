@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.995705+00:00
+retrieved_at: 2026-11-16T12:36:50.600284+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/selectiveReject/criteria/{id}
@@ -36,9 +36,9 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule to which the criteria is created.
-- `scheduleType` (string): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - Criteria apply for any incoming number.  * `SELECT_PHONE_NUMBERS` - Criteria only apply for selected incoming numbers.  * `FORWARDED` - Criteria only apply for forwarded incoming numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS, FORWARDED.
+- `scheduleType` (object): schedule type.
+- `scheduleLevel` (object): schedule level of the criteria.
+- `callsFrom` (object) (**requerido**): Reject calls selection.
 - `anonymousCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, private numbers are enabled.
 - `unavailableCallersEnabled` (boolean): Boolean flag indicating if calls from custom numbers, unavailable numbers are enabled.
 - `phoneNumbers` (array): List of phone numbers. It does not include extensions. In some regions phone numbers are not returned in E.164 format. This will be supported in a future update.

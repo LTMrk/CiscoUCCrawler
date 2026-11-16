@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/priorityAlert
-operation_id: Retrieve Priority Alert Settings for a Workspace
+operation_id: retrievePriorityAlertSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.205071+00:00
+retrieved_at: 2026-11-16T12:36:50.867882+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/priorityAlert
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Priority Alert Settings for a Workspace`
+**operationId:** `retrievePriorityAlertSettingsForAWorkspace`
 
 ## Resumen
 Retrieve Priority Alert Settings for a Workspace
@@ -42,13 +42,14 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/priorityAlert' \
 ```
 
 ## Respuestas correctas
-**200**: OK
+**200**: Priority Alert Settings retrieved successfully for the workspace.
 - `enabled` (boolean) (**requerido**): `true` if the Priority Alert feature is enabled.
-- `criteria` (array): A list of criteria specifying conditions when priority alert is in effect.
+- `criteria` (array) (**requerido**): A list of criteria specifying conditions when priority alert is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string): Name of the location's schedule which determines when the priority alert is in effect.
-  - `source` (string) (**requerido**): If criteria are applicable for calls from any phone number or specific phone number.  * `ALL_NUMBERS` - Indicates that priority alert criteria apply for all incoming numbers.  * `SPECIFIC_NUMBERS` - Indicates priority alert criteria only apply to specific incoming numbers. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS.
-  - `notificationEnabled` (boolean) (**requerido**): When set to `true` notification is enabled for calls that meet the current criteria. Criteria with `notificationEnabled` set to `false` take priority.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the priority alert is in effect.
+  - `source` (string) (**requerido**): If criteria are applicable for calls from any phone number or specific phone number. `ALL_NUMBERS` is equivalent to `ANY_PHONE_NUMBER` and `SPECIFIC_NUMBERS` is equivalent to `SELECT_PHONE_NUMBERS` in the criteria detail APIs.  * `ALL_NUMBERS` - Indicates that priority alert criteria apply for all incoming external numbers.  * `SPECIFIC_NUMBERS` - Indicates priority alert criteria only apply to specific incoming numbers.  * `ANY_INTERNAL` - Indicates that priority alert criteria apply for any internal call. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, ANY_INTERNAL.
+  - `notificationEnabled` (boolean) (**requerido**): Determines whether priority alerting is applied for calls matching this criteria. If `true`, priority alerting is applied. If `false`, this criteria acts as a 'Don't Alert' rule, preventing priority alerting. Criteria with `notificationEnabled` set to `false` (Don't Alert) take precedence over criteria with `notificationEnabled` set to `true` (Alert).
+  - `ringPattern` (string): Distinctive ringtone pattern for incoming calls matching this criteria.  * `NORMAL` - Standard ring pattern.  * `LONG_LONG` - Two long rings.  * `SHORT_LONG_SHORT` - Short ring, long ring, short ring pattern.  * `SHORT_SHORT_LONG` - Two short rings followed by one long ring. Valores: NORMAL, LONG_LONG, SHORT_LONG_SHORT, SHORT_SHORT_LONG.
 
 ### Ejemplo — respuesta 200
 ```json
@@ -59,7 +60,8 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/priorityAlert' \
       "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBLzg2NTAxZDFlLTg1MWMtNDgwYi1hZmE2LTA5MTU4NzQ3NzdmZQ",
       "scheduleName": "Business Vacation",
       "source": "ALL_NUMBERS",
-      "notificationEnabled": true
+      "notificationEnabled": true,
+      "ringPattern": "LONG_LONG"
     }
   ]
 }

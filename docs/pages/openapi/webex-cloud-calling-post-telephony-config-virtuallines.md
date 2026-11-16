@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualLines
-operation_id: Create a Virtual Line
+operation_id: createAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.157256+00:00
+retrieved_at: 2026-11-16T12:36:50.822771+00:00
 ---
 
 # POST /telephony/config/virtualLines
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Create a Virtual Line`
+**operationId:** `createAVirtualLine`
 
 ## Resumen
 Create a Virtual Line

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingPreferences/personalMeetingRoom
-operation_id: Get Personal Meeting Room Options
+operation_id: getPersonalMeetingRoomOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.443906+00:00
+retrieved_at: 2026-11-16T12:36:51.506839+00:00
 ---
 
 # GET /meetingPreferences/personalMeetingRoom
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Get Personal Meeting Room Options`
+**operationId:** `getPersonalMeetingRoomOptions`
 
 ## Resumen
 Get Personal Meeting Room Options

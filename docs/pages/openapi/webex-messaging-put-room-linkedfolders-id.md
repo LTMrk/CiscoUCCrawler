@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: PUT
 path: /room/linkedFolders/{id}
-operation_id: Update an ECM Linked Folder
+operation_id: updateAnECMLinkedFolder
 tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.739449+00:00
+retrieved_at: 2026-11-16T12:36:51.655115+00:00
 ---
 
 # PUT /room/linkedFolders/{id}
 
 **API:** Webex Messaging
 **Área:** ECM folder linking
-**operationId:** `Update an ECM Linked Folder`
+**operationId:** `updateAnECMLinkedFolder`
 
 ## Resumen
 Update an ECM Linked Folder

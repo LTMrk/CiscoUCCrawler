@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /convergedRecordings/reassign
-operation_id: reassign_recordings
+operation_id: reassignRecordings
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.015162+00:00
+retrieved_at: 2026-11-16T12:36:50.625678+00:00
 ---
 
 # POST /convergedRecordings/reassign
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `reassign_recordings`
+**operationId:** `reassignRecordings`
 
 ## Resumen
 Reassign Recordings

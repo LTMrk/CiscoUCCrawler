@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/accessCodes
-operation_id: Delete Access Codes for a Virtual Line
+operation_id: deleteAccessCodesForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.176752+00:00
+retrieved_at: 2026-11-16T12:36:50.829561+00:00
 ---
 
 # DELETE /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/accessCodes
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Delete Access Codes for a Virtual Line`
+**operationId:** `deleteAccessCodesForAVirtualLine`
 
 ## Resumen
 Delete Access Codes for a Virtual Line

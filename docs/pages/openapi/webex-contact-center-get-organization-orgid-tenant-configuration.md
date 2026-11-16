@@ -10,7 +10,7 @@ tags: Tenant Configuration
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.613619+00:00
+retrieved_at: 2026-11-16T12:36:51.152166+00:00
 ---
 
 # GET /organization/{orgid}/tenant-configuration

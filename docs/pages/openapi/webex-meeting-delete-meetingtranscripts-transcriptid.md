@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /meetingTranscripts/{transcriptId}
-operation_id: Delete a Transcript
+operation_id: deleteATranscript
 tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.449932+00:00
+retrieved_at: 2026-11-16T12:36:51.515544+00:00
 ---
 
 # DELETE /meetingTranscripts/{transcriptId}
 
 **API:** Webex Meetings
 **Área:** Transcripts
-**operationId:** `Delete a Transcript`
+**operationId:** `deleteATranscript`
 
 ## Resumen
 Delete a Transcript

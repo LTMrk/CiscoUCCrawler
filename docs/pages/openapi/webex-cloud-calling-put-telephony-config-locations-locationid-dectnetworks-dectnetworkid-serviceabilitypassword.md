@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword
-operation_id: Update DECT Serviceability Password Status
+operation_id: updateDECTServiceabilityPasswordStatus
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.923504+00:00
+retrieved_at: 2026-11-16T12:36:50.524008+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Update DECT Serviceability Password Status`
+**operationId:** `updateDECTServiceabilityPasswordStatus`
 
 ## Resumen
 Update DECT Serviceability Password Status
@@ -44,7 +44,7 @@ This API requires a full or location administrator auth token with the scope of 
 ### Ejemplo — petición
 ```json
 {
-  "enabled": "true"
+  "enabled": true
 }
 ```
 

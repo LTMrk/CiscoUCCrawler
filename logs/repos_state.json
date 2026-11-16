@@ -15,7 +15,7 @@
     ".sdd/templates/repo-standards/docs/specs/README.template.md": "c64a2f38c41fea4875aed7a13bbe9f872776e736",
     ".sdd/templates/repo-standards/docs/specs/module/README.template.md": "e814e19aaa3e6574530330da69ed471fc2424c93",
     "AGENTS.md": "2854385a0373d86549cca50a6956c49434c8ce1e",
-    "ENV.md": "67c39720f283089743e1010b521fcf0088c3ae9d",
+    "ENV.md": "117d8b9189e7297d63bc7ce92a5582d20a6506cd",
     "README.md": "e5b36f2e71e14f0de1e18cf7952e3ec62dc8c8e7",
     "SCRIPTS.md": "8398e6457ff4f69667047f741efcdb6ab541440c",
     "UPGRADING.md": "1784f01e6349840b66593648022476cc6d2f1d3c",
@@ -32,7 +32,7 @@
     "docs/dependency/audit-process.md": "86c0c6bbfee94772571262ee0849de348e92cebc",
     "docs/dependency/snapshots/unmaintained-2026-01-22T07-06-32-565Z.md": "9a521509d71fa3eec26e5d4fcb9fea78dc8c7784",
     "docs/dependency/unmaintained-catalog.md": "035e0a5b8136ba4d7819a6069f6a657c975cbe51",
-    "docs/index.md": "2c40eb82453b2ea00cf1a47003dcf6e3046c95aa",
+    "docs/index.md": "bfba933749d694a595a04fc870600d2612821a92",
     "docs/labs/contact-center/README.md": "8a826e41b8da7221ce201f0daa100b9c166e8d88",
     "docs/samples/webexconnect/readme.md": "99f63f86ec51dd73c01c3e894641e5006dc2bdb0",
     "docs/superpowers/specs/2026-06-11-manual-deploy-package-resolution-design.md": "0ed4dd6633e55d7e4b3458a88f42e757a304632e",
@@ -142,10 +142,42 @@
     "packages/@webex/http-core/docs/specs/README.md": "88dc5de542ae8858bc0ed7dba72f629e0057a06f",
     "packages/@webex/http-core/src/docs/README.md": "c172b774791d4c8e552dd4995ed4dfd54b506e64",
     "packages/@webex/http-core/src/request/docs/README.md": "b30a11b5c21202590f17601638db8fcc71348e0c",
+    "packages/@webex/internal-plugin-ai-assistant/AGENTS.md": "43f32c0b07ae1a962262f7f4c57824da734a7b79",
     "packages/@webex/internal-plugin-ai-assistant/README.md": "67bd8db27bc25ab95439bbf2a12232dae9d930d3",
+    "packages/@webex/internal-plugin-ai-assistant/docs/adr/0001-retain-product-readme.md": "512728248e8fca5fe31cfd6dec4f989bd2a05345",
+    "packages/@webex/internal-plugin-ai-assistant/docs/adr/index.md": "84ff9c9b0e435778e7e79b9e082e445c7f174c3d",
+    "packages/@webex/internal-plugin-ai-assistant/docs/architecture.md": "aca1186e1e3596f8981499d047651e3e39fa4c05",
+    "packages/@webex/internal-plugin-ai-assistant/docs/getting-started.md": "1265ba4a2c2880515288f09f09cc8a2cf45acc8b",
+    "packages/@webex/internal-plugin-ai-assistant/docs/index.md": "06404ea017c0b0096abbc684e898a5edfde50afc",
+    "packages/@webex/internal-plugin-ai-assistant/docs/specs/README.md": "f8907695a11d16fd23bdc0531cff3dec23c0fa59",
+    "packages/@webex/internal-plugin-ai-assistant/src/docs/README.md": "ee5090cf6bd5cb329f5597e49a0b373b272793aa",
+    "packages/@webex/internal-plugin-avatar/AGENTS.md": "9cbb7bc06501036acdbcd805d552076a658b3b01",
     "packages/@webex/internal-plugin-avatar/README.md": "3ff84975c91d92c7f2bfb64b6ed97ae02ceef39e",
+    "packages/@webex/internal-plugin-avatar/docs/adr/0001-retain-product-readme.md": "02af4a66d47af5222c004315923103c2c8d8b7e2",
+    "packages/@webex/internal-plugin-avatar/docs/adr/index.md": "1aa803196fdf881a6e29b46ed2801167c133948a",
+    "packages/@webex/internal-plugin-avatar/docs/architecture.md": "eaf3d4872d67fd58f766dbd0772bd729922a3b69",
+    "packages/@webex/internal-plugin-avatar/docs/getting-started.md": "aa04ae4833147d6f7bfe9ba3662d7e346da9199c",
+    "packages/@webex/internal-plugin-avatar/docs/index.md": "4bb1d33e0ff0788e2a38450a580d5f16bb6e710f",
+    "packages/@webex/internal-plugin-avatar/docs/specs/README.md": "39e5a8f0a8669332d58e7fd9b6ca384d3445ad61",
+    "packages/@webex/internal-plugin-avatar/src/docs/README.md": "ff83fc8a7f8b42706e2b5f26d026213e60e13c3d",
+    "packages/@webex/internal-plugin-board/AGENTS.md": "288c397003737d8259bff03ec5626ac7ebe978b6",
     "packages/@webex/internal-plugin-board/README.md": "f1793b2568535d772390a10cac92bceae47bde76",
+    "packages/@webex/internal-plugin-board/docs/adr/0001-retain-product-readme.md": "afe37b91356031ec452db173e7633c2f60f00841",
+    "packages/@webex/internal-plugin-board/docs/adr/index.md": "2b83edf6aacb6c56b0636561b5e48f7e8efe9941",
+    "packages/@webex/internal-plugin-board/docs/architecture.md": "490eaae7c7a812ba9cb4906fd75de167f82f0152",
+    "packages/@webex/internal-plugin-board/docs/getting-started.md": "3d1237b435e3d3ba1df8a6a12ac8d681bda05bd5",
+    "packages/@webex/internal-plugin-board/docs/index.md": "7bc5dc93c48619110f2cc4cfe6cbe2d560209a36",
+    "packages/@webex/internal-plugin-board/docs/specs/README.md": "a3debcefec35c0e6410299bc74af46ec363d002b",
+    "packages/@webex/internal-plugin-board/src/docs/README.md": "8130221a4013e9f83f8ada71444680505406425e",
+    "packages/@webex/internal-plugin-calendar/AGENTS.md": "c6b76f43e9c516f3ade1f2a82db8b5d2ee330c2b",
     "packages/@webex/internal-plugin-calendar/README.md": "c86e54f4d747e7c65602a68e2e3a770566a2b062",
+    "packages/@webex/internal-plugin-calendar/docs/adr/0001-retain-product-readme.md": "cfe4fc4d1e82549ef1a9cad789f170294123dece",
+    "packages/@webex/internal-plugin-calendar/docs/adr/index.md": "43dfe0a48c7e703a1fd245208d7a23a5b72ed56d",
+    "packages/@webex/internal-plugin-calendar/docs/architecture.md": "ddb05cfbda101a5bc8b106f2d9e836c29becaaa2",
+    "packages/@webex/internal-plugin-calendar/docs/getting-started.md": "7c68fe43baeb7d80c3301a910f6bc23990ba2f57",
+    "packages/@webex/internal-plugin-calendar/docs/index.md": "7f59ce93c668ffb2c601596c9038e4b23087f3dc",
+    "packages/@webex/internal-plugin-calendar/docs/specs/README.md": "53d61f4396b7dd57de728bd751254e9077c3891e",
+    "packages/@webex/internal-plugin-calendar/src/docs/README.md": "071399938302b8c1ba83c1e539a78b1589633f6f",
     "packages/@webex/internal-plugin-call-ai-summary/AGENTS.md": "60ec1a83ffa7baac0ebac3d38e6f818c0a28b79f",
     "packages/@webex/internal-plugin-call-ai-summary/README.md": "8586af818d2efe72d0a00803f10fae4c0f74e86f",
     "packages/@webex/internal-plugin-call-ai-summary/docs/adr/0001-flatten-container-response-and-prefer-single-request-summary.md": "39ae25081515934ea2bda3d74787d03e3b71bfd8",
@@ -155,8 +187,15 @@
     "packages/@webex/internal-plugin-call-ai-summary/docs/index.md": "f3f21c756b1c3299f0b4e9d1ca0b39e33ec2dc60",
     "packages/@webex/internal-plugin-call-ai-summary/docs/specs/README.md": "bafca005aa73059eaf09bb71833a3b0c9c3ec919",
     "packages/@webex/internal-plugin-call-ai-summary/src/docs/README.md": "b6ba14b6b0cbebfc81b6db1476888464292de70a",
+    "packages/@webex/internal-plugin-conversation/AGENTS.md": "4f94a76fa24baef5141252fcb6c8a7cd6f3a2b5f",
     "packages/@webex/internal-plugin-conversation/README.md": "6a2b638b69e82f25df8a8fb4da057634989df20c",
+    "packages/@webex/internal-plugin-conversation/docs/adr/index.md": "9325cee6f4c7323f759f98bcc0a6138a59f689ee",
+    "packages/@webex/internal-plugin-conversation/docs/architecture.md": "0ae4c0c5d44c985e0286c977070ea4b53aa2561d",
+    "packages/@webex/internal-plugin-conversation/docs/getting-started.md": "0d079399c67cf51393c3bebec9239db29fc1fe6b",
+    "packages/@webex/internal-plugin-conversation/docs/index.md": "cab0a94a628b5278ec46c278e7f9130f86af2fca",
+    "packages/@webex/internal-plugin-conversation/docs/specs/README.md": "4cff1fb11b7378430c9f60558aaee48d4245322f",
     "packages/@webex/internal-plugin-conversation/src/activity-threading.md": "66cd9dbdbdd60410686bca0ea72287458220f4f3",
+    "packages/@webex/internal-plugin-conversation/src/docs/README.md": "71c52a9f79d102a2919a920fea567f5383fc2336",
     "packages/@webex/internal-plugin-device/AGENTS.md": "e8bd1d4bf4815758628ce148e7fa1cb645c64969",
     "packages/@webex/internal-plugin-device/README.md": "3b54b808f1ea818c26322a1fb270f11c5ffcf4f0",
     "packages/@webex/internal-plugin-device/docs/adr/index.md": "c28d8c632f5f9174528f21e4a96b5e3ae8a88b7e",
@@ -165,10 +204,34 @@
     "packages/@webex/internal-plugin-device/docs/index.md": "f32f4094a2ee39f2e3154a83dd743cc6312c9330",
     "packages/@webex/internal-plugin-device/docs/specs/README.md": "7f4eacb88a18adfca0fe09c4b1feccc5a0ae992f",
     "packages/@webex/internal-plugin-device/src/docs/README.md": "6e1f130d3b25eadc8a82cb220aff84083b7ef492",
+    "packages/@webex/internal-plugin-dss/AGENTS.md": "32a067098840ef383c90af03cefea0a0cd7fbad7",
     "packages/@webex/internal-plugin-dss/README.md": "41477c96ef5748843f0f4e300175176a80183a34",
+    "packages/@webex/internal-plugin-dss/docs/adr/0001-retain-product-readme.md": "7b717b916db9d63a78d71a1be67c3605766dadf8",
+    "packages/@webex/internal-plugin-dss/docs/adr/index.md": "210e024bfd09c2806cc253316fb81451c101fa8f",
+    "packages/@webex/internal-plugin-dss/docs/architecture.md": "7d82c42d18dcd9015fdba392cdba36bae172c854",
+    "packages/@webex/internal-plugin-dss/docs/getting-started.md": "1ca0a146ed04deda41defa986dac8648e941ae7d",
+    "packages/@webex/internal-plugin-dss/docs/index.md": "55460bf3596d1dce9a54e6af2ccbd57809511c66",
+    "packages/@webex/internal-plugin-dss/docs/specs/README.md": "7a044fd4ec1702c04a00c38711dde3659e54f69a",
+    "packages/@webex/internal-plugin-dss/src/docs/README.md": "f50390c98b299f2e06b053640cf7bdd2058ac362",
+    "packages/@webex/internal-plugin-ediscovery/AGENTS.md": "049710e4bccdbf333a0e857023227c7cc1fa5f04",
     "packages/@webex/internal-plugin-ediscovery/README.md": "f64ddbacd1011fe175567f38f0c221ab82dc849e",
+    "packages/@webex/internal-plugin-ediscovery/docs/adr/0001-retain-product-readme.md": "1944e03f78edc8331a84dd422e5f5488533ef24f",
+    "packages/@webex/internal-plugin-ediscovery/docs/adr/index.md": "4702a3c394d7475bd700072b84b8548fdcf007ac",
+    "packages/@webex/internal-plugin-ediscovery/docs/architecture.md": "ff9ccf96f94356ddba6b58c8267cc2b1b7eda024",
+    "packages/@webex/internal-plugin-ediscovery/docs/getting-started.md": "b3cd5df671497910db0184e975fbcd61cdd269d0",
+    "packages/@webex/internal-plugin-ediscovery/docs/index.md": "e36e97df66db0305a9a54f61f617516b757352f1",
+    "packages/@webex/internal-plugin-ediscovery/docs/specs/README.md": "2f1d8141d58732de534471f10cc34402afe3824c",
+    "packages/@webex/internal-plugin-ediscovery/src/docs/README.md": "b97880feb9783078bf3273e05c1eb98a3d7a5388",
+    "packages/@webex/internal-plugin-encryption/AGENTS.md": "20e9a4081cee26c276d94cbe969c2171316d5157",
     "packages/@webex/internal-plugin-encryption/README.md": "6c7277d0b3aacb1b3e4c76a0c2f1d7de541f32bf",
     "packages/@webex/internal-plugin-encryption/assets/README.md": "fc8f7b3d85de0fbf86606ddf25a814fdd696884d",
+    "packages/@webex/internal-plugin-encryption/docs/adr/0001-retain-product-readme.md": "f2b70d6308609f918d3e37db7241be13d193dc2b",
+    "packages/@webex/internal-plugin-encryption/docs/adr/index.md": "f998bf5c64a96a5b40ea80dbe25d76d5ff5ce252",
+    "packages/@webex/internal-plugin-encryption/docs/architecture.md": "ece124f36b6561dc85c1735f6dc80d4121432ecc",
+    "packages/@webex/internal-plugin-encryption/docs/getting-started.md": "3514e7a9007d1258f73d2ff6e0818306647f618e",
+    "packages/@webex/internal-plugin-encryption/docs/index.md": "d06498097253db75d1ad9bf85ecab460b689bde0",
+    "packages/@webex/internal-plugin-encryption/docs/specs/README.md": "226bc4a47dc5eaaaff3ab839d6384e282eb81b5d",
+    "packages/@webex/internal-plugin-encryption/src/docs/README.md": "748699e15602753f8823673e4730c89987a69e18",
     "packages/@webex/internal-plugin-feature/AGENTS.md": "2db6b1e88ebf90e9c43810ca8d7127080ad14159",
     "packages/@webex/internal-plugin-feature/README.md": "397fafa723bfd3ef27eb66828c11bb10bab0a6b4",
     "packages/@webex/internal-plugin-feature/docs/adr/0001-retain-product-readme.md": "a94fe1f729b46c10c8639a7d5949dcf74f2790a8",
@@ -178,7 +241,15 @@
     "packages/@webex/internal-plugin-feature/docs/index.md": "566267171ed045b48721d0045a8433079d9c400a",
     "packages/@webex/internal-plugin-feature/docs/specs/README.md": "f438e793d376b8629066a8708a3bc7e4f2aa226c",
     "packages/@webex/internal-plugin-feature/src/docs/README.md": "9b888a024d91df46e6d74108501dc1669d06aebd",
+    "packages/@webex/internal-plugin-flag/AGENTS.md": "b0207e9caf162e2e7891669957076703663db495",
     "packages/@webex/internal-plugin-flag/README.md": "086f755a1aa60f3c19717ebddd963d9afb99f122",
+    "packages/@webex/internal-plugin-flag/docs/adr/0001-retain-product-readme.md": "33d8cde7712d786e1a773620e824efeca30365f9",
+    "packages/@webex/internal-plugin-flag/docs/adr/index.md": "6fd0279948ccb5cfcc31d32267c5a7e5df9eb9be",
+    "packages/@webex/internal-plugin-flag/docs/architecture.md": "b604481f8b1d0d2961989a9599a5e8fb2f152fa6",
+    "packages/@webex/internal-plugin-flag/docs/getting-started.md": "8406c57a8a28fb022c6b89fbaa0def15dbafadd7",
+    "packages/@webex/internal-plugin-flag/docs/index.md": "62f7ad64c2ac349b63e8563f3b91ad95cdefe74a",
+    "packages/@webex/internal-plugin-flag/docs/specs/README.md": "bccf1eb8ba86e96a207a5b04b357a50e0215f6f3",
+    "packages/@webex/internal-plugin-flag/src/docs/README.md": "9657b5e48f5267957db1f7e2844f61dc2137f22b",
     "packages/@webex/internal-plugin-identity/README.md": "9f1875a296a02ecd73e9ce2c4821aa3654ed1ef8",
     "packages/@webex/internal-plugin-llm/AGENTS.md": "67e92176a7d328aea78d823b00e402beb4fbd384",
     "packages/@webex/internal-plugin-llm/README.md": "1fd44f0c6e1d41e6e6cec886c15f466411358361",
@@ -189,8 +260,24 @@
     "packages/@webex/internal-plugin-llm/docs/index.md": "0180138c7d25ee98e14db10aee128e05dbfde844",
     "packages/@webex/internal-plugin-llm/docs/specs/README.md": "7b4a716f8d06950ce45ecfd99368549a83cb5026",
     "packages/@webex/internal-plugin-llm/src/docs/README.md": "62faa2b3ecc8c2d25464d48aeba4cf0b546e2cc2",
+    "packages/@webex/internal-plugin-locus/AGENTS.md": "4f77ce96dd6f21bb7135b00aafe8b23e29c8835d",
     "packages/@webex/internal-plugin-locus/README.md": "e66f97b9ac57a6f28529b5da2f5a81c2ad33a35f",
+    "packages/@webex/internal-plugin-locus/docs/adr/0001-retain-product-readme.md": "cb8c2fc9599c8371c00d2f7b73a76901f79be46a",
+    "packages/@webex/internal-plugin-locus/docs/adr/index.md": "af723ab545a363a01bd58763692aaa04d8c390a9",
+    "packages/@webex/internal-plugin-locus/docs/architecture.md": "efc6d55f5dd9f70762f936a2b8721aa80db29b36",
+    "packages/@webex/internal-plugin-locus/docs/getting-started.md": "8c5c47830c5a5bf6fc1af1a75ff3173cefd08feb",
+    "packages/@webex/internal-plugin-locus/docs/index.md": "ded695dc264786490ef5496551bed5566390d8e4",
+    "packages/@webex/internal-plugin-locus/docs/specs/README.md": "7740605f10b3e3dde2892779a3f5561dacd3d95b",
+    "packages/@webex/internal-plugin-locus/src/docs/README.md": "918cea29ba6344598d98be72ad253560cd6056c0",
+    "packages/@webex/internal-plugin-lyra/AGENTS.md": "48112f5ddaee94f0158deb0cbd2fa1bbbdb268c4",
     "packages/@webex/internal-plugin-lyra/README.md": "01167a1df6c099f2bd785b121ab969a538e47334",
+    "packages/@webex/internal-plugin-lyra/docs/adr/0001-retain-product-readme.md": "30dc1bdc63c78a90bfe1880f8bafb5869446711e",
+    "packages/@webex/internal-plugin-lyra/docs/adr/index.md": "78d6e1f8d0bac1d2a23de159cdf1badfe1e837a8",
+    "packages/@webex/internal-plugin-lyra/docs/architecture.md": "6a222ca6978a55affc1849695230cceaed35dbbf",
+    "packages/@webex/internal-plugin-lyra/docs/getting-started.md": "075334ac7bafd8031797f675c6af456cdf31d2d4",
+    "packages/@webex/internal-plugin-lyra/docs/index.md": "694885a7aed1fc9d77712a14a95146f227df5bb6",
+    "packages/@webex/internal-plugin-lyra/docs/specs/README.md": "89cc45c8b6c8eb5a7789125bdded75b418991f92",
+    "packages/@webex/internal-plugin-lyra/src/docs/README.md": "f57d5daad69a8035f440fbdfcdece0a5beb61033",
     "packages/@webex/internal-plugin-mercury/AGENTS.md": "5f3fecf65423879b01dc15af2d92de94152abf73",
     "packages/@webex/internal-plugin-mercury/README.md": "e920f8e39387f0db6d86a3528036c378d0f7295e",
     "packages/@webex/internal-plugin-mercury/docs/adr/0001-retain-product-readme.md": "e0d87dc2704740bb91cf9bbe5152ac55d1d1be2b",
@@ -213,12 +300,60 @@
     "packages/@webex/internal-plugin-metrics/src/privacy-and-security-permission-enricher/docs/README.md": "b1fadf45232339a8c9641c7a7774b7634cbbc887",
     "packages/@webex/internal-plugin-metrics/src/rtcMetrics/docs/README.md": "663a3656a1bad54359d1d0526dee43134a778085",
     "packages/@webex/internal-plugin-metrics/src/unhandled-exception-telemetry/docs/README.md": "d8263ebfff48a337d801e24f5405355ad987bb1f",
+    "packages/@webex/internal-plugin-presence/AGENTS.md": "f4dcabc327aa1253f2f2a021b5fc03f5684a09d0",
     "packages/@webex/internal-plugin-presence/README.md": "bba9bdad32bc2940fde4bf1173ba28b579665351",
+    "packages/@webex/internal-plugin-presence/docs/adr/0001-retain-product-readme.md": "239b0023f15e6d615edb181e02a62e13f95ac2d1",
+    "packages/@webex/internal-plugin-presence/docs/adr/index.md": "489aefedc72deb6c47e02ee9b6c995d6364cfee9",
+    "packages/@webex/internal-plugin-presence/docs/architecture.md": "fc2de512ba9b84340ab7fb7071d552f8545be40f",
+    "packages/@webex/internal-plugin-presence/docs/getting-started.md": "87089f282f6c7bbb4c03e7d7a40d87f3bf75a98f",
+    "packages/@webex/internal-plugin-presence/docs/index.md": "1304bfd2b69d67e75e05672fa05c64ad10510f5b",
+    "packages/@webex/internal-plugin-presence/docs/specs/README.md": "0c55f4fe398272d75af4c045373a167a688fdec6",
+    "packages/@webex/internal-plugin-presence/src/docs/README.md": "01b02b3eb17b452d61351285f72fdd8f864c072e",
+    "packages/@webex/internal-plugin-scheduler/AGENTS.md": "e56fd63b043bebb111f902378b58cabc6ebe2bda",
     "packages/@webex/internal-plugin-scheduler/README.md": "070cd974922bebf7eeccf43e54cec1ef7adf272d",
+    "packages/@webex/internal-plugin-scheduler/docs/adr/0001-retain-product-readme.md": "389e9619541c70e77f6d1f63526b5c917e992487",
+    "packages/@webex/internal-plugin-scheduler/docs/adr/index.md": "ac306072a2652662c9079c1b54b8cc2373ed77ed",
+    "packages/@webex/internal-plugin-scheduler/docs/architecture.md": "8557337a562e0224a1eaa2f0b949117eeb31ccf7",
+    "packages/@webex/internal-plugin-scheduler/docs/getting-started.md": "5dd81ccd96916793ba4cc8c87497b690cc66a11d",
+    "packages/@webex/internal-plugin-scheduler/docs/index.md": "78ff053e825760329bcafe59faf631ec576fc325",
+    "packages/@webex/internal-plugin-scheduler/docs/specs/README.md": "8700d87b7cb5b488529994540602fa3d664876ec",
+    "packages/@webex/internal-plugin-scheduler/src/docs/README.md": "478570d5eb291a5d19dd6afc11060065afca0f4a",
+    "packages/@webex/internal-plugin-search/AGENTS.md": "6070e31b9133b319fde9d40710ae700b537716ed",
     "packages/@webex/internal-plugin-search/README.md": "731462eb1f544e84fc98d1e46a43969aa2315d17",
+    "packages/@webex/internal-plugin-search/docs/adr/0001-retain-product-readme.md": "e4a5ab3c7696a58220745c8326b98eec2b80ca50",
+    "packages/@webex/internal-plugin-search/docs/adr/index.md": "3565724ace3c0cb73db237738d81c0ad1c362bb7",
+    "packages/@webex/internal-plugin-search/docs/architecture.md": "3f912b6fbb768750fa234f2e5521088f667304ef",
+    "packages/@webex/internal-plugin-search/docs/getting-started.md": "c229085000c01f18eae355f14194099da3d9a024",
+    "packages/@webex/internal-plugin-search/docs/index.md": "50e713d531d949290fa2c1cb42818aecb7d24fa0",
+    "packages/@webex/internal-plugin-search/docs/specs/README.md": "67abfdacb6df69af2006dfb176c871ed1358fec5",
+    "packages/@webex/internal-plugin-search/src/docs/README.md": "e59ba1346a93726529508bfd7131f665465fd97d",
+    "packages/@webex/internal-plugin-support/AGENTS.md": "06bf5e510c08f598258883f572c1fb401aed0147",
     "packages/@webex/internal-plugin-support/README.md": "2123d0847011dbbba86eb3e176be7822b44633f4",
+    "packages/@webex/internal-plugin-support/docs/adr/0001-retain-product-readme.md": "3d2bd031583e11a05fb0a2eadebb4fde6dd6e2af",
+    "packages/@webex/internal-plugin-support/docs/adr/index.md": "91fcd89300e00e35f3057d6a36b2c41b92f0bf92",
+    "packages/@webex/internal-plugin-support/docs/architecture.md": "8f0c16e15b66518f1f4121aac4e1b93790519bd9",
+    "packages/@webex/internal-plugin-support/docs/getting-started.md": "14da42da516671e371ae8765efb4ffa250e07cb8",
+    "packages/@webex/internal-plugin-support/docs/index.md": "405c0b927870ddfc2c54c62482e40632709c33d4",
+    "packages/@webex/internal-plugin-support/docs/specs/README.md": "9fd6768c5efdabba4524c29e18858a08fb6f0a4b",
+    "packages/@webex/internal-plugin-support/src/docs/README.md": "57da1b9a06bf0de584ccffdb02637131785e788d",
+    "packages/@webex/internal-plugin-task/AGENTS.md": "b3569e417d996ff451a9224c816414ffc986591d",
     "packages/@webex/internal-plugin-task/README.md": "24053a961fe463e80522dd4880f313183c26bb16",
+    "packages/@webex/internal-plugin-task/docs/adr/0001-retain-product-readme.md": "23d02957099eed77709ca0022a69468096bc3001",
+    "packages/@webex/internal-plugin-task/docs/adr/index.md": "25489db7bc18817f26895b3a861ea081ceef538f",
+    "packages/@webex/internal-plugin-task/docs/architecture.md": "233f0a8ad8a67555e23adbc4b2975f61b40bea8d",
+    "packages/@webex/internal-plugin-task/docs/getting-started.md": "83fb06fbaceb475ba192fbc8f88ed5c10e6e8d17",
+    "packages/@webex/internal-plugin-task/docs/index.md": "c9ed088cbb3fabb7c369599f60820a1c4dd16a4e",
+    "packages/@webex/internal-plugin-task/docs/specs/README.md": "5c5f8ba828cc71558ea45d3899246ce2f070154e",
+    "packages/@webex/internal-plugin-task/src/docs/README.md": "bb04e941113f42be017ce2b9ce80723c2263cf94",
+    "packages/@webex/internal-plugin-team/AGENTS.md": "55f219bf612bf3ea9b7a8dad197b9a0e2bac8648",
     "packages/@webex/internal-plugin-team/README.md": "b2a4f914a283e9848b0f1098c6b675d57b8ea5b4",
+    "packages/@webex/internal-plugin-team/docs/adr/0001-retain-product-readme.md": "9a6fa1ce96c83ba1eb94a46b2404de559b55184d",
+    "packages/@webex/internal-plugin-team/docs/adr/index.md": "f502ffa041698fdee480684af14bb8697772b887",
+    "packages/@webex/internal-plugin-team/docs/architecture.md": "f54c084ba3c708cac8e8f77d83b61268e530c650",
+    "packages/@webex/internal-plugin-team/docs/getting-started.md": "18315802655fcff30cd89c745407f1b10a42df9e",
+    "packages/@webex/internal-plugin-team/docs/index.md": "aa21d7ac2899146d36cefc86cca81c6452b5932b",
+    "packages/@webex/internal-plugin-team/docs/specs/README.md": "ba8b04f53349a242608cfb07ab21df0f1c524b65",
+    "packages/@webex/internal-plugin-team/src/docs/README.md": "c4f3660f982ce130f8b68e40fb8a621f204c28d5",
     "packages/@webex/internal-plugin-user/AGENTS.md": "125b8f6191ad2a6ea2cbc9df4dad450cc0396bc5",
     "packages/@webex/internal-plugin-user/README.md": "54374172e48494e15794740ef6fd626893cc8fde",
     "packages/@webex/internal-plugin-user/docs/adr/0001-retain-product-readme.md": "6f5b5c8b93da462f120d0c93ddb1589b4d2c0a81",
@@ -228,7 +363,15 @@
     "packages/@webex/internal-plugin-user/docs/index.md": "f6f9644ba575c86d1275f872a6f9db6f76d06c91",
     "packages/@webex/internal-plugin-user/docs/specs/README.md": "eb2cb6ddfc5db5b5d8b118fbd02c41289002d008",
     "packages/@webex/internal-plugin-user/src/docs/README.md": "907ca30c9826b3298df90d5d27604db037d8aa49",
+    "packages/@webex/internal-plugin-voicea/AGENTS.md": "7a6da77a60cede1e4c1ba39b5fc83a62e3590330",
     "packages/@webex/internal-plugin-voicea/README.md": "2e8a7000fd1dce761915dd70b0300beda820e391",
+    "packages/@webex/internal-plugin-voicea/docs/adr/0001-retain-product-readme.md": "62b01fcfaa74a465d9c27019755bec502670fa8d",
+    "packages/@webex/internal-plugin-voicea/docs/adr/index.md": "0d37263bd97f72f6c97702a5aa49d8fb9c9c6279",
+    "packages/@webex/internal-plugin-voicea/docs/architecture.md": "0484d368c7e638b12661cfefb25a28512e8ab20f",
+    "packages/@webex/internal-plugin-voicea/docs/getting-started.md": "b39616d72a54d255e56ac556e8919f4b78c47af4",
+    "packages/@webex/internal-plugin-voicea/docs/index.md": "0ffaf6f439901bb776b780af3ccd5dcc3d96c60d",
+    "packages/@webex/internal-plugin-voicea/docs/specs/README.md": "a8c74563e0ef607b4e254c7c2e0de63166440145",
+    "packages/@webex/internal-plugin-voicea/src/docs/README.md": "60306087d870f310278e1c318ac7988061985df2",
     "packages/@webex/internal-plugin-wdm/AGENTS.md": "14cda3590851f3830adffd13d7094ec87efa69b6",
     "packages/@webex/internal-plugin-wdm/README.md": "dcd59fc7f86a01953141231138214edaa5a38b74",
     "packages/@webex/internal-plugin-wdm/docs/adr/index.md": "fd750a8894801adf129b6003bc1b7d52d60c76fd",
@@ -247,7 +390,15 @@
     "packages/@webex/media-helpers/docs/getting-started.md": "7f29ca3b4452e8e2fb93b04c2e2a56cea3e2cf0d",
     "packages/@webex/media-helpers/docs/index.md": "140330561d13b2bc7dc0282fb3c813eb80c21fbd",
     "packages/@webex/media-helpers/docs/specs/README.md": "503e5c643a181aa0c3b13a0c778675abafe3b39c",
+    "packages/@webex/plugin-attachment-actions/AGENTS.md": "5c8ec94372e4dc95e36cfce41c1a3c2d398b46f2",
     "packages/@webex/plugin-attachment-actions/README.md": "b0a9a1c46b3ac75d298ebea87a3c292f52bccf9f",
+    "packages/@webex/plugin-attachment-actions/docs/adr/0001-retain-product-readme.md": "4e87f6bd11052eb73300035d5115f3284d339f31",
+    "packages/@webex/plugin-attachment-actions/docs/adr/index.md": "acafc03bcf6800d19331a887cf8a8bd13f84e548",
+    "packages/@webex/plugin-attachment-actions/docs/architecture.md": "cc705ad27ac90044d9ec00d8568d0f3ecccbabba",
+    "packages/@webex/plugin-attachment-actions/docs/getting-started.md": "388b862bd8693b0a62746c728bc4d4e47c46a0d7",
+    "packages/@webex/plugin-attachment-actions/docs/index.md": "02a96c92305fc00f5eec288d6905eaace02587d2",
+    "packages/@webex/plugin-attachment-actions/docs/specs/README.md": "5ddf81d5e7246618b4c09c1c72420f3768b721b2",
+    "packages/@webex/plugin-attachment-actions/src/docs/README.md": "6472ca1dbf45c57ba871194f78806dd96abbeae0",
     "packages/@webex/plugin-authorization-browser-first-party/AGENTS.md": "a67c70f5e24384247f1c4afacb8c9d6b07116ebd",
     "packages/@webex/plugin-authorization-browser-first-party/README.md": "ec96a4ab3f258636fb86d127378e5aa0ae67ad3a",
     "packages/@webex/plugin-authorization-browser-first-party/docs/adr/0001-retain-product-readme.md": "97039cb17fd405f44c3e8b80b5316464235d0f7a",
@@ -257,15 +408,55 @@
     "packages/@webex/plugin-authorization-browser-first-party/docs/index.md": "700e5fa4e4e69c2ecf2f8969022cd570e77b7eda",
     "packages/@webex/plugin-authorization-browser-first-party/docs/specs/README.md": "8234c6e08d388a4af62c6089ef5929fa72c742ec",
     "packages/@webex/plugin-authorization-browser-first-party/src/docs/README.md": "3e3f008c166f66d79657f7d88318b675126f69d3",
+    "packages/@webex/plugin-authorization-browser/AGENTS.md": "13914d87303927171fa0b16f49e894e10976a7dd",
     "packages/@webex/plugin-authorization-browser/BROWSER-OAUTH-FLOW-GUIDE.md": "eb3d492dcf5c8928c3112a3e0f0eabf504c65be9",
     "packages/@webex/plugin-authorization-browser/README.md": "b9900fed8a404fd16e666687788a81699cb132d8",
+    "packages/@webex/plugin-authorization-browser/docs/adr/0001-keep-existing-docs-separate.md": "3de3dd1d310cdf74a71214b3aa33785aaa7db480",
+    "packages/@webex/plugin-authorization-browser/docs/adr/index.md": "eb51025c008ed417de2843702c02a56ab191b4a0",
+    "packages/@webex/plugin-authorization-browser/docs/architecture.md": "e6fe88d80661e3c7782857838e7b6f11111a7c46",
+    "packages/@webex/plugin-authorization-browser/docs/getting-started.md": "28fd5c910b0581032320737f172447a19c6ea8a1",
+    "packages/@webex/plugin-authorization-browser/docs/index.md": "9916f26340853e8483343e865ca85eff0e32e130",
+    "packages/@webex/plugin-authorization-browser/docs/specs/README.md": "23e5b01f1efcba28363d1eb2e9398ed98ead2e35",
+    "packages/@webex/plugin-authorization-browser/src/docs/README.md": "6bb44a76769289c73ea1d72b44abb36814dc119c",
+    "packages/@webex/plugin-authorization-node/AGENTS.md": "84fbfc7a997c846ccf770ba982b4c9c1de6e8f9e",
     "packages/@webex/plugin-authorization-node/NODE-OAUTH-FLOW-GUIDE.md": "475679f044d5a25840cdb2c1d335922a44360a32",
     "packages/@webex/plugin-authorization-node/README.md": "6c71d8be1504bdfbd22a64021879b1f84c96d213",
+    "packages/@webex/plugin-authorization-node/docs/adr/0001-keep-existing-docs-separate.md": "014978eeb165d6613890b4fe40dec49fcf0113a6",
+    "packages/@webex/plugin-authorization-node/docs/adr/index.md": "8057676c6e78d57b5d01eedbf572c2257cf2faaa",
+    "packages/@webex/plugin-authorization-node/docs/architecture.md": "89a7a4a3caf53fb92f5da959de16c0d9ccf11fbe",
+    "packages/@webex/plugin-authorization-node/docs/getting-started.md": "992b86b50521a039c1ada22e625ddf7a16ee1831",
+    "packages/@webex/plugin-authorization-node/docs/index.md": "ae8801e66c594a65f20f4788e838501049ce40de",
+    "packages/@webex/plugin-authorization-node/docs/specs/README.md": "de249a628bd95018efc44429df7af4722de96804",
+    "packages/@webex/plugin-authorization-node/src/docs/README.md": "d1bddb77c88329d73352bb245c6c0c936c73d3eb",
+    "packages/@webex/plugin-authorization/AGENTS.md": "ed9218c3a2eb7959bcd51890864b93a7ff4a3585",
     "packages/@webex/plugin-authorization/OAUTH-FLOW-GUIDE.md": "e538cfa79b0b228a048f558a5e995d17b96c413a",
     "packages/@webex/plugin-authorization/README.md": "d9e7dfca88f925fd1efa77e13094eceff635ee6e",
+    "packages/@webex/plugin-authorization/docs/adr/0001-keep-existing-docs-separate.md": "6019ac04e912f7c413993e49bc825f7f1628e00d",
+    "packages/@webex/plugin-authorization/docs/adr/index.md": "b2e07b980dae3aa4cc3f8d8e3d39babe811524cd",
+    "packages/@webex/plugin-authorization/docs/architecture.md": "8eee20c65d694f69b04e874f6028546fb6664b78",
+    "packages/@webex/plugin-authorization/docs/getting-started.md": "551e83219c2821df686451ef65bf8e5f231daa83",
+    "packages/@webex/plugin-authorization/docs/index.md": "e522674b5d332398752042b972131eb97ef44abc",
+    "packages/@webex/plugin-authorization/docs/specs/README.md": "3f04a4d63796587c79a2050175e9fd5f3b0c42b9",
+    "packages/@webex/plugin-authorization/src/docs/README.md": "4d5f52f1b92728a77e418121f74b86a0b10a6a2a",
+    "packages/@webex/plugin-device-manager/AGENTS.md": "ad714c75e400254bac1021813d0d0121f09c0f67",
     "packages/@webex/plugin-device-manager/README.md": "1353f401f18eed0163d3b7561ae87cba91a270f1",
+    "packages/@webex/plugin-device-manager/docs/adr/0001-retain-product-readme.md": "d21596e27cc087c00e85968b3276d2887d3704c3",
+    "packages/@webex/plugin-device-manager/docs/adr/index.md": "3311ff79599523ca84e00900045cc88a93ff0f12",
+    "packages/@webex/plugin-device-manager/docs/architecture.md": "f285439f5d8c8be33de343fec37b598f0589007f",
+    "packages/@webex/plugin-device-manager/docs/getting-started.md": "ba08cc5102ddc292c768b6fd816befc42226853c",
+    "packages/@webex/plugin-device-manager/docs/index.md": "c58f9795ebc39909547d5dc173cc7a48e5801b53",
+    "packages/@webex/plugin-device-manager/docs/specs/README.md": "87a133e9eea34f0405cff209968d8f8be0c7be6c",
+    "packages/@webex/plugin-device-manager/src/docs/README.md": "10f8716c80e149b18649623a0fc0f5ba38d125fc",
+    "packages/@webex/plugin-encryption/AGENTS.md": "6a1c53477bf9a9c3d340d7ac19fee3f145dd7cd6",
     "packages/@webex/plugin-encryption/README.md": "8328dd755016798235ed66c73b8fcb3dbb6e6de1",
     "packages/@webex/plugin-encryption/developer-quickstart.md": "e82c280482bbd4a0a5656f80e11e05fccd225ef2",
+    "packages/@webex/plugin-encryption/docs/adr/0001-retain-product-docs.md": "692270b237f321c3ef520ab3ec16f8b94595e6be",
+    "packages/@webex/plugin-encryption/docs/adr/index.md": "b38d062c797c83b6ca5eba309500fea5f994f6ab",
+    "packages/@webex/plugin-encryption/docs/architecture.md": "63375b122e5263ef8b75bd976814d171caa88bc8",
+    "packages/@webex/plugin-encryption/docs/getting-started.md": "d0898b2e63026a557fa8386fcc89c996edf0c300",
+    "packages/@webex/plugin-encryption/docs/index.md": "027a3e4ccfd26390fb2a44f214c3d3419813a9f9",
+    "packages/@webex/plugin-encryption/docs/specs/README.md": "b7264c19eb89da6358489d66057c3781f75db76b",
+    "packages/@webex/plugin-encryption/src/docs/README.md": "93754143e062cdee4a7c4144892f78a2a114feb1",
     "packages/@webex/plugin-logger/AGENTS.md": "c6ad78c5324a700e28fca60ad9db29db36351c89",
     "packages/@webex/plugin-logger/README.md": "933fb9185f3af6b510e7dce77fb00b11ae6366c8",
     "packages/@webex/plugin-logger/docs/adr/0001-retain-product-readme.md": "7992efacc3ca736fa0a282a23a68f1e658a717bb",
@@ -339,18 +530,103 @@
     "packages/@webex/plugin-meetings/src/recording-controller/ai-docs/recording-controller-spec.md": "35c053698cacc59c26bd6c965be8aa5cd3fb8bb1",
     "packages/@webex/plugin-meetings/src/roap/ai-docs/roap-spec.md": "b35afd8bbc31d6985d1ab20d60ef07ab2afc98c8",
     "packages/@webex/plugin-meetings/src/webinar/ai-docs/webinar-spec.md": "11239cfcf0deda5dcb5a8fe31e7f8b3498080d9d",
+    "packages/@webex/plugin-memberships/AGENTS.md": "1a4aa0f7898775adf454792093fabc9a4a826744",
     "packages/@webex/plugin-memberships/README.md": "03ea91b4efcfc6667e4dc0544a1d42d908282c2d",
+    "packages/@webex/plugin-memberships/docs/adr/0001-retain-product-readme.md": "59680e4c1d086b464be250de6767542d552fe541",
+    "packages/@webex/plugin-memberships/docs/adr/index.md": "cc76b55b8ec5837fc4111ecdf318ce6efa5b30ad",
+    "packages/@webex/plugin-memberships/docs/architecture.md": "5d246ef8cdf9d079bdbe9b74452953ceaa2fc6ab",
+    "packages/@webex/plugin-memberships/docs/getting-started.md": "c760974e38f45ccb202da9501bab4da701cd799a",
+    "packages/@webex/plugin-memberships/docs/index.md": "945a0209c2727b9e29a02509cab812d105920131",
+    "packages/@webex/plugin-memberships/docs/specs/README.md": "4ad9ab1f01a5ea547cb9dba491248d811eb29ad5",
+    "packages/@webex/plugin-memberships/src/docs/README.md": "b8031baa81d626c4f05092fa9a0d25a9280990a8",
+    "packages/@webex/plugin-messages/AGENTS.md": "2eb3bad1f14ef864fae5054dff91e91eb26a4813",
     "packages/@webex/plugin-messages/README.md": "7fe0b1bf6c25cc1bc3e0f7c6cc6872d31924f472",
+    "packages/@webex/plugin-messages/docs/adr/0001-retain-product-readme.md": "e2a6daaa3cf5e8710270bcb876bb9562aa395bc0",
+    "packages/@webex/plugin-messages/docs/adr/index.md": "c81afd7a5135ad78d8c121cf74c82ac935ef15b0",
+    "packages/@webex/plugin-messages/docs/architecture.md": "6a9666509d058c6303c1852f376a381a5639d4b9",
+    "packages/@webex/plugin-messages/docs/getting-started.md": "1accd7bb11acac4fe0e5caf7350b5e04b8662337",
+    "packages/@webex/plugin-messages/docs/index.md": "8cff2e88d41f0a2bfe5cac397af2584dbd7488fa",
+    "packages/@webex/plugin-messages/docs/specs/README.md": "6d544acb546232ce1799f4f0b015294e4cfee073",
+    "packages/@webex/plugin-messages/src/docs/README.md": "7ea1748efb6fbb13655be722c9e2e87c89f6a2bb",
+    "packages/@webex/plugin-people/AGENTS.md": "efd34880a8fcfbcbf6f1dcbde768dda8c7146ba4",
     "packages/@webex/plugin-people/README.md": "c488daee4871301a8b4408699adf0bc4384d241c",
+    "packages/@webex/plugin-people/docs/adr/0001-retain-product-readme.md": "9e0878f6235950e2ebd096ad04d15c1e23306615",
+    "packages/@webex/plugin-people/docs/adr/index.md": "e0aed16dc0b4cf10a23754f520fbf02b1dc22c57",
+    "packages/@webex/plugin-people/docs/architecture.md": "013e5ff7655a7ee04d9ee81a535d07967996a297",
+    "packages/@webex/plugin-people/docs/getting-started.md": "c481b730e390464902a9f88dd48f4fd2048ee735",
+    "packages/@webex/plugin-people/docs/index.md": "3f3f6dbcedd28d8628c92518f6bb21b27842c41e",
+    "packages/@webex/plugin-people/docs/specs/README.md": "c0dc9cf60735d3da29bbbaa4bb60409018961834",
+    "packages/@webex/plugin-people/src/docs/README.md": "6d6c81db099b7b45a6d12497451e70fb0253bf40",
+    "packages/@webex/plugin-presence/AGENTS.md": "1e33d824fbd43f4c636708757fa01db0f42a4dc0",
     "packages/@webex/plugin-presence/README.md": "2f9151ac5e789196d406e291eb3e9462d423ad30",
+    "packages/@webex/plugin-presence/docs/adr/0001-retain-product-readme.md": "b7b7ea5df1c87f4ec8e0d606d3bbbaa045427c7e",
+    "packages/@webex/plugin-presence/docs/adr/index.md": "ed9718092af3e29b9ec6a0e79c42933b0c72dc16",
+    "packages/@webex/plugin-presence/docs/architecture.md": "d3ff2b3b012e2d1dd55d6a6f722206d7a46f9b9c",
+    "packages/@webex/plugin-presence/docs/getting-started.md": "2e1e30f3d04264860b809c39370bebe54c7c5621",
+    "packages/@webex/plugin-presence/docs/index.md": "a51d1e5fc969073e21d4e998331e2f65f56b94e7",
+    "packages/@webex/plugin-presence/docs/specs/README.md": "7e7ceeb3fb8ee56559c614a629465570a59946cd",
+    "packages/@webex/plugin-presence/src/docs/README.md": "0483f326545d7270b785244fabf4941e6c1ba5db",
+    "packages/@webex/plugin-rooms/AGENTS.md": "0027c6840bf096cf6e7c64615a4610e9064dc728",
     "packages/@webex/plugin-rooms/README.md": "3f2bd396bc1fc6f7b8656f37f3e1c66566621e45",
+    "packages/@webex/plugin-rooms/docs/adr/0001-retain-product-readme.md": "7b153725261f325a71a87497df7e140c5e8b069a",
+    "packages/@webex/plugin-rooms/docs/adr/index.md": "560138cf69070cc0a0054770b5a45fb8b008441e",
+    "packages/@webex/plugin-rooms/docs/architecture.md": "595249094bdd95eda4ab464736eda8b872774c83",
+    "packages/@webex/plugin-rooms/docs/getting-started.md": "3fc94818fa4ed76faafc593a2b06ba0e758b838c",
+    "packages/@webex/plugin-rooms/docs/index.md": "2487d1eb8ca2a5971a38e5fca91906af6ff1a804",
+    "packages/@webex/plugin-rooms/docs/specs/README.md": "0e0debc737af2207b71e2b418912d7ce3fc74b8f",
+    "packages/@webex/plugin-rooms/src/docs/README.md": "d7c45b24a9437683bc736b899417cf9a97f799a7",
+    "packages/@webex/plugin-team-memberships/AGENTS.md": "329497d416aaba2ee44934a2c2b1867826af5aa1",
     "packages/@webex/plugin-team-memberships/README.md": "0c1a7a32b1b58aa74c8babbf431d2a3bfdf4d8db",
+    "packages/@webex/plugin-team-memberships/docs/adr/0001-retain-product-readme.md": "47ec4daebc47ee28781a35febfc4dd0119f1a082",
+    "packages/@webex/plugin-team-memberships/docs/adr/index.md": "e1bd878f091c9f59163efc8975ca6a2d4881b099",
+    "packages/@webex/plugin-team-memberships/docs/architecture.md": "3f5134ebf066f1c49f9e9cfdcad8f07da1650b44",
+    "packages/@webex/plugin-team-memberships/docs/getting-started.md": "082ba350d343a57dab46734da62deb0733a80d4f",
+    "packages/@webex/plugin-team-memberships/docs/index.md": "536979bf87ee0dd5bef694acd0e363534cd6bdb9",
+    "packages/@webex/plugin-team-memberships/docs/specs/README.md": "83771b787fb00588cdf4610cb7d68f8a0f6bb402",
+    "packages/@webex/plugin-team-memberships/src/docs/README.md": "0069ee29751fb76be34ede2f124e59b6e2347f5d",
+    "packages/@webex/plugin-teams/AGENTS.md": "1f0b6ed48d7289fd80aa054d69654a14816e039a",
     "packages/@webex/plugin-teams/README.md": "961433bc6e3aa5aa7beb42d3a9ec2a3ed4973231",
+    "packages/@webex/plugin-teams/docs/adr/0001-retain-product-readme.md": "1042a44bff56401f88c5518aa66dc9ca2acfdc70",
+    "packages/@webex/plugin-teams/docs/adr/index.md": "c74d78d70dfe35a9ec22d050c667bd0e36a4ad08",
+    "packages/@webex/plugin-teams/docs/architecture.md": "71b3ae9df94e8cc65c026e3438fb8b587c0d0c9d",
+    "packages/@webex/plugin-teams/docs/getting-started.md": "23d83760c6d7308df18f0acc19caa0c2fd47b3ee",
+    "packages/@webex/plugin-teams/docs/index.md": "6bed33e80fa1a62ace38743dc25df7743705c40d",
+    "packages/@webex/plugin-teams/docs/specs/README.md": "bbb344179ec681dc432ac17d143cf09b71d07aec",
+    "packages/@webex/plugin-teams/src/docs/README.md": "13ebac8c150391fb7bc763792c89e9854735f2c2",
+    "packages/@webex/plugin-webhooks/AGENTS.md": "28e874fd8f16ae64721f1914a2f78f33bd961d89",
     "packages/@webex/plugin-webhooks/README.md": "9180e89f88fc092bcda56f10185e514dfca60d4e",
+    "packages/@webex/plugin-webhooks/docs/adr/0001-retain-product-readme.md": "57707ad3da20eb02e74642bce2b6b0631225095b",
+    "packages/@webex/plugin-webhooks/docs/adr/index.md": "1c66edc8049310b5f440a81a1b92e7fbcec52163",
+    "packages/@webex/plugin-webhooks/docs/architecture.md": "8c4f52e6db0793f89aaa2752f51d47f4a355668e",
+    "packages/@webex/plugin-webhooks/docs/getting-started.md": "f124e41a1e4ed575f6e0f9bdc7e14c16a7af182d",
+    "packages/@webex/plugin-webhooks/docs/index.md": "df921d679bd096e656390f870627ca89ad34fa12",
+    "packages/@webex/plugin-webhooks/docs/specs/README.md": "736fdd6cc61f02521a7d1cac837e9710ff9862f8",
+    "packages/@webex/plugin-webhooks/src/docs/README.md": "2771631556c6d27fd8addadd6f01afc46241b798",
     "packages/@webex/recipe-private-web-client/README.md": "60c79adadd19b72bfbf83aefe7cb9d4d467ef6f5",
+    "packages/@webex/storage-adapter-local-forage/AGENTS.md": "2bf14b3ff13b36d20820fc4bd81dde217fe91656",
     "packages/@webex/storage-adapter-local-forage/README.md": "07d4ba9ac85ce492c896da0f5c58a166b923face",
+    "packages/@webex/storage-adapter-local-forage/docs/adr/index.md": "2fdd22edc86c170dd291ccfe3928ca79ce76eddd",
+    "packages/@webex/storage-adapter-local-forage/docs/architecture.md": "294f1bbce03e855a393455b8bdd023393d77fe28",
+    "packages/@webex/storage-adapter-local-forage/docs/getting-started.md": "b1f0022ba070eb18a1c8d388385fb591bf2b081d",
+    "packages/@webex/storage-adapter-local-forage/docs/index.md": "3b7b49ad84aa56514a8daddda75bf1cba2bd94d4",
+    "packages/@webex/storage-adapter-local-forage/docs/specs/README.md": "aeb47b229c45e750ee0d98696071ea4801cd26bf",
+    "packages/@webex/storage-adapter-local-forage/src/docs/README.md": "f8f6d22d2eae4a46498ed3ed7c31c17a3727de25",
+    "packages/@webex/storage-adapter-local-storage/AGENTS.md": "e2eeb564c67922d1cd146b2a2e70c4e3c54ab9ea",
     "packages/@webex/storage-adapter-local-storage/README.md": "14712c30e858838cf63dda21612b7c4998ac0032",
+    "packages/@webex/storage-adapter-local-storage/docs/architecture.md": "85464044335bb185187334246f93504cd085766c",
+    "packages/@webex/storage-adapter-local-storage/docs/getting-started.md": "bef7bec2d775e2257bd6ebb6232b08152abf82c0",
+    "packages/@webex/storage-adapter-local-storage/docs/index.md": "0ff12d5532bddb49761f1be23af0890c10e20fa5",
+    "packages/@webex/storage-adapter-local-storage/docs/specs/README.md": "6c89597e111270ebea504b9633a0b6ff1f5bcaeb",
+    "packages/@webex/storage-adapter-local-storage/src/docs/README.md": "294bfa7c1333554b554a97f9ffe2fd05e4de94be",
+    "packages/@webex/storage-adapter-session-storage/AGENTS.md": "048a0282a087851d0c7273b71a085d5527996392",
     "packages/@webex/storage-adapter-session-storage/README.md": "31c160947886e034ab60a6157a9ba9cefd81d8d0",
+    "packages/@webex/storage-adapter-session-storage/docs/adr/0001-retain-product-readme.md": "77741901833e4d70b74b1044747d06b9f727997b",
+    "packages/@webex/storage-adapter-session-storage/docs/adr/index.md": "66793734cddf60a7abdc994c8b76dd41aa7b841f",
+    "packages/@webex/storage-adapter-session-storage/docs/architecture.md": "347658cbbb522a1b0b3ca074ad87dffb2951840e",
+    "packages/@webex/storage-adapter-session-storage/docs/getting-started.md": "f11e7aed8878bbdf3000bc6de61cf9e6cb24e213",
+    "packages/@webex/storage-adapter-session-storage/docs/index.md": "5333c796e9128ffb540f7e99df44602957dd85db",
+    "packages/@webex/storage-adapter-session-storage/docs/specs/README.md": "22c4ed28cbcf97fe35f1a84357fc5775cae2b7be",
+    "packages/@webex/storage-adapter-session-storage/src/docs/README.md": "3e7e2bdbc6bd4cb1492e1ea7266ffd62a634f36d",
     "packages/@webex/storage-adapter-spec/AGENTS.md": "e56c095d0a31df721afd6eabe59476fd41d09779",
     "packages/@webex/storage-adapter-spec/README.md": "9598a0bb28750118cbf4d3bfc10124772bd003fc",
     "packages/@webex/storage-adapter-spec/docs/adr/index.md": "cb7d4d3cf84187fbbbd782219a1120e5fe8fd9b9",
@@ -385,7 +661,7 @@
     "packages/@webex/web-extension-bridge/src/extension/docs/README.md": "38e9866259c3fbc6bd84e48e52fab34078e3fd0e",
     "packages/@webex/web-extension-bridge/src/web/docs/README.md": "00de9720fdcd38f9a36eb425958a2efac9f87c8f",
     "packages/@webex/webex-core/AGENTS.md": "4694421aadac332ac8d4a12b9e59c93a2f74db05",
-    "packages/@webex/webex-core/README.md": "310f6fea756c34d6ea333ec129c5af01633f82ac",
+    "packages/@webex/webex-core/README.md": "f66986300556366aaf9e9c23fdcca808bb6e01ee",
     "packages/@webex/webex-core/docs/adr/index.md": "c74465d8e5ebb8d362c362832c860365d26f7ebc",
     "packages/@webex/webex-core/docs/architecture.md": "b22a038742e03bc2399ee8e8aef9ae584eb95aff",
     "packages/@webex/webex-core/docs/getting-started.md": "6bc5192b7b0ec0515ab8c813411f36f48b78832a",
@@ -394,13 +670,21 @@
     "packages/@webex/webex-core/src/docs/README.md": "f739ce985e76101ea4a4a07379ba462184e41b1c",
     "packages/@webex/webex-core/src/interceptors/docs/README.md": "be1b1e00e5cb16a8e80063f23474dea3bc8ed3f9",
     "packages/@webex/webex-core/src/lib/credentials/docs/README.md": "c8b1f2acc26e0d448e9816be9930ba5568a497d9",
-    "packages/@webex/webex-core/src/lib/services-v2/docs/README.md": "2c107ff2a6ab649b3e079aad090839a6caa31b15",
-    "packages/@webex/webex-core/src/lib/services/docs/README.md": "a84137058a164bf1dede94f88a6bbe1d6def1435",
+    "packages/@webex/webex-core/src/lib/services-v2/docs/README.md": "34bd2c148c71fba64d6ea13ae49d0cdda64781a5",
+    "packages/@webex/webex-core/src/lib/services/docs/README.md": "54bf41e6c1b1b40d032aecfe394bf649352cc1d8",
     "packages/@webex/webex-core/src/lib/storage/docs/README.md": "067169f05e70e70a5c89be57350ab3ea55543416",
     "packages/@webex/webex-server/README.md": "daed0c38ce8838f999c2bc3f361a9ddbd230eef9",
     "packages/@webex/xunit-with-logs/README.md": "11a09ce673d731e823c567704a847b2e024311ca",
     "packages/byods-demo-server/README.md": "454a008aa13c9dcf472f7fa7137375485fa694cd",
+    "packages/byods/AGENTS.md": "eac060b4c101132ca89f7368458ea9f49ef1bd4b",
     "packages/byods/README.md": "f72aacb22a0d0da45c1f001f55abf9d6055e4886",
+    "packages/byods/docs/adr/0001-retain-product-readme.md": "60fea297e894eec0f4651e15e3888c7a02b7e660",
+    "packages/byods/docs/adr/index.md": "4516d0fb72266745357d35cc0f55f796cabcc1c9",
+    "packages/byods/docs/architecture.md": "d269924932ffb2e0b30e6513b23e947cdd959531",
+    "packages/byods/docs/getting-started.md": "04d6ea5ead8ee91a9bbb1a770a4fa88f68ba996f",
+    "packages/byods/docs/index.md": "4ce5967b44e57f7e77dfb3d06cf663650d82f6ce",
+    "packages/byods/docs/specs/README.md": "44bb0bdfa0bad7a4c7ba651c9dc7884cb356904d",
+    "packages/byods/src/docs/README.md": "5342553b4686ad651e655ea47ba6cb0fe5ec29d3",
     "packages/calling/AGENTS.md": "f2c526af2f8eff8f9fa698c735700e6042632491",
     "packages/calling/README.md": "6a2dd63e60ad7ee216e9b172dc4a8eba5e3a9355",
     "packages/calling/ai-docs/ARCHITECTURE.md": "1e3ebec339c58e132bbd7d50380ced540a7a5b7d",
@@ -482,11 +766,27 @@
     "packages/legacy/env/README.md": "aa9eb35a8f2a5aeeddcea5b54530b58545a1cb06",
     "packages/legacy/eslint/README.md": "ee46f29a7584c6bdfb302257f4dd3778f8c1a78e",
     "packages/legacy/jest/README.md": "5c0247d15b5f4cdc1647ce9045d1864007a16161",
-    "packages/legacy/tools/README.md": "e64c2abe7d1fb03a10a1e4349ecfb0a143e7f6ba",
+    "packages/legacy/tools/README.md": "4229b7485e15b99fb055ca1a7d2a3d3b8e90edf3",
     "packages/tools/cli/README.md": "1d6aee94db437b780dc24d750ae861e8f20abc59",
     "packages/tools/package/README.md": "5c57f4ec41ba874d88f82d9931a6c6db06dd03a2",
+    "packages/webex-node/AGENTS.md": "52cd2a25386fc794d6f8483e6d43b3f5974cbfeb",
     "packages/webex-node/README.md": "dadf4fe5eb034808bcfaab00c9f3b05ad244dcdd",
+    "packages/webex-node/docs/adr/0001-retain-product-readme.md": "21c4af0e6b545045f7912fd0a59b5d3b3679ed76",
+    "packages/webex-node/docs/adr/index.md": "4b5d788ca7b5aae88ab90f4549017aa054d6db8f",
+    "packages/webex-node/docs/architecture.md": "2099fe754a524097a3be6f522b6810b382a94acb",
+    "packages/webex-node/docs/getting-started.md": "4bdf1f095b2fb9930ff6b97b123e51c9ce5b700c",
+    "packages/webex-node/docs/index.md": "4c9f609683268e96fb25bb723cee1495641e3de9",
+    "packages/webex-node/docs/specs/README.md": "e63d6a02e1595f534ca3ccd391996cbf6ad8d167",
+    "packages/webex-node/src/docs/README.md": "fd81fefef78bccef2b241a771e60ec472514fc24",
+    "packages/webex/AGENTS.md": "bc52b13bd27251c0b82af26273a8dee3e049fd2a",
     "packages/webex/README.md": "88f8b32eae441d9d11282fd811d914810cee1b27",
+    "packages/webex/docs/adr/0001-retain-product-readme.md": "0af0f10f0adcc417e927b4e93f58339ef60e8cdb",
+    "packages/webex/docs/adr/index.md": "b1430e17a655431f9f62b4d784b120a54951e01d",
+    "packages/webex/docs/architecture.md": "f9afc5f3c78e3b6b12cbc277dd5d2c7bd0fdeb37",
+    "packages/webex/docs/getting-started.md": "d6d485a1e8cfbbac3b40e65e58c61314e6baf425",
+    "packages/webex/docs/index.md": "d055d91fc58de4c70c61da693ac2e7217a69d08c",
+    "packages/webex/docs/specs/README.md": "51a3e952f16294b7dc201f73d40854fd70a84ada",
+    "packages/webex/src/docs/README.md": "6b09057f7638d274561954c1fed5aef215363ad8",
     "packages/webexconnect/README.md": "52380d0ba31fba0872448f448620d1e249227991",
     "patches/README.md": "f8930612d25cc1d050e0dd53e7b3f93618c855dd",
     "webex-plugin-architecture.md": "ce5262cfed8a3b56fb3474c6d506f825ccfdb7d2"
@@ -494,7 +794,7 @@
    "default_branch": "next",
    "descripcion": "JavaScript SDK for Webex",
    "estrellas": 207,
-   "actualizado": "2026-11-09T13:13:21.949066+00:00"
+   "actualizado": "2026-11-16T12:37:24.958974+00:00"
   },
   "webex/webex-ios-sdk": {
    "ficheros": {
@@ -503,7 +803,7 @@
    "default_branch": "master",
    "descripcion": "iOS SDK for Webex",
    "estrellas": 27,
-   "actualizado": "2026-11-09T13:13:22.733757+00:00"
+   "actualizado": "2026-11-16T12:37:25.569774+00:00"
   },
   "webex/webex-android-sdk": {
    "ficheros": {
@@ -512,7 +812,7 @@
    "default_branch": "master",
    "descripcion": "Android SDK for Webex",
    "estrellas": 25,
-   "actualizado": "2026-11-09T13:13:23.620990+00:00"
+   "actualizado": "2026-11-16T12:37:26.170433+00:00"
   },
   "webex/webex-java-sdk": {
    "ficheros": {
@@ -521,7 +821,7 @@
    "default_branch": "master",
    "descripcion": "Java library for consuming RESTful APIs for Cisco Spark",
    "estrellas": 70,
-   "actualizado": "2026-11-09T13:13:24.365079+00:00"
+   "actualizado": "2026-11-16T12:37:26.778641+00:00"
   },
   "webex/widgets": {
    "ficheros": {
@@ -612,7 +912,7 @@
     "ai-docs/templates/playwright/04-validation.md": "d137a5c0ae21ebd09738058f710f076babd80f9a",
     "ai-docs/templates/playwright/README.md": "ce2c31490d30f2a88f19d4c0e30ffd849a45c5ff",
     "packages/@webex/widgets/README.md": "7e4f9434a44c4dbe545ab6450dd3029dce12f909",
-    "packages/@webex/widgets/ai-docs/widgets-spec.md": "9c3d48cd29bbad9f77885d34251f9d3cef98e73c",
+    "packages/@webex/widgets/ai-docs/widgets-spec.md": "f88db29b61907c15f1545fd0462e30bbec6df79c",
     "packages/@webex/widgets/src/widgets/WebexMeetings/README.md": "ec0a0434e38e4f6918b9701b27b0d8a205e8a607",
     "packages/contact-center/CALLBACKS.md": "8cbcaa8e4e269688ca53cb40bde4675b93eaa69a",
     "packages/contact-center/ai-assistant/ai-docs/ai-assistant-spec.md": "07c5926818340f4a2120caa6275697108e799984",
@@ -627,7 +927,7 @@
     "packages/contact-center/cc-digital-channels/ai-docs/cc-digital-channels-spec.md": "3ff06e8812e1c10faab1f4ec6c073f9c126b3360",
     "packages/contact-center/cc-widgets/ai-docs/cc-widgets-spec.md": "3e5db4587a0c04afde62d5bdfbc9b78a96c807fb",
     "packages/contact-center/station-login/ai-docs/station-login-spec.md": "7cce3862f9f82a51e78d0f8052b06be11045957f",
-    "packages/contact-center/store/ai-docs/store-spec.md": "ea204f67c02c042b221cfe2cacd07db27ff94d93",
+    "packages/contact-center/store/ai-docs/store-spec.md": "0d5bb7e226812060e57a35704fb9cbf79c88bae0",
     "packages/contact-center/task/ai-docs/task-spec.md": "bd950c428a75675172b345afaba8686f30016afc",
     "packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md": "81a3a0e8fe04f5b0d8b5c4ab3deea8ab46c72707",
     "packages/contact-center/ui-logging/ai-docs/ui-logging-spec.md": "3b1621c16cbc0db477094d15407056f8cada0bda",
@@ -637,7 +937,7 @@
    "default_branch": "next",
    "descripcion": "Embed the power of Webex in your web applications ✨",
    "estrellas": 14,
-   "actualizado": "2026-11-09T13:13:25.417251+00:00"
+   "actualizado": "2026-11-16T12:37:27.987133+00:00"
   },
   "webex/components": {
    "ficheros": {
@@ -677,7 +977,7 @@
    "default_branch": "master",
    "descripcion": "Embed the power of Webex in your web applications, on your own terms 💪🏼",
    "estrellas": 14,
-   "actualizado": "2026-11-09T13:13:26.301967+00:00"
+   "actualizado": "2026-11-16T12:37:28.636252+00:00"
   },
   "webex/react-widgets": {
    "ficheros": {
@@ -754,7 +1054,7 @@
    "default_branch": "master",
    "descripcion": "React components and Redux modules for embedded Webex Teams",
    "estrellas": 85,
-   "actualizado": "2026-11-09T13:13:27.375533+00:00"
+   "actualizado": "2026-11-16T12:37:29.221808+00:00"
   },
   "webex/sdk-component-adapter": {
    "ficheros": {
@@ -822,7 +1122,7 @@
    "default_branch": "master",
    "descripcion": "JS SDK Adapter implementation for Webex Components 🧩 (https://github.com/webex/components)",
    "estrellas": 7,
-   "actualizado": "2026-11-09T13:13:28.176584+00:00"
+   "actualizado": "2026-11-16T12:37:29.845909+00:00"
   },
   "webex/EmbeddedAppKitchenSink": {
    "ficheros": {
@@ -831,7 +1131,7 @@
    "default_branch": "main",
    "descripcion": "The \"kitchen sink\" sample app for Webex Embedded Apps",
    "estrellas": 15,
-   "actualizado": "2026-11-09T13:13:28.946495+00:00"
+   "actualizado": "2026-11-16T12:37:30.448943+00:00"
   },
   "webex/postman-webex-calling": {
    "ficheros": {
@@ -842,7 +1142,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection that demonstrates the Webex Calling APIs",
    "estrellas": 29,
-   "actualizado": "2026-11-09T13:13:29.776871+00:00"
+   "actualizado": "2026-11-16T12:37:31.128088+00:00"
   },
   "webex/postman-webex-meetings": {
    "ficheros": {
@@ -851,7 +1151,7 @@
    "default_branch": "master",
    "descripcion": "Postman collection to demonstrate using the Webex Meetings REST APIs",
    "estrellas": 15,
-   "actualizado": "2026-11-09T13:13:30.863270+00:00"
+   "actualizado": "2026-11-16T12:37:31.740880+00:00"
   },
   "webex/WebexPlaybooks": {
    "ficheros": {
@@ -953,14 +1253,14 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 6,
-   "actualizado": "2026-11-09T13:13:31.691779+00:00"
+   "actualizado": "2026-11-16T12:37:32.343688+00:00"
   },
   "webex/webex-byova-gateway-python": {
    "ficheros": {
     ".specify/memory/constitution.md": "92b3dc20f75f97330ce3756408499da44562a5bc",
-    "AGENTS.MD": "8b65385bdf1fc5308f7856e1ae8fd78bf00c5977",
+    "AGENTS.MD": "2b9416366a5ee75dc3d1c68a5ae46cfa2d8f6ea1",
     "AUTHENTICATION_QUICKSTART.md": "07f8ec1bb572c1342aee1639dce3282e172ec60b",
-    "README.md": "967e531c22f18d4058520c652189b0e25417aa1e",
+    "README.md": "f0c220715cc441006bd1e6e00b3ad73977a958fb",
     "audio/README.md": "c0699c07d6d816c08db5710a3e51a47e4361eff3",
     "config/README.md": "944f6eac2ce40f9e1602490bf13b5a5804a99ad9",
     "docs/AWS_LEX_CONFIGURATION.md": "0cacfd1b800083489559f5a501d0fba324d7c0bc",
@@ -974,7 +1274,7 @@
     "docs/README.md": "853718a5ed4bc32506f6cf4add61f0a6155ff2f6",
     "docs/Security-Configuration.md": "334c60cc0f13eaddd380a9af7ff23b92957aa7d8",
     "docs/TESTING.md": "a73a277d380f1396948c8ab3fbcc6c00a307c2ee",
-    "docs/WEBSOCKET_LIVE_TESTING.md": "731acececee1a7caacc22bc1d78cc45fa1438e65",
+    "docs/WEBSOCKET_LIVE_TESTING.md": "8aefbc35331c16df1a6db57b4f9bcceeec712854",
     "docs/WEBSOCKET_TRANSPORT.md": "a34abb8e020cf746304cd1b0c77c947fd35b4f2a",
     "docs/guides/byova-gecx-setup.md": "17155edf15bfce41337559dd0c945a06ae50c758",
     "docs/index.md": "ee06c649ce4368bac1ba7e66cbedcc51da1a4330",
@@ -987,14 +1287,13 @@
     "src/core/README.md": "01d1798ca524f0feafd7c280b06dc75c5bc5a4f9",
     "src/monitoring/README.md": "53ebba9050be4c886e4f2f44b6bc549535799cab",
     "src/utils/README.md": "41d70d18a6f530afd244d5377cfe54926ed65bb5",
-    "tools/byova_e2e/README.md": "6131c8f5e99a695306801f7b3593899f9323e0ef",
     "tools/gecx_audio_lab/README.md": "22d16d5d90081627c476c71cab47a2a3cae2e66b",
     "tools/voice_agent_lab/README.md": "cc675d9eef6f53e44d8c630f8c310f61371681ad"
    },
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 4,
-   "actualizado": "2026-11-09T13:13:32.510648+00:00"
+   "actualizado": "2026-11-16T12:37:33.406087+00:00"
   },
   "webex/webexconnect-ios-sdk": {
    "ficheros": {
@@ -1003,7 +1302,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect iOS SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-11-09T13:13:33.127775+00:00"
+   "actualizado": "2026-11-16T12:37:34.025877+00:00"
   },
   "webex/webexconnect-android-sdk": {
    "ficheros": {
@@ -1012,7 +1311,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Android SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 3,
-   "actualizado": "2026-11-09T13:13:34.039706+00:00"
+   "actualizado": "2026-11-16T12:37:34.733852+00:00"
   },
   "webex/webexconnect-javascript-sdk": {
    "ficheros": {
@@ -1021,7 +1320,7 @@
    "default_branch": "main",
    "descripcion": "Webex Connect Web SDK provides a messaging framework that enables app developers to embed bidirectional in-app messaging and interactive push notifications capabilities within their mobile applications.",
    "estrellas": 0,
-   "actualizado": "2026-11-09T13:13:34.721080+00:00"
+   "actualizado": "2026-11-16T12:37:35.324016+00:00"
   },
   "webex/dataSourceSchemas": {
    "ficheros": {
@@ -1034,7 +1333,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 2,
-   "actualizado": "2026-11-09T13:13:35.397042+00:00"
+   "actualizado": "2026-11-16T12:37:35.970694+00:00"
   },
   "CiscoDevNet/cvp-sample-code": {
    "ficheros": {
@@ -1070,7 +1369,7 @@
    "default_branch": "master",
    "descripcion": "Sample Code for Customer Voice Portal (CVP)",
    "estrellas": 20,
-   "actualizado": "2026-11-09T13:13:36.258838+00:00"
+   "actualizado": "2026-11-16T12:37:36.611645+00:00"
   },
   "CiscoDevNet/finesse-sample-code": {
    "ficheros": {
@@ -1104,34 +1403,54 @@
    "default_branch": "master",
    "descripcion": "Sample Gadgets and code for use with Finesse",
    "estrellas": 79,
-   "actualizado": "2026-11-09T13:13:37.288110+00:00"
+   "actualizado": "2026-11-16T12:37:37.210167+00:00"
   },
   "CiscoDevNet/webexcc-digital-channels": {
    "ficheros": {
+    "Webex Connect Flows/Archives/v3.5/Event Handling Workflows/README.md": "ecda243eeb07b2720150e1ca7fc495166e612acf",
+    "Webex Connect Flows/Archives/v3.5/Media Specific Workflows/Apple Messages for Business/README.MD": "9c2ae12c88c764e989f7ef9b27a028aba2b11e51",
+    "Webex Connect Flows/Archives/v3.5/Media Specific Workflows/README.md": "7f24a20919e36a36777e92e70b80f3d5b028a49d",
+    "Webex Connect Flows/Archives/v3.5/Sample/Apple Business Messages/Other sample flows /README.MD": "c0e707ee4364744cf3c763fb2c3477024a29dd74",
+    "Webex Connect Flows/Archives/v3.5/Sample/Apple Business Messages/Rich message flows/README.MD": "d985ed72aa94dc3400a0bdcbc47414cafef4a43f",
+    "Webex Connect Flows/Archives/v3.5/Sample/Apple Business Messages/Rich message response flows/README.MD": "f470383e22c9c21e045446efde9d090eee29798c",
+    "Webex Connect Flows/Archives/v3.5/Sample/Attachment Drop Notification to Customer/README.md": "599955af7bcd356f89ad977d8d1e77b70d5fe4f4",
+    "Webex Connect Flows/Archives/v3.5/Sample/Bot Flows/README.md": "449b60dfe0ce9454e660958d37fa81c3cdf2a991",
+    "Webex Connect Flows/Archives/v3.5/Sample/Usage Of Surveys in Flows/README.md": "2691ad387f93bce2c6cbffa713e13904c1050cd2",
+    "Webex Connect Flows/Archives/v3.5/Sample/Usage of Contact Priority In Flows/README.md": "3e3d94318cb540e53e0078be20435cc12ca7890f",
+    "Webex Connect Flows/Archives/v3.5/Sample/Usage of PIQ And EWT In Flows/README.md": "0fb0e0b2e2b3fb716293266145458daf1357a74d",
+    "Webex Connect Flows/Archives/v3.5/Sample/Usage of Screen Pop in Flows/README.md": "61ea88522ae46f1cddfe8661227a5a5bf21ea05d",
+    "Webex Connect Flows/Archives/v3.5/Sample/Usage of Set Variable In Flows/README.md": "a81662c18b0064845bdd8383bf9adf4778fa8a62",
     "Webex Connect Flows/How to manually upgrade from v3.0 to v3.1 workflows.MD": "8286ec18e4b78780f8db56c2bca63cc821e585f6",
     "Webex Connect Flows/How to manually upgrade from v3.1 to v3.2 workflows.MD": "93b5dcd8cacce8db83f830aa9480feb2bbd5bbf8",
     "Webex Connect Flows/How to manually upgrade from v3.2 to v3.3 workflows.MD": "b30614e06f10f1cb44af8e2c8be5626bb6435fa9",
     "Webex Connect Flows/How to manually upgrade from v3.3 to v3.4 workflows.MD": "172f31d4c45987b6b0f91a21b4579acc3e730054",
-    "Webex Connect Flows/README.md": "1381c7c22048ebe414c1c5306dd261e3bb4492f2",
-    "Webex Connect Flows/Version History.md": "fe46efcb384c34773703f87b37956e4bce07862f",
-    "Webex Connect Flows/v3.5/Sample/Apple Business Messages/Other sample flows /README.MD": "c0e707ee4364744cf3c763fb2c3477024a29dd74",
-    "Webex Connect Flows/v3.5/Sample/Apple Business Messages/Rich message flows/README.MD": "d985ed72aa94dc3400a0bdcbc47414cafef4a43f",
-    "Webex Connect Flows/v3.5/Sample/Apple Business Messages/Rich message response flows/README.MD": "f470383e22c9c21e045446efde9d090eee29798c",
-    "Webex Connect Flows/v3.5/Sample/Attachment Drop Notification to Customer/README.md": "599955af7bcd356f89ad977d8d1e77b70d5fe4f4",
-    "Webex Connect Flows/v3.5/Sample/Bot Flows/README.md": "42e01222ae835dc48b9b20a9858dbff80cb66ce6",
-    "Webex Connect Flows/v3.5/Sample/Usage Of Surveys in Flows/README.md": "2691ad387f93bce2c6cbffa713e13904c1050cd2",
-    "Webex Connect Flows/v3.5/Sample/Usage of Contact Priority In Flows/README.md": "3e3d94318cb540e53e0078be20435cc12ca7890f",
-    "Webex Connect Flows/v3.5/Sample/Usage of PIQ And EWT In Flows/README.md": "0fb0e0b2e2b3fb716293266145458daf1357a74d",
-    "Webex Connect Flows/v3.5/Sample/Usage of Screen Pop in Flows/README.md": "61ea88522ae46f1cddfe8661227a5a5bf21ea05d",
-    "Webex Connect Flows/v3.5/Sample/Usage of Set Variable In Flows/README.md": "a81662c18b0064845bdd8383bf9adf4778fa8a62",
-    "Webex Connect Flows/v3.5/Template/Event Handling Workflows/README.md": "ecda243eeb07b2720150e1ca7fc495166e612acf",
-    "Webex Connect Flows/v3.5/Template/Media Specific Workflows/Apple Messages for Business/README.MD": "9c2ae12c88c764e989f7ef9b27a028aba2b11e51",
-    "Webex Connect Flows/v3.5/Template/Media Specific Workflows/README.md": "7f24a20919e36a36777e92e70b80f3d5b028a49d"
+    "Webex Connect Flows/How to manually upgrade from v3.5 to v3.6 workflows.MD": "9fa1cba18ca3cc71f64217b2ca54c76962864aff",
+    "Webex Connect Flows/Webexcc-digital-channels/README.md": "1381c7c22048ebe414c1c5306dd261e3bb4492f2",
+    "Webex Connect Flows/Webexcc-digital-channels/Version History.md": "513feda0f06c8388de417fdbfba739ff36f54f93",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Apple Business Messages/Other sample flows /README.MD": "c0e707ee4364744cf3c763fb2c3477024a29dd74",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Apple Business Messages/Rich message flows/README.MD": "d985ed72aa94dc3400a0bdcbc47414cafef4a43f",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Apple Business Messages/Rich message response flows/README.MD": "f470383e22c9c21e045446efde9d090eee29798c",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Attachment Drop Notification to Customer/README.md": "599955af7bcd356f89ad977d8d1e77b70d5fe4f4",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Bot Flows/README.md": "449b60dfe0ce9454e660958d37fa81c3cdf2a991",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Usage Of Surveys in Flows/README.md": "2691ad387f93bce2c6cbffa713e13904c1050cd2",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Usage of Contact Priority In Flows/README.md": "3e3d94318cb540e53e0078be20435cc12ca7890f",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Usage of PIQ And EWT In Flows/README.md": "0fb0e0b2e2b3fb716293266145458daf1357a74d",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Usage of Screen Pop in Flows/README.md": "61ea88522ae46f1cddfe8661227a5a5bf21ea05d",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Sample/Usage of Set Variable In Flows/README.md": "a81662c18b0064845bdd8383bf9adf4778fa8a62",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/Email/README.md": "2b5238c01110a54c607a9475fd35677b0b508de0",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/How to setup Workflows.md": "8089f9f0d0ce4526795a12ee3f45899056de7475",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/apple-messages-for-business/README.md": "2bed72f18b55cbd1e89af53fa29c6df61c6e76ac",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/facebook-messenger/README.md": "025c3460b042e899bbb01a238127cc7ee4900985",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/in-app-messaging/README.md": "fc847561453ffc7b72a7dc24c1e845252b54d5b0",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/sms/README.md": "6b454b86c689479970d55ec9637c19af4084ba35",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/web-chat/README.md": "3e9e49aca74bd93e157926876c710b66def2bf0e",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Media-specific-flows/whatsapp-business/README.md": "c35967dffcb5b50e76924ad2a6a7c7f3a9f9b722",
+    "Webex Connect Flows/Webexcc-digital-channels/v3.6/Flows/Template-flows/Task-event-flows/README.md": "ecda243eeb07b2720150e1ca7fc495166e612acf"
    },
    "default_branch": "main",
    "descripcion": "",
-   "estrellas": 51,
-   "actualizado": "2026-11-09T13:13:38.100053+00:00"
+   "estrellas": 52,
+   "actualizado": "2026-11-16T12:37:42.321165+00:00"
   },
   "CiscoDevNet/webex-contact-center-widget-starter": {
    "ficheros": {
@@ -1158,7 +1477,7 @@
    "default_branch": "master",
    "descripcion": "WebEx Contact Center widget starter",
    "estrellas": 33,
-   "actualizado": "2026-11-09T13:13:39.144876+00:00"
+   "actualizado": "2026-11-16T12:37:43.200413+00:00"
   },
   "CiscoDevNet/voice-gateway-api-tcl-vxml-sample-scripts": {
    "ficheros": {
@@ -1168,7 +1487,7 @@
    "default_branch": "master",
    "descripcion": "TCL IVR sample scripts for Cisco Voice Gateway API",
    "estrellas": 8,
-   "actualizado": "2026-11-09T13:13:39.973982+00:00"
+   "actualizado": "2026-11-16T12:37:43.830638+00:00"
   },
   "CiscoDevNet/xapi-samples": {
    "ficheros": {
@@ -1191,7 +1510,7 @@
    "default_branch": "master",
    "descripcion": "Examples of UI Extensions, Macros and Node.js scripts for Webex devices and Cisco Collaboration Endpoints",
    "estrellas": 49,
-   "actualizado": "2026-11-09T13:13:40.818323+00:00"
+   "actualizado": "2026-11-16T12:37:44.447258+00:00"
   },
   "CiscoDevNet/axl-python-zeep-samples": {
    "ficheros": {
@@ -1200,7 +1519,7 @@
    "default_branch": "master",
    "descripcion": "",
    "estrellas": 64,
-   "actualizado": "2026-11-09T13:13:41.608656+00:00"
+   "actualizado": "2026-11-16T12:37:44.937807+00:00"
   },
   "CiscoDevNet/serviceability-python-zeep-samples": {
    "ficheros": {
@@ -1209,7 +1528,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of various Cisco CUCM Serviceability APIs using Python and the Zeep SOAP library",
    "estrellas": 19,
-   "actualizado": "2026-11-09T13:13:42.402491+00:00"
+   "actualizado": "2026-11-16T12:37:46.638417+00:00"
   },
   "CiscoDevNet/unity-connection-apis-python-samples": {
    "ficheros": {
@@ -1218,7 +1537,7 @@
    "default_branch": "master",
    "descripcion": "Sample scripts demonstrating usage of Cisco Unity Connection APIs with Python",
    "estrellas": 10,
-   "actualizado": "2026-11-09T13:13:43.099348+00:00"
+   "actualizado": "2026-11-16T12:37:47.208690+00:00"
   },
   "CiscoDevNet/axl-ansible-examples": {
    "ficheros": {
@@ -1228,7 +1547,7 @@
    "default_branch": "main",
    "descripcion": "Examples showing how to use Cisco Communications Manager AXL SOAP to make configuration changes using Ansible playbooks",
    "estrellas": 21,
-   "actualizado": "2026-11-09T13:13:43.776004+00:00"
+   "actualizado": "2026-11-16T12:37:47.858878+00:00"
   },
   "CiscoDevNet/xe-sip-api-code": {
    "ficheros": {
@@ -1237,7 +1556,7 @@
    "default_branch": "main",
    "descripcion": "",
    "estrellas": 0,
-   "actualizado": "2026-11-09T13:13:44.438734+00:00"
+   "actualizado": "2026-11-16T12:37:48.460415+00:00"
   },
   "CiscoDevNet/jabber-web-sample": {
    "ficheros": {
@@ -1246,7 +1565,7 @@
    "default_branch": "master",
    "descripcion": "Basic and advanced sample pages demonstrating the use of the Cisco Jabber Web SDK for voice and video",
    "estrellas": 11,
-   "actualizado": "2026-11-09T13:13:45.309472+00:00"
+   "actualizado": "2026-11-16T12:37:49.039712+00:00"
   }
  }
 }

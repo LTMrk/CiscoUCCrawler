@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/outgoingPermission
-operation_id: Retrieve Outgoing Calling Permissions Settings for a Person
+operation_id: retrieveOutgoingCallingPermissionsSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.120317+00:00
+retrieved_at: 2026-11-16T12:36:50.779810+00:00
 ---
 
 # GET /people/{personId}/features/outgoingPermission
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Retrieve Outgoing Calling Permissions Settings for a Person`
+**operationId:** `retrieveOutgoingCallingPermissionsSettingsForAPerson`
 
 ## Resumen
 Retrieve a person's Outgoing Calling Permissions Settings

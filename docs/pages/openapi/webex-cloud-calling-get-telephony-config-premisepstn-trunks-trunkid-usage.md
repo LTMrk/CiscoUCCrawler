@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}/usage
-operation_id: Get Local Gateway Usage Count
+operation_id: getLocalGatewayUsageCount
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.962620+00:00
+retrieved_at: 2026-11-16T12:36:50.554659+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}/usage
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Local Gateway Usage Count`
+**operationId:** `getLocalGatewayUsageCount`
 
 ## Resumen
 Get Local Gateway Usage Count

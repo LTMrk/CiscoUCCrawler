@@ -5,19 +5,19 @@ api: Webex Contact Center
 api_version: 1.0.0
 method: GET
 path: /dataSources/schemas
-operation_id: Retrieve Data Source Schemas
+operation_id: retrieveDataSourceSchemas
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.626805+00:00
+retrieved_at: 2026-11-16T12:36:51.173223+00:00
 ---
 
 # GET /dataSources/schemas
 
 **API:** Webex Contact Center
 **Área:** Data Sources
-**operationId:** `Retrieve Data Source Schemas`
+**operationId:** `retrieveDataSourceSchemas`
 
 ## Resumen
 Retrieve Data Source Schemas

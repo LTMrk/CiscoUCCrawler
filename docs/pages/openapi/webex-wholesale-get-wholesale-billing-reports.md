@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: GET
 path: /wholesale/billing/reports
-operation_id: List Wholesale Billing Reports
+operation_id: listWholesaleBillingReports
 tags: Wholesale Billing Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.601571+00:00
+retrieved_at: 2026-11-16T12:36:51.889340+00:00
 ---
 
 # GET /wholesale/billing/reports
 
 **API:** Webex Wholesale
 **Área:** Wholesale Billing Reports
-**operationId:** `List Wholesale Billing Reports`
+**operationId:** `listWholesaleBillingReports`
 
 ## Resumen
 List Wholesale Billing Reports

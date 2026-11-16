@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /messages/{messageId}
-operation_id: Get Message Details
+operation_id: getMessageDetails
 tags: Messages
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.744851+00:00
+retrieved_at: 2026-11-16T12:36:51.664741+00:00
 ---
 
 # GET /messages/{messageId}
 
 **API:** Webex Messaging
 **Área:** Messages
-**operationId:** `Get Message Details`
+**operationId:** `getMessageDetails`
 
 ## Resumen
 Get Message Details
@@ -51,10 +51,7 @@ curl -X GET '/messages/<messageId>' \
 - `mentionedPeople` (array): People IDs for anyone mentioned in the message.
 - `mentionedGroups` (array): Group names for the groups mentioned in the message.
 - `attachments` (array): Message content attachments attached to the message. See the [Cards Guide](/docs/buttons-and-cards) for more information.
-  - `content` (object):
-    - `fileId` (string) (**requerido**): The `fileId` of the attachment.
-    - `type` (string) (**requerido**): The type of attachment.  * `external` - Attachment stored externally.  * `native` - Attachment stored within the Webex platform. Valores: external, native.
-    - `contentUrl` (string) (**requerido**): The URL for the content.
+  - `content` (object): Enterprise Content Management file.
 - `created` (string): The date and time the message was created.
 - `updated` (string): The date and time that the message was last edited by the author. This field is only present when the message contents have changed.
 - `isVoiceClip` (boolean): `true` if the audio file is a voice clip recorded by the client; `false` if the audio file is a standard audio file not posted using the voice clip feature.

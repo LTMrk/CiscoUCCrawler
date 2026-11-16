@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/callRecording
-operation_id: Configure Call Recording Settings for a Person
+operation_id: configureCallRecordingSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.116395+00:00
+retrieved_at: 2026-11-16T12:36:50.772607+00:00
 ---
 
 # PUT /people/{personId}/features/callRecording
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Call Recording Settings for a Person`
+**operationId:** `configureCallRecordingSettingsForAPerson`
 
 ## Resumen
 Configure Call Recording Settings for a Person

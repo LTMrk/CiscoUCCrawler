@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/callBridge
-operation_id: Read Call Bridge Settings for a Virtual Line
+operation_id: readCallBridgeSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.182265+00:00
+retrieved_at: 2026-11-16T12:36:50.836662+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/callBridge
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Call Bridge Settings for a Virtual Line`
+**operationId:** `readCallBridgeSettingsForAVirtualLine`
 
 ## Resumen
 Read Call Bridge Settings for a Virtual Line

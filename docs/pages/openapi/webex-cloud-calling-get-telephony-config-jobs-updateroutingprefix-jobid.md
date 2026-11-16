@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/updateRoutingPrefix/{jobId}
-operation_id: Get the job status of Update Routing Prefix job
+operation_id: getTheJobStatusOfUpdateRoutingPrefixJob
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.087399+00:00
+retrieved_at: 2026-11-16T12:36:50.729409+00:00
 ---
 
 # GET /telephony/config/jobs/updateRoutingPrefix/{jobId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get the job status of Update Routing Prefix job`
+**operationId:** `getTheJobStatusOfUpdateRoutingPrefixJob`
 
 ## Resumen
 Get the job status of Update Routing Prefix job
@@ -68,9 +68,7 @@ curl -X GET '/telephony/config/jobs/updateRoutingPrefix/<jobId>' \
     - `timeElapsed` (string): Time lapsed since the step execution started.
 - `latestExecutionStatus` (string) (**requerido**): Indicates the most recent status (`STARTING`, `STARTED`, `COMPLETED`, `FAILED`) of the job at the time of invocation.
 - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
-- `counts` (object) (**requerido**):
-  - `routingPrefixUpdated` (number) (**requerido**): Indicates the total number of records whose routing prefix update is successful.
-  - `routingPrefixFailed` (number) (**requerido**): Indicates the total number of records whose routing prefix update failed.
+- `counts` (object) (**requerido**): Job statistics.
 
 ### Ejemplo — respuesta 200
 ```json

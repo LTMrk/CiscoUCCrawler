@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/q_and_a/{questionId}/answers
-operation_id: List Answers of a Question
+operation_id: listAnswersOfAQuestion
 tags: Meeting Q and A
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.447009+00:00
+retrieved_at: 2026-11-16T12:36:51.511340+00:00
 ---
 
 # GET /meetings/q_and_a/{questionId}/answers
 
 **API:** Webex Meetings
 **Área:** Meeting Q and A
-**operationId:** `List Answers of a Question`
+**operationId:** `listAnswersOfAQuestion`
 
 ## Resumen
 List Answers of a Question

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /v1/analytics/messagingMetrics/dailyTotals
-operation_id: Historical Data related to Messaging
+operation_id: historicalDataRelatedToMessaging
 tags: Historical Analytics APIs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.085235+00:00
+retrieved_at: 2026-11-16T12:36:50.136821+00:00
 ---
 
 # GET /v1/analytics/messagingMetrics/dailyTotals
 
 **API:** Webex Admin
 **Área:** Historical Analytics APIs
-**operationId:** `Historical Data related to Messaging`
+**operationId:** `historicalDataRelatedToMessaging`
 
 ## Resumen
 Historical Data related to Messaging

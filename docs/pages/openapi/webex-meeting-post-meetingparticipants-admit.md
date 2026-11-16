@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingParticipants/admit
-operation_id: Admit Participants
+operation_id: admitParticipants
 tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.442275+00:00
+retrieved_at: 2026-11-16T12:36:51.504404+00:00
 ---
 
 # POST /meetingParticipants/admit
 
 **API:** Webex Meetings
 **Área:** Participants
-**operationId:** `Admit Participants`
+**operationId:** `admitParticipants`
 
 ## Resumen
 Admit Participants

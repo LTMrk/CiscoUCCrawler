@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/callPickups/{callPickupId}
-operation_id: Update a Call Pickup
+operation_id: updateACallPickup
 tags: Features:  Call Pickup
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.051989+00:00
+retrieved_at: 2026-11-16T12:36:50.677076+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callPickups/{callPickupId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Pickup
-**operationId:** `Update a Call Pickup`
+**operationId:** `updateACallPickup`
 
 ## Resumen
 Update a Call Pickup

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /convergedRecordings/softDelete
-operation_id: move_recordings_into_the_recycle_bin
+operation_id: moveRecordingsIntoTheRecycleBin
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.015383+00:00
+retrieved_at: 2026-11-16T12:36:50.625927+00:00
 ---
 
 # POST /convergedRecordings/softDelete
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `move_recordings_into_the_recycle_bin`
+**operationId:** `moveRecordingsIntoTheRecycleBin`
 
 ## Resumen
 Move Recordings into the Recycle Bin

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/voicemail
-operation_id: Read Voicemail Settings for a Virtual Line
+operation_id: readVoicemailSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.180278+00:00
+retrieved_at: 2026-11-16T12:36:50.833894+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/voicemail
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Voicemail Settings for a Virtual Line`
+**operationId:** `readVoicemailSettingsForAVirtualLine`
 
 ## Resumen
 Read Voicemail Settings for a Virtual Line

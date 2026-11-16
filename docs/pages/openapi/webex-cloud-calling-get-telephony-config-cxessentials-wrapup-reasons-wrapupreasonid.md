@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
-operation_id: Read Wrap Up Reason
+operation_id: readWrapUpReason
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.070092+00:00
+retrieved_at: 2026-11-16T12:36:50.703171+00:00
 ---
 
 # GET /telephony/config/cxEssentials/wrapup/reasons/{wrapupReasonId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Read Wrap Up Reason`
+**operationId:** `readWrapUpReason`
 
 ## Resumen
 Read Wrap Up Reason
@@ -42,17 +42,18 @@ curl -X GET '/telephony/config/cxEssentials/wrapup/reasons/<wrapupReasonId>' \
 
 ## Respuestas correctas
 **200**: OK
-- `name` (string) (**requerido**): Name of the wrap-up reason.
-- `description` (string): Description of the wrap-up reason.
-- `defaultWrapupQueuesCount` (number) (**requerido**): Number of queues assigned to the wrap-up reason.
-- `queues` (array) (**requerido**): List of queues assigned to the wrap-up reason.
-  - `id` (string) (**requerido**): Unique queue identifier.
-  - `name` (string) (**requerido**): Name of the queue.
-  - `locationName` (string) (**requerido**): Name of the location.
-  - `locationId` (string) (**requerido**): Unique location identifier.
-  - `phoneNumber` (string) (**requerido**): Phone number of the queue.
-  - `extension` (number): Extension of the queue.
-  - `defaultWrapupEnabled` (boolean) (**requerido**): Denotes whether the default wrap-up is enabled for the queue.
+- (todos de:)
+  - `name` (string) (**requerido**): Name of the wrap-up reason.
+  - `description` (string): Description of the wrap-up reason.
+  - `defaultWrapupQueuesCount` (number) (**requerido**): Number of queues assigned to the wrap-up reason.
+  - `queues` (array) (**requerido**): List of queues assigned to the wrap-up reason.
+    - `id` (string) (**requerido**): Unique queue identifier.
+    - `name` (string) (**requerido**): Name of the queue.
+    - `locationName` (string) (**requerido**): Name of the location.
+    - `locationId` (string) (**requerido**): Unique location identifier.
+    - `phoneNumber` (string) (**requerido**): Phone number of the queue.
+    - `extension` (number): Extension of the queue.
+    - `defaultWrapupEnabled` (boolean) (**requerido**): Denotes whether the default wrap-up is enabled for the queue.
 
 ### Ejemplo — respuesta 200
 ```json

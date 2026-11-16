@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /identity/scim/{orgId}/v2/Bulk
-operation_id: User bulk API
+operation_id: userBulkAPI
 tags: Bulk Manage SCIM 2 Users and Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.101650+00:00
+retrieved_at: 2026-11-16T12:36:50.156888+00:00
 ---
 
 # POST /identity/scim/{orgId}/v2/Bulk
 
 **API:** Webex Admin
 **Área:** Bulk Manage SCIM 2 Users and Groups
-**operationId:** `User bulk API`
+**operationId:** `userBulkAPI`
 
 ## Resumen
 User bulk API

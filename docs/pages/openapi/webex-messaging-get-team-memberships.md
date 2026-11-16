@@ -10,7 +10,7 @@ tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.749005+00:00
+retrieved_at: 2026-11-16T12:36:51.670404+00:00
 ---
 
 # GET /team/memberships

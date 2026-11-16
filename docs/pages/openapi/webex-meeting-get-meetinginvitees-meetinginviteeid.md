@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingInvitees/{meetingInviteeId}
-operation_id: Get a Meeting Invitee
+operation_id: getAMeetingInvitee
 tags: Invitees
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.440452+00:00
+retrieved_at: 2026-11-16T12:36:51.501896+00:00
 ---
 
 # GET /meetingInvitees/{meetingInviteeId}
 
 **API:** Webex Meetings
 **Área:** Invitees
-**operationId:** `Get a Meeting Invitee`
+**operationId:** `getAMeetingInvitee`
 
 ## Resumen
 Get a Meeting Invitee

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /meetingPreferences/sites
-operation_id: Update Default Site
+operation_id: updateDefaultSite
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.446393+00:00
+retrieved_at: 2026-11-16T12:36:51.510403+00:00
 ---
 
 # PUT /meetingPreferences/sites
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Update Default Site`
+**operationId:** `updateDefaultSite`
 
 ## Resumen
 Update Default Site

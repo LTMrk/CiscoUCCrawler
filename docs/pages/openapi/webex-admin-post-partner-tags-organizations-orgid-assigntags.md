@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /partner/tags/organizations/{orgId}/assignTags
-operation_id: Create or Replace existing customer tags with the provided ones
+operation_id: createOrReplaceExistingCustomerTagsWithTheProvidedOnes
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.110674+00:00
+retrieved_at: 2026-11-16T12:36:50.168634+00:00
 ---
 
 # POST /partner/tags/organizations/{orgId}/assignTags
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Create or Replace existing customer tags with the provided ones`
+**operationId:** `createOrReplaceExistingCustomerTagsWithTheProvidedOnes`
 
 ## Resumen
 Create or Replace existing customer tags with the provided ones

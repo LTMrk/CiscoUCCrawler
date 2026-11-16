@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/externalCallerId/availableNumbers
-operation_id: Get the List of Phone Numbers Available for External Caller ID
+operation_id: getTheListOfPhoneNumbersAvailableForExternalCallerID
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.089965+00:00
+retrieved_at: 2026-11-16T12:36:50.733097+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/externalCallerId/availableNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get the List of Phone Numbers Available for External Caller ID`
+**operationId:** `getTheListOfPhoneNumbersAvailableForExternalCallerID`
 
 ## Resumen
 Get the List of Phone Numbers Available for External Caller ID
@@ -56,7 +56,7 @@ curl -X GET '/telephony/config/locations/<locationId>/externalCallerId/available
   - `state` (string) (**requerido**): Phone number's state.
   - `phoneNumberType` (string) (**requerido**): Returns the filtered list of phone numbers of the given `phoneNumberType`. Response excludes any extensions without numbers. Possible input values:  * `PRIMARY` - Filter the results to include only primary phone numbers.  * `ALTERNATE` - Filter the results to include only alternate phone numbers.  * `FAX` - Filter the results to include only FAX phone numbers.  * `DNIS` - Filter the results to include only Dialed Number Identification Service (DNIS) phone numbers.  * `Default` - Filter the results to include all numbers. Valores: PRIMARY, ALTERNATE, FAX, DNIS, Default.
   - `mainNumber` (boolean) (**requerido**): If `true`, the phone number is used as location CLID.
-  - `includedTelephonyTypes` (string) (**requerido**): * `PSTN_NUMBER` - The object is a PSTN number. Valores: PSTN_NUMBER.
+  - `includedTelephonyTypes` (object) (**requerido**): The telephony type for the number.
   - `mobileNetwork` (string): Mobile Network for the number if the number is MOBILE_NUMBER.
   - `routingProfile` (string): Routing Profile for the number if the number is MOBILE_NUMBER.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, the phone number is a toll-free number.
@@ -68,7 +68,7 @@ curl -X GET '/telephony/config/locations/<locationId>/externalCallerId/available
     - `name` (string) (**requerido**): Name of the location for phone number.
   - `owner` (object):
     - `id` (string): ID of the owner to which phone number is assigned.
-    - `type` (string): * `PLACE` - PSTN phone number's owner is a workspace.  * `PEOPLE` - PSTN phone number's owner is a person.  * `VIRTUAL_LINE` - PSTN phone number's owner is a Virtual Profile.  * `AUTO_ATTENDANT` - PSTN phone number's owner is an auto-attendant.  * `CALL_QUEUE` - PSTN phone number's owner is a call queue.  * `GROUP_PAGING` - PSTN phone number's owner is a group paging.  * `HUNT_GROUP` - PSTN phone number's owner is a hunt group.  * `VOICE_MESSAGING` - PSTN phone number's owner is a voice messaging.  * `OFFICE_ANYWHERE` - PSTN phone number's owner is a Single Number Reach.  * `CONTACT_CENTER_LINK` - PSTN phone number's owner is a Contact Center link.  * `CONTACT_CENTER_ADAPTER` - PSTN phone number's owner is a Contact Center adapter.  * `ROUTE_LIST` - PSTN phone number's owner is a route list.  * `VOICEMAIL_GROUP` - PSTN phone number's owner is a voicemail group.  * `COLLABORATE_BRIDGE` - PSTN phone number's owner is a collaborate bridge. Valores: PLACE, PEOPLE, VIRTUAL_LINE, AUTO_ATTENDANT, CALL_QUEUE, GROUP_PAGING, HUNT_GROUP, VOICE_MESSAGING, OFFICE_ANYWHERE, CONTACT_CENTER_LINK, CONTACT_CENTER_ADAPTER, ROUTE_LIST, VOICEMAIL_GROUP, COLLABORATE_BRIDGE.
+    - `type` (object): Type of the phone number's owner.
     - `firstName` (string): First name of the phone number's owner.
     - `lastName` (string): Last name of the phone number's owner.
     - `elinExpiryTime` (string): UTC Timestamp indicating the date and time of expiration of the temporary Emergency Location Identification Number (ELIN) assignment set to this owner when an emergency call is made.

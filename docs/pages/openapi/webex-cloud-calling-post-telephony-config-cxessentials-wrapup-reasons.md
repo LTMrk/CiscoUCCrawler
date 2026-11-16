@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/cxEssentials/wrapup/reasons
-operation_id: Create Wrap Up Reason
+operation_id: createWrapUpReason
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.069895+00:00
+retrieved_at: 2026-11-16T12:36:50.702892+00:00
 ---
 
 # POST /telephony/config/cxEssentials/wrapup/reasons
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `Create Wrap Up Reason`
+**operationId:** `createWrapUpReason`
 
 ## Resumen
 Create Wrap Up Reason

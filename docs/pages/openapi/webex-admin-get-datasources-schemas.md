@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /dataSources/schemas
-operation_id: Retrieve Data Source Schemas
+operation_id: retrieveDataSourceSchemas
 tags: Data Sources
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.079176+00:00
+retrieved_at: 2026-11-16T12:36:50.129606+00:00
 ---
 
 # GET /dataSources/schemas
 
 **API:** Webex Admin
 **Área:** Data Sources
-**operationId:** `Retrieve Data Source Schemas`
+**operationId:** `retrieveDataSourceSchemas`
 
 ## Resumen
 Retrieve Data Source Schemas

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/dataPolicies
-operation_id: ReadDataPolicySettings
+operation_id: readDataPolicySettings
 tags: Call Settings Configurable Storage Region
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.072324+00:00
+retrieved_at: 2026-11-16T12:36:50.706141+00:00
 ---
 
 # GET /telephony/config/dataPolicies
 
 **API:** Webex Cloud Calling
 **Área:** Call Settings Configurable Storage Region
-**operationId:** `ReadDataPolicySettings`
+**operationId:** `readDataPolicySettings`
 
 ## Resumen
 Get the Data (Storage) Policy Settings for the Organization

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testStatus
-operation_id: Get Triggered test status
+operation_id: getTriggeredTestStatus
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.483490+00:00
+retrieved_at: 2026-11-16T12:36:51.556939+00:00
 ---
 
 # GET /videoMesh/testStatus
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Triggered test status`
+**operationId:** `getTriggeredTestStatus`
 
 ## Resumen
 Get Triggered test status

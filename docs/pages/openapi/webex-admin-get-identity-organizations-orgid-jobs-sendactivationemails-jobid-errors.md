@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /identity/organizations/{orgId}/jobs/sendActivationEmails/{jobId}/errors
-operation_id: Get Bulk Activation Email Resend Job Errors
+operation_id: getBulkActivationEmailResendJobErrors
 tags: Send Activation Email
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.109410+00:00
+retrieved_at: 2026-11-16T12:36:50.167264+00:00
 ---
 
 # GET /identity/organizations/{orgId}/jobs/sendActivationEmails/{jobId}/errors
 
 **API:** Webex Admin
 **Área:** Send Activation Email
-**operationId:** `Get Bulk Activation Email Resend Job Errors`
+**operationId:** `getBulkActivationEmailResendJobErrors`
 
 ## Resumen
 Get Bulk Activation Email Resend Job Errors
@@ -43,12 +43,7 @@ curl -X GET '/identity/organizations/<orgId>/jobs/sendActivationEmails/<jobId>/e
 - `items` (array):
   - `itemNumber` (number): Index of error.
   - `trackingId` (string): Unique identifier to track the HTTP request.
-  - `error` (object):
-    - `key` (string): HTTP status code.
-    - `message` (array): List of error messages.
-      - `description` (string): Error message.
-      - `code` (string): Internal error code.
-      - `locationId` (string): Not used.
+  - `error` (object): Error details.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -10,7 +10,7 @@ tags: Tasks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.636517+00:00
+retrieved_at: 2026-11-16T12:36:51.187405+00:00
 ---
 
 # POST /v1/tasks
@@ -32,9 +32,7 @@ This API is to create a task for work or handling assignments. Represents both i
 - `outboundType` (string): The outbound type for the task. Supported values are ```CALLBACK```, ```OUTDIAL```, and ```EXECUTE_FLOW```. Use ```OUTDIAL``` when the user is logged into the Agent Desktop and needs to make an outbound call to the customer. Use ```CALLBACK``` when the user is not logged in and needs to schedule a callback to the customer. Use ```EXECUTE_FLOW``` when the task is linked to a predefined flow triggered through an Inbound Entrypoint.
 - `mediaType` (string) (**requerido**): The media type for the request. The ```telephony``` type is required for ```EXECUTE_FLOW``` and ```CALLBACK```. The supported value is ```telephony```.
 - `origin` (string): The contact center number, which is an ANI Outdial number, that will be used while making a call to the customer. This field is mandatory for ```EXECUTE_FLOW``` and ```OUTDIAL``` type while it is optional for ```CALLBACK```. If not provided for ```CALLBACK``` type, default out-dial ANI configuration will be used, maximum length 36 characters. The origin value must exactly match one of the configured Outdial ANIs in the agent profile.
-- `callback` (object): Details for a callback task.
-  - `callbackOrigin` (string) (**requerido**): The source of callback request. The supported value is ```web```.
-  - `callbackType` (string) (**requerido**): The type of callback. The supported value is ```immediate```.
+- `callback` (object): Callback details. Required only when outboundType is set to ```CALLBACK```.
 - `customAttributes` (object): This is a schema-free data tuple to pass on specific SIP header data, Supports a maximum of 20 headers, selected alphabetically if more than 20 are present. Each header key is converted to lowercase, and hyphens are retained. The payload is restricted to 1100 bytes to comply with RFC3261 when using UDP. No header values are logged to ensure PII protection.Ex:The Caller ID Name is included as 'caller_id_name', derived from the appropriate SIP header
 
 ## Ejemplo de invocación

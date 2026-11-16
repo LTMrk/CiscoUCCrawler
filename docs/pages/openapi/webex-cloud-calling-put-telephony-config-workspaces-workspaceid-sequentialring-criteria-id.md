@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/sequentialRing/criteria/{id}
-operation_id: Modify Sequential Ring Criteria for a Workspace
+operation_id: modifySequentialRingCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.199428+00:00
+retrieved_at: 2026-11-16T12:36:50.860033+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/sequentialRing/criteria/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Sequential Ring Criteria for a Workspace`
+**operationId:** `modifySequentialRingCriteriaForAWorkspace`
 
 ## Resumen
 Modify Sequential Ring Criteria for a Workspace
@@ -38,9 +38,9 @@ This API requires a full, user or location administrator auth token with the `sp
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
-- `scheduleName` (string): Name of the location's schedule which determines when the sequential ring is in effect.
+- `scheduleName` (string): Name of the schedule which determines when the sequential ring is in effect.
 - `scheduleType` (string): This indicates the type of schedule.  * `holidays` - The Schedule is of type `holidays`.  * `businessHours` - The Schedule is of type `businessHours`. Valores: holidays, businessHours.
-- `scheduleLevel` (string): This indicates the level of the schedule specified by `scheduleName`.  * `GROUP` - The Schedule specified is of `GROUP` level. Valores: GROUP.
+- `scheduleLevel` (string): This indicates the level of the schedule specified by `scheduleName`.  * `GROUP` - The schedule is associated with a location.  * `ORGANIZATION` - The schedule is associated with an organization. Valores: GROUP, ORGANIZATION.
 - `callsFrom` (string): This indicates if criteria are applicable for calls from any phone number or selected phone numbers.  * `SELECT_PHONE_NUMBERS` - Sequential ring criteria only applies for selected incoming numbers.  * `ANY_PHONE_NUMBER` - Sequential ring criteria applies for any incoming number. Valores: SELECT_PHONE_NUMBERS, ANY_PHONE_NUMBER.
 - `anonymousCallersEnabled` (boolean): When `true` incoming calls from private numbers are allowed. This is only applicable when `callsFrom` is set to `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true` incoming calls from unavailable numbers are allowed. This is only applicable when `callsFrom` is set to `SELECT_PHONE_NUMBERS`.

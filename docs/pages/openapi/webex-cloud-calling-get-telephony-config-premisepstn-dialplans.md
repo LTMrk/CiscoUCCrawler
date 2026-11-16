@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/dialPlans
-operation_id: Read the List of Dial Plans
+operation_id: readTheListOfDialPlans
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.963394+00:00
+retrieved_at: 2026-11-16T12:36:50.555738+00:00
 ---
 
 # GET /telephony/config/premisePstn/dialPlans
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the List of Dial Plans`
+**operationId:** `readTheListOfDialPlans`
 
 ## Resumen
 Read the List of Dial Plans
@@ -51,7 +51,7 @@ curl -X GET '/telephony/config/premisePstn/dialPlans' \
   - `name` (string) (**requerido**): A unique name for the dial plan.
   - `routeId` (string) (**requerido**): ID of route type associated with the dial plan.
   - `routeName` (string) (**requerido**): Name of route type associated with the dial plan.
-  - `routeType` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+  - `routeType` (object) (**requerido**): Route Type associated with the dial plan.
 
 ### Ejemplo — respuesta 200
 ```json

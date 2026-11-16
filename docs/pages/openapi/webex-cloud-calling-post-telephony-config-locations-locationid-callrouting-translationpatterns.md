@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/callRouting/translationPatterns
-operation_id: Create a Translation Pattern for a Location
+operation_id: createATranslationPatternForALocation
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.970444+00:00
+retrieved_at: 2026-11-16T12:36:50.567247+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/callRouting/translationPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create a Translation Pattern for a Location`
+**operationId:** `createATranslationPatternForALocation`
 
 ## Resumen
 Create a Translation Pattern for a Location
@@ -57,7 +57,7 @@ curl -X POST '/telephony/config/locations/<locationId>/callRouting/translationPa
 
 ## Respuestas correctas
 **201**: Created
-- `id` (string): The unique identifier for the criteria.
+- `id` (string) (**requerido**): The unique identifier for the criteria.
 
 ### Ejemplo — respuesta 201
 ```json

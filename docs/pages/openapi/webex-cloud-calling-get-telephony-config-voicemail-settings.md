@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/voicemail/settings
-operation_id: Get Voicemail Settings
+operation_id: getVoicemailSettings
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.004779+00:00
+retrieved_at: 2026-11-16T12:36:50.612675+00:00
 ---
 
 # GET /telephony/config/voicemail/settings
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Get Voicemail Settings`
+**operationId:** `getVoicemailSettings`
 
 ## Resumen
 Get Voicemail Settings

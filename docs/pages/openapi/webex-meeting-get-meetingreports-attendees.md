@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingReports/attendees
-operation_id: List Meeting Attendee Reports
+operation_id: listMeetingAttendeeReports
 tags: Meetings Summary Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.450351+00:00
+retrieved_at: 2026-11-16T12:36:51.516172+00:00
 ---
 
 # GET /meetingReports/attendees
 
 **API:** Webex Meetings
 **Área:** Meetings Summary Report
-**operationId:** `List Meeting Attendee Reports`
+**operationId:** `listMeetingAttendeeReports`
 
 ## Resumen
 List Meeting Attendee Reports
@@ -88,14 +88,14 @@ curl -X GET '/meetingReports/attendees?siteUrl=<siteUrl>' \
   "items": [
     {
       "meetingId": "089b137c3cf34b578896941e2d49dfe8_I_146987372776523573",
-      "meetingNumber": "123456789",
+      "meetingNumber": 123456789,
       "meetingTitle": "John's Meeting",
       "displayName": "John Andersen",
       "email": "john.andersen@example.com",
       "joinedTime": "2023-01-18T10:26:30+08:00",
       "leftTime": "2023-01-18T10:46:30+08:00",
       "duration": 20,
-      "participantType": "ATTENDEE",
+      "participantType": "attendee",
       "ipAddress": "172.16.244.151",
       "clientAgent": "WINDOWS,IE",
       "company": "ExampleCompany",

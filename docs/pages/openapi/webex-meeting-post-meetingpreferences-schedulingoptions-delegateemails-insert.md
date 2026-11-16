@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingPreferences/schedulingOptions/delegateEmails/insert
-operation_id: Insert Delegate Emails
+operation_id: insertDelegateEmails
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.445831+00:00
+retrieved_at: 2026-11-16T12:36:51.509576+00:00
 ---
 
 # POST /meetingPreferences/schedulingOptions/delegateEmails/insert
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Insert Delegate Emails`
+**operationId:** `insertDelegateEmails`
 
 ## Resumen
 Insert Delegate Emails

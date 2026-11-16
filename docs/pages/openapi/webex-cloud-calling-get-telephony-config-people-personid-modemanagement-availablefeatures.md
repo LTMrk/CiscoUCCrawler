@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.141605+00:00
+retrieved_at: 2026-11-16T12:36:50.800189+00:00
 ---
 
 # GET /telephony/config/people/{personId}/modeManagement/availableFeatures
@@ -50,7 +50,7 @@ curl -X GET '/telephony/config/people/<personId>/modeManagement/availableFeature
 - `features` (array) (**requerido**): Array of features.
   - `id` (string) (**requerido**): A unique identifier for the feature.
   - `name` (string) (**requerido**): Unique name for the feature.
-  - `type` (string) (**requerido**): * `AUTO_ATTENDANT` - Specifies the feature is an Auto Attendant.  * `CALL_QUEUE` - Specifies the feature is a Call Queue.  * `HUNT_GROUP` - Specifies the feature is a Hunt Group. Valores: AUTO_ATTENDANT, CALL_QUEUE, HUNT_GROUP.
+  - `type` (object) (**requerido**): Defines the scheduling of the operating mode.
   - `phoneNumber` (string): The primary phone number configured for the feature.
   - `extension` (string): The extension configured for the feature.
 

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /convergedRecordings/purge
-operation_id: purge_recordings_from_recycle_bin
+operation_id: purgeRecordingsFromRecycleBin
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.015741+00:00
+retrieved_at: 2026-11-16T12:36:50.626410+00:00
 ---
 
 # POST /convergedRecordings/purge
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `purge_recordings_from_recycle_bin`
+**operationId:** `purgeRecordingsFromRecycleBin`
 
 ## Resumen
 Purge Recordings from Recycle Bin

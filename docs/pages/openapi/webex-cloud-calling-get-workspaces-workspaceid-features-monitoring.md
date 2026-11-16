@@ -10,7 +10,7 @@ tags: Workspace Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.188854+00:00
+retrieved_at: 2026-11-16T12:36:50.845783+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/monitoring
@@ -43,40 +43,9 @@ curl -X GET '/workspaces/<workspaceId>/features/monitoring' \
 - `callParkNotificationEnabled` (boolean) (**requerido**): Call park notification enabled or disabled.
 - `availableEntriesCount` (integer): Number of available entries for monitoring.
 - `monitoredElements` (array): Monitored element items.
-  - `callparkextension` (object):
-    - `id` (string) (**requerido**): ID of call park extension.
-    - `name` (string) (**requerido**): Name of call park extension.
-    - `extension` (string) (**requerido**): Extension of call park extension.
-    - `routingPrefix` (string): Routing prefix of location.
-    - `esn` (string): Routing prefix + extension of a person or workspace.
-    - `location` (string) (**requerido**): Name of location for call park extension.
-    - `locationId` (string) (**requerido**): ID of location for call park extension.
-    - `lineKeyLabel` (string): Customizable line key label for monitored call park extension.
-  - `member` (object):
-    - `id` (string): The identifier of the monitored person or workspace.
-    - `firstName` (string): The first name of the monitored person, place, or virtual line.
-    - `lastName` (string): The last name of the monitored person, place, or virtual line.
-    - `displayName` (string): The display name of the monitored person, place, or virtual line.
-    - `type` (string): The type of the monitored person, place, or virtual line.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace. Valores: PEOPLE, PLACE.
-    - `email` (string): The email address of the monitored person, place, or virtual line.
-    - `numbers` (array): The list of phone numbers of the monitored person, place, or virtual line.
-      - `external` (string): Phone number of person or workspace. Either `phoneNumber` or `extension` is mandatory.
-      - `extension` (string): Extension of person or workspace. Either `phoneNumber` or `extension` is mandatory.
-      - `routingPrefix` (string): Routing prefix of location.
-      - `esn` (string): Routing prefix + extension of a person or workspace.
-      - `primary` (boolean) (**requerido**): Flag to indicate primary phone.
-      - `tollFreeNumber` (boolean): Flag to indicate toll free number.
-    - `location` (string): The location name where the line is.
-    - `locationId` (string): The ID for the location.
-    - `lineKeyLabel` (string): Customizable line key label for monitored member.
-  - `speedDial` (object):
-    - `id` (string): The identifier of the speed dial.
-    - `displayName` (string): The display name of the speed dial.
-    - `type` (string): The type of the speed dial.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `lineKeyLabel` (string): Customizable line key label for speed dial.
-    - `phoneNumber` (string): The phone number of the speed dial.
-    - `location` (string): The location name where the speed dial is.
-    - `locationId` (string): The ID for the location.
+  - `callparkextension` (object): Monitored Call Park extension.
+  - `member` (object): Monitored member for this workspace.
+  - `speedDial` (object): Monitored Speed Dial.
 
 ### Ejemplo — respuesta 200
 ```json

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /resourceGroups
-operation_id: List Resource Groups
+operation_id: listResourceGroups
 tags: Resource Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.100547+00:00
+retrieved_at: 2026-11-16T12:36:50.155892+00:00
 ---
 
 # GET /resourceGroups
 
 **API:** Webex Admin
 **Área:** Resource Groups
-**operationId:** `List Resource Groups`
+**operationId:** `listResourceGroups`
 
 ## Resumen
 List Resource Groups

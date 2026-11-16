@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/premisePstn/routeLists/{routeListId}
-operation_id: Delete a Route List
+operation_id: deleteARouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.968294+00:00
+retrieved_at: 2026-11-16T12:36:50.564461+00:00
 ---
 
 # DELETE /telephony/config/premisePstn/routeLists/{routeListId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Delete a Route List`
+**operationId:** `deleteARouteList`
 
 ## Resumen
 Delete a Route List

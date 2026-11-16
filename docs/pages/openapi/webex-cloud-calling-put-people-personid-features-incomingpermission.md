@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/incomingPermission
-operation_id: Configure Incoming Permission Settings for a Person
+operation_id: configureIncomingPermissionSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.120076+00:00
+retrieved_at: 2026-11-16T12:36:50.779481+00:00
 ---
 
 # PUT /people/{personId}/features/incomingPermission
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Incoming Permission Settings for a Person`
+**operationId:** `configureIncomingPermissionSettingsForAPerson`
 
 ## Resumen
 Configure Incoming Permission Settings for a Person

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/applications
-operation_id: Modify Application Services Settings of a person
+operation_id: modifyApplicationServicesSettingsOfAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.114524+00:00
+retrieved_at: 2026-11-16T12:36:50.769962+00:00
 ---
 
 # PUT /people/{personId}/features/applications
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Modify Application Services Settings of a person`
+**operationId:** `modifyApplicationServicesSettingsOfAPerson`
 
 ## Resumen
 Modify a person's Application Services Settings

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/members/me/hold
-operation_id: Hold
+operation_id: hold
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.013273+00:00
+retrieved_at: 2026-11-16T12:36:50.623139+00:00
 ---
 
 # POST /telephony/conference/members/me/hold
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Hold`
+**operationId:** `hold`
 
 ## Resumen
 Hold

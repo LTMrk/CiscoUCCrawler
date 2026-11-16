@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/clusters/availability/{clusterId}
-operation_id: Get Cluster Availability
+operation_id: getClusterAvailability
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.478537+00:00
+retrieved_at: 2026-11-16T12:36:51.548053+00:00
 ---
 
 # GET /videoMesh/clusters/availability/{clusterId}
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Cluster Availability`
+**operationId:** `getClusterAvailability`
 
 ## Resumen
 Get Cluster Availability

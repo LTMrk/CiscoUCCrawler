@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /contacts/organizations/{orgId}/contacts/{contactId}
-operation_id: Update a Contact
+operation_id: updateAContact
 tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.088828+00:00
+retrieved_at: 2026-11-16T12:36:50.141343+00:00
 ---
 
 # PATCH /contacts/organizations/{orgId}/contacts/{contactId}
 
 **API:** Webex Admin
 **Área:** Organization Contacts
-**operationId:** `Update a Contact`
+**operationId:** `updateAContact`
 
 ## Resumen
 Update a Contact

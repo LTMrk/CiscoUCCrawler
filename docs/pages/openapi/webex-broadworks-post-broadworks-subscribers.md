@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: POST
 path: /broadworks/subscribers
-operation_id: Provision a BroadWorks Subscriber
+operation_id: provisionABroadWorksSubscriber
 tags: BroadWorks Subscribers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.376033+00:00
+retrieved_at: 2026-11-16T12:36:50.253647+00:00
 ---
 
 # POST /broadworks/subscribers
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Subscribers
-**operationId:** `Provision a BroadWorks Subscriber`
+**operationId:** `provisionABroadWorksSubscriber`
 
 ## Resumen
 Provision a BroadWorks Subscriber
@@ -106,7 +106,7 @@ curl -X POST '/broadworks/subscribers' \
   "created": "2019-10-18T14:26:16.000Z",
   "lastStatusChange": "2020-03-18T16:05:34.000Z",
   "provisioningId": "ZjViMzYxODctYzhkZC00NzI3LThiMmYtZjljNDQ3ZjI5MDQ2OjQyODVmNTk0LTViNTEtNDdiZS05Mzk2LTZjMzZlMmFkODNhNQ",
-  "selfActivated": "false"
+  "selfActivated": false
 }
 ```
 

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/schedules
-operation_id: Create Schedule for a Person
+operation_id: createScheduleForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.122413+00:00
+retrieved_at: 2026-11-16T12:36:50.782761+00:00
 ---
 
 # POST /people/{personId}/features/schedules
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Create Schedule for a Person`
+**operationId:** `createScheduleForAPerson`
 
 ## Resumen
 Create Schedule for a Person
@@ -35,7 +35,7 @@ This API requires a full or user administrator auth token with the `spark-admin:
 
 ## Cuerpo de la petición (application/json)
 - `name` (string) (**requerido**): Name for the schedule.
-- `type` (string) (**requerido**): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
+- `type` (object) (**requerido**): The Schedule type whether `businessHours` or `holidays`.
 - `events` (array): A list of events.
   - `name` (string) (**requerido**): Name for the event.
   - `startDate` (string) (**requerido**): Start date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.

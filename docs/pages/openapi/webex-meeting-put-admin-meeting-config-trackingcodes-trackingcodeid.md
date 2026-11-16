@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: PUT
 path: /admin/meeting/config/trackingCodes/{trackingCodeId}
-operation_id: Update a Tracking Code
+operation_id: updateATrackingCode
 tags: Tracking Codes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.470787+00:00
+retrieved_at: 2026-11-16T12:36:51.537330+00:00
 ---
 
 # PUT /admin/meeting/config/trackingCodes/{trackingCodeId}
 
 **API:** Webex Meetings
 **Área:** Tracking Codes
-**operationId:** `Update a Tracking Code`
+**operationId:** `updateATrackingCode`
 
 ## Resumen
 Update a Tracking Code

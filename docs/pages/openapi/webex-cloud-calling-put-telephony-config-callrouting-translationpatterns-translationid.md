@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/callRouting/translationPatterns/{translationId}
-operation_id: Modify a specific Translation Pattern for an Organization
+operation_id: modifyASpecificTranslationPatternForAnOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.970063+00:00
+retrieved_at: 2026-11-16T12:36:50.566770+00:00
 ---
 
 # PUT /telephony/config/callRouting/translationPatterns/{translationId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify a specific Translation Pattern for an Organization`
+**operationId:** `modifyASpecificTranslationPatternForAnOrganization`
 
 ## Resumen
 Modify a specific Translation Pattern for an Organization

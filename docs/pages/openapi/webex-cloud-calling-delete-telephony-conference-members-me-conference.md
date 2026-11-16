@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/conference/members/me/conference
-operation_id: Release Conference
+operation_id: releaseConference
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.012038+00:00
+retrieved_at: 2026-11-16T12:36:50.621561+00:00
 ---
 
 # DELETE /telephony/conference/members/me/conference
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Release Conference`
+**operationId:** `releaseConference`
 
 ## Resumen
 Release Conference

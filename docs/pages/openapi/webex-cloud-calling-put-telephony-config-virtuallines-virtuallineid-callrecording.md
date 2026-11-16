@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/callRecording
-operation_id: Configure Call Recording Settings for a Virtual Line
+operation_id: configureCallRecordingSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.157667+00:00
+retrieved_at: 2026-11-16T12:36:50.823374+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/callRecording
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Call Recording Settings for a Virtual Line`
+**operationId:** `configureCallRecordingSettingsForAVirtualLine`
 
 ## Resumen
 Configure Call Recording Settings for a Virtual Line

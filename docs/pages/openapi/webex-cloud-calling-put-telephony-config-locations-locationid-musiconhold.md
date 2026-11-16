@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/musicOnHold
-operation_id: Update Music On Hold
+operation_id: updateMusicOnHold
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.088924+00:00
+retrieved_at: 2026-11-16T12:36:50.731633+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/musicOnHold
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Update Music On Hold`
+**operationId:** `updateMusicOnHold`
 
 ## Resumen
 Update Music On Hold
@@ -36,11 +36,7 @@ Updating a location's music on hold settings requires a full administrator or lo
 ## Cuerpo de la petición (application/json)
 - `mohEnabled` (boolean): Music on hold is enabled or disabled for the workspace.
 - `greeting` (string): Greeting type for the workspace.  * `DEFAULT` - Play music configured at location level.  * `CUSTOM` - Play custom music when call is placed on hold or parked. An audio file must already have been successfully uploaded to specify this option. Valores: DEFAULT, CUSTOM.
-- `audioAnnouncementFile` (object):
-  - `id` (string): A unique identifier for the [announcement](/docs/api/v1/features-announcement-repository). `name`, `mediaFileType`, `level` are mandatory if `id` is not provided for uploading an announcement. If all four fields are provided, file with given `id` is used and other fields are ignored.
-  - `fileName` (string): Audio announcement file name.
-  - `mediaFileType` (string): Audio announcement file type.  * `WAV` - WAV File Extension. Valores: WAV.
-  - `level` (string): Audio announcement file type location.  * `ORGANIZATION` - Specifies this audio file is configured across the organization.  * `LOCATION` - Specifies this audio file is configured across the location. Valores: ORGANIZATION, LOCATION.
+- `audioAnnouncementFile` (object): Announcement Audio File details when greeting is selected to be `CUSTOM`.
 
 ### Ejemplo — petición
 ```json

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults/networkTest/clusters
-operation_id: Get Network Test results for cluster
+operation_id: getNetworkTestResultsForCluster
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.484460+00:00
+retrieved_at: 2026-11-16T12:36:51.558350+00:00
 ---
 
 # GET /videoMesh/testResults/networkTest/clusters
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Network Test results for cluster`
+**operationId:** `getNetworkTestResultsForCluster`
 
 ## Resumen
 Get Network Test results for cluster

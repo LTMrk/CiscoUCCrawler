@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /recordingReport/accessDetail
-operation_id: Get Recording Audit Report Details
+operation_id: getRecordingAuditReportDetails
 tags: Recording Report
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.094640+00:00
+retrieved_at: 2026-11-16T12:36:50.148238+00:00
 ---
 
 # GET /recordingReport/accessDetail
 
 **API:** Webex Admin
 **Área:** Recording Report
-**operationId:** `Get Recording Audit Report Details`
+**operationId:** `getRecordingAuditReportDetails`
 
 ## Resumen
 Get Recording Audit Report Details

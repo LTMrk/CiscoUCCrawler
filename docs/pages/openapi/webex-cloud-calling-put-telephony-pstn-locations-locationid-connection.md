@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/pstn/locations/{locationId}/connection
-operation_id: Setup PSTN Connection for a Location
+operation_id: setupPSTNConnectionForALocation
 tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.110254+00:00
+retrieved_at: 2026-11-16T12:36:50.763849+00:00
 ---
 
 # PUT /telephony/pstn/locations/{locationId}/connection
 
 **API:** Webex Cloud Calling
 **Área:** PSTN
-**operationId:** `Setup PSTN Connection for a Location`
+**operationId:** `setupPSTNConnectionForALocation`
 
 ## Resumen
 Setup PSTN Connection for a Location

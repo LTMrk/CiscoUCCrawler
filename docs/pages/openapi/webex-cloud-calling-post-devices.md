@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /devices
-operation_id: Create a Device by MAC Address
+operation_id: createADeviceByMACAddress
 tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.032149+00:00
+retrieved_at: 2026-11-16T12:36:50.645941+00:00
 ---
 
 # POST /devices
 
 **API:** Webex Cloud Calling
 **Área:** Devices
-**operationId:** `Create a Device by MAC Address`
+**operationId:** `createADeviceByMACAddress`
 
 ## Resumen
 Create a Device by MAC Address

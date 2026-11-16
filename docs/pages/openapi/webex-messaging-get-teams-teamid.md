@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /teams/{teamId}
-operation_id: Get Team Details
+operation_id: getTeamDetails
 tags: Teams
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.750323+00:00
+retrieved_at: 2026-11-16T12:36:51.672145+00:00
 ---
 
 # GET /teams/{teamId}
 
 **API:** Webex Messaging
 **Área:** Teams
-**operationId:** `Get Team Details`
+**operationId:** `getTeamDetails`
 
 ## Resumen
 Get Team Details

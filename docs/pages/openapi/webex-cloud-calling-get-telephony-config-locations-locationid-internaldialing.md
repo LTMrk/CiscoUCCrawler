@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/internalDialing
-operation_id: Read the Internal Dialing configuration for a location
+operation_id: readTheInternalDialingConfigurationForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.094280+00:00
+retrieved_at: 2026-11-16T12:36:50.739319+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/internalDialing
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Read the Internal Dialing configuration for a location`
+**operationId:** `readTheInternalDialingConfigurationForALocation`
 
 ## Resumen
 Read the Internal Dialing configuration for a location
@@ -42,10 +42,7 @@ curl -X GET '/telephony/config/locations/<locationId>/internalDialing' \
 ## Respuestas correctas
 **200**: OK
 - `enableUnknownExtensionRoutePolicy` (boolean): When enabled, calls made by users at the location to an unknown extension (between 2-6 digits) are routed to the selected route group/trunk as premises calls.
-- `unknownExtensionRouteIdentity` (object):
-  - `id` (string) (**requerido**): ID of the route type.
-  - `name` (string) (**requerido**): A unique name for the route identity.
-  - `type` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+- `unknownExtensionRouteIdentity` (object): The selected route group/trunk as premises calls.
 
 ### Ejemplo — respuesta 200
 ```json

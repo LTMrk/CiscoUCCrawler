@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /contacts/organizations/{orgId}/contacts/bulk
-operation_id: Bulk Create or Update Contacts
+operation_id: bulkCreateOrUpdateContacts
 tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.089674+00:00
+retrieved_at: 2026-11-16T12:36:50.142357+00:00
 ---
 
 # POST /contacts/organizations/{orgId}/contacts/bulk
 
 **API:** Webex Admin
 **Área:** Organization Contacts
-**operationId:** `Bulk Create or Update Contacts`
+**operationId:** `bulkCreateOrUpdateContacts`
 
 ## Resumen
 Bulk Create or Update Contacts
@@ -119,9 +119,7 @@ curl -X POST '/contacts/organizations/<orgId>/contacts/bulk' \
 **200**: OK
 - `contacts` (array): Array of contact successfully created.
   - `schemas` (string) (**requerido**): "urn:cisco:codev:identity:contact:core:1.0".
-  - `meta` (object) (**requerido**):
-    - `created` (string): The date and time the contact was created.
-    - `lastModified` (string): The date and time the contact was last changed.
+  - `meta` (object) (**requerido**): Response metadata.
   - `contactId` (string): The unique identifier for the contact.
   - `displayName` (string): The full name of the contact.
   - `firstName` (string): The first name of the contact.
@@ -176,7 +174,7 @@ curl -X POST '/contacts/organizations/<orgId>/contacts/bulk' \
       "displayName": "simizhan1",
       "emails": [
         {
-          "type": "WORK",
+          "type": "work",
           "value": "simizhan1@example.com"
         }
       ],

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeLists/{routeListId}/numbers
-operation_id: Get Numbers assigned to a Route List
+operation_id: getNumbersAssignedToARouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.969084+00:00
+retrieved_at: 2026-11-16T12:36:50.565451+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeLists/{routeListId}/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get Numbers assigned to a Route List`
+**operationId:** `getNumbersAssignedToARouteList`
 
 ## Resumen
 Get Numbers assigned to a Route List

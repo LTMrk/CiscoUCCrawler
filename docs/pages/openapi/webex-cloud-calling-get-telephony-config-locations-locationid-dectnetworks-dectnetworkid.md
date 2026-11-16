@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}
-operation_id: Get DECT Network Details
+operation_id: getDECTNetworkDetails
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.918825+00:00
+retrieved_at: 2026-11-16T12:36:50.517931+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Get DECT Network Details`
+**operationId:** `getDECTNetworkDetails`
 
 ## Resumen
 Get DECT Network Details
@@ -46,17 +46,15 @@ curl -X GET '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkI
 - `name` (string) (**requerido**): Name of the DECT network. This should be unique across the location.
 - `displayName` (string): DECT network name displayed on the handset.
 - `chainId` (number) (**requerido**): Chain ID of the DECT network.
-- `model` (string) (**requerido**): * `DMS Cisco DBS210` - Cisco DBS210 base station model.  * `DMS Cisco DBS110` - Cisco DBS110 base station model. Valores: DMS Cisco DBS210, DMS Cisco DBS110.
+- `model` (object) (**requerido**): Base station model deployed in the DECT network.
 - `defaultAccessCodeEnabled` (boolean) (**requerido**): Default access code is enabled. If true, the default access code is mandatory. If false, auto-generated access code is used.
 - `defaultAccessCode` (string) (**requerido**): Default access code for the DECT network. The default access code should be unique within the same location to avoid the handset accidentally registering with base stations from different DECT networks in range. This is mandatory when `defaultAccessCodeEnabled` is true.
 - `numberOfBaseStations` (number) (**requerido**): Number of base stations in the DECT network.
 - `numberOfHandsetsAssigned` (number) (**requerido**): Number of handsets assigned to the DECT network.
 - `numberOfLines` (number) (**requerido**): Number of lines in the DECT network.
-- `debugLevel` (string) (**requerido**): * `STANDARD` - Standard logging level for normal operations.  * `DEBUG` - Debug logging level for detailed diagnostic information. Valores: STANDARD, DEBUG.
+- `debugLevel` (object) (**requerido**): Debug level for the DECT network. Controls the verbosity of logging.
 - `serviceabilityPasswordEnabled` (boolean) (**requerido**): Indicates whether serviceability password is enabled for the DECT network. When enabled, allows access to advanced diagnostic and troubleshooting features on DECT base stations.
-- `location` (object) (**requerido**):
-  - `id` (string) (**requerido**): Location identifier associated with the members.
-  - `name` (string) (**requerido**): Location name associated with the member.
+- `location` (object) (**requerido**): Location of the DECT network.
 
 ### Ejemplo — respuesta 200
 ```json

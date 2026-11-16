@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/emergencyCallNotification
-operation_id: Get an Organization Emergency Call Notification
+operation_id: getAnOrganizationEmergencyCallNotification
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.035488+00:00
+retrieved_at: 2026-11-16T12:36:50.650747+00:00
 ---
 
 # GET /telephony/config/emergencyCallNotification
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get an Organization Emergency Call Notification`
+**operationId:** `getAnOrganizationEmergencyCallNotification`
 
 ## Resumen
 Get an Organization Emergency Call Notification

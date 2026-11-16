@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/executiveAssistant
-operation_id: Modify Executive Assistant Settings for a Person
+operation_id: modifyExecutiveAssistantSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.118360+00:00
+retrieved_at: 2026-11-16T12:36:50.775210+00:00
 ---
 
 # PUT /people/{personId}/features/executiveAssistant
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Modify Executive Assistant Settings for a Person`
+**operationId:** `modifyExecutiveAssistantSettingsForAPerson`
 
 ## Resumen
 Modify Executive Assistant Settings for a Person

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/members/me/addParticipant
-operation_id: Add Participant
+operation_id: addParticipant
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.012410+00:00
+retrieved_at: 2026-11-16T12:36:50.622025+00:00
 ---
 
 # POST /telephony/conference/members/me/addParticipant
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Add Participant`
+**operationId:** `addParticipant`
 
 ## Resumen
 Add Participant

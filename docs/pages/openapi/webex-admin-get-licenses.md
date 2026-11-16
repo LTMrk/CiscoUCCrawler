@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /licenses
-operation_id: List_Licenses
+operation_id: listLicenses
 tags: Licenses
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.086775+00:00
+retrieved_at: 2026-11-16T12:36:50.138677+00:00
 ---
 
 # GET /licenses
 
 **API:** Webex Admin
 **Área:** Licenses
-**operationId:** `List_Licenses`
+**operationId:** `listLicenses`
 
 ## Resumen
 List Licenses

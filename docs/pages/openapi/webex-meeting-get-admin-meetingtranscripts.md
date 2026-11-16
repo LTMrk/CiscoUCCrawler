@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /admin/meetingTranscripts
-operation_id: List Meeting Transcripts For Compliance Officer
+operation_id: listMeetingTranscriptsForComplianceOfficer
 tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.449020+00:00
+retrieved_at: 2026-11-16T12:36:51.514130+00:00
 ---
 
 # GET /admin/meetingTranscripts
 
 **API:** Webex Meetings
 **Área:** Transcripts
-**operationId:** `List Meeting Transcripts For Compliance Officer`
+**operationId:** `listMeetingTranscriptsForComplianceOfficer`
 
 ## Resumen
 List Meeting Transcripts For Compliance Officer

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /organizations
-operation_id: List Organizations
+operation_id: listOrganizations
 tags: Organizations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.090074+00:00
+retrieved_at: 2026-11-16T12:36:50.142854+00:00
 ---
 
 # GET /organizations
 
 **API:** Webex Admin
 **Área:** Organizations
-**operationId:** `List Organizations`
+**operationId:** `listOrganizations`
 
 ## Resumen
 List Organizations

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/clusters/utilization
-operation_id: Get Cluster Utilization details
+operation_id: getClusterUtilizationDetails
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.481215+00:00
+retrieved_at: 2026-11-16T12:36:51.553767+00:00
 ---
 
 # GET /videoMesh/clusters/utilization
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Cluster Utilization details`
+**operationId:** `getClusterUtilizationDetails`
 
 ## Resumen
 Get Cluster Utilization details
@@ -49,12 +49,12 @@ curl -X GET '/videoMesh/clusters/utilization?from=<from>&to=<to>&clusterId=<clus
       - `clusters` (array):
         - `clusterId` (string): ID of the Video Mesh cluster.
         - `clusterName` (string): Name of the Video Mesh cluster.
-        - `utilizationMetrics` (object):
+        - `utilizationMetrics` (object): Utilization details for the cluster in the time interval.
       - `timestamp` (string): Timestamp.
       - `clusters` (array):
         - `clusterId` (string): ID of the Video Mesh cluster.
         - `clusterName` (string): Name of the Video Mesh cluster.
-        - `utilizationMetrics` (object):
+        - `utilizationMetrics` (object): Utilization Metric details for the cluster in the time interval.
 
 ### Ejemplo — respuesta 200
 ```json

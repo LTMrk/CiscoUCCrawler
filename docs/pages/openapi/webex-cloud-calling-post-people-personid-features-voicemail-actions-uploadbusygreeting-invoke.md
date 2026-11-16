@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/voicemail/actions/uploadBusyGreeting/invoke
-operation_id: Configure Busy Voicemail Greeting for a Person
+operation_id: configureBusyVoicemailGreetingForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.124570+00:00
+retrieved_at: 2026-11-16T12:36:50.785900+00:00
 ---
 
 # POST /people/{personId}/features/voicemail/actions/uploadBusyGreeting/invoke
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Busy Voicemail Greeting for a Person`
+**operationId:** `configureBusyVoicemailGreetingForAPerson`
 
 ## Resumen
 Configure Busy Voicemail Greeting for a Person

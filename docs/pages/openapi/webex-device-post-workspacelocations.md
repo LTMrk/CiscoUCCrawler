@@ -5,12 +5,12 @@ api: Webex Device
 api_version: 1.0.0
 method: POST
 path: /workspaceLocations
-operation_id: Create a Workspace Location
+operation_id: createAWorkspaceLocation
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.933799+00:00
+retrieved_at: 2026-11-16T12:36:51.383192+00:00
 ---
 
 # POST /workspaceLocations
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:28.933799+00:00
 
 **API:** Webex Device
 **Área:** Workspace Locations
-**operationId:** `Create a Workspace Location`
+**operationId:** `createAWorkspaceLocation`
 
 ## Resumen
 Create a Workspace Location

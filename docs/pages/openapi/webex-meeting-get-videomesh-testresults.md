@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/testResults
-operation_id: Get Triggered test results
+operation_id: getTriggeredTestResults
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.483738+00:00
+retrieved_at: 2026-11-16T12:36:51.557259+00:00
 ---
 
 # GET /videoMesh/testResults
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `Get Triggered test results`
+**operationId:** `getTriggeredTestResults`
 
 ## Resumen
 Get Triggered test results

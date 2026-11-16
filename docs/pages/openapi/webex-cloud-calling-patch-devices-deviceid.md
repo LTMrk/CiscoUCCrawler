@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PATCH
 path: /devices/{deviceId}
-operation_id: Modify Device Tags
+operation_id: modifyDeviceTags
 tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.032781+00:00
+retrieved_at: 2026-11-16T12:36:50.646874+00:00
 ---
 
 # PATCH /devices/{deviceId}
 
 **API:** Webex Cloud Calling
 **Área:** Devices
-**operationId:** `Modify Device Tags`
+**operationId:** `modifyDeviceTags`
 
 ## Resumen
 Modify Device Tags

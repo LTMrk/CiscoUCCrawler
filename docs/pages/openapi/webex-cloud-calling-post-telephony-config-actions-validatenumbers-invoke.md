@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/actions/validateNumbers/invoke
-operation_id: Validate phone numbers
+operation_id: validatePhoneNumbers
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.105679+00:00
+retrieved_at: 2026-11-16T12:36:50.755100+00:00
 ---
 
 # POST /telephony/config/actions/validateNumbers/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Validate phone numbers`
+**operationId:** `validatePhoneNumbers`
 
 ## Resumen
 Validate Phone Numbers
@@ -64,10 +64,10 @@ curl -X POST '/telephony/config/actions/validateNumbers/invoke' \
 
 ## Respuestas correctas
 **200**: OK
-- `status` (string) (**requerido**): * `OK` - Everything is good.  * `ERRORS` - Validation has failed with errors. Valores: OK, ERRORS.
+- `status` (object) (**requerido**): The status of the numbers.
 - `numbers` (array) (**requerido**): An array of number objects with number details.
   - `number` (string) (**requerido**): Phone numbers that need to be validated.
-  - `state` (string) (**requerido**): * `Available` - The phone number is available.  * `Duplicate` - Duplicate phone number.  * `Duplicate In List` - Duplicate phone number in the list.  * `Invalid` - The phone number is invalid.  * `Unavailable` - The phone number is unavailable and cannot be used. Valores: Available, Duplicate, Duplicate In List, Invalid, Unavailable.
+  - `state` (object) (**requerido**): The state of the number.
   - `tollFreeNumber` (boolean) (**requerido**): If `true`, it's a toll-free number.
   - `detail` (array): Error details if the number is unavailable.
 

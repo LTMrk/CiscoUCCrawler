@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadNoAnswerGreeting/invoke
-operation_id: Configure No Answer Voicemail Greeting for a Place
+operation_id: configureNoAnswerVoicemailGreetingForAPlace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.200331+00:00
+retrieved_at: 2026-11-16T12:36:50.861238+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadNoAnswerGreeting/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Configure No Answer Voicemail Greeting for a Place`
+**operationId:** `configureNoAnswerVoicemailGreetingForAPlace`
 
 ## Resumen
 Configure No Answer Voicemail Greeting for a Place

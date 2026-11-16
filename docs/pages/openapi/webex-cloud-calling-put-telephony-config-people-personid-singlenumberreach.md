@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/people/{personId}/singleNumberReach
-operation_id: Update Single Number Reach Settings For A Person
+operation_id: updateSingleNumberReachSettingsForAPerson
 tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.082502+00:00
+retrieved_at: 2026-11-16T12:36:50.722503+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/singleNumberReach
 
 **API:** Webex Cloud Calling
 **Área:** Features: Single Number Reach
-**operationId:** `Update Single Number Reach Settings For A Person`
+**operationId:** `updateSingleNumberReachSettingsForAPerson`
 
 ## Resumen
 Update Single Number Reach Settings For A Person

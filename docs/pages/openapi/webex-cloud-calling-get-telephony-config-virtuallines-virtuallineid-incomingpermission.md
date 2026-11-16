@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/incomingPermission
-operation_id: Read Incoming Permission Settings for a Virtual Line
+operation_id: readIncomingPermissionSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.174562+00:00
+retrieved_at: 2026-11-16T12:36:50.827474+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/incomingPermission
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Incoming Permission Settings for a Virtual Line`
+**operationId:** `readIncomingPermissionSettingsForAVirtualLine`
 
 ## Resumen
 Read Incoming Permission Settings for a Virtual Line

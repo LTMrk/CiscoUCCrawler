@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /meetingInvitees/{meetingInviteeId}
-operation_id: Delete a Meeting Invitee
+operation_id: deleteAMeetingInvitee
 tags: Invitees
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.440828+00:00
+retrieved_at: 2026-11-16T12:36:51.502473+00:00
 ---
 
 # DELETE /meetingInvitees/{meetingInviteeId}
 
 **API:** Webex Meetings
 **Área:** Invitees
-**operationId:** `Delete a Meeting Invitee`
+**operationId:** `deleteAMeetingInvitee`
 
 ## Resumen
 Delete a Meeting Invitee
@@ -30,7 +30,7 @@ If the meeting invitee is associated with a meeting series, the invitee will be 
 ## Parámetros
 - `meetingInviteeId` [path] (string) (**requerido**): Unique identifier for the invitee to be removed. This parameter only applies to an invitee to a meeting series or a scheduled meeting. It doesn't apply to an invitee to an ended or ongoing meeting instance.
 - `hostEmail` [query] (string): Email address for the meeting host. This parameter is only used if the user or application calling the API has the admin on-behalf-of scopes. If set, the admin may specify the email of a user in a site they manage and the API will delete a meeting invitee that is hosted by that user.
-- `sendEmail` [query] (boolean): If `true`, send an email to the invitee. Por defecto: true.
+- `sendEmail` [query] (boolean): If `true`, send an email to the invitee. Por defecto: True.
 
 ## Ejemplo de invocación
 ```bash

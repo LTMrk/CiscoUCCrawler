@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.997334+00:00
+retrieved_at: 2026-11-16T12:36:50.602256+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/sequentialRing/criteria/{id}
@@ -35,7 +35,7 @@ This API requires a user auth token with a scope of `spark:telephony_config_writ
 ## Cuerpo de la petición (application/json)
 - `scheduleName` (string): Name of the schedule to be associated with the criteria.
 - `scheduleType` (string): Type of the schedule.  * `businessHours` - Business hours schedule type.  * `holidays` - Holidays schedule type. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `PEOPLE` - The schedule is at the user level.  * `LOCATION` - The schedule is at the location level. Valores: PEOPLE, LOCATION.
+- `scheduleLevel` (string): * `PEOPLE` - The schedule is at user level. * `LOCATION` - The schedule is at location level. * `ORGANIZATION` - The schedule is at organization level. Valores: PEOPLE, LOCATION, ORGANIZATION.
 - `callsFrom` (string): Specifies the type of calling numbers the criteria applies to.  * `ANY_PHONE_NUMBER` - The criteria applies to any phone number.  * `SELECT_PHONE_NUMBERS` - The criteria applies to selected phone numbers. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
 - `anonymousCallersEnabled` (boolean): When `true`, means this criteria applies for anonymous callers. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true`, means this criteria applies for unavailable callers. Required if `callsFrom` is `SELECT_PHONE_NUMBERS`.

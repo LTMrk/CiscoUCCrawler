@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
-operation_id: Get details for an Operating Mode Holiday
+operation_id: getDetailsForAnOperatingModeHoliday
 tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.079335+00:00
+retrieved_at: 2026-11-16T12:36:50.718157+00:00
 ---
 
 # GET /telephony/config/operatingModes/{modeId}/holidays/{holidayId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Operating Modes
-**operationId:** `Get details for an Operating Mode Holiday`
+**operationId:** `getDetailsForAnOperatingModeHoliday`
 
 ## Resumen
 Get details for an Operating Mode Holiday
@@ -49,14 +49,7 @@ curl -X GET '/telephony/config/operatingModes/<modeId>/holidays/<holidayId>' \
 - `endDate` (string) (**requerido**): End date of the `operating mode holiday`.
 - `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
 - `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
-- `recurrence` (object):
-  - `recurYearlyByDate` (object):
-    - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-    - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-  - `recurYearlyByDay` (object):
-    - `day` (string) (**requerido**): Schedule the event on a specific day. Valores: SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY.
-    - `week` (string) (**requerido**): Schedule the event on a specific week. Valores: FIRST, SECOND, THIRD, FOURTH, LAST.
-    - `month` (string) (**requerido**): Schedule the event on a specific month. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
+- `recurrence` (object): Recurrence configuration for the `operating mode holiday`.
 
 ### Ejemplo — respuesta 200
 ```json

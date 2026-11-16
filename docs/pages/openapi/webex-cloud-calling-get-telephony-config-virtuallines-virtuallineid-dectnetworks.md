@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/dectNetworks
-operation_id: Get List of DECT Networks Handsets for a Virtual Line
+operation_id: getListOfDECTNetworksHandsetsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.159109+00:00
+retrieved_at: 2026-11-16T12:36:50.825415+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/dectNetworks
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Get List of DECT Networks Handsets for a Virtual Line`
+**operationId:** `getListOfDECTNetworksHandsetsForAVirtualLine`
 
 ## Resumen
 Get List of DECT Networks Handsets for a Virtual Line

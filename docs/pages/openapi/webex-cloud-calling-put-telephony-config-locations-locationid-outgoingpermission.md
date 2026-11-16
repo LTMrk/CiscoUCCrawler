@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/outgoingPermission
-operation_id: Update Location Outgoing Permission
+operation_id: updateLocationOutgoingPermission
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.095357+00:00
+retrieved_at: 2026-11-16T12:36:50.740821+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/outgoingPermission
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Update Location Outgoing Permission`
+**operationId:** `updateLocationOutgoingPermission`
 
 ## Resumen
 Update Location Outgoing Permission

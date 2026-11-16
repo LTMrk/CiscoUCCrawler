@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/agent/callerId
-operation_id: Modify Agent's Caller ID Information
+operation_id: modifyAgentSCallerIDInformation
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.180021+00:00
+retrieved_at: 2026-11-16T12:36:50.833570+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/agent/callerId
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Modify Agent's Caller ID Information`
+**operationId:** `modifyAgentSCallerIDInformation`
 
 ## Resumen
 Modify Agent's Caller ID Information

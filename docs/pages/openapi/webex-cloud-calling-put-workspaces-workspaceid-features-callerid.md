@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /workspaces/{workspaceId}/features/callerId
-operation_id: Configure Caller ID Settings for a Workspace
+operation_id: configureCallerIDSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.188576+00:00
+retrieved_at: 2026-11-16T12:36:50.845466+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/callerId
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Configure Caller ID Settings for a Workspace`
+**operationId:** `configureCallerIDSettingsForAWorkspace`
 
 ## Resumen
 Configure Caller ID Settings for a Workspace
@@ -43,8 +43,6 @@ This API requires a full or user administrator or location administrator auth to
 - `customExternalCallerIdName` (string): Custom external caller ID name which is shown if external caller ID name policy is `OTHER`.
 - `locationExternalCallerIdName` (string): Location's external caller ID name which is shown if external caller ID name policy is `LOCATION`.
 - `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): Sets or clears the custom direct line caller ID name.  To clear the `customName`, the attribute must be set to null or empty string. Required if `selection` is set to `CUSTOM_NAME`.
 - `dialByName` (string): Sets or clears the name to be used for dial by name functions. To clear the `dialByName`, the attribute must be set to null or empty string. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 
 ### Ejemplo — petición

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/trunkTypes
-operation_id: Read the List of Trunk Types
+operation_id: readTheListOfTrunkTypes
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.965771+00:00
+retrieved_at: 2026-11-16T12:36:50.560965+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/trunkTypes
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the List of Trunk Types`
+**operationId:** `readTheListOfTrunkTypes`
 
 ## Resumen
 Read the List of Trunk Types
@@ -42,7 +42,7 @@ curl -X GET '/telephony/config/premisePstn/trunks/trunkTypes' \
 ## Respuestas correctas
 **200**: OK
 - `trunkTypes` (array) (**requerido**): Trunk type with device types.
-  - `trunkType` (string) (**requerido**): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+  - `trunkType` (object) (**requerido**): Trunk Type associated with the trunk.
   - `deviceTypes` (array) (**requerido**): Device types for trunk configuration.
 
 ### Ejemplo — respuesta 200

@@ -10,7 +10,7 @@ tags: Desktop Profile
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.584012+00:00
+retrieved_at: 2026-11-16T12:36:51.105047+00:00
 ---
 
 # DELETE /organization/{orgid}/agent-profile/{id}

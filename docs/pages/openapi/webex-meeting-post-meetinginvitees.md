@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: POST
 path: /meetingInvitees
-operation_id: Create a Meeting Invitee
+operation_id: createAMeetingInvitee
 tags: Invitees
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.439953+00:00
+retrieved_at: 2026-11-16T12:36:51.501229+00:00
 ---
 
 # POST /meetingInvitees
 
 **API:** Webex Meetings
 **Área:** Invitees
-**operationId:** `Create a Meeting Invitee`
+**operationId:** `createAMeetingInvitee`
 
 ## Resumen
 Create a Meeting Invitee

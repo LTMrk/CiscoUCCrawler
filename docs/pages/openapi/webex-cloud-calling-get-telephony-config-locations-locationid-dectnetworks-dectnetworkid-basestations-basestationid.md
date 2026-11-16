@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations/{baseStationId}
-operation_id: Get the Details of a Specific DECT Network Base Station
+operation_id: getTheDetailsOfASpecificDECTNetworkBaseStation
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.920541+00:00
+retrieved_at: 2026-11-16T12:36:50.519895+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations/{baseStationId}
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Get the Details of a Specific DECT Network Base Station`
+**operationId:** `getTheDetailsOfASpecificDECTNetworkBaseStation`
 
 ## Resumen
 Get the Details of a Specific DECT Network Base Station
@@ -56,10 +56,8 @@ curl -X GET '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkI
     - `lastName` (string) (**requerido**): Last name of handset line member.
     - `external` (string) (**requerido**): Primary number of handset line member.
     - `extension` (string) (**requerido**): Extension of handset line member.
-    - `location` (object) (**requerido**):
-      - `id` (string) (**requerido**): Location identifier associated with the members.
-      - `name` (string) (**requerido**): Location name associated with the member.
-    - `memberType` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
+    - `location` (object) (**requerido**): Location details of the handset line member.
+    - `memberType` (object) (**requerido**): Indicates handset line member type.
 
 ### Ejemplo — respuesta 200
 ```json

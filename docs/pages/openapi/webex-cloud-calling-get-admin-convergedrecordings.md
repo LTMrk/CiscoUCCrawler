@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /admin/convergedRecordings
-operation_id: list_recordings_for_admin_or_compliance_officer
+operation_id: listRecordingsForAdminOrComplianceOfficer
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.014255+00:00
+retrieved_at: 2026-11-16T12:36:50.624370+00:00
 ---
 
 # GET /admin/convergedRecordings
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `list_recordings_for_admin_or_compliance_officer`
+**operationId:** `listRecordingsForAdminOrComplianceOfficer`
 
 ## Resumen
 List Recordings for Admin or Compliance officer

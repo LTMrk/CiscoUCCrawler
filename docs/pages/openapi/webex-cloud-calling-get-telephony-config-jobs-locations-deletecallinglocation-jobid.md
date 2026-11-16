@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/locations/deleteCallingLocation/{jobId}
-operation_id: Get Disable Calling Location Job Status
+operation_id: getDisableCallingLocationJobStatus
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.093524+00:00
+retrieved_at: 2026-11-16T12:36:50.738267+00:00
 ---
 
 # GET /telephony/config/jobs/locations/deleteCallingLocation/{jobId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get Disable Calling Location Job Status`
+**operationId:** `getDisableCallingLocationJobStatus`
 
 ## Resumen
 Get Disable Calling Location Job Status

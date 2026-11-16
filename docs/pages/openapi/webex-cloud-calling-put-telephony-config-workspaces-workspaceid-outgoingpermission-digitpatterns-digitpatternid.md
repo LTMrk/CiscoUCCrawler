@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns/{digitPatternId}
-operation_id: Modify a Digit Pattern for the Workspace
+operation_id: modifyADigitPatternForTheWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.193982+00:00
+retrieved_at: 2026-11-16T12:36:50.852791+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns/{digitPatternId}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify a Digit Pattern for the Workspace`
+**operationId:** `modifyADigitPatternForTheWorkspace`
 
 ## Resumen
 Modify a Digit Pattern for the Workspace

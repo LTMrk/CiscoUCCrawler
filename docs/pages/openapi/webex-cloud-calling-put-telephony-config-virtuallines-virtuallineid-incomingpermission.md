@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/incomingPermission
-operation_id: Configure Incoming Permission Settings for a Virtual Line
+operation_id: configureIncomingPermissionSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.174794+00:00
+retrieved_at: 2026-11-16T12:36:50.827779+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/incomingPermission
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Incoming Permission Settings for a Virtual Line`
+**operationId:** `configureIncomingPermissionSettingsForAVirtualLine`
 
 ## Resumen
 Configure Incoming Permission Settings for a Virtual Line

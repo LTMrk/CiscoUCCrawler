@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
-operation_id: Create Digit Pattern for a Workspace
+operation_id: createDigitPatternForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.193278+00:00
+retrieved_at: 2026-11-16T12:36:50.851751+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Create Digit Pattern for a Workspace`
+**operationId:** `createDigitPatternForAWorkspace`
 
 ## Resumen
 Create Digit Pattern for a Workspace

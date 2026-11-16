@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}/intercept
-operation_id: Read Call Intercept Settings for a Virtual Line
+operation_id: readCallInterceptSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.178731+00:00
+retrieved_at: 2026-11-16T12:36:50.832200+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/intercept
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Read Call Intercept Settings for a Virtual Line`
+**operationId:** `readCallInterceptSettingsForAVirtualLine`
 
 ## Resumen
 Read Call Intercept Settings for a Virtual Line

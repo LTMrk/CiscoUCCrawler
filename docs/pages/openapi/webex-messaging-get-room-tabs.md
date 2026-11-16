@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /room/tabs
-operation_id: List Room Tabs
+operation_id: listRoomTabs
 tags: Room Tabs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.746771+00:00
+retrieved_at: 2026-11-16T12:36:51.667413+00:00
 ---
 
 # GET /room/tabs
 
 **API:** Webex Messaging
 **Área:** Room Tabs
-**operationId:** `List Room Tabs`
+**operationId:** `listRoomTabs`
 
 ## Resumen
 List Room Tabs

@@ -10,7 +10,7 @@ tags: Call Settings For Me Phase 5
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.003213+00:00
+retrieved_at: 2026-11-16T12:36:50.610609+00:00
 ---
 
 # GET /telephony/config/people/me/settings/hoteling/availableHosts

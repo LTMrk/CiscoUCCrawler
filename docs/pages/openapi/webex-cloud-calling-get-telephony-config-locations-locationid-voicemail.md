@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/voicemail
-operation_id: Get Location Voicemail
+operation_id: getLocationVoicemail
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.099955+00:00
+retrieved_at: 2026-11-16T12:36:50.747642+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/voicemail
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Get Location Voicemail`
+**operationId:** `getLocationVoicemail`
 
 ## Resumen
 Get Location Voicemail

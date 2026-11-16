@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualExtensions/{extensionId}
-operation_id: Update a Virtual Extension
+operation_id: updateAVirtualExtension
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.083605+00:00
+retrieved_at: 2026-11-16T12:36:50.724144+00:00
 ---
 
 # PUT /telephony/config/virtualExtensions/{extensionId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Update a Virtual Extension`
+**operationId:** `updateAVirtualExtension`
 
 ## Resumen
 Update a Virtual Extension

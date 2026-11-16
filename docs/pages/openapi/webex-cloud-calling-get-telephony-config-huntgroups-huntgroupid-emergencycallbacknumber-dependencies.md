@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/huntGroups/{huntGroupId}/emergencyCallbackNumber/dependencies
-operation_id: Get Dependencies for a Hunt Group Emergency Callback Number
+operation_id: getDependenciesForAHuntGroupEmergencyCallbackNumber
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.036168+00:00
+retrieved_at: 2026-11-16T12:36:50.651833+00:00
 ---
 
 # GET /telephony/config/huntGroups/{huntGroupId}/emergencyCallbackNumber/dependencies
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Get Dependencies for a Hunt Group Emergency Callback Number`
+**operationId:** `getDependenciesForAHuntGroupEmergencyCallbackNumber`
 
 ## Resumen
 Get Dependencies for a Hunt Group Emergency Callback Number

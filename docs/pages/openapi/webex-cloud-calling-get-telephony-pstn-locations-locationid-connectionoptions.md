@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/pstn/locations/{locationId}/connectionOptions
-operation_id: Retrieve PSTN Connection Options for a Location
+operation_id: retrievePSTNConnectionOptionsForALocation
 tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.110050+00:00
+retrieved_at: 2026-11-16T12:36:50.763596+00:00
 ---
 
 # GET /telephony/pstn/locations/{locationId}/connectionOptions
 
 **API:** Webex Cloud Calling
 **Área:** PSTN
-**operationId:** `Retrieve PSTN Connection Options for a Location`
+**operationId:** `retrievePSTNConnectionOptionsForALocation`
 
 ## Resumen
 Retrieve PSTN Connection Options for a Location

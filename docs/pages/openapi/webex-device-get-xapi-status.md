@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: GET
 path: /xapi/status
-operation_id: Query Status
+operation_id: queryStatus
 tags: xAPI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.937982+00:00
+retrieved_at: 2026-11-16T12:36:51.389686+00:00
 ---
 
 # GET /xapi/status
 
 **API:** Webex Device
 **Área:** xAPI
-**operationId:** `Query Status`
+**operationId:** `queryStatus`
 
 ## Resumen
 Query Status

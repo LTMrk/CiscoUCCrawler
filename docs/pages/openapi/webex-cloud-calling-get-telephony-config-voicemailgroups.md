@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/voicemailGroups
-operation_id: List VoicemailGroup
+operation_id: listVoicemailGroup
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.101062+00:00
+retrieved_at: 2026-11-16T12:36:50.749077+00:00
 ---
 
 # GET /telephony/config/voicemailGroups
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `List VoicemailGroup`
+**operationId:** `listVoicemailGroup`
 
 ## Resumen
 List VoicemailGroup

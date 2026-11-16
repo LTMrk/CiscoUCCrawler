@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/callPolicies
-operation_id: Configure Call Policy Settings for a Workspace
+operation_id: configureCallPolicySettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.199983+00:00
+retrieved_at: 2026-11-16T12:36:50.860793+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/callPolicies
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Configure Call Policy Settings for a Workspace`
+**operationId:** `configureCallPolicySettingsForAWorkspace`
 
 ## Resumen
 Configure Call Policy Settings for a Workspace
@@ -41,7 +41,7 @@ This API requires a full or user administrator or location administrator auth to
 ### Ejemplo — petición
 ```json
 {
-  "connectedLineIdPrivacyOnRedirectedCalls": "<NO_PRIVACY | PRIVACY_FOR_EXTERNAL_CALLS | PRIVACY_FOR_ALL_CALLS>"
+  "connectedLineIdPrivacyOnRedirectedCalls": "NO_PRIVACY"
 }
 ```
 

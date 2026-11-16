@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingParticipants/{participantId}
-operation_id: Get Meeting Participant Details
+operation_id: getMeetingParticipantDetails
 tags: Participants
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.441786+00:00
+retrieved_at: 2026-11-16T12:36:51.503814+00:00
 ---
 
 # GET /meetingParticipants/{participantId}
 
 **API:** Webex Meetings
 **Área:** Participants
-**operationId:** `Get Meeting Participant Details`
+**operationId:** `getMeetingParticipantDetails`
 
 ## Resumen
 Get Meeting Participant Details

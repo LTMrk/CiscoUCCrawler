@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingPreferences/sites
-operation_id: Get Site List
+operation_id: getSiteList
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.446197+00:00
+retrieved_at: 2026-11-16T12:36:51.510115+00:00
 ---
 
 # GET /meetingPreferences/sites
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Get Site List`
+**operationId:** `getSiteList`
 
 ## Resumen
 Get Site List

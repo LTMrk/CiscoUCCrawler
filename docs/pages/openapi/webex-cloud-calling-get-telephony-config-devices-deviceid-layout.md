@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.026107+00:00
+retrieved_at: 2026-11-16T12:36:50.637815+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}/layout
@@ -43,19 +43,19 @@ curl -X GET '/telephony/config/devices/<deviceId>/layout' \
 
 ## Respuestas correctas
 **200**: OK
-- `layoutMode` (string) (**requerido**): * `DEFAULT` - Default layout mode when a new device is added.  * `CUSTOM` - Enables a device to have its custom layout. Valores: DEFAULT, CUSTOM.
+- `layoutMode` (object) (**requerido**): Defines the layout mode of the device, i.e. DEFAULT or CUSTOM.
 - `userReorderEnabled` (boolean): If `true`, user customization is enabled.
 - `lineKeys` (array): Contains a mapping of Line Keys and their corresponding actions. This field is required when `layoutMode` is CUSTOM. When `layoutMode` is DEFAULT, this field is not returned in GET responses and should not be included in PUT requests, as the system uses the default line-key assignments.
   - `lineKeyIndex` (number) (**requerido**): An index representing a Line Key. Index starts from 1 representing the first key on the left side of the phone.
-  - `lineKeyType` (string) (**requerido**): * `PRIMARY_LINE` - PRIMARY_LINE is the user's primary extension. This is the default assignment for Line Key Index 1 and cannot be modified.  * `SHARED_LINE` - Shows the appearance of other users on the owner's phone.  * `MONITOR` - Enables User and Call Park monitoring.  * `CALL_PARK_EXTENSION` - Enables the configure layout feature in Control Hub to set call park extension implicitly.  * `SPEED_DIAL` - Allows users to reach a telephone number, extension or a SIP URI.  * `OPEN` - An open key will automatically take the configuration of a monitor button starting with the first open key. These buttons are also usable by the user to configure speed dial numbers on these keys.  * `CLOSED` - Button not usable but reserved for future features.  * `MODE_MANAGEMENT` - Allows users to manage call forwarding for features via schedule-based routing. Valores: PRIMARY_LINE, SHARED_LINE, MONITOR, CALL_PARK_EXTENSION, SPEED_DIAL, OPEN, CLOSED, MODE_MANAGEMENT.
+  - `lineKeyType` (object) (**requerido**): The action that would be performed when the Line Key is pressed.
   - `lineKeyLabel` (string): This is applicable only when the lineKeyType is `SPEED_DIAL`.
   - `lineKeyValue` (string): Applicable only when the `lineKeyType` is `SPEED_DIAL`. Value must be a valid telephone number, ext, or SIP URI (format: `user@host` using A-Z,a-z,0-9,-_ .+ for `user` and `host`).
   - `sharedLineIndex` (number) (**requerido**): Shared line index is the line label number of the shared or virtual line assigned in the configured lines. Since you can add multiple appearances of the same shared or virtual line on a phone, entering the index number assigns the respective line to a line key. This is applicable only when the `lineKeyType` is SHARED_LINE. `sharedLineIndex` starts at 1 and increments by one for each shared line.
-- `kemModuleType` (string): * `KEM_14_KEYS` - Extension module has 14 line keys that can be configured.  * `KEM_18_KEYS` - Extension module has 18 line keys that can be configured.  * `KEM_20_KEYS` - Extension module has 20 line keys that can be configured. Valores: KEM_14_KEYS, KEM_18_KEYS, KEM_20_KEYS.
+- `kemModuleType` (object): Type of KEM module.
 - `kemKeys` (array): Contains a mapping of KEM Keys and their corresponding actions. For KEM keys not included in the request, they will be set to OPEN.
   - `kemModuleIndex` (number) (**requerido**): An index representing a KEM Module. The Index starts from 1 representing the first KEM Module.
   - `kemKeyIndex` (number) (**requerido**): An index representing a KEM Key. The Index starts from 1 representing the first key on the left side of the phone.
-  - `kemKeyType` (string) (**requerido**): * `PRIMARY_LINE` - PRIMARY_LINE is the user's primary extension. This is the default assignment for Line Key Index 1 and cannot be modified.  * `SHARED_LINE` - Shows the appearance of other users on the owner's phone.  * `MONITOR` - Enables User and Call Park monitoring.  * `CALL_PARK_EXTENSION` - Enables the configure layout feature in Control Hub to set call park extension implicitly.  * `SPEED_DIAL` - Allows users to reach a telephone number, extension or a SIP URI.  * `OPEN` - An open key will automatically take the configuration of a monitor button starting with the first open key. These buttons are also usable by the user to configure speed dial numbers on these keys.  * `CLOSED` - Button not usable but reserved for future features.  * `MODE_MANAGEMENT` - Allows users to manage call forwarding for features via schedule-based routing. Valores: PRIMARY_LINE, SHARED_LINE, MONITOR, CALL_PARK_EXTENSION, SPEED_DIAL, OPEN, CLOSED, MODE_MANAGEMENT.
+  - `kemKeyType` (object) (**requerido**): The action that would be performed when the KEM Key is pressed.
   - `kemKeyLabel` (string): Applicable only when the kemKeyType is `SPEED_DIAL`.
   - `kemKeyValue` (string): Applicable only when the `lineKeyType` is `SPEED_DIAL`. Value must be a valid telephone number, ext, or SIP URI (format: `user@host` using A-Z,a-z,0-9,-_ .+ for `user` and `host`).
   - `sharedLineIndex` (number) (**requerido**): Shared line index is the line label number of the shared or virtual line assigned in the configured lines. Since you can add multiple appearances of the same shared or virtual line on a phone, entering the index number assigns the respective line to a line key. This is applicable only when the `lineKeyType` is SHARED_LINE. `sharedLineIndex` starts at 1 and increments by one for each shared line.
@@ -64,7 +64,7 @@ curl -X GET '/telephony/config/devices/<deviceId>/layout' \
 ```json
 {
   "layoutMode": "CUSTOM",
-  "userReorderEnabled": "true",
+  "userReorderEnabled": true,
   "lineKeys": [
     {
       "lineKeyIndex": 1,

@@ -10,7 +10,7 @@ tags: Call Settings For Me With UserHub Phase3
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.997133+00:00
+retrieved_at: 2026-11-16T12:36:50.601996+00:00
 ---
 
 # GET /telephony/config/people/me/settings/sequentialRing/criteria/{id}
@@ -41,9 +41,9 @@ curl -X GET '/telephony/config/people/me/settings/sequentialRing/criteria/<id>' 
 ## Respuestas correctas
 **200**: Sequential Ring Criteria Settings retrieved for the authenticated user.
 - `id` (string) (**requerido**): Unique identifier for criteria.
-- `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the sequential ring is in effect.
+- `scheduleName` (string) (**requerido**): Name of the schedule which determines when the sequential ring is in effect.
 - `scheduleType` (string) (**requerido**): The type of schedule.  * `holidays` - The Schedule is of type `holidays`.  * `businessHours` - The Schedule is of type `businessHours`. Valores: holidays, businessHours.
-- `scheduleLevel` (string) (**requerido**): This indicates the level of the schedule specified by `scheduleName`.  * `GROUP` - The Schedule specified is of `GROUP` level. Valores: GROUP.
+- `scheduleLevel` (string) (**requerido**): This indicates the level of the schedule specified by `scheduleName`. * `GROUP` - The schedule is associated with a location. * `ORGANIZATION` - The schedule is associated with an organization. Valores: GROUP, ORGANIZATION.
 - `callsFrom` (string) (**requerido**): This indicates if criteria are applicable for calls from any phone number or selected phone numbers.  * `SELECT_PHONE_NUMBERS` - Sequential ring criteria only apply for selected incoming numbers.  * `ANY_PHONE_NUMBER` - Sequential ring criteria apply for any incoming number. Valores: SELECT_PHONE_NUMBERS, ANY_PHONE_NUMBER.
 - `anonymousCallersEnabled` (boolean): When `true` incoming calls from private numbers are allowed. This is only applicable when `callsFrom` is set to `SELECT_PHONE_NUMBERS`.
 - `unavailableCallersEnabled` (boolean): When `true` incoming calls from unavailable numbers are allowed. This is only applicable when `callsFrom` is set to `SELECT_PHONE_NUMBERS`.

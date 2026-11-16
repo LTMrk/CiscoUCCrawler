@@ -10,7 +10,7 @@ tags: AI Feature
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.535653+00:00
+retrieved_at: 2026-11-16T12:36:51.041201+00:00
 ---
 
 # DELETE /organization/{orgid}/ai-feature/auto-csat/question/{id}

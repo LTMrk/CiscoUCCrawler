@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/routeGroups
-operation_id: Create Route Group for a Organization
+operation_id: createRouteGroupForAOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.966235+00:00
+retrieved_at: 2026-11-16T12:36:50.561626+00:00
 ---
 
 # POST /telephony/config/premisePstn/routeGroups
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create Route Group for a Organization`
+**operationId:** `createRouteGroupForAOrganization`
 
 ## Resumen
 Create Route Group for a Organization

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}/usage
-operation_id: Read the Usage of a Routing Group
+operation_id: readTheUsageOfARoutingGroup
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.966990+00:00
+retrieved_at: 2026-11-16T12:36:50.562669+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}/usage
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the Usage of a Routing Group`
+**operationId:** `readTheUsageOfARoutingGroup`
 
 ## Resumen
 Read the Usage of a Routing Group

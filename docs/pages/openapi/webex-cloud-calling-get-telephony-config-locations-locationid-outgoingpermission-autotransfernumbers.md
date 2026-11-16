@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/outgoingPermission/autoTransferNumbers
-operation_id: Get Outgoing Permission Auto Transfer Number
+operation_id: getOutgoingPermissionAutoTransferNumber
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.095582+00:00
+retrieved_at: 2026-11-16T12:36:50.741070+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/outgoingPermission/autoTransferNumbers
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Get Outgoing Permission Auto Transfer Number`
+**operationId:** `getOutgoingPermissionAutoTransferNumber`
 
 ## Resumen
 Get Outgoing Permission Auto Transfer Number

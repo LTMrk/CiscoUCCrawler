@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.915436+00:00
+retrieved_at: 2026-11-16T12:36:51.323204+00:00
 ---
 
 # PUT /telephony/config/devices/{deviceId}/members
@@ -40,7 +40,7 @@ Modifying members on the device requires a full administrator auth token with a 
   - `id` (string) (**requerido**): Unique identifier for the member.
   - `t38FaxCompressionEnabled` (boolean): T.38 Fax Compression setting and is available only for ATA Devices. Choose T.38 fax compression if the device requires this option. This will override user level compression options.
   - `primaryOwner` (boolean) (**requerido**): Whether the user is the owner of the device or not, and points to a primary Line/Port of device.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
+  - `lineType` (object) (**requerido**): Line type is used to differentiate Primary and SCA, at which endpoint it is assigned.
   - `lineWeight` (number) (**requerido**): Number of lines that have been configured for the person on the device.
   - `hotlineEnabled` (boolean) (**requerido**): Enable Hotline. Configure this line to automatically call a predefined number whenever taken off-hook. Once enabled, the line can only make calls to the predefined number set in hotlineDestination.
   - `hotlineDestination` (string) (**requerido**): The preconfigured number for Hotline. Required only if `hotlineEnabled` is set to true.

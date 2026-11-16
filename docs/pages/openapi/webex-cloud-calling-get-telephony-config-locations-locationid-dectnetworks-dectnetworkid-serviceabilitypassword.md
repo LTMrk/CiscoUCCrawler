@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword
-operation_id: Get DECT Serviceability Password Status
+operation_id: getDECTServiceabilityPasswordStatus
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.923322+00:00
+retrieved_at: 2026-11-16T12:36:50.523742+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/serviceabilityPassword
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Get DECT Serviceability Password Status`
+**operationId:** `getDECTServiceabilityPasswordStatus`
 
 ## Resumen
 Get DECT Serviceability Password Status
@@ -49,7 +49,7 @@ curl -X GET '/telephony/config/locations/<locationId>/dectNetworks/<dectNetworkI
 ### Ejemplo — respuesta 200
 ```json
 {
-  "enabled": "true"
+  "enabled": true
 }
 ```
 

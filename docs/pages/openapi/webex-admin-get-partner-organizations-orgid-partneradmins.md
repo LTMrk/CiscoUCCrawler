@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /partner/organizations/{orgId}/partnerAdmins
-operation_id: Get all partner admins assigned to a customer
+operation_id: getAllPartnerAdminsAssignedToACustomer
 tags: Partner Administrators
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.090850+00:00
+retrieved_at: 2026-11-16T12:36:50.143750+00:00
 ---
 
 # GET /partner/organizations/{orgId}/partnerAdmins
 
 **API:** Webex Admin
 **Área:** Partner Administrators
-**operationId:** `Get all partner admins assigned to a customer`
+**operationId:** `getAllPartnerAdminsAssignedToACustomer`
 
 ## Resumen
 Get all partner admins assigned to a customer

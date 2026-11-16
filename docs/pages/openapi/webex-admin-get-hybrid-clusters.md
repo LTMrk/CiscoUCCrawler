@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /hybrid/clusters
-operation_id: List Hybrid Clusters
+operation_id: listHybridClusters
 tags: Hybrid Clusters
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.085913+00:00
+retrieved_at: 2026-11-16T12:36:50.137607+00:00
 ---
 
 # GET /hybrid/clusters
 
 **API:** Webex Admin
 **Área:** Hybrid Clusters
-**operationId:** `List Hybrid Clusters`
+**operationId:** `listHybridClusters`
 
 ## Resumen
 List Hybrid Clusters

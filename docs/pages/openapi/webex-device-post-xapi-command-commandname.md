@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: POST
 path: /xapi/command/{commandName}
-operation_id: Execute Command
+operation_id: executeCommand
 tags: xAPI
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.938415+00:00
+retrieved_at: 2026-11-16T12:36:51.390308+00:00
 ---
 
 # POST /xapi/command/{commandName}
 
 **API:** Webex Device
 **Área:** xAPI
-**operationId:** `Execute Command`
+**operationId:** `executeCommand`
 
 ## Resumen
 Execute Command

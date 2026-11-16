@@ -10,7 +10,7 @@ tags: Resource Collection
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.602939+00:00
+retrieved_at: 2026-11-16T12:36:51.135730+00:00
 ---
 
 # POST /organization/{orgid}/resource-collection/update-resource
@@ -50,10 +50,7 @@ curl -X POST '/organization/<orgid>/resource-collection/update-resource' \
   - `status` (integer/int32): The HTTP status code.
   - `apiError` (object): Response body for an API error.
     - `trackingId` (string): An opaque identifier for mapping protocol failures to service internal codes.   When specified in a request, it can be used for co-relating events across services
-    - `error` (object): Details of an error.
-      - `key` (string): An application defined error code.
-      - `message` (array): A message providing details about the error.
-        - `description` (string): A human readable explanation for the occurrence of an error.
+    - `error` (object): An object containing details about the error.
 
 ### Ejemplo — respuesta 201
 ```json

@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: PATCH
 path: /deviceConfigurations
-operation_id: Update Device Configurations
+operation_id: updateDeviceConfigurations
 tags: Device Configurations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.929896+00:00
+retrieved_at: 2026-11-16T12:36:51.377352+00:00
 ---
 
 # PATCH /deviceConfigurations
 
 **API:** Webex Device
 **Área:** Device Configurations
-**operationId:** `Update Device Configurations`
+**operationId:** `updateDeviceConfigurations`
 
 ## Resumen
 Update Device Configurations

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: DELETE
 path: /team/memberships/{membershipId}
-operation_id: Delete a Team Membership
+operation_id: deleteATeamMembership
 tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.749765+00:00
+retrieved_at: 2026-11-16T12:36:51.671409+00:00
 ---
 
 # DELETE /team/memberships/{membershipId}
 
 **API:** Webex Messaging
 **Área:** Team Memberships
-**operationId:** `Delete a Team Membership`
+**operationId:** `deleteATeamMembership`
 
 ## Resumen
 Delete a Team Membership

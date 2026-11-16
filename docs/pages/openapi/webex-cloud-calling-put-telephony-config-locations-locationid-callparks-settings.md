@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/callParks/settings
-operation_id: Update Call Park settings
+operation_id: updateCallParkSettings
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.050113+00:00
+retrieved_at: 2026-11-16T12:36:50.674387+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callParks/settings
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Update Call Park settings`
+**operationId:** `updateCallParkSettings`
 
 ## Resumen
 Update Call Park settings
@@ -34,13 +34,8 @@ Updating call park settings requires a full administrator or location administra
 - `orgId` [query] (string): Update call park settings from this organization.
 
 ## Cuerpo de la petición (application/json)
-- `callParkRecall` (object):
-  - `huntGroupId` (string): Alternate user which is a hunt group ID for call park recall alternate destination.
-  - `option` (string) (**requerido**): Call park recall options.  * `ALERT_PARKING_USER_ONLY` - Alert parking user only.  * `ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP` - Alert parking user first, then hunt group.  * `ALERT_HUNT_GROUP_ONLY` - Alert hunt group only. Valores: ALERT_PARKING_USER_ONLY, ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP, ALERT_HUNT_GROUP_ONLY.
-- `callParkSettings` (object):
-  - `ringPattern` (string) (**requerido**): Ring pattern for when this callpark is called.  * `NORMAL` - Normal incoming ring pattern.  * `LONG_LONG` - Incoming ring pattern of two long rings.  * `SHORT_SHORT_LONG` - Incoming ring pattern of two short rings, followed by a short ring.  * `SHORT_LONG_SHORT` - Incoming ring pattern of a short ring, followed by a long ring, followed by a short ring. Valores: NORMAL, LONG_LONG, SHORT_SHORT_LONG, SHORT_LONG_SHORT.
-  - `recallTime` (number): Amount of time within 30 and 600 seconds the Call Park will be parked. If the call isn't picked up within the set time, then the call will be recalled based on the Call Park Recall setting.
-  - `huntWaitTime` (number): Amount of time within 30 and 600 seconds the Call Park will be parked. If the call isn't picked up, the call will revert back to the hunt group (after the person who parked the call is alerted).
+- `callParkRecall` (object): Recall options that are added to call park.
+- `callParkSettings` (object): Setting controlling call park behavior.
 
 ### Ejemplo — petición
 ```json

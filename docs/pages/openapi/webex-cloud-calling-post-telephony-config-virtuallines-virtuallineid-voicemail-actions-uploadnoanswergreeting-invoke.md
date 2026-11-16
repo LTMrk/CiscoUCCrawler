@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/virtualLines/{virtualLineId}/voicemail/actions/uploadNoAnswerGreeting/invoke
-operation_id: Configure No Answer Voicemail Greeting for a Virtual Line
+operation_id: configureNoAnswerVoicemailGreetingForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.180887+00:00
+retrieved_at: 2026-11-16T12:36:50.834713+00:00
 ---
 
 # POST /telephony/config/virtualLines/{virtualLineId}/voicemail/actions/uploadNoAnswerGreeting/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure No Answer Voicemail Greeting for a Virtual Line`
+**operationId:** `configureNoAnswerVoicemailGreetingForAVirtualLine`
 
 ## Resumen
 Configure No Answer Voicemail Greeting for a Virtual Line

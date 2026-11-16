@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /devices/activationCode
-operation_id: Create a Device Activation Code
+operation_id: createADeviceActivationCode
 tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.032971+00:00
+retrieved_at: 2026-11-16T12:36:50.647152+00:00
 ---
 
 # POST /devices/activationCode
 
 **API:** Webex Cloud Calling
 **Área:** Devices
-**operationId:** `Create a Device Activation Code`
+**operationId:** `createADeviceActivationCode`
 
 ## Resumen
 Create a Device Activation Code

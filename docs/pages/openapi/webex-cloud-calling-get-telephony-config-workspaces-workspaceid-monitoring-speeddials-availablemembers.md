@@ -10,7 +10,7 @@ tags: Workspace Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.189301+00:00
+retrieved_at: 2026-11-16T12:36:50.846371+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/monitoring/speedDials/availableMembers
@@ -53,9 +53,7 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/monitoring/speedDials/av
   - `phoneNumber` (string): The phone number of the available member.
   - `extension` (string): The extension of the available member.
   - `type` (string): The type of the available member.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-  - `location` (object):
-    - `id` (string): The ID of the location.
-    - `name` (string): The name of the location.
+  - `location` (object): The location of the available member.
 
 ### Ejemplo — respuesta 200
 ```json

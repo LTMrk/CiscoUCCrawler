@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadBusyGreeting/invoke
-operation_id: Configure Busy Voicemail Greeting for a Place
+operation_id: configureBusyVoicemailGreetingForAPlace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.200156+00:00
+retrieved_at: 2026-11-16T12:36:50.861019+00:00
 ---
 
 # POST /telephony/config/workspaces/{workspaceId}/voicemail/actions/uploadBusyGreeting/invoke
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Configure Busy Voicemail Greeting for a Place`
+**operationId:** `configureBusyVoicemailGreetingForAPlace`
 
 ## Resumen
 Configure Busy Voicemail Greeting for a Place

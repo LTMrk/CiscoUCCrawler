@@ -10,7 +10,7 @@ tags: Call Monitoring
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.634594+00:00
+retrieved_at: 2026-11-16T12:36:51.184869+00:00
 ---
 
 # POST /v1/monitor/{interactionId}/coach

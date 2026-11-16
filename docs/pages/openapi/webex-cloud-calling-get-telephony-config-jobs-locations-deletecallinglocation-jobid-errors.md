@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/errors
-operation_id: Retrieve Errors For Disable Calling Location Job
+operation_id: retrieveErrorsForDisableCallingLocationJob
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.093295+00:00
+retrieved_at: 2026-11-16T12:36:50.737906+00:00
 ---
 
 # GET /telephony/config/jobs/locations/deleteCallingLocation/{jobId}/errors
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Retrieve Errors For Disable Calling Location Job`
+**operationId:** `retrieveErrorsForDisableCallingLocationJob`
 
 ## Resumen
 Retrieve Errors for a Disable Calling Location Job

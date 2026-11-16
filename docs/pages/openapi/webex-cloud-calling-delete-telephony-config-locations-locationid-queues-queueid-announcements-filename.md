@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.054504+00:00
+retrieved_at: 2026-11-16T12:36:50.680194+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/queues/{queueId}/announcements/{fileName}
@@ -32,7 +32,7 @@ Deleting an announcement file for a call queue requires a full administrator or 
 ## Parámetros
 - `locationId` [path] (string) (**requerido**): Delete an announcement for a call queue in this location.
 - `queueId` [path] (string) (**requerido**): Delete an announcement for the call queue with this identifier.
-- `fileName` [path] (string) (**requerido**):
+- `fileName` [path] (string) (**requerido**): Name of the announcement file to delete.
 - `orgId` [query] (string): Delete call queue announcement from this organization.
 
 ## Ejemplo de invocación

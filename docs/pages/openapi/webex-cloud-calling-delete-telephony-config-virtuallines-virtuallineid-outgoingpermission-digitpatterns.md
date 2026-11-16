@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns
-operation_id: Delete All Digit Patterns for a Virtual Profile
+operation_id: deleteAllDigitPatternsForAVirtualProfile
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.177903+00:00
+retrieved_at: 2026-11-16T12:36:50.831127+00:00
 ---
 
 # DELETE /telephony/config/virtualLines/{virtualLineId}/outgoingPermission/digitPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Delete All Digit Patterns for a Virtual Profile`
+**operationId:** `deleteAllDigitPatternsForAVirtualProfile`
 
 ## Resumen
 Delete All Digit Patterns for a Virtual Profile

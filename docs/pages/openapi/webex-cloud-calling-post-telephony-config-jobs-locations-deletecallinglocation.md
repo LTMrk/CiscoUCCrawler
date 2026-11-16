@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/jobs/locations/deleteCallingLocation
-operation_id: Disable Location For Webex Calling
+operation_id: disableLocationForWebexCalling
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.092333+00:00
+retrieved_at: 2026-11-16T12:36:50.736565+00:00
 ---
 
 # POST /telephony/config/jobs/locations/deleteCallingLocation
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Disable Location For Webex Calling`
+**operationId:** `disableLocationForWebexCalling`
 
 ## Resumen
 Disable a Location for Webex Calling

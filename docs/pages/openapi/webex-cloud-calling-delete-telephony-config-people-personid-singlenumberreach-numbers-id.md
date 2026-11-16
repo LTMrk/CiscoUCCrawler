@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/people/{personId}/singleNumberReach/numbers/{id}
-operation_id: Delete A Single Number Reach Number
+operation_id: deleteASingleNumberReachNumber
 tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.082853+00:00
+retrieved_at: 2026-11-16T12:36:50.722999+00:00
 ---
 
 # DELETE /telephony/config/people/{personId}/singleNumberReach/numbers/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Single Number Reach
-**operationId:** `Delete A Single Number Reach Number`
+**operationId:** `deleteASingleNumberReachNumber`
 
 ## Resumen
 Delete A Single Number Reach Number

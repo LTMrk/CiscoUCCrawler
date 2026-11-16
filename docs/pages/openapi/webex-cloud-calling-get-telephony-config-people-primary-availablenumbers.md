@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.140050+00:00
+retrieved_at: 2026-11-16T12:36:50.798090+00:00
 ---
 
 # GET /telephony/config/people/primary/availableNumbers
@@ -49,7 +49,7 @@ curl -X GET '/telephony/config/people/primary/availableNumbers' \
 **200**: OK
 - `phoneNumbers` (array) (**requerido**): Array of phone numbers.
   - `phoneNumber` (string) (**requerido**): A unique identifier for the phone number.
-  - `state` (string) (**requerido**): * `ACTIVE` - Phone number is in the active state.  * `INACTIVE` - Phone number is in the inactive state. Valores: ACTIVE, INACTIVE.
+  - `state` (object) (**requerido**): Phone number's state.
   - `isMainNumber` (boolean) (**requerido**): If the phone number is used as a location CLID.
   - `telephonyType` (string) (**requerido**): The telephony type for the number.  * `PSTN_NUMBER` - The object is a PSTN number.  * `MOBILE_NUMBER` - The object is a mobile number. Valores: PSTN_NUMBER, MOBILE_NUMBER.
   - `mobileNetwork` (string): Mobile Network for the number if the number's `telephonyType` is `MOBILE_NUMBER`.

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/internalDialing
-operation_id: Modify the Internal Dialing configuration for a location
+operation_id: modifyTheInternalDialingConfigurationForALocation
 tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.094457+00:00
+retrieved_at: 2026-11-16T12:36:50.739583+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/internalDialing
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings: Call Handling
-**operationId:** `Modify the Internal Dialing configuration for a location`
+**operationId:** `modifyTheInternalDialingConfigurationForALocation`
 
 ## Resumen
 Modify the Internal Dialing configuration for a location
@@ -35,9 +35,7 @@ Editing the internal dialing configuration requires a full administrator or loca
 
 ## Cuerpo de la petición (application/json)
 - `enableUnknownExtensionRoutePolicy` (boolean): When enabled, calls made by users at the location to an unknown extension (between 2-6 digits) are routed to the selected route group/trunk as premises calls.
-- `unknownExtensionRouteIdentity` (object):
-  - `id` (string) (**requerido**): ID of the route type.
-  - `type` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+- `unknownExtensionRouteIdentity` (object): Type associated with the identity.
 
 ## Ejemplo de invocación
 ```bash

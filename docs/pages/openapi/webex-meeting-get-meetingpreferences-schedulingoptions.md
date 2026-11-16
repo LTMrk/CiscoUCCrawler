@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingPreferences/schedulingOptions
-operation_id: Get Scheduling Options
+operation_id: getSchedulingOptions
 tags: Preferences
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.445418+00:00
+retrieved_at: 2026-11-16T12:36:51.508874+00:00
 ---
 
 # GET /meetingPreferences/schedulingOptions
 
 **API:** Webex Meetings
 **Área:** Preferences
-**operationId:** `Get Scheduling Options`
+**operationId:** `getSchedulingOptions`
 
 ## Resumen
 Get Scheduling Options

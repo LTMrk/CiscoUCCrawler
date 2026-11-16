@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}
-operation_id: Update Location Webex Calling Details
+operation_id: updateLocationWebexCallingDetails
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.086796+00:00
+retrieved_at: 2026-11-16T12:36:50.728599+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Update Location Webex Calling Details`
+**operationId:** `updateLocationWebexCallingDetails`
 
 ## Resumen
 Update Location Webex Calling Details
@@ -41,7 +41,7 @@ Updating a location in your organization requires an administrator auth token wi
   - `name` (string): Group calling line ID name. By default the org name.
   - `phoneNumber` (string): Directory Number / Main number in E.164 Format.
 - `connection` (object): Connection details can only be modified to and from local PSTN types of `TRUNK` and `ROUTE_GROUP`.
-  - `type` (string): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
+  - `type` (object): Webex Calling location API only supports setting `TRUNK` or `ROUTE_GROUP`.
   - `id` (string): A unique identifier of route type.
 - `externalCallerIdName` (string): External caller ID name value. Unicode characters.
 - `pAccessNetworkInfo` (string): Emergency Location Identifier for a location. The `pAccessNetworkInfo` is set only when the location's country is Belgium(`BE`), Germany(`DE`), or France(`FR`).

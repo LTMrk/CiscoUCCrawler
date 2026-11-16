@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /settings/organizations/{orgId}/settings/{settingKey}
-operation_id: Get an Organization Setting
+operation_id: getAnOrganizationSetting
 tags: Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.109854+00:00
+retrieved_at: 2026-11-16T12:36:50.167827+00:00
 ---
 
 # GET /settings/organizations/{orgId}/settings/{settingKey}
 
 **API:** Webex Admin
 **Área:** Settings
-**operationId:** `Get an Organization Setting`
+**operationId:** `getAnOrganizationSetting`
 
 ## Resumen
 Get an Organization Setting

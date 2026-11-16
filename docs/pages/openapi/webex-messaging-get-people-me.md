@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /people/me
-operation_id: Get My Own Details
+operation_id: getMyOwnDetails
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.746588+00:00
+retrieved_at: 2026-11-16T12:36:51.667150+00:00
 ---
 
 # GET /people/me
 
 **API:** Webex Messaging
 **Área:** People
-**operationId:** `Get My Own Details`
+**operationId:** `getMyOwnDetails`
 
 ## Resumen
 Get My Own Details

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /contacts/organizations/{orgId}/contacts/search
-operation_id: List Contacts
+operation_id: listContacts
 tags: Organization Contacts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.089343+00:00
+retrieved_at: 2026-11-16T12:36:50.141923+00:00
 ---
 
 # GET /contacts/organizations/{orgId}/contacts/search
 
 **API:** Webex Admin
 **Área:** Organization Contacts
-**operationId:** `List Contacts`
+**operationId:** `listContacts`
 
 ## Resumen
 List Contacts
@@ -48,9 +48,7 @@ curl -X GET '/contacts/organizations/<orgId>/contacts/search' \
 **200**: OK
 - `result` (array): An array of contact objects.
   - `schemas` (string) (**requerido**): "urn:cisco:codev:identity:contact:core:1.0".
-  - `meta` (object) (**requerido**):
-    - `created` (string): The date and time the contact was created.
-    - `lastModified` (string): The date and time the contact was last changed.
+  - `meta` (object) (**requerido**): Response metadata.
   - `contactId` (string): The unique identifier for the contact.
   - `displayName` (string): The full name of the contact.
   - `firstName` (string): The first name of the contact.

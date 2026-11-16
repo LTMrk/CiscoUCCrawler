@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: PATCH
 path: /identity/organizations/{orgId}/authenticationConfig
-operation_id: Update Organization Authentication Configuration Settings
+operation_id: updateOrganizationAuthenticationConfigurationSettings
 tags: Identity Organization
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.082092+00:00
+retrieved_at: 2026-11-16T12:36:50.133261+00:00
 ---
 
 # PATCH /identity/organizations/{orgId}/authenticationConfig
 
 **API:** Webex Admin
 **Área:** Identity Organization
-**operationId:** `Update Organization Authentication Configuration Settings`
+**operationId:** `updateOrganizationAuthenticationConfigurationSettings`
 
 ## Resumen
 Update Organization Authentication Configuration Settings

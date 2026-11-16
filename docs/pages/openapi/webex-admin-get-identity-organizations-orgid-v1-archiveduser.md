@@ -10,7 +10,7 @@ tags: Archive Users
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.080263+00:00
+retrieved_at: 2026-11-16T12:36:50.130976+00:00
 ---
 
 # GET /identity/organizations/{orgId}/v1/ArchivedUser
@@ -82,7 +82,7 @@ curl -X GET '/identity/organizations/<orgId>/v1/ArchivedUser?filter=<filter>' \
 ### Ejemplo — respuesta 200
 ```json
 {
-  "totalResults": "1",
+  "totalResults": 1,
   "schemas": [
     "urn:scim:schemas:core:1.0",
     "urn:scim:schemas:extension:cisco:commonidentity:1.0"

@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.025453+00:00
+retrieved_at: 2026-11-16T12:36:50.637194+00:00
 ---
 
 # GET /telephony/config/jobs/devices/callDeviceSettings/{jobId}
@@ -71,12 +71,7 @@ curl -X GET '/telephony/config/jobs/devices/callDeviceSettings/<jobId>' \
 - `operationType` (string) (**requerido**): The operation type that was carried out.
 - `sourceLocationId` (string) (**requerido**): Unique location identifier for which the job was run.
 - `targetLocationId` (string) (**requerido**): Unique location identifier for which the numbers have been moved.
-- `counts` (object) (**requerido**):
-  - `totalMoves` (number) (**requerido**): Total number of user moves requested.
-  - `moved` (number) (**requerido**): Total number of user moves completed successfully.
-  - `failed` (number) (**requerido**): Total number of user moves that were completed with failures.
-  - `pending` (number) (**requerido**): Total number of user moves that were pending with number orders.
-  - `skipped` (number) (**requerido**): Total number of user moves that were skipped.
+- `counts` (object) (**requerido**): Job statistics.
 
 ### Ejemplo — respuesta 200
 ```json

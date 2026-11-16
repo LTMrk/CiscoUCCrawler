@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/doNotDisturb
-operation_id: Retrieve DoNotDisturb Settings for a Workspace
+operation_id: retrieveDoNotDisturbSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.196878+00:00
+retrieved_at: 2026-11-16T12:36:50.856472+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/doNotDisturb
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve DoNotDisturb Settings for a Workspace`
+**operationId:** `retrieveDoNotDisturbSettingsForAWorkspace`
 
 ## Resumen
 Retrieve DoNotDisturb Settings for a Workspace

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: POST
 path: /settings/organizations/{orgId}/settings
-operation_id: Create or Update an Organization Setting
+operation_id: createOrUpdateAnOrganizationSetting
 tags: Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.110314+00:00
+retrieved_at: 2026-11-16T12:36:50.168151+00:00
 ---
 
 # POST /settings/organizations/{orgId}/settings
 
 **API:** Webex Admin
 **Área:** Settings
-**operationId:** `Create or Update an Organization Setting`
+**operationId:** `createOrUpdateAnOrganizationSetting`
 
 ## Resumen
 Create or Update an Organization Setting

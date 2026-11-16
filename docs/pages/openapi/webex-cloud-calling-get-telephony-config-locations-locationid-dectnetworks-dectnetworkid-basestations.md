@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
-operation_id: Get a List of DECT Network Base Stations
+operation_id: getAListOfDECTNetworkBaseStations
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.920093+00:00
+retrieved_at: 2026-11-16T12:36:50.519361+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Get a List of DECT Network Base Stations`
+**operationId:** `getAListOfDECTNetworkBaseStations`
 
 ## Resumen
 Get a List of DECT Network Base Stations

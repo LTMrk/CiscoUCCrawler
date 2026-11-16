@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: POST
 path: /people
-operation_id: Create a Person
+operation_id: createAPerson
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.745581+00:00
+retrieved_at: 2026-11-16T12:36:51.665780+00:00
 ---
 
 # POST /people
 
 **API:** Webex Messaging
 **Área:** People
-**operationId:** `Create a Person`
+**operationId:** `createAPerson`
 
 ## Resumen
 Create a Person

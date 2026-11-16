@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/doNotDisturb
-operation_id: Put VirtualLine DoNotDisturb
+operation_id: putVirtualLineDoNotDisturb
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.184813+00:00
+retrieved_at: 2026-11-16T12:36:50.840201+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/doNotDisturb
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Put VirtualLine DoNotDisturb`
+**operationId:** `putVirtualLineDoNotDisturb`
 
 ## Resumen
 Modify DoNotDisturb Settings for a Virtual Line

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /identity/scim/{orgId}/v2/Groups/{groupId}
-operation_id: Get a group
+operation_id: getAGroup
 tags: SCIM 2 Groups
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.102613+00:00
+retrieved_at: 2026-11-16T12:36:50.158146+00:00
 ---
 
 # GET /identity/scim/{orgId}/v2/Groups/{groupId}
 
 **API:** Webex Admin
 **Área:** SCIM 2 Groups
-**operationId:** `Get a group`
+**operationId:** `getAGroup`
 
 ## Resumen
 Get a group
@@ -76,12 +76,6 @@ curl -X GET '/identity/scim/<orgId>/v2/Groups/<groupId>' \
   - `display` (string): A human-readable name for the group member.
   - `$ref` (string): The URI corresponding to a SCIM resource that is a member of this Group.
 - `meta` (object) (**requerido**): Response metadata.
-  - `resourceType` (string):
-  - `organizationID` (string):
-  - `created` (string) (**requerido**): The date and time the group was created.
-  - `lastModified` (string) (**requerido**): The date and time the group was last changed.
-  - `version` (string) (**requerido**): The version of the user.
-  - `location` (string) (**requerido**): The resource itself.
 - `urn:scim:schemas:extension:cisco:webexidentity:2.0:Group` (object): The Cisco extention of SCIM 2
   - `usage` (string) (**requerido**): The identifier of this group.
   - `owners` (array): The owners of this group.

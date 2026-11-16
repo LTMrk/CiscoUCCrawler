@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/devices/availableMembers
-operation_id: Search Available Members
+operation_id: searchAvailableMembers
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.922944+00:00
+retrieved_at: 2026-11-16T12:36:50.523220+00:00
 ---
 
 # GET /telephony/config/devices/availableMembers
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Search Available Members`
+**operationId:** `searchAvailableMembers`
 
 ## Resumen
 Search Available Members
@@ -55,11 +55,9 @@ curl -X GET '/telephony/config/devices/availableMembers' \
   - `lastName` (string): Last name of the member.
   - `phoneNumber` (string): Phone Number of the member.
   - `extension` (string): Extension of the member.
-  - `lineType` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-  - `memberType` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-  - `location` (object) (**requerido**):
-    - `id` (string) (**requerido**): Location identifier associated with the members.
-    - `name` (string) (**requerido**): Location name associated with the member.
+  - `lineType` (object) (**requerido**): Line type indicates if the associated line is a primary line or a shared line.
+  - `memberType` (object) (**requerido**): Indicates the type of the member.
+  - `location` (object) (**requerido**): Location object having a unique identifier for the location and its name.
 
 ### Ejemplo — respuesta 200
 ```json

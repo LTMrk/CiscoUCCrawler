@@ -5,12 +5,12 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /workspaceLocations
-operation_id: List Workspace Locations
+operation_id: listWorkspaceLocations
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.111894+00:00
+retrieved_at: 2026-11-16T12:36:50.170072+00:00
 ---
 
 # GET /workspaceLocations
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:27.111894+00:00
 
 **API:** Webex Admin
 **Área:** Workspace Locations
-**operationId:** `List Workspace Locations`
+**operationId:** `listWorkspaceLocations`
 
 ## Resumen
 List Workspace Locations

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/voicemail/passcode
-operation_id: Modify a Virtual Line's Voicemail Passcode
+operation_id: modifyAVirtualLineSVoicemailPasscode
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.181255+00:00
+retrieved_at: 2026-11-16T12:36:50.835207+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/voicemail/passcode
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Modify a Virtual Line's Voicemail Passcode`
+**operationId:** `modifyAVirtualLineSVoicemailPasscode`
 
 ## Resumen
 Modify a Virtual Line's Voicemail Passcode

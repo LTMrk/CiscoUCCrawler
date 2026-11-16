@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}/features/callerId
-operation_id: Configure Caller ID Settings for a Person
+operation_id: configureCallerIDSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.117242+00:00
+retrieved_at: 2026-11-16T12:36:50.773712+00:00
 ---
 
 # PUT /people/{personId}/features/callerId
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Configure Caller ID Settings for a Person`
+**operationId:** `configureCallerIDSettingsForAPerson`
 
 ## Resumen
 Configure Caller ID Settings for a Person
@@ -45,8 +45,6 @@ This API requires a full or user administrator or location administrator auth to
 - `additionalExternalCallerIdLocationNumberEnabled` (boolean): Set the Location main number as additional external caller ID for the virtual line.
 - `additionalExternalCallerIdCustomNumber` (string): To set a custom number as additional external caller ID for the virtual line. This value must be a number from the virtual line's location or from another location with the same country, PSTN provider, and zone (only applicable for India locations) as the virtual line's location.
 - `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this virtual line.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this virtual line.  * `FIRSTNAME_LASTNAME` - When this option is selected, `firstName` and `lastName` are to be shown for this virtual line.  * `LASTNAME_FIRSTNAME` - When this option is selected, `lastName` and `firstName` are to be shown for this virtual line.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this virtual line. Valores: CUSTOM_NAME, FIRSTNAME_LASTNAME, LASTNAME_FIRSTNAME, DISPLAY_NAME.
-  - `customName` (string): Sets or clears the custom direct line caller ID name.  To clear the `customName`, the attribute must be set to null or empty string. Required if `selection` is set to `CUSTOM_NAME`.
 - `dialByFirstName` (string): Sets or clears the first name to be used for dial-by-name functions. To clear the `dialByFirstName`, the attribute must be set to null or empty string. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 - `dialByLastName` (string): Sets or clears the last name to be used for dial-by-name functions. To clear the `dialByLastName`, the attribute must be set to null or empty string. Characters of `%`,  `+`, `\`, `"` and Unicode characters are not allowed.
 

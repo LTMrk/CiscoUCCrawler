@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
-operation_id: Delete a Voicemail Group for a Location
+operation_id: deleteAVoicemailGroupForALocation
 tags: Location Call Settings:  Voicemail
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.101838+00:00
+retrieved_at: 2026-11-16T12:36:50.750012+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/voicemailGroups/{voicemailGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings:  Voicemail
-**operationId:** `Delete a Voicemail Group for a Location`
+**operationId:** `deleteAVoicemailGroupForALocation`
 
 ## Resumen
 Delete a Voicemail Group for a Location

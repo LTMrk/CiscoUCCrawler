@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.016618+00:00
+retrieved_at: 2026-11-16T12:36:50.627601+00:00
 ---
 
 # GET /telephony/config/devices/{deviceId}/availableMembers/count

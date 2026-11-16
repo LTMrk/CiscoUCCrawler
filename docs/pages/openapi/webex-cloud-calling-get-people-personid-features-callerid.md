@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/callerId
-operation_id: Read Caller ID Settings for a Person
+operation_id: readCallerIDSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.117021+00:00
+retrieved_at: 2026-11-16T12:36:50.773396+00:00
 ---
 
 # GET /people/{personId}/features/callerId
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Read Caller ID Settings for a Person`
+**operationId:** `readCallerIDSettingsForAPerson`
 
 ## Resumen
 Read Caller ID Settings for a Person
@@ -57,9 +57,7 @@ curl -X GET '/people/<personId>/features/callerId' \
 - `additionalExternalCallerIdDirectLineEnabled` (boolean): Flag to indicate the virtual line's direct line number is available as an additional external caller ID for the virtual line.
 - `additionalExternalCallerIdLocationNumberEnabled` (boolean): Flag to indicate the location main number is available as an additional external caller ID for the virtual line.
 - `additionalExternalCallerIdCustomNumber` (string): The custom number available as an additional external caller ID for the virtual line. This value must be a number from the virtual line's location or from another location with the same country, PSTN provider, and zone (only applicable for India locations) as the virtual line's location.
-- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
+- `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this virtual line.
 - `dialByFirstName` (string): The first name to be used for dial-by-name functions.
 - `dialByLastName` (string): The last name to be used for dial-by-name functions.
 

@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: GET
 path: /attachment/actions/{id}
-operation_id: Get Attachment Action Details
+operation_id: getAttachmentActionDetails
 tags: Attachment Actions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.738544+00:00
+retrieved_at: 2026-11-16T12:36:51.653889+00:00
 ---
 
 # GET /attachment/actions/{id}
 
 **API:** Webex Messaging
 **Área:** Attachment Actions
-**operationId:** `Get Attachment Action Details`
+**operationId:** `getAttachmentActionDetails`
 
 ## Resumen
 Get Attachment Action Details

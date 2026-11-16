@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}
-operation_id: Delete DECT Network
+operation_id: deleteDECTNetwork
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.919426+00:00
+retrieved_at: 2026-11-16T12:36:50.518515+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Delete DECT Network`
+**operationId:** `deleteDECTNetwork`
 
 ## Resumen
 Delete DECT Network

@@ -5,19 +5,19 @@ api: Webex Device
 api_version: 1.0.0
 method: DELETE
 path: /devices/{deviceId}
-operation_id: Delete a Device
+operation_id: deleteADevice
 tags: Devices
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.930838+00:00
+retrieved_at: 2026-11-16T12:36:51.378706+00:00
 ---
 
 # DELETE /devices/{deviceId}
 
 **API:** Webex Device
 **Área:** Devices
-**operationId:** `Delete a Device`
+**operationId:** `deleteADevice`
 
 ## Resumen
 Delete a Device

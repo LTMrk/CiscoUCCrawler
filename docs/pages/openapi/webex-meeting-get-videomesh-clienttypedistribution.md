@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /videoMesh/clientTypeDistribution
-operation_id: List Cluster Client Type Distribution details
+operation_id: listClusterClientTypeDistributionDetails
 tags: Video Mesh
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.484981+00:00
+retrieved_at: 2026-11-16T12:36:51.559137+00:00
 ---
 
 # GET /videoMesh/clientTypeDistribution
 
 **API:** Webex Meetings
 **Área:** Video Mesh
-**operationId:** `List Cluster Client Type Distribution details`
+**operationId:** `listClusterClientTypeDistributionDetails`
 
 ## Resumen
 List Cluster Client Type Distribution details

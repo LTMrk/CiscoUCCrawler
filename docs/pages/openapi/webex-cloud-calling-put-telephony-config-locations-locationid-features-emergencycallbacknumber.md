@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/features/emergencyCallbackNumber
-operation_id: Update a Location Emergency callback number
+operation_id: updateALocationEmergencyCallbackNumber
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.088285+00:00
+retrieved_at: 2026-11-16T12:36:50.730674+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/features/emergencyCallbackNumber
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Update a Location Emergency callback number`
+**operationId:** `updateALocationEmergencyCallbackNumber`
 
 ## Resumen
 Update a Location Emergency callback number
@@ -32,7 +32,7 @@ Update details for a location emergency callback number.
 - `orgId` [query] (string): Update location attributes for this organization.
 
 ## Cuerpo de la petición (application/json)
-- `selected` (string) (**requerido**): * `LOCATION_NUMBER` - Location TN.  * `LOCATION_MEMBER_NUMBER` - Assigned number of a user, workspace, virtual line or hunt group in the location. Valores: LOCATION_NUMBER, LOCATION_MEMBER_NUMBER.
+- `selected` (object) (**requerido**): Selected number type to configure emergency call back.
 - `locationMemberId` (string) (**requerido**): Member ID of user/place/virtual line/hunt group within the location. Required if `LOCATION_MEMBER_NUMBER` is selected.
 - `elinExpiryTimeMinutes` (integer): ELIN (Emergency Location Identification Number) provides location-specific callback information to emergency responders. This field indicates the time in minutes that the ELIN association remains active after being established. Valid values are between 10 and 1440 minutes.
 

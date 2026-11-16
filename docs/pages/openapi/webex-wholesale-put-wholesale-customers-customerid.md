@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: PUT
 path: /wholesale/customers/{customerId}
-operation_id: Update a Wholesale Customer
+operation_id: updateAWholesaleCustomer
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.603466+00:00
+retrieved_at: 2026-11-16T12:36:51.891841+00:00
 ---
 
 # PUT /wholesale/customers/{customerId}
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Update a Wholesale Customer`
+**operationId:** `updateAWholesaleCustomer`
 
 ## Resumen
 Update a Wholesale Customer

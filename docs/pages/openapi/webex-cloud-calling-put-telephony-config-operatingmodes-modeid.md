@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/operatingModes/{modeId}
-operation_id: Modify an Operating Mode
+operation_id: modifyAnOperatingMode
 tags: Features: Operating Modes
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.078670+00:00
+retrieved_at: 2026-11-16T12:36:50.717220+00:00
 ---
 
 # PUT /telephony/config/operatingModes/{modeId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Operating Modes
-**operationId:** `Modify an Operating Mode`
+**operationId:** `modifyAnOperatingMode`
 
 ## Resumen
 Modify an Operating Mode
@@ -35,53 +35,8 @@ Modifying an `Operating Mode` requires a full, or location administrator auth to
 
 ## Cuerpo de la petición (application/json)
 - `name` (string): New unique name for the `operating mode`.
-- `sameHoursDaily` (object):
-  - `mondayToFriday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `saturdayToSunday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-- `differentHoursDaily` (object):
-  - `sunday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `monday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `tuesday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `wednesday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `thursday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `friday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
-  - `saturday` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): Specifies if the `operating mode` schedule for the specified weekday(s) is enabled, or not. `False` if the flag is not set.
-    - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode` is enabled for the entire day. `False` if the flag is not set.
-    - `startTime` (string) (**requerido**): Start time for the `operating mode`.
-    - `endTime` (string) (**requerido**): End time for the `operating mode`.
+- `sameHoursDaily` (object): Updated schedule for same hours daily.
+- `differentHoursDaily` (object): Updated schedule for different hours daily.
 - `holidays` (array): Updated holidays. This will replace the existing holidays.
   - `name` (string) (**requerido**): Name of the holiday.
   - `allDayEnabled` (boolean) (**requerido**): Specifies if the `operating mode holiday` schedule event is enabled for the entire day. `False` if the flag is not set.
@@ -89,11 +44,8 @@ Modifying an `Operating Mode` requires a full, or location administrator auth to
   - `endDate` (string) (**requerido**): End date of the `operating mode holiday`.
   - `startTime` (string): Start time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
   - `endTime` (string): End time for the `operating mode holiday`. Mandatory if `allDayEnabled` is false.
-  - `recurrence` (object):
-    - `recurYearlyByDate` (object):
-      - `dayOfMonth` (number) (**requerido**): Schedule the event on a specific day of the month.
-      - `month` (string) (**requerido**): Schedule the event on a specific month of the year. Valores: JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER.
-    - `recurYearlyByDay` (object):
+  - `recurrence` (object): Recurrence configuration for the `operating mode holiday`.
+- `callForwarding` (object): Updated call forwarding settings for an `operating mode`.
 
 ### Ejemplo — petición
 ```json

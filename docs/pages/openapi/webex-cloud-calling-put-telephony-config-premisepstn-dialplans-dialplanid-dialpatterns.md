@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/dialPlans/{dialPlanId}/dialPatterns
-operation_id: Modify Dial Patterns
+operation_id: modifyDialPatterns
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.962798+00:00
+retrieved_at: 2026-11-16T12:36:50.554909+00:00
 ---
 
 # PUT /telephony/config/premisePstn/dialPlans/{dialPlanId}/dialPatterns
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify Dial Patterns`
+**operationId:** `modifyDialPatterns`
 
 ## Resumen
 Modify Dial Patterns
@@ -39,7 +39,7 @@ Modifying a dial pattern requires a full administrator auth token with a scope o
 ## Cuerpo de la petición (application/json)
 - `dialPatterns` (array): Array of dial patterns to add or delete. Dial Pattern that is not present in the request is not modified.
   - `dialPattern` (string): A unique dial pattern.
-  - `action` (string): * `ADD` - Add action, when adding a new dial pattern  * `DELETE` - Delete action, when deleting an existing dial pattern Valores: ADD, DELETE.
+  - `action` (object): Action to add or delete a pattern.
 - `deleteAllDialPatterns` (boolean): Delete all the dial patterns for a dial plan.
 
 ## Ejemplo de invocación

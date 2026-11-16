@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/q_and_a
-operation_id: List Meeting Q and A
+operation_id: listMeetingQAndA
 tags: Meeting Q and A
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.446824+00:00
+retrieved_at: 2026-11-16T12:36:51.511064+00:00
 ---
 
 # GET /meetings/q_and_a
 
 **API:** Webex Meetings
 **Área:** Meeting Q and A
-**operationId:** `List Meeting Q and A`
+**operationId:** `listMeetingQAndA`
 
 ## Resumen
 List Meeting Q and A

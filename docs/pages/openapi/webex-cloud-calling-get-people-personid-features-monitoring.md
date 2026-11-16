@@ -10,7 +10,7 @@ tags: Person Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.119006+00:00
+retrieved_at: 2026-11-16T12:36:50.776094+00:00
 ---
 
 # GET /people/{personId}/features/monitoring
@@ -49,7 +49,7 @@ curl -X GET '/people/<personId>/features/monitoring' \
     - `firstName` (string): First name of the monitored member (Virtual Line or User). For Workspace, this field is not applicable.
     - `displayName` (string): The display name of the monitored person, workspace, or virtual line.
     - `lineKeyLabel` (string): This is a custom line key label configured for the Member.
-    - `type` (string): * `PEOPLE` - Person or list of people.  * `PLACE` - Workspace that is not assigned to a specific person such as for a shared device in a common area.  * `VIRTUAL_LINE` - Virtual line or list of virtual lines. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+    - `type` (object): Indicates whether the monitored element is a person, workspace, or virtual line.
     - `email` (string): The email address of the monitored person.
     - `numbers` (array) (**requerido**): The list of phone numbers containing only the primary number for the monitored person, workspace or virtual line.
       - `external` (string): External phone number of the monitored person, workspace or virtual line.
@@ -68,14 +68,7 @@ curl -X GET '/people/<personId>/features/monitoring' \
     - `esn` (string): Routing prefix plus extension of the Call Park Extension. If routing prefix is not configured for the location, esn will be same as extension.
     - `location` (string) (**requerido**): The location name where the call park extension is.
     - `locationId` (string) (**requerido**): The ID of the location.
-  - `speedDial` (object):
-    - `id` (string): The identifier of the speed dial.
-    - `displayName` (string): The display name of the speed dial.
-    - `type` (string): The type of the speed dial.  * `PEOPLE` - Object is a user.  * `PLACE` - Object is a workspace.  * `VIRTUAL_LINE` - Object is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
-    - `lineKeyLabel` (string): Customizable line key label for speed dial.
-    - `phoneNumber` (string): The phone number of the speed dial.
-    - `location` (string): The location name where the speed dial is.
-    - `locationId` (string): The ID for the location.
+  - `speedDial` (object): Speed dial configured as a monitored element.
 
 ### Ejemplo — respuesta 200
 ```json

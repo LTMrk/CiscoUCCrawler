@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/
-operation_id: Delete Multiple Handsets
+operation_id: deleteMultipleHandsets
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.921994+00:00
+retrieved_at: 2026-11-16T12:36:50.521835+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/handsets/
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Delete Multiple Handsets`
+**operationId:** `deleteMultipleHandsets`
 
 ## Resumen
 Delete Multiple Handsets
@@ -50,7 +50,7 @@ This API requires a full or location administrator auth token with a scope of `s
     "Y2lzY29zcGFyazovL3VzL0RFQ1RfREVWX0hBTkRTRVQvYjE0MDYyOWUtZTExMy00ODQyLWIxMmMtMDVjODEwYTRjYjIz",
     "Y2lzY29zcGFyazovL3VzL0RFQ1RfREVWX1NUQVRJT04vYjVhMTQxN2ItZGNiYi00MGMzLWE3YWQtNTY1MGZkZGRkNQ"
   ],
-  "deleteAll": "true"
+  "deleteAll": true
 }
 ```
 

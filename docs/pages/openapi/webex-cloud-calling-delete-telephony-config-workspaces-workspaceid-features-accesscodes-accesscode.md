@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/workspaces/{workspaceId}/features/accessCodes/{accessCode}
-operation_id: Delete a Specific Access Code for a Workspace
+operation_id: deleteASpecificAccessCodeForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.192857+00:00
+retrieved_at: 2026-11-16T12:36:50.851158+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/features/accessCodes/{accessCode}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Delete a Specific Access Code for a Workspace`
+**operationId:** `deleteASpecificAccessCodeForAWorkspace`
 
 ## Resumen
 Delete a Specific Access Code for a Workspace

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/debugLevel
-operation_id: Update DECT Network Debug Level
+operation_id: updateDECTNetworkDebugLevel
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.919644+00:00
+retrieved_at: 2026-11-16T12:36:50.518786+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/debugLevel
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Update DECT Network Debug Level`
+**operationId:** `updateDECTNetworkDebugLevel`
 
 ## Resumen
 Update DECT Network Debug Level
@@ -35,7 +35,7 @@ This API requires a full or location administrator auth token with a scope of `s
 - `orgId` [query] (string): Organization containing the DECT network.
 
 ## Cuerpo de la petición (application/json)
-- `debugLevel` (string) (**requerido**): * `STANDARD` - Standard logging level for normal operations.  * `DEBUG` - Debug logging level for detailed diagnostic information. Valores: STANDARD, DEBUG.
+- `debugLevel` (object) (**requerido**): Debug level for the DECT network. Set to `STANDARD` for normal operational logging or `DEBUG` for detailed diagnostic logging.
 
 ### Ejemplo — petición
 ```json

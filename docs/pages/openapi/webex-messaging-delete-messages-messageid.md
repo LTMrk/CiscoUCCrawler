@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: DELETE
 path: /messages/{messageId}
-operation_id: Delete a Message
+operation_id: deleteAMessage
 tags: Messages
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.745020+00:00
+retrieved_at: 2026-11-16T12:36:51.664949+00:00
 ---
 
 # DELETE /messages/{messageId}
 
 **API:** Webex Messaging
 **Área:** Messages
-**operationId:** `Delete a Message`
+**operationId:** `deleteAMessage`
 
 ## Resumen
 Delete a Message

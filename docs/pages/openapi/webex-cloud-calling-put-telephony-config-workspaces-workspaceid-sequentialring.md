@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/sequentialRing
-operation_id: Modify Sequential Ring Settings for a Workspace
+operation_id: modifySequentialRingSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.201036+00:00
+retrieved_at: 2026-11-16T12:36:50.862131+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/sequentialRing
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Sequential Ring Settings for a Workspace`
+**operationId:** `modifySequentialRingSettingsForAWorkspace`
 
 ## Resumen
 Modify Sequential Ring Settings for a Workspace
@@ -51,7 +51,7 @@ This API requires a full, user or location administrator auth token with the `sp
 {
   "enabled": true,
   "ringBaseLocationFirstEnabled": true,
-  "baseLocationNumberOfRings": "2",
+  "baseLocationNumberOfRings": 2,
   "continueIfBaseLocationIsBusyEnabled": true,
   "callsToVoicemailEnabled": true,
   "phoneNumbers": [

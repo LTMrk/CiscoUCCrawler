@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /workspaces/{workspaceId}/features/callForwarding
-operation_id: Modify Call Forwarding Settings for a Workspace
+operation_id: modifyCallForwardingSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.187787+00:00
+retrieved_at: 2026-11-16T12:36:50.844375+00:00
 ---
 
 # PUT /workspaces/{workspaceId}/features/callForwarding
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Modify Call Forwarding Settings for a Workspace`
+**operationId:** `modifyCallForwardingSettingsForAWorkspace`
 
 ## Resumen
 Modify Call Forwarding Settings for a Workspace
@@ -42,26 +42,8 @@ This API requires a full or user administrator or location administrator auth to
 - `orgId` [query] (string): ID of the organization within which the workspace resides. Only admin users of another organization (such as partners) may use this parameter as the default is the same organization as the token used to access the API.
 
 ## Cuerpo de la petición (application/json)
-- `callForwarding` (object) (**requerido**):
-  - `always` (object) (**requerido**):
-    - `enabled` (boolean) (**requerido**): "Always" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "Always" call forwarding.
-    - `ringReminderEnabled` (boolean) (**requerido**): If `true`, a brief tone will be played on the person's phone when a call has been forwarded.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `busy` (object):
-    - `enabled` (boolean) (**requerido**): "Busy" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "Busy" call forwarding.
-    - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to voicemail when the destination is an internal phone number and that number has the voicemail service enabled.
-  - `noAnswer` (object):
-    - `enabled` (boolean): "No Answer" call forwarding is enabled or disabled.
-    - `destination` (string): Destination for "No Answer" call forwarding. If enabled true, destination is required.
-    - `numberOfRings` (number): Number of rings before the call will be forwarded if unanswered. `numberOfRings` must be between 2 and 20, inclusive.
-    - `systemMaxNumberOfRings` (number): Max number of rings before the call will be forwarded if unanswered.
-    - `destinationVoicemailEnabled` (boolean): Enables and disables sending incoming to destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
-- `businessContinuity` (object) (**requerido**):
-  - `enabled` (boolean) (**requerido**): Business Continuity is enabled or disabled.
-  - `destination` (string): Destination for Business Continuity.
-  - `destinationVoicemailEnabled` (boolean) (**requerido**): Enabled or disabled state of sending incoming calls to the destination number's voicemail if the destination is an internal phone number and that number has the voicemail service enabled.
+- `callForwarding` (object) (**requerido**): Call forwarding settings for a Workspace.
+- `businessContinuity` (object) (**requerido**): Settings for sending calls to a destination of your choice if your phone is not connected to the network for any reason, such as power outage, failed Internet connection, or wiring problem.
 
 ### Ejemplo — petición
 ```json
@@ -98,7 +80,7 @@ This API requires a full or user administrator or location administrator auth to
 curl -X PUT '/workspaces/<workspaceId>/features/callForwarding' \
   -H 'Authorization: Bearer <TOKEN>' \
   -H 'Content-Type: application/json' \
-  -d '{"callForwarding": {}, "businessContinuity": {}}'
+  -d '{"callForwarding": "<callForwarding>", "businessContinuity": "<businessContinuity>"}'
 ```
 
 ## Respuestas correctas

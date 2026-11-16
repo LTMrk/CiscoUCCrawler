@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: POST
 path: /subscribers/{subscriberId}/emails/consentMove
-operation_id: Send Consent User Move Email to Pending Broadworks Subscribers
+operation_id: sendConsentUserMoveEmailToPendingBroadworksSubscribers
 tags: BroadWorks Subscribers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.377104+00:00
+retrieved_at: 2026-11-16T12:36:50.254998+00:00
 ---
 
 # POST /subscribers/{subscriberId}/emails/consentMove
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Subscribers
-**operationId:** `Send Consent User Move Email to Pending Broadworks Subscribers`
+**operationId:** `sendConsentUserMoveEmailToPendingBroadworksSubscribers`
 
 ## Resumen
 Send Consent User Move Email to Pending Broadworks Subscribers

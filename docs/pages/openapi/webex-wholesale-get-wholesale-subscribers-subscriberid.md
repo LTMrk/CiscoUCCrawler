@@ -5,19 +5,19 @@ api: Webex Wholesale
 api_version: 1.0.0
 method: GET
 path: /wholesale/subscribers/{subscriberId}
-operation_id: Get a Wholesale Subscriber
+operation_id: getAWholesaleSubscriber
 tags: Wholesale Provisioning
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:30.604758+00:00
+retrieved_at: 2026-11-16T12:36:51.893642+00:00
 ---
 
 # GET /wholesale/subscribers/{subscriberId}
 
 **API:** Webex Wholesale
 **Área:** Wholesale Provisioning
-**operationId:** `Get a Wholesale Subscriber`
+**operationId:** `getAWholesaleSubscriber`
 
 ## Resumen
 Get a Wholesale Subscriber

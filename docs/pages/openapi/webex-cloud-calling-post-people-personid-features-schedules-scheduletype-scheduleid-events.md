@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events
-operation_id: Add a New Event for Person Schedule
+operation_id: addANewEventForPersonSchedule
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.123917+00:00
+retrieved_at: 2026-11-16T12:36:50.784910+00:00
 ---
 
 # POST /people/{personId}/features/schedules/{scheduleType}/{scheduleId}/events
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Add a New Event for Person Schedule`
+**operationId:** `addANewEventForPersonSchedule`
 
 ## Resumen
 Add a New Event for Person's Schedule

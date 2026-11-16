@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/resume
-operation_id: Resume
+operation_id: resume
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.008872+00:00
+retrieved_at: 2026-11-16T12:36:50.617465+00:00
 ---
 
 # POST /telephony/conference/resume
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Resume`
+**operationId:** `resume`
 
 ## Resumen
 Resume

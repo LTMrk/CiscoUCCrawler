@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/selectiveForward
-operation_id: Modify Selective Forward Settings for a Workspace
+operation_id: modifySelectiveForwardSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.206519+00:00
+retrieved_at: 2026-11-16T12:36:50.869809+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/selectiveForward
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify Selective Forward Settings for a Workspace`
+**operationId:** `modifySelectiveForwardSettingsForAWorkspace`
 
 ## Resumen
 Modify Selective Forward Settings for a Workspace

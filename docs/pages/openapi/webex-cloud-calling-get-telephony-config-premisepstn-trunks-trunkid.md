@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/trunks/{trunkId}
-operation_id: Get a Trunk
+operation_id: getATrunk
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.965181+00:00
+retrieved_at: 2026-11-16T12:36:50.560205+00:00
 ---
 
 # GET /telephony/config/premisePstn/trunks/{trunkId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get a Trunk`
+**operationId:** `getATrunk`
 
 ## Resumen
 Get a Trunk
@@ -43,12 +43,8 @@ curl -X GET '/telephony/config/premisePstn/trunks/<trunkId>' \
 ## Respuestas correctas
 **200**: OK
 - `name` (string) (**requerido**): A unique name for the trunk.
-- `customer` (object) (**requerido**):
-  - `id` (string) (**requerido**): ID of the customer/organization.
-  - `name` (string) (**requerido**): Name of the customer/organization.
-- `location` (object): Location associated with the hot desking member.
-  - `id` (string) (**requerido**): Unique identifier for the location.
-  - `name` (string) (**requerido**): Name of the location.
+- `customer` (object) (**requerido**): Customer associated with the trunk.
+- `location` (object): Location associated with the trunk.
 - `otgDtgId` (string): Unique Outgoing and Destination trunk group associated with the dial plan.
 - `linePort` (string): The Line/Port identifies a device endpoint in standalone mode or a SIP URI public identity in IMS mode.
 - `locationsUsingTrunk` (array): Locations using trunk.
@@ -57,16 +53,11 @@ curl -X GET '/telephony/config/premisePstn/trunks/<trunkId>' \
 - `pilotUserId` (string): User ID.
 - `outboundProxy` (object): Contains the body of the HTTP response received following the request to Console API and will not be set if the response has no body.
 - `sipAuthenticationUserName` (string): User's authentication service information.
-- `status` (string) (**requerido**): * `ONLINE` - Device is online  * `OFFLINE` - Device is offline  * `UNKNOWN` - Unknown. Default Valores: ONLINE, OFFLINE, UNKNOWN.
+- `status` (object) (**requerido**): Device status.
 - `errorCodes` (array): Error codes.
-- `responseStatus` (object):
-  - `code` (number) (**requerido**): Error Code. 25013 for error retrieving the outbound proxy. 25014 for error retrieving the status
-  - `type` (string) (**requerido**): * `ERROR` - Error  * `WARNING` - Warning Valores: ERROR, WARNING.
-  - `summaryEnglish` (string) (**requerido**): Error summary in English.
-  - `detail` (array) (**requerido**): Error Details.
-  - `trackingId` (string) (**requerido**): Error Tracking ID.
+- `responseStatus` (object): Present partial error/warning status information included when the http response is 206.
 - `dualIdentitySupportEnabled` (boolean): Determines the behavior of the From and PAI headers on outbound calls.
-- `trunkType` (string) (**requerido**): * `REGISTERING` - For Cisco CUBE Local Gateway.  * `CERTIFICATE_BASED` - For Cisco Unified Border Element, Oracle ACME Session Border Controller, AudioCodes Session Border Controller, Ribbon Session Border Controller. Valores: REGISTERING, CERTIFICATE_BASED.
+- `trunkType` (object) (**requerido**): Trunk Type associated with the trunk.
 - `deviceType` (string): Device type assosiated with trunk.
 - `address` (string): FQDN or SRV address. Required to create a static certificate-based trunk.
 - `domain` (string): Domain name. Required to create a static certificate based trunk.

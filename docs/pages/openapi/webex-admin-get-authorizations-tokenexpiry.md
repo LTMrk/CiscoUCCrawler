@@ -10,7 +10,7 @@ tags: Authorizations
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.077908+00:00
+retrieved_at: 2026-11-16T12:36:50.128306+00:00
 ---
 
 # GET /authorizations/tokenExpiry

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/bargeIn
-operation_id: Read Barge In Settings for a Person
+operation_id: readBargeInSettingsForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.114767+00:00
+retrieved_at: 2026-11-16T12:36:50.770208+00:00
 ---
 
 # GET /people/{personId}/features/bargeIn
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Read Barge In Settings for a Person`
+**operationId:** `readBargeInSettingsForAPerson`
 
 ## Resumen
 Read Barge In Settings for a Person

@@ -5,19 +5,19 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /partner/tags/subscriptions
-operation_id: Subscription List on a given tag name or a set of tags
+operation_id: subscriptionListOnAGivenTagNameOrASetOfTags
 tags: Partner Tags
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.111497+00:00
+retrieved_at: 2026-11-16T12:36:50.169584+00:00
 ---
 
 # GET /partner/tags/subscriptions
 
 **API:** Webex Admin
 **Área:** Partner Tags
-**operationId:** `Subscription List on a given tag name or a set of tags`
+**operationId:** `subscriptionListOnAGivenTagNameOrASetOfTags`
 
 ## Resumen
 Subscription List on a given tag name or a set of tags

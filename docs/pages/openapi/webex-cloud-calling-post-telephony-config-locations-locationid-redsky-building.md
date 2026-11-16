@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/redSky/building
-operation_id: Create a RedSky Building Address and Alert Email for a Location
+operation_id: createARedSkyBuildingAddressAndAlertEmailForALocation
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.035124+00:00
+retrieved_at: 2026-11-16T12:36:50.650212+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/redSky/building
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Create a RedSky Building Address and Alert Email for a Location`
+**operationId:** `createARedSkyBuildingAddressAndAlertEmailForALocation`
 
 ## Resumen
 Create a RedSky Building Address and Alert Email for a Location
@@ -35,13 +35,7 @@ Creating a building address and alert email requires a full administrator auth t
 
 ## Cuerpo de la petición (application/json)
 - `alertingEmail` (string) (**requerido**): Email that is used to create alerts in RedSky. At least one email is mandatory.
-- `address` (object):
-  - `addressLine1` (string): First line of the building's address.
-  - `addressLine2` (string): Second line of the building's address.
-  - `city` (string): City for the building's address.
-  - `stateOrProvince` (string): State or Province for the building's address.
-  - `zipOrPostalCode` (string): Zip or Postal Code for the building's address.
-  - `country` (string): Country for the building's address.
+- `address` (object): Contains address information for the building.
 
 ### Ejemplo — petición
 ```json

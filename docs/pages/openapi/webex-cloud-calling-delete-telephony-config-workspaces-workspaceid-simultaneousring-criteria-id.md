@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria/{id}
-operation_id: Delete Simultaneous Ring Criteria for a Workspace
+operation_id: deleteSimultaneousRingCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.202057+00:00
+retrieved_at: 2026-11-16T12:36:50.863584+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/simultaneousRing/criteria/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Delete Simultaneous Ring Criteria for a Workspace`
+**operationId:** `deleteSimultaneousRingCriteriaForAWorkspace`
 
 ## Resumen
 Delete Simultaneous Ring Criteria for a Workspace

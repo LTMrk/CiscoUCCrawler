@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference/members/me/undeafen
-operation_id: Undeafen Participant
+operation_id: undeafenParticipant
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.013092+00:00
+retrieved_at: 2026-11-16T12:36:50.622948+00:00
 ---
 
 # POST /telephony/conference/members/me/undeafen
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Undeafen Participant`
+**operationId:** `undeafenParticipant`
 
 ## Resumen
 Undeafen Participant

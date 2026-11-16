@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.144701+00:00
+retrieved_at: 2026-11-16T12:36:50.804375+00:00
 ---
 
 # GET /telephony/config/people/{personId}/selectiveForward
@@ -47,8 +47,8 @@ curl -X GET '/telephony/config/people/<personId>/selectiveForward' \
 - `destinationVoicemailEnabled` (boolean) (**requerido**): Enables forwarding for all calls to voicemail. This option is only available for internal phone numbers or extensions.
 - `criteria` (array) (**requerido**): A list of criteria specifying conditions when selective forward feature is in effect.
   - `id` (string) (**requerido**): Unique identifier for criteria.
-  - `scheduleName` (string) (**requerido**): Name of the location's schedule which determines when the sequential ring is in effect.
-  - `source` (string) (**requerido**): * `ALL_NUMBERS` - Criteria applies to all incoming numbers.  * `SPECIFIC_NUMBERS` - Criteria applies only for specific incoming numbers.  * `ANY_INTERNAL` - Criteria applies to all internal incoming numbers.  * `ANY_EXTERNAL` - Criteria applies to all external incoming numbers. Valores: ALL_NUMBERS, SPECIFIC_NUMBERS, ANY_INTERNAL, ANY_EXTERNAL.
+  - `scheduleName` (string) (**requerido**): Name of the schedule which determines when the sequential ring is in effect.
+  - `source` (object) (**requerido**): Criteria are applicable for calls from any phone number or a specific phone number.
   - `ringEnabled` (boolean) (**requerido**): When set to `true` sequential ringing is enabled for calls that meet the current criteria. Criteria with `ringEnabled` set to `false` take priority.
 
 ### Ejemplo — respuesta 200

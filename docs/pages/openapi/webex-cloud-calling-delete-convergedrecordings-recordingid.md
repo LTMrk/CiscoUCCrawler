@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /convergedRecordings/{recordingId}
-operation_id: delete_a_recording
+operation_id: deleteARecording
 tags: Converged Recordings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.014672+00:00
+retrieved_at: 2026-11-16T12:36:50.624951+00:00
 ---
 
 # DELETE /convergedRecordings/{recordingId}
 
 **API:** Webex Cloud Calling
 **Área:** Converged Recordings
-**operationId:** `delete_a_recording`
+**operationId:** `deleteARecording`
 
 ## Resumen
 Delete a Recording

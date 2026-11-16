@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/announcements
-operation_id: Fetch list of announcement greetings on location and organization level
+operation_id: fetchListOfAnnouncementGreetingsOnLocationAndOrganizationLevel
 tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.039975+00:00
+retrieved_at: 2026-11-16T12:36:50.657989+00:00
 ---
 
 # GET /telephony/config/announcements
 
 **API:** Webex Cloud Calling
 **Área:** Features: Announcement Repository
-**operationId:** `Fetch list of announcement greetings on location and organization level`
+**operationId:** `fetchListOfAnnouncementGreetingsOnLocationAndOrganizationLevel`
 
 ## Resumen
 Fetch list of announcement greetings on location and organization level
@@ -56,9 +56,7 @@ curl -X GET '/telephony/config/announcements' \
   - `mediaFileType` (string) (**requerido**): Media file type of the announcement file.
   - `lastUpdated` (string) (**requerido**): LastUpdated timestamp (in UTC format) of the announcement.
   - `level` (string) (**requerido**): The level at which this announcement exists. Valores: LOCATION, ORGANIZATION.
-  - `location` (object):
-    - `id` (string): The ID of the location.
-    - `name` (string): The name of the location.
+  - `location` (object): The details of location at which this announcement exists.
   - `isTextToSpeech` (boolean): Indicates whether the announcement is text-to-speech.
 
 ### Ejemplo — respuesta 200

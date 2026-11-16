@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/schedules/{scheduleType}/{scheduleId}
-operation_id: Get a Schedule Details
+operation_id: getAScheduleDetails
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.122643+00:00
+retrieved_at: 2026-11-16T12:36:50.783086+00:00
 ---
 
 # GET /people/{personId}/features/schedules/{scheduleType}/{scheduleId}
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `Get a Schedule Details`
+**operationId:** `getAScheduleDetails`
 
 ## Resumen
 Get a Schedule Details
@@ -45,7 +45,7 @@ curl -X GET '/people/<personId>/features/schedules/<scheduleType>/<scheduleId>' 
 **200**: OK
 - `id` (string) (**requerido**): Identifier for a schedule.
 - `name` (string) (**requerido**): Name for the schedule.
-- `type` (string) (**requerido**): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
+- `type` (object) (**requerido**): The Schedule type whether `businessHours` or `holidays`.
 - `events` (array): List of events.
   - `name` (string) (**requerido**): Name for the event.
   - `startDate` (string) (**requerido**): Start date of the event, or first occurrence if repeating, in the format of `YYYY-MM-DD`.  This field is required if the `allDayEnabled` field is present.

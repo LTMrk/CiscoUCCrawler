@@ -10,7 +10,7 @@ tags: User Profiles
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.614915+00:00
+retrieved_at: 2026-11-16T12:36:51.154113+00:00
 ---
 
 # GET /organization/{orgid}/user-profile/{id}/incoming-references

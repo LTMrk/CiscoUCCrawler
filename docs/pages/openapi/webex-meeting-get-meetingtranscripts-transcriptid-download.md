@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetingTranscripts/{transcriptId}/download
-operation_id: Download a Meeting Transcript
+operation_id: downloadAMeetingTranscript
 tags: Transcripts
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.449197+00:00
+retrieved_at: 2026-11-16T12:36:51.514369+00:00
 ---
 
 # GET /meetingTranscripts/{transcriptId}/download
 
 **API:** Webex Meetings
 **Área:** Transcripts
-**operationId:** `Download a Meeting Transcript`
+**operationId:** `downloadAMeetingTranscript`
 
 ## Resumen
 Download a Meeting Transcript

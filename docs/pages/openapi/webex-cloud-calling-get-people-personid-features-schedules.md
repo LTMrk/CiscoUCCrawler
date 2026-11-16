@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /people/{personId}/features/schedules
-operation_id: List of Schedules for a Person
+operation_id: listOfSchedulesForAPerson
 tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.122170+00:00
+retrieved_at: 2026-11-16T12:36:50.782394+00:00
 ---
 
 # GET /people/{personId}/features/schedules
 
 **API:** Webex Cloud Calling
 **Área:** User Call Settings (1/2)
-**operationId:** `List of Schedules for a Person`
+**operationId:** `listOfSchedulesForAPerson`
 
 ## Resumen
 List of Schedules for a Person
@@ -48,8 +48,8 @@ curl -X GET '/people/<personId>/features/schedules' \
 - `schedules` (array) (**requerido**): List of schedules.
   - `id` (string) (**requerido**): Identifier for a schedule.
   - `name` (string) (**requerido**): Name for the schedule.
-  - `type` (string) (**requerido**): * `businessHours` - The schedule type that specifies the business or working hours during the day.  * `holidays` - The schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-  - `level` (string): * `PEOPLE` - The schedule level that specifies that criteria is of People level.  * `GROUP` - The schedule level that specifies that criteria is of Group level. Valores: PEOPLE, GROUP.
+  - `type` (object) (**requerido**): The Schedule type whether `businessHours` or `holidays`.
+  - `level` (object): The Schedule level whether `LOCATION` or `PEOPLE`.
 
 ### Ejemplo — respuesta 200
 ```json

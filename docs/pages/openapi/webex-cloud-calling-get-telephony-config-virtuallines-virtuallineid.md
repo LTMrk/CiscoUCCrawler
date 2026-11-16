@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/virtualLines/{virtualLineId}
-operation_id: Get Details for a Virtual Line
+operation_id: getDetailsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.158072+00:00
+retrieved_at: 2026-11-16T12:36:50.824011+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Get Details for a Virtual Line`
+**operationId:** `getDetailsForAVirtualLine`
 
 ## Resumen
 Get Details for a Virtual Line
@@ -58,13 +58,9 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>' \
   - `model` (string) (**requerido**): Identifier for device model.
   - `mac` (string): MAC address of device.
   - `primaryOwner` (boolean) (**requerido**): Indicates whether the person or the workspace is the owner of the device and points to a primary Line/Port of the device.
-  - `type` (string) (**requerido**): * `PRIMARY` - Primary line for the member.  * `SHARED_CALL_APPEARANCE` - Shared line for the member. A shared line allows users to receive and place calls to and from another user's extension, using their own device. Valores: PRIMARY, SHARED_CALL_APPEARANCE.
-  - `owner` (object) (**requerido**):
-    - `id` (string) (**requerido**): Unique identifier of a person or a workspace.
-    - `type` (string) (**requerido**): * `PEOPLE` - Indicates the associated member is a person.  * `PLACE` - Indicates the associated member is a workspace. Valores: PEOPLE, PLACE.
-    - `firstName` (string): The first name of the device owner.
-    - `lastName` (string): The last name of the device owner.
-  - `activationState` (string) (**requerido**): * `ACTIVATING` - Indicates a device is activating.  * `ACTIVATED` - Indicates a device is activated.  * `DEACTIVATED` - Indicates a device is deactivated. Valores: ACTIVATING, ACTIVATED, DEACTIVATED.
+  - `type` (object) (**requerido**): Indicates if the line is acting as a primary line or a shared line for this device.
+  - `owner` (object) (**requerido**): Owner of the device.
+  - `activationState` (object) (**requerido**): Activation state of a device.
 - `location` (object) (**requerido**): Location details of virtual line.
   - `id` (string) (**requerido**): ID of location associated with virtual line.
   - `name` (string) (**requerido**): Name of location associated with virtual line.
@@ -83,7 +79,7 @@ curl -X GET '/telephony/config/virtualLines/<virtualLineId>' \
   "firstName": "Bob",
   "lastName": "Smith",
   "displayName": "Bob Smith",
-  "directorySearchEnabled": "true",
+  "directorySearchEnabled": true,
   "announcementLanguage": "French",
   "timeZone": "Africa/Algiers",
   "number": {

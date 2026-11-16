@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/numbers
-operation_id: Add Phone Numbers to a location
+operation_id: addPhoneNumbersToALocation
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.105041+00:00
+retrieved_at: 2026-11-16T12:36:50.754230+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Add Phone Numbers to a location`
+**operationId:** `addPhoneNumbersToALocation`
 
 ## Resumen
 Add Phone Numbers to a Location
@@ -44,9 +44,9 @@ Phone numbers included in the request that already exist in the location will si
 
 ## Cuerpo de la petición (application/json)
 - `phoneNumbers` (array) (**requerido**): List of phone numbers that need to be added.
-- `numberType` (string): * `TOLLFREE` - A toll-free PSTN number.  * `DID` - A normal Direct Inward Dial (DID) PSTN number.  * `MOBILE` - A mobile number. Valores: TOLLFREE, DID, MOBILE.
-- `numberUsageType` (string): * `NONE` - Standard/user number usage (default).  * `SERVICE` - The number will be used in high-volume service, for example, Contact Center. Valores: NONE, SERVICE.
-- `state` (string): * `ACTIVE` - The number is activated and has calling capability.  * `INACTIVE` - A number is not yet activated and has no calling capability. Valores: ACTIVE, INACTIVE.
+- `numberType` (object): The type of the number. Required for `MOBILE` number type.
+- `numberUsageType` (object): The type of usage expected for the number.
+- `state` (object): The state of the number. By default, the state of a number is set to `ACTIVE` for DID and toll-free numbers only. Mobile numbers will be activated upon assignment to a user.
 - `subscriptionId` (string): The `subscriptionId` to be used for the mobile number order.
 - `carrierId` (string/uuid): The `carrierId` to be used for the mobile number order.
 

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/dialPlans/{dialPlanId}
-operation_id: Get a Dial Plan
+operation_id: getADialPlan
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.963784+00:00
+retrieved_at: 2026-11-16T12:36:50.556238+00:00
 ---
 
 # GET /telephony/config/premisePstn/dialPlans/{dialPlanId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Get a Dial Plan`
+**operationId:** `getADialPlan`
 
 ## Resumen
 Get a Dial Plan
@@ -48,10 +48,8 @@ curl -X GET '/telephony/config/premisePstn/dialPlans/<dialPlanId>' \
 - `name` (string) (**requerido**): A unique name for the dial plan.
 - `routeId` (string) (**requerido**): ID of route type associated with the dial plan.
 - `routeName` (string) (**requerido**): Name of route type associated with the dial plan.
-- `routeType` (string) (**requerido**): * `ROUTE_GROUP` - Route group must include at least one trunk with a maximum of 10 trunks per route group.  * `TRUNK` - Connection between Webex Calling and the premises. Valores: ROUTE_GROUP, TRUNK.
-- `customer` (object) (**requerido**):
-  - `id` (string) (**requerido**): ID of the customer/organization.
-  - `name` (string) (**requerido**): Name of the customer/organization.
+- `routeType` (object) (**requerido**): Route Type associated with the dial plan.
+- `customer` (object) (**requerido**): Customer information.
 
 ### Ejemplo — respuesta 200
 ```json

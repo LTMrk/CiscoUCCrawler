@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/workspaces/{workspaceId}/doNotDisturb
-operation_id: Modify DoNotDisturb Settings for a Workspace
+operation_id: modifyDoNotDisturbSettingsForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.197096+00:00
+retrieved_at: 2026-11-16T12:36:50.856739+00:00
 ---
 
 # PUT /telephony/config/workspaces/{workspaceId}/doNotDisturb
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Modify DoNotDisturb Settings for a Workspace`
+**operationId:** `modifyDoNotDisturbSettingsForAWorkspace`
 
 ## Resumen
 Modify DoNotDisturb Settings for a Workspace

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/conference
-operation_id: Start Conference
+operation_id: startConference
 tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.007294+00:00
+retrieved_at: 2026-11-16T12:36:50.615509+00:00
 ---
 
 # POST /telephony/conference
 
 **API:** Webex Cloud Calling
 **Área:** Conference Controls
-**operationId:** `Start Conference`
+**operationId:** `startConference`
 
 ## Resumen
 Start Conference

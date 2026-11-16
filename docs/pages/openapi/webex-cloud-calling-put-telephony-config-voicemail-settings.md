@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/voicemail/settings
-operation_id: Update Voicemail Settings
+operation_id: updateVoicemailSettings
 tags: Calling Service Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.004973+00:00
+retrieved_at: 2026-11-16T12:36:50.612939+00:00
 ---
 
 # PUT /telephony/config/voicemail/settings
 
 **API:** Webex Cloud Calling
 **Área:** Calling Service Settings
-**operationId:** `Update Voicemail Settings`
+**operationId:** `updateVoicemailSettings`
 
 ## Resumen
 Update Voicemail Settings

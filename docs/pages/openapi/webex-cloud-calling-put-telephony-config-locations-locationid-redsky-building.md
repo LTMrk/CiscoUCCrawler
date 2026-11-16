@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/redSky/building
-operation_id: Update a RedSky Building Address for a Location
+operation_id: updateARedSkyBuildingAddressForALocation
 tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.035319+00:00
+retrieved_at: 2026-11-16T12:36:50.650494+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/redSky/building
 
 **API:** Webex Cloud Calling
 **Área:** Emergency Services Settings
-**operationId:** `Update a RedSky Building Address for a Location`
+**operationId:** `updateARedSkyBuildingAddressForALocation`
 
 ## Resumen
 Update a RedSky Building Address for a Location
@@ -34,13 +34,7 @@ Updating a building address requires a full administrator auth token with a scop
 - `orgId` [query] (string): The organization in which the location exists.
 
 ## Cuerpo de la petición (application/json)
-- `address` (object):
-  - `addressLine1` (string): First line of the building's address.
-  - `addressLine2` (string): Second line of the building's address.
-  - `city` (string): City for the building's address.
-  - `stateOrProvince` (string): State or Province for the building's address.
-  - `zipOrPostalCode` (string): Zip or Postal Code for the building's address.
-  - `country` (string): Country for the building's address.
+- `address` (object): Contains address information for the building.
 
 ### Ejemplo — petición
 ```json

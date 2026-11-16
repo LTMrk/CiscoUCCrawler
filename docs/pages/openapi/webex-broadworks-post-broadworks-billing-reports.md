@@ -5,19 +5,19 @@ api: Webex Broadworks Calling
 api_version: 1.0.0
 method: POST
 path: /broadworks/billing/reports
-operation_id: Create a BroadWorks Billing Report
+operation_id: createABroadWorksBillingReport
 tags: BroadWorks Billing Reports
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.373977+00:00
+retrieved_at: 2026-11-16T12:36:50.250963+00:00
 ---
 
 # POST /broadworks/billing/reports
 
 **API:** Webex Broadworks Calling
 **Área:** BroadWorks Billing Reports
-**operationId:** `Create a BroadWorks Billing Report`
+**operationId:** `createABroadWorksBillingReport`
 
 ## Resumen
 Create a BroadWorks Billing Report

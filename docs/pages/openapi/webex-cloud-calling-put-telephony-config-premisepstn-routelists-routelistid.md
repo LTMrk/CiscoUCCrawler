@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/routeLists/{routeListId}
-operation_id: Modify a Route List
+operation_id: modifyARouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.968681+00:00
+retrieved_at: 2026-11-16T12:36:50.564934+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeLists/{routeListId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify a Route List`
+**operationId:** `modifyARouteList`
 
 ## Resumen
 Modify a Route List

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /people/{personId}
-operation_id: Update a Person
+operation_id: updateAPerson
 tags: People
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.109367+00:00
+retrieved_at: 2026-11-16T12:36:50.762717+00:00
 ---
 
 # PUT /people/{personId}
 
 **API:** Webex Cloud Calling
 **Área:** People
-**operationId:** `Update a Person`
+**operationId:** `updateAPerson`
 
 ## Resumen
 Update a Person

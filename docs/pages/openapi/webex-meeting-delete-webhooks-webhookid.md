@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: DELETE
 path: /webhooks/{webhookId}
-operation_id: Delete a Webhook
+operation_id: deleteAWebhook
 tags: Webhooks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.487145+00:00
+retrieved_at: 2026-11-16T12:36:51.562165+00:00
 ---
 
 # DELETE /webhooks/{webhookId}
 
 **API:** Webex Meetings
 **Área:** Webhooks
-**operationId:** `Delete a Webhook`
+**operationId:** `deleteAWebhook`
 
 ## Resumen
 Delete a Webhook

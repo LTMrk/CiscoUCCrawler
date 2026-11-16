@@ -5,12 +5,12 @@ api: Webex Admin
 api_version: 1.0.0
 method: GET
 path: /workspaceLocations/{locationId}/floors/{floorId}
-operation_id: Get a Workspace Location Floor Details
+operation_id: getAWorkspaceLocationFloorDetails
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.113341+00:00
+retrieved_at: 2026-11-16T12:36:50.171876+00:00
 ---
 
 # GET /workspaceLocations/{locationId}/floors/{floorId}
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:27.113341+00:00
 
 **API:** Webex Admin
 **Área:** Workspace Locations
-**operationId:** `Get a Workspace Location Floor Details`
+**operationId:** `getAWorkspaceLocationFloorDetails`
 
 ## Resumen
 Get a Workspace Location Floor Details

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/callParks/{callParkId}
-operation_id: Update a Call Park
+operation_id: updateACallPark
 tags: Features:  Call Park
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.049348+00:00
+retrieved_at: 2026-11-16T12:36:50.673245+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/callParks/{callParkId}
 
 **API:** Webex Cloud Calling
 **Área:** Features:  Call Park
-**operationId:** `Update a Call Park`
+**operationId:** `updateACallPark`
 
 ## Resumen
 Update a Call Park
@@ -38,9 +38,7 @@ Updating a call park requires a full administrator or location administrator aut
 
 ## Cuerpo de la petición (application/json)
 - `name` (string): Unique name for the call park. The maximum length is 80.
-- `recall` (object):
-  - `huntGroupId` (string): Alternate user which is a hunt group ID for call park recall alternate destination.
-  - `option` (string) (**requerido**): Call park recall options.  * `ALERT_PARKING_USER_ONLY` - Alert parking user only.  * `ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP` - Alert parking user first, then hunt group.  * `ALERT_HUNT_GROUP_ONLY` - Alert hunt group only. Valores: ALERT_PARKING_USER_ONLY, ALERT_PARKING_USER_FIRST_THEN_HUNT_GROUP, ALERT_HUNT_GROUP_ONLY.
+- `recall` (object): Recall options that are added to call park.
 - `agents` (array): Array of ID strings of people, workspaces and virtual lines that are added to call park. The new list of `agents` will replace any existing call park agents list.
 - `parkOnAgentsEnabled` (boolean): Whether or not the calls will be parked on agents as a destination.
 - `callParkExtensions` (array): Array of ID strings of call park extensions assigned to a call park.

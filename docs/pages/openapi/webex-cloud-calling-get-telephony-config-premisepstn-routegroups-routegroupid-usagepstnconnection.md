@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}/usagePstnConnection
-operation_id: Read the PSTN Connection Locations of a Routing Group
+operation_id: readThePSTNConnectionLocationsOfARoutingGroup
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.967552+00:00
+retrieved_at: 2026-11-16T12:36:50.563454+00:00
 ---
 
 # GET /telephony/config/premisePstn/routeGroups/{routeGroupId}/usagePstnConnection
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Read the PSTN Connection Locations of a Routing Group`
+**operationId:** `readThePSTNConnectionLocationsOfARoutingGroup`
 
 ## Resumen
 Read the PSTN Connection Locations of a Routing Group

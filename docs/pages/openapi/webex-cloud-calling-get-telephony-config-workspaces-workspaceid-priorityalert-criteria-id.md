@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/workspaces/{workspaceId}/priorityAlert/criteria/{id}
-operation_id: Retrieve Priority Alert Criteria for a Workspace
+operation_id: retrievePriorityAlertCriteriaForAWorkspace
 tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.205495+00:00
+retrieved_at: 2026-11-16T12:36:50.868411+00:00
 ---
 
 # GET /telephony/config/workspaces/{workspaceId}/priorityAlert/criteria/{id}
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (2/2)
-**operationId:** `Retrieve Priority Alert Criteria for a Workspace`
+**operationId:** `retrievePriorityAlertCriteriaForAWorkspace`
 
 ## Resumen
 Retrieve Priority Alert Criteria for a Workspace
@@ -44,23 +44,24 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/priorityAlert/criteria/<
 ```
 
 ## Respuestas correctas
-**200**: OK
+**200**: Priority Alert Criteria Settings retrieved for the workspace.
 - `id` (string) (**requerido**): Unique identifier for criteria.
-- `scheduleName` (string): Name of the location's schedule which determines when the priority alert is in effect.
-- `scheduleType` (string): * `businessHours` - The Schedule type that specifies the business or working hours during the day.  * `holidays` - The Schedule type that specifies the day when your organization is not open. Valores: businessHours, holidays.
-- `scheduleLevel` (string): * `GROUP` - Indicates the schedule level that specifies that criteria is of Group level. Valores: GROUP.
-- `callsFrom` (string) (**requerido**): * `ANY_PHONE_NUMBER` - The Schedule applies to any phone number.  * `SELECT_PHONE_NUMBERS` - Indicates the schedule applies to select phone number defined in the `phoneNumbers` property. Valores: ANY_PHONE_NUMBER, SELECT_PHONE_NUMBERS.
-- `anonymousCallersEnabled` (boolean): When `true`, enables calls from anonymous callers.
-- `unavailableCallersEnabled` (boolean): When `true`, enables calls even if callers are unavailable.
-- `phoneNumbers` (array): the list of phone numbers that will checked against incoming calls for a match.
-- `notificationEnabled` (boolean): When set to `true` priority alerting criteria is enabled for calls that meet the current criteria. Criteria with `notificationEnabled` set to `false` take priority.
+- `scheduleName` (string): Name of the schedule which determines when the priority alert is in effect.
+- `scheduleType` (object): The Schedule type whether `businessHours` or `holidays`.
+- `scheduleLevel` (object): The Schedule level.
+- `callsFrom` (object) (**requerido**): Indicates whether to apply priority alert for calls from Any Phone Number or Select Phone Numbers.
+- `anonymousCallersEnabled` (boolean) (**requerido**): When `true`, enables calls from anonymous callers. Only applicable when `callsFrom` is `SELECT_PHONE_NUMBERS`.
+- `unavailableCallersEnabled` (boolean) (**requerido**): When `true`, enables calls even if callers are unavailable. Only applicable when `callsFrom` is `SELECT_PHONE_NUMBERS`.
+- `phoneNumbers` (array): The list of phone numbers that will be checked against incoming calls for a match. Only applicable when `callsFrom` is `SELECT_PHONE_NUMBERS`.
+- `notificationEnabled` (boolean) (**requerido**): Determines whether priority alerting is applied for calls matching this criteria. If `true`, priority alerting is applied. If `false`, this criteria acts as a 'Don't Alert' rule, preventing priority alerting. Criteria with `notificationEnabled` set to `false` (Don't Alert) take precedence over criteria with `notificationEnabled` set to `true` (Alert).
+- `ringPattern` (string): Distinctive ringtone pattern for incoming calls matching this criterion.  * `NORMAL` - Standard ring pattern.  * `LONG_LONG` - Two long rings.  * `SHORT_LONG_SHORT` - Short ring, long ring, short ring.  * `SHORT_SHORT_LONG` - Two short rings followed by a long ring. Valores: NORMAL, LONG_LONG, SHORT_LONG_SHORT, SHORT_SHORT_LONG.
 
 ### Ejemplo — respuesta 200
 ```json
 {
   "id": "Y2lzY29zcGFyazovL3VzL0NSSVRFUklBLzg2NTAxZDFlLTg1MWMtNDgwYi1hZmE2LTA5MTU4NzQ3NzdmZQ",
   "scheduleName": "Business Vacation",
-  "scheduleType": "Holidays",
+  "scheduleType": "holidays",
   "scheduleLevel": "GROUP",
   "callsFrom": "ANY_PHONE_NUMBER",
   "anonymousCallersEnabled": true,
@@ -69,7 +70,8 @@ curl -X GET '/telephony/config/workspaces/<workspaceId>/priorityAlert/criteria/<
     "+19075552859",
     "+19186663950"
   ],
-  "notificationEnabled": true
+  "notificationEnabled": true,
+  "ringPattern": "LONG_LONG"
 }
 ```
 

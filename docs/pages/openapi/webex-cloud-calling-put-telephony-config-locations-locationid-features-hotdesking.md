@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/locations/{locationId}/features/hotDesking
-operation_id: Update Voice Portal Hot desking sign in details for a location
+operation_id: updateVoicePortalHotDeskingSignInDetailsForALocation
 tags: Features: Hot Desking Sign-in via Voice Portal
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.073425+00:00
+retrieved_at: 2026-11-16T12:36:50.707671+00:00
 ---
 
 # PUT /telephony/config/locations/{locationId}/features/hotDesking
 
 **API:** Webex Cloud Calling
 **Área:** Features: Hot Desking Sign-in via Voice Portal
-**operationId:** `Update Voice Portal Hot desking sign in details for a location`
+**operationId:** `updateVoicePortalHotDeskingSignInDetailsForALocation`
 
 ## Resumen
 Update Voice Portal Hot desking sign in details for a location

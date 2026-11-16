@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualLines/{virtualLineId}/bargeIn
-operation_id: Configure Barge in Settings for a Virtual Line
+operation_id: configureBargeInSettingsForAVirtualLine
 tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.182863+00:00
+retrieved_at: 2026-11-16T12:36:50.837409+00:00
 ---
 
 # PUT /telephony/config/virtualLines/{virtualLineId}/bargeIn
 
 **API:** Webex Cloud Calling
 **Área:** Virtual Line Call Settings
-**operationId:** `Configure Barge in Settings for a Virtual Line`
+**operationId:** `configureBargeInSettingsForAVirtualLine`
 
 ## Resumen
 Configure Barge in Settings for a Virtual Line

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/privateNetworkConnect
-operation_id: Get Private Network Connect
+operation_id: getPrivateNetworkConnect
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.089312+00:00
+retrieved_at: 2026-11-16T12:36:50.732136+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/privateNetworkConnect
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Get Private Network Connect`
+**operationId:** `getPrivateNetworkConnect`
 
 ## Resumen
 Get Private Network Connect

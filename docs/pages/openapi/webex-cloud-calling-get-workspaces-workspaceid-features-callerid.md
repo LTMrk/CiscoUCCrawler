@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /workspaces/{workspaceId}/features/callerId
-operation_id: Read Caller ID Settings for a Workspace
+operation_id: readCallerIDSettingsForAWorkspace
 tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.188370+00:00
+retrieved_at: 2026-11-16T12:36:50.845151+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/callerId
 
 **API:** Webex Cloud Calling
 **Área:** Workspace Call Settings (1/2)
-**operationId:** `Read Caller ID Settings for a Workspace`
+**operationId:** `readCallerIDSettingsForAWorkspace`
 
 ## Resumen
 Read Caller ID Settings for a Workspace
@@ -54,8 +54,6 @@ curl -X GET '/workspaces/<workspaceId>/features/callerId' \
 - `customExternalCallerIdName` (string): Custom external caller ID name which is shown if external caller ID name policy is `OTHER`.
 - `locationExternalCallerIdName` (string) (**requerido**): Location's external caller ID name which is shown if external caller ID name policy is `LOCATION`.
 - `directLineCallerIdName` (object): Settings for the direct line caller ID name to be shown for this workspace.
-  - `selection` (string): * `DISPLAY_NAME` - When this option is selected, `displayName` is to be shown for this workspace.  * `CUSTOM_NAME` - When this option is selected, `customName` is to be shown for this workspace. Valores: CUSTOM_NAME, DISPLAY_NAME.
-  - `customName` (string): The custom direct line caller ID name. Required if `selection` is set to `CUSTOM_NAME`.
 - `dialByName` (string): The name to be used for dial by name functions.
 
 ### Ejemplo — respuesta 200

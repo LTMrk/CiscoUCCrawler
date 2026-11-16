@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /webhooks
-operation_id: List Webhooks
+operation_id: listWebhooks
 tags: Webhooks
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.486334+00:00
+retrieved_at: 2026-11-16T12:36:51.561052+00:00
 ---
 
 # GET /webhooks
 
 **API:** Webex Meetings
 **Área:** Webhooks
-**operationId:** `List Webhooks`
+**operationId:** `listWebhooks`
 
 ## Resumen
 List Webhooks

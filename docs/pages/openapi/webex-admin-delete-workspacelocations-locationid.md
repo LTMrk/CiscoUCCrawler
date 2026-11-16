@@ -5,12 +5,12 @@ api: Webex Admin
 api_version: 1.0.0
 method: DELETE
 path: /workspaceLocations/{locationId}
-operation_id: Delete a Workspace Location
+operation_id: deleteAWorkspaceLocation
 tags: Workspace Locations
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.112705+00:00
+retrieved_at: 2026-11-16T12:36:50.171090+00:00
 ---
 
 # DELETE /workspaceLocations/{locationId}
@@ -19,7 +19,7 @@ retrieved_at: 2026-11-09T12:44:27.112705+00:00
 
 **API:** Webex Admin
 **Área:** Workspace Locations
-**operationId:** `Delete a Workspace Location`
+**operationId:** `deleteAWorkspaceLocation`
 
 ## Resumen
 Delete a Workspace Location

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/virtualExtensionRanges/{extensionRangeId}
-operation_id: Modify Virtual Extension Range
+operation_id: modifyVirtualExtensionRange
 tags: Features: Virtual Extensions
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.085258+00:00
+retrieved_at: 2026-11-16T12:36:50.726576+00:00
 ---
 
 # PUT /telephony/config/virtualExtensionRanges/{extensionRangeId}
 
 **API:** Webex Cloud Calling
 **Área:** Features: Virtual Extensions
-**operationId:** `Modify Virtual Extension Range`
+**operationId:** `modifyVirtualExtensionRange`
 
 ## Resumen
 Modify Virtual Extension Range

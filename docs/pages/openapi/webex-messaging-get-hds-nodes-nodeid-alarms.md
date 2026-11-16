@@ -10,7 +10,7 @@ tags: Hybrid Data Security
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.741771+00:00
+retrieved_at: 2026-11-16T12:36:51.658371+00:00
 ---
 
 # GET /hds/nodes/{nodeId}/alarms

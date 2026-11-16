@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
-operation_id: Create Multiple Base Stations
+operation_id: createMultipleBaseStations
 tags: DECT Devices Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.919866+00:00
+retrieved_at: 2026-11-16T12:36:50.519091+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/dectNetworks/{dectNetworkId}/baseStations
 
 **API:** Webex Cloud Calling
 **Área:** DECT Devices Settings
-**operationId:** `Create Multiple Base Stations`
+**operationId:** `createMultipleBaseStations`
 
 ## Resumen
 Create Multiple Base Stations
@@ -59,9 +59,7 @@ curl -X POST '/telephony/config/locations/<locationId>/dectNetworks/<dectNetwork
 **201**: Created
 - `baseStations` (array) (**requerido**): List of base station MAC addresses that have to be added to the DECT network.
   - `mac` (string) (**requerido**): MAC Address added to the base station.
-  - `result` (object) (**requerido**):
-    - `status` (number) (**requerido**): HTTP status code indicating the creation of base station. 201 status code indicates the successful creation of base stations.
-    - `id` (string): Unique identifier of the base station.
+  - `result` (object) (**requerido**): Object with base station POST Result.
 
 ### Ejemplo — respuesta 201
 ```json

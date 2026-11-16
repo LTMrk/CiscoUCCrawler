@@ -5,19 +5,19 @@ api: Webex Messaging
 api_version: 1.0.0
 method: PUT
 path: /room/tabs/{id}
-operation_id: Update a Room Tab
+operation_id: updateARoomTab
 tags: Room Tabs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.747379+00:00
+retrieved_at: 2026-11-16T12:36:51.668240+00:00
 ---
 
 # PUT /room/tabs/{id}
 
 **API:** Webex Messaging
 **Área:** Room Tabs
-**operationId:** `Update a Room Tab`
+**operationId:** `updateARoomTab`
 
 ## Resumen
 Update a Room Tab

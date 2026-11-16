@@ -10,7 +10,7 @@ tags: Call Settings For Me
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.973541+00:00
+retrieved_at: 2026-11-16T12:36:50.571420+00:00
 ---
 
 # PUT /telephony/config/people/me/settings/secondaryLines/{lineownerId}/callerId

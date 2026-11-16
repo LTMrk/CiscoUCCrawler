@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.918742+00:00
+retrieved_at: 2026-11-16T12:36:51.326833+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/devices/settings/hoteling
@@ -32,10 +32,7 @@ Modifying devices for a person requires a full administrator or location adminis
 - `orgId` [query] (string): Organization to which the person belongs.
 
 ## Cuerpo de la petición (application/json)
-- `hoteling` (object) (**requerido**):
-  - `enabled` (boolean) (**requerido**): Enable/Disable hoteling Host. Enabling the device for hoteling means that a guest(end user) can log into this host(workspace device) and use this device  as if it were their own. This is useful when traveling to a remote office but still needing to place/receive calls with their telephone number and access features normally available to them on their office phone.
-  - `limitGuestUse` (boolean): Enable limiting the time a guest can use the device. The time limit is configured via `guestHoursLimit`.
-  - `guestHoursLimit` (number): Time Limit in hours until hoteling is enabled. Mandatory if `limitGuestUse` is enabled.
+- `hoteling` (object) (**requerido**): Modify person Device Hoteling Setting.
 
 ### Ejemplo — petición
 ```json
@@ -53,7 +50,7 @@ Modifying devices for a person requires a full administrator or location adminis
 curl -X PUT '/telephony/config/people/<personId>/devices/settings/hoteling' \
   -H 'Authorization: Bearer <TOKEN>' \
   -H 'Content-Type: application/json' \
-  -d '{"hoteling": {}}'
+  -d '{"hoteling": "<hoteling>"}'
 ```
 
 ## Respuestas correctas

@@ -5,19 +5,19 @@ api: Webex Meetings
 api_version: 1.0.0
 method: GET
 path: /meetings/polls/{pollId}/questions/{questionId}/respondents
-operation_id: List Respondents of a Question
+operation_id: listRespondentsOfAQuestion
 tags: Meeting Polls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:29.443335+00:00
+retrieved_at: 2026-11-16T12:36:51.506029+00:00
 ---
 
 # GET /meetings/polls/{pollId}/questions/{questionId}/respondents
 
 **API:** Webex Meetings
 **Área:** Meeting Polls
-**operationId:** `List Respondents of a Question`
+**operationId:** `listRespondentsOfAQuestion`
 
 ## Resumen
 List Respondents of a Question

@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.924920+00:00
+retrieved_at: 2026-11-16T12:36:51.369812+00:00
 ---
 
 # POST /telephony/config/jobs/devices/rebuildPhones
@@ -79,7 +79,7 @@ curl -X POST '/telephony/config/jobs/devices/rebuildPhones' \
     - `exitCode` (string): Exit Code for a step.
     - `name` (string): Name of different steps the job goes through.
     - `timeElapsed` (string): Time lapsed since the step execution started.
-- `latestExecutionStatus` (string) (**requerido**): * `STARTING` - Indicates the job has started.  * `STARTED` - Indicates the job is in progress.  * `COMPLETED` - Indicates the job has completed.  * `FAILED` - Indicates the job has failed. Valores: STARTING, STARTED, COMPLETED, FAILED.
+- `latestExecutionStatus` (object) (**requerido**): Indicates the most recent status of the job at the time of invocation.
 - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS.
 - `target` (string) (**requerido**): Indicates the target entity, i.e. LOCATION.
 - `locationId` (string): Unique identifier of a location.

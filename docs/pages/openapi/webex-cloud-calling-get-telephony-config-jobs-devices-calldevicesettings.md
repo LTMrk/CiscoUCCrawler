@@ -10,7 +10,7 @@ tags: Device Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.025056+00:00
+retrieved_at: 2026-11-16T12:36:50.636848+00:00
 ---
 
 # GET /telephony/config/jobs/devices/callDeviceSettings
@@ -69,12 +69,7 @@ curl -X GET '/telephony/config/jobs/devices/callDeviceSettings' \
       - `timeElapsed` (string) (**requerido**): Time lapsed in seconds since the job execution started.
   - `latestExecutionStatus` (string) (**requerido**): Most recent status of the job at the time of invocation.  * `STARTING` - Job has started.  * `STARTED` - Job is in progress.  * `COMPLETED` - Job has completed.  * `FAILED` - Job has failed.  * `UNKNOWN` - Job status is unknown.  * `ABANDONED` - Job has been abandoned (manually stopped). Valores: STARTING, STARTED, COMPLETED, FAILED, UNKNOWN, ABANDONED.
   - `latestExecutionExitCode` (string): Most recent exit code of the job at the time of invocation.  * `UNKNOWN` - Job is in progress.  * `COMPLETED` - Job has completed successfully.  * `FAILED` - Job has failed.  * `STOPPED` - Job has been stopped.  * `COMPLETED_WITH_ERRORS` - Job has completed with errors.  * `COMPLETED_WITH_PENDING_ORDERS` - Job has completed with pending number orders. Valores: UNKNOWN, COMPLETED, FAILED, STOPPED, COMPLETED_WITH_ERRORS, COMPLETED_WITH_PENDING_ORDERS.
-  - `counts` (object) (**requerido**):
-    - `totalMoves` (number) (**requerido**): Total number of user moves requested.
-    - `moved` (number) (**requerido**): Total number of user moves completed successfully.
-    - `failed` (number) (**requerido**): Total number of user moves that were completed with failures.
-    - `pending` (number) (**requerido**): Total number of user moves that were pending with number orders.
-    - `skipped` (number) (**requerido**): Total number of user moves that were skipped.
+  - `counts` (object) (**requerido**): Job statistics.
   - `csvFile` (string): Reference ID for the file that holds the errors and impacts.
   - `csvFileExpiryTime` (string): Date and time with seconds, the file expires in UTC format.
   - `fileFormat` (string): Format of the file generated.

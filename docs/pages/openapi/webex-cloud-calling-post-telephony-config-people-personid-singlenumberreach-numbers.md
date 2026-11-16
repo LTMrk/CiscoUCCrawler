@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/people/{personId}/singleNumberReach/numbers
-operation_id: Create Single Number Reach For a Person
+operation_id: createSingleNumberReachForAPerson
 tags: Features: Single Number Reach
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.082094+00:00
+retrieved_at: 2026-11-16T12:36:50.721950+00:00
 ---
 
 # POST /telephony/config/people/{personId}/singleNumberReach/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Features: Single Number Reach
-**operationId:** `Create Single Number Reach For a Person`
+**operationId:** `createSingleNumberReachForAPerson`
 
 ## Resumen
 Create Single Number Reach For a Person

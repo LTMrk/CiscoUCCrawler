@@ -10,7 +10,7 @@ tags: Agents
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.633284+00:00
+retrieved_at: 2026-11-16T12:36:51.182912+00:00
 ---
 
 # GET /v1/agents/activities
@@ -49,7 +49,6 @@ curl -X GET '/v1/agents/activities?from=<from>' \
 ## Respuestas correctas
 **200**: OK
 - `meta` (object) (**requerido**): Response metadata.
-  - `orgId` (string): Organization ID to which resources belong.
 - `data` (array) (**requerido**): List of agent activities retrieved according to query parameters.
   - `active` (boolean) (**requerido**): Active indicates whether the activity is completed (false) or in progress (true).
   - `agentId` (string) (**requerido**): Unique identifier of an agent.

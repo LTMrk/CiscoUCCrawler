@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: PUT
 path: /telephony/config/premisePstn/routeGroups/{routeGroupId}
-operation_id: Modify a Route Group for a Organization
+operation_id: modifyARouteGroupForAOrganization
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.966643+00:00
+retrieved_at: 2026-11-16T12:36:50.562177+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeGroups/{routeGroupId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Modify a Route Group for a Organization`
+**operationId:** `modifyARouteGroupForAOrganization`
 
 ## Resumen
 Modify a Route Group for a Organization

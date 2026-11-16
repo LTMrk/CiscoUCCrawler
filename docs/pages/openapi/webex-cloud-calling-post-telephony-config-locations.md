@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/locations
-operation_id: Enable a Location for Webex Calling
+operation_id: enableALocationForWebexCalling
 tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.086337+00:00
+retrieved_at: 2026-11-16T12:36:50.727956+00:00
 ---
 
 # POST /telephony/config/locations
 
 **API:** Webex Cloud Calling
 **Área:** Location Call Settings
-**operationId:** `Enable a Location for Webex Calling`
+**operationId:** `enableALocationForWebexCalling`
 
 ## Resumen
 Enable a Location for Webex Calling

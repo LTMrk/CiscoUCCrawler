@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}
-operation_id: Delete a specific Translation Pattern for a Location
+operation_id: deleteASpecificTranslationPatternForALocation
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.971000+00:00
+retrieved_at: 2026-11-16T12:36:50.567967+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/callRouting/translationPatterns/{translationId}
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Delete a specific Translation Pattern for a Location`
+**operationId:** `deleteASpecificTranslationPatternForALocation`
 
 ## Resumen
 Delete a specific Translation Pattern for a Location

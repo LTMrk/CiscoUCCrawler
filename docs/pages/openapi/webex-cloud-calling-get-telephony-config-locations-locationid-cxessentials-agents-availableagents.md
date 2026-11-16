@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: GET
 path: /telephony/config/locations/{locationId}/cxEssentials/agents/availableAgents
-operation_id: List Available Agents
+operation_id: listAvailableAgents
 tags: Features: Customer Assist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.071879+00:00
+retrieved_at: 2026-11-16T12:36:50.705610+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/cxEssentials/agents/availableAgents
 
 **API:** Webex Cloud Calling
 **Área:** Features: Customer Assist
-**operationId:** `List Available Agents`
+**operationId:** `listAvailableAgents`
 
 ## Resumen
 List Available Agents
@@ -45,7 +45,7 @@ curl -X GET '/telephony/config/locations/<locationId>/cxEssentials/agents/availa
   - `lastName` (string): Last name of the agent assigned to the particular location.
   - `firstName` (string): First name of the agent assigned to the particular location.
   - `displayName` (string): Display name of the agent.
-  - `type` (string) (**requerido**): * `PEOPLE` - The associated member is a person.  * `PLACE` - The associated member is a workspace.  * `VIRTUAL_LINE` - The associated member is a virtual line. Valores: PEOPLE, PLACE, VIRTUAL_LINE.
+  - `type` (object) (**requerido**): Type of the person, workspace or virtual line.
   - `email` (string): Email of the agent.
   - `hasCxEssentials` (boolean): Denotes whether the agent has Customer Assist license.
   - `phoneNumbers` (object): Phone number and extension of the agent.

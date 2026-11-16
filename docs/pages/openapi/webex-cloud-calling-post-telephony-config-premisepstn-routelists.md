@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: POST
 path: /telephony/config/premisePstn/routeLists
-operation_id: Create a Route List
+operation_id: createARouteList
 tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:27.968109+00:00
+retrieved_at: 2026-11-16T12:36:50.564226+00:00
 ---
 
 # POST /telephony/config/premisePstn/routeLists
 
 **API:** Webex Cloud Calling
 **Área:** Call Routing
-**operationId:** `Create a Route List`
+**operationId:** `createARouteList`
 
 ## Resumen
 Create a Route List

@@ -5,19 +5,19 @@ api: Webex Cloud Calling
 api_version: 1.0.0
 method: DELETE
 path: /telephony/config/locations/{locationId}/numbers
-operation_id: Remove phone numbers from a location
+operation_id: removePhoneNumbersFromALocation
 tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-09T12:44:28.105445+00:00
+retrieved_at: 2026-11-16T12:36:50.754771+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/numbers
 
 **API:** Webex Cloud Calling
 **Área:** Numbers
-**operationId:** `Remove phone numbers from a location`
+**operationId:** `removePhoneNumbersFromALocation`
 
 ## Resumen
 Remove Phone Numbers from a Location
