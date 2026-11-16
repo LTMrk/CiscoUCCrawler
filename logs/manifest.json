@@ -17400,6 +17400,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-213951-jabber-for-mac-quick-start-guide-epub-759b750e21",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:38.901201+00:00",
+      "last_seen": "2026-11-16T13:38:38.901214+00:00",
+      "next_check": "2026-11-17T13:38:38.901218+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.html": {
       "content_sha": "552f2d5e941cd5e5f6f5985bed9aa56cc637b902a520fc682f6d907c2ad0ba2c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-213951-jabber-for-mac-quick-start-guide-html-c0f769df93",
@@ -17411,6 +17421,26 @@
       "last_seen": "2026-09-28T06:14:47.646121+00:00",
       "next_check": "2026-09-29T06:14:47.646121+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-mac/213951-jabber-for-mac-quick-start-guide.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-mac-213951-jabber-for-mac-quick-start-guide-mobi-021e989687",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:42.935810+00:00",
+      "last_seen": "2026-11-16T13:38:42.935822+00:00",
+      "next_check": "2026-11-17T13:38:42.935825+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-software-development-kit-217613-troubleshoot-jabber-12--8dd9a23a1e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:47.150165+00:00",
+      "last_seen": "2026-11-16T13:38:47.150177+00:00",
+      "next_check": "2026-11-17T13:38:47.150181+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.html": {
@@ -17426,6 +17456,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-software-development-kit/217613-troubleshoot-jabber-12-9-and-14-unable-t.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-software-development-kit-217613-troubleshoot-jabber-12--33a4ae863e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:51.264792+00:00",
+      "last_seen": "2026-11-16T13:38:51.264802+00:00",
+      "next_check": "2026-11-17T13:38:51.264805+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116433-probsol-jabber-00-epub-8c590a6cc5",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:55.726861+00:00",
+      "last_seen": "2026-11-16T13:38:55.726873+00:00",
+      "next_check": "2026-11-17T13:38:55.726875+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.html": {
       "content_sha": "e71d30983f0cb1bb29d5df9134485e7ad24061816e008ca73017246f6e15baa1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116433-probsol-jabber-00-html-db1f79ed22",
@@ -17437,6 +17487,16 @@
       "last_seen": "2026-09-28T06:14:55.722717+00:00",
       "next_check": "2026-09-29T06:14:55.722717+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116433-probsol-jabber-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-116433-probsol-jabber-00-mobi-437b0be83e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:38:59.693432+00:00",
+      "last_seen": "2026-11-16T13:38:59.693445+00:00",
+      "next_check": "2026-11-17T13:38:59.693448+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/116446-technote-product-00.html": {
@@ -17465,6 +17525,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118161-technote-jabber-00-epub-f3e11b71b9",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:39:08.043298+00:00",
+      "last_seen": "2026-11-16T13:39:08.043308+00:00",
+      "next_check": "2026-11-17T13:39:08.043311+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.html": {
       "content_sha": "9e4b43ed37f58f2631a1c8f02db7b6561db3fce7aa685777cc25b3d52702f8f5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118161-technote-jabber-00-html-cb6c154256",
@@ -17476,6 +17546,16 @@
       "last_seen": "2026-09-28T06:15:08.256692+00:00",
       "next_check": "2026-09-29T06:15:08.256692+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118161-technote-jabber-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118161-technote-jabber-00-mobi-4b22a7ae66",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:39:12.080123+00:00",
+      "last_seen": "2026-11-16T13:39:12.080133+00:00",
+      "next_check": "2026-11-17T13:39:12.080135+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html": {
@@ -23489,6 +23569,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-mac-series-html-92d0fda65f",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:38:38.448708+00:00",
+      "last_seen": "2026-11-16T13:38:38.448708+00:00",
+      "next_check": "2026-11-18T13:38:38.448708+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/jabber-mac/tsd-products-support-series-home.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-mac-tsd-products-support-series-home-html-fa22b22a87",
@@ -23512,6 +23602,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-software-development-kit/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-windows-series-html-4b1ca7848a",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:39:07.163699+00:00",
+      "last_seen": "2026-11-16T13:39:07.163699+00:00",
+      "next_check": "2026-11-18T13:39:07.163699+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -184249,5 +184349,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T13:36:50.517153+00:00"
+  "updated_at": "2026-11-16T13:39:12.141353+00:00"
 }
