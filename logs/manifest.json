@@ -16124,6 +16124,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-221042-troubleshoot-cer-backup-failing-wit-9b4b064c7e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:28:48.272242+00:00",
+      "last_seen": "2026-11-16T13:28:48.272254+00:00",
+      "next_check": "2026-11-17T13:28:48.272258+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.html": {
       "content_sha": "45b996c01ab0f1d26e51c0574c93524302adf81ce7d6ebd43183def2a5c8afbc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-221042-troubleshoot-cer-backup-failing-wit-0ff2cf2f93",
@@ -16135,6 +16145,16 @@
       "last_seen": "2026-09-28T05:53:17.742115+00:00",
       "next_check": "2026-09-29T05:53:17.742115+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-221042-troubleshoot-cer-backup-failing-wit-4ed2e9bcd5",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:28:52.441001+00:00",
+      "last_seen": "2026-11-16T13:28:52.441015+00:00",
+      "next_check": "2026-11-17T13:28:52.442289+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway-series/117811-configure-vcs-00.html": {
@@ -16410,6 +16430,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-213863-troubleshoot-most-common-issues-for-busi-epu-9d3533ba7c",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:00.851494+00:00",
+      "last_seen": "2026-11-16T13:29:00.851506+00:00",
+      "next_check": "2026-11-17T13:29:00.851509+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.html": {
       "content_sha": "bffcca3146acfeb4df84ab855c2d66e28f35d4188e5dafbc4c69362caf658d22",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-213863-troubleshoot-most-common-issues-for-busi-htm-93b891d692",
@@ -16422,6 +16452,16 @@
       "next_check": "2026-10-06T05:53:22.162761+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-213863-troubleshoot-most-common-issues-for-busi-mob-bd99081e6f",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:04.878514+00:00",
+      "last_seen": "2026-11-16T13:29:04.878526+00:00",
+      "next_check": "2026-11-17T13:29:04.878530+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213864-configure-business-to-business-audio-and.html": {
       "content_sha": "19f8000c6f527387d1108a553fc06173512c3c14e4894074cc33e17f6c4ec55f",
@@ -16534,6 +16574,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216950-cisco-webex-root-ca-certificate-update-epub-836d9e3ac9",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:09.062497+00:00",
+      "last_seen": "2026-11-16T13:29:09.062511+00:00",
+      "next_check": "2026-11-17T13:29:09.062516+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.html": {
       "content_sha": "5adfa0de9f3379471e8f4a4c6012c0087ba26da871260838fcf7711d130f5772",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216950-cisco-webex-root-ca-certificate-update-html-1d1d4df524",
@@ -16546,6 +16596,16 @@
       "next_check": "2026-10-02T05:53:26.628089+00:00",
       "status": "active",
       "unchanged_runs": 2
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-expressway-216950-cisco-webex-root-ca-certificate-update-mobi-54f7056a57",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:13.208791+00:00",
+      "last_seen": "2026-11-16T13:29:13.208801+00:00",
+      "next_check": "2026-11-17T13:29:13.208805+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/217220-how-to-troubleshoot-partial-registration.html": {
       "content_sha": "727652e19787df886f6733c8177357aafc5ec14d7e522f02b6aff8d1aba3daf3",
@@ -16780,6 +16840,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-119380-config-hcmf-00-epub-6675723ae9",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:21.567693+00:00",
+      "last_seen": "2026-11-16T13:29:21.567708+00:00",
+      "next_check": "2026-11-17T13:29:21.567713+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.html": {
       "content_sha": "e3562bf9bf578dd9ed37740c3bcdf3d094e3a18a0fcde43b12f1dc7f7ab74a03",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-119380-config-hcmf-00-html-e766638e93",
@@ -16791,6 +16861,16 @@
       "last_seen": "2026-09-28T05:53:34.849424+00:00",
       "next_check": "2026-09-29T05:53:34.849424+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-hosted-collaboration-solution-hcs-119380-config-hcmf-00-mobi-5b5b018a16",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T13:29:25.801797+00:00",
+      "last_seen": "2026-11-16T13:29:25.801810+00:00",
+      "next_check": "2026-11-17T13:29:25.801815+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.html": {
@@ -18663,6 +18743,18 @@
       "next_check": "2026-09-28T19:30:24.015323+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200199-CUCM-Certificate-Regeneration-Renewal-Pr.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200199-cucm-certifi-3108a3ded1",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:28:59.854637+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-16T13:28:59.854647+00:00",
+      "next_check": "2026-11-17T13:28:59.854647+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/products-tech-notes-list.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200396-Steps-to-Troubleshoot-Database-Replicati.html": {
       "content_sha": "b1d645b681c7ef7ce7edbed67d3d227a21b42a4abd995a2d1f6db5f65f3f9c38",
@@ -23013,6 +23105,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-contact-center/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-hosted-collaboration-solution-hcs-series-html-602ae11c1b",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T13:29:20.656074+00:00",
+      "last_seen": "2026-11-16T13:29:20.656074+00:00",
+      "next_check": "2026-11-18T13:29:20.656074+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/tsd-products-support-series-home.html": {
       "content_sha": null,
@@ -183848,5 +183950,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:51:14.957115+00:00"
+  "updated_at": "2026-11-16T13:29:25.870128+00:00"
 }

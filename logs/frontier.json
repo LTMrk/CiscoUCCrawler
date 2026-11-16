@@ -1,45 +1,5 @@
 [
   {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200199-CUCM-Certificate-Regeneration-Renewal-Pr.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/213863-troubleshoot-most-common-issues-for-busi.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/expressway/216950-cisco-webex-root-ca-certificate-update.mobi",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/series.html",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.epub",
-    "depth": 1
-  },
-  {
-    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.mobi",
-    "depth": 1
-  },
-  {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.epub",
     "depth": 1
   },
@@ -10113,6 +10073,70 @@
   },
   {
     "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/spark-flex-plan/series.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/222630-configure-deployment-mode-from-hcs-to-en.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/unified-communications/hosted-collaboration-solution-hcs/products-security-advisories-list.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/14_0/HCS_Solution/Documentation_Guide/cisco_hcs_14_0_documentation_guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Documentation_Guide/Cisco_HCS_12_5_Documentation_Guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/hcs/12_5/HCS_Solution/Operation_Guide/chcs_b_hcs-smart-licensing-operational-guide.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-125/214796-hcm-f-smartlicense-integration-walkthrou.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119377-config-hcmf-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/119380-config-hcmf-00.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200122-How-to-set-Calling-Line-ID-Presentation.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-1061/212358-cisco-unified-communication-domain-manag.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200121-Cisco-Unified-Comunication-Domain-Manage.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/212706-troubleshoot-noncisco-device-shown-on-pc.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-version-115/214607-hcm-f-gui-is-unavailable-post-upgrade.html",
+    "depth": 2
+  },
+  {
+    "url": "https://www.cisco.com/c/en/us/support/docs/unified-communications/hosted-collaboration-solution-hcs/200375-Cisco-Unified-CDM-Model-that-Supports-Ma.html",
+    "depth": 2
+  },
+  {
+    "url": "https://community.cisco.com/t5/secure-access-announcements/generative-ai-content-category/ta-p/5257734",
     "depth": 2
   }
 ]
