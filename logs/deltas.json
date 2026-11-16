@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-16T12:48:55.496022+00:00",
+  "run_at": "2026-11-16T12:51:15.120909+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
@@ -7,7 +7,7 @@
   "blocked": [],
   "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/CUCM_BK_CF3D71B4_00_cucm_virtual_servers/CUCM_BK_CF3D71B4_00_cucm_virtual_servers_chapter_010.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-communications-manager-callmanager/series.html"
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1/english/administration/guide/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151_appendix_01101.html -> https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html"
   ],
   "semillas_encoladas": 0
 }

@@ -15940,6 +15940,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/223082-uc-on-ucs-hardware-replacement-for.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-223082-uc-on-ucs-hardware-replacement-fo-07396b4f84",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:34.106884+00:00",
+      "last_seen": "2026-11-16T12:50:34.106896+00:00",
+      "next_check": "2026-11-17T12:50:34.106900+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-226035-install-and-configure-nfvis-for-u-6018adcf04",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:38.011237+00:00",
+      "last_seen": "2026-11-16T12:50:38.011251+00:00",
+      "next_check": "2026-11-17T12:50:38.011255+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.html": {
       "content_sha": "252fd9b77f694b83710a77ea59cfbea4c0ef9bd0270ecc9428c7345dc1d0b44a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-226035-install-and-configure-nfvis-for-u-91f5995057",
@@ -15951,6 +15971,16 @@
       "last_seen": "2026-09-28T05:52:56.374746+00:00",
       "next_check": "2026-09-29T05:52:56.374746+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000/226035-install-and-configure-nfvis-for-uc.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-226035-install-and-configure-nfvis-for-u-cdb8f1fa62",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:42.015761+00:00",
+      "last_seen": "2026-11-16T12:50:42.015773+00:00",
+      "next_check": "2026-11-17T12:50:42.015777+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/collaboration-systems-release/217288-how-to-build-a-linux-server-and-untar-th.html": {
@@ -15992,6 +16022,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200473-Configure-and-Troubleshoot-CER-Onsite-Al.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-200473-configure-and-troubleshoot-cer-onsi-6485e92314",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:46.268530+00:00",
+      "last_seen": "2026-11-16T12:50:46.268541+00:00",
+      "next_check": "2026-11-17T12:50:46.268544+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/200786-How-to-Collect-Logs-for-CER.html": {
       "content_sha": "12eabbe9af1bd0ae462cf2ae737c0f34fc0e1077e32f2d0313dbd34db7942e0d",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-200786-how-to-collect-logs-for-cer-html-9468dc7201",
@@ -16018,6 +16058,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-211609-how-to-reset-cisco-emergency-respon-0eec457098",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:54.808188+00:00",
+      "last_seen": "2026-11-16T12:50:54.808201+00:00",
+      "next_check": "2026-11-17T12:50:54.808207+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.html": {
       "content_sha": "6e9d7e932bf5a701ffd0ae909cb2071601739f08ac97ede48840672687b7909a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-211609-how-to-reset-cisco-emergency-respon-d5b0ec55a5",
@@ -16031,6 +16081,26 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/211609-How-to-Reset-Cisco-Emergency-Responder-D.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-211609-how-to-reset-cisco-emergency-respon-4847eaf400",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:50:59.077967+00:00",
+      "last_seen": "2026-11-16T12:50:59.077978+00:00",
+      "next_check": "2026-11-17T12:50:59.077982+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-216178-configure-and-troubleshoot-snmpv3-f-7b2dcca48f",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:51:03.605255+00:00",
+      "last_seen": "2026-11-16T12:51:03.605265+00:00",
+      "next_check": "2026-11-17T12:51:03.605269+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.html": {
       "content_sha": "045236a336ec2c7ca5ba68c6ce9c69d79ad66ffb4596d05bc96fe6002152b0dc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-216178-configure-and-troubleshoot-snmpv3-f-6dcc269930",
@@ -16043,6 +16113,16 @@
       "next_check": "2026-10-14T05:53:13.300931+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/216178-configure-and-troubleshoot-snmpv3-for-ce.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-emergency-responder-216178-configure-and-troubleshoot-snmpv3-f-33718cbab6",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:51:07.563094+00:00",
+      "last_seen": "2026-11-16T12:51:07.563106+00:00",
+      "next_check": "2026-11-17T12:51:07.563109+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/emergency-responder/221042-troubleshoot-cer-backup-failing-with-err.html": {
       "content_sha": "45b996c01ab0f1d26e51c0574c93524302adf81ce7d6ebd43183def2a5c8afbc",
@@ -22745,6 +22825,16 @@
       "first_seen": "2026-09-27T11:28:21.349084+00:00",
       "last_seen": "2026-09-27T11:28:21.349084+00:00",
       "next_check": "2026-09-29T11:28:21.349084+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-emergency-responder-series-html-6b5374efaa",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:50:54.186035+00:00",
+      "last_seen": "2026-11-16T12:50:54.186035+00:00",
+      "next_check": "2026-11-18T12:50:54.186035+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -29937,6 +30027,18 @@
       "http_status": 301,
       "last_seen": "2026-09-01T14:59:58.940422+00:00",
       "next_check": "2026-09-02T14:59:58.940422+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cer/11_5_1/english/administration/guide/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151/CER_BK_R00ED2C0_00_cisco-emergency-responder-administration-guide-1151_appendix_01101.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cer-11-5-1-english-administration-guide-cer-bk-r00ed2c0-00-cisco-emergency-r-fc950f6e9e",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:51:14.888919+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-16T12:51:14.888928+00:00",
+      "next_check": "2026-11-17T12:51:14.888928+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/emergency-responder/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -183746,5 +183848,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:48:55.335460+00:00"
+  "updated_at": "2026-11-16T12:51:14.957115+00:00"
 }
