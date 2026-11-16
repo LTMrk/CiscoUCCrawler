@@ -1,13 +1,13 @@
 {
-  "run_at": "2026-11-16T12:44:04.829916+00:00",
+  "run_at": "2026-11-16T12:46:23.960526+00:00",
   "modo": "incremental",
-  "added": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-broadworks-releases-24-documentation-guide-cisco-broadworks-documentation-gu-ba8d49fb5e"
-  ],
+  "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/Solution_Guide/wbxbw_b_solution-guide/wbxbw_b_SolutionGuide-PDF_chapter_00.html -> https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide"
+  ],
   "semillas_encoladas": 0
 }

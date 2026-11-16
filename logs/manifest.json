@@ -15598,6 +15598,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/221674-update-trusts-for-cti-interface-in-webex.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-221674-update-trusts-for-cti-interface-in-webex-mob-d1471eadb1",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:45:45.796020+00:00",
+      "last_seen": "2026-11-16T12:45:45.796052+00:00",
+      "next_check": "2026-11-17T12:45:45.796055+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/223134-configure-the-bw-as-to-proxy-unknown.html": {
       "content_sha": "e130af90535843ca032d389da996ca6897a3112d7657c1d966f3ffc45cd02711",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-223134-configure-the-bw-as-to-proxy-unknown-html-7c930d66d3",
@@ -15609,6 +15619,16 @@
       "last_seen": "2026-09-28T05:52:05.411447+00:00",
       "next_check": "2026-09-29T05:52:05.411447+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225067-upgrade-broadworks-adp-server-with-epub-50d0076d8f",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:45:50.080971+00:00",
+      "last_seen": "2026-11-16T12:45:50.080985+00:00",
+      "next_check": "2026-11-17T12:45:50.080988+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.html": {
@@ -15624,6 +15644,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225067-upgrade-broadworks-adp-server-with.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225067-upgrade-broadworks-adp-server-with-mobi-06daf149a2",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:45:54.322542+00:00",
+      "last_seen": "2026-11-16T12:45:54.322553+00:00",
+      "next_check": "2026-11-17T12:45:54.322555+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225144-decommission-a-broadworks-database-epub-91ff366d2e",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:45:59.013341+00:00",
+      "last_seen": "2026-11-16T12:45:59.013355+00:00",
+      "next_check": "2026-11-17T12:45:59.013359+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.html": {
       "content_sha": "eef5469be85acca7af5f2d3188acfb3701ca14d376df3de11410e21cd3512d0e",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225144-decommission-a-broadworks-database-html-b1162ae9b8",
@@ -15635,6 +15675,16 @@
       "last_seen": "2026-09-28T05:52:13.727485+00:00",
       "next_check": "2026-09-29T05:52:13.727485+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225144-decommission-a-broadworks-database.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-225144-decommission-a-broadworks-database-mobi-169dd11938",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:46:02.734943+00:00",
+      "last_seen": "2026-11-16T12:46:02.734955+00:00",
+      "next_check": "2026-11-17T12:46:02.734957+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/225514-upgrade-from-broadworks-release-24-0.html": {
@@ -15663,6 +15713,16 @@
       "status": "active",
       "unchanged_runs": 1
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-226236-guide-for-upgrading-from-broadworks-epub-8f5afc42a0",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:46:11.291113+00:00",
+      "last_seen": "2026-11-16T12:46:11.291128+00:00",
+      "next_check": "2026-11-17T12:46:11.291131+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.html": {
       "content_sha": "b2551ef43cb448c8223577abdc41c08d41c08dff45ac2c70c73793b5ba9f7c19",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-226236-guide-for-upgrading-from-broadworks-html-13b35d133d",
@@ -15674,6 +15734,16 @@
       "last_seen": "2026-09-28T05:52:26.227862+00:00",
       "next_check": "2026-09-29T05:52:26.227862+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/broadworks/226236-guide-for-upgrading-from-broadworks.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-broadworks-226236-guide-for-upgrading-from-broadworks-mobi-3dde0ac4b9",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:46:15.418406+00:00",
+      "last_seen": "2026-11-16T12:46:15.418419+00:00",
+      "next_check": "2026-11-17T12:46:15.418422+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/bulk-administration-tool/118882-config-vg-00.html": {
@@ -15702,6 +15772,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-ca86435d50",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:46:19.871484+00:00",
+      "last_seen": "2026-11-16T12:46:19.871503+00:00",
+      "next_check": "2026-11-17T12:46:19.871506+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.html": {
       "content_sha": "9f630febe20381a23b6ade99eef3f3e690a34b027a45a311666bf50d7bb2e691",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-f31fd541fd",
@@ -15713,6 +15793,16 @@
       "last_seen": "2026-09-28T05:52:30.405257+00:00",
       "next_check": "2026-09-29T05:52:30.405257+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226131-configure-nfvis-for-uc-ovs.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-business-edition-7000-version-15-226131-configure-nfvis-for-uc-ab4d88b50f",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T12:46:23.784058+00:00",
+      "last_seen": "2026-11-16T12:46:23.784074+00:00",
+      "next_check": "2026-11-17T12:46:23.784076+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/business-edition-7000-version-15/226133-determine-nfvis-for-uc-install-volume.html": {
@@ -35503,6 +35593,18 @@
       "http_status": 301,
       "last_seen": "2026-08-25T14:14:08.232215+00:00",
       "next_check": "2026-08-26T14:14:08.232215+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/wx4bwks/Solution_Guide/wbxbw_b_solution-guide/wbxbw_b_SolutionGuide-PDF_chapter_00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-wx4bwks-solution-guide-wbxbw-b-solution-guide-wbxbw-b-sol-4c5b79b0a9",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T12:46:11.137381+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-16T12:46:11.137393+00:00",
+      "next_check": "2026-11-17T12:46:11.137393+00:00",
       "redirect_to": "https://help.webex.com/en-us/article/no4dlj3/Webex-for-Cisco-BroadWorks-Solution-Guide",
       "status": "redirect",
       "unchanged_runs": 0
@@ -183542,5 +183644,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T12:44:04.619035+00:00"
+  "updated_at": "2026-11-16T12:46:23.844420+00:00"
 }
