@@ -10,7 +10,7 @@ tags: Features:  Call Queue
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.687143+00:00
+retrieved_at: 2026-11-16T14:22:47.302341+00:00
 ---
 
 # DELETE /telephony/config/supervisors

@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.562177+00:00
+retrieved_at: 2026-11-16T14:22:47.216010+00:00
 ---
 
 # PUT /telephony/config/premisePstn/routeGroups/{routeGroupId}

@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.786355+00:00
+retrieved_at: 2026-11-16T14:22:47.339431+00:00
 ---
 
 # POST /people/{personId}/features/voicemail/actions/resetPin/invoke

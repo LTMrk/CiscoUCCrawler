@@ -10,7 +10,7 @@ tags: AI Receptionist for Webex Calling, AI Receptionist
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.524287+00:00
+retrieved_at: 2026-11-16T14:22:47.203078+00:00
 ---
 
 # GET /telephony/config/aiReceptionists
@@ -36,6 +36,7 @@ This API requires a full or read-only administrator auth token with a scope of `
 - `locationId` [query] (string): Location identifier. If not specified, returns AI receptionists from all locations.
 - `name` [query] (string): Search AI receptionists by name (contains match).
 - `phoneNumber` [query] (string): Search (Contains) based on number or extension. Search cannot be performed based on esn.
+- `agentId` [query] (string): Filter AI receptionists by agent identifier.
 
 ## Ejemplo de invocación
 ```bash
@@ -52,6 +53,7 @@ curl -X GET '/telephony/config/aiReceptionists' \
   - `extension` (string): Extension of the AI Receptionist.
   - `routingPrefix` (string): Routing prefix of location.
   - `esn` (string): Routing prefix + extension of the AI Receptionist. If the location has no routing prefix, this will only be the extension. If the AI Receptionist has no extension, this field will not be present.
+  - `agentId` (string): Unique identifier for the AI agent associated with this AI receptionist.
   - `location` (object) (**requerido**): Location of the AI Receptionist.
 
 ### Ejemplo — respuesta 200
@@ -65,6 +67,7 @@ curl -X GET '/telephony/config/aiReceptionists' \
       "extension": "42182",
       "routingPrefix": "1234",
       "esn": "123442182",
+      "agentId": "Y2lzY29zcGFyazovL3VzL0FJX0FHRU5ULzY4ZWFlMjI0NDc0NmJkMmUyMmJkZjY4Ng",
       "location": {
         "id": "Y2lzY29zcGFyazovL3VzL0xPQ0FUSU9OLzgyMjI4MWVkLWUyMmItMTYxNi1hOTYyLTExYTY2OTExYTY2OQ",
         "name": "San Jose"

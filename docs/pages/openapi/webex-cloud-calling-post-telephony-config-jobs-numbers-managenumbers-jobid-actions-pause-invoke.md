@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.757042+00:00
+retrieved_at: 2026-11-16T14:22:47.328288+00:00
 ---
 
 # POST /telephony/config/jobs/numbers/manageNumbers/{jobId}/actions/pause/invoke

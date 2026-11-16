@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.661880+00:00
+retrieved_at: 2026-11-16T14:22:47.292969+00:00
 ---
 
 # POST /telephony/config/textToSpeech/actions/generate/invoke

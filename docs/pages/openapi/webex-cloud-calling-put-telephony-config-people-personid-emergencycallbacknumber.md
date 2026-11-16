@@ -10,7 +10,7 @@ tags: Emergency Services Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.652396+00:00
+retrieved_at: 2026-11-16T14:22:47.289251+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/emergencyCallbackNumber

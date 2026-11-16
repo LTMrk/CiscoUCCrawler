@@ -10,7 +10,7 @@ tags: Export Schedule Usage Jobs
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.655369+00:00
+retrieved_at: 2026-11-16T14:22:47.290474+00:00
 ---
 
 # POST /telephony/config/jobs/schedules/exportUsage/{jobId}/actions/pause/invoke

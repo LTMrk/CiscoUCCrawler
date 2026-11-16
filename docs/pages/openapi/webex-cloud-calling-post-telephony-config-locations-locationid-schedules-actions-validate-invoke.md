@@ -10,7 +10,7 @@ tags: Location Call Settings:  Schedules
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.747497+00:00
+retrieved_at: 2026-11-16T14:22:47.324537+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/schedules/actions/validate/invoke

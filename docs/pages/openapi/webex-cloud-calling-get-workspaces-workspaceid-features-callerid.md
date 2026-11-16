@@ -10,7 +10,7 @@ tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.845151+00:00
+retrieved_at: 2026-11-16T14:22:47.361196+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/callerId

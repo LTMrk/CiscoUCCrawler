@@ -10,7 +10,7 @@ tags: Conference Controls
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.616846+00:00
+retrieved_at: 2026-11-16T14:22:47.275207+00:00
 ---
 
 # POST /telephony/conference/deafen

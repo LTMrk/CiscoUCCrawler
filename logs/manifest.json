@@ -17558,6 +17558,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118750-technote-jabber-00-epub-a2cbf3eb56",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:11.069355+00:00",
+      "last_seen": "2026-11-16T14:23:11.069367+00:00",
+      "next_check": "2026-11-17T14:23:11.069369+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.html": {
       "content_sha": "2ca1d87e9edb7150b32dc8e071c312c18537001a071314de349b0c352438b2d5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118750-technote-jabber-00-html-160d121d9f",
@@ -17569,6 +17579,16 @@
       "last_seen": "2026-09-28T06:15:12.442697+00:00",
       "next_check": "2026-09-29T06:15:12.442697+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118750-technote-jabber-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-118750-technote-jabber-00-mobi-b1bcd94d5a",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:15.442312+00:00",
+      "last_seen": "2026-11-16T14:23:15.442326+00:00",
+      "next_check": "2026-11-17T14:23:15.442329+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/118773-configure-kerberos-00.html": {
@@ -17623,6 +17643,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200120-troubleshoot-call-decline-issues-in-jabb-ed101f793c",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:19.391659+00:00",
+      "last_seen": "2026-11-16T14:23:19.391669+00:00",
+      "next_check": "2026-11-17T14:23:19.391671+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.html": {
       "content_sha": "8838c2dc29ab2061ce7e46e3ab280887cfa1cb0ba8168c1dfe160e838b6e28f4",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200120-troubleshoot-call-decline-issues-in-jabb-bedae0ca2a",
@@ -17634,6 +17664,26 @@
       "last_seen": "2026-09-28T06:15:20.777172+00:00",
       "next_check": "2026-09-29T06:15:20.777172+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200120-Troubleshoot-Call-Decline-Issues-in-Jabb.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200120-troubleshoot-call-decline-issues-in-jabb-a4d69721c0",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:23.863889+00:00",
+      "last_seen": "2026-11-16T14:23:23.863900+00:00",
+      "next_check": "2026-11-17T14:23:23.863902+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200539-configuration-of-enterprise-group-via-ed-7679ddda30",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:28.206783+00:00",
+      "last_seen": "2026-11-16T14:23:28.206792+00:00",
+      "next_check": "2026-11-17T14:23:28.206794+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.html": {
@@ -17649,6 +17699,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200539-Configuration-of-Enterprise-Group-via-ED.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200539-configuration-of-enterprise-group-via-ed-e9c916a111",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:32.430236+00:00",
+      "last_seen": "2026-11-16T14:23:32.430251+00:00",
+      "next_check": "2026-11-17T14:23:32.430254+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/200637-Avoid-Jabber-Authentication-with-the-Web.html": {
       "content_sha": "2319de3758e2f83f8982a089375dfa17b7622a2acc8a1092988f690c29e5e82a",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-200637-avoid-jabber-authentication-with-the-web-c096292d45",
@@ -17660,6 +17720,16 @@
       "last_seen": "2026-09-28T06:15:28.867951+00:00",
       "next_check": "2026-09-29T06:15:28.867951+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-201016-technote-on-customization-of-jabber-msi--5b6e194fe8",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:40.823733+00:00",
+      "last_seen": "2026-11-16T14:23:40.823745+00:00",
+      "next_check": "2026-11-17T14:23:40.823747+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.html": {
@@ -17675,6 +17745,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/201016-TechNote-on-Customization-of-Jabber-MSI.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-201016-technote-on-customization-of-jabber-msi--c73fbf5853",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:45.014596+00:00",
+      "last_seen": "2026-11-16T14:23:45.014609+00:00",
+      "next_check": "2026-11-17T14:23:45.014612+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212176-How-to-collect-an-Audio-Capture-Dump-wit.html": {
       "content_sha": "e8e54fc8c0a9e15dd8231b4f9dbc9c93bbe65c71c84aef08e5e95094764644b7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212176-how-to-collect-an-audio-capture-dump-wit-5097ecb6dc",
@@ -17687,6 +17767,16 @@
       "next_check": "2026-09-30T21:38:01.363195+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212180-troubleshoot-jabber-for-windows-auto-upd-7299267690",
+      "fail_count": 1,
+      "first_seen": "2026-11-16T14:23:49.270959+00:00",
+      "last_seen": "2026-11-16T14:23:49.270972+00:00",
+      "next_check": "2026-11-17T14:23:49.270974+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.html": {
       "content_sha": "b3dea5ed03c3388ffa1b01d887323bd7a89c38d1f6d7f2e286c5d55c5a1b6b36",
@@ -23602,6 +23692,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/jabber-software-development-kit/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/products-installation-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-jabber-windows-products-installation-guides-list-html-3daa2eee34",
+      "fail_count": 0,
+      "first_seen": "2026-11-16T14:23:39.763877+00:00",
+      "last_seen": "2026-11-16T14:23:39.763877+00:00",
+      "next_check": "2026-11-18T14:23:39.763877+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/jabber-windows/series.html": {
       "content_sha": null,
@@ -184349,5 +184449,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T13:39:12.141353+00:00"
+  "updated_at": "2026-11-16T14:23:49.318501+00:00"
 }

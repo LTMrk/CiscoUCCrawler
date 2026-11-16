@@ -10,7 +10,7 @@ tags: User Call Settings Members
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.819969+00:00
+retrieved_at: 2026-11-16T14:22:47.351968+00:00
 ---
 
 # POST /telephony/voiceMessages/members/{memberId}/markAsRead

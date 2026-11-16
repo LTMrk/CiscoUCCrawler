@@ -10,7 +10,7 @@ tags: Workspace Call Settings (2/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.851158+00:00
+retrieved_at: 2026-11-16T14:22:47.363696+00:00
 ---
 
 # DELETE /telephony/config/workspaces/{workspaceId}/features/accessCodes/{accessCode}

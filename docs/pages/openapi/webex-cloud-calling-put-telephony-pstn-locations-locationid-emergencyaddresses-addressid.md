@@ -10,7 +10,7 @@ tags: PSTN
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.765950+00:00
+retrieved_at: 2026-11-16T14:22:47.332241+00:00
 ---
 
 # PUT /telephony/pstn/locations/{locationId}/emergencyAddresses/{addressId}

@@ -200,10 +200,10 @@
     "sha": "ab709fcec88f9c0ac4a3299be93256b122a93d32"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-11-16T12:36:50.892865+00:00",
+    "actualizado": "2026-11-16T14:22:47.390045+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "98763f85ab65a80307e42aceeca355b615e8f05f58fb3e5b8efbb70419a69df1",
+    "content_sha": "74c2c950531c8cdaed1228add3f031664125312892a9cede033d1bccbc0988fc",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -1455,7 +1455,7 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "4ea52830f597c835d3857c79af5d62c3aec9e0ca"
+    "sha": "f9468836fa52dcf0b2891b0aa0f8a8e5d9d32e36"
   },
   "webex-contact-center.json": {
     "actualizado": "2026-11-16T12:36:51.228703+00:00",

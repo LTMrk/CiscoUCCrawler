@@ -10,7 +10,7 @@ tags: Features:  Auto Attendant
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:50.669897+00:00
+retrieved_at: 2026-11-16T14:22:47.295534+00:00
 ---
 
 # GET /telephony/config/locations/{locationId}/autoAttendants/{autoAttendantId}/voicemail
