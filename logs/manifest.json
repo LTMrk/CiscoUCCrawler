@@ -21693,6 +21693,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-217304-trou-21e2d7f148",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:47:52.727680+00:00",
+      "last_seen": "2026-11-23T14:47:52.727691+00:00",
+      "next_check": "2026-11-24T14:47:52.727694+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217514-troubleshoot-im-p-services-displayed-as.html": {
       "content_sha": "155b55c952cdb37459c67d3e7065c5709fef5d689d840d4fafe7ded6ca4701dc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-217514-trou-16424133db",
@@ -21796,6 +21806,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-789d853945",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:47:56.472541+00:00",
+      "last_seen": "2026-11-23T14:47:56.472557+00:00",
+      "next_check": "2026-11-24T14:47:56.472560+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.html": {
       "content_sha": "0041ce334efe01bc869c69e0eb815613e2d878015a9f0cfa57a4ce5c3e7dc650",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-c45b0d7bb1",
@@ -21807,6 +21827,16 @@
       "last_seen": "2026-09-28T10:48:45.860385+00:00",
       "next_check": "2026-09-29T10:48:45.860385+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-125/215014-troubleshoot-cisco-headset-5xx-series.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-version-125-215014-troubleshoot-34ed722c54",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:00.861240+00:00",
+      "last_seen": "2026-11-23T14:48:00.861252+00:00",
+      "next_check": "2026-11-24T14:48:00.861254+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-version-14/222048-set-up-radkit-applied-in-the-collaborati.html": {
@@ -21887,6 +21917,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-16b08fec3e",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:05.117428+00:00",
+      "last_seen": "2026-11-23T14:48:05.117441+00:00",
+      "next_check": "2026-11-24T14:48:05.117444+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.html": {
       "content_sha": "f1b0fe48b02e33c7d34331f1a787174dacf89e9c12b67a03dff6ca29fd031ec7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-39ed9d7188",
@@ -21898,6 +21938,16 @@
       "last_seen": "2026-09-28T10:48:50.134225+00:00",
       "next_check": "2026-09-29T10:48:50.134225+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-system-release-80/220162-configure-customer-voice-portal-cvp-re.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-system-release-80-220162-configure-cust-344f8fb85d",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:09.425855+00:00",
+      "last_seen": "2026-11-23T14:48:09.425866+00:00",
+      "next_check": "2026-11-24T14:48:09.425869+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-survivable-remote-site-telephony/119026-configure-cusm-00.html": {
@@ -22631,6 +22681,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220386-set-up-voicemail-passcode-and-unlock-voi--031bef29db",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:13.680183+00:00",
+      "last_seen": "2026-11-23T14:48:13.680195+00:00",
+      "next_check": "2026-11-24T14:48:13.680197+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.html": {
       "content_sha": "bd170d8dc8f1017647487b57145d6fa7e5768eb49a07c7a5f681fb5bbf0b43c2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220386-set-up-voicemail-passcode-and-unlock-voi--9b25b45a1c",
@@ -22642,6 +22702,16 @@
       "last_seen": "2026-09-28T10:49:02.574662+00:00",
       "next_check": "2026-09-29T10:49:02.574662+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220386-set-up-voicemail-passcode-and-unlock-voi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-calling-220386-set-up-voicemail-passcode-and-unlock-voi--c82ce7a5ca",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:17.799697+00:00",
+      "last_seen": "2026-11-23T14:48:17.799711+00:00",
+      "next_check": "2026-11-24T14:48:17.799714+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-calling/220632-configure-and-dial-international-calling.epub": {
@@ -23145,6 +23215,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218136-troubleshoot-webex-connect-cha-c5e2064184",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:21.870899+00:00",
+      "last_seen": "2026-11-23T14:48:21.870912+00:00",
+      "next_check": "2026-11-24T14:48:21.870916+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.html": {
       "content_sha": "bb4821888df90084edea9a2b4fac7e0e52be34c251f2a6c7135f778167db5684",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218136-troubleshoot-webex-connect-cha-a9c466f974",
@@ -23156,6 +23236,26 @@
       "last_seen": "2026-09-28T10:49:06.722207+00:00",
       "next_check": "2026-09-29T10:49:06.722207+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218136-troubleshoot-webex-connect-cha-7a89c78fab",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:25.975222+00:00",
+      "last_seen": "2026-11-23T14:48:25.975233+00:00",
+      "next_check": "2026-11-24T14:48:25.975235+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218139-configure-webex-connect-email--9c7d8718f2",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:48:30.237834+00:00",
+      "last_seen": "2026-11-23T14:48:30.237848+00:00",
+      "next_check": "2026-11-24T14:48:30.237851+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.html": {
@@ -185403,5 +185503,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:45:55.542342+00:00"
+  "updated_at": "2026-11-23T14:48:30.286019+00:00"
 }
