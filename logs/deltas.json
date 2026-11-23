@@ -1,16 +1,13 @@
 {
-  "run_at": "2026-11-23T14:23:12.346976+00:00",
+  "run_at": "2026-11-23T14:25:51.316086+00:00",
   "modo": "incremental",
   "added": [],
-  "modified": [
-    "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf"
-  ],
+  "modified": [],
   "removed": [],
   "blocked": [],
-  "unchanged_count": 2,
+  "unchanged_count": 0,
   "redirected": [
-    "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/products-programming-reference-guides-list.html -> https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
-    "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/products-installation-and-configuration-guides-list.html -> https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html"
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-105/117827-configure-unifiedpresenceserver-00.html -> https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html"
   ],
-  "semillas_encoladas": 5
+  "semillas_encoladas": 0
 }

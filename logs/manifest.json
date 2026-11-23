@@ -17867,6 +17867,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-217563-enable-jabber-log-in-for-cucm-local-user-bfaa0ceb11",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:13.125365+00:00",
+      "last_seen": "2026-11-23T14:25:13.125376+00:00",
+      "next_check": "2026-11-24T14:25:13.125380+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html": {
       "content_sha": "e5ac2a51d68190eb0c556ea11438b73787f15565c6a1475c0ef9d14ee66962ac",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-217563-enable-jabber-log-in-for-cucm-local-user-61a442f581",
@@ -17878,6 +17888,16 @@
       "last_seen": "2026-09-28T06:15:50.263164+00:00",
       "next_check": "2026-09-29T06:15:50.263164+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-217563-enable-jabber-log-in-for-cucm-local-user-32fe0d9b32",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:16.760878+00:00",
+      "last_seen": "2026-11-23T14:25:16.760894+00:00",
+      "next_check": "2026-11-24T14:25:16.760900+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221643-troubleshoot-pdd-in-webex-calling-with-p.epub": {
@@ -17913,6 +17933,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221644-download-jabber-problem-report-prt-log-e-4467e93a6e",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:21.162456+00:00",
+      "last_seen": "2026-11-23T14:25:21.162466+00:00",
+      "next_check": "2026-11-24T14:25:21.162469+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.html": {
       "content_sha": "03ca22203c2cf638f469b5cea1cc0c754e3e398f22250b776e3823b187b435f7",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221644-download-jabber-problem-report-prt-log-h-9e65ef723e",
@@ -17924,6 +17954,26 @@
       "last_seen": "2026-09-28T06:15:54.441099+00:00",
       "next_check": "2026-09-29T06:15:54.441099+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/221644-download-jabber-problem-report-prt-log.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-221644-download-jabber-problem-report-prt-log-m-d99c47ba94",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:25.463559+00:00",
+      "last_seen": "2026-11-23T14:25:25.463570+00:00",
+      "next_check": "2026-11-24T14:25:25.463573+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-epub-1e1e6d3804",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:29.435811+00:00",
+      "last_seen": "2026-11-23T14:25:29.435825+00:00",
+      "next_check": "2026-11-24T14:25:29.435829+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.html": {
@@ -17939,6 +17989,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/200957-How-to-Collect-Logs-for-UC-Applications.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-200957-how-to-collect-logs-for-uc-applications-mobi-a9a2a63508",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:33.730794+00:00",
+      "last_seen": "2026-11-23T14:25:33.730807+00:00",
+      "next_check": "2026-11-24T14:25:33.730812+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212044-Configure-Charles-Proxy-to-Capture-HTTPS.html": {
       "content_sha": "4876554d1ca369e7c90c6b85638a51479793f3cf0a53829edf82426240f29438",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212044-configure-charles-proxy-to-capture-https-html-8a1bba2ea1",
@@ -17952,6 +18012,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212059-how-to-gather-microsoft-outlook-logs-for-epub-b4e51ffacd",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:42.886588+00:00",
+      "last_seen": "2026-11-23T14:25:42.886602+00:00",
+      "next_check": "2026-11-24T14:25:42.886607+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.html": {
       "content_sha": "b3a126e48f4efdbeeeebfb0dd72ed012cb8e5e0670e9802da8b064f1aa0bc549",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212059-how-to-gather-microsoft-outlook-logs-for-html-d67d13f6b9",
@@ -17963,6 +18033,26 @@
       "last_seen": "2026-09-28T06:16:07.140675+00:00",
       "next_check": "2026-09-29T06:16:07.140675+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212059-How-to-Gather-Microsoft-Outlook-Logs-for.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212059-how-to-gather-microsoft-outlook-logs-for-mobi-b56247de7b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:47.019879+00:00",
+      "last_seen": "2026-11-23T14:25:47.019895+00:00",
+      "next_check": "2026-11-24T14:25:47.019900+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212081-jabber-log-in-failure-due-to-proxy-setti-epub-36c8aa6a04",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:25:51.076816+00:00",
+      "last_seen": "2026-11-23T14:25:51.076828+00:00",
+      "next_check": "2026-11-24T14:25:51.076831+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.html": {
@@ -20698,6 +20788,18 @@
       "next_check": "2026-10-01T13:02:20.095947+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-105/117827-configure-unifiedpresenceserver-00.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-version-105-78d8bf0fcb",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:25:42.502475+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-23T14:25:42.502486+00:00",
+      "next_check": "2026-11-24T14:25:42.502486+00:00",
+      "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-presence/series.html",
+      "status": "redirect",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service-version-14/220329-troubleshoot-im-and-presence-server-with.html": {
       "content_sha": "72c71528f58574bf2ef5c524cf14100654f11fad751f067cdd2b6b91dbd75dcf",
@@ -184499,5 +184601,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:23:12.200194+00:00"
+  "updated_at": "2026-11-23T14:25:51.147048+00:00"
 }

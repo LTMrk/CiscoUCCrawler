@@ -1,18 +1,7 @@
 {
-  "run_at": "2026-11-23T14:21:16.578788+00:00",
-  "added": [
-    "Webex Cloud Calling: GET /telephony/config/people/{personId}/executive",
-    "Webex Cloud Calling: PUT /telephony/config/people/{personId}/executive"
-  ],
-  "removed": [
-    "Webex Cloud Calling: GET /people/{personId}/features/executiveAssistant",
-    "Webex Cloud Calling: PUT /people/{personId}/features/executiveAssistant"
-  ],
-  "deprecated": [
-    "Webex Messaging: GET /rooms/{roomId}/meetingInfo"
-  ],
-  "specs_cambiados": [
-    "webex-cloud-calling.json",
-    "webex-messaging.json"
-  ]
+  "run_at": "2026-11-23T14:24:47.241074+00:00",
+  "added": [],
+  "removed": [],
+  "deprecated": [],
+  "specs_cambiados": []
 }
