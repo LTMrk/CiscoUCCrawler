@@ -1,13 +1,3 @@
-[2026-09-20T07:47:28.716785] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/15/cucm_b_tapi-dev-guide-15.html
-[2026-09-20T07:47:32.739843] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/14_0_1/cucm_b_cisco-unified-jtapi-developers-guide-14.html
-[2026-09-20T07:47:37.089818] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/tapi_dev/14/cucm_b_tapi-dev-guide-14.html
-[2026-09-20T07:47:41.346598] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/jtapi_dev/12_5_1/cucm_b_cisco-unified-jtapi-developers-guide-1251.html
-[2026-09-20T07:48:02.491608] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/uc_system/unified/communications/system/Compatibility/CSR-Compatibility-Matrix-InteractiveHTML.html
-[2026-09-20T07:48:02.491704] Omitida: excluida por robots.txt | https://community.cisco.com/t5/secure-access-announcements/announcing-cisco-secure-access-skills-in-ai-canvas-in-cloud/ta-p/5569455
-[2026-09-20T07:48:02.491758] Omitida: excluida por robots.txt | https://community.cisco.com/t5/networking-knowledge-base/cisco-catalyst-center-expert-insights-series/ta-p/5149125
-[2026-09-20T07:48:02.491808] Omitida: excluida por robots.txt | https://community.cisco.com/t5/secure-access-announcements/announcement-ga-release-of-client-endpoint-diagnostic-tool/ta-p/5565830
-[2026-09-20T07:48:14.596020] Markdown insuficiente tras sanitizar (176 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/APIs_Pages/b_CUC_Draft.html
-[2026-09-20T07:48:18.844221] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUII_API/b_CUII_API.html
 [2026-09-20T07:48:22.992773] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUMI_API/b_CUMI-API.html
 [2026-09-20T07:48:27.124397] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUPI_API_for_End_User/b_CUPI_API_for_End_User.html
 [2026-09-20T07:48:31.218587] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/connection/REST-API/CUTI_API/b_CUTI_API.html
@@ -19998,3 +19988,13 @@
 [2026-11-23T14:48:21.870956] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.epub
 [2026-11-23T14:48:25.975268] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218136-troubleshoot-webex-connect-chat-creation.mobi
 [2026-11-23T14:48:30.237892] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.epub
+[2026-11-23T14:50:14.892335] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.mobi
+[2026-11-23T14:50:18.511742] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.epub
+[2026-11-23T14:50:22.591195] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.mobi
+[2026-11-23T14:50:26.642918] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.epub
+[2026-11-23T14:50:30.853736] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.mobi
+[2026-11-23T14:50:35.123004] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.epub
+[2026-11-23T14:50:39.202530] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.mobi
+[2026-11-23T14:50:43.368150] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.epub
+[2026-11-23T14:50:47.835949] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.mobi
+[2026-11-23T14:50:51.788820] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.epub

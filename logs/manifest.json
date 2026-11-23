@@ -23271,6 +23271,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/218139-configure-webex-connect-email-asset-with.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-218139-configure-webex-connect-email--ed80517b0e",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:14.892267+00:00",
+      "last_seen": "2026-11-23T14:50:14.892281+00:00",
+      "next_check": "2026-11-24T14:50:14.892284+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-220387-configure-hybrid-calendar-serv-5761879e4c",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:18.511661+00:00",
+      "last_seen": "2026-11-23T14:50:18.511679+00:00",
+      "next_check": "2026-11-24T14:50:18.511684+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.html": {
       "content_sha": "1964afd731768545de6369a384d9ad8d25acff1b34a17b31e61cce6078384065",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-220387-configure-hybrid-calendar-serv-5b3d1da5a3",
@@ -23282,6 +23302,16 @@
       "last_seen": "2026-09-28T10:49:15.579591+00:00",
       "next_check": "2026-09-29T10:49:15.579591+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-cloud-connected-uc/220387-configure-hybrid-calendar-service-with-m.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-webex-cloud-connected-uc-220387-configure-hybrid-calendar-serv-23b043b18b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:22.591125+00:00",
+      "last_seen": "2026-11-23T14:50:22.591141+00:00",
+      "next_check": "2026-11-24T14:50:22.591146+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/webex-teams/215414-troubleshooting-webex-teams-call-failure.html": {
@@ -23369,6 +23399,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12164-dialpeer-call-leg-epub-bc58dc67d7",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:26.642852+00:00",
+      "last_seen": "2026-11-23T14:50:26.642866+00:00",
+      "next_check": "2026-11-24T14:50:26.642869+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.html": {
       "content_sha": "8279eddd9a572c091fa9b27d7f33b41f70b7c7ca3730c152d6bb7e7f1024c763",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12164-dialpeer-call-leg-html-4b3ccfed88",
@@ -23380,6 +23420,26 @@
       "last_seen": "2026-09-28T10:49:19.657275+00:00",
       "next_check": "2026-09-29T10:49:19.657275+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12164-dialpeer-call-leg.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12164-dialpeer-call-leg-mobi-f38dcc8140",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:30.853676+00:00",
+      "last_seen": "2026-11-23T14:50:30.853689+00:00",
+      "next_check": "2026-11-24T14:50:30.853692+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-epub-7927725f04",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:35.122933+00:00",
+      "last_seen": "2026-11-23T14:50:35.122947+00:00",
+      "next_check": "2026-11-24T14:50:35.122951+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.html": {
@@ -23395,6 +23455,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12425-in-out-dial-peers.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12425-in-out-dial-peers-mobi-e2655a8594",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:39.202452+00:00",
+      "last_seen": "2026-11-23T14:50:39.202468+00:00",
+      "next_check": "2026-11-24T14:50:39.202472+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12426-valid-dial-peers-epub-f7efdefe19",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:43.368074+00:00",
+      "last_seen": "2026-11-23T14:50:43.368089+00:00",
+      "next_check": "2026-11-24T14:50:43.368093+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.html": {
       "content_sha": "ad693be28a7700b66e2f071c72f0e3d3be876e3e33b82621ccf6a527fc93e89b",
       "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12426-valid-dial-peers-html-d82c673d78",
@@ -23406,6 +23486,26 @@
       "last_seen": "2026-09-28T10:49:27.788558+00:00",
       "next_check": "2026-09-29T10:49:27.788558+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/12426-valid-dial-peers.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-12426-valid-dial-peers-mobi-c71debf80f",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:47.835876+00:00",
+      "last_seen": "2026-11-23T14:50:47.835891+00:00",
+      "next_check": "2026-11-24T14:50:47.835895+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-voice-call-routing-dial-plans-14074-in-dial-peer-match-epub-dc8e2cb8b4",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:50:51.788748+00:00",
+      "last_seen": "2026-11-23T14:50:51.788764+00:00",
+      "next_check": "2026-11-24T14:50:51.788768+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/voice/call-routing-dial-plans/14074-in-dial-peer-match.html": {
@@ -185503,5 +185603,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:48:30.286019+00:00"
+  "updated_at": "2026-11-23T14:50:51.845390+00:00"
 }
