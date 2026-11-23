@@ -18068,6 +18068,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212081-Jabber-Log-in-Failure-Due-To-Proxy-Setti.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212081-jabber-log-in-failure-due-to-proxy-setti-mobi-93754195c8",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:27:41.406622+00:00",
+      "last_seen": "2026-11-23T14:27:41.406636+00:00",
+      "next_check": "2026-11-24T14:27:41.406639+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212082-how-to-collect-jabber-crash-dump-on-appl-epub-688a9c93aa",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:27:45.004202+00:00",
+      "last_seen": "2026-11-23T14:27:45.004213+00:00",
+      "next_check": "2026-11-24T14:27:45.004216+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.html": {
       "content_sha": "407b423dc677976311b1a41df3574481195a291872c9b1092b9319ccf8b48b88",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212082-how-to-collect-jabber-crash-dump-on-appl-html-2aceaeed4f",
@@ -18079,6 +18099,26 @@
       "last_seen": "2026-09-28T06:16:14.953715+00:00",
       "next_check": "2026-09-29T06:16:14.953715+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212082-How-to-collect-Jabber-Crash-Dump-on-Appl.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212082-how-to-collect-jabber-crash-dump-on-appl-mobi-bcd43768ec",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:27:49.383146+00:00",
+      "last_seen": "2026-11-23T14:27:49.383157+00:00",
+      "next_check": "2026-11-24T14:27:49.383160+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212084-troubleshoot-cisco-jabber-directory-sear-epub-c5adcd0724",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:27:53.525822+00:00",
+      "last_seen": "2026-11-23T14:27:53.525836+00:00",
+      "next_check": "2026-11-24T14:27:53.525840+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.html": {
@@ -18094,6 +18134,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212084-Troubleshoot-Cisco-Jabber-Directory-Sear.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212084-troubleshoot-cisco-jabber-directory-sear-mobi-9a4b5c8752",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:27:57.752956+00:00",
+      "last_seen": "2026-11-23T14:27:57.752968+00:00",
+      "next_check": "2026-11-24T14:27:57.752970+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212088-how-to-pull-crash-dumps-for-jabber-for-i-epub-705b2e45da",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:28:01.976674+00:00",
+      "last_seen": "2026-11-23T14:28:01.976690+00:00",
+      "next_check": "2026-11-24T14:28:01.976695+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.html": {
       "content_sha": "e84eb6245b1bfd0ff5104d1d6f07ce0c3272f8d93475d153e0f7e50177927670",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212088-how-to-pull-crash-dumps-for-jabber-for-i-html-420431a8f1",
@@ -18107,6 +18167,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212088-How-to-Pull-Crash-Dumps-for-Jabber-for-i.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212088-how-to-pull-crash-dumps-for-jabber-for-i-mobi-1686350fd7",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:28:06.458699+00:00",
+      "last_seen": "2026-11-23T14:28:06.458715+00:00",
+      "next_check": "2026-11-24T14:28:06.458719+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212107-tech-note-on-cti-manager-call-flow-for-j-epub-54bdc91384",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:28:10.678999+00:00",
+      "last_seen": "2026-11-23T14:28:10.679015+00:00",
+      "next_check": "2026-11-24T14:28:10.679019+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.html": {
       "content_sha": "d59f1796d466188657d4e05002312e82b3f1b92ae78cd77bed5d8d665c838687",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212107-tech-note-on-cti-manager-call-flow-for-j-html-e5f2ef459f",
@@ -18118,6 +18198,16 @@
       "last_seen": "2026-09-28T06:16:27.201317+00:00",
       "next_check": "2026-09-29T06:16:27.201317+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212107-tech-note-on-cti-manager-call-flow-for-j-mobi-4a1cf56441",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:28:14.675694+00:00",
+      "last_seen": "2026-11-23T14:28:14.675706+00:00",
+      "next_check": "2026-11-24T14:28:14.675709+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212109-How-to-Use-LDP-EXE-to-Search-LDAP-Server.html": {
@@ -18156,6 +18246,16 @@
       "last_seen": "2026-09-27T12:52:52.604136+00:00",
       "next_check": "2026-09-28T12:52:52.604136+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212833-configure-jabber-group-configuration-fil-epub-cdc0b197c2",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:28:19.402517+00:00",
+      "last_seen": "2026-11-23T14:28:19.402531+00:00",
+      "next_check": "2026-11-24T14:28:19.402534+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.html": {
@@ -184601,5 +184701,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:25:51.147048+00:00"
+  "updated_at": "2026-11-23T14:28:19.462440+00:00"
 }
