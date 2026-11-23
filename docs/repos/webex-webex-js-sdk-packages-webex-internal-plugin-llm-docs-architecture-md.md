@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-llm/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:26.108838+00:00
+retrieved_at: 2026-11-23T14:21:30.015620+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-llm/docs/architecture.md
@@ -221,7 +221,7 @@ flowchart TD
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn install` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
+| `yarn` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
 | `yarn workspace @webex/internal-plugin-llm build` | package | `src/` | `dist/` through `build:src` | `dist/` is never edited by hand |
 | `yarn workspace @webex/internal-plugin-llm build:src` | package | `src/` (`.js` and `.ts`) | `dist/` with source maps | Markdown under `src/` is not processed |
 | `yarn workspace @webex/internal-plugin-llm test:unit` | package | `test/unit/spec/` | jest result | — |

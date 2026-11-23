@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-local-forage/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:19.419878+00:00
+retrieved_at: 2026-11-23T14:21:51.229872+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-local-forage/AGENTS.md
@@ -69,7 +69,7 @@ alternatives when a command is missing.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn install` |
+| Install dependencies   | `yarn` |
 | Start dev environment  | N/A; the package is a library with no runnable entry point |
 | Run tests              | None canonical. `yarn workspace @webex/storage-adapter-local-forage test:browser` is the only committed runner and does not execute the shared suite (see `src/docs/README.md` `Verification`) |
 | Run linters            | `yarn workspace @webex/storage-adapter-local-forage test:style` |

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-locus/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:00.904043+00:00
+retrieved_at: 2026-11-23T14:21:30.512126+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-locus/docs/architecture.md
@@ -186,7 +186,7 @@ surface is served, so `api-specs/openapi.yaml` is omitted.
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn install` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
+| `yarn` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
 | `yarn workspace @webex/internal-plugin-locus build` | package | `src/` | build output through `build:src` | Build output is never edited by hand |
 | `yarn workspace @webex/internal-plugin-locus build:src` | package | `src/` (`.js` and `.ts`) | build output with source maps | Markdown under `src/` is not processed |
 | `yarn workspace @webex/internal-plugin-locus test:unit` | package | `test/unit/spec/` | Jest result | — |

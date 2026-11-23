@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/contact-center/s
 repo: webex/widgets
 ruta: packages/contact-center/store/ai-docs/store-spec.md
 licencia: sin declarar
-retrieved_at: 2026-11-16T12:37:27.986825+00:00
+retrieved_at: 2026-11-23T14:22:06.602866+00:00
 ---
 
 # widgets — packages/contact-center/store/ai-docs/store-spec.md
@@ -65,6 +65,8 @@ Owns Contact Center client-side state and the SDK boundary: initialize/register 
 TypeScript 5.6.3, MobX 6.13.5 (`makeAutoObservable`, `observable.ref`, `runInAction`). Consumed in React 18 via `mobx-react-lite` `observer()` in downstream packages (not a dependency of this package itself). SDK dependency `@webex/contact-center` 3.13.0-next.9. Tests: Jest 29 + ts compile (`tsc --project tsconfig.test.json && jest --coverage`). Build target: `dist/index.js` (Webpack). Evidence: `packages/contact-center/store/package.json`.
 
 ## Folder / Package Structure
+
+See the [npm release guide](../../../../ai-docs/RELEASING.md) for store release and verification steps.
 
 ```
 packages/contact-center/store/src/
@@ -597,10 +599,19 @@ stored `legacyAuxCodeId`, and finally the shared Available `DEFAULT_CODE` (`'0'`
 fallback consistent with login and state-change handling while preserving an existing wellness or Idle code.
 Evidence: `src/storeEventsWrapper.ts` (`captureWellnessSession`).
 
-The store consumes the existing public Wellness Break symbols from `@webex/contact-center` 3.12.0-next.131.
+The store consumes the existing public Wellness Break symbols from `@webex/contact-center` 3.13.0-next.5.
 The registration session projection requires the companion SDK change and a later published package.
 It does not consume an AI Assistant RTD status event. See
 [`agent-wellness-break-intake.md`](../../../../ai-docs/features/agent-wellness-break-intake.md).
+
+## Browser voice readiness addendum (CAI-8629)
+
+The store type barrel re-exports the SDK-owned `VOICE_CONNECTION_EVENTS`,
+`VOICE_CONNECTION_STATUS`, and line/Mobius/snapshot types so widgets consume this contract
+without importing the SDK directly. `IContactCenter` includes `getVoiceConnectionState()`;
+widgets subscribe to the event and read this snapshot through `store.cc`. The installed
+SDK dependency is `3.13.0-next.5`. Evidence: `src/store.types.ts`, `package.json`, and the
+installed SDK declarations.
 
 ---
 > Fuente: https://github.com/webex/widgets/blob/next/packages/contact-center/store/ai-docs/store-spec.md (licencia sin declarar)

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-local-storage/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:20.196880+00:00
+retrieved_at: 2026-11-23T14:21:51.615141+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-local-storage/AGENTS.md
@@ -63,11 +63,11 @@ describes `clear()` as namespace-scoped; it is not). Use `src/docs/README.md` fo
 ## 1. Commands (Run First)
 
 Use only documented commands. Do not invent alternatives when a command is missing. Run them from
-the repository root with Node 22.14 (`nvm use 22.14`).
+the repository root with Node 22.14.
 
 | Task                   | Command             |
 | ---------------------- | ------------------- |
-| Install dependencies   | `yarn install` (repository root) |
+| Install dependencies   | `yarn` (repository root) |
 | Start dev environment  | Not applicable — this is a library with no runnable entry point |
 | Run tests              | `yarn workspace @webex/storage-adapter-local-storage test:unit` — but see section 4; it executes no case |
 | Run linters            | `yarn workspace @webex/storage-adapter-local-storage test:style` |

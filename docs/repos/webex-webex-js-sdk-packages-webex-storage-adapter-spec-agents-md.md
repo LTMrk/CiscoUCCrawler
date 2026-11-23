@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-spec/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:42.965435+00:00
+retrieved_at: 2026-11-23T14:21:52.894544+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-spec/AGENTS.md
@@ -60,7 +60,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command             |
 | ---------------------- | ------------------- |
-| Install dependencies   | `yarn install` (run from the workspace root) |
+| Install dependencies   | `yarn` (run from the workspace root) |
 | Start dev environment  | Not applicable — this package has no runnable process; it is a library consumed by other packages' test suites. |
 | Run tests              | `yarn workspace @webex/webex-core test:unit --targets storage/storage-adapter.js` — runs this package's suite; verified 21/21 on 2026-10-01 |
 | Run linters            | `yarn workspace @webex/storage-adapter-spec test:style` |

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-conversation/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:36:56.710074+00:00
+retrieved_at: 2026-11-23T14:21:27.489757+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-conversation/AGENTS.md
@@ -76,7 +76,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command             |
 | ---------------------- | ------------------- |
-| Install dependencies   | `yarn install` (from the monorepo root) |
+| Install dependencies   | `yarn` (workspace root) |
 | Start dev environment  | Not applicable — this is a library, not a runnable app |
 | Run tests              | `yarn workspace @webex/internal-plugin-conversation test:unit` |
 | Run linters            | `yarn workspace @webex/internal-plugin-conversation test:style` |

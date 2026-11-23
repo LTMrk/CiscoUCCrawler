@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-device-manager/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:11.464627+00:00
+retrieved_at: 2026-11-23T14:21:37.599529+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-device-manager/docs/architecture.md
@@ -234,10 +234,10 @@ flowchart LR
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
-| `yarn build` | Package scripts | `src` | Runs `build:src` | Same output |
-| `yarn test:unit` | Package scripts | `test/unit/spec` | Jest run through `webex-legacy-tools` | Loads `src/` by relative import |
-| `yarn test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
+| `yarn workspace @webex/plugin-device-manager build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
+| `yarn workspace @webex/plugin-device-manager build` | Package scripts | `src` | Runs `build:src` | Same output |
+| `yarn workspace @webex/plugin-device-manager test:unit` | Package scripts | `test/unit/spec` | Jest run through `webex-legacy-tools` | Loads `src/` by relative import |
+| `yarn workspace @webex/plugin-device-manager test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
 
 ## Cross-repository topology
 

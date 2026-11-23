@@ -10,7 +10,7 @@ tags: Call Routing
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.215071+00:00
+retrieved_at: 2026-11-23T14:21:15.602695+00:00
 ---
 
 # DELETE /telephony/config/premisePstn/trunks/{trunkId}

@@ -10,7 +10,7 @@ tags: Location Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.317938+00:00
+retrieved_at: 2026-11-23T14:21:15.918607+00:00
 ---
 
 # GET /telephony/config/jobs/updateRoutingPrefix/{jobId}/errors

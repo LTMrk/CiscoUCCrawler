@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/Voicemail/ai-docs/voicemail-spec.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:08:13.684504+00:00
+retrieved_at: 2026-11-23T14:21:58.736218+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/Voicemail/ai-docs/voicemail-spec.md
@@ -620,6 +620,7 @@ The Voicemail facade owns one backend connector and MetricManager reference. WXC
 - Return null for documented unsupported summary/transcript/contact-resolution capabilities.
 - Keep cache pagination consistent with refresh and remote mutations.
 - BroadWorks bearer tokens, Webex user tokens, voicemail audio/transcripts, and caller identity are sensitive; never log or persist them outside the documented session cache/SDK path. Evidence: `src/Voicemail/` connector implementations.
+- A voicemail `messageId` is a user-scoped XSI path/UUID and is treated as sensitive; `getVoicemailContent` log statements emit only a redacted placeholder rather than the raw identifier. Evidence: `src/Voicemail/Voicemail.ts`; `src/Voicemail/Voicemail.test.ts`.
 
 ## Concurrency & Reactive Flow
 

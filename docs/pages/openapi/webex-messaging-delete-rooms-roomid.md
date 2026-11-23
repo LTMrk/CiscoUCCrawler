@@ -8,9 +8,9 @@ path: /rooms/{roomId}
 operation_id: deleteARoom
 tags: Rooms
 deprecated: false
-scopes: 
+scopes: spark:all, spark:rooms_write
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.669901+00:00
+retrieved_at: 2026-11-23T14:21:16.566857+00:00
 ---
 
 # DELETE /rooms/{roomId}
@@ -18,6 +18,7 @@ retrieved_at: 2026-11-16T12:36:51.669901+00:00
 **API:** Webex Messaging
 **Área:** Rooms
 **operationId:** `deleteARoom`
+**Scopes requeridos:** `spark:all`, `spark:rooms_write`
 
 ## Resumen
 Delete a Room

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-mercury/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:26.750603+00:00
+retrieved_at: 2026-11-23T14:21:31.600655+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-mercury/AGENTS.md
@@ -59,7 +59,7 @@ commands from the monorepo root.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn install` (workspace root) |
+| Install dependencies   | `yarn` (workspace root) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace @webex/internal-plugin-mercury test:unit` (mocha); `yarn workspace @webex/internal-plugin-mercury test:browser` (karma) |
 | Run linters            | `yarn workspace @webex/internal-plugin-mercury test:style` |

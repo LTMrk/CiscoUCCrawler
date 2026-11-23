@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/he
 repo: webex/webex-js-sdk
 ruta: packages/@webex/helper-html/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:23.999910+00:00
+retrieved_at: 2026-11-23T14:21:23.967380+00:00
 ---
 
 # webex-js-sdk — packages/@webex/helper-html/docs/architecture.md
@@ -183,7 +183,7 @@ Export stability is the barrel in `src/index.js`. The module spec lists each exp
 | `yarn workspace @webex/helper-html build:src` | `dist/` from `src/` via `webex-legacy-tools build` |
 | `yarn workspace @webex/helper-html test:browser` | karma run of the unit spec; no committed artifact |
 | `yarn workspace @webex/helper-html test:style` | eslint result; no committed artifact |
-| `yarn install` | workspace `node_modules` |
+| `yarn` | workspace `node_modules` |
 | `yarn workspace @webex/helper-html deploy:npm` | npm publish |
 
 `dist/` is generated. Do not edit it by hand.

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/webex/AGENT
 repo: webex/webex-js-sdk
 ruta: packages/webex/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:24.159729+00:00
+retrieved_at: 2026-11-23T14:22:00.021170+00:00
 ---
 
 # webex-js-sdk — packages/webex/AGENTS.md
@@ -58,7 +58,7 @@ commands from the monorepo root.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn install` (workspace root) |
+| Install dependencies   | `yarn` (workspace root) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace webex test:unit` (Jest); `yarn workspace webex test:integration` (Mocha, needs test users) |
 | Run linters            | `yarn workspace webex test:style` (`src/`); `yarn workspace webex eslint ./env.js ./browser.js ./process` (package-root helpers `env.js`, `browser.js`, `process`) |

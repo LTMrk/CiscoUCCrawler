@@ -7,17 +7,20 @@ method: GET
 path: /rooms/{roomId}/meetingInfo
 operation_id: getRoomMeetingDetails
 tags: Rooms
-deprecated: false
-scopes: 
+deprecated: true
+scopes: spark:all, spark:rooms_read
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.670145+00:00
+retrieved_at: 2026-11-23T14:21:16.567240+00:00
 ---
 
 # GET /rooms/{roomId}/meetingInfo
 
+> **ENDPOINT DEPRECADO.** No usar en integraciones nuevas.
+
 **API:** Webex Messaging
 **Área:** Rooms
 **operationId:** `getRoomMeetingDetails`
+**Scopes requeridos:** `spark:all`, `spark:rooms_read`
 
 ## Resumen
 Get Room Meeting Details

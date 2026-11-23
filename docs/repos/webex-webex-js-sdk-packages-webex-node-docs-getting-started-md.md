@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/webex-node/
 repo: webex/webex-js-sdk
 ruta: packages/webex-node/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:23.767191+00:00
+retrieved_at: 2026-11-23T14:21:59.863632+00:00
 ---
 
 # webex-js-sdk — packages/webex-node/docs/getting-started.md
@@ -49,7 +49,7 @@ The repository is already cloned when you are reading this file. Dependencies ar
 whole workspace:
 
 ```bash
-yarn install
+yarn
 ```
 
 ## Build
@@ -102,7 +102,7 @@ yarn workspace webex-node test:unit
   `src/config.js` are not applied today (module spec `MOD-007`).
 - Secret source: the application passes its access token or OAuth settings to `WebexNode.init`.
   The unit spec reads an optional `token` environment variable for one test, which passes without it.
-- Package or artifact access: `yarn install` needs network access to the npm registry set in the
+- Package or artifact access: `yarn` needs network access to the npm registry set in the
   workspace root `.yarnrc.yml` (`registry.npmjs.org`), or a proxy, because registry packages such as `lodash`, `@babel/polyfill`, and `eslint` are
   declared and no Yarn cache is committed.
 - Required neighboring repositories or workspace layout: the webex-js-sdk workspace, because

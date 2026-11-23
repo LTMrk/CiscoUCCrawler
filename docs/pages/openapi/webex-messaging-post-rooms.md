@@ -8,9 +8,9 @@ path: /rooms
 operation_id: createARoom
 tags: Rooms
 deprecated: false
-scopes: 
+scopes: spark:all, spark:rooms_write
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.669122+00:00
+retrieved_at: 2026-11-23T14:21:16.565758+00:00
 ---
 
 # POST /rooms
@@ -18,6 +18,7 @@ retrieved_at: 2026-11-16T12:36:51.669122+00:00
 **API:** Webex Messaging
 **Área:** Rooms
 **operationId:** `createARoom`
+**Scopes requeridos:** `spark:all`, `spark:rooms_write`
 
 ## Resumen
 Create a Room

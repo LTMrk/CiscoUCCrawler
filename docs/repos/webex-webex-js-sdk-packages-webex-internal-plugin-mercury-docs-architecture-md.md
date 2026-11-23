@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-mercury/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:27.167284+00:00
+retrieved_at: 2026-11-23T14:21:31.745960+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-mercury/docs/architecture.md
@@ -250,7 +250,7 @@ Everything else in `src/` is shared.
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn install` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
+| `yarn` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
 | `yarn workspace @webex/internal-plugin-mercury build` | package | `src/` | `dist/` through `build:src` | `dist/` is never edited by hand |
 | `yarn workspace @webex/internal-plugin-mercury build:src` | package | `src/` (`.js` and `.ts`) | `dist/` with source maps | Markdown under `src/` is not processed |
 | `yarn workspace @webex/internal-plugin-mercury test:unit` | package | `test/unit/spec/` | mocha result | — |

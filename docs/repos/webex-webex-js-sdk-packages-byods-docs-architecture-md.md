@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/byods/docs/
 repo: webex/webex-js-sdk
 ruta: packages/byods/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:22.592391+00:00
+retrieved_at: 2026-11-23T14:21:53.768994+00:00
 ---
 
 # webex-js-sdk — packages/byods/docs/architecture.md
@@ -255,16 +255,15 @@ That build writes `dist/index.js` and `dist/types`, not the `dist/module/index.j
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn build:src` | package | `src/` (`.js`, `.ts`) | `dist/` JavaScript with source maps, then runs `yarn build` | Markdown under `src/` is not processed |
-| `yarn build` | package | `src/` through `tsconfig.json` | `dist/types` declarations | Type errors fail it |
-| `yarn prebuild` | package | — | Deletes `dist/` | Yarn 3 does not run it before `build`, so stale files survive rebuilds unless it is run |
-| `yarn test:unit` | package | `test/unit/spec/` | Jest result, `coverage/`, `junit.xml` | Fails below the coverage threshold |
-| `yarn test:style` | package | `src/**/*.ts` | eslint result | Markdown is outside the glob |
-| `yarn test` | package | — | `test:style` then `test:unit` | — |
-| `yarn docs` | package | `src/index.ts` | typedoc check, no output | Warnings do not fail it |
-| `yarn build:docs` | package | `src/index.ts` | typedoc site written to the workspace `docs/byods` folder | Writes outside this package |
-| `yarn fix:lint`, `yarn fix:prettier` | package | `src/**/*.ts` | Rewrites source files | Review the diff |
-| `yarn deploy:npm` | package | `dist/`, `package.json` | Publishes to npm | Release pipeline only |
+| `yarn workspace @webex/byods build:src` | package | `src/` (`.js`, `.ts`) | `dist/` JavaScript with source maps, then runs the `build` script | Markdown under `src/` is not processed |
+| `yarn workspace @webex/byods build` | package | `src/` through `tsconfig.json` | `dist/types` declarations | Type errors fail it |
+| `yarn workspace @webex/byods test:unit` | package | `test/unit/spec/` | Jest result, `coverage/`, `junit.xml` | Fails below the coverage threshold |
+| `yarn workspace @webex/byods test:style` | package | `src/**/*.ts` | eslint result | Markdown is outside the glob |
+| `yarn workspace @webex/byods test` | package | — | `test:style` then `test:unit` | — |
+| `yarn workspace @webex/byods docs` | package | `src/index.ts` | typedoc check, no output | Warnings do not fail it |
+| `yarn workspace @webex/byods build:docs` | package | `src/index.ts` | typedoc site written to the workspace `docs/byods` folder | Writes outside this package |
+| `yarn workspace @webex/byods fix:lint`, `yarn workspace @webex/byods fix:prettier` | package | `src/**/*.ts` | Rewrites source files | Review the diff |
+| `yarn workspace @webex/byods deploy:npm` | package | `dist/`, `package.json` | Publishes to npm | Release pipeline only |
 
 ## Cross-repository topology
 

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-metrics/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:27.980468+00:00
+retrieved_at: 2026-11-23T14:21:32.226756+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-metrics/AGENTS.md
@@ -60,7 +60,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command                                                                           |
 | ---------------------- | --------------------------------------------------------------------------------- |
-| Install dependencies   | `yarn install` (monorepo root)                                                    |
+| Install dependencies   | `yarn` (monorepo root)                                                            |
 | Start dev environment  | Not applicable — this package is a library plugin with no runnable dev server      |
 | Run tests              | `yarn workspace @webex/internal-plugin-metrics test:unit`                          |
 | Run linters            | `yarn workspace @webex/internal-plugin-metrics test:style`                         |

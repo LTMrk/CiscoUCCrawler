@@ -10,7 +10,7 @@ tags: User Call Settings (2/2)
 deprecated: true
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.342346+00:00
+retrieved_at: 2026-11-23T14:21:16.009500+00:00
 ---
 
 # PUT /telephony/config/people/{personId}/applications/{applicationId}/members

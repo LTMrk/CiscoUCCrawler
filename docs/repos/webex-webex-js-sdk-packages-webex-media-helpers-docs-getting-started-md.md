@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/me
 repo: webex/webex-js-sdk
 ruta: packages/@webex/media-helpers/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:42.329224+00:00
+retrieved_at: 2026-11-23T14:21:35.743129+00:00
 ---
 
 # webex-js-sdk — packages/@webex/media-helpers/docs/getting-started.md
@@ -43,8 +43,7 @@ monorepo, so install and build commands run from the monorepo root.
 ## Install
 
 ```bash
-git clone https://github.com/webex/webex-js-sdk.git
-yarn install
+yarn
 ```
 
 ## Build

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/contact-center/t
 repo: webex/widgets
 ruta: packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
 licencia: sin declarar
-retrieved_at: 2026-11-02T12:36:05.247681+00:00
+retrieved_at: 2026-11-23T14:22:06.784569+00:00
 ---
 
 # widgets — packages/contact-center/test-fixtures/ai-docs/test-fixtures-spec.md
@@ -262,6 +262,11 @@ re-exports `aiSummaryFixtures`. SDK transport, request ordering and package admi
 fixtures belong to the SDK repository.
 
 Consumers: the AI summary and lifecycle selector cases in `store/tests/storeEventsWrapper.ts`.
+
+## Browser voice readiness fixtures (CAI-8629)
+
+`mockCC.getVoiceConnectionState()` defaults to a typed `NOT_REQUIRED` snapshot. Consumer
+tests can override it with `READY` or `UNAVAILABLE` snapshots. Evidence: `src/fixtures.ts`.
 
 ## Traceability
 - Repo architecture: [`ARCHITECTURE.md`](../../../../ai-docs/ARCHITECTURE.md) · Registry: [`SPEC_INDEX.md`](../../../../ai-docs/SPEC_INDEX.md)

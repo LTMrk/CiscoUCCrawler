@@ -8,9 +8,9 @@ path: /messages/{messageId}
 operation_id: editAMessage
 tags: Messages
 deprecated: false
-scopes: 
+scopes: spark:all, spark:messages_write
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.664393+00:00
+retrieved_at: 2026-11-23T14:21:16.545756+00:00
 ---
 
 # PUT /messages/{messageId}
@@ -18,6 +18,7 @@ retrieved_at: 2026-11-16T12:36:51.664393+00:00
 **API:** Webex Messaging
 **Área:** Messages
 **operationId:** `editAMessage`
+**Scopes requeridos:** `spark:all`, `spark:messages_write`
 
 ## Resumen
 Edit a Message

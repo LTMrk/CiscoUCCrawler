@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-authorization-node/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:10.058127+00:00
+retrieved_at: 2026-11-23T14:21:36.914960+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-authorization-node/docs/getting-started.md
@@ -48,16 +48,8 @@ yarn
 
 The workspace `deploy.yml` workflow installs with the same command.
 
-On a fresh checkout, prebuild the workspace before the first package build. `yarn` does not build
-`@webex/legacy-tools`, whose `webex-legacy-tools` binary is the untracked `dist/cli/index.js`, or the
-sibling packages' `dist/`:
-
-```bash
-yarn prebuild:modules
-```
-
-It runs `yarn`, then builds the tools, the legacy tools, `@webex/webex-core`, and every package, in
-that order (root `package.json`; see the workspace `CONTRIBUTING.md` "Prebuilding").
+Fresh-checkout workspace setup (building `webex-legacy-tools` and sibling `dist/`) is owned by the workspace root; see
+[Prebuilding](../../../../CONTRIBUTING.md#prebuilding).
 
 ## Build
 

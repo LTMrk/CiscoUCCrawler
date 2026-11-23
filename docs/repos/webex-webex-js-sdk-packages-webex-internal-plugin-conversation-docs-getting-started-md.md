@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-conversation/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:36:57.018357+00:00
+retrieved_at: 2026-11-23T14:21:27.670957+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-conversation/docs/getting-started.md
@@ -42,16 +42,10 @@ workspace. Commands below were verified against `package.json`.
 
 ## Install
 
-Inside the monorepo, select Node 22.14 with nvm and install from the repository root:
+Inside the monorepo, use Node 22.14 and install from the repository root:
 
 ```bash
-yarn install
-```
-
-A consuming project installs the published package:
-
-```bash
-npm install --save @webex/internal-plugin-conversation
+yarn
 ```
 
 ## Build

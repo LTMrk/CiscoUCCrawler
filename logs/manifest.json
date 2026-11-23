@@ -1222,15 +1222,15 @@
     "https://developer.cisco.com/docs/webex-meetings/": {
       "content_sha": "04d8ea516fb1bd63fbff8b43dd7c0968cd66a4abf0d14ef8d1104304c4c80dfe",
       "doc_id": "developer-cisco-com-docs-webex-meetings-6ed8fbfee5",
-      "etag": "W/\"7bb57ce48e6707c035436ba4c5f4950d\"",
+      "etag": "W/\"cca64e58d0f6e071108ac267acfe7a2a\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:13.748850+00:00",
       "last_changed": "2026-09-28T06:11:53.999920+00:00",
-      "last_modified": "Sun, 27 Sep 2026 20:36:39 GMT",
-      "last_seen": "2026-11-02T12:37:58.090459+00:00",
-      "next_check": "2026-11-18T12:37:58.090459+00:00",
+      "last_modified": "Fri, 20 Nov 2026 17:32:40 GMT",
+      "last_seen": "2026-11-23T14:22:36.356752+00:00",
+      "next_check": "2026-12-23T14:22:36.356752+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 5
     },
     "https://developer.cisco.com/docs/webex-xml-api-reference-guide/": {
       "content_sha": "895e61f59f17c5a69a25458a92d007daad7779a0624911734345b8d3d73fd0d3",
@@ -1248,15 +1248,15 @@
     "https://developer.cisco.com/site/axl/": {
       "content_sha": "b185760dcf570e9cd80194149a206f61dce1741827624ed64e708120ad9a4c98",
       "doc_id": "developer-cisco-com-site-axl-8624944788",
-      "etag": "W/\"ba46ea96ee941e093e87ed4842643f87\"",
+      "etag": "W/\"b9639e701495e783078e64faae16d824\"",
       "fail_count": 0,
       "first_seen": "2026-08-24T22:13:22.268539+00:00",
       "last_changed": "2026-11-02T12:38:10.885562+00:00",
-      "last_modified": "Thu, 05 Nov 2026 11:12:21 GMT",
-      "last_seen": "2026-11-16T12:37:54.723728+00:00",
-      "next_check": "2026-11-20T12:37:54.723728+00:00",
+      "last_modified": "Sat, 21 Nov 2026 11:29:30 GMT",
+      "last_seen": "2026-11-23T14:22:41.055570+00:00",
+      "next_check": "2026-12-01T14:22:41.055570+00:00",
       "status": "active",
-      "unchanged_runs": 2
+      "unchanged_runs": 3
     },
     "https://developer.cisco.com/site/axl/documents/operations-by-release/": {
       "content_sha": null,
@@ -17791,6 +17791,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212180-Troubleshoot-Jabber-for-Windows-auto-upd.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212180-troubleshoot-jabber-for-windows-auto-upd-099b0fbdba",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:22:55.009768+00:00",
+      "last_seen": "2026-11-23T14:22:55.009785+00:00",
+      "next_check": "2026-11-24T14:22:55.009795+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212429-configure-jabber-to-use-custom-audio-and-920ca7b0e7",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:22:59.426967+00:00",
+      "last_seen": "2026-11-23T14:22:59.426982+00:00",
+      "next_check": "2026-11-24T14:22:59.426987+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.html": {
       "content_sha": "61c274d8c10b3da25bc5b753b8d9948b45696fdd67361ad42b0aee3e00093826",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212429-configure-jabber-to-use-custom-audio-and-a1249a1306",
@@ -17804,6 +17824,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/212429-configure-jabber-to-use-custom-audio-and.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-212429-configure-jabber-to-use-custom-audio-and-b8d0d24c13",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:23:03.517068+00:00",
+      "last_seen": "2026-11-23T14:23:03.517085+00:00",
+      "next_check": "2026-11-24T14:23:03.517090+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-epu-48d64d6f92",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:23:07.809039+00:00",
+      "last_seen": "2026-11-23T14:23:07.809054+00:00",
+      "next_check": "2026-11-24T14:23:07.809102+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.html": {
       "content_sha": "ea58223f4a18a3a04c94c89eb93ab44907c96e70e80034fab8cba68da9a5dcf1",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-htm-676ebe4286",
@@ -17815,6 +17855,16 @@
       "last_seen": "2026-09-28T06:15:46.264169+00:00",
       "next_check": "2026-09-29T06:15:46.264169+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/213869-jabber-for-windows-quick-start-guide.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-windows-213869-jabber-for-windows-quick-start-guide-mob-8d2032c16b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:23:12.131691+00:00",
+      "last_seen": "2026-11-23T14:23:12.131715+00:00",
+      "next_check": "2026-11-24T14:23:12.131720+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber-windows/217563-enable-jabber-log-in-for-cucm-local-user.html": {
@@ -24331,8 +24381,8 @@
       "fail_count": 0,
       "first_seen": "2026-09-27T15:05:28.936156+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-16T12:37:59.520461+00:00",
-      "next_check": "2026-11-17T12:37:59.520461+00:00",
+      "last_seen": "2026-11-23T14:22:46.323782+00:00",
+      "next_check": "2026-11-24T14:22:46.323782+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unity-connection/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -24525,8 +24575,8 @@
       "fail_count": 0,
       "first_seen": "2026-08-24T22:16:54.567413+00:00",
       "http_status": 302,
-      "last_seen": "2026-11-16T12:38:04.739527+00:00",
-      "next_check": "2026-11-17T12:38:04.739527+00:00",
+      "last_seen": "2026-11-23T14:22:50.099488+00:00",
+      "next_check": "2026-11-24T14:22:50.099488+00:00",
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/webex-calling/series.html",
       "status": "redirect",
       "unchanged_runs": 0
@@ -113261,17 +113311,17 @@
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html": {
-      "content_sha": "5b0562f229f08002de010cb9a9fb6616df0ef4e2625e3175bb585e568932081b",
+      "content_sha": "03dcfb57b0b8f51c38d254ab63cd009c24e62d89eb64c265be1a3207f7782390",
       "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf",
       "etag": null,
       "fail_count": 0,
       "first_seen": "2026-08-21T01:10:47.336569+00:00",
-      "last_changed": "2026-09-30T18:19:41.979038+00:00",
+      "last_changed": "2026-11-23T14:22:54.360614+00:00",
       "last_modified": null,
-      "last_seen": "2026-11-02T12:40:09.030999+00:00",
-      "next_check": "2026-11-18T12:40:09.030999+00:00",
+      "last_seen": "2026-11-23T14:22:54.360614+00:00",
+      "next_check": "2026-11-24T14:22:54.360614+00:00",
       "status": "active",
-      "unchanged_runs": 4
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_roadmap.html": {
       "content_sha": "1871145ef4245ba8365e368b3b33378896d6c5fc976f238c7d74c11b0d5ebb2e",
@@ -184449,5 +184499,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-16T14:23:49.318501+00:00"
+  "updated_at": "2026-11-23T14:23:12.200194+00:00"
 }

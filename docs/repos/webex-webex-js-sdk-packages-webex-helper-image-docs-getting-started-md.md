@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/he
 repo: webex/webex-js-sdk
 ruta: packages/@webex/helper-image/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:38.265860+00:00
+retrieved_at: 2026-11-23T14:21:24.548428+00:00
 ---
 
 # webex-js-sdk — packages/@webex/helper-image/docs/getting-started.md
@@ -46,7 +46,7 @@ directory.
 ## Install
 
 ```bash
-yarn install
+yarn
 ```
 
 Run it once from the workspace root. It installs this package's dependencies together with the
@@ -123,7 +123,7 @@ Mocha and Karma, through `@webex/legacy-tools`.
 
 ## First-run verification
 
-1. Run `yarn install` from the workspace root.
+1. Run `yarn` from the workspace root.
 2. Run `yarn workspace @webex/helper-image build` and confirm `dist/` is produced.
 3. Run `yarn workspace @webex/helper-image test:unit`.
 

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/webex-node/
 repo: webex/webex-js-sdk
 ruta: packages/webex-node/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:23.646783+00:00
+retrieved_at: 2026-11-23T14:21:59.689739+00:00
 ---
 
 # webex-js-sdk — packages/webex-node/docs/architecture.md
@@ -186,7 +186,7 @@ internal-plugin-mercury, which register as well. No dependency cycle exists insi
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn install` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
+| `yarn` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
 | `yarn workspace webex-node build` | package | `src/` | build output through `build:src` | Build output is never edited by hand |
 | `yarn workspace webex-node build:src` | package | `src/` (`.js` and `.ts`) | build output with source maps | Markdown under `src/` is not processed |
 | `yarn workspace webex-node test:unit` | package | `test/unit/spec/` | Jest result | — |

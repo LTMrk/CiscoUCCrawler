@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/ht
 repo: webex/webex-js-sdk
 ruta: packages/@webex/http-core/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:39.548731+00:00
+retrieved_at: 2026-11-23T14:21:24.881517+00:00
 ---
 
 # webex-js-sdk — packages/@webex/http-core/docs/getting-started.md
@@ -44,7 +44,7 @@ addressed through `yarn workspace`.
 ## Install
 
 ```bash
-yarn install
+yarn
 ```
 
 Run it from the workspace root, not from this package directory — the lockfile and the

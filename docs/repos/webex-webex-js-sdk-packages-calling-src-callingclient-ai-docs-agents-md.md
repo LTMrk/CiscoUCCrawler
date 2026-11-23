@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/CallingClient/ai-docs/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-09-27T10:51:29.193725+00:00
+retrieved_at: 2026-11-23T14:21:56.659693+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/CallingClient/ai-docs/AGENTS.md
@@ -144,7 +144,7 @@ const callingClient = await createClient(webex, {
 The `createClient` factory instantiates `CallingClient` and calls `init()`, which:
 
 1. Performs ICE warmup (Windows Chromium only)
-2. Discovers Mobius servers for the client region (via `ds.ciscospark.com`)
+2. Discovers Mobius servers for the client region (via `sqdiscovery.webex.com`)
 3. Creates a Line object internally
 
 **Note:** `init()` does NOT register the line. The application must call `line.register()` explicitly after obtaining the line via `getLines()`.

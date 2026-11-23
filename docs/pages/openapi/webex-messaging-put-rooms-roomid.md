@@ -8,9 +8,9 @@ path: /rooms/{roomId}
 operation_id: updateARoom
 tags: Rooms
 deprecated: false
-scopes: 
+scopes: spark-compliance:rooms_write, spark:all, spark:rooms_write
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.669695+00:00
+retrieved_at: 2026-11-23T14:21:16.566582+00:00
 ---
 
 # PUT /rooms/{roomId}
@@ -18,6 +18,7 @@ retrieved_at: 2026-11-16T12:36:51.669695+00:00
 **API:** Webex Messaging
 **Área:** Rooms
 **operationId:** `updateARoom`
+**Scopes requeridos:** `spark-compliance:rooms_write`, `spark:all`, `spark:rooms_write`
 
 ## Resumen
 Update a Room

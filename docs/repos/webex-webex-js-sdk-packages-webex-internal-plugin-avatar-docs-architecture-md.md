@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-avatar/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:36:54.434830+00:00
+retrieved_at: 2026-11-23T14:21:25.623272+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-avatar/docs/architecture.md
@@ -236,10 +236,10 @@ flowchart LR
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
-| `yarn build` | Package scripts | `src` | Runs `build:src` | Same output |
-| `yarn test:unit` | Package scripts | `test/unit/spec`, `dist/` | Jest run | Run `build:src` first |
-| `yarn test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
+| `yarn workspace @webex/internal-plugin-avatar build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
+| `yarn workspace @webex/internal-plugin-avatar build` | Package scripts | `src` | Runs `build:src` | Same output |
+| `yarn workspace @webex/internal-plugin-avatar test:unit` | Package scripts | `test/unit/spec`, `dist/` | Jest run | Run `build:src` first |
+| `yarn workspace @webex/internal-plugin-avatar test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
 
 ## Cross-repository topology
 

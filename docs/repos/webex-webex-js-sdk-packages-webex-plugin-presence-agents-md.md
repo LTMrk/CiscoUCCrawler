@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-presence/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:15.260985+00:00
+retrieved_at: 2026-11-23T14:21:48.120494+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-presence/AGENTS.md
@@ -56,10 +56,11 @@ entry and the types in `src/interface.ts`. It serves no HTTP, so no OpenAPI appl
 
 Use only documented commands. Do not invent alternatives when a command is missing. Run workspace
 commands from the monorepo root.
+Fresh-checkout workspace setup (building `webex-legacy-tools` and sibling `dist/`) is owned by the workspace root; see [Prebuilding](../../../CONTRIBUTING.md#prebuilding).
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command); on a fresh checkout run `yarn prebuild:modules` once, because `yarn` does not build `@webex/legacy-tools` or sibling `dist/` |
+| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace @webex/plugin-presence test:unit` (after `build:src`; the specs import the package by name, so they test `dist/`) |
 | Run linters            | `yarn workspace @webex/plugin-presence test:style` |
@@ -141,9 +142,6 @@ Run checks in this order:
 1. `yarn workspace @webex/plugin-presence build:src`
 2. `yarn workspace @webex/plugin-presence test:unit`
 3. `yarn workspace @webex/plugin-presence test:style`
-
-Run `yarn prebuild:modules` once on a fresh checkout so `webex-legacy-tools` and the sibling packages'
-`dist/` exist.
 
 Testing rules:
 

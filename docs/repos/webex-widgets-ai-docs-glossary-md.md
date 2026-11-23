@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/GLOSSARY.md
 repo: webex/widgets
 ruta: ai-docs/GLOSSARY.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:08:41.142039+00:00
+retrieved_at: 2026-11-23T14:22:05.530320+00:00
 ---
 
 # widgets â€” ai-docs/GLOSSARY.md
@@ -60,7 +60,7 @@ Descripcion del repositorio: Embed the power of Webex in your web applications â
 | HOC | Higher-Order Component | React wrapping pattern; used for `observer()` and `withMetrics`. |
 | MobX | (product name) | The reactive state library backing the store; mutations go through `runInAction`. |
 | RTL | React Testing Library | Component/unit test library paired with Jest. |
-| PnP | Plug'n'Play | Yarn 4.5.1 module resolution mode used by this monorepo (no `node_modules` by default). |
+| PnP | Plug'n'Play | A Yarn module resolution mode. This monorepo uses the `node-modules` linker in `.yarnrc.yml`. |
 | CAD | Call-Associated Data | Interaction metadata surfaced by the CallControlCAD widget. |
 | E2E | End-to-End | Playwright browser tests under `playwright/`. |
 | PII | Personally Identifiable Information | Must never be logged (see `RULES.md` Logging/Security). |

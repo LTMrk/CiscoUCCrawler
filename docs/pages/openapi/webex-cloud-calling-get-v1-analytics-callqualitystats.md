@@ -10,7 +10,7 @@ tags: Calling Metrics
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.273294+00:00
+retrieved_at: 2026-11-23T14:21:15.748371+00:00
 ---
 
 # GET /v1/analytics/callQualityStats

@@ -10,7 +10,7 @@ tags: Workspace Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.363285+00:00
+retrieved_at: 2026-11-23T14:21:16.108933+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers

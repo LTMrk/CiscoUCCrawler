@@ -10,7 +10,7 @@ tags: Workspace Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.361478+00:00
+retrieved_at: 2026-11-23T14:21:16.103628+00:00
 ---
 
 # GET /workspaces/{workspaceId}/features/monitoring

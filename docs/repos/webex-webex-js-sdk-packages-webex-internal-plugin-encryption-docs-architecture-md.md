@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-encryption/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:36:59.348065+00:00
+retrieved_at: 2026-11-23T14:21:28.756686+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-encryption/docs/architecture.md
@@ -256,11 +256,11 @@ Everything else is shared. The report-only URL check fetches in both platforms.
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn build:src` | Package scripts | `src`, `assets` | Writes `dist/` through `webex-legacy-tools`, then runs `build:assets`, which copies the bundle to dist/assets | `dist/` is generated |
-| `yarn build` | Package scripts | Same | Runs `build:src` | Same output |
-| `yarn assets:refresh` | Maintainers | Cisco's bundle URL, or `--in` | New asset, regenerated `src/union-bundle.js`, old asset removed | Refuses a downgrade |
-| `yarn test:unit` | Package scripts | `test/unit/spec`, `dist/` | Jest run | Needs a fresh `build:src` |
-| `yarn test:style` | Package scripts | `src` | ESLint run | Skips `src/kms.js`, `docs/**`, and `*.md` |
+| `yarn workspace @webex/internal-plugin-encryption build:src` | Package scripts | `src`, `assets` | Writes `dist/` through `webex-legacy-tools`, then runs `build:assets`, which copies the bundle to dist/assets | `dist/` is generated |
+| `yarn workspace @webex/internal-plugin-encryption build` | Package scripts | Same | Runs `build:src` | Same output |
+| `yarn workspace @webex/internal-plugin-encryption assets:refresh` | Maintainers | Cisco's bundle URL, or `--in` | New asset, regenerated `src/union-bundle.js`, old asset removed | Refuses a downgrade |
+| `yarn workspace @webex/internal-plugin-encryption test:unit` | Package scripts | `test/unit/spec`, `dist/` | Jest run | Needs a fresh `build:src` |
+| `yarn workspace @webex/internal-plugin-encryption test:style` | Package scripts | `src` | ESLint run | Skips `src/kms.js`, `docs/**`, and `*.md` |
 | `src/union-bundle.js` | Refresh script | The verified bundle | Asset name and rollback floor | Never edited by hand |
 
 ## Cross-repository topology

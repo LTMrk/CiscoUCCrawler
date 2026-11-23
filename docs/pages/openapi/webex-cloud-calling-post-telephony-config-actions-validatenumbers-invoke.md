@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.327467+00:00
+retrieved_at: 2026-11-23T14:21:15.953827+00:00
 ---
 
 # POST /telephony/config/actions/validateNumbers/invoke

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-llm/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:26.232400+00:00
+retrieved_at: 2026-11-23T14:21:30.174187+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-llm/docs/getting-started.md
@@ -45,7 +45,7 @@ The repository is already cloned when you are reading this file. Dependencies ar
 whole workspace:
 
 ```bash
-yarn install
+yarn
 ```
 
 ## Build
@@ -104,7 +104,7 @@ yarn workspace @webex/internal-plugin-llm test:unit
 
 ## First-run verification
 
-1. Run `yarn install` from the workspace root.
+1. Run `yarn` from the workspace root.
 2. Run `yarn workspace @webex/internal-plugin-llm build` and check that `dist/index.js` exists.
 3. Run `yarn workspace @webex/internal-plugin-llm test:unit`.
 

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/webex/docs/
 repo: webex/webex-js-sdk
 ruta: packages/webex/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:24.470716+00:00
+retrieved_at: 2026-11-23T14:22:00.206625+00:00
 ---
 
 # webex-js-sdk — packages/webex/docs/architecture.md
@@ -223,7 +223,7 @@ is omitted.
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn install` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
+| `yarn` | workspace | root `package.json` and lockfile | workspace `node_modules` | Run from the workspace root |
 | `yarn workspace webex build` | package | `src/` | `dist/` through `build:src` | Build output is never edited by hand |
 | `yarn workspace webex build:src` | package | `src/` (`.js` and `.ts`) | `dist/` with source maps | Markdown under `src/` is not processed |
 | `yarn workspace webex test:unit` | package | `test/unit/spec/` | Jest result | — |
@@ -233,7 +233,6 @@ is omitted.
 | `yarn workspace webex test:style` | package | files under `src/` | eslint result | Markdown is reported as ignored |
 | `yarn workspace webex eslint ./env.js ./browser.js ./process` | package | `env.js`, `browser.js`, `process` | eslint result | Covers the package-root helpers that `test:style` skips |
 | `yarn workspace webex deploy:npm` | package | `dist/`, `umd/`, `package.json` | Publishes the package to the npm registry | Release pipeline only |
-| `yarn prebuild:modules` | workspace root | root `package.json` script | Installs, then builds the legacy tools, webex-core, and the `build:src` output of the workspace packages that define it | Run from the workspace root before `test:unit` on a fresh clone |
 | `yarn build:script` | workspace root | root `package.json` script, workspace root webpack config | Runs the `--umd` webpack build that writes `umd/` | Run from the workspace root; refreshes the committed bundles. It can exit 0 after a failed webpack build, so check its output and the rewritten files (module spec Pitfalls) |
 | `umd/*.min.js` | workspace root webpack config | entry files | Committed bundles and source maps | Do not edit by hand |
 

@@ -10,7 +10,7 @@ tags: Location Call Settings: Call Handling
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.321357+00:00
+retrieved_at: 2026-11-23T14:21:15.930151+00:00
 ---
 
 # POST /telephony/config/locations/{locationId}/actions/generatePassword/invoke

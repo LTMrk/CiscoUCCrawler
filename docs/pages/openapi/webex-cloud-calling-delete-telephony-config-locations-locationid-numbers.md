@@ -10,7 +10,7 @@ tags: Numbers
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.327270+00:00
+retrieved_at: 2026-11-23T14:21:15.953329+00:00
 ---
 
 # DELETE /telephony/config/locations/{locationId}/numbers

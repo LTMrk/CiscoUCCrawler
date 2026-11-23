@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/calling/src
 repo: webex/webex-js-sdk
 ruta: packages/calling/src/CallHistory/ai-docs/call-history-spec.md
 licencia: NOASSERTION
-retrieved_at: 2026-08-24T09:08:01.607183+00:00
+retrieved_at: 2026-11-23T14:21:55.845653+00:00
 ---
 
 # webex-js-sdk — packages/calling/src/CallHistory/ai-docs/call-history-spec.md
@@ -596,6 +596,7 @@ if (response.statusCode === 200) {
 - Missed-call and delete mutations require valid `endTime`/`sessionId` pairs.
 - WXC queries include shared sessions; UCM results are enriched by matching `self.cucmDN` to line `dnorpattern`.
 - Mercury events retain their typed payload and event-key mapping. Evidence: `src/CallHistory/CallHistory.ts`, `src/CallHistory/CallHistory.test.ts`.
+- Diagnostic logging does not emit session identifiers; `updateMissedCalls` logs only the count of sessions being processed rather than the serialized `endTime`/`sessionId` array. Evidence: `src/CallHistory/CallHistory.ts`, `src/CallHistory/CallHistory.test.ts`.
 
 ## Concurrency & Reactive Flow
 

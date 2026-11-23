@@ -10,7 +10,7 @@ tags: Team Memberships
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.671409+00:00
+retrieved_at: 2026-11-23T14:21:16.569183+00:00
 ---
 
 # DELETE /team/memberships/{membershipId}

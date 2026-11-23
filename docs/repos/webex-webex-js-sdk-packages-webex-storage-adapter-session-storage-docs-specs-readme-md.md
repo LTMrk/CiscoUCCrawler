@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-session-storage/docs/specs/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:21.550923+00:00
+retrieved_at: 2026-11-23T14:21:52.701510+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-session-storage/docs/specs/README.md
@@ -66,7 +66,7 @@ because no test route executes a case and no characterization baseline is commit
 
 | Change affects | Load and update | Verification route |
 | -------------- | --------------- | ------------------ |
-| Package boundaries or cross-cutting architecture | `docs/architecture.md` and applicable ADRs | `yarn build:src`, `test:unit`, and `test:style`, and the module spec |
+| Package boundaries or cross-cutting architecture | `docs/architecture.md` and applicable ADRs | `yarn workspace @webex/storage-adapter-session-storage build:src`, `yarn workspace @webex/storage-adapter-session-storage test:unit`, and `yarn workspace @webex/storage-adapter-session-storage test:style`, and the module spec |
 | A stable code, package, or component boundary | `src/docs/README.md` | Build, unit tests, and lint |
 | The adapter methods, bind checks, the stored document layout, or log lines | The owning architecture section, `src/docs/README.md`, and the native definition in `src/index.js` or `package.json` | Build, unit tests, and lint; the unit tier runs nothing today, so add a test that executes the changed path |
 

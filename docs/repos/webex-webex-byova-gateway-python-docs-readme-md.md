@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/R
 repo: webex/webex-byova-gateway-python
 ruta: docs/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-09T12:44:49.186264+00:00
+retrieved_at: 2026-11-23T14:22:15.140326+00:00
 ---
 
 # webex-byova-gateway-python — docs/README.md
@@ -41,8 +41,9 @@ code, not a managed connector or a production-ready service.
   end-to-end validation.
 - [BYOVA WebSocket Transport](WEBSOCKET_TRANSPORT.md): Contract, local dual-listener demo,
   authentication, datasource profiles, and provider audio framing.
-- [BYOVA Handoff Summary](BYOVA_HANDOFF_CONTEXT.md): Provider-neutral summary metadata
-  contract for human-agent transfer, including validated Agent Desktop behavior.
+- [BYOVA Handoff Context](BYOVA_HANDOFF_CONTEXT.md): Provider-neutral summary and routing-hint
+  contract for human-agent transfer, including Flow Designer mapping and validated Agent Desktop
+  behavior.
 - [Connector Guide](../src/connectors/README.md): Connector interface, available connectors,
   and extension pattern.
 - [Monitoring Interface](../src/monitoring/README.md): Dashboard behavior, Webex OAuth, APIs,

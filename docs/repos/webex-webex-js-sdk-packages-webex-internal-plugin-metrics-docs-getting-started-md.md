@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-metrics/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:28.367563+00:00
+retrieved_at: 2026-11-23T14:21:32.497758+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-metrics/docs/getting-started.md
@@ -43,14 +43,7 @@ monorepo. Every command below is run from the monorepo root.
 ## Install
 
 ```bash
-git clone https://github.com/webex/webex-js-sdk.git
-yarn install
-```
-
-Consumers outside the monorepo install the published package with:
-
-```bash
-npm install --save @webex/internal-plugin-metrics
+yarn
 ```
 
 ## Build
@@ -93,7 +86,7 @@ cases remain in the repository's native test sources.
 | System / E2E | Not applicable — the package defines no `test:browser` script       | —                 | —         | —                     |
 
 Run one spec with `--targets`, relative to `test/unit/spec/`. Run the focused unit tests with
-Node.js 22.14, the declared toolchain version; with nvm, switch first using `nvm use 22.14`:
+Node.js 22.14, the declared toolchain version:
 
 ```bash
 yarn workspace @webex/internal-plugin-metrics test:unit --targets network-telemetry.ts
@@ -122,7 +115,7 @@ as an unresolved owner decision for that reason.
   dependency pinned in `package.json`.
 - Required neighboring repositories or workspace layout: none beyond the monorepo itself. The
   package depends on the `@webex/webex-core`, `@webex/common` and `@webex/common-timers` workspace
-  siblings, which `yarn install` links.
+  siblings, which `yarn` links.
 - Platform, simulator, device, or SDK setup: none. Browser-only behavior is guarded at runtime, so
   the unit suite runs under Node.js.
 - Never commit credentials or copy production secrets into a local config.

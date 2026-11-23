@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-logger/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:29.978590+00:00
+retrieved_at: 2026-11-23T14:21:39.505733+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-logger/docs/getting-started.md
@@ -47,7 +47,7 @@ The unit spec is `test/unit/spec/logger.js`. `test:unit` runs it under jest in N
 Dependencies are resolved for the whole workspace, not per package:
 
 ```bash
-yarn install
+yarn
 ```
 
 Run it from the workspace root.
@@ -90,7 +90,7 @@ Do not use `package.json` `scripts.test` as a verification command. It chains `t
 
 ## First-run verification
 
-1. `yarn install` from the workspace root.
+1. `yarn` from the workspace root.
 2. `yarn workspace @webex/plugin-logger build`
 3. `yarn workspace @webex/plugin-logger test:style`
 4. `yarn workspace @webex/plugin-logger test:unit`

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/ht
 repo: webex/webex-js-sdk
 ruta: packages/@webex/http-core/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:38.900485+00:00
+retrieved_at: 2026-11-23T14:21:24.719548+00:00
 ---
 
 # webex-js-sdk — packages/@webex/http-core/AGENTS.md
@@ -62,7 +62,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command                                             |
 | ---------------------- | --------------------------------------------------- |
-| Install dependencies   | `yarn install` (from the workspace root)            |
+| Install dependencies   | `yarn` (from the workspace root)                    |
 | Start dev environment  | Not applicable — this package is a library          |
 | Run tests              | `yarn workspace @webex/http-core test:unit`         |
 | Run linters            | `yarn workspace @webex/http-core test:style`        |

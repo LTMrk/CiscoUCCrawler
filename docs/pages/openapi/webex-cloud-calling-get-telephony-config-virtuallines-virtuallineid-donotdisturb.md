@@ -10,7 +10,7 @@ tags: Virtual Line Call Settings
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.359184+00:00
+retrieved_at: 2026-11-23T14:21:16.090033+00:00
 ---
 
 # GET /telephony/config/virtualLines/{virtualLineId}/doNotDisturb

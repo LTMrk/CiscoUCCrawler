@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-logger/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:29.430116+00:00
+retrieved_at: 2026-11-23T14:21:39.165667+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-logger/AGENTS.md
@@ -52,7 +52,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn install` (workspace root) |
+| Install dependencies   | `yarn` (workspace root) |
 | Start dev environment  | N/A — library package with no start script |
 | Run tests              | `yarn workspace @webex/plugin-logger test:unit` (jest); `yarn workspace @webex/plugin-logger test:browser` (karma) |
 | Run linters            | `yarn workspace @webex/plugin-logger test:style` |

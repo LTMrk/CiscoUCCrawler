@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/common/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:37.226669+00:00
+retrieved_at: 2026-11-23T14:21:19.030086+00:00
 ---
 
 # webex-js-sdk — packages/@webex/common/docs/getting-started.md
@@ -43,11 +43,7 @@ from the **monorepo root**, not from this package directory.
 ## Install
 
 ```bash
-git clone https://github.com/webex/webex-js-sdk.git
-```
-
-```bash
-yarn install
+yarn
 ```
 
 Install resolves the whole workspace. This package's four toolchain devDependencies

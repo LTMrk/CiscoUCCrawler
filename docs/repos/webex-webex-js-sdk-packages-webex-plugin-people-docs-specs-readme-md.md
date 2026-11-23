@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-people/docs/specs/README.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:15.061960+00:00
+retrieved_at: 2026-11-23T14:21:47.940328+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-people/docs/specs/README.md
@@ -66,7 +66,7 @@ remaining paths, and promotion past Partial remain pending.
 
 | Change affects | Load and update | Verification route |
 | -------------- | --------------- | ------------------ |
-| Package boundaries or cross-cutting architecture | `docs/architecture.md` and applicable ADRs | `yarn build:src`, then `test:unit` and `test:style`, and the module spec |
+| Package boundaries or cross-cutting architecture | `docs/architecture.md` and applicable ADRs | `yarn workspace @webex/plugin-people build:src`, then `test:unit` and `test:style`, and the module spec |
 | A stable code, package, or component boundary | `src/docs/README.md` | Build, unit tests, and lint |
 | A public method, request path or query, fingerprint, id format, or config default | The owning architecture section, `src/docs/README.md`, and the native definition in `src/people.js`, `src/people-batcher.js`, `src/index.js`, `src/config.js`, or `package.json` | Build, unit tests, and lint; add a unit case for the changed path, since the batching cases live only in the unrun integration spec |
 

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/co
 repo: webex/webex-js-sdk
 ruta: packages/@webex/common-timers/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:22.230118+00:00
+retrieved_at: 2026-11-23T14:21:18.489641+00:00
 ---
 
 # webex-js-sdk — packages/@webex/common-timers/AGENTS.md
@@ -62,7 +62,7 @@ alternatives when a command is missing.
 
 | Task                   | Command                                             |
 | ---------------------- | --------------------------------------------------- |
-| Install dependencies   | `yarn install`                                      |
+| Install dependencies   | `yarn`                                              |
 | Start dev environment  | N/A — the package is a library with no runnable entry point |
 | Run tests              | `yarn workspace @webex/common-timers test:unit`     |
 | Run linters            | `yarn workspace @webex/common-timers test:style`    |

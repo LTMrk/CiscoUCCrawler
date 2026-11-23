@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/packages/%40webex/widgets
 repo: webex/widgets
 ruta: packages/@webex/widgets/README.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:09:12.793616+00:00
+retrieved_at: 2026-11-23T14:22:06.048702+00:00
 ---
 
 # widgets — packages/@webex/widgets/README.md
@@ -114,7 +114,7 @@ export default function App() {
 
 Available widgets from this package are:
 
-- [Webex Meetings widget](https://github.com/webex/widgets/tree/master/src/widgets/WebexMeetings#webex-meetings-widget)
+- [Webex Meetings widget](https://github.com/webex/widgets/tree/next/packages/@webex/widgets/src/widgets/WebexMeetings#webex-meetings-widget)
 
 ## FedRAMP Environment
 

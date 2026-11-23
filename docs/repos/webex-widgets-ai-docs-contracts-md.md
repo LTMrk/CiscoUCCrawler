@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/ai-docs/CONTRACTS.md
 repo: webex/widgets
 ruta: ai-docs/CONTRACTS.md
 licencia: sin declarar
-retrieved_at: 2026-11-02T12:36:04.319112+00:00
+retrieved_at: 2026-11-23T14:22:05.141355+00:00
 ---
 
 # widgets — ai-docs/CONTRACTS.md
@@ -28,7 +28,7 @@ The React entry of `@webex/cc-widgets` re-exports the widgets, including `AIAssi
 | Contract ID | Owner module/package | Symbol | Signature | Stability / deprecation | Schema / detail link | Defined at |
 |---|---|---|---|---|---|---|
 | cc-widgets.StationLogin | `@webex/cc-station-login` | `StationLogin` | React component; custom element `widget-cc-station-login`; props `onLogin`, `onLogout` (functions) | stable semver; tag name is breaking surface | `packages/contact-center/station-login/ai-docs/station-login-spec.md` | `packages/contact-center/station-login/src/index.ts` |
-| cc-widgets.UserState | `@webex/cc-user-state` | `UserState` | React component; custom element `widget-cc-user-state`; prop `onStateChange` (function) | stable semver | `packages/contact-center/user-state/ai-docs/user-state-spec.md` | `packages/contact-center/user-state/src/index.ts` |
+| cc-widgets.UserState | `@webex/cc-user-state` | `UserState` | React component; custom element `widget-cc-user-state`; props `onStateChange`, `onVoiceReconnect` (functions). When browser voice stays unavailable for two seconds after being ready, the widget selects the default idle code and shows a reconnect dialog. `onVoiceReconnect` delegates retry to the host because the installed SDK exposes no public WebRTC retry method. | additive optional callback | `packages/contact-center/user-state/ai-docs/user-state-spec.md` | `packages/contact-center/user-state/src/index.ts`, `packages/contact-center/cc-widgets/src/wc.ts` |
 | cc-widgets.IncomingTask | `@webex/cc-task` | `IncomingTask` | React component; custom element `widget-cc-incoming-task`; props `incomingTask` (json), `onAccepted`, `onRejected` (functions) | stable semver | `packages/contact-center/task/ai-docs/task-spec.md` | `packages/contact-center/task/src/index.ts` |
 | cc-widgets.CallControl | `@webex/cc-task` | `CallControl` | React component; custom element `widget-cc-call-control`; props `onHoldResume`, `onEnd`, `onWrapUp`, `onRecordingToggle` (functions) | stable semver | `packages/contact-center/task/ai-docs/task-spec.md` | `packages/contact-center/task/src/index.ts` |
 | cc-widgets.CallControlCAD | `@webex/cc-task` | `CallControlCAD` | React component; custom element `widget-cc-call-control-cad`; props `onHoldResume`, `onEnd`, `onWrapUp`, `onRecordingToggle` (functions); owner-aware participant Drop is store-driven and adds no prop/attribute | stable semver | `packages/contact-center/task/ai-docs/task-spec.md`; `ai-docs/features/participant-drop-intake.md` | `packages/contact-center/task/src/index.ts` |

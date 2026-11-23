@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-teams/docs/architecture.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:17.982639+00:00
+retrieved_at: 2026-11-23T14:21:50.060903+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-teams/docs/architecture.md
@@ -187,9 +187,9 @@ flowchart LR
 
 | Command or artifact | Owner | Inputs | Output or side effect | Compatibility boundary |
 | ------------------- | ----- | ------ | --------------------- | ---------------------- |
-| `yarn build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
-| `yarn build` | Package scripts | `src` | Runs `build:src` | Same output |
-| `yarn test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
+| `yarn workspace @webex/plugin-teams build:src` | Package scripts | `src` | Writes `dist/` (JavaScript and source maps) through `webex-legacy-tools` | `dist/` is generated and never edited by hand |
+| `yarn workspace @webex/plugin-teams build` | Package scripts | `src` | Runs `build:src` | Same output |
+| `yarn workspace @webex/plugin-teams test:style` | Package scripts | `src` | ESLint run | The shared config ignores `docs/**` and `*.md` |
 
 ## Cross-repository topology
 

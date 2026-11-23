@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-llm/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:25.697618+00:00
+retrieved_at: 2026-11-23T14:21:29.851509+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-llm/AGENTS.md
@@ -58,7 +58,7 @@ commands from the monorepo root.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn install` (workspace root) |
+| Install dependencies   | `yarn` (workspace root) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace @webex/internal-plugin-llm test:unit` (jest); `yarn workspace @webex/internal-plugin-llm test:browser` (karma, see Testing Workflow) |
 | Run linters            | `yarn workspace @webex/internal-plugin-llm test:style` |

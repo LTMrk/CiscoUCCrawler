@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-spec/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:43.405001+00:00
+retrieved_at: 2026-11-23T14:21:53.092462+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-spec/docs/getting-started.md
@@ -48,7 +48,7 @@ running a *consumer's* tests — and only one of them actually runs it under Nod
 Dependencies are resolved for the whole workspace, not per package:
 
 ```bash
-yarn install
+yarn
 ```
 
 Run it from the workspace root. This package's `@webex/*` dependencies resolve to workspace siblings.

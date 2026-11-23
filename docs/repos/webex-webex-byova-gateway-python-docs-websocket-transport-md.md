@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-byova-gateway-python/blob/main/docs/W
 repo: webex/webex-byova-gateway-python
 ruta: docs/WEBSOCKET_TRANSPORT.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-09T12:44:49.811785+00:00
+retrieved_at: 2026-11-23T14:22:15.334785+00:00
 ---
 
 # webex-byova-gateway-python — docs/WEBSOCKET_TRANSPORT.md
@@ -16,6 +16,9 @@ Repositorio: webex/webex-byova-gateway-python
 The gateway can run the existing gRPC service, the Webex BYOVA WebSocket API,
 or both listeners in one process. Both transports use the same configured
 connectors, router, VAD behavior, handoff mapping, and monitoring process.
+
+For a transfer-response JSON example and the Flow Designer steps that display a summary
+on Agent Desktop, see [BYOVA Handoff Summary](BYOVA_HANDOFF_CONTEXT.md#websocket).
 
 The WebSocket transport implements:
 

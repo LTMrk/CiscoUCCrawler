@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-local-forage/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:19.751368+00:00
+retrieved_at: 2026-11-23T14:21:51.428175+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-local-forage/docs/getting-started.md
@@ -43,19 +43,14 @@ workspace. Run every command below from the workspace root.
 
 ## Install
 
-Clone the Webex JS SDK repository (`https://github.com/webex/webex-js-sdk.git`, the `repository.url` in
-`package.json`), then install from its root:
+Install from the workspace root:
 
 ```bash
-yarn install
+yarn
 ```
 
 A host application that consumes the published package installs it from npm instead, as
-`README.md` documents:
-
-```bash
-npm install --save @webex/storage-adapter-local-forage
-```
+`README.md` documents.
 
 ## Build
 

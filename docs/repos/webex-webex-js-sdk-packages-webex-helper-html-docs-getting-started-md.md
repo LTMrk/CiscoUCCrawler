@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/he
 repo: webex/webex-js-sdk
 ruta: packages/@webex/helper-html/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-12T11:51:24.123161+00:00
+retrieved_at: 2026-11-23T14:21:24.171188+00:00
 ---
 
 # webex-js-sdk — packages/@webex/helper-html/docs/getting-started.md
@@ -47,7 +47,7 @@ The unit spec lives in `test/unit/spec/html.js` and is skipped in Node. The comm
 Dependencies are resolved for the whole workspace, not per package:
 
 ```bash
-yarn install
+yarn
 ```
 
 Run it from the workspace root.
@@ -89,7 +89,7 @@ Do not use `package.json` `scripts.test` as a verification command. It chains `t
 
 ## First-run verification
 
-1. `yarn install` from the workspace root.
+1. `yarn` from the workspace root.
 2. `yarn workspace @webex/helper-html build:src`
 3. `yarn workspace @webex/helper-html test:style`
 4. `yarn workspace @webex/helper-html test:browser` when a karma browser is available.

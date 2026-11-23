@@ -8,9 +8,9 @@ path: /rooms
 operation_id: listRooms
 tags: Rooms
 deprecated: false
-scopes: 
+scopes: spark:all, spark:rooms_read
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.668830+00:00
+retrieved_at: 2026-11-23T14:21:16.565414+00:00
 ---
 
 # GET /rooms
@@ -18,6 +18,7 @@ retrieved_at: 2026-11-16T12:36:51.668830+00:00
 **API:** Webex Messaging
 **Área:** Rooms
 **operationId:** `listRooms`
+**Scopes requeridos:** `spark:all`, `spark:rooms_read`
 
 ## Resumen
 List Rooms

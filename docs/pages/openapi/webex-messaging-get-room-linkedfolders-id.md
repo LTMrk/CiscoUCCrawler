@@ -10,7 +10,7 @@ tags: ECM folder linking
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T12:36:51.654807+00:00
+retrieved_at: 2026-11-23T14:21:16.529838+00:00
 ---
 
 # GET /room/linkedFolders/{id}

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/in
 repo: webex/webex-js-sdk
 ruta: packages/@webex/internal-plugin-ai-assistant/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:36:53.212410+00:00
+retrieved_at: 2026-11-23T14:21:25.066423+00:00
 ---
 
 # webex-js-sdk — packages/@webex/internal-plugin-ai-assistant/AGENTS.md
@@ -59,14 +59,14 @@ commands from the monorepo root.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command); on a fresh checkout run `yarn prebuild:modules` once, because `yarn` does not build `@webex/legacy-tools` or sibling `dist/` |
+| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace @webex/internal-plugin-ai-assistant test:unit` (jest) |
 | Run linters            | `yarn workspace @webex/internal-plugin-ai-assistant test:style` |
 | Build/release artifact | `yarn workspace @webex/internal-plugin-ai-assistant build:src` (JavaScript and source maps to `dist/`) |
 | Format code            | N/A — no format script; `prettier` is a devDependency used through eslint |
 
-`yarn workspace @webex/internal-plugin-ai-assistant build` runs `yarn build:src` and produces the
+`yarn workspace @webex/internal-plugin-ai-assistant build` runs the `build:src` script and produces the
 same output; the package has no `tsconfig.json` and emits no type declarations.
 
 Do not use the aggregate `test` script: it calls `test:integration`, which this package does not
@@ -140,8 +140,9 @@ Run checks in this order:
 3. `yarn workspace @webex/internal-plugin-ai-assistant test:style`
 
 Step 1 is required before step 2: the unit spec imports `@webex/internal-plugin-ai-assistant`, which
-resolves to `dist/index.js`, so a stale `dist/` tests old code. Run `yarn prebuild:modules` once on
-a fresh checkout so the sibling packages' `dist/` exist.
+resolves to `dist/index.js`, so a stale `dist/` tests old code. Fresh-checkout workspace setup
+(building `webex-legacy-tools` and sibling `dist/`) is owned by the workspace root; see
+[Prebuilding](../../../CONTRIBUTING.md#prebuilding).
 
 Testing rules:
 

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/me
 repo: webex/webex-js-sdk
 ruta: packages/@webex/media-helpers/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-05T11:22:41.732955+00:00
+retrieved_at: 2026-11-23T14:21:35.563567+00:00
 ---
 
 # webex-js-sdk — packages/@webex/media-helpers/AGENTS.md
@@ -56,7 +56,7 @@ Use only documented commands. Do not invent alternatives when a command is missi
 
 | Task                   | Command                                             |
 | ---------------------- | --------------------------------------------------- |
-| Install dependencies   | `yarn install` (monorepo root)                      |
+| Install dependencies   | `yarn` (monorepo root)                              |
 | Start dev environment  | Not applicable — this package is a library with no runnable dev server |
 | Run tests              | `yarn workspace @webex/media-helpers test:unit`     |
 | Run linters            | `yarn workspace @webex/media-helpers test:style`    |

@@ -10,7 +10,7 @@ tags: User Call Settings (3/3)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.351169+00:00
+retrieved_at: 2026-11-23T14:21:16.061239+00:00
 ---
 
 # POST /telephony/config/people/{personId}/priorityAlert/criteria

@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/pl
 repo: webex/webex-js-sdk
 ruta: packages/@webex/plugin-authorization-node/AGENTS.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:09.654091+00:00
+retrieved_at: 2026-11-23T14:21:36.743665+00:00
 ---
 
 # webex-js-sdk — packages/@webex/plugin-authorization-node/AGENTS.md
@@ -60,7 +60,7 @@ commands from the monorepo root.
 
 | Task                   | Command |
 | ---------------------- | ------- |
-| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command); on a fresh checkout run `yarn prebuild:modules` once, because `yarn` does not build `@webex/legacy-tools` or sibling `dist/` |
+| Install dependencies   | `yarn` (workspace root; the deploy workflow runs the same command). Fresh-checkout workspace setup (building `webex-legacy-tools` and sibling `dist/`) is owned by the workspace root; see [Prebuilding](../../../CONTRIBUTING.md#prebuilding) |
 | Start dev environment  | N/A — library package with no start script in `package.json` |
 | Run tests              | `yarn workspace @webex/plugin-authorization-node test:unit` (jest) after `build:src` |
 | Run linters            | `yarn workspace @webex/plugin-authorization-node test:style` |

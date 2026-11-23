@@ -10,7 +10,7 @@ tags: Features:  Hunt Group
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.312361+00:00
+retrieved_at: 2026-11-23T14:21:15.897364+00:00
 ---
 
 # GET /telephony/config/huntGroups/{huntGroupId}/voicemail/availableMembers

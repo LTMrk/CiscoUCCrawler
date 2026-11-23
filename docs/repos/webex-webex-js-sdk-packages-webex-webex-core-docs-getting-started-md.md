@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/we
 repo: webex/webex-js-sdk
 ruta: packages/@webex/webex-core/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-10-19T09:48:31.010075+00:00
+retrieved_at: 2026-11-23T14:21:53.452987+00:00
 ---
 
 # webex-js-sdk — packages/@webex/webex-core/docs/getting-started.md
@@ -43,7 +43,7 @@ runs from the workspace root.
 ## Install
 
 ```bash
-yarn install
+yarn
 ```
 
 ## Build
@@ -97,7 +97,7 @@ yarn workspace @webex/webex-core test:unit
 
 ## First-run verification
 
-1. Run `yarn install`.
+1. Run `yarn`.
 2. Run `yarn workspace @webex/webex-core test:unit --targets lib/batcher.js`.
 3. Run `yarn workspace @webex/webex-core test:style`.
 

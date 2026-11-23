@@ -4,7 +4,7 @@ source_url: https://github.com/webex/webex-js-sdk/blob/next/packages/%40webex/st
 repo: webex/webex-js-sdk
 ruta: packages/@webex/storage-adapter-local-storage/docs/getting-started.md
 licencia: NOASSERTION
-retrieved_at: 2026-11-16T12:37:20.411157+00:00
+retrieved_at: 2026-11-23T14:21:51.771720+00:00
 ---
 
 # webex-js-sdk — packages/@webex/storage-adapter-local-storage/docs/getting-started.md
@@ -43,12 +43,11 @@ root, not the package directory.
 
 ## Install
 
-Switch to Node 22.14 first (`nvm use 22.14`, as the repository root `AGENTS.md` instructs), then
-run every command below from the root of the cloned repository:
+Use Node 22.14 (as the repository root `AGENTS.md` instructs), then
+run every command below from the root of the repository:
 
 ```bash
-git clone https://github.com/webex/webex-js-sdk.git
-yarn install
+yarn
 ```
 
 ## Build

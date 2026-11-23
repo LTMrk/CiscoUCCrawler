@@ -1,7 +1,7 @@
 ---
 doc_id: www-cisco-com-c-en-us-td-docs-voice-ip-comm-cusrst-admin-sccp-sip-srst-configuration-guide-sccp-and-sip-srst-admin-guide-0192031caf
 source_url: https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cusrst/admin/sccp_sip_srst/configuration/guide/SCCP_and_SIP_SRST_Admin_Guide/srst_overview.html
-retrieved_at: 2026-09-30T18:19:41.979118+00:00
+retrieved_at: 2026-11-23T14:22:54.360704+00:00
 ---
 
 Cisco Unified SRST Administration Guide (All Versions)
@@ -649,6 +649,16 @@ primary-qsig QSIG switch type
 
 primary-ts014 TS014 switch type for Australia (obsolete)
 
+## Simple Network Management Protocol (SNMP) Support for Unified SRST
+
+Unified SRST supports the CISCO-SRST-MIB for monitoring product status. SNMP/MIB support is limited to retrieving the SRST
+                           operating mode and the number of registered phones. Unified SRST Release 12.6 and later releases are SNMPv3 compliant.
+
+For SNMP version 3 configuration, see SNMP Configuration Guide .
+
+Querying the csrstSipEndpointTable (1.3.6.1.4.1.9.9.441.1.4.7) OID returns the first 1,000 entries. The router still reports the total number of registered
+                                       SIP endpoints accurately.
+
 ## Where to Go Next
 
 The next chapters of this book describe how to configure Cisco Unified SIP SRST. As shown in the following table, each chapter
@@ -932,6 +942,10 @@ For information on obtaining documentation, obtaining support, providing documen
                                           platforms. Software images for some platforms may be deferred, delayed, or changed without prior notice. For updated information
                                           about platform support and availability of software images for each Cisco IOS software release, see the online release notes
                                           or, if supported, Cisco Feature Navigator. |
+|---|---|
+
+| Note | Querying the csrstSipEndpointTable (1.3.6.1.4.1.9.9.441.1.4.7) OID returns the first 1,000 entries. The router still reports the total number of registered
+                                       SIP endpoints accurately. |
 |---|---|
 
 | Task | Where Task Is Described |

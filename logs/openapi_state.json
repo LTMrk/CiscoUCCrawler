@@ -200,10 +200,10 @@
     "sha": "ab709fcec88f9c0ac4a3299be93256b122a93d32"
   },
   "webex-cloud-calling.json": {
-    "actualizado": "2026-11-16T14:22:47.390045+00:00",
+    "actualizado": "2026-11-23T14:21:16.158039+00:00",
     "api": "Webex Cloud Calling",
     "api_version": "1.0.0",
-    "content_sha": "74c2c950531c8cdaed1228add3f031664125312892a9cede033d1bccbc0988fc",
+    "content_sha": "9adee6d91aca0020a00ab48ad33d86b357e44331db7e3c6e7da60264cf07ba4c",
     "deprecadas": {
       "GET /people/{personId}/features/applications": true,
       "GET /telephony/config/people/{personId}/applications/{applicationId}/availableMembers": true,
@@ -344,7 +344,6 @@
       "GET /people/{personId}/features/callerId": "webex-cloud-calling-get-people-personid-features-callerid",
       "GET /people/{personId}/features/callingBehavior": "webex-cloud-calling-get-people-personid-features-callingbehavior",
       "GET /people/{personId}/features/doNotDisturb": "webex-cloud-calling-get-people-personid-features-donotdisturb",
-      "GET /people/{personId}/features/executiveAssistant": "webex-cloud-calling-get-people-personid-features-executiveassistant",
       "GET /people/{personId}/features/hoteling": "webex-cloud-calling-get-people-personid-features-hoteling",
       "GET /people/{personId}/features/incomingPermission": "webex-cloud-calling-get-people-personid-features-incomingpermission",
       "GET /people/{personId}/features/intercept": "webex-cloud-calling-get-people-personid-features-intercept",
@@ -690,6 +689,7 @@
       "GET /telephony/config/people/{personId}/emergencyCallbackNumber": "webex-cloud-calling-get-telephony-config-people-personid-emergencycallbacknumber",
       "GET /telephony/config/people/{personId}/emergencyCallbackNumber/availableNumbers": "webex-cloud-calling-get-telephony-config-people-personid-emergencycallbacknumber-availablenumbers",
       "GET /telephony/config/people/{personId}/emergencyCallbackNumber/dependencies": "webex-cloud-calling-get-telephony-config-people-personid-emergencycallbacknumber-dependencies",
+      "GET /telephony/config/people/{personId}/executive": "webex-cloud-calling-get-telephony-config-people-personid-executive",
       "GET /telephony/config/people/{personId}/executive/alert": "webex-cloud-calling-get-telephony-config-people-personid-executive-alert",
       "GET /telephony/config/people/{personId}/executive/assignedAssistants": "webex-cloud-calling-get-telephony-config-people-personid-executive-assignedassistants",
       "GET /telephony/config/people/{personId}/executive/assistant": "webex-cloud-calling-get-telephony-config-people-personid-executive-assistant",
@@ -1172,7 +1172,6 @@
       "PUT /people/{personId}/features/callerId": "webex-cloud-calling-put-people-personid-features-callerid",
       "PUT /people/{personId}/features/callingBehavior": "webex-cloud-calling-put-people-personid-features-callingbehavior",
       "PUT /people/{personId}/features/doNotDisturb": "webex-cloud-calling-put-people-personid-features-donotdisturb",
-      "PUT /people/{personId}/features/executiveAssistant": "webex-cloud-calling-put-people-personid-features-executiveassistant",
       "PUT /people/{personId}/features/hoteling": "webex-cloud-calling-put-people-personid-features-hoteling",
       "PUT /people/{personId}/features/incomingPermission": "webex-cloud-calling-put-people-personid-features-incomingpermission",
       "PUT /people/{personId}/features/intercept": "webex-cloud-calling-put-people-personid-features-intercept",
@@ -1332,6 +1331,7 @@
       "PUT /telephony/config/people/{personId}/devices/settings": "webex-cloud-calling-put-telephony-config-people-personid-devices-settings",
       "PUT /telephony/config/people/{personId}/devices/settings/hoteling": "webex-cloud-calling-put-telephony-config-people-personid-devices-settings-hoteling",
       "PUT /telephony/config/people/{personId}/emergencyCallbackNumber": "webex-cloud-calling-put-telephony-config-people-personid-emergencycallbacknumber",
+      "PUT /telephony/config/people/{personId}/executive": "webex-cloud-calling-put-telephony-config-people-personid-executive",
       "PUT /telephony/config/people/{personId}/executive/alert": "webex-cloud-calling-put-telephony-config-people-personid-executive-alert",
       "PUT /telephony/config/people/{personId}/executive/assignedAssistants": "webex-cloud-calling-put-telephony-config-people-personid-executive-assignedassistants",
       "PUT /telephony/config/people/{personId}/executive/assistant": "webex-cloud-calling-put-telephony-config-people-personid-executive-assistant",
@@ -1455,7 +1455,7 @@
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/accessCodes": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-accesscodes",
       "PUT /workspaces/{workspaceId}/features/outgoingPermission/autoTransferNumbers": "webex-cloud-calling-put-workspaces-workspaceid-features-outgoingpermission-autotransfernumbers"
     },
-    "sha": "f9468836fa52dcf0b2891b0aa0f8a8e5d9d32e36"
+    "sha": "c392da41e536603ac2e27956eace02778e238223"
   },
   "webex-contact-center.json": {
     "actualizado": "2026-11-16T12:36:51.228703+00:00",
@@ -2318,11 +2318,13 @@
     "sha": "6d60fc00b29ae2ad04d41c890e9fde669903ef13"
   },
   "webex-messaging.json": {
-    "actualizado": "2026-11-16T12:36:51.675306+00:00",
+    "actualizado": "2026-11-23T14:21:16.574769+00:00",
     "api": "Webex Messaging",
     "api_version": "1.0.0",
-    "content_sha": "34fb9c280f17732ba01926c3569bef4156d9eafe65acd2c26f31617792071ec7",
-    "deprecadas": {},
+    "content_sha": "1b3079fdf1e01c88e144ff47991ebf0b7dcb47d71011c0eec28044d5783f316f",
+    "deprecadas": {
+      "GET /rooms/{roomId}/meetingInfo": true
+    },
     "operaciones": {
       "DELETE /memberships/{membershipId}": "webex-messaging-delete-memberships-membershipid",
       "DELETE /messages/{messageId}": "webex-messaging-delete-messages-messageid",
@@ -2388,7 +2390,7 @@
       "PUT /teams/{teamId}": "webex-messaging-put-teams-teamid",
       "PUT /webhooks/{webhookId}": "webex-messaging-put-webhooks-webhookid"
     },
-    "sha": "25076d527f0018ef28aec69e1966c210d78cf00c"
+    "sha": "c6682560fff258a8ca6fb04c60fdd6cfe5430105"
   },
   "webex-ucm.json": {
     "actualizado": "2026-11-16T12:36:51.790595+00:00",

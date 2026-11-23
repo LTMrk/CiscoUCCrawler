@@ -10,7 +10,7 @@ tags: Features: Announcement Repository
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.291870+00:00
+retrieved_at: 2026-11-23T14:21:15.811498+00:00
 ---
 
 # DELETE /telephony/config/announcements/{announcementId}

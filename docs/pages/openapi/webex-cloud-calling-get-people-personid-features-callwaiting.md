@@ -10,7 +10,7 @@ tags: User Call Settings (1/2)
 deprecated: false
 scopes: 
 license: CC-BY-4.0
-retrieved_at: 2026-11-16T14:22:47.335000+00:00
+retrieved_at: 2026-11-23T14:21:15.983310+00:00
 ---
 
 # GET /people/{personId}/features/callWaiting

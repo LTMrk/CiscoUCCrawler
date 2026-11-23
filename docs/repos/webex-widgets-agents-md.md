@@ -4,7 +4,7 @@ source_url: https://github.com/webex/widgets/blob/next/AGENTS.md
 repo: webex/widgets
 ruta: AGENTS.md
 licencia: sin declarar
-retrieved_at: 2026-08-24T09:08:38.529838+00:00
+retrieved_at: 2026-11-23T14:22:04.609555+00:00
 ---
 
 # widgets — AGENTS.md
@@ -36,7 +36,7 @@ into host applications.
 
 ## Tech Stack
 - TypeScript, React 18, MobX, Web Components via `@r2wc/react-to-web-component`.
-- Yarn 4.5.1 (PnP, workspaces); Webpack + Babel build.
+- Yarn 4.10.3 (PnP, workspaces); Webpack + Babel build.
 - Jest + React Testing Library (unit); Playwright (E2E). Momentum UI design system.
 
 ## Architecture
