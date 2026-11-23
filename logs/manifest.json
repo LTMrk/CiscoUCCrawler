@@ -18271,6 +18271,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-212833-configure-jabber-group-configuration-fil-mobi-a762744a20",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:16.600501+00:00",
+      "last_seen": "2026-11-23T14:30:16.600511+00:00",
+      "next_check": "2026-11-24T14:30:16.600515+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213403-configure-jabber-version-12-0-in-phone-m.html": {
       "content_sha": "39da2ab6e74b2901f6ea6afafa7464d1ebed3f74af9fd8d01cfc783957f32dac",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-213403-configure-jabber-version-12-0-in-phone-m-html-4c9ee468dd",
@@ -18297,6 +18307,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-213803-configure-ldap-as-a-directory-contact-so-epub-23f29a65e4",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:20.612483+00:00",
+      "last_seen": "2026-11-23T14:30:20.612500+00:00",
+      "next_check": "2026-11-24T14:30:20.612505+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.html": {
       "content_sha": "24fabd4ac918d28c8879985235756ab7fbd8c60d2b1553d1db1f1d06031f5bbd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-213803-configure-ldap-as-a-directory-contact-so-html-ffb2a737dd",
@@ -18309,6 +18329,16 @@
       "next_check": "2026-10-06T06:16:39.718021+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-213803-configure-ldap-as-a-directory-contact-so-mobi-4dee680e23",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:25.058846+00:00",
+      "last_seen": "2026-11-23T14:30:25.058859+00:00",
+      "next_check": "2026-11-24T14:30:25.058864+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/214737-troubleshoot-jabber-login-failure-after.html": {
       "content_sha": "8131edc8e1a2bd0a6eaf6ff1ad927b2428f5a11ec2ef43ebc5de8932a44cd288",
@@ -18323,6 +18353,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-215572-cisco-jabber-and-sip-oauth-mode-epub-c98bdd52b8",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:28.859871+00:00",
+      "last_seen": "2026-11-23T14:30:28.859884+00:00",
+      "next_check": "2026-11-24T14:30:28.859888+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.html": {
       "content_sha": "d719ceffeb04bca30c36a941b6ab637207daedfb75af0c54c4c21a8cabab4ec5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-215572-cisco-jabber-and-sip-oauth-mode-html-a1fdbd8fa3",
@@ -18335,6 +18375,26 @@
       "next_check": "2026-10-06T06:16:44.030084+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-215572-cisco-jabber-and-sip-oauth-mode-mobi-0418a0bf22",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:33.279545+00:00",
+      "last_seen": "2026-11-23T14:30:33.279556+00:00",
+      "next_check": "2026-11-24T14:30:33.279560+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217294-how-to-collect-jabber-prt-logs-remotely-epub-08d1a275bf",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:37.565754+00:00",
+      "last_seen": "2026-11-23T14:30:37.565765+00:00",
+      "next_check": "2026-11-24T14:30:37.565768+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.html": {
       "content_sha": "694f1bbd633199b89897e6c675c34905b155faaf13da9aed616ebb5ea6ab7f2c",
@@ -18349,6 +18409,16 @@
       "status": "active",
       "unchanged_runs": 3
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217294-how-to-collect-jabber-prt-logs-remotely-mobi-e36f0816a0",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:41.578335+00:00",
+      "last_seen": "2026-11-23T14:30:41.578348+00:00",
+      "next_check": "2026-11-24T14:30:41.578353+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217615-configure-and-log-analysis-of-jabber-e91.html": {
       "content_sha": "283f37584dba81b98499360347e48797982bf8cf8406a29db59d6d0337ff1781",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-217615-configure-and-log-analysis-of-jabber-e91-html-75e3014104",
@@ -18360,6 +18430,16 @@
       "last_seen": "2026-09-27T15:09:46.874123+00:00",
       "next_check": "2026-09-28T15:09:46.874123+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220328-troubleshoot-when-jabber-crashes-epub-11389783a0",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:45.878436+00:00",
+      "last_seen": "2026-11-23T14:30:45.878450+00:00",
+      "next_check": "2026-11-24T14:30:45.878454+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.html": {
@@ -18374,6 +18454,26 @@
       "next_check": "2026-10-06T06:16:52.676632+00:00",
       "status": "active",
       "unchanged_runs": 3
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220328-troubleshoot-when-jabber-crashes-mobi-cbfcc39d10",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:50.262672+00:00",
+      "last_seen": "2026-11-23T14:30:50.262682+00:00",
+      "next_check": "2026-11-24T14:30:50.262685+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-epub-edc495982f",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:30:54.709253+00:00",
+      "last_seen": "2026-11-23T14:30:54.709267+00:00",
+      "next_check": "2026-11-24T14:30:54.709271+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.html": {
       "content_sha": "453aec3a0143b01451c5d8f1192964007d73df0ddaef95b4c59e65cb34e3e76f",
@@ -184701,5 +184801,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:28:19.462440+00:00"
+  "updated_at": "2026-11-23T14:30:54.777152+00:00"
 }

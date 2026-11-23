@@ -1,13 +1,3 @@
-[2026-09-20T07:37:10.466160] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-3/cert_creation_use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x14-3.html
-[2026-09-20T07:37:14.760983] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0-2/cert_creation_use/exwy_b_certificate-creation-and-use-deployment-guide-x1402.html
-[2026-09-20T07:37:18.987350] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0-1/cert_creation_use/exwy_b_certificate-creation-and-use-deployment-guide-x1401.html
-[2026-09-20T07:37:23.291539] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/cert_creation_use/exwy_b_cisco-expressway-certificate-creation-and-use-deployment-guide-x14-0.html
-[2026-09-20T07:37:27.790287] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/basic_config/exwy_b_cisco-expressway-e-and-expressway-c-basic-configuration-deployment-guide-x14-0.html
-[2026-09-20T07:37:31.646167] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X14-0/ip_port_usage/exwy_b_ip-port-usage-configuration-guide-14.html
-[2026-09-20T07:37:36.049701] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_cluster-creation-maintenance-deployment-guide.html
-[2026-09-20T07:37:40.103056] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_certificate-creation-use-deployment-guide.html
-[2026-09-20T07:37:44.287829] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-6/exwy_b_mra-expressway-deployment-guide.html
-[2026-09-20T07:37:48.783923] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-5/exwy_b_mra-expressway-deployment-guide.html
 [2026-09-20T07:37:52.744659] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/expressway/config_guide/X12-5/exwy_b_certificate-creation-use-deployment-guide.html
 [2026-09-20T07:38:05.478972] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/voice/cube/ios-xe/config/ios-xe-book.html
 [2026-09-20T07:38:09.710457] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/im_presence/configAdminGuide/15_0/cup0_b_config-and-admin-guide-15.html
@@ -19998,3 +19988,13 @@
 [2026-11-23T14:28:10.679083] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.epub
 [2026-11-23T14:28:14.675752] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212107-Tech-Note-on-CTI-Manager-Call-Flow-for-J.mobi
 [2026-11-23T14:28:19.402613] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.epub
+[2026-11-23T14:30:16.600565] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/212833-configure-jabber-group-configuration-fil.mobi
+[2026-11-23T14:30:20.612572] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.epub
+[2026-11-23T14:30:25.058922] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/213803-configure-ldap-as-a-directory-contact-so.mobi
+[2026-11-23T14:30:28.859943] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.epub
+[2026-11-23T14:30:33.279606] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/215572-cisco-jabber-and-sip-oauth-mode.mobi
+[2026-11-23T14:30:37.565816] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.epub
+[2026-11-23T14:30:41.578412] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/217294-how-to-collect-jabber-prt-logs-remotely.mobi
+[2026-11-23T14:30:45.878515] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.epub
+[2026-11-23T14:30:50.262731] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220328-troubleshoot-when-jabber-crashes.mobi
+[2026-11-23T14:30:54.709333] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.epub
