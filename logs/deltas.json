@@ -1,11 +1,13 @@
 {
-  "run_at": "2026-11-23T14:33:23.117971+00:00",
+  "run_at": "2026-11-23T14:35:59.450427+00:00",
   "modo": "incremental",
   "added": [],
   "modified": [],
   "removed": [],
   "blocked": [],
   "unchanged_count": 0,
-  "redirected": [],
+  "redirected": [
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/callservices/cmgt_b_ciscospark-hybrid-call-service-config-guide/cmgt_b_ciscospark-hybrid-call-service-config-guide_chapter_01001.html -> https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services"
+  ],
   "semillas_encoladas": 0
 }

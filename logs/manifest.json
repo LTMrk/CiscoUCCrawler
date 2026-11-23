@@ -18669,6 +18669,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-epub-9dba284549",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:21.403822+00:00",
+      "last_seen": "2026-11-23T14:35:21.403832+00:00",
+      "next_check": "2026-11-24T14:35:21.403834+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html": {
       "content_sha": "eca129eda8ee3f325c075929e1a0785a0f614cae5dccb5e8a390cac94070fb25",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-html-e1a801483e",
@@ -18680,6 +18690,16 @@
       "last_seen": "2026-09-28T06:17:18.008017+00:00",
       "next_check": "2026-09-29T06:17:18.008017+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-spark-212475-troubleshooting-guide-for-cisco-spark-hy-mobi-7484422f1b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:25.642792+00:00",
+      "last_seen": "2026-11-23T14:35:25.642803+00:00",
+      "next_check": "2026-11-24T14:35:25.642806+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/speechview/217535-troubleshoot-the-error-failed-to-fetch.html": {
@@ -18721,6 +18741,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-353db11c32",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:34.385594+00:00",
+      "last_seen": "2026-11-23T14:35:34.385606+00:00",
+      "next_check": "2026-11-24T14:35:34.385610+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.html": {
       "content_sha": "371d3fd9fefb14844b1d0c4e29f5902badaa310f35c94d0b150f9fa743e4a2d3",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-5dd28dc2ac",
@@ -18732,6 +18762,16 @@
       "last_seen": "2026-09-28T06:17:21.656872+00:00",
       "next_check": "2026-09-29T06:17:21.656872+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225476-understand-mobile-and-remote-access.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-225476-unde-0fb7607779",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:38.264484+00:00",
+      "last_seen": "2026-11-23T14:35:38.264495+00:00",
+      "next_check": "2026-11-24T14:35:38.264499+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/225693-navigate-client-eku-sunset-with.html": {
@@ -18747,6 +18787,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-0e22d1f2f8",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:42.471669+00:00",
+      "last_seen": "2026-11-23T14:35:42.471679+00:00",
+      "next_check": "2026-11-24T14:35:42.471682+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.html": {
       "content_sha": "f5679ef5f4c20aa2c5740391272b8b451df4656a45095a7b4bd471e1fdf22851",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-a4d7a5a914",
@@ -18758,6 +18808,16 @@
       "last_seen": "2026-09-28T06:17:25.762939+00:00",
       "next_check": "2026-09-29T06:17:25.762939+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-expressway/226221-understand-effect-of-godaddy-root.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-expressway-226221-unde-53619cc98f",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:46.431207+00:00",
+      "last_seen": "2026-11-23T14:35:46.431219+00:00",
+      "next_check": "2026-11-24T14:35:46.431222+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/118675-configure-vcs-00.html": {
@@ -18799,6 +18859,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-a130fca2bf",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:50.727718+00:00",
+      "last_seen": "2026-11-23T14:35:50.727729+00:00",
+      "next_check": "2026-11-24T14:35:50.727732+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.html": {
       "content_sha": "7c30b90f895c6d77a3f91e7128ce7e986a830485ae471e712c8e88c6f2dae9e5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-b6d286d690",
@@ -18812,6 +18882,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-214282-troubleshoo-b48322e73a",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:54.840927+00:00",
+      "last_seen": "2026-11-23T14:35:54.840939+00:00",
+      "next_check": "2026-11-24T14:35:54.840943+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/221624-troubleshoot-expressway-certificates.html": {
       "content_sha": "f47c614491ebc9cadd49558825b96c7f37ff0676977b1e5791c7c53de67964ab",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-telepresence-video-communication-server-vcs-221624-troubleshoo-e12a18d67a",
@@ -18823,6 +18903,16 @@
       "last_seen": "2026-09-27T15:12:28.729628+00:00",
       "next_check": "2026-09-28T15:12:28.729628+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200067-configure-logging-pa-f20ad3a739",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:35:59.245338+00:00",
+      "last_seen": "2026-11-23T14:35:59.245353+00:00",
+      "next_check": "2026-11-24T14:35:59.245358+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.html": {
@@ -36481,6 +36571,18 @@
       "http_status": 301,
       "last_seen": "2026-09-01T15:30:44.205162+00:00",
       "next_check": "2026-09-02T15:30:44.205162+00:00",
+      "redirect_to": "https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services",
+      "status": "redirect",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cloudCollaboration/spark/hybridservices/callservices/cmgt_b_ciscospark-hybrid-call-service-config-guide/cmgt_b_ciscospark-hybrid-call-service-config-guide_chapter_01001.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-td-docs-voice-ip-comm-cloudcollaboration-spark-hybridservices-callservices-cmgt-b-ciscospark-hybri-e60190607c",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:35:33.507182+00:00",
+      "http_status": 301,
+      "last_seen": "2026-11-23T14:35:33.507191+00:00",
+      "next_check": "2026-11-24T14:35:33.507191+00:00",
       "redirect_to": "https://help.webex.com/en-us/article/nm1m8zv/Get-Started-with-Webex-Hybrid-Services",
       "status": "redirect",
       "unchanged_runs": 0
@@ -184901,5 +185003,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:33:22.983195+00:00"
+  "updated_at": "2026-11-23T14:35:59.302912+00:00"
 }
