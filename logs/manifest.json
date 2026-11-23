@@ -18928,6 +18928,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200067-configure-logging-pa-9f47210c50",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:37:46.057012+00:00",
+      "last_seen": "2026-11-23T14:37:46.057024+00:00",
+      "next_check": "2026-11-24T14:37:46.057028+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200118-troubleshoot-unregis-5c46dedc66",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:37:50.122420+00:00",
+      "last_seen": "2026-11-23T14:37:50.122443+00:00",
+      "next_check": "2026-11-24T14:37:50.122449+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.html": {
       "content_sha": "f000da803b9541a54992d34f98775eac00b192106a1f6522ff5d95898c7b3486",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200118-troubleshoot-unregis-78be30c417",
@@ -18939,6 +18959,26 @@
       "last_seen": "2026-09-28T06:17:38.595978+00:00",
       "next_check": "2026-09-29T06:17:38.595978+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200118-troubleshoot-unregis-39a2d08043",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:37:54.213256+00:00",
+      "last_seen": "2026-11-23T14:37:54.213267+00:00",
+      "next_check": "2026-11-24T14:37:54.213271+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200513-installation-of-repl-cfdf6129d9",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:02.658101+00:00",
+      "last_seen": "2026-11-23T14:38:02.658113+00:00",
+      "next_check": "2026-11-24T14:38:02.658116+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.html": {
@@ -18954,6 +18994,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200513-installation-of-repl-9395108055",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:06.893327+00:00",
+      "last_seen": "2026-11-23T14:38:06.893341+00:00",
+      "next_check": "2026-11-24T14:38:06.893346+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200514-cuac-60-day-evaulati-e417a8e848",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:11.368828+00:00",
+      "last_seen": "2026-11-23T14:38:11.368840+00:00",
+      "next_check": "2026-11-24T14:38:11.368843+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.html": {
       "content_sha": "cdfa6a99e935091933ff17e8258b957b01128d5a7ccd670903dc3d42f8fec7b2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200514-cuac-60-day-evaulati-cb30b0a8c9",
@@ -18967,6 +19027,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-200514-cuac-60-day-evaulati-2510d21f88",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:15.485550+00:00",
+      "last_seen": "2026-11-23T14:38:15.485560+00:00",
+      "next_check": "2026-11-24T14:38:15.485564+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-202617-technote-on-attendan-933acd2b4b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:19.694486+00:00",
+      "last_seen": "2026-11-23T14:38:19.694497+00:00",
+      "next_check": "2026-11-24T14:38:19.694500+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.html": {
       "content_sha": "deb9d81f9fd3c75787f23464e43590e2a6c7151e279c7880b30649fbdf3a1a60",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-202617-technote-on-attendan-07ba5894d9",
@@ -18978,6 +19058,16 @@
       "last_seen": "2026-09-28T06:17:51.095864+00:00",
       "next_check": "2026-09-29T06:17:51.095864+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-202617-technote-on-attendan-91ccc9de3e",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:38:23.812431+00:00",
+      "last_seen": "2026-11-23T14:38:23.812443+00:00",
+      "next_check": "2026-11-24T14:38:23.812446+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html": {
@@ -24354,6 +24444,16 @@
       "redirect_to": "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html",
       "status": "redirect",
       "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-attendant-consoles-series-html-964b80fc7a",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:38:02.340514+00:00",
+      "last_seen": "2026-11-23T14:38:02.340514+00:00",
+      "next_check": "2026-11-25T14:38:02.340514+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
     },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-border-element/products-configuration-examples-list.html": {
       "content_sha": null,
@@ -185003,5 +185103,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:35:59.302912+00:00"
+  "updated_at": "2026-11-23T14:38:23.881766+00:00"
 }

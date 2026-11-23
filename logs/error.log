@@ -1,12 +1,3 @@
-[2026-09-20T07:39:29.853354] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_00.html
-[2026-09-20T07:39:33.969983] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_0110100.html
-[2026-09-20T07:39:37.991305] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/admin/12_5_1/systemConfig/cucm_b_system-configuration-guide-1251/cucm_b_system-configuration-guide-1251_chapter_0110101.html
-[2026-09-20T07:39:43.121819] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/CMDP_BK_CCBDA741_00_cucm-device-package-compatibility-matrix.epub
-[2026-09-20T07:39:47.472252] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/matrix/CMDP_BK_CCBDA741_00_cucm-device-package-compatibility-matrix.mobi
-[2026-09-20T07:39:51.450028] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.epub
-[2026-09-20T07:39:55.816609] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/compat/Devpacks_admin/CMDP_BK_CD82F19C_00_cisco-unified-communications-manager-device.mobi
-[2026-09-20T07:40:02.999840] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/chcs_b_cisco-collaboration-on-virtual-servers/chcs_m_migration.html
-[2026-09-20T07:40:07.277874] Markdown insuficiente tras sanitizar (174 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/chcs_b_cisco-collaboration-on-virtual-servers/chcs_m_administration.html
 [2026-09-20T07:40:11.570776] Markdown insuficiente tras sanitizar (166 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/virtual/chcs_b_cisco-collaboration-on-virtual-servers/chcs_b_cisco-collaboration-on-virtual-servers_index.html
 [2026-09-20T07:40:16.343938] Markdown insuficiente tras sanitizar (0 chars). | https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/pcdadmin/12_5_1/cucm_b_pcd-admin-guide_126/cucm_b_pcd-admin-guide_126_index.html
 [2026-09-20T07:43:46.254494] Markdown insuficiente tras sanitizar (0 chars). | https://developer.cisco.com/docs/axl-schema-reference/
@@ -19998,3 +19989,12 @@
 [2026-11-23T14:35:50.727779] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.epub
 [2026-11-23T14:35:54.840991] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/telepresence-video-communication-server-vcs/214282-troubleshoot-media-failure-for-calls-ove.mobi
 [2026-11-23T14:35:59.245409] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.epub
+[2026-11-23T14:37:46.057104] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200067-Configure-Logging-Path-for-CUAC-Advanced.mobi
+[2026-11-23T14:37:50.122542] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.epub
+[2026-11-23T14:37:54.213318] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200118-Troubleshoot-unregistered-CTI-ports-afte.mobi
+[2026-11-23T14:38:02.658166] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.epub
+[2026-11-23T14:38:06.893410] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200513-Installation-of-Replication-for-CUAC-Adv.mobi
+[2026-11-23T14:38:11.368893] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.epub
+[2026-11-23T14:38:15.485610] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/200514-CUAC-60-Day-Evaulation-License-Has-Expir.mobi
+[2026-11-23T14:38:19.694551] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.epub
+[2026-11-23T14:38:23.812492] HTTP 599 o DOM vacío. | https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/202617-technote-on-attendant-console-multiple-t.mobi
