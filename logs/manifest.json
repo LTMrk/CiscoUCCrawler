@@ -18488,6 +18488,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/220616-troubleshoot-jabber-softphone-for-vdi.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-220616-troubleshoot-jabber-softphone-for-vdi-mobi-4f5e8986a5",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:32:44.936488+00:00",
+      "last_seen": "2026-11-23T14:32:44.936498+00:00",
+      "next_check": "2026-11-24T14:32:44.936501+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/221845-troubleshoot-jabber-log-in-common-issu.html": {
       "content_sha": "a164661b016960b029b33607dcc5ec0c475427acd899c28acdaa543b0aa108b9",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-221845-troubleshoot-jabber-log-in-common-issu-html-590192ea45",
@@ -18501,6 +18511,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-222555-collect-pcaps-to-troubleshoot-webex-jabb-epub-bd679f447a",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:32:49.010275+00:00",
+      "last_seen": "2026-11-23T14:32:49.010286+00:00",
+      "next_check": "2026-11-24T14:32:49.010288+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.html": {
       "content_sha": "69ebb9a9adee65610f0b22ccf1262605260d6c53fa8954591418e917a7575508",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-222555-collect-pcaps-to-troubleshoot-webex-jabb-html-7a48d62c5d",
@@ -18512,6 +18532,26 @@
       "last_seen": "2026-09-28T06:17:01.114517+00:00",
       "next_check": "2026-09-29T06:17:01.114517+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/222555-collect-pcaps-to-troubleshoot-webex-jabb.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-222555-collect-pcaps-to-troubleshoot-webex-jabb-mobi-ace0d16493",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:32:53.523142+00:00",
+      "last_seen": "2026-11-23T14:32:53.523154+00:00",
+      "next_check": "2026-11-24T14:32:53.523159+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-epub-c8be040afb",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:32:57.615808+00:00",
+      "last_seen": "2026-11-23T14:32:57.615820+00:00",
+      "next_check": "2026-11-24T14:32:57.615824+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.html": {
@@ -18527,6 +18567,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/jabber/225121-troubleshoot-jabber-audio-issues-with.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-jabber-225121-troubleshoot-jabber-audio-issues-with-mobi-8e6fa1ae42",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:33:02.201669+00:00",
+      "last_seen": "2026-11-23T14:33:02.201682+00:00",
+      "next_check": "2026-11-24T14:33:02.201685+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-117059-configure-informacast-00-epub-177de45ccc",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:33:06.500272+00:00",
+      "last_seen": "2026-11-23T14:33:06.500285+00:00",
+      "next_check": "2026-11-24T14:33:06.500288+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.html": {
       "content_sha": "3d78cc115d93c351a75bb07a75e7eab320fa4fc5af6fb1b2cf659d84515fcf28",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-117059-configure-informacast-00-html-423128e0ee",
@@ -18538,6 +18598,16 @@
       "last_seen": "2026-09-28T06:17:09.308850+00:00",
       "next_check": "2026-09-29T06:17:09.308850+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/117059-configure-informacast-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-117059-configure-informacast-00-mobi-0ce895057a",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:33:10.310824+00:00",
+      "last_seen": "2026-11-23T14:33:10.310835+00:00",
+      "next_check": "2026-11-24T14:33:10.310838+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/212079-Configure-InformaCast-Paging-Server-Cisc.html": {
@@ -18566,6 +18636,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216177-configure-and-troubleshoot-informacast-ep-7548b5145c",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:33:18.624719+00:00",
+      "last_seen": "2026-11-23T14:33:18.624730+00:00",
+      "next_check": "2026-11-24T14:33:18.624733+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.html": {
       "content_sha": "ae1cfa08fee0dbed11ee3339fb97a8f8fc46407fb449f9d0bc07e2f4202a0ebc",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216177-configure-and-troubleshoot-informacast-ht-337d1598c6",
@@ -18577,6 +18657,16 @@
       "last_seen": "2026-09-28T06:17:13.805638+00:00",
       "next_check": "2026-09-29T06:17:13.805638+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/paging-server/216177-configure-and-troubleshoot-informacast.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-paging-server-216177-configure-and-troubleshoot-informacast-mo-161a70e21b",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:33:22.924344+00:00",
+      "last_seen": "2026-11-23T14:33:22.924357+00:00",
+      "next_check": "2026-11-24T14:33:22.924360+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/spark/212475-troubleshooting-guide-for-cisco-spark-hy.html": {
@@ -24084,6 +24174,16 @@
       "first_seen": "2026-11-16T13:36:37.400780+00:00",
       "last_seen": "2026-11-16T13:36:37.400780+00:00",
       "next_check": "2026-11-18T13:36:37.400780+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/paging-server/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-paging-server-series-html-aa600ebb16",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:33:17.717940+00:00",
+      "last_seen": "2026-11-23T14:33:17.717940+00:00",
+      "next_check": "2026-11-25T14:33:17.717940+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -184801,5 +184901,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:30:54.777152+00:00"
+  "updated_at": "2026-11-23T14:33:22.983195+00:00"
 }
