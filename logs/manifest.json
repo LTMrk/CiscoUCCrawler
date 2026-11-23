@@ -19757,6 +19757,16 @@
       "status": "active",
       "unchanged_runs": 2
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118718-technote-cuc-4b981a38d9",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:17.865900+00:00",
+      "last_seen": "2026-11-23T14:45:17.865911+00:00",
+      "next_check": "2026-11-24T14:45:17.865914+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118722-configure-cucm-00.html": {
       "content_sha": "aaf1584d914080bf02e8a4dab65f6b365424cf3a35af819df3138ff5c6fa50eb",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118722-configure-cu-2df116cf56",
@@ -20281,6 +20291,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--d75c7827b2",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:22.123806+00:00",
+      "last_seen": "2026-11-23T14:45:22.123816+00:00",
+      "next_check": "2026-11-24T14:45:22.123820+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.html": {
       "content_sha": "92883ac2a82dca16b2eb850aa2a0952f10634836156169f8c3ba22af12c0bbec",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--b7aa4ab11e",
@@ -20292,6 +20312,16 @@
       "last_seen": "2026-09-28T06:18:52.959540+00:00",
       "next_check": "2026-09-29T06:18:52.959540+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/200981-CUCM-11-5-x-TFTP-Scale-Architectural-Imp.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-200981-cucm-11-5-x--6d5a12f61f",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:26.326437+00:00",
+      "last_seen": "2026-11-23T14:45:26.326447+00:00",
+      "next_check": "2026-11-24T14:45:26.326450+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210536-Supporting-Variable-Length-Dial-Plans-fo.html": {
@@ -20320,6 +20350,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-8185b7a26c",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:30.620906+00:00",
+      "last_seen": "2026-11-23T14:45:30.620918+00:00",
+      "next_check": "2026-11-24T14:45:30.620922+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.html": {
       "content_sha": "6823a31ba298c6ee6a33a320ea6f116895111e3fe4c9cdfc5eab600545b88bb2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-2aae407ed8",
@@ -20331,6 +20371,16 @@
       "last_seen": "2026-09-28T06:18:57.361702+00:00",
       "next_check": "2026-09-29T06:18:57.361702+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/210541-CUCM-Certificate-Management-and-Change-N.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-210541-cucm-certifi-fbaafd40ba",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:34.547698+00:00",
+      "last_seen": "2026-11-23T14:45:34.547712+00:00",
+      "next_check": "2026-11-24T14:45:34.547717+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/211280-Configuration-and-Troubleshoot-of-Logica.html": {
@@ -21023,6 +21073,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-cf43ce7c0e",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:38.702793+00:00",
+      "last_seen": "2026-11-23T14:45:38.702805+00:00",
+      "next_check": "2026-11-24T14:45:38.702809+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.html": {
       "content_sha": "886b182b26d78795b5e8677be4966fad89fa5de7451c5292b8958d0124733ac2",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-fa73844b57",
@@ -21034,6 +21094,16 @@
       "last_seen": "2026-09-28T06:19:01.117072+00:00",
       "next_check": "2026-09-29T06:19:01.117072+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214535-troubleshoot-extension-mobility-cross-cl.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-214535-troubleshoot-bf451fa952",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:42.851129+00:00",
+      "last_seen": "2026-11-23T14:45:42.851146+00:00",
+      "next_check": "2026-11-24T14:45:42.851152+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/214626-configure-backup-and-restore-from-gui-in.html": {
@@ -21088,6 +21158,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215438-how-to-expor-cc043d9bd6",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:46.969452+00:00",
+      "last_seen": "2026-11-23T14:45:46.969464+00:00",
+      "next_check": "2026-11-24T14:45:46.969467+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.html": {
       "content_sha": "3296e87a451a6d7d43592ce13857faa7824e9f52b01c0344f719eb95aec97868",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215438-how-to-expor-07deb5a5b7",
@@ -21100,6 +21180,16 @@
       "next_check": "2026-10-14T10:48:33.737601+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215438-how-to-export-tls-certifcate-from-cucm-p.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-215438-how-to-expor-968f421371",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:51.324656+00:00",
+      "last_seen": "2026-11-23T14:45:51.324665+00:00",
+      "next_check": "2026-11-24T14:45:51.324669+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/215534-create-windows-ca-certificate-templates.html": {
       "content_sha": "e8078c69783f685e21929d79ccbd1db55ae03577a5a3b90b17e9e6c467a23131",
@@ -21579,6 +21669,16 @@
       "next_check": "2026-10-01T13:06:59.537351+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-im-presence-service-217304-trou-5099d21680",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:45:55.476997+00:00",
+      "last_seen": "2026-11-23T14:45:55.477010+00:00",
+      "next_check": "2026-11-24T14:45:55.477015+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-im-presence-service/217304-troubleshooting-services-not-starting-on.html": {
       "content_sha": "93efaf492b981f2086b726b8aa8096fcbc8064d5f39850a378829376a4a4f621",
@@ -185303,5 +185403,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:43:30.829247+00:00"
+  "updated_at": "2026-11-23T14:45:55.542342+00:00"
 }
