@@ -19070,6 +19070,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-211568-activating-and-insta-de3a119a91",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:14.218313+00:00",
+      "last_seen": "2026-11-23T14:40:14.218326+00:00",
+      "next_check": "2026-11-24T14:40:14.218330+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.html": {
       "content_sha": "149254211a867711c79a82d08e3cfddf4dbda7e668d465f395d260c27d4eddb5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-211568-activating-and-insta-c95f8e488f",
@@ -19081,6 +19091,26 @@
       "last_seen": "2026-09-28T06:17:55.274820+00:00",
       "next_check": "2026-09-29T06:17:55.274820+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/211568-Activating-and-Installing-a-CUAC-Advance.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-211568-activating-and-insta-d347ef2671",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:17.489846+00:00",
+      "last_seen": "2026-11-23T14:40:17.489861+00:00",
+      "next_check": "2026-11-24T14:40:17.489865+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212100-windows-server-harde-6e6bcc13cc",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:21.420114+00:00",
+      "last_seen": "2026-11-23T14:40:21.420129+00:00",
+      "next_check": "2026-11-24T14:40:21.420133+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.html": {
@@ -19096,6 +19126,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212100-Windows-Server-Hardening-for-CUAC.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212100-windows-server-harde-e368af89f9",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:25.589762+00:00",
+      "last_seen": "2026-11-23T14:40:25.589777+00:00",
+      "next_check": "2026-11-24T14:40:25.589782+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/212911-migration-procedure-for-cuaca-10-5-x-to.html": {
       "content_sha": "dbc0981c528dc9984dcb160260950062b86fa2f1dbea5d043f3b88f856d3529c",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-212911-migration-procedure--6f2335b7fb",
@@ -19107,6 +19147,16 @@
       "last_seen": "2026-09-27T15:07:57.248297+00:00",
       "next_check": "2026-09-28T15:07:57.248297+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217593-troubleshoot-no-repl-55f66e31c6",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:29.699964+00:00",
+      "last_seen": "2026-11-23T14:40:29.699978+00:00",
+      "next_check": "2026-11-24T14:40:29.699981+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.html": {
@@ -19122,6 +19172,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217593-troubleshoot-no-replication-records-fou.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217593-troubleshoot-no-repl-d2bf9377f4",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:34.032763+00:00",
+      "last_seen": "2026-11-23T14:40:34.032779+00:00",
+      "next_check": "2026-11-24T14:40:34.032783+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217614-solve-cryptokey-erro-891a82fe72",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:38.328237+00:00",
+      "last_seen": "2026-11-23T14:40:38.328258+00:00",
+      "next_check": "2026-11-24T14:40:38.328271+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.html": {
       "content_sha": "dc39e1facf9ce30bd755a18f1a71a11c498e6210d5cf407e00bbfd15ca97a064",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217614-solve-cryptokey-erro-edec5a3dfa",
@@ -19135,6 +19205,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217614-solve-cryptokey-error-at-cuac-a-subscrib.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217614-solve-cryptokey-erro-81945ef1f8",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:42.491633+00:00",
+      "last_seen": "2026-11-23T14:40:42.491646+00:00",
+      "next_check": "2026-11-24T14:40:42.491649+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217618-resolve-the-not-avai-5818b1f787",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:46.390577+00:00",
+      "last_seen": "2026-11-23T14:40:46.390590+00:00",
+      "next_check": "2026-11-24T14:40:46.390593+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.html": {
       "content_sha": "d188a54bede33f30acb0c7a64b44783593cc12d35ea036aa453aef2a0dbbd945",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217618-resolve-the-not-avai-4ac48af18e",
@@ -19146,6 +19236,16 @@
       "last_seen": "2026-09-28T06:18:11.869833+00:00",
       "next_check": "2026-09-29T06:18:11.869833+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-advanced/217618-resolve-the-not-available-failover-statu.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-advanced-217618-resolve-the-not-avai-631fe4cd63",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:40:50.924292+00:00",
+      "last_seen": "2026-11-23T14:40:50.924309+00:00",
+      "next_check": "2026-11-24T14:40:50.924313+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html": {
@@ -185103,5 +185203,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:38:23.881766+00:00"
+  "updated_at": "2026-11-23T14:40:50.977154+00:00"
 }
