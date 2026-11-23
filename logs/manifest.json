@@ -19248,6 +19248,16 @@
       "status": "failed",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-enterprise-edition-200175-cisco-unif-92fc761881",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:42:53.796536+00:00",
+      "last_seen": "2026-11-23T14:42:53.796546+00:00",
+      "next_check": "2026-11-24T14:42:53.796549+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-enterprise-edition/200175-Cisco-Unified-Attendant-Console-Licensin.html": {
       "content_sha": "238ec0b4d123ccb954c86b8f5b56ed6265ffba337313be9e27820e75dd1444cd",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-enterprise-edition-200175-cisco-unif-56c78579e6",
@@ -19274,6 +19284,16 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-220242-configure-and-integr-d820fb5f0c",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:01.691107+00:00",
+      "last_seen": "2026-11-23T14:43:01.691119+00:00",
+      "next_check": "2026-11-24T14:43:01.691123+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.html": {
       "content_sha": "4d3a2d7737b7c1d9742bd5fdc96383e88f23097411a5b1b0e914c49ed2a6ceb0",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-220242-configure-and-integr-2455861946",
@@ -19287,6 +19307,26 @@
       "status": "active",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-console-standard/220242-configure-and-integrate-cuac-standard-im.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-console-standard-220242-configure-and-integr-03245d3254",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:05.840311+00:00",
+      "last_seen": "2026-11-23T14:43:05.840324+00:00",
+      "next_check": "2026-11-24T14:43:05.840328+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118860-technote-cuacs-00-epub-346ea8eae9",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:10.041124+00:00",
+      "last_seen": "2026-11-23T14:43:10.041133+00:00",
+      "next_check": "2026-11-24T14:43:10.041136+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.html": {
       "content_sha": "e1b91cb1bba25d59462cbf22ff2b89efe589e45a47a708ec257e7da631c596da",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118860-technote-cuacs-00-html-859650320d",
@@ -19298,6 +19338,16 @@
       "last_seen": "2026-09-28T06:18:28.912797+00:00",
       "next_check": "2026-09-29T06:18:28.912797+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118860-technote-cuacs-00.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-attendant-consoles-118860-technote-cuacs-00-mobi-92d16a1bef",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:14.385127+00:00",
+      "last_seen": "2026-11-23T14:43:14.385138+00:00",
+      "next_check": "2026-11-24T14:43:14.385142+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-attendant-consoles/118863-technote-cuac-00.html": {
@@ -19599,6 +19649,16 @@
       "status": "active",
       "unchanged_runs": 4
     },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-b031675b7a",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:18.484265+00:00",
+      "last_seen": "2026-11-23T14:43:18.484275+00:00",
+      "next_check": "2026-11-24T14:43:18.484278+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
+    },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.html": {
       "content_sha": "260d7f742b17c6eeca09e53881e6460569a1c647753b1143911995870d01a7d5",
       "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-c1829d4876",
@@ -19610,6 +19670,16 @@
       "last_seen": "2026-09-28T06:18:36.846518+00:00",
       "next_check": "2026-09-29T06:18:36.846518+00:00",
       "status": "active",
+      "unchanged_runs": 0
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-applications/220225-troubleshoot-jabber-log-in-problems-n.mobi": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-applications-220225-troubleshoot-jabber-1989cc1ec6",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:22.628963+00:00",
+      "last_seen": "2026-11-23T14:43:22.628977+00:00",
+      "next_check": "2026-11-24T14:43:22.628982+00:00",
+      "status": "failed",
       "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/115785-anyconnect-vpn-00.html": {
@@ -19663,6 +19733,16 @@
       "next_check": "2026-09-30T18:47:05.685439+00:00",
       "status": "active",
       "unchanged_runs": 4
+    },
+    "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.epub": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-docs-unified-communications-unified-communications-manager-callmanager-118718-technote-cuc-0ac31aa779",
+      "fail_count": 1,
+      "first_seen": "2026-11-23T14:43:30.760603+00:00",
+      "last_seen": "2026-11-23T14:43:30.760612+00:00",
+      "next_check": "2026-11-24T14:43:30.760615+00:00",
+      "status": "failed",
+      "unchanged_runs": 0
     },
     "https://www.cisco.com/c/en/us/support/docs/unified-communications/unified-communications-manager-callmanager/118718-technote-cucm-00.html": {
       "content_sha": "26af1c84193a1a5abe113d50bcecef65b238d3fecafd8f7bd8a9ffab78646742",
@@ -24545,6 +24625,16 @@
       "status": "redirect",
       "unchanged_runs": 0
     },
+    "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/products-installation-guides-list.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-attendant-consoles-products-installation-guides-list-html-0a2f780ab0",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:43:00.666763+00:00",
+      "last_seen": "2026-11-23T14:43:00.666763+00:00",
+      "next_check": "2026-11-25T14:43:00.666763+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
     "https://www.cisco.com/c/en/us/support/unified-communications/unified-attendant-consoles/series.html": {
       "content_sha": null,
       "doc_id": "www-cisco-com-c-en-us-support-unified-communications-unified-attendant-consoles-series-html-964b80fc7a",
@@ -25280,6 +25370,16 @@
       "first_seen": "2026-09-27T11:20:47.343168+00:00",
       "last_seen": "2026-09-27T11:20:47.343168+00:00",
       "next_check": "2026-09-29T11:20:47.343168+00:00",
+      "status": "discovery",
+      "unchanged_runs": 1
+    },
+    "https://www.cisco.com/c/en/us/support/unified-communications/webex-cloud-connected-uc/series.html": {
+      "content_sha": null,
+      "doc_id": "www-cisco-com-c-en-us-support-unified-communications-webex-cloud-connected-uc-series-html-0963abf828",
+      "fail_count": 0,
+      "first_seen": "2026-11-23T14:43:30.143105+00:00",
+      "last_seen": "2026-11-23T14:43:30.143105+00:00",
+      "next_check": "2026-11-25T14:43:30.143105+00:00",
       "status": "discovery",
       "unchanged_runs": 1
     },
@@ -185203,5 +185303,5 @@
     }
   },
   "schema_version": 2,
-  "updated_at": "2026-11-23T14:40:50.977154+00:00"
+  "updated_at": "2026-11-23T14:43:30.829247+00:00"
 }
